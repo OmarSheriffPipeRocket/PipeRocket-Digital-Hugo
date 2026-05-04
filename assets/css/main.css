@@ -2566,8 +2566,8 @@ main table a,
 }
 @media (min-width: 1024px) {
   .pr-article-3-6-3 {
-    grid-template-columns: 3fr 6fr 3fr;
-    gap: var(--pr-s-8);
+    grid-template-columns: 2fr 8fr 3fr;
+    gap: var(--pr-s-7);
   }
   .pr-article-rail {
     position: sticky;
