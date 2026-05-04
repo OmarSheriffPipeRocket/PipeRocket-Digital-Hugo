@@ -2215,7 +2215,8 @@ p { margin: 0 0 var(--pr-s-4); }
 .pr-alt .pr-container,
 .pr-vs .pr-container,
 .pr-glossary .pr-container,
-.pr-listicle .pr-container {
+.pr-listicle .pr-container,
+.pr-compare .pr-container {
   max-width: 1600px;
 }
 .pr-blog__layout {
