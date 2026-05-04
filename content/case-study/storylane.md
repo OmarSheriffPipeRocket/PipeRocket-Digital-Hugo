@@ -1,6 +1,7 @@
 ---
 title: "Driving 2.5X Growth and 62% More Demos for Storylane"
 slug: "storylane"
+url: "/case-study-storylane/"
 description: "How PipeRocket's Google Ads + LinkedIn campaigns lifted Storylane's SQLs by 25% — while holding cost-per-SQL flat across one quarter."
 client: "Storylane"
 client_logo: "/images/clients/storylane.svg"

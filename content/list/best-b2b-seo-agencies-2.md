@@ -3,6 +3,7 @@ title: "My Picks for the Top 11 B2B SEO Agencies to Improve Pipeline"
 description: "Have you ever sat in a meeting with B2B SEO agency? You've usually see the reports look great on paper. But then when you ask the question that really matters: \"How much actual revenue did this drive..."
 date: 2025-11-17
 slug: "best-b2b-seo-agencies-2"
+url: "/blogs/best-b2b-seo-agencies/"
 writtenBy: "kim"
 category: "B2B SEO"
 featuredImage: "/images/wp-import/11_B2B-SEO-Agencies.png"

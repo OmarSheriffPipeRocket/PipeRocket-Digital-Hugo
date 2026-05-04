@@ -2,7 +2,7 @@
 title: "How to Optimize SaaS Landing Pages for SEO?"
 description: "I’ve sat in meetings where everyone treats a landing page like a digital brochure. They focus entirely on how the design looks, or they obsess over ranking for a high-volume keyword without ever..."
 date: 2026-02-10
-slug: "blogs-optimize-saas-landing-pages-for-seo"
+slug: "optimize-saas-landing-pages-for-seo"
 writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/02_How-to-optimize-saas-landing-pages-for-SEO.png"

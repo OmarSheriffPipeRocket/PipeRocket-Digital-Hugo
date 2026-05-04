@@ -2,7 +2,7 @@
 title: "How to Write Google Ads Copy for SaaS in 2026?"
 description: "I have to tell you the truth right now. Most of the generic SaaS Google Ads copy writing advice you read online is actively burning your budget. Marketing managers usually log into their accounts and..."
 date: 2026-02-25
-slug: "how-to-write-google-ads-copy-for-saas-in-2026"
+slug: "how-to-write-saas-google-ads-copy"
 writtenBy: "praveen"
 category: "SaaS PPC"
 featuredImage: "/images/wp-import/02_SaaS-Google-Ads-Copy-blog-banner-1.png"

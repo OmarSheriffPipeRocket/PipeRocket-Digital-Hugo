@@ -1,7 +1,7 @@
 ---
 title: "Case studies"
 description: "Real numbers from B2B SaaS pipelines. Each case study includes the timeline, the approach, and what we'd do differently in hindsight."
-url: "/case-studies/"
+url: "/case-study/"
 layout: "list"
 ---
 

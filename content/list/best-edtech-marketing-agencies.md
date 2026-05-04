@@ -3,6 +3,7 @@ title: "My Ranking of the 7 Best Edtech Marketing Agencies in 2026"
 description: "Edtech marketing is... strange. I’ve sat in enough meetings with founders to know the feeling. You have this product that genuinely improves student outcomes. Maybe it even changes how a classroom..."
 date: 2025-11-19
 slug: "best-edtech-marketing-agencies"
+url: "/blogs/best-edtech-marketing-agencies/"
 writtenBy: "praveen"
 category: "Edtech Marketing"
 featuredImage: "/images/wp-import/11_B2B-Edtech-Marketing-Agencies.png"

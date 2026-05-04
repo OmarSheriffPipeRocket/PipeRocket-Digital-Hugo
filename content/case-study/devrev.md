@@ -1,6 +1,7 @@
 ---
 title: "127% Traffic Growth in 6 Months for DevRev"
 slug: "devrev"
+url: "/case-study-devrev/"
 description: "How DevRev's organic programme more than doubled traffic in six months — by ranking on the queries their ICP was actually searching."
 client: "DevRev"
 industry: "SaaS · DevTools / Customer Success"

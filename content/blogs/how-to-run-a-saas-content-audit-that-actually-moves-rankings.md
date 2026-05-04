@@ -2,7 +2,7 @@
 title: "How to Run a SaaS Content Audit That Actually Moves Rankings"
 description: "Most SaaS companies publish content, wait a few months, and then wonder why rankings stall. The problem usually isn't your new content. It's the old content quietly dragging everything down, and the..."
 date: 2026-03-11
-slug: "how-to-run-a-saas-content-audit-that-actually-moves-rankings"
+slug: "how-to-do-saas-content-audit"
 writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/03_How-to-do-SaaS-content-audit-blog-banner.webp"

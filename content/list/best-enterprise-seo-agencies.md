@@ -3,6 +3,7 @@ title: "My Picks for the Top 10 Enterprise SEO Agencies in 2026"
 description: "I see this mistake constantly. A marketing VP at a massive enterprise company decides to hire an enterprise SEO agency, only to realize the agency is treating the enterprise website like a small..."
 date: 2025-10-29
 slug: "best-enterprise-seo-agencies"
+url: "/blogs/best-enterprise-seo-agencies/"
 writtenBy: "kim"
 category: "Enterprise Marketing"
 featuredImage: "/images/wp-import/10_Enterprise-SEO-Agencies-Blog-Banner-Image.png"

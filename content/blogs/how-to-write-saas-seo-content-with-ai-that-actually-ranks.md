@@ -2,7 +2,7 @@
 title: "How to Write SaaS SEO Content with AI (That Actually Ranks)"
 description: "Let’s be honest, if you’re thinking of writing content using AI, you are probably exhausted by the fear-mongering surrounding AI. You hear people screaming that Google is going to penalize you..."
 date: 2026-02-10
-slug: "how-to-write-saas-seo-content-with-ai-that-actually-ranks"
+slug: "how-to-write-saas-seo-content-with-ai"
 writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/02_How-to-Write-SaaS-SEO-Content-with-AI-Blog-Banner-Image-1.png"

@@ -3,6 +3,7 @@ title: "Best HealthTech Marketing Agencies in 2026"
 description: "HealthTech buyers are not typical enterprise buyers. They operate inside regulatory complexity, answer to clinical stakeholders as much as commercial ones, and evaluate vendors against a backdrop of..."
 date: 2026-04-24
 slug: "best-healthtech-marketing-agencies-in-2026"
+url: "/list/best-healthtech-marketing-agencies/"
 writtenBy: "kim"
 category: "B2B Marketing"
 toc: true

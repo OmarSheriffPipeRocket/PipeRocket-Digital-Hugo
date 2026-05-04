@@ -1,7 +1,7 @@
 ---
 title: "60+ AI SEO Statistics for 2026 (Updated April)"
 date: 2026-04-06
-slug: "research-ai-seo-statistics"
+url: "/research/ai-seo-statistics/"
 writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/04_ai-seo-statistics-banner-2026.webp"

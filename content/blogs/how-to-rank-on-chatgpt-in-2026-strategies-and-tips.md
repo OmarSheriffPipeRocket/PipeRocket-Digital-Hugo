@@ -2,7 +2,7 @@
 title: "How to Rank on ChatGPT in 2026: Strategies and Tips"
 description: "Everyone’s losing their minds over ChatGPT, Perplexity, and Gemini right now. I see founders panicking every day, thinking traditional search is just dead and they need to find some secret back door..."
 date: 2026-02-25
-slug: "how-to-rank-on-chatgpt-in-2026-strategies-and-tips"
+slug: "how-to-rank-on-chatgpt"
 writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/02_How-to-rank-on-ChatGPT.png"

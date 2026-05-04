@@ -2,7 +2,7 @@
 title: "Enterprise SEO: The Blueprint for Simple, Scalable SEO"
 description: "SEO strategies that work for small and medium businesses will not work for enterprises. An SMB manages roughly 1,000 pages and relies on manual, legacy systems. Enterprise SEO needs to scale to..."
 date: 2026-04-09
-slug: "enterprise-seo-guide-2"
+slug: "enterprise-seo-guide"
 writtenBy: "kim"
 category: "Enterprise Marketing"
 toc: true

@@ -3,6 +3,7 @@ title: "The Top 10 B2B PPC Agencies You Need to Consider in 2026"
 description: "So, you're researching on the best B2B PPC agencies for your company. You've come to the right place and I have done half the work for you - curating a list of B2B PPC agencies for 2026. I hear your..."
 date: 2025-11-04
 slug: "top-b2b-ppc-agencies"
+url: "/blogs/top-b2b-ppc-agencies/"
 writtenBy: "praveen"
 category: "B2B PPC"
 featuredImage: "/images/wp-import/11_B2B-PPC-Agencies-Banner-Image-1.png"

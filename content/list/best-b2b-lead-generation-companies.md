@@ -3,6 +3,7 @@ title: "Ranking The Top 9 B2B Lead Generation Agencies in 2026"
 description: "It feels like the noise level in B2B is just ratcheting up everywhere you look. I talk to founders every week, and the story is the same: you have the tools, but finding qualified prospects who..."
 date: 2025-11-25
 slug: "best-b2b-lead-generation-companies"
+url: "/blogs/best-b2b-lead-generation-companies/"
 writtenBy: "praveen"
 category: "B2B Lead Generation"
 featuredImage: "/images/wp-import/11_B2B-Lead-Generation-Companies-Blog-Banner-1.png"

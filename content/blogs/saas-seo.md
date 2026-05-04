@@ -2,7 +2,7 @@
 title: "SaaS SEO: My 7-step Strategy for 2026"
 description: "If you're a SaaS marketing leader, you've been here before. Traffic is up, rankings are improving, the agency report is full of green arrows, but nothing shows up in your CRM. That's not an SEO..."
 date: 2025-11-24
-slug: "saas-seo"
+url: "/saas-seo/"
 writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/11_Saas-SEO-Blog-Banner-Image-1.webp"
