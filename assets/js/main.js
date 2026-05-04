@@ -434,14 +434,19 @@ const setupReveals = () => {
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   if (!('IntersectionObserver' in window)) return;
 
+  // Only reveal whole sections on the homepage (body.page-home),
+  // not on inner pages where the section is already in the viewport on load.
+  const isHome = document.body.classList.contains('page-home');
   const selector = [
-    // Whole sections (homepage rhythm)
-    'main > .pr-section',
-    'main > .pr-section--tight',
-    'main > .pr-section--dark',
-    'main > .pr-cta-final',
-    'main > .pr-certified',
-    // Card grids that benefit from stagger
+    // Whole sections — homepage only
+    ...(isHome ? [
+      'main > .pr-section',
+      'main > .pr-section--tight',
+      'main > .pr-section--dark',
+      'main > .pr-cta-final',
+      'main > .pr-certified',
+    ] : []),
+    // Card grids that benefit from stagger (all pages)
     '.pr-cases .pr-case',
     '.pr-approach .pr-approach__card',
     '.pr-pov .pr-pov__card',

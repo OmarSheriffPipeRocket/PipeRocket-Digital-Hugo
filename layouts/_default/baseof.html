@@ -19,7 +19,7 @@
 
   {{ partial "head-meta.html" . }}
 </head>
-<body>
+<body{{ if .IsHome }} class="page-home"{{ end }}>
   {{ partial "header.html" . }}
 
   <main>
