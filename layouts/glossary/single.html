@@ -1,0 +1,129 @@
+{{ define "main" }}
+{{ $allTerms := where site.RegularPages "Section" "glossary" }}
+{{ $tree := .Site.Data.glossary_categories.categories }}
+
+<article class="pr-glossary pr-alt">
+  <div class="pr-container">
+
+    <div class="pr-glossary__search-top pr-search" data-pr-search>
+      <svg class="pr-search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/>
+      </svg>
+      <input type="search" class="pr-search__input" placeholder="Search the glossary…" autocomplete="off" data-pr-search-input>
+      <button type="button" class="pr-search__clear" data-pr-search-clear aria-label="Clear search" hidden>×</button>
+      <ul class="pr-search__dropdown" data-pr-search-results hidden></ul>
+    </div>
+
+    <header class="pr-alt__header">
+      {{ with .Params.category }}<div class="pr-eyebrow pr-eyebrow--red">{{ . }}</div>{{ end }}
+      <h1 class="pr-alt__title">{{ .Title }}</h1>
+      {{ with .Params.shortDefinition }}
+        <div class="pr-glossary__definition">
+          <div class="pr-eyebrow">Definition</div>
+          <p>{{ . }}</p>
+        </div>
+      {{ end }}
+      <div class="pr-alt__byline">
+        <div class="pr-alt__meta">
+          {{ partial "article-byline.html" . }}
+          {{ if not .Date.IsZero }}<span><time datetime="{{ .Date.Format "2006-01-02" }}">Updated {{ .Date.Format "Jan 2, 2006" }}</time></span>{{ end }}
+          {{ with .Params.readingTime }}<span>{{ . }}</span>{{ end }}
+        </div>
+        {{ partial "article-utility-icons.html" . }}
+      </div>
+    </header>
+
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="Knowledge hub">
+        <div class="pr-article-rail__card pr-knowledge-hub">
+          <h4 class="pr-article-rail__heading">Knowledge hub</h4>
+
+          <nav class="pr-knowledge-hub__nav">
+            {{ range $tree }}
+              {{ $catSlug := .slug }}
+              {{ $isActiveCategory := eq $.Params.categorySlug $catSlug }}
+              <details class="pr-knowledge-hub__category"{{ if $isActiveCategory }} open{{ end }}>
+                <summary>
+                  <span class="pr-knowledge-hub__title">{{ .name }}</span>
+                  <span class="pr-knowledge-hub__chevron" aria-hidden="true">›</span>
+                </summary>
+                <ul class="pr-knowledge-hub__subcategories">
+                  {{ range .subcategories }}
+                    {{ $subSlug := .slug }}
+                    {{ $isActiveSub := and $isActiveCategory (eq $.Params.subcategorySlug $subSlug) }}
+                    {{ $termsInSub := where $allTerms "Params.subcategorySlug" $subSlug }}
+                    <li>
+                      <details class="pr-knowledge-hub__subcategory"{{ if $isActiveSub }} open{{ end }}>
+                        <summary>
+                          <span class="pr-knowledge-hub__title">{{ .name }}</span>
+                          <span class="pr-knowledge-hub__meta">
+                            <span class="pr-knowledge-hub__count">{{ len $termsInSub }}</span>
+                            <span class="pr-knowledge-hub__chevron" aria-hidden="true">›</span>
+                          </span>
+                        </summary>
+                        <ul class="pr-knowledge-hub__terms">
+                          {{ range $termsInSub.ByTitle }}
+                            {{ $isCurrent := eq .RelPermalink $.RelPermalink }}
+                            <li class="{{ if $isCurrent }}is-active{{ end }}">
+                              {{/* Truncate hub titles for scannability:
+                                   1. cut at first "?"
+                                   2. else cut at first ":"
+                                   3. else trim to ~38 chars at word boundary */}}
+                              {{ $shortTitle := .Title }}
+                              {{ if in .Title "?" }}
+                                {{ $shortTitle = printf "%s?" (index (split .Title "?") 0) }}
+                              {{ else if in .Title ":" }}
+                                {{ $shortTitle = index (split .Title ":") 0 }}
+                              {{ else if gt (len .Title) 38 }}
+                                {{ $words := split .Title " " }}
+                                {{ $built := "" }}
+                                {{ range $words }}
+                                  {{ if le (len (printf "%s %s" $built .)) 38 }}
+                                    {{ $built = cond (eq $built "") . (printf "%s %s" $built .) }}
+                                  {{ end }}
+                                {{ end }}
+                                {{ $shortTitle = printf "%s…" $built }}
+                              {{ end }}
+                              <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ $shortTitle }}</a>
+                            </li>
+                          {{ end }}
+                        </ul>
+                      </details>
+                    </li>
+                  {{ end }}
+                </ul>
+              </details>
+            {{ end }}
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main">
+        <div class="pr-glossary__body" data-pr-inline-related data-related-links='{{ .Params.relatedLinks | jsonify }}'>{{ .Content }}</div>
+        {{ partial "article-cta.html" . }}
+      </div>
+
+      <aside class="pr-article-rail pr-article-rail--right" aria-label="On this page">
+        {{ if and (default true .Params.toc) (gt (len .TableOfContents) 0) }}
+          <details class="pr-article-rail__card pr-article-rail__card--collapsible pr-page-toc">
+            <summary class="pr-article-rail__heading">On this page</summary>
+            <nav class="pr-page-toc__nav" data-pr-page-toc>
+              {{ .TableOfContents }}
+            </nav>
+          </details>
+        {{ end }}
+        {{ partial "article-rail-author.html" . }}
+      </aside>
+
+    </div>
+
+  </div>
+</article>
+
+{{ $items := slice }}
+{{ range where site.RegularPages "Section" "glossary" }}
+  {{ $items = $items | append (dict "title" .Title "url" .RelPermalink "definition" (default "" .Params.shortDefinition) "category" (default "" .Params.category)) }}
+{{ end }}
+<script type="application/json" id="pr-glossary-index">{{ $items | jsonify | safeJS }}</script>
+{{ end }}

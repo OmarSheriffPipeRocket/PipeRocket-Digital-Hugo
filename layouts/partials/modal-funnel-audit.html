@@ -1,0 +1,20 @@
+{{ $portal := .Site.Params.hubspot.portal_id }}
+{{ $form := .Site.Params.hubspot.form_id }}
+{{ $region := default "na1" .Site.Params.hubspot.region }}
+
+<div class="pr-modal" id="prFunnelAuditModal" role="dialog" aria-modal="true" aria-labelledby="prFunnelAuditTitle" hidden
+     data-hs-portal="{{ $portal }}" data-hs-form="{{ $form }}" data-hs-region="{{ $region }}">
+  <div class="pr-modal__backdrop" data-modal-close></div>
+  <div class="pr-modal__card" role="document">
+    <button class="pr-modal__close" type="button" aria-label="Close" data-modal-close>×</button>
+
+    <div class="pr-modal__head">
+      <span class="pr-eyebrow pr-eyebrow--red">Free funnel audit</span>
+      <h2 class="pr-modal__title" id="prFunnelAuditTitle">Tell us where your funnel breaks.</h2>
+      <p class="pr-modal__lede">We reply within 1 business day with a real diagnosis - not a calendar link, not a deck. 50+ B2B SaaS clients · 5.0 on Clutch.</p>
+    </div>
+
+    <!-- HubSpot embed target — populated lazily by JS the first time the modal opens. -->
+    <div class="pr-hsform" id="hsForm-modal-{{ $form }}"></div>
+  </div>
+</div>

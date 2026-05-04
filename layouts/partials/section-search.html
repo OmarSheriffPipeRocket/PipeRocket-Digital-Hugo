@@ -1,0 +1,27 @@
+{{/*
+  Reusable section search bar + index data.
+  Renders a search input that filters the current section's pages by title/description.
+  Drop this partial INSIDE any section list template (after the header, before the grid).
+
+  Params:
+    .placeholder — text for the input placeholder (e.g., "Search the blog…")
+    .section     — Hugo section name (e.g., "blogs", "glossary", "list")
+*/}}
+{{ $section := .section }}
+{{ $placeholder := default (printf "Search %s…" $section) .placeholder }}
+
+<div class="pr-search pr-glossary__search-top" data-pr-search>
+  <svg class="pr-search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/>
+  </svg>
+  <input type="search" class="pr-search__input" placeholder="{{ $placeholder }}" autocomplete="off" data-pr-search-input>
+  <button type="button" class="pr-search__clear" data-pr-search-clear aria-label="Clear search" hidden>×</button>
+  <ul class="pr-search__dropdown" data-pr-search-results hidden></ul>
+</div>
+
+{{ $items := slice }}
+{{ range where site.RegularPages "Section" $section }}
+  {{ $def := default .Params.description (default "" .Params.shortDefinition) }}
+  {{ $items = $items | append (dict "title" .Title "url" .RelPermalink "definition" $def "category" (default "" .Params.category)) }}
+{{ end }}
+<script type="application/json" id="pr-search-index">{{ $items | jsonify | safeJS }}</script>

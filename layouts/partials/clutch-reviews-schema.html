@@ -1,0 +1,43 @@
+{{/*
+  Clutch reviews schema (JSON-LD).
+  Emits AggregateRating + individual Review entries so Google/Bing/AI
+  crawlers can parse the reviews shown on the page as real review data.
+
+  Usage:
+    {{ partial "clutch-reviews-schema.html" (dict
+       "reviews" $someReviewsSlice
+       "rating"  "4.8"
+       "count"   12) }}
+*/}}
+{{ $reviews := .reviews }}
+{{ $rating := .rating }}
+{{ $count := .count }}
+
+{{ $reviewItems := slice }}
+{{ range $reviews }}
+  {{ $item := dict
+     "@type" "Review"
+     "reviewRating" (dict "@type" "Rating" "ratingValue" (printf "%v" .rating) "bestRating" "5")
+     "author" (dict "@type" "Person" "name" .reviewer_name)
+     "reviewBody" .quote
+     "name" .title
+  }}
+  {{ with .review_url }}{{ $item = merge $item (dict "url" .) }}{{ end }}
+  {{ with .date }}{{ $item = merge $item (dict "datePublished" .) }}{{ end }}
+  {{ $reviewItems = $reviewItems | append $item }}
+{{ end }}
+
+{{ $schema := dict
+   "@context" "https://schema.org"
+   "@type" "Organization"
+   "name" "PipeRocket Digital"
+   "url" "https://piperocket.digital/"
+   "aggregateRating" (dict
+      "@type" "AggregateRating"
+      "ratingValue" (printf "%v" $rating)
+      "reviewCount" (printf "%d" (len $reviews))
+      "bestRating" "5")
+   "review" $reviewItems
+}}
+
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>

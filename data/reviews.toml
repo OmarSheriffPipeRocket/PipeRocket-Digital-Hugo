@@ -1,0 +1,225 @@
+# Verified reviews from Clutch, G2, and Google Business.
+# Each review has a `source` field — used for filtering and source badge.
+
+[sources.clutch]
+name = "Clutch"
+rating = "4.8"
+count = 12
+url = "https://clutch.co/profile/piperocket-digital"
+
+[sources.g2]
+name = "G2"
+rating = "4.8"
+count = 2
+url = "https://www.g2.com/products/piperocket-digital/reviews"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/343419"
+rating = 5.0
+title = "Google & LinkedIn Ads Mgmt for Software Company"
+quote = "They're strategic thinkers and work according to the scale of our business."
+reviewer_name = "Nalin Pradeep"
+reviewer_role = "Founder & CEO"
+company = "Storylane"
+industry = "B2B SaaS"
+date = "Jan 2025"
+services = ["SaaS PPC", "SaaS SEO"]
+project_cost = "$50K – $200K"
+duration = "Jul 2023 – Ongoing"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/453493"
+rating = 4.5
+title = "SEO & PPC for Banking Company"
+quote = "They're quick and sensible."
+reviewer_name = "Yuraandar P."
+reviewer_role = "Marketing Director"
+company = "Equitas"
+industry = "Banking / FinServ"
+date = "Apr 2026"
+services = ["SaaS PPC", "SaaS SEO"]
+project_cost = "$10K – $50K"
+duration = "Sep 2024 – Ongoing"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/352231"
+rating = 4.5
+title = "Demand Generation for Communication Platform"
+quote = "Their proactive and responsive communication has been a cornerstone of collaboration."
+reviewer_name = "Director of Growth Marketing"
+reviewer_role = "Director of Growth Marketing"
+company = "Communication Platform"
+industry = "B2B SaaS"
+date = "Feb 2025"
+services = ["Demand Gen", "SaaS PPC", "SaaS SEO"]
+project_cost = "Confidential"
+duration = "Jan 2023 – Ongoing"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/349410"
+rating = 4.5
+title = "SEO & Content Optimization for Cybersecurity Platform"
+quote = "Their standout strength was their exceptional SEO expertise, coupled with strong execution."
+reviewer_name = "Head of Marketing"
+reviewer_role = "Head of Marketing"
+company = "Cybersecurity Platform"
+industry = "B2B SaaS · Cybersecurity"
+date = "Feb 2025"
+services = ["SaaS SEO"]
+project_cost = "Confidential"
+duration = "Feb – Nov 2024"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/453800"
+rating = 4.0
+title = "Digital Marketing for Financial Services Company"
+quote = "A solid, no-nonsense digital marketing agency that focuses on what actually works."
+reviewer_name = "Associate"
+reviewer_role = "Associate"
+company = "Financial Services Company"
+industry = "FinServ"
+date = "Apr 2026"
+services = ["SaaS SEO", "Digital Marketing"]
+project_cost = "< $10K"
+duration = "Jan 2025 – Jan 2026"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/453189"
+rating = 5.0
+title = "Digital Marketing for Furniture Manufacturer"
+quote = "The project met its key milestones on time and delivered strong ROI aligned with our growth targets."
+reviewer_name = "Aarthi K"
+reviewer_role = "QA Lead"
+company = "Furniture Manufacturer"
+industry = "eCommerce"
+date = "Apr 2026"
+services = ["Content Marketing", "SaaS PPC", "SaaS SEO"]
+project_cost = "$10K – $50K"
+duration = "Feb 2024 – Mar 2026"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/451303"
+rating = 5.0
+title = "Marketing Services for Advertising & Marketing Company"
+quote = "PipeRocket Digital's ownership and speed are usually the hardest part to get from an agency."
+reviewer_name = "Oleg Levitas"
+reviewer_role = "Manager"
+company = "Advertising & Marketing Company"
+industry = "Advertising & Marketing"
+date = "Apr 2026"
+services = ["Other Marketing"]
+project_cost = "< $10K"
+duration = "Feb 2018 – Feb 2025"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/353569"
+rating = 5.0
+title = "SEO Services for SaaS Company"
+quote = "They were able to successfully execute the project reaching the goals every single month."
+reviewer_name = "Marketing Director"
+reviewer_role = "Marketing Director"
+company = "SaaS Company"
+industry = "B2B SaaS"
+date = "Feb 2025"
+services = ["SaaS SEO"]
+project_cost = "Confidential"
+duration = "Jan 2024 – Jan 2025"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/350600"
+rating = 4.5
+title = "SEO for Conversational AI Company"
+quote = "They worked as an extended team, delivering to our needs in a timely manner."
+reviewer_name = "Saptarshi Bardhan"
+reviewer_role = "Demand Generation"
+company = "DevRev"
+industry = "B2B SaaS · DevTools"
+date = "Feb 2025"
+services = ["Demand Gen", "SaaS PPC", "SaaS SEO"]
+project_cost = "$10K – $50K"
+duration = "Jun 2024 – Feb 2025"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/349539"
+rating = 5.0
+title = "PPC Management for AI-Based Products Company"
+quote = "They worked closely with us and took ownership like our in-house team."
+reviewer_name = "Executive"
+reviewer_role = "Executive"
+company = "HyperVerge"
+industry = "B2B SaaS · AI / Identity"
+date = "Feb 2025"
+services = ["SaaS PPC"]
+project_cost = "Confidential"
+duration = "Jul 2024 – Feb 2025"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/348642"
+rating = 5.0
+title = "PPC Management for Identity Verification SaaS"
+quote = "They were always willing to go above and beyond to try and find better ways to run PPC ads."
+reviewer_name = "Growth Marketer"
+reviewer_role = "Growth Marketer"
+company = "Identity Verification SaaS"
+industry = "B2B SaaS · Identity"
+date = "Jan 2025"
+services = ["SaaS PPC", "Performance Marketing"]
+project_cost = "Confidential"
+duration = "Jul 2023 – Dec 2024"
+
+[[reviews]]
+source = "Clutch"
+review_url = "https://clutch.co/go-to-review/3950278b-4c3d-4b9f-9451-9bf33b0bd35b/346927"
+rating = 5.0
+title = "PPC & Lead Generation for B2B SaaS"
+quote = "Effective project management and impressive ROI — a $3,000 monthly investment yielding a 3X return."
+reviewer_name = "Marketing Lead"
+reviewer_role = "Marketing Lead"
+company = "B2B SaaS Company"
+industry = "B2B SaaS"
+date = "Jan 2025"
+services = ["SaaS PPC", "Lead Generation"]
+project_cost = "$10K – $50K"
+duration = "2024 – Ongoing"
+
+# === G2 reviews ===
+[[reviews]]
+source = "G2"
+review_url = "https://www.g2.com/products/piperocket-digital/reviews/piperocket-digital-review-12637152"
+rating = 5.0
+title = "A Growth Partner, Not Just a Service Provider"
+quote = "A Growth Partner, Not Just a Service Provider."
+reviewer_name = "Irawin N."
+reviewer_role = "Verified G2 reviewer"
+company = "Small-Business · 50 or fewer emp."
+industry = "Small-Business"
+date = "Apr 2026"
+services = ["SaaS PPC", "SaaS SEO"]
+project_cost = "Confidential"
+duration = "Ongoing"
+
+[[reviews]]
+source = "G2"
+review_url = "https://www.g2.com/products/piperocket-digital/reviews"
+rating = 4.5
+title = "Seamless SEO & Google Ads Expertise That Boosted Our Organic Traffic"
+quote = "Seamless SEO & Google Ads expertise that boosted our organic traffic."
+reviewer_name = "Shaghayegh N."
+reviewer_role = "Operations Manager · Retail"
+company = "Mid-Market · 51–1000 emp."
+industry = "Retail"
+date = "2026"
+services = ["SaaS SEO", "Google Ads"]
+project_cost = "Confidential"
+duration = "Ongoing"

@@ -1,0 +1,112 @@
+{{ define "main" }}
+<article class="pr-vs">
+  <div class="pr-container">
+
+    <header class="pr-vs__header">
+      {{ with .Params.category }}<div class="pr-eyebrow pr-eyebrow--red">{{ . }}</div>{{ end }}
+      <h1 class="pr-vs__title">{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-vs__lede">{{ . }}</p>{{ end }}
+      <div class="pr-vs__byline">
+        <div class="pr-vs__meta">
+          {{ partial "article-byline.html" . }}
+          {{ if not .Date.IsZero }}<span><time datetime="{{ .Date.Format "2006-01-02" }}">Updated {{ .Date.Format "Jan 2, 2006" }}</time></span>{{ end }}
+          {{ with .Params.readingTime }}<span>{{ . }}</span>{{ end }}
+        </div>
+        {{ partial "article-utility-icons.html" . }}
+      </div>
+    </header>
+
+    {{ if and .Params.product_a .Params.product_b }}
+      <section class="pr-vs__cards">
+        <div class="pr-vs__card">
+          {{ with .Params.product_a.logo }}<img src="{{ . }}" alt="{{ $.Params.product_a.name }}" class="pr-vs__logo">{{ end }}
+          <h2>{{ .Params.product_a.name }}</h2>
+          {{ with .Params.product_a.tagline }}<p class="pr-vs__tagline">{{ . }}</p>{{ end }}
+          {{ with .Params.product_a.url }}<a href="{{ . }}" class="pr-btn pr-btn--ghost" rel="noopener">Visit →</a>{{ end }}
+        </div>
+        <div class="pr-vs__divider" aria-hidden="true">vs</div>
+        <div class="pr-vs__card">
+          {{ with .Params.product_b.logo }}<img src="{{ . }}" alt="{{ $.Params.product_b.name }}" class="pr-vs__logo">{{ end }}
+          <h2>{{ .Params.product_b.name }}</h2>
+          {{ with .Params.product_b.tagline }}<p class="pr-vs__tagline">{{ . }}</p>{{ end }}
+          {{ with .Params.product_b.url }}<a href="{{ . }}" class="pr-btn pr-btn--ghost" rel="noopener">Visit →</a>{{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Pick the right partner in 30 minutes.</strong>
+          <p>We work with a small number of B2B SaaS companies at a time.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+        </div>
+
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible">
+          <summary class="pr-article-rail__heading">In this comparison</summary>
+          <nav class="pr-article-rail__toc">
+            <ol>
+              {{ if .Params.tldr }}<li><a href="#tldr">TL;DR</a></li>{{ end }}
+              {{ if .Params.comparison }}<li><a href="#side-by-side">Side by side</a></li>{{ end }}
+              {{ range .Params.comparison }}
+                <li><a href="#{{ .criterion | urlize }}">{{ .criterion }}</a></li>
+              {{ end }}
+            </ol>
+          </nav>
+        </details>
+
+      </aside>
+
+      <div class="pr-article-main">
+        {{ with .Params.tldr }}
+          <section class="pr-vs__tldr" id="tldr">
+            <h2>TL;DR</h2>
+            <p><strong>Pick {{ $.Params.product_a.name }} if</strong> {{ .pick_a }}</p>
+            <p><strong>Pick {{ $.Params.product_b.name }} if</strong> {{ .pick_b }}</p>
+          </section>
+        {{ end }}
+
+        {{ with .Params.comparison }}
+          <section class="pr-vs__compare" id="side-by-side">
+            <h2>Side by side</h2>
+            <table class="pr-vs__table">
+              <thead>
+                <tr>
+                  <th>Criterion</th>
+                  <th>{{ $.Params.product_a.name }}</th>
+                  <th>{{ $.Params.product_b.name }}</th>
+                  <th>Winner</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range . }}
+                  <tr id="{{ .criterion | urlize }}">
+                    <td><strong>{{ .criterion }}</strong></td>
+                    <td>{{ .a | markdownify }}</td>
+                    <td>{{ .b | markdownify }}</td>
+                    <td>
+                      {{ if eq .winner "a" }}<span class="pr-vs__winner">{{ $.Params.product_a.name }}</span>
+                      {{ else if eq .winner "b" }}<span class="pr-vs__winner">{{ $.Params.product_b.name }}</span>
+                      {{ else }}<span class="pr-vs__tie">Tie</span>{{ end }}
+                    </td>
+                  </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </section>
+        {{ end }}
+
+        <div class="pr-vs__body" data-pr-inline-related data-related-links='{{ .Params.relatedLinks | jsonify }}'>{{ .Content }}</div>
+
+        {{ partial "article-cta.html" . }}
+      </div>
+
+      {{ partial "article-rail-author.html" . }}
+
+    </div>
+
+  </div>
+</article>
+{{ end }}

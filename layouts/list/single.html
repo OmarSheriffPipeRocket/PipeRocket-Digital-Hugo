@@ -1,0 +1,100 @@
+{{ define "main" }}
+<article class="pr-listicle pr-alt">
+  <div class="pr-container">
+
+    <header class="pr-alt__header">
+      {{ with .Params.category }}<div class="pr-eyebrow pr-eyebrow--red">{{ . }}</div>{{ end }}
+      <h1 class="pr-alt__title">{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-alt__lede">{{ . }}</p>{{ end }}
+      <div class="pr-alt__byline">
+        <div class="pr-alt__meta">
+          {{ partial "article-byline.html" . }}
+          {{ if not .Date.IsZero }}<span><time datetime="{{ .Date.Format "2006-01-02" }}">Updated {{ .Date.Format "Jan 2, 2006" }}</time></span>{{ end }}
+          {{ with .Params.readingTime }}<span>{{ . }}</span>{{ end }}
+        </div>
+        {{ partial "article-utility-icons.html" . }}
+      </div>
+    </header>
+
+    {{ with .Params.methodology }}
+      <section class="pr-listicle__method">
+        <h2>How we evaluated</h2>
+        <ul>
+          {{ range . }}<li><strong>{{ .weight }}</strong> — <strong>{{ .name }}:</strong> {{ .detail }}</li>{{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Pick the right partner in 30 minutes.</strong>
+          <p>We work with a small number of B2B SaaS companies at a time.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+        </div>
+
+        {{ with .Params.items }}
+          <details class="pr-article-rail__card pr-article-rail__card--collapsible">
+            <summary class="pr-article-rail__heading">In this list</summary>
+            <nav class="pr-article-rail__toc">
+              <ol>
+                {{ range $i, $it := . }}
+                  <li><a href="#{{ $it.slug }}"><span class="pr-article-rail__num">{{ printf "%02d" (add $i 1) }}</span>{{ $it.name }}</a></li>
+                {{ end }}
+              </ol>
+            </nav>
+          </details>
+        {{ end }}
+
+        {{/* Auto TOC from markdown headings — used by all migrated listicles
+             whose rankings live in body content (no `items` array) */}}
+        {{ if and (not .Params.items) (default true .Params.toc) (gt (len .TableOfContents) 0) }}
+          <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+            <summary class="pr-article-rail__heading">On this page</summary>
+            <nav class="pr-article-rail__toc">
+              {{ .TableOfContents }}
+            </nav>
+          </details>
+        {{ end }}
+      </aside>
+
+      <div class="pr-article-main">
+        {{ with .Params.items }}
+          <section class="pr-listicle__items">
+            {{ range $i, $it := . }}
+              <article class="pr-listicle__item" id="{{ $it.slug }}">
+                <header class="pr-listicle__item-head">
+                  <span class="pr-listicle__item-rank">{{ printf "%02d" (add $i 1) }}</span>
+                  <h3>{{ $it.name }}</h3>
+                  {{ with $it.score }}<span class="pr-listicle__item-score">{{ . }}</span>{{ end }}
+                </header>
+                {{ with $it.best_for }}<p class="pr-listicle__item-best"><strong>Best for:</strong> {{ . }}</p>{{ end }}
+                {{ with $it.body }}<div class="pr-listicle__item-body">{{ . | markdownify }}</div>{{ end }}
+
+                <dl class="pr-listicle__item-grid">
+                  {{ with $it.expertise }}<div><dt>Expertise</dt><dd>{{ . }}</dd></div>{{ end }}
+                  {{ with $it.suited }}<div><dt>Best suited for</dt><dd>{{ . }}</dd></div>{{ end }}
+                  {{ with $it.not_suited }}<div><dt>Not ideal for</dt><dd>{{ . }}</dd></div>{{ end }}
+                  {{ with $it.pricing }}<div><dt>Pricing</dt><dd>{{ . }}</dd></div>{{ end }}
+                </dl>
+
+                {{ with $it.url }}<a href="{{ . }}" class="pr-btn pr-btn--ghost" rel="noopener">Visit {{ $it.name }} →</a>{{ end }}
+              </article>
+            {{ end }}
+          </section>
+        {{ end }}
+
+        <div class="pr-listicle__body" data-pr-inline-related data-related-links='{{ .Params.relatedLinks | jsonify }}'>{{ .Content }}</div>
+
+        {{ partial "article-cta.html" . }}
+      </div>
+
+      {{ partial "article-rail-author.html" . }}
+
+    </div>
+
+  </div>
+</article>
+{{ end }}

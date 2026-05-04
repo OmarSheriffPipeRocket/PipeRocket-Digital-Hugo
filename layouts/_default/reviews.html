@@ -1,0 +1,153 @@
+{{ define "main" }}
+{{ $reviews := .Site.Data.reviews.reviews }}
+{{ $sources := .Site.Data.reviews.sources }}
+{{ $totalCount := add (int $sources.clutch.count) (int $sources.g2.count) }}
+
+<article class="pr-reviews">
+
+  <!-- ====================================================
+       HERO — 3 source trust badges
+       ==================================================== -->
+  <section class="pr-reviews__hero">
+    <div class="pr-container">
+      <span class="pr-eyebrow pr-eyebrow--red">Reviews</span>
+      <h1 class="pr-reviews__title">{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-reviews__lede">{{ . }}</p>{{ end }}
+
+      <div class="pr-reviews__sources">
+        <!-- Clutch -->
+        <a class="pr-reviews__source" href="{{ $sources.clutch.url }}" target="_blank" rel="noopener">
+          <div class="pr-reviews__source-brand pr-reviews__source-brand--clutch">
+            <img src="/images/logos/clutch.svg" alt="Clutch" class="pr-reviews__source-logo">
+          </div>
+          <div class="pr-reviews__source-stat">
+            <strong>{{ $sources.clutch.rating }}</strong>
+            <span class="pr-reviews__source-stars">★★★★★</span>
+            <span class="pr-reviews__source-count">{{ $sources.clutch.count }} reviews</span>
+          </div>
+        </a>
+
+        <!-- G2 -->
+        {{ if $sources.g2.url }}
+          <a class="pr-reviews__source" href="{{ $sources.g2.url }}" target="_blank" rel="noopener">
+        {{ else }}
+          <div class="pr-reviews__source pr-reviews__source--placeholder">
+        {{ end }}
+          <div class="pr-reviews__source-brand pr-reviews__source-brand--g2">
+            <span>G<sup>2</sup></span>
+          </div>
+          <div class="pr-reviews__source-stat">
+            {{ if $sources.g2.rating }}
+              <strong>{{ $sources.g2.rating }}</strong>
+              <span class="pr-reviews__source-stars">★★★★★</span>
+              <span class="pr-reviews__source-count">{{ $sources.g2.count }} reviews</span>
+            {{ else }}
+              <span class="pr-reviews__source-pending">Coming soon</span>
+            {{ end }}
+          </div>
+        {{ if $sources.g2.url }}</a>{{ else }}</div>{{ end }}
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       FILTER PILLS — by source
+       ==================================================== -->
+  <section class="pr-reviews__filter">
+    <div class="pr-container">
+      <div class="pr-reviews__filter-inner" data-reviews-filter>
+        <button class="pr-stories__pill is-active" type="button" data-filter="all">All <span>{{ len $reviews }}</span></button>
+        <button class="pr-stories__pill" type="button" data-filter="Clutch">Clutch <span>{{ len (where $reviews "source" "Clutch") }}</span></button>
+        <button class="pr-stories__pill" type="button" data-filter="G2">G2 <span>{{ len (where $reviews "source" "G2") }}</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       GRID
+       ==================================================== -->
+  <section class="pr-reviews__grid-section">
+    <div class="pr-container">
+      <div class="pr-reviews__grid" data-reviews-grid>
+        {{ range $reviews }}
+          {{ $sourceName := .source }}
+          {{ $sourceClass := lower .source }}
+          <article class="pr-review-card pr-review-card--{{ $sourceClass }}" data-services="{{ .source }}">
+            <header class="pr-review-card__head">
+              <div class="pr-review-card__rating" aria-label="Rated {{ .rating }} out of 5">
+                {{ $r := .rating }}
+                {{ range seq 5 }}
+                  {{ if le (float .) $r }}
+                    <span class="pr-review-card__star pr-review-card__star--full">★</span>
+                  {{ else if le (sub (float .) 0.5) $r }}
+                    <span class="pr-review-card__star pr-review-card__star--half">★</span>
+                  {{ else }}
+                    <span class="pr-review-card__star">★</span>
+                  {{ end }}
+                {{ end }}
+                <span class="pr-review-card__rating-value">{{ .rating }}</span>
+              </div>
+              <span class="pr-review-card__source-badge pr-review-card__source-badge--{{ $sourceClass }}">{{ .source }}</span>
+            </header>
+
+            <h3 class="pr-review-card__title">{{ .title }}</h3>
+
+            <blockquote class="pr-review-card__quote">"{{ .quote }}"</blockquote>
+
+            <footer class="pr-review-card__footer">
+              <div class="pr-review-card__author">
+                <strong>{{ .reviewer_name }}</strong>
+                <span>{{ .reviewer_role }}{{ if .company }} · {{ .company }}{{ end }}</span>
+              </div>
+              {{ with .industry }}<p class="pr-review-card__industry">{{ . }}</p>{{ end }}
+
+              {{ with .services }}
+                <ul class="pr-review-card__services">
+                  {{ range . }}<li>{{ . }}</li>{{ end }}
+                </ul>
+              {{ end }}
+
+              <dl class="pr-review-card__meta">
+                <div><dt>Date</dt><dd>{{ .date }}</dd></div>
+                {{ with .project_cost }}<div><dt>Project size</dt><dd>{{ . }}</dd></div>{{ end }}
+              </dl>
+
+              {{/* Deep-link to the review on its source platform.
+                   Falls back to the source's main profile URL if review_url is empty. */}}
+              {{ $deepLink := "" }}
+              {{ if .review_url }}
+                {{ $deepLink = .review_url }}
+              {{ else }}
+                {{ $sourceLower := lower .source }}
+                {{ with index $sources $sourceLower }}{{ $deepLink = .url }}{{ end }}
+              {{ end }}
+              {{ with $deepLink }}
+                <a class="pr-review-card__deeplink" href="{{ . }}" target="_blank" rel="noopener">View on {{ $sourceName }} ↗</a>
+              {{ end }}
+            </footer>
+          </article>
+        {{ end }}
+      </div>
+
+      <div class="pr-stories__empty" data-reviews-empty hidden>
+        <p>No reviews from that source yet. <button type="button" data-filter="all">Show all</button></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       BOTTOM CTA
+       ==================================================== -->
+  <section class="pr-case__cta">
+    <div class="pr-container">
+      <div class="pr-case__cta-inner">
+        <h2>Hear it for yourself.</h2>
+        <p>Every review here is pulled from a verified third-party platform — Clutch and G2. We do not edit, curate, or hand-pick. If you want to talk to one of these clients before signing, ask — most of them will take the call.</p>
+        <button type="button" class="pr-btn" data-modal-trigger="funnel-audit" data-cta-source="reviews_bottom">Free funnel audit →</button>
+      </div>
+    </div>
+  </section>
+
+</article>
+{{ end }}

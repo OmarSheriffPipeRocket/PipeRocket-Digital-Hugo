@@ -1,0 +1,135 @@
+{{/*
+  Comprehensive head metadata + Schema.org JSON-LD.
+  Optimised for AI bots (ChatGPT/Perplexity/Claude/Gemini) and search engine crawlers.
+  - Open Graph + Twitter Card for previews
+  - article:* tags for article pages (blogs, list, glossary, alternative, vs)
+  - JSON-LD Article + Person (author) + Organization (publisher)
+*/}}
+
+{{ $isArticle := in (slice "blogs" "list" "glossary" "alternative" "vs" "authors") .Section }}
+{{ $isHome := .IsHome }}
+{{ $title := cond $isHome .Site.Title (printf "%s - PipeRocket" .Title) }}
+{{ $desc := default .Site.Params.description .Description }}
+{{ $img := absURL (default "/images/piperocket-logo.svg" .Params.featuredImage) }}
+
+{{ $author := dict }}
+{{ if .Params.writtenBy }}
+  {{ with index .Site.Data.authors .Params.writtenBy }}
+    {{ $author = . }}
+  {{ end }}
+{{ end }}
+
+{{/* ============== Open Graph ============== */}}
+<meta property="og:site_name" content="PipeRocket Digital">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="{{ cond $isArticle "article" "website" }}">
+<meta property="og:title" content="{{ cond $isHome .Site.Title .Title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $img }}">
+
+{{/* ============== Twitter Card ============== */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ cond $isHome .Site.Title .Title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $img }}">
+
+{{/* ============== Article-specific meta tags ============== */}}
+{{ if $isArticle }}
+  {{ if not .Date.IsZero }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    <meta property="article:modified_time" content="{{ (default .Date .Lastmod).Format "2006-01-02T15:04:05Z07:00" }}">
+  {{ end }}
+  {{ with $author.name }}<meta property="article:author" content="{{ . }}">{{ end }}
+  {{ with .Params.category }}<meta property="article:section" content="{{ . }}">{{ end }}
+{{ end }}
+
+{{/* ============== AI / search bot directives ============== */}}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+{{/* ============== JSON-LD: Organization (publisher, site-wide) ============== */}}
+{{ if $isHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PipeRocket Digital",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ absURL "/images/piperocket-logo.svg" }}",
+  "description": {{ .Site.Params.description | jsonify }},
+  "sameAs": [
+    "https://www.linkedin.com/company/piperocket-digital/",
+    "https://clutch.co/profile/piperocket-digital"
+  ]
+}
+</script>
+{{ end }}
+
+{{/* ============== JSON-LD: Article + Author (per article page) ============== */}}
+{{ if $isArticle }}
+{{ $authorJson := dict
+  "@type" "Person"
+  "name" (default $author.name .Params.writtenBy)
+  "url" (cond (not (not .Params.writtenBy)) (printf "%s/authors/%s/" (trim .Site.BaseURL "/") .Params.writtenBy) "")
+}}
+{{ if $author.bio }}{{ $authorJson = merge $authorJson (dict "description" $author.bio) }}{{ end }}
+{{ if $author.role }}{{ $authorJson = merge $authorJson (dict "jobTitle" $author.role) }}{{ end }}
+{{ if $author.linkedin }}{{ $authorJson = merge $authorJson (dict "sameAs" (slice $author.linkedin)) }}{{ end }}
+{{ if $author.expertise }}{{ $authorJson = merge $authorJson (dict "knowsAbout" $author.expertise) }}{{ end }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "image": {{ $img | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  {{ if not .Date.IsZero -}}
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ (default .Date .Lastmod).Format "2006-01-02T15:04:05Z07:00" }}",
+  {{- end }}
+  "author": {{ $authorJson | jsonify }},
+  "publisher": {
+    "@type": "Organization",
+    "name": "PipeRocket Digital",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ absURL "/images/piperocket-logo.svg" }}"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | jsonify }}
+  }
+}
+</script>
+
+{{/* ============== JSON-LD: BreadcrumbList ============== */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ .Site.BaseURL }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ humanize .Section }}",
+      "item": "{{ absURL (printf "/%s/" .Section) }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ .Title | jsonify }},
+      "item": {{ .Permalink | jsonify }}
+    }
+  ]
+}
+</script>
+{{ end }}

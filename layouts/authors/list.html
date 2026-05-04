@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="pr-section pr-author-list">
+  <div class="pr-container">
+    <header class="pr-center pr-bloglist__header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-bloglist__lede">{{ . }}</p>{{ end }}
+    </header>
+    <div class="pr-author-list__grid">
+      {{ range .Pages.ByTitle }}
+        {{ $slug := default .File.BaseFileName .Params.slug }}
+        {{ $profile := index $.Site.Data.authors $slug }}
+        <a class="pr-author-list__card" href="{{ .RelPermalink }}">
+          {{ with $profile.photo }}<img src="{{ . }}" alt="{{ $profile.name }}" class="pr-author-list__photo">{{ end }}
+          <strong>{{ $profile.name | default .Title }}</strong>
+          {{ with $profile.role }}<span>{{ . }}</span>{{ end }}
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

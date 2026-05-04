@@ -1,0 +1,15 @@
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock
+hugo_stats.json
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Node (if ever used for asset pipeline)
+node_modules/

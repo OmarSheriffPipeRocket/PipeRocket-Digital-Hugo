@@ -1,0 +1,80 @@
+{{ define "main" }}
+{{ $cats := .Site.Data.faqs.categories }}
+
+<article class="pr-faqs">
+  <div class="pr-container">
+
+    <header class="pr-faqs__header">
+      <div class="pr-eyebrow pr-eyebrow--red">Help & answers</div>
+      <h1 class="pr-faqs__title">{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-faqs__lede">{{ . }}</p>{{ end }}
+    </header>
+
+    <div class="pr-search pr-faqs__search" data-pr-search>
+      <svg class="pr-search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/>
+      </svg>
+      <input type="search" class="pr-search__input" placeholder="Search the FAQs…" autocomplete="off" data-pr-search-input>
+      <button type="button" class="pr-search__clear" data-pr-search-clear aria-label="Clear search" hidden>×</button>
+      <ul class="pr-search__dropdown" data-pr-search-results hidden></ul>
+    </div>
+
+    <div class="pr-faqs__layout">
+
+      <aside class="pr-faqs__nav" aria-label="Categories">
+        <h4 class="pr-article-rail__heading">Categories</h4>
+        <ol>
+          {{ range $cats }}
+            {{ if .url }}
+              <li><a href="{{ .url }}" class="pr-faqs__nav-external">{{ .name }} <span class="pr-faqs__nav-count" aria-hidden="true">↗</span></a></li>
+            {{ else }}
+              <li><a href="#cat-{{ .slug }}">{{ .name }} <span class="pr-faqs__nav-count">{{ with .items }}{{ len . }}{{ else }}0{{ end }}</span></a></li>
+            {{ end }}
+          {{ end }}
+        </ol>
+      </aside>
+
+      <div class="pr-faqs__content">
+        {{ range $cats }}
+          {{ if not .url }}
+            <section class="pr-faqs__section" id="cat-{{ .slug }}">
+              <h2 class="pr-faqs__section-title">{{ .name }}</h2>
+              <div class="pr-accordion">
+                {{ range .items }}
+                  <details class="pr-accordion__item pr-faq-item" data-pr-faq>
+                    <summary class="pr-accordion__header">
+                      <span class="pr-accordion__header-left">{{ .question }}</span>
+                      <span class="pr-accordion__toggle">+</span>
+                    </summary>
+                    <div class="pr-accordion__body">{{ .answer | markdownify }}</div>
+                  </details>
+                {{ end }}
+              </div>
+            </section>
+          {{ end }}
+        {{ end }}
+      </div>
+
+    </div>
+
+    <section class="pr-faqs__more">
+      <div class="pr-faqs__more-inner">
+        <h3>Still have questions?</h3>
+        <p>If your question isn't answered above, the fastest path is a 30-minute call. We'll talk through your stack, your ICP, and where you're stuck — no pitch.</p>
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+    </section>
+
+  </div>
+</article>
+
+{{ $items := slice }}
+{{ range $cats }}
+  {{ $catName := .name }}
+  {{ $catSlug := .slug }}
+  {{ range .items }}
+    {{ $items = $items | append (dict "title" .question "url" (printf "#cat-%s" $catSlug) "definition" .answer "category" $catName) }}
+  {{ end }}
+{{ end }}
+<script type="application/json" id="pr-glossary-index">{{ $items | jsonify | safeJS }}</script>
+{{ end }}

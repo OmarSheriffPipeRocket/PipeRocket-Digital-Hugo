@@ -1,0 +1,16 @@
+{{ $authors := .Site.Data.authors }}
+{{ $writer := index $authors (default "" .Params.writtenBy) }}
+{{ $reviewer := index $authors (default "" .Params.reviewedBy) }}
+{{ with $writer }}
+  <span class="pr-byline__role">
+    <span class="pr-byline__label">Written by</span>
+    <a href="/authors/{{ $.Params.writtenBy }}/" class="pr-byline__name">{{ .name }}</a>
+  </span>
+{{ end }}
+{{ with $reviewer }}
+  <span class="pr-byline__role">
+    <span class="pr-byline__label">Reviewed by</span>
+    <a href="/authors/{{ $.Params.reviewedBy }}/" class="pr-byline__name">{{ .name }}</a>
+    {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+  </span>
+{{ end }}

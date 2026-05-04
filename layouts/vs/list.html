@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="pr-section pr-bloglist">
+  <div class="pr-container">
+    <header class="pr-center pr-bloglist__header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-bloglist__lede">{{ . }}</p>{{ end }}
+    </header>
+
+    {{ partial "section-search.html" (dict "section" "vs" "placeholder" "Search comparisons…") }}
+
+    <div class="pr-bloglist__grid">
+      {{ range .Pages.ByDate.Reverse }}
+        <article class="pr-bloglist__card">
+          {{ with .Params.category }}<div class="pr-eyebrow pr-eyebrow--red">{{ . }}</div>{{ end }}
+          <h3 class="pr-bloglist__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Params.description }}<p class="pr-bloglist__excerpt">{{ . }}</p>{{ end }}
+          <div class="pr-bloglist__meta">
+            {{ if not .Date.IsZero }}<span>{{ .Date.Format "Jan 2, 2006" }}</span>{{ end }}
+            {{ with .Params.comparison }}<span>{{ len . }} criteria</span>{{ end }}
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

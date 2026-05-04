@@ -1,0 +1,78 @@
+# Site-wide FAQs grouped by category.
+# Edit categories + Q&A here; the /faqs/ page renders the full list with search.
+
+[[categories]]
+name = "About PipeRocket"
+slug = "about"
+
+  [[categories.items]]
+  question = "What does PipeRocket Digital do?"
+  answer = "We're a B2B SaaS marketing agency. We run SEO, paid, content, and marketing operations programmes for SaaS companies — measured against pipeline and revenue, not vanity metrics."
+
+  [[categories.items]]
+  question = "Who do you work with?"
+  answer = "B2B SaaS companies typically at Series A and beyond. The teams who get the most out of working with us have a defined ICP, a sales motion that closes deals, and the patience to invest 6–12 months in compounding pipeline."
+
+  [[categories.items]]
+  question = "How are you different from other SaaS agencies?"
+  answer = "Most agencies start with a keyword tool. We start inside your business — sales calls, pipeline reviews, ICP definition — before any keyword work. Every page we ship has a pipeline outcome attached, not just a ranking goal."
+
+[[categories]]
+name = "Services & Pricing"
+slug = "services"
+
+  [[categories.items]]
+  question = "What services do you offer?"
+  answer = "SaaS SEO (BOFU + topical authority), SaaS PPC (Google Ads + LinkedIn Ads), Marketing Operations (attribution, lifecycle, RevOps), and account-based programmes for B2B teams targeting named accounts."
+
+  [[categories.items]]
+  question = "How is pricing structured?"
+  answer = "Custom monthly retainers based on scope. Most engagements start at $5,000+/mo. We don't have package pricing because every SaaS business has different gaps — we build the engagement around what's actually missing."
+
+  [[categories.items]]
+  question = "Do you offer one-off projects?"
+  answer = "Rarely. SEO and demand-gen work compound over time — short engagements rarely produce the kind of pipeline shift our clients want. If you have a specific project in mind, talk to us and we'll be honest about whether it fits."
+
+[[categories]]
+name = "Working together"
+slug = "working-with-us"
+
+  [[categories.items]]
+  question = "How quickly do we see results?"
+  answer = "BOFU and high-intent SEO can drive MQLs in month one. Broader topical authority compounds over 6–12 months. Paid programmes can show pipeline impact within 30–60 days once attribution is set up cleanly."
+
+  [[categories.items]]
+  question = "Will I work with the founder or an account manager?"
+  answer = "You'll work with the practitioners doing the work. We don't run the account-manager-as-buffer model. Your weekly call is with the SEO lead and the analyst, not a salesperson."
+
+  [[categories.items]]
+  question = "How do you measure success?"
+  answer = "Pipeline created (in $), CAC payback period, qualified opportunity rate, and revenue attributed by content cluster. Rankings and traffic are leading indicators — they get tracked, but they don't define the engagement."
+
+[[categories]]
+name = "Process & onboarding"
+slug = "onboarding"
+
+  [[categories.items]]
+  question = "What does onboarding look like?"
+  answer = "Two weeks. Week one: sales call recordings, pipeline-stage definitions, ICP workshop, current-state audit. Week two: 90-day plan with first deliverables and the metrics we're measuring against. By day 30 we have the first BOFU pages live."
+
+  [[categories.items]]
+  question = "What do you need from us?"
+  answer = "Access to GA4, GSC, your CRM (read-only), and one weekly hour from someone in sales. The fastest engagements happen when we have a single decision-maker on your side who can sign off on briefs without a 5-person committee."
+
+  [[categories.items]]
+  question = "Where are you based?"
+  answer = "Bangalore, India. We work across IST, BST, and PST hours. Most clients have a weekly call in their timezone and async daily updates the rest of the week."
+
+# External categories — sidebar links that jump to dedicated FAQ pages.
+# `url` makes the category render as an external link in the sidebar (no inline items).
+[[categories]]
+name = "SaaS SEO"
+slug = "saas-seo"
+url = "/saas-seo-agency/faqs/"
+
+[[categories]]
+name = "SaaS PPC"
+slug = "saas-ppc"
+url = "/saas-ppc/faqs/"

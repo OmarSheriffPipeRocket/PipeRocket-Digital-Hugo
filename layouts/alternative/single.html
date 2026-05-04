@@ -1,0 +1,134 @@
+{{ define "main" }}
+<article class="pr-alt">
+  <div class="pr-container">
+
+    <header class="pr-alt__header">
+      {{ with .Params.category }}<div class="pr-eyebrow pr-eyebrow--red">{{ . }}</div>{{ end }}
+      <h1 class="pr-alt__title">{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-alt__lede">{{ . }}</p>{{ end }}
+      <div class="pr-alt__byline">
+        <div class="pr-alt__meta">
+          {{ partial "article-byline.html" . }}
+          {{ if not .Date.IsZero }}<span><time datetime="{{ .Date.Format "2006-01-02" }}">Updated {{ .Date.Format "Jan 2, 2006" }}</time></span>{{ end }}
+          {{ with .Params.readingTime }}<span>{{ . }}</span>{{ end }}
+        </div>
+        {{ partial "article-utility-icons.html" . }}
+      </div>
+    </header>
+
+    {{ with .Params.primary }}
+      <section class="pr-alt__primary">
+        <div class="pr-eyebrow">Why people are looking for an alternative to</div>
+        <h2>{{ .name }}</h2>
+        {{ with .why_alt }}<p>{{ . }}</p>{{ end }}
+        {{ with .gaps }}
+          <ul class="pr-alt__gaps">
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+          </ul>
+        {{ end }}
+      </section>
+    {{ end }}
+
+    {{ with .Params.alternatives }}
+      <section class="pr-alt__compare">
+        <h2>Quick comparison</h2>
+        <table class="pr-alt__table">
+          <thead>
+            <tr>
+              <th>Alternative</th>
+              <th>Best for</th>
+              <th>Pricing</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range . }}
+              <tr>
+                <td><strong><a href="#{{ .slug }}">{{ .name }}</a></strong></td>
+                <td>{{ .best_for }}</td>
+                <td>{{ .pricing }}</td>
+                <td>{{ with .url }}<a href="{{ . }}" rel="noopener">Visit →</a>{{ end }}</td>
+              </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </section>
+    {{ end }}
+
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Pick the right partner in 30 minutes.</strong>
+          <p>We work with a small number of B2B SaaS companies at a time.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+        </div>
+
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible">
+          <summary class="pr-article-rail__heading">In this article</summary>
+          <nav class="pr-article-rail__toc">
+            <ol>
+              {{ range $i, $a := .Params.alternatives }}
+                <li><a href="#{{ $a.slug }}"><span class="pr-article-rail__num">{{ printf "%02d" (add $i 1) }}</span>{{ $a.name }}</a></li>
+              {{ end }}
+            </ol>
+          </nav>
+        </details>
+
+      </aside>
+
+      <div class="pr-article-main">
+        {{ with .Params.alternatives }}
+          <section class="pr-alt__items">
+            {{ range $i, $a := . }}
+              <article class="pr-alt__item" id="{{ $a.slug }}">
+                <header class="pr-alt__item-head">
+                  <span class="pr-alt__item-rank">{{ printf "%02d" (add $i 1) }}</span>
+                  <div>
+                    <h3>{{ $a.name }}</h3>
+                    {{ with $a.tagline }}<p class="pr-alt__item-tagline">{{ . }}</p>{{ end }}
+                  </div>
+                </header>
+
+                {{ with $a.body }}<div class="pr-alt__item-body">{{ . | markdownify }}</div>{{ end }}
+
+                <div class="pr-alt__item-grid">
+                  {{ with $a.pros }}
+                    <div>
+                      <h4>What it does well</h4>
+                      <ul class="pr-alt__pros">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+                    </div>
+                  {{ end }}
+                  {{ with $a.cons }}
+                    <div>
+                      <h4>Where it falls short</h4>
+                      <ul class="pr-alt__cons">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+                    </div>
+                  {{ end }}
+                </div>
+
+                <dl class="pr-alt__meta-grid">
+                  {{ with $a.pricing }}<div><dt>Pricing</dt><dd>{{ . }}</dd></div>{{ end }}
+                  {{ with $a.best_for }}<div><dt>Best for</dt><dd>{{ . }}</dd></div>{{ end }}
+                  {{ with $a.fit }}<div><dt>Fit</dt><dd>{{ . }}</dd></div>{{ end }}
+                </dl>
+
+                {{ with $a.url }}<a href="{{ . }}" class="pr-btn pr-btn--ghost" rel="noopener">Visit {{ $a.name }} →</a>{{ end }}
+              </article>
+            {{ end }}
+          </section>
+        {{ end }}
+
+        <div class="pr-alt__body" data-pr-inline-related data-related-links='{{ .Params.relatedLinks | jsonify }}'>{{ .Content }}</div>
+
+        {{ partial "article-cta.html" . }}
+      </div>
+
+      {{ partial "article-rail-author.html" . }}
+
+    </div>
+
+  </div>
+</article>
+{{ end }}

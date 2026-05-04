@@ -1,0 +1,70 @@
+{{/* Trust band — clients grouped by industry. Static grid (not scrolling). */}}
+{{ $industries := slice
+  (dict
+    "title" "Fintech, Spend & Operations"
+    "logos" (slice
+      (dict "name" "Spendflo"     "src" "/images/logos/spendflo.svg")
+      (dict "name" "Osfin"        "src" "/images/logos/osfin.svg")
+      (dict "name" "DigitalAPI"   "src" "/images/logos/digitalapi.svg")
+      (dict "name" "LateShipment" "src" "/images/logos/lateshipment.svg")
+      (dict "name" "QX"           "src" "/images/logos/qx.svg")
+      (dict "name" "Amnic"        "src" "/images/logos/amnic.png")
+    )
+  )
+  (dict
+    "title" "Security, Risk & Compliance"
+    "logos" (slice
+      (dict "name" "Sprinto"      "src" "/images/logos/sprinto.webp")
+      (dict "name" "HyperVerge"   "src" "/images/logos/hyperverge.webp")
+      (dict "name" "MetricStream" "src" "/images/logos/metricstream.webp")
+    )
+  )
+  (dict
+    "title" "HR & Workforce"
+    "logos" (slice
+      (dict "name" "Keka"         "src" "/images/logos/keka.svg")
+      (dict "name" "GreyThr"      "src" "/images/logos/greythr.png")
+      (dict "name" "HappyFox"     "src" "/images/logos/happyfox.svg")
+    )
+  )
+  (dict
+    "title" "Sales, Marketing & Customer Engagement"
+    "logos" (slice
+      (dict "name" "LeadSquared"   "src" "/images/logos/leadsquared.png")
+      (dict "name" "Storylane"     "src" "/images/logos/storylane.svg")
+      (dict "name" "JustCall"      "src" "/images/logos/justcall.svg")
+      (dict "name" "Apty"          "src" "/images/logos/apty.png")
+      (dict "name" "Goldcast"      "src" "/images/logos/goldcast.svg")
+      (dict "name" "Gallabox"      "src" "/images/logos/gallabox.svg")
+      (dict "name" "HyperStart"    "src" "/images/logos/hyperstart.png")
+      (dict "name" "ServiceAgent"  "src" "/images/logos/serviceagent.svg")
+    )
+  )
+  (dict
+    "title" "Data, AI & Analytics"
+    "logos" (slice
+      (dict "name" "LatentView"   "src" "/images/logos/latentview.svg")
+      (dict "name" "Tredence"     "src" "/images/logos/tredence.svg")
+      (dict "name" "Esri"         "src" "/images/logos/esri.svg")
+      (dict "name" "Atlas"        "src" "/images/logos/atlas.svg")
+      (dict "name" "Fibr"         "src" "/images/logos/fibr.svg")
+    )
+  )
+}}
+<section class="pr-logobar pr-logobar--industries">
+  <div class="pr-container">
+    <div class="pr-logobar__label">Trusted by SaaS leaders across industries</div>
+    <div class="pr-industries">
+      {{ range $industries }}
+        <div class="pr-industry">
+          <h3 class="pr-industry__title">{{ .title }}</h3>
+          <div class="pr-industry__logos">
+            {{ range .logos }}
+              <img src="{{ .src }}" alt="{{ .name }}" loading="lazy" class="pr-logobar__logo" title="{{ .name }}">
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

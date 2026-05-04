@@ -1,0 +1,116 @@
+{{ define "main" }}
+<article class="pr-case">
+
+  <!-- ====================================================
+       HERO — eyebrow, title, lede, big metrics
+       ==================================================== -->
+  <section class="pr-case__hero">
+    <div class="pr-container">
+      <a href="/case-studies/" class="pr-case__back">← All case studies</a>
+
+      <div class="pr-case__hero-eyebrow">
+        <span class="pr-eyebrow pr-eyebrow--red">Case study</span>
+        {{ with .Params.client }}<span class="pr-case__hero-client">{{ . }}</span>{{ end }}
+        {{ with .Params.industry }}<span class="pr-case__hero-industry">{{ . }}</span>{{ end }}
+      </div>
+
+      <h1 class="pr-case__title">{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-case__lede">{{ . }}</p>{{ end }}
+
+      {{ with .Params.hero_metrics }}
+        <div class="pr-case__hero-metrics">
+          {{ range . }}
+            <div class="pr-case__hero-metric">
+              <strong class="pr-case__hero-metric-value">{{ .value }}</strong>
+              <span class="pr-case__hero-metric-label">{{ .label }}</span>
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- ====================================================
+       BODY — at-a-glance rail + narrative
+       ==================================================== -->
+  <section class="pr-case__body">
+    <div class="pr-container pr-case__layout">
+
+      <aside class="pr-case__rail" aria-label="Engagement summary">
+        <div class="pr-case__rail-card">
+          <h4 class="pr-case__rail-heading">At a glance</h4>
+          <dl class="pr-case__rail-dl">
+            {{ with .Params.client }}<dt>Client</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.industry }}<dt>Industry</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.company_size }}<dt>Company size</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.services }}
+              <dt>Services</dt>
+              <dd>
+                <ul class="pr-case__rail-tags">
+                  {{ range . }}<li>{{ . }}</li>{{ end }}
+                </ul>
+              </dd>
+            {{ end }}
+            {{ with .Params.engagement_window }}<dt>Engagement</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.duration }}<dt>Duration</dt><dd>{{ . }}</dd>{{ end }}
+          </dl>
+        </div>
+
+        {{ with .Params.secondary_metrics }}
+          <div class="pr-case__rail-card pr-case__rail-card--quiet">
+            <h4 class="pr-case__rail-heading">Also moved</h4>
+            <ul class="pr-case__rail-stats">
+              {{ range . }}
+                <li>
+                  <strong>{{ .value }}</strong>
+                  <span>{{ .label }}</span>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+
+        <div class="pr-case__rail-card pr-case__rail-card--cta">
+          <strong>Want results like these?</strong>
+          <p>Tell us where your funnel breaks. Real reply within 1 business day.</p>
+          <button type="button" class="pr-btn pr-case__rail-btn" data-modal-trigger="funnel-audit" data-cta-source="case_study_rail">Free funnel audit →</button>
+        </div>
+      </aside>
+
+      <div class="pr-case__article">
+        <div class="pr-case__content">
+          {{ .Content }}
+        </div>
+
+        {{ with .Params.testimonial }}
+          <blockquote class="pr-case__quote">
+            <svg class="pr-case__quote-mark" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M7 7h4v4H7c0 2.2 1.8 4 4 4v2c-3.3 0-6-2.7-6-6V7Zm9 0h4v4h-4c0 2.2 1.8 4 4 4v2c-3.3 0-6-2.7-6-6V7Z"/>
+            </svg>
+            <p class="pr-case__quote-text">{{ .quote }}</p>
+            <footer class="pr-case__quote-author">
+              <strong>{{ .name }}</strong>
+              {{ with .role }}<span>{{ . }}</span>{{ end }}
+            </footer>
+          </blockquote>
+        {{ end }}
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ====================================================
+       BOTTOM CTA
+       ==================================================== -->
+  <section class="pr-case__cta">
+    <div class="pr-container">
+      <div class="pr-case__cta-inner">
+        <h2>Your turn.</h2>
+        <p>We work with a small number of B2B SaaS companies at a time. If your paid or organic programme isn't compounding the way it should, we'll tell you what we'd change — in writing — within one business day.</p>
+        <button type="button" class="pr-btn" data-modal-trigger="funnel-audit" data-cta-source="case_study_bottom">Free funnel audit →</button>
+      </div>
+    </div>
+  </section>
+
+</article>
+{{ end }}

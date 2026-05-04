@@ -1,0 +1,105 @@
+{{ define "main" }}
+{{ $stories := .Pages.ByDate.Reverse }}
+
+<article class="pr-stories">
+
+  <!-- ====================================================
+       HERO
+       ==================================================== -->
+  <section class="pr-stories__hero">
+    <div class="pr-container">
+      <span class="pr-eyebrow pr-eyebrow--red">Case studies</span>
+      <h1 class="pr-stories__title">{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-stories__lede">{{ . }}</p>{{ end }}
+
+      <div class="pr-stories__hero-stats">
+        <div class="pr-stories__hero-stat">
+          <strong>{{ len $stories }}</strong>
+          <span>Public engagements</span>
+        </div>
+        <div class="pr-stories__hero-stat">
+          <strong>5.0</strong>
+          <span>Clutch rating, every review</span>
+        </div>
+        <div class="pr-stories__hero-stat">
+          <strong>$4.5M+</strong>
+          <span>Pipeline generated for clients</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       FILTER PILLS
+       ==================================================== -->
+  <section class="pr-stories__filter">
+    <div class="pr-container">
+      <div class="pr-stories__filter-inner" data-stories-filter>
+        <button class="pr-stories__pill is-active" type="button" data-filter="all">All <span>{{ len $stories }}</span></button>
+        {{ $seoCount := len (where $stories "Params.services" "intersect" (slice "SaaS SEO")) }}
+        {{ $ppcCount := len (where $stories "Params.services" "intersect" (slice "SaaS PPC")) }}
+        <button class="pr-stories__pill" type="button" data-filter="SaaS SEO">SaaS SEO <span>{{ $seoCount }}</span></button>
+        <button class="pr-stories__pill" type="button" data-filter="SaaS PPC">SaaS PPC <span>{{ $ppcCount }}</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       GRID
+       ==================================================== -->
+  <section class="pr-stories__grid-section">
+    <div class="pr-container">
+      <div class="pr-stories__grid" data-stories-grid>
+        {{ range $stories }}
+          {{ $servicesAttr := delimit .Params.services "," }}
+          <a class="pr-story-card" href="{{ .RelPermalink }}" data-services="{{ $servicesAttr }}">
+            <div class="pr-story-card__head">
+              <span class="pr-story-card__client">{{ .Params.client }}</span>
+              {{ with .Params.services }}
+                <ul class="pr-story-card__services">
+                  {{ range . }}<li>{{ . }}</li>{{ end }}
+                </ul>
+              {{ end }}
+            </div>
+
+            <h3 class="pr-story-card__title">{{ .Title }}</h3>
+
+            {{ with .Params.industry }}<p class="pr-story-card__industry">{{ . }}</p>{{ end }}
+
+            {{ with .Params.hero_metrics }}
+              <ul class="pr-story-card__metrics">
+                {{ range first 2 . }}
+                  <li>
+                    <strong>{{ .value }}</strong>
+                    <span>{{ .label }}</span>
+                  </li>
+                {{ end }}
+              </ul>
+            {{ end }}
+
+            <span class="pr-story-card__cta">Read full story →</span>
+          </a>
+        {{ end }}
+      </div>
+
+      <div class="pr-stories__empty" data-stories-empty hidden>
+        <p>No stories match that filter yet. <button type="button" data-filter="all">Show all</button></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       BOTTOM CTA
+       ==================================================== -->
+  <section class="pr-case__cta">
+    <div class="pr-container">
+      <div class="pr-case__cta-inner">
+        <h2>Want a story like these?</h2>
+        <p>We work with a small number of B2B SaaS companies at a time. If your funnel isn't compounding the way it should, we'll tell you what we'd change — in writing — within one business day.</p>
+        <button type="button" class="pr-btn" data-modal-trigger="funnel-audit" data-cta-source="case_studies_bottom">Free funnel audit →</button>
+      </div>
+    </div>
+  </section>
+
+</article>
+{{ end }}

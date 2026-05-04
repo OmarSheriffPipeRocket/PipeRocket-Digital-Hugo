@@ -1,0 +1,17 @@
+<aside class="pr-article-rail pr-article-rail--right" aria-label="Talk to us">
+  <div class="pr-article-rail__card pr-article-rail__cta">
+    <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+    <strong>Pick the right partner in 30 minutes.</strong>
+    <p>We work with a small number of B2B SaaS companies at a time. Tell us your ICP and we'll map the channels most likely to move pipeline in 90 days.</p>
+    <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+  </div>
+
+  <div class="pr-article-rail__card">
+    <h4 class="pr-article-rail__heading">Share</h4>
+    <ul class="pr-article-rail__share">
+      <li><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" rel="noopener" target="_blank">LinkedIn</a></li>
+      <li><a href="https://x.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" rel="noopener" target="_blank">X / Twitter</a></li>
+      <li><a href="mailto:?subject={{ .Title }}&body={{ .Permalink }}">Email</a></li>
+    </ul>
+  </div>
+</aside>

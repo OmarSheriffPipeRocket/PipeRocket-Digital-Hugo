@@ -1,0 +1,124 @@
+<header class="pr-header">
+  <div class="pr-container pr-header__inner">
+    <a href="/" class="pr-logo" aria-label="PipeRocket home">
+      <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-logo__img">
+    </a>
+
+    <nav class="pr-nav" aria-label="Main">
+      <a href="/about-us/" class="pr-nav__item">About</a>
+
+      <div class="pr-nav__item pr-nav__item--mega" tabindex="0">
+        <span>Services</span>
+        <span class="pr-nav__caret" aria-hidden="true">▾</span>
+
+        <div class="pr-megamenu" role="menu">
+          <div class="pr-megamenu__col">
+            <h4 class="pr-megamenu__heading">Strategy</h4>
+            <a href="/saas-seo-agency/" class="pr-megamenu__link">
+              <strong>SaaS SEO</strong>
+              <span>Pipeline-first organic growth for B2B SaaS.</span>
+            </a>
+            <a href="/saas-ppc/" class="pr-megamenu__link">
+              <strong>SaaS PPC</strong>
+              <span>Paid built around your ICP, not vanity clicks.</span>
+            </a>
+            <a href="/marketing-ops/" class="pr-megamenu__link">
+              <strong>MarOps</strong>
+              <span>Attribution, lifecycle, RevOps alignment.</span>
+            </a>
+          </div>
+
+          <div class="pr-megamenu__col">
+            <h4 class="pr-megamenu__heading">Tactics</h4>
+            <a href="/account-based-marketing/" class="pr-megamenu__link">
+              <strong>ABM / LinkedIn</strong>
+              <span>Targeted outbound to your real ICP.</span>
+            </a>
+            <a href="/link-building/" class="pr-megamenu__link">
+              <strong>Backlinks</strong>
+              <span>Authority from sources buyers trust.</span>
+            </a>
+            <a href="/content-marketing/" class="pr-megamenu__link">
+              <strong>Content</strong>
+              <span>Written for buying committees, not keywords.</span>
+            </a>
+            <a href="/best-aeo-geo-agencies/" class="pr-megamenu__link">
+              <strong>AEO / GEO</strong>
+              <span>Visibility in ChatGPT, Perplexity, AI Overviews.</span>
+            </a>
+          </div>
+
+          <div class="pr-megamenu__col pr-megamenu__col--feature">
+            <h4 class="pr-megamenu__heading">Why PipeRocket</h4>
+            <a href="/about-us/" class="pr-megamenu__cta">
+              <span class="pr-eyebrow pr-eyebrow--red">Practitioners, not account managers</span>
+              <strong>Marketing built by SaaS operators</strong>
+              <span>10+ years inside Spendflo, Storylane, GreytHR — running the same playbook we now run for you.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pr-nav__item pr-nav__item--mega" tabindex="0">
+        <span>Resources</span>
+        <span class="pr-nav__caret" aria-hidden="true">▾</span>
+
+        <div class="pr-megamenu" role="menu">
+          <div class="pr-megamenu__col">
+            <h4 class="pr-megamenu__heading">Articles</h4>
+            <a href="/blogs/" class="pr-megamenu__link">
+              <strong>Blog</strong>
+              <span>Long-form strategy and field notes.</span>
+            </a>
+            <a href="/glossary/" class="pr-megamenu__link">
+              <strong>Glossary</strong>
+              <span>Plain-English SaaS marketing definitions.</span>
+            </a>
+            <a href="/faqs/" class="pr-megamenu__link">
+              <strong>FAQs</strong>
+              <span>Common questions answered.</span>
+            </a>
+          </div>
+
+          <div class="pr-megamenu__col">
+            <h4 class="pr-megamenu__heading">Comparisons</h4>
+            <a href="/list/" class="pr-megamenu__link">
+              <strong>Best-of lists</strong>
+              <span>Ranked rundowns of agencies and tools.</span>
+            </a>
+            <a href="/alternative/" class="pr-megamenu__link">
+              <strong>Alternatives</strong>
+              <span>When the default tool isn't the right one.</span>
+            </a>
+            <a href="/vs/" class="pr-megamenu__link">
+              <strong>Head-to-head</strong>
+              <span>Side-by-side product comparisons.</span>
+            </a>
+          </div>
+
+          <div class="pr-megamenu__col pr-megamenu__col--feature">
+            <h4 class="pr-megamenu__heading">Featured</h4>
+            <a href="/blogs/best-linkedin-marketing-agencies/" class="pr-megamenu__cta">
+              <span class="pr-eyebrow pr-eyebrow--red">B2B LinkedIn Marketing</span>
+              <strong>11 LinkedIn Marketing Agencies Ranked in 2026</strong>
+              <span>22-min deep read · Praveen Ravi</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="/case-studies/" class="pr-nav__item">Case Studies</a>
+      <a href="/reviews/" class="pr-nav__item">Reviews</a>
+    </nav>
+
+    <div class="pr-header__cta">
+      <button type="button" class="pr-btn" data-modal-trigger="funnel-audit" data-cta-source="header_cta">{{ .Site.Params.primary_cta_text }}</button>
+    </div>
+
+    <button class="pr-menu-toggle" aria-label="Open menu" id="prMenuToggle">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+{{ partial "modal-funnel-audit.html" . }}

@@ -1,0 +1,227 @@
+######################## PipeRocket Hugo Config ####################
+baseURL = "https://piperocket.digital/"
+languageCode = "en-us"
+title = "PipeRocket — Marketing with purpose, not just presence."
+canonifyURLs = true
+relativeURLs = false
+timeZone = "Asia/Kolkata"
+hasCJKLanguage = false
+
+# Pretty URLs (trailing slash)
+uglyURLs = false
+
+# Pagination
+pagination.pagerSize = 12
+
+# Build settings
+[build]
+noJSConfigInAssets = false
+useResourceCacheWhen = 'fallback'
+[build.buildStats]
+enable = true
+[[build.cachebusters]]
+source = 'assets/.*\.(js|ts|jsx|tsx)'
+target = '(js|scripts|javascript)'
+[[build.cachebusters]]
+source = 'assets/.*\.(css|sass|scss)$'
+target = '(css|styles|scss|sass)'
+
+# Outputs
+[outputs]
+home = ["HTML", "RSS", "SITEMAP"]
+section = ["HTML", "RSS"]
+
+# Imaging
+[imaging]
+quality = 85
+resampleFilter = "lanczos"
+
+# Caches
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+# Markup — allow raw HTML in markdown
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+noClasses = false
+
+# Permalinks — case studies use flat URL pattern from existing site
+[permalinks]
+case-study = "/case-study-:slug/"
+
+# Taxonomies — keep minimal for now
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+############################# Navigation ##############################
+
+# Header / main menu
+[[menu.main]]
+name = "About"
+url = "/about-us/"
+weight = 1
+
+[[menu.main]]
+name = "Services"
+weight = 2
+identifier = "services"
+
+  [[menu.main]]
+  name = "SaaS SEO"
+  url = "/saas-seo-agency/"
+  parent = "services"
+  weight = 1
+
+  [[menu.main]]
+  name = "SaaS PPC"
+  url = "/saas-ppc/"
+  parent = "services"
+  weight = 2
+
+  [[menu.main]]
+  name = "MarOps"
+  url = "/marketing-ops/"
+  parent = "services"
+  weight = 3
+
+[[menu.main]]
+name = "Resources"
+weight = 3
+identifier = "resources"
+
+  [[menu.main]]
+  name = "Blogs"
+  url = "/blogs/"
+  parent = "resources"
+  weight = 1
+
+  [[menu.main]]
+  name = "Glossary"
+  url = "/glossary/"
+  parent = "resources"
+  weight = 2
+
+  [[menu.main]]
+  name = "FAQs"
+  url = "/faqs/"
+  parent = "resources"
+  weight = 3
+
+[[menu.main]]
+name = "Case Studies"
+url = "/case-studies/"
+weight = 4
+
+# Footer columns
+[[menu.footer_services]]
+name = "SaaS SEO"
+url = "/saas-seo-agency/"
+weight = 1
+[[menu.footer_services]]
+name = "SaaS PPC"
+url = "/saas-ppc/"
+weight = 2
+[[menu.footer_services]]
+name = "MarkOps"
+url = "/marketing-ops/"
+weight = 3
+
+[[menu.footer_company]]
+name = "About Us"
+url = "/about-us/"
+weight = 1
+[[menu.footer_company]]
+name = "Team"
+url = "/about-us/#team"
+weight = 2
+[[menu.footer_company]]
+name = "Case Studies"
+url = "/case-studies/"
+weight = 3
+[[menu.footer_company]]
+name = "Contact Us"
+url = "/contact-us/"
+weight = 4
+
+[[menu.footer_learn]]
+name = "SaaS SEO"
+url = "/list/best-saas-seo-agencies/"
+weight = 1
+[[menu.footer_learn]]
+name = "Enterprise SEO"
+url = "/list/best-technical-seo-agencies/"
+weight = 2
+[[menu.footer_learn]]
+name = "B2B PPC Agencies"
+url = "/list/best-b2b-advertising-agencies/"
+weight = 3
+
+[[menu.footer_resources]]
+name = "Blogs"
+url = "/blogs/"
+weight = 1
+[[menu.footer_resources]]
+name = "FAQs"
+url = "/faqs/"
+weight = 2
+
+############################# Site Params ##############################
+[params]
+description = "PipeRocket is a B2B SaaS marketing agency obsessed with one thing: your revenue. SaaS SEO, SaaS PPC, MarOps."
+author = "PipeRocket Digital"
+tagline = "Marketing with purpose, not just presence."
+copyright = "© Piperocket Inc. 2026 All rights reserved"
+
+primary_cta_text = "Free funnel audit"
+primary_cta_url = "/contact-us/"
+secondary_cta_text = "Book free consultation"
+secondary_cta_url = "/contact-us/"
+
+[params.social]
+linkedin = "https://www.linkedin.com/company/piperocketdigital/"
+twitter = "https://x.com/piperocket"
+clutch_rating = "5.0"
+
+# HubSpot form embed (used by /contact-us/). Replace these with your actual
+# HubSpot portal ID and form ID from the HubSpot Forms dashboard.
+[params.hubspot]
+portal_id = "241952717"
+form_id = "97074810-865c-4d8c-a064-2dab9074133f"
+region = "na2"
+
+[params.contact]
+email = "hello@piperocket.digital"
+phone = "+91 88702 45547"
+address = "Chennai, India · US delivery hub"
+
+# Numbers that matter — homepage stats strip. Each entry animates from 0 to `target` on scroll-in.
+# Edit values here; layout renders from .Site.Params.stats.
+[[params.stats]]
+prefix = "$"
+target = 4.5
+decimals = 1
+suffix = "M"
+label = "Customers"
+[[params.stats]]
+prefix = "$"
+target = 3.2
+decimals = 1
+suffix = "M"
+label = "Pipeline"
+[[params.stats]]
+prefix = "$"
+target = 8.7
+decimals = 1
+suffix = "M"
+label = "Traffic"
+[[params.stats]]
+prefix = "$"
+target = 4.5
+decimals = 1
+suffix = "M"
+label = "Spend"

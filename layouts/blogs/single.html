@@ -1,0 +1,54 @@
+{{ define "main" }}
+<article class="pr-blog pr-alt">
+  <div class="pr-container">
+
+    <header class="pr-alt__header">
+      {{ with .Params.category }}<div class="pr-eyebrow pr-eyebrow--red">{{ . }}</div>{{ end }}
+      <h1 class="pr-alt__title">{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-alt__lede">{{ . }}</p>{{ end }}
+      <div class="pr-alt__byline">
+        <div class="pr-alt__meta">
+          {{ partial "article-byline.html" . }}
+          {{ if not .Date.IsZero }}<span><time datetime="{{ .Date.Format "2006-01-02" }}">Updated {{ .Date.Format "Jan 2, 2006" }}</time></span>{{ end }}
+          {{ with .Params.readingTime }}<span>{{ . }}</span>{{ end }}
+        </div>
+        {{ partial "article-utility-icons.html" . }}
+      </div>
+    </header>
+
+    {{ with .Params.featuredImage }}
+      <img src="{{ . }}" alt="{{ $.Title }}" class="pr-blog__feature">
+    {{ end }}
+
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Pick the right partner in 30 minutes.</strong>
+          <p>We work with a small number of B2B SaaS companies at a time.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+        </div>
+
+        {{ if and (default true .Params.toc) (gt (len .TableOfContents) 0) }}
+          <details class="pr-article-rail__card pr-article-rail__card--collapsible">
+            <summary class="pr-article-rail__heading">On this page</summary>
+            <nav class="pr-article-rail__toc">
+              {{ .TableOfContents }}
+            </nav>
+          </details>
+        {{ end }}
+      </aside>
+
+      <div class="pr-article-main">
+        <div class="pr-blog__body" data-pr-inline-related data-related-links='{{ .Params.relatedLinks | jsonify }}'>{{ .Content }}</div>
+        {{ partial "article-cta.html" . }}
+      </div>
+
+      {{ partial "article-rail-author.html" . }}
+
+    </div>
+
+  </div>
+</article>
+{{ end }}

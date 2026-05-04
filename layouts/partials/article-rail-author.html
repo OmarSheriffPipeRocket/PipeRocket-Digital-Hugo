@@ -1,0 +1,113 @@
+{{ $authors := .Site.Data.authors }}
+{{ $writer := index $authors (default "" .Params.writtenBy) }}
+{{ $reviewer := index $authors (default "" .Params.reviewedBy) }}
+
+<aside class="pr-article-rail pr-article-rail--right" aria-label="About the author">
+  {{ if or $writer $reviewer }}
+    <div class="pr-article-rail__card pr-author-card">
+
+      {{ with $writer }}
+        <div class="pr-author-card__person">
+          <div class="pr-author-card__person-row">
+            {{ with .photo }}
+              <span class="pr-author-card__photo-wrap">
+                <img src="{{ . }}" alt="{{ $writer.name }}" class="pr-author-card__photo">
+                {{ partial "trust-badge.html" . }}
+              </span>
+            {{ end }}
+            <div class="pr-author-card__person-body">
+              <div class="pr-eyebrow">Written by</div>
+              <strong class="pr-author-card__name">
+                <a href="/authors/{{ $.Params.writtenBy }}/">{{ .name }}</a>
+                {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+              </strong>
+              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+            </div>
+          </div>
+          {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+        </div>
+      {{ end }}
+
+      {{ with $reviewer }}
+        <div class="pr-author-card__person pr-author-card__person--reviewer">
+          <div class="pr-author-card__person-row">
+            {{ with .photo }}
+              <span class="pr-author-card__photo-wrap">
+                <img src="{{ . }}" alt="{{ $reviewer.name }}" class="pr-author-card__photo">
+                {{ partial "trust-badge.html" . }}
+              </span>
+            {{ end }}
+            <div class="pr-author-card__person-body">
+              <div class="pr-eyebrow">Reviewed by</div>
+              <strong class="pr-author-card__name">
+                <a href="/authors/{{ $.Params.reviewedBy }}/">{{ .name }}</a>
+                {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+              </strong>
+              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+            </div>
+          </div>
+          {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+        </div>
+      {{ end }}
+
+    </div>
+  {{ end }}
+
+  {{ with .Params.relatedLinks }}
+    <div class="pr-article-rail__card">
+      <h4 class="pr-article-rail__heading">Related links</h4>
+      <ul class="pr-article-rail__related">
+        {{ range . }}
+          <li>
+            <a href="{{ .url }}">
+              <strong>{{ .title }}</strong>
+              {{ with .description }}<span>{{ . }}</span>{{ end }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+
+  {{ $current := . }}
+  {{ $isFaqPage := or (in .RelPermalink "/faqs") (in (lower .Title) "faq") }}
+
+  {{ if $isFaqPage }}
+    {{/* Related FAQs — other FAQ pages on the site */}}
+    {{ $faqUrls := slice "/faqs/" "/saas-seo-agency/faqs/" "/saas-ppc/faqs/" }}
+    {{ $faqs := where (where .Site.RegularPages "Permalink" "ne" $current.Permalink) "RelPermalink" "in" $faqUrls }}
+    {{ with $faqs }}
+      <div class="pr-article-rail__card">
+        <h4 class="pr-article-rail__heading">Related FAQs</h4>
+        <ul class="pr-article-rail__related">
+          {{ range . }}
+            <li>
+              <a href="{{ .RelPermalink }}">
+                <strong>{{ .Title }}</strong>
+                {{ with .Description }}<span>{{ . | truncate 80 }}</span>{{ end }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  {{ else }}
+    {{/* Popular reads — top 5 most recent listicles, excluding current page */}}
+    {{ $popular := first 5 (where (where .Site.RegularPages "Section" "list") "Permalink" "ne" $current.Permalink).ByDate.Reverse }}
+    {{ with $popular }}
+      <div class="pr-article-rail__card">
+        <h4 class="pr-article-rail__heading">Popular reads</h4>
+        <ul class="pr-article-rail__related">
+          {{ range . }}
+            <li>
+              <a href="{{ .RelPermalink }}">
+                <strong>{{ .Title }}</strong>
+                {{ with .Description }}<span>{{ . | truncate 80 }}</span>{{ end }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  {{ end }}
+</aside>

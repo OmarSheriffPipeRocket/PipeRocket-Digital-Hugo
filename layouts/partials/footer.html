@@ -1,0 +1,52 @@
+<footer class="pr-footer">
+  <div class="pr-container">
+    <div class="pr-footer__grid">
+      <div class="pr-footer__brand">
+        <p class="pr-footer__tagline">{{ .Site.Params.tagline }}</p>
+        <a href="/" class="pr-logo">
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-logo__img">
+        </a>
+      </div>
+
+      <div class="pr-footer__col">
+        <h4>Services</h4>
+        <ul>
+          {{ range .Site.Menus.footer_services }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="pr-footer__col">
+        <h4>Company</h4>
+        <ul>
+          {{ range .Site.Menus.footer_company }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="pr-footer__col">
+        <h4>Learn</h4>
+        <ul>
+          {{ range .Site.Menus.footer_learn }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="pr-footer__col">
+        <h4>Resources</h4>
+        <ul>
+          {{ range .Site.Menus.footer_resources }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <p class="pr-footer__copy">{{ .Site.Params.copyright }}</p>
+  </div>
+
+  <div class="pr-footer__wordmark" aria-hidden="true">PipeRocket</div>
+</footer>

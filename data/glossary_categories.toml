@@ -1,0 +1,64 @@
+# Glossary knowledge-hub structure.
+# Each glossary term references one of these via frontmatter:
+#   categorySlug = "saas-marketing"
+#   subcategorySlug = "icp-targeting"
+
+[[categories]]
+name = "SaaS Marketing"
+slug = "saas-marketing"
+
+  [[categories.subcategories]]
+  name = "ICP & Targeting"
+  slug = "icp-targeting"
+
+  [[categories.subcategories]]
+  name = "Pipeline & Funnel"
+  slug = "pipeline-funnel"
+
+  [[categories.subcategories]]
+  name = "Attribution"
+  slug = "attribution"
+
+[[categories]]
+name = "SEO"
+slug = "seo"
+
+  [[categories.subcategories]]
+  name = "On-Page SEO"
+  slug = "on-page"
+
+  [[categories.subcategories]]
+  name = "Off-Page SEO"
+  slug = "off-page"
+
+  [[categories.subcategories]]
+  name = "Technical SEO"
+  slug = "technical"
+
+[[categories]]
+name = "Paid Marketing"
+slug = "paid"
+
+  [[categories.subcategories]]
+  name = "LinkedIn Ads"
+  slug = "linkedin-ads"
+
+  [[categories.subcategories]]
+  name = "Google Ads"
+  slug = "google-ads"
+
+  [[categories.subcategories]]
+  name = "ABM"
+  slug = "abm"
+
+[[categories]]
+name = "Marketing Operations"
+slug = "marketing-ops"
+
+  [[categories.subcategories]]
+  name = "Lifecycle"
+  slug = "lifecycle"
+
+  [[categories.subcategories]]
+  name = "RevOps"
+  slug = "revops"
