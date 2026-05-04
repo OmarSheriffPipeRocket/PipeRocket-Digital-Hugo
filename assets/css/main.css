@@ -7067,6 +7067,12 @@ body.pr-modal-open { overflow: hidden; }
   font-size: 0.95rem;
 }
 .pr-compare__table tbody tr:nth-child(odd) { background: rgba(255, 255, 255, 0.4); }
+.pr-compare__table tbody tr {
+  transition: background 0.15s ease;
+}
+.pr-compare__table tbody tr:hover {
+  background: var(--pr-cyan-soft);
+}
 
 .pr-compare__commentary { margin-top: var(--pr-s-4); }
 .pr-compare__quote {
