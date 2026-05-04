@@ -425,6 +425,49 @@ const setupListicleRankings = () => {
   });
 };
 
+// =========================================================
+// Scroll reveal — fade-up on viewport entry. Applied to
+// homepage section blocks and stagger-eligible card grids.
+// Respects prefers-reduced-motion: skipped entirely.
+// =========================================================
+const setupReveals = () => {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (!('IntersectionObserver' in window)) return;
+
+  const selector = [
+    // Whole sections (homepage rhythm)
+    'main > .pr-section',
+    'main > .pr-section--tight',
+    'main > .pr-section--dark',
+    'main > .pr-cta-final',
+    'main > .pr-certified',
+    // Card grids that benefit from stagger
+    '.pr-cases .pr-case',
+    '.pr-approach .pr-approach__card',
+    '.pr-pov .pr-pov__card',
+    '.pr-testimonials .pr-testimonial',
+    '.pr-twocol .pr-twocol__card',
+  ].join(',');
+
+  const targets = document.querySelectorAll(selector);
+  if (targets.length === 0) return;
+
+  targets.forEach((el) => el.classList.add('pr-reveal'));
+
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          io.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+  );
+  targets.forEach((el) => io.observe(el));
+};
+
 const init = () => {
   setupMobileMenu();
   setupCounters();
@@ -443,6 +486,7 @@ const init = () => {
   setupStoriesFilter();
   setupReviewsFilter();
   setupClutchAccordion();
+  setupReveals();
 };
 
 // =========================================================

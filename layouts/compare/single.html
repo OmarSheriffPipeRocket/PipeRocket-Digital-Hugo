@@ -1,0 +1,401 @@
+{{ define "main" }}
+<article class="pr-compare">
+  <div class="pr-container">
+
+    <!-- ====================================================
+         HERO — eyebrow, title, lede, byline
+         ==================================================== -->
+    <header class="pr-compare__header">
+      {{ with .Params.category }}<div class="pr-eyebrow pr-eyebrow--red">{{ . }}</div>{{ else }}<div class="pr-eyebrow pr-eyebrow--red">Agency comparison</div>{{ end }}
+      <h1 class="pr-compare__title">{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="pr-compare__lede">{{ . }}</p>{{ end }}
+      <div class="pr-compare__byline">
+        <div class="pr-compare__meta">
+          {{ partial "article-byline.html" . }}
+          {{ if not .Date.IsZero }}<span><time datetime="{{ .Date.Format "2006-01-02" }}">Updated {{ .Date.Format "Jan 2, 2006" }}</time></span>{{ end }}
+          {{ with .Params.readingTime }}<span>{{ . }}</span>{{ end }}
+          {{ with .Params.sources_count }}<span>{{ . }} sources</span>{{ end }}
+        </div>
+        {{ partial "article-utility-icons.html" . }}
+      </div>
+    </header>
+
+    <!-- ====================================================
+         BODY — left rail (TOC + CTA), main, right rail (author)
+         ==================================================== -->
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Pick the right partner in 30 minutes.</strong>
+          <p>We work with a small number of B2B SaaS companies at a time.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+        </div>
+
+        {{ with .Params.toc }}
+          <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+            <summary class="pr-article-rail__heading">In this article</summary>
+            <nav class="pr-article-rail__toc">
+              <ol>
+                {{ range $i, $item := . }}
+                  <li><a href="#{{ $item.anchor }}"><span class="pr-article-rail__num">{{ printf "%02d" (add $i 1) }}</span>{{ $item.label }}</a></li>
+                {{ end }}
+              </ol>
+            </nav>
+          </details>
+        {{ end }}
+      </aside>
+
+      <div class="pr-article-main">
+
+        <!-- ====================================================
+             1. SHORT ANSWER — two callout boxes
+             ==================================================== -->
+        {{ with .Params.short_answer }}
+          <section class="pr-compare__short-answer" id="short-answer">
+            <h2>{{ default "The short answer" .heading }}</h2>
+            {{ with .intro }}<p>{{ . | markdownify }}</p>{{ end }}
+            <div class="pr-compare__callouts">
+              {{ range .callouts }}
+                <div class="pr-compare__callout">
+                  {{ with .label }}<span class="pr-compare__callout-label">{{ . }}</span>{{ end }}
+                  <strong class="pr-compare__callout-title">{{ .title }}</strong>
+                  <p>{{ .body | markdownify }}</p>
+                </div>
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             2. COMPANY BACKGROUNDS
+             ==================================================== -->
+        {{ with .Params.backgrounds }}
+          <section class="pr-compare__backgrounds" id="backgrounds">
+            <h2>{{ default "Company backgrounds" .heading }}</h2>
+            <div class="pr-compare__bg-grid">
+              {{ range .companies }}
+                <div class="pr-compare__bg-card">
+                  <h3>{{ .name }}</h3>
+                  {{ with .meta }}<p class="pr-compare__bg-meta">{{ . }}</p>{{ end }}
+                  {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
+                </div>
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             3. PRICING TABLE + pull quote
+             ==================================================== -->
+        {{ with .Params.pricing }}
+          <section class="pr-compare__pricing" id="pricing">
+            <h2>{{ default "Pricing" .heading }}</h2>
+            {{ with .intro }}<p>{{ . | markdownify }}</p>{{ end }}
+            {{ with .table }}
+              <table class="pr-compare__table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>{{ $.Params.product_a.name }}</th>
+                    <th>{{ $.Params.product_b.name }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{ range . }}
+                    <tr>
+                      <td><strong>{{ .label }}</strong></td>
+                      <td>{{ .a | markdownify }}</td>
+                      <td>{{ .b | markdownify }}</td>
+                    </tr>
+                  {{ end }}
+                </tbody>
+              </table>
+            {{ end }}
+            {{ with .commentary }}<div class="pr-compare__commentary">{{ . | markdownify }}</div>{{ end }}
+            {{ with .pull_quote }}
+              <blockquote class="pr-compare__quote">
+                <p>{{ .text }}</p>
+                {{ with .attribution }}<footer>— {{ . }}</footer>{{ end }}
+              </blockquote>
+            {{ end }}
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             4. WHO THEY SERVE
+             ==================================================== -->
+        {{ with .Params.who_they_serve }}
+          <section class="pr-compare__serve" id="who-they-serve">
+            <h2>{{ default "Who they actually serve" .heading }}</h2>
+            {{ with .intro }}<p>{{ . | markdownify }}</p>{{ end }}
+            <div class="pr-compare__serve-grid">
+              {{ range .segments }}
+                <div class="pr-compare__serve-card">
+                  <h3>{{ .heading }}</h3>
+                  <p>{{ .body | markdownify }}</p>
+                </div>
+              {{ end }}
+            </div>
+            {{ with .pattern }}<p class="pr-compare__pattern">{{ . | markdownify }}</p>{{ end }}
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             5. SERVICES TABLE
+             ==================================================== -->
+        {{ with .Params.services }}
+          <section class="pr-compare__services" id="services">
+            <h2>{{ default "Services: strengths and gaps" .heading }}</h2>
+            {{ with .intro }}<p>{{ . | markdownify }}</p>{{ end }}
+            {{ with .table }}
+              <table class="pr-compare__table">
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th>{{ $.Params.product_a.name }}</th>
+                    <th>{{ $.Params.product_b.name }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{ range . }}
+                    <tr>
+                      <td><strong>{{ .label }}</strong></td>
+                      <td>{{ .a | markdownify }}</td>
+                      <td>{{ .b | markdownify }}</td>
+                    </tr>
+                  {{ end }}
+                </tbody>
+              </table>
+            {{ end }}
+            {{ with .summaries }}
+              <div class="pr-compare__svc-grid">
+                {{ range . }}
+                  <div class="pr-compare__svc-card">
+                    <h3>{{ .heading }}</h3>
+                    <p>{{ .body | markdownify }}</p>
+                  </div>
+                {{ end }}
+              </div>
+            {{ end }}
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             6. TEAM STRUCTURE — side-by-side
+             ==================================================== -->
+        {{ with .Params.team }}
+          <section class="pr-compare__team" id="team">
+            <h2>{{ default "Team structure: pod vs agency" .heading }}</h2>
+            {{ with .intro }}<p>{{ . | markdownify }}</p>{{ end }}
+            <div class="pr-compare__team-grid">
+              {{ range .columns }}
+                <div class="pr-compare__team-card">
+                  <h3>{{ .heading }}</h3>
+                  {{ with .subheading }}<p class="pr-compare__team-sub">{{ . }}</p>{{ end }}
+                  <ul class="pr-compare__team-list">
+                    {{ range .members }}
+                      <li>
+                        <strong>{{ .role }}</strong>
+                        {{ with .seniority }}<span class="pr-compare__team-level">{{ . }}</span>{{ end }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </div>
+            {{ with .note }}<p class="pr-compare__team-note">{{ . | markdownify }}</p>{{ end }}
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             7. REPORTING — two-column comparison
+             ==================================================== -->
+        {{ with .Params.reporting }}
+          <section class="pr-compare__reporting" id="reporting">
+            <h2>{{ default "What we actually report on" .heading }}</h2>
+            <div class="pr-compare__report-grid">
+              {{ range .columns }}
+                <div class="pr-compare__report-card{{ if .highlight }} pr-compare__report-card--highlight{{ end }}">
+                  <h3>{{ .heading }}</h3>
+                  <ul class="pr-compare__report-list">
+                    {{ range .metrics }}<li>{{ . }}</li>{{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </div>
+            {{ with .note }}<p class="pr-compare__report-note">{{ . | markdownify }}</p>{{ end }}
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             8. STRENGTHS / WEAKNESSES — two bulleted lists
+             ==================================================== -->
+        {{ with .Params.strengths_weaknesses }}
+          <section class="pr-compare__sw" id="strengths-weaknesses">
+            <h2>{{ default "Where each agency is strong" .heading }}</h2>
+            <div class="pr-compare__sw-grid">
+              {{ range .columns }}
+                <div class="pr-compare__sw-card">
+                  <h3>{{ .name }}</h3>
+                  {{ with .strengths }}
+                    <h4>Strengths</h4>
+                    <ul class="pr-compare__sw-pros">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+                  {{ end }}
+                  {{ with .weaknesses }}
+                    <h4>Weaknesses</h4>
+                    <ul class="pr-compare__sw-cons">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             9. REVIEWS — prose
+             ==================================================== -->
+        {{ with .Params.reviews }}
+          <section class="pr-compare__reviews" id="reviews">
+            <h2>{{ default "Reading between the reviews" .heading }}</h2>
+            {{ with .body }}<div>{{ . | markdownify }}</div>{{ end }}
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             10. CONTRACT — side-by-side comparison cards
+             ==================================================== -->
+        {{ with .Params.contract }}
+          <section class="pr-compare__contract" id="contract">
+            <h2>{{ default "Contract structure" .heading }}</h2>
+            {{ with .intro }}<p>{{ . | markdownify }}</p>{{ end }}
+            <div class="pr-compare__contract-grid">
+              {{ range .columns }}
+                <div class="pr-compare__contract-card">
+                  <h3>{{ .name }}</h3>
+                  <ul class="pr-compare__contract-list">
+                    {{ range .terms }}
+                      <li>
+                        <strong>{{ .label }}</strong>
+                        <span>{{ .value }}</span>
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </div>
+            {{ with .note }}<p class="pr-compare__contract-note">{{ . | markdownify }}</p>{{ end }}
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             11. VERDICT — two H3 sections
+             ==================================================== -->
+        {{ with .Params.verdict }}
+          <section class="pr-compare__verdict" id="verdict">
+            <h2>{{ default "Our verdict" .heading }}</h2>
+            <div class="pr-compare__verdict-grid">
+              {{ range .columns }}
+                <div class="pr-compare__verdict-card">
+                  <h3>{{ .heading }}</h3>
+                  {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
+                  {{ with .criteria }}
+                    <ul class="pr-compare__verdict-list">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </div>
+            {{ with .closing }}<p class="pr-compare__verdict-closing">{{ . | markdownify }}</p>{{ end }}
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             FREE-FORM PROSE — anything in the markdown body
+             ==================================================== -->
+        {{ with .Content }}<div class="pr-compare__body" data-pr-inline-related data-related-links='{{ $.Params.relatedLinks | jsonify }}'>{{ . }}</div>{{ end }}
+
+        <!-- ====================================================
+             12. FAQ
+             ==================================================== -->
+        {{ with .Params.faqs }}
+          <section class="pr-compare__faq" id="faqs">
+            <h2>Frequently asked questions</h2>
+            <div class="pr-compare__faq-list">
+              {{ range . }}
+                <details class="pr-compare__faq-item">
+                  <summary>{{ .q }}</summary>
+                  <div class="pr-compare__faq-answer">{{ .a | markdownify }}</div>
+                </details>
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             13. AT A GLANCE summary
+             ==================================================== -->
+        {{ with .Params.at_a_glance }}
+          <section class="pr-compare__glance" id="at-a-glance">
+            <h2>At a glance</h2>
+            <table class="pr-compare__table pr-compare__glance-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>{{ $.Params.product_a.name }}</th>
+                  <th>{{ $.Params.product_b.name }}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range . }}
+                  <tr>
+                    <td><strong>{{ .label }}</strong></td>
+                    <td>{{ .a }}</td>
+                    <td>{{ .b }}</td>
+                  </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
+             14. SOURCES
+             ==================================================== -->
+        {{ with .Params.sources }}
+          <section class="pr-compare__sources" id="sources">
+            <h4>Sources and references</h4>
+            <ol class="pr-compare__sources-list">
+              {{ range . }}
+                <li id="src-{{ .id }}">
+                  {{ if .url }}<a href="{{ .url }}" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+                  {{ with .publication }} — <em>{{ . }}</em>{{ end }}
+                  {{ with .accessed }} (accessed {{ . }}){{ end }}
+                </li>
+              {{ end }}
+            </ol>
+          </section>
+        {{ end }}
+
+        {{ partial "article-cta.html" . }}
+      </div>
+
+      {{ partial "article-rail-author.html" . }}
+
+    </div>
+
+    <!-- ====================================================
+         BOTTOM CTA — full-width
+         ==================================================== -->
+    <section class="pr-compare__bottom-cta">
+      <div class="pr-compare__bottom-cta-inner">
+        <span class="pr-eyebrow pr-eyebrow--red">Need a second opinion?</span>
+        <h2>Book a call today. Scale your pipeline tomorrow.</h2>
+        <p>Please note that we only partner with 1–2 new clients per month. 20-min call. We'll tell you honestly whether you'd be better off with us, the other agency, or neither.</p>
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn pr-btn--lg">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+    </section>
+
+  </div>
+</article>
+{{ end }}

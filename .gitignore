@@ -1,15 +1,26 @@
-# Hugo build output
-public/
-resources/_gen/
+# Hugo build output (regenerated on every build)
+/public/
+/resources/
 .hugo_build.lock
 hugo_stats.json
 
-# OS
+# macOS
 .DS_Store
 
-# Editor
+# Editor / IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Node (if ever used for asset pipeline)
+# Env files (never commit secrets)
+.env
+.env.local
+*.env
+
+# Node (if you ever add JS tooling)
 node_modules/
+npm-debug.log*
+
+# Logs
+*.log
