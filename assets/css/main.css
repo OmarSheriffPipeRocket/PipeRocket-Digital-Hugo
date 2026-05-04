@@ -2914,6 +2914,35 @@ main table a,
   padding-bottom: 1px;
 }
 .pr-author-card__link:hover { color: var(--pr-cyan); }
+.pr-author-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--pr-s-2);
+}
+.pr-author-card__profile-link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--pr-cyan);
+  text-decoration: none;
+}
+.pr-author-card__profile-link:hover { text-decoration: underline; }
+/* Trust badge inline (next to author name) */
+.pr-author-card__name .pr-trust-badge {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  vertical-align: middle;
+  margin-left: 4px;
+  box-shadow: none;
+}
+.pr-author-card__name .pr-trust-badge svg {
+  width: 10px;
+  height: 10px;
+}
 
 /* =================================================================
    AUTHOR ARCHIVE PAGES

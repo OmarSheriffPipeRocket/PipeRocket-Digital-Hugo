@@ -11,18 +11,21 @@
           {{ with .photo }}
             <span class="pr-author-card__photo-wrap">
               <img src="{{ . }}" alt="{{ $writer.name }}" class="pr-author-card__photo">
-              {{ partial "trust-badge.html" . }}
             </span>
           {{ end }}
           <div class="pr-author-card__person-body">
             <div class="pr-eyebrow">Written by</div>
             <strong class="pr-author-card__name">
               <a href="/authors/{{ $.Params.writtenBy }}/">{{ .name }}</a>
-              {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+              {{ partial "trust-badge.html" . }}
             </strong>
             {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+          <div class="pr-author-card__footer">
+            <a href="/authors/{{ $.Params.writtenBy }}/" class="pr-author-card__profile-link">View full profile →</a>
+            {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+          </div>
         </div>
       {{ end }}
 
@@ -31,18 +34,21 @@
           {{ with .photo }}
             <span class="pr-author-card__photo-wrap">
               <img src="{{ . }}" alt="{{ $reviewer.name }}" class="pr-author-card__photo">
-              {{ partial "trust-badge.html" . }}
             </span>
           {{ end }}
           <div class="pr-author-card__person-body">
             <div class="pr-eyebrow">Reviewed by</div>
             <strong class="pr-author-card__name">
               <a href="/authors/{{ $.Params.reviewedBy }}/">{{ .name }}</a>
-              {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+              {{ partial "trust-badge.html" . }}
             </strong>
             {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+          <div class="pr-author-card__footer">
+            <a href="/authors/{{ $.Params.reviewedBy }}/" class="pr-author-card__profile-link">View full profile →</a>
+            {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+          </div>
         </div>
       {{ end }}
 
