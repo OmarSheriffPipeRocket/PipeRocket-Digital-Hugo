@@ -13,13 +13,14 @@
         <div class="pr-eyebrow pr-eyebrow--red">PipeRocket Author</div>
         <h1 class="pr-author-page__name">
           {{ $profile.name | default .Title }}
-          {{ with $profile.linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+          {{ partial "trust-badge.html" . }}
         </h1>
         {{ with $profile.role }}<p class="pr-author-page__role">{{ . }}</p>{{ end }}
         {{ with $profile.bio }}<p class="pr-author-page__bio">{{ . }}</p>{{ end }}
         <div class="pr-author-page__counts">
           <span class="pr-author-badge pr-author-badge--written">{{ len $writtenPosts }} written</span>
           <span class="pr-author-badge pr-author-badge--reviewed">{{ len $reviewedPosts }} reviewed</span>
+          {{ with $profile.linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
         </div>
       </div>
     </header>

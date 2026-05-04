@@ -3019,10 +3019,53 @@ main table a,
   padding: var(--pr-s-7) 0;
 }
 
+/* Trust badge inline in the byline (very small) */
+.pr-byline__role .pr-trust-badge {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  vertical-align: middle;
+  margin-left: 3px;
+  box-shadow: none;
+}
+.pr-byline__role .pr-trust-badge svg { width: 9px; height: 9px; }
+
+/* Trust badge inline in the author page h1 */
+.pr-author-page__name .pr-trust-badge {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  vertical-align: middle;
+  margin-left: 6px;
+  box-shadow: none;
+}
+.pr-author-page__name .pr-trust-badge svg { width: 13px; height: 13px; }
+
+/* Trust badge on author list cards */
+.pr-author-list__card strong .pr-trust-badge {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  vertical-align: middle;
+  margin-left: 4px;
+  box-shadow: none;
+}
+.pr-author-list__card strong .pr-trust-badge svg { width: 9px; height: 9px; }
+
 /* Counts under the author header */
 .pr-author-page__counts {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: var(--pr-s-3);
   margin-top: var(--pr-s-4);
 }
