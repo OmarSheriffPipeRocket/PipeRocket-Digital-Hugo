@@ -1,8 +1,25 @@
 [build]
   publish = "public"
-  command = "hugo --baseURL $DEPLOY_PRIME_URL"
+  command = "hugo --baseURL $URL"
 
 [build.environment]
   HUGO_VERSION = "0.161.1"
   HUGO_ENVIRONMENT = "production"
   TZ = "Asia/Kolkata"
+
+# Production builds (main branch) — use canonical site URL.
+# Hugo bakes baseURL into <link>, <img>, sitemap.xml, etc., so internal
+# navigation should always go to piperocketdigital.netlify.app, not the
+# branch-aliased main--piperocketdigital.netlify.app URL.
+[context.production]
+  command = "hugo --baseURL $URL"
+
+# Deploy previews (PRs) — use the unique preview URL so internal links
+# stay within the preview when reviewing changes.
+[context.deploy-preview]
+  command = "hugo --baseURL $DEPLOY_PRIME_URL"
+
+# Branch deploys (any non-main branch with branch deploys enabled) —
+# use the unique branch URL.
+[context.branch-deploy]
+  command = "hugo --baseURL $DEPLOY_PRIME_URL"
