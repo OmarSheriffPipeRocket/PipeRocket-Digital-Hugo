@@ -1,0 +1,17 @@
+[build]
+  publish = "public"
+  command = "hugo --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.161.1"
+  HUGO_ENVIRONMENT = "production"
+  TZ = "Asia/Kolkata"
+
+[context.production.environment]
+  HUGO_BASEURL = "https://piperocket.digital/"
+
+[context.deploy-preview.environment]
+  HUGO_BASEURL = "/"
+
+[context.branch-deploy.environment]
+  HUGO_BASEURL = "/"
