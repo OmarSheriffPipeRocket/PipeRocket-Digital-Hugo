@@ -3,6 +3,7 @@ title: "My Picks For The 5 Best B2B Google Ads Agencies in 2026"
 description: "Running B2B Google Ads campaigns can be a bit frustrating. You pour money into Google Ads and everything looks good on paper. But for some reason, the leads just don’t come in like you expected. If..."
 date: 2025-11-13
 slug: "best-b2b-google-ads-agencies"
+url: "/blogs/best-b2b-google-ads-agencies/"
 writtenBy: "kim"
 category: "B2B PPC"
 featuredImage: "/images/wp-import/11_B2B-Google-Ads-Agencies.webp"

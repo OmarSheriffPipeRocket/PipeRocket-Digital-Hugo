@@ -3,6 +3,7 @@ title: "We Ranked The Top 11 B2B Marketing Agencies for 2026"
 description: "If you’re scouting B2B marketing agencies, you’re probably spending weeks looking at slide decks, case studies with green graphs. So, I went on the search for the best B2B marketing agencies for..."
 date: 2025-11-13
 slug: "best-b2b-marketing-agencies"
+url: "/blogs/best-b2b-marketing-agencies/"
 writtenBy: "kim"
 category: "B2B Marketing"
 featuredImage: "/images/wp-import/11_B2B-Marketing-Agencies-1.png"

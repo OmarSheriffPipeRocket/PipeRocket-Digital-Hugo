@@ -1,6 +1,7 @@
 ---
 title: "61% Traffic Rise for Spendflo"
 slug: "spendflo"
+url: "/case-study-spendflo/"
 description: "How a stalled organic programme turned into a 61% traffic lift for Spendflo — without chasing volume keywords."
 client: "Spendflo"
 industry: "SaaS · SaaS Spend Management"

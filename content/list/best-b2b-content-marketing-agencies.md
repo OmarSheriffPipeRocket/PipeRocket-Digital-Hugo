@@ -3,6 +3,7 @@ title: "My Picks for The 9 Best B2B Content Marketing Agencies in 2026"
 description: "I keep having these exact same conversations with founders and marketing directors, and honestly, everyone is just completely exhausted. Trying to run a B2B SaaS company right now literally feels..."
 date: 2025-11-19
 slug: "best-b2b-content-marketing-agencies"
+url: "/blogs/best-b2b-content-marketing-agencies/"
 writtenBy: "kim"
 category: "B2B Content Marketing"
 featuredImage: "/images/wp-import/11_B2B-Content-Marketing-Agencies-Banner-Image.png"

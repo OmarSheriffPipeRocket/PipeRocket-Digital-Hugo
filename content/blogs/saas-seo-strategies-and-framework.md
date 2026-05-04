@@ -2,7 +2,7 @@
 title: "SaaS SEO Strategies: Complete 8-step Framework for 2026"
 description: "This guide is for B2B SaaS marketers, founders, and SEO leads who are done chasing traffic and want organic search to show up in their pipeline report. If you are starting from scratch or rebuilding..."
 date: 2026-04-09
-slug: "saas-seo-strategies-and-framework"
+slug: "saas-seo-strategy-and-framework"
 writtenBy: "kim"
 category: "SaaS SEO"
 toc: true

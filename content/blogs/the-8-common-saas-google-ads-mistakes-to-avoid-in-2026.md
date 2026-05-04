@@ -2,7 +2,7 @@
 title: "The 8 Common SaaS Google Ads Mistakes to Avoid in 2026"
 description: "Let's be honest, most SaaS Google Ads content out there is just recycled advice dressed up in new packaging. \"Improve your Quality Score. Test your creatives.\" Sure, technically correct. But if you..."
 date: 2026-03-09
-slug: "the-8-common-saas-google-ads-mistakes-to-avoid-in-2026"
+slug: "saas-google-ads-mistakes-to-avoid"
 writtenBy: "praveen"
 category: "SaaS PPC"
 featuredImage: "/images/wp-import/03_saas-google-ads-mistakes-blog-banner-1.webp"

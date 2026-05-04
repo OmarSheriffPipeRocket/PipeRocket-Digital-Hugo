@@ -2,7 +2,7 @@
 title: "The No-Nonsense Guide to Auditing Your SaaS PPC Account"
 description: "We’ve all been there. You’re staring at a Google Ads dashboard that looks like it was organized by a toddler. Or maybe you’ve just inherited an ad account from a previous agency, and you’re trying to..."
 date: 2026-01-12
-slug: "the-no-nonsense-guide-to-auditing-your-saas-ppc-account"
+slug: "how-to-conduct-a-saas-ppc-audit"
 writtenBy: "praveen"
 category: "SaaS PPC"
 featuredImage: "/images/wp-import/01_SaaS-PPC-Audit-Blog-Banner-Image.png"
