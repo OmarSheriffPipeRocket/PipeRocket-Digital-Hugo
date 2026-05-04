@@ -1,0 +1,51 @@
+# PipeRocket Digital — Netlify Redirects
+# Format: from   to   status
+# 301 = permanent (preserves SEO, search engines update index)
+# 302 = temporary
+# 200 = rewrite (URL stays, content swapped)
+# 404 = not found
+#
+# Rules are evaluated TOP TO BOTTOM. First match wins.
+# So put SPECIFIC rules above WILDCARDS.
+#
+# Test redirects locally: hugo server (rules apply in dev too)
+# Test on staging: open https://piperocketdigital.netlify.app/<old-url>
+# ---------------------------------------------------------------
+
+# ===== DOMAIN / PROTOCOL =====
+# Force non-www (uncomment after custom domain is connected)
+# https://www.piperocket.digital/*    https://piperocket.digital/:splat    301!
+
+# ===== WORDPRESS / OLD SITE MIGRATION =====
+# (Add here when migrating from Namecheap-hosted site)
+# Examples:
+# /wp-content/uploads/*       /images/:splat                301
+# /category/seo/*             /blog/:splat                  301
+# /category/ppc/*             /blog/:splat                  301
+# /author/vignesh/*           /authors/vignesh/:splat       301
+# /tag/*                      /blog/                        301
+
+# ===== RENAMED / REMOVED PAGES =====
+# (Add here whenever a slug or page changes)
+# Examples:
+# /about-us                   /about                        301
+# /contact-us                 /contact                      301
+# /services/seo               /services/seo-services        301
+# /old-pricing-page           /pricing                      301
+
+# ===== BLOG SLUG CHANGES =====
+# Examples:
+# /blog/old-post-slug         /blog/new-post-slug           301
+
+# ===== FRIENDLY SHORT URLS =====
+# Examples:
+# /demo                       /book-a-demo                  301
+# /linkedin                   https://linkedin.com/company/piperocket-digital  301
+# /case-study                 /case-studies                 301
+
+# ===== CASE-STUDIES / COMPARE FALLBACKS =====
+# (Add here if specific compare or case-study URLs change)
+
+# ===== END OF FILE =====
+# Note: do NOT add a /* catch-all 404 rule — Hugo's 404.html handles
+# missing pages automatically and Netlify serves it correctly.
