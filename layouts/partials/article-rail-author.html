@@ -93,6 +93,24 @@
         </ul>
       </div>
     {{ end }}
+  {{ else if eq $current.Section "compare" }}
+    {{/* Users Also Compare — latest 5 comparison pages, excluding current */}}
+    {{ $comparePages := first 5 (where (where .Site.RegularPages "Section" "compare") "Permalink" "ne" $current.Permalink).ByDate.Reverse }}
+    {{ with $comparePages }}
+      <div class="pr-article-rail__card">
+        <h4 class="pr-article-rail__heading">Users Also Compare</h4>
+        <ul class="pr-article-rail__related">
+          {{ range . }}
+            <li>
+              <a href="{{ .RelPermalink }}">
+                <strong>{{ .Title }}</strong>
+                {{ with .Description }}<span>{{ . | truncate 80 }}</span>{{ end }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
   {{ else }}
     {{/* Popular reads — top 5 most recent listicles, excluding current page */}}
     {{ $popular := first 5 (where (where .Site.RegularPages "Section" "list") "Permalink" "ne" $current.Permalink).ByDate.Reverse }}
