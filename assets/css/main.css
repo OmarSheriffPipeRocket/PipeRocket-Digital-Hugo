@@ -699,6 +699,15 @@ p { margin: 0 0 var(--pr-s-4); }
   .pr-industry {
     flex: 0 0 calc(33.333% - var(--pr-s-7));
   }
+  /* Bottom row: Sales and Data span wider so logos fit in fewer rows */
+  .pr-industry:nth-child(4),
+  .pr-industry:nth-child(5) {
+    flex: 0 0 calc(50% - var(--pr-s-7));
+  }
+  .pr-industry:nth-child(4) .pr-industry__logos,
+  .pr-industry:nth-child(5) .pr-industry__logos {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 .pr-industry__title {
   font-family: var(--pr-sans);
