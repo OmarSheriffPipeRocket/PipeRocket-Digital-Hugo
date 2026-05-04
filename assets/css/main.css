@@ -678,17 +678,22 @@ p { margin: 0 0 var(--pr-s-4); }
    INDUSTRY-GROUPED CLIENT TRUST BAND
    ================================================================= */
 .pr-logobar--industries {
-  padding: var(--pr-s-9) 0;
+  padding: var(--pr-s-7) 0;
 }
 .pr-logobar--industries .pr-logobar__label {
   font-size: 0.95rem;
   text-align: center;
-  margin-bottom: var(--pr-s-7);
+  margin-bottom: var(--pr-s-5);
 }
 .pr-industries {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--pr-s-8);
+  grid-template-columns: 1fr 1fr;
+  gap: var(--pr-s-6);
+}
+@media (min-width: 1024px) {
+  .pr-industries {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 .pr-industry__title {
   font-family: var(--pr-sans);
@@ -698,8 +703,8 @@ p { margin: 0 0 var(--pr-s-4); }
   text-transform: uppercase;
   color: var(--pr-muted);
   text-align: center;
-  margin: 0 0 var(--pr-s-5);
-  padding-bottom: var(--pr-s-4);
+  margin: 0 0 var(--pr-s-4);
+  padding-bottom: var(--pr-s-3);
   border-bottom: 1px solid var(--pr-line);
   position: relative;
 }
@@ -708,19 +713,19 @@ p { margin: 0 0 var(--pr-s-4); }
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: var(--pr-s-7) var(--pr-s-7);
+  gap: var(--pr-s-5) var(--pr-s-5);
 }
 .pr-industry__logos .pr-logobar__logo {
-  width: 130px;
-  height: 56px;
+  width: 100px;
+  height: 40px;
   object-fit: contain;
   object-position: center;
 }
 @media (min-width: 768px) {
-  .pr-industry__logos { gap: var(--pr-s-7) var(--pr-s-8); }
+  .pr-industry__logos { gap: var(--pr-s-5) var(--pr-s-6); }
   .pr-industry__logos .pr-logobar__logo {
-    width: 150px;
-    height: 60px;
+    width: 120px;
+    height: 44px;
   }
 }
 @keyframes pr-logobar-scroll {
