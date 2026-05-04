@@ -8,21 +8,19 @@
 
       {{ with $writer }}
         <div class="pr-author-card__person">
-          <div class="pr-author-card__person-row">
-            {{ with .photo }}
-              <span class="pr-author-card__photo-wrap">
-                <img src="{{ . }}" alt="{{ $writer.name }}" class="pr-author-card__photo">
-                {{ partial "trust-badge.html" . }}
-              </span>
-            {{ end }}
-            <div class="pr-author-card__person-body">
-              <div class="pr-eyebrow">Written by</div>
-              <strong class="pr-author-card__name">
-                <a href="/authors/{{ $.Params.writtenBy }}/">{{ .name }}</a>
-                {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
-              </strong>
-              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
-            </div>
+          {{ with .photo }}
+            <span class="pr-author-card__photo-wrap">
+              <img src="{{ . }}" alt="{{ $writer.name }}" class="pr-author-card__photo">
+              {{ partial "trust-badge.html" . }}
+            </span>
+          {{ end }}
+          <div class="pr-author-card__person-body">
+            <div class="pr-eyebrow">Written by</div>
+            <strong class="pr-author-card__name">
+              <a href="/authors/{{ $.Params.writtenBy }}/">{{ .name }}</a>
+              {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+            </strong>
+            {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
         </div>
@@ -30,21 +28,19 @@
 
       {{ with $reviewer }}
         <div class="pr-author-card__person pr-author-card__person--reviewer">
-          <div class="pr-author-card__person-row">
-            {{ with .photo }}
-              <span class="pr-author-card__photo-wrap">
-                <img src="{{ . }}" alt="{{ $reviewer.name }}" class="pr-author-card__photo">
-                {{ partial "trust-badge.html" . }}
-              </span>
-            {{ end }}
-            <div class="pr-author-card__person-body">
-              <div class="pr-eyebrow">Reviewed by</div>
-              <strong class="pr-author-card__name">
-                <a href="/authors/{{ $.Params.reviewedBy }}/">{{ .name }}</a>
-                {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
-              </strong>
-              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
-            </div>
+          {{ with .photo }}
+            <span class="pr-author-card__photo-wrap">
+              <img src="{{ . }}" alt="{{ $reviewer.name }}" class="pr-author-card__photo">
+              {{ partial "trust-badge.html" . }}
+            </span>
+          {{ end }}
+          <div class="pr-author-card__person-body">
+            <div class="pr-eyebrow">Reviewed by</div>
+            <strong class="pr-author-card__name">
+              <a href="/authors/{{ $.Params.reviewedBy }}/">{{ .name }}</a>
+              {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+            </strong>
+            {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
         </div>

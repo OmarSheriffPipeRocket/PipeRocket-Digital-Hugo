@@ -2786,6 +2786,7 @@ main table a,
   position: relative;
   display: inline-flex;
   flex-shrink: 0;
+  margin-bottom: var(--pr-s-3);
 }
 .pr-author-card__photo {
   display: block;
@@ -2835,7 +2836,7 @@ main table a,
   gap: var(--pr-s-3);
   align-items: center;
 }
-.pr-author-card__person-body { flex: 1; min-width: 0; }
+.pr-author-card__person-body { min-width: 0; }
 .pr-author-card__name a:not(.pr-linkedin-icon) {
   color: inherit;
   border-bottom: 1.5px dashed transparent;
