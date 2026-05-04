@@ -678,17 +678,27 @@ p { margin: 0 0 var(--pr-s-4); }
    INDUSTRY-GROUPED CLIENT TRUST BAND
    ================================================================= */
 .pr-logobar--industries {
-  padding: var(--pr-s-9) 0;
+  padding: var(--pr-s-7) 0;
 }
 .pr-logobar--industries .pr-logobar__label {
   font-size: 0.95rem;
   text-align: center;
-  margin-bottom: var(--pr-s-7);
+  margin-bottom: var(--pr-s-5);
 }
 .pr-industries {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--pr-s-8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--pr-s-7);
+}
+.pr-industry {
+  flex: 0 0 calc(50% - var(--pr-s-7));
+  padding: var(--pr-s-5);
+}
+@media (min-width: 1024px) {
+  .pr-industry {
+    flex: 0 0 calc(33.333% - var(--pr-s-7));
+  }
 }
 .pr-industry__title {
   font-family: var(--pr-sans);
@@ -704,23 +714,22 @@ p { margin: 0 0 var(--pr-s-4); }
   position: relative;
 }
 .pr-industry__logos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--pr-s-5) var(--pr-s-5);
   align-items: center;
-  gap: var(--pr-s-7) var(--pr-s-7);
+  justify-items: center;
 }
 .pr-industry__logos .pr-logobar__logo {
-  width: 130px;
-  height: 56px;
+  width: 110px;
+  height: 44px;
   object-fit: contain;
   object-position: center;
 }
 @media (min-width: 768px) {
-  .pr-industry__logos { gap: var(--pr-s-7) var(--pr-s-8); }
   .pr-industry__logos .pr-logobar__logo {
-    width: 150px;
-    height: 60px;
+    width: 130px;
+    height: 48px;
   }
 }
 @keyframes pr-logobar-scroll {
