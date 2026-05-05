@@ -2167,7 +2167,7 @@ p { margin: 0 0 var(--pr-s-4); }
 /* ── Parallax car section ── */
 .pr-certified--parallax {
   position: relative;
-  min-height: 740px;
+  min-height: 880px;
   overflow: hidden;
 }
 .pr-certified--parallax .pr-certified__parallax-bg {
@@ -2226,7 +2226,7 @@ p { margin: 0 0 var(--pr-s-4); }
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 260px;
+  height: 380px;
   width: auto;
   z-index: 1;
   will-change: transform;
