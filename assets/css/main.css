@@ -2233,7 +2233,6 @@ p { margin: 0 0 var(--pr-s-4); }
   filter: contrast(1.35) brightness(0.9);   /* makes faded grayscale logos read clearly */
 }
 
-/* Parallax car animation section */
 /* ── Parallax car section ── */
 .pr-certified--parallax {
   position: relative;
@@ -2294,16 +2293,15 @@ p { margin: 0 0 var(--pr-s-4); }
 /* Car — bottom-left, driven in by scroll */
 .pr-certified--parallax .pr-certified__car {
   position: absolute;
-  bottom: 0;
+  bottom: 58px;
   left: 0;
-  height: 260px;
+  height: 220px;
   width: auto;
   max-width: none;
   z-index: 1;
   will-change: transform;
   pointer-events: none;
 }
-
 .pr-certified--image {
   background: var(--pr-cream);
   padding: 0;
