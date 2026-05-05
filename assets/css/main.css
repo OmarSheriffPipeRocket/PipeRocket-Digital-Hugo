@@ -2233,11 +2233,30 @@ p { margin: 0 0 var(--pr-s-4); }
   gap: var(--pr-s-5);
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
-.pr-certified--parallax .pr-certified__badges img {
-  height: 40px;
-  width: auto;
-  object-fit: contain;
+.pr-certified__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--pr-ink);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.pr-certified__badge svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.pr-certified__badge--google svg {
+  color: #4285F4;
+}
+.pr-certified__badge--linkedin svg {
+  color: #0A66C2;
 }
 
 .pr-certified--image {
