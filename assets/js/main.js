@@ -494,7 +494,7 @@ const setupParallax = () => {
     // At scrollProgress 0.6 (section centred): translateX(0) — resting position bottom-left.
     const startOffset = -600;
     const endOffset   = 700;
-    const driveProgress = Math.min(1, scrollProgress / 0.6);
+    const driveProgress = scrollProgress;
     const moveAmount = startOffset + driveProgress * (endOffset - startOffset);
 
     car.style.transform = `translateX(${moveAmount}px)`;
