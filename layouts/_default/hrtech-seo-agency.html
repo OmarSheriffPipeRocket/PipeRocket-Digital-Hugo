@@ -1,0 +1,424 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">HRtech buyers don&rsquo;t click<br>on a content calendar.</span>
+          <span class="pr-hero__title-strong">They click after the committee agrees.</span>
+        </h1>
+        <div class="pr-hero__copy">
+          <p>Most SEO agencies sell HRtech brands a generic SaaS playbook. PipeRocket starts with your buyer — Head of People, CHRO, head of HR Ops — writes content the buying committee can self-serve, and ranks for the in-market searches that turn into demos, not vanity traffic.</p>
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero__collage" aria-label="PipeRocket HRtech SEO — buyer-first, integration-aware, BOFU-led">
+        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock with Buyer first and BOFU first badges — HRtech context" loading="eager">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     HOW WE TURN SEARCH INTENT INTO PIPELINE
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
+      <h2>How we turn HRtech search intent into pipeline</h2>
+    </div>
+    <div class="pr-principles">
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
+        </div>
+        <h3>Buying committees over keywords</h3>
+        <p>Most HRtech SEO starts with a keyword tool. We start with your full buying committee — CHRO, CFO, head of IT, legal, head of payroll — how each evaluates, what objections each raises, and what gets the room to align. Keywords come from buyer reality, not a keyword tool.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+        </div>
+        <h3>Integrations on the hero, not the footer</h3>
+        <p>HRtech deals die when Workday, BambooHR, or ADP integration questions surface late. Every page surfaces HRIS integrations, security posture (SOC 2, ISO 27001), and labour-law support upfront — so buyers self-qualify before sales picks up the phone.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="9"/></svg>
+        </div>
+        <h3>BOFU intent over vanity volume</h3>
+        <p>We don&rsquo;t chase top-of-funnel keywords with low buying intent. We go for searches close to purchase — vendor comparisons, HRIS integration questions, RFP-stage queries — the BOFU signals that turn into demos, not blog reads.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+        </div>
+        <h3>Pipeline over rankings</h3>
+        <p>Rankings are a means. Pipeline and revenue are the outcome. We track keyword movement, but every monthly review centres on qualified opportunities, sales-accepted leads, and pipeline contribution by content cluster — the metrics your CFO actually opens.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — Cindy Dubon, Director of Growth Marketing at Goldcast, on her vintage TV testimonial" class="pr-working-tv">
+  </div>
+</section>
+
+<!-- ====================================================
+     WHY SAAS TEAMS CHOOSE PIPEROCKET FOR SEO — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2 style="color: var(--pr-cream);">Why HRtech teams choose PipeRocket for SEO</h2>
+      <p style="color: rgba(244,241,232,0.7);">Every agency promises rankings. The gap is what happens between ranking and a closed deal — and whether your SEO partner understands that HRtech buyers come with a 6-stakeholder committee and an IT security review.</p>
+    </div>
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
+          </svg>
+          PipeRocket
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Strategy starts with blog ideas and keyword tools. IT and security review happens after publish, when changes are expensive.</div>
+        <div>Strategy starts with a generic SaaS keyword list. HRtech-specific buyers, HRIS integrations, and labour-law nuance never enter the brief.</div>
+        <div>Strategy starts with your full buying committee — CHRO, CFO, head of IT, legal — and an HRtech category mindmap built before any keyword tool opens. Integration and compliance flags are baked into briefs from day one.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Months of publishing generic blog posts before anything moves. Sales still asks "where are the qualified leads?"</div>
+        <div>"Give it six months." Six months in, you have rankings on terms your buyer&rsquo;s committee never searched.</div>
+        <div>BOFU pages — vendor comparisons, HRIS integration docs, security and compliance FAQs — go live in month one. Early demos while broader topical authority compounds underneath.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Traffic is up. The CMO shares it on all-hands. Nobody connects it to closed deals or CAC over the actual sales cycle.</div>
+        <div>Rankings improved. Sessions increased. Pipeline contribution and CAC payback stay in a separate dashboard nobody opens.</div>
+        <div>SQLs, opportunities, and pipeline influence — tracked by page type, buyer role, and committee stage. Every monthly review is a CFO-grade conversation about what content moved revenue.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Conversion is handled after content is live. A generic "Book a demo" CTA dropped in at the end as an afterthought.</div>
+        <div>Conversion is "in scope" but never in the brief. Every page ends in the same generic form, regardless of buyer stage or role.</div>
+        <div>Conversion is built into the brief before a word is written. BOFU pages route to sales-led demos, MOFU pages offer ROI calculators or integration guides, TOFU pages capture intent for stakeholder-specific nurture.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     TESTIMONIALS — 3 CARDS (SEO-SPECIFIC)
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>We&rsquo;ve helped SaaS brands like yours</h2></div>
+    <div class="pr-testimonials">
+      <article class="pr-testimonial">
+        <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to lock our performance marketing efforts. Their experience, actionable strategies brought a 5X high-quality MQLs in just 2 months. Specifically, the team's research-based fine-tuning campaigns across regions not only gives our leads but also saves us costs.</p>
+        <div class="pr-testimonial__author">
+          <img class="pr-testimonial__avatar" src="/images/figma/raw-090_alpha.png" alt="Naveen">
+          <div>
+            <div class="pr-testimonial__name">Naveen</div>
+            <div class="pr-testimonial__role">Head of Marketing</div>
+            <div class="pr-testimonial__company">HyperVerge</div>
+          </div>
+        </div>
+      </article>
+      <article class="pr-testimonial">
+        <p class="pr-testimonial__quote">Working alongside PipeRocket has been a remarkable experience for Storylane. We have come to deeply rely on them to count on us in our scaled stack. Their comprehensive analysis, strategic initiatives, end-to-end campaign optimisation, lending engagement implementation and targeted remarketing delivered remarkable results for us.</p>
+        <div class="pr-testimonial__author">
+          <img class="pr-testimonial__avatar" src="/images/figma/raw-094_alpha.png" alt="Nalin">
+          <div>
+            <div class="pr-testimonial__name">Nalin</div>
+            <div class="pr-testimonial__role">CEO</div>
+            <div class="pr-testimonial__company">storylane</div>
+          </div>
+        </div>
+      </article>
+      <article class="pr-testimonial">
+        <p class="pr-testimonial__quote">They worked closely with us and took ownership that our in-house team. The team has run 10 experiments to identify what was working and translated two new geographies for the ads. Moreover, they treat content like an asset and react closer to a calendar as the problem it is.</p>
+        <div class="pr-testimonial__author">
+          <img class="pr-testimonial__avatar" src="/images/figma/raw-098_alpha.png" alt="Anusha">
+          <div>
+            <div class="pr-testimonial__name">Anusha</div>
+            <div class="pr-testimonial__role">Founding member</div>
+            <div class="pr-testimonial__company">HyperStart</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     TRAFFIC ALONE IS NOT A SUCCESS METRIC — STATS
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Traffic alone is not a success metric.</h2></div>
+    <div class="pr-stats pr-stats--3">
+      <div class="pr-stat">
+        <div class="pr-stat__num">$0.0M</div>
+        <div class="pr-stat__label">Spend Volume</div>
+      </div>
+      <div class="pr-stat">
+        <div class="pr-stat__num">$0.0M</div>
+        <div class="pr-stat__label">Pipeline</div>
+      </div>
+      <div class="pr-stat">
+        <div class="pr-stat__num">$0.0M</div>
+        <div class="pr-stat__label">Revenue</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     EVERYONE TALKS ABOUT AI — ACCORDION
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
+      <h2>Everyone talks about AI.<br>We just use it where it matters.</h2>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: center;" class="pr-ai-grid">
+      <div>
+        <img src="/images/figma/raw-024_alpha.png" alt="AI in marketing" style="width: 100%; max-width: 560px;">
+      </div>
+      <div class="pr-accordion">
+        <details class="pr-accordion__item" open>
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
+              Research
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI surfaces ICP signals, competitor activity, and audience intent data before a single page is briefed. Which queries are in-market, which content angles move them, and what pipeline opportunities are hiding in plain sight stays with the team.</div>
+        </details>
+        <details class="pr-accordion__item">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+              Content
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI generates first drafts, brief variants, and outline angles across audiences and intent. Which voice fits the ICP, which framing converts, and whether the prose sounds like a real practitioner or an agency template stays with the team.</div>
+        </details>
+        <details class="pr-accordion__item">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              Optimisation
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI flags pages losing rankings, content gaps surfacing in AI overviews, and topics where competitors compound faster. What to refresh, what to consolidate, and where to invest next stays with the team.</div>
+        </details>
+        <details class="pr-accordion__item">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2 6 14l3 3-12 12"/><path d="m18 6 4 4"/></svg>
+              Design
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI produces UI variants and page-design hypotheses. Which layout converts, where to place the CTA, and whether the page earns trust in the first three seconds stays with the team.</div>
+        </details>
+        <details class="pr-accordion__item">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+              Analysis
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI connects organic touchpoints to pipeline and revenue across channels, surfacing CAC, payback, and pipeline contribution faster than any manual model. What it means for strategy stays with the team.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  @media (min-width: 1024px) {
+    .pr-ai-grid { grid-template-columns: 0.9fr 1.1fr !important; gap: var(--pr-s-9) !important; }
+  }
+</style>
+
+<!-- ====================================================
+     THE PIPEROCKET SEO APPROACH
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
+      <h2>The PipeRocket HRtech SEO approach</h2>
+      <p>We focus on outcomes, not activity. Each phase is built around how HRtech buying committees — and their IT, legal, and procurement gatekeepers — actually decide.</p>
+    </div>
+    <div class="pr-approach-grid">
+      <article class="pr-approach-grid__card">
+        <h3>Start from the inside</h3>
+        <p>We become part of your business — not just your marketing. Weekly calls with sales, product, and (when needed) IT or legal. We map your buying triggers, integration story, and competitive position before we touch a keyword tool.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Map the HRtech committee</h3>
+        <p>Before opening a keyword tool, we map how HRtech buying committees think — CHROs, Heads of People, CFOs, heads of IT, legal. Sub-categories, integration questions, security concerns — all mapped before a SERP exists.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Build for IT &amp; security review</h3>
+        <p>Briefs are written so IT, security, and legal can approve them quickly. Integration claims sourced upfront, security framing baked in, language that holds up under procurement scrutiny — part of the brief, not a post-publish edit pass.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Go where buyers are</h3>
+        <p>Vendor comparisons, HRIS integration pages, RFP guides, ROI calculators — BOFU surfaces go live first to drive faster pipeline. Broader topical authority compounds underneath while early demos start booking.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Convert from day one</h3>
+        <p>Every page ships with a conversion path matched to buyer role. BOFU routes to sales-led demos. MOFU offers ROI calculators or integration guides. TOFU captures intent for stakeholder-specific nurture sequences.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Built to be found</h3>
+        <p>We build for modern search — Google, ChatGPT, Perplexity, AI Overviews. Schema, internal links, citation-friendly framing so AI engines surface your content when HRtech buyers ask "best alternative to X" or "does X integrate with Workday".</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Cited where it counts</h3>
+        <p>Links and mentions earned from publications your buyers actually read — HR Executive, SHRM, People Matters, payroll and HRIS analyst coverage — not high-DR domains with no relevance. Authority signals that compound for both Google and ChatGPT.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Scale what works</h3>
+        <p>Performance tracked by intent category, page type, and pipeline value — not just sessions. Double down on what builds qualified HRtech pipeline. Close the loop on CAC payback and report it as a board-grade metric.</p>
+      </article>
+      <article class="pr-approach-grid__card pr-approach-grid__card--mark" aria-hidden="true"></article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperStart</div>
+        <p class="pr-case__copy">Pipeline-led SEO for HyperStart — LegalTech / CLM — across a multi-stakeholder buying committee similar to HRtech procurement.</p>
+        <a href="/case-study/hyperstart/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">Spendflo</div>
+        <p class="pr-case__copy">61% traffic lift for Spendflo — SaaS spend management — relevant for HRtech buyers managing workforce / vendor budgets.</p>
+        <a href="/case-study/spendflo/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">DevRev</div>
+        <p class="pr-case__copy">Pipeline-led SEO for DevRev — moving the agency conversation from rankings to qualified opportunities.</p>
+        <a href="/case-study/devrev/" class="pr-case__link">Read full story →</a>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR TECH STACK
+     ==================================================== -->
+<section class="pr-techstack">
+  <div class="pr-techstack__inner">
+    <div class="pr-techstack__intro">
+      <h2>Our Tech Stack</h2>
+      <p>Better tools do not produce better SEO. Better judgement does. We happen to have both.</p>
+    </div>
+    <div class="pr-techstack__logos" aria-hidden="true">
+      <span class="pr-techstack__logo">ahrefs</span>
+      <span class="pr-techstack__logo">OpenAI</span>
+      <span class="pr-techstack__logo">Clearscope</span>
+      <span class="pr-techstack__logo">HubSpot</span>
+      <span class="pr-techstack__logo">Claude</span>
+      <span class="pr-techstack__logo">Google</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is an HRtech SEO agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">An HRtech SEO agency specialises in growing HRIS, payroll, talent, performance, learning, and people-ops companies through organic search. The job goes beyond keywords — it includes content built for the full CHRO buying committee, surfacing HRIS integrations early, and engaging IT, security, and legal concerns head-on.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Why is HRtech SEO different from generic SaaS SEO?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">HRtech buyers move in committees of 6–10 stakeholders — CHRO, CFO, head of IT, legal, payroll, sometimes the CEO. Content that ranks for them must answer multiple objections at once, surface HRIS integrations, and stand up to IT security review. Generic SaaS SEO produces clicks; HRtech SEO produces qualified pipeline only when content speaks every chair at the table.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How long does HRtech SEO take to drive pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">BOFU pages — vendor comparisons, HRIS integration docs, security and compliance FAQs — go live in month one and start booking demos within 30–60 days. Broader topical authority compounds over 6–9 months. Closed-won timing then depends on procurement, IT review, and committee alignment — typically a 6–12 month sales cycle.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Can you work with our IT, security, and legal teams?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Yes. We build briefs that IT, security, and legal can approve quickly — with integration claims sourced upfront, security framing baked in (SOC 2, ISO 27001, GDPR), and language vetted before publish. Approval cycles compress, not stretch.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Which HRtech sub-verticals do you work with?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">HRIS, payroll, talent acquisition, applicant tracking, onboarding, performance management, learning &amp; development, employee engagement, compensation, and people analytics — anywhere your buyer is a Head of People, CHRO, or HR Ops leader, the playbook applies.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
+    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
+    <h2>HRtech buyers won&rsquo;t click your blog post.<br><span class="pr-italic">Let&rsquo;s build the pages their committee will trust.</span></h2>
+    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
+      Also explore: <a href="/hrtech-marketing-agency/" style="color: var(--pr-cyan);">HRtech marketing agency overview</a> · <a href="/hrtech-ppc-agency/" style="color: var(--pr-cyan);">HRtech PPC agency</a>
+    </p>
+  </div>
+</section>
+
+{{ end }}
