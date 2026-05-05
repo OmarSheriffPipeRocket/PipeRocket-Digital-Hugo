@@ -15,7 +15,7 @@ readingTime: "20 min read"
 
 - Strategy 1: Set pipeline-tied goals before opening a keyword tool
 - Strategy 2: Audit your technical foundation before publishing new content
-- Strategy 3: Research keywords around ICP pain points and buying stages, not volume
+- Strategy 3: Research keywords around [ICP](/glossary/what-is-icp/) pain points and buying stages, not volume
 - Strategy 4: Build BOFU content first, then work upward through the funnel
 - Strategy 5: Build hub-and-spoke content architecture to compound topical authority
 - Strategy 6: Optimize every page for traditional search and AI Overviews simultaneously
@@ -24,7 +24,7 @@ readingTime: "20 min read"
 
 ## The Complete SaaS SEO Strategy Framework (8 Strategies)
 
-Most SaaS SEO guides tell you to do keyword research, write content, and build links. That is the right set of activities in the wrong order with the wrong measurement framework underneath. The eight strategies in this guide are sequenced deliberately. You define what success looks like before you touch a keyword tool. You fix your technical foundation before you publish new content. You build BOFU before TOFU. You earn links through systems, not campaigns. And you measure every strategy against pipeline, not pageviews. Follow the sequence and each step makes the next one more effective.
+Most SaaS [SEO](/glossary/what-is-seo/) guides tell you to do [keyword research](/glossary/what-is-keyword-research/), write content, and build links. That is the right set of activities in the wrong order with the wrong measurement framework underneath. The eight strategies in this guide are sequenced deliberately. You define what success looks like before you touch a keyword tool. You fix your technical foundation before you publish new content. You build BOFU before TOFU. You earn links through systems, not campaigns. And you measure every strategy against pipeline, not pageviews. Follow the sequence and each step makes the next one more effective.
 
 ---
 
@@ -37,7 +37,7 @@ Before any keyword research, content planning, or technical work begins, define 
 The goals that connect SEO to revenue:
 
 - Organic SQLs and demo requests per month, with a quarterly ramp curve
-- Organic-to-trial conversion rate by landing page
+- Organic-to-trial [conversion rate](/glossary/what-is-conversion-rate/) by landing page
 - Organic CAC benchmarked against paid CAC over the same period
 - Share of pipeline with an organic touchpoint
 
@@ -64,10 +64,10 @@ For a deeper look at how technical issues compound across larger organizations, 
 | Issue | What to check | What it costs if unresolved |
 | --- | --- | --- |
 | JavaScript rendering | SSR configuration for all public-facing pages | Product pages and blog content invisible to Google’s crawler |
-| Core Web Vitals | LCP under 2.5s, INP under 200ms, CLS under 0.1 | Rankings suppressed, bounce rates elevated |
+| Core Web Vitals | LCP under 2.5s, INP under 200ms, [CLS](/glossary/what-is-cls/) under 0.1 | Rankings suppressed, bounce rates elevated |
 | Crawl depth | No high-value page more than 3 clicks from homepage | Key content deprioritized and under-indexed |
-| Canonical tags | Correct canonical on every page, no self-referencing errors | Link equity split across duplicate content |
-| Sitemap accuracy | Clean, submitted to Google Search Console, updated automatically | Newly published content taking weeks to index |
+| [Canonical tags](/glossary/what-is-a-canonical-tag/) | Correct canonical on every page, no self-referencing errors | Link equity split across duplicate content |
+| Sitemap accuracy | Clean, submitted to [Google Search Console](/glossary/what-is-google-search-console/), updated automatically | Newly published content taking weeks to index |
 | Noindex errors | Audit template-level noindex directives after every site change | Entire content sections excluded from Google’s index |
 
 **What this looks like in practice:** A DevOps SaaS publishes 30 articles over four months with almost no ranking movement. A technical audit reveals the marketing site is built on React with client-side rendering and no SSR configuration. Google is seeing empty HTML shells instead of content. Implementing SSR takes three weeks of engineering time. Within 60 days of the fix, 22 of those 30 articles are indexed, and 11 move to page two or better.
@@ -76,7 +76,7 @@ What not to do
 
 - Do not assume your site is technically sound because it looks fine in a browser
 - Do not deprioritize Core Web Vitals because they feel like an engineering problem. They are a rankings problem
-- Do not wait until after a site migration to think about technical SEO. That is when the most expensive errors happen
+- Do not wait until after a site migration to think about [technical SEO](/glossary/what-is-technical-seo/). That is when the most expensive errors happen
 
 ---
 
@@ -148,7 +148,7 @@ Individual blog posts rank for individual keywords. A hub-and-spoke content arch
 The structure:
 
 - **Hub (pillar page):** one comprehensive page that covers a broad topic in full. It links to every spoke in the cluster and signals to Google that this is the authoritative reference point for the topic
-- **Spokes (supporting articles):** ten to fifteen focused articles that go deep on each sub-topic within the cluster. Every spoke links back to the pillar. High-authority spokes that earn backlinks pass that equity through internal links to the pillar and to conversion pages
+- **Spokes (supporting articles):** ten to fifteen focused articles that go deep on each sub-topic within the cluster. Every spoke links back to the pillar. High-authority spokes that earn [backlinks](/glossary/what-is-a-backlink/) pass that equity through internal links to the pillar and to conversion pages
 
 The business result of this architecture is compounding authority. As the cluster earns links and engagement, every page in it benefits. Rankings for the pillar lift. Rankings for the spokes lift. Pages that were stuck on page two move to page one without any new content being published.
 
@@ -200,13 +200,13 @@ What not to do
 
 - Do not write for keyword density. Write for the reader’s next question
 - Do not have four different company descriptions across your website, G2 profile, LinkedIn, and Crunchbase. Standardize your brand entity across every external property
-- Do not ignore schema markup because it requires developer time. FAQPage schema alone can meaningfully improve click-through rates from both traditional search and AI-generated results
+- Do not ignore [schema markup](/glossary/what-is-schema-markup/) because it requires developer time. FAQPage schema alone can meaningfully improve click-through rates from both traditional search and AI-generated results
 
 ---
 
 ### Strategy 7: Build a Link Acquisition System That Earns Authority at Scale
 
-Links remain the primary mechanism by which Google differentiates between two equally well-written pieces of content on the same topic. For B2B SaaS companies targeting competitive commercial keywords, domain authority is not optional.
+Links remain the primary mechanism by which Google differentiates between two equally well-written pieces of content on the same topic. For B2B SaaS companies targeting competitive commercial keywords, [domain authority](/glossary/what-is-domain-authority/) is not optional.
 
 The most efficient approach is building link assets rather than running outreach campaigns. An outreach campaign stops the moment the team moves on to something else. A link asset keeps earning authority long after it is published.
 
@@ -240,13 +240,13 @@ This is the strategy that determines whether SEO keeps its budget. Every other s
 | --- | --- | --- |
 | Raw organic traffic | Does not filter for ICP match | Organic SQLs and demo requests |
 | Keyword rankings | Position 1 for a zero-intent term equals zero pipeline | Pipeline-generating keywords ranked |
-| MQLs | Overstates marketing contribution without sales alignment | Organic-to-SQL conversion rate by landing page |
+| [MQLs](/glossary/mql/) | Overstates marketing contribution without sales alignment | Organic-to-SQL conversion rate by landing page |
 | Bounce rate | Engaged readers often bounce after finding their answer | Time on page and scroll depth |
 | Domain authority | Not a Google ranking factor | Referring domain quality and relevance |
 
 The compounding advantage of organic search only becomes visible in a reporting model that captures the full pipeline contribution. For teams building the measurement infrastructure from scratch, [Enterprise SEO Strategy: How to Build a Program That Scales](https://piperocket.digital/blogs/enterprise-seo-strategy-and-framework/) covers the attribution and governance layer in detail. Under last-touch attribution, organic looks like it contributes 8 to 12 percent of pipeline. Under pipeline-influenced attribution, that number typically rises to 50 to 70 percent for companies with mature content programs.
 
-**What this looks like in practice:** A $12M ARR SaaS switches its monthly SEO report from a traffic dashboard to a pipeline contribution report showing organic SQLs, organic CAC, and pipeline-influenced attribution. In the first quarter with the new report, the CMO can demonstrate that organic search was a touchpoint in 64% of deals closed that quarter. The board approves a 2x increase in the content budget. The SEO program’s budget had been flat for three years under the previous traffic-based reporting model.
+**What this looks like in practice:** A $12M [ARR](/glossary/what-is-arr/) SaaS switches its monthly SEO report from a traffic dashboard to a pipeline contribution report showing organic SQLs, organic CAC, and pipeline-influenced attribution. In the first quarter with the new report, the CMO can demonstrate that organic search was a touchpoint in 64% of deals closed that quarter. The board approves a 2x increase in the content budget. The SEO program’s budget had been flat for three years under the previous traffic-based reporting model.
 
 What not to do
 

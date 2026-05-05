@@ -14,7 +14,7 @@ readingTime: "13 min read"
 
 One month you have leads flowing in... the next month everything slows down. 
 
-Most B2B teams face this feast-or-famine cycle. And it’s not because your market vanished or your product stopped being good,  it’s usually because your lead generation is relying on just one channel or one tactic that eventually slows down.
+Most B2B teams face this feast-or-famine cycle. And it’s not because your market vanished or your product stopped being good,  it’s usually because your [lead generation](/glossary/what-is-lead-generation/) is relying on just one channel or one tactic that eventually slows down.
 
 The deeper issue is inconsistency: buyers don’t convert after one touch anymore. They move through six, seven, sometimes eight different interactions before they even think about talking to sales. 
 
@@ -28,7 +28,7 @@ B2B lead generation is the process of attracting the right businesses, getting t
 
 Here’s what it really involves:
 
-- Finding the right accounts (your ICP)
+- Finding the right accounts (your [ICP](/glossary/what-is-icp/))
 - Reaching them across multiple channels
 - Engaging them with useful content or offers
 - Capturing their details through forms, demos, or gated assets
@@ -60,7 +60,7 @@ Each cares about something different, and your lead gen strategy must reflect th
 
 ### 2. Attracting Interest Through Multi-Channel Marketing
 
-Once you know your audience, show up where they already are. Relying on one channel creates an inconsistent pipeline. Buyers move across content, SEO, cold email, social, and ads before engaging. 
+Once you know your audience, show up where they already are. Relying on one channel creates an inconsistent pipeline. Buyers move across content, [SEO](/glossary/what-is-seo/), cold email, social, and ads before engaging. 
 
 A balanced mix usually includes:
 
@@ -93,7 +93,7 @@ Not every lead is sales-ready. Your qualification process filters signal from no
 - **Firmographic fit:** Does the company match your ICP?
 - **Sales acceptance criteria:** the sales team validates that the lead is actually worth pursuing
 
-When a lead hits the threshold, they move from MQL → SQL → Opportunity.
+When a lead hits the threshold, they move from [MQL](/glossary/mql/) → SQL → Opportunity.
 
 ### 5. Nurturing Leads Through Automated Journeys
 
@@ -159,7 +159,7 @@ Together, search + social + retargeting create a full-funnel paid engine that sp
 
 ### 6. ABM (Account-Based Marketing)
 
-If you sell to mid-market or enterprise companies, ABM changes the game. Instead of casting a wide net, you focus on a shortlist of high-value accounts and personalise everything they see.
+If you sell to mid-market or enterprise companies, [ABM](/glossary/what-is-abm/) changes the game. Instead of casting a wide net, you focus on a shortlist of high-value accounts and personalise everything they see.
 
 ABM can include:
 
@@ -303,7 +303,7 @@ ABM tools let you target specific high-value accounts with personalised ads, mes
 
 ### 6. Ad Platforms
 
-Tools like Google Ads and LinkedIn Ads help you run targeted campaigns that reach buyers based on intent, role, and industry. They’re essential for generating demand, capturing high-intent leads, and retargeting prospects who’ve already engaged with your brand.
+Tools like [Google Ads](/glossary/what-is-google-ads/) and LinkedIn Ads help you run targeted campaigns that reach buyers based on intent, role, and industry. They’re essential for generating demand, capturing high-intent leads, and retargeting prospects who’ve already engaged with your brand.
 
 ## Conclusion
 

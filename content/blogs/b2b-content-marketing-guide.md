@@ -16,7 +16,7 @@ Do you feel like you’re spending more on ads but getting less in return?
 
 It is a brutal reality for modern businesses. B2B buyers have become almost immune to anything that looks or sounds like traditional marketing. They’ve stopped picking up calls, they scroll past ads, and they only talk to sales when they’ve already made their decision.
 
-So if you aren’t influencing them during this invisible research phase, you have already lost the deal. This is where B2B content marketing comes in.
+So if you aren’t influencing them during this invisible research phase, you have already lost the deal. This is where B2B [content marketing](/glossary/what-is-content-marketing/) comes in.
 
 Done right, it turns your website into a salesperson that works 24/7, attracting better leads, shortening sales cycles, and lowering acquisition costs. In this guide, let’s see a concrete b2b content marketing plan to turn strangers into high-value customers.
 
@@ -27,7 +27,7 @@ Done right, it turns your website into a salesperson that works 24/7, attracting
 3. The core B2B content marketing strategies include:
 
 - Clearly defining the business and content goals
-- Understanding the audience and buyer personas
+- Understanding the audience and [buyer personas](/glossary/buyer-persona/)
 - Mapping the content to the buyer journey
 - Conducting content audits
 - Having a proper distribution plan
@@ -56,7 +56,7 @@ B2B deals take months. You can’t call a prospect every day without being block
 
 ### 3. Higher ROI than Many Paid Channels
 
-Ads are rent; content is ownership. The second you stop paying for ads, traffic stops. But a high-quality article written today can drive leads for years at zero incremental cost, significantly lowering your long-term cost-per-acquisition (CPA).
+Ads are rent; content is ownership. The second you stop paying for ads, traffic stops. But a high-quality article written today can drive leads for years at zero incremental cost, significantly lowering your long-term cost-per-acquisition ([CPA](/glossary/what-is-cpa/)).
 
 ### 4. Helps Generate and Nurture Qualified Leads
 
@@ -102,7 +102,7 @@ Best formats: Case studies, ROI calculators, live demos.
 
 ### 4. Content Audit & Editorial Planning
 
-Don’t just churn out new posts. First, run a content audit to find existing assets that can be refreshed for quick wins. Once you know what you have, build an editorial calendar. Plan topics one month ahead to ensure a healthy mix of SEO articles, thought leadership, and product updates.
+Don’t just churn out new posts. First, run a content audit to find existing assets that can be refreshed for quick wins. Once you know what you have, build an editorial calendar. Plan topics one month ahead to ensure a healthy mix of [SEO](/glossary/what-is-seo/) articles, [thought leadership](/glossary/what-is-thought-leadership/), and product updates.
 
 ### 5. Distribution & Amplification Strategy
 
@@ -129,7 +129,7 @@ This is the foundation of your organic growth. In B2B, “thin” content is dea
 
 When a topic is too complex for a blog post, it belongs here. These are typically “gated” (requiring an email to download) and offer deep dives into industry trends or research. They are the currency you trade for a prospect’s contact info.
 
-**Best for:** Lead Generation (Middle of Funnel), Thought Leadership.
+**Best for:** [Lead Generation](/glossary/what-is-lead-generation/) (Middle of Funnel), Thought Leadership.
 
 ### 3. Case Studies & Success Stories
 
@@ -155,7 +155,7 @@ Most marketers treat content like a checklist item, something to “get done.”
 
 ### 1. Prioritize Quality Over Quantity
 
-It’s tempting to publish constantly, but quality wins every time. One strong, research-backed article can outperform 10 generic posts. High-value content also earns backlinks, improves search visibility, and positions you as a trusted advisor.
+It’s tempting to publish constantly, but quality wins every time. One strong, research-backed article can outperform 10 generic posts. High-value content also earns [backlinks](/glossary/what-is-a-backlink/), improves search visibility, and positions you as a trusted advisor.
 
 **Pitfall to avoid:** Publishing for the sake of consistency without offering anything original or useful.
 
@@ -189,7 +189,7 @@ With the rollout of Google’s AI Overviews (SGE), users are getting answers dir
 
 ![Zero Click Trend Statistic](/images/wp-import/12_Zero-Click-Trend-Statistic.png)
 
-And it’s not just traditional search engines; LLM-based search platforms like ChatGPT Search and Perplexity are rapidly becoming primary discovery tools for research, comparisons, and recommendations.
+And it’s not just traditional search engines; [LLM](/glossary/what-is-an-llm/)-based search platforms like ChatGPT Search and Perplexity are rapidly becoming primary discovery tools for research, comparisons, and recommendations.
 
 **What This Means:** Your content strategy can no longer rely solely on “top of funnel” definition terms. You must pivot to “Perspective-Led” content that is deep, opinionated, and experience-based, which an AI summary cannot easily replicate.
 
@@ -233,7 +233,7 @@ Don’t rely on just one channel. Use a multi-channel approach to ensure visibil
 
 - **Owned:** Publish on your website, blog, and newsletter.
 - **Earned:** Pitch guest posts to industry publications and get featured in organic search.
-- **Paid:** If organic reach is slow, use LinkedIn Ads or PPC to boost your best-performing content to a targeted audience.
+- **Paid:** If organic reach is slow, use LinkedIn Ads or [PPC](/glossary/what-is-ppc/) to boost your best-performing content to a targeted audience.
 
 ### 7. Promote Through Social, Email, Partnerships, ABM
 
@@ -241,7 +241,7 @@ Once distributed, actively promote your work.
 
 - **Social & Email:** Share snippets on LinkedIn/X and send to your subscriber list.
 - **Partnerships:** Collaborate with non-competing brands to share content with their audiences.
-- **ABM:** specific high-value accounts, send your content directly to key stakeholders via personalized outreach or ads.
+- **[ABM](/glossary/what-is-abm/):** specific high-value accounts, send your content directly to key stakeholders via personalized outreach or ads.
 
 ### 8. Measure Performance → Analyze → Iterate/Refine
 
@@ -280,7 +280,7 @@ The key is to match the content to what buyers are thinking and evaluating at ea
 
 ### 4. How do I measure the success of my B2B content marketing efforts?
 
-Success is usually measured using KPIs like organic traffic, keyword rankings, engagement metrics, leads generated, MQL-to-SQL conversion rate, pipeline influence, and overall revenue impact. Regular analysis helps you understand what’s working and where to improve.
+Success is usually measured using KPIs like organic traffic, keyword rankings, engagement metrics, leads generated, [MQL](/glossary/mql/)-to-SQL [conversion rate](/glossary/what-is-conversion-rate/), pipeline influence, and overall revenue impact. Regular analysis helps you understand what’s working and where to improve.
 
 ### 5. Can small B2B businesses benefit from content marketing too? How?
 

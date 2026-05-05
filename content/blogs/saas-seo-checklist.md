@@ -12,7 +12,7 @@ wp_link: "https://piperocket.digital/blogs/saas-seo-checklist/"
 readingTime: "15 min read"
 ---
 
-I’ve spent over 15 years in SEO, and if there’s one thing I’ve learned, it’s that most “checklists” are distractions. They focus on green lights in a plugin rather than the green lines on your revenue chart.
+I’ve spent over 15 years in [SEO](/glossary/what-is-seo/), and if there’s one thing I’ve learned, it’s that most “checklists” are distractions. They focus on green lights in a plugin rather than the green lines on your revenue chart.
 
 Recently, I sat down with my team to break down exactly how we approach [SaaS SEO](https://piperocket.digital/blogs/saas-seo/) at PipeRocket Digital. This isn’t theoretical, this is the exact methodology we use to turn search traffic into pipelines. If you’re tired of vanity metrics and want a strategy that sells, this is for you.
 
@@ -24,7 +24,7 @@ Here’s my SaaS SEO checklist - with in-depth notes on why you should be tickin
 
 **The 7-Step SaaS SEO Framework:**
 
-- **Step 1: Category First:** Don’t touch a keyword tool until you map your Ideal Customer Profile (ICP) and Total Addressable Market (TAM).
+- **Step 1: Category First:** Don’t touch a keyword tool until you map your Ideal Customer Profile ([ICP](/glossary/what-is-icp/)) and [Total Addressable Market](/glossary/what-is-tam-sam-som/) (TAM).
 - **Step 2: Revenue Math:** A high-volume keyword (1,000 searches) often yields nearly zero customers. Prioritize **Intent** over Volume.
 - **Step 3: Topic Clusters:** Don’t create 10 pages for 10 similar keywords. Group them into one “Topic” to avoid cannibalizing your own rankings.
 - **Step 4: Beat the AI:** Write for “conversational prompts” and add human originality (interviews, real-time complications) that AI cannot fake.
@@ -46,13 +46,13 @@ You must identify the right keywords where people are actually looking for a sol
 
 ## Checkbox 2: Use Keyword Research to Understand Market Opportunity
 
-Once we understand the category, we move to keyword research. But we don’t just look for high volume. We look for **market opportunity**. We split keywords into intent and volume to understand the true potential of the searches.
+Once we understand the category, we move to [keyword research](/glossary/what-is-keyword-research/). But we don’t just look for high volume. We look for **market opportunity**. We split keywords into intent and volume to understand the true potential of the searches.
 
 I often see teams get excited about a keyword with 1,000 monthly searches. They see “1,000” and think “100 leads.” But let’s do the real math together.
 
 - **Total Volume:** 1,000 searches.
 - **Clicks:** Even if you rank in the top 3 for all these keywords, you might only get 100 actual clicks.
-- **Conversion:** A decent conversion rate is typically 2% to 4% for SaaS
+- **Conversion:** A decent [conversion rate](/glossary/what-is-conversion-rate/) is typically 2% to 4% for SaaS
 - **Result:** That 1,000 volume keyword might yield only 4 to 5 actual conversions maximum.
 
 Is that worth your time? Maybe. But you need to know that math ***before*** you write content. This calculation gives us a holistic picture of what the TAM actually looks like today.
@@ -83,7 +83,7 @@ Let’s look at an example in the procurement space. You might see keywords like
 2. Procurement management software
 3. Procurement tool.
 
-These are three different keywords in a spreadsheet. But if you go to the Google Search Engine Results Page (SERP) and identify these keywords, you will see that Google treats the intent as identical. It is only one keyword as per Google’s intent.
+These are three different keywords in a spreadsheet. But if you go to the Google Search Engine Results Page ([SERP](/glossary/what-is-serp/)) and identify these keywords, you will see that Google treats the intent as identical. It is only one keyword as per Google’s intent.
 
 ### How I Use The Topic Cluster Approach
 
@@ -149,7 +149,7 @@ You must tailor your Calls to Action (CTAs) based on the content intent.
 
 ## Checkbox 6: Reporting Takes Me to the Root
 
-Most teams just stare at GA4 or HubSpot dashboards without knowing what they are looking at. They have the tools added, but no one goes to the root of it.
+Most teams just stare at [GA4](/glossary/what-is-ga4/) or HubSpot dashboards without knowing what they are looking at. They have the tools added, but no one goes to the root of it.
 
 ### How we Pre-Sort Metrics
 
@@ -186,9 +186,9 @@ If the user experience is good and the content intent is right, Google will rewa
 
 ## Checkbox 8: Have Good Brand Mentions (or Backlinks)
 
-“Backlinks” are slowly evolving into **Brand Mentions**. This is again mostly due to the rise of AI.
+“[Backlinks](/glossary/what-is-a-backlink/)” are slowly evolving into **Brand Mentions**. This is again mostly due to the rise of AI.
 
-AI tools and LLMs (Large Language Models) determine authority by looking at the company you keep. They look for sentiment and context behind the content.
+AI tools and [LLMs](/glossary/what-is-an-llm/) (Large Language Models) determine authority by looking at the company you keep. They look for sentiment and context behind the content.
 
 ### Here’s How it Works
 
@@ -242,7 +242,7 @@ This trains the AI to associate your software with the top players in your speci
 
 Honestly? No. It is largely over-hyped. If you look at the top-ranking SaaS pages for competitive keywords, very few have perfect speed scores. For SaaS websites, which typically have 1,000-2,000 pages, the priority should be **Crawlability and Indexability**.
 
-Focus your technical efforts on fixing 404s, redirect chains (301s), and canonical tags. If the user experience is smooth and the content is relevant, Google will reward you even without a perfect technical score.
+Focus your technical efforts on fixing 404s, redirect chains (301s), and [canonical tags](/glossary/what-is-a-canonical-tag/). If the user experience is smooth and the content is relevant, Google will reward you even without a perfect technical score.
 
 ### 5. What metrics should I actually track to prove ROI?
 

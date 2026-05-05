@@ -56,7 +56,7 @@ This user is confused about choosing a product. They are looking at Brand A vers
 
 This user is frustrated with their existing product. They have usually already used a tool-say, Zendesk-and they hit a wall. Maybe the pricing got too high as they scaled. Maybe the support is terrible. Maybe they can’t add AI agents to their workflow.
 
-They go to the SERP and search “Zendesk alternatives” because they are looking for a list of tools that solve the specific problem Zendesk failed to solve.
+They go to the [SERP](/glossary/what-is-serp/) and search “Zendesk alternatives” because they are looking for a list of tools that solve the specific problem Zendesk failed to solve.
 
 **You need to approach these differently**. One page is an argument where you claim “We are better than X because of Y,” while the other is a solution where you say “The Brands solve the pain that Y caused you.”
 
@@ -137,7 +137,7 @@ I have a strict list of rules we follow at PipeRocket Digital, and if you break 
 **Dos:**
 
 - **Honest Comparison:** Use real data that can be verified.
-- **Feature Depth:** Don’t just list features; explain if they solve the ICP’s problem.
+- **Feature Depth:** Don’t just list features; explain if they solve the [ICP](/glossary/what-is-icp/)’s problem.
 - **Clear Tables:** Ensure the table solves the user’s questions at a glance.
 
 **Don’ts:**
@@ -255,7 +255,7 @@ Use context-aware buttons. In the migration section, say “Talk to our migratio
 
 ## How PipeRocket Digital Can Help You Win the Comparison Game
 
-Building these pages isn’t just about writing a copy. It requires deep research, accurate data collection, and a strategy that balances SEO with conversion psychology.
+Building these pages isn’t just about writing a copy. It requires deep research, accurate data collection, and a strategy that balances [SEO](/glossary/what-is-seo/) with conversion psychology.
 
 At **PipeRocket Digital**, we act as an extended team that owns the outcome, specifically SQLs and Pipeline.
 

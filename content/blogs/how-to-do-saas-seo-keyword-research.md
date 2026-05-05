@@ -14,13 +14,13 @@ readingTime: "11 min read"
 
 ## TL;DR
 
-- **Stop opening SEO tools first:** I honestly believe this is where everyone gets it wrong. You shouldn’t start with Ahrefs or Semrush. You have to start with your internal teams, Sales, CS, Product, because they know the specific, messy words customers actually use to describe their pain, which is data a tool just won’t give you.
+- **Stop opening [SEO](/glossary/what-is-seo/) tools first:** I honestly believe this is where everyone gets it wrong. You shouldn’t start with Ahrefs or Semrush. You have to start with your internal teams, Sales, CS, Product, because they know the specific, messy words customers actually use to describe their pain, which is data a tool just won’t give you.
 - **Don’t just copy your competitors.** If you only look at what the other guys are ranking for, you are just validating your own bias. We find that the real “gold” comes from merging that human insight from your team with the data, rather than just downloading a competitor’s keyword list and calling it a strategy.
 - **Group keywords into “Topics,” not just lists.** A spreadsheet with two thousand rows is useless noise. We group them into topics,like “GRC Software”, so we can walk into a meeting and tell the executives, “We don’t need a random budget, we need to build exactly 60 pages to capture the market.” It turns a guessing game into a business case.
 
 ## Should You Be Worried About AI Search for SaaS Keyword Research?
 
-Before we even think about opening a spreadsheet, we have to talk about the shift that is happening right now. I know you are probably hearing the noise.People are saying “keywords are dead” and claiming that everything is moving toward AI tools like ChatGPT or Perplexity. And there is truth to that. It is true that the term “keyword” is slowly evolving into “prompt”. The way people interact with the internet is changing.However, I have a strong belief that traditional search isn’t ending anytime soon. Look at the behavior right now. [Around 90% of people are still using Google](https://gs.statcounter.com/search-engine-market-share) to find their information. That is a massive chunk of the world.So, while we are absolutely preparing for a future of AI prompts, we’ll stick to the foundation: Keyword Research for SaaS SEO. It is still the bedrock of how your customers find you.
+Before we even think about opening a spreadsheet, we have to talk about the shift that is happening right now. I know you are probably hearing the noise.People are saying “keywords are dead” and claiming that everything is moving toward AI tools like ChatGPT or Perplexity. And there is truth to that. It is true that the term “keyword” is slowly evolving into “prompt”. The way people interact with the internet is changing.However, I have a strong belief that traditional search isn’t ending anytime soon. Look at the behavior right now. [Around 90% of people are still using Google](https://gs.statcounter.com/search-engine-market-share) to find their information. That is a massive chunk of the world.So, while we are absolutely preparing for a future of AI prompts, we’ll stick to the foundation: [Keyword Research](/glossary/what-is-keyword-research/) for SaaS SEO. It is still the bedrock of how your customers find you.
 
 ## Do Not Go the Usual SaaS Keyword Research Route: Here’s Why
 
@@ -31,7 +31,7 @@ If I asked you to sit down and do keyword research for SaaS SEO right now, you w
 3. You list the big competitors, like “MetricStream” or “LogicGate,” and look for “MetricStream alternatives”.
 4. You take that list you just brainstormed, you paste it into Google Keyword Planner, you get the search volume, and maybe you run a [competitor gap analysis](https://piperocket.digital/blogs/how-to-do-saas-seo-competitor-analysis/).
 
-I get it. We used to do it exactly this way, too. But we realized something critical: **this format does not help you scale**. Think about what is happening here. When you start with just your own knowledge and a software tool, you are creating a very narrow view of the market.You are missing the full spectrum, the Total Addressable Market (TAM). You are only finding the keywords you *expect* to find. You are validating your own bias. To fix this, we had to flip the script entirely.
+I get it. We used to do it exactly this way, too. But we realized something critical: **this format does not help you scale**. Think about what is happening here. When you start with just your own knowledge and a software tool, you are creating a very narrow view of the market.You are missing the full spectrum, the [Total Addressable Market](/glossary/what-is-tam-sam-som/) (TAM). You are only finding the keywords you *expect* to find. You are validating your own bias. To fix this, we had to flip the script entirely.
 
 ## How I Found Out the Best Way to do Keyword Research for SaaS SEO
 

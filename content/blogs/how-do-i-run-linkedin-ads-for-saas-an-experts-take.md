@@ -19,10 +19,10 @@ In this guide, I’m going to walk you through the exact strategies, from ABM hi
 ## Tl;DR
 
 - **LinkedIn is for Influence, Not Capture**: Stop expecting immediate conversions like you get on Google. LinkedIn Ads for SaaS is a pattern-interrupt channel designed to build mindshare with decision-makers (CXOs, VPs) so they search for your brand later.
-- **Targeting > Keywords**: Forget keywords. Success comes from strict filtering by Job Title, Function, and Seniority, combined with tiered Account-Based Marketing (ABM) lists to ensure you only pay for impressions on companies that can afford you.
+- **Targeting > Keywords**: Forget keywords. Success comes from strict filtering by Job Title, Function, and Seniority, combined with tiered [Account-Based Marketing](/glossary/what-is-abm/) (ABM) lists to ensure you only pay for impressions on companies that can afford you.
 - **Tips for SaaS LinkedIn Ads**: Always turn off the “Audience Network” (to keep ads in the feed) and avoid “Max Delivery” bidding (which burns budget). Switch to Manual Bidding to control your costs.
 - **Measuring success for SaaS LinkedIn Ads**: Don’t rely solely on direct attribution. Measure success by looking for spikes in organic search volume and direct traffic and leads after launching your campaigns.
-- **Structure Your ABM into Tiers**: Don’t treat every account the same. For SaaS LinkedIn Ads Use a 1:1 approach for your top “whale” prospects (highly personalized), a 1:Few approach for niche clusters, and a 1:Many approach for scaling coverage across your broader ICP list
+- **Structure Your ABM into Tiers**: Don’t treat every account the same. For SaaS LinkedIn Ads Use a 1:1 approach for your top “whale” prospects (highly personalized), a 1:Few approach for niche clusters, and a 1:Many approach for scaling coverage across your broader [ICP](/glossary/what-is-icp/) list
 
 ## How to Understand the Purpose of SaaS LinkedIn Ads?
 
@@ -69,11 +69,11 @@ Remarketing as the name suggests, is where you target users who have interacted 
 - **Account Expansion**:  
   Your current customers are your best source of new revenue. You can target existing customers with ads about new features or product updates to drive upsells and prevent churn.
 - **Lifecycle Stages:**  
-  If a lead moves to MQL (Marketing Qualified Lead) or SQL (Sales Qualified Lead) but gets stuck, I use ads to unblock them. I’ll show them case studies or offers to nudge them down the funnel.
+  If a lead moves to [MQL](/glossary/mql/) (Marketing Qualified Lead) or SQL (Sales Qualified Lead) but gets stuck, I use ads to unblock them. I’ll show them case studies or offers to nudge them down the funnel.
 
 ## How to Define Your ICPs Before Running SaaS LinkedIn Ads?
 
-Google Ads relies on keywords, while LinkedIn Ads relies on **Job Titles, Functions, and Companies.**
+[Google Ads](/glossary/what-is-google-ads/) relies on keywords, while LinkedIn Ads relies on **Job Titles, Functions, and Companies.**
 
 Before I even touch an ad account, I sit down and define the ICP (Ideal Customer Profile) with precision. You need to understand the product deeply.
 
@@ -89,7 +89,7 @@ I rarely target entry-level employees. I focus on the people who pay like CXOs, 
 
 ### 3. Job Function vs. Job Title
 
-There is a difference. “Marketing” is a function; “PPC Specialist” is a title. I usually layer these. I might target the “Marketing” function and then overlay specific seniorities to ensure I’m hitting the leadership within that department.
+There is a difference. “Marketing” is a function; “[PPC](/glossary/what-is-ppc/) Specialist” is a title. I usually layer these. I might target the “Marketing” function and then overlay specific seniorities to ensure I’m hitting the leadership within that department.
 
 ### 4. Industry
 
@@ -117,7 +117,7 @@ They were using **Max Delivery** bidding.
 
 1. **Restructured the Account:** We aligned campaigns by region and product so we actually knew what was running where.
 2. **Narrowed the Audience:** We applied strict ICP filters (Seniority, Industry, Company Size) to bring the audience size down to match the budget.
-3. **Manual Bidding:** We switched to Manual Bidding to control the Cost Per Click and ensure we weren’t overpaying.
+3. **Manual Bidding:** We switched to Manual Bidding to control the [Cost Per Click](/glossary/what-is-cost-per-click/) and ensure we weren’t overpaying.
 
 **The Result:** By narrowing down the audience and controlling the bid, we effectively increased their audience penetration rate from almost **1.70% to 19.20% -** **A huge 1000% increase.**
 
@@ -141,8 +141,8 @@ Your group objective dictates how the LinkedIn algorithm behaves and your campai
 
 - **Brand Awareness:** Use this only if you want to announce funding or keep your brand at the top of the feed. Don’t expect conversions.
 - **Website Visits:** Use this when you are promoting content (blogs, features, reports) and want traffic.
-- **Lead Generation:** This is the powerhouse. It uses LinkedIn’s native forms. When a user clicks “Book a Demo,” their name, email, and job title auto-fill from their profile. Friction is zero, so conversion is high.
-- **Engagement:** I use this for “Thought Leadership” ads. If my founder posts a great insight, I boost it with an Engagement objective to get likes and comments, keeping the user inside LinkedIn.
+- **[Lead Generation](/glossary/what-is-lead-generation/):** This is the powerhouse. It uses LinkedIn’s native forms. When a user clicks “Book a Demo,” their name, email, and job title auto-fill from their profile. Friction is zero, so conversion is high.
+- **Engagement:** I use this for “[Thought Leadership](/glossary/what-is-thought-leadership/)” ads. If my founder posts a great insight, I boost it with an Engagement objective to get likes and comments, keeping the user inside LinkedIn.
 - **Video Views:** Self-explanatory. This is great for product demos.
 - **Website Conversion:** Use this for high-intent audiences where you want them to take a specific action on your site.
 

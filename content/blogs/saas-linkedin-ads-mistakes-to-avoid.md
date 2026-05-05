@@ -21,8 +21,8 @@ I run campaigns every day for B2B SaaS companies, and I watch the same avoidable
 |  |  |  |
 | --- | --- | --- |
 | **Mistake** | **Why It’s Bad** | **How to Avoid** |
-| **Treating LinkedIn like Google Ads** | LinkedIn is a nurturing channel, not a direct-response one. Expecting quick conversions leads to killing campaigns that were actually working | Set realistic attribution expectations upfront and measure brand lift, not just direct conversions |
-| **Having a vague ICP** | You end up paying to reach people who will never care about your product | Go persona-level - specific job title, company size, and industry before you open Campaign Manager |
+| **Treating LinkedIn like [Google Ads](/glossary/what-is-google-ads/)** | LinkedIn is a nurturing channel, not a direct-response one. Expecting quick conversions leads to killing campaigns that were actually working | Set realistic attribution expectations upfront and measure brand lift, not just direct conversions |
+| **Having a vague [ICP](/glossary/what-is-icp/)** | You end up paying to reach people who will never care about your product | Go persona-level - specific job title, company size, and industry before you open Campaign Manager |
 | **Allocating incorrect budget** | Too little budget means the algorithm never gets enough data and you run out of runway before seeing results | Go ABM-style with a tight audience if budget is limited rather than spreading thin and broad |
 | **Targeting a broad audience** | You waste money reaching sub-industries and company sizes that are irrelevant to your offer | Use every available filter - sub-industry, company size, seniority - to tighten your audience |
 | **Having only one or two creatives** | LinkedIn suppresses ads shown to the same person more than twice, so one creative kills your own reach | Launch with a minimum of five creatives per campaign |
@@ -80,7 +80,7 @@ LinkedIn’s targeting lives in those specifics, and if you skip this step, the 
 
 ### A client example:
 
-We have a client whose product repurposes content. If you think “marketing software,” your brain jumps to Demand Gen Managers or Growth Marketers. But the person who actually cares about content repurposing is a Content Director, Head of Content, or Content Marketing Manager.
+We have a client whose product repurposes content. If you think “marketing software,” your brain jumps to Demand Gen Managers or Growth Marketers. But the person who actually cares about content repurposing is a Content Director, Head of Content, or [Content Marketing](/glossary/what-is-content-marketing/) Manager.
 
 Targeting Demand Gen roles for that product is throwing money away. The right audience split is roughly 80% content-focused titles, 20% broader marketing, not the other way around.
 
@@ -106,7 +106,7 @@ LinkedIn CPCs run significantly higher than Google - often double for a comparab
 
 ### How to avoid it:
 
-- If your budget is limited, go Account-Based Marketing and pick a tight list of target accounts, keep the audience deliberately small, and penetrate that list deeply rather than spreading thin across a large audience
+- If your budget is limited, go [Account-Based Marketing](/glossary/what-is-abm/) and pick a tight list of target accounts, keep the audience deliberately small, and penetrate that list deeply rather than spreading thin across a large audience
 - Going broad with a small budget on LinkedIn gets you impressions and no pipeline
 - Think about penetration rate: same budget spent on 200 relevant people is far more effective than the same budget spent on 2,000 loosely relevant people
 
@@ -164,7 +164,7 @@ We catch this on almost every campaign audit. The ad sets an expectation. The la
 
 - Every campaign needs a landing page where the headline and messaging directly mirror the creative
 - If you have multiple products or solutions, build dedicated landing pages for each campaign - do not route all traffic to your homepage
-- **Think of it this way**: if we ran a [SaaS-PPC](https://piperocket.digital/blogs/saas-ppc/)-focused creative at PipeRocket and sent the click to an SEO page, we wasted that click. Same logic applies to your product.
+- **Think of it this way**: if we ran a [SaaS-PPC](https://piperocket.digital/blogs/saas-ppc/)-focused creative at PipeRocket and sent the click to an [SEO](/glossary/what-is-seo/) page, we wasted that click. Same logic applies to your product.
 
 ## Mistake 7: Ignoring the “Recently Visited” Location Option
 
@@ -232,7 +232,7 @@ LinkedIn’s “Maximum Delivery” option optimizes for speed of spending, not 
 ### How to avoid it:
 
 - Always use Manual Bidding. It gives you direct control over what you are willing to pay per click or per thousand impressions
-- Manual Bidding forces the algorithm to be efficient rather than just fast, which is exactly what you need on a high-CPC platform
+- Manual Bidding forces the algorithm to be efficient rather than just fast, which is exactly what you need on a high-[CPC](/glossary/what-is-cost-per-click/) platform
 - If you have been running Maximum Delivery and wondering why budget disappears before you get meaningful reach, this is the fix
 
 ## Mistake 11: Building Retargeting Audiences the Wrong Way

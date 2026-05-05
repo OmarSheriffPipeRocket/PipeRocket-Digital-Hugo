@@ -2,7 +2,7 @@
 baseURL = "https://piperocket.digital/"
 languageCode = "en-us"
 title = "PipeRocket — Marketing with purpose, not just presence."
-canonifyURLs = true
+canonifyURLs = false
 relativeURLs = false
 timeZone = "Asia/Kolkata"
 hasCJKLanguage = false

@@ -12,7 +12,7 @@ wp_link: "https://piperocket.digital/blogs/how-to-rank-on-chatgpt/"
 readingTime: "14 min read"
 ---
 
-But most of the advice I’m seeing regarding this is complete garbage. People are out there buying these AI SEO tools that literally do nothing. You can’t treat an LLM like a magic trick. If you want to actually show up in these generative answers, you need a strategy grounded in reality. 
+But most of the advice I’m seeing regarding this is complete garbage. People are out there buying these AI [SEO](/glossary/what-is-seo/) tools that literally do nothing. You can’t treat an [LLM](/glossary/what-is-an-llm/) like a magic trick. If you want to actually show up in these generative answers, you need a strategy grounded in reality. 
 
 Let’s just talk through how to rank on ChatGPT based on our strategies.
 
@@ -26,7 +26,7 @@ Let’s just talk through how to rank on ChatGPT based on our strategies.
 
 ### The machine isn’t just a database
 
-AI search engines use something called RAG, which is Retrieval-Augmented Generation. By definition it means that the LLMS gives outputs by referencing authoritative external knowledge bases before generating responses, rather than relying solely on training data.
+AI search engines use something called RAG, which is [Retrieval-Augmented Generation](/glossary/what-is-rag/). By definition it means that the LLMS gives outputs by referencing authoritative external knowledge bases before generating responses, rather than relying solely on training data.
 
 Basically, the AI isn’t just “knowing” things from its training; it’s actively reaching out, grabbing information from the web, and then pulling it back to answer you. We see people treat ChatGPT like it’s a closed box, but it’s constantly looking for fresh signals, which is why the debate around [is ChatGPT really replacing Google](https://obeliskinfotech.com/is-chatgpt-really-being-used-in-place-of-google/) is gaining so much attention. It’s a synergy between the index and the generation.
 
@@ -76,7 +76,7 @@ If the ChatGPT crawler hits your site and gets stuck in a redirect loop or can�
 
 ### Crawlability is the actual gatekeeper
 
-We keep seeing people focus on the wrong technical metrics. I don’t care about your “SEO score” in a plugin. I care if Google and Bing are actually indexing your pages. We had a client recently who couldn’t figure out why they weren’t showing up in Perplexity. It turned out their canonical tags were a complete mess.
+We keep seeing people focus on the wrong technical metrics. I don’t care about your “SEO score” in a plugin. I care if Google and Bing are actually indexing your pages. We had a client recently who couldn’t figure out why they weren’t showing up in Perplexity. It turned out their [canonical tags](/glossary/what-is-a-canonical-tag/) were a complete mess.
 
 The AI was seeing five different versions of the same page and just gave up. You have to fix your 404s, your 301s, and those canonicals. Once the machine can read you, everything else gets easier.
 
@@ -84,7 +84,7 @@ The AI was seeing five different versions of the same page and just gave up. You
 
 ### Ask ChatGPT for questions people might ask
 
-We have a custom ChatGPT we built to address this. What we do is, we feed the custom ChatGPT with our ICP details and ask it to build hundreds of questions users might have. For example, “What’s the best analytics tool for SaaS under $5k that integrates with HubSpot?” This collection of prompts becomes the playbook. We stop guessing and start answering.
+We have a custom ChatGPT we built to address this. What we do is, we feed the custom ChatGPT with our [ICP](/glossary/what-is-icp/) details and ask it to build hundreds of questions users might have. For example, “What’s the best analytics tool for SaaS under $5k that integrates with HubSpot?” This collection of prompts becomes the playbook. We stop guessing and start answering.
 
 ### Interview your Sales and CS teams
 
@@ -152,7 +152,7 @@ I know everyone was talking about using Reddit to manipulate AI citations. We sa
 
 ## Stop Guessing and Let PipeRocket Digital Build Your Engine
 
-Look, I’m being honest here, executing a strategy like this is a massive amount of work. It takes hours of interviewing Sales staff, mapping out your Total Addressable Market, and building these technical clusters.
+Look, I’m being honest here, executing a strategy like this is a massive amount of work. It takes hours of interviewing Sales staff, mapping out your [Total Addressable Market](/glossary/what-is-tam-sam-som/), and building these technical clusters.
 
 You probably don’t have the time to do this yourself while you’re trying to run a company. That’s why we built [PipeRocket Digital](https://piperocket.digital/saas-seo-agency/).
 

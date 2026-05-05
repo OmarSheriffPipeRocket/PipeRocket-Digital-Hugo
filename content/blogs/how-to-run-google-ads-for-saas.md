@@ -12,7 +12,7 @@ wp_link: "https://piperocket.digital/blogs/how-to-run-google-ads-for-saas/"
 readingTime: "16 min read"
 ---
 
-SaaS Google Ads offers a massive inventory with Performance Max, Demand Gen, YouTube, and more. While these have their place, today I’m focusing exclusively on Search Ads. Why? Because in my experience in the B2B SaaS world, Search Ads is where 90% of the budget is spent and where the strongest revenue is generated.
+SaaS [Google Ads](/glossary/what-is-google-ads/) offers a massive inventory with Performance Max, Demand Gen, YouTube, and more. While these have their place, today I’m focusing exclusively on Search Ads. Why? Because in my experience in the B2B SaaS world, Search Ads is where 90% of the budget is spent and where the strongest revenue is generated.
 
 Unlike other formats, Search captures high intent exactly when your prospect feels the pain and is actively looking for a solution. I’m going to pull back the curtain and walk you through the exact, step-by-step process I use to build campaigns that actually close deals.
 
@@ -70,7 +70,7 @@ If you are in a mature category (like CRM or Project Management), there is a lot
 
 If you are creating a new category, the volume might be low, and we have to get creative to find traffic.
 
-We usually sit down with the sales team to finalize which product category is the easiest for them to close. We want the path of least resistance. Once that is decided, we move to **Keyword Research.**
+We usually sit down with the sales team to finalize which product category is the easiest for them to close. We want the path of least resistance. Once that is decided, we move to **[Keyword Research](/glossary/what-is-keyword-research/).**
 
 I don’t just dump a list of 1,000 keywords into a campaign. I segregate them strictly into “buckets” based on user psychology. Here is how I categorize them:
 
@@ -116,7 +116,7 @@ Bidding on your own name.
 
 ### How we Helped a 10M+ Revenue Generating SaaS Company Spend Less and Earn More
 
-We recently audited a PPC account of a SaaS client and found a major flaw in their Google Ads campaign. Here’s what happened.
+We recently audited a [PPC](/glossary/what-is-ppc/) account of a SaaS client and found a major flaw in their Google Ads campaign. Here’s what happened.
 
 ### The Problem: Spending Without Focus
 
@@ -220,7 +220,7 @@ The process goes like this:
 - Then **estimate the impressions** you’ll get based on the total search volume.
 - Then **estimate the clicks** you’ll get based on the impressions.
 - Then **estimate the number of conversion**s (leads) you’ll get based on the clicks.
-- Then **find out the average total cost** you’ll be spending by multiplying the total clicks with the average CPC of the keywords.
+- Then **find out the average total cost** you’ll be spending by multiplying the total clicks with the average [CPC](/glossary/what-is-cost-per-click/) of the keywords.
 - Now, **divide the total cost with the number of conversions** - this is the amount of money you’re spending to get one lead.
 - This **number should be less than your sale value**.
 
@@ -234,13 +234,13 @@ Let me walk you through an **example calculation** so you can see how I derive t
 
 1. **Impression Share:** We can’t capture 100% of the market (competitors exist). A healthy industry standard to aim for is **60%**.
    - *Math:* 4,560 × 60% = **2,736 Impressions**.
-2. **Clicks:** How many of those people will click? I’ll assume a 5% Click-Through-Rate (CTR).
+2. **Clicks:** How many of those people will click? I’ll assume a 5% Click-Through-Rate ([CTR](/glossary/what-is-ctr/)).
    - *Math:* 2,736 × 5% = **136 Clicks**.
-3. **Conversions:** How many of those clicks become a lead? I aim for a 3% conversion rate on the landing page.
+3. **Conversions:** How many of those clicks become a lead? I aim for a 3% [conversion rate](/glossary/what-is-conversion-rate/) on the landing page.
    - *Math:* 136 × 3% = **~4 Conversions**.
 4. **Cost:** The average CPC of the 4 keywords I target comes around “$77”
    - *Math:* 136 Clicks × $77 = **$10,472 Total Cost**.
-5. **CPA:** What is the Cost Per Acquisition?
+5. **CPA:** What is the [Cost Per Acquisition](/glossary/what-is-cpa/)?
    - *Math:* $10,472 / 4 = **$2,618 per Lead**.
 
 Now, you might look at that and say, “$2,600 for a lead?! That’s insane!”
@@ -269,7 +269,7 @@ I tell Google, “I am willing to bid on this, but I will not pay more than $50 
 
 ## Conclusion
 
-Running Google Ads for SaaS is a specific skill. It requires a mix of deep product and ICP understanding, proper keyword planning, forecasting, and monitoring.
+Running Google Ads for SaaS is a specific skill. It requires a mix of deep product and [ICP](/glossary/what-is-icp/) understanding, proper keyword planning, forecasting, and monitoring.
 
 When you follow this process, you stop gambling with your marketing budget and start building a predictable revenue engine. You stop worrying about “clicks” and start focusing on what matters: pipeline and revenue.
 

@@ -14,19 +14,19 @@ readingTime: "16 min read"
 ### TL;DR
 
 - B2B PPC is paid advertising targeted at business buyers, built to generate qualified pipeline rather than just clicks or leads
-- A strong b2b ppc strategy starts with ICP clarity - understanding who your buyer is before a single keyword is researched
+- A strong b2b ppc strategy starts with [ICP](/glossary/what-is-icp/) clarity - understanding who your buyer is before a single keyword is researched
 - This b2b ppc guide covers six steps: ICP mapping, keyword intent, campaign structure, ad copy, landing pages, and pipeline tracking
 - Most b2b ppc campaigns fail for predictable reasons that trace directly back to skipping the foundation steps covered early in this guide
 
 ## What is B2B PPC?
 
-B2B PPC, or pay-per-click advertising for business-to-business companies, is the practice of running paid ads on platforms like Google, LinkedIn, and Microsoft to reach business buyers at the moment they are searching for solutions.
+B2B PPC, or [pay-per-click](/glossary/what-is-ppc/) advertising for business-to-business companies, is the practice of running paid ads on platforms like Google, LinkedIn, and Microsoft to reach business buyers at the moment they are searching for solutions.
 
 Unlike B2C PPC where a click can lead to an immediate purchase, b2b ppc is designed to generate qualified pipeline - demo requests, trial signups, and lead captures that feed a longer sales cycle. The challenge is that B2B buying involves multiple stakeholders, longer evaluation periods, and higher acquisition costs, which means campaigns must be built around pipeline quality rather than lead volume. Done correctly, b2b ppc connects ad spend directly to closed revenue.
 
 ## Step 1: Understand and Map Your ICP
 
-Before a single campaign goes live, you need to know exactly who you are trying to reach. This sounds obvious, but what we keep seeing is teams jumping straight into keyword research without first defining who their buyer actually is, what triggers them to search, and how they evaluate options.
+Before a single campaign goes live, you need to know exactly who you are trying to reach. This sounds obvious, but what we keep seeing is teams jumping straight into [keyword research](/glossary/what-is-keyword-research/) without first defining who their buyer actually is, what triggers them to search, and how they evaluate options.
 
 ### Who in Your Market Actually Buys
 
@@ -88,13 +88,13 @@ Run three distinct campaign types and treat each as its own program with its own
 
 ### Connect Your CRM to Your Ad Account Before Optimising Anything
 
-This is the single highest-leverage technical step in any b2b ppc setup, and most teams never do it. Offline conversion tracking sends your CRM pipeline events back to Google Ads so the algorithm learns which clicks produce SQLs, opportunities, and closed deals - rather than optimising for whatever fires on a thank-you page.
+This is the single highest-leverage technical step in any b2b ppc setup, and most teams never do it. Offline conversion tracking sends your CRM pipeline events back to [Google Ads](/glossary/what-is-google-ads/) so the algorithm learns which clicks produce SQLs, opportunities, and closed deals - rather than optimising for whatever fires on a thank-you page.
 
 Google’s own data shows advertisers using offline conversion tracking typically see a 20 to 30% improvement in conversion quality at the same spend level ([Google Ads Help Center](https://support.google.com/google-ads/answer/2998031)). The setup takes a few hours. The impact compounds over months as the algorithm accumulates better training data.
 
 ### Keep Ad Groups Tight with Single Keyword Themes
 
-Each ad group should contain only keywords tight enough to share the same ad copy and land on the same page. Mixing loosely related terms in one group dilutes your Quality Score and drives up cost-per-click. Tight grouping means lower CPCs, better ad positions, and more relevant experiences for the people clicking through.
+Each ad group should contain only keywords tight enough to share the same ad copy and land on the same page. Mixing loosely related terms in one group dilutes your Quality Score and drives up [cost-per-click](/glossary/what-is-cost-per-click/). Tight grouping means lower CPCs, better ad positions, and more relevant experiences for the people clicking through.
 
 ## Step 4: Write Ad Copy for the Right Stakeholder
 
@@ -158,7 +158,7 @@ Now that you have a picture of what a properly structured campaign looks like, i
 
 The most common is skipping ICP definition and jumping straight to keyword research. When you do not know exactly who you are targeting and what they search for at each stage, your keyword selection becomes guesswork, your ad copy becomes generic, and your landing pages speak to nobody in particular.
 
-The second is measuring success by CPL and lead volume rather than SQL rate and pipeline contribution. This causes teams to optimise for the wrong outcomes and eventually conclude that b2b ppc does not work - when really they were just measuring the wrong things. A campaign generating $500 CPL that consistently produces $100k ARR deals is exceptional. A campaign generating $50 CPL with zero pipeline contribution is a waste of budget.
+The second is measuring success by CPL and lead volume rather than SQL rate and pipeline contribution. This causes teams to optimise for the wrong outcomes and eventually conclude that b2b ppc does not work - when really they were just measuring the wrong things. A campaign generating $500 CPL that consistently produces $100k [ARR](/glossary/what-is-arr/) deals is exceptional. A campaign generating $50 CPL with zero pipeline contribution is a waste of budget.
 
 The third is treating paid search as a standalone channel rather than part of a connected revenue system. B2b adwords management only works well when your CRM, your sales process, your landing pages, and your offer are all aligned. When any of those pieces are missing, paid campaigns pick up the blame for problems that originated elsewhere. If you want to see how the best agencies avoid these failure patterns, our guide on the [best SaaS PPC agencies](https://piperocket.digital/blogs/best-saas-ppc-agencies/) is worth a read before you commit to a partner.
 
@@ -166,7 +166,7 @@ The third is treating paid search as a standalone channel rather than part of a 
 
 Most paid agencies start with the campaign. We start with your ICP, your sales conversations, and your actual buying triggers. Every b2b ppc campaign we build across Google, LinkedIn, Meta, and Reddit is structured around who actually buys - not platform audience defaults.
 
-We measure against MQLs, SQLs, and pipeline contribution within 60 days - not clicks and impression share. Our [SaaS PPC service](https://piperocket.digital/saas-ppc/) is built for founders and marketing leaders who are done receiving platform dashboards and want to see pipeline contribution by channel, audience, and intent. Our [Marketing Operations service](https://piperocket.digital/marketing-ops/) makes sure your CRM, tracking, and attribution are all connected before a single dollar goes out.
+We measure against [MQLs](/glossary/mql/), SQLs, and pipeline contribution within 60 days - not clicks and impression share. Our [SaaS PPC service](https://piperocket.digital/saas-ppc/) is built for founders and marketing leaders who are done receiving platform dashboards and want to see pipeline contribution by channel, audience, and intent. Our [Marketing Operations service](https://piperocket.digital/marketing-ops/) makes sure your CRM, tracking, and attribution are all connected before a single dollar goes out.
 
 Our 25-person team has run paid programs for 50+ B2B SaaS companies, managing over $5M in ad spend for clients including Storylane, Astra, LeadSquared, and Spendflo, with a 4.8 rating on Clutch.
 

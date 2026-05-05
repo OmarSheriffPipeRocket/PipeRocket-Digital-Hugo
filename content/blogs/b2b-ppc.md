@@ -16,7 +16,7 @@ Most B2B teams question whether PPC is worth it. 
 
 You spend money, the clicks look good, but the leads?
 
-They’re all over the place. Some relevant, many not even close to your ICP. And because B2B deals take months and involve multiple people, proving whether PPC actually works becomes a whole different challenge.
+They’re all over the place. Some relevant, many not even close to your [ICP](/glossary/what-is-icp/). And because B2B deals take months and involve multiple people, proving whether PPC actually works becomes a whole different challenge.
 
 But the good news is that when you build PPC around buyer intent, not volume, it becomes one of the most reliable ways to capture in-market demand and turn it into a real pipeline.
 
@@ -48,7 +48,7 @@ Even if someone clicks your ad today, they may not become an SQL for weeks - som
 - You need to nurture touchpoints
 - You need ads that support the entire journey
 
-CPC alone won’t tell you if your campaigns are working. Movement through the funnel: MQL → SQL → Opportunity is what actually matters.
+[CPC](/glossary/what-is-cost-per-click/) alone won’t tell you if your campaigns are working. Movement through the funnel: MQL → SQL → Opportunity is what actually matters.
 
 Because of these differences, B2B PPC requires intent-driven keywords, precise audience targeting, and messaging built for long-term influence. 
 
@@ -63,7 +63,7 @@ The key is simple: match every channel to the buyer’s intent.
 At this stage, buyers aren’t searching for vendors yet. They’re simply becoming aware of a problem or a priority. Here’s where ToFu channels shine:
 
 - **LinkedIn Sponsored Content**: Great for reaching specific job titles, industries, or buying committees.
-- **YouTube Ads**: Perfect for education-led awareness. Think explainers, thought leadership, or “problem framing” videos.
+- **YouTube Ads**: Perfect for education-led awareness. Think explainers, [thought leadership](/glossary/what-is-thought-leadership/), or “problem framing” videos.
 - **Display Ads**: Not for conversions but excellent for building familiarity.
 - **Competitor or industry awareness campaigns**: Helpful when you want to plant the seed early.
 
@@ -92,7 +92,7 @@ Your must-have BoFu channels:
 - **Retargeting high-value pages**: Think demo page, pricing page, comparison pages.
 - **LinkedIn Lead Gen Forms**: Auto-filled fields make conversion easier for ICP personas.
 - **Competitor search campaigns**: Extremely high intent.
-- **CRM-based audiences**: Target opportunities, warm accounts, or ABM lists to push deals forward.
+- **CRM-based audiences**: Target opportunities, warm accounts, or [ABM](/glossary/what-is-abm/) lists to push deals forward.
 
 > **When to use BoFu:** When buyers show clear commercial intent, this is where most of the pipeline from PPC typically originates.
 
@@ -245,7 +245,7 @@ What really matters is how prospects progress:
 
 **MQL → SQL → Opportunity → Revenue**
 
-If people keep dropping off after becoming MQLs, the issue usually isn’t your budget; it’s your intent alignment.
+If people keep dropping off after becoming [MQLs](/glossary/mql/), the issue usually isn’t your budget; it’s your intent alignment.
 
 ### 2. CPL vs. CPQL
 
@@ -334,7 +334,7 @@ At [Piperocket Digital](https://piperocket.digital/saas-ppc/), we build B2B PPC 
 
 1. **What is B2B PPC?**
 
-B2B PPC (business-to-business pay-per-click advertising) is a paid marketing strategy where companies run ads, typically on Google, LinkedIn, Bing, or YouTube, to reach decision-makers, generate qualified leads, and drive pipeline. Unlike B2C, B2B PPC focuses on long sales cycles, high-intent keywords, and multi-stakeholder buying journeys.
+B2B PPC (business-to-business [pay-per-click](/glossary/what-is-ppc/) advertising) is a paid marketing strategy where companies run ads, typically on Google, LinkedIn, Bing, or YouTube, to reach decision-makers, generate qualified leads, and drive pipeline. Unlike B2C, B2B PPC focuses on long sales cycles, high-intent keywords, and multi-stakeholder buying journeys.
 
 2. **What is the difference between B2B PPC vs B2C PPC?**
 
