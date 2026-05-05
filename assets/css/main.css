@@ -2142,14 +2142,17 @@ p { margin: 0 0 var(--pr-s-4); }
 .pr-techstack__inner {
   max-width: var(--pr-container);
   margin: 0 auto;
-  padding: var(--pr-s-9) var(--pr-s-6);
+  padding: var(--pr-s-7) var(--pr-s-4);
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--pr-s-7);
+  gap: var(--pr-s-6);
   align-items: center;
 }
+@media (min-width: 600px) {
+  .pr-techstack__inner { padding: var(--pr-s-8) var(--pr-s-6); }
+}
 @media (min-width: 1024px) {
-  .pr-techstack__inner { grid-template-columns: 1fr 1.5fr; gap: var(--pr-s-8); }
+  .pr-techstack__inner { padding: var(--pr-s-9) var(--pr-s-6); grid-template-columns: 1fr 1.5fr; gap: var(--pr-s-8); }
 }
 .pr-techstack__intro h2 {
   background: var(--pr-red);
@@ -2157,32 +2160,65 @@ p { margin: 0 0 var(--pr-s-4); }
   display: inline-block;
   padding: var(--pr-s-3) var(--pr-s-5);
   margin-bottom: var(--pr-s-4);
-  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
 }
 .pr-techstack__intro p {
   color: var(--pr-ink-2);
   max-width: 420px;
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.6;
 }
 .pr-techstack__logos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--pr-s-4);
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--pr-s-3);
 }
-@media (min-width: 768px) {
-  .pr-techstack__logos { grid-template-columns: repeat(3, 1fr); }
+@media (min-width: 480px) {
+  .pr-techstack__logos { grid-template-columns: repeat(3, 1fr); gap: var(--pr-s-4); }
 }
 .pr-techstack__logo {
   background: var(--pr-cream);
   border: 1px solid var(--pr-line);
-  padding: var(--pr-s-4) var(--pr-s-5);
+  padding: var(--pr-s-4) var(--pr-s-3);
   text-align: center;
   font-family: var(--pr-sans);
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   color: var(--pr-ink);
   box-shadow: 0 4px 16px rgba(13, 13, 13, 0.05);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 64px;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .pr-techstack__logo {
+    padding: var(--pr-s-4) var(--pr-s-5);
+    font-size: 1.05rem;
+    min-height: 72px;
+  }
+}
+.pr-techstack__logo img {
+  max-width: 100%;
+  max-height: 32px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+@media (min-width: 768px) {
+  .pr-techstack__logo img { max-height: 38px; }
+}
+.pr-techstack__logo-fallback {
+  display: none;
+}
+.pr-techstack__logo--no-img .pr-techstack__logo-fallback,
+.pr-techstack__logo:has(img[data-failed="1"]) .pr-techstack__logo-fallback {
+  display: inline;
+}
+.pr-techstack__logo:has(img[data-failed="1"]) img {
+  display: none;
 }
 
 /* =================================================================
