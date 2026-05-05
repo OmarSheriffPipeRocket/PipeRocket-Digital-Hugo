@@ -489,10 +489,13 @@ const setupParallax = () => {
       (viewportHeight - rect.top) / (viewportHeight + sectionHeight)
     ));
 
-    // Move car from left (0px) to right (based on scroll)
-    // Max movement: approximately 60% of viewport width
-    const maxMove = window.innerWidth * 0.6;
-    const moveAmount = scrollProgress * maxMove;
+    // Car starts off-screen left and drives right into the section.
+    // At scrollProgress 0 (section just entering): translateX(-600px) — off screen left.
+    // At scrollProgress 0.6 (section centred): translateX(0) — resting position bottom-left.
+    const startOffset = -600;
+    const endOffset   = 0;
+    const driveProgress = Math.min(1, scrollProgress / 0.6);
+    const moveAmount = startOffset + driveProgress * (endOffset - startOffset);
 
     car.style.transform = `translateX(${moveAmount}px)`;
   };
