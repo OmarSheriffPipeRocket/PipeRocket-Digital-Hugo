@@ -1,0 +1,250 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">HRtech buyers don&rsquo;t buy on a demo.</span>
+          <span class="pr-hero__title-strong">They buy after the third stakeholder agrees.</span>
+        </h1>
+        <div class="pr-hero__copy">
+          <p>PipeRocket runs marketing for HRIS, payroll, talent, and people-ops platforms — SEO, PPC, and pipeline ops built around CHRO buying committees, HRIS integration concerns, and the long procurement cycles that come with employee data and labour-law compliance.</p>
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero__collage" aria-label="PipeRocket HRtech Marketing — buyer-first, integration-aware, pipeline-led">
+        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock — HRtech context" loading="eager">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     WHY HRTECH MARKETING IS DIFFERENT
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2>Why HRtech marketing is different</h2>
+      <p>Generic SaaS playbooks don&rsquo;t survive the CHRO buying committee. Here&rsquo;s what changes when your buyer answers to legal, IT, and the entire executive team.</p>
+    </div>
+    <div class="pr-principles">
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><circle cx="15" cy="15" r="6"/></svg>
+        </div>
+        <h3>The buying committee is everyone</h3>
+        <p>CHRO, CFO, head of IT, legal, head of payroll, sometimes the CEO — HRtech deals get gated by 6–10 stakeholders. Marketing that speaks to one of them loses the others. Content has to answer every chair at the table.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>Procurement runs the calendar</h3>
+        <p>HRtech procurement cycles run 6–12 months. Programmes that promise pipeline next month don&rsquo;t survive contact with reality. Programmes that nurture across stakeholders and stay top-of-mind for 9 months do.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Employee data raises the bar</h3>
+        <p>HRtech touches the most sensitive data your buyer holds — comp, performance, identity, payroll. Security, GDPR, SOC 2, ISO 27001, regional labour laws all gate the deal. Content needs to engage these concerns head-on, not pretend they don&rsquo;t exist.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+        </div>
+        <h3>HRIS integrations are a deal-breaker</h3>
+        <p>If you don&rsquo;t integrate cleanly with Workday, BambooHR, ADP, or whatever HRIS the buyer uses — the deal dies in the requirements doc. Marketing has to surface integrations early, prominently, and credibly.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — testimonial on a vintage TV" class="pr-working-tv">
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR HRTECH SERVICES — THREE CARDS LINKING TO SPOKES
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2 style="color: var(--pr-cream);">Our HRtech marketing services</h2>
+      <p style="color: rgba(244,241,232,0.7);">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
+    </div>
+    <div class="pr-approach-grid pr-approach-grid--dark">
+      <article class="pr-approach-grid__card">
+        <h3>HRtech SEO</h3>
+        <p>Buyer-led content for CHROs and Heads of People, BOFU pages built around HRIS integrations and labour-law compliance, topical authority across HRIS, payroll, talent, and people-ops categories.</p>
+        <a href="/hrtech-seo-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore HRtech SEO →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>HRtech PPC</h3>
+        <p>Paid programmes built around named HRtech buyer titles and account-based intent. Compliance-aware landing pages, integration-led messaging, and CFO-defendable CACs across long procurement cycles.</p>
+        <a href="/hrtech-ppc-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore HRtech PPC →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Marketing Ops</h3>
+        <p>RevOps, attribution, lifecycle, and reporting built for the long sales cycles HRtech runs. Sales-accepted lead rates, pipeline contribution by buyer role, CAC payback by deal cohort.</p>
+        <a href="/marketing-ops/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Marketing Ops →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WHY HRTECH TEAMS CHOOSE PIPEROCKET — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2 style="color: var(--pr-cream);">Why HRtech teams choose PipeRocket</h2>
+      <p style="color: rgba(244,241,232,0.7);">Every agency promises growth. The gap is whether they can navigate a CHRO buying committee, IT security review, and a 9-month procurement cycle without losing the deal.</p>
+    </div>
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
+          </svg>
+          PipeRocket
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Marketing speaks to "HR leaders". Sales gets to a CHRO and discovers the deal is gated by IT, legal, and the CFO. Three months wasted.</div>
+        <div>The agency runs a generic SaaS playbook. They&rsquo;ve never sat in a CHRO buying committee. Stakeholder objections surface only after sales raises them.</div>
+        <div>Programmes are built around the full buying committee — CHRO, CFO, head of IT, legal. Content and ads address each stakeholder&rsquo;s objections before sales has to.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Pipeline reports show MQLs and SQLs. The CFO asks about CAC payback across a 9-month cycle and the answer takes a week.</div>
+        <div>Reports show CTR, sessions, and rankings. CAC payback over the actual HRtech sales cycle stays in a separate dashboard nobody opens.</div>
+        <div>Reports centre on pipeline contribution by buyer role, deal velocity by stakeholder, and CAC payback by cohort. Built for CFO and board review.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Targeting is "HR" or "People Ops". Sales rejects half the leads as wrong fit, wrong stage, or wrong company size.</div>
+        <div>Targeting is templated. The agency doesn&rsquo;t know the difference between a Head of People at a 50-person company and a CHRO at a 5,000-person enterprise.</div>
+        <div>Targeting is named buyer titles, account-based segments, and verified intent. Sales-accepted lead rate is the primary success metric.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>HRIS integration questions surface late in the sales cycle. Deals die in the requirements doc.</div>
+        <div>Integration messaging is buried in a footer. The Workday or BambooHR buyer never sees it on the first visit.</div>
+        <div>HRIS integrations are surfaced first — on hero, on landing pages, in ad creative. Buyers self-qualify before booking. Sales only takes calls that fit.</div>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES (SaaS — adjacent to HRtech buyer reality)
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperStart</div>
+        <p class="pr-case__copy">Pipeline-led growth for HyperStart — LegalTech / CLM — across a multi-stakeholder buying committee similar to HRtech procurement.</p>
+        <a href="/case-study/hyperstart/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">Spendflo</div>
+        <p class="pr-case__copy">61% traffic lift for Spendflo — SaaS spend management — relevant for HRtech buyers managing workforce / vendor budgets.</p>
+        <a href="/case-study/spendflo/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">DevRev</div>
+        <p class="pr-case__copy">Pipeline-led marketing for DevRev — moving the agency conversation from rankings to qualified opportunities.</p>
+        <a href="/case-study/devrev/" class="pr-case__link">Read full story →</a>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is an HRtech marketing agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">An HRtech marketing agency runs SEO, PPC, content, and pipeline ops for HRIS, payroll, talent, performance, learning, and people-ops platforms. The job goes beyond standard SaaS marketing — it includes navigating CHRO buying committees, surfacing HRIS integrations early, and addressing employee-data privacy concerns head-on.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Which HRtech sub-verticals do you work with?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">HRIS, payroll, talent acquisition, applicant tracking, onboarding, performance management, learning & development, employee engagement, compensation, and people analytics — anywhere your buyer is a Head of People, CHRO, or HR Ops leader, the playbook applies.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Do you handle SEO, PPC, and marketing ops together or separately?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Both. You can engage us for a single service or for a unified programme where SEO, PPC, and pipeline ops share buyer research, attribution, and reporting. Most HRtech clients eventually run all three together because the long procurement cycle demands consistent presence across channels.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How do you handle the CHRO buying committee?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">We map the full committee — CHRO, CFO, head of IT, legal, head of payroll, sometimes the CEO — and build content addressing each stakeholder&rsquo;s objections before sales has to. Security and integration concerns surface in the hero, not the footer. By the time a demo is booked, the committee has already self-qualified.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How quickly do you produce qualified pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">First spend goes live in week 3. Most HRtech clients see qualified pipeline within 30–60 days once attribution and integration-led pages are wired in. Closed-won timing depends on procurement, IT review, and stakeholder alignment — typically 6–12 months from first touch.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
+    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
+    <h2>Generic SaaS marketing won&rsquo;t close a CHRO committee.<br><span class="pr-italic">Let&rsquo;s build a programme that does.</span></h2>
+    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
+      Dive deeper: <a href="/hrtech-seo-agency/" style="color: var(--pr-cyan);">HRtech SEO agency</a> · <a href="/hrtech-ppc-agency/" style="color: var(--pr-cyan);">HRtech PPC agency</a>
+    </p>
+  </div>
+</section>
+
+{{ end }}

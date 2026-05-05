@@ -1,0 +1,363 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">Fintech buyers carry compliance teams,<br>not credit cards.</span>
+          <span class="pr-hero__title-strong">Your agency should know that.</span>
+        </h1>
+        <div class="pr-hero__copy">
+          <p>PipeRocket runs marketing for fintech, banking, payments, and embedded-finance companies — SEO, PPC, and pipeline ops built around regulated buyers, longer sales cycles, and the metrics your CFO opens before anything else.</p>
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+
+        {{/* Fintech hub = all FinServ-flavoured Clutch reviews */}}
+        {{ $clutchAll := where .Site.Data.reviews.reviews "source" "Clutch" }}
+        {{ $clutchFin := where $clutchAll "industry" "in" (slice "FinServ" "Banking / FinServ") }}
+        {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
+        <div class="pr-clutch-accordion pr-clutch-accordion--inline" id="clutchReviewsFin">
+          <button class="pr-clutch-accordion__head pr-clutch-accordion__head--simple" type="button" data-clutch-accordion-toggle aria-expanded="true" aria-controls="clutchAccordionPanelFin">
+            <img src="/images/logos/clutch.svg" alt="Clutch" class="pr-clutch-accordion__logo">
+            <span class="pr-clutch-accordion__rating-simple">
+              <strong>{{ $clutchSource.rating }}</strong>
+              <span class="pr-clutch-accordion__stars" aria-hidden="true">★★★★★</span>
+            </span>
+            <span class="pr-clutch-accordion__caret" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m6 9 6 6 6-6"/>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="pr-hero__collage" aria-label="PipeRocket Fintech Marketing — compliance-aware, buyer-first, pipeline-led">
+        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock — fintech context" loading="eager">
+      </div>
+    </div>
+
+    <!-- Carousel panel — full container width, open by default. -->
+    <div class="pr-clutch-accordion__panel pr-clutch-accordion__panel--full" id="clutchAccordionPanelFin" data-clutch-accordion-panel>
+      <div class="pr-clutch-accordion__carousel-wrap">
+        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--prev" data-carousel-prev aria-label="Previous reviews">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+
+        <div class="pr-clutch-accordion__track" data-carousel-track>
+          {{ range $clutchFin }}
+            <article class="pr-clutch-card">
+              <header class="pr-clutch-card__head">
+                <span class="pr-clutch-card__rating-row" aria-label="Rated {{ .rating }} out of 5">
+                  {{ $r := .rating }}
+                  {{ range seq 5 }}
+                    {{ if le (float .) $r }}
+                      <span class="pr-clutch-card__star pr-clutch-card__star--full">★</span>
+                    {{ else if le (sub (float .) 0.5) $r }}
+                      <span class="pr-clutch-card__star pr-clutch-card__star--half">★</span>
+                    {{ else }}
+                      <span class="pr-clutch-card__star">★</span>
+                    {{ end }}
+                  {{ end }}
+                  <span class="pr-clutch-card__rating-value">{{ .rating }}</span>
+                </span>
+              </header>
+              <h3 class="pr-clutch-card__title">{{ .title }}</h3>
+              <blockquote class="pr-clutch-card__quote">"{{ .quote }}"</blockquote>
+              <footer class="pr-clutch-card__footer">
+                <strong>{{ .reviewer_name }}</strong>
+                <span>{{ .reviewer_role }}{{ if .company }} · {{ .company }}{{ end }}</span>
+                {{ with .review_url }}
+                  <a class="pr-clutch-card__link" href="{{ . }}" target="_blank" rel="noopener">Read on Clutch ↗</a>
+                {{ end }}
+              </footer>
+            </article>
+          {{ end }}
+        </div>
+
+        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--next" data-carousel-next aria-label="Next reviews">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+        </button>
+      </div>
+
+      <div class="pr-clutch-accordion__footer">
+        <a href="/reviews/" class="pr-clutch-accordion__view-all">See all reviews →</a>
+      </div>
+    </div>
+
+    {{ partial "clutch-reviews-schema.html" (dict "reviews" $clutchFin "rating" $clutchSource.rating "count" (len $clutchFin)) }}
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     WHY FINTECH MARKETING IS DIFFERENT
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2>Why fintech marketing is different</h2>
+      <p>Generic SaaS playbooks die in regulated markets. Here&rsquo;s what changes when your buyer answers to a CFO and a regulator.</p>
+    </div>
+    <div class="pr-principles">
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Compliance gates the deal</h3>
+        <p>Before a fintech deal closes, security review, legal, and (often) a regulator&rsquo;s frameworks have all weighed in. Marketing that ignores them adds months to the sales cycle. Marketing that respects them compresses it.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>Sales cycles run long</h3>
+        <p>Fintech buyers take 6–18 months to make a decision. Programmes that promise pipeline next month don&rsquo;t survive contact with reality. Programmes that build qualified pipeline at every stage do.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><circle cx="15" cy="15" r="6"/></svg>
+        </div>
+        <h3>The buying committee is wide</h3>
+        <p>Head of payments, risk officer, compliance lead, CFO, head of engineering — fintech deals get gated by 5–8 stakeholders. Content and ads that speak to one of them lose the other seven.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+        </div>
+        <h3>CACs are unforgiving</h3>
+        <p>Fintech CACs are higher and payback is longer than generic SaaS. Boards review marketing efficiency the way they review treasury performance. Reporting needs to be CFO-grade, not CMO-cosmetic.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — testimonial on a vintage TV" class="pr-working-tv">
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR FINTECH SERVICES — THREE CARDS LINKING TO SPOKES
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2 style="color: var(--pr-cream);">Our fintech marketing services</h2>
+      <p style="color: rgba(244,241,232,0.7);">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
+    </div>
+    <div class="pr-approach-grid pr-approach-grid--dark">
+      <article class="pr-approach-grid__card">
+        <h3>Fintech SEO</h3>
+        <p>Compliance-aware content, BOFU pages built for risk-averse buyers, and topical authority compounded across payments, KYC, treasury, and embedded finance — without chasing vanity volume.</p>
+        <a href="/fintech-seo-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Fintech SEO →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Fintech PPC</h3>
+        <p>Paid programmes built around named fintech buyer titles and intent signals. Compliance-ready landing pages, CRM-wired attribution, and CFO-grade pipeline reporting from week three.</p>
+        <a href="/fintech-ppc-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Fintech PPC →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Marketing Ops</h3>
+        <p>RevOps, attribution, lifecycle, and reporting plumbing built for the long sales cycles fintech runs. Sales-accepted lead rates, pipeline contribution, CAC payback — wired clean and reportable.</p>
+        <a href="/marketing-ops/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Marketing Ops →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WHY FINTECH TEAMS CHOOSE PIPEROCKET — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2 style="color: var(--pr-cream);">Why fintech teams choose PipeRocket</h2>
+      <p style="color: rgba(244,241,232,0.7);">Every agency promises growth. The gap is whether they can talk to a head of risk without flinching, and whether their reports survive a CFO review.</p>
+    </div>
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
+          </svg>
+          PipeRocket
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Marketing knows the product. Marketing doesn&rsquo;t know the regulators. Compliance reviews stretch every launch by weeks.</div>
+        <div>The agency runs a generic SaaS playbook. They&rsquo;ve never read your SOC 2 report or your regulator&rsquo;s framework. Compliance flags surface after publish.</div>
+        <div>Briefs are built compliance-aware. Claims are sourced upfront, regulator-friendly framing is baked in, security/compliance signals are above the fold. Approval cycles compress.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Pipeline is reported as MQLs and SQLs. The CFO asks about CAC payback and the answer takes a week.</div>
+        <div>Reports show CTR, sessions, and rankings. Pipeline contribution and CAC payback live in a separate dashboard nobody opens.</div>
+        <div>Reports centre on pipeline contribution by channel, CAC by buyer segment, and payback period by deal cohort. Built for CFO review, not CMO comfort.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Targeting is "fintech / banking / financial services." Sales rejects half the leads as non-fit.</div>
+        <div>Targeting is templated personas. The agency doesn&rsquo;t know the difference between a head of payments, a treasury lead, and a head of risk.</div>
+        <div>Targeting is named buyer titles, account-based segments, and verified intent signals. Sales-accepted lead rate is the primary success metric.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>SEO and paid run separately. Sales-cycle insights from one channel never reach the other.</div>
+        <div>Two agencies, two silos. Briefings duplicate, learnings don&rsquo;t share, attribution falls between the cracks.</div>
+        <div>SEO, PPC, and pipeline ops run as one programme. Buyer language extracted once, used everywhere. Attribution reconciled to one source of truth.</div>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     TESTIMONIALS — 3 CARDS
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>We&rsquo;ve helped fintech and SaaS brands like yours</h2></div>
+    <div class="pr-testimonials">
+      <article class="pr-testimonial">
+        <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to lock our performance marketing efforts. Their experience, actionable strategies brought a 5X high-quality MQLs in just 2 months. Specifically, the team's research-based fine-tuning campaigns across regions not only gives our leads but also saves us costs.</p>
+        <div class="pr-testimonial__author">
+          <img class="pr-testimonial__avatar" src="/images/figma/raw-090_alpha.png" alt="Naveen">
+          <div>
+            <div class="pr-testimonial__name">Naveen</div>
+            <div class="pr-testimonial__role">Head of Marketing</div>
+            <div class="pr-testimonial__company">HyperVerge</div>
+          </div>
+        </div>
+      </article>
+      <article class="pr-testimonial">
+        <p class="pr-testimonial__quote">Working alongside PipeRocket has been a remarkable experience for Storylane. We have come to deeply rely on them to count on us in our scaled stack. Their comprehensive analysis, strategic initiatives, end-to-end campaign optimisation, lending engagement implementation and targeted remarketing delivered remarkable results for us.</p>
+        <div class="pr-testimonial__author">
+          <img class="pr-testimonial__avatar" src="/images/figma/raw-094_alpha.png" alt="Nalin">
+          <div>
+            <div class="pr-testimonial__name">Nalin</div>
+            <div class="pr-testimonial__role">CEO</div>
+            <div class="pr-testimonial__company">storylane</div>
+          </div>
+        </div>
+      </article>
+      <article class="pr-testimonial">
+        <p class="pr-testimonial__quote">They worked closely with us and took ownership that our in-house team. The team has run 10 experiments to identify what was working and translated two new geographies for the ads. Moreover, they treat content like an asset and react closer to a calendar as the problem it is.</p>
+        <div class="pr-testimonial__author">
+          <img class="pr-testimonial__avatar" src="/images/figma/raw-098_alpha.png" alt="Anusha">
+          <div>
+            <div class="pr-testimonial__name">Anusha</div>
+            <div class="pr-testimonial__role">Founding member</div>
+            <div class="pr-testimonial__company">HyperStart</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Fintech case studies</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperVerge</div>
+        <p class="pr-case__copy">Achieving 3.5X MQL growth for HyperVerge — fintech identity & KYC — with paid + content rebuilt around buyer intent.</p>
+        <a href="/case-study/hyperverge/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">Spendflo</div>
+        <p class="pr-case__copy">61% traffic lift for Spendflo — SaaS spend management — without chasing vanity volume keywords.</p>
+        <a href="/case-study/spendflo/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">DevRev</div>
+        <p class="pr-case__copy">Pipeline-led marketing for DevRev — moving the agency conversation from rankings to qualified opportunities.</p>
+        <a href="/case-study/devrev/" class="pr-case__link">Read full story →</a>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is a fintech marketing agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">A fintech marketing agency runs SEO, PPC, content, and pipeline ops for fintech, banking, payments, and embedded-finance companies. The job goes beyond standard B2B SaaS marketing — it includes compliance-aware content, regulator-friendly framing, and reporting that holds up under CFO and board scrutiny.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Which fintech sub-verticals do you work with?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Payments, KYC / identity, embedded finance, lending, treasury / FinOps, BaaS, banking, and crypto-adjacent SaaS — anywhere your buyer carries a risk or compliance lens, the playbook applies.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Do you handle SEO, PPC, and marketing ops together or separately?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Both. You can engage us for a single service or for a unified programme where SEO, PPC, and pipeline ops share buyer research, attribution, and reporting. Most fintech clients eventually run all three together because the buyer journey demands it.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How do you handle compliance and brand guardrails?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Briefs and creative are built compliance-first. Claims are sourced upfront, regulatory framing is baked in, and sensitive language is vetted before launch. We work directly with your legal and compliance teams so approval cycles compress, not stretch.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How quickly do you produce qualified pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">First spend goes live in week 3 of the engagement. Most fintech clients see qualified pipeline within 30–60 days once attribution and compliance-ready pages are wired in. Full topical authority and demand-generation maturity build over 6–9 months.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
+    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
+    <h2>Generic SaaS marketing won&rsquo;t close a fintech buyer.<br><span class="pr-italic">Let&rsquo;s build a programme that does.</span></h2>
+    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
+      Dive deeper: <a href="/fintech-seo-agency/" style="color: var(--pr-cyan);">Fintech SEO agency</a> · <a href="/fintech-ppc-agency/" style="color: var(--pr-cyan);">Fintech PPC agency</a>
+    </p>
+  </div>
+</section>
+
+{{ end }}

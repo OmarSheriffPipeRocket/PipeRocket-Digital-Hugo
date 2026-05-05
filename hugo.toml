@@ -90,8 +90,31 @@ identifier = "services"
   weight = 3
 
 [[menu.main]]
-name = "Resources"
+name = "Industries"
 weight = 3
+identifier = "industries"
+
+  [[menu.main]]
+  name = "Fintech Marketing"
+  url = "/fintech-marketing-agency/"
+  parent = "industries"
+  weight = 1
+
+  [[menu.main]]
+  name = "Fintech SEO"
+  url = "/fintech-seo-agency/"
+  parent = "industries"
+  weight = 2
+
+  [[menu.main]]
+  name = "Fintech PPC"
+  url = "/fintech-ppc-agency/"
+  parent = "industries"
+  weight = 3
+
+[[menu.main]]
+name = "Resources"
+weight = 4
 identifier = "resources"
 
   [[menu.main]]
@@ -115,7 +138,7 @@ identifier = "resources"
 [[menu.main]]
 name = "Case Studies"
 url = "/case-studies/"
-weight = 4
+weight = 5
 
 # Footer columns
 [[menu.footer_services]]

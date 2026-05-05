@@ -1,0 +1,501 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--ppc">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">HRtech CACs don&rsquo;t<br>respond to bigger budgets.</span>
+          <span class="pr-hero__title-strong">They respond to better committee targeting.</span>
+        </h1>
+        <div class="pr-hero__copy">
+          <p>PipeRocket turns paid spend into qualified HRtech pipeline by putting ad dollars in front of named CHROs and Heads of People, building landing pages IT and legal can sign off on, and tying every campaign to a CAC payback your CFO trusts across a 9-month sales cycle.</p>
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero__collage" aria-label="PipeRocket HRtech PPC">
+        <img class="pr-hero__image" src="/images/hero-ppc.png" alt="Vintage figure climbing the stairs to a PipeRocket pipeline door — HRtech context" loading="eager"
+             onerror="this.onerror=null;this.src='/images/hero-collage.jpg';">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     FROM AD SPEND TO PIPELINE — ZIGZAG PIPELINE FLOW
+     ==================================================== -->
+<section class="pr-section pr-pipeline-flow">
+
+  <!-- Container frame (Figma architectural lines on the right side) -->
+  <span class="pr-pipeline-flow__deco pr-pipeline-flow__deco--frame-t"  aria-hidden="true"></span>
+  <span class="pr-pipeline-flow__deco pr-pipeline-flow__deco--frame-r"  aria-hidden="true"></span>
+
+  <div class="pr-container">
+
+    <header class="pr-pipeline-flow__header">
+      <h2 class="pr-pipeline-flow__title">From HRtech ad spend to qualified pipeline</h2>
+      <p class="pr-pipeline-flow__lede">We use AI to surface committee-level intent signals, and HRtech-aware judgment to spend ad dollars where actual buyers — and their gatekeepers — click.</p>
+    </header>
+
+    <div class="pr-pipeline-flow__grid">
+
+      <!-- Center vertical pipeline line + PipeRocket flag mark at the top, soft down-arrow at the bottom -->
+      <div class="pr-pipeline-flow__line" aria-hidden="true">
+        <span class="pr-pipeline-flow__arrow pr-pipeline-flow__arrow--top">
+          <svg viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32.6476 0H16.54C16.2947 0 16.0543 0.098 15.8826 0.275L0.2607 16.3137c-.564.58-.152 1.555.658 1.555H16v13.213c0 .81.976 1.222 1.555.658L33.59 16.122c.176-.171.275-.407.275-.657V1.222C33.864.545 33.315 0 32.643 0z" fill="#0BA6E2"/>
+            <path d="M16 17.869V31.082c0 .81.976 1.222 1.555.658L33.59 16.122c.176-.171.275-.407.275-.657V1.222C33.864.545 33.315 0 32.643 0H16.535c-.246 0-.658.103-.658.52" fill="#FF0025"/>
+          </svg>
+        </span>
+        <span class="pr-pipeline-flow__arrow pr-pipeline-flow__arrow--bottom">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 4 L22 4 L12 22 Z" fill="rgba(11,18,32,0.35)"/>
+          </svg>
+        </span>
+      </div>
+
+      <!-- Runner (top of left column) -->
+      <div class="pr-pipeline-flow__runner">
+        <svg class="pr-pipeline-flow__speed" viewBox="0 0 360 280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <line x1="40"  y1="36"  x2="240" y2="36"  stroke="#0B1220" stroke-width="2.5"/>
+          <line x1="0"   y1="118" x2="118" y2="118" stroke="#0B1220" stroke-width="2.5"/>
+          <line x1="60"  y1="178" x2="226" y2="178" stroke="#0B1220" stroke-width="2.5"/>
+          <line x1="200" y1="252" x2="320" y2="252" stroke="#0B1220" stroke-width="2.5"/>
+        </svg>
+        <img src="/images/runner-businessman.png" alt="Running businessman with briefcase — turning ad spend into pipeline" onerror="this.style.display='none'">
+      </div>
+
+      <!-- 6 cards positioned via grid; zigzag rhythm comes from explicit grid-rows -->
+      <article class="pr-pipeline-flow__card pr-pipeline-flow__card--active pr-pipeline-flow__card--pos1">
+        <div class="pr-pipeline-flow__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
+        </div>
+        <h3>Know who buys, not who clicks</h3>
+        <p>HRtech buyers cluster in named titles — CHRO, Head of People, VP People Ops, Head of Talent — gated by CFO and IT. We build campaigns around them, not around anyone with "HR" in their LinkedIn headline. Fewer clicks, more deals.</p>
+      </article>
+
+      <article class="pr-pipeline-flow__card pr-pipeline-flow__card--pos2">
+        <div class="pr-pipeline-flow__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.2 1 2V18h6v-1.3c0-.8.4-1.5 1-2A7 7 0 0 0 12 2z"/></svg>
+        </div>
+        <h3>Go where intent is</h3>
+        <p>Spend goes behind buyers already evaluating vendors — comparison searches, RFP-stage queries, intent signals on Workday/BambooHR/ADP alternatives. We don&rsquo;t pay to introduce HRtech to people without budget. Budget follows intent, not reach.</p>
+      </article>
+
+      <article class="pr-pipeline-flow__card pr-pipeline-flow__card--pos3">
+        <div class="pr-pipeline-flow__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>Speak the committee&rsquo;s language</h3>
+        <p>Ads are written around real HRtech buying moments — HRIS integration concerns, IT security objections, payroll compliance, employee data privacy — pulled from sales-call recordings. Generic "boost growth" headlines die in a CHRO committee. Stakeholder-aware framing lives.</p>
+      </article>
+
+      <article class="pr-pipeline-flow__card pr-pipeline-flow__card--pos4">
+        <div class="pr-pipeline-flow__icon">
+          <!-- strainer-funnel: outer funnel + horizontal mesh bands -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 4h18l-7 9v6l-4 2v-8L3 4z"/>
+            <line x1="6" y1="6.5" x2="18" y2="6.5"/>
+            <line x1="8" y1="9" x2="16" y2="9"/>
+          </svg>
+        </div>
+        <h3>Track to the pipeline</h3>
+        <p>Every paid touchpoint is wired to your CRM and pipeline stage. We see exactly where HRtech buyers drop off — at the form, at IT security review, at the procurement gate — so the board has answers when CAC is questioned across a 9-month cycle.</p>
+      </article>
+
+      <article class="pr-pipeline-flow__card pr-pipeline-flow__card--pos5">
+        <div class="pr-pipeline-flow__icon">
+          <!-- scalloped percent-seal / quality badge -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2.5l1.6 1.4 2 -.7 .9 1.9 2.1 .3 .1 2.1 1.8 1.1 -.8 2 1.4 1.6 -1.4 1.6 .8 2 -1.8 1.1 -.1 2.1 -2.1 .3 -.9 1.9 -2 -.7 -1.6 1.4 -1.6 -1.4 -2 .7 -.9 -1.9 -2.1 -.3 -.1 -2.1 -1.8 -1.1 .8 -2 -1.4 -1.6 1.4 -1.6 -.8 -2 1.8 -1.1 .1 -2.1 2.1 -.3 .9 -1.9 2 .7z"/>
+            <line x1="9" y1="15" x2="15" y2="9"/>
+            <circle cx="9.5" cy="9.5" r="1.1"/>
+            <circle cx="14.5" cy="14.5" r="1.1"/>
+          </svg>
+        </div>
+        <h3>Sales in the loop</h3>
+        <p>HRtech sales cycles run 6–12 months. Lead quality is validated by sales-acceptance rates and pipeline contribution — not by lead-form completions. When sales rejects a lead, we want to know why, then fix the upstream targeting or copy.</p>
+      </article>
+
+      <article class="pr-pipeline-flow__card pr-pipeline-flow__card--pos6">
+        <div class="pr-pipeline-flow__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12V8H6a2 2 0 0 1 0-4h12v4"/><path d="M4 6v12a2 2 0 0 0 2 2h14v-4"/><path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></svg>
+        </div>
+        <h3>Spend on what works</h3>
+        <p>Budgets follow pipeline. When an HRtech segment, channel, or creative consistently produces qualified opportunities, we scale it. When it doesn&rsquo;t, we pause and diagnose. No spend exists to show CMO activity to the board.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — Cindy Dubon, Director of Growth Marketing at Goldcast, on her vintage TV testimonial" class="pr-working-tv">
+  </div>
+</section>
+
+<!-- ====================================================
+     WE TREAT AD SPEND LIKE AN INVESTMENT — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2 style="color: var(--pr-cream);">We treat HRtech ad spend like an investment</h2>
+      <p style="color: rgba(244,241,232,0.7);">Every dollar is planned, tracked, and optimised against qualified pipeline and CFO-grade ROI — across a 9-month sales cycle, not a 30-day attribution window.</p>
+    </div>
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <svg width="18" height="17" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="prArrowSplit2" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#0BA6E2"/>
+                <stop offset="0.5" stop-color="#0BA6E2"/>
+                <stop offset="0.5" stop-color="#FF0025"/>
+                <stop offset="1" stop-color="#FF0025"/>
+              </linearGradient>
+            </defs>
+            <path d="M32.6476 0H16.54C16.2947 0 16.0543 0.098 15.8826 0.275L0.2607 16.3137c-.564.58-.152 1.555.658 1.555H16v13.213c0 .81.976 1.222 1.555.658L33.59 16.122c.176-.171.275-.407.275-.657V1.222C33.864.545 33.315 0 32.643 0z" fill="url(#prArrowSplit2)"/>
+          </svg>
+          PipeRocket
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Campaigns target broad "HR" or "People Ops" audiences. CAC creeps up every quarter while sales rejects half the leads.</div>
+        <div>Campaigns target generic SaaS personas. The agency doesn&rsquo;t know the difference between a Head of People at a startup and a CHRO at a 5,000-person enterprise.</div>
+        <div>Campaigns target named HRtech buyer titles, account-based segments, and intent signals. Sales-accepted lead rate is the primary success metric, not raw volume.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Landing pages are generic. IT and security review takes weeks because every claim needs sourcing after-the-fact.</div>
+        <div>Landing pages are templated. "Trust badges" replace genuine signals — HRIS integrations, SOC 2, ISO 27001, GDPR, payroll certifications.</div>
+        <div>Landing pages are built integration-and-compliance first. HRIS integrations sit on the hero, security claims are sourced upfront, IT review compresses.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>CAC trends are explained, not solved. "Cost per click is up across the industry." Pipeline contribution over the actual sales cycle stays a mystery.</div>
+        <div>Reports show CTR, CPC, and conversion rate. Pipeline contribution and CAC payback over a 9-month cycle live in a separate dashboard nobody opens.</div>
+        <div>Every monthly review centres on pipeline contribution by channel, CAC by buyer segment, and payback period by deal cohort — the metrics your CFO opens before anything else.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Lead-to-MQL hand-off is broken. Sales gets HRtech leads with no context about what the buyer or their committee actually needs.</div>
+        <div>Lead enrichment is generic — title, company size, maybe industry. Real buyer context never reaches sales.</div>
+        <div>Every HRtech lead is enriched with intent signals, ad context, content engagement, and likely committee composition. Sales opens a CRM record knowing what stakeholder to engage next.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Ad copy is written from internal knowledge. Nobody on the team has shadowed a CHRO sales call in six months.</div>
+        <div>Ad copy is written from a keyword brief. What real HRtech buyers say on demos — about integration, security, employee data, change management — never reaches the writer.</div>
+        <div>Every ad and landing page is built from buyer language extracted from sales-call recordings. Copy reads the way HRtech buyers talk when they&rsquo;re evaluating — not the way an agency brief reads.</div>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     NUMBERS THAT MATTER — STATS
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Numbers that matter</h2></div>
+    <div class="pr-stats pr-stats--3" data-pr-stats>
+      <div class="pr-stat">
+        <div class="pr-stat__num"
+             data-pr-counter
+             data-prefix="$"
+             data-target="12.4"
+             data-decimals="1"
+             data-suffix="M">$0.0M</div>
+        <div class="pr-stat__label">Spend Volume</div>
+      </div>
+      <div class="pr-stat">
+        <div class="pr-stat__num"
+             data-pr-counter
+             data-prefix="$"
+             data-target="48.6"
+             data-decimals="1"
+             data-suffix="M">$0.0M</div>
+        <div class="pr-stat__label">Pipeline</div>
+      </div>
+      <div class="pr-stat">
+        <div class="pr-stat__num"
+             data-pr-counter
+             data-prefix="$"
+             data-target="9.2"
+             data-decimals="1"
+             data-suffix="M">$0.0M</div>
+        <div class="pr-stat__label">Revenue</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     EVERYONE TALKS ABOUT AI — ACCORDION (shared with SEO/homepage)
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
+      <h2>Everyone talks about AI.<br>We just use it where it matters.</h2>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: center;" class="pr-ai-grid">
+      <div>
+        <img src="/images/figma/raw-024_alpha.png" alt="AI in marketing" style="width: 100%; max-width: 560px;">
+      </div>
+      <div class="pr-accordion">
+        <details class="pr-accordion__item" open>
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
+              Research
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI surfaces ICP signals, competitor activity, and audience intent data before a single campaign launches. Which segments are actively in-market, which messages move them, and what pipeline opportunities are hiding in plain sight stays with the team.</div>
+        </details>
+        <details class="pr-accordion__item">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+              Content
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI generates ad copy variants and landing page drafts across angles, audiences, and formats so more combinations get tested before budget commits.</div>
+        </details>
+        <details class="pr-accordion__item">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2 6 14l3 3-12 12"/><path d="m18 6 4 4"/></svg>
+              Design
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI produces creative variants across sizes, formats, and messaging angles so more combinations are evaluated before spend is committed.</div>
+        </details>
+        <details class="pr-accordion__item">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              Optimisation
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI flags underperforming ad sets, audience fatigue, budget inefficiencies, and bid signal shifts before they become pipeline problems.</div>
+        </details>
+        <details class="pr-accordion__item">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+              Analysis
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI connects paid touchpoints to pipeline and revenue across channels, surfacing CAC, payback period, and pipeline contribution faster than any manual model.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  @media (min-width: 1024px) {
+    .pr-ai-grid { grid-template-columns: 0.9fr 1.1fr !important; gap: var(--pr-s-9) !important; }
+  }
+</style>
+
+<!-- ====================================================
+     TESTIMONIALS — 3 CARDS (PPC-specific)
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>We&rsquo;ve helped SaaS brands like yours</h2></div>
+    <div class="pr-testimonials">
+      <article class="pr-testimonial">
+        <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to lock our performance marketing efforts. Their experience, actionable strategies brought a 5X high-quality MQLs in just 2 months. Specifically, the team's research-based fine-tuning campaigns across regions not only gives our leads but also saves us costs.</p>
+        <div class="pr-testimonial__author">
+          <img class="pr-testimonial__avatar" src="/images/figma/raw-090_alpha.png" alt="Naveen">
+          <div>
+            <div class="pr-testimonial__name">Naveen</div>
+            <div class="pr-testimonial__role">Head of Marketing</div>
+            <div class="pr-testimonial__company">HyperVerge</div>
+          </div>
+        </div>
+      </article>
+      <article class="pr-testimonial">
+        <p class="pr-testimonial__quote">Working alongside PipeRocket has been a remarkable experience for Storylane. We have come to deeply rely on them to count on us in our scaled stack. Their comprehensive analysis, strategic initiatives, end-to-end campaign optimisation, lending engagement implementation and targeted remarketing delivered remarkable results for us.</p>
+        <div class="pr-testimonial__author">
+          <img class="pr-testimonial__avatar" src="/images/figma/raw-094_alpha.png" alt="Nalin">
+          <div>
+            <div class="pr-testimonial__name">Nalin</div>
+            <div class="pr-testimonial__role">CEO</div>
+            <div class="pr-testimonial__company">storylane</div>
+          </div>
+        </div>
+      </article>
+      <article class="pr-testimonial">
+        <p class="pr-testimonial__quote">They worked closely with us and took ownership that our in-house team. The team has run 10 experiments to identify what was working and translated two new geographies for the ads. Moreover, they treat content like an asset and react closer to a calendar as the problem it is.</p>
+        <div class="pr-testimonial__author">
+          <img class="pr-testimonial__avatar" src="/images/figma/raw-098_alpha.png" alt="Anusha">
+          <div>
+            <div class="pr-testimonial__name">Anusha</div>
+            <div class="pr-testimonial__role">Founding member</div>
+            <div class="pr-testimonial__company">HyperStart</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     THE PIPEROCKET APPROACH — DARK 6-CARD GRID
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2 style="color: var(--pr-cream);">The PipeRocket HRtech PPC approach</h2>
+      <p style="color: rgba(244,241,232,0.7);">Each phase is built around how HRtech buying committees actually decide — and how IT, security, and procurement gate the deal.</p>
+    </div>
+    <div class="pr-approach-grid pr-approach-grid--dark">
+      <article class="pr-approach-grid__card">
+        <h3>Discovery & alignment</h3>
+        <p>Two weeks. Sales-call recordings reviewed, HRtech buyer titles confirmed, committee composition mapped, pipeline-stage definitions agreed, current-state audit of paid + analytics. By day 14 we have a 90-day plan with CFO-ready KPIs.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>HRtech market & competitor research</h3>
+        <p>We map the HRtech auction — HRIS, payroll, talent, performance, learning — including the last 12 months of competitor ad copy, audience overlap, and where buyers cluster. Output is where you can take share, not a generic keyword list.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Channel + committee strategy</h3>
+        <p>Channel mix matched to HRtech buyer behaviour. Google for high-intent capture, LinkedIn for ABM into named CHROs and Heads of People, programmatic for retargeting IT and procurement gatekeepers. Every channel earns its budget against a pipeline outcome.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Integration-ready execution</h3>
+        <p>Ad copy and landing pages drafted from real HRtech buyer language. HRIS integrations on the hero, security signals — SOC 2, ISO 27001, GDPR — sourced upfront. CRM tracking wired. First spend goes live in week three.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Bi-weekly optimisation</h3>
+        <p>Optimisation goes beyond ad KPIs. Targeting, messaging, creative, and landing-page conversion are reviewed every two weeks against pipeline contribution and CAC payback — not against CTR.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Scale only after proof</h3>
+        <p>We scale only after the system consistently produces qualified HRtech pipeline. Then budgets increase, new segments open up, new platforms get tested. Growth is led by data, not by an annual budget calendar.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     AD PLATFORMS WE WORK WITH
+     ==================================================== -->
+<section class="pr-platforms pr-platforms--image">
+  <img src="/images/ad-platforms.png" alt="Ad Platforms we work with — Google Ads, LinkedIn, YouTube, Meta, Bing, reddit displayed on a vintage billboard above a city street" class="pr-platforms__hero">
+</section>
+
+<!-- ====================================================
+     SUCCESS STORIES
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Case Studies</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperStart</div>
+        <p class="pr-case__copy">Pipeline-led paid for HyperStart — LegalTech / CLM — across a multi-stakeholder buying committee similar to HRtech procurement.</p>
+        <a href="/case-study/hyperstart/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">Spendflo</div>
+        <p class="pr-case__copy">61% traffic lift for Spendflo — SaaS spend management — relevant for HRtech buyers managing workforce / vendor budgets.</p>
+        <a href="/case-study/spendflo/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">storylane</div>
+        <p class="pr-case__copy">2.5X growth, 82% more demos for Storylane — paid campaigns rebuilt around real buyer language and qualified pipeline.</p>
+        <a href="/case-study/storylane/" class="pr-case__link">Read full story →</a>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is an HRtech PPC agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">An HRtech PPC agency runs paid acquisition for HRIS, payroll, talent, performance, learning, and people-ops platforms — Google Ads, LinkedIn, Meta, programmatic — built around CHRO buying committees, integration-led landing pages, and pipeline metrics your CFO can defend across a 9-month cycle.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Why is HRtech PPC different from generic SaaS PPC?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">HRtech buyers move in committees of 6–10 stakeholders. Sales cycles run 6–12 months. Deals get gated by IT security review, HRIS integration requirements, and procurement. Generic PPC playbooks produce clicks; HRtech PPC produces qualified opportunities only when targeting, copy, and landing pages respect that reality.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How quickly do paid campaigns produce qualified HRtech pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">First spend goes live in week 3 of the engagement. Most HRtech clients see qualified pipeline within 30–60 days once CRM attribution and integration-led pages are wired in. Closed-won timing depends on procurement, IT review, and committee alignment — typically 6–12 months.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Which paid channels work best for HRtech?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Google Ads for capturing high-intent vendor / comparison searches, LinkedIn for ABM targeting named CHROs and Heads of People, and programmatic / retargeting for nurturing IT and procurement gatekeepers across long sales cycles. Channel mix is matched to the HRtech buyer journey, not preference.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Can you work within our IT, security, and brand guardrails?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Yes. Ad copy, landing pages, and integration claims are built IT- and security-first — citations sourced upfront, security framing (SOC 2, ISO 27001, GDPR) baked in, sensitive claim language vetted before launch. Approval cycles compress, not stretch.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
+    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
+    <h2>If your HRtech CACs keep climbing,<br><span class="pr-italic">your campaigns aren&rsquo;t built for HRtech committees.</span></h2>
+    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
+      Also explore: <a href="/hrtech-marketing-agency/" style="color: var(--pr-cyan);">HRtech marketing agency overview</a> · <a href="/hrtech-seo-agency/" style="color: var(--pr-cyan);">HRtech SEO agency</a>
+    </p>
+  </div>
+</section>
+
+{{ end }}

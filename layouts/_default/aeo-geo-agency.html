@@ -8,16 +8,16 @@
     <div class="pr-hero__grid">
       <div class="pr-hero__text">
         <h1 class="pr-hero__title pr-hero__title--two-tone">
-          <span class="pr-hero__title-soft">Tired of hearing<br>&lsquo;Give it Six months?&rsquo;</span>
-          <span class="pr-hero__title-strong">You&rsquo;re in the right place.</span>
+          <span class="pr-hero__title-soft">Your buyers stopped Googling.</span>
+          <span class="pr-hero__title-strong">They&rsquo;re asking ChatGPT instead.</span>
         </h1>
         <div class="pr-hero__copy">
-          <p>Agencies and in-house hires both start with keywords. PipeRocket starts with your buyers, goes after in-market searches from week one, and connects every page to one outcome: qualified pipeline, not a traffic report.</p>
+          <p>Search isn&rsquo;t one box anymore. ChatGPT, Perplexity, Claude, Google AI Overviews — all answer your buyers before a blue link does. PipeRocket runs Answer Engine Optimization and Generative Engine Optimization that gets your brand cited as the answer, not buried on page two of a SERP that nobody scrolls.</p>
         </div>
 
         <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
 
-        {{/* SEO page = any Clutch review tagged with "SaaS SEO" (mixed services OK) */}}
+        {{/* AEO/GEO page = SaaS SEO Clutch reviews (closest signal we have) */}}
         {{ $clutchSeo := where (where .Site.Data.reviews.reviews "source" "Clutch") "services" "intersect" (slice "SaaS SEO") }}
         {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
         <div class="pr-clutch-accordion pr-clutch-accordion--inline" id="clutchReviewsSeo">
@@ -35,8 +35,8 @@
           </button>
         </div>
       </div>
-      <div class="pr-hero__collage" aria-label="PipeRocket SaaS SEO — patience tested, answers delivered">
-        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock with Buyer first and BOFU first badges" loading="eager">
+      <div class="pr-hero__collage" aria-label="PipeRocket AEO / GEO — cited by AI engines, not buried in a SERP">
+        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock — being cited by AI engines is the new BOFU" loading="eager">
       </div>
     </div>
 
@@ -103,36 +103,36 @@
 <section class="pr-section">
   <div class="pr-container">
     <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
-      <h2>How we turn search intent into pipeline</h2>
+      <h2>How AEO &amp; GEO turn AI conversations into pipeline</h2>
     </div>
     <div class="pr-principles">
       <article class="pr-principles__card">
         <div class="pr-principles__icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
         </div>
-        <h3>Buyers over keywords</h3>
-        <p>Most SaaS starts with a keyword tool. We start with your buyers — who they are, how they search, what they say to peers, and what gets them to act on the phone. The keyword set comes out of that conversation, not the other way around.</p>
+        <h3>Cited, not just ranked</h3>
+        <p>Ranking #1 on Google means nothing if ChatGPT or Perplexity quotes a competitor in the answer. AEO is about being the source AI engines cite when your buyer asks a buying-stage question. We engineer your content to be the citation, not the also-ran.</p>
       </article>
       <article class="pr-principles__card">
         <div class="pr-principles__icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
         </div>
-        <h3>Purpose over publish</h3>
-        <p>Every page we publish answers a real question your buyer is searching, in language that matches what they say. We don't ship content for the sake of staying on a calendar — we ship content that moves a buyer one step closer to a sales call.</p>
+        <h3>Question-shaped content</h3>
+        <p>AI engines reward content that answers a specific question, cleanly, with sourced claims. We restructure your content around buyer questions — schema, citations, retrieval-friendly framing — so the answer is yours every time someone asks.</p>
       </article>
       <article class="pr-principles__card">
         <div class="pr-principles__icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="9"/></svg>
         </div>
-        <h3>Intent over volume</h3>
-        <p>We don't go for vanity volume. We go for searches that happen close to a purchase decision — comparison terms, alternative pages, alternatives, BOFU intent that converts to qualified pipeline, not just blog traffic.</p>
+        <h3>Train the engines, not just rank for them</h3>
+        <p>AI training corpora, retrieval-augmented generation indexes, citation graphs — the inputs AI uses to decide what&rsquo;s authoritative. We build distribution that lands your brand in the right places: Reddit, GitHub, Wikipedia-grade sources, podcasts, and trusted directories.</p>
       </article>
       <article class="pr-principles__card">
         <div class="pr-principles__icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
         </div>
-        <h3>Revenue over rankings</h3>
-        <p>Rankings are a means. Pipeline and revenue are the outcome. We track keyword movement and traffic, but every monthly review centres on pipeline contribution, qualified opportunity rate, and CAC payback by content cluster.</p>
+        <h3>Pipeline over rankings</h3>
+        <p>Citations are a means. Pipeline is the outcome. We track AI-citation share of voice across ChatGPT, Perplexity, Claude, and AI Overviews — but every monthly review centres on demos booked from AI-led referrals and pipeline influenced.</p>
       </article>
     </div>
   </div>
@@ -154,8 +154,8 @@
 <section class="pr-section pr-section--dark">
   <div class="pr-container">
     <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
-      <h2 style="color: var(--pr-cream);">Why SaaS teams choose PipeRocket for SEO</h2>
-      <p style="color: rgba(244,241,232,0.7);">Every agency promises rankings. The gap is what happens between ranking and revenue — and whether your SEO partner even thinks that gap is their problem.</p>
+      <h2 style="color: var(--pr-cream);">Why teams choose PipeRocket for AEO &amp; GEO</h2>
+      <p style="color: rgba(244,241,232,0.7);">Every agency promises rankings. The gap is what happens when your buyer asks ChatGPT instead — and whether your AEO/GEO partner is engineering for the answer or hoping for it.</p>
     </div>
     <div class="pr-compare-table">
       <div class="pr-compare-table__row pr-compare-table__row--head">
@@ -169,24 +169,24 @@
         </div>
       </div>
       <div class="pr-compare-table__row">
-        <div>Strategy starts with blog ideas and keyword tools. What can we write about this month?</div>
-        <div>Strategy starts with a keyword list built from volume and difficulty scores. High numbers, low buying intent.</div>
-        <div>Strategy starts with your ICP and a full category mindmap built before any keyword tool opens. Categories, sub-categories, and buying triggers mapped first. Keywords come after.</div>
+        <div>"AI Overviews" gets mentioned in a slide. Nobody owns being cited by ChatGPT or Perplexity. Visibility erodes quietly.</div>
+        <div>The agency layers "AEO" onto a generic SEO retainer. They run the same keyword brief, hope schema fixes the rest. Citation share of voice never gets measured.</div>
+        <div>AEO and GEO are the engagement. Citation tracking across ChatGPT, Perplexity, Claude, AI Overviews. Content engineered for retrieval, not just ranking.</div>
       </div>
       <div class="pr-compare-table__row">
-        <div>Months of publishing before anything moves in the funnel. 9 X over time.</div>
-        <div>"Give it six months." Results are always one more quarter away.</div>
-        <div>BOFU content and high-intent categories go live in month one. Early MQLs while the broader strategy builds underneath. No warm-up period.</div>
+        <div>Content reads well for humans, badly for retrieval. AI engines can&rsquo;t extract a clean answer to cite.</div>
+        <div>Content is keyword-optimised but unstructured. Long preambles, missing citations, no claim-source mapping. AI engines skip it.</div>
+        <div>Content is restructured for AI retrieval — claim-source pairs, schema, retrieval-friendly headings, factual density. AI engines find a clean answer to quote.</div>
       </div>
       <div class="pr-compare-table__row">
-        <div>Traffic is up. Shared in the all-hands. Nobody connects it to revenue.</div>
-        <div>Rankings improved. Sessions increased. Nobody asks about pipeline contribution.</div>
-        <div>MQLs, SQLs, and pipeline influenced — tracked by page type and intent category. Every monthly review is a board talk about what content moved revenue.</div>
+        <div>Distribution is whatever the team has time for. AI training corpora — Reddit, GitHub, Wikipedia, podcasts — go untouched.</div>
+        <div>Backlinks chase DR scores from random domains. Mentions on the sources AI engines actually weight (Reddit, trade press, podcast transcripts) never happen.</div>
+        <div>Distribution targets the corpora AI engines train on and retrieve from — relevant subreddits, trade publications, podcast transcripts, citation-friendly sources. Authority compounds for both Google and ChatGPT.</div>
       </div>
       <div class="pr-compare-table__row">
-        <div>Conversion is handled after content is live. A CRA dropped in at the end.</div>
-        <div>Conversion is in scope. The agency writes the content. Forms drop down whenever.</div>
-        <div>Conversion is built into the brief before a word is written. Every page has a job — start a trial, book a call, claim a tool.</div>
+        <div>Performance is reported as Google rankings. Nobody asks "are we being cited by ChatGPT?"</div>
+        <div>Reports show keyword positions and sessions. Citation share of voice across AI engines lives nowhere.</div>
+        <div>Reports show AI-citation share of voice by buyer question, AI-led pipeline contribution, and trust-signal posture across the AI engines that matter — alongside traditional rankings.</div>
       </div>
     </div>
   </div>
@@ -197,7 +197,7 @@
      ==================================================== -->
 <section class="pr-section--tight">
   <div class="pr-container">
-    <div class="pr-center"><h2>We helped Grow 50+ SaaS Brands Like Yours</h2></div>
+    <div class="pr-center"><h2>We&rsquo;ve helped 50+ SaaS brands stay visible as search shifts to AI</h2></div>
     <div class="pr-testimonials">
       <article class="pr-testimonial">
         <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to lock our performance marketing efforts. Their experience, actionable strategies brought a 5X high-quality MQLs in just 2 months. Specifically, the team's research-based fine-tuning campaigns across regions not only gives our leads but also saves us costs.</p>
@@ -338,41 +338,41 @@
 <section class="pr-section">
   <div class="pr-container">
     <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
-      <h2>The PipeRocket SEO approach</h2>
-      <p>We focus on outcomes, not activity. Each phase builds on the last, and we know that after the fundamentals are priced.</p>
+      <h2>The PipeRocket AEO &amp; GEO approach</h2>
+      <p>Each phase is built around how AI engines retrieve, evaluate, and cite content — not how Google ranked content in 2018.</p>
     </div>
     <div class="pr-approach-grid">
       <article class="pr-approach-grid__card">
-        <h3>Start from the inside</h3>
-        <p>We start by becoming part of your business — not just your marketing. We hold weekly calls with sales, founders, and revenue ops. We map your buying triggers, your ICP, and your competitive position before we touch a keyword tool.</p>
+        <h3>Audit AI visibility</h3>
+        <p>We measure your current citation share of voice across ChatGPT, Perplexity, Claude, Google AI Overviews, and Gemini for the buyer questions that matter. Baseline first. Anything we can&rsquo;t measure, we can&rsquo;t move.</p>
       </article>
       <article class="pr-approach-grid__card">
-        <h3>Map the full picture</h3>
-        <p>Before opening a keyword tool, we build a category mindmap of how your buyers think. Sub-categories, buying triggers, comparison gaps — all of it gets mapped before a SERP exists. The keyword universe comes from the buyer reality, not the other way round.</p>
+        <h3>Map buyer questions</h3>
+        <p>We work with sales to map the actual questions your buyers ask AI assistants — comparison, alternatives, integration, pricing, "is X better than Y for Z". Each becomes a target prompt with a target citation outcome.</p>
       </article>
       <article class="pr-approach-grid__card">
-        <h3>Build with intent</h3>
-        <p>We organise keywords into four clusters mapped to funnel stages, ICP fit, pipeline value, and AI overviews. Comparison pages, alternative pages, and pricing breakdowns go live first. Generic blog content waits.</p>
+        <h3>Engineer for retrieval</h3>
+        <p>Content gets restructured for AI retrieval — claim-source pairing, factual density, schema, retrieval-friendly headings, citation-grade quotes. AI engines find a clean answer to quote, with your brand attached.</p>
       </article>
       <article class="pr-approach-grid__card">
-        <h3>Go where buyers are</h3>
-        <p>We get other buyers already in market before building broad topic coverage. Comparison reviews, integration pages, alternative pages — first to drive faster pipeline. The broader content strategy compounds underneath.</p>
+        <h3>Land in training corpora</h3>
+        <p>AI engines train and retrieve from specific corpora — Reddit, Wikipedia-grade sources, GitHub, podcast transcripts, trade press. We earn placements there, not just on high-DR domains AI engines ignore.</p>
       </article>
       <article class="pr-approach-grid__card">
-        <h3>Convert from day one</h3>
-        <p>Every page ships with a conversion point baked into the brief. Whether the page lives at TOFU, MOFU, or BOFU, every visit has a next step — book a demo, claim a tool, start a trial.</p>
+        <h3>Build trust-signal posture</h3>
+        <p>AI engines weight authoritativeness — author profiles, brand entities, citation graphs, structured data. We strengthen the posture that earns citations: real bios, schema entities, consistent NAP/E-A-T signals across the corpus.</p>
       </article>
       <article class="pr-approach-grid__card">
-        <h3>Built to be found</h3>
-        <p>We build for being found in modern search — Google, ChatGPT, Perplexity, AI Overviews. Schema, internal links, citation-friendly framing — everything is set up so AI engines that are reshaping discovery actually surface your content.</p>
+        <h3>Track citations weekly</h3>
+        <p>We monitor citation share of voice across the AI engines weekly, by buyer question, by competitor. Movements get diagnosed (new training cycle? new retrieval index? new prompt pattern?) and acted on.</p>
       </article>
       <article class="pr-approach-grid__card">
-        <h3>Cited where it counts</h3>
-        <p>Links and mentions are earned from publications your ICP actually reads, not high-DR domains with no relevance. Editorial placements, podcast appearances, and AI training corpora — authority signals that compound for both Google and ChatGPT.</p>
+        <h3>Wire AI-led pipeline</h3>
+        <p>Referrers from ChatGPT, Perplexity, Claude get tagged in your CRM. Demos and pipeline from AI-led sessions get tracked separately so you can quantify what AI visibility is actually worth.</p>
       </article>
       <article class="pr-approach-grid__card">
-        <h3>Scale what works</h3>
-        <p>Performance is tracked by intent category, page type, and pipeline value, not just sessions. We double down on what builds qualified pipeline and cut what doesn't. We close the loop on payback and report it as a board-grade metric.</p>
+        <h3>Compound vs. Google</h3>
+        <p>Everything we ship for AI engines also strengthens classic SEO — schema, citation graphs, factual density. The investment compounds across both worlds, so you don&rsquo;t pick a winner.</p>
       </article>
       <article class="pr-approach-grid__card pr-approach-grid__card--mark" aria-hidden="true"></article>
     </div>
@@ -422,38 +422,38 @@
     <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What is a SaaS SEO agency?</span>
+          <span class="pr-accordion__header-left">What is AEO (Answer Engine Optimization)?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">A SaaS SEO agency specialises in helping SaaS companies grow their business through organic search. They combine technical SEO expertise with an understanding of the SaaS customer journey to attract qualified leads, increase website traffic, and ultimately drive conversions.</div>
+        <div class="pr-accordion__body">AEO is the practice of getting your brand cited as the answer when buyers ask questions to AI engines like ChatGPT, Perplexity, Claude, and Google AI Overviews — instead of optimising for a blue link on page one. It combines retrieval-friendly content engineering, schema, and authoritative distribution.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What is a SaaS pipeline?</span>
+          <span class="pr-accordion__header-left">What is GEO (Generative Engine Optimization)?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">A SaaS pipeline is the series of stages a potential customer moves through, from awareness to closed-won deal — usually tracked in a CRM and worked by sales.</div>
+        <div class="pr-accordion__body">GEO is the broader discipline of being visible inside generative AI experiences — across ChatGPT, Perplexity, Claude, Gemini, and AI Overviews. AEO is one tactic within GEO; GEO also covers entity recognition, brand mention frequency in training corpora, and citation graph posture.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What is organic growth in SaaS?</span>
+          <span class="pr-accordion__header-left">How is AEO different from traditional SEO?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">Growth driven by non-paid channels — organic search, content, referrals, community — where the channel cost is fixed but reach compounds over time.</div>
+        <div class="pr-accordion__body">SEO optimises for a ranked list of links. AEO optimises for being the cited source inside an answer. The work overlaps (schema, authority, factual content) but the success metric shifts from "rank #1" to "cited by ChatGPT when a buyer asks the question". You need both — but most agencies still only ship one.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">Why is SEO important for B2B SaaS?</span>
+          <span class="pr-accordion__header-left">Which AI engines do you optimise for?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">B2B SaaS buyers research independently before talking to sales. If you're not visible in organic search when they're researching, you're not in their consideration set when they're ready to buy.</div>
+        <div class="pr-accordion__body">ChatGPT, Perplexity, Claude, Google AI Overviews, Gemini, and Microsoft Copilot. Each has a different retrieval architecture and corpus weighting — we tune the work per engine and report citation share of voice across all of them.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">Which technical SEO factors are crucial for B2B SaaS websites?</span>
+          <span class="pr-accordion__header-left">How quickly does AEO drive pipeline?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">Site speed, indexability, schema markup for software/product/FAQ, internal linking that surfaces buying-stage pages, and Core Web Vitals — in roughly that order of impact.</div>
+        <div class="pr-accordion__body">First citations on long-tail buyer questions appear within 30–60 days of restructuring content. Citation share of voice on competitive head terms takes 90–180 days. AI-led pipeline starts trickling immediately because most teams aren&rsquo;t even tagging it yet — making it visible in the CRM is half the win.</div>
       </details>
     </div>
   </div>
