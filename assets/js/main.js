@@ -493,7 +493,7 @@ const setupParallax = () => {
     // At scrollProgress 0 (section just entering): translateX(-600px) — off screen left.
     // At scrollProgress 0.6 (section centred): translateX(0) — resting position bottom-left.
     const startOffset = -600;
-    const endOffset   = 0;
+    const endOffset   = 700;
     const driveProgress = Math.min(1, scrollProgress / 0.6);
     const moveAmount = startOffset + driveProgress * (endOffset - startOffset);
 
@@ -504,7 +504,6 @@ const setupParallax = () => {
   // Initial calculation
   handleScroll();
 };
-
 const init = () => {
   setupMobileMenu();
   setupCounters();
