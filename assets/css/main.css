@@ -2228,6 +2228,7 @@ p { margin: 0 0 var(--pr-s-4); }
   left: 0;
   height: 260px;
   width: auto;
+  max-width: none;
   z-index: 1;
   will-change: transform;
   pointer-events: none;
