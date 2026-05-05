@@ -2163,6 +2163,83 @@ p { margin: 0 0 var(--pr-s-4); }
   filter: contrast(1.35) brightness(0.9);   /* makes faded grayscale logos read clearly */
 }
 
+/* Parallax car animation section */
+.pr-certified--parallax {
+  position: relative;
+  background: linear-gradient(180deg, #f4f1e8 0%, #ede9de 100%);
+  padding: var(--pr-s-9) var(--pr-s-5);
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.pr-certified--parallax .pr-certified__parallax-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  z-index: 0;
+}
+.pr-certified--parallax .pr-certified__parallax-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  z-index: 1;
+}
+.pr-certified--parallax .pr-certified__car {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  will-change: transform;
+}
+.pr-certified--parallax .pr-certified__stroke {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  pointer-events: none;
+}
+.pr-certified--parallax .pr-certified__content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+}
+.pr-certified--parallax .pr-certified__content h2 {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  margin-bottom: var(--pr-s-3);
+  color: var(--pr-ink);
+}
+.pr-certified--parallax .pr-certified__content p {
+  font-size: clamp(0.95rem, 2vw, 1.15rem);
+  color: var(--pr-ink-2);
+  margin-bottom: var(--pr-s-6);
+  line-height: 1.6;
+}
+.pr-certified--parallax .pr-certified__badges {
+  display: flex;
+  gap: var(--pr-s-5);
+  align-items: center;
+  justify-content: center;
+}
+.pr-certified--parallax .pr-certified__badges img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
 .pr-certified--image {
   background: var(--pr-cream);
   padding: 0;

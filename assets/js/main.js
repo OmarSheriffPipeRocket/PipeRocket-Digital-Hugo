@@ -473,6 +473,35 @@ const setupReveals = () => {
   targets.forEach((el) => io.observe(el));
 };
 
+// Scroll-based parallax animation for the car section
+const setupParallax = () => {
+  const section = document.querySelector('[data-parallax-section]');
+  const car = document.querySelector('[data-parallax-car]');
+  if (!section || !car) return;
+
+  const handleScroll = () => {
+    const rect = section.getBoundingClientRect();
+    const sectionHeight = section.offsetHeight;
+    const viewportHeight = window.innerHeight;
+
+    // Calculate how far through the section we are (0 to 1)
+    const scrollProgress = Math.max(0, Math.min(1,
+      (viewportHeight - rect.top) / (viewportHeight + sectionHeight)
+    ));
+
+    // Move car from left (0px) to right (based on scroll)
+    // Max movement: approximately 60% of viewport width
+    const maxMove = window.innerWidth * 0.6;
+    const moveAmount = scrollProgress * maxMove;
+
+    car.style.transform = `translateX(${moveAmount}px)`;
+  };
+
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  // Initial calculation
+  handleScroll();
+};
+
 const init = () => {
   setupMobileMenu();
   setupCounters();
@@ -492,6 +521,7 @@ const init = () => {
   setupReviewsFilter();
   setupClutchAccordion();
   setupReveals();
+  setupParallax();
 };
 
 // =========================================================
