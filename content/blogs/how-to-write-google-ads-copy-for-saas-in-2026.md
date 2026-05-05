@@ -71,7 +71,7 @@ The AI analyzes massive amounts of search behavior data to give us the raw motiv
 
 We do not stop at the psychological motivations. We push the AI further. We ask the AI to list the absolute “must-have” elements that need to be in our ad copy to guarantee a click from that specific persona searching for that specific Topic. We force the tool to give us the non-negotiable features or promises the buyer expects to see.
 
-If the searcher wants enterprise security, our Google Ads copy must explicitly mention our security certifications. If the searcher wants fast onboarding, our copy must promise setup within twenty-four hours. We refuse to leave these critical elements out of the final draft.
+If the searcher wants enterprise security, our [Google Ads](/glossary/what-is-google-ads/) copy must explicitly mention our security certifications. If the searcher wants fast onboarding, our copy must promise setup within twenty-four hours. We refuse to leave these critical elements out of the final draft.
 
 ## Step 3: Max Out the Responsive Search Ad Inventory
 
@@ -146,7 +146,7 @@ The third might focus entirely on enterprise security. We set the campaign setti
 
 ### When Do You Actually Make the Cut?
 
-We let these three ads run wild for a week or two. We monitor the traffic closely. After that initial testing period, we look at the hard numbers. We completely ignore our gut feelings. We narrow the selection down to the single best-performing ad based entirely on the Click-Through Rate and the overall Ad Rank.
+We let these three ads run wild for a week or two. We monitor the traffic closely. After that initial testing period, we look at the hard numbers. We completely ignore our gut feelings. We narrow the selection down to the single best-performing ad based entirely on the [Click-Through Rate](/glossary/what-is-ctr/) and the overall Ad Rank.
 
 We pause the losers immediately. We double down on the clear winner because the market has spoken.
 

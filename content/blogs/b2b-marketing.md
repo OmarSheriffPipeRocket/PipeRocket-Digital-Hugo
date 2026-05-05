@@ -54,13 +54,13 @@ So their research is broad, which includes blogs, reports, benchmarks, and short
 
 B2B decisions rarely involve one person. A single purchase can include users, technical evaluators, IT, procurement, and finance teams. Each group cares about different things, such as usability, integration, compliance, cost, and ROI.
 
-**Best fit here:** personas-based messaging, buyer enablement decks, comparison guides, and ABM campaigns.
+**Best fit here:** personas-based messaging, buyer enablement decks, comparison guides, and [ABM](/glossary/what-is-abm/) campaigns.
 
 ### 3. Building Trust Through Information
 
 Once the problem is clear, buyers shift to: “Who can actually solve this?” This is where they look for credibility, such as real results, real customers, and real expertise.
 
-**Best fit here:** case studies, whitepapers, webinars, expert thought leadership.
+**Best fit here:** case studies, whitepapers, webinars, expert [thought leadership](/glossary/what-is-thought-leadership/).
 
 ### 4. Supporting Longer Sales Journeys
 
@@ -120,7 +120,7 @@ Each stage needs different content, messaging, and support.
 - Social posts
 - Top-of-funnel reports
 
-**Best channels:** SEO, LinkedIn, YouTube, newsletters, and communities.
+**Best channels:** [SEO](/glossary/what-is-seo/), LinkedIn, YouTube, newsletters, and communities.
 
 ### 2. Consideration Stage
 
@@ -184,7 +184,7 @@ Content is still the engine of B2B marketing. Buyers want to learn on their own 
 
 ### 2. Account-Based Marketing (ABM)
 
-ABM focuses on high-value accounts with personalized campaigns tailored to their specific needs and buying committees. Instead of broad targeting, you prioritize ICP-fit companies and customize messaging for each group.
+ABM focuses on high-value accounts with personalized campaigns tailored to their specific needs and buying committees. Instead of broad targeting, you prioritize [ICP](/glossary/what-is-icp/)-fit companies and customize messaging for each group.
 
 **Why it works:** It increases relevance, reduces wasted spend, and builds stronger relationships with decision-makers.
 
@@ -255,7 +255,7 @@ The best results happen when both teams work toward the same goals. When messagi
 
 **How to apply it:**
 
-- Define MQL, SQL, and opportunities clearly
+- Define [MQL](/glossary/mql/), SQL, and opportunities clearly
 - Share dashboards between teams
 - Run joint QBRs
 - Align messaging across campaigns and sales enablement
@@ -264,7 +264,7 @@ Together, these strategies form a powerful, revenue-focused B2B marketing system
 
 ## Examples of B2B Marketing Tactics in Action
 
-Real B2B growth usually doesn’t come from one channel; it comes from the right mix of PPC, content, retargeting, and buying-group alignment. Here are two real-world examples that show how different tactics work together to drive revenue.
+Real B2B growth usually doesn’t come from one channel; it comes from the right mix of [PPC](/glossary/what-is-ppc/), content, retargeting, and buying-group alignment. Here are two real-world examples that show how different tactics work together to drive revenue.
 
 ### 1. Storylane: Using Paid Search + LinkedIn Retargeting to Increase SQLs and Demos
 

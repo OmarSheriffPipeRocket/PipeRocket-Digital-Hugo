@@ -27,7 +27,7 @@ Marketing ops does not write the email copy or design the landing page. It ensur
 
 | Function | Primary responsibility | Reports on |
 | --- | --- | --- |
-| Demand generation | Campaign execution and pipeline creation | MQLs, pipeline sourced, CAC |
+| Demand generation | Campaign execution and pipeline creation | [MQLs](/glossary/mql/), pipeline sourced, CAC |
 | Marketing operations | Technology, data, process, and measurement infrastructure | Data quality, attribution accuracy, system performance |
 | Revenue operations | Cross-functional alignment of sales, marketing, and CS processes | Revenue efficiency, win rates, funnel conversion |
 
@@ -50,7 +50,7 @@ Marketing ops is responsible for four interconnected domains. Weakness in any on
 
 **Reporting and attribution:** This is where most marketing ops functions are weakest and where the consequences are most visible. If your marketing team cannot draw a clear line from a campaign to a qualified opportunity, every budget decision is being made on incomplete information.
 
-**What this looks like in practice:** A SaaS company at $8M ARR has HubSpot, Salesforce, a LinkedIn Ads integration, and Google Analytics all running simultaneously. None of them are connected in a way that produces a coherent pipeline report. Marketing reports on MQLs. Sales reports on SQLs. Nobody knows the conversion rate between them, who is responsible for improving it, or which channels drive the leads that actually close. Every symptom the team is experiencing traces back to a marketing ops gap.
+**What this looks like in practice:** A SaaS company at $8M [ARR](/glossary/what-is-arr/) has HubSpot, Salesforce, a LinkedIn Ads integration, and Google Analytics all running simultaneously. None of them are connected in a way that produces a coherent pipeline report. Marketing reports on MQLs. Sales reports on SQLs. Nobody knows the [conversion rate](/glossary/what-is-conversion-rate/) between them, who is responsible for improving it, or which channels drive the leads that actually close. Every symptom the team is experiencing traces back to a marketing ops gap.
 
 ## How to Tell If Your B2B Marketing Ops Is Broken
 
@@ -66,7 +66,7 @@ This is the most diagnostic signal of broken marketing ops. When sales tells you
 
 If your monthly marketing report takes three or more days to compile because someone is manually pulling from multiple platforms and reconciling in a spreadsheet, your marketing ops is not functioning. Gartner research found that 94% of marketing organizations are formally pursuing operational excellence, but only 28% can actually demonstrate success from it.
 
-**What this looks like in practice:** A Series A SaaS marketing manager spends 12 hours every month building the pipeline report by pulling from HubSpot, LinkedIn Campaign Manager, Google Ads, and a spreadsheet nobody fully understands. The numbers change depending on which export she uses. The CMO presents different numbers to the board than the ones in the dashboard. Nobody acts on the report because nobody is confident it is right.
+**What this looks like in practice:** A Series A SaaS marketing manager spends 12 hours every month building the pipeline report by pulling from HubSpot, LinkedIn Campaign Manager, [Google Ads](/glossary/what-is-google-ads/), and a spreadsheet nobody fully understands. The numbers change depending on which export she uses. The CMO presents different numbers to the board than the ones in the dashboard. Nobody acts on the report because nobody is confident it is right.
 
 ### You cannot answer basic pipeline questions
 
@@ -90,7 +90,7 @@ At this stage, the primary objective is getting clean data from the start. The d
 | --- | --- | --- |
 | CRM foundation | Configure HubSpot or Salesforce with clean field definitions, lifecycle stages that map to your actual sales process, and lead source tracking from day one | Retrofitting a CRM with proper structure after two years of inconsistent data is significantly harder than building it correctly upfront |
 | Lead source attribution | Implement consistent UTM parameters across all marketing channels and map them to CRM contact fields | Without this, you will never know which channels are generating pipeline |
-| Basic lead routing | Build assignment rules that route leads to the right rep based on territory, company size, or ICP fit | Manual lead handling at this stage creates gaps that affect close rates |
+| Basic lead routing | Build assignment rules that route leads to the right rep based on territory, company size, or [ICP](/glossary/what-is-icp/) fit | Manual lead handling at this stage creates gaps that affect close rates |
 | One pipeline report | Build a single report showing leads by source, MQL-to-SQL conversion rate, and pipeline generated per channel | You need this before you can make any informed budget decision |
 | Simple nurture sequence | One automated follow-up sequence for inbound leads who do not book a demo immediately | Inbound leads that go un-nurtured convert at a fraction of the rate of those that receive timely follow-up |
 
@@ -120,7 +120,7 @@ At Series B, marketing ops moves from a support function to a strategic infrastr
 | --- | --- | --- |
 | Advanced revenue attribution | Move to a full multi-touch model tied to closed ARR, not just pipeline. Benchmark organic CAC against paid CAC | The CFO and board need to see channel efficiency against revenue outcomes, not just pipeline influenced |
 | Funnel governance | Document and enforce every stage definition, transition rule, and SLA. Audit quarterly for drift | With multiple SDRs, AEs, and marketing sub-teams, funnel definitions drift unless actively governed |
-| ABM infrastructure | Integrate an ABM platform (6sense or Demandbase) to identify and prioritize accounts showing active buying signals | At Series B, named account programs run alongside inbound. The ops infrastructure has to support both motions simultaneously |
+| [ABM](/glossary/what-is-abm/) infrastructure | Integrate an ABM platform (6sense or Demandbase) to identify and prioritize accounts showing active buying signals | At Series B, named account programs run alongside inbound. The ops infrastructure has to support both motions simultaneously |
 | Board-level reporting | Build a monthly marketing contribution report showing pipeline sourced, pipeline influenced, organic CAC versus paid CAC, and MQL-to-close rate by channel. It should take minutes to produce, not days | At Series B, every program needs to justify its budget against revenue outcomes in language that survives a board conversation |
 | Dedicated ops headcount | A dedicated marketing ops manager or director is no longer optional at this stage | Asking a demand gen manager to own ops alongside execution produces mediocre results in both areas |
 
@@ -205,4 +205,4 @@ A well-functioning setup produces monthly, automatically: pipeline sourced by ch
 
 ### 5. How does marketing operations interact with paid and organic programs?
 
-Marketing ops is what makes both programs measurable. Without proper UTM governance, CRM integration, and attribution, neither your [B2B PPC campaigns](https://piperocket.digital/blogs/b2b-ppc-guide/) nor your organic SEO program can prove their pipeline contribution. Marketing ops does not run those programs, but it provides the measurement infrastructure that determines whether they receive budget, get cut, or get scaled.
+Marketing ops is what makes both programs measurable. Without proper UTM governance, CRM integration, and attribution, neither your [B2B PPC campaigns](https://piperocket.digital/blogs/b2b-ppc-guide/) nor your organic [SEO](/glossary/what-is-seo/) program can prove their pipeline contribution. Marketing ops does not run those programs, but it provides the measurement infrastructure that determines whether they receive budget, get cut, or get scaled.

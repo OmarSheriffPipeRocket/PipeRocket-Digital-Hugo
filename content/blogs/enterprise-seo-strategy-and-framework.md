@@ -13,9 +13,9 @@ readingTime: "15 min read"
 
 ## TL;DR
 
-- Enterprise SEO strategy is the structured, cross-functional approach B2B SaaS companies use to drive pipeline from organic search at scale, across multiple product lines, stakeholders, and markets
+- Enterprise [SEO](/glossary/what-is-seo/) strategy is the structured, cross-functional approach B2B SaaS companies use to drive pipeline from organic search at scale, across multiple product lines, stakeholders, and markets
 - The biggest difference from SMB SEO is not the tactics. It is the organizational complexity underneath them
-- Pipeline-tied goals have to come before keyword research. Everything else flows from that
+- Pipeline-tied goals have to come before [keyword research](/glossary/what-is-keyword-research/). Everything else flows from that
 - Technical governance at enterprise scale prevents a single template error from cascading across thousands of pages
 - The companies that win at enterprise SEO build it as a revenue function, not a marketing activity
 
@@ -34,16 +34,16 @@ Here is how the key differences stack up:
 | Site scale | Dozens to hundreds of pages | Hundreds to thousands of pages |
 | Stakeholders | 1-3 people | SEO, content, engineering, product, RevOps |
 | Technical risk | Single template errors | Template errors cascade across thousands of pages |
-| Content scope | One product, one ICP | Multiple products, personas, and markets |
+| Content scope | One product, one [ICP](/glossary/what-is-icp/) | Multiple products, personas, and markets |
 | Reporting | Traffic and rankings | Pipeline, SQL attribution, organic CAC |
 | Governance | Ad hoc | Documented standards enforced at CMS level |
 | Link strategy | Opportunistic | Systematic, programmatic at scale |
 
 ## Why Enterprise SEO Is Different From SMB SEO
 
-The tactics of enterprise SEO are not fundamentally different from smaller-scale programs. The same principles apply: intent-matched keywords, high-quality content, strong technical foundations, and earned backlinks. What changes is everything around those tactics.
+The tactics of enterprise SEO are not fundamentally different from smaller-scale programs. The same principles apply: intent-matched keywords, high-quality content, strong technical foundations, and earned [backlinks](/glossary/what-is-a-backlink/). What changes is everything around those tactics.
 
-At enterprise scale, a single misconfigured noindex tag in a global page template can remove thousands of pages from Google’s index overnight. A content strategy built around one ICP falls apart when the company has five product lines serving different buyer personas. A reporting framework that worked for a 20-page site becomes useless when the domain has 2,000 pages generating traffic from hundreds of keyword clusters.
+At enterprise scale, a single misconfigured noindex tag in a global page template can remove thousands of pages from Google’s index overnight. A content strategy built around one ICP falls apart when the company has five product lines serving different [buyer personas](/glossary/buyer-persona/). A reporting framework that worked for a 20-page site becomes useless when the domain has 2,000 pages generating traffic from hundreds of [keyword clusters](/glossary/keyword-clusters/).
 
 The three things that break enterprise SEO programs most consistently:
 
@@ -58,13 +58,13 @@ The most common enterprise SEO mistake is starting with keyword research. Keywor
 Set your goals first using the metrics that connect to revenue:
 
 - Organic SQLs and demo requests per month (by quarter, with a 12-month ramp curve)
-- Organic-to-trial conversion rate by landing page
+- Organic-to-trial [conversion rate](/glossary/what-is-conversion-rate/) by landing page
 - Organic CAC versus paid CAC at the same pipeline volume
 - Share of pipeline influenced by organic across all channels
 
 Once those targets exist, every keyword decision, every content investment, and every technical fix can be evaluated against whether it moves those numbers. Without them, you are optimizing for inputs with no clarity on what outputs you need.
 
-**What this looks like in practice:** A $30M ARR SaaS company sets a goal to generate 40 organic SQLs per month by Q4. Working backwards from that target, they calculate they need approximately 8,000 organic visits per month from BOFU-intent pages at a 0.5% SQL conversion rate. That math tells them exactly how many comparison and alternatives pages to build, at what publishing cadence, to hit the number. The goal drove the strategy.
+**What this looks like in practice:** A $30M [ARR](/glossary/what-is-arr/) SaaS company sets a goal to generate 40 organic SQLs per month by Q4. Working backwards from that target, they calculate they need approximately 8,000 organic visits per month from BOFU-intent pages at a 0.5% SQL conversion rate. That math tells them exactly how many comparison and alternatives pages to build, at what publishing cadence, to hit the number. The goal drove the strategy.
 
 ## Step 2: Audit Technical Foundations at Enterprise Scale
 
@@ -76,10 +76,10 @@ The enterprise-specific technical areas that require auditing first:
 | --- | --- | --- |
 | Crawl efficiency | Crawl budget allocation, crawl depth, bot directives | Low-value pages consuming crawl budget needed for high-value content |
 | JavaScript rendering | SSR vs CSR configuration for all public pages | Full product sections invisible to Google’s crawler |
-| Template governance | Metadata, H1s, canonical tags in global templates | One error multiplied across hundreds or thousands of pages |
+| Template governance | Metadata, H1s, [canonical tags](/glossary/what-is-a-canonical-tag/) in global templates | One error multiplied across hundreds or thousands of pages |
 | URL architecture | Clean, logical, consistent URL structures | Parameter-heavy URLs creating duplicate content at scale |
-| Internal link structure | Link depth, orphaned pages, anchor text consistency | High-value pages buried more than 3 clicks from homepage |
-| Core Web Vitals | LCP, INP, CLS at page-template level | Performance issues that cannot be fixed page-by-page at scale |
+| Internal link structure | Link depth, orphaned pages, [anchor text](/glossary/what-is-anchor-text/) consistency | High-value pages buried more than 3 clicks from homepage |
+| Core Web Vitals | LCP, INP, [CLS](/glossary/what-is-cls/) at page-template level | Performance issues that cannot be fixed page-by-page at scale |
 
 Fix the template-level issues first. A page-by-page approach does not work at enterprise scale and creates maintenance debt that compounds over time.
 
@@ -164,7 +164,7 @@ Most enterprise SEO engagements start with a keyword spreadsheet and a content c
 
 Before a keyword tool opens, the team goes inside your sales call recordings, maps your ICP across each product line and buyer persona, and identifies the buying triggers and search behaviors that move a qualified enterprise prospect toward a conversation with sales. Every content investment is tied to a pipeline outcome before a word is written.
 
-- **[SaaS SEO:](https://piperocket.digital/saas-seo-agency/)** pipeline-first organic strategy built for enterprise SaaS complexity, with BOFU content live in month one, technical governance built into delivery, and every page measured against MQLs, SQLs, and pipeline contribution
+- **[SaaS SEO:](https://piperocket.digital/saas-seo-agency/)** pipeline-first organic strategy built for enterprise SaaS complexity, with BOFU content live in month one, technical governance built into delivery, and every page measured against [MQLs](/glossary/mql/), SQLs, and pipeline contribution
 - **[SaaS PPC:](https://piperocket.digital/saas-ppc/)** paid programs connected directly to your CRM so organic and paid report against the same pipeline outcomes, and SEO keyword data feeds paid targeting decisions
 - **[Marketing Operations:](https://piperocket.digital/marketing-ops/)** the attribution infrastructure, CRM configuration, and reporting framework that makes enterprise SEO pipeline contribution visible to the CFO, not just the marketing team
 
@@ -184,7 +184,7 @@ Technical fixes and governance improvements can show impact within 30 to 90 days
 
 A SEO lead or director who takes care of Strategy, prioritization, cross-functional alignment, reporting
 
-A Technical SEO specialist who takes care of Crawl, rendering, Core Web Vitals, schema, migrations
+A [Technical SEO](/glossary/what-is-technical-seo/) specialist who takes care of Crawl, rendering, Core Web Vitals, schema, migrations
 
 A Content strategist who does Keyword research, content briefs, architecture governance
 
@@ -198,7 +198,7 @@ Starting without pipeline-tied goals. When the SEO program does not have a defin
 
 ### 4. How does enterprise SEO interact with account-based marketing programs?
 
-They are complementary. ABM targets named accounts with personalized outreach. Enterprise SEO captures demand from decision-makers at those same accounts who are doing their own research outside of ABM touchpoints. The keyword data from your SEO program tells you which topics your target accounts are actively researching, which can sharpen your ABM content and outreach messaging.
+They are complementary. [ABM](/glossary/what-is-abm/) targets named accounts with personalized outreach. Enterprise SEO captures demand from decision-makers at those same accounts who are doing their own research outside of ABM touchpoints. The keyword data from your SEO program tells you which topics your target accounts are actively researching, which can sharpen your ABM content and outreach messaging.
 
 ### 5. Should enterprise SaaS companies build in-house SEO teams or work with agencies?
 

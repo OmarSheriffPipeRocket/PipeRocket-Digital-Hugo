@@ -13,7 +13,7 @@ readingTime: "18 min read"
 
 ### TL;DR
 
-- SaaS link building is the practice of acquiring backlinks to build search authority specifically for a software company’s most important pages
+- SaaS link building is the practice of acquiring [backlinks](/glossary/what-is-a-backlink/) to build search authority specifically for a software company’s most important pages
 - Most saas backlinks go to blog posts when product, comparison, and pricing pages are what actually drive revenue - that is where to start
 - Saas link building strategies like digital PR, original research, and AI visibility link building are significantly underused by most teams
 - If you are evaluating an authority link building service, the questions you ask before signing matter more than the tactics they pitch
@@ -46,7 +46,7 @@ Before you pitch a single journalist or send a single outreach email, audit wher
 
 These are your highest-leverage link targets. A product page, a comparison page, or a feature page sitting in position 11 to 20 is close enough to page one that a concentrated backlink push can move it. A blog post in the same position might drive traffic if it ranks, but that traffic may never convert.
 
-Pull your Google Search Console data and filter for pages with high impression counts but click-through rates below 2%. Those pages are being shown to your buyers and losing the click to a competitor. Build links there first.
+Pull your [Google Search Console](/glossary/what-is-google-search-console/) data and filter for pages with high impression counts but click-through rates below 2%. Those pages are being shown to your buyers and losing the click to a competitor. Build links there first.
 
 ### Create linkable entry points that funnel authority to your product pages
 
@@ -104,7 +104,7 @@ G2, Capterra, Software Advice, GetApp, and Product Hunt are the obvious ones. Be
 
 ### Integration marketplace listings as an underused link source
 
-If your product integrates with Zapier, HubSpot, Salesforce, or any major platform, get your integration listed in their marketplace. Zapier’s integration directory alone carries substantial domain authority, and the links are highly relevant to your product category. Most SaaS companies set up the integration and forget to claim the marketplace listing - a consistent and entirely free source of high-relevance saas backlinks.
+If your product integrates with Zapier, HubSpot, Salesforce, or any major platform, get your integration listed in their marketplace. Zapier’s integration directory alone carries substantial [domain authority](/glossary/what-is-domain-authority/), and the links are highly relevant to your product category. Most SaaS companies set up the integration and forget to claim the marketplace listing - a consistent and entirely free source of high-relevance saas backlinks.
 
 ## Strategy 6: Unlinked Brand Mention Reclamation
 
@@ -165,7 +165,7 @@ If you want to benchmark how top agencies approach this differently, our [SaaS S
 
 Most agencies approach saas link building as a volume exercise. We approach it as a pipeline problem. Every link we build is targeted at the pages that move buyers closer to a conversation, not the pages that look good in a monthly report.
 
-Our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) includes a full link building component built around the same ICP and pipeline logic we apply to every channel we touch. We start by identifying which pages in your site actually need backlinks based on their commercial value and current ranking position - not by defaulting to blog content because it is easier to pitch.
+Our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) includes a full link building component built around the same [ICP](/glossary/what-is-icp/) and pipeline logic we apply to every channel we touch. We start by identifying which pages in your site actually need backlinks based on their commercial value and current ranking position - not by defaulting to blog content because it is easier to pitch.
 
 Our saas link building strategies are built around editorial outreach, original research, integration ecosystem placement, and brand mention reclamation.
 
@@ -193,7 +193,7 @@ Most teams see initial rank movement on target URLs within two to four months of
 
 ### 4. Should I build links to my product pages or my blog?
 
-Both, but your product and comparison pages should be the priority, especially if you are working with a limited budget or link capacity. Blog posts naturally attract links through content distribution. Product pages almost never attract links organically, which means the only way they get saas backlinks is through deliberate strategy. The blog can support your product pages through internal linking once it has accumulated authority, but treating the blog as your primary link building target while your product pages sit with no backlinks is one of the most common and costly mistakes we see in B2B SaaS SEO programs.
+Both, but your product and comparison pages should be the priority, especially if you are working with a limited budget or link capacity. Blog posts naturally attract links through content distribution. Product pages almost never attract links organically, which means the only way they get saas backlinks is through deliberate strategy. The blog can support your product pages through internal linking once it has accumulated authority, but treating the blog as your primary link building target while your product pages sit with no backlinks is one of the most common and costly mistakes we see in B2B SaaS [SEO](/glossary/what-is-seo/) programs.
 
 ### 5. What makes a backlink high quality for a SaaS company?
 

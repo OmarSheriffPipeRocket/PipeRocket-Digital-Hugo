@@ -22,18 +22,18 @@ relatedLinks:
 
 ## The MQL theatre problem
 
-Most B2B SaaS dashboards still report MQLs as if they were pipeline. They aren't. An MQL is a *score*, not a *commitment*. When marketing optimises toward a score, sales gets a long list of contacts who clicked something - not a list of accounts ready to talk.
+Most B2B SaaS dashboards still report [MQLs](/glossary/mql/) as if they were pipeline. They aren't. An MQL is a *score*, not a *commitment*. When marketing optimises toward a score, sales gets a long list of contacts who clicked something - not a list of accounts ready to talk.
 
 > "If a metric doesn't move pipeline or revenue, we don't optimise toward it."
 
-We learned this the hard way running performance marketing inside SaaS companies before we built PipeRocket.
+We learned this the hard way running [performance marketing](/glossary/what-is-performance-marketing/) inside SaaS companies before we built PipeRocket.
 
 ## What we track instead
 
 The four numbers we actually surface to a CEO or board:
 
 1. **Pipeline created** - by source, segment, and campaign
-2. **CAC payback** - by ICP fit
+2. **CAC payback** - by [ICP](/glossary/what-is-icp/) fit
 3. **SQO conversion** - qualified-opportunity rate, not lead-to-MQL
 4. **Revenue attributed** - multi-touch, not last-click
 

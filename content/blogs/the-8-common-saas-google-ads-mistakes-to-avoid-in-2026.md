@@ -12,7 +12,7 @@ wp_link: "https://piperocket.digital/blogs/saas-google-ads-mistakes-to-avoid/"
 readingTime: "23 min read"
 ---
 
-But if you have ever actually tried to run a Google Ads account for a SaaS product and watched your budget disappear with nothing to show for it, you already know that advice does not get you very far.
+But if you have ever actually tried to run a [Google Ads](/glossary/what-is-google-ads/) account for a SaaS product and watched your budget disappear with nothing to show for it, you already know that advice does not get you very far.
 
 I manage Google Ads accounts for B2B SaaS companies every single day, and I keep seeing the same mistakes come up over and over again. So here is what they actually are, what they are genuinely costing you, and how we fix them.
 
@@ -27,7 +27,7 @@ I manage Google Ads accounts for B2B SaaS companies every single day, and I keep
 | **Not having a contextual landing page** | The click arrives and immediately bounces because the page does not match what the ad promised | Build a dedicated landing page per campaign |
 | **Not auditing campaigns regularly** | Problems compound silently for weeks before anyone notices | Full audit every two weeks, no exceptions |
 | **Not targeting your own brand keyword** | Competitors intercept warm traffic that already knows your name | Dedicate budget specifically to branded search |
-| **Not having target keywords in your ad copy** | Lower Quality Score, higher CPCs, and lower CTR from searchers who do not feel the ad is relevant | Write copy around the keyword, not alongside it |
+| **Not having target keywords in your ad copy** | Lower Quality Score, higher CPCs, and lower [CTR](/glossary/what-is-ctr/) from searchers who do not feel the ad is relevant | Write copy around the keyword, not alongside it |
 | **Not using ad extensions** | Smaller footprint on the results page, less context for the buyer, and weaker click-through rates | Add sitelinks, callouts, and structured snippets to every campaign before it goes live |
 
 ## Mistake 1: Going for Top-of-Funnel Keywords Initially
@@ -53,7 +53,7 @@ You are paying to put your ad in front of someone who does not even fully unders
 ### How to avoid it:
 
 - **Start with BoFu keywords**. The searches that happen when someone has already decided they need a solution and is now figuring out which one to pick. That is the moment you want to show up, not six months earlier when they are still Googling what the problem even is
-- Once those campaigns are generating real conversion data and running at a viable CPA, then you start moving up into mid-funnel and eventually ToFu
+- Once those campaigns are generating real conversion data and running at a viable [CPA](/glossary/what-is-cpa/), then you start moving up into mid-funnel and eventually ToFu
 
 Think of it as building from the bottom up. Prove the channel works where the intent is highest first, then expand with actual data behind the decision
 
@@ -241,7 +241,7 @@ Say you sell customer support software and a prospect who heard about you on a p
 
 ## Mistake 7: Ignoring Your Target Keywords in Your Ad Copies
 
-Keyword research and [Google ads copywriting](https://piperocket.digital/blogs/how-to-write-saas-google-ads-copy/) usually happen in separate sessions, handled by different people, and they often do not really talk to each other. That disconnect shows up directly in your Quality Scores and your cost per click.
+[Keyword research](/glossary/what-is-keyword-research/) and [Google ads copywriting](https://piperocket.digital/blogs/how-to-write-saas-google-ads-copy/) usually happen in separate sessions, handled by different people, and they often do not really talk to each other. That disconnect shows up directly in your Quality Scores and your [cost per click](/glossary/what-is-cost-per-click/).
 
 ### What the mistake looks like:
 

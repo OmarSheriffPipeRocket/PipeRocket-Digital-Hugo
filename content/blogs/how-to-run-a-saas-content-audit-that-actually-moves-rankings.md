@@ -12,17 +12,17 @@ wp_link: "https://piperocket.digital/blogs/how-to-do-saas-content-audit/"
 readingTime: "13 min read"
 ---
 
-Not the generic “update your meta descriptions” kind. The kind that systematically repairs what’s broken, realigns your pages with how Google ranks today, and turns your existing library into a compounding traffic machine.
+Not the generic “update your [meta descriptions](/glossary/what-is-a-meta-description/)” kind. The kind that systematically repairs what’s broken, realigns your pages with how Google ranks today, and turns your existing library into a compounding traffic machine.
 
 ## TL;DR
 
 Here’s the TL;DR version on running an effective SaaS content audit.
 
-- **Check SERP & User Intent**: Make sure your content format matches what Google rewards and what your reader actually wants
+- **Check [SERP](/glossary/what-is-serp/) & User Intent**: Make sure your content format matches what Google rewards and what your reader actually wants
 - **Directly Answer The Query:** Lead with the answer, cut anything that delays it
 - **Take Care of Internal & External Links**: Fix broken links, replace outdated sources, and fill your interlink gaps
 - **Ensure Readability**: Short paragraphs, simple language, WEBP images, and visuals that actually add context
-- **Implement Schema Markup**: Implement Article, FAQ, and Review schema wherever relevant
+- **Implement [Schema Markup](/glossary/what-is-schema-markup/)**: Implement Article, FAQ, and Review schema wherever relevant
 - **Ensure E-E-A-T Signals Are Met:** Add author bios and reference real experiences and specific outcomes
 - **Include Secondary Keywords**: Find and contextually add the related keywords your content is missing
 - **Ensure FAQ Relevance**: Build your FAQ from “People Also Ask” and Reddit, not from guesswork
@@ -118,7 +118,7 @@ Schema is easy to get right and easy to ignore, and most SaaS content teams igno
 **For SaaS blog content, here’s what to implement:**
 
 - **Article or BlogPosting schema** on every blog post - with author name and editor name populated
-- **FAQ schema** on any piece with a FAQ section - this enables rich results in the SERP and meaningfully increases click-through rate
+- **FAQ schema** on any piece with a FAQ section - this enables rich results in the SERP and meaningfully increases [click-through rate](/glossary/what-is-ctr/)
 
 Most CMS platforms make this straightforward to set up. The upside in SERP visibility is real, and there’s no excuse to skip it.
 
@@ -225,7 +225,7 @@ If you’re about to invest budget in a new batch of [SaaS SEO](https://piperock
 
 ## How PipeRocket Digital Can Run SaaS Content Audits For You
 
-A SaaS content audit done properly is time-intensive and most SaaS marketing teams either don’t have the bandwidth or don’t have the SEO depth to execute every step correctly.
+A SaaS content audit done properly is time-intensive and most SaaS marketing teams either don’t have the bandwidth or don’t have the [SEO](/glossary/what-is-seo/) depth to execute every step correctly.
 
 A shallow audit produces shallow results and that’s the version most agencies deliver.
 

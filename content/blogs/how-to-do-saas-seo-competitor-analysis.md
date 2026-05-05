@@ -22,8 +22,8 @@ In this guide, I want to walk you through the exact process we use at PipeRocket
 
 ## TL;DR
 
-- **Prioritize Revenue Over Vanity Metrics:** For SaaS SEO competitor analysis ignores “vanity metrics” like total blog post counts or high-volume traffic. Instead, use tools like Semrush or Ahrefs to identify “Money Pages” like Use Case, Industry Vertical, Comparison, Alternative, and Listicle pages, where users are actively in “buying mode”.
-- **The Hybrid Strategy:** You must differentiate between **Direct Competitors** (business rivals) and **SERP Competitors** (ranking rivals). The winning strategy involves taking the persuasive sales logic and product messaging from direct rivals and injecting it into the structural blueprint and content depth preferred by Google from SERP winners.
+- **Prioritize Revenue Over Vanity Metrics:** For SaaS [SEO](/glossary/what-is-seo/) competitor analysis ignores “vanity metrics” like total blog post counts or high-volume traffic. Instead, use tools like Semrush or Ahrefs to identify “Money Pages” like Use Case, Industry Vertical, Comparison, Alternative, and Listicle pages, where users are actively in “buying mode”.
+- **The Hybrid Strategy:** You must differentiate between **Direct Competitors** (business rivals) and **[SERP](/glossary/what-is-serp/) Competitors** (ranking rivals). The winning strategy involves taking the persuasive sales logic and product messaging from direct rivals and injecting it into the structural blueprint and content depth preferred by Google from SERP winners.
 - **Bridge the Gap Between Product and Intent:** A superior product will still lose if its content isn’t aligned with market search behavior. To outrank competitors, you must solve for search intent, cover entire topical clusters to build authority, and implement E-E-A-T signals like clear author bylines and transparent data citations.
 
 ## What I look for in a SaaS SEO Competitor Analysis
@@ -64,7 +64,7 @@ These are the companies you talk about in your board meetings. They offer the ex
 
 Why we analyze them is simple. We look at them to understand the “Money Page”. We need to know exactly how they are selling the product, the messaging, the features, the pricing tiers, and the unique selling propositions (USPs).
 
-But here is the trap. Do not blindly copy their [SaaS SEO strategy](https://piperocket.digital/blogs/saas-seo/). Often, direct competitors rank purely because of brand power, not because their **keyword research** is good. If you copy the structure of a giant brand, you might fail because you don’t have their domain authority.
+But here is the trap. Do not blindly copy their [SaaS SEO strategy](https://piperocket.digital/blogs/saas-seo/). Often, direct competitors rank purely because of brand power, not because their **[keyword research](/glossary/what-is-keyword-research/)** is good. If you copy the structure of a giant brand, you might fail because you don’t have their [domain authority](/glossary/what-is-domain-authority/).
 
 ### 2. SERP Competitors: They are Your Ranking Rivals
 
@@ -108,7 +108,7 @@ Why they work is about connection. These pages scream relevance. If I am a real 
 
 These are absolute gold mines. These are pages targeting keywords like “Slack vs Microsoft Teams” or “Salesforce vs HubSpot”.
 
-Why they work is timing. The user searching for this is at the very bottom of the funnel. They already know the problem. They already know the potential solutions. They are just trying to decide who is the best provider. If you can intercept this traffic, the conversion rate is incredibly high.
+Why they work is timing. The user searching for this is at the very bottom of the funnel. They already know the problem. They already know the potential solutions. They are just trying to decide who is the best provider. If you can intercept this traffic, the [conversion rate](/glossary/what-is-conversion-rate/) is incredibly high.
 
 ### 4. Alternative Pages
 
@@ -170,7 +170,7 @@ Let me give you a real example of how this applies to copy. We had a client who 
 
 **The Result:** Within a couple of days, the page went **from page 2 to first page, 2nd position of the SERP - with a** **30% increase in traffic.**
 
-This didn’t happen because we bought backlinks. It happened because we analyzed the SERP intent and fixed the copy to solve the user’s problem immediately.
+This didn’t happen because we bought [backlinks](/glossary/what-is-a-backlink/). It happened because we analyzed the SERP intent and fixed the copy to solve the user’s problem immediately.
 
 ## How I Analyze a Competitor’s Topical and Domain Authority
 
@@ -246,7 +246,7 @@ This kind of honesty is rare in SaaS [B2B marketing](https://piperocket.digital/
 
 Competitor analysis for SaaS SEO can be a rabbit hole. You can spend weeks analyzing data that doesn’t matter. To stay focused on revenue, you must know what to ignore.
 
-**Navigational Traffic:** Ignore keywords like “Zoho Login” or “Slack Sign In.” That is existing customer traffic. It looks huge in the traffic reports, but it is useless for lead generation. We only care about Organic Non-Brand Traffic.
+**Navigational Traffic:** Ignore keywords like “Zoho Login” or “Slack Sign In.” That is existing customer traffic. It looks huge in the traffic reports, but it is useless for [lead generation](/glossary/what-is-lead-generation/). We only care about Organic Non-Brand Traffic.
 
 **“Study Mode” Traffic:** We want users in “buying mode”. Ignore queries that look like students looking for definitions (e.g., “History of payroll systems”). Focus on queries that imply a business need.
 

@@ -14,9 +14,9 @@ readingTime: "12 min read"
 
 We’ve all been there.
 
-You’re staring at a Google Ads dashboard that looks like it was organized by a toddler. Or maybe you’ve just inherited an ad account from a previous agency, and you’re trying to figure out why they were bidding on keywords that have absolutely nothing to do with your product.
+You’re staring at a [Google Ads](/glossary/what-is-google-ads/) dashboard that looks like it was organized by a toddler. Or maybe you’ve just inherited an ad account from a previous agency, and you’re trying to figure out why they were bidding on keywords that have absolutely nothing to do with your product.
 
-Whether you are trying to fix a broken funnel or just looking for efficiency in a chaotic account, you need a SaaS PPC audit. But not just a checklist of “did we use correct capitalization in headlines?”
+Whether you are trying to fix a broken funnel or just looking for efficiency in a chaotic account, you need a SaaS [PPC](/glossary/what-is-ppc/) audit. But not just a checklist of “did we use correct capitalization in headlines?”
 
 Let’s walk through how to audit a SaaS PPC account the right way, from the high-level strategy down to the nitty-gritty settings.
 
@@ -35,7 +35,7 @@ You cannot determine if a keyword is “good” or “bad” if you don’t know
 You need to fundamentally understand what is being sold. This sounds obvious, but you’d be surprised how many audits skip this.
 
 - **What is the product?** What problem does it *actually* solve? Not the feature list, but the pain point.
-- **Who is the ICP (Ideal Customer Profile)?** Be specific. “Marketing Managers” is too broad. “Marketing Ops Managers at Series B SaaS companies using Salesforce” is better.
+- **Who is the [ICP](/glossary/what-is-icp/) (Ideal Customer Profile)?** Be specific. “Marketing Managers” is too broad. “Marketing Ops Managers at Series B SaaS companies using Salesforce” is better.
 - **Who are the competitors?** Who are you bidding against? Who is stealing your lunch money? Where do you stand in the market compared to them?
 
 **Why this matters:**
@@ -47,14 +47,14 @@ This gives you the “overall picture” regarding messaging and positioning. If
 SaaS isn’t e-commerce. You aren’t selling $20 t-shirts where a click equals a sale. You have a funnel, and usually, it’s leaky. You need to understand the *entire* inbound flow before you judge the ads.
 
 - **The Flow:** How does a lead come in? Do they request a demo? Start a free trial? Download a whitepaper?
-- **The Quality Check:** This is huge. Don’t just count “leads.” A “lead” could be a student looking for research or a bot. You need to look at **MQLs** (Marketing Qualified Leads) and **SQLs** (Sales Qualified Leads).
+- **The Quality Check:** This is huge. Don’t just count “leads.” A “lead” could be a student looking for research or a bot. You need to look at **[MQLs](/glossary/mql/)** (Marketing Qualified Leads) and **SQLs** (Sales Qualified Leads).
 - **For your SaaS brand:** You should be looking at whether your leads are flowing through this funnel: **Leads → MQLs  → SQLs → Converted to a paying customer**.
 
 **Audit Tip:** If you can’t see this data, don’t go into the audit yet and fix your tracking. If you are optimizing for “Leads” but 90% of them are junk, your audit will lead you in the wrong direction.
 
 ### 3. Set Your Benchmarks
 
-You need a baseline. If your conversion rate is 2%, is that good? Bad? Terrible?
+You need a baseline. If your [conversion rate](/glossary/what-is-conversion-rate/) is 2%, is that good? Bad? Terrible?
 
 For your specific category, you should have a rough idea.
 
@@ -100,7 +100,7 @@ Don’t look at all campaigns at once. Segment them.
 
 **Audit Action:**
 
-Look for “Budget Capping.” Are your best performing campaigns limited by budget? If your “Competitor” campaign has an amazing CPA (Cost Per Acquisition) but is losing 50% of impression share due to budget, that is the easiest win you will find all day.
+Look for “Budget Capping.” Are your best performing campaigns limited by budget? If your “Competitor” campaign has an amazing CPA ([Cost Per Acquisition](/glossary/what-is-cpa/)) but is losing 50% of impression share due to budget, that is the easiest win you will find all day.
 
 ### 2. The Keyword vs. Search Term Audit
 
@@ -147,7 +147,7 @@ We didn’t panic. We took the “Eagle’s View.”
 
 **The Root Cause:**
 
-Because the CPC (Cost Per Click) shot up, their daily budget was being exhausted after just a few clicks.
+Because the CPC ([Cost Per Click](/glossary/what-is-cost-per-click/)) shot up, their daily budget was being exhausted after just a few clicks.
 
 - **High CPC** = Fewer Clicks for the same budget.
 - **Fewer Clicks** = Fewer Conversions.
@@ -186,11 +186,11 @@ Since this is an interruption channel, are people actually stopping to look?
 - **Dwell Time:** Are they spending time with the ad?
 - **Creative Formats:** What are you running? Single Image? Video? Carousel?
 
-**Pro Tip:** Segment your performance by ad format. You might find that Carousels drive high engagement but Video drives better brand recall (though harder to track). If your ads aren’t resonating well (low CTR, low engagement), you need to reiterate and come up with an actionable item for creative testing.
+**Pro Tip:** Segment your performance by ad format. You might find that Carousels drive high engagement but Video drives better brand recall (though harder to track). If your ads aren’t resonating well (low [CTR](/glossary/what-is-ctr/), low engagement), you need to reiterate and come up with an actionable item for creative testing.
 
 ### 3. Audience Penetration Check
 
-Are you reaching a significant percentage of your total addressable market (TAM) on LinkedIn? If your audience size is 50,000 and you’ve only reached 2,000 of them in 3 months, you aren’t penetrating the audience.
+Are you reaching a significant percentage of your [total addressable market](/glossary/what-is-tam-sam-som/) (TAM) on LinkedIn? If your audience size is 50,000 and you’ve only reached 2,000 of them in 3 months, you aren’t penetrating the audience.
 
 Read our dedicated blog to avoid the [common SaaS LinkedIn Ads mistakes](https://piperocket.digital/blogs/saas-linkedin-ads-mistakes-to-avoid/)
 

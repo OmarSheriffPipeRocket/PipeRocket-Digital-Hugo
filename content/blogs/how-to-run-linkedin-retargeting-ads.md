@@ -22,7 +22,7 @@ LinkedIn Retargeting Ads are advertisements that track and target professionals 
 
 ## What are the core segments of a winning LinkedIn Ads strategy?
 
-When we map out [LinkedIn ads](https://piperocket.digital/blogs/how-to-run-linkedin-ads-for-saas/), we only focus on three important segments. You have your prospecting layer. You have your Account-Based Marketing (ABM) layer. You have your LinkedIn retargeting ads layer. I want to take a deep dive into LinkedIn retargeting ads right now because that is where the easiest revenue lives.
+When we map out [LinkedIn ads](https://piperocket.digital/blogs/how-to-run-linkedin-ads-for-saas/), we only focus on three important segments. You have your prospecting layer. You have your [Account-Based Marketing](/glossary/what-is-abm/) (ABM) layer. You have your LinkedIn retargeting ads layer. I want to take a deep dive into LinkedIn retargeting ads right now because that is where the easiest revenue lives.
 
 A prospect finds you by searching organically. They might find you through paid ads. They look around your website completely. If you are selling B2B SaaS, LinkedIn is your absolute best bet to stay in front of them. We are going to break down exactly how we set up audiences for LinkedIn retargeting ads audiences step by step.
 
@@ -118,7 +118,7 @@ Beyond that, you can retarget based on internal actions, such as people who view
 
 ### 2. How much do 1000 impressions cost on LinkedIn?
 
-The cost per 1000 impressions (CPM) on LinkedIn is generally higher than on platforms like Facebook or X, typically ranging between **$20 and $50+**. However, this varies wildly based on your target audience’s seniority and industry. Targeting C-suite executives in the tech sector will naturally command a higher premium than targeting entry-level employees in retail.
+The cost per 1000 impressions ([CPM](/glossary/what-is-cpm/)) on LinkedIn is generally higher than on platforms like Facebook or X, typically ranging between **$20 and $50+**. However, this varies wildly based on your target audience’s seniority and industry. Targeting C-suite executives in the tech sector will naturally command a higher premium than targeting entry-level employees in retail.
 
 Because LinkedIn’s data is professional and self-reported, you are paying for the precision of reaching a specific job title or company, rather than just raw volume. It is often more expensive, but the lead quality is usually superior.
 
@@ -126,7 +126,7 @@ Because LinkedIn’s data is professional and self-reported, you are paying for 
 
 **Yes, they are often the highest-ROI campaigns you can run.** In B2B marketing, the sales cycle is long, and a user rarely converts on their first visit. Retargeting keeps your brand top-of-mind as the prospect moves through the “marketing funnel.” It allows you to serve specific content based on their stage; for example, if they visited your pricing page, you might show them a testimonial or a case study.
 
-Because you are reaching people who already know your brand, these ads typically see much higher click-through rates (CTR) and lower conversion costs than “cold” outreach campaigns.
+Because you are reaching people who already know your brand, these ads typically see much higher click-through rates ([CTR](/glossary/what-is-ctr/)) and lower conversion costs than “cold” outreach campaigns.
 
 ### 4. What is the minimum audience size for LinkedIn retargeting?
 

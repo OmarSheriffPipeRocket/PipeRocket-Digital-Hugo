@@ -63,7 +63,7 @@ This is one of the most frustrating saas marketing pain points because it feels 
 
 In most cases, the issue is not the content quality itself. It is that the content targets keywords without considering buyer intent, which means you are attracting traffic that will never buy. There is no clear path from content to conversion, so someone reads your article and then has nowhere to go. Or the content reads like everyone else’s, covering the same ground as the top five results with nothing distinctive.
 
-What we keep seeing is that teams measure content success by traffic and rankings, but never connect it to pipeline. The content might be “working” by SEO metrics while completely failing as a business asset.
+What we keep seeing is that teams measure content success by traffic and rankings, but never connect it to pipeline. The content might be “working” by [SEO](/glossary/what-is-seo/) metrics while completely failing as a business asset.
 
 ### What We Would Do About It
 
@@ -92,7 +92,7 @@ Traditional attribution models miss the touchpoints that actually influenced the
 You cannot control dark social, but you can influence it by being genuinely useful and visible in the spaces where your buyers spend their time.
 
 - Show up where your buyers hang out by participating genuinely in communities, not just dropping links
-- Invest in thought leadership that gives your founders and experts a voice in the conversations your buyers are already having
+- Invest in [thought leadership](/glossary/what-is-thought-leadership/) that gives your founders and experts a voice in the conversations your buyers are already having
 - Create content worth sharing - the kind of insights that get forwarded in Slack channels and referenced in peer conversations
 - Ask new customers how they heard about you in a freeform text field, not a dropdown, because the real answer is almost never “Google ad”
 
@@ -130,7 +130,7 @@ The connection between marketing and churn is more direct than most teams realiz
 
 ### What We Would Do About It
 
-- Tighten your ICP targeting so your marketing attracts customers who will actually succeed with your product
+- Tighten your [ICP](/glossary/what-is-icp/) targeting so your marketing attracts customers who will actually succeed with your product
 - Align your marketing messaging with the real product experience so there is no gap between what was promised and what is delivered
 - Build post-sale content like onboarding sequences, feature education, and best practice guides that keep customers engaged and getting value
 - Track which acquisition channels produce the highest-LTV customers and double down on those, even if they have higher upfront CAC
@@ -187,7 +187,7 @@ From what we see across the SaaS companies we work with, the biggest challenge i
 
 ### 2. Why is customer acquisition so expensive for SaaS companies compared to other industries?
 
-SaaS companies are competing for the same buyers across the same channels, which drives up the cost of every paid impression. Beyond that, SaaS buying decisions involve multiple stakeholders with longer evaluation cycles, which means more touchpoints before a deal closes and a higher total cost per acquisition. The companies that solve this shift their mix toward channels that build audience over time, like SEO, community, and content, rather than channels that reset to zero every month.
+SaaS companies are competing for the same buyers across the same channels, which drives up the cost of every paid impression. Beyond that, SaaS buying decisions involve multiple stakeholders with longer evaluation cycles, which means more touchpoints before a deal closes and a higher total [cost per acquisition](/glossary/what-is-cpa/). The companies that solve this shift their mix toward channels that build audience over time, like SEO, community, and content, rather than channels that reset to zero every month.
 
 ### 3. How do you reduce churn when it feels like a product problem, not a marketing one?
 
