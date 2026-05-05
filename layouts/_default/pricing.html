@@ -1,0 +1,497 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">Pricing built around pipeline,</span>
+          <span class="pr-hero__title-strong">not deliverables.</span>
+        </h1>
+        <div class="pr-hero__copy">
+          <p>Most agencies bill for activity. PipeRocket prices an embedded revenue team that owns one number — pipeline contribution from your ICP. Plans start at <strong>$3,000 / month</strong> with a 6-month minimum.</p>
+        </div>
+
+        <div class="pr-hero__cta-row" style="display:flex; gap:var(--pr-s-3); flex-wrap:wrap;">
+          <a href="#tiers" class="pr-btn">See plans</a>
+          <a href="#fit" class="pr-btn pr-btn--ghost">Are we a fit?</a>
+        </div>
+
+        <ul class="pr-hero__meta" style="display:flex; gap:var(--pr-s-5); flex-wrap:wrap; margin:var(--pr-s-5) 0 0; padding:0; list-style:none; font-size:0.9rem; color:var(--pr-ink-2);">
+          <li>✓ 4.8 on Clutch</li>
+          <li>✓ 50+ B2B SaaS clients</li>
+          <li>✓ Pipeline reporting from week 4</li>
+        </ul>
+      </div>
+
+      <!-- HERO COLLAGE → Pipeline Gap Calculator (interactive free tool) -->
+      <div class="pr-hero__collage" aria-label="Pipeline Gap Calculator — see what pipeline you need to hit your ARR target">
+        <div class="pr-calc pr-calc--hero" id="calculator">
+          <div class="pr-calc__hero-head">
+            <span class="pr-eyebrow pr-eyebrow--red">Free Tool</span>
+            <h3 class="pr-calc__title">Pipeline Gap Calculator</h3>
+            <p class="pr-calc__sub">Plug in your numbers. See what pipeline you actually need to hit your ARR target — and which tier fits.</p>
+          </div>
+
+          <div class="pr-calc__row">
+            <label class="pr-calc__field">
+              <span class="pr-calc__label">Current ARR <em>USD</em></span>
+              <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="cArr" value="1000000" min="0"></span>
+            </label>
+            <label class="pr-calc__field">
+              <span class="pr-calc__label">Target ARR (12 months) <em>USD</em></span>
+              <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="tArr" value="3000000" min="0"></span>
+            </label>
+            <label class="pr-calc__field">
+              <span class="pr-calc__label">Average ACV <em>USD</em></span>
+              <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="acv" value="50000" min="1"></span>
+            </label>
+            <label class="pr-calc__field">
+              <span class="pr-calc__label">SQL → won rate <em>typical: 20%</em></span>
+              <span class="pr-calc__input-wrap"><input type="number" id="closeRate" value="20" min="1" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+            </label>
+          </div>
+
+          <div class="pr-calc__results">
+            <h5>Pipeline you need to hit target</h5>
+            <div class="pr-calc__grid">
+              <div class="pr-calc__stat"><div class="pr-calc__v" id="rGap">—</div><div class="pr-calc__l">New ARR gap</div></div>
+              <div class="pr-calc__stat"><div class="pr-calc__v" id="rCust">—</div><div class="pr-calc__l">New customers</div></div>
+              <div class="pr-calc__stat"><div class="pr-calc__v" id="rSql">—</div><div class="pr-calc__l">SQLs needed</div></div>
+              <div class="pr-calc__stat"><div class="pr-calc__v" id="rMql">—</div><div class="pr-calc__l">MQLs needed</div></div>
+            </div>
+            <div class="pr-calc__rec" id="calcRec">Enter all four numbers above to see your pipeline gap and tier recommendation.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     TIERS
+     ==================================================== -->
+<section class="pr-section" id="tiers">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <span class="pr-eyebrow pr-eyebrow--red">Engagement Plans</span>
+      <h2>Three ways to embed PipeRocket inside your revenue team</h2>
+      <p>Pick the engagement that matches your stage. Every plan includes ICP definition, sales-call listening, and the Revenue Loop framework. No content factories. No traffic reports.</p>
+    </div>
+
+    <div class="pr-pricing-tiers">
+      <article class="pr-tier">
+        <div class="pr-tier__step">01</div>
+        <h3 class="pr-tier__name">Single-Channel Embed</h3>
+        <p class="pr-tier__built-for">Built for Early Scalers — post-PMF SaaS at $1–5M ARR.</p>
+        <div class="pr-tier__price">
+          <span class="pr-tier__from">from</span>
+          <span class="pr-tier__num">$3K</span>
+          <span class="pr-tier__per">/ month</span>
+        </div>
+        <p class="pr-tier__commit"><strong>6-month minimum</strong> · 1 channel owned end to end</p>
+        <ul class="pr-tier__features">
+          <li>One channel, fully owned: SEO, PPC, or Content</li>
+          <li>ICP definition before any keyword tool opens</li>
+          <li>Sales-call listening before any brief is written</li>
+          <li>BOFU pages or campaigns live inside month one</li>
+          <li>Weekly pipeline sync with your team</li>
+          <li>Monthly pipeline contribution report (not a traffic report)</li>
+        </ul>
+        <a href="#final" class="pr-btn pr-btn--ghost">Book a scoping call</a>
+      </article>
+
+      <article class="pr-tier pr-tier--popular">
+        <div class="pr-tier__badge">Most chosen</div>
+        <div class="pr-tier__step">02</div>
+        <h3 class="pr-tier__name">Multi-Channel Embed</h3>
+        <p class="pr-tier__built-for">Built for Growth Stage SaaS at $5–15M ARR.</p>
+        <div class="pr-tier__price">
+          <span class="pr-tier__from">from</span>
+          <span class="pr-tier__num">$10K</span>
+          <span class="pr-tier__per">/ month</span>
+        </div>
+        <p class="pr-tier__commit"><strong>6-month minimum</strong> · 2–3 channels in lockstep</p>
+        <ul class="pr-tier__features">
+          <li>Two to three channels working as one system</li>
+          <li>Common combos: SEO + Content + Backlinks, or PPC + ABM + MarOps</li>
+          <li>Cross-channel attribution from day one</li>
+          <li>MarOps setup and CRM alignment included</li>
+          <li>Bi-weekly pipeline review with your sales lead</li>
+          <li>Revenue Reconciliation Model: pipeline by channel, audience, intent</li>
+          <li>AEO and GEO audit at month 3</li>
+        </ul>
+        <a href="#final" class="pr-btn">Book a scoping call</a>
+      </article>
+
+      <article class="pr-tier">
+        <div class="pr-tier__step">03</div>
+        <h3 class="pr-tier__name">Full GTM Embed</h3>
+        <p class="pr-tier__built-for">Built for Enterprise Movers at $10M+ ARR scaling into Mid-Market and Enterprise.</p>
+        <div class="pr-tier__price">
+          <span class="pr-tier__from">from</span>
+          <span class="pr-tier__num">$20K</span>
+          <span class="pr-tier__per">/ month</span>
+        </div>
+        <p class="pr-tier__commit"><strong>12-month engagement</strong> · embedded revenue team</p>
+        <ul class="pr-tier__features">
+          <li>All seven services: SEO, PPC, Content, Backlinks, ABM/LinkedIn, MarOps, AEO/GEO</li>
+          <li>Dedicated revenue analyst on your account</li>
+          <li>Sits inside pipeline reviews, not just marketing reviews</li>
+          <li>Account-based plays for your top 50 target accounts</li>
+          <li>Quarterly board-ready pipeline reports</li>
+          <li>Custom dashboards tied to your CRM stages</li>
+          <li>Direct line to founders for strategy calls</li>
+        </ul>
+        <a href="#final" class="pr-btn pr-btn--ghost">Talk to a founder</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     PROOF STATS
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-stats pr-stats--3">
+      <div class="pr-stat">
+        <div class="pr-stat__num">4.8 ★</div>
+        <div class="pr-stat__label">Clutch rating</div>
+      </div>
+      <div class="pr-stat">
+        <div class="pr-stat__num">50+</div>
+        <div class="pr-stat__label">B2B SaaS clients</div>
+      </div>
+      <div class="pr-stat">
+        <div class="pr-stat__num">18 mo</div>
+        <div class="pr-stat__label">Avg engagement length</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     REVENUE LOOP — 3 PILLARS
+     ==================================================== -->
+<section class="pr-section" id="framework">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <span class="pr-eyebrow pr-eyebrow--red">The Revenue Loop Framework</span>
+      <h2>What every PipeRocket engagement actually delivers</h2>
+      <p>Three pillars that turn demand generation from a cost centre into a self-optimising revenue loop. Every plan includes all three.</p>
+    </div>
+    <div class="pr-principles">
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
+        </div>
+        <h3>01 · Intent Capture</h3>
+        <p>We align paid and SEO targeting with unified intent data, so we only pull prospects already inside the buying window. No top-of-funnel volume for vanity. Buyer stage decides spend.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+        </div>
+        <h3>02 · Conversion Enablement</h3>
+        <p>High-value, low-friction assets move an anonymous visitor to a Sales-Accepted Lead in fewer steps. Every page, demo, and CTA is built around what your buyer needs to say yes.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+        </div>
+        <h3>03 · Pipeline Intelligence</h3>
+        <p>The Revenue Reconciliation Model ties every dollar to MQLs, SQLs, and closed revenue inside 60 days. We take accountability for the channel with the highest Revenue Per Qualified Lead.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2>Real pipeline. Real numbers.</h2>
+      <p>What happens when an embedded revenue team owns the metric. Three quick reads, no fluff dashboards.</p>
+    </div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__logo">Storylane</div>
+        <p class="pr-case__copy"><strong>2.5×</strong> pipeline growth and <strong>+62%</strong> demos. PPC + SEO rebuilt around real buyer language and qualified pipeline.</p>
+        <a href="/case-study/storylane/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">Spendflo</div>
+        <p class="pr-case__copy"><strong>+61%</strong> organic traffic recovered after an algorithm hit. <strong>$1.4M</strong> pipeline added across an 18-month engagement.</p>
+        <a href="/case-study/spendflo/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperVerge</div>
+        <p class="pr-case__copy"><strong>3.5×</strong> MQL growth from a full-funnel rebuild. Embedded inside the funnel, not just running campaigns.</p>
+        <a href="/case-study/hyperverge/" class="pr-case__link">Read full story →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FIT CHECK
+     ==================================================== -->
+<section class="pr-section pr-section--dark" id="fit">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <span class="pr-eyebrow pr-eyebrow--red">Fit Check</span>
+      <h2 style="color: var(--pr-cream);">We&rsquo;re picky about who we work with. You should be too.</h2>
+      <p style="color: rgba(244,241,232,0.7);">The clients who get pipeline value from PipeRocket share a profile. The ones who don&rsquo;t, churn early. We&rsquo;d rather tell you upfront than waste a quarter.</p>
+    </div>
+    <div class="pr-fit-grid">
+      <article class="pr-fit-card pr-fit-card--yes">
+        <h3><span class="pr-fit-icon">✓</span> Built for you if</h3>
+        <ul>
+          <li>You measure marketing the way you measure sales — pipeline and closed revenue, not activities</li>
+          <li>You want a team embedded in your business, not a vendor sending monthly reports</li>
+          <li>You expect your marketing partner to understand your ICP, your buyers, and your sales motion</li>
+          <li>You want someone who pushes back when the strategy is wrong, not just executes the brief</li>
+          <li>You&rsquo;re funded with $1M+ in revenue or capital, post-PMF</li>
+          <li>Your POC has the authority and access to make decisions inside two weeks</li>
+        </ul>
+      </article>
+      <article class="pr-fit-card pr-fit-card--no">
+        <h3><span class="pr-fit-icon">✕</span> Not built for you if</h3>
+        <ul>
+          <li>You measure success in activities — content published, ads running, keywords ranked</li>
+          <li>You want an agency to follow a brief without questioning the strategy behind it</li>
+          <li>You&rsquo;re pre-PMF and runway-pressed, looking for paid to fix product fit</li>
+          <li>You&rsquo;re a Fractional CMO who needs a new monthly proof point to keep your seat</li>
+          <li>You&rsquo;re at a $200M+ org where marketing decisions take three months and four committees</li>
+          <li>Marketing and sales operate separately and there&rsquo;s no expectation that they align</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     HOW IT WORKS
+     ==================================================== -->
+<section class="pr-section" id="how">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <span class="pr-eyebrow pr-eyebrow--red">How Engagement Works</span>
+      <h2>From scoping call to pipeline reporting in four steps</h2>
+      <p>No long onboarding. We map your ICP, scope your pipeline goal, and ship in week one.</p>
+    </div>
+    <div class="pr-approach-grid pr-approach-grid--4">
+      <article class="pr-approach-grid__card">
+        <h3>1. Scoping call</h3>
+        <p>30 minutes. We listen to your sales motion, current funnel math, and what your board is asking. You leave with a one-pager of where pipeline is leaking.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>2. ICP &amp; pipeline scope</h3>
+        <p>Week 1–2. We listen to 5–10 sales-call recordings, define the ICP and category, and lock the pipeline target the engagement is accountable to.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>3. Revenue Loop deployment</h3>
+        <p>Month 1. Intent Capture set up across paid and SEO. BOFU pages live. Conversion Enablement assets shipped. MarOps wired into your CRM.</p>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>4. Embed &amp; report</h3>
+        <p>Ongoing. Weekly pipeline syncs. Bi-weekly sales reviews. Monthly Revenue Reconciliation report. Quarterly board-ready output.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     ENGAGEMENT DEEP DIVE
+     ==================================================== -->
+<section class="pr-section--tight" id="engagement">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <span class="pr-eyebrow pr-eyebrow--red">Inside the Engagement</span>
+      <h2>What you actually get when you sign with PipeRocket</h2>
+      <p>The four questions every founder asks before signing. Answered straight, before the FAQ.</p>
+    </div>
+    <div class="pr-engagement-grid">
+      <article class="pr-engagement-card">
+        <div class="pr-engagement-card__icon">T</div>
+        <div class="pr-engagement-card__sub">Team Structure</div>
+        <h3>Pod-based, not project-based</h3>
+        <p>Every engagement gets a dedicated pod: <strong>1 senior strategist, 2–3 channel specialists, and 1 revenue analyst</strong>. The same humans for the duration of the contract. No handoffs. No "your account manager has changed" emails. The senior strategist sits in your weekly sync from week one and signs the pipeline report at month end.</p>
+        <span class="pr-engagement-card__pill">5-person pod, fixed for contract</span>
+      </article>
+      <article class="pr-engagement-card">
+        <div class="pr-engagement-card__icon">14</div>
+        <div class="pr-engagement-card__sub">Onboard Timing</div>
+        <h3>Live in 14 days</h3>
+        <p>Day 1–3: ICP definition and sales-call review. Day 4–7: audit and 90-day roadmap signed off. Day 8–14: <strong>first BOFU asset live, tracking wired into your CRM, attribution model in place.</strong> Most agencies take 30–45 days. We treat that as a red flag, not a norm.</p>
+        <span class="pr-engagement-card__pill">14 days to first asset live</span>
+      </article>
+      <article class="pr-engagement-card">
+        <div class="pr-engagement-card__icon">★</div>
+        <div class="pr-engagement-card__sub">Expertise</div>
+        <h3>B2B SaaS only — 50+ engagements deep</h3>
+        <p>Every PipeRocket strategist has shipped pipeline for SaaS companies between $1M and $200M ARR. We don&rsquo;t split focus across e-commerce, healthcare, or D2C. The team has worked through <strong>PLG, SLG, hybrid motions, in-funnel and dark-funnel buying, and India + US markets.</strong> No learning curve on your dollar.</p>
+        <span class="pr-engagement-card__pill">B2B SaaS specialists only</span>
+      </article>
+      <article class="pr-engagement-card pr-engagement-card--featured">
+        <span class="pr-engagement-card__flag">Our Differentiator</span>
+        <div class="pr-engagement-card__icon">3M</div>
+        <div class="pr-engagement-card__sub">Pilot Program</div>
+        <h3>3-month pilot, refund-backed</h3>
+        <p>No agency in the SaaS space stands behind their work for a full quarter. We do. Run a <strong>3-month pilot scoped to one channel and one ICP slice</strong>. Milestones written into the contract. <strong>Full refund if we miss them.</strong> We&rsquo;ve refunded twice in 50+ engagements; both times the buyer was wrong-fit, not the work. The pilot is your insurance, not a trial sales tactic.</p>
+        <span class="pr-engagement-card__pill">Quarter-long, fully refundable</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section" id="faq">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><span class="pr-eyebrow pr-eyebrow--red">Common Questions</span><h2>What founders ask before signing</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is the minimum commitment?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">All plans are 6 months minimum. The Full GTM Embed is a 12-month engagement. Our best-fit clients stay 18–48 months. The math behind 6 months: BOFU work compounds in months 2–3, paid optimisation stabilises by month 4, and pipeline reporting becomes meaningful by month 6.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">When will I see pipeline impact?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Paid campaigns generate qualified leads inside 60 days when the ICP and offer are right. BOFU SEO pages live in month 1 typically rank and convert by month 3. We don&rsquo;t promise impact in week 2 — we promise honest reporting from week 4 and pipeline contribution by quarter end.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What if pipeline targets aren&rsquo;t hit?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">We run quarterly reviews against the pipeline goal locked in scoping. If we&rsquo;re off, we say it first, diagnose root cause, and adjust scope. We don&rsquo;t hide behind a dashboard that looks good on impressions.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How is this different from a typical agency retainer?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Typical retainers price deliverables — 8 blog posts, 4 ad sets, 1 audit. We price an embedded team accountable to one number. Output volume is whatever the pipeline goal needs. Some months that&rsquo;s 12 pages, some months 2 landing pages and a sales-enablement video. Activity is the input, not the contract.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Do you white-label or work behind another agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">No. PipeRocket only takes direct relationships where we can listen to sales calls, sit in pipeline reviews, and report to the marketing leader or founder. The model breaks without that access.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Who do you NOT work with?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Pre-PMF startups looking for paid to fix product fit. Founders below $1M revenue who are runway-pressed and want a 60-day miracle. Fractional CMOs needing a monthly proof point to retain their role. $200M+ enterprises where decisions take three months and four committees. We&rsquo;ve learned the hard way — every one of those engagements ended badly for both sides.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Can I add or remove channels mid-engagement?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Yes. After month 3 we run a channel review. If paid is outperforming SEO for your ICP, we shift weight. If MarOps is the bottleneck, we add it. The engagement scope flexes around what the pipeline data says.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Is there a managed ad-spend cap or floor?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Single-Channel Embed: up to $30K monthly ad spend managed. Multi-Channel Embed: up to $100K monthly. Full GTM Embed: no cap, custom contract. The retainer is for the team and the system. Ad spend is yours, billed direct to the platform.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final" id="final">
+  <div class="pr-container">
+    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
+    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
+    <h2>Book a call today.<br><span class="pr-italic">Scale your pipeline tomorrow.</span></h2>
+    <p style="color: rgba(244,241,232,0.75); max-width: 560px; margin: 0 auto var(--pr-s-5); font-size: 1rem; line-height: 1.6;">
+      30-minute scoping call with a PipeRocket founder. You leave with a one-pager on where your pipeline is leaking, even if we&rsquo;re not the right fit.
+    </p>
+    <a href="/contact-us/" class="pr-btn">Book a scoping call</a>
+  </div>
+</section>
+
+<!-- ====================================================
+     PIPELINE GAP CALCULATOR — JS
+     ==================================================== -->
+<script>
+  (function(){
+    var fmtUsd = function(n){
+      if (!isFinite(n) || n <= 0) return '$0';
+      if (n >= 1e9) return '$' + (n/1e9).toFixed(2) + 'B';
+      if (n >= 1e6) return '$' + (n/1e6).toFixed(2) + 'M';
+      if (n >= 1e3) return '$' + (n/1e3).toFixed(0) + 'K';
+      return '$' + Math.round(n).toLocaleString();
+    };
+    var fmtInt = function(n){
+      if (!isFinite(n) || n <= 0) return '0';
+      return Math.round(n).toLocaleString();
+    };
+    var $ = function(id){ return document.getElementById(id); };
+    var inputs = ['cArr','tArr','acv','closeRate'].map($);
+    if (inputs.some(function(el){ return !el; })) return;
+
+    function recalc(){
+      var cArr = +$('cArr').value || 0;
+      var tArr = +$('tArr').value || 0;
+      var acv  = +$('acv').value  || 0;
+      var rate = (+$('closeRate').value || 0) / 100;
+      var gap = Math.max(tArr - cArr, 0);
+      var newCust = acv > 0 ? gap / acv : 0;
+      var sqls = rate > 0 ? newCust / rate : 0;
+      var mqls = sqls * 4; // typical 25% MQL→SQL conversion
+
+      $('rGap').textContent  = fmtUsd(gap);
+      $('rCust').textContent = fmtInt(newCust);
+      $('rSql').textContent  = fmtInt(sqls);
+      $('rMql').textContent  = fmtInt(mqls);
+
+      var rec = $('calcRec');
+      if (gap <= 0 || acv <= 0) {
+        rec.innerHTML = 'Enter all four numbers above to see your pipeline gap and tier recommendation.';
+        return;
+      }
+      var msg, cta = ' <a href="#tiers" style="color: var(--pr-cyan); font-weight:600;">See plan</a>';
+      if (gap < 1.5e6) {
+        msg = '<strong>Single-Channel Embed</strong> fits your gap — own one channel end-to-end first, then expand.';
+      } else if (gap < 6e6) {
+        msg = '<strong>Multi-Channel Embed</strong> fits your gap — 2–3 channels in lockstep is usually the right move at this scale.';
+      } else {
+        msg = '<strong>Full GTM Embed</strong> fits your gap — at this pipeline target, an embedded revenue team across every channel is the only sane path.';
+      }
+      rec.innerHTML = msg + cta;
+    }
+
+    inputs.forEach(function(el){ el.addEventListener('input', recalc); });
+    recalc();
+  })();
+</script>
+
+{{ end }}
