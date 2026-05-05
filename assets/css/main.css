@@ -2182,8 +2182,8 @@ p { margin: 0 0 var(--pr-s-4); }
 .pr-certified--parallax .pr-certified__content {
   position: relative;
   z-index: 2;
-  padding: 80px 64px 0 130px;
-  max-width: 560px;
+  padding: 80px 0 0 130px;
+  max-width: 680px;
   text-align: left;
 }
 /* Heading wrapper — stroke sits absolutely behind the h2 */
@@ -2192,40 +2192,33 @@ p { margin: 0 0 var(--pr-s-4); }
   display: inline-block;
   margin-bottom: var(--pr-s-5);
 }
-/* The brush-stroke SVG sits behind the heading */
+/* The brush-stroke SVG sits behind the second line of the heading */
 .pr-certified__stroke {
   position: absolute;
-  bottom: -8px;
-  left: -20px;
-  width: 110%;
+  bottom: 4px;
+  left: -10px;
+  width: 100%;
   height: auto;
-  opacity: 0.55;
+  opacity: 0.5;
   pointer-events: none;
   z-index: 0;
 }
 .pr-certified__heading {
   position: relative;
   z-index: 1;
-  font-size: clamp(2.2rem, 4.5vw, 3.2rem);
+  font-size: clamp(2rem, 3.6vw, 3rem);
   font-weight: 800;
-  line-height: 1.15;
+  line-height: 1.2;
   color: #fff;
   margin: 0;
   letter-spacing: -0.02em;
-}
-.pr-certified__highlight {
-  background: #e06075;
-  color: #fff;
-  padding: 2px 10px 4px;
-  display: inline;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+  white-space: nowrap;
 }
 .pr-certified--parallax .pr-certified__content p {
-  font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
   color: rgba(255,255,255,0.88);
   line-height: 1.65;
-  max-width: 400px;
+  max-width: 420px;
   margin: 0;
 }
 /* Car — bottom-left, driven in by scroll */
@@ -2233,7 +2226,7 @@ p { margin: 0 0 var(--pr-s-4); }
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 420px;
+  height: 260px;
   width: auto;
   z-index: 1;
   will-change: transform;
