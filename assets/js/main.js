@@ -507,15 +507,21 @@ const setupParallax = () => {
 const setupOutcomeSection = () => {
   const section = document.querySelector('[data-outcome-section]');
   const rocket  = document.querySelector('[data-outcome-rocket]');
-  const underline = document.querySelector('.pr-underline-anim');
   if (!section) return;
 
-  // Trigger underline animation when section enters view
-  if (underline && 'IntersectionObserver' in window) {
-    const obs = new IntersectionObserver((entries) => {
-      entries.forEach(e => { if (e.isIntersecting) { underline.classList.add('is-visible'); obs.unobserve(e.target); } });
-    }, { threshold: 0.3 });
-    obs.observe(underline);
+  // Trigger underline animation for all instances when they enter view
+  if ('IntersectionObserver' in window) {
+    const underlineTargets = [
+      ...document.querySelectorAll('.pr-underline-anim'),
+      ...document.querySelectorAll('.pr-pov__underline-wrap'),
+      ...document.querySelectorAll('.pr-outcome__underline-wrap')
+    ];
+    underlineTargets.forEach(el => {
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { el.classList.add('is-visible'); obs.unobserve(e.target); } });
+      }, { threshold: 0.3 });
+      obs.observe(el);
+    });
   }
 
   // Scroll-based rocket rise — moves up-right in the direction the arrow points (~45°)
@@ -553,6 +559,43 @@ const init = () => {
   setupReveals();
   setupParallax();
   setupOutcomeSection();
+  setupTestimonialDots();
+};
+
+// =========================================================
+// Testimonials dot pagination
+// =========================================================
+const setupTestimonialDots = () => {
+  const track    = document.querySelector('[data-testimonials-track]');
+  const dots     = document.querySelectorAll('[data-testimonial-dot]');
+  if (!track || !dots.length) return;
+
+  const activeImg   = '/images/dot-active.png';
+  const inactiveImg = '/images/dot-inactive.png';
+  const perPage = 3;
+
+  const goToPage = (page) => {
+    const cards    = track.querySelectorAll('.pr-testimonial');
+    const card     = cards[0];
+    if (!card) return;
+    const cardW    = card.offsetWidth;
+    const gap      = parseInt(getComputedStyle(track).gap) || 20;
+    const pageW    = (cardW + gap) * perPage;
+    track.style.transform = `translateX(-${page * pageW}px)`;
+
+    dots.forEach((dot, i) => {
+      const img = dot.querySelector('img');
+      const isActive = i === page;
+      dot.classList.toggle('pr-testimonials__dot--active', isActive);
+      if (img) img.src = isActive ? activeImg : inactiveImg;
+    });
+  };
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => goToPage(parseInt(dot.dataset.testimonialDot, 10)));
+  });
+
+  goToPage(0);
 };
 
 // =========================================================
