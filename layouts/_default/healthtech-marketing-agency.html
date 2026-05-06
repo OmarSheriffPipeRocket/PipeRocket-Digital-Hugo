@@ -1,0 +1,250 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">Healthtech buyers don&rsquo;t trust marketing.</span>
+          <span class="pr-hero__title-strong">They trust peer-reviewed outcomes and HIPAA-clean partners.</span>
+        </h1>
+        <div class="pr-hero__copy">
+          <p>PipeRocket runs marketing for digital health, EHR, telehealth, payer, and provider platforms — SEO, PPC, and pipeline ops built around clinical buying committees, HIPAA / BAA gating, peer-evidence positioning, and the 12–18 month pilot cycles that come with patient data and clinical workflows.</p>
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero__collage" aria-label="PipeRocket Healthtech Marketing — clinical-first, HIPAA-aware, pipeline-led">
+        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock — Healthtech context" loading="eager">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     WHY HEALTHTECH MARKETING IS DIFFERENT
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2>Why healthtech marketing is different</h2>
+      <p>Generic SaaS playbooks die at HIPAA review. Here&rsquo;s what changes when your buyer answers to clinical leadership, IT security, and patient outcomes — not just procurement.</p>
+    </div>
+    <div class="pr-principles">
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h3>HIPAA isn&rsquo;t a footnote</h3>
+        <p>HIPAA, BAAs, HITRUST, and SOC 2 are the first questions on every call — not the last slide of the deck. If compliance lives in the footer, the deal dies before the demo. Surface it on the hero or lose the buyer.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><circle cx="15" cy="15" r="6"/></svg>
+        </div>
+        <h3>Clinical and exec buyers diverge</h3>
+        <p>CMO, CIO, CMIO, head of clinical operations, head of IT security, and procurement — six different decks for six different stakeholders. Marketing that pitches "the hospital" loses the room.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
+        </div>
+        <h3>Peer-reviewed evidence over case studies</h3>
+        <p>Clinical buyers trust JAMA, NEJM, peer-reviewed outcomes, and KOL endorsements — not testimonial boxes and ROI calculators. Content has to cite outcomes, not adjectives.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>EHR pilots run 12–18 months</h3>
+        <p>Healthtech procurement, IT security, EHR integration, and clinical pilot review compound into 12–18 month cycles. Programmes that promise pipeline next month don&rsquo;t survive contact with a Cerner or Epic environment.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — testimonial on a vintage TV" class="pr-working-tv">
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR HEALTHTECH SERVICES — THREE CARDS LINKING TO SPOKES
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2 style="color: var(--pr-cream);">Our healthtech marketing services</h2>
+      <p style="color: rgba(244,241,232,0.7);">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
+    </div>
+    <div class="pr-approach-grid pr-approach-grid--dark">
+      <article class="pr-approach-grid__card">
+        <h3>SaaS SEO</h3>
+        <p>Buyer-led content for CMOs, CIOs, and CMIOs. BOFU pages built around HIPAA, BAA, EHR-integration, and clinical-outcomes proof. Topical authority across digital health, telehealth, payer, and provider categories.</p>
+        <a href="/saas-seo-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS SEO →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>SaaS PPC</h3>
+        <p>Paid programmes built around named clinical and IT buyer titles, account-based intent, and EHR-vendor segments. Compliance-aware landing pages and CFO-defendable CACs over realistic 12–18 month pilot cycles.</p>
+        <a href="/saas-ppc/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS PPC →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Marketing Ops</h3>
+        <p>RevOps, attribution, lifecycle, and reporting built for the long sales cycles healthtech runs. Sales-accepted lead rates by clinical / exec persona, pilot-stage progression, CAC payback by pilot cohort.</p>
+        <a href="/marketing-ops/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Marketing Ops →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WHY HEALTHTECH TEAMS CHOOSE PIPEROCKET — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2 style="color: var(--pr-cream);">Why healthtech teams choose PipeRocket</h2>
+      <p style="color: rgba(244,241,232,0.7);">Every agency promises growth. The gap is whether they can navigate HIPAA review, clinical buying committees, and a multi-quarter pilot without losing the deal.</p>
+    </div>
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
+          </svg>
+          PipeRocket
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>HIPAA and BAA live in a footer link. Buyers in IT security never see compliance until the security questionnaire — by then, three other vendors are already cleared.</div>
+        <div>The agency lists "HIPAA-compliant" once. No BAA detail, no HITRUST status, no breach-history disclosure. Compliance gets re-litigated on every call.</div>
+        <div>HIPAA, BAA, HITRUST, SOC 2 surfaced first — on hero, on landing pages, in ad creative. IT and security teams self-qualify before booking.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Marketing pitches "hospitals". Sales gets to a CMIO and discovers the clinical workflow concerns weren&rsquo;t addressed. Three months wasted.</div>
+        <div>The agency runs a generic SaaS playbook. They&rsquo;ve never sat in a clinical pilot review. CMIO and CIO objections surface only after sales raises them.</div>
+        <div>Programmes are built around the full clinical + exec committee — CMO, CIO, CMIO, clinical ops, IT security, procurement — with content addressing each before sales has to.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Case studies are testimonial boxes. Clinical buyers ignore them and ask for peer-reviewed outcomes data the team can&rsquo;t produce.</div>
+        <div>Reports show CTR, sessions, and rankings. Outcomes data, KOL citations, and peer-reviewed evidence stay in a separate doc nobody opens.</div>
+        <div>Content cites peer-reviewed outcomes, KOL endorsements, and clinical evidence — built to survive scrutiny from clinical leadership.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Pipeline reports show MQLs. The CFO asks about CAC payback over a 12–18 month pilot and the answer takes a week.</div>
+        <div>Reports show traffic and rankings. Pilot-stage progression and pilot-cohort CAC payback stay in a separate dashboard nobody opens.</div>
+        <div>Reports centre on pilot-stage progression, deal velocity by clinical persona, and CAC payback by pilot cohort. Built for CFO and board review.</div>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperVerge</div>
+        <p class="pr-case__copy">Pipeline-led growth for HyperVerge — KYC / identity verification — adjacent to healthtech buyers managing patient identity and data integrity.</p>
+        <a href="/case-study/hyperverge/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperStart</div>
+        <p class="pr-case__copy">Pipeline-led growth for HyperStart — LegalTech / CLM — across a multi-stakeholder buying committee similar to clinical procurement.</p>
+        <a href="/case-study/hyperstart/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">CyberSierra</div>
+        <p class="pr-case__copy">Compliance-led growth for CyberSierra — directly relevant for healthtech vendors selling into HIPAA, HITRUST, and SOC 2 reviews.</p>
+        <a href="/case-study/cybersierra/" class="pr-case__link">Read full story →</a>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is a healthtech marketing agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">A healthtech marketing agency runs SEO, PPC, content, and pipeline ops for digital health, EHR, telehealth, payer, and provider platforms. The work goes beyond standard SaaS marketing — it includes navigating HIPAA review, surfacing BAA / HITRUST status early, citing peer-reviewed outcomes, and supporting 12–18 month clinical pilots.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Which healthtech sub-verticals do you work with?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Digital health, EHR / EMR, telehealth, remote patient monitoring, payer technology, revenue cycle, clinical workflow, life sciences, and provider operations — anywhere your buyer is a CMO, CIO, CMIO, or head of clinical operations, the playbook applies.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How do you handle HIPAA and clinical compliance in marketing?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Compliance lives on the hero, not the footer. We surface HIPAA, BAA, HITRUST, SOC 2, and any region-specific certifications on every BOFU page and ad creative. Buyers in IT security and clinical operations self-qualify before booking — and sales doesn&rsquo;t waste a call re-litigating compliance.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Do you handle SEO, PPC, and marketing ops together or separately?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Both. You can engage us for a single service or for a unified programme where SEO, PPC, and pipeline ops share buyer research, attribution, and reporting. Most healthtech clients eventually run all three because the long pilot cycle demands consistent presence across channels.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How quickly do you produce qualified pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">First spend goes live in week 3. Most healthtech clients see qualified pipeline within 30–90 days once attribution and compliance-led pages are wired in. Closed-won timing depends on procurement, IT security, EHR integration, and clinical pilot review — typically 12–18 months from first touch.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
+    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
+    <h2>Generic SaaS marketing won&rsquo;t survive a HIPAA review.<br><span class="pr-italic">Let&rsquo;s build a programme that does.</span></h2>
+    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
+      Dive deeper: <a href="/saas-seo-agency/" style="color: var(--pr-cyan);">SaaS SEO agency</a> · <a href="/saas-ppc/" style="color: var(--pr-cyan);">SaaS PPC agency</a>
+    </p>
+  </div>
+</section>
+
+{{ end }}

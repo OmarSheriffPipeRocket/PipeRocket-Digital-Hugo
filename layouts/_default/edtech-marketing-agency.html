@@ -1,0 +1,250 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">Edtech buyers don&rsquo;t move on hype.</span>
+          <span class="pr-hero__title-strong">They move on outcomes, security, and the budget calendar.</span>
+        </h1>
+        <div class="pr-hero__copy">
+          <p>PipeRocket runs marketing for K-12, higher-ed, corporate L&amp;D, and learning platforms — SEO, PPC, and pipeline ops built around academic procurement calendars, FERPA / COPPA gating, and the multi-stakeholder reality of faculty, IT, and procurement signing the same RFP.</p>
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero__collage" aria-label="PipeRocket Edtech Marketing — outcomes-first, calendar-aware, pipeline-led">
+        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock — Edtech context" loading="eager">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     WHY EDTECH MARKETING IS DIFFERENT
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2>Why edtech marketing is different</h2>
+      <p>Generic SaaS playbooks miss the academic year. Here&rsquo;s what changes when your buyer&rsquo;s budget cycle is locked to a fiscal calendar that doesn&rsquo;t care about your quarter-end.</p>
+    </div>
+    <div class="pr-principles">
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <h3>Procurement runs on the academic calendar</h3>
+        <p>K-12 districts buy in spring for fall rollout. Higher-ed has multi-year RFP cycles tied to fiscal year. Corporate L&amp;D budgets reset annually. Programmes that ignore the calendar miss the buying window entirely.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+        </div>
+        <h3>Outcomes evidence beats features</h3>
+        <p>Faculty and L&amp;D leaders don&rsquo;t buy on feature parity. They buy on retention lift, completion rates, learning outcomes, and engagement data. Marketing that pitches features loses to competitors that pitch results.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Student data privacy is non-negotiable</h3>
+        <p>FERPA, COPPA, GDPR, and state-level student data laws gate every K-12 and higher-ed deal. If your privacy story isn&rsquo;t front and centre, the IT review kills the pilot — even when faculty wants the product.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><circle cx="15" cy="15" r="6"/></svg>
+        </div>
+        <h3>Faculty, IT, and procurement all sign</h3>
+        <p>Faculty wants pedagogy. IT wants security. Procurement wants the lowest TCO. Sometimes the board weighs in. One landing page that pitches "educators" loses two of the three other stakeholders.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — testimonial on a vintage TV" class="pr-working-tv">
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR EDTECH SERVICES — THREE CARDS LINKING TO SPOKES
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2 style="color: var(--pr-cream);">Our edtech marketing services</h2>
+      <p style="color: rgba(244,241,232,0.7);">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
+    </div>
+    <div class="pr-approach-grid pr-approach-grid--dark">
+      <article class="pr-approach-grid__card">
+        <h3>SaaS SEO</h3>
+        <p>Buyer-led content for faculty, deans, IT directors, L&amp;D leaders, and procurement. BOFU pages built around outcomes evidence, FERPA / COPPA proof, and integration with LMS platforms. Topical authority across K-12, higher-ed, and corporate L&amp;D.</p>
+        <a href="/saas-seo-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS SEO →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>SaaS PPC</h3>
+        <p>Paid programmes built around named edtech buyer titles, district-level segmentation, and academic-calendar timing. Outcomes-led landing pages and CFO-defendable CACs over realistic K-12 / higher-ed cycles.</p>
+        <a href="/saas-ppc/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS PPC →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Marketing Ops</h3>
+        <p>RevOps, attribution, lifecycle, and reporting built around academic procurement realities. Sales-accepted lead rate by persona, RFP-stage progression, CAC payback by district / institution cohort.</p>
+        <a href="/marketing-ops/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Marketing Ops →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WHY EDTECH TEAMS CHOOSE PIPEROCKET — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2 style="color: var(--pr-cream);">Why edtech teams choose PipeRocket</h2>
+      <p style="color: rgba(244,241,232,0.7);">Every agency promises growth. The gap is whether they understand a buyer who has a fixed academic budget, a privacy review, and faculty politics to navigate.</p>
+    </div>
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
+          </svg>
+          PipeRocket
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Campaigns run on a SaaS calendar — Q1 push, Q4 push. Districts and institutions are mid-cycle and ignore them.</div>
+        <div>The agency runs generic SaaS pacing. They&rsquo;ve never planned a campaign around the academic year. RFP windows get missed every season.</div>
+        <div>Campaigns are timed to the academic calendar — RFP windows for K-12 and higher-ed, fiscal-year resets for corporate L&amp;D — so the buyer sees the right message at the right week.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Marketing leads with features. Faculty rejects the deck and asks for outcomes data the team can&rsquo;t produce.</div>
+        <div>The agency uses testimonial boxes and ROI calculators. Outcomes evidence — retention, completion, engagement — never gets surfaced.</div>
+        <div>Programmes lead with outcomes evidence — retention, completion, engagement, learning outcomes — every BOFU page tied to documented results.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>FERPA and COPPA live in a footer link. IT review kills the pilot — even when faculty wants the product.</div>
+        <div>The agency lists "FERPA-compliant" once. No detail on student-data handling, audit trail, or vendor agreements.</div>
+        <div>FERPA, COPPA, GDPR, and state-level student-data laws surfaced first — on hero, on landing pages, in ad creative. IT self-qualifies before booking.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>One landing page targets "educators". IT and procurement never see anything written for them. RFP responses go cold.</div>
+        <div>The agency uses a single ICP. They don&rsquo;t map the faculty / IT / procurement / board reality.</div>
+        <div>Programmes map the full committee — faculty, IT, procurement, L&amp;D leaders, sometimes board — with content addressing each before sales has to.</div>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__logo">Storylane</div>
+        <p class="pr-case__copy">Pipeline-led growth for Storylane — interactive demos — directly relevant for edtech vendors who need to show outcomes before procurement signs.</p>
+        <a href="/case-study/storylane/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperStart</div>
+        <p class="pr-case__copy">Pipeline-led growth for HyperStart — LegalTech / CLM — across a multi-stakeholder buying committee similar to faculty / IT / procurement RFPs.</p>
+        <a href="/case-study/hyperstart/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">DevRev</div>
+        <p class="pr-case__copy">Pipeline-led marketing for DevRev — moving the agency conversation from rankings to qualified opportunities across multi-stakeholder deals.</p>
+        <a href="/case-study/devrev/" class="pr-case__link">Read full story →</a>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is an edtech marketing agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">An edtech marketing agency runs SEO, PPC, content, and pipeline ops for K-12, higher-ed, corporate L&amp;D, and learning platforms. The work goes beyond standard SaaS — it includes timing campaigns to academic procurement calendars, surfacing FERPA / COPPA early, and addressing faculty-IT-procurement RFP politics.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Which edtech sub-verticals do you work with?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">K-12 SaaS, higher-ed platforms, corporate L&amp;D, LMS, course authoring, assessment, tutoring, certification, online universities, and B2C learning — anywhere your buyer is faculty, an L&amp;D leader, an IT director, or procurement, the playbook applies.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How do you sync campaigns to the academic calendar?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">We map K-12 spring RFP windows, higher-ed fiscal-year cycles, and corporate L&amp;D budget resets, then sequence content, ads, and outreach to land in the right window. Buyers see the message when their budget is open, not when our quarter-end demands a push.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Do you handle SEO, PPC, and marketing ops together or separately?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Both. You can engage us for a single service or for a unified programme where SEO, PPC, and pipeline ops share buyer research, attribution, and reporting. Most edtech clients run all three because the multi-quarter procurement window demands consistent presence.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How quickly do you produce qualified pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">First spend goes live in week 3. Most edtech clients see qualified pipeline within 30–90 days once attribution and outcomes-led pages are wired in. Closed-won timing depends on the academic calendar — typically 3–9 months for K-12, 6–12 for higher-ed, 60–120 days for corporate L&amp;D.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
+    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
+    <h2>Generic SaaS marketing won&rsquo;t survive an academic RFP.<br><span class="pr-italic">Let&rsquo;s build a programme that does.</span></h2>
+    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
+      Dive deeper: <a href="/saas-seo-agency/" style="color: var(--pr-cyan);">SaaS SEO agency</a> · <a href="/saas-ppc/" style="color: var(--pr-cyan);">SaaS PPC agency</a>
+    </p>
+  </div>
+</section>
+
+{{ end }}

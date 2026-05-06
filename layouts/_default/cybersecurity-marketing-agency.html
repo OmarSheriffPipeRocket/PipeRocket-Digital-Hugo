@@ -1,0 +1,250 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">Cybersecurity buyers see through hype.</span>
+          <span class="pr-hero__title-strong">They buy from vendors their CISO peers already trust.</span>
+        </h1>
+        <div class="pr-hero__copy">
+          <p>PipeRocket runs marketing for SOC, IAM, EDR, AppSec, and GRC platforms — SEO, PPC, and pipeline ops built around sceptical CISOs, compliance-gated procurement, analyst-aligned messaging, and the threat-model-aware content that survives scrutiny in an over-marketed-to category.</p>
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero__collage" aria-label="PipeRocket Cybersecurity Marketing — CISO-first, analyst-aligned, pipeline-led">
+        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock — Cybersecurity context" loading="eager">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     WHY CYBERSECURITY MARKETING IS DIFFERENT
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2>Why cybersecurity marketing is different</h2>
+      <p>Generic SaaS playbooks die in front of a CISO who&rsquo;s seen ten thousand vendor decks and trusts none of them. Here&rsquo;s what changes when your buyer&rsquo;s job is to spot vendor BS.</p>
+    </div>
+    <div class="pr-principles">
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>CISOs are trained to spot hype</h3>
+        <p>Every adjective without proof is a credibility loss. "Best-in-class", "AI-powered", "enterprise-grade" — CISOs filter these out instantly. Marketing has to lead with verifiable evidence: detection rates, false-positive numbers, dwell-time data, third-party tests.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h3>Compliance gates procurement</h3>
+        <p>SOC 2, ISO 27001, FedRAMP, GDPR, HIPAA, PCI — every certification is a buying criterion. If your platform isn&rsquo;t in the certification table on page one, the deal dies before security review begins.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15 8.5 22 9.3 17 14 18.2 21 12 17.8 5.8 21 7 14 2 9.3 9 8.5 12 2"/></svg>
+        </div>
+        <h3>Analyst placements drive trust</h3>
+        <p>Gartner Magic Quadrant, Forrester Wave, GigaOm Radar, IDC MarketScape — CISOs use them as buying shortlists. Marketing that ignores analyst positioning loses to competitors that synchronise messaging with analyst language.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><circle cx="15" cy="15" r="6"/></svg>
+        </div>
+        <h3>Threat-model-aware messaging</h3>
+        <p>A CISO at a bank has a different threat model than a CISO at a healthtech startup or a federal agency. Generic "protection" copy wastes the buyer&rsquo;s time. Programmes that speak to the specific threat model of each persona convert.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — testimonial on a vintage TV" class="pr-working-tv">
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR CYBERSECURITY SERVICES — THREE CARDS LINKING TO SPOKES
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2 style="color: var(--pr-cream);">Our cybersecurity marketing services</h2>
+      <p style="color: rgba(244,241,232,0.7);">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
+    </div>
+    <div class="pr-approach-grid pr-approach-grid--dark">
+      <article class="pr-approach-grid__card">
+        <h3>SaaS SEO</h3>
+        <p>Buyer-led content for CISOs, security architects, GRC leaders, and SOC managers. BOFU pages built around verifiable evidence, certifications, and analyst language. Topical authority across SOC, IAM, EDR, AppSec, GRC, and cloud security.</p>
+        <a href="/saas-seo-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS SEO →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>SaaS PPC</h3>
+        <p>Paid programmes built around named CISO and security buyer titles, threat-model segmentation, and analyst-shortlist competitor queries. Compliance-aware landing pages and CFO-defendable CACs over realistic security procurement cycles.</p>
+        <a href="/saas-ppc/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS PPC →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Marketing Ops</h3>
+        <p>RevOps, attribution, lifecycle, and reporting built for the long sales cycles cybersecurity runs. Sales-accepted lead rate by persona, deal-stage progression by threat model, CAC payback by analyst-shortlist cohort.</p>
+        <a href="/marketing-ops/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Marketing Ops →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WHY CYBERSECURITY TEAMS CHOOSE PIPEROCKET — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2 style="color: var(--pr-cream);">Why cybersecurity teams choose PipeRocket</h2>
+      <p style="color: rgba(244,241,232,0.7);">Every agency promises growth. The gap is whether they can sell into a CISO who has already been pitched by everyone in the Magic Quadrant — and trusts only what they can verify.</p>
+    </div>
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
+          </svg>
+          PipeRocket
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Marketing leans on adjectives — "best-in-class", "AI-powered". CISOs disqualify the brand within ten seconds of reading the home page.</div>
+        <div>The agency runs scare-tactic copy and breach narratives. CISOs have heard them all and tune out.</div>
+        <div>Programmes lead with verifiable evidence — detection rates, false-positive numbers, MITRE ATT&amp;CK coverage, third-party test results — every claim cited with proof.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>SOC 2 lives in a footer link. By the time security review starts, three competitors are already cleared for procurement.</div>
+        <div>The agency lists certifications as a logo wall. No depth on what each cert covers, no FedRAMP / IRAP / Common Criteria detail.</div>
+        <div>Certifications surfaced first — SOC 2, ISO 27001, FedRAMP, regional and sector-specific — with depth on scope, audit cadence, and shared-responsibility model.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>No analyst alignment. Sales gets to a Gartner-shortlisted procurement and discovers messaging doesn&rsquo;t match the analyst&rsquo;s language. Deal stalls.</div>
+        <div>The agency ignores analyst content. Magic Quadrant positioning, Forrester Wave categories, and GigaOm Radar language never make it into copy.</div>
+        <div>Analyst-aligned messaging — programmes synchronise with Magic Quadrant, Forrester Wave, GigaOm, and IDC categories so buyers see continuity from analyst report to BOFU page.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Generic "protection" copy targets every CISO the same way. Bank, healthtech, federal, and SMB CISOs all see the same page and none feel addressed.</div>
+        <div>The agency uses a single ICP. Threat-model differences across regulated industries get ignored.</div>
+        <div>Threat-model-aware programmes — separate landing pages, ad creative, and content for each industry threat model so each CISO persona feels directly addressed.</div>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__logo">CyberSierra</div>
+        <p class="pr-case__copy">Compliance-led growth for CyberSierra — a directly-relevant cybersecurity playbook selling into SOC 2, ISO 27001, and HIPAA-gated procurement.</p>
+        <a href="/case-study/cybersierra/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperVerge</div>
+        <p class="pr-case__copy">Pipeline-led growth for HyperVerge — KYC / identity verification — adjacent to IAM and identity-security buyers.</p>
+        <a href="/case-study/hyperverge/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperStart</div>
+        <p class="pr-case__copy">Pipeline-led growth for HyperStart — LegalTech / CLM — across a multi-stakeholder buying committee similar to security and GRC procurement.</p>
+        <a href="/case-study/hyperstart/" class="pr-case__link">Read full story →</a>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is a cybersecurity marketing agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">A cybersecurity marketing agency runs SEO, PPC, content, and pipeline ops for SOC, IAM, EDR, AppSec, GRC, cloud security, and identity platforms. The work goes beyond standard SaaS — it includes citing verifiable evidence, surfacing certifications early, aligning to analyst categories, and tailoring messaging to specific industry threat models.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Which cybersecurity sub-verticals do you work with?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">SOC and SIEM, EDR / XDR, IAM and identity, AppSec, cloud security (CSPM, CWPP, CNAPP), GRC, data security and DLP, network security, OT / ICS security, and security awareness — anywhere your buyer is a CISO, security architect, GRC leader, or SOC manager, the playbook applies.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How do you align marketing to analyst categories?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">We map your positioning to active Gartner, Forrester, GigaOm, and IDC categories, then sync BOFU pages, ad copy, and content with the analyst language buyers see in MQ / Wave / Radar reports. When a CISO moves from analyst report to your site, the messaging continues — not resets.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Do you handle SEO, PPC, and marketing ops together or separately?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Both. You can engage us for a single service or for a unified programme where SEO, PPC, and pipeline ops share buyer research, attribution, and reporting. Most cybersecurity clients run all three because the long, evidence-driven sales cycle demands consistent presence.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How quickly do you produce qualified pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">First spend goes live in week 3. Most cybersecurity clients see qualified pipeline within 30–90 days once attribution, evidence-led pages, and analyst-aligned messaging are wired in. Closed-won timing depends on procurement, security review, and certification scope — typically 90–270 days from first touch.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
+    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
+    <h2>Generic SaaS marketing won&rsquo;t survive a CISO review.<br><span class="pr-italic">Let&rsquo;s build a programme that does.</span></h2>
+    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
+      Dive deeper: <a href="/saas-seo-agency/" style="color: var(--pr-cyan);">SaaS SEO agency</a> · <a href="/saas-ppc/" style="color: var(--pr-cyan);">SaaS PPC agency</a>
+    </p>
+  </div>
+</section>
+
+{{ end }}

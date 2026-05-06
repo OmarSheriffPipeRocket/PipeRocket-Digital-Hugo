@@ -1,0 +1,250 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">Devtools buyers don&rsquo;t read marketing pages.</span>
+          <span class="pr-hero__title-strong">They read your docs, your repo, and your changelog.</span>
+        </h1>
+        <div class="pr-hero__copy">
+          <p>PipeRocket runs marketing for developer-first platforms, APIs, infra, observability, and OSS-led startups — SEO, PPC, and pipeline ops built around docs-grade content, time-to-first-value pricing, and the dual motion that takes a deal from engineer champion to VP / CFO close.</p>
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero__collage" aria-label="PipeRocket Devtools Marketing — developer-first, dual-motion, pipeline-led">
+        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock — Devtools context" loading="eager">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     WHY DEVTOOLS MARKETING IS DIFFERENT
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2>Why devtools marketing is different</h2>
+      <p>Generic SaaS playbooks read as marketing-speak to engineers. Here&rsquo;s what changes when your buyer&rsquo;s default reaction to a brochure page is to close the tab.</p>
+    </div>
+    <div class="pr-principles">
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <h3>Docs are the marketing</h3>
+        <p>Engineers trust docs, code samples, working repos, and benchmarks — not testimonial boxes and feature lists. The first thing a serious buyer reads is your getting-started guide. If it&rsquo;s slow or shallow, the deal is over.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><circle cx="15" cy="15" r="6"/></svg>
+        </div>
+        <h3>Bottoms-up champion, top-down close</h3>
+        <p>An engineer ships a prototype on a Friday. The VP of Eng sees it Monday. The CFO signs in Q3. Marketing has to serve the engineer first and the budget owner second — not the other way around.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>Time-to-first-value is the conversion</h3>
+        <p>If a developer can&rsquo;t hit "hello world" in under fifteen minutes, the funnel is broken. TTFV beats every other marketing metric — fix that and pipeline follows. Don&rsquo;t fix it and ad spend leaks.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>Pricing transparency is non-negotiable</h3>
+        <p>"Request a quote" is a developer&rsquo;s exit door. Public pricing, real free tiers, and per-seat / per-event cost predictability beat sales-gated pricing every time. Marketing has to defend transparency, not negotiate it away.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — testimonial on a vintage TV" class="pr-working-tv">
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR DEVTOOLS SERVICES — THREE CARDS LINKING TO SPOKES
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2 style="color: var(--pr-cream);">Our devtools marketing services</h2>
+      <p style="color: rgba(244,241,232,0.7);">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
+    </div>
+    <div class="pr-approach-grid pr-approach-grid--dark">
+      <article class="pr-approach-grid__card">
+        <h3>SaaS SEO</h3>
+        <p>Buyer-led content for engineers, eng managers, VPs, and CTOs. BOFU pages built around code samples, benchmarks, and working examples. Topical authority across infra, observability, APIs, dev workflows, and OSS-led growth.</p>
+        <a href="/saas-seo-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS SEO →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>SaaS PPC</h3>
+        <p>Paid programmes built around named developer titles, OSS competitor queries, and dual-motion targeting (engineer + budget owner). Docs-led landing pages and CFO-defendable CACs over realistic dual-motion deal cycles.</p>
+        <a href="/saas-ppc/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS PPC →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Marketing Ops</h3>
+        <p>RevOps, attribution, lifecycle, and reporting built around the bottoms-up motion. PLG funnel, signups-to-team-conversion, expansion attribution, CAC payback by self-serve and sales-led cohort.</p>
+        <a href="/marketing-ops/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Marketing Ops →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WHY DEVTOOLS TEAMS CHOOSE PIPEROCKET — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2 style="color: var(--pr-cream);">Why devtools teams choose PipeRocket</h2>
+      <p style="color: rgba(244,241,232,0.7);">Every agency promises growth. The gap is whether they understand a buyer who&rsquo;d rather read a Postgres man page than your home page — and how to convert that buyer into ARR.</p>
+    </div>
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
+          </svg>
+          PipeRocket
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Marketing pages are brochure copy. Engineers bounce within ten seconds because there&rsquo;s no code, no benchmark, and no real getting-started.</div>
+        <div>The agency runs a generic SaaS playbook. They&rsquo;ve never written for engineers and never seen the doc-led conversion path.</div>
+        <div>Code-first landing pages with working examples, benchmarks, and live snippets. Every BOFU page reads like a doc, not a brochure.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Sales reaches out to a VP and the engineer who&rsquo;s already running the prototype gets cut out of the loop. The deal stalls.</div>
+        <div>The agency builds for VPs only. The engineer champion never sees content that helps them advocate internally.</div>
+        <div>Dual-motion programmes — content for the engineer champion, ROI deck for the VP / CFO — running in parallel so the deal closes when both are ready.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Onboarding takes an hour. Most signups never reach hello-world. Ad spend leaks into a broken funnel.</div>
+        <div>The agency optimises sign-up forms. They never look at TTFV — the actual conversion bottleneck.</div>
+        <div>TTFV under fifteen minutes is the primary funnel metric. Everything from ad creative to landing page to onboarding is reworked until first-value is fast.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Pricing is "request a quote". Self-serve buyers leave for competitors with public pricing and free tiers.</div>
+        <div>The agency tries to gate pricing for the sales team. Devs disqualify the brand the second they see "contact us" on the pricing page.</div>
+        <div>Public pricing, real free tiers, predictable per-seat / per-event costs — defended on every page. Self-serve buyers convert; sales picks up only when expansion warrants it.</div>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__logo">DevRev</div>
+        <p class="pr-case__copy">Pipeline-led marketing for DevRev — a directly-relevant devtools playbook moving the agency conversation from rankings to qualified opportunities.</p>
+        <a href="/case-study/devrev/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">Storylane</div>
+        <p class="pr-case__copy">Pipeline-led growth for Storylane — interactive demos that work for devtools vendors needing to show the product without a sales call.</p>
+        <a href="/case-study/storylane/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">Spendflo</div>
+        <p class="pr-case__copy">61% traffic lift for Spendflo — relevant for devtools vendors selling consolidation and predictable per-seat / per-event pricing.</p>
+        <a href="/case-study/spendflo/" class="pr-case__link">Read full story →</a>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is a devtools marketing agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">A devtools marketing agency runs SEO, PPC, content, and pipeline ops for developer-first platforms — APIs, infra, observability, dev workflows, security tooling, and OSS-led startups. The work goes beyond standard SaaS — it includes docs-grade content, dual-motion campaigns, TTFV optimisation, and pricing transparency that engineers expect.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Which devtools sub-verticals do you work with?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">APIs, infra and IaC, observability, CI/CD, dev workflows, frontend tooling, database tooling, AI / ML infra, OSS-led commercial products, and developer security — anywhere your buyer is an engineer, eng manager, or CTO, the playbook applies.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How do you build for engineer audiences?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Every BOFU page leads with code, benchmarks, and a real getting-started flow. We work alongside DevRel and product to keep docs and marketing in sync, run TTFV optimisation, and write content engineers actually share — not brochure copy they ignore.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Do you handle SEO, PPC, and marketing ops together or separately?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Both. You can engage us for a single service or for a unified programme where SEO, PPC, and pipeline ops share buyer research, attribution, and reporting. Most devtools clients run all three because the dual-motion deal cycle demands consistent presence across channels.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How quickly do you produce qualified pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">First spend goes live in week 3. Most devtools clients see signups and qualified pipeline within 30–60 days once TTFV is fixed and docs-grade pages are live. Closed-won timing depends on whether the deal is self-serve (days to weeks) or enterprise dual-motion (60–180 days from first touch).</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
+    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
+    <h2>Generic SaaS marketing won&rsquo;t convert engineers.<br><span class="pr-italic">Let&rsquo;s build a programme that does.</span></h2>
+    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
+      Dive deeper: <a href="/saas-seo-agency/" style="color: var(--pr-cyan);">SaaS SEO agency</a> · <a href="/saas-ppc/" style="color: var(--pr-cyan);">SaaS PPC agency</a>
+    </p>
+  </div>
+</section>
+
+{{ end }}

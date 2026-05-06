@@ -1,0 +1,250 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">Proptech buyers are sceptical of software.</span>
+          <span class="pr-hero__title-strong">They trust deals closed and rents collected.</span>
+        </h1>
+        <div class="pr-hero__copy">
+          <p>PipeRocket runs marketing for property management, brokerage, asset management, and real-estate fintech platforms — SEO, PPC, and pipeline ops built around owners, asset managers, property managers, and brokers, with messaging tied to NOI, occupancy, deal flow, and rent collection — not feature lists.</p>
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero__collage" aria-label="PipeRocket Proptech Marketing — outcome-first, multi-stakeholder, pipeline-led">
+        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock — Proptech context" loading="eager">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     WHY PROPTECH MARKETING IS DIFFERENT
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2>Why proptech marketing is different</h2>
+      <p>Generic SaaS playbooks don&rsquo;t survive a real-estate buyer who&rsquo;s burned by three failed software rollouts already. Here&rsquo;s what changes when your buyer measures success in dollars closed, not features shipped.</p>
+    </div>
+    <div class="pr-principles">
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg>
+        </div>
+        <h3>Proof in dollars, not features</h3>
+        <p>Owners and asset managers don&rsquo;t care which integrations you ship. They care about NOI lift, occupancy gain, days-to-lease cut, and rent-collection rate. Marketing that leads with software loses the room.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><circle cx="15" cy="15" r="6"/></svg>
+        </div>
+        <h3>Four buyers, four KPIs</h3>
+        <p>Owners care about NOI. Asset managers care about portfolio yield. Property managers care about ops cost. Brokers care about deal flow. One landing page can&rsquo;t serve all four — programmes have to.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Adoption is the deal-breaker</h3>
+        <p>Real estate has a 30-year history of failed software rollouts. Buyers expect their leasing agents and brokers to abandon any system that adds friction. Marketing has to address adoption head-on, not pretend it doesn&rsquo;t exist.</p>
+      </article>
+      <article class="pr-principles__card">
+        <div class="pr-principles__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 22s-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12z"/></svg>
+        </div>
+        <h3>Regional fragmentation is real</h3>
+        <p>Landlord laws, MLS rules, brokerage norms, and tenant protections vary city-to-city. National content that ignores regional reality reads as out-of-touch — and proptech buyers spot it immediately.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — testimonial on a vintage TV" class="pr-working-tv">
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR PROPTECH SERVICES — THREE CARDS LINKING TO SPOKES
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+      <h2 style="color: var(--pr-cream);">Our proptech marketing services</h2>
+      <p style="color: rgba(244,241,232,0.7);">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
+    </div>
+    <div class="pr-approach-grid pr-approach-grid--dark">
+      <article class="pr-approach-grid__card">
+        <h3>SaaS SEO</h3>
+        <p>Buyer-led content for owners, asset managers, property managers, and brokers. BOFU pages built around NOI, occupancy, deal-flow, and rent-collection outcomes. Topical authority across multifamily, commercial, brokerage, and asset-management categories.</p>
+        <a href="/saas-seo-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS SEO →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>SaaS PPC</h3>
+        <p>Paid programmes built around named real-estate buyer titles, regional segmentation, and adoption-friction messaging. Outcome-led landing pages and CFO-defendable CACs over realistic deal cycles.</p>
+        <a href="/saas-ppc/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS PPC →</a>
+      </article>
+      <article class="pr-approach-grid__card">
+        <h3>Marketing Ops</h3>
+        <p>RevOps, attribution, lifecycle, and reporting built around the multi-stakeholder reality of real estate. Sales-accepted lead rate by persona, deal-stage progression, CAC payback by portfolio cohort.</p>
+        <a href="/marketing-ops/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Marketing Ops →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WHY PROPTECH TEAMS CHOOSE PIPEROCKET — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2 style="color: var(--pr-cream);">Why proptech teams choose PipeRocket</h2>
+      <p style="color: rgba(244,241,232,0.7);">Every agency promises growth. The gap is whether they understand a buyer who has already abandoned three software vendors and treats every demo as guilty until proven useful.</p>
+    </div>
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
+          </svg>
+          PipeRocket
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Marketing leads with features and integrations. The owner asks "what does this do for NOI?" and the answer takes a follow-up call.</div>
+        <div>The agency runs a generic SaaS playbook. They&rsquo;ve never sat in an asset manager&rsquo;s portfolio review. Outcomes-led messaging never gets written.</div>
+        <div>Programmes lead with NOI lift, occupancy gain, days-to-lease cut, and rent-collection rate — every BOFU page tied to a specific dollar outcome.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>One landing page tries to serve owners, asset managers, property managers, and brokers. Each persona feels half-served and bounces.</div>
+        <div>The agency uses a single ICP. They don&rsquo;t map the four real-estate personas — owner, asset manager, property manager, broker.</div>
+        <div>Programmes map the full real-estate stack — separate landing pages, ad copy, and content for each persona, each with their KPI in the headline.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Adoption-friction concerns are dismissed in marketing copy. Sales hits them on every call and deals stall.</div>
+        <div>The agency assumes adoption is solved by a good UI. They never engage the "leasing agents won&rsquo;t use this" objection head-on.</div>
+        <div>Adoption proof — change management, on-site training, leasing-agent buy-in — surfaces in the hero and on every BOFU page. Scepticism gets answered before sales hears it.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>National copy ignores regional landlord-tenant law and MLS specifics. Buyers in California, NYC, Texas, and Florida all see the same generic page.</div>
+        <div>The agency runs one set of pages. Regional fragmentation gets ignored or reduced to a footer disclaimer.</div>
+        <div>Regional landing pages cover state-by-state landlord law, MLS rules, brokerage norms, and tenant protections — buyers see local relevance, not national templates.</div>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES
+     ==================================================== -->
+<section class="pr-section--tight">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__logo">HyperStart</div>
+        <p class="pr-case__copy">Pipeline-led growth for HyperStart — LegalTech / CLM — across a multi-stakeholder buying committee similar to real-estate procurement.</p>
+        <a href="/case-study/hyperstart/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">Spendflo</div>
+        <p class="pr-case__copy">61% traffic lift for Spendflo — SaaS spend management — relevant for proptech buyers managing portfolio-level vendor and tool spend.</p>
+        <a href="/case-study/spendflo/" class="pr-case__link">Read full story →</a>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__logo">DevRev</div>
+        <p class="pr-case__copy">Pipeline-led marketing for DevRev — moving the agency conversation from rankings to qualified opportunities across multi-stakeholder deals.</p>
+        <a href="/case-study/devrev/" class="pr-case__link">Read full story →</a>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is a proptech marketing agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">A proptech marketing agency runs SEO, PPC, content, and pipeline ops for property management, brokerage, asset management, multifamily, commercial, and real-estate fintech platforms. The work goes beyond standard SaaS — it includes multi-persona positioning, regional fragmentation, and adoption-friction messaging that real-estate buyers expect.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Which proptech sub-verticals do you work with?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Property management, leasing tech, brokerage tech, asset management, multifamily, commercial real estate, real-estate fintech, construction tech, ESG / building ops, and short-term-rental tech — anywhere your buyer is an owner, asset manager, property manager, or broker, the playbook applies.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How do you tie marketing to real-estate KPIs?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Every BOFU page leads with the dollar outcome — NOI lift, occupancy gain, days-to-lease, rent-collection rate, deal-flow per broker — tied to documented customer evidence. Reports show pipeline contribution by persona and CAC payback by portfolio cohort, not just MQLs.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Do you handle SEO, PPC, and marketing ops together or separately?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Both. You can engage us for a single service or for a unified programme where SEO, PPC, and pipeline ops share buyer research, attribution, and reporting. Most proptech clients run all three because multi-persona messaging needs consistent presence across channels.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How quickly do you produce qualified pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">First spend goes live in week 3. Most proptech clients see qualified pipeline within 30–60 days once attribution and persona-led pages are wired in. Closed-won timing depends on portfolio review, adoption testing, and stakeholder alignment — typically 90–180 days from first touch.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
+    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
+    <h2>Generic SaaS marketing won&rsquo;t convince a real-estate buyer.<br><span class="pr-italic">Let&rsquo;s build a programme that does.</span></h2>
+    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
+      Dive deeper: <a href="/saas-seo-agency/" style="color: var(--pr-cyan);">SaaS SEO agency</a> · <a href="/saas-ppc/" style="color: var(--pr-cyan);">SaaS PPC agency</a>
+    </p>
+  </div>
+</section>
+
+{{ end }}
