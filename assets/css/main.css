@@ -333,6 +333,9 @@ p { margin: 0 0 var(--pr-s-4); }
   transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
   z-index: 60;
 }
+.pr-megamenu--4col { grid-template-columns: 1fr 1fr 1fr 1fr; gap: var(--pr-s-5); }
+.pr-megamenu__link--compact { padding: var(--pr-s-2) var(--pr-s-3); }
+.pr-megamenu__link--compact strong { font-size: 0.95rem; }
 .pr-nav__item--mega:hover .pr-megamenu,
 .pr-nav__item--mega:focus-within .pr-megamenu {
   opacity: 1;
@@ -3036,7 +3039,6 @@ main table a,
   position: relative;
   display: inline-flex;
   flex-shrink: 0;
-  margin-bottom: var(--pr-s-3);
 }
 .pr-author-card__photo {
   display: block;
@@ -3058,7 +3060,7 @@ main table a,
   height: 28px;
   border-radius: 50%;
   background: var(--pr-cyan);
-  color: var(--pr-ink);
+  color: #FFFFFF;
   display: inline-flex;
   align-items: center;
   justify-content: center;

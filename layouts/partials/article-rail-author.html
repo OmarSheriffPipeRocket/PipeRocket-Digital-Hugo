@@ -8,18 +8,20 @@
 
       {{ with $writer }}
         <div class="pr-author-card__person">
-          {{ with .photo }}
-            <span class="pr-author-card__photo-wrap">
-              <img src="{{ . }}" alt="{{ $writer.name }}" class="pr-author-card__photo">
-            </span>
-          {{ end }}
-          <div class="pr-author-card__person-body">
-            <div class="pr-eyebrow">Written by</div>
-            <strong class="pr-author-card__name">
-              <a href="/authors/{{ $.Params.writtenBy }}/">{{ .name }}</a>
-              {{ partial "trust-badge.html" . }}
-            </strong>
-            {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+          <div class="pr-author-card__person-row">
+            {{ with .photo }}
+              <span class="pr-author-card__photo-wrap">
+                <img src="{{ . }}" alt="{{ $writer.name }}" class="pr-author-card__photo">
+              </span>
+            {{ end }}
+            <div class="pr-author-card__person-body">
+              <div class="pr-eyebrow">Written by</div>
+              <strong class="pr-author-card__name">
+                <a href="/authors/{{ $.Params.writtenBy }}/">{{ .name }}</a>
+                {{ partial "trust-badge.html" . }}
+              </strong>
+              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+            </div>
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
           <div class="pr-author-card__footer">
@@ -31,18 +33,20 @@
 
       {{ with $reviewer }}
         <div class="pr-author-card__person pr-author-card__person--reviewer">
-          {{ with .photo }}
-            <span class="pr-author-card__photo-wrap">
-              <img src="{{ . }}" alt="{{ $reviewer.name }}" class="pr-author-card__photo">
-            </span>
-          {{ end }}
-          <div class="pr-author-card__person-body">
-            <div class="pr-eyebrow">Reviewed by</div>
-            <strong class="pr-author-card__name">
-              <a href="/authors/{{ $.Params.reviewedBy }}/">{{ .name }}</a>
-              {{ partial "trust-badge.html" . }}
-            </strong>
-            {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+          <div class="pr-author-card__person-row">
+            {{ with .photo }}
+              <span class="pr-author-card__photo-wrap">
+                <img src="{{ . }}" alt="{{ $reviewer.name }}" class="pr-author-card__photo">
+              </span>
+            {{ end }}
+            <div class="pr-author-card__person-body">
+              <div class="pr-eyebrow">Reviewed by</div>
+              <strong class="pr-author-card__name">
+                <a href="/authors/{{ $.Params.reviewedBy }}/">{{ .name }}</a>
+                {{ partial "trust-badge.html" . }}
+              </strong>
+              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+            </div>
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
           <div class="pr-author-card__footer">
