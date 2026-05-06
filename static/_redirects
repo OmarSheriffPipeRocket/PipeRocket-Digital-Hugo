@@ -41,7 +41,6 @@
 # Examples:
 # /demo                       /book-a-demo                  301
 # /linkedin                   https://linkedin.com/company/piperocket-digital  301
-/case-studies/               /case-study/                  301
 
 # ===== CASE-STUDIES / COMPARE FALLBACKS =====
 # (Add here if specific compare or case-study URLs change)
