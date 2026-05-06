@@ -525,8 +525,8 @@ const setupOutcomeSection = () => {
     const progress = Math.max(0, Math.min(1,
       (window.innerHeight - rect.top) / (window.innerHeight + section.offsetHeight)
     ));
-    const rise = progress * 120;
-    rocket.style.transform = `translate(${rise * 0.7}px, ${-rise}px)`;
+    const rise = progress * 200;
+    rocket.style.transform = `translate(${rise * 2}px, ${-rise}px)`;
   };
   window.addEventListener('scroll', handleScroll, { passive: true });
   handleScroll();
