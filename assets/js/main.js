@@ -492,8 +492,8 @@ const setupParallax = () => {
     // Car starts off-screen left and drives right into the section.
     // At scrollProgress 0 (section just entering): translateX(-600px) — off screen left.
     // At scrollProgress 0.6 (section centred): translateX(0) — resting position bottom-left.
-    const startOffset = -600;
-    const endOffset   = 700;
+    const startOffset = -300;
+    const endOffset   = 650;
     const driveProgress = scrollProgress;
     const moveAmount = startOffset + driveProgress * (endOffset - startOffset);
 
@@ -504,6 +504,34 @@ const setupParallax = () => {
   // Initial calculation
   handleScroll();
 };
+const setupOutcomeSection = () => {
+  const section = document.querySelector('[data-outcome-section]');
+  const rocket  = document.querySelector('[data-outcome-rocket]');
+  const underline = document.querySelector('.pr-underline-anim');
+  if (!section) return;
+
+  // Trigger underline animation when section enters view
+  if (underline && 'IntersectionObserver' in window) {
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { underline.classList.add('is-visible'); obs.unobserve(e.target); } });
+    }, { threshold: 0.3 });
+    obs.observe(underline);
+  }
+
+  // Scroll-based rocket rise — moves up-right in the direction the arrow points (~45°)
+  if (!rocket) return;
+  const handleScroll = () => {
+    const rect = section.getBoundingClientRect();
+    const progress = Math.max(0, Math.min(1,
+      (window.innerHeight - rect.top) / (window.innerHeight + section.offsetHeight)
+    ));
+    const rise = progress * 120;
+    rocket.style.transform = `translate(${rise * 0.7}px, ${-rise}px)`;
+  };
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  handleScroll();
+};
+
 const init = () => {
   setupMobileMenu();
   setupCounters();
@@ -524,6 +552,7 @@ const init = () => {
   setupClutchAccordion();
   setupReveals();
   setupParallax();
+  setupOutcomeSection();
 };
 
 // =========================================================

@@ -104,6 +104,9 @@ p { margin: 0 0 var(--pr-s-4); }
   background: var(--pr-ink);
   color: var(--pr-cream);
 }
+.pr-section--outcome {
+  background: #282828;
+}
 .pr-section--dark h1, .pr-section--dark h2, .pr-section--dark h3 {
   color: var(--pr-cream);
 }
@@ -1266,18 +1269,55 @@ p { margin: 0 0 var(--pr-s-4); }
 }
 .pr-approach__link:hover { background: var(--pr-cyan); }
 
-/* Decorative sketched PipeRocket mark in bottom-right of dark services section */
+/* Outcome section — dark bg, rocket, one-line heading */
 .pr-section--dark { position: relative; overflow: hidden; }
-.pr-section--dark::after {
-  content: "";
+.pr-section--outcome { background: #282828; }
+
+.pr-outcome__header {
+  max-width: none;
+  margin: 0 auto var(--pr-s-7);
+  text-align: center;
+}
+.pr-outcome__heading {
+  font-size: clamp(1.6rem, 3vw, 2.6rem);
+  white-space: nowrap;
+  color: var(--pr-cream);
+  margin-bottom: var(--pr-s-4);
+}
+
+/* "service connected" underline — SVG image draws in on scroll */
+.pr-underline-anim {
+  position: relative;
+  display: inline-block;
+}
+.pr-outcome__underline {
   position: absolute;
-  right: 4%;
-  bottom: 6%;
-  width: 240px;
-  height: 240px;
-  background: url("/images/sketched-mark.png") center / contain no-repeat;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: auto;
+  max-width: none;
+  overflow: visible;
+  transition: width 0.9s cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
-  opacity: 0.85;
+  display: block;
+}
+.pr-underline-anim.is-visible .pr-outcome__underline {
+  width: 100%;
+}
+
+/* Rocket — bottom-right outline SVG, rises on scroll */
+.pr-outcome__rocket {
+  position: absolute;
+  bottom: -60px;
+  right: 60px;
+  width: 160px;
+  height: auto;
+  max-width: none;
+  opacity: 0.5;
+  pointer-events: none;
+  will-change: transform;
+  z-index: 0;
 }
 
 /* =================================================================
@@ -2259,33 +2299,32 @@ p { margin: 0 0 var(--pr-s-4); }
   max-width: 680px;
   text-align: left;
 }
-/* Heading wrapper — stroke sits absolutely behind the h2 */
-.pr-certified__heading-wrap {
-  position: relative;
-  display: inline-block;
-  margin-bottom: var(--pr-s-5);
-}
-/* The brush-stroke SVG sits behind the second line of the heading */
-.pr-certified__stroke {
-  position: absolute;
-  bottom: 4px;
-  left: -10px;
-  width: 100%;
-  height: auto;
-  opacity: 0.5;
-  pointer-events: none;
-  z-index: 0;
-}
 .pr-certified__heading {
-  position: relative;
-  z-index: 1;
   font-size: clamp(2rem, 3.6vw, 3rem);
   font-weight: 800;
   line-height: 1.2;
   color: #fff;
-  margin: 0;
+  margin: 0 0 var(--pr-s-5);
   letter-spacing: -0.02em;
   white-space: nowrap;
+}
+/* Span sized to the "fuel your growth" text — stroke anchors here */
+.pr-certified__fuel-line {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+/* Stroke is 566/512 ≈ 110% of text width, centred with -5% left offset */
+.pr-certified__stroke {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translateY(-50%);
+  width: 110%;
+  height: auto;
+  max-width: none;
+  pointer-events: none;
+  z-index: -1;
 }
 .pr-certified--parallax .pr-certified__content p {
   font-size: clamp(0.9rem, 1.3vw, 1rem);
