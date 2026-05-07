@@ -89,11 +89,14 @@ const setupAccordion = () => {
   document.querySelectorAll('.pr-accordion').forEach((group) => {
     const items = group.querySelectorAll('.pr-accordion__item');
     items.forEach((item) => {
-      item.addEventListener('toggle', () => {
-        if (!item.open) return;
-        items.forEach((other) => {
-          if (other !== item) other.open = false;
-        });
+      const summary = item.querySelector('summary');
+      if (!summary) return;
+      summary.addEventListener('click', (e) => {
+        e.preventDefault();
+        const isOpen = item.open;
+        // Close all first, then open the clicked one if it was closed
+        items.forEach(i => { i.open = false; });
+        if (!isOpen) item.open = true;
       });
     });
   });
@@ -440,9 +443,9 @@ const setupReveals = () => {
   const selector = [
     // Whole sections — homepage only
     ...(isHome ? [
-      'main > .pr-section',
-      'main > .pr-section--tight',
-      'main > .pr-section--dark',
+      'main > .pr-section:not(.pr-section--outcome):not(.pr-section--pov)',
+      'main > .pr-section--tight:not(.pr-section--outcome):not(.pr-section--pov)',
+      'main > .pr-section--dark:not(.pr-section--outcome):not(.pr-section--pov)',
       'main > .pr-cta-final',
       'main > .pr-certified',
     ] : []),
@@ -450,9 +453,9 @@ const setupReveals = () => {
     '.pr-cases .pr-case',
     '.pr-approach .pr-approach__card',
     '.pr-pov .pr-pov__card',
-    '.pr-testimonials .pr-testimonial',
     '.pr-twocol .pr-twocol__card',
     '.pr-features .pr-feature',
+    '.pr-points .pr-point',
   ].join(',');
 
   const targets = document.querySelectorAll(selector);
@@ -472,6 +475,34 @@ const setupReveals = () => {
     { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
   );
   targets.forEach((el) => io.observe(el));
+};
+
+// Fade in the compare section intro paragraph on scroll
+const setupCompareIntro = () => {
+  const el = document.querySelector('.pr-compare__intro');
+  if (!el) return;
+  const io = new IntersectionObserver(
+    ([entry]) => { if (entry.isIntersecting) { el.classList.add('is-revealed'); io.unobserve(el); } },
+    { threshold: 0.2 }
+  );
+  io.observe(el);
+};
+
+// Reveal the certified-section stroke left-to-right on scroll
+const setupStrokeReveal = () => {
+  const stroke = document.querySelector('.pr-certified__stroke');
+  const section = document.querySelector('.pr-certified');
+  if (!stroke || !section) return;
+  const io = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        stroke.classList.add('is-revealed');
+        io.unobserve(section);
+      }
+    },
+    { threshold: 0.2 }
+  );
+  io.observe(section);
 };
 
 // Scroll-based parallax animation for the car section
@@ -505,6 +536,29 @@ const setupParallax = () => {
   // Initial calculation
   handleScroll();
 };
+// Scroll parallax for the CTA final section decorative elements
+const setupCtaParallax = () => {
+  const section = document.querySelector('.pr-cta-final');
+  const mark  = document.querySelector('[data-cta-mark]');
+  const phone = document.querySelector('[data-cta-phone]');
+  if (!section || (!mark && !phone)) return;
+
+  const handleScroll = () => {
+    const rect = section.getBoundingClientRect();
+    const sectionHeight = section.offsetHeight;
+    const viewportHeight = window.innerHeight;
+    const progress = Math.max(0, Math.min(1,
+      (viewportHeight - rect.top) / (viewportHeight + sectionHeight)
+    ));
+    const offset = (progress - 0.5) * 120;
+    if (mark)  mark.style.transform  = `translate(${offset * 0.6}px, ${-offset}px)`;
+    if (phone) phone.style.transform = `translate(${-offset * 0.6}px, ${-offset}px)`;
+  };
+
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  handleScroll();
+};
+
 const setupOutcomeSection = () => {
   const section = document.querySelector('[data-outcome-section]');
   const rocket  = document.querySelector('[data-outcome-rocket]');
@@ -558,9 +612,38 @@ const init = () => {
   setupReviewsFilter();
   setupClutchAccordion();
   setupReveals();
+  setupCompareIntro();
+  setupStrokeReveal();
   setupParallax();
+  setupCtaParallax();
   setupOutcomeSection();
   setupTestimonialDots();
+  setupAiGridHeight();
+};
+
+// =========================================================
+// AI section: lock image column to max accordion height
+// =========================================================
+const setupAiGridHeight = () => {
+  const media = document.querySelector('.pr-ai-grid__media');
+  const accordion = document.querySelector('.pr-ai-grid .pr-accordion');
+  if (!media || !accordion) return;
+
+  const items = accordion.querySelectorAll('.pr-accordion__item');
+  let maxH = 0;
+
+  // Measure height with each item open individually
+  items.forEach(item => {
+    items.forEach(i => i.removeAttribute('open'));
+    item.setAttribute('open', '');
+    maxH = Math.max(maxH, accordion.offsetHeight);
+  });
+
+  // Restore default (first item open)
+  items.forEach(i => i.removeAttribute('open'));
+  items[0].setAttribute('open', '');
+
+  media.style.minHeight = maxH + 'px';
 };
 
 // =========================================================
