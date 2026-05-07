@@ -1,15 +1,43 @@
 // PipeRocket — minimal JS
 // Each setup function runs independently; missing target elements are a no-op.
 
+// Single rAF-throttled scroll manager — all scroll handlers register here
+const scrollHandlers = [];
+let scrollTicking = false;
+const onWindowScroll = () => {
+  if (scrollTicking) return;
+  scrollTicking = true;
+  requestAnimationFrame(() => {
+    for (let i = 0; i < scrollHandlers.length; i++) scrollHandlers[i]();
+    scrollTicking = false;
+  });
+};
+const registerScroll = (fn) => {
+  scrollHandlers.push(fn);
+  fn();
+};
+window.addEventListener('scroll', onWindowScroll, { passive: true });
+
 const setupMobileMenu = () => {
   const toggle = document.getElementById('prMenuToggle');
   const nav = document.querySelector('.pr-nav');
   if (!toggle || !nav) return;
+  let savedScrollY = 0;
   const setOpen = (open) => {
+    if (open) {
+      savedScrollY = window.scrollY;
+      document.body.style.top = `-${savedScrollY}px`;
+    } else {
+      document.body.style.top = '';
+    }
     nav.classList.toggle('pr-nav--open', open);
+    document.documentElement.classList.toggle('pr-nav-locked', open);
     document.body.classList.toggle('pr-nav-locked', open);
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    if (!open) {
+      window.scrollTo(0, savedScrollY);
+    }
   };
   toggle.addEventListener('click', () => {
     setOpen(!nav.classList.contains('pr-nav--open'));
@@ -117,13 +145,11 @@ const setupStickyCta = () => {
   const onScroll = () => {
     cta.classList.toggle('pr-sticky-cta--visible', window.scrollY > 300);
   };
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
+  registerScroll(onScroll);
 
   cta.querySelector('[data-pr-sticky-close]')?.addEventListener('click', () => {
     sessionStorage.setItem(dismissedKey, '1');
     cta.classList.remove('pr-sticky-cta--visible');
-    window.removeEventListener('scroll', onScroll);
     setTimeout(() => cta.remove(), 300);
   });
 };
@@ -474,6 +500,7 @@ const setupReveals = () => {
     },
     { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
   );
+
   targets.forEach((el) => io.observe(el));
 };
 
@@ -521,20 +548,16 @@ const setupParallax = () => {
       (viewportHeight - rect.top) / (viewportHeight + sectionHeight)
     ));
 
-    // Car starts off-screen left and drives right into the section.
-    // At scrollProgress 0 (section just entering): translateX(-600px) — off screen left.
-    // At scrollProgress 0.6 (section centred): translateX(0) — resting position bottom-left.
-    const startOffset = -300;
-    const endOffset   = 650;
+    const sectionWidth = section.offsetWidth;
+    const startOffset = sectionWidth * -0.2;
+    const endOffset   = sectionWidth * 0.45;
     const driveProgress = scrollProgress;
     const moveAmount = startOffset + driveProgress * (endOffset - startOffset);
 
     car.style.transform = `translateX(${moveAmount}px)`;
   };
 
-  window.addEventListener('scroll', handleScroll, { passive: true });
-  // Initial calculation
-  handleScroll();
+  registerScroll(handleScroll);
 };
 // Scroll parallax for the CTA final section decorative elements
 const setupCtaParallax = () => {
@@ -555,8 +578,7 @@ const setupCtaParallax = () => {
     if (phone) phone.style.transform = `translate(${-offset * 0.6}px, ${-offset}px)`;
   };
 
-  window.addEventListener('scroll', handleScroll, { passive: true });
-  handleScroll();
+  registerScroll(handleScroll);
 };
 
 const setupOutcomeSection = () => {
@@ -589,8 +611,7 @@ const setupOutcomeSection = () => {
     const rise = progress * 200;
     rocket.style.transform = `translate(${rise * 2}px, ${-rise}px)`;
   };
-  window.addEventListener('scroll', handleScroll, { passive: true });
-  handleScroll();
+  registerScroll(handleScroll);
 };
 
 const init = () => {
