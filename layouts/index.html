@@ -16,81 +16,74 @@
         </div>
         <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
 
-        <!-- Clutch trigger pill — sits below the hero CTA. The panel below is rendered
-             OUTSIDE the hero grid so it spans the full container width without
-             pushing the right collage. -->
-        {{ $clutchReviews := where .Site.Data.reviews.reviews "source" "Clutch" }}
-        {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
-        <div class="pr-clutch-accordion pr-clutch-accordion--inline" id="clutchReviews">
-          <button class="pr-clutch-accordion__head pr-clutch-accordion__head--simple" type="button" data-clutch-accordion-toggle aria-expanded="true" aria-controls="clutchAccordionPanel">
-            <img src="/images/logos/clutch.svg" alt="Clutch" class="pr-clutch-accordion__logo">
-            <span class="pr-clutch-accordion__rating-simple">
-              <strong>{{ $clutchSource.rating }}</strong>
-              <span class="pr-clutch-accordion__stars" aria-hidden="true">★★★★★</span>
-            </span>
-            <span class="pr-clutch-accordion__caret" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </span>
-          </button>
-        </div>
 
       </div>
       <div class="pr-hero__collage" aria-label="PipeRocket — obsessed with your revenue">
-        <img class="pr-hero__image" src="/images/hero-collage.jpg" alt="PipeRocket — businessman with a briefcase walking past a desk of dollar bills, with SQL and Revenue charts on a chalkboard behind him" loading="eager">
-      </div>
-    </div>
+        <div class="pr-hero__scene">
 
-    <!-- Carousel panel — sibling of .pr-hero__grid, full container width. -->
-    <div class="pr-clutch-accordion__panel pr-clutch-accordion__panel--full" id="clutchAccordionPanel" data-clutch-accordion-panel>
-      <div class="pr-clutch-accordion__carousel-wrap">
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--prev" data-carousel-prev aria-label="Previous reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-        </button>
+          <!-- Floor grid -->
+          <img class="pr-hscene__floor" src="/images/hero/floor.png" alt="" aria-hidden="true" loading="eager">
 
-        <div class="pr-clutch-accordion__track" data-carousel-track>
-          {{ range $clutchReviews }}
-            <article class="pr-clutch-card">
-              <header class="pr-clutch-card__head">
-                <span class="pr-clutch-card__rating-row" aria-label="Rated {{ .rating }} out of 5">
-                  {{ $r := .rating }}
-                  {{ range seq 5 }}
-                    {{ if le (float .) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--full">★</span>
-                    {{ else if le (sub (float .) 0.5) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--half">★</span>
-                    {{ else }}
-                      <span class="pr-clutch-card__star">★</span>
-                    {{ end }}
-                  {{ end }}
-                  <span class="pr-clutch-card__rating-value">{{ .rating }}</span>
-                </span>
-              </header>
-              <h3 class="pr-clutch-card__title">{{ .title }}</h3>
-              <blockquote class="pr-clutch-card__quote">"{{ .quote }}"</blockquote>
-              <footer class="pr-clutch-card__footer">
-                <strong>{{ .reviewer_name }}</strong>
-                <span>{{ .reviewer_role }}{{ if .company }} · {{ .company }}{{ end }}</span>
-                {{ with .review_url }}
-                  <a class="pr-clutch-card__link" href="{{ . }}" target="_blank" rel="noopener">Read on Clutch ↗</a>
-                {{ end }}
-              </footer>
-            </article>
-          {{ end }}
+          <!-- Blackboard -->
+          <img class="pr-hscene__board" src="/images/hero/board.png" alt="" aria-hidden="true" loading="eager">
+
+          <!-- PipeRocket logo -->
+          <img class="pr-hscene__logo" src="/images/hero/piperocket-logo-white.svg" alt="PipeRocket">
+
+          <!-- SQL chart -->
+          <div class="pr-hscene__sql">
+            <img class="pr-hscene__sql-border" src="/images/hero/sql-border.svg" alt="" loading="eager">
+            <img class="pr-hscene__sql-label" src="/images/hero/sql-label.svg" alt="SQL">
+            <img class="pr-hscene__bar pr-hscene__bar--0" src="/images/hero/sql-bar-0.svg" alt="">
+            <div class="pr-hscene__bars">
+              <div class="pr-hscene__bar-group">
+                <img class="pr-hscene__bar pr-hscene__bar--1" src="/images/hero/sql-bar-1.svg" alt="">
+                <img class="pr-hscene__bar pr-hscene__bar--2" src="/images/hero/sql-bar-2.svg" alt="">
+                <img class="pr-hscene__bar pr-hscene__bar--3" src="/images/hero/sql-bar-3.svg" alt="">
+                <img class="pr-hscene__bar pr-hscene__bar--4" src="/images/hero/sql-bar-4.svg" alt="">
+                <img class="pr-hscene__bar pr-hscene__bar--5" src="/images/hero/sql-bar-5.svg" alt="">
+                <img class="pr-hscene__bar pr-hscene__bar--6" src="/images/hero/sql-bar-6.svg" alt="">
+                <img class="pr-hscene__bar pr-hscene__bar--7" src="/images/hero/sql-bar-7.svg" alt="">
+              </div>
+            </div>
+            <div class="pr-hscene__sql-callout-wrap">
+              <img class="pr-hscene__sql-callout" src="/images/hero/sql-callout.svg" alt="">
+            </div>
+            <img class="pr-hscene__sql-callout-text" src="/images/hero/sql-callout-24.svg" alt="24">
+          </div>
+
+          <!-- Revenue chart -->
+          <div class="pr-hscene__rev">
+            <img class="pr-hscene__rev-border" src="/images/hero/rev-border.svg" alt="" loading="eager">
+            <img class="pr-hscene__rev-label" src="/images/hero/rev-label.svg" alt="REVENUE">
+            <div class="pr-hscene__rev-grid">
+              <img src="/images/hero/rev-grid-1.svg" alt="" aria-hidden="true">
+              <img src="/images/hero/rev-grid-2.svg" alt="" aria-hidden="true">
+              <img src="/images/hero/rev-grid-3.svg" alt="" aria-hidden="true">
+              <img src="/images/hero/rev-grid-4.svg" alt="" aria-hidden="true">
+              <img src="/images/hero/rev-grid-5.svg" alt="" aria-hidden="true">
+              <img src="/images/hero/rev-grid-6.svg" alt="" aria-hidden="true">
+              <img src="/images/hero/rev-grid-7.svg" alt="" aria-hidden="true">
+            </div>
+            <img class="pr-hscene__rev-line" src="/images/hero/rev-line.svg" alt="">
+            <img class="pr-hscene__rev-dot" src="/images/hero/rev-dot.svg" alt="">
+            <div class="pr-hscene__rev-callout-wrap">
+              <img class="pr-hscene__rev-callout" src="/images/hero/rev-callout.svg" alt="">
+            </div>
+            <img class="pr-hscene__rev-callout-text" src="/images/hero/rev-callout-dollar.svg" alt="$">
+          </div>
+
+          <!-- Accent strokes -->
+          <img class="pr-hscene__stroke-blue" src="/images/hero/stroke-blue.svg" alt="" aria-hidden="true">
+          <img class="pr-hscene__stroke-red"  src="/images/hero/stroke-red.svg"  alt="" aria-hidden="true">
+
+          <!-- Man — top layer -->
+          <img class="pr-hscene__man" src="/images/hero/man.png" alt="PipeRocket revenue specialist" loading="eager">
+
         </div>
-
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--next" data-carousel-next aria-label="Next reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
-        </button>
-      </div>
-
-      <div class="pr-clutch-accordion__footer">
-        <a href="/reviews/" class="pr-clutch-accordion__view-all">See all reviews →</a>
       </div>
     </div>
 
-    {{ partial "clutch-reviews-schema.html" (dict "reviews" $clutchReviews "rating" $clutchSource.rating "count" (len $clutchReviews)) }}
   </div>
 </section>
 
@@ -150,8 +143,8 @@
 <section class="pr-section">
   <div class="pr-container">
     <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-6);">
-      <h2>The problem you face<br>determines how we start.</h2>
-      <p>Every SaaS startup has different marketing problems. We start by asking which one is yours, then build a system around it, not the other way around.</p>
+      <h2 style="line-height: 65px;">The problem you face<br>determines how we start.</h2>
+      <p style="max-width: 520px; margin-left: auto; margin-right: auto; color: #484848; font-size: 13px; line-height: 25px;">A $100K ARR startup and a $10M ARR scaleup don't have the same marketing problem. We don't apply the same approach to both. The stage shapes what we prioritise, what we build, and how fast we move.</p>
     </div>
 
     <div class="pr-twocol">
@@ -208,7 +201,7 @@
             <div>
               <div class="pr-testimonial__name">Nalin</div>
               <div class="pr-testimonial__role">CEO</div>
-              <img src="/images/logo-storylane.png" alt="Storylane" class="pr-testimonial__logo">
+              <img src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
             </div>
           </div>
         </article>
@@ -244,7 +237,7 @@
           <div class="pr-testimonial__author">
             <img class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
             <div>
-              <div class="pr-testimonial__name">Saptharishi Baradhan</div>
+              <div class="pr-testimonial__name">Saptharishi</div>
               <div class="pr-testimonial__role">Head of Demand Generation</div>
               <img src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
             </div>
@@ -286,9 +279,9 @@
       <h2>Everyone talks about AI.<br>We just use it where it matters.</h2>
     </div>
 
-    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: center;" class="pr-ai-grid">
-      <div>
-        <img src="/images/figma/raw-024_alpha.png" alt="AI in marketing" style="width: 100%; max-width: 560px;">
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img src="/images/figma/raw-024_alpha.png" alt="AI in marketing">
       </div>
       <div class="pr-accordion">
         <details class="pr-accordion__item" open>

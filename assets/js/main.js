@@ -452,6 +452,7 @@ const setupReveals = () => {
     '.pr-pov .pr-pov__card',
     '.pr-testimonials .pr-testimonial',
     '.pr-twocol .pr-twocol__card',
+    '.pr-features .pr-feature',
   ].join(',');
 
   const targets = document.querySelectorAll(selector);
@@ -574,13 +575,18 @@ const setupTestimonialDots = () => {
   const inactiveImg = '/images/dot-inactive.png';
   const perPage = 3;
 
+  let currentPage = 0;
+  let direction = 1;
+  const totalPages = dots.length;
+
+  const cards = track.querySelectorAll('.pr-testimonial');
+
   const goToPage = (page) => {
-    const cards    = track.querySelectorAll('.pr-testimonial');
-    const card     = cards[0];
+    const card = cards[0];
     if (!card) return;
-    const cardW    = card.offsetWidth;
-    const gap      = parseInt(getComputedStyle(track).gap) || 20;
-    const pageW    = (cardW + gap) * perPage;
+    const cardW = card.offsetWidth;
+    const gap = parseInt(getComputedStyle(track).gap) || 10;
+    const pageW = (cardW + gap) * perPage;
     track.style.transform = `translateX(-${page * pageW}px)`;
 
     dots.forEach((dot, i) => {
@@ -592,8 +598,29 @@ const setupTestimonialDots = () => {
   };
 
   dots.forEach(dot => {
-    dot.addEventListener('click', () => goToPage(parseInt(dot.dataset.testimonialDot, 10)));
+    dot.addEventListener('click', () => {
+      currentPage = parseInt(dot.dataset.testimonialDot, 10);
+      direction = 1;
+      goToPage(currentPage);
+      resetAutoPlay();
+    });
   });
+
+  const advance = () => {
+    const next = currentPage + direction;
+    if (next >= totalPages || next < 0) {
+      direction *= -1;
+    }
+    currentPage += direction;
+    goToPage(currentPage);
+  };
+
+  let timer = setInterval(advance, 9000);
+
+  const resetAutoPlay = () => {
+    clearInterval(timer);
+    timer = setInterval(advance, 9000);
+  };
 
   goToPage(0);
 };
