@@ -517,19 +517,23 @@ const setupCompareIntro = () => {
 
 // Reveal the certified-section stroke left-to-right on scroll
 const setupStrokeReveal = () => {
-  const stroke = document.querySelector('.pr-certified__stroke');
-  const section = document.querySelector('.pr-certified');
-  if (!stroke || !section) return;
-  const io = new IntersectionObserver(
-    ([entry]) => {
-      if (entry.isIntersecting) {
-        stroke.classList.add('is-revealed');
-        io.unobserve(section);
-      }
-    },
-    { threshold: 0.2 }
-  );
-  io.observe(section);
+  const strokes = [
+    { stroke: document.querySelector('.pr-certified__stroke'), section: document.querySelector('.pr-certified') },
+    { stroke: document.querySelector('.pr-techstack__stroke'),  section: document.querySelector('.pr-techstack') },
+  ];
+  strokes.forEach(({ stroke, section }) => {
+    if (!stroke || !section) return;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          stroke.classList.add('is-revealed');
+          io.unobserve(section);
+        }
+      },
+      { threshold: 0.2 }
+    );
+    io.observe(section);
+  });
 };
 
 // Scroll-based parallax animation for the car section
@@ -585,6 +589,8 @@ const setupPrinciples = () => {
   if (!root) return;
   const arrow = root.querySelector('[data-principles-arrow]');
   const fill = root.querySelector('[data-line-fill]');
+  const line = root.querySelector('.pr-principles__line');
+  const bg = root.querySelector('.pr-principles__line-bg');
   const cards = Array.from(root.querySelectorAll('[data-principle]'));
   if (!arrow || !fill || cards.length === 0) return;
 
@@ -592,19 +598,22 @@ const setupPrinciples = () => {
     const rect = root.getBoundingClientRect();
     const viewportH = window.innerHeight;
     const trigger = viewportH * 0.55;
-    const total = root.offsetHeight;
+    const sectionH = root.offsetHeight;
+    const lineH = line ? line.offsetHeight : sectionH;
     const traveled = Math.max(0, trigger - rect.top);
-    const progress = Math.max(0, Math.min(1, traveled / total));
-    const arrowY = progress * total;
+    const progress = Math.max(0, Math.min(1, traveled / sectionH));
+    const arrowH = arrow.offsetHeight || 0;
+    const arrowY = progress * (lineH - arrowH / 2);
 
+    if (line) line.style.setProperty('--line-h', `${lineH}px`);
     arrow.style.transform = `translate(-50%, -50%) translateY(${arrowY}px)`;
     fill.style.height = `${arrowY}px`;
 
     const rootTop = rect.top;
     cards.forEach((card) => {
       const cRect = card.getBoundingClientRect();
-      const cardCenter = (cRect.top - rootTop) + cRect.height / 2;
-      card.classList.toggle('is-active', arrowY >= cardCenter);
+      const cardTrigger = (cRect.top - rootTop) + cRect.height * 0.25;
+      card.classList.toggle('is-active', arrowY >= cardTrigger);
     });
   };
 
@@ -653,15 +662,31 @@ const setupOutcomeSection = () => {
     });
   }
 
-  // Scroll-based rocket rise — moves up-right in the direction the arrow points (~45°)
+  // Scroll-based rocket rise — starts when rocket enters viewport
   if (!rocket) return;
+  const handleScroll = () => {
+    const rect = rocket.getBoundingClientRect();
+    const progress = Math.max(0, Math.min(1,
+      (window.innerHeight - rect.top) / (window.innerHeight + rocket.offsetHeight)
+    ));
+    const rise = progress * 100;
+    rocket.style.transform = `translate(${rise * 2}px, ${-rise}px)`;
+  };
+  registerScroll(handleScroll);
+};
+
+const setupCompareDecorations = () => {
+  const rocket = document.querySelector('[data-compare-rocket]');
+  if (!rocket) return;
+  const section = rocket.closest('.pr-compare--seo');
+  if (!section) return;
   const handleScroll = () => {
     const rect = section.getBoundingClientRect();
     const progress = Math.max(0, Math.min(1,
       (window.innerHeight - rect.top) / (window.innerHeight + section.offsetHeight)
     ));
-    const rise = progress * 200;
-    rocket.style.transform = `translate(${rise * 2}px, ${-rise}px)`;
+    const rise = progress * 140;
+    rocket.style.transform = `translate(${rise * 1.8}px, ${-rise}px)`;
   };
   registerScroll(handleScroll);
 };
@@ -692,6 +717,7 @@ const init = () => {
   setupPrinciples();
   setupCtaParallax();
   setupOutcomeSection();
+  setupCompareDecorations();
   setupTestimonialDots();
   setupAiGridHeight();
 };
