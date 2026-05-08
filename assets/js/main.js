@@ -559,6 +559,25 @@ const setupParallax = () => {
 
   registerScroll(handleScroll);
 };
+// Scroll-based parallax for the SEO hero arrow — starts at CSS position, drifts toward search bar as user scrolls
+const setupArrowParallax = () => {
+  const arrow = document.querySelector('[data-arrow-parallax]');
+  if (!arrow) return;
+  const section = arrow.closest('.pr-hero');
+  if (!section) return;
+
+  const handleScroll = () => {
+    const sectionHeight = section.offsetHeight;
+    const progress = Math.max(0, Math.min(1, window.scrollY / (sectionHeight * 1.2)));
+
+    const moveX = progress * -180;
+    const moveY = progress * -120;
+    arrow.style.transform = `translate(${moveX}px, ${moveY}px)`;
+  };
+
+  registerScroll(handleScroll);
+};
+
 // Scroll parallax for the CTA final section decorative elements
 const setupCtaParallax = () => {
   const section = document.querySelector('.pr-cta-final');
@@ -636,6 +655,7 @@ const init = () => {
   setupCompareIntro();
   setupStrokeReveal();
   setupParallax();
+  setupArrowParallax();
   setupCtaParallax();
   setupOutcomeSection();
   setupTestimonialDots();

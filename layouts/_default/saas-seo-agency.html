@@ -8,83 +8,30 @@
     <div class="pr-hero__grid">
       <div class="pr-hero__text">
         <h1 class="pr-hero__title pr-hero__title--two-tone">
-          <span class="pr-hero__title-soft">Tired of hearing<br>&lsquo;Give it Six months?&rsquo;</span>
-          <span class="pr-hero__title-strong">You&rsquo;re in the right place.</span>
+          <span class="pr-hero__title-soft">Tired of hearing<br>'Give it Six months?'</span>
+          <span class="pr-hero__title-strong">You're in the right place.</span>
         </h1>
-        <div class="pr-hero__copy">
+        <div class="pr-hero__copy pr-hero__copy--seo">
           <p>Agencies and in-house hires both start with keywords. PipeRocket starts with your buyers, goes after in-market searches from week one, and connects every page to one outcome: qualified pipeline, not a traffic report.</p>
         </div>
-
-        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
 
         {{/* SEO page = any Clutch review tagged with "SaaS SEO" (mixed services OK) */}}
         {{ $clutchSeo := where (where .Site.Data.reviews.reviews "source" "Clutch") "services" "intersect" (slice "SaaS SEO") }}
         {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
-        <div class="pr-clutch-accordion pr-clutch-accordion--inline" id="clutchReviewsSeo">
-          <button class="pr-clutch-accordion__head pr-clutch-accordion__head--simple" type="button" data-clutch-accordion-toggle aria-expanded="true" aria-controls="clutchAccordionPanelSeo">
-            <img src="/images/logos/clutch.svg" alt="Clutch" class="pr-clutch-accordion__logo">
-            <span class="pr-clutch-accordion__rating-simple">
-              <strong>{{ $clutchSource.rating }}</strong>
-              <span class="pr-clutch-accordion__stars" aria-hidden="true">★★★★★</span>
-            </span>
-            <span class="pr-clutch-accordion__caret" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </span>
-          </button>
-        </div>
-      </div>
-      <div class="pr-hero__collage" aria-label="PipeRocket SaaS SEO — patience tested, answers delivered">
-        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock with Buyer first and BOFU first badges" loading="eager">
-      </div>
-    </div>
-
-    <!-- Carousel panel — full container width, open by default. -->
-    <div class="pr-clutch-accordion__panel pr-clutch-accordion__panel--full" id="clutchAccordionPanelSeo" data-clutch-accordion-panel>
-      <div class="pr-clutch-accordion__carousel-wrap">
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--prev" data-carousel-prev aria-label="Previous reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-        </button>
-
-        <div class="pr-clutch-accordion__track" data-carousel-track>
-          {{ range $clutchSeo }}
-            <article class="pr-clutch-card">
-              <header class="pr-clutch-card__head">
-                <span class="pr-clutch-card__rating-row" aria-label="Rated {{ .rating }} out of 5">
-                  {{ $r := .rating }}
-                  {{ range seq 5 }}
-                    {{ if le (float .) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--full">★</span>
-                    {{ else if le (sub (float .) 0.5) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--half">★</span>
-                    {{ else }}
-                      <span class="pr-clutch-card__star">★</span>
-                    {{ end }}
-                  {{ end }}
-                  <span class="pr-clutch-card__rating-value">{{ .rating }}</span>
-                </span>
-              </header>
-              <h3 class="pr-clutch-card__title">{{ .title }}</h3>
-              <blockquote class="pr-clutch-card__quote">"{{ .quote }}"</blockquote>
-              <footer class="pr-clutch-card__footer">
-                <strong>{{ .reviewer_name }}</strong>
-                <span>{{ .reviewer_role }}{{ if .company }} · {{ .company }}{{ end }}</span>
-                {{ with .review_url }}
-                  <a class="pr-clutch-card__link" href="{{ . }}" target="_blank" rel="noopener">Read on Clutch ↗</a>
-                {{ end }}
-              </footer>
-            </article>
-          {{ end }}
+        <div class="pr-hero-seo__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-seo__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.png" alt="Clutch" class="pr-hero-seo__rating-logo">
         </div>
 
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--next" data-carousel-next aria-label="Next reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
-        </button>
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta">{{ .Site.Params.secondary_cta_text }}</a>
       </div>
-
-      <div class="pr-clutch-accordion__footer">
-        <a href="/reviews/" class="pr-clutch-accordion__view-all">See all reviews →</a>
+      <div class="pr-hero__collage pr-hero__collage--seo" aria-label="PipeRocket SaaS SEO — patience tested, answers delivered">
+        <img class="pr-hero-seo__buyer" src="/images/hero-seo/buyer-first.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__bofu" src="/images/hero-seo/bofu-vector.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__search" src="/images/hero-seo/search-bar.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__stroke" src="/images/hero-seo/red-stroke.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__man" src="/images/hero-seo/man-clock.webp" alt="Vintage figure under an SEO Results street clock" loading="eager" decoding="async">
+        <img class="pr-hero-seo__arrow" src="/images/hero-seo/arrow.svg" alt="" aria-hidden="true" loading="eager" data-arrow-parallax>
       </div>
     </div>
 
