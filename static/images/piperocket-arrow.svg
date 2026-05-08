@@ -1,10 +1,1 @@
-<svg width="34" height="32" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M32.6476 0H16.54C16.2947 0 16.0543 0.0981274 15.8826 0.274757L0.260696 16.3137C-0.303537 16.8926 0.108599 17.869 0.918149 17.869H16.0003V31.0818C16.0003 31.8914 16.9767 32.3035 17.5556 31.7393L33.5897 16.1223C33.7663 15.9506 33.8644 15.7151 33.8644 15.4649V1.22169C33.8644 0.544607 33.3149 0 32.6427 0H32.6476Z" fill="#0BA6E2"/>
-  <path d="M15.9999 17.869V31.0819C15.9999 31.8914 16.9763 32.3035 17.5552 31.7393L33.5893 16.1223C33.7659 15.9506 33.864 15.7151 33.864 15.4649V1.22169C33.864 0.544607 33.3145 0 32.6423 0H16.5347C16.2894 0 15.8773 0.103034 15.8773 0.520075" fill="url(#pr_arrow_grad)"/>
-  <defs>
-    <linearGradient id="pr_arrow_grad" x1="15.8773" y1="15.9997" x2="33.8689" y2="15.9997" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF0025"/>
-      <stop offset="1" stop-color="#FF0025"/>
-    </linearGradient>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" fill="none" viewBox="0 0 34 32"><path fill="#0ba6e2" d="M32.6 0h-16l-.7.3-15.6 16A1 1 0 0 0 .9 18H16v13a1 1 0 0 0 1.6.6l16-15.6q.3-.2.3-.6V1.2Q33.8.1 32.6 0"/><path fill="url(#a)" d="M16 17.9V31a1 1 0 0 0 1.6.6l16-15.6q.3-.2.3-.6V1.2Q33.8.1 32.6 0h-16q-.6 0-.7.5"/><defs><linearGradient id="a" x1="15.9" x2="33.9" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop stop-color="#ff0025"/><stop offset="1" stop-color="#ff0025"/></linearGradient></defs></svg>
