@@ -1,41 +1,21 @@
 {{/*
   Tech Stack section.
   Optional context: dict with `title` and `subtitle`.
-  Defaults: "Our Tech Stack" / "Better tools do not produce better SEO. Better judgement does. We happen to have both."
-  Logos render from /images/logos/tech-stack/<slug>.svg with a styled wordmark fallback.
-  When no SVG file exists, the wordmark fallback shows automatically (image hidden via JS onerror).
 */}}
 {{ $ctx := . }}
 {{ $title := "Our Tech Stack" }}
-{{ $subtitle := "Better tools do not produce better SEO. Better judgement does. We happen to have both." }}
+{{ $subtitle := "Better tools do not produce better SEO. Better judgment does. We happen to have both." }}
 {{ if reflect.IsMap $ctx }}
   {{ with index $ctx "title" }}{{ $title = . }}{{ end }}
   {{ with index $ctx "subtitle" }}{{ $subtitle = . }}{{ end }}
 {{ end }}
 
-{{ $logos := slice
-  (dict "name" "Ahrefs"      "slug" "ahrefs")
-  (dict "name" "OpenAI"      "slug" "openai")
-  (dict "name" "Clearscope"  "slug" "clearscope")
-  (dict "name" "HubSpot"     "slug" "hubspot")
-  (dict "name" "Claude"      "slug" "claude")
-  (dict "name" "Google"      "slug" "google")
-}}
-
 <section class="pr-techstack">
-  <div class="pr-techstack__inner">
-    <div class="pr-techstack__intro">
-      <h2>{{ $title }}</h2>
-      <p>{{ $subtitle }}</p>
-    </div>
-    <div class="pr-techstack__logos" aria-label="Tools we use">
-      {{ range $logos }}
-        <span class="pr-techstack__logo">
-          <img src="/images/logos/tech-stack/{{ .slug }}.svg" alt="{{ .name }}" loading="lazy"
-               onerror="this.dataset.failed='1';">
-          <span class="pr-techstack__logo-fallback">{{ .name }}</span>
-        </span>
-      {{ end }}
-    </div>
+  <div class="pr-techstack__bg" style="background-image: url('/images/tech-stack-bg.png');"></div>
+  <div class="pr-techstack__content">
+    <img loading="lazy" decoding="async" src="/images/tech-stack-stroke.svg" alt="" class="pr-techstack__stroke" aria-hidden="true">
+    <h2>{{ $title }}</h2>
+    <p>{{ $subtitle }}</p>
   </div>
+  <img loading="lazy" decoding="async" src="/images/tech-stack-tools.png" alt="Tech stack tools" class="pr-techstack__tools">
 </section>
