@@ -578,6 +578,39 @@ const setupArrowParallax = () => {
   registerScroll(handleScroll);
 };
 
+// Scroll-driven principles section: arrow drops down center line, blue fill
+// trails it, cards activate as the arrow reaches each card's vertical center.
+const setupPrinciples = () => {
+  const root = document.querySelector('[data-principles]');
+  if (!root) return;
+  const arrow = root.querySelector('[data-principles-arrow]');
+  const fill = root.querySelector('[data-line-fill]');
+  const cards = Array.from(root.querySelectorAll('[data-principle]'));
+  if (!arrow || !fill || cards.length === 0) return;
+
+  const handleScroll = () => {
+    const rect = root.getBoundingClientRect();
+    const viewportH = window.innerHeight;
+    const trigger = viewportH * 0.55;
+    const total = root.offsetHeight;
+    const traveled = Math.max(0, trigger - rect.top);
+    const progress = Math.max(0, Math.min(1, traveled / total));
+    const arrowY = progress * total;
+
+    arrow.style.transform = `translate(-50%, -50%) translateY(${arrowY}px)`;
+    fill.style.height = `${arrowY}px`;
+
+    const rootTop = rect.top;
+    cards.forEach((card) => {
+      const cRect = card.getBoundingClientRect();
+      const cardCenter = (cRect.top - rootTop) + cRect.height / 2;
+      card.classList.toggle('is-active', arrowY >= cardCenter);
+    });
+  };
+
+  registerScroll(handleScroll);
+};
+
 // Scroll parallax for the CTA final section decorative elements
 const setupCtaParallax = () => {
   const section = document.querySelector('.pr-cta-final');
@@ -656,6 +689,7 @@ const init = () => {
   setupStrokeReveal();
   setupParallax();
   setupArrowParallax();
+  setupPrinciples();
   setupCtaParallax();
   setupOutcomeSection();
   setupTestimonialDots();
