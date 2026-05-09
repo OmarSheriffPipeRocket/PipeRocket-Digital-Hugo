@@ -281,12 +281,14 @@
 
     <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
       <div class="pr-ai-grid__media">
-        <img loading="lazy" decoding="async" src="/images/figma/raw-024_alpha.webp" alt="AI in marketing">
-        <img loading="lazy" decoding="async" src="/images/content-blue-check.svg" class="pr-ai-grid__overlay pr-ai-grid__overlay--check" alt="" aria-hidden="true">
-        <img loading="lazy" decoding="async" src="/images/content-blue-spring.svg" class="pr-ai-grid__overlay pr-ai-grid__overlay--spring" alt="" aria-hidden="true">
+        <img class="pr-ai-grid__layer is-active" data-image-key="/images/ai-accordion/research.png" loading="eager" decoding="async" src="/images/ai-accordion/research.png" alt="AI in marketing">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/copy.png" loading="eager" decoding="async" src="/images/ai-accordion/copy.png" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/design.png" loading="eager" decoding="async" src="/images/ai-accordion/design.png" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/optimisation.png" loading="eager" decoding="async" src="/images/ai-accordion/optimisation.png" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/analysis.png" loading="eager" decoding="async" src="/images/ai-accordion/analysis.png" alt="">
       </div>
-      <div class="pr-accordion">
-        <details class="pr-accordion__item" open>
+      <div class="pr-accordion" data-ai-accordion>
+        <details class="pr-accordion__item" open data-image="/images/ai-accordion/research.png">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
@@ -297,18 +299,18 @@
           <div class="pr-accordion__body">AI surfaces ICP signals, competitor activity, and audience intent data before a single campaign launches. Which segments are actively in-market, which messages move them, and what pipeline opportunities are hiding in plain sight stays with the team.</div>
         </details>
 
-        <details class="pr-accordion__item">
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/copy.png">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
-              Content
+              Copy
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
           <div class="pr-accordion__body">AI generates ad copy variants and landing page drafts across angles, audiences, and formats so more combinations get tested before budget commits. Which angle matches the ICP, which message moves a buyer who is actively evaluating, and whether the copy sounds like a real buyer or an agency brief stays with the team.</div>
         </details>
 
-        <details class="pr-accordion__item">
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/design.png">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
@@ -319,7 +321,7 @@
           <div class="pr-accordion__body">AI produces creative variants across sizes, formats, and messaging angles so more combinations are evaluated before spend is committed. Which creative reflects the ICP accurately, which visual hierarchy converts, and whether the design earns trust or loses it in the first three seconds stays with the team.</div>
         </details>
 
-        <details class="pr-accordion__item">
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/optimisation.png">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
@@ -330,7 +332,7 @@
           <div class="pr-accordion__body">AI flags underperforming ad sets, audience fatigue, budget inefficiencies, and bid signal shifts before they become pipeline problems. What to pause, what to scale, and when a signal means change the strategy rather than adjust the execution stays with the team.</div>
         </details>
 
-        <details class="pr-accordion__item">
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/analysis.png">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
@@ -343,6 +345,41 @@
       </div>
     </div>
   </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('[data-ai-accordion]');
+      var media = document.querySelector('.pr-ai-grid__media');
+      if(!acc || !media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      // Lock accordion to its tallest state so the layout never jitters when items toggle
+      function lockHeight(){
+        var openStates = Array.prototype.map.call(items, function(it){ return it.open; });
+        var max = 0;
+        items.forEach(function(item){
+          items.forEach(function(other){ other.open = (other === item); });
+          var h = acc.scrollHeight;
+          if(h > max) max = h;
+        });
+        items.forEach(function(item, idx){ item.open = openStates[idx]; });
+        acc.style.minHeight = max + 'px';
+      }
+      if(document.readyState === 'complete') lockHeight();
+      else window.addEventListener('load', lockHeight);
+
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var src = item.getAttribute('data-image');
+          if(!src) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === src);
+          });
+        });
+      });
+    })();
+  </script>
 </section>
 
 <style>

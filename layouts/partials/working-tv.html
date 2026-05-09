@@ -26,8 +26,8 @@
       </div>
     </div>
     <img class="pr-tv__bezel" src="/images/tv-frame.webp" alt="" aria-hidden="true">
-    <button type="button" class="pr-tv__nav pr-tv__nav--prev" aria-label="Previous testimonial">‹</button>
-    <button type="button" class="pr-tv__nav pr-tv__nav--next" aria-label="Next testimonial">›</button>
+    <button type="button" class="pr-tv__nav pr-tv__nav--prev" aria-label="Previous testimonial"><svg width="40" height="80" viewBox="0 0 40 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M31.8267 21.9333L28.29 18.4L9.02671 37.6566C8.71619 37.9652 8.46977 38.3321 8.30161 38.7363C8.13345 39.1404 8.04687 39.5739 8.04687 40.0116C8.04687 40.4494 8.13345 40.8828 8.30161 41.287C8.46977 41.6912 8.71619 42.0581 9.02671 42.3666L28.29 61.6333L31.8234 58.1L13.7434 40.0166L31.8267 21.9333Z" fill="currentColor"/></svg></button>
+    <button type="button" class="pr-tv__nav pr-tv__nav--next" aria-label="Next testimonial"><svg width="40" height="80" viewBox="0 0 40 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="transform:scaleX(-1)"><path d="M31.8267 21.9333L28.29 18.4L9.02671 37.6566C8.71619 37.9652 8.46977 38.3321 8.30161 38.7363C8.13345 39.1404 8.04687 39.5739 8.04687 40.0116C8.04687 40.4494 8.13345 40.8828 8.30161 41.287C8.46977 41.6912 8.71619 42.0581 9.02671 42.3666L28.29 61.6333L31.8234 58.1L13.7434 40.0166L31.8267 21.9333Z" fill="currentColor"/></svg></button>
   </div>
   <div class="pr-tv__dots" role="tablist" aria-label="Choose testimonial">
     <button type="button" class="pr-tv__dot is-active" data-index="0" role="tab" aria-label="Goldcast"><span>Goldcast</span></button>
@@ -76,7 +76,7 @@
     if(slide.querySelector('iframe')) return;
     var vid = slide.getAttribute('data-vid');
     var iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube-nocookie.com/embed/' + vid + '?autoplay=1&rel=0&modestbranding=1&playsinline=1';
+    iframe.src = 'https://www.youtube-nocookie.com/embed/' + vid + '?autoplay=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1';
     iframe.title = slide.getAttribute('data-label') + ' testimonial';
     iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
     iframe.setAttribute('allowfullscreen', '');
@@ -95,9 +95,32 @@
     });
   });
   dots.forEach(function(d, i){
-    d.addEventListener('click', function(){ show(i); });
+    d.addEventListener('click', function(){ show(i); play(slides[i]); });
   });
-  if(prev) prev.addEventListener('click', function(){ show(current - 1); });
-  if(next) next.addEventListener('click', function(){ show(current + 1); });
+  if(prev) prev.addEventListener('click', function(){ var t = current - 1; if(t < 0) t = slides.length - 1; show(t); play(slides[t]); });
+  if(next) next.addEventListener('click', function(){ var t = current + 1; if(t >= slides.length) t = 0; show(t); play(slides[t]); });
+
+  // Autoplay once on first viewport entry; tear down iframe when TV scrolls out
+  // (postMessage pause is unreliable on fast scrolls before YouTube API is ready)
+  if('IntersectionObserver' in window){
+    var hasAutoplayed = false;
+    var io = new IntersectionObserver(function(entries){
+      var entry = entries[0];
+      if(entry.isIntersecting){
+        if(!hasAutoplayed){ hasAutoplayed = true; play(slides[current]); }
+      } else {
+        // Remove iframe entirely — guaranteed stop, no race with API load
+        slides.forEach(function(s){
+          var f = s.querySelector('iframe');
+          if(f) f.remove();
+          var img = s.querySelector('img');
+          var pl = s.querySelector('.pr-tv__play');
+          if(img) img.style.display = '';
+          if(pl) pl.style.display = '';
+        });
+      }
+    }, { threshold: 0.5 });
+    io.observe(wrap);
+  }
 })();
 </script>

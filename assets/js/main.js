@@ -520,6 +520,7 @@ const setupStrokeReveal = () => {
   const strokes = [
     { stroke: document.querySelector('.pr-certified__stroke'), section: document.querySelector('.pr-certified') },
     { stroke: document.querySelector('.pr-techstack__stroke'),  section: document.querySelector('.pr-techstack') },
+    { stroke: document.querySelector('.pr-platforms-ppc__heading-stroke'), section: document.querySelector('.pr-platforms-ppc') },
   ];
   strokes.forEach(({ stroke, section }) => {
     if (!stroke || !section) return;
@@ -534,6 +535,26 @@ const setupStrokeReveal = () => {
     );
     io.observe(section);
   });
+};
+
+// Staggered fade-in for platforms-ppc logo cells
+const setupPlatformLogos = () => {
+  const section = document.querySelector('.pr-platforms-ppc');
+  const cells = document.querySelectorAll('.pr-platforms-ppc__cell');
+  if (!section || !cells.length) return;
+  const io = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        var strokeDelay = 500;
+        cells.forEach(function(cell, i) {
+          setTimeout(function() { cell.classList.add('is-revealed'); }, strokeDelay + i * 200);
+        });
+        io.unobserve(section);
+      }
+    },
+    { threshold: 0.2 }
+  );
+  io.observe(section);
 };
 
 // Scroll-based parallax animation for the car section
@@ -594,6 +615,8 @@ const setupPrinciples = () => {
   const cards = Array.from(root.querySelectorAll('[data-principle]'));
   if (!arrow || !fill || cards.length === 0) return;
 
+  const fillLead = line ? parseFloat(getComputedStyle(line).getPropertyValue('--pr-fill-lead') || 0) : 0;
+
   const handleScroll = () => {
     const rect = root.getBoundingClientRect();
     const viewportH = window.innerHeight;
@@ -603,17 +626,21 @@ const setupPrinciples = () => {
     const traveled = Math.max(0, trigger - rect.top);
     const progress = Math.max(0, Math.min(1, traveled / sectionH));
     const arrowH = arrow.offsetHeight || 0;
-    const arrowY = progress * (lineH - arrowH / 2);
+    const arrowMaxOffset = line ? parseFloat(getComputedStyle(line).getPropertyValue('--pr-arrow-max-offset') || 0) : 0;
+    const arrowY = progress * (lineH - arrowH / 2 - arrowMaxOffset);
 
     if (line) line.style.setProperty('--line-h', `${lineH}px`);
     arrow.style.transform = `translate(-50%, -50%) translateY(${arrowY}px)`;
-    fill.style.height = `${arrowY}px`;
+    fill.style.height = `${arrowY + fillLead}px`;
 
     const rootTop = rect.top;
+    // arrowY is measured inside the line container; convert to root coords for fair comparison
+    const lineOffsetInRoot = line ? line.offsetTop : 0;
+    const arrowYInRoot = lineOffsetInRoot + arrowY;
     cards.forEach((card) => {
       const cRect = card.getBoundingClientRect();
-      const cardTrigger = (cRect.top - rootTop) + cRect.height * 0.25;
-      card.classList.toggle('is-active', arrowY >= cardTrigger);
+      const cardTrigger = (cRect.top - rootTop) + cRect.height * 0.5;
+      card.classList.toggle('is-active', arrowYInRoot >= cardTrigger);
     });
   };
 
@@ -621,6 +648,30 @@ const setupPrinciples = () => {
 };
 
 // Scroll parallax for the CTA final section decorative elements
+const setupPipelineFlowDeco = () => {
+  const section = document.querySelector('.pr-pipeline-flow');
+  if (!section) return;
+  const runner = section.querySelector('.pr-pipeline-flow__runner');
+  const grid = section.querySelector('.pr-pipeline-flow__grid');
+  const firstCard = grid?.querySelector('.pr-pipeline-flow__col--left .pr-pipeline-flow__card');
+  if (!runner || !grid || !firstCard) return;
+  const update = () => {
+    const sRect = section.getBoundingClientRect();
+    const gRect = grid.getBoundingClientRect();
+    const rRect = runner.getBoundingClientRect();
+    const cRect = firstCard.getBoundingClientRect();
+    const footOffset = -60; // matches runner::after bottom: 70px (lower value pushes line further down)
+    const ySection = rRect.bottom - sRect.top - footOffset;
+    const yGrid = rRect.bottom - gRect.top - footOffset;
+    const cardTopFromGrid = cRect.top - gRect.top;
+    section.style.setProperty('--pipeline-runner-foot-y', `${ySection}px`);
+    grid.style.setProperty('--pipeline-runner-foot-from-grid', `${yGrid}px`);
+    grid.style.setProperty('--pipeline-first-card-from-grid', `${cardTopFromGrid}px`);
+  };
+  update();
+  window.addEventListener('resize', update);
+};
+
 const setupCtaParallax = () => {
   const section = document.querySelector('.pr-cta-final');
   const mark  = document.querySelector('[data-cta-mark]');
@@ -670,25 +721,23 @@ const setupOutcomeSection = () => {
       (window.innerHeight - rect.top) / (window.innerHeight + rocket.offsetHeight)
     ));
     const rise = progress * 100;
-    rocket.style.transform = `translate(${rise * 2}px, ${-rise}px)`;
+    rocket.style.transform = `translate(${rise * 1.5}px, ${-rise * 2.5}px)`;
   };
   registerScroll(handleScroll);
 };
 
 const setupCompareDecorations = () => {
-  const rocket = document.querySelector('[data-compare-rocket]');
-  if (!rocket) return;
-  const section = rocket.closest('.pr-compare--seo');
-  if (!section) return;
-  const handleScroll = () => {
-    const rect = section.getBoundingClientRect();
-    const progress = Math.max(0, Math.min(1,
-      (window.innerHeight - rect.top) / (window.innerHeight + section.offsetHeight)
-    ));
-    const rise = progress * 140;
-    rocket.style.transform = `translate(${rise * 1.8}px, ${-rise}px)`;
-  };
-  registerScroll(handleScroll);
+  const rockets = document.querySelectorAll('[data-compare-rocket]');
+  if (!rockets.length) return;
+  if (!('IntersectionObserver' in window)) { rockets.forEach(r => r.classList.add('is-visible')); return; }
+  rockets.forEach(rocket => {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { rocket.classList.add('is-visible'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.3 });
+    io.observe(rocket);
+  });
 };
 
 const init = () => {
@@ -712,9 +761,11 @@ const init = () => {
   setupReveals();
   setupCompareIntro();
   setupStrokeReveal();
+  setupPlatformLogos();
   setupParallax();
   setupArrowParallax();
   setupPrinciples();
+  setupPipelineFlowDeco();
   setupCtaParallax();
   setupOutcomeSection();
   setupCompareDecorations();
