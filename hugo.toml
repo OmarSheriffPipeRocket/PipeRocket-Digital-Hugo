@@ -214,7 +214,7 @@ clutch_rating = "5.0"
 # HubSpot portal ID and form ID from the HubSpot Forms dashboard.
 [params.hubspot]
 portal_id = "241952717"
-form_id = "97074810-865c-4d8c-a064-2dab9074133f"
+form_id = "13586672-6366-4216-9e7b-b49c35aa1a32"
 region = "na2"
 
 [params.contact]

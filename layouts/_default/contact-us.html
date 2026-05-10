@@ -1,215 +1,65 @@
 {{ define "main" }}
 
 <!-- ====================================================
-     HERO + RESPONSE PROMISE
+     MOBILE STICKY CTA BAR (hidden once form is visible)
      ==================================================== -->
-<section class="pr-section">
-  <div class="pr-container">
+<div class="pr-contact-sticky" id="pr-contact-sticky" aria-hidden="true">
+  <a href="#hsForm-{{ .Site.Params.hubspot.form_id }}" class="pr-contact-sticky__btn">Book your free call</a>
+</div>
 
-    <header class="pr-alt__header" style="margin-bottom: var(--pr-s-7);">
-      <div class="pr-eyebrow pr-eyebrow--red">{{ default "Talk to us" .Params.eyebrow }}</div>
-      <h1 class="pr-alt__title">{{ .Title }}</h1>
-      {{ with .Params.description }}<p class="pr-alt__lede">{{ . }}</p>{{ end }}
+<!-- ====================================================
+     HERO + HUBSPOT FORM
+     ==================================================== -->
+<section class="pr-contact2">
+  <img loading="eager" decoding="async" src="/images/contact/hero-blue-vector.svg" alt="" aria-hidden="true" class="pr-contact2__scribble pr-contact2__scribble--left">
+  <img loading="eager" decoding="async" src="/images/contact/piperocket-slide-in.svg" alt="" aria-hidden="true" class="pr-contact2__scribble pr-contact2__scribble--right" data-compare-rocket>
 
-      <div class="pr-contact-promise">
-        <span class="pr-contact-promise__pill">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="12" cy="12" r="10"/>
-            <path d="M12 6v6l4 2"/>
-          </svg>
-          Reply within 1 business day
-        </span>
-        <span class="pr-contact-promise__pill">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M3 12h4l3-8 4 16 3-8h4"/>
-          </svg>
-          A real human, not a sequence
-        </span>
-        <span class="pr-contact-promise__pill">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <rect x="3" y="11" width="18" height="11" rx="2"/>
-            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
-          </svg>
-          We never share your details
-        </span>
+  <div class="pr-container pr-contact2__inner">
+    <div class="pr-contact2__grid">
+
+      <!-- ===== LEFT: Pitch + bullets + clutch + logos ===== -->
+      <div class="pr-contact2__copy">
+        <h1 class="pr-contact2__heading">You've read enough to know if this feels right. Let's talk.</h1>
+
+        <p class="pr-contact2__lede">PipeRocket works with a small number of funded B2B SaaS companies at a time. Before we take anyone on, we want to understand your world.</p>
+
+        <p class="pr-contact2__sub">What we cover on the call:</p>
+        <ul class="pr-contact2__list">
+          <li>Where your pipeline is today and where it needs to be</li>
+          <li>How you see your market, your category, and your buyers</li>
+          <li>What you have tried, what worked, and what did not</li>
+          <li>What good looks like for your business in the next twelve months</li>
+        </ul>
+
+        <p class="pr-contact2__close">Once we have that picture, we walk you through what we offer, how we work, and whether the scope makes sense for where you are. If we think we can help, we tell you how. If we are not the right fit, we will tell you that too.</p>
+
+        <div class="pr-contact2__clutch">
+          <strong class="pr-clutch__rating">{{ default "5.0" .Site.Params.social.clutch_rating }}</strong>
+          <span class="pr-clutch__stars">★★★★★</span>
+          <img loading="lazy" decoding="async" src="/images/logos/clutch.svg" alt="Clutch" class="pr-contact2__clutch-img">
+        </div>
+
+        <div class="pr-contact2__logos" aria-label="Clients">
+          <img loading="lazy" decoding="async" src="/images/logos/spendflo.svg" alt="Spendflo">
+          <img loading="lazy" decoding="async" src="/images/logos/keka.svg" alt="Keka">
+          <img loading="lazy" decoding="async" src="/images/logos/storylane.svg" alt="Storylane">
+          <img loading="lazy" decoding="async" src="/images/logos/xflow.png" alt="Xflow">
+          <img loading="lazy" decoding="async" src="/images/logos/sprinto.webp" alt="Sprinto">
+          <img loading="lazy" decoding="async" src="/images/logos/osfin.svg" alt="Osfin">
+          <img loading="lazy" decoding="async" src="/images/logos/justcall.svg" alt="JustCall">
+          <img loading="lazy" decoding="async" src="/images/logos/digitalapi.svg" alt="DigitalAPI">
+          <img loading="lazy" decoding="async" src="/images/logos/apty.png" alt="Apty">
+        </div>
       </div>
-    </header>
-
-    <div class="pr-contact-grid">
-
-      <!-- ===== LEFT: What you get + contact info ===== -->
-      <aside class="pr-contact-aside">
-
-        <div class="pr-contact-card">
-          <h3>What you get on the call</h3>
-          <ul class="pr-contact-list">
-            <li>
-              <span class="pr-contact-list__icon">
-                {{/* stethoscope - real diagnosis */}}
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M5 3v6a4 4 0 0 0 8 0V3"/>
-                  <path d="M9 13v3a4 4 0 0 0 8 0v-2"/>
-                  <circle cx="17" cy="11" r="2"/>
-                </svg>
-              </span>
-              <div>
-                <strong>A real diagnosis, not a sales deck</strong>
-                <p>30 minutes spent reviewing your stack, your motion, and your reporting - not pitching ours.</p>
-              </div>
-            </li>
-            <li>
-              <span class="pr-contact-list__icon">
-                {{/* gap arrows - the two or three biggest gaps */}}
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M3 12h6"/>
-                  <path d="m6 9-3 3 3 3"/>
-                  <path d="M21 12h-6"/>
-                  <path d="m18 9 3 3-3 3"/>
-                  <circle cx="12" cy="12" r="2" fill="currentColor"/>
-                </svg>
-              </span>
-              <div>
-                <strong>The two or three biggest gaps</strong>
-                <p>We name the failure modes we see in your funnel and the order we would fix them in.</p>
-              </div>
-            </li>
-            <li>
-              <span class="pr-contact-list__icon">
-                {{/* balanced scale - honest scope */}}
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M12 3v18"/>
-                  <path d="M5 21h14"/>
-                  <path d="M5 7h14"/>
-                  <path d="m3 11 2-4 2 4"/>
-                  <path d="m17 11 2-4 2 4"/>
-                  <path d="M3 11a2 2 0 0 0 4 0"/>
-                  <path d="M17 11a2 2 0 0 0 4 0"/>
-                </svg>
-              </span>
-              <div>
-                <strong>Honest scope - or a no</strong>
-                <p>If your problem is smaller than a 90-day rebuild, we say so. If we are not the right fit, we point you to who is.</p>
-              </div>
-            </li>
-            <li>
-              <span class="pr-contact-list__icon">
-                {{/* document with arrow - written summary */}}
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                  <path d="M14 2v6h6"/>
-                  <path d="M9 13h6M9 17h4"/>
-                </svg>
-              </span>
-              <div>
-                <strong>A written follow-up</strong>
-                <p>You get a one-page summary of what we discussed and recommended - whether or not anything happens next.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="pr-contact-card pr-contact-card--quiet">
-          <h4 class="pr-contact-card__heading">Other ways to reach us</h4>
-
-          {{ with .Site.Params.contact.email }}
-            <a class="pr-contact-info" href="mailto:{{ . }}">
-              <span class="pr-contact-info__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <rect x="2" y="4" width="20" height="16" rx="2"/>
-                  <path d="m22 6-10 7L2 6"/>
-                </svg>
-              </span>
-              <span>
-                <span class="pr-contact-info__label">Email</span>
-                <span class="pr-contact-info__value">{{ . }}</span>
-              </span>
-            </a>
-          {{ end }}
-
-          {{ with .Site.Params.contact.phone }}
-            <a class="pr-contact-info" href="tel:{{ . | strings.ReplaceRE `[^0-9+]` `` }}">
-              <span class="pr-contact-info__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/>
-                </svg>
-              </span>
-              <span>
-                <span class="pr-contact-info__label">Phone</span>
-                <span class="pr-contact-info__value">{{ . }}</span>
-              </span>
-            </a>
-          {{ end }}
-
-          {{ with .Site.Params.contact.address }}
-            <div class="pr-contact-info pr-contact-info--static">
-              <span class="pr-contact-info__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
-                  <circle cx="12" cy="10" r="3"/>
-                </svg>
-              </span>
-              <span>
-                <span class="pr-contact-info__label">Office</span>
-                <span class="pr-contact-info__value">{{ . }}</span>
-              </span>
-            </div>
-          {{ end }}
-
-          {{ with .Site.Params.social.linkedin }}
-            <a class="pr-contact-info" href="{{ . }}" rel="noopener" target="_blank">
-              <span class="pr-contact-info__icon">
-                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14ZM8.34 18V9.83H5.67V18h2.67ZM7 8.66a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1ZM18.34 18v-4.47c0-2.4-1.28-3.51-3-3.51a2.6 2.6 0 0 0-2.36 1.3v-1.5h-2.67V18h2.67v-4.55c0-1.2.23-2.36 1.72-2.36s1.5 1.37 1.5 2.44V18h2.14Z"/>
-                </svg>
-              </span>
-              <span>
-                <span class="pr-contact-info__label">LinkedIn</span>
-                <span class="pr-contact-info__value">@piperocketdigital</span>
-              </span>
-            </a>
-          {{ end }}
-        </div>
-
-        <div class="pr-contact-trust">
-          <div class="pr-clutch">
-            <strong class="pr-clutch__rating">{{ default "5.0" .Site.Params.social.clutch_rating }}</strong>
-            <span class="pr-clutch__stars">★★★★★</span>
-            <img src="/images/logos/clutch.svg" alt="Clutch" class="pr-clutch__brand-img">
-          </div>
-          <p>50+ B2B SaaS clients · Documented 5.0 average review score on Clutch</p>
-        </div>
-
-      </aside>
 
       <!-- ===== RIGHT: HubSpot form ===== -->
-      <div class="pr-contact-form">
-        <div class="pr-contact-form__head">
-          <span class="pr-contact-form__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-              <path d="M8 9h8M8 13h6"/>
-            </svg>
-          </span>
-          <div>
-            <h2 class="pr-contact-form__heading">Tell us about your stack</h2>
-            <p class="pr-contact-form__lede">We reply within one business day. No drip sequences. No SDR nurture flow. Just a real reply from someone who can answer the question.</p>
-          </div>
-        </div>
-
-        <div class="pr-contact-form__pulse" aria-live="polite">
-          <span class="pr-contact-form__pulse-dot" aria-hidden="true"></span>
-          <span class="pr-contact-form__pulse-text">
-            <strong>Reply promise: 1 business day</strong> · Forms after 6pm IST land in our queue Monday morning.
-          </span>
-        </div>
-
+      <div class="pr-contact2__formwrap">
         {{ $portal := .Site.Params.hubspot.portal_id }}
         {{ $form := .Site.Params.hubspot.form_id }}
         {{ $region := default "na1" .Site.Params.hubspot.region }}
 
         {{ if and $portal $form (ne $portal "REPLACE_WITH_PORTAL_ID") }}
-          <!-- Live HubSpot form -->
-          <div class="pr-hsform" id="hsForm-{{ $form }}"></div>
+          <div class="pr-hsform pr-hsform--contact2" id="hsForm-{{ $form }}"></div>
           {{ $hsScript := printf "//js-%s.hsforms.net/forms/embed/v2.js" $region }}
           <script charset="utf-8" src="{{ $hsScript }}" defer></script>
           <script>
@@ -225,212 +75,198 @@
                     + "html,body{background:transparent !important;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif !important;color:#0D0D0D !important;margin:0 !important;padding:0 !important}"
                     + ".hs-form,.hs-form fieldset{max-width:100% !important;width:100% !important}"
                     + ".hs-form-field{margin-bottom:18px !important}"
-                    + ".hs-form-field>label,.hs-form-booleancheckbox-display>span{display:block !important;font-size:13px !important;font-weight:600 !important;color:#0D0D0D !important;margin:0 0 6px !important;letter-spacing:.005em}"
+                    + ".hs-form-field>label,.hs-form-booleancheckbox-display>span{display:block !important;font-size:13px !important;font-weight:500 !important;color:#5C5C5C !important;margin:0 0 8px !important;letter-spacing:.005em}"
                     + ".hs-form-required{color:#E63946 !important;margin-left:3px}"
-                    + ".hs-input,.hs-input.hs-fieldtype-intl-phone select{display:block !important;width:100% !important;box-sizing:border-box !important;background:#F6F6F1 !important;border:1.5px solid #D9D5C9 !important;border-radius:6px !important;padding:11px 14px !important;font-size:14.5px !important;font-family:inherit !important;color:#0D0D0D !important;line-height:1.45 !important;transition:border-color .15s,box-shadow .15s,background .15s !important;-webkit-appearance:none;appearance:none}"
-                    + "textarea.hs-input{min-height:110px;resize:vertical}"
-                    + ".hs-input:focus,.hs-input:focus-visible{outline:none !important;border-color:#0CC6F1 !important;background:#FFFFFF !important;box-shadow:0 0 0 3px rgba(12,198,241,.18) !important}"
-                    + ".hs-input::placeholder{color:#9A9A9A !important;opacity:1}"
-                    + ".inputs-list{list-style:none !important;padding:0 !important;margin:0 !important;display:flex !important;flex-direction:column !important;gap:8px}"
+                    + ".hs-input,.hs-input.hs-fieldtype-intl-phone select{display:block !important;width:100% !important;box-sizing:border-box !important;background:#FFFFFF !important;border:1px solid #E5E1D6 !important;border-radius:8px !important;padding:12px 14px !important;font-size:14.5px !important;font-family:inherit !important;color:#0D0D0D !important;line-height:1.45 !important;transition:border-color .15s,box-shadow .15s !important;-webkit-appearance:none;appearance:none}"
+                    + "textarea.hs-input{min-height:96px;resize:vertical}"
+                    + ".hs-input:focus,.hs-input:focus-visible{outline:none !important;border-color:#0CC6F1 !important;box-shadow:0 0 0 3px rgba(12,198,241,.15) !important}"
+                    + ".hs-input::placeholder{color:#B5B0A2 !important;opacity:1}"
+                    + ".inputs-list{list-style:none !important;padding:0 !important;margin:0 !important;display:grid !important;grid-template-columns:1fr 1fr !important;gap:10px}"
                     + ".inputs-list .hs-form-radio,.inputs-list .hs-form-checkbox{margin:0 !important}"
-                    + ".inputs-list label{display:flex !important;align-items:center !important;gap:9px !important;padding:9px 12px !important;background:#F6F6F1 !important;border:1.5px solid #D9D5C9 !important;border-radius:6px !important;font-size:14px !important;font-weight:500 !important;color:#0D0D0D !important;cursor:pointer !important;transition:border-color .15s,background .15s !important}"
-                    + ".inputs-list label:hover{border-color:#0CC6F1 !important;background:rgba(12,198,241,.05) !important}"
-                    + ".inputs-list input[type=radio],.inputs-list input[type=checkbox]{accent-color:#0CC6F1 !important;width:16px !important;height:16px !important;margin:0 !important}"
+                    + ".inputs-list label{display:flex !important;align-items:center !important;gap:9px !important;padding:0 !important;background:transparent !important;border:0 !important;font-size:14px !important;font-weight:500 !important;color:#0D0D0D !important;cursor:pointer !important}"
+                    + ".inputs-list input[type=checkbox]{-webkit-appearance:none !important;appearance:none !important;width:17px !important;height:17px !important;min-width:17px !important;border:1.5px solid #BBBBBB !important;border-radius:4px !important;background:#fff !important;margin:0 !important;flex-shrink:0 !important;cursor:pointer !important;position:relative !important;transition:border-color .15s,background .15s !important}"
+                    + ".inputs-list input[type=checkbox]:checked{background:#0CC6F1 !important;border-color:#0CC6F1 !important}"
+                    + ".inputs-list input[type=checkbox]:checked::after{content:'' !important;display:block !important;position:absolute !important;left:50% !important;top:46% !important;width:5px !important;height:9px !important;border:2px solid #fff !important;border-top:0 !important;border-left:0 !important;transform:translate(-50%,-50%) rotate(45deg) !important}"
                     + ".hs-fieldtype-intl-phone .input{display:flex !important;gap:8px !important}"
-                    + ".hs-fieldtype-intl-phone .hs-input{flex:1 !important}"
+                    + ".hs-fieldtype-intl-phone select.hs-input{flex:0 0 90px !important;max-width:90px !important}"
+                    + ".hs-fieldtype-intl-phone input.hs-input{flex:1 !important}"
                     + ".hs-error-msgs,.hs-error-msg{list-style:none !important;padding:0 !important;margin:6px 0 0 !important;color:#C0392B !important;font-size:12.5px !important;font-weight:500}"
                     + ".legal-consent-container,.hs-richtext{font-size:12.5px !important;color:#6B6B6B !important;line-height:1.55 !important;margin:8px 0 !important}"
-                    + ".hs-button,input[type=submit].hs-button{display:inline-flex !important;align-items:center !important;justify-content:center !important;background:#0CC6F1 !important;color:#0D0D0D !important;border:0 !important;padding:13px 26px !important;border-radius:6px !important;font-family:inherit !important;font-size:15px !important;font-weight:700 !important;letter-spacing:.005em;cursor:pointer !important;box-shadow:0 4px 14px rgba(12,198,241,.25) !important;transition:background .15s,transform .12s,box-shadow .2s !important;width:auto !important;margin-top:6px}"
-                    + ".hs-button:hover,input[type=submit].hs-button:hover{background:#09B3DA !important;transform:translateY(-1px) !important;box-shadow:0 6px 18px rgba(12,198,241,.35) !important}"
+                    + ".hs-button,input[type=submit].hs-button{display:block !important;width:100% !important;background:#0CC6F1 !important;color:#FFFFFF !important;border:0 !important;padding:14px 26px !important;border-radius:8px !important;font-family:inherit !important;font-size:15px !important;font-weight:600 !important;letter-spacing:.005em;cursor:pointer !important;transition:background .15s,transform .12s !important;margin-top:8px !important}"
+                    + ".hs-button:hover,input[type=submit].hs-button:hover{background:#09B3DA !important}"
                     + ".hs-button:focus-visible{outline:3px solid rgba(12,198,241,.4) !important;outline-offset:2px}"
-                    + ".submitted-message{background:rgba(12,198,241,.08) !important;border-left:3px solid #0CC6F1 !important;border-radius:4px !important;padding:18px !important;color:#0D0D0D !important;font-size:14.5px !important;line-height:1.6}"
+                    + ".submitted-message{background:transparent !important;border:0 !important;padding:18px !important;color:#0D0D0D !important;font-size:14.5px !important;line-height:1.6}"
                     + ".hs-form-field .input{margin:0 !important}"
                 });
               }
             });
           </script>
         {{ else }}
-          <!-- Placeholder fallback while HubSpot creds are not set -->
           <div class="pr-hsform pr-hsform--placeholder">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="pr-hsform-placeholder__icon">
-              <rect x="3" y="3" width="18" height="18" rx="2"/>
-              <path d="M9 14a3 3 0 0 1 6 0"/>
-              <circle cx="9" cy="10" r="1"/>
-              <circle cx="15" cy="10" r="1"/>
-            </svg>
-            <p>
-              <strong>HubSpot form not configured yet.</strong><br>
-              Set <code>params.hubspot.portal_id</code> and <code>params.hubspot.form_id</code> in <code>hugo.toml</code> and the live form replaces this block automatically.
-            </p>
-            <p>
-              In the meantime, email
-              <a href="mailto:{{ default "hello@piperocket.digital" .Site.Params.contact.email }}">{{ default "hello@piperocket.digital" .Site.Params.contact.email }}</a>.
-            </p>
+            <p><strong>HubSpot form not configured yet.</strong><br>
+            Set <code>params.hubspot.portal_id</code> and <code>params.hubspot.form_id</code> in <code>hugo.toml</code> and the live form replaces this block automatically.</p>
+            <p>In the meantime, email <a href="mailto:{{ default "hello@piperocket.digital" .Site.Params.contact.email }}">{{ default "hello@piperocket.digital" .Site.Params.contact.email }}</a>.</p>
           </div>
         {{ end }}
-
-        <!-- ===== CONVERSION SIGNALS ===== -->
-        <div class="pr-contact-signals">
-          <div class="pr-contact-signals__stats">
-            <div class="pr-signal pr-signal--featured">
-              <strong>5.0&nbsp;<span class="pr-signal__star">★</span></strong>
-              <span>Clutch rating, every review</span>
-            </div>
-            <div class="pr-signal">
-              <strong>50+</strong>
-              <span>B2B SaaS clients shipped</span>
-            </div>
-            <div class="pr-signal">
-              <strong>$4.5M+</strong>
-              <span>Pipeline generated for clients</span>
-            </div>
-          </div>
-
-          <div class="pr-contact-signals__activity">
-            <span class="pr-contact-signals__activity-dot" aria-hidden="true"></span>
-            <span class="pr-contact-signals__activity-text">
-              <strong>3 founders</strong> submitted this form in the last 7 days. Most recent reply went out
-              <strong>47 minutes ago</strong>, well inside our 1-business-day promise.
-            </span>
-          </div>
-
-          <blockquote class="pr-contact-signals__quote">
-            <p class="pr-contact-signals__quote-text">"The reply landed in under 90 minutes with three specific things to look at in our funnel, not a calendar link or a deck. Worth the form."</p>
-            <footer class="pr-contact-signals__quote-author">
-              <strong>Head of Marketing</strong>, Series B SaaS · 2025 client
-            </footer>
-          </blockquote>
-        </div>
-
-        <p class="pr-contact-form__privacy">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/>
-          </svg>
-          We respect your inbox. By submitting this form you agree to our
-          <a href="/privacy-policy/">privacy policy</a>. We never share your details with third parties.
-        </p>
       </div>
 
     </div>
-
   </div>
 </section>
 
 <!-- ====================================================
-     WHAT HAPPENS NEXT - 4-STEP TIMELINE
+     WORKING WITH PIPEROCKET — VINTAGE TV
      ==================================================== -->
-<section class="pr-section pr-section--dark">
+<section class="pr-section--tight pr-section--working pr-contact-tv">
+  <img loading="lazy" decoding="async" src="/images/contact/tv-blue-vector.svg" class="pr-contact-tv__vec pr-contact-tv__vec--blue" aria-hidden="true">
+  <img loading="lazy" decoding="async" src="/images/contact/tv-red-vector.svg" class="pr-contact-tv__vec pr-contact-tv__vec--red" aria-hidden="true">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
-      <h2 style="color: var(--pr-cream);">What happens after you send the form</h2>
-      <p style="color: rgba(244,241,232,0.7);">No mystery. No "we will be in touch soon" black hole.</p>
-    </div>
-    <div class="pr-timeline">
-      <article class="pr-timeline__step">
-        <span class="pr-timeline__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-            <path d="m9 11 3 3L22 4"/>
-          </svg>
-        </span>
-        <div>
-          <span class="pr-timeline__when">Instantly (auto-email)</span>
-          <strong>You get a confirmation</strong>
-          <p>An automated email lands in your inbox naming the senior person who will reply. This is the auto-receipt, not the real reply yet.</p>
-        </div>
-      </article>
-      <article class="pr-timeline__step">
-        <span class="pr-timeline__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-          </svg>
-        </span>
-        <div>
-          <span class="pr-timeline__when">Within 1 business day</span>
-          <strong>A real reply, not a calendar link</strong>
-          <p>We send three or four paragraphs answering what you asked - what we see, what we would dig into, what scope feels right.</p>
-        </div>
-      </article>
-      <article class="pr-timeline__step">
-        <span class="pr-timeline__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <rect x="3" y="4" width="18" height="18" rx="2"/>
-            <path d="M16 2v4M8 2v4M3 10h18"/>
-          </svg>
-        </span>
-        <div>
-          <span class="pr-timeline__when">Day 2 to 3</span>
-          <strong>30-minute diagnostic call</strong>
-          <p>If a call makes sense, you book a 30-minute slot. We come prepared with questions specific to your stack and motion.</p>
-        </div>
-      </article>
-      <article class="pr-timeline__step">
-        <span class="pr-timeline__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-            <path d="M14 2v6h6"/>
-            <path d="M9 13h6M9 17h4"/>
-          </svg>
-        </span>
-        <div>
-          <span class="pr-timeline__when">Within 24 hours of the call</span>
-          <strong>Written summary</strong>
-          <p>One-page recap of what we discussed, the gaps we identified, and what we would suggest next - regardless of whether you decide to engage.</p>
-        </div>
-      </article>
-    </div>
+    <div class="pr-center"><h2>Working With PipeRocket</h2></div>
+    {{ partial "working-tv.html" . }}
   </div>
 </section>
 
 <!-- ====================================================
-     LOGO BAR - SOCIAL PROOF (industry-grouped)
+     MASONRY TESTIMONIALS — INFINITE SCROLL
      ==================================================== -->
-{{ partial "logo-marquee.html" . }}
+<section class="pr-section pr-mtest-section">
+  <img loading="lazy" decoding="async" src="/images/contact/testimonials-blue.svg" class="pr-mtest-vec pr-mtest-vec--blue" aria-hidden="true">
+  <img loading="lazy" decoding="async" src="/images/seo-table-rocket.svg" class="pr-mtest-vec pr-mtest-vec--rocket" aria-hidden="true" data-compare-rocket>
+  <div class="pr-container">
+    <div class="pr-mtest-head">
+      <h2 class="pr-mtest-title">Don't take our word for it.</h2>
+      <div class="pr-mtest-clutch">
+        <strong class="pr-clutch__rating">5.0</strong>
+        <span class="pr-clutch__stars">★★★★★</span>
+        <img loading="lazy" decoding="async" src="/images/logos/clutch.svg" alt="Clutch">
+      </div>
+      <p class="pr-mtest-lede">Here's what the teams we've worked with have said about results, about working with us, and about what it actually looks like when marketing moves the needle.</p>
+    </div>
+
+    {{ $masonry := slice
+      (dict "quote" "PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution." "name" "Nivas" "role" "Head of Marketing" "avatar" "/images/avatar-nivas.png" "logo" "/images/logo-spendflo.svg" "company" "Spendflo" "stroke" "/images/stroke-spendflo.svg")
+      (dict "quote" "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience, actionable strategies brought in 51 high-quality MQLs in just 3 months. Specifically, the team's approach towards fine-tuning campaigns across regions not only grew our leads but also saved us costs." "name" "Navien" "role" "Head of Marketing" "avatar" "/images/avatar-navien.png" "logo" "/images/logo-hyperverge.png" "company" "HyperVerge" "stroke" "/images/stroke-hyperverge.svg")
+      (dict "quote" "PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly. PipeRocket Digital was committed to driving growth and continuously learning and improving." "name" "Saptharishi" "role" "Head of Demand generation" "avatar" "/images/avatar-saptharishi.png" "logo" "/images/logo-devrev.png" "company" "DevRev" "stroke" "/images/stroke-devrev.svg")
+      (dict "quote" "Thanks to PipeRocket Digital's work, we saw a 279% increase in organic traffic. The team also helped the client grow from six to 338 keywords, ranking in the top 10 positions. The team was highly responsive to feedback, quickly adjusted to changes, and showed outstanding SEO expertise." "name" "Srividhya Karthik" "role" "Head of Marketing" "avatar" "/images/avatar-srividhya.png" "logo" "/images/logo-cyberseirra.png" "company" "Cyber Sierra" "stroke" "/images/stroke-cyberseirra.svg")
+      (dict "quote" "They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working and invalidated two new geographies for the ads. Moreover, PipeRocket Digital was responsive, open to feedback, and eager to meet the objectives." "name" "Anusha" "role" "Founding member" "avatar" "/images/avatar-anusha.png" "logo" "/images/logo-hyperstart.png" "company" "HyperStart" "stroke" "/images/stroke-hyperstart.svg")
+      (dict "quote" "Working alongside PipeRocket has been a commendable experience for Storylane. We were looking into how to boost our qualified leads. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us." "name" "Nalin" "role" "CEO" "avatar" "/images/avatar-nalin.png" "logo" "/images/logo-storylane-cs.svg" "company" "Storylane" "stroke" "/images/stroke-storylane.svg")
+    }}
+
+    {{ $masonryRev := sort $masonry "name" "desc" }}
+    <div class="pr-mtest-grid">
+      <div class="pr-mtest-col pr-mtest-col--up">
+        <div class="pr-mtest-track">
+          {{ range $pass := slice 1 2 }}{{ range $masonry }}
+            <article class="pr-mtest-card">
+              <img loading="lazy" decoding="async" src="{{ .stroke }}" alt="" aria-hidden="true" class="pr-mtest-card__stroke">
+              <p class="pr-mtest-card__quote">{{ .quote }}</p>
+              <div class="pr-mtest-card__author">
+                <img loading="lazy" decoding="async" src="{{ .avatar }}" alt="{{ .name }}" class="pr-mtest-card__avatar">
+                <div>
+                  <div class="pr-mtest-card__name">{{ .name }}</div>
+                  <div class="pr-mtest-card__role">{{ .role }}</div>
+                  <img loading="lazy" decoding="async" src="{{ .logo }}" alt="{{ .company }}" class="pr-mtest-card__logo">
+                </div>
+              </div>
+            </article>
+          {{ end }}{{ end }}
+        </div>
+      </div>
+      <div class="pr-mtest-col pr-mtest-col--down">
+        <div class="pr-mtest-track">
+          {{ range $pass := slice 1 2 }}{{ range $masonryRev }}
+            <article class="pr-mtest-card">
+              <img loading="lazy" decoding="async" src="{{ .stroke }}" alt="" aria-hidden="true" class="pr-mtest-card__stroke">
+              <p class="pr-mtest-card__quote">{{ .quote }}</p>
+              <div class="pr-mtest-card__author">
+                <img loading="lazy" decoding="async" src="{{ .avatar }}" alt="{{ .name }}" class="pr-mtest-card__avatar">
+                <div>
+                  <div class="pr-mtest-card__name">{{ .name }}</div>
+                  <div class="pr-mtest-card__role">{{ .role }}</div>
+                  <img loading="lazy" decoding="async" src="{{ .logo }}" alt="{{ .company }}" class="pr-mtest-card__logo">
+                </div>
+              </div>
+            </article>
+          {{ end }}{{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ====================================================
      FAQ
      ==================================================== -->
 <section class="pr-section">
   <div class="pr-container" style="max-width: 880px;">
-    <div class="pr-center"><h2>Before you write</h2></div>
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
     <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
-      <details class="pr-accordion__item">
+      <details class="pr-accordion__item" open>
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">How fast do you reply?</span>
+          <span class="pr-accordion__header-left">What is a SaaS SEO agency?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">Within one business day. If the form lands on a Friday, we reply Monday morning. We do not run automated nurture sequences - the reply is from a real person who can answer your question.</div>
+        <div class="pr-accordion__body">A SaaS SEO agency specializes in helping SaaS companies grow their business through organic search. They combine technical SEO expertise with an understanding of the SaaS customer journey to attract qualified leads, increase website traffic, and ultimately drive sales.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What information helps you give a useful first reply?</span>
+          <span class="pr-accordion__header-left">What is a SaaS pipeline?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">Your ARR range, your stack (HubSpot, Salesforce, Marketo), and the specific failure mode that brought you here - "MQLs are getting rejected", "attribution is broken", "monthly reporting takes three days". The more specific, the more useful the first reply.</div>
+        <div class="pr-accordion__body">A SaaS pipeline is the series of stages a prospective customer moves through, from first awareness to closed deal. It typically covers traffic, MQL, SQL, opportunity, and revenue stages.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">Do I need to be ready to start a project?</span>
+          <span class="pr-accordion__header-left">What is organic growth in SaaS?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">No. Plenty of teams talk to us six to nine months before any engagement. The first call costs nothing and we send a written summary afterward whether or not anything happens next.</div>
+        <div class="pr-accordion__body">Organic growth in SaaS refers to acquiring users and revenue through unpaid channels - search, content, referrals, and word-of-mouth - rather than paid advertising. It compounds over time and lowers customer acquisition cost.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">Are you a fit for early-stage SaaS?</span>
+          <span class="pr-accordion__header-left">Why is SEO important for B2B SaaS?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">We work best with Series A through Series C, $3M to $50M ARR. If you are pre-PMF or pre-seed we will say so on the call and point you to better-fit partners.</div>
+        <div class="pr-accordion__body">B2B SaaS buyers research extensively before reaching out. SEO ensures your product shows up at every step of that research, captures intent at the bottom of the funnel, and builds compounding pipeline that does not switch off when ad spend stops.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">Can I just see a price list?</span>
+          <span class="pr-accordion__header-left">Which technical SEO factors are crucial for B2B SaaS websites?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">90-day MarOps rebuilds: $35K to $90K depending on stack complexity. Audit-only: $8K to $12K fixed-fee. Retainers: $3K to $8K per month. SEO and PPC engagements scope individually. We send a written scope before any commitment.</div>
+        <div class="pr-accordion__body">Site speed, mobile-friendliness, crawlability, structured data, internal linking, and clean URL structure are foundational. For SaaS specifically, programmatic page templates and integration / comparison page architecture matter heavily.</div>
       </details>
     </div>
   </div>
 </section>
+
+<script>
+(function () {
+  var bar = document.getElementById('pr-contact-sticky');
+  var form = document.querySelector('.pr-contact2__formwrap');
+  if (!bar || !form || window.innerWidth > 960) return;
+  bar.removeAttribute('aria-hidden');
+  function check() {
+    var rect = form.getBoundingClientRect();
+    var inView = rect.top < window.innerHeight - 80 && rect.bottom > 80;
+    bar.classList.toggle('is-visible', !inView);
+    bar.classList.toggle('is-hidden', inView);
+  }
+  window.addEventListener('scroll', check, { passive: true });
+  check();
+})();
+
+window.addEventListener('message', function (e) {
+  if (e.data && e.data.type === 'hsFormCallback' && e.data.eventName === 'onFormSubmitted') {
+    document.querySelectorAll('[data-compare-rocket]').forEach(function (el) {
+      el.style.transition = 'none';
+      el.classList.remove('is-visible');
+      void el.offsetWidth;
+      el.style.transition = '';
+      setTimeout(function () { el.classList.add('is-visible'); }, 50);
+    });
+  }
+});
+</script>
 
 {{ end }}
