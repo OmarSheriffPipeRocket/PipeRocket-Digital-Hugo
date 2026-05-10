@@ -2340,9 +2340,70 @@ a.pr-hero__cta:hover,
   .pr-cta-final__phone { width: 180px; right: 2%; top: 2%; }
 }
 @media (max-width: 767px) {
-  .pr-cta-final { padding: 60px 0 40px; }
+  .pr-hero__collage,
+  .pr-hero__collage--seo,
+  .pr-hero__collage--ppc { display: none !important; }
+
+  /* SEO — bordered principles cards: padding inside border, smaller icon and copy */
+  .pr-principles__card { padding: 18px; border-width: 3px; }
+  .pr-principles__icon,
+  .pr-principles__icon--buyers,
+  .pr-principles__icon--purpose,
+  .pr-principles__icon--intent,
+  .pr-principles__icon--revenue { width: 44px !important; height: 44px !important; margin-left: 0 !important; }
+  .pr-principles__card p { font-size: 14px; line-height: 1.5; }
+
+  /* Compare table — smaller column titles, smaller CTA */
+  .pr-compare-table__row--head > div { font-size: 0.7rem !important; padding: 8px 6px !important; }
+  .pr-compare-table__pr-logo { height: 14px; }
+  .pr-compare--seo__cta .pr-hero__cta,
+  .pr-compare--ppc__cta .pr-hero__cta { font-size: 14px; padding: 8px 16px; }
+
+  /* PPC hero — smaller grey two-tone h1 */
+  .pr-hero--ppc .pr-hero__title-soft { font-size: 30px !important; margin-right: 0 !important; }
+  .pr-hero--ppc .pr-hero__title-strong { font-size: 28px !important; }
+
+  /* PPC pipeline-flow — hide runner, smaller h2, fix card grid gap */
+  .pr-pipeline-flow__runner { display: none !important; }
+  .pr-pipeline-flow__title { font-size: 28px !important; line-height: 1.15 !important; }
+  .pr-pipeline-flow__grid { grid-template-columns: 1fr !important; gap: 16px; }
+  .pr-pipeline-flow__col { display: contents; }
+  .pr-pipeline-flow__grid .pr-principles__line { display: none; }
+
+  /* Stat band — gap between text and gif numbers (PPC missing) */
+  .pr-stat-band__gif-box { gap: 12px; padding: 10px 0; }
+  .pr-stat-band__label { margin-top: 8px; }
+
+  /* PPC approach lede — remove desktop margin that crushed mobile */
+  .pr-approach-ppc__lede { margin-left: 16px !important; margin-right: 16px !important; }
+
+  /* Hide sticky CTA popup on mobile */
+  .pr-sticky-cta { display: none !important; }
+
+  /* Contact TV vectors */
+  .pr-contact-tv__vec--blue { width: 60px; top: 40px; }
+  .pr-contact-tv__vec--red { width: 20px; bottom: 20px; }
+
+  .pr-cta-final { padding: 110px 0 40px; }
+
+  /* Practitioners point text: looser line-height on mobile */
+  .pr-point__text p { line-height: 1.8; }
+
+  /* POV cards: stack one per row */
+  .pr-pov { grid-template-columns: 1fr !important; }
+
+  /* SaaS PPC hero: tighter bottom padding on mobile */
+  .pr-hero--ppc { padding-bottom: 24px; min-height: auto; }
+
+  /* Pipeline-flow cards: default to activated state on mobile */
+  .pr-pipeline-flow__card { border-color: #82C6DD !important; }
+  .pr-pipeline-flow__icon img {
+    filter: brightness(0) saturate(100%) invert(60%) sepia(89%) saturate(623%) hue-rotate(311deg) brightness(99%) contrast(101%);
+  }
+  .pr-cta-final__mark,
+  .pr-cta-final__phone { transform: none !important; }
   .pr-cta-final h2 { font-size: 1.5rem; line-height: 1.2; padding: 0 1.5rem; margin-bottom: 16px; }
-  .pr-cta-final p { padding: 0 1.5rem; margin-bottom: 24px; }
+  .pr-cta-final p { padding: 0 1.5rem; margin-bottom: 24px; font-size: 13px; line-height: 1.5; }
   .pr-cta-final .pr-btn { margin-top: 24px; }
   .pr-footer__grid { grid-template-columns: 1fr 1fr !important; }
   .pr-footer__brand { grid-column: 1 / -1; }
@@ -2623,7 +2684,7 @@ a.pr-hero__cta:hover,
 .pr-approach-ppc__copy p { margin: 0 0 8px; }
 .pr-approach-ppc__copy p:last-child { margin-bottom: 0; }
 .pr-approach-ppc__vec { position: absolute; pointer-events: none; z-index: 0; }
-.pr-approach-ppc__vec--blue-top { top: 0; left: 0; width: 220px; height: auto; }
+.pr-approach-ppc__vec--blue-top { top: 0; left: 0; width: 150px; height: auto; }
 .pr-approach-ppc__vec--blue { bottom: 0; left: 0; width: 140px; height: auto; }
 .pr-approach-ppc__vec--red { bottom: 175px; right: max(0px, calc(50% - 640px)); width: 70px; height: auto; }
 @media (max-width: 767px) {
@@ -2669,7 +2730,8 @@ a.pr-hero__cta:hover,
 
 /* Outcome section — dark bg, rocket, one-line heading */
 .pr-section--dark { position: relative; overflow: hidden; }
-.pr-section--outcome { background: #282828; padding-bottom: 200px; }
+.pr-section--outcome { background: #282828; padding-bottom: 96px; }
+.pr-section--outcome .pr-outcome__rocket { display: none; }
 
 .pr-outcome__header {
   max-width: none;
@@ -2862,7 +2924,7 @@ a.pr-hero__cta:hover,
 .pr-point__text h3 {
   font-family: var(--pr-ivy-headline);
   font-weight: 600;
-  font-size: 35px;
+  font-size: 24px;
   margin-bottom: var(--pr-s-4);
   line-height: 1.2;
 }
@@ -3791,7 +3853,7 @@ a.pr-hero__cta:hover,
   display: block;
 }
 @media (max-width: 767px) {
-  .pr-platforms-ppc { padding: 60px 0; }
+  .pr-platforms-ppc { padding: 0; }
   .pr-platforms-ppc__heading { font-size: 32px; margin-bottom: 32px; }
   .pr-platforms-ppc__card { padding: 4px; border-radius: 12px; }
   .pr-platforms-ppc__grid { grid-template-columns: repeat(2, 1fr); }
@@ -3946,7 +4008,7 @@ a.pr-hero__cta:hover,
   display: block;
 }
 @media (max-width: 767px) {
-  .pr-platforms-ppc { padding: 50px 0; aspect-ratio: unset; }
+  .pr-platforms-ppc { padding: 0; aspect-ratio: unset; }
   .pr-platforms-ppc__billboard { aspect-ratio: 4 / 5; }
   .pr-platforms-ppc__grid { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3, 1fr); }
 }
@@ -10307,6 +10369,19 @@ body.page-saas-ppc main {
 .pr-section--growth h2       { margin-bottom: 40px; }
 .pr-section--working h2      { margin-bottom: 40px; }
 .pr-section--problem h2      { margin-bottom: 20px; font-size: 60px; line-height: 65px; }
+.pr-section--growth__heading,
+.pr-section--compare__heading {
+  margin-left: auto;
+  margin-right: auto;
+  text-wrap: balance;
+}
+.pr-section--growth__heading { max-width: 620px; }
+.pr-section--compare__heading { max-width: 400px; }
+@media (max-width: 767px) {
+  .pr-section--growth__heading,
+  .pr-section--compare__heading { max-width: 280px; }
+  .pr-section--growth__heading { font-size: 1.5rem !important; }
+}
 .pr-section--social-proof    { padding-top: var(--pr-s-9); }
 .pr-section--social-proof h2 { margin-bottom: 60px; }
 .pr-section--ai h2           { margin-bottom: 70px; }
@@ -10314,13 +10389,13 @@ body.page-saas-ppc main {
 .pr-section--casestudies h2  { margin-bottom: 60px; }
 .pr-outcome__heading         { margin-bottom: 40px; }
 .pr-stat-band__heading       { margin-bottom: 50px; }
-.pr-section--compare h2      { margin-bottom: 40px; font-size: 60px; line-height: 65px; }
+.pr-section--compare h2      { margin-bottom: 40px; font-size: 28px; line-height: 1.2; }
 .pr-section--compare .pr-center > p { max-width: 690px; margin-left: auto; margin-right: auto; }
 .pr-section--pov h2          { margin-bottom: 80px !important; }
 @media (max-width: 767px) {
   .pr-section--pov h2 { line-height: 1.15 !important; font-size: 2rem !important; margin-bottom: 40px !important; }
   .pr-pov { grid-template-columns: 1fr 1fr; }
-  .pr-section--compare h2 { font-size: 2.8rem !important; line-height: 1.15 !important; }
+  .pr-section--compare h2 { font-size: 28px !important; line-height: 1.2 !important; }
   .pr-section--problem h2 { font-size: clamp(2rem, 4vw, 3.25rem) !important; line-height: 1.2 !important; }
   .pr-section--social-proof h2 { font-size: 1.75rem; line-height: 1.2; }
   .pr-stat-band__gif { height: 100px; }
