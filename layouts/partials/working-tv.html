@@ -76,7 +76,7 @@
     if(slide.querySelector('iframe')) return;
     var vid = slide.getAttribute('data-vid');
     var iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube-nocookie.com/embed/' + vid + '?autoplay=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1';
+    iframe.src = 'https://www.youtube-nocookie.com/embed/' + vid + '?autoplay=1&mute=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1';
     iframe.title = slide.getAttribute('data-label') + ' testimonial';
     iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
     iframe.setAttribute('allowfullscreen', '');
