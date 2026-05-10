@@ -217,14 +217,15 @@ p { margin: 0 0 var(--pr-s-4); }
 /* ============================================================
    PPC Compare table — fully scoped, mirrors SEO defaults
    ============================================================ */
-.pr-compare--ppc { background: #282828; padding-bottom: 140px; position: relative; }
+.pr-compare--ppc { background: #282828; padding-bottom: 140px; position: relative; overflow: hidden; }
 .pr-compare--ppc .pr-compare-table { max-width: 1000px; margin-left: auto; margin-right: auto; }
 .pr-compare--ppc__cta { display: flex; justify-content: center; margin-top: 90px; }
 .pr-compare--ppc__table-wrap { position: relative; }
 .pr-compare--ppc__blue-vec {
   position: absolute;
   top: 35.59px;
-  left: 1309px;
+  right: max(-80px, calc(50% - 734px));
+  left: auto;
   width: 160px;
   height: auto;
   pointer-events: none;
@@ -2601,7 +2602,7 @@ p { margin: 0 0 var(--pr-s-4); }
 .pr-approach-ppc__vec { position: absolute; pointer-events: none; z-index: 0; }
 .pr-approach-ppc__vec--blue-top { top: 0; left: 0; width: 220px; height: auto; }
 .pr-approach-ppc__vec--blue { bottom: 0; left: 0; width: 140px; height: auto; }
-.pr-approach-ppc__vec--red { bottom: 175px; right: 0; width: 70px; height: auto; }
+.pr-approach-ppc__vec--red { bottom: 175px; right: max(0px, calc(50% - 640px)); width: 70px; height: auto; }
 @media (max-width: 767px) {
   .pr-approach-ppc__grid { grid-template-columns: 1fr; }
   .pr-approach-ppc__card { min-height: 0; }
@@ -3719,11 +3720,67 @@ p { margin: 0 0 var(--pr-s-4); }
    PPC Ad Platforms section — composed billboard, scoped to PPC
    ============================================================ */
 .pr-platforms-ppc {
-  position: relative;
   background: var(--pr-cream);
-  padding: 80px 0;
-  overflow: hidden;
-  aspect-ratio: 1915 / 1043;
+  font-size: 0;
+}
+.pr-platforms-ppc picture {
+  display: block;
+  max-width: 1540px;
+  margin: 0 auto;
+}
+.pr-platforms-ppc__static { width: 100%; height: auto; }
+.pr-platforms-ppc__heading {
+  font-family: var(--pr-ivy-headline);
+  font-weight: 600;
+  font-size: 52px;
+  color: var(--pr-ink);
+  margin: 0 0 40px;
+  line-height: 1.1;
+}
+.pr-platforms-ppc__card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 8px;
+  box-shadow: 0 8px 48px rgba(0,0,0,0.18);
+}
+.pr-platforms-ppc__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.pr-platforms-ppc__cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 28px;
+  border-right: 1px solid rgba(0,0,0,0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.pr-platforms-ppc__cell:nth-child(3n) { border-right: none; }
+.pr-platforms-ppc__cell:nth-child(4),
+.pr-platforms-ppc__cell:nth-child(5),
+.pr-platforms-ppc__cell:nth-child(6) { border-bottom: none; }
+.pr-platforms-ppc__logo {
+  max-width: 130px;
+  max-height: 52px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+@media (max-width: 767px) {
+  .pr-platforms-ppc { padding: 60px 0; }
+  .pr-platforms-ppc__heading { font-size: 32px; margin-bottom: 32px; }
+  .pr-platforms-ppc__card { padding: 4px; border-radius: 12px; }
+  .pr-platforms-ppc__grid { grid-template-columns: repeat(2, 1fr); }
+  .pr-platforms-ppc__cell:nth-child(3n) { border-right: 1px solid rgba(0,0,0,0.08); }
+  .pr-platforms-ppc__cell:nth-child(4),
+  .pr-platforms-ppc__cell:nth-child(5),
+  .pr-platforms-ppc__cell:nth-child(6) { border-bottom: 1px solid rgba(0,0,0,0.08); }
+  .pr-platforms-ppc__cell:nth-child(2n) { border-right: none; }
+  .pr-platforms-ppc__cell:nth-child(5),
+  .pr-platforms-ppc__cell:nth-child(6) { border-bottom: none; }
+  .pr-platforms-ppc__cell { padding: 24px 16px; }
+  .pr-platforms-ppc__logo { max-width: 90px; max-height: 38px; }
 }
 .pr-platforms-ppc__backdrop {
   position: absolute;
@@ -10213,7 +10270,8 @@ body.pr-modal-open { overflow: hidden; }
 }
 
 /* Constrain homepage content at very wide viewports (zoom-out) */
-body.page-home main {
+body.page-home main,
+body.page-saas-ppc main {
   max-width: 1540px;
   margin-left: auto;
   margin-right: auto;
