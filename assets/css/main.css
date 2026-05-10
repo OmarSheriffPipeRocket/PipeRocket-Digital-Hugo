@@ -324,8 +324,15 @@ p { margin: 0 0 var(--pr-s-4); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--pr-s-4) 0;
+  padding: 17.5px 0;
   gap: var(--pr-s-6);
+}
+.pr-header .pr-logo {
+  position: relative;
+  top: 2px;
+}
+.pr-header__cta .pr-btn {
+  padding: 0.7rem 1.4rem;
 }
 .pr-logo {
   display: inline-flex;
@@ -361,11 +368,17 @@ p { margin: 0 0 var(--pr-s-4); }
   font-size: 0.95rem;
   font-weight: 500;
   color: var(--pr-ink);
-  padding: var(--pr-s-3) 0;
+  padding: var(--pr-s-2) var(--pr-s-3);
+  border-radius: 4px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
+  transition: background 0.15s, color 0.15s;
+}
+.pr-nav__item:hover,
+.pr-nav__item:focus-within {
+  color: #0BA6E2;
 }
 .pr-nav__caret {
   font-size: 1em;
@@ -416,6 +429,43 @@ p { margin: 0 0 var(--pr-s-4); }
    MEGAMENU — multi-column dropdown
    ================================================================= */
 .pr-nav__item--mega { position: static; cursor: pointer; }
+.pr-nav__item--drop { position: relative; cursor: pointer; }
+.pr-dropmenu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -6px);
+  min-width: 180px;
+  background: var(--pr-cream);
+  border: 1px solid var(--pr-line);
+  border-top: 2px solid var(--pr-cyan);
+  box-shadow: 0 16px 32px rgba(13, 13, 13, 0.08);
+  padding: var(--pr-s-2) 0;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+  z-index: 60;
+}
+.pr-nav__item--drop:hover .pr-dropmenu,
+.pr-nav__item--drop:focus-within .pr-dropmenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0);
+}
+.pr-dropmenu__link {
+  font-family: var(--pr-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--pr-ink);
+  padding: var(--pr-s-2) var(--pr-s-4);
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+.pr-dropmenu__link:hover {
+  color: #0BA6E2;
+}
 .pr-megamenu {
   position: absolute;
   left: 50%;
@@ -10427,7 +10477,7 @@ body.page-home main {
   z-index: 1;
 }
 .pr-mtest-vec--blue {
-  top: 52px;
+  top: 17px;
   left: 0px;
   width: 190px;
   height: auto;

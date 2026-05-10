@@ -62,13 +62,8 @@ tag = "tags"
 
 # Header / main menu
 [[menu.main]]
-name = "About"
-url = "/about-us/"
-weight = 1
-
-[[menu.main]]
 name = "Services"
-weight = 2
+weight = 1
 identifier = "services"
 
   [[menu.main]]
@@ -83,38 +78,9 @@ identifier = "services"
   parent = "services"
   weight = 2
 
-  [[menu.main]]
-  name = "MarOps"
-  url = "/marketing-ops/"
-  parent = "services"
-  weight = 3
-
-[[menu.main]]
-name = "Industries"
-weight = 3
-identifier = "industries"
-
-  [[menu.main]]
-  name = "Fintech Marketing"
-  url = "/fintech-marketing-agency/"
-  parent = "industries"
-  weight = 1
-
-  [[menu.main]]
-  name = "Fintech SEO"
-  url = "/fintech-seo-agency/"
-  parent = "industries"
-  weight = 2
-
-  [[menu.main]]
-  name = "Fintech PPC"
-  url = "/fintech-ppc-agency/"
-  parent = "industries"
-  weight = 3
-
 [[menu.main]]
 name = "Resources"
-weight = 4
+weight = 2
 identifier = "resources"
 
   [[menu.main]]
@@ -123,22 +89,15 @@ identifier = "resources"
   parent = "resources"
   weight = 1
 
-  [[menu.main]]
-  name = "Glossary"
-  url = "/glossary/"
-  parent = "resources"
-  weight = 2
-
-  [[menu.main]]
-  name = "FAQs"
-  url = "/faqs/"
-  parent = "resources"
-  weight = 3
+[[menu.main]]
+name = "Success Stories"
+url = "/case-studies/"
+weight = 3
 
 [[menu.main]]
-name = "Case Studies"
-url = "/case-studies/"
-weight = 5
+name = "About"
+url = "/about-us/"
+weight = 4
 
 # Footer columns
 [[menu.footer_services]]
@@ -149,27 +108,19 @@ weight = 1
 name = "SaaS PPC"
 url = "/saas-ppc/"
 weight = 2
-[[menu.footer_services]]
-name = "MarkOps"
-url = "/marketing-ops/"
-weight = 3
 
 [[menu.footer_company]]
 name = "About Us"
 url = "/about-us/"
 weight = 1
 [[menu.footer_company]]
-name = "Team"
-url = "/about-us/#team"
-weight = 2
-[[menu.footer_company]]
-name = "Case Studies"
+name = "Success Stories"
 url = "/case-studies/"
-weight = 3
+weight = 2
 [[menu.footer_company]]
 name = "Contact Us"
 url = "/contact-us/"
-weight = 4
+weight = 3
 
 [[menu.footer_learn]]
 name = "SaaS SEO"
@@ -188,10 +139,6 @@ weight = 3
 name = "Blogs"
 url = "/blogs/"
 weight = 1
-[[menu.footer_resources]]
-name = "FAQs"
-url = "/faqs/"
-weight = 2
 
 ############################# Site Params ##############################
 [params]
@@ -200,7 +147,7 @@ author = "PipeRocket Digital"
 tagline = "Marketing with purpose, not just presence."
 copyright = "© Piperocket Inc. 2026 All rights reserved"
 
-primary_cta_text = "Free funnel audit"
+primary_cta_text = "Talk to Us"
 primary_cta_url = "/contact-us/"
 secondary_cta_text = "Book free consultation"
 secondary_cta_url = "/contact-us/"
