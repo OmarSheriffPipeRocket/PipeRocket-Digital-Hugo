@@ -2730,8 +2730,11 @@ a.pr-hero__cta:hover,
 
 /* Outcome section — dark bg, rocket, one-line heading */
 .pr-section--dark { position: relative; overflow: hidden; }
-.pr-section--outcome { background: #282828; padding-bottom: 96px; }
-.pr-section--outcome .pr-outcome__rocket { display: none; }
+.pr-section--outcome { background: #282828; padding-bottom: 200px; }
+@media (max-width: 767px) {
+  .pr-section--outcome { padding-bottom: 96px; }
+  .pr-section--outcome .pr-outcome__rocket { display: none; }
+}
 
 .pr-outcome__header {
   max-width: none;
@@ -2924,9 +2927,12 @@ a.pr-hero__cta:hover,
 .pr-point__text h3 {
   font-family: var(--pr-ivy-headline);
   font-weight: 600;
-  font-size: 24px;
+  font-size: 35px;
   margin-bottom: var(--pr-s-4);
   line-height: 1.2;
+}
+@media (max-width: 767px) {
+  .pr-point__text h3 { font-size: 24px; }
 }
 .pr-point__text p {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -10376,11 +10382,12 @@ body.page-saas-ppc main {
   text-wrap: balance;
 }
 .pr-section--growth__heading { max-width: 620px; }
-.pr-section--compare__heading { max-width: 400px; }
+.pr-section--compare__heading { max-width: 900px; }
 @media (max-width: 767px) {
   .pr-section--growth__heading,
   .pr-section--compare__heading { max-width: 280px; }
   .pr-section--growth__heading { font-size: 1.5rem !important; }
+  .pr-section--compare h2.pr-section--compare__heading { font-size: 1.5rem !important; line-height: 1.2 !important; }
 }
 .pr-section--social-proof    { padding-top: var(--pr-s-9); }
 .pr-section--social-proof h2 { margin-bottom: 60px; }
@@ -10389,7 +10396,7 @@ body.page-saas-ppc main {
 .pr-section--casestudies h2  { margin-bottom: 60px; }
 .pr-outcome__heading         { margin-bottom: 40px; }
 .pr-stat-band__heading       { margin-bottom: 50px; }
-.pr-section--compare h2      { margin-bottom: 40px; font-size: 28px; line-height: 1.2; }
+.pr-section--compare h2      { margin-bottom: 40px; font-size: 60px; line-height: 65px; }
 .pr-section--compare .pr-center > p { max-width: 690px; margin-left: auto; margin-right: auto; }
 .pr-section--pov h2          { margin-bottom: 80px !important; }
 @media (max-width: 767px) {
@@ -10809,4 +10816,245 @@ body.page-saas-ppc main {
   .pr-mtest-grid { grid-template-columns: 1fr; height: 480px; }
   .pr-mtest-col--down { display: none; }
   .pr-mtest-title { font-size: 32px; }
+}
+
+/* ============================================================
+   FONT STANDARDIZATION — Tier B (481–767px, large mobile / small tablet)
+   ============================================================ */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* H1 — 42px */
+  .pr-hero__title,
+  .pr-hero__title-soft,
+  .pr-hero__title-strong,
+  .pr-hero--ppc .pr-hero__title-soft,
+  .pr-hero--ppc .pr-hero__title-strong { font-size: 42px !important; line-height: 1.1 !important; }
+
+  /* H2 — 38px */
+  h2,
+  .pr-section h2,
+  .pr-section--compare h2,
+  .pr-section--problem h2,
+  .pr-stat-band__heading,
+  .pr-section--social-proof h2,
+  .pr-section--pov h2,
+  .pr-section--outcome h2,
+  .pr-outcome__heading,
+  .pr-section h2.pr-section--growth__heading,
+  .pr-section--compare h2.pr-section--compare__heading,
+  .pr-mtest-title,
+  .pr-pipeline-flow__title,
+  .pr-platforms-ppc__heading-text,
+  .pr-approach-ppc__heading { font-size: 38px !important; line-height: 1.15 !important; }
+
+  /* H3 — 26px */
+  h3,
+  .pr-section h3,
+  .pr-pipeline-flow__card h3,
+  .pr-point__text h3,
+  .pr-pov__card h3,
+  .pr-principles__card h3 { font-size: 26px !important; line-height: 1.2 !important; }
+
+  /* Body copy — 16px */
+  p,
+  .pr-section p,
+  .pr-hero__copy p,
+  .pr-hero__copy,
+  .pr-hero__lede,
+  .pr-pipeline-flow__lede,
+  .pr-approach-ppc__lede { font-size: 16px !important; line-height: 1.5 !important; }
+
+  /* Accordion dropdown title — 17px */
+  .pr-accordion__header,
+  .pr-accordion__header-left { font-size: 17px !important; }
+
+  /* Copy inside cards — 15px */
+  .pr-approach__card p,
+  .pr-approach__copy,
+  .pr-case__copy,
+  .pr-case p,
+  .pr-pipeline-flow__card p,
+  .pr-principles__card p,
+  .pr-pov__card p,
+  .pr-testimonial__quote,
+  .pr-point__text p,
+  .pr-mtest__quote,
+  .pr-faq__a,
+  .pr-accordion__body,
+  .pr-approach__title,
+  .pr-approach-ppc__title,
+  .pr-approach-ppc__copy { font-size: 15px !important; line-height: 1.55 !important; }
+
+  /* Read more / Learn more links — 15px */
+  .pr-approach__link,
+  .pr-case__link,
+  .pr-pov__card-link { font-size: 15px !important; }
+
+  /* CTAs — 16px */
+  .pr-btn,
+  a.pr-btn,
+  .pr-btn--ghost,
+  a.pr-btn--ghost,
+  .pr-hero__cta,
+  a.pr-hero__cta { font-size: 16px !important; }
+}
+
+/* ============================================================
+   FONT STANDARDIZATION — Tier A (≤480px, small mobile / phone portrait)
+   ============================================================ */
+@media (max-width: 480px) {
+  /* H1 — 32px */
+  .pr-hero__title,
+  .pr-hero__title-soft,
+  .pr-hero__title-strong,
+  .pr-hero--ppc .pr-hero__title-soft,
+  .pr-hero--ppc .pr-hero__title-strong { font-size: 32px !important; line-height: 1.15 !important; }
+
+  /* H2 — 28px */
+  h2,
+  .pr-section h2,
+  .pr-section--compare h2,
+  .pr-section--problem h2,
+  .pr-stat-band__heading,
+  .pr-section--social-proof h2,
+  .pr-section--pov h2,
+  .pr-section--outcome h2,
+  .pr-outcome__heading,
+  .pr-section h2.pr-section--growth__heading,
+  .pr-section--compare h2.pr-section--compare__heading,
+  .pr-mtest-title,
+  .pr-pipeline-flow__title,
+  .pr-platforms-ppc__heading-text,
+  .pr-approach-ppc__heading { font-size: 28px !important; line-height: 1.15 !important; }
+
+  /* H3 — 22px */
+  h3,
+  .pr-section h3,
+  .pr-pipeline-flow__card h3,
+  .pr-point__text h3,
+  .pr-pov__card h3,
+  .pr-principles__card h3 { font-size: 22px !important; line-height: 1.25 !important; }
+
+  /* Body copy — 15px */
+  p,
+  .pr-section p,
+  .pr-hero__copy p,
+  .pr-hero__copy,
+  .pr-hero__lede,
+  .pr-pipeline-flow__lede,
+  .pr-approach-ppc__lede { font-size: 15px !important; line-height: 1.5 !important; }
+
+  /* Accordion dropdown title — 16px */
+  .pr-accordion__header,
+  .pr-accordion__header-left { font-size: 16px !important; }
+
+  /* Copy inside cards — 14px */
+  .pr-approach__card p,
+  .pr-approach__copy,
+  .pr-case__copy,
+  .pr-case p,
+  .pr-pipeline-flow__card p,
+  .pr-principles__card p,
+  .pr-pov__card p,
+  .pr-testimonial__quote,
+  .pr-point__text p,
+  .pr-mtest__quote,
+  .pr-faq__a,
+  .pr-accordion__body,
+  .pr-approach__title,
+  .pr-approach-ppc__title,
+  .pr-approach-ppc__copy { font-size: 14px !important; line-height: 1.55 !important; }
+
+  /* Read more / Learn more links — 14px */
+  .pr-approach__link,
+  .pr-case__link,
+  .pr-pov__card-link { font-size: 14px !important; }
+
+  /* CTAs — 15px */
+  .pr-btn,
+  a.pr-btn,
+  .pr-btn--ghost,
+  a.pr-btn--ghost,
+  .pr-hero__cta,
+  a.pr-hero__cta { font-size: 15px !important; }
+}
+
+/* ============================================================
+   FONT STANDARDIZATION — Desktop (≥768px)
+   ============================================================ */
+@media (min-width: 768px) {
+  /* H1 — 56px */
+  .pr-hero__title,
+  .pr-hero__title-soft,
+  .pr-hero__title-strong,
+  .pr-hero--ppc .pr-hero__title-soft,
+  .pr-hero--ppc .pr-hero__title-strong { font-size: 56px !important; line-height: 1.1 !important; }
+
+  /* H2 — 56px */
+  h2,
+  .pr-section h2,
+  .pr-section--compare h2,
+  .pr-section--problem h2,
+  .pr-stat-band__heading,
+  .pr-section--social-proof h2,
+  .pr-section--pov h2,
+  .pr-section--outcome h2,
+  .pr-outcome__heading,
+  .pr-section h2.pr-section--growth__heading,
+  .pr-section--compare h2.pr-section--compare__heading,
+  .pr-mtest-title,
+  .pr-pipeline-flow__title,
+  .pr-platforms-ppc__heading-text,
+  .pr-approach-ppc__heading { font-size: 56px !important; line-height: 1.1 !important; }
+
+  /* H3 — 32px */
+  h3,
+  .pr-section h3,
+  .pr-pipeline-flow__card h3,
+  .pr-point__text h3,
+  .pr-pov__card h3,
+  .pr-principles__card h3 { font-size: 32px !important; line-height: 1.2 !important; }
+
+  /* Body copy — 18px */
+  p,
+  .pr-section p,
+  .pr-hero__copy p,
+  .pr-hero__copy,
+  .pr-hero__lede,
+  .pr-pipeline-flow__lede,
+  .pr-approach-ppc__lede,
+  .pr-section--compare > .pr-container > .pr-center p { font-size: 18px !important; line-height: 1.5 !important; }
+
+  /* Accordion dropdown title — 18px */
+  .pr-accordion__header,
+  .pr-accordion__header-left { font-size: 18px !important; }
+
+  /* Copy inside cards — 16px */
+  .pr-approach__card p,
+  .pr-approach__copy,
+  .pr-case__copy,
+  .pr-case p,
+  .pr-pipeline-flow__card p,
+  .pr-principles__card p,
+  .pr-pov__card p,
+  .pr-testimonial__quote,
+  .pr-point__text p,
+  .pr-mtest__quote,
+  .pr-faq__a,
+  .pr-accordion__body,
+  .pr-approach__title,
+  .pr-approach-ppc__title,
+  .pr-approach-ppc__copy { font-size: 16px !important; line-height: 1.6 !important; }
+
+  /* Read more / Learn more links — 16px */
+  .pr-approach__link,
+  .pr-case__link,
+  .pr-pov__card-link { font-size: 16px !important; }
+
+  /* CTAs — 16px */
+  .pr-btn,
+  a.pr-btn,
+  .pr-btn--ghost,
+  a.pr-btn--ghost,
+  .pr-hero__cta,
+  a.pr-hero__cta { font-size: 16px !important; }
 }

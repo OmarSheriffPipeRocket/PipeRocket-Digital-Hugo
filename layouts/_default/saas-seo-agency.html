@@ -290,12 +290,14 @@
 
     <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
       <div class="pr-ai-grid__media">
-        <img loading="lazy" decoding="async" src="/images/figma/raw-024_alpha.webp" alt="AI in marketing">
-        <img loading="lazy" decoding="async" src="/images/content-blue-check.svg" class="pr-ai-grid__overlay pr-ai-grid__overlay--check" alt="" aria-hidden="true">
-        <img loading="lazy" decoding="async" src="/images/content-blue-spring.svg" class="pr-ai-grid__overlay pr-ai-grid__overlay--spring" alt="" aria-hidden="true">
+        <img class="pr-ai-grid__layer is-active" data-image-key="research" loading="eager" decoding="async" src="/images/ai-accordion/research.png" alt="AI in SEO">
+        <img class="pr-ai-grid__layer" data-image-key="copy" loading="eager" decoding="async" src="/images/ai-accordion/copy.png" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="design" loading="eager" decoding="async" src="/images/ai-accordion/design.png" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="optimisation" loading="eager" decoding="async" src="/images/ai-accordion/optimisation.png" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="analysis" loading="eager" decoding="async" src="/images/ai-accordion/analysis.png" alt="">
       </div>
-      <div class="pr-accordion">
-        <details class="pr-accordion__item" open>
+      <div class="pr-accordion" data-ai-accordion-seo>
+        <details class="pr-accordion__item" open data-image="research">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
@@ -306,7 +308,7 @@
           <div class="pr-accordion__body">AI surfaces ICP signals, competitor activity, and audience intent data before a single page is briefed. Which queries are in-market, which content angles move them, and what pipeline opportunities are hiding in plain sight stays with the team.</div>
         </details>
 
-        <details class="pr-accordion__item">
+        <details class="pr-accordion__item" data-image="copy">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
@@ -317,7 +319,7 @@
           <div class="pr-accordion__body">AI generates first drafts, brief variants, and outline angles across audiences and intent. Which voice fits the ICP, which framing converts, and whether the prose sounds like a real practitioner or an agency template stays with the team.</div>
         </details>
 
-        <details class="pr-accordion__item">
+        <details class="pr-accordion__item" data-image="design">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
@@ -328,7 +330,7 @@
           <div class="pr-accordion__body">AI produces UI variants and page-design hypotheses. Which layout converts, where to place the CTA, and whether the page earns trust in the first three seconds stays with the team.</div>
         </details>
 
-        <details class="pr-accordion__item">
+        <details class="pr-accordion__item" data-image="optimisation">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
@@ -339,7 +341,7 @@
           <div class="pr-accordion__body">AI flags pages losing rankings, content gaps surfacing in AI overviews, and topics where competitors compound faster. What to refresh, what to consolidate, and where to invest next stays with the team.</div>
         </details>
 
-        <details class="pr-accordion__item">
+        <details class="pr-accordion__item" data-image="analysis">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
@@ -352,6 +354,27 @@
       </div>
     </div>
   </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('[data-ai-accordion-seo]');
+      if(!acc) return;
+      var media = acc.parentElement.querySelector('.pr-ai-grid__media');
+      if(!media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var key = item.getAttribute('data-image');
+          if(!key) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === key);
+          });
+        });
+      });
+    })();
+  </script>
 </section>
 <style>
   @media (min-width: 1024px) {
