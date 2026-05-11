@@ -92,8 +92,8 @@
                     + ".hs-fieldtype-intl-phone input.hs-input{flex:1 !important}"
                     + ".hs-error-msgs,.hs-error-msg{list-style:none !important;padding:0 !important;margin:6px 0 0 !important;color:#C0392B !important;font-size:12.5px !important;font-weight:500}"
                     + ".legal-consent-container,.hs-richtext{font-size:12.5px !important;color:#6B6B6B !important;line-height:1.55 !important;margin:8px 0 !important}"
-                    + ".hs-button,input[type=submit].hs-button{display:block !important;width:100% !important;background:#0CC6F1 !important;color:#FFFFFF !important;border:0 !important;padding:14px 26px !important;border-radius:8px !important;font-family:inherit !important;font-size:15px !important;font-weight:600 !important;letter-spacing:.005em;cursor:pointer !important;transition:background .15s,transform .12s !important;margin-top:8px !important}"
-                    + ".hs-button:hover,input[type=submit].hs-button:hover{background:#09B3DA !important}"
+                    + ".hs-button,input[type=submit].hs-button{display:block !important;width:100% !important;background:#0BA6E2 !important;color:#FFFFFF !important;border:0 !important;padding:14px 26px !important;border-radius:8px !important;font-family:inherit !important;font-size:15px !important;font-weight:600 !important;letter-spacing:.005em;cursor:pointer !important;transition:background .15s,transform .12s !important;margin-top:8px !important}"
+                    + ".hs-button:hover,input[type=submit].hs-button:hover{background:#0997CC !important}"
                     + ".hs-button:focus-visible{outline:3px solid rgba(12,198,241,.4) !important;outline-offset:2px}"
                     + ".submitted-message{background:transparent !important;border:0 !important;padding:18px !important;color:#0D0D0D !important;font-size:14.5px !important;line-height:1.6}"
                     + ".hs-form-field .input{margin:0 !important}"
@@ -110,6 +110,49 @@
         {{ end }}
       </div>
 
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO GRID — below first fold
+     ==================================================== -->
+<section class="pr-contact-logos">
+  <div class="pr-container">
+    <div class="pr-contact-logos__label">Leading SaaS companies that chose us</div>
+    <div class="pr-contact-logos__grid">
+      {{ $grid := slice
+        (dict "name" "DigitalAPI"   "src" "/images/logos/digitalapi.svg")
+        (dict "name" "Storylane"    "src" "/images/logos/storylane.svg")
+        (dict "name" "Sprinto"      "src" "/images/logos/sprinto.webp")
+        (dict "name" "Spendflo"     "src" "/images/logos/spendflo.svg")
+        (dict "name" "Osfin"        "src" "/images/logos/osfin.svg")
+        (dict "name" "JustCall"     "src" "/images/logos/justcall.svg")
+        (dict "name" "DevRev"       "src" "/images/logos/devrev.png")
+        (dict "name" "HyperVerge"   "src" "/images/logos/hyperverge.webp")
+        (dict "name" "Hevo"         "src" "/images/logos/hevo.png")
+        (dict "name" "LatentView"   "src" "/images/logos/latentview-simple.png")
+        (dict "name" "LeadSquared"  "src" "/images/logos/leadsquared.png")
+        (dict "name" "FarEye"       "src" "/images/logos/fareye-full.png")
+        (dict "name" "Tredence"     "src" "/images/logos/tredence-simple.png")
+        (dict "name" "Element"      "src" "/images/logos/element.png")
+        (dict "name" "GreytHR"      "src" "/images/logos/greythr.png")
+        (dict "name" "Cyber Sierra" "src" "/images/logos/cybersierra-full.png")
+        (dict "name" "Xflow"        "src" "/images/logos/xflow-full.png")
+        (dict "name" "Goldcast"     "src" "/images/logos/goldcast-simple.png")
+        (dict "name" "Apty"         "src" "/images/logos/apty.png")
+        (dict "name" "HappyFox"     "src" "/images/logos/happyfox.svg")
+        (dict "name" "HyperStart"   "src" "/images/logos/hyperstart.png")
+        (dict "name" "Keka"         "src" "/images/logos/keka.svg")
+        (dict "name" "MetricStream" "src" "/images/logos/metricstream.webp")
+        (dict "name" "Osfin"        "src" "/images/logos/osfin-tagline.png")
+        (dict "name" "Gallabox"     "src" "/images/logos/gallabox.svg")
+      }}
+      {{ range $grid }}
+        <div class="pr-contact-logos__cell">
+          <img src="{{ .src }}" alt="{{ .name }}" loading="lazy" decoding="async" class="pr-contact-logos__logo">
+        </div>
+      {{ end }}
     </div>
   </div>
 </section>
@@ -137,8 +180,8 @@
       <h2 class="pr-mtest-title">Don't take our word for it.</h2>
       <div class="pr-mtest-clutch">
         <strong class="pr-clutch__rating">5.0</strong>
-        <span class="pr-clutch__stars">★★★★★</span>
-        <img loading="lazy" decoding="async" src="/images/logos/clutch.svg" alt="Clutch">
+        <img loading="lazy" decoding="async" src="/images/contact/clutch-stars.svg" alt="5 out of 5 stars" class="pr-clutch__stars-img">
+        <img loading="lazy" decoding="async" src="/images/contact/clutch-logo-white.png" alt="Clutch" class="pr-clutch__logo-img">
       </div>
       <p class="pr-mtest-lede">Here's what the teams we've worked with have said about results, about working with us, and about what it actually looks like when marketing moves the needle.</p>
     </div>
