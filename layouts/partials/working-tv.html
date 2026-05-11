@@ -3,24 +3,24 @@
   <div class="pr-tv" role="region" aria-label="Client testimonial videos">
     <div class="pr-tv__screen">
       <div class="pr-tv__slides">
-        <button type="button" class="pr-tv__slide is-active" data-vid="mUf7jF3uu4w" data-label="Goldcast" aria-label="Play Goldcast testimonial">
-          <img loading="lazy" decoding="async" src="https://i.ytimg.com/vi/mUf7jF3uu4w/maxresdefault.jpg" alt="Goldcast testimonial thumbnail">
+        <button type="button" class="pr-tv__slide is-active" data-vid="sOghlvj-rFc" data-label="Goldcast" aria-label="Play Goldcast testimonial">
+          <img loading="lazy" decoding="async" src="https://i.ytimg.com/vi/sOghlvj-rFc/maxresdefault.jpg" alt="Goldcast testimonial thumbnail">
           <span class="pr-tv__play" aria-hidden="true"></span>
         </button>
-        <button type="button" class="pr-tv__slide" data-vid="OJjzU0aLddk" data-label="Spendflo" aria-label="Play Spendflo testimonial">
-          <img loading="lazy" decoding="async" data-src="https://i.ytimg.com/vi/OJjzU0aLddk/maxresdefault.jpg" alt="Spendflo testimonial thumbnail">
+        <button type="button" class="pr-tv__slide" data-vid="vs79zJqzqoI" data-label="Spendflo" aria-label="Play Spendflo testimonial">
+          <img loading="lazy" decoding="async" data-src="https://i.ytimg.com/vi/vs79zJqzqoI/maxresdefault.jpg" alt="Spendflo testimonial thumbnail">
           <span class="pr-tv__play" aria-hidden="true"></span>
         </button>
-        <button type="button" class="pr-tv__slide" data-vid="n2DOXO--UHQ" data-label="DAC" aria-label="Play DAC testimonial">
-          <img loading="lazy" decoding="async" data-src="https://i.ytimg.com/vi/n2DOXO--UHQ/maxresdefault.jpg" alt="DAC testimonial thumbnail">
+        <button type="button" class="pr-tv__slide" data-vid="SsDHIXQ5vzo" data-label="Digital API" aria-label="Play Digital API testimonial">
+          <img loading="lazy" decoding="async" data-src="https://i.ytimg.com/vi/SsDHIXQ5vzo/maxresdefault.jpg" alt="Digital API testimonial thumbnail">
           <span class="pr-tv__play" aria-hidden="true"></span>
         </button>
-        <button type="button" class="pr-tv__slide" data-vid="6M3owWgFx_A" data-label="Astra" aria-label="Play Astra testimonial">
-          <img loading="lazy" decoding="async" data-src="https://i.ytimg.com/vi/6M3owWgFx_A/maxresdefault.jpg" alt="Astra testimonial thumbnail">
+        <button type="button" class="pr-tv__slide" data-vid="ymdaYW9eLhA" data-label="Astra" aria-label="Play Astra testimonial">
+          <img loading="lazy" decoding="async" data-src="https://i.ytimg.com/vi/ymdaYW9eLhA/maxresdefault.jpg" alt="Astra testimonial thumbnail">
           <span class="pr-tv__play" aria-hidden="true"></span>
         </button>
-        <button type="button" class="pr-tv__slide" data-vid="3vjQoIREkKI" data-label="HyperVerge" aria-label="Play HyperVerge testimonial">
-          <img loading="lazy" decoding="async" data-src="https://i.ytimg.com/vi/3vjQoIREkKI/maxresdefault.jpg" alt="HyperVerge testimonial thumbnail">
+        <button type="button" class="pr-tv__slide" data-vid="28S63tmwUgo" data-label="HyperVerge" aria-label="Play HyperVerge testimonial">
+          <img loading="lazy" decoding="async" data-src="https://i.ytimg.com/vi/28S63tmwUgo/maxresdefault.jpg" alt="HyperVerge testimonial thumbnail">
           <span class="pr-tv__play" aria-hidden="true"></span>
         </button>
       </div>
@@ -75,17 +75,20 @@
   function play(slide){
     if(slide.querySelector('iframe')) return;
     var vid = slide.getAttribute('data-vid');
-    var iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube-nocookie.com/embed/' + vid + '?autoplay=1&mute=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1';
-    iframe.title = slide.getAttribute('data-label') + ' testimonial';
-    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-    iframe.setAttribute('allowfullscreen', '');
-    iframe.loading = 'lazy';
-    var img = slide.querySelector('img');
-    var pl = slide.querySelector('.pr-tv__play');
-    if(img) img.style.display = 'none';
-    if(pl) pl.style.display = 'none';
-    slide.appendChild(iframe);
+    setTimeout(function(){
+      if(slide.querySelector('iframe')) return;
+      var iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube-nocookie.com/embed/' + vid + '?autoplay=1&mute=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1&controls=0';
+      iframe.title = slide.getAttribute('data-label') + ' testimonial';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.setAttribute('allowfullscreen', '');
+      iframe.loading = 'lazy';
+      var img = slide.querySelector('img');
+      var pl = slide.querySelector('.pr-tv__play');
+      if(img) img.style.display = 'none';
+      if(pl) pl.style.display = 'none';
+      slide.appendChild(iframe);
+    }, 1000);
   }
 
   slides.forEach(function(s, i){

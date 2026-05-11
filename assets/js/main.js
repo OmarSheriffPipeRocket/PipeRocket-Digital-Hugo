@@ -504,6 +504,32 @@ const setupReveals = () => {
   targets.forEach((el) => io.observe(el));
 };
 
+// Match all outcome service cards to the tallest card's height (mobile only)
+const setupOutcomeCardEqualHeight = () => {
+  const cards = document.querySelectorAll('.pr-section--outcome .pr-approach__card');
+  if (cards.length === 0) return;
+  const apply = () => {
+    cards.forEach(c => { c.style.minHeight = ''; });
+    if (window.innerWidth > 767) return;
+    let max = 0;
+    cards.forEach(c => { max = Math.max(max, c.offsetHeight); });
+    cards.forEach(c => { c.style.minHeight = max + 'px'; });
+  };
+  apply();
+  window.addEventListener('resize', apply);
+};
+
+// Slide-in the PPC pipeline runner (man + speed lines) from left on scroll
+const setupPipelineRunnerReveal = () => {
+  const runner = document.querySelector('.pr-pipeline-flow__runner');
+  if (!runner || !('IntersectionObserver' in window)) return;
+  const io = new IntersectionObserver(
+    ([entry]) => { if (entry.isIntersecting) { runner.classList.add('is-visible'); io.unobserve(runner); } },
+    { threshold: 0.2 }
+  );
+  io.observe(runner);
+};
+
 // Fade in the compare section intro paragraph on scroll
 const setupCompareIntro = () => {
   const el = document.querySelector('.pr-compare__intro');
@@ -639,7 +665,7 @@ const setupPrinciples = () => {
     const arrowYInRoot = lineOffsetInRoot + arrowY;
     cards.forEach((card) => {
       const cRect = card.getBoundingClientRect();
-      const cardTrigger = (cRect.top - rootTop) + cRect.height * 0.5;
+      const cardTrigger = (cRect.top - rootTop) + cRect.height * 0.25;
       card.classList.toggle('is-active', arrowYInRoot >= cardTrigger);
     });
   };
@@ -766,6 +792,8 @@ const init = () => {
   setupArrowParallax();
   setupPrinciples();
   setupPipelineFlowDeco();
+  setupPipelineRunnerReveal();
+  setupOutcomeCardEqualHeight();
   setupCtaParallax();
   setupOutcomeSection();
   setupCompareDecorations();

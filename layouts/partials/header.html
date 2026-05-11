@@ -7,16 +7,16 @@
     <nav class="pr-nav" aria-label="Main">
       <div class="pr-nav__item pr-nav__item--drop" tabindex="0">
         <span>Services</span>
-        <span class="pr-nav__caret" aria-hidden="true">▾</span>
+        <img src="/images/dropdown-arrow.svg" alt="" aria-hidden="true" class="pr-nav__caret">
         <div class="pr-dropmenu" role="menu">
-          <a href="/saas-seo-agency/" class="pr-dropmenu__link">SaaS SEO</a>
-          <a href="/saas-ppc/" class="pr-dropmenu__link">SaaS PPC</a>
+          <a href="/saas-seo-agency/" class="pr-dropmenu__link{{ if eq .RelPermalink "/saas-seo-agency/" }} is-active{{ end }}">SaaS SEO</a>
+          <a href="/saas-ppc/" class="pr-dropmenu__link{{ if eq .RelPermalink "/saas-ppc/" }} is-active{{ end }}">SaaS PPC</a>
         </div>
       </div>
 
       <div class="pr-nav__item pr-nav__item--drop" tabindex="0">
         <span>Resources</span>
-        <span class="pr-nav__caret" aria-hidden="true">▾</span>
+        <img src="/images/dropdown-arrow.svg" alt="" aria-hidden="true" class="pr-nav__caret">
         <div class="pr-dropmenu" role="menu">
           <a href="/blogs/" class="pr-dropmenu__link">Blogs</a>
         </div>
