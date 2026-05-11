@@ -767,6 +767,13 @@ a.pr-btn--ghost:hover,
     touch-action: none;
     overscroll-behavior: none;
   }
+  /* When body is fixed for scroll-lock, sticky header breaks — pin it to viewport */
+  body.pr-nav-locked .pr-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 }
 
 /* =================================================================
@@ -2471,7 +2478,7 @@ a.pr-hero__cta:hover,
   .pr-cta-final .pr-btn { margin-top: 24px; }
   .pr-footer__grid { grid-template-columns: 1fr 1fr !important; }
   .pr-footer__brand { grid-column: 1 / -1; }
-  .pr-header__inner { justify-content: flex-start; gap: var(--pr-s-3); padding-left: calc(var(--pr-s-5) + var(--pr-s-3)); }
+  .pr-header__inner { justify-content: flex-start; gap: var(--pr-s-3); padding-left: calc(var(--pr-s-5) + var(--pr-s-3)); padding-right: 5px; }
   .pr-header__cta { margin-left: auto; }
   .pr-cta-final__mark { width: 115px; left: 4%; top: -4%; bottom: auto; }
   .pr-cta-final__phone { width: 145px; right: 0; top: -6%; }
@@ -11020,7 +11027,7 @@ body.page-saas-ppc main {
 }
 
 @media (max-width: 960px) {
-  .pr-mtest-section { padding-bottom: 32px; }
+  .pr-mtest-section { padding-bottom: 32px; padding-top: 32px; }
   .pr-mtest-section .pr-container { grid-template-columns: 1fr; gap: 32px; }
   .pr-mtest-grid { height: 560px; }
   .pr-mtest-head { max-width: 100%; }

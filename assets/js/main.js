@@ -36,7 +36,7 @@ const setupMobileMenu = () => {
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
     if (!open) {
-      window.scrollTo(0, savedScrollY);
+      window.scrollTo({ top: savedScrollY, behavior: 'instant' });
     }
   };
   toggle.addEventListener('click', () => {
