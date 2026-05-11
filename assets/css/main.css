@@ -3066,9 +3066,9 @@ a.pr-hero__cta:hover,
   pointer-events: none;
   z-index: 0;
 }
-.pr-pov__stroke--tl { top: 0; left: 0; width: 180px; }
-.pr-pov__stroke--bl { bottom: 0; left: 0; width: 120px; }
-.pr-pov__stroke--br { bottom: 0; right: 0; width: 160px; }
+.pr-pov__stroke--tl { top: 0; left: max(0px, calc(50% - 800px)); width: 180px; }
+.pr-pov__stroke--bl { bottom: 0; left: max(0px, calc(50% - 800px)); width: 120px; }
+.pr-pov__stroke--br { bottom: 0; right: max(0px, calc(50% - 800px)); width: 160px; }
 @media (max-width: 767px) {
   .pr-pov__stroke--tl { width: 90px; }
   .pr-pov__stroke--bl { width: 60px; }
@@ -4301,6 +4301,9 @@ a.pr-hero__cta:hover,
   position: relative;
   min-height: clamp(500px, 55vw, 740px);
   overflow: hidden;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pr-certified--parallax .pr-certified__parallax-bg {
   position: absolute;
