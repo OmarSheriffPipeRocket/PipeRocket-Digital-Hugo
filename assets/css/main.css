@@ -10566,13 +10566,13 @@ body.page-saas-ppc main {
 }
 .pr-contact2__scribble--left {
   top: 100px;
-  left: 0;
+  left: max(0px, calc(50% - 800px));
   width: 90px;
   height: auto;
 }
 .pr-contact2__scribble--right {
   top: 160px;
-  right: 100px;
+  right: max(100px, calc(50% - 700px));
   width: 100px;
   height: auto;
   pointer-events: none;
@@ -10810,13 +10810,13 @@ body.page-saas-ppc main {
 }
 .pr-contact-tv__vec--blue {
   top: 190px;
-  left: 0;
+  left: max(0px, calc(50% - 800px));
   width: 90px;
   height: auto;
 }
 .pr-contact-tv__vec--red {
   bottom: 90px;
-  right: 0;
+  right: max(0px, calc(50% - 800px));
   width: 40px;
   height: auto;
 }
@@ -10844,13 +10844,13 @@ body.page-saas-ppc main {
 }
 .pr-mtest-vec--blue {
   top: 17px;
-  left: 0px;
+  left: max(0px, calc(50% - 800px));
   width: 190px;
   height: auto;
 }
 .pr-mtest-vec--rocket {
   bottom: -20px;
-  left: -40px;
+  left: max(-40px, calc(50% - 840px));
   width: 170px;
   height: auto;
   will-change: transform;
