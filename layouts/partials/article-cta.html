@@ -6,7 +6,9 @@
       <p>We work with a small number of B2B SaaS companies at a time. Tell us your ICP and growth goal — we'll map the channels, audiences, and content angles most likely to move qualified pipeline in 90 days.</p>
     </div>
     <div class="pr-article-cta__action">
-      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+      {{- $ctaLoc := "blog-inline" -}}
+      {{- if eq .Type "list" }}{{- $ctaLoc = "listicle-inline" -}}{{ end -}}
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn" data-cta-location="{{ $ctaLoc }}">{{ .Site.Params.secondary_cta_text }}</a>
       <a href="{{ .Site.Params.primary_cta_url }}" class="pr-article-cta__secondary">or {{ .Site.Params.primary_cta_text | lower }} →</a>
     </div>
   </div>
