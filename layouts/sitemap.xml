@@ -4,15 +4,55 @@
 {{ $buildTime := now }}
 {{ range .Site.Pages }}
   {{- if and (not .Params.private) (ne .Kind "404") (ne .Kind "taxonomy") (ne .Kind "term") -}}
+
+  {{/* Tiered priority + changefreq by page importance */}}
+  {{- $priority := "0.5" -}}
+  {{- $changefreq := "monthly" -}}
+
+  {{/* Home page — top priority, daily refresh */}}
+  {{- if .IsHome -}}
+    {{- $priority = "1.0" -}}
+    {{- $changefreq = "daily" -}}
+
+  {{/* Service / landing pages — high priority (revenue-driving) */}}
+  {{- else if and (eq .Kind "page") (not .Section) -}}
+    {{- $priority = "0.9" -}}
+    {{- $changefreq = "weekly" -}}
+
+  {{/* Section index pages (/blogs/, /list/, /glossary/, etc.) — high priority */}}
+  {{- else if eq .Kind "section" -}}
+    {{- $priority = "0.8" -}}
+    {{- $changefreq = "daily" -}}
+
+  {{/* Listicles, compare, case studies, tools — important BOFU content */}}
+  {{- else if in (slice "list" "compare" "vs" "alternative" "case-study" "tools") .Section -}}
+    {{- $priority = "0.8" -}}
+    {{- $changefreq = "weekly" -}}
+
+  {{/* Blog posts — solid content */}}
+  {{- else if eq .Section "blogs" -}}
+    {{- $priority = "0.7" -}}
+    {{- $changefreq = "weekly" -}}
+
+  {{/* Glossary terms — reference content, lower priority */}}
+  {{- else if eq .Section "glossary" -}}
+    {{- $priority = "0.6" -}}
+    {{- $changefreq = "monthly" -}}
+
+  {{/* Author pages */}}
+  {{- else if eq .Section "authors" -}}
+    {{- $priority = "0.5" -}}
+    {{- $changefreq = "monthly" -}}
+  {{- end -}}
+
   <url>
     <loc>{{ .Permalink }}</loc>
-    {{/* Lastmod priority: frontmatter Lastmod → frontmatter Date → build time fallback */}}
     {{- $lastmod := .Lastmod -}}
     {{- if $lastmod.IsZero }}{{ $lastmod = .Date }}{{ end -}}
     {{- if $lastmod.IsZero }}{{ $lastmod = $buildTime }}{{ end }}
     <lastmod>{{ $lastmod.Format "2006-01-02" }}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <changefreq>{{ $changefreq }}</changefreq>
+    <priority>{{ $priority }}</priority>
   </url>
   {{- end }}
 {{ end }}
