@@ -5944,7 +5944,7 @@ main table a,
 .pr-alt__body,
 .pr-vs__body {
   max-width: 720px;
-  margin: var(--pr-s-9) auto 0;
+  margin: var(--pr-s-6) auto 0;   /* was --pr-s-9 (96px) — too much gap after header */
 }
 
 /* Inline article CTA — used by listicle + alternative + vs */
