@@ -75,20 +75,62 @@
 {{/* ============== AI / search bot directives ============== */}}
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 
-{{/* ============== JSON-LD: Organization (publisher, site-wide) ============== */}}
-{{ if $isHome }}
+{{/* ============== JSON-LD: Organization (site-wide on every page) ==============
+     Renders the brand entity on every page so Knowledge Graph + AI engines
+     (ChatGPT/Perplexity/Claude/Gemini) consistently attribute content to
+     PipeRocket Digital. The home page adds an extra WebSite + SearchAction
+     block underneath. */}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "{{ .Site.BaseURL }}#organization",
   "name": "PipeRocket Digital",
+  "alternateName": "PipeRocket",
   "url": "{{ .Site.BaseURL }}",
-  "logo": "{{ absURL "/images/piperocket-logo.svg" }}",
-  "description": {{ .Site.Params.description | jsonify }},
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ absURL "/images/piperocket-logo.svg" }}",
+    "width": 512,
+    "height": 512
+  },
+  "description": "{{ .Site.Params.description }}",
+  "foundingDate": "2020",
+  "founders": [
+    { "@type": "Person", "name": "Praveen Ravi", "jobTitle": "Founder" },
+    { "@type": "Person", "name": "Kim Mathiarasan", "jobTitle": "Co-Founder" }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Chennai",
+    "addressCountry": "IN"
+  },
+  "areaServed": ["US", "Global"],
   "sameAs": [
     "https://www.linkedin.com/company/piperocket-digital/",
     "https://clutch.co/profile/piperocket-digital"
-  ]
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Sales",
+    "url": "{{ absURL "/contact-us/" }}",
+    "availableLanguage": ["English"]
+  }
+}
+</script>
+
+{{/* ============== JSON-LD: WebSite + SearchAction (home page only) ==============
+     Enables the Google Sitelinks Search Box rich result on SERPs. */}}
+{{ if $isHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ .Site.BaseURL }}#website",
+  "name": "PipeRocket Digital",
+  "url": "{{ .Site.BaseURL }}",
+  "publisher": { "@id": "{{ .Site.BaseURL }}#organization" },
+  "inLanguage": "en-US"
 }
 </script>
 {{ end }}
