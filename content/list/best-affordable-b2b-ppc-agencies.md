@@ -84,6 +84,7 @@ We pulled verified ratings from Clutch and G2, checked each agency's pricing pag
 - Creative services could be more robust according to some client feedback
 
 **Who it's for:** Growth-stage B2B SaaS companies with $5K+ monthly ad budgets that need agile optimization.
+
 **Who it's NOT for:** Early-stage startups with limited budgets or teams that can't commit to intensive onboarding.
 
 #### Pricing Breakdown
@@ -144,6 +145,7 @@ We built [PipeRocket PPC services](https://piperocket.digital/saas-ppc/) because
 - We require CRM integration and sales team collaboration, which some early-stage teams can't commit to
 
 **Who it's for:** B2B SaaS companies from $1M to $50M ARR that need to prove pipeline contribution to a board.
+
 **Who it's NOT for:** E-commerce, local services, or companies that want CPL-only reporting.
 
 #### Pricing Breakdown
@@ -204,6 +206,7 @@ We're honest about our lane: if you're not B2B SaaS, we'll refer you to a better
 - Some clients report account manager turnover affecting continuity
 
 **Who it's for:** E-commerce brands and lead-gen companies with $5K+ monthly ad budgets.
+
 **Who it's NOT for:** B2B SaaS companies needing pipeline attribution or very small budgets under $5K/mo.
 
 #### Pricing Breakdown
@@ -264,6 +267,7 @@ A Clutch reviewer noted "they brought traffic to the site, Disruptive Advertisin
 - Better suited for established mid-market companies than scrappy startups
 
 **Who it's for:** Mid-market B2B companies with $5K+ monthly budgets wanting transparent pricing and proprietary tech.
+
 **Who it's NOT for:** Early-stage startups or companies needing hyper-specialized SaaS expertise.
 
 #### Pricing Breakdown
@@ -324,6 +328,7 @@ Some prospects wish pricing were more publicly available, though most clients re
 - Not as specialized in B2B SaaS as other agencies on this list
 
 **Who it's for:** Hyper-local B2B service companies (HVAC, manufacturing, professional services) with $1K, $5K monthly budgets.
+
 **Who it's NOT for:** National B2B SaaS companies or teams needing advanced pipeline attribution.
 
 #### Pricing Breakdown
@@ -384,6 +389,7 @@ GrowthSpree's main differentiator is operational: they run daily demand generati
 - Less deep PPC-only specialization compared to agencies like KlientBoost
 
 **Who it's for:** Early-to-mid stage B2B SaaS companies with $1K, $500K/mo ad budgets.
+
 **Who it's NOT for:** Enterprise B2B or companies wanting traditional quarterly planning cycles.
 
 #### Pricing Breakdown
@@ -443,6 +449,7 @@ Hey Digital is a useful agency because they've made a constraint into a competit
 - Better suited for post-PMF SaaS with meaningful paid spend
 
 **Who it's for:** B2B SaaS companies at Series A, C stage that want a paid acquisition partner working exclusively in their sector.
+
 **Who it's NOT for:** B2B companies outside SaaS, or teams with very small initial ad budgets.
 
 #### Pricing Breakdown

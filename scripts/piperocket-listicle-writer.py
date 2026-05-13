@@ -527,7 +527,10 @@ Example opening sentence:
 - [Bullet, max 18 words]
 
 **Who it's for:** [One sentence, max 25 words. Specific buyer profile by ARR / stage / motion.]
+
 **Who it's NOT for:** [One sentence, max 25 words.]
+
+[CRITICAL: keep these two as SEPARATE paragraphs with a blank line between them. Do not combine into one line — Hugo will render them as one paragraph if no blank line separates them.]
 
 #### Pricing Breakdown
 
