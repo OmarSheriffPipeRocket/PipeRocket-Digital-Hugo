@@ -448,8 +448,9 @@ The body must be plain Hugo markdown. Hugo renders the page title from frontmatt
 
 Output this EXACT structure, in this exact order:
 
-[BYLINE — first line of body, italicized if Hugo supports it, plain otherwise:]
-By [Author Name], [Role] at PipeRocket Digital. Last updated [Month Year]. [One-sentence methodology summary, e.g. "We compared Clutch profiles, G2 reviews, agency case studies, and Reddit threads across all 7 agencies."]
+[NO BYLINE in the body — the author info is already shown in the sidebar
+ author-card from frontmatter. Start the body DIRECTLY with the 3-paragraph
+ intro below. Do NOT include "By [Name], ..." as the first line.]
 
 [INTRO — exactly 3 separate short paragraphs, each on its own line, blank line between. Do NOT merge them.]
 
@@ -509,7 +510,7 @@ Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2.
 Example opening sentence:
 [KlientBoost](https://klientboost.com) stands out for B2B teams that want ...]
 
-#### At a Glance
+**At a Glance**
 
 | | |
 | --- | --- |
@@ -539,21 +540,17 @@ Example opening sentence:
 
 [CRITICAL: keep these two as SEPARATE paragraphs with a blank line between them. Do not combine into one line — Hugo will render them as one paragraph if no blank line separates them.]
 
-#### Pricing Breakdown
+**Pricing Breakdown**
 
-[Pricing verified from the agency's pricing page or third-party source, as of {month} {year}. Use "Custom" if not public.]
-
-[Pricing page link: include a markdown link to the agency's REAL pricing page URL (e.g. https://klientboost.com/pricing). If the agency has no dedicated pricing page, link to their "Contact" or "Get a quote" page. Search for "[Agency name] pricing site:<agencydomain>" if needed.]
-
-📍 [View [Agency Name] pricing →](https://<agency-pricing-page-url>)
+[Pricing verified from the agency's pricing page or third-party source, as of {month} {year}. If pricing is not publicly available, use "Custom pricing" in the Price cell — never invent a number. The pricing-page URL is already linked in the Side-by-Side table's Starting Price cell, so do NOT duplicate it here.]
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| [Tier 1 name] | [$X/mo or Custom] | [1-line summary] |
-| [Tier 2 name] | [$X/mo or Custom] | [1-line summary] |
-| [Tier 3 name] | [$X/mo or Custom] | [1-line summary] |
+| [Tier 1 name] | [$X/mo or "Custom pricing"] | [1-line summary] |
+| [Tier 2 name] | [$X/mo or "Custom pricing"] | [1-line summary] |
+| [Tier 3 name] | [$X/mo or "Custom pricing"] | [1-line summary] |
 
-#### What Users Say
+**What Users Say**
 
 [Both Love and Complain MUST include a linked source. If you cannot find a real source via web search, drop the section rather than fabricating.]
 
@@ -640,15 +637,18 @@ If you exceed any cap, cut. Do not pad.
 ====================================================
 FINAL CHECK BEFORE OUTPUTTING
 ====================================================
-[ ] Body starts with the author byline ("By [Author], [Role] at PipeRocket Digital..."), THEN 3 intro paragraphs, THEN `## TL;DR`
+[ ] Body starts with the 3-paragraph intro (NO byline line). Author info already shows in the sidebar.
 [ ] No `#` H1 in the body (Hugo renders title from frontmatter)
-[ ] No `[[H1]]` / `[[H2]]` markers — only markdown `##` / `###`
+[ ] No `[[H1]]` / `[[H2]]` markers — only markdown `##` and `###`. MAX heading level is `###` — never use `####` (H4). Sub-sections inside agency blocks (At a Glance, Pricing Breakdown, What Users Say) use bold paragraph labels (`**At a Glance**`), not headings.
 [ ] Intro is exactly 3 separate paragraphs (brand list / who each is for / cost of choosing wrong)
 [ ] TL;DR has EXACTLY 7 numbered items, NO bullet markers, **bold agency** + colon + "Best for" tagline
 [ ] Side-by-Side Comparison table has exactly 5 columns: Agency, Best For, Starting Price, Free Consultation, Clutch Rating (NO Score column, NO HQ column)
 [ ] How We Chose section has 5 criteria as bold paragraph labels (NO weights, NO 30%/25%/etc.)
 [ ] Each agency block uses `### N. Agency: Best for X` as H3 (NOT H2) so it matches the existing 35 listicles' heading rhythm
-[ ] Each agency block has all sections in exact order: front-loaded 2-sentence answer → #### At a Glance table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → #### Pricing Breakdown table → #### What Users Say (Love ✅ / Complain ⚠️) → evaluation summary table
+[ ] Each agency block has all sections in exact order: front-loaded 2-sentence answer → **At a Glance** + table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → **Pricing Breakdown** + table → **What Users Say** (Love ✅ / Complain ⚠️) → evaluation summary table
+[ ] Sub-section labels are bold paragraphs, NOT headings (no `####`)
+[ ] Pricing-page URL appears ONLY in the Side-by-Side table's Starting Price cell — NOT also above the Pricing Breakdown table inside agency blocks
+[ ] If pricing is not publicly available for an agency, the Pricing Breakdown rows say "Custom pricing" — never an invented number
 [ ] PipeRocket Digital at position 2 or 3, written in first-person ("we", "our team")
 [ ] All other agencies in third-person
 [ ] No scoring numbers, no sub-scores, no weighted totals anywhere — this is qualitative v3 format
