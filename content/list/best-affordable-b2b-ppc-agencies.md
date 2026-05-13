@@ -39,7 +39,7 @@ Picking the wrong agency costs more than retainer fees: it costs you a wasted qu
 
 ## How We Chose These Best Affordable B2B PPC Agencies
 
-We pulled verified ratings from Clutch and G2, checked each agency's pricing page or sales call, and read Reddit threads in r/SaaS, r/marketing, and r/PPC to catch complaints that don't show up in curated review sites. Agencies with fewer than 10 verifiable B2B SaaS clients or no active case studies in the past 12 months were excluded.
+We pulled verified ratings from Clutch and G2, checked each agency's pricing page directly, and reviewed published case studies and third-party mentions to catch positioning that doesn't show up in curated review sites. Agencies with fewer than 10 verifiable B2B SaaS clients or no active case studies in the past 12 months were excluded.
 
 **B2B PPC Expertise:** We prioritized agencies with demonstrated B2B experience, not just generic PPC management. The best B2B PPC agencies understand long sales cycles, multi-stakeholder buying committees, and how to optimize for pipeline rather than just lead volume. We looked for case studies showing cost per SQL, pipeline contribution, and closed-won revenue attribution.
 
@@ -124,9 +124,7 @@ We're obsessed with one thing: your revenue. We work with a small number of B2B 
 | | |
 | --- | --- |
 | Location | Chennai, India with US delivery |
-| Founded | 2020 |
-| Team Size | 15+ people |
-| Notable Clients | Storylane, DevRev, Spendflo |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
 | Specialization | SaaS PPC, pipeline attribution, full-funnel |
 
 **Differentiator:** We're practitioners, not account managers. Our [SaaS PPC agency](https://piperocket.digital/saas-ppc/) model is built around senior operators who've spent a decade inside SaaS companies like Spendflo, Storylane, and DevRev. We know how buyers buy, how sales teams think, and what pipeline looks like when marketing is actually working.
@@ -135,7 +133,7 @@ We're obsessed with one thing: your revenue. We work with a small number of B2B 
 - Every campaign ties to pipeline and MRR through [B2B marketing operations](https://piperocket.digital/marketing-ops/) and RevOps alignment
 - BOFU-led: we optimize for the bottom-of-funnel terms that drive revenue, not top-of-funnel impressions
 
-**Proof point:** Our Spendflo case study shows how we embedded into their team, learned the procurement buyer from the inside, and connected every PPC dollar to qualified pipeline. We don't report on MQLs; we report on pipeline contribution and closed-won revenue ([case studies](https://piperocket.digital/case-study/)).
+**Proof point:** Specific PPC outcomes from our case studies: [HyperStart](https://piperocket.digital/case-study-hyperstart/) doubled SQO volume (4 → 11) while cutting cost per lead by 73% across 10+ experiments. [HyperVerge](https://piperocket.digital/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in 3 months. [Storylane](https://piperocket.digital/case-study-storylane/) saw 2.5x business growth in a single quarter, +25% SQLs, and +62% meetings booked.
 
 **Limitation:** We're not for everyone. We work with a small number of B2B SaaS companies at a time, and we don't take on clients outside SaaS or clients who want CPL-only reporting without caring about pipeline.
 
@@ -222,13 +220,13 @@ Startup package available at $5,000/month; standard engagements start at $8,000/
 
 Clutch reviewers note that Directive quickly became an extension of the product marketing team rather than just external consultants, and they were responsive, professional, and prompt, genuinely caring about the project's success ([source](https://clutch.co/profile/directive)).
 
-- "Directive rebuilt our entire paid acquisition strategy around LTV targets. For the first time, the CFO and the marketing team were looking at the same number and agreeing on what success meant.", VP Marketing, Enterprise SaaS ([source](https://clutch.co/profile/directive))
+- Clutch reviews consistently cite Directive's LTV-focused reporting and tight CFO-marketing alignment as standout strengths ([source](https://clutch.co/profile/directive))
 
 **Complain:** Premium pricing and account team turnover
 
 Some clients have experienced change with regard to their account team in the past six months due to internal mobility on Directive's side ([source](https://clutch.co/profile/directive)).
 
-- Glassdoor reviews from employees describe concerns about hiring practices and service consistency as the company has scaled, with some reviews noting that the company "ditched the copyeditors" and pushed increased AI usage
+- A few clients note that account-team continuity has occasionally been affected by internal team rotation as Directive has scaled
 
 | Criteria | Detail |
 | --- | --- |
@@ -509,3 +507,7 @@ At minimum: cost per lead, cost per SQL, pipeline contribution, and ROAS. The be
 ### Can I run B2B PPC in-house instead of hiring an agency?
 
 You can, but most B2B SaaS teams find that hiring a $3,000-$5,000/mo agency is more cost-effective than hiring a full-time PPC specialist ($80,000-$120,000/year salary). Agencies bring multi-client experience, creative resources, and testing infrastructure that's hard to replicate in-house until you're spending $100,000+/month on ads.
+
+### How long does it take to see results from a B2B PPC agency?
+
+Expect 30-60 days for the first measurable signal (clicks, CPL trending in the right direction) and 90-120 days for pipeline impact (SQLs, opportunities). Agencies that promise pipeline results in week one are either overselling or running aggressive remarketing on warm audiences. HyperStart, for example, saw 73% lower cost per lead after roughly 10 experiments — that's a quarter of work, not a week.
