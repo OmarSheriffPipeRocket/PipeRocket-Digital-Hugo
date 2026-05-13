@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Block low-value crawl paths
+Disallow: /search?
+Disallow: /tags/
+Disallow: /*?
+
+# Honor the AI bots that respect robots.txt — explicit allow signal
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://piperocket.digital/sitemap.xml

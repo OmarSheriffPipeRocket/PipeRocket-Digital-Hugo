@@ -77,33 +77,169 @@
 {{ if $author.linkedin }}{{ $authorJson = merge $authorJson (dict "sameAs" (slice $author.linkedin)) }}{{ end }}
 {{ if $author.expertise }}{{ $authorJson = merge $authorJson (dict "knowsAbout" $author.expertise) }}{{ end }}
 
+{{/* Build enriched Article schema with wordCount, keywords, articleSection, inLanguage */}}
+{{ $wordCount := .WordCount }}
+{{ $readingTime := .ReadingTime }}
+{{ $keywords := slice }}
+{{ with .Params.category }}{{ $keywords = $keywords | append . }}{{ end }}
+{{ with .Params.tags }}{{ $keywords = $keywords | append . }}{{ end }}
+{{ if not $keywords }}{{ $keywords = slice .Title }}{{ end }}
+
+{{/* Helper: escape any double-quote in a string for safe JSON embedding */}}
+{{ $esc := "\"" }}
+{{ $descJ := replaceRE "\"" "\\\"" (printf "%s" $desc) }}
+{{ $keywordsJ := replaceRE "\"" "\\\"" (delimit $keywords ", ") }}
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": {{ .Title | jsonify }},
-  "description": {{ $desc | jsonify }},
-  "image": {{ $img | jsonify }},
-  "url": {{ .Permalink | jsonify }},
+  "headline": "{{ .Title }}",
+  "description": "{{ $descJ }}",
+  "image": "{{ $img }}",
+  "url": "{{ .Permalink }}",
+  "inLanguage": "en-US",
+  "wordCount": {{ $wordCount }},
+  "timeRequired": "PT{{ $readingTime }}M",
+  "keywords": "{{ $keywordsJ }}",
+  {{ with .Params.category }}"articleSection": "{{ . }}",{{ end }}
   {{ if not .Date.IsZero -}}
   "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
   "dateModified": "{{ (default .Date .Lastmod).Format "2006-01-02T15:04:05Z07:00" }}",
   {{- end }}
-  "author": {{ $authorJson | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": "{{ default .Params.writtenBy $author.name }}"
+    {{- with $author.bio }},"description": "{{ . | replaceRE "\"" "\\\"" }}"{{ end -}}
+    {{- with $author.role }},"jobTitle": "{{ . }}"{{ end -}}
+    {{- with .Params.writtenBy }},"url": "{{ printf "%s/authors/%s/" (trim $.Site.BaseURL "/") . }}"{{ end -}}
+    {{- with $author.linkedin }},"sameAs": ["{{ . }}"]{{ end -}}
+    {{- with $author.expertise }},"knowsAbout": [{{ range $idx, $exp := . }}{{ if $idx }},{{ end }}"{{ $exp }}"{{ end }}]{{ end }}
+  },
   "publisher": {
     "@type": "Organization",
     "name": "PipeRocket Digital",
+    "url": "{{ .Site.BaseURL }}",
     "logo": {
       "@type": "ImageObject",
       "url": "{{ absURL "/images/piperocket-logo.svg" }}"
-    }
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/piperocket-digital/",
+      "https://clutch.co/profile/piperocket-digital"
+    ]
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": {{ .Permalink | jsonify }}
+    "@id": "{{ .Permalink }}"
   }
 }
 </script>
+
+{{/* ============== JSON-LD: FAQPage (auto-detected from markdown) ==============
+     Parses ## FAQs or ## Frequently Asked Questions section,
+     extracts each ### Question + the following paragraph as the answer.
+     Unlocks Google's FAQ rich-result eligibility in SERPs. */}}
+{{ $raw := .RawContent }}
+{{ $faqAfter := "" }}
+{{/* Find the FAQ section heading and slice everything after the line break that follows it.
+     Heading may be "## FAQs", "## Frequently Asked Questions", or any variant like
+     "## Frequently Asked Questions About SaaS Marketing Agencies" (suffix tolerated). */}}
+{{ $faqMatch := findRE "(?im)^##[ \\t]+(?:FAQs?|Frequently Asked Questions)[^\\n]*\\n" $raw 1 }}
+{{ if $faqMatch }}
+  {{ $afterHeading := index (split $raw (index $faqMatch 0)) 1 }}
+  {{ $faqAfter = $afterHeading }}
+{{ end }}
+{{ if $faqAfter }}
+  {{/* Trim everything from the next H2 onward (FAQ section ends at next top-level heading) */}}
+  {{ $h2Parts := split $faqAfter "\n## " }}
+  {{ $faqAfter = index $h2Parts 0 }}
+  {{/* Split on "\n### " — each chunk after [0] starts with a question on the first line
+       followed by blank line + answer paragraph. */}}
+  {{ $chunks := split $faqAfter "\n### " }}
+  {{ $qaPairs := slice }}
+  {{ range $i, $c := $chunks }}
+    {{ if gt $i 0 }}
+      {{ $lines := split $c "\n" }}
+      {{ $q := trim (index $lines 0) " #" }}
+      {{ $aLines := slice }}
+      {{ range after 1 $lines }}
+        {{ $t := trim . " " }}
+        {{ if $t }}{{ $aLines = $aLines | append $t }}{{ end }}
+      {{ end }}
+      {{ $a := delimit $aLines " " }}
+      {{ if and $q $a }}
+        {{ $qaPairs = $qaPairs | append (dict "q" $q "a" $a) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if $qaPairs }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $qa := $qaPairs }}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ $qa.q | replaceRE "\"" "\\\"" }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $qa.a | replaceRE "\"" "\\\"" }}"
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+  {{ end }}
+{{ end }}
+
+{{/* ============== JSON-LD: ItemList for ranked listicles ==============
+     Auto-detected when the URL is under /list/ AND the body has a
+     TL;DR or Quick Picks numbered ranking. Each entry becomes a
+     position in the ranked ItemList. Unlocks Google's "best X" SERP
+     features and AI Overview citation. */}}
+{{ if or (eq .Section "list") (in .RelPermalink "/list/") }}
+  {{ $tldrAfter := "" }}
+  {{ if findRE "(?im)^##\\s+TL;DR\\s*$" $raw }}
+    {{ $tldrAfter = index (split $raw "## TL;DR") 1 }}
+  {{ else if findRE "(?im)^##\\s+Quick Picks" $raw }}
+    {{ $tldrAfter = index (split $raw "## Quick Picks") 1 }}
+  {{ end }}
+  {{ if $tldrAfter }}
+    {{/* Trim at next H2 */}}
+    {{ $afterNextH2 := findRE "\\n##\\s+" $tldrAfter 1 }}
+    {{ if $afterNextH2 }}
+      {{ $tldrAfter = index (split $tldrAfter (index $afterNextH2 0)) 0 }}
+    {{ end }}
+    {{/* Match numbered items: "1. **Name:** ..." or "- 1. Name · ..." */}}
+    {{ $itemPattern := "(?m)^(?:-\\s*)?(\\d+)\\.\\s+\\*?\\*?([^:·*\\n]+)" }}
+    {{ $items := findRESubmatch $itemPattern $tldrAfter }}
+    {{ if $items }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "{{ .Title }}",
+  "itemListOrder": "https://schema.org/ItemListOrderDescending",
+  "numberOfItems": {{ len $items }},
+  "itemListElement": [
+    {{- range $i, $item := $items }}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "ListItem",
+      "position": {{ index $item 1 }},
+      "name": "{{ trim (index $item 2) " *" }}"
+    }
+    {{- end }}
+  ]
+}
+</script>
+    {{ end }}
+  {{ end }}
+{{ end }}
 
 {{/* ============== JSON-LD: BreadcrumbList ============== */}}
 <script type="application/ld+json">
@@ -126,7 +262,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": {{ .Title | jsonify }},
+      "name": "{{ .Title }}",
       "item": {{ .Permalink | jsonify }}
     }
   ]
