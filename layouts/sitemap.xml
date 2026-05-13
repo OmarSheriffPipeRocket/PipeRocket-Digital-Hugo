@@ -10,13 +10,9 @@
     {{- $lastmod := .Lastmod -}}
     {{- if $lastmod.IsZero }}{{ $lastmod = .Date }}{{ end -}}
     {{- if $lastmod.IsZero }}{{ $lastmod = $buildTime }}{{ end }}
-    <lastmod>{{ $lastmod.Format "2006-01-02T15:04:05-07:00" }}</lastmod>
-    {{- with .Sitemap.ChangeFreq }}
-    <changefreq>{{ . }}</changefreq>
-    {{- end }}
-    {{- if ge .Sitemap.Priority 0.0 }}
-    <priority>{{ .Sitemap.Priority }}</priority>
-    {{- end }}
+    <lastmod>{{ $lastmod.Format "2006-01-02" }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   {{- end }}
 {{ end }}
