@@ -8,11 +8,11 @@
 
     {{ partial "section-search.html" (dict "section" "glossary" "placeholder" "Search the glossary…") }}
 
-    <div class="pr-glossary-index__grid">
+    <div class="pr-bloglist__grid">
       {{ range .Pages.ByTitle }}
-        <a class="pr-glossary-index__card" href="{{ .RelPermalink }}">
-          <h3>{{ .Title }}</h3>
-          {{ with .Params.shortDefinition }}<p>{{ . }}</p>{{ end }}
+        <a class="pr-bloglist__card" href="{{ .RelPermalink }}">
+          <h3 class="pr-bloglist__title">{{ .Title }}</h3>
+          {{ with .Params.shortDefinition }}<p class="pr-bloglist__excerpt">{{ . }}</p>{{ end }}
         </a>
       {{ end }}
     </div>
