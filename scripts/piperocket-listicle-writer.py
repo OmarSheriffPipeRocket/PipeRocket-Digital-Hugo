@@ -577,10 +577,10 @@ Example opening sentence:
 
 | Criteria | Detail |
 | --- | --- |
-| Best For | [Sharp 1-line summary] |
-| Not For | [Sharp 1-line disqualifier] |
 | Free Consultation | [Yes / No + brief detail] |
 | Clutch Rating | [X.X/5 (XX+ reviews) or "Verified on Clutch"] |
+
+[CRITICAL: do NOT add "Best For" or "Not For" rows to this evaluation summary table — those points are already covered by the highlighted "Best for:" callout under the H3 and by the "Who it's for:" / "Who it's NOT for:" lines earlier in the block. Repeating them here is redundant.]
 
 ==================== END OF LOCKED AGENCY BLOCK ====================
 
