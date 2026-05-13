@@ -55,11 +55,11 @@ We pulled verified ratings from Clutch and G2, checked each agency's pricing pag
 
 ## Detailed Comparison
 
-## 1. KlientBoost: Best for B2B Companies That Want Performance-Focused PPC with Flexible Pricing
+### 1. KlientBoost: Best for B2B Companies That Want Performance-Focused PPC with Flexible Pricing
 
 KlientBoost stands out because they track goal pace continuously and reallocate budget toward what's working, removing underperforming campaigns without waiting for a quarterly review. Their Growth Grid methodology treats every dollar as accountable to pipeline goals, not platform vanity metrics.
 
-### At a Glance
+#### At a Glance
 
 | | |
 | --- | --- |
@@ -87,7 +87,7 @@ KlientBoost stands out because they track goal pace continuously and reallocate 
 
 **Who it's NOT for:** Companies wanting a single-channel Google Ads focus without CRO, or enterprise SaaS teams with $50K+ monthly ad budgets that need deeper account architecture than KlientBoost's model provides.
 
-### Pricing Breakdown
+#### Pricing Breakdown
 
 Third-party directories and reviews indicate that projects typically start around $1,000-$1,500 and that monthly retainers often start near $1,000 per month and scale significantly with ad spend and channel mix.
 
@@ -97,7 +97,7 @@ Third-party directories and reviews indicate that projects typically start aroun
 | Multi-Channel | $5,000-$10,000/mo | Google, LinkedIn, Meta, CRO, creative testing |
 | Enterprise | Custom | Full-funnel paid media, dedicated strategist, real-time dashboards |
 
-### What Users Say
+#### What Users Say
 
 ✅ **Love:** Real-time budget reallocation and data-driven optimization
 The team's data-driven approach has been outstanding. Clutch reviewers consistently praise KlientBoost's ability to pivot quickly based on performance data rather than waiting for scheduled reviews.
@@ -116,11 +116,11 @@ A consistent thread in G2 and Clutch reviews notes that KlientBoost can feel exp
 | Free Consultation | Yes, with Growth Grid assessment |
 | Clutch Rating | 4.9/5 (400+ reviews) |
 
-## 2. PipeRocket Digital: Best for B2B SaaS Companies That Need PPC Tied to Pipeline and Revenue
+### 2. PipeRocket Digital: Best for B2B SaaS Companies That Need PPC Tied to Pipeline and Revenue
 
 What we keep seeing is that B2B PPC fails not because of bad targeting or poor ad copy. It fails because the agency running paid has no visibility into what happens after the click. They optimize for cost per lead. Sales calls them junk leads. The agency points at the conversion numbers and says the campaign is working.
 
-### At a Glance
+#### At a Glance
 
 | | |
 | --- | --- |
@@ -148,7 +148,7 @@ What we keep seeing is that B2B PPC fails not because of bad targeting or poor a
 
 **Who it's NOT for:** B2C brands, e-commerce companies, or teams that measure PPC success by lead volume rather than pipeline quality and revenue contribution.
 
-### Pricing Breakdown
+#### Pricing Breakdown
 
 Pricing verified from PipeRocket website as of May 2026. Transparent rates with no markup on ad spend.
 
@@ -158,7 +158,7 @@ Pricing verified from PipeRocket website as of May 2026. Transparent rates with 
 | Multi-Channel PPC | $5,000-$8,000/mo | Google, LinkedIn, Meta, MarOps integration, CRM attribution |
 | Full-Funnel Growth | $10,000+/mo | PPC, SEO, content, ABM, full revenue attribution |
 
-### What Users Say
+#### What Users Say
 
 ✅ **Love:** Pipeline attribution and ICP-first targeting
 "PipeRocket was the first paid media agency that sat in our sales pipeline reviews. Within 60 days they'd rebuilt our targeting around actual ICP language from sales calls, and our MQL-to-SQL rate improved by 40%." Verified Clutch review from a Head of Growth at a B2B SaaS FinTech company.
@@ -177,11 +177,11 @@ We only work with B2B SaaS companies, so if your business model doesn't fit that
 | Free Consultation | Yes, with pipeline audit |
 | Clutch Rating | 4.8/5 (verified) |
 
-## 3. Directive: Best for Mid-Market and Enterprise B2B SaaS That Need PPC Treated as a Customer Acquisition Financial Model
+### 3. Directive: Best for Mid-Market and Enterprise B2B SaaS That Need PPC Treated as a Customer Acquisition Financial Model
 
 Directive Consulting specializes in helping SaaS, technology and other B2B companies drive measurable pipeline and revenue through services spanning paid media, content marketing and SEO, CRO and performance design, revenue operations, ABM and go-to-market strategy, all under its Customer Generation methodology. Every campaign decision flows from LTV, CAC targets, and pipeline contribution, not click-through rates and quality scores.
 
-### At a Glance
+#### At a Glance
 
 | | |
 | --- | --- |
@@ -209,7 +209,7 @@ Directive Consulting specializes in helping SaaS, technology and other B2B compa
 
 **Who it's NOT for:** Early-stage teams with limited budgets or companies looking for affordable entry points. Directive's model and pricing are built for companies with scale-stage marketing budgets.
 
-### Pricing Breakdown
+#### Pricing Breakdown
 
 Directive's pricing is generally positioned in the mid-to-high retainer range and is customized by scope. Public benchmarks indicate a minimum project size of around $5,000 with average hourly rates commonly in the $100-$149+ range on Clutch and up to $250/hr on some directories. For early-stage startups, Directive publishes a Startup Package at $6,500 per month with no annual contract.
 
@@ -219,7 +219,7 @@ Directive's pricing is generally positioned in the mid-to-high retainer range an
 | Mid-Market | $8,000-$15,000/mo | Full Customer Generation methodology, RevOps, ABM |
 | Enterprise | $20,000+/mo | Custom GTM strategy, dedicated team, LTV/CAC modeling |
 
-### What Users Say
+#### What Users Say
 
 ✅ **Love:** Customer Generation methodology and LTV-driven approach
 For an affordable price, they offer valuable recommendations and insights. Clutch reviewers consistently note Directive's ability to frame paid acquisition as a financial model rather than a traffic model.
@@ -238,11 +238,11 @@ The engagement started well, but declining search results and unsatisfactory ser
 | Free Consultation | Yes, with Customer Generation assessment |
 | Clutch Rating | 4.9/5 (56+ reviews) |
 
-## 4. WebFX: Best for B2B Companies That Want Transparent, Technology-Driven PPC Management
+### 4. WebFX: Best for B2B Companies That Want Transparent, Technology-Driven PPC Management
 
 WebFX is one of the largest performance marketing agencies in the US, and what makes them stand out for budget-conscious B2B teams is a combination that's rarer than it should be: transparent pricing paired with their proprietary MarketingCloudFX technology stack.
 
-### At a Glance
+#### At a Glance
 
 | | |
 | --- | --- |
@@ -270,7 +270,7 @@ WebFX is one of the largest performance marketing agencies in the US, and what m
 
 **Who it's NOT for:** Companies that need deep SaaS-specific ICP work and pipeline attribution at the sales call level. WebFX's strength is breadth and technology, not SaaS-specific strategic depth.
 
-### Pricing Breakdown
+#### Pricing Breakdown
 
 As of 2025, comprehensive digital marketing engagements typically start around $3,000 per month, while certain specialized services like PPC management can start closer to $650 per month and social media or CRO packages often begin in the low thousands.
 
@@ -280,7 +280,7 @@ As of 2025, comprehensive digital marketing engagements typically start around $
 | Pro PPC | $1,500-$3,000/mo | Multi-platform, advanced targeting, MarketingCloudFX access |
 | Enterprise PPC | $5,000+/mo | Full-funnel strategy, dedicated team, real-time dashboards |
 
-### What Users Say
+#### What Users Say
 
 ✅ **Love:** Transparent pricing and proprietary technology
 WebFX's transparency was the differentiator. I could see exactly where every dollar was going and what it was producing, no waiting for a monthly PDF to find out what happened to my budget.
@@ -299,11 +299,11 @@ Some clients have noted that WebFX's reporting could be improved, particularly i
 | Free Consultation | Yes, with free marketing audit |
 | Clutch Rating | 4.9/5 (448+ reviews) |
 
-## 5. Disruptive Advertising: Best for B2B Teams That Need Full-Funnel PPC with a 90-Day Performance Guarantee
+### 5. Disruptive Advertising: Best for B2B Teams That Need Full-Funnel PPC with a 90-Day Performance Guarantee
 
 Disruptive Advertising is a performance focused digital marketing agency that targets wasted ad spend and promises measurable improvement with a 90 day guarantee. They combine strategy and execution across search, social, SEO, Amazon, creative, and analytics to drive ROI.
 
-### At a Glance
+#### At a Glance
 
 | | |
 | --- | --- |
@@ -331,7 +331,7 @@ Disruptive Advertising is a performance focused digital marketing agency that ta
 
 **Who it's NOT for:** Companies needing SaaS-specific playbooks or teams that prefer long-term contracts over performance-based arrangements.
 
-### Pricing Breakdown
+#### Pricing Breakdown
 
 Pricing is not publicly disclosed on the Disruptive Advertising website. Custom retainers are quoted based on scope, channels, and ad spend.
 
@@ -341,7 +341,7 @@ Pricing is not publicly disclosed on the Disruptive Advertising website. Custom 
 | Full-Funnel | Custom | PPC, SEO, social, creative, analytics |
 | Enterprise | Custom | Dedicated team, 90-day guarantee, RevOps integration |
 
-### What Users Say
+#### What Users Say
 
 ✅ **Love:** 90-day performance guarantee and full-funnel approach
 Results oriented guarantee: The firm emphasizes measurable outcomes and a 90 day performance assurance, which aligns incentives with client ROI. Clutch reviewers consistently praise Disruptive's ability to deliver measurable improvements within the guaranteed timeframe.
@@ -360,11 +360,11 @@ Some clients have noted challenges related to staff turnover, which can impact c
 | Free Consultation | Yes, with free marketing audit |
 | Clutch Rating | 4.8/5 (365+ reviews) |
 
-## 6. LYFE Marketing: Best for Small B2B Companies with Limited Budgets
+### 6. LYFE Marketing: Best for Small B2B Companies with Limited Budgets
 
 Their entry-level pricing starting around $650/month has made them one of the most accessible reputable agencies in the country. LYFE Marketing focuses on local search campaigns, call-driven ad formats, and geo-targeted strategies that generate cost-efficient leads for service-area businesses.
 
-### At a Glance
+#### At a Glance
 
 | | |
 | --- | --- |
@@ -392,7 +392,7 @@ Their entry-level pricing starting around $650/month has made them one of the mo
 
 **Who it's NOT for:** Mid-market or enterprise B2B teams that need deep pipeline attribution, multi-stakeholder buying committee targeting, or SaaS-specific playbooks.
 
-### Pricing Breakdown
+#### Pricing Breakdown
 
 The most accessible agency on this list. Retainers start around $650/month with hourly rates of $50, $99. Highly accessible for SMBs, local businesses, and early-stage companies with limited budgets.
 
@@ -402,7 +402,7 @@ The most accessible agency on this list. Retainers start around $650/month with 
 | Google Ads Management | $650-$1,000/mo | Google Search, Display, call tracking |
 | Multi-Channel | $1,500-$2,500/mo | Google, Facebook, Instagram, email marketing |
 
-### What Users Say
+#### What Users Say
 
 ✅ **Love:** Accessible pricing and Google Premier Partner status
 Clients praised LYFE Marketing for their clear and consistent communication, responsiveness to feedback, and ability to keep clients informed of project progress. The team was noted for being accessible and maintaining open lines of communication.
@@ -421,9 +421,9 @@ Some clients reported challenges with project management, including missed deadl
 | Free Consultation | Yes, with campaign assessment |
 | Clutch Rating | 4.8/5 (152+ reviews) |
 
-## 7. Ignite Visibility: Best for Multi-Location B2B Brands That Need Integrated PPC, SEO, and CRO
+### 7. Ignite Visibility: Best for Multi-Location B2B Brands That Need Integrated PPC, SEO, and CRO
 
-### At a Glance
+#### At a Glance
 
 | | |
 | --- | --- |
@@ -451,7 +451,7 @@ Some clients reported challenges with project management, including missed deadl
 
 **Who it's NOT for:** Early-stage startups with limited budgets or B2B SaaS companies that need deep pipeline attribution and SaaS-specific playbooks rather than generalist full-service marketing.
 
-### Pricing Breakdown
+#### Pricing Breakdown
 
 Pricing is not publicly disclosed on the Ignite Visibility website. Custom retainers are quoted based on scope and channels.
 
@@ -461,7 +461,7 @@ Pricing is not publicly disclosed on the Ignite Visibility website. Custom retai
 | Integrated Marketing | $5,000-$10,000/mo | PPC, SEO, social, email, CRO |
 | Enterprise | $15,000+/mo | Full-funnel strategy, dedicated team, custom reporting |
 
-### What Users Say
+#### What Users Say
 
 ✅ **Love:** Integrated approach and industry recognition
 I am writing to express our utmost appreciation and satisfaction with the exceptional services provided by Ignite over the past year. As a company operating in a very niche sector of the healthcare industry, we were initially concerned about finding a partner that could thoroughly understand our unique needs. However, Ignite has exceeded our expectations in every aspect. Their team has demonstrated expertise across various domains, including SEO, social media, both organic and paid, email campaigns, and PPC. Each team member is a specialist in their area, ensuring that we receive the best possible service tailored to our business requirements. One of the most commendable aspects of our partnership has been Ignite's dedication to understanding our business.

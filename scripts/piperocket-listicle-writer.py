@@ -445,11 +445,11 @@ Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2.
 
 ==================== LOCKED AGENCY BLOCK ====================
 
-## [N]. [Agency Name]: Best for [Specific Use Case]
+### [N]. [Agency Name]: Best for [Specific Use Case]
 
 [Front-loaded 2-sentence answer. MAX 40 words total. Sentence 1: what this agency is best for and what they do. Sentence 2: who they're built for and what friction they remove. Use contractions (it's, you're, don't). Sound like a real person talking, not a marketing brochure.]
 
-### At a Glance
+#### At a Glance
 
 | | |
 | --- | --- |
@@ -476,7 +476,7 @@ Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2.
 **Who it's for:** [One sentence, max 25 words. Specific buyer profile by ARR / stage / motion.]
 **Who it's NOT for:** [One sentence, max 25 words.]
 
-### Pricing Breakdown
+#### Pricing Breakdown
 
 [Pricing verified from agency website or third-party source, as of {month} {year}. Use "Custom" if not public.]
 
@@ -486,7 +486,7 @@ Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2.
 | [Tier 2 name] | [$X/mo or Custom] | [1-line summary] |
 | [Tier 3 name] | [$X/mo or Custom] | [1-line summary] |
 
-### What Users Say
+#### What Users Say
 
 ✅ **Love:** [Headline, max 8 words]
 [1 sentence summarizing praise from Clutch / G2 / Reddit / Trustpilot. Cite source inline: "Clutch reviewers consistently...". Max 30 words.]
@@ -578,8 +578,8 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] TL;DR has EXACTLY 7 numbered items, NO bullet markers, **bold agency** + colon + "Best for" tagline
 [ ] Side-by-Side Comparison table has exactly 5 columns: Agency, Best For, Starting Price, Free Consultation, Clutch Rating (NO Score column, NO HQ column)
 [ ] How We Chose section has 5 criteria as bold paragraph labels (NO weights, NO 30%/25%/etc.)
-[ ] Each agency block uses `## N. Agency: Best for X` as H2 (NOT H3)
-[ ] Each agency block has all sections in exact order: front-loaded 2-sentence answer → ### At a Glance table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → ### Pricing Breakdown table → ### What Users Say (Love ✅ / Complain ⚠️) → evaluation summary table
+[ ] Each agency block uses `### N. Agency: Best for X` as H3 (NOT H2) so it matches the existing 35 listicles' heading rhythm
+[ ] Each agency block has all sections in exact order: front-loaded 2-sentence answer → #### At a Glance table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → #### Pricing Breakdown table → #### What Users Say (Love ✅ / Complain ⚠️) → evaluation summary table
 [ ] PipeRocket Digital at position 2 or 3, written in first-person ("we", "our team")
 [ ] All other agencies in third-person
 [ ] No scoring numbers, no sub-scores, no weighted totals anywhere — this is qualitative v3 format
