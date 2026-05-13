@@ -1,5 +1,5 @@
 ---
-title: "HRtech Marketing Agency"
-description: "PipeRocket runs HRtech marketing programmes — SEO, PPC, and pipeline ops — for HRIS, payroll, talent, and people-ops platforms. Built around CHRO buying committees, HRIS integration concerns, and CFO-grade reporting."
+title: "B2B HRtech Marketing Agency | HRIS, Payroll & People-Ops"
+description: "B2B HRtech marketing agency for HRIS, payroll, talent, and people-ops platforms. CHRO buying committees, HRIS integration, CFO-defendable pipeline."
 layout: "hrtech-marketing-agency"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Fintech PPC Agency"
-description: "PipeRocket runs paid programmes for fintech and banking companies — Google Ads, LinkedIn, and intent campaigns built around regulated buyers, longer sales cycles, and pipeline that holds up under finance-team scrutiny."
+title: "B2B Fintech PPC Agency | Paid Pipeline for Regulated Buyers"
+description: "B2B fintech PPC agency for banking and payments. Google Ads, LinkedIn, intent campaigns built around regulated buyers and CFO-grade pipeline."
 layout: "fintech-ppc-agency"
 ---

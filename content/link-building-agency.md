@@ -1,5 +1,5 @@
 ---
-title: "Link Building Agency — Editorial Backlinks That Move Pipeline"
-description: "PipeRocket earns backlinks from publications your buyers read — editorial placements, podcast appearances, AI-corpus-grade sources — not high-DR farms that move nothing."
+title: "B2B SaaS Link Building Agency | Editorial Backlinks That Convert"
+description: "Link building agency for B2B SaaS. Editorial backlinks from publications your buyers read — podcasts, AI-corpus-grade sources. No high-DR farms or PBNs."
 layout: "link-building-agency"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Fintech Marketing Agency"
-description: "PipeRocket runs fintech marketing programmes — SEO, PPC, and pipeline ops — for banking, payments, embedded finance, and lending companies. Compliance-aware content, CFO-grade reporting, qualified pipeline."
+title: "B2B Fintech Marketing Agency | SaaS Pipeline for Finance"
+description: "B2B fintech marketing agency for banking, payments, embedded finance, and lending. Compliance-aware SEO, PPC, and pipeline ops. CFO-grade reporting."
 layout: "fintech-marketing-agency"
 ---

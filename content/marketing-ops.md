@@ -1,6 +1,6 @@
 ---
-title: "Marketing Operations Agency for B2B SaaS"
-description: "Attribution, lifecycle, and RevOps alignment built around your pipeline. We rebuild the data infrastructure underneath your marketing team so every dollar ties back to closed-won revenue."
+title: "B2B Marketing Operations Agency | RevOps & Attribution"
+description: "Marketing operations agency for B2B SaaS. Attribution, lifecycle, and RevOps alignment built around your pipeline. Every dollar tied to closed-won revenue."
 layout: "marketing-ops"
 url: "/marketing-ops/"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Proptech Marketing Agency"
-description: "PipeRocket runs proptech marketing programmes — SEO, PPC, and pipeline ops — for property management, brokerage, asset management, and real-estate fintech platforms. Outcome-led messaging across owners, brokers, and asset managers."
+title: "B2B Proptech Marketing Agency | Real-Estate SaaS Pipeline"
+description: "B2B proptech marketing agency for property management, brokerage, asset management, and real-estate fintech. Outcome-led messaging for owners, brokers, asset managers."
 layout: "proptech-marketing-agency"
 ---

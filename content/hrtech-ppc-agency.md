@@ -1,5 +1,5 @@
 ---
-title: "HRtech PPC Agency"
-description: "PipeRocket runs paid programmes for HRtech and people-ops platforms — Google Ads, LinkedIn, and intent campaigns built around CHRO buying committees, long procurement cycles, and CFO-defendable CACs."
+title: "B2B HRtech PPC Agency | Paid Pipeline for People-Ops Buyers"
+description: "B2B HRtech PPC agency. Google Ads, LinkedIn, and intent campaigns built around CHRO buying committees and long procurement cycles."
 layout: "hrtech-ppc-agency"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "SaaS SEO Agency"
-description: "PipeRocket runs SEO programmes that go after in-market searches from week one, and connect every page to one outcome: qualified pipeline, not a traffic report."
+title: "B2B SaaS SEO Agency | Pipeline-First Organic Growth"
+description: "B2B SaaS SEO agency that goes after in-market BOFU searches from week one. Every page tied to qualified pipeline and closed-won MRR, not traffic reports."
 layout: "saas-seo-agency"
 ---

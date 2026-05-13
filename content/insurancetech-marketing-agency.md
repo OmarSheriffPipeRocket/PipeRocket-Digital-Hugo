@@ -1,5 +1,5 @@
 ---
-title: "Insurancetech Marketing Agency"
-description: "PipeRocket runs insurtech marketing programmes — SEO, PPC, and pipeline ops — for carrier, broker, MGA, and claims-tech platforms. Regulation-aware content, actuarial-grade evidence, qualified pipeline across multi-line, multi-state pilots."
+title: "B2B Insurtech Marketing Agency | Carrier & Broker Pipeline"
+description: "B2B insurtech marketing agency for carriers, brokers, MGAs, and claims-tech platforms. Regulation-aware content, actuarial-grade evidence, multi-state pipeline."
 layout: "insurancetech-marketing-agency"
 ---

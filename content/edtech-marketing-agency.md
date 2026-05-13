@@ -1,5 +1,5 @@
 ---
-title: "Edtech Marketing Agency"
-description: "PipeRocket runs edtech marketing programmes — SEO, PPC, and pipeline ops — for K-12, higher-ed, corporate L&D, and learning platforms. FERPA/COPPA-aware content, outcomes-led positioning, campaigns synced to academic procurement calendars."
+title: "B2B Edtech Marketing Agency | K-12, Higher-Ed & L&D"
+description: "B2B edtech marketing agency for K-12, higher-ed, corporate L&D, and learning platforms. FERPA/COPPA-aware content, outcomes-led positioning, academic-cycle campaigns."
 layout: "edtech-marketing-agency"
 ---

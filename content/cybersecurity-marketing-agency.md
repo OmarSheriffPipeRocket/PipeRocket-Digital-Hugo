@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Marketing Agency"
-description: "PipeRocket runs cybersecurity marketing programmes — SEO, PPC, and pipeline ops — for SOC, IAM, EDR, AppSec, and GRC platforms. Threat-model-aware content, analyst-aligned messaging, qualified pipeline past sceptical CISO buyers."
+title: "B2B Cybersecurity Marketing Agency | SOC, IAM, EDR Pipeline"
+description: "B2B cybersecurity marketing agency for SOC, IAM, EDR, AppSec, and GRC platforms. Threat-model-aware content, analyst-aligned messaging, CISO-grade pipeline."
 layout: "cybersecurity-marketing-agency"
 ---

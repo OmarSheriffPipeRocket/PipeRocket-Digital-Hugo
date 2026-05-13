@@ -1,4 +1,4 @@
 ---
-title: "PipeRocket - Marketing with purpose, not just presence."
-description: "PipeRocket is a B2B SaaS marketing agency obsessed with one thing: your revenue. SaaS SEO, SaaS PPC, MarOps - embedded into your team."
+title: "PipeRocket | B2B SaaS Marketing Agency — Pipeline & Revenue"
+description: "B2B SaaS marketing agency obsessed with pipeline and closed-won revenue. SaaS SEO, SaaS PPC, MarOps, ABM — embedded in your team, not lead farming."
 ---

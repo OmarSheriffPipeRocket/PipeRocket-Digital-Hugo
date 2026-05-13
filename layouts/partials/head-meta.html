@@ -26,10 +26,13 @@
 {{ end }}
 
 {{/* Title: SEO-optimized with brand suffix.
-     - Home: site title verbatim
+     - Home: frontmatter title if present, else .Site.Title
      - Author page: "<Name>, <Role> | PipeRocket Digital"
      - Other: "<Page Title> - PipeRocket" */}}
-{{ $title := cond $isHome .Site.Title (printf "%s - PipeRocket" .Title) }}
+{{ $title := printf "%s - PipeRocket" .Title }}
+{{ if $isHome }}
+  {{ $title = default .Site.Title .Title }}
+{{ end }}
 {{ if and $isAuthorPage $author.name $author.role }}
   {{ $title = printf "%s, %s | PipeRocket Digital" $author.name $author.role }}
 {{ end }}
