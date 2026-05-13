@@ -27,3 +27,5 @@ npm-debug.log*
 
 #credentials
 /credentials/
+__pycache__/
+scripts/__pycache__/
