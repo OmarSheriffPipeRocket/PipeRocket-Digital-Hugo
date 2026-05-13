@@ -769,7 +769,30 @@ const setupCompareDecorations = () => {
   });
 };
 
+/**
+ * Wrap every <table> inside an article body in a scrollable container so
+ * wide tables can scroll horizontally on narrow viewports instead of
+ * overflowing the article width.
+ */
+const wrapArticleTables = () => {
+  const selector = [
+    '.pr-blog__body table',
+    '.pr-listicle__body table',
+    '.pr-glossary__body table',
+    '.pr-alt__body table',
+    '.pr-compare__body table',
+  ].join(', ');
+  document.querySelectorAll(selector).forEach((table) => {
+    if (table.parentElement && table.parentElement.classList.contains('pr-table-scroll')) return;
+    const wrapper = document.createElement('div');
+    wrapper.className = 'pr-table-scroll';
+    table.parentNode.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+  });
+};
+
 const init = () => {
+  wrapArticleTables();
   setupMobileMenu();
   setupCounters();
   setupAccordion();

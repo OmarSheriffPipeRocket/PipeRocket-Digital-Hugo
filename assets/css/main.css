@@ -4792,6 +4792,22 @@ a.pr-hero__cta:hover,
 .pr-listicle__body li,
 .pr-alt__body li,
 .pr-compare__body li { margin-bottom: var(--pr-s-2); }
+/* Horizontal-scroll wrapper for wide article tables.
+   JS in assets/js/main.js wraps every <table> inside .pr-*__body containers
+   in a div.pr-table-scroll so the table can scroll on narrow viewports
+   instead of overflowing the article width. */
+.pr-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: var(--pr-s-5) 0;
+  /* visible scroll affordance on touch devices */
+  scrollbar-width: thin;
+}
+.pr-table-scroll > table {
+  margin: 0;       /* the wrapper owns the vertical rhythm now */
+  min-width: 100%;
+}
+
 .pr-blog__body table,
 .pr-glossary__body table,
 .pr-listicle__body table,
