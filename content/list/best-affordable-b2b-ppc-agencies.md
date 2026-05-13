@@ -94,13 +94,13 @@ Pricing typically ranges from $2,000 to $15,000+ per month depending on ad spend
 | Enterprise PPC | $10,000-$15,000+/mo | Full-funnel PPC, CRO, dedicated strategist, daily optimization |
 
 **What Users Say**
-✅ **Love:** Strong results and proactive communication
+**Love:** Strong results and proactive communication
 
 Clutch reviewers praise KlientBoost for their proactive communication and responsiveness, with many clients appreciating their regular updates, transparency in project management, and ability to adapt to client needs swiftly ([source](https://clutch.co/profile/klientboost)).
 
 - G2 reviewers note that KlientBoost helped unlock and scale channels they had nearly written off, with conversions increasing from 1% to well over 5% consistently ([source](https://g2.com/products/klientboost/reviews))
 
-⚠️ **Complain:** Onboarding can be intensive
+**Complain:** Onboarding can be intensive
 
 Some clients found the onboarding process required significant time and effort to provide all the information needed to get started, though they acknowledged this was ultimately for their benefit ([source](https://clutch.co/profile/klientboost)).
 
@@ -157,13 +157,13 @@ Retainers start at $3,000/mo for SaaS PPC, with full-service retainers scaling b
 | Enterprise | Custom | Full-service: PPC, SEO, ABM, content, MarOps, dedicated team |
 
 **What Users Say**
-✅ **Love:** Pipeline-first reporting and embedded team model
+**Love:** Pipeline-first reporting and embedded team model
 
 Clutch reviewers consistently praise our pipeline-first approach and the fact that we function as an embedded part of the team, not an external vendor ([source](https://clutch.co/profile/piperocket-digital)).
 
 - Clients note that we're the first agency they've worked with that ties every campaign to pipeline and closed-won revenue, not just lead volume
 
-⚠️ **Complain:** Not the cheapest option for early-stage teams
+**Complain:** Not the cheapest option for early-stage teams
 
 Some early-stage startups find our $3,000/mo minimum retainer higher than budget alternatives, though they acknowledge the value in pipeline-focused reporting ([source](https://clutch.co/profile/piperocket-digital)).
 
@@ -219,13 +219,13 @@ Startup package available at $5,000/month; standard engagements start at $8,000/
 | Enterprise | Custom | Full-service: PPC, SEO, CRO, content, lifecycle, dedicated team |
 
 **What Users Say**
-✅ **Love:** Customer Generation methodology and deep vertical expertise
+**Love:** Customer Generation methodology and deep vertical expertise
 
 Clutch reviewers note that Directive quickly became an extension of the product marketing team rather than just external consultants, and they were responsive, professional, and prompt, genuinely caring about the project's success ([source](https://clutch.co/profile/directive)).
 
 - "Directive rebuilt our entire paid acquisition strategy around LTV targets. For the first time, the CFO and the marketing team were looking at the same number and agreeing on what success meant.", VP Marketing, Enterprise SaaS ([source](https://clutch.co/profile/directive))
 
-⚠️ **Complain:** Premium pricing and account team turnover
+**Complain:** Premium pricing and account team turnover
 
 Some clients have experienced change with regard to their account team in the past six months due to internal mobility on Directive's side ([source](https://clutch.co/profile/directive)).
 
@@ -281,13 +281,13 @@ Minimum project size $5,000+, with costs varying widely from $1,200 to over $150
 | Enterprise | Custom | Full-service: PPC, SEO, email, lifecycle, dedicated team |
 
 **What Users Say**
-✅ **Love:** Month-to-month flexibility and strong client relationships
+**Love:** Month-to-month flexibility and strong client relationships
 
 Clients note that "the most impressive thing about Disruptive Advertising is how much care and attention I feel our brand is getting. I feel like we're the only company our account representatives are working with because of the amount of time and attention we get" ([source](https://clutch.co/profile/disruptive-advertising)).
 
 - One Google review states: "I wish there was a TEN STAR rating option. During the past ten years we used two other marketing firms that were complete disasters. We were hesitant at first but trusted our friend and jumped all in. Long story short...WE HAVE BEEN BLOWN AWAY!" ([source](https://get.disruptiveadvertising.com/reviews/))
 
-⚠️ **Complain:** Challenges with large-scale budget management
+**Complain:** Challenges with large-scale budget management
 
 One client noted: "In short, Disruptive did not deliver. I suspect most of their high ratings are for small companies with small budgets because they went backward with our 6 figure marketing budget and really had no idea how to produce positive results" ([source](https://clutch.co/profile/disruptive-advertising)).
 
@@ -343,13 +343,13 @@ Pricing varies by project, with reported costs of $3,500 to $300,000, as of May 
 | Enterprise | Custom | Brand storytelling, high-value production, rapid iterations, adaptive AI model |
 
 **What Users Say**
-✅ **Love:** Data-driven approach and creative testing
+**Love:** Data-driven approach and creative testing
 
 Clients praised Ladder's innovative and data-driven approach to marketing, noting they used historical data and unique systems to optimize campaigns ([source](https://clutch.co/profile/ladderio)).
 
 - "I found their communication and drive most impressive. They were always researching new things and keeping us up to date on all their findings" ([source](https://clutch.co/profile/ladderio))
 
-⚠️ **Complain:** Execution sometimes falls short of expectations
+**Complain:** Execution sometimes falls short of expectations
 
 One client noted: "Although Ladder has innovative ideas and vast industry expertise, their ability to execute falls short of expectations. The team should better prioritize deadlines and client needs" ([source](https://clutch.co/profile/ladderio)).
 
@@ -404,13 +404,13 @@ $3,000/month flat retainer, month-to-month contracts, as of May 2026.
 | Full-Service | Custom | Multi-channel PPC, landing pages, CRM integration, dedicated senior strategist |
 
 **What Users Say**
-✅ **Love:** Senior operator execution and flat-fee pricing
+**Love:** Senior operator execution and flat-fee pricing
 
 What separates the best agencies: senior operators on every account, CRM-connected pipeline attribution, flat-fee pricing, month-to-month contracts, and optimization for revenue, not lead volume ([source](https://growthspreeofficial.com)).
 
 - PriceLabs improved ROAS from 0.7x to 2.5x (350%), Trackxi achieved 4x trial volume at 51% lower cost
 
-⚠️ **Complain:** Limited case study visibility
+**Complain:** Limited case study visibility
 
 GrowthSpree is a newer agency (founded 2021) with fewer published case studies compared to agencies with 10+ years of client outcomes.
 
@@ -466,13 +466,13 @@ Accessible mid-market pricing starting around $1,000/month for PPC management, a
 | Enterprise | Custom | Full-service: PPC, SEO, CRO, dedicated account manager, real-time reporting |
 
 **What Users Say**
-✅ **Love:** Transparent pricing and real-time reporting
+**Love:** Transparent pricing and real-time reporting
 
 Clients praise MarketingCloudFX dashboards, dedicated account managers, and monthly strategy reviews, with real-time reporting access and proactive optimization updates ([source](https://webfx.com)).
 
 - B2B clients consistently report 40-70% lead volume increases
 
-⚠️ **Complain:** Less personalized attention at scale
+**Complain:** Less personalized attention at scale
 
 Some clients note that as a large agency with 500+ employees, WebFX can feel less personalized compared to boutique agencies with dedicated senior strategists.
 

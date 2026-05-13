@@ -110,6 +110,14 @@ def clean_text(text: str) -> str:
         deduped.append(ln)
     text = "\n".join(deduped)
 
+    # Strip status/decoration emojis the prompt may have leaked into the body.
+    # PipeRocket listicles don't use emoji; bold labels only.
+    for em in ("✅ ", "⚠️ ", "📍 ", "🚀 ", "💡 ", "✨ ", "🎯 ", "🔥 "):
+        text = text.replace(em, "")
+    # Same emojis with no trailing space (e.g. inline)
+    for em in ("✅", "⚠️", "📍", "🚀", "💡", "✨", "🎯", "🔥"):
+        text = text.replace(em, "")
+
     # Strip any leading horizontal-rule lines (---/***) the model often emits
     # as a separator before the body — they collide with the YAML frontmatter
     # closing `---` and create a visible duplicate.
@@ -552,14 +560,14 @@ Example opening sentence:
 
 **What Users Say**
 
-[Both Love and Complain MUST include a linked source. If you cannot find a real source via web search, drop the section rather than fabricating.]
+[Both Love and Complain MUST include a linked source. If you cannot find a real source via web search, drop the section rather than fabricating. NO EMOJI MARKERS — no ✅, no ⚠️, no 📍, no 🚀 anywhere in the body. Use plain bold labels only; the existing 35 PipeRocket listicles never use emoji and the new article must match.]
 
-✅ **Love:** [Headline, max 8 words]
+**Love:** [Headline, max 8 words]
 [1 sentence summarizing praise. Cite source with a real markdown link, e.g. "Clutch reviewers consistently praise X [source](https://clutch.co/profile/<slug>)" or "Reddit users in r/PPC note Y [thread](https://www.reddit.com/r/...)". Max 30 words.]
 
 - [1 specific detail bullet from a real reviewer / Reddit / Quora source, max 22 words, with inline link to the source URL]
 
-⚠️ **Complain:** [Headline, max 8 words]
+**Complain:** [Headline, max 8 words]
 [1 sentence summarizing criticism with a real linked source, max 30 words. E.g. "On Quora, [Name] writes ... ([answer](https://quora.com/...))" or "Reddit users in r/<sub> flag ... ([thread](https://reddit.com/r/...))".]
 
 - [1 specific detail bullet with linked source, max 22 words]
@@ -645,7 +653,8 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] Side-by-Side Comparison table has exactly 5 columns: Agency, Best For, Starting Price, Free Consultation, Clutch Rating (NO Score column, NO HQ column)
 [ ] How We Chose section has 5 criteria as bold paragraph labels (NO weights, NO 30%/25%/etc.)
 [ ] Each agency block uses `### N. Agency: Best for X` as H3 (NOT H2) so it matches the existing 35 listicles' heading rhythm
-[ ] Each agency block has all sections in exact order: front-loaded 2-sentence answer → **At a Glance** + table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → **Pricing Breakdown** + table → **What Users Say** (Love ✅ / Complain ⚠️) → evaluation summary table
+[ ] Each agency block has all sections in exact order: front-loaded 2-sentence answer → **At a Glance** + table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → **Pricing Breakdown** + table → **What Users Say** (**Love:** / **Complain:** plain bold, NO emoji) → evaluation summary table
+[ ] No emoji anywhere in the body (no ✅, no ⚠️, no 📍, no 🚀, etc.)
 [ ] Sub-section labels are bold paragraphs, NOT headings (no `####`)
 [ ] Pricing-page URL appears ONLY in the Side-by-Side table's Starting Price cell — NOT also above the Pricing Breakdown table inside agency blocks
 [ ] If pricing is not publicly available for an agency, the Pricing Breakdown rows say "Custom pricing" — never an invented number
