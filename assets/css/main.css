@@ -4727,10 +4727,15 @@ a.pr-hero__cta:hover,
 .pr-listicle__body,
 .pr-alt__body,
 .pr-compare__body {
-  font-size: 1.05rem;
+  font-size: 16px;
   line-height: 1.75;
   color: var(--pr-ink-2);
 }
+.pr-blog__body p,
+.pr-glossary__body p,
+.pr-listicle__body p,
+.pr-alt__body p,
+.pr-compare__body p { font-size: 16px; margin: 0 0 var(--pr-s-4); }
 .pr-blog__body h2,
 .pr-glossary__body h2,
 .pr-listicle__body h2,
@@ -4738,7 +4743,7 @@ a.pr-hero__cta:hover,
 .pr-compare__body h2 {
   font-family: var(--pr-serif);
   font-weight: 600;
-  font-size: clamp(1.6rem, 2.8vw, 2.1rem);
+  font-size: 40px;
   line-height: 1.25;
   color: var(--pr-ink);
   margin: var(--pr-s-7) 0 var(--pr-s-4);
@@ -4750,7 +4755,7 @@ a.pr-hero__cta:hover,
 .pr-compare__body h3 {
   font-family: var(--pr-serif);
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 32px;
   line-height: 1.3;
   color: var(--pr-ink);
   margin: var(--pr-s-6) 0 var(--pr-s-3);
@@ -4767,11 +4772,6 @@ a.pr-hero__cta:hover,
   color: var(--pr-ink);
   margin: var(--pr-s-5) 0 var(--pr-s-3);
 }
-.pr-blog__body p,
-.pr-glossary__body p,
-.pr-listicle__body p,
-.pr-alt__body p,
-.pr-compare__body p { margin: 0 0 var(--pr-s-4); }
 .pr-blog__body ul,
 .pr-blog__body ol,
 .pr-glossary__body ul,
