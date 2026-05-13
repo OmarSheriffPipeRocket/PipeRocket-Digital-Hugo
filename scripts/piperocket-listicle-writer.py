@@ -511,7 +511,9 @@ Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2.
 
 ==================== LOCKED AGENCY BLOCK ====================
 
-### [N]. [Agency Name]: Best for [Specific Use Case]
+### [N]. [Agency Name]
+
+Best for: [Specific Use Case headline, 8-14 words. This line will be auto-highlighted by the site's JS as a "best-for" callout — keep it punchy.]
 
 [Front-loaded 2-sentence answer. MAX 40 words total. Sentence 1: link the agency name to their REAL homepage URL pulled from web search, then state what this agency is best for and what they do. Sentence 2: who they're built for and what friction they remove. Use contractions (it's, you're, don't). Sound like a real person talking, not a marketing brochure.
 
@@ -652,8 +654,9 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] TL;DR has EXACTLY 7 numbered items, NO bullet markers, **bold agency** + colon + "Best for" tagline
 [ ] Side-by-Side Comparison table has exactly 5 columns: Agency, Best For, Starting Price, Free Consultation, Clutch Rating (NO Score column, NO HQ column)
 [ ] How We Chose section has 5 criteria as bold paragraph labels (NO weights, NO 30%/25%/etc.)
-[ ] Each agency block uses `### N. Agency: Best for X` as H3 (NOT H2) so it matches the existing 35 listicles' heading rhythm
-[ ] Each agency block has all sections in exact order: front-loaded 2-sentence answer → **At a Glance** + table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → **Pricing Breakdown** + table → **What Users Say** (**Love:** / **Complain:** plain bold, NO emoji) → evaluation summary table
+[ ] Each agency block starts with `### N. Agency Name` as H3 — JUST the agency name, NO ": Best for X" suffix in the heading
+[ ] Immediately below the H3, a separate paragraph begins with `Best for: [tagline]`. The site's JS auto-styles this line as a highlighted callout.
+[ ] Each agency block has all sections in exact order: H3 → Best for: line → front-loaded 2-sentence answer → **At a Glance** + table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → **Pricing Breakdown** + table → **What Users Say** (**Love:** / **Complain:** plain bold, NO emoji) → evaluation summary table
 [ ] No emoji anywhere in the body (no ✅, no ⚠️, no 📍, no 🚀, etc.)
 [ ] Sub-section labels are bold paragraphs, NOT headings (no `####`)
 [ ] Pricing-page URL appears ONLY in the Side-by-Side table's Starting Price cell — NOT also above the Pricing Breakdown table inside agency blocks

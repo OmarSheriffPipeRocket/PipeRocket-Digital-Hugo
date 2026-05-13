@@ -408,6 +408,9 @@ const setupListicleRankings = () => {
   const BREAKDOWN = /^[A-Za-z][^|]*\d+\/\d+\s*\|/;
   const PREFIXES = [
     ['Best for you if:', 'pr-rank__best-for'],
+    ['Best for:', 'pr-rank__best-for'],   // v3 format equivalent
+    ['Who it’s for:', 'pr-rank__suited-for'],
+    ['Who it’s NOT for:', 'pr-rank__not-ideal'],
     ['Best suited for:', 'pr-rank__suited-for'],
     ['Not ideal for:', 'pr-rank__not-ideal'],
     ['Pricing:', 'pr-rank__pricing'],
