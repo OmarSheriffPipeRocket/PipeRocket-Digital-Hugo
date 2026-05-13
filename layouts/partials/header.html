@@ -5,20 +5,154 @@
     </a>
 
     <nav class="pr-nav" aria-label="Main">
-      <div class="pr-nav__item pr-nav__item--drop" tabindex="0">
+      <a href="/about-us/" class="pr-nav__item">About</a>
+
+      <div class="pr-nav__item pr-nav__item--mega" tabindex="0">
         <span>Services</span>
-        <img src="/images/dropdown-arrow.svg" alt="" aria-hidden="true" class="pr-nav__caret">
-        <div class="pr-dropmenu" role="menu">
-          <a href="/saas-seo-agency/" class="pr-dropmenu__link{{ if eq .RelPermalink "/saas-seo-agency/" }} is-active{{ end }}">SaaS SEO</a>
-          <a href="/saas-ppc/" class="pr-dropmenu__link{{ if eq .RelPermalink "/saas-ppc/" }} is-active{{ end }}">SaaS PPC</a>
+        <span class="pr-nav__caret" aria-hidden="true">▾</span>
+
+        <div class="pr-megamenu" role="menu">
+          <div class="pr-megamenu__col">
+            <h4 class="pr-megamenu__heading">Strategy</h4>
+            <a href="/saas-seo-agency/" class="pr-megamenu__link">
+              <strong>SaaS SEO</strong>
+              <span>Pipeline-first organic growth for B2B SaaS.</span>
+            </a>
+            <a href="/saas-ppc/" class="pr-megamenu__link">
+              <strong>SaaS PPC</strong>
+              <span>Paid built around your ICP, not vanity clicks.</span>
+            </a>
+            <a href="/marketing-ops/" class="pr-megamenu__link">
+              <strong>MarOps</strong>
+              <span>Attribution, lifecycle, RevOps alignment.</span>
+            </a>
+          </div>
+
+          <div class="pr-megamenu__col">
+            <h4 class="pr-megamenu__heading">Tactics</h4>
+            <a href="/account-based-marketing-agency/" class="pr-megamenu__link">
+              <strong>ABM / LinkedIn</strong>
+              <span>Targeted outbound to your real ICP.</span>
+            </a>
+            <a href="/content-marketing-agency/" class="pr-megamenu__link">
+              <strong>Content</strong>
+              <span>Written for buying committees, not keywords.</span>
+            </a>
+            <a href="/aeo-geo-agency/" class="pr-megamenu__link">
+              <strong>AEO / GEO</strong>
+              <span>Visibility in ChatGPT, Perplexity, AI Overviews.</span>
+            </a>
+          </div>
+
+          <div class="pr-megamenu__col pr-megamenu__col--feature">
+            <h4 class="pr-megamenu__heading">Why PipeRocket</h4>
+            <a href="/about-us/" class="pr-megamenu__cta">
+              <span class="pr-eyebrow pr-eyebrow--red">Practitioners, not account managers</span>
+              <strong>Marketing built by SaaS operators</strong>
+              <span>10+ years inside Spendflo, Storylane, GreytHR — running the same playbook we now run for you.</span>
+            </a>
+          </div>
         </div>
       </div>
 
-      <div class="pr-nav__item pr-nav__item--drop" tabindex="0">
+      <div class="pr-nav__item pr-nav__item--mega" tabindex="0">
+        <span>Industries</span>
+        <span class="pr-nav__caret" aria-hidden="true">▾</span>
+
+        <div class="pr-megamenu" role="menu">
+          <div class="pr-megamenu__col">
+            <h4 class="pr-megamenu__heading">Financial</h4>
+            <a href="/fintech-marketing-agency/" class="pr-megamenu__link">
+              <strong>Fintech</strong>
+              <span>Compliance-aware marketing for regulated buyers.</span>
+            </a>
+            <a href="/fintech-seo-agency/" class="pr-megamenu__link">
+              <strong>Fintech SEO</strong>
+              <span>Organic growth for payments, KYC, and embedded finance.</span>
+            </a>
+            <a href="/fintech-ppc-agency/" class="pr-megamenu__link">
+              <strong>Fintech PPC</strong>
+              <span>Paid built around CFO-grade pipeline reporting.</span>
+            </a>
+            <h4 class="pr-megamenu__heading" style="margin-top: var(--pr-s-4);">HR &amp; Workforce</h4>
+            <a href="/hrtech-marketing-agency/" class="pr-megamenu__link">
+              <strong>HR Tech</strong>
+              <span>Marketing for HR, payroll, and workforce platforms.</span>
+            </a>
+            <a href="/hrtech-seo-agency/" class="pr-megamenu__link">
+              <strong>HR Tech SEO</strong>
+              <span>Organic growth for HRMS, payroll, and ATS.</span>
+            </a>
+          </div>
+
+          <div class="pr-megamenu__col">
+            <h4 class="pr-megamenu__heading">Tech &amp; Security</h4>
+            <a href="/devtools-marketing-agency/" class="pr-megamenu__link">
+              <strong>Dev Tools</strong>
+              <span>Developer-led growth for infra and tooling companies.</span>
+            </a>
+            <a href="/cybersecurity-marketing-agency/" class="pr-megamenu__link">
+              <strong>Cybersecurity</strong>
+              <span>Trust-first marketing for security-conscious buyers.</span>
+            </a>
+            <h4 class="pr-megamenu__heading" style="margin-top: var(--pr-s-4);">Health &amp; Education</h4>
+            <a href="/healthtech-marketing-agency/" class="pr-megamenu__link">
+              <strong>Health Tech</strong>
+              <span>Pipeline-led growth for digital health platforms.</span>
+            </a>
+            <a href="/edtech-marketing-agency/" class="pr-megamenu__link">
+              <strong>Ed Tech</strong>
+              <span>Demand generation for learning and training SaaS.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pr-nav__item pr-nav__item--mega" tabindex="0">
         <span>Resources</span>
-        <img src="/images/dropdown-arrow.svg" alt="" aria-hidden="true" class="pr-nav__caret">
-        <div class="pr-dropmenu" role="menu">
-          <a href="/blogs/" class="pr-dropmenu__link">Blogs</a>
+        <span class="pr-nav__caret" aria-hidden="true">▾</span>
+
+        <div class="pr-megamenu" role="menu">
+          <div class="pr-megamenu__col">
+            <h4 class="pr-megamenu__heading">Articles</h4>
+            <a href="/blogs/" class="pr-megamenu__link">
+              <strong>Blog</strong>
+              <span>Long-form strategy and field notes.</span>
+            </a>
+            <a href="/glossary/" class="pr-megamenu__link">
+              <strong>Glossary</strong>
+              <span>Plain-English SaaS marketing definitions.</span>
+            </a>
+            <a href="/faqs/" class="pr-megamenu__link">
+              <strong>FAQs</strong>
+              <span>Common questions answered.</span>
+            </a>
+          </div>
+
+          <div class="pr-megamenu__col">
+            <h4 class="pr-megamenu__heading">Comparisons</h4>
+            <a href="/list/" class="pr-megamenu__link">
+              <strong>Best-of lists</strong>
+              <span>Ranked rundowns of agencies and tools.</span>
+            </a>
+            <a href="/alternative/" class="pr-megamenu__link">
+              <strong>Alternatives</strong>
+              <span>When the default tool isn't the right one.</span>
+            </a>
+            <a href="/vs/" class="pr-megamenu__link">
+              <strong>Head-to-head</strong>
+              <span>Side-by-side product comparisons.</span>
+            </a>
+          </div>
+
+          <div class="pr-megamenu__col pr-megamenu__col--feature">
+            <h4 class="pr-megamenu__heading">Featured</h4>
+            <a href="/blogs/best-linkedin-marketing-agencies/" class="pr-megamenu__cta">
+              <span class="pr-eyebrow pr-eyebrow--red">B2B LinkedIn Marketing</span>
+              <strong>11 LinkedIn Marketing Agencies Ranked in 2026</strong>
+              <span>22-min deep read · Praveen Ravi</span>
+            </a>
+          </div>
         </div>
       </div>
 

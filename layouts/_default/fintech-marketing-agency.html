@@ -11,84 +11,31 @@
           <span class="pr-hero__title-soft">Fintech buyers carry compliance teams,<br>not credit cards.</span>
           <span class="pr-hero__title-strong">Your agency should know that.</span>
         </h1>
-        <div class="pr-hero__copy">
+        <div class="pr-hero__copy pr-hero__copy--seo">
           <p>PipeRocket runs marketing for fintech, banking, payments, and embedded-finance companies — SEO, PPC, and pipeline ops built around regulated buyers, longer sales cycles, and the metrics your CFO opens before anything else.</p>
         </div>
 
-        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
-
-        {{/* Fintech hub = all FinServ-flavoured Clutch reviews */}}
-        {{ $clutchAll := where .Site.Data.reviews.reviews "source" "Clutch" }}
-        {{ $clutchFin := where $clutchAll "industry" "in" (slice "FinServ" "Banking / FinServ") }}
-        {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
-        <div class="pr-clutch-accordion pr-clutch-accordion--inline" id="clutchReviewsFin">
-          <button class="pr-clutch-accordion__head pr-clutch-accordion__head--simple" type="button" data-clutch-accordion-toggle aria-expanded="true" aria-controls="clutchAccordionPanelFin">
-            <img src="/images/logos/clutch.svg" alt="Clutch" class="pr-clutch-accordion__logo">
-            <span class="pr-clutch-accordion__rating-simple">
-              <strong>{{ $clutchSource.rating }}</strong>
-              <span class="pr-clutch-accordion__stars" aria-hidden="true">★★★★★</span>
-            </span>
-            <span class="pr-clutch-accordion__caret" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </span>
-          </button>
+        <div class="pr-hero-seo__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-seo__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.png" alt="Clutch" class="pr-hero-seo__rating-logo">
         </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
       </div>
-      <div class="pr-hero__collage" aria-label="PipeRocket Fintech Marketing — compliance-aware, buyer-first, pipeline-led">
-        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock — fintech context" loading="eager">
+      <div class="pr-hero__collage pr-hero__collage--seo" aria-label="PipeRocket Fintech Marketing — compliance-aware, buyer-first, pipeline-led">
+        <img class="pr-hero-seo__buyer" src="/images/hero-seo/buyer-first.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__bofu" src="/images/hero-seo/bofu-vector.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__search" src="/images/hero-seo/search-bar.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__stroke" src="/images/hero-seo/red-stroke.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__man" src="/images/hero-seo/man-clock.webp" alt="Vintage figure under an SEO Results street clock — fintech context" loading="eager" decoding="async">
+        <img class="pr-hero-seo__arrow" src="/images/hero-seo/arrow.svg" alt="" aria-hidden="true" loading="eager" data-arrow-parallax>
       </div>
     </div>
 
-    <!-- Carousel panel — full container width, open by default. -->
-    <div class="pr-clutch-accordion__panel pr-clutch-accordion__panel--full" id="clutchAccordionPanelFin" data-clutch-accordion-panel>
-      <div class="pr-clutch-accordion__carousel-wrap">
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--prev" data-carousel-prev aria-label="Previous reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-        </button>
-
-        <div class="pr-clutch-accordion__track" data-carousel-track>
-          {{ range $clutchFin }}
-            <article class="pr-clutch-card">
-              <header class="pr-clutch-card__head">
-                <span class="pr-clutch-card__rating-row" aria-label="Rated {{ .rating }} out of 5">
-                  {{ $r := .rating }}
-                  {{ range seq 5 }}
-                    {{ if le (float .) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--full">★</span>
-                    {{ else if le (sub (float .) 0.5) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--half">★</span>
-                    {{ else }}
-                      <span class="pr-clutch-card__star">★</span>
-                    {{ end }}
-                  {{ end }}
-                  <span class="pr-clutch-card__rating-value">{{ .rating }}</span>
-                </span>
-              </header>
-              <h3 class="pr-clutch-card__title">{{ .title }}</h3>
-              <blockquote class="pr-clutch-card__quote">"{{ .quote }}"</blockquote>
-              <footer class="pr-clutch-card__footer">
-                <strong>{{ .reviewer_name }}</strong>
-                <span>{{ .reviewer_role }}{{ if .company }} · {{ .company }}{{ end }}</span>
-                {{ with .review_url }}
-                  <a class="pr-clutch-card__link" href="{{ . }}" target="_blank" rel="noopener">Read on Clutch ↗</a>
-                {{ end }}
-              </footer>
-            </article>
-          {{ end }}
-        </div>
-
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--next" data-carousel-next aria-label="Next reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
-        </button>
-      </div>
-
-      <div class="pr-clutch-accordion__footer">
-        <a href="/reviews/" class="pr-clutch-accordion__view-all">See all reviews →</a>
-      </div>
-    </div>
-
+    {{/* Fintech hub = all FinServ-flavoured Clutch reviews */}}
+    {{ $clutchAll := where .Site.Data.reviews.reviews "source" "Clutch" }}
+    {{ $clutchFin := where $clutchAll "industry" "in" (slice "FinServ" "Banking / FinServ") }}
+    {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
     {{ partial "clutch-reviews-schema.html" (dict "reviews" $clutchFin "rating" $clutchSource.rating "count" (len $clutchFin)) }}
   </div>
 </section>
@@ -103,39 +50,39 @@
      ==================================================== -->
 <section class="pr-section">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+    <div class="pr-center" style="margin: 0 auto 140px; white-space: nowrap;">
       <h2>Why fintech marketing is different</h2>
-      <p>Generic SaaS playbooks die in regulated markets. Here&rsquo;s what changes when your buyer answers to a CFO and a regulator.</p>
     </div>
-    <div class="pr-principles">
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <h3>Compliance gates the deal</h3>
-        <p>Before a fintech deal closes, security review, legal, and (often) a regulator&rsquo;s frameworks have all weighed in. Marketing that ignores them adds months to the sales cycle. Marketing that respects them compresses it.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-        </div>
-        <h3>Sales cycles run long</h3>
-        <p>Fintech buyers take 6–18 months to make a decision. Programmes that promise pipeline next month don&rsquo;t survive contact with reality. Programmes that build qualified pipeline at every stage do.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><circle cx="15" cy="15" r="6"/></svg>
-        </div>
-        <h3>The buying committee is wide</h3>
-        <p>Head of payments, risk officer, compliance lead, CFO, head of engineering — fintech deals get gated by 5–8 stakeholders. Content and ads that speak to one of them lose the other seven.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-        </div>
-        <h3>CACs are unforgiving</h3>
-        <p>Fintech CACs are higher and payback is longer than generic SaaS. Boards review marketing efficiency the way they review treasury performance. Reporting needs to be CFO-grade, not CMO-cosmetic.</p>
-      </article>
+    <div class="pr-principles" data-principles>
+      <div class="pr-principles__line" aria-hidden="true">
+        <div class="pr-principles__line-bg"></div>
+        <div class="pr-principles__line-fill" data-line-fill></div>
+        <img class="pr-principles__arrow" src="/images/principles/pr-arrow.svg" alt="" data-principles-arrow>
+      </div>
+      <div class="pr-principles__col pr-principles__col--left">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--buyers"></div>
+          <h3>Compliance gates the deal</h3>
+          <p>Before a fintech deal closes, security review, legal, and (often) a regulator's frameworks have all weighed in. Marketing that ignores them adds months to the sales cycle. Marketing that respects them compresses it.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--intent"></div>
+          <h3>Sales cycles run long</h3>
+          <p>Fintech buyers take 6–18 months to make a decision. Programmes that promise pipeline next month don't survive contact with reality. Programmes that build qualified pipeline at every stage do.</p>
+        </article>
+      </div>
+      <div class="pr-principles__col pr-principles__col--right">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--purpose"></div>
+          <h3>The buying committee is wide</h3>
+          <p>Head of payments, risk officer, compliance lead, CFO, head of engineering — fintech deals get gated by 5–8 stakeholders. Content and ads that speak to one of them lose the other seven.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--revenue"></div>
+          <h3>CACs are unforgiving</h3>
+          <p>Fintech CACs are higher and payback is longer than generic SaaS. Boards review marketing efficiency the way they review treasury performance. Reporting needs to be CFO-grade, not CMO-cosmetic.</p>
+        </article>
+      </div>
     </div>
   </div>
 </section>
@@ -143,60 +90,30 @@
 <!-- ====================================================
      WORKING WITH PIPEROCKET — VINTAGE TV
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--working-seo">
   <div class="pr-container pr-center">
     <h2>Working With PipeRocket</h2>
-    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — testimonial on a vintage TV" class="pr-working-tv">
-  </div>
-</section>
-
-<!-- ====================================================
-     OUR FINTECH SERVICES — THREE CARDS LINKING TO SPOKES
-     ==================================================== -->
-<section class="pr-section pr-section--dark">
-  <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
-      <h2 style="color: var(--pr-cream);">Our fintech marketing services</h2>
-      <p style="color: rgba(244,241,232,0.7);">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
-    </div>
-    <div class="pr-approach-grid pr-approach-grid--dark">
-      <article class="pr-approach-grid__card">
-        <h3>Fintech SEO</h3>
-        <p>Compliance-aware content, BOFU pages built for risk-averse buyers, and topical authority compounded across payments, KYC, treasury, and embedded finance — without chasing vanity volume.</p>
-        <a href="/fintech-seo-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Fintech SEO →</a>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Fintech PPC</h3>
-        <p>Paid programmes built around named fintech buyer titles and intent signals. Compliance-ready landing pages, CRM-wired attribution, and CFO-grade pipeline reporting from week three.</p>
-        <a href="/fintech-ppc-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Fintech PPC →</a>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Marketing Ops</h3>
-        <p>RevOps, attribution, lifecycle, and reporting plumbing built for the long sales cycles fintech runs. Sales-accepted lead rates, pipeline contribution, CAC payback — wired clean and reportable.</p>
-        <a href="/marketing-ops/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Marketing Ops →</a>
-      </article>
-    </div>
+    {{ partial "working-tv.html" . }}
   </div>
 </section>
 
 <!-- ====================================================
      WHY FINTECH TEAMS CHOOSE PIPEROCKET — DARK COMPARISON TABLE
      ==================================================== -->
-<section class="pr-section pr-section--dark">
+<section class="pr-section pr-section--dark pr-compare--seo">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
-      <h2 style="color: var(--pr-cream);">Why fintech teams choose PipeRocket</h2>
-      <p style="color: rgba(244,241,232,0.7);">Every agency promises growth. The gap is whether they can talk to a head of risk without flinching, and whether their reports survive a CFO review.</p>
+    <div class="pr-center pr-compare--seo__header">
+      <h2>Why fintech teams choose PipeRocket</h2>
+      <p>Every agency promises growth. The gap is whether they can talk to a head of risk without flinching, and whether their reports survive a CFO review.</p>
     </div>
+    <img src="/images/compare-blue-vector.svg" class="pr-compare--seo__blue-vec" aria-hidden="true">
+    <div class="pr-compare--seo__table-wrap">
     <div class="pr-compare-table">
       <div class="pr-compare-table__row pr-compare-table__row--head">
         <div>In house</div>
         <div>Other agencies</div>
         <div class="pr-compare-table__pr">
-          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
-          </svg>
-          PipeRocket
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-compare-table__pr-logo">
         </div>
       </div>
       <div class="pr-compare-table__row">
@@ -220,52 +137,275 @@
         <div>SEO, PPC, and pipeline ops run as one programme. Buyer language extracted once, used everywhere. Attribution reconciled to one source of truth.</div>
       </div>
     </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
-      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    <img src="/images/compare-red-vector.svg" class="pr-compare--seo__red-vec" aria-hidden="true" data-compare-red-vec>
+    <img src="/images/seo-table-rocket.svg" class="pr-compare--seo__rocket" aria-hidden="true" data-compare-rocket>
+    </div><!-- end table-wrap -->
+    <div class="pr-compare--seo__cta">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-middle">{{ .Site.Params.secondary_cta_text }}</a>
     </div>
   </div>
 </section>
 
 <!-- ====================================================
-     TESTIMONIALS — 3 CARDS
+     TESTIMONIALS — PAGINATED
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--social-proof">
   <div class="pr-container">
     <div class="pr-center"><h2>We&rsquo;ve helped fintech and SaaS brands like yours</h2></div>
-    <div class="pr-testimonials">
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to lock our performance marketing efforts. Their experience, actionable strategies brought a 5X high-quality MQLs in just 2 months. Specifically, the team's research-based fine-tuning campaigns across regions not only gives our leads but also saves us costs.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-090_alpha.png" alt="Naveen">
-          <div>
-            <div class="pr-testimonial__name">Naveen</div>
-            <div class="pr-testimonial__role">Head of Marketing</div>
-            <div class="pr-testimonial__company">HyperVerge</div>
+
+    <div class="pr-testimonials__viewport">
+      <div class="pr-testimonials" data-testimonials-track>
+
+        <!-- Page 1 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperverge.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience, actionable strategies brought in 51 high-quality MQLs in just 3 months. Specifically, the team's approach towards fine-tuning campaigns across regions not only grew our leads but also saved us costs.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-navien.png" alt="Naveen">
+            <div>
+              <div class="pr-testimonial__name">Naveen</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-testimonial__logo">
+            </div>
           </div>
-        </div>
-      </article>
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">Working alongside PipeRocket has been a remarkable experience for Storylane. We have come to deeply rely on them to count on us in our scaled stack. Their comprehensive analysis, strategic initiatives, end-to-end campaign optimisation, lending engagement implementation and targeted remarketing delivered remarkable results for us.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-094_alpha.png" alt="Nalin">
-          <div>
-            <div class="pr-testimonial__name">Nalin</div>
-            <div class="pr-testimonial__role">CEO</div>
-            <div class="pr-testimonial__company">storylane</div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Working alongside PipeRocket has been a commendable experience for Storylane. We were looking into how to boost our qualified leads. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
+            <div>
+              <div class="pr-testimonial__name">Nalin</div>
+              <div class="pr-testimonial__role">CEO</div>
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
+            </div>
           </div>
-        </div>
-      </article>
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">They worked closely with us and took ownership that our in-house team. The team has run 10 experiments to identify what was working and translated two new geographies for the ads. Moreover, they treat content like an asset and react closer to a calendar as the problem it is.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-098_alpha.png" alt="Anusha">
-          <div>
-            <div class="pr-testimonial__name">Anusha</div>
-            <div class="pr-testimonial__role">Founding member</div>
-            <div class="pr-testimonial__company">HyperStart</div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperstart.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working and invalidated two new geographies for the ads. Moreover, PipeRocket Digital was responsive, open to feedback, and eager to meet the objectives.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-anusha.png" alt="Anusha">
+            <div>
+              <div class="pr-testimonial__name">Anusha</div>
+              <div class="pr-testimonial__role">Founding member</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperstart.png" alt="HyperStart" class="pr-testimonial__logo">
+            </div>
           </div>
+        </article>
+
+        <!-- Page 2 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-spendflo.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution. Moreover, their in-depth understanding of SEO and consistent involvement make them a reliable partner.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nivas.png" alt="Nivas">
+            <div>
+              <div class="pr-testimonial__name">Nivas</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-devrev.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly. PipeRocket Digital was committed to driving growth and continuously learning and improving.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
+            <div>
+              <div class="pr-testimonial__name">Saptharishi</div>
+              <div class="pr-testimonial__role">Head of Demand Generation</div>
+              <img loading="lazy" decoding="async" src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-cyberseirra.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Thanks to PipeRocket Digital's work, we saw a 279% increase in organic traffic. The team also helped the client grow from six to 338 keywords, ranking in the top 10 positions. The team was highly responsive to feedback, quickly adjusted to changes, and showed outstanding SEO expertise.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-srividhya.png" alt="Srividhya Karthik">
+            <div>
+              <div class="pr-testimonial__name">Srividhya Karthik</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-cyberseirra.png" alt="Cyber Sierra" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="pr-testimonials__dots">
+      <button class="pr-testimonials__dot pr-testimonials__dot--active" data-testimonial-dot="0" aria-label="Page 1">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-active.png" alt="">
+      </button>
+      <button class="pr-testimonials__dot" data-testimonial-dot="1" aria-label="Page 2">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-inactive.png" alt="">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     NUMBERS THAT MATTER — STAT BAND
+     ==================================================== -->
+<section class="pr-stat-band pr-stat-band--seo">
+  <div class="pr-container pr-center">
+    <h2 class="pr-stat-band__heading">Traffic alone is not a success metric.</h2>
+    <div class="pr-stat-band__row">
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band-seo__label">SPEND<span class="pr-hide-tiny"> VOLUME</span></div>
         </div>
-      </article>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-spend.webp" alt="Spend" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band-seo__label">PIPELINE</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-traffic.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band-seo__label">REVENUE</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     EVERYONE TALKS ABOUT AI — ACCORDION
+     ==================================================== -->
+<section class="pr-section pr-section--ai pr-section--ai-seo">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
+      <h2>Everyone talks about AI.<br>We just use it where it matters.</h2>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img class="pr-ai-grid__layer is-active" data-image-key="research" loading="eager" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in fintech marketing">
+        <img class="pr-ai-grid__layer" data-image-key="copy" loading="eager" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="design" loading="eager" decoding="async" src="/images/ai-accordion/design.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="optimisation" loading="eager" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="analysis" loading="eager" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
+      </div>
+      <div class="pr-accordion" data-ai-accordion-seo>
+        <details class="pr-accordion__item" open data-image="research">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Research
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI surfaces ICP signals, competitor activity, and audience intent data before a single page is briefed. Which queries are in-market, which content angles move them, and what pipeline opportunities are hiding in plain sight stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="copy">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Content
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI generates first drafts, brief variants, and outline angles across audiences and intent. Which voice fits the ICP, which framing converts, and whether the prose sounds like a real practitioner or an agency template stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="design">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Design
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI produces UI variants and page-design hypotheses. Which layout converts, where to place the CTA, and whether the page earns trust in the first three seconds stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="optimisation">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Optimisation
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI flags pages losing rankings, content gaps surfacing in AI overviews, and topics where competitors compound faster. What to refresh, what to consolidate, and where to invest next stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="analysis">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Analysis
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI connects organic touchpoints to pipeline and revenue across channels, surfacing CAC, payback, and pipeline contribution faster than any manual model. What it means for strategy stays with the team.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('[data-ai-accordion-seo]');
+      if(!acc) return;
+      var media = acc.parentElement.querySelector('.pr-ai-grid__media');
+      if(!media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var key = item.getAttribute('data-image');
+          if(!key) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === key);
+          });
+        });
+      });
+    })();
+  </script>
+</section>
+<style>
+  @media (min-width: 1024px) {
+    .pr-ai-grid { grid-template-columns: 0.9fr 1.1fr !important; gap: var(--pr-s-9) !important; }
+  }
+</style>
+
+<!-- ====================================================
+     OUR FINTECH SERVICES — THREE CARDS
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading">Our fintech marketing services</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-start-from-inside.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Fintech SEO</div>
+        <div class="pr-approach__copy"><p>Compliance-aware content, BOFU pages built for risk-averse buyers, and topical authority compounded across payments, KYC, treasury, and embedded finance — without chasing vanity volume.</p><p><a href="/fintech-seo-agency/" style="color: var(--pr-cyan);">Explore Fintech SEO →</a></p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-map-full-picture.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Fintech PPC</div>
+        <div class="pr-approach__copy"><p>Paid programmes built around named fintech buyer titles and intent signals. Compliance-ready landing pages, CRM-wired attribution, and CFO-grade pipeline reporting from week three.</p><p><a href="/fintech-ppc-agency/" style="color: var(--pr-cyan);">Explore Fintech PPC →</a></p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-build-with-intent.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Marketing Ops</div>
+        <div class="pr-approach__copy"><p>RevOps, attribution, lifecycle, and reporting plumbing built for the long sales cycles fintech runs. Sales-accepted lead rates, pipeline contribution, CAC payback — wired clean and reportable.</p><p><a href="/marketing-ops/" style="color: var(--pr-cyan);">Explore Marketing Ops →</a></p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -273,31 +413,60 @@
 <!-- ====================================================
      CASE STUDIES
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--casestudies">
   <div class="pr-container">
     <div class="pr-center"><h2>Fintech case studies</h2></div>
     <div class="pr-cases">
       <article class="pr-case">
-        <div class="pr-case__logo">HyperVerge</div>
-        <p class="pr-case__copy">Achieving 3.5X MQL growth for HyperVerge — fintech identity & KYC — with paid + content rebuilt around buyer intent.</p>
-        <a href="/case-study/hyperverge/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Achieving 3.5X MQL growth for HyperVerge — fintech identity &amp; KYC — with paid + content rebuilt around buyer intent.</p>
+          <a href="/case-study/hyperverge/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">Spendflo</div>
-        <p class="pr-case__copy">61% traffic lift for Spendflo — SaaS spend management — without chasing vanity volume keywords.</p>
-        <a href="/case-study/spendflo/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">61% traffic lift for Spendflo — SaaS spend management — without chasing vanity volume keywords.</p>
+          <a href="/case-study/spendflo/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">DevRev</div>
-        <p class="pr-case__copy">Pipeline-led marketing for DevRev — moving the agency conversation from rankings to qualified opportunities.</p>
-        <a href="/case-study/devrev/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-devrev-cs.svg" alt="DevRev" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Pipeline-led marketing for DevRev — moving the agency conversation from rankings to qualified opportunities.</p>
+          <a href="/case-study/devrev/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
     </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
-      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
+      <a href="/success-stories/" class="pr-btn pr-btn--ghost">View all success stories</a>
     </div>
   </div>
 </section>
+
+<!-- ====================================================
+     OUR TECH STACK
+     ==================================================== -->
+{{ partial "tech-stack.html" . }}
 
 <!-- ====================================================
      FAQ
@@ -350,13 +519,11 @@
      ==================================================== -->
 <section class="pr-cta-final">
   <div class="pr-container">
-    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
-    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
-    <h2>Generic SaaS marketing won&rsquo;t close a fintech buyer.<br><span class="pr-italic">Let&rsquo;s build a programme that does.</span></h2>
-    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
-    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
-      Dive deeper: <a href="/fintech-seo-agency/" style="color: var(--pr-cyan);">Fintech SEO agency</a> · <a href="/fintech-ppc-agency/" style="color: var(--pr-cyan);">Fintech PPC agency</a>
-    </p>
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2 style="max-width: 1030px;"><span class="pr-cta-soft">Generic SaaS marketing won&rsquo;t close a fintech buyer.</span> <strong>Let&rsquo;s build a programme that does.</strong></h2>
+    <p>We work with a small number of fintech companies at a time. If your pipeline isn&rsquo;t growing the way your board expects, let&rsquo;s find out if we&rsquo;re the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="service-bottom">Book free consultation</a>
   </div>
 </section>
 
