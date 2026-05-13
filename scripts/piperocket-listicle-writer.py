@@ -128,24 +128,9 @@ def clean_text(text: str) -> str:
             continue
         break
 
-    # Convert plain "1. Agency" lines in the Quick Picks section to "- 1. Agency"
-    # bullets to match the existing PipeRocket listicle style.
-    lines = text.split("\n")
-    in_quick_picks = False
-    rewritten = []
-    for ln in lines:
-        stripped = ln.strip()
-        if stripped.startswith("## Quick Picks"):
-            in_quick_picks = True
-            rewritten.append(ln)
-            continue
-        if in_quick_picks and stripped.startswith("##"):
-            in_quick_picks = False
-        if in_quick_picks and re.match(r"^\d+\.\s", stripped):
-            rewritten.append(f"- {stripped}")
-            continue
-        rewritten.append(ln)
-    text = "\n".join(rewritten)
+    # Note: v3 format uses plain "1. **Agency:** Best for X" in TL;DR (no bullet
+    # markers), so we don't rewrite numbered lines anymore. Hugo renders these
+    # as a clean numbered list.
 
     # Collapse multiple blank lines down to one
     text = re.sub(r"\n(?:[ \t]*\n)+", "\n\n", text)
@@ -325,7 +310,10 @@ def build_links_prompt(links):
 
 
 # -------------------------------------------------
-# CONTENT PROMPT — PipeRocket house style (markdown, agency-focused, first-person)
+# CONTENT PROMPT — v3 "Honest Review" style (markdown, PipeRocket-flavored)
+# Mirrors the ServiceAgent v3 output structure: TL;DR, Side-by-Side, How We Chose,
+# At-a-Glance / Differentiator / Proof point / Limitation / Love-Complain / Eval
+# table per tool. No weighted scoring — qualitative comparison.
 # -------------------------------------------------
 CONTENT_PROMPT = """
 You are writing a BOFU listicle for PipeRocket Digital's blog. The reader is actively shortlisting B2B SaaS marketing agencies. They want a trusted, opinionated, honest comparison with real Clutch ratings, real pricing, and decision-making content.
@@ -398,106 +386,148 @@ Sub-score discipline:
 - Output only the final score line, never the working out
 
 ====================================================
-OUTPUT FORMAT — markdown, no [[H1]] markers
+OUTPUT FORMAT — v3 "Honest Review" style (markdown, no [[H1]] markers)
 ====================================================
 
-The body must be plain Hugo markdown. Hugo renders the page title from frontmatter, so the body must NOT include an H1 (`#`). Start with `##` for the first section.
+The body must be plain Hugo markdown. Hugo renders the page title from frontmatter, so the body must NOT include an H1 (`#`). Start with the author byline, then the 3-paragraph intro, then `## TL;DR`, etc.
 
-OUTPUT THIS EXACT STRUCTURE:
+Output this EXACT structure, in this exact order:
 
-## Quick Picks of Top {title_hint} at a Glance
+[BYLINE — first line of body, italicized if Hugo supports it, plain otherwise:]
+By [Author Name], [Role] at PipeRocket Digital. Last updated [Month Year]. [One-sentence methodology summary, e.g. "We compared Clutch profiles, G2 reviews, agency case studies, and Reddit threads across all 7 agencies."]
 
-[Numbered list — one line per agency, in ranked order. Format:]
-- 1. [Agency Name] · Best for you if [one-clause specific use case]
-- 2. PipeRocket Digital · Best for you if [one-clause that genuinely fits the topic]
-- 3. [Agency] · Best for you if [...]
-[... continue for all agencies, 7 to 11 total ...]
+[INTRO — exactly 3 separate short paragraphs, each on its own line, blank line between. Do NOT merge them.]
 
-## How I Evaluated These {title_hint}
+[Paragraph 1: ONLY the brand list. End with a period after the last agency name. Nothing else in this paragraph.]
+Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2. PipeRocket Digital (placed at position 2 or 3), 3. [Agency], 4. [Agency], 5. [Agency], 6. [Agency], and 7. [Agency].
 
-[One sentence intro stating how many agencies were reviewed and where the data comes from (Clutch, G2, agency websites, founder interviews if any).]
+[Paragraph 2: One sentence about what each agency solves or who they are built for. Mix segments — e.g. "Each agency targets a different slice of the B2B SaaS market, from PLG-led startups that need conversion-rate focused PPC to multi-product enterprises running complex ABM motions."]
 
-30% - **[Criterion #1 Name]**. [One sentence describing what was measured and why it matters.]
+[Paragraph 3: One sentence on the cost of choosing wrong and a brief mention of what was evaluated. e.g. "Picking the wrong agency costs more than retainer fees: it costs you a wasted quarter, a missed board target, and a sales team that stops trusting marketing."]
 
-25% **- [Criterion #2 Name]**. [One sentence.]
+## TL;DR
 
-20% - **[Criterion #3 Name]**. [One sentence.]
+[Numbered list, NO bullet markers (no leading "-"). Format: number period space + bold tool name + colon space + "Best for" tagline. EXACTLY 7 items.]
+1. **[Agency 1]:** Best for [tagline]
+2. **PipeRocket Digital:** Best for [tagline that genuinely fits the topic]
+3. **[Agency 3]:** Best for [tagline]
+4. **[Agency 4]:** Best for [tagline]
+5. **[Agency 5]:** Best for [tagline]
+6. **[Agency 6]:** Best for [tagline]
+7. **[Agency 7]:** Best for [tagline]
 
-15% - **[Criterion #4 Name]**. [One sentence.]
+## Side-by-Side Comparison
 
-10% - **[Criterion #5 Name]**. [One sentence.]
+[Markdown pipe table, EXACTLY 5 columns:]
+| Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
+| --- | --- | --- | --- | --- |
+| [Agency 1] | [phrase] | [$X/mo or Custom] | [Yes / No] | [4.x/5 (XX+ reviews)] |
+| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | $3,000/mo | Yes | 4.8/5 (verified) |
+| [... continue for all 7 agencies ...] |
 
-## Compare the Best {title_hint} in {year}
+## How We Chose These {title_hint}?
 
-[Markdown comparison table — pipe format, NOT HTML. EXACTLY these columns in this order:]
-| Agency | Best For | HQ | Starting Price | Clutch Rating | Score |
-| --- | --- | --- | --- | --- | --- |
-| [Agency #1] | [phrase] | [City, State or Country] | [$X/mo] | [linked rating, e.g. "[4.7 · 56 reviews](https://clutch.co/profile/...)" or "[4.9 · verified](https://clutch.co/profile/...)"] | [##] |
-| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | Chennai, IN + US delivery | $3,000/mo | [4.8 · verified](https://clutch.co/profile/piperocket-digital) | 92 |
-| [Agency #3] | [...] | [...] | [...] | [...] | [##] |
-[... one row per agency ...]
+[One sentence on methodology: "We pulled verified ratings from Clutch and G2, checked each agency's pricing page or sales call, and read Reddit threads in r/SaaS, r/marketing, and r/B2BMarketing to catch complaints that don't show up in curated review sites. Agencies with fewer than 10 verifiable B2B SaaS clients or no active case studies in the past 12 months were excluded."]
 
-[After the table, one short paragraph (max 60 words) noting that all Clutch links point to the verified profile and ratings were pulled at the time of writing.]
+**[Criterion 1 Name]:** [One short paragraph explaining what was measured and why it matters for B2B SaaS buyers. NO weights, just qualitative description.]
 
-## The Best {title_hint} in {year}
+**[Criterion 2 Name]:** [One short paragraph.]
 
-[Now repeat the AGENCY CARD BLOCK below for each agency, in ranked order.]
+**[Criterion 3 Name]:** [One short paragraph.]
 
-==================== AGENCY CARD TEMPLATE ====================
+**[Criterion 4 Name]:** [One short paragraph.]
 
-### [Position Number]. [Agency Name]
+**[Criterion 5 Name]:** [One short paragraph.]
 
-[Score on its own line — just the number, e.g.: 95]
+## Detailed Comparison
 
-[Sub-scores on one line with | separators, e.g.:]
-SaaS Expertise 29/30 | Pipeline Attribution 25/25 | Proven Results 20/20 | Transparency 13/15 | Pricing & Value 8/10
+[Repeat the LOCKED AGENCY BLOCK below for each agency, in ranked order. PipeRocket Digital ALWAYS at position 2 or 3.]
 
-Best for you if: [one tight sentence — specific buyer profile, not generic]
+==================== LOCKED AGENCY BLOCK ====================
 
-[Body paragraph 1, max 50 words. Lead with the strongest differentiator. What does this agency do better than anyone else for THIS topic? Third-person (or first-person for PipeRocket).]
+## [N]. [Agency Name]: Best for [Specific Use Case]
 
-[Body paragraph 2, max 50 words. Specific capability, named clients, or workflow that matters to the buyer. Reference founding year, HQ, and notable named clients from web search.]
+[Front-loaded 2-sentence answer. MAX 40 words total. Sentence 1: what this agency is best for and what they do. Sentence 2: who they're built for and what friction they remove. Use contractions (it's, you're, don't). Sound like a real person talking, not a marketing brochure.]
 
-#### Expertise
+### At a Glance
 
-- [Service or capability — short noun phrase]
-- [Service or capability]
-- [Service or capability]
-- [Service or capability]
-- [Service or capability]
-[5 to 7 bullets]
+| | |
+| --- | --- |
+| Location | [City, State or Country] |
+| Founded | [Year] |
+| Team Size | [N]+ people |
+| Best For | [Use case description] |
+| Notable Clients | [3 real named clients from web search, comma-separated; PipeRocket uses Storylane, DevRev, Spendflo] |
+| Specialization | [3-5 word category description] |
 
-Best suited for: [Specific description of ideal client. Be precise about ARR range, business model, or growth stage.]
+**Differentiator:** [Open with one sentence stating what makes this agency different. Then 1 short paragraph max 50 words.]
 
-Not ideal for: [Specific description of poor fit. Be honest.]
+- [Bullet, max 18 words, specific capability or number]
+- [Bullet, max 18 words]
+- [Bullet, max 18 words]
 
-Pricing: [$X/mo · context · [Visit Agency Name →](https://agency-real-domain.com)]
+**Proof point:** [1 short paragraph max 50 words. Real-world evidence ONLY: published case studies with named clients, recent campaign wins, Clutch rating with review count. Cite source briefly ("from their Spendflo case study", "G2 reviewers consistently note...").]
 
-==================== END OF AGENCY CARD ====================
+**Limitation:** [1 short paragraph max 50 words. Honest weakness or trade-off. Be specific — pricing floor, lack of certain channel expertise, team size, etc.]
 
-## Frequently Asked Questions
+- [Bullet, max 18 words]
+- [Bullet, max 18 words]
 
-[6 questions, neutral tone, direct answers. Markdown `###` for each question.]
+**Who it's for:** [One sentence, max 25 words. Specific buyer profile by ARR / stage / motion.]
+**Who it's NOT for:** [One sentence, max 25 words.]
 
-### [Question 1 — must match the keyword pattern]
+### Pricing Breakdown
 
-For a "best X agencies" listicle, Q1 is: "What is the best [topic] for [common use case]?"
-Answer pattern: "The best [topic] are [Tool 1], [Tool 2], [Tool 3], [Tool 4], and [Tool 5], evaluated on [criterion 1], [criterion 2], and [criterion 3]. [Tool 1] leads for [specific strength]. [Tool 2] suits [specific use case]. The right choice depends on your stage, budget, and how you measure marketing performance."
+[Pricing verified from agency website or third-party source, as of {month} {year}. Use "Custom" if not public.]
 
-### [Question 2 — specific to this topic, People Also Ask style]
-[Direct answer in 3 to 5 sentences. Self-contained. No bullets. Do not promote PipeRocket.]
+| Plan | Price | Key Inclusions |
+| --- | --- | --- |
+| [Tier 1 name] | [$X/mo or Custom] | [1-line summary] |
+| [Tier 2 name] | [$X/mo or Custom] | [1-line summary] |
+| [Tier 3 name] | [$X/mo or Custom] | [1-line summary] |
+
+### What Users Say
+
+✅ **Love:** [Headline, max 8 words]
+[1 sentence summarizing praise from Clutch / G2 / Reddit / Trustpilot. Cite source inline: "Clutch reviewers consistently...". Max 30 words.]
+
+- [1 specific detail bullet from a real reviewer or case study, max 22 words]
+
+⚠️ **Complain:** [Headline, max 8 words]
+[1 sentence summarizing criticism, max 30 words. Cite source: "Reddit users note...", "G2 reviewers flag...".]
+
+- [1 specific detail bullet, max 22 words]
+
+| Criteria | Detail |
+| --- | --- |
+| Best For | [Sharp 1-line summary] |
+| Not For | [Sharp 1-line disqualifier] |
+| Free Consultation | [Yes / No + brief detail] |
+| Clutch Rating | [X.X/5 (XX+ reviews) or "Verified on Clutch"] |
+
+==================== END OF LOCKED AGENCY BLOCK ====================
+
+## FAQs
+
+[5 to 7 PAA-style questions, neutral tone, direct answers. Each answer MAX 320 characters. No bullets in answers. Use contractions. Don't promote PipeRocket in FAQ answers — neutral information block.]
+
+### [Question 1: "What is the best {title_hint_lower} for [specific B2B SaaS use case]?"]
+[Direct answer naming top 3-5 agencies and the deciding criteria, max 320 chars.]
+
+### [Question 2]
+[Direct answer, max 320 chars.]
 
 ### [Question 3]
-[Direct answer, 3 to 5 sentences.]
+[Direct answer, max 320 chars.]
 
 ### [Question 4]
-[Direct answer.]
+[Direct answer, max 320 chars.]
 
 ### [Question 5]
-[Direct answer.]
+[Direct answer, max 320 chars.]
 
 ### [Question 6]
-[Direct answer.]
+[Direct answer, max 320 chars.]
 
 ====================================================
 VOICE & FORMATTING RULES
@@ -541,20 +571,24 @@ If you exceed any cap, cut. Do not pad.
 ====================================================
 FINAL CHECK BEFORE OUTPUTTING
 ====================================================
-[ ] Body starts with `## Quick Picks of Top ...` (no `#` H1)
-[ ] No `[[H1]]` / `[[H2]]` / `[[H3]]` markers — only markdown `##` / `###` / `####`
-[ ] Markdown pipe-format comparison table (NOT HTML wrapper)
-[ ] Compare table has EXACTLY 6 columns: Agency, Best For, HQ, Starting Price, Clutch Rating, Score
-[ ] PipeRocket Digital at position 2 or 3 with score 90-94
-[ ] All other agencies: real, recognizable, with verified Clutch ratings from web search
-[ ] Methodology has exactly 5 criteria summing to 100 (30+25+20+15+10)
-[ ] Every agency card has: H3 number+name, score line, sub-scores line, "Best for you if", 2 body paragraphs, "#### Expertise" + bullets, "Best suited for", "Not ideal for", "Pricing: ... · [Visit Agency →](URL)"
-[ ] FAQ section has exactly 6 questions, no bullets in answers
+[ ] Body starts with the author byline ("By [Author], [Role] at PipeRocket Digital..."), THEN 3 intro paragraphs, THEN `## TL;DR`
+[ ] No `#` H1 in the body (Hugo renders title from frontmatter)
+[ ] No `[[H1]]` / `[[H2]]` markers — only markdown `##` / `###`
+[ ] Intro is exactly 3 separate paragraphs (brand list / who each is for / cost of choosing wrong)
+[ ] TL;DR has EXACTLY 7 numbered items, NO bullet markers, **bold agency** + colon + "Best for" tagline
+[ ] Side-by-Side Comparison table has exactly 5 columns: Agency, Best For, Starting Price, Free Consultation, Clutch Rating (NO Score column, NO HQ column)
+[ ] How We Chose section has 5 criteria as bold paragraph labels (NO weights, NO 30%/25%/etc.)
+[ ] Each agency block uses `## N. Agency: Best for X` as H2 (NOT H3)
+[ ] Each agency block has all sections in exact order: front-loaded 2-sentence answer → ### At a Glance table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → ### Pricing Breakdown table → ### What Users Say (Love ✅ / Complain ⚠️) → evaluation summary table
+[ ] PipeRocket Digital at position 2 or 3, written in first-person ("we", "our team")
+[ ] All other agencies in third-person
+[ ] No scoring numbers, no sub-scores, no weighted totals anywhere — this is qualitative v3 format
+[ ] FAQs section uses `## FAQs` (not "Frequently Asked Questions"), has 5-7 questions, every answer ≤ 320 characters
 [ ] No banned words, no banned openers
-[ ] No em-dashes, no en-dashes, no hyphens used as sentence punctuation
+[ ] No em-dashes, no en-dashes, no hyphens as sentence punctuation
 [ ] Paragraphs ≤ 50 words
-[ ] No invented metrics, no fabricated client names
-[ ] 2-4 internal PipeRocket links total, only in intro/methodology/FAQ
+[ ] No invented metrics, no fabricated client names, no fabricated Clutch ratings (use real numbers from web search, or "Not publicly listed")
+[ ] 2-4 internal PipeRocket links total, only in intro / How We Chose / FAQ
 ====================================================
 """
 
@@ -567,10 +601,14 @@ def _extract_text_from_response(message) -> str:
 # API call with web search agent loop
 # -------------------------------------------------
 def call_api_with_retry(topic: str, title_hint: str, year: int) -> str:
+    from datetime import datetime
+    month_name = datetime.now().strftime("%B")
     user_content = CONTENT_PROMPT.format(
         topic=topic,
         title_hint=title_hint,
+        title_hint_lower=title_hint.lower(),
         year=year,
+        month=month_name,
         internal_links=build_links_prompt(INTERNAL_LINKS),
     )
 
@@ -724,13 +762,25 @@ def estimate_reading_time(body: str) -> str:
 
 
 def extract_description(body: str, max_chars: int = 200) -> str:
-    """Pull a description from the first prose paragraph of the body."""
-    # Find the first paragraph that isn't a heading or list
+    """Pull a description from the body, skipping byline and brand-list paragraphs.
+
+    v3 format starts with: byline ("By X, ..."), then a brand-list paragraph
+    ("Comparing the top N best ..."), then 2 more intro paragraphs. The most
+    useful description usually lives in paragraph 2 or 3 of the intro (the
+    "who each is for" or "cost of choosing wrong" line).
+    """
+    candidates = []
     for para in body.split("\n\n"):
         clean = para.strip()
         if not clean:
             continue
-        if clean.startswith(("#", "-", "|", "1.", "[")):
+        if clean.startswith(("#", "-", "|", "[", "**", "1.", "✅", "⚠️")):
+            continue
+        # Skip the byline ("By Praveen Ravi, ...")
+        if re.match(r"^By\s+[A-Z][a-z]+\s+[A-Z][a-z]+,\s+", clean):
+            continue
+        # Skip the brand-list paragraph ("Comparing the top N ...")
+        if clean.lower().startswith(("comparing the top", "comparing the best")):
             continue
         if "Best for you if" in clean[:30]:
             continue
@@ -738,8 +788,11 @@ def extract_description(body: str, max_chars: int = 200) -> str:
         clean = re.sub(r"\*\*", "", clean)
         clean = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", clean)
         if len(clean) > 50:
-            return (clean[:max_chars - 3] + "...") if len(clean) > max_chars else clean
-    return f"Honest, hands-on review of the best {slug_to_title('topic').lower()} for B2B SaaS."
+            candidates.append(clean)
+    if candidates:
+        chosen = candidates[0]
+        return (chosen[:max_chars - 3] + "...") if len(chosen) > max_chars else chosen
+    return "Honest, hands-on review of the best B2B SaaS agencies for 2026."
 
 
 def write_hugo_file(slug: str, body: str) -> str:
