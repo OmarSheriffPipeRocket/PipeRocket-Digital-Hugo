@@ -8,29 +8,57 @@
 
 {{ $isArticle := in (slice "blogs" "list" "glossary" "alternative" "vs" "authors") .Section }}
 {{ $isHome := .IsHome }}
-{{ $title := cond $isHome .Site.Title (printf "%s - PipeRocket" .Title) }}
-{{ $desc := default .Site.Params.description .Description }}
-{{ $img := absURL (default "/images/piperocket-logo.svg" .Params.featuredImage) }}
 
+{{/* Resolve author from frontmatter (writtenBy) OR from authors section page slug */}}
 {{ $author := dict }}
 {{ if .Params.writtenBy }}
   {{ with index .Site.Data.authors .Params.writtenBy }}
     {{ $author = . }}
   {{ end }}
 {{ end }}
+{{/* For /authors/<slug>/ pages, the author IS the page — look up by file basename */}}
+{{ $isAuthorPage := eq .Section "authors" }}
+{{ if and $isAuthorPage (not .Params.writtenBy) }}
+  {{ $authorSlug := default .File.BaseFileName .Params.slug }}
+  {{ with index .Site.Data.authors $authorSlug }}
+    {{ $author = . }}
+  {{ end }}
+{{ end }}
+
+{{/* Title: SEO-optimized with brand suffix.
+     - Home: site title verbatim
+     - Author page: "<Name>, <Role> | PipeRocket Digital"
+     - Other: "<Page Title> - PipeRocket" */}}
+{{ $title := cond $isHome .Site.Title (printf "%s - PipeRocket" .Title) }}
+{{ if and $isAuthorPage $author.name $author.role }}
+  {{ $title = printf "%s, %s | PipeRocket Digital" $author.name $author.role }}
+{{ end }}
+
+{{/* Description: prefer page frontmatter, then auto-build for author pages
+     from authors.toml data, then fall back to site default. */}}
+{{ $desc := default .Site.Params.description .Description }}
+{{ if and $isAuthorPage (not .Description) $author.bio }}
+  {{ $desc = printf "%s — %s. %s" (default "" $author.name) (default "" $author.role) $author.bio }}
+{{ end }}
+
+{{ $img := absURL (default "/images/piperocket-logo.svg" .Params.featuredImage) }}
+
+{{/* ============== Core SEO tags ============== */}}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
 
 {{/* ============== Open Graph ============== */}}
 <meta property="og:site_name" content="PipeRocket Digital">
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="{{ cond $isArticle "article" "website" }}">
-<meta property="og:title" content="{{ cond $isHome .Site.Title .Title }}">
+<meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="{{ $img }}">
 
 {{/* ============== Twitter Card ============== */}}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ cond $isHome .Site.Title .Title }}">
+<meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $desc }}">
 <meta name="twitter:image" content="{{ $img }}">
 

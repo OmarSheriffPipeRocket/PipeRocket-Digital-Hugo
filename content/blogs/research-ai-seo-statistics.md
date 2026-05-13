@@ -1,5 +1,6 @@
 ---
 title: "60+ AI SEO Statistics for 2026 (Updated April)"
+description: "60+ AI SEO statistics for 2026: how ChatGPT, Perplexity, and AI Overviews are reshaping search, with first-party data on AEO/GEO visibility, click-through trends, and B2B SaaS implications."
 date: 2026-04-06
 url: "/research/ai-seo-statistics/"
 writtenBy: "kim"

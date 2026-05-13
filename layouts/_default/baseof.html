@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - PipeRocket{{ end }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  {{/* <title> + <meta description> are rendered by partials/head-meta.html
+       so they can use the same smart logic (author-page autobuild, etc.) */}}
   <link rel="canonical" href="{{ .Permalink }}">
 
   <!-- Fraunces (display serif) + Inter (body) -->
