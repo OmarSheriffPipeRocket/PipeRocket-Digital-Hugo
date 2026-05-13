@@ -5433,8 +5433,8 @@ main table a,
   margin-bottom: var(--pr-s-2);
 }
 .pr-author-card__bio {
-  font-size: 0.85rem;
-  line-height: 1.5;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
   color: var(--pr-ink-2);
   margin: 0 0 var(--pr-s-2);
 }
