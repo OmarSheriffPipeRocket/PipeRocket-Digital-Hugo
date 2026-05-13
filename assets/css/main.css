@@ -5487,40 +5487,51 @@ main table a,
    AUTHOR ARCHIVE PAGES
    ================================================================= */
 .pr-author-page { padding: var(--pr-s-9) 0; }
+/* Author profile header — styled like the sidebar author card (cream-2 bg,
+   cyan left border, cyan-ringed photo). Larger scale appropriate for a page. */
 .pr-author-page__header {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--pr-s-5);
   align-items: start;
   margin-bottom: var(--pr-s-8);
-  padding-bottom: var(--pr-s-7);
-  border-bottom: 1px solid var(--pr-line);
+  padding: var(--pr-s-6) var(--pr-s-7);
+  background: var(--pr-cream-2);
+  border-left: 3px solid var(--pr-cyan);
+  border-radius: 4px;
+  max-width: 920px;
 }
 @media (min-width: 768px) {
-  .pr-author-page__header { grid-template-columns: 200px 1fr; gap: var(--pr-s-7); }
+  .pr-author-page__header { grid-template-columns: 160px 1fr; gap: var(--pr-s-6); align-items: center; }
 }
 .pr-author-page__photo {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid var(--pr-cyan);
-  box-shadow: 0 8px 24px rgba(13, 13, 13, 0.1);
+  background: var(--pr-cream);
+  border: 3px solid var(--pr-cyan);
+  box-shadow: 0 4px 12px rgba(13, 13, 13, 0.08);
 }
 .pr-author-page__name {
-  font-size: clamp(2rem, 4vw, 3rem);
-  margin: var(--pr-s-3) 0 var(--pr-s-3);
+  font-family: var(--pr-serif);
+  font-weight: 600;
+  font-size: 32px !important;
+  line-height: 1.2 !important;
+  color: var(--pr-ink);
+  margin: var(--pr-s-2) 0 var(--pr-s-2);
 }
 .pr-author-page__role {
-  font-size: 1.1rem;
-  color: var(--pr-muted);
-  margin-bottom: var(--pr-s-4);
+  font-size: 0.95rem !important;
+  color: var(--pr-muted) !important;
+  line-height: 1.3 !important;
+  margin: 0 0 var(--pr-s-3);
 }
 .pr-author-page__bio {
-  font-size: 1.05rem;
-  line-height: 1.6;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
   color: var(--pr-ink-2);
-  margin-bottom: var(--pr-s-4);
+  margin: 0 0 var(--pr-s-4);
   max-width: 640px;
 }
 .pr-author-page__expertise {
