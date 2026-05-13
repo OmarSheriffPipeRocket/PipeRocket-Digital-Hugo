@@ -527,9 +527,10 @@ Example opening sentence:
 | Location | [City, State or Country] |
 | Founded | [Year] |
 | Team Size | [N]+ people |
-| Best For | [Use case description] |
 | Notable Clients | [3 real named clients from web search, comma-separated; PipeRocket uses Storylane, DevRev, Spendflo] |
 | Specialization | [3-5 word category description] |
+
+[CRITICAL: do NOT include a "Best For" row in this At-a-Glance table — the "Best for:" callout immediately under the H3 already covers that. Repeating it here is redundant.]
 
 **Differentiator:** [Open with one sentence stating what makes this agency different. Then 1 short paragraph max 50 words.]
 
