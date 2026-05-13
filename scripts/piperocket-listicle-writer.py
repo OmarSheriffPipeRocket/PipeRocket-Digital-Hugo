@@ -331,13 +331,18 @@ You have access to a web_search tool. Use it AGGRESSIVELY to ground every
 claim in real, linkable sources. This article will be judged on whether the
 reader can click through and verify what we wrote.
 
-SEARCH BUDGET: Up to 18 searches total. Use them efficiently.
+SEARCH BUDGET: Up to 22 searches total. Use them efficiently.
 
-PER NON-PIPEROCKET AGENCY (2 searches, ~12 searches):
+PER NON-PIPEROCKET AGENCY (3 searches, ~18 searches):
 - Search 1: "[Agency name] Clutch profile site:clutch.co"
   → Goal: get the EXACT Clutch profile URL (e.g. https://clutch.co/profile/klientboost),
     star rating, and number of reviews. Record the URL verbatim.
-- Search 2: "[Agency name] reddit OR quora review"
+- Search 2: "[Agency name] pricing site:<their-domain>" or "[Agency name] pricing page"
+  → Goal: get the EXACT pricing page URL on the agency's own site
+    (e.g. https://klientboost.com/pricing, https://webfx.com/digital-marketing/pricing/).
+    Record the URL verbatim. If no pricing page exists, find their /contact
+    or /get-a-quote page instead. Record the verified starting price.
+- Search 3: "[Agency name] reddit OR quora review"
   → Goal: find a real Reddit thread or Quora answer mentioning the agency
     with a specific opinion (positive or negative). Record the THREAD URL
     and a short verbatim quote (10-30 words) attributed to the source.
@@ -468,12 +473,14 @@ Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2.
 
 ## Side-by-Side Comparison
 
-[Markdown pipe table, EXACTLY 5 columns. The Clutch Rating cell MUST be a markdown link to the real Clutch profile URL pulled from web search.]
+[Markdown pipe table, EXACTLY 5 columns.
+ - Starting Price cell MUST link to the agency's real pricing/contact page URL.
+ - Clutch Rating cell MUST link to the real Clutch profile URL.]
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
-| [Agency 1] | [phrase] | [$X/mo or Custom] | [Yes / No] | [[4.9/5 (400+ reviews)](https://clutch.co/profile/<slug>)] |
-| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | $3,000/mo | Yes | [4.8/5 (verified)](https://clutch.co/profile/piperocket-digital) |
-| [... continue for all 7 agencies, every Clutch Rating cell linked to a real URL ...] |
+| [Agency 1] | [phrase] | [[$2,000/mo](https://klientboost.com/pricing)] | [Yes / No] | [[4.9/5 (400+ reviews)](https://clutch.co/profile/<slug>)] |
+| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | [$3,000/mo](https://piperocket.digital/contact-us/) | Yes | [4.8/5 (verified)](https://clutch.co/profile/piperocket-digital) |
+| [... continue for all 7 agencies. Every Starting Price and every Clutch Rating cell must be a markdown link to a real URL ...] |
 
 ## How We Chose These {title_hint}?
 
@@ -534,7 +541,11 @@ Example opening sentence:
 
 #### Pricing Breakdown
 
-[Pricing verified from agency website or third-party source, as of {month} {year}. Use "Custom" if not public.]
+[Pricing verified from the agency's pricing page or third-party source, as of {month} {year}. Use "Custom" if not public.]
+
+[Pricing page link: include a markdown link to the agency's REAL pricing page URL (e.g. https://klientboost.com/pricing). If the agency has no dedicated pricing page, link to their "Contact" or "Get a quote" page. Search for "[Agency name] pricing site:<agencydomain>" if needed.]
+
+📍 [View [Agency Name] pricing →](https://<agency-pricing-page-url>)
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
