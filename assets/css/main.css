@@ -5037,7 +5037,7 @@ main table a,
    BLOG — index list
    ================================================================= */
 .pr-bloglist__header { max-width: 720px; margin: 0 auto var(--pr-s-7); }
-.pr-bloglist__lede { font-size: 1.15rem; color: var(--pr-ink-2); }
+.pr-bloglist__lede { font-size: 18px !important; line-height: 1.5 !important; color: var(--pr-ink-2); }
 .pr-bloglist__grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -5067,14 +5067,15 @@ main table a,
 }
 .pr-bloglist__thumb:hover img { transform: scale(1.03); }
 .pr-bloglist__title {
-  font-size: 1.4rem;
+  font-size: 22px !important;
   margin: var(--pr-s-2) 0 var(--pr-s-3);
-  line-height: 1.2;
+  line-height: 1.3 !important;
 }
 .pr-bloglist__title a:hover { color: var(--pr-cyan); }
 .pr-bloglist__excerpt {
   color: var(--pr-ink-2);
-  font-size: 0.98rem;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
   margin-bottom: var(--pr-s-4);
 }
 .pr-bloglist__meta {
