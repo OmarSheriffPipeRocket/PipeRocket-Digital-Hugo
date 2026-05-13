@@ -59,21 +59,9 @@
     </div>
   {{ end }}
 
-  {{ with .Params.relatedLinks }}
-    <div class="pr-article-rail__card">
-      <h4 class="pr-article-rail__heading">Related links</h4>
-      <ul class="pr-article-rail__related">
-        {{ range . }}
-          <li>
-            <a href="{{ .url }}">
-              <strong>{{ .title }}</strong>
-              {{ with .description }}<span>{{ . }}</span>{{ end }}
-            </a>
-          </li>
-        {{ end }}
-      </ul>
-    </div>
-  {{ end }}
+  {{/* Related Links sidebar block removed — the "Related Reads" block at the
+       bottom of the article already covers the same links inline with better
+       context, so the rail Related Links was redundant. */}}
 
   {{ $current := . }}
   {{ $isFaqPage := or (in .RelPermalink "/faqs") (in (lower .Title) "faq") }}
