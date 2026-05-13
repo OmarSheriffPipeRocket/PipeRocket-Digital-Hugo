@@ -1,4 +1,5 @@
 ---
+date: 2026-04-18
 title: "SaaS PPC Agency - FAQs"
 description: "Is PPC worth it for an early-stage SaaS with no brand..."
 url: "/saas-ppc/faqs/"

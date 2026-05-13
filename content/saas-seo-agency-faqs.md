@@ -1,4 +1,6 @@
 ---
+date: 2026-04-18
+lastmod: 2026-05-02
 title: "SaaS SEO Agency - FAQs"
 description: "Is SEO worth it before we have product-market..."
 url: "/saas-seo-agency/faqs/"
