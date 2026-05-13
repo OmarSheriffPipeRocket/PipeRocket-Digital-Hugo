@@ -28,8 +28,38 @@ target = '(css|styles|scss|sass)'
 
 # Outputs
 [outputs]
-home = ["HTML", "RSS", "SITEMAP"]
+home = ["HTML", "RSS", "SITEMAP", "SITEMAPINDEX", "POSTSITEMAP", "PAGESITEMAP", "GLOSSARYSITEMAP", "COMPARESITEMAP"]
 section = ["HTML", "RSS"]
+
+# Custom output formats — mirror the WordPress (RankMath) multi-sitemap
+# structure so Google Search Console sees the same per-section sitemap URLs
+# after the WP → Hugo migration. Submitting `/sitemap_index.xml` to GSC will
+# auto-discover all section sitemaps below.
+[outputFormats.SITEMAPINDEX]
+mediaType = "application/xml"
+baseName = "sitemap_index"
+isPlainText = true
+notAlternative = true
+[outputFormats.POSTSITEMAP]
+mediaType = "application/xml"
+baseName = "post-sitemap"
+isPlainText = true
+notAlternative = true
+[outputFormats.PAGESITEMAP]
+mediaType = "application/xml"
+baseName = "page-sitemap"
+isPlainText = true
+notAlternative = true
+[outputFormats.GLOSSARYSITEMAP]
+mediaType = "application/xml"
+baseName = "glossary-sitemap"
+isPlainText = true
+notAlternative = true
+[outputFormats.COMPARESITEMAP]
+mediaType = "application/xml"
+baseName = "compare-sitemap"
+isPlainText = true
+notAlternative = true
 
 # Imaging
 [imaging]

@@ -1,0 +1,16 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{/* post-sitemap.xml — blogs + listicles (the WP "post" custom type included both) */}}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{{ $buildTime := now }}
+{{ range where .Site.Pages "Section" "in" (slice "blogs" "list") }}
+  {{- if eq .Kind "page" -}}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- $lastmod := .Lastmod -}}
+    {{- if $lastmod.IsZero }}{{ $lastmod = .Date }}{{ end -}}
+    {{- if $lastmod.IsZero }}{{ $lastmod = $buildTime }}{{ end }}
+    <lastmod>{{ $lastmod.Format "2006-01-02T15:04:05-07:00" }}</lastmod>
+  </url>
+  {{- end }}
+{{ end }}
+</urlset>

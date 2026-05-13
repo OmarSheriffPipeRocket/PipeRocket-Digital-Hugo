@@ -22,4 +22,5 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+Sitemap: https://piperocket.digital/sitemap_index.xml
 Sitemap: https://piperocket.digital/sitemap.xml

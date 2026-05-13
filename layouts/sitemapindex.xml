@@ -1,0 +1,20 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{ $now := now.Format "2006-01-02T15:04:05-07:00" }}
+  <sitemap>
+    <loc>{{ "post-sitemap.xml" | absURL }}</loc>
+    <lastmod>{{ $now }}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>{{ "page-sitemap.xml" | absURL }}</loc>
+    <lastmod>{{ $now }}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>{{ "glossary-sitemap.xml" | absURL }}</loc>
+    <lastmod>{{ $now }}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>{{ "compare-sitemap.xml" | absURL }}</loc>
+    <lastmod>{{ $now }}</lastmod>
+  </sitemap>
+</sitemapindex>
