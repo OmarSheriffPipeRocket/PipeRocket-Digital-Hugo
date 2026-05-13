@@ -4792,20 +4792,27 @@ a.pr-hero__cta:hover,
 .pr-listicle__body li,
 .pr-alt__body li,
 .pr-compare__body li { margin-bottom: var(--pr-s-2); }
-/* Horizontal-scroll wrapper for wide article tables.
-   JS in assets/js/main.js wraps every <table> inside .pr-*__body containers
-   in a div.pr-table-scroll so the table can scroll on narrow viewports
-   instead of overflowing the article width. */
+/* Responsive article tables — two layers:
+   1) CSS-only fallback: every <table> in an article body becomes block-
+      level with overflow-x: auto, so wide tables scroll even if JS is
+      disabled or the wrapper hasn't been applied yet.
+   2) JS enhancement: assets/js/main.js wraps each <table> in a
+      div.pr-table-scroll for cleaner semantics. The wrapper takes over
+      the overflow + margin; the table inside drops back to display:table. */
 .pr-table-scroll {
+  display: block;
+  width: 100%;
+  max-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   margin: var(--pr-s-5) 0;
-  /* visible scroll affordance on touch devices */
   scrollbar-width: thin;
 }
 .pr-table-scroll > table {
-  margin: 0;       /* the wrapper owns the vertical rhythm now */
-  min-width: 100%;
+  display: table;          /* restore proper table layout inside wrapper */
+  width: 100%;
+  margin: 0;
+  overflow: visible;       /* wrapper handles overflow */
 }
 
 .pr-blog__body table,
@@ -4813,14 +4820,17 @@ a.pr-hero__cta:hover,
 .pr-listicle__body table,
 .pr-alt__body table,
 .pr-compare__body table {
+  display: block;            /* CSS-only fallback responsive */
   width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   border-collapse: collapse;
   margin: var(--pr-s-5) 0;
   font-size: 0.95rem;
   background: var(--pr-cream);
   border: 1px solid var(--pr-line);
   border-radius: 4px;
-  overflow: hidden;
 }
 .pr-blog__body th,
 .pr-glossary__body th,
