@@ -325,32 +325,82 @@ Available internal links (use 2 to 4 across the article):
 {internal_links}
 
 ====================================================
-WEB SEARCH PROTOCOL
+WEB SEARCH PROTOCOL — accuracy + real source URLs are mandatory
 ====================================================
-You have access to a web_search tool. Use it BEFORE writing each agency block to ground every claim in real data:
+You have access to a web_search tool. Use it AGGRESSIVELY to ground every
+claim in real, linkable sources. This article will be judged on whether the
+reader can click through and verify what we wrote.
 
-SEARCH BUDGET: Maximum 12 searches across the entire article. Be efficient.
+SEARCH BUDGET: Up to 18 searches total. Use them efficiently.
 
-PRIORITY 1 (1 search per non-PipeRocket agency, ~10 searches):
-- Search "[Agency name] Clutch reviews pricing B2B SaaS"
-- This surfaces Clutch ratings, review counts, founding location, and case studies in one shot.
+PER NON-PIPEROCKET AGENCY (2 searches, ~12 searches):
+- Search 1: "[Agency name] Clutch profile site:clutch.co"
+  → Goal: get the EXACT Clutch profile URL (e.g. https://clutch.co/profile/klientboost),
+    star rating, and number of reviews. Record the URL verbatim.
+- Search 2: "[Agency name] reddit OR quora review"
+  → Goal: find a real Reddit thread or Quora answer mentioning the agency
+    with a specific opinion (positive or negative). Record the THREAD URL
+    and a short verbatim quote (10-30 words) attributed to the source.
 
-PRIORITY 2 (2 searches max for the whole article):
-- Search "[topic keyword] reddit" once to find unfiltered buyer complaints
-- Search "[#1 agency] vs [#2 agency]" once to anchor differentiator framing
+GLOBAL SEARCHES (3 max):
+- Search "[topic keyword] reddit" once for unfiltered category complaints
+- Search "best [topic]" SERP once to validate the 7-agency shortlist matches
+  what real buyers see
+- Search "[#1 agency] vs [#2 agency]" once for differentiator anchoring
 
-CRITICAL: After the search budget is exhausted, STOP searching and WRITE THE FULL ARTICLE in one continuous response from the first `##` heading to the last FAQ answer.
+CRITICAL: After the search budget is exhausted, STOP searching and WRITE
+THE FULL ARTICLE in one continuous response.
 
-For PipeRocket Digital: NO web search needed. Use the PIPEROCKET_CONTEXT verified facts (Chennai HQ + US delivery, founder Praveen Ravi, Clutch 4.8, $3K/mo starting retainer, real clients listed in context). Never invent metrics.
+For PipeRocket Digital: NO web search needed. Use PIPEROCKET_CONTEXT
+verified facts. Clutch URL: https://clutch.co/profile/piperocket-digital
+(use this exact URL).
 
-USE THE SEARCH RESULTS:
-- Real Clutch ratings + review counts (formatted as "4.8 · 56 reviews" with linked Clutch URL)
-- Verified pricing (or "Custom" if not public)
-- Real notable clients pulled from agency case studies
-- Real complaints from Reddit/Trustpilot if found (sourced inline)
-- Real founding year and HQ city
+====================================================
+LINKING & CITATION RULES — every external claim must link to its source
+====================================================
+Hard requirement: every Clutch rating, Reddit quote, Quora quote, and
+agency homepage MUST be a real, clickable link in the markdown output.
 
-If a search returns thin results, write "Not publicly disclosed" — never fabricate.
+CLUTCH RATING FORMAT (in Side-by-Side table and At a Glance):
+- Format: `[4.9/5 (400+ reviews)](https://clutch.co/profile/<agency-slug>)`
+- The URL must be the EXACT Clutch profile URL returned by web search.
+- Never invent the slug. If web search didn't return a Clutch URL,
+  write "Not listed on Clutch" with no link.
+
+AGENCY HOMEPAGE LINK (in the agency H3 heading or first sentence):
+- The H3 stays plain: `### N. Agency Name: Best for X`
+- Then in the first sentence of the front-loaded answer, link the agency
+  name to their real homepage URL once. Example:
+  `[KlientBoost](https://klientboost.com) stands out because...`
+- Use the actual domain from web search, never guess (e.g. WebFX is webfx.com,
+  not webfx.ai).
+
+REDDIT / QUORA QUOTES (in Proof point or Love/Complain blocks):
+- When you cite Reddit, format inline: "Reddit users in r/<sub> note ...
+  ([thread](https://www.reddit.com/r/.../comments/.../...))" with the
+  REAL thread URL.
+- When you cite Quora: "On Quora, [Author Name] writes ... ([answer](https://quora.com/...))"
+- If you cannot find a real Reddit/Quora source for a specific agency,
+  DO NOT fabricate the URL. Either:
+    (a) Cite Clutch/G2 reviews instead with the real Clutch URL, OR
+    (b) Drop the sourced quote and use the agency's own published case
+        study as the proof point with the case study URL.
+
+WHAT USERS SAY — Love / Complain section sourcing:
+- Each Love and Complain bullet must include either a real reviewer
+  URL/source OR a phrase like "from their published <Brand> case study"
+  with the case study URL.
+- Acceptable source patterns:
+    "G2 reviewers consistently praise X [source](https://g2.com/...)"
+    "Reddit users in r/PPC describe Y [thread](https://reddit.com/r/PPC/...)"
+    "Capterra reviewers flag Z [source](https://capterra.com/...)"
+    "On Quora, J. Smith writes ... ([answer](https://quora.com/...))"
+
+FABRICATION RULE (zero tolerance):
+- Never invent a URL, a reviewer name, a quote, or a metric.
+- If a source isn't available from web search, say so plainly:
+  "Reddit discussions about [Agency] are limited as of [Month Year]."
+- An honest "Not publicly disclosed" is always better than a fabricated link.
 
 ====================================================
 PIPEROCKET POSITIONING RULES
@@ -418,12 +468,12 @@ Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2.
 
 ## Side-by-Side Comparison
 
-[Markdown pipe table, EXACTLY 5 columns:]
+[Markdown pipe table, EXACTLY 5 columns. The Clutch Rating cell MUST be a markdown link to the real Clutch profile URL pulled from web search.]
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
-| [Agency 1] | [phrase] | [$X/mo or Custom] | [Yes / No] | [4.x/5 (XX+ reviews)] |
-| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | $3,000/mo | Yes | 4.8/5 (verified) |
-| [... continue for all 7 agencies ...] |
+| [Agency 1] | [phrase] | [$X/mo or Custom] | [Yes / No] | [[4.9/5 (400+ reviews)](https://clutch.co/profile/<slug>)] |
+| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | $3,000/mo | Yes | [4.8/5 (verified)](https://clutch.co/profile/piperocket-digital) |
+| [... continue for all 7 agencies, every Clutch Rating cell linked to a real URL ...] |
 
 ## How We Chose These {title_hint}?
 
@@ -447,7 +497,10 @@ Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2.
 
 ### [N]. [Agency Name]: Best for [Specific Use Case]
 
-[Front-loaded 2-sentence answer. MAX 40 words total. Sentence 1: what this agency is best for and what they do. Sentence 2: who they're built for and what friction they remove. Use contractions (it's, you're, don't). Sound like a real person talking, not a marketing brochure.]
+[Front-loaded 2-sentence answer. MAX 40 words total. Sentence 1: link the agency name to their REAL homepage URL pulled from web search, then state what this agency is best for and what they do. Sentence 2: who they're built for and what friction they remove. Use contractions (it's, you're, don't). Sound like a real person talking, not a marketing brochure.
+
+Example opening sentence:
+[KlientBoost](https://klientboost.com) stands out for B2B teams that want ...]
 
 #### At a Glance
 
@@ -488,15 +541,17 @@ Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2.
 
 #### What Users Say
 
-✅ **Love:** [Headline, max 8 words]
-[1 sentence summarizing praise from Clutch / G2 / Reddit / Trustpilot. Cite source inline: "Clutch reviewers consistently...". Max 30 words.]
+[Both Love and Complain MUST include a linked source. If you cannot find a real source via web search, drop the section rather than fabricating.]
 
-- [1 specific detail bullet from a real reviewer or case study, max 22 words]
+✅ **Love:** [Headline, max 8 words]
+[1 sentence summarizing praise. Cite source with a real markdown link, e.g. "Clutch reviewers consistently praise X [source](https://clutch.co/profile/<slug>)" or "Reddit users in r/PPC note Y [thread](https://www.reddit.com/r/...)". Max 30 words.]
+
+- [1 specific detail bullet from a real reviewer / Reddit / Quora source, max 22 words, with inline link to the source URL]
 
 ⚠️ **Complain:** [Headline, max 8 words]
-[1 sentence summarizing criticism, max 30 words. Cite source: "Reddit users note...", "G2 reviewers flag...".]
+[1 sentence summarizing criticism with a real linked source, max 30 words. E.g. "On Quora, [Name] writes ... ([answer](https://quora.com/...))" or "Reddit users in r/<sub> flag ... ([thread](https://reddit.com/r/...))".]
 
-- [1 specific detail bullet, max 22 words]
+- [1 specific detail bullet with linked source, max 22 words]
 
 | Criteria | Detail |
 | --- | --- |
@@ -588,6 +643,11 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] No em-dashes, no en-dashes, no hyphens as sentence punctuation
 [ ] Paragraphs ≤ 50 words
 [ ] No invented metrics, no fabricated client names, no fabricated Clutch ratings (use real numbers from web search, or "Not publicly listed")
+[ ] EVERY Clutch Rating cell in the Side-by-Side table is a markdown link to the real Clutch profile URL pulled from web search
+[ ] EVERY agency block opens with the agency name linked to their real homepage (e.g. [KlientBoost](https://klientboost.com))
+[ ] EVERY Love and Complain sentence cites a real linked source (Clutch profile, Reddit thread, Quora answer, Capterra, G2). If no real source is available, the section is dropped — never fabricated.
+[ ] At a Glance table also includes the real Clutch URL linked on the rating row (where applicable)
+[ ] All URLs come from web_search results; zero invented URLs
 [ ] 2-4 internal PipeRocket links total, only in intro / How We Chose / FAQ
 ====================================================
 """
