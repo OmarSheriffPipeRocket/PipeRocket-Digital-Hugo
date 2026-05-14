@@ -380,13 +380,19 @@ CLUTCH RATING FORMAT (in Side-by-Side table and At a Glance):
 - Never invent the slug. If web search didn't return a Clutch URL,
   write "Not listed on Clutch" with no link.
 
-AGENCY HOMEPAGE LINK (in the agency H3 heading or first sentence):
-- The H3 stays plain: `### N. Agency Name: Best for X`
-- Then in the first sentence of the front-loaded answer, link the agency
-  name to their real homepage URL once. Example:
+AGENCY HOMEPAGE LINK (in the first prose sentence under the H3):
+- The H3 stays plain: `### N. Agency Name` (JUST the rank + name, no
+  ": Best for X" suffix in the heading — the site JS auto-converts the
+  rank into a styled "01" badge, and the "Best for:" callout lives in a
+  separate paragraph below).
+- Immediately below the H3, on its own line: `Best for: [tagline]` —
+  the site CSS auto-highlights this as a callout.
+- In the first sentence of the front-loaded answer (the paragraph after
+  "Best for:"), link the agency name to their real homepage URL once.
+  Example:
   `[KlientBoost](https://klientboost.com) stands out because...`
-- Use the actual domain from web search, never guess (e.g. WebFX is webfx.com,
-  not webfx.ai).
+- Use the actual domain from web search, never guess (e.g. WebFX is
+  webfx.com, not webfx.ai).
 
 REDDIT / QUORA QUOTES (in Proof point or Love/Complain blocks):
 - When you cite Reddit, format inline: "Reddit users in r/<sub> note ...
@@ -452,7 +458,7 @@ Sub-score discipline:
 OUTPUT FORMAT — v3 "Honest Review" style (markdown, no [[H1]] markers)
 ====================================================
 
-The body must be plain Hugo markdown. Hugo renders the page title from frontmatter, so the body must NOT include an H1 (`#`). Start with the author byline, then the 3-paragraph intro, then `## TL;DR`, etc.
+The body must be plain Hugo markdown. Hugo renders the page title from frontmatter, so the body must NOT include an H1 (`#`) and must NOT include a "By [Author], ..." byline (author info already renders in the sidebar author-card). Start directly with the 3-paragraph intro, then `## TL;DR`, etc.
 
 Output this EXACT structure, in this exact order:
 
