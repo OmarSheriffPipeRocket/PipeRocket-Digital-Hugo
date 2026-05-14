@@ -104,6 +104,15 @@
 .pr-listicle-v2__main h2 { font-size: 34px !important; }
 .pr-listicle-v2__main h3:not(.pr-card__name) { font-size: 24px !important; }
 
+/* The v2 main has `.pr-listicle__body` so it inherits legacy typography
+   + agency-card decoration. Override the legacy layout caps that don't
+   apply inside the v2 grid (which already controls width). */
+.pr-listicle-v2 .pr-listicle-v2__main.pr-listicle__body {
+  max-width: none;
+  margin: 0;
+  width: auto;
+}
+
 /* ---------- Quick picks list ---------- */
 .pr-listicle-v2__picks {
   list-style: decimal;
@@ -337,6 +346,76 @@
 }
 .pr-card__pricing a { color: #0ba6e2; text-decoration: none; }
 .pr-card__pricing a:hover { text-decoration: underline; }
+
+/* ---------- Agency content (raw markdown rendering) ----------
+   No JS card wrapping anymore. We rely on Goldmark's natural HTML output:
+   - "### N. Agency Name" → <h3>
+   - "Best for: …"        → <p>
+   - "**At a Glance**"    → <p><strong>At a Glance</strong></p>
+   - markdown tables       → <table> (responsive wrap added by main.js)
+   - "**Differentiator:** …" → <p><strong>Differentiator:</strong>…</p>
+   - bullet lists, links, blockquotes → standard tags
+   All styled by this section. */
+
+/* H3 agency headings — extra breathing room between agencies */
+.pr-listicle-v2__main h3 {
+  margin-top: 56px !important;
+  margin-bottom: 20px !important;
+  padding-top: 32px;
+  border-top: 1px solid #e5e0d8;
+}
+/* First h3 in the ranking list doesn't need a top border */
+.pr-listicle-v2__main h2 + h3 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 32px !important;
+}
+
+/* "Best for:" line and bolded inline labels stay as standard paragraphs.
+   No special callout boxes — content reads top-to-bottom as written. */
+.pr-listicle-v2__main p { line-height: 1.75; }
+
+/* Tables inside the article body — clean, bordered, easy to scan */
+.pr-listicle-v2__main .pr-table-scroll,
+.pr-listicle-v2__main .pr-listicle-v2__tbl-wrap {
+  margin: 16px 0 28px;
+}
+.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid #e5e0d8;
+}
+.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) th {
+  padding: 10px 14px;
+  background: #faf8f3;
+  color: #535353;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 1px solid #e5e0d8;
+  border-right: 1px solid #e5e0d8;
+}
+.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) th:last-child { border-right: none; }
+.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) td {
+  padding: 11px 14px;
+  border-bottom: 1px solid #e5e0d8;
+  border-right: 1px solid #e5e0d8;
+  vertical-align: top;
+  color: #111;
+  line-height: 1.55;
+}
+.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) td:last-child { border-right: none; }
+.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) tr:last-child td { border-bottom: none; }
+.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) td:first-child { font-weight: 600; }
+.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) a {
+  color: #0ba6e2;
+  text-decoration: none;
+}
+.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) a:hover { text-decoration: underline; }
 
 /* ---------- Related articles ---------- */
 .pr-listicle-related {
