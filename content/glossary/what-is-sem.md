@@ -5,6 +5,8 @@ meta_description: "SEM is search engine marketing paid ads on Google and Bing. I
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-sem"
+categorySlug: "paid"
+subcategorySlug: "google-ads"
 writtenBy: "praveen"
 wp_id: 3271
 wp_link: "/glossary/what-is-sem/"

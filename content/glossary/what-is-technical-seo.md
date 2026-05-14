@@ -4,6 +4,8 @@ description: "Technical SEO is the process of optimizing your website’s infras
 meta_description: "Technical SEO is how search engines crawl, index, and rank your site. Learn what it is, why it matters, and what most teams get wrong."
 date: 2026-04-27
 slug: "what-is-technical-seo"
+categorySlug: "seo"
+subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3371
 wp_link: "/glossary/what-is-technical-seo/"

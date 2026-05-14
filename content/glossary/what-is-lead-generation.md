@@ -5,6 +5,8 @@ meta_description: "Lead generation means finding and qualifying potential custom
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-lead-generation"
+categorySlug: "saas-marketing"
+subcategorySlug: "pipeline-funnel"
 writtenBy: "kamaraj"
 wp_id: 3277
 wp_link: "/glossary/what-is-lead-generation/"

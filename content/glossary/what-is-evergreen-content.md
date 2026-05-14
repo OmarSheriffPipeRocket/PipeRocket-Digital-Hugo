@@ -5,6 +5,8 @@ meta_description: "Evergreen content is timeless, search-optimized information t
 date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-evergreen-content"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3177
 wp_link: "/glossary/what-is-evergreen-content/"

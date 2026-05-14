@@ -5,6 +5,8 @@ meta_description: "Prompt engineering is the craft of designing inputs for AI li
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-prompt-engineering"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3209
 wp_link: "/glossary/what-is-prompt-engineering/"

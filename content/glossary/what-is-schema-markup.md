@@ -6,6 +6,8 @@ meta_description: "Schema markup is code that helps search engines understand yo
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-schema-markup"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3098
 wp_link: "/glossary/what-is-schema-markup/"

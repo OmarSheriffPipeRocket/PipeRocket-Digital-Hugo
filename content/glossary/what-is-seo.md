@@ -5,6 +5,8 @@ meta_description: "SEO means making your site findable in Google. Here’s what 
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-seo"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3260
 wp_link: "/glossary/what-is-seo/"

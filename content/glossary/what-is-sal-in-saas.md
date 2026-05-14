@@ -5,6 +5,8 @@ meta_title: "What Is SAL in SaaS Sales? A Clear Guide"
 meta_description: "SAL stands for Sales Accepted Lead a qualification checkpoint between marketing and sales. Learn what it means, why it matters, and how to set it up right."
 date: 2026-04-27
 slug: "what-is-sal-in-saas"
+categorySlug: "marketing-ops"
+subcategorySlug: "lifecycle"
 writtenBy: "ranjeeth"
 wp_id: 3535
 wp_link: "/glossary/what-is-sal-in-saas/"

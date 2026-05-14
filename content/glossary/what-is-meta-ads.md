@@ -5,6 +5,8 @@ meta_title: "What Is Meta Ads? Plain English for SaaS Teams"
 meta_description: "Meta ads are paid campaigns on Facebook, Instagram, and Messenger. Learn what they are, why they matter for SaaS, and where most teams get them wrong."
 date: 2026-04-27
 slug: "what-is-meta-ads"
+categorySlug: "paid"
+subcategorySlug: "linkedin-ads"
 writtenBy: "praveen"
 wp_id: 3382
 wp_link: "/glossary/what-is-meta-ads/"

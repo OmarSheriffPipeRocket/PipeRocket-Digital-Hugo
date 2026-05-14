@@ -5,6 +5,8 @@ meta_description: "CLS measures visual stability on web pages. Learn what CLS is
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-cls"
+categorySlug: "seo"
+subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3102
 wp_link: "/glossary/what-is-cls/"

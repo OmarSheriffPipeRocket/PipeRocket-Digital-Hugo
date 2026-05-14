@@ -6,6 +6,8 @@ meta_description: "Robots.txt tells search engines which pages to crawl or skip.
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-robots-txt"
+categorySlug: "seo"
+subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3091
 wp_link: "/glossary/what-is-robots-txt/"

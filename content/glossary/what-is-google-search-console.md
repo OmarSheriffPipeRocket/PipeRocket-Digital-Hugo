@@ -6,6 +6,8 @@ meta_description: "Google Search Console is a free tool to track your website’
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-google-search-console"
+categorySlug: "seo"
+subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3096
 wp_link: "/glossary/what-is-google-search-console/"

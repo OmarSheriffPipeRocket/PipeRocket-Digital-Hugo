@@ -5,6 +5,8 @@ meta_title: "What Is Brand Identity? A SaaS Founder's Guide"
 meta_description: "Brand identity is more than a logo. Learn what it actually includes, why it matters for SaaS growth, and how to build one that holds up at scale."
 date: 2026-04-27
 slug: "what-is-brand-identity"
+categorySlug: "saas-marketing"
+subcategorySlug: "icp-targeting"
 writtenBy: "vishnu-prasad"
 wp_id: 3542
 wp_link: "/glossary/what-is-brand-identity/"

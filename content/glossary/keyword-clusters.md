@@ -6,6 +6,8 @@ meta_description: "A keyword cluster is a group of related keywords targeting on
 date: 2026-04-10
 lastmod: 2026-05-14
 slug: "glossary-keyword-clusters"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3037
 wp_link: "/glossary/keyword-clusters/"

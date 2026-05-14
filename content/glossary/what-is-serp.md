@@ -5,6 +5,8 @@ meta_description: "SERP means \"Search Engine Results Page\". Learn what it is, 
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-serp"
+categorySlug: "seo"
+subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3089
 wp_link: "/glossary/what-is-serp/"

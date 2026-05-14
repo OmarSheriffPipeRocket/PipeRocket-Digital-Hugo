@@ -5,6 +5,8 @@ meta_description: "Anchor text is the visible, clickable part of a link. It shap
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-anchor-text"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3094
 wp_link: "/glossary/what-is-anchor-text/"

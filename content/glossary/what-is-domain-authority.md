@@ -5,6 +5,8 @@ meta_description: "Domain authority predicts how likely a website is to rank. Le
 date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-domain-authority"
+categorySlug: "seo"
+subcategorySlug: "off-page"
 writtenBy: "kamaraj"
 wp_id: 3191
 wp_link: "/glossary/what-is-domain-authority/"

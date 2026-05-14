@@ -5,6 +5,8 @@ meta_title: "What Is GA4? The SaaS Marketer's Guide"
 meta_description: "GA4 is Google's current analytics platform, replacing Universal Analytics. Learn how it works, what's different, and how to get real value from it."
 date: 2026-04-27
 slug: "what-is-ga4"
+categorySlug: "saas-marketing"
+subcategorySlug: "attribution"
 writtenBy: "vishnu-prasad"
 wp_id: 3538
 wp_link: "/glossary/what-is-ga4/"

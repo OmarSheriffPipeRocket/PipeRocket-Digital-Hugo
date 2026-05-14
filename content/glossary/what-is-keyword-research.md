@@ -5,6 +5,8 @@ meta_title: "What Is Keyword Research? A SaaS Marketer's Guide"
 meta_description: "Keyword research finds the terms your buyers actually search. Done right, it drives qualified traffic and pipeline not just rankings. Here's how it works."
 date: 2026-04-27
 slug: "what-is-keyword-research"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "ranjeeth"
 wp_id: 3553
 wp_link: "/glossary/what-is-keyword-research/"

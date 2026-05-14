@@ -5,6 +5,8 @@ meta_title: "What Is Conversion Rate? How To Measure, Improve, and Actually Use 
 meta_description: "Conversion rate is the percent of visitors who take a desired action. Learn what it means, why most teams misunderstand it, and how to use it for growth."
 date: 2026-04-27
 slug: "what-is-conversion-rate"
+categorySlug: "saas-marketing"
+subcategorySlug: "attribution"
 writtenBy: "praveen"
 wp_id: 3375
 wp_link: "/glossary/what-is-conversion-rate/"

@@ -6,6 +6,8 @@ meta_description: "Indexing means adding web pages to a search engine’s databa
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-indexing"
+categorySlug: "seo"
+subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3085
 wp_link: "/glossary/what-is-indexing/"

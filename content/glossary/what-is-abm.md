@@ -5,6 +5,8 @@ meta_title: "What Is ABM? Account-Based Marketing Explained"
 meta_description: "ABM is a B2B strategy that targets specific accounts instead of broad audiences. Learn how it works, when to use it, and how to run it effectively."
 date: 2026-04-27
 slug: "what-is-abm"
+categorySlug: "paid"
+subcategorySlug: "abm"
 writtenBy: "vishnu-prasad"
 wp_id: 3541
 wp_link: "/glossary/what-is-abm/"

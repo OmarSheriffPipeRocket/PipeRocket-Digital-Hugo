@@ -5,6 +5,8 @@ meta_title: "What Is Programmatic Advertising? Guide for SaaS & B2B"
 meta_description: "Programmatic advertising automates buying and placing digital ads in real time. Learn how it works, why most teams misuse it, and what smarter SaaS teams do instead."
 date: 2026-04-27
 slug: "what-is-programmatic-advertising"
+categorySlug: "paid"
+subcategorySlug: "linkedin-ads"
 writtenBy: "praveen"
 wp_id: 3379
 wp_link: "/glossary/what-is-programmatic-advertising/"

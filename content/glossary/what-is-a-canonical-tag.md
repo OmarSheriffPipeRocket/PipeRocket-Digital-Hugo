@@ -5,6 +5,8 @@ meta_description: "A canonical tag helps search engines pick the main version of
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-a-canonical-tag"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3087
 wp_link: "/glossary/what-is-a-canonical-tag/"

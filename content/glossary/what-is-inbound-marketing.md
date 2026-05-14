@@ -5,6 +5,8 @@ meta_title: "What Is Inbound Marketing? A SaaS Marketer's Guide"
 meta_description: "Inbound marketing attracts buyers through content, SEO, and trust not interruption. Here's what it actually means for SaaS growth and how to make it work."
 date: 2026-04-27
 slug: "what-is-inbound-marketing"
+categorySlug: "saas-marketing"
+subcategorySlug: "pipeline-funnel"
 writtenBy: "kamaraj"
 wp_id: 3536
 wp_link: "/glossary/what-is-inbound-marketing/"

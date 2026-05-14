@@ -5,6 +5,8 @@ meta_title: "What Is Runway? A SaaS Founder's Guide"
 meta_description: "Runway is how long your startup can survive before running out of cash. Learn how to calculate it, extend it, and use it to make smarter growth decisions."
 date: 2026-04-27
 slug: "what-is-runway"
+categorySlug: "marketing-ops"
+subcategorySlug: "revops"
 writtenBy: "ranjeeth"
 wp_id: 3552
 wp_link: "/glossary/what-is-runway/"

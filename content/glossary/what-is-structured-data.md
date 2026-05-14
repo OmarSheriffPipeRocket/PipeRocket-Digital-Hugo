@@ -5,6 +5,8 @@ meta_description: "Structured data organizes content for search engines and apps
 date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-structured-data"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3189
 wp_link: "/glossary/what-is-structured-data/"

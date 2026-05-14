@@ -5,6 +5,8 @@ meta_description: "A long tail keyword is a specific, low-competition search phr
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-a-long-tail-keyword"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3100
 wp_link: "/glossary/what-is-a-long-tail-keyword/"

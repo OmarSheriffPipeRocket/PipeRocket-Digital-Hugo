@@ -6,6 +6,8 @@ meta_description: "A backlink is a hyperlink from one website to another, acting
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-a-backlink"
+categorySlug: "seo"
+subcategorySlug: "off-page"
 writtenBy: "kamaraj"
 wp_id: 3083
 wp_link: "/glossary/what-is-a-backlink/"

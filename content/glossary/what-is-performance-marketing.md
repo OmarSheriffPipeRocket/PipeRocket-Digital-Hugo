@@ -6,6 +6,8 @@ meta_description: "Performance marketing means paying for real, measurable resul
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-performance-marketing"
+categorySlug: "paid"
+subcategorySlug: "google-ads"
 writtenBy: "praveen"
 wp_id: 3262
 wp_link: "/glossary/what-is-performance-marketing/"

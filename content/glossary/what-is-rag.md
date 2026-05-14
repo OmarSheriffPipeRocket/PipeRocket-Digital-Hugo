@@ -5,6 +5,8 @@ meta_description: "RAG is an AI technique that combines search and generation fo
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-rag"
+categorySlug: "seo"
+subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3207
 wp_link: "/glossary/what-is-rag/"

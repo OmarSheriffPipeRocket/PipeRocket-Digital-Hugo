@@ -5,6 +5,8 @@ meta_description: "An SEO audit checks your site’s search health, flags issues
 date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-an-seo-audit"
+categorySlug: "seo"
+subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3193
 wp_link: "/glossary/what-is-an-seo-audit/"

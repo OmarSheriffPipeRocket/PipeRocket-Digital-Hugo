@@ -5,6 +5,8 @@ meta_description: "Off page SEO is building authority through backlinks and exte
 date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-off-page-seo"
+categorySlug: "seo"
+subcategorySlug: "off-page"
 writtenBy: "kamaraj"
 wp_id: 3187
 wp_link: "/glossary/what-is-off-page-seo/"

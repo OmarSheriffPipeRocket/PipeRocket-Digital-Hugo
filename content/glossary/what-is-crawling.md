@@ -5,6 +5,8 @@ meta_title: "What Is Crawling? How Search Engines Find Your Pages"
 meta_description: "Crawling is how search engines discover your web pages. If bots can't crawl your site, nothing else in SEO matters. Here's what you need to know."
 date: 2026-04-27
 slug: "what-is-crawling"
+categorySlug: "seo"
+subcategorySlug: "technical"
 writtenBy: "ranjeeth"
 wp_id: 3540
 wp_link: "/glossary/what-is-crawling/"

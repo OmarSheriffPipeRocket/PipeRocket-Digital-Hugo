@@ -5,6 +5,8 @@ meta_description: "A 301 redirect is a permanent URL change that passes SEO valu
 date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-a-301-redirect"
+categorySlug: "seo"
+subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3181
 wp_link: "/glossary/what-is-a-301-redirect/"
