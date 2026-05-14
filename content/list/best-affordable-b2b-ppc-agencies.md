@@ -30,17 +30,17 @@ Picking the wrong agency costs more than retainer fees: it costs you a wasted qu
 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
-| KlientBoost | Performance PPC with transparent pricing | [$2,000/mo](https://klientboost.com/pricing) | Yes | [4.9/5 (401+ reviews)](https://clutch.co/profile/klientboost) |
-| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.8/5 (verified)](https://clutch.co/profile/piperocket-digital) |
-| Directive Consulting | Enterprise B2B SaaS Customer Generation | [$5,000/mo startup, $8,000+ standard](https://directiveconsulting.com/startup-package/) | Yes | [4.7/5 (56+ reviews)](https://clutch.co/profile/directive) |
+| KlientBoost | Performance PPC with transparent pricing | [$2,000/mo](https://klientboost.com/pricing) | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
+| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Directive Consulting | Enterprise B2B SaaS Customer Generation | [$6,500/mo startup](https://directiveconsulting.com/startup-package/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
 | Disruptive Advertising | Month-to-month B2B PPC management | [$5,000/mo+](https://disruptiveadvertising.com/advertising-services/) | Yes | [4.8/5 (365+ reviews)](https://clutch.co/profile/disruptive-advertising) |
-| Ladder.io | Creative-first growth marketing | [Custom, $3,500+ reported](https://ladder.io/) | Yes | [4.6/5 (14 reviews)](https://clutch.co/profile/ladderio) |
+| Ladder.io | Creative-first growth marketing | [Custom, $3,500+ reported](https://ladder.io/) | Yes | [4.4/5 (14 reviews)](https://clutch.co/profile/ladderio) |
 | GrowthSpree | Flat-fee PPC for pipeline | [$3,000/mo flat](https://growthspreeofficial.com/) | Yes | 4.9/5 G2 |
 | WebFX | Transparent pricing for mid-market | [$1,000/mo+](https://webfx.com/) | Yes | 4.9/5 (500+ reviews) |
 
 ## How We Chose These Best Affordable B2B PPC Agencies
 
-We pulled verified ratings from Clutch and G2, checked each agency's pricing page directly, and reviewed published case studies and third-party mentions to catch positioning that doesn't show up in curated review sites. Agencies with fewer than 10 verifiable B2B SaaS clients or no active case studies in the past 12 months were excluded.
+We pulled verified ratings from Clutch and G2, checked each agency's pricing page directly, and reviewed published case studies and third-party mentions to catch positioning that doesn't show up in curated review sites. Agencies with fewer than 10 verifiable B2B SaaS clients or no active case studies in the past 12 months were excluded. All ratings and source links were spot-checked in May 2026. Most agencies don't publish their rate cards publicly, so pricing tagged "industry-reported" below reflects third-party data and prior client engagements rather than published rates.
 
 **B2B PPC Expertise:** We prioritized agencies with demonstrated B2B experience, not just generic PPC management. The best B2B PPC agencies understand long sales cycles, multi-stakeholder buying committees, and how to optimize for pipeline rather than just lead volume. We looked for case studies showing cost per SQL, pipeline contribution, and closed-won revenue attribution.
 
@@ -69,11 +69,11 @@ Best for: Performance-Focused PPC with Transparent Pricing and Real-Time Optimiz
 | Notable Clients | Upwork, SAP, Stanford University |
 | Specialization | Performance PPC, CRO, SEO |
 
-**Differentiator:** KlientBoost's pricing is among the most transparent in the space, with retainers typically running $2,000 to $15,000 per month depending on spend level and scope. They hit 88% of client goals in Q1 2026 and manage PPC across 250+ active B2B and SaaS clients.
+**Differentiator:** KlientBoost is one of the few agencies that publishes goal-hit rates publicly — they hit 88% of client goals in Q1 2026 (per their homepage). Retainers are industry-reported in the $2,000–$15,000+/month range depending on spend level and scope; specific rates aren't published on their pricing page.
 
-- Google Ads agency pricing typically ranges from $2,000 to $15,000+ per month depending on ad spend level and service scope
+- Industry-reported Google Ads agency pricing for KlientBoost ranges from $2,000 to $15,000+ per month depending on ad spend level and service scope
 - Growth Grid methodology tracks goal pace continuously and reallocates budget toward what's working, directly affecting cost per pipeline opportunity
-- The team manages Search, Performance Max, Display, YouTube, and Shopping campaigns for 250+ active B2B and SaaS clients
+- The team manages Search, Performance Max, Display, YouTube, and Shopping campaigns across a large active B2B / SaaS client base
 
 **Proof point:** Clutch reviewers report significant improvements in PPC and SEO performance, with increased leads and reduced costs. KlientBoost's data-driven approach and expertise in optimizing campaigns have consistently delivered measurable results, improving clients' ROAS and CPL.
 
@@ -87,13 +87,13 @@ Best for: Performance-Focused PPC with Transparent Pricing and Real-Time Optimiz
 **Who it's NOT for:** Early-stage startups with less than $10,000/month to invest in combined retainer and ad spend.
 
 **Pricing Breakdown**
-Pricing typically ranges from $2,000 to $15,000+ per month depending on ad spend level and service scope, as of May 2026.
+KlientBoost doesn't publish rate cards on their [pricing page](https://klientboost.com/pricing) (visitors are routed through a free marketing plan first). Industry-reported retainers are $2,000–$15,000+/month depending on ad spend and scope, as of May 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Entry PPC | $2,000/mo | Single-channel Google Ads or LinkedIn Ads management, basic reporting |
-| Growth PPC | $5,000-$10,000/mo | Multi-channel PPC, landing page optimization, weekly reporting |
-| Enterprise PPC | $10,000-$15,000+/mo | Full-funnel PPC, CRO, dedicated strategist, daily optimization |
+| Entry PPC | ~$2,000/mo (reported) | Single-channel Google Ads or LinkedIn Ads management, basic reporting |
+| Growth PPC | ~$5,000–$10,000/mo (reported) | Multi-channel PPC, landing page optimization, weekly reporting |
+| Enterprise PPC | ~$10,000–$15,000+/mo (reported) | Full-funnel PPC, CRO, dedicated strategist, daily optimization |
 
 **What Users Say**
 **Love:** Strong results and proactive communication
@@ -111,7 +111,7 @@ Some clients found the onboarding process required significant time and effort t
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes marketing plan and ROI calculation |
-| Clutch Rating | [4.9/5 (401+ reviews)](https://clutch.co/profile/klientboost) |
+| Clutch Rating | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
 
 ---
 
@@ -171,7 +171,7 @@ Some early-stage startups find our $3,000/mo minimum retainer higher than budget
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Clutch Rating | [4.8/5 (verified)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -192,28 +192,28 @@ Best for: Enterprise B2B SaaS with Scale-Stage Budgets and Customer Generation M
 
 **Differentiator:** Directive's Customer Generation approach means they align PPC campaigns directly with your ICP and focus obsessively on metrics that impact revenue, not vanity metrics like impressions or clicks. Their team of 100+ marketing strategists brings deep vertical expertise, combining data-backed PPC strategy with creative excellence and conversion rate optimisation.
 
-- Startup package available at $5,000/month with full marketing team at the cost of a single FTE
+- Startup package publicly listed at $6,500/month on Directive's [startup-package page](https://directiveconsulting.com/startup-package/) — full marketing team at roughly the cost of a single FTE
 - Directive's proven Customer Generation methodology has generated +$1B in revenue for clients in the last 10 years
 - Stratos is Directive's AI-powered intelligence platform, built to give B2B marketers real-time clarity across every channel by unifying CRM, paid media, SEO, and ops data
 
 **Proof point:** DBT, a data transformation tool, came to Directive looking to start scaling on the right foot as they had never invested in paid media. Directive launched their first paid media campaign to make the most out of their yearly conference, and they exceeded their growth goals by nearly 2X ([case study](https://directiveconsulting.com/case-studies/dbt/)).
 
-**Limitation:** Directive's model and pricing are built for companies with scale-stage marketing budgets, not early-stage teams with limited budgets. Their retainers typically start at $8,000/month for standard engagements, making them less accessible for mid-market teams.
+**Limitation:** Directive's model is built for companies with scale-stage marketing budgets, not early-stage teams. Standard engagements are industry-reported to start around $8,000/month (Directive doesn't publish standard-tier pricing), making them less accessible for mid-market teams.
 
 - Project costs vary, with some clients investing between $10,000 to over $50,000 annually
 - Some clients have experienced change with regard to their account team in the past six months due to internal mobility on Directive's side
 
 **Who it's for:** Enterprise B2B SaaS companies with $100,000+ annual marketing budgets who need a full-funnel agency with deep vertical expertise.
 
-**Who it's NOT for:** Early-stage teams with limited budgets or companies looking for affordable entry points under $5,000/month.
+**Who it's NOT for:** Early-stage teams with limited budgets or companies looking for affordable entry points under $6,500/month.
 
 **Pricing Breakdown**
-Startup package available at $5,000/month; standard engagements start at $8,000/month for paid media operations plus media spend, as of May 2026.
+Startup Package is publicly listed at $6,500/month on Directive's startup-package page. Standard engagements are industry-reported to start around $8,000/month for paid media operations plus media spend (May 2026).
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Startup Package | $5,000/mo | Full marketing team, paid media, CRO, analytics (for early-stage B2B SaaS) |
-| Standard PPC | $8,000/mo+ | Multi-channel paid media, Customer Generation methodology, Stratos platform access |
+| Startup Package | $6,500/mo (published) | Full marketing team, paid media, CRO, analytics (for early-stage B2B SaaS) |
+| Standard PPC | ~$8,000/mo+ (reported) | Multi-channel paid media, Customer Generation methodology, Stratos platform access |
 | Enterprise | Custom | Full-service: PPC, SEO, CRO, content, lifecycle, dedicated team |
 
 **What Users Say**
@@ -232,7 +232,7 @@ Some clients have experienced change with regard to their account team in the pa
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes strategy session and growth audit |
-| Clutch Rating | [4.7/5 (56+ reviews)](https://clutch.co/profile/directive) |
+| Clutch Rating | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
 
 ---
 
@@ -269,12 +269,12 @@ Best for: B2B Companies Seeking Competitive Pricing with Strong Client Service a
 **Who it's NOT for:** Teams needing deep SaaS-specific expertise or pipeline-first reporting tied to CRM.
 
 **Pricing Breakdown**
-Minimum project size $5,000+, with costs varying widely from $1,200 to over $150,000 annually depending on needs and scale, as of May 2026.
+Disruptive's [Advertising Services page](https://disruptiveadvertising.com/advertising-services/) doesn't publish rate cards. Industry-reported minimum project size is $5,000+/month, with annual costs reported between $1,200 and $150,000+ depending on scale (May 2026).
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Entry PPC | $5,000/mo+ | Single-channel PPC management, monthly reporting, no long-term contract |
-| Growth PPC | $10,000/mo+ | Multi-channel PPC, landing pages, CRO, weekly reporting |
+| Entry PPC | ~$5,000/mo+ (reported) | Single-channel PPC management, monthly reporting, no long-term contract |
+| Growth PPC | ~$10,000/mo+ (reported) | Multi-channel PPC, landing pages, CRO, weekly reporting |
 | Enterprise | Custom | Full-service: PPC, SEO, email, lifecycle, dedicated team |
 
 **What Users Say**
@@ -330,12 +330,12 @@ Best for: Data-Driven Growth Marketing with Creative Testing Across Paid Channel
 **Who it's NOT for:** Teams needing hands-off execution or agencies that stick to static plans without weekly iteration.
 
 **Pricing Breakdown**
-Pricing varies by project, with reported costs of $3,500 to $300,000, as of May 2026. Custom pricing based on scope.
+Ladder.io advertises "performance pricing" but doesn't publish rate cards. Industry-reported project costs span $3,500 to $300,000 depending on scope (May 2026). Custom pricing based on scope.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Growth Marketing | Custom, $3,500+ | Creative testing, multi-channel paid media, weekly strategy iteration |
-| Full-Service | Custom, $50,000+ | Full-funnel growth marketing, performance creative, AI-powered insights, dedicated team |
+| Growth Marketing | Custom, ~$3,500+ (reported) | Creative testing, multi-channel paid media, weekly strategy iteration |
+| Full-Service | Custom, ~$50,000+ (reported) | Full-funnel growth marketing, performance creative, AI-powered insights, dedicated team |
 | Enterprise | Custom | Brand storytelling, high-value production, rapid iterations, adaptive AI model |
 
 **What Users Say**
@@ -354,7 +354,7 @@ One client noted: "Although Ladder has innovative ideas and vast industry expert
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes growth audit and strategy session |
-| Clutch Rating | [4.6/5 (14 reviews)](https://clutch.co/profile/ladderio) |
+| Clutch Rating | [4.4/5 (14 reviews)](https://clutch.co/profile/ladderio) |
 
 ---
 
@@ -391,11 +391,11 @@ Best for: Early-to-Mid Stage B2B SaaS Needing Flat-Fee Pricing and Senior Operat
 **Who it's NOT for:** Enterprise teams needing large-scale agency infrastructure or teams that prefer quarterly planning cycles over daily iteration.
 
 **Pricing Breakdown**
-$3,000/month flat retainer, month-to-month contracts, as of May 2026.
+GrowthSpree doesn't publish rate cards on their site (visitors are routed through a free pipeline audit). Industry-reported $3,000/month flat retainer with month-to-month contracts (May 2026).
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Flat-Fee PPC | $3,000/mo | Senior operator execution, MCP + QLA technology, daily audits, real-time pipeline attribution, month-to-month |
+| Flat-Fee PPC | ~$3,000/mo (reported) | Senior operator execution, MCP + QLA technology, daily audits, real-time pipeline attribution, month-to-month |
 | Full-Service | Custom | Multi-channel PPC, landing pages, CRM integration, dedicated senior strategist |
 
 **What Users Say**
@@ -451,12 +451,12 @@ WebFX is one of the largest performance marketing agencies in the US. What makes
 **Who it's NOT for:** B2B SaaS teams needing deep SaaS-specific expertise or pipeline-first reporting tied to CRM.
 
 **Pricing Breakdown**
-Accessible mid-market pricing starting around $1,000/month for PPC management, as of May 2026.
+WebFX's homepage doesn't publish rate cards (visitors are routed through a free proposal). Industry-reported entry-level PPC management starts around $1,000/month (May 2026).
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Entry PPC | $1,000/mo+ | Single-channel PPC management, monthly reporting, MarketingCloudFX access |
-| Growth PPC | $2,500-$5,000/mo | Multi-channel PPC, landing pages, monthly strategy reviews |
+| Entry PPC | ~$1,000/mo+ (reported) | Single-channel PPC management, monthly reporting, MarketingCloudFX access |
+| Growth PPC | ~$2,500–$5,000/mo (reported) | Multi-channel PPC, landing pages, monthly strategy reviews |
 | Enterprise | Custom | Full-service: PPC, SEO, CRO, dedicated account manager, real-time reporting |
 
 **What Users Say**
