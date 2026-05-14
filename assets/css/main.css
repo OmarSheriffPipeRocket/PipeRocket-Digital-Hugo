@@ -4733,11 +4733,11 @@ a.pr-hero__cta:hover,
   position: relative;
   margin: var(--pr-s-3) 0 var(--pr-s-7) !important;
   padding: var(--pr-s-4) var(--pr-s-5) !important;
-  background: #F2FAFD;
-  border-left: 3px solid var(--pr-cyan);
+  background: #E0F3F9;
+  border-left: 4px solid var(--pr-cyan);
   border-radius: 4px;
   font-family: var(--pr-serif);
-  font-size: 1.08rem !important;
+  font-size: 1.1rem !important;
   font-weight: 400;
   line-height: 1.6 !important;
   color: var(--pr-ink) !important;
@@ -4747,12 +4747,12 @@ a.pr-hero__cta:hover,
   display: block;
   margin-bottom: 6px;
   font-family: var(--pr-sans);
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--pr-cyan);
-  opacity: 0.85;
+  opacity: 0.95;
 }
 @media (max-width: 640px) {
   .pr-glossary__body > p:first-child {
