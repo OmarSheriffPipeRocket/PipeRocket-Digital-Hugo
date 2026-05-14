@@ -4733,7 +4733,7 @@ a.pr-hero__cta:hover,
   position: relative;
   margin: var(--pr-s-3) 0 var(--pr-s-7) !important;
   padding: var(--pr-s-4) var(--pr-s-5) !important;
-  background: #E0F3F9;
+  background: var(--pr-cream-2);   /* #E8E4DA — same fill as Knowledge Hub sidebar card */
   border-left: 4px solid var(--pr-cyan);
   border-radius: 4px;
   font-family: var(--pr-serif);
