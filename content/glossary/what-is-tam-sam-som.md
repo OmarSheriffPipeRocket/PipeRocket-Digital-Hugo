@@ -1,16 +1,15 @@
 ---
 title: "What Is TAM SAM SOM? Stop Guessing Your Market Size"
-description: "TAM SAM SOM is a market sizing framework that breaks your addressable market into three layers: total market, serviceable segment, and realistic near-term capture. It matters because investors and..."
+description: "TAM SAM SOM is a market sizing framework that breaks your addressable market into three layers: total market, serviceable segment, and realistic near-term capture. It matters because investors and operators use it to test whether a business opportunity is worth pursuing and whether the founder understands their own market. TL;DR TAM is the total global […]"
+meta_title: "What Is TAM SAM SOM? A Founder's Guide"
+meta_description: "TAM SAM SOM breaks your market into three layers total, serviceable, and obtainable. Here's what each means and how to calculate them without fooling yourself."
 date: 2026-04-27
 slug: "what-is-tam-sam-som"
 writtenBy: "ranjeeth"
-toc: true
 wp_id: 3534
-wp_link: "https://piperocket.digital/glossary/what-is-tam-sam-som/"
+wp_link: "/glossary/what-is-tam-sam-som/"
+toc: true
 readingTime: "9 min read"
-shortDefinition: "TAM SAM SOM is a market sizing framework that breaks your addressable market into three layers: total market, serviceable segment, and realistic near-term capture."
-categorySlug: "saas-marketing"
-subcategorySlug: "icp-targeting"
 ---
 
 TAM SAM SOM is a market sizing framework that breaks your addressable market into three layers: total market, serviceable segment, and realistic near-term capture. It matters because investors and operators use it to test whether a business opportunity is worth pursuing and whether the founder understands their own market.
@@ -65,7 +64,7 @@ If there are 8,000 mid-sized logistics companies in North America that match you
 
 Bottom-up sizing also forces you to define your ICP precisely which is a useful forcing function even if you never show the model to an investor.
 
-Also read: [top B2B marketing agencies that help SaaS founders sharpen go-to-market strategy](https://piperocket.digital/blogs/best-b2b-marketing-agencies/)
+Also read: [top B2B marketing agencies that help SaaS founders sharpen go-to-market strategy](/blogs/best-b2b-marketing-agencies/)
 
 ## Why Does SAM Matter More Than TAM?
 
@@ -96,7 +95,7 @@ Here are the patterns that show up most often:
 - Static sizing: Markets change. A SAM you calculated in 2022 might look very different in 2025. Treat this as a living model, not a one-time slide.
 - Misaligning SAM and ICP: Your SAM should map directly to your ideal customer profile. If your ICP is “B2B SaaS companies between 50 and 500 employees using HubSpot,” your SAM should be built from that exact population not from a broad industry category.
 
-The sizing exercise is also where you discover whether your ICP is actually defined. If you can’t build a bottom-up SAM because you don’t know who your customer is precisely enough, that’s the real problem to fix first. Working with a [B2B SEO agency](https://piperocket.digital/blogs/best-b2b-seo-agencies/) that understands ICP-led content can help you validate demand signals before you lock in a market size.
+The sizing exercise is also where you discover whether your ICP is actually defined. If you can’t build a bottom-up SAM because you don’t know who your customer is precisely enough, that’s the real problem to fix first. Working with a [B2B SEO agency](/blogs/best-b2b-seo-agencies/) that understands ICP-led content can help you validate demand signals before you lock in a market size.
 
 ## How Does TAM SAM SOM Connect to Go-to-Market Strategy?
 
@@ -110,9 +109,9 @@ There’s also a sequencing logic here. Most successful SaaS companies don’t t
 
 Consider a workflow automation tool targeting operations teams. Its SAM might span multiple industries, but its SOM in year one is mid-sized e-commerce companies in the US, where the founders have existing relationships and the problem is acutely felt. Winning that segment first builds the case study library that opens the next vertical.
 
-If you’re building out organic acquisition as part of your go-to-market, pairing this market clarity with a structured content programme run by a [dedicated SaaS SEO team](https://piperocket.digital/saas-seo-agency/) can help you capture demand from the specific segments your SOM targets.
+If you’re building out organic acquisition as part of your go-to-market, pairing this market clarity with a structured content programme run by a [dedicated SaaS SEO team](/saas-seo-agency/) can help you capture demand from the specific segments your SOM targets.
 
-Also read: [best SaaS marketing agencies for early-stage and scaling teams](https://piperocket.digital/blogs/best-saas-marketing-agencies/)
+Also read: [best SaaS marketing agencies for early-stage and scaling teams](/blogs/best-saas-marketing-agencies/)
 
 ## The Bottom Line
 

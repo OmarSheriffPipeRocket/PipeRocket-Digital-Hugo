@@ -1,21 +1,12 @@
 {{ define "main" }}
-<section class="pr-section pr-glossary-index">
-  <div class="pr-container">
-    <header class="pr-center pr-bloglist__header">
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.description }}<p class="pr-bloglist__lede">{{ . }}</p>{{ end }}
-    </header>
+{{ partial "directory-hero.html" (dict
+  "title" "Glossary"
+  "lede" "Plain-English definitions for the SaaS marketing terms that actually matter — no fluff, no jargon for jargon's sake."
+  "ctaId" "glossary-hero-subscribe"
+) }}
 
-    {{ partial "section-search.html" (dict "section" "glossary" "placeholder" "Search the glossary…") }}
-
-    <div class="pr-bloglist__grid">
-      {{ range .Pages.ByTitle }}
-        <a class="pr-bloglist__card" href="{{ .RelPermalink }}">
-          <h3 class="pr-bloglist__title">{{ .Title }}</h3>
-          {{ with .Params.shortDefinition }}<p class="pr-bloglist__excerpt">{{ . }}</p>{{ end }}
-        </a>
-      {{ end }}
-    </div>
-  </div>
-</section>
+{{ partial "directory-grid.html" (dict
+  "pages" .Pages.ByTitle
+  "noImage" true
+) }}
 {{ end }}

@@ -189,7 +189,7 @@ faqs:
 sources:
   - id: 1
     title: "PipeRocket Digital — pricing, services, agency profile"
-    url: "https://piperocket.digital/"
+    url: "/"
     accessed: "May 2026"
   - id: 2
     title: "Clutch — PipeRocket Digital — rating and verified reviews"

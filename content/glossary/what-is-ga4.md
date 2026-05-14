@@ -1,16 +1,15 @@
 ---
 title: "What Is GA4? Everything SaaS Teams Need to Know"
-description: "GA4 (Google Analytics 4) is Google's current analytics platform, built around event-based tracking instead of session-based data. It replaced Universal Analytics in July 2023. Unlike its predecessor..."
+description: "GA4 (Google Analytics 4) is Google’s current analytics platform, built around event-based tracking instead of session-based data. It replaced Universal Analytics in July 2023. Unlike its predecessor, GA4 tracks user behaviour across devices and platforms in a single property. TL;DR GA4 replaced Universal Analytics in July 2023 and is now the only version of Google […]"
+meta_title: "What Is GA4? The SaaS Marketer's Guide"
+meta_description: "GA4 is Google's current analytics platform, replacing Universal Analytics. Learn how it works, what's different, and how to get real value from it."
 date: 2026-04-27
 slug: "what-is-ga4"
 writtenBy: "vishnu-prasad"
-toc: true
 wp_id: 3538
-wp_link: "https://piperocket.digital/glossary/what-is-ga4/"
+wp_link: "/glossary/what-is-ga4/"
+toc: true
 readingTime: "10 min read"
-shortDefinition: "GA4 (Google Analytics 4) is Google’s current analytics platform, built around event-based tracking instead of session-based data. It replaced Universal Analytics in July 2023."
-categorySlug: "marketing-ops"
-subcategorySlug: "revops"
 ---
 
 GA4 (Google Analytics 4) is Google’s current analytics platform, built around event-based tracking instead of session-based data. It replaced Universal Analytics in July 2023. Unlike its predecessor, GA4 tracks user behaviour across devices and platforms in a single property.
@@ -59,7 +58,7 @@ Fast Fact: GA4’s event-based model means there’s no hard limit on the types 
 
 The data retention issue catches a lot of teams off guard. You can’t go back and pull three years of historical data in GA4 that window is set at the property level. If you haven’t changed it from the default, you may already be losing data you’ll want later.
 
-Also read: [best B2B marketing agencies for SaaS and tech companies](https://piperocket.digital/blogs/best-b2b-marketing-agencies/)
+Also read: [best B2B marketing agencies for SaaS and tech companies](/blogs/best-b2b-marketing-agencies/)
 
 ## How Does GA4 Track Events?
 
@@ -138,7 +137,7 @@ Fast Fact: Most teams spend the majority of their time in the standard Reports s
 
 The reporting in GA4 is more powerful than Universal Analytics in most respects, but it requires more setup to get there. Out of the box, the standard reports are fairly surface-level. The real value is in Explorations, which takes some time to learn but is worth the investment.
 
-Also read: [top B2B PPC agencies that use GA4 data to optimise paid campaigns](https://piperocket.digital/blogs/top-b2b-ppc-agencies/)
+Also read: [top B2B PPC agencies that use GA4 data to optimise paid campaigns](/blogs/top-b2b-ppc-agencies/)
 
 ## What Are the Biggest Mistakes SaaS Teams Make With GA4?
 

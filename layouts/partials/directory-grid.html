@@ -1,0 +1,87 @@
+{{/* Reusable directory-page card grid (+ optional category chip filter).
+     Pass: pages (PagesIterator), chips (slice, optional), enterpriseFilter (bool, optional)
+     The current page context is preserved for $page references. */}}
+{{ $pages := .pages }}
+{{ $chips := .chips }}
+{{ $noImage := .noImage }}
+{{ $authors := site.Data.authors }}
+
+<section class="pr-section pr-bloglist">
+  <div class="pr-container">
+    {{ if $chips }}
+      <nav class="pr-blogcats" aria-label="Filter by category">
+        <ul class="pr-blogcats__list" role="list">
+          {{ range $i, $c := $chips }}
+            <li>
+              <button type="button"
+                class="pr-blogcats__chip{{ if eq $i 0 }} is-active{{ end }}"
+                data-filter="{{ if eq $i 0 }}all{{ else }}{{ . }}{{ end }}"
+                {{ if eq $i 0 }}aria-pressed="true"{{ else }}aria-pressed="false"{{ end }}>
+                {{ . }}
+              </button>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+    {{ end }}
+
+    <div class="pr-bloglist__grid" data-blog-grid>
+      {{ range $pages }}
+        {{ $page := . }}
+        {{ $slug := default "" .Params.writtenBy }}
+        {{ $author := index $authors $slug }}
+        <article class="pr-bloglist__card" data-category="{{ with .Params.category }}{{ . }}{{ end }}">
+          {{ if not $noImage }}
+            {{ with .Params.featuredImage }}
+              <a href="{{ $page.RelPermalink }}" class="pr-bloglist__thumb" aria-label="{{ $page.Title }}">
+                <img src="{{ . }}" alt="{{ $page.Title }}" loading="lazy">
+              </a>
+            {{ else }}
+              <a href="{{ $page.RelPermalink }}" class="pr-bloglist__thumb pr-bloglist__thumb--placeholder" aria-hidden="true" tabindex="-1"></a>
+            {{ end }}
+          {{ end }}
+          <div class="pr-bloglist__body">
+            {{ with .Params.category }}
+              <a href="{{ $page.RelPermalink }}" class="pr-bloglist__cat">{{ . }}</a>
+            {{ end }}
+            <h3 class="pr-bloglist__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ with .Params.description }}<p class="pr-bloglist__excerpt">{{ . }}</p>{{ end }}
+            <div class="pr-bloglist__meta">
+              {{ with $author }}<span class="pr-bloglist__author">By <a href="/authors/{{ $slug }}/">{{ .name }}</a></span>{{ end }}
+              <div class="pr-bloglist__dates">
+                {{ $hasUpdated := and (not .Lastmod.IsZero) (ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}
+                {{ if $hasUpdated }}Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 Jan, 2006" }}</time> · {{ end }}{{ if not .Date.IsZero }}Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan, 2006" }}</time>{{ end }}
+              </div>
+            </div>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ if $chips }}
+<script>
+(function(){
+  var chips = document.querySelectorAll('.pr-blogcats__chip');
+  var cards = document.querySelectorAll('[data-blog-grid] .pr-bloglist__card');
+  chips.forEach(function(chip){
+    chip.addEventListener('click', function(){
+      var filter = chip.getAttribute('data-filter');
+      chips.forEach(function(c){
+        c.classList.toggle('is-active', c === chip);
+        c.setAttribute('aria-pressed', c === chip ? 'true' : 'false');
+      });
+      cards.forEach(function(card){
+        var cat = card.getAttribute('data-category') || '';
+        var match;
+        if (filter === 'all') match = true;
+        else if (filter === 'Enterprise') match = /^enterprise/i.test(cat);
+        else match = cat === filter;
+        card.hidden = !match;
+      });
+    });
+  });
+})();
+</script>
+{{ end }}

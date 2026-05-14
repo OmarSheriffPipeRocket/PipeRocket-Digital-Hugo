@@ -6,7 +6,7 @@ url: "/saas-ppc/faqs/"
 layout: "single"
 toc: false
 wp_id: 3297
-wp_link: "https://piperocket.digital/saas-ppc/faqs"
+wp_link: "/saas-ppc/faqs"
 ---
 
 ## Stage 1 - Timing

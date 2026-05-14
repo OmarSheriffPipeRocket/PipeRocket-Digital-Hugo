@@ -24,10 +24,10 @@ relatedLinks:
 
 ## Related Guides
 
-- [Best Technical SEO Agencies](https://piperocket.digital/blogs/best-technical-seo-agencies/) - 11 agencies ranked by technical depth and pipeline fit
-- [Best SaaS Link Building Agencies](https://piperocket.digital/blogs/best-saas-link-building-agencies/) - 10 agencies ranked by link quality and SaaS fit
-- [Best B2B Advertising Agencies](https://piperocket.digital/blogs/best-b2b-advertising-agencies/) - 11 agencies ranked by pipeline attribution and B2B expertise
-- [SaaS SEO Agency](https://piperocket.digital/saas-seo-agency/) - Pipeline-first organic growth for B2B SaaS
+- [Best Technical SEO Agencies](/blogs/best-technical-seo-agencies/) - 11 agencies ranked by technical depth and pipeline fit
+- [Best SaaS Link Building Agencies](/blogs/best-saas-link-building-agencies/) - 10 agencies ranked by link quality and SaaS fit
+- [Best B2B Advertising Agencies](/blogs/best-b2b-advertising-agencies/) - 11 agencies ranked by pipeline attribution and B2B expertise
+- [SaaS SEO Agency](/saas-seo-agency/) - Pipeline-first organic growth for B2B SaaS
 
 ## Overview
 
@@ -95,7 +95,7 @@ Clients like Monday.com, Robinhood, and Freshworks have engaged them specificall
 
 **Best for:** B2B SaaS companies that want backlinks built from the sources AI models trust and buyers actually read - not just high-DR domains that generate traffic with no pipeline contribution
 
-The common pattern: most SaaS link building agencies prioritize domain rating - and founders sign retainers before questioning whether those high-DR domains are ones their buyers read. [PipeRocket](https://piperocket.digital/) begins differently. Before outreach starts, we map the publications, communities, and platforms your ICP reads - and the ones that AI models like ChatGPT, Perplexity, and Google AI Overviews reference when generating answers in your category. That distinction separates links that build authority from links that build authority *and* pipeline.
+The common pattern: most SaaS link building agencies prioritize domain rating - and founders sign retainers before questioning whether those high-DR domains are ones their buyers read. [PipeRocket](/) begins differently. Before outreach starts, we map the publications, communities, and platforms your ICP reads - and the ones that AI models like ChatGPT, Perplexity, and Google AI Overviews reference when generating answers in your category. That distinction separates links that build authority from links that build authority *and* pipeline.
 
 Our 25-person team has worked with 50+ B2B SaaS companies - Storylane, LeadSquared, GreytHR, Tredence, DevRev, Spendflo - and every link building effort measures against one metric: qualified pipeline. We report it in the same review your sales team attends, not in a separate marketing deck. We maintain 4.8 on Clutch across verified B2B SaaS engagements.
 

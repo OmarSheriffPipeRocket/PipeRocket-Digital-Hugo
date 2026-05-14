@@ -1,16 +1,15 @@
 ---
-title: "What Is Keyword Research? The SaaS Marketer's Real Guide"
-description: "Keyword research is the process of finding the specific words and phrases your target audience types into search engines. It determines which topics you create content around and which queries you..."
+title: "What Is Keyword Research? The SaaS Marketer’s Real Guide"
+description: "Keyword research is the process of finding the specific words and phrases your target audience types into search engines. It determines which topics you create content around and which queries you can realistically rank for. Get it wrong and you’ll build traffic that never converts. TL;DR Keyword research is about finding terms your buyers actually […]"
+meta_title: "What Is Keyword Research? A SaaS Marketer's Guide"
+meta_description: "Keyword research finds the terms your buyers actually search. Done right, it drives qualified traffic and pipeline not just rankings. Here's how it works."
 date: 2026-04-27
 slug: "what-is-keyword-research"
 writtenBy: "ranjeeth"
-toc: true
 wp_id: 3553
-wp_link: "https://piperocket.digital/glossary/what-is-keyword-research/"
+wp_link: "/glossary/what-is-keyword-research/"
+toc: true
 readingTime: "10 min read"
-shortDefinition: "Keyword research is the process of finding the specific words and phrases your target audience types into search engines. It determines which topics you create content around and which queries you can realistically rank for."
-categorySlug: "seo"
-subcategorySlug: "on-page"
 ---
 
 Keyword research is the process of finding the specific words and phrases your target audience types into search engines. It determines which topics you create content around and which queries you can realistically rank for. Get it wrong and you’ll build traffic that never converts.
@@ -53,7 +52,7 @@ The second keyword doesn’t just rank easier. It attracts people who are alread
 - Map to your content structure: Each keyword cluster should map to a specific page or content piece. Two keywords with the same intent belong on the same page, not two competing ones.
 - Prioritise and publish: Rank your keyword targets by business value, not just search volume. A keyword that attracts your exact buyer at the decision stage is worth more than a high-volume informational term that draws in people who’ll never convert.
 
-Also read: [how top SaaS SEO agencies approach keyword strategy and content structure](https://piperocket.digital/list/best-saas-seo-agencies/)
+Also read: [how top SaaS SEO agencies approach keyword strategy and content structure](/list/best-saas-seo-agencies/)
 
 ## Why Does Keyword Intent Matter More Than Volume?
 
@@ -71,7 +70,7 @@ Fast Fact: Organic search converts SaaS visitors at 0.92% more than 3x the rate 
 
 The practical implication: your keyword research needs to produce a map, not just a list. You want coverage across all three intent stages so you’re visible when a buyer first starts researching, when they’re comparing tools, and when they’re ready to sign up.
 
-Also read: [how the best B2B SEO agencies structure content around buyer intent](https://piperocket.digital/blogs/best-b2b-seo-agencies/)
+Also read: [how the best B2B SEO agencies structure content around buyer intent](/blogs/best-b2b-seo-agencies/)
 
 ## What Makes a Keyword Worth Targeting?
 
@@ -103,7 +102,7 @@ Fast Fact: SaaS brands that align content to all three buyer stages consistently
 
 A keyword strategy without layer 3 and 4 coverage is leaving pipeline on the table. Most teams build layer 1 and 2 and wonder why their content doesn’t convert. The decision-stage queries are where the money is and they’re usually the least competitive because fewer teams bother.
 
-If you’re running paid search alongside organic, the keyword data works in both directions. Terms that convert well in paid campaigns are strong candidates for organic content investment. Working with a [SaaS SEO agency](https://piperocket.digital/saas-seo-agency/) that also understands [SaaS PPC](https://piperocket.digital/saas-ppc/) means you can share signal across both channels instead of running them in separate silos.
+If you’re running paid search alongside organic, the keyword data works in both directions. Terms that convert well in paid campaigns are strong candidates for organic content investment. Working with a [SaaS SEO agency](/saas-seo-agency/) that also understands [SaaS PPC](/saas-ppc/) means you can share signal across both channels instead of running them in separate silos.
 
 ## What Are the Most Common Keyword Research Mistakes?
 

@@ -1,26 +1,12 @@
 {{ define "main" }}
-<section class="pr-section pr-bloglist">
-  <div class="pr-container">
-    <header class="pr-center pr-bloglist__header">
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.description }}<p class="pr-bloglist__lede">{{ . }}</p>{{ end }}
-    </header>
+{{ partial "directory-hero.html" (dict
+  "title" "Best-of lists, ranked honestly"
+  "lede" "Ranked rundowns of agencies, tools, and platforms — scored on the criteria that actually move pipeline. No paid placements, no vendor spin."
+  "ctaId" "list-hero-subscribe"
+) }}
 
-    {{ partial "section-search.html" (dict "section" "list" "placeholder" "Search rankings…") }}
-
-    <div class="pr-bloglist__grid">
-      {{ range .Pages.ByDate.Reverse }}
-        <article class="pr-bloglist__card">
-          {{ with .Params.category }}<div class="pr-eyebrow pr-eyebrow--red">{{ . }}</div>{{ end }}
-          <h3 class="pr-bloglist__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          {{ with .Params.description }}<p class="pr-bloglist__excerpt">{{ . }}</p>{{ end }}
-          <div class="pr-bloglist__meta">
-            {{ if not .Date.IsZero }}<span>{{ .Date.Format "Jan 2, 2006" }}</span>{{ end }}
-            {{ with .Params.items }}<span>{{ len . }} ranked</span>{{ end }}
-          </div>
-        </article>
-      {{ end }}
-    </div>
-  </div>
-</section>
+{{ partial "directory-grid.html" (dict
+  "pages" .Pages.ByDate.Reverse
+  "chips" (slice "All Lists" "SaaS SEO" "SaaS PPC" "Enterprise" "B2B SEO" "B2B PPC" "B2B Marketing")
+) }}
 {{ end }}

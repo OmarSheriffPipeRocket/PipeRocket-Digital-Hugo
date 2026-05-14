@@ -1,0 +1,15 @@
+<!--
+  Static form definitions for Netlify Forms detection.
+  Netlify parses HTML files at build time to register forms.
+  Keep names and field names in sync with rendered Hugo partials.
+-->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Forms</title></head>
+<body>
+  <form name="blog-subscribe" netlify netlify-honeypot="bot-field" hidden>
+    <input type="email" name="email">
+    <input type="text" name="bot-field">
+  </form>
+</body>
+</html>

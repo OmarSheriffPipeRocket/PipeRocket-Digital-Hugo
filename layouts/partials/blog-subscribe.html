@@ -1,0 +1,35 @@
+{{/* Netlify-handled subscribe form. Submissions appear in the Netlify dashboard
+     under Forms → blog-subscribe. No backend, no post-submit redirect. */}}
+<aside class="pr-subscribe" aria-labelledby="pr-subscribe-title">
+  <div class="pr-subscribe__inner">
+    <div class="pr-subscribe__copy">
+      <div class="pr-eyebrow pr-eyebrow--red">Newsletter</div>
+      <h2 id="pr-subscribe-title" class="pr-subscribe__title">Stay up to date with our blogs</h2>
+      <p class="pr-subscribe__lede">Get new B2B SaaS marketing posts in your inbox. No spam, unsubscribe anytime.</p>
+    </div>
+    <form
+      class="pr-subscribe__form"
+      name="blog-subscribe"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      data-cta-location="blog-subscribe">
+      <input type="hidden" name="form-name" value="blog-subscribe">
+      <p class="pr-subscribe__hp" hidden aria-hidden="true">
+        <label>Don't fill this out: <input name="bot-field"></label>
+      </p>
+      <label class="pr-subscribe__field">
+        <span class="pr-visually-hidden">Email address</span>
+        <input
+          type="email"
+          name="email"
+          required
+          autocomplete="email"
+          placeholder="you@company.com"
+          class="pr-subscribe__input">
+      </label>
+      <button type="submit" class="pr-btn pr-subscribe__btn">Subscribe</button>
+      <p class="pr-subscribe__success" hidden>Thanks — you're subscribed.</p>
+    </form>
+  </div>
+</aside>

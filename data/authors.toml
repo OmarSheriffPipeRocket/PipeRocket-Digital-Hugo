@@ -3,6 +3,14 @@
 #   writtenBy = "omar"
 #   reviewedBy = "kim"
 
+[kamaraj]
+name = "Kamaraj Mathiarasan"
+role = "Marketing Operator, PipeRocket Digital"
+photo = "/images/author-team.png"
+linkedin = "https://www.linkedin.com/in/kamarajkkl/"
+bio = "Marketing operator at PipeRocket Digital, working with B2B SaaS companies on pipeline-first marketing programmes."
+expertise = ["B2B SaaS marketing", "Pipeline operations"]
+
 [praveen]
 name = "Praveen Ravi"
 role = "Founder, PipeRocket Digital"

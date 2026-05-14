@@ -6,7 +6,7 @@ slug: "about-us"
 layout: "about-us"
 toc: false
 wp_id: 1229
-wp_link: "https://piperocket.digital/about-us/"
+wp_link: "/about-us/"
 
 eyebrow: "About PipeRocket"
 founded: "2020"
