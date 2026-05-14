@@ -1,6 +1,7 @@
 ---
 title: "Best Affordable B2B PPC Agencies"
 description: "I ranked the 7 best affordable B2B PPC agencies for 2026 — scored on B2B PPC specialization, pipeline attribution, proven results, transparency, and pricing. Real Clutch ratings, verified retainers, linked pricing pages."
+layout: "listicle"
 date: 2026-05-13
 slug: "best-affordable-b2b-ppc-agencies"
 writtenBy: "ranjeeth"
