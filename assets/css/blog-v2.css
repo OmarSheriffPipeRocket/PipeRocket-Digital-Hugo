@@ -208,8 +208,9 @@
   line-height: 1.75;
   color: #111;
 }
-.pr-blog-v2__main a { color: #0ba6e2; text-decoration: none; }
-.pr-blog-v2__main a:hover { text-decoration: underline; }
+/* Anchor link styling — inherited from the unified `.pr-blog__body a, …`
+   rule in main.css (dark text + cyan underline + cyan-soft hover bg) so
+   links look the same across legacy + v2 blog templates. */
 .pr-blog-v2__main ul,
 .pr-blog-v2__main ol {
   font-family: Helvetica, Arial, sans-serif;

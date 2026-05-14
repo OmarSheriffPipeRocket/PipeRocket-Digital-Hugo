@@ -50,19 +50,17 @@
     });
   }
 
-  /* ─── Comparison table (just the top one — "Side-by-Side Comparison") ──
-     Locate the H2 whose text contains "compare" and find the first table
-     that follows it. Style only that one. All other tables in the article
-     (At a Glance / Pricing Breakdown / Criteria) keep the default body
-     table styling from CSS, which is more compact and works for 2-col
-     key/value layouts. */
-  function styleComparisonTable() {
+  /* ─── Comparison table — PipeRocket row highlight ──────────────────────
+     The Side-by-Side Comparison table at the top is styled by the unified
+     `.pr-blog__body table, .pr-listicle__body table, ...` rules in
+     main.css (same look as Omar's v2 design). The only thing left to do
+     here is to flag our own row so it's visually distinct. */
+  function highlightPipeRocketRow() {
     var compareH2 = Array.from(main.querySelectorAll('h2')).find(function (h) {
       return /\b(compare|comparison|side[-\s]?by[-\s]?side)\b/i.test(h.textContent);
     });
     if (!compareH2) return;
 
-    /* Walk forward from compareH2 until we find the first table */
     var tbl = null;
     var node = compareH2.nextElementSibling;
     while (node && !tbl) {
@@ -73,22 +71,15 @@
     }
     if (!tbl) return;
 
-    tbl.classList.add('pr-listicle-v2__tbl');
-
-    /* Wrap for horizontal scroll if not already wrapped */
-    if (!tbl.parentNode.classList.contains('pr-listicle-v2__tbl-wrap') &&
-        !tbl.parentNode.classList.contains('pr-table-scroll')) {
-      var wrap = el('div', 'pr-listicle-v2__tbl-wrap');
-      tbl.parentNode.insertBefore(wrap, tbl);
-      wrap.appendChild(tbl);
-    }
-
-    /* Highlight the PipeRocket row */
     tbl.querySelectorAll('tbody tr').forEach(function (row) {
+      /* Check first or second cell for the agency name (depending on
+         whether the table has a leading rank-number column). */
       var cells = row.querySelectorAll('td');
-      var nameCell = cells[1] || cells[0];
-      if (nameCell && /piperocket/i.test(nameCell.textContent)) {
-        row.classList.add('pr-listicle-v2__tbl-ours');
+      for (var i = 0; i < Math.min(2, cells.length); i++) {
+        if (/piperocket/i.test(cells[i].textContent)) {
+          row.classList.add('pr-listicle-v2__tbl-ours');
+          break;
+        }
       }
     });
   }
@@ -179,7 +170,7 @@
 
   function init() {
     stripEmptyTableHeaders();
-    styleComparisonTable();
+    highlightPipeRocketRow();
     buildSidebarTOC();
   }
 

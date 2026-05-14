@@ -133,72 +133,19 @@
 .pr-listicle-v2__pick-sep { color: #111; margin: 0 4px; font-weight: 700; }
 .pr-listicle-v2__pick-best { color: #4a4a4a; }
 
-/* ---------- Comparison table ---------- */
-.pr-listicle-v2__tbl-wrap {
-  width: 100%;
-  overflow-x: auto;
-  border-radius: 5px;
-  border: 1px solid #111;
-  margin: 0 0 48px;
+/* ---------- Comparison-table row highlight ----------
+   Base table styling now lives in main.css (unified across the site).
+   Only PipeRocket row highlight needs to stay v2-specific. */
+.pr-listicle__body tbody tr.pr-listicle-v2__tbl-ours td {
+  background: #D7E9EC !important;   /* cyan-soft override of stripe colors */
 }
-.pr-listicle-v2__tbl {
-  width: 100%;
-  border-collapse: collapse !important;
-  border-spacing: 0 !important;
-  border: none !important;
-  background: transparent !important;
-  font-size: 15px;
-  min-width: 540px;
-  margin: 0 !important;
-}
-.pr-listicle-v2__tbl th {
-  padding: 11px 16px;
-  text-align: left;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 11px;
+.pr-listicle__body tbody tr.pr-listicle-v2__tbl-ours td:first-child {
+  color: var(--pr-cyan);
   font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #a2a2a2;
-  border-bottom: 1px solid #111;
-  border-right: 1px solid #111;
-  background: #f6f6f1;
-  white-space: nowrap;
 }
-.pr-listicle-v2__tbl th:last-child { border-right: none; }
-.pr-listicle-v2__tbl td {
-  padding: 14px 16px;
-  border-bottom: none;
-  border-right: 1px solid #111;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  color: #4a4a4a;
-  vertical-align: middle;
+.pr-listicle__body tbody tr.pr-listicle-v2__tbl-ours td strong {
+  color: var(--pr-cyan);
 }
-.pr-listicle-v2__tbl td:last-child { border-right: none; }
-
-.pr-listicle-v2__tbl td:first-child {
-  font-size: 13px;
-  font-weight: 600;
-  color: #a2a2a2;
-  white-space: nowrap;
-  width: 36px;
-}
-.pr-listicle-v2__tbl td strong { color: #111; }
-.pr-listicle-v2__tbl-score {
-  color: #0ba6e2 !important;
-  font-weight: 700 !important;
-  font-size: 16px !important;
-  white-space: nowrap;
-}
-
-.pr-listicle-v2__tbl-ours td strong { color: #0ba6e2; }
-.pr-listicle-v2__tbl td a { color: #0ba6e2; text-decoration: none; }
-.pr-listicle-v2__tbl td a:hover { text-decoration: none; }
-.pr-listicle-v2__tbl tbody tr:nth-child(odd) td { background: #f6f6f1 !important; }
-.pr-listicle-v2__tbl tbody tr:nth-child(even) td { background: #E8E4DA !important; }
-.pr-listicle-v2__tbl tbody tr:nth-child(odd):hover td { background: #f6f6f1 !important; }
-.pr-listicle-v2__tbl tbody tr:nth-child(even):hover td { background: #E8E4DA !important; }
 
 /* ---------- Agency cards ---------- */
 .pr-card {
@@ -375,103 +322,9 @@
    No special callout boxes — content reads top-to-bottom as written. */
 .pr-listicle-v2__main p { line-height: 1.75; }
 
-/* Tables inside the article body — clean, bordered, responsive */
-.pr-listicle-v2__main .pr-table-scroll,
-.pr-listicle-v2__main .pr-listicle-v2__tbl-wrap {
-  margin: 16px 0 28px;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) {
-  /* main.css forces display:block on .pr-listicle__body tables as a
-     fallback responsive hack. We have .pr-table-scroll for that, so
-     restore proper table semantics. */
-  display: table !important;
-  width: 100%;
-  border-collapse: collapse;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  border: 1px solid #e5e0d8;
-}
-
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) th {
-  padding: 10px 14px;
-  background: #faf8f3;
-  color: #535353;
-  font-weight: 700;
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-align: left;
-  border-bottom: 1px solid #e5e0d8;
-  border-right: 1px solid #e5e0d8;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) th:last-child { border-right: none; }
-
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) td {
-  padding: 11px 14px;
-  border-bottom: 1px solid #e5e0d8;
-  border-right: 1px solid #e5e0d8;
-  vertical-align: top;
-  color: #111;
-  line-height: 1.55;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) td:last-child { border-right: none; }
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) tr:last-child td { border-bottom: none; }
-
-/* First column = key label (Location, Founded, etc.) — fixed width, bold */
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) td:first-child {
-  font-weight: 600;
-  color: #535353;
-  background: #faf8f3;
-  width: 30%;
-  min-width: 140px;
-  white-space: nowrap;
-}
-/* Alternating row tint for readability */
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) tbody tr:nth-child(even) td {
-  background: #fbfaf6;
-}
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) tbody tr:nth-child(even) td:first-child {
-  background: #f0ece1;
-}
-
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) a {
-  color: #0ba6e2;
-  text-decoration: none;
-}
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) a:hover { text-decoration: underline; }
-
-/* For tables with real (non-empty) headers — Pricing Breakdown, Criteria.
-   First column no longer treated as a key (no nowrap, no cream tint). */
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl):has(thead th:not(:empty)) td:first-child {
-  width: auto;
-  min-width: 0;
-  white-space: normal;
-  background: transparent;
-  font-weight: 600;
-  color: #111;
-}
-.pr-listicle-v2__main table:not(.pr-listicle-v2__tbl):has(thead th:not(:empty)) tbody tr:nth-child(even) td:first-child {
-  background: #fbfaf6;
-}
-
-/* Mobile — let the wrapper scroll horizontally if needed */
-@media (max-width: 640px) {
-  .pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) {
-    min-width: 100%;
-    font-size: 13px;
-  }
-  .pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) th,
-  .pr-listicle-v2__main table:not(.pr-listicle-v2__tbl) td {
-    padding: 9px 12px;
-  }
-}
+/* Table styles for the v2 listicle main column are inherited from the
+   unified `.pr-blog__body table, .pr-listicle__body table, ...` rules
+   in main.css. No v2-specific overrides needed here. */
 
 /* ---------- Related articles ---------- */
 .pr-listicle-related {
