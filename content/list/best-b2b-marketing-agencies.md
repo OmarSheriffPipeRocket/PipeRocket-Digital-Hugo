@@ -29,6 +29,9 @@ I ranked 11 B2B marketing agencies using a weighted scoring system across five c
 
 10% – **Transparency**: Clear reporting, honest communication about results, and willingness to share attribution data with clients.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the 11 Best B2B Marketing Agencies in 2026
 
 1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for revenue-obsessed B2B SaaS companies

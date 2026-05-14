@@ -29,6 +29,9 @@ I ranked the 9 best B2B content marketing agencies for 2026. Each agency was sco
 
 10% – **Service Flexibility**: Ability to scale operations and adapt to different company sizes, industries, and engagement models.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the 9 Best B2B Content Marketing Agencies in 2026
 
 1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for ROI-driven B2B growth

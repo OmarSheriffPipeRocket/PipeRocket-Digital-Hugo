@@ -28,6 +28,9 @@ Proptech buyers carry real estate industry skepticism, operate under compliance 
 
 10% — Pricing & Transparency: Agencies were scored on pricing clarity, contract flexibility, and the degree to which they communicate scope and deliverables upfront.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the Best Proptech Marketing Agencies in 2026
 
 - Insivia · Best for proptech and real estate technology companies needing full-service brand, demand generation, and web under one roof

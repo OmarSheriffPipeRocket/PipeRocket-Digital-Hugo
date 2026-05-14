@@ -29,6 +29,9 @@ I ranked the 9 best performance marketing agencies for 2026 using a weighted sco
 
 10% – **Client Retention**: Track record of long-term partnerships and repeat engagements.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the 9 Best Performance Marketing Agencies in 2026
 
 1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for B2B SaaS Revenue Integration

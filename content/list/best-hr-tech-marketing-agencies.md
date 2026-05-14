@@ -28,6 +28,9 @@ HR tech buyers evaluate software the same way they manage people: with structure
 
 10% – Client Reviews: Verified Clutch and G2 ratings weighted for HR tech and B2B SaaS-specific client outcomes.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the Best HR Tech Marketing Agencies in 2026
 
 - GrowthMode Marketing · Best for HR tech and workforce technology companies needing a full-funnel demand generation partner built exclusively for this vertical

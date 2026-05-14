@@ -56,6 +56,9 @@ We reviewed 40+ agencies and ranked the 11 best **[B2B advertising](/saas-seo-ag
 | 10 | Blend B2B | HubSpot partner clients across B2B | No public aggregate score | 68 |
 | 11 | SageFrog | Healthcare, tech, and industrial B2B brands | No public aggregate score | 65 |
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## The Best B2B Advertising Agencies in 2026
 
 ### 1. Directive Consulting

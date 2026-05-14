@@ -29,6 +29,9 @@ I ranked 12 B2B Google Ads agencies using a weighted scoring system focused on p
 
 10% – **Client Retention**: Long-term partnership track record and client satisfaction indicators.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the 11 Best B2B Google Ads Agencies in 2026
 
 1. [KlientBoost](/wp-content/uploads/2025/11/Klientboost-homepage-1024x556.webp) – Best for creative testing and conversion optimization

@@ -67,6 +67,9 @@ This guide ranks the 12 best AEO agencies for US B2B companies in 2026, based on
 | 11 | KlientBoost | $1M–$20M | $2K–$8K/mo | 73 |
 | 12 | SimpleTiger | $500K–$20M | $3K–$8K/mo | 71 |
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## The Best GEO Agencies in 2026
 
 ### 1. First Page Sage

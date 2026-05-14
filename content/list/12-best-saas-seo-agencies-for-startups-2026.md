@@ -66,6 +66,9 @@ We reviewed 52 agencies for this guide, scoring each on how well they serve earl
 
 10% – Pricing Transparency: Published pricing, flexible terms, and alignment with startup budgets.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## The 12 Best SaaS SEO Agencies for Startups
 
 ### 1. PipeRocket Digital

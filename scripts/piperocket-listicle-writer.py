@@ -499,17 +499,9 @@ Comparing the top [N] best {title_hint_lower} of {year} includes 1. [Agency], 2.
 
 ## How We Chose These {title_hint}?
 
-[One sentence on methodology: "We pulled verified ratings from Clutch and G2, checked each agency's pricing page or sales call, and read Reddit threads in r/SaaS, r/marketing, and r/B2BMarketing to catch complaints that don't show up in curated review sites. Agencies with fewer than 10 verifiable B2B SaaS clients or no active case studies in the past 12 months were excluded."]
+[Two short paragraphs total. Paragraph 1 (1-2 sentences): The signal sources for THIS specific list (Clutch + G2 + named Reddit / LinkedIn / Quora threads relevant to the category). Paragraph 2 (1-2 sentences): What we weighted highest for THIS specific category — pick the 2 of the 5 criteria below that matter most for THIS list's buyer and name them inline (e.g., "We weighted Pipeline Attribution and Vertical Expertise most heavily because [reason specific to this category]."). Do NOT re-list all 5 criteria. Do NOT add weights / percentages.]
 
-**[Criterion 1 Name]:** [One short paragraph explaining what was measured and why it matters for B2B SaaS buyers. NO weights, just qualitative description.]
-
-**[Criterion 2 Name]:** [One short paragraph.]
-
-**[Criterion 3 Name]:** [One short paragraph.]
-
-**[Criterion 4 Name]:** [One short paragraph.]
-
-**[Criterion 5 Name]:** [One short paragraph.]
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
 
 ## Detailed Comparison
 
@@ -660,7 +652,7 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] Intro is exactly 3 separate paragraphs (brand list / who each is for / cost of choosing wrong)
 [ ] TL;DR has EXACTLY 7 numbered items, NO bullet markers, **bold agency** + colon + "Best for" tagline
 [ ] Side-by-Side Comparison table has exactly 5 columns: Agency, Best For, Starting Price, Free Consultation, Clutch Rating (NO Score column, NO HQ column)
-[ ] How We Chose section has 5 criteria as bold paragraph labels (NO weights, NO 30%/25%/etc.)
+[ ] How We Chose section is EXACTLY 2 short paragraphs + the methodology link line "For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/)." — NOT a 5-criteria expansion (the deep methodology lives on /research-methodology/, not in each listicle)
 [ ] Each agency block starts with `### N. Agency Name` as H3 — JUST the agency name, NO ": Best for X" suffix in the heading
 [ ] Immediately below the H3, a separate paragraph begins with `Best for: [tagline]`. The site's JS auto-styles this line as a highlighted callout.
 [ ] Each agency block has all sections in exact order: H3 → Best for: line → front-loaded 2-sentence answer → **At a Glance** + table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → **Pricing Breakdown** + table → **What Users Say** (**Love:** / **Complain:** plain bold, NO emoji) → evaluation summary table
@@ -681,7 +673,8 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] EVERY Love and Complain sentence cites a real linked source (Clutch profile, Reddit thread, Quora answer, Capterra, G2). If no real source is available, the section is dropped — never fabricated.
 [ ] At a Glance table also includes the real Clutch URL linked on the rating row (where applicable)
 [ ] All URLs come from web_search results; zero invented URLs
-[ ] 2-4 internal PipeRocket links total, only in intro / How We Chose / FAQ
+[ ] /research-methodology/ link appears verbatim at the end of the How We Chose section (mandatory cross-link to editorial policy)
+[ ] 2-4 ADDITIONAL internal PipeRocket links total (beyond the methodology link), placed in intro / How We Chose / FAQ
 ====================================================
 """
 

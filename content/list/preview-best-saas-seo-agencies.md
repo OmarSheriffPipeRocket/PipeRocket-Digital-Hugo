@@ -27,6 +27,9 @@ Martech buyers are marketers themselves, which makes them the hardest audience t
 
 10% — Client Reviews: Verified Clutch and G2 ratings weighted for martech and B2B SaaS-specific client outcomes.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the Best Martech Marketing Agencies in 2026
 
 - Directive Consulting · Best for martech SaaS companies needing performance marketing built around Customer Generation methodology and revenue output

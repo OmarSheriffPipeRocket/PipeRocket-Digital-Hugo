@@ -57,6 +57,9 @@ Whether you’re looking for a [SaaS SEO](/saas-seo-agency/) agency, a specialis
 | 10 | Simple Tiger | Gelato, Invoca, JotForm | [4.9 Clutch ↗](https://clutch.co/profile/simpletiger) | 73 |
 | 11 | Powered by Search | Basecamp, SentinelOne, Fortra | [4.8 FeaturedCustomers ↗](https://www.featuredcustomers.com/vendor/powered-by-search) | 71 |
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## The 11 Best SaaS SEO Agencies in 2026
 
 ### 1. Breaking B2B

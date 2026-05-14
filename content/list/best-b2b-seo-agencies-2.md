@@ -29,6 +29,9 @@ I ranked 11 B2B SEO agencies based on their ability to drive qualified pipeline,
 
 10% – **Client Transparency**: Clear reporting, pricing visibility, and communication practices based on verified reviews.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the 11 Best B2B SEO Agencies in 2026
 
 1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for ROI-driven B2B SaaS companies

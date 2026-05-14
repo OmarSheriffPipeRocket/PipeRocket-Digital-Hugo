@@ -29,6 +29,9 @@ I ranked the 10 best B2B PPC agencies using a weighted scoring system across fiv
 
 10% – **Client Retention**: Long-term partnership track record indicating consistent value delivery.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the 10 Best B2B PPC Agencies in 2026
 
 1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for pipeline-focused B2B SaaS growth

@@ -29,6 +29,9 @@ I ranked 7 edtech marketing agencies based on revenue impact, sector expertise, 
 
 10% – **Client Alignment**: Fit for different company stages, budgets, and growth objectives within the edtech vertical.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the 7 Best Edtech Marketing Agencies in 2026
 
 1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for Revenue-Focused Edtech SaaS Companies

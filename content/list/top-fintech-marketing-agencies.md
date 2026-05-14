@@ -29,6 +29,9 @@ I ranked 11 fintech marketing agencies based on revenue impact, regulatory compl
 
 10% – **Pricing Transparency**: Clear engagement models and value alignment with different budget levels.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the 11 Best Fintech Marketing Agencies in 2026
 
 1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for B2B SaaS and fintechs needing revenue, not just leads

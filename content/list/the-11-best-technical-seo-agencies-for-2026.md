@@ -56,6 +56,9 @@ We reviewed 40+ [technical SEO](/saas-seo-agency/) agencies and ranked the 11 be
 | 10 | LinkGraph | Forbes, USAToday, Shopify | [4.8 Clutch ↗](https://clutch.co/profile/linkgraph) | 69 |
 | 11 | WebFX | Verizon, Jiffy Lube, Penn State | [4.9 Clutch ↗](https://clutch.co/profile/webfx) | 66 |
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## The Best Technical SEO Agencies in 2026
 
 ### 1. Onely

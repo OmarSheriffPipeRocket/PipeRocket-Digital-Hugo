@@ -29,6 +29,9 @@ I ranked the 9 best fintech SEO agencies for 2026 using a weighted scoring syste
 
 10% – **Client Validation**: Verified reviews and case studies showing measurable outcomes for fintech clients.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the 9 Best Fintech SEO Agencies in 2026
 
 1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for B2B SaaS and Fintech Pipeline Growth

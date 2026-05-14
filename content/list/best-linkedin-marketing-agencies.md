@@ -54,6 +54,9 @@ relatedLinks:
 - **15%** - Transparency & Reporting: Clarity on placement quality, access to live dashboards, detailed monthly reporting, and how well the agency communicates what was built and why it matters.
 - **10%** - Pricing & Value: Retainer structure, per-link pricing, contract flexibility, and how clearly ROI is communicated relative to the investment level.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Rankings Table
 
 | # | Agency | Notable Clients | Review Score | Score |

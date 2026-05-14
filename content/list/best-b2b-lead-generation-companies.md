@@ -29,6 +29,9 @@ I ranked the top 9 B2B lead generation agencies using a weighted scoring system 
 
 10% – **Transparency and Reporting**: We reviewed communication cadence, reporting clarity, and client access to real-time campaign performance data.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the 9 Best B2B Lead Generation Agencies in 2026
 
 1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for full-funnel B2B SaaS lead generation
