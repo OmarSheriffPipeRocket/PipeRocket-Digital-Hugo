@@ -1,0 +1,105 @@
+{{/* Research Methodology — editorial trust page.
+     Re-uses the blog-v2 banner + sidebar + author-card chrome so the
+     page reads as "another piece of long-form editorial" rather than a
+     standalone policy doc. Differences from blogs/single.html:
+       - No category chip (methodology isn't a content category)
+       - No "Related Articles" rail (would dilute the editorial signal)
+       - Main column gets `pr-blog-v2__main` so it inherits the unified
+         table/anchor styles. */}}
+{{ define "head_extra" }}
+{{ $css := resources.Get "css/blog-v2.css" }}
+{{ if $css }}
+  {{ $css = $css | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{ $authors := site.Data.authors }}
+{{ $writer := index $authors (default "" .Params.writtenBy) }}
+{{ $lastmod := .Lastmod }}{{ if $lastmod.IsZero }}{{ $lastmod = .Date }}{{ end }}
+
+<article class="pr-blog-v2 pr-methodology" data-pr-blog-v2>
+
+  {{/* Banner */}}
+  <header class="pr-blog-v2__banner">
+    <div class="pr-blog-v2__banner-grid">
+      <div class="pr-blog-v2__banner-copy">
+        <div class="pr-blog-v2__chip">
+          <span class="pr-blog-v2__chip-text">
+            EDITORIAL POLICY{{ if .Params.readingTime }} · {{ .Params.readingTime | upper }}{{ else if .ReadingTime }} · {{ .ReadingTime }} MIN READ{{ end }}
+          </span>
+        </div>
+        <h1 class="pr-blog-v2__title">{{ .Title }}</h1>
+        <div class="pr-blog-v2__byline">
+          {{ with $writer }}
+            <a class="pr-blog-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
+              {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+              <span>{{ .name }}</span>
+            </a>
+          {{ end }}
+          {{ if and $writer (not $lastmod.IsZero) }}<span class="pr-blog-v2__byline-sep">|</span>{{ end }}
+          {{ if not $lastmod.IsZero }}<span class="pr-blog-v2__lastmod">Last reviewed on <time datetime="{{ $lastmod.Format "2006-01-02" }}">{{ $lastmod.Format "2 January, 2006" }}</time></span>{{ end }}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {{/* 2-column body */}}
+  <div class="pr-container">
+  <div class="pr-blog-v2__grid">
+
+    <aside class="pr-blog-v2__rail" aria-label="In this article">
+      <div class="pr-blog-v2__toc-block">
+        <div class="pr-blog-v2__rail-label">In this article</div>
+        <nav data-pr-blog-toc><!-- filled by JS --></nav>
+      </div>
+      <div class="pr-blog-v2__cta">
+        <div class="pr-blog-v2__cta-h">Flag a Correction</div>
+        <p class="pr-blog-v2__cta-d">Spotted a stale rating, a wrong price, or an agency we shouldn't have included? Email editorial@piperocket.digital and we'll review within two business days.</p>
+        <a href="mailto:editorial@piperocket.digital" class="pr-blog-v2__cta-btn" data-cta-location="methodology-sidebar">Email editorial</a>
+      </div>
+    </aside>
+
+    <main class="pr-blog-v2__main" data-pr-blog-main>
+      {{ .Content }}
+
+      {{/* Author card */}}
+      {{ with $writer }}
+      <div class="pr-author-card">
+        {{ with .photo }}<img class="pr-author-card__photo" src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+        <div class="pr-author-card__body">
+          <div class="pr-author-card__head">
+            <span class="pr-author-card__name">{{ .name }}</span>
+            {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+          </div>
+          {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+          <a class="pr-author-card__btn" href="/authors/{{ $.Params.writtenBy }}/">View full profile</a>
+        </div>
+      </div>
+      {{ end }}
+    </main>
+
+  </div>
+  </div>{{/* end pr-container */}}
+
+</article>
+
+{{/* Bottom CTA — same component blogs/listicles use */}}
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2>You already know if we're the team you've been looking for.</h2>
+    <p>We work with a small number of B2B SaaS companies at a time. If your pipeline isn't growing the way your board expects, let's find out if we're the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="methodology-bottom">Book free consultation</a>
+  </div>
+</section>
+
+{{/* TOC engine (same as blog v2) */}}
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}
+  {{ $js = $js | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}
+{{ end }}

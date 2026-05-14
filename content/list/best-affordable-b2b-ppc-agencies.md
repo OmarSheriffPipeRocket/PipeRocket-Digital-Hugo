@@ -52,6 +52,8 @@ We pulled verified ratings from Clutch and G2, checked each agency's pricing pag
 
 **Pricing and Value:** Affordable is relative to the value delivered. We compared entry-level retainers, ad spend requirements, contract terms, and what's included at each tier. The best affordable agencies offer month-to-month terms, transparent fee structures, and no hidden markups on media spend.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
 ## Detailed Comparison
 
 ### 1. KlientBoost
