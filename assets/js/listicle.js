@@ -31,29 +31,65 @@
     return e;
   }
 
-  /* ─── Comparison table (the one at the top, "Side-by-Side Comparison") ── */
-  function styleComparisonTable() {
-    main.querySelectorAll('table').forEach(function (tbl) {
-      if (tbl.classList.contains('pr-listicle-v2__tbl')) return;
-      tbl.classList.add('pr-listicle-v2__tbl');
-
-      /* Wrap for horizontal scroll if the document doesn't already wrap it */
-      if (!tbl.parentNode.classList.contains('pr-listicle-v2__tbl-wrap') &&
-          !tbl.parentNode.classList.contains('pr-table-scroll')) {
-        var wrap = el('div', 'pr-listicle-v2__tbl-wrap');
-        tbl.parentNode.insertBefore(wrap, tbl);
-        wrap.appendChild(tbl);
-      }
-
-      /* Highlight the PipeRocket row (we always rank ourselves; mark the
-         row so it's visually distinct from third-party agencies). */
-      tbl.querySelectorAll('tbody tr').forEach(function (row) {
-        var cells = row.querySelectorAll('td');
-        var nameCell = cells[1] || cells[0];
-        if (nameCell && /piperocket/i.test(nameCell.textContent)) {
-          row.classList.add('pr-listicle-v2__tbl-ours');
-        }
+  /* ─── Empty <thead> cleanup ────────────────────────────────────────────
+     Goldmark renders 2-column key/value markdown tables with `| | |` as
+     headers — an empty thead row that browsers still allocate column
+     widths for, even with display:none. Strip those rows entirely so
+     auto-layout can size columns based on real content. */
+  function stripEmptyTableHeaders() {
+    main.querySelectorAll('table thead').forEach(function (thead) {
+      var rows = thead.querySelectorAll('tr');
+      if (!rows.length) return;
+      /* Consider the thead "empty" if every <th> has no text content */
+      var allEmpty = Array.from(rows).every(function (tr) {
+        return Array.from(tr.children).every(function (th) {
+          return (th.textContent || '').trim() === '';
+        });
       });
+      if (allEmpty) thead.remove();
+    });
+  }
+
+  /* ─── Comparison table (just the top one — "Side-by-Side Comparison") ──
+     Locate the H2 whose text contains "compare" and find the first table
+     that follows it. Style only that one. All other tables in the article
+     (At a Glance / Pricing Breakdown / Criteria) keep the default body
+     table styling from CSS, which is more compact and works for 2-col
+     key/value layouts. */
+  function styleComparisonTable() {
+    var compareH2 = Array.from(main.querySelectorAll('h2')).find(function (h) {
+      return /\b(compare|comparison|side[-\s]?by[-\s]?side)\b/i.test(h.textContent);
+    });
+    if (!compareH2) return;
+
+    /* Walk forward from compareH2 until we find the first table */
+    var tbl = null;
+    var node = compareH2.nextElementSibling;
+    while (node && !tbl) {
+      if (node.tagName === 'TABLE') { tbl = node; break; }
+      tbl = node.querySelector ? node.querySelector('table') : null;
+      if (tbl) break;
+      node = node.nextElementSibling;
+    }
+    if (!tbl) return;
+
+    tbl.classList.add('pr-listicle-v2__tbl');
+
+    /* Wrap for horizontal scroll if not already wrapped */
+    if (!tbl.parentNode.classList.contains('pr-listicle-v2__tbl-wrap') &&
+        !tbl.parentNode.classList.contains('pr-table-scroll')) {
+      var wrap = el('div', 'pr-listicle-v2__tbl-wrap');
+      tbl.parentNode.insertBefore(wrap, tbl);
+      wrap.appendChild(tbl);
+    }
+
+    /* Highlight the PipeRocket row */
+    tbl.querySelectorAll('tbody tr').forEach(function (row) {
+      var cells = row.querySelectorAll('td');
+      var nameCell = cells[1] || cells[0];
+      if (nameCell && /piperocket/i.test(nameCell.textContent)) {
+        row.classList.add('pr-listicle-v2__tbl-ours');
+      }
     });
   }
 
@@ -142,6 +178,7 @@
   }
 
   function init() {
+    stripEmptyTableHeaders();
     styleComparisonTable();
     buildSidebarTOC();
   }
