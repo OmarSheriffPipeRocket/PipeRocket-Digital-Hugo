@@ -28,6 +28,9 @@ HealthTech buyers are not typical enterprise buyers. They operate inside regulat
 
 10% — **Client Reviews**: Verified Clutch and G2 ratings weighted for healthtech, digital health, and B2B SaaS-specific client outcomes.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## **Compare the Best HealthTech Marketing Agencies in 2026**
 
 1. Clarity Quest · Best for health IT and digital health B2B companies with complex multi-stakeholder buying cycles

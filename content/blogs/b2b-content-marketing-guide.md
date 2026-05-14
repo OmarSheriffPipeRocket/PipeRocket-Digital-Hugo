@@ -188,7 +188,7 @@ The era of chasing “blue links” is fading. 
 
 With the rollout of Google’s AI Overviews (SGE), users are getting answers directly on the search results page without ever visiting a website. [Bain’s 2025 research](https://www.bain.com/insights/goodbye-clicks-hello-ai-zero-click-search-redefines-marketing/) confirms just how dramatic this shift is: 80% of consumers rely on AI-based “zero-click” results at least 40% of the time.
 
-![Zero Click Trend Statistic](/wp-content/uploads/2025/12/Zero-Click-Trend-Statistic.png)
+![Zero Click Trend Statistic](/images/wp-import/12_Zero-Click-Trend-Statistic.png)
 
 And it’s not just traditional search engines; [LLM](/glossary/what-is-an-llm/)-based search platforms like ChatGPT Search and Perplexity are rapidly becoming primary discovery tools for research, comparisons, and recommendations.
 

@@ -23,7 +23,7 @@ Let’s walk through how to audit a SaaS [PPC](/glossary/what-is-ppc/) account t
 
 Here’s a quick index of what you’ll be looking at in this blog:
 
-![Infographic showing how to conduct a <a href=](/wp-content/uploads/2026/01/SaaS-PPC-Audit-768x1024.png "SaaS PPC: Complete Guide")saas ppc audit” width=”768″ height=”1024″ />
+![Infographic showing how to conduct a <a href=](/images/wp-import/01_SaaS-PPC-Audit-768x1024.png "SaaS PPC: Complete Guide")saas ppc audit” width=”768″ height=”1024″ />
 
 ## **Phase 1: Know the Context Before the PPC Audit**
 

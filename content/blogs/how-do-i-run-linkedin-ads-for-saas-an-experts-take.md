@@ -126,7 +126,7 @@ They were using **Max Delivery** bidding.
 
 **Here is the before and after data:**
 
-![Screenshot of Increased Audience Penetration for a SaaS company through LinkedIn.](/wp-content/uploads/2026/01/LinkedIn-Ads-for-SaaS-Case-Study.png)  **August and September (before we onboarded)**: In this data, you can see that these two months have hundreds of thousands of impressions with **just 1.7% audience penetration**.
+![Screenshot of Increased Audience Penetration for a SaaS company through LinkedIn.](/images/wp-import/01_LinkedIn-Ads-for-SaaS-Case-Study.png)  **August and September (before we onboarded)**: In this data, you can see that these two months have hundreds of thousands of impressions with **just 1.7% audience penetration**.
 
 **October and November (after we onboarded)**: You can see that the impressions have reduced a lot but the **audience penetration shot up to 19.20%**.
 
@@ -140,7 +140,7 @@ Now, let’s get into the LinkedIn Campaign Manager. The structure is: **Campaig
 
 Your group objective dictates how the LinkedIn algorithm behaves and your campaigns in this group are locked to this objective. So, do not choose these randomly.
 
-![Screenshot of the LinkedIn "Group Objective" options](/wp-content/uploads/2026/01/LinkedIn-Ads-Group-Objectives-1024x728.png)
+![Screenshot of the LinkedIn "Group Objective" options](/images/wp-import/01_LinkedIn-Ads-Group-Objectives-1024x728.png)
 
 - **Brand Awareness:** Use this only if you want to announce funding or keep your brand at the top of the feed. Don’t expect conversions.
 - **Website Visits:** Use this when you are promoting content (blogs, features, reports) and want traffic.
@@ -163,7 +163,7 @@ Classic gives you the control you need to ensure your budget is used wisely.
 
 We have a variety of formats at our disposal:
 
-![Screenshot of the LinkedIn "Ad Format" options](/wp-content/uploads/2026/01/LinkedIn-Ads-Ad-Formats-1024x519.png)
+![Screenshot of the LinkedIn "Ad Format" options](/images/wp-import/01_LinkedIn-Ads-Ad-Formats-1024x519.png)
 
 - - **Single Image:** The standard feed ad.
   - **Carousel:** Great for storytelling or showing multiple features in one ad unit.

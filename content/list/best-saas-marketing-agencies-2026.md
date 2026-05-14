@@ -42,6 +42,9 @@ I reviewed 50+ agencies and ranked the 11 best **SaaS marketing agencies** in th
 
 10% – **Pricing and Value**. Retainer structure, contract flexibility, and how clearly ROI is communicated relative to the investment. This matters most at Series A and Series B budgets where every dollar counts.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## Compare the Best SaaS Marketing Agencies in 2026
 
 | Agency | Best For | HQ | Starting Price | Clutch Rating | Score |

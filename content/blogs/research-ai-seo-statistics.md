@@ -431,7 +431,7 @@ AI is not replacing organic search — it is acting as an untracked discovery la
 
 Stats in sections 1–6 are sourced from PipeRocket Digital's proprietary 8-month analysis of 53 B2B SaaS brands. Stats in section 7 are drawn from third-party industry research published in 2025–2026, with individual sources linked inline.
 
-![Kamaraj Mathiarasan](/wp-content/uploads/2026/04/Kim-Photo.webp)
+![Kamaraj Mathiarasan](/images/wp-import/04_Kim-Photo.webp)
 
 Kamaraj Mathiarasan
 
@@ -448,7 +448,7 @@ Let's scale your organic growth and build your pipeline.
 
 
 
-![Kamaraj Mathiarasan](/wp-content/uploads/2026/04/Kim-Photo.webp)
+![Kamaraj Mathiarasan](/images/wp-import/04_Kim-Photo.webp)
 
 Kamaraj Mathiarasan
 

@@ -140,7 +140,7 @@ We rebuilt their Google Ads account based on **intent**:
 
 ### The Results: Efficiency at Scale
 
-![Screenshot showing how CPC reduced and revenue increased each quarter](/wp-content/uploads/2026/01/PipeRocket-Case-Study-for-Google-Ads-for-SaaS.png)
+![Screenshot showing how CPC reduced and revenue increased each quarter](/images/wp-import/01_PipeRocket-Case-Study-for-Google-Ads-for-SaaS.png)
 
 The impact was immediate and compounding. Over three quarters, we reduced ad spend by roughly 27% while increasing revenue by nearly 59%.
 

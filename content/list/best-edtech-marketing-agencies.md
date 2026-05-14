@@ -34,23 +34,23 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ## Compare the 7 Best Edtech Marketing Agencies in 2026
 
-1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for Revenue-Focused Edtech SaaS Companies
-2. [Aspectus](/wp-content/uploads/2025/11/Aspectus-Homepage-1024x556.jpg) – Best for Establishing Global Corporate Authority
-3. [The Rubicon Agency](/wp-content/uploads/2025/11/TheRubiconAgency-Homepage-1024x556.jpg) – Best for Winning Multi-Stakeholder Buy-In
-4. [27Zero](/wp-content/uploads/2025/11/27Zero-Homepage-1024x556.jpg) – Best for Proving Impact on Learning Outcomes
-5. [Insivia](/wp-content/uploads/2025/11/Insivia-Homepage-1024x556.jpg) – Best for Maximizing Software Adoption Rates
-6. [Native Digital](/wp-content/uploads/2025/11/Native-Digital-Homepage-1024x556.png) – Best for Creating Emotional Connection with Educators
-7. [Saassy](/wp-content/uploads/2025/11/Saassy-Homepage-1024x556.png) – Best for Optimizing Lead Velocity in Long Cycles
+1. [PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp) – Best for Revenue-Focused Edtech SaaS Companies
+2. [Aspectus](/images/wp-import/11_Aspectus-Homepage-1024x556.jpg) – Best for Establishing Global Corporate Authority
+3. [The Rubicon Agency](/images/wp-import/11_TheRubiconAgency-Homepage-1024x556.jpg) – Best for Winning Multi-Stakeholder Buy-In
+4. [27Zero](/images/wp-import/11_27Zero-Homepage-1024x556.jpg) – Best for Proving Impact on Learning Outcomes
+5. [Insivia](/images/wp-import/11_Insivia-Homepage-1024x556.jpg) – Best for Maximizing Software Adoption Rates
+6. [Native Digital](/images/wp-import/11_Native-Digital-Homepage-1024x556.png) – Best for Creating Emotional Connection with Educators
+7. [Saassy](/images/wp-import/11_Saassy-Homepage-1024x556.png) – Best for Optimizing Lead Velocity in Long Cycles
 
 | Agency | Score | Best For | Starting Price |
 | --- | --- | --- | --- |
-| [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) | 96 | Revenue-Focused Edtech SaaS | $5,000/mo |
-| [Aspectus](/wp-content/uploads/2025/11/Aspectus-Homepage-1024x556.jpg) | 91 | Global Corporate Authority | Custom |
-| [The Rubicon Agency](/wp-content/uploads/2025/11/TheRubiconAgency-Homepage-1024x556.jpg) | 88 | Multi-Stakeholder Buy-In | Custom |
-| [27Zero](/wp-content/uploads/2025/11/27Zero-Homepage-1024x556.jpg) | 85 | Learning Outcome Narratives | Custom |
-| [Insivia](/wp-content/uploads/2025/11/Insivia-Homepage-1024x556.jpg) | 82 | Software Adoption Optimization | Custom |
-| [Native Digital](/wp-content/uploads/2025/11/Native-Digital-Homepage-1024x556.png) | 78 | Educator Emotional Connection | Custom |
-| [Saassy](/wp-content/uploads/2025/11/Saassy-Homepage-1024x556.png) | 74 | Lead Velocity Optimization | Custom |
+| [PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp) | 96 | Revenue-Focused Edtech SaaS | $5,000/mo |
+| [Aspectus](/images/wp-import/11_Aspectus-Homepage-1024x556.jpg) | 91 | Global Corporate Authority | Custom |
+| [The Rubicon Agency](/images/wp-import/11_TheRubiconAgency-Homepage-1024x556.jpg) | 88 | Multi-Stakeholder Buy-In | Custom |
+| [27Zero](/images/wp-import/11_27Zero-Homepage-1024x556.jpg) | 85 | Learning Outcome Narratives | Custom |
+| [Insivia](/images/wp-import/11_Insivia-Homepage-1024x556.jpg) | 82 | Software Adoption Optimization | Custom |
+| [Native Digital](/images/wp-import/11_Native-Digital-Homepage-1024x556.png) | 78 | Educator Emotional Connection | Custom |
+| [Saassy](/images/wp-import/11_Saassy-Homepage-1024x556.png) | 74 | Lead Velocity Optimization | Custom |
 
 ## The 7 Best Edtech Marketing Agencies in 2026
 
@@ -58,7 +58,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 96
 
-![PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp)
+![PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
 
 Revenue Attribution 29/30 | Edtech Sector Expertise 24/25 | Strategic Positioning 19/20 | Execution Quality 14/15 | Client Alignment 10/10
 
@@ -91,7 +91,7 @@ Pricing: $5,000-$15,000/mo – Scales based on scope and channel mix – [Visit 
 
 91
 
-![Aspectus](/wp-content/uploads/2025/11/Aspectus-Homepage-1024x556.jpg)
+![Aspectus](/images/wp-import/11_Aspectus-Homepage-1024x556.jpg)
 
 Revenue Attribution 26/30 | Edtech Sector Expertise 24/25 | Strategic Positioning 19/20 | Execution Quality 13/15 | Client Alignment 9/10
 
@@ -124,7 +124,7 @@ Pricing: Custom – Tailored for enterprise engagements with global scope – [V
 
 88
 
-![The Rubicon Agency](/wp-content/uploads/2025/11/TheRubiconAgency-Homepage-1024x556.jpg)
+![The Rubicon Agency](/images/wp-import/11_TheRubiconAgency-Homepage-1024x556.jpg)
 
 Revenue Attribution 25/30 | Edtech Sector Expertise 23/25 | Strategic Positioning 18/20 | Execution Quality 13/15 | Client Alignment 9/10
 
@@ -157,7 +157,7 @@ Pricing: Custom – Structured for mid-market and enterprise B2B engagements –
 
 85
 
-![27Zero](/wp-content/uploads/2025/11/27Zero-Homepage-1024x556.jpg)
+![27Zero](/images/wp-import/11_27Zero-Homepage-1024x556.jpg)
 
 Revenue Attribution 23/30 | Edtech Sector Expertise 23/25 | Strategic Positioning 18/20 | Execution Quality 12/15 | Client Alignment 9/10
 
@@ -190,7 +190,7 @@ Pricing: Custom – Structured for brand and strategy engagements – [Visit 27Z
 
 82
 
-![Insivia](/wp-content/uploads/2025/11/Insivia-Homepage-1024x556.jpg)
+![Insivia](/images/wp-import/11_Insivia-Homepage-1024x556.jpg)
 
 Revenue Attribution 22/30 | Edtech Sector Expertise 21/25 | Strategic Positioning 17/20 | Execution Quality 13/15 | Client Alignment 9/10
 
@@ -223,7 +223,7 @@ Pricing: Custom – Scaled for growth-stage SaaS engagements – [Visit Insivia]
 
 78
 
-![Native Digital](/wp-content/uploads/2025/11/Native-Digital-Homepage-1024x556.png)
+![Native Digital](/images/wp-import/11_Native-Digital-Homepage-1024x556.png)
 
 Revenue Attribution 20/30 | Edtech Sector Expertise 20/25 | Strategic Positioning 17/20 | Execution Quality 12/15 | Client Alignment 9/10
 
@@ -258,7 +258,7 @@ Pricing: Custom – Structured for brand and creative engagements – [Visit Nat
 
 74
 
-![Saassy](/wp-content/uploads/2025/11/Saassy-Homepage-1024x556.png)
+![Saassy](/images/wp-import/11_Saassy-Homepage-1024x556.png)
 
 Revenue Attribution 19/30 | Edtech Sector Expertise 18/25 | Strategic Positioning 16/20 | Execution Quality 12/15 | Client Alignment 9/10
 

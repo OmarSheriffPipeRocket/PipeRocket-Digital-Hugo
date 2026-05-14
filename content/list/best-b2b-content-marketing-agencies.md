@@ -34,27 +34,27 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ## Compare the 9 Best B2B Content Marketing Agencies in 2026
 
-1. [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) – Best for ROI-driven B2B growth
-2. [Animalz](/wp-content/uploads/2025/11/Animalz-Homepage-1024x556.png) – Best for deep-dive thought leadership and executive ghostwriting
-3. [Grow and Convert](/wp-content/uploads/2025/11/Grow-and-Convert-Homepage-1024x579.png) – Best for bottom-of-funnel conversion strategies
-4. [Megawatt](/wp-content/uploads/2025/11/Megawatt-Homepage-1024x556.jpg) – Best for highly technical cybersecurity and IT products
-5. [Siege Media](/wp-content/uploads/2025/10/Siege-Homepage-1024x580.webp) – Best for visual assets and link-earning content
-6. [Omniscient Digital](/wp-content/uploads/2025/10/Omniscient-Digital-Homepage-1024x559.webp) – Best for strategy-led content and brand positioning
-7. [Ironpaper](/wp-content/uploads/2025/11/Ironpaper-Homepage-1-1024x437.png) – Best for long, complex enterprise sales cycles
-8. [Optimist](/wp-content/uploads/2025/11/Optimist-Homepage-1024x556.png) – Best for full-service, scalable content operations
-9. [mvpGROW](/wp-content/uploads/2025/11/mvpGROW-Homepage-1024x556.png) – Best for agile tech startups needing an on-demand team
+1. [PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp) – Best for ROI-driven B2B growth
+2. [Animalz](/images/wp-import/11_Animalz-Homepage-1024x556.png) – Best for deep-dive thought leadership and executive ghostwriting
+3. [Grow and Convert](/images/wp-import/11_Grow-and-Convert-Homepage-1024x579.png) – Best for bottom-of-funnel conversion strategies
+4. [Megawatt](/images/wp-import/11_Megawatt-Homepage-1024x556.jpg) – Best for highly technical cybersecurity and IT products
+5. [Siege Media](/images/wp-import/10_Siege-Homepage-1024x580.webp) – Best for visual assets and link-earning content
+6. [Omniscient Digital](/images/wp-import/10_Omniscient-Digital-Homepage-1024x559.webp) – Best for strategy-led content and brand positioning
+7. [Ironpaper](/images/wp-import/11_Ironpaper-Homepage-1-1024x437.png) – Best for long, complex enterprise sales cycles
+8. [Optimist](/images/wp-import/11_Optimist-Homepage-1024x556.png) – Best for full-service, scalable content operations
+9. [mvpGROW](/images/wp-import/11_mvpGROW-Homepage-1024x556.png) – Best for agile tech startups needing an on-demand team
 
 | Agency | Score | Best For | Starting Price |
 | --- | --- | --- | --- |
-| [PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp) | 96 | ROI-driven B2B growth | Custom |
-| [Animalz](/wp-content/uploads/2025/11/Animalz-Homepage-1024x556.png) | 91 | Executive ghostwriting | Custom |
-| [Grow and Convert](/wp-content/uploads/2025/11/Grow-and-Convert-Homepage-1024x579.png) | 89 | BOFU conversion strategies | Custom |
-| [Megawatt](/wp-content/uploads/2025/11/Megawatt-Homepage-1024x556.jpg) | 87 | Technical cybersecurity content | Custom |
-| [Siege Media](/wp-content/uploads/2025/10/Siege-Homepage-1024x580.webp) | 85 | Visual link-earning assets | Custom |
-| [Omniscient Digital](/wp-content/uploads/2025/10/Omniscient-Digital-Homepage-1024x559.webp) | 83 | Strategy-led brand positioning | Custom |
-| [Ironpaper](/wp-content/uploads/2025/11/Ironpaper-Homepage-1-1024x437.png) | 81 | Enterprise sales cycles | Custom |
-| [Optimist](/wp-content/uploads/2025/11/Optimist-Homepage-1024x556.png) | 79 | Scalable content operations | Custom |
-| [mvpGROW](/wp-content/uploads/2025/11/mvpGROW-Homepage-1024x556.png) | 77 | On-demand startup teams | Custom |
+| [PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp) | 96 | ROI-driven B2B growth | Custom |
+| [Animalz](/images/wp-import/11_Animalz-Homepage-1024x556.png) | 91 | Executive ghostwriting | Custom |
+| [Grow and Convert](/images/wp-import/11_Grow-and-Convert-Homepage-1024x579.png) | 89 | BOFU conversion strategies | Custom |
+| [Megawatt](/images/wp-import/11_Megawatt-Homepage-1024x556.jpg) | 87 | Technical cybersecurity content | Custom |
+| [Siege Media](/images/wp-import/10_Siege-Homepage-1024x580.webp) | 85 | Visual link-earning assets | Custom |
+| [Omniscient Digital](/images/wp-import/10_Omniscient-Digital-Homepage-1024x559.webp) | 83 | Strategy-led brand positioning | Custom |
+| [Ironpaper](/images/wp-import/11_Ironpaper-Homepage-1-1024x437.png) | 81 | Enterprise sales cycles | Custom |
+| [Optimist](/images/wp-import/11_Optimist-Homepage-1024x556.png) | 79 | Scalable content operations | Custom |
+| [mvpGROW](/images/wp-import/11_mvpGROW-Homepage-1024x556.png) | 77 | On-demand startup teams | Custom |
 
 ## The 9 Best B2B Content Marketing Agencies in 2026
 
@@ -62,7 +62,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 96
 
-![PipeRocket Digital](/wp-content/uploads/2025/10/PipeRocket-Homepage-1024x550.webp)
+![PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
 
 Strategic Depth 29/30 | Content Quality 24/25 | Technical Expertise 19/20 | Client Results 15/15 | Service Flexibility 9/10
 
@@ -95,7 +95,7 @@ Pricing: Custom – Engagement scoped to your pipeline goals and growth stage �
 
 91
 
-![Animalz](/wp-content/uploads/2025/11/Animalz-Homepage-1024x556.png)
+![Animalz](/images/wp-import/11_Animalz-Homepage-1024x556.png)
 
 Strategic Depth 27/30 | Content Quality 25/25 | Technical Expertise 18/20 | Client Results 13/15 | Service Flexibility 8/10
 
@@ -128,7 +128,7 @@ Pricing: Custom – Premium positioning for companies investing in long-term aut
 
 89
 
-![Grow and Convert](/wp-content/uploads/2025/11/Grow-and-Convert-Homepage-1024x579.png)
+![Grow and Convert](/images/wp-import/11_Grow-and-Convert-Homepage-1024x579.png)
 
 Strategic Depth 28/30 | Content Quality 22/25 | Technical Expertise 17/20 | Client Results 14/15 | Service Flexibility 8/10
 
@@ -161,7 +161,7 @@ Pricing: Custom – Structured around conversion outcomes rather than content vo
 
 87
 
-![Megawatt](/wp-content/uploads/2025/11/Megawatt-Homepage-1024x556.jpg)
+![Megawatt](/images/wp-import/11_Megawatt-Homepage-1024x556.jpg)
 
 Strategic Depth 25/30 | Content Quality 23/25 | Technical Expertise 20/20 | Client Results 12/15 | Service Flexibility 7/10
 
@@ -194,7 +194,7 @@ Pricing: Custom – Specialized engagement for technical B2B verticals – Visit
 
 85
 
-![Siege Media](/wp-content/uploads/2025/10/Siege-Homepage-1024x580.webp)
+![Siege Media](/images/wp-import/10_Siege-Homepage-1024x580.webp)
 
 Strategic Depth 24/30 | Content Quality 24/25 | Technical Expertise 16/20 | Client Results 13/15 | Service Flexibility 8/10
 
@@ -229,7 +229,7 @@ Pricing: Custom – Premium pricing reflecting design-heavy, link-focused method
 
 83
 
-![Omniscient Digital](/wp-content/uploads/2025/10/Omniscient-Digital-Homepage-1024x559.webp)
+![Omniscient Digital](/images/wp-import/10_Omniscient-Digital-Homepage-1024x559.webp)
 
 Strategic Depth 26/30 | Content Quality 22/25 | Technical Expertise 16/20 | Client Results 12/15 | Service Flexibility 7/10
 
@@ -266,7 +266,7 @@ Pricing: Custom – Strategy-led engagements with comprehensive research phases 
 
 81
 
-![Ironpaper](/wp-content/uploads/2025/11/Ironpaper-Homepage-1-1024x437.png)
+![Ironpaper](/images/wp-import/11_Ironpaper-Homepage-1-1024x437.png)
 
 Strategic Depth 24/30 | Content Quality 21/25 | Technical Expertise 16/20 | Client Results 12/15 | Service Flexibility 8/10
 
@@ -301,7 +301,7 @@ Pricing: Custom – Enterprise-focused engagements supporting long sales cycles 
 
 79
 
-![Optimist](/wp-content/uploads/2025/11/Optimist-Homepage-1024x556.png)
+![Optimist](/images/wp-import/11_Optimist-Homepage-1024x556.png)
 
 Strategic Depth 23/30 | Content Quality 21/25 | Technical Expertise 15/20 | Client Results 12/15 | Service Flexibility 8/10
 
@@ -336,7 +336,7 @@ Pricing: Custom – Full-service engagements covering strategy through execution
 
 77
 
-![mvpGROW](/wp-content/uploads/2025/11/mvpGROW-Homepage-1024x556.png)
+![mvpGROW](/images/wp-import/11_mvpGROW-Homepage-1024x556.png)
 
 Strategic Depth 22/30 | Content Quality 20/25 | Technical Expertise 15/20 | Client Results 12/15 | Service Flexibility 8/10
 

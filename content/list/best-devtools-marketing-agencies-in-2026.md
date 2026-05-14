@@ -28,6 +28,9 @@ Developers do not respond to marketing the way most B2B buyers do. They read the
 
 10% — **Client Reviews**: Verified Clutch and G2 ratings weighted for devtools, API-first, and developer-facing SaaS client outcomes.
 
+For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+
+
 ## **Compare the Best DevTools Marketing Agencies in 2026**
 
 - 1. Draft.dev · Best for devtools companies that need engineering-grade technical content produced at scale by actual developers
