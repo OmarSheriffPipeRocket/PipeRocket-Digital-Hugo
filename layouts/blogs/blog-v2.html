@@ -1,6 +1,5 @@
-{{/* Blog v2 — default single template for /blogs/.
-     2-column layout with dark banner, expandable TOC sidebar,
-     author card, related articles, and bottom CTA. */}}
+{{/* Blog v2 template — 2-column with expandable TOC sidebar.
+     Opt-in: add `layout: "blog-v2"` to a /content/blogs/*.md frontmatter. */}}
 {{ define "head_extra" }}
 {{ $css := resources.Get "css/blog-v2.css" }}
 {{ if $css }}
@@ -96,8 +95,8 @@
       {{ $rWriter := index $.Site.Data.authors (default "" .Params.writtenBy) }}
       <article class="pr-listicle-related__card">
         {{ with .Params.featuredImage }}
-        <a href="{{ .RelPermalink }}" class="pr-listicle-related__img-wrap">
-          <img src="{{ . }}" alt="{{ .Title }}" loading="lazy">
+        <a href="{{ $.RelPermalink }}" class="pr-listicle-related__img-wrap">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
         </a>
         {{ end }}
         <div class="pr-listicle-related__copy">
