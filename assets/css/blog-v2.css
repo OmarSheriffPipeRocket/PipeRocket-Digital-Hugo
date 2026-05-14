@@ -113,10 +113,13 @@
   .pr-blog-v2__grid { grid-template-columns: 1fr; }
 }
 
-/* ---------- Left rail ---------- */
+/* ---------- Left rail ----------
+   The site header (.pr-header) is `position: sticky; top: 0` and ~83px
+   tall. The rail's `top` must sit below the header height, otherwise
+   the top of the TOC card slides under the header when scrolling. */
 .pr-blog-v2__rail {
   position: sticky;
-  top: 32px;
+  top: 100px;
   display: flex;
   flex-direction: column;
   gap: 24px;

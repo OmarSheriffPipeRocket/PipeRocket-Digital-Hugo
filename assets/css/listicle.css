@@ -532,10 +532,14 @@
   .pr-listicle-v2__grid { grid-template-columns: minmax(0, 1fr); padding: 24px 0 48px; gap: 24px; }
 }
 
-/* ---------- Left rail ---------- */
+/* ---------- Left rail ----------
+   The site header (.pr-header) is `position: sticky; top: 0` and ~83px
+   tall. The rail's `top` value MUST sit below that header height,
+   otherwise the top of the TOC card slides under the header when the
+   user scrolls. Adding ~16px breathing room below the header. */
 .pr-listicle-v2__rail-left {
   position: sticky;
-  top: 32px;
+  top: 100px;
   display: flex;
   flex-direction: column;
   gap: 24px;
