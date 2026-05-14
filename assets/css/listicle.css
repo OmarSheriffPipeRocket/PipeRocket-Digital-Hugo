@@ -308,14 +308,16 @@
 .pr-listicle-v2__main h3 {
   margin-top: 56px !important;
   margin-bottom: 20px !important;
-  padding-top: 32px;
-  border-top: 1px solid #e5e0d8;
 }
-/* First h3 in the ranking list doesn't need a top border */
 .pr-listicle-v2__main h2 + h3 {
-  border-top: none;
-  padding-top: 0;
   margin-top: 32px !important;
+}
+
+/* Hide markdown `---` horizontal rules — agencies are visually separated
+   by the H3 + section-label whitespace, no need for an explicit divider.
+   Also hides the trailing <hr> after the FAQ section. */
+.pr-listicle-v2__main hr {
+  display: none;
 }
 
 /* "Best for:" line and bolded inline labels stay as standard paragraphs.
@@ -504,9 +506,15 @@
   margin-top: 3px;
 }
 
-/* ---------- Body grid (2-col) ---------- */
-.pr-listicle-v2 .pr-container {
-  padding-left: 0;
+/* ---------- Body grid (2-col) ----------
+   On desktop we drop the container's left padding so the sticky TOC card
+   sits flush with the banner edge (cleaner alignment). On mobile we
+   restore symmetrical container padding so text doesn't run flush
+   against the viewport edge. */
+@media (min-width: 1025px) {
+  .pr-listicle-v2 .pr-container {
+    padding-left: 0;
+  }
 }
 
 .pr-listicle-v2__grid {
@@ -521,7 +529,7 @@
    <table> inside a track will blow the grid out past the viewport. */
 .pr-listicle-v2__grid > * { min-width: 0; }
 @media (max-width: 1024px) {
-  .pr-listicle-v2__grid { grid-template-columns: minmax(0, 1fr); padding: 32px 0 48px; }
+  .pr-listicle-v2__grid { grid-template-columns: minmax(0, 1fr); padding: 24px 0 48px; gap: 24px; }
 }
 
 /* ---------- Left rail ---------- */
@@ -543,12 +551,50 @@
   overflow: hidden;
 }
 .pr-listicle-v2__rail-label {
+  position: relative;
   font-family: "IvyPresto Headline", Georgia, serif;
   font-weight: 600;
   font-size: 22px;
   color: #000;
   padding: 20px 24px 16px;
   border-bottom: 1px solid #111;
+}
+/* Caret + collapsible behaviour kick in only on narrow viewports.
+   On desktop the TOC body stays visible regardless of `is-open`. */
+.pr-listicle-v2__toc-caret {
+  display: none;
+  font-size: 16px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+  color: #000;
+  margin-left: 8px;
+}
+@media (max-width: 1024px) {
+  .pr-listicle-v2__toc-block--collapsible .pr-listicle-v2__rail-label {
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    padding-right: 56px;
+    user-select: none;
+  }
+  .pr-listicle-v2__toc-block--collapsible .pr-listicle-v2__toc-caret {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+  }
+  .pr-listicle-v2__toc-block--collapsible.is-open .pr-listicle-v2__rail-label {
+    border-bottom-color: #111;
+  }
+  .pr-listicle-v2__toc-block--collapsible.is-open .pr-listicle-v2__toc-caret {
+    transform: translateY(-50%) rotate(180deg);
+  }
+  .pr-listicle-v2__toc-block--collapsible [data-pr-agency-toc] {
+    display: none;
+  }
+  .pr-listicle-v2__toc-block--collapsible.is-open [data-pr-agency-toc] {
+    display: block;
+  }
 }
 [data-pr-agency-toc] {
   padding: 12px 0;

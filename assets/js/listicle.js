@@ -84,49 +84,28 @@
     });
   }
 
-  /* ─── Sidebar TOC — "Jump to Agency" ────────────────────────────────── */
+  /* ─── Sidebar TOC — section navigation (H2s only) ──────────────────────
+     Lists every H2 in the article so the reader can jump between major
+     sections (TL;DR, Side-by-Side Comparison, How We Chose, Detailed
+     Comparison, FAQs). Agency h3s under "Detailed Comparison" are NOT
+     in the TOC anymore — the section-level overview is easier to scan
+     and matches how the rest of the site treats TOCs. */
   function buildSidebarTOC() {
     var tocNav = document.querySelector('[data-pr-agency-toc]');
     if (!tocNav) return;
 
-    /* The TOC should list only the ranked agency h3s (those starting with
-       a digit), not every h3 on the page. */
-    var firstRankedH3 = Array.from(main.querySelectorAll('h3')).find(function (h) {
-      return /^\s*1[\.\)]/.test(h.textContent);
-    });
-    if (!firstRankedH3) return;
-
-    /* Walk back from the first ranked h3 to find its containing H2 — every
-       agency in this section is what we want in the TOC. */
-    var rankH2 = null;
-    var prev = firstRankedH3.previousElementSibling;
-    while (prev) {
-      if (prev.tagName === 'H2') { rankH2 = prev; break; }
-      prev = prev.previousElementSibling;
-    }
-    if (!rankH2) rankH2 = main.querySelector('h2');
-    if (!rankH2) return;
-
-    var headings = [];
-    var node = rankH2.nextElementSibling;
-    while (node) {
-      if (node.tagName === 'H2') break;
-      if (node.tagName === 'H3' && /^\s*\d+[\.\)]/.test(node.textContent)) {
-        headings.push(node);
-      }
-      node = node.nextElementSibling;
-    }
+    var headings = Array.from(main.querySelectorAll('h2'));
+    /* Drop trailing empty / "Related Articles" h2 outside main */
+    headings = headings.filter(function (h) { return (h.textContent || '').trim().length > 0; });
     if (!headings.length) return;
 
     var ol = document.createElement('ol');
     headings.forEach(function (h, i) {
-      if (!h.id) h.id = 'agency-' + (i + 1);
-      /* Strip "N. " prefix + any " – Best for ..." suffix so the TOC link
-         is just the agency name. */
-      var clean = h.textContent
-        .replace(/^\s*\d+[\.\)]\s*/, '')
-        .split(/\s*[–—-]\s*Best\s+for/i)[0]
-        .trim();
+      if (!h.id) {
+        h.id = 'toc-' + (i + 1) + '-' + (h.textContent || '').toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
+      }
+      var clean = (h.textContent || '').trim();
       var li = document.createElement('li');
       li.innerHTML = '<a href="#' + h.id + '">' +
         '<span class="toc-num">' + (i + 1) + '.</span> ' + clean + '</a>';
@@ -147,31 +126,62 @@
     }, { rootMargin: '0px 0px -60% 0px', threshold: 0 });
     headings.forEach(function (h) { observer.observe(h); });
 
-    /* Mobile dropdown copy */
-    var sel = document.querySelector('[data-pr-mobile-select]');
-    var go = document.querySelector('[data-pr-mobile-go]');
-    var mob = document.querySelector('[data-pr-mobile-nav]');
-    if (sel && headings.length) {
-      headings.forEach(function (h) {
-        var opt = document.createElement('option');
-        opt.value = '#' + h.id;
-        opt.textContent = h.textContent.replace(/^\s*\d+[\.\)]\s*/, '');
-        sel.appendChild(opt);
-      });
-      if (mob) mob.hidden = false;
-      if (go) {
-        go.addEventListener('click', function () {
-          var target = document.querySelector(sel.value);
-          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        });
-      }
+    /* Update the "Jump to Agency" label → "In this article" so the
+       sidebar reads correctly for section-level navigation. */
+    var label = document.querySelector('.pr-listicle-v2__rail-label');
+    if (label) label.textContent = 'In this article';
+  }
+
+  /* ─── Mobile TOC toggle ────────────────────────────────────────────────
+     On narrow viewports the TOC is collapsed by default behind a button.
+     Tapping the button expands the list; tapping a link or the button
+     again collapses it. */
+  function setupMobileTOCToggle() {
+    var tocBlock = document.querySelector('.pr-listicle-v2__toc-block');
+    if (!tocBlock) return;
+
+    var label = tocBlock.querySelector('.pr-listicle-v2__rail-label');
+    var body = tocBlock.querySelector('[data-pr-agency-toc]');
+    if (!label || !body) return;
+
+    /* Mark the label as a toggle button — only visually active < 1024px
+       (CSS handles the show/hide of the body). */
+    tocBlock.classList.add('pr-listicle-v2__toc-block--collapsible');
+    label.setAttribute('role', 'button');
+    label.setAttribute('tabindex', '0');
+    label.setAttribute('aria-expanded', 'false');
+
+    var caret = document.createElement('span');
+    caret.className = 'pr-listicle-v2__toc-caret';
+    caret.setAttribute('aria-hidden', 'true');
+    caret.textContent = '▾';
+    label.appendChild(caret);
+
+    function toggle() {
+      var isOpen = tocBlock.classList.toggle('is-open');
+      label.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     }
+
+    label.addEventListener('click', toggle);
+    label.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+    });
+
+    /* Collapse after a TOC link is clicked (mobile only). */
+    body.addEventListener('click', function (e) {
+      var a = e.target.closest('a');
+      if (a && window.matchMedia('(max-width: 1024px)').matches) {
+        tocBlock.classList.remove('is-open');
+        label.setAttribute('aria-expanded', 'false');
+      }
+    });
   }
 
   function init() {
     stripEmptyTableHeaders();
     highlightPipeRocketRow();
     buildSidebarTOC();
+    setupMobileTOCToggle();
   }
 
   if (document.readyState === 'loading') {

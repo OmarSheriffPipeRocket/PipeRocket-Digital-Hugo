@@ -4923,7 +4923,7 @@ a.pr-hero__cta:hover,
 .pr-compare__body td strong,
 .pr-vs__body td strong { color: #111; font-weight: 700; }
 
-/* Alternating row stripes — Omar's v2 palette */
+/* Alternating row stripes — soft cream palette (low-intensity) */
 .pr-blog__body tbody tr:nth-child(odd) td,
 .pr-blog-v2__main tbody tr:nth-child(odd) td,
 .pr-glossary__body tbody tr:nth-child(odd) td,
@@ -4931,7 +4931,7 @@ a.pr-hero__cta:hover,
 .pr-listicle-v2__main tbody tr:nth-child(odd) td,
 .pr-alt__body tbody tr:nth-child(odd) td,
 .pr-compare__body tbody tr:nth-child(odd) td,
-.pr-vs__body tbody tr:nth-child(odd) td { background: #f6f6f1; }
+.pr-vs__body tbody tr:nth-child(odd) td { background: #faf8f3; }
 .pr-blog__body tbody tr:nth-child(even) td,
 .pr-blog-v2__main tbody tr:nth-child(even) td,
 .pr-glossary__body tbody tr:nth-child(even) td,
@@ -4939,7 +4939,7 @@ a.pr-hero__cta:hover,
 .pr-listicle-v2__main tbody tr:nth-child(even) td,
 .pr-alt__body tbody tr:nth-child(even) td,
 .pr-compare__body tbody tr:nth-child(even) td,
-.pr-vs__body tbody tr:nth-child(even) td { background: #E8E4DA; }
+.pr-vs__body tbody tr:nth-child(even) td { background: #f0ece0; }
 .pr-blog__body blockquote,
 .pr-glossary__body blockquote,
 .pr-listicle__body blockquote,
