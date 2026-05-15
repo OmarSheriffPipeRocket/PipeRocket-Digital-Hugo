@@ -6,7 +6,6 @@ date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-ssl-certificate"
 categorySlug: "seo"
-subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3268
 glossaryCategory: "SEO"

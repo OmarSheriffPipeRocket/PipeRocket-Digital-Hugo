@@ -5,8 +5,7 @@ meta_description: "PPC stands for pay-per-click advertising a model where you pa
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-ppc"
-categorySlug: "paid"
-subcategorySlug: "google-ads"
+categorySlug: "ppc"
 writtenBy: "praveen"
 wp_id: 3264
 glossaryCategory: "PPC & Paid Advertising"

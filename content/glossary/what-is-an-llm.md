@@ -5,8 +5,7 @@ meta_description: "An LLM is an AI model trained to understand and generate natu
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-an-llm"
-categorySlug: "seo"
-subcategorySlug: "on-page"
+categorySlug: "ai-future-search"
 writtenBy: "kamaraj"
 wp_id: 3203
 glossaryCategory: "AI & Future Search"

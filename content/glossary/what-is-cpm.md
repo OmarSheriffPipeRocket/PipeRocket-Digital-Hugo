@@ -6,8 +6,7 @@ meta_description: "What is CPM? Learn how cost-per-mille works, why it matters f
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-cpm"
-categorySlug: "paid"
-subcategorySlug: "google-ads"
+categorySlug: "ppc"
 writtenBy: "omar"
 wp_id: 3201
 glossaryCategory: "PPC & Paid Advertising"

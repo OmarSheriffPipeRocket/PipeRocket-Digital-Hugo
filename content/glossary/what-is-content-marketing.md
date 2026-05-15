@@ -6,8 +6,7 @@ meta_description: "Content marketing is creating useful content to attract and e
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-content-marketing"
-categorySlug: "saas-marketing"
-subcategorySlug: "pipeline-funnel"
+categorySlug: "content-marketing"
 writtenBy: "kamaraj"
 wp_id: 3273
 glossaryCategory: "Content Marketing"

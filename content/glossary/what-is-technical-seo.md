@@ -5,7 +5,6 @@ meta_description: "Technical SEO is how search engines crawl, index, and rank yo
 date: 2026-04-27
 slug: "what-is-technical-seo"
 categorySlug: "seo"
-subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3371
 glossaryCategory: "SEO"

@@ -5,8 +5,7 @@ meta_title: "What Is Thought Leadership? Real Definition for SaaS Teams"
 meta_description: "Thought leadership means shaping your market’s thinking, not just sharing ideas. Here’s what it is, why most get it wrong, and how to actually do it."
 date: 2026-04-27
 slug: "what-is-thought-leadership"
-categorySlug: "saas-marketing"
-subcategorySlug: "pipeline-funnel"
+categorySlug: "content-marketing"
 writtenBy: "kamaraj"
 wp_id: 3377
 glossaryCategory: "Content Marketing"

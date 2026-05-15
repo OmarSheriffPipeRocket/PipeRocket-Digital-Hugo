@@ -5,8 +5,7 @@ meta_title: "What Is Upsell? The SaaS Revenue Guide"
 meta_description: "Upselling in SaaS means selling more to customers you already have. Learn what it is, how it works, and why most teams are doing it backwards."
 date: 2026-04-27
 slug: "what-is-upsell"
-categorySlug: "marketing-ops"
-subcategorySlug: "lifecycle"
+categorySlug: "saas-metrics"
 writtenBy: "ranjeeth"
 wp_id: 3539
 glossaryCategory: "SaaS Metrics & Growth"

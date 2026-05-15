@@ -5,8 +5,7 @@ meta_description: "ICP means Ideal Customer Profile the blueprint of your best-f
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-icp"
-categorySlug: "saas-marketing"
-subcategorySlug: "icp-targeting"
+categorySlug: "demand-generation"
 writtenBy: "kamaraj"
 wp_id: 3280
 glossaryCategory: "Demand Generation"

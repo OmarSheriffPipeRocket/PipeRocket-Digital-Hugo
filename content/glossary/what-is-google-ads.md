@@ -5,8 +5,7 @@ meta_description: "Google Ads is Google’s paid search platform for reaching bu
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-google-ads"
-categorySlug: "paid"
-subcategorySlug: "google-ads"
+categorySlug: "ppc"
 writtenBy: "praveen"
 wp_id: 3275
 glossaryCategory: "PPC & Paid Advertising"

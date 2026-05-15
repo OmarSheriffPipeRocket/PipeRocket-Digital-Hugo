@@ -5,8 +5,7 @@ meta_title: "What Is TAM SAM SOM? A Founder's Guide"
 meta_description: "TAM SAM SOM breaks your market into three layers total, serviceable, and obtainable. Here's what each means and how to calculate them without fooling yourself."
 date: 2026-04-27
 slug: "what-is-tam-sam-som"
-categorySlug: "saas-marketing"
-subcategorySlug: "icp-targeting"
+categorySlug: "saas-metrics"
 writtenBy: "ranjeeth"
 wp_id: 3534
 glossaryCategory: "SaaS Metrics & Growth"

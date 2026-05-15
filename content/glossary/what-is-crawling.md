@@ -6,7 +6,6 @@ meta_description: "Crawling is how search engines discover your web pages. If bo
 date: 2026-04-27
 slug: "what-is-crawling"
 categorySlug: "seo"
-subcategorySlug: "technical"
 writtenBy: "ranjeeth"
 wp_id: 3540
 glossaryCategory: "SEO"

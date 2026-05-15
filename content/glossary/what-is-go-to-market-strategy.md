@@ -5,8 +5,7 @@ meta_title: "What Is Go To Market Strategy? SaaS GTM Explained"
 meta_description: "Go to market strategy is more than a launch plan. Learn what it is, why most teams get it wrong, and how to build a GTM that actually drives SaaS growth."
 date: 2026-04-27
 slug: "what-is-go-to-market-strategy"
-categorySlug: "saas-marketing"
-subcategorySlug: "icp-targeting"
+categorySlug: "saas-metrics"
 writtenBy: "kamaraj"
 wp_id: 3373
 glossaryCategory: "SaaS Metrics & Growth"

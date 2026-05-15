@@ -6,7 +6,6 @@ date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-a-canonical-tag"
 categorySlug: "seo"
-subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3087
 glossaryCategory: "SEO"

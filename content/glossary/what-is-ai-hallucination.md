@@ -5,8 +5,7 @@ meta_description: "AI hallucination is when an AI generates false or misleading 
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-ai-hallucination"
-categorySlug: "seo"
-subcategorySlug: "on-page"
+categorySlug: "ai-future-search"
 writtenBy: "kamaraj"
 wp_id: 3211
 glossaryCategory: "AI & Future Search"

@@ -5,8 +5,7 @@ meta_description: "CTR (click-through rate) is the percentage of users who click
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-ctr"
-categorySlug: "saas-marketing"
-subcategorySlug: "attribution"
+categorySlug: "ppc"
 writtenBy: "praveen"
 wp_id: 3213
 glossaryCategory: "PPC & Paid Advertising"

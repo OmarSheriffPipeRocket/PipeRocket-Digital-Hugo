@@ -5,8 +5,7 @@ meta_title: "What Is Employer Branding? A Practical Guide"
 meta_description: "Employer branding is how candidates and employees perceive you as a place to work. Learn what it is, why it matters, and how to build it effectively."
 date: 2026-04-27
 slug: "what-is-employer-branding"
-categorySlug: "saas-marketing"
-subcategorySlug: "icp-targeting"
+categorySlug: "social-brand"
 writtenBy: "vishnu-prasad"
 wp_id: 3554
 glossaryCategory: "Social & Brand"

@@ -6,7 +6,6 @@ date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-image-alt-text"
 categorySlug: "seo"
-subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3185
 glossaryCategory: "SEO"

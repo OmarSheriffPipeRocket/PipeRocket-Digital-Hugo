@@ -5,8 +5,7 @@ meta_title: "What Are Third-Party Cookies? A Plain-English Guide"
 meta_description: "Third-party cookies track users across websites for ads and analytics. Here's what they are, why they're disappearing, and what SaaS teams should do instead."
 date: 2026-04-27
 slug: "what-is-third-party-cookies"
-categorySlug: "paid"
-subcategorySlug: "abm"
+categorySlug: "analytics-attribution"
 writtenBy: "vishnu-prasad"
 wp_id: 3537
 glossaryCategory: "Analytics & Attribution"

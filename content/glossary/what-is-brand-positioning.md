@@ -5,8 +5,7 @@ meta_title: "What Is Brand Positioning? Real-World Definition & SaaS Guide"
 meta_description: "Brand positioning is how your SaaS is seen vs competitors. Learn what it is, why most teams miss it, and how to get it right for real differentiation."
 date: 2026-04-27
 slug: "what-is-brand-positioning"
-categorySlug: "saas-marketing"
-subcategorySlug: "icp-targeting"
+categorySlug: "social-brand"
 writtenBy: "kamaraj"
 wp_id: 3372
 glossaryCategory: "Social & Brand"

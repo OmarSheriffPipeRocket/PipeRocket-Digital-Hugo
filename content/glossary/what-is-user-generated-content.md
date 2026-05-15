@@ -5,8 +5,7 @@ meta_title: "What Is User Generated Content? Full Guide for SaaS Teams"
 meta_description: "User generated content is any content made by users, not brands. Learn what UGC means, why it matters, and how to use it for SaaS growth."
 date: 2026-04-27
 slug: "what-is-user-generated-content"
-categorySlug: "saas-marketing"
-subcategorySlug: "pipeline-funnel"
+categorySlug: "content-marketing"
 writtenBy: "kamaraj"
 wp_id: 3376
 glossaryCategory: "Content Marketing"

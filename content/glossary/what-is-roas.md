@@ -5,8 +5,7 @@ meta_description: "ROAS means return on ad spend a metric tracking how much reve
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-roas"
-categorySlug: "paid"
-subcategorySlug: "google-ads"
+categorySlug: "ppc"
 writtenBy: "praveen"
 wp_id: 3215
 glossaryCategory: "PPC & Paid Advertising"

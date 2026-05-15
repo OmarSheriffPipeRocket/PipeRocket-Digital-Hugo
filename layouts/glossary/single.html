@@ -42,54 +42,33 @@
           <nav class="pr-knowledge-hub__nav">
             {{ range $tree }}
               {{ $catSlug := .slug }}
-              {{ $isActiveCategory := eq $.Params.categorySlug $catSlug }}
-              <details class="pr-knowledge-hub__category"{{ if $isActiveCategory }} open{{ end }}>
+              {{ $isActive := eq $.Params.categorySlug $catSlug }}
+              {{ $termsInCat := where $allTerms "Params.categorySlug" $catSlug }}
+              <details class="pr-knowledge-hub__category"{{ if $isActive }} open{{ end }}>
                 <summary>
                   <span class="pr-knowledge-hub__title">{{ .name }}</span>
                   <span class="pr-knowledge-hub__chevron" aria-hidden="true">›</span>
                 </summary>
-                <ul class="pr-knowledge-hub__subcategories">
-                  {{ range .subcategories }}
-                    {{ $subSlug := .slug }}
-                    {{ $isActiveSub := and $isActiveCategory (eq $.Params.subcategorySlug $subSlug) }}
-                    {{ $termsInSub := where $allTerms "Params.subcategorySlug" $subSlug }}
-                    <li>
-                      <details class="pr-knowledge-hub__subcategory"{{ if $isActiveSub }} open{{ end }}>
-                        <summary>
-                          <span class="pr-knowledge-hub__title">{{ .name }}</span>
-                          <span class="pr-knowledge-hub__meta">
-                            <span class="pr-knowledge-hub__count">{{ len $termsInSub }}</span>
-                            <span class="pr-knowledge-hub__chevron" aria-hidden="true">›</span>
-                          </span>
-                        </summary>
-                        <ul class="pr-knowledge-hub__terms">
-                          {{ range $termsInSub.ByTitle }}
-                            {{ $isCurrent := eq .RelPermalink $.RelPermalink }}
-                            <li class="{{ if $isCurrent }}is-active{{ end }}">
-                              {{/* Truncate hub titles for scannability:
-                                   1. cut at first "?"
-                                   2. else cut at first ":"
-                                   3. else trim to ~38 chars at word boundary */}}
-                              {{ $shortTitle := .Title }}
-                              {{ if in .Title "?" }}
-                                {{ $shortTitle = printf "%s?" (index (split .Title "?") 0) }}
-                              {{ else if in .Title ":" }}
-                                {{ $shortTitle = index (split .Title ":") 0 }}
-                              {{ else if gt (len .Title) 38 }}
-                                {{ $words := split .Title " " }}
-                                {{ $built := "" }}
-                                {{ range $words }}
-                                  {{ if le (len (printf "%s %s" $built .)) 38 }}
-                                    {{ $built = cond (eq $built "") . (printf "%s %s" $built .) }}
-                                  {{ end }}
-                                {{ end }}
-                                {{ $shortTitle = printf "%s…" $built }}
-                              {{ end }}
-                              <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ $shortTitle }}</a>
-                            </li>
+                <ul class="pr-knowledge-hub__terms">
+                  {{ range $termsInCat.ByTitle }}
+                    {{ $isCurrent := eq .RelPermalink $.RelPermalink }}
+                    <li class="{{ if $isCurrent }}is-active{{ end }}">
+                      {{ $shortTitle := .Title }}
+                      {{ if in .Title "?" }}
+                        {{ $shortTitle = printf "%s?" (index (split .Title "?") 0) }}
+                      {{ else if in .Title ":" }}
+                        {{ $shortTitle = index (split .Title ":") 0 }}
+                      {{ else if gt (len .Title) 38 }}
+                        {{ $words := split .Title " " }}
+                        {{ $built := "" }}
+                        {{ range $words }}
+                          {{ if le (len (printf "%s %s" $built .)) 38 }}
+                            {{ $built = cond (eq $built "") . (printf "%s %s" $built .) }}
                           {{ end }}
-                        </ul>
-                      </details>
+                        {{ end }}
+                        {{ $shortTitle = printf "%s…" $built }}
+                      {{ end }}
+                      <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ $shortTitle }}</a>
                     </li>
                   {{ end }}
                 </ul>

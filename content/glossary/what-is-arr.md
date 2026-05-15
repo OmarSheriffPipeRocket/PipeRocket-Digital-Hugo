@@ -5,8 +5,7 @@ meta_description: "ARR is annual recurring revenue the core SaaS growth metric. 
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-arr"
-categorySlug: "marketing-ops"
-subcategorySlug: "revops"
+categorySlug: "saas-metrics"
 writtenBy: "praveen"
 wp_id: 3266
 glossaryCategory: "SaaS Metrics & Growth"

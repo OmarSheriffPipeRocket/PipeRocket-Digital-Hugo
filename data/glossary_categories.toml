@@ -1,64 +1,43 @@
 # Glossary knowledge-hub structure.
 # Each glossary term references one of these via frontmatter:
-#   categorySlug = "saas-marketing"
-#   subcategorySlug = "icp-targeting"
-
-[[categories]]
-name = "SaaS Marketing"
-slug = "saas-marketing"
-
-  [[categories.subcategories]]
-  name = "ICP & Targeting"
-  slug = "icp-targeting"
-
-  [[categories.subcategories]]
-  name = "Pipeline & Funnel"
-  slug = "pipeline-funnel"
-
-  [[categories.subcategories]]
-  name = "Attribution"
-  slug = "attribution"
+#   categorySlug = "seo"
 
 [[categories]]
 name = "SEO"
 slug = "seo"
 
-  [[categories.subcategories]]
-  name = "On-Page SEO"
-  slug = "on-page"
-
-  [[categories.subcategories]]
-  name = "Off-Page SEO"
-  slug = "off-page"
-
-  [[categories.subcategories]]
-  name = "Technical SEO"
-  slug = "technical"
+[[categories]]
+name = "PPC & Paid Advertising"
+slug = "ppc"
 
 [[categories]]
-name = "Paid Marketing"
-slug = "paid"
+name = "SaaS Metrics & Growth"
+slug = "saas-metrics"
 
-  [[categories.subcategories]]
-  name = "LinkedIn Ads"
-  slug = "linkedin-ads"
+[[categories]]
+name = "Demand Generation"
+slug = "demand-generation"
 
-  [[categories.subcategories]]
-  name = "Google Ads"
-  slug = "google-ads"
+[[categories]]
+name = "Content Marketing"
+slug = "content-marketing"
 
-  [[categories.subcategories]]
-  name = "ABM"
-  slug = "abm"
+[[categories]]
+name = "Analytics & Attribution"
+slug = "analytics-attribution"
+
+[[categories]]
+name = "AI & Future Search"
+slug = "ai-future-search"
+
+[[categories]]
+name = "Social & Brand"
+slug = "social-brand"
+
+[[categories]]
+name = "CRO"
+slug = "cro"
 
 [[categories]]
 name = "Marketing Operations"
 slug = "marketing-ops"
-
-  [[categories.subcategories]]
-  name = "Lifecycle"
-  slug = "lifecycle"
-
-  [[categories.subcategories]]
-  name = "RevOps"
-  slug = "revops"

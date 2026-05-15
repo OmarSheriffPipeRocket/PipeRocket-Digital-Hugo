@@ -7,7 +7,6 @@ date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-schema-markup"
 categorySlug: "seo"
-subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3098
 glossaryCategory: "SEO"

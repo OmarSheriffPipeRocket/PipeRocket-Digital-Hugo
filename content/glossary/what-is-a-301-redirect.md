@@ -6,7 +6,6 @@ date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-a-301-redirect"
 categorySlug: "seo"
-subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3181
 glossaryCategory: "SEO"

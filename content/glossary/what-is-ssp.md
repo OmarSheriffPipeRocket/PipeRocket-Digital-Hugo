@@ -5,8 +5,7 @@ meta_title: "What Is SSP? The SaaS Supply-Side Platform Explained"
 meta_description: "SSP means supply-side platform a tool publishers use to sell ad inventory automatically. Learn how SSPs work, why they beat direct deals, and common mistakes."
 date: 2026-04-27
 slug: "what-is-ssp"
-categorySlug: "paid"
-subcategorySlug: "linkedin-ads"
+categorySlug: "ppc"
 writtenBy: "praveen"
 wp_id: 3380
 glossaryCategory: "PPC & Paid Advertising"

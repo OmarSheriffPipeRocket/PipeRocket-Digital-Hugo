@@ -5,8 +5,7 @@ meta_title: "What Is NRR? SaaS Net Revenue Retention Explained"
 meta_description: "NRR (Net Revenue Retention) shows how much SaaS revenue you keep and expand from current customers. Learn how NRR works, why it matters, and what most teams miss."
 date: 2026-04-27
 slug: "what-is-nrr"
-categorySlug: "marketing-ops"
-subcategorySlug: "revops"
+categorySlug: "saas-metrics"
 writtenBy: "kamaraj"
 wp_id: 3374
 glossaryCategory: "SaaS Metrics & Growth"

@@ -6,7 +6,6 @@ date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-a-meta-description"
 categorySlug: "seo"
-subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3195
 glossaryCategory: "SEO"

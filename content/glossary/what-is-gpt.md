@@ -5,8 +5,7 @@ meta_description: "GPT is an AI model that generates text, answers, and ideas fr
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-gpt"
-categorySlug: "seo"
-subcategorySlug: "on-page"
+categorySlug: "ai-future-search"
 writtenBy: "kamaraj"
 wp_id: 3205
 glossaryCategory: "AI & Future Search"

@@ -5,8 +5,7 @@ meta_title: "What Is CLV? (Customer Lifetime Value) Meaning in SaaS"
 meta_description: "CLV is the revenue a customer brings over their relationship with your SaaS. Learn what CLV is, why it matters, and the mistakes most teams make."
 date: 2026-04-27
 slug: "what-is-clv"
-categorySlug: "saas-marketing"
-subcategorySlug: "attribution"
+categorySlug: "saas-metrics"
 writtenBy: "praveen"
 wp_id: 3378
 glossaryCategory: "SaaS Metrics & Growth"

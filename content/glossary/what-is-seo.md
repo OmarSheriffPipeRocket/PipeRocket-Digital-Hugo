@@ -6,7 +6,6 @@ date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-seo"
 categorySlug: "seo"
-subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3260
 glossaryCategory: "SEO"

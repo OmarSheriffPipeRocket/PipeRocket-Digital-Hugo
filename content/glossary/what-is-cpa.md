@@ -5,8 +5,7 @@ meta_description: "CPA (cost per acquisition) is the amount spent to gain a cust
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-cpa"
-categorySlug: "paid"
-subcategorySlug: "google-ads"
+categorySlug: "ppc"
 writtenBy: "praveen"
 wp_id: 3197
 glossaryCategory: "PPC & Paid Advertising"
