@@ -121,7 +121,7 @@ Some clients found the onboarding process required significant time and effort t
 
 Best for: B2B SaaS Companies That Need Full-Funnel PPC Tied to Pipeline and Closed-Won Revenue
 
-We're obsessed with one thing: your revenue. We work with a small number of B2B SaaS companies at a time, embed into the team, learn the ICP from the inside, and connect every marketing dollar to qualified pipeline and closed-won MRR, not MQLs, not traffic, not vanity clicks.
+PipeRocket Digital stands out for B2B SaaS companies that need full-funnel PPC tied to pipeline and closed-won revenue. The agency works with a small number of clients at a time, embedding into the team and learning the ICP from the inside.
 
 **At a Glance**
 | | |
