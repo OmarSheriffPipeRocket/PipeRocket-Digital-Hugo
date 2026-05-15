@@ -100,7 +100,12 @@
 }
 
 /* ---------- Body grid ---------- */
-.pr-blog-v2 .pr-container { padding-left: 0; }
+/* Desktop-only: drop the container's left padding so the TOC card sits
+   flush with the banner edge. On mobile we restore symmetric padding
+   so text doesn't run flush against the viewport edge. */
+@media (min-width: 1025px) {
+  .pr-blog-v2 .pr-container { padding-left: 0; }
+}
 
 .pr-blog-v2__grid {
   display: grid;
@@ -109,8 +114,15 @@
   align-items: start;
   padding: 56px 0 80px;
 }
+/* Force grid tracks to shrink rather than grow past the viewport when
+   a child has wide intrinsic content (tables, long URLs, etc.). */
+.pr-blog-v2__grid > * { min-width: 0; }
 @media (max-width: 1024px) {
-  .pr-blog-v2__grid { grid-template-columns: 1fr; }
+  .pr-blog-v2__grid {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 24px 0 48px;
+    gap: 24px;
+  }
 }
 
 /* ---------- Left rail ----------
@@ -123,6 +135,17 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+/* On mobile the rail moves into the natural document flow (above the
+   main column). The sticky behaviour from desktop must be cancelled —
+   otherwise the TOC stays pinned at top 100px and overlaps the main
+   content as the user scrolls down. Rule placed AFTER the base rule so
+   cascade order wins. */
+@media (max-width: 1024px) {
+  .pr-blog-v2__rail {
+    position: static;
+    top: auto;
+  }
 }
 
 /* TOC block */
