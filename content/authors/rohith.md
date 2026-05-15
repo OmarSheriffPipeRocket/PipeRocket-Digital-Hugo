@@ -1,5 +1,5 @@
 ---
 title: "Rohith Sharma"
-description: "Writes about full-funnel SaaS growth, demand generation, lifecycle nurture, and MOFU content. Former in-house marketer at two Series B SaaS companies."
+description: "Senior SEO Specialist at PipeRocket Digital. Builds data-driven organic search strategies for B2B SaaS — technical SEO, topical authority, BOFU intent. Previously SEO at Kovai.co."
 slug: "rohith"
 ---

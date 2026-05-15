@@ -45,11 +45,11 @@ expertise = ["LinkedIn Ads", "Google Ads", "B2B paid attribution"]
 
 [rohith]
 name = "Rohith Sharma"
-role = "Growth Writer"
+role = "Senior SEO Specialist, PipeRocket Digital"
 photo = "/images/authors/rohith.jpg"
 linkedin = "https://in.linkedin.com/in/sabarirohith"
-bio = "Writes about full-funnel SaaS growth. Former in-house marketer at two Series B SaaS companies."
-expertise = ["Demand generation", "Lifecycle nurture", "MOFU content"]
+bio = "Senior SEO Specialist at PipeRocket Digital. Builds data-driven organic search strategies for B2B SaaS. Previously SEO at Kovai.co."
+expertise = ["B2B SaaS SEO", "Organic search strategy", "Technical SEO"]
 
 [varshini]
 name = "Varshini Iyer"
