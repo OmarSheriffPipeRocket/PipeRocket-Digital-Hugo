@@ -1,0 +1,706 @@
+{{/* SEO ROI Calculator — self-contained interactive tool.
+     Ported from piperocket.digital/tools/free-seo-roi-calculator/
+     (originally a full HTML doc pasted into the WP editor — here it
+     lives as a Hugo layout so the site's header/footer wrap around it).
+
+     CSS + JSON-LD schemas go in head_extra.
+     HTML body + driver JS go in main. */}}
+
+{{ define "head_extra" }}
+<style>
+  /* ── PipeRocket SEO ROI Calculator v1 ── prefix: prcalc- ── */
+  .prcalc-wrap *, .prcalc-wrap *::before, .prcalc-wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  .prcalc-wrap {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #313131;
+    background: #ffffff;
+    padding: 40px 16px 80px;
+  }
+
+  /* ── Hero ── */
+  .prcalc-hero { max-width: 1100px; margin: 0 auto 36px; text-align: center; }
+  .prcalc-badge {
+    display: inline-block;
+    background: linear-gradient(90deg, #0BA6E2, #275f97);
+    color: #fff; font-size: 12px; font-weight: 700;
+    letter-spacing: 1.2px; text-transform: uppercase;
+    padding: 5px 14px; border-radius: 9999px; margin-bottom: 16px;
+  }
+  .prcalc-hero h1 { font-size: clamp(26px,5vw,42px); font-weight: 800; line-height: 1.2; color: #043345; margin-bottom: 14px; }
+  .prcalc-hero h1 span { color: #0BA6E2; }
+  .prcalc-hero p { font-size: 16px; color: #555; max-width: 580px; margin: 0 auto; line-height: 1.6; }
+
+  /* ── Card ── */
+  .prcalc-card { max-width: 1100px; margin: 0 auto; background: #fff; border-radius: 16px; box-shadow: 0 4px 32px rgba(4,51,69,0.10); overflow: hidden; }
+
+  /* ── Selector Bar ── */
+  .prcalc-selector-bar {
+    background: linear-gradient(135deg, #f0f7ff 0%, #e8f4fd 100%);
+    border-bottom: 1.5px solid #d6eaf8;
+    padding: 18px 28px 14px;
+  }
+  .prcalc-selector-row { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; margin-bottom: 12px; }
+  .prcalc-selector-group { display: flex; flex-direction: column; gap: 8px; }
+  .prcalc-selector-label { font-size: 10px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #8fa6bc; }
+  .prcalc-selector-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+  .prcalc-pill-btn {
+    padding: 6px 16px; border-radius: 9999px;
+    border: 1.5px solid #c8ddef; background: #fff;
+    font-size: 13px; font-weight: 600; color: #4a6070;
+    cursor: pointer; transition: all .15s; line-height: 1;
+  }
+  .prcalc-pill-btn:hover { border-color: #0BA6E2; color: #0BA6E2; background: #f0f9ff; }
+  .prcalc-pill-btn.prcalc-pill-active { background: #0BA6E2; border-color: #0BA6E2; color: #fff; box-shadow: 0 2px 8px rgba(11,166,226,0.30); }
+  .prcalc-selector-vdivider { width: 1px; height: 44px; background: #c8ddef; align-self: center; flex-shrink: 0; }
+  @media (max-width: 600px) { .prcalc-selector-vdivider { display: none; } }
+  .prcalc-bm-badge {
+    display: flex; align-items: flex-start; gap: 8px;
+    background: rgba(11,166,226,0.07); border: 1px solid rgba(11,166,226,0.2);
+    border-radius: 8px; padding: 8px 14px;
+    font-size: 12px; color: #4a6070; line-height: 1.55;
+  }
+  .prcalc-bm-badge .prcalc-bm-icon { flex-shrink: 0; font-size: 13px; margin-top: 1px; }
+  .prcalc-bm-badge strong { color: #0BA6E2; font-weight: 700; }
+
+  /* ── Body: 3-col ── */
+  .prcalc-body { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; }
+  @media (max-width: 860px) { .prcalc-body { grid-template-columns: 1fr; } }
+
+  /* ── Inputs Panel ── */
+  .prcalc-inputs { padding: 24px 24px; border-right: 1px solid #eef2f7; }
+  @media (max-width: 860px) { .prcalc-inputs { border-right: none; border-bottom: 1px solid #eef2f7; } }
+  .prcalc-section-label { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #0BA6E2; margin-bottom: 16px; }
+  .prcalc-field { margin-bottom: 18px; }
+  .prcalc-field label { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 600; color: #313131; margin-bottom: 7px; }
+  .prcalc-field label .prcalc-hint { font-size: 11px; font-weight: 400; color: #aaa; }
+  .prcalc-input-wrap { position: relative; }
+  .prcalc-input-wrap .prcalc-prefix, .prcalc-input-wrap .prcalc-suffix { position: absolute; top: 50%; transform: translateY(-50%); font-size: 14px; font-weight: 600; color: #888; pointer-events: none; }
+  .prcalc-input-wrap .prcalc-prefix { left: 12px; }
+  .prcalc-input-wrap .prcalc-suffix { right: 12px; }
+  .prcalc-input-wrap input[type="number"] {
+    width: 100%; padding: 11px 48px 11px 28px;
+    border: 1.5px solid #dde3ec; border-radius: 8px;
+    font-size: 15px; font-weight: 600; color: #043345;
+    background: #f9fbfd; outline: none;
+    transition: border-color .2s, box-shadow .2s;
+    -moz-appearance: textfield;
+  }
+  .prcalc-input-wrap input[type="number"]::-webkit-outer-spin-button,
+  .prcalc-input-wrap input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; }
+  .prcalc-input-wrap input[type="number"]:focus { border-color: #0BA6E2; box-shadow: 0 0 0 3px rgba(11,166,226,0.12); background: #fff; }
+  .prcalc-no-prefix input[type="number"] { padding-left: 12px; }
+
+  /* ── Slider ── */
+  .prcalc-slider-wrap { display: flex; align-items: center; gap: 10px; margin-top: 6px; }
+  .prcalc-slider-wrap input[type="range"] {
+    flex: 1; height: 4px; border-radius: 2px;
+    appearance: none; -webkit-appearance: none;
+    background: linear-gradient(90deg, #0BA6E2 var(--pct,50%), #dde3ec var(--pct,50%));
+    cursor: pointer;
+  }
+  .prcalc-slider-wrap input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #0BA6E2; border: 2px solid #fff; box-shadow: 0 2px 6px rgba(11,166,226,0.4); }
+  .prcalc-slider-val { font-size: 13px; font-weight: 700; color: #0BA6E2; min-width: 44px; text-align: right; }
+  .prcalc-divider { height: 1px; background: #eef2f7; margin: 18px 0; }
+
+  /* ── Results Panel (dark) ── */
+  .prcalc-results { padding: 24px 24px; background: linear-gradient(160deg, #043345 0%, #275f97 100%); display: flex; flex-direction: column; gap: 10px; }
+  .prcalc-results-label { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 2px; }
+  .prcalc-metric { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; padding: 12px 16px; }
+  .prcalc-metric-label { font-size: 11px; color: rgba(255,255,255,0.55); margin-bottom: 3px; }
+  .prcalc-metric-value { font-size: 24px; font-weight: 800; color: #fff; line-height: 1.1; }
+  .prcalc-metric-sub { font-size: 11px; color: rgba(255,255,255,0.38); margin-top: 3px; }
+  .prcalc-metric.prcalc-highlight { background: rgba(11,166,226,0.20); border-color: #0BA6E2; }
+  .prcalc-metric.prcalc-highlight .prcalc-metric-value { color: #5dd4f7; }
+  .prcalc-roi-bar-track { height: 5px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden; margin-top: 8px; }
+  .prcalc-roi-bar-fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, #0BA6E2, #5dd4f7); transition: width .6s cubic-bezier(.4,0,.2,1); }
+
+  /* ── Narration Panel ── */
+  .prcalc-narration { padding: 24px 22px; background: #f8fafc; border-left: 1px solid #eef2f7; display: flex; flex-direction: column; }
+  .prcalc-narration-label { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #0BA6E2; margin-bottom: 14px; }
+  .prcalc-nstep { display: flex; gap: 10px; align-items: flex-start; padding: 9px 0; border-bottom: 1px solid #e8edf3; }
+  .prcalc-nstep:last-child { border-bottom: none; }
+  .prcalc-nstep-num { background: #0BA6E2; color: #fff; font-size: 11px; font-weight: 800; border-radius: 50%; width: 20px; height: 20px; min-width: 20px; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+  .prcalc-nstep.prcalc-nstep-final .prcalc-nstep-num { background: #275f97; }
+  .prcalc-nstep-title { font-size: 11px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
+  .prcalc-nstep-val { font-size: 12px; color: #0BA6E2; line-height: 1.5; }
+  .prcalc-nstep-val strong { font-weight: 800; }
+  .prcalc-nstep.prcalc-nstep-final .prcalc-nstep-val { color: #275f97; }
+
+  /* ── CTA ── */
+  .prcalc-cta-panel { padding: 28px; background: #fff; border-top: 1px solid #eef2f7; text-align: center; }
+  .prcalc-cta-panel p { font-size: 14px; color: #666; margin-bottom: 16px; line-height: 1.5; }
+  .prcalc-cta-panel strong { color: #043345; }
+  .prcalc-btn-primary { display: inline-block; background: #FF0025; color: #fff; font-size: 15px; font-weight: 700; padding: 14px 32px; border-radius: 9999px; text-decoration: none; letter-spacing: 0.3px; transition: background .2s, transform .15s, box-shadow .2s; box-shadow: 0 4px 18px rgba(255,0,37,0.30); border: none; cursor: pointer; }
+  .prcalc-btn-primary:hover { background: #cc001e; transform: translateY(-1px); box-shadow: 0 6px 24px rgba(255,0,37,0.38); }
+  .prcalc-trust { margin-top: 12px; font-size: 12px; color: #aaa; }
+
+  /* ── Content + Sidebar ── */
+  .prcalc-content-wrap { max-width: 1100px; margin: 52px auto 0; display: grid; grid-template-columns: 1fr 280px; gap: 40px; align-items: flex-start; }
+  @media (max-width: 900px) { .prcalc-content-wrap { grid-template-columns: 1fr; } }
+  .prcalc-content { min-width: 0; }
+  .prcalc-content h2 { font-size: 22px; font-weight: 800; color: #043345; margin-bottom: 12px; }
+  .prcalc-content h3 { font-size: 17px; font-weight: 700; color: #275f97; margin: 28px 0 10px; }
+  .prcalc-content p  { font-size: 15px; line-height: 1.75; color: #444; margin-bottom: 14px; }
+  .prcalc-content ul { margin: 0 0 16px 20px; }
+  .prcalc-content ul li { font-size: 15px; line-height: 1.7; color: #444; margin-bottom: 6px; }
+  .prcalc-formula-box { background: linear-gradient(160deg, #043345, #275f97); color: #fff; border-radius: 12px; padding: 22px 26px; margin: 20px 0; font-size: 14px; line-height: 1.8; }
+  .prcalc-formula-box strong { color: #5dd4f7; }
+
+  /* FAQ */
+  .prcalc-faq { margin-top: 40px; }
+  .prcalc-faq-item { border-bottom: 1px solid #e8edf3; padding: 18px 0; }
+  .prcalc-faq-item:first-child { border-top: 1px solid #e8edf3; }
+  .prcalc-faq-q { font-size: 15px; font-weight: 700; color: #043345; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .prcalc-faq-q .prcalc-faq-icon { font-size: 20px; color: #0BA6E2; flex-shrink: 0; transition: transform .25s; }
+  .prcalc-faq-q.prcalc-open .prcalc-faq-icon { transform: rotate(45deg); }
+  .prcalc-faq-a { font-size: 14px; line-height: 1.75; color: #555; max-height: 0; overflow: hidden; transition: max-height .35s ease, padding-top .25s; }
+  .prcalc-faq-a.prcalc-open { max-height: 600px; padding-top: 12px; }
+
+  /* ── Sidebar ── */
+  .prcalc-sidebar { display: flex; flex-direction: column; gap: 20px; }
+  .prcalc-sidebar-cta { background: linear-gradient(135deg,#FF0025,#cc001e); padding: 18px 16px; text-align: center; border-radius: 12px; box-shadow: 0 4px 16px rgba(255,0,37,0.22); }
+  .prcalc-sidebar-cta p { font-size: 13px; color: rgba(255,255,255,0.85); margin-bottom: 12px; line-height: 1.5; }
+  .prcalc-sidebar-cta strong { color: #fff; }
+  .prcalc-sidebar-cta a { display: block; background: #fff; color: #FF0025; font-size: 13px; font-weight: 700; padding: 10px 16px; border-radius: 9999px; text-decoration: none; transition: opacity .18s; }
+  .prcalc-sidebar-cta a:hover { opacity: .88; }
+
+  .prcalc-footer-note { max-width: 1100px; margin: 40px auto 0; text-align: center; font-size: 12px; color: #aaa; line-height: 1.6; }
+  .prcalc-footer-note a { color: #0BA6E2; text-decoration: none; }
+
+  /* ── Pipeline flow ── */
+  .prcalc-pipe-flow { display: flex; align-items: center; gap: 0; flex-wrap: wrap; margin: 22px 0; }
+  .prcalc-pipe-node { flex: 1; min-width: 80px; text-align: center; background: linear-gradient(135deg, #f0f7ff, #e8f4fd); border: 1.5px solid #d6eaf8; border-radius: 10px; padding: 12px 8px; }
+  .prcalc-pipe-node-icon { font-size: 20px; margin-bottom: 4px; }
+  .prcalc-pipe-node-label { font-size: 11px; font-weight: 700; color: #275f97; text-transform: uppercase; letter-spacing: 0.5px; }
+  .prcalc-pipe-node-val { font-size: 11px; color: #8fa6bc; margin-top: 2px; }
+  .prcalc-pipe-arrow { padding: 0 8px; font-size: 18px; color: #0BA6E2; font-weight: 800; flex-shrink: 0; }
+  @media (max-width: 600px) { .prcalc-pipe-flow { gap: 6px; } .prcalc-pipe-arrow { padding: 0 3px; font-size: 14px; } }
+
+  /* ── Scenario cards ── */
+  .prcalc-scenario-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 20px 0 28px; }
+  @media (max-width: 700px) { .prcalc-scenario-grid { grid-template-columns: 1fr; } }
+  .prcalc-scenario-box { border: 1.5px solid #d6eaf8; border-radius: 12px; padding: 20px 18px; background: #fff; transition: box-shadow .2s; }
+  .prcalc-scenario-box:hover { box-shadow: 0 4px 20px rgba(11,166,226,0.10); }
+  .prcalc-scenario-tag { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; background: #eef6fb; color: #0BA6E2; border-radius: 4px; padding: 3px 8px; margin-bottom: 10px; }
+  .prcalc-scenario-title { font-size: 15px; font-weight: 800; color: #043345; margin-bottom: 6px; }
+  .prcalc-scenario-meta { font-size: 12px; color: #888; margin-bottom: 12px; }
+  .prcalc-scenario-stat { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #f0f4f8; font-size: 13px; }
+  .prcalc-scenario-stat:last-child { border-bottom: none; }
+  .prcalc-scenario-stat-label { color: #666; }
+  .prcalc-scenario-stat-val { font-weight: 700; color: #043345; }
+  .prcalc-scenario-stat-val.prcalc-highlight-val { color: #0BA6E2; }
+
+  /* ── Comparison table ── */
+  .prcalc-cmp-table { width: 100%; border-collapse: collapse; margin: 20px 0 28px; font-size: 14px; }
+  .prcalc-cmp-table thead th { background: linear-gradient(135deg, #043345, #275f97); color: #fff; padding: 12px 14px; text-align: left; font-size: 12px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; }
+  .prcalc-cmp-table thead th:first-child { border-radius: 8px 0 0 0; }
+  .prcalc-cmp-table thead th:last-child { border-radius: 0 8px 0 0; }
+  .prcalc-cmp-table tbody tr { border-bottom: 1px solid #eef2f7; }
+  .prcalc-cmp-table tbody tr:last-child { border-bottom: none; }
+  .prcalc-cmp-table tbody td { padding: 11px 14px; color: #444; vertical-align: top; }
+  .prcalc-cmp-table tbody td:first-child { font-weight: 700; color: #043345; }
+  .prcalc-cmp-table tbody tr:nth-child(even) { background: #f8fafc; }
+  .prcalc-cmp-win { color: #0BA6E2; font-weight: 700; }
+
+  /* ── Mistake checklist ── */
+  .prcalc-mistakes { margin: 16px 0 28px; display: flex; flex-direction: column; gap: 12px; }
+  .prcalc-mistake-item { display: flex; gap: 14px; align-items: flex-start; background: #fff; border: 1.5px solid #f5c6cb; border-radius: 10px; padding: 14px 16px; }
+  .prcalc-mistake-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+  .prcalc-mistake-title { font-size: 13px; font-weight: 700; color: #043345; margin-bottom: 3px; }
+  .prcalc-mistake-desc { font-size: 13px; color: #666; line-height: 1.55; }
+
+  /* ── Attribution steps ── */
+  .prcalc-attr-steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 18px 0 28px; }
+  @media (max-width: 600px) { .prcalc-attr-steps { grid-template-columns: 1fr; } }
+  .prcalc-attr-step { background: linear-gradient(135deg, #f0f7ff, #e8f4fd); border: 1.5px solid #d6eaf8; border-radius: 10px; padding: 16px; }
+  .prcalc-attr-step-num { font-size: 11px; font-weight: 800; color: #0BA6E2; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase; }
+  .prcalc-attr-step-title { font-size: 14px; font-weight: 700; color: #043345; margin-bottom: 4px; }
+  .prcalc-attr-step-desc { font-size: 13px; color: #555; line-height: 1.55; }
+
+  .prcalc-section-divider { height: 1px; background: linear-gradient(90deg, #d6eaf8, transparent); margin: 36px 0; }
+
+  /* ── Plain-English Summary Strip ── */
+  .prcalc-summary-strip { padding: 20px 28px 22px; background: #f0f7ff; border-top: 1.5px solid #d6eaf8; }
+  .prcalc-summary-label { font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #0BA6E2; margin-bottom: 10px; }
+  .prcalc-summary-text { font-size: 14px; line-height: 1.8; color: #3a4a5c; max-width: 900px; }
+  .prcalc-summary-text strong { color: #043345; font-weight: 700; }
+
+  /* ── Spend → Pipeline → Revenue row ── */
+  .prcalc-sp-row { display: flex; align-items: center; gap: 0; margin-bottom: 22px; }
+  .prcalc-sp-cell { flex: 1; min-width: 0; }
+  .prcalc-sp-label { font-size: 11px; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; color: #8fa6bc; margin-bottom: 6px; }
+  .prcalc-sp-val { font-size: 26px; font-weight: 800; color: #043345; letter-spacing: -0.5px; line-height: 1; margin-bottom: 4px; }
+  .prcalc-sp-sub { font-size: 11px; color: #9aafbf; }
+  .prcalc-sp-pipeline .prcalc-sp-val { color: #0BA6E2; }
+  .prcalc-sp-revenue  .prcalc-sp-val { color: #275f97; }
+  .prcalc-sp-arrow { padding: 0 18px; text-align: center; font-size: 13px; font-weight: 800; color: #b0c4d8; flex-shrink: 0; line-height: 1.5; }
+  .prcalc-sp-arrow span { font-size: 10px; font-weight: 400; display: block; color: #c8d8e4; }
+
+  /* ── Scenario Cards ── */
+  .prcalc-scenario-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+  @media (max-width: 600px) { .prcalc-scenario-row { grid-template-columns: 1fr; } }
+  .prcalc-scenario-card { background: #fff; border: 1.5px solid #d6eaf8; border-radius: 10px; padding: 16px 14px; text-align: center; transition: border-color .2s, box-shadow .2s; }
+  .prcalc-scenario-card.prcalc-sc-active { border-color: #0BA6E2; box-shadow: 0 0 0 3px rgba(11,166,226,0.12); background: #f0f9ff; }
+  .prcalc-sc-ratio { font-size: 20px; font-weight: 800; color: #043345; margin-bottom: 2px; }
+  .prcalc-scenario-card.prcalc-sc-active .prcalc-sc-ratio { color: #0BA6E2; }
+  .prcalc-sc-name { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: #8fa6bc; margin-bottom: 10px; }
+  .prcalc-sc-val { font-size: 18px; font-weight: 800; color: #043345; margin-bottom: 4px; }
+  .prcalc-scenario-card.prcalc-sc-active .prcalc-sc-val { color: #0BA6E2; }
+  .prcalc-sc-sub { font-size: 11px; color: #9aafbf; }
+  .prcalc-sc-yours { font-size: 10px; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; color: #0BA6E2; background: rgba(11,166,226,0.12); border-radius: 4px; padding: 3px 8px; margin-bottom: 8px; display: inline-block; }
+  .prcalc-cmp-ratio { font-size: 13px; color: #4a6070; background: #fff; border: 1.5px solid #d6eaf8; border-radius: 8px; padding: 10px 16px; margin-bottom: 20px; line-height: 1.6; }
+  .prcalc-cmp-ratio strong { color: #043345; }
+  .prcalc-cmp-sep { height: 1px; background: #d6eaf8; margin-bottom: 18px; }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "SEO ROI Calculator for B2B SaaS",
+  "description": "Free B2B SaaS SEO ROI calculator. Enter traffic, MQL CVR and ACV to see exact pipeline and annual revenue. Pre-filled benchmarks for Fintech, HR Tech, Dev Tools, MarTech and Legal Tech.",
+  "url": "{{ .Permalink }}",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" }
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+<div class="prcalc-wrap">
+
+  <!-- HERO -->
+  <div class="prcalc-hero">
+    <div class="prcalc-badge">Pipeline Impact Calculator · B2B SaaS</div>
+    <h1>SEO ROI Calculator<br><span>for B2B SaaS Companies</span></h1>
+    <p>Use this SEO ROI calculator to estimate your potential traffic, conversions, and revenue based on keyword rankings and search volume. Get a clear projection of your organic growth, understand ROI before investing, and make data-driven decisions to scale your SEO strategy effectively - in 60 seconds.</p>
+  </div>
+
+  <!-- CALCULATOR CARD -->
+  <div class="prcalc-card">
+
+    <!-- ── SELECTOR BAR ── -->
+    <div class="prcalc-selector-bar">
+      <div class="prcalc-selector-row">
+        <div class="prcalc-selector-group">
+          <div class="prcalc-selector-label">Your Category</div>
+          <div class="prcalc-selector-pills" id="pr_cat_pills">
+            <button class="prcalc-pill-btn prcalc-pill-active" data-cat="fintech">Fintech</button>
+            <button class="prcalc-pill-btn" data-cat="hrtech">HR Tech</button>
+            <button class="prcalc-pill-btn" data-cat="devtools">Dev Tools</button>
+            <button class="prcalc-pill-btn" data-cat="martech">MarTech</button>
+            <button class="prcalc-pill-btn" data-cat="legaltech">Legal Tech</button>
+          </div>
+        </div>
+        <div class="prcalc-selector-vdivider"></div>
+        <div class="prcalc-selector-group">
+          <div class="prcalc-selector-label">Your Audience</div>
+          <div class="prcalc-selector-pills" id="pr_aud_pills">
+            <button class="prcalc-pill-btn prcalc-pill-active" data-aud="startup">Startup</button>
+            <button class="prcalc-pill-btn" data-aud="mid">Mid-Market</button>
+            <button class="prcalc-pill-btn" data-aud="enterprise">Enterprise</button>
+          </div>
+        </div>
+      </div>
+      <div class="prcalc-bm-badge">
+        <span class="prcalc-bm-icon">📌</span>
+        <span id="pr_bm_text">—</span>
+      </div>
+    </div>
+
+    <!-- ── BODY: 3-col ── -->
+    <div class="prcalc-body">
+      <!-- LEFT: Inputs -->
+      <div class="prcalc-inputs">
+        <div class="prcalc-section-label">SEO Investment</div>
+        <div class="prcalc-field">
+          <label>Monthly SEO Budget <span class="prcalc-hint">agency + tools</span></label>
+          <div class="prcalc-input-wrap">
+            <span class="prcalc-prefix">$</span>
+            <input type="number" id="pr_budget" value="5000" min="0" step="500" />
+          </div>
+        </div>
+        <div class="prcalc-field">
+          <label>Monthly Organic Traffic <span class="prcalc-hint">SEO visitors</span></label>
+          <div class="prcalc-input-wrap prcalc-no-prefix">
+            <input type="number" id="pr_traffic" value="5000" min="0" step="100" />
+            <span class="prcalc-suffix">visits</span>
+          </div>
+        </div>
+        <div class="prcalc-divider"></div>
+        <div class="prcalc-section-label">Funnel Conversion Rates</div>
+        <div class="prcalc-field">
+          <label>Traffic → MQL CVR <span class="prcalc-hint">% visitors becoming MQL</span></label>
+          <div class="prcalc-slider-wrap">
+            <input type="range" id="pr_cvr" min="0.1" max="5" value="1" step="0.1" />
+            <span class="prcalc-slider-val" id="pr_cvr_val">1.0%</span>
+          </div>
+        </div>
+        <div class="prcalc-field">
+          <label>MQL → SQL Rate <span class="prcalc-hint">% sales accepts</span></label>
+          <div class="prcalc-slider-wrap">
+            <input type="range" id="pr_sql" min="5" max="70" value="40" step="5" />
+            <span class="prcalc-slider-val" id="pr_sql_val">40%</span>
+          </div>
+        </div>
+        <div class="prcalc-field">
+          <label>SQL → Close Rate <span class="prcalc-hint">% closed won</span></label>
+          <div class="prcalc-slider-wrap">
+            <input type="range" id="pr_close" min="5" max="60" value="20" step="5" />
+            <span class="prcalc-slider-val" id="pr_close_val">20%</span>
+          </div>
+        </div>
+        <div class="prcalc-divider"></div>
+        <div class="prcalc-section-label">Revenue</div>
+        <div class="prcalc-field">
+          <label>Avg. Deal Size (Average Customer Value (ACV))</label>
+          <div class="prcalc-input-wrap">
+            <span class="prcalc-prefix">$</span>
+            <input type="number" id="pr_acv" value="8000" min="0" step="1000" />
+          </div>
+        </div>
+        <div class="prcalc-field">
+          <label>Sales Cycle <span class="prcalc-hint">lead to closed deal</span></label>
+          <div class="prcalc-slider-wrap">
+            <input type="range" id="pr_cycle" min="1" max="18" value="6" step="1" />
+            <span class="prcalc-slider-val" id="pr_cycle_val">6 mo</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MIDDLE: Dark Results -->
+      <div class="prcalc-results">
+        <div class="prcalc-results-label">Your SEO Funnel Output</div>
+        <div class="prcalc-metric">
+          <div class="prcalc-metric-label">MQLs / Month</div>
+          <div class="prcalc-metric-value" id="pr_r_mqls">—</div>
+          <div class="prcalc-metric-sub" id="pr_r_mql_sub">traffic × CVR</div>
+        </div>
+        <div class="prcalc-metric">
+          <div class="prcalc-metric-label">SQLs / Month</div>
+          <div class="prcalc-metric-value" id="pr_r_sqls">—</div>
+          <div class="prcalc-metric-sub" id="pr_r_sql_sub">cost per SQL: —</div>
+        </div>
+        <div class="prcalc-metric">
+          <div class="prcalc-metric-label">Pipeline Value</div>
+          <div class="prcalc-metric-value" id="pr_r_pipeline">—</div>
+          <div class="prcalc-metric-sub" id="pr_r_pipeline_sub">SQLs × cycle × ACV</div>
+        </div>
+        <div class="prcalc-metric">
+          <div class="prcalc-metric-label">New Customers / Month</div>
+          <div class="prcalc-metric-value" id="pr_r_customers">—</div>
+          <div class="prcalc-metric-sub" id="pr_r_cust_sub">closed won from SEO</div>
+        </div>
+        <div class="prcalc-metric prcalc-highlight">
+          <div class="prcalc-metric-label">Annual Revenue from SEO</div>
+          <div class="prcalc-metric-value" id="pr_r_annual_roi">—</div>
+          <div class="prcalc-metric-sub" id="pr_r_roi_pct">customers × ACV × 12</div>
+          <div class="prcalc-roi-bar-track">
+            <div class="prcalc-roi-bar-fill" id="pr_roi_bar" style="width:10%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Narration -->
+      <div class="prcalc-narration">
+        <div class="prcalc-narration-label">Your Funnel, Step by Step</div>
+        <div class="prcalc-nstep">
+          <div class="prcalc-nstep-num">1</div>
+          <div><div class="prcalc-nstep-title">Organic Traffic</div><div class="prcalc-nstep-val" id="prs_step1">—</div></div>
+        </div>
+        <div class="prcalc-nstep">
+          <div class="prcalc-nstep-num">2</div>
+          <div><div class="prcalc-nstep-title">MQLs</div><div class="prcalc-nstep-val" id="prs_step2">—</div></div>
+        </div>
+        <div class="prcalc-nstep">
+          <div class="prcalc-nstep-num">3</div>
+          <div><div class="prcalc-nstep-title">SQLs</div><div class="prcalc-nstep-val" id="prs_step3">—</div></div>
+        </div>
+        <div class="prcalc-nstep">
+          <div class="prcalc-nstep-num">4</div>
+          <div><div class="prcalc-nstep-title">Customers</div><div class="prcalc-nstep-val" id="prs_step4">—</div></div>
+        </div>
+        <div class="prcalc-nstep prcalc-nstep-final">
+          <div class="prcalc-nstep-num">5</div>
+          <div><div class="prcalc-nstep-title">Annual Return</div><div class="prcalc-nstep-val" id="prs_step5">—</div></div>
+        </div>
+      </div>
+    </div><!-- /body -->
+
+    <!-- ── COMPARISON STRIP ── -->
+    <div class="prcalc-summary-strip">
+      <div class="prcalc-summary-label">📊 Spend → Pipeline → Revenue</div>
+      <div class="prcalc-sp-row">
+        <div class="prcalc-sp-cell">
+          <div class="prcalc-sp-label">Annual SEO Spend</div>
+          <div class="prcalc-sp-val" id="prs_cmp_invested">—</div>
+          <div class="prcalc-sp-sub">your investment</div>
+        </div>
+        <div class="prcalc-sp-arrow">→<br><span id="prs_pipe_ratio">pipeline</span></div>
+        <div class="prcalc-sp-cell prcalc-sp-pipeline">
+          <div class="prcalc-sp-label">Pipeline in Motion</div>
+          <div class="prcalc-sp-val" id="prs_cmp_pipeline">—</div>
+          <div class="prcalc-sp-sub" id="prs_cmp_pipeline_sub">SQLs × cycle × ACV</div>
+        </div>
+        <div class="prcalc-sp-arrow">→<br><span id="prs_rev_ratio">revenue</span></div>
+        <div class="prcalc-sp-cell prcalc-sp-revenue">
+          <div class="prcalc-sp-label">Annual SEO Revenue</div>
+          <div class="prcalc-sp-val" id="prs_cmp_arr">—</div>
+          <div class="prcalc-sp-sub">customers × ACV × 12</div>
+        </div>
+      </div>
+      <div class="prcalc-cmp-sep"></div>
+      <div class="prcalc-summary-label">💰 Spend-to-Revenue Scenarios — Where Do You Land?</div>
+      <div class="prcalc-scenario-row">
+        <div class="prcalc-scenario-card" id="prs_sc_1">
+          <div class="prcalc-sc-yours" id="prs_yours_1" style="display:none">▲ YOUR RESULT</div>
+          <div class="prcalc-sc-ratio">1:1</div>
+          <div class="prcalc-sc-name">Break Even</div>
+          <div class="prcalc-sc-val" id="prs_sc1_val">—</div>
+          <div class="prcalc-sc-sub">revenue = spend</div>
+        </div>
+        <div class="prcalc-scenario-card" id="prs_sc_2">
+          <div class="prcalc-sc-yours" id="prs_yours_2" style="display:none">▲ YOUR RESULT</div>
+          <div class="prcalc-sc-ratio">1:2</div>
+          <div class="prcalc-sc-name">Strong Return</div>
+          <div class="prcalc-sc-val" id="prs_sc2_val">—</div>
+          <div class="prcalc-sc-sub">2× your spend</div>
+        </div>
+        <div class="prcalc-scenario-card" id="prs_sc_3">
+          <div class="prcalc-sc-yours" id="prs_yours_3" style="display:none">▲ YOUR RESULT</div>
+          <div class="prcalc-sc-ratio">1:3+</div>
+          <div class="prcalc-sc-name">Best-in-Class</div>
+          <div class="prcalc-sc-val" id="prs_sc3_val">—</div>
+          <div class="prcalc-sc-sub">3× your spend</div>
+        </div>
+      </div>
+      <div class="prcalc-cmp-ratio">
+        Your funnel generates <strong id="prs_your_rev">—</strong> in annual revenue on <strong id="prs_your_spend">—</strong> spend — a <strong id="prs_your_multi">—</strong> return. Pipeline of <strong id="prs_your_pipe">—</strong> = <strong id="prs_your_pipe_ratio">—</strong> your annual spend.
+      </div>
+      <div class="prcalc-cmp-sep"></div>
+      <div class="prcalc-summary-label">📋 In Plain English</div>
+      <p class="prcalc-summary-text" id="prs_summary">—</p>
+    </div>
+
+    <!-- CTA -->
+    <div class="prcalc-cta-panel">
+      <p>These are your benchmark numbers. <strong>PipeRocket builds SEO systems that actually generate this pipeline</strong> — not traffic reports. Let's model your real revenue impact.</p>
+      <a href="/contact-us/" class="prcalc-btn-primary">Estimate Your Revenue from Organic Growth →</a>
+      <div class="prcalc-trust">No commitment · 30-min pipeline strategy call · B2B SaaS specialists</div>
+    </div>
+  </div><!-- /card -->
+
+  <div class="prcalc-footer-note">
+    Benchmarks are industry averages. Actual results depend on content quality, domain authority, keyword competition, and sales execution.<br>
+    Built by <a href="/">PipeRocket Digital</a> — B2B SaaS SEO &amp; Paid Growth Agency.
+  </div>
+</div>
+
+<script>
+(function () {
+  const BENCHMARKS = {
+    fintech: {
+      startup:    { cvr: 1.0, sql: 40, close: 20, acv: 8000,   cycle: 6  },
+      mid:        { cvr: 0.8, sql: 45, close: 25, acv: 40000,  cycle: 9  },
+      enterprise: { cvr: 0.5, sql: 50, close: 30, acv: 120000, cycle: 12 },
+    },
+    hrtech: {
+      startup:    { cvr: 1.5, sql: 35, close: 20, acv: 5000,   cycle: 6  },
+      mid:        { cvr: 1.0, sql: 40, close: 25, acv: 25000,  cycle: 9  },
+      enterprise: { cvr: 0.6, sql: 50, close: 30, acv: 80000,  cycle: 12 },
+    },
+    devtools: {
+      startup:    { cvr: 2.0, sql: 30, close: 15, acv: 3000,   cycle: 3  },
+      mid:        { cvr: 1.5, sql: 35, close: 20, acv: 15000,  cycle: 6  },
+      enterprise: { cvr: 0.8, sql: 45, close: 25, acv: 60000,  cycle: 9  },
+    },
+    martech: {
+      startup:    { cvr: 1.0, sql: 35, close: 18, acv: 6000,   cycle: 5  },
+      mid:        { cvr: 0.8, sql: 40, close: 22, acv: 30000,  cycle: 8  },
+      enterprise: { cvr: 0.5, sql: 50, close: 28, acv: 100000, cycle: 12 },
+    },
+    legaltech: {
+      startup:    { cvr: 0.8, sql: 35, close: 18, acv: 6000,   cycle: 6  },
+      mid:        { cvr: 0.6, sql: 40, close: 22, acv: 35000,  cycle: 9  },
+      enterprise: { cvr: 0.4, sql: 45, close: 28, acv: 120000, cycle: 12 },
+    },
+  };
+  const CAT_LABELS = { fintech: 'Fintech', hrtech: 'HR Tech', devtools: 'Dev Tools', martech: 'MarTech', legaltech: 'Legal Tech' };
+  const AUD_LABELS = { startup: 'Startup', mid: 'Mid-Market', enterprise: 'Enterprise' };
+
+  let activeCat = 'fintech';
+  let activeAud = 'startup';
+
+  function fmt(n) {
+    const abs = Math.abs(n);
+    if (abs >= 1e6) return '$' + (n/1e6).toFixed(1) + 'M';
+    if (abs >= 1e3) { const k = n/1000; return '$' + (Math.abs(k)%1===0 ? k.toFixed(0) : k.toFixed(1)) + 'K'; }
+    return '$' + Math.round(n).toLocaleString();
+  }
+  function disp1(n) { return n % 1 === 0 ? n.toString() : n.toFixed(1); }
+  function disp2(n) {
+    if (n % 1 === 0) return n.toString();
+    const s = n.toFixed(2);
+    return parseFloat(s) % 1 === 0 ? parseFloat(s).toString() : s.replace(/0+$/, '');
+  }
+  function val(id) { return parseFloat(document.getElementById(id).value) || 0; }
+  function set(id, html) { const el = document.getElementById(id); if (el) el.innerHTML = html; }
+
+  function applyBenchmark(cat, aud) {
+    const bm = BENCHMARKS[cat] && BENCHMARKS[cat][aud];
+    if (!bm) return;
+    setSlider('pr_cvr',   bm.cvr,   'pr_cvr_val',   v => v.toFixed(1) + '%');
+    setSlider('pr_sql',   bm.sql,   'pr_sql_val',   v => Math.round(v) + '%');
+    setSlider('pr_close', bm.close, 'pr_close_val', v => Math.round(v) + '%');
+    setSlider('pr_cycle', bm.cycle, 'pr_cycle_val', v => Math.round(v) + ' mo');
+    document.getElementById('pr_acv').value = bm.acv;
+    const acvStr = bm.acv >= 1000 ? '$' + (bm.acv/1000).toFixed(0) + 'K' : '$' + bm.acv;
+    const text = document.getElementById('pr_bm_text');
+    if (text) text.innerHTML =
+      `<strong>${CAT_LABELS[cat]} · ${AUD_LABELS[aud]}</strong> benchmarks applied &mdash; ` +
+      `Traffic→MQL CVR: ${bm.cvr}%, SQL: ${bm.sql}%, Close: ${bm.close}%, ACV: ${acvStr}, Cycle: ${bm.cycle}mo. ` +
+      `Adjust sliders to match your actual funnel.`;
+    calculate();
+  }
+
+  function setSlider(sliderId, value, displayId, fmtFn) {
+    const el   = document.getElementById(sliderId);
+    const disp = document.getElementById(displayId);
+    if (!el || !disp) return;
+    el.value = value;
+    disp.textContent = fmtFn(parseFloat(value));
+    const min = parseFloat(el.min), max = parseFloat(el.max);
+    el.style.setProperty('--pct', ((value - min) / (max - min) * 100) + '%');
+  }
+
+  function calculate() {
+    const budget  = val('pr_budget');
+    const traffic = val('pr_traffic');
+    const cvrRate = val('pr_cvr')   / 100;
+    const sqlRate = val('pr_sql')   / 100;
+    const close   = val('pr_close') / 100;
+    const acv     = val('pr_acv');
+    const cycle   = val('pr_cycle');
+
+    const mqls      = Math.round(traffic * cvrRate * 10000) / 10000;
+    const sqls      = Math.round(mqls    * sqlRate * 10000) / 10000;
+    const customers = Math.round(sqls    * close   * 10000) / 10000;
+    const monthlyARR = Math.round(customers * acv);
+    const annualARR  = monthlyARR * 12;
+    const pipeline   = Math.round(sqls * cycle * acv);
+    const annualCost = budget * 12;
+
+    const cpMql = mqls  > 0     ? Math.round(budget / mqls)     : 0;
+    const cpSql = sqls  > 0     ? Math.round(budget / sqls)     : 0;
+    const cac   = customers > 0 ? Math.round(budget / customers) : 0;
+    const userMultiple = annualCost > 0 ? annualARR / annualCost : 0;
+    const roiPct       = Math.round((userMultiple - 1) * 100);
+
+    const cvrPct = val('pr_cvr');
+    set('pr_r_mqls',    disp1(mqls));
+    set('pr_r_mql_sub', `${traffic.toLocaleString()} visits × ${cvrPct.toFixed(1)}% CVR ${mqls > 0 ? '· ' + fmt(cpMql) + '/MQL' : ''}`);
+    set('pr_r_sqls',    disp1(sqls));
+    set('pr_r_sql_sub', `cost per SQL: ${fmt(cpSql)}`);
+    set('pr_r_pipeline',     fmt(pipeline));
+    set('pr_r_pipeline_sub', `${disp1(sqls)} SQLs × ${cycle}mo × ${fmt(acv)}`);
+    document.getElementById('pr_r_customers').textContent = disp2(customers);
+    set('pr_r_cust_sub', `paid CAC: ${fmt(cac)}`);
+    document.getElementById('pr_r_annual_roi').textContent = fmt(annualARR);
+    document.getElementById('pr_r_roi_pct').textContent    = `${disp2(customers)} cust × ${fmt(acv)} × 12`;
+    const barPct = Math.min(100, Math.max(1, (userMultiple / 5) * 100));
+    document.getElementById('pr_roi_bar').style.width = barPct + '%';
+
+    set('prs_step1', `<strong>${traffic.toLocaleString()} organic visitors/month</strong>`);
+    set('prs_step2', `${traffic.toLocaleString()} visits × ${cvrPct.toFixed(1)}% CVR = <strong>${disp1(mqls)} MQLs/mo</strong> <span style="color:#aaa">(${fmt(cpMql)}/MQL)</span>`);
+    set('prs_step3', `${disp1(mqls)} MQLs × ${val('pr_sql')}% SQL = <strong>${disp1(sqls)} SQLs/mo</strong> <span style="color:#aaa">(${fmt(cpSql)}/SQL)</span>`);
+    set('prs_step4', `${disp1(sqls)} SQLs × ${val('pr_close')}% close = <strong>${disp2(customers)} customers/mo</strong>`);
+    set('prs_step5', `${disp2(customers)} × ${fmt(acv)} × 12mo = <strong>${fmt(annualARR)} annual revenue</strong>`);
+
+    document.getElementById('prs_cmp_invested').textContent = fmt(annualCost);
+    document.getElementById('prs_cmp_pipeline').textContent = fmt(pipeline);
+    document.getElementById('prs_cmp_arr').textContent      = fmt(annualARR);
+    const pipeRatio = annualCost > 0 ? (pipeline / annualCost).toFixed(1) + '× pipeline' : '—';
+    const revRatio  = annualCost > 0 ? (annualARR  / annualCost).toFixed(1) + '× revenue' : '—';
+    const elP = document.getElementById('prs_pipe_ratio');
+    const elR = document.getElementById('prs_rev_ratio');
+    if (elP) elP.textContent = pipeRatio;
+    if (elR) elR.textContent = revRatio;
+
+    document.getElementById('prs_sc1_val').textContent = fmt(annualCost * 1);
+    document.getElementById('prs_sc2_val').textContent = fmt(annualCost * 2);
+    document.getElementById('prs_sc3_val').textContent = fmt(annualCost * 3);
+    let bracket = 1;
+    if (userMultiple >= 2.5) bracket = 3;
+    else if (userMultiple >= 1.5) bracket = 2;
+    for (let i = 1; i <= 3; i++) {
+      const y = document.getElementById('prs_yours_' + i);
+      const c = document.getElementById('prs_sc_' + i);
+      if (y) y.style.display = (i === bracket) ? 'block' : 'none';
+      if (c) c.classList.toggle('prcalc-sc-active', i === bracket);
+    }
+
+    document.getElementById('prs_your_rev').textContent   = fmt(annualARR);
+    document.getElementById('prs_your_spend').textContent = fmt(annualCost);
+    document.getElementById('prs_your_multi').textContent = userMultiple.toFixed(1) + '×';
+    document.getElementById('prs_your_pipe').textContent  = fmt(pipeline);
+    const pipeSpendRatio = annualCost > 0 ? (pipeline / annualCost).toFixed(1) + '×' : '—';
+    const elPSR = document.getElementById('prs_your_pipe_ratio');
+    if (elPSR) elPSR.textContent = pipeSpendRatio;
+
+    const verdict = roiPct >= 200 ? 'strong' : roiPct >= 100 ? 'solid' : roiPct >= 0 ? 'modest' : 'early-stage';
+    const catAud  = CAT_LABELS[activeCat] + ' · ' + AUD_LABELS[activeAud];
+    set('prs_summary',
+      `For a <strong>${catAud}</strong> company: your <strong>${fmt(budget)}/month</strong> SEO investment drives <strong>${traffic.toLocaleString()} organic visitors</strong>, converting at <strong>${cvrPct.toFixed(1)}%</strong> to <strong>${disp1(mqls)} MQLs/month</strong>. ` +
+      `Sales accepts <strong>${disp1(sqls)} SQLs</strong> at ${fmt(cpSql)} each, and <strong>${disp2(customers)}</strong> close into paying customers every month at <strong>${fmt(acv)} Average Customer Value (ACV)</strong>. ` +
+      `That's <strong>${fmt(annualARR)}</strong> in annual revenue — a <strong>${userMultiple.toFixed(1)}× ${verdict} return</strong> on <strong>${fmt(annualCost)}</strong> annual spend. Pipeline in motion: <strong>${fmt(pipeline)}</strong>.`
+    );
+  }
+
+  function syncSlider(rangeId, displayId, fmtFn) {
+    const el  = document.getElementById(rangeId);
+    const out = document.getElementById(displayId);
+    if (!el || !out) return;
+    function update() {
+      const v = parseFloat(el.value);
+      out.textContent = fmtFn(v);
+      const min = parseFloat(el.min), max = parseFloat(el.max);
+      el.style.setProperty('--pct', ((v - min) / (max - min) * 100) + '%');
+      calculate();
+    }
+    el.addEventListener('input', update);
+  }
+
+  document.getElementById('pr_cat_pills').addEventListener('click', function (e) {
+    const btn = e.target.closest('.prcalc-pill-btn');
+    if (!btn || !btn.dataset.cat) return;
+    this.querySelectorAll('.prcalc-pill-btn').forEach(b => b.classList.remove('prcalc-pill-active'));
+    btn.classList.add('prcalc-pill-active');
+    activeCat = btn.dataset.cat;
+    applyBenchmark(activeCat, activeAud);
+  });
+  document.getElementById('pr_aud_pills').addEventListener('click', function (e) {
+    const btn = e.target.closest('.prcalc-pill-btn');
+    if (!btn || !btn.dataset.aud) return;
+    this.querySelectorAll('.prcalc-pill-btn').forEach(b => b.classList.remove('prcalc-pill-active'));
+    btn.classList.add('prcalc-pill-active');
+    activeAud = btn.dataset.aud;
+    applyBenchmark(activeCat, activeAud);
+  });
+
+  ['pr_budget', 'pr_traffic', 'pr_acv'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('input', calculate);
+  });
+
+  syncSlider('pr_cvr',   'pr_cvr_val',   v => v.toFixed(1) + '%');
+  syncSlider('pr_sql',   'pr_sql_val',   v => Math.round(v) + '%');
+  syncSlider('pr_close', 'pr_close_val', v => Math.round(v) + '%');
+  syncSlider('pr_cycle', 'pr_cycle_val', v => Math.round(v) + ' mo');
+
+  applyBenchmark(activeCat, activeAud);
+})();
+</script>
+{{ end }}

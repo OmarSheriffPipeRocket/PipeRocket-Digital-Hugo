@@ -1,0 +1,472 @@
+{{/* PPC ROAS Calculator — self-contained interactive tool.
+     Ported from piperocket.digital/tools/ppc-roas-calculator/
+     Mirror structure of layouts/tools/free-seo-roi-calculator.html:
+     CSS + JSON-LD in head_extra, HTML body + driver JS in main. */}}
+
+{{ define "head_extra" }}
+<style>
+  /* ── PipeRocket ROAS Calculator ── prefix: prroas- ── */
+  .prroas-page *, .prroas-page *::before, .prroas-page *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  .prroas-page {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #313131;
+    background: #fff;
+    padding: 40px 16px 80px;
+  }
+
+  /* ── Hero ── */
+  .prroas-hero { max-width: 1400px; margin: 0 auto 32px; text-align: center; }
+  .prroas-badge {
+    display: inline-block;
+    background: linear-gradient(90deg, #0BA6E2, #275f97);
+    color: #fff; font-size: 11px; font-weight: 700;
+    letter-spacing: 1.4px; text-transform: uppercase;
+    padding: 5px 14px; border-radius: 9999px; margin-bottom: 14px;
+  }
+  .prroas-hero h1 { font-size: clamp(24px,4.5vw,40px); font-weight: 800; line-height: 1.2; color: #043345; margin-bottom: 12px; }
+  .prroas-hero h1 span { color: #0BA6E2; }
+  .prroas-hero p { font-size: 15px; color: #666; max-width: 560px; margin: 0 auto; line-height: 1.6; }
+
+  /* ── Card ── */
+  .prroas-card { max-width: 1400px; margin: 0 auto; background: #fff; border-radius: 18px; box-shadow: 0 4px 40px rgba(4,51,69,0.10); overflow: hidden; }
+
+  /* ── Inputs grid ── */
+  .prroas-inputs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; border-bottom: 2px solid #e4eaf2; }
+  @media (max-width: 860px) { .prroas-inputs { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 480px) { .prroas-inputs { grid-template-columns: 1fr; } }
+
+  .prroas-inp-cell { padding: 22px 24px; border-right: 1px solid #e4eaf2; background: #f6f9fc; }
+  .prroas-inp-cell:last-child { border-right: none; }
+  .prroas-inp-cell label { display: block; font-size: 10px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #8fa6bc; margin-bottom: 6px; }
+  .prroas-inp-cell label span { font-size: 10px; font-weight: 400; text-transform: none; letter-spacing: 0; color: #b8c9d8; display: block; margin-top: 1px; }
+  .prroas-field { position: relative; }
+  .prroas-field .prroas-sym { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 13px; font-weight: 700; color: #0BA6E2; pointer-events: none; }
+  .prroas-field input[type="number"] {
+    width: 100%; padding: 10px 10px 10px 24px;
+    border: 1.5px solid #dde6ef; border-radius: 8px;
+    font-size: 15px; font-weight: 700; color: #043345;
+    background: #fff; outline: none;
+    transition: border-color .2s, box-shadow .2s;
+    -moz-appearance: textfield;
+  }
+  .prroas-field input[type="number"]::-webkit-outer-spin-button,
+  .prroas-field input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; }
+  .prroas-field input[type="number"]:focus { border-color: #0BA6E2; box-shadow: 0 0 0 3px rgba(11,166,226,0.12); }
+  .prroas-field.no-sym input[type="number"] { padding-left: 12px; }
+  .prroas-field .prroas-suf { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 11px; font-weight: 600; color: #a0adb8; pointer-events: none; }
+
+  .prroas-sl { display: flex; align-items: center; gap: 8px; background: #fff; border: 1.5px solid #dde6ef; border-radius: 8px; padding: 8px 10px; height: 42px; }
+  .prroas-sl input[type="range"] { flex: 1; height: 3px; border-radius: 2px; appearance: none; -webkit-appearance: none; background: linear-gradient(90deg, #0BA6E2 var(--pct,40%), #dde6ef var(--pct,40%)); cursor: pointer; }
+  .prroas-sl input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 15px; height: 15px; border-radius: 50%; background: #0BA6E2; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(11,166,226,0.4); }
+  .prroas-sl-val { font-size: 13px; font-weight: 800; color: #0BA6E2; min-width: 38px; text-align: right; }
+
+  /* ── Funnel flow ── */
+  .prroas-funnel { padding: 36px 32px 28px; border-bottom: 1px solid #e4eaf2; }
+  .prroas-funnel-label { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #8fa6bc; margin-bottom: 24px; }
+  .prroas-flow { display: flex; align-items: stretch; gap: 0; }
+  .prroas-stage { flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; position: relative; }
+  .prroas-arrow { display: flex; align-items: center; justify-content: center; padding: 0 4px; flex-shrink: 0; align-self: center; margin-top: -20px; }
+  .prroas-arrow-body { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+  .prroas-arrow-rate { font-size: 10px; font-weight: 700; color: #0BA6E2; white-space: nowrap; background: #eef6fb; padding: 2px 6px; border-radius: 9999px; }
+  .prroas-arrow-svg { color: #c4d4e0; }
+  .prroas-stage-box { background: #f6f9fc; border: 1.5px solid #e4eaf2; border-radius: 14px; padding: 18px 14px 14px; width: 100%; transition: border-color .2s, box-shadow .2s; position: relative; }
+  .prroas-stage-box:hover { border-color: #a8d8f0; box-shadow: 0 4px 16px rgba(11,166,226,0.08); }
+  .prroas-stage-box.prroas-stage-revenue { background: linear-gradient(160deg, #043345, #275f97); border-color: transparent; }
+  .prroas-stage-box.prroas-stage-revenue .prroas-stage-icon { background: rgba(255,255,255,0.12); color: #5dd4f7; }
+  .prroas-stage-box.prroas-stage-revenue .prroas-stage-name { color: rgba(255,255,255,0.55); }
+  .prroas-stage-box.prroas-stage-revenue .prroas-stage-value { color: #fff; }
+  .prroas-stage-box.prroas-stage-revenue .prroas-stage-sub { color: rgba(255,255,255,0.4); }
+  .prroas-stage-icon { width: 36px; height: 36px; border-radius: 10px; background: #eef6fb; display: flex; align-items: center; justify-content: center; font-size: 18px; margin: 0 auto 12px; }
+  .prroas-stage-name { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #8fa6bc; margin-bottom: 8px; }
+  .prroas-stage-value { font-size: 26px; font-weight: 900; color: #043345; line-height: 1; letter-spacing: -0.5px; }
+  .prroas-stage-sub { font-size: 10px; color: #a0adb8; margin-top: 5px; line-height: 1.3; }
+  @media (max-width: 760px) { .prroas-flow { flex-direction: column; gap: 8px; } .prroas-arrow { transform: rotate(90deg); margin: 0; } }
+
+  /* ── Results row ── */
+  .prroas-results { display: grid; grid-template-columns: 280px 1fr; border-bottom: 1px solid #e4eaf2; }
+  @media (max-width: 860px) { .prroas-results { grid-template-columns: 1fr; } }
+  .prroas-roas-hero { background: linear-gradient(160deg, #043345, #275f97); padding: 32px 28px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; }
+  .prroas-roas-label { font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: rgba(255,255,255,0.4); }
+  .prroas-roas-value { font-size: 60px; font-weight: 900; color: #fff; line-height: 1; letter-spacing: -2px; }
+  .prroas-roas-sub { font-size: 13px; color: rgba(255,255,255,0.45); }
+  .prroas-roas-pill { display: inline-flex; align-items: center; gap: 6px; padding: 5px 14px; border-radius: 9999px; font-size: 11px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; margin-top: 4px; }
+  .prroas-roas-pill::before { content:''; width:7px; height:7px; border-radius:50%; }
+  .prroas-roas-pill.great { background:rgba(74,222,128,0.2); color:#4ade80; border:1px solid rgba(74,222,128,0.3); }
+  .prroas-roas-pill.great::before { background:#4ade80; }
+  .prroas-roas-pill.good  { background:rgba(96,165,250,0.2); color:#93c5fd; border:1px solid rgba(96,165,250,0.3); }
+  .prroas-roas-pill.good::before  { background:#93c5fd; }
+  .prroas-roas-pill.ok    { background:rgba(251,191,36,0.2); color:#fbbf24; border:1px solid rgba(251,191,36,0.3); }
+  .prroas-roas-pill.ok::before    { background:#fbbf24; }
+  .prroas-roas-pill.bad   { background:rgba(248,113,113,0.2); color:#f87171; border:1px solid rgba(248,113,113,0.3); }
+  .prroas-roas-pill.bad::before   { background:#f87171; }
+  .prroas-metrics { padding: 24px 28px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; align-content: center; }
+  @media (max-width: 640px) { .prroas-metrics { grid-template-columns: 1fr 1fr; } }
+  .prroas-metric { background: #f6f9fc; border-radius: 12px; padding: 14px 16px; border: 1.5px solid #e4eaf2; }
+  .prroas-metric-lbl { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #8fa6bc; margin-bottom: 6px; }
+  .prroas-metric-val { font-size: 24px; font-weight: 800; color: #043345; line-height: 1; }
+  .prroas-metric-sub { font-size: 10px; color: #a0adb8; margin-top: 4px; }
+  .prroas-metric.accent { background: linear-gradient(135deg, rgba(11,166,226,0.08), rgba(39,95,151,0.06)); border-color: #a8d8f0; }
+  .prroas-metric.accent .prroas-metric-val { color: #0BA6E2; }
+
+  /* ── Insight + CTA ── */
+  .prroas-insight { padding: 18px 32px; display: flex; align-items: flex-start; gap: 12px; border-bottom: 1px solid #e4eaf2; }
+  .prroas-insight-icon { font-size: 20px; flex-shrink: 0; margin-top: 2px; }
+  .prroas-insight-text { font-size: 13px; line-height: 1.7; color: #445; }
+  .prroas-insight-text strong { color: #043345; }
+  .prroas-insight-text .hi { color: #0BA6E2; font-weight: 700; }
+  .prroas-cta { background: linear-gradient(90deg, #043345, #275f97); padding: 22px 32px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+  .prroas-cta p { font-size: 14px; color: rgba(255,255,255,0.8); line-height: 1.5; max-width: 640px; }
+  .prroas-cta strong { color: #fff; }
+  .prroas-cta-btn { display: inline-block; background: #FF0025; color: #fff; font-size: 14px; font-weight: 700; padding: 12px 28px; border-radius: 9999px; text-decoration: none; white-space: nowrap; box-shadow: 0 4px 18px rgba(255,0,37,0.35); transition: background .2s, transform .15s; }
+  .prroas-cta-btn:hover { background: #cc001e; transform: translateY(-1px); }
+
+  /* ── Content + Sidebar ── */
+  .prroas-content-wrap { max-width: 1400px; margin: 52px auto 0; display: grid; grid-template-columns: 1fr 280px; gap: 40px; align-items: flex-start; }
+  @media (max-width: 900px) { .prroas-content-wrap { grid-template-columns: 1fr; } }
+  .prroas-content { min-width: 0; }
+  .prroas-content h2 { font-size: 22px; font-weight: 800; color: #043345; margin-bottom: 12px; }
+  .prroas-content h3 { font-size: 17px; font-weight: 700; color: #275f97; margin: 28px 0 10px; }
+  .prroas-content p  { font-size: 15px; line-height: 1.75; color: #444; margin-bottom: 14px; }
+  .prroas-content ul { margin: 0 0 16px 20px; }
+  .prroas-content ul li { font-size: 15px; line-height: 1.7; color: #444; margin-bottom: 6px; }
+  .prroas-formula-box { background: linear-gradient(160deg, #043345, #275f97); color: #fff; border-radius: 12px; padding: 22px 26px; margin: 20px 0; font-size: 14px; line-height: 1.9; }
+  .prroas-formula-box strong { color: #5dd4f7; }
+  .prroas-bm-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin: 20px 0; }
+  @media (max-width: 640px) { .prroas-bm-grid { grid-template-columns: 1fr 1fr; } }
+  .prroas-bm { border-radius: 10px; padding: 14px; text-align: center; }
+  .prroas-bm.r{background:#fff1f2;border:1.5px solid #fca5a5;}
+  .prroas-bm.y{background:#fffbeb;border:1.5px solid #fcd34d;}
+  .prroas-bm.b{background:#eff6ff;border:1.5px solid #93c5fd;}
+  .prroas-bm.g{background:#f0fdf4;border:1.5px solid #86efac;}
+  .prroas-bm-lbl{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px;}
+  .prroas-bm.r .prroas-bm-lbl{color:#b91c1c;} .prroas-bm.y .prroas-bm-lbl{color:#b45309;}
+  .prroas-bm.b .prroas-bm-lbl{color:#1d4ed8;} .prroas-bm.g .prroas-bm-lbl{color:#15803d;}
+  .prroas-bm-val{font-size:20px;font-weight:800;color:#043345;}
+  .prroas-bm-desc{font-size:11px;color:#666;margin-top:4px;line-height:1.4;}
+
+  .prroas-faq { margin-top: 40px; }
+  .prroas-faq-item { border-bottom: 1px solid #e8edf3; padding: 18px 0; }
+  .prroas-faq-item:first-child { border-top: 1px solid #e8edf3; }
+  .prroas-faq-q { font-size: 15px; font-weight: 700; color: #043345; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .prroas-faq-q .fi { font-size: 20px; color: #0BA6E2; flex-shrink: 0; transition: transform .25s; }
+  .prroas-faq-q.open .fi { transform: rotate(45deg); }
+  .prroas-faq-a { font-size: 14px; line-height: 1.75; color: #555; max-height: 0; overflow: hidden; transition: max-height .35s ease, padding-top .25s; }
+  .prroas-faq-a.open { max-height: 400px; padding-top: 12px; }
+
+  .prroas-sidebar { display: flex; flex-direction: column; gap: 20px; }
+  .prroas-sidebar-cta { background:linear-gradient(135deg,#FF0025,#cc001e); padding:18px 16px; text-align:center; border-radius:12px; box-shadow:0 4px 16px rgba(255,0,37,0.22); }
+  .prroas-sidebar-cta p { font-size:13px; color:rgba(255,255,255,0.85); margin-bottom:12px; line-height:1.5; }
+  .prroas-sidebar-cta strong { color:#fff; }
+  .prroas-sidebar-cta a { display:block; background:#fff; color:#FF0025; font-size:13px; font-weight:700; padding:10px 16px; border-radius:9999px; text-decoration:none; transition:opacity .18s; }
+  .prroas-sidebar-cta a:hover { opacity:.88; }
+
+  .prroas-footer { max-width:1400px; margin:40px auto 0; text-align:center; font-size:12px; color:#aaa; line-height:1.6; }
+  .prroas-footer a { color:#0BA6E2; text-decoration:none; }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "PPC ROAS Calculator for B2B SaaS",
+  "description": "Free B2B SaaS ROAS calculator. Enter ad spend, clicks, CVR and ACV to see your full paid funnel — leads, customers, ROAS, CPL, paid CAC and new ARR.",
+  "url": "{{ .Permalink }}",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" }
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+<div class="prroas-page">
+  <!-- HERO -->
+  <div class="prroas-hero">
+    <div class="prroas-badge">Free Tool · B2B SaaS</div>
+    <h1>ROAS Calculator<br><span>for B2B SaaS Paid Campaigns</span></h1>
+    <p>Enter your ad spend, traffic, and conversion numbers — see your full funnel and return on ad spend update in real time.</p>
+  </div>
+
+  <div class="prroas-card">
+
+    <!-- INPUTS -->
+    <div class="prroas-inputs">
+      <div class="prroas-inp-cell">
+        <label>Monthly Ad Spend <span>Google, LinkedIn, Meta</span></label>
+        <div class="prroas-field">
+          <span class="prroas-sym">$</span>
+          <input type="number" id="r_spend" value="10000" min="0" step="500" />
+        </div>
+      </div>
+      <div class="prroas-inp-cell">
+        <label>Monthly Clicks <span>from paid campaigns</span></label>
+        <div class="prroas-field no-sym">
+          <input type="number" id="r_clicks" value="800" min="1" step="50" />
+          <span class="prroas-suf">clicks</span>
+        </div>
+      </div>
+      <div class="prroas-inp-cell">
+        <label>Click → Lead Rate <span>landing page CVR</span></label>
+        <div class="prroas-sl">
+          <input type="range" id="r_cvr" min="0.5" max="20" value="4" step="0.5" />
+          <span class="prroas-sl-val" id="r_cvr_val">4.0%</span>
+        </div>
+      </div>
+      <div class="prroas-inp-cell">
+        <label>Lead → Customer Rate <span>sales close rate</span></label>
+        <div class="prroas-sl">
+          <input type="range" id="r_close" min="1" max="60" value="20" step="1" />
+          <span class="prroas-sl-val" id="r_close_val">20%</span>
+        </div>
+      </div>
+      <div class="prroas-inp-cell">
+        <label>Average Contract Value <span>annual (ACV)</span></label>
+        <div class="prroas-field">
+          <span class="prroas-sym">$</span>
+          <input type="number" id="r_acv" value="18000" min="0" step="500" />
+        </div>
+      </div>
+    </div>
+
+    <!-- FUNNEL FLOW -->
+    <div class="prroas-funnel">
+      <div class="prroas-funnel-label">Your paid acquisition funnel</div>
+      <div class="prroas-flow">
+
+        <div class="prroas-stage">
+          <div class="prroas-stage-box">
+            <div class="prroas-stage-icon">💸</div>
+            <div class="prroas-stage-name">Ad Spend</div>
+            <div class="prroas-stage-value" id="f_spend">$10K</div>
+            <div class="prroas-stage-sub">monthly budget</div>
+          </div>
+        </div>
+
+        <div class="prroas-arrow">
+          <div class="prroas-arrow-body">
+            <span class="prroas-arrow-rate" id="f_cpc_lbl">$12.50 CPC</span>
+            <svg class="prroas-arrow-svg" width="28" height="14" viewBox="0 0 28 14" fill="none"><path d="M0 7h24M18 1l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <div class="prroas-stage">
+          <div class="prroas-stage-box">
+            <div class="prroas-stage-icon">🖱️</div>
+            <div class="prroas-stage-name">Clicks</div>
+            <div class="prroas-stage-value" id="f_clicks">800</div>
+            <div class="prroas-stage-sub">paid visitors</div>
+          </div>
+        </div>
+
+        <div class="prroas-arrow">
+          <div class="prroas-arrow-body">
+            <span class="prroas-arrow-rate" id="f_cvr_lbl">4% CVR</span>
+            <svg class="prroas-arrow-svg" width="28" height="14" viewBox="0 0 28 14" fill="none"><path d="M0 7h24M18 1l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <div class="prroas-stage">
+          <div class="prroas-stage-box">
+            <div class="prroas-stage-icon">📋</div>
+            <div class="prroas-stage-name">Leads</div>
+            <div class="prroas-stage-value" id="f_leads">32</div>
+            <div class="prroas-stage-sub" id="f_cpl_sub">$313 CPL</div>
+          </div>
+        </div>
+
+        <div class="prroas-arrow">
+          <div class="prroas-arrow-body">
+            <span class="prroas-arrow-rate" id="f_close_lbl">20% close</span>
+            <svg class="prroas-arrow-svg" width="28" height="14" viewBox="0 0 28 14" fill="none"><path d="M0 7h24M18 1l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <div class="prroas-stage">
+          <div class="prroas-stage-box">
+            <div class="prroas-stage-icon">🤝</div>
+            <div class="prroas-stage-name">Customers</div>
+            <div class="prroas-stage-value" id="f_customers">6.4</div>
+            <div class="prroas-stage-sub" id="f_paid_cac_sub">$1.6K paid CAC</div>
+          </div>
+        </div>
+
+        <div class="prroas-arrow">
+          <div class="prroas-arrow-body">
+            <span class="prroas-arrow-rate" id="f_acv_lbl">$18K ACV</span>
+            <svg class="prroas-arrow-svg" width="28" height="14" viewBox="0 0 28 14" fill="none"><path d="M0 7h24M18 1l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <div class="prroas-stage">
+          <div class="prroas-stage-box prroas-stage-revenue">
+            <div class="prroas-stage-icon">💰</div>
+            <div class="prroas-stage-name">New ARR</div>
+            <div class="prroas-stage-value" id="f_revenue">$115K</div>
+            <div class="prroas-stage-sub">monthly new ARR</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- RESULTS ROW -->
+    <div class="prroas-results">
+      <div class="prroas-roas-hero">
+        <div class="prroas-roas-label">Return on Ad Spend</div>
+        <div class="prroas-roas-value" id="r_roas">11.5x</div>
+        <div class="prroas-roas-sub">revenue ÷ ad spend</div>
+        <div class="prroas-roas-pill great" id="r_rating">Excellent ROAS</div>
+      </div>
+
+      <div class="prroas-metrics">
+        <div class="prroas-metric accent">
+          <div class="prroas-metric-lbl">Monthly New ARR</div>
+          <div class="prroas-metric-val" id="r_arr">$115K</div>
+          <div class="prroas-metric-sub">from paid campaigns</div>
+        </div>
+        <div class="prroas-metric">
+          <div class="prroas-metric-lbl">Cost Per Lead</div>
+          <div class="prroas-metric-val" id="r_cpl">$313</div>
+          <div class="prroas-metric-sub">ad spend ÷ leads</div>
+        </div>
+        <div class="prroas-metric">
+          <div class="prroas-metric-lbl">Paid CAC</div>
+          <div class="prroas-metric-val" id="r_cac">$1.6K</div>
+          <div class="prroas-metric-sub">ad spend ÷ customers</div>
+        </div>
+        <div class="prroas-metric">
+          <div class="prroas-metric-lbl">Cost Per Click</div>
+          <div class="prroas-metric-val" id="r_cpc">$12.50</div>
+          <div class="prroas-metric-sub">spend ÷ clicks</div>
+        </div>
+        <div class="prroas-metric accent">
+          <div class="prroas-metric-lbl">Monthly Profit</div>
+          <div class="prroas-metric-val" id="r_profit">$105K</div>
+          <div class="prroas-metric-sub">ARR minus ad spend</div>
+        </div>
+        <div class="prroas-metric">
+          <div class="prroas-metric-lbl">Annual ARR from Ads</div>
+          <div class="prroas-metric-val" id="r_annual">$1.4M</div>
+          <div class="prroas-metric-sub">monthly ARR × 12</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- INSIGHT -->
+    <div class="prroas-insight">
+      <div class="prroas-insight-icon" id="r_icon">✅</div>
+      <div class="prroas-insight-text" id="r_insight">—</div>
+    </div>
+
+    <!-- CTA -->
+    <div class="prroas-cta">
+      <p>Paid ads give instant traffic — but <strong>SEO compounds it for free</strong>. PipeRocket clients who pair PPC with SEO reduce blended CAC by 40–60% within 12 months, while keeping the same pipeline volume.</p>
+      <a href="/contact-us/" class="prroas-cta-btn">Pair SEO with Your Paid Strategy →</a>
+    </div>
+  </div>
+
+  <div class="prroas-footer">
+    Results are estimates based on your inputs. Actual ROAS depends on targeting quality, ad creative, landing page performance, and sales execution.<br>
+    Built by <a href="/">PipeRocket Digital</a> — B2B SaaS SEO &amp; PPC Agency.
+  </div>
+</div>
+
+<script>
+(function () {
+  function fmt(n) {
+    if (n >= 1e6) return '$' + (n / 1e6).toFixed(1) + 'M';
+    if (n >= 1e3) { const k = n / 1000; return '$' + (k % 1 === 0 ? k.toFixed(0) : k.toFixed(1)) + 'K'; }
+    return '$' + (n % 1 === 0 ? Math.round(n) : n.toFixed(2)).toLocaleString();
+  }
+  function fmtN(n) {
+    if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+    if (n >= 1e3) { const k = n / 1000; return (k % 1 === 0 ? k.toFixed(0) : k.toFixed(1)) + 'K'; }
+    return (n % 1 === 0 ? Math.round(n) : n.toFixed(1)).toLocaleString();
+  }
+  function val(id) { return parseFloat(document.getElementById(id).value) || 0; }
+  function set(id, txt) { const e = document.getElementById(id); if (e) e.textContent = txt; }
+  function html(id, h)  { const e = document.getElementById(id); if (e) e.innerHTML  = h; }
+
+  function calculate() {
+    const spend    = val('r_spend');
+    const clicks   = Math.max(val('r_clicks'), 1);
+    const cvr      = val('r_cvr') / 100;
+    const closeR   = val('r_close') / 100;
+    const acv      = val('r_acv');
+
+    const leads     = clicks * cvr;
+    const customers = leads * closeR;
+    const revenue   = customers * acv;
+    const roas      = spend > 0 ? revenue / spend : 0;
+    const cpc       = spend / clicks;
+    const cpl       = leads > 0 ? spend / leads : 0;
+    const paidCac   = customers > 0 ? spend / customers : 0;
+    const profit    = revenue - spend;
+    const annual    = revenue * 12;
+
+    set('f_spend',    fmt(spend));
+    set('f_clicks',   fmtN(clicks));
+    set('f_leads',    fmtN(Math.round(leads * 10) / 10));
+    set('f_customers',customers < 1 ? customers.toFixed(1) : (Math.round(customers * 10) / 10).toString());
+    set('f_revenue',  fmt(revenue));
+    set('f_cpc_lbl',  fmt(cpc) + ' CPC');
+    set('f_cvr_lbl',  val('r_cvr') + '% CVR');
+    set('f_close_lbl',val('r_close') + '% close');
+    set('f_acv_lbl',  fmt(acv) + ' ACV');
+    set('f_cpl_sub',  fmt(cpl) + ' CPL');
+    set('f_paid_cac_sub', fmt(paidCac) + ' paid CAC');
+
+    set('r_roas',   roas.toFixed(1) + 'x');
+    set('r_arr',    fmt(revenue));
+    set('r_cpl',    fmt(cpl));
+    set('r_cac',    fmt(paidCac));
+    set('r_cpc',    fmt(cpc));
+    set('r_profit', fmt(Math.max(profit, 0)));
+    set('r_annual', fmt(annual));
+
+    let rClass, rText;
+    if (roas >= 10)     { rClass = 'great'; rText = 'Excellent ROAS'; }
+    else if (roas >= 5) { rClass = 'good';  rText = 'Good ROAS'; }
+    else if (roas >= 2) { rClass = 'ok';    rText = 'Average ROAS'; }
+    else                { rClass = 'bad';   rText = 'Below Target'; }
+    const rEl = document.getElementById('r_rating');
+    rEl.className   = 'prroas-roas-pill ' + rClass;
+    rEl.textContent = rText;
+
+    const icon = roas >= 10 ? '✅' : roas >= 5 ? '💡' : roas >= 2 ? '⚠️' : '🔴';
+    const advice = roas >= 10
+      ? `Your campaigns are generating <span class="hi">elite returns</span>. Every $1 in ad spend is producing <strong>${fmt(acv / paidCac)} in ACV</strong>. Consider scaling budget while monitoring CPL.`
+      : roas >= 5
+      ? `Solid performance. To push past 10x, focus on improving your landing page CVR (currently <strong>${val('r_cvr')}%</strong>) — doubling it would nearly double your ROAS with no extra spend.`
+      : roas >= 2
+      ? `You're breaking even but the margin is thin. Review targeting quality to reduce CPC, and A/B test your landing page to improve the ${val('r_cvr')}% CVR.`
+      : `Ad spend is exceeding revenue. Pause scaling and audit your funnel — CPL at <strong>${fmt(cpl)}</strong> vs. ACV of <strong>${fmt(acv)}</strong> is not sustainable.`;
+
+    set('r_icon', icon);
+    html('r_insight',
+      `Spending <strong>${fmt(spend)}/month</strong> → <strong>${fmtN(Math.round(leads * 10)/10)} leads</strong> → <strong>${(Math.round(customers * 10)/10)} customers</strong> → <strong>${fmt(revenue)} new ARR</strong>. ROAS: <span class="hi">${roas.toFixed(1)}x</span> · CPL: <strong>${fmt(cpl)}</strong> · Paid CAC: <strong>${fmt(paidCac)}</strong>. ${advice}`
+    );
+  }
+
+  function syncSlider(id, dispId, suffix, dec) {
+    const el = document.getElementById(id), out = document.getElementById(dispId);
+    function upd() {
+      const v = parseFloat(el.value);
+      out.textContent = (dec ? v.toFixed(dec) : Math.round(v)) + suffix;
+      const pct = ((v - parseFloat(el.min)) / (parseFloat(el.max) - parseFloat(el.min))) * 100;
+      el.style.setProperty('--pct', pct + '%');
+      calculate();
+    }
+    el.addEventListener('input', upd); upd();
+  }
+
+  ['r_spend','r_clicks','r_acv'].forEach(id => document.getElementById(id).addEventListener('input', calculate));
+  syncSlider('r_cvr',   'r_cvr_val',   '%', 1);
+  syncSlider('r_close', 'r_close_val', '%', 0);
+
+  calculate();
+})();
+</script>
+{{ end }}
