@@ -83,17 +83,7 @@
         {{ partial "article-cta.html" . }}
       </div>
 
-      <aside class="pr-article-rail pr-article-rail--right" aria-label="On this page">
-        {{ if and (default true .Params.toc) (gt (len .TableOfContents) 0) }}
-          <details class="pr-article-rail__card pr-article-rail__card--collapsible pr-page-toc">
-            <summary class="pr-article-rail__heading">On this page</summary>
-            <nav class="pr-page-toc__nav" data-pr-page-toc>
-              {{ .TableOfContents }}
-            </nav>
-          </details>
-        {{ end }}
-        {{ partial "article-rail-author.html" . }}
-      </aside>
+      {{ partial "article-rail-author.html" . }}
 
     </div>
 
