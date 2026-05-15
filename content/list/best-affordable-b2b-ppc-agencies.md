@@ -514,3 +514,7 @@ You can, but most B2B SaaS teams find that hiring a $3,000-$5,000/mo agency is m
 ### How long does it take to see results from a B2B PPC agency?
 
 Expect 30-60 days for the first measurable signal (clicks, CPL trending in the right direction) and 90-120 days for pipeline impact (SQLs, opportunities). Agencies that promise pipeline results in week one are either overselling or running aggressive remarketing on warm audiences. HyperStart, for example, saw 73% lower cost per lead after roughly 10 experiments — that's a quarter of work, not a week.
+
+---
+
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2 based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency.*
