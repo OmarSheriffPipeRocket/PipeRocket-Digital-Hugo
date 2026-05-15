@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3268
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-ssl-certificate/"
 toc: true
 readingTime: "10 min read"

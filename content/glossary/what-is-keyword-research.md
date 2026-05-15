@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "on-page"
 writtenBy: "ranjeeth"
 wp_id: 3553
+glossaryCategory: "Content Marketing"
 wp_link: "/glossary/what-is-keyword-research/"
 toc: true
 readingTime: "10 min read"

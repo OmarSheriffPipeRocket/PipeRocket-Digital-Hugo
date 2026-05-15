@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "attribution"
 writtenBy: "praveen"
 wp_id: 3378
+glossaryCategory: "SaaS Metrics & Growth"
 wp_link: "/glossary/what-is-clv/"
 toc: true
 readingTime: "10 min read"

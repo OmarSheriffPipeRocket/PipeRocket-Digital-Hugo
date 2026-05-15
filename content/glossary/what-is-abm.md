@@ -9,6 +9,7 @@ categorySlug: "paid"
 subcategorySlug: "abm"
 writtenBy: "vishnu-prasad"
 wp_id: 3541
+glossaryCategory: "Demand Generation"
 wp_link: "/glossary/what-is-abm/"
 toc: true
 readingTime: "8 min read"

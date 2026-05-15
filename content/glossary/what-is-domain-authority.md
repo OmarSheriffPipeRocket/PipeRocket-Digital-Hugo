@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "off-page"
 writtenBy: "kamaraj"
 wp_id: 3191
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-domain-authority/"
 toc: true
 readingTime: "10 min read"

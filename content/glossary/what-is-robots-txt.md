@@ -10,6 +10,7 @@ categorySlug: "seo"
 subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3091
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-robots-txt/"
 toc: true
 readingTime: "9 min read"

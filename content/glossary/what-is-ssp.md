@@ -9,6 +9,7 @@ categorySlug: "paid"
 subcategorySlug: "linkedin-ads"
 writtenBy: "praveen"
 wp_id: 3380
+glossaryCategory: "PPC & Paid Advertising"
 wp_link: "/glossary/what-is-ssp/"
 toc: true
 readingTime: "11 min read"

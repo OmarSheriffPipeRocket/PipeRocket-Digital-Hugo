@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "attribution"
 writtenBy: "kamaraj"
 wp_id: 3381
+glossaryCategory: "Analytics & Attribution"
 wp_link: "/glossary/what-is-google-tag-manager/"
 toc: true
 readingTime: "13 min read"

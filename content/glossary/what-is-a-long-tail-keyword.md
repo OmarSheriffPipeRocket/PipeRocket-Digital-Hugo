@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3100
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-a-long-tail-keyword/"
 toc: true
 readingTime: "9 min read"

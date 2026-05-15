@@ -10,6 +10,7 @@ categorySlug: "seo"
 subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3096
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-google-search-console/"
 toc: true
 readingTime: "11 min read"

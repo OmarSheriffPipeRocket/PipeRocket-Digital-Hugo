@@ -8,6 +8,7 @@ categorySlug: "seo"
 subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3371
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-technical-seo/"
 toc: true
 readingTime: "11 min read"

@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3205
+glossaryCategory: "AI & Future Search"
 wp_link: "/glossary/what-is-gpt/"
 toc: true
 readingTime: "9 min read"

@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3193
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-an-seo-audit/"
 toc: true
 readingTime: "11 min read"

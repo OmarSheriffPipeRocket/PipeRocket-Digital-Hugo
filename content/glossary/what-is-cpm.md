@@ -10,6 +10,7 @@ categorySlug: "paid"
 subcategorySlug: "google-ads"
 writtenBy: "omar"
 wp_id: 3201
+glossaryCategory: "PPC & Paid Advertising"
 wp_link: "/glossary/what-is-cpm/"
 toc: true
 readingTime: "10 min read"

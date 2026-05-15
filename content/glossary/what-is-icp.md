@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "icp-targeting"
 writtenBy: "kamaraj"
 wp_id: 3280
+glossaryCategory: "Demand Generation"
 wp_link: "/glossary/what-is-icp/"
 toc: true
 readingTime: "9 min read"

@@ -10,6 +10,7 @@ categorySlug: "seo"
 subcategorySlug: "off-page"
 writtenBy: "kamaraj"
 wp_id: 3083
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-a-backlink/"
 toc: true
 readingTime: "10 min read"

@@ -10,6 +10,7 @@ categorySlug: "seo"
 subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3098
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-schema-markup/"
 toc: true
 readingTime: "11 min read"

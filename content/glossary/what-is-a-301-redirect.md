@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3181
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-a-301-redirect/"
 toc: true
 readingTime: "11 min read"

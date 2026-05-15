@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3102
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-cls/"
 toc: true
 readingTime: "10 min read"

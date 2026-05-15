@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3183
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-fid/"
 toc: true
 readingTime: "8 min read"

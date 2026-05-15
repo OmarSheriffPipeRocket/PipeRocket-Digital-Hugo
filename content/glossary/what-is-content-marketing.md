@@ -10,6 +10,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "pipeline-funnel"
 writtenBy: "kamaraj"
 wp_id: 3273
+glossaryCategory: "Content Marketing"
 wp_link: "/glossary/what-is-content-marketing/"
 toc: true
 readingTime: "9 min read"

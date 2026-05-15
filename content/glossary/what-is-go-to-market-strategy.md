@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "icp-targeting"
 writtenBy: "kamaraj"
 wp_id: 3373
+glossaryCategory: "SaaS Metrics & Growth"
 wp_link: "/glossary/what-is-go-to-market-strategy/"
 toc: true
 readingTime: "11 min read"

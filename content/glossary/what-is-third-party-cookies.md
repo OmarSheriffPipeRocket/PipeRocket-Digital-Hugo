@@ -9,6 +9,7 @@ categorySlug: "paid"
 subcategorySlug: "abm"
 writtenBy: "vishnu-prasad"
 wp_id: 3537
+glossaryCategory: "Analytics & Attribution"
 wp_link: "/glossary/what-is-third-party-cookies/"
 toc: true
 readingTime: "10 min read"

@@ -9,6 +9,7 @@ categorySlug: "marketing-ops"
 subcategorySlug: "revops"
 writtenBy: "ranjeeth"
 wp_id: 3552
+glossaryCategory: "SaaS Metrics & Growth"
 wp_link: "/glossary/what-is-runway/"
 toc: true
 readingTime: "10 min read"

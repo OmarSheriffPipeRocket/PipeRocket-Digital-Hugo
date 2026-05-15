@@ -9,6 +9,7 @@ categorySlug: "paid"
 subcategorySlug: "google-ads"
 writtenBy: "praveen"
 wp_id: 3215
+glossaryCategory: "PPC & Paid Advertising"
 wp_link: "/glossary/what-is-roas/"
 toc: true
 readingTime: "11 min read"

@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3185
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-image-alt-text/"
 toc: true
 readingTime: "9 min read"

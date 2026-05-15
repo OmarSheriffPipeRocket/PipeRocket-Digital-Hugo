@@ -9,6 +9,7 @@ categorySlug: "paid"
 subcategorySlug: "linkedin-ads"
 writtenBy: "praveen"
 wp_id: 3382
+glossaryCategory: "PPC & Paid Advertising"
 wp_link: "/glossary/what-is-meta-ads/"
 toc: true
 readingTime: "13 min read"

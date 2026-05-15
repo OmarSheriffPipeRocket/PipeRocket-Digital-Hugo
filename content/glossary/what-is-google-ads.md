@@ -9,6 +9,7 @@ categorySlug: "paid"
 subcategorySlug: "google-ads"
 writtenBy: "praveen"
 wp_id: 3275
+glossaryCategory: "PPC & Paid Advertising"
 wp_link: "/glossary/what-is-google-ads/"
 toc: true
 readingTime: "10 min read"

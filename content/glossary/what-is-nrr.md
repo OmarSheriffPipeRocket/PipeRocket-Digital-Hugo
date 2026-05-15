@@ -9,6 +9,7 @@ categorySlug: "marketing-ops"
 subcategorySlug: "revops"
 writtenBy: "kamaraj"
 wp_id: 3374
+glossaryCategory: "SaaS Metrics & Growth"
 wp_link: "/glossary/what-is-nrr/"
 toc: true
 readingTime: "10 min read"

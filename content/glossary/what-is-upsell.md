@@ -9,6 +9,7 @@ categorySlug: "marketing-ops"
 subcategorySlug: "lifecycle"
 writtenBy: "ranjeeth"
 wp_id: 3539
+glossaryCategory: "SaaS Metrics & Growth"
 wp_link: "/glossary/what-is-upsell/"
 toc: true
 readingTime: "8 min read"

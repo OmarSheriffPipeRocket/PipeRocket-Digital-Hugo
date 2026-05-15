@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "pipeline-funnel"
 writtenBy: "kamaraj"
 wp_id: 3376
+glossaryCategory: "Content Marketing"
 wp_link: "/glossary/what-is-user-generated-content/"
 toc: true
 readingTime: "11 min read"

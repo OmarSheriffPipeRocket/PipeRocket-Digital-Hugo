@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "icp-targeting"
 writtenBy: "vishnu-prasad"
 wp_id: 3542
+glossaryCategory: "Social & Brand"
 wp_link: "/glossary/what-is-brand-identity/"
 toc: true
 readingTime: "11 min read"

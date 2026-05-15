@@ -10,6 +10,7 @@ categorySlug: "seo"
 subcategorySlug: "technical"
 writtenBy: "kamaraj"
 wp_id: 3085
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-indexing/"
 toc: true
 readingTime: "10 min read"

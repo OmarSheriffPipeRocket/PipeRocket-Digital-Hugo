@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3179
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-on-page-seo/"
 toc: true
 readingTime: "10 min read"

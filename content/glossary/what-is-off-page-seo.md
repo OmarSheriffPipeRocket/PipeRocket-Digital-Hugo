@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "off-page"
 writtenBy: "kamaraj"
 wp_id: 3187
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-off-page-seo/"
 toc: true
 readingTime: "8 min read"

@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "pipeline-funnel"
 writtenBy: "kamaraj"
 wp_id: 3277
+glossaryCategory: "Demand Generation"
 wp_link: "/glossary/what-is-lead-generation/"
 toc: true
 readingTime: "10 min read"

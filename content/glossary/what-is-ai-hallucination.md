@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3211
+glossaryCategory: "AI & Future Search"
 wp_link: "/glossary/what-is-ai-hallucination/"
 toc: true
 readingTime: "9 min read"

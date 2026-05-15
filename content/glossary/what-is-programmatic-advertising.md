@@ -9,6 +9,7 @@ categorySlug: "paid"
 subcategorySlug: "linkedin-ads"
 writtenBy: "praveen"
 wp_id: 3379
+glossaryCategory: "PPC & Paid Advertising"
 wp_link: "/glossary/what-is-programmatic-advertising/"
 toc: true
 readingTime: "10 min read"

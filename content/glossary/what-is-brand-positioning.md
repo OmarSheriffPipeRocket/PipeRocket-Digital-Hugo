@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "icp-targeting"
 writtenBy: "kamaraj"
 wp_id: 3372
+glossaryCategory: "Social & Brand"
 wp_link: "/glossary/what-is-brand-positioning/"
 toc: true
 readingTime: "10 min read"

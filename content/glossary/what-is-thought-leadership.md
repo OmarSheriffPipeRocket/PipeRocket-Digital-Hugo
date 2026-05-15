@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "pipeline-funnel"
 writtenBy: "kamaraj"
 wp_id: 3377
+glossaryCategory: "Content Marketing"
 wp_link: "/glossary/what-is-thought-leadership/"
 toc: true
 readingTime: "9 min read"

@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "icp-targeting"
 writtenBy: "ranjeeth"
 wp_id: 3534
+glossaryCategory: "SaaS Metrics & Growth"
 wp_link: "/glossary/what-is-tam-sam-som/"
 toc: true
 readingTime: "9 min read"

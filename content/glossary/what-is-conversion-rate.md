@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "attribution"
 writtenBy: "praveen"
 wp_id: 3375
+glossaryCategory: "Analytics & Attribution"
 wp_link: "/glossary/what-is-conversion-rate/"
 toc: true
 readingTime: "10 min read"

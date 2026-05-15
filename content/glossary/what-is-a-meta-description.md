@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3195
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-a-meta-description/"
 toc: true
 readingTime: "10 min read"

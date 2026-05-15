@@ -9,6 +9,7 @@ categorySlug: "paid"
 subcategorySlug: "google-ads"
 writtenBy: "praveen"
 wp_id: 3199
+glossaryCategory: "PPC & Paid Advertising"
 wp_link: "/glossary/what-is-cost-per-click/"
 toc: true
 readingTime: "9 min read"

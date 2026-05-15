@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "technical"
 writtenBy: "ranjeeth"
 wp_id: 3540
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-crawling/"
 toc: true
 readingTime: "9 min read"

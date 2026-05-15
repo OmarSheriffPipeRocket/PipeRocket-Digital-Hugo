@@ -9,6 +9,7 @@ categorySlug: "seo"
 subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3177
+glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-evergreen-content/"
 toc: true
 readingTime: "9 min read"

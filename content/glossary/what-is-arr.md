@@ -9,6 +9,7 @@ categorySlug: "marketing-ops"
 subcategorySlug: "revops"
 writtenBy: "praveen"
 wp_id: 3266
+glossaryCategory: "SaaS Metrics & Growth"
 wp_link: "/glossary/what-is-arr/"
 toc: true
 readingTime: "8 min read"

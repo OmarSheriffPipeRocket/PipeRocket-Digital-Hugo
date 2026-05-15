@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "icp-targeting"
 writtenBy: "vishnu-prasad"
 wp_id: 3554
+glossaryCategory: "Social & Brand"
 wp_link: "/glossary/what-is-employer-branding/"
 toc: true
 readingTime: "9 min read"

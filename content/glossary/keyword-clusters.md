@@ -10,6 +10,7 @@ categorySlug: "seo"
 subcategorySlug: "on-page"
 writtenBy: "kamaraj"
 wp_id: 3037
+glossaryCategory: "SEO"
 wp_link: "/glossary/keyword-clusters/"
 toc: true
 readingTime: "10 min read"

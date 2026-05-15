@@ -9,6 +9,7 @@ categorySlug: "saas-marketing"
 subcategorySlug: "attribution"
 writtenBy: "praveen"
 wp_id: 3213
+glossaryCategory: "PPC & Paid Advertising"
 wp_link: "/glossary/what-is-ctr/"
 toc: true
 readingTime: "10 min read"

@@ -10,6 +10,7 @@ categorySlug: "paid"
 subcategorySlug: "google-ads"
 writtenBy: "praveen"
 wp_id: 3262
+glossaryCategory: "Demand Generation"
 wp_link: "/glossary/what-is-performance-marketing/"
 toc: true
 readingTime: "11 min read"

@@ -9,6 +9,7 @@ categorySlug: "marketing-ops"
 subcategorySlug: "lifecycle"
 writtenBy: "ranjeeth"
 wp_id: 3535
+glossaryCategory: "SaaS Metrics & Growth"
 wp_link: "/glossary/what-is-sal-in-saas/"
 toc: true
 readingTime: "9 min read"
