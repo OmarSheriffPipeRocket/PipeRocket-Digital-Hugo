@@ -46,7 +46,7 @@ expertise = ["LinkedIn Ads", "Google Ads", "B2B paid attribution"]
 [rohith]
 name = "Rohith Sharma"
 role = "Senior SEO Specialist, PipeRocket Digital"
-photo = "/images/authors/rohith.jpg"
+photo = "/images/authors/rohith.png"
 linkedin = "https://in.linkedin.com/in/sabarirohith"
 bio = "Senior SEO Specialist at PipeRocket Digital. Builds data-driven organic search strategies for B2B SaaS. Previously SEO at Kovai.co."
 expertise = ["B2B SaaS SEO", "Organic search strategy", "Technical SEO"]
