@@ -46,7 +46,7 @@ expertise = ["LinkedIn Ads", "Google Ads", "B2B paid attribution"]
 [rohith]
 name = "Rohith Sharma"
 role = "Growth Writer"
-photo = "https://ui-avatars.com/api/?name=Rohith+Sharma&size=256&background=0d0d0d&color=fff&font-size=0.4&bold=true"
+photo = "/images/authors/rohith.jpg"
 linkedin = "https://in.linkedin.com/in/sabarirohith"
 bio = "Writes about full-funnel SaaS growth. Former in-house marketer at two Series B SaaS companies."
 expertise = ["Demand generation", "Lifecycle nurture", "MOFU content"]
