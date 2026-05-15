@@ -5,7 +5,7 @@ meta_title: "How to Group Keywords for SaaS SEO"
 meta_description: "A keyword cluster is a group of related keywords targeting one topic. Learn why they matter, how to build them, and the real trade-offs for SaaS SEO strategy."
 date: 2026-04-10
 lastmod: 2026-05-14
-slug: "glossary-keyword-clusters"
+slug: "what-are-keyword-clusters"
 categorySlug: "seo"
 writtenBy: "kamaraj"
 wp_id: 3037
