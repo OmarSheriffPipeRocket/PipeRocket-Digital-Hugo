@@ -788,6 +788,18 @@ const wrapArticleTables = () => {
     wrapper.className = 'pr-table-scroll';
     table.parentNode.insertBefore(wrapper, table);
     wrapper.appendChild(table);
+
+    // Remove thead rows where every th is empty (WP export artefact)
+    const thead = table.querySelector('thead');
+    if (thead) {
+      thead.querySelectorAll('tr').forEach((tr) => {
+        const cells = tr.querySelectorAll('th');
+        if (cells.length && Array.from(cells).every((th) => !th.textContent.trim())) {
+          tr.remove();
+        }
+      });
+      if (!thead.querySelector('tr')) thead.remove();
+    }
   });
 };
 

@@ -3,7 +3,7 @@
 <!-- ====================================================
      HERO
      ==================================================== -->
-<section class="pr-hero pr-hero--seo">
+<section class="pr-hero pr-hero--ppc">
   <div class="pr-container">
     <div class="pr-hero__grid">
       <div class="pr-hero__text">
@@ -15,80 +15,20 @@
           <p>Most ABM agencies sell you a CRM list and a LinkedIn ad set. PipeRocket&rsquo;s account-based marketing services run as a full system — sales-curated account lists, multi-touch sequences across LinkedIn / paid / outbound / content, and one outcome we measure: meetings booked with named accounts, not impressions served.</p>
         </div>
 
-        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
-
-        {{/* SEO page = any Clutch review tagged with "SaaS SEO" (mixed services OK) */}}
-        {{ $clutchSeo := where (where .Site.Data.reviews.reviews "source" "Clutch") "services" "intersect" (slice "SaaS SEO") }}
-        {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
-        <div class="pr-clutch-accordion pr-clutch-accordion--inline" id="clutchReviewsSeo">
-          <button class="pr-clutch-accordion__head pr-clutch-accordion__head--simple" type="button" data-clutch-accordion-toggle aria-expanded="true" aria-controls="clutchAccordionPanelSeo">
-            <img src="/images/logos/clutch.svg" alt="Clutch" class="pr-clutch-accordion__logo">
-            <span class="pr-clutch-accordion__rating-simple">
-              <strong>{{ $clutchSource.rating }}</strong>
-              <span class="pr-clutch-accordion__stars" aria-hidden="true">★★★★★</span>
-            </span>
-            <span class="pr-clutch-accordion__caret" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </span>
-          </button>
-        </div>
-      </div>
-      <div class="pr-hero__collage" aria-label="PipeRocket SaaS SEO — patience tested, answers delivered">
-        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock with Buyer first and BOFU first badges" loading="eager">
-      </div>
-    </div>
-
-    <!-- Carousel panel — full container width, open by default. -->
-    <div class="pr-clutch-accordion__panel pr-clutch-accordion__panel--full" id="clutchAccordionPanelSeo" data-clutch-accordion-panel>
-      <div class="pr-clutch-accordion__carousel-wrap">
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--prev" data-carousel-prev aria-label="Previous reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-        </button>
-
-        <div class="pr-clutch-accordion__track" data-carousel-track>
-          {{ range $clutchSeo }}
-            <article class="pr-clutch-card">
-              <header class="pr-clutch-card__head">
-                <span class="pr-clutch-card__rating-row" aria-label="Rated {{ .rating }} out of 5">
-                  {{ $r := .rating }}
-                  {{ range seq 5 }}
-                    {{ if le (float .) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--full">★</span>
-                    {{ else if le (sub (float .) 0.5) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--half">★</span>
-                    {{ else }}
-                      <span class="pr-clutch-card__star">★</span>
-                    {{ end }}
-                  {{ end }}
-                  <span class="pr-clutch-card__rating-value">{{ .rating }}</span>
-                </span>
-              </header>
-              <h3 class="pr-clutch-card__title">{{ .title }}</h3>
-              <blockquote class="pr-clutch-card__quote">"{{ .quote }}"</blockquote>
-              <footer class="pr-clutch-card__footer">
-                <strong>{{ .reviewer_name }}</strong>
-                <span>{{ .reviewer_role }}{{ if .company }} · {{ .company }}{{ end }}</span>
-                {{ with .review_url }}
-                  <a class="pr-clutch-card__link" href="{{ . }}" target="_blank" rel="noopener">Read on Clutch ↗</a>
-                {{ end }}
-              </footer>
-            </article>
-          {{ end }}
+        <div class="pr-hero-ppc__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-ppc__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.png" alt="Clutch" class="pr-hero-ppc__rating-logo">
         </div>
 
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--next" data-carousel-next aria-label="Next reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
-        </button>
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
       </div>
-
-      <div class="pr-clutch-accordion__footer">
-        <a href="/reviews/" class="pr-clutch-accordion__view-all">See all reviews →</a>
+      <div class="pr-hero__collage pr-hero__collage--ppc" aria-label="PipeRocket ABM — account-based marketing that earns meetings with named accounts">
+        <img class="pr-hero-ppc__sales"  src="/images/hero-ppc/sales-alignment.svg"  alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-ppc__funnel" src="/images/hero-ppc/full-funnel.svg"       alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-ppc__intent" src="/images/hero-ppc/intent-capture.svg"    alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-ppc__man"    src="/images/hero-ppc/man-ppc.webp"          alt="Vintage figure representing ABM pipeline growth" loading="eager" decoding="async">
       </div>
     </div>
-
-    {{ partial "clutch-reviews-schema.html" (dict "reviews" $clutchSeo "rating" $clutchSource.rating "count" (len $clutchSeo)) }}
   </div>
 </section>
 
@@ -98,42 +38,90 @@
 {{ partial "logo-marquee.html" . }}
 
 <!-- ====================================================
-     HOW WE TURN SEARCH INTENT INTO PIPELINE
+     HOW WE TURN AN ACCOUNT LIST INTO PIPELINE
      ==================================================== -->
-<section class="pr-section">
+<section class="pr-section pr-pipeline-flow">
+
+  <span class="pr-pipeline-flow__deco pr-pipeline-flow__deco--frame-t" aria-hidden="true"></span>
+
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
-      <h2>How we turn an account list into pipeline</h2>
-    </div>
-    <div class="pr-principles">
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
-        </div>
-        <h3>Sales builds the list</h3>
-        <p>Most ABM starts in marketing. We start with sales — which accounts they want, why, who the buying committee is, and which competitors they keep losing to. The target account list is co-built, not handed over.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
-        </div>
-        <h3>Multi-channel, one message</h3>
-        <p>LinkedIn ads, outbound, paid display, custom content — every touch your buying committee sees reinforces one position, in one voice. Not three campaigns saying three different things to the same VP.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="9"/></svg>
-        </div>
-        <h3>Account intent, not lead intent</h3>
-        <p>We track signal at the account level — multiple stakeholders engaging, intent data spiking, key pages visited. A "lead" from a target account is treated differently from a random demo request, because it should be.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-        </div>
-        <h3>Meetings over impressions</h3>
-        <p>Every monthly ABM review centres on meetings booked with named accounts, pipeline created from the target list, and account engagement velocity — not impressions served or LinkedIn cost-per-click.</p>
-      </article>
+
+    <span class="pr-pipeline-flow__deco pr-pipeline-flow__deco--frame-r" aria-hidden="true"></span>
+
+    <header class="pr-pipeline-flow__header">
+      <h2 class="pr-pipeline-flow__title">How we turn an account list into pipeline</h2>
+      <p class="pr-pipeline-flow__lede">We start with sales, not marketing. Every touch your buying committee sees is coordinated. Every monthly review centres on meetings booked, not impressions served.</p>
+    </header>
+
+    <div class="pr-pipeline-flow__grid" data-principles>
+
+      <div class="pr-principles__line" aria-hidden="true">
+        <div class="pr-principles__line-bg"></div>
+        <div class="pr-principles__line-fill" data-line-fill></div>
+        <img class="pr-principles__arrow" src="/images/principles/pr-arrow.svg" alt="" data-principles-arrow>
+      </div>
+
+      <div class="pr-pipeline-flow__runner">
+        <img class="pr-pipeline-flow__speed" src="/images/man-speed-vector.svg" alt="" aria-hidden="true">
+        <img src="/images/runner-businessman.png" alt="Running businessman with briefcase — turning target accounts into pipeline" onerror="this.style.display='none'">
+      </div>
+
+      <div class="pr-pipeline-flow__col pr-pipeline-flow__col--left">
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/know-who-buys.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Sales builds the list</h3>
+          <p>Most ABM starts in marketing. We start with sales — which accounts they want, why, who the buying committee is, and which competitors they keep losing to. The target account list is co-built, not handed over.</p>
+        </article>
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/speak-to-the-moment.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Multi-channel, one message</h3>
+          <p>LinkedIn ads, outbound, paid display, custom content — every touch your buying committee sees reinforces one position, in one voice. Not three campaigns saying three different things to the same VP.</p>
+        </article>
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/sales-in-the-loop.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Account intent, not lead intent</h3>
+          <p>We track signal at the account level — multiple stakeholders engaging, intent data spiking, key pages visited. A "lead" from a target account is treated differently from a random demo request, because it should be.</p>
+        </article>
+
+      </div>
+
+      <div class="pr-pipeline-flow__col pr-pipeline-flow__col--right">
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/go-where-intent-is.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Meetings over impressions</h3>
+          <p>Every monthly ABM review centres on meetings booked with named accounts, pipeline created from the target list, and account engagement velocity — not impressions served or LinkedIn cost-per-click.</p>
+        </article>
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/follow-the-pipeline.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Sales SLA on every hot account</h3>
+          <p>Account engagement triggers wire to instant sales handoff. Defined SLA. When a target account heats up, sales gets a call within hours, not days. No more qualified accounts sitting in queue while interest cools.</p>
+        </article>
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/spend-on-what-works.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Spend matches deal value</h3>
+          <p>Tier 1 accounts get bespoke creative, landing pages, and outbound. Tier 2 gets segment-level orchestration. Tier 3 gets paid and content. ABM works on focus — small lists with deep, multi-channel touches almost always beat broad lists with shallow ones.</p>
+        </article>
+
+      </div>
+
     </div>
   </div>
 </section>
@@ -141,119 +129,86 @@
 <!-- ====================================================
      WORKING WITH PIPEROCKET — VINTAGE TV
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight" style="padding-bottom: 100px;">
   <div class="pr-container pr-center">
     <h2>Working With PipeRocket</h2>
-    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — Cindy Dubon, Director of Growth Marketing at Goldcast, on her vintage TV testimonial" class="pr-working-tv">
+    {{ partial "working-tv.html" . }}
   </div>
 </section>
 
 <!-- ====================================================
-     WHY SAAS TEAMS CHOOSE PIPEROCKET FOR SEO — DARK COMPARISON TABLE
+     WHY SAAS TEAMS CHOOSE PIPEROCKET AS THEIR ABM AGENCY — DARK COMPARISON TABLE
      ==================================================== -->
-<section class="pr-section pr-section--dark">
+<section class="pr-section pr-section--dark pr-compare--ppc">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
-      <h2 style="color: var(--pr-cream);">Why SaaS teams choose PipeRocket as their ABM agency</h2>
-      <p style="color: rgba(244,241,232,0.7);">Every agency promises ABM. The gap is whether they can co-build the list with sales, run multi-channel orchestrated touches, and report by named-account pipeline — not by LinkedIn impressions.</p>
+    <div class="pr-center pr-compare--ppc__header">
+      <h2>Why SaaS teams choose PipeRocket as their ABM agency</h2>
+      <p>Every agency promises ABM. The gap is whether they can co-build the list with sales, run multi-channel orchestrated touches, and report by named-account pipeline — not by LinkedIn impressions.</p>
     </div>
+    <img src="/images/compare-blue-vector.svg" class="pr-compare--ppc__blue-vec" aria-hidden="true">
+    <div class="pr-compare--ppc__table-wrap">
     <div class="pr-compare-table">
       <div class="pr-compare-table__row pr-compare-table__row--head">
         <div>In house</div>
         <div>Other agencies</div>
         <div class="pr-compare-table__pr">
-          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
-          </svg>
-          PipeRocket
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-compare-table__pr-logo">
         </div>
       </div>
       <div class="pr-compare-table__row">
         <div>Account list is built from a CRM export. Sales never co-signs it. Half the targets aren&rsquo;t the right fit; sales rejects most engaged leads.</div>
         <div>The agency uses your CRM list as-is. No discovery with sales, no win/loss review. The same generic list every other ABM agency would build.</div>
-        <div>Account list is co-built with sales — win/loss patterns, current pipeline, competitive context. Every target is one sales actually wants and is willing to work.</div>
+        <div><p>Account list is co-built with sales — win/loss patterns, current pipeline, competitive context.</p><p>Every target is one sales actually wants and is willing to work.</p></div>
       </div>
       <div class="pr-compare-table__row">
         <div>LinkedIn ads run alongside outbound, but the two never reference each other. Buyers see disconnected messages from the same company.</div>
         <div>Each channel runs as an island — paid, outbound, content. No orchestration. No single buyer experience. Touches feel random instead of coordinated.</div>
-        <div>LinkedIn → outbound → paid retargeting → custom landing page → SDR follow-up. Every touch reinforces the others. Buyers feel one coordinated programme, not five.</div>
+        <div><p>LinkedIn → outbound → paid retargeting → custom landing page → SDR follow-up.</p><p>Every touch reinforces the others. Buyers feel one coordinated programme, not five.</p></div>
       </div>
       <div class="pr-compare-table__row">
         <div>Reports show MQLs and impressions. Pipeline created from the named account list lives in a separate dashboard nobody reconciles.</div>
         <div>Reports show LinkedIn CTR and "engaged accounts". Pipeline contribution from the target list never gets isolated from generic inbound.</div>
-        <div>Reports centre on account engagement velocity, meetings booked with named accounts, and pipeline contribution from the target list — board-grade ABM ROI.</div>
+        <div><p>Reports centre on account engagement velocity, meetings booked with named accounts, and pipeline contribution from the target list.</p><p>Board-grade ABM ROI.</p></div>
       </div>
       <div class="pr-compare-table__row">
         <div>Marketing-qualified accounts sit in a queue while interest cools. Sales handoff is manual, slow, and inconsistent.</div>
         <div>Lead-routing rules trigger on individual leads, not account heat. Buyers move through the funnel without sales noticing the account is hot.</div>
-        <div>Account-level engagement triggers wire to instant sales handoff. Defined SLA. When a target account heats up, sales gets a call within hours, not days.</div>
+        <div><p>Account-level engagement triggers wire to instant sales handoff. Defined SLA.</p><p>When a target account heats up, sales gets a call within hours, not days.</p></div>
       </div>
+    </div>
+    <img src="/images/compare-red-vector.svg" class="pr-compare--ppc__red-vec" aria-hidden="true" data-compare-red-vec>
+    <img src="/images/seo-table-rocket.svg" class="pr-compare--ppc__rocket" aria-hidden="true" data-compare-rocket>
+    </div>
+    <div class="pr-compare--ppc__cta">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-middle">{{ .Site.Params.secondary_cta_text }}</a>
     </div>
   </div>
 </section>
 
 <!-- ====================================================
-     TESTIMONIALS — 3 CARDS (SEO-SPECIFIC)
+     NUMBERS THAT MATTER — STATS
      ==================================================== -->
-<section class="pr-section--tight">
-  <div class="pr-container">
-    <div class="pr-center"><h2>We helped Grow 50+ SaaS Brands Like Yours</h2></div>
-    <div class="pr-testimonials">
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to lock our performance marketing efforts. Their experience, actionable strategies brought a 5X high-quality MQLs in just 2 months. Specifically, the team's research-based fine-tuning campaigns across regions not only gives our leads but also saves us costs.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-090_alpha.png" alt="Naveen">
-          <div>
-            <div class="pr-testimonial__name">Naveen</div>
-            <div class="pr-testimonial__role">Head of Marketing</div>
-            <div class="pr-testimonial__company">HyperVerge</div>
-          </div>
+<section class="pr-stat-band pr-stat-band--ppc">
+  <div class="pr-container pr-center">
+    <h2 class="pr-stat-band__heading">Numbers that matter</h2>
+    <div class="pr-stat-band__row">
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band-ppc__label">NAMED<span class="pr-hide-tiny"> ACCOUNTS</span></div>
         </div>
-      </article>
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">Working alongside PipeRocket has been a remarkable experience for Storylane. We have come to deeply rely on them to count on us in our scaled stack. Their comprehensive analysis, strategic initiatives, end-to-end campaign optimisation, lending engagement implementation and targeted remarketing delivered remarkable results for us.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-094_alpha.png" alt="Nalin">
-          <div>
-            <div class="pr-testimonial__name">Nalin</div>
-            <div class="pr-testimonial__role">CEO</div>
-            <div class="pr-testimonial__company">storylane</div>
-          </div>
-        </div>
-      </article>
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">They worked closely with us and took ownership that our in-house team. The team has run 10 experiments to identify what was working and translated two new geographies for the ads. Moreover, they treat content like an asset and react closer to a calendar as the problem it is.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-098_alpha.png" alt="Anusha">
-          <div>
-            <div class="pr-testimonial__name">Anusha</div>
-            <div class="pr-testimonial__role">Founding member</div>
-            <div class="pr-testimonial__company">HyperStart</div>
-          </div>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================
-     TRAFFIC ALONE IS NOT A SUCCESS METRIC — STATS
-     ==================================================== -->
-<section class="pr-section--tight">
-  <div class="pr-container">
-    <div class="pr-center"><h2>Traffic alone is not a success metric.</h2></div>
-    <div class="pr-stats pr-stats--3">
-      <div class="pr-stat">
-        <div class="pr-stat__num">$0.0M</div>
-        <div class="pr-stat__label">Spend Volume</div>
       </div>
-      <div class="pr-stat">
-        <div class="pr-stat__num">$0.0M</div>
-        <div class="pr-stat__label">Pipeline</div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-spend.webp" alt="Spend" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band-ppc__label">PIPELINE</div>
+        </div>
       </div>
-      <div class="pr-stat">
-        <div class="pr-stat__num">$0.0M</div>
-        <div class="pr-stat__label">Revenue</div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-traffic.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band-ppc__label">MEETINGS<span class="pr-hide-tiny"> BOOKED</span></div>
+        </div>
       </div>
     </div>
   </div>
@@ -262,156 +217,268 @@
 <!-- ====================================================
      EVERYONE TALKS ABOUT AI — ACCORDION
      ==================================================== -->
-<section class="pr-section">
+<section class="pr-section pr-section--ai pr-section--ai-ppc pr-section--ai-abm">
   <div class="pr-container">
     <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
       <h2>Everyone talks about AI.<br>We just use it where it matters.</h2>
     </div>
-    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: center;" class="pr-ai-grid">
-      <div>
-        <img src="/images/figma/raw-024_alpha.png" alt="AI in marketing" style="width: 100%; max-width: 560px;">
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img class="pr-ai-grid__layer is-active" data-image-key="/images/ai-accordion/research.webp" loading="eager" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in ABM">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/copy.webp" loading="eager" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/design.webp" loading="eager" decoding="async" src="/images/ai-accordion/design.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/optimisation.webp" loading="eager" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/analysis.webp" loading="eager" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
       </div>
-      <div class="pr-accordion">
-        <details class="pr-accordion__item" open>
+      <div class="pr-accordion" data-ai-accordion>
+        <details class="pr-accordion__item" open data-image="/images/ai-accordion/research.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
+              <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
               Research
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI surfaces ICP signals, competitor activity, and audience intent data before a single page is briefed. Which queries are in-market, which content angles move them, and what pipeline opportunities are hiding in plain sight stays with the team.</div>
+          <div class="pr-accordion__body">AI surfaces ICP signals, buying committee structures, and intent data across target accounts before a single outreach goes out. Which accounts are actively in-market, which stakeholders are engaging, and what pain points to lead with stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/copy.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
-              Content
+              <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Copy &amp; Personalisation
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI generates first drafts, brief variants, and outline angles across audiences and intent. Which voice fits the ICP, which framing converts, and whether the prose sounds like a real practitioner or an agency template stays with the team.</div>
+          <div class="pr-accordion__body">AI generates personalised ad copy, email sequences, and landing page variants per account tier and stakeholder role. Which angle matches the economic buyer, which message moves the technical evaluator, and whether the copy sounds like it came from someone who understands their problem stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/design.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-              Optimisation
+              <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Account Creative
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI flags pages losing rankings, content gaps surfacing in AI overviews, and topics where competitors compound faster. What to refresh, what to consolidate, and where to invest next stays with the team.</div>
+          <div class="pr-accordion__body">AI produces creative variants per tier, stakeholder, and industry so Tier 1 accounts see genuinely account-aware creative — not a generic LinkedIn ad with the company name swapped in. Which creative earns trust in three seconds stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/optimisation.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2 6 14l3 3-12 12"/><path d="m18 6 4 4"/></svg>
-              Design
+              <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Intent &amp; Scoring
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI produces UI variants and page-design hypotheses. Which layout converts, where to place the CTA, and whether the page earns trust in the first three seconds stays with the team.</div>
+          <div class="pr-accordion__body">AI monitors account-level signals across ad engagement, page visits, intent data spikes, and stakeholder reach to flag accounts heating up before sales notices. What to act on, which accounts to escalate, and when a signal means "book the meeting now" stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/analysis.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+              <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
               Analysis
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI connects organic touchpoints to pipeline and revenue across channels, surfacing CAC, payback, and pipeline contribution faster than any manual model. What it means for strategy stays with the team.</div>
+          <div class="pr-accordion__body">AI connects ABM touchpoints to meetings booked, pipeline created, and deals closed across the named account list. What the data means for which accounts to add, tier, or remove — and how to present ABM ROI to the board — stays with the team.</div>
         </details>
       </div>
     </div>
   </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('.pr-section--ai-abm [data-ai-accordion]');
+      var media = document.querySelector('.pr-section--ai-abm .pr-ai-grid__media');
+      if(!acc || !media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      function lockHeight(){
+        var openStates = Array.prototype.map.call(items, function(it){ return it.open; });
+        var max = 0;
+        items.forEach(function(item){
+          items.forEach(function(other){ other.open = (other === item); });
+          var h = acc.scrollHeight;
+          if(h > max) max = h;
+        });
+        items.forEach(function(item, idx){ item.open = openStates[idx]; });
+        acc.style.minHeight = max + 'px';
+      }
+      if(document.readyState === 'complete') lockHeight();
+      else window.addEventListener('load', lockHeight);
+
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var src = item.getAttribute('data-image');
+          if(!src) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === src);
+          });
+        });
+      });
+    })();
+  </script>
 </section>
-<style>
-  @media (min-width: 1024px) {
-    .pr-ai-grid { grid-template-columns: 0.9fr 1.1fr !important; gap: var(--pr-s-9) !important; }
-  }
-</style>
 
 <!-- ====================================================
-     THE PIPEROCKET SEO APPROACH
+     TESTIMONIALS — 3 CARDS
      ==================================================== -->
-<section class="pr-section">
+<section class="pr-section--tight pr-section--social-proof pr-section--social-proof-ppc">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
-      <h2>Our ABM agency services</h2>
-      <p>Each phase builds on the last. The result is an account-based marketing programme sales actually wants — built around your real target accounts, not a templated playbook.</p>
-    </div>
-    <div class="pr-approach-grid">
-      <article class="pr-approach-grid__card">
-        <h3>Co-build the target list</h3>
-        <p>We sit with sales — not after, but at kickoff — to build the named-account list. Win/loss patterns, current pipeline, competitor activity, sales preference. The list belongs to sales as much as marketing.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Map the buying committee</h3>
-        <p>Per-account or per-tier mapping of who actually approves the deal — economic buyer, technical buyer, end user, blockers. The committee map drives copy, channel, and offer per stakeholder.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Tier the list, match the spend</h3>
-        <p>Tier 1 (1:1, 10–25 accounts) gets bespoke creative, landing pages, and outbound. Tier 2 (1:few, 100–200) gets segment-level orchestration. Tier 3 (1:many, broader ICP) gets paid + content. Spend matches deal value.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Account-aware creative &amp; pages</h3>
-        <p>LinkedIn ads, paid social, landing pages, and outbound emails all reference the account, the industry, and the stakeholder&rsquo;s actual problem — not generic SaaS copy. Buyers feel the difference; engagement rates do too.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Multi-touch orchestration</h3>
-        <p>LinkedIn → outbound email → paid retargeting → custom landing page → SDR call → executive intro. Each touch reinforces the others. No channel runs as an island; the buyer experiences one coordinated programme.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Sales SLA &amp; handoff</h3>
-        <p>Account engagement triggers ($X content viewed, Y stakeholders engaged, Z intent signal) are wired to instant sales handoff. SLA is measured. No more "marketing-qualified accounts" sitting in queue while interest cools.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Account engagement scoring</h3>
-        <p>Account-level scoring across signals — page views, stakeholder reach, ad engagement, intent data, sales touches. Replace "lead score" thinking with "is this account heating up across the committee?" thinking.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Report by account, not lead</h3>
-        <p>Monthly review centres on account engagement velocity, meetings booked with named accounts, pipeline created from the list, and CAC by deal cohort — not on impression or click counts that say nothing about whether a target account is closer to closing.</p>
-      </article>
-      <article class="pr-approach-grid__card pr-approach-grid__card--mark" aria-hidden="true"></article>
+    <div class="pr-center"><h2>We helped Grow 50+ SaaS Brands Like Yours</h2></div>
+
+    <div class="pr-testimonials__viewport">
+      <div class="pr-testimonials" data-testimonials-track>
+
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperverge.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to lock our performance marketing efforts. Their experience, actionable strategies brought a 5X high-quality MQLs in just 2 months. The team&rsquo;s research-based fine-tuning campaigns across regions not only grows our leads but also saves us costs.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-navien.png" alt="Naveen">
+            <div>
+              <div class="pr-testimonial__name">Naveen</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Working alongside PipeRocket has been a commendable experience for Storylane. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
+            <div>
+              <div class="pr-testimonial__name">Nalin</div>
+              <div class="pr-testimonial__role">CEO</div>
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperstart.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working and invalidated two new geographies for the ads. Moreover, PipeRocket Digital was responsive, open to feedback, and eager to meet the objectives.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-anusha.png" alt="Anusha">
+            <div>
+              <div class="pr-testimonial__name">Anusha</div>
+              <div class="pr-testimonial__role">Founding member</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperstart.png" alt="HyperStart" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ====================================================
-     CASE STUDIES
+     THE PIPEROCKET ABM APPROACH — DARK 6-CARD GRID
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section pr-section--dark pr-section--approach-ppc">
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-ppc__vec pr-approach-ppc__vec--blue-top">
+  <img src="/images/approach-ppc/approach-vector-blue.svg" alt="" aria-hidden="true" class="pr-approach-ppc__vec pr-approach-ppc__vec--blue">
+  <img src="/images/approach-ppc/approach-vector-red.svg" alt="" aria-hidden="true" class="pr-approach-ppc__vec pr-approach-ppc__vec--red">
+  <div class="pr-approach-ppc__container">
+    <div class="pr-approach-ppc__header">
+      <h2 class="pr-approach-ppc__heading">Our ABM Agency Services</h2>
+      <img loading="lazy" decoding="async" src="/images/seo-table-rocket.svg" alt="" class="pr-approach-ppc__rocket" aria-hidden="true" data-compare-rocket>
+      <p class="pr-approach-ppc__lede">Each phase builds on the last. The result is an account-based marketing programme sales actually wants — built around your real target accounts, not a templated playbook.</p>
+    </div>
+    <div class="pr-approach-ppc__grid">
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/discovery.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Co-build the target list</div>
+        <div class="pr-approach-ppc__copy"><p>We sit with sales — not after, but at kickoff — to build the named-account list.</p><p>Win/loss patterns, current pipeline, competitor activity, sales preference. The list belongs to sales as much as marketing.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/market.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Map the buying committee</div>
+        <div class="pr-approach-ppc__copy"><p>Per-account or per-tier mapping of who actually approves the deal — economic buyer, technical buyer, end user, blockers.</p><p>The committee map drives copy, channel, and offer per stakeholder.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/strategy.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Tier the list, match the spend</div>
+        <div class="pr-approach-ppc__copy"><p>Tier 1 (1:1, 10–25 accounts) gets bespoke creative, landing pages, and outbound. Tier 2 (1:few, 100–200) gets segment-level orchestration. Tier 3 (1:many) gets paid + content.</p><p>Spend matches deal value.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/execution.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Multi-touch orchestration</div>
+        <div class="pr-approach-ppc__copy"><p>LinkedIn → outbound email → paid retargeting → custom landing page → SDR call → executive intro.</p><p>Each touch reinforces the others. No channel runs as an island; the buyer experiences one coordinated programme.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/review.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Sales SLA &amp; Handoff</div>
+        <div class="pr-approach-ppc__copy"><p>Account engagement triggers (X content viewed, Y stakeholders engaged, Z intent signal) are wired to instant sales handoff. SLA is measured.</p><p>No more marketing-qualified accounts sitting in queue while interest cools.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/scale.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Report by account, not lead</div>
+        <div class="pr-approach-ppc__copy"><p>Monthly review centres on account engagement velocity, meetings booked with named accounts, pipeline created from the list, and CAC by deal cohort.</p><p>Not on impression or click counts that say nothing about whether a target account is closer to closing.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     SUCCESS STORIES
+     ==================================================== -->
+<section class="pr-section--tight pr-section--casestudies pr-section--casestudies-ppc">
   <div class="pr-container">
-    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-center"><h2>Success Stories</h2></div>
     <div class="pr-cases">
       <article class="pr-case">
-        <div class="pr-case__logo">storylane</div>
-        <p class="pr-case__copy">Driving 2.5X Growth and 82% More Demos: Storylane's Success with PipeRocket's Campaigns.</p>
-        <a href="/case-study-storylane/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Driving 2.5X Growth and 82% More Demos: Storylane&rsquo;s Success with PipeRocket&rsquo;s Campaigns.</p>
+          <a href="/case-study-storylane/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">DevRev</div>
-        <p class="pr-case__copy">Achieving 3.5XMQL Growth: HyperVerge's Case Study with PipeRocket.</p>
-        <a href="/case-study-devrev/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-devrev-cs.svg" alt="DevRev" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Achieving 3.5X MQL Growth: HyperVerge&rsquo;s Case Study with PipeRocket.</p>
+          <a href="/case-study-devrev/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">Spendflo</div>
-        <p class="pr-case__copy">From Stagnation to Domination: PipeRocket's Impact on Spendflo's 81% Traffic Rise.</p>
-        <a href="/case-study-spendflo/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">From Stagnation to Domination: PipeRocket&rsquo;s Impact on Spendflo&rsquo;s 81% Traffic Rise.</p>
+          <a href="/case-study-spendflo/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
     </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
-      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
+      <a href="/success-stories/" class="pr-btn pr-btn--ghost">View all success stories</a>
     </div>
   </div>
 </section>
-
-<!-- ====================================================
-     OUR TECH STACK
-     ==================================================== -->
-{{ partial "tech-stack.html" . }}
 
 <!-- ====================================================
      FAQ
@@ -462,12 +529,13 @@
 <!-- ====================================================
      FINAL CTA
      ==================================================== -->
-<section class="pr-cta-final">
+<section class="pr-cta-final pr-cta-final--ppc">
   <div class="pr-container">
-    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
-    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
-    <h2>You wouldn't be here if what you were doing was working.<br><span class="pr-italic">It's time for PipeRocket.</span></h2>
-    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2><span class="pr-cta-soft">You wouldn&rsquo;t be here if what you were doing was working.</span> <strong>It&rsquo;s time for PipeRocket.</strong></h2>
+    <p>We work with a small number of B2B SaaS companies at a time. If your named accounts aren&rsquo;t converting to pipeline, let&rsquo;s find out if we&rsquo;re the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="service-bottom">Book free consultation</a>
   </div>
 </section>
 

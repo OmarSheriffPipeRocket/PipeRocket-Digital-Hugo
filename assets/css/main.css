@@ -411,11 +411,15 @@ a.pr-btn--ghost:hover,
   color: #0BA6E2;
 }
 .pr-nav__caret {
-  width: 16px;
-  height: auto;
+  width: 22px;
+  height: 22px;
   opacity: 0.85;
-  margin-left: 6px;
+  margin-left: 2px;
   display: inline-block;
+  flex-shrink: 0;
+  background: url("/images/dropdown-arrow.svg") center / contain no-repeat;
+  font-size: 0;
+  color: transparent;
   transition: transform .15s, opacity .15s;
 }
 .pr-nav__item--mega:hover .pr-nav__caret,
@@ -522,8 +526,7 @@ a.pr-btn--ghost:hover,
   width: 100%;
   max-width: var(--pr-container);
   background: var(--pr-cream);
-  border: 1px solid var(--pr-line);
-  border-top: 2px solid var(--pr-cyan);
+  border: 1px solid #0D0D0D;
   box-shadow: 0 24px 48px rgba(13, 13, 13, 0.08);
   padding: var(--pr-s-6);
   display: grid;
@@ -532,6 +535,11 @@ a.pr-btn--ghost:hover,
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+  transition-delay: 0.08s;
+}
+.pr-nav__item--mega:first-child .pr-megamenu {
+  grid-template-columns: 1fr 1fr;
+  max-width: 860px;
   z-index: 60;
 }
 .pr-nav__item--mega:hover .pr-megamenu,
@@ -539,6 +547,7 @@ a.pr-btn--ghost:hover,
   opacity: 1;
   visibility: visible;
   transform: translate(-50%, 0);
+  transition-delay: 0s;
 }
 .pr-megamenu__col { display: flex; flex-direction: column; gap: var(--pr-s-2); }
 .pr-megamenu__heading {
@@ -553,42 +562,45 @@ a.pr-btn--ghost:hover,
   border-bottom: 1px solid var(--pr-line);
 }
 .pr-megamenu__link {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  padding: var(--pr-s-3) var(--pr-s-3);
+  padding: var(--pr-s-3) 3rem var(--pr-s-3) var(--pr-s-3);
   margin: 0 calc(var(--pr-s-3) * -1);
-  border-radius: 2px;
-  transition: background 0.15s, transform 0.15s;
+  border-radius: 0;
+  transition: background 0.15s;
+}
+.pr-megamenu__link::after {
+  content: "";
+  position: absolute;
+  right: var(--pr-s-3);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  background: url("/images/dropdown-right-arrow.svg") center / contain no-repeat;
+  opacity: 0;
+  transition: opacity 0.15s;
 }
 .pr-megamenu__link strong {
-  font-family: var(--pr-sans);
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 1rem;
   color: var(--pr-ink);
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-.pr-megamenu__link strong::after {
-  content: "→";
-  font-weight: 400;
-  color: var(--pr-cyan);
-  opacity: 0;
-  transform: translateX(-4px);
-  transition: opacity 0.15s, transform 0.15s;
 }
 .pr-megamenu__link span {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-size: 0.85rem;
   color: var(--pr-ink-2);
   line-height: 1.45;
 }
 .pr-megamenu__link:hover {
-  background: var(--pr-cream-2);
+  background: rgba(130, 198, 221, 0.23);
 }
-.pr-megamenu__link:hover strong::after {
+.pr-megamenu__link:hover::after {
   opacity: 1;
-  transform: translateX(0);
 }
 /* Featured callout column */
 .pr-megamenu__col--feature .pr-megamenu__heading { border-bottom-color: var(--pr-cyan); }
@@ -597,7 +609,7 @@ a.pr-btn--ghost:hover,
   flex-direction: column;
   gap: var(--pr-s-2);
   background: var(--pr-cream-2);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   padding: var(--pr-s-5);
   transition: transform 0.15s, background 0.15s;
 }
@@ -646,7 +658,7 @@ a.pr-btn--ghost:hover,
   flex-direction: column;
   gap: var(--pr-s-2);
   background: var(--pr-cream-2);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   padding: var(--pr-s-5);
   transition: transform 0.15s, background 0.15s;
 }
@@ -1072,7 +1084,7 @@ a.pr-hero__cta:hover,
   max-width: 760px;
   width: 44%;
   right: 80px;
-  bottom: -35px;
+  top: -10px;
 }
 .pr-hero-ppc__sales,
 .pr-hero-ppc__funnel,
@@ -4731,28 +4743,32 @@ a.pr-hero__cta:hover,
    so the callout reads as a subtle highlight, not a coloured banner. */
 .pr-glossary__body > p:first-child {
   position: relative;
-  margin: var(--pr-s-3) 0 var(--pr-s-7) !important;
-  padding: var(--pr-s-4) var(--pr-s-5) !important;
-  background: var(--pr-cream-2);   /* #E8E4DA — same fill as Knowledge Hub sidebar card */
-  border-left: 4px solid var(--pr-cyan);
-  border-radius: 4px;
+  margin: 0 0 var(--pr-s-7) !important;
+  padding: var(--pr-s-5) !important;
+  background: var(--pr-cream-2);
+  border: 1px solid #111;
+  border-radius: 8px;
+  overflow: hidden;
   font-family: var(--pr-serif);
   font-size: 1.1rem !important;
   font-weight: 400;
   line-height: 1.6 !important;
   color: var(--pr-ink) !important;
+  display: flex;
+  flex-direction: column;
 }
 .pr-glossary__body > p:first-child::before {
   content: "Definition";
   display: block;
-  margin-bottom: 6px;
-  font-family: var(--pr-sans);
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--pr-cyan);
-  opacity: 0.95;
+  margin: calc(-1 * var(--pr-s-5)) calc(-1 * var(--pr-s-5)) var(--pr-s-4);
+  padding: 20px var(--pr-s-5) 16px;
+  font-family: "IvyPresto Headline", Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #000;
+  border-bottom: 1px solid #111;
 }
 @media (max-width: 640px) {
   .pr-glossary__body > p:first-child {
@@ -4988,7 +5004,7 @@ a.pr-hero__cta:hover,
   margin: var(--pr-s-6) 0;
   padding: var(--pr-s-5) var(--pr-s-6) var(--pr-s-4) calc(var(--pr-s-7) + 6px);
   background: var(--pr-cream-2);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   border-radius: 4px;
   font-family: var(--pr-serif);
   font-size: 1.15rem;
@@ -5023,6 +5039,40 @@ a.pr-hero__cta:hover,
 .pr-listicle__body blockquote p + p,
 .pr-alt__body blockquote p + p,
 .pr-compare__body blockquote p + p { margin-top: var(--pr-s-3); }
+/* Glossary body — match blog-v2 typography exactly */
+.pr-glossary__body p {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.75 !important;
+  color: #111 !important;
+}
+.pr-glossary__body h2 {
+  font-size: 34px !important;
+  font-family: "IvyPresto Headline", Georgia, serif !important;
+}
+.pr-glossary__body h3 {
+  font-size: 28px !important;
+  font-family: "IvyPresto Headline", Georgia, serif !important;
+}
+.pr-glossary__body ul,
+.pr-glossary__body ol {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.75 !important;
+  color: #111 !important;
+}
+.pr-glossary__body blockquote {
+  border-left: 3px solid #0ba6e2 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  margin: 24px 0 !important;
+  padding: 4px 0 4px 20px !important;
+  font-style: italic !important;
+  color: #444 !important;
+  font-size: 16px !important;
+}
+.pr-glossary__body blockquote::before { display: none !important; }
+
 .pr-blog__body a,
 .pr-blog-v2__main a,
 .pr-glossary__body a,
@@ -5492,7 +5542,9 @@ main table a,
   background: var(--pr-cream-2);
   padding: var(--pr-s-5);
   margin-bottom: var(--pr-s-5);
-  border-left: 3px solid var(--pr-cyan);
+  border: 1px solid #111;
+  border-radius: 8px;
+  overflow: hidden;
 }
 .pr-article-rail__card:last-child { margin-bottom: 0; }
 .pr-article-rail__heading {
@@ -5583,7 +5635,7 @@ main table a,
 .pr-article-rail__cta {
   background: var(--pr-cream);
   border: 1px solid var(--pr-line);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   display: flex;
   flex-direction: column;
   gap: var(--pr-s-3);
@@ -5910,7 +5962,7 @@ main table a,
 }
 .pr-author-page__expertise {
   background: var(--pr-cream-2);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   padding: var(--pr-s-5) var(--pr-s-6);
   margin-bottom: var(--pr-s-7);
   max-width: 720px;
@@ -6163,7 +6215,7 @@ main table a,
 .pr-listicle__method {
   background: var(--pr-cream-2);
   padding: var(--pr-s-6);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   margin-bottom: var(--pr-s-7);
 }
 .pr-listicle__method h2 { font-size: 1.5rem; margin-bottom: var(--pr-s-4); }
@@ -6381,7 +6433,7 @@ main table a,
   width: 280px;
   background: var(--pr-cream);
   border: 1px solid var(--pr-line);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   padding: var(--pr-s-5);
   box-shadow: 0 16px 40px rgba(13, 13, 13, 0.12);
   z-index: 80;
@@ -6592,7 +6644,7 @@ main table a,
 .pr-vs__tldr {
   background: var(--pr-cream-2);
   padding: var(--pr-s-6);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   margin-bottom: var(--pr-s-7);
 }
 .pr-vs__tldr h2 { font-size: 1.5rem; margin-bottom: var(--pr-s-4); }
@@ -6634,7 +6686,7 @@ main table a,
 .pr-glossary__definition {
   background: var(--pr-cream-2);
   padding: var(--pr-s-5) var(--pr-s-6);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   margin-bottom: var(--pr-s-5);
 }
 .pr-glossary__definition .pr-eyebrow { margin-bottom: var(--pr-s-2); }
@@ -6698,12 +6750,60 @@ main table a,
 .pr-glossary__cta {
   background: var(--pr-cream);
   border: 1px solid var(--pr-line);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
 }
 .pr-glossary__cta p { font-size: 0.95rem; line-height: 1.55; margin-bottom: var(--pr-s-4); color: var(--pr-ink-2); }
 .pr-glossary__cta .pr-btn { width: 100%; }
 
 /* .pr-glossary-index__grid / __card — replaced by unified .pr-bloglist__grid / __card */
+
+/* Hide Popular reads in glossary right rail */
+.pr-glossary .pr-article-rail--right .pr-article-rail__card:not(.pr-author-card) { display: none; }
+
+/* Shared sidebar CTA card — used by blog-v2 and glossary */
+.pr-blog-v2__cta {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 28px 24px;
+}
+.pr-blog-v2__cta-h {
+  font-family: "IvyPresto Headline", Georgia, serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.pr-blog-v2__cta-d {
+  font-family: "Helvetica Light", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+.pr-blog-v2__cta-btn {
+  display: block;
+  text-align: center;
+  background: #0ba6e2;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: background 0.15s;
+}
+.pr-blog-v2__cta-btn:hover { background: #0993c9; }
+
+/* Shared sticky sidebar rail — used by blog-v2 and glossary */
+.pr-blog-v2__rail {
+  position: sticky;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 
 /* Glossary knowledge-hub left rail — matches blog/listicle TOC design */
 .pr-knowledge-hub {
@@ -6971,7 +7071,7 @@ main table a,
   gap: 4px;
   padding: var(--pr-s-4) var(--pr-s-5);
   background: var(--pr-cream-2);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   border-bottom: none;
   text-decoration: none;
   transition: transform 0.15s, background 0.15s;
@@ -7212,7 +7312,7 @@ main table a,
   margin: var(--pr-s-3) 0 var(--pr-s-5);
   padding: var(--pr-s-4) var(--pr-s-5) var(--pr-s-4) calc(var(--pr-s-7) + 2px);
   background: var(--pr-cyan-soft, #E8F7FE);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 500;
@@ -7301,8 +7401,7 @@ main table a,
   gap: 10px;
   margin: var(--pr-s-4) 0;
   padding: var(--pr-s-3) var(--pr-s-5);
-  background: var(--pr-cyan-soft, #E8F7FE);
-  border-left: 3px solid var(--pr-cyan);
+  background: #D7E9EC;
   border-radius: 4px;
   font-size: 0.95rem;
   line-height: 1.5;
@@ -7324,10 +7423,11 @@ main table a,
 .pr-also-read a {
   color: var(--pr-ink);
   font-weight: 600;
-  border-bottom: 1.5px solid var(--pr-cyan);
+  border-bottom: none;
 }
 .pr-also-read a:hover {
-  background: rgba(12, 198, 241, 0.18);
+  background: none;
+  text-decoration: underline;
 }
 
 /* =================================================================
@@ -9909,7 +10009,7 @@ body.pr-modal-open { overflow: hidden; }
 }
 .pr-compare__callout {
   background: var(--pr-cream-2);
-  border-left: 4px solid var(--pr-cyan);
+  border-left: none;
   padding: var(--pr-s-5);
 }
 .pr-compare__callout-label {

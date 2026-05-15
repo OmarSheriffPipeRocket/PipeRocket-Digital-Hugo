@@ -3,7 +3,7 @@
 <!-- ====================================================
      HERO
      ==================================================== -->
-<section class="pr-hero pr-hero--seo">
+<section class="pr-hero pr-hero--ppc">
   <div class="pr-container">
     <div class="pr-hero__grid">
       <div class="pr-hero__text">
@@ -12,17 +12,21 @@
           <span class="pr-hero__title-strong">That loop is a marketing ops failure, not a campaign failure.</span>
         </h1>
         <div class="pr-hero__copy">
-          <p>If your monthly pipeline report takes three days to compile, your sales team rejects half your MQLs, and your last-click attribution gives Google Ads credit for every closed-won deal - the bottleneck is your operations layer, not your demand gen. We rebuild the data, lifecycle, attribution, and routing underneath your stack so every dollar your team spends is measurable, defensible, and tied to revenue.</p>
+          <p>If your monthly pipeline report takes three days to compile, your sales team rejects half your MQLs, and your last-click attribution gives Google Ads credit for every closed-won deal — the bottleneck is your operations layer, not your demand gen. We rebuild the data, lifecycle, attribution, and routing underneath your stack so every dollar your team spends is measurable, defensible, and tied to revenue.</p>
         </div>
-        <div class="pr-clutch">
-          <strong class="pr-clutch__rating">5.0</strong>
-          <span class="pr-clutch__stars">★★★★★</span>
-          <img src="/images/logos/clutch.svg" alt="Clutch" class="pr-clutch__brand-img">
+
+        <div class="pr-hero-ppc__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-ppc__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.png" alt="Clutch" class="pr-hero-ppc__rating-logo">
         </div>
-        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
       </div>
-      <div class="pr-hero__collage" aria-label="PipeRocket marketing operations - infrastructure for B2B SaaS revenue">
-        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure with revenue ops dashboard - attribution and lifecycle badges" loading="eager">
+      <div class="pr-hero__collage pr-hero__collage--ppc" aria-label="PipeRocket Marketing Operations — attribution, lifecycle, and routing rebuilt for revenue">
+        <img class="pr-hero-ppc__sales"  src="/images/hero-ppc/sales-alignment.svg"  alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-ppc__funnel" src="/images/hero-ppc/full-funnel.svg"       alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-ppc__intent" src="/images/hero-ppc/intent-capture.svg"    alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-ppc__man"    src="/images/hero-ppc/man-ppc.webp"          alt="Vintage figure representing marketing ops pipeline clarity" loading="eager" decoding="async">
       </div>
     </div>
   </div>
@@ -34,481 +38,439 @@
 {{ partial "logo-marquee.html" . }}
 
 <!-- ====================================================
-     SELF-DIAGNOSTIC - 4 SIGNALS YOUR MAROPS IS BROKEN
+     THE FOUR SIGNALS YOUR MAROPS IS BROKEN
      ==================================================== -->
-<section class="pr-section">
+<section class="pr-section pr-pipeline-flow">
+
+  <span class="pr-pipeline-flow__deco pr-pipeline-flow__deco--frame-t" aria-hidden="true"></span>
+
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 800px; margin: 0 auto var(--pr-s-7);">
-      <h2>Four signals your marketing ops is the bottleneck</h2>
-      <p>If two or more of these sound familiar, you do not have a campaign problem. You have a data and process problem that no amount of new ad spend will solve.</p>
-    </div>
-    <div class="pr-principles">
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          {{/* leaky funnel - leads dropping out the sides */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 4h18l-7 8v8l-4-2v-6L3 4Z"/>
-            <circle cx="20" cy="14" r="0.8" fill="currentColor"/>
-            <circle cx="22" cy="17" r="0.8" fill="currentColor"/>
-            <circle cx="2" cy="14" r="0.8" fill="currentColor"/>
-            <circle cx="4" cy="17" r="0.8" fill="currentColor"/>
-          </svg>
-        </div>
-        <h3>Sales rejects 30 to 50% of your MQLs</h3>
-        <p>The MQL definition was set when your motion was different and nobody recalibrated it. Lead scoring rewards page views and email opens, not behaviours that correlate with closed-won. Reps see the leaderboard fill with bad-fit accounts and stop trusting the queue.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          {{/* multi-touch convergence - three paths into one */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="3" cy="6" r="1.5"/>
-            <circle cx="3" cy="12" r="1.5"/>
-            <circle cx="3" cy="18" r="1.5"/>
-            <path d="M4.5 6 L11 11 M4.5 12 H11 M4.5 18 L11 13"/>
-            <circle cx="13" cy="12" r="2"/>
-            <path d="M15 12 H21"/>
-            <path d="m18 9 3 3-3 3"/>
-          </svg>
-        </div>
-        <h3>Last-click attribution makes paid search look magic</h3>
-        <p>You spend on ABM, podcast, content, and events but your dashboard credits Google Ads for every closed deal. Multi-touch attribution was promised at kickoff and never shipped. Budget conversations get framed around the wrong channel because the numbers are wrong.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          {{/* duplicate stacked records */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="7" y="2" width="13" height="16" rx="1.5"/>
-            <path d="M11 6h5M11 10h5M11 14h3"/>
-            <rect x="3" y="6" width="13" height="16" rx="1.5" fill="var(--pr-cream)"/>
-            <path d="M7 10h5M7 14h5M7 18h3"/>
-          </svg>
-        </div>
-        <h3>Your CRM has duplicate accounts and stale lifecycle stages</h3>
-        <p>Three contacts at the same company in three different lifecycle stages. Lead source blank on 40% of records. Lifecycle stage stuck at MQL six months after close. Reports run against this data come back wrong every time.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          {{/* slow reporting - calendar with clock */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="4" width="14" height="14" rx="1.5"/>
-            <path d="M2 8h14M6 2v4M12 2v4"/>
-            <circle cx="17" cy="17" r="5" fill="var(--pr-cream)"/>
-            <path d="M17 14v3l2 1.5"/>
-          </svg>
-        </div>
-        <h3>Monthly reporting takes three days and still produces wrong numbers</h3>
-        <p>Someone exports HubSpot, exports Salesforce, exports LinkedIn Campaign Manager, opens a spreadsheet, reconciles by hand. The numbers shift depending on who pulled them. The CMO presents a deck the CFO does not believe. Nobody acts on the report.</p>
-      </article>
+
+    <span class="pr-pipeline-flow__deco pr-pipeline-flow__deco--frame-r" aria-hidden="true"></span>
+
+    <header class="pr-pipeline-flow__header">
+      <h2 class="pr-pipeline-flow__title">Four signals your marketing ops is the bottleneck</h2>
+      <p class="pr-pipeline-flow__lede">If two or more of these sound familiar, you do not have a campaign problem. You have a data and process problem that no amount of new ad spend will solve.</p>
+    </header>
+
+    <div class="pr-pipeline-flow__grid" data-principles>
+
+      <div class="pr-principles__line" aria-hidden="true">
+        <div class="pr-principles__line-bg"></div>
+        <div class="pr-principles__line-fill" data-line-fill></div>
+        <img class="pr-principles__arrow" src="/images/principles/pr-arrow.svg" alt="" data-principles-arrow>
+      </div>
+
+      <div class="pr-pipeline-flow__runner">
+        <img class="pr-pipeline-flow__speed" src="/images/man-speed-vector.svg" alt="" aria-hidden="true">
+        <img src="/images/runner-businessman.png" alt="Running businessman with briefcase — turning broken ops into revenue clarity" onerror="this.style.display='none'">
+      </div>
+
+      <div class="pr-pipeline-flow__col pr-pipeline-flow__col--left">
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/know-who-buys.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Sales rejects 30–50% of your MQLs</h3>
+          <p>The MQL definition was set when your motion was different and nobody recalibrated it. Lead scoring rewards page views and email opens, not behaviours that correlate with closed-won. Reps see the leaderboard fill with bad-fit accounts and stop trusting the queue.</p>
+        </article>
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/speak-to-the-moment.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Last-click attribution makes paid search look magic</h3>
+          <p>You spend on ABM, podcast, content, and events but your dashboard credits Google Ads for every closed deal. Multi-touch attribution was promised at kickoff and never shipped. Budget conversations get framed around the wrong channel because the numbers are wrong.</p>
+        </article>
+
+      </div>
+
+      <div class="pr-pipeline-flow__col pr-pipeline-flow__col--right">
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/go-where-intent-is.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Your CRM has duplicate accounts and stale lifecycle stages</h3>
+          <p>Three contacts at the same company in three different lifecycle stages. Lead source blank on 40% of records. Lifecycle stage stuck at MQL six months after close. Reports run against this data come back wrong every time.</p>
+        </article>
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/follow-the-pipeline.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Monthly reporting takes three days and still produces wrong numbers</h3>
+          <p>Someone exports HubSpot, exports Salesforce, exports LinkedIn Campaign Manager, opens a spreadsheet, reconciles by hand. The numbers shift depending on who pulled them. The CMO presents a deck the CFO does not believe. Nobody acts on the report.</p>
+        </article>
+
+      </div>
+
     </div>
   </div>
 </section>
 
 <!-- ====================================================
-     WORKING WITH PIPEROCKET - VINTAGE TV
+     WORKING WITH PIPEROCKET — VINTAGE TV
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight" style="padding-bottom: 100px;">
   <div class="pr-container pr-center">
     <h2>Working With PipeRocket</h2>
-    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket - testimonial on a vintage TV" class="pr-working-tv">
+    {{ partial "working-tv.html" . }}
   </div>
 </section>
 
 <!-- ====================================================
-     COMPARISON TABLE - DARK
+     WHY SAAS TEAMS CHOOSE PIPEROCKET FOR MAROPS — DARK COMPARISON TABLE
      ==================================================== -->
-<section class="pr-section pr-section--dark">
+<section class="pr-section pr-section--dark pr-compare--ppc">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
-      <h2 style="color: var(--pr-cream);">Why SaaS teams choose PipeRocket for MarOps</h2>
-      <p style="color: rgba(244,241,232,0.7);">In-house teams are too close to the problem. Most agencies sell campaigns and call ops "scope creep". We rebuild the layer underneath - documented, owned by your team, ready to scale.</p>
+    <div class="pr-center pr-compare--ppc__header">
+      <h2>We treat your ops stack like infrastructure</h2>
+      <p>Every layer is documented, owned by your team, and tied to revenue outcomes — not campaign deliverables.</p>
     </div>
+    <img src="/images/compare-blue-vector.svg" class="pr-compare--ppc__blue-vec" aria-hidden="true">
+    <div class="pr-compare--ppc__table-wrap">
     <div class="pr-compare-table">
       <div class="pr-compare-table__row pr-compare-table__row--head">
         <div>In house</div>
         <div>Other agencies</div>
         <div class="pr-compare-table__pr">
-          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
-          </svg>
-          PipeRocket
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-compare-table__pr-logo">
         </div>
       </div>
       <div class="pr-compare-table__row">
         <div>One marketer running HubSpot, Salesforce, GA4, and a spreadsheet that nobody documented when they joined.</div>
         <div>"Out of scope." Your data is whatever it was when their campaign launched. Reporting drift is your problem.</div>
-        <div>30-day audit ships an architecture diagram, prioritised gap list, and 90-day roadmap. Lifecycle, attribution, and routing rebuilt at the schema level. Documentation your in-house team owns afterward.</div>
+        <div><p>30-day audit ships an architecture diagram, prioritised gap list, and 90-day roadmap.</p><p>Lifecycle, attribution, and routing rebuilt at the schema level. Documentation your in-house team owns afterward.</p></div>
       </div>
       <div class="pr-compare-table__row">
         <div>MQL is "score over 50 in HubSpot" because that was the default. Sales rejects half of them.</div>
         <div>Lead scoring is left untouched. Their job is delivering MQLs, not making the MQL definition correct.</div>
-        <div>Lead scoring rebuilt against closed-won data. The behaviours that historically converted become the score. Sales stops complaining about lead quality because the leads are actually qualified.</div>
+        <div><p>Lead scoring rebuilt against closed-won data.</p><p>The behaviours that historically converted become the score. Sales stops complaining about lead quality because the leads are actually qualified.</p></div>
       </div>
       <div class="pr-compare-table__row">
         <div>Last-click attribution because it is what HubSpot ships out of the box. ABM and podcast spend look like waste.</div>
         <div>Multi-touch attribution promised in the deck, last-click in production. Dashboards do not match the CRM.</div>
-        <div>Attribution model fits your motion - PLG, sales-led, account-based, or hybrid. First-touch, multi-touch, and W-shaped views run side by side. Every channel gets the credit the data supports.</div>
+        <div><p>Attribution model fits your motion — PLG, sales-led, account-based, or hybrid.</p><p>First-touch, multi-touch, and W-shaped views run side by side. Every channel gets the credit the data supports.</p></div>
       </div>
       <div class="pr-compare-table__row">
         <div>Lead routing is a Zapier hack from 2022. Round-robin sometimes, territory sometimes, by mood the rest.</div>
         <div>Routing was set up at kickoff and never revisited. SLA breaches are nobody's job.</div>
-        <div>Routing maps to your sales territories, ICP segmentation, account ownership, and SLA escalation. Reps get accounts ready for a conversation, in the time the lead score promises.</div>
+        <div><p>Routing maps to your sales territories, ICP segmentation, account ownership, and SLA escalation.</p><p>Reps get accounts ready for a conversation, in the time the lead score promises.</p></div>
       </div>
       <div class="pr-compare-table__row">
         <div>Monthly reporting is one person manually pulling exports for three days. Numbers shift each refresh.</div>
         <div>Looker dashboard built once. Numbers do not reconcile to the CRM. CFO uses different numbers in the board deck.</div>
-        <div>Pipeline contribution, CAC payback, channel ROI, and forecast all reconciled to closed-won deals. Same numbers in marketing review and finance review. Board prep takes 10 minutes.</div>
+        <div><p>Pipeline contribution, CAC payback, channel ROI, and forecast all reconciled to closed-won deals.</p><p>Same numbers in marketing review and finance review. Board prep takes 10 minutes.</p></div>
+      </div>
+    </div>
+    <img src="/images/compare-red-vector.svg" class="pr-compare--ppc__red-vec" aria-hidden="true" data-compare-red-vec>
+    <img src="/images/seo-table-rocket.svg" class="pr-compare--ppc__rocket" aria-hidden="true" data-compare-rocket>
+    </div>
+    <div class="pr-compare--ppc__cta">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-middle">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     NUMBERS THAT MATTER — STATS
+     ==================================================== -->
+<section class="pr-stat-band pr-stat-band--ppc">
+  <div class="pr-container pr-center">
+    <h2 class="pr-stat-band__heading">Numbers that matter</h2>
+    <div class="pr-stat-band__row">
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band-ppc__label">3 DAYS<span class="pr-hide-tiny"> → 10 MIN</span></div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-spend.webp" alt="Spend" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band-ppc__label">42% MQL<span class="pr-hide-tiny"> LIFT</span></div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-traffic.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band-ppc__label">18% CAC<span class="pr-hide-tiny"> PAYBACK</span></div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ====================================================
-     90-DAY REBUILD - WHAT ACTUALLY HAPPENS WEEK BY WEEK
+     EVERYONE TALKS ABOUT AI — ACCORDION
      ==================================================== -->
-<section class="pr-section">
-  <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
-      <h2>What a 90-day MarOps rebuild actually looks like</h2>
-      <p>No deck-only deliverables. Every phase ships an artifact your team owns - architecture diagrams, runbooks, configured fields, working dashboards.</p>
-    </div>
-    <div class="pr-approach-grid">
-      <article class="pr-approach-grid__card">
-        <div class="pr-approach-grid__icon">
-          {{/* magnifying glass over blueprint */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="3" y="3" width="14" height="14" rx="1.5"/>
-            <path d="M6 7h8M6 11h5M6 15h6"/>
-            <circle cx="17" cy="17" r="4"/>
-            <path d="m20 20 2.5 2.5"/>
-          </svg>
-        </div>
-        <h3>Week 1 to 4 - Audit and architecture</h3>
-        <p>Read-only access to MAP, CRM, GA4, and channel platforms. We map every automation, field, integration, and lifecycle stage. Output: architecture diagram, broken-automation list, prioritised fix list, 90-day roadmap. You decide what we do next.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <div class="pr-approach-grid__icon">
-          {{/* lifecycle stages - layered horizontal bars */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="4" width="20" height="3" rx="1"/>
-            <rect x="4" y="9" width="16" height="3" rx="1"/>
-            <rect x="6" y="14" width="12" height="3" rx="1"/>
-            <rect x="8" y="19" width="8" height="3" rx="1"/>
-          </svg>
-        </div>
-        <h3>Week 5 to 6 - Lifecycle and lead scoring</h3>
-        <p>Pull two years of closed-won deals. Reverse-engineer the behaviours that predicted close. Rebuild MQL/SQL definitions and lead scoring against that data. Document the model in a runbook so the next person can recalibrate it.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <div class="pr-approach-grid__icon">
-          {{/* clean data - sparkle on database */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <ellipse cx="9" cy="5" rx="6" ry="2.5"/>
-            <path d="M3 5v8c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5V5"/>
-            <path d="M3 9c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5"/>
-            <path d="M18 13l1.2 2.5L22 17l-2.8 1.5L18 21l-1.2-2.5L14 17l2.8-1.5z"/>
-          </svg>
-        </div>
-        <h3>Week 7 to 8 - Data hygiene and field standardisation</h3>
-        <p>Dedupe contacts and accounts. Standardise lead source, deal source, and channel taxonomy across HubSpot and Salesforce. Backfill missing company associations. Set ownership rules so the data stays clean after we leave.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <div class="pr-approach-grid__icon">
-          {{/* attribution - multi-line chart */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 21V3"/>
-            <path d="M3 21h18"/>
-            <path d="M5 16l4-5 4 3 6-9" stroke-width="2"/>
-            <path d="M5 19l4-2 4-1 6-3" stroke-dasharray="2 2"/>
-          </svg>
-        </div>
-        <h3>Week 9 to 10 - Attribution model</h3>
-        <p>UTM standardisation, first-touch / multi-touch / account-based attribution wired to your motion. Channel taxonomy reconciled. Every campaign that ships from week 10 forward reports against pipeline contribution automatically.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <div class="pr-approach-grid__icon">
-          {{/* routing tree - branching paths */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="4" cy="12" r="2"/>
-            <circle cx="20" cy="5" r="2"/>
-            <circle cx="20" cy="12" r="2"/>
-            <circle cx="20" cy="19" r="2"/>
-            <path d="M6 12h2c1 0 2-.5 3-1.5L17 5.5"/>
-            <path d="M6 12h12"/>
-            <path d="M6 12h2c1 0 2 .5 3 1.5l6 5"/>
-          </svg>
-        </div>
-        <h3>Week 11 - Lead routing and SLA</h3>
-        <p>Routing rules mapped to sales territories, ICP segments, and account ownership. SLA escalation paths defined. Slack alerts for breaches. Reps get accounts with the context the lead score promises.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <div class="pr-approach-grid__icon">
-          {{/* dashboard with metrics */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="3" width="20" height="18" rx="1.5"/>
-            <path d="M2 8h20"/>
-            <rect x="5" y="11" width="5" height="7" rx="0.5"/>
-            <path d="M14 18v-5M17 18v-2M20 18v-7"/>
-          </svg>
-        </div>
-        <h3>Week 12 - Reporting layer</h3>
-        <p>Pipeline contribution by channel, source, and intent stage. CAC payback by cohort. Forecast confidence intervals. One dashboard, the same numbers your CFO uses. Monthly board prep becomes a 10-minute review.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <div class="pr-approach-grid__icon">
-          {{/* runbook - open book with bookmarks */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M2 4v16h9V4H4a2 2 0 0 0-2 2"/>
-            <path d="M22 4v16h-9V4h7a2 2 0 0 1 2 2"/>
-            <path d="M5 8h3M5 12h3M5 16h3"/>
-            <path d="M16 8h3M16 12h3M16 16h3"/>
-          </svg>
-        </div>
-        <h3>Handover - Documentation and runbooks</h3>
-        <p>Every automation, field, routing rule, and dashboard documented. Architecture diagrams. Runbooks for the common failure modes (lifecycle drift, attribution skew, sync lag). Your in-house team owns the system afterward.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <div class="pr-approach-grid__icon">
-          {{/* drift watch - radar/sonar pulse */}}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"/>
-            <circle cx="12" cy="12" r="6"/>
-            <circle cx="12" cy="12" r="2" fill="currentColor"/>
-            <path d="M12 2v4M12 22v-4M2 12h4M22 12h-4"/>
-          </svg>
-        </div>
-        <h3>Optional retainer - Drift watch and evolution</h3>
-        <p>Monthly retainer for teams that want a senior MarOps operator on call. Pipeline reviews, drift fixes, new automations as your motion evolves. We close the loop on payback every month and tell you when something is moving the wrong way before quarter-end.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================
-     TESTIMONIALS
-     ==================================================== -->
-<section class="pr-section--tight">
-  <div class="pr-container">
-    <div class="pr-center"><h2>We helped 50+ SaaS teams measure what marketing actually does</h2></div>
-    <div class="pr-testimonials">
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">PipeRocket rebuilt our attribution and lifecycle logic in 90 days. Sales finally trusts the leads we send. Pipeline visibility moved from a quarter-end exercise to a daily report.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-090_alpha.png" alt="Naveen">
-          <div>
-            <div class="pr-testimonial__name">Naveen</div>
-            <div class="pr-testimonial__role">Head of Marketing</div>
-            <div class="pr-testimonial__company">HyperVerge</div>
-          </div>
-        </div>
-      </article>
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">Before PipeRocket, monthly reporting took three days. Now it is a single dashboard the CFO and CMO both look at, and the numbers reconcile to the CRM. Marketing finally has a seat at the revenue conversation.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-094_alpha.png" alt="Nalin">
-          <div>
-            <div class="pr-testimonial__name">Nalin</div>
-            <div class="pr-testimonial__role">CEO</div>
-            <div class="pr-testimonial__company">storylane</div>
-          </div>
-        </div>
-      </article>
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">They worked closer to our in-house team than most full-time hires. Documented every automation, every field, every routing rule. We came out of the engagement with a system our team owns - not a black box we have to re-hire to maintain.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-098_alpha.png" alt="Anusha">
-          <div>
-            <div class="pr-testimonial__name">Anusha</div>
-            <div class="pr-testimonial__role">Founding member</div>
-            <div class="pr-testimonial__company">HyperStart</div>
-          </div>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================
-     STATS
-     ==================================================== -->
-<section class="pr-section--tight">
-  <div class="pr-container">
-    <div class="pr-center"><h2>Campaigns alone are not a success metric.</h2></div>
-    <div class="pr-stats pr-stats--3">
-      <div class="pr-stat">
-        <div class="pr-stat__num">3 days → 10 min</div>
-        <div class="pr-stat__label">Monthly board prep, post-rebuild</div>
-      </div>
-      <div class="pr-stat">
-        <div class="pr-stat__num">42%</div>
-        <div class="pr-stat__label">Average MQL acceptance lift after lead-scoring rebuild</div>
-      </div>
-      <div class="pr-stat">
-        <div class="pr-stat__num">18%</div>
-        <div class="pr-stat__label">Median CAC payback improvement, year-one engagement</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================
-     AI - WHERE IT MATTERS
-     ==================================================== -->
-<section class="pr-section">
+<section class="pr-section pr-section--ai pr-section--ai-ppc pr-section--ai-marops">
   <div class="pr-container">
     <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
       <h2>Everyone talks about AI.<br>We use it where the data is, not where the buzz is.</h2>
     </div>
-    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: center;" class="pr-ai-grid">
-      <div>
-        <img src="/images/figma/raw-024_alpha.png" alt="AI in marketing operations" style="width: 100%; max-width: 560px;">
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img class="pr-ai-grid__layer is-active" data-image-key="/images/ai-accordion/research.webp" loading="eager" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in marketing operations">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/copy.webp" loading="eager" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/design.webp" loading="eager" decoding="async" src="/images/ai-accordion/design.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/optimisation.webp" loading="eager" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/analysis.webp" loading="eager" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
       </div>
-      <div class="pr-accordion">
-        <details class="pr-accordion__item" open>
+      <div class="pr-accordion" data-ai-accordion>
+        <details class="pr-accordion__item" open data-image="/images/ai-accordion/research.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
+              <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
               Data hygiene at scale
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI surfaces duplicate accounts, stale lifecycle stages, and missing field values across HubSpot and Salesforce in minutes - work that used to take a contractor a week. We use it for the cleanup; the schema rules and field-ownership decisions stay with humans.</div>
+          <div class="pr-accordion__body">AI surfaces duplicate accounts, stale lifecycle stages, and missing field values across HubSpot and Salesforce in minutes — work that used to take a contractor a week. We use it for the cleanup; the schema rules and field-ownership decisions stay with humans.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/copy.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+              <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
               Attribution model selection
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI tests first-touch, last-touch, linear, time-decay, U-shaped, and W-shaped attribution models against your closed-won deals. We pick the model the data actually supports for your motion - not the one that sounds most defensible in a board meeting.</div>
+          <div class="pr-accordion__body">AI tests first-touch, last-touch, linear, time-decay, U-shaped, and W-shaped attribution models against your closed-won deals. We pick the model the data actually supports for your motion — not the one that sounds most defensible in a board meeting.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/design.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
               Lead-scoring calibration
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
           <div class="pr-accordion__body">AI calibrates behavioural and firmographic scoring against closed-won deals, not page views. The MQL threshold becomes a real predictive signal. We rerun the model quarterly so it does not drift as your ICP shifts.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/optimisation.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
               Forecast confidence
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI projects pipeline contribution, CAC payback, and revenue against your actual close rates - with confidence intervals, not single numbers. Your finance team can defend the marketing forecast in the boardroom because the model shows its work.</div>
+          <div class="pr-accordion__body">AI projects pipeline contribution, CAC payback, and revenue against your actual close rates — with confidence intervals, not single numbers. Your finance team can defend the marketing forecast in the boardroom because the model shows its work.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/analysis.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+              <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
               Drift detection
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI watches your reporting layer for the silent failures - lifecycle stages stalling, conversion rates dropping, attribution shares shifting overnight. We catch the regression before quarter-end, not after the board deck is wrong.</div>
+          <div class="pr-accordion__body">AI watches your reporting layer for the silent failures — lifecycle stages stalling, conversion rates dropping, attribution shares shifting overnight. We catch the regression before quarter-end, not after the board deck is wrong.</div>
         </details>
       </div>
     </div>
   </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('.pr-section--ai-marops [data-ai-accordion]');
+      var media = document.querySelector('.pr-section--ai-marops .pr-ai-grid__media');
+      if(!acc || !media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      function lockHeight(){
+        var openStates = Array.prototype.map.call(items, function(it){ return it.open; });
+        var max = 0;
+        items.forEach(function(item){
+          items.forEach(function(other){ other.open = (other === item); });
+          var h = acc.scrollHeight;
+          if(h > max) max = h;
+        });
+        items.forEach(function(item, idx){ item.open = openStates[idx]; });
+        acc.style.minHeight = max + 'px';
+      }
+      if(document.readyState === 'complete') lockHeight();
+      else window.addEventListener('load', lockHeight);
+
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var src = item.getAttribute('data-image');
+          if(!src) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === src);
+          });
+        });
+      });
+    })();
+  </script>
 </section>
-<style>
-  @media (min-width: 1024px) {
-    .pr-ai-grid { grid-template-columns: 0.9fr 1.1fr !important; gap: var(--pr-s-9) !important; }
-  }
-</style>
 
 <!-- ====================================================
-     WHO WE WORK WITH (POSITIONING)
+     TESTIMONIALS — 3 CARDS
      ==================================================== -->
-<section class="pr-section pr-section--dark">
+<section class="pr-section--tight pr-section--social-proof pr-section--social-proof-ppc">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
-      <h2 style="color: var(--pr-cream);">Who this is for</h2>
-      <p style="color: rgba(244,241,232,0.7);">We are not a fit for everyone. The teams who get the most out of working with us share a few traits.</p>
-    </div>
-    <div class="pr-compare-table">
-      <div class="pr-compare-table__row pr-compare-table__row--head">
-        <div>You probably are a fit if</div>
-        <div>You probably are not a fit if</div>
-      </div>
-      <div class="pr-compare-table__row" style="grid-template-columns: 1fr 1fr;">
-        <div>You are at Series A through Series C, $3M to $50M ARR. Your motion is solidifying but your data layer has not caught up.</div>
-        <div>You are pre-seed or pre-product-market-fit. There is no historical close data to calibrate scoring or attribution against.</div>
-      </div>
-      <div class="pr-compare-table__row" style="grid-template-columns: 1fr 1fr;">
-        <div>You have HubSpot, Salesforce, Marketo, or Pardot - and at least one of them is in active use.</div>
-        <div>You are running marketing on Mailchimp and a spreadsheet. You need a CRM first; we can recommend one.</div>
-      </div>
-      <div class="pr-compare-table__row" style="grid-template-columns: 1fr 1fr;">
-        <div>Your sales team takes inbound seriously and can give us 60 minutes a week during the rebuild.</div>
-        <div>Your sales team will not take a meeting with marketing. We cannot rebuild the handoff if there is nobody on the other side.</div>
-      </div>
-      <div class="pr-compare-table__row" style="grid-template-columns: 1fr 1fr;">
-        <div>You want documentation your in-house team can own. Black-box engagements are not what you are looking for.</div>
-        <div>You want an agency to "just handle it" indefinitely. We are not interested in being the long-term blocker on your operations.</div>
+    <div class="pr-center"><h2>We helped 50+ SaaS teams measure what marketing actually does</h2></div>
+
+    <div class="pr-testimonials__viewport">
+      <div class="pr-testimonials" data-testimonials-track>
+
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperverge.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket rebuilt our attribution and lifecycle logic in 90 days. Sales finally trusts the leads we send. Pipeline visibility moved from a quarter-end exercise to a daily report.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-navien.png" alt="Naveen">
+            <div>
+              <div class="pr-testimonial__name">Naveen</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Before PipeRocket, monthly reporting took three days. Now it is a single dashboard the CFO and CMO both look at, and the numbers reconcile to the CRM. Marketing finally has a seat at the revenue conversation.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
+            <div>
+              <div class="pr-testimonial__name">Nalin</div>
+              <div class="pr-testimonial__role">CEO</div>
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperstart.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">They worked closer to our in-house team than most full-time hires. Documented every automation, every field, every routing rule. We came out of the engagement with a system our team owns — not a black box we have to re-hire to maintain.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-anusha.png" alt="Anusha">
+            <div>
+              <div class="pr-testimonial__name">Anusha</div>
+              <div class="pr-testimonial__role">Founding member</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperstart.png" alt="HyperStart" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
       </div>
     </div>
   </div>
 </section>
 
 <!-- ====================================================
-     CASE STUDIES
+     THE PIPEROCKET MAROPS APPROACH — DARK GRID
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section pr-section--dark pr-section--approach-ppc">
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-ppc__vec pr-approach-ppc__vec--blue-top">
+  <img src="/images/approach-ppc/approach-vector-blue.svg" alt="" aria-hidden="true" class="pr-approach-ppc__vec pr-approach-ppc__vec--blue">
+  <img src="/images/approach-ppc/approach-vector-red.svg" alt="" aria-hidden="true" class="pr-approach-ppc__vec pr-approach-ppc__vec--red">
+  <div class="pr-approach-ppc__container">
+    <div class="pr-approach-ppc__header">
+      <h2 class="pr-approach-ppc__heading">What a 90-day MarOps rebuild actually looks like</h2>
+      <img loading="lazy" decoding="async" src="/images/seo-table-rocket.svg" alt="" class="pr-approach-ppc__rocket" aria-hidden="true" data-compare-rocket>
+      <p class="pr-approach-ppc__lede">No deck-only deliverables. Every phase ships an artifact your team owns — architecture diagrams, runbooks, configured fields, working dashboards.</p>
+    </div>
+    <div class="pr-approach-ppc__grid">
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/discovery.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Week 1–4 &mdash; Audit &amp; Architecture</div>
+        <div class="pr-approach-ppc__copy"><p>Read-only access to MAP, CRM, GA4, and channel platforms. We map every automation, field, integration, and lifecycle stage.</p><p>Output: architecture diagram, broken-automation list, prioritised fix list, 90-day roadmap. You decide what we do next.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/market.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Week 5–6 &mdash; Lifecycle &amp; Lead Scoring</div>
+        <div class="pr-approach-ppc__copy"><p>Pull two years of closed-won deals. Reverse-engineer the behaviours that predicted close. Rebuild MQL/SQL definitions and lead scoring against that data.</p><p>Document the model in a runbook so the next person can recalibrate it.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/strategy.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Week 7–8 &mdash; Data Hygiene</div>
+        <div class="pr-approach-ppc__copy"><p>Dedupe contacts and accounts. Standardise lead source, deal source, and channel taxonomy across HubSpot and Salesforce. Backfill missing company associations.</p><p>Set ownership rules so the data stays clean after we leave.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/execution.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Week 9–10 &mdash; Attribution Model</div>
+        <div class="pr-approach-ppc__copy"><p>UTM standardisation, first-touch / multi-touch / account-based attribution wired to your motion. Channel taxonomy reconciled.</p><p>Every campaign that ships from week 10 forward reports against pipeline contribution automatically.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/review.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Week 11–12 &mdash; Routing &amp; Reporting</div>
+        <div class="pr-approach-ppc__copy"><p>Routing rules mapped to sales territories, ICP segments, and account ownership. SLA escalation paths defined. Slack alerts for breaches.</p><p>Pipeline contribution, CAC payback, and channel ROI reconciled to closed-won. One dashboard. Same numbers your CFO uses.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/scale.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Handover &amp; Optional Retainer</div>
+        <div class="pr-approach-ppc__copy"><p>Every automation, field, routing rule, and dashboard documented. Runbooks for the common failure modes — lifecycle drift, attribution skew, sync lag.</p><p>Monthly retainer available for drift watch, pipeline reviews, and new automations as your motion evolves.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     SUCCESS STORIES
+     ==================================================== -->
+<section class="pr-section--tight pr-section--casestudies pr-section--casestudies-ppc">
   <div class="pr-container">
-    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-center"><h2>Success Stories</h2></div>
     <div class="pr-cases">
       <article class="pr-case">
-        <div class="pr-case__logo">storylane</div>
-        <p class="pr-case__copy">Driving 2.5X growth and 82% more demos by rebuilding lifecycle stages and attribution in 90 days.</p>
-        <a href="/case-study-storylane/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Driving 2.5X growth and 82% more demos by rebuilding lifecycle stages and attribution in 90 days.</p>
+          <a href="/case-study-storylane/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">DevRev</div>
-        <p class="pr-case__copy">3.5X MQL growth with a clean attribution layer and a routing system the sales team trusts.</p>
-        <a href="/case-study-devrev/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-devrev-cs.svg" alt="DevRev" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">3.5X MQL growth with a clean attribution layer and a routing system the sales team trusts.</p>
+          <a href="/case-study-devrev/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">Spendflo</div>
-        <p class="pr-case__copy">From a broken HubSpot/Salesforce sync to 81% pipeline visibility - one source of truth across marketing and sales.</p>
-        <a href="/case-study-spendflo/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">From a broken HubSpot/Salesforce sync to 81% pipeline visibility — one source of truth across marketing and sales.</p>
+          <a href="/case-study-spendflo/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
     </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
-      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
+      <a href="/success-stories/" class="pr-btn pr-btn--ghost">View all success stories</a>
     </div>
   </div>
 </section>
 
 <!-- ====================================================
-     TECH STACK
-     ==================================================== -->
-<section class="pr-techstack">
-  <div class="pr-techstack__inner">
-    <div class="pr-techstack__intro">
-      <h2>Our Tech Stack</h2>
-      <p>Better tools do not produce better operations. Better judgement does. We happen to have both.</p>
-    </div>
-    <div class="pr-techstack__logos" aria-hidden="true">
-      <span class="pr-techstack__logo">HubSpot</span>
-      <span class="pr-techstack__logo">Salesforce</span>
-      <span class="pr-techstack__logo">Marketo</span>
-      <span class="pr-techstack__logo">Segment</span>
-      <span class="pr-techstack__logo">Clearbit</span>
-      <span class="pr-techstack__logo">GA4</span>
-      <span class="pr-techstack__logo">6sense</span>
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================
-     FAQ - HARDER QUESTIONS
+     FAQ
      ==================================================== -->
 <section class="pr-section">
   <div class="pr-container" style="max-width: 880px;">
@@ -519,42 +481,35 @@
           <span class="pr-accordion__header-left">How is a marketing ops agency different from a demand-gen agency or a RevOps consultant?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">A demand-gen agency runs campaigns. A RevOps consultant aligns sales and marketing strategy at the leadership level. A marketing ops agency rebuilds the technology, data, processes, and reporting that sit underneath both. Without us, the campaigns ship into a broken funnel and the strategy lives in a deck nobody implements. We are infrastructure, not strategy or execution.</div>
+        <div class="pr-accordion__body">A demand-gen agency runs campaigns. A RevOps consultant aligns sales and marketing strategy at the leadership level. A marketing ops agency rebuilds the technology, data, processes, and reporting that sit underneath both. Without us, the campaigns ship into a broken funnel and the strategy lives in a deck nobody implements.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
           <span class="pr-accordion__header-left">We just migrated from HubSpot to Salesforce (or vice versa) and everything is broken. Is this what you fix?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">Yes. Migration aftermath is one of our most common engagements. The pattern is consistent: lifecycle stages mapped wrong, automations referencing fields that no longer exist, attribution data half-imported, lead routing breaking nightly. The audit phase catches all of this within the first two weeks. The rebuild phase brings the new platform to a clean operational state.</div>
+        <div class="pr-accordion__body">Yes. Migration aftermath is one of our most common engagements. The pattern is consistent: lifecycle stages mapped wrong, automations referencing fields that no longer exist, attribution data half-imported, lead routing breaking nightly. The audit phase catches all of this within the first two weeks.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
           <span class="pr-accordion__header-left">Our existing MarOps person left. Can you cover until we hire a replacement?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">We can. The audit phase becomes more urgent because departing operators tend to leave undocumented systems behind. We document everything, keep the lights on through the search, and either hand over to your new hire or stay on as a retainer alongside them. Many teams keep us on a fractional basis even after hiring in-house because rebuilds and ongoing optimisation are different skill sets.</div>
+        <div class="pr-accordion__body">We can. The audit phase becomes more urgent because departing operators tend to leave undocumented systems behind. We document everything, keep the lights on through the search, and either hand over to your new hire or stay on as a retainer alongside them.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
           <span class="pr-accordion__header-left">What does the engagement actually cost?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">A 90-day rebuild typically falls between $35K and $90K depending on stack complexity, number of integrated tools, and how much historical data needs cleanup. The audit phase is fixed-fee at $8K to $12K and you can stop after audit if the gap turns out to be smaller than expected. Ongoing retainers run $3K to $8K per month. We send a written scope before any commitment.</div>
+        <div class="pr-accordion__body">A 90-day rebuild typically falls between $35K and $90K depending on stack complexity, number of integrated tools, and how much historical data needs cleanup. The audit phase is fixed-fee at $8K to $12K and you can stop after audit if the gap turns out to be smaller than expected. Ongoing retainers run $3K to $8K per month.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
           <span class="pr-accordion__header-left">Will you implement the changes yourselves or hand off a roadmap to our team?</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">We implement. Documents-only roadmaps are the slowest way to fail at marketing ops because most teams do not have the operator hours to execute on them. We do the lifecycle rebuild, the field standardisation, the automation rewrites, and the dashboard build inside your environment. Your team reviews and approves; we ship.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">Do you replace our HubSpot or Salesforce admin?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">No. We work alongside your admin during the engagement and document everything for them afterward. If you do not have an admin, we recommend either a fractional one or hiring against the runbooks we leave behind. We are interested in fixing the system, not becoming the only person who can run it.</div>
+        <div class="pr-accordion__body">We implement. Documents-only roadmaps are the slowest way to fail at marketing ops because most teams do not have the operator hours to execute on them. We do the lifecycle rebuild, the field standardisation, the automation rewrites, and the dashboard build inside your environment.</div>
       </details>
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
@@ -570,12 +525,13 @@
 <!-- ====================================================
      FINAL CTA
      ==================================================== -->
-<section class="pr-cta-final">
+<section class="pr-cta-final pr-cta-final--ppc">
   <div class="pr-container">
-    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
-    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
-    <h2>The campaigns are not the problem.<br><span class="pr-italic">Let us prove it in 30 days.</span></h2>
-    <a href="/contact-us/" class="pr-btn">Book a 30-min audit call</a>
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2><span class="pr-cta-soft">The campaigns are not the problem.</span> <strong>Let us prove it in 30 days.</strong></h2>
+    <p>We work with a small number of B2B SaaS companies at a time. If your pipeline visibility is broken, let's find out if we're the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="service-bottom">Book free consultation</a>
   </div>
 </section>
 

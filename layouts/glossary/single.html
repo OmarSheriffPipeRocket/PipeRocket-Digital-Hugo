@@ -35,7 +35,7 @@
 
     <div class="pr-article-3-6-3">
 
-      <aside class="pr-article-rail pr-article-rail--left" aria-label="Knowledge hub">
+      <aside class="pr-blog-v2__rail" aria-label="Knowledge hub">
         <div class="pr-article-rail__card pr-knowledge-hub">
           <h4 class="pr-article-rail__heading">Knowledge hub</h4>
 
@@ -44,7 +44,7 @@
               {{ $catSlug := .slug }}
               {{ $isActive := eq $.Params.categorySlug $catSlug }}
               {{ $termsInCat := where $allTerms "Params.categorySlug" $catSlug }}
-              <details class="pr-knowledge-hub__category"{{ if $isActive }} open{{ end }}>
+              <details class="pr-knowledge-hub__category">
                 <summary>
                   <span class="pr-knowledge-hub__title">{{ .name }}</span>
                   <span class="pr-knowledge-hub__chevron" aria-hidden="true">›</span>
@@ -76,6 +76,13 @@
             {{ end }}
           </nav>
         </div>
+
+        <div class="pr-blog-v2__cta">
+          <div class="pr-blog-v2__cta-h">Free Strategy Audit</div>
+          <p class="pr-blog-v2__cta-d">Tell us your ICP and growth goal. We'll map the channels, audiences, and angles most likely to move qualified pipeline in 90 days.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-blog-v2__cta-btn" data-cta-location="glossary-sidebar">Get Free Audit</a>
+        </div>
+
       </aside>
 
       <div class="pr-article-main">

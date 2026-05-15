@@ -11,80 +11,26 @@
           <span class="pr-hero__title-soft">Your buyers stopped Googling.</span>
           <span class="pr-hero__title-strong">They&rsquo;re asking ChatGPT instead.</span>
         </h1>
-        <div class="pr-hero__copy">
+        <div class="pr-hero__copy pr-hero__copy--seo">
           <p>Search isn&rsquo;t one box anymore. ChatGPT, Perplexity, Claude, Google AI Overviews — all answer your buyers before a blue link does. PipeRocket runs Answer Engine Optimization and Generative Engine Optimization that gets your brand cited as the answer, not buried on page two of a SERP that nobody scrolls.</p>
         </div>
 
-        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
-
-        {{/* AEO/GEO page = SaaS SEO Clutch reviews (closest signal we have) */}}
         {{ $clutchSeo := where (where .Site.Data.reviews.reviews "source" "Clutch") "services" "intersect" (slice "SaaS SEO") }}
         {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
-        <div class="pr-clutch-accordion pr-clutch-accordion--inline" id="clutchReviewsSeo">
-          <button class="pr-clutch-accordion__head pr-clutch-accordion__head--simple" type="button" data-clutch-accordion-toggle aria-expanded="true" aria-controls="clutchAccordionPanelSeo">
-            <img src="/images/logos/clutch.svg" alt="Clutch" class="pr-clutch-accordion__logo">
-            <span class="pr-clutch-accordion__rating-simple">
-              <strong>{{ $clutchSource.rating }}</strong>
-              <span class="pr-clutch-accordion__stars" aria-hidden="true">★★★★★</span>
-            </span>
-            <span class="pr-clutch-accordion__caret" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </span>
-          </button>
-        </div>
-      </div>
-      <div class="pr-hero__collage" aria-label="PipeRocket AEO / GEO — cited by AI engines, not buried in a SERP">
-        <img class="pr-hero__image" src="/images/hero-seo.png" alt="Vintage figure under an SEO Results street clock — being cited by AI engines is the new BOFU" loading="eager">
-      </div>
-    </div>
-
-    <!-- Carousel panel — full container width, open by default. -->
-    <div class="pr-clutch-accordion__panel pr-clutch-accordion__panel--full" id="clutchAccordionPanelSeo" data-clutch-accordion-panel>
-      <div class="pr-clutch-accordion__carousel-wrap">
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--prev" data-carousel-prev aria-label="Previous reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-        </button>
-
-        <div class="pr-clutch-accordion__track" data-carousel-track>
-          {{ range $clutchSeo }}
-            <article class="pr-clutch-card">
-              <header class="pr-clutch-card__head">
-                <span class="pr-clutch-card__rating-row" aria-label="Rated {{ .rating }} out of 5">
-                  {{ $r := .rating }}
-                  {{ range seq 5 }}
-                    {{ if le (float .) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--full">★</span>
-                    {{ else if le (sub (float .) 0.5) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--half">★</span>
-                    {{ else }}
-                      <span class="pr-clutch-card__star">★</span>
-                    {{ end }}
-                  {{ end }}
-                  <span class="pr-clutch-card__rating-value">{{ .rating }}</span>
-                </span>
-              </header>
-              <h3 class="pr-clutch-card__title">{{ .title }}</h3>
-              <blockquote class="pr-clutch-card__quote">"{{ .quote }}"</blockquote>
-              <footer class="pr-clutch-card__footer">
-                <strong>{{ .reviewer_name }}</strong>
-                <span>{{ .reviewer_role }}{{ if .company }} · {{ .company }}{{ end }}</span>
-                {{ with .review_url }}
-                  <a class="pr-clutch-card__link" href="{{ . }}" target="_blank" rel="noopener">Read on Clutch ↗</a>
-                {{ end }}
-              </footer>
-            </article>
-          {{ end }}
+        <div class="pr-hero-seo__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-seo__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.png" alt="Clutch" class="pr-hero-seo__rating-logo">
         </div>
 
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--next" data-carousel-next aria-label="Next reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
-        </button>
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
       </div>
-
-      <div class="pr-clutch-accordion__footer">
-        <a href="/reviews/" class="pr-clutch-accordion__view-all">See all reviews →</a>
+      <div class="pr-hero__collage pr-hero__collage--seo" aria-label="PipeRocket AEO / GEO — cited by AI engines, not buried in a SERP">
+        <img class="pr-hero-seo__buyer" src="/images/hero-seo/buyer-first.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__bofu" src="/images/hero-seo/bofu-vector.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__search" src="/images/hero-seo/search-bar.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__stroke" src="/images/hero-seo/red-stroke.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__man" src="/images/hero-seo/man-clock.webp" alt="Vintage figure under an SEO Results street clock — being cited by AI engines is the new BOFU" loading="eager" decoding="async">
+        <img class="pr-hero-seo__arrow" src="/images/hero-seo/arrow.svg" alt="" aria-hidden="true" loading="eager" data-arrow-parallax>
       </div>
     </div>
 
@@ -98,42 +44,43 @@
 {{ partial "logo-marquee.html" . }}
 
 <!-- ====================================================
-     HOW WE TURN SEARCH INTENT INTO PIPELINE
+     HOW AEO & GEO TURN AI CONVERSATIONS INTO PIPELINE
      ==================================================== -->
 <section class="pr-section">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
+    <div class="pr-center" style="margin: 0 auto 140px; white-space: nowrap;">
       <h2>How AEO &amp; GEO turn AI conversations into pipeline</h2>
     </div>
-    <div class="pr-principles">
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
-        </div>
-        <h3>Cited, not just ranked</h3>
-        <p>Ranking #1 on Google means nothing if ChatGPT or Perplexity quotes a competitor in the answer. AEO is about being the source AI engines cite when your buyer asks a buying-stage question. We engineer your content to be the citation, not the also-ran.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
-        </div>
-        <h3>Question-shaped content</h3>
-        <p>AI engines reward content that answers a specific question, cleanly, with sourced claims. We restructure your content around buyer questions — schema, citations, retrieval-friendly framing — so the answer is yours every time someone asks.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="9"/></svg>
-        </div>
-        <h3>Train the engines, not just rank for them</h3>
-        <p>AI training corpora, retrieval-augmented generation indexes, citation graphs — the inputs AI uses to decide what&rsquo;s authoritative. We build distribution that lands your brand in the right places: Reddit, GitHub, Wikipedia-grade sources, podcasts, and trusted directories.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-        </div>
-        <h3>Pipeline over rankings</h3>
-        <p>Citations are a means. Pipeline is the outcome. We track AI-citation share of voice across ChatGPT, Perplexity, Claude, and AI Overviews — but every monthly review centres on demos booked from AI-led referrals and pipeline influenced.</p>
-      </article>
+    <div class="pr-principles" data-principles>
+      <div class="pr-principles__line" aria-hidden="true">
+        <div class="pr-principles__line-bg"></div>
+        <div class="pr-principles__line-fill" data-line-fill></div>
+        <img class="pr-principles__arrow" src="/images/principles/pr-arrow.svg" alt="" data-principles-arrow>
+      </div>
+      <div class="pr-principles__col pr-principles__col--left">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--buyers"></div>
+          <h3>Cited, not just ranked</h3>
+          <p>Ranking #1 on Google means nothing if ChatGPT or Perplexity quotes a competitor in the answer. AEO is about being the source AI engines cite when your buyer asks a buying-stage question. We engineer your content to be the citation, not the also-ran.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--intent"></div>
+          <h3>Question-shaped content</h3>
+          <p>AI engines reward content that answers a specific question, cleanly, with sourced claims. We restructure your content around buyer questions — schema, citations, retrieval-friendly framing — so the answer is yours every time someone asks.</p>
+        </article>
+      </div>
+      <div class="pr-principles__col pr-principles__col--right">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--purpose"></div>
+          <h3>Train the engines, not just rank for them</h3>
+          <p>AI training corpora, retrieval-augmented generation indexes, citation graphs — the inputs AI uses to decide what&rsquo;s authoritative. We build distribution that lands your brand in the right places: Reddit, GitHub, Wikipedia-grade sources, podcasts, and trusted directories.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--revenue"></div>
+          <h3>Pipeline over rankings</h3>
+          <p>Citations are a means. Pipeline is the outcome. We track AI-citation share of voice across ChatGPT, Perplexity, Claude, and AI Overviews — but every monthly review centres on demos booked from AI-led referrals and pipeline influenced.</p>
+        </article>
+      </div>
     </div>
   </div>
 </section>
@@ -141,15 +88,15 @@
 <!-- ====================================================
      WORKING WITH PIPEROCKET — VINTAGE TV
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--working-seo">
   <div class="pr-container pr-center">
     <h2>Working With PipeRocket</h2>
-    <img src="/images/working-with-piperocket.png" alt="Working With PipeRocket — Cindy Dubon, Director of Growth Marketing at Goldcast, on her vintage TV testimonial" class="pr-working-tv">
+    {{ partial "working-tv.html" . }}
   </div>
 </section>
 
 <!-- ====================================================
-     WHY SAAS TEAMS CHOOSE PIPEROCKET FOR SEO — DARK COMPARISON TABLE
+     WHY TEAMS CHOOSE PIPEROCKET FOR AEO & GEO — DARK COMPARISON TABLE
      ==================================================== -->
 <section class="pr-section pr-section--dark">
   <div class="pr-container">
@@ -171,67 +118,77 @@
       <div class="pr-compare-table__row">
         <div>"AI Overviews" gets mentioned in a slide. Nobody owns being cited by ChatGPT or Perplexity. Visibility erodes quietly.</div>
         <div>The agency layers "AEO" onto a generic SEO retainer. They run the same keyword brief, hope schema fixes the rest. Citation share of voice never gets measured.</div>
-        <div>AEO and GEO are the engagement. Citation tracking across ChatGPT, Perplexity, Claude, AI Overviews. Content engineered for retrieval, not just ranking.</div>
+        <div><p>AEO and GEO are the engagement. Citation tracking across ChatGPT, Perplexity, Claude, AI Overviews.</p><p>Content engineered for retrieval, not just ranking.</p></div>
       </div>
       <div class="pr-compare-table__row">
         <div>Content reads well for humans, badly for retrieval. AI engines can&rsquo;t extract a clean answer to cite.</div>
         <div>Content is keyword-optimised but unstructured. Long preambles, missing citations, no claim-source mapping. AI engines skip it.</div>
-        <div>Content is restructured for AI retrieval — claim-source pairs, schema, retrieval-friendly headings, factual density. AI engines find a clean answer to quote.</div>
+        <div><p>Content is restructured for AI retrieval — claim-source pairs, schema, retrieval-friendly headings, factual density.</p><p>AI engines find a clean answer to quote.</p></div>
       </div>
       <div class="pr-compare-table__row">
         <div>Distribution is whatever the team has time for. AI training corpora — Reddit, GitHub, Wikipedia, podcasts — go untouched.</div>
-        <div>Backlinks chase DR scores from random domains. Mentions on the sources AI engines actually weight (Reddit, trade press, podcast transcripts) never happen.</div>
-        <div>Distribution targets the corpora AI engines train on and retrieve from — relevant subreddits, trade publications, podcast transcripts, citation-friendly sources. Authority compounds for both Google and ChatGPT.</div>
+        <div>Backlinks chase DR scores from random domains. Mentions on the sources AI engines actually weight never happen.</div>
+        <div><p>Distribution targets the corpora AI engines train on and retrieve from — relevant subreddits, trade publications, podcast transcripts, citation-friendly sources.</p><p>Authority compounds for both Google and ChatGPT.</p></div>
       </div>
       <div class="pr-compare-table__row">
         <div>Performance is reported as Google rankings. Nobody asks "are we being cited by ChatGPT?"</div>
         <div>Reports show keyword positions and sessions. Citation share of voice across AI engines lives nowhere.</div>
-        <div>Reports show AI-citation share of voice by buyer question, AI-led pipeline contribution, and trust-signal posture across the AI engines that matter — alongside traditional rankings.</div>
+        <div><p>Reports show AI-citation share of voice by buyer question, AI-led pipeline contribution, and trust-signal posture across the AI engines that matter.</p><p>Traditional rankings reported alongside, not instead.</p></div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ====================================================
-     TESTIMONIALS — 3 CARDS (SEO-SPECIFIC)
+     TESTIMONIALS — 3 CARDS
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--social-proof pr-section--social-proof-ppc">
   <div class="pr-container">
     <div class="pr-center"><h2>We&rsquo;ve helped 50+ SaaS brands stay visible as search shifts to AI</h2></div>
-    <div class="pr-testimonials">
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to lock our performance marketing efforts. Their experience, actionable strategies brought a 5X high-quality MQLs in just 2 months. Specifically, the team's research-based fine-tuning campaigns across regions not only gives our leads but also saves us costs.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-090_alpha.png" alt="Naveen">
-          <div>
-            <div class="pr-testimonial__name">Naveen</div>
-            <div class="pr-testimonial__role">Head of Marketing</div>
-            <div class="pr-testimonial__company">HyperVerge</div>
+
+    <div class="pr-testimonials__viewport">
+      <div class="pr-testimonials" data-testimonials-track>
+
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-devrev.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly. PipeRocket Digital was committed to driving growth and continuously learning and improving.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
+            <div>
+              <div class="pr-testimonial__name">Saptharishi</div>
+              <div class="pr-testimonial__role">Head of Demand Generation</div>
+              <img loading="lazy" decoding="async" src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
+            </div>
           </div>
-        </div>
-      </article>
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">Working alongside PipeRocket has been a remarkable experience for Storylane. We have come to deeply rely on them to count on us in our scaled stack. Their comprehensive analysis, strategic initiatives, end-to-end campaign optimisation, lending engagement implementation and targeted remarketing delivered remarkable results for us.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-094_alpha.png" alt="Nalin">
-          <div>
-            <div class="pr-testimonial__name">Nalin</div>
-            <div class="pr-testimonial__role">CEO</div>
-            <div class="pr-testimonial__company">storylane</div>
+        </article>
+
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-spendflo.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution. Their in-depth understanding of search and consistent involvement make them a reliable partner.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nivas.png" alt="Nivas">
+            <div>
+              <div class="pr-testimonial__name">Nivas</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-testimonial__logo">
+            </div>
           </div>
-        </div>
-      </article>
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">They worked closely with us and took ownership that our in-house team. The team has run 10 experiments to identify what was working and translated two new geographies for the ads. Moreover, they treat content like an asset and react closer to a calendar as the problem it is.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-098_alpha.png" alt="Anusha">
-          <div>
-            <div class="pr-testimonial__name">Anusha</div>
-            <div class="pr-testimonial__role">Founding member</div>
-            <div class="pr-testimonial__company">HyperStart</div>
+        </article>
+
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Working alongside PipeRocket has been a commendable experience for Storylane. We were looking into how to boost our qualified leads. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
+            <div>
+              <div class="pr-testimonial__name">Nalin</div>
+              <div class="pr-testimonial__role">CEO</div>
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
+
+      </div>
     </div>
   </div>
 </section>
@@ -241,19 +198,19 @@
      ==================================================== -->
 <section class="pr-section--tight">
   <div class="pr-container">
-    <div class="pr-center"><h2>Traffic alone is not a success metric.</h2></div>
+    <div class="pr-center"><h2>Citations are the new rankings.</h2></div>
     <div class="pr-stats pr-stats--3">
       <div class="pr-stat">
-        <div class="pr-stat__num">$0.0M</div>
-        <div class="pr-stat__label">Spend Volume</div>
+        <div class="pr-stat__num">2.2X</div>
+        <div class="pr-stat__label">Organic traffic growth for DevRev</div>
       </div>
       <div class="pr-stat">
-        <div class="pr-stat__num">$0.0M</div>
-        <div class="pr-stat__label">Pipeline</div>
+        <div class="pr-stat__num">5X</div>
+        <div class="pr-stat__label">Organic traffic growth for Spendflo in 8 months</div>
       </div>
       <div class="pr-stat">
-        <div class="pr-stat__num">$0.0M</div>
-        <div class="pr-stat__label">Revenue</div>
+        <div class="pr-stat__num">50%</div>
+        <div class="pr-stat__label">ROAS improvement for DevRev</div>
       </div>
     </div>
   </div>
@@ -262,78 +219,116 @@
 <!-- ====================================================
      EVERYONE TALKS ABOUT AI — ACCORDION
      ==================================================== -->
-<section class="pr-section">
+<section class="pr-section pr-section--ai pr-section--ai-ppc pr-section--ai-aeo">
   <div class="pr-container">
     <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
       <h2>Everyone talks about AI.<br>We just use it where it matters.</h2>
     </div>
-    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: center;" class="pr-ai-grid">
-      <div>
-        <img src="/images/figma/raw-024_alpha.png" alt="AI in marketing" style="width: 100%; max-width: 560px;">
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img class="pr-ai-grid__layer is-active" data-image-key="/images/ai-accordion/research.webp" loading="eager" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in AEO and GEO">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/copy.webp" loading="eager" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/design.webp" loading="eager" decoding="async" src="/images/ai-accordion/design.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/optimisation.webp" loading="eager" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/analysis.webp" loading="eager" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
       </div>
-      <div class="pr-accordion">
-        <details class="pr-accordion__item" open>
+      <div class="pr-accordion" data-ai-accordion>
+        <details class="pr-accordion__item" open data-image="/images/ai-accordion/research.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
-              Research
+              <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Citation Research
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI surfaces ICP signals, competitor activity, and audience intent data before a single page is briefed. Which queries are in-market, which content angles move them, and what pipeline opportunities are hiding in plain sight stays with the team.</div>
+          <div class="pr-accordion__body">AI runs the buyer questions that matter across ChatGPT, Perplexity, Claude, and AI Overviews to map your current citation share of voice before we change anything. Baseline first — anything we can&rsquo;t measure, we can&rsquo;t move. What the citation gaps mean for strategy stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/copy.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
-              Content
+              <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Retrieval-Ready Content
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI generates first drafts, brief variants, and outline angles across audiences and intent. Which voice fits the ICP, which framing converts, and whether the prose sounds like a real practitioner or an agency template stays with the team.</div>
+          <div class="pr-accordion__body">AI restructures and drafts content engineered for retrieval — claim-source pairing, schema, factual density, citation-grade quotes. Which framing earns the AI citation vs. which gets quoted by competitors stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/design.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-              Optimisation
+              <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Corpus Distribution
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI flags pages losing rankings, content gaps surfacing in AI overviews, and topics where competitors compound faster. What to refresh, what to consolidate, and where to invest next stays with the team.</div>
+          <div class="pr-accordion__body">AI identifies the specific subreddits, trade publications, podcast transcripts, and GitHub threads that AI engines weight heavily for your category. Which placements move citation share vs. which just add backlinks stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/optimisation.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2 6 14l3 3-12 12"/><path d="m18 6 4 4"/></svg>
-              Design
+              <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Citation Monitoring
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI produces UI variants and page-design hypotheses. Which layout converts, where to place the CTA, and whether the page earns trust in the first three seconds stays with the team.</div>
+          <div class="pr-accordion__body">AI monitors citation share of voice weekly across AI engines, by buyer question and competitor. Movements get diagnosed — new training cycle, new retrieval index, new prompt pattern — before we act. What the shift means for content strategy stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/analysis.webp">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-              Analysis
+              <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Pipeline Attribution
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI connects organic touchpoints to pipeline and revenue across channels, surfacing CAC, payback, and pipeline contribution faster than any manual model. What it means for strategy stays with the team.</div>
+          <div class="pr-accordion__body">AI tags referrers from ChatGPT, Perplexity, and Claude in your CRM and connects them to demos, pipeline, and closed-won. What the AI-led pipeline number means for where to invest next quarter stays with the team.</div>
         </details>
       </div>
     </div>
   </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('.pr-section--ai-aeo [data-ai-accordion]');
+      var media = document.querySelector('.pr-section--ai-aeo .pr-ai-grid__media');
+      if(!acc || !media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      function lockHeight(){
+        var openStates = Array.prototype.map.call(items, function(it){ return it.open; });
+        var max = 0;
+        items.forEach(function(item){
+          items.forEach(function(other){ other.open = (other === item); });
+          var h = acc.scrollHeight;
+          if(h > max) max = h;
+        });
+        items.forEach(function(item, idx){ item.open = openStates[idx]; });
+        acc.style.minHeight = max + 'px';
+      }
+      if(document.readyState === 'complete') lockHeight();
+      else window.addEventListener('load', lockHeight);
+
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var src = item.getAttribute('data-image');
+          if(!src) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === src);
+          });
+        });
+      });
+    })();
+  </script>
 </section>
-<style>
-  @media (min-width: 1024px) {
-    .pr-ai-grid { grid-template-columns: 0.9fr 1.1fr !important; gap: var(--pr-s-9) !important; }
-  }
-</style>
 
 <!-- ====================================================
-     THE PIPEROCKET SEO APPROACH
+     THE PIPEROCKET AEO & GEO APPROACH
      ==================================================== -->
 <section class="pr-section">
   <div class="pr-container">
@@ -360,11 +355,11 @@
       </article>
       <article class="pr-approach-grid__card">
         <h3>Build trust-signal posture</h3>
-        <p>AI engines weight authoritativeness — author profiles, brand entities, citation graphs, structured data. We strengthen the posture that earns citations: real bios, schema entities, consistent NAP/E-A-T signals across the corpus.</p>
+        <p>AI engines weight authoritativeness — author profiles, brand entities, citation graphs, structured data. We strengthen the posture that earns citations: real bios, schema entities, consistent E-A-T signals across the corpus.</p>
       </article>
       <article class="pr-approach-grid__card">
         <h3>Track citations weekly</h3>
-        <p>We monitor citation share of voice across the AI engines weekly, by buyer question, by competitor. Movements get diagnosed (new training cycle? new retrieval index? new prompt pattern?) and acted on.</p>
+        <p>We monitor citation share of voice across the AI engines weekly, by buyer question, by competitor. Movements get diagnosed and acted on before they cost you pipeline.</p>
       </article>
       <article class="pr-approach-grid__card">
         <h3>Wire AI-led pipeline</h3>
@@ -380,38 +375,57 @@
 </section>
 
 <!-- ====================================================
-     CASE STUDIES
+     SUCCESS STORIES
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--casestudies pr-section--casestudies-ppc">
   <div class="pr-container">
-    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-center"><h2>Success Stories</h2></div>
     <div class="pr-cases">
       <article class="pr-case">
-        <div class="pr-case__logo">storylane</div>
-        <p class="pr-case__copy">Driving 2.5X Growth and 82% More Demos: Storylane's Success with PipeRocket's Campaigns.</p>
-        <a href="/case-study-storylane/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Driving 2.5X Growth and 82% More Demos: Storylane&rsquo;s Success with PipeRocket&rsquo;s Campaigns.</p>
+          <a href="/case-study-storylane/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">DevRev</div>
-        <p class="pr-case__copy">Achieving 3.5XMQL Growth: HyperVerge's Case Study with PipeRocket.</p>
-        <a href="/case-study-devrev/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-devrev-cs.svg" alt="DevRev" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Achieving 2.2X Organic Traffic Growth and 50% ROAS Improvement: DevRev&rsquo;s Case Study with PipeRocket.</p>
+          <a href="/case-study-devrev/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">Spendflo</div>
-        <p class="pr-case__copy">From Stagnation to Domination: PipeRocket's Impact on Spendflo's 81% Traffic Rise.</p>
-        <a href="/case-study-spendflo/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">From Stagnation to Domination: PipeRocket&rsquo;s Impact on Spendflo&rsquo;s 81% Traffic Rise.</p>
+          <a href="/case-study-spendflo/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
     </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
-      <a href="/case-studies/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
+      <a href="/success-stories/" class="pr-btn pr-btn--ghost">View all success stories</a>
     </div>
   </div>
 </section>
-
-<!-- ====================================================
-     OUR TECH STACK
-     ==================================================== -->
-{{ partial "tech-stack.html" . }}
 
 <!-- ====================================================
      FAQ
@@ -464,10 +478,10 @@
      ==================================================== -->
 <section class="pr-cta-final">
   <div class="pr-container">
-    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
-    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.png" alt="" aria-hidden="true">
-    <h2>You wouldn't be here if what you were doing was working.<br><span class="pr-italic">It's time for PipeRocket.</span></h2>
-    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2><span class="pr-cta-soft">You wouldn&rsquo;t be here if what you were doing was working.</span> <strong>It&rsquo;s time for PipeRocket.</strong></h2>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="service-bottom">Book free consultation</a>
   </div>
 </section>
 
