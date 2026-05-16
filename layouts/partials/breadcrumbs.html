@@ -1,0 +1,73 @@
+{{/* breadcrumbs.html — auto-generated breadcrumb trail rendered above
+     every page's main content (called from baseof.html). Skips the home
+     page. Outputs both a visible <nav> and a Schema.org BreadcrumbList
+     JSON-LD block for SEO.
+
+     Section → user-friendly label mapping: edit $sectionLabels below to
+     change how a section's name appears in the trail. */}}
+
+{{ if not .IsHome }}
+  {{ $sectionLabels := dict
+       "blogs"        "Blogs"
+       "list"         "Best Lists"
+       "glossary"     "Glossary"
+       "compare"      "Comparisons"
+       "alternative"  "Alternatives"
+       "vs"           "VS"
+       "authors"      "Authors"
+       "case-study"   "Case Studies"
+       "tools"        "Free Tools"
+  }}
+
+  {{ $crumbs := slice (dict "name" "Home" "url" "/") }}
+
+  {{ $section := .Section }}
+  {{ if $section }}
+    {{ $label := index $sectionLabels $section | default (title (replace $section "-" " ")) }}
+    {{ $crumbs = $crumbs | append (dict "name" $label "url" (printf "/%s/" $section)) }}
+  {{ end }}
+
+  {{/* Skip the trailing crumb if this IS the section index page */}}
+  {{ $isSectionIndex := and $section (eq (printf "/%s/" $section) .RelPermalink) }}
+  {{ if not $isSectionIndex }}
+    {{ $crumbs = $crumbs | append (dict "name" .Title "url" .RelPermalink "current" true) }}
+  {{ end }}
+
+  <nav class="pr-breadcrumbs" aria-label="Breadcrumb">
+    <div class="pr-container">
+      <ol class="pr-breadcrumbs__list">
+        {{ range $i, $c := $crumbs }}
+          <li class="pr-breadcrumbs__item{{ if $c.current }} pr-breadcrumbs__item--current{{ end }}">
+            {{ if $c.current }}
+              <span aria-current="page">{{ $c.name }}</span>
+            {{ else }}
+              <a href="{{ $c.url }}">{{ $c.name }}</a>
+            {{ end }}
+            {{ if lt (add $i 1) (len $crumbs) }}
+              <span class="pr-breadcrumbs__sep" aria-hidden="true">›</span>
+            {{ end }}
+          </li>
+        {{ end }}
+      </ol>
+    </div>
+  </nav>
+
+  {{/* Schema.org BreadcrumbList for SEO */}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{ range $i, $c := $crumbs -}}
+        {{ if $i }},{{ end -}}
+        {
+          "@type": "ListItem",
+          "position": {{ add $i 1 }},
+          "name": {{ $c.name | jsonify }}{{ if not $c.current }},
+          "item": {{ (absURL $c.url) | jsonify }}{{ end }}
+        }
+      {{- end }}
+    ]
+  }
+  </script>
+{{ end }}

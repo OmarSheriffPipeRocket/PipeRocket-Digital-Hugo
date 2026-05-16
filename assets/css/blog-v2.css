@@ -148,19 +148,61 @@
   }
 }
 
-/* TOC block */
+/* TOC block — matches the listicle v2 TOC visual: bordered card with a
+   serif "In this article" heading + numbered "1." entries below.
+   This is the shared TOC look used across blogs, methodology, and listicles. */
 .pr-blog-v2__toc-block {
   border: 1px solid #111;
   border-radius: 8px;
   overflow: hidden;
 }
 .pr-blog-v2__rail-label {
+  position: relative;
   font-family: "IvyPresto Headline", Georgia, serif;
   font-weight: 600;
   font-size: 22px;
   color: #000;
   padding: 20px 24px 16px;
   border-bottom: 1px solid #111;
+  margin: 0;
+}
+/* Caret + collapsible behaviour kick in only on narrow viewports.
+   On desktop the TOC body stays visible regardless of `is-open`,
+   mirroring the listicle pattern. */
+.pr-blog-v2__toc-caret {
+  display: none;
+  font-size: 16px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+  color: #000;
+  margin-left: 8px;
+}
+@media (max-width: 1024px) {
+  .pr-blog-v2__toc-block--collapsible .pr-blog-v2__rail-label {
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    padding-right: 56px;
+    user-select: none;
+  }
+  .pr-blog-v2__toc-block--collapsible .pr-blog-v2__toc-caret {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+  }
+  .pr-blog-v2__toc-block--collapsible.is-open .pr-blog-v2__rail-label {
+    border-bottom-color: #111;
+  }
+  .pr-blog-v2__toc-block--collapsible.is-open .pr-blog-v2__toc-caret {
+    transform: translateY(-50%) rotate(180deg);
+  }
+  .pr-blog-v2__toc-block--collapsible [data-pr-blog-toc] {
+    display: none;
+  }
+  .pr-blog-v2__toc-block--collapsible.is-open [data-pr-blog-toc] {
+    display: block;
+  }
 }
 
 /* TOC nav */
@@ -171,11 +213,32 @@
   padding: 0;
 }
 
-/* H2 items */
+/* Desktop: cap the TOC inside the viewport so a long article doesn't push
+   the CTA card below the fold. Internal scrollbar appears only when the
+   TOC overflows. Mobile keeps the natural flow (no inner scrollbox). */
+@media (min-width: 1024px) {
+  [data-pr-blog-toc] {
+    max-height: calc(100vh - 300px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+    padding-right: 6px;
+  }
+  [data-pr-blog-toc]::-webkit-scrollbar { width: 6px; }
+  [data-pr-blog-toc]::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
+  [data-pr-blog-toc]::-webkit-scrollbar-track { background: transparent; }
+}
+
+/* H2 items — mirrors the listicle [data-pr-agency-toc] item style so
+   blogs + listicles share one TOC look. Numbered "1." spans are injected
+   by blog-v2.js with class `.toc-num`. */
 [data-pr-blog-toc] .pr-blog-toc__item--h2 > a {
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  gap: 10px;
   padding: 7px 24px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -186,7 +249,17 @@
   transition: color 0.15s;
 }
 [data-pr-blog-toc] .pr-blog-toc__item--h2 > a:hover { color: #0ba6e2; }
-[data-pr-blog-toc] .pr-blog-toc__item--h2.is-active > a { color: #0ba6e2; font-weight: 500; }
+[data-pr-blog-toc] .pr-blog-toc__item--h2.is-active > a {
+  color: #0ba6e2;
+  font-weight: 500;
+}
+[data-pr-blog-toc] .toc-num {
+  flex-shrink: 0;
+  font-size: 13px;
+  color: #000;
+  min-width: 18px;
+}
+[data-pr-blog-toc] .pr-blog-toc__item--h2.is-active > a .toc-num { color: #0ba6e2; }
 
 
 /* CTA card */

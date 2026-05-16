@@ -25,23 +25,44 @@
   {{ end }}
 {{ end }}
 
-{{/* Title: SEO-optimized with brand suffix.
-     - Home: frontmatter title if present, else .Site.Title
-     - Author page: "<Name>, <Role> | PipeRocket Digital"
-     - Other: "<Page Title> - PipeRocket" */}}
-{{ $title := printf "%s - PipeRocket" .Title }}
+{{/* Title resolution order (highest precedence first):
+     1. frontmatter `meta_title` — SEO-specific override
+     2. Author page auto-build: "<Name>, <Role> | PipeRocket Digital"
+     3. Home: frontmatter title or .Site.Title
+     4. Other: "<Page Title>" — append " | PipeRocket" only when the
+        title doesn't already contain the brand (avoids double-branding
+        long titles that already end in "| PipeRocket"). */}}
+{{ $rawTitle := .Title }}
+{{ $titleLower := lower $rawTitle }}
+{{ $hasBrand := or (in $titleLower "piperocket") (in $titleLower "pipe rocket") }}
+{{ $title := cond $hasBrand $rawTitle (printf "%s | PipeRocket" $rawTitle) }}
 {{ if $isHome }}
   {{ $title = default .Site.Title .Title }}
 {{ end }}
 {{ if and $isAuthorPage $author.name $author.role }}
-  {{ $title = printf "%s, %s | PipeRocket Digital" $author.name $author.role }}
+  {{/* If role already contains brand, skip the suffix to avoid double-branding */}}
+  {{ if in (lower $author.role) "piperocket" }}
+    {{ $title = printf "%s, %s" $author.name $author.role }}
+  {{ else }}
+    {{ $title = printf "%s, %s | PipeRocket Digital" $author.name $author.role }}
+  {{ end }}
+{{ end }}
+{{ with .Params.metaTitle }}
+  {{ $title = . }}
 {{ end }}
 
-{{/* Description: prefer page frontmatter, then auto-build for author pages
-     from authors.toml data, then fall back to site default. */}}
+
+{{/* Description resolution order:
+     1. frontmatter `meta_description` — SEO override
+     2. Author page auto-build from authors.toml
+     3. frontmatter `description`
+     4. site-wide default */}}
 {{ $desc := default .Site.Params.description .Description }}
 {{ if and $isAuthorPage (not .Description) $author.bio }}
   {{ $desc = printf "%s — %s. %s" (default "" $author.name) (default "" $author.role) $author.bio }}
+{{ end }}
+{{ with .Params.metaDescription }}
+  {{ $desc = . }}
 {{ end }}
 
 {{ $img := absURL (default "/images/piperocket-logo.svg" .Params.featuredImage) }}

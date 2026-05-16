@@ -2366,6 +2366,7 @@ a.pr-hero__cta:hover,
   padding: 180px 0 calc(var(--pr-s-9) + 80px);
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 .pr-cta-final--seo {
   padding-top: 140px;
@@ -5537,6 +5538,42 @@ main table a,
     position: sticky;
     top: calc(var(--pr-s-7) + 70px);
   }
+
+  /* 2-column variant — opt-in via .pr-2col-article on the parent <article>.
+     Grid is strictly one row (rail + main). The author + related-links
+     partial is rendered OUTSIDE this grid in the template, so the sticky
+     left-rail can't overlap it. Used by /alternative/ and /compare/. */
+  .pr-2col-article .pr-article-3-6-3 {
+    grid-template-columns: 3fr 9fr;
+    column-gap: var(--pr-s-8);
+  }
+}
+/* Stack TOC and CTA inside the rail with a clear visual gap — applies on
+   both desktop and mobile so the cards never butt up against each other. */
+.pr-2col-article .pr-article-3-6-3 .pr-article-rail--left {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+/* Out-of-grid author/related block — centered full-width footer below
+   the article body on 2-col pages. */
+.pr-2col-article > .pr-container > .pr-article-rail--right,
+.pr-2col-article .pr-article-rail--right.pr-article-rail--footer {
+  position: static;
+  top: auto;
+  max-width: 920px;
+  width: 100%;
+  margin: var(--pr-s-7) auto 0;
+}
+/* The article-rail-author partial uses .pr-article-rail--right inline;
+   when it's outside the grid (a direct child of .pr-container under
+   .pr-2col-article), make it look like a full-width section. */
+.pr-2col-article > .pr-container > aside.pr-article-rail--right {
+  position: static;
+  top: auto;
+  max-width: 920px;
+  width: 100%;
+  margin: var(--pr-s-7) auto 0;
 }
 .pr-article-rail__card {
   background: var(--pr-cream-2);
@@ -6822,13 +6859,25 @@ main table a,
 }
 .pr-blog-v2__cta-btn:hover { background: #0993c9; }
 
-/* Shared sticky sidebar rail — used by blog-v2 and glossary */
+/* Shared sidebar rail — used by blog-v2 and glossary.
+   Sticky only on desktop; on mobile it stacks normally and (on glossary)
+   gets reordered below the main content via the rule further down. */
 .pr-blog-v2__rail {
-  position: sticky;
-  top: 100px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+@media (min-width: 1024px) {
+  .pr-blog-v2__rail {
+    position: sticky;
+    top: 100px;
+  }
+  /* Glossary has its own sticky search bar (top: 72px, ~60px tall) so the
+     sidebar rails need to stick BELOW it instead of being clipped. */
+  .pr-glossary .pr-blog-v2__rail,
+  .pr-glossary .pr-article-rail {
+    top: 148px;
+  }
 }
 
 /* Glossary knowledge-hub left rail — matches blog/listicle TOC design */
@@ -6841,7 +6890,7 @@ main table a,
 .pr-knowledge-hub .pr-article-rail__heading {
   font-family: "IvyPresto Headline", Georgia, serif;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 23px;
   letter-spacing: normal;
   text-transform: none;
   color: #000;
@@ -6851,10 +6900,12 @@ main table a,
   background: transparent;
 }
 
-/* Search bar — top-of-page variant (full width, prominent, sticky below header) */
+/* Search bar — top-of-page variant (full width, prominent, sticky below header).
+   Sticky only on desktop. On mobile it scrolls with the page because (a) the
+   Knowledge Hub is moved below the article body anyway, so search-from-anywhere
+   isn't critical, and (b) keeping it pinned on a 390px viewport clips content
+   the user scrolls into. */
 .pr-search.pr-glossary__search-top {
-  position: sticky;
-  top: calc(64px + 8px); /* below sticky header */
   z-index: 40;
   margin: 0 auto var(--pr-s-7);
   padding: 8px 0;
@@ -6862,19 +6913,30 @@ main table a,
   max-width: 720px;
   background: var(--pr-cream);
 }
-/* On scroll past header, give a subtle lift */
-.pr-search.pr-glossary__search-top::before {
-  content: "";
-  position: absolute;
-  inset: 0 -50vw;
-  background: var(--pr-cream);
-  z-index: -1;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.2s;
+@media (min-width: 1024px) {
+  .pr-search.pr-glossary__search-top {
+    position: sticky;
+    top: calc(64px + 8px); /* below sticky header */
+  }
 }
-.pr-search.pr-glossary__search-top.is-stuck::before {
-  border-bottom-color: var(--pr-line);
-  box-shadow: 0 4px 18px rgba(13,13,13,0.05);
+/* Full-bleed cream backdrop on desktop only — the search bar is sticky
+   there and needs a visual stripe that spans the page. On mobile the bar
+   sits in document flow, so the 50vw bleed would just create horizontal
+   overflow on the body. */
+@media (min-width: 1024px) {
+  .pr-search.pr-glossary__search-top::before {
+    content: "";
+    position: absolute;
+    inset: 0 -50vw;
+    background: var(--pr-cream);
+    z-index: -1;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+  .pr-search.pr-glossary__search-top.is-stuck::before {
+    border-bottom-color: var(--pr-line);
+    box-shadow: 0 4px 18px rgba(13,13,13,0.05);
+  }
 }
 .pr-search.pr-glossary__search-top .pr-search__icon {
   left: 18px;
@@ -7141,7 +7203,7 @@ main table a,
   padding: 7px 24px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   color: #000;
   line-height: 1.4;
   transition: color 0.15s;
@@ -7153,14 +7215,28 @@ main table a,
 
 .pr-knowledge-hub__title { flex: 1; min-width: 0; }
 .pr-knowledge-hub__chevron {
-  display: inline-block;
-  color: #aaa;
-  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: #555;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
   line-height: 1;
-  transition: transform 0.15s;
+  transition: color 0.15s;
 }
+.pr-knowledge-hub__chevron::before {
+  content: "+";
+  font-size: 21px;
+  line-height: 1;
+}
+.pr-knowledge-hub__category[open] > summary > .pr-knowledge-hub__chevron::before {
+  content: "−";
+}
+.pr-knowledge-hub__category > summary:hover > .pr-knowledge-hub__chevron,
 .pr-knowledge-hub__category[open] > summary > .pr-knowledge-hub__chevron {
-  transform: rotate(90deg);
+  color: #0ba6e2;
 }
 
 /* Term list */
@@ -7175,7 +7251,7 @@ main table a,
   padding: 5px 24px 5px 36px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   color: #555;
   text-decoration: none;
   line-height: 1.4;
@@ -7196,6 +7272,38 @@ main table a,
 .pr-knowledge-hub__terms a:hover { color: #0ba6e2; }
 .pr-knowledge-hub__terms li.is-active a { color: #0ba6e2; font-weight: 500; }
 .pr-knowledge-hub__terms li.is-active a::before { background: #0ba6e2; }
+
+/* Mobile: drop the 420px scroll cap on the nav (we'd otherwise have a tiny
+   nested scroll area inside a long page) and bump category/term sizes so
+   each row meets a 44px tap-target. */
+@media (max-width: 1023px) {
+  .pr-knowledge-hub__nav {
+    max-height: none;
+    overflow-y: visible;
+    padding: 16px 0 8px;
+  }
+  .pr-knowledge-hub__category > summary {
+    padding: 12px 24px;
+    font-size: 17px;
+    line-height: 1.45;
+  }
+  .pr-knowledge-hub__chevron {
+    width: 24px;
+    height: 24px;
+  }
+  .pr-knowledge-hub__chevron::before {
+    font-size: 25px;
+  }
+  .pr-knowledge-hub__terms a {
+    padding: 10px 24px 10px 40px;
+    font-size: 16px;
+  }
+  .pr-knowledge-hub__terms a::before {
+    left: 28px;
+    width: 5px;
+    height: 5px;
+  }
+}
 
 /* .pr-glossary-index__card p — replaced by .pr-bloglist__excerpt */
 
@@ -7251,16 +7359,50 @@ main table a,
     order: -1;
   }
 
-  /* Glossary: push Knowledge Hub below the main content so the first
-     30% of the page on mobile is the actual definition (key for AI bots
-     and search engines to surface the answer up front). */
+  /* Universal mobile sidebar reorder — main content first, then TOC + CTA
+     rail at the bottom. Surfaces the actual article in the first viewport
+     (better UX, better AEO/SEO). The rail still uses the collapsible
+     pattern so it stays compact at the end.
+
+     Glossary additionally has a Knowledge Hub rail that goes last (after
+     TOC + CTA), since it's a navigator, not an article TOC. */
+
+  /* Blogs (single + v2) + research-methodology */
+  .pr-blog-v2__grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .pr-blog-v2__grid > .pr-blog-v2__main,
+  .pr-blog-v2__grid > [data-pr-blog-main] { order: 1; }
+  .pr-blog-v2__grid > .pr-blog-v2__rail { order: 2; }
+
+  /* Listicles */
+  .pr-listicle-v2__grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .pr-listicle-v2__grid > .pr-listicle-v2__main { order: 1; }
+  .pr-listicle-v2__grid > .pr-listicle-v2__rail-left { order: 2; }
+
+  /* Compare + Alternative (2-col article using .pr-article-3-6-3) */
+  .pr-2col-article .pr-article-3-6-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .pr-2col-article .pr-article-3-6-3 > .pr-article-main { order: 1; }
+  .pr-2col-article .pr-article-3-6-3 > .pr-article-rail--left { order: 2; }
+
+  /* Glossary — same flow, plus Knowledge Hub at the very end */
   .pr-glossary .pr-article-3-6-3 {
     display: flex;
     flex-direction: column;
   }
   .pr-glossary .pr-article-3-6-3 .pr-article-main { order: 1; }
-  .pr-glossary .pr-article-3-6-3 .pr-article-rail--left { order: 2; }
-  .pr-glossary .pr-article-3-6-3 .pr-article-rail--right { order: 3; }
+  /* The left blog-v2 rail (TOC + CTA) comes BEFORE the right Knowledge Hub
+     rail. Both are .pr-blog-v2__rail — distinguished by DOM order via
+     :first-of-type / :last-of-type. */
+  .pr-glossary .pr-article-3-6-3 .pr-blog-v2__rail:first-of-type { order: 2; }
+  .pr-glossary .pr-article-3-6-3 .pr-blog-v2__rail:last-of-type { order: 3; }
 }
 
 /* =================================================================
@@ -7418,6 +7560,413 @@ main table a,
 }
 .pr-listicle__body .pr-list--manual-numbered > li > ol > li {
   margin-bottom: 0;
+}
+
+/* "Did You Know" / "Fun Fact" / "Tip" / "Note" / "Warning" inline callout
+   boxes — auto-wrapped by setupFactCallouts() in assets/js/main.js when it
+   spots a bare-text marker paragraph in any article body. */
+.pr-fact-callout {
+  display: block;
+  margin: var(--pr-s-5) 0;
+  padding: var(--pr-s-4) var(--pr-s-5) var(--pr-s-3) var(--pr-s-5);
+  background: var(--pr-cream-2);
+  border-left: 4px solid var(--pr-cyan);
+  border-radius: 6px;
+}
+.pr-fact-callout__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: var(--pr-s-2);
+  font-family: var(--pr-sans);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--pr-cyan);
+}
+.pr-fact-callout__label::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: currentColor;
+  -webkit-mask: var(--pr-fact-icon, none) center / contain no-repeat;
+          mask: var(--pr-fact-icon, none) center / contain no-repeat;
+}
+.pr-fact-callout__body > * { margin: 0 0 var(--pr-s-3); }
+.pr-fact-callout__body > *:last-child { margin-bottom: 0; }
+.pr-fact-callout__body p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--pr-ink);
+}
+
+/* Hide markdown <hr> dividers inside article bodies — they were used as
+   visual section breaks in long-form content but read as noise now that
+   sections have generous heading spacing. The HR nodes stay in the DOM
+   (used by setupFactCallouts as a callout end-boundary), only the visual
+   rule is suppressed. */
+.pr-blog__body hr,
+.pr-blog-v2__main hr,
+.pr-listicle__body hr,
+.pr-listicle-v2__main hr,
+.pr-glossary__body hr,
+.pr-alt__body hr,
+.pr-compare__body hr {
+  border: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Variant accents */
+.pr-fact-callout--fact {
+  border-left-color: #C8A951;
+  background: var(--pr-cream-2);
+}
+.pr-fact-callout--fact .pr-fact-callout__label {
+  color: #8C6E1F;
+  --pr-fact-icon: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'><path d='M12 2a7 7 0 0 0-4 12.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26A7 7 0 0 0 12 2zm-2 19a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-1h-4z'/></svg>");
+}
+
+.pr-fact-callout--tip {
+  border-left-color: var(--pr-cyan);
+  background: #E8F8FC;
+}
+.pr-fact-callout--tip .pr-fact-callout__label {
+  color: #087CA0;
+  --pr-fact-icon: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'><path d='M12 1a9 9 0 1 0 9 9 9 9 0 0 0-9-9zm1 14h-2v-2h2zm0-4h-2V6h2z'/></svg>");
+}
+
+.pr-fact-callout--note {
+  border-left-color: #6B6B6B;
+  background: #F4F1E8;
+}
+.pr-fact-callout--note .pr-fact-callout__label {
+  color: #3a3a3a;
+  --pr-fact-icon: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'><path d='M14 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9zM7 7h6v2H7zm10 12H5V5h7v6h5zM7 11h10v2H7zm0 4h10v2H7z'/></svg>");
+}
+
+.pr-fact-callout--warning {
+  border-left-color: #FC6B7E;
+  background: #FCEBEE;
+}
+.pr-fact-callout--warning .pr-fact-callout__label {
+  color: #C53A4F;
+  --pr-fact-icon: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'><path d='M12 2 1 21h22zm1 14h-2v2h2zm0-6h-2v5h2z'/></svg>");
+}
+
+/* Breadcrumb trail — auto-rendered on every page except home via the
+   partial layouts/partials/breadcrumbs.html. Sits in a thin bar below the
+   site header and above the page hero. Skipped on print. */
+.pr-breadcrumbs {
+  background: transparent;
+  padding: 10px 0;
+  font-family: var(--pr-sans);
+}
+/* When the page has a dark hero banner directly after, merge the
+   breadcrumb into the same dark slab so it reads as part of the hero. */
+body:has(.pr-blog-v2__banner) .pr-breadcrumbs,
+body:has(.pr-listicle-v2__banner) .pr-breadcrumbs {
+  background: #282828;
+  padding: 14px 0 10px;
+  margin-bottom: -1px; /* avoid hairline gap to banner */
+}
+body:has(.pr-blog-v2__banner) .pr-breadcrumbs__list,
+body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__list {
+  color: rgba(255, 255, 255, 0.55);
+}
+body:has(.pr-blog-v2__banner) .pr-breadcrumbs__item a,
+body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__item a {
+  color: rgba(255, 255, 255, 0.7);
+}
+body:has(.pr-blog-v2__banner) .pr-breadcrumbs__item a:hover,
+body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__item a:hover {
+  color: var(--pr-cyan);
+}
+body:has(.pr-blog-v2__banner) .pr-breadcrumbs__item--current span,
+body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__item--current span {
+  color: #fff;
+}
+body:has(.pr-blog-v2__banner) .pr-breadcrumbs__sep,
+body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__sep {
+  color: rgba(255, 255, 255, 0.35);
+}
+.pr-breadcrumbs__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.82rem;
+  color: var(--pr-muted);
+}
+.pr-breadcrumbs__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+.pr-breadcrumbs__item a {
+  color: var(--pr-ink-2);
+  text-decoration: none;
+  transition: color 0.15s;
+  white-space: nowrap;
+}
+.pr-breadcrumbs__item a:hover {
+  color: var(--pr-cyan);
+}
+.pr-breadcrumbs__item--current span {
+  color: var(--pr-ink);
+  font-weight: 600;
+  /* Truncate very long titles on narrow viewports */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: min(70vw, 540px);
+  display: inline-block;
+  vertical-align: bottom;
+}
+.pr-breadcrumbs__sep {
+  color: var(--pr-muted);
+  font-size: 0.9rem;
+  user-select: none;
+}
+@media print {
+  .pr-breadcrumbs { display: none; }
+}
+
+/* "Why Trust Our Reviews" trust badge — chip + hover/focus methodology
+   popover. Used inside the dark hero banner on listicle / compare /
+   alternative pages to signal E-E-A-T (real methodology, not a sponsored
+   list). Renders via layouts/partials/trust-reviews-chip.html. */
+.pr-trust {
+  position: relative;
+  display: inline-flex;
+  margin: var(--pr-s-4) 0 0;
+}
+.pr-trust__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px 8px 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  font-family: var(--pr-sans);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.pr-trust__chip:hover,
+.pr-trust__chip:focus-visible {
+  background: rgba(12, 198, 241, 0.18);
+  border-color: var(--pr-cyan);
+  outline: none;
+}
+.pr-trust__icon {
+  width: 16px;
+  height: 16px;
+  color: var(--pr-cyan);
+  flex-shrink: 0;
+}
+.pr-trust__card {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: min(420px, 90vw);
+  /* extra top padding = invisible hover bridge so cursor can travel from
+     the chip into the card without losing :hover state (mirrors the
+     author popover pattern) */
+  padding: 34px 22px 18px;
+  background: #fff;
+  color: var(--pr-ink);
+  border-radius: 12px;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.18);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+  z-index: 50;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: var(--pr-sans);
+  text-align: left;
+  background-clip: padding-box;
+}
+.pr-trust:hover .pr-trust__card,
+.pr-trust:focus-within .pr-trust__card {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition-delay: 0.1s;
+}
+.pr-trust__card::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 24px;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  transform: rotate(45deg);
+  box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.04);
+}
+.pr-trust__title {
+  font-family: var(--pr-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--pr-ink);
+}
+.pr-trust__body {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--pr-ink-2);
+  margin: 0;
+}
+.pr-trust__link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--pr-cyan);
+  text-decoration: none;
+  padding-top: 4px;
+}
+.pr-trust__link:hover { text-decoration: underline; }
+
+/* Mobile: chip works as a tap-to-open via :focus-within (since :focus on
+   button persists until next tap). No hover affordance on touch. */
+@media (hover: none) {
+  .pr-trust__card { left: 0; right: 0; width: auto; }
+}
+
+/* Author hover popover — appears below the byline when the user hovers
+   the author name. Shows photo, name, role, bio, LinkedIn, full-profile
+   link. Disabled on touch viewports (the bottom author card covers the
+   same info on mobile). */
+.pr-author-tip {
+  position: relative;
+  display: inline-flex;
+}
+.pr-author-tip__card {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 320px;
+  max-width: min(90vw, 360px);
+  /* extra top padding = invisible hover bridge so cursor can travel from
+     the byline into the card without losing :hover state */
+  padding: 30px 18px 14px;
+  background: #fff;
+  color: #0D0D0D;
+  border-radius: 10px;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.22);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+  z-index: 50;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: var(--pr-sans);
+  text-align: left;
+  background-clip: padding-box;
+}
+.pr-author-tip:hover .pr-author-tip__card,
+.pr-author-tip:focus-within .pr-author-tip__card {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition-delay: 0.1s;
+}
+.pr-author-tip__card::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 28px;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  transform: rotate(45deg);
+  box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.04);
+}
+.pr-author-tip__head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.pr-author-tip__photo {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+.pr-author-tip__id {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.pr-author-tip__name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #0D0D0D;
+  line-height: 1.25;
+}
+.pr-author-tip__role {
+  font-size: 0.78rem;
+  color: var(--pr-muted);
+  line-height: 1.3;
+  margin-top: 2px;
+}
+.pr-author-tip__bio {
+  display: block;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--pr-ink-2);
+  margin: 0;
+}
+.pr-author-tip__foot {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 0.8rem;
+  padding-top: 8px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+.pr-author-tip__li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #0A66C2;
+  font-weight: 600;
+  text-decoration: none;
+}
+.pr-author-tip__li:hover { text-decoration: underline; }
+.pr-author-tip__li svg { flex-shrink: 0; }
+.pr-author-tip__profile {
+  color: var(--pr-ink);
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: auto;
+}
+.pr-author-tip__profile:hover { color: var(--pr-cyan); }
+
+/* Hide on touch-only devices (no hover affordance) — the bottom author
+   card already covers the same data. */
+@media (hover: none) {
+  .pr-author-tip__card { display: none; }
 }
 
 /* "Also read:" / "Related:" inline callouts (auto-decorated by JS) */

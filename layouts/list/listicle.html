@@ -31,15 +31,19 @@
           <h1 class="pr-listicle-v2__title">{{ .Title }}</h1>
           <div class="pr-listicle-v2__byline">
             {{ with $writer }}
-              <a class="pr-listicle-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
-                {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
-                <span>{{ .name }}</span>
-              </a>
+              <span class="pr-author-tip">
+                <a class="pr-listicle-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
+                  {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+                  <span>{{ .name }}</span>
+                </a>
+                {{ partial "article-author-popover.html" (dict "writer" $writer "slug" $.Params.writtenBy) }}
+              </span>
             {{ end }}
             {{ if and $writer (not $lastmod.IsZero) }}<span class="pr-listicle-v2__byline-sep">|</span>{{ end }}
             {{ if not $lastmod.IsZero }}<span class="pr-listicle-v2__lastmod">Last updated on <time datetime="{{ $lastmod.Format "2006-01-02" }}">{{ $lastmod.Format "2 January, 2006" }}</time></span>{{ end }}
           </div>
           {{ partial "article-utility-icons.html" . }}
+          {{ partial "trust-reviews-chip.html" . }}
         </div>
         {{ with .Params.featuredImage }}
           <div class="pr-listicle-v2__banner-art">

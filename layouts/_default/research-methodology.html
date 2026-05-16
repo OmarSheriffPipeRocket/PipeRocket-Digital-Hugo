@@ -33,10 +33,13 @@
         <h1 class="pr-blog-v2__title">{{ .Title }}</h1>
         <div class="pr-blog-v2__byline">
           {{ with $writer }}
-            <a class="pr-blog-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
-              {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
-              <span>{{ .name }}</span>
-            </a>
+            <span class="pr-author-tip">
+              <a class="pr-blog-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
+                {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+                <span>{{ .name }}</span>
+              </a>
+              {{ partial "article-author-popover.html" (dict "writer" $writer "slug" $.Params.writtenBy) }}
+            </span>
           {{ end }}
           {{ if and $writer (not $lastmod.IsZero) }}<span class="pr-blog-v2__byline-sep">|</span>{{ end }}
           {{ if not $lastmod.IsZero }}<span class="pr-blog-v2__lastmod">Last reviewed on <time datetime="{{ $lastmod.Format "2006-01-02" }}">{{ $lastmod.Format "2 January, 2006" }}</time></span>{{ end }}

@@ -30,6 +30,7 @@
   {{ partial "header.html" . }}
 
   <main>
+    {{ partial "breadcrumbs.html" . }}
     {{ block "main" . }}{{ end }}
   </main>
 

@@ -1,20 +1,47 @@
-{{ define "main" }}
-<article class="pr-alt">
-  <div class="pr-container">
+{{ define "head_extra" }}
+{{ $css := resources.Get "css/blog-v2.css" }}
+{{ if $css }}
+  {{ $css = $css | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ end }}
+{{ end }}
 
-    <header class="pr-alt__header">
-      {{ with .Params.category }}<div class="pr-eyebrow pr-eyebrow--red">{{ . }}</div>{{ end }}
-      <h1 class="pr-alt__title">{{ .Title }}</h1>
-      {{ with .Params.description }}<p class="pr-alt__lede">{{ . }}</p>{{ end }}
-      <div class="pr-alt__byline">
-        <div class="pr-alt__meta">
-          {{ partial "article-byline.html" . }}
-          {{ if not .Date.IsZero }}<span><time datetime="{{ .Date.Format "2006-01-02" }}">Updated {{ .Date.Format "Jan 2, 2006" }}</time></span>{{ end }}
-          {{ with .Params.readingTime }}<span>{{ . }}</span>{{ end }}
+{{ define "main" }}
+{{ $authors := site.Data.authors }}
+{{ $writer := index $authors (default "" .Params.writtenBy) }}
+{{ $lastmod := .Lastmod }}{{ if $lastmod.IsZero }}{{ $lastmod = .Date }}{{ end }}
+
+<article class="pr-alt pr-2col-article" data-pr-blog-v2>
+
+  <header class="pr-blog-v2__banner">
+    <div class="pr-blog-v2__banner-grid">
+      <div class="pr-blog-v2__banner-copy">
+        <div class="pr-blog-v2__chip">
+          <span class="pr-blog-v2__chip-text">
+            {{ with .Params.category }}{{ . }}{{ else }}Alternatives{{ end }}{{ if .Params.readingTime }} · {{ .Params.readingTime | upper }}{{ else if .ReadingTime }} · {{ .ReadingTime }} MIN READ{{ end }}
+          </span>
+        </div>
+        <h1 class="pr-blog-v2__title">{{ .Title }}</h1>
+        {{ with .Params.description }}<p class="pr-alt__lede">{{ . }}</p>{{ end }}
+        <div class="pr-blog-v2__byline">
+          {{ with $writer }}
+            <span class="pr-author-tip">
+              <a class="pr-blog-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
+                {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+                <span>{{ .name }}</span>
+              </a>
+              {{ partial "article-author-popover.html" (dict "writer" $writer "slug" $.Params.writtenBy) }}
+            </span>
+          {{ end }}
+          {{ if and $writer (not $lastmod.IsZero) }}<span class="pr-blog-v2__byline-sep">|</span>{{ end }}
+          {{ if not $lastmod.IsZero }}<span class="pr-blog-v2__lastmod">Last updated on <time datetime="{{ $lastmod.Format "2006-01-02" }}">{{ $lastmod.Format "2 January, 2006" }}</time></span>{{ end }}
         </div>
         {{ partial "article-utility-icons.html" . }}
       </div>
-    </header>
+    </div>
+  </header>
+
+  <div class="pr-container">
 
     {{ with .Params.primary }}
       <section class="pr-alt__primary">
@@ -58,27 +85,27 @@
     <div class="pr-article-3-6-3">
 
       <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
-        <div class="pr-article-rail__card pr-article-rail__cta">
-          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
-          <strong>Pick the right partner in 30 minutes.</strong>
-          <p>We work with a small number of B2B SaaS companies at a time.</p>
-          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+        {{ with .Params.alternatives }}
+          <div class="pr-blog-v2__toc-block">
+            <div class="pr-blog-v2__rail-label">In this article</div>
+            <nav data-pr-blog-toc>
+              <ol>
+                {{ range $i, $a := . }}
+                  <li class="pr-blog-toc__item pr-blog-toc__item--h2"><a href="#{{ $a.slug }}"><span class="toc-num">{{ add $i 1 }}.</span> {{ $a.name }}</a></li>
+                {{ end }}
+              </ol>
+            </nav>
+          </div>
+        {{ end }}
+
+        <div class="pr-blog-v2__cta">
+          <div class="pr-blog-v2__cta-h">Talk to a SaaS marketer</div>
+          <p class="pr-blog-v2__cta-d">Pick the right partner in 30 minutes. We work with a small number of B2B SaaS companies at a time.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-blog-v2__cta-btn" data-cta-location="alternative-sidebar">{{ .Site.Params.secondary_cta_text }}</a>
         </div>
-
-        <details class="pr-article-rail__card pr-article-rail__card--collapsible">
-          <summary class="pr-article-rail__heading">In this article</summary>
-          <nav class="pr-article-rail__toc">
-            <ol>
-              {{ range $i, $a := .Params.alternatives }}
-                <li><a href="#{{ $a.slug }}"><span class="pr-article-rail__num">{{ printf "%02d" (add $i 1) }}</span>{{ $a.name }}</a></li>
-              {{ end }}
-            </ol>
-          </nav>
-        </details>
-
       </aside>
 
-      <div class="pr-article-main">
+      <div class="pr-article-main" data-pr-blog-main>
         {{ with .Params.alternatives }}
           <section class="pr-alt__items">
             {{ range $i, $a := . }}
@@ -125,10 +152,21 @@
         {{ partial "article-cta.html" . }}
       </div>
 
-      {{ partial "article-rail-author.html" . }}
-
     </div>
+
+    {{/* Author + Popular reads — rendered AFTER the grid so the left-rail
+         sticky positioning isn't confined into the same scroll container. */}}
+    {{ partial "article-rail-author.html" . }}
 
   </div>
 </article>
+
+{{/* Blog-v2 TOC engine — wires up the mobile-collapsible toggle on the
+     left rail. The H2 auto-scanner is short-circuited because the rail
+     was already populated from .Params.alternatives above. */}}
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}
+  {{ $js = $js | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}
 {{ end }}

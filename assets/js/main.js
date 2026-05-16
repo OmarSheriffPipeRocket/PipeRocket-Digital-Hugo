@@ -321,30 +321,10 @@ const setupPageToc = () => {
   headings.forEach((h) => observer.observe(h));
 };
 
-const setupInlineRelated = () => {
-  document.querySelectorAll('[data-pr-inline-related]').forEach((body) => {
-    const raw = body.dataset.relatedLinks;
-    if (!raw) return;
-    let links = [];
-    try { links = JSON.parse(raw); } catch (_) { return; }
-    if (!Array.isArray(links) || links.length === 0) return;
-
-    const section = document.createElement('section');
-    section.className = 'pr-inline-related-block';
-    section.innerHTML = `
-      <h3 class="pr-inline-related-block__title">Related reads</h3>
-      <div class="pr-inline-related-block__list">
-        ${links.map((link) => `
-          <a class="pr-inline-related-block__item" href="${link.url}">
-            <strong>${link.title}</strong>
-            ${link.description ? `<span>${link.description}</span>` : ''}
-          </a>
-        `).join('')}
-      </div>
-    `;
-    body.appendChild(section);
-  });
-};
+// Inline "Related reads" injection disabled — the related-links system is
+// being unified site-wide. Kept as a no-op so existing data-related-links
+// attributes in templates don't error.
+const setupInlineRelated = () => {};
 
 // Clamp long "On this page" TOCs and add a Show more / Show less toggle.
 const setupTocCollapse = () => {
@@ -777,10 +757,13 @@ const setupCompareDecorations = () => {
 const wrapArticleTables = () => {
   const selector = [
     '.pr-blog__body table',
+    '.pr-blog-v2__main table',
     '.pr-listicle__body table',
+    '.pr-listicle-v2__main table',
     '.pr-glossary__body table',
     '.pr-alt__body table',
     '.pr-compare__body table',
+    '.pr-vs__body table',
   ].join(', ');
   document.querySelectorAll(selector).forEach((table) => {
     if (table.parentElement && table.parentElement.classList.contains('pr-table-scroll')) return;
@@ -818,6 +801,7 @@ const init = () => {
   setupListicleRankings();
   setupStickyGlossarySearch();
   setupAlsoReadCallouts();
+  setupFactCallouts();
   setupCtaModal();
   setupStoriesFilter();
   setupReviewsFilter();
@@ -1178,11 +1162,21 @@ const setupCtaModal = () => {
   });
 };
 
+// Article body containers that should auto-decorate inline callouts.
+const ARTICLE_BODY_SELECTOR = [
+  '.pr-blog__body',
+  '.pr-blog-v2__main',
+  '.pr-listicle__body',
+  '.pr-listicle-v2__main',
+  '.pr-glossary__body',
+  '.pr-alt__body',
+  '.pr-compare__body',
+].join(', ');
+
 // Detect "**Also read:** [link](url)" paragraphs and style them as
 // inline callouts so they read as clickable cards, not body copy.
 const setupAlsoReadCallouts = () => {
-  const bodies = document.querySelectorAll('.pr-blog__body, .pr-listicle__body, .pr-glossary__body');
-  bodies.forEach((body) => {
+  document.querySelectorAll(ARTICLE_BODY_SELECTOR).forEach((body) => {
     body.querySelectorAll('p').forEach((p) => {
       const first = p.firstElementChild;
       if (!first || first.tagName !== 'STRONG') return;
@@ -1190,6 +1184,69 @@ const setupAlsoReadCallouts = () => {
       if (label === 'also read' || label === 'related' || label === 'read next' || label === 'related read') {
         if (p.querySelector('a')) p.classList.add('pr-also-read');
       }
+    });
+  });
+};
+
+// Detect "Did You Know" / "Fun Fact" / "Tip" / "Note" / "Warning" markers
+// (a bare paragraph containing only the label, optionally followed by ":")
+// and wrap the label + the following body paragraphs into a styled callout
+// box. Stops at the next <hr>, heading, or another callout marker.
+const setupFactCallouts = () => {
+  // label-text → callout variant
+  const LABEL_MAP = {
+    'did you know': { variant: 'fact', display: 'Did You Know' },
+    'fun fact': { variant: 'fact', display: 'Fun Fact' },
+    'key insight': { variant: 'fact', display: 'Key Insight' },
+    'tip': { variant: 'tip', display: 'Tip' },
+    'pro tip': { variant: 'tip', display: 'Pro Tip' },
+    'quick tip': { variant: 'tip', display: 'Quick Tip' },
+    'note': { variant: 'note', display: 'Note' },
+    'remember': { variant: 'note', display: 'Remember' },
+    'warning': { variant: 'warning', display: 'Warning' },
+    'important': { variant: 'warning', display: 'Important' },
+    'heads up': { variant: 'warning', display: 'Heads Up' },
+  };
+  const STOP_TAGS = new Set(['H1', 'H2', 'H3', 'H4', 'HR']);
+
+  document.querySelectorAll(ARTICLE_BODY_SELECTOR).forEach((body) => {
+    const candidates = Array.from(body.querySelectorAll('p'));
+    candidates.forEach((labelP) => {
+      // Only bare-text paragraphs qualify (no links, no inline children we'd lose).
+      if (labelP.children.length > 0) return;
+      const raw = labelP.textContent.trim().replace(/[:：]\s*$/, '').toLowerCase();
+      const match = LABEL_MAP[raw];
+      if (!match) return;
+      // Skip if already wrapped.
+      if (labelP.parentElement?.classList.contains('pr-fact-callout')) return;
+
+      // Collect siblings until a stop boundary.
+      const bodyEls = [];
+      let cursor = labelP.nextElementSibling;
+      while (cursor && !STOP_TAGS.has(cursor.tagName)) {
+        // Stop if we hit another callout marker.
+        if (cursor.children.length === 0) {
+          const txt = cursor.textContent.trim().replace(/[:：]\s*$/, '').toLowerCase();
+          if (LABEL_MAP[txt]) break;
+        }
+        bodyEls.push(cursor);
+        cursor = cursor.nextElementSibling;
+      }
+      if (bodyEls.length === 0) return; // no body, leave the paragraph alone
+
+      // Build the callout wrapper.
+      const aside = document.createElement('aside');
+      aside.className = `pr-fact-callout pr-fact-callout--${match.variant}`;
+      const label = document.createElement('div');
+      label.className = 'pr-fact-callout__label';
+      label.textContent = match.display;
+      aside.appendChild(label);
+      const inner = document.createElement('div');
+      inner.className = 'pr-fact-callout__body';
+      bodyEls.forEach((el) => inner.appendChild(el)); // moves the nodes
+      aside.appendChild(inner);
+
+      labelP.replaceWith(aside);
     });
   });
 };

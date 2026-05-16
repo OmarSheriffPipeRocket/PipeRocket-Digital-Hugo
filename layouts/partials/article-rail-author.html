@@ -59,67 +59,7 @@
     </div>
   {{ end }}
 
-  {{/* Related Links sidebar block removed — the "Related Reads" block at the
-       bottom of the article already covers the same links inline with better
-       context, so the rail Related Links was redundant. */}}
-
-  {{ $current := . }}
-  {{ $isFaqPage := or (in .RelPermalink "/faqs") (in (lower .Title) "faq") }}
-
-  {{ if $isFaqPage }}
-    {{/* Related FAQs — other FAQ pages on the site */}}
-    {{ $faqUrls := slice "/faqs/" "/saas-seo-agency/faqs/" "/saas-ppc/faqs/" }}
-    {{ $faqs := where (where .Site.RegularPages "Permalink" "ne" $current.Permalink) "RelPermalink" "in" $faqUrls }}
-    {{ with $faqs }}
-      <div class="pr-article-rail__card">
-        <h4 class="pr-article-rail__heading">Related FAQs</h4>
-        <ul class="pr-article-rail__related">
-          {{ range . }}
-            <li>
-              <a href="{{ .RelPermalink }}">
-                <strong>{{ .Title }}</strong>
-                {{ with .Description }}<span>{{ . | truncate 80 }}</span>{{ end }}
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-      </div>
-    {{ end }}
-  {{ else if eq $current.Section "compare" }}
-    {{/* Users Also Compare — latest 5 comparison pages, excluding current */}}
-    {{ $comparePages := first 5 (where (where .Site.RegularPages "Section" "compare") "Permalink" "ne" $current.Permalink).ByDate.Reverse }}
-    {{ with $comparePages }}
-      <div class="pr-article-rail__card">
-        <h4 class="pr-article-rail__heading">Users Also Compare</h4>
-        <ul class="pr-article-rail__related">
-          {{ range . }}
-            <li>
-              <a href="{{ .RelPermalink }}">
-                <strong>{{ .Title }}</strong>
-                {{ with .Description }}<span>{{ . | truncate 80 }}</span>{{ end }}
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-      </div>
-    {{ end }}
-  {{ else }}
-    {{/* Popular reads — top 5 most recent listicles, excluding current page */}}
-    {{ $popular := first 5 (where (where .Site.RegularPages "Section" "list") "Permalink" "ne" $current.Permalink).ByDate.Reverse }}
-    {{ with $popular }}
-      <div class="pr-article-rail__card">
-        <h4 class="pr-article-rail__heading">Popular reads</h4>
-        <ul class="pr-article-rail__related">
-          {{ range . }}
-            <li>
-              <a href="{{ .RelPermalink }}">
-                <strong>{{ .Title }}</strong>
-                {{ with .Description }}<span>{{ . | truncate 80 }}</span>{{ end }}
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-      </div>
-    {{ end }}
-  {{ end }}
+  {{/* Related-content blocks removed in favour of a single unified related
+       links system (planned). Until that lands, this partial is just an
+       author bio card. */}}
 </aside>

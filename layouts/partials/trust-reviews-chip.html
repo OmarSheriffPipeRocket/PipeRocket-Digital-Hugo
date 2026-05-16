@@ -1,0 +1,35 @@
+{{/* trust-reviews-chip.html — hover/click chip that reveals a methodology
+     popover. Use at the top of any listicle / compare / alternative page
+     to give readers a one-click trail to our review methodology.
+
+     Default usage from a template:
+       {{ partial "trust-reviews-chip.html" . }}
+
+     Or with overrides:
+       {{ partial "trust-reviews-chip.html" (dict
+            "ctaText" "Custom CTA"
+            "methodologyUrl" "/research-methodology/") }}
+
+     Falls back to sensible defaults when called with a Page context. */}}
+{{ $cta := "Learn more about our review methodology →" }}
+{{ $href := "/research-methodology/" }}
+{{ if reflect.IsMap . }}
+  {{ $cta = default $cta .ctaText }}
+  {{ $href = default $href .methodologyUrl }}
+{{ end }}
+<div class="pr-trust">
+  <button type="button" class="pr-trust__chip" aria-describedby="pr-trust-card" aria-label="How we review">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="pr-trust__icon">
+      <polyline points="20 6 9 17 4 12"/>
+      <polyline points="20 12 13 19 11 17"/>
+    </svg>
+    <span>Why Trust Our Reviews</span>
+  </button>
+  <div class="pr-trust__card" id="pr-trust-card" role="tooltip">
+    <strong class="pr-trust__title">Our Review Methodology</strong>
+    <p class="pr-trust__body">
+      Every agency in this list is independently scored against the same rubric: pricing transparency, pipeline attribution, B2B SaaS specialization, team structure, and verified Clutch / G2 reviews. No paid placements, no editorial swaps.
+    </p>
+    <a class="pr-trust__link" href="{{ $href }}">{{ $cta }}</a>
+  </div>
+</div>

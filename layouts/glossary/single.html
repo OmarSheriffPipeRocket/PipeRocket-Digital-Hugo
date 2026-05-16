@@ -1,10 +1,58 @@
+{{/* Glossary entry — visual parity with blogs + listicles:
+       HERO   → dark .pr-blog-v2__banner with chip + h1 + byline + utility icons
+       LEFT   → blog-style "In this article" TOC + Free Strategy Audit CTA
+       MAIN   → short Definition box on top, then body, then author card
+       RIGHT  → Knowledge Hub (glossary-only category browser)
+     TOC and CTA mirror the blog-v2 rail so the reading experience is
+     identical across /blogs/* and /glossary/*. */}}
+{{ define "head_extra" }}
+{{ $css := resources.Get "css/blog-v2.css" }}
+{{ if $css }}
+  {{ $css = $css | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ end }}
+{{ end }}
+
 {{ define "main" }}
+{{ $authors := site.Data.authors }}
+{{ $writer := index $authors (default "" .Params.writtenBy) }}
 {{ $allTerms := where site.RegularPages "Section" "glossary" }}
 {{ $tree := .Site.Data.glossary_categories.categories }}
+{{ $lastmod := .Lastmod }}{{ if $lastmod.IsZero }}{{ $lastmod = .Date }}{{ end }}
 
-<article class="pr-glossary pr-alt">
+<article class="pr-glossary pr-alt" data-pr-blog-v2>
+
+  {{/* HERO — dark banner, identical visual language to blog-v2 + listicle */}}
+  <header class="pr-blog-v2__banner">
+    <div class="pr-blog-v2__banner-grid">
+      <div class="pr-blog-v2__banner-copy">
+        <div class="pr-blog-v2__chip">
+          <span class="pr-blog-v2__chip-text">
+            {{ with .Params.category }}{{ . }}{{ else }}Glossary{{ end }}{{ if .Params.readingTime }} · {{ .Params.readingTime | upper }}{{ else if .ReadingTime }} · {{ .ReadingTime }} MIN READ{{ end }}
+          </span>
+        </div>
+        <h1 class="pr-blog-v2__title">{{ .Title }}</h1>
+        <div class="pr-blog-v2__byline">
+          {{ with $writer }}
+            <span class="pr-author-tip">
+              <a class="pr-blog-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
+                {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+                <span>{{ .name }}</span>
+              </a>
+              {{ partial "article-author-popover.html" (dict "writer" $writer "slug" $.Params.writtenBy) }}
+            </span>
+          {{ end }}
+          {{ if and $writer (not $lastmod.IsZero) }}<span class="pr-blog-v2__byline-sep">|</span>{{ end }}
+          {{ if not $lastmod.IsZero }}<span class="pr-blog-v2__lastmod">Last updated on <time datetime="{{ $lastmod.Format "2006-01-02" }}">{{ $lastmod.Format "2 January, 2006" }}</time></span>{{ end }}
+        </div>
+        {{ partial "article-utility-icons.html" . }}
+      </div>
+    </div>
+  </header>
+
   <div class="pr-container">
 
+    {{/* Sticky glossary search bar — between banner and article body */}}
     <div class="pr-glossary__search-top pr-search" data-pr-search>
       <svg class="pr-search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/>
@@ -14,27 +62,50 @@
       <ul class="pr-search__dropdown" data-pr-search-results hidden></ul>
     </div>
 
-    <header class="pr-alt__header">
-      {{ with .Params.category }}<div class="pr-eyebrow pr-eyebrow--red">{{ . }}</div>{{ end }}
-      <h1 class="pr-alt__title">{{ .Title }}</h1>
-      {{ with .Params.shortDefinition }}
-        <div class="pr-glossary__definition">
-          <div class="pr-eyebrow">Definition</div>
-          <p>{{ . }}</p>
-        </div>
-      {{ end }}
-      <div class="pr-alt__byline">
-        <div class="pr-alt__meta">
-          {{ partial "article-byline.html" . }}
-          {{ if not .Date.IsZero }}<span><time datetime="{{ .Date.Format "2006-01-02" }}">Updated {{ .Date.Format "Jan 2, 2006" }}</time></span>{{ end }}
-          {{ with .Params.readingTime }}<span>{{ . }}</span>{{ end }}
-        </div>
-        {{ partial "article-utility-icons.html" . }}
-      </div>
-    </header>
-
     <div class="pr-article-3-6-3">
 
+      {{/* LEFT rail — blog-style TOC + CTA */}}
+      <aside class="pr-blog-v2__rail" aria-label="In this article">
+        <div class="pr-blog-v2__toc-block">
+          <div class="pr-blog-v2__rail-label">In this article</div>
+          <nav data-pr-blog-toc><!-- filled by blog-v2.js --></nav>
+        </div>
+        <div class="pr-blog-v2__cta">
+          <div class="pr-blog-v2__cta-h">Free Strategy Audit</div>
+          <p class="pr-blog-v2__cta-d">Tell us your ICP and growth goal. We'll map the channels, audiences, and angles most likely to move qualified pipeline in 90 days.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-blog-v2__cta-btn" data-cta-location="glossary-sidebar">Get Free Audit</a>
+        </div>
+      </aside>
+
+      {{/* MAIN — Definition card on top, body, author card at the bottom */}}
+      <div class="pr-article-main" data-pr-blog-main>
+        {{ with .Params.shortDefinition }}
+          <div class="pr-glossary__definition">
+            <div class="pr-eyebrow">Definition</div>
+            <p>{{ . }}</p>
+          </div>
+        {{ end }}
+
+        <div class="pr-glossary__body" data-pr-inline-related data-related-links='{{ .Params.relatedLinks | jsonify }}'>{{ .Content }}</div>
+        {{ partial "article-cta.html" . }}
+
+        {{/* Author card — mirrors blog-v2 pattern (lives inside main, not in a side rail) */}}
+        {{ with $writer }}
+        <div class="pr-author-card">
+          {{ with .photo }}<img class="pr-author-card__photo" src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+          <div class="pr-author-card__body">
+            <div class="pr-author-card__head">
+              <span class="pr-author-card__name">{{ .name }}</span>
+              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+            </div>
+            {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+            <a class="pr-author-card__btn" href="/authors/{{ $.Params.writtenBy }}/">View full profile</a>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+      {{/* RIGHT rail — Knowledge Hub category browser */}}
       <aside class="pr-blog-v2__rail" aria-label="Knowledge hub">
         <div class="pr-article-rail__card pr-knowledge-hub">
           <h4 class="pr-article-rail__heading">Knowledge hub</h4>
@@ -47,7 +118,7 @@
               <details class="pr-knowledge-hub__category">
                 <summary>
                   <span class="pr-knowledge-hub__title">{{ .name }}</span>
-                  <span class="pr-knowledge-hub__chevron" aria-hidden="true">›</span>
+                  <span class="pr-knowledge-hub__chevron" aria-hidden="true"></span>
                 </summary>
                 <ul class="pr-knowledge-hub__terms">
                   {{ range $termsInCat.ByTitle }}
@@ -76,30 +147,24 @@
             {{ end }}
           </nav>
         </div>
-
-        <div class="pr-blog-v2__cta">
-          <div class="pr-blog-v2__cta-h">Free Strategy Audit</div>
-          <p class="pr-blog-v2__cta-d">Tell us your ICP and growth goal. We'll map the channels, audiences, and angles most likely to move qualified pipeline in 90 days.</p>
-          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-blog-v2__cta-btn" data-cta-location="glossary-sidebar">Get Free Audit</a>
-        </div>
-
       </aside>
-
-      <div class="pr-article-main">
-        <div class="pr-glossary__body" data-pr-inline-related data-related-links='{{ .Params.relatedLinks | jsonify }}'>{{ .Content }}</div>
-        {{ partial "article-cta.html" . }}
-      </div>
-
-      {{ partial "article-rail-author.html" . }}
 
     </div>
 
   </div>
 </article>
 
+{{/* Glossary search index — used by the top search bar */}}
 {{ $items := slice }}
 {{ range where site.RegularPages "Section" "glossary" }}
   {{ $items = $items | append (dict "title" .Title "url" .RelPermalink "definition" (default "" .Params.shortDefinition) "category" (default "" .Params.category)) }}
 {{ end }}
 <script type="application/json" id="pr-glossary-index">{{ $items | jsonify | safeJS }}</script>
+
+{{/* Blog-v2 TOC engine — populates [data-pr-blog-toc] from H2s in [data-pr-blog-main] */}}
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}
+  {{ $js = $js | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}
 {{ end }}

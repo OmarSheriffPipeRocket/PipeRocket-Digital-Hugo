@@ -28,10 +28,13 @@
         <h1 class="pr-blog-v2__title">{{ .Title }}</h1>
         <div class="pr-blog-v2__byline">
           {{ with $writer }}
-            <a class="pr-blog-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
-              {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
-              <span>{{ .name }}</span>
-            </a>
+            <span class="pr-author-tip">
+              <a class="pr-blog-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
+                {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+                <span>{{ .name }}</span>
+              </a>
+              {{ partial "article-author-popover.html" (dict "writer" $writer "slug" $.Params.writtenBy) }}
+            </span>
           {{ end }}
           {{ if and $writer (not $lastmod.IsZero) }}<span class="pr-blog-v2__byline-sep">|</span>{{ end }}
           {{ if not $lastmod.IsZero }}<span class="pr-blog-v2__lastmod">Last updated on <time datetime="{{ $lastmod.Format "2006-01-02" }}">{{ $lastmod.Format "2 January, 2006" }}</time></span>{{ end }}
@@ -86,35 +89,8 @@
 
 </article>
 
-{{/* Related articles */}}
-{{ $related := where (where .Site.RegularPages "Section" "blogs") "Permalink" "ne" .Permalink | first 3 }}
-{{ if $related }}
-<section class="pr-listicle-related">
-  <div class="pr-container">
-    <h2 class="pr-listicle-related__heading">Related Articles</h2>
-    <div class="pr-listicle-related__grid">
-      {{ range $related }}
-      {{ $rWriter := index $.Site.Data.authors (default "" .Params.writtenBy) }}
-      <article class="pr-listicle-related__card">
-        {{ with .Params.featuredImage }}
-        <a href="{{ .RelPermalink }}" class="pr-listicle-related__img-wrap">
-          <img src="{{ . }}" alt="{{ .Title }}" loading="lazy">
-        </a>
-        {{ end }}
-        <div class="pr-listicle-related__copy">
-          {{ with .Params.category }}<div class="pr-listicle-related__cat">{{ . }}</div>{{ end }}
-          <h3 class="pr-listicle-related__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <div class="pr-listicle-related__meta">
-            {{ with $rWriter }}<span>By {{ .name }}</span>{{ end }}
-            {{ if not .Date.IsZero }}{{ with $rWriter }} · {{ end }}<span>{{ .Date.Format "2 January, 2006" }}</span>{{ end }}
-          </div>
-        </div>
-      </article>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
+{{/* "Related Articles" grid removed — see planned unified related-links
+     system. The bottom CTA below stays. */}}
 
 {{/* Bottom CTA */}}
 <section class="pr-cta-final">
