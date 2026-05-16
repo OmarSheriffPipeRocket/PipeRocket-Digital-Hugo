@@ -6,7 +6,7 @@ meta_description: "Turn your website into a 24/7 salesperson. Discover the 2025 
 date: 2025-12-10
 lastmod: 2026-05-12
 slug: "b2b-content-marketing-guide"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "B2B Content Marketing"
 featuredImage: "/images/wp-import/B2B-Content-Marketing-Blog-Banner-Image.png"
 wp_id: 2447

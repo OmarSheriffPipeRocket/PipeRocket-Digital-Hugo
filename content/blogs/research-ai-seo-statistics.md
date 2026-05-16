@@ -7,7 +7,7 @@ date: 2026-04-06
 lastmod: 2026-05-13
 slug: "ai-seo-statistics"
 url: "/research/ai-seo-statistics/"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/ai-seo-statistics-banner-2026.webp"
 wp_id: 2967

@@ -6,7 +6,7 @@ meta_description: "Enterprise SaaS SEO is not standard SEO at higher volume. Her
 date: 2026-04-09
 lastmod: 2026-04-29
 slug: "enterprise-saas-seo-guide"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "Enterprise Marketing"
 wp_id: 3024
 wp_link: "/blogs/enterprise-saas-seo-guide/"

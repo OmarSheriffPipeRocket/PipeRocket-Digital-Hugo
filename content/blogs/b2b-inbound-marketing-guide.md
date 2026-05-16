@@ -6,7 +6,7 @@ meta_description: "Learn how modern B2B buyers really make decisions and how inb
 date: 2025-12-11
 lastmod: 2026-05-12
 slug: "b2b-inbound-marketing-guide"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "B2B Inbound Marketing"
 featuredImage: "/images/wp-import/B2B-Inbound-Marketing-Banner-Image.png"
 wp_id: 2468

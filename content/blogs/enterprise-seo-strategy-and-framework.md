@@ -6,7 +6,7 @@ meta_description: "A complete 7-step Enterprise SEO strategy framework built for
 date: 2026-04-09
 lastmod: 2026-04-29
 slug: "enterprise-seo-strategy-and-framework"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "Enterprise Marketing"
 wp_id: 3017
 wp_link: "/blogs/enterprise-seo-strategy-and-framework/"

@@ -6,7 +6,7 @@ meta_description: "Struggling with expensive fintech ads? This guide breaks down
 date: 2025-12-11
 lastmod: 2026-05-13
 slug: "fintech-seo-guide"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "Fintech SEO"
 featuredImage: "/images/wp-import/Fintech-SEO-Guide-Banner-Image.png"
 wp_id: 2476

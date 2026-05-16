@@ -6,7 +6,7 @@ meta_description: "Here's the SaaS SEO keyword research steps we follow at PipeR
 date: 2026-02-02
 lastmod: 2026-05-13
 slug: "how-to-do-saas-seo-keyword-research"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/How-to-do-SaaS-SEO-Keyword-Research-Blog-Banner-Image-1.png"
 wp_id: 2597

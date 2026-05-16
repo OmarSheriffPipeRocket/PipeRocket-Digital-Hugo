@@ -6,7 +6,7 @@ meta_description: "Learn how SaaS Content Marketing works in 2026 with simple st
 date: 2025-12-11
 lastmod: 2026-05-12
 slug: "saas-content-marketing-guide"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS Content Marketing"
 featuredImage: "/images/wp-import/SaaS-Content-Marketing-Guide-Banner-Image.png"
 wp_id: 2458

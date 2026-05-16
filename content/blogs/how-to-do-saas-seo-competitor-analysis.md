@@ -6,7 +6,7 @@ meta_description: "Here's the SaaS SEO competitor analysis we follow at PipeRock
 date: 2026-02-02
 lastmod: 2026-05-12
 slug: "how-to-do-saas-seo-competitor-analysis"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/How-to-do-SaaS-SEO-Competitor-Analysis-Blog-Banner-Image-1.png"
 wp_id: 2593

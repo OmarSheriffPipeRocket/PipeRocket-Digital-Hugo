@@ -6,7 +6,7 @@ meta_description: "Here's the SaaS SEO checklist we use here at PipeRocket Digit
 date: 2026-01-29
 lastmod: 2026-05-12
 slug: "saas-seo-checklist"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/SaaS-SEO-Checklist-Blog-Banner-Image-1.png"
 wp_id: 2578

@@ -6,7 +6,7 @@ meta_description: "Wondering how to rank on ChatGPT in 2026? Here’s how you ca
 date: 2026-03-11
 lastmod: 2026-05-13
 slug: "how-to-run-a-saas-content-audit-that-actually-moves-rankings"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/How-to-do-SaaS-content-audit-blog-banner.webp"
 wp_id: 2794

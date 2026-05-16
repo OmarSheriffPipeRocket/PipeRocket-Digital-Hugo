@@ -6,7 +6,7 @@ meta_description: "This is the exact process we follow at PipeRocket Digital to 
 date: 2026-02-10
 lastmod: 2026-05-13
 slug: "how-to-write-saas-seo-content-with-ai-that-actually-ranks"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/How-to-Write-SaaS-SEO-Content-with-AI-Blog-Banner-Image-1.png"
 wp_id: 2630

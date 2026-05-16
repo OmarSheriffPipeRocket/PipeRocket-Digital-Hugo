@@ -5,7 +5,7 @@ meta_description: "I wrote this blog to talk about how you should be optimizing 
 date: 2026-02-10
 lastmod: 2026-05-12
 slug: "blogs-optimize-saas-landing-pages-for-seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS SEO"
 featuredImage: "/images/wp-import/How-to-optimize-saas-landing-pages-for-SEO.png"
 wp_id: 2622

@@ -6,7 +6,7 @@ meta_description: "We break down the saas marketing challenges we see most often
 date: 2026-04-08
 lastmod: 2026-04-29
 slug: "saas-marketing-challenges-and-fixes"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS SEO"
 wp_id: 2976
 wp_link: "/blogs/saas-marketing-challenges-and-fixes/"

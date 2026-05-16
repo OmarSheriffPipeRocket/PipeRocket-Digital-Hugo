@@ -6,7 +6,7 @@ meta_description: "A practical saas link building guide covering the strategies,
 date: 2026-04-08
 lastmod: 2026-05-13
 slug: "saas-link-building"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS SEO"
 wp_id: 2984
 wp_link: "/blogs/saas-link-building/"

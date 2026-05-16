@@ -6,7 +6,7 @@ meta_description: "A complete 8-step SaaS SEO strategy framework built for B2B S
 date: 2026-04-09
 lastmod: 2026-04-29
 slug: "saas-seo-strategies-and-framework"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SaaS SEO"
 wp_id: 3010
 wp_link: "/blogs/saas-seo-strategy-and-framework/"

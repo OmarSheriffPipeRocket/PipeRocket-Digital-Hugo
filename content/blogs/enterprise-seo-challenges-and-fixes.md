@@ -6,7 +6,7 @@ meta_description: "Here are the 8 most common enterprise SEO challenges ones and
 date: 2026-04-09
 lastmod: 2026-04-29
 slug: "enterprise-seo-challenges-and-fixes"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "Enterprise Marketing"
 wp_id: 3020
 wp_link: "/blogs/enterprise-seo-challenges-and-fixes/"

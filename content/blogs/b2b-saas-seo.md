@@ -6,7 +6,7 @@ meta_description: "Looking for the definitive guide on B2B SaaS SEO? This guide 
 date: 2025-11-24
 lastmod: 2026-05-13
 slug: "b2b-saas-seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "B2B SEO"
 featuredImage: "/images/wp-import/B2B-Saas-SEO-Blog-Banner-Image.png"
 wp_id: 2373

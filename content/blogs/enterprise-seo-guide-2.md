@@ -6,7 +6,7 @@ meta_description: "Enterprise SEO framework for scaling to 10K+ pages with autom
 date: 2026-04-09
 lastmod: 2026-05-13
 slug: "enterprise-seo-guide-2"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "Enterprise Marketing"
 wp_id: 2991
 wp_link: "/blogs/enterprise-seo-guide/"

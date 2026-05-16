@@ -6,7 +6,7 @@ meta_description: "Most SaaS SEO guides optimise for rankings. This one optimise
 date: 2025-11-24
 lastmod: 2026-04-29
 slug: "saas-seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SEO"
 featuredImage: "/images/wp-import/Saas-SEO-Blog-Banner-Image-1.webp"
 wp_id: 125
