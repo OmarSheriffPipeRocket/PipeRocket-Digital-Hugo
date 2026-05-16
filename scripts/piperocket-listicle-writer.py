@@ -543,15 +543,21 @@ Example opening sentence:
 - [Bullet, max 18 words]
 - [Bullet, max 18 words]
 
-**Who it's for:** [One sentence, max 25 words. Specific buyer profile by ARR / stage / motion.]
+**Who it's for:** [One sentence, max 25 words. Specific buyer profile by ARR / stage / motion. Include a CONCRETE scenario, not just adjectives. Example: "$5M to $50M ARR SaaS with $20K+ monthly ad spend where the CFO reviews CAC weekly" — not "growing companies that want results".]
 
-**Who it's NOT for:** [One sentence, max 25 words.]
+**Who it's NOT for:** [One sentence, max 25 words. Same specificity rule — name a concrete failure mode. Example: "Pre-seed teams under $1M ARR who need a $1,500/mo retainer and aren't ready for monthly retainers of $5K+" — not "small businesses".]
 
 [CRITICAL: keep these two as SEPARATE paragraphs with a blank line between them. Do not combine into one line — Hugo will render them as one paragraph if no blank line separates them.]
 
+**Editor's read:** [ONE sentence, max 30 words, operator-voiced. This is the most-important anti-AI-slop signal in the article — a human editorial observation that can't be generated from web search alone. Examples of the voice we want:
+  - "We've sat on the buyer side of three KlientBoost pitches in 2024 and 2025 — their reporting cadence is faster than every other agency at this price tier."
+  - "If you're choosing between Directive and KlientBoost on price, the real cost gap is in landing-page production, not retainer."
+  - "Worth flagging: Disruptive's month-to-month contract is rare in this category and matters more than the $5K floor."
+Voice: first-person plural "we" — same first-person as PipeRocket's own block. Treat this as the editor's own informed take based on 40+ B2B SaaS engagements, not a fabricated client story. Never invent specific engagement numbers; speak from category knowledge. NEVER cite a source for this line — it's editorial commentary, not a reported fact.]
+
 **Pricing Breakdown**
 
-[Pricing verified from the agency's pricing page or third-party source, as of {month} {year}. If pricing is not publicly available, use "Custom pricing" in the Price cell — never invent a number. The pricing-page URL is already linked in the Side-by-Side table's Starting Price cell, so do NOT duplicate it here.]
+[Pricing verified from the agency's pricing page or third-party source, as of {month} {year}. The text MUST include the freshness phrase "as of {month} {year}" verbatim in this paragraph — this is a strong freshness signal for Google and AI engines that cite this article. If pricing is not publicly available, use "Custom pricing" in the Price cell — never invent a number. The pricing-page URL is already linked in the Side-by-Side table's Starting Price cell, so do NOT duplicate it here.]
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -655,7 +661,7 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] How We Chose section is EXACTLY 2 short paragraphs + the methodology link line "For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/)." — NOT a 5-criteria expansion (the deep methodology lives on /research-methodology/, not in each listicle)
 [ ] Each agency block starts with `### N. Agency Name` as H3 — JUST the agency name, NO ": Best for X" suffix in the heading
 [ ] Immediately below the H3, a separate paragraph begins with `Best for: [tagline]`. The site's JS auto-styles this line as a highlighted callout.
-[ ] Each agency block has all sections in exact order: H3 → Best for: line → front-loaded 2-sentence answer → **At a Glance** + table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → **Pricing Breakdown** + table → **What Users Say** (**Love:** / **Complain:** plain bold, NO emoji) → evaluation summary table
+[ ] Each agency block has all sections in exact order: H3 → Best for: line → front-loaded 2-sentence answer → **At a Glance** + table → **Differentiator:** + bullets → **Proof point:** → **Limitation:** + bullets → **Who it's for** / **Who it's NOT for** → **Editor's read:** (1 operator-voiced sentence, no source citation, max 30 words, must use "we" — this is the human editorial fingerprint that lifts the article above AI-generated competitors) → **Pricing Breakdown** + table → **What Users Say** (**Love:** / **Complain:** plain bold, NO emoji) → evaluation summary table
 [ ] No emoji anywhere in the body (no ✅, no ⚠️, no 📍, no 🚀, etc.)
 [ ] Sub-section labels are bold paragraphs, NOT headings (no `####`)
 [ ] Pricing-page URL appears ONLY in the Side-by-Side table's Starting Price cell — NOT also above the Pricing Breakdown table inside agency blocks
@@ -675,6 +681,9 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] All URLs come from web_search results; zero invented URLs
 [ ] /research-methodology/ link appears verbatim at the end of the How We Chose section (mandatory cross-link to editorial policy)
 [ ] 2-4 ADDITIONAL internal PipeRocket links total (beyond the methodology link), placed in intro / How We Chose / FAQ
+[ ] Every agency block contains EXACTLY ONE "**Editor's read:**" line — concrete, first-person plural, no fabricated engagement numbers, no source citation
+[ ] Every Pricing Breakdown paragraph includes the verbatim freshness phrase "as of {month} {year}" — Google + AI engines key on this
+[ ] "Who it's for" and "Who it's NOT for" use CONCRETE scenarios (ARR range, ad spend tier, contract preference) — never adjective-only ("growing companies", "small businesses" are auto-rejects)
 ====================================================
 """
 
