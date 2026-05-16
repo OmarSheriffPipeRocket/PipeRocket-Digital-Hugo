@@ -5739,6 +5739,32 @@ main table a,
 .pr-article-utils__btn:active { transform: translateY(0); }
 .pr-article-utils__btn--copied { color: var(--pr-cyan); }
 
+/* Dark-banner variants — blog-v2 + listicle-v2 banners are #282828, so the
+   default --pr-ink-2 swatch is invisible. Override only when the row sits
+   inside one of those banners. */
+.pr-blog-v2__banner .pr-article-utils,
+.pr-listicle-v2__banner .pr-article-utils {
+  margin-top: 18px;
+}
+.pr-blog-v2__banner .pr-article-utils__btn,
+.pr-listicle-v2__banner .pr-article-utils__btn {
+  color: rgba(255, 255, 255, 0.78);
+}
+.pr-blog-v2__banner .pr-article-utils__btn:hover,
+.pr-listicle-v2__banner .pr-article-utils__btn:hover {
+  color: #fff;
+}
+.pr-blog-v2__banner .pr-article-utils__btn--copied,
+.pr-listicle-v2__banner .pr-article-utils__btn--copied {
+  color: var(--pr-cyan);
+}
+
+/* Author profile page — sits inside the cream header card, so a touch of
+   top spacing keeps it separated from the count badges. */
+.pr-author-page__header .pr-article-utils {
+  margin-top: var(--pr-s-3);
+}
+
 @media (max-width: 640px) {
   .pr-article-utils__btn span { display: none; }
 }
@@ -10596,6 +10622,36 @@ body.pr-modal-open { overflow: hidden; }
 }
 @media (min-width: 768px) {
   .pr-pricing-tiers { grid-template-columns: repeat(3, 1fr); gap: var(--pr-s-6); align-items: stretch; }
+}
+
+/* "Discuss pricing" secondary CTA — one per tier card, sits directly under
+   the price line. Opens the global #prFunnelAuditModal via
+   data-modal-trigger="funnel-audit". */
+.pr-tier__discuss {
+  align-self: flex-start;
+  margin: var(--pr-s-2) 0 var(--pr-s-3);
+  padding: 0;
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--pr-ink-2);
+  cursor: pointer;
+  letter-spacing: 0.01em;
+  text-decoration: underline;
+  text-decoration-color: rgba(13, 13, 13, 0.3);
+  text-underline-offset: 3px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+.pr-tier__discuss:hover {
+  color: var(--pr-cyan);
+  text-decoration-color: var(--pr-cyan);
+}
+.pr-tier__discuss:focus-visible {
+  outline: 2px solid var(--pr-cyan);
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 .pr-tier {
   position: relative;

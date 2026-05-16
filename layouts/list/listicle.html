@@ -39,6 +39,7 @@
             {{ if and $writer (not $lastmod.IsZero) }}<span class="pr-listicle-v2__byline-sep">|</span>{{ end }}
             {{ if not $lastmod.IsZero }}<span class="pr-listicle-v2__lastmod">Last updated on <time datetime="{{ $lastmod.Format "2006-01-02" }}">{{ $lastmod.Format "2 January, 2006" }}</time></span>{{ end }}
           </div>
+          {{ partial "article-utility-icons.html" . }}
         </div>
         {{ with .Params.featuredImage }}
           <div class="pr-listicle-v2__banner-art">

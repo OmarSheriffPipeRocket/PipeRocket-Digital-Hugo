@@ -41,6 +41,7 @@
           {{ if and $writer (not $lastmod.IsZero) }}<span class="pr-blog-v2__byline-sep">|</span>{{ end }}
           {{ if not $lastmod.IsZero }}<span class="pr-blog-v2__lastmod">Last reviewed on <time datetime="{{ $lastmod.Format "2006-01-02" }}">{{ $lastmod.Format "2 January, 2006" }}</time></span>{{ end }}
         </div>
+        {{ partial "article-utility-icons.html" . }}
       </div>
     </div>
   </header>

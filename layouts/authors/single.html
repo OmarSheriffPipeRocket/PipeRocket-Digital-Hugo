@@ -22,6 +22,7 @@
           <span class="pr-author-badge pr-author-badge--reviewed">{{ len $reviewedPosts }} reviewed</span>
           {{ with $profile.linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
         </div>
+        {{ partial "article-utility-icons.html" . }}
       </div>
     </header>
 
