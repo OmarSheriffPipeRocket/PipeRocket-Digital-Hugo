@@ -1,8 +1,8 @@
 ---
 title: "The SaaS PPC Checklist for 2026: With Detailed Guidance"
 description: "Running PPC for a SaaS company is fundamentally different from standard e-commerce. You aren’t just looking for a quick transaction; you are hunting for a long-term relationship within a complex buying committee. To win, you need a strategy that balances high-intent search with laser-focused professional targeting. This guide explores the exact framework used to scale […]"
-meta_title: "The Complete 2026 SaaS PPC Checklist: A SaaS-focused guide"
-meta_description: "Looking for a SaaS-specific PPC checklist? This blog contains the complete checklist you need to carry your PPC account for your SaaS product in 2026."
+metaTitle: "The Complete 2026 SaaS PPC Checklist: A SaaS-focused guide"
+metaDescription: "Looking for a SaaS-specific PPC checklist? This blog contains the complete checklist you need to carry your PPC account for your SaaS product in 2026."
 date: 2026-01-06
 lastmod: 2026-05-13
 slug: "saas-ppc-checklist"
@@ -29,7 +29,7 @@ If this checklist already feels solid, PPC becomes a system. If it doesn’t, th
 
 Most SaaS PPC failures aren’t actually “ads” problems; they are “foundation” problems. If you don’t understand who you are talking to, no amount of bidding optimization will save your ROI. As emphasized in the core strategy, the first step is always **Product Understanding**. You must be able to describe the “Pain-Point-to-Product” bridge.
 
-### 1. Deep Product Mastery and the [ICP](/glossary/what-is-icp/)
+### 1. Deep Product Mastery and the ICP
 
 In B2B SaaS, your product is a solution to a specific professional friction. To market it, you need to know:
 

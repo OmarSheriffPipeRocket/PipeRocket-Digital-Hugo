@@ -1,8 +1,8 @@
 ---
 title: "B2B Marketing Operations: The Complete 2026 B2B Guide"
 description: "Every B2B SaaS company eventually runs into the same wall. Campaigns are going out, leads are coming in, and the reports look reasonable. But the sales team does not trust the leads, pipeline attribution is a mystery, and nobody can tell the CFO what marketing contributed to revenue last quarter. That is not a campaign […]"
-meta_title: "B2B Marketing Operations: The Guide for B2B Companies"
-meta_description: "B2B marketing operations is the infrastructure underneath every campaign your team runs. Here is what it covers, and what it looks like."
+metaTitle: "B2B Marketing Operations: The Guide for B2B Companies"
+metaDescription: "B2B marketing operations is the infrastructure underneath every campaign your team runs. Here is what it covers, and what it looks like."
 date: 2026-04-09
 lastmod: 2026-04-29
 slug: "b2b-marketing-operations-guide"

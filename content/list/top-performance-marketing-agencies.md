@@ -1,8 +1,9 @@
 ---
+layout: "listicle"
 title: "My Picks for the 9 Best Performance Marketing Agencies in 2026"
 description: "I ranked the 9 best performance marketing agencies for 2026 using a weighted scoring system across five criteria. Each agency was evaluated on revenue attribution, channel expertise, creative testing, reporting transparency, and client retention. You will find detailed breakdowns, pricing ranges, and specific use cases to match your growth stage. How We Evaluated These Performance […]"
-meta_title: "I Ranked the 9 Best Performance Marketing Agencies (2026)"
-meta_description: "I evaluated 9 top performance marketing agencies on ROI, expertise, and transparency. See my ranked picks for 2026."
+metaTitle: "I Ranked the 9 Best Performance Marketing Agencies (2026)"
+metaDescription: "I evaluated 9 top performance marketing agencies on ROI, expertise, and transparency. See my ranked picks for 2026."
 date: 2025-11-07
 lastmod: 2026-05-12
 slug: "top-performance-marketing-agencies"

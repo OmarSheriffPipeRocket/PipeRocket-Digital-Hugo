@@ -1,8 +1,8 @@
 ---
 title: "How to Write SaaS Comparison Pages for SEO?"
 description: "Let’s be honest with each other for a minute. You have probably had moments where you have a lot of traffic incoming but the number of people who sign up to your SaaS product or create a demo meeting is low. If you don’t have SaaS comparison pages on your website, this might be actually […]"
-meta_title: "How I Write SaaS Comparison Pages for SEO in 2026?"
-meta_description: "This is the exact process we follow at PipeRocket Digital to write SaaS comparison pages for SEO. Use this process and generate quality pipeline."
+metaTitle: "How I Write SaaS Comparison Pages for SEO in 2026?"
+metaDescription: "This is the exact process we follow at PipeRocket Digital to write SaaS comparison pages for SEO. Use this process and generate quality pipeline."
 date: 2026-02-13
 lastmod: 2026-05-13
 slug: "how-to-write-saas-comparison-pages-for-seo"
@@ -37,7 +37,7 @@ They know what the product category is. They understand the problem it solves. T
 
 The reason they are searching is that investing in SaaS is expensive and risky. They are hesitating because they don’t want to make a five-figure mistake that they will have to explain to their CFO six months down the line.
 
-### You Control the [SERP](/glossary/what-is-serp/) Narrative
+### You Control the SERP Narrative
 
 Search volume metrics can be incredibly deceiving.
 

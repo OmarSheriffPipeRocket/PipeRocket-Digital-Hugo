@@ -1,8 +1,8 @@
 ---
 title: "What Is Keyword Research? The SaaS Marketer’s Real Guide"
 description: "Keyword research is the process of finding the specific words and phrases your target audience types into search engines. It determines which topics you create content around and which queries you can realistically rank for. Get it wrong and you’ll build traffic that never converts. TL;DR Keyword research is about finding terms your buyers actually […]"
-meta_title: "What Is Keyword Research? A SaaS Marketer's Guide"
-meta_description: "Keyword research finds the terms your buyers actually search. Done right, it drives qualified traffic and pipeline not just rankings. Here's how it works."
+metaTitle: "What Is Keyword Research? A SaaS Marketer's Guide"
+metaDescription: "Keyword research finds the terms your buyers actually search. Done right, it drives qualified traffic and pipeline not just rankings. Here's how it works."
 date: 2026-04-27
 slug: "what-is-keyword-research"
 categorySlug: "content-marketing"

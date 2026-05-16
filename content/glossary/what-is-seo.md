@@ -1,12 +1,13 @@
 ---
 title: "What Is SEO? Plain-English Guide for SaaS and B2B Teams"
 description: "SEO (Search Engine Optimization) is the process of improving your website so it appears higher in Google search results for relevant queries. Strong SEO brings consistent, high-intent traffic that converts better than most paid channels. Effective SEO isn’t just content it’s technical, strategic, and always tied to business outcomes. TL;DR What Is SEO? SEO stands […]"
-meta_description: "SEO means making your site findable in Google. Here’s what SEO really is, why most teams get it wrong, and what actually drives organic growth."
+metaTitle: "What Is SEO? Plain-English Guide for SaaS and B2B Teams"
+metaDescription: "SEO means making your site findable in Google. Here’s what SEO really is, why most teams get it wrong, and what actually drives organic growth."
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-seo"
 categorySlug: "seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3260
 glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-seo/"

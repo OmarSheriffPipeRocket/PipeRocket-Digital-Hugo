@@ -1,13 +1,13 @@
 ---
 title: "What Is Robots.txt? How Robots.txt Works for SEO & SaaS"
 description: "Robots.txt is a text file on your website that tells search engines which pages or folders they can or cannot crawl. It helps control what appears in search results and prevents indexing of sensitive or duplicate content. TL;DR What Is robots.txt and Why Does It Matter for SaaS SEO? Robots.txt is a simple text file […]"
-meta_title: "What Is robots.txt? How Robots.txt Works for SEO & SaaS"
-meta_description: "Robots.txt tells search engines which pages to crawl or skip. Learn robots.txt essentials, common mistakes, and how it impacts SEO for SaaS and B2B."
+metaTitle: "What Is robots.txt? How Robots.txt Works for SEO & SaaS"
+metaDescription: "Robots.txt tells search engines which pages to crawl or skip. Learn robots.txt essentials, common mistakes, and how it impacts SEO for SaaS and B2B."
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-robots-txt"
 categorySlug: "seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3091
 glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-robots-txt/"

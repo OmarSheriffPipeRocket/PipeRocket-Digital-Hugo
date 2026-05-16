@@ -1,12 +1,13 @@
 ---
 title: "What is GPT? A Clear Guide to Generative AI and Business Impact"
 description: "GPT (Generative Pre-trained Transformer) is an AI language model that generates human-like text from prompts. It enables applications to draft content, answer questions, or automate communication changing how SaaS teams work and innovate with AI. TL;DR What Is GPT and Why Does It Matter for SaaS Teams? GPT short for Generative Pre-trained Transformer is a […]"
-meta_description: "GPT is an AI model that generates text, answers, and ideas from simple prompts. Learn what GPT is and how it’s changing business and SaaS."
+metaTitle: "What is GPT? A Clear Guide to Generative AI and Business Impact"
+metaDescription: "GPT is an AI model that generates text, answers, and ideas from simple prompts. Learn what GPT is and how it’s changing business and SaaS."
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-gpt"
 categorySlug: "ai-future-search"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3205
 glossaryCategory: "AI & Future Search"
 wp_link: "/glossary/what-is-gpt/"

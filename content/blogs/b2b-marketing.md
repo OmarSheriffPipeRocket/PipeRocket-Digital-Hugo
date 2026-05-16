@@ -1,8 +1,8 @@
 ---
 title: "B2B Marketing: A Complete Guide for 2025"
 description: "B2B marketing has a big problem right now: every brand sounds exactly like the next.  Same claims, same templates, same generic value props. And buyers notice. When they’re comparing five tabs side-by-side, it becomes nearly impossible to see who actually solves their problem. That’s why the pipeline slows down.  But fret not, standing out in […]"
-meta_title: "B2B Marketing Guide: How Modern Buyers Research & Convert"
-meta_description: "Learn how B2B marketing works in 2025. Explore strategies, buyer journeys, funnels, trends, and tactics that drive trust, pipeline, and revenue."
+metaTitle: "B2B Marketing Guide: How Modern Buyers Research & Convert"
+metaDescription: "Learn how B2B marketing works in 2025. Explore strategies, buyer journeys, funnels, trends, and tactics that drive trust, pipeline, and revenue."
 date: 2025-11-28
 lastmod: 2026-05-13
 slug: "b2b-marketing"
@@ -185,7 +185,7 @@ Content is still the engine of B2B marketing. Buyers want to learn on their own 
 - Repurpose content across social and email
 - Build topic clusters around core pain points
 
-### 2. Account-Based Marketing ([ABM](/glossary/what-is-abm/))
+### 2. Account-Based Marketing (ABM)
 
 [ABM](/glossary/what-is-abm/) focuses on high-value accounts with personalized campaigns tailored to their specific needs and buying committees. Instead of broad targeting, you prioritize [ICP](/glossary/what-is-icp/)-fit companies and customize messaging for each group.
 
@@ -211,7 +211,7 @@ B2B buying cycles are long, and email is what keeps prospects engaged during the
 - Use intent signals to trigger personalized emails
 - Mix education, social proof, and product value
 
-### 4. [Thought Leadership](/glossary/what-is-thought-leadership/) & Social Presence
+### 4. Thought Leadership & Social Presence
 
 In 2025, B2B buyers trust people more than brands. A strong presence on platforms like LinkedIn creates early influence. Sharing insights, frameworks, and real experience builds authority before a sales conversation even starts.
 

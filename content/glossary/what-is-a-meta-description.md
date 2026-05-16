@@ -1,12 +1,13 @@
 ---
 title: "What Is a Meta Description? Explained for SaaS & B2B SEO"
 description: "A meta description is the short summary beneath a page title in Google search results. It helps users decide whether to click and can increase your organic CTR if it matches search intent and highlights a real benefit. TL;DR What Is a Meta Description? A meta description is a short piece of text up to […]"
-meta_description: "A meta description is the short summary shown in Google results. It can boost clicks, clarify your page’s value, and support your SEO."
+metaTitle: "What Is a Meta Description? Explained for SaaS & B2B SEO"
+metaDescription: "A meta description is the short summary shown in Google results. It can boost clicks, clarify your page’s value, and support your SEO."
 date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-a-meta-description"
 categorySlug: "seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3195
 glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-a-meta-description/"

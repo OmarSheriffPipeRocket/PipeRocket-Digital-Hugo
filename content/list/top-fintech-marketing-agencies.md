@@ -1,8 +1,9 @@
 ---
+layout: "listicle"
 title: "The Top 11 Fintech Marketing Agencies in 2026"
 description: "I ranked 11 fintech marketing agencies based on revenue impact, regulatory compliance expertise, fintech specialization, client outcomes, and pricing transparency. Each agency was scored across five weighted criteria. You will find detailed breakdowns, verified reviews, and clear guidance on which agency fits your specific fintech marketing needs. How We Evaluated These Fintech Marketing Agencies 30% […]"
-meta_title: "I Ranked the 11 Best Fintech Marketing Agencies (2026)"
-meta_description: "I ranked 11 fintech marketing agencies on revenue impact, compliance expertise, and client results. Find your ideal partner here."
+metaTitle: "I Ranked the 11 Best Fintech Marketing Agencies (2026)"
+metaDescription: "I ranked 11 fintech marketing agencies on revenue impact, compliance expertise, and client results. Find your ideal partner here."
 date: 2025-11-24
 lastmod: 2026-05-12
 slug: "top-fintech-marketing-agencies"

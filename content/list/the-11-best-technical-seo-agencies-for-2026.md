@@ -1,12 +1,13 @@
 ---
+layout: "listicle"
 title: "The 11 Best Technical SEO Agencies for 2026"
 description: "We reviewed 40+ technical SEO agencies and ranked the 11 best for 2026 — scored on technical depth, proven results, B2B/SaaS fit, transparency, and pricing. If your site has crawl issues, broken architecture, or rankings that refuse to move despite publishing content consistently, a dedicated technical SEO agency is usually where the problem gets solved. […]"
-meta_title: "The Top 11 Technical SEO Agencies for 2026"
-meta_description: "Compare the top technical SEO agencies in 2026. We analyzed 40+ firms based on audits, scalability, and real results. No paid placements."
+metaTitle: "The Top 11 Technical SEO Agencies for 2026"
+metaDescription: "Compare the top technical SEO agencies in 2026. We analyzed 40+ firms based on audits, scalability, and real results. No paid placements."
 date: 2026-04-13
 lastmod: 2026-05-12
 slug: "the-11-best-technical-seo-agencies-for-2026"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SEO"
 wp_id: 3032
 wp_link: "/list/best-technical-seo-agencies/"

@@ -1,8 +1,8 @@
 ---
 title: "Research Methodology and Editorial Policy"
 description: "How PipeRocket researches and ranks agencies on every list. Sources we use, criteria we score on, what disqualifies an agency, how we handle our own placement, and how we keep ratings current."
-meta_title: "Research Methodology & Editorial Policy | PipeRocket Digital"
-meta_description: "Editorial policy behind every PipeRocket list. The sources, scoring criteria, conflict-of-interest handling, and correction process we use to rank B2B SaaS agencies."
+metaTitle: "Research Methodology & Editorial Policy | PipeRocket Digital"
+metaDescription: "Editorial policy behind every PipeRocket list. The sources, scoring criteria, conflict-of-interest handling, and correction process we use to rank B2B SaaS agencies."
 date: 2026-05-14
 lastmod: 2026-05-14
 slug: "research-methodology"
@@ -105,7 +105,7 @@ We don't accept "exchange of placement" deals with other publications. We don't 
 
 ## Who does this research
 
-These lists are researched and edited by **[Kim Mathiarasan](/authors/kim/)**, PipeRocket Digital co-founder, who has spent 12+ years inside B2B SaaS SEO and previously studied 150+ B2B SaaS brands across pipeline-led growth programmes. Listicles touching adjacent surfaces (PPC, ABM, marketing operations) are co-reviewed by the relevant subject-matter expert on our editorial team — Praveen Ravi (paid + ABM) or Ranjeeth Kumar (BOFU / pipeline attribution).
+These lists are researched and edited by **[Kamaraj Mathiarasan (Kim)](/authors/kim/)**, PipeRocket Digital co-founder, who has spent 12+ years inside B2B SaaS SEO and previously studied 150+ B2B SaaS brands across pipeline-led growth programmes. Listicles touching adjacent surfaces (PPC, ABM, marketing operations) are co-reviewed by the relevant subject-matter expert on our editorial team — Praveen Ravi (paid + ABM) or Ranjeeth Kumar (BOFU / pipeline attribution).
 
 Author bylines on each listicle name the primary researcher. Reviewer bylines (when present) name the subject-matter check.
 

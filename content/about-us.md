@@ -1,6 +1,8 @@
 ---
 title: "Built by SaaS operators, not pitch-deck strategists."
 description: "PipeRocket is run by people who spent a decade inside B2B SaaS. Founded in 2020, we've shipped pipeline programmes for 70+ SaaS companies including Storylane, HyperVerge, Spendflo, MetricStream, Goldcast, and SaaS Labs."
+metaTitle: "About PipeRocket Digital | B2B SaaS Marketing Operators"
+metaDescription: "PipeRocket Digital is run by senior B2B SaaS operators. Founded 2020. Pipeline programmes shipped for 70+ SaaS companies including Storylane, Spendflo, HyperVerge."
 date: 2025-02-10
 slug: "about-us"
 layout: "about-us"
@@ -57,7 +59,7 @@ notable_wins:
 # Founder quotes — verbatim from April 2026 press release
 founder_quotes:
   - quote: "SaaS companies don't have visibility problems; they have execution gaps."
-    name: "Kim Mathiarasan"
+    name: "Kamaraj Mathiarasan (Kim)"
     role: "Co-Founder"
   - quote: "When paid strategy aligns with organic momentum, CPL drops, lead quality improves, pipeline strengthens."
     name: "Praveen Ravi"

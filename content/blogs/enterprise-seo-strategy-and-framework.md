@@ -1,8 +1,8 @@
 ---
 title: "Enterprise SEO Strategies: Complete 7-step Framework for 2026"
 description: "Most B2B SaaS companies hit a point where the startup SEO playbook stops working. The team is publishing consistently, rankings are moving, and traffic is growing. But the program keeps running into the same ceiling: organizational friction, governance gaps, and a reporting model that cannot connect organic search to the revenue number the CFO cares […]"
-meta_title: "Enterprise SEO Strategies: The 7-Step Framework for Growth"
-meta_description: "A complete 7-step Enterprise SEO strategy framework built for B2B teams who want organic search to generate pipeline, not just traffic."
+metaTitle: "Enterprise SEO Strategies: The 7-Step Framework for Growth"
+metaDescription: "A complete 7-step Enterprise SEO strategy framework built for B2B teams who want organic search to generate pipeline, not just traffic."
 date: 2026-04-09
 lastmod: 2026-04-29
 slug: "enterprise-seo-strategy-and-framework"
@@ -88,7 +88,7 @@ Fix the template-level issues first. A page-by-page approach does not work at en
 
 **What this looks like in practice:** A 500-person SaaS company runs a crawl audit before a site migration and discovers that their staging environment had leaked into production, creating thousands of duplicate pages competing with their canonical content. Googlebot had been splitting crawl budget between both versions for four months. Fixing the configuration and submitting a clean sitemap resulted in a 22% increase in indexed pages within six weeks.
 
-## Step 3: Build a Keyword Strategy Around [ICP](/glossary/what-is-icp/) and Buying Stages
+## Step 3: Build a Keyword Strategy Around ICP and Buying Stages
 
 Enterprise B2B SaaS companies serve multiple ICPs, often across multiple industries, use cases, and company sizes. A single keyword list cannot serve all of them. The keyword strategy needs to be segmented by persona, funnel stage, product line, and market.
 

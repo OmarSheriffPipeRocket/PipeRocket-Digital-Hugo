@@ -1,8 +1,9 @@
 ---
+layout: "listicle"
 title: "11 Best SaaS Growth Marketing Agencies (2026)"
 description: "This list is built around one filter: which SaaS growth marketing agencies actually connect their work to qualified pipeline and closed revenue — not just impressions and clicks. Compare: 11 Best SaaS Growth Marketing Agencies in 2026 How We Evaluated These SaaS Growth Marketing Agencies 30% – SaaS Growth Specialization — Does the agency specialise […]"
-meta_title: "11 Top SaaS Growth Marketing Agencies Driving Revenue (2026)"
-meta_description: "Explore 11 SaaS growth marketing agencies in 2026 ranked by pipeline, channels, and execution depth."
+metaTitle: "11 Top SaaS Growth Marketing Agencies Driving Revenue (2026)"
+metaDescription: "Explore 11 SaaS growth marketing agencies in 2026 ranked by pipeline, channels, and execution depth."
 date: 2026-04-14
 lastmod: 2026-05-12
 slug: "11-best-saas-growth-marketing-agencies-2026"

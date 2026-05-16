@@ -1,8 +1,8 @@
 ---
 title: "The No-Nonsense Guide to Auditing Your SaaS PPC Account"
 description: "We’ve all been there. You’re staring at a Google Ads dashboard that looks like it was organized by a toddler. Or maybe you’ve just inherited an ad account from a previous agency, and you’re trying to figure out why they were bidding on keywords that have absolutely nothing to do with your product. Whether you […]"
-meta_title: "How to Conduct a SaaS PPC Audit in 2026?"
-meta_description: "Wondering how to conduct a PPC account audit for your SaaS product? Here's a complete phase-by-phase guide to help you audit your SaaS PPC account."
+metaTitle: "How to Conduct a SaaS PPC Audit in 2026?"
+metaDescription: "Wondering how to conduct a PPC account audit for your SaaS product? Here's a complete phase-by-phase guide to help you audit your SaaS PPC account."
 date: 2026-01-12
 lastmod: 2026-05-13
 slug: "the-no-nonsense-guide-to-auditing-your-saas-ppc-account"

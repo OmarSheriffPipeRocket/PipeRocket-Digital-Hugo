@@ -3,6 +3,8 @@ title: "127% Traffic Growth in 6 Months for DevRev"
 slug: "devrev"
 url: "/case-study-devrev/"
 description: "How DevRev's organic programme more than doubled traffic in six months — by ranking on the queries their ICP was actually searching."
+metaTitle: "DevRev Case Study: 127% Traffic Growth in 6 Months | PipeRocket"
+metaDescription: "How DevRev's organic programme more than doubled traffic in six months — by ranking on the BOFU queries their ICP was actually searching for."
 client: "DevRev"
 industry: "SaaS · DevTools / Customer Success"
 services: ["SaaS SEO"]

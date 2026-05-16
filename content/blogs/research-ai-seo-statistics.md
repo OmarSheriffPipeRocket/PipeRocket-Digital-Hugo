@@ -1,8 +1,8 @@
 ---
 title: "60+ AI SEO Statistics for 2026 | Updated May"
 description: ""
-meta_title: "60+ AI SEO Statistics in 2026 | Updated for May"
-meta_description: "Getting FOMO about AI SEO and it's impact on SEO? Here are 60+ AI SEO statistics updated for May 2026 that will let you know the truth."
+metaTitle: "60+ AI SEO Statistics in 2026 | Updated for May"
+metaDescription: "Getting FOMO about AI SEO and it's impact on SEO? Here are 60+ AI SEO statistics updated for May 2026 that will let you know the truth."
 date: 2026-04-06
 lastmod: 2026-05-13
 slug: "ai-seo-statistics"
@@ -431,13 +431,13 @@ AI is not replacing organic search — it is acting as an untracked discovery la
 
 Stats in sections 1–6 are sourced from PipeRocket Digital's proprietary 8-month analysis of 53 B2B SaaS brands. Stats in section 7 are drawn from third-party industry research published in 2025–2026, with individual sources linked inline.
 
-![Kamaraj Mathiarasan](/images/wp-import/04_Kim-Photo.webp)
+![Kamaraj Mathiarasan (Kim)](/images/wp-import/04_Kim-Photo.webp)
 
-Kamaraj Mathiarasan
+Kamaraj Mathiarasan (Kim)
 
 I work with B2B SaaS teams who've already invested in content, SEO, and growth tools — but still walk out of sales conversations wondering why the pipeline isn't moving.
 
-[View full profile](/author/kamaraj-mathiarasan/)
+[View full profile](/authors/kim/)
 
 #### Looking for a SaaS SEO agency?
 
@@ -448,13 +448,13 @@ Let's scale your organic growth and build your pipeline.
 
 
 
-![Kamaraj Mathiarasan](/images/wp-import/04_Kim-Photo.webp)
+![Kamaraj Mathiarasan (Kim)](/images/wp-import/04_Kim-Photo.webp)
 
-Kamaraj Mathiarasan
+Kamaraj Mathiarasan (Kim)
 
 I work with B2B SaaS teams who've already invested in content, SEO, and growth tools — but still walk out of sales conversations wondering why the pipeline isn't moving.
 
-[View full profile](/author/kamaraj-mathiarasan/)
+[View full profile](/authors/kim/)
 
 #### Looking for a SaaS SEO agency?
 

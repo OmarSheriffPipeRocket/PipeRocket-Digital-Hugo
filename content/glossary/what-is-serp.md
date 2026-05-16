@@ -1,12 +1,13 @@
 ---
 title: "What Is SERP? A Straightforward Guide for SaaS Teams"
 description: "SERP stands for “Search Engine Results Page” the list of results shown after a user searches on Google or another engine. Understanding SERPs is critical for SaaS teams: it reveals what actually ranks, shapes your SEO strategy, and exposes competitor moves. TL;DR What Is SERP and Why Should SaaS Teams Care? A SERP (Search Engine […]"
-meta_description: "SERP means \"Search Engine Results Page\". Learn what it is, why it matters for SaaS and B2B strategy, and how to read SERPs for SEO wins."
+metaTitle: "What Is SERP? A Straightforward Guide for SaaS Teams"
+metaDescription: "SERP means \"Search Engine Results Page\". Learn what it is, why it matters for SaaS and B2B strategy, and how to read SERPs for SEO wins."
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-serp"
 categorySlug: "seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3089
 glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-serp/"

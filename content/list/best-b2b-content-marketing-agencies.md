@@ -1,12 +1,13 @@
 ---
+layout: "listicle"
 title: "My Picks for The 9 Best B2B Content Marketing Agencies in 2026"
 description: "I ranked the 9 best B2B content marketing agencies for 2026. Each agency was scored across five weighted criteria: strategic depth, content quality, technical expertise, client results, and service flexibility. You get a complete breakdown of who delivers real pipeline impact and who fits your specific growth stage. How We Evaluated These B2B Content Marketing […]"
-meta_title: "I Ranked the 9 Best B2B Content Marketing Agencies (2026)"
-meta_description: "I evaluated 9 B2B content marketing agencies on strategy, execution, and ROI. Here are my top picks for 2026."
+metaTitle: "I Ranked the 9 Best B2B Content Marketing Agencies (2026)"
+metaDescription: "I evaluated 9 B2B content marketing agencies on strategy, execution, and ROI. Here are my top picks for 2026."
 date: 2025-11-19
 lastmod: 2026-05-12
 slug: "best-b2b-content-marketing-agencies"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "B2B Content Marketing"
 featuredImage: "/images/wp-import/B2B-Content-Marketing-Agencies-Banner-Image.png"
 wp_id: 2318

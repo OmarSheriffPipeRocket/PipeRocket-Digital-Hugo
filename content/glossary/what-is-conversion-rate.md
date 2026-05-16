@@ -1,8 +1,8 @@
 ---
 title: "What Is Conversion Rate"
 description: "Conversion rate is the percentage of users who complete a desired action, like signing up or making a purchase, out of everyone who visits your site or landing page. A strong conversion rate means your marketing, product, or funnel actually moves real buyers forward. Track it by action not just by page view. TL;DR What […]"
-meta_title: "What Is Conversion Rate? How To Measure, Improve, and Actually Use It"
-meta_description: "Conversion rate is the percent of visitors who take a desired action. Learn what it means, why most teams misunderstand it, and how to use it for growth."
+metaTitle: "What Is Conversion Rate? How To Measure, Improve, and Actually Use It"
+metaDescription: "Conversion rate is the percent of visitors who take a desired action. Learn what it means, why most teams misunderstand it, and how to use it for growth."
 date: 2026-04-27
 slug: "what-is-conversion-rate"
 categorySlug: "analytics-attribution"

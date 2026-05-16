@@ -1,8 +1,8 @@
 ---
 title: "The 8 Common SaaS Google Ads Mistakes to Avoid in 2026"
 description: "Let’s be honest, most SaaS Google Ads content out there is just recycled advice dressed up in new packaging. “Improve your Quality Score. Test your creatives.” Sure, technically correct. But if you have ever actually tried to run a Google Ads account for a SaaS product and watched your budget disappear with nothing to show […]"
-meta_title: "11 Common SaaS Google Ads Mistakes And How to Avoid Them"
-meta_description: "Check if you're making these 11 common SaaS Google Ads mistakes in your account. Understand why they are bad and how you can fix them in this blog."
+metaTitle: "11 Common SaaS Google Ads Mistakes And How to Avoid Them"
+metaDescription: "Check if you're making these 11 common SaaS Google Ads mistakes in your account. Understand why they are bad and how you can fix them in this blog."
 date: 2026-03-09
 lastmod: 2026-05-12
 slug: "the-8-common-saas-google-ads-mistakes-to-avoid-in-2026"

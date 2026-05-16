@@ -3,6 +3,8 @@ date: 2026-04-18
 lastmod: 2026-05-02
 title: "SaaS SEO Agency - FAQs"
 description: "Is SEO worth it before we have product-market..."
+metaTitle: "SaaS SEO Agency FAQs | Pricing, Timelines, Reporting"
+metaDescription: "Answers to the questions B2B SaaS founders ask before hiring a SaaS SEO agency. Pricing, timelines, attribution, content velocity, and what results look like."
 url: "/saas-seo-agency/faqs/"
 layout: "single"
 toc: false

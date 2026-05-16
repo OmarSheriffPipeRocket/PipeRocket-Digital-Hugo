@@ -1,7 +1,8 @@
 ---
 title: "What Is ARR? Meaning, SaaS Metrics, and Real Risks"
 description: "ARR (annual recurring revenue) is the total value of contracted recurring revenue a SaaS business expects over a year. It measures predictable income crucial for tracking real growth and assessing company health. Misreading ARR can mask churn or one-time spikes, so track only true recurring contracts. TL;DR What Is ARR in SaaS and Why Does […]"
-meta_description: "ARR is annual recurring revenue the core SaaS growth metric. Learn how ARR works, why most teams misread it, and what it says about your business."
+metaTitle: "What Is ARR? Meaning, SaaS Metrics, and Real Risks"
+metaDescription: "ARR is annual recurring revenue the core SaaS growth metric. Learn how ARR works, why most teams misread it, and what it says about your business."
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-arr"

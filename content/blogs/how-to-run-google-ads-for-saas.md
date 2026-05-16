@@ -1,8 +1,8 @@
 ---
 title: "Google Ads for SaaS Guide: Based on 10+ Years of Experience"
 description: "I’ve sat in your chair. The pressure to fill the pipeline is real, and Google Ads often feels like the fastest lever to pull. SaaS Google Ads offers a massive inventory with Performance Max, Demand Gen, YouTube, and more. While these have their place, today I’m focusing exclusively on Search Ads. Why? Because in my […]"
-meta_title: "How to Run Google Ads for SaaS in 2026? An Expert's Guide"
-meta_description: "Wondering how to start running a Google Ads account for your SaaS product? Here's a complete guide based on my 10+ years of experience in SaaS."
+metaTitle: "How to Run Google Ads for SaaS in 2026? An Expert's Guide"
+metaDescription: "Wondering how to start running a Google Ads account for your SaaS product? Here's a complete guide based on my 10+ years of experience in SaaS."
 date: 2026-01-21
 lastmod: 2026-05-12
 slug: "how-to-run-google-ads-for-saas"

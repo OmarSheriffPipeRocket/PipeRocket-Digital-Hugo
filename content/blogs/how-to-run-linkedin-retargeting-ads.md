@@ -1,8 +1,8 @@
 ---
 title: "How to Run LinkedIn Retargeting Ads in 2026?"
 description: "So, let’s talk about why most SaaS founders are essentially setting money on fire. I see it every single week where someone comes to me and they’re treating Linkedin retargeting ads like it’s some basic B2C channel, just because they heard “retargeting” and thought it meant chasing people around the internet with the same generic […]"
-meta_title: "How do I run LinkedIn Retargeting Ads in 2026? | PipeRocket"
-meta_description: "This is the exact process we follow at PipeRocket Digital to run LinkedIn retargeting ads in 2026. Use this process and generate quality pipeline."
+metaTitle: "How do I run LinkedIn Retargeting Ads in 2026? | PipeRocket"
+metaDescription: "This is the exact process we follow at PipeRocket Digital to run LinkedIn retargeting ads in 2026. Use this process and generate quality pipeline."
 date: 2026-02-25
 lastmod: 2026-05-13
 slug: "how-to-run-linkedin-retargeting-ads"

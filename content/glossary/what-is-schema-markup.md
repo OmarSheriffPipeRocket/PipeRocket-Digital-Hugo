@@ -1,13 +1,13 @@
 ---
 title: "What Is Schema Markup? Plain English Guide for SaaS"
 description: "Schema markup is code you add to your website that helps search engines understand your content and display rich results, like star ratings or FAQs, in search. Using schema can boost your visibility, click-through rates, and help your SaaS stand out in crowded SERPs. TL;DR What Is Schema Markup and Why Does It Matter? Schema […]"
-meta_title: "What Is Schema Markup? Plain English Guide for SaaS Teams"
-meta_description: "Schema markup is code that helps search engines understand your page and unlocks rich results. Learn what schema is, why it matters, and how to use it in SaaS."
+metaTitle: "What Is Schema Markup? Plain English Guide for SaaS Teams"
+metaDescription: "Schema markup is code that helps search engines understand your page and unlocks rich results. Learn what schema is, why it matters, and how to use it in SaaS."
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-schema-markup"
 categorySlug: "seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3098
 glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-schema-markup/"

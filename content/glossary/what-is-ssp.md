@@ -1,8 +1,8 @@
 ---
 title: "What Is SSP"
 description: "An SSP (supply-side platform) is software that helps publishers sell digital ad space automatically to multiple advertisers at once. SSPs increase revenue by maximizing competition for each impression, making it easier and faster to monetize inventory than negotiating direct ad deals one by one. TL;DR What Is SSP? An SSP, or supply-side platform, is software […]"
-meta_title: "What Is SSP? The SaaS Supply-Side Platform Explained"
-meta_description: "SSP means supply-side platform a tool publishers use to sell ad inventory automatically. Learn how SSPs work, why they beat direct deals, and common mistakes."
+metaTitle: "What Is SSP? The SaaS Supply-Side Platform Explained"
+metaDescription: "SSP means supply-side platform a tool publishers use to sell ad inventory automatically. Learn how SSPs work, why they beat direct deals, and common mistakes."
 date: 2026-04-27
 slug: "what-is-ssp"
 categorySlug: "ppc"

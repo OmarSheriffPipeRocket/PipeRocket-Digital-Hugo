@@ -1,8 +1,8 @@
 ---
 title: "What Is Crawling? The SEO Foundation Most SaaS Teams Get Wrong"
 description: "Crawling is the process search engines use to discover and read web pages by following links across the internet. If a bot can’t reach your page, that page won’t rank no matter how good the content is. Fix crawlability before you fix anything else. TL;DR Crawling is how search engine bots discover pages by following […]"
-meta_title: "What Is Crawling? How Search Engines Find Your Pages"
-meta_description: "Crawling is how search engines discover your web pages. If bots can't crawl your site, nothing else in SEO matters. Here's what you need to know."
+metaTitle: "What Is Crawling? How Search Engines Find Your Pages"
+metaDescription: "Crawling is how search engines discover your web pages. If bots can't crawl your site, nothing else in SEO matters. Here's what you need to know."
 date: 2026-04-27
 slug: "what-is-crawling"
 categorySlug: "seo"

@@ -1,8 +1,8 @@
 ---
 title: "How I Do Competitor Analysis for SaaS SEO in 2026"
 description: "Let’s be honest with each other for a minute here. You have to ask yourself why most SaaS founders and marketers actually do competitor analysis for SaaS SEO. I’ve sat in these meetings, and if we look at the industry standard, it usually comes down to one thing: “what are we missing”? It happens all […]"
-meta_title: "How I Do SaaS SEO Competitor Analysis For My Clients in 2026"
-meta_description: "Here's the SaaS SEO competitor analysis we follow at PipeRocket Digital. I focus on analyzing in a way that prioritizes revenue over vanity metrics."
+metaTitle: "How I Do SaaS SEO Competitor Analysis For My Clients in 2026"
+metaDescription: "Here's the SaaS SEO competitor analysis we follow at PipeRocket Digital. I focus on analyzing in a way that prioritizes revenue over vanity metrics."
 date: 2026-02-02
 lastmod: 2026-05-12
 slug: "how-to-do-saas-seo-competitor-analysis"
@@ -175,7 +175,7 @@ Let me give you a real example of how this applies to copy. We had a client who 
 
 This didn’t happen because we bought [backlinks](/glossary/what-is-a-backlink/). It happened because we analyzed the SERP intent and fixed the copy to solve the user’s problem immediately.
 
-## **How I Analyze a Competitor’s Topical and [Domain Authority](/glossary/what-is-domain-authority/)**
+## **How I Analyze a Competitor’s Topical and Domain Authority**
 
 You can have good content, but if someone else writes better content who Google also trusts, they’ll easily outrank you.
 
@@ -194,7 +194,7 @@ If you are writing about “Recruitment Software”, check the SERP for that key
 
 If you cover the entire cluster, Google tags you as a “Subject Matter Expert”. If you only write one sales page for a non-salesy keyword, you look like a spammer.
 
-### **How You Need to Approach [Domain Authority](/glossary/what-is-domain-authority/) & [Backlinks](/glossary/what-is-a-backlink/)**
+### **How You Need to Approach Domain Authority & Backlinks**
 
 Check the external links of the top-ranking people. If the #1 result has 100 quality [backlinks](/glossary/what-is-a-backlink/) and you have 10, ranking will be difficult.
 

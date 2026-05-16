@@ -1,8 +1,8 @@
 ---
 title: "How to Run a SaaS Content Audit That Actually Moves Rankings"
 description: "Most SaaS companies publish content, wait a few months, and then wonder why rankings stall. The problem usually isn’t your new content. It’s the old content quietly dragging everything down, and the only way to catch it before it does real damage is a proper content audit. Not the generic “update your meta descriptions” kind. […]"
-meta_title: "How We Effectively Run A SaaS Content Audit in 2026"
-meta_description: "Wondering how to rank on ChatGPT in 2026? Here’s how you can improve ChatGPT visibility and appear for questions your customers actually ask."
+metaTitle: "How We Effectively Run A SaaS Content Audit in 2026"
+metaDescription: "Wondering how to rank on ChatGPT in 2026? Here’s how you can improve ChatGPT visibility and appear for questions your customers actually ask."
 date: 2026-03-11
 lastmod: 2026-05-13
 slug: "how-to-run-a-saas-content-audit-that-actually-moves-rankings"
@@ -34,7 +34,7 @@ Here’s the TL;DR version on running an effective SaaS content audit.
 
 To effectively run a SaaS content audit, ask yourself these 8 questions when picking up a piece of content.
 
-### **Question 1: Does Your Content Match [SERP](/glossary/what-is-serp/) Intent and User Intent?**
+### **Question 1: Does Your Content Match SERP Intent and User Intent?**
 
 These are two different things, and you need to satisfy both or the content won’t be valuable.
 
@@ -114,7 +114,7 @@ Digestibility directly impacts bounce rate, time on page, and conversions. Your 
 - Use images that add real context: screenshots, diagrams, comparison tables and not stock photos of people at laptops
 - **Convert all images to WEBP format.** JPEG and PNG files bloat your load times, and load time is a ranking factor. This one is non-negotiable.
 
-### **Question 5: Do You Have the Right [Schema Markup](/glossary/what-is-schema-markup/)?**
+### **Question 5: Do You Have the Right Schema Markup?**
 
 Schema is easy to get right and easy to ignore, and most SaaS content teams ignore it. The right schema signals tell Google exactly what kind of content it’s looking at, which improves how your pages are indexed and displayed in search results.
 
@@ -224,7 +224,7 @@ Once you cross this threshold, content starts working against itself.
 
 At this scale, an audit isn’t optional, it’s the maintenance work that keeps the whole engine running properly.
 
-### **When You’re About to Launch a New [SEO](/glossary/what-is-seo/) Push**
+### **When You’re About to Launch a New SEO Push**
 
 If you’re about to invest budget in a new batch of [SaaS SEO](/blogs/saas-seo/) content, run an [SEO audit](/glossary/what-is-an-seo-audit/ "Glossary: SEO Audit") first. There’s no point spending money on 10 new articles when the 40 you already have are underperforming. Fix the foundation before you build more floors, and the new content you publish will actually have something solid to stand on.
 

@@ -1,7 +1,8 @@
 ---
 title: "How to Optimize SaaS Landing Pages for SEO?"
 description: "I’ve sat in meetings where everyone treats a landing page like a digital brochure. They focus entirely on how the design looks, or they obsess over ranking for a high-volume keyword without ever checking if that keyword actually drives revenue. They throw up some generic feature lists, sprinkle in a few keywords they found on […]"
-meta_description: "I wrote this blog to talk about how you should be optimizing a SaaS landing page for SEO and lead generation based on my 15+ years of experience."
+metaTitle: "How to Optimize SaaS Landing Pages for SEO in 2026"
+metaDescription: "I wrote this blog to talk about how you should be optimizing a SaaS landing page for SEO and lead generation based on my 15+ years of experience."
 date: 2026-02-10
 lastmod: 2026-05-12
 slug: "blogs-optimize-saas-landing-pages-for-seo"
@@ -26,7 +27,7 @@ When I look at optimizing a landing page for [SaaS SEO](/blogs/saas-seo/), I gen
 
 In both of these scenarios, most people rush into writing a copy or designing the wireframe immediately. That is the fastest way to burn resources and time.
 
-### Start with [Keyword Research](/glossary/what-is-keyword-research/) and Search Validation
+### Start with Keyword Research and Search Validation
 
 I always start with [**Keyword Research**](/blogs/how-to-do-saas-seo-keyword-research/), but not in the way you might think. I look strictly at the **Intent**.
 
@@ -143,7 +144,7 @@ If they land on an HR software page, the bot shouldn’t just say “Hi.” It s
 
 Once they engage with the bot, you can’t just leave them hanging. You need lead routing. You need to pass that lead directly to the sales team or book a meeting instantly to convert them.
 
-## How to Handle [Technical SEO](/glossary/what-is-technical-seo/) Hygiene
+## How to Handle Technical SEO Hygiene
 
 Once the content and layout are done, we have to handle the [Technical SEO](/glossary/what-is-technical-seo/). This is the “plumbing” of the page. We need to cover the nuances that help your site get crawled and indexed by Google properly.
 

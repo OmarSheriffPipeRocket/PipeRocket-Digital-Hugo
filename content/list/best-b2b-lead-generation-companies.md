@@ -1,8 +1,9 @@
 ---
+layout: "listicle"
 title: "Ranking The Top 9 B2B Lead Generation Agencies in 2026"
 description: "I ranked the top 9 B2B lead generation agencies using a weighted scoring system across five criteria: lead quality, channel expertise, technology stack, industry specialization, and client transparency. Each agency was evaluated on real client outcomes and verified reviews. You get scores, pricing, and clear guidance on which partner fits your pipeline needs. How We […]"
-meta_title: "I Ranked the 9 Best B2B Lead Generation Agencies (2026)"
-meta_description: "I ranked the top 9 B2B lead generation agencies for 2026. See scores, pricing, and which agency fits your pipeline goals."
+metaTitle: "I Ranked the 9 Best B2B Lead Generation Agencies (2026)"
+metaDescription: "I ranked the top 9 B2B lead generation agencies for 2026. See scores, pricing, and which agency fits your pipeline goals."
 date: 2025-11-25
 lastmod: 2026-05-12
 slug: "best-b2b-lead-generation-companies"

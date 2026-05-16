@@ -1,8 +1,9 @@
 ---
+layout: "listicle"
 title: "The Top 10 B2B PPC Agencies You Need to Consider in 2026"
 description: "I ranked the 10 best B2B PPC agencies using a weighted scoring system across five criteria: pipeline generation, ICP targeting precision, revenue attribution, B2B platform expertise, and client retention. Each agency was evaluated on real client outcomes and specialization depth. This guide helps you find the right partner for your pipeline goals. How We Evaluated […]"
-meta_title: "I Ranked the 10 Best B2B PPC Agencies (2026)"
-meta_description: "I ranked the top 10 B2B PPC agencies by pipeline generation, ICP targeting, and revenue attribution. Find your ideal partner."
+metaTitle: "I Ranked the 10 Best B2B PPC Agencies (2026)"
+metaDescription: "I ranked the top 10 B2B PPC agencies by pipeline generation, ICP targeting, and revenue attribution. Find your ideal partner."
 date: 2025-11-04
 lastmod: 2026-05-12
 slug: "top-b2b-ppc-agencies"

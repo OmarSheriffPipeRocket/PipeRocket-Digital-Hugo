@@ -1,8 +1,8 @@
 ---
 title: "What Is CLV"
 description: "Customer lifetime value (CLV) is the total revenue a customer generates for your business during their entire relationship with you. Tracking CLV shows which customers drive sustainable growth and where to focus retention efforts. High CLV means your acquisition spend can go further without burning out your budget. TL;DR What Is CLV? CLV stands for […]"
-meta_title: "What Is CLV? (Customer Lifetime Value) Meaning in SaaS"
-meta_description: "CLV is the revenue a customer brings over their relationship with your SaaS. Learn what CLV is, why it matters, and the mistakes most teams make."
+metaTitle: "What Is CLV? (Customer Lifetime Value) Meaning in SaaS"
+metaDescription: "CLV is the revenue a customer brings over their relationship with your SaaS. Learn what CLV is, why it matters, and the mistakes most teams make."
 date: 2026-04-27
 slug: "what-is-clv"
 categorySlug: "saas-metrics"

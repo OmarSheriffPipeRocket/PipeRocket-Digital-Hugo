@@ -3,6 +3,8 @@ title: "2X the Leads at 73% Less Cost for HyperStart"
 slug: "hyperstart"
 url: "/case-study-hyperstart/"
 description: "How HyperStart's SQO pipeline doubled while cost-per-lead dropped 73% — across one quarter of disciplined PPC restructuring."
+metaTitle: "HyperStart Case Study: 2X Leads at 73% Less Cost | PipeRocket"
+metaDescription: "How HyperStart's SQL pipeline doubled while cost-per-lead dropped 73% in one quarter of disciplined B2B SaaS PPC restructuring with PipeRocket."
 client: "HyperStart"
 industry: "SaaS · LegalTech / CLM"
 services: ["SaaS PPC", "Google Ads"]

@@ -1,8 +1,9 @@
 ---
+layout: "listicle"
 title: "11 Best HR Tech Marketing Agencies in 2026"
 description: "HR tech buyers evaluate software the same way they manage people: with structured process, committee sign-off, and healthy skepticism toward vendor claims. Most marketing agencies treat HR tech like any other SaaS vertical. The agencies on this list understand the difference. We reviewed 35+ agencies and ranked the 11 best for 2026. How We Evaluated […]"
-meta_title: "I Ranked 11 Best HR Tech Marketing Agencies (2026)"
-meta_description: "I ranked the 11 best HR tech marketing agencies in 2026, scored on HR tech expertise, pipeline attribution, and pricing."
+metaTitle: "I Ranked 11 Best HR Tech Marketing Agencies (2026)"
+metaDescription: "I ranked the 11 best HR tech marketing agencies in 2026, scored on HR tech expertise, pipeline attribution, and pricing."
 date: 2026-04-28
 lastmod: 2026-05-12
 slug: "best-hr-tech-marketing-agencies"

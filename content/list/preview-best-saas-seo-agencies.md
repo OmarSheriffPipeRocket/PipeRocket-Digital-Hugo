@@ -1,13 +1,13 @@
 ---
 title: "11 Best Martech Marketing Agencies in 2026"
 description: "Martech buyers are marketers themselves, which makes them the hardest audience to market to. They know every tactic, distrust vendor claims on principle, and evaluate software through a peer and community lens before ever speaking to sales. Most agencies do not understand that dynamic. We reviewed 40+ martech marketing agencies and ranked the 11 best […]"
-meta_title: "I Ranked 11 Best Martech Marketing Agencies (2026)"
-meta_description: "I ranked the 11 best martech marketing agencies in 2026, scored on pipeline attribution, B2B expertise, and pricing."
+metaTitle: "I Ranked 11 Best Martech Marketing Agencies (2026)"
+metaDescription: "I ranked the 11 best martech marketing agencies in 2026, scored on pipeline attribution, B2B expertise, and pricing."
 date: 2026-04-28
 lastmod: 2026-05-12
 slug: "preview-best-saas-seo-agencies"
 layout: "listicle"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "B2B Marketing"
 readingTime: "20 min read"
 featuredImage: "/images/wp-import/11_B2B-Marketing-Agencies-1.png"

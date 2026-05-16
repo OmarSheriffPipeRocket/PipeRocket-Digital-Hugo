@@ -1,12 +1,13 @@
 ---
 title: "What Is an SEO Audit? Plain Definition & Real SaaS Impact"
 description: "An SEO audit is a systematic review of your website’s technical, on-page, and off-page factors to identify issues hurting search performance. It matters because missed errors can block organic growth, bury pages, or waste marketing spend. Regular audits keep your SEO strategy focused and effective. TL;DR What Is an SEO Audit? An SEO audit is […]"
-meta_description: "An SEO audit checks your site’s search health, flags issues, and reveals growth blockers. Discover what an SEO audit is and what teams get wrong."
+metaTitle: "What Is an SEO Audit? Plain Definition & Real SaaS Impact"
+metaDescription: "An SEO audit checks your site’s search health, flags issues, and reveals growth blockers. Discover what an SEO audit is and what teams get wrong."
 date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-an-seo-audit"
 categorySlug: "seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3193
 glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-an-seo-audit/"

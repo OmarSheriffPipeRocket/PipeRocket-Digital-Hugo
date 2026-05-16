@@ -1,7 +1,8 @@
 ---
 title: "What Is PPC? Paid Search Explained for SaaS & B2B Teams"
 description: "PPC (pay-per-click) is a digital advertising model where advertisers pay each time someone clicks their ad, commonly used on platforms like Google Ads. It drives targeted traffic quickly, but costs scale with each click, not just results. Effective PPC requires constant optimization to avoid wasting budget. TL;DR What Is PPC and How Does It Actually […]"
-meta_description: "PPC stands for pay-per-click advertising a model where you pay only when someone clicks your ad. Learn how PPC works and why it matters for SaaS."
+metaTitle: "What Is PPC? Paid Search Explained for SaaS & B2B Teams"
+metaDescription: "PPC stands for pay-per-click advertising a model where you pay only when someone clicks your ad. Learn how PPC works and why it matters for SaaS."
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-ppc"

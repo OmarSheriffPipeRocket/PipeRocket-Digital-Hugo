@@ -1,8 +1,8 @@
 ---
 title: "How do I Run LinkedIn Ads for SaaS (An Expert’s Take)"
 description: "In my 10+ years of experience in B2B SaaS, I’ve seen too many SaaS marketers burning their budgets because they treat LinkedIn Ads exactly like Google Ads. They are not the same. If you take one thing away from this guide, let it be this: Google is for capture; LinkedIn is for influence. If you […]"
-meta_title: "How to Run LinkedIn Ads for SaaS in 2026? | Experience-based"
-meta_description: "Wondering how to start running a Linked Ads account for your SaaS product? Here's a complete guide based on my 10+ years of experience in SaaS."
+metaTitle: "How to Run LinkedIn Ads for SaaS in 2026? | Experience-based"
+metaDescription: "Wondering how to start running a Linked Ads account for your SaaS product? Here's a complete guide based on my 10+ years of experience in SaaS."
 date: 2026-01-21
 lastmod: 2026-03-09
 slug: "how-do-i-run-linkedin-ads-for-saas-an-experts-take"
@@ -47,7 +47,7 @@ Whenever I audit a SaaS LinkedIn ad account, I look for three specific pillars. 
 
 **This is straight-forward**: You are targeting cold audiences who fit your demographic criteria but have zero affinity with your brand. This feeds the funnel for the more complex strategies below.
 
-### **2. [Account-Based Marketing](/glossary/what-is-abm/) (ABM)**
+### **2. Account-Based Marketing (ABM)**
 
 For B2B SaaS, ABM is non-negotiable. However, I see people doing this wrong by treating all accounts equally. **I break ABM down into a tiered approach**:
 

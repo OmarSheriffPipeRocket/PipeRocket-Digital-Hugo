@@ -1,8 +1,8 @@
 ---
 title: "What Is ABM? The B2B Marketer’s Real Guide"
 description: "Account-based marketing (ABM) is a B2B strategy where you focus your marketing and sales efforts on a defined list of high-value accounts rather than casting a wide net. It works because aligned targeting produces higher conversion rates and shorter sales cycles. The trade-off is that it requires genuine coordination between marketing and sales to work. […]"
-meta_title: "What Is ABM? Account-Based Marketing Explained"
-meta_description: "ABM is a B2B strategy that targets specific accounts instead of broad audiences. Learn how it works, when to use it, and how to run it effectively."
+metaTitle: "What Is ABM? Account-Based Marketing Explained"
+metaDescription: "ABM is a B2B strategy that targets specific accounts instead of broad audiences. Learn how it works, when to use it, and how to run it effectively."
 date: 2026-04-27
 slug: "what-is-abm"
 categorySlug: "demand-generation"

@@ -1,8 +1,8 @@
 ---
 title: "SaaS Link Building: The Definitive Guide"
 description: "Most SaaS companies we talk to know they need saas link building but have no real strategy behind it. They publish blog posts, hope other sites link to them, and wonder why their competitors are outranking them despite similar content. The problem is rarely effort. It is that link building for SaaS works differently than […]"
-meta_title: "SaaS Link Building: The Complete 2026 Guide"
-meta_description: "A practical saas link building guide covering the strategies, the pages that actually need backlinks, and how to measure ROI from your efforts."
+metaTitle: "SaaS Link Building: The Complete 2026 Guide"
+metaDescription: "A practical saas link building guide covering the strategies, the pages that actually need backlinks, and how to measure ROI from your efforts."
 date: 2026-04-08
 lastmod: 2026-05-13
 slug: "saas-link-building"
@@ -87,7 +87,7 @@ Broad findings do not get cited. “Most SaaS companies struggle with customer r
 
 A well-built free tool is one of the most durable link building assets a SaaS company can produce, because it solves a problem your buyer already has and gives other sites a reason to reference it permanently.
 
-### Picking the right tool for your [ICP](/glossary/what-is-icp/)
+### Picking the right tool for your ICP
 
 The tool has to be genuinely useful to the exact buyer you are trying to reach. A project management SaaS could build a sprint velocity calculator. A financial operations SaaS could build a burn rate calculator or a runway estimator. A sales enablement tool could build a quota attainment tracker. The framing should be: what calculation does my buyer do manually every week that I could automate in a tool?
 

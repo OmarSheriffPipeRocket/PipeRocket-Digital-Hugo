@@ -1,8 +1,8 @@
 ---
 title: "What Is Third-Party Cookies? The Marketer’s Guide to a Fading Technology"
 description: "Third-party cookies are small tracking files placed on your browser by a domain you didn’t visit directly usually an ad network or analytics platform. They power cross-site behavioural tracking, retargeting, and audience segmentation. With major browsers phasing them out, the tools built on top of them are quietly breaking. TL;DR Third-party cookies are set by […]"
-meta_title: "What Are Third-Party Cookies? A Plain-English Guide"
-meta_description: "Third-party cookies track users across websites for ads and analytics. Here's what they are, why they're disappearing, and what SaaS teams should do instead."
+metaTitle: "What Are Third-Party Cookies? A Plain-English Guide"
+metaDescription: "Third-party cookies track users across websites for ads and analytics. Here's what they are, why they're disappearing, and what SaaS teams should do instead."
 date: 2026-04-27
 slug: "what-is-third-party-cookies"
 categorySlug: "analytics-attribution"

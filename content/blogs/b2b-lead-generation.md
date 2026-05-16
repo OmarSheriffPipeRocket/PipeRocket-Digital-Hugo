@@ -1,8 +1,8 @@
 ---
 title: "B2B Lead Generation: A Complete Guide for 2025"
 description: "One month you have leads flowing in… the next month everything slows down.  Most B2B teams face this feast-or-famine cycle. And it’s not because your market vanished or your product stopped being good,  it’s usually because your lead generation is relying on just one channel or one tactic that eventually slows down. The deeper issue […]"
-meta_title: "B2B Lead Generation: Everything You Need to Know"
-meta_description: "A comprehensive guide to b2b lead generation in 2025. Learn how to attract, qualify, and nurture high-intent leads using various marketing strategies."
+metaTitle: "B2B Lead Generation: Everything You Need to Know"
+metaDescription: "A comprehensive guide to b2b lead generation in 2025. Learn how to attract, qualify, and nurture high-intent leads using various marketing strategies."
 date: 2025-11-28
 lastmod: 2026-05-13
 slug: "b2b-lead-generation"
@@ -160,7 +160,7 @@ Paid channels help you scale faster than organic alone. 
 
 Together, search + social + retargeting create a full-funnel paid engine that speeds up the pipeline.
 
-### 6. [ABM](/glossary/what-is-abm/) (Account-Based Marketing)
+### 6. ABM (Account-Based Marketing)
 
 If you sell to mid-market or enterprise companies, [ABM](/glossary/what-is-abm/) changes the game. Instead of casting a wide net, you focus on a shortlist of high-value accounts and personalise everything they see.
 

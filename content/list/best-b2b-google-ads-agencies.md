@@ -1,12 +1,13 @@
 ---
+layout: "listicle"
 title: "My Picks For The 5 Best B2B Google Ads Agencies in 2026"
 description: "I ranked 12 B2B Google Ads agencies using a weighted scoring system focused on pipeline generation, B2B specialization, strategic depth, reporting transparency, and client retention. Each agency was evaluated on its ability to turn ad spend into qualified opportunities and closed revenue. This guide helps you find the right partner for your growth goals. How […]"
-meta_title: "I Ranked the 12 Best B2B Google Ads Agencies (2026)"
-meta_description: "I scored 12 B2B Google Ads agencies on pipeline impact, specialization, and transparency. See which drive real revenue."
+metaTitle: "I Ranked the 12 Best B2B Google Ads Agencies (2026)"
+metaDescription: "I scored 12 B2B Google Ads agencies on pipeline impact, specialization, and transparency. See which drive real revenue."
 date: 2025-11-13
 lastmod: 2026-05-12
 slug: "best-b2b-google-ads-agencies"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "B2B PPC"
 featuredImage: "/images/wp-import/B2B-Google-Ads-Agencies.webp"
 wp_id: 1907

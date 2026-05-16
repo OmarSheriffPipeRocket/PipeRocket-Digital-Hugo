@@ -1,12 +1,13 @@
 ---
+layout: "listicle"
 title: "Best HealthTech Marketing Agencies in 2026"
 description: "HealthTech buyers are not typical enterprise buyers. They operate inside regulatory complexity, answer to clinical stakeholders as much as commercial ones, and evaluate vendors against a backdrop of procurement risk that most B2B categories never encounter. A marketing agency that does not understand HIPAA compliance, clinical workflow friction, and the length of a health system […]"
-meta_title: "Best 11 Healthtech Marketing Agencies in 2026"
-meta_description: "I ranked the 10 best healthtech marketing agencies in the US for 2026, scored on pipeline attribution, revenue results, and pricing."
+metaTitle: "Best 11 Healthtech Marketing Agencies in 2026"
+metaDescription: "I ranked the 10 best healthtech marketing agencies in the US for 2026, scored on pipeline attribution, revenue results, and pricing."
 date: 2026-04-24
 lastmod: 2026-05-12
 slug: "best-healthtech-marketing-agencies-in-2026"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "B2B Marketing"
 wp_id: 3433
 wp_link: "/list/best-healthtech-marketing-agencies/"

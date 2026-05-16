@@ -1,8 +1,8 @@
 ---
 title: "How to Run B2B PPC Campaigns That Convert?"
 description: "If you are running b2b ppc right now and your leads are not turning into pipeline, the problem is almost never the budget. It is the foundation underneath the campaigns. Most B2B teams skip the steps that actually determine whether paid search works, and then spend months optimising the wrong things. This guide walks through […]"
-meta_title: "What is B2B PPC and How to Run Campaigns That Convert"
-meta_description: "A practical b2b ppc guide covering campaign structure, ad copy, landing pages, and how to track what your spend is actually doing for pipeline."
+metaTitle: "What is B2B PPC and How to Run Campaigns That Convert"
+metaDescription: "A practical b2b ppc guide covering campaign structure, ad copy, landing pages, and how to track what your spend is actually doing for pipeline."
 date: 2026-04-08
 lastmod: 2026-05-13
 slug: "b2b-ppc-guide"
@@ -191,7 +191,7 @@ A useful starting point is to work backwards from your pipeline targets. If you 
 
 From what we have observed, this is almost always a targeting or handoff problem rather than a channel problem. On the targeting side, check whether leads match your ICP in terms of company size, industry, and job title. If they do not, your keywords or audience settings are pulling in the wrong buyers. On the handoff side, check your speed-to-contact rate. Research published in Harvard Business Review shows that contacting a lead within five minutes increases qualification rates by 21x compared to waiting 30 minutes ([HBR](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)). Slow follow-up makes even good leads look like bad ones.
 
-### 4. Is [Google Ads](/glossary/what-is-google-ads/) or LinkedIn Ads better for B2B?
+### 4. Is Google Ads or LinkedIn Ads better for B2B?
 
 They serve different purposes in a b2b ppc strategy. [Google Ads](/glossary/what-is-google-ads/) captures buyers who are already searching for a solution, so intent is high and pipeline timelines tend to be shorter. LinkedIn Ads reaches buyers who fit your ICP but are not actively searching yet, making it better for building awareness with specific job titles or companies you want to target. Most B2B SaaS companies see faster pipeline results starting with Google, then layering in LinkedIn as they scale. Our [LinkedIn Account-Based Marketing guide](/blogs/linkedin-account-based-marketing/) covers how to approach that second layer once your paid search foundation is in place.
 

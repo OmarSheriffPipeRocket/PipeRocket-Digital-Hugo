@@ -1,8 +1,9 @@
 ---
+layout: "listicle"
 title: "The Best B2B Advertising Agencies (2026 Rankings)"
 description: "We reviewed 40+ agencies and ranked the 11 best B2B advertising agencies for 2026 — scored on B2B advertising expertise, pipeline and revenue attribution, proven results, reporting transparency, and pricing. B2B advertising is a different discipline from consumer campaigns. Buying committees, long sales cycles, and the need to connect ad spend to closed revenue — […]"
-meta_title: "The Top 11 B2B Advertising Agencies for 2026 (My Picks)"
-meta_description: "Compare top 11 B2B advertising agencies driving real pipeline. Evaluated on strategy, attribution, and campaign performance."
+metaTitle: "The Top 11 B2B Advertising Agencies for 2026 (My Picks)"
+metaDescription: "Compare top 11 B2B advertising agencies driving real pipeline. Evaluated on strategy, attribution, and campaign performance."
 date: 2026-04-13
 lastmod: 2026-05-12
 slug: "the-best-b2b-advertising-agencies-2026-rankings"

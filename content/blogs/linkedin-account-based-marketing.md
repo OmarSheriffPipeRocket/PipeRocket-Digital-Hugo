@@ -1,8 +1,8 @@
 ---
 title: "LinkedIn Account-Based Marketing: How to Run Campaigns in 2026"
 description: "You’ve probably heard of Account-based Marketing (ABM), the strategy where instead of casting a wide net, you get laser-focused on a specific set of companies and go after them with everything you’ve got. The reason LinkedIn is the perfect place to run it is simple. Every other ad platform makes you guess who’s seeing your […]"
-meta_title: "How to Run LinkedIn Account-based Marketing Campaigns?"
-meta_description: "Want to run LinkedIn Account-Based Marketing the right way? Here's how to pick your ABM type, build your list, and get sales to close it."
+metaTitle: "How to Run LinkedIn Account-based Marketing Campaigns?"
+metaDescription: "Want to run LinkedIn Account-Based Marketing the right way? Here's how to pick your ABM type, build your list, and get sales to close it."
 date: 2026-03-20
 lastmod: 2026-04-13
 slug: "linkedin-account-based-marketing"
@@ -82,7 +82,7 @@ Those two signals alone cut out a huge amount of wasted spend before the campaig
 
 Here is the step-by-step process on how to run LinkedIn Account-based Marketing campaigns:
 
-### **Step 1: Define Your [ICP](/glossary/what-is-icp/) Before You Touch the Platform**
+### **Step 1: Define Your ICP Before You Touch the Platform**
 
 Before you even open LinkedIn Campaign Manager, get specific on your ICP:
 

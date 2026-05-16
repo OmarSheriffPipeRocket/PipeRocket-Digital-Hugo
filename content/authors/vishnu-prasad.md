@@ -1,6 +1,5 @@
 ---
-title: "Vishnu Prasad"
-description: "Marketing operator at PipeRocket Digital, helping B2B SaaS companies measure marketing against revenue, not vanity metrics."
+title: "Vishnu Prasadh"
+description: "Writes about SaaS marketing, growth strategy, and B2B demand generation."
 slug: "vishnu-prasad"
-url: "/author/vishnu-prasad/"
 ---

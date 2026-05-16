@@ -1,8 +1,8 @@
 ---
 title: "My SaaS SEO Checklist for 2026: An Experience-based Guide"
 description: "I’ve spent over 15 years in SEO, and if there’s one thing I’ve learned, it’s that most “checklists” are distractions. They focus on green lights in a plugin rather than the green lines on your revenue chart. Recently, I sat down with my team to break down exactly how we approach SaaS SEO at PipeRocket […]"
-meta_title: "My SaaS SEO Checklist for 2026: Based on 15+ Yrs of Experience"
-meta_description: "Here's the SaaS SEO checklist we use here at PipeRocket Digital for every client. It has everything you need to be the modern SaaS SEO marketer."
+metaTitle: "My SaaS SEO Checklist for 2026: Based on 15+ Yrs of Experience"
+metaDescription: "Here's the SaaS SEO checklist we use here at PipeRocket Digital for every client. It has everything you need to be the modern SaaS SEO marketer."
 date: 2026-01-29
 lastmod: 2026-05-12
 slug: "saas-seo-checklist"
@@ -45,7 +45,7 @@ Even if you are a brilliant marketer, if you do not understand the category firs
 
 You must identify the right keywords where people are actually looking for a solution like yours, but you cannot do that without knowing the persona first.
 
-## **Checkbox 2: Use [Keyword Research](/glossary/what-is-keyword-research/) to Understand Market Opportunity**
+## **Checkbox 2: Use Keyword Research to Understand Market Opportunity**
 
 Once we understand the category, we move to [keyword research](/glossary/what-is-keyword-research/). But we don’t just look for high volume. We look for **market opportunity**. We split keywords into intent and volume to understand the true potential of the searches.
 
@@ -126,7 +126,7 @@ Then, take the transcript to your preferred LLM and ask it to convert the transc
 
 To increase the trust factor, link to relevant sites. For example, If you are pointing out a problem in a tool, link to where people are discussing that problem so it looks trusted. This layer of authenticity is what we call “Original Content” versus “Duplicate Content,” and it adds necessary trust to the system.
 
-## **Checkbox 5: Have a [Conversion Rate](/glossary/what-is-conversion-rate/) Optimization (CRO) Plan Using Strategic Assets**
+## **Checkbox 5: Have a Conversion Rate Optimization (CRO) Plan Using Strategic Assets**
 
 Bringing the prospect to the website is only half the battle. Getting a conversion is the other major issue.
 
@@ -185,7 +185,7 @@ SaaS sites typically have 1,000–2,000 pages, not millions like e-commerce site
 
 If the user experience is good and the content intent is right, Google will reward you. Crawlability is the only real problem you need to solve in SaaS SEO technically.
 
-## **Checkbox 8: Have Good Brand Mentions (or [Backlinks](/glossary/what-is-a-backlink/))**
+## **Checkbox 8: Have Good Brand Mentions (or Backlinks)**
 
 “[Backlinks](/glossary/what-is-a-backlink/)” are slowly evolving into **Brand Mentions**. This is again mostly due to the rise of AI.
 

@@ -1,7 +1,8 @@
 ---
 title: "What Is SEM? Paid Search vs Organic for SaaS Growth"
 description: "SEM (search engine marketing) is using paid ads on search engines like Google and Bing to get your business in front of users searching for specific terms. It’s a fast way to drive targeted traffic and leads, but costs can escalate quickly without tight control and clear intent. TL;DR What Is SEM and How Does […]"
-meta_description: "SEM is search engine marketing paid ads on Google and Bing. It drives quick results and targeted leads but comes with real trade-offs for SaaS."
+metaTitle: "What Is SEM? Paid Search vs Organic for SaaS Growth"
+metaDescription: "SEM is search engine marketing paid ads on Google and Bing. It drives quick results and targeted leads but comes with real trade-offs for SaaS."
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-sem"

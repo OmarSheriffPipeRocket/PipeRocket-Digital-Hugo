@@ -1,8 +1,8 @@
 ---
 title: "B2B Inbound Marketing – The Ultimate Guide"
 description: "The trickiest part in B2B marketing is this: you’re not selling to one person, you’re selling to a committee.  And each person has different fears, priorities, and objections. The CTO wants technical credibility. The CFO wants ROI. The end user wants ease. And the exec sponsor wants a solution that won’t blow up in their […]"
-meta_title: "B2B Inbound Marketing: A Complete Guide | PipeRocket Digital"
-meta_description: "Learn how modern B2B buyers really make decisions and how inbound marketing helps you attract, educate, and convert high-value clients in a digital-first world."
+metaTitle: "B2B Inbound Marketing: A Complete Guide | PipeRocket Digital"
+metaDescription: "Learn how modern B2B buyers really make decisions and how inbound marketing helps you attract, educate, and convert high-value clients in a digital-first world."
 date: 2025-12-11
 lastmod: 2026-05-12
 slug: "b2b-inbound-marketing-guide"
@@ -71,7 +71,7 @@ Through email automation and targeted content, you stay top-of-mind, gently guid
 
 You can’t build a house without a blueprint, and you certainly can’t build a successful b2b inbound marketing strategy on guesswork. While the tactics might change as technology evolves, the foundation rests on six non-negotiable pillars. Let’s break them down.
 
-### 1. [Content Marketing](/glossary/what-is-content-marketing/) as the Foundation
+### 1. Content Marketing as the Foundation
 
 If inbound marketing is the engine, [content marketing](/blogs/b2b-content-marketing-guide) is the fuel. But in the B2B world, we aren’t talking about cat memes or viral TikTok dances. We’re talking about high-value information that solves real business problems.
 
@@ -83,7 +83,7 @@ To get this right, you need to map your content to the sales funnel:
 
 The rule of thumb? Always value first. If your content genuinely helps your reader do their job better, trust will follow.
 
-### 2. Search Engine Optimization ([SEO](/glossary/what-is-seo/)) & Organic Discoverability
+### 2. Search Engine Optimization (SEO) & Organic Discoverability
 
 You could write the best guide in your industry, but if it’s buried on page 10 of Google, it doesn’t exist. [SEO](/blogs/saas-seo/) ensures your content gets found by the people actively looking for it.
 
@@ -93,7 +93,7 @@ For B2B, your keyword strategy needs to mirror the buyer’s mindset.
 - Target **“Solution” keywords** as they learn (e.g., “employee engagement software”).
 - Target **“Vendor” keywords** when they are ready to buy (e.g., “best HR tools for enterprise”).
 
-### 3. [Lead Generation](/glossary/what-is-lead-generation/) & Lead Magnets
+### 3. Lead Generation & Lead Magnets
 
 Traffic is vanity; leads are sanity. You need a way to turn casual website visitors into known contacts. This is where “lead magnets” come in.
 
@@ -129,7 +129,7 @@ Now you know what B2B Inbound Marketing is and why you need it. Now, how do you 
 
 Here is your step-by-step roadmap to getting started.
 
-### 1. Define Your Ideal Customer Profile ([ICP](/glossary/what-is-icp/)) and Personas
+### 1. Define Your Ideal Customer Profile (ICP) and Personas
 
 Before you create a single piece of content, get crystal clear on who you’re trying to attract. “Small businesses” is not a target audience; it’s a guess. You need to get specific. Who are the stakeholders?
 

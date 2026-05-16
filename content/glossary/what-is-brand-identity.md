@@ -1,8 +1,8 @@
 ---
 title: "What Is Brand Identity? The SaaS Builder’s Guide"
 description: "Brand identity is the full set of visual, verbal, and emotional signals a company uses to present itself consistently logo, tone, colour, messaging, and positioning. For SaaS companies, it directly affects how buyers perceive value before they ever try the product. Get it wrong, and even great features won’t convert. TL;DR Brand identity is the […]"
-meta_title: "What Is Brand Identity? A SaaS Founder's Guide"
-meta_description: "Brand identity is more than a logo. Learn what it actually includes, why it matters for SaaS growth, and how to build one that holds up at scale."
+metaTitle: "What Is Brand Identity? A SaaS Founder's Guide"
+metaDescription: "Brand identity is more than a logo. Learn what it actually includes, why it matters for SaaS growth, and how to build one that holds up at scale."
 date: 2026-04-27
 slug: "what-is-brand-identity"
 categorySlug: "social-brand"

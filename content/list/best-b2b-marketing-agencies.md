@@ -1,12 +1,13 @@
 ---
+layout: "listicle"
 title: "We Ranked The Top 11 B2B Marketing Agencies for 2026"
 description: "I ranked 11 B2B marketing agencies using a weighted scoring system across five criteria: pipeline impact, technical expertise, client retention, industry specialization, and transparency. Each agency earned its spot based on documented results and real client outcomes. This guide shows you which agencies actually drive revenue and which ones fit your specific needs. How We […]"
-meta_title: "I Ranked the 11 Best B2B Marketing Agencies (2026)"
-meta_description: "I ranked 11 B2B marketing agencies on pipeline impact, technical expertise, and client retention. See which ones drive real revenue."
+metaTitle: "I Ranked the 11 Best B2B Marketing Agencies (2026)"
+metaDescription: "I ranked 11 B2B marketing agencies on pipeline impact, technical expertise, and client retention. See which ones drive real revenue."
 date: 2025-11-13
 lastmod: 2026-05-12
 slug: "best-b2b-marketing-agencies"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "B2B Marketing"
 featuredImage: "/images/wp-import/B2B-Marketing-Agencies-1.png"
 wp_id: 1920

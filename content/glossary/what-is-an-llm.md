@@ -1,12 +1,13 @@
 ---
 title: "What Is an LLM? Large Language Model Explained for SaaS"
 description: "A large language model (LLM) is an AI system trained on huge amounts of text to understand and generate human language. LLMs power chatbots, search, and content tools, but need careful tuning to deliver accurate, context-aware results. TL;DR What Is an LLM and Why Does It Matter? A large language model (LLM) is a type […]"
-meta_description: "An LLM is an AI model trained to understand and generate natural language at scale. See how LLMs work and why they matter in SaaS."
+metaTitle: "What Is an LLM? Large Language Model Explained for SaaS"
+metaDescription: "An LLM is an AI model trained to understand and generate natural language at scale. See how LLMs work and why they matter in SaaS."
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-an-llm"
 categorySlug: "ai-future-search"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3203
 glossaryCategory: "AI & Future Search"
 wp_link: "/glossary/what-is-an-llm/"

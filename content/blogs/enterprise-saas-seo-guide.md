@@ -1,8 +1,8 @@
 ---
 title: "What Is Enterprise SaaS SEO? Four Pillars Explained"
 description: "What Is Enterprise SaaS SEO? Enterprise SaaS SEO is the practice of building and scaling organic search programs for large or high-growth SaaS businesses with complex site architectures, multiple products or personas, and a need to generate qualified pipeline across long B2B sales cycles. It is SEO, but the scale changes everything: more pages to […]"
-meta_title: "Enterprise SaaS SEO: The 2026 Complete Guide to Scaling"
-meta_description: "Enterprise SaaS SEO is not standard SEO at higher volume. Here is how to build an organic program that scales across personas, and markets."
+metaTitle: "Enterprise SaaS SEO: The 2026 Complete Guide to Scaling"
+metaDescription: "Enterprise SaaS SEO is not standard SEO at higher volume. Here is how to build an organic program that scales across personas, and markets."
 date: 2026-04-09
 lastmod: 2026-04-29
 slug: "enterprise-saas-seo-guide"
@@ -12,7 +12,7 @@ wp_id: 3024
 wp_link: "/blogs/enterprise-saas-seo-guide/"
 ---
 
-## What Is Enterprise SaaS [SEO](/glossary/what-is-seo/)?
+## What Is Enterprise SaaS SEO?
 
 Enterprise SaaS [SEO](/glossary/what-is-seo/) is the practice of building and scaling organic search programs for large or high-growth SaaS businesses with complex site architectures, multiple products or personas, and a need to generate qualified pipeline across long B2B sales cycles.
 

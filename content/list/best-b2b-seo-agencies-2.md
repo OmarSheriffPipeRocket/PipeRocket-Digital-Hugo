@@ -1,12 +1,13 @@
 ---
+layout: "listicle"
 title: "My Picks for the Top 11 B2B SEO Agencies to Improve Pipeline"
 description: "I ranked 11 B2B SEO agencies based on their ability to drive qualified pipeline, not vanity metrics. Each agency was scored across five weighted criteria: pipeline impact, B2B specialization, technical SEO depth, content strategy, and client transparency. You will find the right partner for your specific growth stage and budget. How We Evaluated These B2B […]"
-meta_title: "We Ranked The Best 11 B2B SEO Agencies To Improve Pipeline"
-meta_description: "We've ranked the 11 best B2B SEO agencies for 2026. These agencies are hand-picked by us to determine who can improve your revenue through B2B SEO."
+metaTitle: "We Ranked The Best 11 B2B SEO Agencies To Improve Pipeline"
+metaDescription: "We've ranked the 11 best B2B SEO agencies for 2026. These agencies are hand-picked by us to determine who can improve your revenue through B2B SEO."
 date: 2025-11-17
 lastmod: 2026-05-12
 slug: "best-b2b-seo-agencies-2"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "B2B SEO"
 featuredImage: "/images/wp-import/B2B-SEO-Agencies.png"
 wp_id: 1933

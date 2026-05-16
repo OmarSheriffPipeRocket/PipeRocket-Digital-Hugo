@@ -1,8 +1,8 @@
 ---
 title: "What Is Employer Branding? The Hiring Team’s Guide"
 description: "Employer branding is the reputation your company has as a place to work shaped by everything from job listings and Glassdoor reviews to how you treat people on their first day. A weak employer brand makes hiring expensive and retention unpredictable. Build it deliberately or candidates will build it for you. TL;DR Employer branding is […]"
-meta_title: "What Is Employer Branding? A Practical Guide"
-meta_description: "Employer branding is how candidates and employees perceive you as a place to work. Learn what it is, why it matters, and how to build it effectively."
+metaTitle: "What Is Employer Branding? A Practical Guide"
+metaDescription: "Employer branding is how candidates and employees perceive you as a place to work. Learn what it is, why it matters, and how to build it effectively."
 date: 2026-04-27
 slug: "what-is-employer-branding"
 categorySlug: "social-brand"

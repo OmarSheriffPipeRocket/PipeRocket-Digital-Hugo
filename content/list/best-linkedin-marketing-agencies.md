@@ -1,6 +1,9 @@
 ---
+layout: "listicle"
 title: "11 LinkedIn Marketing Agencies Ranked in 2026"
 description: "35+ agencies reviewed and the 10 best SaaS link building agencies ranked for 2026 - scored on link quality and authority, SaaS specialisation, proven results, reporting transparency, and pricing."
+metaTitle: "Best LinkedIn Marketing Agencies for B2B SaaS in 2026"
+metaDescription: "Ranked list of the best LinkedIn marketing agencies for B2B SaaS in 2026 — scored on LinkedIn-specific expertise, pipeline attribution, ABM fluency, and pricing."
 date: 2026-04-29
 writtenBy: "omar"
 reviewedBy: "praveen"

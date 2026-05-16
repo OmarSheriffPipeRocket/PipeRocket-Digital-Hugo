@@ -1,12 +1,13 @@
 ---
 title: "What Is ICP? SaaS Ideal Customer Profile Explained"
 description: "ICP stands for Ideal Customer Profile a detailed description of the company type most likely to buy, succeed, and grow with your product. Defining your ICP lets you focus sales and marketing on accounts with the highest lifetime value. A strong ICP saves time, reduces churn, and drives more efficient growth. TL;DR What Is ICP […]"
-meta_description: "ICP means Ideal Customer Profile the blueprint of your best-fit customers. Get a practical ICP definition, why it matters, and how to avoid mistakes."
+metaTitle: "What Is ICP? SaaS Ideal Customer Profile Explained"
+metaDescription: "ICP means Ideal Customer Profile the blueprint of your best-fit customers. Get a practical ICP definition, why it matters, and how to avoid mistakes."
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-icp"
 categorySlug: "demand-generation"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3280
 glossaryCategory: "Demand Generation"
 wp_link: "/glossary/what-is-icp/"

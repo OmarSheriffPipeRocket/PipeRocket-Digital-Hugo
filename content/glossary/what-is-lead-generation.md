@@ -1,12 +1,13 @@
 ---
 title: "What Is Lead Generation? SaaS Guide for Real Growth"
 description: "Lead generation is the process of attracting and identifying people or companies who are likely to become customers. It matters because an empty pipeline means stalled revenue and wasted marketing effort. Strong lead generation aligns your message to real buyer intent, not just form fills or email captures. TL;DR What Is Lead Generation? Lead generation […]"
-meta_description: "Lead generation means finding and qualifying potential customers. Learn what it really is, why most teams do it wrong, and how to build a pipeline."
+metaTitle: "What Is Lead Generation? SaaS Guide for Real Growth"
+metaDescription: "Lead generation means finding and qualifying potential customers. Learn what it really is, why most teams do it wrong, and how to build a pipeline."
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-lead-generation"
 categorySlug: "demand-generation"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3277
 glossaryCategory: "Demand Generation"
 wp_link: "/glossary/what-is-lead-generation/"

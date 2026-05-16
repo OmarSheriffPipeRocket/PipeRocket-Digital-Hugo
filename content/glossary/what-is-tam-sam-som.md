@@ -1,8 +1,8 @@
 ---
 title: "What Is TAM SAM SOM? Stop Guessing Your Market Size"
 description: "TAM SAM SOM is a market sizing framework that breaks your addressable market into three layers: total market, serviceable segment, and realistic near-term capture. It matters because investors and operators use it to test whether a business opportunity is worth pursuing and whether the founder understands their own market. TL;DR TAM is the total global […]"
-meta_title: "What Is TAM SAM SOM? A Founder's Guide"
-meta_description: "TAM SAM SOM breaks your market into three layers total, serviceable, and obtainable. Here's what each means and how to calculate them without fooling yourself."
+metaTitle: "What Is TAM SAM SOM? A Founder's Guide"
+metaDescription: "TAM SAM SOM breaks your market into three layers total, serviceable, and obtainable. Here's what each means and how to calculate them without fooling yourself."
 date: 2026-04-27
 slug: "what-is-tam-sam-som"
 categorySlug: "saas-metrics"

@@ -1,8 +1,8 @@
 ---
 title: "SaaS SEO Strategies: Complete 8-step Framework for 2026"
 description: "This guide is for B2B SaaS marketers, founders, and SEO leads who are done chasing traffic and want organic search to show up in their pipeline report. If you are starting from scratch or rebuilding a program that is not converting, this is where to begin. TL;DR from the 8-Step SaaS SEO Strategy Framework: The […]"
-meta_title: "SaaS SEO Strategies: The 8-Step Framework for Growth"
-meta_description: "A complete 8-step SaaS SEO strategy framework built for B2B SaaS teams who want organic search to generate pipeline, not just traffic."
+metaTitle: "SaaS SEO Strategies: The 8-Step Framework for Growth"
+metaDescription: "A complete 8-step SaaS SEO strategy framework built for B2B SaaS teams who want organic search to generate pipeline, not just traffic."
 date: 2026-04-09
 lastmod: 2026-04-29
 slug: "saas-seo-strategies-and-framework"
@@ -14,7 +14,7 @@ wp_link: "/blogs/saas-seo-strategy-and-framework/"
 
 This guide is for B2B SaaS marketers, founders, and [SEO](/glossary/what-is-seo/) leads who are done chasing traffic and want organic search to show up in their pipeline report. If you are starting from scratch or rebuilding a program that is not converting, this is where to begin.
 
-## TL;DR from the 8-Step SaaS [SEO](/glossary/what-is-seo/) Strategy Framework:
+## TL;DR from the 8-Step SaaS SEO Strategy Framework:
 
 - Strategy 1: Set pipeline-tied goals before opening a keyword tool
 - Strategy 2: Audit your technical foundation before publishing new content
@@ -83,7 +83,7 @@ What not to do
 
 ---
 
-### Strategy 3: Research Keywords Around [ICP](/glossary/what-is-icp/) Pain Points and Buying Stages
+### Strategy 3: Research Keywords Around ICP Pain Points and Buying Stages
 
 [Keyword research](/glossary/what-is-keyword-research/) for SaaS is not a volume exercise. It is a buyer journey mapping exercise. The keywords that generate pipeline are the ones searched by people who have a problem your product solves, at a moment in their research when your content can move them toward a buying decision.
 

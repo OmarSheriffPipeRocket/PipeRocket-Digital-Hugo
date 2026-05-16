@@ -1,8 +1,8 @@
 ---
 title: "Top SaaS Marketing Challenges & How to Solve Them"
 description: "You have the product, the team, and the budget, but growth still feels harder than it should. If that sounds familiar, you are not alone. The saas marketing challenges we keep hearing about in 2026 are not new, but they have gotten sharper, and the playbooks that worked two years ago are not cutting it […]"
-meta_title: "Top 6 SaaS Marketing Challenges & How to Solve Them"
-meta_description: "We break down the saas marketing challenges we see most often and share what actually works to fix them, from CAC to churn to attribution."
+metaTitle: "Top 6 SaaS Marketing Challenges & How to Solve Them"
+metaDescription: "We break down the saas marketing challenges we see most often and share what actually works to fix them, from CAC to churn to attribution."
 date: 2026-04-08
 lastmod: 2026-04-29
 slug: "saas-marketing-challenges-and-fixes"

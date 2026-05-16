@@ -1,12 +1,13 @@
 ---
 title: "What Is a Canonical Tag? SaaS SEO Explained Clearly"
 description: "A canonical tag is an HTML element that tells search engines which page is the “master” version among duplicates. It prevents SEO problems from duplicate content, ensuring only the preferred page ranks. Using canonical tags right keeps your organic visibility strong. TL;DR What Is a Canonical Tag and Why Does It Matter? A canonical tag […]"
-meta_description: "A canonical tag helps search engines pick the main version of a page. Avoid duplicate content issues and improve rankings with this simple SEO fix."
+metaTitle: "What Is a Canonical Tag? SaaS SEO Explained Clearly"
+metaDescription: "A canonical tag helps search engines pick the main version of a page. Avoid duplicate content issues and improve rankings with this simple SEO fix."
 date: 2026-04-13
 lastmod: 2026-04-27
 slug: "what-is-a-canonical-tag"
 categorySlug: "seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3087
 glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-a-canonical-tag/"

@@ -1,8 +1,8 @@
 ---
 title: "The Ultimate Guide to B2B Demand Generation"
 description: "It’s almost 2026, and B2B Sales is still complex with long buying cycles, multiple decision makers and trust building. With product discovery turning on-demand and buyer behaviours changing rapidly. The need to build trust and showcase value is eminent, even before they consider purchasing. That’s where B2B demand generation shines. It addresses these issues by […]"
-meta_title: "B2B Demand Generation: Everything You Need to Know"
-meta_description: "Learn how B2B demand generation works with effective strategies and tips to help you get create more demand, leads, and customer growth."
+metaTitle: "B2B Demand Generation: Everything You Need to Know"
+metaDescription: "Learn how B2B demand generation works with effective strategies and tips to help you get create more demand, leads, and customer growth."
 date: 2025-12-11
 lastmod: 2026-05-12
 slug: "b2b-demand-generation-guide"
@@ -78,7 +78,7 @@ Unlike buying a pair of shoes, B2B purchases are big decisions. They involve lar
 
 B2B demand generation isn’t just a top-of-funnel activity. It’s about consistent nurturing and educating the leads throughout the entire cycle. Building trust and authority early significantly reduces perceived risk, making the final purchase easier.
 
-## **Demand Generation vs [Lead Generation](/glossary/what-is-lead-generation/): Key Differences & How They Complement Each Other**
+## **Demand Generation vs Lead Generation: Key Differences & How They Complement Each Other**
 
 This is where a lot of marketers get confused! While the two are often used in the same breath, they are distinct processes that work best when paired together.
 
@@ -99,7 +99,7 @@ Demand generation effectively sets up a warm pool of potential buyers. When a pr
 
 Successful B2B demand generation relies on a multi-channel strategy across several channels, ensuring you reach prospects at every stage of their journey.
 
-### **[Content Marketing](/glossary/what-is-content-marketing/): The foundation**
+### **Content Marketing: The foundation**
 
 [Content marketing](/blogs/b2b-content-marketing-guide/) is the backbone of B2B demand generation. You need to create educational, high-value content that directly addresses your buyer’s pain points, not just shiny content about your product’s features.
 
@@ -117,7 +117,7 @@ Your B2B demand generation tactics must use a mix of channels to ensure complete
 - **Email Campaigns:** Use email not just for leads, but for nurturing your existing audience with updates, educational content, newsletters, event invitations, and more.
 - **Interactive Content:** Hosting webinars, providing free tools, or offering interactive demos helps prospects in the evaluation phase get a taste of your product.
 
-### **[Account-Based Marketing](/glossary/what-is-abm/) (ABM) & Targeted Outreach for High-Value Prospects**
+### **Account-Based Marketing (ABM) & Targeted Outreach for High-Value Prospects**
 
 When dealing with high-value clients, broad outreach is not effective. This is where Account-Based Marketing (ABM) comes in as the best fit approach for this segment.
 
@@ -137,7 +137,7 @@ The key to efficiency is knowing when to engage a prospect through relevant data
 
 A B2B demand generation strategy is built on structure and collaboration. You need a solid framework to guide your execution.
 
-### **Define Ideal Customer Profiles (ICPs) and [Buyer Personas](/glossary/buyer-persona/)**
+### **Define Ideal Customer Profiles (ICPs) and Buyer Personas**
 
 Any great strategy must start with deep customer research to back it up.
 

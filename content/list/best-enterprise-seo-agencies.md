@@ -1,12 +1,13 @@
 ---
+layout: "listicle"
 title: "My Picks for the Top 10 Enterprise SEO Agencies in 2026"
 description: "I ranked 10 enterprise SEO agencies using a weighted scoring system across technical depth, scalability, revenue attribution, industry expertise, and client reviews. Each agency earned a score out of 100. You get specific recommendations based on your enterprise challenges, budget, and growth goals. How We Evaluated These Enterprise SEO Agencies 30% – Technical SEO Depth: […]"
-meta_title: "I Ranked the 10 Best Enterprise SEO Agencies (2026)"
-meta_description: "I scored 10 enterprise SEO agencies on technical depth, scalability, and revenue attribution. See which ones deliver real pipeline."
+metaTitle: "I Ranked the 10 Best Enterprise SEO Agencies (2026)"
+metaDescription: "I scored 10 enterprise SEO agencies on technical depth, scalability, and revenue attribution. See which ones deliver real pipeline."
 date: 2025-10-29
 lastmod: 2026-05-12
 slug: "best-enterprise-seo-agencies"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "Enterprise Marketing"
 featuredImage: "/images/wp-import/Enterprise-SEO-Agencies-Blog-Banner-Image.png"
 wp_id: 69

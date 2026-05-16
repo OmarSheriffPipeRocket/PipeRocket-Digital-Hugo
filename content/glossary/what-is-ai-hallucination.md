@@ -1,12 +1,13 @@
 ---
 title: "What Is AI Hallucination? Meaning, Dangers & How to Spot It"
 description: "AI hallucination is when an AI system generates information that sounds plausible but is actually false or unsupported by real data. This matters because it can lead to bad decisions, erode trust, and introduce risk in SaaS and business workflows. TL;DR What Is AI Hallucination? AI hallucination happens when a machine learning model usually a […]"
-meta_description: "AI hallucination is when an AI generates false or misleading information. Learn what causes it and how teams can detect and prevent it."
+metaTitle: "What Is AI Hallucination? Meaning, Dangers & How to Spot It"
+metaDescription: "AI hallucination is when an AI generates false or misleading information. Learn what causes it and how teams can detect and prevent it."
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-ai-hallucination"
 categorySlug: "ai-future-search"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3211
 glossaryCategory: "AI & Future Search"
 wp_link: "/glossary/what-is-ai-hallucination/"

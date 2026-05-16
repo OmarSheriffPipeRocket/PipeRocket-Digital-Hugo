@@ -1,7 +1,8 @@
 ---
 title: "What Is Google Ads? Your Practical Guide for SaaS and B2B Teams"
 description: "Google Ads is Google’s pay-per-click (PPC) advertising platform that lets businesses show targeted ads in search results and across Google’s network. It matters because it puts your offer in front of buyers at the exact moment they’re searching. Used right, it can drive qualified traffic and measurable leads fast. TL;DR What Is Google Ads and […]"
-meta_description: "Google Ads is Google’s paid search platform for reaching buyers as they search. Learn how it works, why it matters, and common mistakes SaaS teams make."
+metaTitle: "What Is Google Ads? Your Practical Guide for SaaS and B2B Teams"
+metaDescription: "Google Ads is Google’s paid search platform for reaching buyers as they search. Learn how it works, why it matters, and common mistakes SaaS teams make."
 date: 2026-04-16
 lastmod: 2026-04-27
 slug: "what-is-google-ads"

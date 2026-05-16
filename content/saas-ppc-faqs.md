@@ -2,6 +2,8 @@
 date: 2026-04-18
 title: "SaaS PPC Agency - FAQs"
 description: "Is PPC worth it for an early-stage SaaS with no brand..."
+metaTitle: "SaaS PPC Agency FAQs | Pricing, Channels, Attribution"
+metaDescription: "Answers to the questions B2B SaaS founders ask before hiring a SaaS PPC agency. Budgets, channels, attribution windows, CAC payback, and reporting cadence."
 url: "/saas-ppc/faqs/"
 layout: "single"
 toc: false

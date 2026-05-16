@@ -1,12 +1,13 @@
 ---
 title: "What Is On Page SEO? Plain-English Guide for SaaS Teams"
 description: "On page SEO is the process of optimizing individual website pages content, HTML tags, and internal links to rank higher in search results. It matters because strong on page SEO attracts qualified traffic and improves conversions. Skipping this step leaves rankings to chance. TL;DR What Is On Page SEO? On page SEO is the process […]"
-meta_description: "On page SEO means optimizing each page’s content, tags, and structure for search. Learn what on page SEO is, why it matters, and what most teams get wrong."
+metaTitle: "What Is On Page SEO? Plain-English Guide for SaaS Teams"
+metaDescription: "On page SEO means optimizing each page’s content, tags, and structure for search. Learn what on page SEO is, why it matters, and what most teams get wrong."
 date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-on-page-seo"
 categorySlug: "seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3179
 glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-on-page-seo/"

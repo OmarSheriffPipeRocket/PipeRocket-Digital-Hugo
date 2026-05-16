@@ -1,8 +1,8 @@
 ---
 title: "Enterprise SEO: The Blueprint for Simple, Scalable SEO"
 description: "SEO strategies that work for small and medium businesses will not work for enterprises. An SMB manages roughly 1,000 pages and relies on manual, legacy systems. Enterprise SEO needs to scale to 10,000+ pages, span global audiences, and look well beyond keyword rankings. The right enterprise SEO strategy strikes a balance between scalable automation and […]"
-meta_title: "Enterprise SEO: Definition, Strategies, and Core Pillars"
-meta_description: "Enterprise SEO framework for scaling to 10K+ pages with automation, governance, and data-driven strategies to drive traffic, rankings, and revenue."
+metaTitle: "Enterprise SEO: Definition, Strategies, and Core Pillars"
+metaDescription: "Enterprise SEO framework for scaling to 10K+ pages with automation, governance, and data-driven strategies to drive traffic, rankings, and revenue."
 date: 2026-04-09
 lastmod: 2026-05-13
 slug: "enterprise-seo-guide-2"
@@ -78,7 +78,7 @@ What enterprise SEO data infrastructure requires:
 - **Unified data pipelines** that bring together search performance, analytics, conversion data, and content metadata
 - **Custom analysis capabilities** for multi-dimensional reporting that standard dashboards can’t produce
 
-## How Does Enterprise [Technical SEO](/glossary/what-is-technical-seo/) Work?
+## How Does Enterprise Technical SEO Work?
 
 At enterprise scale, millions of URLs need to be managed, monitored, and optimized continuously. Automation is what makes this feasible. [Technical SEO](/glossary/what-is-technical-seo/ "Glossary: Technical SEO") at this level covers crawl budget management, Core Web Vitals optimization, sitemap automation, and maintaining a flat internal linking structure that ensures deep pages get crawled and indexed.
 

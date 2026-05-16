@@ -1,12 +1,13 @@
 ---
 title: "What Is Domain Authority? Honest Guide for SaaS & B2B Teams"
 description: "Domain authority is a metric that predicts how likely a website is to rank in search results, based on backlink quality and quantity. It matters because higher domain authority usually means more organic traffic. Chasing domain authority alone can mislead SaaS teams into poor SEO decisions. TL;DR What Is Domain Authority? Domain authority sounds like […]"
-meta_description: "Domain authority predicts how likely a website is to rank. Learn what domain authority is and how to use it without falling for bad advice."
+metaTitle: "What Is Domain Authority? Honest Guide for SaaS & B2B Teams"
+metaDescription: "Domain authority predicts how likely a website is to rank. Learn what domain authority is and how to use it without falling for bad advice."
 date: 2026-04-14
 lastmod: 2026-04-27
 slug: "what-is-domain-authority"
 categorySlug: "seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3191
 glossaryCategory: "SEO"
 wp_link: "/glossary/what-is-domain-authority/"

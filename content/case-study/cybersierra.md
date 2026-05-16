@@ -3,6 +3,8 @@ title: "279% Organic Traffic Growth for CyberSierra"
 slug: "cybersierra"
 url: "/case-study-cybersierra/"
 description: "How disciplined topical-authority SEO drove a 279% organic traffic lift for CyberSierra in a high-trust, high-competition category."
+metaTitle: "CyberSierra Case Study: 279% Organic Traffic Growth | PipeRocket"
+metaDescription: "How disciplined topical-authority SEO drove a 279% organic traffic lift for CyberSierra in a high-trust, high-competition cybersecurity SaaS category."
 client: "CyberSierra"
 industry: "SaaS · Cybersecurity / Compliance"
 services: ["SaaS SEO"]

@@ -1,8 +1,9 @@
 ---
+layout: "listicle"
 title: "We Ranked The 10 Best SaaS PPC Agencies for 2026"
 description: "I ranked the 10 best SaaS PPC agencies for 2026 using a weighted scoring system across five criteria. Each agency was evaluated on pipeline impact, SaaS expertise, attribution and reporting, strategic depth, and client retention. You get a clear breakdown of who delivers qualified pipeline versus vanity metrics. How We Evaluated These SaaS PPC Agencies […]"
-meta_title: "I Ranked the 10 Best SaaS PPC Agencies (2026)"
-meta_description: "I ranked the 10 best SaaS PPC agencies for 2026. Scored on pipeline impact, SaaS expertise, and attribution quality."
+metaTitle: "I Ranked the 10 Best SaaS PPC Agencies (2026)"
+metaDescription: "I ranked the 10 best SaaS PPC agencies for 2026. Scored on pipeline impact, SaaS expertise, and attribution quality."
 date: 2026-03-12
 lastmod: 2026-05-12
 slug: "best-saas-ppc-agencies"

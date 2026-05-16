@@ -1,12 +1,12 @@
 ---
 title: "What Is Brand Positioning"
 description: "Brand positioning is the strategy of defining how your product is different from competitors in customers’ minds. It matters because clear positioning attracts the right users and makes your offer memorable. Weak positioning leads to confusion, wasted marketing, and fewer sales. TL;DR What Is Brand Positioning? Brand positioning means owning a distinct place in your […]"
-meta_title: "What Is Brand Positioning? Real-World Definition & SaaS Guide"
-meta_description: "Brand positioning is how your SaaS is seen vs competitors. Learn what it is, why most teams miss it, and how to get it right for real differentiation."
+metaTitle: "What Is Brand Positioning? Real-World Definition & SaaS Guide"
+metaDescription: "Brand positioning is how your SaaS is seen vs competitors. Learn what it is, why most teams miss it, and how to get it right for real differentiation."
 date: 2026-04-27
 slug: "what-is-brand-positioning"
 categorySlug: "social-brand"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3372
 glossaryCategory: "Social & Brand"
 wp_link: "/glossary/what-is-brand-positioning/"

@@ -1,8 +1,8 @@
 ---
 title: "What Is Upsell? The SaaS Growth Playbook"
 description: "An upsell is when you offer an existing customer a higher-tier plan, add-on, or upgraded version of what they already use. It matters because expansion revenue from existing customers is cheaper to generate than new acquisition. Done right, it improves retention too customers on better plans tend to get more value and stay longer. TL;DR […]"
-meta_title: "What Is Upsell? The SaaS Revenue Guide"
-meta_description: "Upselling in SaaS means selling more to customers you already have. Learn what it is, how it works, and why most teams are doing it backwards."
+metaTitle: "What Is Upsell? The SaaS Revenue Guide"
+metaDescription: "Upselling in SaaS means selling more to customers you already have. Learn what it is, how it works, and why most teams are doing it backwards."
 date: 2026-04-27
 slug: "what-is-upsell"
 categorySlug: "saas-metrics"

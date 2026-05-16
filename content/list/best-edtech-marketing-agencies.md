@@ -1,8 +1,9 @@
 ---
+layout: "listicle"
 title: "My Ranking of the 7 Best Edtech Marketing Agencies in 2026"
 description: "I ranked 7 edtech marketing agencies based on revenue impact, sector expertise, and ability to navigate complex buying cycles. Each agency was scored across five weighted criteria. You will find detailed breakdowns, pricing, and specific use cases to help you choose the right partner for your edtech company. How We Evaluated These Edtech Marketing Agencies […]"
-meta_title: "I Ranked the 7 Best Edtech Marketing Agencies (2026)"
-meta_description: "I ranked 7 edtech marketing agencies by revenue impact, sector expertise, and pipeline results. Find the right partner for your growth."
+metaTitle: "I Ranked the 7 Best Edtech Marketing Agencies (2026)"
+metaDescription: "I ranked 7 edtech marketing agencies by revenue impact, sector expertise, and pipeline results. Find the right partner for your growth."
 date: 2025-11-19
 lastmod: 2026-05-12
 slug: "best-edtech-marketing-agencies"

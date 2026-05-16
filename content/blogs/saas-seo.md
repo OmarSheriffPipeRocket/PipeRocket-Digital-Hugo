@@ -1,8 +1,8 @@
 ---
 title: "SaaS SEO: My 7-step Strategy for 2026"
 description: "If you’re a SaaS marketing leader, you’ve been here before. Traffic is up, rankings are improving, the agency report is full of green arrows, but nothing shows up in your CRM. That’s not an SEO problem. That’s a strategy problem. This guide covers the pipeline-first SEO framework PipeRocket uses across 50+ B2B SaaS brands. No […]"
-meta_title: "SaaS SEO: Strategies That Drive Pipeline in 2026"
-meta_description: "Most SaaS SEO guides optimise for rankings. This one optimises for pipeline. The exact framework PipeRocket uses to grow 50+ B2B SaaS brands organically."
+metaTitle: "SaaS SEO: Strategies That Drive Pipeline in 2026"
+metaDescription: "Most SaaS SEO guides optimise for rankings. This one optimises for pipeline. The exact framework PipeRocket uses to grow 50+ B2B SaaS brands organically."
 date: 2025-11-24
 lastmod: 2026-04-29
 slug: "saas-seo"
@@ -136,7 +136,7 @@ Three methods move the needle consistently for B2B SaaS:
 - **Free tools and calculators:** embed codes let other sites share them with a backlink attached
 - **Integration and partner directories:** contextual links from high-DA domains in your exact category
 
-### Step 8: Fix Your [Technical SEO](/glossary/what-is-technical-seo/) Foundations
+### Step 8: Fix Your Technical SEO Foundations
 
 | Technical Area | What to Fix | Priority |
 | --- | --- | --- |

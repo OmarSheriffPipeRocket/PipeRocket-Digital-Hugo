@@ -1,8 +1,8 @@
 ---
 title: "The 7 Most Common Enterprise SEO Challenges (And Fixes)"
 description: "Enterprise SEO is not hard because the tactics are complicated. What makes enterprise SEO hard is everything around the tactics: the organizational friction, the governance gaps, the attribution blindspots, the competing priorities that push SEO work to the back of every engineering queue. This guide covers the eight enterprise SEO challenges that actually block pipeline, […]"
-meta_title: "7 Enterprise SEO Challenges And How to Solve Them"
-meta_description: "Here are the 8 most common enterprise SEO challenges ones and how to solve each one of them."
+metaTitle: "7 Enterprise SEO Challenges And How to Solve Them"
+metaDescription: "Here are the 8 most common enterprise SEO challenges ones and how to solve each one of them."
 date: 2026-04-09
 lastmod: 2026-04-29
 slug: "enterprise-seo-challenges-and-fixes"
@@ -151,7 +151,7 @@ Our [SaaS marketing challenges guide](/blogs/saas-marketing-challenges-and-fixes
 
 **What this looks like in practice:** An enterprise data management SaaS shifts from a volume-first to a quality-first content model after a content audit reveals that their 40 most-visited pages generate 85% of organic-attributed pipeline, while their other 260 pages generate the remaining 15% combined. They cut publishing volume by 60%, invest the saved budget in ICP interviews and proprietary data integration, and see organic SQLs increase 28% in the following quarter despite producing fewer articles.
 
-## Challenge 8: Building Link Authority in Competitive Enterprise [SERPs](/glossary/what-is-serp/)
+## Challenge 8: Building Link Authority in Competitive Enterprise SERPs
 
 The [SERPs](/glossary/what-is-serp/) for high-value enterprise software terms are dominated by established players with years of accumulated link equity. Competing against a DA 80 domain with a DA 45 domain requires a different approach than opportunistic guest posting or manual outreach campaigns.
 

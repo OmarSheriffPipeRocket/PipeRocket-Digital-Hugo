@@ -1,13 +1,13 @@
 ---
 title: "Keyword Cluster"
 description: "A keyword cluster is a set of closely related keywords grouped to cover a single topic or intent in search. Clustering focuses your content, helps avoid page cannibalization, and builds topical authority, making it easier to rank for multiple terms with less duplication. TL;DR What Is a Keyword Cluster? A keyword cluster is a strategic […]"
-meta_title: "How to Group Keywords for SaaS SEO"
-meta_description: "A keyword cluster is a group of related keywords targeting one topic. Learn why they matter, how to build them, and the real trade-offs for SaaS SEO strategy."
+metaTitle: "How to Group Keywords for SaaS SEO"
+metaDescription: "A keyword cluster is a group of related keywords targeting one topic. Learn why they matter, how to build them, and the real trade-offs for SaaS SEO strategy."
 date: 2026-04-10
 lastmod: 2026-05-14
 slug: "what-are-keyword-clusters"
 categorySlug: "seo"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3037
 glossaryCategory: "SEO"
 wp_link: "/glossary/keyword-clusters/"

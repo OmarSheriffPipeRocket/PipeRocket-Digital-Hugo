@@ -3,6 +3,8 @@ title: "Achieving 3.5X MQL Growth for HyperVerge"
 slug: "hyperverge"
 url: "/case-study-hyperverge/"
 description: "How a focused Google Ads rebuild — sharper keywords, tighter forms, weekly negatives — 3.5X'd HyperVerge's MQL pipeline in three months."
+metaTitle: "HyperVerge Case Study: 3.5X MQL Growth | PipeRocket"
+metaDescription: "How a focused Google Ads rebuild — sharper keywords, tighter forms, weekly negatives — 3.5X'd HyperVerge's MQL pipeline in three months."
 client: "HyperVerge"
 industry: "SaaS · AppTech / FinTech"
 services: ["SaaS PPC", "Google Ads"]

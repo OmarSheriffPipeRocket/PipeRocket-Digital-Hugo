@@ -1,12 +1,12 @@
 ---
 title: "What Is Google Tag Manager"
 description: "Google Tag Manager (GTM) is a free tool that lets you add and update tracking scripts like analytics, ad pixels, and custom events on your website without editing code directly. This speeds up marketing experiments and reduces developer bottlenecks. Used well, it gives you faster data and fewer deployment headaches. TL;DR What Is Google Tag […]"
-meta_title: "What Is Google Tag Manager - PipeRocket"
-meta_description: "Google Tag Manager (GTM) is a free tool that lets you add and update tracking scripts like analytics, ad pixels, and custom events on your website without"
+metaTitle: "What Is Google Tag Manager - PipeRocket"
+metaDescription: "Google Tag Manager (GTM) is a free tool that lets you add and update tracking scripts like analytics, ad pixels, and custom events on your website without"
 date: 2026-04-27
 slug: "what-is-google-tag-manager"
 categorySlug: "analytics-attribution"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 wp_id: 3381
 glossaryCategory: "Analytics & Attribution"
 wp_link: "/glossary/what-is-google-tag-manager/"
