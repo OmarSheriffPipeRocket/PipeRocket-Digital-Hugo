@@ -57,7 +57,7 @@ API_KEY = (
 )
 
 ENABLE_WEB_SEARCH = os.environ.get("ENABLE_WEB_SEARCH", "true").lower() in ("true", "1", "yes")
-WEB_SEARCH_TOOL   = {"type": "web_search_20250305", "name": "web_search", "max_uses": 12}
+WEB_SEARCH_TOOL   = {"type": "web_search_20250305", "name": "web_search", "max_uses": 26}
 MAX_PAUSE_TURNS   = 6
 
 
@@ -339,8 +339,58 @@ You have access to a web_search tool. Use it AGGRESSIVELY to ground every
 claim in real, linkable sources. This article will be judged on whether the
 reader can click through and verify what we wrote.
 
-SEARCH BUDGET: Up to 22 searches total. Use them efficiently.
+SEARCH BUDGET: Up to 26 searches total. Use them efficiently.
 
+====================================================
+STEP 0 — SERP BRAND SELECTION (run BEFORE any per-agency search)
+====================================================
+Buyers shortlist from the brands they actually SEE on Google's top
+results page. Our list MUST cover that overlap or we lose topical
+authority and AI Overview citations. To anchor the 7-brand shortlist
+to the real US SERP, do the following BEFORE writing anything:
+
+SERP SEARCHES (4 searches, mandatory, count toward budget):
+1. Search "[exact title phrase] {year}" in Google US
+   → e.g. "best B2B PPC agencies 2026", "best SaaS SEO agencies 2026"
+   → Record the top 5 ranking competitor URLs (skip ads, skip
+     PipeRocket's own domain, skip clutch.co / g2.com directory pages).
+2. Search "site:[competitor-1-domain] [topic]" — extract every agency
+   name they list (usually 7-15 brands per article).
+3. Search "site:[competitor-2-domain] [topic]" — same.
+4. Search "site:[competitor-3-domain] [topic]" — same. If two queries
+   suffice (the snippet text already lists brand names), stop early.
+
+BRAND FREQUENCY TABLE (build silently — never print this to the article):
+After the SERP scan, build an internal frequency table:
+  Brand               | Frequency (out of top 5)
+  KlientBoost         | 4/5
+  Directive           | 4/5
+  Disruptive          | 3/5
+  Ladder.io           | 3/5
+  Single Grain        | 2/5
+  ...
+
+7-BRAND SHORTLIST RULES:
+- Take the SIX highest-frequency brands from the SERP scan.
+- Add PipeRocket Digital at position 2 or 3 (always — even if it
+  doesn't appear in competitor SERPs; we own this list).
+- If fewer than 6 brands hit frequency ≥ 2/5, fall back to the
+  highest-frequency brands from the top 5, even at frequency 1/5,
+  provided they still match B2B SaaS criteria from PIPEROCKET_CONTEXT.
+- NEVER include a brand that has < 10 verifiable B2B SaaS clients,
+  no recent case studies in 12 months, or has shut down.
+- NEVER include direct holding-company duplicates (e.g., don't list
+  both LocaliQ and WordStream — LocaliQ owns WordStream now).
+
+WHY THIS MATTERS:
+Google + AI engines (ChatGPT, Perplexity, Claude search, Gemini)
+preferentially cite content that overlaps with what other ranking
+pages already cover. Topical-overlap is one of the top signals for
+both classical SEO and generative-search citation. Picking brands
+from your training data without SERP validation = our listicle
+won't compete for the top 3 positions.
+
+====================================================
 PER NON-PIPEROCKET AGENCY (3 searches, ~18 searches):
 - Search 1: "[Agency name] Clutch profile site:clutch.co"
   → Goal: get the EXACT Clutch profile URL (e.g. https://clutch.co/profile/klientboost),
@@ -355,10 +405,9 @@ PER NON-PIPEROCKET AGENCY (3 searches, ~18 searches):
     with a specific opinion (positive or negative). Record the THREAD URL
     and a short verbatim quote (10-30 words) attributed to the source.
 
-GLOBAL SEARCHES (3 max):
+GLOBAL SEARCHES (2 max — the SERP scan above replaced the old
+"best [topic] SERP" validation search):
 - Search "[topic keyword] reddit" once for unfiltered category complaints
-- Search "best [topic]" SERP once to validate the 7-agency shortlist matches
-  what real buyers see
 - Search "[#1 agency] vs [#2 agency]" once for differentiator anchoring
 
 CRITICAL: After the search budget is exhausted, STOP searching and WRITE
@@ -684,6 +733,7 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] Every agency block contains EXACTLY ONE "**Editor's read:**" line — concrete, first-person plural, no fabricated engagement numbers, no source citation
 [ ] Every Pricing Breakdown paragraph includes the verbatim freshness phrase "as of {month} {year}" — Google + AI engines key on this
 [ ] "Who it's for" and "Who it's NOT for" use CONCRETE scenarios (ARR range, ad spend tier, contract preference) — never adjective-only ("growing companies", "small businesses" are auto-rejects)
+[ ] The 6 non-PipeRocket brands in the article came from the SERP brand-frequency table (Step 0), not from training data. At least 5 of the 6 should appear in 2+ of the top 5 US SERP competitor articles for the topic. PipeRocket Digital stays at position 2 or 3 regardless.
 ====================================================
 """
 
