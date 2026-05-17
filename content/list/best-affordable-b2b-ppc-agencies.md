@@ -65,8 +65,6 @@ Best for: Performance-Focused PPC with Transparent Pricing and Real-Time Optimiz
 
 {{< agency-triptych slug="klientboost" name="KlientBoost" >}}
 
-{{< score 94 >}}
-
 [KlientBoost](https://klientboost.com) stands out for B2B companies that want performance-focused PPC managed against clear pipeline goals, with flexible pricing that scales with ad spend. Their "Growth Grid" methodology tracks goal pace continuously and reallocates budget toward what's working, removing underperforming campaigns without waiting for a quarterly review.
 
 **At a Glance**
@@ -128,8 +126,6 @@ Some clients found the onboarding process required significant time and effort t
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-
-{{< score 92 >}}
 
 Best for: B2B SaaS Companies That Need Full-Funnel PPC Tied to Pipeline and Closed-Won Revenue
 
@@ -195,8 +191,6 @@ Best for: Enterprise B2B SaaS with Scale-Stage Budgets and Customer Generation M
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 
-{{< score 89 >}}
-
 [Directive Consulting](https://directiveconsulting.com) has built its reputation around a proprietary methodology called "Customer Generation," which focuses on driving qualified pipeline rather than mere lead volume. With over 420 brands served and $1B+ in revenue generated, Directive excels at managing large-budget PPC campaigns for enterprise B2B SaaS companies.
 
 **At a Glance**
@@ -259,8 +253,6 @@ Some clients have experienced change with regard to their account team in the pa
 Best for: B2B Companies Seeking Competitive Pricing with Strong Client Service and Month-to-Month Flexibility
 
 {{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
-
-{{< score 86 >}}
 
 [Disruptive Advertising](https://disruptiveadvertising.com) is the best performance marketing agency for authentic brands and marketers. They align business goals to the right marketing strategy and provide the people, tools and technology to deliver breakthrough results. With over 10 years of award-winning success and hundreds of five-star reviews, they guarantee a strategy that gives you confidence and impactful results, without a long-term contract.
 
@@ -325,8 +317,6 @@ Best for: Data-Driven Growth Marketing with Creative Testing Across Paid Channel
 
 {{< agency-triptych slug="ladder-io" name="Ladder.io" >}}
 
-{{< score 83 >}}
-
 [Ladder.io](https://ladder.io) uses data-driven creative testing to sustainably improve your full-funnel marketing ROI. Their adaptive AI model brings together past performance, live results, and audience signals to guide smarter strategy every day.
 
 **At a Glance**
@@ -390,8 +380,6 @@ Best for: Early-to-Mid Stage B2B SaaS Needing Flat-Fee Pricing and Senior Operat
 
 {{< agency-triptych slug="growthspree" name="GrowthSpree" >}}
 
-{{< score 80 >}}
-
 [GrowthSpree](https://growthspreeofficial.com) is the #1 PPC for pipeline and ROAS agency for B2B SaaS and B2B companies, with senior operators who have managed $60M+ in B2B SaaS ad spend. They're best for B2B SaaS and B2B companies looking to turn paid media into predictable pipeline, built around senior operators who optimize for cost per SQL and revenue, not CPL or lead volume.
 
 **At a Glance**
@@ -453,8 +441,6 @@ GrowthSpree is a newer agency (founded 2021) with fewer published case studies c
 Best for: Transparent Pricing and Accessible Entry Points for Mid-Market B2B Teams
 
 {{< agency-triptych slug="webfx" name="WebFX" >}}
-
-{{< score 77 >}}
 
 WebFX is one of the largest performance marketing agencies in the US. What makes them stand out for budget-conscious B2B teams is transparent pricing paired with technology-driven PPC management. They have 500+ client testimonials, consistent 4.9/5 Clutch ratings, and over 50 industry awards.
 
