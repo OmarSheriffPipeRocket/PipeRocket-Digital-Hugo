@@ -27,12 +27,10 @@
       "suffix"  "contact"
       "altHint" "get in touch / book a call") -}}
 {{- end -}}
+{{- $homeUrl := urls.Parse $agency.homepage -}}
+{{- $homeHost := strings.TrimPrefix "www." $homeUrl.Host -}}
 <div class="pr-agency-triptych" data-pr-slug="{{ $slug }}" data-pr-count="{{ len $cards }}">
 {{- range $cards }}
-  {{- $u := urls.Parse .url -}}
-  {{- $host := strings.TrimPrefix "www." $u.Host -}}
-  {{- $path := $u.Path -}}
-  {{- $display := cond (or (eq $path "/") (eq $path "")) $host (print $host $path) -}}
   {{- $imgPath := printf "/images/agencies/%s-%s.webp" $slug .suffix }}
   <figure class="pr-agency-card pr-agency-card--{{ .suffix }}">
     <a href="{{ .url }}" target="_blank" rel="nofollow noopener" aria-label="Visit {{ $name }} {{ lower .label }}">
@@ -42,11 +40,9 @@
            width="640"
            height="400">
     </a>
-    <figcaption>
-      <strong>{{ .label }}</strong>
-      <span>Source: <a href="{{ .url }}" target="_blank" rel="nofollow noopener">{{ $display }}</a> · Captured {{ $captured }}</span>
-    </figcaption>
+    <figcaption>{{ .label }}</figcaption>
   </figure>
 {{- end }}
 </div>
+<p class="pr-agency-triptych__source">Source: <a href="{{ $agency.homepage }}" target="_blank" rel="nofollow noopener">{{ $homeHost }}</a> · Screenshots captured {{ $captured }}</p>
 {{- end -}}

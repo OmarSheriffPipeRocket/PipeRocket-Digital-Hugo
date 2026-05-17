@@ -7804,31 +7804,30 @@ img[src*="/images/agencies/"]:hover {
 }
 .pr-agency-card figcaption {
   margin-top: var(--pr-s-2, 0.5rem);
-  font-size: 0.78rem;
-  line-height: 1.45;
-  color: var(--pr-text-secondary, #5a5750);
-}
-.pr-agency-card figcaption strong {
-  display: block;
   font-size: 0.72rem;
   font-weight: 700;
   color: var(--pr-text-primary, #1a1814);
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  margin-bottom: 2px;
+  text-align: center;
 }
-.pr-agency-card figcaption a {
+.pr-agency-triptych__source {
+  margin: var(--pr-s-2, 0.5rem) 0 var(--pr-s-5, 1.5rem);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--pr-text-secondary, #5a5750);
+}
+.pr-agency-triptych__source a {
   color: inherit;
-  /* Override the listicle body's default link styling so the caption
-     reads as understated metadata, not a body link. */
+  /* Override the listicle body's default link styling so the source
+     line reads as understated metadata, not a body link. */
   border-bottom: none;
   background: none;
   text-decoration: underline;
   text-decoration-color: var(--pr-line, #D9D5C9);
   text-underline-offset: 2px;
-  word-break: break-word;
 }
-.pr-agency-card figcaption a:hover {
+.pr-agency-triptych__source a:hover {
   border-bottom: none;
   text-decoration-color: currentColor;
 }
