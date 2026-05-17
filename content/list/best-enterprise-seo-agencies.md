@@ -37,12 +37,12 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 1. [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) – Best for pipeline-focused B2B enterprise SEO
 2. [Loopex Digital](/images/agencies/loopex-digital-home.webp) – Best for [technical SEO](/glossary/what-is-technical-seo/) debt remediation
-3. [Linkflow](/images/wp-import/10_LinkFlow-Homepage-1024x556.webp) – Best for authority building in competitive SaaS
-4. [Amsive](/images/wp-import/10_Amsive-Homepage-1024x556.webp) – Best for massive-scale technical turnarounds
+3. [Linkflow](/images/agencies/linkflow-home.webp) – Best for authority building in competitive SaaS
+4. [Amsive](/images/agencies/amsive-home.webp) – Best for massive-scale technical turnarounds
 5. [Searchbloom](/images/agencies/searchbloom-home.webp) – Best for fast accountable execution
 6. [WebFX](/images/agencies/webfx-home.webp) – Best for full-service enterprise digital marketing
 7. [Siege Media](/images/agencies/siege-media-home.webp) – Best for content-led link earning
-8. [Seer Interactive](/images/wp-import/10_Seer-Hompage-1024x580.webp) – Best for data-driven SEO justification
+8. [Seer Interactive](/images/agencies/seer-interactive-home.webp) – Best for data-driven SEO justification
 9. [FirstPageSage](/images/agencies/first-page-sage-home.webp) – Best for thought leadership authority
 10. [iPullRank](/images/agencies/ipullrank-home.webp) – Best for navigating internal enterprise friction
 
@@ -50,12 +50,12 @@ For the full process — every source we use, what disqualifies an agency, our c
 | --- | --- | --- | --- |
 | [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) | 94 | Pipeline-focused B2B enterprise SEO | $5,000+/mo |
 | [Loopex Digital](/images/agencies/loopex-digital-home.webp) | 91 | Technical SEO debt remediation | Custom |
-| [Linkflow](/images/wp-import/10_LinkFlow-Homepage-1024x556.webp) | 89 | Authority building in competitive SaaS | Custom |
-| [Amsive](/images/wp-import/10_Amsive-Homepage-1024x556.webp) | 87 | Massive-scale technical turnarounds | Custom |
+| [Linkflow](/images/agencies/linkflow-home.webp) | 89 | Authority building in competitive SaaS | Custom |
+| [Amsive](/images/agencies/amsive-home.webp) | 87 | Massive-scale technical turnarounds | Custom |
 | [Searchbloom](/images/agencies/searchbloom-home.webp) | 85 | Fast accountable execution | Custom |
 | [WebFX](/images/agencies/webfx-home.webp) | 83 | Full-service enterprise digital marketing | Custom |
 | [Siege Media](/images/agencies/siege-media-home.webp) | 81 | Content-led link earning | Custom |
-| [Seer Interactive](/images/wp-import/10_Seer-Hompage-1024x580.webp) | 78 | Data-driven SEO justification | Custom |
+| [Seer Interactive](/images/agencies/seer-interactive-home.webp) | 78 | Data-driven SEO justification | Custom |
 | [FirstPageSage](/images/agencies/first-page-sage-home.webp) | 76 | Thought leadership authority | Custom |
 | [iPullRank](/images/agencies/ipullrank-home.webp) | 74 | Navigating internal enterprise friction | Custom |
 
@@ -67,8 +67,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 ![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
 94
-
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Technical SEO Depth 28/30 | Scalability and Resources 23/25 | Revenue Attribution 20/20 | Industry Expertise 14/15 | Client Reviews 9/10
 
@@ -104,8 +102,6 @@ Pricing: $5,000+/mo – Revenue-focused enterprise SEO with pipeline ownership �
 
 91
 
-![Loopex Digital](/images/agencies/loopex-digital-home.webp)
-
 Technical SEO Depth 29/30 | Scalability and Resources 22/25 | Revenue Attribution 18/20 | Industry Expertise 13/15 | Client Reviews 9/10
 
 Best for: Enterprises dealing with years of accumulated technical SEO debt that is killing their organic performance.
@@ -137,7 +133,7 @@ Pricing: Custom – Technical SEO remediation for complex enterprise sites – [
 
 89
 
-![Linkflow](/images/wp-import/10_LinkFlow-Homepage-1024x556.webp)
+![Linkflow](/images/agencies/linkflow-home.webp)
 
 Technical SEO Depth 25/30 | Scalability and Resources 22/25 | Revenue Attribution 19/20 | Industry Expertise 14/15 | Client Reviews 9/10
 
@@ -170,7 +166,7 @@ Pricing: Custom – Authority-focused enterprise SEO and link building – [Visi
 
 87
 
-![Amsive](/images/wp-import/10_Amsive-Homepage-1024x556.webp)
+![Amsive](/images/agencies/amsive-home.webp)
 
 Technical SEO Depth 27/30 | Scalability and Resources 23/25 | Revenue Attribution 17/20 | Industry Expertise 12/15 | Client Reviews 8/10
 
@@ -239,8 +235,6 @@ Pricing: Custom – Fast enterprise SEO execution with A.R.T. framework – [Vis
 
 83
 
-![WebFX](/images/agencies/webfx-home.webp)
-
 [Technical SEO](/glossary/what-is-technical-seo/) Depth 24/30 | Scalability and Resources 25/25 | Revenue Attribution 15/20 | Industry Expertise 11/15 | Client Reviews 8/10
 
 Best for: Full-service digital marketing where you need one vendor for everything at enterprise scale.
@@ -277,8 +271,6 @@ Pricing: Custom – Full-service enterprise digital marketing at scale – [Visi
 
 81
 
-![Siege Media](/images/agencies/siege-media-home.webp)
-
 Technical SEO Depth 22/30 | Scalability and Resources 20/25 | Revenue Attribution 17/20 | Industry Expertise 13/15 | Client Reviews 9/10
 
 Best for: High-end enterprise [content marketing](/glossary/what-is-content-marketing/) that earns quality links at scale.
@@ -314,8 +306,6 @@ Pricing: Custom – Content-led enterprise SEO and link earning – [Visit Siege
 ![Seer Interactive homepage screenshot — B2B marketing agency](/images/agencies/seer-interactive-home.webp)
 
 78
-
-![Seer Interactive](/images/wp-import/10_Seer-Hompage-1024x580.webp)
 
 Technical SEO Depth 23/30 | Scalability and Resources 19/25 | Revenue Attribution 16/20 | Industry Expertise 12/15 | Client Reviews 8/10
 
@@ -388,8 +378,6 @@ Pricing: Custom – Thought leadership SEO for complex enterprise sales cycles �
 ![iPullRank homepage screenshot — B2B marketing agency](/images/agencies/ipullrank-home.webp)
 
 74
-
-![iPullRank](/images/agencies/ipullrank-home.webp)
 
 Technical SEO Depth 24/30 | Scalability and Resources 17/25 | Revenue Attribution 14/20 | Industry Expertise 11/15 | Client Reviews 8/10
 

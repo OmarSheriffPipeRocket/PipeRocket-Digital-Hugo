@@ -43,7 +43,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 6. [KlientBoost](/images/agencies/klientboost-home.webp) – Best for SaaS wanting structured experimentation and visibility
 7. [Single Grain](/images/agencies/single-grain-home.webp) – Best for SaaS wanting AI-enhanced campaign optimization
 8. [NoGood](/images/agencies/nogood-home.webp) – Best for high-growth SaaS startups needing rapid creative testing
-9. [Ninja Promo](/images/wp-import/11_Ninjapromo-homepage-1024x556.webp) – Best for SaaS running coordinated multi-platform campaigns
+9. [Ninja Promo](/images/agencies/ninjapromo-home.webp) – Best for SaaS running coordinated multi-platform campaigns
 10. [Kalungi](/images/agencies/kalungi-home.webp) – Best for pre-Series B SaaS needing strategic GTM guidance
 
 | Agency | Score | Best For | Starting Price |
@@ -56,7 +56,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 | [KlientBoost](/images/agencies/klientboost-home.webp) | 83 | Structured experimentation | Custom |
 | [Single Grain](/images/agencies/single-grain-home.webp) | 81 | AI-enhanced optimization | Custom |
 | [NoGood](/images/agencies/nogood-home.webp) | 79 | Rapid creative testing | Custom |
-| [Ninja Promo](/images/wp-import/11_Ninjapromo-homepage-1024x556.webp) | 77 | Multi-platform coordination | Custom |
+| [Ninja Promo](/images/agencies/ninjapromo-home.webp) | 77 | Multi-platform coordination | Custom |
 | [Kalungi](/images/agencies/kalungi-home.webp) | 75 | Pre-Series B strategic guidance | Custom |
 
 ## The 10 Best SaaS PPC Agencies in 2026
@@ -67,8 +67,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 ![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
 94
-
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Pipeline Impact 28/30 | SaaS Expertise 24/25 | Attribution and Reporting 19/20 | Strategic Depth 14/15 | Client Retention 9/10
 
@@ -172,8 +170,6 @@ Pricing: Custom – Based on audit scope and management needs – [Visit Disrupt
 
 87
 
-![Powered by Search](/images/agencies/powered-by-search-home.webp)
-
 Pipeline Impact 25/30 | SaaS Expertise 23/25 | Attribution and Reporting 17/20 | Strategic Depth 13/15 | Client Retention 9/10
 
 Best for: B2B SaaS companies with product-led growth motions needing full-funnel paid media integration.
@@ -207,8 +203,6 @@ Pricing: Custom – Based on scope and growth stage – [Visit Powered by Search
 ![Bounty Hunter homepage screenshot — B2B marketing agency](/images/agencies/bounty-hunter-home.webp)
 
 85
-
-![Bounty Hunter](/images/agencies/bounty-hunter-home.webp)
 
 Pipeline Impact 25/30 | SaaS Expertise 21/25 | Attribution and Reporting 17/20 | Strategic Depth 13/15 | Client Retention 9/10
 
@@ -312,8 +306,6 @@ Pricing: Custom – Based on scope and optimization needs – [Visit Single Grai
 
 79
 
-![NoGood](/images/agencies/nogood-home.webp)
-
 Pipeline Impact 23/30 | SaaS Expertise 20/25 | Attribution and Reporting 15/20 | Strategic Depth 12/15 | Client Retention 9/10
 
 Best for: High-growth SaaS startups needing rapid creative testing and full growth loop optimization.
@@ -347,7 +339,7 @@ Pricing: Custom – Based on scope and growth objectives – [Visit NoGood](http
 
 77
 
-![Ninja Promo](/images/wp-import/11_Ninjapromo-homepage-1024x556.webp)
+![Ninja Promo](/images/agencies/ninjapromo-home.webp)
 
 Pipeline Impact 22/30 | SaaS Expertise 19/25 | Attribution and Reporting 15/20 | Strategic Depth 12/15 | Client Retention 9/10
 

@@ -62,8 +62,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 96
 
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
-
 Revenue Attribution 29/30 | Edtech Sector Expertise 24/25 | Strategic Positioning 19/20 | Execution Quality 14/15 | Client Alignment 10/10
 
 Best for: B2B edtech SaaS companies that need marketing tied directly to pipeline and revenue metrics.
@@ -97,8 +95,6 @@ Pricing: $5,000-$15,000/mo – Scales based on scope and channel mix – [Visit 
 ![Aspectus homepage screenshot — B2B marketing agency](/images/agencies/aspectus-home.webp)
 
 91
-
-![Aspectus](/images/agencies/aspectus-home.webp)
 
 Revenue Attribution 26/30 | Edtech Sector Expertise 24/25 | Strategic Positioning 19/20 | Execution Quality 13/15 | Client Alignment 9/10
 
@@ -134,8 +130,6 @@ Pricing: Custom – Tailored for enterprise engagements with global scope – [V
 
 88
 
-![The Rubicon Agency](/images/agencies/the-rubicon-agency-home.webp)
-
 Revenue Attribution 25/30 | Edtech Sector Expertise 23/25 | Strategic Positioning 18/20 | Execution Quality 13/15 | Client Alignment 9/10
 
 Best for: Edtech companies with complex products requiring multi-stakeholder consensus.
@@ -169,8 +163,6 @@ Pricing: Custom – Structured for mid-market and enterprise B2B engagements –
 ![27Zero homepage screenshot — B2B marketing agency](/images/agencies/27zero-home.webp)
 
 85
-
-![27Zero](/images/agencies/27zero-home.webp)
 
 Revenue Attribution 23/30 | Edtech Sector Expertise 23/25 | Strategic Positioning 18/20 | Execution Quality 12/15 | Client Alignment 9/10
 
@@ -206,8 +198,6 @@ Pricing: Custom – Structured for brand and strategy engagements – [Visit 27Z
 
 82
 
-![Insivia](/images/agencies/insivia-home.webp)
-
 Revenue Attribution 22/30 | Edtech Sector Expertise 21/25 | Strategic Positioning 17/20 | Execution Quality 13/15 | Client Alignment 9/10
 
 Best for: Edtech SaaS companies focused on driving product adoption beyond initial acquisition.
@@ -241,8 +231,6 @@ Pricing: Custom – Scaled for growth-stage SaaS engagements – [Visit Insivia]
 ![Native Digital homepage screenshot — B2B marketing agency](/images/agencies/native-digital-home.webp)
 
 78
-
-![Native Digital](/images/agencies/native-digital-home.webp)
 
 Revenue Attribution 20/30 | Edtech Sector Expertise 20/25 | Strategic Positioning 17/20 | Execution Quality 12/15 | Client Alignment 9/10
 
@@ -279,8 +267,6 @@ Pricing: Custom – Structured for brand and creative engagements – [Visit Nat
 ![Saassy homepage screenshot — B2B marketing agency](/images/agencies/saassy-home.webp)
 
 74
-
-![Saassy](/images/agencies/saassy-home.webp)
 
 Revenue Attribution 19/30 | Edtech Sector Expertise 18/25 | Strategic Positioning 16/20 | Execution Quality 12/15 | Client Alignment 9/10
 

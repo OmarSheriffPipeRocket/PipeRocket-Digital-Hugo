@@ -36,30 +36,30 @@ For the full process — every source we use, what disqualifies an agency, our c
 ## Compare the 11 Best B2B SEO Agencies in 2026
 
 1. [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) – Best for ROI-driven B2B SaaS companies
-2. [Straight North](/images/wp-import/11_straight-north-homepage-1024x556.webp) – Best for traditional B2B and services companies
+2. [Straight North](/images/agencies/straight-north-home.webp) – Best for traditional B2B and services companies
 3. [Directive Consulting](/images/agencies/directive-consulting-home.webp) – Best for enterprise technology brands
-4. [RevenueZen](/images/wp-import/11_revenuezen-homepage-1024x556.webp) – Best for sales-led B2B organizations
-5. [mvpGROW](/images/wp-import/11_mvpgrow-homepage-1024x556.webp) – Best for B2B startups expanding to the US
+4. [RevenueZen](/images/agencies/revenuezen-home.webp) – Best for sales-led B2B organizations
+5. [mvpGROW](/images/agencies/mvpgrow-home.webp) – Best for B2B startups expanding to the US
 6. [Siege Media](/images/agencies/siege-media-home.webp) – Best for high-end content and link acquisition
 7. [Kalungi](/images/agencies/kalungi-home.webp) – Best for full-service B2B SaaS outsourcing
 8. [Omniscient Digital](/images/agencies/omniscient-digital-home.webp) – Best for growth-stage content strategy
 9. [FirstPageSage](/images/agencies/first-page-sage-home.webp) – Best for complex enterprise [thought leadership](/glossary/what-is-thought-leadership/)
 10. [Spacebar Collective](/images/agencies/spacebar-collective-home.webp) – Best for early-stage lean execution
-11. [Stratabeat](/images/wp-import/11_Stratabeat-homepage-1024x556.webp) – Best for B2B branding and organic growth
+11. [Stratabeat](/images/agencies/stratabeat-home.webp) – Best for B2B branding and organic growth
 
 | Agency | Score | Best For | Starting Price |
 | --- | --- | --- | --- |
 | [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) | 94 | ROI-driven B2B SaaS | $5,000/mo |
-| [Straight North](/images/wp-import/11_straight-north-homepage-1024x556.webp) | 91 | Traditional B2B services | Custom |
+| [Straight North](/images/agencies/straight-north-home.webp) | 91 | Traditional B2B services | Custom |
 | [Directive Consulting](/images/agencies/directive-consulting-home.webp) | 89 | Enterprise technology | $15,000/mo |
-| [RevenueZen](/images/wp-import/11_revenuezen-homepage-1024x556.webp) | 87 | Sales-led B2B SaaS | Custom |
-| [mvpGROW](/images/wp-import/11_mvpgrow-homepage-1024x556.webp) | 85 | B2B startups | Custom |
+| [RevenueZen](/images/agencies/revenuezen-home.webp) | 87 | Sales-led B2B SaaS | Custom |
+| [mvpGROW](/images/agencies/mvpgrow-home.webp) | 85 | B2B startups | Custom |
 | [Siege Media](/images/agencies/siege-media-home.webp) | 84 | Premium content marketing | $10,000/mo |
 | [Kalungi](/images/agencies/kalungi-home.webp) | 82 | Outsourced marketing | Custom |
 | [Omniscient Digital](/images/agencies/omniscient-digital-home.webp) | 80 | Editorial strategy | Custom |
 | [FirstPageSage](/images/agencies/first-page-sage-home.webp) | 78 | Thought leadership SEO | Custom |
 | [Spacebar Collective](/images/agencies/spacebar-collective-home.webp) | 75 | Lean early-stage execution | Custom |
-| [Stratabeat](/images/wp-import/11_Stratabeat-homepage-1024x556.webp) | 73 | B2B branding integration | Custom |
+| [Stratabeat](/images/agencies/stratabeat-home.webp) | 73 | B2B branding integration | Custom |
 
 ## The 11 Best B2B SEO Agencies in 2026
 
@@ -69,8 +69,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 ![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
 94
-
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Pipeline Impact 28/30 | B2B Specialization 24/25 | Technical SEO Depth 18/20 | Content Strategy 14/15 | Client Transparency 10/10
 
@@ -103,7 +101,7 @@ Pricing: $5,000-$15,000/mo – Tiered based on scope and growth targets – [Vis
 
 91
 
-![Straight North](/images/wp-import/11_straight-north-homepage-1024x556.webp)
+![Straight North](/images/agencies/straight-north-home.webp)
 
 Pipeline Impact 27/30 | B2B Specialization 23/25 | Technical SEO Depth 18/20 | Content Strategy 14/15 | Client Transparency 9/10
 
@@ -171,7 +169,7 @@ Pricing: $15,000-$50,000/mo – Enterprise engagements with dedicated teams – 
 
 87
 
-![RevenueZen](/images/wp-import/11_revenuezen-homepage-1024x556.webp)
+![RevenueZen](/images/agencies/revenuezen-home.webp)
 
 Pipeline Impact 25/30 | B2B Specialization 22/25 | Technical SEO Depth 17/20 | Content Strategy 14/15 | Client Transparency 9/10
 
@@ -204,7 +202,7 @@ Pricing: Custom – Based on content scope and authority-building goals – [Vis
 
 85
 
-![mvpGROW](/images/wp-import/11_mvpgrow-homepage-1024x556.webp)
+![mvpGROW](/images/agencies/mvpgrow-home.webp)
 
 Pipeline Impact 24/30 | B2B Specialization 22/25 | Technical SEO Depth 17/20 | Content Strategy 13/15 | Client Transparency 9/10
 
@@ -275,8 +273,6 @@ Pricing: $10,000-$30,000/mo – Premium content retainers with dedicated creativ
 
 82
 
-![Kalungi](/images/agencies/kalungi-home.webp)
-
 Pipeline Impact 23/30 | B2B Specialization 21/25 | Technical SEO Depth 16/20 | Content Strategy 13/15 | Client Transparency 9/10
 
 Best for: Full-service marketing outsourcing for B2B SaaS companies.
@@ -310,8 +306,6 @@ Pricing: Custom – Performance-based and retainer options available – [Visit 
 ![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
 
 80
-
-![Omniscient Digital](/images/agencies/omniscient-digital-home.webp)
 
 Pipeline Impact 22/30 | B2B Specialization 20/25 | Technical SEO Depth 16/20 | Content Strategy 14/15 | Client Transparency 8/10
 
@@ -385,8 +379,6 @@ Pricing: Custom – Premium engagements for enterprise thought leadership – [V
 
 75
 
-![Spacebar Collective](/images/agencies/spacebar-collective-home.webp)
-
 Pipeline Impact 20/30 | B2B Specialization 19/25 | Technical SEO Depth 15/20 | Content Strategy 12/15 | Client Transparency 9/10
 
 Best for: Early-stage B2B SaaS needing lean, fast execution.
@@ -418,7 +410,7 @@ Pricing: Custom – Lean engagements designed for startup budgets – [Visit Spa
 
 73
 
-![Stratabeat](/images/wp-import/11_Stratabeat-homepage-1024x556.webp)
+![Stratabeat](/images/agencies/stratabeat-home.webp)
 
 Pipeline Impact 19/30 | B2B Specialization 18/25 | Technical SEO Depth 15/20 | Content Strategy 12/15 | Client Transparency 9/10
 

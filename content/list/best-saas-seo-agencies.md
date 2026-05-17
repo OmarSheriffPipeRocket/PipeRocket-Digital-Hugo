@@ -79,8 +79,6 @@ I wanted to make this easy for you to scan. Here are all the 11 SaaS SEO agencie
 
 ![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
-![PipeRocket Digital Homepage](/images/agencies/piperocket-digital-home.webp)
-
 Okay, let’s be honest here. This is us. I am putting [PipeRocket Digital](/saas-seo-agency/) first because I know exactly how we operate. We built this agency specifically because the B2B SaaS landscape was full of people chasing metrics that didn’t matter.
 
 We are one of the fastest-growing SaaS SEO agencies because we treat SaaS SEO as a revenue engine.
@@ -114,7 +112,7 @@ We dig into the core issues that’s killing your conversions and build a conten
 
 ### **2. [The SEO Works](/blogs/best-saas-seo-agencies/#theseoworks) – Best for: Complex B2B software needing complex SaaS strategies**
 
-![TheSEOWorks Homepage](/images/wp-import/10_TheSEOWorks-Homepage-1024x557.webp)
+![TheSEOWorks Homepage](/images/agencies/the-seo-works-home.webp)
 
 [The SEO Works](https://www.seoworks.co.uk/) is an award-winning agency with strong experience in SaaS SEO. What I like about The SEO Works is their approach that understands long sales cycles, complex products and multiple stakeholders. They focus on lead quality and demand generation, not just traffic.
 
@@ -150,8 +148,6 @@ They also help SaaS brands adapt to AI-driven search by improving content clarit
 
 ![Loopex Digital homepage screenshot — B2B marketing agency](/images/agencies/loopex-digital-home.webp)
 
-![Loopex Homepage](/images/agencies/loopex-digital-home.webp)
-
 [Loopex Digital](https://www.loopexdigital.com/) is a SaaS SEO agency built for SaaS growth, not generic SEO. Their team understands long sales cycles, product-led funnels, and the need for bottom-of-funnel visibility. Instead of chasing vanity traffic, they focus on rankings that drive qualified demos and revenue.
 
 Their link-building strategies are tailored to SaaS ecosystems and earn placements on relevant, high-authority sites. With structured workflows, weekly updates, and a strong track record of results (including a 1,937% traffic increase for SenseHR), Loopex combines technical precision with commercial impact.
@@ -183,8 +179,6 @@ Their link-building strategies are tailored to SaaS ecosystems and earn placemen
 
 ![Breaking B2B homepage screenshot — B2B marketing agency](/images/agencies/breaking-b2b-home.webp)
 
-![BreakingB2B Homepage](/images/agencies/breaking-b2b-home.webp)
-
 [Breaking B2B](/blogs/best-saas-seo-agencies/#breakingb2b) positions themselves as the anti-agency, which is refreshing if you are tired of the traditional retainer model where you don’t know what you are paying for. They focus heavily on revenue-driven SaaS SEO, meaning they look at what actually puts money in the bank.
 
 They help SaaS companies steal market share by highlighting competitor differentiators. Instead of just writing about topics, they are trying to position your product as the obvious choice, directly influencing your sales pipeline and helping you close deals faster.
@@ -214,8 +208,6 @@ They help SaaS companies steal market share by highlighting competitor different
 
 ![Kalungi homepage screenshot — B2B marketing agency](/images/agencies/kalungi-home.webp)
 
-![Kalungi Homepage](/images/agencies/kalungi-home.webp)
-
 Kalungi is unique because they solve the “we don’t have a team” problem. For many SaaS start-ups, the biggest bottleneck is just having the bodies to do the work. Kalungi steps in as a full go-to-market partner.
 
 They impact your business by building your entire marketing engine from scratch—including the leadership. This allows founders to focus on product and sales while Kalungi ensures the pipeline is being built, effectively derisking your growth strategy.
@@ -243,8 +235,6 @@ They impact your business by building your entire marketing engine from scratch�
 ### **6. [Siege Media](/blogs/best-saas-seo-agencies/#siege) – Best for: Premium SaaS content marketing and visual assets**
 
 ![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
-
-![Siege Media Homepage](/images/agencies/siege-media-home.webp)
 
 Siege Media knows that in B2B SaaS, boring content leads to nowhere. They drive business impact by creating assets that B2B users actually want to read and share, which drastically lowers your cost of acquisition over time.
 
@@ -275,8 +265,6 @@ They turn your blog from a ghost town into a lead magnet. By focusing on data-ba
 
 ![MADX Digital homepage screenshot — B2B marketing agency](/images/agencies/madx-digital-home.webp)
 
-![Madx Digital Homepage](/images/agencies/madx-digital-home.webp)
-
 MADX is looking at where the puck is going. They understand that AI is rewriting the rules of search, and their business impact lies in future-proofing your revenue. They help you capture visibility in a world where users might not even click a link.
 
 By focusing on AI visibility and emerging search trends, they ensure your brand remains part of the conversation. This protects your market share against competitors who are still playing by the old rules of SEO.
@@ -304,8 +292,6 @@ By focusing on AI visibility and emerging search trends, they ensure your brand 
 ### **8. [Omniscient Digital](/blogs/best-saas-seo-agencies/#omniscient) – Best for: Strategy-led SaaS content and brand positioning**
 
 ![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
-
-![Omniscient Digital Homepage](/images/agencies/omniscient-digital-home.webp)
 
 [Omniscient Digital](/blogs/best-saas-seo-agencies/#omniscient) doesn’t want to just be a vendor; they want to align with your revenue. They focus on organic content that drives your key SaaS business metrics, ensuring that marketing isn’t just a cost center but a profit driver.
 
@@ -336,8 +322,6 @@ They impact your business by amplifying your brand positioning across the market
 ### **9. [First Page Sage](/blogs/best-saas-seo-agencies/#firstpagesage) – Best for: SaaS thought leadership and white papers**
 
 ![First Page Sage homepage screenshot — B2B marketing agency](/images/agencies/first-page-sage-home.webp)
-
-![FirstPageSage Homepage](/images/agencies/first-page-sage-home.webp)
 
 [First Page Sage](/blogs/best-saas-seo-agencies/#firstpagesage) plays the long game of influence. Their business impact is about positioning your SaaS brand as the undisputed category leader through high-level thought leadership. They target the C-suite decision-makers who sign the deals.
 
@@ -395,8 +379,6 @@ They impact your business by identifying the quickest wins that drive growth. Th
 ### **11. [Powered by Search](/blogs/best-saas-seo-agencies/#poweredbysearch) – Best for: Predictable B2B SaaS demand generation systems**
 
 ![Powered by Search homepage screenshot — B2B marketing agency](/images/agencies/powered-by-search-home.webp)
-
-![PoweredBySearch Homepage](/images/agencies/powered-by-search-home.webp)
 
 [Powered by Search](/blogs/best-saas-seo-agencies/#poweredbysearch) focuses on building a predictable SaaS pipeline. They engineer their strategies to attract decision-makers and convert them, effectively turning strangers into sales-ready leads.
 

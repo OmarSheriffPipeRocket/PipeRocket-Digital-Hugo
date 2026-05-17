@@ -104,8 +104,6 @@ Everything we do traces back to whether your buyers are finding you when they ar
 
 ![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
 
-![Siege Media Homepage](/images/agencies/siege-media-home.webp)
-
 Siege Media’s GEO approach rests on three pillars: data journalism, digital PR, and proprietary technology. [LLM](/glossary/what-is-an-llm/ "Glossary: LLM")s reference original research heavily, so content built around unique data is far more likely to be cited than generic articles.
 
 Their BlueprintIQ tool audits content against live [ChatGPT](/blogs/how-to-rank-on-chatgpt/ "How to Rank on ChatGPT"), Gemini, and Perplexity results and flags topical and entity gaps that LLMs prioritize. Their DataFlywheel system keeps content current, which matters because AI engines consistently favor up-to-date sources.
@@ -192,8 +190,6 @@ Their methodology, which they call authority content architecture, focuses on ge
 
 ![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
 
-![Omniscient Digital Homepage](/images/agencies/omniscient-digital-home.webp)
-
 Founded by former HubSpot marketing practitioners, Omniscient Digital’s core GEO concept is Surround Sound SEO: building brand presence across third-party lists, reviews, directories, and SERP content so LLMs consistently surface your brand in category answers.
 
 Their GEO work is grounded in how RAG actually works. LLMs surface content that is crawlable, topically relevant, clearly structured, and backed by strong authority signals. Omniscient builds programs around those specific signals rather than repurposing keyword-based SEO work.
@@ -222,8 +218,6 @@ They require content with a strong point of view and unique insight, because gen
 
 ![Minuttia homepage screenshot — B2B marketing agency](/images/agencies/minuttia-home.webp)
 
-![Minuttia Homepage](/images/agencies/minuttia-home.webp)
-
 Minuttia is B2B SaaS-only. Their GEO playbook blends entity SEO, topical authority, and content distribution to capture qualified demand in generative engines including AI Overviews and chat search. Managing Director George Chasiotis has published research on entity SEO and topical authority as foundational signals for AI visibility.
 
 Rather than running keyword-driven content calendars, they build strategy around how a specific SaaS company grows and map content to that motion. For GEO, that means producing content with strong points of view and subject matter depth, because surface-level content does not get cited regardless of technical structure. Starting price is $4,000+ per month.
@@ -249,8 +243,6 @@ Rather than running keyword-driven content calendars, they build strategy around
 
 ![Searchbloom homepage screenshot — B2B marketing agency](/images/agencies/searchbloom-home.webp)
 
-![SearchBloom Homepage](/images/agencies/searchbloom-home.webp)
-
 Searchbloom has two documented methodologies directly relevant to GEO. ART covers traditional SEO (Authority, Relevance, Technology) and MERIT is built specifically for AI search: Mentions, Evidence, Relevance, Inclusion, and Transform, mapped to how LLMs evaluate and cite content.
 
 What separates them is that they implement rather than just recommend. Six in-house specialist teams cover SEO, paid media, content, development, CRO, and outreach, so technical fixes, schema markup, and content optimization happen without a separate implementation layer. All GEO work is connected to SaaS-specific metrics including trials, demos, and ARR, rather than reporting on visibility in isolation.
@@ -275,8 +267,6 @@ What separates them is that they implement rather than just recommend. Six in-ho
 
 
 ![Single Grain homepage screenshot — B2B marketing agency](/images/agencies/single-grain-home.webp)
-
-![Single grain homepage](/images/agencies/single-grain-home.webp)
 
 Single Grain integrates GEO into a broader multi-channel program rather than running it as a standalone service. Their model connects SEO, GEO, and paid media into one strategy, so AI visibility improvements feed directly into paid targeting and CRO rather than sitting in a separate reporting silo.
 

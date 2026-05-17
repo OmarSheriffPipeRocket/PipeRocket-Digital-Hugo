@@ -66,8 +66,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 95
 
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
-
 Revenue Attribution 29/30 | Channel Expertise 24/25 | Creative Testing 19/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
 Best for: Mid-market and enterprise B2B SaaS companies that need marketing spend tied directly to SQLs and revenue.

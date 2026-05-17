@@ -43,8 +43,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 6. [Walker Sands](/images/agencies/walker-sands-home.webp) – Best for B2B tech PR and [demand generation](/blogs/b2b-demand-generation-guide/)
 7. [Siege Media](/images/agencies/siege-media-home.webp) – Best for link-worthy content that compounds
 8. [Velocity Partners](/images/agencies/velocity-partners-home.webp) – Best for creative differentiation in crowded markets
-9. [Straight North](/images/wp-import/11_straight-north-homepage-1024x556.webp) – Best for industrial B2B lead validation
-10. [Serpsculpt](/images/wp-import/11_Serpsculpt-Homepage-1024x556.webp) – Best for [technical SEO](/glossary/what-is-technical-seo/) diagnostics
+9. [Straight North](/images/agencies/straight-north-home.webp) – Best for industrial B2B lead validation
+10. [Serpsculpt](/images/agencies/serpsculpt-home.webp) – Best for [technical SEO](/glossary/what-is-technical-seo/) diagnostics
 11. [310 Creative](/images/agencies/310-creative-home.webp) – Best for HubSpot RevOps implementation
 
 | Agency | Score | Best For | Starting Price |
@@ -57,8 +57,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 | [Walker Sands](/images/agencies/walker-sands-home.webp) | 84 | B2B tech PR integration | Custom |
 | [Siege Media](/images/agencies/siege-media-home.webp) | 83 | Premium content assets | $10,000/mo |
 | [Velocity Partners](/images/agencies/velocity-partners-home.webp) | 81 | Creative brand differentiation | Custom |
-| [Straight North](/images/wp-import/11_straight-north-homepage-1024x556.webp) | 79 | Industrial lead validation | $3,000/mo |
-| [Serpsculpt](/images/wp-import/11_Serpsculpt-Homepage-1024x556.webp) | 77 | [Technical SEO](/glossary/what-is-technical-seo/) diagnostics | Custom |
+| [Straight North](/images/agencies/straight-north-home.webp) | 79 | Industrial lead validation | $3,000/mo |
+| [Serpsculpt](/images/agencies/serpsculpt-home.webp) | 77 | [Technical SEO](/glossary/what-is-technical-seo/) diagnostics | Custom |
 | [310 Creative](/images/agencies/310-creative-home.webp) | 74 | HubSpot RevOps | Custom |
 
 ## The 11 Best B2B Marketing Agencies in 2026
@@ -69,8 +69,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 ![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
 94
-
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Pipeline Impact 28/30 | Technical Expertise 24/25 | Client Retention 19/20 | Industry Specialization 14/15 | Transparency 9/10
 
@@ -175,8 +173,6 @@ Pricing: Custom – Flexible engagement models based on scope and velocity requi
 ![Ironpaper homepage screenshot — B2B marketing agency](/images/agencies/ironpaper-home.webp)
 
 86
-
-![Ironpaper](/images/agencies/ironpaper-home.webp)
 
 Pipeline Impact 25/30 | Technical Expertise 22/25 | Client Retention 17/20 | Industry Specialization 13/15 | Transparency 9/10
 
@@ -313,8 +309,6 @@ Pricing: $10,000+/mo – Premium content production and link acquisition – [Vi
 
 81
 
-![Velocity Partners](/images/agencies/velocity-partners-home.webp)
-
 Pipeline Impact 23/30 | Technical Expertise 20/25 | Client Retention 16/20 | Industry Specialization 13/15 | Transparency 9/10
 
 Best for: B2B tech companies with solid products that blend into crowded markets and need distinctive creative positioning.
@@ -346,7 +340,7 @@ Pricing: Custom – Creative and content programs priced by scope – [Visit Vel
 
 79
 
-![Straight North](/images/wp-import/11_straight-north-homepage-1024x556.webp)
+![Straight North](/images/agencies/straight-north-home.webp)
 
 Pipeline Impact 22/30 | Technical Expertise 20/25 | Client Retention 16/20 | Industry Specialization 12/15 | Transparency 9/10
 
@@ -379,7 +373,7 @@ Pricing: $3,000+/mo – Structured programs for industrial B2B – [Visit Straig
 
 77
 
-![Serpsculpt](/images/wp-import/11_Serpsculpt-Homepage-1024x556.webp)
+![Serpsculpt](/images/agencies/serpsculpt-home.webp)
 
 Pipeline Impact 21/30 | Technical Expertise 20/25 | Client Retention 15/20 | Industry Specialization 12/15 | Transparency 9/10
 

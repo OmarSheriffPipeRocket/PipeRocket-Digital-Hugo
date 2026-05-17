@@ -22,6 +22,7 @@ WP_RE = re.compile(r'/images/wp-import/[A-Za-z0-9_\-\.]+\.(?:webp|png|jpg|jpeg)'
 # Manual slug overrides — keyed by the auto-derived slug after stripping
 # leading "NN_" and trailing "-Homepage-NNNxNNN".
 OVERRIDES = {
+    # Slug-mismatch fixes (wp-import slug -> canonical /images/agencies/ slug).
     "piperocket": "piperocket-digital",
     "disruptive": "disruptive-advertising",
     "directive": "directive-consulting",
@@ -29,21 +30,19 @@ OVERRIDES = {
     "loopex": "loopex-digital",
     "madx": "madx-digital",
     "poweredbysearch": "powered-by-search",
-    "growandconvert": None,  # no /images/agencies/ exists yet → capture
-    "grow-and-convert": None,
     "tinuity": "tinuiti",  # legacy typo
-    "firstpagesage": "first-page-sage",  # consolidate to one slug
-    "theseoworks": None,  # need capture
+    "firstpagesage": "first-page-sage",  # consolidate FPS to one slug
+    "therubiconagency": "the-rubicon-agency",
+    # Captured-via-Clutch slug-mismatch fixes.
+    "growandconvert": "grow-and-convert",
+    "grow-and-convert": "grow-and-convert",
+    "theseoworks": "the-seo-works",
+    "lyfemarketing": "lyfe-marketing",
+    "seer-hompage": "seer-interactive",  # legacy typo "Hompage"
+    # Still need capture (no /images/agencies/ webp yet).
     "the-seo-works-geo-page": None,
     "thesocialshepard": None,
-    "thrive-digital": None,  # ambiguous → capture
-    "stratabeat": None,
-    "serpsculpt": None,
-    "leadium": "leadium",
-    "amsive": None,
-    "linkflow": None,
-    "seer-hompage": None,
-    "lyfemarketing": None,
+    "thrive-digital": None,
     "campfire-labs": None,
     "clearvoice": None,
     "codeless": None,
@@ -54,17 +53,11 @@ OVERRIDES = {
     "inbound-fintech": None,
     "megawatt": None,
     "mint-studios": None,
-    "ninjapromo": None,
     "omnius": None,
     "optimist": None,
-    "properexpression": None,
     "quoleady": None,
-    "straight-north": None,
     "bamboo": None,
     "cstmr": None,
-    "mvpgrow": None,
-    "revenuezen": None,
-    "therubiconagency": "the-rubicon-agency",
 }
 
 # Listicle banner filenames (NOT agency homepages). Anything matching

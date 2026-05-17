@@ -105,8 +105,6 @@ Pricing: $10,000-$25,000/mo – Based on ad spend and creative scope – [Visit 
 
 94
 
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
-
 Pipeline Impact 28/30 | B2B Specialization 24/25 | Strategic Depth 19/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
 Best for: B2B SaaS teams that need Google Ads campaigns engineered for SQLs and closed revenue.
@@ -208,8 +206,6 @@ Pricing: $5,000-$20,000/mo – Based on scope and integration depth – [Visit S
 ![Disruptive Advertising homepage screenshot — B2B marketing agency](/images/agencies/disruptive-advertising-home.webp)
 
 87
-
-![Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp)
 
 Pipeline Impact 25/30 | B2B Specialization 22/25 | Strategic Depth 17/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
@@ -389,8 +385,6 @@ Pricing: $6,000-$18,000/mo – Based on integration complexity – [Visit Closed
 ![Ignite Visibility homepage screenshot — B2B marketing agency](/images/agencies/ignite-visibility-home.webp)
 
 75
-
-![Ignite Visibility](/images/agencies/ignite-visibility-home.webp)
 
 Pipeline Impact 22/30 | B2B Specialization 19/25 | Strategic Depth 14/20 | Reporting Transparency 11/15 | Client Retention 9/10
 

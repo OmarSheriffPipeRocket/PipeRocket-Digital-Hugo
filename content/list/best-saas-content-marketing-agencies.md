@@ -40,7 +40,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 3. [Growfusely](/images/agencies/growfusely-home.webp) – Best for companies that need to scale organic reach without losing brand voice
 4. [Quoleady](/images/wp-import/11_Quoleady-Homepage-1024x556.png) – Best for scaling a lead generation engine through product-led blog content
 5. [Campfire Labs](/images/wp-import/11_Campfire-Labs-Homepage-1024x556.png) – Best for turning customer success stories into actual narrative art
-6. [Grow and Convert](/images/wp-import/11_Grow-and-Convert-Homepage-1024x579.png) – Best for finding silent buyers through Pain Point SEO
+6. [Grow and Convert](/images/agencies/grow-and-convert-home.webp) – Best for finding silent buyers through Pain Point SEO
 7. [ClearVoice](/images/wp-import/11_ClearVoice-Homepage-1024x556.png) – Best for large enterprises that need a massive managed content engine
 8. [Siege Media](/images/agencies/siege-media-home.webp) – Best for making content so good that other sites cannot help but link to it
 9. [ContentVisit](/images/wp-import/11_ContentVisit-Homepage-1024x556.png) – Best for early-stage SaaS founders who need to build first organic traction
@@ -54,7 +54,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 | [Growfusely](/images/agencies/growfusely-home.webp) | 88 | Scalable SEO content with brand consistency | $5,000+/mo |
 | [Quoleady](/images/wp-import/11_Quoleady-Homepage-1024x556.png) | 86 | BOFU content and link building | $4,000+/mo |
 | [Campfire Labs](/images/wp-import/11_Campfire-Labs-Homepage-1024x556.png) | 85 | Narrative case studies and storytelling | $10,000+/mo |
-| [Grow and Convert](/images/wp-import/11_Grow-and-Convert-Homepage-1024x579.png) | 84 | Pain Point SEO and conversion content | $10,000+/mo |
+| [Grow and Convert](/images/agencies/grow-and-convert-home.webp) | 84 | Pain Point SEO and conversion content | $10,000+/mo |
 | [ClearVoice](/images/wp-import/11_ClearVoice-Homepage-1024x556.png) | 82 | High-volume enterprise content production | $8,000+/mo |
 | [Siege Media](/images/agencies/siege-media-home.webp) | 81 | Content design and link acquisition | $10,000+/mo |
 | [ContentVisit](/images/wp-import/11_ContentVisit-Homepage-1024x556.png) | 78 | Early-stage SaaS content foundations | $2,500+/mo |
@@ -69,8 +69,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 ![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
 95
-
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Strategic Depth 29/30 | Content Quality 24/25 | SEO Expertise 19/20 | Client Results 14/15 | SaaS Specialization 9/10
 
@@ -235,7 +233,7 @@ Pricing: $10,000+/mo – Premium reflects journalistic quality and deep intervie
 
 84
 
-![Grow and Convert](/images/wp-import/11_Grow-and-Convert-Homepage-1024x579.png)
+![Grow and Convert](/images/agencies/grow-and-convert-home.webp)
 
 Strategic Depth 26/30 | Content Quality 21/25 | SEO Expertise 17/20 | Client Results 13/15 | SaaS Specialization 7/10
 

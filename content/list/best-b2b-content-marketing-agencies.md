@@ -37,25 +37,25 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 1. [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) – Best for ROI-driven B2B growth
 2. [Animalz](/images/agencies/animalz-home.webp) – Best for deep-dive thought leadership and executive ghostwriting
-3. [Grow and Convert](/images/wp-import/11_Grow-and-Convert-Homepage-1024x579.png) – Best for bottom-of-funnel conversion strategies
+3. [Grow and Convert](/images/agencies/grow-and-convert-home.webp) – Best for bottom-of-funnel conversion strategies
 4. [Megawatt](/images/wp-import/11_Megawatt-Homepage-1024x556.jpg) – Best for highly technical cybersecurity and IT products
 5. [Siege Media](/images/agencies/siege-media-home.webp) – Best for visual assets and link-earning content
 6. [Omniscient Digital](/images/agencies/omniscient-digital-home.webp) – Best for strategy-led content and brand positioning
 7. [Ironpaper](/images/agencies/ironpaper-home.webp) – Best for long, complex enterprise sales cycles
 8. [Optimist](/images/wp-import/11_Optimist-Homepage-1024x556.png) – Best for full-service, scalable content operations
-9. [mvpGROW](/images/wp-import/11_mvpGROW-Homepage-1024x556.png) – Best for agile tech startups needing an on-demand team
+9. [mvpGROW](/images/agencies/mvpgrow-home.webp) – Best for agile tech startups needing an on-demand team
 
 | Agency | Score | Best For | Starting Price |
 | --- | --- | --- | --- |
 | [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) | 96 | ROI-driven B2B growth | Custom |
 | [Animalz](/images/agencies/animalz-home.webp) | 91 | Executive ghostwriting | Custom |
-| [Grow and Convert](/images/wp-import/11_Grow-and-Convert-Homepage-1024x579.png) | 89 | BOFU conversion strategies | Custom |
+| [Grow and Convert](/images/agencies/grow-and-convert-home.webp) | 89 | BOFU conversion strategies | Custom |
 | [Megawatt](/images/wp-import/11_Megawatt-Homepage-1024x556.jpg) | 87 | Technical cybersecurity content | Custom |
 | [Siege Media](/images/agencies/siege-media-home.webp) | 85 | Visual link-earning assets | Custom |
 | [Omniscient Digital](/images/agencies/omniscient-digital-home.webp) | 83 | Strategy-led brand positioning | Custom |
 | [Ironpaper](/images/agencies/ironpaper-home.webp) | 81 | Enterprise sales cycles | Custom |
 | [Optimist](/images/wp-import/11_Optimist-Homepage-1024x556.png) | 79 | Scalable content operations | Custom |
-| [mvpGROW](/images/wp-import/11_mvpGROW-Homepage-1024x556.png) | 77 | On-demand startup teams | Custom |
+| [mvpGROW](/images/agencies/mvpgrow-home.webp) | 77 | On-demand startup teams | Custom |
 
 ## The 9 Best B2B Content Marketing Agencies in 2026
 
@@ -65,8 +65,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 ![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
 96
-
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Strategic Depth 29/30 | Content Quality 24/25 | Technical Expertise 19/20 | Client Results 15/15 | Service Flexibility 9/10
 
@@ -132,7 +130,7 @@ Pricing: Custom – Premium positioning for companies investing in long-term aut
 
 89
 
-![Grow and Convert](/images/wp-import/11_Grow-and-Convert-Homepage-1024x579.png)
+![Grow and Convert](/images/agencies/grow-and-convert-home.webp)
 
 Strategic Depth 28/30 | Content Quality 22/25 | Technical Expertise 17/20 | Client Results 14/15 | Service Flexibility 8/10
 
@@ -340,7 +338,7 @@ Pricing: Custom – Full-service engagements covering strategy through execution
 
 77
 
-![mvpGROW](/images/wp-import/11_mvpGROW-Homepage-1024x556.png)
+![mvpGROW](/images/agencies/mvpgrow-home.webp)
 
 Strategic Depth 22/30 | Content Quality 20/25 | Technical Expertise 15/20 | Client Results 12/15 | Service Flexibility 8/10
 

@@ -64,8 +64,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 94
 
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
-
 Lead Quality 28/30 | Channel Expertise 24/25 | Technology 19/20 | Industry Specialization 14/15 | Transparency 9/10
 
 Best for: B2B SaaS companies who need full-funnel lead generation combining organic and paid channels.
@@ -99,8 +97,6 @@ Pricing: Custom – Tailored to your funnel complexity and growth targets – [V
 ![CIENCE homepage screenshot — B2B marketing agency](/images/agencies/cience-home.webp)
 
 88
-
-![CIENCE](/images/agencies/cience-home.webp)
 
 Lead Quality 25/30 | Channel Expertise 23/25 | Technology 19/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -136,8 +132,6 @@ Pricing: Custom – Contact for quote based on volume and channel requirements �
 
 87
 
-![Belkins](/images/agencies/belkins-home.webp)
-
 Lead Quality 26/30 | Channel Expertise 22/25 | Technology 18/20 | Industry Specialization 13/15 | Transparency 8/10
 
 Best for: Appointment setting and technical B2B industries.
@@ -171,8 +165,6 @@ Pricing: Custom – Contact for quote based on appointment volume targets – [V
 ![Martal Group homepage screenshot — B2B marketing agency](/images/agencies/martal-group-home.webp)
 
 85
-
-![Martal Group](/images/agencies/martal-group-home.webp)
 
 Lead Quality 25/30 | Channel Expertise 21/25 | Technology 18/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -208,8 +200,6 @@ Pricing: Custom – Contact for quote based on sales support scope – [Visit Ma
 
 84
 
-![Callbox](/images/agencies/callbox-home.webp)
-
 Lead Quality 24/30 | Channel Expertise 21/25 | Technology 18/20 | Industry Specialization 13/15 | Transparency 8/10
 
 Best for: Global reach and account-based marketing (ABM).
@@ -243,8 +233,6 @@ Pricing: Custom – Contact for quote based on geographic scope and account volu
 ![Leadium homepage screenshot — B2B marketing agency](/images/agencies/leadium-home.webp)
 
 82
-
-![Leadium](/images/agencies/leadium-home.webp)
 
 Lead Quality 24/30 | Channel Expertise 20/25 | Technology 17/20 | Industry Specialization 12/15 | Transparency 9/10
 
@@ -284,8 +272,6 @@ Pricing: Custom – Contact for quote based on campaign scope and velocity requi
 
 80
 
-![SalesRoads](/images/agencies/salesroads-home.webp)
-
 Lead Quality 23/30 | Channel Expertise 20/25 | Technology 16/20 | Industry Specialization 13/15 | Transparency 8/10
 
 Best for: Industrial and manufacturing B2B sales.
@@ -321,8 +307,6 @@ Pricing: Custom – Contact for quote based on industry vertical and outreach vo
 ![OutreachBloom homepage screenshot — B2B marketing agency](/images/agencies/outreachbloom-home.webp)
 
 76
-
-![OutreachBloom](/images/agencies/outreachbloom-home.webp)
 
 Lead Quality 22/30 | Channel Expertise 18/25 | Technology 16/20 | Industry Specialization 11/15 | Transparency 9/10
 

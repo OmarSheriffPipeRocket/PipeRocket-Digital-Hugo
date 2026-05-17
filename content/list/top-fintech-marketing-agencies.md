@@ -40,11 +40,11 @@ For the full process — every source we use, what disqualifies an agency, our c
 3. [CSTMR](/images/wp-import/11_CSTMR-Homepage-1024x556.png) – Best for established fintechs needing full-funnel growth and banking strategy
 4. [Walker Sands](/images/agencies/walker-sands-home.webp) – Best for B2B firms that need heavy PR muscle alongside their marketing
 5. [Mint Studios](/images/wp-import/11_Mint-Studios-Homepage-1024x556.png) – Best for fintechs who want to acquire customers through high-quality content
-6. [NinjaPromo](/images/wp-import/11_NinjaPromo-Homepage-1024x579.jpg) – Best for crypto, blockchain, and B2B SaaS needing social and influencer push
+6. [NinjaPromo](/images/agencies/ninjapromo-home.webp) – Best for crypto, blockchain, and B2B SaaS needing social and influencer push
 7. [Siege Media](/images/agencies/siege-media-home.webp) – Best for SEO-driven [content marketing](/glossary/what-is-content-marketing/) that builds long-term organic assets
 8. [Growth Gorilla](/images/agencies/growth-gorilla-home.webp) – Best for early to growth-stage fintechs focused on user acquisition
 9. [Fox Agency](/images/wp-import/11_Fox-Agency-Homepage-1024x556.jpg) – Best for global B2B tech brands needing integrated marketing and PR
-10. [mvpGROW](/images/wp-import/11_mvpGROW-Homepage-1024x556.png) – Best for holistic growth marketing for B2B SaaS and cybersecurity
+10. [mvpGROW](/images/agencies/mvpgrow-home.webp) – Best for holistic growth marketing for B2B SaaS and cybersecurity
 
 | Agency | Score | Best For | Starting Price |
 | --- | --- | --- | --- |
@@ -53,11 +53,11 @@ For the full process — every source we use, what disqualifies an agency, our c
 | [CSTMR](/images/wp-import/11_CSTMR-Homepage-1024x556.png) | 89 | Full-funnel fintech growth strategy | $10,000+ |
 | [Walker Sands](/images/agencies/walker-sands-home.webp) | 87 | B2B fintech PR and demand generation | Custom |
 | [Mint Studios](/images/wp-import/11_Mint-Studios-Homepage-1024x556.png) | 85 | Content-driven customer acquisition | Custom |
-| [NinjaPromo](/images/wp-import/11_NinjaPromo-Homepage-1024x579.jpg) | 83 | Social and influencer marketing | Custom |
+| [NinjaPromo](/images/agencies/ninjapromo-home.webp) | 83 | Social and influencer marketing | Custom |
 | [Siege Media](/images/agencies/siege-media-home.webp) | 81 | SEO and link-building content | Custom |
 | [Growth Gorilla](/images/agencies/growth-gorilla-home.webp) | 79 | User acquisition and app marketing | Custom |
 | [Fox Agency](/images/wp-import/11_Fox-Agency-Homepage-1024x556.jpg) | 77 | Global B2B integrated marketing | Custom |
-| [mvpGROW](/images/wp-import/11_mvpGROW-Homepage-1024x556.png) | 75 | On-demand growth marketing | Custom |
+| [mvpGROW](/images/agencies/mvpgrow-home.webp) | 75 | On-demand growth marketing | Custom |
 
 ## The 11 Best Fintech Marketing Agencies in 2026
 
@@ -67,8 +67,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 ![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
 94
-
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Revenue Impact 28/30 | Fintech Specialization 24/25 | Service Depth 18/20 | Client Results 14/15 | Pricing Transparency 10/10
 
@@ -233,7 +231,7 @@ Pricing: Custom – Project and retainer options for content marketing programs 
 
 83
 
-![NinjaPromo](/images/wp-import/11_NinjaPromo-Homepage-1024x579.jpg)
+![NinjaPromo](/images/agencies/ninjapromo-home.webp)
 
 Revenue Impact 22/30 | Fintech Specialization 21/25 | Service Depth 18/20 | Client Results 13/15 | Pricing Transparency 9/10
 
@@ -367,7 +365,7 @@ Pricing: Custom – Integrated program pricing for global B2B brands – Visit F
 
 75
 
-![mvpGROW](/images/wp-import/11_mvpGROW-Homepage-1024x556.png)
+![mvpGROW](/images/agencies/mvpgrow-home.webp)
 
 Revenue Impact 19/30 | Fintech Specialization 18/25 | Service Depth 17/20 | Client Results 12/15 | Pricing Transparency 9/10
 

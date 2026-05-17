@@ -40,11 +40,11 @@ For the full process — every source we use, what disqualifies an agency, our c
 3. [WebFX](/images/agencies/webfx-home.webp) – Best for large-scale manufacturing PPC
 4. [Directive Consulting](/images/agencies/directive-consulting-home.webp) – Best for enterprise pipeline building
 5. [Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp) – Best for PPC audit and waste elimination
-6. [LYFE Marketing](/images/wp-import/11_Lyfemarketing-homepage-1024x556.webp) – Best for small business social PPC
+6. [LYFE Marketing](/images/agencies/lyfe-marketing-home.webp) – Best for small business social PPC
 7. [KlientBoost](/images/agencies/klientboost-home.webp) – Best for structured experimentation frameworks
-8. [ProperExpression](/images/wp-import/11_Properexpression-homepage-1024x556.webp) – Best for full-funnel RevOps integration
-9. [NinjaPromo](/images/wp-import/11_Ninjapromo-homepage-1024x556.webp) – Best for multi-platform creative campaigns
-10. [Grow and Convert](/images/wp-import/11_growandconvert-homepage-1024x556.webp) – Best for high-intent paid search execution
+8. [ProperExpression](/images/agencies/properexpression-home.webp) – Best for full-funnel RevOps integration
+9. [NinjaPromo](/images/agencies/ninjapromo-home.webp) – Best for multi-platform creative campaigns
+10. [Grow and Convert](/images/agencies/grow-and-convert-home.webp) – Best for high-intent paid search execution
 
 | Agency | Score | Best For | Starting Price |
 | --- | --- | --- | --- |
@@ -53,11 +53,11 @@ For the full process — every source we use, what disqualifies an agency, our c
 | [WebFX](/images/agencies/webfx-home.webp) | 89 | Large-scale manufacturing PPC | Custom |
 | [Directive Consulting](/images/agencies/directive-consulting-home.webp) | 87 | Enterprise pipeline building | Custom |
 | [Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp) | 85 | PPC audit and waste elimination | Custom |
-| [LYFE Marketing](/images/wp-import/11_Lyfemarketing-homepage-1024x556.webp) | 82 | Small business social PPC | Custom |
+| [LYFE Marketing](/images/agencies/lyfe-marketing-home.webp) | 82 | Small business social PPC | Custom |
 | [KlientBoost](/images/agencies/klientboost-home.webp) | 80 | Structured experimentation frameworks | Custom |
-| [ProperExpression](/images/wp-import/11_Properexpression-homepage-1024x556.webp) | 78 | Full-funnel RevOps integration | Custom |
-| [NinjaPromo](/images/wp-import/11_Ninjapromo-homepage-1024x556.webp) | 75 | Multi-platform creative campaigns | Custom |
-| [Grow and Convert](/images/wp-import/11_growandconvert-homepage-1024x556.webp) | 73 | High-intent paid search execution | Custom |
+| [ProperExpression](/images/agencies/properexpression-home.webp) | 78 | Full-funnel RevOps integration | Custom |
+| [NinjaPromo](/images/agencies/ninjapromo-home.webp) | 75 | Multi-platform creative campaigns | Custom |
+| [Grow and Convert](/images/agencies/grow-and-convert-home.webp) | 73 | High-intent paid search execution | Custom |
 
 ## The 10 Best B2B PPC Agencies in 2026
 
@@ -67,8 +67,6 @@ For the full process — every source we use, what disqualifies an agency, our c
 ![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
 96
-
-![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Pipeline Generation 29/30 | ICP Targeting Precision 24/25 | Revenue Attribution 19/20 | B2B Platform Expertise 15/15 | Client Retention 9/10
 
@@ -237,7 +235,7 @@ Pricing: Custom – Comprehensive PPC audits with ongoing optimization – [Visi
 
 82
 
-![LYFE Marketing](/images/wp-import/11_Lyfemarketing-homepage-1024x556.webp)
+![LYFE Marketing](/images/agencies/lyfe-marketing-home.webp)
 
 Pipeline Generation 24/30 | ICP Targeting Precision 20/25 | Revenue Attribution 16/20 | B2B Platform Expertise 13/15 | Client Retention 9/10
 
@@ -305,7 +303,7 @@ Pricing: Custom – Growth Grid methodology with multi-channel management – [V
 
 78
 
-![ProperExpression](/images/wp-import/11_Properexpression-homepage-1024x556.webp)
+![ProperExpression](/images/agencies/properexpression-home.webp)
 
 Pipeline Generation 23/30 | ICP Targeting Precision 19/25 | Revenue Attribution 15/20 | B2B Platform Expertise 12/15 | Client Retention 9/10
 
@@ -340,7 +338,7 @@ Pricing: Custom – Full-funnel PPC with RevOps infrastructure services – [Vis
 
 75
 
-![NinjaPromo](/images/wp-import/11_Ninjapromo-homepage-1024x556.webp)
+![NinjaPromo](/images/agencies/ninjapromo-home.webp)
 
 Pipeline Generation 22/30 | ICP Targeting Precision 18/25 | Revenue Attribution 14/20 | B2B Platform Expertise 12/15 | Client Retention 9/10
 
@@ -373,7 +371,7 @@ Pricing: Custom – Multi-platform PPC with AI-assisted optimization – [Visit 
 
 73
 
-![Grow and Convert](/images/wp-import/11_growandconvert-homepage-1024x556.webp)
+![Grow and Convert](/images/agencies/grow-and-convert-home.webp)
 
 Pipeline Generation 21/30 | ICP Targeting Precision 18/25 | Revenue Attribution 14/20 | B2B Platform Expertise 11/15 | Client Retention 9/10
 

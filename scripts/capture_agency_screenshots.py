@@ -85,9 +85,22 @@ ACCEPT_BUTTON_TEXTS = [
 # Hard-coded URL overrides for brands whose listicle section doesn't
 # directly link their homepage (e.g., our own brand only links /contact-us/).
 # Match by lowercased brand name.
+#
+# Agency URLs sourced from each agency's verified Clutch profile.
 URL_OVERRIDES = {
     "piperocket digital": "https://piperocket.digital",
     "piperocket": "https://piperocket.digital",
+    "amsive": "https://www.amsive.com/",
+    "grow and convert": "https://www.growandconvert.com/",
+    "lyfe marketing": "https://www.lyfemarketing.com/",
+    "linkflow": "https://www.linkflow.ai",
+    "ninjapromo": "https://ninjapromo.io",
+    "properexpression": "https://www.properexpression.com",
+    "revenuezen": "https://revenuezen.com/",
+    "serpsculpt": "https://serpsculpt.com/",
+    "straight north": "https://www.straightnorth.com/",
+    "stratabeat": "https://stratabeat.com",
+    "mvpgrow": "https://mvpgrow.com/",
 }
 
 # Review-site URLs to ignore when auto-detecting the brand homepage.
@@ -262,7 +275,7 @@ def capture_screenshot(page, url: str, out_path: str) -> bool:
 # ───────────────────── Main ─────────────────────────────────────────────
 
 
-def process_listicle(md_path: str, browser_context, force: bool = False) -> None:
+def process_listicle(md_path: str, browser_context, force: bool = False, inject: bool = True) -> None:
     if not os.path.exists(md_path):
         print(f"  ! {md_path} not found", file=sys.stderr)
         return
@@ -330,6 +343,9 @@ def process_listicle(md_path: str, browser_context, force: bool = False) -> None
             print(f"    ✓ {webp_file}: {png_kb} KB PNG → {webp_kb} KB WebP")
             captured += 1
 
+        if not inject:
+            continue
+
         # Insertion strategy
         anchors = [
             re.compile(re.escape(sec["h3"]) + r"\n\n(Best for:[^\n]*\n)", re.MULTILINE),
@@ -371,6 +387,13 @@ def main() -> None:
         action="store_true",
         help="Re-capture & re-compress even if the image file already exists.",
     )
+    parser.add_argument(
+        "--no-inject",
+        action="store_true",
+        help="Capture screenshots only; don't modify the markdown file. "
+        "Useful when the listicle already has legacy wp-import images that "
+        "will be swapped via a separate find-replace step.",
+    )
     args = parser.parse_args()
 
     if sync_playwright is None:
@@ -392,7 +415,7 @@ def main() -> None:
             ),
         )
         for fp in args.files:
-            process_listicle(fp, context, force=args.force)
+            process_listicle(fp, context, force=args.force, inject=not args.no_inject)
         context.close()
         browser.close()
 
