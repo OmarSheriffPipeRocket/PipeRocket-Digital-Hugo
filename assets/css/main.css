@@ -10254,21 +10254,38 @@ body.pr-modal-open { overflow: hidden; }
   flex-direction: column;
   background: #FFFFFF;
   border: 1px solid var(--pr-line);
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 22px;
-  transition: transform .18s ease, box-shadow .18s ease, border-color .18s;
+  position: relative;
+  overflow: hidden;
+  /* Animated accent rail along the top — visible on hover, hidden by
+     default. Makes the hover feel editorial, not just a generic lift. */
+  transition: transform .25s cubic-bezier(.2,.7,.2,1),
+              box-shadow .25s cubic-bezier(.2,.7,.2,1),
+              border-color .25s ease;
+}
+.pr-team-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 2px;
+  background: linear-gradient(90deg, #0CC6F1 0%, #FF0025 100%);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform .35s cubic-bezier(.2,.7,.2,1);
 }
 .pr-team-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 14px 36px rgba(0, 0, 0, .07);
-  border-color: #D9D5C9;
+  transform: translateY(-4px);
+  box-shadow: 0 22px 48px rgba(13, 13, 13, .10);
+  border-color: #0E1430;
 }
+.pr-team-card:hover::before { transform: scaleX(1); }
 
 .pr-team-card--founder {
   display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 22px;
-  padding: 28px;
+  grid-template-columns: 160px 1fr;
+  gap: 26px;
+  padding: 30px;
   align-items: start;
   border-left: 4px solid #0CC6F1;
 }
@@ -10278,6 +10295,8 @@ body.pr-modal-open { overflow: hidden; }
 
 .pr-team-card__photo-wrap {
   flex-shrink: 0;
+  position: relative;
+  display: inline-block;
 }
 .pr-team-card__photo {
   width: 84px;
@@ -10285,10 +10304,19 @@ body.pr-modal-open { overflow: hidden; }
   border-radius: 50%;
   object-fit: cover;
   background: #F1EFE7;
+  /* Editorial grayscale by default, fades back to full colour on
+     parent card hover. Slight contrast bump + duotone cream tint while
+     desaturated so the photo doesn't look flat. */
+  filter: grayscale(100%) contrast(1.05);
+  transition: filter .4s ease, transform .4s cubic-bezier(.2,.7,.2,1);
+}
+.pr-team-card:hover .pr-team-card__photo {
+  filter: grayscale(0%) contrast(1);
+  transform: scale(1.03);
 }
 .pr-team-card--founder .pr-team-card__photo {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
 }
 
 .pr-team-card__body { display: flex; flex-direction: column; }
@@ -10663,8 +10691,34 @@ body.pr-modal-open { overflow: hidden; }
 .pr-team {
   padding: var(--pr-s-7) 0;
   border-top: 1px solid var(--pr-line);
+  /* Subtle dot-grid texture — small warm-grey dots on the cream
+     backdrop. Gives the section editorial depth without overpowering
+     the photos. */
+  background-image: radial-gradient(circle, rgba(13, 13, 13, 0.10) 1.1px, transparent 1.2px);
+  background-size: 22px 22px;
+  background-position: 0 0;
 }
 .pr-team .pr-about__container { max-width: 1100px; }
+
+/* =================================================================
+   DOT-GRID UTILITY — premium editorial background texture
+   - Cream variant (default): faint dark dots on the cream backdrop,
+     used on listicles + team section.
+   - Use `.pr-dot-bg` directly OR rely on the listicle/team-specific
+     selectors below which apply it implicitly.
+   ================================================================= */
+.pr-dot-bg,
+.pr-listicle-v2 {
+  background-color: var(--pr-cream);
+  background-image: radial-gradient(circle, rgba(13, 13, 13, 0.08) 1px, transparent 1.5px);
+  background-size: 24px 24px;
+  background-attachment: fixed;
+}
+/* The hero/banner area of a listicle already has its own dark BG, so
+   make the dots there even more subtle to preserve contrast. */
+.pr-listicle-v2__banner {
+  background-image: none;
+}
 
 /* =================================================================
    COMPARE — agency-vs-agency comparison pages (/compare/*)
