@@ -217,6 +217,7 @@ sources:
     title: "WebFX — about / team"
     url: "https://www.webfx.com/about/"
     accessed: "May 2026"
+featuredImage: "/images/compare-covers/piperocket-digital-vs-webfx.webp"
 ---
 
 ## Decision matrix — who fits which side

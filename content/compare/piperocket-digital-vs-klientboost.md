@@ -217,6 +217,7 @@ sources:
     title: "G2 — KlientBoost reviews"
     url: "https://www.g2.com/products/klientboost/reviews"
     accessed: "May 2026"
+featuredImage: "/images/compare-covers/piperocket-digital-vs-klientboost.webp"
 ---
 
 ## Decision matrix — who fits which side
