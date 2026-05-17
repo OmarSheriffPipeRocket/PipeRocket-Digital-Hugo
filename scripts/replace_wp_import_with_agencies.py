@@ -17,7 +17,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIST_DIR = os.path.join(ROOT, "content/list")
 STATIC_DIR = os.path.join(ROOT, "static/images/agencies")
 
-WP_RE = re.compile(r'/images/wp-import/[A-Za-z0-9_\-\.]+\.(?:webp|png|jpg|jpeg)', re.IGNORECASE)
+WP_RE = re.compile(
+    r'(?:/images/wp-import/|/wp-content/uploads/\d+/\d+/)'
+    r'[A-Za-z0-9_\-\.]+\.(?:webp|png|jpg|jpeg)',
+    re.IGNORECASE,
+)
 
 # Manual slug overrides — keyed by the auto-derived slug after stripping
 # leading "NN_" and trailing "-Homepage-NNNxNNN".
@@ -39,25 +43,11 @@ OVERRIDES = {
     "theseoworks": "the-seo-works",
     "lyfemarketing": "lyfe-marketing",
     "seer-hompage": "seer-interactive",  # legacy typo "Hompage"
+    # Captured-via-WebSearch slug-mismatch fixes.
+    "fintech-digtial": "fintech-digital",  # legacy typo "Digtial"
+    "thesocialshepard": "the-social-shepherd",  # legacy typo "Shepard"
     # Still need capture (no /images/agencies/ webp yet).
     "the-seo-works-geo-page": None,
-    "thesocialshepard": None,
-    "thrive-digital": None,
-    "campfire-labs": None,
-    "clearvoice": None,
-    "codeless": None,
-    "contentvisit": None,
-    "fintech-digtial": None,  # legacy typo
-    "fox-agency": None,
-    "high-voltage": None,
-    "inbound-fintech": None,
-    "megawatt": None,
-    "mint-studios": None,
-    "omnius": None,
-    "optimist": None,
-    "quoleady": None,
-    "bamboo": None,
-    "cstmr": None,
 }
 
 # Listicle banner filenames (NOT agency homepages). Anything matching

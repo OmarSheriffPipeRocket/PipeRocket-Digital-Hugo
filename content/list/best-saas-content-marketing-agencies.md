@@ -38,28 +38,28 @@ For the full process — every source we use, what disqualifies an agency, our c
 1. [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) – Best for B2B SaaS companies that need to see a direct line to revenue
 2. [Animalz](/images/agencies/animalz-home.webp) – Best for brands that want to be the voice of their industry through deep research
 3. [Growfusely](/images/agencies/growfusely-home.webp) – Best for companies that need to scale organic reach without losing brand voice
-4. [Quoleady](/images/wp-import/11_Quoleady-Homepage-1024x556.png) – Best for scaling a lead generation engine through product-led blog content
-5. [Campfire Labs](/images/wp-import/11_Campfire-Labs-Homepage-1024x556.png) – Best for turning customer success stories into actual narrative art
+4. [Quoleady](/images/agencies/quoleady-home.webp) – Best for scaling a lead generation engine through product-led blog content
+5. [Campfire Labs](/images/agencies/campfire-labs-home.webp) – Best for turning customer success stories into actual narrative art
 6. [Grow and Convert](/images/agencies/grow-and-convert-home.webp) – Best for finding silent buyers through Pain Point SEO
-7. [ClearVoice](/images/wp-import/11_ClearVoice-Homepage-1024x556.png) – Best for large enterprises that need a massive managed content engine
+7. [ClearVoice](/images/agencies/clearvoice-home.webp) – Best for large enterprises that need a massive managed content engine
 8. [Siege Media](/images/agencies/siege-media-home.webp) – Best for making content so good that other sites cannot help but link to it
-9. [ContentVisit](/images/wp-import/11_ContentVisit-Homepage-1024x556.png) – Best for early-stage SaaS founders who need to build first organic traction
-10. [Codeless](/images/wp-import/11_Codeless-Homepage-1024x556.png) – Best for companies that need high-volume editorial content that is accurate
-11. [Optimist](/images/wp-import/11_Optimist-Homepage-1024x556.png) – Best for brands that want a partner to build a self-sustaining organic growth engine
+9. [ContentVisit](/images/agencies/contentvisit-home.webp) – Best for early-stage SaaS founders who need to build first organic traction
+10. [Codeless](/images/agencies/codeless-home.webp) – Best for companies that need high-volume editorial content that is accurate
+11. [Optimist](/images/agencies/optimist-home.webp) – Best for brands that want a partner to build a self-sustaining organic growth engine
 
 | Agency | Score | Best For | Starting Price |
 | --- | --- | --- | --- |
 | [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) | 95 | Revenue-focused B2B SaaS content | Custom |
 | [Animalz](/images/agencies/animalz-home.webp) | 91 | Thought leadership and deep research | $15,000+/mo |
 | [Growfusely](/images/agencies/growfusely-home.webp) | 88 | Scalable SEO content with brand consistency | $5,000+/mo |
-| [Quoleady](/images/wp-import/11_Quoleady-Homepage-1024x556.png) | 86 | BOFU content and link building | $4,000+/mo |
-| [Campfire Labs](/images/wp-import/11_Campfire-Labs-Homepage-1024x556.png) | 85 | Narrative case studies and storytelling | $10,000+/mo |
+| [Quoleady](/images/agencies/quoleady-home.webp) | 86 | BOFU content and link building | $4,000+/mo |
+| [Campfire Labs](/images/agencies/campfire-labs-home.webp) | 85 | Narrative case studies and storytelling | $10,000+/mo |
 | [Grow and Convert](/images/agencies/grow-and-convert-home.webp) | 84 | Pain Point SEO and conversion content | $10,000+/mo |
-| [ClearVoice](/images/wp-import/11_ClearVoice-Homepage-1024x556.png) | 82 | High-volume enterprise content production | $8,000+/mo |
+| [ClearVoice](/images/agencies/clearvoice-home.webp) | 82 | High-volume enterprise content production | $8,000+/mo |
 | [Siege Media](/images/agencies/siege-media-home.webp) | 81 | Content design and link acquisition | $10,000+/mo |
-| [ContentVisit](/images/wp-import/11_ContentVisit-Homepage-1024x556.png) | 78 | Early-stage SaaS content foundations | $2,500+/mo |
-| [Codeless](/images/wp-import/11_Codeless-Homepage-1024x556.png) | 76 | High-volume accurate editorial content | $8,000+/mo |
-| [Optimist](/images/wp-import/11_Optimist-Homepage-1024x556.png) | 74 | Sustainable organic growth programs | $7,500+/mo |
+| [ContentVisit](/images/agencies/contentvisit-home.webp) | 78 | Early-stage SaaS content foundations | $2,500+/mo |
+| [Codeless](/images/agencies/codeless-home.webp) | 76 | High-volume accurate editorial content | $8,000+/mo |
+| [Optimist](/images/agencies/optimist-home.webp) | 74 | Sustainable organic growth programs | $7,500+/mo |
 
 ## The 11 Best SaaS Content Marketing Agencies in 2026
 
@@ -167,7 +167,7 @@ Pricing: $5,000+/mo – Competitive rates for combined SEO and content services 
 
 86
 
-![Quoleady](/images/wp-import/11_Quoleady-Homepage-1024x556.png)
+![Quoleady](/images/agencies/quoleady-home.webp)
 
 Strategic Depth 24/30 | Content Quality 22/25 | SEO Expertise 19/20 | Client Results 13/15 | SaaS Specialization 8/10
 
@@ -200,7 +200,7 @@ Pricing: $4,000+/mo – Strong value for BOFU content and link building combinat
 
 85
 
-![Campfire Labs](/images/wp-import/11_Campfire-Labs-Homepage-1024x556.png)
+![Campfire Labs](/images/agencies/campfire-labs-home.webp)
 
 Strategic Depth 24/30 | Content Quality 25/25 | SEO Expertise 15/20 | Client Results 12/15 | SaaS Specialization 9/10
 
@@ -268,7 +268,7 @@ Pricing: $10,000+/mo – Investment reflects deep customer research and strategi
 
 82
 
-![ClearVoice](/images/wp-import/11_ClearVoice-Homepage-1024x556.png)
+![ClearVoice](/images/agencies/clearvoice-home.webp)
 
 Strategic Depth 22/30 | Content Quality 21/25 | SEO Expertise 18/20 | Client Results 12/15 | SaaS Specialization 9/10
 
@@ -340,7 +340,7 @@ Pricing: $10,000+/mo – Premium reflects integrated content and design capabili
 
 78
 
-![ContentVisit](/images/wp-import/11_ContentVisit-Homepage-1024x556.png)
+![ContentVisit](/images/agencies/contentvisit-home.webp)
 
 Strategic Depth 21/30 | Content Quality 19/25 | SEO Expertise 17/20 | Client Results 12/15 | SaaS Specialization 9/10
 
@@ -375,7 +375,7 @@ Pricing: $2,500+/mo – Accessible pricing designed for startup budgets – Visi
 
 76
 
-![Codeless](/images/wp-import/11_Codeless-Homepage-1024x556.png)
+![Codeless](/images/agencies/codeless-home.webp)
 
 Strategic Depth 20/30 | Content Quality 22/25 | SEO Expertise 16/20 | Client Results 10/15 | SaaS Specialization 8/10
 
@@ -410,7 +410,7 @@ Pricing: $8,000+/mo – Reflects editorial infrastructure and quality control sy
 
 74
 
-![Optimist](/images/wp-import/11_Optimist-Homepage-1024x556.png)
+![Optimist](/images/agencies/optimist-home.webp)
 
 Strategic Depth 21/30 | Content Quality 19/25 | SEO Expertise 15/20 | Client Results 11/15 | SaaS Specialization 8/10
 

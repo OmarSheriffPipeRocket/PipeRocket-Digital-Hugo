@@ -90,6 +90,7 @@ ACCEPT_BUTTON_TEXTS = [
 URL_OVERRIDES = {
     "piperocket digital": "https://piperocket.digital",
     "piperocket": "https://piperocket.digital",
+    # Sourced from each agency's verified Clutch profile.
     "amsive": "https://www.amsive.com/",
     "grow and convert": "https://www.growandconvert.com/",
     "lyfe marketing": "https://www.lyfemarketing.com/",
@@ -101,6 +102,26 @@ URL_OVERRIDES = {
     "straight north": "https://www.straightnorth.com/",
     "stratabeat": "https://stratabeat.com",
     "mvpgrow": "https://mvpgrow.com/",
+    # Sourced via WebSearch (no Clutch profile linked in listicle text).
+    "sureoak": "https://sureoak.com/",
+    "cstmr": "https://cstmr.com/",
+    "inbound fintech": "https://www.inboundfintech.com",
+    "high voltage": "https://hvseo.co/",
+    "omnius": "https://www.omnius.so/",
+    "mint studios": "https://www.mintcopywritingstudios.com/",
+    "bamboo": "https://growwithbamboo.com/",
+    "fintech digital": "https://www.fintechdigital.com/",
+    "fox agency": "https://fox.agency/us/",
+    "campfire labs": "https://www.campfirelabs.co/",
+    "clearvoice": "https://www.clearvoice.com/",
+    "codeless": "https://codeless.io/",
+    "contentvisit": "https://www.contentvisit.com/",
+    "megawatt": "https://megawattcontent.com/",
+    "optimist": "https://www.yesoptimist.com/",
+    "quoleady": "https://www.quoleady.com/",
+    "the social shepherd": "https://thesocialshepherd.com/",
+    "thrive digital": "https://www.thrivedigital.com/",
+    "new north": "https://newnorth.com/",
 }
 
 # Review-site URLs to ignore when auto-detecting the brand homepage.

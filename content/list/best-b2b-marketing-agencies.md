@@ -37,7 +37,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 1. [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) – Best for revenue-obsessed B2B SaaS companies
 2. [Directive Consulting](/images/agencies/directive-consulting-home.webp) – Best for high-ACV SaaS with long sales cycles
-3. [New North](/wp-content/uploads/2025/11/New-North-Homepage-scaled.webp) – Best for lean teams needing agile execution
+3. [New North](/images/agencies/new-north-home.webp) – Best for lean teams needing agile execution
 4. [Ironpaper](/images/agencies/ironpaper-home.webp) – Best for data-driven funnel optimization
 5. [Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp) – Best for integrated paid media and CRO
 6. [Walker Sands](/images/agencies/walker-sands-home.webp) – Best for B2B tech PR and [demand generation](/blogs/b2b-demand-generation-guide/)
@@ -51,7 +51,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 | --- | --- | --- | --- |
 | [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) | 94 | Revenue-obsessed B2B SaaS | Custom |
 | [Directive Consulting](/images/agencies/directive-consulting-home.webp) | 91 | High-ACV SaaS optimization | Custom |
-| [New North](/wp-content/uploads/2025/11/New-North-Homepage-scaled.webp) | 88 | Agile multi-channel execution | Custom |
+| [New North](/images/agencies/new-north-home.webp) | 88 | Agile multi-channel execution | Custom |
 | [Ironpaper](/images/agencies/ironpaper-home.webp) | 86 | Funnel optimization | Custom |
 | [Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp) | 85 | Integrated paid media and CRO | $5,000/mo |
 | [Walker Sands](/images/agencies/walker-sands-home.webp) | 84 | B2B tech PR integration | Custom |
@@ -137,8 +137,6 @@ Pricing: Custom – Programs built around customer acquisition cost targets – 
 ![New North homepage screenshot — B2B marketing agency](/images/agencies/new-north-home.webp)
 
 88
-
-![New North](/wp-content/uploads/2025/11/New-North-Homepage-scaled.webp)
 
 Pipeline Impact 26/30 | Technical Expertise 22/25 | Client Retention 18/20 | Industry Specialization 13/15 | Transparency 9/10
 
