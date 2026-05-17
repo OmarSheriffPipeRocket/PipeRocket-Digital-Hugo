@@ -10691,34 +10691,9 @@ body.pr-modal-open { overflow: hidden; }
 .pr-team {
   padding: var(--pr-s-7) 0;
   border-top: 1px solid var(--pr-line);
-  /* Subtle dot-grid texture — small warm-grey dots on the cream
-     backdrop. Gives the section editorial depth without overpowering
-     the photos. */
-  background-image: radial-gradient(circle, rgba(13, 13, 13, 0.10) 1.1px, transparent 1.2px);
-  background-size: 22px 22px;
-  background-position: 0 0;
 }
 .pr-team .pr-about__container { max-width: 1100px; }
 
-/* =================================================================
-   DOT-GRID UTILITY — premium editorial background texture
-   - Cream variant (default): faint dark dots on the cream backdrop,
-     used on listicles + team section.
-   - Use `.pr-dot-bg` directly OR rely on the listicle/team-specific
-     selectors below which apply it implicitly.
-   ================================================================= */
-.pr-dot-bg,
-.pr-listicle-v2 {
-  background-color: var(--pr-cream);
-  background-image: radial-gradient(circle, rgba(13, 13, 13, 0.08) 1px, transparent 1.5px);
-  background-size: 24px 24px;
-  background-attachment: fixed;
-}
-/* The hero/banner area of a listicle already has its own dark BG, so
-   make the dots there even more subtle to preserve contrast. */
-.pr-listicle-v2__banner {
-  background-image: none;
-}
 
 /* =================================================================
    COMPARE — agency-vs-agency comparison pages (/compare/*)
