@@ -5,7 +5,13 @@
 
 /* ---------- Banner ---------- */
 .pr-blog-v2__banner {
-  background: #282828;
+  /* Solid charcoal base + subtle white dot-grid texture overlay. Matches
+     the listicle hero so compare/alternative/glossary/blog/methodology
+     all share the same premium-editorial look. */
+  background-color: #282828;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.12) 1.2px, transparent 1.5px);
+  background-size: 24px 24px;
+  background-position: 0 0;
   color: #fff;
   padding: 100px 0;
 }
@@ -98,6 +104,7 @@
   border-radius: 5px;
   object-fit: cover;
 }
+
 
 /* ---------- Body grid ---------- */
 /* Desktop-only: drop the container's left padding so the TOC card sits

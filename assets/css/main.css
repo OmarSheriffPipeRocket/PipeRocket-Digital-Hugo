@@ -7674,7 +7674,18 @@ body:has(.pr-blog-v2__banner) .pr-breadcrumbs,
 body:has(.pr-listicle-v2__banner) .pr-breadcrumbs {
   background: #282828;
   padding: 14px 0 10px;
-  margin-bottom: -1px; /* avoid hairline gap to banner */
+  margin-bottom: 0;
+}
+/* Some article wrappers (.pr-compare, .pr-alt, .pr-listicle, .pr-vs,
+   .pr-glossary) inherit a margin-top + vertical padding from their legacy
+   "section" rules. When the same wrapper hosts a dark banner as its first
+   child, that margin/padding shows the page's cream background as a visible
+   strip between breadcrumb and banner. Zero it out for any article carrying
+   the data-pr-blog-v2 marker so the dark hero sits flush against the dark
+   breadcrumb. */
+article[data-pr-blog-v2] {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 body:has(.pr-blog-v2__banner) .pr-breadcrumbs__list,
 body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__list {
