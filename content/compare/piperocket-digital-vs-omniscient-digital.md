@@ -210,6 +210,7 @@ sources:
     title: "Omniscient Digital — about / team"
     url: "https://beomniscient.com/about/"
     accessed: "May 2026"
+featuredImage: "/images/compare-covers/piperocket-digital-vs-omniscient-digital.webp"
 ---
 
 ## Decision matrix — who fits which side

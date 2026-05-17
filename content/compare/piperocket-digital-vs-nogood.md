@@ -213,6 +213,7 @@ sources:
     title: "TechCrunch — Verified Expert Growth Agency listing"
     url: "https://techcrunch.com/"
     accessed: "May 2026"
+featuredImage: "/images/compare-covers/piperocket-digital-vs-nogood.webp"
 ---
 
 ## Decision matrix — who fits which side

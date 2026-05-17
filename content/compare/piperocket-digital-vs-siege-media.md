@@ -214,6 +214,7 @@ sources:
     title: "Siege Media — case studies and client work"
     url: "https://www.siegemedia.com/case-studies"
     accessed: "May 2026"
+featuredImage: "/images/compare-covers/piperocket-digital-vs-siege-media.webp"
 ---
 
 ## Decision matrix — who fits which side
