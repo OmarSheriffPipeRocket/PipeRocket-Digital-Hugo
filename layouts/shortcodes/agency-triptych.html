@@ -1,0 +1,52 @@
+{{/* agency-triptych — renders a 2-3 image card row for an agency
+     (homepage, pricing-if-set, contact). Reads URLs from
+     data/agencies.toml keyed by the slug param. Screenshots must
+     exist at static/images/agencies/{slug}-{home,pricing,contact}.webp.
+     Caller: pass slug="<slug>" matching a key in agencies.toml. */}}
+{{- $slug := .Get "slug" -}}
+{{- $agency := index site.Data.agencies $slug -}}
+{{- if not $agency -}}
+<!-- agency-triptych: no entry in data/agencies.toml for slug={{ $slug }} -->
+{{- else -}}
+{{- $name := $agency.name -}}
+{{- $captured := .Get "captured" | default "May 2026" -}}
+{{- $cards := slice -}}
+{{- $cards = $cards | append (dict "label" "Homepage"
+    "url"     $agency.homepage
+    "suffix"  "home"
+    "altHint" "main site landing page") -}}
+{{- with $agency.pricing -}}
+  {{- $cards = $cards | append (dict "label" "Pricing"
+      "url"     .
+      "suffix"  "pricing"
+      "altHint" "service packages and plans") -}}
+{{- end -}}
+{{- with $agency.contact -}}
+  {{- $cards = $cards | append (dict "label" "Contact"
+      "url"     .
+      "suffix"  "contact"
+      "altHint" "get in touch / book a call") -}}
+{{- end -}}
+<div class="pr-agency-triptych" data-pr-slug="{{ $slug }}" data-pr-count="{{ len $cards }}">
+{{- range $cards }}
+  {{- $u := urls.Parse .url -}}
+  {{- $host := strings.TrimPrefix "www." $u.Host -}}
+  {{- $path := $u.Path -}}
+  {{- $display := cond (or (eq $path "/") (eq $path "")) $host (print $host $path) -}}
+  {{- $imgPath := printf "/images/agencies/%s-%s.webp" $slug .suffix }}
+  <figure class="pr-agency-card pr-agency-card--{{ .suffix }}">
+    <a href="{{ .url }}" target="_blank" rel="nofollow noopener" aria-label="Visit {{ $name }} {{ lower .label }}">
+      <img src="{{ $imgPath }}"
+           alt="{{ $name }} {{ lower .label }} screenshot — {{ .altHint }} captured {{ $captured }}"
+           loading="lazy"
+           width="640"
+           height="400">
+    </a>
+    <figcaption>
+      <strong>{{ .label }}</strong>
+      <span>Source: <a href="{{ .url }}" target="_blank" rel="nofollow noopener">{{ $display }}</a> · Captured {{ $captured }}</span>
+    </figcaption>
+  </figure>
+{{- end }}
+</div>
+{{- end -}}

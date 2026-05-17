@@ -7767,6 +7767,78 @@ img[src*="/images/agencies/"]:hover {
   }
 }
 
+/* Agency triptych — Home/Pricing/Contact card row produced by the
+   {{< agency-triptych >}} shortcode. Each card stacks an image and a
+   small "Source: domain · Captured Mon YYYY" caption underneath. The
+   row collapses 3 → 2 → 1 column as viewport narrows, and each card
+   overrides the default /images/agencies/ image style so three cards
+   fit comfortably side-by-side. */
+.pr-agency-triptych {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--pr-s-4, 1rem);
+  margin: var(--pr-s-5, 1.5rem) 0;
+}
+.pr-agency-card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.pr-agency-card a:first-child {
+  display: block;
+  line-height: 0;
+}
+.pr-agency-card img[src*="/images/agencies/"] {
+  /* Override the broad selector above so cards stay compact inside the row. */
+  margin: 0;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(13, 13, 13, 0.09);
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top center;
+}
+.pr-agency-card img[src*="/images/agencies/"]:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(13, 13, 13, 0.14);
+}
+.pr-agency-card figcaption {
+  margin-top: var(--pr-s-2, 0.5rem);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--pr-text-secondary, #5a5750);
+}
+.pr-agency-card figcaption strong {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--pr-text-primary, #1a1814);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 2px;
+}
+.pr-agency-card figcaption a {
+  color: inherit;
+  /* Override the listicle body's default link styling so the caption
+     reads as understated metadata, not a body link. */
+  border-bottom: none;
+  background: none;
+  text-decoration: underline;
+  text-decoration-color: var(--pr-line, #D9D5C9);
+  text-underline-offset: 2px;
+  word-break: break-word;
+}
+.pr-agency-card figcaption a:hover {
+  border-bottom: none;
+  text-decoration-color: currentColor;
+}
+@media (max-width: 640px) {
+  .pr-agency-triptych {
+    grid-template-columns: 1fr;
+    gap: var(--pr-s-5, 1.5rem);
+  }
+}
+
 /* "Why Trust Our Reviews" trust badge — chip + hover/focus methodology
    popover. Used inside the dark hero banner on listicle / compare /
    alternative pages to signal E-E-A-T (real methodology, not a sponsored
