@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "top-fintech-marketing-agencies"
 writtenBy: "praveen"
 category: "Fintech SEO"
-featuredImage: "/images/wp-import/Fintech-Marketing-Agencies-Homepage-1-1.png"
+featuredImage: "/images/listicle-covers/top-fintech-marketing-agencies.webp"
 wp_id: 2376
 wp_link: "/blogs/top-fintech-marketing-agencies/"
 toc: true

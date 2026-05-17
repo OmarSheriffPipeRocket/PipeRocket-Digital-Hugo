@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "best-b2b-seo-agencies-2"
 writtenBy: "kim"
 category: "B2B SEO"
-featuredImage: "/images/wp-import/B2B-SEO-Agencies.png"
+featuredImage: "/images/listicle-covers/best-b2b-seo-agencies-2.webp"
 wp_id: 1933
 wp_link: "/blogs/best-b2b-seo-agencies/"
 toc: true

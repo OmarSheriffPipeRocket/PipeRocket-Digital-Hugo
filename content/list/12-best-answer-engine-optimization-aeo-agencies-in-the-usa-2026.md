@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "12-best-answer-engine-optimization-aeo-agencies-in-the-usa-2026"
 writtenBy: "kim"
 category: "SEO"
-featuredImage: "/images/wp-import/aeo-geo-agencies-2026.webp"
+featuredImage: "/images/listicle-covers/12-best-answer-engine-optimization-aeo-agencies-in-the-usa-2026.webp"
 wp_id: 2914
 wp_link: "/list/best-aeo-agency/"
 toc: true

@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "best-b2b-google-ads-agencies"
 writtenBy: "kim"
 category: "B2B PPC"
-featuredImage: "/images/wp-import/B2B-Google-Ads-Agencies.webp"
+featuredImage: "/images/listicle-covers/best-b2b-google-ads-agencies.webp"
 wp_id: 1907
 wp_link: "/blogs/best-b2b-google-ads-agencies/"
 toc: true

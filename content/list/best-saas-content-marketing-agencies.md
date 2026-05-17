@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "best-saas-content-marketing-agencies"
 writtenBy: "kim"
 category: "SaaS Content Marketing"
-featuredImage: "/images/wp-import/Saas-Content-Marketing-Agencies-1.png"
+featuredImage: "/images/listicle-covers/best-saas-content-marketing-agencies.webp"
 wp_id: 2351
 wp_link: "/blogs/best-saas-content-marketing-agencies/"
 toc: true

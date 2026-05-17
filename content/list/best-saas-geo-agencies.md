@@ -9,7 +9,7 @@ lastmod: 2026-05-13
 slug: "best-saas-geo-agencies"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/SaaS-GEO-Agencies-Blog-Banner.webp"
+featuredImage: "/images/listicle-covers/best-saas-geo-agencies.webp"
 wp_id: 2819
 wp_link: "/blogs/best-saas-geo-agencies/"
 toc: true

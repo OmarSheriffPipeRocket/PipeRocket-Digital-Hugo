@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "best-saas-ppc-agencies"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/SaaS-PPC-Agencies-Banner-Image.webp"
+featuredImage: "/images/listicle-covers/best-saas-ppc-agencies.webp"
 wp_id: 2803
 wp_link: "/blogs/best-saas-ppc-agencies/"
 toc: true

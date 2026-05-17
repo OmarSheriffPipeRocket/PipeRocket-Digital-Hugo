@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "best-b2b-content-marketing-agencies"
 writtenBy: "kim"
 category: "B2B Content Marketing"
-featuredImage: "/images/wp-import/B2B-Content-Marketing-Agencies-Banner-Image.png"
+featuredImage: "/images/listicle-covers/best-b2b-content-marketing-agencies.webp"
 wp_id: 2318
 wp_link: "/blogs/best-b2b-content-marketing-agencies/"
 toc: true

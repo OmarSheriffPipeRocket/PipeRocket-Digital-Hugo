@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "top-performance-marketing-agencies"
 writtenBy: "praveen"
 category: "B2B PPC"
-featuredImage: "/images/wp-import/Performance-Marketing-Agencies.png"
+featuredImage: "/images/listicle-covers/top-performance-marketing-agencies.webp"
 wp_id: 1845
 wp_link: "/blogs/top-performance-marketing-agencies/"
 toc: true

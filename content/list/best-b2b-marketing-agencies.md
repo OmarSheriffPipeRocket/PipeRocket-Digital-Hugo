@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "best-b2b-marketing-agencies"
 writtenBy: "kim"
 category: "B2B Marketing"
-featuredImage: "/images/wp-import/B2B-Marketing-Agencies-1.png"
+featuredImage: "/images/listicle-covers/best-b2b-marketing-agencies.webp"
 wp_id: 1920
 wp_link: "/blogs/best-b2b-marketing-agencies/"
 toc: true

@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "top-fintech-seo-agencies"
 writtenBy: "kim"
 category: "Fintech SEO"
-featuredImage: "/images/wp-import/3.png"
+featuredImage: "/images/listicle-covers/top-fintech-seo-agencies.webp"
 wp_id: 2339
 wp_link: "/blogs/top-fintech-seo-agencies/"
 toc: true

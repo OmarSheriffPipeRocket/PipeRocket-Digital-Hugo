@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "best-geo-agencies"
 writtenBy: "kim"
 category: "SEO"
-featuredImage: "/images/wp-import/aeo-geo-agencies-2026.webp"
+featuredImage: "/images/listicle-covers/best-geo-agencies.webp"
 wp_id: 2917
 wp_link: "/list/best-geo-agency/"
 toc: true

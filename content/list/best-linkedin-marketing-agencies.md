@@ -9,7 +9,7 @@ writtenBy: "omar"
 reviewedBy: "praveen"
 category: "B2B LinkedIn Marketing"
 readingTime: "22 min read"
-featuredImage: "/images/figma/raw-040.jpg"
+featuredImage: "/images/listicle-covers/best-linkedin-marketing-agencies.webp"
 toc: true
 relatedLinks:
   - title: "Best SaaS SEO agencies"

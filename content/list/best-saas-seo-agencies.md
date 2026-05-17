@@ -9,7 +9,7 @@ lastmod: 2026-04-29
 slug: "best-saas-seo-agencies"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/SaaS-SEO-Agencies-Blog-Banner-Image.webp"
+featuredImage: "/images/listicle-covers/best-saas-seo-agencies.webp"
 wp_id: 1745
 wp_link: "/blogs/best-saas-seo-agencies/"
 toc: true

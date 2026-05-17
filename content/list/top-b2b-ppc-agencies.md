@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "top-b2b-ppc-agencies"
 writtenBy: "praveen"
 category: "B2B PPC"
-featuredImage: "/images/wp-import/B2B-PPC-Agencies-Banner-Image-1.png"
+featuredImage: "/images/listicle-covers/top-b2b-ppc-agencies.webp"
 wp_id: 1774
 wp_link: "/blogs/top-b2b-ppc-agencies/"
 toc: true

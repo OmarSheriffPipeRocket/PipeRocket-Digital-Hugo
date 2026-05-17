@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "best-edtech-marketing-agencies"
 writtenBy: "praveen"
 category: "Edtech Marketing"
-featuredImage: "/images/wp-import/B2B-Edtech-Marketing-Agencies.png"
+featuredImage: "/images/listicle-covers/best-edtech-marketing-agencies.webp"
 wp_id: 2330
 wp_link: "/blogs/best-edtech-marketing-agencies/"
 toc: true

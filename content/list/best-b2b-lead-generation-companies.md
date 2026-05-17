@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "best-b2b-lead-generation-companies"
 writtenBy: "praveen"
 category: "B2B Lead Generation"
-featuredImage: "/images/wp-import/B2B-Lead-Generation-Companies-Blog-Banner-1.png"
+featuredImage: "/images/listicle-covers/best-b2b-lead-generation-companies.webp"
 wp_id: 2390
 wp_link: "/blogs/best-b2b-lead-generation-companies/"
 toc: true

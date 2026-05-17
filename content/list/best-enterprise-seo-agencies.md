@@ -9,7 +9,7 @@ lastmod: 2026-05-12
 slug: "best-enterprise-seo-agencies"
 writtenBy: "kim"
 category: "Enterprise Marketing"
-featuredImage: "/images/wp-import/Enterprise-SEO-Agencies-Blog-Banner-Image.png"
+featuredImage: "/images/listicle-covers/best-enterprise-seo-agencies.webp"
 wp_id: 69
 wp_link: "/blogs/best-enterprise-seo-agencies/"
 toc: true
