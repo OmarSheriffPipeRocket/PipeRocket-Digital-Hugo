@@ -7784,10 +7784,6 @@ img[src*="/images/agencies/"]:hover {
   display: flex;
   flex-direction: column;
 }
-.pr-agency-card a:first-child {
-  display: block;
-  line-height: 0;
-}
 .pr-agency-card img[src*="/images/agencies/"] {
   /* Override the broad selector above so cards stay compact inside the row. */
   margin: 0;
