@@ -25,6 +25,8 @@ This guide is for B2B SaaS marketers, founders, and [SEO](/glossary/what-is-seo/
 - Strategy 7: Build a link acquisition system that earns authority at scale
 - Strategy 8: Measure organic search by pipeline contribution, not sessions or rankings
 
+![The 8-Step SaaS SEO Framework — set pipeline-tied goals, audit technical SEO, research keywords around ICP intent, build BOFU first, hub-and-spoke architecture, optimize for AI Overviews, earn links at scale, measure pipeline](/images/blog-infographics/saas-seo-framework-8-steps.svg)
+
 ## The Complete SaaS SEO Strategy Framework (8 Strategies)
 
 Most SaaS SEO guides tell you to do [keyword research](/glossary/what-is-keyword-research/), write content, and build links. That is the right set of activities in the wrong order with the wrong measurement framework underneath. The eight strategies in this guide are sequenced deliberately. You define what success looks like before you touch a keyword tool. You fix your technical foundation before you publish new content. You build BOFU before TOFU. You earn links through systems, not campaigns. And you measure every strategy against pipeline, not pageviews. Follow the sequence and each step makes the next one more effective.
@@ -154,6 +156,8 @@ The structure:
 - **Spokes (supporting articles):** ten to fifteen focused articles that go deep on each sub-topic within the cluster. Every spoke links back to the pillar. High-authority spokes that earn [backlinks](/glossary/what-is-a-backlink/) pass that equity through internal links to the pillar and to conversion pages
 
 The business result of this architecture is compounding authority. As the cluster earns links and engagement, every page in it benefits. Rankings for the pillar lift. Rankings for the spokes lift. Pages that were stuck on page two move to page one without any new content being published.
+
+![Hub-and-spoke content architecture: a central BOFU pillar page surrounded by ten spoke articles — comparisons, alternatives, pricing, use cases, integrations, templates, benchmarks, definitions, case studies. Every spoke links to the pillar and back.](/images/blog-infographics/hub-and-spoke-architecture.svg)
 
 How to build a cluster:
 
