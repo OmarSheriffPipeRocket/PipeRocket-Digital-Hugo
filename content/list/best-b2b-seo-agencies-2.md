@@ -69,7 +69,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-94
+
+{{< score 94 >}}
 
 Pipeline Impact 28/30 | B2B Specialization 24/25 | Technical SEO Depth 18/20 | Content Strategy 14/15 | Client Transparency 10/10
 
@@ -100,7 +101,7 @@ Pricing: $5,000-$15,000/mo – Tiered based on scope and growth targets – [Vis
 
 ### 2. Straight North
 
-91
+{{< score 91 >}}
 
 {{< agency-triptych slug="straight-north" name="Straight North" >}}
 Pipeline Impact 27/30 | B2B Specialization 23/25 | Technical SEO Depth 18/20 | Content Strategy 14/15 | Client Transparency 9/10
@@ -132,7 +133,7 @@ Pricing: Custom – Based on scope and organizational complexity – [Visit Stra
 
 ### 3. Directive Consulting
 
-89
+{{< score 89 >}}
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 Pipeline Impact 26/30 | B2B Specialization 22/25 | Technical SEO Depth 18/20 | Content Strategy 14/15 | Client Transparency 9/10
@@ -166,7 +167,7 @@ Pricing: $15,000-$50,000/mo – Enterprise engagements with dedicated teams – 
 
 ### 4. RevenueZen
 
-87
+{{< score 87 >}}
 
 {{< agency-triptych slug="revenuezen" name="RevenueZen" >}}
 Pipeline Impact 25/30 | B2B Specialization 22/25 | Technical SEO Depth 17/20 | Content Strategy 14/15 | Client Transparency 9/10
@@ -198,7 +199,7 @@ Pricing: Custom – Based on content scope and authority-building goals – [Vis
 
 ### 5. mvpGROW
 
-85
+{{< score 85 >}}
 
 {{< agency-triptych slug="mvpgrow" name="mvpGROW" >}}
 Pipeline Impact 24/30 | B2B Specialization 22/25 | Technical SEO Depth 17/20 | Content Strategy 13/15 | Client Transparency 9/10
@@ -230,7 +231,7 @@ Pricing: Custom – Flexible engagements designed for startup budgets – [Visit
 
 ### 6. Siege Media
 
-84
+{{< score 84 >}}
 
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
 Pipeline Impact 23/30 | B2B Specialization 21/25 | [Technical SEO](/glossary/what-is-technical-seo/) Depth 17/20 | Content Strategy 15/15 | Client Transparency 8/10
@@ -266,7 +267,8 @@ Pricing: $10,000-$30,000/mo – Premium content retainers with dedicated creativ
 
 
 {{< agency-triptych slug="kalungi" name="Kalungi" >}}
-82
+
+{{< score 82 >}}
 
 Pipeline Impact 23/30 | B2B Specialization 21/25 | Technical SEO Depth 16/20 | Content Strategy 13/15 | Client Transparency 9/10
 
@@ -299,7 +301,8 @@ Pricing: Custom – Performance-based and retainer options available – [Visit 
 
 
 {{< agency-triptych slug="omniscient-digital" name="Omniscient Digital" >}}
-80
+
+{{< score 80 >}}
 
 Pipeline Impact 22/30 | B2B Specialization 20/25 | Technical SEO Depth 16/20 | Content Strategy 14/15 | Client Transparency 8/10
 
@@ -334,7 +337,8 @@ Pricing: Custom – Strategy-led engagements with content production options –
 
 
 {{< agency-triptych slug="firstpagesage" name="FirstPageSage" >}}
-78
+
+{{< score 78 >}}
 
 {{< agency-triptych slug="first-page-sage" name="FirstPageSage" >}}
 Pipeline Impact 21/30 | B2B Specialization 20/25 | Technical SEO Depth 16/20 | Content Strategy 13/15 | Client Transparency 8/10
@@ -368,7 +372,8 @@ Pricing: Custom – Premium engagements for enterprise thought leadership – [V
 
 
 {{< agency-triptych slug="spacebar-collective" name="Spacebar Collective" >}}
-75
+
+{{< score 75 >}}
 
 Pipeline Impact 20/30 | B2B Specialization 19/25 | Technical SEO Depth 15/20 | Content Strategy 12/15 | Client Transparency 9/10
 
@@ -399,7 +404,7 @@ Pricing: Custom – Lean engagements designed for startup budgets – [Visit Spa
 
 ### 11. Stratabeat
 
-73
+{{< score 73 >}}
 
 {{< agency-triptych slug="stratabeat" name="Stratabeat" >}}
 Pipeline Impact 19/30 | B2B Specialization 18/25 | Technical SEO Depth 15/20 | Content Strategy 12/15 | Client Transparency 9/10

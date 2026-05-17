@@ -65,7 +65,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-95
+
+{{< score 95 >}}
 
 Revenue Attribution 29/30 | Channel Expertise 24/25 | Creative Testing 19/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
@@ -96,7 +97,7 @@ Pricing: $5,000-$15,000/mo – Scales based on channel mix and campaign complexi
 
 ### 2. The Social Shepherd
 
-88
+{{< score 88 >}}
 
 {{< agency-triptych slug="the-social-shepherd" name="The Social Shepherd" >}}
 Revenue Attribution 25/30 | Channel Expertise 23/25 | Creative Testing 19/20 | Reporting Transparency 13/15 | Client Retention 8/10
@@ -128,7 +129,7 @@ Pricing: Custom – Based on creative scope and media spend – Visit The Social
 
 ### 3. NoGood
 
-86
+{{< score 86 >}}
 
 {{< agency-triptych slug="nogood" name="NoGood" >}}
 Revenue Attribution 25/30 | Channel Expertise 22/25 | Creative Testing 18/20 | Reporting Transparency 13/15 | Client Retention 8/10
@@ -162,7 +163,7 @@ Pricing: Custom – Structured around growth sprints and experimentation velocit
 
 ### 4. Bamboo
 
-84
+{{< score 84 >}}
 
 {{< agency-triptych slug="bamboo" name="Bamboo" >}}
 Revenue Attribution 24/30 | Channel Expertise 21/25 | Creative Testing 18/20 | Reporting Transparency 13/15 | Client Retention 8/10
@@ -194,7 +195,7 @@ Pricing: Custom – Scales with user acquisition volume and retention program co
 
 ### 5. Disruptive Advertising
 
-82
+{{< score 82 >}}
 
 {{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
 Revenue Attribution 24/30 | Channel Expertise 21/25 | Creative Testing 17/20 | Reporting Transparency 12/15 | Client Retention 8/10
@@ -226,7 +227,7 @@ Pricing: Custom – Based on ad spend under management and CRO scope – Visit D
 
 ### 6. Ignite Visibility
 
-80
+{{< score 80 >}}
 
 {{< agency-triptych slug="ignite-visibility" name="Ignite Visibility" >}}
 Revenue Attribution 23/30 | Channel Expertise 20/25 | Creative Testing 17/20 | Reporting Transparency 12/15 | Client Retention 8/10
@@ -260,7 +261,7 @@ Pricing: Custom – Structured around channel count and integration complexity �
 
 ### 7. Tinuiti
 
-78
+{{< score 78 >}}
 
 {{< agency-triptych slug="tinuiti" name="Tinuiti" >}}
 Revenue Attribution 22/30 | Channel Expertise 20/25 | Creative Testing 16/20 | Reporting Transparency 12/15 | Client Retention 8/10
@@ -294,7 +295,7 @@ Pricing: Custom – Enterprise engagements based on scope and platform requireme
 
 ### 8. Directive Consulting
 
-76
+{{< score 76 >}}
 
 {{< agency-triptych slug="disruptive-advertising" name="Directive Consulting" >}}
 Revenue Attribution 22/30 | Channel Expertise 19/25 | Creative Testing 16/20 | Reporting Transparency 11/15 | Client Retention 8/10
@@ -330,7 +331,7 @@ Pricing: Custom – Based on pipeline targets and channel mix – Visit Directiv
 
 ### 9. Thrive Digital
 
-74
+{{< score 74 >}}
 
 {{< agency-triptych slug="thrive-digital" name="Thrive Digital" >}}
 Revenue Attribution 21/30 | Channel Expertise 19/25 | Creative Testing 15/20 | Reporting Transparency 11/15 | Client Retention 8/10

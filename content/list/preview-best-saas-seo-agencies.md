@@ -68,7 +68,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
-95
+
+{{< score 95 >}}
 
 Martech Industry Expertise 29/30 | Demand Generation & Pipeline Attribution 24/25 | Content & Thought Leadership 20/20 | Channel Coverage 14/15 | Client Reviews 8/10
 
@@ -103,7 +104,8 @@ Pricing: $5,000-$20,000/mo · Performance marketing retainer · [Visit Directive
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-92
+
+{{< score 92 >}}
 
 Martech Industry Expertise 27/30 | Demand Generation & Pipeline Attribution 24/25 | Content & Thought Leadership 19/20 | Channel Coverage 13/15 | Client Reviews 9/10
 
@@ -136,7 +138,8 @@ Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [G
 
 
 {{< agency-triptych slug="refine-labs" name="Refine Labs" >}}
-88
+
+{{< score 88 >}}
 
 Martech Industry Expertise 27/30 | Demand Generation & Pipeline Attribution 22/25 | Content & Thought Leadership 18/20 | Channel Coverage 12/15 | Client Reviews 9/10
 
@@ -169,7 +172,8 @@ Pricing: Custom · Demand creation and pipeline attribution retainer · [Visit R
 
 
 {{< agency-triptych slug="smartbug-media" name="SmartBug Media" >}}
-85
+
+{{< score 85 >}}
 
 Martech Industry Expertise 26/30 | Demand Generation & Pipeline Attribution 21/25 | Content & Thought Leadership 18/20 | Channel Coverage 11/15 | Client Reviews 9/10
 
@@ -202,7 +206,8 @@ Pricing: $4,000-$15,000/mo · HubSpot and inbound retainer · [Visit SmartBug Me
 
 
 {{< agency-triptych slug="42dm" name="42DM" >}}
-82
+
+{{< score 82 >}}
 
 Martech Industry Expertise 25/30 | Demand Generation & Pipeline Attribution 21/25 | Content & Thought Leadership 17/20 | Channel Coverage 11/15 | Client Reviews 8/10
 
@@ -235,7 +240,8 @@ Pricing: $5,000-$18,000/mo · Full-cycle demand generation retainer · [Visit 42
 
 
 {{< agency-triptych slug="ironpaper" name="Ironpaper" >}}
-79
+
+{{< score 79 >}}
 
 Martech Industry Expertise 24/30 | Demand Generation & Pipeline Attribution 20/25 | Content & Thought Leadership 17/20 | Channel Coverage 11/15 | Client Reviews 7/10
 
@@ -268,7 +274,8 @@ Pricing: $4,000-$12,000/mo · B2B growth and funnel retainer · [Visit Ironpaper
 
 
 {{< agency-triptych slug="new-breed" name="New Breed" >}}
-77
+
+{{< score 77 >}}
 
 Martech Industry Expertise 23/30 | Demand Generation & Pipeline Attribution 20/25 | Content & Thought Leadership 17/20 | Channel Coverage 11/15 | Client Reviews 6/10
 
@@ -301,7 +308,8 @@ Pricing: $4,000-$12,000/mo · RevOps and full-funnel retainer · [Visit New Bree
 
 
 {{< agency-triptych slug="metadata-io" name="Metadata.io" >}}
-75
+
+{{< score 75 >}}
 
 Martech Industry Expertise 23/30 | Demand Generation & Pipeline Attribution 19/25 | Content & Thought Leadership 16/20 | Channel Coverage 10/15 | Client Reviews 7/10
 
@@ -334,7 +342,8 @@ Pricing: $3,000-$10,000/mo · Automated demand generation platform + service · 
 
 
 {{< agency-triptych slug="powered-by-search" name="Powered by Search" >}}
-73
+
+{{< score 73 >}}
 
 Martech Industry Expertise 22/30 | Demand Generation & Pipeline Attribution 19/25 | Content & Thought Leadership 16/20 | Channel Coverage 10/15 | Client Reviews 6/10
 
@@ -367,7 +376,8 @@ Pricing: $5,000-$15,000/mo · B2B SaaS demand generation retainer · [Visit Powe
 
 
 {{< agency-triptych slug="kalungi" name="Kalungi" >}}
-71
+
+{{< score 71 >}}
 
 Martech Industry Expertise 21/30 | Demand Generation & Pipeline Attribution 19/25 | Content & Thought Leadership 15/20 | Channel Coverage 10/15 | Client Reviews 6/10
 
@@ -400,7 +410,8 @@ Pricing: $8,000-$20,000/mo · Fractional CMO and full marketing execution · [Vi
 
 
 {{< agency-triptych slug="cremarc" name="Cremarc" >}}
-69
+
+{{< score 69 >}}
 
 Martech Industry Expertise 20/30 | Demand Generation & Pipeline Attribution 17/25 | Content & Thought Leadership 15/20 | Channel Coverage 10/15 | Client Reviews 7/10
 

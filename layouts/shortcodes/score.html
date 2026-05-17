@@ -1,0 +1,11 @@
+{{/* score — renders an agency's overall score (0-100) as a prominent
+     editorial chip below the agency-triptych. Usage in markdown:
+       {{< score 95 >}}
+     The first positional argument is the score itself. */}}
+{{- $n := .Get 0 -}}
+{{- if $n -}}
+<div class="pr-agency-score" data-pr-score="{{ $n }}">
+  <span class="pr-agency-score__num">{{ $n }}</span><span class="pr-agency-score__suffix">/100</span>
+  <span class="pr-agency-score__label">PipeRocket Score</span>
+</div>
+{{- end -}}

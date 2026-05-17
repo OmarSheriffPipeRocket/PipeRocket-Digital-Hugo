@@ -69,7 +69,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-95
+
+{{< score 95 >}}
 
 Strategic Depth 29/30 | Content Quality 24/25 | SEO Expertise 19/20 | Client Results 14/15 | SaaS Specialization 9/10
 
@@ -100,7 +101,7 @@ Pricing: Custom – Engagements structured around your revenue goals and content
 
 ### 2. Animalz
 
-91
+{{< score 91 >}}
 
 {{< agency-triptych slug="animalz" name="Animalz" >}}
 Strategic Depth 27/30 | Content Quality 25/25 | SEO Expertise 18/20 | Client Results 13/15 | SaaS Specialization 8/10
@@ -132,7 +133,7 @@ Pricing: $15,000+/mo – Premium positioning reflects their focus on enterprise-
 
 ### 3. Growfusely
 
-88
+{{< score 88 >}}
 
 {{< agency-triptych slug="growfusely" name="Growfusely" >}}
 Strategic Depth 25/30 | Content Quality 22/25 | SEO Expertise 20/20 | Client Results 12/15 | SaaS Specialization 9/10
@@ -164,7 +165,7 @@ Pricing: $5,000+/mo – Competitive rates for combined SEO and content services 
 
 ### 4. Quoleady
 
-86
+{{< score 86 >}}
 
 {{< agency-triptych slug="quoleady" name="Quoleady" >}}
 Strategic Depth 24/30 | Content Quality 22/25 | SEO Expertise 19/20 | Client Results 13/15 | SaaS Specialization 8/10
@@ -196,7 +197,7 @@ Pricing: $4,000+/mo – Strong value for BOFU content and link building combinat
 
 ### 5. Campfire Labs
 
-85
+{{< score 85 >}}
 
 {{< agency-triptych slug="campfire-labs" name="Campfire Labs" >}}
 Strategic Depth 24/30 | Content Quality 25/25 | SEO Expertise 15/20 | Client Results 12/15 | SaaS Specialization 9/10
@@ -228,7 +229,7 @@ Pricing: $10,000+/mo – Premium reflects journalistic quality and deep intervie
 
 ### 6. Grow and Convert
 
-84
+{{< score 84 >}}
 
 {{< agency-triptych slug="grow-and-convert" name="Grow and Convert" >}}
 Strategic Depth 26/30 | Content Quality 21/25 | SEO Expertise 17/20 | Client Results 13/15 | SaaS Specialization 7/10
@@ -262,7 +263,7 @@ Pricing: $10,000+/mo – Investment reflects deep customer research and strategi
 
 ### 7. ClearVoice
 
-82
+{{< score 82 >}}
 
 {{< agency-triptych slug="clearvoice" name="ClearVoice" >}}
 Strategic Depth 22/30 | Content Quality 21/25 | SEO Expertise 18/20 | Client Results 12/15 | SaaS Specialization 9/10
@@ -296,7 +297,7 @@ Pricing: $8,000+/mo – Platform and managed services included in engagement –
 
 ### 8. Siege Media
 
-81
+{{< score 81 >}}
 
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
 Strategic Depth 22/30 | Content Quality 22/25 | SEO Expertise 18/20 | Client Results 11/15 | SaaS Specialization 8/10
@@ -332,7 +333,7 @@ Pricing: $10,000+/mo – Premium reflects integrated content and design capabili
 
 ### 9. ContentVisit
 
-78
+{{< score 78 >}}
 
 {{< agency-triptych slug="contentvisit" name="ContentVisit" >}}
 Strategic Depth 21/30 | Content Quality 19/25 | SEO Expertise 17/20 | Client Results 12/15 | SaaS Specialization 9/10
@@ -366,7 +367,7 @@ Pricing: $2,500+/mo – Accessible pricing designed for startup budgets – Visi
 
 ### 10. Codeless
 
-76
+{{< score 76 >}}
 
 {{< agency-triptych slug="codeless" name="Codeless" >}}
 Strategic Depth 20/30 | Content Quality 22/25 | SEO Expertise 16/20 | Client Results 10/15 | SaaS Specialization 8/10
@@ -400,7 +401,7 @@ Pricing: $8,000+/mo – Reflects editorial infrastructure and quality control sy
 
 ### 11. Optimist
 
-74
+{{< score 74 >}}
 
 {{< agency-triptych slug="optimist" name="Optimist" >}}
 Strategic Depth 21/30 | Content Quality 19/25 | SEO Expertise 15/20 | Client Results 11/15 | SaaS Specialization 8/10

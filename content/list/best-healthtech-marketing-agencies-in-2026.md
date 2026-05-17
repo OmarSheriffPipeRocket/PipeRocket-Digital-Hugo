@@ -69,7 +69,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="clarity-quest" name="Clarity Quest" >}}
-95
+
+{{< score 95 >}}
 
 HealthTech Market Expertise 29/30 | Demand Generation & Pipeline Attribution 24/25 | Content & Thought Leadership 20/20 | Channel Coverage 13/15 | Client Reviews 9/10
 
@@ -102,7 +103,8 @@ Pricing: Custom · Full-service health IT retainer — contact for scope · [Vis
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-92
+
+{{< score 92 >}}
 
 HealthTech Market Expertise 27/30 | Demand Generation & Pipeline Attribution 24/25 | Content & Thought Leadership 19/20 | Channel Coverage 13/15 | Client Reviews 9/10
 
@@ -135,7 +137,8 @@ Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [G
 
 
 {{< agency-triptych slug="nogood" name="NoGood" >}}
-88
+
+{{< score 88 >}}
 
 HealthTech Market Expertise 27/30 | Demand Generation & Pipeline Attribution 22/25 | Content & Thought Leadership 18/20 | Channel Coverage 12/15 | Client Reviews 9/10
 
@@ -174,7 +177,8 @@ Pricing: Custom · Growth-stage retainer — contact for scope · [Visit NoGood 
 
 
 {{< agency-triptych slug="insivia" name="Insivia" >}}
-85
+
+{{< score 85 >}}
 
 
 
@@ -232,7 +236,8 @@ Pricing: Custom · Contact for scope and retainer structure · [Visit Insivia �
 
 
 {{< agency-triptych slug="roketto" name="Roketto" >}}
-82
+
+{{< score 82 >}}
 
 
 
@@ -290,7 +295,8 @@ Pricing: Custom · Contact for inbound and GEO retainer scope · [Visit Roketto 
 
 
 {{< agency-triptych slug="avenue-z" name="Avenue Z" >}}
-79
+
+{{< score 79 >}}
 
 
 
@@ -362,7 +368,8 @@ Pricing: Custom · Integrated communications retainer — contact for scope · [
 
 
 {{< agency-triptych slug="healthlaunchpad" name="HealthLaunchpad" >}}
-77
+
+{{< score 77 >}}
 
 
 
@@ -420,7 +427,8 @@ Pricing: Custom · Startup-stage retainer — contact for scope · [Visit Health
 
 
 {{< agency-triptych slug="first-page-sage" name="First Page Sage" >}}
-75
+
+{{< score 75 >}}
 
 
 
@@ -492,7 +500,8 @@ Pricing: Custom · Content authority retainer — contact for scope · [Visit Fi
 
 
 {{< agency-triptych slug="cardinal-digital-marketing" name="Cardinal Digital Marketing" >}}
-73
+
+{{< score 73 >}}
 
 
 
@@ -550,7 +559,8 @@ Pricing: Custom · Healthcare performance marketing retainer — contact for sco
 
 
 {{< agency-triptych slug="real-chemistry" name="Real Chemistry" >}}
-71
+
+{{< score 71 >}}
 
 
 
@@ -622,7 +632,8 @@ Pricing: Custom · Enterprise retainer — contact for scope · [Visit Real Chem
 
 
 {{< agency-triptych slug="klick-health" name="Klick Health" >}}
-69
+
+{{< score 69 >}}
 
 
 

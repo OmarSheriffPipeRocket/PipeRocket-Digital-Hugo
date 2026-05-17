@@ -69,7 +69,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="draft-dev" name="Draft.dev" >}}
-95
+
+{{< score 95 >}}
 
 Developer Audience Expertise 29/30 | Technical Content Quality 24/25 | Demand Generation & Pipeline Attribution 19/20 | Channel Coverage 14/15 | Client Reviews 9/10
 
@@ -103,7 +104,8 @@ Pricing: From $7,000/mo · 3-month minimum · [Visit Draft.dev →](https://draf
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-92
+
+{{< score 92 >}}
 
 Developer Audience Expertise 27/30 | Technical Content Quality 23/25 | Demand Generation & Pipeline Attribution 20/20 | Channel Coverage 13/15 | Client Reviews 9/10
 
@@ -137,7 +139,8 @@ Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [G
 
 
 {{< agency-triptych slug="powered-by-search" name="Powered by Search" >}}
-88
+
+{{< score 88 >}}
 
 Developer Audience Expertise 27/30 | Technical Content Quality 22/25 | Demand Generation & Pipeline Attribution 18/20 | Channel Coverage 12/15 | Client Reviews 9/10
 
@@ -170,7 +173,8 @@ Pricing: Custom · Contact for scope and retainer structure · [Visit Powered by
 
 
 {{< agency-triptych slug="perceptric" name="Perceptric" >}}
-85
+
+{{< score 85 >}}
 
 Developer Audience Expertise 26/30 | Technical Content Quality 22/25 | Demand Generation & Pipeline Attribution 17/20 | Channel Coverage 12/15 | Client Reviews 8/10
 
@@ -204,7 +208,8 @@ Pricing: Custom · Contact for devtools retainer scope · [Visit Perceptric →]
 
 
 {{< agency-triptych slug="animalz" name="Animalz" >}}
-82
+
+{{< score 82 >}}
 
 Developer Audience Expertise 25/30 | Technical Content Quality 22/25 | Demand Generation & Pipeline Attribution 16/20 | Channel Coverage 11/15 | Client Reviews 8/10
 
@@ -237,7 +242,8 @@ Pricing: From $10,000/mo · Editorial retainer — contact for scope · [Visit A
 
 
 {{< agency-triptych slug="everydeveloper" name="EveryDeveloper" >}}
-79
+
+{{< score 79 >}}
 
 Developer Audience Expertise 25/30 | Technical Content Quality 20/25 | Demand Generation & Pipeline Attribution 15/20 | Channel Coverage 11/15 | Client Reviews 8/10
 
@@ -275,7 +281,8 @@ Pricing: Custom · Contact for scope and retainer structure · [Visit EveryDevel
 
 
 {{< agency-triptych slug="dev-spotlight" name="Dev Spotlight" >}}
-77
+
+{{< score 77 >}}
 
 Developer Audience Expertise 24/30 | Technical Content Quality 21/25 | Demand Generation & Pipeline Attribution 15/20 | Channel Coverage 10/15 | Client Reviews 7/10
 
@@ -309,7 +316,8 @@ Pricing: Custom · Project and retainer options available · [Visit Dev Spotligh
 
 
 {{< agency-triptych slug="growthspree" name="GrowthSpree" >}}
-75
+
+{{< score 75 >}}
 
 Developer Audience Expertise 23/30 | Technical Content Quality 19/25 | Demand Generation & Pipeline Attribution 16/20 | Channel Coverage 10/15 | Client Reviews 7/10
 
@@ -347,7 +355,8 @@ Pricing: Custom · Contact for growth-stage retainer scope · [Visit GrowthSpree
 
 
 {{< agency-triptych slug="hoopy" name="Hoopy" >}}
-73
+
+{{< score 73 >}}
 
 Developer Audience Expertise 23/30 | Technical Content Quality 20/25 | Demand Generation & Pipeline Attribution 13/20 | Channel Coverage 10/15 | Client Reviews 7/10
 
@@ -381,7 +390,8 @@ Pricing: Custom · DevRel and community retainer — contact for scope · [Visit
 
 
 {{< agency-triptych slug="refine-labs" name="Refine Labs" >}}
-71
+
+{{< score 71 >}}
 
 Developer Audience Expertise 21/30 | Technical Content Quality 18/25 | Demand Generation & Pipeline Attribution 16/20 | Channel Coverage 10/15 | Client Reviews 6/10
 
@@ -419,7 +429,8 @@ Pricing: Custom · Contact for retainer scope and pricing · [Visit Refine Labs 
 
 
 {{< agency-triptych slug="kalungi" name="Kalungi" >}}
-69
+
+{{< score 69 >}}
 
 Developer Audience Expertise 21/30 | Technical Content Quality 17/25 | Demand Generation & Pipeline Attribution 14/20 | Channel Coverage 10/15 | Client Reviews 7/10
 

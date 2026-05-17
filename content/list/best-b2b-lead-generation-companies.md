@@ -63,7 +63,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-94
+
+{{< score 94 >}}
 
 Lead Quality 28/30 | Channel Expertise 24/25 | Technology 19/20 | Industry Specialization 14/15 | Transparency 9/10
 
@@ -96,7 +97,8 @@ Pricing: Custom – Tailored to your funnel complexity and growth targets – [V
 
 
 {{< agency-triptych slug="cience" name="CIENCE" >}}
-88
+
+{{< score 88 >}}
 
 Lead Quality 25/30 | Channel Expertise 23/25 | Technology 19/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -129,7 +131,8 @@ Pricing: Custom – Contact for quote based on volume and channel requirements �
 
 
 {{< agency-triptych slug="belkins" name="Belkins" >}}
-87
+
+{{< score 87 >}}
 
 Lead Quality 26/30 | Channel Expertise 22/25 | Technology 18/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -162,7 +165,8 @@ Pricing: Custom – Contact for quote based on appointment volume targets – [V
 
 
 {{< agency-triptych slug="martal-group" name="Martal Group" >}}
-85
+
+{{< score 85 >}}
 
 Lead Quality 25/30 | Channel Expertise 21/25 | Technology 18/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -195,7 +199,8 @@ Pricing: Custom – Contact for quote based on sales support scope – [Visit Ma
 
 
 {{< agency-triptych slug="callbox" name="Callbox" >}}
-84
+
+{{< score 84 >}}
 
 Lead Quality 24/30 | Channel Expertise 21/25 | Technology 18/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -228,7 +233,8 @@ Pricing: Custom – Contact for quote based on geographic scope and account volu
 
 
 {{< agency-triptych slug="leadium" name="Leadium" >}}
-82
+
+{{< score 82 >}}
 
 Lead Quality 24/30 | Channel Expertise 20/25 | Technology 17/20 | Industry Specialization 12/15 | Transparency 9/10
 
@@ -265,7 +271,8 @@ Pricing: Custom – Contact for quote based on campaign scope and velocity requi
 
 
 {{< agency-triptych slug="salesroads" name="SalesRoads" >}}
-80
+
+{{< score 80 >}}
 
 Lead Quality 23/30 | Channel Expertise 20/25 | Technology 16/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -300,7 +307,8 @@ Pricing: Custom – Contact for quote based on industry vertical and outreach vo
 
 
 {{< agency-triptych slug="outreachbloom" name="OutreachBloom" >}}
-76
+
+{{< score 76 >}}
 
 Lead Quality 22/30 | Channel Expertise 18/25 | Technology 16/20 | Industry Specialization 11/15 | Transparency 9/10
 

@@ -69,7 +69,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
-95
+
+{{< score 95 >}}
 
 B2B Ad Expertise 29/30 | Pipeline Attribution 25/25 | Proven Results 20/20 | Transparency 13/15 | Pricing & Value 8/10
 
@@ -104,7 +105,8 @@ Pricing: $8,000–$20,000+/mo · Enterprise B2B SaaS retainers · [Visit Directi
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-92
+
+{{< score 92 >}}
 
 
 
@@ -162,7 +164,8 @@ Pricing: Flexible · Starts from $3,000/mo · Contact for tailored quote · [Wor
 
 
 {{< agency-triptych slug="klientboost" name="KlientBoost" >}}
-89
+
+{{< score 89 >}}
 
 
 
@@ -215,7 +218,8 @@ Pricing: $3,000–$10,000+/mo · Based on ad spend and scope · [Visit KlientBoo
 
 
 {{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
-86
+
+{{< score 86 >}}
 
 
 
@@ -266,7 +270,8 @@ Pricing: $5,000–$15,000+/mo · Based on ad spend and account complexity · [Vi
 
 
 {{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
-83
+
+{{< score 83 >}}
 
 
 
@@ -317,7 +322,8 @@ Pricing: Custom · Integrated retainer — contact for scope · [Visit Walker Sa
 
 
 {{< agency-triptych slug="the-mx-group" name="The Mx Group" >}}
-80
+
+{{< score 80 >}}
 
 
 
@@ -368,7 +374,8 @@ Pricing: Custom · Enterprise engagements — contact for scope · [Visit The Mx
 
 
 {{< agency-triptych slug="toprank-marketing" name="TopRank Marketing" >}}
-77
+
+{{< score 77 >}}
 
 
 
@@ -419,7 +426,8 @@ Pricing: Custom · Contact for integrated retainer pricing · [Visit TopRank Mar
 
 
 {{< agency-triptych slug="310-creative" name="310 Creative" >}}
-74
+
+{{< score 74 >}}
 
 
 
@@ -470,7 +478,8 @@ Pricing: Custom · Contact for retainer pricing · [Visit 310 Creative](https://
 
 
 {{< agency-triptych slug="b2linked" name="B2Linked" >}}
-71
+
+{{< score 71 >}}
 
 
 
@@ -521,7 +530,8 @@ Pricing: $3,000–$8,000+/mo · Based on LinkedIn ad spend and account complexit
 
 
 {{< agency-triptych slug="blend-b2b" name="Blend B2B" >}}
-68
+
+{{< score 68 >}}
 
 
 
@@ -572,7 +582,8 @@ Pricing: Custom · Contact for HubSpot-integrated retainer pricing · [Visit Ble
 
 
 {{< agency-triptych slug="sagefrog" name="SageFrog" >}}
-65
+
+{{< score 65 >}}
 
 
 

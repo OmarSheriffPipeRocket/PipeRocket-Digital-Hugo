@@ -78,7 +78,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. First Page Sage
 
 {{< agency-triptych slug="first-page-sage" name="First Page Sage" >}}
-92
+
+{{< score 92 >}}
 
 AI Visibility 22/25 | Client Results 22/25 | Technical 18/20 | Reviews 19/20 | Pricing 7/10
 
@@ -110,7 +111,8 @@ Pricing: Premium · Starts ~$10,000/month
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-91
+
+{{< score 91 >}}
 
 AI Visibility 24/25 | Client Results 22/25 | Technical 18/20 | Reviews 20/20 | Pricing 7/10
 
@@ -144,7 +146,8 @@ Pricing: Flexible · Early-stage from $1,500/mo · Enterprise from $6,000/mo · 
 ### 3. iPullRank
 
 {{< agency-triptych slug="ipullrank" name="iPullRank" >}}
-88
+
+{{< score 88 >}}
 
 AI Visibility 20/25 | Client Results 20/25 | Technical 15/20 | Reviews 18/20 | Pricing 8/10
 
@@ -173,7 +176,8 @@ Pricing: Premium · ~$10,000–$30,000/month
 ### 4. Omniscient Digital
 
 {{< agency-triptych slug="omniscient-digital" name="Omniscient Digital" >}}
-86
+
+{{< score 86 >}}
 
 AI Visibility 21/25 | Client Results 21/25 | Technical 17/20 | Reviews 18/20 | Pricing 8/10
 
@@ -205,7 +209,8 @@ Pricing: Mid–Premium · From $10,000–$15,000/month
 ### 5. Single Grain
 
 {{< agency-triptych slug="single-grain" name="Single Grain" >}}
-85
+
+{{< score 85 >}}
 
 
 
@@ -257,7 +262,8 @@ Pricing: Premium · From $10,000/month
 
 
 {{< agency-triptych slug="revenuezen" name="RevenueZen" >}}
-83
+
+{{< score 83 >}}
 
 
 
@@ -305,7 +311,8 @@ Pricing: Mid–Premium · Challenger $9,625/mo · Dominance $14,325/mo · Month-
 ### 7. Animalz
 
 {{< agency-triptych slug="animalz" name="Animalz" >}}
-81
+
+{{< score 81 >}}
 
 
 
@@ -352,7 +359,8 @@ Pricing: Premium · Starts ~$15,000/month
 ### 8. WebFX
 
 {{< agency-triptych slug="webfx" name="WebFX" >}}
-79
+
+{{< score 79 >}}
 
 
 
@@ -403,7 +411,8 @@ Pricing: Flexible · SEO from $2,500/month · Full-service $10,000–$30,000+/mo
 ### 9. NoGood
 
 {{< agency-triptych slug="nogood" name="NoGood" >}}
-77
+
+{{< score 77 >}}
 
 
 
@@ -454,7 +463,8 @@ Pricing: Premium · Estimated $15,000–$25,000/month
 ### 10. Siege Media
 
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
-75
+
+{{< score 75 >}}
 
 
 
@@ -505,7 +515,8 @@ Pricing: Mid–Premium · From $5,000/month
 ### 11. KlientBoost
 
 {{< agency-triptych slug="klientboost" name="KlientBoost" >}}
-73
+
+{{< score 73 >}}
 
 
 
@@ -555,7 +566,8 @@ Pricing: Mid-Range · ~$2,000–$8,000/month
 ### 12. SimpleTiger
 
 {{< agency-triptych slug="simpletiger" name="SimpleTiger" >}}
-71
+
+{{< score 71 >}}
 
 
 

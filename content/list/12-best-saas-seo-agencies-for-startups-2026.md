@@ -80,7 +80,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-93
+
+{{< score 93 >}}
 
 Pipeline Impact 28/30 | Startup Fit 25/25 | Content Quality 19/20 | AI Readiness 13/15 | Pricing 8/10
 
@@ -114,7 +115,8 @@ Pricing: Flexible · Startups from $1,500/mo · Growth from $3,500/mo · Enterpr
 
 
 {{< agency-triptych slug="grow-and-convert" name="Grow and Convert" >}}
-91
+
+{{< score 91 >}}
 
 Pipeline Impact 28/30 | Startup Fit 22/25 | Content Quality 20/20 | AI Readiness 12/15 | Pricing 9/10
 
@@ -142,7 +144,8 @@ Pricing: Mid-Premium · $9,000–$10,000/month · Month-to-month available
 ### 3. SimpleTiger
 
 {{< agency-triptych slug="simpletiger" name="SimpleTiger" >}}
-88
+
+{{< score 88 >}}
 
 Pipeline Impact 25/30 | Startup Fit 25/25 | Content Quality 18/20 | AI Readiness 11/15 | Pricing 9/10
 
@@ -171,7 +174,8 @@ Pricing: Mid-Range · $3,000–$8,000/month · Transparent, no hidden fees
 ### 4. Omniscient Digital
 
 {{< agency-triptych slug="omniscient-digital" name="Omniscient Digital" >}}
-87
+
+{{< score 87 >}}
 
 Pipeline Impact 26/30 | Startup Fit 20/25 | Content Quality 20/20 | AI Readiness 12/15 | Pricing 9/10
 
@@ -205,7 +209,8 @@ Pricing: Mid-Premium · From $10,000–$15,000/month
 
 
 {{< agency-triptych slug="embarque" name="Embarque" >}}
-84
+
+{{< score 84 >}}
 
 
 
@@ -252,7 +257,8 @@ Pricing: Entry · From $1,500–$4,000/month · No long-term contract
 ### 6. Animalz
 
 {{< agency-triptych slug="animalz" name="Animalz" >}}
-83
+
+{{< score 83 >}}
 
 
 
@@ -302,7 +308,8 @@ Pricing: Premium · Starts ~$15,000/month
 
 
 {{< agency-triptych slug="tripledart" name="TripleDart" >}}
-82
+
+{{< score 82 >}}
 
 
 
@@ -353,7 +360,8 @@ Pricing: Mid-Range · $5,000–$12,000/month
 
 
 {{< agency-triptych slug="revenuezen" name="RevenueZen" >}}
-81
+
+{{< score 81 >}}
 
 
 
@@ -401,7 +409,8 @@ Pricing: Mid-Premium · Challenger $9,625/mo · Dominance $14,325/mo · Month-to
 ### 9. Minuttia
 
 {{< agency-triptych slug="minuttia" name="Minuttia" >}}
-80
+
+{{< score 80 >}}
 
 
 
@@ -447,7 +456,8 @@ Pricing: Mid-Range · $3,000–$8,000/month
 ### 10. Breaking B2B
 
 {{< agency-triptych slug="breaking-b2b" name="Breaking B2B" >}}
-78
+
+{{< score 78 >}}
 
 
 
@@ -496,7 +506,8 @@ Pricing: Mid-Range · $3,000–$7,000/month
 
 
 {{< agency-triptych slug="skale" name="Skale" >}}
-77
+
+{{< score 77 >}}
 
 
 
@@ -543,7 +554,8 @@ Pricing: Mid-Premium · $5,000–$15,000/month (custom)
 ### 12. First Page Sage
 
 {{< agency-triptych slug="first-page-sage" name="First Page Sage" >}}
-76
+
+{{< score 76 >}}
 
 
 

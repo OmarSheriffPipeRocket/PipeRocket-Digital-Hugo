@@ -61,7 +61,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-96
+
+{{< score 96 >}}
 
 Revenue Attribution 29/30 | Edtech Sector Expertise 24/25 | Strategic Positioning 19/20 | Execution Quality 14/15 | Client Alignment 10/10
 
@@ -94,7 +95,8 @@ Pricing: $5,000-$15,000/mo – Scales based on scope and channel mix – [Visit 
 
 
 {{< agency-triptych slug="aspectus" name="Aspectus" >}}
-91
+
+{{< score 91 >}}
 
 Revenue Attribution 26/30 | Edtech Sector Expertise 24/25 | Strategic Positioning 19/20 | Execution Quality 13/15 | Client Alignment 9/10
 
@@ -127,7 +129,8 @@ Pricing: Custom – Tailored for enterprise engagements with global scope – [V
 
 
 {{< agency-triptych slug="the-rubicon-agency" name="The Rubicon Agency" >}}
-88
+
+{{< score 88 >}}
 
 Revenue Attribution 25/30 | Edtech Sector Expertise 23/25 | Strategic Positioning 18/20 | Execution Quality 13/15 | Client Alignment 9/10
 
@@ -160,7 +163,8 @@ Pricing: Custom – Structured for mid-market and enterprise B2B engagements –
 
 
 {{< agency-triptych slug="27zero" name="27Zero" >}}
-85
+
+{{< score 85 >}}
 
 Revenue Attribution 23/30 | Edtech Sector Expertise 23/25 | Strategic Positioning 18/20 | Execution Quality 12/15 | Client Alignment 9/10
 
@@ -193,7 +197,8 @@ Pricing: Custom – Structured for brand and strategy engagements – [Visit 27Z
 
 
 {{< agency-triptych slug="insivia" name="Insivia" >}}
-82
+
+{{< score 82 >}}
 
 Revenue Attribution 22/30 | Edtech Sector Expertise 21/25 | Strategic Positioning 17/20 | Execution Quality 13/15 | Client Alignment 9/10
 
@@ -226,7 +231,8 @@ Pricing: Custom – Scaled for growth-stage SaaS engagements – [Visit Insivia]
 
 
 {{< agency-triptych slug="native-digital" name="Native Digital" >}}
-78
+
+{{< score 78 >}}
 
 Revenue Attribution 20/30 | Edtech Sector Expertise 20/25 | Strategic Positioning 17/20 | Execution Quality 12/15 | Client Alignment 9/10
 
@@ -261,7 +267,8 @@ Pricing: Custom – Structured for brand and creative engagements – [Visit Nat
 
 
 {{< agency-triptych slug="saassy" name="Saassy" >}}
-74
+
+{{< score 74 >}}
 
 Revenue Attribution 19/30 | Edtech Sector Expertise 18/25 | Strategic Positioning 16/20 | Execution Quality 12/15 | Client Alignment 9/10
 

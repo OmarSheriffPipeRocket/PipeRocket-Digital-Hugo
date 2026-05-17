@@ -67,7 +67,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-94
+
+{{< score 94 >}}
 
 Revenue Impact 28/30 | Fintech Specialization 24/25 | Service Depth 18/20 | Client Results 14/15 | Pricing Transparency 10/10
 
@@ -98,7 +99,7 @@ Pricing: Custom – Engagement models aligned to revenue outcomes and business i
 
 ### 2. Fintech Digital
 
-91
+{{< score 91 >}}
 
 {{< agency-triptych slug="fintech-digital" name="Fintech Digital" >}}
 Revenue Impact 26/30 | Fintech Specialization 25/25 | Service Depth 18/20 | Client Results 13/15 | Pricing Transparency 9/10
@@ -130,7 +131,7 @@ Pricing: Custom – Project-based and retainer options for fintech companies –
 
 ### 3. CSTMR
 
-89
+{{< score 89 >}}
 
 {{< agency-triptych slug="cstmr" name="CSTMR" >}}
 Revenue Impact 25/30 | Fintech Specialization 23/25 | Service Depth 19/20 | Client Results 13/15 | Pricing Transparency 9/10
@@ -162,7 +163,7 @@ Pricing: $10,000-$200,000+ – Wide range based on project scope and strategic d
 
 ### 4. Walker Sands
 
-87
+{{< score 87 >}}
 
 {{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
 Revenue Impact 24/30 | Fintech Specialization 22/25 | Service Depth 19/20 | Client Results 13/15 | Pricing Transparency 9/10
@@ -194,7 +195,7 @@ Pricing: Custom – Retainer-based engagements for integrated PR and marketing p
 
 ### 5. Mint Studios
 
-85
+{{< score 85 >}}
 
 {{< agency-triptych slug="mint-studios" name="Mint Studios" >}}
 Revenue Impact 23/30 | Fintech Specialization 22/25 | Service Depth 18/20 | Client Results 13/15 | Pricing Transparency 9/10
@@ -226,7 +227,7 @@ Pricing: Custom – Project and retainer options for content marketing programs 
 
 ### 6. NinjaPromo
 
-83
+{{< score 83 >}}
 
 {{< agency-triptych slug="ninjapromo" name="NinjaPromo" >}}
 Revenue Impact 22/30 | Fintech Specialization 21/25 | Service Depth 18/20 | Client Results 13/15 | Pricing Transparency 9/10
@@ -258,7 +259,7 @@ Pricing: Custom – Flexible engagement models for social and influencer campaig
 
 ### 7. Siege Media
 
-81
+{{< score 81 >}}
 
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
 Revenue Impact 21/30 | Fintech Specialization 20/25 | Service Depth 18/20 | Client Results 13/15 | Pricing Transparency 9/10
@@ -292,7 +293,7 @@ Pricing: Custom – Project-based engagements for content and SEO programs – V
 
 ### 8. Growth Gorilla
 
-79
+{{< score 79 >}}
 
 {{< agency-triptych slug="growth-gorilla" name="Growth Gorilla" >}}
 Revenue Impact 21/30 | Fintech Specialization 20/25 | Service Depth 17/20 | Client Results 12/15 | Pricing Transparency 9/10
@@ -324,7 +325,7 @@ Pricing: Custom – Performance-focused engagements for growth-stage companies �
 
 ### 9. Fox Agency
 
-77
+{{< score 77 >}}
 
 {{< agency-triptych slug="fox-agency" name="Fox Agency" >}}
 Revenue Impact 20/30 | Fintech Specialization 19/25 | Service Depth 17/20 | Client Results 12/15 | Pricing Transparency 9/10
@@ -356,7 +357,7 @@ Pricing: Custom – Integrated program pricing for global B2B brands – Visit F
 
 ### 10. mvpGROW
 
-75
+{{< score 75 >}}
 
 {{< agency-triptych slug="mvpgrow" name="mvpGROW" >}}
 Revenue Impact 19/30 | Fintech Specialization 18/25 | Service Depth 17/20 | Client Results 12/15 | Pricing Transparency 9/10

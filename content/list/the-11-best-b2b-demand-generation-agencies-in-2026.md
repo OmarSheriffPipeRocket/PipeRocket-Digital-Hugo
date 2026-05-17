@@ -68,7 +68,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. Refine Labs
 
 {{< agency-triptych slug="refine-labs" name="Refine Labs" >}}
-94
+
+{{< score 94 >}}
 
 Demand Gen Specialization 29/30 | Pipeline Strategy 28/30 | Client Results 19/20 | ABM & Intent 9/10 | Reviews 9/10
 
@@ -97,7 +98,8 @@ Pricing: Custom · Contact for pricing
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-91
+
+{{< score 91 >}}
 
 Demand Gen Specialization 27/30 | Pipeline Strategy 28/30 | Client Results 18/20 | ABM & Intent 9/10 | Reviews 9/10
 
@@ -131,7 +133,8 @@ Pricing: Flexible · Starts from $5,000/mo · Contact for tailored quotes · [Ge
 
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
-88
+
+{{< score 88 >}}
 
 Demand Gen Specialization 27/30 | Pipeline Strategy 26/30 | Client Results 18/20 | ABM & Intent 8/10 | Reviews 9/10
 
@@ -166,7 +169,8 @@ Pricing: Custom · Typically $15,000/mo+ for full-service engagements · [Visit 
 
 
 {{< agency-triptych slug="intelligent-demand" name="Intelligent Demand" >}}
-85
+
+{{< score 85 >}}
 
 
 
@@ -217,7 +221,8 @@ Pricing: Custom · Enterprise retainer — contact for scope · [Visit Intellige
 
 
 {{< agency-triptych slug="smartbug-media" name="SmartBug Media" >}}
-82
+
+{{< score 82 >}}
 
 
 
@@ -268,7 +273,8 @@ Pricing: Custom · Mid-market retainer — contact for scope · [Visit SmartBug]
 
 
 {{< agency-triptych slug="ironpaper" name="Ironpaper" >}}
-79
+
+{{< score 79 >}}
 
 
 
@@ -319,7 +325,8 @@ Pricing: Custom · Contact for pricing · [Visit Ironpaper](https://www.ironpape
 
 
 {{< agency-triptych slug="heinz-marketing" name="Heinz Marketing" >}}
-77
+
+{{< score 77 >}}
 
 
 
@@ -370,7 +377,8 @@ Pricing: Custom · Contact for pricing · [Visit Heinz Marketing](https://www.he
 
 
 {{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
-75
+
+{{< score 75 >}}
 
 
 
@@ -421,7 +429,8 @@ Pricing: Custom · Full-service B2B retainer — contact for scope · [Visit Wal
 
 
 {{< agency-triptych slug="new-north" name="New North" >}}
-73
+
+{{< score 73 >}}
 
 
 
@@ -472,7 +481,8 @@ Pricing: $5,000 – $15,000/mo · Contact for tailored scope · [Visit New North
 
 
 {{< agency-triptych slug="hinge-marketing" name="Hinge Marketing" >}}
-71
+
+{{< score 71 >}}
 
 
 
@@ -523,7 +533,8 @@ Pricing: Custom · Contact for pricing · [Visit Hinge Marketing](https://hingem
 
 
 {{< agency-triptych slug="wpromote" name="Wpromote" >}}
-69
+
+{{< score 69 >}}
 
 
 

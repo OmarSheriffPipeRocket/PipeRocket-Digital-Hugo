@@ -68,7 +68,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. Directive Consulting
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
-95
+
+{{< score 95 >}}
 
 SaaS Growth Specialization 29/30 | Multi-Channel Execution 24/25 | Revenue & Pipeline Attribution 19/20 | ICP & Positioning Depth 14/15 | Client Reviews 9/10
 
@@ -108,7 +109,8 @@ Pricing: Custom · Starts from $8,000/month
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-92
+
+{{< score 92 >}}
 
 SaaS Growth Specialization 28/30 | Multi-Channel Execution 23/25 | Revenue & Pipeline Attribution 19/20 | ICP & Positioning Depth 13/15 | Client Reviews 9/10
 
@@ -149,7 +151,8 @@ Pricing: Flexible · Starts from $5,000/month · Contact for tailored quotes · 
 ### 3. NoGood
 
 {{< agency-triptych slug="nogood" name="NoGood" >}}
-88
+
+{{< score 88 >}}
 
 SaaS Growth Specialization 27/30 | Multi-Channel Execution 22/25 | Revenue & Pipeline Attribution 18/20 | ICP & Positioning Depth 12/15 | Client Reviews 9/10
 
@@ -190,7 +193,8 @@ Pricing: Custom · Contact for pricing
 ### 4. Kalungi
 
 {{< agency-triptych slug="kalungi" name="Kalungi" >}}
-85
+
+{{< score 85 >}}
 
 SaaS Growth Specialization 26/30 | Multi-Channel Execution 21/25 | Revenue & Pipeline Attribution 17/20 | ICP & Positioning Depth 12/15 | Client Reviews 9/10
 
@@ -229,7 +233,8 @@ Pricing: Custom · Contact for pricing
 ### 5. Refine Labs
 
 {{< agency-triptych slug="refine-labs" name="Refine Labs" >}}
-82
+
+{{< score 82 >}}
 
 SaaS Growth Specialization 25/30 | Multi-Channel Execution 20/25 | Revenue & Pipeline Attribution 17/20 | ICP & Positioning Depth 11/15 | Client Reviews 9/10
 
@@ -266,7 +271,8 @@ Pricing: Custom · Starts from $10,000/month
 ### 6. Single Grain
 
 {{< agency-triptych slug="single-grain" name="Single Grain" >}}
-79
+
+{{< score 79 >}}
 
 SaaS Growth Specialization 24/30 | Multi-Channel Execution 19/25 | Revenue & Pipeline Attribution 16/20 | ICP & Positioning Depth 11/15 | Client Reviews 9/10
 
@@ -306,7 +312,8 @@ Pricing: Mid-Range · Starts from $5,000/month
 
 
 {{< agency-triptych slug="skale" name="Skale" >}}
-77
+
+{{< score 77 >}}
 
 SaaS Growth Specialization 23/30 | Multi-Channel Execution 19/25 | Revenue & Pipeline Attribution 16/20 | ICP & Positioning Depth 10/15 | Client Reviews 9/10
 
@@ -342,7 +349,8 @@ Pricing: Mid-Range · Contact for pricing
 ### 8. Powered by Search
 
 {{< agency-triptych slug="powered-by-search" name="Powered by Search" >}}
-75
+
+{{< score 75 >}}
 
 SaaS Growth Specialization 23/30 | Multi-Channel Execution 18/25 | Revenue & Pipeline Attribution 15/20 | ICP & Positioning Depth 10/15 | Client Reviews 9/10
 
@@ -382,7 +390,8 @@ Pricing: Mid-Range · Contact for pricing
 ### 9. Omniscient Digital
 
 {{< agency-triptych slug="omniscient-digital" name="Omniscient Digital" >}}
-73
+
+{{< score 73 >}}
 
 SaaS Growth Specialization 22/30 | Multi-Channel Execution 18/25 | Revenue & Pipeline Attribution 14/20 | ICP & Positioning Depth 10/15 | Client Reviews 9/10
 
@@ -418,7 +427,8 @@ Pricing: Premium · From $10,000/month
 ### 10. SmartBug Media
 
 {{< agency-triptych slug="smartbug-media" name="SmartBug Media" >}}
-71
+
+{{< score 71 >}}
 
 SaaS Growth Specialization 21/30 | Multi-Channel Execution 17/25 | Revenue & Pipeline Attribution 14/20 | ICP & Positioning Depth 10/15 | Client Reviews 9/10
 
@@ -456,7 +466,8 @@ Pricing: Mid-Range · Contact for pricing
 
 
 {{< agency-triptych slug="inturact" name="Inturact" >}}
-69
+
+{{< score 69 >}}
 
 SaaS Growth Specialization 21/30 | Multi-Channel Execution 16/25 | Revenue & Pipeline Attribution 13/20 | ICP & Positioning Depth 10/15 | Client Reviews 9/10
 

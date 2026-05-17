@@ -69,7 +69,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-94
+
+{{< score 94 >}}
 
 Pipeline Impact 28/30 | Technical Expertise 24/25 | Client Retention 19/20 | Industry Specialization 14/15 | Transparency 9/10
 
@@ -100,7 +101,7 @@ Pricing: Custom – Engagement structured around pipeline outcomes and revenue g
 
 ### 2. Directive Consulting
 
-91
+{{< score 91 >}}
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 Pipeline Impact 27/30 | Technical Expertise 23/25 | Client Retention 18/20 | Industry Specialization 14/15 | Transparency 9/10
@@ -135,7 +136,8 @@ Pricing: Custom – Programs built around customer acquisition cost targets – 
 ### 3. New North
 
 {{< agency-triptych slug="new-north" name="New North" >}}
-88
+
+{{< score 88 >}}
 
 Pipeline Impact 26/30 | Technical Expertise 22/25 | Client Retention 18/20 | Industry Specialization 13/15 | Transparency 9/10
 
@@ -168,7 +170,8 @@ Pricing: Custom – Flexible engagement models based on scope and velocity requi
 
 
 {{< agency-triptych slug="ironpaper" name="Ironpaper" >}}
-86
+
+{{< score 86 >}}
 
 Pipeline Impact 25/30 | Technical Expertise 22/25 | Client Retention 17/20 | Industry Specialization 13/15 | Transparency 9/10
 
@@ -199,7 +202,7 @@ Pricing: Custom – Structured around funnel metrics and pipeline goals – [Vis
 
 ### 5. Disruptive Advertising
 
-85
+{{< score 85 >}}
 
 {{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
 Pipeline Impact 25/30 | Technical Expertise 21/25 | Client Retention 17/20 | Industry Specialization 13/15 | Transparency 9/10
@@ -231,7 +234,7 @@ Pricing: $5,000+/mo – Scales based on ad spend and optimization scope – [Vis
 
 ### 6. Walker Sands
 
-84
+{{< score 84 >}}
 
 {{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
 Pipeline Impact 24/30 | Technical Expertise 21/25 | Client Retention 17/20 | Industry Specialization 13/15 | Transparency 9/10
@@ -263,7 +266,7 @@ Pricing: Custom – Integrated programs priced based on scope and outcomes – [
 
 ### 7. Siege Media
 
-83
+{{< score 83 >}}
 
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
 Pipeline Impact 24/30 | Technical Expertise 21/25 | Client Retention 16/20 | Industry Specialization 13/15 | Transparency 9/10
@@ -299,7 +302,8 @@ Pricing: $10,000+/mo – Premium content production and link acquisition – [Vi
 
 
 {{< agency-triptych slug="velocity-partners" name="Velocity Partners" >}}
-81
+
+{{< score 81 >}}
 
 Pipeline Impact 23/30 | Technical Expertise 20/25 | Client Retention 16/20 | Industry Specialization 13/15 | Transparency 9/10
 
@@ -330,7 +334,7 @@ Pricing: Custom – Creative and content programs priced by scope – [Visit Vel
 
 ### 9. Straight North
 
-79
+{{< score 79 >}}
 
 {{< agency-triptych slug="straight-north" name="Straight North" >}}
 Pipeline Impact 22/30 | Technical Expertise 20/25 | Client Retention 16/20 | Industry Specialization 12/15 | Transparency 9/10
@@ -362,7 +366,7 @@ Pricing: $3,000+/mo – Structured programs for industrial B2B – [Visit Straig
 
 ### 10. Serpsculpt
 
-77
+{{< score 77 >}}
 
 {{< agency-triptych slug="serpsculpt" name="Serpsculpt" >}}
 Pipeline Impact 21/30 | Technical Expertise 20/25 | Client Retention 15/20 | Industry Specialization 12/15 | Transparency 9/10
@@ -394,7 +398,7 @@ Pricing: Custom – Diagnostic approach priced by site complexity – [Visit Ser
 
 ### 11. 310 Creative
 
-74
+{{< score 74 >}}
 
 {{< agency-triptych slug="310-creative" name="310 Creative" >}}
 Pipeline Impact 20/30 | Technical Expertise 19/25 | Client Retention 14/20 | Industry Specialization 12/15 | Transparency 9/10

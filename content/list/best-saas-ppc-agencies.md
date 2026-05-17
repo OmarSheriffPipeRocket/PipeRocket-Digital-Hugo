@@ -67,7 +67,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-94
+
+{{< score 94 >}}
 
 Pipeline Impact 28/30 | SaaS Expertise 24/25 | Attribution and Reporting 19/20 | Strategic Depth 14/15 | Client Retention 9/10
 
@@ -98,7 +99,7 @@ Pricing: Custom – Based on scope and monthly ad spend – [Visit PipeRocket Di
 
 ### 2. Directive Consulting
 
-91
+{{< score 91 >}}
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 Pipeline Impact 27/30 | SaaS Expertise 23/25 | Attribution and Reporting 18/20 | Strategic Depth 14/15 | Client Retention 9/10
@@ -132,7 +133,7 @@ Pricing: Custom – Based on scope and engagement level – [Visit Directive Con
 
 ### 3. Disruptive Advertising
 
-89
+{{< score 89 >}}
 
 {{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
 Pipeline Impact 26/30 | SaaS Expertise 22/25 | Attribution and Reporting 18/20 | Strategic Depth 14/15 | Client Retention 9/10
@@ -166,7 +167,8 @@ Pricing: Custom – Based on audit scope and management needs – [Visit Disrupt
 
 
 {{< agency-triptych slug="powered-by-search" name="Powered by Search" >}}
-87
+
+{{< score 87 >}}
 
 Pipeline Impact 25/30 | SaaS Expertise 23/25 | Attribution and Reporting 17/20 | Strategic Depth 13/15 | Client Retention 9/10
 
@@ -199,7 +201,8 @@ Pricing: Custom – Based on scope and growth stage – [Visit Powered by Search
 
 
 {{< agency-triptych slug="bounty-hunter" name="Bounty Hunter" >}}
-85
+
+{{< score 85 >}}
 
 Pipeline Impact 25/30 | SaaS Expertise 21/25 | Attribution and Reporting 17/20 | Strategic Depth 13/15 | Client Retention 9/10
 
@@ -230,7 +233,7 @@ Pricing: Custom – Based on campaign scope and pipeline goals – [Visit Bounty
 
 ### 6. KlientBoost
 
-83
+{{< score 83 >}}
 
 {{< agency-triptych slug="klientboost" name="KlientBoost" >}}
 Pipeline Impact 24/30 | SaaS Expertise 21/25 | Attribution and Reporting 16/20 | Strategic Depth 13/15 | Client Retention 9/10
@@ -264,7 +267,7 @@ Pricing: Custom – Based on channels and monthly spend – [Visit KlientBoost](
 
 ### 7. Single Grain
 
-81
+{{< score 81 >}}
 
 {{< agency-triptych slug="single-grain" name="Single Grain" >}}
 Pipeline Impact 23/30 | SaaS Expertise 21/25 | Attribution and Reporting 16/20 | Strategic Depth 12/15 | Client Retention 9/10
@@ -298,7 +301,8 @@ Pricing: Custom – Based on scope and optimization needs – [Visit Single Grai
 
 
 {{< agency-triptych slug="nogood" name="NoGood" >}}
-79
+
+{{< score 79 >}}
 
 Pipeline Impact 23/30 | SaaS Expertise 20/25 | Attribution and Reporting 15/20 | Strategic Depth 12/15 | Client Retention 9/10
 
@@ -331,7 +335,7 @@ Pricing: Custom – Based on scope and growth objectives – [Visit NoGood](http
 
 ### 9. Ninja Promo
 
-77
+{{< score 77 >}}
 
 {{< agency-triptych slug="ninjapromo" name="Ninja Promo" >}}
 Pipeline Impact 22/30 | SaaS Expertise 19/25 | Attribution and Reporting 15/20 | Strategic Depth 12/15 | Client Retention 9/10
@@ -363,7 +367,7 @@ Pricing: Custom – Based on platform mix and campaign volume – [Visit Ninja P
 
 ### 10. Kalungi
 
-75
+{{< score 75 >}}
 
 {{< agency-triptych slug="kalungi" name="Kalungi" >}}
 Pipeline Impact 21/30 | SaaS Expertise 19/25 | Attribution and Reporting 14/20 | Strategic Depth 12/15 | Client Retention 9/10

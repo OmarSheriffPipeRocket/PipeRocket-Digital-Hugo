@@ -73,7 +73,8 @@ Every Clutch link above goes to the agency’s verified review profile so you ca
 
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
-95
+
+{{< score 95 >}}
 
 SaaS Expertise 29/30 | Pipeline Attribution 25/25 | Proven Results 20/20 | Transparency 13/15 | Pricing & Value 8/10
 
@@ -108,7 +109,8 @@ Pricing: $8,000 to $20,000+/mo · Enterprise SaaS retainers · [Visit Directive 
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-92
+
+{{< score 92 >}}
 
 
 
@@ -166,7 +168,8 @@ Pricing: Flexible · Starts from $3,000/mo · [Work With Us →](/contact-us/?ut
 
 
 {{< agency-triptych slug="nogood" name="NoGood" >}}
-89
+
+{{< score 89 >}}
 
 
 
@@ -219,7 +222,8 @@ Pricing: $15,000 to $50,000+/mo · Growth squad retainers · [Visit NoGood →](
 
 
 {{< agency-triptych slug="kalungi" name="Kalungi" >}}
-86
+
+{{< score 86 >}}
 
 
 
@@ -270,7 +274,8 @@ Pricing: $10,000 to $25,000+/mo · Fractional CMO retainer · [Visit Kalungi →
 
 
 {{< agency-triptych slug="refine-labs" name="Refine Labs" >}}
-83
+
+{{< score 83 >}}
 
 
 
@@ -321,7 +326,8 @@ Pricing: $20,000 to $60,000+/mo · Demand generation retainer · [Visit Refine L
 
 
 {{< agency-triptych slug="klientboost" name="KlientBoost" >}}
-80
+
+{{< score 80 >}}
 
 
 
@@ -374,7 +380,8 @@ Pricing: $3,000 to $10,000+/mo · Based on ad spend and scope · [Visit KlientBo
 
 
 {{< agency-triptych slug="single-grain" name="Single Grain" >}}
-77
+
+{{< score 77 >}}
 
 
 
@@ -425,7 +432,8 @@ Pricing: $10,000 to $30,000+/mo · Multi-channel retainer · [Visit Single Grain
 
 
 {{< agency-triptych slug="simpletiger" name="SimpleTiger" >}}
-74
+
+{{< score 74 >}}
 
 
 
@@ -476,7 +484,8 @@ Pricing: $5,000 to $15,000+/mo · SEO retainer · [Visit SimpleTiger →](https:
 
 
 {{< agency-triptych slug="animalz" name="Animalz" >}}
-71
+
+{{< score 71 >}}
 
 
 
@@ -527,7 +536,8 @@ Pricing: $8,000 to $25,000+/mo · Editorial retainer · [Visit Animalz →](http
 
 
 {{< agency-triptych slug="first-page-sage" name="First Page Sage" >}}
-68
+
+{{< score 68 >}}
 
 
 
@@ -578,7 +588,8 @@ Pricing: $10,000 to $30,000+/mo · Thought leadership SEO retainer · [Visit Fir
 
 
 {{< agency-triptych slug="bay-leaf-digital" name="Bay Leaf Digital" >}}
-65
+
+{{< score 65 >}}
 
 
 

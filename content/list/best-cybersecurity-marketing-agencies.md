@@ -69,7 +69,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="beacon-digital" name="Beacon Digital" >}}
-95
+
+{{< score 95 >}}
 
 Cybersecurity Market Expertise 29/30 | Demand Generation & Pipeline Attribution 24/25 | Content & Thought Leadership 19/20 | Channel Coverage 14/15 | Client Reviews 9/10
 
@@ -103,7 +104,8 @@ Pricing: $5,000 to $15,000/mo · Full-service retainer · [Visit Beacon Digital 
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-92
+
+{{< score 92 >}}
 
 Cybersecurity Market Expertise 27/30 | Demand Generation & Pipeline Attribution 24/25 | Content & Thought Leadership 19/20 | Channel Coverage 13/15 | Client Reviews 9/10
 
@@ -137,7 +139,8 @@ Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [G
 
 
 {{< agency-triptych slug="cybertheory" name="CyberTheory" >}}
-85
+
+{{< score 85 >}}
 
 Cybersecurity Market Expertise 26/30 | Demand Generation & Pipeline Attribution 22/25 | Content & Thought Leadership 17/20 | Channel Coverage 12/15 | Client Reviews 8/10
 
@@ -170,7 +173,8 @@ Pricing: Custom · Mid-market and enterprise retainers — contact for scope · 
 
 
 {{< agency-triptych slug="cyberwhyze" name="CyberWhyze" >}}
-82
+
+{{< score 82 >}}
 
 Cybersecurity Market Expertise 25/30 | Demand Generation & Pipeline Attribution 21/25 | Content & Thought Leadership 17/20 | Channel Coverage 11/15 | Client Reviews 8/10
 
@@ -204,7 +208,8 @@ Pricing: Custom · Project and retainer models available — contact for scope �
 
 
 {{< agency-triptych slug="the-rubicon-agency" name="The Rubicon Agency" >}}
-79
+
+{{< score 79 >}}
 
 Cybersecurity Market Expertise 24/30 | Demand Generation & Pipeline Attribution 21/25 | Content & Thought Leadership 16/20 | Channel Coverage 11/15 | Client Reviews 7/10
 
@@ -244,7 +249,8 @@ Pricing: Custom · Mid-market to enterprise retainer — contact for scope · [V
 
 
 {{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
-77
+
+{{< score 77 >}}
 
 Cybersecurity Market Expertise 23/30 | Demand Generation & Pipeline Attribution 20/25 | Content & Thought Leadership 16/20 | Channel Coverage 11/15 | Client Reviews 7/10
 
@@ -277,7 +283,8 @@ Pricing: Custom · Full-service B2B retainer — contact for scope · [Visit Wal
 
 
 {{< agency-triptych slug="magnetude-consulting" name="Magnetude Consulting" >}}
-75
+
+{{< score 75 >}}
 
 Cybersecurity Market Expertise 23/30 | Demand Generation & Pipeline Attribution 19/25 | Content & Thought Leadership 15/20 | Channel Coverage 10/15 | Client Reviews 8/10
 
@@ -317,7 +324,8 @@ Pricing: $3,000–$10,000/mo · Flexible retainer and project models · [Visit M
 
 
 {{< agency-triptych slug="bay-leaf-digital" name="Bay Leaf Digital" >}}
-73
+
+{{< score 73 >}}
 
 Cybersecurity Market Expertise 22/30 | Demand Generation & Pipeline Attribution 19/25 | Content & Thought Leadership 15/20 | Channel Coverage 10/15 | Client Reviews 7/10
 
@@ -350,7 +358,8 @@ Pricing: $3,000–$8,000/mo · Growth-stage retainer — contact for scope · [V
 
 
 {{< agency-triptych slug="jumpfactor" name="Jumpfactor" >}}
-71
+
+{{< score 71 >}}
 
 Cybersecurity Market Expertise 22/30 | Demand Generation & Pipeline Attribution 18/25 | Content & Thought Leadership 14/20 | Channel Coverage 10/15 | Client Reviews 7/10
 
@@ -390,7 +399,8 @@ Pricing: $2,500–$8,000/mo · Retainer models for MSPs and cybersecurity firms 
 
 
 {{< agency-triptych slug="kalungi" name="Kalungi" >}}
-69
+
+{{< score 69 >}}
 
 Cybersecurity Market Expertise 21/30 | Demand Generation & Pipeline Attribution 17/25 | Content & Thought Leadership 14/20 | Channel Coverage 10/15 | Client Reviews 7/10
 

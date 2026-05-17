@@ -69,7 +69,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="onely" name="Onely" >}}
-95
+
+{{< score 95 >}}
 
 Technical Depth 30/30 | Proven Results 23/25 | B2B/SaaS Fit 18/20 | Transparency 14/15 | Pricing & Value 10/10
 
@@ -98,7 +99,8 @@ Pricing: Custom · Contact for project or retainer pricing · [Visit Onely](http
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-92
+
+{{< score 92 >}}
 
 Technical Depth 27/30 | Proven Results 23/25 | B2B/SaaS Fit 20/20 | Transparency 13/15 | Pricing & Value 9/10
 
@@ -132,7 +134,8 @@ Pricing: Flexible · Starts from $3,000/mo · Contact for tailored quote · [Get
 
 
 {{< agency-triptych slug="ipullrank" name="iPullRank" >}}
-89
+
+{{< score 89 >}}
 
 Technical Depth 28/30 | Proven Results 23/25 | B2B/SaaS Fit 17/20 | Transparency 12/15 | Pricing & Value 9/10
 
@@ -161,7 +164,8 @@ Pricing: Custom · Contact for retainer or project-based pricing · [Visit iPull
 
 
 {{< agency-triptych slug="victorious" name="Victorious" >}}
-86
+
+{{< score 86 >}}
 
 Technical Depth 26/30 | Proven Results 21/25 | B2B/SaaS Fit 17/20 | Transparency 13/15 | Pricing & Value 9/10
 
@@ -190,7 +194,8 @@ Pricing: $3,000–$10,000+/mo · Based on site complexity and scope · [Visit Vi
 
 
 {{< agency-triptych slug="ayima" name="Ayima" >}}
-83
+
+{{< score 83 >}}
 
 Technical Depth 27/30 | Proven Results 20/25 | B2B/SaaS Fit 16/20 | Transparency 12/15 | Pricing & Value 8/10
 
@@ -219,7 +224,8 @@ Pricing: Custom · Enterprise engagements — contact for scope-based pricing ·
 
 
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
-81
+
+{{< score 81 >}}
 
 Technical Depth 24/30 | Proven Results 21/25 | B2B/SaaS Fit 16/20 | Transparency 12/15 | Pricing & Value 8/10
 
@@ -254,7 +260,8 @@ Pricing: $5,000+/mo · Retainer-based, contact for custom scope · [Visit Siege 
 
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
-78
+
+{{< score 78 >}}
 
 
 
@@ -307,7 +314,8 @@ Pricing: $8,000–$20,000+/mo · Enterprise B2B SaaS engagements · [Visit Direc
 
 
 {{< agency-triptych slug="seer-interactive" name="Seer Interactive" >}}
-75
+
+{{< score 75 >}}
 
 
 
@@ -362,7 +370,8 @@ Pricing: Custom · Enterprise pricing — contact for scope · [Visit Seer Inter
 
 
 {{< agency-triptych slug="previsible" name="Previsible" >}}
-72
+
+{{< score 72 >}}
 
 
 
@@ -413,7 +422,8 @@ Pricing: Custom · Project and retainer-based — contact for scope · [Visit Pr
 
 
 {{< agency-triptych slug="linkgraph" name="LinkGraph" >}}
-69
+
+{{< score 69 >}}
 
 
 
@@ -464,7 +474,8 @@ Pricing: $1,500–$5,000+/mo · Varies by scope and service combination · [Visi
 
 
 {{< agency-triptych slug="webfx" name="WebFX" >}}
-66
+
+{{< score 66 >}}
 
 
 

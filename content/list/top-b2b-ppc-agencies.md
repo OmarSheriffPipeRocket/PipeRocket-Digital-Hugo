@@ -67,7 +67,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-96
+
+{{< score 96 >}}
 
 Pipeline Generation 29/30 | ICP Targeting Precision 24/25 | Revenue Attribution 19/20 | B2B Platform Expertise 15/15 | Client Retention 9/10
 
@@ -98,7 +99,7 @@ Pricing: Custom – Full-service pipeline generation for B2B SaaS – [Visit Pip
 
 ### 2. Single Grain
 
-91
+{{< score 91 >}}
 
 {{< agency-triptych slug="single-grain" name="Single Grain" >}}
 Pipeline Generation 27/30 | ICP Targeting Precision 23/25 | Revenue Attribution 18/20 | B2B Platform Expertise 14/15 | Client Retention 9/10
@@ -130,7 +131,7 @@ Pricing: Custom – Full-service digital marketing with AI-powered optimization 
 
 ### 3. WebFX
 
-89
+{{< score 89 >}}
 
 {{< agency-triptych slug="webfx" name="WebFX" >}}
 Pipeline Generation 26/30 | ICP Targeting Precision 22/25 | Revenue Attribution 18/20 | B2B Platform Expertise 14/15 | Client Retention 9/10
@@ -164,7 +165,7 @@ Pricing: Custom – Enterprise-scale omni-channel management with proprietary te
 
 ### 4. Directive Consulting
 
-87
+{{< score 87 >}}
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 Pipeline Generation 26/30 | ICP Targeting Precision 21/25 | Revenue Attribution 17/20 | B2B Platform Expertise 14/15 | Client Retention 9/10
@@ -198,7 +199,7 @@ Pricing: Custom – Enterprise pipeline generation with long-term partnership fo
 
 ### 5. Disruptive Advertising
 
-85
+{{< score 85 >}}
 
 {{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
 Pipeline Generation 25/30 | ICP Targeting Precision 21/25 | Revenue Attribution 17/20 | B2B Platform Expertise 13/15 | Client Retention 9/10
@@ -230,7 +231,7 @@ Pricing: Custom – Comprehensive PPC audits with ongoing optimization – [Visi
 
 ### 6. LYFE Marketing
 
-82
+{{< score 82 >}}
 
 {{< agency-triptych slug="lyfe-marketing" name="LYFE Marketing" >}}
 Pipeline Generation 24/30 | ICP Targeting Precision 20/25 | Revenue Attribution 16/20 | B2B Platform Expertise 13/15 | Client Retention 9/10
@@ -262,7 +263,7 @@ Pricing: Custom – Social media focused PPC for small business budgets – [Vis
 
 ### 7. KlientBoost
 
-80
+{{< score 80 >}}
 
 {{< agency-triptych slug="klientboost" name="KlientBoost" >}}
 Pipeline Generation 23/30 | ICP Targeting Precision 20/25 | Revenue Attribution 16/20 | B2B Platform Expertise 12/15 | Client Retention 9/10
@@ -296,7 +297,7 @@ Pricing: Custom – Growth Grid methodology with multi-channel management – [V
 
 ### 8. ProperExpression
 
-78
+{{< score 78 >}}
 
 {{< agency-triptych slug="properexpression" name="ProperExpression" >}}
 Pipeline Generation 23/30 | ICP Targeting Precision 19/25 | Revenue Attribution 15/20 | B2B Platform Expertise 12/15 | Client Retention 9/10
@@ -330,7 +331,7 @@ Pricing: Custom – Full-funnel PPC with RevOps infrastructure services – [Vis
 
 ### 9. NinjaPromo
 
-75
+{{< score 75 >}}
 
 {{< agency-triptych slug="ninjapromo" name="NinjaPromo" >}}
 Pipeline Generation 22/30 | ICP Targeting Precision 18/25 | Revenue Attribution 14/20 | B2B Platform Expertise 12/15 | Client Retention 9/10
@@ -362,7 +363,7 @@ Pricing: Custom – Multi-platform PPC with AI-assisted optimization – [Visit 
 
 ### 10. Grow and Convert
 
-73
+{{< score 73 >}}
 
 {{< agency-triptych slug="grow-and-convert" name="Grow and Convert" >}}
 Pipeline Generation 21/30 | ICP Targeting Precision 18/25 | Revenue Attribution 14/20 | B2B Platform Expertise 11/15 | Client Retention 9/10

@@ -67,7 +67,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. KlientBoost
 
-96
+{{< score 96 >}}
 
 {{< agency-triptych slug="klientboost" name="KlientBoost" >}}
 Pipeline Impact 29/30 | B2B Specialization 24/25 | Strategic Depth 19/20 | Reporting Transparency 14/15 | Client Retention 10/10
@@ -103,7 +103,8 @@ Pricing: $10,000-$25,000/mo – Based on ad spend and creative scope – [Visit 
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-94
+
+{{< score 94 >}}
 
 Pipeline Impact 28/30 | B2B Specialization 24/25 | Strategic Depth 19/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
@@ -134,7 +135,7 @@ Pricing: $5,000-$15,000/mo – Based on ad spend and integration complexity – 
 
 ### 3. Directive Consulting
 
-91
+{{< score 91 >}}
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 Pipeline Impact 27/30 | B2B Specialization 23/25 | Strategic Depth 18/20 | Reporting Transparency 14/15 | Client Retention 9/10
@@ -168,7 +169,7 @@ Pricing: $15,000-$40,000/mo – Based on enterprise scope and channels – [Visi
 
 ### 4. Single Grain
 
-89
+{{< score 89 >}}
 
 {{< agency-triptych slug="single-grain" name="Single Grain" >}}
 Pipeline Impact 26/30 | B2B Specialization 22/25 | Strategic Depth 18/20 | Reporting Transparency 14/15 | Client Retention 9/10
@@ -202,7 +203,8 @@ Pricing: $5,000-$20,000/mo – Based on scope and integration depth – [Visit S
 
 
 {{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
-87
+
+{{< score 87 >}}
 
 Pipeline Impact 25/30 | B2B Specialization 22/25 | Strategic Depth 17/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
@@ -235,7 +237,8 @@ Pricing: $3,000-$12,000/mo – Percentage of ad spend model – [Visit Disruptiv
 
 
 {{< agency-triptych slug="tinuiti" name="Tinuiti" >}}
-85
+
+{{< score 85 >}}
 
 ![Tinuiti]()
 
@@ -268,7 +271,7 @@ Pricing: Custom – Enterprise engagements based on scope and channels – [Visi
 
 ### 7. SimpleTiger
 
-83
+{{< score 83 >}}
 
 {{< agency-triptych slug="simpletiger" name="SimpleTiger" >}}
 Pipeline Impact 24/30 | B2B Specialization 21/25 | Strategic Depth 16/20 | Reporting Transparency 13/15 | Client Retention 9/10
@@ -304,7 +307,8 @@ Pricing: $4,000-$10,000/mo – Based on scope and integration depth – [Visit S
 
 
 {{< agency-triptych slug="wpromote" name="Wpromote" >}}
-81
+
+{{< score 81 >}}
 
 ![Wpromote]()
 
@@ -341,7 +345,8 @@ Pricing: $10,000-$30,000/mo – Based on scope and technology requirements – [
 
 
 {{< agency-triptych slug="closed-loop" name="Closed Loop" >}}
-77
+
+{{< score 77 >}}
 
 ![Closed Loop]()
 
@@ -376,7 +381,8 @@ Pricing: $6,000-$18,000/mo – Based on integration complexity – [Visit Closed
 
 
 {{< agency-triptych slug="ignite-visibility" name="Ignite Visibility" >}}
-75
+
+{{< score 75 >}}
 
 Pipeline Impact 22/30 | B2B Specialization 19/25 | Strategic Depth 14/20 | Reporting Transparency 11/15 | Client Retention 9/10
 
@@ -409,7 +415,8 @@ Pricing: $4,000-$15,000/mo – Based on services and scope – [Visit Ignite Vis
 
 
 {{< agency-triptych slug="power-digital" name="Power Digital" >}}
-73
+
+{{< score 73 >}}
 
 ![Power Digital]()
 

@@ -68,7 +68,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 
 {{< agency-triptych slug="userp" name="uSERP" >}}
-95
+
+{{< score 95 >}}
 
 Link Quality 30/30 | SaaS Specialisation 23/25 | Proven Results 20/20 | Transparency 14/15 | Pricing & Value 8/10
 
@@ -98,7 +99,8 @@ Pricing: $10,000+/mo · Premium retainer — contact for scope · [Visit uSERP](
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-92
+
+{{< score 92 >}}
 
 Link Quality 28/30 | SaaS Specialisation 24/25 | Proven Results 19/20 | Transparency 13/15 | Pricing & Value 8/10
 
@@ -132,7 +134,8 @@ Pricing: Custom retainer · Contact us for scope and fit assessment · [Work Wit
 
 
 {{< agency-triptych slug="above-apex" name="Above Apex" >}}
-89
+
+{{< score 89 >}}
 
 Link Quality 27/30 | SaaS Specialisation 25/25 | Proven Results 18/20 | Transparency 12/15 | Pricing & Value 7/10
 
@@ -161,7 +164,8 @@ Pricing: Custom · Contact for retainer pricing · [Visit Above Apex](https://ab
 
 
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
-86
+
+{{< score 86 >}}
 
 Link Quality 26/30 | SaaS Specialisation 21/25 | Proven Results 18/20 | Transparency 13/15 | Pricing & Value 8/10
 
@@ -197,7 +201,8 @@ Pricing: $5,000+/mo · Retainer-based, contact for scope · [Visit Siege Media](
 
 
 {{< agency-triptych slug="editorial-link" name="Editorial.Link" >}}
-83
+
+{{< score 83 >}}
 
 
 
@@ -249,7 +254,8 @@ Pricing: $2,500–$7,000+/mo · Based on placement volume and DR targets · [Vis
 
 
 {{< agency-triptych slug="loopex-digital" name="Loopex Digital" >}}
-81
+
+{{< score 81 >}}
 
 
 
@@ -300,7 +306,8 @@ Pricing: Hourly · $25–$49/hr · Contact for project estimates · [Visit Loope
 
 
 {{< agency-triptych slug="jeenam" name="Jeenam" >}}
-78
+
+{{< score 78 >}}
 
 
 
@@ -352,7 +359,8 @@ Pricing: Custom · Contact for retainer or per-link pricing · [Visit Jeenam](ht
 
 
 {{< agency-triptych slug="onelittleweb" name="OneLittleWeb" >}}
-75
+
+{{< score 75 >}}
 
 
 
@@ -404,7 +412,8 @@ Pricing: $1,500–$5,000+/mo · Based on volume and DR targets · [Visit OneLitt
 
 
 {{< agency-triptych slug="growfusely" name="Growfusely" >}}
-72
+
+{{< score 72 >}}
 
 
 
@@ -456,7 +465,8 @@ Pricing: Custom · Contact for content + link retainer pricing · [Visit Growfus
 
 
 {{< agency-triptych slug="victorious" name="Victorious" >}}
-69
+
+{{< score 69 >}}
 
 
 
