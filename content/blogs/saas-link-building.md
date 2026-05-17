@@ -41,9 +41,13 @@ A DR40 SaaS operations blog linking to your project management tool is worth mor
 
 According to Ahrefs research, pages ranking in position one have 3.8 times more [backlink](/glossary/what-is-a-backlink/ "Glossary: Backlink")s than pages in positions two through ten. But volume alone does not explain the gap — relevance of those links is what separates the pages that hold their rankings under algorithm updates from the ones that drop.
 
+![The 7-strategy SaaS link acquisition system plotted on an effort vs authority-payoff matrix: quick wins (fix link destinations, reclaim unlinked brand mentions, claim directories), flagship bets (original research and data studies, free tools and calculators), and the emerging 2026 priority — AI visibility links.](/images/blog-infographics/link-acquisition-system.svg)
+
 ## Strategy 1: Fix Which Pages You Are Building Links To
 
 Before you pitch a single journalist or send a single outreach email, audit where your saas backlinks are currently pointing and compare that against where your pipeline actually originates.
+
+![Typical SaaS link distribution (78% blog, 15% homepage, almost nothing to pricing or comparison pages) versus PipeRocket's recommended distribution (25% comparison, 22% pillar hubs, 18% alternatives, 15% free tools, 12% high-intent blog, 8% product/pricing/home). Stop building authority on pages that don't convert.](/images/blog-infographics/where-to-point-saas-links.svg)
 
 ### Find the pages with commercial value that are stuck on page two or three
 

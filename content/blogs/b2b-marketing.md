@@ -83,6 +83,8 @@ Once the deal is done, the real work starts. Adoption, onboarding, feature educa
 
 ## Key Characteristics of B2B Buyers
 
+![Buyer journey by stakeholder: three roles (CMO/marketing leader, end-user/practitioner, CFO/finance approver) mapped across four funnel stages (awareness, consideration, decision, retention) with the distinct pain points, evaluation criteria, and content each stakeholder needs at every stage.](/images/blog-infographics/buyer-journey-by-stakeholder.svg)
+
 B2B buyers don’t behave like everyday consumers. Their decisions take longer, involve more people, and depend heavily on internal alignment.
 
 Here’s what makes B2B buyers unique:
@@ -167,6 +169,8 @@ Each stage needs different content, messaging, and support.
 **Best channels:** Customer success email flows, in-app messages, webinars, and user groups.
 
 ## Core B2B Marketing Strategies
+
+![The B2B marketing channel mix: content marketing, account-based marketing (ABM), email and automation, thought leadership, events and webinars, paid media for B2B, and sales-marketing alignment — arranged around the B2B buyer with each channel's funnel-stage role labeled.](/images/blog-infographics/b2b-marketing-channel-mix.svg)
 
 Modern B2B marketing is really about three things: educating buyers, personalizing the experience, and distributing your message in the right places. The strategies below are the backbone of demand generation and predictable revenue.
 
@@ -329,6 +333,8 @@ Modern B2B buyers want autonomy. A [2025 Gartner survey](https://www.gartner.com
 This means brands must create transparent, self-guided journeys: interactive demos, ungated tours, on-demand webinars, and rich product pages. When buyers gather most of their information independently, content becomes the new “first salesperson.”
 
 ## Measuring Success in B2B Marketing
+
+![Pipeline-attributed B2B marketing dashboard mockup: five core metrics — pipeline contribution ($2.4M, ▲38% QoQ), lead quality (42% MQL→SQL conversion), win rate (31% SQL→closed-won), sales cycle duration (organic 42 days vs paid 68 days), and customer retention (94% gross, 118% NRR). Replaces vanity-metrics dashboards.](/images/blog-infographics/pipeline-attribution-dashboard.svg)
 
 B2B marketing is easiest to manage when you focus on the metrics that actually move revenue. Not every number matters. What you really want to know is:
 

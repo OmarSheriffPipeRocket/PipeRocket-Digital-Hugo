@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title-ick desc-ick" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+  <title id="title-ick">ICP → Keyword → Campaign Mapping — PipeRocket Digital</title>
+  <desc id="desc-ick">A three-column flow that B2B PPC programs must build before spending a dollar: ICP profile (industry, role, stage) drives keyword intent classification (awareness, consideration, decision), which drives the campaign structure (brand, competitor, non-brand) and the offer on each landing page.</desc>
+
+  <rect width="1200" height="720" fill="#F6F6F1"/>
+
+  <rect x="0" y="0" width="1200" height="110" fill="#282828"/>
+  <text x="50" y="48" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="2.4">PIPEROCKET DIGITAL · B2B PPC FOUNDATIONS</text>
+  <text x="50" y="85" fill="#ffffff" font-size="26" font-weight="700">ICP → Keyword → Campaign Mapping</text>
+  <rect x="0" y="110" width="1200" height="4" fill="#0BA6E2"/>
+  <text x="50" y="148" fill="#282828" font-size="14">The mapping every B2B PPC program needs before launching a single campaign.</text>
+
+  <!-- 3 column headers -->
+  <g transform="translate(50, 195)">
+    <rect width="350" height="60" rx="10" fill="#0BA6E2"/>
+    <text x="22" y="28" fill="rgba(255,255,255,0.8)" font-size="11" font-weight="700" letter-spacing="2">COLUMN 1</text>
+    <text x="22" y="48" fill="#ffffff" font-size="18" font-weight="700">Define ICP</text>
+  </g>
+  <g transform="translate(425, 195)">
+    <rect width="350" height="60" rx="10" fill="#0BA6E2"/>
+    <text x="22" y="28" fill="rgba(255,255,255,0.8)" font-size="11" font-weight="700" letter-spacing="2">COLUMN 2</text>
+    <text x="22" y="48" fill="#ffffff" font-size="18" font-weight="700">Classify Keyword Intent</text>
+  </g>
+  <g transform="translate(800, 195)">
+    <rect width="350" height="60" rx="10" fill="#0BA6E2"/>
+    <text x="22" y="28" fill="rgba(255,255,255,0.8)" font-size="11" font-weight="700" letter-spacing="2">COLUMN 3</text>
+    <text x="22" y="48" fill="#ffffff" font-size="18" font-weight="700">Build the Campaign</text>
+  </g>
+
+  <!-- Row 1 -->
+  <g transform="translate(50, 270)">
+    <rect width="350" height="120" rx="10" fill="#ffffff" stroke="#E8E8E8"/>
+    <text x="22" y="32" fill="#888" font-size="10" font-weight="700" letter-spacing="1.5">ICP A</text>
+    <text x="22" y="56" fill="#282828" font-size="15" font-weight="700">VP Marketing · Series B SaaS</text>
+    <text x="22" y="80" fill="#444" font-size="12">100-500 employees · $5M-$50M ARR</text>
+    <text x="22" y="100" fill="#444" font-size="12">Champion + 2-3 reviewers</text>
+  </g>
+  <!-- arrow -->
+  <g transform="translate(403, 320)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#282828" stroke-width="2"/>
+    <polygon points="15,-5 22,0 15,5" fill="#282828"/>
+  </g>
+  <g transform="translate(425, 270)">
+    <rect width="350" height="120" rx="10" fill="#ffffff" stroke="#E8E8E8"/>
+    <text x="22" y="32" fill="#888" font-size="10" font-weight="700" letter-spacing="1.5">DECISION-STAGE</text>
+    <text x="22" y="56" fill="#282828" font-size="15" font-weight="700">"[competitor] alternatives"</text>
+    <text x="22" y="78" fill="#282828" font-size="15" font-weight="700">"[competitor] pricing"</text>
+    <text x="22" y="100" fill="#666" font-size="12" font-style="italic">High-intent, evaluating now</text>
+  </g>
+  <g transform="translate(778, 320)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#282828" stroke-width="2"/>
+    <polygon points="15,-5 22,0 15,5" fill="#282828"/>
+  </g>
+  <g transform="translate(800, 270)">
+    <rect width="350" height="120" rx="10" fill="#282828"/>
+    <text x="22" y="32" fill="#0BA6E2" font-size="10" font-weight="700" letter-spacing="1.5">CAMPAIGN</text>
+    <text x="22" y="56" fill="#ffffff" font-size="15" font-weight="700">Competitor / Alts</text>
+    <text x="22" y="80" fill="rgba(255,255,255,0.85)" font-size="12">LP: comparison page</text>
+    <text x="22" y="100" fill="rgba(255,255,255,0.85)" font-size="12">Goal: demo request · CRM-attributed</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(50, 410)">
+    <rect width="350" height="120" rx="10" fill="#ffffff" stroke="#E8E8E8"/>
+    <text x="22" y="32" fill="#888" font-size="10" font-weight="700" letter-spacing="1.5">ICP B</text>
+    <text x="22" y="56" fill="#282828" font-size="15" font-weight="700">Director RevOps · Enterprise</text>
+    <text x="22" y="80" fill="#444" font-size="12">500-5,000 employees</text>
+    <text x="22" y="100" fill="#444" font-size="12">Buying committee of 5-8</text>
+  </g>
+  <g transform="translate(403, 460)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#282828" stroke-width="2"/>
+    <polygon points="15,-5 22,0 15,5" fill="#282828"/>
+  </g>
+  <g transform="translate(425, 410)">
+    <rect width="350" height="120" rx="10" fill="#ffffff" stroke="#E8E8E8"/>
+    <text x="22" y="32" fill="#888" font-size="10" font-weight="700" letter-spacing="1.5">CONSIDERATION-STAGE</text>
+    <text x="22" y="56" fill="#282828" font-size="15" font-weight="700">"best [category] software"</text>
+    <text x="22" y="78" fill="#282828" font-size="15" font-weight="700">"[category] for enterprise"</text>
+    <text x="22" y="100" fill="#666" font-size="12" font-style="italic">Researching, not yet ready to buy</text>
+  </g>
+  <g transform="translate(778, 460)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#282828" stroke-width="2"/>
+    <polygon points="15,-5 22,0 15,5" fill="#282828"/>
+  </g>
+  <g transform="translate(800, 410)">
+    <rect width="350" height="120" rx="10" fill="#0BA6E2"/>
+    <text x="22" y="32" fill="rgba(255,255,255,0.85)" font-size="10" font-weight="700" letter-spacing="1.5">CAMPAIGN</text>
+    <text x="22" y="56" fill="#ffffff" font-size="15" font-weight="700">Non-Brand / Category</text>
+    <text x="22" y="80" fill="rgba(255,255,255,0.95)" font-size="12">LP: solution-overview page</text>
+    <text x="22" y="100" fill="rgba(255,255,255,0.95)" font-size="12">Goal: report download → nurture</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(50, 550)">
+    <rect width="350" height="120" rx="10" fill="#ffffff" stroke="#E8E8E8"/>
+    <text x="22" y="32" fill="#888" font-size="10" font-weight="700" letter-spacing="1.5">ICP C</text>
+    <text x="22" y="56" fill="#282828" font-size="15" font-weight="700">Practitioner · Any size</text>
+    <text x="22" y="80" fill="#444" font-size="12">Self-serve · individual signup</text>
+    <text x="22" y="100" fill="#444" font-size="12">Wants to try before buying</text>
+  </g>
+  <g transform="translate(403, 600)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#282828" stroke-width="2"/>
+    <polygon points="15,-5 22,0 15,5" fill="#282828"/>
+  </g>
+  <g transform="translate(425, 550)">
+    <rect width="350" height="120" rx="10" fill="#ffffff" stroke="#E8E8E8"/>
+    <text x="22" y="32" fill="#888" font-size="10" font-weight="700" letter-spacing="1.5">BRANDED-STAGE</text>
+    <text x="22" y="56" fill="#282828" font-size="15" font-weight="700">"[your brand]"</text>
+    <text x="22" y="78" fill="#282828" font-size="15" font-weight="700">"[your brand] pricing"</text>
+    <text x="22" y="100" fill="#666" font-size="12" font-style="italic">Already convinced — protect the click</text>
+  </g>
+  <g transform="translate(778, 600)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#282828" stroke-width="2"/>
+    <polygon points="15,-5 22,0 15,5" fill="#282828"/>
+  </g>
+  <g transform="translate(800, 550)">
+    <rect width="350" height="120" rx="10" fill="#ffffff" stroke="#0BA6E2" stroke-width="2"/>
+    <text x="22" y="32" fill="#0BA6E2" font-size="10" font-weight="700" letter-spacing="1.5">CAMPAIGN</text>
+    <text x="22" y="56" fill="#282828" font-size="15" font-weight="700">Brand Defense</text>
+    <text x="22" y="80" fill="#444" font-size="12">LP: pricing or product page</text>
+    <text x="22" y="100" fill="#444" font-size="12">Goal: free trial · lowest CAC line item</text>
+  </g>
+
+  <text x="1150" y="698" fill="rgba(40,40,40,0.5)" font-size="11" text-anchor="end">piperocket.digital · ICP → Keyword → Campaign</text>
+</svg>

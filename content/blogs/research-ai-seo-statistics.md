@@ -225,6 +225,8 @@ Every stat you see with a copy button comes directly from that dataset. The indu
 
 These figures reflect the share of traffic across the 53 B2B SaaS brands we analyzed over 8 months — not industry-wide estimates.
 
+![AI vs Organic Traffic Volume across 53 B2B SaaS brands over 8 months: 91.3% of traffic from organic search, 8.7% from AI engines combined. Within AI referrals, ChatGPT 65.8%, Perplexity 24.6%, Gemini 5.4%, Copilot 3.1%, Claude 1.1%. ChatGPT and Perplexity together own 90.4% of AI traffic. Organic still drives 11x more visits than all AI engines combined.](/images/blog-infographics/ai-vs-organic-traffic-volume.svg)
+
 91.3%
 
 of all analyzed traffic from organic search

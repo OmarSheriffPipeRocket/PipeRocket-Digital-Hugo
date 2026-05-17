@@ -27,6 +27,8 @@ B2B PPC, or [pay-per-click](/glossary/what-is-ppc/) advertising for business-to-
 
 Unlike B2C PPC where a click can lead to an immediate purchase, b2b ppc is designed to generate qualified pipeline — demo requests, trial signups, and lead captures that feed a longer sales cycle. The challenge is that B2B buying involves multiple stakeholders, longer evaluation periods, and higher acquisition costs, which means campaigns must be built around pipeline quality rather than lead volume. Done correctly, b2b ppc connects ad spend directly to closed revenue.
 
+![The 6-step B2B PPC flow: 1) ICP mapping, 2) Map keywords to buyer intent, 3) Campaign structure aligned to sales cycle, 4) Ad copy by stakeholder, 5) Conversion-first landing pages, 6) Track pipeline contribution. Foundation → intent → structure → copy → conversion → revenue.](/images/blog-infographics/b2b-ppc-6-step-flow.svg)
+
 ## Step 1: Understand and Map Your ICP
 
 Before a single campaign goes live, you need to know exactly who you are trying to reach. This sounds obvious, but what we keep seeing is teams jumping straight into [keyword research](/glossary/what-is-keyword-research/) without first defining who their buyer actually is, what triggers them to search, and how they evaluate options.
@@ -46,6 +48,8 @@ Once you know who your buyer is, the next question is what they search for befor
 - At the decision stage, they search for specific tools, pricing, and alternatives to what they are already evaluating
 
 Mapping this out before you touch [keyword research](/glossary/what-is-keyword-research/) means you build campaigns that meet buyers where they actually are, rather than where you assume they are.
+
+![ICP → Keyword → Campaign mapping: three ICP profiles (VP Marketing at Series B SaaS, RevOps Director at Enterprise, Practitioner self-serve) feed three different intent classifications (decision-stage, consideration-stage, branded), which feed three different campaign structures (Competitor / Alts, Non-Brand Category, Brand Defense) — each with its own landing page and goal.](/images/blog-infographics/icp-keyword-campaign-mapping.svg)
 
 ### How Your ICP Makes Buying Decisions
 

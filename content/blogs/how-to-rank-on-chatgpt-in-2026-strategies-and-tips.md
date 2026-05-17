@@ -27,6 +27,8 @@ Let’s just talk through how to rank on ChatGPT based on our strategies.
 
 ## **How Do AI Search Engines Actually Work?**
 
+![How AI search engines actually work — the RAG pipeline: 1) User prompt (9-15 word conversational question), 2) Retrieval (engine queries Google/Bing index live), 3) Ranking and filtering (sources scored on entity strength, freshness, authority), 4) LLM generation (synthesises a direct answer with citations), 5) Answer output. Three intervention points are highlighted for SaaS teams.](/images/blog-infographics/how-ai-search-works.svg)
+
 ### **The machine isn’t just a database**
 
 AI search engines use something called RAG, which is [Retrieval-Augmented Generation](/glossary/what-is-rag/). By definition it means that the LLMS gives outputs by referencing authoritative external knowledge bases before generating responses, rather than relying solely on training data.
@@ -62,6 +64,8 @@ The system might be hallucinating, or the live data it’s pulling from might ha
 Marketers love new acronyms. Now they’re talking about Answer Engine Optimization (AEO) and [Generative Engine](/blogs/best-saas-geo-agencies/ "Best SaaS GEO Agencies") Optimization (GEO)like it’s this separate department. It’s not. We view it as just another layer of your [SaaS SEO](/blogs/saas-seo/). There is no fundamental difference between optimizing for a keyword and optimizing for a prompt.
 
 If you ignore your top-of-funnel content because you’re “only doing AI SEO,” you’re going to fail. You need that authoritative content across the whole funnel because that’s where the context comes from. The AI needs to see that you know what you’re talking about at every stage.
+
+![The 5-step ChatGPT SEO process: 1) Master basic SaaS SEO foundations first, 2) Mine ICP prompts from sales calls and support tickets, 3) Restructure content to answer those prompts directly with question-based H2s and TL;DR summaries, 4) Fix indexing and brand-entity visibility across G2/Capterra/LinkedIn/Wikipedia, 5) Execute at scale across ChatGPT, Perplexity, Gemini, Copilot, and Claude.](/images/blog-infographics/chatgpt-seo-5-step-process.svg)
 
 ## **Step 1: Master Basic SaaS SEO First**
 

@@ -37,6 +37,8 @@ A CMO searching “best project management software” and a developer searching
 
 What separates SaaS SEO from general [content marketing](/glossary/what-is-content-marketing/) is the pipeline intent behind every keyword decision. You’re not publishing to build an audience. You’re publishing to capture buyers who are actively researching a problem your product solves and routing them toward a conversion.
 
+![Anatomy of a SaaS SEO Program: four pillars — Content (BOFU/MOFU/TOFU + hub-and-spoke), Technical (crawl/index/speed/schema), Authority (digital PR, data studies, directories, integrations), and Measurement (organic SQLs, CAC, pipeline contribution) — all feeding one outcome: qualified pipeline.](/images/blog-infographics/anatomy-saas-seo-program.svg)
+
 **Did You Know?** Organic visitors convert to leads at 0.92% vs AI traffic’s 0.26%. That’s a 3.5X gap in favor of organic, right now in 2026. *According to [PipeRocket Digital’s State of SEO in the AI World 2026 report](/research/ai-seo-statistics/), based on data from 53 B2B SaaS clients over 8 months.*
 
 ## Why Does SEO Matter for B2B SaaS Companies?
@@ -157,6 +159,12 @@ ICP-first means every keyword passes a three-question filter before it gets on y
 - Is the searcher likely to be a qualified buyer and not a student or competitor?
 
 BOFU first means comparison pages, alternatives pages, and pricing content get built before [thought leadership](/glossary/what-is-thought-leadership/). A comparison page with 300 monthly visits at 15% conversion beats a trend article with 10,000 visits at 0.2%, every time.
+
+![BOFU-first content funnel: TOFU at the top (awareness, 0.2% CVR), MOFU in the middle (consideration, 3% CVR), and BOFU at the bottom (decision, 15%+ CVR). Build order goes bottom-up — BOFU first, then MOFU, then TOFU.](/images/blog-infographics/bofu-mofu-tofu-funnel.svg)
+
+A side-by-side view of the two operating models most SaaS teams oscillate between:
+
+![Pipeline Program vs Traffic Program comparison: traffic programs start with keyword volume tools, publish TOFU first, filter by volume, and report on sessions and rankings. Pipeline programs start with a CRM pipeline target, publish BOFU first, filter keywords by ICP pain and intent, and report on organic SQLs, CAC and pipeline contribution.](/images/blog-infographics/pipeline-vs-traffic-program.svg)
 
 **Did You Know?** Microsoft Copilot drives a 35% lead-to-SQL rate and 73.4% engagement despite holding just 3.1% of AI traffic share. *According to PipeRocket Digital’s State of SEO in the AI World 2026 report.*
 
