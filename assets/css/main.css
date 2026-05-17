@@ -7739,6 +7739,34 @@ body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__sep {
   .pr-breadcrumbs { display: none; }
 }
 
+/* Agency homepage screenshots — rendered inside listicle / compare / blog
+   article bodies. Auto-applies to any <img> sourced from /images/agencies/
+   so the same screenshot card works anywhere we drop the image, no class
+   needed on the markdown.  Visual: soft border + shadow, rounded corners,
+   subtle hover lift to hint "this is a thumbnail of a real site". */
+img[src*="/images/agencies/"] {
+  display: block;
+  width: 100%;
+  max-width: 880px;
+  height: auto;
+  margin: var(--pr-s-5) auto;
+  border: 1px solid var(--pr-line, #D9D5C9);
+  border-radius: 10px;
+  box-shadow: 0 8px 28px rgba(13, 13, 13, 0.10);
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+img[src*="/images/agencies/"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px rgba(13, 13, 13, 0.14);
+}
+@media (max-width: 768px) {
+  img[src*="/images/agencies/"] {
+    margin: var(--pr-s-4) auto;
+    border-radius: 8px;
+  }
+}
+
 /* "Why Trust Our Reviews" trust badge — chip + hover/focus methodology
    popover. Used inside the dark hero banner on listicle / compare /
    alternative pages to signal E-E-A-T (real methodology, not a sponsored
