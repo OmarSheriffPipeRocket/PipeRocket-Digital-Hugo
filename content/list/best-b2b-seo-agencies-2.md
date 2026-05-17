@@ -65,6 +65,9 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. PipeRocket Digital
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 94
 
 ![PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
@@ -267,6 +270,9 @@ Pricing: $10,000-$30,000/mo – Premium content retainers with dedicated creativ
 
 ### 7. Kalungi
 
+
+![Kalungi homepage screenshot — B2B marketing agency](/images/agencies/kalungi-home.webp)
+
 82
 
 ![Kalungi](/images/wp-import/10_Kalungi-Homepage-1024x579.webp)
@@ -299,6 +305,9 @@ Not ideal for: Companies with established marketing teams seeking specialized SE
 Pricing: Custom – Performance-based and retainer options available – [Visit Kalungi](https://www.featuredcustomers.com/vendor/kalungi)
 
 ### 8. Omniscient Digital
+
+
+![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
 
 80
 
@@ -335,6 +344,9 @@ Pricing: Custom – Strategy-led engagements with content production options –
 
 ### 9. FirstPageSage
 
+
+![FirstPageSage homepage screenshot — B2B marketing agency](/images/agencies/firstpagesage-home.webp)
+
 78
 
 ![FirstPageSage](/images/wp-import/10_FirstPageSage-Homepage-1024x580.webp)
@@ -367,6 +379,9 @@ Not ideal for: Companies with simple products or those needing high-volume conte
 Pricing: Custom – Premium engagements for enterprise thought leadership – [Visit FirstPageSage](https://firstpagesagereviews.com/)
 
 ### 10. Spacebar Collective
+
+
+![Spacebar Collective homepage screenshot — B2B marketing agency](/images/agencies/spacebar-collective-home.webp)
 
 75
 

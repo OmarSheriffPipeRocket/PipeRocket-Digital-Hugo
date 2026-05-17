@@ -104,6 +104,9 @@ Pricing: Premium · Starts ~$10,000/month
 
 ### 2. PipeRocket Digital
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 91
 
 AI Visibility 24/25 | Client Results 22/25 | Technical 18/20 | Reviews 20/20 | Pricing 7/10

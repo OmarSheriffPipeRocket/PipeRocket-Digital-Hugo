@@ -100,6 +100,9 @@ Pricing: $10,000-$25,000/mo – Based on ad spend and creative scope – [Visit 
 
 ### 2. PipeRocket Digital
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 94
 
 ![PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
@@ -201,6 +204,9 @@ Pricing: $5,000-$20,000/mo – Based on scope and integration depth – [Visit S
 
 ### 5. Disruptive Advertising
 
+
+![Disruptive Advertising homepage screenshot — B2B marketing agency](/images/agencies/disruptive-advertising-home.webp)
+
 87
 
 ![Disruptive Advertising](/images/wp-import/11_Disruptive-homepage-1024x556.webp)
@@ -233,6 +239,9 @@ Not ideal for: Enterprise accounts requiring complex multi-channel attribution s
 Pricing: $3,000-$12,000/mo – Percentage of ad spend model – [Visit Disruptive Advertising](https://www.google.com/url?q=https://disruptiveadvertising.com&sa=D&source=editors&ust=1778579157040367&usg=AOvVaw0JUsmwVlJlaOlFLOk_L2zf)
 
 ### 6. Tinuiti
+
+
+![Tinuiti homepage screenshot — B2B marketing agency](/images/agencies/tinuiti-home.webp)
 
 85
 
@@ -302,6 +311,9 @@ Pricing: $4,000-$10,000/mo – Based on scope and integration depth – [Visit S
 
 ### 8. Wpromote
 
+
+![Wpromote homepage screenshot — B2B marketing agency](/images/agencies/wpromote-home.webp)
+
 81
 
 ![Wpromote]()
@@ -337,6 +349,9 @@ Pricing: $10,000-$30,000/mo – Based on scope and technology requirements – [
 
 ### 9. Closed Loop
 
+
+![Closed Loop homepage screenshot — B2B marketing agency](/images/agencies/closed-loop-home.webp)
+
 77
 
 ![Closed Loop]()
@@ -370,6 +385,9 @@ Pricing: $6,000-$18,000/mo – Based on integration complexity – [Visit Closed
 
 ### 9. Ignite Visibility
 
+
+![Ignite Visibility homepage screenshot — B2B marketing agency](/images/agencies/ignite-visibility-home.webp)
+
 75
 
 ![Ignite Visibility](/images/wp-import/11_Ignite-Visibility-Homepage-1024x579.png)
@@ -402,6 +420,9 @@ Not ideal for: Companies wanting specialized, paid-search-only expertise.
 Pricing: $4,000-$15,000/mo – Based on services and scope – [Visit Ignite Visibility](https://www.google.com/url?q=https://ignitevisibility.com&sa=D&source=editors&ust=1778579157069240&usg=AOvVaw32oJtmyF9tlp3BI9NyCJmr)
 
 ### 9. Power Digital
+
+
+![Power Digital homepage screenshot — B2B marketing agency](/images/agencies/power-digital-home.webp)
 
 73
 

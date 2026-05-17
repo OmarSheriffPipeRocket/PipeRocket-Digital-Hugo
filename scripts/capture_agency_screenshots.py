@@ -102,7 +102,36 @@ SKIP_URL_HOSTS = (
     "/contact-us/",  # internal contact link
 )
 
-H3_PATTERN = re.compile(r"^### \d+\.\s+(.+?)\s*$", re.MULTILINE)
+# Tolerate bold wrappers around the heading rank, brand, or whole thing:
+#   ### 1. Brand Name
+#   ### **1. Brand Name**
+#   ### **1.** Brand Name
+#   ### 1. **Brand Name**
+H3_PATTERN = re.compile(r"^###\s+\**\d+\.\**\s*\**(.+?)\**\s*$", re.MULTILINE)
+
+
+def clean_brand_name(raw: str) -> str:
+    """Strip markdown link wrappers and "Best for:" suffixes from a raw
+    heading capture so we get just the brand name.
+
+        "[Kalungi](/blogs/best-saas-seo-agencies/#kalungi) – Best for: ..."
+            → "Kalungi"
+        "PipeRocket Digital"
+            → "PipeRocket Digital"
+        "**Beacon Digital**"
+            → "Beacon Digital"
+    """
+    s = raw.strip()
+    # Strip leading/trailing bold markers
+    s = re.sub(r"^\*+\s*|\s*\*+$", "", s)
+    # If it's a markdown link, grab the link text
+    m = re.match(r"\[([^\]]+)\]\([^)]+\)(.*)$", s)
+    if m:
+        s = m.group(1).strip()
+    # Drop anything after a separator (em-dash, en-dash, colon, " - Best", " – Best")
+    s = re.split(r"\s*[–—:]\s*|\s+-\s+", s, maxsplit=1)[0]
+    # Final cleanup
+    return s.strip(" *")
 LINK_PATTERN = re.compile(r"\[([^\]]+)\]\((https?://[^\s)]+)\)")
 
 
@@ -251,7 +280,7 @@ def process_listicle(md_path: str, browser_context, force: bool = False) -> None
 
     sections = []
     for i, m in enumerate(h3_matches):
-        name = m.group(1).strip()
+        name = clean_brand_name(m.group(1))
         body_start = m.end()
         body_end = h3_matches[i + 1].start() if i + 1 < len(h3_matches) else len(content)
         sections.append(

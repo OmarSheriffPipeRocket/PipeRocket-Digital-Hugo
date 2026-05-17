@@ -74,6 +74,9 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. PipeRocket Digital
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 93
 
 Pipeline Impact 28/30 | Startup Fit 25/25 | Content Quality 19/20 | AI Readiness 13/15 | Pricing 8/10

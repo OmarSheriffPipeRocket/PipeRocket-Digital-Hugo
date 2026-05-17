@@ -91,6 +91,9 @@ Pricing: Custom · Contact for pricing
 
 ### 2. PipeRocket Digital
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 91
 
 Demand Gen Specialization 27/30 | Pipeline Strategy 28/30 | Client Results 18/20 | ABM & Intent 9/10 | Reviews 9/10
@@ -122,6 +125,9 @@ Not ideal for: B2C brands, e-commerce companies, or teams that want standalone l
 Pricing: Flexible · Starts from $5,000/mo · Contact for tailored quotes · [Get Free Demand Gen Audit](/contact-us/?utm_source=best-b2b-demand-generation-agencies&utm_medium=free-audit)
 
 ### 3. Directive Consulting
+
+
+![Directive Consulting homepage screenshot — B2B marketing agency](/images/agencies/directive-consulting-home.webp)
 
 88
 
@@ -155,6 +161,9 @@ Pricing: Custom · Typically $15,000/mo+ for full-service engagements · [Visit 
 ### 4. Intelligent Demand
 
 
+
+
+![Intelligent Demand homepage screenshot — B2B marketing agency](/images/agencies/intelligent-demand-home.webp)
 
 85
 
@@ -205,6 +214,9 @@ Pricing: Custom · Enterprise retainer — contact for scope · [Visit Intellige
 
 
 
+
+![SmartBug Media homepage screenshot — B2B marketing agency](/images/agencies/smartbug-media-home.webp)
+
 82
 
 
@@ -253,6 +265,9 @@ Pricing: Custom · Mid-market retainer — contact for scope · [Visit SmartBug]
 ### 6. Ironpaper
 
 
+
+
+![Ironpaper homepage screenshot — B2B marketing agency](/images/agencies/ironpaper-home.webp)
 
 79
 
@@ -303,6 +318,9 @@ Pricing: Custom · Contact for pricing · [Visit Ironpaper](https://www.ironpape
 
 
 
+
+![Heinz Marketing homepage screenshot — B2B marketing agency](/images/agencies/heinz-marketing-home.webp)
+
 77
 
 
@@ -351,6 +369,9 @@ Pricing: Custom · Contact for pricing · [Visit Heinz Marketing](https://www.he
 ### 8. Walker Sands
 
 
+
+
+![Walker Sands homepage screenshot — B2B marketing agency](/images/agencies/walker-sands-home.webp)
 
 75
 
@@ -401,6 +422,9 @@ Pricing: Custom · Full-service B2B retainer — contact for scope · [Visit Wal
 
 
 
+
+![New North homepage screenshot — B2B marketing agency](/images/agencies/new-north-home.webp)
+
 73
 
 
@@ -450,6 +474,9 @@ Pricing: $5,000 – $15,000/mo · Contact for tailored scope · [Visit New North
 
 
 
+
+![Hinge Marketing homepage screenshot — B2B marketing agency](/images/agencies/hinge-marketing-home.webp)
+
 71
 
 
@@ -498,6 +525,9 @@ Pricing: Custom · Contact for pricing · [Visit Hinge Marketing](https://hingem
 ### 11. Wpromote
 
 
+
+
+![Wpromote homepage screenshot — B2B marketing agency](/images/agencies/wpromote-home.webp)
 
 69
 

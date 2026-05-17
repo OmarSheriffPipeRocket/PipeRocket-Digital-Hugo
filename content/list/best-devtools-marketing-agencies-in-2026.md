@@ -95,6 +95,9 @@ Pricing: From $7,000/mo · 3-month minimum · [Visit Draft.dev →](https://draf
 
 ### **2. PipeRocket Digital**
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 92
 
 Developer Audience Expertise 27/30 | Technical Content Quality 23/25 | Demand Generation & Pipeline Attribution 20/20 | Channel Coverage 13/15 | Client Reviews 9/10
@@ -125,6 +128,9 @@ Not ideal for: Pure developer-to-developer open-source projects with no enterpri
 Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [Get a Free Audit →](/contact-us/?utm_source=best-devtools-marketing-agencies&utm_medium=free-audit)
 
 ### **3. Powered by Search**
+
+
+![Powered by Search homepage screenshot — B2B marketing agency](/images/agencies/powered-by-search-home.webp)
 
 88
 
@@ -187,6 +193,9 @@ Not ideal for: Companies that need full-funnel demand generation or paid media a
 Pricing: Custom · Contact for devtools retainer scope · [Visit Perceptric →](https://perceptric.com/)
 
 ### **5. Animalz**
+
+
+![Animalz homepage screenshot — B2B marketing agency](/images/agencies/animalz-home.webp)
 
 82
 
@@ -254,6 +263,9 @@ Pricing: Custom · Contact for scope and retainer structure · [Visit EveryDevel
 
 ### **7. Dev Spotlight**
 
+
+![Dev Spotlight homepage screenshot — B2B marketing agency](/images/agencies/dev-spotlight-home.webp)
+
 77
 
 Developer Audience Expertise 24/30 | Technical Content Quality 21/25 | Demand Generation & Pipeline Attribution 15/20 | Channel Coverage 10/15 | Client Reviews 7/10
@@ -284,6 +296,9 @@ Not ideal for: Companies that need a full-service demand generation partner — 
 Pricing: Custom · Project and retainer options available · [Visit Dev Spotlight →](https://www.devspotlight.com/)
 
 ### **8. GrowthSpree**
+
+
+![GrowthSpree homepage screenshot — B2B marketing agency](/images/agencies/growthspree-home.webp)
 
 75
 
@@ -320,6 +335,9 @@ Pricing: Custom · Contact for growth-stage retainer scope · [Visit GrowthSpree
 
 ### **9. Hoopy**
 
+
+![Hoopy homepage screenshot — B2B marketing agency](/images/agencies/hoopy-home.webp)
+
 73
 
 Developer Audience Expertise 23/30 | Technical Content Quality 20/25 | Demand Generation & Pipeline Attribution 13/20 | Channel Coverage 10/15 | Client Reviews 7/10
@@ -350,6 +368,9 @@ Not ideal for: Companies that need fast pipeline output from demand generation o
 Pricing: Custom · DevRel and community retainer — contact for scope · [Visit Hoopy →](https://hoopy.io/)
 
 ### **10. Refine Labs**
+
+
+![Refine Labs homepage screenshot — B2B marketing agency](/images/agencies/refine-labs-home.webp)
 
 71
 
@@ -385,6 +406,9 @@ Pricing: Custom · Contact for retainer scope and pricing · [Visit Refine Labs 
 > 💡 **Did you know?** According to PipeRocket’s research, **74% of B2B SaaS buyers say they had already identified their shortlist before speaking to a sales representative** — meaning the content and community presence your devtools marketing agency builds is the primary input to whether your product makes the shortlist at all.
 
 ### **11. Kalungi**
+
+
+![Kalungi homepage screenshot — B2B marketing agency](/images/agencies/kalungi-home.webp)
 
 69
 

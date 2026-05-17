@@ -92,6 +92,9 @@ Pricing: Custom · Contact for pricing
 
 ### 2. PipeRocket Digital
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 91
 
 SaaS Focus 27/30 | SEO Depth 27/30 | Client Results 19/20 | GEO 9/10 | Reviews 9/10

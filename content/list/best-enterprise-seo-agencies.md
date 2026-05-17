@@ -63,6 +63,9 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. PipeRocket Digital
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 94
 
 ![PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
@@ -95,6 +98,9 @@ Not ideal for: Companies looking for cheap, traffic-focused SEO without revenue 
 Pricing: $5,000+/mo – Revenue-focused enterprise SEO with pipeline ownership – Visit PipeRocket Digital
 
 ### 2. Loopex Digital
+
+
+![Loopex Digital homepage screenshot — B2B marketing agency](/images/agencies/loopex-digital-home.webp)
 
 91
 
@@ -228,6 +234,9 @@ Pricing: Custom – Fast enterprise SEO execution with A.R.T. framework – [Vis
 
 ### 6. WebFX
 
+
+![WebFX homepage screenshot — B2B marketing agency](/images/agencies/webfx-home.webp)
+
 83
 
 ![WebFX](/images/wp-import/10_WebFX-Homepage-1-1024x556.webp)
@@ -262,6 +271,9 @@ Want to see how PipeRocket stacks up? Read our [PipeRocket vs WebFX](/compare/pi
 Pricing: Custom – Full-service enterprise digital marketing at scale – [Visit WebFX](https://www.webfx.com/about/reviews/)
 
 ### 7. Siege Media
+
+
+![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
 
 81
 
@@ -298,6 +310,9 @@ Pricing: Custom – Content-led enterprise SEO and link earning – [Visit Siege
 
 ### 8. Seer Interactive
 
+
+![Seer Interactive homepage screenshot — B2B marketing agency](/images/agencies/seer-interactive-home.webp)
+
 78
 
 ![Seer Interactive](/images/wp-import/10_Seer-Hompage-1024x580.webp)
@@ -333,6 +348,9 @@ Pricing: Custom – Data-driven enterprise SEO with executive reporting – [Vis
 
 ### 9. FirstPageSage
 
+
+![FirstPageSage homepage screenshot — B2B marketing agency](/images/agencies/firstpagesage-home.webp)
+
 76
 
 ![FirstPageSage](/images/wp-import/10_FirstPageSage-Homepage-1024x580.webp)
@@ -365,6 +383,9 @@ Not ideal for: Companies needing quick wins or those in industries where thought
 Pricing: Custom – Thought leadership SEO for complex enterprise sales cycles – [Visit FirstPageSage](https://firstpagesagereviews.com/)
 
 ### 10. iPullRank
+
+
+![iPullRank homepage screenshot — B2B marketing agency](/images/agencies/ipullrank-home.webp)
 
 74
 

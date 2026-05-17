@@ -63,6 +63,9 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. PipeRocket Digital
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 94
 
 ![PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
@@ -164,6 +167,9 @@ Pricing: Custom – Based on audit scope and management needs – [Visit Disrupt
 
 ### 4. Powered by Search
 
+
+![Powered by Search homepage screenshot — B2B marketing agency](/images/agencies/powered-by-search-home.webp)
+
 87
 
 ![Powered by Search](/images/wp-import/10_PoweredBySearch-Homepage-1024x488.webp)
@@ -196,6 +202,9 @@ Not ideal for: Enterprise SaaS with purely sales-led motions and no self-serve c
 Pricing: Custom – Based on scope and growth stage – [Visit Powered by Search](https://www.featuredcustomers.com/vendor/powered-search)
 
 ### 5. Bounty Hunter
+
+
+![Bounty Hunter homepage screenshot — B2B marketing agency](/images/agencies/bounty-hunter-home.webp)
 
 85
 
@@ -297,6 +306,9 @@ Not ideal for: Companies preferring traditional, manual campaign management appr
 Pricing: Custom – Based on scope and optimization needs – [Visit Single Grain](https://clutch.co/profile/single-grain)
 
 ### 8. NoGood
+
+
+![NoGood homepage screenshot — B2B marketing agency](/images/agencies/nogood-home.webp)
 
 79
 

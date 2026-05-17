@@ -101,6 +101,9 @@ Pricing: Custom · Starts from $8,000/month
 
 ### 2. PipeRocket Digital
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 92
 
 SaaS Growth Specialization 28/30 | Multi-Channel Execution 23/25 | Revenue & Pipeline Attribution 19/20 | ICP & Positioning Depth 13/15 | Client Reviews 9/10

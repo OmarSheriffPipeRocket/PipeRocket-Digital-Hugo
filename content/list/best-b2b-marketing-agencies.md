@@ -65,6 +65,9 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. PipeRocket Digital
 
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
+
 94
 
 ![PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
@@ -165,6 +168,9 @@ Not ideal for: Enterprise organizations requiring extensive compliance reviews o
 Pricing: Custom – Flexible engagement models based on scope and velocity requirements – Visit New North
 
 ### 4. Ironpaper
+
+
+![Ironpaper homepage screenshot — B2B marketing agency](/images/agencies/ironpaper-home.webp)
 
 86
 
@@ -299,6 +305,9 @@ Want to see how PipeRocket stacks up? Read our [PipeRocket vs Siege Media](/comp
 Pricing: $10,000+/mo – Premium content production and link acquisition – [Visit Siege Media](https://www.google.com/url?q=https://clutch.co/profile/siege-media&sa=D&source=editors&ust=1778579149183362&usg=AOvVaw2tJhdRGoxayBJxEUu9vwp7)
 
 ### 8. Velocity Partners
+
+
+![Velocity Partners homepage screenshot — B2B marketing agency](/images/agencies/velocity-partners-home.webp)
 
 81
 

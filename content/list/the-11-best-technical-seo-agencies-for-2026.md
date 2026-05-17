@@ -64,6 +64,9 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. Onely
 
+
+![Onely homepage screenshot — B2B marketing agency](/images/agencies/onely-home.webp)
+
 95
 
 Technical Depth 30/30 | Proven Results 23/25 | B2B/SaaS Fit 18/20 | Transparency 14/15 | Pricing & Value 10/10
@@ -90,6 +93,9 @@ Not ideal for: Early-stage startups or small sites where the technical foundatio
 Pricing: Custom · Contact for project or retainer pricing · [Visit Onely](https://www.onely.com/contact/)
 
 ### 2. PipeRocket Digital
+
+
+![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
 92
 
@@ -123,6 +129,9 @@ Pricing: Flexible · Starts from $3,000/mo · Contact for tailored quote · [Get
 
 ### 3. iPullRank
 
+
+![iPullRank homepage screenshot — B2B marketing agency](/images/agencies/ipullrank-home.webp)
+
 89
 
 Technical Depth 28/30 | Proven Results 23/25 | B2B/SaaS Fit 17/20 | Transparency 12/15 | Pricing & Value 9/10
@@ -149,6 +158,9 @@ Not ideal for: Smaller teams or early-stage companies without in-house engineeri
 Pricing: Custom · Contact for retainer or project-based pricing · [Visit iPullRank](https://ipullrank.com/contact/)
 
 ### 4. Victorious
+
+
+![Victorious homepage screenshot — B2B marketing agency](/images/agencies/victorious-home.webp)
 
 86
 
@@ -177,6 +189,9 @@ Pricing: $3,000–$10,000+/mo · Based on site complexity and scope · [Visit Vi
 
 ### 5. Ayima
 
+
+![Ayima homepage screenshot — B2B marketing agency](/images/agencies/ayima-home.webp)
+
 83
 
 Technical Depth 27/30 | Proven Results 20/25 | B2B/SaaS Fit 16/20 | Transparency 12/15 | Pricing & Value 8/10
@@ -203,6 +218,9 @@ Not ideal for: B2B SaaS startups or mid-market companies without a defined engin
 Pricing: Custom · Enterprise engagements — contact for scope-based pricing · [Visit Ayima](https://www.ayima.com/contact/)
 
 ### 6. Siege Media
+
+
+![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
 
 81
 
@@ -236,6 +254,9 @@ Pricing: $5,000+/mo · Retainer-based, contact for custom scope · [Visit Siege 
 ### 7. Directive Consulting
 
 
+
+
+![Directive Consulting homepage screenshot — B2B marketing agency](/images/agencies/directive-consulting-home.webp)
 
 78
 
@@ -287,6 +308,9 @@ Pricing: $8,000–$20,000+/mo · Enterprise B2B SaaS engagements · [Visit Direc
 ### 8. Seer Interactive
 
 
+
+
+![Seer Interactive homepage screenshot — B2B marketing agency](/images/agencies/seer-interactive-home.webp)
 
 75
 
@@ -341,6 +365,9 @@ Pricing: Custom · Enterprise pricing — contact for scope · [Visit Seer Inter
 
 
 
+
+![Previsible homepage screenshot — B2B marketing agency](/images/agencies/previsible-home.webp)
+
 72
 
 
@@ -390,6 +417,9 @@ Pricing: Custom · Project and retainer-based — contact for scope · [Visit Pr
 
 
 
+
+![LinkGraph homepage screenshot — B2B marketing agency](/images/agencies/linkgraph-home.webp)
+
 69
 
 
@@ -438,6 +468,9 @@ Pricing: $1,500–$5,000+/mo · Varies by scope and service combination · [Visi
 ### 11. WebFX
 
 
+
+
+![WebFX homepage screenshot — B2B marketing agency](/images/agencies/webfx-home.webp)
 
 66
 
