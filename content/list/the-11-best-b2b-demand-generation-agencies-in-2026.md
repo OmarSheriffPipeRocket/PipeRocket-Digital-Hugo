@@ -64,6 +64,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. Refine Labs
 
+![Refine Labs homepage screenshot — B2B marketing agency](/images/agencies/refine-labs-home.webp)
+
 94
 
 Demand Gen Specialization 29/30 | Pipeline Strategy 28/30 | Client Results 19/20 | ABM & Intent 9/10 | Reviews 9/10

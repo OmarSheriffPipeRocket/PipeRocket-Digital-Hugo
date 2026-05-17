@@ -35,25 +35,25 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ## Compare the 9 Best B2B Lead Generation Agencies in 2026
 
-1. [PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp) – Best for full-funnel B2B SaaS lead generation
-2. [CIENCE](/images/wp-import/11_Cience-Homepage-1024x556.png) – Best for high-volume AI-enhanced outreach
-3. [Belkins](/images/wp-import/11_Belkins-Homepage-1024x556.png) – Best for appointment setting in technical industries
-4. [Martal Group](/images/wp-import/11_Martal-Group-Homepage-1-1024x556.png) – Best for tech companies needing sales executives
-5. [Callbox](/images/wp-import/11_Callbox-Homepage-1024x556.png) – Best for global reach and account-based marketing
-6. [Leadium](/images/wp-import/11_Leadium-Homepage-1024x556.jpg) – Best for agile high-growth outbound campaigns
-7. [SalesRoads](/images/wp-import/11_SalesRoads-Homepage-scaled.png) – Best for industrial and manufacturing B2B sales
-8. [OutreachBloom](/images/wp-import/11_OutreachBloom-Homepage-1024x556.jpg) – Best for boutique cold-email campaigns
+1. [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) – Best for full-funnel B2B SaaS lead generation
+2. [CIENCE](/images/agencies/cience-home.webp) – Best for high-volume AI-enhanced outreach
+3. [Belkins](/images/agencies/belkins-home.webp) – Best for appointment setting in technical industries
+4. [Martal Group](/images/agencies/martal-group-home.webp) – Best for tech companies needing sales executives
+5. [Callbox](/images/agencies/callbox-home.webp) – Best for global reach and account-based marketing
+6. [Leadium](/images/agencies/leadium-home.webp) – Best for agile high-growth outbound campaigns
+7. [SalesRoads](/images/agencies/salesroads-home.webp) – Best for industrial and manufacturing B2B sales
+8. [OutreachBloom](/images/agencies/outreachbloom-home.webp) – Best for boutique cold-email campaigns
 
 | Agency | Score | Best For | Starting Price |
 | --- | --- | --- | --- |
-| [PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp) | 94 | Full-funnel B2B SaaS lead generation | Custom |
-| [CIENCE](/images/wp-import/11_Cience-Homepage-1024x556.png) | 88 | High-volume AI-enhanced outreach | Custom |
-| [Belkins](/images/wp-import/11_Belkins-Homepage-1024x556.png) | 87 | Appointment setting in technical industries | Custom |
-| [Martal Group](/images/wp-import/11_Martal-Group-Homepage-1-1024x556.png) | 85 | Tech companies needing sales executives | Custom |
-| [Callbox](/images/wp-import/11_Callbox-Homepage-1024x556.png) | 84 | Global reach and account-based marketing | Custom |
-| [Leadium](/images/wp-import/11_Leadium-Homepage-1024x556.jpg) | 82 | Agile high-growth outbound campaigns | Custom |
-| [SalesRoads](/images/wp-import/11_SalesRoads-Homepage-scaled.png) | 80 | Industrial and manufacturing B2B sales | Custom |
-| [OutreachBloom](/images/wp-import/11_OutreachBloom-Homepage-1024x556.jpg) | 76 | Boutique cold-email campaigns | Custom |
+| [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) | 94 | Full-funnel B2B SaaS lead generation | Custom |
+| [CIENCE](/images/agencies/cience-home.webp) | 88 | High-volume AI-enhanced outreach | Custom |
+| [Belkins](/images/agencies/belkins-home.webp) | 87 | Appointment setting in technical industries | Custom |
+| [Martal Group](/images/agencies/martal-group-home.webp) | 85 | Tech companies needing sales executives | Custom |
+| [Callbox](/images/agencies/callbox-home.webp) | 84 | Global reach and account-based marketing | Custom |
+| [Leadium](/images/agencies/leadium-home.webp) | 82 | Agile high-growth outbound campaigns | Custom |
+| [SalesRoads](/images/agencies/salesroads-home.webp) | 80 | Industrial and manufacturing B2B sales | Custom |
+| [OutreachBloom](/images/agencies/outreachbloom-home.webp) | 76 | Boutique cold-email campaigns | Custom |
 
 ## The 9 Best B2B Lead Generation Agencies in 2026
 
@@ -64,7 +64,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 94
 
-![PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
+![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Lead Quality 28/30 | Channel Expertise 24/25 | Technology 19/20 | Industry Specialization 14/15 | Transparency 9/10
 
@@ -100,7 +100,7 @@ Pricing: Custom – Tailored to your funnel complexity and growth targets – [V
 
 88
 
-![CIENCE](/images/wp-import/11_Cience-Homepage-1024x556.png)
+![CIENCE](/images/agencies/cience-home.webp)
 
 Lead Quality 25/30 | Channel Expertise 23/25 | Technology 19/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -136,7 +136,7 @@ Pricing: Custom – Contact for quote based on volume and channel requirements �
 
 87
 
-![Belkins](/images/wp-import/11_Belkins-Homepage-1024x556.png)
+![Belkins](/images/agencies/belkins-home.webp)
 
 Lead Quality 26/30 | Channel Expertise 22/25 | Technology 18/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -172,7 +172,7 @@ Pricing: Custom – Contact for quote based on appointment volume targets – [V
 
 85
 
-![Martal Group](/images/wp-import/11_Martal-Group-Homepage-1-1024x556.png)
+![Martal Group](/images/agencies/martal-group-home.webp)
 
 Lead Quality 25/30 | Channel Expertise 21/25 | Technology 18/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -208,7 +208,7 @@ Pricing: Custom – Contact for quote based on sales support scope – [Visit Ma
 
 84
 
-![Callbox](/images/wp-import/11_Callbox-Homepage-1024x556.png)
+![Callbox](/images/agencies/callbox-home.webp)
 
 Lead Quality 24/30 | Channel Expertise 21/25 | Technology 18/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -244,7 +244,7 @@ Pricing: Custom – Contact for quote based on geographic scope and account volu
 
 82
 
-![Leadium](/images/wp-import/11_Leadium-Homepage-1024x556.jpg)
+![Leadium](/images/agencies/leadium-home.webp)
 
 Lead Quality 24/30 | Channel Expertise 20/25 | Technology 17/20 | Industry Specialization 12/15 | Transparency 9/10
 
@@ -284,7 +284,7 @@ Pricing: Custom – Contact for quote based on campaign scope and velocity requi
 
 80
 
-![SalesRoads](/images/wp-import/11_SalesRoads-Homepage-scaled.png)
+![SalesRoads](/images/agencies/salesroads-home.webp)
 
 Lead Quality 23/30 | Channel Expertise 20/25 | Technology 16/20 | Industry Specialization 13/15 | Transparency 8/10
 
@@ -322,7 +322,7 @@ Pricing: Custom – Contact for quote based on industry vertical and outreach vo
 
 76
 
-![OutreachBloom](/images/wp-import/11_OutreachBloom-Homepage-1024x556.jpg)
+![OutreachBloom](/images/agencies/outreachbloom-home.webp)
 
 Lead Quality 22/30 | Channel Expertise 18/25 | Technology 16/20 | Industry Specialization 11/15 | Transparency 9/10
 

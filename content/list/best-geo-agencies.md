@@ -75,6 +75,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. First Page Sage
 
+![First Page Sage homepage screenshot — B2B marketing agency](/images/agencies/first-page-sage-home.webp)
+
 92
 
 AI Visibility 22/25 | Client Results 22/25 | Technical 18/20 | Reviews 19/20 | Pricing 7/10
@@ -140,6 +142,8 @@ Pricing: Flexible · Early-stage from $1,500/mo · Enterprise from $6,000/mo · 
 
 ### 3. iPullRank
 
+![iPullRank homepage screenshot — B2B marketing agency](/images/agencies/ipullrank-home.webp)
+
 88
 
 AI Visibility 20/25 | Client Results 20/25 | Technical 15/20 | Reviews 18/20 | Pricing 8/10
@@ -167,6 +171,8 @@ Not ideal for: Growth-stage companies, teams without internal technical capacity
 Pricing: Premium · ~$10,000–$30,000/month
 
 ### 4. Omniscient Digital
+
+![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
 
 86
 
@@ -198,6 +204,8 @@ Pricing: Mid–Premium · From $10,000–$15,000/month
 
 
 ### 5. Single Grain
+
+![Single Grain homepage screenshot — B2B marketing agency](/images/agencies/single-grain-home.webp)
 
 
 
@@ -298,6 +306,8 @@ Pricing: Mid–Premium · Challenger $9,625/mo · Dominance $14,325/mo · Month-
 
 ### 7. Animalz
 
+![Animalz homepage screenshot — B2B marketing agency](/images/agencies/animalz-home.webp)
+
 
 
 81
@@ -345,6 +355,8 @@ Pricing: Premium · Starts ~$15,000/month
 
 
 ### 8. WebFX
+
+![WebFX homepage screenshot — B2B marketing agency](/images/agencies/webfx-home.webp)
 
 
 
@@ -398,6 +410,8 @@ Pricing: Flexible · SEO from $2,500/month · Full-service $10,000–$30,000+/mo
 
 ### 9. NoGood
 
+![NoGood homepage screenshot — B2B marketing agency](/images/agencies/nogood-home.webp)
+
 
 
 77
@@ -449,6 +463,8 @@ Pricing: Premium · Estimated $15,000–$25,000/month
 
 
 ### 10. Siege Media
+
+![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
 
 
 
@@ -502,6 +518,8 @@ Pricing: Mid–Premium · From $5,000/month
 
 ### 11. KlientBoost
 
+![KlientBoost homepage screenshot — B2B marketing agency](/images/agencies/klientboost-home.webp)
+
 
 
 73
@@ -552,6 +570,8 @@ Pricing: Mid-Range · ~$2,000–$8,000/month
 
 
 ### 12. SimpleTiger
+
+![SimpleTiger homepage screenshot — B2B marketing agency](/images/agencies/simpletiger-home.webp)
 
 
 

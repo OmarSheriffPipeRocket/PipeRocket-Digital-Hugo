@@ -66,7 +66,7 @@ Here is a quick summary of all 8 SaaS GEO agencies listed in this blog:
 
 ![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
 
-![PipeRocket Homepage](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
+![PipeRocket Homepage](/images/agencies/piperocket-digital-home.webp)
 
 We started PipeRocket as a SaaS marketing agency before the rise of AI engines. Most SaaS GEO agencies now are just relabeling existing SEO as “AI optimized”. We did not want to do that.
 
@@ -104,7 +104,7 @@ Everything we do traces back to whether your buyers are finding you when they ar
 
 ![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
 
-![Siege Media Homepage](/images/wp-import/10_Siege-Homepage-1024x580.webp)
+![Siege Media Homepage](/images/agencies/siege-media-home.webp)
 
 Siege Media’s GEO approach rests on three pillars: data journalism, digital PR, and proprietary technology. [LLM](/glossary/what-is-an-llm/ "Glossary: LLM")s reference original research heavily, so content built around unique data is far more likely to be cited than generic articles.
 
@@ -164,7 +164,7 @@ They recognize that SaaS buyers use AI to compare features, pricing, and integra
 
 ![FirstPageSage homepage screenshot — B2B marketing agency](/images/agencies/firstpagesage-home.webp)
 
-![FirstPageSage Homepage](/images/wp-import/10_FirstPageSage-Homepage-1024x580.webp)
+![FirstPageSage Homepage](/images/agencies/first-page-sage-home.webp)
 
 FirstPageSage coined the term GEO and ran the first documented study on AI chatbot ranking algorithms. Founder Evan Bailyn ran 11,128 commercial queries across ChatGPT, Gemini, Perplexity, and Claude to map the specific ranking factors each platform uses. That research drives their client programs directly.
 
@@ -192,7 +192,7 @@ Their methodology, which they call authority content architecture, focuses on ge
 
 ![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
 
-![Omniscient Digital Homepage](/images/wp-import/10_Omniscient-Digital-Homepage-1024x559.webp)
+![Omniscient Digital Homepage](/images/agencies/omniscient-digital-home.webp)
 
 Founded by former HubSpot marketing practitioners, Omniscient Digital’s core GEO concept is Surround Sound SEO: building brand presence across third-party lists, reviews, directories, and SERP content so LLMs consistently surface your brand in category answers.
 
@@ -222,7 +222,7 @@ They require content with a strong point of view and unique insight, because gen
 
 ![Minuttia homepage screenshot — B2B marketing agency](/images/agencies/minuttia-home.webp)
 
-![Minuttia Homepage](/images/wp-import/03_Minuttia-Homepage-1024x556.webp)
+![Minuttia Homepage](/images/agencies/minuttia-home.webp)
 
 Minuttia is B2B SaaS-only. Their GEO playbook blends entity SEO, topical authority, and content distribution to capture qualified demand in generative engines including AI Overviews and chat search. Managing Director George Chasiotis has published research on entity SEO and topical authority as foundational signals for AI visibility.
 
@@ -249,7 +249,7 @@ Rather than running keyword-driven content calendars, they build strategy around
 
 ![Searchbloom homepage screenshot — B2B marketing agency](/images/agencies/searchbloom-home.webp)
 
-![SearchBloom Homepage](/images/wp-import/10_SearchBloom-Homepage-1024x556.webp)
+![SearchBloom Homepage](/images/agencies/searchbloom-home.webp)
 
 Searchbloom has two documented methodologies directly relevant to GEO. ART covers traditional SEO (Authority, Relevance, Technology) and MERIT is built specifically for AI search: Mentions, Evidence, Relevance, Inclusion, and Transform, mapped to how LLMs evaluate and cite content.
 
@@ -276,7 +276,7 @@ What separates them is that they implement rather than just recommend. Six in-ho
 
 ![Single Grain homepage screenshot — B2B marketing agency](/images/agencies/single-grain-home.webp)
 
-![Single grain homepage](/images/wp-import/11_Single-grain-homepage-1024x556.webp)
+![Single grain homepage](/images/agencies/single-grain-home.webp)
 
 Single Grain integrates GEO into a broader multi-channel program rather than running it as a standalone service. Their model connects SEO, GEO, and paid media into one strategy, so AI visibility improvements feed directly into paid targeting and CRO rather than sitting in a separate reporting silo.
 

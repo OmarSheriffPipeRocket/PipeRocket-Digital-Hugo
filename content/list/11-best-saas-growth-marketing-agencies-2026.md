@@ -64,6 +64,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. Directive Consulting
 
+![Directive Consulting homepage screenshot — B2B marketing agency](/images/agencies/directive-consulting-home.webp)
+
 95
 
 SaaS Growth Specialization 29/30 | Multi-Channel Execution 24/25 | Revenue & Pipeline Attribution 19/20 | ICP & Positioning Depth 14/15 | Client Reviews 9/10
@@ -144,6 +146,8 @@ Pricing: Flexible · Starts from $5,000/month · Contact for tailored quotes · 
 
 ### 3. NoGood
 
+![NoGood homepage screenshot — B2B marketing agency](/images/agencies/nogood-home.webp)
+
 88
 
 SaaS Growth Specialization 27/30 | Multi-Channel Execution 22/25 | Revenue & Pipeline Attribution 18/20 | ICP & Positioning Depth 12/15 | Client Reviews 9/10
@@ -184,6 +188,8 @@ Pricing: Custom · Contact for pricing
 
 ### 4. Kalungi
 
+![Kalungi homepage screenshot — B2B marketing agency](/images/agencies/kalungi-home.webp)
+
 85
 
 SaaS Growth Specialization 26/30 | Multi-Channel Execution 21/25 | Revenue & Pipeline Attribution 17/20 | ICP & Positioning Depth 12/15 | Client Reviews 9/10
@@ -222,6 +228,8 @@ Pricing: Custom · Contact for pricing
 
 ### 5. Refine Labs
 
+![Refine Labs homepage screenshot — B2B marketing agency](/images/agencies/refine-labs-home.webp)
+
 82
 
 SaaS Growth Specialization 25/30 | Multi-Channel Execution 20/25 | Revenue & Pipeline Attribution 17/20 | ICP & Positioning Depth 11/15 | Client Reviews 9/10
@@ -257,6 +265,8 @@ Not ideal for: Early-stage teams without enough brand presence or content founda
 Pricing: Custom · Starts from $10,000/month
 
 ### 6. Single Grain
+
+![Single Grain homepage screenshot — B2B marketing agency](/images/agencies/single-grain-home.webp)
 
 79
 
@@ -331,6 +341,8 @@ Pricing: Mid-Range · Contact for pricing
 
 ### 8. Powered by Search
 
+![Powered by Search homepage screenshot — B2B marketing agency](/images/agencies/powered-by-search-home.webp)
+
 75
 
 SaaS Growth Specialization 23/30 | Multi-Channel Execution 18/25 | Revenue & Pipeline Attribution 15/20 | ICP & Positioning Depth 10/15 | Client Reviews 9/10
@@ -370,6 +382,8 @@ Pricing: Mid-Range · Contact for pricing
 
 ### 9. Omniscient Digital
 
+![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
+
 73
 
 SaaS Growth Specialization 22/30 | Multi-Channel Execution 18/25 | Revenue & Pipeline Attribution 14/20 | ICP & Positioning Depth 10/15 | Client Reviews 9/10
@@ -404,6 +418,8 @@ Not ideal for: Early-stage teams needing fast pipeline, or companies without ded
 Pricing: Premium · From $10,000/month
 
 ### 10. SmartBug Media
+
+![SmartBug Media homepage screenshot — B2B marketing agency](/images/agencies/smartbug-media-home.webp)
 
 71
 

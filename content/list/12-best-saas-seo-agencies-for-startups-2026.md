@@ -136,6 +136,8 @@ Pricing: Mid-Premium · $9,000–$10,000/month · Month-to-month available
 
 ### 3. SimpleTiger
 
+![SimpleTiger homepage screenshot — B2B marketing agency](/images/agencies/simpletiger-home.webp)
+
 88
 
 Pipeline Impact 25/30 | Startup Fit 25/25 | Content Quality 18/20 | AI Readiness 11/15 | Pricing 9/10
@@ -163,6 +165,8 @@ Not ideal for: Teams where GEO and AI visibility are the primary goal rather tha
 Pricing: Mid-Range · $3,000–$8,000/month · Transparent, no hidden fees
 
 ### 4. Omniscient Digital
+
+![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
 
 87
 
@@ -241,6 +245,8 @@ Pricing: Entry · From $1,500–$4,000/month · No long-term contract
 
 
 ### 6. Animalz
+
+![Animalz homepage screenshot — B2B marketing agency](/images/agencies/animalz-home.webp)
 
 
 
@@ -388,6 +394,8 @@ Pricing: Mid-Premium · Challenger $9,625/mo · Dominance $14,325/mo · Month-to
 
 ### 9. Minuttia
 
+![Minuttia homepage screenshot — B2B marketing agency](/images/agencies/minuttia-home.webp)
+
 
 
 80
@@ -434,6 +442,8 @@ Pricing: Mid-Range · $3,000–$8,000/month
 
 
 ### 10. Breaking B2B
+
+![Breaking B2B homepage screenshot — B2B marketing agency](/images/agencies/breaking-b2b-home.webp)
 
 
 
@@ -529,6 +539,8 @@ Pricing: Mid-Premium · $5,000–$15,000/month (custom)
 
 
 ### 12. First Page Sage
+
+![First Page Sage homepage screenshot — B2B marketing agency](/images/agencies/first-page-sage-home.webp)
 
 
 

@@ -35,31 +35,31 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ## Compare the 11 Best B2B Marketing Agencies in 2026
 
-1. [PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp) – Best for revenue-obsessed B2B SaaS companies
-2. [Directive Consulting](/images/wp-import/11_directive-homepage-1024x556.webp) – Best for high-ACV SaaS with long sales cycles
+1. [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) – Best for revenue-obsessed B2B SaaS companies
+2. [Directive Consulting](/images/agencies/directive-consulting-home.webp) – Best for high-ACV SaaS with long sales cycles
 3. [New North](/wp-content/uploads/2025/11/New-North-Homepage-scaled.webp) – Best for lean teams needing agile execution
-4. [Ironpaper](/images/wp-import/11_Ironpaper-Homepage-1024x556.webp) – Best for data-driven funnel optimization
-5. [Disruptive Advertising](/images/wp-import/11_Disruptive-homepage-1024x556.webp) – Best for integrated paid media and CRO
-6. [Walker Sands](/images/wp-import/11_Walker-Sands-Homepage-1024x556.webp) – Best for B2B tech PR and [demand generation](/blogs/b2b-demand-generation-guide/)
-7. [Siege Media](/images/wp-import/10_Siege-Homepage-1024x580.webp) – Best for link-worthy content that compounds
-8. [Velocity Partners](/images/wp-import/11_Velocity-Partners-Homepage-1024x556.webp) – Best for creative differentiation in crowded markets
+4. [Ironpaper](/images/agencies/ironpaper-home.webp) – Best for data-driven funnel optimization
+5. [Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp) – Best for integrated paid media and CRO
+6. [Walker Sands](/images/agencies/walker-sands-home.webp) – Best for B2B tech PR and [demand generation](/blogs/b2b-demand-generation-guide/)
+7. [Siege Media](/images/agencies/siege-media-home.webp) – Best for link-worthy content that compounds
+8. [Velocity Partners](/images/agencies/velocity-partners-home.webp) – Best for creative differentiation in crowded markets
 9. [Straight North](/images/wp-import/11_straight-north-homepage-1024x556.webp) – Best for industrial B2B lead validation
 10. [Serpsculpt](/images/wp-import/11_Serpsculpt-Homepage-1024x556.webp) – Best for [technical SEO](/glossary/what-is-technical-seo/) diagnostics
-11. [310 Creative](/images/wp-import/11_310-Creative-Homepage-1024x556.webp) – Best for HubSpot RevOps implementation
+11. [310 Creative](/images/agencies/310-creative-home.webp) – Best for HubSpot RevOps implementation
 
 | Agency | Score | Best For | Starting Price |
 | --- | --- | --- | --- |
-| [PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp) | 94 | Revenue-obsessed B2B SaaS | Custom |
-| [Directive Consulting](/images/wp-import/11_directive-homepage-1024x556.webp) | 91 | High-ACV SaaS optimization | Custom |
+| [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) | 94 | Revenue-obsessed B2B SaaS | Custom |
+| [Directive Consulting](/images/agencies/directive-consulting-home.webp) | 91 | High-ACV SaaS optimization | Custom |
 | [New North](/wp-content/uploads/2025/11/New-North-Homepage-scaled.webp) | 88 | Agile multi-channel execution | Custom |
-| [Ironpaper](/images/wp-import/11_Ironpaper-Homepage-1024x556.webp) | 86 | Funnel optimization | Custom |
-| [Disruptive Advertising](/images/wp-import/11_Disruptive-homepage-1024x556.webp) | 85 | Integrated paid media and CRO | $5,000/mo |
-| [Walker Sands](/images/wp-import/11_Walker-Sands-Homepage-1024x556.webp) | 84 | B2B tech PR integration | Custom |
-| [Siege Media](/images/wp-import/10_Siege-Homepage-1024x580.webp) | 83 | Premium content assets | $10,000/mo |
-| [Velocity Partners](/images/wp-import/11_Velocity-Partners-Homepage-1024x556.webp) | 81 | Creative brand differentiation | Custom |
+| [Ironpaper](/images/agencies/ironpaper-home.webp) | 86 | Funnel optimization | Custom |
+| [Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp) | 85 | Integrated paid media and CRO | $5,000/mo |
+| [Walker Sands](/images/agencies/walker-sands-home.webp) | 84 | B2B tech PR integration | Custom |
+| [Siege Media](/images/agencies/siege-media-home.webp) | 83 | Premium content assets | $10,000/mo |
+| [Velocity Partners](/images/agencies/velocity-partners-home.webp) | 81 | Creative brand differentiation | Custom |
 | [Straight North](/images/wp-import/11_straight-north-homepage-1024x556.webp) | 79 | Industrial lead validation | $3,000/mo |
 | [Serpsculpt](/images/wp-import/11_Serpsculpt-Homepage-1024x556.webp) | 77 | [Technical SEO](/glossary/what-is-technical-seo/) diagnostics | Custom |
-| [310 Creative](/images/wp-import/11_310-Creative-Homepage-1024x556.webp) | 74 | HubSpot RevOps | Custom |
+| [310 Creative](/images/agencies/310-creative-home.webp) | 74 | HubSpot RevOps | Custom |
 
 ## The 11 Best B2B Marketing Agencies in 2026
 
@@ -70,7 +70,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 94
 
-![PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
+![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Pipeline Impact 28/30 | Technical Expertise 24/25 | Client Retention 19/20 | Industry Specialization 14/15 | Transparency 9/10
 
@@ -103,7 +103,7 @@ Pricing: Custom – Engagement structured around pipeline outcomes and revenue g
 
 91
 
-![Directive Consulting](/images/wp-import/11_directive-homepage-1024x556.webp)
+![Directive Consulting](/images/agencies/directive-consulting-home.webp)
 
 Pipeline Impact 27/30 | Technical Expertise 23/25 | Client Retention 18/20 | Industry Specialization 14/15 | Transparency 9/10
 
@@ -135,6 +135,8 @@ Want to see how PipeRocket stacks up? Read our [PipeRocket vs Directive Consulti
 Pricing: Custom – Programs built around customer acquisition cost targets – [Visit Directive Consulting](https://www.google.com/url?q=https://clutch.co/profile/directive&sa=D&source=editors&ust=1778579149168340&usg=AOvVaw1L0YQDlwcs-oH_Hunlvyty)
 
 ### 3. New North
+
+![New North homepage screenshot — B2B marketing agency](/images/agencies/new-north-home.webp)
 
 88
 
@@ -174,7 +176,7 @@ Pricing: Custom – Flexible engagement models based on scope and velocity requi
 
 86
 
-![Ironpaper](/images/wp-import/11_Ironpaper-Homepage-1024x556.webp)
+![Ironpaper](/images/agencies/ironpaper-home.webp)
 
 Pipeline Impact 25/30 | Technical Expertise 22/25 | Client Retention 17/20 | Industry Specialization 13/15 | Transparency 9/10
 
@@ -207,7 +209,7 @@ Pricing: Custom – Structured around funnel metrics and pipeline goals – [Vis
 
 85
 
-![Disruptive Advertising](/images/wp-import/11_Disruptive-homepage-1024x556.webp)
+![Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp)
 
 Pipeline Impact 25/30 | Technical Expertise 21/25 | Client Retention 17/20 | Industry Specialization 13/15 | Transparency 9/10
 
@@ -240,7 +242,7 @@ Pricing: $5,000+/mo – Scales based on ad spend and optimization scope – [Vis
 
 84
 
-![Walker Sands](/images/wp-import/11_Walker-Sands-Homepage-1024x556.webp)
+![Walker Sands](/images/agencies/walker-sands-home.webp)
 
 Pipeline Impact 24/30 | Technical Expertise 21/25 | Client Retention 17/20 | Industry Specialization 13/15 | Transparency 9/10
 
@@ -273,7 +275,7 @@ Pricing: Custom – Integrated programs priced based on scope and outcomes – [
 
 83
 
-![Siege Media](/images/wp-import/10_Siege-Homepage-1024x580.webp)
+![Siege Media](/images/agencies/siege-media-home.webp)
 
 Pipeline Impact 24/30 | Technical Expertise 21/25 | Client Retention 16/20 | Industry Specialization 13/15 | Transparency 9/10
 
@@ -311,7 +313,7 @@ Pricing: $10,000+/mo – Premium content production and link acquisition – [Vi
 
 81
 
-![Velocity Partners](/images/wp-import/11_Velocity-Partners-Homepage-1024x556.webp)
+![Velocity Partners](/images/agencies/velocity-partners-home.webp)
 
 Pipeline Impact 23/30 | Technical Expertise 20/25 | Client Retention 16/20 | Industry Specialization 13/15 | Transparency 9/10
 
@@ -410,7 +412,7 @@ Pricing: Custom – Diagnostic approach priced by site complexity – [Visit Ser
 
 74
 
-![310 Creative](/images/wp-import/11_310-Creative-Homepage-1024x556.webp)
+![310 Creative](/images/agencies/310-creative-home.webp)
 
 Pipeline Impact 20/30 | Technical Expertise 19/25 | Client Retention 14/20 | Industry Specialization 12/15 | Transparency 9/10
 

@@ -35,30 +35,30 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ## Compare the 11 Best B2B Google Ads Agencies in 2026
 
-1. [KlientBoost](/images/wp-import/11_Klientboost-homepage-1024x556.webp) – Best for creative testing and conversion optimization
-2. [PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp) – Best for SQL-focused campaigns with CRM integration
-3. [Directive Consulting](/images/wp-import/11_directive-homepage-1024x556.webp) – Best for enterprise SaaS with complex sales cycles
-4. [Single Grain](/images/wp-import/11_Single-grain-homepage-1024x556.webp) – Best for integrated paid and content strategies
-5. [Disruptive Advertising](/images/wp-import/11_Disruptive-homepage-1024x556.webp) – Best for hands-on mid-market management
+1. [KlientBoost](/images/agencies/klientboost-home.webp) – Best for creative testing and conversion optimization
+2. [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) – Best for SQL-focused campaigns with CRM integration
+3. [Directive Consulting](/images/agencies/directive-consulting-home.webp) – Best for enterprise SaaS with complex sales cycles
+4. [Single Grain](/images/agencies/single-grain-home.webp) – Best for integrated paid and content strategies
+5. [Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp) – Best for hands-on mid-market management
 6. Tinuiti – Best for cross-channel enterprise coordination
-7. [SimpleTiger](/images/wp-import/10_SimpleTiger-Homepage-1024x531.webp) – Best for startups combining paid and organic growth
+7. [SimpleTiger](/images/agencies/simpletiger-home.webp) – Best for startups combining paid and organic growth
 8. Wpromote – Best for data science-driven optimization
 9. Closed Loop – Best for CRM-integrated revenue attribution
-10. [Ignite Visibility](/images/wp-import/11_Ignite-Visibility-Homepage-1024x579.png) – Best for full-service digital marketing
+10. [Ignite Visibility](/images/agencies/ignite-visibility-home.webp) – Best for full-service digital marketing
 11. Power Digital – Best for growth consulting with performance execution
 
 | Agency | Score | Best For | Starting Price |
 | --- | --- | --- | --- |
-| [KlientBoost](/images/wp-import/11_Klientboost-homepage-1024x556.webp) | 96 | Creative testing and CRO | $10,000/mo |
-| [PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp) | 94 | SQL-focused campaigns | $5,000/mo |
-| [Directive Consulting](/images/wp-import/11_directive-homepage-1024x556.webp) | 91 | Enterprise SaaS | $15,000/mo |
-| [Single Grain](/images/wp-import/11_Single-grain-homepage-1024x556.webp) | 89 | Integrated growth | $5,000/mo |
-| [Disruptive Advertising](/images/wp-import/11_Disruptive-homepage-1024x556.webp) | 87 | Mid-market scaling | $3,000/mo |
+| [KlientBoost](/images/agencies/klientboost-home.webp) | 96 | Creative testing and CRO | $10,000/mo |
+| [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) | 94 | SQL-focused campaigns | $5,000/mo |
+| [Directive Consulting](/images/agencies/directive-consulting-home.webp) | 91 | Enterprise SaaS | $15,000/mo |
+| [Single Grain](/images/agencies/single-grain-home.webp) | 89 | Integrated growth | $5,000/mo |
+| [Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp) | 87 | Mid-market scaling | $3,000/mo |
 | Tinuiti | 85 | Cross-channel enterprise | Custom |
-| [SimpleTiger](/images/wp-import/10_SimpleTiger-Homepage-1024x531.webp) | 83 | Startup efficiency | $4,000/mo |
+| [SimpleTiger](/images/agencies/simpletiger-home.webp) | 83 | Startup efficiency | $4,000/mo |
 | Wpromote | 81 | Data science optimization | $10,000/mo |
 | Closed Loop | 77 | Revenue attribution | $6,000/mo |
-| [Ignite Visibility](/images/wp-import/11_Ignite-Visibility-Homepage-1024x579.png) | 75 | Full-service digital | $4,000/mo |
+| [Ignite Visibility](/images/agencies/ignite-visibility-home.webp) | 75 | Full-service digital | $4,000/mo |
 | Power Digital | 73 | Growth consulting | $5,000/mo |
 
 ## The 11 Best B2B Google Ads Agencies in 2026
@@ -67,7 +67,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 96
 
-![KlientBoost](/images/wp-import/11_Klientboost-homepage-1024x556.webp)
+![KlientBoost](/images/agencies/klientboost-home.webp)
 
 Pipeline Impact 29/30 | B2B Specialization 24/25 | Strategic Depth 19/20 | Reporting Transparency 14/15 | Client Retention 10/10
 
@@ -105,7 +105,7 @@ Pricing: $10,000-$25,000/mo – Based on ad spend and creative scope – [Visit 
 
 94
 
-![PipeRocket Digital](/images/wp-import/10_PipeRocket-Homepage-1024x550.webp)
+![PipeRocket Digital](/images/agencies/piperocket-digital-home.webp)
 
 Pipeline Impact 28/30 | B2B Specialization 24/25 | Strategic Depth 19/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
@@ -138,7 +138,7 @@ Pricing: $5,000-$15,000/mo – Based on ad spend and integration complexity – 
 
 91
 
-![Directive Consulting](/images/wp-import/11_directive-homepage-1024x556.webp)
+![Directive Consulting](/images/agencies/directive-consulting-home.webp)
 
 Pipeline Impact 27/30 | B2B Specialization 23/25 | Strategic Depth 18/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
@@ -173,7 +173,7 @@ Pricing: $15,000-$40,000/mo – Based on enterprise scope and channels – [Visi
 
 89
 
-![Single Grain](/images/wp-import/11_Single-grain-homepage-1024x556.webp)
+![Single Grain](/images/agencies/single-grain-home.webp)
 
 Pipeline Impact 26/30 | B2B Specialization 22/25 | Strategic Depth 18/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
@@ -209,7 +209,7 @@ Pricing: $5,000-$20,000/mo – Based on scope and integration depth – [Visit S
 
 87
 
-![Disruptive Advertising](/images/wp-import/11_Disruptive-homepage-1024x556.webp)
+![Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp)
 
 Pipeline Impact 25/30 | B2B Specialization 22/25 | Strategic Depth 17/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
@@ -278,7 +278,7 @@ Pricing: Custom – Enterprise engagements based on scope and channels – [Visi
 
 83
 
-![SimpleTiger](/images/wp-import/10_SimpleTiger-Homepage-1024x531.webp)
+![SimpleTiger](/images/agencies/simpletiger-home.webp)
 
 Pipeline Impact 24/30 | B2B Specialization 21/25 | Strategic Depth 16/20 | Reporting Transparency 13/15 | Client Retention 9/10
 
@@ -390,7 +390,7 @@ Pricing: $6,000-$18,000/mo – Based on integration complexity – [Visit Closed
 
 75
 
-![Ignite Visibility](/images/wp-import/11_Ignite-Visibility-Homepage-1024x579.png)
+![Ignite Visibility](/images/agencies/ignite-visibility-home.webp)
 
 Pipeline Impact 22/30 | B2B Specialization 19/25 | Strategic Depth 14/20 | Reporting Transparency 11/15 | Client Retention 9/10
 
