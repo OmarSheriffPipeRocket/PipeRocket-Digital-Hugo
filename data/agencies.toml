@@ -1,0 +1,69 @@
+# Per-agency page URLs used by the {{< agency-triptych >}} shortcode in
+# listicle posts. Each agency entry is keyed by its /images/agencies/<slug>
+# slug. Homepage + contact are required; pricing is optional (most B2B
+# agencies don't publish dedicated pricing pages).
+#
+# Source pages were verified manually via WebFetch in May 2026. If you add
+# a new agency, the matching screenshots must live at:
+#   static/images/agencies/<slug>-home.webp
+#   static/images/agencies/<slug>-pricing.webp   (only if pricing URL set)
+#   static/images/agencies/<slug>-contact.webp
+# Use scripts/capture_agency_pages.py to refresh.
+
+[piperocket-digital]
+name = "PipeRocket Digital"
+homepage = "https://piperocket.digital"
+contact = "https://piperocket.digital/contact-us/"
+
+[the-seo-works]
+name = "The SEO Works"
+homepage = "https://www.seoworks.co.uk/"
+contact = "https://www.seoworks.co.uk/contact-us/"
+
+[loopex-digital]
+name = "Loopex Digital"
+homepage = "https://www.loopexdigital.com/"
+contact = "https://www.loopexdigital.com/contact-us"
+
+[breaking-b2b]
+name = "Breaking B2B"
+homepage = "https://www.breakingb2b.com/"
+pricing = "https://www.breakingb2b.com/pricing"
+contact = "https://www.breakingb2b.com/book-a-call"
+
+[kalungi]
+name = "Kalungi"
+homepage = "https://www.kalungi.com/"
+contact = "https://www.kalungi.com/contact"
+
+[siege-media]
+name = "Siege Media"
+homepage = "https://www.siegemedia.com/"
+contact = "https://www.siegemedia.com/contact"
+
+[madx-digital]
+name = "MADX Digital"
+homepage = "https://madx.digital/"
+pricing = "https://madx.digital/pricing"
+contact = "https://madx.digital/book-call"
+
+[omniscient-digital]
+name = "Omniscient Digital"
+homepage = "https://beomniscient.com/"
+contact = "https://beomniscient.com/contact/"
+
+[first-page-sage]
+name = "First Page Sage"
+homepage = "https://firstpagesage.com/"
+contact = "https://firstpagesage.com/contact/"
+
+[simpletiger]
+name = "SimpleTiger"
+homepage = "https://www.simpletiger.com/"
+pricing = "https://www.simpletiger.com/pricing"
+contact = "https://www.simpletiger.com/contact"
+
+[powered-by-search]
+name = "Powered by Search"
+homepage = "https://www.poweredbysearch.com/"
+contact = "https://www.poweredbysearch.com/assessment/"

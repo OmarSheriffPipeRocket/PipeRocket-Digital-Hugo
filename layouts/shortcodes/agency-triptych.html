@@ -1,0 +1,62 @@
+{{/* agency-triptych — renders a 1/2/3 image card row for an agency.
+     Cards = Homepage (always) + Pricing (if URL in data file) + Contact
+     (if URL in data file). Falls back to a clean single-card render
+     when there's no data/agencies.toml entry — just shows the homepage
+     screenshot at static/images/agencies/<slug>-home.webp.
+     Caller: pass slug="<slug>". Optional name="Display Name" overrides
+     the brand name used in alt text when no data entry exists. */}}
+{{- $slug := .Get "slug" -}}
+{{- $agency := index site.Data.agencies $slug -}}
+{{- $captured := .Get "captured" | default "May 2026" -}}
+{{- if not $agency -}}
+  {{/* No data file entry — render single-card layout with just the
+       homepage screenshot. The brand name for alt text comes from the
+       optional `name` shortcode parameter, falling back to a humanized
+       version of the slug. No outbound link, no source line. */}}
+  {{- $name := .Get "name" | default (replace $slug "-" " " | title) -}}
+  {{- $imgPath := printf "/images/agencies/%s-home.webp" $slug -}}
+  <div class="pr-agency-triptych pr-agency-triptych--solo" data-pr-slug="{{ $slug }}" data-pr-count="1">
+    <figure class="pr-agency-card pr-agency-card--home">
+      <img src="{{ $imgPath }}"
+           alt="{{ $name }} homepage screenshot — B2B marketing agency"
+           loading="lazy"
+           width="640"
+           height="400">
+    </figure>
+  </div>
+{{- else -}}
+{{- $name := $agency.name -}}
+{{- $cards := slice -}}
+{{- $cards = $cards | append (dict "label" "Homepage"
+    "url"     $agency.homepage
+    "suffix"  "home"
+    "altHint" "main site landing page") -}}
+{{- with $agency.pricing -}}
+  {{- $cards = $cards | append (dict "label" "Pricing"
+      "url"     .
+      "suffix"  "pricing"
+      "altHint" "service packages and plans") -}}
+{{- end -}}
+{{- with $agency.contact -}}
+  {{- $cards = $cards | append (dict "label" "Contact"
+      "url"     .
+      "suffix"  "contact"
+      "altHint" "get in touch / book a call") -}}
+{{- end -}}
+{{- $homeUrl := urls.Parse $agency.homepage -}}
+{{- $homeHost := strings.TrimPrefix "www." $homeUrl.Host -}}
+<div class="pr-agency-triptych" data-pr-slug="{{ $slug }}" data-pr-count="{{ len $cards }}">
+{{- range $cards }}
+  {{- $imgPath := printf "/images/agencies/%s-%s.webp" $slug .suffix }}
+  <figure class="pr-agency-card pr-agency-card--{{ .suffix }}">
+    <img src="{{ $imgPath }}"
+         alt="{{ $name }} {{ lower .label }} screenshot — {{ .altHint }} captured {{ $captured }}"
+         loading="lazy"
+         width="640"
+         height="400">
+    <figcaption>{{ .label }}</figcaption>
+  </figure>
+{{- end }}
+</div>
+<p class="pr-agency-triptych__source">Source: <a href="{{ $agency.homepage }}" target="_blank" rel="nofollow noopener">{{ $homeHost }}</a> · Screenshots captured {{ $captured }}</p>
+{{- end -}}
