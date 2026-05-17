@@ -82,6 +82,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. uSERP
 
 
+
 {{< agency-triptych slug="userp" name="uSERP" >}}
 **Score: 95** · Link Quality 30/30 | SaaS Specialisation 23/25 | Proven Results 20/20 | Transparency 14/15 | Pricing & Value 8/10
 
@@ -100,6 +101,7 @@ Clients like Monday.com, Robinhood, and Freshworks have engaged them specificall
 **Pricing:** $10,000+/mo · Premium retainer - contact for scope · [Visit uSERP](https://userp.io/contact/)
 
 ### 2. PipeRocket Digital
+
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
@@ -124,6 +126,7 @@ Our 25-person team has worked with 50+ B2B SaaS companies - Storylane, LeadSquar
 ### 3. Above Apex
 
 
+
 {{< agency-triptych slug="above-apex" name="Above Apex" >}}
 **Score: 89** · Link Quality 27/30 | SaaS Specialisation 25/25 | Proven Results 18/20 | Transparency 12/15 | Pricing & Value 7/10
 
@@ -142,6 +145,7 @@ Their positioning as B2B SaaS-only means every publisher relationship, every con
 **Pricing:** Custom · Contact for retainer pricing · [Visit Above Apex](https://aboveapex.com/contact/)
 
 ### 4. Siege Media
+
 
 
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
@@ -164,6 +168,7 @@ They have executed this at scale for HubSpot, Airbnb, and Y Combinator, and thei
 ### 5. Editorial.Link
 
 
+
 {{< agency-triptych slug="editorial-link" name="Editorial.Link" >}}
 **Score: 83** · Link Quality 28/30 | SaaS Specialisation 20/25 | Proven Results 16/20 | Transparency 12/15 | Pricing & Value 7/10
 
@@ -182,6 +187,7 @@ Their service lineup includes editorial backlinks, broken link building, linkabl
 **Pricing:** $2,500-$7,000+/mo · Based on placement volume and DR targets · [Visit Editorial.Link](https://editorial.link/contact/)
 
 ### 6. Loopex Digital
+
 
 
 {{< agency-triptych slug="loopex-digital" name="Loopex Digital" >}}
@@ -203,6 +209,8 @@ Their most cited case study documents 1,937% traffic increase for SenseHR - buil
 
 ### 7. Jeenam
 
+
+{{< agency-triptych slug="jeenam" name="Jeenam" >}}
 **Score: 78** · Link Quality 23/30 | SaaS Specialisation 23/25 | Proven Results 15/20 | Transparency 11/15 | Pricing & Value 6/10
 
 **Best for:** In-house SaaS SEO teams that need a dedicated editorial link building partner without full agency retainer overhead
@@ -220,6 +228,7 @@ They appear consistently across TripleDart, NewMedia, CuttingEdgePR, and Backlin
 **Pricing:** Custom · Contact for retainer or per-link pricing · [Visit Jeenam](https://jeenam.in/contact/)
 
 ### 8. OneLittleWeb
+
 
 
 {{< agency-triptych slug="onelittleweb" name="OneLittleWeb" >}}
@@ -242,6 +251,7 @@ They appear in FilterGrade and T-Ranks' top SaaS link building lists, and their 
 ### 9. Growfusely
 
 
+
 {{< agency-triptych slug="growfusely" name="Growfusely" >}}
 **Score: 72** · Link Quality 21/30 | SaaS Specialisation 20/25 | Proven Results 14/20 | Transparency 11/15 | Pricing & Value 6/10
 
@@ -260,6 +270,7 @@ They appear across TripleDart, NewMedia, and CuttingEdgePR's SaaS link building 
 **Pricing:** Custom · Contact for content + link retainer pricing · [Visit Growfusely](https://growfusely.com/contact/)
 
 ### 10. Victorious
+
 
 
 {{< agency-triptych slug="victorious" name="Victorious" >}}

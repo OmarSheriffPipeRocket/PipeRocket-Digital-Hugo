@@ -67,6 +67,8 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### **1. Draft.dev**
 
+
+{{< agency-triptych slug="draft-dev" name="Draft.dev" >}}
 95
 
 Developer Audience Expertise 29/30 | Technical Content Quality 24/25 | Demand Generation & Pipeline Attribution 19/20 | Channel Coverage 14/15 | Client Reviews 9/10
@@ -97,6 +99,7 @@ Not ideal for: Companies that need full-funnel demand generation or paid media a
 Pricing: From $7,000/mo · 3-month minimum · [Visit Draft.dev →](https://draft.dev/)
 
 ### **2. PipeRocket Digital**
+
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
@@ -132,6 +135,7 @@ Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [G
 ### **3. Powered by Search**
 
 
+
 {{< agency-triptych slug="powered-by-search" name="Powered by Search" >}}
 88
 
@@ -164,6 +168,8 @@ Pricing: Custom · Contact for scope and retainer structure · [Visit Powered by
 
 ### **4. Perceptric**
 
+
+{{< agency-triptych slug="perceptric" name="Perceptric" >}}
 85
 
 Developer Audience Expertise 26/30 | Technical Content Quality 22/25 | Demand Generation & Pipeline Attribution 17/20 | Channel Coverage 12/15 | Client Reviews 8/10
@@ -194,6 +200,7 @@ Not ideal for: Companies that need full-funnel demand generation or paid media a
 Pricing: Custom · Contact for devtools retainer scope · [Visit Perceptric →](https://perceptric.com/)
 
 ### **5. Animalz**
+
 
 
 {{< agency-triptych slug="animalz" name="Animalz" >}}
@@ -228,6 +235,8 @@ Pricing: From $10,000/mo · Editorial retainer — contact for scope · [Visit A
 
 ### **6. EveryDeveloper**
 
+
+{{< agency-triptych slug="everydeveloper" name="EveryDeveloper" >}}
 79
 
 Developer Audience Expertise 25/30 | Technical Content Quality 20/25 | Demand Generation & Pipeline Attribution 15/20 | Channel Coverage 11/15 | Client Reviews 8/10
@@ -264,6 +273,7 @@ Pricing: Custom · Contact for scope and retainer structure · [Visit EveryDevel
 ### **7. Dev Spotlight**
 
 
+
 {{< agency-triptych slug="dev-spotlight" name="Dev Spotlight" >}}
 77
 
@@ -295,6 +305,7 @@ Not ideal for: Companies that need a full-service demand generation partner — 
 Pricing: Custom · Project and retainer options available · [Visit Dev Spotlight →](https://www.devspotlight.com/)
 
 ### **8. GrowthSpree**
+
 
 
 {{< agency-triptych slug="growthspree" name="GrowthSpree" >}}
@@ -334,6 +345,7 @@ Pricing: Custom · Contact for growth-stage retainer scope · [Visit GrowthSpree
 ### **9. Hoopy**
 
 
+
 {{< agency-triptych slug="hoopy" name="Hoopy" >}}
 73
 
@@ -365,6 +377,7 @@ Not ideal for: Companies that need fast pipeline output from demand generation o
 Pricing: Custom · DevRel and community retainer — contact for scope · [Visit Hoopy →](https://hoopy.io/)
 
 ### **10. Refine Labs**
+
 
 
 {{< agency-triptych slug="refine-labs" name="Refine Labs" >}}
@@ -402,6 +415,7 @@ Pricing: Custom · Contact for retainer scope and pricing · [Visit Refine Labs 
 > 💡 **Did you know?** According to PipeRocket’s research, **74% of B2B SaaS buyers say they had already identified their shortlist before speaking to a sales representative** — meaning the content and community presence your devtools marketing agency builds is the primary input to whether your product makes the shortlist at all.
 
 ### **11. Kalungi**
+
 
 
 {{< agency-triptych slug="kalungi" name="Kalungi" >}}

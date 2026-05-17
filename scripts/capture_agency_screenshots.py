@@ -122,6 +122,20 @@ URL_OVERRIDES = {
     "the social shepherd": "https://thesocialshepherd.com/",
     "thrive digital": "https://www.thrivedigital.com/",
     "new north": "https://newnorth.com/",
+    # Round 3 — agencies with no existing capture (added 2026-05-17).
+    "skale": "https://skale.so/",
+    "jeenam": "https://jeenaminfotech.com/",
+    "inturact": "https://www.inturact.com/",
+    "embarque": "https://www.embarque.io/",
+    "tripledart": "https://www.tripledart.com/",
+    "cyberwhyze": "https://www.whyzelabs.com/",
+    "magnetude consulting": "https://www.magnetudeconsulting.com/",
+    "jumpfactor": "https://www.jumpfactor.net/",
+    "draft.dev": "https://draft.dev/",
+    "perceptric": "https://perceptric.com/",
+    "everydeveloper": "https://everydeveloper.com/",
+    "clarity": "https://clarity.global/",
+    "prop tech marketing": "https://www.proptechmarketing.com/",
 }
 
 # Review-site URLs to ignore when auto-detecting the brand homepage.

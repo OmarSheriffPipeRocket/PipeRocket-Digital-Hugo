@@ -66,8 +66,8 @@ Here is a quick summary of all 8 SaaS GEO agencies listed in this blog:
 ### **1.** **PipeRocket Digital** **– Best For: B2B SaaS AI Visibility and Pipeline**
 
 
+
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
-{{< agency-triptych slug="piperocket-digital" name="PipeRocket" >}}
 We started PipeRocket as a SaaS marketing agency before the rise of AI engines. Most SaaS GEO agencies now are just relabeling existing SEO as “AI optimized”. We did not want to do that.
 
 **What we do?**
@@ -102,6 +102,7 @@ Everything we do traces back to whether your buyers are finding you when they ar
 ### **2. Siege Media – Best For: Content-Led GEO Authority Building**
 
 
+
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
 Siege Media’s GEO approach rests on three pillars: data journalism, digital PR, and proprietary technology. [LLM](/glossary/what-is-an-llm/ "Glossary: LLM")s reference original research heavily, so content built around unique data is far more likely to be cited than generic articles.
 
@@ -128,6 +129,8 @@ Their BlueprintIQ tool audits content against live [ChatGPT](/blogs/how-to-rank-
 
 ### 3. The SEO Works – Best For: GEO Universal Information Infrastructure
 
+
+{{< agency-triptych slug="the-seo-works" name="The SEO Works" >}}
 ![The SEO Works GEO Page](/images/wp-import/03_The-SEO-Works-GEO-Page-1024x673.webp)
 
 [The SEO Works](https://www.seoworks.co.uk/seo-services/generative-engine-optimisation-geo/) earns its spot because they approach SaaS not just as a content challenge, but as a data engineering solution. While many agencies focus on “great content” and hope AI notices, The SEO Works uses their proprietary Universal Information Infrastructure methodology to ensure your software’s value proposition is built into the datasets that LLMs use to generate recommendations.
@@ -159,6 +162,7 @@ They recognize that SaaS buyers use AI to compare features, pricing, and integra
 ### **4. FirstPageSage – Best For: Thought Leadership GEO for B2B SaaS**
 
 
+
 {{< agency-triptych slug="firstpagesage" name="FirstPageSage" >}}
 {{< agency-triptych slug="first-page-sage" name="FirstPageSage" >}}
 FirstPageSage coined the term GEO and ran the first documented study on AI chatbot ranking algorithms. Founder Evan Bailyn ran 11,128 commercial queries across ChatGPT, Gemini, Perplexity, and Claude to map the specific ranking factors each platform uses. That research drives their client programs directly.
@@ -183,6 +187,7 @@ Their methodology, which they call authority content architecture, focuses on ge
 **Their Case Studies:** [FirstPageSage Case Studies](https://firstpagesage.com/case-studies/)
 
 ### **5. Omniscient Digital – Best For: SaaS-Focused SEO and GEO as One System**
+
 
 
 {{< agency-triptych slug="omniscient-digital" name="Omniscient Digital" >}}
@@ -212,6 +217,7 @@ They require content with a strong point of view and unique insight, because gen
 ### **6. Minuttia – Best For: Strategic GEO for B2B SaaS Niche Authority**
 
 
+
 {{< agency-triptych slug="minuttia" name="Minuttia" >}}
 Minuttia is B2B SaaS-only. Their GEO playbook blends entity SEO, topical authority, and content distribution to capture qualified demand in generative engines including AI Overviews and chat search. Managing Director George Chasiotis has published research on entity SEO and topical authority as foundational signals for AI visibility.
 
@@ -236,6 +242,7 @@ Rather than running keyword-driven content calendars, they build strategy around
 ### **7. Searchbloom – Best For: SEO and GEO With Strong Technical Foundations**
 
 
+
 {{< agency-triptych slug="searchbloom" name="Searchbloom" >}}
 Searchbloom has two documented methodologies directly relevant to GEO. ART covers traditional SEO (Authority, Relevance, Technology) and MERIT is built specifically for AI search: Mentions, Evidence, Relevance, Inclusion, and Transform, mapped to how LLMs evaluate and cite content.
 
@@ -258,6 +265,7 @@ What separates them is that they implement rather than just recommend. Six in-ho
 **Their Case Studies:** [Searchbloom Case Studies](https://www.searchbloom.com/case-studies/)
 
 ### **8. Single Grain – Best For: AI-Accelerated GEO and Content at Scale**
+
 
 
 {{< agency-triptych slug="single-grain" name="Single Grain" >}}

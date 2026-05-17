@@ -67,6 +67,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### **1. Beacon Digital**
 
 
+
 {{< agency-triptych slug="beacon-digital" name="Beacon Digital" >}}
 95
 
@@ -98,6 +99,7 @@ Not ideal for: Early-stage companies still defining their ICP or positioning —
 Pricing: $5,000 to $15,000/mo · Full-service retainer · [Visit Beacon Digital →](https://www.beacondigitalmarketing.com/)
 
 ### **2. PipeRocket Digital**
+
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
@@ -133,6 +135,7 @@ Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [G
 ### **3. CyberTheory**
 
 
+
 {{< agency-triptych slug="cybertheory" name="CyberTheory" >}}
 85
 
@@ -165,6 +168,8 @@ Pricing: Custom · Mid-market and enterprise retainers — contact for scope · 
 
 ### **4. CyberWhyze**
 
+
+{{< agency-triptych slug="cyberwhyze" name="CyberWhyze" >}}
 82
 
 Cybersecurity Market Expertise 25/30 | Demand Generation & Pipeline Attribution 21/25 | Content & Thought Leadership 17/20 | Channel Coverage 11/15 | Client Reviews 8/10
@@ -195,6 +200,7 @@ Not ideal for: Early-stage vendors that need fast pipeline output from direct-re
 Pricing: Custom · Project and retainer models available — contact for scope · [Visit CyberWhyze →](https://cyberwhyze.com/)
 
 ### **5. The Rubicon Agency**
+
 
 
 {{< agency-triptych slug="the-rubicon-agency" name="The Rubicon Agency" >}}
@@ -236,6 +242,7 @@ Pricing: Custom · Mid-market to enterprise retainer — contact for scope · [V
 ### **6. Walker Sands**
 
 
+
 {{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
 77
 
@@ -268,6 +275,8 @@ Pricing: Custom · Full-service B2B retainer — contact for scope · [Visit Wal
 
 ### **7. Magnetude Consulting**
 
+
+{{< agency-triptych slug="magnetude-consulting" name="Magnetude Consulting" >}}
 75
 
 Cybersecurity Market Expertise 23/30 | Demand Generation & Pipeline Attribution 19/25 | Content & Thought Leadership 15/20 | Channel Coverage 10/15 | Client Reviews 8/10
@@ -306,6 +315,7 @@ Pricing: $3,000–$10,000/mo · Flexible retainer and project models · [Visit M
 ### **8. Bay Leaf Digital**
 
 
+
 {{< agency-triptych slug="bay-leaf-digital" name="Bay Leaf Digital" >}}
 73
 
@@ -338,6 +348,8 @@ Pricing: $3,000–$8,000/mo · Growth-stage retainer — contact for scope · [V
 
 ### **09. Jumpfactor**
 
+
+{{< agency-triptych slug="jumpfactor" name="Jumpfactor" >}}
 71
 
 Cybersecurity Market Expertise 22/30 | Demand Generation & Pipeline Attribution 18/25 | Content & Thought Leadership 14/20 | Channel Coverage 10/15 | Client Reviews 7/10
@@ -374,6 +386,7 @@ Pricing: $2,500–$8,000/mo · Retainer models for MSPs and cybersecurity firms 
 💡 **Did you know?** According to PipeRocket’s research, **65% of B2B buyers complete more than half of their vendor evaluation before speaking to a sales representative** — making the content and SEO infrastructure you build with a cybersecurity marketing agency a direct input to whether your brand appears in that self-directed research phase.
 
 ### **10. Kalungi**
+
 
 
 {{< agency-triptych slug="kalungi" name="Kalungi" >}}

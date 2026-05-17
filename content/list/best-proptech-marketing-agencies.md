@@ -58,6 +58,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. Insivia
 
 
+
 {{< agency-triptych slug="insivia" name="Insivia" >}}
 95
 
@@ -89,6 +90,7 @@ Not ideal for: Early-stage proptech startups that need fast, low-budget paid pip
 Pricing: Custom · Full-service proptech retainer · [Visit Insivia](https://www.insivia.com/)
 
 ### 2. PipeRocket Digital
+
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
@@ -124,6 +126,7 @@ Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [G
 ### 3. Thrive Internet Marketing
 
 
+
 {{< agency-triptych slug="thrive-internet-marketing" name="Thrive Internet Marketing" >}}
 89
 
@@ -155,6 +158,7 @@ Not ideal for: Enterprise proptech companies that need deep specialist expertise
 Pricing: $1,500-$5,000/mo · Full-service digital retainer · [Visit Thrive Internet Marketing](https://thriveagency.com/)
 
 ### 4. Upgrow
+
 
 
 {{< agency-triptych slug="upgrow" name="Upgrow" >}}
@@ -190,6 +194,7 @@ Pricing: $3,000-$10,000/mo · SEO and paid media retainer · [Visit Upgrow](http
 ### 5. Growth Gorilla
 
 
+
 {{< agency-triptych slug="growth-gorilla" name="Growth Gorilla" >}}
 84
 
@@ -222,6 +227,8 @@ Pricing: $2,000-$8,000/mo · Growth marketing retainer · [Visit Growth Gorilla]
 
 ### 6. Clarity
 
+
+{{< agency-triptych slug="clarity" name="Clarity" >}}
 82
 
 Proptech Industry Expertise 25/30 | Pipeline & Lead Generation 20/25 | Proven Results 16/20 | Channel Breadth 12/15 | Pricing & Transparency 9/10
@@ -252,6 +259,7 @@ Not ideal for: Companies that need direct pipeline generation through paid or or
 Pricing: Custom · PR and communications retainer · [Visit Clarity](https://clarity.pr/)
 
 ### 7. Geekly Media
+
 
 
 {{< agency-triptych slug="geekly-media" name="Geekly Media" >}}
@@ -287,6 +295,7 @@ Pricing: $2,000-$6,000/mo · Inbound and content retainer · [Visit Geekly Media
 ### 8. First Page Sage
 
 
+
 {{< agency-triptych slug="first-page-sage" name="First Page Sage" >}}
 78
 
@@ -318,6 +327,7 @@ Not ideal for: Companies that need fast pipeline from paid channels or ABM. Firs
 Pricing: $5,000-$15,000/mo · SEO and GEO content programme · [Visit First Page Sage](https://firstpagesage.com/)
 
 ### 9. NoGood
+
 
 
 {{< agency-triptych slug="nogood" name="NoGood" >}}
@@ -353,6 +363,7 @@ Want to see how PipeRocket stacks up? Read our [PipeRocket vs NoGood](/compare/p
 Pricing: $5,000-$15,000/mo · Growth squad retainer · [Visit NoGood](https://nogood.io/)
 
 ### 10. WebFX
+
 
 
 {{< agency-triptych slug="webfx" name="WebFX" >}}
@@ -421,6 +432,7 @@ Pricing: $3,000-$8,000/mo · PropTech specialist retainer · [Visit Prop Tech Ma
 ### 12. Starberry
 
 
+
 {{< agency-triptych slug="starberry" name="Starberry" >}}
 70
 
@@ -452,6 +464,7 @@ Not ideal for: Proptech companies focused exclusively on North American markets.
 Pricing: Custom · UK and European proptech digital retainer · [Visit Starberry](https://www.starberry.tv/)
 
 ### 13. UpSpring
+
 
 
 {{< agency-triptych slug="upspring" name="UpSpring" >}}
@@ -487,6 +500,7 @@ Pricing: Custom · PropTech PR retainer · [Visit UpSpring](https://upspringpr.c
 ### 14. NisonCo
 
 
+
 {{< agency-triptych slug="nisonco" name="NisonCo" >}}
 66
 
@@ -518,6 +532,7 @@ Not ideal for: Growth-stage or enterprise proptech companies that need demand ge
 Pricing: $2,000-$6,000/mo · PR and content retainer · [Visit NisonCo](https://nisonco.com/)
 
 ### 15. SmartSites
+
 
 
 {{< agency-triptych slug="smartsites" name="SmartSites" >}}

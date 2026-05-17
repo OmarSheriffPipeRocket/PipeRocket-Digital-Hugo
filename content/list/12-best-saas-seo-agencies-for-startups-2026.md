@@ -78,6 +78,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. PipeRocket Digital
 
 
+
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 93
 
@@ -111,6 +112,8 @@ Pricing: Flexible · Startups from $1,500/mo · Growth from $3,500/mo · Enterpr
 
 ### 2. Grow and Convert
 
+
+{{< agency-triptych slug="grow-and-convert" name="Grow and Convert" >}}
 91
 
 Pipeline Impact 28/30 | Startup Fit 22/25 | Content Quality 20/20 | AI Readiness 12/15 | Pricing 9/10
@@ -200,6 +203,8 @@ Pricing: Mid-Premium · From $10,000–$15,000/month
 
 
 
+
+{{< agency-triptych slug="embarque" name="Embarque" >}}
 84
 
 
@@ -295,6 +300,8 @@ Pricing: Premium · Starts ~$15,000/month
 
 
 
+
+{{< agency-triptych slug="tripledart" name="TripleDart" >}}
 82
 
 
@@ -344,6 +351,8 @@ Pricing: Mid-Range · $5,000–$12,000/month
 
 
 
+
+{{< agency-triptych slug="revenuezen" name="RevenueZen" >}}
 81
 
 
@@ -485,6 +494,8 @@ Pricing: Mid-Range · $3,000–$7,000/month
 
 
 
+
+{{< agency-triptych slug="skale" name="Skale" >}}
 77
 
 

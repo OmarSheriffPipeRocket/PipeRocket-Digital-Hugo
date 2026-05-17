@@ -66,6 +66,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. uSERP
 
 
+
 {{< agency-triptych slug="userp" name="uSERP" >}}
 95
 
@@ -93,6 +94,7 @@ Not ideal for: Early-stage or bootstrapped SaaS teams with limited budgets. uSER
 Pricing: $10,000+/mo · Premium retainer — contact for scope · [Visit uSERP](https://userp.io/contact/)
 
 ### 2. PipeRocket Digital
+
 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
@@ -128,6 +130,7 @@ Pricing: Custom retainer · Contact us for scope and fit assessment · [Work Wit
 ### 3. Above Apex
 
 
+
 {{< agency-triptych slug="above-apex" name="Above Apex" >}}
 89
 
@@ -154,6 +157,7 @@ Not ideal for: Non-SaaS businesses, or SaaS companies needing link building comb
 Pricing: Custom · Contact for retainer pricing · [Visit Above Apex](https://aboveapex.com/contact/)
 
 ### 4. Siege Media
+
 
 
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
@@ -187,6 +191,7 @@ Pricing: $5,000+/mo · Retainer-based, contact for scope · [Visit Siege Media](
 
 
 ### 5. Editorial.Link
+
 
 
 
@@ -242,6 +247,7 @@ Pricing: $2,500–$7,000+/mo · Based on placement volume and DR targets · [Vis
 
 
 
+
 {{< agency-triptych slug="loopex-digital" name="Loopex Digital" >}}
 81
 
@@ -292,6 +298,8 @@ Pricing: Hourly · $25–$49/hr · Contact for project estimates · [Visit Loope
 
 
 
+
+{{< agency-triptych slug="jeenam" name="Jeenam" >}}
 78
 
 
@@ -338,6 +346,7 @@ Pricing: Custom · Contact for retainer or per-link pricing · [Visit Jeenam](ht
 
 
 ### 8. OneLittleWeb
+
 
 
 
@@ -393,6 +402,7 @@ Pricing: $1,500–$5,000+/mo · Based on volume and DR targets · [Visit OneLitt
 
 
 
+
 {{< agency-triptych slug="growfusely" name="Growfusely" >}}
 72
 
@@ -440,6 +450,7 @@ Pricing: Custom · Contact for content + link retainer pricing · [Visit Growfus
 
 
 ### 10. Victorious
+
 
 
 

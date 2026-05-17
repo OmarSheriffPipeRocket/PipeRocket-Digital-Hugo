@@ -106,6 +106,7 @@ Pricing: Custom · Starts from $8,000/month
 ### 2. PipeRocket Digital
 
 
+
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 92
 
@@ -303,6 +304,8 @@ Pricing: Mid-Range · Starts from $5,000/month
 
 ### 7. Skale
 
+
+{{< agency-triptych slug="skale" name="Skale" >}}
 77
 
 SaaS Growth Specialization 23/30 | Multi-Channel Execution 19/25 | Revenue & Pipeline Attribution 16/20 | ICP & Positioning Depth 10/15 | Client Reviews 9/10
@@ -451,6 +454,8 @@ Pricing: Mid-Range · Contact for pricing
 
 ### 11. Inturact
 
+
+{{< agency-triptych slug="inturact" name="Inturact" >}}
 69
 
 SaaS Growth Specialization 21/30 | Multi-Channel Execution 16/25 | Revenue & Pipeline Attribution 13/20 | ICP & Positioning Depth 10/15 | Client Reviews 9/10
