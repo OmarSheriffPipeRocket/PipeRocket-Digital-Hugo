@@ -78,8 +78,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 93
 
 Pipeline Impact 28/30 | Startup Fit 25/25 | Content Quality 19/20 | AI Readiness 13/15 | Pricing 8/10
@@ -139,8 +138,7 @@ Pricing: Mid-Premium · $9,000–$10,000/month · Month-to-month available
 
 ### 3. SimpleTiger
 
-![SimpleTiger homepage screenshot — B2B marketing agency](/images/agencies/simpletiger-home.webp)
-
+{{< agency-triptych slug="simpletiger" name="SimpleTiger" >}}
 88
 
 Pipeline Impact 25/30 | Startup Fit 25/25 | Content Quality 18/20 | AI Readiness 11/15 | Pricing 9/10
@@ -169,8 +167,7 @@ Pricing: Mid-Range · $3,000–$8,000/month · Transparent, no hidden fees
 
 ### 4. Omniscient Digital
 
-![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
-
+{{< agency-triptych slug="omniscient-digital" name="Omniscient Digital" >}}
 87
 
 Pipeline Impact 26/30 | Startup Fit 20/25 | Content Quality 20/20 | AI Readiness 12/15 | Pricing 9/10
@@ -249,10 +246,7 @@ Pricing: Entry · From $1,500–$4,000/month · No long-term contract
 
 ### 6. Animalz
 
-![Animalz homepage screenshot — B2B marketing agency](/images/agencies/animalz-home.webp)
-
-
-
+{{< agency-triptych slug="animalz" name="Animalz" >}}
 83
 
 
@@ -397,10 +391,7 @@ Pricing: Mid-Premium · Challenger $9,625/mo · Dominance $14,325/mo · Month-to
 
 ### 9. Minuttia
 
-![Minuttia homepage screenshot — B2B marketing agency](/images/agencies/minuttia-home.webp)
-
-
-
+{{< agency-triptych slug="minuttia" name="Minuttia" >}}
 80
 
 
@@ -446,10 +437,7 @@ Pricing: Mid-Range · $3,000–$8,000/month
 
 ### 10. Breaking B2B
 
-![Breaking B2B homepage screenshot — B2B marketing agency](/images/agencies/breaking-b2b-home.webp)
-
-
-
+{{< agency-triptych slug="breaking-b2b" name="Breaking B2B" >}}
 78
 
 
@@ -543,10 +531,7 @@ Pricing: Mid-Premium · $5,000–$15,000/month (custom)
 
 ### 12. First Page Sage
 
-![First Page Sage homepage screenshot — B2B marketing agency](/images/agencies/first-page-sage-home.webp)
-
-
-
+{{< agency-triptych slug="first-page-sage" name="First Page Sage" >}}
 76
 
 

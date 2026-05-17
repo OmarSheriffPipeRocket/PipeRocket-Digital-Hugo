@@ -67,8 +67,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. Refine Labs
 
-![Refine Labs homepage screenshot — B2B marketing agency](/images/agencies/refine-labs-home.webp)
-
+{{< agency-triptych slug="refine-labs" name="Refine Labs" >}}
 94
 
 Demand Gen Specialization 29/30 | Pipeline Strategy 28/30 | Client Results 19/20 | ABM & Intent 9/10 | Reviews 9/10
@@ -97,8 +96,7 @@ Pricing: Custom · Contact for pricing
 ### 2. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 91
 
 Demand Gen Specialization 27/30 | Pipeline Strategy 28/30 | Client Results 18/20 | ABM & Intent 9/10 | Reviews 9/10
@@ -132,8 +130,7 @@ Pricing: Flexible · Starts from $5,000/mo · Contact for tailored quotes · [Ge
 ### 3. Directive Consulting
 
 
-![Directive Consulting homepage screenshot — B2B marketing agency](/images/agencies/directive-consulting-home.webp)
-
+{{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 88
 
 Demand Gen Specialization 27/30 | Pipeline Strategy 26/30 | Client Results 18/20 | ABM & Intent 8/10 | Reviews 9/10
@@ -168,8 +165,7 @@ Pricing: Custom · Typically $15,000/mo+ for full-service engagements · [Visit 
 
 
 
-![Intelligent Demand homepage screenshot — B2B marketing agency](/images/agencies/intelligent-demand-home.webp)
-
+{{< agency-triptych slug="intelligent-demand" name="Intelligent Demand" >}}
 85
 
 
@@ -220,8 +216,7 @@ Pricing: Custom · Enterprise retainer — contact for scope · [Visit Intellige
 
 
 
-![SmartBug Media homepage screenshot — B2B marketing agency](/images/agencies/smartbug-media-home.webp)
-
+{{< agency-triptych slug="smartbug-media" name="SmartBug Media" >}}
 82
 
 
@@ -272,8 +267,7 @@ Pricing: Custom · Mid-market retainer — contact for scope · [Visit SmartBug]
 
 
 
-![Ironpaper homepage screenshot — B2B marketing agency](/images/agencies/ironpaper-home.webp)
-
+{{< agency-triptych slug="ironpaper" name="Ironpaper" >}}
 79
 
 
@@ -324,8 +318,7 @@ Pricing: Custom · Contact for pricing · [Visit Ironpaper](https://www.ironpape
 
 
 
-![Heinz Marketing homepage screenshot — B2B marketing agency](/images/agencies/heinz-marketing-home.webp)
-
+{{< agency-triptych slug="heinz-marketing" name="Heinz Marketing" >}}
 77
 
 
@@ -376,8 +369,7 @@ Pricing: Custom · Contact for pricing · [Visit Heinz Marketing](https://www.he
 
 
 
-![Walker Sands homepage screenshot — B2B marketing agency](/images/agencies/walker-sands-home.webp)
-
+{{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
 75
 
 
@@ -428,8 +420,7 @@ Pricing: Custom · Full-service B2B retainer — contact for scope · [Visit Wal
 
 
 
-![New North homepage screenshot — B2B marketing agency](/images/agencies/new-north-home.webp)
-
+{{< agency-triptych slug="new-north" name="New North" >}}
 73
 
 
@@ -480,8 +471,7 @@ Pricing: $5,000 – $15,000/mo · Contact for tailored scope · [Visit New North
 
 
 
-![Hinge Marketing homepage screenshot — B2B marketing agency](/images/agencies/hinge-marketing-home.webp)
-
+{{< agency-triptych slug="hinge-marketing" name="Hinge Marketing" >}}
 71
 
 
@@ -532,8 +522,7 @@ Pricing: Custom · Contact for pricing · [Visit Hinge Marketing](https://hingem
 
 
 
-![Wpromote homepage screenshot — B2B marketing agency](/images/agencies/wpromote-home.webp)
-
+{{< agency-triptych slug="wpromote" name="Wpromote" >}}
 69
 
 

@@ -69,8 +69,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 96
 
-![KlientBoost](/images/agencies/klientboost-home.webp)
-
+{{< agency-triptych slug="klientboost" name="KlientBoost" >}}
 Pipeline Impact 29/30 | B2B Specialization 24/25 | Strategic Depth 19/20 | Reporting Transparency 14/15 | Client Retention 10/10
 
 Best for: B2B brands seeking aggressive creative testing to improve lead quality and conversion rates.
@@ -103,8 +102,7 @@ Pricing: $10,000-$25,000/mo – Based on ad spend and creative scope – [Visit 
 ### 2. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 94
 
 Pipeline Impact 28/30 | B2B Specialization 24/25 | Strategic Depth 19/20 | Reporting Transparency 14/15 | Client Retention 9/10
@@ -138,8 +136,7 @@ Pricing: $5,000-$15,000/mo – Based on ad spend and integration complexity – 
 
 91
 
-![Directive Consulting](/images/agencies/directive-consulting-home.webp)
-
+{{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 Pipeline Impact 27/30 | B2B Specialization 23/25 | Strategic Depth 18/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
 Best for: Enterprise SaaS companies with complex, multi-stakeholder sales cycles requiring sophisticated campaign architecture.
@@ -173,8 +170,7 @@ Pricing: $15,000-$40,000/mo – Based on enterprise scope and channels – [Visi
 
 89
 
-![Single Grain](/images/agencies/single-grain-home.webp)
-
+{{< agency-triptych slug="single-grain" name="Single Grain" >}}
 Pipeline Impact 26/30 | B2B Specialization 22/25 | Strategic Depth 18/20 | Reporting Transparency 14/15 | Client Retention 9/10
 
 Best for: B2B brands that want paid acquisition integrated with content marketing for sustainable growth.
@@ -205,8 +201,7 @@ Pricing: $5,000-$20,000/mo – Based on scope and integration depth – [Visit S
 ### 5. Disruptive Advertising
 
 
-![Disruptive Advertising homepage screenshot — B2B marketing agency](/images/agencies/disruptive-advertising-home.webp)
-
+{{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
 87
 
 Pipeline Impact 25/30 | B2B Specialization 22/25 | Strategic Depth 17/20 | Reporting Transparency 14/15 | Client Retention 9/10
@@ -239,8 +234,7 @@ Pricing: $3,000-$12,000/mo – Percentage of ad spend model – [Visit Disruptiv
 ### 6. Tinuiti
 
 
-![Tinuiti homepage screenshot — B2B marketing agency](/images/agencies/tinuiti-home.webp)
-
+{{< agency-triptych slug="tinuiti" name="Tinuiti" >}}
 85
 
 ![Tinuiti]()
@@ -276,8 +270,7 @@ Pricing: Custom – Enterprise engagements based on scope and channels – [Visi
 
 83
 
-![SimpleTiger](/images/agencies/simpletiger-home.webp)
-
+{{< agency-triptych slug="simpletiger" name="SimpleTiger" >}}
 Pipeline Impact 24/30 | B2B Specialization 21/25 | Strategic Depth 16/20 | Reporting Transparency 13/15 | Client Retention 9/10
 
 Best for: B2B startups that want Google Ads and SEO working together for efficient growth.
@@ -310,8 +303,7 @@ Pricing: $4,000-$10,000/mo – Based on scope and integration depth – [Visit S
 ### 8. Wpromote
 
 
-![Wpromote homepage screenshot — B2B marketing agency](/images/agencies/wpromote-home.webp)
-
+{{< agency-triptych slug="wpromote" name="Wpromote" >}}
 81
 
 ![Wpromote]()
@@ -348,8 +340,7 @@ Pricing: $10,000-$30,000/mo – Based on scope and technology requirements – [
 ### 9. Closed Loop
 
 
-![Closed Loop homepage screenshot — B2B marketing agency](/images/agencies/closed-loop-home.webp)
-
+{{< agency-triptych slug="closed-loop" name="Closed Loop" >}}
 77
 
 ![Closed Loop]()
@@ -384,8 +375,7 @@ Pricing: $6,000-$18,000/mo – Based on integration complexity – [Visit Closed
 ### 9. Ignite Visibility
 
 
-![Ignite Visibility homepage screenshot — B2B marketing agency](/images/agencies/ignite-visibility-home.webp)
-
+{{< agency-triptych slug="ignite-visibility" name="Ignite Visibility" >}}
 75
 
 Pipeline Impact 22/30 | B2B Specialization 19/25 | Strategic Depth 14/20 | Reporting Transparency 11/15 | Client Retention 9/10
@@ -418,8 +408,7 @@ Pricing: $4,000-$15,000/mo – Based on services and scope – [Visit Ignite Vis
 ### 9. Power Digital
 
 
-![Power Digital homepage screenshot — B2B marketing agency](/images/agencies/power-digital-home.webp)
-
+{{< agency-triptych slug="power-digital" name="Power Digital" >}}
 73
 
 ![Power Digital]()

@@ -68,8 +68,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### **1. Clarity Quest**
 
 
-![Clarity Quest homepage screenshot — B2B marketing agency](/images/agencies/clarity-quest-home.webp)
-
+{{< agency-triptych slug="clarity-quest" name="Clarity Quest" >}}
 95
 
 HealthTech Market Expertise 29/30 | Demand Generation & Pipeline Attribution 24/25 | Content & Thought Leadership 20/20 | Channel Coverage 13/15 | Client Reviews 9/10
@@ -102,8 +101,7 @@ Pricing: Custom · Full-service health IT retainer — contact for scope · [Vis
 ### **2. PipeRocket Digital**
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 92
 
 HealthTech Market Expertise 27/30 | Demand Generation & Pipeline Attribution 24/25 | Content & Thought Leadership 19/20 | Channel Coverage 13/15 | Client Reviews 9/10
@@ -136,8 +134,7 @@ Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [G
 ### **3. NoGood**
 
 
-![NoGood homepage screenshot — B2B marketing agency](/images/agencies/nogood-home.webp)
-
+{{< agency-triptych slug="nogood" name="NoGood" >}}
 88
 
 HealthTech Market Expertise 27/30 | Demand Generation & Pipeline Attribution 22/25 | Content & Thought Leadership 18/20 | Channel Coverage 12/15 | Client Reviews 9/10
@@ -176,8 +173,7 @@ Pricing: Custom · Growth-stage retainer — contact for scope · [Visit NoGood 
 
 
 
-![Insivia homepage screenshot — B2B marketing agency](/images/agencies/insivia-home.webp)
-
+{{< agency-triptych slug="insivia" name="Insivia" >}}
 85
 
 
@@ -235,8 +231,7 @@ Pricing: Custom · Contact for scope and retainer structure · [Visit Insivia �
 
 
 
-![Roketto homepage screenshot — B2B marketing agency](/images/agencies/roketto-home.webp)
-
+{{< agency-triptych slug="roketto" name="Roketto" >}}
 82
 
 
@@ -294,8 +289,7 @@ Pricing: Custom · Contact for inbound and GEO retainer scope · [Visit Roketto 
 
 
 
-![Avenue Z homepage screenshot — B2B marketing agency](/images/agencies/avenue-z-home.webp)
-
+{{< agency-triptych slug="avenue-z" name="Avenue Z" >}}
 79
 
 
@@ -367,8 +361,7 @@ Pricing: Custom · Integrated communications retainer — contact for scope · [
 
 
 
-![HealthLaunchpad homepage screenshot — B2B marketing agency](/images/agencies/healthlaunchpad-home.webp)
-
+{{< agency-triptych slug="healthlaunchpad" name="HealthLaunchpad" >}}
 77
 
 
@@ -426,8 +419,7 @@ Pricing: Custom · Startup-stage retainer — contact for scope · [Visit Health
 
 
 
-![First Page Sage homepage screenshot — B2B marketing agency](/images/agencies/first-page-sage-home.webp)
-
+{{< agency-triptych slug="first-page-sage" name="First Page Sage" >}}
 75
 
 
@@ -499,8 +491,7 @@ Pricing: Custom · Content authority retainer — contact for scope · [Visit Fi
 
 
 
-![Cardinal Digital Marketing homepage screenshot — B2B marketing agency](/images/agencies/cardinal-digital-marketing-home.webp)
-
+{{< agency-triptych slug="cardinal-digital-marketing" name="Cardinal Digital Marketing" >}}
 73
 
 
@@ -558,8 +549,7 @@ Pricing: Custom · Healthcare performance marketing retainer — contact for sco
 
 
 
-![Real Chemistry homepage screenshot — B2B marketing agency](/images/agencies/real-chemistry-home.webp)
-
+{{< agency-triptych slug="real-chemistry" name="Real Chemistry" >}}
 71
 
 
@@ -631,8 +621,7 @@ Pricing: Custom · Enterprise retainer — contact for scope · [Visit Real Chem
 
 
 
-![Klick Health homepage screenshot — B2B marketing agency](/images/agencies/klick-health-home.webp)
-
+{{< agency-triptych slug="klick-health" name="Klick Health" >}}
 69
 
 

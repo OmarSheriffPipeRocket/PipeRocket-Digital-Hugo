@@ -82,8 +82,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. uSERP
 
 
-![uSERP homepage screenshot — B2B marketing agency](/images/agencies/userp-home.webp)
-
+{{< agency-triptych slug="userp" name="uSERP" >}}
 **Score: 95** · Link Quality 30/30 | SaaS Specialisation 23/25 | Proven Results 20/20 | Transparency 14/15 | Pricing & Value 8/10
 
 **Best for:** SaaS companies that need premium, high-authority editorial link placements from major business and technology publications
@@ -103,8 +102,7 @@ Clients like Monday.com, Robinhood, and Freshworks have engaged them specificall
 ### 2. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 **Score: 92** · Link Quality 28/30 | SaaS Specialisation 24/25 | Proven Results 19/20 | Transparency 13/15 | Pricing & Value 8/10
 
 **Best for:** B2B SaaS companies that want backlinks built from the sources AI models trust and buyers actually read - not just high-DR domains that generate traffic with no pipeline contribution
@@ -126,8 +124,7 @@ Our 25-person team has worked with 50+ B2B SaaS companies - Storylane, LeadSquar
 ### 3. Above Apex
 
 
-![Above Apex homepage screenshot — B2B marketing agency](/images/agencies/above-apex-home.webp)
-
+{{< agency-triptych slug="above-apex" name="Above Apex" >}}
 **Score: 89** · Link Quality 27/30 | SaaS Specialisation 25/25 | Proven Results 18/20 | Transparency 12/15 | Pricing & Value 7/10
 
 **Best for:** B2B SaaS companies that want a link building agency working exclusively in their vertical - no generalist baggage
@@ -147,8 +144,7 @@ Their positioning as B2B SaaS-only means every publisher relationship, every con
 ### 4. Siege Media
 
 
-![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
-
+{{< agency-triptych slug="siege-media" name="Siege Media" >}}
 **Score: 86** · Link Quality 26/30 | SaaS Specialisation 21/25 | Proven Results 18/20 | Transparency 13/15 | Pricing & Value 8/10
 
 **Best for:** SaaS companies that want to earn links at scale through content assets - data studies, interactive tools, and guides that attract backlinks without ongoing manual outreach
@@ -168,8 +164,7 @@ They have executed this at scale for HubSpot, Airbnb, and Y Combinator, and thei
 ### 5. Editorial.Link
 
 
-![Editorial.Link homepage screenshot — B2B marketing agency](/images/agencies/editorial-link-home.webp)
-
+{{< agency-triptych slug="editorial-link" name="Editorial.Link" >}}
 **Score: 83** · Link Quality 28/30 | SaaS Specialisation 20/25 | Proven Results 16/20 | Transparency 12/15 | Pricing & Value 7/10
 
 **Best for:** SaaS companies that want backlinks placed within existing high-traffic editorial content - not new guest posts on low-traffic blogs
@@ -189,8 +184,7 @@ Their service lineup includes editorial backlinks, broken link building, linkabl
 ### 6. Loopex Digital
 
 
-![Loopex Digital homepage screenshot — B2B marketing agency](/images/agencies/loopex-digital-home.webp)
-
+{{< agency-triptych slug="loopex-digital" name="Loopex Digital" >}}
 **Score: 81** · Link Quality 24/30 | SaaS Specialisation 22/25 | Proven Results 17/20 | Transparency 11/15 | Pricing & Value 7/10
 
 **Best for:** SaaS teams that want high-authority link acquisition and technical SEO handled by the same agency without managing two separate relationships
@@ -228,8 +222,7 @@ They appear consistently across TripleDart, NewMedia, CuttingEdgePR, and Backlin
 ### 8. OneLittleWeb
 
 
-![OneLittleWeb homepage screenshot — B2B marketing agency](/images/agencies/onelittleweb-home.webp)
-
+{{< agency-triptych slug="onelittleweb" name="OneLittleWeb" >}}
 **Score: 75** · Link Quality 22/30 | SaaS Specialisation 20/25 | Proven Results 15/20 | Transparency 11/15 | Pricing & Value 7/10
 
 **Best for:** SaaS, B2B, and AI companies that need white-hat link volume at quality - across a wide range of verticals and geographies
@@ -249,8 +242,7 @@ They appear in FilterGrade and T-Ranks' top SaaS link building lists, and their 
 ### 9. Growfusely
 
 
-![Growfusely homepage screenshot — B2B marketing agency](/images/agencies/growfusely-home.webp)
-
+{{< agency-triptych slug="growfusely" name="Growfusely" >}}
 **Score: 72** · Link Quality 21/30 | SaaS Specialisation 20/25 | Proven Results 14/20 | Transparency 11/15 | Pricing & Value 6/10
 
 **Best for:** SaaS teams that want content creation and link acquisition managed together under a single data-led strategy
@@ -270,8 +262,7 @@ They appear across TripleDart, NewMedia, and CuttingEdgePR's SaaS link building 
 ### 10. Victorious
 
 
-![Victorious homepage screenshot — B2B marketing agency](/images/agencies/victorious-home.webp)
-
+{{< agency-triptych slug="victorious" name="Victorious" >}}
 **Score: 69** · Link Quality 20/30 | SaaS Specialisation 17/25 | Proven Results 14/20 | Transparency 12/15 | Pricing & Value 6/10
 
 **Best for:** Mid-market SaaS companies that want structured, ROI-focused link building from an agency with the highest verified review volume in the industry

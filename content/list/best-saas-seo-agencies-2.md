@@ -67,8 +67,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ### 1. Breaking B2B
 
-![Breaking B2B homepage screenshot — B2B marketing agency](/images/agencies/breaking-b2b-home.webp)
-
+{{< agency-triptych slug="breaking-b2b" name="Breaking B2B" >}}
 94
 
 SaaS Focus 29/30 | SEO Depth 28/30 | Client Results 19/20 | GEO 9/10 | Reviews 9/10
@@ -97,8 +96,7 @@ Pricing: Custom · Contact for pricing
 ### 2. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 91
 
 SaaS Focus 27/30 | SEO Depth 27/30 | Client Results 19/20 | GEO 9/10 | Reviews 9/10
@@ -131,8 +129,7 @@ Pricing: Flexible · Starts from $5,000/mo · Contact for tailored quotes · [Ge
 
 ### 3. Loopex Digital
 
-![Loopex Digital homepage screenshot — B2B marketing agency](/images/agencies/loopex-digital-home.webp)
-
+{{< agency-triptych slug="loopex-digital" name="Loopex Digital" >}}
 88
 
 SaaS Focus 26/30 | SEO Depth 26/30 | Client Results 18/20 | GEO 9/10 | Reviews 9/10
@@ -188,8 +185,7 @@ Pricing: Mid-Range · Starts from $3,000/month
 
 ### 5. Siege Media
 
-![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
-
+{{< agency-triptych slug="siege-media" name="Siege Media" >}}
 83
 
 SaaS Focus 25/30 | SEO Depth 24/30 | Client Results 16/20 | GEO 9/10 | Reviews 9/10
@@ -222,10 +218,7 @@ Pricing: Mid-Premium · From $5,000/month
 
 ### 6. Kalungi
 
-![Kalungi homepage screenshot — B2B marketing agency](/images/agencies/kalungi-home.webp)
-
-
-
+{{< agency-triptych slug="kalungi" name="Kalungi" >}}
 81
 
 
@@ -274,10 +267,7 @@ Pricing: Custom · Contact for pricing
 
 ### 7. MADX Digital
 
-![MADX Digital homepage screenshot — B2B marketing agency](/images/agencies/madx-digital-home.webp)
-
-
-
+{{< agency-triptych slug="madx-digital" name="MADX Digital" >}}
 79
 
 
@@ -325,10 +315,7 @@ Pricing: Custom · Contact for pricing
 
 ### 8. Omniscient Digital
 
-![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
-
-
-
+{{< agency-triptych slug="omniscient-digital" name="Omniscient Digital" >}}
 77
 
 
@@ -379,10 +366,7 @@ Pricing: Mid-Premium · From $10,000/month
 
 ### 9. First Page Sage
 
-![First Page Sage homepage screenshot — B2B marketing agency](/images/agencies/first-page-sage-home.webp)
-
-
-
+{{< agency-triptych slug="first-page-sage" name="First Page Sage" >}}
 75
 
 
@@ -430,10 +414,7 @@ Pricing: Premium · From $10,000/month
 
 ### 10. Simple Tiger
 
-![Simple Tiger homepage screenshot — B2B marketing agency](/images/agencies/simpletiger-home.webp)
-
-
-
+{{< agency-triptych slug="simpletiger" name="Simple Tiger" >}}
 73
 
 
@@ -482,10 +463,7 @@ Pricing: Mid-Range · Contact for pricing
 
 ### 11. Powered by Search
 
-![Powered by Search homepage screenshot — B2B marketing agency](/images/agencies/powered-by-search-home.webp)
-
-
-
+{{< agency-triptych slug="powered-by-search" name="Powered by Search" >}}
 71
 
 

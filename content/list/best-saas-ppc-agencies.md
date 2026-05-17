@@ -66,8 +66,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 94
 
 Pipeline Impact 28/30 | SaaS Expertise 24/25 | Attribution and Reporting 19/20 | Strategic Depth 14/15 | Client Retention 9/10
@@ -101,8 +100,7 @@ Pricing: Custom – Based on scope and monthly ad spend – [Visit PipeRocket Di
 
 91
 
-![Directive Consulting](/images/agencies/directive-consulting-home.webp)
-
+{{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 Pipeline Impact 27/30 | SaaS Expertise 23/25 | Attribution and Reporting 18/20 | Strategic Depth 14/15 | Client Retention 9/10
 
 Best for: Mid-market and enterprise SaaS companies focused on generating revenue that sales can close.
@@ -136,8 +134,7 @@ Pricing: Custom – Based on scope and engagement level – [Visit Directive Con
 
 89
 
-![Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp)
-
+{{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
 Pipeline Impact 26/30 | SaaS Expertise 22/25 | Attribution and Reporting 18/20 | Strategic Depth 14/15 | Client Retention 9/10
 
 Best for: SaaS companies with existing campaigns that need waste elimination before scaling spend.
@@ -168,8 +165,7 @@ Pricing: Custom – Based on audit scope and management needs – [Visit Disrupt
 ### 4. Powered by Search
 
 
-![Powered by Search homepage screenshot — B2B marketing agency](/images/agencies/powered-by-search-home.webp)
-
+{{< agency-triptych slug="powered-by-search" name="Powered by Search" >}}
 87
 
 Pipeline Impact 25/30 | SaaS Expertise 23/25 | Attribution and Reporting 17/20 | Strategic Depth 13/15 | Client Retention 9/10
@@ -202,8 +198,7 @@ Pricing: Custom – Based on scope and growth stage – [Visit Powered by Search
 ### 5. Bounty Hunter
 
 
-![Bounty Hunter homepage screenshot — B2B marketing agency](/images/agencies/bounty-hunter-home.webp)
-
+{{< agency-triptych slug="bounty-hunter" name="Bounty Hunter" >}}
 85
 
 Pipeline Impact 25/30 | SaaS Expertise 21/25 | Attribution and Reporting 17/20 | Strategic Depth 13/15 | Client Retention 9/10
@@ -237,8 +232,7 @@ Pricing: Custom – Based on campaign scope and pipeline goals – [Visit Bounty
 
 83
 
-![KlientBoost](/images/agencies/klientboost-home.webp)
-
+{{< agency-triptych slug="klientboost" name="KlientBoost" >}}
 Pipeline Impact 24/30 | SaaS Expertise 21/25 | Attribution and Reporting 16/20 | Strategic Depth 13/15 | Client Retention 9/10
 
 Best for: SaaS companies wanting structured experimentation with clear visibility into performance against goals.
@@ -272,8 +266,7 @@ Pricing: Custom – Based on channels and monthly spend – [Visit KlientBoost](
 
 81
 
-![Single Grain](/images/agencies/single-grain-home.webp)
-
+{{< agency-triptych slug="single-grain" name="Single Grain" >}}
 Pipeline Impact 23/30 | SaaS Expertise 21/25 | Attribution and Reporting 16/20 | Strategic Depth 12/15 | Client Retention 9/10
 
 Best for: SaaS companies wanting AI-enhanced campaign optimization alongside conversion rate optimization.
@@ -304,8 +297,7 @@ Pricing: Custom – Based on scope and optimization needs – [Visit Single Grai
 ### 8. NoGood
 
 
-![NoGood homepage screenshot — B2B marketing agency](/images/agencies/nogood-home.webp)
-
+{{< agency-triptych slug="nogood" name="NoGood" >}}
 79
 
 Pipeline Impact 23/30 | SaaS Expertise 20/25 | Attribution and Reporting 15/20 | Strategic Depth 12/15 | Client Retention 9/10
@@ -341,8 +333,7 @@ Pricing: Custom – Based on scope and growth objectives – [Visit NoGood](http
 
 77
 
-![Ninja Promo](/images/agencies/ninjapromo-home.webp)
-
+{{< agency-triptych slug="ninjapromo" name="Ninja Promo" >}}
 Pipeline Impact 22/30 | SaaS Expertise 19/25 | Attribution and Reporting 15/20 | Strategic Depth 12/15 | Client Retention 9/10
 
 Best for: SaaS companies running coordinated campaigns across Google, LinkedIn, and Meta simultaneously.
@@ -374,8 +365,7 @@ Pricing: Custom – Based on platform mix and campaign volume – [Visit Ninja P
 
 75
 
-![Kalungi](/images/agencies/kalungi-home.webp)
-
+{{< agency-triptych slug="kalungi" name="Kalungi" >}}
 Pipeline Impact 21/30 | SaaS Expertise 19/25 | Attribution and Reporting 14/20 | Strategic Depth 12/15 | Client Retention 9/10
 
 Best for: Pre-Series B SaaS companies needing strategic go-to-market guidance paired with PPC execution.

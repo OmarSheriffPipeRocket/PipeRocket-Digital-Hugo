@@ -68,8 +68,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. Directive Consulting
 
 
-![Directive Consulting homepage screenshot — B2B marketing agency](/images/agencies/directive-consulting-home.webp)
-
+{{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 95
 
 B2B Ad Expertise 29/30 | Pipeline Attribution 25/25 | Proven Results 20/20 | Transparency 13/15 | Pricing & Value 8/10
@@ -104,8 +103,7 @@ Pricing: $8,000–$20,000+/mo · Enterprise B2B SaaS retainers · [Visit Directi
 
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 92
 
 
@@ -163,8 +161,7 @@ Pricing: Flexible · Starts from $3,000/mo · Contact for tailored quote · [Wor
 
 
 
-![KlientBoost homepage screenshot — B2B marketing agency](/images/agencies/klientboost-home.webp)
-
+{{< agency-triptych slug="klientboost" name="KlientBoost" >}}
 89
 
 
@@ -217,8 +214,7 @@ Pricing: $3,000–$10,000+/mo · Based on ad spend and scope · [Visit KlientBoo
 
 
 
-![Disruptive Advertising homepage screenshot — B2B marketing agency](/images/agencies/disruptive-advertising-home.webp)
-
+{{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
 86
 
 
@@ -269,8 +265,7 @@ Pricing: $5,000–$15,000+/mo · Based on ad spend and account complexity · [Vi
 
 
 
-![Walker Sands homepage screenshot — B2B marketing agency](/images/agencies/walker-sands-home.webp)
-
+{{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
 83
 
 
@@ -321,8 +316,7 @@ Pricing: Custom · Integrated retainer — contact for scope · [Visit Walker Sa
 
 
 
-![The Mx Group homepage screenshot — B2B marketing agency](/images/agencies/the-mx-group-home.webp)
-
+{{< agency-triptych slug="the-mx-group" name="The Mx Group" >}}
 80
 
 
@@ -373,8 +367,7 @@ Pricing: Custom · Enterprise engagements — contact for scope · [Visit The Mx
 
 
 
-![TopRank Marketing homepage screenshot — B2B marketing agency](/images/agencies/toprank-marketing-home.webp)
-
+{{< agency-triptych slug="toprank-marketing" name="TopRank Marketing" >}}
 77
 
 
@@ -425,8 +418,7 @@ Pricing: Custom · Contact for integrated retainer pricing · [Visit TopRank Mar
 
 
 
-![310 Creative homepage screenshot — B2B marketing agency](/images/agencies/310-creative-home.webp)
-
+{{< agency-triptych slug="310-creative" name="310 Creative" >}}
 74
 
 
@@ -477,8 +469,7 @@ Pricing: Custom · Contact for retainer pricing · [Visit 310 Creative](https://
 
 
 
-![B2Linked homepage screenshot — B2B marketing agency](/images/agencies/b2linked-home.webp)
-
+{{< agency-triptych slug="b2linked" name="B2Linked" >}}
 71
 
 
@@ -529,8 +520,7 @@ Pricing: $3,000–$8,000+/mo · Based on LinkedIn ad spend and account complexit
 
 
 
-![Blend B2B homepage screenshot — B2B marketing agency](/images/agencies/blend-b2b-home.webp)
-
+{{< agency-triptych slug="blend-b2b" name="Blend B2B" >}}
 68
 
 
@@ -581,8 +571,7 @@ Pricing: Custom · Contact for HubSpot-integrated retainer pricing · [Visit Ble
 
 
 
-![SageFrog homepage screenshot — B2B marketing agency](/images/agencies/sagefrog-home.webp)
-
+{{< agency-triptych slug="sagefrog" name="SageFrog" >}}
 65
 
 

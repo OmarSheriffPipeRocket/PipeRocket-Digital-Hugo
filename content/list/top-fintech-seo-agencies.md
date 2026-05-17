@@ -64,8 +64,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 94
 
 Pipeline Contribution 28/30 | Fintech Compliance Expertise 24/25 | Technical SEO Depth 18/20 | Content Authority Building 14/15 | Client Validation 10/10
@@ -99,8 +98,7 @@ Pricing: Custom – Engagements scoped to pipeline goals and growth stage – [V
 
 91
 
-![SureOak](/images/agencies/sureoak-home.webp)
-
+{{< agency-triptych slug="sureoak" name="SureOak" >}}
 Pipeline Contribution 26/30 | Fintech Compliance Expertise 23/25 | Technical SEO Depth 18/20 | Content Authority Building 14/15 | Client Validation 10/10
 
 Best for: Fintech companies needing authoritative backlink profiles to compete in high-stakes keyword categories.
@@ -132,8 +130,7 @@ Pricing: Custom – Scoped based on link velocity and target authority metrics �
 
 89
 
-![CSTMR](/images/agencies/cstmr-home.webp)
-
+{{< agency-triptych slug="cstmr" name="CSTMR" >}}
 Pipeline Contribution 25/30 | Fintech Compliance Expertise 24/25 | Technical SEO Depth 17/20 | Content Authority Building 13/15 | Client Validation 10/10
 
 Best for: Financial services companies that need search visibility combined with conversion funnel optimization.
@@ -165,8 +162,7 @@ Pricing: Custom – Engagements include strategy, content, and conversion optimi
 
 86
 
-![Inbound Fintech](/images/agencies/inbound-fintech-home.webp)
-
+{{< agency-triptych slug="inbound-fintech" name="Inbound Fintech" >}}
 Pipeline Contribution 24/30 | Fintech Compliance Expertise 22/25 | Technical SEO Depth 17/20 | Content Authority Building 13/15 | Client Validation 10/10
 
 Best for: Fintech companies running HubSpot that need inbound funnels directly integrated with their CRM.
@@ -198,8 +194,7 @@ Pricing: Custom – Includes HubSpot setup, content, and ongoing optimization �
 
 84
 
-![High Voltage](/images/agencies/high-voltage-home.webp)
-
+{{< agency-triptych slug="high-voltage" name="High Voltage" >}}
 Pipeline Contribution 23/30 | Fintech Compliance Expertise 21/25 | Technical SEO Depth 18/20 | Content Authority Building 12/15 | Client Validation 10/10
 
 Best for: Fintech companies that want data-backed testing to optimize conversion rates from organic traffic.
@@ -231,8 +226,7 @@ Pricing: Custom – Includes testing infrastructure and ongoing optimization cyc
 
 82
 
-![Omnius](/images/agencies/omnius-home.webp)
-
+{{< agency-triptych slug="omnius" name="Omnius" >}}
 Pipeline Contribution 22/30 | Fintech Compliance Expertise 21/25 | [Technical SEO](/glossary/what-is-technical-seo/) Depth 17/20 | Content Authority Building 12/15 | Client Validation 10/10
 
 Best for: SaaS fintech companies with multiple products and complex buyer journeys needing unified organic strategy.
@@ -264,8 +258,7 @@ Pricing: Custom – Scoped to product complexity and growth targets – Visit Om
 
 79
 
-![Mint Studios](/images/agencies/mint-studios-home.webp)
-
+{{< agency-triptych slug="mint-studios" name="Mint Studios" >}}
 Pipeline Contribution 21/30 | Fintech Compliance Expertise 19/25 | Technical SEO Depth 16/20 | Content Authority Building 13/15 | Client Validation 10/10
 
 Best for: Fintech companies with technical products that need expert-level content targeting decision-makers.
@@ -299,8 +292,7 @@ Pricing: Custom – Based on content volume and research depth requirements – 
 
 76
 
-![NinjaPromo](/images/agencies/ninjapromo-home.webp)
-
+{{< agency-triptych slug="ninjapromo" name="NinjaPromo" >}}
 Pipeline Contribution 20/30 | Fintech Compliance Expertise 18/25 | Technical SEO Depth 16/20 | Content Authority Building 12/15 | Client Validation 10/10
 
 Best for: Crypto, Web3, and blockchain companies needing multi-channel growth including organic search.
@@ -334,8 +326,7 @@ Pricing: Custom – Includes SEO and multi-channel marketing services – Visit 
 
 73
 
-![Straight North](/images/agencies/straight-north-home.webp)
-
+{{< agency-triptych slug="straight-north" name="Straight North" >}}
 Pipeline Contribution 19/30 | Fintech Compliance Expertise 17/25 | Technical SEO Depth 15/20 | Content Authority Building 12/15 | Client Validation 10/10
 
 Best for: B2B financial services companies with long sales cycles needing consistent [lead generation](/glossary/what-is-lead-generation/).

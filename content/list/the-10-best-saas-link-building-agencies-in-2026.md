@@ -66,8 +66,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. uSERP
 
 
-![uSERP homepage screenshot — B2B marketing agency](/images/agencies/userp-home.webp)
-
+{{< agency-triptych slug="userp" name="uSERP" >}}
 95
 
 Link Quality 30/30 | SaaS Specialisation 23/25 | Proven Results 20/20 | Transparency 14/15 | Pricing & Value 8/10
@@ -96,8 +95,7 @@ Pricing: $10,000+/mo · Premium retainer — contact for scope · [Visit uSERP](
 ### 2. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 92
 
 Link Quality 28/30 | SaaS Specialisation 24/25 | Proven Results 19/20 | Transparency 13/15 | Pricing & Value 8/10
@@ -130,8 +128,7 @@ Pricing: Custom retainer · Contact us for scope and fit assessment · [Work Wit
 ### 3. Above Apex
 
 
-![Above Apex homepage screenshot — B2B marketing agency](/images/agencies/above-apex-home.webp)
-
+{{< agency-triptych slug="above-apex" name="Above Apex" >}}
 89
 
 Link Quality 27/30 | SaaS Specialisation 25/25 | Proven Results 18/20 | Transparency 12/15 | Pricing & Value 7/10
@@ -159,8 +156,7 @@ Pricing: Custom · Contact for retainer pricing · [Visit Above Apex](https://ab
 ### 4. Siege Media
 
 
-![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
-
+{{< agency-triptych slug="siege-media" name="Siege Media" >}}
 86
 
 Link Quality 26/30 | SaaS Specialisation 21/25 | Proven Results 18/20 | Transparency 13/15 | Pricing & Value 8/10
@@ -195,8 +191,7 @@ Pricing: $5,000+/mo · Retainer-based, contact for scope · [Visit Siege Media](
 
 
 
-![Editorial.Link homepage screenshot — B2B marketing agency](/images/agencies/editorial-link-home.webp)
-
+{{< agency-triptych slug="editorial-link" name="Editorial.Link" >}}
 83
 
 
@@ -247,8 +242,7 @@ Pricing: $2,500–$7,000+/mo · Based on placement volume and DR targets · [Vis
 
 
 
-![Loopex Digital homepage screenshot — B2B marketing agency](/images/agencies/loopex-digital-home.webp)
-
+{{< agency-triptych slug="loopex-digital" name="Loopex Digital" >}}
 81
 
 
@@ -348,8 +342,7 @@ Pricing: Custom · Contact for retainer or per-link pricing · [Visit Jeenam](ht
 
 
 
-![OneLittleWeb homepage screenshot — B2B marketing agency](/images/agencies/onelittleweb-home.webp)
-
+{{< agency-triptych slug="onelittleweb" name="OneLittleWeb" >}}
 75
 
 
@@ -400,8 +393,7 @@ Pricing: $1,500–$5,000+/mo · Based on volume and DR targets · [Visit OneLitt
 
 
 
-![Growfusely homepage screenshot — B2B marketing agency](/images/agencies/growfusely-home.webp)
-
+{{< agency-triptych slug="growfusely" name="Growfusely" >}}
 72
 
 
@@ -452,8 +444,7 @@ Pricing: Custom · Contact for content + link retainer pricing · [Visit Growfus
 
 
 
-![Victorious homepage screenshot — B2B marketing agency](/images/agencies/victorious-home.webp)
-
+{{< agency-triptych slug="victorious" name="Victorious" >}}
 69
 
 

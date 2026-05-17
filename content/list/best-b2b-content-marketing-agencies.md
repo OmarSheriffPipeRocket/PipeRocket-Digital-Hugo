@@ -64,8 +64,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 96
 
 Strategic Depth 29/30 | Content Quality 24/25 | Technical Expertise 19/20 | Client Results 15/15 | Service Flexibility 9/10
@@ -99,8 +98,7 @@ Pricing: Custom – Engagement scoped to your pipeline goals and growth stage �
 
 91
 
-![Animalz](/images/agencies/animalz-home.webp)
-
+{{< agency-triptych slug="animalz" name="Animalz" >}}
 Strategic Depth 27/30 | Content Quality 25/25 | Technical Expertise 18/20 | Client Results 13/15 | Service Flexibility 8/10
 
 Best for: B2B companies with complex products that need sophisticated thought leadership and executive-level content.
@@ -132,8 +130,7 @@ Pricing: Custom – Premium positioning for companies investing in long-term aut
 
 89
 
-![Grow and Convert](/images/agencies/grow-and-convert-home.webp)
-
+{{< agency-triptych slug="grow-and-convert" name="Grow and Convert" >}}
 Strategic Depth 28/30 | Content Quality 22/25 | Technical Expertise 17/20 | Client Results 14/15 | Service Flexibility 8/10
 
 Best for: SaaS companies that want content targeting buyers at the moment of purchase decision.
@@ -165,8 +162,7 @@ Pricing: Custom – Structured around conversion outcomes rather than content vo
 
 87
 
-![Megawatt](/images/agencies/megawatt-home.webp)
-
+{{< agency-triptych slug="megawatt" name="Megawatt" >}}
 Strategic Depth 25/30 | Content Quality 23/25 | Technical Expertise 20/20 | Client Results 12/15 | Service Flexibility 7/10
 
 Best for: Cybersecurity, data science, and IT infrastructure companies with highly complex products.
@@ -198,8 +194,7 @@ Pricing: Custom – Specialized engagement for technical B2B verticals – Visit
 
 85
 
-![Siege Media](/images/agencies/siege-media-home.webp)
-
+{{< agency-triptych slug="siege-media" name="Siege Media" >}}
 Strategic Depth 24/30 | Content Quality 24/25 | Technical Expertise 16/20 | Client Results 13/15 | Service Flexibility 8/10
 
 Best for: B2B brands that need high-quality visual content engineered to earn backlinks and build authority.
@@ -233,8 +228,7 @@ Pricing: Custom – Premium pricing reflecting design-heavy, link-focused method
 
 83
 
-![Omniscient Digital](/images/agencies/omniscient-digital-home.webp)
-
+{{< agency-triptych slug="omniscient-digital" name="Omniscient Digital" >}}
 Strategic Depth 26/30 | Content Quality 22/25 | Technical Expertise 16/20 | Client Results 12/15 | Service Flexibility 7/10
 
 Best for: SaaS companies that want content strategy built from deep business analysis and brand positioning.
@@ -270,8 +264,7 @@ Pricing: Custom – Strategy-led engagements with comprehensive research phases 
 
 81
 
-![Ironpaper](/images/agencies/ironpaper-home.webp)
-
+{{< agency-triptych slug="ironpaper" name="Ironpaper" >}}
 Strategic Depth 24/30 | Content Quality 21/25 | Technical Expertise 16/20 | Client Results 12/15 | Service Flexibility 8/10
 
 Best for: Enterprise B2B companies with large buying committees and extended sales cycles.
@@ -305,8 +298,7 @@ Pricing: Custom – Enterprise-focused engagements supporting long sales cycles 
 
 79
 
-![Optimist](/images/agencies/optimist-home.webp)
-
+{{< agency-triptych slug="optimist" name="Optimist" >}}
 Strategic Depth 23/30 | Content Quality 21/25 | Technical Expertise 15/20 | Client Results 12/15 | Service Flexibility 8/10
 
 Best for: B2B tech companies wanting to outsource their entire content function to a single strategic partner.
@@ -340,8 +332,7 @@ Pricing: Custom – Full-service engagements covering strategy through execution
 
 77
 
-![mvpGROW](/images/agencies/mvpgrow-home.webp)
-
+{{< agency-triptych slug="mvpgrow" name="mvpGROW" >}}
 Strategic Depth 22/30 | Content Quality 20/25 | Technical Expertise 15/20 | Client Results 12/15 | Service Flexibility 8/10
 
 Best for: Early-stage tech startups that need an on-demand marketing team to move fast on limited runway.

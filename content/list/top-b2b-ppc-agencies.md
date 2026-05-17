@@ -66,8 +66,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 96
 
 Pipeline Generation 29/30 | ICP Targeting Precision 24/25 | Revenue Attribution 19/20 | B2B Platform Expertise 15/15 | Client Retention 9/10
@@ -101,8 +100,7 @@ Pricing: Custom – Full-service pipeline generation for B2B SaaS – [Visit Pip
 
 91
 
-![Single Grain](/images/agencies/single-grain-home.webp)
-
+{{< agency-triptych slug="single-grain" name="Single Grain" >}}
 Pipeline Generation 27/30 | ICP Targeting Precision 23/25 | Revenue Attribution 18/20 | B2B Platform Expertise 14/15 | Client Retention 9/10
 
 Best for: B2B SaaS companies seeking AI-powered campaign optimization paired with conversion rate expertise.
@@ -134,8 +132,7 @@ Pricing: Custom – Full-service digital marketing with AI-powered optimization 
 
 89
 
-![WebFX](/images/agencies/webfx-home.webp)
-
+{{< agency-triptych slug="webfx" name="WebFX" >}}
 Pipeline Generation 26/30 | ICP Targeting Precision 22/25 | Revenue Attribution 18/20 | B2B Platform Expertise 14/15 | Client Retention 9/10
 
 Best for: Large B2B manufacturers and automotive companies needing data-driven omni-channel execution at scale.
@@ -169,8 +166,7 @@ Pricing: Custom – Enterprise-scale omni-channel management with proprietary te
 
 87
 
-![Directive Consulting](/images/agencies/directive-consulting-home.webp)
-
+{{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 Pipeline Generation 26/30 | ICP Targeting Precision 21/25 | Revenue Attribution 17/20 | B2B Platform Expertise 14/15 | Client Retention 9/10
 
 Best for: Enterprise B2B technology companies focused on building qualified revenue pipeline over lead volume.
@@ -204,8 +200,7 @@ Pricing: Custom – Enterprise pipeline generation with long-term partnership fo
 
 85
 
-![Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp)
-
+{{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
 Pipeline Generation 25/30 | ICP Targeting Precision 21/25 | Revenue Attribution 17/20 | B2B Platform Expertise 13/15 | Client Retention 9/10
 
 Best for: B2B companies with existing campaigns bleeding budget on poor keywords and inefficient targeting.
@@ -237,8 +232,7 @@ Pricing: Custom – Comprehensive PPC audits with ongoing optimization – [Visi
 
 82
 
-![LYFE Marketing](/images/agencies/lyfe-marketing-home.webp)
-
+{{< agency-triptych slug="lyfe-marketing" name="LYFE Marketing" >}}
 Pipeline Generation 24/30 | ICP Targeting Precision 20/25 | Revenue Attribution 16/20 | B2B Platform Expertise 13/15 | Client Retention 9/10
 
 Best for: Smaller B2B businesses seeking social media PPC expertise on Facebook and Instagram.
@@ -270,8 +264,7 @@ Pricing: Custom – Social media focused PPC for small business budgets – [Vis
 
 80
 
-![KlientBoost](/images/agencies/klientboost-home.webp)
-
+{{< agency-triptych slug="klientboost" name="KlientBoost" >}}
 Pipeline Generation 23/30 | ICP Targeting Precision 20/25 | Revenue Attribution 16/20 | B2B Platform Expertise 12/15 | Client Retention 9/10
 
 Best for: B2B companies seeking structured experimentation frameworks and budget allocation optimization.
@@ -305,8 +298,7 @@ Pricing: Custom – Growth Grid methodology with multi-channel management – [V
 
 78
 
-![ProperExpression](/images/agencies/properexpression-home.webp)
-
+{{< agency-triptych slug="properexpression" name="ProperExpression" >}}
 Pipeline Generation 23/30 | ICP Targeting Precision 19/25 | Revenue Attribution 15/20 | B2B Platform Expertise 12/15 | Client Retention 9/10
 
 Best for: B2B SaaS and Fintech companies needing full-funnel paid advertising with RevOps infrastructure.
@@ -340,8 +332,7 @@ Pricing: Custom – Full-funnel PPC with RevOps infrastructure services – [Vis
 
 75
 
-![NinjaPromo](/images/agencies/ninjapromo-home.webp)
-
+{{< agency-triptych slug="ninjapromo" name="NinjaPromo" >}}
 Pipeline Generation 22/30 | ICP Targeting Precision 18/25 | Revenue Attribution 14/20 | B2B Platform Expertise 12/15 | Client Retention 9/10
 
 Best for: B2B technology companies seeking creative multi-platform campaigns with AI-assisted optimization.
@@ -373,8 +364,7 @@ Pricing: Custom – Multi-platform PPC with AI-assisted optimization – [Visit 
 
 73
 
-![Grow and Convert](/images/agencies/grow-and-convert-home.webp)
-
+{{< agency-triptych slug="grow-and-convert" name="Grow and Convert" >}}
 Pipeline Generation 21/30 | ICP Targeting Precision 18/25 | Revenue Attribution 14/20 | B2B Platform Expertise 11/15 | Client Retention 9/10
 
 Best for: B2B SaaS companies prioritizing high-intent keyword targeting with meticulous account structure.

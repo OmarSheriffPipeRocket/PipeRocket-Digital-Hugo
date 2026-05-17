@@ -67,8 +67,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. Directive Consulting
 
 
-![Directive Consulting homepage screenshot — B2B marketing agency](/images/agencies/directive-consulting-home.webp)
-
+{{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 95
 
 Martech Industry Expertise 29/30 | Demand Generation & Pipeline Attribution 24/25 | Content & Thought Leadership 20/20 | Channel Coverage 14/15 | Client Reviews 8/10
@@ -103,8 +102,7 @@ Pricing: $5,000-$20,000/mo · Performance marketing retainer · [Visit Directive
 ### 2. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 92
 
 Martech Industry Expertise 27/30 | Demand Generation & Pipeline Attribution 24/25 | Content & Thought Leadership 19/20 | Channel Coverage 13/15 | Client Reviews 9/10
@@ -137,8 +135,7 @@ Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [G
 ### 3. Refine Labs
 
 
-![Refine Labs homepage screenshot — B2B marketing agency](/images/agencies/refine-labs-home.webp)
-
+{{< agency-triptych slug="refine-labs" name="Refine Labs" >}}
 88
 
 Martech Industry Expertise 27/30 | Demand Generation & Pipeline Attribution 22/25 | Content & Thought Leadership 18/20 | Channel Coverage 12/15 | Client Reviews 9/10
@@ -171,8 +168,7 @@ Pricing: Custom · Demand creation and pipeline attribution retainer · [Visit R
 ### 4. SmartBug Media
 
 
-![SmartBug Media homepage screenshot — B2B marketing agency](/images/agencies/smartbug-media-home.webp)
-
+{{< agency-triptych slug="smartbug-media" name="SmartBug Media" >}}
 85
 
 Martech Industry Expertise 26/30 | Demand Generation & Pipeline Attribution 21/25 | Content & Thought Leadership 18/20 | Channel Coverage 11/15 | Client Reviews 9/10
@@ -205,8 +201,7 @@ Pricing: $4,000-$15,000/mo · HubSpot and inbound retainer · [Visit SmartBug Me
 ### 5. 42DM
 
 
-![42DM homepage screenshot — B2B marketing agency](/images/agencies/42dm-home.webp)
-
+{{< agency-triptych slug="42dm" name="42DM" >}}
 82
 
 Martech Industry Expertise 25/30 | Demand Generation & Pipeline Attribution 21/25 | Content & Thought Leadership 17/20 | Channel Coverage 11/15 | Client Reviews 8/10
@@ -239,8 +234,7 @@ Pricing: $5,000-$18,000/mo · Full-cycle demand generation retainer · [Visit 42
 ### 6. Ironpaper
 
 
-![Ironpaper homepage screenshot — B2B marketing agency](/images/agencies/ironpaper-home.webp)
-
+{{< agency-triptych slug="ironpaper" name="Ironpaper" >}}
 79
 
 Martech Industry Expertise 24/30 | Demand Generation & Pipeline Attribution 20/25 | Content & Thought Leadership 17/20 | Channel Coverage 11/15 | Client Reviews 7/10
@@ -273,8 +267,7 @@ Pricing: $4,000-$12,000/mo · B2B growth and funnel retainer · [Visit Ironpaper
 ### 7. New Breed
 
 
-![New Breed homepage screenshot — B2B marketing agency](/images/agencies/new-breed-home.webp)
-
+{{< agency-triptych slug="new-breed" name="New Breed" >}}
 77
 
 Martech Industry Expertise 23/30 | Demand Generation & Pipeline Attribution 20/25 | Content & Thought Leadership 17/20 | Channel Coverage 11/15 | Client Reviews 6/10
@@ -307,8 +300,7 @@ Pricing: $4,000-$12,000/mo · RevOps and full-funnel retainer · [Visit New Bree
 ### 8. Metadata.io
 
 
-![Metadata.io homepage screenshot — B2B marketing agency](/images/agencies/metadata-io-home.webp)
-
+{{< agency-triptych slug="metadata-io" name="Metadata.io" >}}
 75
 
 Martech Industry Expertise 23/30 | Demand Generation & Pipeline Attribution 19/25 | Content & Thought Leadership 16/20 | Channel Coverage 10/15 | Client Reviews 7/10
@@ -341,8 +333,7 @@ Pricing: $3,000-$10,000/mo · Automated demand generation platform + service · 
 ### 9. Powered by Search
 
 
-![Powered by Search homepage screenshot — B2B marketing agency](/images/agencies/powered-by-search-home.webp)
-
+{{< agency-triptych slug="powered-by-search" name="Powered by Search" >}}
 73
 
 Martech Industry Expertise 22/30 | Demand Generation & Pipeline Attribution 19/25 | Content & Thought Leadership 16/20 | Channel Coverage 10/15 | Client Reviews 6/10
@@ -375,8 +366,7 @@ Pricing: $5,000-$15,000/mo · B2B SaaS demand generation retainer · [Visit Powe
 ### 10. Kalungi
 
 
-![Kalungi homepage screenshot — B2B marketing agency](/images/agencies/kalungi-home.webp)
-
+{{< agency-triptych slug="kalungi" name="Kalungi" >}}
 71
 
 Martech Industry Expertise 21/30 | Demand Generation & Pipeline Attribution 19/25 | Content & Thought Leadership 15/20 | Channel Coverage 10/15 | Client Reviews 6/10
@@ -409,8 +399,7 @@ Pricing: $8,000-$20,000/mo · Fractional CMO and full marketing execution · [Vi
 ### 11. Cremarc
 
 
-![Cremarc homepage screenshot — B2B marketing agency](/images/agencies/cremarc-home.webp)
-
+{{< agency-triptych slug="cremarc" name="Cremarc" >}}
 69
 
 Martech Industry Expertise 20/30 | Demand Generation & Pipeline Attribution 17/25 | Content & Thought Leadership 15/20 | Channel Coverage 10/15 | Client Reviews 7/10

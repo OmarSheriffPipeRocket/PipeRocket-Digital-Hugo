@@ -66,8 +66,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 94
 
 Technical SEO Depth 28/30 | Scalability and Resources 23/25 | Revenue Attribution 20/20 | Industry Expertise 14/15 | Client Reviews 9/10
@@ -100,8 +99,7 @@ Pricing: $5,000+/mo – Revenue-focused enterprise SEO with pipeline ownership �
 ### 2. Loopex Digital
 
 
-![Loopex Digital homepage screenshot — B2B marketing agency](/images/agencies/loopex-digital-home.webp)
-
+{{< agency-triptych slug="loopex-digital" name="Loopex Digital" >}}
 91
 
 Technical SEO Depth 29/30 | Scalability and Resources 22/25 | Revenue Attribution 18/20 | Industry Expertise 13/15 | Client Reviews 9/10
@@ -135,8 +133,7 @@ Pricing: Custom – Technical SEO remediation for complex enterprise sites – [
 
 89
 
-![Linkflow](/images/agencies/linkflow-home.webp)
-
+{{< agency-triptych slug="linkflow" name="Linkflow" >}}
 Technical SEO Depth 25/30 | Scalability and Resources 22/25 | Revenue Attribution 19/20 | Industry Expertise 14/15 | Client Reviews 9/10
 
 Best for: SaaS enterprises where the authority gap is beating them before the content gap does.
@@ -168,8 +165,7 @@ Pricing: Custom – Authority-focused enterprise SEO and link building – [Visi
 
 87
 
-![Amsive](/images/agencies/amsive-home.webp)
-
+{{< agency-triptych slug="amsive" name="Amsive" >}}
 Technical SEO Depth 27/30 | Scalability and Resources 23/25 | Revenue Attribution 17/20 | Industry Expertise 12/15 | Client Reviews 8/10
 
 Best for: Enterprises who need to drive quality clicks at massive scale without touching content.
@@ -201,8 +197,7 @@ Pricing: Custom – Large-scale technical SEO for complex enterprise ecosystems 
 
 85
 
-![Searchbloom](/images/agencies/searchbloom-home.webp)
-
+{{< agency-triptych slug="searchbloom" name="Searchbloom" >}}
 Technical SEO Depth 25/30 | Scalability and Resources 21/25 | Revenue Attribution 18/20 | Industry Expertise 12/15 | Client Reviews 9/10
 
 Best for: Enterprises who want fast execution from a team that started at Google.
@@ -233,8 +228,7 @@ Pricing: Custom – Fast enterprise SEO execution with A.R.T. framework – [Vis
 ### 6. WebFX
 
 
-![WebFX homepage screenshot — B2B marketing agency](/images/agencies/webfx-home.webp)
-
+{{< agency-triptych slug="webfx" name="WebFX" >}}
 83
 
 [Technical SEO](/glossary/what-is-technical-seo/) Depth 24/30 | Scalability and Resources 25/25 | Revenue Attribution 15/20 | Industry Expertise 11/15 | Client Reviews 8/10
@@ -269,8 +263,7 @@ Pricing: Custom – Full-service enterprise digital marketing at scale – [Visi
 ### 7. Siege Media
 
 
-![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
-
+{{< agency-triptych slug="siege-media" name="Siege Media" >}}
 81
 
 Technical SEO Depth 22/30 | Scalability and Resources 20/25 | Revenue Attribution 17/20 | Industry Expertise 13/15 | Client Reviews 9/10
@@ -305,8 +298,7 @@ Pricing: Custom – Content-led enterprise SEO and link earning – [Visit Siege
 ### 8. Seer Interactive
 
 
-![Seer Interactive homepage screenshot — B2B marketing agency](/images/agencies/seer-interactive-home.webp)
-
+{{< agency-triptych slug="seer-interactive" name="Seer Interactive" >}}
 78
 
 Technical SEO Depth 23/30 | Scalability and Resources 19/25 | Revenue Attribution 16/20 | Industry Expertise 12/15 | Client Reviews 8/10
@@ -341,12 +333,10 @@ Pricing: Custom – Data-driven enterprise SEO with executive reporting – [Vis
 ### 9. FirstPageSage
 
 
-![FirstPageSage homepage screenshot — B2B marketing agency](/images/agencies/firstpagesage-home.webp)
-
+{{< agency-triptych slug="firstpagesage" name="FirstPageSage" >}}
 76
 
-![FirstPageSage](/images/agencies/first-page-sage-home.webp)
-
+{{< agency-triptych slug="first-page-sage" name="FirstPageSage" >}}
 Technical SEO Depth 21/30 | Scalability and Resources 18/25 | Revenue Attribution 16/20 | Industry Expertise 13/15 | Client Reviews 8/10
 
 Best for: Thought leadership and long-term authority building needed for complex enterprise sales cycles.
@@ -377,8 +367,7 @@ Pricing: Custom – Thought leadership SEO for complex enterprise sales cycles �
 ### 10. iPullRank
 
 
-![iPullRank homepage screenshot — B2B marketing agency](/images/agencies/ipullrank-home.webp)
-
+{{< agency-triptych slug="ipullrank" name="iPullRank" >}}
 74
 
 Technical SEO Depth 24/30 | Scalability and Resources 17/25 | Revenue Attribution 14/20 | Industry Expertise 11/15 | Client Reviews 8/10

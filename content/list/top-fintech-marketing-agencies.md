@@ -66,8 +66,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 94
 
 Revenue Impact 28/30 | Fintech Specialization 24/25 | Service Depth 18/20 | Client Results 14/15 | Pricing Transparency 10/10
@@ -101,8 +100,7 @@ Pricing: Custom – Engagement models aligned to revenue outcomes and business i
 
 91
 
-![Fintech Digital](/images/agencies/fintech-digital-home.webp)
-
+{{< agency-triptych slug="fintech-digital" name="Fintech Digital" >}}
 Revenue Impact 26/30 | Fintech Specialization 25/25 | Service Depth 18/20 | Client Results 13/15 | Pricing Transparency 9/10
 
 Best for: Innovative banking and crypto companies that need end-to-end digital marketing solutions from a fintech specialist.
@@ -134,8 +132,7 @@ Pricing: Custom – Project-based and retainer options for fintech companies –
 
 89
 
-![CSTMR](/images/agencies/cstmr-home.webp)
-
+{{< agency-triptych slug="cstmr" name="CSTMR" >}}
 Revenue Impact 25/30 | Fintech Specialization 23/25 | Service Depth 19/20 | Client Results 13/15 | Pricing Transparency 9/10
 
 Best for: Established fintechs and financial institutions needing full-funnel growth strategy and brand revitalization.
@@ -167,8 +164,7 @@ Pricing: $10,000-$200,000+ – Wide range based on project scope and strategic d
 
 87
 
-![Walker Sands](/images/agencies/walker-sands-home.webp)
-
+{{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
 Revenue Impact 24/30 | Fintech Specialization 22/25 | Service Depth 19/20 | Client Results 13/15 | Pricing Transparency 9/10
 
 Best for: B2B fintech firms that need strong public relations combined with demand generation capabilities.
@@ -200,8 +196,7 @@ Pricing: Custom – Retainer-based engagements for integrated PR and marketing p
 
 85
 
-![Mint Studios](/images/agencies/mint-studios-home.webp)
-
+{{< agency-triptych slug="mint-studios" name="Mint Studios" >}}
 Revenue Impact 23/30 | Fintech Specialization 22/25 | Service Depth 18/20 | Client Results 13/15 | Pricing Transparency 9/10
 
 Best for: Fintechs that want to acquire customers through educational, high-quality content marketing.
@@ -233,8 +228,7 @@ Pricing: Custom – Project and retainer options for content marketing programs 
 
 83
 
-![NinjaPromo](/images/agencies/ninjapromo-home.webp)
-
+{{< agency-triptych slug="ninjapromo" name="NinjaPromo" >}}
 Revenue Impact 22/30 | Fintech Specialization 21/25 | Service Depth 18/20 | Client Results 13/15 | Pricing Transparency 9/10
 
 Best for: Crypto, blockchain, and B2B SaaS companies needing social media and influencer marketing expertise.
@@ -266,8 +260,7 @@ Pricing: Custom – Flexible engagement models for social and influencer campaig
 
 81
 
-![Siege Media](/images/agencies/siege-media-home.webp)
-
+{{< agency-triptych slug="siege-media" name="Siege Media" >}}
 Revenue Impact 21/30 | Fintech Specialization 20/25 | Service Depth 18/20 | Client Results 13/15 | Pricing Transparency 9/10
 
 Best for: Fintechs seeking SEO-driven [content marketing](/glossary/what-is-content-marketing/) that builds long-term organic assets and backlinks.
@@ -301,8 +294,7 @@ Pricing: Custom – Project-based engagements for content and SEO programs – V
 
 79
 
-![Growth Gorilla](/images/agencies/growth-gorilla-home.webp)
-
+{{< agency-triptych slug="growth-gorilla" name="Growth Gorilla" >}}
 Revenue Impact 21/30 | Fintech Specialization 20/25 | Service Depth 17/20 | Client Results 12/15 | Pricing Transparency 9/10
 
 Best for: Early to growth-stage fintechs focused on user acquisition and mobile app marketing.
@@ -334,8 +326,7 @@ Pricing: Custom – Performance-focused engagements for growth-stage companies �
 
 77
 
-![Fox Agency](/images/agencies/fox-agency-home.webp)
-
+{{< agency-triptych slug="fox-agency" name="Fox Agency" >}}
 Revenue Impact 20/30 | Fintech Specialization 19/25 | Service Depth 17/20 | Client Results 12/15 | Pricing Transparency 9/10
 
 Best for: Global B2B tech brands needing integrated marketing and PR with international reach.
@@ -367,8 +358,7 @@ Pricing: Custom – Integrated program pricing for global B2B brands – Visit F
 
 75
 
-![mvpGROW](/images/agencies/mvpgrow-home.webp)
-
+{{< agency-triptych slug="mvpgrow" name="mvpGROW" >}}
 Revenue Impact 19/30 | Fintech Specialization 18/25 | Service Depth 17/20 | Client Results 12/15 | Pricing Transparency 9/10
 
 Best for: B2B SaaS and cybersecurity companies needing holistic growth marketing as an on-demand department.

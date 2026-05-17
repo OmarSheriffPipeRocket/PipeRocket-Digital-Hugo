@@ -99,8 +99,7 @@ Pricing: From $7,000/mo · 3-month minimum · [Visit Draft.dev →](https://draf
 ### **2. PipeRocket Digital**
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 92
 
 Developer Audience Expertise 27/30 | Technical Content Quality 23/25 | Demand Generation & Pipeline Attribution 20/20 | Channel Coverage 13/15 | Client Reviews 9/10
@@ -133,8 +132,7 @@ Pricing: Starts from $5,000/mo · Flexible retainers tailored to ARR stage · [G
 ### **3. Powered by Search**
 
 
-![Powered by Search homepage screenshot — B2B marketing agency](/images/agencies/powered-by-search-home.webp)
-
+{{< agency-triptych slug="powered-by-search" name="Powered by Search" >}}
 88
 
 Developer Audience Expertise 27/30 | Technical Content Quality 22/25 | Demand Generation & Pipeline Attribution 18/20 | Channel Coverage 12/15 | Client Reviews 9/10
@@ -198,8 +196,7 @@ Pricing: Custom · Contact for devtools retainer scope · [Visit Perceptric →]
 ### **5. Animalz**
 
 
-![Animalz homepage screenshot — B2B marketing agency](/images/agencies/animalz-home.webp)
-
+{{< agency-triptych slug="animalz" name="Animalz" >}}
 82
 
 Developer Audience Expertise 25/30 | Technical Content Quality 22/25 | Demand Generation & Pipeline Attribution 16/20 | Channel Coverage 11/15 | Client Reviews 8/10
@@ -267,8 +264,7 @@ Pricing: Custom · Contact for scope and retainer structure · [Visit EveryDevel
 ### **7. Dev Spotlight**
 
 
-![Dev Spotlight homepage screenshot — B2B marketing agency](/images/agencies/dev-spotlight-home.webp)
-
+{{< agency-triptych slug="dev-spotlight" name="Dev Spotlight" >}}
 77
 
 Developer Audience Expertise 24/30 | Technical Content Quality 21/25 | Demand Generation & Pipeline Attribution 15/20 | Channel Coverage 10/15 | Client Reviews 7/10
@@ -301,8 +297,7 @@ Pricing: Custom · Project and retainer options available · [Visit Dev Spotligh
 ### **8. GrowthSpree**
 
 
-![GrowthSpree homepage screenshot — B2B marketing agency](/images/agencies/growthspree-home.webp)
-
+{{< agency-triptych slug="growthspree" name="GrowthSpree" >}}
 75
 
 Developer Audience Expertise 23/30 | Technical Content Quality 19/25 | Demand Generation & Pipeline Attribution 16/20 | Channel Coverage 10/15 | Client Reviews 7/10
@@ -339,8 +334,7 @@ Pricing: Custom · Contact for growth-stage retainer scope · [Visit GrowthSpree
 ### **9. Hoopy**
 
 
-![Hoopy homepage screenshot — B2B marketing agency](/images/agencies/hoopy-home.webp)
-
+{{< agency-triptych slug="hoopy" name="Hoopy" >}}
 73
 
 Developer Audience Expertise 23/30 | Technical Content Quality 20/25 | Demand Generation & Pipeline Attribution 13/20 | Channel Coverage 10/15 | Client Reviews 7/10
@@ -373,8 +367,7 @@ Pricing: Custom · DevRel and community retainer — contact for scope · [Visit
 ### **10. Refine Labs**
 
 
-![Refine Labs homepage screenshot — B2B marketing agency](/images/agencies/refine-labs-home.webp)
-
+{{< agency-triptych slug="refine-labs" name="Refine Labs" >}}
 71
 
 Developer Audience Expertise 21/30 | Technical Content Quality 18/25 | Demand Generation & Pipeline Attribution 16/20 | Channel Coverage 10/15 | Client Reviews 6/10
@@ -411,8 +404,7 @@ Pricing: Custom · Contact for retainer scope and pricing · [Visit Refine Labs 
 ### **11. Kalungi**
 
 
-![Kalungi homepage screenshot — B2B marketing agency](/images/agencies/kalungi-home.webp)
-
+{{< agency-triptych slug="kalungi" name="Kalungi" >}}
 69
 
 Developer Audience Expertise 21/30 | Technical Content Quality 17/25 | Demand Generation & Pipeline Attribution 14/20 | Channel Coverage 10/15 | Client Reviews 7/10

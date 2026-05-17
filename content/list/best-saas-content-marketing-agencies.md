@@ -68,8 +68,7 @@ For the full process — every source we use, what disqualifies an agency, our c
 ### 1. PipeRocket Digital
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 95
 
 Strategic Depth 29/30 | Content Quality 24/25 | SEO Expertise 19/20 | Client Results 14/15 | SaaS Specialization 9/10
@@ -103,8 +102,7 @@ Pricing: Custom – Engagements structured around your revenue goals and content
 
 91
 
-![Animalz](/images/agencies/animalz-home.webp)
-
+{{< agency-triptych slug="animalz" name="Animalz" >}}
 Strategic Depth 27/30 | Content Quality 25/25 | SEO Expertise 18/20 | Client Results 13/15 | SaaS Specialization 8/10
 
 Best for: Brands that want to establish intellectual authority through deeply researched thought leadership.
@@ -136,8 +134,7 @@ Pricing: $15,000+/mo – Premium positioning reflects their focus on enterprise-
 
 88
 
-![Growfusely](/images/agencies/growfusely-home.webp)
-
+{{< agency-triptych slug="growfusely" name="Growfusely" >}}
 Strategic Depth 25/30 | Content Quality 22/25 | SEO Expertise 20/20 | Client Results 12/15 | SaaS Specialization 9/10
 
 Best for: Companies that need to scale organic reach while maintaining consistent brand voice.
@@ -169,8 +166,7 @@ Pricing: $5,000+/mo – Competitive rates for combined SEO and content services 
 
 86
 
-![Quoleady](/images/agencies/quoleady-home.webp)
-
+{{< agency-triptych slug="quoleady" name="Quoleady" >}}
 Strategic Depth 24/30 | Content Quality 22/25 | SEO Expertise 19/20 | Client Results 13/15 | SaaS Specialization 8/10
 
 Best for: SaaS companies scaling lead generation through product-led comparison and alternative content.
@@ -202,8 +198,7 @@ Pricing: $4,000+/mo – Strong value for BOFU content and link building combinat
 
 85
 
-![Campfire Labs](/images/agencies/campfire-labs-home.webp)
-
+{{< agency-triptych slug="campfire-labs" name="Campfire Labs" >}}
 Strategic Depth 24/30 | Content Quality 25/25 | SEO Expertise 15/20 | Client Results 12/15 | SaaS Specialization 9/10
 
 Best for: SaaS companies that want customer stories crafted as compelling narratives, not bullet-point templates.
@@ -235,8 +230,7 @@ Pricing: $10,000+/mo – Premium reflects journalistic quality and deep intervie
 
 84
 
-![Grow and Convert](/images/agencies/grow-and-convert-home.webp)
-
+{{< agency-triptych slug="grow-and-convert" name="Grow and Convert" >}}
 Strategic Depth 26/30 | Content Quality 21/25 | SEO Expertise 17/20 | Client Results 13/15 | SaaS Specialization 7/10
 
 Best for: SaaS companies seeking to capture high-intent buyers through Pain Point SEO methodology.
@@ -270,8 +264,7 @@ Pricing: $10,000+/mo – Investment reflects deep customer research and strategi
 
 82
 
-![ClearVoice](/images/agencies/clearvoice-home.webp)
-
+{{< agency-triptych slug="clearvoice" name="ClearVoice" >}}
 Strategic Depth 22/30 | Content Quality 21/25 | SEO Expertise 18/20 | Client Results 12/15 | SaaS Specialization 9/10
 
 Best for: Large enterprises that need massive content volume managed through a reliable platform and talent network.
@@ -305,8 +298,7 @@ Pricing: $8,000+/mo – Platform and managed services included in engagement –
 
 81
 
-![Siege Media](/images/agencies/siege-media-home.webp)
-
+{{< agency-triptych slug="siege-media" name="Siege Media" >}}
 Strategic Depth 22/30 | Content Quality 22/25 | SEO Expertise 18/20 | Client Results 11/15 | SaaS Specialization 8/10
 
 Best for: SaaS brands that need visually compelling content designed to earn links and media coverage.
@@ -342,8 +334,7 @@ Pricing: $10,000+/mo – Premium reflects integrated content and design capabili
 
 78
 
-![ContentVisit](/images/agencies/contentvisit-home.webp)
-
+{{< agency-triptych slug="contentvisit" name="ContentVisit" >}}
 Strategic Depth 21/30 | Content Quality 19/25 | SEO Expertise 17/20 | Client Results 12/15 | SaaS Specialization 9/10
 
 Best for: Early-stage SaaS founders building their first organic content foundation on a startup budget.
@@ -377,8 +368,7 @@ Pricing: $2,500+/mo – Accessible pricing designed for startup budgets – Visi
 
 76
 
-![Codeless](/images/agencies/codeless-home.webp)
-
+{{< agency-triptych slug="codeless" name="Codeless" >}}
 Strategic Depth 20/30 | Content Quality 22/25 | SEO Expertise 16/20 | Client Results 10/15 | SaaS Specialization 8/10
 
 Best for: SaaS companies needing high-volume long-form content with rigorous fact-checking and editorial standards.
@@ -412,8 +402,7 @@ Pricing: $8,000+/mo – Reflects editorial infrastructure and quality control sy
 
 74
 
-![Optimist](/images/agencies/optimist-home.webp)
-
+{{< agency-triptych slug="optimist" name="Optimist" >}}
 Strategic Depth 21/30 | Content Quality 19/25 | SEO Expertise 15/20 | Client Results 11/15 | SaaS Specialization 8/10
 
 Best for: SaaS brands seeking a partner to build sustainable organic growth engines, not quick wins.

@@ -66,10 +66,8 @@ Here is a quick summary of all 8 SaaS GEO agencies listed in this blog:
 ### **1.** **PipeRocket Digital** **– Best For: B2B SaaS AI Visibility and Pipeline**
 
 
-![PipeRocket Digital homepage screenshot — B2B marketing agency](/images/agencies/piperocket-digital-home.webp)
-
-![PipeRocket Homepage](/images/agencies/piperocket-digital-home.webp)
-
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
+{{< agency-triptych slug="piperocket-digital" name="PipeRocket" >}}
 We started PipeRocket as a SaaS marketing agency before the rise of AI engines. Most SaaS GEO agencies now are just relabeling existing SEO as “AI optimized”. We did not want to do that.
 
 **What we do?**
@@ -104,8 +102,7 @@ Everything we do traces back to whether your buyers are finding you when they ar
 ### **2. Siege Media – Best For: Content-Led GEO Authority Building**
 
 
-![Siege Media homepage screenshot — B2B marketing agency](/images/agencies/siege-media-home.webp)
-
+{{< agency-triptych slug="siege-media" name="Siege Media" >}}
 Siege Media’s GEO approach rests on three pillars: data journalism, digital PR, and proprietary technology. [LLM](/glossary/what-is-an-llm/ "Glossary: LLM")s reference original research heavily, so content built around unique data is far more likely to be cited than generic articles.
 
 Their BlueprintIQ tool audits content against live [ChatGPT](/blogs/how-to-rank-on-chatgpt/ "How to Rank on ChatGPT"), Gemini, and Perplexity results and flags topical and entity gaps that LLMs prioritize. Their DataFlywheel system keeps content current, which matters because AI engines consistently favor up-to-date sources.
@@ -162,10 +159,8 @@ They recognize that SaaS buyers use AI to compare features, pricing, and integra
 ### **4. FirstPageSage – Best For: Thought Leadership GEO for B2B SaaS**
 
 
-![FirstPageSage homepage screenshot — B2B marketing agency](/images/agencies/firstpagesage-home.webp)
-
-![FirstPageSage Homepage](/images/agencies/first-page-sage-home.webp)
-
+{{< agency-triptych slug="firstpagesage" name="FirstPageSage" >}}
+{{< agency-triptych slug="first-page-sage" name="FirstPageSage" >}}
 FirstPageSage coined the term GEO and ran the first documented study on AI chatbot ranking algorithms. Founder Evan Bailyn ran 11,128 commercial queries across ChatGPT, Gemini, Perplexity, and Claude to map the specific ranking factors each platform uses. That research drives their client programs directly.
 
 Their methodology, which they call authority content architecture, focuses on getting clients into the highly-ranked list articles and directories that AI engines pull from when generating recommendations. The logic: AI engines largely source from top-ranked Google and Bing results, so getting into those lists is the most direct path to AI visibility.
@@ -190,8 +185,7 @@ Their methodology, which they call authority content architecture, focuses on ge
 ### **5. Omniscient Digital – Best For: SaaS-Focused SEO and GEO as One System**
 
 
-![Omniscient Digital homepage screenshot — B2B marketing agency](/images/agencies/omniscient-digital-home.webp)
-
+{{< agency-triptych slug="omniscient-digital" name="Omniscient Digital" >}}
 Founded by former HubSpot marketing practitioners, Omniscient Digital’s core GEO concept is Surround Sound SEO: building brand presence across third-party lists, reviews, directories, and SERP content so LLMs consistently surface your brand in category answers.
 
 Their GEO work is grounded in how RAG actually works. LLMs surface content that is crawlable, topically relevant, clearly structured, and backed by strong authority signals. Omniscient builds programs around those specific signals rather than repurposing keyword-based SEO work.
@@ -218,8 +212,7 @@ They require content with a strong point of view and unique insight, because gen
 ### **6. Minuttia – Best For: Strategic GEO for B2B SaaS Niche Authority**
 
 
-![Minuttia homepage screenshot — B2B marketing agency](/images/agencies/minuttia-home.webp)
-
+{{< agency-triptych slug="minuttia" name="Minuttia" >}}
 Minuttia is B2B SaaS-only. Their GEO playbook blends entity SEO, topical authority, and content distribution to capture qualified demand in generative engines including AI Overviews and chat search. Managing Director George Chasiotis has published research on entity SEO and topical authority as foundational signals for AI visibility.
 
 Rather than running keyword-driven content calendars, they build strategy around how a specific SaaS company grows and map content to that motion. For GEO, that means producing content with strong points of view and subject matter depth, because surface-level content does not get cited regardless of technical structure. Starting price is $4,000+ per month.
@@ -243,8 +236,7 @@ Rather than running keyword-driven content calendars, they build strategy around
 ### **7. Searchbloom – Best For: SEO and GEO With Strong Technical Foundations**
 
 
-![Searchbloom homepage screenshot — B2B marketing agency](/images/agencies/searchbloom-home.webp)
-
+{{< agency-triptych slug="searchbloom" name="Searchbloom" >}}
 Searchbloom has two documented methodologies directly relevant to GEO. ART covers traditional SEO (Authority, Relevance, Technology) and MERIT is built specifically for AI search: Mentions, Evidence, Relevance, Inclusion, and Transform, mapped to how LLMs evaluate and cite content.
 
 What separates them is that they implement rather than just recommend. Six in-house specialist teams cover SEO, paid media, content, development, CRO, and outreach, so technical fixes, schema markup, and content optimization happen without a separate implementation layer. All GEO work is connected to SaaS-specific metrics including trials, demos, and ARR, rather than reporting on visibility in isolation.
@@ -268,8 +260,7 @@ What separates them is that they implement rather than just recommend. Six in-ho
 ### **8. Single Grain – Best For: AI-Accelerated GEO and Content at Scale**
 
 
-![Single Grain homepage screenshot — B2B marketing agency](/images/agencies/single-grain-home.webp)
-
+{{< agency-triptych slug="single-grain" name="Single Grain" >}}
 Single Grain integrates GEO into a broader multi-channel program rather than running it as a standalone service. Their model connects SEO, GEO, and paid media into one strategy, so AI visibility improvements feed directly into paid targeting and CRO rather than sitting in a separate reporting silo.
 
 Their investment in proprietary AI tooling accelerates testing of what AI engines respond to and tightens the feedback loop on content performance across ChatGPT, Perplexity, and Gemini. The multi-channel setup makes them most relevant for growth-stage SaaS companies that want GEO connected to a broader acquisition program rather than managed as an isolated content exercise.
