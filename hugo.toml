@@ -149,6 +149,11 @@ copyright = "© Piperocket Inc. 2026 All rights reserved"
 
 primary_cta_text = "Talk to Us"
 primary_cta_url = "/contact-us/"
+
+# Analytics — only injected in production builds (`hugo --environment production`
+# or Netlify's [context.production] block). Local hugo server / preview
+# deploys never load the GA4 snippet, so dev traffic stays out of reports.
+ga4_measurement_id = "G-RZ1XZF24RE"
 secondary_cta_text = "Book free consultation"
 secondary_cta_url = "/contact-us/"
 

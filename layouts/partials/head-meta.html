@@ -99,6 +99,9 @@
 {{/* ============== AI / search bot directives ============== */}}
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 
+{{/* ============== Google Analytics 4 (production only) ============== */}}
+{{ partial "google-analytics.html" . }}
+
 {{/* ============== JSON-LD: Organization (site-wide on every page) ==============
      Renders the brand entity on every page so Knowledge Graph + AI engines
      (ChatGPT/Perplexity/Claude/Gemini) consistently attribute content to
