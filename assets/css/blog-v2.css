@@ -147,7 +147,7 @@
   top: 100px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 14px;
   max-height: calc(100vh - 124px);
   overflow-y: auto;
   scrollbar-width: thin;

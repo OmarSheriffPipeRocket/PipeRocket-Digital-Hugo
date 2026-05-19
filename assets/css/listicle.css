@@ -548,7 +548,7 @@
   top: 100px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 14px;
   /* Cap to viewport with thin scrollbar so long TOC + CTA stacks stay
      reachable on shorter laptop screens. */
   max-height: calc(100vh - 124px);

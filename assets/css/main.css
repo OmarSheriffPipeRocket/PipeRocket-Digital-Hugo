@@ -5709,12 +5709,12 @@ main table a,
     column-gap: var(--pr-s-8);
   }
 }
-/* Stack TOC and CTA inside the rail with a clear visual gap — applies on
+/* Stack TOC and CTA inside the rail with a tight visual gap — applies on
    both desktop and mobile so the cards never butt up against each other. */
 .pr-2col-article .pr-article-3-6-3 .pr-article-rail--left {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 14px;
 }
 /* Out-of-grid author/related block — centered full-width footer below
    the article body on 2-col pages. */
