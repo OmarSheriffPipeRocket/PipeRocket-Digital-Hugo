@@ -159,6 +159,11 @@ primary_cta_url = "/contact-us/"
 # the GTM container without code changes. GA4 is wired *inside* GTM, not
 # directly here.
 gtm_container_id = "GTM-W8SRLKQT"
+# HubSpot Hub ID — loaded as a direct <script> tag (mirroring the live
+# WP setup, where HubSpot is loaded outside GTM, not inside it). This
+# preserves HubSpot's CRM contact tracking, chat widget, lifecycle
+# email triggers, and form attribution through the cutover.
+hubspot_hub_id = "241952717"
 # Kept for reference — GA4 is actually loaded by the GTM container above.
 # If you ever want to fall back to direct gtag, set ga4_measurement_id
 # AND remove gtm_container_id.

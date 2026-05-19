@@ -108,10 +108,13 @@
 {{- end }}
 
 {{/* ============== Google Tag Manager (production only) ==============
-     GTM is the single analytics container — it loads GA4 (G-RZ1XZF24RE),
-     HubSpot, and any other tag the marketing team configures inside GTM
-     without requiring code changes here. */}}
+     GTM loads GA4 (G-RZ1XZF24RE) plus any other tag the marketing team
+     configures inside GTM. HubSpot is loaded separately below — mirroring
+     the live WP setup where HubSpot sits outside GTM. */}}
 {{ partial "google-tag-manager.html" . }}
+
+{{/* ============== HubSpot tracking (production only) ============== */}}
+{{ partial "hubspot.html" . }}
 
 {{/* ============== JSON-LD: Organization (site-wide on every page) ==============
      Renders the brand entity on every page so Knowledge Graph + AI engines
