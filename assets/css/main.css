@@ -5409,9 +5409,7 @@ main table a,
   line-height: 1.05;
   margin: 0 0 var(--pr-s-5);
   letter-spacing: -0.01em;
-}
-@media (min-width: 900px) {
-  .pr-blog-hero__title { white-space: nowrap; }
+  max-width: 22ch;
 }
 .pr-blog-hero__lede {
   font-family: "Helvetica Light", Helvetica, Arial, sans-serif;

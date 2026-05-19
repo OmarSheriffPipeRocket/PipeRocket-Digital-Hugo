@@ -1,0 +1,143 @@
+{{/* Listicle V2 template — Vignesh's simplified design (Goldmark native rendering).
+     Opt-in: add `layout: "listicle-v2"` to a /content/list/*.md file's frontmatter. */}}
+{{ define "head_extra" }}
+{{ $css := resources.Get "css/listicle-v2.css" }}
+{{ if $css }}
+  {{ $css = $css | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+<article class="pr-listicle-v2" data-pr-listicle-v2>
+
+    {{/* Banner — title, byline, featured image */}}
+    {{ $authors := site.Data.authors }}
+    {{ $writer := index $authors (default "" .Params.writtenBy) }}
+    {{ $reading := .ReadingTime }}
+    {{ if .Params.readingTime }}{{ $reading = .Params.readingTime }}{{ end }}
+    {{ $lastmod := .Lastmod }}{{ if $lastmod.IsZero }}{{ $lastmod = .Date }}{{ end }}
+    <header class="pr-listicle-v2__banner">
+      <div class="pr-listicle-v2__banner-grid">
+        <div class="pr-listicle-v2__banner-copy">
+          <div class="pr-listicle-v2__chip">
+            <span class="pr-listicle-v2__chip-text">
+              {{ with .Params.category }}{{ . }}{{ end }}{{ if .Params.readingTime }} · {{ .Params.readingTime | upper }}{{ else if .ReadingTime }} · {{ .ReadingTime }} MIN READ{{ end }}
+            </span>
+          </div>
+          <h1 class="pr-listicle-v2__title">{{ .Title }}</h1>
+          <div class="pr-listicle-v2__byline">
+            {{ with $writer }}
+              <a class="pr-listicle-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
+                {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+                <span>{{ .name }}</span>
+              </a>
+            {{ end }}
+            {{ if and $writer (not $lastmod.IsZero) }}<span class="pr-listicle-v2__byline-sep">|</span>{{ end }}
+            {{ if not $lastmod.IsZero }}<span class="pr-listicle-v2__lastmod">Last updated on <time datetime="{{ $lastmod.Format "2006-01-02" }}">{{ $lastmod.Format "2 January, 2006" }}</time></span>{{ end }}
+          </div>
+        </div>
+        {{ with .Params.featuredImage }}
+          <div class="pr-listicle-v2__banner-art">
+            <img src="{{ . }}" alt="{{ $.Title }}">
+          </div>
+        {{ end }}
+      </div>
+    </header>
+
+    {{/* 2-column body — left sidebar (TOC + CTA) / main content */}}
+    <div class="pr-container">
+    <div class="pr-listicle-v2__grid">
+
+      <aside class="pr-listicle-v2__rail-left" aria-label="In this article">
+        <div class="pr-listicle-v2__toc-block">
+          <div class="pr-listicle-v2__rail-label">Jump to Agency</div>
+          <nav data-pr-agency-toc><!-- filled by JS --></nav>
+        </div>
+        <div class="pr-listicle-v2__disc-note" data-pr-disc-note hidden>
+          <strong>★ Note:</strong> PipeRocket Digital appears on this list. Evaluated on the same criteria as every other agency.
+        </div>
+        <div class="pr-listicle-v2__cta">
+          <div class="pr-listicle-v2__cta-h">Free Strategy Audit</div>
+          <p class="pr-listicle-v2__cta-d">Tell us your ICP and growth goal. We'll map the channels, audiences, and angles most likely to move qualified pipeline in 90 days.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-listicle-v2__cta-btn" data-cta-location="listicle-v2-sidebar">Get Free Audit</a>
+        </div>
+      </aside>
+
+      <main class="pr-listicle-v2__main pr-listicle__body" data-pr-listicle-main>
+        {{ .Content }}
+        {{ with $writer }}
+        <div class="pr-author-card">
+          {{ with .photo }}<img class="pr-author-card__photo" src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+          <div class="pr-author-card__body">
+            <div class="pr-author-card__head">
+              <span class="pr-author-card__name">{{ .name }}</span>
+              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+            </div>
+            {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+            <a class="pr-author-card__btn" href="/authors/{{ $.Params.writtenBy }}/">View full profile</a>
+          </div>
+        </div>
+        {{ end }}
+      </main>
+
+    </div>
+    </div>{{/* end pr-container */}}
+
+    {{/* Mobile nav — shown only on narrow widths, populated by JS */}}
+    <nav class="pr-listicle-v2__mobile-nav" data-pr-mobile-nav hidden>
+      <span class="pr-listicle-v2__mobile-nav-label">Jump to:</span>
+      <select data-pr-mobile-select></select>
+      <button type="button" data-pr-mobile-go>Go</button>
+    </nav>
+
+</article>
+
+{{/* Related Articles */}}
+{{ $related := where (where .Site.RegularPages "Section" "list") "Permalink" "ne" .Permalink | first 3 }}
+{{ if $related }}
+<section class="pr-listicle-related">
+  <div class="pr-container">
+    <h2 class="pr-listicle-related__heading">Related Articles</h2>
+    <div class="pr-listicle-related__grid">
+      {{ range $related }}
+      {{ $rWriter := index $.Site.Data.authors (default "" .Params.writtenBy) }}
+      <article class="pr-listicle-related__card">
+        {{ with .Params.featuredImage }}
+        <a href="{{ $.RelPermalink }}" class="pr-listicle-related__img-wrap">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        </a>
+        {{ end }}
+        <div class="pr-listicle-related__copy">
+          {{ with .Params.category }}<div class="pr-listicle-related__cat">{{ . }}</div>{{ end }}
+          <h3 class="pr-listicle-related__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <div class="pr-listicle-related__meta">
+            {{ with $rWriter }}<span>By {{ .name }}</span>{{ end }}
+            {{ if not .Date.IsZero }}{{ with $rWriter }} · {{ end }}<span>{{ .Date.Format "2 January, 2006" }}</span>{{ end }}
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Bottom CTA */}}
+<section class="pr-cta-final">
+  <div class="pr-container">
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2>You already know if we're the team you've been looking for.</h2>
+    <p>We work with a small number of B2B SaaS companies at a time. If your pipeline isn't growing the way your board expects, let's find out if we're the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="listicle-bottom">Book free consultation</a>
+  </div>
+</section>
+
+{{/* V2 pattern-detection engine */}}
+{{ $js := resources.Get "js/listicle-v2.js" }}
+{{ if $js }}
+  {{ $js = $js | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}
+{{ end }}
