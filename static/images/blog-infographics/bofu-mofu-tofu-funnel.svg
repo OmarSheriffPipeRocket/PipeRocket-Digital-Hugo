@@ -2,46 +2,46 @@
   <title id="title-f">BOFU / MOFU / TOFU Content Funnel — PipeRocket Digital</title>
   <desc id="desc-f">The B2B SaaS content funnel. TOFU (awareness) at the top: thought leadership and educational guides. MOFU (consideration): solution guides and category overviews. BOFU (decision): comparison pages, alternatives pages, pricing, and free tools. The deliberate build order is bottom-up: ship BOFU first because it converts highest, then MOFU, then TOFU.</desc>
 
-  <rect width="1200" height="760" fill="#F6F6F1"/>
+  <rect width="1200" height="760" fill="#F6F6F1" />
 
-  <!-- Header -->
-  <rect x="0" y="0" width="1200" height="110" fill="#282828"/>
-  <text x="50" y="48" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="2.4">PIPEROCKET DIGITAL · CONTENT FUNNEL</text>
-  <text x="50" y="85" fill="#ffffff" font-size="26" font-weight="700">The BOFU-First Content Funnel</text>
-  <rect x="0" y="110" width="1200" height="4" fill="#0CC6F1"/>
+  
+  <rect x="0" y="0" width="1200" height="110" fill="#E8E4DA" />
+  <text x="50" y="48" fill="#0D0D0D" font-size="12" font-weight="700" letter-spacing="2.4">PIPEROCKET DIGITAL · CONTENT FUNNEL</text>
+  <text x="50" y="85" fill="#0D0D0D" font-size="26" font-weight="700">The BOFU-First Content Funnel</text>
+  <rect x="0" y="110" width="1200" height="4" fill="#0CC6F1" />
   <text x="50" y="148" fill="#282828" font-size="14">Most SaaS teams build top-down. We build bottom-up. Here's why that order changes everything.</text>
 
-  <!-- Funnel: trapezoid stack -->
-  <!-- TOFU (widest, top) -->
+  
+  
   <g>
-    <polygon points="320,200 880,200 800,300 400,300" fill="#ffffff" stroke="#D9D5C9" stroke-width="1.5"/>
+    <polygon points="320,200 880,200 800,300 400,300" fill="#ffffff" stroke="#D9D5C9" stroke-width="1.5" />
     <text x="600" y="232" fill="#282828" font-size="22" font-weight="700" text-anchor="middle">TOFU · Awareness</text>
     <text x="600" y="258" fill="#3F3F3F" font-size="13" text-anchor="middle">"How do I reduce SaaS churn?"</text>
     <text x="600" y="280" fill="#6B6B6B" font-size="12" text-anchor="middle">Thought leadership · industry guides · trend posts</text>
   </g>
 
-  <!-- MOFU -->
+  
   <g>
-    <polygon points="400,300 800,300 720,400 480,400" fill="#ffffff" stroke="#0CC6F1" stroke-width="2"/>
+    <polygon points="400,300 800,300 720,400 480,400" fill="#ffffff" stroke="#0CC6F1" stroke-width="2" />
     <text x="600" y="332" fill="#282828" font-size="22" font-weight="700" text-anchor="middle">MOFU · Consideration</text>
     <text x="600" y="358" fill="#3F3F3F" font-size="13" text-anchor="middle">"Best churn reduction software for SaaS"</text>
     <text x="600" y="380" fill="#6B6B6B" font-size="12" text-anchor="middle">Category overviews · listicles · solution guides</text>
   </g>
 
-  <!-- BOFU (narrowest, bottom) -->
+  
   <g>
-    <polygon points="480,400 720,400 680,500 520,500" fill="#282828" stroke="#282828"/>
+    <polygon points="480,400 720,400 680,500 520,500" fill="#282828" stroke="#282828" />
     <text x="600" y="432" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle">BOFU · Decision</text>
     <text x="600" y="458" fill="rgba(255,255,255,0.85)" font-size="13" text-anchor="middle">"ChurnZero vs Gainsight pricing"</text>
     <text x="600" y="480" fill="rgba(255,255,255,0.7)" font-size="12" text-anchor="middle">Comparison · alternative · pricing · free tools</text>
   </g>
 
-  <!-- Right side: "Build order" arrow -->
+  
   <g transform="translate(900, 200)">
     <text x="0" y="0" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="2">BUILD ORDER</text>
-    <!-- Arrow going up -->
-    <line x1="80" y1="290" x2="80" y2="40" stroke="#0CC6F1" stroke-width="3"/>
-    <polygon points="74,46 80,30 86,46" fill="#0CC6F1"/>
+    
+    <line x1="80" y1="290" x2="80" y2="40" stroke="#0CC6F1" stroke-width="3" />
+    <polygon points="74,46 80,30 86,46" fill="#0CC6F1" />
     <text x="100" y="50" fill="#282828" font-size="13" font-weight="600">3. TOFU last</text>
     <text x="100" y="68" fill="#6B6B6B" font-size="11">After BOFU is ranking</text>
 
@@ -52,9 +52,9 @@
     <text x="100" y="288" fill="#6B6B6B" font-size="11">Converts highest, ships fastest</text>
   </g>
 
-  <!-- Stats row -->
+  
   <g transform="translate(50, 560)">
-    <rect width="350" height="138" rx="12" fill="#ffffff" stroke="#D9D5C9"/>
+    <rect width="350" height="138" rx="12" fill="#ffffff" stroke="#D9D5C9" />
     <text x="22" y="32" fill="#FF6B5C" font-size="32" font-weight="700">0.2%</text>
     <text x="22" y="58" fill="#282828" font-size="13" font-weight="700">TOFU page CVR</text>
     <text x="22" y="78" fill="#3F3F3F" font-size="12">High traffic. Almost zero pipeline.</text>
@@ -62,7 +62,7 @@
   </g>
 
   <g transform="translate(425, 560)">
-    <rect width="350" height="138" rx="12" fill="#ffffff" stroke="#D9D5C9"/>
+    <rect width="350" height="138" rx="12" fill="#ffffff" stroke="#D9D5C9" />
     <text x="22" y="32" fill="#6B6B6B" font-size="32" font-weight="700">3.0%</text>
     <text x="22" y="58" fill="#282828" font-size="13" font-weight="700">MOFU page CVR</text>
     <text x="22" y="78" fill="#3F3F3F" font-size="12">Real intent. Real opportunity.</text>
@@ -70,11 +70,11 @@
   </g>
 
   <g transform="translate(800, 560)">
-    <rect width="350" height="138" rx="12" fill="#282828"/>
+    <rect width="350" height="138" rx="12" fill="#E8E4DA" stroke="#0CC6F1" stroke-width="1.5" />
     <text x="22" y="32" fill="#0CC6F1" font-size="32" font-weight="700">15%+</text>
-    <text x="22" y="58" fill="#ffffff" font-size="13" font-weight="700">BOFU page CVR</text>
-    <text x="22" y="78" fill="rgba(255,255,255,0.85)" font-size="12">Buyer ready to decide right now.</text>
-    <text x="22" y="108" fill="rgba(255,255,255,0.7)" font-size="11" font-style="italic">300 visits → 45 leads → ~22 SQLs</text>
+    <text x="22" y="58" fill="#0D0D0D" font-size="13" font-weight="700">BOFU page CVR</text>
+    <text x="22" y="78" fill="rgba(13, 13, 13, 0.85)" font-size="12">Buyer ready to decide right now.</text>
+    <text x="22" y="108" fill="rgba(13, 13, 13, 0.7)" font-size="11" font-style="italic">300 visits → 45 leads → ~22 SQLs</text>
   </g>
 
   <text x="1150" y="738" fill="rgba(40,40,40,0.5)" font-size="11" text-anchor="end">piperocket.digital · BOFU-First Content Funnel</text>

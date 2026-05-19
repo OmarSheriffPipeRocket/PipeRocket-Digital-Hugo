@@ -2,23 +2,23 @@
   <title id="title-cs">The 5-Step ChatGPT SEO Process — PipeRocket Digital</title>
   <desc id="desc-cs">Five steps to rank in ChatGPT, Perplexity and Gemini in 2026: 1) Master traditional SaaS SEO foundations first, 2) Find conversational ICP prompts from sales calls, 3) Restructure content to answer those prompts directly, 4) Handle indexing and brand-entity visibility, 5) Execute at scale across multiple AI engines.</desc>
 
-  <rect width="1200" height="720" fill="#F6F6F1"/>
+  <rect width="1200" height="720" fill="#F6F6F1" />
 
-  <rect x="0" y="0" width="1200" height="110" fill="#282828"/>
-  <text x="50" y="48" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="2.4">PIPEROCKET DIGITAL · CHATGPT SEO PROCESS</text>
-  <text x="50" y="85" fill="#ffffff" font-size="26" font-weight="700">The 5-Step ChatGPT SEO Process</text>
-  <rect x="0" y="110" width="1200" height="4" fill="#0CC6F1"/>
+  <rect x="0" y="0" width="1200" height="110" fill="#E8E4DA" />
+  <text x="50" y="48" fill="#0D0D0D" font-size="12" font-weight="700" letter-spacing="2.4">PIPEROCKET DIGITAL · CHATGPT SEO PROCESS</text>
+  <text x="50" y="85" fill="#0D0D0D" font-size="26" font-weight="700">The 5-Step ChatGPT SEO Process</text>
+  <rect x="0" y="110" width="1200" height="4" fill="#0CC6F1" />
   <text x="50" y="148" fill="#282828" font-size="14">No "AI SEO tools" required. Just a sequenced foundation that maps to how RAG actually works.</text>
 
-  <!-- 5 cards in a row -->
+  
   <g>
-    <!-- Step 1 -->
+    
     <g transform="translate(50, 195)">
-      <rect width="216" height="490" rx="12" fill="#ffffff" stroke="#D9D5C9"/>
-      <rect width="216" height="62" rx="12" fill="#0CC6F1"/>
-      <rect y="48" width="216" height="14" fill="#0CC6F1"/>
-      <text x="22" y="36" fill="#ffffff" font-size="20" font-weight="700">Step 1</text>
-      <text x="22" y="55" fill="rgba(255,255,255,0.85)" font-size="11" letter-spacing="1.2">FOUNDATION</text>
+      <rect width="216" height="490" rx="12" fill="#ffffff" stroke="#D9D5C9" />
+      <rect width="216" height="62" rx="12" fill="#0CC6F1" />
+      <rect y="48" width="216" height="14" fill="#0CC6F1" />
+      <text x="22" y="36" fill="#0D0D0D" font-size="20" font-weight="700">Step 1</text>
+      <text x="22" y="55" fill="rgba(13, 13, 13, 0.85)" font-size="11" letter-spacing="1.2">FOUNDATION</text>
       <text x="22" y="92" fill="#282828" font-size="15" font-weight="700">Master basic</text>
       <text x="22" y="111" fill="#282828" font-size="15" font-weight="700">SaaS SEO first</text>
       <text x="22" y="148" fill="#1A1A1A" font-size="12">If you don't rank in</text>
@@ -35,13 +35,13 @@
       <text x="22" y="465" fill="#0CC6F1" font-size="10" font-weight="700" letter-spacing="1.2">PREREQUISITE</text>
     </g>
 
-    <!-- Step 2 -->
+    
     <g transform="translate(280, 195)">
-      <rect width="216" height="490" rx="12" fill="#ffffff" stroke="#D9D5C9"/>
-      <rect width="216" height="62" rx="12" fill="#0CC6F1"/>
-      <rect y="48" width="216" height="14" fill="#0CC6F1"/>
-      <text x="22" y="36" fill="#ffffff" font-size="20" font-weight="700">Step 2</text>
-      <text x="22" y="55" fill="rgba(255,255,255,0.85)" font-size="11" letter-spacing="1.2">PROMPT MINING</text>
+      <rect width="216" height="490" rx="12" fill="#ffffff" stroke="#D9D5C9" />
+      <rect width="216" height="62" rx="12" fill="#0CC6F1" />
+      <rect y="48" width="216" height="14" fill="#0CC6F1" />
+      <text x="22" y="36" fill="#0D0D0D" font-size="20" font-weight="700">Step 2</text>
+      <text x="22" y="55" fill="rgba(13, 13, 13, 0.85)" font-size="11" letter-spacing="1.2">PROMPT MINING</text>
       <text x="22" y="92" fill="#282828" font-size="15" font-weight="700">Find ICP prompts</text>
       <text x="22" y="111" fill="#282828" font-size="15" font-weight="700">from sales calls</text>
       <text x="22" y="148" fill="#1A1A1A" font-size="12">Real users ask 15-word</text>
@@ -58,36 +58,36 @@
       <text x="22" y="465" fill="#0CC6F1" font-size="10" font-weight="700" letter-spacing="1.2">DEMAND MAP</text>
     </g>
 
-    <!-- Step 3 -->
+    
     <g transform="translate(510, 195)">
-      <rect width="216" height="490" rx="12" fill="#282828"/>
-      <rect width="216" height="62" rx="12" fill="#0CC6F1"/>
-      <rect y="48" width="216" height="14" fill="#0CC6F1"/>
-      <text x="22" y="36" fill="#ffffff" font-size="20" font-weight="700">Step 3</text>
-      <text x="22" y="55" fill="rgba(255,255,255,0.85)" font-size="11" letter-spacing="1.2">CONTENT REWRITE</text>
-      <text x="22" y="92" fill="#ffffff" font-size="15" font-weight="700">Restructure to</text>
-      <text x="22" y="111" fill="#ffffff" font-size="15" font-weight="700">answer prompts</text>
-      <text x="22" y="148" fill="rgba(255,255,255,0.85)" font-size="12">H2s become questions.</text>
-      <text x="22" y="166" fill="rgba(255,255,255,0.85)" font-size="12">First 2 sentences answer</text>
-      <text x="22" y="184" fill="rgba(255,255,255,0.85)" font-size="12">directly. Then expand.</text>
-      <text x="22" y="220" fill="rgba(255,255,255,0.55)" font-size="11" font-weight="700" letter-spacing="1.2">DO THIS</text>
-      <text x="22" y="245" fill="#ffffff" font-size="12">· TL;DR at the top</text>
-      <text x="22" y="265" fill="#ffffff" font-size="12">· Question-based H2s</text>
-      <text x="22" y="285" fill="#ffffff" font-size="12">· Direct first sentences</text>
-      <text x="22" y="305" fill="#ffffff" font-size="12">· Tables &amp; bullets liberally</text>
-      <text x="22" y="345" fill="rgba(255,255,255,0.55)" font-size="11" font-weight="700" letter-spacing="1.2">RESULT</text>
-      <text x="22" y="370" fill="rgba(255,255,255,0.85)" font-size="12">Cite-able, scannable, and</text>
-      <text x="22" y="390" fill="rgba(255,255,255,0.85)" font-size="12">AI-pickable content.</text>
+      <rect width="216" height="490" rx="12" fill="#E8E4DA" stroke="#0CC6F1" stroke-width="1.5" />
+      <rect width="216" height="62" rx="12" fill="#0CC6F1" />
+      <rect y="48" width="216" height="14" fill="#0CC6F1" />
+      <text x="22" y="36" fill="#0D0D0D" font-size="20" font-weight="700">Step 3</text>
+      <text x="22" y="55" fill="rgba(13, 13, 13, 0.85)" font-size="11" letter-spacing="1.2">CONTENT REWRITE</text>
+      <text x="22" y="92" fill="#0D0D0D" font-size="15" font-weight="700">Restructure to</text>
+      <text x="22" y="111" fill="#0D0D0D" font-size="15" font-weight="700">answer prompts</text>
+      <text x="22" y="148" fill="rgba(13, 13, 13, 0.85)" font-size="12">H2s become questions.</text>
+      <text x="22" y="166" fill="rgba(13, 13, 13, 0.85)" font-size="12">First 2 sentences answer</text>
+      <text x="22" y="184" fill="rgba(13, 13, 13, 0.85)" font-size="12">directly. Then expand.</text>
+      <text x="22" y="220" fill="rgba(13, 13, 13, 0.55)" font-size="11" font-weight="700" letter-spacing="1.2">DO THIS</text>
+      <text x="22" y="245" fill="#0D0D0D" font-size="12">· TL;DR at the top</text>
+      <text x="22" y="265" fill="#0D0D0D" font-size="12">· Question-based H2s</text>
+      <text x="22" y="285" fill="#0D0D0D" font-size="12">· Direct first sentences</text>
+      <text x="22" y="305" fill="#0D0D0D" font-size="12">· Tables &amp; bullets liberally</text>
+      <text x="22" y="345" fill="rgba(13, 13, 13, 0.55)" font-size="11" font-weight="700" letter-spacing="1.2">RESULT</text>
+      <text x="22" y="370" fill="rgba(13, 13, 13, 0.85)" font-size="12">Cite-able, scannable, and</text>
+      <text x="22" y="390" fill="rgba(13, 13, 13, 0.85)" font-size="12">AI-pickable content.</text>
       <text x="22" y="465" fill="#0CC6F1" font-size="10" font-weight="700" letter-spacing="1.2">FORMAT FIX</text>
     </g>
 
-    <!-- Step 4 -->
+    
     <g transform="translate(740, 195)">
-      <rect width="216" height="490" rx="12" fill="#ffffff" stroke="#D9D5C9"/>
-      <rect width="216" height="62" rx="12" fill="#0CC6F1"/>
-      <rect y="48" width="216" height="14" fill="#0CC6F1"/>
-      <text x="22" y="36" fill="#ffffff" font-size="20" font-weight="700">Step 4</text>
-      <text x="22" y="55" fill="rgba(255,255,255,0.85)" font-size="11" letter-spacing="1.2">BRAND VISIBILITY</text>
+      <rect width="216" height="490" rx="12" fill="#ffffff" stroke="#D9D5C9" />
+      <rect width="216" height="62" rx="12" fill="#0CC6F1" />
+      <rect y="48" width="216" height="14" fill="#0CC6F1" />
+      <text x="22" y="36" fill="#0D0D0D" font-size="20" font-weight="700">Step 4</text>
+      <text x="22" y="55" fill="rgba(13, 13, 13, 0.85)" font-size="11" letter-spacing="1.2">BRAND VISIBILITY</text>
       <text x="22" y="92" fill="#282828" font-size="15" font-weight="700">Indexing &amp; brand</text>
       <text x="22" y="111" fill="#282828" font-size="15" font-weight="700">entity work</text>
       <text x="22" y="148" fill="#1A1A1A" font-size="12">Same brand name, same</text>
@@ -104,13 +104,13 @@
       <text x="22" y="465" fill="#0CC6F1" font-size="10" font-weight="700" letter-spacing="1.2">ENTITY GRAPH</text>
     </g>
 
-    <!-- Step 5 -->
+    
     <g transform="translate(970, 195)">
-      <rect width="180" height="490" rx="12" fill="#ffffff" stroke="#0CC6F1" stroke-width="2"/>
-      <rect width="180" height="62" rx="12" fill="#0CC6F1"/>
-      <rect y="48" width="180" height="14" fill="#0CC6F1"/>
-      <text x="22" y="36" fill="#ffffff" font-size="20" font-weight="700">Step 5</text>
-      <text x="22" y="55" fill="rgba(255,255,255,0.85)" font-size="11" letter-spacing="1.2">SCALE</text>
+      <rect width="180" height="490" rx="12" fill="#ffffff" stroke="#0CC6F1" stroke-width="2" />
+      <rect width="180" height="62" rx="12" fill="#0CC6F1" />
+      <rect y="48" width="180" height="14" fill="#0CC6F1" />
+      <text x="22" y="36" fill="#0D0D0D" font-size="20" font-weight="700">Step 5</text>
+      <text x="22" y="55" fill="rgba(13, 13, 13, 0.85)" font-size="11" letter-spacing="1.2">SCALE</text>
       <text x="22" y="92" fill="#282828" font-size="15" font-weight="700">Execute</text>
       <text x="22" y="111" fill="#282828" font-size="15" font-weight="700">at scale</text>
       <text x="22" y="148" fill="#1A1A1A" font-size="12">Monitor citations</text>
