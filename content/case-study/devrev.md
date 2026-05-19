@@ -6,6 +6,7 @@ description: "How DevRev's organic programme more than doubled traffic in six mo
 metaTitle: "DevRev Case Study: 127% Traffic Growth in 6 Months"
 metaDescription: "How DevRev's organic programme more than doubled traffic in six months — by ranking on the BOFU queries their ICP was actually searching for."
 client: "DevRev"
+logo: "/images/logos/devrev.png"
 industry: "SaaS · DevTools / Customer Success"
 services: ["SaaS SEO"]
 company_size: "Mid-Market · Enterprise"
