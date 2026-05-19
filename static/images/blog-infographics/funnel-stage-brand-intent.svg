@@ -7,64 +7,64 @@
   <rect x="0" y="0" width="1200" height="110" fill="#282828"/>
   <text x="50" y="48" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="2.4">PIPEROCKET DIGITAL · STATE OF SEO IN THE AI WORLD 2026</text>
   <text x="50" y="85" fill="#ffffff" font-size="26" font-weight="700">Funnel Stage &amp; Brand Intent: AI vs Organic</text>
-  <rect x="0" y="110" width="1200" height="4" fill="#0BA6E2"/>
+  <rect x="0" y="110" width="1200" height="4" fill="#0CC6F1"/>
   <text x="50" y="148" fill="#282828" font-size="14">AI sessions skew BoFu, but carry less than half the brand intent of organic. Pattern means AI feeds discovery, organic closes.</text>
 
   <!-- LEFT: Stacked bars for funnel composition -->
   <g transform="translate(50, 195)">
-    <text x="0" y="0" fill="#888" font-size="11" font-weight="700" letter-spacing="2">FUNNEL COMPOSITION</text>
+    <text x="0" y="0" fill="#6B6B6B" font-size="11" font-weight="700" letter-spacing="2">FUNNEL COMPOSITION</text>
     <text x="0" y="22" fill="#282828" font-size="20" font-weight="700">% of sessions by funnel stage</text>
 
     <!-- Organic stacked bar -->
     <g transform="translate(0, 60)">
       <text x="0" y="22" fill="#282828" font-size="13" font-weight="600">Organic search</text>
-      <rect x="160" y="6" width="380" height="28" rx="4" fill="#F0F0EB"/>
-      <rect x="160" y="6" width="224" height="28" rx="4" fill="#0BA6E2"/>
+      <rect x="160" y="6" width="380" height="28" rx="4" fill="#E8E4DA"/>
+      <rect x="160" y="6" width="224" height="28" rx="4" fill="#0CC6F1"/>
       <text x="170" y="25" fill="#ffffff" font-size="12" font-weight="700">59% ToFu</text>
-      <text x="395" y="25" fill="#888" font-size="12" font-weight="700">41% BoFu</text>
+      <text x="395" y="25" fill="#6B6B6B" font-size="12" font-weight="700">41% BoFu</text>
     </g>
 
     <!-- AI stacked bar -->
     <g transform="translate(0, 110)">
       <text x="0" y="22" fill="#282828" font-size="13" font-weight="600">AI referral</text>
-      <rect x="160" y="6" width="380" height="28" rx="4" fill="#F0F0EB"/>
+      <rect x="160" y="6" width="380" height="28" rx="4" fill="#E8E4DA"/>
       <rect x="160" y="6" width="213" height="28" rx="4" fill="#FF6B5C"/>
       <text x="170" y="25" fill="#ffffff" font-size="12" font-weight="700">56% ToFu</text>
-      <text x="385" y="25" fill="#888" font-size="12" font-weight="700">44% BoFu</text>
+      <text x="385" y="25" fill="#6B6B6B" font-size="12" font-weight="700">44% BoFu</text>
     </g>
 
-    <text x="0" y="180" fill="#888" font-size="11" font-style="italic">AI sessions skew 3 points more BoFu than organic — but organic still drives 4.4x more BoFu in absolute volume.</text>
+    <text x="0" y="180" fill="#6B6B6B" font-size="11" font-style="italic">AI sessions skew 3 points more BoFu than organic — but organic still drives 4.4x more BoFu in absolute volume.</text>
 
     <!-- Share of total funnel by source -->
     <g transform="translate(0, 220)">
-      <text x="0" y="0" fill="#888" font-size="11" font-weight="700" letter-spacing="1.5">SHARE OF EACH STAGE BY SOURCE</text>
+      <text x="0" y="0" fill="#6B6B6B" font-size="11" font-weight="700" letter-spacing="1.5">SHARE OF EACH STAGE BY SOURCE</text>
 
       <text x="0" y="30" fill="#282828" font-size="13" font-weight="600">Of all ToFu traffic</text>
-      <rect x="160" y="14" width="380" height="22" rx="4" fill="#F0F0EB"/>
-      <rect x="160" y="14" width="317" height="22" rx="4" fill="#0BA6E2"/>
+      <rect x="160" y="14" width="380" height="22" rx="4" fill="#E8E4DA"/>
+      <rect x="160" y="14" width="317" height="22" rx="4" fill="#0CC6F1"/>
       <text x="170" y="30" fill="#ffffff" font-size="12" font-weight="700">Organic 83.4%</text>
-      <text x="488" y="30" fill="#888" font-size="11">AI 16.6%</text>
+      <text x="488" y="30" fill="#6B6B6B" font-size="11">AI 16.6%</text>
 
       <text x="0" y="70" fill="#282828" font-size="13" font-weight="600">Of all BoFu traffic</text>
-      <rect x="160" y="54" width="380" height="22" rx="4" fill="#F0F0EB"/>
-      <rect x="160" y="54" width="310" height="22" rx="4" fill="#0BA6E2"/>
+      <rect x="160" y="54" width="380" height="22" rx="4" fill="#E8E4DA"/>
+      <rect x="160" y="54" width="310" height="22" rx="4" fill="#0CC6F1"/>
       <text x="170" y="70" fill="#ffffff" font-size="12" font-weight="700">Organic 81.5%</text>
-      <text x="480" y="70" fill="#888" font-size="11">AI 18.5%</text>
+      <text x="480" y="70" fill="#6B6B6B" font-size="11">AI 18.5%</text>
     </g>
   </g>
 
   <!-- RIGHT: Brand intent comparison -->
   <g transform="translate(620, 195)">
     <rect width="530" height="435" rx="12" fill="#282828"/>
-    <text x="22" y="34" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="2">BRAND-NAME SEARCH INTENT</text>
+    <text x="22" y="34" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="2">BRAND-NAME SEARCH INTENT</text>
     <text x="22" y="62" fill="#ffffff" font-size="20" font-weight="700">% of sessions with brand intent</text>
     <text x="22" y="84" fill="rgba(255,255,255,0.7)" font-size="12">How often the session included a brand-name in the query.</text>
 
     <!-- Two big-number cards -->
     <g transform="translate(22, 120)">
       <!-- Organic -->
-      <rect width="225" height="200" rx="10" fill="rgba(11,166,226,0.15)"/>
-      <text x="22" y="36" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="2">ORGANIC</text>
+      <rect width="225" height="200" rx="10" fill="rgba(12, 198, 241,0.15)"/>
+      <text x="22" y="36" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="2">ORGANIC</text>
       <text x="22" y="100" fill="#ffffff" font-size="56" font-weight="700">28.1%</text>
       <text x="22" y="138" fill="rgba(255,255,255,0.85)" font-size="13">Sessions included a brand-name query</text>
       <text x="22" y="174" fill="rgba(255,255,255,0.7)" font-size="11" font-style="italic">In HRTech: 64%</text>
@@ -81,7 +81,7 @@
 
     <!-- Take-away -->
     <g transform="translate(22, 345)">
-      <text x="0" y="0" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="2">TAKE-AWAY</text>
+      <text x="0" y="0" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="2">TAKE-AWAY</text>
       <text x="0" y="28" fill="#ffffff" font-size="14" font-weight="700">AI surfaces categories before brands</text>
       <text x="0" y="48" fill="rgba(255,255,255,0.75)" font-size="12">16.3-point brand-intent gap means AI is a discovery channel —</text>
       <text x="0" y="64" fill="rgba(255,255,255,0.75)" font-size="12">build category-level content for AI, branded content for organic.</text>

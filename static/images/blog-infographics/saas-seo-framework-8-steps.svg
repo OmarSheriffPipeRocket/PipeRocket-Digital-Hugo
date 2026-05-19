@@ -11,7 +11,7 @@
   <text x="60" y="93" fill="#ffffff" font-size="28" font-weight="700">The 8-Step SaaS SEO Framework</text>
   <text x="60" y="113" fill="rgba(255,255,255,0.7)" font-size="14">Sequenced deliberately. Each step makes the next one more effective.</text>
   <!-- accent stripe -->
-  <rect x="0" y="118" width="1200" height="4" fill="#0BA6E2"/>
+  <rect x="0" y="118" width="1200" height="4" fill="#0CC6F1"/>
 
   <!-- Card group definitions -->
   <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
@@ -19,15 +19,15 @@
     <!-- Row 1 -->
     <!-- Card 1 -->
     <g transform="translate(50, 160)">
-      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#E8E8E8" stroke-width="1"/>
-      <circle cx="36" cy="36" r="22" fill="#0BA6E2"/>
+      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#D9D5C9" stroke-width="1"/>
+      <circle cx="36" cy="36" r="22" fill="#0CC6F1"/>
       <text x="36" y="43" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">1</text>
       <text x="22" y="90" fill="#282828" font-size="17" font-weight="700">Set Pipeline Goals</text>
-      <text x="22" y="125" fill="#444" font-size="13">Define organic SQLs, demo</text>
-      <text x="22" y="143" fill="#444" font-size="13">requests, and CAC targets</text>
-      <text x="22" y="161" fill="#444" font-size="13">in the CRM <tspan font-style="italic">before</tspan> you open</text>
-      <text x="22" y="179" fill="#444" font-size="13">a keyword tool.</text>
-      <text x="22" y="210" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="1.2">FOUNDATION</text>
+      <text x="22" y="125" fill="#1A1A1A" font-size="13">Define organic SQLs, demo</text>
+      <text x="22" y="143" fill="#1A1A1A" font-size="13">requests, and CAC targets</text>
+      <text x="22" y="161" fill="#1A1A1A" font-size="13">in the CRM <tspan font-style="italic">before</tspan> you open</text>
+      <text x="22" y="179" fill="#1A1A1A" font-size="13">a keyword tool.</text>
+      <text x="22" y="210" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">FOUNDATION</text>
     </g>
 
     <!-- Arrow 1→2 -->
@@ -38,15 +38,15 @@
 
     <!-- Card 2 -->
     <g transform="translate(340, 160)">
-      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#E8E8E8" stroke-width="1"/>
-      <circle cx="36" cy="36" r="22" fill="#0BA6E2"/>
+      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#D9D5C9" stroke-width="1"/>
+      <circle cx="36" cy="36" r="22" fill="#0CC6F1"/>
       <text x="36" y="43" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">2</text>
       <text x="22" y="90" fill="#282828" font-size="17" font-weight="700">Audit Technical SEO</text>
-      <text x="22" y="125" fill="#444" font-size="13">Fix crawl, render, speed,</text>
-      <text x="22" y="143" fill="#444" font-size="13">and indexation gaps before</text>
-      <text x="22" y="161" fill="#444" font-size="13">publishing a single new</text>
-      <text x="22" y="179" fill="#444" font-size="13">piece of content.</text>
-      <text x="22" y="210" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="1.2">TECH HEALTH</text>
+      <text x="22" y="125" fill="#1A1A1A" font-size="13">Fix crawl, render, speed,</text>
+      <text x="22" y="143" fill="#1A1A1A" font-size="13">and indexation gaps before</text>
+      <text x="22" y="161" fill="#1A1A1A" font-size="13">publishing a single new</text>
+      <text x="22" y="179" fill="#1A1A1A" font-size="13">piece of content.</text>
+      <text x="22" y="210" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">TECH HEALTH</text>
     </g>
 
     <!-- Arrow 2→3 -->
@@ -57,15 +57,15 @@
 
     <!-- Card 3 -->
     <g transform="translate(630, 160)">
-      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#E8E8E8" stroke-width="1"/>
-      <circle cx="36" cy="36" r="22" fill="#0BA6E2"/>
+      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#D9D5C9" stroke-width="1"/>
+      <circle cx="36" cy="36" r="22" fill="#0CC6F1"/>
       <text x="36" y="43" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">3</text>
       <text x="22" y="90" fill="#282828" font-size="17" font-weight="700">Keyword Research</text>
-      <text x="22" y="125" fill="#444" font-size="13">Map every keyword to an</text>
-      <text x="22" y="143" fill="#444" font-size="13">ICP pain and a buying-</text>
-      <text x="22" y="161" fill="#444" font-size="13">stage intent. Volume is the</text>
-      <text x="22" y="179" fill="#444" font-size="13">last filter, not the first.</text>
-      <text x="22" y="210" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="1.2">ICP &amp; INTENT</text>
+      <text x="22" y="125" fill="#1A1A1A" font-size="13">Map every keyword to an</text>
+      <text x="22" y="143" fill="#1A1A1A" font-size="13">ICP pain and a buying-</text>
+      <text x="22" y="161" fill="#1A1A1A" font-size="13">stage intent. Volume is the</text>
+      <text x="22" y="179" fill="#1A1A1A" font-size="13">last filter, not the first.</text>
+      <text x="22" y="210" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">ICP &amp; INTENT</text>
     </g>
 
     <!-- Arrow 3→4 -->
@@ -77,33 +77,33 @@
     <!-- Card 4 -->
     <g transform="translate(920, 160)">
       <rect width="260" height="230" rx="12" fill="#282828" stroke="#282828" stroke-width="1"/>
-      <circle cx="36" cy="36" r="22" fill="#0BA6E2"/>
+      <circle cx="36" cy="36" r="22" fill="#0CC6F1"/>
       <text x="36" y="43" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">4</text>
       <text x="22" y="90" fill="#ffffff" font-size="17" font-weight="700">Build BOFU First</text>
       <text x="22" y="125" fill="rgba(255,255,255,0.85)" font-size="13">Comparison, alternative,</text>
       <text x="22" y="143" fill="rgba(255,255,255,0.85)" font-size="13">and pricing pages convert</text>
       <text x="22" y="161" fill="rgba(255,255,255,0.85)" font-size="13">today. Build them <tspan font-weight="700">before</tspan></text>
       <text x="22" y="179" fill="rgba(255,255,255,0.85)" font-size="13">a single TOFU piece.</text>
-      <text x="22" y="210" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="1.2">PIPELINE NOW</text>
+      <text x="22" y="210" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">PIPELINE NOW</text>
     </g>
 
     <!-- Curved arrow from row 1 end to row 2 start (right→down→left) -->
     <path d="M 1050,395 Q 1050,425 1020,425 L 175,425 Q 145,425 145,455 L 145,490"
-          stroke="#0BA6E2" stroke-width="2.5" fill="none" stroke-dasharray="6,5"/>
-    <path d="M 140,485 L 145,495 L 150,485" stroke="#0BA6E2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          stroke="#0CC6F1" stroke-width="2.5" fill="none" stroke-dasharray="6,5"/>
+    <path d="M 140,485 L 145,495 L 150,485" stroke="#0CC6F1" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 
     <!-- Row 2 -->
     <!-- Card 5 -->
     <g transform="translate(50, 500)">
-      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#E8E8E8" stroke-width="1"/>
-      <circle cx="36" cy="36" r="22" fill="#0BA6E2"/>
+      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#D9D5C9" stroke-width="1"/>
+      <circle cx="36" cy="36" r="22" fill="#0CC6F1"/>
       <text x="36" y="43" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">5</text>
       <text x="22" y="90" fill="#282828" font-size="17" font-weight="700">Hub &amp; Spoke</text>
-      <text x="22" y="125" fill="#444" font-size="13">One pillar page + 10-15</text>
-      <text x="22" y="143" fill="#444" font-size="13">supporting spokes. Internal</text>
-      <text x="22" y="161" fill="#444" font-size="13">links compound topical</text>
-      <text x="22" y="179" fill="#444" font-size="13">authority across the cluster.</text>
-      <text x="22" y="210" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="1.2">ARCHITECTURE</text>
+      <text x="22" y="125" fill="#1A1A1A" font-size="13">One pillar page + 10-15</text>
+      <text x="22" y="143" fill="#1A1A1A" font-size="13">supporting spokes. Internal</text>
+      <text x="22" y="161" fill="#1A1A1A" font-size="13">links compound topical</text>
+      <text x="22" y="179" fill="#1A1A1A" font-size="13">authority across the cluster.</text>
+      <text x="22" y="210" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">ARCHITECTURE</text>
     </g>
 
     <!-- Arrow 5→6 -->
@@ -114,15 +114,15 @@
 
     <!-- Card 6 -->
     <g transform="translate(340, 500)">
-      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#E8E8E8" stroke-width="1"/>
-      <circle cx="36" cy="36" r="22" fill="#0BA6E2"/>
+      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#D9D5C9" stroke-width="1"/>
+      <circle cx="36" cy="36" r="22" fill="#0CC6F1"/>
       <text x="36" y="43" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">6</text>
       <text x="22" y="90" fill="#282828" font-size="17" font-weight="700">Optimize for AI</text>
-      <text x="22" y="125" fill="#444" font-size="13">Write to win both blue-link</text>
-      <text x="22" y="143" fill="#444" font-size="13">SERPs and AI Overviews:</text>
-      <text x="22" y="161" fill="#444" font-size="13">cite-able claims, clean</text>
-      <text x="22" y="179" fill="#444" font-size="13">structure, primary sources.</text>
-      <text x="22" y="210" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="1.2">AI + SEARCH</text>
+      <text x="22" y="125" fill="#1A1A1A" font-size="13">Write to win both blue-link</text>
+      <text x="22" y="143" fill="#1A1A1A" font-size="13">SERPs and AI Overviews:</text>
+      <text x="22" y="161" fill="#1A1A1A" font-size="13">cite-able claims, clean</text>
+      <text x="22" y="179" fill="#1A1A1A" font-size="13">structure, primary sources.</text>
+      <text x="22" y="210" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">AI + SEARCH</text>
     </g>
 
     <!-- Arrow 6→7 -->
@@ -133,15 +133,15 @@
 
     <!-- Card 7 -->
     <g transform="translate(630, 500)">
-      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#E8E8E8" stroke-width="1"/>
-      <circle cx="36" cy="36" r="22" fill="#0BA6E2"/>
+      <rect width="260" height="230" rx="12" fill="#ffffff" stroke="#D9D5C9" stroke-width="1"/>
+      <circle cx="36" cy="36" r="22" fill="#0CC6F1"/>
       <text x="36" y="43" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">7</text>
       <text x="22" y="90" fill="#282828" font-size="17" font-weight="700">Earn Links at Scale</text>
-      <text x="22" y="125" fill="#444" font-size="13">Build a link acquisition</text>
-      <text x="22" y="143" fill="#444" font-size="13"><tspan font-style="italic">system</tspan> (digital PR, data,</text>
-      <text x="22" y="161" fill="#444" font-size="13">guest posts) — not</text>
-      <text x="22" y="179" fill="#444" font-size="13">one-off campaigns.</text>
-      <text x="22" y="210" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="1.2">AUTHORITY</text>
+      <text x="22" y="125" fill="#1A1A1A" font-size="13">Build a link acquisition</text>
+      <text x="22" y="143" fill="#1A1A1A" font-size="13"><tspan font-style="italic">system</tspan> (digital PR, data,</text>
+      <text x="22" y="161" fill="#1A1A1A" font-size="13">guest posts) — not</text>
+      <text x="22" y="179" fill="#1A1A1A" font-size="13">one-off campaigns.</text>
+      <text x="22" y="210" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">AUTHORITY</text>
     </g>
 
     <!-- Arrow 7→8 -->
@@ -153,14 +153,14 @@
     <!-- Card 8 -->
     <g transform="translate(920, 500)">
       <rect width="260" height="230" rx="12" fill="#282828" stroke="#282828" stroke-width="1"/>
-      <circle cx="36" cy="36" r="22" fill="#0BA6E2"/>
+      <circle cx="36" cy="36" r="22" fill="#0CC6F1"/>
       <text x="36" y="43" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">8</text>
       <text x="22" y="90" fill="#ffffff" font-size="17" font-weight="700">Measure Pipeline</text>
       <text x="22" y="125" fill="rgba(255,255,255,0.85)" font-size="13">Report on organic-sourced</text>
       <text x="22" y="143" fill="rgba(255,255,255,0.85)" font-size="13">SQLs and CAC. Sessions</text>
       <text x="22" y="161" fill="rgba(255,255,255,0.85)" font-size="13">and rankings are signals,</text>
       <text x="22" y="179" fill="rgba(255,255,255,0.85)" font-size="13">not goals.</text>
-      <text x="22" y="210" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="1.2">REVENUE</text>
+      <text x="22" y="210" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">REVENUE</text>
     </g>
 
   </g>
