@@ -8,101 +8,285 @@
        ==================================================== -->
   <section class="pr-stories__hero">
     <div class="pr-container">
-      <span class="pr-eyebrow pr-eyebrow--red">Case studies</span>
-      <h1 class="pr-stories__title">{{ .Title }}</h1>
-      {{ with .Params.description }}<p class="pr-stories__lede">{{ . }}</p>{{ end }}
+      <div class="pr-stories__hero-grid">
 
-      <div class="pr-stories__hero-stats">
-        <div class="pr-stories__hero-stat">
-          <strong>{{ len $stories }}</strong>
-          <span>Public engagements</span>
+        <div class="pr-stories__hero-text">
+          <h1 class="pr-stories__title">{{ .Title }}</h1>
+          {{ with .Params.description }}<p class="pr-stories__lede">{{ . }}</p>{{ end }}
+
+          <div class="pr-stories__hero-rating">
+            <img src="/images/hero-seo/star-rating.svg" alt="5.0 stars" class="pr-stories__hero-rating-stars">
+            <img src="/images/hero-seo/clutch-logo.png" alt="Clutch" class="pr-stories__hero-rating-logo">
+          </div>
+
+          <button type="button" class="pr-btn" data-modal-trigger="funnel-audit" data-cta-source="case_studies_hero">Book intro call</button>
         </div>
-        <div class="pr-stories__hero-stat">
-          <strong>5.0</strong>
-          <span>Clutch rating, every review</span>
+
+        <div class="pr-stories__hero-visual" aria-hidden="true">
+          <img src="/images/case-study-hero/hero-image.png" alt="" class="pr-stories__hero-img">
+          <img src="/images/case-study-hero/stat-brands.svg" alt="50+ brands fueled" class="pr-stories__hero-stat-brands">
+          <img src="/images/case-study-hero/stat-traffic.svg" alt="291%+ organic traffic increase" class="pr-stories__hero-stat-traffic">
         </div>
-        <div class="pr-stories__hero-stat">
-          <strong>$4.5M+</strong>
-          <span>Pipeline generated for clients</span>
-        </div>
+
       </div>
     </div>
   </section>
 
   <!-- ====================================================
-       FILTER PILLS
+       LEADING COMPANIES
        ==================================================== -->
-  <section class="pr-stories__filter">
+  <section class="pr-about__logos pr-page--stories__logos">
     <div class="pr-container">
-      <div class="pr-stories__filter-inner" data-stories-filter>
-        <button class="pr-stories__pill is-active" type="button" data-filter="all">All <span>{{ len $stories }}</span></button>
-        {{ $seoCount := len (where $stories "Params.services" "intersect" (slice "SaaS SEO")) }}
-        {{ $ppcCount := len (where $stories "Params.services" "intersect" (slice "SaaS PPC")) }}
-        <button class="pr-stories__pill" type="button" data-filter="SaaS SEO">SaaS SEO <span>{{ $seoCount }}</span></button>
-        <button class="pr-stories__pill" type="button" data-filter="SaaS PPC">SaaS PPC <span>{{ $ppcCount }}</span></button>
-      </div>
-    </div>
-  </section>
-
-  <!-- ====================================================
-       GRID
-       ==================================================== -->
-  <section class="pr-stories__grid-section">
-    <div class="pr-container">
-      <div class="pr-stories__grid" data-stories-grid>
-        {{ range $stories }}
-          {{ $servicesAttr := delimit .Params.services "," }}
-          <a class="pr-story-card" href="{{ .RelPermalink }}" data-services="{{ $servicesAttr }}">
-            <div class="pr-story-card__head">
-              <div class="pr-story-card__brand">
-                {{ with .Params.logo }}
-                  <img src="{{ . }}" alt="{{ $.Params.client }} logo" class="pr-story-card__logo" loading="lazy" decoding="async">
-                {{ end }}
-                <span class="pr-story-card__client">{{ .Params.client }}</span>
-              </div>
-              {{ with .Params.services }}
-                <ul class="pr-story-card__services">
-                  {{ range . }}<li>{{ . }}</li>{{ end }}
-                </ul>
-              {{ end }}
-            </div>
-
-            <h3 class="pr-story-card__title">{{ .Title }}</h3>
-
-            {{ with .Params.industry }}<p class="pr-story-card__industry">{{ . }}</p>{{ end }}
-
-            {{ with .Params.hero_metrics }}
-              <ul class="pr-story-card__metrics">
-                {{ range first 2 . }}
-                  <li>
-                    <strong>{{ .value }}</strong>
-                    <span>{{ .label }}</span>
-                  </li>
-                {{ end }}
-              </ul>
-            {{ end }}
-
-            <span class="pr-story-card__cta">Read full story →</span>
-          </a>
+      <div class="pr-about__logos-label">Leading SaaS companies that chose us</div>
+      <div class="pr-about__logos-grid">
+        {{ $grid := slice
+          (dict "name" "DigitalAPI"   "src" "/images/logos/digitalapi.svg")
+          (dict "name" "Storylane"    "src" "/images/logos/storylane.svg")
+          (dict "name" "Sprinto"      "src" "/images/logos/sprinto.webp")
+          (dict "name" "Spendflo"     "src" "/images/logos/spendflo.svg")
+          (dict "name" "Osfin"        "src" "/images/logos/osfin.svg")
+          (dict "name" "JustCall"     "src" "/images/logos/justcall.svg")
+          (dict "name" "DevRev"       "src" "/images/logos/devrev.png")
+          (dict "name" "HyperVerge"   "src" "/images/logos/hyperverge.webp")
+          (dict "name" "Hevo"         "src" "/images/logos/hevo.png")
+          (dict "name" "LatentView"   "src" "/images/logos/latentview-simple.png")
+          (dict "name" "LeadSquared"  "src" "/images/logos/leadsquared.png")
+          (dict "name" "FarEye"       "src" "/images/logos/fareye-full.png")
+          (dict "name" "Tredence"     "src" "/images/logos/tredence-simple.png")
+          (dict "name" "Element"      "src" "/images/logos/element.png")
+          (dict "name" "GreytHR"      "src" "/images/logos/greythr.png")
+          (dict "name" "Cyber Sierra" "src" "/images/logos/cybersierra-full.png")
+          (dict "name" "Xflow"        "src" "/images/logos/xflow-full.png")
+          (dict "name" "Goldcast"     "src" "/images/logos/goldcast-simple.png")
+          (dict "name" "Apty"         "src" "/images/logos/apty.png")
+          (dict "name" "HappyFox"     "src" "/images/logos/happyfox.svg")
+          (dict "name" "HyperStart"   "src" "/images/logos/hyperstart.png")
+          (dict "name" "Keka"         "src" "/images/logos/keka.svg")
+          (dict "name" "MetricStream" "src" "/images/logos/metricstream.webp")
+          (dict "name" "Osfin"        "src" "/images/logos/osfin-tagline.png")
+          (dict "name" "Gallabox"     "src" "/images/logos/gallabox.svg")
+        }}
+        {{ range $grid }}
+          <div class="pr-about__logos-cell">
+            <img src="{{ .src }}" alt="{{ .name }}" loading="lazy" decoding="async" class="pr-about__logos-img">
+          </div>
         {{ end }}
       </div>
+    </div>
+  </section>
 
-      <div class="pr-stories__empty" data-stories-empty hidden>
-        <p>No stories match that filter yet. <button type="button" data-filter="all">Show all</button></p>
+  <!-- ====================================================
+       WORKING WITH PIPEROCKET — VINTAGE TV
+       ==================================================== -->
+  <section class="pr-section--tight pr-section--working-seo">
+    <div class="pr-container pr-center">
+      <h2>Working With PipeRocket</h2>
+      {{ partial "working-tv.html" . }}
+    </div>
+  </section>
+
+  <!-- ====================================================
+       CASE STUDY CARDS — homepage style
+       ==================================================== -->
+  <section class="pr-section--tight pr-section--casestudies">
+    <div class="pr-container">
+      <div class="pr-center"><h2>Case Studies</h2></div>
+      <div class="pr-cases">
+        <article class="pr-case">
+          <div class="pr-case__card">
+            <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+            <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+            <div class="pr-case__logo-wrap">
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-case__logo-img">
+            </div>
+          </div>
+          <div class="pr-case__body">
+            <p class="pr-case__copy">Driving 2.5X Growth and 82% More Demos: Storylane's Success with PipeRocket's Campaigns.</p>
+            <a href="/case-study-storylane/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+          </div>
+        </article>
+        <article class="pr-case">
+          <div class="pr-case__card">
+            <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+            <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+            <div class="pr-case__logo-wrap">
+              <img loading="lazy" decoding="async" src="/images/logo-devrev-cs.svg" alt="DevRev" class="pr-case__logo-img">
+            </div>
+          </div>
+          <div class="pr-case__body">
+            <p class="pr-case__copy">Achieving 3.5X MQL Growth: HyperVerge's Case Study with PipeRocket.</p>
+            <a href="/case-study-devrev/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+          </div>
+        </article>
+        <article class="pr-case">
+          <div class="pr-case__card">
+            <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+            <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+            <div class="pr-case__logo-wrap">
+              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-case__logo-img">
+            </div>
+          </div>
+          <div class="pr-case__body">
+            <p class="pr-case__copy">From Stagnation to Domination: PipeRocket's Impact on Spendflo's 81% Traffic Rise.</p>
+            <a href="/case-study-spendflo/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+          </div>
+        </article>
+        <article class="pr-case">
+          <div class="pr-case__card">
+            <img loading="lazy" decoding="async" src="/images/cs-hyperstart-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+            <img loading="lazy" decoding="async" src="/images/cs-hyperstart-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+            <div class="pr-case__logo-wrap">
+              <img loading="lazy" decoding="async" src="/images/cs-hyperstart-logo.svg" alt="HyperStart" class="pr-case__logo-img">
+            </div>
+          </div>
+          <div class="pr-case__body">
+            <p class="pr-case__copy">HyperStart Achieves 2X the Lead at 73% Less Cost with PipeRocket's Winning Strategy Formula</p>
+            <a href="/case-study-hyperstart/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+          </div>
+        </article>
+        <article class="pr-case">
+          <div class="pr-case__card">
+            <img loading="lazy" decoding="async" src="/images/cs-cybersierra-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+            <img loading="lazy" decoding="async" src="/images/cs-cybersierra-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+            <div class="pr-case__logo-wrap">
+              <img loading="lazy" decoding="async" src="/images/cs-cybersierra-logo.svg" alt="Cyber Sierra" class="pr-case__logo-img">
+            </div>
+          </div>
+          <div class="pr-case__body">
+            <p class="pr-case__copy">PipeRocket Drives 279% Organic Traffic Growth for CyberSierra Through Strategic SEO</p>
+            <a href="/case-study-cybersierra/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+          </div>
+        </article>
+        <article class="pr-case">
+          <div class="pr-case__card">
+            <img loading="lazy" decoding="async" src="/images/cs-hyperverge-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+            <img loading="lazy" decoding="async" src="/images/cs-hyperverge-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+            <div class="pr-case__logo-wrap">
+              <img loading="lazy" decoding="async" src="/images/cs-hyperverge-logo.svg" alt="HyperVerge" class="pr-case__logo-img">
+            </div>
+          </div>
+          <div class="pr-case__body">
+            <p class="pr-case__copy">Achieving 3.5X MQL Growth: HyperVerge's Success Story with PipeRocket</p>
+            <a href="/case-study-hyperverge/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+          </div>
+        </article>
       </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       MASONRY TESTIMONIALS — INFINITE SCROLL
+       ==================================================== -->
+  <section class="pr-section pr-mtest-section">
+    <img loading="lazy" decoding="async" src="/images/contact/testimonials-blue.svg" class="pr-mtest-vec pr-mtest-vec--blue" aria-hidden="true">
+    <img loading="lazy" decoding="async" src="/images/seo-table-rocket.svg" class="pr-mtest-vec pr-mtest-vec--rocket" aria-hidden="true" data-compare-rocket>
+    <div class="pr-container">
+      <div class="pr-mtest-head">
+        <h2 class="pr-mtest-title">Don't take our word for it.</h2>
+        <div class="pr-mtest-clutch">
+          <strong class="pr-clutch__rating">5.0</strong>
+          <img loading="lazy" decoding="async" src="/images/contact/clutch-stars.svg" alt="5 out of 5 stars" class="pr-clutch__stars-img">
+          <img loading="lazy" decoding="async" src="/images/contact/clutch-logo-white.png" alt="Clutch" class="pr-clutch__logo-img">
+        </div>
+        <p class="pr-mtest-lede">Here's what the teams we've worked with have said about results, about working with us, and about what it actually looks like when marketing moves the needle.</p>
+      </div>
+
+      {{ $masonry := slice
+        (dict "quote" "PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution." "name" "Nivas" "role" "Head of Marketing" "avatar" "/images/avatar-nivas.png" "logo" "/images/logo-spendflo.svg" "company" "Spendflo" "stroke" "/images/stroke-spendflo.svg")
+        (dict "quote" "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience, actionable strategies brought in 51 high-quality MQLs in just 3 months." "name" "Navien" "role" "Head of Marketing" "avatar" "/images/avatar-navien.png" "logo" "/images/logo-hyperverge.png" "company" "HyperVerge" "stroke" "/images/stroke-hyperverge.svg")
+        (dict "quote" "PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly." "name" "Saptharishi" "role" "Head of Demand generation" "avatar" "/images/avatar-saptharishi.png" "logo" "/images/logo-devrev.png" "company" "DevRev" "stroke" "/images/stroke-devrev.svg")
+        (dict "quote" "Thanks to PipeRocket Digital's work, we saw a 279% increase in organic traffic. The team also helped the client grow from six to 338 keywords, ranking in the top 10 positions." "name" "Srividhya Karthik" "role" "Head of Marketing" "avatar" "/images/avatar-srividhya.png" "logo" "/images/logo-cyberseirra.png" "company" "Cyber Sierra" "stroke" "/images/stroke-cyberseirra.svg")
+        (dict "quote" "They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working. PipeRocket Digital was responsive and eager to meet the objectives." "name" "Anusha" "role" "Founding member" "avatar" "/images/avatar-anusha.png" "logo" "/images/logo-hyperstart.png" "company" "HyperStart" "stroke" "/images/stroke-hyperstart.svg")
+        (dict "quote" "Working alongside PipeRocket has been a commendable experience for Storylane. Their comprehensive analysis, strategic initiatives, and targeted remarketing delivered remarkable results for us." "name" "Nalin" "role" "CEO" "avatar" "/images/avatar-nalin.png" "logo" "/images/logo-storylane-cs.svg" "company" "Storylane" "stroke" "/images/stroke-storylane.svg")
+      }}
+
+      {{ $masonryRev := sort $masonry "name" "desc" }}
+      <div class="pr-mtest-grid">
+        <div class="pr-mtest-col pr-mtest-col--up">
+          <div class="pr-mtest-track">
+            {{ range $pass := slice 1 2 }}{{ range $masonry }}
+              <article class="pr-mtest-card">
+                <img loading="lazy" decoding="async" src="{{ .stroke }}" alt="" aria-hidden="true" class="pr-mtest-card__stroke">
+                <p class="pr-mtest-card__quote">{{ .quote }}</p>
+                <div class="pr-mtest-card__author">
+                  <img loading="lazy" decoding="async" src="{{ .avatar }}" alt="{{ .name }}" class="pr-mtest-card__avatar">
+                  <div>
+                    <div class="pr-mtest-card__name">{{ .name }}</div>
+                    <div class="pr-mtest-card__role">{{ .role }}</div>
+                    <img loading="lazy" decoding="async" src="{{ .logo }}" alt="{{ .company }}" class="pr-mtest-card__logo">
+                  </div>
+                </div>
+              </article>
+            {{ end }}{{ end }}
+          </div>
+        </div>
+        <div class="pr-mtest-col pr-mtest-col--down">
+          <div class="pr-mtest-track">
+            {{ range $pass := slice 1 2 }}{{ range $masonryRev }}
+              <article class="pr-mtest-card">
+                <img loading="lazy" decoding="async" src="{{ .stroke }}" alt="" aria-hidden="true" class="pr-mtest-card__stroke">
+                <p class="pr-mtest-card__quote">{{ .quote }}</p>
+                <div class="pr-mtest-card__author">
+                  <img loading="lazy" decoding="async" src="{{ .avatar }}" alt="{{ .name }}" class="pr-mtest-card__avatar">
+                  <div>
+                    <div class="pr-mtest-card__name">{{ .name }}</div>
+                    <div class="pr-mtest-card__role">{{ .role }}</div>
+                    <img loading="lazy" decoding="async" src="{{ .logo }}" alt="{{ .company }}" class="pr-mtest-card__logo">
+                  </div>
+                </div>
+              </article>
+            {{ end }}{{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       TEAM-BG ACCENT SECTION
+       ==================================================== -->
+  <section class="pr-stories__team-accent">
+    <img src="/images/stories-accent-blue.svg" class="pr-stories__accent-blue" aria-hidden="true">
+    <img src="/images/stories-accent-red.svg" class="pr-stories__accent-red" aria-hidden="true">
+    <h2 class="pr-stories__accent-title">Featured Customer Stories</h2>
+    <div class="pr-stories__accent-frame-wrap">
+      <img src="/images/stories-frame-plain.svg" alt="" class="pr-stories__accent-frame" aria-hidden="true" loading="lazy">
+      <div class="pr-stories__accent-content">
+        <img src="/images/cs-storylane-feature-logo.svg" alt="Storylane" class="pr-stories__accent-logo" loading="lazy">
+        <h3 class="pr-stories__accent-headline">How PipeRocket's Strategy Fueled a 25% Rise in SQLs and a 2.5X Growth for Storylane</h3>
+        <div class="pr-stories__accent-quote pr-stories__accent-quote--storylane">
+          <img src="/images/cs-feature-quote-stroke.svg" alt="" aria-hidden="true" class="pr-stories__accent-quote-stroke" loading="lazy">
+          <img src="/images/cs-feature-quote-stroke.svg" alt="" aria-hidden="true" class="pr-stories__accent-quote-stroke pr-stories__accent-quote-stroke--lower" loading="lazy">
+          <img src="/images/cs-feature-quote-stroke.svg" alt="" aria-hidden="true" class="pr-stories__accent-quote-stroke pr-stories__accent-quote-stroke--lower-2" loading="lazy">
+          <p class="pr-stories__accent-quote-text">"They're strategic thinkers and work according to the scale of our business."</p>
+        </div>
+        <div class="pr-stories__accent-author">
+          <img src="/images/cs-feature-blue-line.svg" alt="" class="pr-stories__accent-author-line" aria-hidden="true" loading="lazy">
+          <div class="pr-stories__accent-author-text">
+            <div class="pr-stories__accent-author-name">Nalin Senthami</div>
+            <div class="pr-stories__accent-author-role">Co-founder at Storylane</div>
+          </div>
+        </div>
+      </div>
+      <div class="pr-stories__accent-photo-wrap">
+        <img src="/images/cs-nalin-photo.png" alt="Nalin Senthami, Co-founder at Storylane" class="pr-stories__accent-photo" loading="lazy">
+      </div>
+    </div>
+    <div class="pr-stories__accent-cta-wrap">
+      <a href="/case-study-storylane/" class="pr-btn pr-stories__accent-cta">Read Full Story</a>
     </div>
   </section>
 
   <!-- ====================================================
        BOTTOM CTA
        ==================================================== -->
-  <section class="pr-case__cta">
+  <section class="pr-cta-final pr-page--stories__cta">
     <div class="pr-container">
-      <div class="pr-case__cta-inner">
-        <h2>Want a story like these?</h2>
-        <p>We work with a small number of B2B SaaS companies at a time. If your funnel isn't compounding the way it should, we'll tell you what we'd change — in writing — within one business day.</p>
-        <button type="button" class="pr-btn" data-modal-trigger="funnel-audit" data-cta-source="case_studies_bottom">Free funnel audit →</button>
-      </div>
+      <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+      <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+      <h2>Book a call today. Scale your pipeline tomorrow</h2>
+      <p>We work with a small number of B2B SaaS companies at a time. If your pipeline isn't growing the way your board expects, let's find out if we're the right fit.</p>
+      <a href="/contact-us/" class="pr-btn" data-cta-location="stories-bottom">Book free consultation</a>
     </div>
   </section>
 
