@@ -8970,6 +8970,84 @@ a.pr-contact-info:hover { background: var(--pr-cyan-soft, rgba(12, 198, 241, 0.1
 body.pr-modal-open { overflow: hidden; }
 
 /* =========================================================
+   3-Month Pilot Promo Popup
+   ========================================================= */
+.pr-pilot-popup__card {
+  max-width: 520px;
+  padding: 36px 36px 30px;
+}
+.pr-pilot-popup__eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+}
+.pr-pilot-popup__title {
+  font-size: 1.7rem;
+  line-height: 1.15;
+  margin: 0 0 14px;
+  max-width: 22ch;
+}
+.pr-pilot-popup__lede {
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: #4A4A4A;
+  margin: 0 0 20px;
+}
+.pr-pilot-popup__bullets {
+  list-style: none;
+  margin: 0 0 26px;
+  padding: 0;
+}
+.pr-pilot-popup__bullets li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 7px 0;
+  font-size: 0.93rem;
+  line-height: 1.5;
+  color: #2A2A2A;
+}
+.pr-pilot-popup__check {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(11, 166, 226, 0.15);
+  color: var(--pr-cyan, #0BA6E2);
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 1px;
+}
+.pr-pilot-popup__actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.pr-pilot-popup__cta {
+  padding: 12px 24px;
+  font-size: 0.95rem;
+}
+.pr-pilot-popup__skip {
+  background: none;
+  border: 0;
+  font-family: var(--pr-sans);
+  font-size: 0.88rem;
+  color: #6B6B6B;
+  cursor: pointer;
+  padding: 8px 4px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.pr-pilot-popup__skip:hover { color: #0D0D0D; }
+@media (max-width: 600px) {
+  .pr-pilot-popup__card { padding: 28px 22px 24px; }
+  .pr-pilot-popup__title { font-size: 1.45rem; }
+}
+
+/* =========================================================
    CASE STUDY — single page
    ========================================================= */
 .pr-case { background: var(--pr-cream); }

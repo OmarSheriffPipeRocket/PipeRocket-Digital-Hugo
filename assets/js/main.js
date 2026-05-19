@@ -821,6 +821,81 @@ const init = () => {
   setupCompareDecorations();
   setupTestimonialDots();
   setupAiGridHeight();
+  setupPilotPopup();
+};
+
+// =========================================================
+// 3-Month Pilot promo popup
+//
+// Shows the popup once per browser session after the FIRST of:
+//   · 30 seconds elapsed on page
+//   · 50% scroll-depth reached
+//   · exit-intent (mouse moves to the top of the viewport)
+// Dismissed via X / backdrop / "Maybe later" — stays closed for the
+// rest of the session via sessionStorage. Always closed on
+// /contact-us/ and explicit CTA-click navigations.
+// =========================================================
+const setupPilotPopup = () => {
+  const popup = document.querySelector('[data-pilot-popup]');
+  if (!popup) return;
+  if (sessionStorage.getItem('pr-pilot-popup-dismissed') === '1') return;
+
+  let opened = false;
+
+  const open = () => {
+    if (opened) return;
+    opened = true;
+    popup.hidden = false;
+    document.body.classList.add('pr-modal-open');
+  };
+
+  const close = () => {
+    popup.hidden = true;
+    document.body.classList.remove('pr-modal-open');
+    try { sessionStorage.setItem('pr-pilot-popup-dismissed', '1'); } catch (_) {}
+    // Tear down listeners — no need to fire again.
+    document.removeEventListener('mouseout', onExit);
+    document.removeEventListener('scroll', onScroll);
+    clearTimeout(timer);
+  };
+
+  const onScroll = () => {
+    const doc = document.documentElement;
+    const pct = (doc.scrollTop + window.innerHeight) / doc.scrollHeight;
+    if (pct >= 0.5) open();
+  };
+
+  const onExit = (e) => {
+    // Fire only when the mouse actually exits the viewport at the top
+    // (typical exit-intent signal). Ignore movement to iframes / form fields.
+    if (e.relatedTarget) return;
+    if (e.clientY <= 0) open();
+  };
+
+  // Trigger 1: 30-second timer
+  const timer = setTimeout(open, 30000);
+  // Trigger 2: 50% scroll
+  document.addEventListener('scroll', onScroll, { passive: true });
+  // Trigger 3: exit-intent (desktop only)
+  if (!matchMedia('(pointer: coarse)').matches) {
+    document.addEventListener('mouseout', onExit);
+  }
+
+  // Close handlers
+  popup.querySelectorAll('[data-pilot-close]').forEach((el) => {
+    el.addEventListener('click', close);
+  });
+  // CTA click — close (so they can come back to the page) but don't
+  // wait for navigation
+  popup.querySelectorAll('[data-pilot-cta]').forEach((el) => {
+    el.addEventListener('click', () => {
+      try { sessionStorage.setItem('pr-pilot-popup-dismissed', '1'); } catch (_) {}
+    });
+  });
+  // Escape to close
+  document.addEventListener('keydown', (e) => {
+    if (!popup.hidden && e.key === 'Escape') close();
+  });
 };
 
 // =========================================================
