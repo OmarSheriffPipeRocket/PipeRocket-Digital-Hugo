@@ -2713,6 +2713,46 @@ a.pr-hero__cta:hover,
 @media (max-width: 767px) {
   /* Native <details> hides the ul when not open; nothing extra needed. */
 }
+/* Trust & compliance strip — quiet horizontal row above the copyright. */
+.pr-footer__trust {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 18px;
+  padding: var(--pr-s-4) 0;
+  border-top: 1px solid var(--pr-line);
+  margin-top: var(--pr-s-4);
+}
+.pr-footer__trust-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--pr-line);
+  border-radius: 999px;
+  background: var(--pr-cream);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--pr-ink);
+  text-decoration: none;
+  line-height: 1;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+.pr-footer__trust-item svg {
+  color: var(--pr-cyan);
+  flex-shrink: 0;
+}
+.pr-footer__trust-item--clutch svg { color: #FF3D2E; }
+a.pr-footer__trust-item:hover {
+  border-color: var(--pr-cyan);
+  color: var(--pr-cyan);
+  background: #fff;
+}
+@media (max-width: 767px) {
+  .pr-footer__trust { gap: 8px; }
+  .pr-footer__trust-item { font-size: 11px; padding: 5px 10px; }
+}
+
 .pr-footer__copy {
   font-size: 13px !important;
   color: var(--pr-muted);
