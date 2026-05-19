@@ -5716,6 +5716,9 @@ main table a,
   flex-direction: column;
   gap: 14px;
 }
+/* Prevent flex from squishing TOC card when total child height exceeds
+   the rail's max-height — let the rail scroll instead. */
+.pr-2col-article .pr-article-3-6-3 .pr-article-rail--left > * { flex-shrink: 0; }
 /* Out-of-grid author/related block — centered full-width footer below
    the article body on 2-col pages. */
 .pr-2col-article > .pr-container > .pr-article-rail--right,
@@ -9421,6 +9424,7 @@ body.pr-modal-open { overflow: hidden; }
   border-radius: 3px;
 }
 .pr-case__rail::-webkit-scrollbar-track { background: transparent; }
+.pr-case__rail > * { flex-shrink: 0; }
 @media (max-width: 1023px) {
   .pr-case__rail {
     position: static;

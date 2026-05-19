@@ -154,6 +154,12 @@
   scrollbar-color: #ccc transparent;
   padding-right: 6px;
 }
+/* Stop flex from squishing the TOC card when total child height exceeds
+   the rail's max-height. Without this, flex-shrink: 1 (the default) cuts
+   off the bottom of the TOC card and the Pilot CTA sits flush against it.
+   With flex-shrink: 0 every child keeps its natural height and the rail
+   scrolls vertically instead. */
+.pr-blog-v2__rail > * { flex-shrink: 0; }
 .pr-blog-v2__rail::-webkit-scrollbar { width: 6px; }
 .pr-blog-v2__rail::-webkit-scrollbar-thumb {
   background: #ccc;

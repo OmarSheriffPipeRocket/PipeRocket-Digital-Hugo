@@ -563,6 +563,7 @@
   border-radius: 3px;
 }
 .pr-listicle-v2__rail-left::-webkit-scrollbar-track { background: transparent; }
+.pr-listicle-v2__rail-left > * { flex-shrink: 0; }
 @media (max-width: 1024px) {
   .pr-listicle-v2__rail-left {
     position: static;
