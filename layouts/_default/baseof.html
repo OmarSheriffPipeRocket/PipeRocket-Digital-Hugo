@@ -30,7 +30,7 @@
   {{ partial "header.html" . }}
 
   <main>
-    {{ partial "breadcrumbs.html" . }}
+    {{ if ne .Section "blogs" }}{{ partial "breadcrumbs.html" . }}{{ end }}
     {{ block "main" . }}{{ end }}
   </main>
 

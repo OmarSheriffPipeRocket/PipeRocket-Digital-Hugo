@@ -20,6 +20,7 @@
   <header class="pr-blog-v2__banner">
     <div class="pr-blog-v2__banner-grid">
       <div class="pr-blog-v2__banner-copy">
+        {{ partial "breadcrumbs.html" . }}
         <div class="pr-blog-v2__chip">
           <span class="pr-blog-v2__chip-text">
             {{ with .Params.category }}{{ . }}{{ end }}{{ if .Params.readingTime }} · {{ .Params.readingTime | upper }}{{ else if .ReadingTime }} · {{ .ReadingTime }} MIN READ{{ end }}

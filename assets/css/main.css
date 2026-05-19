@@ -7666,13 +7666,14 @@ main table a,
   padding: 10px 0;
   font-family: var(--pr-sans);
 }
-/* When the page has a dark hero banner directly after, merge the
-   breadcrumb into the same dark slab so it reads as part of the hero. */
-body:has(.pr-blog-v2__banner) .pr-breadcrumbs,
-body:has(.pr-listicle-v2__banner) .pr-breadcrumbs {
-  background: #282828;
-  padding: 14px 0 10px;
-  margin-bottom: 0;
+/* Breadcrumb inside blog banner — no background, light text */
+.pr-blog-v2__banner .pr-breadcrumbs {
+  background: transparent;
+  padding: 0 0 12px;
+}
+.pr-blog-v2__banner .pr-breadcrumbs .pr-container {
+  padding: 0;
+  max-width: none;
 }
 /* Some article wrappers (.pr-compare, .pr-alt, .pr-listicle, .pr-vs,
    .pr-glossary) inherit a margin-top + vertical padding from their legacy
@@ -7685,23 +7686,38 @@ article[data-pr-blog-v2] {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
-body:has(.pr-blog-v2__banner) .pr-breadcrumbs__list,
+.pr-blog-v2__banner .pr-breadcrumbs__list {
+  color: rgba(255, 255, 255, 0.55);
+}
+.pr-blog-v2__banner .pr-breadcrumbs__item a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.pr-blog-v2__banner .pr-breadcrumbs__item a:hover {
+  color: var(--pr-cyan);
+}
+.pr-blog-v2__banner .pr-breadcrumbs__item--current span {
+  color: #fff;
+}
+.pr-blog-v2__banner .pr-breadcrumbs__sep {
+  color: rgba(255, 255, 255, 0.35);
+}
+body:has(.pr-listicle-v2__banner) .pr-breadcrumbs {
+  background: #282828;
+  padding: 14px 0 10px;
+  margin-bottom: 0;
+}
 body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__list {
   color: rgba(255, 255, 255, 0.55);
 }
-body:has(.pr-blog-v2__banner) .pr-breadcrumbs__item a,
 body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__item a {
   color: rgba(255, 255, 255, 0.7);
 }
-body:has(.pr-blog-v2__banner) .pr-breadcrumbs__item a:hover,
 body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__item a:hover {
   color: var(--pr-cyan);
 }
-body:has(.pr-blog-v2__banner) .pr-breadcrumbs__item--current span,
 body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__item--current span {
   color: #fff;
 }
-body:has(.pr-blog-v2__banner) .pr-breadcrumbs__sep,
 body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__sep {
   color: rgba(255, 255, 255, 0.35);
 }
