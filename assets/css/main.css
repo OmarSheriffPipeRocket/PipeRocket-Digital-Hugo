@@ -9469,6 +9469,47 @@ body.pr-modal-open { overflow: hidden; }
   padding: var(--pr-s-7) 0 var(--pr-s-8);
   border-bottom: 1px solid var(--pr-line);
 }
+
+/* Dark variant — matches blog-v2 banner for theme unity across all
+   content/article pages (blogs, glossary, listicle, compare, etc.). */
+.pr-case__hero--dark {
+  background: #0D0D0D;
+  background-image:
+    radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+  border-bottom: 0;
+  color: #fff;
+}
+.pr-case__hero--dark .pr-case__back {
+  color: rgba(255,255,255,0.6);
+}
+.pr-case__hero--dark .pr-case__back:hover { color: var(--pr-cyan); }
+.pr-case__hero--dark .pr-case__hero-client {
+  color: rgba(255,255,255,0.8);
+}
+.pr-case__hero--dark .pr-case__hero-industry {
+  color: rgba(255,255,255,0.55);
+  border-left-color: rgba(255,255,255,0.15);
+}
+.pr-case__hero--dark .pr-case__title { color: #fff; }
+.pr-case__hero--dark .pr-case__lede { color: rgba(255,255,255,0.75); }
+.pr-case__hero--dark .pr-case__hero-metric-value { color: #fff; }
+.pr-case__hero--dark .pr-case__hero-metric-label { color: rgba(255,255,255,0.6); }
+.pr-case__hero--dark .pr-case__hero-metric {
+  border-color: rgba(255,255,255,0.12);
+}
+.pr-case__hero--dark .pr-case__hero-logo {
+  background: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  max-height: 72px;
+  max-width: 240px;
+}
+@media (max-width: 767px) {
+  .pr-case__hero--dark .pr-case__hero-logo {
+    max-height: 56px; max-width: 200px; padding: 10px 14px;
+  }
+}
 .pr-case__back {
   display: inline-flex;
   align-items: center;
@@ -9828,6 +9869,25 @@ body.pr-modal-open { overflow: hidden; }
   background: linear-gradient(180deg, #FAF7EF 0%, var(--pr-cream) 100%);
   padding: var(--pr-s-8) 0 var(--pr-s-7);
   border-bottom: 1px solid var(--pr-line);
+}
+
+/* Dark variant — matches blog-v2 banner so the case-studies index
+   header reads as part of the same content family as blogs, glossary,
+   listicles, etc. Same dotted-grid background, same brushstroke chip. */
+.pr-stories__hero--dark {
+  background: #0D0D0D;
+  background-image:
+    radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+  border-bottom: 0;
+  color: #fff;
+}
+.pr-stories__hero--dark .pr-stories__title { color: #fff; }
+.pr-stories__hero--dark .pr-stories__lede { color: rgba(255,255,255,0.75); }
+.pr-stories__hero--dark .pr-stories__hero-stat strong { color: #fff; }
+.pr-stories__hero--dark .pr-stories__hero-stat span { color: rgba(255,255,255,0.6); }
+.pr-stories__hero--dark .pr-stories__hero-stat {
+  border-color: rgba(255,255,255,0.12);
 }
 .pr-stories__title {
   font-family: var(--pr-serif);

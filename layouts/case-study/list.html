@@ -6,9 +6,11 @@
   <!-- ====================================================
        HERO
        ==================================================== -->
-  <section class="pr-stories__hero">
+  <section class="pr-stories__hero pr-stories__hero--dark">
     <div class="pr-container">
-      <span class="pr-eyebrow pr-eyebrow--red">Case studies</span>
+      <div class="pr-blog-v2__chip">
+        <span class="pr-blog-v2__chip-text">CASE STUDIES · {{ len $stories }} STORIES</span>
+      </div>
       <h1 class="pr-stories__title">{{ .Title }}</h1>
       {{ with .Params.description }}<p class="pr-stories__lede">{{ . }}</p>{{ end }}
 
