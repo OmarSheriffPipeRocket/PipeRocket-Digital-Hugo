@@ -5481,7 +5481,7 @@ main table a,
 /* =================================================================
    BLOG — hero first fold
    ================================================================= */
-.pr-blog-hero { padding-top: var(--pr-s-7); padding-bottom: var(--pr-s-7); }
+.pr-blog-hero { padding-top: var(--pr-s-5); padding-bottom: var(--pr-s-5); }
 .pr-blog-hero__grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -5562,7 +5562,7 @@ main table a,
   position: relative;
   width: 100%;
   aspect-ratio: 5 / 4;
-  max-width: 640px;
+  max-width: 440px;
   margin-left: auto;
 }
 .pr-blog-hero__spin,
