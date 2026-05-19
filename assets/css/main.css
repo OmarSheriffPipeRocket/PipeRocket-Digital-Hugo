@@ -8984,7 +8984,11 @@ body.pr-modal-open { overflow: hidden; }
   font-size: 1.7rem;
   line-height: 1.15;
   margin: 0 0 14px;
-  max-width: 22ch;
+  max-width: 24ch;
+}
+.pr-pilot-popup__title-accent {
+  color: var(--pr-cyan, #0BA6E2);
+  font-style: italic;
 }
 .pr-pilot-popup__lede {
   font-size: 0.98rem;
