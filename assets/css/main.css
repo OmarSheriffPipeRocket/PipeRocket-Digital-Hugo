@@ -2590,14 +2590,61 @@ a.pr-hero__cta:hover,
 @media (min-width: 1280px) {
   .pr-footer__grid { gap: 64px; }
 }
-.pr-footer__brand .pr-logo { font-size: 1.6rem; margin: var(--pr-s-3) 0; }
+.pr-footer__brand .pr-logo { font-size: 1.6rem; margin: 0 0 var(--pr-s-4); }
+.pr-footer__logo .pr-logo__img { height: 28px; width: auto; }
 .pr-footer__tagline {
   font-size: 0.95rem;
   color: var(--pr-ink);
-  margin-bottom: 0;
+  margin: 0 0 var(--pr-s-4);
+  max-width: 240px;
 }
 @media (min-width: 768px) {
-  .pr-footer__tagline { font-size: 13px !important; max-width: 200px; }
+  .pr-footer__tagline { font-size: 13px !important; }
+}
+
+/* Contact block — address, email, phone stack tightly below tagline */
+.pr-footer__contact {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: var(--pr-s-4);
+}
+.pr-footer__contact-line {
+  font-size: 13px;
+  color: var(--pr-muted);
+  line-height: 1.5;
+  max-width: 240px;
+}
+.pr-footer__contact-link {
+  font-size: 13px;
+  color: var(--pr-ink-2);
+  text-decoration: none;
+  line-height: 1.5;
+}
+.pr-footer__contact-link:hover { color: var(--pr-cyan); }
+
+/* Social icons — circular hit areas, cyan on hover */
+.pr-footer__social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.pr-footer__social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--pr-cream-2);
+  color: var(--pr-ink);
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+.pr-footer__social-link:hover {
+  background: var(--pr-cyan);
+  color: #fff;
+  transform: translateY(-1px);
 }
 
 /* Each footer column is a <details> for native mobile collapse.
