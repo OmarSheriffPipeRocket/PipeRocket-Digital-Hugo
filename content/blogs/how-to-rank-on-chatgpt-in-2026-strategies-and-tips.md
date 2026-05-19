@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "how-to-rank-on-chatgpt-in-2026-strategies-and-tips"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/How-to-rank-on-ChatGPT.png"
+featuredImage: "/images/wp-import/How-to-rank-on-ChatGPT.webp"
 wp_id: 2686
 wp_link: "/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips/"
 ---

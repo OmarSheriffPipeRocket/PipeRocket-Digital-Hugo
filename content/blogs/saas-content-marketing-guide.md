@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "saas-content-marketing-guide"
 writtenBy: "kim"
 category: "SaaS Content Marketing"
-featuredImage: "/images/wp-import/SaaS-Content-Marketing-Guide-Banner-Image.png"
+featuredImage: "/images/wp-import/SaaS-Content-Marketing-Guide-Banner-Image.webp"
 wp_id: 2458
 wp_link: "/blogs/saas-content-marketing-guide/"
 ---

@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "how-to-run-google-ads-for-saas"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/Google-Ads-for-SaaS-Blog-Banner.png"
+featuredImage: "/images/wp-import/Google-Ads-for-SaaS-Blog-Banner.webp"
 wp_id: 2555
 wp_link: "/blogs/how-to-run-google-ads-for-saas/"
 ---

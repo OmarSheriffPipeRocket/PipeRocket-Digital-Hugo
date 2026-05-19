@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "the-no-nonsense-guide-to-auditing-your-saas-ppc-account"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/SaaS-PPC-Audit-Blog-Banner-Image.png"
+featuredImage: "/images/wp-import/SaaS-PPC-Audit-Blog-Banner-Image.webp"
 wp_id: 2515
 wp_link: "/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account/"
 ---

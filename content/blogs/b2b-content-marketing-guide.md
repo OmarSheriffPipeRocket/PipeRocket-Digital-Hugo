@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "b2b-content-marketing-guide"
 writtenBy: "kim"
 category: "B2B Content Marketing"
-featuredImage: "/images/wp-import/B2B-Content-Marketing-Blog-Banner-Image.png"
+featuredImage: "/images/wp-import/B2B-Content-Marketing-Blog-Banner-Image.webp"
 wp_id: 2447
 wp_link: "/blogs/b2b-content-marketing-guide/"
 ---

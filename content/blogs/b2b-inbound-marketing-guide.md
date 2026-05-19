@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "b2b-inbound-marketing-guide"
 writtenBy: "kim"
 category: "B2B Inbound Marketing"
-featuredImage: "/images/wp-import/B2B-Inbound-Marketing-Banner-Image.png"
+featuredImage: "/images/wp-import/B2B-Inbound-Marketing-Banner-Image.webp"
 wp_id: 2468
 wp_link: "/blogs/b2b-inbound-marketing-guide/"
 ---

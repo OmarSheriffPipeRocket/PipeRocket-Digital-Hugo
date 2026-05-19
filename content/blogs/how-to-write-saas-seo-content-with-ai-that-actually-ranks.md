@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "how-to-write-saas-seo-content-with-ai-that-actually-ranks"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/How-to-Write-SaaS-SEO-Content-with-AI-Blog-Banner-Image-1.png"
+featuredImage: "/images/wp-import/How-to-Write-SaaS-SEO-Content-with-AI-Blog-Banner-Image-1.webp"
 wp_id: 2630
 wp_link: "/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks/"
 ---

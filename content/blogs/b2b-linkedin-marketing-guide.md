@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "b2b-linkedin-marketing-guide"
 writtenBy: "praveen"
 category: "B2B LinkedIn Marketing"
-featuredImage: "/images/wp-import/B2B-LinkedIn-Marketing-Guide-Banner-Image.png"
+featuredImage: "/images/wp-import/B2B-LinkedIn-Marketing-Guide-Banner-Image.webp"
 wp_id: 2471
 wp_link: "/blogs/b2b-linkedin-marketing-guide/"
 ---

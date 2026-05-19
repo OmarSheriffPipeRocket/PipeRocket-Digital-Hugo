@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "b2b-lead-generation"
 writtenBy: "praveen"
 category: "B2B Lead Generation"
-featuredImage: "/images/wp-import/B2B-Lead-Generation-Agencies-Blog-Banner-Image-1.png"
+featuredImage: "/images/wp-import/B2B-Lead-Generation-Agencies-Blog-Banner-Image-1.webp"
 wp_id: 2441
 wp_link: "/blogs/b2b-lead-generation/"
 ---

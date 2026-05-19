@@ -6,7 +6,7 @@
 [praveen]
 name = "Praveen Ravi"
 role = "Founder, PipeRocket Digital"
-photo = "/images/authors/praveen.png"
+photo = "/images/authors/praveen.webp"
 linkedin = "https://www.linkedin.com/in/praveenravi14/"
 bio = "10+ years as an in-house marketer and agency operator. Managed $500K+ monthly budgets for global brands at Dentsu and SaaS Labs."
 expertise = ["B2B SaaS PPC", "Performance marketing", "Pipeline attribution"]
@@ -14,7 +14,7 @@ expertise = ["B2B SaaS PPC", "Performance marketing", "Pipeline attribution"]
 [kim]
 name = "Kamaraj Mathiarasan (Kim)"
 role = "Co-Founder, PipeRocket Digital"
-photo = "/images/authors/kim.png"
+photo = "/images/authors/kim.webp"
 linkedin = "https://www.linkedin.com/in/kim-mathiarasan/"
 bio = "Co-Founder of PipeRocket Digital, based in the San Francisco Bay Area. 12+ years in SaaS SEO. Studied 150+ B2B SaaS brands and writes about pipeline-first organic growth for early- and growth-stage SaaS teams."
 expertise = ["B2B SaaS SEO", "Topical authority", "BOFU strategy", "Agency strategy"]
@@ -22,7 +22,7 @@ expertise = ["B2B SaaS SEO", "Topical authority", "BOFU strategy", "Agency strat
 [omar]
 name = "Omar Khan"
 role = "Senior SEO Writer, PipeRocket Digital"
-photo = "/images/authors/omar.jpeg"
+photo = "/images/authors/omar.webp"
 linkedin = "https://www.linkedin.com/in/omarsheriff04/"
 bio = "5 years writing for SaaS marketing teams. Specialises in BOFU intent and category-defining content."
 expertise = ["BOFU SEO", "Content briefs", "SaaS content"]
@@ -30,7 +30,7 @@ expertise = ["BOFU SEO", "Content briefs", "SaaS content"]
 [ranjeeth]
 name = "Ranjeeth Kumar"
 role = "PPC Strategist, PipeRocket Digital"
-photo = "/images/authors/ranjeeth.png"
+photo = "/images/authors/ranjeeth.webp"
 linkedin = "https://www.linkedin.com/in/ranjeethka/"
 bio = "Spent 6 years scaling LinkedIn Ads and Google Ads accounts for B2B SaaS. Obsessed with payback period and CAC."
 expertise = ["LinkedIn Ads", "Google Ads", "B2B paid attribution"]
@@ -38,7 +38,7 @@ expertise = ["LinkedIn Ads", "Google Ads", "B2B paid attribution"]
 [rohith]
 name = "Rohith Sharma"
 role = "Senior SEO Specialist, PipeRocket Digital"
-photo = "/images/authors/rohith.png"
+photo = "/images/authors/rohith.webp"
 linkedin = "https://in.linkedin.com/in/sabarirohith"
 bio = "Senior SEO Specialist at PipeRocket Digital. Builds data-driven organic search strategies for B2B SaaS. Previously SEO at Kovai.co."
 expertise = ["B2B SaaS SEO", "Organic search strategy", "Technical SEO"]
@@ -54,7 +54,7 @@ expertise = ["Topical authority", "Content strategy", "SaaS editorial"]
 [vishnu-prasad]
 name = "Vishnu Prasadh"
 role = "Marketing Writer, PipeRocket Digital"
-photo = "/images/authors/vishnu.jpeg"
+photo = "/images/authors/vishnu.webp"
 linkedin = "https://www.linkedin.com/in/vishnuprasadh/"
 bio = "Writes about SaaS marketing, growth strategy, and B2B demand generation."
 expertise = ["B2B SaaS", "Demand generation", "Content strategy"]

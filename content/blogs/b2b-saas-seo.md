@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "b2b-saas-seo"
 writtenBy: "kim"
 category: "B2B SEO"
-featuredImage: "/images/wp-import/B2B-Saas-SEO-Blog-Banner-Image.png"
+featuredImage: "/images/wp-import/B2B-Saas-SEO-Blog-Banner-Image.webp"
 wp_id: 2373
 wp_link: "/blogs/b2b-saas-seo/"
 ---

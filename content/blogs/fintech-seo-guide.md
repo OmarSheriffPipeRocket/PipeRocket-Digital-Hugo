@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "fintech-seo-guide"
 writtenBy: "kim"
 category: "Fintech SEO"
-featuredImage: "/images/wp-import/Fintech-SEO-Guide-Banner-Image.png"
+featuredImage: "/images/wp-import/Fintech-SEO-Guide-Banner-Image.webp"
 wp_id: 2476
 wp_link: "/blogs/fintech-seo-guide/"
 ---
