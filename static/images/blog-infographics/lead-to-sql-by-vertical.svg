@@ -80,10 +80,11 @@
   </g>
 
   <!-- Take-away strip -->
-  <g transform="translate(50, 640)">
-    <rect width="1100" height="60" rx="10" fill="#282828"/>
-    <text x="30" y="32" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="2">TAKE-AWAY</text>
-    <text x="30" y="52" fill="#ffffff" font-size="13">Trust-heavy verticals reward branded organic searches over AI discovery. In Fintech, buyers use AI to shortlist — then switch to organic for due diligence.</text>
+  <g transform="translate(50, 632)">
+    <rect width="1100" height="76" rx="10" fill="#282828"/>
+    <text x="30" y="28" fill="#0BA6E2" font-size="11" font-weight="700" letter-spacing="2">TAKE-AWAY</text>
+    <text x="30" y="50" fill="#ffffff" font-size="13">Trust-heavy verticals reward branded organic searches over AI discovery.</text>
+    <text x="30" y="68" fill="rgba(255,255,255,0.85)" font-size="13">In Fintech, buyers use AI to shortlist — then switch to organic for due diligence.</text>
   </g>
 
   <text x="1150" y="708" fill="rgba(40,40,40,0.5)" font-size="11" text-anchor="end">piperocket.digital · L2S by Vertical</text>

@@ -5517,6 +5517,42 @@ main table a,
   gap: var(--pr-s-3);
   max-width: 520px;
 }
+/* Hero-sized search override — bigger input than the inline glossary one,
+   Google-style. Reuses .pr-search structure so the existing JS picks it up. */
+.pr-search.pr-blog-hero__search {
+  position: relative;
+  padding: 0;
+  border-bottom: none;
+  max-width: 520px;
+}
+.pr-search.pr-blog-hero__search .pr-search__icon {
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  color: var(--pr-muted);
+}
+.pr-search.pr-blog-hero__search .pr-search__input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.95rem 2.5rem 0.95rem 3rem;
+  background: #ffffff;
+  border: 1px solid var(--pr-line);
+  border-radius: 28px;
+  box-shadow: 0 2px 8px rgba(13, 13, 13, 0.04);
+}
+.pr-search.pr-blog-hero__search .pr-search__input:focus {
+  border-color: var(--pr-cyan);
+  box-shadow: 0 0 0 4px rgba(11, 166, 226, 0.12);
+}
+.pr-search.pr-blog-hero__search .pr-search__clear { right: 18px; }
+.pr-search.pr-blog-hero__search .pr-search__dropdown {
+  left: 0;
+  right: 0;
+  margin-top: 8px;
+  border-radius: 12px;
+  border-width: 1px;
+  box-shadow: 0 16px 36px rgba(13, 13, 13, 0.14);
+}
 .pr-blog-hero__field { flex: 1 1 0; min-width: 0; }
 .pr-blog-hero__input {
   width: 100%;
