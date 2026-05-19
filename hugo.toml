@@ -108,6 +108,117 @@ weight = 1
 name = "SaaS PPC"
 url = "/saas-ppc/"
 weight = 2
+[[menu.footer_services]]
+name = "Marketing Ops"
+url = "/marketing-ops/"
+weight = 3
+[[menu.footer_services]]
+name = "AEO / GEO"
+url = "/aeo-geo-agency/"
+weight = 4
+[[menu.footer_services]]
+name = "Account-Based Marketing"
+url = "/account-based-marketing-agency/"
+weight = 5
+[[menu.footer_services]]
+name = "Content Marketing"
+url = "/content-marketing-agency/"
+weight = 6
+[[menu.footer_services]]
+name = "Link Building"
+url = "/link-building-agency/"
+weight = 7
+
+[[menu.footer_industries]]
+name = "Fintech"
+url = "/fintech-marketing-agency/"
+weight = 1
+[[menu.footer_industries]]
+name = "HR Tech"
+url = "/hrtech-marketing-agency/"
+weight = 2
+[[menu.footer_industries]]
+name = "Dev Tools"
+url = "/devtools-marketing-agency/"
+weight = 3
+[[menu.footer_industries]]
+name = "Cybersecurity"
+url = "/cybersecurity-marketing-agency/"
+weight = 4
+[[menu.footer_industries]]
+name = "Health Tech"
+url = "/healthtech-marketing-agency/"
+weight = 5
+[[menu.footer_industries]]
+name = "Ed Tech"
+url = "/edtech-marketing-agency/"
+weight = 6
+[[menu.footer_industries]]
+name = "MarTech"
+url = "/martech-marketing-agency/"
+weight = 7
+[[menu.footer_industries]]
+name = "Legal Tech"
+url = "/legaltech-marketing-agency/"
+weight = 8
+
+[[menu.footer_learn]]
+name = "SaaS SEO Agencies"
+url = "/list/best-saas-seo-agencies/"
+weight = 1
+[[menu.footer_learn]]
+name = "B2B PPC Agencies"
+url = "/list/top-b2b-ppc-agencies/"
+weight = 2
+[[menu.footer_learn]]
+name = "B2B Marketing Agencies"
+url = "/list/best-b2b-marketing-agencies/"
+weight = 3
+[[menu.footer_learn]]
+name = "LinkedIn Marketing Agencies"
+url = "/list/best-linkedin-marketing-agencies/"
+weight = 4
+[[menu.footer_learn]]
+name = "Technical SEO Agencies"
+url = "/list/the-11-best-technical-seo-agencies-for-2026/"
+weight = 5
+[[menu.footer_learn]]
+name = "GEO / AEO Agencies"
+url = "/list/best-geo-agencies/"
+weight = 6
+[[menu.footer_learn]]
+name = "B2B Advertising Agencies"
+url = "/list/the-best-b2b-advertising-agencies-2026-rankings/"
+weight = 7
+
+[[menu.footer_resources]]
+name = "Blog"
+url = "/blogs/"
+weight = 1
+[[menu.footer_resources]]
+name = "Glossary"
+url = "/glossary/"
+weight = 2
+[[menu.footer_resources]]
+name = "Free Tools"
+url = "/tools/"
+weight = 3
+[[menu.footer_resources]]
+name = "Comparisons"
+url = "/compare/"
+weight = 4
+[[menu.footer_resources]]
+name = "Alternatives"
+url = "/alternative/"
+weight = 5
+[[menu.footer_resources]]
+name = "Research Methodology"
+url = "/research-methodology/"
+weight = 6
+[[menu.footer_resources]]
+name = "AI SEO Statistics"
+url = "/research/ai-seo-statistics/"
+weight = 7
 
 [[menu.footer_company]]
 name = "About Us"
@@ -118,27 +229,29 @@ name = "Success Stories"
 url = "/case-study/"
 weight = 2
 [[menu.footer_company]]
+name = "Pricing"
+url = "/pricing/"
+weight = 3
+[[menu.footer_company]]
+name = "Reviews"
+url = "/reviews/"
+weight = 4
+[[menu.footer_company]]
+name = "FAQs"
+url = "/faqs/"
+weight = 5
+[[menu.footer_company]]
 name = "Contact Us"
 url = "/contact-us/"
-weight = 3
-
-[[menu.footer_learn]]
-name = "SaaS SEO"
-url = "/list/best-saas-seo-agencies/"
-weight = 1
-[[menu.footer_learn]]
-name = "Technical SEO Agencies"
-url = "/list/the-11-best-technical-seo-agencies-for-2026/"
-weight = 2
-[[menu.footer_learn]]
-name = "B2B Advertising Agencies"
-url = "/list/the-best-b2b-advertising-agencies-2026-rankings/"
-weight = 3
-
-[[menu.footer_resources]]
-name = "Blogs"
-url = "/blogs/"
-weight = 1
+weight = 6
+[[menu.footer_company]]
+name = "Privacy Policy"
+url = "/privacy-policy/"
+weight = 7
+[[menu.footer_company]]
+name = "Terms & Conditions"
+url = "/terms-and-conditions/"
+weight = 8
 
 ############################# Site Params ##############################
 [params]

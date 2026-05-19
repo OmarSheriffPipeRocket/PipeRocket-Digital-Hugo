@@ -8,41 +8,53 @@
         </a>
       </div>
 
-      <div class="pr-footer__col">
-        <h4>Services</h4>
+      {{/* Each column wrapped in <details> so it collapses on mobile via
+           native HTML — no JS, fully accessible, keyboard-friendly. On
+           desktop the CSS forces the <details> open and hides the chevron. */}}
+      <details class="pr-footer__col">
+        <summary><h4>Services</h4></summary>
         <ul>
           {{ range .Site.Menus.footer_services }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
-      </div>
+      </details>
 
-      <div class="pr-footer__col">
-        <h4>Company</h4>
+      <details class="pr-footer__col">
+        <summary><h4>Industries</h4></summary>
         <ul>
-          {{ range .Site.Menus.footer_company }}
+          {{ range .Site.Menus.footer_industries }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
-      </div>
+      </details>
 
-      <div class="pr-footer__col">
-        <h4>Learn</h4>
+      <details class="pr-footer__col">
+        <summary><h4>Best-of Lists</h4></summary>
         <ul>
           {{ range .Site.Menus.footer_learn }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
-      </div>
+      </details>
 
-      <div class="pr-footer__col">
-        <h4>Resources</h4>
+      <details class="pr-footer__col">
+        <summary><h4>Resources</h4></summary>
         <ul>
           {{ range .Site.Menus.footer_resources }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
-      </div>
+      </details>
+
+      <details class="pr-footer__col">
+        <summary><h4>Company</h4></summary>
+        <ul>
+          {{ range .Site.Menus.footer_company }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </details>
     </div>
 
     <p class="pr-footer__copy">{{ .Site.Params.copyright }}</p>
