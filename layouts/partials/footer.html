@@ -13,9 +13,6 @@
             {{ with .email }}
               <a class="pr-footer__contact-link" href="mailto:{{ . }}">{{ . }}</a>
             {{ end }}
-            {{ with .phone }}
-              <a class="pr-footer__contact-link" href="tel:{{ replace . " " "" }}">{{ . }}</a>
-            {{ end }}
           </address>
         {{ end }}
 
