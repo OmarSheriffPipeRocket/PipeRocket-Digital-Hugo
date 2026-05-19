@@ -152,8 +152,25 @@ primary_cta_url = "/contact-us/"
 
 # Analytics — only injected in production builds (`hugo --environment production`
 # or Netlify's [context.production] block). Local hugo server / preview
-# deploys never load the GA4 snippet, so dev traffic stays out of reports.
-ga4_measurement_id = "G-RZ1XZF24RE"
+# deploys never load these snippets, so dev traffic stays out of reports.
+#
+# Strategy: use GTM as the single container so anything else the marketing
+# team adds (LinkedIn Insight, HubSpot, FB Pixel, HotJar, etc.) plugs into
+# the GTM container without code changes. GA4 is wired *inside* GTM, not
+# directly here.
+gtm_container_id = "GTM-W8SRLKQT"
+# Kept for reference — GA4 is actually loaded by the GTM container above.
+# If you ever want to fall back to direct gtag, set ga4_measurement_id
+# AND remove gtm_container_id.
+# ga4_measurement_id = "G-RZ1XZF24RE"
+
+# Google Search Console — preserve all 3 verifications across the WP→Hugo
+# cutover so no GSC property loses access. The HTML-file verification lives
+# at /google117f954682949a70.html (see static/).
+gsc_verifications = [
+  "35sx_ohg4CVnedHcqmFWOdPnVDgd2UOSFlSCHPQwrUc",
+  "_g31ybIIcWEPUvuVu43mkjfsSnfYtZliuR1M1ZAehUM",
+]
 secondary_cta_text = "Book free consultation"
 secondary_cta_url = "/contact-us/"
 

@@ -1,0 +1,9 @@
+{{/* GTM noscript fallback — must be placed immediately after <body>.
+     See sibling partial google-tag-manager.html for context. */}}
+{{ if and hugo.IsProduction .Site.Params.gtm_container_id }}
+  {{ $id := .Site.Params.gtm_container_id }}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ $id }}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{{ end }}

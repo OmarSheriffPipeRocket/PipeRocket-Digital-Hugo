@@ -99,8 +99,19 @@
 {{/* ============== AI / search bot directives ============== */}}
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 
-{{/* ============== Google Analytics 4 (production only) ============== */}}
-{{ partial "google-analytics.html" . }}
+{{/* ============== Google Search Console — preserve all legacy verifications ==
+     The HTML-file verification lives at /google<token>.html (in static/).
+     The meta-tag verifications below were carried over from the legacy
+     WordPress site so no GSC property loses access at the cutover. */}}
+{{ range .Site.Params.gsc_verifications }}
+<meta name="google-site-verification" content="{{ . }}">
+{{- end }}
+
+{{/* ============== Google Tag Manager (production only) ==============
+     GTM is the single analytics container — it loads GA4 (G-RZ1XZF24RE),
+     HubSpot, and any other tag the marketing team configures inside GTM
+     without requiring code changes here. */}}
+{{ partial "google-tag-manager.html" . }}
 
 {{/* ============== JSON-LD: Organization (site-wide on every page) ==============
      Renders the brand entity on every page so Knowledge Graph + AI engines

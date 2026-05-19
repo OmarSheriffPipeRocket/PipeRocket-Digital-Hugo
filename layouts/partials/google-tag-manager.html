@@ -1,0 +1,27 @@
+{{/* Google Tag Manager — production-only.
+
+  Loads the GTM container that already runs on the live WordPress site,
+  so analytics + HubSpot + LinkedIn Insight + anything else the marketing
+  team has configured inside GTM keeps working through the cutover with
+  zero code changes here.
+
+  Gating:
+    1. hugo.IsProduction is true   (set on `hugo` builds + Netlify
+                                    [context.production], false on
+                                    `hugo server` / preview deploys).
+    2. .Site.Params.gtm_container_id is non-empty.
+
+  This partial renders the <script> half of the GTM install — call it
+  from <head>. The matching <noscript> half is in
+  layouts/partials/google-tag-manager-body.html and must be rendered
+  immediately after <body> in baseof.html. */}}
+{{ if and hugo.IsProduction .Site.Params.gtm_container_id }}
+  {{ $id := .Site.Params.gtm_container_id }}
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{ $id }}');</script>
+<!-- End Google Tag Manager -->
+{{ end }}
