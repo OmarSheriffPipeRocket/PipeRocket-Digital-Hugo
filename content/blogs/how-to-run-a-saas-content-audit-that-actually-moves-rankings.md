@@ -2,7 +2,7 @@
 title: "How to Run a SaaS Content Audit That Actually Moves Rankings"
 description: "Most SaaS companies publish content, wait a few months, and then wonder why rankings stall. The problem usually isn’t your new content. It’s the old content quietly dragging everything down, and the only way to catch it before it does real damage is a proper content audit. Not the generic “update your meta descriptions” kind. […]"
 metaTitle: "How We Effectively Run A SaaS Content Audit in 2026"
-metaDescription: "Wondering how to rank on ChatGPT in 2026? Here’s how you can improve ChatGPT visibility and appear for questions your customers actually ask."
+metaDescription: "A practical SaaS content audit: how to find pages eating crawl budget, decide what to keep, rewrite, merge, or kill, and turn audits into ranking moves."
 date: 2026-03-11
 lastmod: 2026-05-13
 slug: "how-to-run-a-saas-content-audit-that-actually-moves-rankings"

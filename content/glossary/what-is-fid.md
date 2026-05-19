@@ -1,7 +1,7 @@
 ---
 title: "What Is FID? Field Data, SEO Impact & Why Most Teams Get It Wrong"
 description: "FID (First Input Delay) measures the time from a user’s first interaction with a website to when the browser responds. Low FID means faster interactivity, which boosts user experience and SEO performance. Optimizing FID can directly improve Core Web Vitals scores and rankings. TL;DR What Is FID and Why Do Most Teams Misunderstand It? FID, […]"
-metaTitle: "What Is FID? Field Data, SEO Impact & Why Most Teams Get It Wrong"
+metaTitle: "What Is FID? Field Data, SEO Impact & Common Mistakes"
 metaDescription: "FID measures website interactivity speed critical for SEO and UX. Learn what FID is, why it matters, and how to fix common mistakes to improve rankings."
 date: 2026-04-14
 lastmod: 2026-04-27

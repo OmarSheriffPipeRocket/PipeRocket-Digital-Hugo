@@ -1,8 +1,8 @@
 ---
 title: "B2B PPC: A Complete Guide for 2025"
 description: "Most B2B teams question whether PPC is worth it.  You spend money, the clicks look good, but the leads? They’re all over the place. Some relevant, many not even close to your ICP. And because B2B deals take months and involve multiple people, proving whether PPC actually works becomes a whole different challenge. But the […]"
-metaTitle: "What is B2B PPC and How to Run Campaigns That Convert"
-metaDescription: "A practical b2b ppc guide covering campaign structure, ad copy, landing pages, and how to track what your spend is actually doing for pipeline."
+metaTitle: "B2B PPC: A Complete 2026 Strategy Guide for SaaS Teams"
+metaDescription: "B2B PPC strategy for 2026: how to build campaigns that generate qualified pipeline, not just clicks. ICP mapping, intent tiers, and budget allocation."
 date: 2025-11-28
 lastmod: 2026-05-13
 slug: "b2b-ppc"

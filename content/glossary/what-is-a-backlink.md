@@ -1,7 +1,7 @@
 ---
 title: "What Is a Backlink? Meaning & Real-World Examples"
 description: "A backlink is a hyperlink from one website to another, acting as a signal of trust and authority for search engines. High-quality backlinks can boost your site’s rankings, drive referral traffic, and build domain credibility. Not all backlinks have equal SEO value. TL;DR What Is a Backlink? A backlink is a clickable hyperlink from one […]"
-metaTitle: "What Is a Backlink? Meaning & Real-World Examples - PipeRocket"
+metaTitle: "What Is a Backlink? Meaning & Real-World Examples"
 metaDescription: "A backlink is a hyperlink from one website to another, acting as a signal of trust and authority for search engines. High-quality backlinks can boost your"
 date: 2026-04-13
 lastmod: 2026-04-27

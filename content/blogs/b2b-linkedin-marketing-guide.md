@@ -2,7 +2,7 @@
 title: "B2B LinkedIn Marketing: The Complete Strategy Guide"
 description: "If you are running B2B marketing, getting your product in front of the right decision-makers is not easy. Generic social media drains time and budget, and your target buyers are busy professionals who focus only on solutions that create real business impact. So where do you reach them with intent and consistency? That is where […]"
 metaTitle: "B2B LinkedIn Marketing Guide | Strategy, Ads & Leads"
-metaDescription: "Master B2B LinkedIn Marketing in 2026 with proven strategies, content frameworks, and lead-gen tactics. Learn how to reach decision-makers and grow pipeline predictably."
+metaDescription: "Master B2B LinkedIn Marketing in 2026 with proven strategies, content frameworks, and lead-gen tactics that grow qualified pipeline."
 date: 2025-12-11
 lastmod: 2026-05-12
 slug: "b2b-linkedin-marketing-guide"

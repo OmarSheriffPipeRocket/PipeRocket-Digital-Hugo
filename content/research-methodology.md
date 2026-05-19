@@ -1,8 +1,8 @@
 ---
 title: "Research Methodology and Editorial Policy"
 description: "How PipeRocket researches and ranks agencies on every list. Sources we use, criteria we score on, what disqualifies an agency, how we handle our own placement, and how we keep ratings current."
-metaTitle: "Research Methodology & Editorial Policy | PipeRocket Digital"
-metaDescription: "Editorial policy behind every PipeRocket list. The sources, scoring criteria, conflict-of-interest handling, and correction process we use to rank B2B SaaS agencies."
+metaTitle: "Research Methodology & Editorial Policy"
+metaDescription: "Editorial policy behind every PipeRocket list. Sources, scoring criteria, conflict-of-interest handling, and corrections."
 date: 2026-05-14
 lastmod: 2026-05-14
 slug: "research-methodology"

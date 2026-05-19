@@ -2,7 +2,7 @@
 title: "What Is Nrr"
 description: "Net Revenue Retention (NRR) is the percentage of recurring revenue a SaaS company keeps from existing customers, after accounting for upgrades, downgrades, and churn. A high NRR signals strong expansion and retention, while a low NRR warns of shrinking revenue even if you’re adding new customers. TL;DR What Is NRR in SaaS? Net Revenue Retention […]"
 metaTitle: "What Is NRR? SaaS Net Revenue Retention Explained"
-metaDescription: "NRR (Net Revenue Retention) shows how much SaaS revenue you keep and expand from current customers. Learn how NRR works, why it matters, and what most teams miss."
+metaDescription: "NRR (Net Revenue Retention) shows how much SaaS revenue you keep and expand from current customers. How NRR works and what teams miss."
 date: 2026-04-27
 slug: "what-is-nrr"
 categorySlug: "saas-metrics"
