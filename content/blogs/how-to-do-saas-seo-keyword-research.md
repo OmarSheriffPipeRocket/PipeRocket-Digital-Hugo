@@ -1,14 +1,14 @@
 ---
 title: "How I Do SaaS SEO Keyword Research in 2026?"
 description: "If you asked me how I do keyword research, the exact steps we follow at PipeRocket Digital, this blog will be your answer. We’ve had long discussions about this within our team, and the reality is that most people start with tools when they should be starting with people. We treat SaaS SEO keyword research […]"
-metaTitle: "How I Do SaaS SEO Keyword Research in 2026 | 15+ Yrs Experience"
+metaTitle: "How I Do SaaS SEO Keyword Research in 2026"
 metaDescription: "Here's the SaaS SEO keyword research steps we follow at PipeRocket Digital. My approach focuses on utilizing your internal teams to generate keywords."
 date: 2026-02-02
 lastmod: 2026-05-13
 slug: "how-to-do-saas-seo-keyword-research"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/How-to-do-SaaS-SEO-Keyword-Research-Blog-Banner-Image-1.png"
+featuredImage: "/images/wp-import/How-to-do-SaaS-SEO-Keyword-Research-Blog-Banner-Image-1.webp"
 wp_id: 2597
 wp_link: "/blogs/how-to-do-saas-seo-keyword-research/"
 ---
@@ -114,7 +114,7 @@ Now comes the heavy lifting. We take all these inputs – the team insights, the
 
 ### **The Power of the “Topic” Column**
 
-I want to highlight the “Topic” column because it is vital. This column helps you group thousands of keywords into manageable [clusters](/glossary/keyword-clusters/ "Keyword Clusters (Glossary)"). **For example, you might have keywords like:**
+I want to highlight the “Topic” column because it is vital. This column helps you group thousands of keywords into manageable [clusters](/glossary/what-are-keyword-clusters/ "Keyword Clusters (Glossary)"). **For example, you might have keywords like:**
 
 - “What is GRC?”
 - “GRC components”
@@ -143,7 +143,7 @@ The biggest struggle marketers face is justifying the budget. Management usually
 
 This transforms content from a random request into a calculated investment. It gives clarity to the executives on the overall budget needed, and it gives the SEO team a clear roadmap of where to start and where to end.
 
-This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategy-and-framework/ "SaaS SEO Framework").
+This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategies-and-framework/ "SaaS SEO Framework").
 
 ## Let PipeRocket Digital Do It for You
 

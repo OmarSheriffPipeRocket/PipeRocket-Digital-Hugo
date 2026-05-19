@@ -1,14 +1,14 @@
 ---
 title: "B2B Inbound Marketing – The Ultimate Guide"
 description: "The trickiest part in B2B marketing is this: you’re not selling to one person, you’re selling to a committee.  And each person has different fears, priorities, and objections. The CTO wants technical credibility. The CFO wants ROI. The end user wants ease. And the exec sponsor wants a solution that won’t blow up in their […]"
-metaTitle: "B2B Inbound Marketing: A Complete Guide | PipeRocket Digital"
+metaTitle: "B2B Inbound Marketing: A Complete Guide"
 metaDescription: "Learn how modern B2B buyers really make decisions and how inbound marketing helps you attract, educate, and convert high-value clients in a digital-first world."
 date: 2025-12-11
 lastmod: 2026-05-12
 slug: "b2b-inbound-marketing-guide"
 writtenBy: "kim"
 category: "B2B Inbound Marketing"
-featuredImage: "/images/wp-import/B2B-Inbound-Marketing-Banner-Image.png"
+featuredImage: "/images/wp-import/B2B-Inbound-Marketing-Banner-Image.webp"
 wp_id: 2468
 wp_link: "/blogs/b2b-inbound-marketing-guide/"
 ---

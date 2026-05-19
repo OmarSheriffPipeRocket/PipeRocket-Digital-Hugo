@@ -11,7 +11,7 @@ writtenBy: "praveen"
 category: "SaaS PPC"
 featuredImage: "/images/listicle-covers/best-saas-ppc-agencies.webp"
 wp_id: 2803
-wp_link: "/blogs/best-saas-ppc-agencies/"
+wp_link: "/list/best-saas-ppc-agencies/"
 toc: true
 readingTime: "18 min read"
 ---

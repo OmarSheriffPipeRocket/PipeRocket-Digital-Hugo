@@ -53,7 +53,7 @@ What this means in practice: Robots.txt isn’t just a “set and forget” file
 
 **Fast Fact:** Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
-**Also read:** [how the best enterprise SEO agencies handle crawl control at scale](/blogs/best-enterprise-seo-agencies/)
+**Also read:** [how the best enterprise SEO agencies handle crawl control at scale](/list/best-enterprise-seo-agencies/)
 
 ## How Does robots.txt Work with Search Engines and Crawlers?
 
@@ -89,7 +89,7 @@ There’s a real trade-off: Blocking broad sections (like /blog/ or /resources/)
 
 What this means: Every time you push a redesign, launch a new feature, or migrate your stack, review your robots.txt line by line. Over-blocking is a silent killer you won’t know until rankings drop or a customer points out something’s missing from Google.
 
-**Also read:** [how top SaaS marketing agencies approach technical SEO hygiene](/blogs/best-saas-marketing-agencies/)
+**Also read:** [how top SaaS marketing agencies approach technical SEO hygiene](/list/best-saas-marketing-agencies-2026/)
 
 ## How Should You Structure robots.txt for Maximum SEO Impact?
 
@@ -107,7 +107,7 @@ Trackflow, a project tool for creative agencies, went through a headless CMS reb
 
 What this means: The best robots.txt files look boring just enough rules to keep sensitive or junk areas out, and nothing that breaks how your site appears in search.
 
-**Also read:** [how the best B2B SEO agencies handle technical crawl control](/blogs/best-b2b-seo-agencies/)
+**Also read:** [how the best B2B SEO agencies handle technical crawl control](/list/best-b2b-seo-agencies-2/)
 
 ## Frequently Asked Questions
 

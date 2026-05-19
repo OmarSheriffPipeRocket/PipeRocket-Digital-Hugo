@@ -44,7 +44,7 @@ That timing isn’t accidental. It’s built into the product architecture on pu
 
 Fast Fact: Most SaaS teams that track expansion revenue separately from new MRR discover that existing customers contribute a larger share of monthly growth than their acquisition metrics suggested.
 
-Also read: [best SaaS marketing agencies for driving expansion revenue](/blogs/best-saas-marketing-agencies/)
+Also read: [best SaaS marketing agencies for driving expansion revenue](/list/best-saas-marketing-agencies-2026/)
 
 ## What’s the Difference Between Upsell and Cross-Sell?
 
@@ -74,7 +74,7 @@ The worst upsell timing is month two of onboarding. The customer hasn’t proven
 
 Fast Fact: Teams that tie upsell triggers to product usage signals rather than calendar-based outreach consistently report higher upgrade acceptance rates and fewer churned accounts post-upgrade.
 
-Also read: [top B2B PPC agencies for SaaS expansion campaigns](/blogs/top-b2b-ppc-agencies/)
+Also read: [top B2B PPC agencies for SaaS expansion campaigns](/list/top-b2b-ppc-agencies/)
 
 ## How Does Upselling Affect Retention and Churn?
 
@@ -100,7 +100,7 @@ Most teams build upsell processes around time quarterly check-ins, renewal windo
 - Train CS on value, not features: A CSM who leads with “here’s what the pro plan includes” will lose to a CSM who says “you’ve been hitting your export limit here’s how teams like yours usually solve that.”
 - Track upgrade acceptance by trigger: Measure which signals actually convert, not just which accounts you contacted. This closes the loop and improves targeting over time.
 
-If you’re working with a [SaaS marketing agency](/blogs/best-saas-marketing-agencies/) or a growth team, make sure they’re tied into product usage data upsell campaigns built on CRM segments alone miss the in-product signals that matter most.
+If you’re working with a [SaaS marketing agency](/list/best-saas-marketing-agencies-2026/) or a growth team, make sure they’re tied into product usage data upsell campaigns built on CRM segments alone miss the in-product signals that matter most.
 
 This works well for SaaS products with clear usage tiers and measurable feature adoption. For early-stage tools with a single flat plan and no feature differentiation, you don’t have an upsell motion yet you have a pricing architecture problem that needs solving first.
 

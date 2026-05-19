@@ -57,7 +57,7 @@ Here’s the trade-off: targeting long tail keywords gives you quicker wins and 
 
 Trackflow, a SaaS for creative agencies, pivoted their content to focus on long tail queries like “project management app for agencies with client feedback tools.” They didn’t just see more traffic they saw a 28% increase in demo requests from agencies, their exact ICP.
 
-**Also read:** [how top SaaS marketing agencies build content around intent](/blogs/best-saas-marketing-agencies/)
+**Also read:** [how top SaaS marketing agencies build content around intent](/list/best-saas-marketing-agencies-2026/)
 
 ## How Do You Find and Use Long Tail Keywords?
 
@@ -73,7 +73,7 @@ The standard playbook is to fire up a tool like Ahrefs or Semrush, sort by lowes
 
 The warning: This works well for SaaS in crowded markets where differentiation comes from use case or feature set. For hyper-niche tools with a single ICP, going too granular can fragment your content and dilute authority sometimes, you need one deep, definitive page, not twenty micro-pages.
 
-**Also read:** [best B2B SEO agencies for SaaS and enterprise brands](/blogs/best-b2b-seo-agencies/)
+**Also read:** [best B2B SEO agencies for SaaS and enterprise brands](/list/best-b2b-seo-agencies-2/)
 
 ## What’s the Real Difference Between a Long Tail Keyword and a Head Term?
 

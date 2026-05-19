@@ -2,7 +2,7 @@
 title: "How to Run a SaaS Content Audit That Actually Moves Rankings"
 description: "Most SaaS companies publish content, wait a few months, and then wonder why rankings stall. The problem usually isn’t your new content. It’s the old content quietly dragging everything down, and the only way to catch it before it does real damage is a proper content audit. Not the generic “update your meta descriptions” kind. […]"
 metaTitle: "How We Effectively Run A SaaS Content Audit in 2026"
-metaDescription: "Wondering how to rank on ChatGPT in 2026? Here’s how you can improve ChatGPT visibility and appear for questions your customers actually ask."
+metaDescription: "A practical SaaS content audit: how to find pages eating crawl budget, decide what to keep, rewrite, merge, or kill, and turn audits into ranking moves."
 date: 2026-03-11
 lastmod: 2026-05-13
 slug: "how-to-run-a-saas-content-audit-that-actually-moves-rankings"
@@ -228,7 +228,7 @@ At this scale, an audit isn’t optional, it’s the maintenance work that keeps
 
 If you’re about to invest budget in a new batch of [SaaS SEO](/blogs/saas-seo/) content, run an [SEO audit](/glossary/what-is-an-seo-audit/ "Glossary: SEO Audit") first. There’s no point spending money on 10 new articles when the 40 you already have are underperforming. Fix the foundation before you build more floors, and the new content you publish will actually have something solid to stand on.
 
-This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategy-and-framework/ "SaaS SEO Framework").
+This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategies-and-framework/ "SaaS SEO Framework").
 
 ## **How PipeRocket Digital Can Run SaaS Content Audits For You**
 

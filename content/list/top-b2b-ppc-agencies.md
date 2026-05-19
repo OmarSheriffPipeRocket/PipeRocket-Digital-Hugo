@@ -11,7 +11,7 @@ writtenBy: "praveen"
 category: "B2B PPC"
 featuredImage: "/images/listicle-covers/top-b2b-ppc-agencies.webp"
 wp_id: 1774
-wp_link: "/blogs/top-b2b-ppc-agencies/"
+wp_link: "/list/top-b2b-ppc-agencies/"
 toc: true
 readingTime: "17 min read"
 ---

@@ -62,7 +62,7 @@ Fast Fact: Most SaaS founders who run out of cash didn’t miss their runway num
 
 The actual calculation takes less than an hour to build in a spreadsheet. The discipline to update it consistently is what separates teams that manage runway from teams that react to it.
 
-Also read: [best SaaS marketing agencies for early-stage growth](/blogs/best-saas-marketing-agencies/)
+Also read: [best SaaS marketing agencies for early-stage growth](/list/best-saas-marketing-agencies-2026/)
 
 ## What’s a Healthy Runway for a SaaS Startup?
 
@@ -109,7 +109,7 @@ Working with a specialist [SaaS PPC agency](/saas-ppc/) during a tight runway pe
 
 The trade-off is real: cutting spend too aggressively kills the pipeline that would have saved you. Cutting nothing when the numbers are genuinely bad is denial. The answer is surgical know exactly what each dollar is doing before you decide whether to cut it.
 
-Also read: [top B2B PPC agencies for efficient paid acquisition](/blogs/top-b2b-ppc-agencies/)
+Also read: [top B2B PPC agencies for efficient paid acquisition](/list/top-b2b-ppc-agencies/)
 
 ## Why Does Runway Matter More Than Most Founders Realise?
 
@@ -124,7 +124,7 @@ Most founders understand this in theory. In practice, many underestimate how qui
 
 This is where the nuanced warning applies: aggressive growth spend works well for SaaS teams with strong unit economics and clear payback periods. For teams where CAC payback extends beyond 18 months and runway is under 12, that same spend pattern becomes existential you’re betting on future capital that may not arrive on the terms you need.
 
-If you’re at a stage where marketing efficiency matters as much as volume, the [best B2B marketing agencies](/blogs/best-b2b-marketing-agencies/) worth considering are the ones who build for payback period, not just pipeline volume.
+If you’re at a stage where marketing efficiency matters as much as volume, the [best B2B marketing agencies](/list/best-b2b-marketing-agencies/) worth considering are the ones who build for payback period, not just pipeline volume.
 
 ## The Bottom Line
 

@@ -46,7 +46,7 @@ Here is how the key differences stack up:
 
 The tactics of enterprise SEO are not fundamentally different from smaller-scale programs. The same principles apply: intent-matched keywords, high-quality content, strong technical foundations, and earned [backlinks](/glossary/what-is-a-backlink/). What changes is everything around those tactics.
 
-At enterprise scale, a single misconfigured noindex tag in a global page template can remove thousands of pages from Google’s index overnight. A content strategy built around one [ICP](/glossary/what-is-icp/) falls apart when the company has five product lines serving different [buyer personas](/glossary/buyer-persona/). A reporting framework that worked for a 20-page site becomes useless when the domain has 2,000 pages generating traffic from hundreds of [keyword clusters](/glossary/keyword-clusters/).
+At enterprise scale, a single misconfigured noindex tag in a global page template can remove thousands of pages from Google’s index overnight. A content strategy built around one [ICP](/glossary/what-is-icp/) falls apart when the company has five product lines serving different buyer personas. A reporting framework that worked for a 20-page site becomes useless when the domain has 2,000 pages generating traffic from hundreds of [keyword clusters](/glossary/what-are-keyword-clusters/).
 
 The three things that break enterprise SEO programs most consistently:
 
@@ -127,7 +127,7 @@ Enterprise SEO governance requires:
 - **SEO review in development workflows:** a defined point in the engineering release process where SEO impact is assessed before code ships
 - **Cross-functional SEO education:** product, engineering, and content teams that understand the SEO implications of their decisions, not just the SEO team
 
-The [B2B marketing operations](/b2b-marketing-operations-guide/) infrastructure that supports governance, including the workflows, documentation systems, and accountability structures, is as important as the SEO strategy itself.
+The [B2B marketing operations](/blogs/b2b-marketing-operations-guide/) infrastructure that supports governance, including the workflows, documentation systems, and accountability structures, is as important as the SEO strategy itself.
 
 **What this looks like in practice:** A cloud security SaaS loses 40% of its organic traffic in a single week after engineering ships a site-wide navigation update that inadvertently adds a noindex directive to the global header template. The issue is not discovered for 11 days. After recovery, the company implements a mandatory SEO review checkpoint in their GitHub pull request workflow. No significant SEO incident has occurred in the 18 months since.
 
@@ -167,7 +167,7 @@ Most enterprise SEO engagements start with a keyword spreadsheet and a content c
 
 Before a keyword tool opens, the team goes inside your sales call recordings, maps your ICP across each product line and buyer persona, and identifies the buying triggers and search behaviors that move a qualified enterprise prospect toward a conversation with sales. Every content investment is tied to a pipeline outcome before a word is written.
 
-- **[SaaS SEO:](/saas-seo-agency/)** pipeline-first organic strategy built for enterprise SaaS complexity, with BOFU content live in month one, technical governance built into delivery, and every page measured against [MQLs](/glossary/mql/), SQLs, and pipeline contribution
+- **[SaaS SEO:](/saas-seo-agency/)** pipeline-first organic strategy built for enterprise SaaS complexity, with BOFU content live in month one, technical governance built into delivery, and every page measured against MQLs, SQLs, and pipeline contribution
 - **[SaaS PPC:](/saas-ppc/)** paid programs connected directly to your CRM so organic and paid report against the same pipeline outcomes, and SEO keyword data feeds paid targeting decisions
 - **[Marketing Operations:](/marketing-ops/)** the attribution infrastructure, CRM configuration, and reporting framework that makes enterprise SEO pipeline contribution visible to the CFO, not just the marketing team
 

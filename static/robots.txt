@@ -1,25 +1,91 @@
+# ─── PipeRocket Digital — robots.txt ─────────────────────────────────────────
+# Hugo build. No WordPress, no /wp-admin/, no /category/ archives.
+# We deliberately allow every major AI crawler that respects robots.txt
+# so PipeRocket content can be cited by ChatGPT, Claude, Perplexity, etc.
+
 User-agent: *
 Allow: /
 
 # Block low-value crawl paths
 Disallow: /search?
-Disallow: /tags/
-Disallow: /*?
 
-# Honor the AI bots that respect robots.txt — explicit allow signal
-User-agent: GPTBot
+# ── Google ───────────────────────────────────────────────────────────────────
+User-agent: Googlebot
 Allow: /
 
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
+User-agent: Googlebot-Image
 Allow: /
 
 User-agent: Google-Extended
 Allow: /
 
+# ── Microsoft / Bing ─────────────────────────────────────────────────────────
+User-agent: Bingbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+# ── OpenAI (ChatGPT) ─────────────────────────────────────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# ── Anthropic (Claude) ───────────────────────────────────────────────────────
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# ── Perplexity ───────────────────────────────────────────────────────────────
+User-agent: PerplexityBot
+Allow: /
+
+# ── Apple Intelligence ───────────────────────────────────────────────────────
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ── Meta AI ──────────────────────────────────────────────────────────────────
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# ── Amazon ───────────────────────────────────────────────────────────────────
+User-agent: Amazonbot
+Allow: /
+
+# ── ByteDance / TikTok AI ────────────────────────────────────────────────────
+User-agent: Bytespider
+Allow: /
+
+# ── Cohere AI ────────────────────────────────────────────────────────────────
+User-agent: cohere-ai
+Allow: /
+
+# ── Common Crawl (training data many LLMs use) ───────────────────────────────
 User-agent: CCBot
+Allow: /
+
+# ── You.com ──────────────────────────────────────────────────────────────────
+User-agent: YouBot
+Allow: /
+
+# ── DuckDuckGo ───────────────────────────────────────────────────────────────
+User-agent: DuckDuckBot
 Allow: /
 
 Sitemap: https://piperocket.digital/sitemap.xml

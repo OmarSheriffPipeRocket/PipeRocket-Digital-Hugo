@@ -1,14 +1,14 @@
 ---
 title: "B2B PPC: A Complete Guide for 2025"
 description: "Most B2B teams question whether PPC is worth it.  You spend money, the clicks look good, but the leads? They’re all over the place. Some relevant, many not even close to your ICP. And because B2B deals take months and involve multiple people, proving whether PPC actually works becomes a whole different challenge. But the […]"
-metaTitle: "What is B2B PPC and How to Run Campaigns That Convert"
-metaDescription: "A practical b2b ppc guide covering campaign structure, ad copy, landing pages, and how to track what your spend is actually doing for pipeline."
+metaTitle: "B2B PPC: A Complete 2026 Strategy Guide for SaaS Teams"
+metaDescription: "B2B PPC strategy for 2026: how to build campaigns that generate qualified pipeline, not just clicks. ICP mapping, intent tiers, and budget allocation."
 date: 2025-11-28
 lastmod: 2026-05-13
 slug: "b2b-ppc"
 writtenBy: "praveen"
 category: "B2B PPC"
-featuredImage: "/images/wp-import/B2B-PPC-Blog-Banner-Image.png"
+featuredImage: "/images/wp-import/B2B-PPC-Blog-Banner-Image.webp"
 wp_id: 2428
 wp_link: "/blogs/b2b-ppc/"
 ---
@@ -250,7 +250,7 @@ Multi-step forms work especially well because they feel shorter, even when they�
 
 One of the biggest mistakes B2B teams make is judging PPC by surface-level metrics. None of those tells you whether you’re attracting buyers who will actually convert. Here’s how to measure PPC in a way that aligns with real revenue.
 
-If you’d rather hand off the work, see our [top B2B PPC agencies](/blogs/top-b2b-ppc-agencies/ "Top B2B PPC Agencies").
+If you’d rather hand off the work, see our [top B2B PPC agencies](/list/top-b2b-ppc-agencies/ "Top B2B PPC Agencies").
 
 ### 1. Pipeline Movement Over Vanity Metrics
 
@@ -260,7 +260,7 @@ What really matters is how prospects progress:
 
 **MQL → SQL → Opportunity → Revenue**
 
-If people keep dropping off after becoming [MQLs](/glossary/mql/), the issue usually isn’t your budget; it’s your intent alignment.
+If people keep dropping off after becoming MQLs, the issue usually isn’t your budget; it’s your intent alignment.
 
 ### 2. CPL vs. CPQL
 

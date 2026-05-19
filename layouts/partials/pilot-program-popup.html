@@ -1,0 +1,43 @@
+{{/* 3-month pilot promo popup — sitewide.
+
+  Renders the modal markup on every page (hidden by default). The
+  trigger logic in main.js shows it once per session after:
+    · 30 seconds on page, OR
+    · 50% scroll depth, OR
+    · exit-intent (mouse leaves viewport at the top)
+
+  Once dismissed (X or backdrop click), the popup stays closed for
+  the rest of the browser session via sessionStorage.
+
+  Hidden on /contact-us/ (they're already there) and on the popup
+  destination it links to. */}}
+{{ $skip := or (eq .RelPermalink "/contact-us/") (eq .RelPermalink "/contact/") }}
+{{ if not $skip }}
+<div class="pr-modal pr-pilot-popup" id="prPilotPopup" role="dialog" aria-modal="true" aria-labelledby="prPilotPopupTitle" hidden data-pilot-popup>
+  <div class="pr-modal__backdrop" data-pilot-close></div>
+  <div class="pr-modal__card pr-pilot-popup__card" role="document">
+    <button class="pr-modal__close" type="button" aria-label="Close" data-pilot-close>×</button>
+
+    <span class="pr-eyebrow pr-eyebrow--red pr-pilot-popup__eyebrow">🔥 Pilot · 4 slots left this quarter</span>
+    <h2 class="pr-modal__title pr-pilot-popup__title" id="prPilotPopupTitle">
+      Real pipeline in 90 days. <span class="pr-pilot-popup__title-accent">Or you walk, free.</span>
+    </h2>
+    <p class="pr-pilot-popup__lede">
+      Senior pod runs your account from day one. Pipeline target written into the SOW —
+      if we don't move the needle in 90 days, cancel with zero penalty. We're picking
+      4 B2B SaaS brands this quarter.
+    </p>
+
+    <ul class="pr-pilot-popup__bullets">
+      <li><span class="pr-pilot-popup__check">✓</span> 70+ B2B SaaS brands grown · 5.0 on Clutch</li>
+      <li><span class="pr-pilot-popup__check">✓</span> Pipeline KPI in the contract — not "traffic", not "MQLs"</li>
+      <li><span class="pr-pilot-popup__check">✓</span> Cancel any month — no annual lock-in</li>
+    </ul>
+
+    <div class="pr-pilot-popup__actions">
+      <a href="/contact-us/" class="pr-btn pr-pilot-popup__cta" data-pilot-cta>Claim a pilot slot →</a>
+      <button type="button" class="pr-pilot-popup__skip" data-pilot-close>Not right now</button>
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -11,7 +11,7 @@ writtenBy: "kim"
 category: "SaaS Content Marketing"
 featuredImage: "/images/listicle-covers/best-saas-content-marketing-agencies.webp"
 wp_id: 2351
-wp_link: "/blogs/best-saas-content-marketing-agencies/"
+wp_link: "/list/best-saas-content-marketing-agencies/"
 toc: true
 readingTime: "16 min read"
 ---

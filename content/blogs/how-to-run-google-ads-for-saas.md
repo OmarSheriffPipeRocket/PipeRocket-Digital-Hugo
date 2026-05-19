@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "how-to-run-google-ads-for-saas"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/Google-Ads-for-SaaS-Blog-Banner.png"
+featuredImage: "/images/wp-import/Google-Ads-for-SaaS-Blog-Banner.webp"
 wp_id: 2555
 wp_link: "/blogs/how-to-run-google-ads-for-saas/"
 ---
@@ -213,7 +213,7 @@ Think about that last one. If you don’t negative out “Login”, you shell ou
 
 ## **How to Forecast the ROI from Google Ads for SaaS?**
 
-Unlike [SaaS LinkedIn Ads](/blogs/how-to-run-linkedin-ads-for-saas/), it’s much easier to track ROI from Google Ads. Clients often ask me, “How much budget do I need?” and “How many leads will I get?”
+Unlike [SaaS LinkedIn Ads](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/), it’s much easier to track ROI from Google Ads. Clients often ask me, “How much budget do I need?” and “How many leads will I get?”
 
 Here is where forecasting comes into picture. Once I understand the keyword volume, I can build a mathematical model to predict the outcome.
 
@@ -256,7 +256,7 @@ I do this math *before* we launch so there are no surprises.
 
 Congratulations, you’ve finally launched your first campaign. Your ads are alive and well, here’s what you need to do next.
 
-[SaaS PPC](/blogs/saas-ppc/) is not “set it and forget it.” [Auditing your SaaS PPC account](/blogs/how-to-conduct-saas-ppc-audit/) regularly helps you spend every dollar more efficiently. I am always monitoring account for two things specifically to ensure we aren’t wasting the budget and I’d advise you to do the same.
+[SaaS PPC](/blogs/saas-ppc/) is not “set it and forget it.” [Auditing your SaaS PPC account](/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account/) regularly helps you spend every dollar more efficiently. I am always monitoring account for two things specifically to ensure we aren’t wasting the budget and I’d advise you to do the same.
 
 ### **1. The Search Terms Report**
 

@@ -41,7 +41,7 @@ What this means in practice: an ICP is a living document, not a check-the-box ex
 
 > **Fast Fact:** Teams with a defined ICP close deals 2x faster because they spend less time on low-fit accounts.
 
-**Also read:** [best B2B marketing agencies for SaaS growth](/blogs/best-b2b-marketing-agencies/)
+**Also read:** [best B2B marketing agencies for SaaS growth](/list/best-b2b-marketing-agencies/)
 
 ## How Is ICP Different From a Buyer Persona or Target Market?
 
@@ -57,7 +57,7 @@ Here’s the real trap: most SaaS teams build buyer personas in a vacuum, withou
 
 > **Fast Fact:** Teams that build personas before defining their ICP often end up focusing on high-volume, low-retention segments draining acquisition budgets with little ARR to show for it.
 
-**Also read:** [how top SaaS marketing agencies approach segmentation](/blogs/best-saas-marketing-agencies/)
+**Also read:** [how top SaaS marketing agencies approach segmentation](/list/best-saas-marketing-agencies-2026/)
 
 ## What Makes an Effective ICP? (And Where Do Most Teams Get It Wrong?)
 
@@ -71,7 +71,7 @@ An effective ICP is grounded in real, data-backed customer patterns not wishful 
 
 The real trade-off: narrowing your ICP feels risky. You’ll say no to a lot of “possible” deals. But the payoff is higher NRR, shorter sales cycles, and less resource drain on accounts that were never likely to stick. It’s worth it if your retention and expansion metrics are lagging, even if top-of-funnel lead numbers go down.
 
-**Also read:** [top B2B PPC agencies for account-based marketing](/blogs/top-b2b-ppc-agencies/)
+**Also read:** [top B2B PPC agencies for account-based marketing](/list/top-b2b-ppc-agencies/)
 
 ## How Do You Build and Validate an ICP in Practice?
 
@@ -101,7 +101,7 @@ Here’s the counterintuitive insight: most SaaS teams think “more leads” me
 
 If your team is stuck in a cycle of high acquisition and high churn, step one is a ruthless ICP review. Don’t treat symptoms with more spend or broader targeting fix the root.
 
-**Also read:** [SaaS PPC agency tactics for targeting ICP-fit leads](/blogs/best-saas-ppc-agencies/)
+**Also read:** [SaaS PPC agency tactics for targeting ICP-fit leads](/list/best-saas-ppc-agencies/)
 
 ## Frequently Asked Questions
 

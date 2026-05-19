@@ -44,7 +44,7 @@ The part most guides skip is this: crawling is also selective. Googlebot doesnâ€
 
 Fast Fact: Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
-Also read: [best B2B SEO agencies for technical SEO support](/blogs/best-b2b-seo-agencies/)
+Also read: [best B2B SEO agencies for technical SEO support](/list/best-b2b-seo-agencies-2/)
 
 ## How Does Crawling Actually Work?
 
@@ -103,7 +103,7 @@ Fast Fact: Users from organic search spend an average of 4 minutes 40 seconds on
 
 The real trade-off with crawl budget optimisation is this: aggressive URL consolidation can break user-facing functionality if done without coordination between the SEO and engineering teams. Canonical tags and parameter exclusions solve the crawling problem without removing the pages entirely thatâ€™s usually the right call for SaaS products where those filtered views serve real users.
 
-Also read: [best enterprise SEO agencies for large-scale crawl management](/blogs/best-enterprise-seo-agencies/)
+Also read: [best enterprise SEO agencies for large-scale crawl management](/list/best-enterprise-seo-agencies/)
 
 ## What Is the Difference Between Crawling and Indexing?
 

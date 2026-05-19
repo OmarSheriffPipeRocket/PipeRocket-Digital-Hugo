@@ -1,5 +1,15 @@
-{{/* Reusable directory-page hero — used on /blogs/, /list/, /glossary/, /alternative/, /compare/, /vs/.
-     Pass: title, lede, ctaId  (e.g. dict "title" "X" "lede" "Y" "ctaId" "compare-hero-subscribe") */}}
+{{/* Reusable directory-page hero — used on /blogs/, /list/, /glossary/,
+     /alternative/, /compare/, /vs/. Subscribe-form replaced by a section
+     search input that filters pages by title + description and shows live
+     suggestions in a dropdown (powered by setupGlossarySearch in main.js).
+
+     Params:
+       title       — H1 text
+       lede        — paragraph under H1
+       section     — Hugo section name to search (e.g. "blogs", "list")
+       placeholder — optional override for the search input placeholder */}}
+{{ $section := .section }}
+{{ $placeholder := default (printf "Search %s…" $section) .placeholder }}
 <section class="pr-section pr-blog-hero">
   <div class="pr-container">
     <div class="pr-blog-hero__grid">
@@ -7,24 +17,21 @@
         <h1 class="pr-blog-hero__title">{{ .title }}</h1>
         <p class="pr-blog-hero__lede">{{ .lede }}</p>
 
-        <form
-          class="pr-blog-hero__form"
-          name="blog-subscribe"
-          method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
-          data-cta-location="{{ .ctaId }}">
-          <input type="hidden" name="form-name" value="blog-subscribe">
-          <p class="pr-subscribe__hp" hidden aria-hidden="true">
-            <label>Don't fill this out: <input name="bot-field"></label>
-          </p>
-          <label class="pr-blog-hero__field">
-            <span class="pr-visually-hidden">Email address</span>
-            <input type="email" name="email" required autocomplete="email"
-              placeholder="email@company.com" class="pr-blog-hero__input">
-          </label>
-          <button type="submit" class="pr-btn pr-blog-hero__btn">Subscribe</button>
-        </form>
+        <div class="pr-search pr-blog-hero__search" data-pr-search>
+          <svg class="pr-search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/>
+          </svg>
+          <input type="search" class="pr-search__input" placeholder="{{ $placeholder }}" autocomplete="off" aria-label="{{ $placeholder }}" data-pr-search-input>
+          <button type="button" class="pr-search__clear" data-pr-search-clear aria-label="Clear search" hidden>×</button>
+          <ul class="pr-search__dropdown" data-pr-search-results hidden></ul>
+        </div>
+
+        {{ $items := slice }}
+        {{ range where site.RegularPages "Section" $section }}
+          {{ $def := default .Params.description (default "" .Params.shortDefinition) }}
+          {{ $items = $items | append (dict "title" .Title "url" .RelPermalink "definition" $def "category" (default "" .Params.category)) }}
+        {{ end }}
+        <script type="application/json" id="pr-search-index">{{ $items | jsonify | safeJS }}</script>
       </div>
 
       <div class="pr-blog-hero__art" aria-hidden="true">
@@ -33,7 +40,7 @@
           <source src="/images/blog-hero/book.webm" type="video/webm">
         </video>
         <img class="pr-blog-hero__vectors" src="/images/blog-hero/book-vectors.svg" alt="">
-        <img class="pr-blog-hero__woman" src="/images/blog-hero/woman.png" alt="">
+        <img class="pr-blog-hero__woman" src="/images/blog-hero/woman.webp" alt="">
       </div>
     </div>
   </div>

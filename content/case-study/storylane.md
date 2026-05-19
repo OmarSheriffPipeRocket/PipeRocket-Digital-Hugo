@@ -3,7 +3,7 @@ title: "Driving 2.5X Growth and 62% More Demos for Storylane"
 slug: "storylane"
 url: "/case-study-storylane/"
 description: "How PipeRocket's Google Ads + LinkedIn campaigns lifted Storylane's SQLs by 25% — while holding cost-per-SQL flat across one quarter."
-metaTitle: "Storylane Case Study: 2.5X Growth, 62% More Demos | PipeRocket"
+metaTitle: "Storylane Case Study: 2.5X Growth, 62% More Demos"
 metaDescription: "How PipeRocket's Google Ads + LinkedIn campaigns lifted Storylane's SQLs by 25% while holding cost-per-SQL flat across one quarter. Full case study."
 client: "Storylane"
 client_logo: "/images/clients/storylane.svg"
@@ -77,13 +77,13 @@ Alongside all four phases, we ran weekly search-term reviews and pushed irreleva
 - SQLs climbed from **55 to 69** — a **25% rise** — without any change in budget shape.
 - Cost per SQL held steady at **$740 to $760**, meaning the additional volume came from efficiency, not spend.
 
-{{< figure src="/images/case-studies/storylane/sql-chart-1.png" alt="Bar chart showing Storylane SQL count climbing from 52 in August 2024 to 69 in November 2024" caption="SQLs by month, Aug–Nov 2024 — steady climb without a budget increase." >}}
+{{< figure src="/images/case-study-storylane/sql-chart-1.png" alt="Bar chart showing Storylane SQL count climbing from 52 in August 2024 to 69 in November 2024" caption="SQLs by month, Aug–Nov 2024 — steady climb without a budget increase." >}}
 
 - Meetings and demos booked rose **62.07%**.
 - Product signups across all channels jumped **44.76%**.
 - Storylane's overall business grew **2.5X** in the quarter.
 
-{{< figure src="/images/case-studies/storylane/sql-chart-2.png" alt="Two bar charts side by side showing Meetings/Demos booked and Product Sign-ups across the engagement period" caption="Meetings/demos booked (left) and product sign-ups (right), Aug–Nov 2024." >}}
+{{< figure src="/images/case-study-storylane/sql-chart-2.png" alt="Two bar charts side by side showing Meetings/Demos booked and Product Sign-ups across the engagement period" caption="Meetings/demos booked (left) and product sign-ups (right), Aug–Nov 2024." >}}
 
 The most useful part of the result isn't any single number — it's that the cost stayed flat while every conversion stage further down the funnel got more efficient. That's what compounding paid programmes look like.
 

@@ -57,7 +57,7 @@ Fast Fact: SaaS buyers typically consume multiple pieces of content and visit a 
 
 The teams that build brand identity early don’t do it because it’s nice to have. They do it because they’ve watched competitors with better products lose deals to companies that looked and sounded more credible.
 
-Also read: [best SaaS marketing agencies for early-stage and scaling teams](/blogs/best-saas-marketing-agencies/)
+Also read: [best SaaS marketing agencies for early-stage and scaling teams](/list/best-saas-marketing-agencies-2026/)
 
 ## What Are the Core Elements of Brand Identity?
 
@@ -117,9 +117,9 @@ The right order is: positioning first, verbal identity second, visual identity t
 
 This works well for SaaS companies with a clear ICP and a defined category. For platforms with multiple buyer personas say, a tool used by both developers and marketing ops teams you’ll need a more layered approach to verbal identity, since the same tone won’t resonate equally with both audiences.
 
-If you’re working with an external team on brand positioning or go-to-market messaging, partnering with one of the [best B2B marketing agencies](/blogs/best-b2b-marketing-agencies/) that specialises in SaaS can accelerate the process significantly especially in the early stages when positioning decisions have the biggest downstream impact.
+If you’re working with an external team on brand positioning or go-to-market messaging, partnering with one of the [best B2B marketing agencies](/list/best-b2b-marketing-agencies/) that specialises in SaaS can accelerate the process significantly especially in the early stages when positioning decisions have the biggest downstream impact.
 
-Also read: [top B2B SEO companies that integrate brand and search strategy](/blogs/best-b2b-seo-agencies/)
+Also read: [top B2B SEO companies that integrate brand and search strategy](/list/best-b2b-seo-agencies-2/)
 
 ## What Are the Most Common Brand Identity Mistakes in SaaS?
 

@@ -5285,6 +5285,97 @@ main table a,
 .pr-bloglist__header { max-width: 720px; margin: 0 auto var(--pr-s-7); }
 .pr-bloglist__lede { font-size: 18px; line-height: 1.5; color: var(--pr-ink-2); }
 .pr-section .pr-bloglist__lede { font-size: 18px !important; line-height: 1.5 !important; }
+/* Featured hero card — used at the top of directory pages when any
+   listed page has `featured: true` in frontmatter. Visually distinct
+   from the regular grid so flagship research / pillar pieces get the
+   above-the-fold slot they deserve. */
+.pr-bloglist__featured {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  background: var(--pr-cream);
+  border: 1px solid var(--pr-line);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: var(--pr-s-7);
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .pr-bloglist__featured {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: 40px;
+    padding: 32px;
+  }
+}
+.pr-bloglist__featured-thumb {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #eee;
+  aspect-ratio: 16 / 9;
+}
+.pr-bloglist__featured-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.pr-bloglist__featured-thumb:hover img { transform: scale(1.03); }
+.pr-bloglist__featured-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.pr-bloglist__featured-flag {
+  display: inline-block;
+  width: fit-content;
+  font-family: var(--pr-sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--pr-cyan, #0BA6E2);
+  background: rgba(11, 166, 226, 0.12);
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+.pr-bloglist__featured-title {
+  font-family: var(--pr-ivy-headline);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--pr-ink);
+  margin: 0;
+}
+@media (min-width: 900px) {
+  .pr-bloglist__featured-title { font-size: 38px; }
+}
+.pr-bloglist__featured-title a { color: inherit; text-decoration: none; }
+.pr-bloglist__featured-title a:hover { color: var(--pr-cyan); }
+.pr-bloglist__featured-excerpt {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--pr-ink-2);
+  margin: 0;
+}
+.pr-bloglist__featured-cta {
+  display: inline-block;
+  width: fit-content;
+  margin-top: 4px;
+  padding: 12px 22px;
+  background: var(--pr-ink);
+  color: #fff;
+  border-radius: 5px;
+  font-family: var(--pr-sans);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+.pr-bloglist__featured-cta:hover { background: var(--pr-cyan); }
+
 .pr-bloglist__grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -5394,7 +5485,7 @@ main table a,
 /* =================================================================
    BLOG — hero first fold
    ================================================================= */
-.pr-blog-hero { padding-top: var(--pr-s-7); padding-bottom: var(--pr-s-7); }
+.pr-blog-hero { padding-top: var(--pr-s-5); padding-bottom: var(--pr-s-5); }
 .pr-blog-hero__grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -5429,6 +5520,42 @@ main table a,
   flex-wrap: wrap;
   gap: var(--pr-s-3);
   max-width: 520px;
+}
+/* Hero-sized search override — bigger input than the inline glossary one,
+   Google-style. Reuses .pr-search structure so the existing JS picks it up. */
+.pr-search.pr-blog-hero__search {
+  position: relative;
+  padding: 0;
+  border-bottom: none;
+  max-width: 520px;
+}
+.pr-search.pr-blog-hero__search .pr-search__icon {
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  color: var(--pr-muted);
+}
+.pr-search.pr-blog-hero__search .pr-search__input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.95rem 2.5rem 0.95rem 3rem;
+  background: #ffffff;
+  border: 1px solid var(--pr-line);
+  border-radius: 28px;
+  box-shadow: 0 2px 8px rgba(13, 13, 13, 0.04);
+}
+.pr-search.pr-blog-hero__search .pr-search__input:focus {
+  border-color: var(--pr-cyan);
+  box-shadow: 0 0 0 4px rgba(11, 166, 226, 0.12);
+}
+.pr-search.pr-blog-hero__search .pr-search__clear { right: 18px; }
+.pr-search.pr-blog-hero__search .pr-search__dropdown {
+  left: 0;
+  right: 0;
+  margin-top: 8px;
+  border-radius: 12px;
+  border-width: 1px;
+  box-shadow: 0 16px 36px rgba(13, 13, 13, 0.14);
 }
 .pr-blog-hero__field { flex: 1 1 0; min-width: 0; }
 .pr-blog-hero__input {
@@ -5475,7 +5602,7 @@ main table a,
   position: relative;
   width: 100%;
   aspect-ratio: 5 / 4;
-  max-width: 640px;
+  max-width: 440px;
   margin-left: auto;
 }
 .pr-blog-hero__spin,
@@ -8845,6 +8972,88 @@ a.pr-contact-info:hover { background: var(--pr-cyan-soft, rgba(12, 198, 241, 0.1
 }
 
 body.pr-modal-open { overflow: hidden; }
+
+/* =========================================================
+   3-Month Pilot Promo Popup
+   ========================================================= */
+.pr-pilot-popup__card {
+  max-width: 520px;
+  padding: 36px 36px 30px;
+}
+.pr-pilot-popup__eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+}
+.pr-pilot-popup__title {
+  font-size: 1.7rem;
+  line-height: 1.15;
+  margin: 0 0 14px;
+  max-width: 24ch;
+}
+.pr-pilot-popup__title-accent {
+  color: var(--pr-cyan, #0BA6E2);
+  font-style: italic;
+}
+.pr-pilot-popup__lede {
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: #4A4A4A;
+  margin: 0 0 20px;
+}
+.pr-pilot-popup__bullets {
+  list-style: none;
+  margin: 0 0 26px;
+  padding: 0;
+}
+.pr-pilot-popup__bullets li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 7px 0;
+  font-size: 0.93rem;
+  line-height: 1.5;
+  color: #2A2A2A;
+}
+.pr-pilot-popup__check {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(11, 166, 226, 0.15);
+  color: var(--pr-cyan, #0BA6E2);
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 1px;
+}
+.pr-pilot-popup__actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.pr-pilot-popup__cta {
+  padding: 12px 24px;
+  font-size: 0.95rem;
+}
+.pr-pilot-popup__skip {
+  background: none;
+  border: 0;
+  font-family: var(--pr-sans);
+  font-size: 0.88rem;
+  color: #6B6B6B;
+  cursor: pointer;
+  padding: 8px 4px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.pr-pilot-popup__skip:hover { color: #0D0D0D; }
+@media (max-width: 600px) {
+  .pr-pilot-popup__card { padding: 28px 22px 24px; }
+  .pr-pilot-popup__title { font-size: 1.45rem; }
+}
 
 /* =========================================================
    CASE STUDY — single page

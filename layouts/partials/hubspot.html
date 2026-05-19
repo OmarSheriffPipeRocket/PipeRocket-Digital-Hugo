@@ -1,0 +1,22 @@
+{{/* HubSpot tracking + chat widget — production-only.
+
+  Loads the same hs-script-loader the live WordPress site uses,
+  pointing at Hub ID {{ .Site.Params.hubspot_hub_id }} on the NA2 data
+  center. This single script handles:
+    · Pageview tracking → HubSpot CRM contact timelines
+    · Form submission detection on HubSpot-embedded forms
+    · Live chat widget (if enabled in the HubSpot UI)
+    · Lifecycle / workflow email triggers based on page visits
+
+  Gating:
+    1. hugo.IsProduction is true   (`hugo` build / Netlify
+                                    [context.production], NOT
+                                    `hugo server` / preview deploys).
+    2. .Site.Params.hubspot_hub_id is non-empty.
+
+  Loaded async + defer so it never blocks rendering. */}}
+{{ if and hugo.IsProduction .Site.Params.hubspot_hub_id }}
+  {{ $hub := .Site.Params.hubspot_hub_id }}
+<!-- HubSpot tracking -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-na2.hs-scripts.com/{{ $hub }}.js"></script>
+{{ end }}

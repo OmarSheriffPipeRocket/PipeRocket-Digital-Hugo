@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "b2b-demand-generation-guide"
 writtenBy: "praveen"
 category: "B2B Demand Generation"
-featuredImage: "/images/wp-import/B2B-Demand-Generation-Agencies-Blog-Banner-Image.png"
+featuredImage: "/images/wp-import/B2B-Demand-Generation-Agencies-Blog-Banner-Image.webp"
 wp_id: 2463
 wp_link: "/blogs/b2b-demand-generation-guide/"
 ---
@@ -86,7 +86,7 @@ This is where a lot of marketers get confused! While the two are often used in t
 | --- | --- | --- |
 | **Criteria** | **Demand Generation** | **Lead Generation** |
 | **Primary Goal** | Building Market Interest & Audience (Creating demand). | Capturing Contact Data (Fulfilling demand). |
-| **Focus Metric** | Content views, website traffic, social engagement, authority score, pipeline velocity. | [MQLs](/glossary/mql/) (Marketing Qualified Leads), SQLs (Sales Qualified Leads), Conversion Rates. |
+| **Focus Metric** | Content views, website traffic, social engagement, authority score, pipeline velocity. | MQLs (Marketing Qualified Leads), SQLs (Sales Qualified Leads), Conversion Rates. |
 | **Typical Tactics** | Educational blog posts, free tools, research reports, podcasts, brand advertising. | Gated e-books, contact forms, “Request a Demo” calls-to-action (CTAs), cold outreach. |
 | **Success Criteria** | When a large pool of prospects recognizes your brand and views you as an expert. | When a prospect willingly trades their contact info for a specific offer. |
 | **Time Horizon** | Long-Term strategic effort (Months to years). | Short-Term campaign-based effort. |
@@ -142,7 +142,7 @@ A B2B demand generation strategy is built on structure and collaboration. You ne
 Any great strategy must start with deep customer research to back it up.
 
 - **ICPs:** Identify the type of company you want to sell to. Look at their size, industry, revenue, and technological stack.
-- **[Buyer Personas](/glossary/buyer-persona/):** Drill down into the people within those companies. What are their job titles, their pain points, what content do they consume, and what their role is in the decision-making process.
+- **Buyer Personas:** Drill down into the people within those companies. What are their job titles, their pain points, what content do they consume, and what their role is in the decision-making process.
 
 This foundation ensures that every dollar spent on B2B demand generation campaigns is highly targeted and relevant for your ICPs.
 

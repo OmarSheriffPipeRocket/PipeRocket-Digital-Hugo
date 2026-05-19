@@ -85,7 +85,7 @@ The most common content architecture failures at enterprise scale:
 - **No vertical specificity:** generic “enterprise software” positioning with no industry-specific pages, missing the high-converting intent of buyers searching for solutions in their specific context
 - **Unconnected content clusters:** blog posts about related topics with no internal linking structure and no pillar page tying them together as a coherent authority signal
 
-Our [SaaS SEO strategies guide](/blogs/saas-seo-strategy-and-framework/) covers the [ICP](/glossary/what-is-icp/)-to-keyword mapping process that underlies clean enterprise content architecture.
+Our [SaaS SEO strategies guide](/blogs/saas-seo-strategies-and-framework/) covers the [ICP](/glossary/what-is-icp/)-to-keyword mapping process that underlies clean enterprise content architecture.
 
 **What this looks like in practice:** An enterprise legal SaaS has 180 published articles about contract management, compliance, and legal operations, none of which link to each other in any structured way. A content architecture audit reveals 23 instances of keyword cannibalization and 60 articles with no internal links pointing toward conversion pages. A four-month rebuild with no new content adds hub-and-spoke structure, resolves cannibalization, and adds conversion-directed internal links throughout. Organic SQLs from that content library increase 40% over the following two quarters.
 
@@ -132,7 +132,7 @@ This attribution gap is one of the primary reasons enterprise SEO programs get u
 | Pipeline-influenced reporting | A report showing all opportunities where organic was any touchpoint, not just first or last |
 | Organic CAC calculation | Total SEO spend divided by organic-sourced customers, benchmarked against paid CAC |
 
-This is a [B2B marketing operations](/b2b-marketing-operations-guide/) problem as much as it is an SEO problem. The CRM configuration, the data governance, and the reporting infrastructure that make multi-touch attribution reliable require RevOps ownership, not just marketing intent.
+This is a [B2B marketing operations](/blogs/b2b-marketing-operations-guide/) problem as much as it is an SEO problem. The CRM configuration, the data governance, and the reporting infrastructure that make multi-touch attribution reliable require RevOps ownership, not just marketing intent.
 
 **What this looks like in practice:** An enterprise cybersecurity SaaS builds a pipeline-influenced attribution report for the first time after a RevOps engagement. The data shows that 74% of opportunities closed in the last two quarters had at least one organic content touchpoint in the 60 days before entering the sales cycle. Under last-touch attribution, SEO had received credit for 9% of pipeline. The CMO presents the data to the board and receives approval for a 3x increase in content investment.
 

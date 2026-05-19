@@ -1,10 +1,33 @@
 {{/* Reusable directory-page card grid (+ optional category chip filter).
      Pass: pages (PagesIterator), chips (slice, optional), enterpriseFilter (bool, optional)
-     The current page context is preserved for $page references. */}}
+     The current page context is preserved for $page references.
+
+     Any page with frontmatter `featured: true` is lifted out of the
+     regular grid and rendered as a single wide hero card above. */}}
 {{ $pages := .pages }}
 {{ $chips := .chips }}
 {{ $noImage := .noImage }}
 {{ $authors := site.Data.authors }}
+
+{{/* Split: at most one featured page (the most recently published) */}}
+{{ $featured := slice }}
+{{ $rest := slice }}
+{{ range $pages }}
+  {{ if .Params.featured }}
+    {{ $featured = $featured | append . }}
+  {{ else }}
+    {{ $rest = $rest | append . }}
+  {{ end }}
+{{ end }}
+{{/* If more than one is flagged, keep the newest as the hero and put the
+     others back at the top of the grid so they still get prominence. */}}
+{{ $hero := false }}
+{{ if gt (len $featured) 0 }}
+  {{ $hero = index $featured 0 }}
+  {{ if gt (len $featured) 1 }}
+    {{ $rest = (after 1 $featured) | append $rest }}
+  {{ end }}
+{{ end }}
 
 <section class="pr-section pr-bloglist">
   <div class="pr-container">
@@ -25,8 +48,38 @@
       </nav>
     {{ end }}
 
+    {{/* ===== Featured hero card (single, optional) ===== */}}
+    {{ with $hero }}
+      {{ $page := . }}
+      {{ $slug := default "" .Params.writtenBy }}
+      {{ $author := index $authors $slug }}
+      <article class="pr-bloglist__featured" data-category="{{ with .Params.category }}{{ . }}{{ end }}">
+        {{ with .Params.featuredImage }}
+          <a href="{{ $page.RelPermalink }}" class="pr-bloglist__featured-thumb" aria-label="{{ $page.Title }}">
+            <img src="{{ . }}" alt="{{ $page.Title }}" loading="eager" fetchpriority="high">
+          </a>
+        {{ end }}
+        <div class="pr-bloglist__featured-body">
+          <span class="pr-bloglist__featured-flag">★ Featured Research</span>
+          {{ with .Params.category }}
+            <a href="{{ $page.RelPermalink }}" class="pr-bloglist__cat">{{ . }}</a>
+          {{ end }}
+          <h2 class="pr-bloglist__featured-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          {{ with .Params.description }}<p class="pr-bloglist__featured-excerpt">{{ . }}</p>{{ end }}
+          <div class="pr-bloglist__meta">
+            {{ with $author }}<span class="pr-bloglist__author">By <a href="/authors/{{ $slug }}/">{{ .name }}</a></span>{{ end }}
+            <div class="pr-bloglist__dates">
+              {{ $hasUpdated := and (not .Lastmod.IsZero) (ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}
+              {{ if $hasUpdated }}Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 Jan, 2006" }}</time> · {{ end }}{{ if not .Date.IsZero }}Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan, 2006" }}</time>{{ end }}
+            </div>
+          </div>
+          <a href="{{ $page.RelPermalink }}" class="pr-bloglist__featured-cta">Read the report →</a>
+        </div>
+      </article>
+    {{ end }}
+
     <div class="pr-bloglist__grid" data-blog-grid>
-      {{ range $pages }}
+      {{ range $rest }}
         {{ $page := . }}
         {{ $slug := default "" .Params.writtenBy }}
         {{ $author := index $authors $slug }}

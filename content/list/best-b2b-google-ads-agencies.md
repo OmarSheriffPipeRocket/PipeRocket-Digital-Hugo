@@ -11,7 +11,7 @@ writtenBy: "kim"
 category: "B2B PPC"
 featuredImage: "/images/listicle-covers/best-b2b-google-ads-agencies.webp"
 wp_id: 1907
-wp_link: "/blogs/best-b2b-google-ads-agencies/"
+wp_link: "/list/best-b2b-google-ads-agencies/"
 toc: true
 readingTime: "10 min read"
 ---

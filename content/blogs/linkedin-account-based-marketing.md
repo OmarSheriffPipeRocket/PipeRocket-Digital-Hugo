@@ -30,7 +30,7 @@ I’ve been running ABM campaigns on LinkedIn for over a decade and in this blog
 
 LinkedIn account-based marketing is a B2B paid strategy where you target specific companies or decision-makers with ads, instead of broadcasting to a broad audience.
 
-**Unlike [Google Ads](/glossary/what-is-google-ads/)**, where you’re chasing intent through search queries, [**LinkedIn Ads**](/blogs/how-to-run-linkedin-ads-for-saas/) **lets you** walk straight up to the door of the exact company you want, by name, by industry, by revenue, by job title.
+**Unlike [Google Ads](/glossary/what-is-google-ads/)**, where you’re chasing intent through search queries, [**LinkedIn Ads**](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/) **lets you** walk straight up to the door of the exact company you want, by name, by industry, by revenue, by job title.
 
 That level of precision is why ABM works so well here specifically. The platform’s targeting infrastructure is literally built for this, so you’re not hacking anything. You’re using it exactly the way it was designed.
 

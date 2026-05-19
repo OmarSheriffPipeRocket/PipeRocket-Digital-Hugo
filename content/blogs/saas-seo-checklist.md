@@ -1,14 +1,14 @@
 ---
 title: "My SaaS SEO Checklist for 2026: An Experience-based Guide"
 description: "I’ve spent over 15 years in SEO, and if there’s one thing I’ve learned, it’s that most “checklists” are distractions. They focus on green lights in a plugin rather than the green lines on your revenue chart. Recently, I sat down with my team to break down exactly how we approach SaaS SEO at PipeRocket […]"
-metaTitle: "My SaaS SEO Checklist for 2026: Based on 15+ Yrs of Experience"
+metaTitle: "My SaaS SEO Checklist for 2026"
 metaDescription: "Here's the SaaS SEO checklist we use here at PipeRocket Digital for every client. It has everything you need to be the modern SaaS SEO marketer."
 date: 2026-01-29
 lastmod: 2026-05-12
 slug: "saas-seo-checklist"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/SaaS-SEO-Checklist-Blog-Banner-Image-1.png"
+featuredImage: "/images/wp-import/SaaS-SEO-Checklist-Blog-Banner-Image-1.webp"
 wp_id: 2578
 wp_link: "/blogs/saas-seo-checklist/"
 ---

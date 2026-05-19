@@ -99,6 +99,23 @@
 {{/* ============== AI / search bot directives ============== */}}
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 
+{{/* ============== Google Search Console — preserve all legacy verifications ==
+     The HTML-file verification lives at /google<token>.html (in static/).
+     The meta-tag verifications below were carried over from the legacy
+     WordPress site so no GSC property loses access at the cutover. */}}
+{{ range .Site.Params.gsc_verifications }}
+<meta name="google-site-verification" content="{{ . }}">
+{{- end }}
+
+{{/* ============== Google Tag Manager (production only) ==============
+     GTM loads GA4 (G-RZ1XZF24RE) plus any other tag the marketing team
+     configures inside GTM. HubSpot is loaded separately below — mirroring
+     the live WP setup where HubSpot sits outside GTM. */}}
+{{ partial "google-tag-manager.html" . }}
+
+{{/* ============== HubSpot tracking (production only) ============== */}}
+{{ partial "hubspot.html" . }}
+
 {{/* ============== JSON-LD: Organization (site-wide on every page) ==============
      Renders the brand entity on every page so Knowledge Graph + AI engines
      (ChatGPT/Perplexity/Claude/Gemini) consistently attribute content to
