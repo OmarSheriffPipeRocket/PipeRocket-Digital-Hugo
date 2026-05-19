@@ -63,16 +63,20 @@ These figures compare how organic and AI-referred visitors converted across the 
 
 Once visitors landed on site, organic and AI-referred users behaved very differently. These metrics reflect average on-site behaviour across the full dataset.
 
+![On-site engagement comparison: organic visitors spend 4 minutes 40 seconds on page vs AI-referred visitors at 3 minutes 25 seconds. Bounce rates: organic 36.7% vs AI 43.6%. Within AI traffic, engagement rates by platform: Microsoft Copilot 73.4%, ChatGPT 69.1%, Perplexity 61.8%, Gemini 58.0%, Claude 43.9%.](/images/blog-infographics/ai-vs-organic-engagement.svg)
+
 - Organic visitors spent an average of **4 minutes and 40 seconds** on page — **75 seconds longer** than AI-referred visitors (3m 25s).
 - AI-referred visitors were **27% less engaged** by time-on-page than organic visitors across the dataset.
 - The bounce rate for organic traffic was **36.7%**, vs. **43.6%** for AI-referred traffic — a 6.9-point gap.
 - Among AI platforms, **Copilot-referred users had the highest engagement rate at 73.4%**, followed by ChatGPT (69.1%), Perplexity (61.8%), Gemini (58.0%), and Claude (43.9%).
 - There was a **29.5-percentage-point spread** in engagement rates across the five AI platforms (73.4% Copilot vs. 43.9% Claude).
-- Copilot's higher engagement is attributed to its embedding inside enterprise productivity tools — users arrive already in active **"work mode."**Copy
+- Copilot's higher engagement is attributed to its embedding inside enterprise productivity tools — users arrive already in active **"work mode."**
 
 ## Funnel Stage and Search Intent Distribution: AI Traffic vs. Organic in B2B SaaS
 
 These figures show how the funnel composition and brand intent differed between organic and AI-referred sessions across the full dataset.
+
+![Funnel composition: organic sessions 59% top-of-funnel and 41% bottom-of-funnel, AI sessions 56% top-of-funnel and 44% bottom-of-funnel. Brand-name search intent: 28.1% of organic sessions vs 11.8% of AI-referred sessions — a 16.3 point gap that means AI surfaces categories before brands.](/images/blog-infographics/funnel-stage-brand-intent.svg)
 
 - Of all organic sessions analyzed, **59% were Top-of-Funnel** and 41% were Bottom-of-Funnel.
 - Of all AI-referred sessions analyzed, **56% were Top-of-Funnel** and **44% were Bottom-of-Funnel** — a proportionally stronger BoFu skew than organic.
@@ -85,6 +89,8 @@ These figures show how the funnel composition and brand intent differed between 
 
 Organic and AI traffic behaved very differently depending on the SaaS vertical — particularly where trust, compliance, or risk played a major role in the buying decision.
 
+![Lead-to-SQL conversion rates by SaaS vertical: Cybersecurity organic 81% vs AI 20% (61-point gap), Procurement organic 75% vs AI 54% (highest AI rate), Fintech organic 25% vs AI 20% (both underperform under due-diligence buying). Trust-heavy verticals reward branded organic searches.](/images/blog-infographics/lead-to-sql-by-vertical.svg)
+
 - In **Cybersecurity SaaS**, organic leads converted to SQLs at **81%**. AI-referred leads converted at just **20%** — a 61-point gap driven by trust requirements.
 - In **Procurement SaaS**, organic leads converted at **75% Lead-to-SQL**, while AI-referred leads converted at **54%** — the highest AI conversion rate of any vertical studied.
 - In **Fintech SaaS**, both channels underperformed: organic at **25% Lead-to-SQL** and AI at **20%**, reflecting a high-scrutiny due diligence buying process.
@@ -95,6 +101,8 @@ Organic and AI traffic behaved very differently depending on the SaaS vertical �
 ## AI Platform Performance Statistics: ChatGPT, Perplexity, Copilot, Gemini and Claude for B2B SaaS
 
 Across the five AI platforms tracked, traffic volume, on-site engagement, and pipeline conversion varied significantly.
+
+![AI platform performance compared across three metrics: ChatGPT 65.8% share / 69.1% engagement / 30% Lead-to-SQL; Microsoft Copilot 3.1% / 73.4% / 35% (highest engagement and Lead-to-SQL); Perplexity 24.6% / 61.8% / 25%; Gemini 5.4% / 58% / 20%; Claude 1.1% / 43.9% / 15%. Volume does not equal quality — Copilot wins on engagement and conversion despite only 3.1% traffic share.](/images/blog-infographics/ai-platform-performance.svg)
 
 | AI platform | Share of AI traffic | Engagement rate | Lead-to-SQL rate |
 | --- | --- | --- | --- |
