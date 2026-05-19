@@ -10404,25 +10404,162 @@ body.pr-modal-open { overflow: hidden; }
 
 /* HERO */
 .pr-about__hero {
-  background: linear-gradient(180deg, #FAF7EF 0%, var(--pr-cream) 100%);
-  padding: var(--pr-s-8) 0 var(--pr-s-7);
-  text-align: center;
-  border-bottom: 1px solid var(--pr-line);
+  background: var(--pr-ink);
+  padding: 0;
 }
-.pr-about__title {
-  font-family: var(--pr-serif);
-  font-size: clamp(2rem, 4.2vw, 3.4rem);
-  line-height: 1.1;
-  margin: 14px auto var(--pr-s-3);
-  max-width: 880px;
+.pr-about__hero-stage {
+  position: relative;
+  width: 100%;
+}
+.pr-about__hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.pr-about__hero-screen {
+  position: absolute;
+  /* white screen bounds in cropped photo (measured) */
+  left: 26%;
+  right: 26%;
+  top: 12%;
+  bottom: 47%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--pr-ink);
+  padding: 1% 2%;
+}
+.pr-about__hero-headline {
+  font-family: var(--pr-ivy-headline);
+  font-weight: 600;
+  font-size: clamp(2rem, 4.9vw, 70px);
+  line-height: 1.05;
+  letter-spacing: -.015em;
+  margin: 0 0 clamp(14px, 1.8vw, 32px);
   color: var(--pr-ink);
 }
-.pr-about__lede {
-  font-size: clamp(1.05rem, 1.6vw, 1.2rem);
-  line-height: 1.55;
-  color: var(--pr-ink-2);
-  max-width: 720px;
-  margin: 0 auto var(--pr-s-5);
+.pr-about__hero-sub {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: clamp(0.85rem, 1.35vw, 1.25rem);
+  line-height: 1.25;
+  color: var(--pr-ink);
+  margin: 0;
+  max-width: 100%;
+}
+@media (max-width: 720px) {
+  .pr-about__hero-screen { padding: 1% 3%; }
+  .pr-about__hero-sub br { display: none; }
+}
+
+/* DARK BAND — same look as .pr-compare--seo, half height, no rocket */
+.pr-about__band {
+  background: #282828;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+.pr-about__band-title {
+  color: var(--pr-cream);
+  text-align: center;
+  margin: 0 0 56px;
+}
+.pr-about__belief-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 1248px;
+  margin: 0 auto;
+}
+.pr-about__belief-card {
+  flex: 0 0 320px;
+  width: 320px;
+  height: 300px;
+  padding: 24px 22px 32px;
+  justify-content: center;
+}
+.pr-about__belief-icon {
+  width: auto !important;
+  height: 76px !important;
+  max-width: none;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+.pr-about__belief-card:nth-child(2) .pr-about__belief-icon { height: 100px !important; }
+.pr-about__belief-card:nth-child(4) .pr-about__belief-icon { transform: translateX(-8px); }
+.pr-about__belief-card:nth-child(5) .pr-about__belief-icon { transform: translateX(8px); }
+.pr-section--dark .pr-about__belief-title { font-size: 1.35rem; margin-bottom: 10px; }
+.pr-about__belief-card {
+  background: var(--pr-cream);
+  border: 2px solid #0CC6F1;
+  padding: 36px 30px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pr-about__belief-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+.pr-section--dark .pr-about__belief-title {
+  font-family: var(--pr-ivy-headline);
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--pr-ink);
+  margin: 0 0 14px;
+  line-height: 1.1;
+}
+.pr-about__belief-body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 1.35 !important;
+  color: #282828;
+  margin: 0;
+}
+@media (max-width: 1100px) {
+  .pr-about__belief-card { flex-basis: calc((100% - 24px) / 2); width: auto; }
+}
+@media (max-width: 600px) {
+  .pr-about__belief-card { flex-basis: 100%; height: auto; min-height: 334px; }
+}
+.pr-about__band-blue {
+  position: absolute;
+  top: 35px;
+  right: max(0px, calc(50% - 800px));
+  width: 160px;
+  height: auto;
+  pointer-events: none;
+  z-index: 1;
+}
+.pr-about__band-red {
+  position: absolute;
+  bottom: 40px;
+  left: max(0px, calc(50% - 800px));
+  width: 110px;
+  height: auto;
+  pointer-events: none;
+  z-index: 1;
+}
+.pr-about__band-inner {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .pr-about__band { padding: 40px 0; }
+  .pr-about__band-blue { width: 110px; right: 16px; top: 20px; }
+  .pr-about__band-red { width: 80px; left: 16px; bottom: 20px; }
 }
 .pr-about__meta {
   display: inline-flex;

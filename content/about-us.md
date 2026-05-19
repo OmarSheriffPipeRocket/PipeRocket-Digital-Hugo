@@ -82,14 +82,21 @@ featured_in:
 
 # Beliefs — the principles every engagement starts from
 beliefs:
-  - title: "Pipeline beats traffic, every time."
-    body: "Rankings, sessions, impressions — they're inputs. We measure ourselves against the only number that pays the team: qualified pipeline that closes."
-  - title: "Practitioners, not account managers."
-    body: "The person who closed your account is the person who runs your account. No buffers, no hand-offs, no junior staff after the senior team disappears."
-  - title: "Honest scope or a no."
-    body: "If your problem is smaller than what we'd normally take on, we'll say so. If we're not the right fit, we'll point you to who is. Same week."
-  - title: "Reply within one business day. Always."
-    body: "Email, form, LinkedIn — the answer comes from a real human, with real specifics, in a working-day. No drip sequences. No SDR queues."
+  - title: "Ownership"
+    icon: "/images/about-belief-ownership.svg"
+    body: "We treat every client's pipeline like it is our own. Not a deliverable to hand over but an outcome to own."
+  - title: "Honesty"
+    icon: "/images/about-belief-honesty.svg"
+    body: "We say what we think, even when it is uncomfortable. If something is not working we say so. If we are not the right fit we say that too."
+  - title: "Curiosity"
+    icon: "/images/about-belief-curiosity.svg"
+    body: "We start every engagement by trying to understand before we try to solve. The best strategies come from knowing the buyer, the category, and the business."
+  - title: "Discipline"
+    icon: "/images/about-belief-discipline.svg"
+    body: "We scale what works and stop what does not. No publishing for the sake of activity. No spend without proof. Every decision has a reason behind it."
+  - title: "Focus"
+    icon: "/images/about-belief-focus.svg"
+    body: "We take on fewer clients so every engagement gets the attention it deserves. Depth of work over breadth of roster."
 ---
 
 ## A note from the founders

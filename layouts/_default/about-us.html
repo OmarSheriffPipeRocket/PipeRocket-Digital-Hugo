@@ -19,35 +19,49 @@
        HERO
        ==================================================== -->
   <section class="pr-about__hero">
-    <div class="pr-container pr-about__container">
-      {{ with .Params.eyebrow }}<span class="pr-eyebrow pr-eyebrow--red">{{ . }}</span>{{ end }}
-      <h1 class="pr-about__title">{{ .Title }}</h1>
-      {{ with .Params.description }}<p class="pr-about__lede">{{ . }}</p>{{ end }}
-
-      <div class="pr-about__meta">
-        {{ with .Params.founded }}<span><strong>Founded</strong> {{ . }}</span>{{ end }}
-        {{ with .Params.locations }}<span><strong>Offices</strong> {{ . }}</span>{{ end }}
+    <div class="pr-about__hero-stage">
+      <img src="/images/about-hero-mission-control.png"
+           alt="Vintage mission control room with operators monitoring a large central screen"
+           class="pr-about__hero-image"
+           fetchpriority="high">
+      <div class="pr-about__hero-screen">
+        <h1 class="pr-about__hero-headline">
+          Your Growth.<br>Our Mission.
+        </h1>
+        <p class="pr-about__hero-sub">
+          PipeRocket is built on everything we learned from inside SaaS<br>
+          companies. We have sat in pipeline reviews, answered to boards, and<br>
+          seen first hand what marketing does and does not move.
+        </p>
       </div>
     </div>
   </section>
 
   <!-- ====================================================
-       STATS STRIP
+       WHAT WE BELIEVE — dark band
        ==================================================== -->
-  {{ with .Params.stats }}
-    <section class="pr-about__stats">
-      <div class="pr-container">
-        <div class="pr-about__stats-grid">
+  {{ with .Params.beliefs }}
+    <section class="pr-section--dark pr-about__band">
+      <img src="/images/compare-blue-vector.svg" class="pr-about__band-blue" aria-hidden="true">
+      <img src="/images/compare-red-vector.svg" class="pr-about__band-red" aria-hidden="true">
+      <div class="pr-about__band-inner">
+        <h2 class="pr-about__band-title">What we believe</h2>
+        <div class="pr-about__belief-grid">
           {{ range . }}
-            <div class="pr-about__stat">
-              <strong class="pr-about__stat-value">{{ .value }}</strong>
-              <span class="pr-about__stat-label">{{ .label }}</span>
-            </div>
+            <article class="pr-about__belief-card">
+              {{ with .icon }}<img src="{{ . }}" alt="" class="pr-about__belief-icon" loading="lazy">{{ end }}
+              <h3 class="pr-about__belief-title">{{ .title }}</h3>
+              <p class="pr-about__belief-body">{{ .body }}</p>
+            </article>
           {{ end }}
         </div>
       </div>
     </section>
   {{ end }}
+
+  <!-- ====================================================
+       STATS STRIP
+       ==================================================== -->
 
   <!-- ====================================================
        FOUNDER QUOTES — pulled from PR Newswire (Apr 2026)
@@ -81,28 +95,6 @@
       </div>
     </div>
   </section>
-
-  <!-- ====================================================
-       WHAT WE BELIEVE
-       ==================================================== -->
-  {{ with .Params.beliefs }}
-    <section class="pr-about__beliefs">
-      <div class="pr-container pr-about__container">
-        <header class="pr-about__section-head">
-          <span class="pr-eyebrow pr-eyebrow--red">What we believe</span>
-          <h2>The four principles every engagement starts from.</h2>
-        </header>
-        <div class="pr-about__beliefs-grid">
-          {{ range . }}
-            <article class="pr-about__belief">
-              <h3>{{ .title }}</h3>
-              <p>{{ .body }}</p>
-            </article>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
 
   <!-- ====================================================
        NOTABLE WINS — verifiable from Apr 2026 press release
