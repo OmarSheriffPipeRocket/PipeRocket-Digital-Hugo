@@ -9031,6 +9031,25 @@ body.pr-modal-open { overflow: hidden; }
 }
 .pr-featured-in__brand--bs:hover { color: #C8102E; }
 
+/* PR Newswire — red "PR" badge + dark wordmark */
+.pr-featured-in__brand--prn { gap: 6px; }
+.pr-featured-in__prn-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 7px;
+  border-radius: 3px;
+  background: #C8102E;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+.pr-featured-in__brand--prn:hover { color: #C8102E; }
+.pr-featured-in__brand--prn:hover .pr-featured-in__prn-mark { opacity: 1; }
+
 /* Clutch — bold + tiny rating chip */
 .pr-featured-in__brand--clutch { font-weight: 800; }
 .pr-featured-in__rating {
