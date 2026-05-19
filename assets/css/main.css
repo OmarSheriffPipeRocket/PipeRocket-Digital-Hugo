@@ -8970,6 +8970,143 @@ a.pr-contact-info:hover { background: var(--pr-cyan-soft, rgba(12, 198, 241, 0.1
 body.pr-modal-open { overflow: hidden; }
 
 /* =========================================================
+   "Featured in" strip — sits above the footer site-wide.
+   Each item is a brand wordmark rendered as styled text and
+   linked to a real, verifiable citation page.
+   ========================================================= */
+.pr-featured-in {
+  background: var(--pr-cream);
+  border-top: 1px solid var(--pr-line);
+  padding: 36px 0 32px;
+}
+.pr-featured-in__label {
+  font-family: var(--pr-sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--pr-muted, #8a8a8a);
+  margin: 0 0 22px;
+}
+.pr-featured-in__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 36px 48px;
+}
+.pr-featured-in__item { line-height: 1; }
+.pr-featured-in__brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  color: #7a7a7a;
+  text-decoration: none;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+.pr-featured-in__brand:hover { color: #0D0D0D; }
+
+/* Yahoo Finance — purple wordmark with "Finance" lighter weight */
+.pr-featured-in__brand--yahoo span {
+  font-weight: 400;
+  color: inherit;
+  opacity: 0.75;
+  margin-left: 4px;
+}
+.pr-featured-in__brand--yahoo:hover { color: #6001D2; }
+
+/* Business Standard — italic accent on "Standard" */
+.pr-featured-in__brand--bs em {
+  font-style: italic;
+  font-weight: 400;
+  font-family: Georgia, serif;
+}
+.pr-featured-in__brand--bs:hover { color: #C8102E; }
+
+/* Clutch — bold + tiny rating chip */
+.pr-featured-in__brand--clutch { font-weight: 800; }
+.pr-featured-in__rating {
+  font-family: var(--pr-sans);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 7px;
+  border-radius: 4px;
+  background: rgba(255, 90, 90, 0.12);
+  color: #ED4856;
+  margin-left: 6px;
+  letter-spacing: 0;
+}
+.pr-featured-in__brand--clutch:hover { color: #ED4856; }
+
+/* G2 — italic "G" with raised "2" */
+.pr-featured-in__brand--g2 {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 26px;
+}
+.pr-featured-in__brand--g2 sup {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 1px;
+}
+.pr-featured-in__brand--g2:hover { color: #FF492C; }
+
+/* Semrush — lowercase with cyan dot */
+.pr-featured-in__brand--semrush {
+  text-transform: lowercase;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.pr-featured-in__dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #FF642D;
+  margin-right: 6px;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+.pr-featured-in__brand--semrush:hover { color: #FF642D; }
+.pr-featured-in__brand--semrush:hover .pr-featured-in__dot { opacity: 1; }
+
+/* LinkedIn — square "in" badge */
+.pr-featured-in__brand--linkedin { font-size: 18px; }
+.pr-featured-in__li-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+  background: currentColor;
+  color: var(--pr-cream);
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: -0.04em;
+  padding-bottom: 1px;
+}
+.pr-featured-in__brand--linkedin:hover { color: #0A66C2; }
+
+@media (max-width: 600px) {
+  .pr-featured-in { padding: 28px 0 24px; }
+  .pr-featured-in__list { gap: 24px 32px; }
+  .pr-featured-in__brand { font-size: 18px; }
+  .pr-featured-in__brand--g2 { font-size: 22px; }
+  .pr-featured-in__li-mark { width: 24px; height: 24px; font-size: 13px; }
+}
+
+/* =========================================================
    3-Month Pilot Promo Popup
    ========================================================= */
 .pr-pilot-popup__card {
