@@ -13,7 +13,7 @@
   "Xflow" "xflowpay.com"
 }}
 
-<article class="pr-about">
+<article class="pr-about pr-page--about">
 
   <!-- ====================================================
        HERO
@@ -45,7 +45,7 @@
       <img src="/images/compare-blue-vector.svg" class="pr-about__band-blue" aria-hidden="true">
       <img src="/images/compare-red-vector.svg" class="pr-about__band-red" aria-hidden="true">
       <div class="pr-about__band-inner">
-        <h2 class="pr-about__band-title">What we believe</h2>
+        <h2>What we believe</h2>
         <div class="pr-about__belief-grid">
           {{ range . }}
             <article class="pr-about__belief-card">
@@ -60,173 +60,118 @@
   {{ end }}
 
   <!-- ====================================================
-       STATS STRIP
+       MEET THE TEAM
        ==================================================== -->
-
-  <!-- ====================================================
-       FOUNDER QUOTES — pulled from PR Newswire (Apr 2026)
-       ==================================================== -->
-  {{ with .Params.founder_quotes }}
-    <section class="pr-about__quotes">
-      <div class="pr-container pr-about__container">
-        <span class="pr-eyebrow">In their words</span>
-        <div class="pr-about__quotes-grid">
-          {{ range . }}
-            <blockquote class="pr-about__quote">
-              <svg class="pr-about__quote-mark" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill="currentColor" d="M7 7h4v4H7c0 2.2 1.8 4 4 4v2c-3.3 0-6-2.7-6-6V7Zm9 0h4v4h-4c0 2.2 1.8 4 4 4v2c-3.3 0-6-2.7-6-6V7Z"/>
-              </svg>
-              <p class="pr-about__quote-text">{{ .quote }}</p>
-              <footer><strong>{{ .name }}</strong> · <span>{{ .role }}</span></footer>
-            </blockquote>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
-
-  <!-- ====================================================
-       NOTE FROM FOUNDERS — markdown body
-       ==================================================== -->
-  <section class="pr-about__story">
-    <div class="pr-container pr-about__container">
-      <div class="pr-about__story-body">
-        {{ .Content }}
-      </div>
-    </div>
-  </section>
-
-  <!-- ====================================================
-       NOTABLE WINS — verifiable from Apr 2026 press release
-       ==================================================== -->
-  {{ with .Params.notable_wins }}
-    <section class="pr-about__wins">
-      <div class="pr-container pr-about__container">
-        <header class="pr-about__section-head">
-          <span class="pr-eyebrow pr-eyebrow--red">Notable wins</span>
-          <h2>Numbers our clients can defend in front of a board.</h2>
-          <p>Verified results from PipeRocket's April 2026 client portfolio report.</p>
-        </header>
-
-        <div class="pr-about__wins-grid">
-          {{ range . }}
-            {{ $clientName := .client }}
-            {{ $domain := index $clientDomains $clientName }}
-            <article class="pr-about__win">
-              {{ with $domain }}
-                <img src="https://www.google.com/s2/favicons?domain={{ . }}&sz=128" alt="{{ $clientName }}" class="pr-about__win-logo" loading="lazy"
-                     onerror="this.style.display='none'">
-              {{ end }}
-              <strong class="pr-about__win-client">{{ .client }}</strong>
-              <div class="pr-about__win-metric">{{ .metric }}</div>
-              <span class="pr-about__win-label">{{ .label }}</span>
-              {{ with .detail }}<span class="pr-about__win-detail">{{ . }}</span>{{ end }}
-            </article>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
-
-  <!-- ====================================================
-       TEAM
-       ==================================================== -->
-  <section class="pr-team">
-    <div class="pr-container pr-about__container">
-      <header class="pr-about__section-head">
-        <span class="pr-eyebrow pr-eyebrow--red">The team</span>
-        <h2>Practitioners doing the work — not account managers buffering it.</h2>
-        <p>Every person you meet is the person doing the work. The senior team that closed the engagement is the senior team that runs it.</p>
+  <section class="pr-about__team">
+    <div class="pr-about__team-inner">
+      <header class="pr-about__team-head">
+        <h2 class="pr-about__team-title">Meet the team</h2>
+        <p class="pr-about__team-sub">SaaS marketers who understand the difference between marketing activity and marketing that moves revenue. Every person here thinks in ICP, buyer persona, intent, pipeline, and revenue.</p>
       </header>
 
-      <!-- Founders -->
-      <div class="pr-team__founders">
-        {{ range $founderSlugs }}
-          {{ with index $authors . }}
-            <article class="pr-team-card pr-team-card--founder">
-              <div class="pr-team-card__photo-wrap">
-                <img src="{{ .photo }}" alt="{{ .name }}" class="pr-team-card__photo" loading="lazy">
-              </div>
-              <div class="pr-team-card__body">
-                <strong class="pr-team-card__name">
-                  {{ .name }}
-                  {{ with .linkedin }}
-                    <a href="{{ . }}" target="_blank" rel="noopener" aria-label="LinkedIn profile">
-                      <svg class="pr-team-card__linkedin" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14ZM8.34 18V9.83H5.67V18h2.67ZM7 8.66a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1ZM18.34 18v-4.47c0-2.4-1.28-3.51-3-3.51a2.6 2.6 0 0 0-2.36 1.3v-1.5h-2.67V18h2.67v-4.55c0-1.2.23-2.36 1.72-2.36s1.5 1.37 1.5 2.44V18h2.14Z"/>
-                      </svg>
-                    </a>
-                  {{ end }}
-                </strong>
-                <span class="pr-team-card__role">{{ .role }}</span>
-                {{ with .bio }}<p class="pr-team-card__bio">{{ . }}</p>{{ end }}
-                {{ with .expertise }}
-                  <ul class="pr-team-card__expertise">
-                    {{ range . }}<li>{{ . }}</li>{{ end }}
-                  </ul>
-                {{ end }}
-              </div>
-            </article>
-          {{ end }}
-        {{ end }}
-      </div>
+      <div class="pr-about__team-grid">
 
-      <!-- Rest of the team -->
-      <div class="pr-team__grid">
-        {{ range $slug, $author := $authors }}
-          {{ if not (in $founderSlugs $slug) }}
-            <article class="pr-team-card">
-              <div class="pr-team-card__photo-wrap">
-                <img src="{{ $author.photo }}" alt="{{ $author.name }}" class="pr-team-card__photo" loading="lazy">
+        {{ $members := slice
+          (dict "name" "Praveen Ravi"        "role" "Co-Founder"   "photo" "/images/team-photo-praveen.png"  "frame" "/images/team-frame-praveen.svg"  "linkedin" "https://www.linkedin.com/in/praveenravi14/"  "bio" "Praveen is the kind of person who's always thinking three steps ahead. At PipeRocket, he blends sharp strategy with a calm, collaborative approach to help SaaS brands grow with clarity and confidence.")
+          (dict "name" "Kamaraj Mathiarasan" "role" "Co-Founder"   "photo" "/images/team-photo-kim.png"      "frame" "/images/team-frame-kim.svg"      "linkedin" "https://www.linkedin.com/in/kamarajkkl/"  "bio" "Kim helps shape PipeRocket's growth vision through deep expertise in SEO, AI-driven search, and B2B SaaS marketing, combining strategic thinking with a strong focus on long-term business impact.")
+          (dict "name" "Vishnu Prasad"        "role" "PPC Manager"  "photo" "/images/team-photo-vishnu.png"   "frame" "/images/team-frame-vishnu.svg"   "linkedin" "https://www.linkedin.com/in/vishnuprasadh/"   "bio" "Vishnu leads performance marketing at PipeRocket, helping SaaS and AI brands scale through data-driven campaigns, sharp experimentation, and a deep focus on revenue — not just vanity metrics.")
+          (dict "name" "Elanchezhian"         "role" "Advisor"      "photo" "/images/team-photo-elan.png"     "frame" "/images/team-frame-elan.svg"     "linkedin" "https://www.linkedin.com/in/elan-anandhan/"     "bio" "Elan brings a thoughtful outside perspective to PipeRocket as an advisor, helping shape ideas, refine strategy, and guide the team with deep industry insight and a strong understanding of growth.")
+          (dict "name" "Ranjeeth K"           "role" "SEO Manager"  "photo" "/images/team-photo-ranjeeth.png" "frame" "/images/team-frame-ranjeeth.svg" "linkedin" "https://www.linkedin.com/in/ranjeethka/"        "bio" "Ranjeeth drives organic growth at PipeRocket, building and executing SEO strategies that turn search intent into qualified pipeline for B2B SaaS clients.")
+        }}
+
+        {{ range $members }}
+        <article class="pr-about__team-card">
+          <div class="pr-about__team-card-photo-wrap">
+            {{/* Default state: doodle frame + photo */}}
+            <img src="{{ .frame }}" alt="" class="pr-about__team-card-frame pr-about__team-card-frame--default" aria-hidden="true" loading="lazy">
+            <img src="{{ .photo }}" alt="{{ .name }}" class="pr-about__team-card-photo" loading="lazy">
+            {{/* Hover state: plain frame + bio text */}}
+            <img src="/images/team-frame-plain.svg" alt="" class="pr-about__team-card-frame pr-about__team-card-frame--hover" aria-hidden="true" loading="lazy">
+            <div class="pr-about__team-card-bio">
+              <p>{{ .bio }}</p>
+            </div>
+            <div class="pr-about__team-card-bar">
+              <div class="pr-about__team-card-info">
+                <strong class="pr-about__team-card-name">{{ .name }}</strong>
+                <span class="pr-about__team-card-role">{{ .role }}</span>
               </div>
-              <div class="pr-team-card__body">
-                <strong class="pr-team-card__name">
-                  {{ $author.name }}
-                  {{ with $author.linkedin }}
-                    <a href="{{ . }}" target="_blank" rel="noopener" aria-label="LinkedIn profile">
-                      <svg class="pr-team-card__linkedin" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14ZM8.34 18V9.83H5.67V18h2.67ZM7 8.66a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1ZM18.34 18v-4.47c0-2.4-1.28-3.51-3-3.51a2.6 2.6 0 0 0-2.36 1.3v-1.5h-2.67V18h2.67v-4.55c0-1.2.23-2.36 1.72-2.36s1.5 1.37 1.5 2.44V18h2.14Z"/>
-                      </svg>
-                    </a>
-                  {{ end }}
-                </strong>
-                <span class="pr-team-card__role">{{ $author.role }}</span>
-                {{ with $author.bio }}<p class="pr-team-card__bio">{{ . }}</p>{{ end }}
-              </div>
-            </article>
-          {{ end }}
+              <a href="{{ .linkedin }}" target="_blank" rel="noopener" class="pr-about__team-card-li" aria-label="{{ .name }} on LinkedIn"></a>
+            </div>
+          </div>
+        </article>
+        {{ end }}
+
+        <article class="pr-about__team-card pr-about__team-card--cta">
+          <div class="pr-about__team-card-photo-wrap">
+            <img src="/images/team-frame-plain.svg" alt="" class="pr-about__team-card-frame" aria-hidden="true" loading="lazy">
+            <div class="pr-about__team-card-cta-inner">
+              <img src="/images/cta-mark.png" alt="" class="pr-about__team-cta-rocket" aria-hidden="true">
+              <p class="pr-about__team-cta-text"><em>You</em> are<br>the next</p>
+              <a href="/contact-us/" class="pr-btn pr-btn--sm">Join the ride!</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       LEADING COMPANIES — from contact-us page
+       ==================================================== -->
+  <section class="pr-about__logos">
+    <div class="pr-container">
+      <div class="pr-about__logos-label">Leading SaaS companies that chose us</div>
+      <div class="pr-about__logos-grid">
+        {{ $grid := slice
+          (dict "name" "DigitalAPI"   "src" "/images/logos/digitalapi.svg")
+          (dict "name" "Storylane"    "src" "/images/logos/storylane.svg")
+          (dict "name" "Sprinto"      "src" "/images/logos/sprinto.webp")
+          (dict "name" "Spendflo"     "src" "/images/logos/spendflo.svg")
+          (dict "name" "Osfin"        "src" "/images/logos/osfin.svg")
+          (dict "name" "JustCall"     "src" "/images/logos/justcall.svg")
+          (dict "name" "DevRev"       "src" "/images/logos/devrev.png")
+          (dict "name" "HyperVerge"   "src" "/images/logos/hyperverge.webp")
+          (dict "name" "Hevo"         "src" "/images/logos/hevo.png")
+          (dict "name" "LatentView"   "src" "/images/logos/latentview-simple.png")
+          (dict "name" "LeadSquared"  "src" "/images/logos/leadsquared.png")
+          (dict "name" "FarEye"       "src" "/images/logos/fareye-full.png")
+          (dict "name" "Tredence"     "src" "/images/logos/tredence-simple.png")
+          (dict "name" "Element"      "src" "/images/logos/element.png")
+          (dict "name" "GreytHR"      "src" "/images/logos/greythr.png")
+          (dict "name" "Cyber Sierra" "src" "/images/logos/cybersierra-full.png")
+          (dict "name" "Xflow"        "src" "/images/logos/xflow-full.png")
+          (dict "name" "Goldcast"     "src" "/images/logos/goldcast-simple.png")
+          (dict "name" "Apty"         "src" "/images/logos/apty.png")
+          (dict "name" "HappyFox"     "src" "/images/logos/happyfox.svg")
+          (dict "name" "HyperStart"   "src" "/images/logos/hyperstart.png")
+          (dict "name" "Keka"         "src" "/images/logos/keka.svg")
+          (dict "name" "MetricStream" "src" "/images/logos/metricstream.webp")
+          (dict "name" "Osfin"        "src" "/images/logos/osfin-tagline.png")
+          (dict "name" "Gallabox"     "src" "/images/logos/gallabox.svg")
+        }}
+        {{ range $grid }}
+          <div class="pr-about__logos-cell">
+            <img src="{{ .src }}" alt="{{ .name }}" loading="lazy" decoding="async" class="pr-about__logos-img">
+          </div>
         {{ end }}
       </div>
     </div>
   </section>
 
   <!-- ====================================================
-       LOGO BAR - SOCIAL PROOF (industry-grouped)
+       BOTTOM CTA — same as homepage
        ==================================================== -->
-  {{ partial "logo-marquee.html" . }}
+  <section class="pr-cta-final">
+    <div class="pr-container">
+      <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+      <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+      <h2>Ready to blast off?</h2>
+      <p>Your next big growth story starts here. Let's team up to create bold strategies, deliver real results, and take your SaaS marketing to the next level.</p>
+      <a href="/contact-us/" class="pr-btn" data-cta-location="about-bottom">Let's talk!</a>
+    </div>
+  </section>
 
-  <!-- ====================================================
-       FEATURED IN
-       ==================================================== -->
-  {{ with .Params.featured_in }}
-    <section class="pr-about__featured">
-      <div class="pr-container pr-about__container">
-        <header class="pr-about__section-head">
-          <span class="pr-eyebrow">Featured in</span>
-          <h2>Where we've been recognised.</h2>
-        </header>
-        <div class="pr-about__featured-grid">
-          {{ range . }}
-            <a class="pr-about__featured-item" href="{{ .url }}" target="_blank" rel="noopener">
-              <strong>{{ .name }}</strong>
-              <span>{{ .label }}</span>
-              <span class="pr-about__featured-arrow">↗</span>
-            </a>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-  {{ end }}
 
 </article>
 {{ end }}
