@@ -38,7 +38,7 @@ Here’s what this looks like in practice: Imagine Trackflow, a project manageme
 
 What this means: NRR doesn’t just tell you if customers are canceling, it shows if your core user base is growing, shrinking, or staying flat. Most SaaS teams get blindsided by revenue contraction within retained accounts by the time churn spikes, the warning signs were already there in NRR.
 
-Also read: [how the best SaaS marketing agencies drive retention and expansion](/blogs/best-saas-marketing-agencies/)
+Also read: [how the best SaaS marketing agencies drive retention and expansion](/list/best-saas-marketing-agencies-2026/)
 
 ## How Is NRR Calculated and What’s Included?
 
@@ -60,7 +60,7 @@ Fast Fact: NRR ignores new sales it’s all about what happens inside your book 
 
 The trap: Most teams undercount contraction, focusing only on churn. Shrinking accounts are just as lethal to NRR as outright lost ones.
 
-Also read: [see which SaaS PPC agencies can help expand revenue from existing customers](/blogs/best-saas-ppc-agencies/)
+Also read: [see which SaaS PPC agencies can help expand revenue from existing customers](/list/best-saas-ppc-agencies/)
 
 ## What’s the Difference Between NRR and Gross Revenue Retention?
 
@@ -96,7 +96,7 @@ Meet Forecast Kit, a SaaS for scenario planning. They spent six months scaling o
 
 The warning here: This works well for SaaS with expansion levers (think seat-based, usage-based, or feature-tiered pricing). For single-product, contract-heavy SaaS, focusing on NRR can backfire if you try to force expansion on accounts that don’t need it.
 
-Also read: [how top SaaS paid search agencies support expansion and retention campaigns](/blogs/best-saas-ppc-agencies/)
+Also read: [how top SaaS paid search agencies support expansion and retention campaigns](/list/best-saas-ppc-agencies/)
 
 ## How Can You Improve NRR in Your SaaS Business?
 

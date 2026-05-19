@@ -30,7 +30,7 @@ Marketing ops does not write the email copy or design the landing page. It ensur
 
 | Function | Primary responsibility | Reports on |
 | --- | --- | --- |
-| Demand generation | Campaign execution and pipeline creation | [MQLs](/glossary/mql/), pipeline sourced, CAC |
+| Demand generation | Campaign execution and pipeline creation | MQLs, pipeline sourced, CAC |
 | Marketing operations | Technology, data, process, and measurement infrastructure | Data quality, attribution accuracy, system performance |
 | Revenue operations | Cross-functional alignment of sales, marketing, and CS processes | Revenue efficiency, win rates, funnel conversion |
 
@@ -53,7 +53,7 @@ Marketing ops is responsible for four interconnected domains. Weakness in any on
 
 **Reporting and attribution:** This is where most marketing ops functions are weakest and where the consequences are most visible. If your marketing team cannot draw a clear line from a campaign to a qualified opportunity, every budget decision is being made on incomplete information.
 
-**What this looks like in practice:** A SaaS company at $8M [ARR](/glossary/what-is-arr/) has HubSpot, Salesforce, a LinkedIn Ads integration, and Google Analytics all running simultaneously. None of them are connected in a way that produces a coherent pipeline report. Marketing reports on [MQLs](/glossary/mql/). Sales reports on SQLs. Nobody knows the [conversion rate](/glossary/what-is-conversion-rate/) between them, who is responsible for improving it, or which channels drive the leads that actually close. Every symptom the team is experiencing traces back to a marketing ops gap.
+**What this looks like in practice:** A SaaS company at $8M [ARR](/glossary/what-is-arr/) has HubSpot, Salesforce, a LinkedIn Ads integration, and Google Analytics all running simultaneously. None of them are connected in a way that produces a coherent pipeline report. Marketing reports on MQLs. Sales reports on SQLs. Nobody knows the [conversion rate](/glossary/what-is-conversion-rate/) between them, who is responsible for improving it, or which channels drive the leads that actually close. Every symptom the team is experiencing traces back to a marketing ops gap.
 
 ## How to Tell If Your B2B Marketing Ops Is Broken
 
@@ -63,7 +63,7 @@ Most B2B SaaS teams do not realize their marketing operations is failing until t
 
 This is the most diagnostic signal of broken marketing ops. When sales tells you leads are low quality, the instinct is to blame campaign targeting. In most cases, the actual problem is that the lead scoring model is not calibrated to how sales defines a qualified lead, or the routing rules are sending the wrong leads to the wrong reps, or the lead record arriving in the CRM is missing the context the rep needs to have a relevant first conversation.
 
-**What this looks like in practice:** A B2B SaaS sales team marks 70% of inbound [MQLs](/glossary/mql/) as unqualified within 48 hours. The actual issue: the MQL threshold was set based on page views and email opens, not behaviors that correlate with purchase intent. A marketing ops rebuild that recalibrates lead scoring against closed-won data resolves the conflict within a quarter.
+**What this looks like in practice:** A B2B SaaS sales team marks 70% of inbound MQLs as unqualified within 48 hours. The actual issue: the MQL threshold was set based on page views and email opens, not behaviors that correlate with purchase intent. A marketing ops rebuild that recalibrates lead scoring against closed-won data resolves the conflict within a quarter.
 
 ### Your reporting cycle takes days and still produces wrong numbers
 

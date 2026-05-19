@@ -43,7 +43,7 @@ What this means in practice: using ad platform ROAS without adjusting for churn,
 
 **Fast Fact:** SaaS brands that optimize ROAS using customer LTV, not just first-month revenue, consistently outgrow those that stick to “last click” ad reporting.
 
-**Also read:** [how top B2B PPC agencies approach paid SaaS growth](/blogs/top-b2b-ppc-agencies/)
+**Also read:** [how top B2B PPC agencies approach paid SaaS growth](/list/top-b2b-ppc-agencies/)
 
 ### How to Calculate and Use ROAS in SaaS
 
@@ -70,7 +70,7 @@ If you’re running paid search for a SaaS with $20/month pricing, a $100 CPA ca
 
 **Fast Fact:** Most SaaS companies see a 20 40% difference between “platform-reported” and “actual” ROAS when they reconcile ad data with CRM revenue.
 
-**Also read:** [best SaaS PPC agencies for high-growth software brands](/blogs/best-saas-ppc-agencies/)
+**Also read:** [best SaaS PPC agencies for high-growth software brands](/list/best-saas-ppc-agencies/)
 
 ## What Makes a “Good” ROAS for SaaS and Why Most Teams Get It Wrong?
 
@@ -88,7 +88,7 @@ Real trade-off: chasing high ROAS too soon cuts off channels that bring high-LTV
 
 Here’s the warning: this works well for SaaS with mature retention and expansion revenue. For early-stage teams with short runway, a long payback period backfires because you run out of cash before the LTV comes in.
 
-**Also read:** [best SaaS marketing agencies for early-stage growth](/blogs/best-saas-marketing-agencies/)
+**Also read:** [best SaaS marketing agencies for early-stage growth](/list/best-saas-marketing-agencies-2026/)
 
 ## How Should SaaS Teams Actually Use ROAS to Make Decisions?
 
@@ -102,9 +102,9 @@ ROAS is a useful metric, but it’s not the only metric. The teams that use it b
 
 Contrarian insight: Many teams cut paid social or niche channels too early because ROAS looks weak in the first month. This is backwards. What works is running small, structured experiments and tracking actual LTV and retention by channel cohort not just first-touch revenue.
 
-If you want to move beyond ad platform metrics, working with a [SaaS PPC agency](/saas-ppc/) or a [B2B Google Ads agency](/blogs/best-b2b-google-ads-agencies/) can help you build a reporting pipeline that reflects real SaaS outcomes, not just clicks and conversions.
+If you want to move beyond ad platform metrics, working with a [SaaS PPC agency](/saas-ppc/) or a [B2B Google Ads agency](/list/best-b2b-google-ads-agencies/) can help you build a reporting pipeline that reflects real SaaS outcomes, not just clicks and conversions.
 
-**Also read:** [best B2B marketing agencies for SaaS companies](/blogs/best-b2b-marketing-agencies/)
+**Also read:** [best B2B marketing agencies for SaaS companies](/list/best-b2b-marketing-agencies/)
 
 ## What Are the Risks and Limitations of Using ROAS Alone?
 

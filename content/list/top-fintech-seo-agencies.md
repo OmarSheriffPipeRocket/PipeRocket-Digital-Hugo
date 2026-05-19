@@ -11,7 +11,7 @@ writtenBy: "kim"
 category: "Fintech SEO"
 featuredImage: "/images/listicle-covers/top-fintech-seo-agencies.webp"
 wp_id: 2339
-wp_link: "/blogs/top-fintech-seo-agencies/"
+wp_link: "/list/top-fintech-seo-agencies/"
 toc: true
 readingTime: "15 min read"
 ---

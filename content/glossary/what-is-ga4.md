@@ -60,7 +60,7 @@ Fast Fact: GA4’s event-based model means there’s no hard limit on the types 
 
 The data retention issue catches a lot of teams off guard. You can’t go back and pull three years of historical data in GA4 that window is set at the property level. If you haven’t changed it from the default, you may already be losing data you’ll want later.
 
-Also read: [best B2B marketing agencies for SaaS and tech companies](/blogs/best-b2b-marketing-agencies/)
+Also read: [best B2B marketing agencies for SaaS and tech companies](/list/best-b2b-marketing-agencies/)
 
 ## How Does GA4 Track Events?
 
@@ -139,7 +139,7 @@ Fast Fact: Most teams spend the majority of their time in the standard Reports s
 
 The reporting in GA4 is more powerful than Universal Analytics in most respects, but it requires more setup to get there. Out of the box, the standard reports are fairly surface-level. The real value is in Explorations, which takes some time to learn but is worth the investment.
 
-Also read: [top B2B PPC agencies that use GA4 data to optimise paid campaigns](/blogs/top-b2b-ppc-agencies/)
+Also read: [top B2B PPC agencies that use GA4 data to optimise paid campaigns](/list/top-b2b-ppc-agencies/)
 
 ## What Are the Biggest Mistakes SaaS Teams Make With GA4?
 

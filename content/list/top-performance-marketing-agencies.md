@@ -11,7 +11,7 @@ writtenBy: "praveen"
 category: "B2B PPC"
 featuredImage: "/images/listicle-covers/top-performance-marketing-agencies.webp"
 wp_id: 1845
-wp_link: "/blogs/top-performance-marketing-agencies/"
+wp_link: "/list/top-performance-marketing-agencies/"
 toc: true
 readingTime: "16 min read"
 ---

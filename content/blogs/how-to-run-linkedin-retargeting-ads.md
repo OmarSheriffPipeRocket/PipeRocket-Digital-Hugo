@@ -25,7 +25,7 @@ LinkedIn Retargeting Ads are advertisements that track and target professionals 
 
 ## **What are the core segments of a winning LinkedIn Ads strategy?**
 
-When we map out [LinkedIn ads](/blogs/how-to-run-linkedin-ads-for-saas/), we only focus on three important segments. You have your prospecting layer. You have your [Account-Based Marketing](/glossary/what-is-abm/) (ABM) layer. You have your LinkedIn retargeting ads layer. I want to take a deep dive into LinkedIn retargeting ads right now because that is where the easiest revenue lives.
+When we map out [LinkedIn ads](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/), we only focus on three important segments. You have your prospecting layer. You have your [Account-Based Marketing](/glossary/what-is-abm/) (ABM) layer. You have your LinkedIn retargeting ads layer. I want to take a deep dive into LinkedIn retargeting ads right now because that is where the easiest revenue lives.
 
 A prospect finds you by searching organically. They might find you through paid ads. They look around your website completely. If you are selling B2B SaaS, LinkedIn is your absolute best bet to stay in front of them. We are going to break down exactly how we set up audiences for LinkedIn retargeting ads audiences step by step.
 

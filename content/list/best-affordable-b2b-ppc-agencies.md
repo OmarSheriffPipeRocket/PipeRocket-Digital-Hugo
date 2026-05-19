@@ -208,7 +208,7 @@ Best for: Enterprise B2B SaaS with Scale-Stage Budgets and Customer Generation M
 - Directive's proven Customer Generation methodology has generated +$1B in revenue for clients in the last 10 years
 - Stratos is Directive's AI-powered intelligence platform, built to give B2B marketers real-time clarity across every channel by unifying CRM, paid media, SEO, and ops data
 
-**Proof point:** DBT, a data transformation tool, came to Directive looking to start scaling on the right foot as they had never invested in paid media. Directive launched their first paid media campaign to make the most out of their yearly conference, and they exceeded their growth goals by nearly 2X ([case study](https://directiveconsulting.com/case-studies/dbt/)).
+**Proof point:** DBT, a data transformation tool, came to Directive looking to start scaling on the right foot as they had never invested in paid media. Directive launched their first paid media campaign to make the most out of their yearly conference, and they exceeded their growth goals by nearly 2X ([case study](https://directiveconsulting.com/case-study/dbt/)).
 
 **Limitation:** Directive's model is built for companies with scale-stage marketing budgets, not early-stage teams. Standard engagements are industry-reported to start around $8,000/month (Directive doesn't publish standard-tier pricing), making them less accessible for mid-market teams.
 

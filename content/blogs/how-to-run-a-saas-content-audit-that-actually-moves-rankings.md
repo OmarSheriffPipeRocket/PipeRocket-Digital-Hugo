@@ -228,7 +228,7 @@ At this scale, an audit isn’t optional, it’s the maintenance work that keeps
 
 If you’re about to invest budget in a new batch of [SaaS SEO](/blogs/saas-seo/) content, run an [SEO audit](/glossary/what-is-an-seo-audit/ "Glossary: SEO Audit") first. There’s no point spending money on 10 new articles when the 40 you already have are underperforming. Fix the foundation before you build more floors, and the new content you publish will actually have something solid to stand on.
 
-This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategy-and-framework/ "SaaS SEO Framework").
+This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategies-and-framework/ "SaaS SEO Framework").
 
 ## **How PipeRocket Digital Can Run SaaS Content Audits For You**
 

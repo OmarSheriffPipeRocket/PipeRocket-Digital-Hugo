@@ -55,7 +55,7 @@ Every enterprise SaaS SEO program that generates consistent pipeline is built on
 | Pillar | What it covers | What breaks without it |
 | --- | --- | --- |
 | Technical infrastructure | Crawlability, rendering, Core Web Vitals, template governance | Content that cannot be indexed regardless of quality |
-| Content architecture | [ICP](/glossary/what-is-icp/)-mapped [keyword clusters](/glossary/keyword-clusters/), hub-and-spoke structure, product line coverage | Content that never compounds into topical authority |
+| Content architecture | [ICP](/glossary/what-is-icp/)-mapped [keyword clusters](/glossary/what-are-keyword-clusters/), hub-and-spoke structure, product line coverage | Content that never compounds into topical authority |
 | Authority and links | Programmatic link acquisition, digital PR, partner ecosystems | Rankings that stall when competition for high-value terms is high |
 | Measurement and attribution | CRM integration, pipeline reporting, organic CAC tracking | SEO budgets that cannot be justified in board meetings |
 
@@ -83,7 +83,7 @@ Enterprise SaaS content architecture needs to account for multiple product lines
 - **Tier 3: Pillar pages** establishing topical authority in each major keyword cluster. One per theme, linking to every spoke
 - **Tier 4: Supporting content** including comparison pages, alternatives pages, how-to guides, and FAQ content targeting long-tail intent
 
-Our [SaaS SEO strategies guide](/blogs/saas-seo-strategy-and-framework/) covers the keyword mapping process for each of these tiers in detail.
+Our [SaaS SEO strategies guide](/blogs/saas-seo-strategies-and-framework/) covers the keyword mapping process for each of these tiers in detail.
 
 **What this looks like in practice:** An enterprise project management SaaS has 200 published articles, all tagged under a single “Resources” category with no hierarchical structure. A content architecture rebuild organizes them into four product-line clusters, each with a pillar page, vertical pages for six key industries, and a BOFU layer of comparison and alternatives pages. Within eight months, two of the four clusters reach page-one rankings for their pillar terms. No new content was published during the rebuild.
 
@@ -139,7 +139,7 @@ Enterprise SEO at scale requires more than a content calendar and a keyword tool
 
 PipeRocket was built specifically for this. Before any keyword tool opens, the team goes inside your sales call recordings, maps each ICP across your product lines, and builds a demand model that starts with your revenue target and works backwards to the content, technical, and link investments required to hit it.
 
-- **[SaaS SEO:](/saas-seo-agency/)** pipeline-first enterprise SEO strategy across multiple products and ICPs, with technical governance built into delivery, BOFU content live in month one, and reporting tied to [MQLs](/glossary/mql/), SQLs, and organic CAC
+- **[SaaS SEO:](/saas-seo-agency/)** pipeline-first enterprise SEO strategy across multiple products and ICPs, with technical governance built into delivery, BOFU content live in month one, and reporting tied to MQLs, SQLs, and organic CAC
 - **[SaaS PPC:](/saas-ppc/)** paid programs that share data with your organic program so both channels are optimizing for the same pipeline outcomes, not operating in separate silos
 - **[Marketing Operations:](/marketing-ops/)** the CRM integration, attribution framework, and reporting infrastructure that makes enterprise organic pipeline visible at the board level
 

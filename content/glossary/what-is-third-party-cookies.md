@@ -42,7 +42,7 @@ Consider a B2B SaaS tool for legal teams. They run retargeting ads on Linked In 
 
 The contrarian read here: most SaaS marketers treat cookie deprecation as a future problem. It’s not. Safari blocked third-party cookies in 2017. Firefox followed. A meaningful chunk of your audience has been invisible to your retargeting stack for years you just didn’t know it because your reporting never flagged it.
 
-Also read: [how top B2B PPC agencies are adapting paid strategies to cookieless targeting](/blogs/top-b2b-ppc-agencies/)
+Also read: [how top B2B PPC agencies are adapting paid strategies to cookieless targeting](/list/top-b2b-ppc-agencies/)
 
 ## Why Are Third-Party Cookies Being Phased Out?
 
@@ -85,7 +85,7 @@ The nuanced warning: some tools that marketers think of as “first-party” act
 
 | Session cookies | Either | No | Yes (browser session only) |
 
-Also read: [best B2B Google Ads agencies navigating first-party data transitions](/blogs/best-b2b-google-ads-agencies/)
+Also read: [best B2B Google Ads agencies navigating first-party data transitions](/list/best-b2b-google-ads-agencies/)
 
 ## How Does Third-Party Cookie Deprecation Affect SaaS Marketing?
 
@@ -126,7 +126,7 @@ The trade-off: server-side tracking is more complex to implement. It requires de
 
 Contextual targeting places ads based on the content of the page not the behaviour of the user. No cookies needed. An ad for a SaaS security tool appearing on a cybersecurity blog is contextual targeting. It’s less precise than behavioural targeting, but it’s privacy-safe and doesn’t depend on any cross-site tracking infrastructure.
 
-For [best B2B marketing agencies](/blogs/best-b2b-marketing-agencies/) helping clients through this transition, contextual has become a first-line strategy again something that was largely abandoned during the behavioural targeting era.
+For [best B2B marketing agencies](/list/best-b2b-marketing-agencies/) helping clients through this transition, contextual has become a first-line strategy again something that was largely abandoned during the behavioural targeting era.
 
 ## The Bottom Line
 

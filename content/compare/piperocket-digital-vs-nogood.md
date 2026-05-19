@@ -207,7 +207,7 @@ sources:
     accessed: "May 2026"
   - id: 5
     title: "NoGood — client portfolio and case studies"
-    url: "https://nogood.io/case-studies/"
+    url: "https://nogood.io/case-study/"
     accessed: "May 2026"
   - id: 6
     title: "TechCrunch — Verified Expert Growth Agency listing"

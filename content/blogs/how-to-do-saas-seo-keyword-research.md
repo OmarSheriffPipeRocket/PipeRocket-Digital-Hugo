@@ -114,7 +114,7 @@ Now comes the heavy lifting. We take all these inputs – the team insights, the
 
 ### **The Power of the “Topic” Column**
 
-I want to highlight the “Topic” column because it is vital. This column helps you group thousands of keywords into manageable [clusters](/glossary/keyword-clusters/ "Keyword Clusters (Glossary)"). **For example, you might have keywords like:**
+I want to highlight the “Topic” column because it is vital. This column helps you group thousands of keywords into manageable [clusters](/glossary/what-are-keyword-clusters/ "Keyword Clusters (Glossary)"). **For example, you might have keywords like:**
 
 - “What is GRC?”
 - “GRC components”
@@ -143,7 +143,7 @@ The biggest struggle marketers face is justifying the budget. Management usually
 
 This transforms content from a random request into a calculated investment. It gives clarity to the executives on the overall budget needed, and it gives the SEO team a clear roadmap of where to start and where to end.
 
-This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategy-and-framework/ "SaaS SEO Framework").
+This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategies-and-framework/ "SaaS SEO Framework").
 
 ## Let PipeRocket Digital Do It for You
 

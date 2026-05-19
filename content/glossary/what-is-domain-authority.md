@@ -63,7 +63,7 @@ The real trade-off: Buying links from high-DA sites can give you a fast boost, b
 
 **Fast Fact:** Users from organic search spend an average of 4 minutes 40 seconds on SaaS pages, nearly a full minute longer than AI-referred visitors.
 
-**Also read:** [how top B2B SEO companies judge domain authority](/blogs/best-b2b-seo-agencies/)
+**Also read:** [how top B2B SEO companies judge domain authority](/list/best-b2b-seo-agencies-2/)
 
 ## Why Do Most Teams Misuse Domain Authority?
 
@@ -79,7 +79,7 @@ The contrarian truth: Most link-building playbooks are backwards. Buying links f
 
 A nuanced warning: Domain authority is a helpful directional metric for established SaaS with broad use cases. For point-solution SaaS with one clear ICP, chasing DA backfires because you’re better off owning one deep page and a handful of ultra-relevant links.
 
-**Also read:** [how the best SaaS marketing agencies approach authority and intent](/blogs/best-saas-marketing-agencies/)
+**Also read:** [how the best SaaS marketing agencies approach authority and intent](/list/best-saas-marketing-agencies-2026/)
 
 ## How Should SaaS Teams Actually Use Domain Authority?
 

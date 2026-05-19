@@ -262,7 +262,7 @@ The best results happen when both teams work toward the same goals. When messagi
 
 **How to apply it:**
 
-- Define [MQL](/glossary/mql/), SQL, and opportunities clearly
+- Define MQL, SQL, and opportunities clearly
 - Share dashboards between teams
 - Run joint QBRs
 - Align messaging across campaigns and sales enablement
@@ -352,7 +352,7 @@ Think demo requests, SQLs, opportunities created, the things that sales can actu
 
 In B2B, more leads don’t mean more revenue. What matters is whether those leads match your [ICP](/glossary/what-is-icp/), show intent, and progress through qualification. 
 
-You can track this by looking at [MQL](/glossary/mql/) → SQL → Opportunity conversion rates. High-quality leads convert consistently and reduce friction for sales.
+You can track this by looking at MQL → SQL → Opportunity conversion rates. High-quality leads convert consistently and reduce friction for sales.
 
 ### 3. Win Rate
 

@@ -68,7 +68,7 @@ A common mistake: publishing dozens of similar integration pages, each with near
 
 Here’s the real trade-off: auto-generating feature or integration pages saves time, but at scale, thin variations get filtered from the index. It’s worth it for massive product catalogs where unique value exists per page, but it fails for SaaS with templated blurbs and no real differentiator.
 
-**Also read:** [how top SaaS marketing agencies diagnose and fix indexation issues](/blogs/best-saas-marketing-agencies/)
+**Also read:** [how top SaaS marketing agencies diagnose and fix indexation issues](/list/best-saas-marketing-agencies-2026/)
 
 ## Why Are Some Pages Crawled but Not Indexed?
 
@@ -116,7 +116,7 @@ Here’s the contrarian insight: Most teams obsess over sitemaps and forget inte
 
 Real trade-off: Sitemaps are great for surfacing new or bulk-uploaded pages, but if you rely solely on them without strong internal links, most will never rank especially as Google deprioritizes “sitemap-only” URLs for competitive queries.
 
-**Also read:** [B2B SEO agency strategies for technical SEO and indexation at scale](/blogs/best-b2b-seo-agencies/)
+**Also read:** [B2B SEO agency strategies for technical SEO and indexation at scale](/list/best-b2b-seo-agencies-2/)
 
 ## Frequently Asked Questions
 

@@ -9,7 +9,7 @@ slug: "saas-seo-strategies-and-framework"
 writtenBy: "kim"
 category: "SaaS SEO"
 wp_id: 3010
-wp_link: "/blogs/saas-seo-strategy-and-framework/"
+wp_link: "/blogs/saas-seo-strategies-and-framework/"
 ---
 
 This guide is for B2B SaaS marketers, founders, and [SEO](/glossary/what-is-seo/) leads who are done chasing traffic and want organic search to show up in their pipeline report. If you are starting from scratch or rebuilding a program that is not converting, this is where to begin.
@@ -247,7 +247,7 @@ This is the strategy that determines whether SEO keeps its budget. Every other s
 | --- | --- | --- |
 | Raw organic traffic | Does not filter for ICP match | Organic SQLs and demo requests |
 | Keyword rankings | Position 1 for a zero-intent term equals zero pipeline | Pipeline-generating keywords ranked |
-| [MQLs](/glossary/mql/) | Overstates marketing contribution without sales alignment | Organic-to-SQL conversion rate by landing page |
+| MQLs | Overstates marketing contribution without sales alignment | Organic-to-SQL conversion rate by landing page |
 | Bounce rate | Engaged readers often bounce after finding their answer | Time on page and scroll depth |
 | [Domain authority](/glossary/what-is-domain-authority/) | Not a Google ranking factor | Referring domain quality and relevance |
 

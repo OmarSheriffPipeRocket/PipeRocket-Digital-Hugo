@@ -28,7 +28,7 @@ Done right, it turns your website into a salesperson that works 24/7, attracting
 3. The core B2B content marketing strategies include:
 
 - Clearly defining the business and content goals
-- Understanding the audience and [buyer personas](/glossary/buyer-persona/)
+- Understanding the audience and buyer personas
 - Mapping the content to the buyer journey
 - Conducting content audits
 - Having a proper distribution plan
@@ -248,7 +248,7 @@ Once distributed, actively promote your work.
 
 Content marketing is a loop, not a straight line. Every month, review your analytics against the KPIs you set in Step 3. Use this data to analyze why something worked, then iterate on your strategy. Ruthlessly cut what isn’t working and double down on what is.
 
-If this all feels a bit overwhelming, you also have the option to consider going with [B2B content marketing agencies](/blogs/best-b2b-content-marketing-agencies/) who specialize in content marketing specifically for the B2B market.
+If this all feels a bit overwhelming, you also have the option to consider going with [B2B content marketing agencies](/list/best-b2b-content-marketing-agencies/) who specialize in content marketing specifically for the B2B market.
 
 ## Conclusion
 
@@ -281,7 +281,7 @@ The key is to match the content to what buyers are thinking and evaluating at ea
 
 ### 4. How do I measure the success of my B2B content marketing efforts?
 
-Success is usually measured using KPIs like organic traffic, keyword rankings, engagement metrics, leads generated, [MQL](/glossary/mql/)-to-SQL [conversion rate](/glossary/what-is-conversion-rate/), pipeline influence, and overall revenue impact. Regular analysis helps you understand what’s working and where to improve.
+Success is usually measured using KPIs like organic traffic, keyword rankings, engagement metrics, leads generated, MQL-to-SQL [conversion rate](/glossary/what-is-conversion-rate/), pipeline influence, and overall revenue impact. Regular analysis helps you understand what’s working and where to improve.
 
 ### 5. Can small B2B businesses benefit from content marketing too? How?
 

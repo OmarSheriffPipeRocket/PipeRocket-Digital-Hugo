@@ -65,7 +65,7 @@ Trackflow, a project management tool for creative agencies, overhauled its alt t
 
 It’s easy to treat alt text as “just” an SEO task, but it’s a high-leverage move that spans discoverability, compliance, and conversion. Most SaaS teams underinvest here, then wonder why they’re invisible in image search and struggle with procurement friction.
 
-**Also read:** [how top B2B SEO agencies optimize for both accessibility and search](/blogs/best-b2b-seo-agencies/)
+**Also read:** [how top B2B SEO agencies optimize for both accessibility and search](/list/best-b2b-seo-agencies-2/)
 
 ## What Are the Biggest Mistakes With Image Alt Text?
 
@@ -113,7 +113,7 @@ The warning: for image-heavy SaaS sites (think dashboards, analytics, or onboard
 
 Alt text isn’t a set-and-forget task. It’s a recurring opportunity to clarify, rank, and include one that pays off in qualified leads and reduced friction for every user segment.
 
-**Also read:** [top SaaS marketing agencies for growth-stage companies](/blogs/best-saas-marketing-agencies/)
+**Also read:** [top SaaS marketing agencies for growth-stage companies](/list/best-saas-marketing-agencies-2026/)
 
 ## Frequently Asked Questions
 

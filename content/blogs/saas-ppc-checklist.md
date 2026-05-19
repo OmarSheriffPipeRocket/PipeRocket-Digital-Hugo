@@ -79,7 +79,7 @@ Check out our dedicated blog to avoid the [common SaaS LinkedIn Ads mistakes](/b
 
 Google Search is the ultimate intent engine. In SaaS, people don’t just “browse” search results; they are looking for a tool to fix a specific friction in their workflow. To dominate this space, you must organize your account into three strategic pillars.
 
-Avoid the patterns we list in [common SaaS Google Ads mistakes](/blogs/saas-google-ads-mistakes-to-avoid/ "SaaS Google Ads Mistakes") before you spend more budget.
+Avoid the patterns we list in [common SaaS Google Ads mistakes](/blogs/the-8-common-saas-google-ads-mistakes-to-avoid-in-2026/ "SaaS Google Ads Mistakes") before you spend more budget.
 
 ### 1. Pillar 1: The Brand Defense Strategy
 
@@ -107,7 +107,7 @@ In the SaaS world, bidding on your rivals’ brand names is standard practice. I
 
 Once your core Search and LinkedIn engines are stable, you can leverage Google’s broader network. This is where you move from capturing demand to **generating demand** at scale.
 
-If your account hasn’t been reviewed in a while, run through our [SaaS PPC audit framework](/blogs/how-to-conduct-a-saas-ppc-audit/ "How to Conduct a SaaS PPC Audit") first.
+If your account hasn’t been reviewed in a while, run through our [SaaS PPC audit framework](/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account/ "How to Conduct a SaaS PPC Audit") first.
 
 ### 1. Demand Generation: The Unified Play
 

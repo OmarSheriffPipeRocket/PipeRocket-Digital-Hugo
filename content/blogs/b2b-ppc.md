@@ -250,7 +250,7 @@ Multi-step forms work especially well because they feel shorter, even when they�
 
 One of the biggest mistakes B2B teams make is judging PPC by surface-level metrics. None of those tells you whether you’re attracting buyers who will actually convert. Here’s how to measure PPC in a way that aligns with real revenue.
 
-If you’d rather hand off the work, see our [top B2B PPC agencies](/blogs/top-b2b-ppc-agencies/ "Top B2B PPC Agencies").
+If you’d rather hand off the work, see our [top B2B PPC agencies](/list/top-b2b-ppc-agencies/ "Top B2B PPC Agencies").
 
 ### 1. Pipeline Movement Over Vanity Metrics
 
@@ -260,7 +260,7 @@ What really matters is how prospects progress:
 
 **MQL → SQL → Opportunity → Revenue**
 
-If people keep dropping off after becoming [MQLs](/glossary/mql/), the issue usually isn’t your budget; it’s your intent alignment.
+If people keep dropping off after becoming MQLs, the issue usually isn’t your budget; it’s your intent alignment.
 
 ### 2. CPL vs. CPQL
 

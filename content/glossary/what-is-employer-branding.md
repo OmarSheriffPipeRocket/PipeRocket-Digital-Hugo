@@ -64,7 +64,7 @@ A company like a mid-size HR tech platform with a genuinely strong internal cult
 
 The trade-off here is real: investing in employer branding takes time before it compounds. You won’t see results from a careers page rewrite in week two. But companies that build it consistently over 12 to 18 months end up with inbound candidate interest, lower agency fees, and better retention because the people who join actually knew what they were signing up for.
 
-Also read: [best B2B marketing agencies for brand and demand strategy](/blogs/best-b2b-marketing-agencies/)
+Also read: [best B2B marketing agencies for brand and demand strategy](/list/best-b2b-marketing-agencies/)
 
 ## What Are the Core Components of a Strong Employer Brand?
 
@@ -104,7 +104,7 @@ The relationship between the two:
 
 Recruitment marketing without employer branding is like running paid acquisition without a product people want. You can drive traffic, but you can’t convert it into committed hires.
 
-Also read: [top SaaS marketing companies and how they approach brand building](/blogs/best-saas-marketing-agencies/)
+Also read: [top SaaS marketing companies and how they approach brand building](/list/best-saas-marketing-agencies-2026/)
 
 ## How Do You Build an Employer Brand That Actually Works?
 
@@ -125,4 +125,4 @@ A nuanced warning here: this approach works well for companies with at least som
 
 Employer branding is the gap between who you say you are as an employer and who your employees and candidates actually experience. Close that gap deliberately through honest EVP work, visible culture signals, and a candidate experience that matches your reputation and hiring gets easier, retention improves, and the best candidates start finding you rather than the other way around.
 
-If you want to think through how brand and content strategy connects to your growth goals, [get in touch with our team](https://www.piperocket.co/contact) or explore how the [best B2B SEO agencies](/blogs/best-b2b-seo-agencies/) approach brand visibility as part of a broader organic strategy.
+If you want to think through how brand and content strategy connects to your growth goals, [get in touch with our team](https://www.piperocket.co/contact) or explore how the [best B2B SEO agencies](/list/best-b2b-seo-agencies-2/) approach brand visibility as part of a broader organic strategy.

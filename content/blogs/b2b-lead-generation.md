@@ -94,7 +94,7 @@ Not every lead is sales-ready. Your qualification process filters signal from no
 - **Firmographic fit:** Does the company match your [ICP](/glossary/what-is-icp/)?
 - **Sales acceptance criteria:** the sales team validates that the lead is actually worth pursuing
 
-When a lead hits the threshold, they move from [MQL](/glossary/mql/) → SQL → Opportunity.
+When a lead hits the threshold, they move from MQL → SQL → Opportunity.
 
 ### 5. Nurturing Leads Through Automated Journeys
 
@@ -228,7 +228,7 @@ Not every lead deserves sales attention. Qualification ensures your team focuses
 
 - Set up a simple lead scoring model based on engagement signals.
 - Use enrichment tools to automatically add firmographic data.
-- Create clear [MQL](/glossary/mql/) → SQL handoff rules so nothing gets lost.
+- Create clear MQL → SQL handoff rules so nothing gets lost.
 
 ### Step 5: Nurture & Convert with Automation + Sales Touchpoints
 
@@ -246,7 +246,7 @@ What gets measured improves. Tracking the right metrics helps you scale what’s
 
 **Try this:**
 
-- Monitor conversion rates across each stage (lead → [MQL](/glossary/mql/) → SQL → opp).
+- Monitor conversion rates across each stage (lead → MQL → SQL → opp).
 - Track CPL, CAC, and opportunity-to-win ratios monthly.
 - Review which channels drive pipeline, not just traffic.
 

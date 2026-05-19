@@ -62,7 +62,7 @@ That conversion shows up in Google Analytics, and your LinkedIn campaign looks l
 - Measure brand lift and assisted conversions, not just last-touch conversions
 - Give campaigns at least 60 to 90 days before drawing any meaningful conclusions
 
-Read our dedicated blog to learn more on how to run [SaaS LinkedIn Ads](/blogs/how-to-run-linkedin-ads-for-saas/)
+Read our dedicated blog to learn more on how to run [SaaS LinkedIn Ads](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/)
 
 ## **Mistake 2: Having a Vague ICP Before You Launch**
 

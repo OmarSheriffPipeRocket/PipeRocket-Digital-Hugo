@@ -1,0 +1,37 @@
+{{ define "main" }}
+<article class="pr-blog-v2" data-pr-blog-v2>
+
+  <header class="pr-blog-v2__banner">
+    <div class="pr-blog-v2__banner-grid">
+      <div class="pr-blog-v2__banner-copy">
+        <div class="pr-blog-v2__chip">
+          <span class="pr-blog-v2__chip-text">FREE TOOLS · B2B SAAS</span>
+        </div>
+        <h1 class="pr-blog-v2__title">{{ .Title }}</h1>
+        {{ with .Description }}
+          <p class="pr-blog-v2__lastmod" style="font-size: 18px; max-width: 640px; line-height: 1.5; margin-top: 16px;">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+
+  <div class="pr-container" style="padding-top: 64px; padding-bottom: 80px;">
+    <div class="pr-2col-article">
+      <div class="pr-article-main" data-pr-blog-main>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; margin: 0 0 48px;">
+          {{ range .Pages.ByTitle }}
+            <a href="{{ .RelPermalink }}" class="pr-bloglist__card" style="display: block; padding: 28px; border: 1px solid var(--pr-line); border-radius: 12px; text-decoration: none; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="font-family: var(--pr-sans); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; color: var(--pr-cyan); text-transform: uppercase; margin-bottom: 12px;">Free Tool</div>
+              <h3 style="font-family: var(--pr-ivy-headline); font-size: 22px; font-weight: 600; color: var(--pr-ink); margin: 0 0 12px; line-height: 1.25;">{{ .Title }}</h3>
+              {{ with .Description }}
+                <p style="font-size: 14px; line-height: 1.6; color: var(--pr-ink-2); margin: 0;">{{ . }}</p>
+              {{ end }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</article>
+{{ end }}

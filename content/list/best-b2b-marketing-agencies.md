@@ -11,7 +11,7 @@ writtenBy: "kim"
 category: "B2B Marketing"
 featuredImage: "/images/listicle-covers/best-b2b-marketing-agencies.webp"
 wp_id: 1920
-wp_link: "/blogs/best-b2b-marketing-agencies/"
+wp_link: "/list/best-b2b-marketing-agencies/"
 toc: true
 readingTime: "15 min read"
 ---

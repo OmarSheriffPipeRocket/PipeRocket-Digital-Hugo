@@ -41,7 +41,7 @@ Here’s what this means in practice: CPM is useful for benchmarking reach and e
 
 **Fast Fact:** Linked In CPMs for B2B SaaS regularly top $30 almost 6x higher than Google Display but often drive far better lead quality for niche targeting.
 
-**Also read:** [how top SaaS PPC agencies choose channels for B2B SaaS growth](/blogs/best-saas-ppc-agencies/)
+**Also read:** [how top SaaS PPC agencies choose channels for B2B SaaS growth](/list/best-saas-ppc-agencies/)
 
 ### How to Use CPM in Your SaaS Marketing
 
@@ -72,7 +72,7 @@ Most SaaS founders obsess over getting CPM as low as possible. That’s incomple
 
 **Fast Fact:** CPM optimization alone can mislead B2B teams programmatic display CPMs are often less than $3, but Linked In’s $30+ CPM can produce 10x higher-quality leads.
 
-**Also read:** [best SaaS marketing agencies for high-ROI paid campaigns](/blogs/best-saas-marketing-agencies/)
+**Also read:** [best SaaS marketing agencies for high-ROI paid campaigns](/list/best-saas-marketing-agencies-2026/)
 
 ## What Factors Influence CPM Rates in SaaS and B2B?
 
@@ -90,7 +90,7 @@ Trackflow, a project management SaaS for creative agencies, targeted only agency
 
 The real question is: are you paying a premium for quality, or just for scarcity? If your CPM is rising but pipeline is flat, it’s time to review targeting and placements, not just your bid.
 
-**Also read:** [top B2B Google Ads agencies for SaaS demand gen](/blogs/best-b2b-google-ads-agencies/)
+**Also read:** [top B2B Google Ads agencies for SaaS demand gen](/list/best-b2b-google-ads-agencies/)
 
 ## How Should SaaS Teams Actually Use CPM to Drive Growth?
 
@@ -140,4 +140,4 @@ You can lower CPM by broadening your audience, adjusting bidding, or optimizing 
 
 CPM is a useful benchmark for understanding your ad spend efficiency, but it was never designed to be your main metric. The real value comes from pairing CPM with conversion rates, lead quality, and pipeline impact otherwise, you’re optimizing for vanity, not growth.
 
-If you want pragmatic advice on paid SaaS channels, [get in touch with our team](https://www.piperocket.co/contact). To see how a [SaaS PPC agency](/blogs/best-saas-ppc-agencies/) approaches channel selection, check out our latest agency list.
+If you want pragmatic advice on paid SaaS channels, [get in touch with our team](https://www.piperocket.co/contact). To see how a [SaaS PPC agency](/list/best-saas-ppc-agencies/) approaches channel selection, check out our latest agency list.

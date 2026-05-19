@@ -4,5 +4,4 @@ description: "B2B fintech SEO agency built around risk-averse buyers. BOFU pages
 metaTitle: "Fintech SEO Agency | Organic Growth for Finance SaaS"
 metaDescription: "Fintech SEO agency for banking, payments, and embedded finance SaaS. Compliance-aware content, BOFU-led organic strategy, pipeline attribution to closed revenue."
 layout: "fintech-seo-agency"
-slug: "fintech-seo"
 ---

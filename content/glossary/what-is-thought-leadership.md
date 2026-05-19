@@ -40,7 +40,7 @@ The real question: Why does this matter? Because when customers are flooded with
 
 **Fast Fact:** Most SaaS brands think thought leadership is about being seen everywhere, but it’s really about being the source others cite.
 
-**Also read:** [how leading SaaS marketing agencies shape category narratives](/blogs/best-saas-marketing-agencies/)
+**Also read:** [how leading SaaS marketing agencies shape category narratives](/list/best-saas-marketing-agencies-2026/)
 
 ## How Is Thought Leadership Different from Content Marketing?
 
@@ -74,7 +74,7 @@ Let’s say Stack Pilot, a deployment automation SaaS, publishes a teardown of w
 
 The trade-off? Real thought leadership takes time and openness. You’ll attract debate and disagreement, and you can’t outsource it entirely. For some teams, it’s easier to stick to safer content marketing and miss the upside of true influence.
 
-**Also read:** [best B2B marketing agencies for SaaS with complex sales cycles](/blogs/best-b2b-marketing-agencies/)
+**Also read:** [best B2B marketing agencies for SaaS with complex sales cycles](/list/best-b2b-marketing-agencies/)
 
 ## Why Do Most SaaS Teams Fail at Thought Leadership?
 
@@ -90,7 +90,7 @@ Here’s the pattern I see: Teams launch a “Thought Leadership Hub” on their
 
 Warning: This works well for SaaS brands with access to unique data or firsthand battle scars. For point-solution SaaS where all features are commodities, weak attempts at “thought leadership” just highlight your lack of differentiation.
 
-**Also read:** [best enterprise SEO agencies that help SaaS brands own category-defining topics](/blogs/best-enterprise-seo-agencies/)
+**Also read:** [best enterprise SEO agencies that help SaaS brands own category-defining topics](/list/best-enterprise-seo-agencies/)
 
 ## How Do You Build Real Thought Leadership as a SaaS Brand?
 

@@ -115,7 +115,7 @@ url = "/about-us/"
 weight = 1
 [[menu.footer_company]]
 name = "Success Stories"
-url = "/case-studies/"
+url = "/case-study/"
 weight = 2
 [[menu.footer_company]]
 name = "Contact Us"
@@ -127,12 +127,12 @@ name = "SaaS SEO"
 url = "/list/best-saas-seo-agencies/"
 weight = 1
 [[menu.footer_learn]]
-name = "Enterprise SEO"
-url = "/list/best-technical-seo-agencies/"
+name = "Technical SEO Agencies"
+url = "/list/the-11-best-technical-seo-agencies-for-2026/"
 weight = 2
 [[menu.footer_learn]]
-name = "B2B PPC Agencies"
-url = "/list/best-b2b-advertising-agencies/"
+name = "B2B Advertising Agencies"
+url = "/list/the-best-b2b-advertising-agencies-2026-rankings/"
 weight = 3
 
 [[menu.footer_resources]]

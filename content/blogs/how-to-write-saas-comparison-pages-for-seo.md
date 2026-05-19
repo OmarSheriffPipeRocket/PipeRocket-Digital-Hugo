@@ -94,7 +94,7 @@ Keeping it organized prevents your site from becoming a chaotic mess of orphan p
 
 Do not just write a blog post.
 
-I repeat: Do not just write a 1,000-word essay on why you are great. You need a structured [landing page](/blogs/optimize-saas-landing-pages-for-seo/ "Optimize SaaS Landing Pages for SEO") that guides the user from “curious” to “convinced”. At PipeRocket Digital, we use a specific flow that works consistently.
+I repeat: Do not just write a 1,000-word essay on why you are great. You need a structured [landing page](/blogs/blogs-optimize-saas-landing-pages-for-seo/ "Optimize SaaS Landing Pages for SEO") that guides the user from “curious” to “convinced”. At PipeRocket Digital, we use a specific flow that works consistently.
 
 ### **How to Build a Hero Section That Converts?**
 
@@ -155,7 +155,7 @@ This is where you win the argument.
 
 Don’t just list features, you need to evaluate them. You need to act like a consultant guiding them rather than a salesman pushing them. Here are set of example comparison factors:
 
-Pair this with our process for [writing SaaS SEO content with AI](/blogs/how-to-write-saas-seo-content-with-ai/ "Write SaaS SEO Content with AI").
+Pair this with our process for [writing SaaS SEO content with AI](/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks/ "Write SaaS SEO Content with AI").
 
 ### **Setup and Ease of Use**
 
