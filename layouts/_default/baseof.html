@@ -31,8 +31,7 @@
   {{ partial "header.html" . }}
 
   <main>
-    {{ $resourceSections := slice "glossary" "faqs" "list" "alternative" "compare" "vs" }}
-    {{ if in $resourceSections .Section }}{{ partial "breadcrumbs.html" . }}{{ end }}
+    {{ if ne .Section "blogs" }}{{ partial "breadcrumbs.html" . }}{{ end }}
     {{ block "main" . }}{{ end }}
   </main>
 
