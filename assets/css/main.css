@@ -5665,7 +5665,21 @@ main table a,
   .pr-article-rail {
     position: sticky;
     top: calc(var(--pr-s-7) + 70px);
+    /* Cap the rail to the viewport with a thin scrollbar — long stacks of
+       cards (TOC + CTA + share + author) stay reachable instead of being
+       cut off below the fold on shorter laptop screens. */
+    max-height: calc(100vh - var(--pr-s-7) - 90px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+    padding-right: 6px;
   }
+  .pr-article-rail::-webkit-scrollbar { width: 6px; }
+  .pr-article-rail::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
+  .pr-article-rail::-webkit-scrollbar-track { background: transparent; }
 
   /* 2-column variant — opt-in via .pr-2col-article on the parent <article>.
      Grid is strictly one row (rail + main). The author + related-links

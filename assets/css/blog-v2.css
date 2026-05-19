@@ -135,14 +135,31 @@
 /* ---------- Left rail ----------
    The site header (.pr-header) is `position: sticky; top: 0` and ~83px
    tall. The rail's `top` must sit below the header height, otherwise
-   the top of the TOC card slides under the header when scrolling. */
+   the top of the TOC card slides under the header when scrolling.
+
+   On long articles the rail's combined content (TOC + CTA card) can
+   exceed the viewport — so the rail itself is a scroll container, with
+   a thin scrollbar that only appears when content actually overflows.
+   This lets the CTA card stay reachable instead of being cut off below
+   the fold on shorter laptop screens. */
 .pr-blog-v2__rail {
   position: sticky;
   top: 100px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  max-height: calc(100vh - 124px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  padding-right: 6px;
 }
+.pr-blog-v2__rail::-webkit-scrollbar { width: 6px; }
+.pr-blog-v2__rail::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+.pr-blog-v2__rail::-webkit-scrollbar-track { background: transparent; }
 /* On mobile the rail moves into the natural document flow (above the
    main column). The sticky behaviour from desktop must be cancelled —
    otherwise the TOC stays pinned at top 100px and overlaps the main
@@ -152,6 +169,9 @@
   .pr-blog-v2__rail {
     position: static;
     top: auto;
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
   }
 }
 
@@ -220,24 +240,10 @@
   padding: 0;
 }
 
-/* Desktop: cap the TOC inside the viewport so a long article doesn't push
-   the CTA card below the fold. Internal scrollbar appears only when the
-   TOC overflows. Mobile keeps the natural flow (no inner scrollbox). */
-@media (min-width: 1024px) {
-  [data-pr-blog-toc] {
-    max-height: calc(100vh - 300px);
-    overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-color: #ccc transparent;
-    padding-right: 6px;
-  }
-  [data-pr-blog-toc]::-webkit-scrollbar { width: 6px; }
-  [data-pr-blog-toc]::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 3px;
-  }
-  [data-pr-blog-toc]::-webkit-scrollbar-track { background: transparent; }
-}
+/* TOC scroll is handled by the parent .pr-blog-v2__rail container,
+   which is the single sticky scrollable region — so no inner overflow
+   needed here. (Old per-TOC max-height + overflow rules removed to
+   avoid double scrollbars.) */
 
 /* H2 items — mirrors the listicle [data-pr-agency-toc] item style so
    blogs + listicles share one TOC look. Numbered "1." spans are injected
