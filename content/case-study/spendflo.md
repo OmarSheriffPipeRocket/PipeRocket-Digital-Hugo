@@ -6,6 +6,7 @@ description: "How a stalled organic programme turned into a 61% traffic lift for
 metaTitle: "Spendflo Case Study: 61% Traffic Lift in 6 Months"
 metaDescription: "How a stalled organic programme turned into a 61% traffic lift for Spendflo — without chasing volume keywords. Pipeline-first SaaS SEO case study."
 client: "Spendflo"
+logo: "/images/logos/spendflo.svg"
 industry: "SaaS · SaaS Spend Management"
 services: ["SaaS SEO"]
 company_size: "Mid-Market · Enterprise"

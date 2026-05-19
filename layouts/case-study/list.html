@@ -54,7 +54,12 @@
           {{ $servicesAttr := delimit .Params.services "," }}
           <a class="pr-story-card" href="{{ .RelPermalink }}" data-services="{{ $servicesAttr }}">
             <div class="pr-story-card__head">
-              <span class="pr-story-card__client">{{ .Params.client }}</span>
+              <div class="pr-story-card__brand">
+                {{ with .Params.logo }}
+                  <img src="{{ . }}" alt="{{ $.Params.client }} logo" class="pr-story-card__logo" loading="lazy" decoding="async">
+                {{ end }}
+                <span class="pr-story-card__client">{{ .Params.client }}</span>
+              </div>
               {{ with .Params.services }}
                 <ul class="pr-story-card__services">
                   {{ range . }}<li>{{ . }}</li>{{ end }}

@@ -6,6 +6,7 @@ description: "How disciplined topical-authority SEO drove a 279% organic traffic
 metaTitle: "CyberSierra Case Study: 279% Organic Traffic Growth"
 metaDescription: "How disciplined topical-authority SEO drove a 279% organic traffic lift for CyberSierra in a high-trust, high-competition cybersecurity SaaS category."
 client: "CyberSierra"
+logo: "/images/logos/cybersierra-full.png"
 industry: "SaaS · Cybersecurity / Compliance"
 services: ["SaaS SEO"]
 company_size: "Mid-Market · Enterprise"

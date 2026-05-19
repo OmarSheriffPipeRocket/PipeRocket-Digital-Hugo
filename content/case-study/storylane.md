@@ -6,7 +6,7 @@ description: "How PipeRocket's Google Ads + LinkedIn campaigns lifted Storylane'
 metaTitle: "Storylane Case Study: 2.5X Growth, 62% More Demos"
 metaDescription: "How PipeRocket's Google Ads + LinkedIn campaigns lifted Storylane's SQLs by 25% while holding cost-per-SQL flat across one quarter. Full case study."
 client: "Storylane"
-client_logo: "/images/clients/storylane.svg"
+logo: "/images/logos/storylane.svg"
 industry: "SaaS · MarTech / SalesTech"
 services: ["SaaS PPC", "Google Ads", "LinkedIn Ads"]
 company_size: "SMB · Mid-Market · Enterprise"

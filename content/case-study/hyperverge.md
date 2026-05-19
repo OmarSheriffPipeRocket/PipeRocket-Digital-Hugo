@@ -6,6 +6,7 @@ description: "How a focused Google Ads rebuild — sharper keywords, tighter for
 metaTitle: "HyperVerge Case Study: 3.5X MQL Growth"
 metaDescription: "How a focused Google Ads rebuild — sharper keywords, tighter forms, weekly negatives — 3.5X'd HyperVerge's MQL pipeline in three months."
 client: "HyperVerge"
+logo: "/images/logos/hyperverge.webp"
 industry: "SaaS · AppTech / FinTech"
 services: ["SaaS PPC", "Google Ads"]
 company_size: "Mid-Market · Enterprise"

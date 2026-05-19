@@ -14,6 +14,10 @@
         {{ with .Params.industry }}<span class="pr-case__hero-industry">{{ . }}</span>{{ end }}
       </div>
 
+      {{ with .Params.logo }}
+        <img src="{{ . }}" alt="{{ $.Params.client }} logo" class="pr-case__hero-logo" loading="eager" decoding="async">
+      {{ end }}
+
       <h1 class="pr-case__title">{{ .Title }}</h1>
       {{ with .Params.description }}<p class="pr-case__lede">{{ . }}</p>{{ end }}
 
