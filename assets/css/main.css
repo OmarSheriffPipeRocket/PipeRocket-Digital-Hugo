@@ -2746,6 +2746,10 @@ a.pr-hero__cta:hover,
   flex-shrink: 0;
 }
 .pr-footer__trust-item--clutch svg { color: #FF3D2E; }
+.pr-footer__trust-item--brand img {
+  display: block;
+  flex-shrink: 0;
+}
 a.pr-footer__trust-item:hover {
   border-color: var(--pr-cyan);
   color: var(--pr-cyan);
