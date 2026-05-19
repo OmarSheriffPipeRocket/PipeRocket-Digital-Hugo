@@ -2,20 +2,20 @@
   <title id="title-ppc">The 6-Step B2B PPC Flow — PipeRocket Digital</title>
   <desc id="desc-ppc">Six sequential steps for B2B PPC campaigns that generate pipeline: 1) Understand and map your ICP, 2) Map keywords to buyer intent, 3) Structure campaigns around the sales cycle, 4) Write ad copy for the right stakeholder, 5) Build landing pages that convert, 6) Track pipeline, not just leads.</desc>
 
-  <rect width="1200" height="680" fill="#F6F6F1"/>
+  <rect width="1200" height="680" fill="#F6F6F1" />
 
-  <rect x="0" y="0" width="1200" height="110" fill="#282828"/>
-  <text x="50" y="48" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="2.4">PIPEROCKET DIGITAL · B2B PPC FRAMEWORK</text>
-  <text x="50" y="85" fill="#ffffff" font-size="26" font-weight="700">The 6-Step B2B PPC Flow</text>
-  <rect x="0" y="110" width="1200" height="4" fill="#0CC6F1"/>
+  <rect x="0" y="0" width="1200" height="110" fill="#E8E4DA" />
+  <text x="50" y="48" fill="#0D0D0D" font-size="12" font-weight="700" letter-spacing="2.4">PIPEROCKET DIGITAL · B2B PPC FRAMEWORK</text>
+  <text x="50" y="85" fill="#0D0D0D" font-size="26" font-weight="700">The 6-Step B2B PPC Flow</text>
+  <rect x="0" y="110" width="1200" height="4" fill="#0CC6F1" />
   <text x="50" y="148" fill="#282828" font-size="14">Foundation → intent → structure → copy → conversion → revenue. Skip a step, the system breaks.</text>
 
-  <!-- 6 stair-step cards (zig-zag flow) -->
-  <!-- Step 1 -->
+  
+  
   <g transform="translate(50, 200)">
-    <rect width="340" height="170" rx="12" fill="#ffffff" stroke="#D9D5C9"/>
-    <circle cx="32" cy="32" r="22" fill="#0CC6F1"/>
-    <text x="32" y="38" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">1</text>
+    <rect width="340" height="170" rx="12" fill="#ffffff" stroke="#D9D5C9" />
+    <circle cx="32" cy="32" r="22" fill="#0CC6F1" />
+    <text x="32" y="38" fill="#0D0D0D" font-size="18" font-weight="700" text-anchor="middle">1</text>
     <text x="64" y="38" fill="#282828" font-size="15" font-weight="700">ICP Mapping</text>
     <text x="22" y="78" fill="#3F3F3F" font-size="13">Pull last 20-30 closed-won deals.</text>
     <text x="22" y="97" fill="#3F3F3F" font-size="13">Look for patterns: company size,</text>
@@ -24,17 +24,17 @@
     <text x="22" y="160" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">FOUNDATION</text>
   </g>
 
-  <!-- Arrow 1→2 -->
+  
   <g transform="translate(390, 280)">
-    <line x1="0" y1="0" x2="40" y2="0" stroke="#282828" stroke-width="2.5"/>
-    <polygon points="34,-6 42,0 34,6" fill="#282828"/>
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#282828" stroke-width="2.5" />
+    <polygon points="34,-6 42,0 34,6" fill="#282828" />
   </g>
 
-  <!-- Step 2 -->
+  
   <g transform="translate(440, 200)">
-    <rect width="340" height="170" rx="12" fill="#ffffff" stroke="#D9D5C9"/>
-    <circle cx="32" cy="32" r="22" fill="#0CC6F1"/>
-    <text x="32" y="38" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">2</text>
+    <rect width="340" height="170" rx="12" fill="#ffffff" stroke="#D9D5C9" />
+    <circle cx="32" cy="32" r="22" fill="#0CC6F1" />
+    <text x="32" y="38" fill="#0D0D0D" font-size="18" font-weight="700" text-anchor="middle">2</text>
     <text x="64" y="38" fill="#282828" font-size="15" font-weight="700">Map Keywords to Intent</text>
     <text x="22" y="78" fill="#3F3F3F" font-size="13">Awareness · Consideration · Decision.</text>
     <text x="22" y="97" fill="#3F3F3F" font-size="13">Don't bid on problem-stage keywords</text>
@@ -43,35 +43,34 @@
     <text x="22" y="160" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">INTENT FILTER</text>
   </g>
 
-  <!-- Arrow 2→3 -->
+  
   <g transform="translate(780, 280)">
-    <line x1="0" y1="0" x2="40" y2="0" stroke="#282828" stroke-width="2.5"/>
-    <polygon points="34,-6 42,0 34,6" fill="#282828"/>
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#282828" stroke-width="2.5" />
+    <polygon points="34,-6 42,0 34,6" fill="#282828" />
   </g>
 
-  <!-- Step 3 -->
+  
   <g transform="translate(830, 200)">
-    <rect width="320" height="170" rx="12" fill="#282828"/>
-    <circle cx="32" cy="32" r="22" fill="#0CC6F1"/>
-    <text x="32" y="38" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">3</text>
-    <text x="64" y="38" fill="#ffffff" font-size="15" font-weight="700">Campaign Structure</text>
-    <text x="22" y="78" fill="rgba(255,255,255,0.85)" font-size="13">Separate brand, competitor, and</text>
-    <text x="22" y="97" fill="rgba(255,255,255,0.85)" font-size="13">non-brand campaigns. One ad group</text>
-    <text x="22" y="116" fill="rgba(255,255,255,0.85)" font-size="13">per tightly-themed keyword cluster.</text>
-    <text x="22" y="135" fill="rgba(255,255,255,0.85)" font-size="13">Layer audience + intent signals.</text>
+    <rect width="320" height="170" rx="12" fill="#E8E4DA" stroke="#0CC6F1" stroke-width="1.5" />
+    <circle cx="32" cy="32" r="22" fill="#0CC6F1" />
+    <text x="32" y="38" fill="#0D0D0D" font-size="18" font-weight="700" text-anchor="middle">3</text>
+    <text x="64" y="38" fill="#0D0D0D" font-size="15" font-weight="700">Campaign Structure</text>
+    <text x="22" y="78" fill="rgba(13, 13, 13, 0.85)" font-size="13">Separate brand, competitor, and</text>
+    <text x="22" y="97" fill="rgba(13, 13, 13, 0.85)" font-size="13">non-brand campaigns. One ad group</text>
+    <text x="22" y="116" fill="rgba(13, 13, 13, 0.85)" font-size="13">per tightly-themed keyword cluster.</text>
+    <text x="22" y="135" fill="rgba(13, 13, 13, 0.85)" font-size="13">Layer audience + intent signals.</text>
     <text x="22" y="160" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">SALES-CYCLE FIT</text>
   </g>
 
-  <!-- Curved down arrow on the right -->
-  <path d="M 990,395 L 990,420 Q 990,450 960,450 L 240,450 Q 210,450 210,480 L 210,495"
-        stroke="#0CC6F1" stroke-width="2.5" fill="none" stroke-dasharray="6,5"/>
-  <polygon points="204,490 210,500 216,490" fill="#0CC6F1"/>
+  
+  <path d="M 990,395 L 990,420 Q 990,450 960,450 L 240,450 Q 210,450 210,480 L 210,495" stroke="#0CC6F1" stroke-width="2.5" fill="none" stroke-dasharray="6,5" />
+  <polygon points="204,490 210,500 216,490" fill="#0CC6F1" />
 
-  <!-- Step 4 -->
+  
   <g transform="translate(50, 500)">
-    <rect width="340" height="170" rx="12" fill="#ffffff" stroke="#D9D5C9"/>
-    <circle cx="32" cy="32" r="22" fill="#0CC6F1"/>
-    <text x="32" y="38" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">4</text>
+    <rect width="340" height="170" rx="12" fill="#ffffff" stroke="#D9D5C9" />
+    <circle cx="32" cy="32" r="22" fill="#0CC6F1" />
+    <text x="32" y="38" fill="#0D0D0D" font-size="18" font-weight="700" text-anchor="middle">4</text>
     <text x="64" y="38" fill="#282828" font-size="15" font-weight="700">Ad Copy by Stakeholder</text>
     <text x="22" y="78" fill="#3F3F3F" font-size="13">Headline 1: pain. Headline 2: outcome.</text>
     <text x="22" y="97" fill="#3F3F3F" font-size="13">Headline 3: proof. The CFO ad reads</text>
@@ -80,17 +79,17 @@
     <text x="22" y="160" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">MESSAGING FIT</text>
   </g>
 
-  <!-- Arrow 4→5 -->
+  
   <g transform="translate(390, 580)">
-    <line x1="0" y1="0" x2="40" y2="0" stroke="#282828" stroke-width="2.5"/>
-    <polygon points="34,-6 42,0 34,6" fill="#282828"/>
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#282828" stroke-width="2.5" />
+    <polygon points="34,-6 42,0 34,6" fill="#282828" />
   </g>
 
-  <!-- Step 5 -->
+  
   <g transform="translate(440, 500)">
-    <rect width="340" height="170" rx="12" fill="#ffffff" stroke="#D9D5C9"/>
-    <circle cx="32" cy="32" r="22" fill="#0CC6F1"/>
-    <text x="32" y="38" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">5</text>
+    <rect width="340" height="170" rx="12" fill="#ffffff" stroke="#D9D5C9" />
+    <circle cx="32" cy="32" r="22" fill="#0CC6F1" />
+    <text x="32" y="38" fill="#0D0D0D" font-size="18" font-weight="700" text-anchor="middle">5</text>
     <text x="64" y="38" fill="#282828" font-size="15" font-weight="700">Conversion-First LP</text>
     <text x="22" y="78" fill="#3F3F3F" font-size="13">One offer per landing page. Match</text>
     <text x="22" y="97" fill="#3F3F3F" font-size="13">the ad headline word-for-word.</text>
@@ -99,22 +98,22 @@
     <text x="22" y="160" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">CONVERSION</text>
   </g>
 
-  <!-- Arrow 5→6 -->
+  
   <g transform="translate(780, 580)">
-    <line x1="0" y1="0" x2="40" y2="0" stroke="#282828" stroke-width="2.5"/>
-    <polygon points="34,-6 42,0 34,6" fill="#282828"/>
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#282828" stroke-width="2.5" />
+    <polygon points="34,-6 42,0 34,6" fill="#282828" />
   </g>
 
-  <!-- Step 6 -->
+  
   <g transform="translate(830, 500)">
-    <rect width="320" height="170" rx="12" fill="#282828"/>
-    <circle cx="32" cy="32" r="22" fill="#0CC6F1"/>
-    <text x="32" y="38" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">6</text>
-    <text x="64" y="38" fill="#ffffff" font-size="15" font-weight="700">Track Pipeline</text>
-    <text x="22" y="78" fill="rgba(255,255,255,0.85)" font-size="13">CPL is the wrong KPI. Track CAC,</text>
-    <text x="22" y="97" fill="rgba(255,255,255,0.85)" font-size="13">SQL rate, and pipeline contribution.</text>
-    <text x="22" y="116" fill="rgba(255,255,255,0.85)" font-size="13">Offline conversions imported from</text>
-    <text x="22" y="135" fill="rgba(255,255,255,0.85)" font-size="13">CRM. Optimise to deals, not leads.</text>
+    <rect width="320" height="170" rx="12" fill="#E8E4DA" stroke="#0CC6F1" stroke-width="1.5" />
+    <circle cx="32" cy="32" r="22" fill="#0CC6F1" />
+    <text x="32" y="38" fill="#0D0D0D" font-size="18" font-weight="700" text-anchor="middle">6</text>
+    <text x="64" y="38" fill="#0D0D0D" font-size="15" font-weight="700">Track Pipeline</text>
+    <text x="22" y="78" fill="rgba(13, 13, 13, 0.85)" font-size="13">CPL is the wrong KPI. Track CAC,</text>
+    <text x="22" y="97" fill="rgba(13, 13, 13, 0.85)" font-size="13">SQL rate, and pipeline contribution.</text>
+    <text x="22" y="116" fill="rgba(13, 13, 13, 0.85)" font-size="13">Offline conversions imported from</text>
+    <text x="22" y="135" fill="rgba(13, 13, 13, 0.85)" font-size="13">CRM. Optimise to deals, not leads.</text>
     <text x="22" y="160" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.2">REVENUE</text>
   </g>
 

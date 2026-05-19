@@ -2,52 +2,52 @@
   <title id="title-wl">Where to Point Your SaaS Links — PipeRocket Digital</title>
   <desc id="desc-wl">Most SaaS teams build links to blog posts. The pages that actually drive revenue — product, pricing, comparison, alternatives, integration — almost never get linked despite being where pipeline flows. This diagram shows the typical link distribution versus the link distribution that compounds pipeline.</desc>
 
-  <rect width="1200" height="700" fill="#F6F6F1"/>
+  <rect width="1200" height="700" fill="#F6F6F1" />
 
-  <rect x="0" y="0" width="1200" height="110" fill="#282828"/>
-  <text x="50" y="48" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="2.4">PIPEROCKET DIGITAL · LINK DESTINATION FIX</text>
-  <text x="50" y="85" fill="#ffffff" font-size="26" font-weight="700">Where to Point Your SaaS Links</text>
-  <rect x="0" y="110" width="1200" height="4" fill="#0CC6F1"/>
+  <rect x="0" y="0" width="1200" height="110" fill="#E8E4DA" />
+  <text x="50" y="48" fill="#0D0D0D" font-size="12" font-weight="700" letter-spacing="2.4">PIPEROCKET DIGITAL · LINK DESTINATION FIX</text>
+  <text x="50" y="85" fill="#0D0D0D" font-size="26" font-weight="700">Where to Point Your SaaS Links</text>
+  <rect x="0" y="110" width="1200" height="4" fill="#0CC6F1" />
   <text x="50" y="148" fill="#282828" font-size="14">Strategy 1: stop pointing every backlink at your blog. Move authority to the pages that actually convert.</text>
 
-  <!-- Left column: Typical (broken) -->
+  
   <g transform="translate(50, 195)">
-    <rect width="540" height="450" rx="14" fill="#ffffff" stroke="#D9D5C9"/>
-    <rect width="540" height="60" rx="14" fill="#FF6B5C"/>
-    <rect y="46" width="540" height="14" fill="#FF6B5C"/>
-    <text x="20" y="38" fill="#ffffff" font-size="18" font-weight="700">TYPICAL SaaS LINK DISTRIBUTION</text>
-    <text x="20" y="55" fill="rgba(255,255,255,0.85)" font-size="11" letter-spacing="1.2">WHAT MOST TEAMS DO</text>
+    <rect width="540" height="450" rx="14" fill="#ffffff" stroke="#D9D5C9" />
+    <rect width="540" height="60" rx="14" fill="#FF6B5C" />
+    <rect y="46" width="540" height="14" fill="#FF6B5C" />
+    <text x="20" y="38" fill="#0D0D0D" font-size="18" font-weight="700">TYPICAL SaaS LINK DISTRIBUTION</text>
+    <text x="20" y="55" fill="rgba(13, 13, 13, 0.85)" font-size="11" letter-spacing="1.2">WHAT MOST TEAMS DO</text>
 
     <text x="20" y="100" fill="#6B6B6B" font-size="11" font-weight="700" letter-spacing="1.5">LINK SHARE</text>
 
-    <!-- Bar chart -->
+    
     <g transform="translate(20, 120)">
       <text x="0" y="14" fill="#282828" font-size="13" font-weight="600">Blog posts</text>
-      <rect x="180" y="2" width="320" height="18" rx="3" fill="#FF6B5C"/>
+      <rect x="180" y="2" width="320" height="18" rx="3" fill="#FF6B5C" />
       <text x="510" y="16" fill="#282828" font-size="12" font-weight="700">78%</text>
 
       <text x="0" y="46" fill="#282828" font-size="13" font-weight="600">Homepage</text>
-      <rect x="180" y="34" width="60" height="18" rx="3" fill="#FF6B5C" opacity="0.7"/>
+      <rect x="180" y="34" width="60" height="18" rx="3" fill="#FF6B5C" opacity="0.7" />
       <text x="250" y="48" fill="#282828" font-size="12" font-weight="700">15%</text>
 
       <text x="0" y="78" fill="#282828" font-size="13" font-weight="600">Product page</text>
-      <rect x="180" y="66" width="14" height="18" rx="3" fill="#FF6B5C" opacity="0.5"/>
+      <rect x="180" y="66" width="14" height="18" rx="3" fill="#FF6B5C" opacity="0.5" />
       <text x="204" y="80" fill="#282828" font-size="12" font-weight="700">3%</text>
 
       <text x="0" y="110" fill="#282828" font-size="13" font-weight="600">Pricing page</text>
-      <rect x="180" y="98" width="8" height="18" rx="3" fill="#FF6B5C" opacity="0.4"/>
+      <rect x="180" y="98" width="8" height="18" rx="3" fill="#FF6B5C" opacity="0.4" />
       <text x="198" y="112" fill="#282828" font-size="12" font-weight="700">2%</text>
 
       <text x="0" y="142" fill="#282828" font-size="13" font-weight="600">Comparison pages</text>
-      <rect x="180" y="130" width="6" height="18" rx="3" fill="#FF6B5C" opacity="0.4"/>
+      <rect x="180" y="130" width="6" height="18" rx="3" fill="#FF6B5C" opacity="0.4" />
       <text x="196" y="144" fill="#282828" font-size="12" font-weight="700">1%</text>
 
       <text x="0" y="174" fill="#282828" font-size="13" font-weight="600">Alternatives pages</text>
-      <rect x="180" y="162" width="4" height="18" rx="3" fill="#FF6B5C" opacity="0.4"/>
+      <rect x="180" y="162" width="4" height="18" rx="3" fill="#FF6B5C" opacity="0.4" />
       <text x="194" y="176" fill="#282828" font-size="12" font-weight="700">1%</text>
     </g>
 
-    <!-- Outcome -->
+    
     <g transform="translate(20, 360)">
       <text x="0" y="0" fill="#6B6B6B" font-size="10" font-weight="700" letter-spacing="1.5">RESULT</text>
       <text x="0" y="22" fill="#282828" font-size="14" font-weight="700">Authority flows to articles</text>
@@ -56,44 +56,44 @@
     </g>
   </g>
 
-  <!-- Right column: PipeRocket fix -->
+  
   <g transform="translate(610, 195)">
-    <rect width="540" height="450" rx="14" fill="#ffffff" stroke="#0CC6F1" stroke-width="2"/>
-    <rect width="540" height="60" rx="14" fill="#0CC6F1"/>
-    <rect y="46" width="540" height="14" fill="#0CC6F1"/>
-    <text x="20" y="38" fill="#ffffff" font-size="18" font-weight="700">PIPEROCKET'S LINK DISTRIBUTION</text>
-    <text x="20" y="55" fill="rgba(255,255,255,0.85)" font-size="11" letter-spacing="1.2">WHAT TO DO INSTEAD</text>
+    <rect width="540" height="450" rx="14" fill="#ffffff" stroke="#0CC6F1" stroke-width="2" />
+    <rect width="540" height="60" rx="14" fill="#0CC6F1" />
+    <rect y="46" width="540" height="14" fill="#0CC6F1" />
+    <text x="20" y="38" fill="#0D0D0D" font-size="18" font-weight="700">PIPEROCKET'S LINK DISTRIBUTION</text>
+    <text x="20" y="55" fill="rgba(13, 13, 13, 0.85)" font-size="11" letter-spacing="1.2">WHAT TO DO INSTEAD</text>
 
     <text x="20" y="100" fill="#0CC6F1" font-size="11" font-weight="700" letter-spacing="1.5">LINK SHARE</text>
 
-    <!-- Bar chart with redistributed weights -->
+    
     <g transform="translate(20, 120)">
       <text x="0" y="14" fill="#282828" font-size="13" font-weight="600">Comparison pages</text>
-      <rect x="180" y="2" width="120" height="18" rx="3" fill="#0CC6F1"/>
+      <rect x="180" y="2" width="120" height="18" rx="3" fill="#0CC6F1" />
       <text x="310" y="16" fill="#282828" font-size="12" font-weight="700">25%</text>
 
       <text x="0" y="46" fill="#282828" font-size="13" font-weight="600">Pillar pages (hubs)</text>
-      <rect x="180" y="34" width="100" height="18" rx="3" fill="#0CC6F1"/>
+      <rect x="180" y="34" width="100" height="18" rx="3" fill="#0CC6F1" />
       <text x="290" y="48" fill="#282828" font-size="12" font-weight="700">22%</text>
 
       <text x="0" y="78" fill="#282828" font-size="13" font-weight="600">Alternatives pages</text>
-      <rect x="180" y="66" width="80" height="18" rx="3" fill="#0CC6F1"/>
+      <rect x="180" y="66" width="80" height="18" rx="3" fill="#0CC6F1" />
       <text x="270" y="80" fill="#282828" font-size="12" font-weight="700">18%</text>
 
       <text x="0" y="110" fill="#282828" font-size="13" font-weight="600">Free tools / calculators</text>
-      <rect x="180" y="98" width="68" height="18" rx="3" fill="#0CC6F1" opacity="0.85"/>
+      <rect x="180" y="98" width="68" height="18" rx="3" fill="#0CC6F1" opacity="0.85" />
       <text x="258" y="112" fill="#282828" font-size="12" font-weight="700">15%</text>
 
       <text x="0" y="142" fill="#282828" font-size="13" font-weight="600">Blog (high-intent only)</text>
-      <rect x="180" y="130" width="48" height="18" rx="3" fill="#0CC6F1" opacity="0.7"/>
+      <rect x="180" y="130" width="48" height="18" rx="3" fill="#0CC6F1" opacity="0.7" />
       <text x="238" y="144" fill="#282828" font-size="12" font-weight="700">12%</text>
 
       <text x="0" y="174" fill="#282828" font-size="13" font-weight="600">Product · pricing · home</text>
-      <rect x="180" y="162" width="36" height="18" rx="3" fill="#0CC6F1" opacity="0.55"/>
+      <rect x="180" y="162" width="36" height="18" rx="3" fill="#0CC6F1" opacity="0.55" />
       <text x="226" y="176" fill="#282828" font-size="12" font-weight="700">8%</text>
     </g>
 
-    <!-- Outcome -->
+    
     <g transform="translate(20, 360)">
       <text x="0" y="0" fill="#0CC6F1" font-size="10" font-weight="700" letter-spacing="1.5">RESULT</text>
       <text x="0" y="22" fill="#282828" font-size="14" font-weight="700">Authority flows to revenue</text>
