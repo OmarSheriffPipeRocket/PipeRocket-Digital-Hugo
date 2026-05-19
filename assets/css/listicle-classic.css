@@ -539,6 +539,28 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  /* Cap to viewport with thin scrollbar so long TOC + CTA stacks stay
+     reachable on shorter laptop screens. */
+  max-height: calc(100vh - 56px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  padding-right: 6px;
+}
+.pr-listicle-v2__rail-left::-webkit-scrollbar { width: 6px; }
+.pr-listicle-v2__rail-left::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+.pr-listicle-v2__rail-left::-webkit-scrollbar-track { background: transparent; }
+@media (max-width: 1024px) {
+  .pr-listicle-v2__rail-left {
+    position: static;
+    top: auto;
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
 }
 
 /* TOC block */

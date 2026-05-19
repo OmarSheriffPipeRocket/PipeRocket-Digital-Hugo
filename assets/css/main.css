@@ -131,6 +131,12 @@ h1, h2, h3, h4 {
 h1 { font-size: clamp(2.5rem, 5.5vw, 4.5rem); }
 h2 { font-size: clamp(2rem, 4vw, 3.25rem); }
 h3 { font-size: clamp(1.5rem, 2.5vw, 2rem); }
+/* Sticky-header offset for in-page anchor jumps.
+   Any heading with an `id` is a potential TOC target — applies site-wide
+   so jumplinks land the heading just below the sticky site header instead
+   of sliding it under. Site header is sticky at top:0, ~83px tall; 100px
+   leaves a 17px breathing buffer below it. */
+h2[id], h3[id], h4[id] { scroll-margin-top: 100px; }
 h4 { font-size: 1.25rem; line-height: 1.3; }
 
 /* Italic emphasis */
@@ -4650,7 +4656,20 @@ a.pr-hero__cta:hover,
   .pr-blog__rail {
     position: sticky;
     top: calc(var(--pr-s-7) + 70px);
+    /* Cap to viewport with thin scrollbar — long rail stacks stay reachable
+       on shorter laptops instead of being cut off below the fold. */
+    max-height: calc(100vh - var(--pr-s-7) - 90px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+    padding-right: 6px;
   }
+  .pr-blog__rail::-webkit-scrollbar { width: 6px; }
+  .pr-blog__rail::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
+  .pr-blog__rail::-webkit-scrollbar-track { background: transparent; }
 }
 .pr-blog__rail-card {
   background: var(--pr-cream-2);
@@ -9390,8 +9409,26 @@ body.pr-modal-open { overflow: hidden; }
   display: flex;
   flex-direction: column;
   gap: 16px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  padding-right: 6px;
 }
-@media (max-width: 1023px) { .pr-case__rail { position: static; } }
+.pr-case__rail::-webkit-scrollbar { width: 6px; }
+.pr-case__rail::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+.pr-case__rail::-webkit-scrollbar-track { background: transparent; }
+@media (max-width: 1023px) {
+  .pr-case__rail {
+    position: static;
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+}
 
 .pr-case__rail-card {
   background: #FFFFFF;
