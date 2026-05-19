@@ -11,7 +11,7 @@
       {{/* Each column wrapped in <details> so it collapses on mobile via
            native HTML — no JS, fully accessible, keyboard-friendly. On
            desktop the CSS forces the <details> open and hides the chevron. */}}
-      <details class="pr-footer__col">
+      <details class="pr-footer__col" open>
         <summary><h4>Services</h4></summary>
         <ul>
           {{ range .Site.Menus.footer_services }}
@@ -20,7 +20,7 @@
         </ul>
       </details>
 
-      <details class="pr-footer__col">
+      <details class="pr-footer__col" open>
         <summary><h4>Industries</h4></summary>
         <ul>
           {{ range .Site.Menus.footer_industries }}
@@ -29,7 +29,7 @@
         </ul>
       </details>
 
-      <details class="pr-footer__col">
+      <details class="pr-footer__col" open>
         <summary><h4>Best-of Lists</h4></summary>
         <ul>
           {{ range .Site.Menus.footer_learn }}
@@ -38,7 +38,7 @@
         </ul>
       </details>
 
-      <details class="pr-footer__col">
+      <details class="pr-footer__col" open>
         <summary><h4>Resources</h4></summary>
         <ul>
           {{ range .Site.Menus.footer_resources }}
@@ -47,7 +47,7 @@
         </ul>
       </details>
 
-      <details class="pr-footer__col">
+      <details class="pr-footer__col" open>
         <summary><h4>Company</h4></summary>
         <ul>
           {{ range .Site.Menus.footer_company }}
@@ -61,4 +61,23 @@
   </div>
 
   <div class="pr-footer__wordmark" aria-hidden="true">PipeRocket</div>
+
+  {{/* Mobile: collapse footer columns on first paint when viewport is narrow.
+       Desktop pages keep the [open] attribute baked into the HTML so the
+       links are visible even with JS disabled. Inline + tiny so it runs
+       before the user can see the (briefly) open columns on mobile. */}}
+  <script>
+    (function () {
+      var mq = window.matchMedia('(max-width: 767px)');
+      var cols = document.querySelectorAll('.pr-footer__col');
+      function sync() {
+        cols.forEach(function (c) {
+          if (mq.matches) { c.removeAttribute('open'); }
+          else { c.setAttribute('open', ''); }
+        });
+      }
+      sync();
+      mq.addEventListener ? mq.addEventListener('change', sync) : mq.addListener(sync);
+    })();
+  </script>
 </footer>
