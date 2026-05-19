@@ -9050,6 +9050,62 @@ body.pr-modal-open { overflow: hidden; }
 .pr-featured-in__brand--prn:hover { color: #C8102E; }
 .pr-featured-in__brand--prn:hover .pr-featured-in__prn-mark { opacity: 1; }
 
+/* The Wire — newspaper-style with "The" smaller */
+.pr-featured-in__brand--wire {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.pr-featured-in__wire-the {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 4px;
+  opacity: 0.7;
+}
+.pr-featured-in__brand--wire:hover { color: #E2231A; }
+
+/* The Tribune — masthead serif */
+.pr-featured-in__brand--tribune {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+}
+.pr-featured-in__tribune-the {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 4px;
+  opacity: 0.7;
+}
+.pr-featured-in__brand--tribune:hover { color: #003F87; }
+
+/* Dailyhunt — orange D-H badge */
+.pr-featured-in__brand--dailyhunt { gap: 6px; }
+.pr-featured-in__dh-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 7px;
+  border-radius: 4px;
+  background: #E84D27;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 12px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+.pr-featured-in__brand--dailyhunt:hover { color: #E84D27; }
+.pr-featured-in__brand--dailyhunt:hover .pr-featured-in__dh-mark { opacity: 1; }
+
+/* Indian Television — "Indian" bold + "Television" lighter */
+.pr-featured-in__brand--itv { font-weight: 700; }
+.pr-featured-in__itv-tv {
+  font-weight: 400;
+  opacity: 0.75;
+  margin-left: 4px;
+}
+.pr-featured-in__brand--itv:hover { color: #0066B3; }
+
 /* Clutch — bold + tiny rating chip */
 .pr-featured-in__brand--clutch { font-weight: 800; }
 .pr-featured-in__rating {

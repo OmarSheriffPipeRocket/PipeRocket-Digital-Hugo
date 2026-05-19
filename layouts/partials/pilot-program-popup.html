@@ -1,18 +1,27 @@
-{{/* 3-month pilot promo popup — sitewide.
+{{/* 3-month pilot promo popup — scoped to high-intent pages only.
 
-  Renders the modal markup on every page (hidden by default). The
-  trigger logic in main.js shows it once per session after:
-    · 30 seconds on page, OR
-    · 50% scroll depth, OR
-    · exit-intent (mouse leaves viewport at the top)
+  Renders the modal markup ONLY on:
+    · the homepage
+    · the /contact-us/ page
+    · any service page — root-level URL ending in -agency/, or
+      the dedicated /saas-ppc/ and /marketing-ops/ pages.
 
-  Once dismissed (X or backdrop click), the popup stays closed for
-  the rest of the browser session via sessionStorage.
+  Trigger is exit-intent only (mouse leaves viewport at the top on
+  desktop). No timer, no scroll trigger — keeps the experience
+  minimally intrusive on the pages where it does appear.
 
-  Hidden on /contact-us/ (they're already there) and on the popup
-  destination it links to. */}}
-{{ $skip := or (eq .RelPermalink "/contact-us/") (eq .RelPermalink "/contact/") }}
-{{ if not $skip }}
+  Once dismissed, the popup stays closed for the rest of the
+  browser session via sessionStorage. */}}
+{{ $url := .RelPermalink }}
+{{ $isHome := .IsHome }}
+{{ $isContact := or (eq $url "/contact-us/") (eq $url "/contact/") }}
+{{ $isService := or
+  (hasSuffix $url "-agency/")
+  (eq $url "/saas-ppc/")
+  (eq $url "/marketing-ops/")
+}}
+{{ $show := or $isHome $isContact $isService }}
+{{ if $show }}
 <div class="pr-modal pr-pilot-popup" id="prPilotPopup" role="dialog" aria-modal="true" aria-labelledby="prPilotPopupTitle" hidden data-pilot-popup>
   <div class="pr-modal__backdrop" data-pilot-close></div>
   <div class="pr-modal__card pr-pilot-popup__card" role="document">
