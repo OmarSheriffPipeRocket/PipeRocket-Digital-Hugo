@@ -1,15 +1,14 @@
 <aside class="pr-article-cta">
   <div class="pr-article-cta__inner">
     <div class="pr-article-cta__copy">
-      <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
-      <h3>Want this kind of analysis run on your stack?</h3>
-      <p>We work with a small number of B2B SaaS companies at a time. Tell us your ICP and growth goal — we'll map the channels, audiences, and content angles most likely to move qualified pipeline in 90 days.</p>
+      <span class="pr-eyebrow pr-eyebrow--red">🔥 3-Month Pilot · 4 slots left this quarter</span>
+      <h3>Real pipeline in 90 days. Or you walk, free.</h3>
+      <p>Senior pod runs your account from day one. Pipeline target written into the SOW — if we don't move the needle, cancel any month with zero penalty. We're picking 4 B2B SaaS brands this quarter.</p>
     </div>
     <div class="pr-article-cta__action">
-      {{- $ctaLoc := "blog-inline" -}}
-      {{- if eq .Type "list" }}{{- $ctaLoc = "listicle-inline" -}}{{ end -}}
-      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn" data-cta-location="{{ $ctaLoc }}">{{ .Site.Params.secondary_cta_text }}</a>
-      <a href="{{ .Site.Params.primary_cta_url }}" class="pr-article-cta__secondary">or {{ .Site.Params.primary_cta_text | lower }} →</a>
+      {{- $ctaSource := "blog-inline-pilot" -}}
+      {{- if eq .Type "list" }}{{- $ctaSource = "listicle-inline-pilot" -}}{{ end -}}
+      <button type="button" class="pr-btn" data-modal-trigger="funnel-audit" data-cta-source="{{ $ctaSource }}">Claim a pilot slot →</button>
     </div>
   </div>
 </aside>

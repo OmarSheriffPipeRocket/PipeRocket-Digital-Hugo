@@ -304,6 +304,33 @@
   transition: background 0.15s;
 }
 .pr-blog-v2__cta-btn:hover { background: #0993c9; }
+/* Pilot promo variant — adds the eyebrow + native <button> styling
+   (the base rule was scoped to <a>, this normalises the button reset). */
+.pr-blog-v2__cta-eyebrow {
+  display: inline-block;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  color: #FF6B5C;
+  background: rgba(255, 107, 92, 0.12);
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.pr-blog-v2__cta--pilot .pr-blog-v2__cta-h {
+  font-size: 20px;
+  line-height: 1.18;
+}
+button.pr-blog-v2__cta-btn {
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
 
 /* ---------- Main content typography ---------- */
 .pr-blog-v2__main h2 { font-size: 34px !important; }

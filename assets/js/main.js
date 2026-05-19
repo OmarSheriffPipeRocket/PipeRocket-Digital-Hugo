@@ -875,6 +875,11 @@ const setupPilotPopup = () => {
   popup.querySelectorAll('[data-pilot-cta]').forEach((el) => {
     el.addEventListener('click', () => {
       try { sessionStorage.setItem('pr-pilot-popup-dismissed', '1'); } catch (_) {}
+      // Close the pilot popup immediately so the funnel-audit form modal
+      // (which the same click also triggers via data-modal-trigger) doesn't
+      // stack underneath. setupCtaModal handles the form modal open.
+      popup.hidden = true;
+      document.body.classList.remove('pr-modal-open');
     });
   });
   document.addEventListener('keydown', (e) => {
