@@ -1,5 +1,5 @@
 ---
-title: "2X the Leads at 73% Less Cost for HyperStart"
+title: "HyperStart Achieves 2X the Lead at 73% Less Cost with PipeRocket's Winning Strategy Formula"
 slug: "hyperstart"
 url: "/case-study-hyperstart/"
 description: "How HyperStart's SQO pipeline doubled while cost-per-lead dropped 73% — across one quarter of disciplined PPC restructuring."
@@ -10,9 +10,13 @@ logo: "/images/logos/hyperstart.png"
 industry: "SaaS · LegalTech / CLM"
 services: ["SaaS PPC", "Google Ads"]
 company_size: "Mid-Market · Enterprise"
+region: "South Asia - India"
+goals: "Aim to increase MQL pipeline & SQO funnel"
+engagement_start: "August 2024"
 engagement_window: "Q2 2024 → Q3 2024"
 duration: "3 months"
 date: 2024-09-01
+short_description: "HyperStart is an end-to-end contract lifecycle management software. They cater to all business functions and offer a 10x faster contract closure through a seamless contract creation and tracking process."
 hero_metrics:
   - value: "2X"
     label: "SQO volume (4 → 11)"
@@ -21,14 +25,12 @@ hero_metrics:
   - value: "10+"
     label: "Experiments run"
 testimonial:
-  quote: "They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working."
+  quote: "They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working and invalidated two new geographies for the ads. Moreover, PipeRocket Digital was responsive, open to feedback, and eager to meet the objectives."
   name: "Anusha"
-  role: "Founding Member, HyperStart"
+  role: "Founding Member"
+  photo: "/images/case-study-testimonials/hyperstart.png"
 ---
 
-## About HyperStart
-
-HyperStart is end-to-end contract lifecycle management software — built to close contracts up to 10x faster than legacy CLM tools. Their target buyer is mid-market and enterprise legal/ops teams, where deal cycles are long and ICP fit matters more than top-of-funnel volume.
 
 ## The challenge
 
@@ -60,5 +62,7 @@ Generic landing pages were converting at SMB rates. We rewrote them to speak to 
 ## The results
 
 Across one quarter, **SQO volume doubled** — from 4 leads to 11. More importantly, **cost per lead dropped 73%**, meaning the doubled volume wasn't bought with extra spend. Same budget. Tighter targeting. Better ICP match. The pipeline got cleaner *and* cheaper at the same time.
+
+{{< figure src="/images/case-study-hyperstart/chart.png" alt="Chart showing HyperStart's SQO growth and cost-per-lead reduction across the quarter" caption="SQO volume and cost-per-lead across the engagement." >}}
 
 Over the engagement we ran **10+ experiments** — landing page variants, ad copy tests, audience exclusions. Most failed. The ones that worked compounded.

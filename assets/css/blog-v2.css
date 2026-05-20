@@ -27,6 +27,7 @@
 @media (max-width: 900px) {
   .pr-blog-v2__banner { padding: 56px 0 72px; }
   .pr-blog-v2__banner-grid { grid-template-columns: 1fr; gap: 40px; padding: 0 20px; }
+  .pr-blog-v2__banner-art { display: none !important; }
 }
 
 .pr-blog-v2__chip {
@@ -77,6 +78,8 @@
   object-fit: cover;
   display: block;
   flex-shrink: 0;
+  border: 2px solid #0BA6E2;
+  box-sizing: border-box;
 }
 .pr-blog-v2__author span {
   font-family: "Helvetica Light", Helvetica, Arial, sans-serif;
@@ -302,20 +305,12 @@
   line-height: 1.6;
   margin: 0 0 20px;
 }
+/* Sidebar pilot CTA — uses .pr-btn for visual styling; this rule only handles
+   the full-width sidebar layout (.pr-btn is inline-flex by default). */
 .pr-blog-v2__cta-btn {
-  display: block;
-  text-align: center;
-  background: #0ba6e2;
-  color: #fff;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  text-decoration: none;
-  padding: 12px 20px;
-  border-radius: 5px;
-  transition: background 0.15s;
+  display: flex;
+  width: 100%;
 }
-.pr-blog-v2__cta-btn:hover { background: #0993c9; }
 /* Pilot promo variant — adds the eyebrow + native <button> styling
    (the base rule was scoped to <a>, this normalises the button reset). */
 .pr-blog-v2__cta-eyebrow {
@@ -324,10 +319,10 @@
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 1.4px;
-  color: #FF6B5C;
-  background: rgba(255, 107, 92, 0.12);
-  padding: 5px 10px;
-  border-radius: 4px;
+  color: var(--pr-red);
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
   margin-bottom: 12px;
 }
 .pr-blog-v2__cta--pilot .pr-blog-v2__cta-h {
@@ -338,10 +333,6 @@ button.pr-blog-v2__cta-btn {
   width: 100%;
   border: 0;
   cursor: pointer;
-  font: inherit;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  font-weight: 500;
 }
 
 /* ---------- Main content typography ---------- */

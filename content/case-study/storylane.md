@@ -1,5 +1,5 @@
 ---
-title: "Driving 2.5X Growth and 62% More Demos for Storylane"
+title: "Driving 2.5X Growth and 82% More Demos: Storylane's Success with PipeRocket's Campaigns"
 slug: "storylane"
 url: "/case-study-storylane/"
 description: "How PipeRocket's Google Ads + LinkedIn campaigns lifted Storylane's SQLs by 25% — while holding cost-per-SQL flat across one quarter."
@@ -10,9 +10,13 @@ logo: "/images/logos/storylane.svg"
 industry: "SaaS · MarTech / SalesTech"
 services: ["SaaS PPC", "Google Ads", "LinkedIn Ads"]
 company_size: "SMB · Mid-Market · Enterprise"
+region: "South Asia - India"
+goals: "Aim to increase SQL funnel"
+engagement_start: "August 2024"
 engagement_window: "Aug 2024 → Nov 2024"
 duration: "3 months"
 date: 2024-12-01
+short_description: "Storylane is the ultimate no-code tool, designed to let you create compelling interactive product demos within minutes and share them with leads, clients, and other relevant stakeholders."
 hero_metrics:
   - value: "2.5X"
     label: "Business growth in one quarter"
@@ -28,14 +32,10 @@ secondary_metrics:
 testimonial:
   quote: "Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us. They understand market dynamics accurately, making them an invaluable Storylane partner."
   name: "Nalin Senthamil"
-  role: "CEO, Storylane"
+  role: "CEO"
+  photo: "/images/cs-nalin-photo.png"
 ---
 
-## About Storylane
-
-Storylane is a no-code interactive product demo platform. Sales and marketing teams use it to build clickable demos in minutes, then share them with leads, customers, and prospects to shorten the sales cycle.
-
-The team came to us with a working product, healthy demand, and one specific bottleneck: the paid funnel wasn't delivering enough qualified pipeline at the segments that mattered.
 
 ## The challenge
 

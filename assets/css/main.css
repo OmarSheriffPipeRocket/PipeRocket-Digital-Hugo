@@ -4987,7 +4987,7 @@ a.pr-footer__trust-item:hover {
 .pr-listicle__body h2,
 .pr-alt__body h2,
 .pr-compare__body h2 {
-  font-family: var(--pr-serif);
+  font-family: var(--pr-ivy-headline);
   font-weight: 600;
   font-size: 28px;
   line-height: 1.25;
@@ -4999,7 +4999,7 @@ a.pr-footer__trust-item:hover {
 .pr-listicle__body h3,
 .pr-alt__body h3,
 .pr-compare__body h3 {
-  font-family: var(--pr-serif);
+  font-family: var(--pr-ivy-headline);
   font-weight: 600;
   font-size: 24px;
   line-height: 1.3;
@@ -9471,359 +9471,406 @@ body.pr-modal-open { overflow: hidden; }
 /* =========================================================
    CASE STUDY — single page
    ========================================================= */
-.pr-case { background: var(--pr-cream); }
+/* =========================================================
+   CASE STUDY — single page (.pr-cs)
+   Dark hero · sticky sidebar · pink challenge callout · dark testimonial card
+   ========================================================= */
+.pr-cs { background: var(--pr-cream); }
 
-/* ===== HERO ===== */
-.pr-case__hero {
-  background: linear-gradient(180deg, #FAF7EF 0%, var(--pr-cream) 100%);
-  padding: var(--pr-s-7) 0 var(--pr-s-8);
-  border-bottom: 1px solid var(--pr-line);
+/* Typography scope — all headings IvyPresto Headline SemiBold, all paragraphs Helvetica Neue Regular */
+.pr-cs h1,
+.pr-cs h2,
+.pr-cs h3,
+.pr-cs h4,
+.pr-cs h5,
+.pr-cs h6 {
+  font-family: var(--pr-ivy-headline);
+  font-weight: 600;
 }
-
-.pr-case__back {
-  display: inline-flex;
-  align-items: center;
-  font-size: 14px;
-  color: var(--pr-ink-2);
-  text-decoration: none;
-  margin-bottom: var(--pr-s-5);
-  transition: color .15s;
+.pr-cs p,
+.pr-cs li,
+.pr-cs dd,
+.pr-cs blockquote,
+.pr-cs .pr-cs__hero-pill,
+.pr-cs .pr-cs__rail-desc,
+.pr-cs .pr-cs__quote-text,
+.pr-cs .pr-cs__quote-meta,
+.pr-cs .pr-cs__more-card-copy,
+.pr-cs .pr-cs__more-card-link {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
-.pr-case__back:hover { color: var(--pr-ink); }
-
-.pr-case__hero-eyebrow {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 18px;
-}
-.pr-case__hero-client {
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--pr-ink);
-  letter-spacing: .02em;
-  text-transform: uppercase;
-}
-.pr-case__hero-industry {
-  font-size: 13px;
-  color: var(--pr-ink-2);
-  border-left: 1px solid var(--pr-line);
-  padding-left: 12px;
-}
-.pr-case__hero-logo {
-  display: block;
-  max-height: 56px;
-  width: auto;
-  max-width: 220px;
-  object-fit: contain;
-  margin-bottom: 18px;
-}
-@media (max-width: 767px) {
-  .pr-case__hero-logo { max-height: 44px; max-width: 180px; }
-}
-.pr-case__title {
-  font-family: var(--pr-serif);
-  font-size: clamp(2rem, 4vw, 3.25rem);
-  line-height: 1.1;
-  margin: 0 0 var(--pr-s-4);
-  color: var(--pr-ink);
-  max-width: 920px;
-}
-.pr-case__lede {
-  font-size: clamp(1.05rem, 1.6vw, 1.25rem);
-  line-height: 1.55;
-  color: var(--pr-ink-2);
-  max-width: 760px;
-  margin: 0 0 var(--pr-s-7);
+/* dt is a label heading — use IvyPresto Headline like h-tags */
+.pr-cs dt {
+  font-family: var(--pr-ivy-headline);
+  font-weight: 600;
 }
 
-.pr-case__hero-metrics {
+/* ===== HERO (dark) — mirrors blog-v2 banner ===== */
+.pr-cs__hero {
+  background-color: #282828;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.12) 1.2px, transparent 1.5px);
+  background-size: 24px 24px;
+  background-position: 0 0;
+  color: #fff;
+  padding: 64px 0;
+}
+.pr-cs__hero-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px;
-  max-width: 920px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: 64px;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
 }
-.pr-case__hero-metric {
-  background: #FFFFFF;
-  border: 1px solid var(--pr-line);
-  border-radius: 12px;
-  padding: 22px 24px;
+.pr-cs__hero-text {
+  align-self: stretch;
+  display: flex;
+  align-items: center; /* vertically centers the inner wrapper to the card */
+}
+.pr-cs__hero-text-inner {
   position: relative;
-  overflow: hidden;
+  width: 100%;
 }
-.pr-case__hero-metric::before {
-  content: '';
+@media (max-width: 900px) {
+  .pr-cs__hero { padding: 56px 0 72px; }
+  .pr-cs__hero-grid { grid-template-columns: 1fr; gap: 40px; padding: 0 20px; }
+  .pr-cs__hero-card { display: none !important; }
+}
+.pr-cs__hero-pill {
+  display: inline-block;
   position: absolute;
-  top: 0; left: 0;
-  width: 4px; height: 100%;
-  background: #0CC6F1;
+  bottom: calc(100% + 24px); /* sit just above H1 without affecting its center */
+  left: 0;
+  margin: 0;
+  padding: 14px 28px;
+  background: url('/images/platforms-ppc/heading-stroke.svg') center/100% 100% no-repeat;
+  isolation: isolate;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
 }
-.pr-case__hero-metric-value {
+.pr-cs__hero-title {
+  font-family: "IvyPresto Headline", Georgia, serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  color: #fff;
+  margin: 0;
+  max-width: 600px;
+}
+@media (max-width: 900px) {
+  .pr-cs__hero-title { font-size: 36px; }
+}
+.pr-cs__hero-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pr-cs__hero-card-img {
+  width: 100%;
+  height: auto;
   display: block;
-  font-family: var(--pr-serif);
-  font-size: clamp(2rem, 3.4vw, 2.75rem);
-  line-height: 1;
-  color: var(--pr-ink);
-  margin-bottom: 8px;
-  letter-spacing: -.01em;
+  max-width: 530px;
 }
-.pr-case__hero-metric-label {
-  display: block;
-  font-size: 13.5px;
-  color: var(--pr-ink-2);
-  line-height: 1.4;
+.pr-cs__hero-logo {
+  max-width: 70%;
+  max-height: 70%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
+.pr-cs__hero-decor {
+  position: absolute;
+  pointer-events: none;
+}
+.pr-cs__hero-decor--red  { top: -8px;  right: 18px; width: 70px; }
+.pr-cs__hero-decor--blue { bottom: 12px; left: 18px; width: 60px; }
 
 /* ===== BODY ===== */
-.pr-case__layout {
+.pr-cs__body {
+  padding: var(--pr-s-7) 0 var(--pr-s-8);
+}
+/* Align body container to the hero (1280px max-width / 32px side padding)
+   so the sidebar's left edge sits flush with the H1's left edge above. */
+.pr-cs__body > .pr-container,
+.pr-cs__more > .pr-container {
+  max-width: 1280px;
+  padding: 0 32px;
+}
+@media (max-width: 900px) {
+  .pr-cs__body > .pr-container,
+  .pr-cs__more > .pr-container { padding: 0 20px; }
+}
+.pr-cs__layout {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 300px 1fr;
   gap: var(--pr-s-7);
   align-items: start;
 }
 @media (max-width: 1023px) {
-  .pr-case__layout { grid-template-columns: 1fr; }
+  .pr-cs__layout { grid-template-columns: 1fr; }
 }
 
-/* ===== RAIL ===== */
-.pr-case__rail {
+/* ===== STICKY LEFT SIDEBAR ===== */
+.pr-cs__rail {
   position: sticky;
   top: 96px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  max-height: calc(100vh - 120px);
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #ccc transparent;
-  padding-right: 6px;
 }
-.pr-case__rail::-webkit-scrollbar { width: 6px; }
-.pr-case__rail::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 3px;
-}
-.pr-case__rail::-webkit-scrollbar-track { background: transparent; }
-.pr-case__rail > * { flex-shrink: 0; }
 @media (max-width: 1023px) {
-  .pr-case__rail {
-    position: static;
-    max-height: none;
-    overflow-y: visible;
-    padding-right: 0;
-  }
+  .pr-cs__rail { position: static; }
 }
-
-.pr-case__rail-card {
-  background: #FFFFFF;
-  border: 1px solid var(--pr-line);
-  border-radius: 12px;
-  padding: 20px 22px;
+.pr-cs__rail-card {
+  background: var(--pr-cream);
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 26px 26px 28px;
 }
-.pr-case__rail-card--quiet {
-  background: #FAF7EF;
-  border-color: #EAE6D8;
+.pr-cs__rail-logo-wrap {
+  margin: 0 -26px 20px; /* extend divider to card edges (negates rail-card padding) */
+  padding: 0 26px 20px;
+  border-bottom: 1px solid #000;
 }
-.pr-case__rail-card--cta {
-  background: linear-gradient(180deg, #0E1A2B 0%, #16263F 100%);
-  border-color: #16263F;
-  color: #F4F1E8;
-}
-.pr-case__rail-card--cta strong {
+.pr-cs__rail-logo {
   display: block;
-  font-family: var(--pr-serif);
-  font-size: 1.15rem;
-  margin-bottom: 8px;
-  color: #F4F1E8;
+  max-height: 42px;
+  max-width: 200px;
+  width: auto;
+  object-fit: contain;
 }
-.pr-case__rail-card--cta p {
-  font-size: 13.5px;
+.pr-cs__rail-desc {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--pr-ink-2);
+  margin: 0 0 24px;
+}
+.pr-cs__rail-dl {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.pr-cs__rail-row { margin: 0; }
+.pr-cs__rail-row dt {
+  font-family: var(--pr-ivy-headline);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--pr-ink);
+  margin-bottom: 6px;
+}
+.pr-cs__rail-row dd {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14.5px;
   line-height: 1.5;
-  color: rgba(244, 241, 232, .72);
-  margin: 0 0 14px;
-}
-.pr-case__rail-btn {
-  width: 100%;
-  justify-content: center;
-}
-
-.pr-case__rail-heading {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .12em;
-  text-transform: uppercase;
   color: var(--pr-ink-2);
-  margin: 0 0 14px;
-}
-.pr-case__rail-dl {
-  margin: 0;
-  display: grid;
-  grid-template-columns: 100px 1fr;
-  gap: 8px 12px;
-  font-size: 13.5px;
-}
-.pr-case__rail-dl dt {
-  color: var(--pr-ink-2);
-  font-weight: 500;
-}
-.pr-case__rail-dl dd {
-  margin: 0;
-  color: var(--pr-ink);
-  font-weight: 600;
-}
-.pr-case__rail-tags {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-.pr-case__rail-tags li {
-  background: #F1EFE7;
-  color: var(--pr-ink);
-  font-size: 12px;
-  font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 999px;
-}
-
-.pr-case__rail-stats {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.pr-case__rail-stats li {
-  display: flex;
-  flex-direction: column;
-}
-.pr-case__rail-stats strong {
-  font-family: var(--pr-serif);
-  font-size: 1.4rem;
-  color: var(--pr-ink);
-  line-height: 1;
-}
-.pr-case__rail-stats span {
-  font-size: 12.5px;
-  color: var(--pr-ink-2);
-  margin-top: 4px;
 }
 
 /* ===== ARTICLE ===== */
-.pr-case__article { max-width: 760px; }
-.pr-case__content {
-  font-size: 1.0625rem;
+.pr-cs__article { min-width: 0; }
+.pr-cs__content {
+  font-size: 16px;
   line-height: 1.7;
   color: var(--pr-ink);
 }
-.pr-case__content h2 {
-  font-family: var(--pr-serif);
-  font-size: clamp(1.5rem, 2.4vw, 2rem);
-  line-height: 1.2;
-  margin: var(--pr-s-7) 0 var(--pr-s-3);
-  color: var(--pr-ink);
-}
-.pr-case__content h2:first-child { margin-top: 0; }
-.pr-case__content h3 {
-  font-family: var(--pr-serif);
-  font-size: 1.25rem;
-  margin: var(--pr-s-6) 0 var(--pr-s-2);
-  color: var(--pr-ink);
-}
-.pr-case__content p {
-  margin: 0 0 var(--pr-s-4);
-}
-.pr-case__content strong {
-  color: var(--pr-ink);
-  font-weight: 700;
-}
-.pr-case__content ul,
-.pr-case__content ol {
-  margin: 0 0 var(--pr-s-5);
-  padding-left: 22px;
-}
-.pr-case__content li { margin: 0 0 10px; }
+.pr-cs__content > h2:first-child,
+.pr-cs__content > h2:first-of-type { margin-top: 0; }
 
-/* ===== PULL-QUOTE TESTIMONIAL ===== */
-.pr-case__quote {
-  position: relative;
+/* Pink challenge callout — when the H2 says "The challenge",
+   wrap the immediate following content visually. */
+.pr-cs__content h2 {
+  font-family: var(--pr-ivy-headline);
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin: var(--pr-s-7) 0 var(--pr-s-4);
+  color: var(--pr-ink);
+}
+.pr-cs__content h3 {
+  font-family: var(--pr-ivy-headline);
+  font-size: 1.2rem;
+  line-height: 1.35;
+  margin: var(--pr-s-6) 0 var(--pr-s-3);
+  color: var(--pr-ink);
+}
+.pr-cs__content p { margin: 0 0 var(--pr-s-4); }
+.pr-cs__content ul,
+.pr-cs__content ol { margin: 0 0 var(--pr-s-4) 1.25rem; padding: 0; }
+.pr-cs__content li { margin: 0 0 10px; }
+.pr-cs__content strong { color: var(--pr-ink); font-weight: 600; }
+
+/* The challenge pink panel — paints H2 + immediately following P + UL as one continuous block.
+   Uses adjacent-sibling selectors so it only matches the first hit, not every later P/UL. */
+.pr-cs__content > h2[id*="challenge"] {
+  background: #FCE4E4;
+  padding: 24px 28px 12px;
+  border-radius: 12px 12px 0 0;
   margin: var(--pr-s-7) 0 0;
-  padding: 36px 32px 32px;
-  background: #FFFFFF;
-  border: 1px solid var(--pr-line);
-  border-left: 4px solid #0CC6F1;
-  border-radius: 12px;
+  font-size: 1.5rem;
 }
-.pr-case__quote-mark {
-  position: absolute;
-  top: 18px;
-  right: 22px;
-  width: 36px;
-  height: 36px;
-  color: rgba(12, 198, 241, .35);
+.pr-cs__content > h2[id*="challenge"] + p {
+  background: #FCE4E4;
+  padding: 0 28px 12px;
+  margin: 0;
+  border-radius: 0;
 }
-.pr-case__quote-text {
-  font-family: var(--pr-serif);
-  font-size: 1.25rem;
-  line-height: 1.5;
-  color: var(--pr-ink);
-  margin: 0 0 18px;
-  font-style: italic;
+.pr-cs__content > h2[id*="challenge"] + p + ul,
+.pr-cs__content > h2[id*="challenge"] + ul {
+  background: #FCE4E4;
+  padding: 0 28px 24px 48px;
+  margin: 0;
+  border-radius: 0 0 12px 12px;
+  list-style-position: outside;
 }
-.pr-case__quote-author {
-  font-size: 14px;
-  color: var(--pr-ink);
-  font-style: normal;
+.pr-cs__content > h2[id*="challenge"] + p + ul li,
+.pr-cs__content > h2[id*="challenge"] + ul li {
+  margin: 0 0 8px;
 }
-.pr-case__quote-author strong { display: block; font-weight: 700; }
-.pr-case__quote-author span { color: var(--pr-ink-2); font-weight: 500; }
 
-/* ===== BOTTOM CTA ===== */
-.pr-case__cta {
-  background: #0E1A2B;
-  color: #F4F1E8;
-  padding: var(--pr-s-8) 0;
+/* ===== TESTIMONIAL CARD (dark) ===== */
+.pr-cs__quote {
+  position: relative;
+  background: #282828;
+  color: #fff;
+  border-radius: 5px;
+  padding: 32px;
+  margin: var(--pr-s-7) 0 0;
+  overflow: hidden;
 }
-.pr-case__cta-inner {
-  max-width: 720px;
-  margin: 0 auto;
+.pr-cs__quote-rocket {
+  position: absolute;
+  bottom: -40px;
+  right: 120px;
+  width: 110px;
+  height: auto;
+  pointer-events: none;
+  will-change: transform;
+  z-index: 0;
+  transform: translate(0, 0);
+  transition: transform 1.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.pr-cs__quote-rocket.is-visible {
+  transform: translate(40px, -40px);
+}
+.pr-cs__quote-inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 32px;
+  align-items: center;
+  z-index: 1;
+}
+@media (max-width: 600px) {
+  .pr-cs__quote-inner { grid-template-columns: 1fr; }
+  .pr-cs__quote-photo-wrap { width: 200px; }
+}
+.pr-cs__quote-photo-wrap {
+  position: relative;
+  width: 220px;
+  aspect-ratio: 4 / 5;          /* portrait frame */
+  border-radius: 6px;
+  overflow: visible;            /* let the quote mark poke out of the photo */
+  background: #2a2a2a;
+}
+.pr-cs__quote-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+}
+.pr-cs__quote-mark {
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  width: 56px;
+  height: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+.pr-cs__quote-text {
+  margin: 0 0 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.65;
+  color: #fff;
+}
+.pr-cs__quote-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  font-size: 16px;
+  color: #fff;
+}
+.pr-cs__quote-name {
+  color: #fff;
+  font-family: var(--pr-ivy-headline);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.pr-cs__quote-name strong { font-weight: 600; font-family: var(--pr-ivy-headline); font-size: 26px; }
+.pr-cs__quote-sep { color: rgba(255, 255, 255, .35); }
+.pr-cs__quote-logo {
+  max-height: 32px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  opacity: 1;
+}
+/* Storylane SVG has extra padding inside its viewBox — bump it up to match other logos visually */
+.pr-cs__quote-logo--storylane { max-height: 44px; }
+
+/* ===== MORE SUCCESS STORIES ===== */
+.pr-cs__more {
+  padding: var(--pr-s-8) 0 var(--pr-s-7);
+  background: var(--pr-cream);
+}
+.pr-cs__more-title {
   text-align: center;
+  margin: 0 0 var(--pr-s-6);
+  color: var(--pr-ink);
 }
-.pr-case__cta h2 {
-  font-family: var(--pr-serif);
-  font-size: clamp(1.75rem, 3vw, 2.5rem);
-  margin: 0 0 var(--pr-s-3);
-  color: #F4F1E8;
+/* Card thumbnail — the composite SVG fills the .pr-case__card frame */
+.pr-cs__more .pr-case__card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
-.pr-case__cta p {
-  font-size: 1.0625rem;
-  line-height: 1.6;
-  color: rgba(244, 241, 232, .72);
-  margin: 0 0 var(--pr-s-5);
-}
+
 
 /* =========================================================
    FIGURE — embedded chart / image inside case study body
    ========================================================= */
 .pr-figure {
   margin: var(--pr-s-5) 0;
-  padding: 16px;
-  background: #FFFFFF;
+  padding: 24px;
+  background: var(--pr-cream);
   border: 1px solid var(--pr-line);
-  border-radius: 12px;
+  border-radius: 8px;
+  text-align: center;
 }
 .pr-figure img {
   display: block;
   width: 100%;
-  height: auto;
-  border-radius: 6px;
+  height: 360px;             /* fixed frame height — all charts render in the same box */
+  object-fit: contain;       /* image scales inside without stretching */
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  padding: 16px;
+  box-sizing: border-box;
 }
 .pr-figure figcaption {
-  margin-top: 12px;
+  margin-top: 14px;
   font-size: 13px;
   color: var(--pr-ink-2);
   line-height: 1.5;
@@ -14152,7 +14199,10 @@ body.page-saas-ppc main {
   .pr-about__wins h2,
   .pr-about__featured h2,
   .pr-stories__accent-title,
-  .pr-section--casestudies h2 { font-size: 56px !important; line-height: 1.1 !important; }
+  .pr-section--casestudies h2,
+  .pr-cs__more-title,
+  .pr-techstack__content h2,
+  .pr-certified__heading { font-size: 56px !important; line-height: 1.1 !important; }
 
   /* H3 — 32px (matches both service + resources globally at desktop) */
   h3,

@@ -40,8 +40,10 @@
   {{ partial "header.html" . }}
 
   <main>
-    {{ $resourceSections := slice "glossary" "faqs" "list" "alternative" "compare" "vs" }}
-    {{ if in $resourceSections .Section }}{{ partial "breadcrumbs.html" . }}{{ end }}
+    {{/* Breadcrumb is now rendered inside the banner of each template that has a dark banner.
+         Keep the standalone render only for sections that don't use a banner. */}}
+    {{ $standaloneCrumbSections := slice "faqs" "vs" }}
+    {{ if in $standaloneCrumbSections .Section }}{{ partial "breadcrumbs.html" . }}{{ end }}
     {{ block "main" . }}{{ end }}
   </main>
 

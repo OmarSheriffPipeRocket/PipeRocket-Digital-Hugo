@@ -1,5 +1,5 @@
 ---
-title: "279% Organic Traffic Growth for CyberSierra"
+title: "PipeRocket Drives 279% Organic Traffic Growth for CyberSierra Through Strategic SEO"
 slug: "cybersierra"
 url: "/case-study-cybersierra/"
 description: "How disciplined topical-authority SEO drove a 279% organic traffic lift for CyberSierra in a high-trust, high-competition category."
@@ -10,19 +10,25 @@ logo: "/images/logos/cybersierra-full.png"
 industry: "SaaS · Cybersecurity / Compliance"
 services: ["SaaS SEO"]
 company_size: "Mid-Market · Enterprise"
+region: "South Asia - India"
+goals: "Grow organic traffic and high-intent keyword rankings"
+engagement_start: "2024"
 engagement_window: "2024"
 duration: "Ongoing"
 date: 2024-11-01
+short_description: "CyberSierra is a medium enterprise cybersecurity company that provides comprehensive security solutions through its platform — built for fast-scaling SaaS companies needing SOC 2, ISO 27001, and GDPR coverage."
 hero_metrics:
   - value: "+279%"
     label: "Organic traffic growth"
   - value: "Strategic"
     label: "SEO programme"
+testimonial:
+  quote: "Thanks to PipeRocket Digital's work, we saw a 279% increase in organic traffic. The team also helped us grow from six to 338 keywords, ranking in the top 10 positions. The team was highly responsive to feedback, quickly adjusted to changes, and showed outstanding SEO expertise."
+  name: "Srividhya Karthik"
+  role: "Head of Marketing"
+  photo: "/images/case-study-testimonials/cybersierra.png"
 ---
 
-## About CyberSierra
-
-CyberSierra is a unified cyber-risk and compliance platform built for fast-scaling SaaS companies that need SOC 2, ISO 27001, and GDPR coverage without growing the security team. The category is dense — Vanta, Drata, Secureframe — and trust signals matter as much as content quality.
 
 ## The challenge
 

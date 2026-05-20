@@ -1,118 +1,158 @@
 {{ define "main" }}
-<article class="pr-case">
+{{ $current := .File.BaseFileName }}
+{{ $siblings := where (where .Site.RegularPages "Section" "case-study") "File.BaseFileName" "ne" $current }}
+{{ $more := first 3 ($siblings | shuffle) }}
+
+{{ $slug := .Params.slug | default $current }}
+{{ $cardImg := printf "/images/case-study-cards/%s.svg" $slug }}
+
+<article class="pr-cs">
 
   <!-- ====================================================
-       HERO — eyebrow, title, lede, big metrics
+       HERO (dark)
        ==================================================== -->
-  <section class="pr-case__hero">
-    <div class="pr-container">
-      <a href="/case-study/" class="pr-case__back">← All case studies</a>
-
-      <div class="pr-case__hero-eyebrow">
-        <span class="pr-eyebrow pr-eyebrow--red">Case study</span>
-        {{ with .Params.client }}<span class="pr-case__hero-client">{{ . }}</span>{{ end }}
-        {{ with .Params.industry }}<span class="pr-case__hero-industry">{{ . }}</span>{{ end }}
+  <header class="pr-cs__hero">
+    <div class="pr-cs__hero-grid">
+      <div class="pr-cs__hero-text">
+        <div class="pr-cs__hero-text-inner">
+          <div class="pr-cs__hero-pill"><span>Customer story</span></div>
+          <h1 class="pr-cs__hero-title">{{ .Title }}</h1>
+        </div>
       </div>
+      <div class="pr-cs__hero-card" aria-hidden="true">
+        <img loading="eager" decoding="async" src="{{ $cardImg }}" alt="{{ .Params.client }} case study card" class="pr-cs__hero-card-img">
+      </div>
+    </div>
+  </header>
 
-      {{ with .Params.logo }}
-        <img src="{{ . }}" alt="{{ $.Params.client }} logo" class="pr-case__hero-logo" loading="eager" decoding="async">
-      {{ end }}
+  <!-- ====================================================
+       BODY — sidebar + article
+       ==================================================== -->
+  <section class="pr-cs__body">
+    <div class="pr-container">
+      <div class="pr-cs__layout">
 
-      <h1 class="pr-case__title">{{ .Title }}</h1>
-      {{ with .Params.description }}<p class="pr-case__lede">{{ . }}</p>{{ end }}
+        <!-- LEFT STICKY SIDEBAR -->
+        <aside class="pr-cs__rail" aria-label="Engagement summary">
+          <div class="pr-cs__rail-card">
+            {{ with .Params.logo }}
+              <div class="pr-cs__rail-logo-wrap">
+                <img src="{{ . }}" alt="{{ $.Params.client }} logo" class="pr-cs__rail-logo" loading="eager">
+              </div>
+            {{ end }}
+            {{ with .Params.short_description }}
+              <p class="pr-cs__rail-desc">{{ . }}</p>
+            {{ end }}
 
-      {{ with .Params.hero_metrics }}
-        <div class="pr-case__hero-metrics">
-          {{ range . }}
-            <div class="pr-case__hero-metric">
-              <strong class="pr-case__hero-metric-value">{{ .value }}</strong>
-              <span class="pr-case__hero-metric-label">{{ .label }}</span>
-            </div>
+            <dl class="pr-cs__rail-dl">
+              {{ with .Params.industry }}
+                <div class="pr-cs__rail-row">
+                  <dt>Industry</dt><dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+              {{ with .Params.company_size }}
+                <div class="pr-cs__rail-row">
+                  <dt>Company Size</dt><dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+              {{ with .Params.goals }}
+                <div class="pr-cs__rail-row">
+                  <dt>Goals</dt><dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+              {{ with .Params.region }}
+                <div class="pr-cs__rail-row">
+                  <dt>Region</dt><dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+              {{ with .Params.engagement_start }}
+                <div class="pr-cs__rail-row">
+                  <dt>Engagement start date</dt><dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+            </dl>
+          </div>
+        </aside>
+
+        <!-- RIGHT ARTICLE -->
+        <div class="pr-cs__article">
+
+          <!-- The challenge: pull first matching section from page content if present.
+               We render full markdown content and let CSS style the .pr-cs__content within. -->
+          <div class="pr-cs__content">
+            {{ .Content }}
+          </div>
+
+          <!-- TESTIMONIAL CARD -->
+          {{ with .Params.testimonial }}
+            <aside class="pr-cs__quote" aria-label="Customer testimonial">
+              <img loading="lazy" decoding="async" src="/images/seo-table-rocket.svg" alt="" aria-hidden="true" class="pr-cs__quote-rocket" data-compare-rocket>
+              <div class="pr-cs__quote-inner">
+                {{ with .photo }}
+                  <div class="pr-cs__quote-photo-wrap">
+                    <img src="{{ . }}" alt="{{ $.Params.testimonial.name }}" class="pr-cs__quote-photo" loading="lazy">
+                    <img src="/images/cs-quote-mark.svg" alt="" aria-hidden="true" class="pr-cs__quote-mark">
+                  </div>
+                {{ end }}
+                <div class="pr-cs__quote-body">
+                  <blockquote class="pr-cs__quote-text">{{ .quote }}</blockquote>
+                  <div class="pr-cs__quote-meta">
+                    <span class="pr-cs__quote-name">
+                      <strong>{{ .name }}</strong>{{ with .role }}, {{ . }}{{ end }}
+                    </span>
+                    {{ with $.Params.logo }}
+                      <img src="{{ . }}" alt="" class="pr-cs__quote-logo pr-cs__quote-logo--{{ $slug }}" aria-hidden="true">
+                    {{ end }}
+                  </div>
+                </div>
+              </div>
+            </aside>
           {{ end }}
         </div>
-      {{ end }}
+
+      </div>
     </div>
   </section>
 
   <!-- ====================================================
-       BODY — at-a-glance rail + narrative
+       MORE SUCCESS STORIES
        ==================================================== -->
-  <section class="pr-case__body">
-    <div class="pr-container pr-case__layout">
-
-      <aside class="pr-case__rail" aria-label="Engagement summary">
-        <div class="pr-case__rail-card">
-          <h4 class="pr-case__rail-heading">At a glance</h4>
-          <dl class="pr-case__rail-dl">
-            {{ with .Params.client }}<dt>Client</dt><dd>{{ . }}</dd>{{ end }}
-            {{ with .Params.industry }}<dt>Industry</dt><dd>{{ . }}</dd>{{ end }}
-            {{ with .Params.company_size }}<dt>Company size</dt><dd>{{ . }}</dd>{{ end }}
-            {{ with .Params.services }}
-              <dt>Services</dt>
-              <dd>
-                <ul class="pr-case__rail-tags">
-                  {{ range . }}<li>{{ . }}</li>{{ end }}
-                </ul>
-              </dd>
-            {{ end }}
-            {{ with .Params.engagement_window }}<dt>Engagement</dt><dd>{{ . }}</dd>{{ end }}
-            {{ with .Params.duration }}<dt>Duration</dt><dd>{{ . }}</dd>{{ end }}
-          </dl>
-        </div>
-
-        {{ with .Params.secondary_metrics }}
-          <div class="pr-case__rail-card pr-case__rail-card--quiet">
-            <h4 class="pr-case__rail-heading">Also moved</h4>
-            <ul class="pr-case__rail-stats">
-              {{ range . }}
-                <li>
-                  <strong>{{ .value }}</strong>
-                  <span>{{ .label }}</span>
-                </li>
-              {{ end }}
-            </ul>
-          </div>
-        {{ end }}
-
-        <div class="pr-case__rail-card pr-case__rail-card--cta">
-          <strong>Want results like these?</strong>
-          <p>Tell us where your funnel breaks. Real reply within 1 business day.</p>
-          <button type="button" class="pr-btn pr-case__rail-btn" data-modal-trigger="funnel-audit" data-cta-source="case_study_rail">Free funnel audit →</button>
-        </div>
-      </aside>
-
-      <div class="pr-case__article">
-        <div class="pr-case__content">
-          {{ .Content }}
-        </div>
-
-        {{ with .Params.testimonial }}
-          <blockquote class="pr-case__quote">
-            <svg class="pr-case__quote-mark" viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="currentColor" d="M7 7h4v4H7c0 2.2 1.8 4 4 4v2c-3.3 0-6-2.7-6-6V7Zm9 0h4v4h-4c0 2.2 1.8 4 4 4v2c-3.3 0-6-2.7-6-6V7Z"/>
-            </svg>
-            <p class="pr-case__quote-text">{{ .quote }}</p>
-            <footer class="pr-case__quote-author">
-              <strong>{{ .name }}</strong>
-              {{ with .role }}<span>{{ . }}</span>{{ end }}
-            </footer>
-          </blockquote>
+  {{ if $more }}
+  <section class="pr-cs__more pr-section--casestudies">
+    <div class="pr-container">
+      <h2 class="pr-cs__more-title">More Success Stories</h2>
+      <div class="pr-cases">
+        {{ range $more }}
+          {{ $p := . }}
+          {{ $sibSlug := $p.Params.slug | default $p.File.BaseFileName }}
+          <article class="pr-case">
+            <div class="pr-case__card">
+              <img loading="lazy" decoding="async" src="/images/case-study-cards/{{ $sibSlug }}.svg" alt="{{ $p.Params.client }}" class="pr-case__card-img">
+            </div>
+            <div class="pr-case__body">
+              <p class="pr-case__copy">{{ $p.Title }}</p>
+              <a href="{{ $p.RelPermalink }}" class="pr-case__link">
+                <span class="pr-case__link-text">Read full story</span>
+                <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true">
+              </a>
+            </div>
+          </article>
         {{ end }}
       </div>
-
     </div>
   </section>
+  {{ end }}
 
   <!-- ====================================================
        BOTTOM CTA
        ==================================================== -->
-  <section class="pr-case__cta">
+  <section class="pr-cta-final pr-cs__cta">
     <div class="pr-container">
-      <div class="pr-case__cta-inner">
-        <h2>Your turn.</h2>
-        <p>We work with a small number of B2B SaaS companies at a time. If your paid or organic programme isn't compounding the way it should, we'll tell you what we'd change — in writing — within one business day.</p>
-        <button type="button" class="pr-btn" data-modal-trigger="funnel-audit" data-cta-source="case_study_bottom">Free funnel audit →</button>
-      </div>
+      <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+      <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+      <h2>Book a call today. Scale your pipeline tomorrow</h2>
+      <p>Please note that we only partner with 1-2 new clients per month</p>
+      <a href="/contact-us/" class="pr-btn" data-cta-location="case_study_bottom">Let's talk!</a>
     </div>
   </section>
 
