@@ -1048,6 +1048,11 @@ a.pr-hero__cta:hover,
   margin-left: 5px;
   margin-bottom: 5px;
 }
+@media (max-width: 767px) {
+  .pr-hero-seo__rating { gap: 10px; }
+  .pr-hero-seo__rating-stars { height: 26px; width: 124px; }
+  .pr-hero-seo__rating-logo { height: 18px; }
+}
 /* ─── PPC hero — inline rating row (mirrors SEO defaults) ─── */
 .pr-hero-ppc__rating {
   display: flex;
@@ -1060,6 +1065,11 @@ a.pr-hero__cta:hover,
 }
 .pr-hero-ppc__rating-stars { height: 38px; width: 180px; display: block; }
 .pr-hero-ppc__rating-logo { height: 24px; width: auto; display: block; margin-left: 5px; margin-bottom: 5px; }
+@media (max-width: 767px) {
+  .pr-hero-ppc__rating { gap: 10px; }
+  .pr-hero-ppc__rating-stars { height: 26px; width: 124px; }
+  .pr-hero-ppc__rating-logo { height: 18px; }
+}
 
 /* ─── SEO hero — layered collage ─── */
 .pr-hero__collage--seo {
@@ -1969,7 +1979,7 @@ a.pr-hero__cta:hover,
 }
 .pr-accordion__item[open] .pr-accordion__toggle { transform: rotate(45deg); }
 .pr-accordion__body {
-  padding: 0 0 1.5rem 2.5rem;
+  padding: 0 0 1.5rem 0;
   color: var(--pr-ink-2);
   font-size: 0.98rem;
   line-height: 1.7;
@@ -2199,12 +2209,14 @@ a.pr-hero__cta:hover,
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   position: relative;
+  min-height: 150px;
 }
 .pr-stat-band__gif-box::after {
   content: '';
   position: absolute;
-  top: 10%;
+  top: 6%;
   left: 0;
   right: 0;
   bottom: 0;
@@ -2213,29 +2225,24 @@ a.pr-hero__cta:hover,
   pointer-events: none;
   z-index: 2;
 }
-.pr-stat-band--seo .pr-stat-band__gif-box::after {
-  border-color: #000;
-  left: 5%;
-  right: 5%;
-}
-.pr-stat-band--seo .pr-stat-band__gif { width: 60%; }
 .pr-stat-band__gif {
-  width: 70%;
-  max-width: 200px;
-  height: 180px;
+  width: 80%;
+  height: 140px;
+  max-width: none;
   display: block;
   border-radius: 5px;
+  object-fit: contain;
 }
 .pr-stat-band__label {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 300;
   letter-spacing: 0.1em;
   color: black;
   text-transform: uppercase;
   position: absolute;
-  bottom: 18%;
-  left: 50%;
+  bottom: 14px;
+  left: 47%;
   transform: translateX(-50%);
   white-space: nowrap;
   z-index: 1;
@@ -2248,7 +2255,7 @@ a.pr-hero__cta:hover,
   color: black;
   text-transform: uppercase;
   position: absolute;
-  bottom: 18%;
+  bottom: 24px;
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -2263,12 +2270,7 @@ a.pr-hero__cta:hover,
     justify-content: center;
   }
 }
-.pr-stat-band--ppc .pr-stat-band__gif-box::after {
-  border-color: #000;
-  left: 5%;
-  right: 5%;
-}
-.pr-stat-band--ppc .pr-stat-band__gif { width: 60%; }
+.pr-stat-band--ppc .pr-stat-band__gif { width: 80%; }
 .pr-stat-band-ppc__label {
   font-family: "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 20px;
@@ -2277,7 +2279,7 @@ a.pr-hero__cta:hover,
   color: black;
   text-transform: uppercase;
   position: absolute;
-  bottom: 18%;
+  bottom: 24px;
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -2525,8 +2527,24 @@ a.pr-hero__cta:hover,
   .pr-cta-final__mark { width: 130px; left: 2%; bottom: 4%; }
   .pr-cta-final__phone { width: 180px; right: 2%; top: 2%; }
 }
-.pr-hero__mobile-img {
+.pr-hero__mobile-img,
+.pr-hero-seo__mobile-img,
+.pr-hero-ppc__mobile-img {
   display: none;
+}
+@media (max-width: 1023px) {
+  .pr-hero-seo__mobile-img,
+  .pr-hero-ppc__mobile-img {
+    display: block;
+    width: 100%;
+    margin-top: 32px;
+  }
+  .pr-hero-seo__mobile-img img,
+  .pr-hero-ppc__mobile-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 @media (max-width: 767px) {
   .pr-hero__mobile-img {
@@ -2546,10 +2564,10 @@ a.pr-hero__cta:hover,
   /* SEO — bordered principles cards: padding inside border, smaller icon and copy */
   .pr-principles__card { padding: 18px; border-width: 3px; }
   .pr-principles__icon,
-  .pr-principles__icon--buyers,
   .pr-principles__icon--purpose,
   .pr-principles__icon--intent,
   .pr-principles__icon--revenue { width: 36px !important; height: 36px !important; margin-left: 0 !important; }
+  .pr-principles__icon--buyers { width: 56px !important; height: 56px !important; margin-left: 0 !important; }
   .pr-principles__card p { font-size: 14px; line-height: 1.5; }
 
   /* Compare table — smaller column titles, smaller CTA */
@@ -2565,7 +2583,7 @@ a.pr-hero__cta:hover,
   /* PPC pipeline-flow — hide runner, smaller h2, fix card grid gap */
   .pr-pipeline-flow__runner { display: none !important; }
   .pr-pipeline-flow__title { font-size: 28px !important; line-height: 1.15 !important; white-space: normal !important; text-wrap: balance; }
-  .pr-pipeline-flow__icon { width: 30px !important; height: 22px !important; margin-bottom: 18px !important; }
+  .pr-pipeline-flow__icon { width: 42px !important; height: 32px !important; margin-bottom: 18px !important; }
   .pr-pipeline-flow__icon img { width: 100%; height: 100%; object-fit: contain; }
   .pr-pipeline-flow__grid { grid-template-columns: 1fr !important; gap: 16px; }
   .pr-pipeline-flow__col { display: contents; }
@@ -2574,8 +2592,7 @@ a.pr-hero__cta:hover,
   /* Stat band — gap between text and gif numbers (PPC missing) */
   .pr-stat-band__gif-box { gap: 0; padding: 0; width: 220px; height: 220px; margin-left: auto; margin-right: auto; }
   .pr-stat-band__gif { width: 100%; max-width: none; height: 180px; }
-  .pr-stat-band__label { margin-top: 8px; }
-  .pr-stat-band__label { margin-top: 8px; }
+  .pr-stat-band__label { bottom: 40px; }
 
   /* PPC approach lede — remove desktop margin that crushed mobile */
   .pr-approach-ppc__lede { margin-left: 16px !important; margin-right: 16px !important; }
@@ -4243,12 +4260,43 @@ a.pr-footer__trust-item:hover {
   background: var(--pr-cream);
   font-size: 0;
 }
-.pr-platforms-ppc picture {
+.pr-platforms-ppc__stage {
+  position: relative;
   display: block;
   max-width: 1540px;
   margin: 0 auto;
+  aspect-ratio: 1915 / 1043;
 }
-.pr-platforms-ppc__static { width: 100%; height: auto; }
+.pr-platforms-ppc__layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.pr-platforms-ppc__bg { z-index: 0; }
+.pr-platforms-ppc__billboard-text {
+  z-index: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-family: "IvyPresto Headline", Georgia, serif !important;
+  font-weight: 600 !important;
+  font-size: 56px !important;
+  line-height: 1.1 !important;
+  color: var(--pr-ink);
+  margin: 0;
+  padding: 3% 12% 0;
+  height: auto;
+  bottom: auto;
+}
+.pr-platforms-ppc__mobile { display: none; }
+@media (max-width: 1023px) {
+  .pr-platforms-ppc__stage { display: none; }
+  .pr-platforms-ppc__mobile { display: block; max-width: 1540px; margin: 0 auto; }
+  .pr-platforms-ppc__static { width: 100%; height: auto; }
+}
 .pr-platforms-ppc__heading {
   font-family: var(--pr-ivy-headline);
   font-weight: 600;
@@ -4289,7 +4337,7 @@ a.pr-footer__trust-item:hover {
 }
 @media (max-width: 767px) {
   .pr-platforms-ppc { padding: 0; overflow: hidden; }
-  .pr-platforms-ppc__static { width: 140%; max-width: none; margin-left: -20%; }
+  .pr-platforms-ppc__stage { width: 140%; max-width: none; margin-left: -20%; }
   .pr-platforms-ppc__heading { font-size: 32px; margin-bottom: 32px; }
   .pr-platforms-ppc__card { padding: 4px; border-radius: 12px; }
   .pr-platforms-ppc__grid { grid-template-columns: repeat(2, 1fr); }
@@ -4334,9 +4382,9 @@ a.pr-footer__trust-item:hover {
 }
 .pr-platforms-ppc__heading-stroke {
   position: absolute;
-  left: 220px;
-  top: 7px;
-  width: 350px;
+  left: 390px;
+  top: 51px;
+  width: 363px;
   height: auto;
   pointer-events: none;
   z-index: 0;
@@ -4345,6 +4393,78 @@ a.pr-footer__trust-item:hover {
 }
 .pr-platforms-ppc__heading-stroke.is-revealed {
   clip-path: inset(0 0% 0 0);
+}
+.pr-platforms-ppc__stage > .pr-platforms-ppc__grid {
+  position: absolute !important;
+  z-index: 2 !important;
+  inset: 27% auto auto 25% !important;
+  width: 51% !important;
+  height: 38% !important;
+  display: block !important;
+  pointer-events: none;
+}
+.pr-platforms-ppc__grid .pr-platforms-ppc__cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  position: absolute;
+}
+.pr-platforms-ppc__grid .pr-platforms-ppc__cell:nth-child(1) {
+  top: 20px;
+  left: 20px;
+  right: auto;
+  bottom: auto;
+  width: 33.33%;
+  height: 50%;
+}
+.pr-platforms-ppc__grid .pr-platforms-ppc__cell:nth-child(2) {
+  top: 20px;
+  left: 220px;
+  right: auto;
+  bottom: auto;
+  width: 33.33%;
+  height: 50%;
+}
+.pr-platforms-ppc__grid .pr-platforms-ppc__cell:nth-child(3) {
+  top: 20px;
+  left: 410px;
+  right: auto;
+  bottom: auto;
+  width: 33.33%;
+  height: 50%;
+}
+.pr-platforms-ppc__grid .pr-platforms-ppc__cell:nth-child(4) {
+  top: 33%;
+  left: 35px;
+  right: auto;
+  bottom: auto;
+  width: 30%;
+  height: 50%;
+}
+.pr-platforms-ppc__grid .pr-platforms-ppc__cell:nth-child(5) {
+  top: 32%;
+  left: 34%;
+  right: auto;
+  bottom: auto;
+  width: 25%;
+  height: 50%;
+}
+.pr-platforms-ppc__grid .pr-platforms-ppc__cell:nth-child(6) {
+  top: 33%;
+  left: 57%;
+  right: auto;
+  bottom: auto;
+  width: 30%;
+  height: 50%;
+}
+.pr-platforms-ppc__grid .pr-platforms-ppc__logo {
+  max-width: 50%;
+  max-height: 40%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 .pr-platforms-ppc__cell {
   opacity: 0;
@@ -4380,68 +4500,6 @@ a.pr-footer__trust-item:hover {
   left: 111px;
   top: -19px;
   z-index: 2;
-}
-.pr-platforms-ppc__grid {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-}
-.pr-platforms-ppc__cell {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px;
-}
-.pr-platforms-ppc__cell:nth-child(1) {
-  top: 72px;
-  left: 138px;
-  right: 0%;
-  bottom: 50%;
-  width: 21%;
-}
-.pr-platforms-ppc__cell:nth-child(2) {
-  top: 80px;
-  left: 38.33%;
-  right: 33.33%;
-  bottom: 50%;
-  width: 19%;
-}
-.pr-platforms-ppc__cell:nth-child(3) {
-  top: 72px;
-  left: 59.67%;
-  right: 0;
-  bottom: 50%;
-  width: 18%;
-}
-.pr-platforms-ppc__cell:nth-child(4) {
-  top: 12%;
-  left: 158px;
-  right: 66.67%;
-  bottom: 0;
-  width: 16%;
-}
-.pr-platforms-ppc__cell:nth-child(5) {
-  top: 11%;
-  left: 41.33%;
-  right: 33.33%;
-  bottom: 0;
-  width: 13%;
-}
-.pr-platforms-ppc__cell:nth-child(6) {
-  top: 11%;
-  left: 60.67%;
-  right: 0;
-  bottom: 0;
-  width: 17%;
-}
-.pr-platforms-ppc__logo {
-  max-width: 70%;
-  max-height: 70%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  display: block;
 }
 @media (max-width: 767px) {
   .pr-platforms-ppc { padding: 0; aspect-ratio: unset; }
@@ -10096,9 +10154,9 @@ body.pr-modal-open { overflow: hidden; }
 .pr-stories__accent-content {
   position: absolute;
   top: 50%;
-  left: 12%;
+  left: 15%;
   transform: translateY(-50%);
-  width: 42%;
+  width: 38%;
   z-index: 3;
   display: flex;
   flex-direction: column;
@@ -10206,11 +10264,43 @@ body.pr-modal-open { overflow: hidden; }
 }
 .pr-stories__accent-photo-wrap {
   position: absolute;
-  right: 13%;
+  right: 16%;
   top: anchor(--accent-content top);
   bottom: anchor(--accent-content bottom);
   aspect-ratio: 417 / 516;
   z-index: 2;
+}
+
+/* Featured story card stagger animation */
+@keyframes prAccentFadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.pr-stories__team-accent .pr-stories__accent-logo,
+.pr-stories__team-accent .pr-stories__accent-headline,
+.pr-stories__team-accent .pr-stories__accent-quote,
+.pr-stories__team-accent .pr-stories__accent-author,
+.pr-stories__team-accent .pr-stories__accent-photo-wrap {
+  opacity: 0;
+}
+.pr-stories__team-accent.is-revealed .pr-stories__accent-logo,
+.pr-stories__team-accent.is-revealed .pr-stories__accent-headline,
+.pr-stories__team-accent.is-revealed .pr-stories__accent-quote,
+.pr-stories__team-accent.is-revealed .pr-stories__accent-author,
+.pr-stories__team-accent.is-revealed .pr-stories__accent-photo-wrap {
+  animation: prAccentFadeUp 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+}
+.pr-stories__team-accent.is-revealed .pr-stories__accent-logo     { animation-delay: 0.10s; }
+.pr-stories__team-accent.is-revealed .pr-stories__accent-headline { animation-delay: 0.25s; }
+.pr-stories__team-accent.is-revealed .pr-stories__accent-photo-wrap { animation-delay: 0.30s; animation-duration: 0.9s; }
+.pr-stories__team-accent.is-revealed .pr-stories__accent-quote    { animation-delay: 0.40s; }
+.pr-stories__team-accent.is-revealed .pr-stories__accent-author   { animation-delay: 0.55s; }
+@media (prefers-reduced-motion: reduce) {
+  .pr-stories__team-accent .pr-stories__accent-logo,
+  .pr-stories__team-accent .pr-stories__accent-headline,
+  .pr-stories__team-accent .pr-stories__accent-quote,
+  .pr-stories__team-accent .pr-stories__accent-author,
+  .pr-stories__team-accent .pr-stories__accent-photo-wrap { opacity: 1; animation: none; }
 }
 .pr-stories__accent-photo {
   position: relative;
@@ -13514,11 +13604,21 @@ body.page-saas-ppc main {
   background: #FFFFFF;
   border: 0.5px solid #000000;
   border-radius: 14px;
-  padding: 32px;
+  padding: 80px 32px 32px;
   position: sticky;
   top: 100px;
 }
 .pr-hsform--contact2 { min-height: 505px; }
+@media (max-width: 767px) {
+  .pr-hsform--contact2 .inputs-list input[type="checkbox"],
+  .pr-hsform--contact2 input[type="checkbox"] {
+    width: 10px !important;
+    height: 10px !important;
+    min-width: 10px !important;
+    max-width: 10px !important;
+    max-height: 10px !important;
+  }
+}
 
 /* Contact page — client logo grid below first fold */
 .pr-contact-logos {
@@ -13780,7 +13880,7 @@ body.page-saas-ppc main {
 
 .pr-mtest-card {
   background: #FFFFFF;
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 28px 28px 24px;
   flex-shrink: 0;
   position: relative;
@@ -13820,9 +13920,6 @@ body.page-saas-ppc main {
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  border: 2px solid #0CC6F1;
-  padding: 2px;
-  background: #FFFFFF;
 }
 .pr-mtest-card__name {
   font-family: var(--pr-ivy-headline);
@@ -13872,7 +13969,10 @@ body.page-saas-ppc main {
 @media (max-width: 600px) {
   .pr-mtest-grid { grid-template-columns: 1fr; height: 480px; }
   .pr-mtest-col--down { display: none; }
-  .pr-mtest-title { font-size: 32px; }
+  .pr-mtest-title { font-size: 26px; max-width: 200px; }
+  .pr-mtest-clutch .pr-clutch__rating { font-size: 16px; }
+  .pr-mtest-clutch .pr-clutch__stars-img { height: 14px; }
+  .pr-mtest-clutch .pr-clutch__logo-img { height: 18px; }
 }
 
 /* ============================================================

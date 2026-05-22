@@ -684,6 +684,22 @@ const setupPipelineFlowDeco = () => {
   window.addEventListener('resize', update);
 };
 
+const setupFeaturedStory = () => {
+  if (!('IntersectionObserver' in window)) return;
+  const section = document.querySelector('.pr-stories__team-accent');
+  if (!section) return;
+  const io = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        section.classList.add('is-revealed');
+        io.unobserve(section);
+      }
+    },
+    { threshold: 0.2 }
+  );
+  io.observe(section);
+};
+
 const setupCtaParallax = () => {
   if (!('IntersectionObserver' in window)) return;
   const sections = document.querySelectorAll('.pr-cta-final');
@@ -817,6 +833,7 @@ const init = () => {
   setupPipelineRunnerReveal();
   setupOutcomeCardEqualHeight();
   setupCtaParallax();
+  setupFeaturedStory();
   setupOutcomeSection();
   setupCompareDecorations();
   setupTestimonialDots();

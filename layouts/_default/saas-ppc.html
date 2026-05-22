@@ -33,6 +33,9 @@
 
         <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
       </div>
+      <div class="pr-hero-ppc__mobile-img" aria-hidden="true">
+        <img src="/images/hero-ppc/hero-mobile.png" alt="" loading="eager">
+      </div>
       <div class="pr-hero__collage pr-hero__collage--ppc" aria-label="PipeRocket SaaS PPC — intent-led, pipeline-focused paid ads">
         <img class="pr-hero-ppc__sales"  src="/images/hero-ppc/sales-alignment.svg"  alt="" aria-hidden="true" loading="eager">
         <img class="pr-hero-ppc__funnel" src="/images/hero-ppc/full-funnel.svg"       alt="" aria-hidden="true" loading="eager">
@@ -208,26 +211,26 @@
 <!-- ====================================================
      NUMBERS THAT MATTER — STATS
      ==================================================== -->
-<section class="pr-stat-band pr-stat-band--ppc">
+<section class="pr-stat-band pr-stat-band--ppc pr-stat-band--saas-ppc">
   <div class="pr-container pr-center">
     <h2 class="pr-stat-band__heading">Numbers that matter</h2>
     <div class="pr-stat-band__row">
       <div class="pr-stat-band__item">
         <div class="pr-stat-band__gif-box">
-          <img src="/images/stat-customers.webp" alt="Customers" class="pr-stat-band__gif" loading="lazy" decoding="async">
-          <div class="pr-stat-band-ppc__label">CUSTOMERS</div>
+          <img src="/images/stat-customers.gif" alt="Customers" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">CUSTOMERS</div>
         </div>
       </div>
       <div class="pr-stat-band__item">
         <div class="pr-stat-band__gif-box">
-          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
-          <div class="pr-stat-band-ppc__label">PIPELINE</div>
+          <img src="/images/stat-pipeline.gif" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">PIPELINE</div>
         </div>
       </div>
       <div class="pr-stat-band__item">
         <div class="pr-stat-band__gif-box">
-          <img src="/images/stat-revenue.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
-          <div class="pr-stat-band-ppc__label">REVENUE</div>
+          <img src="/images/stat-revenue.gif" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">REVENUE</div>
         </div>
       </div>
     </div>
@@ -497,7 +500,20 @@
      AD PLATFORMS WE WORK WITH
      ==================================================== -->
 <section class="pr-platforms-ppc">
-  <picture>
+  <div class="pr-platforms-ppc__stage">
+    <img loading="lazy" decoding="async" src="/images/platforms-ppc/ads-platform-bg.png" alt="Ad platforms we work with: Google Ads, LinkedIn, YouTube, Meta, Bing, Reddit" class="pr-platforms-ppc__layer pr-platforms-ppc__bg">
+    <h2 class="pr-platforms-ppc__layer pr-platforms-ppc__billboard-text">Ad Platforms we work with</h2>
+    <img loading="lazy" decoding="async" src="/images/platforms-ppc/heading-stroke.svg" alt="" aria-hidden="true" class="pr-platforms-ppc__layer pr-platforms-ppc__heading-stroke">
+    <div class="pr-platforms-ppc__layer pr-platforms-ppc__grid">
+      <div class="pr-platforms-ppc__cell"><img loading="lazy" decoding="async" src="/images/platforms-ppc/google-ads.png" alt="Google Ads" class="pr-platforms-ppc__logo"></div>
+      <div class="pr-platforms-ppc__cell"><img loading="lazy" decoding="async" src="/images/platforms-ppc/linkedin.png" alt="LinkedIn" class="pr-platforms-ppc__logo"></div>
+      <div class="pr-platforms-ppc__cell"><img loading="lazy" decoding="async" src="/images/platforms-ppc/youtube.png" alt="YouTube" class="pr-platforms-ppc__logo"></div>
+      <div class="pr-platforms-ppc__cell"><img loading="lazy" decoding="async" src="/images/platforms-ppc/meta.png" alt="Meta" class="pr-platforms-ppc__logo"></div>
+      <div class="pr-platforms-ppc__cell"><img loading="lazy" decoding="async" src="/images/platforms-ppc/bing.png" alt="Bing" class="pr-platforms-ppc__logo"></div>
+      <div class="pr-platforms-ppc__cell"><img loading="lazy" decoding="async" src="/images/platforms-ppc/reddit.png" alt="Reddit" class="pr-platforms-ppc__logo"></div>
+    </div>
+  </div>
+  <picture class="pr-platforms-ppc__mobile">
     <source srcset="/images/platforms-ppc/ads-platform-section.webp" type="image/webp">
     <img loading="lazy" decoding="async" src="/images/platforms-ppc/ads-platform-section.webp" alt="Ad platforms we work with: Google Ads, LinkedIn, YouTube, Meta, Bing, Reddit" class="pr-platforms-ppc__static">
   </picture>
