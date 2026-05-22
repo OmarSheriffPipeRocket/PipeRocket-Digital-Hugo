@@ -44,7 +44,7 @@ The part most guides skip is this: crawling is also selective. Googlebot doesnâ€
 
 Fast Fact: Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
-Also read: [best B2B SEO agencies for technical SEO support](/list/best-b2b-seo-agencies-2/)
+Also read: [best B2B SEO agencies for technical SEO support](/list/best-b2b-seo-agencies/)
 
 ## How Does Crawling Actually Work?
 

@@ -94,7 +94,7 @@ Keeping it organized prevents your site from becoming a chaotic mess of orphan p
 
 Do not just write a blog post.
 
-I repeat: Do not just write a 1,000-word essay on why you are great. You need a structured [landing page](/blogs/blogs-optimize-saas-landing-pages-for-seo/ "Optimize SaaS Landing Pages for SEO") that guides the user from “curious” to “convinced”. At PipeRocket Digital, we use a specific flow that works consistently.
+I repeat: Do not just write a 1,000-word essay on why you are great. You need a structured [landing page](/blogs/optimize-saas-landing-pages-for-seo/ "Optimize SaaS Landing Pages for SEO") that guides the user from “curious” to “convinced”. At PipeRocket Digital, we use a specific flow that works consistently.
 
 ### **How to Build a Hero Section That Converts?**
 

@@ -1,0 +1,45 @@
+{{ define "head_extra" }}
+<style>
+  .pr-404 { min-height: 60vh; display: flex; align-items: center; }
+  .pr-404__wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 96px 24px;
+    text-align: center;
+  }
+  .pr-404__eyebrow {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    margin: 0 0 1rem;
+  }
+  .pr-404__title {
+    font-family: "Fraunces", serif;
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    line-height: 1.05;
+    color: var(--pr-ink);
+    margin: 0 0 1.25rem;
+  }
+  .pr-404__body {
+    font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.55;
+    color: var(--pr-ink);
+    margin: 0 auto 2rem;
+    max-width: 460px;
+  }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<section class="pr-404">
+  <div class="pr-404__wrap">
+    <p class="pr-404__eyebrow">Error 404</p>
+    <h1 class="pr-404__title">This pipeline went cold.</h1>
+    <p class="pr-404__body">The page you were after either moved or never existed. Let&rsquo;s get you back to something that drives pipeline.</p>
+    <a href="/" class="pr-btn" data-cta-location="404-home">Back to homepage</a>
+  </div>
+</section>
+{{ end }}

@@ -236,7 +236,7 @@ Best for: Organizations requiring cohesive multi-channel campaign management wit
 
 Ignite Visibility brings a structured methodology to managing campaigns across paid search, social, and CRO simultaneously. They serve clients like Tony Robbins and Sharp Healthcare by blending channels into cohesive growth strategies. Detailed analytics and attribution models connect every marketing effort to ROI.
 
-Before scaling paid search spend, ensuring [landing pages](/blogs/blogs-optimize-saas-landing-pages-for-seo/) are conversion-optimized is something Ignite builds into their process.
+Before scaling paid search spend, ensuring [landing pages](/blogs/optimize-saas-landing-pages-for-seo/) are conversion-optimized is something Ignite builds into their process.
 
 The agency excels at coordinating complex multi-channel programs for SaaS, Finance, and Healthcare brands. Their reliable execution and strong reporting standards make them suitable for companies seeking scalable performance marketing. Cross-channel integration remains their primary differentiator.
 

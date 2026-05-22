@@ -109,7 +109,7 @@ The most common SEO mistakes for SaaS and B2B teams come from treating SEO as a 
 
 If you’re unsure whether your current agency is doing more harm than good, compare your strategy with the [top SaaS SEO agencies](/list/best-saas-seo-agencies/). They’ll show you what a full-stack, intent-driven approach actually looks like.
 
-**Also read:** [B2B SEO agency guide for complex buying journeys](/list/best-b2b-seo-agencies-2/)
+**Also read:** [B2B SEO agency guide for complex buying journeys](/list/best-b2b-seo-agencies/)
 
 ## How Should You Structure an Effective SEO Strategy?
 

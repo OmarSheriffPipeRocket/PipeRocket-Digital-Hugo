@@ -115,6 +115,6 @@ Every list under [`/list/`](/list/) follows the criteria above. The newest examp
 
 - [Best Affordable B2B PPC Agencies](/list/best-affordable-b2b-ppc-agencies/)
 - [11 LinkedIn Marketing Agencies Ranked in 2026](/list/best-linkedin-marketing-agencies/)
-- [Best B2B Advertising Agencies — 2026 Rankings](/list/the-best-b2b-advertising-agencies-2026-rankings/)
+- [Best B2B Advertising Agencies — 2026 Rankings](/list/best-b2b-advertising-agencies/)
 
 If you'd like a list that doesn't exist yet — a category we haven't covered — email <a href="mailto:editorial@piperocket.digital">editorial@piperocket.digital</a>. We prioritise list requests from named B2B SaaS marketing leaders who are running an actual agency search.

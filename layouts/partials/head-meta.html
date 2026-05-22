@@ -6,7 +6,7 @@
   - JSON-LD Article + Person (author) + Organization (publisher)
 */}}
 
-{{ $isArticle := in (slice "blogs" "list" "glossary" "alternative" "vs" "author") .Section }}
+{{ $isArticle := in (slice "blogs" "list" "glossary" "alternative" "vs" "author" "case-study") .Section }}
 {{ $isHome := .IsHome }}
 
 {{/* Resolve author from frontmatter (writtenBy) OR from authors section page slug */}}
@@ -97,7 +97,11 @@
 {{ end }}
 
 {{/* ============== AI / search bot directives ============== */}}
+{{ if eq .Kind "404" }}
+<meta name="robots" content="noindex, nofollow">
+{{ else }}
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+{{ end }}
 
 {{/* ============== Google Search Console — preserve all legacy verifications ==
      The HTML-file verification lives at /google<token>.html (in static/).

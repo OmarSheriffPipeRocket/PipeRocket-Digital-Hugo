@@ -79,7 +79,7 @@ Here’s the catch: focusing only on audits and fixing what’s broken isn’t e
 
 A real trade-off: Using heavy JavaScript frameworks gives you flexibility and product speed, but can cripple crawlability if you don’t hydrate content for bots. It’s worth it if you need rich interactivity, but only if you invest in server-side rendering or prerendering for key pages.
 
-**Also read:** [best B2B SEO agencies for technical and content strategy](/list/best-b2b-seo-agencies-2/)
+**Also read:** [best B2B SEO agencies for technical and content strategy](/list/best-b2b-seo-agencies/)
 
 ## How Do You Fix Common Technical SEO Issues?
 

@@ -64,7 +64,7 @@ Fast Fact: Most SaaS teams that track MQL-to-SQL conversion without a SAL stage 
 
 A lot of revenue operations teams treat SAL as optional. That’s a mistake. The SAL stage is where your lead qualification SLA lives it defines how fast sales must respond, what criteria they’re evaluating, and what happens when they reject a lead. Remove it and you remove accountability.
 
-Also read: [top B2B SEO companies that support pipeline-focused content strategies](/list/best-b2b-seo-agencies-2/)
+Also read: [top B2B SEO companies that support pipeline-focused content strategies](/list/best-b2b-seo-agencies/)
 
 ## Why Do So Many SaaS Teams Skip the SAL Stage?
 

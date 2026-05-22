@@ -81,7 +81,7 @@ The reality is Google doesn’t always show your meta description. If your snipp
 
 Here’s the trade-off: investing in meta descriptions is worth it when you know the top intent for each page and can control the message. But for huge SaaS sites with thousands of pages, it’s sometimes more efficient to focus on your top 10 20 pages and let Google handle the long tail provided your on-page copy is strong. The teams that win are those that monitor their SERP snippets, not just rankings.
 
-**Also read:** [top SaaS SEO agencies for B2B companies](/list/best-b2b-seo-agencies-2/)
+**Also read:** [top SaaS SEO agencies for B2B companies](/list/best-b2b-seo-agencies/)
 
 ## What Makes a Meta Description Effective for B2B and SaaS Sites?
 

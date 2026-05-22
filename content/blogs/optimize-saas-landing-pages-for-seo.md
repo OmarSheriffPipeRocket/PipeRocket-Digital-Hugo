@@ -5,12 +5,12 @@ metaTitle: "How to Optimize SaaS Landing Pages for SEO in 2026"
 metaDescription: "I wrote this blog to talk about how you should be optimizing a SaaS landing page for SEO and lead generation based on my 15+ years of experience."
 date: 2026-02-10
 lastmod: 2026-05-12
-slug: "blogs-optimize-saas-landing-pages-for-seo"
+slug: "optimize-saas-landing-pages-for-seo"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/blog-covers/blogs-optimize-saas-landing-pages-for-seo.webp"
+featuredImage: "/images/blog-covers/optimize-saas-landing-pages-for-seo.webp"
 wp_id: 2622
-wp_link: "/blogs/blogs-optimize-saas-landing-pages-for-seo/"
+wp_link: "/blogs/optimize-saas-landing-pages-for-seo/"
 ---
 
 I’ve sat in meetings where everyone treats a landing page like a digital brochure. They focus entirely on how the design looks, or they obsess over ranking for a high-volume keyword without ever checking if that keyword actually drives revenue.

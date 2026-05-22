@@ -78,7 +78,7 @@ Here’s the real trade-off: Spending to improve onboarding, support, or product
 
 If you’re not tracking CLV by segment and channel, you’ll end up with a bloated acquisition budget and no idea which efforts are actually driving cash flow. And once you start seeing expansion revenue as a CLV lever, you realize that most SaaS growth problems are actually retention problems in disguise.
 
-**Also read:** [best B2B SEO agencies for CLV-focused channel growth](/list/best-b2b-seo-agencies-2/)
+**Also read:** [best B2B SEO agencies for CLV-focused channel growth](/list/best-b2b-seo-agencies/)
 
 ## What’s the Difference Between CLV and LTV?
 

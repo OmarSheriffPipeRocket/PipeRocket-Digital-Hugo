@@ -19,7 +19,7 @@
 /xmlrpc.php                              /                                   410
 /category/*                              /blogs/                             301
 /tag/*                                   /blogs/                             301
-/author/*                                /authors/                           301
+/author/*                                /author/                                   301
 /?p=*                                    /                                   301
 /?page_id=*                              /                                   301
 /sitemap_index.xml                       /sitemap.xml                        301
@@ -38,13 +38,12 @@
 /blogs/how-to-do-saas-ppc-audit/                        /blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account/ 301
 /blogs/how-to-write-saas-seo-content-with-ai/           /blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks/ 301
 /blogs/how-to-write-saas-google-ads-copy/               /blogs/how-to-write-google-ads-copy-for-saas-in-2026/   301
-/blogs/optimize-saas-landing-pages-for-seo/             /blogs/blogs-optimize-saas-landing-pages-for-seo/       301
 /glossary/mql/                                          /glossary/                                              301
 /glossary/buyer-persona/                                /glossary/                                              301
 /glossary/keyword-clusters/                             /glossary/what-are-keyword-clusters/                    301
 /blogs/best-saas-marketing-agencies/                    /list/best-saas-marketing-agencies-2026/                301
 /blogs/best-saas-seo-agencies/                          /list/best-saas-seo-agencies/                           301
-/blogs/best-b2b-seo-agencies/                           /list/best-b2b-seo-agencies-2/                          301
+/blogs/best-b2b-seo-agencies/                           /list/best-b2b-seo-agencies/                          301
 /blogs/best-saas-ppc-agencies/                          /list/best-saas-ppc-agencies/                           301
 /blogs/best-b2b-marketing-agencies/                     /list/best-b2b-marketing-agencies/                      301
 /blogs/best-enterprise-seo-agencies/                    /list/best-enterprise-seo-agencies/                     301
@@ -56,11 +55,11 @@
 /blogs/best-saas-content-marketing-agencies/            /list/best-saas-content-marketing-agencies/             301
 /blogs/top-performance-marketing-agencies/              /list/top-performance-marketing-agencies/               301
 /blogs/best-geo-agencies/                               /list/best-geo-agencies/                                301
-/blogs/best-technical-seo-agencies/                     /list/the-11-best-technical-seo-agencies-for-2026/      301
-/blogs/best-saas-link-building-agencies/                /list/the-10-best-saas-link-building-agencies-in-2026/  301
-/blogs/best-b2b-advertising-agencies/                   /list/the-best-b2b-advertising-agencies-2026-rankings/  301
-/case-studies/*                                         /case-study/:splat                                      301
-/success-stories/*                                      /case-study/:splat                                      301
+/blogs/best-technical-seo-agencies/                     /list/best-technical-seo-agencies/      301
+/blogs/best-saas-link-building-agencies/                /list/best-saas-link-building-agencies/  301
+/blogs/best-b2b-advertising-agencies/                   /list/best-b2b-advertising-agencies/  301
+/case-studies/*                                         /case-study/                                               301
+/success-stories/*                                      /case-study/                                               301
 /articles/*                                             /blogs/:splat                                           301
 /account-based-marketing/                               /account-based-marketing-agency/                        301
 /content-marketing/                                     /content-marketing-agency/                              301
@@ -74,17 +73,27 @@
 
 /blogs/best-b2b-lead-generation-companies/                   /list/best-b2b-lead-generation-companies/                    301
 /blogs/best-edtech-marketing-agencies/                       /list/best-edtech-marketing-agencies/                        301
-/blogs/enterprise-seo-guide/                                 /blogs/enterprise-seo-guide-2/                               301
-/blogs/how-to-do-saas-content-audit/                         /blogs/how-to-run-a-saas-content-audit-that-actually-moves-rankings/ 301
 /blogs/top-fintech-marketing-agencies/                       /list/top-fintech-marketing-agencies/                        301
-/list/12-best-saas-seo-agencies-for-startups-2026//          /list/12-best-saas-seo-agencies-for-startups-2026/           301
-/list/best-aeo-agency/                                       /list/12-best-answer-engine-optimization-aeo-agencies-in-the-usa-2026/ 301
-/list/best-b2b-advertising-agencies/                         /list/the-best-b2b-advertising-agencies-2026-rankings/       301
-/list/best-b2b-demand-generation-agencies/                   /list/the-11-best-b2b-demand-generation-agencies-in-2026/    301
-/list/best-devtools-marketing-agencies/                      /list/best-devtools-marketing-agencies-in-2026/              301
 /list/best-geo-agency/                                       /list/best-geo-agencies/                                     301
-/list/best-healthtech-marketing-agencies/                    /list/best-healthtech-marketing-agencies-in-2026/            301
-/list/best-saas-growth-marketing-agencies/                   /list/11-best-saas-growth-marketing-agencies-2026/           301
-/list/best-saas-link-building-agencies/                      /list/the-10-best-saas-link-building-agencies-in-2026/       301
-/list/best-technical-seo-agencies/                           /list/the-11-best-technical-seo-agencies-for-2026/           301
 /saas-seo-agency/faqs1                                       /saas-seo-agency/faqs/                                       301
+
+# ============================================================
+#  C2. Decommissioned WP URLs — no direct Hugo equivalent
+# ============================================================
+
+/blog/                                                       /blogs/                                                      301
+/gtm-lp/                                                     /                                                            301
+/saas-seo/                                                   /saas-seo-agency/                                            301
+/us/b2b-seo-agency-california/                               /saas-seo-agency/                                            301
+/webinar/                                                    /                                                            301
+
+# Permanently gone — empty/decommissioned, no replacement
+/locations.kml                                               /                                                            410
+/manage-subscriptions/                                       /                                                            410
+/webinar-nivas/                                              /                                                            410
+
+# ============================================================
+#  D. Final fallback — anything unmatched returns HTTP 404
+# ============================================================
+
+/*                                                           /404.html                                                    404

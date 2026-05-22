@@ -5,10 +5,10 @@ metaTitle: "How We Effectively Run A SaaS Content Audit in 2026"
 metaDescription: "A practical SaaS content audit: how to find pages eating crawl budget, decide what to keep, rewrite, merge, or kill, and turn audits into ranking moves."
 date: 2026-03-11
 lastmod: 2026-05-13
-slug: "how-to-run-a-saas-content-audit-that-actually-moves-rankings"
+slug: "how-to-do-saas-content-audit"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/blog-covers/how-to-run-a-saas-content-audit-that-actually-moves-rankings.webp"
+featuredImage: "/images/blog-covers/how-to-do-saas-content-audit.webp"
 wp_id: 2794
 wp_link: "/blogs/how-to-do-saas-content-audit/"
 ---

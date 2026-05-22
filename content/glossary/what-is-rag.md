@@ -99,7 +99,7 @@ Here’s a concrete case: Onboarding Ops, a SaaS for HR automation, used RAG to 
 
 The nuanced warning: This approach works well for SaaS products with a deep, evolving documentation base. For fast-moving companies with lots of undocumented processes, RAG can become a liability your AI may confidently answer with out-of-date info, eroding user trust.
 
-**Also read:** [top B2B SEO agencies for SaaS expansion](/list/best-b2b-seo-agencies-2/)
+**Also read:** [top B2B SEO agencies for SaaS expansion](/list/best-b2b-seo-agencies/)
 
 ## How Is RAG Different from Using a Pure LLM?
 
