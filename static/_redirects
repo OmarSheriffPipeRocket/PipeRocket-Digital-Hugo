@@ -95,5 +95,8 @@
 # ============================================================
 #  D. Final fallback — anything unmatched returns HTTP 404
 # ============================================================
-
-/*                                                           /404.html                                                    404
+# Cloudflare Pages automatically serves /404.html for any path that doesn't
+# exist (with HTTP 404 status), so no explicit catch-all rule is needed.
+# (On Netlify, an explicit "/* /404.html 404" line was required here — but
+# on Cloudflare Pages that creates an infinite redirect loop because Pages
+# evaluates _redirects before checking static files.)
