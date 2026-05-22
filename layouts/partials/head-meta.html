@@ -317,11 +317,15 @@
 {{ end }}
 
 {{/* ============== JSON-LD: ItemList for ranked listicles ==============
-     Auto-detected when the URL is under /list/ AND the body has a
-     TL;DR or Quick Picks numbered ranking. Each entry becomes a
-     position in the ranked ItemList. Unlocks Google's "best X" SERP
-     features and AI Overview citation. */}}
+     Two extraction paths:
+       1. "## TL;DR" or "## Quick Picks" heading + numbered list below
+       2. Fallback: intro paragraph "Comparing the top N best ... includes 1. X, 2. Y, ..."
+     Each entry becomes a position in the ranked ItemList. Unlocks Google's
+     "best X" SERP features and AI Overview citation. */}}
 {{ if or (eq .Section "list") (in .RelPermalink "/list/") }}
+  {{ $items := slice }}
+
+  {{/* Path 1: TL;DR or Quick Picks section */}}
   {{ $tldrAfter := "" }}
   {{ if findRE "(?im)^##\\s+TL;DR\\s*$" $raw }}
     {{ $tldrAfter = index (split $raw "## TL;DR") 1 }}
@@ -329,15 +333,23 @@
     {{ $tldrAfter = index (split $raw "## Quick Picks") 1 }}
   {{ end }}
   {{ if $tldrAfter }}
-    {{/* Trim at next H2 */}}
     {{ $afterNextH2 := findRE "\\n##\\s+" $tldrAfter 1 }}
     {{ if $afterNextH2 }}
       {{ $tldrAfter = index (split $tldrAfter (index $afterNextH2 0)) 0 }}
     {{ end }}
-    {{/* Match numbered items: "1. **Name:** ..." or "- 1. Name · ..." */}}
-    {{ $itemPattern := "(?m)^(?:-\\s*)?(\\d+)\\.\\s+\\*?\\*?([^:·*\\n]+)" }}
-    {{ $items := findRESubmatch $itemPattern $tldrAfter }}
-    {{ if $items }}
+    {{ $items = findRESubmatch "(?m)^(?:-\\s*)?(\\d+)\\.\\s+\\*?\\*?([^:·*\\n]+)" $tldrAfter }}
+  {{ end }}
+
+  {{/* Path 2 (fallback): intro paragraph "Comparing the top N best … includes 1. X, 2. Y, …" */}}
+  {{ if not $items }}
+    {{ $introMatch := findRESubmatch "Comparing the top \\d+ best [^\\n]+? includes ([^\\n]+)" $raw }}
+    {{ if $introMatch }}
+      {{ $itemsStr := index (index $introMatch 0) 1 }}
+      {{ $items = findRESubmatch "(\\d+)\\.\\s+([^,\\n]+?)(?:,|\\s+and\\s+\\d+\\.|\\.$|$)" $itemsStr }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $items }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -351,13 +363,12 @@
     {
       "@type": "ListItem",
       "position": {{ index $item 1 }},
-      "name": "{{ trim (index $item 2) " *" }}"
+      "name": "{{ trim (index $item 2) " *." }}"
     }
     {{- end }}
   ]
 }
 </script>
-    {{ end }}
   {{ end }}
 {{ end }}
 
@@ -385,6 +396,53 @@
       "name": "{{ .Title }}",
       "item": {{ .Permalink | jsonify }}
     }
+  ]
+}
+</script>
+
+{{/* ============== JSON-LD: DefinedTerm for glossary entries ==============
+     Each glossary page is a DefinedTerm in the PipeRocket Marketing Glossary
+     DefinedTermSet. Helps AI Overviews + entity search cite the right term. */}}
+{{ if and (eq .Section "glossary") (eq .Kind "page") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "{{ .Permalink }}#definedterm",
+  "name": "{{ .Title }}",
+  "description": "{{ $descJ }}",
+  "url": "{{ .Permalink }}",
+  "inDefinedTermSet": {
+    "@type": "DefinedTermSet",
+    "name": "PipeRocket SaaS Marketing Glossary",
+    "url": "{{ absURL "/glossary/" }}"
+  }
+}
+</script>
+{{ end }}
+{{ end }}
+
+{{/* ============== JSON-LD: FAQPage for compare pages (from frontmatter) ==============
+     Compare pages store FAQs in the .Params.faqs frontmatter array
+     (not in markdown body), so the body-parser FAQPage block above
+     doesn't catch them. This block emits FAQPage from frontmatter. */}}
+{{ if and (eq .Section "compare") .Params.faqs }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $faq := .Params.faqs }}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ $faq.q | replaceRE "\"" "\\\"" }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $faq.a | replaceRE "\"" "\\\"" | replaceRE "\n" " " }}"
+      }
+    }
+    {{- end }}
   ]
 }
 </script>
