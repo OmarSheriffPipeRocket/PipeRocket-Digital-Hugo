@@ -27,7 +27,7 @@
         <div class="pr-blog-v2__byline">
           {{ with $writer }}
             <span class="pr-author-tip">
-              <a class="pr-blog-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
+              <a class="pr-blog-v2__author" href="{{ with .Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">
                 {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
                 <span>{{ .name }}</span>
               </a>

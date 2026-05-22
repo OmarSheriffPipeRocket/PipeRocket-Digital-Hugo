@@ -105,7 +105,7 @@ We don't accept "exchange of placement" deals with other publications. We don't 
 
 ## Who does this research
 
-These lists are researched and edited by **[Kamaraj Mathiarasan (Kim)](/authors/kim/)**, PipeRocket Digital co-founder, who has spent 12+ years inside B2B SaaS SEO and previously studied 150+ B2B SaaS brands across pipeline-led growth programmes. Listicles touching adjacent surfaces (PPC, ABM, marketing operations) are co-reviewed by the relevant subject-matter expert on our editorial team — Praveen Ravi (paid + ABM) or Ranjeeth Kumar (BOFU / pipeline attribution).
+These lists are researched and edited by **[Kamaraj Mathiarasan (Kim)](/author/kamaraj-mathiarasan/)**, PipeRocket Digital co-founder, who has spent 12+ years inside B2B SaaS SEO and previously studied 150+ B2B SaaS brands across pipeline-led growth programmes. Listicles touching adjacent surfaces (PPC, ABM, marketing operations) are co-reviewed by the relevant subject-matter expert on our editorial team — Praveen Ravi (paid + ABM) or Ranjeeth Kumar (BOFU / pipeline attribution).
 
 Author bylines on each listicle name the primary researcher. Reviewer bylines (when present) name the subject-matter check.
 

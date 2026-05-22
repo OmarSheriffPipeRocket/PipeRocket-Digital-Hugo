@@ -4,6 +4,7 @@ description: "Most B2B SaaS companies hit a point where the startup SEO playbook
 metaTitle: "Enterprise SEO Strategies: The 7-Step Framework for Growth"
 metaDescription: "A complete 7-step Enterprise SEO strategy framework built for B2B teams who want organic search to generate pipeline, not just traffic."
 date: 2026-04-09
+featuredImage: "/images/blog-covers/enterprise-seo-strategy-and-framework.webp"
 lastmod: 2026-04-29
 slug: "enterprise-seo-strategy-and-framework"
 writtenBy: "kim"

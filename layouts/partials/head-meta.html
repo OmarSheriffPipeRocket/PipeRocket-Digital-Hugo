@@ -6,7 +6,7 @@
   - JSON-LD Article + Person (author) + Organization (publisher)
 */}}
 
-{{ $isArticle := in (slice "blogs" "list" "glossary" "alternative" "vs" "authors") .Section }}
+{{ $isArticle := in (slice "blogs" "list" "glossary" "alternative" "vs" "author") .Section }}
 {{ $isHome := .IsHome }}
 
 {{/* Resolve author from frontmatter (writtenBy) OR from authors section page slug */}}
@@ -16,8 +16,8 @@
     {{ $author = . }}
   {{ end }}
 {{ end }}
-{{/* For /authors/<slug>/ pages, the author IS the page — look up by file basename */}}
-{{ $isAuthorPage := eq .Section "authors" }}
+{{/* For /author/<slug>/ pages, the author IS the page — look up by file basename */}}
+{{ $isAuthorPage := eq .Section "author" }}
 {{ if and $isAuthorPage (not .Params.writtenBy) }}
   {{ $authorSlug := default .File.BaseFileName .Params.slug }}
   {{ with index .Site.Data.authors $authorSlug }}
@@ -178,10 +178,15 @@
 
 {{/* ============== JSON-LD: Article + Author (per article page) ============== */}}
 {{ if $isArticle }}
+{{ $authorPath := "" }}
+{{ with .Params.writtenBy }}
+  {{ $authorPath = printf "/author/%s/" . }}
+  {{ with $.Site.GetPage (printf "/author/%s" .) }}{{ $authorPath = .RelPermalink }}{{ end }}
+{{ end }}
 {{ $authorJson := dict
   "@type" "Person"
   "name" (default $author.name .Params.writtenBy)
-  "url" (cond (not (not .Params.writtenBy)) (printf "%s/authors/%s/" (trim .Site.BaseURL "/") .Params.writtenBy) "")
+  "url" (cond (ne $authorPath "") (printf "%s%s" (trim .Site.BaseURL "/") $authorPath) "")
 }}
 {{ if $author.bio }}{{ $authorJson = merge $authorJson (dict "description" $author.bio) }}{{ end }}
 {{ if $author.role }}{{ $authorJson = merge $authorJson (dict "jobTitle" $author.role) }}{{ end }}
@@ -223,7 +228,7 @@
     "name": "{{ default .Params.writtenBy $author.name }}"
     {{- with $author.bio }},"description": "{{ . | replaceRE "\"" "\\\"" }}"{{ end -}}
     {{- with $author.role }},"jobTitle": "{{ . }}"{{ end -}}
-    {{- with .Params.writtenBy }},"url": "{{ printf "%s/authors/%s/" (trim $.Site.BaseURL "/") . }}"{{ end -}}
+    {{- with .Params.writtenBy }}{{ $path := printf "/author/%s/" . }}{{ with $.Site.GetPage (printf "/author/%s" .) }}{{ $path = .RelPermalink }}{{ end }},"url": "{{ printf "%s%s" (trim $.Site.BaseURL "/") $path }}"{{ end -}}
     {{- with $author.linkedin }},"sameAs": ["{{ . }}"]{{ end -}}
     {{- with $author.expertise }},"knowsAbout": [{{ range $idx, $exp := . }}{{ if $idx }},{{ end }}"{{ $exp }}"{{ end }}]{{ end }}
   },

@@ -4,6 +4,7 @@ description: "What Is Enterprise SaaS SEO? Enterprise SaaS SEO is the practice o
 metaTitle: "Enterprise SaaS SEO: The 2026 Complete Guide to Scaling"
 metaDescription: "Enterprise SaaS SEO is not standard SEO at higher volume. Here is how to build an organic program that scales across personas, and markets."
 date: 2026-04-09
+featuredImage: "/images/blog-covers/enterprise-saas-seo-guide.webp"
 lastmod: 2026-04-29
 slug: "enterprise-saas-seo-guide"
 writtenBy: "kim"

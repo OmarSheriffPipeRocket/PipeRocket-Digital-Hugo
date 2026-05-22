@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "saas-linkedin-ads-mistakes-to-avoid"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/saas-linkedin-ads-mistakes-blog-banner.webp"
+featuredImage: "/images/blog-covers/saas-linkedin-ads-mistakes-to-avoid.webp"
 wp_id: 2772
 wp_link: "/blogs/saas-linkedin-ads-mistakes-to-avoid/"
 ---

@@ -4,6 +4,7 @@ description: "Most SaaS companies we talk to know they need saas link building b
 metaTitle: "SaaS Link Building: The Complete 2026 Guide"
 metaDescription: "A practical saas link building guide covering the strategies, the pages that actually need backlinks, and how to measure ROI from your efforts."
 date: 2026-04-08
+featuredImage: "/images/blog-covers/saas-link-building.webp"
 lastmod: 2026-05-13
 slug: "saas-link-building"
 writtenBy: "kim"

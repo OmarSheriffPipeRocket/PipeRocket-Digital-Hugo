@@ -10,7 +10,7 @@ slug: "ai-seo-statistics"
 url: "/research/ai-seo-statistics/"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/ai-seo-statistics-banner-2026.webp"
+featuredImage: "/images/blog-covers/research-ai-seo-statistics.webp"
 wp_id: 2967
 wp_link: "/research/ai-seo-statistics/"
 ---

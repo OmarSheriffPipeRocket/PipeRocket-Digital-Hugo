@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "how-to-do-saas-seo-keyword-research"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/How-to-do-SaaS-SEO-Keyword-Research-Blog-Banner-Image-1.webp"
+featuredImage: "/images/blog-covers/how-to-do-saas-seo-keyword-research.webp"
 wp_id: 2597
 wp_link: "/blogs/how-to-do-saas-seo-keyword-research/"
 ---

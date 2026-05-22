@@ -8,7 +8,7 @@ lastmod: 2026-04-29
 slug: "saas-seo"
 writtenBy: "kim"
 category: "SEO"
-featuredImage: "/images/wp-import/Saas-SEO-Blog-Banner-Image-1.webp"
+featuredImage: "/images/blog-covers/saas-seo.webp"
 wp_id: 125
 wp_link: "/blogs/saas-seo/"
 ---

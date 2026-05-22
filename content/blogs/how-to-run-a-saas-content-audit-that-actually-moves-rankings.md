@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "how-to-run-a-saas-content-audit-that-actually-moves-rankings"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/How-to-do-SaaS-content-audit-blog-banner.webp"
+featuredImage: "/images/blog-covers/how-to-run-a-saas-content-audit-that-actually-moves-rankings.webp"
 wp_id: 2794
 wp_link: "/blogs/how-to-do-saas-content-audit/"
 ---

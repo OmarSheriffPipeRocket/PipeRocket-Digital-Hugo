@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "b2b-ppc"
 writtenBy: "praveen"
 category: "B2B PPC"
-featuredImage: "/images/wp-import/B2B-PPC-Blog-Banner-Image.webp"
+featuredImage: "/images/blog-covers/b2b-ppc.webp"
 wp_id: 2428
 wp_link: "/blogs/b2b-ppc/"
 ---

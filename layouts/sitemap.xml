@@ -40,7 +40,7 @@
     {{- $changefreq = "monthly" -}}
 
   {{/* Author pages */}}
-  {{- else if eq .Section "authors" -}}
+  {{- else if eq .Section "author" -}}
     {{- $priority = "0.5" -}}
     {{- $changefreq = "monthly" -}}
   {{- end -}}

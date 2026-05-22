@@ -8,7 +8,7 @@ lastmod: 2026-04-13
 slug: "linkedin-account-based-marketing"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/LinkedIn-Account-based-Marketing-Blog-Banner.webp"
+featuredImage: "/images/blog-covers/linkedin-account-based-marketing.webp"
 wp_id: 2839
 wp_link: "/blogs/linkedin-account-based-marketing/"
 ---

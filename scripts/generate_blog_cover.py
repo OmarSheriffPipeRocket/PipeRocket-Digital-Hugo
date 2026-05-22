@@ -198,6 +198,18 @@ def generate(title: str, template_num: int = None, out_path: str = None):
     else:
         img, zone_cx, first_line_y = result
 
+    # Upscale template + render text at higher resolution for crisp retina output
+    SCALE = 3
+    if SCALE != 1:
+        img = img.resize((img.width * SCALE, img.height * SCALE), Image.LANCZOS)
+        font_reg  = ImageFont.truetype(FONT_REGULAR, font_size * SCALE)
+        font_bold = ImageFont.truetype(FONT_BOLD,    font_size * SCALE)
+        space_w   = font_reg.getlength(" ")
+        ascent, descent = font_reg.getmetrics()
+        line_h = ascent + descent - 2 * SCALE
+        zone_cx *= SCALE
+        first_line_y *= SCALE
+
     draw = ImageDraw.Draw(img)
     for i, line in enumerate(lines):
         lw = line_width(line, font_reg, font_bold, space_w)
@@ -207,9 +219,11 @@ def generate(title: str, template_num: int = None, out_path: str = None):
 
     if out_path is None:
         safe_name = re.sub(r'[^\w\s-]', '', title.replace('**', '')).strip().replace(' ', '-').lower()
-        out_path = os.path.join(TEMPLATES_DIR, f"{safe_name}.png")
+        out_path = os.path.join(TEMPLATES_DIR, f"{safe_name}.webp")
+    elif out_path.lower().endswith(".png"):
+        out_path = out_path[:-4] + ".webp"
 
-    img.convert("RGB").save(out_path, "PNG", optimize=True)
+    img.convert("RGB").save(out_path, "WEBP", quality=90, method=6)
     print(f"Saved: {out_path}  (template: {template_file})")
     return out_path
 

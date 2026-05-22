@@ -27,7 +27,7 @@
             LinkedIn
           </a>
         {{ end }}
-        <a class="pr-author-tip__profile" href="/authors/{{ $slug }}/">Full profile →</a>
+        <a class="pr-author-tip__profile" href="{{ with site.GetPage (printf "/author/%s" $slug) }}{{ .RelPermalink }}{{ else }}/author/{{ $slug }}/{{ end }}">Full profile →</a>
       </span>
     </span>
   {{ end }}

@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "saas-ppc"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/SaaS-PPC-Blog-Banner-Image.webp"
+featuredImage: "/images/blog-covers/saas-ppc.webp"
 wp_id: 2431
 wp_link: "/blogs/saas-ppc/"
 ---

@@ -4,6 +4,7 @@ description: "Every B2B SaaS company eventually runs into the same wall. Campaig
 metaTitle: "B2B Marketing Operations: The Guide for B2B Companies"
 metaDescription: "B2B marketing operations is the infrastructure underneath every campaign your team runs. Here is what it covers, and what it looks like."
 date: 2026-04-09
+featuredImage: "/images/blog-covers/b2b-marketing-operations-guide.webp"
 lastmod: 2026-04-29
 slug: "b2b-marketing-operations-guide"
 writtenBy: "praveen"

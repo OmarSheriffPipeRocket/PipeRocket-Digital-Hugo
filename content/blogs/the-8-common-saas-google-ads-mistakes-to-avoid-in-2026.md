@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "the-8-common-saas-google-ads-mistakes-to-avoid-in-2026"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/saas-google-ads-mistakes-blog-banner-1.webp"
+featuredImage: "/images/blog-covers/the-8-common-saas-google-ads-mistakes-to-avoid-in-2026.webp"
 wp_id: 2785
 wp_link: "/blogs/the-8-common-saas-google-ads-mistakes-to-avoid-in-2026/"
 ---

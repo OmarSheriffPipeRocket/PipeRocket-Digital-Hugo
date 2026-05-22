@@ -4,6 +4,7 @@ description: "SEO strategies that work for small and medium businesses will not 
 metaTitle: "Enterprise SEO: Definition, Strategies, and Core Pillars"
 metaDescription: "Enterprise SEO framework for scaling to 10K+ pages with automation, governance, and data-driven strategies to drive traffic, rankings, and revenue."
 date: 2026-04-09
+featuredImage: "/images/blog-covers/enterprise-seo-guide-2.webp"
 lastmod: 2026-05-13
 slug: "enterprise-seo-guide-2"
 writtenBy: "kim"

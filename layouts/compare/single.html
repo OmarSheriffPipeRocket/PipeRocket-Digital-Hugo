@@ -30,7 +30,7 @@
         <div class="pr-blog-v2__byline">
           {{ with $writer }}
             <span class="pr-author-tip">
-              <a class="pr-blog-v2__author" href="/authors/{{ $.Params.writtenBy }}/">
+              <a class="pr-blog-v2__author" href="{{ with .Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">
                 {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
                 <span>{{ .name }}</span>
               </a>
@@ -426,7 +426,7 @@
                 {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
               </div>
               {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
-              <a class="pr-author-card__btn" href="/authors/{{ $.Params.writtenBy }}/">View full profile</a>
+              <a class="pr-author-card__btn" href="{{ with .Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">View full profile</a>
             </div>
           </div>
         {{ end }}
@@ -440,7 +440,7 @@
                 {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
               </div>
               {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
-              <a class="pr-author-card__btn" href="/authors/{{ $.Params.reviewedBy }}/">View full profile</a>
+              <a class="pr-author-card__btn" href="{{ with .Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}">View full profile</a>
             </div>
           </div>
         {{ end }}

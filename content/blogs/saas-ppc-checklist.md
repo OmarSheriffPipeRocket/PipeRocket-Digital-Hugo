@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "saas-ppc-checklist"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/SaaS-PPC-Checklist-Blog-Banner-Image.webp"
+featuredImage: "/images/blog-covers/saas-ppc-checklist.webp"
 wp_id: 2504
 wp_link: "/blogs/saas-ppc-checklist/"
 ---

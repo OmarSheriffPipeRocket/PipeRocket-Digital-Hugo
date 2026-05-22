@@ -102,6 +102,66 @@
   object-fit: cover;
 }
 
+/* Author page (uses blog-v2 banner) — circular portrait */
+.pr-author-page-v2 .pr-blog-v2__banner-art {
+  align-items: center;
+  justify-content: center;
+}
+.pr-author-page-v2 .pr-linkedin-icon {
+  width: 28px;
+  height: 28px;
+  color: #fff;
+}
+.pr-author-page-v2 .pr-linkedin-icon:hover { color: rgba(255, 255, 255, 0.8); }
+.pr-author-page-v2__photo {
+  width: 260px !important;
+  max-width: 260px !important;
+  height: 260px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 4px solid #08A6E2;
+}
+.pr-author-page-v2__role {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--pr-cyan);
+  margin: 0 0 14px;
+}
+.pr-author-page-v2__bio {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0 0 18px;
+  max-width: 640px;
+}
+.pr-author-page-v2__social { display: flex; align-items: center; gap: 12px; }
+.pr-author-page-v2__posts-head { padding-top: 56px; padding-bottom: 0; }
+.pr-author-page-v2__posts-heading {
+  font-family: var(--pr-ivy-headline);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.15;
+  color: var(--pr-ink);
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .pr-author-page-v2__photo { width: 180px !important; max-width: 180px !important; height: 180px !important; }
+  .pr-author-page-v2__posts-heading { font-size: 28px; }
+}
+
+/* Directory grid — load-more support */
+.pr-bloglist__grid .pr-bloglist__card.is-hidden { display: none; }
+.pr-bloglist__loadmore-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
 
 /* ---------- Body grid ---------- */
 /* Desktop-only: drop the container's left padding so the TOC card sits

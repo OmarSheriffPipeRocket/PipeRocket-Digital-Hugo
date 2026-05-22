@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "how-to-run-linkedin-retargeting-ads"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/LinkedIn-retargeting-ads-blog-banner-image-1.webp"
+featuredImage: "/images/blog-covers/how-to-run-linkedin-retargeting-ads.webp"
 wp_id: 2679
 wp_link: "/blogs/how-to-run-linkedin-retargeting-ads/"
 ---

@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "b2b-demand-generation-guide"
 writtenBy: "praveen"
 category: "B2B Demand Generation"
-featuredImage: "/images/wp-import/B2B-Demand-Generation-Agencies-Blog-Banner-Image.webp"
+featuredImage: "/images/blog-covers/b2b-demand-generation-guide.webp"
 wp_id: 2463
 wp_link: "/blogs/b2b-demand-generation-guide/"
 ---

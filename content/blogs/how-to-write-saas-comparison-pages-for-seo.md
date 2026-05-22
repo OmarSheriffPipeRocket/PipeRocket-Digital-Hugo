@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "how-to-write-saas-comparison-pages-for-seo"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/How-to-Write-SaaS-Comparison-Pages-for-SEO-Blog-Banner-Image-1.webp"
+featuredImage: "/images/blog-covers/how-to-write-saas-comparison-pages-for-seo.webp"
 wp_id: 2646
 wp_link: "/blogs/how-to-write-saas-comparison-pages-for-seo/"
 ---

@@ -4,6 +4,8 @@
 {{ $pages := .pages }}
 {{ $chips := .chips }}
 {{ $noImage := .noImage }}
+{{ $loadMore := .loadMore }}
+{{ $batchSize := default 9 .batchSize }}
 {{ $authors := site.Data.authors }}
 
 <section class="pr-section pr-bloglist">
@@ -25,12 +27,12 @@
       </nav>
     {{ end }}
 
-    <div class="pr-bloglist__grid" data-blog-grid>
-      {{ range $pages }}
-        {{ $page := . }}
-        {{ $slug := default "" .Params.writtenBy }}
+    <div class="pr-bloglist__grid" data-blog-grid {{ if $loadMore }}data-load-more data-batch-size="{{ $batchSize }}"{{ end }}>
+      {{ range $i, $p := $pages }}
+        {{ $page := $p }}
+        {{ $slug := default "" $p.Params.writtenBy }}
         {{ $author := index $authors $slug }}
-        <article class="pr-bloglist__card" data-category="{{ with .Params.category }}{{ . }}{{ end }}">
+        <article class="pr-bloglist__card{{ if and $loadMore (ge $i $batchSize) }} is-hidden{{ end }}" data-category="{{ with $p.Params.category }}{{ . }}{{ end }}">
           {{ if not $noImage }}
             {{ with .Params.featuredImage }}
               <a href="{{ $page.RelPermalink }}" class="pr-bloglist__thumb" aria-label="{{ $page.Title }}">
@@ -47,7 +49,7 @@
             <h3 class="pr-bloglist__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             {{ with .Params.description }}<p class="pr-bloglist__excerpt">{{ . }}</p>{{ end }}
             <div class="pr-bloglist__meta">
-              {{ with $author }}<span class="pr-bloglist__author">By <a href="/authors/{{ $slug }}/">{{ .name }}</a></span>{{ end }}
+              {{ with $author }}<span class="pr-bloglist__author">By <a href="{{ with site.GetPage (printf "/author/%s" $slug) }}{{ .RelPermalink }}{{ else }}/author/{{ $slug }}/{{ end }}">{{ .name }}</a></span>{{ end }}
               <div class="pr-bloglist__dates">
                 {{ $hasUpdated := and (not .Lastmod.IsZero) (ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}
                 {{ if $hasUpdated }}Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 Jan, 2006" }}</time> · {{ end }}{{ if not .Date.IsZero }}Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan, 2006" }}</time>{{ end }}
@@ -57,8 +59,35 @@
         </article>
       {{ end }}
     </div>
+    {{ if and $loadMore (gt (len $pages) $batchSize) }}
+      <div class="pr-bloglist__loadmore-wrap">
+        <button type="button" class="pr-btn pr-bloglist__loadmore" data-load-more-btn>Load more</button>
+      </div>
+    {{ end }}
   </div>
 </section>
+
+{{ if $loadMore }}
+<script>
+(function(){
+  var grid = document.querySelector('[data-load-more]');
+  var btn = document.querySelector('[data-load-more-btn]');
+  if (!grid || !btn) return;
+  var batchSize = parseInt(grid.getAttribute('data-batch-size'), 10) || 9;
+  btn.addEventListener('click', function(){
+    var hidden = grid.querySelectorAll('.pr-bloglist__card.is-hidden');
+    var revealed = 0;
+    for (var i = 0; i < hidden.length && revealed < batchSize; i++) {
+      hidden[i].classList.remove('is-hidden');
+      revealed++;
+    }
+    if (grid.querySelectorAll('.pr-bloglist__card.is-hidden').length === 0) {
+      btn.remove();
+    }
+  });
+})();
+</script>
+{{ end }}
 
 {{ if $chips }}
 <script>

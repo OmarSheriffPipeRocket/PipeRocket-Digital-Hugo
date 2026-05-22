@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "saas-seo-checklist"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/SaaS-SEO-Checklist-Blog-Banner-Image-1.webp"
+featuredImage: "/images/blog-covers/saas-seo-checklist.webp"
 wp_id: 2578
 wp_link: "/blogs/saas-seo-checklist/"
 ---

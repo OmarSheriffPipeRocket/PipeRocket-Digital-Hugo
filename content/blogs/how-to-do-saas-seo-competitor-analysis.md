@@ -8,7 +8,7 @@ lastmod: 2026-05-12
 slug: "how-to-do-saas-seo-competitor-analysis"
 writtenBy: "kim"
 category: "SaaS SEO"
-featuredImage: "/images/wp-import/How-to-do-SaaS-SEO-Competitor-Analysis-Blog-Banner-Image-1.webp"
+featuredImage: "/images/blog-covers/how-to-do-saas-seo-competitor-analysis.webp"
 wp_id: 2593
 wp_link: "/blogs/how-to-do-saas-seo-competitor-analysis/"
 ---

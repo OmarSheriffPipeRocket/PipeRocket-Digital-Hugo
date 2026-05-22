@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "b2b-marketing"
 writtenBy: "praveen"
 category: "B2B Marketing"
-featuredImage: "/images/wp-import/B2B-Marketing-Blog-Banner-Image.webp"
+featuredImage: "/images/blog-covers/b2b-marketing.webp"
 wp_id: 2438
 wp_link: "/blogs/b2b-marketing/"
 ---

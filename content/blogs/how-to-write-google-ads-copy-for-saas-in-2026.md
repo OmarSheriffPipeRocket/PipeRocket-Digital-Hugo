@@ -8,7 +8,7 @@ lastmod: 2026-05-13
 slug: "how-to-write-google-ads-copy-for-saas-in-2026"
 writtenBy: "praveen"
 category: "SaaS PPC"
-featuredImage: "/images/wp-import/SaaS-Google-Ads-Copy-blog-banner-1.webp"
+featuredImage: "/images/blog-covers/how-to-write-google-ads-copy-for-saas-in-2026.webp"
 wp_id: 2682
 wp_link: "/blogs/how-to-write-google-ads-copy-for-saas-in-2026/"
 ---
