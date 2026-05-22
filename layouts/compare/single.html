@@ -9,6 +9,7 @@
 {{ define "main" }}
 {{ $authors := site.Data.authors }}
 {{ $writer := index $authors (default "" .Params.writtenBy) }}
+{{ $reviewer := index $authors (default "" .Params.reviewedBy) }}
 {{ $lastmod := .Lastmod }}{{ if $lastmod.IsZero }}{{ $lastmod = .Date }}{{ end }}
 
 <article class="pr-compare pr-2col-article" data-pr-blog-v2>
@@ -83,7 +84,7 @@
         </div>
       </aside>
 
-      <div class="pr-article-main" data-pr-blog-main>
+      <div class="pr-article-main pr-compare__body" data-pr-blog-main>
 
         <!-- ====================================================
              1. SHORT ANSWER — two callout boxes
@@ -413,15 +414,39 @@
           </section>
         {{ end }}
 
-        {{ partial "article-cta.html" . }}
+        {{/* Author cards — same simpler style used on blog/glossary singles.
+             Writer on top, reviewer below (if present), stacked in column. */}}
+        {{ with $writer }}
+          <div class="pr-author-card pr-author-card--inline">
+            {{ with .photo }}<img class="pr-author-card__photo" src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+            <div class="pr-author-card__body">
+              <div class="pr-author-card__head">
+                <span class="pr-eyebrow">Written by</span>
+                <span class="pr-author-card__name">{{ .name }}</span>
+                {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+              </div>
+              {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+              <a class="pr-author-card__btn" href="/authors/{{ $.Params.writtenBy }}/">View full profile</a>
+            </div>
+          </div>
+        {{ end }}
+        {{ with $reviewer }}
+          <div class="pr-author-card pr-author-card--inline">
+            {{ with .photo }}<img class="pr-author-card__photo" src="{{ . }}" alt="{{ $reviewer.name }}">{{ end }}
+            <div class="pr-author-card__body">
+              <div class="pr-author-card__head">
+                <span class="pr-eyebrow">Reviewed by</span>
+                <span class="pr-author-card__name">{{ .name }}</span>
+                {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+              </div>
+              {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+              <a class="pr-author-card__btn" href="/authors/{{ $.Params.reviewedBy }}/">View full profile</a>
+            </div>
+          </div>
+        {{ end }}
       </div>
 
     </div>
-
-    {{/* Author + "Users Also Compare" — rendered AFTER the grid so the
-         left-rail's sticky positioning isn't confined into the same
-         scroll container as the related-links list. */}}
-    {{ partial "article-rail-author.html" . }}
 
     <!-- ====================================================
          BOTTOM CTA — full-width

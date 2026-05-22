@@ -444,6 +444,10 @@ a.pr-btn--ghost:hover,
   transform: translateY(2px);
   opacity: 1;
 }
+.pr-nav__item--drop:hover .pr-nav__caret {
+  transform: rotate(180deg);
+  opacity: 1;
+}
 .pr-nav__dropdown {
   position: absolute;
   top: 100%;
@@ -804,6 +808,32 @@ a.pr-btn--ghost:hover,
   }
   .pr-nav.pr-nav--open .pr-nav__caret {
     margin-left: var(--pr-s-2);
+  }
+  /* --drop items in mobile drawer */
+  .pr-nav.pr-nav--open .pr-nav__item--drop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .pr-nav.pr-nav--open .pr-nav__item--drop .pr-nav__dropdown {
+    display: none;
+    flex-basis: 100%;
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    padding: var(--pr-s-3) 0 0 var(--pr-s-3);
+    background: transparent;
+    border: none;
+    min-width: auto;
+  }
+  .pr-nav.pr-nav--open .pr-nav__item--drop.is-open .pr-nav__dropdown {
+    display: flex;
+    flex-direction: column;
+  }
+  .pr-nav.pr-nav--open .pr-nav__item--drop.is-open .pr-nav__caret {
+    transform: rotate(180deg);
   }
   html.pr-nav-locked,
   body.pr-nav-locked {
@@ -1593,6 +1623,9 @@ a.pr-hero__cta:hover,
   color: var(--pr-muted);
   margin-bottom: 34px;
 }
+@media (max-width: 767px) {
+  .pr-logobar__label { font-size: 13px; }
+}
 .pr-logobar__label,
 .pr-logobar__viewport {
   max-width: var(--pr-container);
@@ -1770,7 +1803,7 @@ a.pr-hero__cta:hover,
   display: block;
   width: auto;
   max-width: 100%;
-  max-height: 340px;
+  max-height: 260px;
   margin-top: auto;
   margin-bottom: 0;
   margin-left: auto;
@@ -2081,24 +2114,18 @@ a.pr-hero__cta:hover,
   margin-top: 6px;
 }
 
-/* Mobile: testimonials become a horizontal swipeable scroll */
+/* Mobile: testimonials auto-scroll via JS (same transform as desktop) */
 @media (max-width: 767px) {
   .pr-testimonials__viewport {
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
     padding: 0 16px;
   }
   .pr-testimonials {
-    transform: none !important;
-    transition: none;
     gap: 16px;
   }
   .pr-testimonial {
     width: calc(100vw - 64px);
     min-width: calc(100vw - 64px);
-    scroll-snap-align: center;
     justify-content: center;
   }
   .pr-testimonial__quote { flex: none; }
@@ -2168,7 +2195,6 @@ a.pr-hero__cta:hover,
   }
 }
 .pr-stat-band__gif-box {
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2183,6 +2209,7 @@ a.pr-hero__cta:hover,
   right: 0;
   bottom: 0;
   border: 1px solid rgba(13, 13, 13, 0.2);
+  border-radius: 5px;
   pointer-events: none;
   z-index: 2;
 }
@@ -2197,6 +2224,7 @@ a.pr-hero__cta:hover,
   max-width: 200px;
   height: 180px;
   display: block;
+  border-radius: 5px;
 }
 .pr-stat-band__label {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2279,6 +2307,7 @@ a.pr-hero__cta:hover,
   width: 28px; height: 28px;
   margin-bottom: var(--pr-s-4);
   color: var(--pr-cyan);
+  filter: brightness(0) saturate(100%) invert(57%) sepia(54%) saturate(4571%) hue-rotate(326deg) brightness(99%) contrast(99%);
 }
 .pr-approach__title {
   font-family: var(--pr-sans);
@@ -2311,7 +2340,7 @@ a.pr-hero__cta:hover,
 }
 .pr-case__card {
   background: #fff;
-  border: 1px solid var(--pr-line);
+  border: 0;
   border-radius: 5px;
   position: relative;
   overflow: hidden;
@@ -2385,6 +2414,24 @@ a.pr-hero__cta:hover,
 }
 .pr-case__link img { width: 19px; height: 15px; }
 
+/* Make the entire case card clickable via a stretched-link pseudo-element.
+   The visible "Read full story" link stays in place; the ::before overlay
+   on top of the .pr-case wrapper catches clicks anywhere on the card. */
+.pr-case { position: relative; }
+.pr-case__link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.pr-case__card,
+.pr-case__body { transition: transform 0.18s ease, box-shadow 0.18s ease; }
+.pr-case:hover .pr-case__card {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+.pr-case:hover .pr-case__link-text { text-decoration-thickness: 2px; }
+
 /* =================================================================
    FINAL CTA
    ================================================================= */
@@ -2392,6 +2439,9 @@ a.pr-hero__cta:hover,
   padding: 180px 0 calc(var(--pr-s-9) + 80px);
   text-align: center;
   position: relative;
+}
+@media (max-width: 767px) {
+  .pr-cta-final { padding-bottom: calc(var(--pr-s-9) + 140px); }
 }
 .pr-cta-final--seo {
   padding-top: 140px;
@@ -2451,7 +2501,10 @@ a.pr-hero__cta:hover,
   height: auto;
   pointer-events: none;
   z-index: 0;
+  transform: translate(-120%, 80%);
+  transition: transform 1.2s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
+.pr-cta-final.is-visible .pr-cta-final__mark { transform: translate(0, 0); }
 .pr-cta-final__phone {
   position: absolute;
   right: max(0px, calc(50% - 800px));
@@ -2460,12 +2513,32 @@ a.pr-hero__cta:hover,
   height: auto;
   pointer-events: none;
   z-index: 0;
+  transform: translate(120%, 80%);
+  transition: transform 1.2s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.pr-cta-final.is-visible .pr-cta-final__phone { transform: translate(0, 0); }
+@media (prefers-reduced-motion: reduce) {
+  .pr-cta-final__mark,
+  .pr-cta-final__phone { transform: none !important; transition: none; }
 }
 @media (max-width: 900px) {
   .pr-cta-final__mark { width: 130px; left: 2%; bottom: 4%; }
   .pr-cta-final__phone { width: 180px; right: 2%; top: 2%; }
 }
+.pr-hero__mobile-img {
+  display: none;
+}
 @media (max-width: 767px) {
+  .pr-hero__mobile-img {
+    display: block;
+    width: 100%;
+    margin-top: 32px;
+  }
+  .pr-hero__mobile-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
   .pr-hero__collage,
   .pr-hero__collage--seo,
   .pr-hero__collage--ppc { display: none !important; }
@@ -2499,7 +2572,9 @@ a.pr-hero__cta:hover,
   .pr-pipeline-flow__grid .pr-principles__line { display: none; }
 
   /* Stat band — gap between text and gif numbers (PPC missing) */
-  .pr-stat-band__gif-box { gap: 12px; padding: 10px 0; }
+  .pr-stat-band__gif-box { gap: 0; padding: 0; width: 220px; height: 220px; margin-left: auto; margin-right: auto; }
+  .pr-stat-band__gif { width: 100%; max-width: none; height: 180px; }
+  .pr-stat-band__label { margin-top: 8px; }
   .pr-stat-band__label { margin-top: 8px; }
 
   /* PPC approach lede — remove desktop margin that crushed mobile */
@@ -2512,7 +2587,7 @@ a.pr-hero__cta:hover,
   .pr-contact-tv__vec--blue { width: 60px; top: 40px; }
   .pr-contact-tv__vec--red { width: 20px; bottom: 20px; }
 
-  .pr-cta-final { padding: 110px 0 40px; }
+  .pr-cta-final { padding: 110px 0 100px; }
 
   /* Practitioners point text: looser line-height on mobile */
   .pr-point__text p { line-height: 1.8; }
@@ -2534,7 +2609,7 @@ a.pr-hero__cta:hover,
   .pr-cta-final .pr-btn { margin-top: 24px; }
   /* Footer collapses into single-column accordion via <details> on mobile.
      Brand spans the row, each column is a tappable disclosure. */
-  .pr-footer__grid { grid-template-columns: 1fr !important; gap: 0 !important; }
+  .pr-footer__grid { grid-template-columns: repeat(2, 1fr) !important; gap: var(--pr-s-5) !important; }
   .pr-footer__brand { grid-column: 1 / -1; margin-bottom: var(--pr-s-5); }
   .pr-header__inner { justify-content: flex-start; gap: var(--pr-s-3); padding-left: calc(var(--pr-s-5) + var(--pr-s-3)); padding-right: 5px; }
   .pr-header__cta { margin-left: auto; }
@@ -2544,7 +2619,7 @@ a.pr-hero__cta:hover,
   .pr-certified { display: none; }
   .pr-section--outcome .pr-approach { grid-template-columns: 1fr; }
   .pr-stats { grid-template-columns: repeat(2, 1fr); }
-  .pr-stat-band__row { grid-template-columns: repeat(2, 1fr); }
+  .pr-stat-band__row { grid-template-columns: 1fr; }
   .pr-compare--seo__blue-vec,
   .pr-compare--seo__red-vec,
   .pr-compare--seo__rocket,
@@ -2606,6 +2681,9 @@ a.pr-hero__cta:hover,
   color: var(--pr-ink);
   margin: 0 0 var(--pr-s-4);
   max-width: 240px;
+}
+@media (min-width: 768px) {
+  .pr-footer__tagline { white-space: nowrap; }
 }
 @media (min-width: 768px) {
   .pr-footer__tagline { font-size: 13px !important; }
@@ -2687,11 +2765,13 @@ a.pr-hero__cta:hover,
   transition: transform 0.2s ease;
 }
 .pr-footer__col[open] > summary::after { content: "−"; }
-.pr-footer__col > summary h4 {
+.pr-footer__col > summary h4,
+.pr-footer__col h4 {
   margin: 0;
-  font-family: var(--pr-sans);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-size: 0.98rem;
-  font-weight: 700;
+  font-weight: 700 !important;
+  letter-spacing: 0;
 }
 .pr-footer__col ul {
   list-style: none;
@@ -2714,11 +2794,11 @@ a.pr-hero__cta:hover,
     pointer-events: none;
     padding: 0;
     border-bottom: 0;
-    margin-bottom: var(--pr-s-4);
+    margin-bottom: var(--pr-s-5);
   }
   .pr-footer__col > summary::after { display: none; }
   .pr-footer__col > summary h4 { font-size: 0.95rem; }
-  .pr-footer__col ul { padding: 0; }
+  .pr-footer__col ul { padding: var(--pr-s-3) 0 0; }
   /* Always show the list on desktop, regardless of [open] state. */
   .pr-footer__col > ul { display: block !important; }
 }
@@ -2807,15 +2887,10 @@ a.pr-footer__trust-item:hover {
    ================================================================= */
 @media (min-width: 1024px) {
   .pr-approach { grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .pr-section--outcome > .pr-container { padding-left: 0; padding-right: 0; }
 }
 @media (min-width: 768px) {
-  .pr-section--outcome .pr-approach__card { min-height: 380px; }
-}
-@media (max-width: 767px) {
-  .pr-section--outcome .pr-approach__card {
-    padding-top: var(--pr-s-7);
-    padding-bottom: var(--pr-s-7);
-  }
+  .pr-section--outcome .pr-approach__card { min-height: 440px; height: 440px; }
 }
 /* Outcome cards — visual overrides scoped to the homepage services grid */
 .pr-section--outcome .pr-approach__card .pr-approach__title {
@@ -2827,13 +2902,21 @@ a.pr-footer__trust-item:hover {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
-.pr-section--outcome .pr-approach__card .pr-approach__link {
-  background: #a5a5a5;
-  color: #f6f6f1;
+.pr-section--outcome .pr-approach__card {
+  border-color: #0ba6e2;
 }
 .pr-section--outcome .pr-approach__card:hover { border-color: #0ba6e2; }
+.pr-section--outcome .pr-approach__card .pr-approach__link {
+  background: transparent;
+  color: #666664;
+  border: 1px solid #A5A5A5;
+}
 .pr-section--outcome .pr-approach__card .pr-approach__link:hover,
-.pr-section--outcome .pr-approach__card:hover .pr-approach__link { background: #0ba6e2; }
+.pr-section--outcome .pr-approach__card:hover .pr-approach__link {
+  background: #0ba6e2;
+  color: #f6f6f1;
+  border-color: #0ba6e2;
+}
 .pr-approach__card {
   display: flex;
   flex-direction: column;
@@ -2851,6 +2934,7 @@ a.pr-footer__trust-item:hover {
 .pr-approach__icon { width: 32px; height: 32px; max-width: none; }
 .pr-approach__card:nth-child(5) .pr-approach__icon { width: 34px; height: 34px; }
 .pr-approach__card--seo .pr-approach__icon { width: 42px; height: 42px; }
+.pr-approach__card--seo .pr-approach__icon[src*="built-to-be-found"] { width: 32px; height: 32px; }
 .pr-approach__link {
   margin-top: var(--pr-s-5);
   align-self: flex-start;
@@ -2867,7 +2951,10 @@ a.pr-footer__trust-item:hover {
 
 /* SEO approach — 3-col grid variant of outcome section */
 .pr-approach--seo-3 { grid-template-columns: repeat(3, 360px) !important; gap: 24px !important; justify-content: center; }
-.pr-approach__card--seo { border-color: var(--pr-cyan) !important; cursor: default; min-height: 390px; }
+@media (min-width: 1024px) {
+  .pr-approach--seo-3 { grid-template-columns: repeat(3, 1fr) !important; }
+}
+.pr-approach__card--seo { border-color: var(--pr-cyan) !important; cursor: default; min-height: 460px; }
 .pr-approach__card--seo .pr-approach__copy { font-size: 0.8rem; padding-right: 12px; }
 .pr-approach__card--seo .pr-approach__copy p { margin: 0 0 8px; }
 .pr-approach__card--seo .pr-approach__copy p:last-child { margin-bottom: 0; }
@@ -3838,17 +3925,17 @@ a.pr-footer__trust-item:hover {
 }
 .pr-pipeline-flow__runner > img:not(.pr-pipeline-flow__speed) {
   transform: translateX(-120%);
-  opacity: 0;
-  transition: transform 1.1s cubic-bezier(0.2, 0.7, 0.2, 1), opacity 0.6s ease-out;
+  opacity: 1;
+  transition: transform 3s ease-in-out;
 }
 .pr-pipeline-flow__runner.is-visible > img:not(.pr-pipeline-flow__speed) {
   transform: translateX(0);
   opacity: 1;
 }
 .pr-pipeline-flow__speed {
-  transform: translate(calc(-58% - 600px), -50%) !important;
-  opacity: 0;
-  transition: transform 1.1s cubic-bezier(0.2, 0.7, 0.2, 1), opacity 0.6s ease-out;
+  transform: translateX(-120%) translateY(-50%) !important;
+  opacity: 1;
+  transition: transform 3s ease-in-out;
 }
 .pr-pipeline-flow__runner.is-visible .pr-pipeline-flow__speed {
   transform: translate(-58%, -50%) !important;
@@ -3968,6 +4055,17 @@ a.pr-footer__trust-item:hover {
   padding-left: calc(var(--pr-s-5) + 16px);
 }
 .pr-compare-table__row > div:last-child { border-right: none; }
+/* Paragraphs inside compare-table cells must inherit the cell's own
+   font-size (1rem). The global `.pr-section p { 18px !important }` rule
+   would otherwise win, so we need !important here too. */
+.pr-compare-table__row > div p {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  font-weight: inherit !important;
+  color: inherit !important;
+  margin: 0 0 12px;
+}
+.pr-compare-table__row > div p:last-child { margin-bottom: 0; }
 @media (max-width: 1023px) {
   .pr-compare-table__row { grid-template-columns: 1fr 1fr 1fr; }
   .pr-compare-table__row > div {
@@ -5282,6 +5380,31 @@ a.pr-footer__trust-item:hover {
 .pr-alt__body a:hover,
 .pr-compare__body a:hover,
 .pr-vs__body a:hover { background: var(--pr-cyan-soft); }
+
+/* Inside table cells, drop the cyan underline and use cyan text instead —
+   keeps tables visually quieter than prose. */
+.pr-blog__body table a,
+.pr-blog-v2__main table a,
+.pr-glossary__body table a,
+.pr-listicle__body table a,
+.pr-listicle-v2__main table a,
+.pr-alt__body table a,
+.pr-compare__body table a,
+.pr-vs__body table a {
+  color: #0ba6e2;
+  border-bottom: 0;
+}
+.pr-blog__body table a:hover,
+.pr-blog-v2__main table a:hover,
+.pr-glossary__body table a:hover,
+.pr-listicle__body table a:hover,
+.pr-listicle-v2__main table a:hover,
+.pr-alt__body table a:hover,
+.pr-compare__body table a:hover,
+.pr-vs__body table a:hover {
+  background: transparent;
+  text-decoration: underline;
+}
 .pr-blog__body code,
 .pr-glossary__body code,
 .pr-listicle__body code,
@@ -6281,13 +6404,39 @@ main table a,
   justify-content: space-between;
   margin-top: var(--pr-s-2);
 }
-.pr-author-card__profile-link {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--pr-cyan);
+/* Unified "View full profile" CTA — same blue-pill button used on
+   glossary / blog-v2 / listicle author cards. Defined here in main.css
+   so every layout (including alternative, _default, vs) picks it up
+   without depending on the per-layout stylesheets. */
+.pr-author-card__btn {
+  display: inline-block;
+  background: #0ba6e2;
+  color: #fff !important;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
   text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.15s;
+  align-self: flex-start;
 }
-.pr-author-card__profile-link:hover { text-decoration: underline; }
+.pr-author-card__btn:hover { background: #0993c9; }
+/* Legacy alias kept so any remaining markup still renders as the same CTA. */
+.pr-author-card__profile-link {
+  display: inline-block;
+  background: #0ba6e2;
+  color: #fff !important;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.15s;
+  align-self: flex-start;
+}
+.pr-author-card__profile-link:hover { background: #0993c9; }
 /* Trust badge inline (next to author name) */
 .pr-author-card__name .pr-trust-badge {
   position: relative;
@@ -7758,7 +7907,7 @@ main table a,
   justify-content: center;
   min-width: 56px;
   padding: 4px 10px;
-  background: var(--pr-ink);
+  background: #282828;
   color: var(--pr-cream);
   border-radius: 4px;
   font-family: var(--pr-sans);
@@ -7812,13 +7961,15 @@ main table a,
   position: relative;
   margin: var(--pr-s-3) 0 var(--pr-s-5);
   padding: var(--pr-s-4) var(--pr-s-5) var(--pr-s-4) calc(var(--pr-s-7) + 2px);
-  background: var(--pr-cyan-soft, #E8F7FE);
+  background: #F1ECE0; /* cream — competitor agencies */
   border-left: none;
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 500;
   color: var(--pr-ink);
 }
+/* PipeRocket's own entry gets the blue treatment so it pops in the list. */
+.pr-listicle__body .pr-rank__best-for--ours { background: #D7E9EC; }
 .pr-listicle__body .pr-rank__best-for::before {
   content: "★";
   position: absolute;
@@ -7858,7 +8009,7 @@ main table a,
 .pr-listicle__body .pr-rank__pricing {
   margin: var(--pr-s-5) 0 0;
   padding: var(--pr-s-4) var(--pr-s-5);
-  background: var(--pr-ink);
+  background: #282828;
   color: var(--pr-cream);
   border-radius: 4px;
   font-family: var(--pr-sans);
@@ -8082,11 +8233,11 @@ body:has(.pr-listicle-v2__banner) .pr-breadcrumbs__sep {
 .pr-breadcrumbs__item--current span {
   color: var(--pr-ink);
   font-weight: 600;
-  /* Truncate very long titles on narrow viewports */
+  /* Truncate long titles — H1 below already shows the full title */
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: clip;
   white-space: nowrap;
-  max-width: min(70vw, 540px);
+  max-width: min(45vw, 280px);
   display: inline-block;
   vertical-align: bottom;
 }
@@ -8263,7 +8414,7 @@ img[src*="/images/agencies/"]:hover {
 }
 .pr-trust__chip:hover,
 .pr-trust__chip:focus-visible {
-  background: rgba(12, 198, 241, 0.18);
+  background: transparent;
   border-color: var(--pr-cyan);
   outline: none;
 }
@@ -9175,300 +9326,6 @@ a.pr-contact-info:hover { background: var(--pr-cyan-soft, rgba(12, 198, 241, 0.1
 body.pr-modal-open { overflow: hidden; }
 
 /* =========================================================
-   "Featured in" strip — sits above the footer site-wide.
-   Each item is a brand wordmark rendered as styled text and
-   linked to a real, verifiable citation page.
-   ========================================================= */
-.pr-featured-in {
-  background: var(--pr-cream);
-  border-top: 1px solid var(--pr-line);
-  padding: 36px 0 32px;
-}
-.pr-featured-in__label {
-  font-family: var(--pr-sans);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--pr-muted, #8a8a8a);
-  margin: 0 0 22px;
-}
-.pr-featured-in__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 36px 48px;
-}
-.pr-featured-in__item { line-height: 1; }
-.pr-featured-in__brand {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 4px;
-  font-family: Inter, Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 22px;
-  letter-spacing: -0.01em;
-  color: #7a7a7a;
-  text-decoration: none;
-  transition: color 0.2s ease, opacity 0.2s ease;
-}
-.pr-featured-in__brand:hover { color: #0D0D0D; }
-
-/* Yahoo Finance — purple wordmark with "Finance" lighter weight */
-.pr-featured-in__brand--yahoo span {
-  font-weight: 400;
-  color: inherit;
-  opacity: 0.75;
-  margin-left: 4px;
-}
-.pr-featured-in__brand--yahoo:hover { color: #6001D2; }
-
-/* Business Standard — italic accent on "Standard" */
-.pr-featured-in__brand--bs em {
-  font-style: italic;
-  font-weight: 400;
-  font-family: Georgia, serif;
-}
-.pr-featured-in__brand--bs:hover { color: #C8102E; }
-
-/* PR Newswire — red "PR" badge + dark wordmark */
-.pr-featured-in__brand--prn { gap: 6px; }
-.pr-featured-in__prn-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3px 7px;
-  border-radius: 3px;
-  background: #C8102E;
-  color: #ffffff;
-  font-weight: 800;
-  font-size: 13px;
-  letter-spacing: 0.5px;
-  opacity: 0.85;
-  transition: opacity 0.2s ease;
-}
-.pr-featured-in__brand--prn:hover { color: #C8102E; }
-.pr-featured-in__brand--prn:hover .pr-featured-in__prn-mark { opacity: 1; }
-
-/* The Wire — newspaper-style with "The" smaller */
-.pr-featured-in__brand--wire {
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-.pr-featured-in__wire-the {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 14px;
-  margin-right: 4px;
-  opacity: 0.7;
-}
-.pr-featured-in__brand--wire:hover { color: #E2231A; }
-
-/* The Tribune — masthead serif */
-.pr-featured-in__brand--tribune {
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 700;
-}
-.pr-featured-in__tribune-the {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 14px;
-  margin-right: 4px;
-  opacity: 0.7;
-}
-.pr-featured-in__brand--tribune:hover { color: #003F87; }
-
-/* Dailyhunt — orange D-H badge */
-.pr-featured-in__brand--dailyhunt { gap: 6px; }
-.pr-featured-in__dh-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3px 7px;
-  border-radius: 4px;
-  background: #E84D27;
-  color: #ffffff;
-  font-weight: 800;
-  font-size: 12px;
-  opacity: 0.85;
-  transition: opacity 0.2s ease;
-}
-.pr-featured-in__brand--dailyhunt:hover { color: #E84D27; }
-.pr-featured-in__brand--dailyhunt:hover .pr-featured-in__dh-mark { opacity: 1; }
-
-/* Indian Television — "Indian" bold + "Television" lighter */
-.pr-featured-in__brand--itv { font-weight: 700; }
-.pr-featured-in__itv-tv {
-  font-weight: 400;
-  opacity: 0.75;
-  margin-left: 4px;
-}
-.pr-featured-in__brand--itv:hover { color: #0066B3; }
-
-/* Clutch — bold + tiny rating chip */
-.pr-featured-in__brand--clutch { font-weight: 800; }
-.pr-featured-in__rating {
-  font-family: var(--pr-sans);
-  font-size: 12px;
-  font-weight: 700;
-  padding: 3px 7px;
-  border-radius: 4px;
-  background: rgba(255, 90, 90, 0.12);
-  color: #ED4856;
-  margin-left: 6px;
-  letter-spacing: 0;
-}
-.pr-featured-in__brand--clutch:hover { color: #ED4856; }
-
-/* G2 — italic "G" with raised "2" */
-.pr-featured-in__brand--g2 {
-  font-family: Georgia, serif;
-  font-style: italic;
-  font-weight: 700;
-  font-size: 26px;
-}
-.pr-featured-in__brand--g2 sup {
-  font-size: 14px;
-  font-weight: 700;
-  margin-left: 1px;
-}
-.pr-featured-in__brand--g2:hover { color: #FF492C; }
-
-/* Semrush — lowercase with cyan dot */
-.pr-featured-in__brand--semrush {
-  text-transform: lowercase;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-.pr-featured-in__dot {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #FF642D;
-  margin-right: 6px;
-  opacity: 0.6;
-  transition: opacity 0.2s ease;
-}
-.pr-featured-in__brand--semrush:hover { color: #FF642D; }
-.pr-featured-in__brand--semrush:hover .pr-featured-in__dot { opacity: 1; }
-
-/* LinkedIn — square "in" badge */
-.pr-featured-in__brand--linkedin { font-size: 18px; }
-.pr-featured-in__li-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 5px;
-  background: currentColor;
-  color: var(--pr-cream);
-  font-family: Inter, Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-size: 15px;
-  letter-spacing: -0.04em;
-  padding-bottom: 1px;
-}
-.pr-featured-in__brand--linkedin:hover { color: #0A66C2; }
-
-@media (max-width: 600px) {
-  .pr-featured-in { padding: 28px 0 24px; }
-  .pr-featured-in__list { gap: 24px 32px; }
-  .pr-featured-in__brand { font-size: 18px; }
-  .pr-featured-in__brand--g2 { font-size: 22px; }
-  .pr-featured-in__li-mark { width: 24px; height: 24px; font-size: 13px; }
-}
-
-/* =========================================================
-   3-Month Pilot Promo Popup
-   ========================================================= */
-.pr-pilot-popup__card {
-  max-width: 520px;
-  padding: 36px 36px 30px;
-}
-.pr-pilot-popup__eyebrow {
-  display: inline-block;
-  margin-bottom: 14px;
-}
-.pr-pilot-popup__title {
-  font-size: 1.7rem;
-  line-height: 1.15;
-  margin: 0 0 14px;
-  max-width: 24ch;
-}
-.pr-pilot-popup__title-accent {
-  color: var(--pr-cyan, #0BA6E2);
-  font-style: italic;
-}
-.pr-pilot-popup__lede {
-  font-size: 0.98rem;
-  line-height: 1.55;
-  color: #4A4A4A;
-  margin: 0 0 20px;
-}
-.pr-pilot-popup__bullets {
-  list-style: none;
-  margin: 0 0 26px;
-  padding: 0;
-}
-.pr-pilot-popup__bullets li {
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
-  padding: 7px 0;
-  font-size: 0.93rem;
-  line-height: 1.5;
-  color: #2A2A2A;
-}
-.pr-pilot-popup__check {
-  flex-shrink: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: rgba(11, 166, 226, 0.15);
-  color: var(--pr-cyan, #0BA6E2);
-  font-weight: 700;
-  font-size: 12px;
-  margin-top: 1px;
-}
-.pr-pilot-popup__actions {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  flex-wrap: wrap;
-}
-.pr-pilot-popup__cta {
-  padding: 12px 24px;
-  font-size: 0.95rem;
-}
-.pr-pilot-popup__skip {
-  background: none;
-  border: 0;
-  font-family: var(--pr-sans);
-  font-size: 0.88rem;
-  color: #6B6B6B;
-  cursor: pointer;
-  padding: 8px 4px;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.pr-pilot-popup__skip:hover { color: #0D0D0D; }
-@media (max-width: 600px) {
-  .pr-pilot-popup__card { padding: 28px 22px 24px; }
-  .pr-pilot-popup__title { font-size: 1.45rem; }
-}
-
-/* =========================================================
    CASE STUDY — single page
    ========================================================= */
 /* =========================================================
@@ -9509,9 +9366,6 @@ body.pr-modal-open { overflow: hidden; }
 /* ===== HERO (dark) — mirrors blog-v2 banner ===== */
 .pr-cs__hero {
   background-color: #282828;
-  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.12) 1.2px, transparent 1.5px);
-  background-size: 24px 24px;
-  background-position: 0 0;
   color: #fff;
   padding: 64px 0;
 }
@@ -11512,16 +11366,42 @@ body.pr-modal-open { overflow: hidden; }
   line-height: 1.25;
   color: var(--pr-ink);
   margin: 0;
-  max-width: 100%;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Hide <br> tags in sub-text globally — let text wrap naturally at all sizes */
 .pr-about__hero-sub br { display: none; }
+.pr-about__hero-line { display: block; }
 @media (max-width: 720px) {
   .pr-about__hero-screen { padding: 1% 3%; }
 }
 @media (max-width: 1023px) {
   .pr-about__hero-sub { display: none; }
   .pr-about__hero-headline { font-size: clamp(0.95rem, 4.5vw, 2rem); margin-bottom: 0; }
+}
+/* Desktop-only fade-up reveal for the about-us hero headline + subtitle.
+   Mobile renders flat (no animation) — see max-width:1023px overrides above. */
+@media (min-width: 1024px) {
+  @keyframes prAboutHeroFadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .pr-about__hero-line,
+  .pr-about__hero-sub {
+    opacity: 0;
+    animation: prAboutHeroFadeUp 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+  }
+  .pr-about__hero-line--1 { animation-delay: 0.15s; }
+  .pr-about__hero-line--2 { animation-delay: 0.45s; }
+  .pr-about__hero-sub    { animation-delay: 0.9s; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pr-about__hero-line,
+  .pr-about__hero-sub {
+    opacity: 1 !important;
+    animation: none !important;
+  }
 }
 
 /* DARK BAND — same look as .pr-compare--seo, half height, no rocket */
@@ -11556,15 +11436,15 @@ body.pr-modal-open { overflow: hidden; }
 }
 .pr-about__belief-icon {
   width: auto !important;
-  height: 76px !important;
+  height: 56px !important;
   max-width: none;
   margin-bottom: 12px;
   object-fit: contain;
 }
-.pr-about__belief-card:nth-child(2) .pr-about__belief-icon { height: 100px !important; }
+.pr-about__belief-card:nth-child(2) .pr-about__belief-icon { height: 76px !important; }
 .pr-about__belief-card:nth-child(4) .pr-about__belief-icon { transform: translateX(-8px); }
 .pr-about__belief-card:nth-child(5) .pr-about__belief-icon { transform: translateX(8px); }
-.pr-section--dark .pr-about__belief-title { font-size: 1.35rem; margin-bottom: 10px; }
+.pr-section--dark .pr-about__belief-title { font-size: 1.2rem; margin-bottom: 10px; }
 .pr-about__belief-card {
   background: var(--pr-cream);
   border: 5px solid #0CC6F1;
@@ -11575,15 +11455,15 @@ body.pr-modal-open { overflow: hidden; }
   align-items: center;
 }
 .pr-about__belief-icon {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   margin-bottom: 18px;
 }
 .pr-section--dark .pr-about__belief-title {
   font-family: var(--pr-ivy-headline);
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: var(--pr-ink);
   margin: 0 0 14px;
   line-height: 1.1;
@@ -11816,7 +11696,7 @@ body.pr-modal-open { overflow: hidden; }
 
 /* LEADING COMPANIES logos section */
 .pr-about__logos {
-  padding: 48px 48px 100px;
+  padding: 96px 48px 100px;
   background: var(--pr-cream);
 }
 .pr-about__logos-label {
@@ -12294,6 +12174,22 @@ body.pr-modal-open { overflow: hidden; }
   gap: var(--pr-s-4);
 }
 .pr-compare__body { margin-top: var(--pr-s-6); }
+/* When pr-compare__body / pr-vs__body is the article-main wrapper itself
+   (used so blog-table CSS applies inside compare/vs), the ~40px margin-top
+   pushes the first column item too far below the banner — cancel it.
+   Also zero the first heading's top margin (h2 has 56px margin-top globally
+   for section rhythm — fine between sections, wrong at the very top). */
+.pr-article-main.pr-compare__body,
+.pr-article-main.pr-vs__body { margin-top: 0; }
+/* Inline author cards inside compare/vs body — uses the same simpler
+   pr-author-card markup as blog/glossary singles. Adds top margin so it
+   sits clear of the article body above. */
+.pr-author-card--inline { margin-top: var(--pr-s-7); }
+.pr-author-card--inline + .pr-author-card--inline { margin-top: var(--pr-s-5); }
+.pr-article-main.pr-compare__body > section:first-child > h2:first-child,
+.pr-article-main.pr-compare__body > section:first-child > :first-child,
+.pr-article-main.pr-vs__body > section:first-child > h2:first-child,
+.pr-article-main.pr-vs__body > section:first-child > :first-child { margin-top: 0; }
 /* .pr-compare__body h2/h3 — unified in ARTICLE BODY block above */
 
 /* Section spacing — every direct section gets the same vertical rhythm */
@@ -12356,7 +12252,8 @@ body.pr-modal-open { overflow: hidden; }
 }
 .pr-compare__callout-title {
   display: block;
-  font-family: var(--pr-serif);
+  font-family: var(--pr-ivy-headline);
+  font-weight: 600;
   font-size: 1.4rem;
   margin-bottom: var(--pr-s-3);
   color: var(--pr-ink);
@@ -12386,33 +12283,21 @@ body.pr-modal-open { overflow: hidden; }
   letter-spacing: 0.04em;
 }
 
-/* ── 3. PRICING / SERVICES / GLANCE — comparison tables ──────────── */
-.pr-compare__table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: var(--pr-s-5) 0;
-  background: var(--pr-cream);
-  font-size: 0.95rem;
+/* Compare/vs tables now inherit the blog-table styling via the
+   `.pr-compare__body table` / `.pr-vs__body table` selectors above. */
+
+/* Match the .pr-blog-v2__grid padding exactly so compare + vs share the
+   same vertical rhythm as blog single posts (banner → body → footer).
+   The margin-top reset cancels the base 12px on .pr-article-3-6-3 — without
+   it the gap would be 12 + 56 = 68px and feel too low under the banner. */
+.pr-compare .pr-article-3-6-3,
+.pr-vs .pr-article-3-6-3 {
+  margin-top: 0;
+  padding: 56px 0 80px;
 }
-.pr-compare__table th,
-.pr-compare__table td {
-  padding: var(--pr-s-3) var(--pr-s-4);
-  border: 1px solid var(--pr-line);
-  vertical-align: top;
-  text-align: left;
-}
-.pr-compare__table thead th {
-  background: var(--pr-ink);
-  color: var(--pr-cream);
-  font-weight: 700;
-  font-size: 0.95rem;
-}
-.pr-compare__table tbody tr:nth-child(odd) { background: rgba(255, 255, 255, 0.4); }
-.pr-compare__table tbody tr {
-  transition: background 0.15s ease;
-}
-.pr-compare__table tbody tr:hover {
-  background: var(--pr-cyan-soft);
+@media (max-width: 1024px) {
+  .pr-compare .pr-article-3-6-3,
+  .pr-vs .pr-article-3-6-3 { padding: 24px 0 48px; }
 }
 
 .pr-compare__commentary { margin-top: var(--pr-s-4); }
@@ -12538,11 +12423,11 @@ body.pr-modal-open { overflow: hidden; }
   border: 1px solid var(--pr-line);
 }
 .pr-compare__report-card--highlight {
-  background: var(--pr-ink);
-  color: var(--pr-cream);
-  border-color: var(--pr-ink);
+  background: #D7E9EC;
+  color: var(--pr-ink);
+  border-color: transparent;
 }
-.pr-compare__report-card--highlight h3 { color: var(--pr-cyan); }
+.pr-compare__report-card--highlight h3 { color: var(--pr-ink); }
 .pr-compare__report-card h3 { margin: 0 0 var(--pr-s-3); font-size: 1.2rem; }
 .pr-compare__report-list {
   list-style: none;
@@ -12555,7 +12440,7 @@ body.pr-modal-open { overflow: hidden; }
 }
 .pr-compare__report-list li:last-child { border-bottom: 0; }
 .pr-compare__report-card--highlight .pr-compare__report-list li {
-  border-bottom-color: rgba(246, 246, 241, 0.15);
+  border-bottom-color: rgba(0, 0, 0, 0.1);
 }
 .pr-compare__report-note {
   margin-top: var(--pr-s-4);
@@ -12755,9 +12640,10 @@ body.pr-modal-open { overflow: hidden; }
 .pr-compare__bottom-cta {
   margin: var(--pr-s-9) 0 0;
   padding: var(--pr-s-8) var(--pr-s-6);
-  background: var(--pr-ink);
+  background: #282828;
   color: var(--pr-cream);
   text-align: center;
+  border-radius: 8px;
 }
 .pr-compare__bottom-cta-inner { max-width: 720px; margin: 0 auto; }
 .pr-compare__bottom-cta h2 {
@@ -13494,7 +13380,7 @@ body.page-saas-ppc main {
   .pr-stat-band__gif { height: 100px; }
   .pr-section--outcome .pr-approach__card {
     min-height: auto;
-    padding: 14px;
+    padding: 24px 14px;
     border-width: 2px;
     overflow-wrap: anywhere;
     min-width: 0;
@@ -14241,9 +14127,11 @@ body.page-saas-ppc main {
   .pr-mtest__quote,
   .pr-faq__a,
   .pr-accordion__body,
-  .pr-approach__title,
-  .pr-approach-ppc__title,
   .pr-approach-ppc__copy { font-size: 16px !important; line-height: 1.6 !important; }
+
+  /* Card titles — 18px */
+  .pr-approach__title,
+  .pr-approach-ppc__title { font-size: 18px !important; line-height: 1.3 !important; }
 
   /* PPC approach card: title 18px, copy 16px (overrides the combined rule above) */
   .pr-approach-ppc__title { font-size: 18px !important; line-height: 1.3 !important; }

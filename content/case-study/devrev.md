@@ -1,5 +1,5 @@
 ---
-title: "Achieving 3.5X MQL Growth: HyperVerge's Case Study with PipeRocket"
+title: "How DevRev Achieved 127% Organic Traffic Growth: A Case Study with PipeRocket"
 slug: "devrev"
 url: "/case-study-devrev/"
 description: "How DevRev's organic programme more than doubled traffic in six months — by ranking on the queries their ICP was actually searching."

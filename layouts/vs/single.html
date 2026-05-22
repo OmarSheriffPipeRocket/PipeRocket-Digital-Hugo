@@ -1,4 +1,7 @@
 {{ define "main" }}
+{{ $authors := site.Data.authors }}
+{{ $writer := index $authors (default "" .Params.writtenBy) }}
+{{ $reviewer := index $authors (default "" .Params.reviewedBy) }}
 <article class="pr-vs">
   <div class="pr-container">
 
@@ -59,7 +62,7 @@
 
       </aside>
 
-      <div class="pr-article-main">
+      <div class="pr-article-main pr-vs__body">
         {{ with .Params.tldr }}
           <section class="pr-vs__tldr" id="tldr">
             <h2>TL;DR</h2>
@@ -98,14 +101,51 @@
           </section>
         {{ end }}
 
-        <div class="pr-vs__body" data-pr-inline-related data-related-links='{{ .Params.relatedLinks | jsonify }}'>{{ .Content }}</div>
+        <div class="pr-vs__content" data-pr-inline-related data-related-links='{{ .Params.relatedLinks | jsonify }}'>{{ .Content }}</div>
 
-        {{ partial "article-cta.html" . }}
+        {{ with $writer }}
+          <div class="pr-author-card pr-author-card--inline">
+            {{ with .photo }}<img class="pr-author-card__photo" src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
+            <div class="pr-author-card__body">
+              <div class="pr-author-card__head">
+                <span class="pr-eyebrow">Written by</span>
+                <span class="pr-author-card__name">{{ .name }}</span>
+                {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+              </div>
+              {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+              <a class="pr-author-card__btn" href="/authors/{{ $.Params.writtenBy }}/">View full profile</a>
+            </div>
+          </div>
+        {{ end }}
+        {{ with $reviewer }}
+          <div class="pr-author-card pr-author-card--inline">
+            {{ with .photo }}<img class="pr-author-card__photo" src="{{ . }}" alt="{{ $reviewer.name }}">{{ end }}
+            <div class="pr-author-card__body">
+              <div class="pr-author-card__head">
+                <span class="pr-eyebrow">Reviewed by</span>
+                <span class="pr-author-card__name">{{ .name }}</span>
+                {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+              </div>
+              {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
+              <a class="pr-author-card__btn" href="/authors/{{ $.Params.reviewedBy }}/">View full profile</a>
+            </div>
+          </div>
+        {{ end }}
       </div>
 
-      {{ partial "article-rail-author.html" . }}
-
     </div>
+
+    <!-- ====================================================
+         BOTTOM CTA — full-width (matches compare bottom-cta)
+         ==================================================== -->
+    <section class="pr-compare__bottom-cta">
+      <div class="pr-compare__bottom-cta-inner">
+        <span class="pr-eyebrow pr-eyebrow--red">Need a second opinion?</span>
+        <h2>Book a call today. Scale your pipeline tomorrow.</h2>
+        <p>Please note that we only partner with 1–2 new clients per month. 20-min call. We'll tell you honestly whether you'd be better off with us, the other agency, or neither.</p>
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn pr-btn--lg">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+    </section>
 
   </div>
 </article>

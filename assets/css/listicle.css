@@ -5,13 +5,7 @@
 
 /* ---------- Banner ---------- */
 .pr-listicle-v2__banner {
-  /* Solid charcoal base + subtle white dot-grid texture overlay. The
-     dots make the hero feel premium-editorial; isolating the pattern
-     here keeps the body of the listicle clean. */
   background-color: #282828;
-  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.12) 1.2px, transparent 1.5px);
-  background-size: 24px 24px;
-  background-position: 0 0;
   color: #fff;
   padding: 100px 0;
 }
@@ -142,19 +136,8 @@
 .pr-listicle-v2__pick-sep { color: #111; margin: 0 4px; font-weight: 700; }
 .pr-listicle-v2__pick-best { color: #4a4a4a; }
 
-/* ---------- Comparison-table row highlight ----------
-   Base table styling now lives in main.css (unified across the site).
-   Only PipeRocket row highlight needs to stay v2-specific. */
-.pr-listicle__body tbody tr.pr-listicle-v2__tbl-ours td {
-  background: #D7E9EC !important;   /* cyan-soft override of stripe colors */
-}
-.pr-listicle__body tbody tr.pr-listicle-v2__tbl-ours td:first-child {
-  color: var(--pr-cyan);
-  font-weight: 700;
-}
-.pr-listicle__body tbody tr.pr-listicle-v2__tbl-ours td strong {
-  color: var(--pr-cyan);
-}
+/* PipeRocket row uses the same alternating stripe as other rows —
+   no special background or accent colour. */
 
 /* ---------- Agency cards ---------- */
 .pr-card {

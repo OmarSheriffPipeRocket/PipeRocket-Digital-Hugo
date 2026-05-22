@@ -30,7 +30,19 @@
   {{/* Skip the trailing crumb if this IS the section index page */}}
   {{ $isSectionIndex := and $section (eq (printf "/%s/" $section) .RelPermalink) }}
   {{ if not $isSectionIndex }}
-    {{ $crumbs = $crumbs | append (dict "name" .Title "url" .RelPermalink "current" true) }}
+    {{/* Visible label: prefer hand-picked frontmatter `breadcrumbTitle`,
+         else auto-truncate the page title on a word boundary at ~30 chars
+         so the breadcrumb doesn't echo the full H1 underneath. The full
+         title is still kept in `nameFull` for the JSON-LD block (SEO). */}}
+    {{ $shortName := .Title }}
+    {{ with .Params.breadcrumbTitle }}
+      {{ $shortName = . }}
+    {{ else }}
+      {{ if gt (len .Title) 32 }}
+        {{ $shortName = .Title | truncate 30 "" }}
+      {{ end }}
+    {{ end }}
+    {{ $crumbs = $crumbs | append (dict "name" $shortName "nameFull" .Title "url" .RelPermalink "current" true) }}
   {{ end }}
 
   <nav class="pr-breadcrumbs" aria-label="Breadcrumb">
@@ -63,7 +75,7 @@
         {
           "@type": "ListItem",
           "position": {{ add $i 1 }},
-          "name": {{ $c.name | jsonify }}{{ if not $c.current }},
+          "name": {{ (or $c.nameFull $c.name) | jsonify }}{{ if not $c.current }},
           "item": {{ (absURL $c.url) | jsonify }}{{ end }}
         }
       {{- end }}

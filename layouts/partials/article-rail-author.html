@@ -25,7 +25,7 @@
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
           <div class="pr-author-card__footer">
-            <a href="/authors/{{ $.Params.writtenBy }}/" class="pr-author-card__profile-link">View full profile →</a>
+            <a href="/authors/{{ $.Params.writtenBy }}/" class="pr-author-card__btn">View full profile</a>
             {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
           </div>
         </div>
@@ -50,7 +50,7 @@
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
           <div class="pr-author-card__footer">
-            <a href="/authors/{{ $.Params.reviewedBy }}/" class="pr-author-card__profile-link">View full profile →</a>
+            <a href="/authors/{{ $.Params.reviewedBy }}/" class="pr-author-card__btn">View full profile</a>
             {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
           </div>
         </div>

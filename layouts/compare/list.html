@@ -2,11 +2,11 @@
 {{ partial "directory-hero.html" (dict
   "title" "Compare PipeRocket vs other B2B SaaS agencies"
   "lede" "Honest, verbatim side-by-side comparisons against other B2B SaaS marketing agencies — pricing, services, team, and which stage each fits best. Built from public data, no spin."
-  "section" "compare"
-  "placeholder" "Search comparisons…"
+  "ctaId" "compare-hero-subscribe"
 ) }}
 
 {{ partial "directory-grid.html" (dict
   "pages" .Pages.ByDate.Reverse
+  "noImage" true
 ) }}
 {{ end }}

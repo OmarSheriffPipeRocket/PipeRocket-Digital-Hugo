@@ -43,7 +43,7 @@ const setupMobileMenu = () => {
     setOpen(!nav.classList.contains('pr-nav--open'));
   });
   // Mobile-only: tap on Services/Resources label toggles its submenu
-  nav.querySelectorAll('.pr-nav__item--mega').forEach((item) => {
+  nav.querySelectorAll('.pr-nav__item--mega, .pr-nav__item--drop').forEach((item) => {
     item.addEventListener('click', (e) => {
       // Don't intercept clicks on links inside the megamenu
       if (e.target.closest('a')) return;
@@ -401,15 +401,16 @@ const setupListicleRankings = () => {
     if (!m) return;
     const rankNum = m[1];
     const agency = m[2];
+    // PipeRocket entries get a `--ours` modifier on their callouts so we
+    // can theme them separately (blue) from the competitor callouts (cream).
+    const isOurs = /piperocket/i.test(agency);
 
     h3.classList.add('pr-rank__h3');
     h3.dataset.rank = rankNum.padStart(2, '0');
-    // Replace text with rank badge + name spans (for fine-grained styling)
     h3.innerHTML =
       `<span class="pr-rank__badge">${rankNum.padStart(2, '0')}</span>` +
       `<span class="pr-rank__title">${agency}</span>`;
 
-    // Walk forward through siblings, classify until next h3/h2
     let n = h3.nextElementSibling;
     while (n && n.tagName !== 'H3' && n.tagName !== 'H2') {
       if (n.tagName === 'P') {
@@ -417,7 +418,6 @@ const setupListicleRankings = () => {
         if (NUMBER_ONLY.test(text)) {
           n.classList.add('pr-rank__score');
         } else if (BREAKDOWN.test(text)) {
-          // Split into pill list
           const parts = text.split(/\s*\|\s*/).filter(Boolean);
           n.classList.add('pr-rank__breakdown');
           n.innerHTML = parts
@@ -427,6 +427,9 @@ const setupListicleRankings = () => {
           for (const [prefix, cls] of PREFIXES) {
             if (text.startsWith(prefix)) {
               n.classList.add(cls);
+              if (isOurs && cls === 'pr-rank__best-for') {
+                n.classList.add('pr-rank__best-for--ours');
+              }
               break;
             }
           }
@@ -682,24 +685,21 @@ const setupPipelineFlowDeco = () => {
 };
 
 const setupCtaParallax = () => {
-  const section = document.querySelector('.pr-cta-final');
-  const mark  = document.querySelector('[data-cta-mark]');
-  const phone = document.querySelector('[data-cta-phone]');
-  if (!section || (!mark && !phone)) return;
-
-  const handleScroll = () => {
-    const rect = section.getBoundingClientRect();
-    const sectionHeight = section.offsetHeight;
-    const viewportHeight = window.innerHeight;
-    const progress = Math.max(0, Math.min(1,
-      (viewportHeight - rect.top) / (viewportHeight + sectionHeight)
-    ));
-    const offset = (progress - 0.5) * 120;
-    if (mark)  mark.style.transform  = `translate(${offset * 0.6}px, ${-offset}px)`;
-    if (phone) phone.style.transform = `translate(${-offset * 0.6}px, ${-offset}px)`;
-  };
-
-  registerScroll(handleScroll);
+  if (!('IntersectionObserver' in window)) return;
+  const sections = document.querySelectorAll('.pr-cta-final');
+  if (!sections.length) return;
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+  sections.forEach((s) => io.observe(s));
 };
 
 const setupOutcomeSection = () => {
@@ -821,70 +821,6 @@ const init = () => {
   setupCompareDecorations();
   setupTestimonialDots();
   setupAiGridHeight();
-  setupPilotPopup();
-};
-
-// =========================================================
-// 3-Month Pilot promo popup
-//
-// EXIT-INTENT ONLY. Fires once per session when the mouse exits
-// the viewport at the top. Skipped entirely on touch / coarse-pointer
-// devices (no reliable exit signal there). The Hugo partial only
-// renders the markup on the homepage, /contact-us/, and service
-// pages — so the JS check below short-circuits everywhere else.
-//
-// Dismissal via X / backdrop / "Not right now" / CTA click / Escape
-// sets a sessionStorage flag so the popup stays closed for the rest
-// of the browser session.
-// =========================================================
-const setupPilotPopup = () => {
-  const popup = document.querySelector('[data-pilot-popup]');
-  if (!popup) return;
-  if (sessionStorage.getItem('pr-pilot-popup-dismissed') === '1') return;
-  // No exit-intent on touch — skip the listener entirely.
-  if (matchMedia('(pointer: coarse)').matches) return;
-
-  let opened = false;
-
-  const open = () => {
-    if (opened) return;
-    opened = true;
-    popup.hidden = false;
-    document.body.classList.add('pr-modal-open');
-  };
-
-  const close = () => {
-    popup.hidden = true;
-    document.body.classList.remove('pr-modal-open');
-    try { sessionStorage.setItem('pr-pilot-popup-dismissed', '1'); } catch (_) {}
-    document.removeEventListener('mouseout', onExit);
-  };
-
-  const onExit = (e) => {
-    // Fire only when the cursor actually leaves the viewport at the top
-    // (typical exit-intent signal). Ignore movement to iframes / form fields.
-    if (e.relatedTarget) return;
-    if (e.clientY <= 0) open();
-  };
-
-  document.addEventListener('mouseout', onExit);
-
-  popup.querySelectorAll('[data-pilot-close]').forEach((el) => {
-    el.addEventListener('click', close);
-  });
-  popup.querySelectorAll('[data-pilot-cta]').forEach((el) => {
-    el.addEventListener('click', () => {
-      try { sessionStorage.setItem('pr-pilot-popup-dismissed', '1'); } catch (_) {}
-      // Close the pilot popup immediately so the funnel-audit form modal
-      // (which the same click also triggers via data-modal-trigger) doesn't
-      // stack underneath. setupCtaModal handles the form modal open.
-      popup.hidden = true;
-      document.body.classList.remove('pr-modal-open');
-    });
-  });
-  document.addEventListener('keydown', (e) => {
-    if (!popup.hidden && e.key === 'Escape') close();
-  });
 };
 
 // =========================================================
@@ -922,53 +858,74 @@ const setupTestimonialDots = () => {
 
   const activeImg   = '/images/dot-active.png';
   const inactiveImg = '/images/dot-inactive.png';
-  const perPage = 3;
+  const isMobile = () => window.innerWidth < 768;
 
-  let currentPage = 0;
+  let currentIndex = 0; // card index on mobile, page index on desktop
   let direction = 1;
-  const totalPages = dots.length;
 
   const cards = track.querySelectorAll('.pr-testimonial');
+  const totalCards = cards.length;
+  const totalPages = dots.length; // 2 pages of 3 on desktop
 
   const goToPage = (page) => {
     const card = cards[0];
     if (!card) return;
     const cardW = card.offsetWidth;
     const gap = parseInt(getComputedStyle(track).gap) || 10;
-    const pageW = (cardW + gap) * perPage;
-    track.style.transform = `translateX(-${page * pageW}px)`;
 
-    dots.forEach((dot, i) => {
-      const img = dot.querySelector('img');
-      const isActive = i === page;
-      dot.classList.toggle('pr-testimonials__dot--active', isActive);
-      if (img) img.src = isActive ? activeImg : inactiveImg;
-    });
+    if (isMobile()) {
+      track.style.transform = `translateX(-${currentIndex * (cardW + gap)}px)`;
+      // highlight dot based on which half we're in
+      const dotIndex = currentIndex < Math.ceil(totalCards / 2) ? 0 : 1;
+      dots.forEach((dot, i) => {
+        const img = dot.querySelector('img');
+        const isActive = i === dotIndex;
+        dot.classList.toggle('pr-testimonials__dot--active', isActive);
+        if (img) img.src = isActive ? activeImg : inactiveImg;
+      });
+    } else {
+      const pageW = (cardW + gap) * 3;
+      track.style.transform = `translateX(-${page * pageW}px)`;
+      dots.forEach((dot, i) => {
+        const img = dot.querySelector('img');
+        const isActive = i === page;
+        dot.classList.toggle('pr-testimonials__dot--active', isActive);
+        if (img) img.src = isActive ? activeImg : inactiveImg;
+      });
+    }
   };
 
   dots.forEach(dot => {
     dot.addEventListener('click', () => {
-      currentPage = parseInt(dot.dataset.testimonialDot, 10);
+      if (isMobile()) {
+        const dotIdx = parseInt(dot.dataset.testimonialDot, 10);
+        currentIndex = dotIdx === 0 ? 0 : Math.ceil(totalCards / 2);
+      } else {
+        currentIndex = parseInt(dot.dataset.testimonialDot, 10);
+      }
       direction = 1;
-      goToPage(currentPage);
+      goToPage(currentIndex);
       resetAutoPlay();
     });
   });
 
   const advance = () => {
-    const next = currentPage + direction;
-    if (next >= totalPages || next < 0) {
-      direction *= -1;
+    if (isMobile()) {
+      currentIndex = (currentIndex + 1) % totalCards;
+      goToPage(currentIndex);
+    } else {
+      const next = currentIndex + direction;
+      if (next >= totalPages || next < 0) direction *= -1;
+      currentIndex += direction;
+      goToPage(currentIndex);
     }
-    currentPage += direction;
-    goToPage(currentPage);
   };
 
-  let timer = setInterval(advance, 9000);
+  let timer = setInterval(advance, 4000);
 
   const resetAutoPlay = () => {
     clearInterval(timer);
-    timer = setInterval(advance, 9000);
+    timer = setInterval(advance, 4000);
   };
 
   goToPage(0);
