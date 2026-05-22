@@ -1,3 +1,1 @@
-<svg width="16" height="64" viewBox="0 0 16 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line opacity="0.1" x1="8.00305" y1="3.49824e-07" x2="8.00305" y2="63.3561" stroke="black" stroke-width="16.0061"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" fill="none" viewBox="0 0 16 64"><path stroke="#000" stroke-width="16.006" d="M8.003 0v63.356" opacity=".1"/></svg>

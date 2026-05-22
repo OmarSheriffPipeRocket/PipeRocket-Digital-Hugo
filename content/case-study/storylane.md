@@ -1,5 +1,5 @@
 ---
-title: "Driving 2.5X Growth and 82% More Demos: Storylane's Success with PipeRocket's Campaigns"
+title: "Driving 2.5X Growth and 62% More Demos: Storylane's Success with PipeRocket's Campaigns"
 slug: "storylane"
 url: "/case-study-storylane/"
 description: "How PipeRocket's Google Ads + LinkedIn campaigns lifted Storylane's SQLs by 25% — while holding cost-per-SQL flat across one quarter."

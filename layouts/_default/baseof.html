@@ -7,10 +7,11 @@
        so they can use the same smart logic (author-page autobuild, etc.) */}}
   <link rel="canonical" href="{{ .Permalink }}">
 
-  <!-- Fraunces (display serif) + Inter (body) -->
+  <!-- Inter (body) + self-hosted IvyPresto (display headlines) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/IvyPresto-Headline.woff2" crossorigin>
 
   {{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">

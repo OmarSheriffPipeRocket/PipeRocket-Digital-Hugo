@@ -1,11 +1,1 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
-<g clip-path="url(#clip0_1056_1446)">
-<rect width="411.766" height="411.766" rx="15.8372" fill="#F6F6F1" />
-</g>
-<defs>
-<clipPath id="clip0_1056_1446">
-<rect width="411.766" height="411.766" rx="15.8372" fill="white" />
-</clipPath>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="412" fill="none" viewBox="0 0 412 412"><g clip-path="url(#a)"><rect width="411.766" height="411.766" fill="#f6f6f1" rx="15.837"/></g><defs><clipPath id="a"><rect width="411.766" height="411.766" fill="#fff" rx="15.837"/></clipPath></defs></svg>

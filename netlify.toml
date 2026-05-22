@@ -23,3 +23,30 @@
 # use the unique branch URL.
 [context.branch-deploy]
   command = "hugo --baseURL $DEPLOY_PRIME_URL"
+
+# ─── Cache-Control headers ─────────────────────────────────────────────
+# Hugo fingerprints CSS+JS in the filename (e.g. main.min.<hash>.css), so the
+# URL changes when content changes — safe to cache for a year as immutable.
+# Fonts live at stable URLs and rarely change — same treatment.
+# Images are kept on a short cache during the migration cutover because we may
+# still be replacing assets at stable paths; bump this once content settles.
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
