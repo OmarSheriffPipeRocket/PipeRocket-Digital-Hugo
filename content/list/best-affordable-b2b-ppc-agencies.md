@@ -6,7 +6,7 @@ metaDescription: "Top 7 affordable B2B PPC agencies for 2026 — scored on speci
 layout: "listicle"
 date: 2026-05-13
 slug: "best-affordable-b2b-ppc-agencies"
-writtenBy: "ranjeeth"
+writtenBy: "praveen"
 category: "B2B PPC"
 toc: true
 readingTime: "26 min read"

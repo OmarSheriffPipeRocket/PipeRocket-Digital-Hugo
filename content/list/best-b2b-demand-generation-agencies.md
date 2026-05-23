@@ -7,7 +7,7 @@ metaDescription: "We reviewed 45+ agencies to find the best in B2B demand genera
 date: 2026-04-13
 lastmod: 2026-05-12
 slug: "best-b2b-demand-generation-agencies"
-writtenBy: "kim"
+writtenBy: "praveen"
 category: "B2B Demand Generation"
 wp_id: 3054
 wp_link: "/list/best-b2b-demand-generation-agencies/"
