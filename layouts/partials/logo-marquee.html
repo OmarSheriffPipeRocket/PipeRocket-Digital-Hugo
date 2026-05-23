@@ -1,30 +1,32 @@
-{{/* Trust band — infinite scrolling marquee with fade edges */}}
+{{/* Trust band — infinite scrolling marquee with fade edges.
+     Each logo carries its natural width/height so the browser reserves
+     correct aspect ratios upfront (CLS prevention). */}}
 {{ $logos := slice
-  (dict "name" "Spendflo"      "src" "/images/logos/spendflo.svg")
-  (dict "name" "Osfin"         "src" "/images/logos/osfin.svg")
-  (dict "name" "DigitalAPI"    "src" "/images/logos/digitalapi.svg")
-  (dict "name" "LateShipment"  "src" "/images/logos/lateshipment.svg")
-  (dict "name" "QX"            "src" "/images/logos/qx.svg")
-  (dict "name" "Amnic"         "src" "/images/logos/amnic.png")
-  (dict "name" "Sprinto"       "src" "/images/logos/sprinto.webp")
-  (dict "name" "HyperVerge"    "src" "/images/logos/hyperverge.webp")
-  (dict "name" "MetricStream"  "src" "/images/logos/metricstream.webp")
-  (dict "name" "Keka"          "src" "/images/logos/keka.svg")
-  (dict "name" "GreyThr"       "src" "/images/logos/greythr.png")
-  (dict "name" "HappyFox"      "src" "/images/logos/happyfox.svg")
-  (dict "name" "LeadSquared"   "src" "/images/logos/leadsquared.png")
-  (dict "name" "Storylane"     "src" "/images/logos/storylane.svg")
-  (dict "name" "JustCall"      "src" "/images/logos/justcall.svg")
-  (dict "name" "Apty"          "src" "/images/logos/apty.png")
-  (dict "name" "Goldcast"      "src" "/images/logos/goldcast.svg")
-  (dict "name" "Gallabox"      "src" "/images/logos/gallabox.svg")
-  (dict "name" "HyperStart"    "src" "/images/logos/hyperstart.png")
-  (dict "name" "ServiceAgent"  "src" "/images/logos/serviceagent.svg")
-  (dict "name" "LatentView"    "src" "/images/logos/latentview.svg")
-  (dict "name" "Tredence"      "src" "/images/logos/tredence.svg")
-  (dict "name" "Esri"          "src" "/images/logos/esri.svg")
-  (dict "name" "Atlas"         "src" "/images/logos/atlas.svg")
-  (dict "name" "Fibr"          "src" "/images/logos/fibr.svg")
+  (dict "name" "Spendflo"      "src" "/images/logos/spendflo.svg"     "w" 151  "h" 37)
+  (dict "name" "Osfin"         "src" "/images/logos/osfin.svg"        "w" 696  "h" 192)
+  (dict "name" "DigitalAPI"    "src" "/images/logos/digitalapi.svg"   "w" 154  "h" 32)
+  (dict "name" "LateShipment"  "src" "/images/logos/lateshipment.svg" "w" 217  "h" 50)
+  (dict "name" "QX"            "src" "/images/logos/qx.svg"           "w" 130  "h" 128)
+  (dict "name" "Amnic"         "src" "/images/logos/amnic.png"        "w" 64   "h" 64)
+  (dict "name" "Sprinto"       "src" "/images/logos/sprinto.webp"     "w" 232  "h" 48)
+  (dict "name" "HyperVerge"    "src" "/images/logos/hyperverge.webp"  "w" 324  "h" 54)
+  (dict "name" "MetricStream"  "src" "/images/logos/metricstream.webp" "w" 605 "h" 108)
+  (dict "name" "Keka"          "src" "/images/logos/keka.svg"         "w" 89   "h" 36)
+  (dict "name" "GreyThr"       "src" "/images/logos/greythr.png"      "w" 127  "h" 61)
+  (dict "name" "HappyFox"      "src" "/images/logos/happyfox.svg"     "w" 106  "h" 20)
+  (dict "name" "LeadSquared"   "src" "/images/logos/leadsquared.png"  "w" 298  "h" 57)
+  (dict "name" "Storylane"     "src" "/images/logos/storylane.svg"    "w" 429  "h" 112)
+  (dict "name" "JustCall"      "src" "/images/logos/justcall.svg"     "w" 532  "h" 135)
+  (dict "name" "Apty"          "src" "/images/logos/apty.png"         "w" 1144 "h" 540)
+  (dict "name" "Goldcast"      "src" "/images/logos/goldcast.svg"     "w" 538  "h" 75)
+  (dict "name" "Gallabox"      "src" "/images/logos/gallabox.svg"     "w" 176  "h" 38)
+  (dict "name" "HyperStart"    "src" "/images/logos/hyperstart.png"   "w" 262  "h" 56)
+  (dict "name" "ServiceAgent"  "src" "/images/logos/serviceagent.svg" "w" 242  "h" 50)
+  (dict "name" "LatentView"    "src" "/images/logos/latentview.svg"   "w" 1111 "h" 252)
+  (dict "name" "Tredence"      "src" "/images/logos/tredence.svg"     "w" 716  "h" 151)
+  (dict "name" "Esri"          "src" "/images/logos/esri.svg"         "w" 529  "h" 189)
+  (dict "name" "Atlas"         "src" "/images/logos/atlas.svg"        "w" 88   "h" 22)
+  (dict "name" "Fibr"          "src" "/images/logos/fibr.svg"         "w" 193  "h" 70)
 }}
 <section class="pr-logobar pr-logobar--marquee">
   <div class="pr-logobar__label">Leading SaaS companies that choose us</div>
@@ -33,14 +35,14 @@
       <div class="pr-logobar__group">
         {{ range $logos }}
           <div class="pr-logobar__slot">
-            <img src="{{ .src }}" alt="{{ .name }}" loading="lazy" class="pr-logobar__logo" title="{{ .name }}">
+            <img src="{{ .src }}" alt="{{ .name }}" width="{{ .w }}" height="{{ .h }}" loading="lazy" class="pr-logobar__logo" title="{{ .name }}">
           </div>
         {{ end }}
       </div>
       <div class="pr-logobar__group" aria-hidden="true">
         {{ range $logos }}
           <div class="pr-logobar__slot">
-            <img src="{{ .src }}" alt="" loading="lazy" class="pr-logobar__logo">
+            <img src="{{ .src }}" alt="" width="{{ .w }}" height="{{ .h }}" loading="lazy" class="pr-logobar__logo">
           </div>
         {{ end }}
       </div>
