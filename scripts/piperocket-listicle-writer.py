@@ -470,6 +470,17 @@ FABRICATION RULE (zero tolerance):
   "Reddit discussions about [Agency] are limited as of [Month Year]."
 - An honest "Not publicly disclosed" is always better than a fabricated link.
 
+URL RESPONSIBILITY RULE (zero tolerance, lessons from previous 404s):
+- Every external URL you wrap in [text](url) markdown MUST come from a real web_search result. NEVER guess agency URL paths like `/contact/`, `/case-studies/`, `/insights/`, `/our-work/`, `/portfolio/` from training data, agencies use wildly different URL structures and guessing produces 404s.
+- The agency HOMEPAGE (e.g. `https://klientboost.com`) is usually safe to link. But the INNER path (`https://klientboost.com/contact-us/` vs `/contact/` vs `/get-a-quote/`) varies per agency and MUST be verified.
+- For Clutch profile URLs, the SAFE pattern is `https://clutch.co/profile/<slug>`. Use the same slug you used in the `{{< agency-triptych slug="..." >}}` shortcode (those slugs are pre-verified in the codebase).
+- If a citation URL isn't pulled directly from web_search results, write the phrase in PLAIN TEXT, not as a link. Examples:
+  - GOOD: "per their published Spendflo case study" (no link if you can't verify the URL)
+  - GOOD: "Verified on Clutch" (no link if Clutch URL slug isn't verified)
+  - BAD: "[case study](https://agency.com/case-studies/spendflo)" (guessed URL = 404 risk)
+- After writing, mentally re-check every [text](url): if you can't say "I saw this exact URL in a web_search snippet", drop the link wrapper.
+- Plain text with no link is ALWAYS better than a broken link. A reader trusts a paragraph of accurate text more than a broken hyperlink.
+
 ====================================================
 PIPEROCKET POSITIONING RULES
 ====================================================
@@ -554,9 +565,62 @@ For the full process — every source we use, what disqualifies an agency, our c
 
 ## Detailed Comparison
 
-[Repeat the LOCKED AGENCY BLOCK below for each agency, in ranked order. PipeRocket Digital ALWAYS at position 2 or 3.]
+[Repeat the AGENCY BLOCK below for each agency, in ranked order. PipeRocket Digital ALWAYS at position 2 or 3.]
 
-==================== LOCKED AGENCY BLOCK ====================
+==================== AGENCY BLOCK (ORDER + HEADINGS VARY) ====================
+
+CRITICAL, READ FIRST, VARIATION RULES (anti-AI-pattern signal)
+=================================================================
+Real writers don't follow rigid templates ACROSS articles. The single strongest "AI wrote this" pattern in agency listicles is when every article in a corpus uses the exact same section order + exact same sub-headings.
+
+The rule: WITHIN a single listicle, structure stays consistent (one writer, one voice). ACROSS the listicle corpus (best-saas-seo-agencies vs best-b2b-ppc-agencies vs best-aeo-agency, etc.), the structure VARIES from page to page.
+
+So for THIS specific listicle:
+- Pick ONE section order
+- Pick ONE set of heading labels
+- Apply them consistently to EVERY agency block in this article
+
+But pick a DIFFERENT order + DIFFERENT heading set from what other PipeRocket listicles use. Each article has its own "personality" inside the corpus.
+
+(1) PICK A SECTION ORDER FOR THIS LISTICLE.
+The required SECTIONS (At a Glance, Differentiator, Proof point, Limitation, Who it's for, Who it's NOT for, Editor's read, Pricing Breakdown, What Users Say) must ALL appear in every agency block. Pick ONE ordering from the options below (or invent your own) and use it for every agency in THIS file:
+- "Standard" — At a Glance, Differentiator, Proof point, Limitation, Who it's for / NOT for, Editor's read, Pricing Breakdown, What Users Say, eval table
+- "Pricing-first" — At a Glance, Pricing Breakdown, Differentiator, Proof point, Who it's for / NOT for, Limitation, What Users Say, Editor's read, eval table
+- "Buyer-first" — At a Glance, Who it's for / NOT for, Differentiator, What Users Say, Proof point, Limitation, Editor's read, Pricing Breakdown, eval table
+- "Story-first" — At a Glance, Differentiator, Proof point, What Users Say, Best Fit For / NOT for, Limitation, Editor's read, Pricing Breakdown, eval table
+- "Reviews-early" — At a Glance, Differentiator, What Users Say, Proof point, Pricing Breakdown, Limitation, Who it's for / NOT for, Editor's read, eval table
+
+WHAT STAYS FIXED IN EVERY LISTICLE:
+- H3 line ("### N. Agency Name") always at the top
+- "Best for: [tagline]" line ALWAYS immediately under the H3 (the site JS auto-styles this as a callout)
+- "{{< agency-triptych ... >}}" shortcode below "Best for:" (or right after the front-loaded 2-sentence answer)
+- Front-loaded 2-sentence answer with the agency name linked to homepage stays near the top
+- The final eval summary table (Free Consultation + Clutch Rating rows) is typically last
+
+(2) PICK ONE HEADING-LABEL SET FOR THIS LISTICLE.
+Pick ONE label per section and use it consistently for every agency block in THIS file. Different listicles in the corpus use different label sets. Suggested label sets:
+
+Label set A ("Standard"): At a Glance / Differentiator / Proof point / Limitation / Who it's for / Who it's NOT for / Editor's read / Pricing Breakdown / What Users Say
+Label set B ("Editorial"): Quick Facts / The Edge / The Receipts / The Honest Caveat / Best Fit For / Not Built For / Operator's Note / What It Costs / What Reviewers Flag
+Label set C ("Operator"): The Snapshot / Their Angle / Track Record / Known Trade-offs / Right Call When / Wrong Call When / The Inside View / Investment / Client Voice
+Label set D ("Buyer"): Agency Profile / What Sets Them Apart / Documented Outcome / What to Watch For / Ideal Buyer / Where They Won't Fit / Editor's Take / The Numbers / On Clutch and Reddit
+Label set E ("Plain"): Vitals / The Real Difference / What They've Delivered / The Catch / Best Fit For / Not Built For / Our Take / Pricing / What Buyers Tell Us
+
+PIPEROCKET'S BLOCK (POSITION 2 OR 3): if the label set is third-person framing, swap to first-person where natural ("What Sets Them Apart" -> "What Sets Us Apart", "What Reviewers Flag" -> "What Reviewers Say About Us") but keep the SAME label set the rest of the article uses.
+
+When picking labels for a new listicle, check the most recently published 2-3 listicles in /content/list/ and CHOOSE A DIFFERENT label set from those. Across the corpus, the labels rotate.
+
+(3) ACCURACY IS NON-NEGOTIABLE.
+Heading variation is purely cosmetic. Every claim, link, rating, price, and quote must still:
+- Come from a real, verified source (Clutch profile URL, agency pricing page, Reddit thread, Quora answer, published case study)
+- Be linked inline with markdown [text](url)
+- Be free of fabrication (no invented Clutch ratings, no made-up client names, no fictional Reddit URLs)
+
+Variation gives the corpus a human fingerprint. Sloppiness with sources destroys trust. Do both.
+
+=================================================================
+SECTION CONTENT RULES (the required content for each section, regardless of order or heading)
+=================================================================
 
 ### [N]. [Agency Name]
 
@@ -635,29 +699,29 @@ Voice: first-person plural "we" — same first-person as PipeRocket's own block.
 
 [CRITICAL: do NOT add "Best For" or "Not For" rows to this evaluation summary table — those points are already covered by the highlighted "Best for:" callout under the H3 and by the "Who it's for:" / "Who it's NOT for:" lines earlier in the block. Repeating them here is redundant.]
 
-==================== END OF LOCKED AGENCY BLOCK ====================
+==================== END OF AGENCY BLOCK SPEC ====================
 
 ## FAQs
 
-[5 to 7 PAA-style questions, neutral tone, direct answers. Each answer MAX 320 characters. No bullets in answers. Use contractions. Don't promote PipeRocket in FAQ answers — neutral information block.]
+[5 to 7 PAA-style questions, neutral tone, direct answers. Each answer MAX 160 characters (HARD LIMIT, count strictly, includes spaces and punctuation). One or two short sentences only. No bullets in answers. Use contractions. Don't promote PipeRocket in FAQ answers, neutral information block. Goal: optimised for PAA snippet display and AI answer extraction, which both prefer ~150-character answers.]
 
 ### [Question 1: "What is the best {title_hint_lower} for [specific B2B SaaS use case]?"]
-[Direct answer naming top 3-5 agencies and the deciding criteria, max 320 chars.]
+[Direct answer naming top 3-5 agencies and the deciding criteria, max 160 chars.]
 
 ### [Question 2]
-[Direct answer, max 320 chars.]
+[Direct answer, max 160 chars.]
 
 ### [Question 3]
-[Direct answer, max 320 chars.]
+[Direct answer, max 160 chars.]
 
 ### [Question 4]
-[Direct answer, max 320 chars.]
+[Direct answer, max 160 chars.]
 
 ### [Question 5]
-[Direct answer, max 320 chars.]
+[Direct answer, max 160 chars.]
 
 ### [Question 6]
-[Direct answer, max 320 chars.]
+[Direct answer, max 160 chars.]
 
 ====================================================
 VOICE & FORMATTING RULES
@@ -718,7 +782,7 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] PipeRocket Digital at position 2 or 3, written in first-person ("we", "our team")
 [ ] All other agencies in third-person
 [ ] No scoring numbers, no sub-scores, no weighted totals anywhere — this is qualitative v3 format
-[ ] FAQs section uses `## FAQs` (not "Frequently Asked Questions"), has 5-7 questions, every answer ≤ 320 characters
+[ ] FAQs section uses `## FAQs` (not "Frequently Asked Questions"), has 5-7 questions, every answer ≤ 160 characters (HARD limit, count strictly; PAA + AI snippets prefer this length)
 [ ] No banned words, no banned openers
 [ ] No em-dashes, no en-dashes, no hyphens as sentence punctuation
 [ ] Paragraphs ≤ 50 words
@@ -734,6 +798,8 @@ FINAL CHECK BEFORE OUTPUTTING
 [ ] Every Pricing Breakdown paragraph includes the verbatim freshness phrase "as of {month} {year}" — Google + AI engines key on this
 [ ] "Who it's for" and "Who it's NOT for" use CONCRETE scenarios (ARR range, ad spend tier, contract preference) — never adjective-only ("growing companies", "small businesses" are auto-rejects)
 [ ] The 6 non-PipeRocket brands in the article came from the SERP brand-frequency table (Step 0), not from training data. At least 5 of the 6 should appear in 2+ of the top 5 US SERP competitor articles for the topic. PipeRocket Digital stays at position 2 or 3 regardless.
+[ ] VARIATION ENFORCED (cross-page, not within-page): inside THIS listicle, every agency block uses the SAME section order and the SAME heading-label set. Inconsistency within a single article reads like multiple authors stitched together. But the chosen order + label set is DIFFERENT from the 2-3 most recently published listicles in /content/list/. Check before generating: open the latest 2-3 .md files and pick a label set + order that aren't the same as theirs.
+[ ] URL RESPONSIBILITY: every [text](url) markdown link in the article was either (a) returned directly from a web_search snippet, or (b) is a Clutch profile using the same slug as the agency-triptych shortcode. NO guessed agency inner paths (/contact/, /case-studies/, /insights/, /our-work/). Where the URL is unverified, the citation is written as plain text without a link. Broken links destroy E-E-A-T more than missing links do.
 ====================================================
 """
 
