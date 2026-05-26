@@ -1,7 +1,7 @@
 ---
-title: "B2B Insurtech Marketing Agency | Carrier & Broker Pipeline"
-description: "B2B insurtech marketing agency for carriers, brokers, MGAs, and claims-tech platforms. Regulation-aware content, actuarial-grade evidence, multi-state pipeline."
-metaTitle: "InsurTech Marketing Agency | B2B SaaS for Insurance Tech"
-metaDescription: "InsurTech marketing agency for B2B SaaS — underwriting, claims, policy admin, embedded insurance. Compliance-aware pipeline content."
+title: "AI-First B2B InsurTech Marketing Agency | PipeRocket Digital"
+description: "AI agents run regulation-aware content, actuarial-grade evidence framing, multi-state campaign targeting, and broker-network attribution. Senior strategists own every decision. Built for US B2B InsurTech SaaS — carriers, brokers, MGAs, claims-tech, and underwriting platforms."
+metaTitle: "AI-First InsurTech Marketing Agency for US B2B SaaS | PipeRocket"
+metaDescription: "AI-first insurtech marketing agency for US B2B SaaS. AI agents handle research, content, audits, and attribution. Built for carriers, brokers, and MGAs across carriers, brokers, MGAs, claims-tech, and underwriting platforms."
 layout: "insurancetech-marketing-agency"
 ---

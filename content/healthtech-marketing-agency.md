@@ -1,7 +1,7 @@
 ---
-title: "B2B Healthtech Marketing Agency | Digital Health Pipeline"
-description: "B2B healthtech marketing agency for digital health, EHR, telehealth, payer, and provider platforms. HIPAA-aware content, peer-evidence positioning, qualified pipeline."
-metaTitle: "Health Tech Marketing Agency | B2B SaaS for Health & EHR"
-metaDescription: "Health tech marketing agency for EHR, RCM, telehealth, and clinical SaaS. HIPAA-aware content and paid media tied to qualified pipeline and closed-won revenue."
+title: "AI-First B2B Health Tech Marketing Agency | PipeRocket Digital"
+description: "AI agents run HIPAA-aware content, peer-evidence positioning, clinical-outcome messaging, and provider-cycle attribution. Senior strategists own every decision. Built for US B2B Health Tech SaaS — digital health, EHR, RCM, telehealth, payer, and provider platforms."
+metaTitle: "AI-First Health Tech Marketing Agency for US B2B SaaS | PipeRocket"
+metaDescription: "AI-first healthtech marketing agency for US B2B SaaS. AI agents handle research, content, audits, and attribution. Built for CIOs, CMIOs, and clinical leaders across digital health, EHR, RCM, telehealth, payer, and provider platforms."
 layout: "healthtech-marketing-agency"
 ---
