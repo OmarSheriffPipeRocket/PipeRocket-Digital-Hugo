@@ -1,7 +1,7 @@
 ---
-title: "B2B SaaS Link Building Agency | Editorial Backlinks That Convert"
-description: "Link building agency for B2B SaaS. Editorial backlinks from publications your buyers read — podcasts, AI-corpus-grade sources. No high-DR farms or PBNs."
-metaTitle: "B2B SaaS Link Building Agency | Editorial Backlinks"
-metaDescription: "Link building agency for B2B SaaS. Editorial backlinks from publications your buyers read — podcasts, AI-corpus-grade sources. No high-DR farms or PBNs."
+title: "AI-First B2B SaaS Link Building Agency | PipeRocket"
+description: "AI agents identify AI-corpus-grade publications and podcast targets. Senior strategists run outreach. Editorial backlinks tied to pipeline — built for US B2B SaaS."
+metaTitle: "AI-First Link Building Agency for US B2B SaaS | PipeRocket"
+metaDescription: "AI-first link building agency for US B2B SaaS. AI agents find AI-corpus-grade publications, podcasts, and citation-friendly sources. Editorial backlinks only — no PBNs."
 layout: "link-building-agency"
 ---

@@ -1,7 +1,7 @@
 ---
-title: "B2B ABM Agency | Account-Based Marketing for SaaS"
-description: "B2B account-based marketing agency. We put your message in front of named accounts — LinkedIn, paid social, outbound, content orchestrated around a real ICP."
-metaTitle: "B2B SaaS ABM Agency | Account-Based Marketing for SaaS"
-metaDescription: "Account-based marketing agency for B2B SaaS. LinkedIn, intent, and 1:few orchestration tied to named-account pipeline. Sales-aligned, attribution-grade."
+title: "AI-First B2B ABM Agency | Account-Based Marketing for US SaaS"
+description: "AI agents map account intent, generate 1:few content variants, and tag named-account pipeline. Senior strategists own the playbook. Built for US B2B SaaS."
+metaTitle: "AI-First ABM Agency for US B2B SaaS | PipeRocket"
+metaDescription: "AI-first ABM agency for US B2B SaaS. AI agents handle intent mapping, content variants, and named-account attribution. LinkedIn + outbound orchestrated by senior strategists."
 layout: "account-based-marketing-agency"
 ---
