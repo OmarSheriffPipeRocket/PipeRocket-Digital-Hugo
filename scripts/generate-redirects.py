@@ -135,6 +135,10 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     # real URL so the click works instead of 404'ing)
     ("/author/kim/",                                    "/author/kamaraj-mathiarasan/"),
     ("/author/praveen/",                                "/author/praveen-ravi/"),
+    # PSEO acronym alias — redirect /pseo-agency/ to the full-keyword canonical
+    ("/pseo-agency/",                                   "/programmatic-seo-agency/"),
+    ("/pseo/",                                          "/programmatic-seo-agency/"),
+    ("/programmatic-seo/",                              "/programmatic-seo-agency/"),
 ])
 
 # WordPress system paths to permanently kill.

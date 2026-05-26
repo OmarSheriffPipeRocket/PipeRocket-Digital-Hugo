@@ -1,0 +1,517 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__h1-eyebrow">AI-First Programmatic SEO (PSEO) Agency for US B2B SaaS</h1>
+
+        <h2 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">Don't write 50 pages.</span>
+          <span class="pr-hero__title-strong">Ship 5,000 that all convert.</span>
+        </h2>
+        <div class="pr-hero__copy pr-hero__copy--seo">
+          <p>PipeRocket Digital is an AI-first programmatic SEO agency (PSEO) for B2B SaaS companies. We build scalable SEO programs that generate comparison pages, alternative pages, integration pages, use-case pages, location pages, and category landers at scale, engineered around real buyer intent and tied to qualified pipeline. AI agents handle research, template design, content variation, and quality control while senior strategists own every decision, so programmatic does not mean thin or spammy.</p>
+        </div>
+
+        {{ $clutchSeo := where (where .Site.Data.reviews.reviews "source" "Clutch") "services" "intersect" (slice "SaaS SEO") }}
+        {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
+        <div class="pr-hero-seo__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-seo__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.webp" alt="Clutch" class="pr-hero-seo__rating-logo">
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero-seo__mobile-img" aria-hidden="true">
+        <img src="/images/hero-seo/hero-mobile.webp" alt="" loading="eager">
+      </div>
+      <div class="pr-hero__collage pr-hero__collage--seo" aria-label="PipeRocket Programmatic SEO, pages at scale, engineered for pipeline">
+        <img class="pr-hero-seo__buyer" src="/images/hero-seo/buyer-first.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__bofu" src="/images/hero-seo/bofu-vector.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__search" src="/images/hero-seo/search-bar.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__stroke" src="/images/hero-seo/red-stroke.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__man" src="/images/hero-seo/man-clock.webp" alt="Vintage figure under an SEO Results street clock" loading="eager" decoding="async">
+        <img class="pr-hero-seo__arrow" src="/images/hero-seo/arrow.svg" alt="" aria-hidden="true" loading="eager" data-arrow-parallax>
+      </div>
+    </div>
+
+    {{ partial "clutch-reviews-schema.html" (dict "reviews" $clutchSeo "rating" $clutchSource.rating "count" (len $clutchSeo)) }}
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     HOW OUR PSEO AGENCY TURNS TEMPLATES INTO PIPELINE
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="margin: 0 auto 140px; max-width: 920px; text-wrap: balance;">
+      <h2>How our programmatic SEO agency turns templates into pipeline</h2>
+    </div>
+    <div class="pr-principles" data-principles>
+      <div class="pr-principles__line" aria-hidden="true">
+        <div class="pr-principles__line-bg"></div>
+        <div class="pr-principles__line-fill" data-line-fill></div>
+        <img class="pr-principles__arrow" src="/images/principles/pr-arrow.svg" alt="" data-principles-arrow>
+      </div>
+      <div class="pr-principles__col pr-principles__col--left">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--buyers"></div>
+          <h3>Real intent over fake volume</h3>
+          <p>Most programmatic SEO scrapes a list of city names or competitor names and prints pages. We start with the searches your buyers actually run when they are evaluating, integration queries, comparison searches, alternative-to searches, use-case combinations, and reverse-engineer the template from real intent before any page is generated.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--intent"></div>
+          <h3>Quality at scale</h3>
+          <p>Programmatic SEO got a bad reputation because most agencies generate thin pages that Google de-ranks within a quarter. Every page in our PSEO program is fed by a unique data row, written through a quality-control agent, and reviewed by a human before it goes live. Scale without the spam penalty.</p>
+        </article>
+      </div>
+      <div class="pr-principles__col pr-principles__col--right">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--purpose"></div>
+          <h3>Compounding inventory</h3>
+          <p>One well-engineered template can produce hundreds of ranking pages. Comparison pages, alternative pages, integration pages, location pages, use-case landers, the inventory compounds because every new data row becomes a new page. Editorial SEO can never match this surface area at the same cost.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--revenue"></div>
+          <h3>Pipeline-tied, not traffic-tied</h3>
+          <p>Programmatic pages without conversion logic just inflate traffic graphs. Every template we build includes the CTA path, the MQL trigger, and the segment-aware messaging baked in. We report on which template types and intent categories produce pipeline, not how many URLs got indexed.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET. VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight pr-section--working-seo">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    {{ partial "working-tv.html" . }}
+  </div>
+</section>
+
+<!-- ====================================================
+     WHY SAAS TEAMS CHOOSE PIPEROCKET FOR PSEO. DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-compare--seo">
+  <div class="pr-container">
+    <div class="pr-center pr-compare--seo__header">
+      <h2>Why B2B SaaS teams choose PipeRocket as their AI-first programmatic SEO agency</h2>
+      <p>Programmatic SEO is high-leverage when done right and a Google penalty risk when done wrong. The gap between the two is everything your PSEO partner does between generating a template and shipping the 5,000th page.</p>
+    </div>
+    <img src="/images/compare-blue-vector.svg" class="pr-compare--seo__blue-vec" aria-hidden="true">
+    <div class="pr-compare--seo__table-wrap">
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-compare-table__pr-logo">
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Programmatic SEO is on the roadmap. The engineering team is busy. Marketing files tickets that never get prioritised.</div>
+        <div>Template gets built in a CMS. Pages get spun up from a public dataset. Nobody reviews the output before it goes live.</div>
+        <div>Template universe gets mapped from real buyer search behaviour first. Data layer, content engine, and quality control are built in parallel. Pages ship in week three, not quarter three.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>50 city pages get launched. Three rank. The rest sit there earning no traffic.</div>
+        <div>5,000 pages get launched. 50 rank. Google issues a manual action three months later for thin content.</div>
+        <div>Every page is engineered with a unique data row, schema, internal linking, and a conversion path. Indexation and rankings are monitored daily, underperformers are consolidated, not abandoned.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Comparison pages and alternative pages get written one at a time. By month six there are four of them, none of them rank.</div>
+        <div>"Competitor vs Competitor" pages get generated from public data. The actual differentiation buyers care about is missing. Pages bounce.</div>
+        <div>Each comparison and alternative page is fed by buyer-language data extracted from your sales call recordings. The differentiators that close deals appear on the page. Bounce rate is the lowest of any page type.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Programmatic content lives on a sub-domain, separated from the main site. Authority does not transfer. Pages never rank past the homepage.</div>
+        <div>Programmatic pages live in a folder with no internal linking strategy. Each page is an orphan. Crawl budget gets wasted.</div>
+        <div>Programmatic templates are wired into the main-site information architecture with category hubs, internal linking, and topical clustering. Authority compounds. Crawl budget is preserved.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Reporting stops at page count and impressions. Nobody can answer which programmatic templates actually drove a deal.</div>
+        <div>Reporting is a dashboard of organic sessions. Pipeline contribution is treated as someone else's problem.</div>
+        <div>Reporting ties each template type and intent category to MQLs, SQLs, pipeline influenced, and CAC payback. Templates that compound get scaled. Templates that do not get cut.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Manual cycles. Building the template takes a quarter. Filling in data rows takes another. Senior strategists end up writing copy.</div>
+        <div>"AI-powered" labels in the marketing copy. Underneath, a junior writer is still copy-pasting variables into a CMS template.</div>
+        <div>AI agents run template generation, data variation, quality control, and pipeline attribution in hours instead of weeks. 5,000 pages can be ready in 30 days. Senior strategists stay senior, they own the template and the targeting.</div>
+      </div>
+    </div>
+    <img src="/images/compare-red-vector.svg" class="pr-compare--seo__red-vec" aria-hidden="true" data-compare-red-vec>
+    <img src="/images/seo-table-rocket.svg" class="pr-compare--seo__rocket" aria-hidden="true" data-compare-rocket>
+    </div><!-- end table-wrap -->
+    <div class="pr-compare--seo__cta">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-middle">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     NUMBERS THAT MATTER. STAT BAND
+     ==================================================== -->
+<section class="pr-stat-band pr-stat-band--seo pr-stat-band--saas-seo">
+  <div class="pr-container pr-center">
+    <h2 class="pr-stat-band__heading">Page count is not a success metric.</h2>
+    <div class="pr-stat-band__row">
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-customers.webp" alt="Customers" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">CUSTOMERS</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">PIPELINE</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-revenue.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">REVENUE</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     AI ACCORDION
+     ==================================================== -->
+<section class="pr-section pr-section--ai pr-section--ai-seo">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
+      <h2>Five AI agents run your programmatic SEO data.<br>Senior strategists run your strategy.</h2>
+      <p style="margin-top: var(--pr-s-4); font-size: 1rem;">Most "programmatic" SEO offerings are a CMS template and a public spreadsheet. We built our PSEO delivery around AI agents that own the data work, template variation, and quality control, so 5,000 unique pages ship in 30 days without the spam-page risk.</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img class="pr-ai-grid__layer is-active" data-image-key="research" loading="lazy" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in programmatic SEO">
+        <img class="pr-ai-grid__layer" data-image-key="copy" loading="lazy" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="design" loading="lazy" decoding="async" src="/images/ai-accordion/design.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="optimisation" loading="lazy" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="analysis" loading="lazy" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
+      </div>
+      <div class="pr-accordion" data-ai-accordion-seo>
+        <details class="pr-accordion__item" open data-image="research">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Intent &amp; Template Research Agent
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">Scans every long-tail query, comparison search, alternative-to search, integration query, and use-case combination your buyers run. Maps the template universe before a single template gets designed. Which permutations have real buyer intent and which look big on paper but never convert stays a senior call.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="copy">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Content Variation Agent
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">Generates the unique content for each data row, comparison narrative, alternative angle, integration walkthrough, use-case framing, pulled from your product docs, sales call transcripts, and category research. Every page reads like it was written for that exact buyer, not a placeholder filled with variables.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="design">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Template &amp; Conversion Agent
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">Designs the template layout, schema markup, structured data, and CTA logic so each generated page converts, not just ranks. Comparison-page CTA logic differs from integration-page logic; the template encodes both. Which layout earns the demo stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="optimisation">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Quality Control &amp; Indexation Agent
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">Reviews every generated page for thin-content risk before publish, monitors indexation daily, and flags pages that Google quietly drops. Underperformers are consolidated, not abandoned. Internal linking and crawl-budget allocation are tuned continuously so authority compounds across the program.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="analysis">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Pipeline Attribution Agent
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">Connects every template type and intent category to your CRM, surfacing MQLs, SQLs, pipeline influenced, and CAC payback by page family. The reporting your board actually wants, by template, by intent, by segment. Which programmatic categories scale and which get cut stays a senior decision.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('[data-ai-accordion-seo]');
+      if(!acc) return;
+      var media = acc.parentElement.querySelector('.pr-ai-grid__media');
+      if(!media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var key = item.getAttribute('data-image');
+          if(!key) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === key);
+          });
+        });
+      });
+    })();
+  </script>
+</section>
+<style>
+  @media (min-width: 1024px) {
+    .pr-ai-grid { grid-template-columns: 0.9fr 1.1fr !important; gap: var(--pr-s-9) !important; }
+  }
+</style>
+
+<!-- ====================================================
+     THE PIPEROCKET PSEO APPROACH
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading">The PipeRocket programmatic SEO approach</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Each phase is built around what makes programmatic SEO actually rank, convert, and survive a Google update.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-start-from-inside.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Map the template universe</div>
+        <div class="pr-approach__copy"><p>We start by mapping every searchable permutation buyers actually run: comparison searches, alternative-to searches, integration queries, use-case combinations, location-by-product searches, feature-by-segment searches.</p><p>Each permutation becomes a candidate template. The ones with real pipeline potential survive; the rest get cut before any page is built.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-map-full-picture.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Build the data layer</div>
+        <div class="pr-approach__copy"><p>Every programmatic page needs a unique data row. We build the structured data layer from your product docs, your sales call transcripts, third-party APIs, competitor profiles, and verified review data.</p><p>The data layer is the moat. Generic data produces generic pages. Specific, verified, structured data produces pages that rank and convert.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-build-with-intent.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Engineer the template</div>
+        <div class="pr-approach__copy"><p>The template encodes the layout, schema, internal linking, CTA logic, conversion path, and structured data markers. Each template is designed for the specific intent: comparison templates differ from integration templates differ from use-case templates.</p><p>One well-engineered template can ship hundreds of ranking, converting pages.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-go-where-buyers.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Generate at scale</div>
+        <div class="pr-approach__copy"><p>AI agents take the data layer and the engineered template and produce the unique content for each row, the comparison narrative, the alternative angle, the integration walkthrough, the use-case framing.</p><p>5,000 unique pages can be ready in 30 days. None of them read like placeholders with variables filled in.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-convert-day-one.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">QA every variation</div>
+        <div class="pr-approach__copy"><p>Before a page goes live, a quality-control agent checks it against thin-content thresholds, factual accuracy, schema validation, and conversion-path completeness. Pages that fail get refined or cut, not published.</p><p>This is the step most programmatic agencies skip. It is the difference between a compounding inventory and a Google manual action.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-built-to-be-found.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Internal linking architecture</div>
+        <div class="pr-approach__copy"><p>Programmatic pages without internal linking are orphans. We wire each template family into the main-site information architecture with category hubs, sibling linking, and topical clustering so authority compounds and crawl budget is preserved.</p><p>The 5,000th programmatic page benefits from the authority of the first 4,999.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-cited-where-counts.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Monitor and refresh</div>
+        <div class="pr-approach__copy"><p>Indexation, ranking, and pipeline contribution are tracked daily by template type. Pages that drop get refreshed; underperforming categories get consolidated; new search permutations get added to the template universe as buyer behaviour evolves.</p><p>Programmatic SEO is not a one-time launch, it is a compounding asset that needs continuous tuning.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-scale-what-works.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Scale what compounds</div>
+        <div class="pr-approach__copy"><p>Performance is reviewed by template family, intent category, and segment. When a template type consistently drives qualified pipeline, we deepen the data layer, add more variations, and expand the template universe.</p><p>We scale what compounds and cut what does not. Page count without pipeline is not a metric we celebrate.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     AEO / GEO BRIDGE
+     ==================================================== -->
+<section class="pr-section pr-section--aeo-bridge">
+  <div class="pr-container" style="max-width: 880px; text-align: center;">
+    <h2>Programmatic pages need to be cited by AI engines, not just ranked.</h2>
+    <p style="font-size: 1.1rem; margin: var(--pr-s-4) auto var(--pr-s-5); max-width: 720px;">
+      <strong>94% of B2B buyers now use LLMs to evaluate vendors.</strong> A 5,000-page programmatic program that does not surface in ChatGPT, Perplexity, or Google AI Overviews is leaving half the demand on the table. We engineer programmatic templates with citation-grade schema and retrieval-friendly structure so the pages rank in Google and get cited by AI engines.
+    </p>
+    <a href="/aeo-geo-agency/" class="pr-btn" data-cta-location="service-aeo-bridge">See our AEO/GEO program</a>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES
+     ==================================================== -->
+<section class="pr-section--tight pr-section--casestudies">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Success Stories</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Driving 2.5X Growth and 82% More Demos: Storylane's Success with PipeRocket's Campaigns.</p>
+          <a href="/case-study-storylane/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-devrev-cs.svg" alt="DevRev" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Achieving 2.2X Organic Traffic Growth: DevRev's Case Study with PipeRocket.</p>
+          <a href="/case-study-devrev/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">From Stagnation to Domination: PipeRocket's Impact on Spendflo's 81% Traffic Rise.</p>
+          <a href="/case-study-spendflo/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
+      <a href="/case-study/" class="pr-btn pr-btn--ghost">View all success stories</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR TECH STACK
+     ==================================================== -->
+{{ partial "tech-stack.html" . }}
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is programmatic SEO (PSEO)?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Programmatic SEO (sometimes called PSEO or scalable SEO) is the practice of generating hundreds or thousands of unique landing pages from a single template plus a structured data layer. Each page targets a specific long-tail intent: a comparison query, an alternative-to query, an integration combination, a use-case lander, or a location-by-product permutation. Done well, it produces a compounding inventory of pages that rank and convert. Done poorly, it produces thin spam that Google de-ranks.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is a programmatic SEO (PSEO) agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">A programmatic SEO agency designs the template universe, builds the data layer, engineers the templates, generates the pages, runs quality control, wires the internal linking, and ties everything to pipeline reporting. The best PSEO agencies are AI-first because the data and content variation work is exactly what AI agents do well. The mediocre ones just resell a CMS template and a public dataset.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How is AI-first PSEO different from generic programmatic SEO?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Generic programmatic SEO uses a template and a public dataset to print pages. AI-first PSEO uses AI agents to map the template universe from real buyer intent, generate unique content for each data row from your sales call transcripts and product docs, quality-check every page before publish, and tie reporting back to pipeline by template type. The output is the same surface area, the conversion rate and Google durability are not comparable.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Is programmatic SEO spammy?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">It can be. Programmatic SEO got its bad reputation because most agencies generate thin pages from a public dataset and ship without quality control. Google then issues thin-content manual actions or quietly de-ranks the entire template family. We design every program around a unique data row per page, AI-powered content variation, quality-control review before publish, and continuous indexation monitoring. The result is a compounding asset, not a Google penalty.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What types of programmatic pages work for B2B SaaS?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">The highest-converting programmatic templates for B2B SaaS are: comparison pages (X vs Y), alternative pages (X alternative to Y), integration pages (X integrates with Y), use-case pages (X for &lt;use case&gt;), feature-by-segment pages (X for &lt;industry&gt;), and category landers. Location pages can work for B2B SaaS in specific cases (compliance-bound categories) but rarely produce pipeline for horizontal SaaS.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How many pages can you generate?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">As many as your data layer supports. We have shipped programs ranging from 50 highly engineered comparison pages to 5,000+ pages across multiple template families. The right number is driven by buyer-intent permutations and data-row uniqueness, not how big a number we can spin up.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How long before programmatic SEO drives pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Template universe and data layer get built in weeks one and two. First pages ship in week three. High-intent BOFU templates (comparison, alternative) typically start producing MQLs within 30 to 60 days of publish. Lower-intent templates take 60 to 90 days to compound. Pipeline impact accelerates as the program scales because every new template family inherits authority from the existing inventory.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How much does a PSEO engagement cost?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Engagements start at $5,000/month for a focused single-template program (e.g. comparison pages or integration pages only). Multi-template programs scale from there. Pricing is driven by the number of template families, the depth of the data layer, and the QA load. We size every proposal against pipeline goals, not page-count vanity.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Do programmatic pages get cited by ChatGPT and AI search?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">They can, and they should. Programmatic templates engineered with structured schema, factual density, and citation-grade content are exactly what AI engines retrieve from. We design every template with both Google ranking and AI-engine citation in mind, and pair PSEO with our <a href="/aeo-geo-agency/">AEO/GEO program</a> so the same surface area earns dual visibility.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Can programmatic SEO work alongside editorial SEO?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">They are complements, not alternatives. Editorial SEO builds topical authority and answers higher-funnel buyer questions; programmatic SEO scales BOFU surface area across comparison, alternative, and integration intent. Most of our clients run both as one integrated program through our <a href="/saas-seo-agency/">SaaS SEO service</a>.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final pr-cta-final--seo">
+  <div class="pr-container">
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2><span class="pr-cta-soft">Page-count alone is not pipeline.</span> <strong>Let's build PSEO that compounds.</strong></h2>
+    <p>We work with a small number of B2B SaaS companies at a time. If your programmatic SEO surface area is thin, orphaned, or unranked, let's find out if we're the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="service-bottom">Book free consultation</a>
+  </div>
+</section>
+
+{{ end }}
