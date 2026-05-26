@@ -108,6 +108,71 @@ weight = 1
 name = "SaaS PPC"
 url = "/saas-ppc/"
 weight = 2
+[[menu.footer_services]]
+name = "AEO & GEO"
+url = "/aeo-geo-agency/"
+weight = 3
+[[menu.footer_services]]
+name = "Programmatic SEO"
+url = "/programmatic-seo-agency/"
+weight = 4
+[[menu.footer_services]]
+name = "Account-Based Marketing"
+url = "/account-based-marketing-agency/"
+weight = 5
+[[menu.footer_services]]
+name = "Link Building"
+url = "/link-building-agency/"
+weight = 6
+[[menu.footer_services]]
+name = "Content Marketing"
+url = "/content-marketing-agency/"
+weight = 7
+[[menu.footer_services]]
+name = "Marketing Operations"
+url = "/marketing-ops/"
+weight = 8
+
+[[menu.footer_industries]]
+name = "Fintech Agency"
+url = "/fintech-marketing-agency/"
+weight = 1
+[[menu.footer_industries]]
+name = "Health Tech Agency"
+url = "/healthtech-marketing-agency/"
+weight = 2
+[[menu.footer_industries]]
+name = "Cybersecurity Agency"
+url = "/cybersecurity-marketing-agency/"
+weight = 3
+[[menu.footer_industries]]
+name = "DevTools Agency"
+url = "/devtools-marketing-agency/"
+weight = 4
+[[menu.footer_industries]]
+name = "EdTech Agency"
+url = "/edtech-marketing-agency/"
+weight = 5
+[[menu.footer_industries]]
+name = "HR Tech Agency"
+url = "/hrtech-marketing-agency/"
+weight = 6
+[[menu.footer_industries]]
+name = "InsurTech Agency"
+url = "/insurancetech-marketing-agency/"
+weight = 7
+[[menu.footer_industries]]
+name = "Legal Tech Agency"
+url = "/legaltech-marketing-agency/"
+weight = 8
+[[menu.footer_industries]]
+name = "MarTech Agency"
+url = "/martech-marketing-agency/"
+weight = 9
+[[menu.footer_industries]]
+name = "PropTech Agency"
+url = "/proptech-marketing-agency/"
+weight = 10
 
 [[menu.footer_company]]
 name = "About Us"
@@ -126,17 +191,29 @@ name = "Partnership"
 url = "/partnership/"
 weight = 4
 [[menu.footer_company]]
+name = "Careers"
+url = "/careers/"
+weight = 5
+[[menu.footer_company]]
 name = "Privacy Policy"
 url = "/privacy-policy/"
-weight = 5
+weight = 6
 [[menu.footer_company]]
 name = "Cookies Policy"
 url = "/cookies-policy/"
-weight = 6
+weight = 7
 [[menu.footer_company]]
 name = "Terms & Conditions"
 url = "/terms-and-conditions/"
-weight = 7
+weight = 8
+[[menu.footer_company]]
+name = "Reviews"
+url = "/reviews/"
+weight = 9
+[[menu.footer_company]]
+name = "FAQs"
+url = "/faqs/"
+weight = 10
 
 [[menu.footer_learn]]
 name = "SaaS SEO Agencies"
@@ -211,6 +288,7 @@ region = "na2"
 email = "hello@piperocket.digital"
 phone = "+91 88702 45547"
 address = "Chennai, India · US delivery hub"
+office_us = "New York, USA"
 
 # Numbers that matter — homepage stats strip. Each entry animates from 0 to `target` on scroll-in.
 # Edit values here; layout renders from .Site.Params.stats.

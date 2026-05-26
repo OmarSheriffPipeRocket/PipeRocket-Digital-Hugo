@@ -1,51 +1,165 @@
+{{ $listicles    := where .Site.RegularPages "Section" "list"      | first 30 }}
+{{ $caseStudies  := where .Site.RegularPages "Section" "case-study" }}
+{{ $compares     := where .Site.RegularPages "Section" "compare"   }}
+{{ $tools        := where .Site.RegularPages "Section" "tools"     }}
+{{ $blogs        := first 24 (where .Site.RegularPages "Section" "blogs") }}
+{{ $glossary     := where .Site.RegularPages "Section" "glossary"  | first 30 }}
+
 <footer class="pr-footer">
   <div class="pr-container">
-    <div class="pr-footer__grid">
+
+    {{/* TOP: brand + Services group + Company group */}}
+    <div class="pr-footer__top">
+
       <div class="pr-footer__brand">
-        <p class="pr-footer__tagline">{{ .Site.Params.tagline }}</p>
-        <a href="/" class="pr-logo">
+        <a href="/" class="pr-logo" aria-label="PipeRocket home">
           <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-logo__img" width="201" height="32">
         </a>
+        <p class="pr-footer__tagline">{{ .Site.Params.tagline }}</p>
+
+        <address class="pr-footer__contact">
+          {{ with .Site.Params.contact.office_us }}<span class="pr-footer__contact-line">{{ . }}</span>{{ end }}
+          {{ with .Site.Params.contact.office_in }}<span class="pr-footer__contact-line">{{ . }}</span>{{ end }}
+          {{ with .Site.Params.contact.email }}<a href="mailto:{{ . }}" class="pr-footer__contact-link">{{ . }}</a>{{ end }}
+        </address>
+
+        <div class="pr-footer__social">
+          {{ with .Site.Params.social.linkedin }}
+            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="LinkedIn" class="pr-footer__social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56V14.9c0-1.32-.03-3.02-1.84-3.02-1.84 0-2.13 1.44-2.13 2.92v5.65h-3.55V9h3.41v1.56h.05c.48-.9 1.64-1.84 3.37-1.84 3.6 0 4.27 2.37 4.27 5.45v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+            </a>
+          {{ end }}
+          {{ with .Site.Params.social.twitter }}
+            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="X (Twitter)" class="pr-footer__social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M18.244 2H21l-6.52 7.45L22 22h-6.55l-5.13-6.51L4.4 22H1.64l6.98-7.97L1.6 2h6.71l4.63 5.96L18.244 2zm-1.16 18.42h1.52L7.02 3.5H5.39l11.69 16.92z"/></svg>
+            </a>
+          {{ end }}
+        </div>
+
+        <p class="pr-footer__copy-mini">{{ .Site.Params.copyright }}</p>
       </div>
 
-      <div class="pr-footer__col">
-        <h4>Services</h4>
-        <ul>
-          {{ range .Site.Menus.footer_services }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-          {{ end }}
-        </ul>
+      <details class="pr-footer__group" data-footer-group>
+        <summary class="pr-footer__group-summary">
+          <h4 class="pr-footer__group-title">Services</h4>
+        </summary>
+        <div class="pr-footer__group-grid">
+          {{ $services := .Site.Menus.footer_services }}
+          {{ $half := div (add (len $services) 1) 2 }}
+          <ul>
+            {{ range $i, $item := $services }}
+              {{ if lt $i $half }}<li><a href="{{ $item.URL }}">{{ $item.Name }}</a></li>{{ end }}
+            {{ end }}
+          </ul>
+          <ul>
+            {{ range $i, $item := $services }}
+              {{ if ge $i $half }}<li><a href="{{ $item.URL }}">{{ $item.Name }}</a></li>{{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      </details>
+
+      <details class="pr-footer__group" data-footer-group>
+        <summary class="pr-footer__group-summary">
+          <h4 class="pr-footer__group-title">Company</h4>
+        </summary>
+        <div class="pr-footer__group-grid">
+          {{ $company := .Site.Menus.footer_company }}
+          {{ $cHalf := div (add (len $company) 1) 2 }}
+          <ul>
+            {{ range $i, $item := $company }}
+              {{ if lt $i $cHalf }}<li><a href="{{ $item.URL }}">{{ $item.Name }}</a></li>{{ end }}
+            {{ end }}
+          </ul>
+          <ul>
+            {{ range $i, $item := $company }}
+              {{ if ge $i $cHalf }}<li><a href="{{ $item.URL }}">{{ $item.Name }}</a></li>{{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      </details>
+
+    </div>
+
+    {{/* DISCOVERY: tabs panel */}}
+    <div class="pr-footer__discovery" data-footer-discovery>
+      <div class="pr-footer__tabs" role="tablist" aria-label="Explore PipeRocket">
+        <button type="button" class="pr-footer__tab is-active" data-tab="about" role="tab" aria-selected="true">About PipeRocket</button>
+        <button type="button" class="pr-footer__tab" data-tab="best" role="tab" aria-selected="false">Best Lists</button>
+        <button type="button" class="pr-footer__tab" data-tab="case-studies" role="tab" aria-selected="false">Case Studies</button>
+        <button type="button" class="pr-footer__tab" data-tab="industries" role="tab" aria-selected="false">Industries</button>
+        <button type="button" class="pr-footer__tab" data-tab="compare" role="tab" aria-selected="false">Comparisons</button>
+        <button type="button" class="pr-footer__tab" data-tab="tools" role="tab" aria-selected="false">Tools</button>
+        <button type="button" class="pr-footer__tab" data-tab="blogs" role="tab" aria-selected="false">Blogs</button>
+        <button type="button" class="pr-footer__tab" data-tab="glossary" role="tab" aria-selected="false">Glossary</button>
       </div>
 
-      <div class="pr-footer__col">
-        <h4>Company</h4>
-        <ul>
-          {{ range .Site.Menus.footer_company }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      <div class="pr-footer__panels">
+
+        {{/* ABOUT PIPEROCKET */}}
+        <div class="pr-footer__panel pr-footer__panel--prose is-active" data-panel="about" role="tabpanel">
+          <p>PipeRocket Digital is an AI-first B2B SaaS marketing agency founded in 2020, headquartered in New York and serving US B2B SaaS companies across SaaS SEO, SaaS PPC, AEO and GEO, account-based marketing, programmatic SEO, content marketing, and marketing operations, with 70+ shipped pipeline engagements including Storylane, HyperVerge, LatentView, Spendflo, MetricStream, Goldcast, greytHR, and SaaS Labs.</p>
+        </div>
+
+        {{/* BEST LISTS */}}
+        <div class="pr-footer__panel" data-panel="best" role="tabpanel" hidden>
+          {{ range $i, $page := $listicles }}
+            <a class="pr-footer__panel-link{{ if ge $i 15 }} is-extra{{ end }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
           {{ end }}
-        </ul>
+        </div>
+
+        {{/* CASE STUDIES */}}
+        <div class="pr-footer__panel" data-panel="case-studies" role="tabpanel" hidden>
+          {{ range $caseStudies }}
+            <a class="pr-footer__panel-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ end }}
+        </div>
+
+        {{/* INDUSTRIES */}}
+        <div class="pr-footer__panel" data-panel="industries" role="tabpanel" hidden>
+          {{ range .Site.Menus.footer_industries }}
+            <a class="pr-footer__panel-link" href="{{ .URL }}">{{ .Name }}</a>
+          {{ end }}
+        </div>
+
+        {{/* COMPARISONS */}}
+        <div class="pr-footer__panel" data-panel="compare" role="tabpanel" hidden>
+          {{ range $compares }}
+            <a class="pr-footer__panel-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ end }}
+        </div>
+
+        {{/* TOOLS */}}
+        <div class="pr-footer__panel" data-panel="tools" role="tabpanel" hidden>
+          {{ range $tools }}
+            <a class="pr-footer__panel-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ end }}
+        </div>
+
+        {{/* BLOGS */}}
+        <div class="pr-footer__panel" data-panel="blogs" role="tabpanel" hidden>
+          {{ range $i, $page := $blogs }}
+            <a class="pr-footer__panel-link{{ if ge $i 15 }} is-extra{{ end }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+          {{ end }}
+        </div>
+
+        {{/* GLOSSARY */}}
+        <div class="pr-footer__panel" data-panel="glossary" role="tabpanel" hidden>
+          {{ range $i, $page := $glossary }}
+            <a class="pr-footer__panel-link{{ if ge $i 15 }} is-extra{{ end }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+          {{ end }}
+        </div>
+
       </div>
 
-      <div class="pr-footer__col">
-        <h4>Learn</h4>
-        <ul>
-          {{ range .Site.Menus.footer_learn }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-          {{ end }}
-        </ul>
-      </div>
-
-      <div class="pr-footer__col">
-        <h4>Resources</h4>
-        <ul>
-          {{ range .Site.Menus.footer_resources }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-          {{ end }}
-        </ul>
+      <div class="pr-footer__show-more-wrap">
+        <button type="button" class="pr-footer__show-more" data-footer-show-more aria-expanded="false">
+          <span class="pr-footer__show-more-label">Show more</span>
+          <span class="pr-footer__show-more-icon" aria-hidden="true">↓</span>
+        </button>
       </div>
     </div>
 
-    <p class="pr-footer__copy">{{ .Site.Params.copyright }}</p>
   </div>
 
   <div class="pr-footer__wordmark" aria-hidden="true">PipeRocket</div>

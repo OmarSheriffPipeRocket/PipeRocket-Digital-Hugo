@@ -802,9 +802,92 @@ const wrapArticleTables = () => {
   });
 };
 
+// =========================================================
+// Footer groups: <details> + <summary> for + icon click-to-
+// expand on mobile. Modern browsers hide non-summary children
+// when [open] is absent (via UA content-visibility on the
+// internal details slot), which CSS alone cannot override
+// reliably. On desktop we toggle the `open` attribute so the
+// links render; on mobile we let the user control it.
+// =========================================================
+const setupFooterColumns = () => {
+  const cols = document.querySelectorAll('[data-footer-group]');
+  if (!cols.length) return;
+  const mql = window.matchMedia('(min-width: 768px)');
+  const sync = () => {
+    const isDesktop = mql.matches;
+    cols.forEach((col) => {
+      if (isDesktop) col.setAttribute('open', '');
+      else col.removeAttribute('open');
+    });
+  };
+  sync();
+  mql.addEventListener('change', sync);
+};
+
+// =========================================================
+// Footer discovery tabs: click a tab → switch active panel,
+// reset show-more state, and hide the show-more button when
+// the active panel has no .is-extra items.
+// =========================================================
+const setupFooterTabs = () => {
+  const root = document.querySelector('[data-footer-discovery]');
+  if (!root) return;
+  const tabs = root.querySelectorAll('.pr-footer__tab');
+  const panels = root.querySelectorAll('.pr-footer__panel');
+  const showMore = root.querySelector('[data-footer-show-more]');
+  const showMoreLabel = showMore ? showMore.querySelector('.pr-footer__show-more-label') : null;
+
+  const updateShowMore = () => {
+    if (!showMore) return;
+    const activePanel = root.querySelector('.pr-footer__panel.is-active');
+    if (!activePanel) { showMore.hidden = true; return; }
+    const hasExtras = activePanel.querySelectorAll('.pr-footer__panel-link.is-extra').length > 0;
+    showMore.hidden = !hasExtras;
+  };
+
+  const setActive = (name) => {
+    tabs.forEach((t) => {
+      const isActive = t.dataset.tab === name;
+      t.classList.toggle('is-active', isActive);
+      t.setAttribute('aria-selected', isActive ? 'true' : 'false');
+    });
+    panels.forEach((p) => {
+      const isActive = p.dataset.panel === name;
+      p.classList.toggle('is-active', isActive);
+      p.classList.remove('is-expanded');
+      if (isActive) p.removeAttribute('hidden');
+      else p.setAttribute('hidden', '');
+    });
+    if (showMore) {
+      showMore.setAttribute('aria-expanded', 'false');
+      if (showMoreLabel) showMoreLabel.textContent = 'Show more';
+    }
+    updateShowMore();
+  };
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => setActive(tab.dataset.tab));
+  });
+
+  if (showMore) {
+    showMore.addEventListener('click', () => {
+      const activePanel = root.querySelector('.pr-footer__panel.is-active');
+      if (!activePanel) return;
+      const expanded = activePanel.classList.toggle('is-expanded');
+      showMore.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      if (showMoreLabel) showMoreLabel.textContent = expanded ? 'Show less' : 'Show more';
+    });
+  }
+
+  updateShowMore();
+};
+
 const init = () => {
   wrapArticleTables();
   setupMobileMenu();
+  setupFooterColumns();
+  setupFooterTabs();
   setupCounters();
   setupAccordion();
   setupStickyCta();

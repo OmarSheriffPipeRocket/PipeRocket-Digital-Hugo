@@ -81,7 +81,7 @@ We onboard a small number of partners per quarter on each track to keep the rela
 
 Common questions about the partner program go to:
 
-**PipeRocket Digital — Partnerships**  
+**PipeRocket Digital, Partnerships**  
 [partners@piperocket.digital](mailto:partners@piperocket.digital)
 
 For everything outside the partner program, use [editorial@piperocket.digital](mailto:editorial@piperocket.digital) or our [contact page](/contact-us/).
