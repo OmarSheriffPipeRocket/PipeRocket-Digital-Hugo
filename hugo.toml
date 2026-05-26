@@ -121,6 +121,22 @@ weight = 2
 name = "Contact Us"
 url = "/contact-us/"
 weight = 3
+[[menu.footer_company]]
+name = "Partnership"
+url = "/partnership/"
+weight = 4
+[[menu.footer_company]]
+name = "Privacy Policy"
+url = "/privacy-policy/"
+weight = 5
+[[menu.footer_company]]
+name = "Cookies Policy"
+url = "/cookies-policy/"
+weight = 6
+[[menu.footer_company]]
+name = "Terms & Conditions"
+url = "/terms-and-conditions/"
+weight = 7
 
 [[menu.footer_learn]]
 name = "SaaS SEO Agencies"
