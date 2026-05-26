@@ -563,17 +563,23 @@ a.pr-btn--ghost:hover,
   max-width: 860px;
   z-index: 60;
 }
-/* 4-column Services mega menu (categorised: SEO, Paid, Stack, Industries) */
-.pr-megamenu--4col {
-  grid-template-columns: 1.05fr 1.05fr 1fr 1.1fr !important;
-  max-width: 1320px !important;
+/* Services mega menu — 3 columns (Organic Growth, Paid & Demand, Growth Stack) */
+.pr-megamenu--services {
+  grid-template-columns: 1fr 1fr 1fr !important;
+  max-width: 1080px !important;
 }
-.pr-megamenu--4col .pr-megamenu__link {
-  padding: 8px 2.4rem 8px 8px;
-  margin: 0 -8px;
+.pr-megamenu--services .pr-megamenu__link { padding: 8px 2.4rem 8px 8px; margin: 0 -8px; }
+.pr-megamenu--services .pr-megamenu__link strong { font-size: 0.95rem; }
+.pr-megamenu--services .pr-megamenu__link span { font-size: 0.78rem; line-height: 1.35; }
+
+/* Industries mega menu — 2 columns, narrower than Services */
+.pr-megamenu--industries {
+  grid-template-columns: 1fr 1fr !important;
+  max-width: 720px !important;
 }
-.pr-megamenu--4col .pr-megamenu__link strong { font-size: 0.95rem; }
-.pr-megamenu--4col .pr-megamenu__link span { font-size: 0.78rem; line-height: 1.35; }
+.pr-megamenu--industries .pr-megamenu__link { padding: 8px 2.4rem 8px 8px; margin: 0 -8px; }
+.pr-megamenu--industries .pr-megamenu__link strong { font-size: 0.95rem; }
+.pr-megamenu--industries .pr-megamenu__link span { font-size: 0.78rem; line-height: 1.35; }
 .pr-nav__item--mega:hover .pr-megamenu,
 .pr-nav__item--mega:focus-within .pr-megamenu {
   opacity: 1;
