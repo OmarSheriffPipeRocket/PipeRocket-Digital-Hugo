@@ -14201,16 +14201,16 @@ body.page-saas-ppc main {
    FONT STANDARDIZATION — Desktop (≥768px)
    ============================================================ */
 @media (min-width: 768px) {
-  /* Hero H2 (formerly H1; H1 is now the eyebrow line above) — 38px */
+  /* Hero H2 (formerly H1; H1 is now the eyebrow line above) — 44px */
   .pr-hero__title,
   .pr-hero__title-soft,
   .pr-hero__title-strong,
   .pr-hero--ppc .pr-hero__title-soft,
-  .pr-hero--ppc .pr-hero__title-strong { font-size: 38px !important; line-height: 1.15 !important; }
+  .pr-hero--ppc .pr-hero__title-strong { font-size: 44px !important; line-height: 1.15 !important; }
 
   /* PPC hero H2 — slightly smaller because of longer multi-line phrasing */
   .pr-hero--ppc .pr-hero__title-soft,
-  .pr-hero--ppc .pr-hero__title-strong { font-size: 32px !important; }
+  .pr-hero--ppc .pr-hero__title-strong { font-size: 38px !important; }
 
   /* H2 — 40px global default (applies everywhere except service/landing sections) */
   h2 { font-size: 40px !important; line-height: 1.25 !important; }
