@@ -20,7 +20,6 @@
 /category/*                              /blogs/                             301
 /blog/category/*                         /blogs/                             301
 /tag/*                                   /blogs/                             301
-/author/*                                /authors/                           301
 /?p=*                                    /                                   301
 /?page_id=*                              /                                   301
 /sitemap_index.xml                       /sitemap.xml                        301
@@ -111,6 +110,8 @@
 /mark-ops/                                              /marketing-ops/                                         301
 /programmetic-seo/                                      /                                                       301
 /list/best-saas-seo-agencies-2/                         /list/best-saas-seo-agencies/                           301
+/author/kim/                                            /author/kamaraj-mathiarasan/                            301
+/author/praveen/                                        /author/praveen-ravi/                                   301
 
 # ============================================================
 #  C. Auto-generated per-page redirects (wp_link → permalink)

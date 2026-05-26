@@ -130,6 +130,11 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     # Duplicate cornerstone consolidated into canonical /list/best-saas-seo-agencies/
     # (Red Flags + lastmod refresh merged 2026-05-26)
     ("/list/best-saas-seo-agencies-2/",                 "/list/best-saas-seo-agencies/"),
+    # Author slug mismatches — data-file key differs from canonical URL slug
+    # (templates fall back to /author/<key>/ when GetPage fails; redirect to the
+    # real URL so the click works instead of 404'ing)
+    ("/author/kim/",                                    "/author/kamaraj-mathiarasan/"),
+    ("/author/praveen/",                                "/author/praveen-ravi/"),
 ])
 
 # WordPress system paths to permanently kill.
@@ -148,7 +153,10 @@ WP_KILL_PATHS = [
     ("/category/*",        "/blogs/", 301),
     ("/blog/category/*",   "/blogs/", 301),
     ("/tag/*",             "/blogs/", 301),
-    ("/author/*",          "/authors/", 301),
+    # NOTE: do NOT blanket-redirect /author/* — Hugo serves real author
+    # pages at /author/<slug>/ now. Use specific redirects below for the
+    # known slug mismatches where the data-file key differs from the
+    # canonical URL slug.
     ("/?p=*",              "/", 301),  # legacy /?p=123 permalinks
     ("/?page_id=*",        "/", 301),
     ("/sitemap_index.xml", "/sitemap.xml", 301),
