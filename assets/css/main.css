@@ -955,7 +955,7 @@ a.pr-btn--ghost:hover,
 }
 .pr-hero__title {
   font-family: var(--pr-ivy-headline);
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   line-height: 1.2;
   letter-spacing: -0.02em;
   font-weight: 600;
@@ -984,7 +984,7 @@ a.pr-btn--ghost:hover,
 .pr-hero__copy {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   color: var(--pr-ink-2);
   max-width: 540px;
   margin-bottom: var(--pr-s-6);
@@ -3579,7 +3579,7 @@ a.pr-footer__trust-item:hover {
   display: flex;
   flex-direction: column;
   gap: var(--pr-s-3);
-  font-size: clamp(1.75rem, 2.6vw, 2.6rem);
+  font-size: clamp(1.4rem, 2.1vw, 2.1rem);
   line-height: 1.15;
   letter-spacing: -0.015em;
 }
@@ -3587,7 +3587,7 @@ a.pr-footer__trust-item:hover {
   color: #787878;
   font-family: var(--pr-ivy-headline);
   font-weight: 600;
-  font-size: 51px;
+  font-size: 38px;
   line-height: 1.21;
   letter-spacing: -0.02em;
 }
@@ -3595,8 +3595,8 @@ a.pr-footer__trust-item:hover {
 .pr-hero__title-strong {
   color: var(--pr-ink);
   font-weight: 700;
-  font-size: 1.31em;
-  line-height: 1.1;
+  font-size: 1.25em;
+  line-height: 1.15;
 }
 
 /* =================================================================
@@ -14029,12 +14029,12 @@ body.page-saas-ppc main {
    FONT STANDARDIZATION — Tier B (481–767px, large mobile / small tablet)
    ============================================================ */
 @media (min-width: 481px) and (max-width: 767px) {
-  /* H1 — 42px */
+  /* Hero H2 — 30px tablet */
   .pr-hero__title,
   .pr-hero__title-soft,
   .pr-hero__title-strong,
   .pr-hero--ppc .pr-hero__title-soft,
-  .pr-hero--ppc .pr-hero__title-strong { font-size: 42px !important; line-height: 1.1 !important; }
+  .pr-hero--ppc .pr-hero__title-strong { font-size: 30px !important; line-height: 1.15 !important; }
 
   /* H2 — 38px */
   h2,
@@ -14114,12 +14114,12 @@ body.page-saas-ppc main {
    FONT STANDARDIZATION — Tier A (≤480px, small mobile / phone portrait)
    ============================================================ */
 @media (max-width: 480px) {
-  /* H1 — 32px */
+  /* Hero H2 — 24px mobile */
   .pr-hero__title,
   .pr-hero__title-soft,
   .pr-hero__title-strong,
   .pr-hero--ppc .pr-hero__title-soft,
-  .pr-hero--ppc .pr-hero__title-strong { font-size: 32px !important; line-height: 1.15 !important; }
+  .pr-hero--ppc .pr-hero__title-strong { font-size: 24px !important; line-height: 1.2 !important; }
 
   /* H2 — 28px */
   h2,
@@ -14201,16 +14201,16 @@ body.page-saas-ppc main {
    FONT STANDARDIZATION — Desktop (≥768px)
    ============================================================ */
 @media (min-width: 768px) {
-  /* H1 — 56px */
+  /* Hero H2 (formerly H1; H1 is now the eyebrow line above) — 38px */
   .pr-hero__title,
   .pr-hero__title-soft,
   .pr-hero__title-strong,
   .pr-hero--ppc .pr-hero__title-soft,
-  .pr-hero--ppc .pr-hero__title-strong { font-size: 56px !important; line-height: 1.1 !important; }
+  .pr-hero--ppc .pr-hero__title-strong { font-size: 38px !important; line-height: 1.15 !important; }
 
-  /* PPC H1 — 47px (overrides 56px above) */
+  /* PPC hero H2 — slightly smaller because of longer multi-line phrasing */
   .pr-hero--ppc .pr-hero__title-soft,
-  .pr-hero--ppc .pr-hero__title-strong { font-size: 47px !important; }
+  .pr-hero--ppc .pr-hero__title-strong { font-size: 32px !important; }
 
   /* H2 — 40px global default (applies everywhere except service/landing sections) */
   h2 { font-size: 40px !important; line-height: 1.25 !important; }
@@ -14253,12 +14253,14 @@ body.page-saas-ppc main {
 
   /* Body copy — 18px for service / landing pages (specificity beats bare p) */
   .pr-section p,
-  .pr-hero__copy p,
-  .pr-hero__copy,
   .pr-hero__lede,
   .pr-pipeline-flow__lede,
   .pr-approach-ppc__lede,
   .pr-section--compare > .pr-container > .pr-center p { font-size: 18px !important; line-height: 1.5 !important; }
+
+  /* Hero description copy — 15px, smaller than section body so it stays subordinate to the H2 */
+  .pr-hero__copy p,
+  .pr-hero__copy { font-size: 15px !important; line-height: 1.55 !important; }
 
   /* Accordion dropdown title — 18px */
   .pr-accordion__header,
