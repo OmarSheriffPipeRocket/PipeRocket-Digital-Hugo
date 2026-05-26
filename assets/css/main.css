@@ -209,9 +209,12 @@ p { margin: 0 0 var(--pr-s-4); }
 .pr-compare--seo__header h2 {
   font-family: var(--pr-ivy-headline);
   font-weight: 600;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: 920px;
+  margin: 0 auto;
   padding-bottom: 15px;
   color: var(--pr-cream);
+  text-wrap: balance;
 }
 .pr-compare--seo__header p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {{/* <title> + <meta description> are rendered by partials/head-meta.html
        so they can use the same smart logic (author-page autobuild, etc.) */}}
   <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="alternate" hreflang="en-us" href="{{ .Permalink }}">
+  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
 
   <!-- Inter (body) + self-hosted IvyPresto (display headlines) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
