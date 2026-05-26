@@ -14,7 +14,7 @@ eyebrow: "About PipeRocket"
 founded: "2020"
 locations: "New York · Bangalore"
 
-# Numbers strip — verifiable from press release + Clutch
+# Numbers strip, verifiable from press release + Clutch
 stats:
   - value: "70+"
     label: "SaaS companies shipped"
@@ -25,7 +25,7 @@ stats:
   - value: "$4.5M+"
     label: "Pipeline generated for clients"
 
-# Notable wins — pulled from PipeRocket's April 2026 press release
+# Notable wins, pulled from PipeRocket's April 2026 press release
 notable_wins:
   - client: "Xflow"
     metric: "7,000%"
@@ -56,7 +56,7 @@ notable_wins:
     label: "signup / demo growth"
     detail: "in 2 years"
 
-# Founder quotes — verbatim from April 2026 press release
+# Founder quotes, verbatim from April 2026 press release
 founder_quotes:
   - quote: "SaaS companies don't have visibility problems; they have execution gaps."
     name: "Kamaraj Mathiarasan (Kim)"
@@ -65,10 +65,10 @@ founder_quotes:
     name: "Praveen Ravi"
     role: "Co-Founder"
 
-# Featured in — third-party recognition / press
+# Featured in, third-party recognition / press
 featured_in:
   - name: "CMO Alliance"
-    label: "CMOs to Watch 2026 — Praveen Ravi"
+    label: "CMOs to Watch 2026. Praveen Ravi"
     url: "https://www.linkedin.com/in/praveenravi14/"
   - name: "PR Newswire"
     label: "70+ SaaS Companies Achieved Measurable Marketing ROI"
@@ -77,10 +77,10 @@ featured_in:
     label: "5.0 ★ Verified Reviews · 12 reviews"
     url: "https://clutch.co/profile/piperocket-digital"
   - name: "MarketersUnfiltered"
-    label: "Podcast — Performance Marketing"
+    label: "Podcast. Performance Marketing"
     url: "https://www.linkedin.com/in/sabarishchandrasekar/"
 
-# Beliefs — the principles every engagement starts from
+# Beliefs, the principles every engagement starts from
 beliefs:
   - title: "Ownership"
     icon: "/images/about-belief-ownership.svg"
@@ -105,10 +105,10 @@ We've sat across the table from too many agencies that started a meeting with a 
 
 That's why PipeRocket exists.
 
-We started this in 2020 after a decade inside B2B SaaS — first as in-house marketers running paid programmes that had to defend themselves against a CFO every quarter, later as practitioners who got tired of watching agencies optimise for ranking reports instead of revenue.
+We started this in 2020 after a decade inside B2B SaaS, first as in-house marketers running paid programmes that had to defend themselves against a CFO every quarter, later as practitioners who got tired of watching agencies optimise for ranking reports instead of revenue.
 
 Cut the vanity. Start with the buyer. Tie every page, every campaign, every report back to a number the board recognises.
 
 That's what we do here. Day one to day three-hundred.
 
-— **Praveen & Kim**, Co-Founders
+- **Praveen & Kim**, Co-Founders
