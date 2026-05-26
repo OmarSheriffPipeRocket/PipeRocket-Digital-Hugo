@@ -34,7 +34,7 @@ Picking the wrong agency costs more than retainer fees: it costs you a quarter o
 8. **Optimist:** Best for B2B tech companies wanting to outsource their entire content function to one strategic partner
 9. **mvpGROW:** Best for early-stage tech startups needing an on-demand marketing team to move fast
 
-## Side-by-Side Comparison
+## Top 9 B2B content marketing agencies, head-to-head
 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |

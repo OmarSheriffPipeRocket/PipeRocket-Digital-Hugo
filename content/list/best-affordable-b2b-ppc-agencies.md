@@ -29,7 +29,7 @@ Picking the wrong agency costs more than retainer fees: it costs you a wasted qu
 6. **GrowthSpree:** Best for early-to-mid stage B2B SaaS needing flat-fee pricing and senior operator execution
 7. **WebFX:** Best for transparent pricing and accessible entry points for mid-market B2B teams
 
-## Side-by-Side Comparison
+## Top affordable B2B PPC agencies at a glance
 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
