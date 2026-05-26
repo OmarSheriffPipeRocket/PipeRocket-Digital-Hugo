@@ -127,6 +127,9 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/SaaS-SEO/",                                      "/saas-seo-agency/"),
     ("/mark-ops/",                                      "/marketing-ops/"),
     ("/programmetic-seo/",                              "/"),
+    # Duplicate cornerstone consolidated into canonical /list/best-saas-seo-agencies/
+    # (Red Flags + lastmod refresh merged 2026-05-26)
+    ("/list/best-saas-seo-agencies-2/",                 "/list/best-saas-seo-agencies/"),
 ])
 
 # WordPress system paths to permanently kill.
