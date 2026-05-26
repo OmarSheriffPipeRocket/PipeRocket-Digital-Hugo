@@ -80,6 +80,53 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/content-marketing/",                             "/content-marketing-agency/"),
     ("/link-building/",                                 "/link-building-agency/"),
     ("/fintech-seo/",                                   "/fintech-seo-agency/"),
+    # Old /blog/<slug>/ WordPress URLs (singular path) — Hugo serves /blogs/ now
+    ("/blog/b2b-buyers-journey/",                       "/blogs/"),
+    ("/blog/b2b-seo/",                                  "/list/best-b2b-seo-agencies/"),
+    ("/blog/best-b2b-demand-generation-agencies/",      "/list/"),
+    ("/blog/best-b2b-google-ads-agencies/",             "/list/best-b2b-google-ads-agencies/"),
+    ("/blog/best-b2b-lead-generation-agencies/",        "/list/best-b2b-lead-generation-companies/"),
+    ("/blog/best-b2b-linkedin-ads-agencies/",           "/list/best-linkedin-marketing-agencies/"),
+    ("/blog/best-b2b-marketing-agencies/",              "/list/best-b2b-marketing-agencies/"),
+    ("/blog/best-b2b-ppc-agencies/",                    "/list/top-b2b-ppc-agencies/"),
+    ("/blog/best-b2b-saas-seo-agencies/",               "/list/best-saas-seo-agencies/"),
+    ("/blog/best-b2b-seo-agencies/",                    "/list/best-b2b-seo-agencies/"),
+    ("/blog/best-b2b-social-media-marketing-agencies/", "/list/"),
+    ("/blog/best-enterprise-seo-agencies/",             "/list/best-enterprise-seo-agencies/"),
+    ("/blog/best-linkedin-marketing-agencies/",         "/list/best-linkedin-marketing-agencies/"),
+    ("/blog/best-performance-marketing-agencies/",      "/list/top-performance-marketing-agencies/"),
+    ("/blog/best-saas-demand-generation-agencies/",     "/list/"),
+    ("/blog/best-saas-link-building-agency/",           "/list/the-10-best-saas-link-building-agencies-in-2026/"),
+    ("/blog/best-saas-marketing-agencies/",             "/list/best-saas-marketing-agencies-2026/"),
+    ("/blog/best-technical-seo-agencies/",              "/list/the-11-best-technical-seo-agencies-for-2026/"),
+    ("/blog/choose-best-saas-seo-agency-saas-companies/", "/saas-seo-agency/"),
+    ("/blog/enterprise-seo-guide/",                     "/blogs/enterprise-seo-guide/"),
+    ("/blog/saas-marketing-companies-challenges/",      "/blogs/saas-marketing-challenges-and-fixes/"),
+    ("/blog/saas-seo/",                                 "/saas-seo-agency/"),
+    ("/blog/saas-seo-services/",                        "/saas-seo-agency/"),
+    ("/blog/seo-for-saas-companies/",                   "/saas-seo-agency/"),
+    ("/blog/the-complete-guide-to-b2b-seo-for-2025/",   "/list/best-b2b-seo-agencies/"),
+    # Old /seo/<slug>/ pattern (predecessor of /list/)
+    ("/seo/best-b2b-demand-generation-agencies/",       "/list/"),
+    ("/seo/best-b2b-google-ads-agencies/",              "/list/best-b2b-google-ads-agencies/"),
+    ("/seo/best-b2b-linkedin-ads-agencies/",            "/list/best-linkedin-marketing-agencies/"),
+    ("/seo/best-b2b-marketing-agencies/",               "/list/best-b2b-marketing-agencies/"),
+    ("/seo/best-b2b-ppc-agencies/",                     "/list/top-b2b-ppc-agencies/"),
+    ("/seo/best-enterprise-seo-agencies/",              "/list/best-enterprise-seo-agencies/"),
+    ("/seo/best-linkedin-marketing-agencies/",          "/list/best-linkedin-marketing-agencies/"),
+    ("/seo/best-performance-marketing-agencies/",       "/list/top-performance-marketing-agencies/"),
+    ("/seo/best-saas-demand-generation-agencies/",      "/list/"),
+    ("/seo/best-saas-link-building-agency/",            "/list/the-10-best-saas-link-building-agencies-in-2026/"),
+    ("/seo/best-saas-marketing-agencies/",              "/list/best-saas-marketing-agencies-2026/"),
+    ("/seo/best-technical-seo-agencies/",               "/list/the-11-best-technical-seo-agencies-for-2026/"),
+    ("/seo/enterprise-seo-guide/",                      "/blogs/enterprise-seo-guide/"),
+    ("/seo/saas-seo/",                                  "/saas-seo-agency/"),
+    # Old single-section service path
+    ("/b2b-seo/best-b2b-seo-agencies/",                 "/list/best-b2b-seo-agencies/"),
+    # One-off legacy URLs
+    ("/SaaS-SEO/",                                      "/saas-seo-agency/"),
+    ("/mark-ops/",                                      "/marketing-ops/"),
+    ("/programmetic-seo/",                              "/"),
 ])
 
 # WordPress system paths to permanently kill.
@@ -96,12 +143,44 @@ WP_KILL_PATHS = [
     ("/comments/feed/*",   "/", 410),
     ("/xmlrpc.php",        "/", 410),
     ("/category/*",        "/blogs/", 301),
+    ("/blog/category/*",   "/blogs/", 301),
     ("/tag/*",             "/blogs/", 301),
     ("/author/*",          "/authors/", 301),
     ("/?p=*",              "/", 301),  # legacy /?p=123 permalinks
     ("/?page_id=*",        "/", 301),
     ("/sitemap_index.xml", "/sitemap.xml", 301),
     ("/sitemap-*.xml",     "/sitemap.xml", 301),
+]
+
+# Decommissioned URL patterns — kept here so the script is the single
+# source of truth and re-running it doesn't wipe these out.
+#
+# • Thin auto-generated FAQ pages were pruned; redirect to the curated
+#   /faqs/ hub so any inbound link equity flows somewhere useful.
+# • Programmatic /saas-seo-agency/<city|state>/ pages were removed for
+#   the same thin-content reason; collapse to the parent service page.
+# • A handful of one-off WP URLs that no longer have a Hugo equivalent.
+#
+# Catch-alls go last so more specific curated rules above always win.
+DECOMMISSIONED_PATHS = [
+    # Curated section-level redirects (preserve link equity)
+    ("/blog/",                          "/blogs/", 301),
+    ("/gtm-lp/",                        "/",       301),
+    ("/saas-seo/",                      "/saas-seo-agency/", 301),
+    ("/us/b2b-seo-agency-california/",  "/saas-seo-agency/", 301),
+    ("/webinar/",                       "/",       301),
+    # Permanently gone — empty/decommissioned, no replacement
+    ("/locations.kml",                  "/",       410),
+    ("/manage-subscriptions/",          "/",       410),
+    ("/webinar-nivas/",                 "/",       410),
+    # Thin auto-generated FAQ pages — 301 to curated FAQ hub
+    ("/blogs/faqs/*",                   "/faqs/",  301),
+    ("/faqs/*",                         "/faqs/",  301),
+    # Programmatic city/state SEO pages — collapse to parent service page.
+    # Listed as a catch-all; legitimate sub-paths (/saas-seo-agency/faqs/,
+    # /saas-seo-agency/faqs1) have specific rules earlier or live as
+    # static files which take precedence over non-forced redirects.
+    ("/saas-seo-agency/*",              "/saas-seo-agency/", 301),
 ]
 
 
@@ -230,14 +309,28 @@ def main():
     lines.append("")
     for src, dst in sorted(auto_redirects.items()):
         lines.append(f"{src:<60} {dst:<60} 301")
+    lines.append("")
+    lines.append("# ============================================================")
+    lines.append("#  D. Decommissioned URLs (thin content + legacy WP paths)")
+    lines.append("# ============================================================")
+    lines.append("")
+    for src, dst, code in DECOMMISSIONED_PATHS:
+        lines.append(f"{src:<60} {dst:<60} {code}")
+    lines.append("")
+    lines.append("# ============================================================")
+    lines.append("#  E. Final fallback — anything unmatched returns HTTP 404")
+    lines.append("# ============================================================")
+    lines.append("")
+    lines.append(f"{'/*':<60} {'/404.html':<60} 404")
 
     out_text = "\n".join(lines) + "\n"
     OUT.write_text(out_text, encoding="utf-8")
 
     print(f"Wrote {OUT.relative_to(ROOT)}")
-    print(f"  WordPress system rules: {len(WP_KILL_PATHS)}")
-    print(f"  Curated slug renames:   {len(MANUAL_SLUG_REDIRECTS)}")
+    print(f"  WordPress system rules:   {len(WP_KILL_PATHS)}")
+    print(f"  Curated slug renames:     {len(MANUAL_SLUG_REDIRECTS)}")
     print(f"  Auto wp_link → permalink: {len(auto_redirects)}")
+    print(f"  Decommissioned URLs:      {len(DECOMMISSIONED_PATHS)}")
     print(f"  (skipped {skipped_same} pages where wp_link == permalink)")
     print(f"  (skipped {skipped_shadow} pages where wp_link is a live URL)")
     print(f"  Total lines: {len(lines)}")
