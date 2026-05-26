@@ -113,7 +113,7 @@
                 {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
               </div>
               {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
-              <a class="pr-author-card__btn" href="{{ with .Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">View full profile</a>
+              <a class="pr-author-card__btn" href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">View full profile</a>
             </div>
           </div>
         {{ end }}
@@ -127,7 +127,7 @@
                 {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
               </div>
               {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
-              <a class="pr-author-card__btn" href="{{ with .Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}">View full profile</a>
+              <a class="pr-author-card__btn" href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}">View full profile</a>
             </div>
           </div>
         {{ end }}

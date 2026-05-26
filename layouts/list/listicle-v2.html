@@ -29,7 +29,7 @@
           <h1 class="pr-listicle-v2__title">{{ .Title }}</h1>
           <div class="pr-listicle-v2__byline">
             {{ with $writer }}
-              <a class="pr-listicle-v2__author" href="{{ with .Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">
+              <a class="pr-listicle-v2__author" href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">
                 {{ with .photo }}<img src="{{ . }}" alt="{{ $writer.name }}">{{ end }}
                 <span>{{ .name }}</span>
               </a>
@@ -77,7 +77,7 @@
               {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
             </div>
             {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
-            <a class="pr-author-card__btn" href="{{ with .Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">View full profile</a>
+            <a class="pr-author-card__btn" href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">View full profile</a>
           </div>
         </div>
         {{ end }}

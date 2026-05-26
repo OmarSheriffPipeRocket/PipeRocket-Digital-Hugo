@@ -17,7 +17,7 @@
             <div class="pr-author-card__person-body">
               <div class="pr-eyebrow">Written by</div>
               <strong class="pr-author-card__name">
-                <a href="{{ with .Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">{{ .name }}</a>
+                <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">{{ .name }}</a>
                 {{ partial "trust-badge.html" . }}
               </strong>
               {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
@@ -25,7 +25,7 @@
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
           <div class="pr-author-card__footer">
-            <a href="{{ with .Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}" class="pr-author-card__btn">View full profile</a>
+            <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}" class="pr-author-card__btn">View full profile</a>
             {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
           </div>
         </div>
@@ -42,7 +42,7 @@
             <div class="pr-author-card__person-body">
               <div class="pr-eyebrow">Reviewed by</div>
               <strong class="pr-author-card__name">
-                <a href="{{ with .Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}">{{ .name }}</a>
+                <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}">{{ .name }}</a>
                 {{ partial "trust-badge.html" . }}
               </strong>
               {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
@@ -50,7 +50,7 @@
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
           <div class="pr-author-card__footer">
-            <a href="{{ with .Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}" class="pr-author-card__btn">View full profile</a>
+            <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}" class="pr-author-card__btn">View full profile</a>
             {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
           </div>
         </div>

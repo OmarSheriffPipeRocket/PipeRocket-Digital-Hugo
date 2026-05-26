@@ -4,14 +4,14 @@
 {{ with $writer }}
   <span class="pr-byline__role">
     <span class="pr-byline__label">Written by</span>
-    <a href="{{ with .Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}" class="pr-byline__name">{{ .name }}</a>
+    <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}" class="pr-byline__name">{{ .name }}</a>
     {{ partial "trust-badge.html" . }}
   </span>
 {{ end }}
 {{ with $reviewer }}
   <span class="pr-byline__role">
     <span class="pr-byline__label">Reviewed by</span>
-    <a href="{{ with .Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}" class="pr-byline__name">{{ .name }}</a>
+    <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}" class="pr-byline__name">{{ .name }}</a>
     {{ partial "trust-badge.html" . }}
   </span>
 {{ end }}
