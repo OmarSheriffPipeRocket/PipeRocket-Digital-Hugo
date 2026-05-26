@@ -1,7 +1,7 @@
 ---
-title: "AI-First B2B SaaS SEO Agency | PipeRocket Digital"
-description: "Our AI agents run keyword research, audits, gap analysis, and link prospecting. Senior strategists run your campaign. Every page tied to pipeline, built for US B2B SaaS."
-metaTitle: "AI-First SaaS SEO Agency for US B2B SaaS | PipeRocket"
-metaDescription: "AI agents automate research, audits, and prospecting. Senior strategists own every decision. Every page tied to qualified pipeline, not traffic reports. Built for US B2B SaaS."
+title: "B2B SaaS SEO Agency | Pipeline-First Organic Growth"
+description: "B2B SaaS SEO agency that goes after in-market BOFU searches from week one. Every page tied to qualified pipeline and closed-won MRR, not traffic reports."
+metaTitle: "B2B SaaS SEO Agency | Pipeline-First Organic Growth"
+metaDescription: "B2B SaaS SEO agency going after in-market BOFU searches from week one. Every page tied to qualified pipeline and closed-won MRR, not traffic reports."
 layout: "saas-seo-agency"
 ---
