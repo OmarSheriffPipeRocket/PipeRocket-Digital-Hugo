@@ -7,6 +7,19 @@
   HUGO_ENVIRONMENT = "production"
   TZ = "Asia/Kolkata"
 
+# ─── Lighthouse perf monitoring on every production deploy ─────────────
+# Surfaces Performance / Accessibility / Best-Practices / SEO scores in
+# the Netlify deploy log so we catch regressions early.
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+  [plugins.inputs]
+    output_path = "reports/lighthouse.html"
+
+  [[plugins.inputs.audits]]
+    path = ""
+    url = "https://piperocket.digital/"
+
 # Production builds (main branch) — use canonical site URL.
 # Hugo bakes baseURL into <link>, <img>, sitemap.xml, etc., so internal
 # navigation should always go to piperocketdigital.netlify.app, not the
