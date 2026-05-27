@@ -306,7 +306,7 @@ region = "na2"
 email = "piperocketmarketing@gmail.com"
 phone = "+91 88702 45547"
 address = "Chennai, India · US delivery hub"
-office_us = "New York, USA"
+office_us = "California, USA"
 
 # Numbers that matter — homepage stats strip. Each entry animates from 0 to `target` on scroll-in.
 # Edit values here; layout renders from .Site.Params.stats.
