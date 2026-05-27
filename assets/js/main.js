@@ -720,7 +720,7 @@ const setupCtaParallax = () => {
 
 const setupOutcomeSection = () => {
   const section = document.querySelector('[data-outcome-section]');
-  const rocket  = document.querySelector('[data-outcome-rocket]');
+  const rockets = document.querySelectorAll('[data-outcome-rocket]');
   if (!section) return;
 
   // Trigger underline animation for all instances when they enter view
@@ -738,15 +738,17 @@ const setupOutcomeSection = () => {
     });
   }
 
-  // Scroll-based rocket rise — starts when rocket enters viewport
-  if (!rocket) return;
+  // Scroll-based rocket rise — applied to every rocket instance
+  if (!rockets.length) return;
   const handleScroll = () => {
-    const rect = rocket.getBoundingClientRect();
-    const progress = Math.max(0, Math.min(1,
-      (window.innerHeight - rect.top) / (window.innerHeight + rocket.offsetHeight)
-    ));
-    const rise = progress * 100;
-    rocket.style.transform = `translate(${rise * 1.5}px, ${-rise * 2.5}px)`;
+    rockets.forEach((rocket) => {
+      const rect = rocket.getBoundingClientRect();
+      const progress = Math.max(0, Math.min(1,
+        (window.innerHeight - rect.top) / (window.innerHeight + rocket.offsetHeight)
+      ));
+      const rise = progress * 100;
+      rocket.style.transform = `translate(${rise * 1.5}px, ${-rise * 2.5}px)`;
+    });
   };
   registerScroll(handleScroll);
 };

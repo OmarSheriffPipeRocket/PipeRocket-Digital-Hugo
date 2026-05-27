@@ -3806,8 +3806,57 @@ a.pr-footer__trust-item:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: var(--pr-s-5);
-  max-width: 1100px;
+  max-width: none;
   margin: 0 auto;
+}
+/* Pillars span the full container on desktop so the grid's left/right edges
+   line up with the nav logo and CTA (the header strips its side padding). */
+@media (min-width: 1024px) {
+  .pr-section--ai-pillars > .pr-container { padding-left: 0; padding-right: 0; }
+}
+/* Agent-stack cards carry less copy than the approach cards, so trim height. */
+.pr-section--agents-stack .pr-approach__card--seo { min-height: 360px; }
+@media (min-width: 768px) {
+  .pr-section--agents-stack .pr-approach__card { min-height: 360px; height: 360px; }
+}
+
+/* Desktop: uniform H2 (1010px) and subtext (650px) box widths across the page.
+   Hero title is excluded — it is left-aligned inside the hero grid. */
+/* All H2 subtexts: Helvetica Neue 400 (applies at every breakpoint). */
+.page-saas-seo .pr-compare--seo__header p,
+.page-saas-seo .pr-outcome__header p,
+.page-saas-seo .pr-section--ai-pillars > .pr-container > .pr-center > p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 1024px) {
+  .page-saas-seo h2:not(.pr-hero__title) {
+    max-width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .page-saas-seo .pr-section--ai-seo > .pr-container > .pr-center,
+  .page-saas-seo .pr-section--ai-pillars > .pr-container > .pr-center {
+    max-width: 1010px !important;
+  }
+  /* Default subtext cap (compare + approach). */
+  .page-saas-seo .pr-compare--seo__header p,
+  .page-saas-seo .pr-outcome__header p {
+    max-width: 650px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  /* Pillars subtext. */
+  .page-saas-seo .pr-section--ai-pillars > .pr-container > .pr-center > p {
+    max-width: 720px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  /* Agent-stack subtext (overrides the default outcome-header cap). */
+  .page-saas-seo .pr-section--agents-stack .pr-outcome__header p {
+    max-width: 850px !important;
+  }
 }
 .pr-ai-pillars__card {
   padding: var(--pr-s-5);
@@ -3834,9 +3883,9 @@ a.pr-footer__trust-item:hover {
   margin: 0 0 var(--pr-s-3);
   color: var(--pr-ink);
 }
-.pr-ai-pillars__card p {
+.pr-section--ai-pillars .pr-ai-pillars__card p {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.92rem;
+  font-size: 16px !important;
   line-height: 1.55;
   color: var(--pr-ink-2);
   margin: 0;
