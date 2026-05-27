@@ -3820,6 +3820,7 @@ a.pr-footer__trust-item:hover {
   .pr-section--agents-stack .pr-approach__card { min-height: 360px; height: 360px; }
 }
 
+
 /* Desktop: uniform H2 (1010px) and subtext (650px) box widths across the page.
    Hero title is excluded — it is left-aligned inside the hero grid. */
 /* All H2 subtexts: Helvetica Neue 400 (applies at every breakpoint). */
@@ -4355,6 +4356,10 @@ a.pr-footer__trust-item:hover {
   color: var(--pr-ink-2);
   max-width: 460px;
   margin: 0 auto;
+}
+/* Desktop: nudge the pipeline-flow title left so it centers over the subtext. */
+@media (min-width: 1024px) {
+  .pr-pipeline-flow__title { transform: translateX(-80px); }
 }
 
 /* Single grid drives the whole zigzag — explicit grid-rows, no column wrappers */
