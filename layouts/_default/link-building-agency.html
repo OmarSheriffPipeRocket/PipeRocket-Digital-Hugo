@@ -13,80 +13,30 @@
           <span class="pr-hero__title-soft">DR scores don&rsquo;t close deals.</span>
           <span class="pr-hero__title-strong">Citations from sources buyers trust do.</span>
         </h2>
-        <div class="pr-hero__copy">
+        <div class="pr-hero__copy pr-hero__copy--seo">
           <p>Most link building agencies sell DR-chasing backlinks from domains nobody reads. PipeRocket&rsquo;s link building services earn editorial placements in publications your buyers actually open, trade press, podcasts, AI-corpus-grade sources, links that move both rankings and pipeline.</p>
         </div>
-
-        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
 
         {{/* SEO page = any Clutch review tagged with "SaaS SEO" (mixed services OK) */}}
         {{ $clutchSeo := where (where .Site.Data.reviews.reviews "source" "Clutch") "services" "intersect" (slice "SaaS SEO") }}
         {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
-        <div class="pr-clutch-accordion pr-clutch-accordion--inline" id="clutchReviewsSeo">
-          <button class="pr-clutch-accordion__head pr-clutch-accordion__head--simple" type="button" data-clutch-accordion-toggle aria-expanded="true" aria-controls="clutchAccordionPanelSeo">
-            <img src="/images/logos/clutch.svg" alt="Clutch" class="pr-clutch-accordion__logo">
-            <span class="pr-clutch-accordion__rating-simple">
-              <strong>{{ $clutchSource.rating }}</strong>
-              <span class="pr-clutch-accordion__stars" aria-hidden="true">★★★★★</span>
-            </span>
-            <span class="pr-clutch-accordion__caret" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </span>
-          </button>
-        </div>
-      </div>
-      <div class="pr-hero__collage" aria-label="PipeRocket SaaS SEO, patience tested, answers delivered">
-        <img class="pr-hero__image" src="/images/hero-seo.webp" alt="Vintage figure under an SEO Results street clock with Buyer first and BOFU first badges" loading="eager">
-      </div>
-    </div>
-
-    <!-- Carousel panel, full container width, open by default. -->
-    <div class="pr-clutch-accordion__panel pr-clutch-accordion__panel--full" id="clutchAccordionPanelSeo" data-clutch-accordion-panel>
-      <div class="pr-clutch-accordion__carousel-wrap">
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--prev" data-carousel-prev aria-label="Previous reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-        </button>
-
-        <div class="pr-clutch-accordion__track" data-carousel-track>
-          {{ range $clutchSeo }}
-            <article class="pr-clutch-card">
-              <header class="pr-clutch-card__head">
-                <span class="pr-clutch-card__rating-row" aria-label="Rated {{ .rating }} out of 5">
-                  {{ $r := .rating }}
-                  {{ range seq 5 }}
-                    {{ if le (float .) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--full">★</span>
-                    {{ else if le (sub (float .) 0.5) $r }}
-                      <span class="pr-clutch-card__star pr-clutch-card__star--half">★</span>
-                    {{ else }}
-                      <span class="pr-clutch-card__star">★</span>
-                    {{ end }}
-                  {{ end }}
-                  <span class="pr-clutch-card__rating-value">{{ .rating }}</span>
-                </span>
-              </header>
-              <h3 class="pr-clutch-card__title">{{ .title }}</h3>
-              <blockquote class="pr-clutch-card__quote">"{{ .quote }}"</blockquote>
-              <footer class="pr-clutch-card__footer">
-                <strong>{{ .reviewer_name }}</strong>
-                <span>{{ .reviewer_role }}{{ if .company }} · {{ .company }}{{ end }}</span>
-                {{ with .review_url }}
-                  <a class="pr-clutch-card__link" href="{{ . }}" target="_blank" rel="noopener">Read on Clutch ↗</a>
-                {{ end }}
-              </footer>
-            </article>
-          {{ end }}
+        <div class="pr-hero-seo__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-seo__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.webp" alt="Clutch" class="pr-hero-seo__rating-logo">
         </div>
 
-        <button type="button" class="pr-clutch-accordion__nav pr-clutch-accordion__nav--next" data-carousel-next aria-label="Next reviews">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
-        </button>
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
       </div>
-
-      <div class="pr-clutch-accordion__footer">
-        <a href="/reviews/" class="pr-clutch-accordion__view-all">See all reviews →</a>
+      <div class="pr-hero-seo__mobile-img" aria-hidden="true">
+        <img src="/images/hero-seo/hero-mobile.webp" alt="" loading="eager">
+      </div>
+      <div class="pr-hero__collage pr-hero__collage--seo" aria-label="PipeRocket SaaS link building — editorial citations buyers trust">
+        <img class="pr-hero-seo__buyer" src="/images/hero-seo/buyer-first.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__bofu" src="/images/hero-seo/bofu-vector.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__search" src="/images/hero-seo/search-bar.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__stroke" src="/images/hero-seo/red-stroke.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__man" src="/images/hero-seo/man-clock.webp" alt="Vintage figure under an SEO Results street clock" loading="eager" decoding="async">
+        <img class="pr-hero-seo__arrow" src="/images/hero-seo/arrow.svg" alt="" aria-hidden="true" loading="eager" data-arrow-parallax>
       </div>
     </div>
 
@@ -104,38 +54,39 @@
      ==================================================== -->
 <section class="pr-section">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
+    <div class="pr-center" style="margin: 0 auto 140px; max-width: 920px; text-wrap: balance;">
       <h2>How our SaaS link building agency turns editorial links into pipeline</h2>
     </div>
-    <div class="pr-principles">
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
-        </div>
-        <h3>Editorial over outreach spam</h3>
-        <p>Most link building agencies blast 200 cold emails a week and call the resulting low-quality placements "wins". We pitch real story angles to real journalists and editors, fewer placements, dramatically higher trust, durable across Google updates.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
-        </div>
-        <h3>Sources buyers actually read</h3>
-        <p>One placement in a publication your buyer reads outweighs fifty on high-DR domains they&rsquo;ve never heard of. We target trade press, category podcasts, analyst briefings, and AI-corpus-grade sources, the inputs both your buyers and AI engines weight as authoritative.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="9"/></svg>
-        </div>
-        <h3>Topical authority, not random domains</h3>
-        <p>Backlinks from random high-DR domains do little for B2B rankings or AI citations. Backlinks that strengthen your category authority, same niche, same reader, same buyer, compound. We pick targets by relevance first, DR second.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-        </div>
-        <h3>Pipeline over DR scores</h3>
-        <p>DR is a means; pipeline is the outcome. Every monthly review covers branded mentions earned, referral pipeline from each placement, and AI-citation share of voice change, not a "DR went up by X" headline that flatters reports but doesn&rsquo;t pay back.</p>
-      </article>
+    <div class="pr-principles" data-principles>
+      <div class="pr-principles__line" aria-hidden="true">
+        <div class="pr-principles__line-bg"></div>
+        <div class="pr-principles__line-fill" data-line-fill></div>
+        <img class="pr-principles__arrow" src="/images/principles/pr-arrow.svg" alt="" data-principles-arrow>
+      </div>
+      <div class="pr-principles__col pr-principles__col--left">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--buyers"></div>
+          <h3>Editorial over outreach spam</h3>
+          <p>Most link building agencies blast 200 cold emails a week and call the resulting low-quality placements "wins". We pitch real story angles to real journalists and editors, fewer placements, dramatically higher trust, durable across Google updates.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--intent"></div>
+          <h3>Sources buyers actually read</h3>
+          <p>One placement in a publication your buyer reads outweighs fifty on high-DR domains they&rsquo;ve never heard of. We target trade press, category podcasts, analyst briefings, and AI-corpus-grade sources, the inputs both your buyers and AI engines weight as authoritative.</p>
+        </article>
+      </div>
+      <div class="pr-principles__col pr-principles__col--right">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--purpose"></div>
+          <h3>Topical authority, not random domains</h3>
+          <p>Backlinks from random high-DR domains do little for B2B rankings or AI citations. Backlinks that strengthen your category authority, same niche, same reader, same buyer, compound. We pick targets by relevance first, DR second.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--revenue"></div>
+          <h3>Pipeline over DR scores</h3>
+          <p>DR is a means; pipeline is the outcome. Every monthly review covers branded mentions earned, referral pipeline from each placement, and AI-citation share of voice change, not a "DR went up by X" headline that flatters reports but doesn&rsquo;t pay back.</p>
+        </article>
+      </div>
     </div>
   </div>
 </section>
@@ -143,31 +94,30 @@
 <!-- ====================================================
      WORKING WITH PIPEROCKET. VINTAGE TV
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--working-seo">
   <div class="pr-container pr-center">
     <h2>Working With PipeRocket</h2>
-    <img src="/images/working-with-piperocket.webp" alt="Working With PipeRocket. Cindy Dubon, Director of Growth Marketing at Goldcast, on her vintage TV testimonial" class="pr-working-tv">
+    {{ partial "working-tv.html" . }}
   </div>
 </section>
 
 <!-- ====================================================
      WHY SAAS TEAMS CHOOSE PIPEROCKET FOR SEO. DARK COMPARISON TABLE
      ==================================================== -->
-<section class="pr-section pr-section--dark">
+<section class="pr-section pr-section--dark pr-compare--seo">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
-      <h2 style="color: var(--pr-cream);">Why SaaS teams choose PipeRocket as their link building agency</h2>
-      <p style="color: rgba(244,241,232,0.7);">Every agency promises backlinks. The gap is whether they earn editorial coverage in publications your buyers read, or just inflate DR with placements you can&rsquo;t put on a board slide.</p>
+    <div class="pr-center pr-compare--seo__header">
+      <h2>Why SaaS teams choose PipeRocket as their link building agency</h2>
+      <p>Every agency promises backlinks. The gap is whether they earn editorial coverage in publications your buyers read, or just inflate DR with placements you can&rsquo;t put on a board slide.</p>
     </div>
+    <img src="/images/compare-blue-vector.svg" class="pr-compare--seo__blue-vec" aria-hidden="true">
+    <div class="pr-compare--seo__table-wrap">
     <div class="pr-compare-table">
       <div class="pr-compare-table__row pr-compare-table__row--head">
         <div>In house</div>
         <div>Other agencies</div>
         <div class="pr-compare-table__pr">
-          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
-          </svg>
-          PipeRocket
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-compare-table__pr-logo">
         </div>
       </div>
       <div class="pr-compare-table__row">
@@ -191,49 +141,111 @@
         <div>100% editorial. Earned placements only. Slower upfront, dramatically more durable across Google updates and AI-engine retrieval shifts.</div>
       </div>
     </div>
+    <img src="/images/compare-red-vector.svg" class="pr-compare--seo__red-vec" aria-hidden="true" data-compare-red-vec>
+    <img src="/images/seo-table-rocket.svg" class="pr-compare--seo__rocket" aria-hidden="true" data-compare-rocket>
+    </div><!-- end table-wrap -->
+    <div class="pr-compare--seo__cta">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-middle">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
   </div>
 </section>
 
 <!-- ====================================================
      TESTIMONIALS, 3 CARDS (SEO-SPECIFIC)
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--social-proof">
   <div class="pr-container">
-    <div class="pr-center"><h2>We helped Grow 50+ SaaS Brands Like Yours</h2></div>
-    <div class="pr-testimonials">
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to lock our performance marketing efforts. Their experience, actionable strategies brought a 5X high-quality MQLs in just 2 months. Specifically, the team's research-based fine-tuning campaigns across regions not only gives our leads but also saves us costs.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-090_alpha.png" alt="Naveen">
-          <div>
-            <div class="pr-testimonial__name">Naveen</div>
-            <div class="pr-testimonial__role">Head of Marketing</div>
-            <div class="pr-testimonial__company">HyperVerge</div>
+    <div class="pr-center"><h2>50+ B2B SaaS brands have earned editorial authority with our link building</h2></div>
+
+    <div class="pr-testimonials__viewport">
+      <div class="pr-testimonials" data-testimonials-track>
+
+        <!-- Page 1 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperverge.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience, actionable strategies brought in 51 high-quality MQLs in just 3 months. Specifically, the team's approach towards fine-tuning campaigns across regions not only grew our leads but also saved us costs.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-navien.png" alt="Navien">
+            <div>
+              <div class="pr-testimonial__name">Navien</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-testimonial__logo">
+            </div>
           </div>
-        </div>
-      </article>
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">Working alongside PipeRocket has been a remarkable experience for Storylane. We have come to deeply rely on them to count on us in our scaled stack. Their comprehensive analysis, strategic initiatives, end-to-end campaign optimisation, lending engagement implementation and targeted remarketing delivered remarkable results for us.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-094_alpha.png" alt="Nalin">
-          <div>
-            <div class="pr-testimonial__name">Nalin</div>
-            <div class="pr-testimonial__role">CEO</div>
-            <div class="pr-testimonial__company">storylane</div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Working alongside PipeRocket has been a commendable experience for Storylane. We were looking into how to boost our qualified leads. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
+            <div>
+              <div class="pr-testimonial__name">Nalin</div>
+              <div class="pr-testimonial__role">CEO</div>
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
+            </div>
           </div>
-        </div>
-      </article>
-      <article class="pr-testimonial">
-        <p class="pr-testimonial__quote">They worked closely with us and took ownership that our in-house team. The team has run 10 experiments to identify what was working and translated two new geographies for the ads. Moreover, they treat content like an asset and react closer to a calendar as the problem it is.</p>
-        <div class="pr-testimonial__author">
-          <img class="pr-testimonial__avatar" src="/images/figma/raw-098_alpha.png" alt="Anusha">
-          <div>
-            <div class="pr-testimonial__name">Anusha</div>
-            <div class="pr-testimonial__role">Founding member</div>
-            <div class="pr-testimonial__company">HyperStart</div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperstart.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working and invalidated two new geographies for the ads. Moreover, PipeRocket Digital was responsive, open to feedback, and eager to meet the objectives.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-anusha.png" alt="Anusha">
+            <div>
+              <div class="pr-testimonial__name">Anusha</div>
+              <div class="pr-testimonial__role">Founding member</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperstart.png" alt="HyperStart" class="pr-testimonial__logo">
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
+
+        <!-- Page 2 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-spendflo.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution. Moreover, their in-depth understanding of SEO and consistent involvement make them a reliable partner.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nivas.png" alt="Nivas">
+            <div>
+              <div class="pr-testimonial__name">Nivas</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-devrev.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly. PipeRocket Digital was committed to driving growth and continuously learning and improving.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
+            <div>
+              <div class="pr-testimonial__name">Saptharishi</div>
+              <div class="pr-testimonial__role">Head of Demand Generation</div>
+              <img loading="lazy" decoding="async" src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-cyberseirra.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Thanks to PipeRocket Digital's work, we saw a 279% increase in organic traffic. The team also helped the client grow from six to 338 keywords, ranking in the top 10 positions. The team was highly responsive to feedback, quickly adjusted to changes, and showed outstanding SEO expertise.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-srividhya.png" alt="Srividhya Karthik">
+            <div>
+              <div class="pr-testimonial__name">Srividhya Karthik</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-cyberseirra.png" alt="Cyber Sierra" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="pr-testimonials__dots">
+      <button class="pr-testimonials__dot pr-testimonials__dot--active" data-testimonial-dot="0" aria-label="Page 1">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-active.png" alt="">
+      </button>
+      <button class="pr-testimonials__dot" data-testimonial-dot="1" aria-label="Page 2">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-inactive.png" alt="">
+      </button>
     </div>
   </div>
 </section>
@@ -241,21 +253,27 @@
 <!-- ====================================================
      TRAFFIC ALONE IS NOT A SUCCESS METRIC. STATS
      ==================================================== -->
-<section class="pr-section--tight">
-  <div class="pr-container">
-    <div class="pr-center"><h2>Traffic alone is not a success metric.</h2></div>
-    <div class="pr-stats pr-stats--3">
-      <div class="pr-stat">
-        <div class="pr-stat__num">$0.0M</div>
-        <div class="pr-stat__label">Spend Volume</div>
+<section class="pr-stat-band pr-stat-band--seo pr-stat-band--saas-seo">
+  <div class="pr-container pr-center">
+    <h2 class="pr-stat-band__heading">DR is not a success metric. Pipeline is.</h2>
+    <div class="pr-stat-band__row">
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-customers.webp" alt="Customers" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">CUSTOMERS</div>
+        </div>
       </div>
-      <div class="pr-stat">
-        <div class="pr-stat__num">$0.0M</div>
-        <div class="pr-stat__label">Pipeline</div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">PIPELINE</div>
+        </div>
       </div>
-      <div class="pr-stat">
-        <div class="pr-stat__num">$0.0M</div>
-        <div class="pr-stat__label">Revenue</div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-revenue.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">REVENUE</div>
+        </div>
       </div>
     </div>
   </div>
@@ -264,70 +282,100 @@
 <!-- ====================================================
      EVERYONE TALKS ABOUT AI. ACCORDION
      ==================================================== -->
-<section class="pr-section">
+<section class="pr-section pr-section--ai pr-section--ai-seo">
   <div class="pr-container">
     <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
       <h2>AI agents run your link building prospecting data.<br>Senior strategists run the relationships.</h2>
       <p style="margin-top: var(--pr-s-4); font-size: 1rem;">Most link agencies still spreadsheet-prospect. We built our delivery around AI agents that map AI-corpus-grade publications, score podcast targets, and surface editorial opportunities, so outreach focuses on the placements that move both rankings and citation share.</p>
     </div>
-    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: center;" class="pr-ai-grid">
-      <div>
-        <img src="/images/figma/raw-024_alpha.webp" alt="AI in marketing" style="width: 100%; max-width: 560px;">
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img class="pr-ai-grid__layer is-active" data-image-key="research" loading="lazy" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in link building">
+        <img class="pr-ai-grid__layer" data-image-key="copy" loading="lazy" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="design" loading="lazy" decoding="async" src="/images/ai-accordion/design.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="optimisation" loading="lazy" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="analysis" loading="lazy" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
       </div>
-      <div class="pr-accordion">
-        <details class="pr-accordion__item" open>
+      <div class="pr-accordion" data-ai-accordion-lb>
+        <details class="pr-accordion__item" open data-image="research">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/></svg>
-              Research
+              <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Prospecting Research
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI surfaces ICP signals, competitor activity, and audience intent data before a single page is briefed. Which queries are in-market, which content angles move them, and what pipeline opportunities are hiding in plain sight stays with the team.</div>
+          <div class="pr-accordion__body">AI maps AI-corpus-grade publications, scores podcast targets, and surfaces the journalists covering your category before a single pitch goes out. Which targets to prioritise stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="copy">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
-              Content
+              <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Story Angle &amp; Data
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI generates first drafts, brief variants, and outline angles across audiences and intent. Which voice fits the ICP, which framing converts, and whether the prose sounds like a real practitioner or an agency template stays with the team.</div>
+          <div class="pr-accordion__body">AI mines your data and category POVs to draft pitchable angles, proprietary stats, contrarian takes. Which angle a journalist will actually run stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="design">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-              Optimisation
+              <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Outreach Sequencing
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI flags pages losing rankings, content gaps surfacing in AI overviews, and topics where competitors compound faster. What to refresh, what to consolidate, and where to invest next stays with the team.</div>
+          <div class="pr-accordion__body">AI personalises pitches at scale, tracks editorial calendars, and times follow-ups so nothing slips. Which relationships to nurture and which to drop stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="optimisation">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2 6 14l3 3-12 12"/><path d="m18 6 4 4"/></svg>
-              Design
+              <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Placement QA
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI produces UI variants and page-design hypotheses. Which layout converts, where to place the CTA, and whether the page earns trust in the first three seconds stays with the team.</div>
+          <div class="pr-accordion__body">AI flags low-relevance, paid, or risky targets before outreach and audits live placements for anchor health and indexation. What counts as a quality placement stays with the team.</div>
         </details>
-        <details class="pr-accordion__item">
+
+        <details class="pr-accordion__item" data-image="analysis">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
-              <svg class="pr-accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-              Analysis
+              <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Pipeline Attribution
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
-          <div class="pr-accordion__body">AI connects organic touchpoints to pipeline and revenue across channels, surfacing CAC, payback, and pipeline contribution faster than any manual model. What it means for strategy stays with the team.</div>
+          <div class="pr-accordion__body">AI tags every placement's referrers in your CRM and connects branded search, referral traffic, and AI citations to pipeline. What it means for where to invest next stays with the team.</div>
         </details>
       </div>
     </div>
   </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('[data-ai-accordion-lb]');
+      if(!acc) return;
+      var media = acc.parentElement.querySelector('.pr-ai-grid__media');
+      if(!media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var key = item.getAttribute('data-image');
+          if(!key) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === key);
+          });
+        });
+      });
+    })();
+  </script>
 </section>
 <style>
   @media (min-width: 1024px) {
@@ -336,48 +384,92 @@
 </style>
 
 <!-- ====================================================
+     AGENTIC AI DELIVERY — 4 PILLARS (link-building-specific)
+     ==================================================== -->
+<section class="pr-section pr-section--ai-pillars">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7); text-wrap: balance;">
+      <h2>We rebuilt link building around autonomous agents.</h2>
+      <p style="font-size: 1rem; line-height: 1.55; margin-top: var(--pr-s-4); color: var(--pr-ink-2);">AI agents own the data work autonomously, prospecting, story angles, outreach sequencing, placement QA, attribution. Senior strategists own the relationships and the editorial calls.</p>
+    </div>
+    <div class="pr-ai-pillars__grid">
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 01</div>
+        <h3>Agents that finish, not assist</h3>
+        <p>Our agents run the full link-building workflow end to end: target mapping, angle drafting, outreach sequencing, placement QA, attribution. Not chatbots. Not co-pilots. Autonomous agents that surface placement-ready opportunities, not a spreadsheet.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 02</div>
+        <h3>Prospecting while you sleep</h3>
+        <p>Agents continuously map AI-corpus-grade publications, score podcasts, and watch the journalists covering your category. By the time most agencies finish a manual prospecting sprint, our outreach list is already live.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 03</div>
+        <h3>Relationships stay human</h3>
+        <p>Agents produce the data layer: targets, angles, QA flags. Senior strategists own the pitch, the relationship, and the editorial judgement of what a journalist will actually run. Outreach is never automated spam.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 04</div>
+        <h3>Earned, cited, tied to pipeline</h3>
+        <p>Every agent reports to one outcome: qualified pipeline. We do not optimise for DR or link counts in isolation. Branded mentions, AI-citation share of voice, and referral pipeline surface continuously, not at month-end.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
      THE PIPEROCKET SEO APPROACH
      ==================================================== -->
-<section class="pr-section">
-  <div class="pr-container">
-    <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
-      <h2>Our link building agency services</h2>
-      <p>Each phase is built around earning editorial placements, not chasing DR scores. Outcomes you can defend on a board slide, not a link count nobody reads.</p>
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">Our link building agency services</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Each phase is built around earning editorial placements, not chasing DR scores. Outcomes you can defend on a board slide, not a link count nobody reads.</p>
     </div>
-    <div class="pr-approach-grid">
-      <article class="pr-approach-grid__card">
-        <h3>Audit the backlink profile</h3>
-        <p>We baseline your existing link graph, relevant placements vs filler, paid risk, anchor distribution, branded vs non-branded. We disavow what hurts, double down on what works, and identify the gaps a competitor is currently outranking on.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Identify target publications</h3>
-        <p>We build a tier-1, tier-2, tier-3 list of publications your buyers and AI engines actually trust. Trade press, podcasts, newsletters, analyst coverage. Picked by reader fit, not Ahrefs DR alone.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Source story angles &amp; data hooks</h3>
-        <p>Editorial outreach lives or dies on the angle. We mine your data, sales insights, and category POVs to build pitchable stories, proprietary research, original data, contrarian takes, that journalists actually want to publish.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Run journalist-grade outreach</h3>
-        <p>Pitches are personalised, story-led, and timed to publications&rsquo; editorial calendars. We don&rsquo;t blast templates. Hit rate is multiples higher than mass outreach because every pitch is one a journalist genuinely considers running.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Earn podcasts &amp; expert quotes</h3>
-        <p>Founder &amp; SME visibility on category podcasts, expert quotes in trade press, contributed columns where relevant. Each placement seeds branded search, AI citations, and authoritative backlinks in one motion.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Citation-friendly content</h3>
-        <p>Your owned content gets restructured to be citation-friendly, claim-source pairing, linkable assets (data, calculators, frameworks), and quotable executive POVs. Journalists and AI engines find easy material to link to.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Distribute to AI corpora</h3>
-        <p>Placements on Reddit, GitHub, Wikipedia-grade sources, podcast transcripts, corpora AI engines train and retrieve from. Authority signals that compound for Google rankings AND for ChatGPT / Perplexity / Claude citations.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Measure pipeline impact</h3>
-        <p>Every placement is tagged in your CRM with referrer source. Branded search lift, AI-citation share of voice change, and pipeline contribution by publication get reported monthly, alongside the link count, but never instead of it.</p>
-      </article>
-      <article class="pr-approach-grid__card pr-approach-grid__card--mark" aria-hidden="true"></article>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-start-from-inside.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Audit the backlink profile</div>
+        <div class="pr-approach__copy"><p>We baseline your existing link graph, relevant placements vs filler, paid risk, anchor distribution, branded vs non-branded. We disavow what hurts, double down on what works, and identify the gaps a competitor is currently outranking on.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-map-full-picture.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Identify target publications</div>
+        <div class="pr-approach__copy"><p>We build a tier-1, tier-2, tier-3 list of publications your buyers and AI engines actually trust. Trade press, podcasts, newsletters, analyst coverage. Picked by reader fit, not Ahrefs DR alone.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-build-with-intent.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Source story angles &amp; data hooks</div>
+        <div class="pr-approach__copy"><p>Editorial outreach lives or dies on the angle. We mine your data, sales insights, and category POVs to build pitchable stories, proprietary research, original data, contrarian takes, that journalists actually want to publish.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-go-where-buyers.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Run journalist-grade outreach</div>
+        <div class="pr-approach__copy"><p>Pitches are personalised, story-led, and timed to publications&rsquo; editorial calendars. We don&rsquo;t blast templates. Hit rate is multiples higher than mass outreach because every pitch is one a journalist genuinely considers running.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-convert-day-one.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Earn podcasts &amp; expert quotes</div>
+        <div class="pr-approach__copy"><p>Founder &amp; SME visibility on category podcasts, expert quotes in trade press, contributed columns where relevant. Each placement seeds branded search, AI citations, and authoritative backlinks in one motion.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-built-to-be-found.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Citation-friendly content</div>
+        <div class="pr-approach__copy"><p>Your owned content gets restructured to be citation-friendly, claim-source pairing, linkable assets (data, calculators, frameworks), and quotable executive POVs. Journalists and AI engines find easy material to link to.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-cited-where-counts.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Distribute to AI corpora</div>
+        <div class="pr-approach__copy"><p>Placements on Reddit, GitHub, Wikipedia-grade sources, podcast transcripts, corpora AI engines train and retrieve from. Authority signals that compound for Google rankings AND for ChatGPT / Perplexity / Claude citations.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-scale-what-works.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Measure pipeline impact</div>
+        <div class="pr-approach__copy"><p>Every placement is tagged in your CRM with referrer source. Branded search lift, AI-citation share of voice change, and pipeline contribution by publication get reported monthly, alongside the link count, but never instead of it.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -385,28 +477,94 @@
 <!-- ====================================================
      CASE STUDIES
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--casestudies">
   <div class="pr-container">
-    <div class="pr-center"><h2>Case studies</h2></div>
+    <div class="pr-center"><h2>Success Stories</h2></div>
     <div class="pr-cases">
       <article class="pr-case">
-        <div class="pr-case__logo">storylane</div>
-        <p class="pr-case__copy">Driving 2.5X Growth and 82% More Demos: Storylane's Success with PipeRocket's Campaigns.</p>
-        <a href="/case-study-storylane/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Driving 2.5X Growth and 82% More Demos: Storylane&rsquo;s Success with PipeRocket&rsquo;s Campaigns.</p>
+          <a href="/case-study-storylane/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">DevRev</div>
-        <p class="pr-case__copy">Achieving 127% Organic Traffic Growth in 6 Months: DevRev's Case Study with PipeRocket.</p>
-        <a href="/case-study-devrev/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-devrev-cs.svg" alt="DevRev" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Achieving 127% Organic Traffic Growth in 6 Months: DevRev&rsquo;s Case Study with PipeRocket.</p>
+          <a href="/case-study-devrev/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">Spendflo</div>
-        <p class="pr-case__copy">From Stagnation to Domination: PipeRocket's Impact on Spendflo's 81% Traffic Rise.</p>
-        <a href="/case-study-spendflo/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">From Stagnation to Domination: PipeRocket&rsquo;s Impact on Spendflo&rsquo;s 81% Traffic Rise.</p>
+          <a href="/case-study-spendflo/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
     </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
-      <a href="/case-study/" class="pr-btn pr-btn--ghost">View all case studies</a>
+    <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
+      <a href="/case-study/" class="pr-btn pr-btn--ghost">View all success stories</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     LINK BUILDING AGENT STACK — 5 NAMED AGENTS (approach-section design)
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo pr-section--agents-stack" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">Inside the five-agent link building stack we deploy on every account</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Each agent owns one layer of the link-building workflow, prospecting, angles, outreach, QA, attribution. They surface placement-ready opportunities in days and report straight to the senior strategist on your account.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Prospecting Research Agent</div>
+        <div class="pr-approach__copy"><p>Maps AI-corpus-grade publications, scores podcast targets, and surfaces the journalists covering your category, scoring each by reader fit and citation value, not DR alone.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Story Angle &amp; Data Agent</div>
+        <div class="pr-approach__copy"><p>Mines your data, sales insights, and category POVs to draft pitchable angles, proprietary stats, contrarian takes, that journalists actually want to run.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Outreach Sequencing Agent</div>
+        <div class="pr-approach__copy"><p>Personalises pitches at scale, tracks editorial calendars, and times follow-ups so the right pitch lands at the right moment, without the cold-blast spam.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Placement QA Agent</div>
+        <div class="pr-approach__copy"><p>Screens targets for relevance, paid-link risk, and indexation, and audits live placements for anchor health, so nothing in your profile invites a penalty.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Pipeline Attribution Agent</div>
+        <div class="pr-approach__copy"><p>Tags every placement's referrers in your CRM and connects branded search, referral traffic, and AI citations to pipeline. The reporting your board wants, continuously, not at month-end.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -465,13 +623,13 @@
 <!-- ====================================================
      FINAL CTA
      ==================================================== -->
-<section class="pr-cta-final">
+<section class="pr-cta-final pr-cta-final--seo">
   <div class="pr-container">
-    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
-    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true">
-    <h2>You wouldn't be here if what you were doing was working.<br><span class="pr-italic">It's time for PipeRocket.</span></h2>
-    <p>We work with a small number of B2B SaaS companies at a time. If your backlink profile reads like a directory dump, let's find out if we're the right fit.</p>
-    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2><span class="pr-cta-soft">You wouldn&rsquo;t be here if what you were doing was working.</span> <strong>It&rsquo;s time for PipeRocket.</strong></h2>
+    <p>We work with a small number of B2B SaaS companies at a time. If your backlink profile reads like a directory dump, let&rsquo;s find out if we&rsquo;re the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="service-bottom">Book free consultation</a>
   </div>
 </section>
 
