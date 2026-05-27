@@ -7,7 +7,7 @@
   <div class="pr-container">
     <div class="pr-hero__grid">
       <div class="pr-hero__text">
-        <h1 class="pr-hero__h1-eyebrow">AEO &amp; GEO Agency for US B2B SaaS</h1>
+        <h1 class="pr-hero__h1-eyebrow">AI-First AEO &amp; GEO Agency for B2B SaaS</h1>
 
         <h2 class="pr-hero__title pr-hero__title--two-tone">
           <span class="pr-hero__title-soft">Your buyers stopped Googling.</span>
@@ -100,21 +100,20 @@
 <!-- ====================================================
      WHY TEAMS CHOOSE PIPEROCKET FOR AEO & GEO. DARK COMPARISON TABLE
      ==================================================== -->
-<section class="pr-section pr-section--dark">
+<section class="pr-section pr-section--dark pr-compare--seo">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
-      <h2 style="color: var(--pr-cream);">Why B2B SaaS teams choose PipeRocket as their AEO and GEO agency</h2>
-      <p style="color: rgba(244,241,232,0.7);">Every agency promises rankings. The gap is what happens when your buyer asks ChatGPT instead, and whether your AEO/GEO partner is engineering for the answer or hoping for it.</p>
+    <div class="pr-center pr-compare--seo__header">
+      <h2>Why B2B SaaS teams choose PipeRocket as their AEO and GEO agency</h2>
+      <p>Every agency promises rankings. The gap is what happens when your buyer asks ChatGPT instead, and whether your AEO/GEO partner is engineering for the answer or hoping for it.</p>
     </div>
+    <img src="/images/compare-blue-vector.svg" class="pr-compare--seo__blue-vec" aria-hidden="true">
+    <div class="pr-compare--seo__table-wrap">
     <div class="pr-compare-table">
       <div class="pr-compare-table__row pr-compare-table__row--head">
         <div>In house</div>
         <div>Other agencies</div>
         <div class="pr-compare-table__pr">
-          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
-          </svg>
-          PipeRocket
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-compare-table__pr-logo">
         </div>
       </div>
       <div class="pr-compare-table__row">
@@ -137,6 +136,12 @@
         <div>Reports show keyword positions and sessions. Citation share of voice across AI engines lives nowhere.</div>
         <div><p>Reports show AI-citation share of voice by buyer question, AI-led pipeline contribution, and trust-signal posture across the AI engines that matter.</p><p>Traditional rankings reported alongside, not instead.</p></div>
       </div>
+    </div>
+    <img src="/images/compare-red-vector.svg" class="pr-compare--seo__red-vec" aria-hidden="true" data-compare-red-vec>
+    <img src="/images/seo-table-rocket.svg" class="pr-compare--seo__rocket" aria-hidden="true" data-compare-rocket>
+    </div><!-- end table-wrap -->
+    <div class="pr-compare--seo__cta">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-middle">{{ .Site.Params.secondary_cta_text }}</a>
     </div>
   </div>
 </section>
@@ -198,21 +203,27 @@
 <!-- ====================================================
      TRAFFIC ALONE IS NOT A SUCCESS METRIC. STATS
      ==================================================== -->
-<section class="pr-section--tight">
-  <div class="pr-container">
-    <div class="pr-center"><h2>Citations are the new rankings.</h2></div>
-    <div class="pr-stats pr-stats--3">
-      <div class="pr-stat">
-        <div class="pr-stat__num">2.2X</div>
-        <div class="pr-stat__label">Organic traffic growth for DevRev</div>
+<section class="pr-stat-band pr-stat-band--seo pr-stat-band--saas-seo">
+  <div class="pr-container pr-center">
+    <h2 class="pr-stat-band__heading">Citations are the new rankings.</h2>
+    <div class="pr-stat-band__row">
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-customers.webp" alt="Customers" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">CUSTOMERS</div>
+        </div>
       </div>
-      <div class="pr-stat">
-        <div class="pr-stat__num">5X</div>
-        <div class="pr-stat__label">Organic traffic growth for Spendflo in 8 months</div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">PIPELINE</div>
+        </div>
       </div>
-      <div class="pr-stat">
-        <div class="pr-stat__num">50%</div>
-        <div class="pr-stat__label">ROAS improvement for DevRev</div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-revenue.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">REVENUE</div>
+        </div>
       </div>
     </div>
   </div>
@@ -331,48 +342,92 @@
 </section>
 
 <!-- ====================================================
+     AGENTIC AI DELIVERY — 4 PILLARS (AEO/GEO-specific)
+     ==================================================== -->
+<section class="pr-section pr-section--ai-pillars">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7); text-wrap: balance;">
+      <h2>We rebuilt AEO and GEO around autonomous agents.</h2>
+      <p style="font-size: 1rem; line-height: 1.55; margin-top: var(--pr-s-4); color: var(--pr-ink-2);">AI agents own the data work autonomously, citation tracking across every AI engine, retrieval engineering, corpus placement, attribution. Senior strategists own the calls that decide what gets cited.</p>
+    </div>
+    <div class="pr-ai-pillars__grid">
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 01</div>
+        <h3>Agents that finish, not assist</h3>
+        <p>Our agents run full AEO/GEO workflows end to end: citation research, retrieval-ready content, corpus distribution, weekly monitoring. Not chatbots. Not co-pilots. Autonomous agents that finish the task without supervision and ship work ready for senior review.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 02</div>
+        <h3>Tracked while you sleep</h3>
+        <p>Agents run your buyer questions across ChatGPT, Perplexity, Claude, and AI Overviews continuously, mapping citation share of voice by competitor and engine. By the time most agencies file a monthly report, we have already actioned the shift.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 03</div>
+        <h3>Editorial calls stay senior</h3>
+        <p>Agents produce the data layer: citation gaps, retrieval drafts, corpus targets. Senior strategists make the calls: which buyer questions to win, which corpora to invest in, what framing earns the citation. Strategy is never delegated to a model.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 04</div>
+        <h3>Cited and tied to pipeline</h3>
+        <p>Every agent reports to one outcome: qualified pipeline. We do not optimise for impressions or rankings in isolation. AI-citation share of voice, AI-led demos, and pipeline influenced surface continuously, not at month-end, so decisions stay grounded in what is actually closing.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
      THE PIPEROCKET AEO & GEO APPROACH
      ==================================================== -->
-<section class="pr-section">
-  <div class="pr-container">
-    <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-7);">
-      <h2>The PipeRocket AEO &amp; GEO approach</h2>
-      <p>Each phase is built around how AI engines retrieve, evaluate, and cite content, not how Google ranked content in 2018.</p>
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">The PipeRocket AEO &amp; GEO Approach</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Each phase is built around how AI engines retrieve, evaluate, and cite content, not how Google ranked content in 2018.</p>
     </div>
-    <div class="pr-approach-grid">
-      <article class="pr-approach-grid__card">
-        <h3>Audit AI visibility</h3>
-        <p>We measure your current citation share of voice across ChatGPT, Perplexity, Claude, Google AI Overviews, and Gemini for the buyer questions that matter. Baseline first. Anything we can&rsquo;t measure, we can&rsquo;t move.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Map buyer questions</h3>
-        <p>We work with sales to map the actual questions your buyers ask AI assistants, comparison, alternatives, integration, pricing, "is X better than Y for Z". Each becomes a target prompt with a target citation outcome.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Engineer for retrieval</h3>
-        <p>Content gets restructured for AI retrieval, claim-source pairing, factual density, schema, retrieval-friendly headings, citation-grade quotes. AI engines find a clean answer to quote, with your brand attached.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Land in training corpora</h3>
-        <p>AI engines train and retrieve from specific corpora. Reddit, Wikipedia-grade sources, GitHub, podcast transcripts, trade press. We earn placements there, not just on high-DR domains AI engines ignore.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Build trust-signal posture</h3>
-        <p>AI engines weight authoritativeness, author profiles, brand entities, citation graphs, structured data. We strengthen the posture that earns citations: real bios, schema entities, consistent E-A-T signals across the corpus.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Track citations weekly</h3>
-        <p>We monitor citation share of voice across the AI engines weekly, by buyer question, by competitor. Movements get diagnosed and acted on before they cost you pipeline.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Wire AI-led pipeline</h3>
-        <p>Referrers from ChatGPT, Perplexity, Claude get tagged in your CRM. Demos and pipeline from AI-led sessions get tracked separately so you can quantify what AI visibility is actually worth.</p>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Compound vs. Google</h3>
-        <p>Everything we ship for AI engines also strengthens classic SEO, schema, citation graphs, factual density. The investment compounds across both worlds, so you don&rsquo;t pick a winner.</p>
-      </article>
-      <article class="pr-approach-grid__card pr-approach-grid__card--mark" aria-hidden="true"></article>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-start-from-inside.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Audit AI visibility</div>
+        <div class="pr-approach__copy"><p>We measure your current citation share of voice across ChatGPT, Perplexity, Claude, Google AI Overviews, and Gemini for the buyer questions that matter. Baseline first. Anything we can&rsquo;t measure, we can&rsquo;t move.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-map-full-picture.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Map buyer questions</div>
+        <div class="pr-approach__copy"><p>We work with sales to map the actual questions your buyers ask AI assistants, comparison, alternatives, integration, pricing, "is X better than Y for Z". Each becomes a target prompt with a target citation outcome.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-build-with-intent.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Engineer for retrieval</div>
+        <div class="pr-approach__copy"><p>Content gets restructured for AI retrieval, claim-source pairing, factual density, schema, retrieval-friendly headings, citation-grade quotes. AI engines find a clean answer to quote, with your brand attached.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-go-where-buyers.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Land in training corpora</div>
+        <div class="pr-approach__copy"><p>AI engines train and retrieve from specific corpora. Reddit, Wikipedia-grade sources, GitHub, podcast transcripts, trade press. We earn placements there, not just on high-DR domains AI engines ignore.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-convert-day-one.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Build trust-signal posture</div>
+        <div class="pr-approach__copy"><p>AI engines weight authoritativeness, author profiles, brand entities, citation graphs, structured data. We strengthen the posture that earns citations: real bios, schema entities, consistent E-A-T signals across the corpus.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-built-to-be-found.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Track citations weekly</div>
+        <div class="pr-approach__copy"><p>We monitor citation share of voice across the AI engines weekly, by buyer question, by competitor. Movements get diagnosed and acted on before they cost you pipeline.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-cited-where-counts.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Wire AI-led pipeline</div>
+        <div class="pr-approach__copy"><p>Referrers from ChatGPT, Perplexity, Claude get tagged in your CRM. Demos and pipeline from AI-led sessions get tracked separately so you can quantify what AI visibility is actually worth.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-scale-what-works.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Compound vs. Google</div>
+        <div class="pr-approach__copy"><p>Everything we ship for AI engines also strengthens classic SEO, schema, citation graphs, factual density. The investment compounds across both worlds, so you don&rsquo;t pick a winner.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -426,6 +481,48 @@
     </div>
     <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
       <a href="/case-study/" class="pr-btn pr-btn--ghost">View all success stories</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     AEO/GEO AGENT STACK — 5 NAMED AGENTS (approach-section design)
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo pr-section--agents-stack" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">Inside the five-agent AEO/GEO stack we deploy on every account</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Each agent owns one layer of the AEO/GEO workflow, citation research, retrieval engineering, corpus distribution, monitoring, attribution. They ship in hours instead of weeks and report straight to the senior strategist on your account.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Citation Research Agent</div>
+        <div class="pr-approach__copy"><p>Runs the buyer questions that matter across ChatGPT, Perplexity, Claude, and AI Overviews to map your current citation share of voice before we change anything. Baseline-grade research that used to take weeks ships in days.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Retrieval-Ready Content Agent</div>
+        <div class="pr-approach__copy"><p>Restructures and drafts content engineered for retrieval, claim-source pairing, schema, factual density, citation-grade quotes. AI engines find a clean answer to quote, with your brand attached.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Corpus Distribution Agent</div>
+        <div class="pr-approach__copy"><p>Identifies the specific subreddits, trade publications, podcast transcripts, and GitHub threads AI engines weight heavily for your category, so placements move citation share instead of just adding backlinks.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Citation Monitoring Agent</div>
+        <div class="pr-approach__copy"><p>Monitors citation share of voice weekly across every AI engine, by buyer question and competitor. Movements get diagnosed, new training cycle, new retrieval index, new prompt pattern, before we act.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Pipeline Attribution Agent</div>
+        <div class="pr-approach__copy"><p>Tags referrers from ChatGPT, Perplexity, and Claude in your CRM and connects them to demos, pipeline, and closed-won. The reporting your board wants, generated continuously, not stitched together at month-end.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -507,7 +604,7 @@
 <!-- ====================================================
      FINAL CTA
      ==================================================== -->
-<section class="pr-cta-final">
+<section class="pr-cta-final pr-cta-final--seo">
   <div class="pr-container">
     <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
     <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
