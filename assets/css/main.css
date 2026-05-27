@@ -2954,11 +2954,17 @@ a.pr-footer__trust-item:hover {
 }
 .pr-footer__top .pr-footer__brand .pr-logo__img { height: 32px; width: auto; }
 .pr-footer__top .pr-footer__brand .pr-footer__tagline {
-  font-size: 14px;
+  font-size: 14px !important;
   color: var(--pr-ink);
   margin: 0;
   max-width: 260px;
   white-space: normal !important;
+}
+@media (min-width: 768px) {
+  .pr-footer__top .pr-footer__brand .pr-footer__tagline {
+    max-width: none;
+    white-space: nowrap !important;
+  }
 }
 .pr-footer__top .pr-footer__brand .pr-footer__contact { margin: 0; gap: 4px; }
 .pr-footer__top .pr-footer__brand .pr-footer__social { gap: 14px; margin: 4px 0 0; }
@@ -2974,7 +2980,7 @@ a.pr-footer__trust-item:hover {
   opacity: 1;
 }
 .pr-footer__copy-mini {
-  font-size: 12px;
+  font-size: 14px !important;
   color: var(--pr-muted);
   margin: var(--pr-s-3) 0 0;
 }
@@ -3046,7 +3052,7 @@ a.pr-footer__trust-item:hover {
   .pr-footer__group-title {
     font-size: 0.78rem;
     letter-spacing: 0.1em;
-    color: var(--pr-muted);
+    color: var(--pr-ink);
     text-transform: uppercase;
   }
   .pr-footer__group-grid { padding: 0; gap: 12px 36px; }
@@ -3081,7 +3087,7 @@ a.pr-footer__trust-item:hover {
   border: none;
   padding: 12px 0;
   font: inherit;
-  font-size: 0.95rem;
+  font-size: 14px;
   font-weight: 600;
   color: var(--pr-muted);
   cursor: pointer;
@@ -3099,6 +3105,9 @@ a.pr-footer__trust-item:hover {
   outline: 2px solid var(--pr-cyan);
   outline-offset: 2px;
   border-radius: 2px;
+}
+@media (max-width: 600px) {
+  .pr-footer__tab { font-size: 13px; }
 }
 
 .pr-footer__panels {
@@ -3137,8 +3146,8 @@ a.pr-footer__trust-item:hover {
   max-width: none;
 }
 .pr-footer__panel--prose p {
-  font-size: 0.92rem;
-  line-height: 1.6;
+  font-size: 14px !important;
+  line-height: 1.6 !important;
   color: var(--pr-ink-2);
   margin: 0 0 14px;
 }
@@ -13974,22 +13983,33 @@ body.page-saas-ppc main {
 .pr-contact2__clutch .pr-clutch__rating { font-size: 22px; }
 .pr-contact2__clutch .pr-clutch__stars { font-size: 18px; }
 .pr-contact2__clutch-img { height: 22px; width: auto; margin-left: 4px; }
+.pr-contact2__logos-label {
+  font-weight: 700;
+  color: var(--pr-ink);
+  font-size: 16px;
+  margin: 0 0 22px;
+}
 .pr-contact2__logos {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 28px 36px;
+  gap: 28px 22px;
   max-width: 560px;
 }
-.pr-contact2__logos { display: none; }
 .pr-contact2__logos img {
-  height: 22px;
+  height: 26px;
   width: auto;
-  max-width: 110px;
-  opacity: 0.7;
-  filter: grayscale(1) brightness(0.4);
+  max-width: 120px;
   object-fit: contain;
 }
+.pr-contact2__lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.pr-contact2__lockup-icon { height: 20px; width: auto; }
+.pr-contact2__logos img[alt="Spendflo"] { height: 22px; }
+.pr-contact2__logos img[alt="DigitalAPI"] { height: 22px; }
 
 .pr-contact2__formwrap {
   background: #FFFFFF;
@@ -14121,10 +14141,10 @@ body.page-saas-ppc main {
   .pr-contact2 { padding: 48px 0 60px; }
   .pr-contact2__heading { font-size: 28px; }
   .pr-contact2__logos {
-    display: none;
+    gap: 22px 24px;
   }
   .pr-contact2__logos img {
-    height: 20px;
+    height: 22px;
     width: auto;
   }
 }

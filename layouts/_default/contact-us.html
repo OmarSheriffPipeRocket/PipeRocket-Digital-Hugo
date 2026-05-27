@@ -33,18 +33,18 @@
 
         <p class="pr-contact2__close">Once we have that picture, we walk you through what we offer, how we work, and whether the scope makes sense for where you are. If we think we can help, we tell you how. If we are not the right fit, we will tell you that too.</p>
 
-        <div class="pr-contact2__clutch">
-          <strong class="pr-clutch__rating">{{ default "5.0" .Site.Params.social.clutch_rating }}</strong>
-          <span class="pr-clutch__stars">★★★★★</span>
-          <img loading="lazy" decoding="async" src="/images/logos/clutch.svg" alt="Clutch" class="pr-contact2__clutch-img">
-        </div>
+        <p class="pr-contact2__logos-label">Trusted by 50+ SaaS Brands</p>
 
         <div class="pr-contact2__logos" aria-label="Clients">
-          <img loading="lazy" decoding="async" src="/images/logos/spendflo.svg" alt="Spendflo">
+          <span class="pr-contact2__lockup">
+            <img loading="lazy" decoding="async" src="/images/logos/spendflo-icon.svg" alt="" aria-hidden="true" class="pr-contact2__lockup-icon">
+            <img loading="lazy" decoding="async" src="/images/logos/spendflo.svg" alt="Spendflo">
+          </span>
           <img loading="lazy" decoding="async" src="/images/logos/keka.svg" alt="Keka">
           <img loading="lazy" decoding="async" src="/images/logos/storylane.svg" alt="Storylane">
-          <img loading="lazy" decoding="async" src="/images/logos/xflow.png" alt="Xflow">
-          <img loading="lazy" decoding="async" src="/images/logos/sprinto.webp" alt="Sprinto">
+          <img loading="lazy" decoding="async" src="/images/logos/hevo.svg" alt="Hevo">
+          <img loading="lazy" decoding="async" src="/images/logos/xflow.svg" alt="Xflow">
+          <img loading="lazy" decoding="async" src="/images/logos/sprinto.svg" alt="Sprinto">
           <img loading="lazy" decoding="async" src="/images/logos/osfin.svg" alt="Osfin">
           <img loading="lazy" decoding="async" src="/images/logos/justcall.svg" alt="JustCall">
           <img loading="lazy" decoding="async" src="/images/logos/digitalapi.svg" alt="DigitalAPI">
@@ -111,49 +111,6 @@
         {{ end }}
       </div>
 
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================
-     CLIENT LOGO GRID — below first fold
-     ==================================================== -->
-<section class="pr-contact-logos">
-  <div class="pr-container">
-    <div class="pr-contact-logos__label">Leading SaaS companies that chose us</div>
-    <div class="pr-contact-logos__grid">
-      {{ $grid := slice
-        (dict "name" "DigitalAPI"   "src" "/images/logos/digitalapi.svg")
-        (dict "name" "Storylane"    "src" "/images/logos/storylane.svg")
-        (dict "name" "Sprinto"      "src" "/images/logos/sprinto.webp")
-        (dict "name" "Spendflo"     "src" "/images/logos/spendflo.svg")
-        (dict "name" "Osfin"        "src" "/images/logos/osfin.svg")
-        (dict "name" "JustCall"     "src" "/images/logos/justcall.svg")
-        (dict "name" "DevRev"       "src" "/images/logos/devrev.png")
-        (dict "name" "HyperVerge"   "src" "/images/logos/hyperverge.webp")
-        (dict "name" "Hevo"         "src" "/images/logos/hevo.png")
-        (dict "name" "LatentView"   "src" "/images/logos/latentview-simple.png")
-        (dict "name" "LeadSquared"  "src" "/images/logos/leadsquared.png")
-        (dict "name" "FarEye"       "src" "/images/logos/fareye-full.png")
-        (dict "name" "Tredence"     "src" "/images/logos/tredence-simple.png")
-        (dict "name" "Element"      "src" "/images/logos/element.png")
-        (dict "name" "GreytHR"      "src" "/images/logos/greythr.png")
-        (dict "name" "Cyber Sierra" "src" "/images/logos/cybersierra-full.png")
-        (dict "name" "Xflow"        "src" "/images/logos/xflow-full.png")
-        (dict "name" "Goldcast"     "src" "/images/logos/goldcast-simple.png")
-        (dict "name" "Apty"         "src" "/images/logos/apty.png")
-        (dict "name" "HappyFox"     "src" "/images/logos/happyfox.svg")
-        (dict "name" "HyperStart"   "src" "/images/logos/hyperstart.png")
-        (dict "name" "Keka"         "src" "/images/logos/keka.svg")
-        (dict "name" "MetricStream" "src" "/images/logos/metricstream.webp")
-        (dict "name" "Osfin"        "src" "/images/logos/osfin-tagline.png")
-        (dict "name" "Gallabox"     "src" "/images/logos/gallabox.svg")
-      }}
-      {{ range $grid }}
-        <div class="pr-contact-logos__cell">
-          <img src="{{ .src }}" alt="{{ .name }}" loading="lazy" decoding="async" class="pr-contact-logos__logo">
-        </div>
-      {{ end }}
     </div>
   </div>
 </section>
