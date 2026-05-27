@@ -3031,6 +3031,21 @@ a.pr-footer__trust-item:hover {
   line-height: 1.4;
 }
 .pr-footer__group-grid a:hover { color: var(--pr-cyan); }
+.pr-footer__badge {
+  display: inline-block;
+  background: var(--pr-cyan, #82c6dd);
+  color: #0D0D0D;
+  font-family: var(--pr-sans);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-left: 6px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  line-height: 1;
+}
 
 @media (min-width: 768px) {
   /* Desktop: force open, drop summary chrome */

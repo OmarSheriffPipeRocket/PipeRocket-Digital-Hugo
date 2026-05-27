@@ -112,10 +112,12 @@ weight = 2
 name = "AEO & GEO"
 url = "/aeo-geo-agency/"
 weight = 3
+params = { badge = "NEW" }
 [[menu.footer_services]]
 name = "Programmatic SEO"
 url = "/programmatic-seo-agency/"
 weight = 4
+params = { badge = "NEW" }
 [[menu.footer_services]]
 name = "Account-Based Marketing"
 url = "/account-based-marketing-agency/"

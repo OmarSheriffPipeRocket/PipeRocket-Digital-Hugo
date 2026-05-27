@@ -48,12 +48,12 @@
           {{ $half := div (add (len $services) 1) 2 }}
           <ul>
             {{ range $i, $item := $services }}
-              {{ if lt $i $half }}<li><a href="{{ $item.URL }}">{{ $item.Name }}</a></li>{{ end }}
+              {{ if lt $i $half }}<li><a href="{{ $item.URL }}">{{ $item.Name }}{{ with $item.Params.badge }} <span class="pr-footer__badge">{{ . }}</span>{{ end }}</a></li>{{ end }}
             {{ end }}
           </ul>
           <ul>
             {{ range $i, $item := $services }}
-              {{ if ge $i $half }}<li><a href="{{ $item.URL }}">{{ $item.Name }}</a></li>{{ end }}
+              {{ if ge $i $half }}<li><a href="{{ $item.URL }}">{{ $item.Name }}{{ with $item.Params.badge }} <span class="pr-footer__badge">{{ . }}</span>{{ end }}</a></li>{{ end }}
             {{ end }}
           </ul>
         </div>
@@ -98,7 +98,7 @@
 
         {{/* ABOUT PIPEROCKET */}}
         <div class="pr-footer__panel pr-footer__panel--prose is-active" data-panel="about" role="tabpanel">
-          <p>PipeRocket Digital is an AI-first B2B SaaS marketing agency founded in 2020, headquartered in New York and serving US B2B SaaS companies across SaaS SEO, SaaS PPC, AEO and GEO, account-based marketing, programmatic SEO, content marketing, and marketing operations, with 70+ shipped pipeline engagements including Storylane, HyperVerge, LatentView, Spendflo, MetricStream, Goldcast, greytHR, and SaaS Labs.</p>
+          <p>PipeRocket Digital is an AI-first B2B SaaS marketing agency founded in 2020, headquartered in New York and serving US B2B SaaS companies across SaaS SEO, SaaS PPC, AEO and GEO, account-based marketing, programmatic SEO, content marketing, and marketing operations, with 70+ shipped pipeline engagements. Our clients include Storylane, HyperVerge, LatentView, Spendflo, MetricStream, Goldcast, greytHR, and SaaS Labs.</p>
         </div>
 
         {{/* BEST LISTS */}}
