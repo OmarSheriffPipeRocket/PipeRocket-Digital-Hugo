@@ -268,9 +268,12 @@ p { margin: 0 0 var(--pr-s-4); }
 .pr-compare--ppc__header h2 {
   font-family: var(--pr-ivy-headline);
   font-weight: 600;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: 920px;
+  margin: 0 auto;
   padding-bottom: 15px;
   color: var(--pr-cream);
+  text-wrap: balance;
 }
 .pr-compare--ppc__header p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -4357,19 +4360,15 @@ a.pr-footer__trust-item:hover {
   max-width: 460px;
   margin: 0 auto;
 }
-/* Desktop: nudge the pipeline-flow title left so it centers over the subtext. */
+/* Desktop: width-independent centering for every pipeline-flow header
+   (the title overflows its box, so flex-center keeps it centered over the
+   subtext regardless of length — replaces an earlier per-page nudge). */
 @media (min-width: 1024px) {
-  .pr-pipeline-flow__title { transform: translateX(-80px); }
-  /* Marketing-ops + ABM: width-independent centering (cancels the PPC-tuned
-     nudge). Marketing-ops also gets a wider subtext. */
-  .page-marketing-ops .pr-pipeline-flow__header,
-  .page-abm .pr-pipeline-flow__header {
+  .pr-pipeline-flow__header {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .page-marketing-ops .pr-pipeline-flow__title,
-  .page-abm .pr-pipeline-flow__title { transform: none; }
   .page-marketing-ops .pr-pipeline-flow__lede { max-width: 640px; }
 }
 

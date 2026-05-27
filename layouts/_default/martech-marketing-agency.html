@@ -13,16 +13,34 @@
           <span class="pr-hero__title-soft">Martech buyers don&rsquo;t add tools.</span>
           <span class="pr-hero__title-strong">They consolidate to fewer, better ones.</span>
         </h2>
-        <div class="pr-hero__copy">
+        <div class="pr-hero__copy pr-hero__copy--seo">
           <p>PipeRocket runs marketing for marketing automation, CDP, attribution, RevOps, and stack-consolidation platforms. SEO, PPC, and pipeline ops built around RevOps gatekeepers, integration debt, and CMOs under CFO pressure to cut tool spend, not grow it.</p>
         </div>
 
-        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+        {{/* MarTech page = any Clutch review tagged with "SaaS SEO" (mixed services OK) */}}
+        {{ $clutchSeo := where (where .Site.Data.reviews.reviews "source" "Clutch") "services" "intersect" (slice "SaaS SEO") }}
+        {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
+        <div class="pr-hero-seo__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-seo__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.webp" alt="Clutch" class="pr-hero-seo__rating-logo">
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
       </div>
-      <div class="pr-hero__collage" aria-label="PipeRocket Martech Marketing. RevOps-first, integration-aware, pipeline-led">
-        <img class="pr-hero__image" src="/images/hero-seo.webp" alt="Vintage figure under an SEO Results street clock. Martech context" loading="eager">
+      <div class="pr-hero-seo__mobile-img" aria-hidden="true">
+        <img src="/images/hero-seo/hero-mobile.webp" alt="" loading="eager">
+      </div>
+      <div class="pr-hero__collage pr-hero__collage--seo" aria-label="PipeRocket MarTech marketing — RevOps-first, integration-aware, pipeline-led">
+        <img class="pr-hero-seo__buyer" src="/images/hero-seo/buyer-first.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__bofu" src="/images/hero-seo/bofu-vector.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__search" src="/images/hero-seo/search-bar.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__stroke" src="/images/hero-seo/red-stroke.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__man" src="/images/hero-seo/man-clock.webp" alt="Vintage figure under an SEO Results street clock" loading="eager" decoding="async">
+        <img class="pr-hero-seo__arrow" src="/images/hero-seo/arrow.svg" alt="" aria-hidden="true" loading="eager" data-arrow-parallax>
       </div>
     </div>
+
+    {{ partial "clutch-reviews-schema.html" (dict "reviews" $clutchSeo "rating" $clutchSource.rating "count" (len $clutchSeo)) }}
   </div>
 </section>
 
@@ -36,39 +54,39 @@
      ==================================================== -->
 <section class="pr-section">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+    <div class="pr-center" style="margin: 0 auto 140px; max-width: 920px; text-wrap: balance;">
       <h2>Why martech SaaS marketing is different</h2>
-      <p>Generic SaaS playbooks lose the room when the buyer is already drowning in 90-tool stacks. Here&rsquo;s what changes when your buyer&rsquo;s mandate is consolidation, not adoption.</p>
     </div>
-    <div class="pr-principles">
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"/><path d="M6 12h12"/><path d="M10 18h4"/></svg>
-        </div>
-        <h3>Buyers consolidate, not adopt</h3>
-        <p>The CMO has 90 tools, a CFO asking which ten can go, and a board pushing for stack rationalisation. Net-new pitches die in the budget review. Consolidation pitches survive.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-        </div>
-        <h3>RevOps owns the buying decision</h3>
-        <p>RevOps and marketing ops sit between marketing, sales, and finance, they kill or champion every martech deal. Marketing that talks only to the CMO loses the room before the demo.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-        </div>
-        <h3>Integration debt is the deal-breaker</h3>
-        <p>If your platform doesn&rsquo;t integrate cleanly with HubSpot, Salesforce, Marketo, Snowflake, and the buyer&rsquo;s CDP, the deal dies in the security/IT review. Integration depth has to live on the hero, not the footer.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-        </div>
-        <h3>ROI must survive the budget cut</h3>
-        <p>Martech is first to be cut when the CFO trims spend. Programmes that report MQLs lose. Programmes that report CAC payback, tool consolidation savings, and revenue attribution survive renewal.</p>
-      </article>
+    <div class="pr-principles" data-principles>
+      <div class="pr-principles__line" aria-hidden="true">
+        <div class="pr-principles__line-bg"></div>
+        <div class="pr-principles__line-fill" data-line-fill></div>
+        <img class="pr-principles__arrow" src="/images/principles/pr-arrow.svg" alt="" data-principles-arrow>
+      </div>
+      <div class="pr-principles__col pr-principles__col--left">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--buyers"></div>
+          <h3>Buyers consolidate, not adopt</h3>
+          <p>The CMO has 90 tools, a CFO asking which ten can go, and a board pushing for stack rationalisation. Net-new pitches die in the budget review. Consolidation pitches survive.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--intent"></div>
+          <h3>RevOps owns the buying decision</h3>
+          <p>RevOps and marketing ops sit between marketing, sales, and finance, they kill or champion every martech deal. Marketing that talks only to the CMO loses the room before the demo.</p>
+        </article>
+      </div>
+      <div class="pr-principles__col pr-principles__col--right">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--purpose"></div>
+          <h3>Integration debt is the deal-breaker</h3>
+          <p>If your platform doesn&rsquo;t integrate cleanly with HubSpot, Salesforce, Marketo, Snowflake, and the buyer&rsquo;s CDP, the deal dies in the security/IT review. Integration depth has to live on the hero, not the footer.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--revenue"></div>
+          <h3>ROI must survive the budget cut</h3>
+          <p>Martech is first to be cut when the CFO trims spend. Programmes that report MQLs lose. Programmes that report CAC payback, tool consolidation savings, and revenue attribution survive renewal.</p>
+        </article>
+      </div>
     </div>
   </div>
 </section>
@@ -76,60 +94,30 @@
 <!-- ====================================================
      WORKING WITH PIPEROCKET. VINTAGE TV
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--working-seo">
   <div class="pr-container pr-center">
     <h2>Working With PipeRocket</h2>
-    <img src="/images/working-with-piperocket.webp" alt="Working With PipeRocket, testimonial on a vintage TV" class="pr-working-tv">
-  </div>
-</section>
-
-<!-- ====================================================
-     OUR MARTECH SERVICES. THREE CARDS LINKING TO SPOKES
-     ==================================================== -->
-<section class="pr-section pr-section--dark">
-  <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
-      <h2 style="color: var(--pr-cream);">Our martech marketing services</h2>
-      <p style="color: rgba(244,241,232,0.7);">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
-    </div>
-    <div class="pr-approach-grid pr-approach-grid--dark">
-      <article class="pr-approach-grid__card">
-        <h3>SaaS SEO</h3>
-        <p>Buyer-led content for CMOs, RevOps, and marketing-ops leaders. BOFU pages built around integration depth and consolidation outcomes. Topical authority across automation, CDP, attribution, and RevOps categories.</p>
-        <a href="/saas-seo-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS SEO →</a>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>SaaS PPC</h3>
-        <p>Paid programmes built around named martech buyer titles, account-based intent, and competitor consolidation queries. Integration-led landing pages and CFO-defendable CAC payback over realistic deal cycles.</p>
-        <a href="/saas-ppc/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS PPC →</a>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Marketing Ops</h3>
-        <p>RevOps, attribution, lifecycle, and reporting built so a martech vendor can prove its own ROI. Sales-accepted lead rate, pipeline contribution by buyer role, tool consolidation savings reported quarterly.</p>
-        <a href="/marketing-ops/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Marketing Ops →</a>
-      </article>
-    </div>
+    {{ partial "working-tv.html" . }}
   </div>
 </section>
 
 <!-- ====================================================
      WHY MARTECH TEAMS CHOOSE PIPEROCKET. DARK COMPARISON TABLE
      ==================================================== -->
-<section class="pr-section pr-section--dark">
+<section class="pr-section pr-section--dark pr-compare--seo">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
-      <h2 style="color: var(--pr-cream);">Why B2B martech SaaS teams choose our martech marketing agency</h2>
-      <p style="color: rgba(244,241,232,0.7);">Every agency promises growth. The gap is whether they can sell into a CMO who&rsquo;s under CFO pressure to cut tools, not buy more.</p>
+    <div class="pr-center pr-compare--seo__header">
+      <h2>Why B2B martech SaaS teams choose our martech marketing agency</h2>
+      <p>Every agency promises growth. The gap is whether they can sell into a CMO who&rsquo;s under CFO pressure to cut tools, not buy more.</p>
     </div>
+    <img src="/images/compare-blue-vector.svg" class="pr-compare--seo__blue-vec" aria-hidden="true">
+    <div class="pr-compare--seo__table-wrap">
     <div class="pr-compare-table">
       <div class="pr-compare-table__row pr-compare-table__row--head">
         <div>In house</div>
         <div>Other agencies</div>
         <div class="pr-compare-table__pr">
-          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
-          </svg>
-          PipeRocket
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-compare-table__pr-logo">
         </div>
       </div>
       <div class="pr-compare-table__row">
@@ -153,8 +141,310 @@
         <div>Reports centre on pipeline by buyer role, CAC payback over realistic cycles, and tool consolidation savings, built for CFO and board review.</div>
       </div>
     </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
-      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    <img src="/images/compare-red-vector.svg" class="pr-compare--seo__red-vec" aria-hidden="true" data-compare-red-vec>
+    <img src="/images/seo-table-rocket.svg" class="pr-compare--seo__rocket" aria-hidden="true" data-compare-rocket>
+    </div><!-- end table-wrap -->
+    <div class="pr-compare--seo__cta">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-middle">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     TESTIMONIALS, 6 CARDS
+     ==================================================== -->
+<section class="pr-section--tight pr-section--social-proof">
+  <div class="pr-container">
+    <div class="pr-center"><h2>50+ B2B SaaS brands have grown pipeline with PipeRocket</h2></div>
+
+    <div class="pr-testimonials__viewport">
+      <div class="pr-testimonials" data-testimonials-track>
+
+        <!-- Page 1 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperverge.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience, actionable strategies brought in 51 high-quality MQLs in just 3 months. Specifically, the team's approach towards fine-tuning campaigns across regions not only grew our leads but also saved us costs.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-navien.png" alt="Navien">
+            <div>
+              <div class="pr-testimonial__name">Navien</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Working alongside PipeRocket has been a commendable experience for Storylane. We were looking into how to boost our qualified leads. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
+            <div>
+              <div class="pr-testimonial__name">Nalin</div>
+              <div class="pr-testimonial__role">CEO</div>
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperstart.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working and invalidated two new geographies for the ads. Moreover, PipeRocket Digital was responsive, open to feedback, and eager to meet the objectives.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-anusha.png" alt="Anusha">
+            <div>
+              <div class="pr-testimonial__name">Anusha</div>
+              <div class="pr-testimonial__role">Founding member</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperstart.png" alt="HyperStart" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+        <!-- Page 2 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-spendflo.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution. Moreover, their in-depth understanding of SEO and consistent involvement make them a reliable partner.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nivas.png" alt="Nivas">
+            <div>
+              <div class="pr-testimonial__name">Nivas</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-devrev.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly. PipeRocket Digital was committed to driving growth and continuously learning and improving.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
+            <div>
+              <div class="pr-testimonial__name">Saptharishi</div>
+              <div class="pr-testimonial__role">Head of Demand Generation</div>
+              <img loading="lazy" decoding="async" src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-cyberseirra.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Thanks to PipeRocket Digital's work, we saw a 279% increase in organic traffic. The team also helped the client grow from six to 338 keywords, ranking in the top 10 positions. The team was highly responsive to feedback, quickly adjusted to changes, and showed outstanding SEO expertise.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-srividhya.png" alt="Srividhya Karthik">
+            <div>
+              <div class="pr-testimonial__name">Srividhya Karthik</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-cyberseirra.png" alt="Cyber Sierra" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="pr-testimonials__dots">
+      <button class="pr-testimonials__dot pr-testimonials__dot--active" data-testimonial-dot="0" aria-label="Page 1">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-active.png" alt="">
+      </button>
+      <button class="pr-testimonials__dot" data-testimonial-dot="1" aria-label="Page 2">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-inactive.png" alt="">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     MQLs ARE NOT A SUCCESS METRIC. STATS
+     ==================================================== -->
+<section class="pr-stat-band pr-stat-band--seo pr-stat-band--saas-seo">
+  <div class="pr-container pr-center">
+    <h2 class="pr-stat-band__heading">MQLs are not a success metric. Pipeline is.</h2>
+    <div class="pr-stat-band__row">
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-customers.webp" alt="Customers" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">CUSTOMERS</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">PIPELINE</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-revenue.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">REVENUE</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     EVERYONE TALKS ABOUT AI. ACCORDION
+     ==================================================== -->
+<section class="pr-section pr-section--ai pr-section--ai-seo">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
+      <h2>AI agents run your martech search data.<br>Senior strategists run the consolidation story.</h2>
+      <p style="margin-top: var(--pr-s-4); font-size: 1rem;">Most martech agencies still run a generic SaaS playbook. We built our delivery around AI agents that map the full RevOps buying committee, score integration-led queries, and surface the consolidation angles, so every page and campaign speaks to the buyer who&rsquo;s cutting tools, not adding them.</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img class="pr-ai-grid__layer is-active" data-image-key="research" loading="lazy" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in martech marketing">
+        <img class="pr-ai-grid__layer" data-image-key="copy" loading="lazy" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="design" loading="lazy" decoding="async" src="/images/ai-accordion/design.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="optimisation" loading="lazy" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="analysis" loading="lazy" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
+      </div>
+      <div class="pr-accordion" data-ai-accordion-martech>
+        <details class="pr-accordion__item" open data-image="research">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Buyer &amp; ICP Research
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI maps the full RevOps buying committee, scores consolidation and integration-led queries, and surfaces the competitor tools your buyer is trying to replace before a single page is briefed. Which buyer to lead with stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="copy">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Consolidation Angles &amp; Content
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI drafts BOFU pages around which tools you replace, integration depth, and CFO-grade savings models. Which consolidation story will actually survive the budget review stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="design">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Page Layout &amp; Conversion
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI surfaces integration logos, field-level mapping, and proof points to the hero, then sequences the page for RevOps and CFO scanning. Which layout converts a committee buyer stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="optimisation">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Technical Audit &amp; Refresh
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI flags decaying pages, broken integration docs, and net-new positioning that needs rewriting as consolidation positioning. What gets prioritised for refresh stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="analysis">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Pipeline Attribution
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI connects pipeline by buyer role, CAC payback over realistic cycles, and tool consolidation savings into one CFO-grade view. What it means for where to invest next stays with the team.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('[data-ai-accordion-martech]');
+      if(!acc) return;
+      var media = acc.parentElement.querySelector('.pr-ai-grid__media');
+      if(!media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var key = item.getAttribute('data-image');
+          if(!key) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === key);
+          });
+        });
+      });
+    })();
+  </script>
+</section>
+<style>
+  @media (min-width: 1024px) {
+    .pr-ai-grid { grid-template-columns: 0.9fr 1.1fr !important; gap: var(--pr-s-9) !important; }
+  }
+</style>
+
+<!-- ====================================================
+     AGENTIC AI DELIVERY — 4 PILLARS (martech-specific)
+     ==================================================== -->
+<section class="pr-section pr-section--ai-pillars">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7); text-wrap: balance;">
+      <h2>We rebuilt martech marketing around autonomous agents.</h2>
+      <p style="font-size: 1rem; line-height: 1.55; margin-top: var(--pr-s-4); color: var(--pr-ink-2);">AI agents own the data work autonomously, buyer research, consolidation angles, page layout, technical refresh, attribution. Senior strategists own the consolidation story and the CFO-grade calls.</p>
+    </div>
+    <div class="pr-ai-pillars__grid">
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 01</div>
+        <h3>Agents that finish, not assist</h3>
+        <p>Our agents run the full martech marketing workflow end to end: buyer mapping, consolidation angles, page layout, technical refresh, attribution. Not chatbots. Not co-pilots. Autonomous agents that surface board-ready programmes, not a backlog.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 02</div>
+        <h3>Research while you sleep</h3>
+        <p>Agents continuously map the RevOps buying committee, score integration-led queries, and watch the competitor tools your buyer wants to replace. By the time most agencies finish a manual ICP sprint, our buyer map is already live.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 03</div>
+        <h3>The consolidation story stays human</h3>
+        <p>Agents produce the data layer: buyer maps, angle drafts, QA flags. Senior strategists own the consolidation narrative, the CFO savings model, and the judgement of which story survives the budget review.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 04</div>
+        <h3>Pipeline, payback, savings</h3>
+        <p>Every agent reports to one outcome: qualified pipeline that survives renewal. We do not optimise for MQLs or traffic in isolation. Pipeline by buyer role, CAC payback, and tool consolidation savings surface continuously, not at month-end.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     THE PIPEROCKET MARTECH APPROACH
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">Our martech marketing services</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Pick a service to dive deep, or talk to us about a programme that runs SEO, PPC, and pipeline ops together, all built around consolidation buyers, RevOps gatekeepers, and CFO-grade ROI.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-start-from-inside.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">SaaS SEO</div>
+        <div class="pr-approach__copy"><p>Buyer-led content for CMOs, RevOps, and marketing-ops leaders. BOFU pages built around integration depth and consolidation outcomes. Topical authority across automation, CDP, attribution, and RevOps categories.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-map-full-picture.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">SaaS PPC</div>
+        <div class="pr-approach__copy"><p>Paid programmes built around named martech buyer titles, account-based intent, and competitor consolidation queries. Integration-led landing pages and CFO-defendable CAC payback over realistic deal cycles.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-build-with-intent.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Marketing Ops</div>
+        <div class="pr-approach__copy"><p>RevOps, attribution, lifecycle, and reporting built so a martech vendor can prove its own ROI. Sales-accepted lead rate, pipeline contribution by buyer role, tool consolidation savings reported quarterly.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -162,31 +452,102 @@
 <!-- ====================================================
      CASE STUDIES
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--casestudies">
   <div class="pr-container">
     <div class="pr-center"><h2>Case studies</h2></div>
     <div class="pr-cases">
       <article class="pr-case">
-        <div class="pr-case__logo">Spendflo</div>
-        <p class="pr-case__copy">61% traffic lift for Spendflo. SaaS spend management, directly relevant for martech vendors selling consolidation savings.</p>
-        <a href="/case-study-spendflo/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">61% traffic lift for Spendflo. SaaS spend management, directly relevant for martech vendors selling consolidation savings.</p>
+          <a href="/case-study-spendflo/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">Storylane</div>
-        <p class="pr-case__copy">Pipeline-led growth for Storylane, interactive demos, a martech-adjacent buyer mapping the full RevOps committee.</p>
-        <a href="/case-study-storylane/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Pipeline-led growth for Storylane, interactive demos, a martech-adjacent buyer mapping the full RevOps committee.</p>
+          <a href="/case-study-storylane/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">DevRev</div>
-        <p class="pr-case__copy">Achieving 127% Organic Traffic Growth in 6 Months: DevRev's Case Study with PipeRocket.</p>
-        <a href="/case-study-devrev/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-devrev-cs.svg" alt="DevRev" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Achieving 127% Organic Traffic Growth in 6 Months: DevRev&rsquo;s Case Study with PipeRocket.</p>
+          <a href="/case-study-devrev/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
     </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+    <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
       <a href="/case-study/" class="pr-btn pr-btn--ghost">View all case studies</a>
     </div>
   </div>
 </section>
+
+<!-- ====================================================
+     MARTECH AGENT STACK — 5 NAMED AGENTS (approach-section design)
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo pr-section--agents-stack" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">Inside the five-agent martech marketing stack we deploy on every account</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Each agent owns one layer of the martech marketing workflow, research, briefs, layout, technical refresh, attribution. They surface consolidation-ready programmes in days and report straight to the senior strategist on your account.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Keyword &amp; ICP Research Agent</div>
+        <div class="pr-approach__copy"><p>Maps the RevOps buying committee, scores consolidation and integration-led queries, and surfaces the competitor tools your buyer is trying to replace, scoring each by buyer fit and pipeline value, not volume alone.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Content Brief Agent</div>
+        <div class="pr-approach__copy"><p>Drafts BOFU briefs around which tools you replace, documented integration depth, and CFO-grade savings, so every page leads with the consolidation story, not net-new features.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Page Layout &amp; Conversion Agent</div>
+        <div class="pr-approach__copy"><p>Surfaces integration logos, field-level mapping, and proof to the hero and sequences the page for RevOps and CFO scanning, so a committee buyer converts without leaving the page.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Technical Audit &amp; Refresh Agent</div>
+        <div class="pr-approach__copy"><p>Flags decaying pages, broken integration docs, and net-new positioning that needs rewriting as consolidation positioning, so nothing in your site invites a lost deal.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Pipeline Attribution Agent</div>
+        <div class="pr-approach__copy"><p>Connects pipeline by buyer role, CAC payback over realistic cycles, and tool consolidation savings into one CFO-grade view. The reporting your board wants, continuously, not at month-end.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR TECH STACK
+     ==================================================== -->
+{{ partial "tech-stack.html" . }}
 
 <!-- ====================================================
      FAQ
@@ -237,15 +598,13 @@
 <!-- ====================================================
      FINAL CTA
      ==================================================== -->
-<section class="pr-cta-final">
+<section class="pr-cta-final pr-cta-final--seo">
   <div class="pr-container">
-    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
-    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true">
-    <h2>Generic SaaS marketing won&rsquo;t survive a stack consolidation review.<br><span class="pr-italic">Let&rsquo;s build a programme that does.</span></h2>
-    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
-    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
-      Dive deeper: <a href="/saas-seo-agency/" style="color: var(--pr-cyan);">SaaS SEO agency</a> · <a href="/saas-ppc/" style="color: var(--pr-cyan);">SaaS PPC agency</a>
-    </p>
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2><span class="pr-cta-soft">Generic SaaS marketing won&rsquo;t survive a stack consolidation review.</span> <strong>Let&rsquo;s build a programme that does.</strong></h2>
+    <p>We work with a small number of B2B martech companies at a time. If your buyer is mid-consolidation and your marketing still reads like net-new, let&rsquo;s find out if we&rsquo;re the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="service-bottom">Book free consultation</a>
   </div>
 </section>
 

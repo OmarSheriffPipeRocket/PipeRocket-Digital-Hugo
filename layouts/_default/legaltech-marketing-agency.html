@@ -13,16 +13,34 @@
           <span class="pr-hero__title-soft">Legaltech buyers don&rsquo;t take vendor calls.</span>
           <span class="pr-hero__title-strong">They take referrals from peers they&rsquo;ve billed beside.</span>
         </h2>
-        <div class="pr-hero__copy">
+        <div class="pr-hero__copy pr-hero__copy--seo">
           <p>PipeRocket runs marketing for CLM, e-discovery, legal research, matter management, IP, and compliance platforms. SEO, PPC, and pipeline ops built around general counsel, managing partners, and legal-ops leaders, with messaging tied to privilege, confidentiality, and the conservative procurement that comes with client data.</p>
         </div>
 
-        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+        {{/* SEO page = any Clutch review tagged with "SaaS SEO" (mixed services OK) */}}
+        {{ $clutchSeo := where (where .Site.Data.reviews.reviews "source" "Clutch") "services" "intersect" (slice "SaaS SEO") }}
+        {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
+        <div class="pr-hero-seo__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-seo__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.webp" alt="Clutch" class="pr-hero-seo__rating-logo">
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
       </div>
-      <div class="pr-hero__collage" aria-label="PipeRocket Legaltech Marketing, privilege-aware, peer-led, pipeline-led">
-        <img class="pr-hero__image" src="/images/hero-seo.webp" alt="Vintage figure under an SEO Results street clock. Legaltech context" loading="eager">
+      <div class="pr-hero-seo__mobile-img" aria-hidden="true">
+        <img src="/images/hero-seo/hero-mobile.webp" alt="" loading="eager">
+      </div>
+      <div class="pr-hero__collage pr-hero__collage--seo" aria-label="PipeRocket Legaltech Marketing, privilege-aware, peer-led, pipeline-led">
+        <img class="pr-hero-seo__buyer" src="/images/hero-seo/buyer-first.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__bofu" src="/images/hero-seo/bofu-vector.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__search" src="/images/hero-seo/search-bar.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__stroke" src="/images/hero-seo/red-stroke.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__man" src="/images/hero-seo/man-clock.webp" alt="Vintage figure under an SEO Results street clock" loading="eager" decoding="async">
+        <img class="pr-hero-seo__arrow" src="/images/hero-seo/arrow.svg" alt="" aria-hidden="true" loading="eager" data-arrow-parallax>
       </div>
     </div>
+
+    {{ partial "clutch-reviews-schema.html" (dict "reviews" $clutchSeo "rating" $clutchSource.rating "count" (len $clutchSeo)) }}
   </div>
 </section>
 
@@ -36,39 +54,40 @@
      ==================================================== -->
 <section class="pr-section">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
+    <div class="pr-center" style="margin: 0 auto 140px; max-width: 920px; text-wrap: balance;">
       <h2>Why legaltech SaaS marketing is different</h2>
       <p>Generic SaaS playbooks die when the buyer charges by the hour and answers to the bar. Here&rsquo;s what changes when your buyer&rsquo;s reputation and clients&rsquo; privilege are both on the line.</p>
     </div>
-    <div class="pr-principles">
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><circle cx="15" cy="15" r="6"/></svg>
-        </div>
-        <h3>Referrals beat marketing</h3>
-        <p>General counsel and managing partners trust peers they&rsquo;ve sat across the table from, not vendor pitches. Cold campaigns get filtered to a junior associate&rsquo;s inbox. Programmes have to seed peer-credible content into the channels GCs actually read.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
-        </div>
-        <h3>Privilege is a hard edge</h3>
-        <p>Attorney-client privilege, data residency, and bar-rule compliance are not "compliance bullets", they&rsquo;re ethical obligations the GC personally answers for. Confidentiality has to live on the hero, not the footer.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-        </div>
-        <h3>Billable hours run the calendar</h3>
-        <p>Lawyers don&rsquo;t trial software the week before a filing deadline. Marketing that competes for attention during deal-close season loses. Programmes have to be timed around the rhythms of legal practice, not the marketing quarter.</p>
-      </article>
-      <article class="pr-principles__card">
-        <div class="pr-principles__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg>
-        </div>
-        <h3>Partner committees gate the deal</h3>
-        <p>Law-firm procurement runs through partner committees. Corporate-legal procurement runs through GC, CFO, IT security, and outside counsel. Either way, the deal closes when every conservative stakeholder signs, not when the champion is sold.</p>
-      </article>
+    <div class="pr-principles" data-principles>
+      <div class="pr-principles__line" aria-hidden="true">
+        <div class="pr-principles__line-bg"></div>
+        <div class="pr-principles__line-fill" data-line-fill></div>
+        <img class="pr-principles__arrow" src="/images/principles/pr-arrow.svg" alt="" data-principles-arrow>
+      </div>
+      <div class="pr-principles__col pr-principles__col--left">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--buyers"></div>
+          <h3>Referrals beat marketing</h3>
+          <p>General counsel and managing partners trust peers they&rsquo;ve sat across the table from, not vendor pitches. Cold campaigns get filtered to a junior associate&rsquo;s inbox. Programmes have to seed peer-credible content into the channels GCs actually read.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--intent"></div>
+          <h3>Privilege is a hard edge</h3>
+          <p>Attorney-client privilege, data residency, and bar-rule compliance are not "compliance bullets", they&rsquo;re ethical obligations the GC personally answers for. Confidentiality has to live on the hero, not the footer.</p>
+        </article>
+      </div>
+      <div class="pr-principles__col pr-principles__col--right">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--purpose"></div>
+          <h3>Billable hours run the calendar</h3>
+          <p>Lawyers don&rsquo;t trial software the week before a filing deadline. Marketing that competes for attention during deal-close season loses. Programmes have to be timed around the rhythms of legal practice, not the marketing quarter.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--revenue"></div>
+          <h3>Partner committees gate the deal</h3>
+          <p>Law-firm procurement runs through partner committees. Corporate-legal procurement runs through GC, CFO, IT security, and outside counsel. Either way, the deal closes when every conservative stakeholder signs, not when the champion is sold.</p>
+        </article>
+      </div>
     </div>
   </div>
 </section>
@@ -76,60 +95,30 @@
 <!-- ====================================================
      WORKING WITH PIPEROCKET. VINTAGE TV
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--working-seo">
   <div class="pr-container pr-center">
     <h2>Working With PipeRocket</h2>
-    <img src="/images/working-with-piperocket.webp" alt="Working With PipeRocket, testimonial on a vintage TV" class="pr-working-tv">
-  </div>
-</section>
-
-<!-- ====================================================
-     OUR LEGALTECH SERVICES. THREE CARDS LINKING TO SPOKES
-     ==================================================== -->
-<section class="pr-section pr-section--dark">
-  <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-7);">
-      <h2 style="color: var(--pr-cream);">Our legaltech marketing services</h2>
-      <p style="color: rgba(244,241,232,0.7);">Pick a service to dive deep, or talk to us about a programme that runs all three together.</p>
-    </div>
-    <div class="pr-approach-grid pr-approach-grid--dark">
-      <article class="pr-approach-grid__card">
-        <h3>SaaS SEO</h3>
-        <p>Buyer-led content for general counsel, managing partners, legal-ops leaders, and compliance heads. BOFU pages built around privilege, data residency, and audit-trail proof. Topical authority across CLM, e-discovery, legal research, matter management, and compliance categories.</p>
-        <a href="/saas-seo-agency/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS SEO →</a>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>SaaS PPC</h3>
-        <p>Paid programmes built around named legal buyer titles, practice-area segmentation, and partner-committee-aware messaging. Privilege-aware landing pages and CFO-defendable CACs over realistic conservative procurement cycles.</p>
-        <a href="/saas-ppc/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore SaaS PPC →</a>
-      </article>
-      <article class="pr-approach-grid__card">
-        <h3>Marketing Ops</h3>
-        <p>RevOps, attribution, lifecycle, and reporting built for the long sales cycles legaltech runs. Sales-accepted lead rate by buyer role, pilot-stage progression by practice area, CAC payback by firm / corporate cohort.</p>
-        <a href="/marketing-ops/" class="pr-case__link" style="margin-top: var(--pr-s-4); display: inline-block;">Explore Marketing Ops →</a>
-      </article>
-    </div>
+    {{ partial "working-tv.html" . }}
   </div>
 </section>
 
 <!-- ====================================================
      WHY LEGALTECH TEAMS CHOOSE PIPEROCKET. DARK COMPARISON TABLE
      ==================================================== -->
-<section class="pr-section pr-section--dark">
+<section class="pr-section pr-section--dark pr-compare--seo">
   <div class="pr-container">
-    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
-      <h2 style="color: var(--pr-cream);">Why B2B legaltech SaaS teams choose our legaltech marketing agency</h2>
-      <p style="color: rgba(244,241,232,0.7);">Every agency promises growth. The gap is whether they understand a buyer who answers to the bar, charges by the hour, and trusts peers more than vendors.</p>
+    <div class="pr-center pr-compare--seo__header">
+      <h2>Why B2B legaltech SaaS teams choose our legaltech marketing agency</h2>
+      <p>Every agency promises growth. The gap is whether they understand a buyer who answers to the bar, charges by the hour, and trusts peers more than vendors.</p>
     </div>
+    <img src="/images/compare-blue-vector.svg" class="pr-compare--seo__blue-vec" aria-hidden="true">
+    <div class="pr-compare--seo__table-wrap">
     <div class="pr-compare-table">
       <div class="pr-compare-table__row pr-compare-table__row--head">
         <div>In house</div>
         <div>Other agencies</div>
         <div class="pr-compare-table__pr">
-          <svg width="14" height="16" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M0 0 L42 0 L0 42 Z" fill="#3FA8E5"/><path d="M22 0 L60 0 L60 82 L40 64 L22 82 Z" fill="#E63946"/>
-          </svg>
-          PipeRocket
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-compare-table__pr-logo">
         </div>
       </div>
       <div class="pr-compare-table__row">
@@ -153,8 +142,335 @@
         <div>Reports centre on pilot-stage progression by practice area, deal velocity by buyer role, and CAC payback by firm / corporate cohort. Built for managing-partner and CFO review.</div>
       </div>
     </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
-      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn">{{ .Site.Params.secondary_cta_text }}</a>
+    <img src="/images/compare-red-vector.svg" class="pr-compare--seo__red-vec" aria-hidden="true" data-compare-red-vec>
+    <img src="/images/seo-table-rocket.svg" class="pr-compare--seo__rocket" aria-hidden="true" data-compare-rocket>
+    </div><!-- end table-wrap -->
+    <div class="pr-compare--seo__cta">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-middle">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     TESTIMONIALS, 6 CARDS
+     ==================================================== -->
+<section class="pr-section--tight pr-section--social-proof">
+  <div class="pr-container">
+    <div class="pr-center"><h2>We&rsquo;ve helped 50+ B2B SaaS brands like yours earn pipeline</h2></div>
+
+    <div class="pr-testimonials__viewport">
+      <div class="pr-testimonials" data-testimonials-track>
+
+        <!-- Page 1 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperverge.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience, actionable strategies brought in 51 high-quality MQLs in just 3 months. Specifically, the team's approach towards fine-tuning campaigns across regions not only grew our leads but also saved us costs.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-navien.png" alt="Navien">
+            <div>
+              <div class="pr-testimonial__name">Navien</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Working alongside PipeRocket has been a commendable experience for Storylane. We were looking into how to boost our qualified leads. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
+            <div>
+              <div class="pr-testimonial__name">Nalin</div>
+              <div class="pr-testimonial__role">CEO</div>
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperstart.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working and invalidated two new geographies for the ads. Moreover, PipeRocket Digital was responsive, open to feedback, and eager to meet the objectives.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-anusha.png" alt="Anusha">
+            <div>
+              <div class="pr-testimonial__name">Anusha</div>
+              <div class="pr-testimonial__role">Founding member</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperstart.png" alt="HyperStart" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+        <!-- Page 2 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-spendflo.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution. Moreover, their in-depth understanding of SEO and consistent involvement make them a reliable partner.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nivas.png" alt="Nivas">
+            <div>
+              <div class="pr-testimonial__name">Nivas</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-devrev.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly. PipeRocket Digital was committed to driving growth and continuously learning and improving.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
+            <div>
+              <div class="pr-testimonial__name">Saptharishi</div>
+              <div class="pr-testimonial__role">Head of Demand Generation</div>
+              <img loading="lazy" decoding="async" src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-cyberseirra.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Thanks to PipeRocket Digital's work, we saw a 279% increase in organic traffic. The team also helped the client grow from six to 338 keywords, ranking in the top 10 positions. The team was highly responsive to feedback, quickly adjusted to changes, and showed outstanding SEO expertise.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-srividhya.png" alt="Srividhya Karthik">
+            <div>
+              <div class="pr-testimonial__name">Srividhya Karthik</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-cyberseirra.png" alt="Cyber Sierra" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="pr-testimonials__dots">
+      <button class="pr-testimonials__dot pr-testimonials__dot--active" data-testimonial-dot="0" aria-label="Page 1">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-active.png" alt="">
+      </button>
+      <button class="pr-testimonials__dot" data-testimonial-dot="1" aria-label="Page 2">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-inactive.png" alt="">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     STAT BAND
+     ==================================================== -->
+<section class="pr-stat-band pr-stat-band--seo pr-stat-band--saas-seo">
+  <div class="pr-container pr-center">
+    <h2 class="pr-stat-band__heading">Rankings aren&rsquo;t a success metric for legaltech. Pipeline is.</h2>
+    <div class="pr-stat-band__row">
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-customers.webp" alt="Customers" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">CUSTOMERS</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">PIPELINE</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-revenue.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">REVENUE</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     EVERYONE TALKS ABOUT AI. ACCORDION
+     ==================================================== -->
+<section class="pr-section pr-section--ai pr-section--ai-seo">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
+      <h2>AI agents run your legal-tech search data.<br>Senior strategists run the privilege-aware calls.</h2>
+      <p style="margin-top: var(--pr-s-4); font-size: 1rem;">Most legaltech agencies still run a generic SaaS playbook by hand. We built our delivery around AI agents that map buyer titles, score practice-area intent, and surface BOFU opportunities, so the team focuses on the privilege, bar-rule, and partner-committee judgement no agent should make.</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img class="pr-ai-grid__layer is-active" data-image-key="research" loading="lazy" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in legaltech marketing">
+        <img class="pr-ai-grid__layer" data-image-key="copy" loading="lazy" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="design" loading="lazy" decoding="async" src="/images/ai-accordion/design.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="optimisation" loading="lazy" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="analysis" loading="lazy" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
+      </div>
+      <div class="pr-accordion" data-ai-accordion-legaltech>
+        <details class="pr-accordion__item" open data-image="research">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Buyer &amp; Practice-Area Research
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI maps GC, managing-partner, and legal-ops titles, scores intent by practice area, and surfaces the searches your buyers actually run before a single page goes live. Which segments to prioritise stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="copy">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Privilege-Aware Content
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI drafts BOFU pages and briefs around privilege, data residency, and audit-trail proof. Whether the language passes the bar and reads peer-credible to a GC stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="design">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Page Layout &amp; Conversion
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI assembles privilege-aware landing pages, surfaces SOC 2 and jurisdiction proof early, and proposes layouts that let IT and GC self-qualify. Which trust signals lead the page stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="optimisation">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Technical Audit &amp; Refresh
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI audits crawl, indexation, and decaying pages across your CLM, e-discovery, and compliance clusters and flags refresh candidates. What gets rewritten vs retired stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="analysis">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Pipeline Attribution
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI tags pilot-stage progression by practice area and connects deal velocity by buyer role to pipeline in your CRM. What it means for where to invest next stays with the team.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('[data-ai-accordion-legaltech]');
+      if(!acc) return;
+      var media = acc.parentElement.querySelector('.pr-ai-grid__media');
+      if(!media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var key = item.getAttribute('data-image');
+          if(!key) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === key);
+          });
+        });
+      });
+    })();
+  </script>
+</section>
+<style>
+  @media (min-width: 1024px) {
+    .pr-ai-grid { grid-template-columns: 0.9fr 1.1fr !important; gap: var(--pr-s-9) !important; }
+  }
+</style>
+
+<!-- ====================================================
+     AGENTIC AI DELIVERY — 4 PILLARS (legaltech-specific)
+     ==================================================== -->
+<section class="pr-section pr-section--ai-pillars">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7); text-wrap: balance;">
+      <h2>We rebuilt legaltech marketing around autonomous agents.</h2>
+      <p style="font-size: 1rem; line-height: 1.55; margin-top: var(--pr-s-4); color: var(--pr-ink-2);">AI agents own the data work autonomously, buyer research, content drafting, page layout, technical audits, attribution. Senior strategists own the privilege, bar-rule, and partner-committee judgement.</p>
+    </div>
+    <div class="pr-ai-pillars__grid">
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 01</div>
+        <h3>Agents that finish, not assist</h3>
+        <p>Our agents run the full legaltech marketing workflow end to end: buyer research, brief drafting, page layout, technical audits, attribution. Not chatbots. Not co-pilots. Autonomous agents that surface launch-ready work, not a backlog.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 02</div>
+        <h3>Research while you sleep</h3>
+        <p>Agents continuously map GC, managing-partner, and legal-ops intent, score practice-area searches, and watch the SERPs across CLM, e-discovery, and compliance. By the time most agencies finish a manual research sprint, our roadmap is already live.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 03</div>
+        <h3>Privilege stays human</h3>
+        <p>Agents produce the data layer: titles, intent, drafts, audit flags. Senior strategists own whether the language passes the bar, reads peer-credible to a GC, and respects privilege. Conservative buyers never see auto-generated spam.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 04</div>
+        <h3>Tied to pipeline, not rankings</h3>
+        <p>Every agent reports to one outcome: qualified pipeline. We do not optimise for sessions or rankings in isolation. Pilot-stage progression, deal velocity by buyer role, and CAC payback by cohort surface continuously, not at month-end.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     THE PIPEROCKET LEGALTECH APPROACH
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">Our legaltech marketing services</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Each phase is built around the conservative, privilege-sensitive procurement legaltech runs, outcomes a managing partner and CFO can defend, not a vanity metric nobody reads.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-start-from-inside.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Map the legal buying group</div>
+        <div class="pr-approach__copy"><p>We baseline who actually signs, general counsel, managing partners, legal-ops, IT security, outside counsel, and how each conservative stakeholder gates the deal. Messaging gets built for the committee, not just the champion.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-map-full-picture.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Build SEO for practice-area intent</div>
+        <div class="pr-approach__copy"><p>Topical authority across CLM, e-discovery, legal research, matter management, IP, and compliance. BOFU pages built around the searches GCs and legal-ops leaders actually run, picked by buyer fit, not volume alone.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-build-with-intent.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Surface privilege &amp; trust early</div>
+        <div class="pr-approach__copy"><p>Privilege, data residency, audit trails, SOC 2, and ISO 27001 surfaced first, with jurisdiction-level detail, so GCs and IT self-qualify before booking instead of re-litigating it on every security questionnaire.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-go-where-buyers.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Run privilege-aware paid</div>
+        <div class="pr-approach__copy"><p>Paid programmes built around named legal buyer titles and practice-area segmentation, with partner-committee-aware messaging and landing pages that hold up to conservative procurement and CFO-defendable CACs.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-convert-day-one.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Earn peer credibility</div>
+        <div class="pr-approach__copy"><p>Named-firm references, GC-authored guest content, and bar-aware language seeded into the channels legal buyers read. The content reads like a peer who has done this before, not a vendor pitch.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-built-to-be-found.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Time to the legal calendar</div>
+        <div class="pr-approach__copy"><p>Campaigns timed around trial cycles, RFP windows, and partner-committee rhythm, so messaging lands when lawyers can actually read it, not during deal-close or deposition season.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-cited-where-counts.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Wire RevOps &amp; attribution</div>
+        <div class="pr-approach__copy"><p>RevOps, attribution, lifecycle, and reporting built for the long, conservative cycles legaltech runs, sales-accepted lead rate by buyer role and pilot-stage progression by practice area.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-scale-what-works.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Report to pipeline</div>
+        <div class="pr-approach__copy"><p>Pilot-stage progression by practice area, deal velocity by buyer role, and CAC payback by firm / corporate cohort, reported monthly and built for managing-partner and CFO review, never vanity rankings.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -162,31 +478,102 @@
 <!-- ====================================================
      CASE STUDIES
      ==================================================== -->
-<section class="pr-section--tight">
+<section class="pr-section--tight pr-section--casestudies">
   <div class="pr-container">
     <div class="pr-center"><h2>Case studies</h2></div>
     <div class="pr-cases">
       <article class="pr-case">
-        <div class="pr-case__logo">HyperStart</div>
-        <p class="pr-case__copy">Pipeline-led growth for HyperStart, a directly-relevant LegalTech / CLM playbook across a multi-stakeholder, partner-committee-style buying group.</p>
-        <a href="/case-study-hyperstart/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-hyperstart.png" alt="HyperStart" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Pipeline-led growth for HyperStart, a directly-relevant LegalTech / CLM playbook across a multi-stakeholder, partner-committee-style buying group.</p>
+          <a href="/case-study-hyperstart/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">CyberSierra</div>
-        <p class="pr-case__copy">Compliance-led growth for CyberSierra, relevant for legaltech vendors selling into privilege-sensitive, audit-heavy, conservative buyers.</p>
-        <a href="/case-study-cybersierra/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-cyberseirra.png" alt="CyberSierra" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Compliance-led growth for CyberSierra, relevant for legaltech vendors selling into privilege-sensitive, audit-heavy, conservative buyers.</p>
+          <a href="/case-study-cybersierra/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
       <article class="pr-case">
-        <div class="pr-case__logo">HyperVerge</div>
-        <p class="pr-case__copy">Pipeline-led growth for HyperVerge. KYC / identity verification, adjacent to legaltech buyers managing client identity, privilege, and data.</p>
-        <a href="/case-study-hyperverge/" class="pr-case__link">Read full story →</a>
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Pipeline-led growth for HyperVerge. KYC / identity verification, adjacent to legaltech buyers managing client identity, privilege, and data.</p>
+          <a href="/case-study-hyperverge/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
       </article>
     </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+    <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
       <a href="/case-study/" class="pr-btn pr-btn--ghost">View all case studies</a>
     </div>
   </div>
 </section>
+
+<!-- ====================================================
+     LEGALTECH AGENT STACK — 5 NAMED AGENTS (approach-section design)
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo pr-section--agents-stack" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">Inside the five-agent legaltech stack we deploy on every account</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Each agent owns one layer of the legaltech workflow, research, briefs, page conversion, technical refresh, attribution. They surface launch-ready work in days and report straight to the senior strategist on your account.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Keyword &amp; ICP Research Agent</div>
+        <div class="pr-approach__copy"><p>Maps GC, managing-partner, and legal-ops titles, scores intent by practice area, and surfaces the CLM, e-discovery, and compliance searches your buyers actually run, by buyer fit, not volume alone.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Content Brief Agent</div>
+        <div class="pr-approach__copy"><p>Drafts privilege-aware briefs around data residency, audit-trail proof, and bar-rule realities, so writers produce peer-credible BOFU content a GC recognises, not generic SaaS copy.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Page Layout &amp; Conversion Agent</div>
+        <div class="pr-approach__copy"><p>Assembles privilege-aware landing pages, surfaces SOC 2 and jurisdiction proof early, and proposes layouts that let IT and GC self-qualify before they ever book a call.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Technical Audit &amp; Refresh Agent</div>
+        <div class="pr-approach__copy"><p>Audits crawl, indexation, and decaying pages across your practice-area clusters and flags refresh candidates, so authority compounds instead of quietly eroding.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Pipeline Attribution Agent</div>
+        <div class="pr-approach__copy"><p>Tags pilot-stage progression by practice area and connects deal velocity by buyer role and CAC payback by cohort to pipeline. The reporting your managing partner and CFO want, continuously, not at month-end.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR TECH STACK
+     ==================================================== -->
+{{ partial "tech-stack.html" . }}
 
 <!-- ====================================================
      FAQ
@@ -237,15 +624,13 @@
 <!-- ====================================================
      FINAL CTA
      ==================================================== -->
-<section class="pr-cta-final">
+<section class="pr-cta-final pr-cta-final--seo">
   <div class="pr-container">
-    <img class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true">
-    <img class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true">
-    <h2>Generic SaaS marketing won&rsquo;t earn a GC&rsquo;s referral.<br><span class="pr-italic">Let&rsquo;s build a programme that does.</span></h2>
-    <a href="/contact-us/" class="pr-btn">Book free consultation</a>
-    <p style="color: rgba(244,241,232,0.6); margin-top: var(--pr-s-5); font-size: 0.95rem;">
-      Dive deeper: <a href="/saas-seo-agency/" style="color: var(--pr-cyan);">SaaS SEO agency</a> · <a href="/saas-ppc/" style="color: var(--pr-cyan);">SaaS PPC agency</a>
-    </p>
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2><span class="pr-cta-soft">Generic SaaS marketing won&rsquo;t earn a GC&rsquo;s referral.</span> <strong>Let&rsquo;s build a programme that does.</strong></h2>
+    <p>We work with a small number of B2B legaltech companies at a time. If your pipeline depends on a buyer who answers to the bar, let&rsquo;s find out if we&rsquo;re the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="service-bottom">Book free consultation</a>
   </div>
 </section>
 
