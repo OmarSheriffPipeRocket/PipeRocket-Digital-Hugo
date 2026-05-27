@@ -175,6 +175,22 @@ weight = 9
 name = "PropTech Agency"
 url = "/proptech-marketing-agency/"
 weight = 10
+[[menu.footer_industries]]
+name = "Fintech SEO Agency"
+url = "/fintech-seo-agency/"
+weight = 11
+[[menu.footer_industries]]
+name = "Fintech PPC Agency"
+url = "/fintech-ppc-agency/"
+weight = 12
+[[menu.footer_industries]]
+name = "HR Tech SEO Agency"
+url = "/hrtech-seo-agency/"
+weight = 13
+[[menu.footer_industries]]
+name = "HR Tech PPC Agency"
+url = "/hrtech-ppc-agency/"
+weight = 14
 
 [[menu.footer_company]]
 name = "About Us"
