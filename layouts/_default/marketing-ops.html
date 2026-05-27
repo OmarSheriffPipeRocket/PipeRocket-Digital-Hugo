@@ -323,13 +323,14 @@
 <!-- ====================================================
      TESTIMONIALS, 3 CARDS
      ==================================================== -->
-<section class="pr-section--tight pr-section--social-proof pr-section--social-proof-ppc">
+<section class="pr-section--tight pr-section--social-proof">
   <div class="pr-container">
     <div class="pr-center"><h2>We helped 50+ SaaS teams measure what marketing actually does</h2></div>
 
     <div class="pr-testimonials__viewport">
       <div class="pr-testimonials" data-testimonials-track>
 
+        <!-- Page 1 -->
         <article class="pr-testimonial">
           <img loading="lazy" decoding="async" src="/images/stroke-hyperverge.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
           <p class="pr-testimonial__quote">PipeRocket rebuilt our attribution and lifecycle logic in 90 days. Sales finally trusts the leads we send. Pipeline visibility moved from a quarter-end exercise to a daily report.</p>
@@ -369,7 +370,88 @@
           </div>
         </article>
 
+        <!-- Page 2 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-spendflo.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution. Moreover, their in-depth understanding of SEO and consistent involvement make them a reliable partner.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nivas.png" alt="Nivas">
+            <div>
+              <div class="pr-testimonial__name">Nivas</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-devrev.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly. PipeRocket Digital was committed to driving growth and continuously learning and improving.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
+            <div>
+              <div class="pr-testimonial__name">Saptharishi</div>
+              <div class="pr-testimonial__role">Head of Demand Generation</div>
+              <img loading="lazy" decoding="async" src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-cyberseirra.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Thanks to PipeRocket Digital's work, we saw a 279% increase in organic traffic. The team also helped the client grow from six to 338 keywords, ranking in the top 10 positions. The team was highly responsive to feedback, quickly adjusted to changes, and showed outstanding SEO expertise.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-srividhya.png" alt="Srividhya Karthik">
+            <div>
+              <div class="pr-testimonial__name">Srividhya Karthik</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-cyberseirra.png" alt="Cyber Sierra" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
       </div>
+    </div>
+
+    <div class="pr-testimonials__dots">
+      <button class="pr-testimonials__dot pr-testimonials__dot--active" data-testimonial-dot="0" aria-label="Page 1">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-active.png" alt="">
+      </button>
+      <button class="pr-testimonials__dot" data-testimonial-dot="1" aria-label="Page 2">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-inactive.png" alt="">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     AGENTIC AI DELIVERY — 4 PILLARS (MarOps-specific)
+     ==================================================== -->
+<section class="pr-section pr-section--ai-pillars">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7); text-wrap: balance;">
+      <h2>We rebuilt marketing operations around autonomous agents.</h2>
+      <p style="font-size: 1rem; line-height: 1.55; margin-top: var(--pr-s-4); color: var(--pr-ink-2);">AI agents own the data layer, data stitching, attribution modelling, lead routing, lifecycle hygiene, reporting. Senior strategists own the model and the calls a CFO will defend.</p>
+    </div>
+    <div class="pr-ai-pillars__grid">
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 01</div>
+        <h3>Autonomous, not auto-suggested</h3>
+        <p>Our agents complete entire MarOps workflows end to end: data stitching, attribution modelling, routing logic, lifecycle hygiene, reporting. Not a suggestion next to an ops manager's ticket queue. Autonomous agents that finish the task and hand it to a strategist for the call.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 02</div>
+        <h3>Continuous, not quarterly clean-up</h3>
+        <p>Agents monitor your CRM and MAP for broken syncs, duplicate records, routing failures, and attribution gaps in real time, so data integrity holds every day, not just before the board meeting.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 03</div>
+        <h3>The model stays human</h3>
+        <p>Agents handle the execution layer: stitching, deduping, enrichment, report generation. Senior strategists own the calls that matter: which attribution model reflects reality, how lifecycle stages are defined, what the sales team will actually trust. The model is never delegated to a tool.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 04</div>
+        <h3>One number a CFO can defend</h3>
+        <p>Every agent reports to one outcome: pipeline a CFO can defend. Vanity dashboards are diagnostic, never the goal. CAC, payback, attribution by channel, and pipeline contribution surface continuously from one source of truth, not five conflicting dashboards.</p>
+      </article>
     </div>
   </div>
 </section>
@@ -471,6 +553,48 @@
     </div>
     <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
       <a href="/case-study/" class="pr-btn pr-btn--ghost">View all success stories</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     MAROPS AGENT STACK — 5 NAMED AGENTS (approach-section design)
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo pr-section--agents-stack" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">Inside the five-agent marketing-ops stack we deploy on every account</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Each agent owns one layer of the MarOps workflow, data stitching, attribution, routing, lifecycle, reporting. They run continuously and report straight to the senior strategist on your account.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Data Stitching Agent</div>
+        <div class="pr-approach__copy"><p>Unifies CRM, ad-platform, product-analytics, and enrichment data into one pipeline source of truth, reconciling identities and de-duping records so every downstream number agrees.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Attribution Modelling Agent</div>
+        <div class="pr-approach__copy"><p>Builds and maintains multi-touch attribution that reflects how deals actually close, so marketing spend maps to pipeline and revenue, not last-click guesses.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Lead Routing Agent</div>
+        <div class="pr-approach__copy"><p>Scores, enriches, and routes inbound to the right rep with the right context in seconds, so no MQL sits in a queue and sales trusts what lands in their pipeline.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Lifecycle &amp; Hygiene Agent</div>
+        <div class="pr-approach__copy"><p>Watches lifecycle stages, dedupes records, flags broken syncs and stalled deals, and keeps the CRM clean continuously, not in a quarterly fire drill.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Pipeline Reporting Agent</div>
+        <div class="pr-approach__copy"><p>Generates the CFO-grade reporting your board wants, CAC, payback, attribution by channel, pipeline by source, continuously from one source of truth, not stitched together the night before.</p></div>
+      </div>
     </div>
   </div>
 </section>
