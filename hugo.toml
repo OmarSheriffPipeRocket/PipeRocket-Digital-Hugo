@@ -7,6 +7,11 @@ relativeURLs = false
 timeZone = "Asia/Kolkata"
 hasCJKLanguage = false
 
+# Hide the <meta name="generator" content="Hugo x.y.z"> tag that Hugo
+# auto-injects on the homepage. Keeps the stack + version out of
+# competitors' tech-profiling tools (Wappalyzer, BuiltWith). No SEO impact.
+disableHugoGeneratorInject = true
+
 # Pretty URLs (trailing slash)
 uglyURLs = false
 
