@@ -12,7 +12,12 @@
   <!-- Inter (body) + self-hosted IvyPresto (display headlines) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  {{/* Non-blocking Google Fonts load: browser downloads in background,
+       page renders with the system fallback first, then swaps to Inter
+       once the stylesheet arrives. Saves ~1s of render-blocking on slow
+       networks. <noscript> fallback keeps it loading for no-JS users. */}}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
   <link rel="preload" as="font" type="font/woff2" href="/fonts/IvyPresto-Headline.woff2" crossorigin>
 
   {{/* LCP image preload — homepage only. Different image per viewport. */}}
