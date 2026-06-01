@@ -1,11 +1,11 @@
 ---
 layout: "listicle"
-title: "My Picks for the 9 Best Performance Marketing Agencies in 2026"
-description: "I ranked the 9 best performance marketing agencies for 2026 using a weighted scoring system across five criteria. Each agency was evaluated on revenue attribution, channel expertise, creative testing, reporting transparency, and client retention. You will find detailed breakdowns, pricing ranges, and specific use cases to match your growth stage. How We Evaluated These Performance […]"
-metaTitle: "I Ranked the 9 Best Performance Marketing Agencies (2026)"
-metaDescription: "I evaluated 9 top performance marketing agencies on ROI, expertise, and transparency. See my ranked picks for 2026."
+title: "9 Best Performance Marketing Agencies in 2026 (Honest Review)"
+description: "An honest, source-checked review of the 9 best performance marketing agencies for 2026, with verified pricing, Clutch ratings, and where each one breaks down."
+metaTitle: "9 Best Performance Marketing Agencies (2026 Review)"
+metaDescription: "Verified pricing, Clutch ratings, and honest limitations for the 9 best performance marketing agencies of 2026. No vendor fluff."
 date: 2025-11-07
-lastmod: 2026-05-12
+lastmod: 2026-06-01
 slug: "top-performance-marketing-agencies"
 writtenBy: "praveen"
 category: "B2B PPC"
@@ -13,372 +13,635 @@ featuredImage: "/images/listicle-covers/top-performance-marketing-agencies.webp"
 wp_id: 1845
 wp_link: "/list/top-performance-marketing-agencies/"
 toc: true
-readingTime: "16 min read"
+readingTime: "18 min read"
 ---
 
-Comparing the top 9 best performance marketing agencies in 2026 includes 1. PipeRocket Digital, 2. The Social Shepherd, 3. NoGood, 4. Bamboo, 5. Disruptive Advertising, 6. Ignite Visibility, 7. Tinuiti, 8. Directive Consulting, and 9. Thrive Digital.
+Comparing the top 9 best performance marketing agencies of 2026 includes 1. Directive Consulting, 2. PipeRocket Digital, 3. Tinuiti, 4. Disruptive Advertising, 5. Ignite Visibility, 6. NoGood, 7. The Social Shepherd, 8. Thrive Digital, and 9. Bamboo.
 
-I ranked the 9 best performance marketing agencies for 2026 using a weighted scoring system across five criteria. Each agency was evaluated on revenue attribution, channel expertise, creative testing, reporting transparency, and client retention. You will find detailed breakdowns, pricing ranges, and specific use cases to match your growth stage.
+Directive and PipeRocket lead for B2B SaaS pipeline work, Tinuiti and Disruptive cover enterprise retail and mid-market PPC plus CRO, Ignite and NoGood handle cross-channel and experiment-led growth, Social Shepherd serves consumer paid social, Thrive supports Canadian and US digital-first brands, and Bamboo now runs as an advisory rather than a full agency.
 
-## How We Evaluated These Performance Marketing Agencies
+Picking wrong here costs six to seven figures in wasted ad spend and a year of stalled pipeline, so this guide weighs verified Clutch volume, public pricing floors, named-client substance, and honest limitations before tagline polish.
 
-30% – **Revenue Attribution**: How effectively the agency connects marketing spend directly to pipeline and closed revenue.
+## TL;DR
 
-25% – **Channel Expertise**: Depth of specialization across paid search, paid social, and programmatic platforms.
+1. **Directive Consulting:** Best for B2B SaaS pipeline-led performance with 56 verified Clutch reviews.
+2. **PipeRocket Digital:** Best for B2B SaaS teams that report performance in SQLs, not impressions.
+3. **Tinuiti:** Best for enterprise retail and marketplace media at $4B+ scale.
+4. **Disruptive Advertising:** Best for mid-market PPC plus CRO with deep review backing.
+5. **Ignite Visibility:** Best for coordinated multi-channel programs with attribution discipline.
+6. **NoGood:** Best for AI-native growth experimentation at premium retainers.
+7. **The Social Shepherd:** Best for consumer and eCommerce paid social creative.
+8. **Thrive Digital:** Best for Canadian and US digital-first brands prioritising measurement accuracy.
+9. **Bamboo:** Best as an advisory option for in-house paid teams (no longer a full-service agency).
 
-20% – **Creative Testing**: Systematic approach to ad creative experimentation and performance iteration.
+## Side-by-Side Comparison
 
-15% – **Reporting Transparency**: Clarity of analytics, attribution models, and client-facing dashboards.
+| Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
+| --- | --- | --- | --- | --- |
+| Directive Consulting | B2B SaaS pipeline | [$6,500/mo](https://directiveconsulting.com) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
+| PipeRocket Digital | B2B SaaS revenue | [Custom pricing](https://piperocket.digital) | Yes | [4.8/5](https://clutch.co/profile/piperocket-digital) |
+| Tinuiti | Enterprise retail and marketplace | [$10,000+ min project](https://tinuiti.com) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/tinuiti) |
+| Disruptive Advertising | PPC plus CRO | [$5,000/mo](https://disruptiveadvertising.com) | Yes | [4.8/5 (365 reviews)](https://clutch.co/profile/disruptive-advertising) |
+| Ignite Visibility | Multi-channel attribution | [$3,000/mo](https://ignitevisibility.com) | Yes | [4.8/5 (173 reviews)](https://clutch.co/profile/ignite-visibility) |
+| NoGood | AI-native growth | [$20,000/mo](https://nogood.io) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
+| The Social Shepherd | Consumer paid social | [Custom pricing](https://thesocialshepherd.com) | Yes | [Verified on Clutch](https://clutch.co/profile/social-shepherd) |
+| Thrive Digital | Digital-first measurement | [Custom pricing](https://www.thrivedigital.com) | Yes | No verified Clutch profile |
+| Bamboo | Advisory only (not a full agency) | [Advisory engagement](https://www.growwithbamboo.com) | Yes | No verified Clutch profile |
 
-10% – **Client Retention**: Track record of long-term partnerships and repeat engagements.
+## How We Chose These Performance Marketing Agencies?
 
-For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+We started with verified Clutch and G2 profiles, then triangulated against named-client lists on each agency's own site, public pricing floors, and Reddit threads in r/PPC, r/marketing, and r/SaaS where buyers post specific agency experiences. We rejected any agency whose published case studies couldn't be matched to a real client URL or whose Clutch slug resolved to a different company.
 
+For performance marketing, the two criteria that mattered most were **revenue attribution** (does the agency tie spend to closed pipeline, not just clicks) and **pricing transparency** (a public floor or retainer range, since opaque pricing usually correlates with mid-engagement scope creep). Channel depth, creative testing rigor, and reporting cadence were tiebreakers.
 
-## Compare the 9 Best Performance Marketing Agencies in 2026
+For the full process, every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy, read [our research methodology and editorial policy](/research-methodology/).
 
-1. [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) – Best for B2B SaaS Revenue Integration
-2. [The Social Shepherd](/images/agencies/the-social-shepherd-home.webp) – Best for Creative-Led Paid Social
-3. [NoGood](/images/agencies/nogood-home.webp) – Best for Experiment-Led Growth
-4. [Bamboo](/images/agencies/bamboo-home.webp) – Best for Mobile Apps and Retention
-5. [Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp) – Best for PPC and CRO
-6. [Ignite Visibility](/images/agencies/ignite-visibility-home.webp) – Best for Cross-Channel Strategy
-7. [Tinuiti](/images/agencies/tinuiti-home.webp) – Best for Enterprise Marketplace Advertising
-8. [Directive Consulting](/images/agencies/disruptive-advertising-home.webp) – Best for B2B SaaS Pipeline
-9. [Thrive Digital](/images/agencies/thrive-digital-home.webp) – Best for High-Growth Startups
+## Detailed Comparison
 
-| Agency | Score | Best For | Starting Price |
-| --- | --- | --- | --- |
-| [PipeRocket Digital](/images/agencies/piperocket-digital-home.webp) | 95 | B2B SaaS Revenue Integration | $5,000/mo |
-| [The Social Shepherd](/images/agencies/the-social-shepherd-home.webp) | 88 | Creative-Led Paid Social | Custom |
-| [NoGood](/images/agencies/nogood-home.webp) | 86 | Experiment-Led Growth | Custom |
-| [Bamboo](/images/agencies/bamboo-home.webp) | 84 | Mobile Apps and Retention | Custom |
-| [Disruptive Advertising](/images/agencies/disruptive-advertising-home.webp) | 82 | PPC and CRO | Custom |
-| [Ignite Visibility](/images/agencies/ignite-visibility-home.webp) | 80 | Cross-Channel Strategy | Custom |
-| [Tinuiti](/images/agencies/tinuiti-home.webp) | 78 | Enterprise Marketplace Advertising | Custom |
-| [Directive Consulting](/images/agencies/disruptive-advertising-home.webp) | 76 | B2B SaaS Pipeline | Custom |
-| [Thrive Digital](/images/agencies/thrive-digital-home.webp) | 74 | High-Growth Startups | Custom |
+### 1. Directive Consulting
 
-## The 9 Best Performance Marketing Agencies in 2026
+Best for: B2B SaaS teams that need paid plus SEO tied to pipeline, not MQL vanity
 
-### 1. PipeRocket Digital
+[Directive Consulting](https://directiveconsulting.com) is a B2B SaaS-only performance agency running paid media, SEO, CRO, and lifecycle inside their "Customer Generation" framework. With 56 verified Clutch reviews at 4.8/5, they hold one of the larger credible review pools in this category.
 
+**Quick Facts**
 
-{{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
+| | |
+| --- | --- |
+| Location | Irvine, CA (plus Austin, NYC, Mexico City, London, Toronto) |
+| Founded | 2013 |
+| Team Size | 100+ strategists |
+| Notable Clients | Amazon, Cisco, Adobe, ZoomInfo, Calendly, Snap, Samsung, Gong, SentinelOne |
+| Specialization | B2B SaaS performance marketing |
 
-{{< score 95 >}}
+**The Edge:** Customer Generation reframes the buying committee as the unit of measurement, not the lead. Paid acquisition, SEO, and CRO sit on the same pod so handoffs don't drop pipeline.
 
-Revenue Attribution 29/30 | Channel Expertise 24/25 | Creative Testing 19/20 | Reporting Transparency 14/15 | Client Retention 9/10
+- Stratos AI platform stitches campaign and CRM data for attribution
+- Pod model staffs strategists, analysts, and creatives per account
+- B2B SaaS focus removes generalist context-switching on accounts
 
-Best for: Mid-market and enterprise B2B SaaS companies that need marketing spend tied directly to SQLs and revenue.
+**The Receipts:** A verified Clutch reviewer called Directive "the strongest agency I've worked with to date, and I would recommend them to anyone." 56 reviews back the 4.8/5 rating, with a named client roster including ZoomInfo, Calendly, Gong, and SentinelOne anchoring the SaaS positioning.
 
-I built PipeRocket Digital because I was frustrated watching agencies operate in silos, chasing vanity metrics while clients wondered where their pipeline went. We function as a revenue engine, not just an ad management team. Every campaign we run connects directly to qualified leads and closed deals.
+**The Honest Caveat:** Directive's premium positioning excludes pre-Series A teams without a repeatable sales motion. Account-team turnover during scaling periods has been called out by some reviewers, so reference-checking your specific pod matters.
 
-Our approach integrates performance marketing across LinkedIn Ads, [demand generation](/blogs/b2b-demand-generation-guide/), and paid media into one cohesive system. We work with B2B SaaS, Fintech, and PtaaS brands like DevRev, Metricstream, and Goldcast. The goal is always quantifiable business growth, not impressions.
+- Pricing floor lands above what seed-stage budgets can absorb
+- Pod composition can shift after kickoff, ask about it in discovery
 
-#### Expertise
+**Best Fit For:** A B2B SaaS company at $10M+ ARR with a CRM that already tracks opportunity stages and an in-house demand-gen lead.
 
-- Performance Marketing
-- LinkedIn Ads
-- [Demand Generation](/blogs/b2b-demand-generation-guide/)
-- Paid Media
-- Conversion Optimization
-- Revenue Attribution
+**Not Built For:** A bootstrapped pre-revenue startup or a B2C brand looking for creative-first paid social campaigns.
 
-Best suited for: B2B SaaS companies with $5M+ ARR seeking marketing tied to pipeline metrics.
+**Operator's Note:** We rank Directive at the top because their verified review depth and SaaS focus consistently match buyer expectations on pipeline outcomes.
 
-Not ideal for: Early-stage startups without established sales processes or CRM infrastructure.
+**What It Costs**
 
-#### Review
+Directive publishes a startup retainer of $6,500/mo on their site, with the most common engagement landing in the $10K-$49K range annually per Clutch as of June 2026.
 
-> “They operate like an extension of our team with complete ownership of results. The PPC expertise and responsiveness exceeded our expectations, and we finally see clear ROI from our ad spend.” – VP of Marketing, B2B SaaS Company – Verified review
+| Plan | Price | Key Inclusions |
+| --- | --- | --- |
+| Startup | $6,500/mo | Paid media or SEO focused, single-channel pod |
+| Growth | $10,000+/mo | Multi-channel Customer Generation pod |
+| Enterprise | Custom pricing | Full Stratos deployment, custom attribution build |
 
-Pricing: $5,000-$15,000/mo – Scales based on channel mix and campaign complexity – Visit PipeRocket Digital
+**What Reviewers Flag**
 
-### 2. The Social Shepherd
+**Love:** Pipeline-grade reporting
+A Clutch reviewer wrote "this is the strongest agency I've worked with to date, and I would recommend them to anyone" on [Directive's profile](https://clutch.co/profile/directive-consulting).
 
-{{< score 88 >}}
+- 56 verified reviews at 4.8/5 give buyers a deep public sample to read before signing
 
-{{< agency-triptych slug="the-social-shepherd" name="The Social Shepherd" >}}
-Revenue Attribution 25/30 | Channel Expertise 23/25 | Creative Testing 19/20 | Reporting Transparency 13/15 | Client Retention 8/10
+**Complain:** Pod churn during scaling
+Some reviewers cited account-team turnover during periods of agency growth on [Clutch](https://clutch.co/profile/directive-consulting).
 
-Best for: Brands requiring scroll-stopping creative combined with data-driven paid social optimization.
+- Strategist hand-offs mid-engagement add ramp-up cost on the client side
 
-The Social Shepherd operates from the UK but serves clients globally with a social-first performance methodology. They understand that paid social requires more than spreadsheet optimization. Their in-house creative team develops ad formats and performance graphics designed to capture attention and drive conversions.
+| Criteria | Detail |
+| --- | --- |
+| Free Consultation | Yes, scoped discovery call |
+| Clutch Rating | 4.8/5 (56 reviews) |
 
-The agency balances storytelling with rigorous data analysis across campaigns for eCommerce, B2B, and consumer brands. Clients like Uniqlo and M&S rely on their ability to test creative variations systematically. Their reporting maintains transparency while focusing on metrics that matter to revenue.
+### 2. PipeRocket Digital
 
-#### Expertise
+Best for: B2B SaaS marketing leaders who report performance in SQLs and pipeline
 
-- Paid Social
-- Influencer Marketing
-- Creative Strategy
-- Content Production
-- Performance Graphics
-- Ad Format Testing
+[PipeRocket Digital](https://piperocket.digital) is a B2B SaaS performance agency running paid media, [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), and [GEO/AEO](/aeo-geo-agency/) under one pod with a CRM-first reporting model. We work backward from SQLs, so every campaign view we ship to clients lives inside the pipeline dashboard their CFO already opens.
 
-Best suited for: Consumer and eCommerce brands needing creative development integrated with paid social management.
+**Quick Facts**
 
-Not ideal for: B2B companies with complex sales cycles requiring multi-touch attribution.
+| | |
+| --- | --- |
+| Location | Chennai, India (US delivery) |
+| Founded | 2019 |
+| Team Size | 30+ people |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Specialization | B2B SaaS performance and pipeline marketing |
 
-#### Review
+**The Edge:** We run paid, SEO, and AI search visibility on the same pod, so there's no handoff drag when budgets shift between channels mid-quarter. Reporting starts at the SQL line, not the impression line.
 
-> “Their communication is reactive and their reporting completely transparent. They found the right balance between creative ideas and data-driven execution for our campaigns.” – Marketing Director, Consumer Brand – Verified review
+- Pod stays consistent across the engagement, no rotating strategists
+- GEO/AEO sits with technical SEO, ready when AI search becomes a board metric
+- Custom retainer model scales with scope, not headcount fiction
 
-Pricing: Custom – Based on creative scope and media spend – Visit The Social Shepherd
+**The Receipts:** Our published case studies cite specifics. [HyperStart](/case-study/hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead by 73%. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with no budget increase. [Storylane](/case-study/storylane/) saw 2.5x pipeline growth in a single quarter from SEO-led demand.
 
-### 3. NoGood
+**The Honest Caveat:** We're B2B SaaS only. We turn down eCommerce, local, and non-SaaS B2B every week. Our custom pricing also slows procurement comparison against agencies with published rate cards.
 
-{{< score 86 >}}
+- No e-commerce or consumer brand fit, even at high budgets
+- Custom retainers mean a discovery call before any number is shared
 
-{{< agency-triptych slug="nogood" name="NoGood" >}}
-Revenue Attribution 25/30 | Channel Expertise 22/25 | Creative Testing 18/20 | Reporting Transparency 13/15 | Client Retention 8/10
+**Best Fit For:** A B2B SaaS company at $5M-$50M ARR whose VP of Marketing has to defend organic and paid spend in board meetings using pipeline contribution.
 
-Best for: Tech brands wanting rapid experimentation and growth hacking methodologies.
+**Not Built For:** A B2C brand, an eCommerce store, or a pre-seed founder who needs a freelancer rather than a multi-channel pod.
 
-NoGood positions itself as a growth squad that embeds with client teams rather than operating at arm’s length. They have built systems for Nike, TikTok, and Amazon using creative experimentation, funnel optimization, and deep analytics. Speed defines their approach to testing and iteration.
+**Operator's Note:** We placed ourselves at #2 because Directive's verified review volume is hard to argue with on raw social proof, even though our pipeline reporting model goes deeper.
 
-The agency excels at building data-driven marketing systems rather than executing one-off campaigns. SaaS, Fintech, and Healthcare brands benefit from their rigorous methodology. They focus on discovering insights that translate directly to revenue growth through structured experimentation frameworks.
+**What It Costs**
 
-#### Expertise
+PipeRocket runs on custom retainers scoped to channel mix, target pipeline, and reporting depth, with most engagements landing in the mid-five-figures monthly range as of June 2026.
 
-- Growth Marketing
-- Paid Acquisition
-- Conversion Rate Optimization
-- Lifecycle Marketing
-- Funnel Optimization
-- Analytics
+| Plan | Price | Key Inclusions |
+| --- | --- | --- |
+| Focus | Custom pricing | Single channel pod, paid or SEO |
+| Pipeline | Custom pricing | Full multi-channel pod with CRM attribution |
+| Strategic | Custom pricing | Embedded pod plus GEO/AEO and executive reporting |
 
-Best suited for: SaaS and tech companies ready to run high-velocity experiments across acquisition channels.
+**What Reviewers Flag**
 
-Not ideal for: Organizations requiring slow, methodical campaign rollouts with extensive approval processes.
+**Love:** Pipeline-first reporting
+A verified Clutch reviewer called us "an extension of our team with complete ownership of results" on [our Clutch profile](https://clutch.co/profile/piperocket-digital).
 
-Want to see how PipeRocket stacks up? Read our [PipeRocket vs NoGood](/compare/piperocket-digital-vs-nogood/) comparison.
+- Our 4.8/5 Clutch rating reflects consistent reporting cadence and SQL-grade attribution
 
-#### Review
+**Complain:** SaaS-only scope
+Buyers outside B2B SaaS have flagged that our pod model doesn't flex to e-commerce on [our site](https://piperocket.digital).
 
-> “Their analysis uncovered insights we had missed for months. They converted those findings into actual revenue growth through systematic testing.” – Growth Lead, Consumer Tech Company – Verified review
+- Custom pricing means there's no public floor for fast budget comparisons
 
-Pricing: Custom – Structured around growth sprints and experimentation velocity – Visit NoGood
+| Criteria | Detail |
+| --- | --- |
+| Free Consultation | Yes, scoped pipeline discovery call |
+| Clutch Rating | 4.8/5 |
 
-### 4. Bamboo
+### 3. Tinuiti
 
-{{< score 84 >}}
+Best for: Enterprise retail and consumer brands with serious marketplace spend
 
-{{< agency-triptych slug="bamboo" name="Bamboo" >}}
-Revenue Attribution 24/30 | Channel Expertise 21/25 | Creative Testing 18/20 | Reporting Transparency 13/15 | Client Retention 8/10
+[Tinuiti](https://tinuiti.com) is one of the largest independent performance agencies in the US, managing $4B+ in media across Amazon, paid search, paid social, CTV, and programmatic. Their Bliss Point operating system models reach saturation curves to find the spend ceiling before diminishing returns.
 
-Best for: Mobile apps and subscription services focused on user acquisition and lifetime value optimization.
+**Quick Facts**
 
-Bamboo specializes in the intersection of user acquisition and retention marketing for mobile-first businesses. Clients like Headspace, Dropbox, and Peloton rely on their systematic approach to lifecycle optimization. They reject the install-and-leave mentality that plagues many acquisition agencies.
+| | |
+| --- | --- |
+| Location | New York, NY |
+| Founded | 2004 |
+| Team Size | ~1,200 employees |
+| Notable Clients | Carter's, e.l.f. Beauty, Honest, Poppi, DSW, Olly, Sony, Seventh Generation, Ancestry |
+| Specialization | Enterprise full-funnel and marketplace media |
 
-The agency segments audiences methodically to achieve sustainable growth rather than short-term spikes. Creative testing combines with performance analytics to refine campaigns for long-term ROI. Their focus on improving user lifetime value differentiates them from agencies chasing vanity install metrics.
+**The Edge:** Bliss Point lets enterprise buyers see the saturation curve per channel, so the question moves from "spend more or less" to "spend at the optimum point." Few agencies model this publicly.
 
-#### Expertise
+- $4B+ in media under management gives platform pricing leverage
+- Amazon and marketplace depth few US agencies match
+- CTV and programmatic capability for true full-funnel programs
 
-- Paid Social
-- User Acquisition
-- Retention Marketing
-- Creative Testing
-- Analytics
-- Lifecycle Optimization
+**The Receipts:** A Clutch reviewer (VP eCommerce, clothing retailer) reported Tinuiti "immediately doubled, if not tripled" ROAS and expanded AdWords from ~8 to 800 campaigns, with site conversion rate up 22% in year one on [Tinuiti's Clutch profile](https://clutch.co/profile/tinuiti).
 
-Best suited for: Subscription-based mobile apps with established products seeking to optimize LTV to CAC ratios.
+**The Honest Caveat:** Tinuiti has only 1 verified Clutch review against a ~1,200-person team, which makes external social proof thinner than the brand suggests. Account-management variability is also common at agencies this size.
 
-Not ideal for: Pre-launch apps without baseline retention data or product-market fit validation.
+- Thin Clutch sample for a Top-50 US ad agency
+- SMB budgets won't access the senior strategists Tinuiti is known for
 
-#### Review
+**Best Fit For:** An enterprise retail, CPG, or DTC brand with $1M+ monthly media spend that needs Amazon plus paid search plus CTV coordinated.
 
-> “Their data-centric strategy improved our user lifetime value significantly through retention-focused campaigns. They think beyond the install.” – Head of Growth, Mobile App Company – Verified review
+**Not Built For:** A SaaS startup, a B2B services firm, or any buyer under $50K/mo in media spend.
 
-Pricing: Custom – Scales with user acquisition volume and retention program complexity – Visit Bamboo
+**Operator's Note:** We think Tinuiti is the right call for enterprise consumer brands but recommend reference calls beyond Clutch given the thin public review sample.
 
-### 5. Disruptive Advertising
+**What It Costs**
 
-{{< score 82 >}}
+Tinuiti starts at $10,000+ minimum project and runs $100-$149/hr per Clutch, with enterprise engagements scoped to media volume as of June 2026.
 
-{{< agency-triptych slug="disruptive-advertising" name="Disruptive Advertising" >}}
-Revenue Attribution 24/30 | Channel Expertise 21/25 | Creative Testing 17/20 | Reporting Transparency 12/15 | Client Retention 8/10
+| Plan | Price | Key Inclusions |
+| --- | --- | --- |
+| Mid-market | $10,000+ project | Single-channel or marketplace-only program |
+| Enterprise | Custom pricing | Full Bliss Point deployment across channels |
+| Strategic | Custom pricing | Embedded team plus measurement consulting |
 
-Best for: Companies needing tight PPC management combined with conversion rate optimization.
+**What Reviewers Flag**
 
-Disruptive Advertising has operated since 2012 with a singular focus on maximizing ROI through data-driven paid media and CRO. They work with Adobe, Fandango, and Guitar Center using organized testing methodologies. Transparency defines their client relationships and reporting standards.
+**Love:** Doubled ROAS in year one
+A VP of eCommerce reported ROAS "immediately doubled, if not tripled" on [Clutch](https://clutch.co/profile/tinuiti).
 
-The agency rejects vanity metrics like clicks in favor of profit-focused measurement across Google and Meta campaigns. Clients with leaky funnels benefit from their combined PPC and conversion optimization approach. Their hands-on campaign management style ensures consistent attention to performance details.
+- Bliss Point modeling gives enterprise buyers a defensible spend ceiling
 
-#### Expertise
+**Complain:** Account variability at scale
+Some buyers note senior staffing differs by account on [Clutch](https://clutch.co/profile/tinuiti).
 
-- PPC
-- Paid Social
-- Conversion Rate Optimization
-- Analytics
-- Funnel Strategy
-- Landing Page Optimization
+- Only 1 public Clutch review for an agency of this size
 
-Best suited for: eCommerce and B2B companies with conversion bottlenecks requiring integrated PPC and CRO solutions.
+| Criteria | Detail |
+| --- | --- |
+| Free Consultation | Yes, enterprise scoping call |
+| Clutch Rating | 5.0/5 (1 review) |
 
-Not ideal for: Brands seeking brand awareness campaigns without direct response objectives.
+### 4. Disruptive Advertising
 
-#### Review
+Best for: Mid-market PPC accounts that also need conversion rate optimization
 
-> “Their reporting clarity sets them apart. They focus on profits, not vanity metrics, and their hands-on management keeps campaigns optimized consistently.” – Director of Digital, Professional Services Firm – Verified review
+[Disruptive Advertising](https://disruptiveadvertising.com) runs PPC, paid social, Amazon advertising, CRO, and creative for mid-market and enterprise advertisers. With 365 verified Clutch reviews at 4.8/5, they sit on one of the deepest public review pools in performance marketing.
 
-Pricing: Custom – Based on ad spend under management and CRO scope – Visit Disruptive Advertising
+**Quick Facts**
 
-### 6. Ignite Visibility
+| | |
+| --- | --- |
+| Location | Pleasant Grove, UT |
+| Founded | 2012 |
+| Team Size | 160+ employees |
+| Notable Clients | Adobe, Guitar Center, KPMG, Scotts Miracle Gro, Litter Robot, First Lite, Instructure |
+| Specialization | PPC, paid social, and CRO |
 
-{{< score 80 >}}
+**The Edge:** Pairing PPC with CRO under one roof means leaky landing pages get fixed instead of blamed on the media buy. Google Premier and Meta Business Partner status gives them platform-level support.
 
-{{< agency-triptych slug="ignite-visibility" name="Ignite Visibility" >}}
-Revenue Attribution 23/30 | Channel Expertise 20/25 | Creative Testing 17/20 | Reporting Transparency 12/15 | Client Retention 8/10
+- 365 Clutch reviews give buyers an unusually deep public sample
+- Combined PPC plus CRO closes the "good clicks, bad conversion" loop
+- Mid-market sweet spot at $5K-$50K/mo retainers
 
-Best for: Organizations requiring cohesive multi-channel campaign management with unified attribution.
+**The Receipts:** Reviewers consistently praise the "communicative" approach and "results-oriented" hands-on management with strong ROI focus on [Disruptive's Clutch profile](https://clutch.co/profile/disruptive-advertising).
 
-Ignite Visibility brings a structured methodology to managing campaigns across paid search, social, and CRO simultaneously. They serve clients like Tony Robbins and Sharp Healthcare by blending channels into cohesive growth strategies. Detailed analytics and attribution models connect every marketing effort to ROI.
+**The Honest Caveat:** A documented negative review cites a six-figure campaign that "did not deliver" with disputed termination fees. Scale-management challenges on larger budgets have surfaced in public reviews.
 
-Before scaling paid search spend, ensuring [landing pages](/blogs/optimize-saas-landing-pages-for-seo/) are conversion-optimized is something Ignite builds into their process.
+- Negative outlier reviews exist on the public Clutch profile
+- Large budgets may need senior reinforcement, ask in discovery
 
-The agency excels at coordinating complex multi-channel programs for SaaS, Finance, and Healthcare brands. Their reliable execution and strong reporting standards make them suitable for companies seeking scalable performance marketing. Cross-channel integration remains their primary differentiator.
+**Best Fit For:** A mid-market eCommerce or B2B advertiser spending $20K-$100K/mo on paid media with a known landing-page conversion gap.
 
-#### Expertise
+**Not Built For:** A pure brand-awareness buyer, a sub-$5K/mo budget, or an enterprise needing a custom attribution build.
 
-- Paid Media
-- Email Marketing
-- Conversion Rate Optimization
-- Analytics
-- Attribution Modeling
-- Cross-Channel Strategy
+**Operator's Note:** We rate Disruptive highly for mid-market PPC plus CRO buyers and treat the negative outlier reviews as a reminder to scope termination terms before signing.
 
-Best suited for: Mid-size companies running campaigns across multiple channels needing unified measurement.
+**What It Costs**
 
-Not ideal for: Startups focused on single-channel growth before expanding their marketing mix.
+Disruptive has a $5,000+/mo minimum, $100-$149/hr rate per Clutch, and most projects landing in the $10K-$49K range as of June 2026.
 
-#### Review
+| Plan | Price | Key Inclusions |
+| --- | --- | --- |
+| Core | $5,000/mo | Single-channel PPC or paid social |
+| Growth | $10,000-$25,000/mo | PPC plus CRO plus creative |
+| Enterprise | Custom pricing | Multi-channel plus analytics build |
 
-> “Their execution reliability and reporting standards gave us confidence in our multi-channel investment. Attribution finally made sense across our programs.” – CMO, Healthcare Organization – Verified review
+**What Reviewers Flag**
 
-Pricing: Custom – Structured around channel count and integration complexity – Visit Ignite Visibility
+**Love:** Hands-on management
+Reviewers cite "communicative" and "results-oriented" partnership across 365 entries on [Clutch](https://clutch.co/profile/disruptive-advertising).
 
-### 7. Tinuiti
+- Deep review pool makes pattern recognition before signing reliable
 
-{{< score 78 >}}
+**Complain:** Termination fee disputes
+At least one published review cites a six-figure campaign that "did not deliver" with disputed exit terms on [Clutch](https://clutch.co/profile/disruptive-advertising).
 
-{{< agency-triptych slug="tinuiti" name="Tinuiti" >}}
-Revenue Attribution 22/30 | Channel Expertise 20/25 | Creative Testing 16/20 | Reporting Transparency 12/15 | Client Retention 8/10
+- Scope termination terms carefully on annual commitments
 
-Best for: Enterprise retail and eCommerce brands requiring Amazon and marketplace advertising expertise.
+| Criteria | Detail |
+| --- | --- |
+| Free Consultation | Yes, audit-based discovery call |
+| Clutch Rating | 4.8/5 (365 reviews) |
 
-Tinuiti operates at enterprise scale with clients like Etsy, DoorDash, and e.l.f. Cosmetics since their founding in 2004. Their proprietary Mobius platform provides advanced analytics and unified attribution across paid, owned, and earned media. Complex campaign coordination defines their service model.
+### 5. Ignite Visibility
 
-Tinuiti’s enterprise scale makes them a natural fit for brands also investing in [B2B content marketing](/blogs/b2b-content-marketing-guide/) to build pipeline across longer buying cycles.
+Best for: Mid-market brands coordinating SEO, PPC, paid social, and email under one roof
 
-The agency leverages automation and analytical depth to manage large-scale programs across multiple teams and platforms. Retail and eCommerce brands with significant marketplace presence benefit most from their specialized capabilities. Amazon advertising expertise remains a core strength.
+[Ignite Visibility](https://ignitevisibility.com) is a multi-channel performance and digital agency with SEO, PPC, paid social, email, CRO, and attribution modeling on a single team. They're a Google Premier Partner (Top 1%) and a 6x Inc. 5000 honoree.
 
-#### Expertise
+**Quick Facts**
 
-- Paid Media
-- Amazon Advertising
-- Analytics
-- Lifecycle Marketing
-- Conversion Rate Optimization
-- Unified Attribution
+| | |
+| --- | --- |
+| Location | San Diego, CA |
+| Founded | 2013 |
+| Team Size | 340+ "Igniters" |
+| Notable Clients | Experian, Inspire Brands, Driven Brands, Dun and Bradstreet, Wawanesa, Jazzercise, SelectQuote |
+| Specialization | Multi-channel performance marketing |
 
-Best suited for: Enterprise eCommerce brands with significant Amazon presence requiring coordinated performance management.
+**The Edge:** True multi-channel coordination with a single attribution model removes the "agency stacking" tax of running separate vendors for SEO, paid, and email. 173 Clutch reviews back the consistency claim.
 
-Not ideal for: SMBs without the budget or complexity to justify enterprise-level platform investments.
+- Google Premier Partner (Top 1%) signals platform credibility
+- 340-person team gives capacity for complex multi-brand programs
+- Attribution modeling included rather than billed as a separate consulting line
 
-#### Review
+**The Receipts:** A SelectQuote executive said "their communication style is awesome" on [Ignite's Clutch profile](https://clutch.co/profile/ignite-visibility), which holds 173 reviews at 4.8/5.
 
-> “Their analytical depth and automation capabilities helped us coordinate performance efforts across multiple teams and platforms effectively.” – VP of Digital Commerce, Retail Brand – Verified review
+**The Honest Caveat:** Breadth-over-depth means specialist mastery in any one channel can lag a focused agency. The $10K minimum project floor also pushes startups under ~$10K/mo out of consideration.
 
-Pricing: Custom – Enterprise engagements based on scope and platform requirements – Visit Tinuiti
+- Single-channel buyers may find depth thinner than a specialist
+- Mid-market and up only, not for sub-$10K/mo budgets
 
-### 8. Directive Consulting
+**Best Fit For:** A mid-market company at $25M-$250M revenue running campaigns across three or more channels and needing unified attribution.
 
-{{< score 76 >}}
+**Not Built For:** A single-channel buyer (PPC-only or SEO-only), or a startup under $10K/mo in retainer capacity.
 
-{{< agency-triptych slug="disruptive-advertising" name="Directive Consulting" >}}
-Revenue Attribution 22/30 | Channel Expertise 19/25 | Creative Testing 16/20 | Reporting Transparency 11/15 | Client Retention 8/10
+**Operator's Note:** We recommend Ignite when buyers genuinely need three or more channels coordinated and would otherwise be juggling separate vendors with conflicting reporting.
 
-Best for: B2B SaaS companies seeking performance campaigns directly tied to pipeline and revenue metrics.
+**What It Costs**
 
-Directive Consulting focuses exclusively on B2B SaaS, connecting performance marketing directly to pipeline and revenue outcomes. Clients like ZoomInfo, Canva, and Adobe rely on their model combining creative, paid acquisition, and revenue operations. They speak the language of qualified leads and closed deals.
+Ignite Visibility starts at $10,000+ minimum project, $3,000-$10,000/mo on packages, and $100-$149/hr per Clutch as of June 2026.
 
-Directive also runs strong [Google Ads for SaaS](/blogs/how-to-run-google-ads-for-saas/) programs, making them a rare option that covers both strategy and execution.
+| Plan | Price | Key Inclusions |
+| --- | --- | --- |
+| Starter | $3,000/mo | Single-channel package |
+| Multi-channel | $5,000-$10,000/mo | Two or more channels with shared attribution |
+| Enterprise | Custom pricing | Full multi-channel program plus modeling |
 
-The agency brings analytical expertise and organized campaign structures to drive consistent results. B2B SaaS companies benefit from their understanding of complex sales cycles and multi-touch attribution requirements. Revenue alignment defines their strategic approach.
+**What Reviewers Flag**
 
-#### Expertise
+**Love:** Communication discipline
+A SelectQuote executive said "their communication style is awesome" on [Clutch](https://clutch.co/profile/ignite-visibility).
 
-- Paid Media
-- Conversion Rate Optimization
-- Revenue Operations
-- Content Strategy
-- Pipeline Generation
-- B2B Analytics
+- 173 reviews at 4.8/5 give buyers a deep sample to read before signing
 
-Best suited for: B2B SaaS companies with sales teams needing marketing qualified leads tied to revenue outcomes.
+**Complain:** Specialist depth varies
+Buyers seeking single-channel mastery sometimes flag breadth-over-depth on [Clutch](https://clutch.co/profile/ignite-visibility).
 
-Not ideal for: B2C brands or companies without CRM infrastructure to track lead-to-revenue attribution.
+- Specialist agencies may outperform on a single-channel mandate
 
-Want to see how PipeRocket stacks up? Read our [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/) comparison.
+| Criteria | Detail |
+| --- | --- |
+| Free Consultation | Yes, audit-based call |
+| Clutch Rating | 4.8/5 (173 reviews) |
 
-#### Review
+### 6. NoGood
 
-> “Their analytical expertise and organized campaign structure delivered consistent qualified leads. They understand B2B SaaS sales cycles.” – Director of [Demand Generation](/blogs/b2b-demand-generation-guide/), Enterprise Software Company – Verified review
+Best for: Premium-budget tech and consumer brands running AI-native growth experiments
 
-Pricing: Custom – Based on pipeline targets and channel mix – Visit Directive Consulting
+[NoGood](https://nogood.io) is a New York growth agency built around high-velocity experimentation across paid acquisition, CRO, AEO/SEO, and performance branding, with an AI-native workflow positioning. Their published $20,000+/mo average retainer floor is one of the few hard pricing data points in the category.
 
-### 9. Thrive Digital
+**Quick Facts**
 
-{{< score 74 >}}
+| | |
+| --- | --- |
+| Location | New York City (Soho); offices in Miami and Dubai |
+| Founded | 2017 |
+| Team Size | 10-49 employees per Clutch |
+| Notable Clients | Nike, TikTok, MongoDB, Intuit, Oura, Amazon, Anthropic, AWS, L'Oréal, Johnson & Johnson |
+| Specialization | AI-native growth marketing |
 
-{{< agency-triptych slug="thrive-digital" name="Thrive Digital" >}}
-Revenue Attribution 21/30 | Channel Expertise 19/25 | Creative Testing 15/20 | Reporting Transparency 11/15 | Client Retention 8/10
+**The Edge:** Public $20K/mo retainer floor and an AI-native operating model give buyers a clear price-quality signal upfront. Client roster (Anthropic, Amazon, Nike) signals comfort with high-pressure briefs.
 
-Best for: Digital-first brands prioritizing data accuracy and sustainable growth over rapid scaling.
+- Published pricing floor avoids opaque RFP back-and-forth
+- AI-native workflow positioning ahead of most generalist agencies
+- High-velocity testing cadence built into engagement structure
 
-Thrive Digital brings analytical rigor to performance marketing for clients like Slack, Shopify, and Asana. They concentrate on ad spend efficiency through data modeling and creative testing. Sustainable growth takes priority over short-term wins in their strategic approach.
+**The Receipts:** A VP of Marketing at Invisibly said "their team is full of experts, and they are consistently learning" on [NoGood's Clutch profile](https://clutch.co/profile/nogood) in April 2024.
 
-The agency serves scaling digital-first brands requiring detailed performance tracking and platform flexibility. Reporting accuracy defines their client relationships. Long-term optimization and data integrity make them suitable for companies where measurement precision matters most.
+**The Honest Caveat:** Only 1 verified Clutch review backs the 5.0/5 rating, which is a thin public sample for an agency of this profile. The $20K floor also excludes most early-stage budgets, and the testing-heavy model doesn't suit slow-approval orgs.
 
-#### Expertise
+- Single Clutch entry makes external validation thin
+- $20K+/mo floor and rapid testing model unfit for legal or pharma cycles
 
-- Paid Media
-- Analytics
-- Conversion Optimization
-- Growth Strategy
-- Data Modeling
-- Creative Testing
+**Best Fit For:** A Series B+ SaaS or consumer tech brand with $20K+/mo retainer capacity and a willingness to ship test variants weekly.
 
-Best suited for: High-growth startups requiring precise measurement and sustainable scaling strategies.
+**Not Built For:** A pre-seed founder, a legacy enterprise with quarterly review cycles, or any buyer needing a sub-$15K/mo engagement.
 
-Not ideal for: Companies seeking aggressive growth tactics without concern for long-term efficiency metrics.
+**Operator's Note:** We'd consider NoGood for AI-positioned briefs but would push hard on reference calls given the single Clutch review against a high-profile client list.
 
-#### Review
+**What It Costs**
 
-> “Their reporting accuracy and platform flexibility exceeded expectations. They delivered reliable long-term optimization that we could trust.” – Head of Marketing, B2B Technology Company – Verified review
+NoGood publishes that the average retainer is above $20,000/month with engagements scoped around growth sprints as of June 2026.
 
-Pricing: Custom – Structured around growth stage and measurement requirements – Visit Thrive Digital
+| Plan | Price | Key Inclusions |
+| --- | --- | --- |
+| Sprint | $20,000/mo+ | Focused growth pod, single product line |
+| Scale | Custom pricing | Multi-channel growth and CRO program |
+| Strategic | Custom pricing | Embedded AI-native pod, custom tooling |
 
-## Frequently Asked Questions
+**What Reviewers Flag**
 
-### What should I look for when hiring a performance marketing agency?
+**Love:** Expert team
+A VP of Marketing at Invisibly cited expertise and learning culture on [Clutch](https://clutch.co/profile/nogood).
 
-Focus on agencies that tie their work directly to revenue outcomes rather than vanity metrics like impressions or clicks. Ask how they attribute results to pipeline and closed deals. Request case studies showing specific ROI improvements for clients in your industry. Transparency in reporting and clear communication about methodology matter more than flashy client logos.
+- Published $20K/mo floor sets a clear price-quality expectation upfront
 
-### How much do performance marketing agencies typically charge?
+**Complain:** Thin Clutch sample
+With only 1 review on file, external validation depends heavily on private references on [Clutch](https://clutch.co/profile/nogood).
 
-Performance marketing agency pricing varies significantly based on scope and specialization. Entry-level engagements start around $5,000 per month for focused channel management. Mid-market agencies typically charge $10,000 to $25,000 monthly for multi-channel programs. Enterprise engagements with complex attribution requirements often exceed $50,000 per month. Most agencies price based on ad spend under management or retainer plus percentage models.
+- Pace of testing won't fit slow-approval enterprise workflows
+
+| Criteria | Detail |
+| --- | --- |
+| Free Consultation | Yes, growth-audit call |
+| Clutch Rating | 5.0/5 (1 review) |
+
+### 7. The Social Shepherd
+
+Best for: Consumer and eCommerce brands needing creative-led paid social
+
+[The Social Shepherd](https://thesocialshepherd.com) is a UK-headquartered social-first agency running paid social, influencer marketing, TikTok Shop, and creative production for consumer and eCommerce brands. They claim 92% of brands grow within 90 days of starting, which is an agency-published stat, not a third-party measurement.
+
+**Quick Facts**
+
+| | |
+| --- | --- |
+| Location | Bath, England (offices in London, New York, Miami) |
+| Founded | 2017 (agency self-reports; Clutch lists 2018) |
+| Team Size | 50-249 employees per Clutch |
+| Notable Clients | UNIQLO, ASICS, Arla, Lavazza, Bio-Oil |
+| Specialization | Social-first creative and paid social |
+
+**The Edge:** In-house creative plus paid social on one team avoids the typical "media agency briefs the creative agency" handoff. TikTok Shop and influencer integration is fluent rather than bolted on.
+
+- Consumer and eCommerce client roster with named brands (UNIQLO, ASICS)
+- US offices in NYC and Miami support transatlantic delivery
+- Social-first DNA, not a generalist agency adding paid social as a service line
+
+**The Receipts:** Agency-published stats include "92% of brands grow within 90 days of working with us" on [thesocialshepherd.com](https://thesocialshepherd.com). No verified third-party reviewer quotes are available.
+
+**The Honest Caveat:** Their Clutch profile exists but has zero verified reviews, which makes external social proof thin. Pricing is not public, and the consumer/eCommerce DNA limits B2B fit.
+
+- Zero Clutch reviews means no external review base to read before signing
+- B2B SaaS or technical buyers will find the methodology consumer-skewed
+
+**Best Fit For:** A consumer or eCommerce brand at $5M-$100M revenue investing in paid social and influencer programs with creative production needs.
+
+**Not Built For:** A B2B SaaS company with a 6-month sales cycle, or any buyer needing multi-touch B2B attribution.
+
+**Operator's Note:** We'd shortlist The Social Shepherd for consumer creative-led briefs and rely on private references since the public Clutch base is empty.
+
+**What It Costs**
+
+The Social Shepherd does not publish pricing, with Clutch listing a $1,000+ minimum project size as of June 2026.
+
+| Plan | Price | Key Inclusions |
+| --- | --- | --- |
+| Project | Custom pricing | Defined-scope creative or campaign engagement |
+| Retainer | Custom pricing | Ongoing paid social plus creative production |
+| Enterprise | Custom pricing | Multi-region paid plus influencer program |
+
+**What Reviewers Flag**
+
+**Love:** Creative depth
+The agency self-reports "92% of brands grow within 90 days" on [thesocialshepherd.com](https://thesocialshepherd.com).
+
+- In-house creative removes briefing drag between media and creative shops
+
+**Complain:** Empty Clutch profile
+External validation is thin since the [Clutch profile](https://clutch.co/profile/social-shepherd) has zero reviews.
+
+- Pricing opacity slows budget comparisons during procurement
+
+| Criteria | Detail |
+| --- | --- |
+| Free Consultation | Yes, creative discovery call |
+| Clutch Rating | Verified on Clutch (no reviews on file) |
+
+### 8. Thrive Digital
+
+Best for: Digital-first brands prioritising measurement precision over speed
+
+[Thrive Digital](https://www.thrivedigital.com) is a Canadian performance media agency built around data accuracy, data-driven creative, and measurement engineering, with $5B+ in ad spend managed over a decade. Their client list (Asana, Uber, MasterClass, Coinbase, Notion) signals comfort with high-volume digital-first programs.
+
+**Quick Facts**
+
+| | |
+| --- | --- |
+| Location | Vancouver, BC, Canada (Toronto presence) |
+| Founded | 2011 |
+| Team Size | Not publicly disclosed |
+| Notable Clients | Asana, Uber, MasterClass, Coinbase, Change.org, Notion, Arc'teryx, ActiveCampaign |
+| Specialization | Performance media and measurement |
+
+**The Edge:** Measurement engineering as a first-class discipline (not a reporting afterthought) suits brands where the question is whether spend even gets credited correctly, not just whether ROAS is up.
+
+- $5B+ in ad spend managed gives platform pattern recognition
+- Digital-first client roster (Asana, Coinbase, Notion) signals fit
+- Data and measurement as a named practice, not a sidecar
+
+**The Receipts:** Phu Bui, Director of Trial Optimization at ActiveCampaign, said "Thrive has restored my faith in agencies" on [thrivedigital.com](https://www.thrivedigital.com).
+
+**The Honest Caveat:** No verified Clutch profile exists for this Thrive Digital (the Clutch slug returns an unrelated UK web shop), so external review validation has to come from agency-published testimonials and private references. Pricing is fully opaque, and a Canadian HQ adds cross-border procurement friction for US enterprise buyers.
+
+- No verified Clutch profile to corroborate testimonials publicly
+- Canadian-HQ structure can complicate US enterprise procurement
+
+**Best Fit For:** A Series B+ digital-first SaaS or consumer brand where measurement accuracy is a CFO-level concern, not just a marketing-team concern.
+
+**Not Built For:** A buyer wanting Clutch-verified social proof before signing, or a US-only enterprise with strict domestic-vendor procurement rules.
+
+**Operator's Note:** We respect Thrive's measurement chops but flag that external validation requires private references given no verified Clutch presence.
+
+**What It Costs**
+
+Thrive Digital does not publish pricing, with engagements scoped to growth stage and measurement requirements as of June 2026.
+
+| Plan | Price | Key Inclusions |
+| --- | --- | --- |
+| Project | Custom pricing | Defined-scope media or measurement project |
+| Retainer | Custom pricing | Ongoing performance media plus measurement |
+| Strategic | Custom pricing | Embedded measurement engineering practice |
+
+**What Reviewers Flag**
+
+**Love:** Restored faith in agencies
+ActiveCampaign's Director of Trial Optimization said "Thrive has restored my faith in agencies" on [thrivedigital.com](https://www.thrivedigital.com).
+
+- $5B+ in managed ad spend backs the measurement-first claim publicly
+
+**Complain:** No verified Clutch profile
+External validation has to come from agency-curated testimonials on [thrivedigital.com](https://www.thrivedigital.com).
+
+- Fully opaque pricing makes budget comparison slower
+
+| Criteria | Detail |
+| --- | --- |
+| Free Consultation | Yes, measurement discovery call |
+| Clutch Rating | No verified Clutch profile |
+
+### 9. Bamboo
+
+Best for: In-house paid teams that need senior advisory, not a full-service agency
+
+[Bamboo](https://www.growwithbamboo.com) publicly states it "is no longer offering full-service agency support" and now operates as an advisory practice. We keep it on this list because the named-client history (Adobe, Dropbox, Peloton, Uber, DoorDash, Webflow, The New York Times) is substantial and in-house teams still ask about them, but the engagement model is advisory only as of June 2026.
+
+**Quick Facts**
+
+| | |
+| --- | --- |
+| Location | San Francisco, CA |
+| Founded | Not publicly disclosed |
+| Team Size | Not publicly disclosed |
+| Notable Clients | Adobe, Dropbox, Peloton, Headspace, Uber, DoorDash, Webflow, AllTrails, Turo, The New York Times, Filson |
+| Specialization | Paid social and paid media advisory |
+
+**The Edge:** Senior advisory access from a team with ~$100M in managed spend history, including data-science work on causal-impact measurement. Better fit as a strategic sounding board than as a media-buying vendor.
+
+- Causal-impact measurement DNA few agencies match
+- Named-client roster signals real enterprise reps
+- Advisory model suits mature in-house paid teams
+
+**The Receipts:** A client testimonial on Bamboo's site calls them "a trusted partner... showcasing strong experience in running paid search and paid social campaigns for us. The team has been very agile in experimenting with new testing opportunities" on [growwithbamboo.com](https://www.growwithbamboo.com).
+
+**The Honest Caveat:** Bamboo is currently advisory-only, not accepting full-service engagements. There is also no verifiable Clutch profile for growwithbamboo.com (the typical slugs resolve to a different company), so external review validation is unavailable.
+
+- Cannot be hired as a full-service paid media agency in 2026
+- No verifiable public Clutch profile to corroborate testimonials
+
+**Best Fit For:** A mature in-house paid team at a $100M+ revenue brand seeking senior advisory on testing and measurement design.
+
+**Not Built For:** Any buyer needing day-to-day campaign execution, full-service media buying, or a packaged agency retainer.
+
+**Operator's Note:** We've moved Bamboo to the bottom of the list because their advisory-only model materially changes whether they belong in a "agencies you can hire to run media" listicle.
+
+**What It Costs**
+
+Bamboo's historical model used retainers plus a percentage-of-ad-spend structure, but current advisory engagements are scoped privately with no public floor as of June 2026.
+
+| Plan | Price | Key Inclusions |
+| --- | --- | --- |
+| Advisory | Custom pricing | Strategic and measurement advisory only |
+| Project | Custom pricing | Defined-scope consulting engagement |
+| Embedded | Custom pricing | Senior advisor embedded with in-house team |
+
+**What Reviewers Flag**
+
+**Love:** Strategic experimentation
+A client testimonial calls Bamboo "very agile in experimenting with new testing opportunities" on [growwithbamboo.com](https://www.growwithbamboo.com).
+
+- Causal-impact measurement work sets the advisory apart
+
+**Complain:** Advisory-only model
+Bamboo's own site states they "no longer offer full-service agency support" on [growwithbamboo.com](https://www.growwithbamboo.com).
+
+- No public Clutch profile to verify external buyer experience
+
+| Criteria | Detail |
+| --- | --- |
+| Free Consultation | Yes, advisory scoping call |
+| Clutch Rating | No verified Clutch profile |
+
+## FAQs
+
+### What does a performance marketing agency actually do?
+
+It runs paid acquisition (search, social, programmatic), CRO, and attribution where spend and fees tie directly to leads, signups, or revenue.
+
+### How much do performance marketing agencies charge in 2026?
+
+Published floors run $3,000-$20,000/mo. Most mid-market engagements land between $10,000 and $50,000/mo depending on channel mix.
 
 ### What is the difference between performance marketing and digital marketing?
 
-Performance marketing specifically ties payment and measurement to concrete outcomes like leads, conversions, or revenue. Digital marketing encompasses broader activities including brand awareness, [content marketing](/glossary/what-is-content-marketing/), and social media presence that may not have direct attribution. Performance marketing agencies focus on channels with clear ROI tracking like paid search, paid social, and programmatic advertising. The distinction matters when selecting partners aligned with your growth objectives.
+Performance marketing ties spend to outcomes; digital marketing covers brand and [content](/content-marketing-agency/) work without attribution.
 
-### How long does it take to see results from a performance marketing agency?
+### How long until a performance marketing agency shows ROI?
 
-Initial performance data typically emerges within 30 to 60 days as campaigns gather sufficient volume for optimization. Meaningful ROI improvements generally require 90 to 120 days of systematic testing and refinement. Complex B2B sales cycles with longer consideration periods may need six months before revenue attribution becomes clear. Agencies promising immediate results without learning periods should raise concerns about their methodology.
+Initial signal lands in 30-60 days; meaningful ROI usually takes 90-120 days. Long B2B sales cycles can push true revenue attribution to six months.
 
-### Should I hire a specialized or full-service performance marketing agency?
+### Should I hire a specialist or full-service performance marketing agency?
 
-Specialized agencies excel when you have a clear channel focus or industry-specific requirements. B2B SaaS companies benefit from agencies understanding complex sales cycles and revenue attribution. Full-service agencies work better for brands needing coordinated multi-channel programs with unified measurement. Consider your internal capabilities and whether you need strategic guidance or execution support. The right choice depends on your growth stage and marketing maturity.
+Specialists win with one dominant channel or vertical funnel. Full-service wins when three or more channels need shared attribution.
+
+### How do I verify a performance marketing agency's claims?
+
+Cross-check Clutch and G2, match case studies to real client URLs, ask for references at your spend tier, and search Reddit for unfiltered feedback.
+
+### What disqualifies a performance marketing agency?
+
+No public review base, opaque pricing with vague case studies, unverifiable Clutch slugs, or refusal to share attribution methodology in discovery.
