@@ -43,8 +43,9 @@
 # Hugo fingerprints CSS+JS in the filename (e.g. main.min.<hash>.css), so the
 # URL changes when content changes — safe to cache for a year as immutable.
 # Fonts live at stable URLs and rarely change — same treatment.
-# Images are kept on a short cache during the migration cutover because we may
-# still be replacing assets at stable paths; bump this once content settles.
+# Images now also get a 1-year cache; deployable replacements are uncommon at
+# this point and we can always bust by renaming a file. Drops ~600 KB of
+# repeat-visit transfer per Lighthouse's "Use efficient cache lifetimes" audit.
 
 [[headers]]
   for = "/css/*"
@@ -64,4 +65,4 @@
 [[headers]]
   for = "/images/*"
   [headers.values]
-    Cache-Control = "public, max-age=86400"
+    Cache-Control = "public, max-age=31536000"
