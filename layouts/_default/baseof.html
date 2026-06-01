@@ -15,6 +15,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="preload" as="font" type="font/woff2" href="/fonts/IvyPresto-Headline.woff2" crossorigin>
 
+  {{/* LCP image preload — homepage only. Different image per viewport. */}}
+  {{ if .IsHome }}
+  <link rel="preload" as="image" href="/images/hero-mobile.webp" type="image/webp" fetchpriority="high" media="(max-width: 767px)">
+  <link rel="preload" as="image" href="/images/hero/man.webp" type="image/webp" fetchpriority="high" media="(min-width: 768px)">
+  {{ end }}
+
   {{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
