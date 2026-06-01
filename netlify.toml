@@ -1,6 +1,8 @@
 [build]
   publish = "public"
-  command = "hugo --baseURL $URL"
+  # Hugo first, then PurgeCSS rewrites the fingerprinted main.min.<hash>.css
+  # in place to strip selectors no rendered page actually uses.
+  command = "hugo --baseURL $URL && npx purgecss --config ./purgecss.config.js"
 
 [build.environment]
   HUGO_VERSION = "0.161.1"
@@ -25,17 +27,17 @@
 # navigation should always go to piperocketdigital.netlify.app, not the
 # branch-aliased main--piperocketdigital.netlify.app URL.
 [context.production]
-  command = "hugo --baseURL $URL"
+  command = "hugo --baseURL $URL && npx purgecss --config ./purgecss.config.js"
 
 # Deploy previews (PRs) — use the unique preview URL so internal links
 # stay within the preview when reviewing changes.
 [context.deploy-preview]
-  command = "hugo --baseURL $DEPLOY_PRIME_URL"
+  command = "hugo --baseURL $DEPLOY_PRIME_URL && npx purgecss --config ./purgecss.config.js"
 
 # Branch deploys (any non-main branch with branch deploys enabled) —
 # use the unique branch URL.
 [context.branch-deploy]
-  command = "hugo --baseURL $DEPLOY_PRIME_URL"
+  command = "hugo --baseURL $DEPLOY_PRIME_URL && npx purgecss --config ./purgecss.config.js"
 
 # ─── Cache-Control headers ─────────────────────────────────────────────
 # Hugo fingerprints CSS+JS in the filename (e.g. main.min.<hash>.css), so the

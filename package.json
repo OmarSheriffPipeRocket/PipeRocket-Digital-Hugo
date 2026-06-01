@@ -1,0 +1,11 @@
+{
+  "name": "piperocket-site",
+  "private": true,
+  "description": "PipeRocket Digital — Hugo site build tooling (PurgeCSS post-processing).",
+  "scripts": {
+    "purgecss": "purgecss --config ./purgecss.config.js"
+  },
+  "devDependencies": {
+    "purgecss": "^7.0.2"
+  }
+}
