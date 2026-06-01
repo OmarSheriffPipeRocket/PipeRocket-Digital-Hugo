@@ -2488,6 +2488,29 @@ a.pr-hero__cta:hover,
 .pr-cta-final--seo {
   padding-top: 140px;
 }
+@media (min-width: 768px) {
+  .pr-cta-final--about {
+    margin-top: 60px;
+    background-image: image-set(
+      url("/images/about-cta-bg.webp") type("image/webp"),
+      url("/images/about-cta-bg.png") type("image/png")
+    );
+    background-image: -webkit-image-set(
+      url("/images/about-cta-bg.webp") type("image/webp"),
+      url("/images/about-cta-bg.png") type("image/png")
+    );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .pr-cta-final--about > .pr-container {
+    transform: translateY(-80px);
+  }
+  .pr-cta-final--about .pr-cta-final__mark,
+  .pr-cta-final--about .pr-cta-final__phone {
+    display: none;
+  }
+}
 .pr-cta-final h2 {
   max-width: 740px;
   margin: 0 auto var(--pr-s-6);
@@ -11894,6 +11917,18 @@ body.pr-modal-open { overflow: hidden; }
 .pr-about__hero {
   background: var(--pr-ink);
   padding: 0;
+  position: relative;
+}
+.pr-about__hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 160px;
+  background: linear-gradient(to bottom, rgba(40,40,40,0) 0%, #282828 100%);
+  pointer-events: none;
+  z-index: 2;
 }
 .pr-about__hero-stage {
   position: relative;
@@ -11903,6 +11938,15 @@ body.pr-modal-open { overflow: hidden; }
   display: block;
   width: 100%;
   height: auto;
+}
+.pr-about__hero-vector {
+  position: absolute;
+  right: 0;
+  bottom: -150px;
+  width: 130px;
+  height: auto;
+  pointer-events: none;
+  z-index: 3;
 }
 .pr-about__hero-screen {
   position: absolute;
@@ -11974,13 +12018,185 @@ body.pr-modal-open { overflow: hidden; }
 }
 
 /* DARK BAND — same look as .pr-compare--seo, half height, no rocket */
-.pr-about__band {
+.pr-about__below-hero {
   background: #282828;
+  padding: 80px 24px 30px;
+  min-height: 1200px;
+  position: relative;
+  overflow: hidden;
+}
+.pr-about__below-hero-inner {
+  max-width: var(--pr-container);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.pr-about__letter-rocket {
+  position: absolute;
+  top: 420px;
+  right: 40px;
+  width: 220px;
+  height: auto;
+  max-width: none;
+  pointer-events: none;
+  will-change: transform;
+  z-index: 0;
+  transform: translate(0, 0);
+  transition: transform 1.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.pr-about__letter-rocket.is-visible {
+  transform: translate(70px, -70px);
+}
+.pr-about__letter-side-vector {
+  position: absolute;
+  top: 780px;
+  left: 0;
+  width: 6%;
+  height: auto;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.pr-about__below-hero-title {
+  color: var(--pr-cream);
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  margin: 0 0 48px;
+}
+.pr-about__letter {
+  background: #F6F6F1;
+  width: min(740px, 92%);
+  height: 900px;
+  flex: none;
+  border-radius: 5px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.35);
+  position: relative;
+}
+.pr-about__letter-body {
+  padding: 72px 72px 0;
+  color: #1a1a1a;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+.pr-about__letter-body p {
+  margin: 0 0 18px;
+}
+.pr-about__letter-sig {
+  margin-top: 28px;
+}
+.pr-about__letter-sig-kicker {
+  color: #0BA6E2;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+  margin: 0 0 2px;
+  line-height: 1.2 !important;
+}
+.pr-about__letter-sig-name {
+  font-family: var(--pr-ivy-display);
+  font-weight: 600;
+  color: #000;
+  font-size: 30px !important;
+  margin: 0 0 0;
+  line-height: 1.05 !important;
+}
+.pr-about__letter-sig-role {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin: 0;
+  line-height: 1.2 !important;
+}
+.pr-about__letter-sig p.pr-about__letter-sig-name { font-size: 30px !important; }
+.pr-about__letter-sig p.pr-about__letter-sig-kicker { font-size: 14px !important; }
+.pr-about__letter-sig-line { display: inline; }
+
+.pr-letter-ch {
+  opacity: 0;
+}
+.pr-about__letter.is-typing .pr-letter-ch {
+  animation: pr-letter-type 0.01s linear forwards;
+}
+@keyframes pr-letter-type {
+  to { opacity: 1; }
+}
+.pr-about__letter-photo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: auto;
+  display: block;
+  border-bottom-right-radius: 5px;
+}
+.pr-about__below-hero-title .pr-italic {
+  font-style: normal;
+}
+.pr-about__below-hero-title .pr-italic::after {
+  content: "";
+  position: absolute;
+  left: 21px;
+  right: 0;
+  bottom: -4px;
+  height: 0.1em;
+  background: url("/images/hero-underline.png") left center / 100% 100% no-repeat;
+  width: 0;
+  animation: hero-underline-draw 0.7s cubic-bezier(0.4, 0, 0.2, 1) 1s forwards;
+}
+
+/* Tier B (481–767px): structural overrides only. Font sizes inherit from the
+   site-wide global Tier B rules (p:16/1.5, h2:38/1.15). */
+@media (min-width: 481px) and (max-width: 767px) {
+  .pr-about__hero-vector { width: 90px; bottom: -70px; }
+  .pr-about__below-hero { padding: 64px 20px 68px; min-height: 0; }
+  .pr-about__below-hero-title { margin: 0 0 32px; }
+  .pr-about__letter { width: 100%; height: auto; min-height: 820px; }
+  .pr-about__letter-body { padding: 40px 24px 0; }
+  .pr-about__letter-sig p.pr-about__letter-sig-name { font-size: 26px !important; line-height: 1.2 !important; }
+  .pr-about__letter-sig p.pr-about__letter-sig-kicker { font-size: 13px !important; }
+  .pr-about__letter-photo { width: 50%; }
+  .pr-about__letter-rocket,
+  .pr-about__letter-side-vector { display: none; }
+}
+
+/* Tier C (≤480px): structural overrides only. Font sizes inherit from the
+   site-wide global Tier C rules (p:15/1.5, h2:28/1.15). */
+@media (max-width: 480px) {
+  .pr-about__hero-vector { width: 60px; bottom: -40px; }
+  .pr-about__below-hero { padding: 40px 12px 60px; min-height: 0; }
+  .pr-about__below-hero-title { margin: 0 0 24px; }
+  .pr-about__letter { width: 100%; height: auto; min-height: 780px; }
+  .pr-about__letter-body { padding: 28px 14px 0; }
+  .pr-about__letter-sig p.pr-about__letter-sig-name { font-size: 22px !important; line-height: 1.25 !important; }
+  .pr-about__letter-sig p.pr-about__letter-sig-kicker { font-size: 12px !important; }
+  .pr-about__letter-sig-line { display: block; }
+  .pr-about__letter-photo { width: 50%; }
+  .pr-about__letter-rocket,
+  .pr-about__letter-side-vector { display: none; }
+}
+
+.pr-about__band {
+  background: #F6F6F1;
+  color: var(--pr-ink);
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   padding: 80px 0;
+}
+.pr-section--dark.pr-about__band,
+.pr-section--dark.pr-about__band h1,
+.pr-section--dark.pr-about__band h2,
+.pr-section--dark.pr-about__band h3,
+.pr-section--dark.pr-about__band p {
+  color: var(--pr-ink);
 }
 .pr-about__band-title {
   color: var(--pr-cream);

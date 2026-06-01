@@ -901,6 +901,7 @@ const init = () => {
   setupTocCollapse();
   setupListicleRankings();
   setupStickyGlossarySearch();
+  setupAboutLetterTypewriter();
   setupAlsoReadCallouts();
   setupFactCallouts();
   setupCtaModal();
@@ -1388,6 +1389,55 @@ const setupStickyGlossarySearch = () => {
     { rootMargin: '-72px 0px 0px 0px', threshold: 0 }
   );
   io.observe(sentinel);
+};
+
+// Typewriter reveal for the About page letter
+const setupAboutLetterTypewriter = () => {
+  const letter = document.querySelector('.pr-about__letter');
+  if (!letter) return;
+
+  const targets = letter.querySelectorAll(
+    '.pr-about__letter-body > p, .pr-about__letter-sig-kicker, .pr-about__letter-sig-name, .pr-about__letter-sig-role'
+  );
+  if (!targets.length) return;
+
+  let charIndex = 0;
+  const PER_CHAR_MS = 12;
+
+  const wrapTextNodes = (node) => {
+    for (const child of [...node.childNodes]) {
+      if (child.nodeType === Node.TEXT_NODE) {
+        const text = child.textContent;
+        const frag = document.createDocumentFragment();
+        for (const ch of text) {
+          const span = document.createElement('span');
+          span.className = 'pr-letter-ch';
+          span.textContent = ch;
+          span.style.setProperty('--i', charIndex);
+          span.style.animationDelay = (charIndex * PER_CHAR_MS) + 'ms';
+          frag.appendChild(span);
+          charIndex++;
+        }
+        child.replaceWith(frag);
+      } else if (child.nodeType === Node.ELEMENT_NODE) {
+        wrapTextNodes(child);
+      }
+    }
+  };
+  targets.forEach(wrapTextNodes);
+
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          letter.classList.add('is-typing');
+          io.disconnect();
+        }
+      });
+    },
+    { threshold: 0.25 }
+  );
+  io.observe(letter);
 };
 
 if (document.readyState === 'loading') {

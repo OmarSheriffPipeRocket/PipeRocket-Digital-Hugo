@@ -20,10 +20,15 @@
        ==================================================== -->
   <section class="pr-about__hero">
     <div class="pr-about__hero-stage">
-      <img src="/images/about-hero-mission-control.png"
-           alt="Vintage mission control room with operators monitoring a large central screen"
-           class="pr-about__hero-image"
-           fetchpriority="high">
+      <picture>
+        <source srcset="/images/about-hero-mission-control.webp" type="image/webp">
+        <img src="/images/about-hero-mission-control.jpg"
+             alt="Vintage mission control room with operators monitoring a large central screen"
+             class="pr-about__hero-image"
+             fetchpriority="high"
+             width="2400" height="1517">
+      </picture>
+      <img src="/images/about-hero-vector.svg" alt="" aria-hidden="true" class="pr-about__hero-vector">
       <div class="pr-about__hero-screen">
         <h1 class="pr-about__hero-headline">
           <span class="pr-about__hero-line pr-about__hero-line--1">Your Growth.</span>
@@ -34,6 +39,33 @@
           companies. We have sat in pipeline reviews, answered to boards, and<br>
           seen first hand what marketing does and does not move.
         </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       BELOW-HERO SECTION — #282828 band
+       ==================================================== -->
+  <section class="pr-about__below-hero">
+    <img src="/images/about-letter-side-vector.svg" class="pr-about__letter-side-vector" aria-hidden="true">
+    <div class="pr-about__below-hero-inner">
+      <h2 class="pr-about__below-hero-title">We have been <span class="pr-italic">where you are!</span></h2>
+      <img src="/images/seo-table-rocket.svg" class="pr-about__letter-rocket" aria-hidden="true" data-compare-rocket>
+      <div class="pr-about__letter">
+        <div class="pr-about__letter-body">
+          <p>Dear SaaS Founders,</p>
+          <p>We've been where you are. Staring at a marketing budget that isn't moving the pipeline. Briefing agencies thoroughly and getting traffic reports when what you needed was a qualified pipeline. Wondering why good marketing feels harder than it should.</p>
+          <p>Over the past decade, we've sat on your side of the table. We've seen what works, what doesn't, and what most agencies get consistently wrong. That experience is why we started PipeRocket.</p>
+          <p>Not to be another agency. But to be the team we always wished existed when we were in your seat. One that starts with your buyers, not a keyword tool or an ad platform. One that stays in the room when the pipeline conversation happens. One that measures success the same way your board does.</p>
+          <p>We work with a small number of companies at a time. Every client gets our full attention, not an account manager. And we will always tell you honestly whether we think we can help before we ask you to trust us with your pipeline.</p>
+          <p>That is the only way we know how to work.</p>
+          <div class="pr-about__letter-sig">
+            <p class="pr-about__letter-sig-kicker">WITH THAT</p>
+            <p class="pr-about__letter-sig-name">Praveen<span class="pr-about__letter-sig-line"> &amp; Kim</span></p>
+            <p class="pr-about__letter-sig-role">Co-Founders,<span class="pr-about__letter-sig-line"> PipeRocket</span></p>
+          </div>
+        </div>
+        <img src="/images/about-founders-photos.png" alt="PipeRocket founders" class="pr-about__letter-photo" loading="lazy">
       </div>
     </div>
   </section>
@@ -163,7 +195,7 @@
   <!-- ====================================================
        BOTTOM CTA — same as homepage
        ==================================================== -->
-  <section class="pr-cta-final">
+  <section class="pr-cta-final pr-cta-final--about">
     <div class="pr-container">
       <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
       <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
