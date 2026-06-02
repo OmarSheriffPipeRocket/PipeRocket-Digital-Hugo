@@ -34,7 +34,7 @@ CLV stands for customer lifetime value it’s the total revenue a customer bring
 - Acquisition cost balance: Knowing your CLV lets you set a rational CAC (customer acquisition cost) ceiling you won’t spend $1,000 to land a $500 customer.
 - Predictive power: CLV is the backbone of revenue forecasting because it ties retention, ARPU (average revenue per user), and growth together.
 
-Here’s what this looks like in real life: Keeply, a SaaS for personal finance coaches, used to treat all customers the same. After looking at actual CLV by segment, they found that coaches serving small businesses stayed longer and bought more add-ons than those serving individuals. By shifting their focus, their annual recurring revenue (ARR) skewed higher, even without growing total signups.
+Here’s what this looks like in real life: Keeply, a SaaS for personal finance coaches, used to treat all customers the same. After looking at actual CLV by segment, they found that coaches serving small businesses stayed longer and bought more add-ons than those serving individuals. By shifting their focus, their annual recurring revenue ([ARR](/glossary/what-is-arr/)) skewed higher, even without growing total signups.
 
 The real business implication: If you don’t break out CLV by segment, you’ll throw money at the wrong acquisition channels and wonder why your “growth” isn’t showing up in cash flow. Most teams only realize this after a painful churn spike by then, the damage is already done.
 
@@ -58,7 +58,7 @@ CLV = (ARPU x Gross Margin %) / Monthly Churn Rate
 
 If ARPU is $50, gross margin is 80%, and monthly churn is 5%, your CLV is: ($50 x 0.8) / 0.05 = $800.
 
-But don’t get obsessed with the formula. The real work is in segmenting Trackflow, a project management SaaS, found that customers from founder referrals stuck around longer and upgraded more often than those from PPC. Their “average” CLV hid this until they broke it out by channel.
+But don’t get obsessed with the formula. The real work is in segmenting Trackflow, a project management SaaS, found that customers from founder referrals stuck around longer and upgraded more often than those from [PPC](/glossary/what-is-ppc/). Their “average” CLV hid this until they broke it out by channel.
 
 **Fast Fact:** Cohort-based CLV almost always reveals at least one acquisition channel with negative lifetime value and you’ll only spot it if you split the data.
 

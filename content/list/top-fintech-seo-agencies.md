@@ -585,7 +585,7 @@ Best for: Established B2B financial-services operators that want legacy lead-gen
 | Founded | 1997 |
 | Team Size | 50-249 people |
 | Notable Clients | Featured B2B SaaS, healthcare, finance case studies |
-| Specialization | B2B lead generation, SEO, PPC |
+| Specialization | [B2B lead generation](/blogs/b2b-lead-generation/), SEO, PPC |
 
 **The Distinctive Move:** Straight North wraps SEO inside a lead tracking infrastructure that ties marketing activity to qualified-lead volume.
 

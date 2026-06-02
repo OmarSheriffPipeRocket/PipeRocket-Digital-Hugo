@@ -82,7 +82,7 @@ You set up Google Tag Manager by creating a new container, installing the GTM sn
 - Create a container: Sign up for GTM, make a new container for your website or app, and get your unique snippet.
 - Install the snippet: Place the GTM code right after the opening <body> tag on every page you want to track.
 - Plan your data layer: Decide which custom data points (like user roles, plan type, or campaign source) you’ll need for tracking set these up in a data layer object for GTM to access.
-- Add tags: Start with core tags Google Analytics, Google Ads, Meta Pixel then add custom events as needed.
+- Add tags: Start with core tags Google Analytics, [Google Ads](/glossary/what-is-google-ads/), Meta Pixel then add custom events as needed.
 - Set up triggers: Configure when each tag should fire (e.g., on all pages, only on signup, when a button is clicked).
 - Test everything: Use GTM’s Preview mode and debugging tools to make sure each tag fires when and where it should.
 - Publish and version: Only publish after QA each change creates a new version, so you can undo mistakes later.

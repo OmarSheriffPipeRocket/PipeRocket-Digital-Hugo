@@ -31,7 +31,7 @@ Lead generation is the process of finding people or businesses who are likely to
 
 The mistake most teams make? They focus on “more leads” without caring if those leads could ever buy. Real lead generation is about quality, not just quantity. If your pipeline is full of unqualified leads, your sales team will waste time and your close rates will tank.
 
-- Attracting attention: Using tactics like SEO, paid ads, content, or outbound to make your ideal buyers notice you exist.
+- Attracting attention: Using tactics like [SEO](/glossary/what-is-seo/), paid ads, content, or outbound to make your ideal buyers notice you exist.
 - Capturing interest: Offering something valuable (a demo, a free trial, a resource) so prospects signal they’re interested.
 - Qualifying fit: Sorting out who actually matches your target customer profile, not just anyone with an email address.
 - Nurturing intent: Following up with relevant info so leads move closer to a buying decision, not just sitting in your CRM.
@@ -45,7 +45,7 @@ What this means in practice: Lead generation isn’t about generating buzz or fi
 
 Lead generation in SaaS is a mix of attracting, qualifying, and nurturing potential buyers until they’re ready to talk to sales or self-serve. You want to intercept people when they’re looking for answers not just blast everyone. Most teams get this wrong by chasing the biggest numbers instead of focusing on who’s most likely to buy.
 
-- Inbound tactics: Content marketing, SEO, and webinars bring leads to you when they’re researching solutions.
+- Inbound tactics: [Content marketing](/glossary/what-is-content-marketing/), SEO, and webinars bring leads to you when they’re researching solutions.
 - Outbound tactics: Cold email, Linked In outreach, and calling put your message in front of people who aren’t actively searching yet, but fit your ICP.
 - Paid channels: Google Ads, Linked In Ads, and paid listings capture intent quickly but can get expensive if you don’t qualify aggressively.
 - Lead scoring: Assigning points based on behavior (like page visits, demo requests) and firmographics (company size, industry) so you know who’s worth pursuing.
@@ -71,7 +71,7 @@ Here’s the thing: The obsession with “more leads” comes from dashboard goa
 
 > **Fast Fact:** Leads followed up within five minutes are 9x more likely to convert but most SaaS teams take hours or even days to respond.
 
-The short answer: If your lead generation feels like pushing a boulder uphill, you’re probably measuring the wrong thing. Focus on leads that match your ICP and signal real intent, and suddenly your pipeline won’t feel like a guessing game.
+The short answer: If your lead generation feels like pushing a boulder uphill, you’re probably measuring the wrong thing. Focus on leads that match your [ICP](/glossary/what-is-icp/) and signal real intent, and suddenly your pipeline won’t feel like a guessing game.
 
 **Also read:** [top B2B marketing firms for SaaS companies](/list/best-b2b-marketing-agencies/)
 
@@ -96,7 +96,7 @@ Most teams mess this up by treating all leads as equal. That’s how you get a �
 The best lead generation channels for SaaS depend on your audience and deal size, but some patterns are clear. Organic search, outbound email, paid search, and partnerships each play a role but the mix changes as you scale. Chasing every channel is a mistake; the winners double down on what actually converts their ICP.
 
 - Organic search (SEO): High-intent visitors find you when they’re already searching for a solution the backbone of sustainable pipeline for most SaaS.
-- Paid search (PPC): Google Ads and Linked In Ads capture demand quickly, but costs rise if you’re not qualifying tightly.
+- Paid search (PPC): [Google Ads](/glossary/what-is-google-ads/) and Linked In Ads capture demand quickly, but costs rise if you’re not qualifying tightly.
 - Outbound email: Personalized outreach cuts through the noise, especially for mid-market and enterprise buyers.
 - Content marketing: Guides, webinars, and comparison pages position your brand as a trusted resource and attract buyers before they even know what to Google.
 - Partnerships and integrations: Co-marketing with complementary tools puts you in front of new audiences that already trust your partners.

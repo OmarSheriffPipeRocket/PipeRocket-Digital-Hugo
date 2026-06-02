@@ -21,7 +21,7 @@ Google Search Console is a free tool from Google that lets you monitor, troubles
 
 - Google Search Console provides real search data including impressions, clicks, and ranking positions for every page on your site.
 - Over 90% of SaaS website traffic comes from organic search, making GSC the source of truth for growth-focused teams.
-- Most companies set up GSC but only check it during emergencies, missing ongoing insights that drive compounding SEO results.
+- Most companies set up GSC but only check it during emergencies, missing ongoing insights that drive compounding [SEO](/glossary/what-is-seo/) results.
 - GSC is the only way to see how Google crawls and indexes your site, flagging technical errors and opportunities in real time.
 - Connecting GSC with other tools like Ahrefs or Semrush unlocks deeper analysis for SaaS marketers who want a competitive edge.
 
@@ -48,7 +48,7 @@ What this means in practice: If you rely on organic search for leads, you need t
 - Check Coverage reports: Look for “Excluded” or “Error” URLs these are often missed, but cost you traffic if left untreated.
 - Review Performance queries: Sort by clicks, impressions, or position to see which pages and keywords drive growth (and which need work).
 - Fix Core Web Vitals and mobile errors: GSC flags speed and usability issues; fixing them often leads to quick ranking gains.
-- Monitor backlinks: Use the Links report to see which domains are linking to you then double down on what works.
+- Monitor [backlinks](/glossary/what-is-a-backlink/): Use the Links report to see which domains are linking to you then double down on what works.
 - Set up regular checks: Don’t wait for something to break. Weekly reviews help spot slow declines, new opportunities, and technical issues before they snowball.
 
 ## How Does Google Search Console Actually Work?
@@ -71,7 +71,7 @@ Here’s where teams get tripped up: GSC only shows data for your own site, not 
 
 ## What Problems Can Google Search Console Solve for SaaS Teams?
 
-Most SaaS teams assume Google Search Console is mainly for technical SEO audits. That’s a mistake it’s a frontline tool for uncovering growth blockers and surfacing quick wins. Here’s what GSC can help with, beyond the basics:
+Most SaaS teams assume Google Search Console is mainly for [technical SEO](/glossary/what-is-technical-seo/) audits. That’s a mistake it’s a frontline tool for uncovering growth blockers and surfacing quick wins. Here’s what GSC can help with, beyond the basics:
 
 - Index bloat control: GSC shows you when you have too many thin or duplicate pages in Google’s index, which can dilute your rankings. Cleaning this up often leads to a traffic boost.
 - Content opportunity mapping: The “Queries” report surfaces actual keyword phrases that drive clicks often highlighting long-tail or niche opportunities your competitors miss.
@@ -131,7 +131,7 @@ Google Search Console shows how your site appears and performs in Google Search 
 
 ### Do I need to use an SEO tool if I have Google Search Console?
 
-Google Search Console gives you direct data from Google about your own site, but it doesn’t track competitors or offer advanced keyword research. Most SaaS teams use GSC as their foundation, then layer on tools like Ahrefs, Semrush, or Moz for competitor analysis, backlink tracking, and broader keyword discovery. The best results come from using both together.
+Google Search Console gives you direct data from Google about your own site, but it doesn’t track competitors or offer advanced [keyword research](/glossary/what-is-keyword-research/). Most SaaS teams use GSC as their foundation, then layer on tools like Ahrefs, Semrush, or Moz for competitor analysis, backlink tracking, and broader keyword discovery. The best results come from using both together.
 
 ## The Bottom Line
 

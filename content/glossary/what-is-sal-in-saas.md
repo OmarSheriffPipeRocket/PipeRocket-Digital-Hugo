@@ -36,7 +36,7 @@ Without that step, leads flow from marketing to sales with no accountability on 
 - Bilateral ownership: Marketing owns getting leads to SAL status; sales owns accepting or rejecting them with a documented reason.
 - Rejection feedback loop: When a rep rejects a lead at the SAL stage, that reason should feed back into marketing’s targeting it’s the most direct signal you have.
 - Time-sensitive checkpoint: SAL isn’t just a status label it’s a timed gate. A lead accepted within hours converts at a very different rate than one picked up three days later.
-- Alignment mechanism: The SAL stage is where your ICP definition gets stress-tested in real time. If reps are rejecting most MQLs, your qualification criteria are misaligned.
+- Alignment mechanism: The SAL stage is where your [ICP](/glossary/what-is-icp/) definition gets stress-tested in real time. If reps are rejecting most MQLs, your qualification criteria are misaligned.
 
 Consider a project management SaaS targeting mid-market operations teams. Their marketing team was generating solid MQL volume from content downloads and webinar sign-ups. But sales reps were working maybe a third of those leads. There was no SAL stage so there was no record of what was being ignored or why. Once they introduced a 24-hour SAL review window with a required rejection reason, the feedback loop changed everything. Marketing could see exactly which lead sources were producing leads sales didn’t want.
 

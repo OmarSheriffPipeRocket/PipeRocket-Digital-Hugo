@@ -525,7 +525,7 @@ Best for: Growth-Stage Cybersecurity Companies That Need a Full-Service Marketin
 
 {{< agency-triptych slug="magnetude-consulting" name="Magnetude Consulting" >}}
 
-[Magnetude Consulting](https://magnetudeconsulting.com) offers full-service B2B marketing with a notable cybersecurity practice. Their engagement model is more flexible than most full-service agencies, offering fractional, project-based, and full retainer structures, which makes them accessible to cybersecurity companies at growth stages where budget and scope need room to evolve.
+[Magnetude Consulting](https://magnetudeconsulting.com) offers full-service [B2B marketing](/blogs/b2b-marketing/) with a notable cybersecurity practice. Their engagement model is more flexible than most full-service agencies, offering fractional, project-based, and full retainer structures, which makes them accessible to cybersecurity companies at growth stages where budget and scope need room to evolve.
 
 **The Dossier**
 

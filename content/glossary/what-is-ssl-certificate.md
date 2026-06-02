@@ -21,7 +21,7 @@ An SSL certificate is a digital file that encrypts data between a website and it
 
 - Browsers will warn users about security risks on sites without an SSL certificate, reducing signups and trust.
 - SSL certificates encrypt sensitive data like logins and payments, making interception by attackers much harder.
-- Google uses HTTPS (secured by SSL) as a ranking factor, so not having it can hurt your SEO performance.
+- Google uses HTTPS (secured by SSL) as a ranking factor, so not having it can hurt your [SEO](/glossary/what-is-seo/) performance.
 - Free SSL certificates from Let’s Encrypt work for most SaaS and B2B sites unless you need advanced validation.
 - Over 95% of page loads in Chrome use HTTPS, showing SSL is now the default expectation for legitimate businesses.
 
@@ -34,7 +34,7 @@ Here’s where most teams get this wrong: they think SSL is only about “securi
 - Encryption: SSL encrypts data in transit, so login credentials, credit card numbers, and form data can’t be intercepted.
 - Authentication: The certificate proves your site is really yours, stopping attackers from impersonating you.
 - Browser trust: Modern browsers display padlocks and positive signals for SSL, but slap “Not Secure” warnings on sites without it.
-- SEO impact: Google gives a ranking boost to HTTPS sites, so SSL is a minor but real on-page SEO factor.
+- SEO impact: Google gives a ranking boost to HTTPS sites, so SSL is a minor but real [on-page SEO](/glossary/what-is-on-page-seo/) factor.
 - GDPR and compliance: SSL is a baseline requirement for handling user data under most privacy laws.
 
 The practical reality: your SSL certificate isn’t just for technical peace of mind. It’s the easiest credibility upgrade you’ll ever implement. If you’re running a production SaaS or B2B site without SSL, you’re telling visitors your product is unfinished even if every other part of your funnel is dialed in.

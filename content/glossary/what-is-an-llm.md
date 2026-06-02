@@ -49,7 +49,7 @@ Here’s the thing: LLMs aren’t magic they’re pattern recognisers on steroid
 
 - Prompt engineering: The way you structure inputs (prompts) directly shapes the LLM’s responses. Poor prompts mean generic or off-topic answers.
 - System instructions: Embedding company rules, tone, or forbidden answers in the LLM’s configuration keeps outputs on-brand and compliant.
-- Retrieval-augmented generation (RAG): Instead of relying on static training data, you can connect the LLM to a live knowledge base or API so it fetches up-to-date facts before responding.
+- [Retrieval-augmented generation](/glossary/what-is-rag/) (RAG): Instead of relying on static training data, you can connect the LLM to a live knowledge base or API so it fetches up-to-date facts before responding.
 - User feedback loops: Collecting real user ratings on LLM-generated answers helps retrain and refine the model over time, improving accuracy.
 - Context windows: LLMs have limits on how much context they “remember” too much or too little, and outputs get weird or irrelevant.
 

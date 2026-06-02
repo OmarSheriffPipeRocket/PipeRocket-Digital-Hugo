@@ -392,6 +392,10 @@ Directive's documented retainer floor is $8,000/mo, with most engagements in the
 | Free Consultation | Yes |
 | Clutch Rating | 4.7/5 (56 reviews) |
 
+Want a side-by-side? See our [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/) breakdown.
+
+
+
 ### 6. Gripped
 
 Best for: European or UK-based HR tech SaaS needing integrated demand gen

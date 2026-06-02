@@ -603,7 +603,7 @@ Best for: B2B Tech Companies With Solid Products That Blend Into Crowded Markets
 
 {{< agency-triptych slug="velocity-partners" name="Velocity Partners" >}}
 
-[Velocity Partners](https://velocitypartners.com) wages war against boring B2B marketing. They build Big Rock content pieces and creative campaigns that give brands a real voice and distinct point of view. Their work makes complex enterprise products feel human and worth paying attention to in markets drowning in sameness.
+[Velocity Partners](https://velocitypartners.com) wages war against boring [B2B marketing](/blogs/b2b-marketing/). They build Big Rock content pieces and creative campaigns that give brands a real voice and distinct point of view. Their work makes complex enterprise products feel human and worth paying attention to in markets drowning in sameness.
 
 **The Pitch**
 

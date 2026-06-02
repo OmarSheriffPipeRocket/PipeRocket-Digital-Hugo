@@ -29,10 +29,10 @@ Performance marketing is a digital marketing approach where you pay only for spe
 
 Performance marketing is a results-based approach where you only pay for outcomes like clicks, signups, or revenue instead of paying upfront for ad space or impressions. This is different from traditional digital advertising or brand marketing, which charges you for reach whether or not anyone acts.
 
-**Here’s what most teams miss:** performance marketing isn’t just about running Google Ads or Facebook campaigns. It’s about building a closed feedback loop where every dollar can be traced to an actual business result.
+**Here’s what most teams miss:** performance marketing isn’t just about running [Google Ads](/glossary/what-is-google-ads/) or Facebook campaigns. It’s about building a closed feedback loop where every dollar can be traced to an actual business result.
 
 - Results-based payment: You pay only when a user takes a defined action, such as a click, form submission, trial signup, or purchase.
-- Trackable metrics: Everything is measured cost per click (CPC), cost per acquisition (CPA), return on ad spend (ROAS), and lifetime value (LTV).
+- Trackable metrics: Everything is measured cost per click (CPC), cost per acquisition (CPA), return on ad spend ([ROAS](/glossary/what-is-roas/)), and lifetime value (LTV).
 - Channel-agnostic: Performance marketing isn’t limited to paid search or social; it includes affiliate, influencer, and partner programs where payouts are tied to results.
 - Continuous optimization: Campaigns are adjusted in real-time based on what’s actually driving results, not vanity metrics.
 - Shared risk: The advertiser transfers some risk to the platform or partner, since payment is only for real outcomes.
@@ -73,7 +73,7 @@ The best performance marketing channels for SaaS are those where you can track u
 
 - Paid search (Google Ads, Bing Ads): Targets high-intent buyers searching for your solution; ideal for demo or trial signups.
 - Paid social (Linked In, Facebook, Twitter): Good for reaching niche audiences, but watch out for low-intent, expensive leads if targeting is broad.
-- Affiliate partnerships: Partners promote your SaaS and get paid only when leads or sales are verified; scales well if you have a clear ICP.
+- Affiliate partnerships: Partners promote your SaaS and get paid only when leads or sales are verified; scales well if you have a clear [ICP](/glossary/what-is-icp/).
 - Influencer/performance PR: You pay influencers or PR outlets only for signups or revenue attributed to specific campaigns.
 - Retargeting: Brings back visitors who didn’t convert on their first visit with action-based pricing.
 
@@ -133,11 +133,11 @@ Performance marketing means you pay only when a defined action like a click, sig
 
 ### 2. Which SaaS metrics matter most for performance marketing?
 
-The most important SaaS metrics for performance marketing include cost per acquisition (CPA), conversion rate, customer lifetime value (LTV), and return on ad spend (ROAS). You should also track trial-to-paid conversion rate and payback period to see if your spend actually leads to long-term, profitable growth. Metrics tied to revenue not just activity are what separate effective programs from wasted spend.
+The most important SaaS metrics for performance marketing include cost per acquisition ([CPA](/glossary/what-is-cpa/)), conversion rate, customer lifetime value (LTV), and return on ad spend (ROAS). You should also track trial-to-paid conversion rate and payback period to see if your spend actually leads to long-term, profitable growth. Metrics tied to revenue not just activity are what separate effective programs from wasted spend.
 
 ### 3. Can content marketing be part of a performance marketing strategy?
 
-Content marketing can fit into performance marketing if you track conversions from content directly like downloads, signups, or sales that result from a blog or landing page. Many SaaS companies combine paid promotion of high-intent content with performance tracking to turn organic or inbound interest into measurable results. The key is tying every content asset to a specific, trackable action.
+[Content marketing](/glossary/what-is-content-marketing/) can fit into performance marketing if you track conversions from content directly like downloads, signups, or sales that result from a blog or landing page. Many SaaS companies combine paid promotion of high-intent content with performance tracking to turn organic or inbound interest into measurable results. The key is tying every content asset to a specific, trackable action.
 
 ## The Bottom Line
 

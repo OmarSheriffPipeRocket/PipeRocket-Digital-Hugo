@@ -23,7 +23,7 @@ ROAS (Return on Ad Spend) measures how much revenue you earn for every dollar sp
 - Most SaaS teams misread ROAS by focusing only on short-term revenue, instead of true customer lifetime value.
 - A ROAS of 3:1 or higher is common for SaaS, but what’s “good” depends on margins, payback period, and product model.
 - Optimizing for ROAS alone can lead to underinvesting in brand, content, or channels with longer payback but higher LTV.
-- Paid search platforms like Google Ads, Facebook, and Linked In all calculate ROAS differently, so benchmarks must be channel-specific.
+- Paid search platforms like [Google Ads](/glossary/what-is-google-ads/), Facebook, and Linked In all calculate ROAS differently, so benchmarks must be channel-specific.
 
 ## What Is ROAS and Why Does It Matter for SaaS?
 
@@ -56,11 +56,11 @@ What this means in practice: using ad platform ROAS without adjusting for churn,
 
 ## How Is ROAS Different From Other Paid Metrics?
 
-On the surface, ROAS looks a lot like other paid performance metrics such as CPA (cost per acquisition), CAC (customer acquisition cost), or even CTR (click-through rate). But each metric answers a different question and ROAS is the only one focused directly on revenue return, not just cost or activity.
+On the surface, ROAS looks a lot like other paid performance metrics such as [CPA](/glossary/what-is-cpa/) (cost per acquisition), CAC (customer acquisition cost), or even CTR (click-through rate). But each metric answers a different question and ROAS is the only one focused directly on revenue return, not just cost or activity.
 
 - CPA (Cost Per Acquisition): Tells you what you pay for a signup, lead, or sale but not how much revenue that customer brings in.
 - CAC (Customer Acquisition Cost): Broader than CPA, includes all marketing and sales expenses, not just paid ads.
-- CTR (Click-Through Rate): Measures how many people click your ad, not whether they ever buy or subscribe.
+- [CTR](/glossary/what-is-ctr/) (Click-Through Rate): Measures how many people click your ad, not whether they ever buy or subscribe.
 - LTV (Lifetime Value): Shows total expected revenue per customer, but doesn’t factor in what you spent to acquire them.
 - ROAS: Unique in combining actual revenue (ideally LTV) against paid ad spend the closest thing to a profit signal from your paid channels.
 
@@ -114,7 +114,7 @@ ROAS is easy to measure and looks good on a dashboard. But using it as your sing
 - Attribution errors: Ad platforms tend to over-report conversions especially for retargeting or brand campaigns. This inflates your ROAS artificially.
 - Overlooking churn: High ROAS can mask retention problems. If churn is high, the “revenue” used in ROAS calculations is a mirage.
 - Ignoring expansion: Paid ads that land big accounts with upsell potential can look less efficient at first, but drive more net revenue over time.
-- Brand and content investment: Channels like SEO, organic social, and content marketing don’t always show up in ROAS but are essential for long-term pipeline.
+- Brand and content investment: Channels like SEO, organic social, and [content marketing](/glossary/what-is-content-marketing/) don’t always show up in ROAS but are essential for long-term pipeline.
 
 Here’s the thing: ROAS is a lagging indicator for SaaS. By the time you see a dip, you’ve often already lost the real battle churn, misaligned messaging, or product-market fit issues. Using only ROAS means you’re always driving using the rearview mirror.
 

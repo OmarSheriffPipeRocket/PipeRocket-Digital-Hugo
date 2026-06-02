@@ -15,7 +15,7 @@ toc: true
 readingTime: "10 min read"
 ---
 
-Google Ads is Google’s pay-per-click (PPC) advertising platform that lets businesses show targeted ads in search results and across Google’s network. It matters because it puts your offer in front of buyers at the exact moment they’re searching. Used right, it can drive qualified traffic and measurable leads fast.
+Google Ads is Google’s pay-per-click ([PPC](/glossary/what-is-ppc/)) advertising platform that lets businesses show targeted ads in search results and across Google’s network. It matters because it puts your offer in front of buyers at the exact moment they’re searching. Used right, it can drive qualified traffic and measurable leads fast.
 
 ## TL;DR
 
@@ -103,7 +103,7 @@ Avoiding waste isn’t about setting a smaller daily limit it’s about tightly 
 - Quality landing pages: Build landing pages for each segment, not one-size-fits-all. Google’s Quality Score rewards this with lower CPCs.
 - Continuous review: Audit search term reports weekly to catch wasted spend. Pause underperforming ads and double down on what’s working.
 
-Here’s what most teams get wrong: They run one campaign, set broad match, and hope for the best. That’s how you end up paying $10 a click for someone searching “how to start a SaaS business” not your ICP.
+Here’s what most teams get wrong: They run one campaign, set broad match, and hope for the best. That’s how you end up paying $10 a click for someone searching “how to start a SaaS business” not your [ICP](/glossary/what-is-icp/).
 
 The real solution is regular, honest review. Don’t trust the “recommended” settings blindly; Google’s defaults are designed to maximize their revenue, not yours. If you want real performance, take ownership of your data and optimization.
 
@@ -133,7 +133,7 @@ Google Ads costs vary based on your target keywords, competition, and industry, 
 
 ### 2. Is Google Ads better than SEO for SaaS?
 
-Google Ads drives immediate results and is great for quick testing, but SEO builds long-term, compounding traffic at a lower cost over time. Most successful SaaS teams run both in parallel, using Google Ads for high-intent keywords and SEO for sustainable growth. Paid search is a sprint; SEO is a marathon.
+Google Ads drives immediate results and is great for quick testing, but [SEO](/glossary/what-is-seo/) builds long-term, compounding traffic at a lower cost over time. Most successful SaaS teams run both in parallel, using Google Ads for high-intent keywords and SEO for sustainable growth. Paid search is a sprint; SEO is a marathon.
 
 ### 3. What’s the difference between Google Ads and Google Ad Sense?
 
