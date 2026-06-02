@@ -19,7 +19,7 @@ Crawling is the process search engines use to discover and read web pages by fol
 ## TL;DR
 
 - Crawling is how search engine bots discover pages by following links, and it happens before indexing or ranking can occur.
-- Blocking crawlers with a misconfigured robots.txt file is one of the most common and damaging technical SEO mistakes SaaS teams make.
+- Blocking crawlers with a misconfigured robots.txt file is one of the most common and damaging [technical SEO](/glossary/what-is-technical-seo/) mistakes SaaS teams make.
 - Crawl budget matters most for large sites Googlebot won’t crawl every page, so low-value pages compete with important ones for attention.
 - Internal linking is the most direct way to signal which pages matter most and ensure bots find them reliably.
 - Crawling and indexing are separate steps a page can be crawled but never indexed if it has quality or signal problems.
@@ -38,7 +38,7 @@ Here’s what the crawling process actually involves:
 - Link extraction: Every link on that page becomes a new candidate URL to crawl next.
 - Scheduling: Googlebot doesn’t crawl everything at once. It prioritises based on crawl budget, page authority, and update frequency.
 
-Consider a SaaS platform for project management teams. They publish 200 blog posts over two years, but half of them sit in a staging subdomain that’s blocked in robots.txt. The content exists. The SEO team thinks it’s live. Googlebot has never seen any of it. That’s not a content problem it’s a crawling problem, and it’s more common than most teams realise.
+Consider a SaaS platform for project management teams. They publish 200 blog posts over two years, but half of them sit in a staging subdomain that’s blocked in robots.txt. The content exists. The [SEO](/glossary/what-is-seo/) team thinks it’s live. Googlebot has never seen any of it. That’s not a content problem it’s a crawling problem, and it’s more common than most teams realise.
 
 The part most guides skip is this: crawling is also selective. Googlebot doesn’t spend unlimited time on any one site. It allocates a crawl budget a rough limit on how many pages it’ll crawl in a given window. That budget gets wasted on duplicate URLs, low-quality pages, and broken redirect chains. Every wasted crawl is a missed opportunity for your real content.
 
@@ -142,6 +142,6 @@ Most SaaS teams treat technical SEO as a one-time setup task. That’s wrong. Cr
 
 ## The Bottom Line
 
-Crawling is the foundation that everything else in SEO sits on. If bots can’t reach your pages, your content, your backlinks, and your optimisations are irrelevant. Get the technical basics right clean robots.txt, solid internal linking, no crawl budget waste and treat it as ongoing maintenance, not a one-time task.
+Crawling is the foundation that everything else in SEO sits on. If bots can’t reach your pages, your content, your [backlinks](/glossary/what-is-a-backlink/), and your optimisations are irrelevant. Get the technical basics right clean robots.txt, solid internal linking, no crawl budget waste and treat it as ongoing maintenance, not a one-time task.
 
 If you want help auditing your site’s crawlability or building an SEO strategy that starts from the technical foundation, [reach out to our team](https://www.piperocket.co/contact) or see how we structure [our SaaS SEO approach](https://www.piperocket.co/saas-seo) to make sure crawling, indexing, and content all work together.

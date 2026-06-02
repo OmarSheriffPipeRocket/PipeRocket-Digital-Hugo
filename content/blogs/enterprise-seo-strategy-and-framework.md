@@ -49,7 +49,7 @@ The tactics of enterprise SEO are not fundamentally different from smaller-scale
 
 At enterprise scale, a single misconfigured noindex tag in a global page template can remove thousands of pages from Google’s index overnight. A content strategy built around one [ICP](/glossary/what-is-icp/) falls apart when the company has five product lines serving different buyer personas. A reporting framework that worked for a 20-page site becomes useless when the domain has 2,000 pages generating traffic from hundreds of [keyword clusters](/glossary/what-are-keyword-clusters/).
 
-The three things that break enterprise SEO programs most consistently:
+The three things that break [enterprise SEO](/blogs/enterprise-seo-guide/) programs most consistently:
 
 - **No governance system:** SEO standards that exist in a document but are not enforced at the CMS or template level get overridden constantly by developers, marketers, and product teams making localized decisions without SEO visibility
 - **No cross-functional alignment:** Engineering ships a site migration without looping in SEO. Product launches a new feature page without a keyword brief. Content publishes 40 articles targeting terms the sales team has never heard prospects use

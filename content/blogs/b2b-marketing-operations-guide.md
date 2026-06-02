@@ -150,7 +150,7 @@ The stack itself is not the competitive advantage. The configuration and integra
 
 Most B2B SaaS companies face this decision at two inflection points: when they first realize they need dedicated marketing ops ownership, and when the program scales beyond what the current setup can support.
 
-| Decision factor | In-house | B2B marketing operations agency |
+| Decision factor | In-house | [B2B marketing](/blogs/b2b-marketing/) operations agency |
 | --- | --- | --- |
 | Speed to value | 3–6 months to hire, onboard, and build | 30–60 days to operational impact |
 | Cost | $120,000–$180,000 per year fully loaded for a senior ops manager | $5,000–$20,000 per month depending on scope |

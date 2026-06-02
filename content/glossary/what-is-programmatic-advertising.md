@@ -98,7 +98,7 @@ Here’s what actually works: start with a narrowly defined audience, run A/B te
 
 SaaS and B2B teams should use programmatic advertising as a precision tool, not a blunt instrument. The game isn’t about reach it’s about getting the right offer in front of the right buyer at the moment of intent, with relentless focus on targeting and iteration.
 
-- ICP-first targeting: Build your programmatic audiences from your ideal customer profile not broad job titles or interests to avoid wasting impressions.
+- [ICP](/glossary/what-is-icp/)-first targeting: Build your programmatic audiences from your ideal customer profile not broad job titles or interests to avoid wasting impressions.
 - Account-based targeting: Use data to serve ads only to companies or segments you explicitly want, matching your ABM list with programmatic capabilities.
 - Sequential messaging: Map creative to each stage of the buyer journey so ads feel relevant, not repetitive or spammy.
 - Channel blending: Don’t rely on display alone mix in programmatic video, native, audio, and even connected TV where your audience actually spends time.
@@ -108,7 +108,7 @@ Most SaaS teams assume programmatic is a top-of-funnel spray-and-pray channel. T
 
 If you’re running a niche SaaS like Legal Flow (compliance automation for fintechs), programmatic works when you sync your account list, target only relevant job titles in buyer companies, and serve context-aware creative. It fails when you just throw display ads at “anyone in finance.”
 
-If you want programmatic to actually drive pipeline, you need a dedicated [SaaS PPC](/saas-ppc/) strategy not just a line item on the marketing plan. That means integrating with your CRM, feeding real sales data back into the platform, and using programmatic as part of a larger ABM or demand gen motion.
+If you want programmatic to actually drive pipeline, you need a dedicated [SaaS PPC](/saas-ppc/) strategy not just a line item on the marketing plan. That means integrating with your CRM, feeding real sales data back into the platform, and using programmatic as part of a larger [ABM](/glossary/what-is-abm/) or demand gen motion.
 
 **Also read:** [SaaS PPC](/saas-ppc/)
 

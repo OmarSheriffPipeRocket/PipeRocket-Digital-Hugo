@@ -697,7 +697,7 @@ Best for: B2B Marketers Demanding CRM-Integrated Attribution and Revenue-Focused
 
 Closed Loop's technical expertise in attribution modeling helps B2B brands understand true customer acquisition costs. They build custom reporting frameworks that track leads from first click through closed deal, enabling accurate ROI measurement and smarter budget allocation.
 
-- 20+ years of B2B PPC focus with strong Salesforce and HubSpot integration depth
+- 20+ years of [B2B PPC](/blogs/b2b-ppc/) focus with strong Salesforce and HubSpot integration depth
 - Attribution modelling tied to revenue rather than form fills
 - Strong fit for companies with mature CRM systems needing accurate pipeline measurement
 

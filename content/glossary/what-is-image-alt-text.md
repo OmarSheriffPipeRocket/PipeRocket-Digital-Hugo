@@ -15,7 +15,7 @@ toc: true
 readingTime: "9 min read"
 ---
 
-Image alt text is a brief description of an image added to HTML code so search engines and screen readers can understand its content. It improves SEO by making images discoverable and ensures accessibility for users who can’t see images.
+Image alt text is a brief description of an image added to HTML code so search engines and screen readers can understand its content. It improves [SEO](/glossary/what-is-seo/) by making images discoverable and ensures accessibility for users who can’t see images.
 
 ## TL;DR
 

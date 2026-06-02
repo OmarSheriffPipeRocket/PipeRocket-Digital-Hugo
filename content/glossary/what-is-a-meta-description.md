@@ -15,7 +15,7 @@ toc: true
 readingTime: "10 min read"
 ---
 
-A meta description is the short summary beneath a page title in Google search results. It helps users decide whether to click and can increase your organic CTR if it matches search intent and highlights a real benefit.
+A meta description is the short summary beneath a page title in Google search results. It helps users decide whether to click and can increase your organic [CTR](/glossary/what-is-ctr/) if it matches search intent and highlights a real benefit.
 
 ## TL;DR
 
@@ -23,7 +23,7 @@ A meta description is the short summary beneath a page title in Google search re
 - Well-written meta descriptions can improve click-through rates by up to 30% compared to missing or generic snippets.
 - Most teams over-focus on keywords, but matching search intent and user motivation matters more for driving qualified traffic.
 - Google rewrites or ignores meta descriptions more than 60% of the time if they’re irrelevant or low quality.
-- SaaS companies that treat meta descriptions as conversion copy not SEO filler see more leads from the same rankings.
+- SaaS companies that treat meta descriptions as conversion copy not [SEO](/glossary/what-is-seo/) filler see more leads from the same rankings.
 
 ## What Is a Meta Description?
 
@@ -49,7 +49,7 @@ What this means in practice: meta descriptions won’t move your page to #1, but
 - Stay under 155 characters: Keep it short enough to avoid being cut off by Google on desktop and mobile results.
 - Avoid keyword stuffing: One primary keyword is enough focusing on clarity and value drives more clicks than repetition.
 - Make it actionable: Prompt the user with a verb (“See pricing,” “Get templates,” “Compare features”) so there’s a clear next step.
-- Check for duplicates: Make every meta description unique so each page stands out in the SERP.
+- Check for duplicates: Make every meta description unique so each page stands out in the [SERP](/glossary/what-is-serp/).
 
 ## Why Does a Meta Description Matter for SEO and SaaS Growth?
 

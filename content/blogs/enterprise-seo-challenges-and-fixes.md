@@ -77,7 +77,7 @@ Governance requires two things: written standards that define the correct config
 
 ## Challenge 3: Content Architecture Across Multiple Products and ICPs
 
-Enterprise SaaS companies rarely sell one product to one buyer. Building a content library that serves all dimensions without cannibalizing itself or confusing Google about topical authority is one of the hardest structural challenges in enterprise SEO.
+Enterprise SaaS companies rarely sell one product to one buyer. Building a content library that serves all dimensions without cannibalizing itself or confusing Google about topical authority is one of the hardest structural challenges in [enterprise SEO](/blogs/enterprise-seo-guide/).
 
 The most common content architecture failures at enterprise scale:
 

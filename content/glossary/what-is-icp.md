@@ -35,7 +35,7 @@ Here’s the part most teams miss: ICP is less about who you want as a customer,
 - Retention predictor: The right ICP predicts not just who will buy, but who will renew and expand. Lifetime value matters more than initial deal size.
 - Resource alignment: Your ICP should guide where sales, marketing, and product invest their time no more shotgun outreach or generic features.
 - Qualification clarity: ICP drives your lead scoring and sales qualification process, making “maybe” accounts easier to rule out.
-- Growth multiplier: A sharp ICP means fewer wasted demos and tighter marketing spend, which is why teams that use it see faster ARR growth.
+- Growth multiplier: A sharp ICP means fewer wasted demos and tighter marketing spend, which is why teams that use it see faster [ARR](/glossary/what-is-arr/) growth.
 
 What this means in practice: an ICP is a living document, not a check-the-box exercise. If your customer base shifts or your top users start churning your ICP needs a refresh. Most importantly, ICP is a filter. When used right, it tells you which leads to ignore so you can double down on the ones that will actually deliver long-term value.
 

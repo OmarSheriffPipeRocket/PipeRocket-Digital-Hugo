@@ -15,7 +15,7 @@ toc: true
 readingTime: "10 min read"
 ---
 
-A backlink is a hyperlink from one website to another, acting as a signal of trust and authority for search engines. High-quality backlinks can boost your site’s rankings, drive referral traffic, and build domain credibility. Not all backlinks have equal SEO value.
+A backlink is a hyperlink from one website to another, acting as a signal of trust and authority for search engines. High-quality backlinks can boost your site’s rankings, drive referral traffic, and build domain credibility. Not all backlinks have equal [SEO](/glossary/what-is-seo/) value.
 
 ## TL;DR
 
@@ -73,13 +73,13 @@ Here’s an opinion you won’t hear from most SEO agencies: Publishing a blog p
 
 Link quality matters more than link quantity. Too many teams treat any backlink as good, but Google’s algorithm is ruthless about which links actually move rankings. What separates a high-value link from the rest? It comes down to relevance, authority, and context.
 
-- Domain authority: Links from trusted, established sites (think G2, HubSpot, or major SaaS publishers) carry far more weight than those from unknown or low-traffic sites.
+- [Domain authority](/glossary/what-is-domain-authority/): Links from trusted, established sites (think G2, HubSpot, or major SaaS publishers) carry far more weight than those from unknown or low-traffic sites.
 - Topical relevance: A mention from a site in your specific industry or niche signals much more value than a generic business directory.
 - Placement: Editorial links embedded within relevant content are stronger than footer, sidebar, or author bio links.
 - Anchor text: Natural, descriptive anchor text (like “project management software for creative teams”) gives stronger contextual signals than “click here” or branded anchors.
 - Link diversity: A healthy backlink profile includes links from a mix of sources not just the same few domains or obvious paid placements.
 
-Here’s what actually works: Earning backlinks from industry authorities, SaaS review sites, and well-ranked blogs within your product’s category. Churnly, a SaaS churn analytics tool, grew organic signups 42% in six months after landing features on two leading SaaS newsletters and a guest post in a top B2B marketing blog.
+Here’s what actually works: Earning backlinks from industry authorities, SaaS review sites, and well-ranked blogs within your product’s category. Churnly, a SaaS churn analytics tool, grew organic signups 42% in six months after landing features on two leading SaaS newsletters and a guest post in a top [B2B marketing](/blogs/b2b-marketing/) blog.
 
 A real trade-off: Pursuing only the biggest, hardest-to-win links can slow your momentum, while chasing easy, irrelevant links can get you penalized. It’s worth aiming for a mix anchor your efforts around high-authority, niche-relevant opportunities, and supplement with smaller, still-relevant sources as you scale.
 
@@ -119,7 +119,7 @@ A warning: This approach works well for SaaS companies with a clear expert angle
 
 ### How do I know if a backlink is high quality?
 
-A high-quality backlink comes from a reputable website in your industry, uses natural anchor text, and is placed within relevant content (not footers or sidebars). It should drive both referral traffic and improved rankings. Tools like Ahrefs or Moz can help assess domain authority; links from top-tier domains or respected SaaS review sites are almost always high quality.
+A high-quality backlink comes from a reputable website in your industry, uses natural [anchor text](/glossary/what-is-anchor-text/), and is placed within relevant content (not footers or sidebars). It should drive both referral traffic and improved rankings. Tools like Ahrefs or Moz can help assess domain authority; links from top-tier domains or respected SaaS review sites are almost always high quality.
 
 ### Can bad backlinks hurt my site’s SEO?
 

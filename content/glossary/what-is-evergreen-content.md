@@ -20,7 +20,7 @@ Evergreen content is information that stays relevant and useful over time, like 
 ## TL;DR
 
 - Most SaaS teams confuse “evergreen” with “never update” real evergreen content ranks because it earns freshness and authority signals over time.
-- Evergreen content drives more lasting SEO value than time-limited posts, with organic search accounting for 91.3% of SaaS website traffic.
+- Evergreen content drives more lasting [SEO](/glossary/what-is-seo/) value than time-limited posts, with organic search accounting for 91.3% of SaaS website traffic.
 - Quality evergreen pieces require intentional updates “set and forget” content loses rankings within 12 to 18 months on most competitive terms.
 - Topics like how-to guides, pricing FAQs, and deep resource pages are classic evergreen formats that compound value year after year.
 - Treating product-specific tutorials as evergreen is a mistake unless you commit to updating them with every major feature release.
@@ -31,7 +31,7 @@ Evergreen content is content designed to stay relevant long after it’s publish
 
 - Timeless relevance: Evergreen content covers core questions, workflows, and industry concepts that rarely change, keeping search demand steady.
 - Long-term traffic: Well-optimized evergreen pages can rank for months or years, steadily pulling in organic visits and leads.
-- Compounding authority: As evergreen resources gather backlinks and internal links, their topical authority grows boosting trust with Google and buyers.
+- Compounding authority: As evergreen resources gather [backlinks](/glossary/what-is-a-backlink/) and internal links, their topical authority grows boosting trust with Google and buyers.
 - Low maintenance myth: Many teams treat evergreen as “set and forget,” but even the best guides need annual updates to maintain accuracy and rankings.
 - Strategic clustering: True evergreen content anchors content clusters, acting as pillar pages for related subtopics, FAQs, and comparisons.
 
@@ -47,7 +47,7 @@ Here’s the pattern interrupt: most teams believe evergreen content is a shortc
 
 Evergreen content is the backbone of lasting SaaS SEO, but most teams chase “viral” spikes instead. The biggest winners in SaaS organic search aren’t the teams with the most blog posts they’re the ones with the best-maintained evergreen guides and resource pages. Here’s why it matters:
 
-- Sustained lead generation: Evergreen pages keep ranking and driving demo requests, trials, and signups long after launch.
+- Sustained [lead generation](/glossary/what-is-lead-generation/): Evergreen pages keep ranking and driving demo requests, trials, and signups long after launch.
 - Stable acquisition costs: Quality evergreen pieces reduce your dependence on paid campaigns, lowering CAC over time.
 - Compounds with age: Each high-performing evergreen piece acts as a durable traffic and lead engine, especially as it accumulates backlinks and authority.
 - Content flywheel: Strong evergreen resources anchor content clusters, letting you build out supporting blog posts, case studies, and comparison pages.
@@ -63,7 +63,7 @@ Trackflow, a project management SaaS for creative agencies, spent 18 months publ
 
 ## What Types of Content Are Truly Evergreen?
 
-Here’s what most marketers get wrong: not every “how-to” or “guide” is evergreen just because it isn’t news. Real evergreen content meets three tests timeless demand, low volatility, and ongoing usefulness for your ICP. Some formats work better than others:
+Here’s what most marketers get wrong: not every “how-to” or “guide” is evergreen just because it isn’t news. Real evergreen content meets three tests timeless demand, low volatility, and ongoing usefulness for your [ICP](/glossary/what-is-icp/). Some formats work better than others:
 
 - Foundational guides: Deep explainers on core topics like “What Is SaaS Churn Rate?” or “SaaS Onboarding Checklist” that answer questions year-round.
 - Resource libraries: Curated lists of tools, templates, or integrations updated with new releases and retirements.
@@ -85,7 +85,7 @@ Publishing another “Ultimate Guide” isn’t a strategy. Here’s what actual
 - Content clustering: Build around pillar topics, then add supporting pages (FAQs, tools, comparisons) that link internally.
 - Update cadence: Schedule quarterly or biannual reviews to refresh stats, screenshots, and links don’t let pages go stale.
 - Authority building: Earn backlinks to your pillars through guest posts, resource swaps, and industry partnerships.
-- SERP monitoring: Track ranking changes and competitor updates monthly Google rewards freshness even on “evergreen” topics.
+- [SERP](/glossary/what-is-serp/) monitoring: Track ranking changes and competitor updates monthly Google rewards freshness even on “evergreen” topics.
 
 Most SaaS teams publish a guide, add it to the nav, and hope for the best. That’s not strategy it’s wishful thinking. The teams that win treat evergreen as living assets, not one-and-done projects.
 

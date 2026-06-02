@@ -116,6 +116,10 @@ Some clients found the onboarding process required significant time and effort t
 
 ---
 
+Want a side-by-side? See our [PipeRocket vs KlientBoost](/compare/piperocket-digital-vs-klientboost/) breakdown.
+
+
+
 ### 2. PipeRocket Digital
 
 Best for: B2B SaaS Companies That Need Full-Funnel PPC Tied to Pipeline and Closed-Won Revenue
@@ -244,6 +248,10 @@ Some clients have experienced change with regard to their account team in the pa
 | Clutch Rating | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
 
 ---
+
+Weighing PipeRocket against Directive Consulting? Our [Directive Consulting comparison](/compare/piperocket-vs-directive-consulting/) covers the four things founders ask about most.
+
+
 
 ### 4. Disruptive Advertising
 
@@ -445,7 +453,7 @@ Best for: Transparent Pricing and Accessible Entry Points for Mid-Market B2B Tea
 
 {{< agency-triptych slug="webfx" name="WebFX" >}}
 
-WebFX is one of the largest performance marketing agencies in the US. What makes them stand out for budget-conscious B2B teams is transparent pricing paired with technology-driven PPC management. They have 500+ client testimonials, consistent 4.9/5 Clutch ratings, and over 50 industry awards.
+WebFX is one of the largest [performance marketing agencies](/list/top-performance-marketing-agencies/) in the US. What makes them stand out for budget-conscious B2B teams is transparent pricing paired with technology-driven PPC management. They have 500+ client testimonials, consistent 4.9/5 Clutch ratings, and over 50 industry awards.
 
 **At a Glance**
 | | |
@@ -500,6 +508,10 @@ Some clients note that as a large agency with 500+ employees, WebFX can feel les
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes marketing audit and strategy session |
+
+
+For a head-to-head on paid, organic, and pricing, see [PipeRocket vs WebFX](/compare/piperocket-digital-vs-webfx/).
+
 | Clutch Rating | 4.9/5 (500+ reviews) |
 
 ---

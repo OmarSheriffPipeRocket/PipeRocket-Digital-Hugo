@@ -136,7 +136,7 @@ Enterprise SaaS companies that are structuring their content for direct answers,
 
 ## Why Enterprise SaaS Companies Trust PipeRocket to Scale Their Organic Program
 
-Enterprise SEO at scale requires more than a content calendar and a keyword tool. It requires a team that can navigate the organizational complexity, build the technical governance, and connect every organic touchpoint to a pipeline outcome that survives scrutiny from the CFO.
+[Enterprise SEO](/blogs/enterprise-seo-guide/) at scale requires more than a content calendar and a keyword tool. It requires a team that can navigate the organizational complexity, build the technical governance, and connect every organic touchpoint to a pipeline outcome that survives scrutiny from the CFO.
 
 PipeRocket was built specifically for this. Before any keyword tool opens, the team goes inside your sales call recordings, maps each ICP across your product lines, and builds a demand model that starts with your revenue target and works backwards to the content, technical, and link investments required to hit it.
 

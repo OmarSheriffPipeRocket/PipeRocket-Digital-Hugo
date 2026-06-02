@@ -15,19 +15,19 @@ toc: true
 readingTime: "8 min read"
 ---
 
-Off page SEO is the process of improving your website’s authority and rankings by earning backlinks and trust signals from other sites. It matters because Google uses these signals to judge credibility strong off page SEO leads to higher rankings and more organic traffic.
+Off page SEO is the process of improving your website’s authority and rankings by earning [backlinks](/glossary/what-is-a-backlink/) and trust signals from other sites. It matters because Google uses these signals to judge credibility strong off page SEO leads to higher rankings and more organic traffic.
 
 ## TL;DR
 
 - Off page SEO means building authority and trust signals outside your own website, mainly through quality backlinks and third-party mentions.
-- Most SaaS teams focus on content and technical SEO but ignore off page strategy, missing out on compounding ranking gains.
+- Most SaaS teams focus on content and [technical SEO](/glossary/what-is-technical-seo/) but ignore off page strategy, missing out on compounding ranking gains.
 - Google’s ranking algorithm heavily weights off page signals backlinks from high-authority sites can boost rankings faster than on-page tweaks alone.
 - Spammy link building or chasing quantity over quality can backfire, causing penalties or suppressed rankings.
 - Brands with a balanced off page SEO approach see up to 2x higher organic growth rates than those relying on on-page optimizations only.
 
 ## What Is Off Page SEO?
 
-Off page SEO is everything you do to improve your website’s reputation and authority beyond your own pages. The main driver is earning trustworthy backlinks from other websites, but it also includes brand mentions, social signals, and external reviews. Here’s the tension: most SaaS teams obsess over technical fixes and pumping out blog posts, thinking that’s enough. But Google doesn’t just count what’s on your site it cares much more about who else is willing to vouch for you. That’s what off page SEO delivers.
+Off page [SEO](/glossary/what-is-seo/) is everything you do to improve your website’s reputation and authority beyond your own pages. The main driver is earning trustworthy backlinks from other websites, but it also includes brand mentions, social signals, and external reviews. Here’s the tension: most SaaS teams obsess over technical fixes and pumping out blog posts, thinking that’s enough. But Google doesn’t just count what’s on your site it cares much more about who else is willing to vouch for you. That’s what off page SEO delivers.
 
 - Backlink building: Getting relevant, authoritative sites to link to your pages signals trust to Google and other search engines.
 - Brand mentions: When others talk about your brand (even without links), it reinforces your credibility and relevance.
@@ -37,7 +37,7 @@ Off page SEO is everything you do to improve your website’s reputation and aut
 
 Here’s what it looks like in practice: Imagine Lead Grid, a CRM SaaS for real estate agencies. Their blog post on “modern real estate lead nurturing” gets picked up by Inman, the industry’s top news site, with a direct link. That single link moves Lead Grid’s page from #8 to #3 for a high-intent keyword, driving 450% more monthly signups from organic search.
 
-What this means is simple: even the best on-page SEO can hit a ceiling. Authority is borrowed from outside your domain and Google tracks those signals closely. Ignore off page SEO, and you’ll watch competitors with leaner sites leapfrog you in the rankings.
+What this means is simple: even the best [on-page SEO](/glossary/what-is-on-page-seo/) can hit a ceiling. Authority is borrowed from outside your domain and Google tracks those signals closely. Ignore off page SEO, and you’ll watch competitors with leaner sites leapfrog you in the rankings.
 
 **Fast Fact:** Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
@@ -109,7 +109,7 @@ On page SEO is everything you control on your site: content, meta tags, internal
 
 ### How long does it take to see results from off page SEO?
 
-For most SaaS sites, it takes 2 to 6 months to see meaningful ranking movement from a sustained off page SEO push. High-authority backlinks can cause jumps within weeks, but compounding domain authority (and big keyword wins) usually builds over quarters, not days.
+For most SaaS sites, it takes 2 to 6 months to see meaningful ranking movement from a sustained off page SEO push. High-authority backlinks can cause jumps within weeks, but compounding [domain authority](/glossary/what-is-domain-authority/) (and big keyword wins) usually builds over quarters, not days.
 
 ### What’s the safest off page SEO strategy for SaaS?
 

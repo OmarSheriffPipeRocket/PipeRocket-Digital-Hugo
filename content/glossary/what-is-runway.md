@@ -54,7 +54,7 @@ A cleaner approach is to use your most recent month’s net burn as the baseline
 
 - Net burn vs gross burn: Always use net burn for runway. Gross burn ignores your revenue entirely it’s useful for understanding cost structure, not survival timeline.
 - Include all cash outflows: Contractor payments, annual software renewals, and one-time costs like legal fees get missed constantly. A quarterly audit of every payment line is worth the two hours.
-- Exclude committed but unreceived revenue: ARR that’s contracted but not yet paid doesn’t belong in your cash balance. Until it clears, it’s not real for runway purposes.
+- Exclude committed but unreceived revenue: [ARR](/glossary/what-is-arr/) that’s contracted but not yet paid doesn’t belong in your cash balance. Until it clears, it’s not real for runway purposes.
 - Account for seasonality: If your business has natural revenue dips in Q1 or Q3, your average burn calculation will understate risk during those months.
 - Reforecast monthly: A runway number calculated in January is stale by March. Build a simple rolling forecast cash in, cash out, months remaining and update it every 30 days.
 

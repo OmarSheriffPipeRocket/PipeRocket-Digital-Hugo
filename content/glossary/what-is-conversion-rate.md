@@ -82,7 +82,7 @@ The biggest mistake is treating conversion rate as a one-size-fits-all number or
 
 - Vanity metrics: Reporting “all signups” as a conversion win, even if most never activate or pay, gives a false sense of progress.
 - Ignoring segmentation: Lumping all traffic together hides that paid search, organic, and referral convert differently fixes that improve one channel might tank another.
-- Benchmark chasing: Copying a “good” conversion rate from a blog post or industry report ignores your unique context and ICP.
+- Benchmark chasing: Copying a “good” conversion rate from a blog post or industry report ignores your unique context and [ICP](/glossary/what-is-icp/).
 - Over-focusing on the front end: Teams that only optimize landing page or ad conversion miss bigger wins in onboarding, activation, or expansion.
 - Neglecting post-conversion: Thinking conversion ends at signup, instead of tracking new user activation, upsell, and renewal as conversion events that matter just as much.
 

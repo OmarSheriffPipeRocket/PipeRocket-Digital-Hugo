@@ -307,6 +307,10 @@ Siege's published rate on Clutch is $100-$149/hr with a $5,000+ minimum project,
 | Free Consultation | Yes |
 | Clutch Rating | 4.9/5 (46 reviews) |
 
+Want a side-by-side? See our [PipeRocket vs Siege Media](/compare/piperocket-digital-vs-siege-media/) breakdown.
+
+
+
 ### 5. Above Apex
 
 Best for: B2B SaaS buyers who want a vertical-only boutique with HARO depth
@@ -361,7 +365,7 @@ Clutch lists Above Apex at $50-$99/hr with a minimum project of $5,000+, as of J
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Project | $5,000+ minimum | Hourly engagement, SaaS link campaigns |
-| Retainer | Custom | Monthly SaaS link building, HARO inclusions |
+| Retainer | Custom | Monthly [SaaS link building](/blogs/saas-link-building/), HARO inclusions |
 | White-label | Custom | Fulfillment for other agencies |
 
 | Criteria | Detail |

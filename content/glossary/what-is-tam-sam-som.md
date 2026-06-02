@@ -60,7 +60,7 @@ This method works best for early-stage pitches where you need to establish that 
 
 ### Bottom-Up Method
 
-Count the actual accounts that fit your ICP. Use tools like Linked In Sales Navigator, Apollo, or Clearbit to pull a universe of companies that match your target profile. Multiply that count by your average annual contract value.
+Count the actual accounts that fit your [ICP](/glossary/what-is-icp/). Use tools like Linked In Sales Navigator, Apollo, or Clearbit to pull a universe of companies that match your target profile. Multiply that count by your average annual contract value.
 
 If there are 8,000 mid-sized logistics companies in North America that match your ICP, and your ACV is $12,000, your SAM is roughly $96M. That’s a number you can defend because you built it from real data.
 
@@ -77,7 +77,7 @@ A lot of founders obsess over TAM because it’s the biggest number and it sound
 Your SAM shapes everything downstream: which channels you invest in, what your pricing needs to be, how many sales reps you need to hit your targets, and whether a PLG motion makes sense or whether you need a direct sales team.
 
 - Channel fit: A SAM built on enterprise accounts requires outbound sales and long cycles. A SAM of SMBs might suit a self-serve motion. The SAM defines the go-to-market, not the other way around.
-- Pricing validation: If your SAM is 5,000 accounts and you need $10M ARR, your ACV needs to be $2,000 minimum. That math either works or it doesn’t SAM makes it visible.
+- Pricing validation: If your SAM is 5,000 accounts and you need $10M [ARR](/glossary/what-is-arr/), your ACV needs to be $2,000 minimum. That math either works or it doesn’t SAM makes it visible.
 - Hiring plan: Knowing your SAM lets you work backwards to headcount. A $50M SAM doesn’t need a 30-person sales team in year two. A $500M SAM might.
 - Investor narrative: SAM tells investors whether you’ve thought past the idea. It signals operational maturity, not just market enthusiasm.
 

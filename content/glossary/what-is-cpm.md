@@ -46,7 +46,7 @@ Here’s what this means in practice: CPM is useful for benchmarking reach and e
 ### How to Use CPM in Your SaaS Marketing
 
 - Benchmark by channel: Track CPM on Linked In, Google Display, Facebook, and programmatic separately to see where you’re overpaying for impressions.
-- Pair CPM with conversion metrics: Always measure CPM alongside cost-per-lead (CPL) and cost-per-acquisition (CPA) to see if reach is actually generating results.
+- Pair CPM with conversion metrics: Always measure CPM alongside cost-per-lead (CPL) and cost-per-acquisition ([CPA](/glossary/what-is-cpa/)) to see if reach is actually generating results.
 - Adjust targeting, not just spend: High CPMs can be worth paying if your audience is tightly qualified don’t cut CPM at the expense of quality.
 - Use CPM for brand campaigns, not direct response: CPM is best for awareness or retargeting, where the goal is repeated exposure, not immediate clicks.
 - Watch frequency: Track how many times each user sees your ad; high CPM can be the result of overexposing a tiny audience rather than expanding reach.
@@ -55,7 +55,7 @@ Here’s what this means in practice: CPM is useful for benchmarking reach and e
 
 ## How Is CPM Different from CPC and CPA?
 
-It’s easy to confuse CPM with CPC (cost-per-click) and CPA (cost-per-acquisition). But the differences matter especially for SaaS, where pipeline and revenue are what count. CPM measures cost to show ads, CPC tracks cost to get a click, and CPA tracks cost to get a signup, lead, or sale. Most teams default to CPM because it’s easy to compare, but clicks and conversions are what actually build pipeline.
+It’s easy to confuse CPM with [CPC](/glossary/what-is-cost-per-click/) (cost-per-click) and CPA (cost-per-acquisition). But the differences matter especially for SaaS, where pipeline and revenue are what count. CPM measures cost to show ads, CPC tracks cost to get a click, and CPA tracks cost to get a signup, lead, or sale. Most teams default to CPM because it’s easy to compare, but clicks and conversions are what actually build pipeline.
 
 - CPM (cost per mille): Cost for every 1,000 impressions, regardless of action.
 - CPC (cost per click): Cost you pay each time a user actually clicks your ad.
@@ -68,7 +68,7 @@ It’s easy to confuse CPM with CPC (cost-per-click) and CPA (cost-per-acquisiti
 | CPC | Cost per click | Direct response, traffic | Doesn’t guarantee conversion | Traffic campaigns, content promotion |
 | CPA | Cost per acquisition/action | Lead gen, trials, sales | Can be volatile if sample size is small | Optimizing for pipeline or revenue |
 
-Most SaaS founders obsess over getting CPM as low as possible. That’s incomplete low CPM is worthless if the audience never clicks or converts. High CPM can be the smartest buy if it brings in engaged, ICP-matched leads that actually use your product.
+Most SaaS founders obsess over getting CPM as low as possible. That’s incomplete low CPM is worthless if the audience never clicks or converts. High CPM can be the smartest buy if it brings in engaged, [ICP](/glossary/what-is-icp/)-matched leads that actually use your product.
 
 **Fast Fact:** CPM optimization alone can mislead B2B teams programmatic display CPMs are often less than $3, but Linked In’s $30+ CPM can produce 10x higher-quality leads.
 
@@ -84,7 +84,7 @@ There’s no “standard” CPM rates swing dramatically by platform, time of ye
 - Seasonality and auction pressure: CPMs skyrocket during Q4, Black Friday, SaaS conference seasons, or when competitors ramp up spend.
 - Geography and device: Targeting North America or C-level exclusively will always be pricier than global or all-employee audiences.
 
-Here’s the trade-off: hyper-targeted CPM campaigns (like Linked In ABM to Fortune 500 CTOs) cost more per 1,000 impressions but waste far less budget on irrelevant eyeballs. It’s worth the higher CPM if you’re laser-focused on buyers who can actually buy and expand. But for PLG SaaS with a large TAM, broad, lower-CPM channels can make sense early.
+Here’s the trade-off: hyper-targeted CPM campaigns (like Linked In [ABM](/glossary/what-is-abm/) to Fortune 500 CTOs) cost more per 1,000 impressions but waste far less budget on irrelevant eyeballs. It’s worth the higher CPM if you’re laser-focused on buyers who can actually buy and expand. But for PLG SaaS with a large TAM, broad, lower-CPM channels can make sense early.
 
 Trackflow, a project management SaaS for creative agencies, targeted only agency founders in major US metros on Linked In. Their CPM was $45 almost 10x higher than display ads but demo bookings from those impressions rose 4x compared to broader campaigns.
 

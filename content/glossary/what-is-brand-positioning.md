@@ -54,7 +54,7 @@ Strong positioning protects you from commoditization. It drives higher pricing p
 - Content that works: Positioning guides your content, so you attract leads who convert, not just visitors who bounce.
 - Less churn: Customers who buy for the right reasons stick around longer and become advocates.
 
-Here’s a real trade-off: Narrow positioning wins loyalty from a tight ICP, but it means saying “no” to tempting, adjacent segments that seem close enough to chase. It’s worth it if you want reliable expansion revenue the customers you “lose” would have burned support time and churned anyway.
+Here’s a real trade-off: Narrow positioning wins loyalty from a tight [ICP](/glossary/what-is-icp/), but it means saying “no” to tempting, adjacent segments that seem close enough to chase. It’s worth it if you want reliable expansion revenue the customers you “lose” would have burned support time and churned anyway.
 
 The trap? Many SaaS teams assume their positioning is “clear enough” because everyone internally knows what they’re building. But if your website, your SDRs, and your paid ads all describe you differently, your positioning is already broken you just haven’t felt the pain yet.
 
@@ -100,13 +100,13 @@ Brand positioning should drive every marketing campaign, sales sequence, and eve
 
 Teams that treat positioning as “just a website exercise” miss the point: it’s the filter for every decision which channels to double down on, which conferences to sponsor, which integrations to build, and what messaging your SDRs lead with.
 
-- Tighter targeting: Paid channels (like SaaS PPC or Google Ads) work best when your creative speaks directly to your core audience.
+- Tighter targeting: Paid channels (like [SaaS PPC](/blogs/saas-ppc/) or Google Ads) work best when your creative speaks directly to your core audience.
 - Content alignment: Your blog, SEO, and email all work together when guided by the same positioning you publish less, but every piece pulls its weight.
 - Sales enablement: Sales decks, demo scripts, and objection handling flow naturally when anchored in your position, not just feature lists.
 - Conversion optimization: Landing pages convert better when they echo the exact problem and vocabulary your ICP cares about.
 - Expansion and upsell: When customers see you as the “only” answer for their problem, they’re more likely to adopt new features and refer others.
 
-Here’s the contrarian insight most miss: Content and performance marketing teams often chase top-of-funnel volume, but that’s backwards if your positioning isn’t already razor-sharp. More traffic just means more unqualified leads and more wasted spend. The real work is upstream nailing positioning before scaling acquisition.
+Here’s the contrarian insight most miss: Content and [performance marketing](/glossary/what-is-performance-marketing/) teams often chase top-of-funnel volume, but that’s backwards if your positioning isn’t already razor-sharp. More traffic just means more unqualified leads and more wasted spend. The real work is upstream nailing positioning before scaling acquisition.
 
 If your SaaS is running paid ads or content campaigns that convert poorly, review your positioning before blaming the channels. Sometimes, working with a [SaaS PPC agency](/list/best-saas-ppc-agencies/) that insists on a positioning audit before launching ads can save you months of wasted budget.
 
