@@ -2086,12 +2086,12 @@ a.pr-hero__cta:hover,
   transform: scale(0.85);
   transform-origin: center center;
 }
-.pr-testimonials article:nth-child(1) .pr-testimonial__stroke { bottom: -20px; right: -10px; }
-.pr-testimonials article:nth-child(2) .pr-testimonial__stroke { top: 0px; right: -5px; }
-.pr-testimonials article:nth-child(3) .pr-testimonial__stroke { bottom: 60px; right: -4px; }
-.pr-testimonials article:nth-child(4) .pr-testimonial__stroke { bottom: -20px; right: -10px; }
-.pr-testimonials article:nth-child(5) .pr-testimonial__stroke { top: 130px; right: -10px; }
-.pr-testimonials article:nth-child(6) .pr-testimonial__stroke { bottom: 370px; right: -6px; }
+.pr-testimonials article:nth-child(1) .pr-testimonial__stroke { bottom: 370px; right: -6px; }
+.pr-testimonials article:nth-child(2) .pr-testimonial__stroke { bottom: -20px; right: -10px; }
+.pr-testimonials article:nth-child(3) .pr-testimonial__stroke { top: 0px; right: -5px; }
+.pr-testimonials article:nth-child(4) .pr-testimonial__stroke { bottom: 60px; right: -4px; }
+.pr-testimonials article:nth-child(5) .pr-testimonial__stroke { bottom: -20px; right: -10px; }
+.pr-testimonials article:nth-child(6) .pr-testimonial__stroke { top: 130px; right: -10px; }
 .pr-testimonial__quote {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -2147,19 +2147,12 @@ a.pr-hero__cta:hover,
   .pr-testimonial__logo { height: 20px; max-width: 100%; }
   .pr-testimonial__author > div { min-width: 0; flex: 1 1 0; overflow: hidden; }
 }
-.pr-testimonials article:nth-child(3) .pr-testimonial__logo {
+/* HyperStart logo nudge (now at child 4) */
+.pr-testimonials article:nth-child(4) .pr-testimonial__logo {
   margin-top: -5px;
 }
-/* Cyber Sierra PNG has left whitespace — pull logo left */
+/* DevRev logo is upscaled — bring it down to natural size (now at child 6) */
 .pr-testimonials article:nth-child(6) .pr-testimonial__logo {
-  height: 28px;
-  transform: scale(1.2);
-  transform-origin: left center;
-  margin-top: -5px;
-  margin-left: -8px;
-}
-/* DevRev logo is upscaled — bring it down to natural size */
-.pr-testimonials article:nth-child(5) .pr-testimonial__logo {
   height: 20px;
   margin-top: 6px;
 }
