@@ -257,8 +257,18 @@
   check();
 })();
 
+// Capture form values continuously so we still have them after submit
+window.__prContactValues = { email: '', firstname: '' };
+document.addEventListener('input', function (e) {
+  var t = e.target;
+  if (!t || !t.name) return;
+  if (t.name === 'email') window.__prContactValues.email = (t.value || '').trim();
+  if (t.name === 'firstname') window.__prContactValues.firstname = (t.value || '').trim();
+}, true);
+
 window.addEventListener('message', function (e) {
-  if (e.data && e.data.type === 'hsFormCallback' && e.data.eventName === 'onFormSubmitted') {
+  if (e.data && e.data.type === 'hsFormCallback' && (e.data.eventName === 'onFormSubmitted' || e.data.eventName === 'onFormSubmit')) {
+    // Existing rocket animation
     document.querySelectorAll('[data-compare-rocket]').forEach(function (el) {
       el.style.transition = 'none';
       el.classList.remove('is-visible');
@@ -266,8 +276,77 @@ window.addEventListener('message', function (e) {
       el.style.transition = '';
       setTimeout(function () { el.classList.add('is-visible'); }, 50);
     });
+
+    // Open calendar modal with pre-filled values
+    if (e.data.eventName === 'onFormSubmitted') {
+      try {
+        var vals = window.__prContactValues || {};
+        // Try payload first (newer HubSpot embeds include submissionValues), fall back to captured inputs
+        var payload = (e.data.data && (e.data.data.submissionValues || e.data.data)) || {};
+        var email = payload.email || vals.email || '';
+        var fullname = (payload.firstname || payload.firstName || vals.firstname || '').trim();
+        // Split full name → first word = first name, rest = last name
+        var parts = fullname.split(/\s+/);
+        var firstname = parts.shift() || '';
+        var lastname = parts.join(' ') || firstname; // fallback to firstname so HubSpot doesn't block
+        var meetingUrl = "https://meetings-na2.hubspot.com/praveen-ravi/web-form-meeting-scheduler"
+          + "?embed=true"
+          + "&email=" + encodeURIComponent(email)
+          + "&firstName=" + encodeURIComponent(firstname)
+          + "&lastName=" + encodeURIComponent(lastname);
+        var container = document.getElementById('pr-calendar-container');
+        if (container) {
+          container.innerHTML = '<iframe src="' + meetingUrl + '" width="100%" height="650" frameborder="0" style="border:0;border-radius:8px;"></iframe>';
+        }
+        var modal = document.getElementById('pr-calendar-modal');
+        if (modal) {
+          modal.style.display = 'flex';
+          document.body.style.overflow = 'hidden';
+        }
+      } catch (err) {
+        console.error('Calendar modal error:', err);
+      }
+    }
+  }
+});
+
+// Close the calendar modal
+document.addEventListener('click', function (e) {
+  var modal = document.getElementById('pr-calendar-modal');
+  if (!modal) return;
+  if (e.target.id === 'pr-calendar-close' || e.target.id === 'pr-calendar-modal') {
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+    var c = document.getElementById('pr-calendar-container');
+    if (c) c.innerHTML = '';
+  }
+});
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') {
+    var modal = document.getElementById('pr-calendar-modal');
+    if (modal && modal.style.display !== 'none') {
+      modal.style.display = 'none';
+      document.body.style.overflow = '';
+      var c = document.getElementById('pr-calendar-container');
+      if (c) c.innerHTML = '';
+    }
   }
 });
 </script>
+
+<!-- ====================================================
+     CALENDAR MODAL (opens after form submission)
+     ==================================================== -->
+<div id="pr-calendar-modal" role="dialog" aria-modal="true" aria-labelledby="pr-calendar-title"
+     style="display:none; position:fixed; inset:0; background:rgba(13,13,13,0.7); z-index:9999; align-items:flex-start; justify-content:center; padding:5vh 16px; overflow-y:auto;">
+  <div style="background:#fff; width:100%; max-width:900px; border-radius:12px; padding:24px; position:relative; box-shadow:0 20px 60px rgba(0,0,0,0.3);">
+    <button id="pr-calendar-close" aria-label="Close"
+            style="position:absolute; right:14px; top:14px; width:32px; height:32px; border:0; background:transparent; color:#5C5C5C; font-size:20px; cursor:pointer; line-height:1; border-radius:6px;">✕</button>
+    <h5 id="pr-calendar-title" style="margin:0 0 16px; padding-right:32px; font-size:18px; font-weight:600; color:#0D0D0D; line-height:1.4;">
+      Discuss your growth bottlenecks and how PipeRocket can help hit your revenue goals.
+    </h5>
+    <div id="pr-calendar-container"></div>
+  </div>
+</div>
 
 {{ end }}
