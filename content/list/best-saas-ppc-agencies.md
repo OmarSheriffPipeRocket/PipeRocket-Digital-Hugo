@@ -42,13 +42,13 @@ A bad SaaS PPC agency burns six months of runway on clicks that never become opp
 | Directive Consulting | High-ACV B2B SaaS | Custom pricing | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
 | PipeRocket Digital | B2B SaaS pipeline | Custom pricing | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Disruptive Advertising | Waste elimination | Custom pricing | Yes | [4.8/5 (365 reviews)](https://clutch.co/profile/disruptive-advertising) |
-| Powered by Search | Product-led SaaS | Custom pricing | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/powered-search) |
+| Powered by Search | Product-led SaaS | Custom pricing | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 | Bounty Hunter | SQL optimization | [$1,500/mo](https://bountyhunter.agency/saas-ppc-agency) | Yes | [4.9/5 (11 reviews)](https://clutch.co/profile/bounty-hunter) |
 | KlientBoost | Multi-channel growth | Custom pricing | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
 | Single Grain | AI-enhanced execution | Custom pricing | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
 | NoGood | Rapid creative testing | [$20,000/mo](https://nogood.io) | Yes | [Verified on Clutch (1 review)](https://clutch.co/profile/nogood) |
 | NinjaPromo | Multi-platform coordination | [$4,000/mo](https://ninjapromo.io) | Yes | [4.9/5 (82 reviews)](https://clutch.co/profile/ninja-promo) |
-| Kalungi | Pre-Series B fractional CMO | Custom pricing | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/kalungi) |
+| Kalungi | Pre-Series B fractional CMO | Custom pricing | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
 ## How We Chose These SaaS PPC Agencies?
 
@@ -306,7 +306,7 @@ Buyers verifying through [the Clutch profile](https://clutch.co/profile/powered-
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, strategy call before scoping |
-| Clutch Rating | Verified on Clutch (0 reviews) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
 ### 5. Bounty Hunter
 
@@ -678,7 +678,7 @@ The [Clutch profile](https://clutch.co/profile/kalungi) is live but holds no ver
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, fractional CMO scoping call |
-| Clutch Rating | Verified on Clutch (0 reviews) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
 ## FAQs
 

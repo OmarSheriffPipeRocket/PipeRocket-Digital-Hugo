@@ -41,11 +41,11 @@ Picking the wrong growth partner can quietly burn a year of runway, so we cross-
 | Directive Consulting | Mid-market and enterprise SaaS pipeline | [$6,500/mo](https://directiveconsulting.com) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
 | PipeRocket Digital | B2B SaaS revenue-first growth | [$5,000/mo](/contact-us/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
 | NoGood | High-velocity SaaS experimentation | [$20,000/mo](https://nogood.io) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
-| Kalungi | Fractional CMO for early-stage SaaS | [$6,500/mo](https://www.kalungi.com) | Yes | Verified on Clutch (0 reviews) |
+| Kalungi | Fractional CMO for early-stage SaaS | [$6,500/mo](https://www.kalungi.com) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 | Refine Labs | SaaS demand creation, away from MQLs | Custom pricing | Yes | Verified on Clutch (0 reviews) |
 | Single Grain | Multi-channel SaaS execution | [$5,000/mo](https://www.singlegrain.com) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
 | Skale | SaaS SEO and GEO tied to pipeline | [$5,000/mo](https://skale.so/) | Yes | [4.9/5 (16 reviews)](https://clutch.co/profile/skale-0) |
-| Powered by Search | SaaS demand system, paid plus SEO | [$5,000/mo](https://www.poweredbysearch.com/) | Yes | Verified on Clutch (0 reviews) |
+| Powered by Search | SaaS demand system, paid plus SEO | [$5,000/mo](https://www.poweredbysearch.com/) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 | Omniscient Digital | Editorial-led SaaS content authority | [$10,000/mo](https://beomniscient.com/) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
 
 ## How We Chose These SaaS Growth Marketing Agencies?
@@ -312,7 +312,7 @@ Coaching engagements begin around $6,500/mo and full-service tiers reach $45,000
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoping call via kalungi.com |
-| Clutch Rating | Verified on Clutch (0 reviews) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
 ### 5. Refine Labs
 
@@ -568,7 +568,7 @@ Pricing starts at $5,000/mo with custom retainers based on demand-system scope a
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, intake via poweredbysearch.com |
-| Clutch Rating | Verified on Clutch (0 reviews) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
 ### 9. Omniscient Digital
 

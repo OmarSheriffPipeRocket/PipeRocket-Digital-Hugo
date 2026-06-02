@@ -41,14 +41,14 @@ Choosing wrong here costs you 6 to 12 months of content that no engineer reads, 
 | --- | --- | --- | --- | --- |
 | Draft.dev | Engineer-written technical content | [$9,000/mo](https://draft.dev/) | Yes | No verified Clutch profile |
 | PipeRocket Digital | Developer adoption to enterprise pipeline | [$5,000/mo](/contact-us/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
-| Powered by Search | B2B SaaS demand-gen with technical-buyer depth | [Custom pricing](https://www.poweredbysearch.com/) | Yes | Verified on Clutch (0 reviews) |
+| Powered by Search | B2B SaaS demand-gen with technical-buyer depth | [Custom pricing](https://www.poweredbysearch.com/) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 | Perceptric | B2B SaaS SEO with published pricing | [$2,000/mo](https://perceptric.com/) | Yes | No verified Clutch profile |
 | Animalz | Editorial content for engineering-led SaaS | [$10,000/mo](https://www.animalz.co/) | Yes | Verified on Clutch (0 reviews) |
 | EveryDeveloper | Developer-content strategy plus docs | [Custom pricing](https://everydeveloper.com/) | Yes | No verified Clutch profile |
 | Dev Spotlight | Deep technical tutorials | [Custom pricing](https://www.devspotlight.com/) | Yes | No verified Clutch profile |
 | GrowthSpree | AI-native B2B SaaS demand gen | [Custom pricing](https://growthspreeofficial.com/) | Yes | Verified on Clutch (0 reviews) |
 | Refine Labs | Dark-social demand creation | [Custom pricing](https://refinelabs.com/) | Yes | Verified on Clutch (0 reviews) |
-| Kalungi | Fractional CMO for VC-backed SaaS | [$6,500/mo](https://www.kalungi.com/) | Yes | Verified on Clutch (0 reviews) |
+| Kalungi | Fractional CMO for VC-backed SaaS | [$6,500/mo](https://www.kalungi.com/) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
 ## How We Chose These DevTools Marketing Agencies?
 
@@ -250,7 +250,7 @@ As of June 2026, Powered by Search publishes no retainer rate. [Clutch](https://
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, strategy call available |
-| Clutch Rating | Verified on Clutch (0 reviews) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
 ### 4. Perceptric
 
@@ -698,7 +698,7 @@ As of June 2026, Kalungi structures three published tiers. Coaching engagements 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, discovery call available |
-| Clutch Rating | Verified on Clutch (0 reviews) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
 ## FAQs
 

@@ -48,7 +48,7 @@ Picking the wrong agency in this category costs you a quarter of generic SaaS co
 | Gripped | European B2B SaaS pipeline | [£5,000/mo](https://gripped.io/) | Yes | [4.9/5 (32 reviews)](https://clutch.co/profile/gripped) |
 | Firebrand Marketing | PR plus AI-search visibility | [$10,000/mo](https://www.firebrand.marketing/) | Yes | Verified on Clutch (0 reviews) |
 | Concurate | Narrow-lens HR content | [$5,000/mo](https://concurate.com/hr-tech-content-agency/) | Yes | [5.0/5 (2 reviews)](https://clutch.co/profile/concurate) |
-| Kalungi | Fractional CMO for funded SaaS | [$25,000 project minimum](https://www.kalungi.com) | Yes | Verified on Clutch (0 reviews) |
+| Kalungi | Fractional CMO for funded SaaS | [$25,000 project minimum](https://www.kalungi.com) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 | SEO-GrowUp | HR tech SEO and GEO | [£5,500/mo](https://www.seo-growup.com/seo-agency-for-hr-tech) | Yes | No verified Clutch profile |
 | Corporate Ink | Workforce-tech PR | [Custom pricing](https://corporateink.com/) | Yes | [5.0/5 (5 reviews)](https://clutch.co/profile/corporate-ink) |
 
@@ -654,7 +654,7 @@ Kalungi's documented project minimum is $25,000 with hourly rates of $100-$149, 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Clutch Rating | Verified on Clutch (0 reviews) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
 ### 10. SEO-GrowUp
 

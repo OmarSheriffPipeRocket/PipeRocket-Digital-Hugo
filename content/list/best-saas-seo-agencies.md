@@ -44,13 +44,13 @@ Picking the wrong SaaS SEO partner costs more than retainer fees: it costs you s
 | PipeRocket Digital | B2B SaaS pipeline SEO | [$5,000/mo](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
 | Loopex Digital | SaaS link building + PR | [Custom pricing](https://www.loopexdigital.com/) | Yes | [5.0/5 (84 reviews)](https://clutch.co/profile/loopex-digital) |
 | Breaking B2B | BOFU SaaS content | [Custom pricing](https://www.breakingb2b.com/) | Yes | No Clutch profile |
-| Kalungi | Fractional SaaS GTM | [Custom pricing](https://www.kalungi.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/kalungi) |
+| Kalungi | Fractional SaaS GTM | [Custom pricing](https://www.kalungi.com/) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 | Siege Media | Premium SaaS content | [Custom pricing](https://www.siegemedia.com/) | Yes | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
 | MADX Digital | Fintech and AI-search SaaS | [Custom pricing](https://www.madx.digital/) | Yes | [5.0/5 (12 reviews)](https://clutch.co/profile/madx-digital) |
 | Omniscient Digital | Strategy-led SaaS content | [Custom pricing](https://beomniscient.com/) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
 | First Page Sage | SaaS thought leadership | [Custom pricing](https://firstpagesage.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/first-page-sage) |
 | Simple Tiger | Productized SaaS sprints | [Custom pricing](https://www.simpletiger.com/) | Yes | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
-| Powered by Search | Predictable SaaS demand-gen | [Custom pricing](https://www.poweredbysearch.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/powered-search) |
+| Powered by Search | Predictable SaaS demand-gen | [Custom pricing](https://www.poweredbysearch.com/) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
 ## How We Chose These SaaS SEO Agencies?
 
@@ -388,7 +388,7 @@ The Clutch profile is live but holds no reviews, so external validation depends 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, GTM discovery call |
-| Clutch Rating | Verified on Clutch |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
 ---
 
@@ -784,7 +784,7 @@ The Clutch profile holds zero reviews, so external validation runs through Featu
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, growth discovery |
-| Clutch Rating | Verified on Clutch |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
 ---
 

@@ -44,8 +44,8 @@ Directive and PipeRocket sit closest to martech as a core ICP, Refine Labs leads
 | 42DM | Explicit /martech/ vertical | [Custom pricing](https://42dm.net/) | Yes | [4.8/5 (16 reviews)](https://clutch.co/profile/42dm) |
 | New Breed | HubSpot + Salesforce RevOps | [Custom pricing](https://www.newbreedrevenue.com/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/new-breed) |
 | Ironpaper | B2B funnel optimization | [$25,000+ min project](https://www.ironpaper.com/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/ironpaper) |
-| Powered by Search | Enterprise SaaS demand gen | [Custom pricing](https://www.poweredbysearch.com/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/powered-search) |
-| Kalungi | Fractional CMO for Series A to C | [$25,000+ min project](https://www.kalungi.com/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/kalungi) |
+| Powered by Search | Enterprise SaaS demand gen | [Custom pricing](https://www.poweredbysearch.com/) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
+| Kalungi | Fractional CMO for Series A to C | [$25,000+ min project](https://www.kalungi.com/) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 | Cremarc | UK-based B2B tech marketing | [Custom pricing](https://www.cremarc.com/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/cremarc) |
 
 ## How We Chose These Martech Marketing Agencies?
@@ -584,7 +584,7 @@ Powered by Search bills $200 to $300/hr with a $5,000+ minimum project as of Jun
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Clutch Rating | Verified on Clutch (0 reviews) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
 ### 9. Kalungi
 
@@ -650,7 +650,7 @@ Kalungi bills $100 to $149/hr with a $25,000+ minimum project as of June 2026. R
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Clutch Rating | Verified on Clutch (0 reviews) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
 ### 10. Cremarc
 
