@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE_FILE = ROOT / "data" / "refresh-state.json"
-BATCH_SIZE = 10
+BATCH_SIZE = 6
 
 
 def load() -> dict:
