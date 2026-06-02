@@ -41,7 +41,7 @@ Picking the wrong [GEO/AEO](/aeo-geo-agency/) partner costs six months of unansw
 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
-| iPullRank | GEO as an engineering discipline | [Custom pricing](https://ipullrank.com/contact) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/ipullrank) |
+| iPullRank | GEO as an engineering discipline | [Custom pricing](https://ipullrank.com/contact) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/ipullrank) |
 | PipeRocket Digital | B2B SaaS GEO tied to pipeline | [$1,500/mo](/pricing/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
 | First Page Sage | Enterprise thought-leadership GEO | [$10,000+/project](https://firstpagesage.com/contact-us/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/first-page-sage) |
 | Omniscient Digital | Editorial B2B SaaS GEO | [Custom pricing](https://beomniscient.com/contact/) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
@@ -50,7 +50,7 @@ Picking the wrong [GEO/AEO](/aeo-geo-agency/) partner costs six months of unansw
 | Animalz | SME-led AEO content | [Custom pricing](https://www.animalz.co/contact) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/animalz) |
 | SimpleTiger | Productized SaaS GEO and AEO | [Custom pricing](https://www.simpletiger.com/contact) | Yes | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
 | WebFX | Generalist vendor with AI search | [$2,500/mo](https://www.webfx.com/seo/pricing/) | Yes | [4.9/5 (450 reviews)](https://clutch.co/profile/webfx) |
-| NoGood | AEO inside growth squads | [Custom pricing](https://nogood.io/contact) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
+| NoGood | AEO inside growth squads | [Custom pricing](https://nogood.io/contact) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 | Siege Media | Content-led AI authority | [Custom pricing](https://www.siegemedia.com/contact) | Yes | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
 | KlientBoost | Conversion after AI discovery | [Custom pricing](https://klientboost.com/contact/) | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
 

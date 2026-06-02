@@ -46,7 +46,7 @@ A bad SaaS PPC agency burns six months of runway on clicks that never become opp
 | Bounty Hunter | SQL optimization | [$1,500/mo](https://bountyhunter.agency/saas-ppc-agency) | Yes | [4.9/5 (11 reviews)](https://clutch.co/profile/bounty-hunter) |
 | KlientBoost | Multi-channel growth | Custom pricing | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
 | Single Grain | AI-enhanced execution | Custom pricing | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
-| NoGood | Rapid creative testing | [$20,000/mo](https://nogood.io) | Yes | [Verified on Clutch (1 review)](https://clutch.co/profile/nogood) |
+| NoGood | Rapid creative testing | [$20,000/mo](https://nogood.io) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 | NinjaPromo | Multi-platform coordination | [$4,000/mo](https://ninjapromo.io) | Yes | [4.9/5 (82 reviews)](https://clutch.co/profile/ninja-promo) |
 | Kalungi | Pre-Series B fractional CMO | Custom pricing | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
@@ -554,7 +554,7 @@ Invisibly's VP of Marketing [called the team](https://clutch.co/profile/nogood) 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoping call before retainer |
-| Clutch Rating | Verified on Clutch (1 review) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 
 ### 9. NinjaPromo
 

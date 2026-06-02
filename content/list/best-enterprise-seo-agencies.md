@@ -48,7 +48,7 @@ Picking the wrong agency at enterprise scale costs more than retainer fees: it c
 | Siege Media | Content-led link earning | [Custom pricing](https://www.siegemedia.com) | Yes | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
 | Seer Interactive | Analytics-first SEO | [Custom pricing](https://www.seerinteractive.com) | Yes | [3.8/5 (4 reviews)](https://clutch.co/profile/seer-interactive) |
 | First Page Sage | Thought leadership SEO | [Custom pricing](https://firstpagesage.com) | Yes | [Verified on Clutch](https://clutch.co/profile/first-page-sage) |
-| iPullRank | Senior-led advisory | [Custom pricing](https://ipullrank.com) | Yes | [Verified on Clutch](https://clutch.co/profile/ipullrank) |
+| iPullRank | Senior-led advisory | [Custom pricing](https://ipullrank.com) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/ipullrank) |
 
 ## How We Chose These Enterprise SEO Agencies?
 
@@ -716,7 +716,7 @@ The Clutch profile is live but holds zero reviews, so external validation depend
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoping call |
-| Clutch Rating | Verified on Clutch |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/ipullrank) |
 
 ---
 

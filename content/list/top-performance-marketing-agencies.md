@@ -40,10 +40,10 @@ Picking wrong here costs six to seven figures in wasted ad spend and a year of s
 | --- | --- | --- | --- | --- |
 | Directive Consulting | B2B SaaS pipeline | [$6,500/mo](https://directiveconsulting.com) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
 | PipeRocket Digital | B2B SaaS revenue | [Custom pricing](https://piperocket.digital) | Yes | [4.8/5](https://clutch.co/profile/piperocket-digital) |
-| Tinuiti | Enterprise retail and marketplace | [$10,000+ min project](https://tinuiti.com) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/tinuiti) |
+| Tinuiti | Enterprise retail and marketplace | [$10,000+ min project](https://tinuiti.com) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/tinuiti) |
 | Disruptive Advertising | PPC plus CRO | [$5,000/mo](https://disruptiveadvertising.com) | Yes | [4.8/5 (365 reviews)](https://clutch.co/profile/disruptive-advertising) |
 | Ignite Visibility | Multi-channel attribution | [$3,000/mo](https://ignitevisibility.com) | Yes | [4.8/5 (173 reviews)](https://clutch.co/profile/ignite-visibility) |
-| NoGood | AI-native growth | [$20,000/mo](https://nogood.io) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
+| NoGood | AI-native growth | [$20,000/mo](https://nogood.io) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 | The Social Shepherd | Consumer paid social | [Custom pricing](https://thesocialshepherd.com) | Yes | [Verified on Clutch](https://clutch.co/profile/social-shepherd) |
 | Thrive Digital | Digital-first measurement | [Custom pricing](https://www.thrivedigital.com) | Yes | No verified Clutch profile |
 | Power Digital | Full-stack performance for mid-market and enterprise DTC plus B2B | [$5,000+ min project](https://powerdigitalmarketing.com) | Yes | [4.8/5 (66 reviews)](https://clutch.co/profile/power-digital-marketing) |
@@ -242,7 +242,7 @@ Some buyers note senior staffing differs by account on [Clutch](https://clutch.c
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, enterprise scoping call |
-| Clutch Rating | 5.0/5 (1 review) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/tinuiti) |
 
 ### 4. Disruptive Advertising
 
@@ -428,7 +428,7 @@ With only 1 review on file, external validation depends heavily on private refer
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, growth-audit call |
-| Clutch Rating | 5.0/5 (1 review) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 
 ### 7. The Social Shepherd
 

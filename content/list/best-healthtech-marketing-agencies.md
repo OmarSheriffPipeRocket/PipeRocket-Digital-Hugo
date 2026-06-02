@@ -43,7 +43,7 @@ Picking the wrong agency in healthtech costs more than a wasted quarter: it can 
 | HealthLaunchpad | Early-stage B2B healthtech | Custom pricing | Yes | No verified Clutch profile |
 | Avenue Z | Healthtech PR + performance | Custom pricing | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/avenue-z) |
 | Insivia | Digital health SaaS demand gen | Custom pricing | Yes | [5.0/5 (5 reviews)](https://clutch.co/profile/insivia) |
-| NoGood | Digital-health growth squad | Custom pricing | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
+| NoGood | Digital-health growth squad | Custom pricing | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 | Cardinal Digital Marketing | Multi-location provider patient acquisition | Custom pricing | Yes | [5.0/5 (4 reviews)](https://clutch.co/profile/cardinal-digital-marketing) |
 | Roketto | B2B SaaS inbound and SEO | Custom pricing | Yes | [4.6/5 (16 reviews)](https://clutch.co/profile/roketto) |
 | First Page Sage | Thought-leadership SEO | Custom pricing | Yes | Verified on Clutch (0 reviews) |
@@ -428,7 +428,7 @@ NoGood doesn't publish pricing as of June 2026. Their starting tier is approxima
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, discovery call available |
-| Clutch Rating | 5.0/5 (1 review) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 
 ### 7. Cardinal Digital Marketing
 
