@@ -4612,7 +4612,6 @@ a.pr-footer__trust-item:hover {
   font-weight: 700;
   font-size: 20px;
   color: black;
-  opacity: 0.2;
   padding: var(--pr-s-3) var(--pr-s-5);
   min-height: 80px;
   display: flex;
