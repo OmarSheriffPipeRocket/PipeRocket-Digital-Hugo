@@ -15,13 +15,13 @@ toc: true
 readingTime: "10 min read"
 ---
 
-On page [SEO](/glossary/what-is-seo/) is the process of optimizing individual website pages content, HTML tags, and internal links to rank higher in search results. It matters because strong on page SEO attracts qualified traffic and improves conversions. Skipping this step leaves rankings to chance.
+On page SEO is the process of optimizing individual website pages content, HTML tags, and internal links to rank higher in search results. It matters because strong on page SEO attracts qualified traffic and improves conversions. Skipping this step leaves rankings to chance.
 
 ## TL;DR
 
 - On page SEO means tuning each page’s content, tags, and internal structure so Google understands and ranks it for the right queries.
 - Most SaaS teams mistakenly focus only on keywords, missing the bigger impact of intent-driven structure and internal links.
-- Optimizing title tags and meta descriptions can increase organic [CTR](/glossary/what-is-ctr/) by 15 30% without writing new content.
+- Optimizing title tags and meta descriptions can increase organic CTR by 15 30% without writing new content.
 - Real on page SEO is ongoing monthly reviews and updates outperform static “set and forget” page builds.
 - Google ranks pages, not sites; every important SaaS feature or use case should have its own optimized page.
 
@@ -50,7 +50,7 @@ Most teams never revisit old pages after launch. That’s a mistake. Google’s 
 - Craft unique title and meta tags: Write clear, specific titles and compelling meta descriptions that match the searcher’s intent and stand out in results.
 - Structure with headings: Use H1 for the main topic, H2s for subtopics, and H3s for supporting details to help both users and Google scan your content.
 - Optimize content for depth: Cover the topic fully, answer related questions, and include data, examples, and relevant entities to signal authority.
-- Add internal links: Link to related pages using descriptive [anchor text](/glossary/what-is-anchor-text/) (e.g., “SaaS PPC service” instead of “click here”) to build topical clusters.
+- Add internal links: Link to related pages using descriptive anchor text (e.g., “SaaS PPC service” instead of “click here”) to build topical clusters.
 - Check mobile and speed: Make sure pages load fast and display well on all devices slow or broken pages lose rankings fast.
 
 ## Why Does On Page SEO Matter More Than Most Teams Realize?
@@ -61,7 +61,7 @@ Here’s what most people miss: On page SEO is the single biggest control lever 
 - Content depth: Pages that truly answer the user’s question (not just “what is X,” but “should I use X for Y?”) tend to rank higher and convert better.
 - Intent structure: Mapping each page to a single search intent prevents keyword cannibalization where your own pages compete and both lose.
 - Internal linking: Strategic internal links can move underperforming pages into the top 10 by passing authority from stronger, related content.
-- Ongoing optimization: Regular updates based on rank tracking and [SERP](/glossary/what-is-serp/) changes keep your pages relevant and competitive.
+- Ongoing optimization: Regular updates based on rank tracking and SERP changes keep your pages relevant and competitive.
 
 Trackflow, a project management SaaS for creative agencies, used to rank on page 3 for “creative agency project tool.” By rewriting their main use case page to answer agency-specific pain points and adding internal links from related guides they hit page 1 in six weeks, with demo signups up by 36%.
 
@@ -76,7 +76,7 @@ Most teams ignore internal links or treat them as afterthoughts. That’s a mist
 Most guides boil on page SEO down to “use keywords, write long content, add some links.” That’s not enough. True on page SEO is a system each element feeds the next, and missing one will drag down your results.
 
 - Title tag: The most important ranking signal on the page. Must be unique, concise (under 60 characters), and match the searcher’s main question.
-- [Meta description](/glossary/what-is-a-meta-description/): Not a ranking factor, but a huge lever for clicks. Write it like ad copy clear, benefit-driven, under 155 characters.
+- Meta description: Not a ranking factor, but a huge lever for clicks. Write it like ad copy clear, benefit-driven, under 155 characters.
 - Header structure: Logical use of H1, H2, and H3 tags to organize the page. Each header should preview the content beneath it.
 - Primary and secondary keywords: Use the main keyword early, but sprinkle in related phrases and synonyms think “on page SEO techniques,” “SEO page optimization,” etc.
 - Entities and topical depth: Mention relevant tools, frameworks, or brands (like Ahrefs, Semrush, Google Search Console) to signal expertise.
@@ -123,7 +123,7 @@ A real trade-off: Building dozens of thin use case pages can help you capture lo
 
 ### What is the difference between on page and off page SEO?
 
-On page SEO focuses on optimizing the elements of your own website content, HTML tags, internal links, and site structure. Off page SEO refers to actions outside your site, like earning [backlinks](/glossary/what-is-a-backlink/) and brand mentions to boost authority. Both are important, but on page SEO is fully under your control and is the foundation for ranking at all.
+On page SEO focuses on optimizing the elements of your own website content, HTML tags, internal links, and site structure. Off page SEO refers to actions outside your site, like earning backlinks and brand mentions to boost authority. Both are important, but on page SEO is fully under your control and is the foundation for ranking at all.
 
 ### How often should you update on page SEO?
 

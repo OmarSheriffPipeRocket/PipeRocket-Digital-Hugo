@@ -122,10 +122,6 @@ Pricing is partially public as of June 2026: a published startup package starts 
 | Free Consultation | Yes, strategy call via directiveconsulting.com |
 | Clutch Rating | 4.8/5 (56 reviews) |
 
-Weighing PipeRocket against Directive Consulting? Our [Directive Consulting comparison](/compare/piperocket-vs-directive-consulting/) covers the four things founders ask about most.
-
-
-
 ### 2. PipeRocket Digital
 
 Best for: B2B SaaS teams that want growth tied to pipeline at any ARR stage
@@ -253,10 +249,6 @@ Average retainers run above $20,000/mo as of June 2026, with custom scoping per 
 | --- | --- |
 | Free Consultation | Yes, intake call via nogood.io |
 | Clutch Rating | 5.0/5 (1 review) |
-
-Want a side-by-side? See our [PipeRocket vs NoGood](/compare/piperocket-digital-vs-nogood/) breakdown.
-
-
 
 ### 4. Kalungi
 
@@ -507,7 +499,7 @@ Pricing starts around $5,000/mo with $100-$149/hr rates and a $5,000 project min
 | --- | --- | --- |
 | SaaS SEO | From $5,000/mo | Revenue-first organic acquisition program |
 | SEO plus GEO | Mid-range | SEO plus AI Citation Outreach and Perplexity visibility |
-| [Enterprise SEO](/blogs/enterprise-seo-guide/) | Custom pricing | Migration, scaled content, and link-building |
+| Enterprise SEO | Custom pricing | Migration, scaled content, and link-building |
 
 | Criteria | Detail |
 | --- | --- |
@@ -640,11 +632,7 @@ Engagements typically start around $10,000/mo with $100-$149/hr rates and a $5,0
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, intake via beomniscient.com |
-| Clu
-
-For a head-to-head on paid, organic, and pricing, see [PipeRocket vs Omniscient Digital](/compare/piperocket-digital-vs-omniscient-digital/).
-
-tch Rating | 4.8/5 (5 reviews) |
+| Clutch Rating | 4.8/5 (5 reviews) |
 
 ## FAQs
 

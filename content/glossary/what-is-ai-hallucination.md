@@ -27,7 +27,7 @@ AI hallucination is when an AI system generates information that sounds plausibl
 
 ## What Is AI Hallucination?
 
-AI hallucination happens when a machine learning model usually a large language model ([LLM](/glossary/what-is-an-llm/)) like Chat GPT or Gemini generates output that’s fluent and confident, but factually wrong or made up. It’s like a confident intern inventing details that sound plausible yet have zero basis in reality. Here’s the mistake most SaaS teams make: they assume hallucination is a rare glitch or a sign that the AI just needs better training data. In reality, hallucination is a fundamental side effect of how these models work they predict the next word in a sequence, not the actual truth.
+AI hallucination happens when a machine learning model usually a large language model (LLM) like Chat GPT or Gemini generates output that’s fluent and confident, but factually wrong or made up. It’s like a confident intern inventing details that sound plausible yet have zero basis in reality. Here’s the mistake most SaaS teams make: they assume hallucination is a rare glitch or a sign that the AI just needs better training data. In reality, hallucination is a fundamental side effect of how these models work they predict the next word in a sequence, not the actual truth.
 
 - False statements: The AI asserts information that is verifiably incorrect or made up.
 - Fabricated sources: The model invents plausible-sounding references, URLs, or statistics that don’t exist.
@@ -115,7 +115,7 @@ Here’s the real-world move: treat AI output like a junior analyst’s first dr
 
 ### Can AI hallucination be eliminated entirely?
 
-No AI hallucination can be reduced but not eliminated with current large language model technology. Even with careful prompting, model tuning, and source grounding, LLMs will sometimes generate plausible but false outputs because they’re predicting language, not verifying facts. The only way to fully prevent hallucination is to use [retrieval-augmented generation](/glossary/what-is-rag/) (RAG) models that cite real, up-to-date sources, but even these can fail if the source data is incomplete or ambiguous.
+No AI hallucination can be reduced but not eliminated with current large language model technology. Even with careful prompting, model tuning, and source grounding, LLMs will sometimes generate plausible but false outputs because they’re predicting language, not verifying facts. The only way to fully prevent hallucination is to use retrieval-augmented generation (RAG) models that cite real, up-to-date sources, but even these can fail if the source data is incomplete or ambiguous.
 
 ### What are examples of AI hallucination?
 

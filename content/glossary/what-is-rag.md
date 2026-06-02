@@ -39,7 +39,7 @@ Most teams assume that large language models are knowledge engines they’re not
 
 Take Ledgerwise, a SaaS for accounting automation. Their AI chatbot used to answer tax compliance questions with generic advice. After switching to RAG, it could cite specific regulatory documents, cutting support escalations by 43% in one quarter.
 
-Here’s the real issue: most people treat AI as a black box and expect it to “know” everything. In practice, RAG exposes how much depends on solid retrieval. If your index is shallow or outdated, even the best [LLM](/glossary/what-is-an-llm/) will echo old or wrong facts.
+Here’s the real issue: most people treat AI as a black box and expect it to “know” everything. In practice, RAG exposes how much depends on solid retrieval. If your index is shallow or outdated, even the best LLM will echo old or wrong facts.
 
 **Fast Fact:** Most hallucination errors in SaaS chatbots come from outdated or missing source data, not from model limitations.
 

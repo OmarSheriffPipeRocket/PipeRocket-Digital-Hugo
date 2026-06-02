@@ -18,7 +18,7 @@ Inbound marketing is a strategy that attracts buyers by creating content and exp
 
 ## TL;DR
 
-- Inbound marketing attracts buyers through content, [SEO](/glossary/what-is-seo/), and trust instead of interrupting them with paid ads.
+- Inbound marketing attracts buyers through content, SEO, and trust instead of interrupting them with paid ads.
 - The biggest mistake SaaS teams make is treating inbound as a content volume game rather than an intent-matching strategy.
 - Organic search is the primary inbound channel for most SaaS companies because it captures demand at the exact moment buyers are looking.
 - Inbound works best when content maps to specific buyer stages awareness, evaluation, and decision not just general topics.
@@ -32,7 +32,7 @@ The mechanics are straightforward: someone has a problem, they search for answer
 
 The real engine of inbound is intent alignment. Every piece of content should answer a specific question a real buyer is asking at a specific stage of their decision process.
 
-- [Content marketing](/glossary/what-is-content-marketing/): Blog posts, guides, and comparison pages that meet buyers where they are in their research process.
+- Content marketing: Blog posts, guides, and comparison pages that meet buyers where they are in their research process.
 - SEO: Making sure your content surfaces when buyers search for the problems your product solves not just branded queries.
 - Lead magnets and gated content: Tools, templates, or reports that trade genuine value for contact information.
 - Email nurture: Keeping engaged visitors in your orbit until they’re ready to evaluate or buy.
@@ -51,7 +51,7 @@ Outbound includes cold email, display ads, trade show booths, and SDR sequences.
 Inbound flips that model. You invest upfront in content, SEO, and trust-building. The return comes later, but it doesn’t disappear when you pause the budget.
 
 - Demand capture vs demand creation: Outbound creates awareness in people who weren’t looking. Inbound captures demand from people who already are.
-- Cost over time: Outbound CAC tends to stay flat or increase as channels saturate. Inbound CAC typically decreases as content compounds and [domain authority](/glossary/what-is-domain-authority/) builds.
+- Cost over time: Outbound CAC tends to stay flat or increase as channels saturate. Inbound CAC typically decreases as content compounds and domain authority builds.
 - Lead quality: Inbound leads have often self-educated before reaching you, which means shorter sales cycles and better fit especially in B2B SaaS.
 - Time to results: Outbound produces pipeline faster. Inbound takes longer to build but produces more durable results.
 
@@ -117,7 +117,7 @@ The second failure mode is impatience. Inbound is a compounding investment, not 
 
 - Intent mismatch: Publishing content around topics you want to rank for rather than questions your buyers are actually asking.
 - No conversion path: Attracting readers without giving them a clear next step a relevant lead magnet, a trial CTA, or a nurture sequence.
-- Ignoring distribution: Publishing content and waiting for Google to find it. You still need [backlinks](/glossary/what-is-a-backlink/), internal linking, and promotion to build authority.
+- Ignoring distribution: Publishing content and waiting for Google to find it. You still need backlinks, internal linking, and promotion to build authority.
 - Wrong ICP targeting: Writing for a broad audience when your product solves a specific problem for a specific buyer. Broad content attracts broad traffic that doesn’t convert.
 
 Imagine a SaaS tool built for independent financial advisors. If their blog targets general “personal finance” topics instead of the specific compliance, client management, and reporting problems their buyers face, they’ll attract a lot of traffic from the wrong people. Volume without fit isn’t growth.
@@ -128,11 +128,11 @@ Inbound done right means every piece of content has a clear job: attract the rig
 
 Inbound and paid search aren’t opposites they’re complements. The real question is which one you lead with and when.
 
-Paid search, like [SaaS PPC](/saas-ppc/), captures demand immediately. If someone searches for your category right now, a well-structured [Google Ads](/glossary/what-is-google-ads/) campaign gets you in front of them today. Inbound SEO does the same thing but it takes months to build and can’t be turned on overnight.
+Paid search, like [SaaS PPC](/saas-ppc/), captures demand immediately. If someone searches for your category right now, a well-structured Google Ads campaign gets you in front of them today. Inbound SEO does the same thing but it takes months to build and can’t be turned on overnight.
 
 The trade-off is real: paid search gives you speed and control, but you pay for every click indefinitely. Inbound SEO gives you compounding, lower-cost traffic but the payback period is long.
 
-This works well for SaaS teams with runway and a clear [ICP](/glossary/what-is-icp/) who can invest in content for 6 to 12 months before seeing serious organic pipeline. For early-stage teams that need leads now, leaning on paid while building inbound in parallel is the smarter sequence not an either/or.
+This works well for SaaS teams with runway and a clear ICP who can invest in content for 6 to 12 months before seeing serious organic pipeline. For early-stage teams that need leads now, leaning on paid while building inbound in parallel is the smarter sequence not an either/or.
 
 The danger is treating them as substitutes. Teams that cut inbound investment during a tough quarter to fund more paid ads often find themselves 18 months later with no organic foundation and a paid CAC that’s climbed every year. That’s a hard position to recover from.
 

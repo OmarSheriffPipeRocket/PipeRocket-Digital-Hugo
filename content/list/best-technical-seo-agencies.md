@@ -308,7 +308,7 @@ Best for: Global enterprise brands with international SEO and historical log-fil
 
 {{< agency-triptych slug="ayima" name="Ayima" >}}
 
-[Ayima](https://www.ayima.com/) has run [enterprise SEO](/blogs/enterprise-seo-guide/) since 2007 with ex-Googler founders, and their historical reputation for log file analysis and large-site crawl work is real even if the current public service menu doesn't break it out.
+[Ayima](https://www.ayima.com/) has run enterprise SEO since 2007 with ex-Googler founders, and their historical reputation for log file analysis and large-site crawl work is real even if the current public service menu doesn't break it out.
 
 **Case File**
 

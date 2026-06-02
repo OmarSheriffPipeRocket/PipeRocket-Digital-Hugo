@@ -384,10 +384,6 @@ Clutch minimum is $5,000, but typical engagements report higher as of June 2026,
 | Free Consultation | Yes |
 | Clutch Rating | 4.8/5 (5 reviews) |
 
-Want a side-by-side? See our [PipeRocket vs Omniscient Digital](/compare/piperocket-digital-vs-omniscient-digital/) breakdown.
-
-
-
 ### 6. RevenueZen
 
 Best for: Startups wanting published pricing, a Sprint pilot, and month-to-month flexibility.
@@ -626,7 +622,7 @@ The previous public framing of "$3K-$8K/mo" doesn't match the $5,000 Clutch mini
 - EU timezone overlap may slow US-client communication
 - No paid promotion leg in the program
 
-**Our Read:** We think Minuttia is a sharp [B2B SaaS SEO](/blogs/b2b-saas-seo/) partner, but the "any stage" framing is generous and the real sweet spot is Series A.
+**Our Read:** We think Minuttia is a sharp B2B SaaS SEO partner, but the "any stage" framing is generous and the real sweet spot is Series A.
 
 **The Bill**
 

@@ -50,7 +50,7 @@ The second keyword doesn’t just rank easier. It attracts people who are alread
 - Build a seed keyword list: Start with 10 to 20 broad terms that describe your product category, core features, and the problems you solve. These become the foundation for everything else.
 - Expand with a keyword tool: Run your seed terms through Ahrefs, Semrush, or Google Keyword Planner. Look for related queries, questions, and long-tail variations your seed list didn’t surface.
 - Filter by intent: Group every keyword by what the searcher wants information, comparison, or a decision. Each intent group maps to a different content type.
-- Assess difficulty vs. opportunity: Don’t chase the hardest terms first. Find keywords where you can realistically rank within six to twelve months given your current [domain authority](/glossary/what-is-domain-authority/).
+- Assess difficulty vs. opportunity: Don’t chase the hardest terms first. Find keywords where you can realistically rank within six to twelve months given your current domain authority.
 - Map to your content structure: Each keyword cluster should map to a specific page or content piece. Two keywords with the same intent belong on the same page, not two competing ones.
 - Prioritise and publish: Rank your keyword targets by business value, not just search volume. A keyword that attracts your exact buyer at the decision stage is worth more than a high-volume informational term that draws in people who’ll never convert.
 
@@ -83,7 +83,7 @@ First, there’s a real buyer behind the query not a student, a competitor, or s
 - Business relevance: The keyword should describe a problem your product solves or a category your product belongs to. If you’re ranking for it but can’t convert the traffic, it’s a vanity metric.
 - Realistic difficulty: A keyword with a difficulty score of 75 might look attractive, but if your domain authority is 30, you’re not ranking there without years of link building. Find the gaps between what competitors own and what you can realistically take.
 - Search volume floor: Very low-volume keywords can still be worth targeting if the intent is strong and the competition is low. Ten visits from the right buyer beats a thousand visits from the wrong audience.
-- [SERP](/glossary/what-is-serp/) format fit: Some queries trigger featured snippets, some trigger listicles, some trigger product pages. Look at what’s already ranking before you decide what type of content to create.
+- SERP format fit: Some queries trigger featured snippets, some trigger listicles, some trigger product pages. Look at what’s already ranking before you decide what type of content to create.
 
 Imagine a SaaS tool for construction project management. Targeting “project management software” puts them up against Asana, Monday, and Notion with enormous content budgets. Targeting “construction project management software for subcontractors” is a tighter fight with a buyer who actually needs what they offer. The volume is lower. The fit is better. That’s the trade-off worth making.
 
@@ -119,7 +119,7 @@ Here’s the specific failure mechanism: volume-first keyword research selects f
 - Skipping the SERP check: Before writing any piece of content, look at what’s actually ranking. If the top five results are all product pages and you’re planning a blog post, you’re creating the wrong content type for that query.
 - Treating keyword research as a one-time project: Buyer language shifts. New competitors publish. Google updates its understanding of intent. A keyword strategy built eighteen months ago needs a refresh.
 
-The real trade-off with broad keyword targeting is this: you can build significant traffic volume relatively quickly by going after high-volume informational terms. But if your [ICP](/glossary/what-is-icp/) is a specific type of buyer say, ops leaders at Series B SaaS companies that traffic will be mostly irrelevant. It’s worth building if you have the content budget and a long time horizon. It’s a mistake if you need pipeline in the next two quarters.
+The real trade-off with broad keyword targeting is this: you can build significant traffic volume relatively quickly by going after high-volume informational terms. But if your ICP is a specific type of buyer say, ops leaders at Series B SaaS companies that traffic will be mostly irrelevant. It’s worth building if you have the content budget and a long time horizon. It’s a mistake if you need pipeline in the next two quarters.
 
 ## The Bottom Line
 

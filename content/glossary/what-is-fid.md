@@ -15,7 +15,7 @@ toc: true
 readingTime: "8 min read"
 ---
 
-FID (First Input Delay) measures the time from a user’s first interaction with a website to when the browser responds. Low FID means faster interactivity, which boosts user experience and [SEO](/glossary/what-is-seo/) performance. Optimizing FID can directly improve Core Web Vitals scores and rankings.
+FID (First Input Delay) measures the time from a user’s first interaction with a website to when the browser responds. Low FID means faster interactivity, which boosts user experience and SEO performance. Optimizing FID can directly improve Core Web Vitals scores and rankings.
 
 ## TL;DR
 
@@ -49,7 +49,7 @@ Google made FID a ranking factor because it’s a direct proxy for user frustrat
 
 - Direct ranking factor: Google’s Page Experience update considers FID alongside LCP and CLS for SEO visibility.
 - User-centric metric: Poor FID signals to Google that users aren’t getting a responsive experience, hurting your rankings.
-- [SERP](/glossary/what-is-serp/) competition: On competitive terms, small FID gains can tip rankings in your favor when content is otherwise equal.
+- SERP competition: On competitive terms, small FID gains can tip rankings in your favor when content is otherwise equal.
 - Bounce rate link: Sites with high FID see more users abandon sessions before converting, hurting both SEO and revenue.
 - Mobile-first impact: FID is often worse on mobile due to slower CPUs and heavier JavaScript yet most teams only test desktop.
 
@@ -71,7 +71,7 @@ The biggest FID killer is main thread blocking usually from heavy JavaScript or 
 
 Here’s a real trade-off: deferring non-critical JavaScript gives you a lower FID, but it can break certain features that depend on immediate script availability. It’s worth it if your primary flows (signups, logins, product tours) are script-light and you can safely load extras after interaction.
 
-A warning: fixing FID for desktop users works well for most B2B SaaS, but if your [ICP](/glossary/what-is-icp/) is mobile-heavy (think field sales tools), you’ll need to profile on real devices. Desktop fixes rarely translate 1:1 to mobile, where CPU and bandwidth constraints are far tighter.
+A warning: fixing FID for desktop users works well for most B2B SaaS, but if your ICP is mobile-heavy (think field sales tools), you’ll need to profile on real devices. Desktop fixes rarely translate 1:1 to mobile, where CPU and bandwidth constraints are far tighter.
 
 **Also read:** [enterprise SEO agencies that specialize in Core Web Vitals](/list/best-enterprise-seo-agencies/)
 

@@ -367,7 +367,7 @@ Searchbloom publishes a starting floor of $2,000-$5,000+/mo and scopes upward fr
 | --- | --- | --- |
 | SEO Starter | Custom pricing (from ~$2,000/mo) | Technical SEO, content, link strategy |
 | SEO + PPC | Custom pricing | Combined paid and organic execution |
-| [Enterprise SEO](/blogs/enterprise-seo-guide/) | Custom pricing | Full A.R.T. scope, CRO included |
+| Enterprise SEO | Custom pricing | Full A.R.T. scope, CRO included |
 
 **Buyer Sentiment**
 
@@ -452,11 +452,7 @@ Public reviews suggest account-team depth varies by retainer; smaller programs s
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, free proposal |
-| Clutch Rat
-
-For a head-to-head on paid, organic, and pricing, see [PipeRocket vs WebFX](/compare/piperocket-digital-vs-webfx/).
-
-ing | 4.9/5 (450 reviews) |
+| Clutch Rating | 4.9/5 (450 reviews) |
 
 ---
 
@@ -522,11 +518,7 @@ A Power Digital director loved the content output but noted Siege isn't the plac
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, discovery and scoping |
-| Clutch Ra
-
-Want a side-by-side? See our [PipeRocket vs Siege Media](/compare/piperocket-digital-vs-siege-media/) breakdown.
-
-ting | 4.9/5 (46 reviews) |
+| Clutch Rating | 4.9/5 (46 reviews) |
 
 ---
 

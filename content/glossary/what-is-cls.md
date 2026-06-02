@@ -15,7 +15,7 @@ toc: true
 readingTime: "10 min read"
 ---
 
-CLS (Cumulative Layout Shift) is a Core Web Vital metric that measures unexpected movement of page elements as it loads. High CLS frustrates users and can lower your Google rankings. Reducing CLS improves user experience and [SEO](/glossary/what-is-seo/) performance.
+CLS (Cumulative Layout Shift) is a Core Web Vital metric that measures unexpected movement of page elements as it loads. High CLS frustrates users and can lower your Google rankings. Reducing CLS improves user experience and SEO performance.
 
 ## TL;DR
 

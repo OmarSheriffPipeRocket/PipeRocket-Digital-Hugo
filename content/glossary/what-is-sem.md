@@ -23,7 +23,7 @@ SEM (search engine marketing) is using paid ads on search engines like Google an
 - Organic search drives 91.3% of SaaS traffic, while SEM is best for short-term wins, new launches, or high-intent commercial keywords.
 - Many SaaS teams treat SEM as a plug-and-play growth lever, but without strategy, it’s one of the fastest ways to burn budget.
 - Combining SEM and SEO usually delivers the best ROI, but only when each channel has its own role and KPIs.
-- [Google Ads](/glossary/what-is-google-ads/) and Bing Ads are the main SEM platforms, but SEM also covers retargeting, branded bidding, and competitor targeting.
+- Google Ads and Bing Ads are the main SEM platforms, but SEM also covers retargeting, branded bidding, and competitor targeting.
 
 ## What Is SEM and How Does It Work?
 
@@ -39,7 +39,7 @@ Most SaaS founders treat SEM as a shortcut to growth: “Turn on Google Ads, get
 - Landing page alignment: Sending traffic to a page that matches the ad and is built to convert, not just your homepage.
 - Performance tracking: Using Google Ads or Bing Ads dashboards to see which keywords, ads, and landing pages are actually producing real signups or pipeline.
 
-Take Formwise, a SaaS for automating intake forms in healthcare. When they launch new features, SEM lets them immediately appear for “HIPAA-compliant form builder” while organic [SEO](/glossary/what-is-seo/) might take three to six months to rank. With paid search, they can test which messaging converts best, then fold those learnings back into their site and organic strategy.
+Take Formwise, a SaaS for automating intake forms in healthcare. When they launch new features, SEM lets them immediately appear for “HIPAA-compliant form builder” while organic SEO might take three to six months to rank. With paid search, they can test which messaging converts best, then fold those learnings back into their site and organic strategy.
 
 What this means in practice: SEM is not a replacement for organic it’s a complement. The risk is thinking of it as a growth “easy button.” Without clear measurement and real negative keyword controls, you’ll attract tire-kickers or irrelevant traffic, and your CAC will spiral.
 
@@ -67,11 +67,11 @@ Here’s where most SaaS teams get this wrong: they treat SEM and SEO as substit
 
 ## What Are the Main Components of SEM Campaigns?
 
-SEM campaigns have four core pieces: [keyword research](/glossary/what-is-keyword-research/), ad creation, bidding strategy, and landing page optimization. Each one determines whether you’re generating real pipeline or just buying clicks that never convert.
+SEM campaigns have four core pieces: keyword research, ad creation, bidding strategy, and landing page optimization. Each one determines whether you’re generating real pipeline or just buying clicks that never convert.
 
 - Keyword research: Start by identifying commercial, branded, and competitor terms that signal intent not just traffic.
 - Ad copywriting: Write headlines and descriptions that echo the searcher’s language, pain point, or goal.
-- Bid strategy: Pick between manual [CPC](/glossary/what-is-cost-per-click/), automated bidding (like Target CPA), or enhanced options each changes how much you pay and how you scale.
+- Bid strategy: Pick between manual CPC, automated bidding (like Target CPA), or enhanced options each changes how much you pay and how you scale.
 - Negative keywords: Exclude irrelevant terms (“free,” “jobs,” “download”) that waste budget and lower conversion rates.
 - Landing page experience: Match ad promise to page, remove distractions, and make the call to action blindingly obvious.
 
@@ -91,7 +91,7 @@ Most SaaS teams make the mistake of using SEM as a default growth lever. That’
 - Retargeting: Bringing back visitors who’ve shown interest but didn’t convert on the first visit.
 - Event-based spikes: Driving signups during webinars, product launches, or seasonal promotions.
 
-**Here’s the nuanced warning:** SEM drains budget fast if your sales cycle is long or your LTV:CAC ratio is tight. For PLG SaaS with low-ticket users, paid search only makes sense if you’ve dialed in activation and retention otherwise, you’ll pay for churn. For enterprise SaaS, SEM can work for [ABM](/glossary/what-is-abm/)-style campaigns targeting named accounts, but it fails if you treat it like B2C “spray and pray” ads.
+**Here’s the nuanced warning:** SEM drains budget fast if your sales cycle is long or your LTV:CAC ratio is tight. For PLG SaaS with low-ticket users, paid search only makes sense if you’ve dialed in activation and retention otherwise, you’ll pay for churn. For enterprise SaaS, SEM can work for ABM-style campaigns targeting named accounts, but it fails if you treat it like B2C “spray and pray” ads.
 
 SEM is worth it when your market is competitive, your LTV supports higher CAC, and you have tracking to know what’s working. If you’re unsure, start small, test tightly, and expand only after you see real pipeline not just traffic.
 

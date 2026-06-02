@@ -48,7 +48,7 @@ Here’s where most teams get this wrong: they focus all their content energy on
 - Authenticity effect: UGC feels more real than branded content, lowering skepticism and making it easier for new users to picture themselves succeeding with your product.
 - Social proof loop: Reviews, case studies, and user videos signal that real people use and like your product, which reduces friction for new signups.
 - Community flywheel: Active forums and user discussions turn customers into advocates, who then attract more of the right-fit users with their insights and enthusiasm.
-- [SEO](/glossary/what-is-seo/) boost: UGC adds fresh, relevant content to your site (or third-party sites), helping you show up for long-tail searches and “real world” product questions.
+- SEO boost: UGC adds fresh, relevant content to your site (or third-party sites), helping you show up for long-tail searches and “real world” product questions.
 
 **Fast Fact:** Most SaaS buyers check user reviews and community forums before reading a brand’s own product page.
 

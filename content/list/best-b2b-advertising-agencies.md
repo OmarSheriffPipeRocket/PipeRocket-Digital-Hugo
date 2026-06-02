@@ -469,7 +469,7 @@ Their full-funnel model covers demand generation, content, digital advertising, 
 
 - 35+ years of independent B2B agency history, longest track record in this list's enterprise tier
 - Strong vertical depth in technology, industrial, and manufacturing categories
-- Appears across Norvelljefferson and Madx's top [B2B marketing](/blogs/b2b-marketing/) agency lists year over year
+- Appears across Norvelljefferson and Madx's top B2B marketing agency lists year over year
 
 **The Receipts**
 

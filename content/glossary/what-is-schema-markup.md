@@ -27,7 +27,7 @@ Schema markup is code you add to your website that helps search engines understa
 
 ## What Is Schema Markup and Why Does It Matter?
 
-Schema markup is a type of structured data a specific set of code (often in JSON-LD format) that you add to your website to help search engines understand what your page is about. Instead of just seeing a block of text or a standard web page, Google, Bing, and other engines use schema to identify products, reviews, features, pricing, and even FAQs on your site. This unlocks rich results like review stars, pricing info, or in-[SERP](/glossary/what-is-serp/) FAQs that stand out in search listings and drive higher click-through rates.
+Schema markup is a type of structured data a specific set of code (often in JSON-LD format) that you add to your website to help search engines understand what your page is about. Instead of just seeing a block of text or a standard web page, Google, Bing, and other engines use schema to identify products, reviews, features, pricing, and even FAQs on your site. This unlocks rich results like review stars, pricing info, or in-SERP FAQs that stand out in search listings and drive higher click-through rates.
 
 Here’s the trap: most SaaS marketers think adding basic schema is a technical box to tick, but they stop at the basics (like Organization or Website type). The real leverage comes from matching schema to your actual business model and the intent of your pages. If you only use default markup, you look identical to everyone else so you get the same click-through rates, even if your product is better.
 
@@ -35,7 +35,7 @@ Here’s the trap: most SaaS marketers think adding basic schema is a technical 
 - Rich results: Schema markup can trigger enhanced search listings like stars, pricing, FAQs, or sitelinks which research shows can boost CTR by 20-30%.
 - Types of schema: Common types used in SaaS include Product, Software Application, Review, FAQPage, and Breadcrumb.
 - JSON-LD format: Google prefers schema in JSON-LD format, embedded in your page’s <head> or <body>, making it both easy to deploy and to debug.
-- [SEO](/glossary/what-is-seo/) impact: Schema itself isn’t a direct ranking factor, but it increases visibility and click appeal, which translates into more organic traffic.
+- SEO impact: Schema itself isn’t a direct ranking factor, but it increases visibility and click appeal, which translates into more organic traffic.
 
 Take Launchpad, a SaaS management dashboard: after adding Product and FAQ schema to core feature and pricing pages, their organic click-through rate jumped 27% in two months without publishing a single new blog post.
 
@@ -52,7 +52,7 @@ Most SaaS teams treat schema like a technical afterthought. The reality: treatin
 - Generate schema code: Use tools like Google’s Structured Data Markup Helper or SaaS-focused schema generators to create JSON-LD code tailored to your content.
 - Add schema to your site: Insert the generated code into your site’s <head> or just before </body> most CMS platforms let you do this with custom HTML fields or plugins.
 - Validate and fix errors: Use Google’s Rich Results Test and Search Console to check for errors or warnings uncorrected errors can prevent rich results from showing.
-- Monitor results: Track changes in impressions, [CTR](/glossary/what-is-ctr/), and rich result appearance in Google Search Console adjust schema types and fields based on what actually triggers SERP enhancements.
+- Monitor results: Track changes in impressions, CTR, and rich result appearance in Google Search Console adjust schema types and fields based on what actually triggers SERP enhancements.
 
 ## How Does Schema Markup Improve SaaS SEO?
 
@@ -144,4 +144,4 @@ Pages that answer specific user questions or demonstrate key product features be
 
 ## The Bottom Line
 
-Schema markup is how you help search engines and your buyers see what makes your SaaS unique before they even land on your site. Treat it as a growth lever, not a checkbox, and you’ll consistently outcompete teams who treat SEO as a technical chore. If you want to see schema markup done right for SaaS, [reach out via our contact page](https://www.piperocket.co/contact) or explore how our [SaaS SEO service](https://www.piperocket.co/saas-seo) makes [technical SEO](/glossary/what-is-technical-seo/) a competitive win.
+Schema markup is how you help search engines and your buyers see what makes your SaaS unique before they even land on your site. Treat it as a growth lever, not a checkbox, and you’ll consistently outcompete teams who treat SEO as a technical chore. If you want to see schema markup done right for SaaS, [reach out via our contact page](https://www.piperocket.co/contact) or explore how our [SaaS SEO service](https://www.piperocket.co/saas-seo) makes technical SEO a competitive win.

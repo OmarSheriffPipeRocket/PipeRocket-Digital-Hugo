@@ -124,10 +124,6 @@ Clutch reviewers periodically note pod changes during Directive's internal growt
 | Free Consultation | Yes, scoped intro call |
 | Clutch Rating | 4.8/5 (56 reviews) |
 
-Weighing PipeRocket against Directive Consulting? Our [Directive Consulting comparison](/compare/piperocket-vs-directive-consulting/) covers the four things founders ask about most.
-
-
-
 ### 2. PipeRocket Digital
 
 Best for: B2B SaaS teams that want an embedded growth pod, not a vendor.
@@ -255,10 +251,6 @@ At 750+ people, boutique-style relationships are structurally hard, per the broa
 | --- | --- |
 | Free Consultation | Yes, with a scoped proposal |
 | Clutch Rating | 4.9/5 (450 reviews) |
-
-For a head-to-head on paid, organic, and pricing, see [PipeRocket vs WebFX](/compare/piperocket-digital-vs-webfx/).
-
-
 
 ### 4. Single Grain
 
@@ -452,10 +444,6 @@ KlientBoost's public [site](https://klientboost.com) gates pricing behind a mark
 | Free Consultation | Yes, gated "free marketing plan" |
 | Clutch Rating | 4.9/5 (402 reviews) |
 
-Want a side-by-side? See our [PipeRocket vs KlientBoost](/compare/piperocket-digital-vs-klientboost/) breakdown.
-
-
-
 ### 7. NinjaPromo
 
 Best for: B2B tech teams wanting a subscription-model multi-platform pod.
@@ -613,7 +601,7 @@ LYFE is the only agency on this list designed for SMB budgets ($500 to $1,400/mo
 **The Catch:** LYFE's 4.4/5 (155 reviews) is the lowest rating in this list. One critical Clutch review reads: "There was no proactive support, no strategic guidance, and no effort to address underperformance." SMB social focus is a poor fit for enterprise B2B.
 
 - 4.4/5 with quality variance flagged in critical reviews
-- SMB social specialism unsuitable for enterprise [B2B PPC](/blogs/b2b-ppc/)
+- SMB social specialism unsuitable for enterprise B2B PPC
 
 **Best Fit For:** SMB B2B brands with $500 to $1,400/month management budgets on Facebook and Instagram.
 

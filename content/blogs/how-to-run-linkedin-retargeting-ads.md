@@ -129,7 +129,7 @@ Because LinkedIn’s data is professional and self-reported, you are paying for 
 
 ### 3. Are retargeting ads worth it?
 
-**Yes, they are often the highest-ROI campaigns you can run.** In [B2B marketing](/blogs/b2b-marketing/), the sales cycle is long, and a user rarely converts on their first visit. Retargeting keeps your brand top-of-mind as the prospect moves through the “marketing funnel.” It allows you to serve specific content based on their stage; for example, if they visited your pricing page, you might show them a testimonial or a case study.
+**Yes, they are often the highest-ROI campaigns you can run.** In B2B marketing, the sales cycle is long, and a user rarely converts on their first visit. Retargeting keeps your brand top-of-mind as the prospect moves through the “marketing funnel.” It allows you to serve specific content based on their stage; for example, if they visited your pricing page, you might show them a testimonial or a case study.
 
 Because you are reaching people who already know your brand, these ads typically see much higher click-through rates ([CTR](/glossary/what-is-ctr/)) and lower [CPA](/glossary/what-is-cpa/ "Glossary: CPA") (conversion costs) than “cold” outreach campaigns.
 

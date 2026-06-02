@@ -18,7 +18,7 @@ Thought leadership is the practice of influencing your industry’s perspective 
 
 ## TL;DR
 
-- Most people confuse thought leadership with [content marketing](/glossary/what-is-content-marketing/), but real thought leaders shape the conversation not just join it.
+- Most people confuse thought leadership with content marketing, but real thought leaders shape the conversation not just join it.
 - Publishing generic “how-to” guides is not thought leadership; you need a unique point of view that challenges your industry’s assumptions.
 - True thought leadership builds trust faster because buyers see you as a forward thinker, not just another vendor.
 - Being a thought leader makes your brand memorable, so prospects remember you when it’s time to buy even if they’re not ready now.

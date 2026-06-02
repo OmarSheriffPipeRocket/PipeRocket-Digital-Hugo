@@ -19,7 +19,7 @@ Meta Ads is the paid advertising platform that runs across Facebook, Instagram, 
 ## TL;DR
 
 - Meta Ads runs across Facebook, Instagram, Messenger, and Audience Network all managed from one centralised ad account inside Meta Ads Manager.
-- Unlike [Google Ads](/glossary/what-is-google-ads/), Meta targets users based on who they are and what they care about, not what they’re actively searching for right now.
+- Unlike Google Ads, Meta targets users based on who they are and what they care about, not what they’re actively searching for right now.
 - Interest and behaviour targeting makes Meta strong for top-of-funnel SaaS campaigns, but weak for capturing buyers who are ready to sign up today.
 - Retargeting warm audiences site visitors, video viewers, email list matches is where Meta tends to generate the strongest return for SaaS products.
 - Running Meta Ads without a clear audience segmentation strategy leads to broad, expensive campaigns that generate impressions but not pipeline.
@@ -105,7 +105,7 @@ Meta works well for SaaS when:
 - You have a free tier or low-friction offer: Free trials, free tools, and no-credit-card-required signups remove the commitment barrier that cold audiences resist.
 - You’re running retargeting campaigns: Warm audiences already know your brand. Meta is excellent for staying visible and nudging them toward conversion.
 - You’re building awareness in a new market: If you’re entering a category where people don’t know they have a problem yet, Meta lets you reach them before they start searching.
-- Your [ICP](/glossary/what-is-icp/) is reachable by interest or behaviour: Consumer-adjacent SaaS (tools for creators, freelancers, small business owners) maps better to Meta’s targeting than deep enterprise B2B.
+- Your ICP is reachable by interest or behaviour: Consumer-adjacent SaaS (tools for creators, freelancers, small business owners) maps better to Meta’s targeting than deep enterprise B2B.
 
 The trade-off is real. Meta Ads can generate a high volume of leads at a low cost-per-click but those leads are often earlier in the buying cycle and require more nurturing before they convert to paid. If your sales motion is product-led with a short time-to-value, that’s manageable. If you have a long sales cycle with a high ACV, the mismatch between Meta’s lead quality and your sales team’s qualification criteria can create friction that erodes the apparent efficiency of the channel.
 
@@ -122,7 +122,7 @@ The format you choose shapes everything how much space you have to make your poi
 - Single image ads: The simplest format. One image, a headline, body copy, and a call to action. Works well for retargeting where the audience already has context. Easy to produce, easy to test.
 - Video ads: Higher production effort but stronger for cold audiences where you need to explain something quickly. Reels placements in particular get strong reach. Even a 15-second product walkthrough can outperform a static image for awareness campaigns.
 - Carousel ads: Multiple cards, each with its own image, headline, and link. Useful for showcasing multiple features, walking through a process, or presenting different use cases to different buyer types.
-- [Lead generation](/glossary/what-is-lead-generation/) ads (Lead Ads): A form opens natively inside Facebook or Instagram the user never leaves the platform. Lower friction, higher volume, but typically lower lead quality since users don’t have to engage with your site or landing page.
+- Lead generation ads (Lead Ads): A form opens natively inside Facebook or Instagram the user never leaves the platform. Lower friction, higher volume, but typically lower lead quality since users don’t have to engage with your site or landing page.
 - Collection and Instant Experience ads: More immersive formats designed for mobile. Less common in SaaS, more common in e-commerce, but worth testing if you have a visually rich product.
 - Dynamic ads: Automatically pull from a product catalogue and personalise ad content based on user behaviour. Primarily e-commerce, but some SaaS teams use them for personalised retargeting at scale.
 
@@ -142,7 +142,7 @@ The rebrand extended the platform name to reflect that ads now run across Facebo
 
 There’s no fixed cost Meta uses an auction model, so what you pay depends on your audience, your objective, your ad quality, and how many other advertisers are competing for the same users. Most SaaS teams start with a daily budget of $20 to $100 to gather enough data for the algorithm to optimise. Cost-per-click varies widely depending on industry and targeting specificity B2B audiences tend to cost more per click than broad consumer audiences.
 
-The more important number to track is cost-per-qualified-lead or cost-per-trial-start, not raw [CPC](/glossary/what-is-cost-per-click/). Running a campaign for at least two to four weeks before drawing conclusions gives the platform enough data to exit the learning phase and stabilise performance.
+The more important number to track is cost-per-qualified-lead or cost-per-trial-start, not raw CPC. Running a campaign for at least two to four weeks before drawing conclusions gives the platform enough data to exit the learning phase and stabilise performance.
 
 ### Do Meta Ads work for B2B SaaS?
 

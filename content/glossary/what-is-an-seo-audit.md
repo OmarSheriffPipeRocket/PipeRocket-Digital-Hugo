@@ -15,7 +15,7 @@ toc: true
 readingTime: "11 min read"
 ---
 
-An [SEO](/glossary/what-is-seo/) audit is a systematic review of your website’s technical, on-page, and off-page factors to identify issues hurting search performance. It matters because missed errors can block organic growth, bury pages, or waste marketing spend. Regular audits keep your SEO strategy focused and effective.
+An SEO audit is a systematic review of your website’s technical, on-page, and off-page factors to identify issues hurting search performance. It matters because missed errors can block organic growth, bury pages, or waste marketing spend. Regular audits keep your SEO strategy focused and effective.
 
 ## TL;DR
 
@@ -27,7 +27,7 @@ An [SEO](/glossary/what-is-seo/) audit is a systematic review of your website’
 
 ## What Is an SEO Audit?
 
-An SEO audit is a structured review of your website to spot and fix issues that prevent you from ranking in search engines. It covers technical factors (like crawlability and site speed), on-page issues (like keyword targeting and content gaps), and off-page signals (like [backlinks](/glossary/what-is-a-backlink/) and authority). The goal isn’t a tidy checklist it’s to uncover what’s actually blocking traffic, conversions, and revenue. Most teams see an SEO audit as a periodic “health check.” The real value is in turning it into a living process that actually changes what you publish, how you structure your site, and where you focus your budget.
+An SEO audit is a structured review of your website to spot and fix issues that prevent you from ranking in search engines. It covers technical factors (like crawlability and site speed), on-page issues (like keyword targeting and content gaps), and off-page signals (like backlinks and authority). The goal isn’t a tidy checklist it’s to uncover what’s actually blocking traffic, conversions, and revenue. Most teams see an SEO audit as a periodic “health check.” The real value is in turning it into a living process that actually changes what you publish, how you structure your site, and where you focus your budget.
 
 - Technical review: Checks for crawl errors, broken links, site speed issues, and mobile usability problems that stop Google from indexing your pages.
 - On-page analysis: Reviews content for keyword targeting, thin or duplicate pages, title tags, internal linking, and intent alignment.
@@ -45,7 +45,7 @@ What this means in practice: a real SEO audit isn’t just a tool output or a PD
 
 - Set your goals: Define what you want from search more signups, better rankings for money pages, or fixing a traffic drop so your audit isn’t just a box-tick.
 - Crawl your site: Use tools like Screaming Frog or Sitebulb to spot crawl errors, broken links, and non-indexed pages that block discovery.
-- Check [technical SEO](/glossary/what-is-technical-seo/): Review robots.txt, XML sitemaps, mobile usability, Core Web Vitals, and HTTPS to catch issues that prevent Google from crawling or ranking key pages.
+- Check technical SEO: Review robots.txt, XML sitemaps, mobile usability, Core Web Vitals, and HTTPS to catch issues that prevent Google from crawling or ranking key pages.
 - Audit on-page elements: Look for missing or duplicate title tags, weak H1s, thin content, keyword cannibalisation, and broken internal links that dilute your authority.
 - Assess off-page signals: Analyze your backlink profile for quality, lost links, and toxic domains using Ahrefs or Semrush.
 - Prioritize fixes: Group issues by impact. Fix the showstoppers first like noindexed money pages or broken navigation before chasing small optimizations.
@@ -58,7 +58,7 @@ What this means in practice: a real SEO audit isn’t just a tool output or a PD
 Most SaaS teams dramatically underestimate the cost of unchecked SEO issues. The real risk isn’t just a few lost rankings it’s months of wasted spend, missed pipeline, and a funnel that never compounds. The core problem: as your product and site evolve, “set-and-forget” SEO decays quietly until your best content is buried.
 
 - Compound value loss: Small technical errors like duplicate meta tags or misconfigured redirects can quietly sabotage your highest-converting pages for months.
-- Wasted acquisition spend: Paid channels ([Google Ads](/glossary/what-is-google-ads/), PPC) amplify SEO waste; if landing pages aren’t indexable or optimized, you’re burning budget on traffic that never compounds.
+- Wasted acquisition spend: Paid channels (Google Ads, PPC) amplify SEO waste; if landing pages aren’t indexable or optimized, you’re burning budget on traffic that never compounds.
 - Missed intent shifts: Without regular audits, you miss when buyer intent changes or new features create new search opportunities your old pages can’t capture.
 - Neglected content: Outdated blog posts and documentation drag your whole domain down Google rewards freshness and topical authority.
 - Competitive stagnation: Competitors who audit and fix aggressively compound their advantage, while your fixes get stuck in backlog.
@@ -76,7 +76,7 @@ A full SEO audit covers far more than just running a tool and fixing a few broke
 - Full technical sweep: Checks crawlability, indexing, page speed, structured data, Core Web Vitals, mobile usability, canonical tags, and robots.txt for blockers.
 - On-page diagnosis: Reviews every URL for intent match, keyword targeting, duplicate content, missing or weak titles, meta descriptions, and internal link structure.
 - Content gap analysis: Compares your site’s topic coverage to competitors, surfacing missing pages and under-optimized clusters.
-- Backlink and authority review: Assesses backlink quality, lost links, unnatural link patterns, and [anchor text](/glossary/what-is-anchor-text/) distribution using Ahrefs or Semrush.
+- Backlink and authority review: Assesses backlink quality, lost links, unnatural link patterns, and anchor text distribution using Ahrefs or Semrush.
 - SERP and intent mapping: Reviews actual search results (SERPs) for your target keywords to spot new intent patterns and adjust your content or feature targeting.
 - Action plan: Converts findings into a prioritized list of fixes grouped as “critical”, “quick win”, and “long-term” with real business impact mapped to each.
 

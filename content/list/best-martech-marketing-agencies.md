@@ -124,10 +124,6 @@ Pricing isn't published as of June 2026. Retainers run roughly $8,000 to $25,000
 | Free Consultation | Yes, via contact form |
 | Clutch Rating | 4.7/5 (56 reviews) |
 
-Want a side-by-side? See our [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/) breakdown.
-
-
-
 ### 2. PipeRocket Digital
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}

@@ -27,7 +27,7 @@ GPT (Generative Pre-trained Transformer) is an AI language model that generates 
 
 ## What Is GPT and Why Does It Matter for SaaS Teams?
 
-GPT short for Generative Pre-trained Transformer is a type of large language model ([LLM](/glossary/what-is-an-llm/)) engineered to generate text that reads like it was written by a human. It works by predicting the next word in a sequence, using statistical patterns learned from billions of web pages, books, and documents. The result: you type a prompt, and GPT writes an answer, composes an email, summarizes a document, or even generates code.
+GPT short for Generative Pre-trained Transformer is a type of large language model (LLM) engineered to generate text that reads like it was written by a human. It works by predicting the next word in a sequence, using statistical patterns learned from billions of web pages, books, and documents. The result: you type a prompt, and GPT writes an answer, composes an email, summarizes a document, or even generates code.
 
 Most people think GPT is just “Chat GPT” or a chatbot, but that’s missing the point. GPT is the underlying engine a raw, flexible model that can be plugged into almost any workflow, not just chat interfaces. Treating GPT as a chatbot-only tool leaves huge potential on the table for SaaS, B2B, and enterprise teams.
 
@@ -85,7 +85,7 @@ The AI world is crowded so what sets GPT apart from other large language models 
 
 - Breadth of training: GPT models are trained on vast, diverse datasets, letting them handle a wide range of topics, from tech docs to creative writing.
 - API ecosystem: GPT’s robust API makes it easy for SaaS and B2B teams to embed AI into their products often without deep ML expertise.
-- Prompt adaptability: GPT is extremely flexible with [prompt engineering](/glossary/what-is-prompt-engineering/) the art of crafting the right task instructions so teams can teach it custom behaviors or voices.
+- Prompt adaptability: GPT is extremely flexible with prompt engineering the art of crafting the right task instructions so teams can teach it custom behaviors or voices.
 - Model transparency: Open AI releases technical docs and changelogs for GPT versions, so SaaS teams can assess risks or compliance needs.
 - Community and plugins: The GPT ecosystem includes plugins, prompt libraries, and third-party integrations, expanding what’s possible far beyond simple Q&A bots.
 

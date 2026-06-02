@@ -19,7 +19,7 @@ A go to market strategy is a detailed plan for how a company will sell and deliv
 ## TL;DR
 
 - Most teams treat go to market strategy as a checklist, but it’s a set of choices about who you serve, how you reach them, and how you win.
-- A strong GTM plan aligns product, sales, and marketing around a single [ICP](/glossary/what-is-icp/) and clear value proposition.
+- A strong GTM plan aligns product, sales, and marketing around a single ICP and clear value proposition.
 - The riskiest mistake is copying a competitor’s playbook instead of building your own GTM based on your strengths and market reality.
 - GTM isn’t just a launch plan; it’s the ongoing system for acquiring and retaining customers as you grow.
 - Real go to market strategy means saying “no” to channels, segments, or tactics that don’t fit your core growth model.
@@ -34,7 +34,7 @@ A go to market strategy (GTM) is the operating system for how your company bring
 - Pricing and packaging: How you structure your offers, pricing tiers, and conversion mechanics to match the way your target customer buys.
 - Customer journey: The end-to-end flow from first impression through activation and expansion where handoffs break, and where customer value is delivered or lost.
 
-Most teams think “we need a GTM plan” means “let’s copy the top SaaS marketing agencies or do what our category leader is doing.” That’s backwards. What grows a $100M [ARR](/glossary/what-is-arr/) SaaS isn’t what gets you your first 100 customers. For example, Checkpoint, a SaaS for compliance teams in fintech, ignored industry-standard webinars and focused instead on micro-communities in Slack where their ICP actually asked for advice. Their GTM worked because it fit their buyers not because it mirrored the biggest competitor.
+Most teams think “we need a GTM plan” means “let’s copy the top SaaS marketing agencies or do what our category leader is doing.” That’s backwards. What grows a $100M ARR SaaS isn’t what gets you your first 100 customers. For example, Checkpoint, a SaaS for compliance teams in fintech, ignored industry-standard webinars and focused instead on micro-communities in Slack where their ICP actually asked for advice. Their GTM worked because it fit their buyers not because it mirrored the biggest competitor.
 
 Fast Fact: Teams that skip defining their ICP often end up spending most of their marketing budget chasing leads that will never convert.
 
@@ -134,4 +134,4 @@ A SaaS team should review its go to market strategy at least once per quarter, o
 
 A go to market strategy is not a one-time project it’s the living system that connects your product to the people who actually care. Most SaaS teams get stuck by copying playbooks instead of making sharp, sometimes uncomfortable choices. The difference between “nice launch” and real growth is the courage to pick, focus, and adapt.
 
-If you want a partner who brings real-world GTM experience, reach out. For a deeper look at how we align SaaS [SEO](/glossary/what-is-seo/) with go to market, check out our SaaS SEO service.
+If you want a partner who brings real-world GTM experience, reach out. For a deeper look at how we align SaaS SEO with go to market, check out our SaaS SEO service.

@@ -122,10 +122,6 @@ A handful of Clutch reviewers [noted account-team churn](https://clutch.co/profi
 | Free Consultation | Yes, scoping call before proposal |
 | Clutch Rating | 4.8/5 (56 reviews) |
 
-Weighing PipeRocket against Directive Consulting? Our [Directive Consulting comparison](/compare/piperocket-vs-directive-consulting/) covers the four things founders ask about most.
-
-
-
 ### 2. PipeRocket Digital
 
 Best for: B2B SaaS that need qualified pipeline, not vanity metrics, from paid.
@@ -316,7 +312,7 @@ Buyers verifying through [the Clutch profile](https://clutch.co/profile/powered-
 
 Best for: B2B SaaS that want public tiered pricing and SQL-level optimization.
 
-[Bounty Hunter](https://bountyhunter.agency) is one of the only [SaaS PPC](/blogs/saas-ppc/) agencies that publishes a public rate card with three tiered plans. The agency is San Antonio-headquartered with founder Jovan Miljevic based in Belgrade and team coverage across US and Serbia hours.
+[Bounty Hunter](https://bountyhunter.agency) is one of the only SaaS PPC agencies that publishes a public rate card with three tiered plans. The agency is San Antonio-headquartered with founder Jovan Miljevic based in Belgrade and team coverage across US and Serbia hours.
 
 **Profile**
 
@@ -434,11 +430,7 @@ Procurement teams [report friction](https://clutch.co/profile/klientboost) getti
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, free marketing plan gate |
-| Clutch Rating | 4
-
-Want a side-by-side? See our [PipeRocket vs KlientBoost](/compare/piperocket-digital-vs-klientboost/) breakdown.
-
-.9/5 (402 reviews) |
+| Clutch Rating | 4.9/5 (402 reviews) |
 
 ### 7. Single Grain
 
@@ -562,11 +554,7 @@ Invisibly's VP of Marketing [called the team](https://clutch.co/profile/nogood) 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoping call before retainer |
-| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.
-
-For a head-to-head on paid, organic, and pricing, see [PipeRocket vs NoGood](/compare/piperocket-digital-vs-nogood/).
-
-com/vendor/nogood) |
+| Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 
 ### 9. NinjaPromo
 

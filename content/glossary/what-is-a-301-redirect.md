@@ -15,7 +15,7 @@ toc: true
 readingTime: "11 min read"
 ---
 
-A 301 redirect is a permanent way to forward one URL to another, telling browsers and Google to treat the new address as the official version. This preserves most of the original page’s [SEO](/glossary/what-is-seo/) value and user traffic, reducing the risk of broken links or lost rankings.
+A 301 redirect is a permanent way to forward one URL to another, telling browsers and Google to treat the new address as the official version. This preserves most of the original page’s SEO value and user traffic, reducing the risk of broken links or lost rankings.
 
 ## TL;DR
 

@@ -254,7 +254,7 @@ You need to know:
 2. Are the channels efficient? Is the CPL sustainable?
 3. Where do we double down? Which campaign is the winner?
 
-When you audit from the top down, starting with the business goals, moving to the funnel, and *then* looking at the keywords, you stop being a “[SaaS PPC](/blogs/saas-ppc/) mechanic” and start being a “Revenue Architect.”
+When you audit from the top down, starting with the business goals, moving to the funnel, and *then* looking at the keywords, you stop being a “SaaS PPC mechanic” and start being a “Revenue Architect.”
 
 And honestly? That’s where the fun (and the money) is.
 

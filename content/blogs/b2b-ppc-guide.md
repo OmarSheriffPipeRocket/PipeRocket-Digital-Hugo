@@ -96,7 +96,7 @@ Run three distinct campaign types and treat each as its own program with its own
 
 ### Connect Your CRM to Your Ad Account Before Optimising Anything
 
-This is the single highest-leverage technical step in any [b2b ppc](/blogs/b2b-ppc/) setup, and most teams never do it. Offline conversion tracking sends your CRM pipeline events back to [Google Ads](/glossary/what-is-google-ads/ "Glossary: Google Ads") so the algorithm learns which clicks produce SQLs, opportunities, and closed deals — rather than optimising for whatever fires on a thank-you page.
+This is the single highest-leverage technical step in any b2b ppc setup, and most teams never do it. Offline conversion tracking sends your CRM pipeline events back to [Google Ads](/glossary/what-is-google-ads/ "Glossary: Google Ads") so the algorithm learns which clicks produce SQLs, opportunities, and closed deals — rather than optimising for whatever fires on a thank-you page.
 
 Google’s own data shows advertisers using offline conversion tracking typically see a 20 to 30% improvement in conversion quality at the same spend level ([Google Ads Help Center](https://support.google.com/google-ads/answer/2998031)). The setup takes a few hours. The impact compounds over months as the algorithm accumulates better training data.
 

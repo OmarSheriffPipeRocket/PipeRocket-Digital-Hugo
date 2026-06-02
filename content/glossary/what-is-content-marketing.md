@@ -35,7 +35,7 @@ Here’s where most SaaS teams miss the mark: they think publishing more content
 - Buyer journey mapping: Effective content marketing aligns each piece of content with a stage in the funnel awareness, consideration, or decision.
 - Authority building: Consistently publishing high-quality content earns trust and signals expertise to both your audience and search engines.
 - Organic acquisition: The strongest channel for SaaS isn’t paid ads it’s content that ranks and keeps pulling in leads over time.
-- Distribution strategy: Creating content is half the game; getting it in front of the right people (via [SEO](/glossary/what-is-seo/), email, social, or partnerships) is the other half.
+- Distribution strategy: Creating content is half the game; getting it in front of the right people (via SEO, email, social, or partnerships) is the other half.
 
 The trap is thinking content marketing is just about volume. Publishing 20 generic posts won’t move the needle if none of them answer the questions your buyers are actually searching for. One well-structured, deeply helpful piece targeted to the right decision-maker at the right moment often beats a year’s worth of random publishing.
 
@@ -75,7 +75,7 @@ The content types that work best are those that directly address your target buy
 
 ## How Do You Build a SaaS Content Marketing Strategy That Actually Works?
 
-Building a real SaaS content marketing strategy means starting with your [ICP](/glossary/what-is-icp/)’s pain points and mapping each piece of content to a specific stage in their journey not just filling a calendar. Most teams start with “what should we write about?” That’s backwards. Start with “what does our best customer need to learn, solve, or decide before buying?”
+Building a real SaaS content marketing strategy means starting with your ICP’s pain points and mapping each piece of content to a specific stage in their journey not just filling a calendar. Most teams start with “what should we write about?” That’s backwards. Start with “what does our best customer need to learn, solve, or decide before buying?”
 
 - ICP research: Get brutally clear about your Ideal Customer Profile industry, pain points, buying triggers, and objections.
 - Intent mapping: Map content topics to buyer intent at each stage awareness (problem), consideration (solutions), decision (why you).

@@ -109,7 +109,7 @@ You start with positioning, not design. Most teams do it backwards they commissi
 
 The right order is: positioning first, verbal identity second, visual identity third. Once you know exactly who you’re for and what you’re claiming, every design and language decision becomes easier and more defensible.
 
-- Start with your [ICP](/glossary/what-is-icp/): Brand identity should be built around the specific buyer you’re trying to win, not a general audience. The more specific your target, the more resonant your brand can be.
+- Start with your ICP: Brand identity should be built around the specific buyer you’re trying to win, not a general audience. The more specific your target, the more resonant your brand can be.
 - Define your positioning clearly: Write a one-paragraph positioning statement before you brief any designer. It should name your category, your target customer, your core benefit, and your key differentiator.
 - Build your verbal identity before your visual identity: Tone of voice and messaging architecture should inform design choices not the other way around.
 - Document everything in a brand guide: Not for the sake of having a document, but so that every new hire, agency partner, or contractor starts from the same foundation.

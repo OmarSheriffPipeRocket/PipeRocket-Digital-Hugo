@@ -19,7 +19,7 @@ Robots.txt is a text file on your website that tells search engines which pages 
 
 ## TL;DR
 
-- Robots.txt directly controls what search engines can access, making it a critical file for [SEO](/glossary/what-is-seo/) and site privacy.
+- Robots.txt directly controls what search engines can access, making it a critical file for SEO and site privacy.
 - Most SaaS teams misconfigure robots.txt, either blocking critical pages or allowing duplicate content to be indexed.
 - A single robots.txt mistake can cause entire sections of your site to disappear from Google within days.
 - Googlebot, Bingbot, and other crawlers all check robots.txt before crawling but may interpret the rules differently.
@@ -67,7 +67,7 @@ Here’s the thing: Every major search engine checks your robots.txt file before
 
 Most SaaS marketers think “Disallow” means Google will never show a page in search. That’s incomplete: if another site links to your blocked page, Google might still index the URL, it just won’t crawl its content. The real-world implication? Sensitive URLs may still appear in search results with no description.
 
-Take Launch Padly, a SaaS for product onboarding. Their marketing team “Disallowed” /testimonials/ to prevent duplicate content, but forgot that partners were linking to those pages. The URLs still showed up in Google, only with blank snippets confusing users and hurting [CTR](/glossary/what-is-ctr/).
+Take Launch Padly, a SaaS for product onboarding. Their marketing team “Disallowed” /testimonials/ to prevent duplicate content, but forgot that partners were linking to those pages. The URLs still showed up in Google, only with blank snippets confusing users and hurting CTR.
 
 **Fast Fact:** Users from organic search spend an average of 4 minutes 40 seconds on SaaS pages, nearly a full minute longer than AI-referred visitors.
 
@@ -125,4 +125,4 @@ Update your robots.txt file whenever you launch a major redesign, migrate your s
 
 ## The Bottom Line
 
-Robots.txt is often overlooked, but it’s one of the most important and dangerous SEO levers on your site. Use it to shape what search engines can (and can’t) see, but treat every rule as a potential risk. If you want robots.txt to work for you (not against you), [get in touch](https://www.piperocket.co/contact) or check out our [SaaS SEO agency](/saas-seo-agency/) page for a deeper look at [technical SEO](/glossary/what-is-technical-seo/) in practice.
+Robots.txt is often overlooked, but it’s one of the most important and dangerous SEO levers on your site. Use it to shape what search engines can (and can’t) see, but treat every rule as a potential risk. If you want robots.txt to work for you (not against you), [get in touch](https://www.piperocket.co/contact) or check out our [SaaS SEO agency](/saas-seo-agency/) page for a deeper look at technical SEO in practice.

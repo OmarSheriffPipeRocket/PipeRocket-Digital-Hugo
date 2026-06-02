@@ -44,7 +44,7 @@ Also read: [how the best SaaS marketing agencies drive retention and expansion](
 
 NRR is calculated by taking your starting recurring revenue from existing customers, subtracting any lost revenue from churn and downgrades, then adding expansion revenue from upgrades or cross-sells all without counting new customer sales. The formula’s simple, but the real value is in what you include (and leave out).
 
-- Starting MRR/[ARR](/glossary/what-is-arr/): Use the recurring revenue at the start of the period from existing accounts only don’t mix in new sales.
+- Starting MRR/ARR: Use the recurring revenue at the start of the period from existing accounts only don’t mix in new sales.
 - Churned revenue: Subtract all lost revenue from customers who canceled in that period.
 - Contraction: Subtract any decrease from customers who downgraded or reduced usage.
 - Expansion revenue: Add all upsell, cross-sell, and upgrade revenue from the same accounts.
@@ -88,7 +88,7 @@ NRR matters more than churn or new logo growth because it shows whether your bus
 - New logos mask problems: You can add new customers all day and still shrink if your NRR is below 100%.
 - Expansion signals product fit: A high NRR usually means your best customers are adopting more features, adding seats, or buying more.
 - NRR drives SaaS valuation: Investors and acquirers look at NRR as a north star high NRR means real product-market fit and a self-reinforcing growth loop.
-- NRR is an early warning: If your NRR dips, check for pricing friction, product gaps, or a too-broad [ICP](/glossary/what-is-icp/) before the bleeding shows up in churn.
+- NRR is an early warning: If your NRR dips, check for pricing friction, product gaps, or a too-broad ICP before the bleeding shows up in churn.
 
 Here’s what most teams miss: Chasing new logos without fixing expansion is just pouring water into a leaky bucket. If your NRR is 90%, you’re losing ground every month new sales only hide the problem, they don’t solve it.
 
@@ -134,6 +134,6 @@ Logo retention measures the percentage of customers who stay, regardless of how 
 
 ## The Bottom Line
 
-Net Revenue Retention tells you if your SaaS business is actually compounding revenue or just treading water. It’s the metric that spots churn and contraction before they explode, and rewards teams who build real expansion into their product and pricing. If you want to benchmark your NRR or fix a leaky revenue bucket, get in touch or see how we approach SaaS [SEO](/glossary/what-is-seo/) for expansion and retention.
+Net Revenue Retention tells you if your SaaS business is actually compounding revenue or just treading water. It’s the metric that spots churn and contraction before they explode, and rewards teams who build real expansion into their product and pricing. If you want to benchmark your NRR or fix a leaky revenue bucket, get in touch or see how we approach SaaS SEO for expansion and retention.
 
-Also read: [top SaaS SEO agencies](/list/best-saas-seo-agencies-for-startups/) for SaaS teams focused on growth
+Also read: top SaaS SEO agencies for SaaS teams focused on growth

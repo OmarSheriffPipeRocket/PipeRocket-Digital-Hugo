@@ -22,7 +22,7 @@ Cost per click (CPC) is the amount an advertiser pays each time someone clicks t
 - Cost per click (CPC) is the exact price you pay for every individual ad click, not just an average across campaigns.
 - A high CPC doesn’t always mean wasted money sometimes, expensive clicks convert to customers with far higher lifetime value.
 - Most SaaS teams fixate on lowering CPC, but a low cost per click with poor conversion often leads to higher total acquisition costs.
-- According to Word Stream, the average CPC for B2B SaaS on [Google Ads](/glossary/what-is-google-ads/) is $3.33, but top competitive keywords can cost $20 or more per click.
+- According to Word Stream, the average CPC for B2B SaaS on Google Ads is $3.33, but top competitive keywords can cost $20 or more per click.
 - Tracking both CPC and downstream metrics like conversion rate and LTV is essential to avoid burning budget on unprofitable channels.
 
 ## What Is Cost Per Click?
@@ -55,7 +55,7 @@ There’s no magic to how CPC is calculated it’s basic math. But the real chal
 
 One SaaS, Finlytics (a finance dashboard tool for mid-market CFOs), discovered that 28% of their ad clicks came from countries not in their target region. By tightening their geo-targeting and filtering out non-core audiences, they cut wasted CPC spend by 40% in one month.
 
-**Fast Fact:** Click fraud and bot traffic can eat up to 15 20% of [PPC](/glossary/what-is-ppc/) budgets on some platforms, making accurate CPC tracking even more critical.
+**Fast Fact:** Click fraud and bot traffic can eat up to 15 20% of PPC budgets on some platforms, making accurate CPC tracking even more critical.
 
 **Also read:** [how the top B2B Google Ads agencies track and optimize CPC](/list/best-b2b-google-ads-agencies/)
 
@@ -83,7 +83,7 @@ CPC is just one number. The teams that win treat it as a signal, not a goal. The
 - Channel prioritization: Compare CPC, conversion rate, and LTV together to decide where to invest sometimes, the most expensive channel brings the best customers.
 - Creative and targeting tests: Adjust ad copy and targeting based on which clicks convert, not just which cost less.
 - Budget allocation: Shift spend to campaigns with higher CPC but better customer quality, and cut spend on cheap traffic that stalls in your funnel.
-- Collaboration with [SEO](/glossary/what-is-seo/): Use paid search data to inform organic keyword targets if a keyword drives high-value clicks at a high CPC, it’s a strong SEO candidate.
+- Collaboration with SEO: Use paid search data to inform organic keyword targets if a keyword drives high-value clicks at a high CPC, it’s a strong SEO candidate.
 
 Trackflow, the project management tool for creative agencies, doubled down on high-CPC, high-intent search terms after seeing a 36% lift in free trial signups from those campaigns despite paying triple the per-click cost compared to their broad-match ads.
 
@@ -115,7 +115,7 @@ A good CPC for SaaS depends on your market, audience, and the value of a paying 
 
 ### How does CPC compare to CPM and CPA?
 
-CPC (cost per click) is the price paid for each click on your ad, while CPM (cost per mille) is what you pay per thousand impressions, and [CPA](/glossary/what-is-cpa/) (cost per acquisition) is what you pay for each new lead or customer. For SaaS, CPC is useful for driving site visits, CPM for brand awareness, and CPA is the ultimate metric for measuring actual return on ad spend.
+CPC (cost per click) is the price paid for each click on your ad, while CPM (cost per mille) is what you pay per thousand impressions, and CPA (cost per acquisition) is what you pay for each new lead or customer. For SaaS, CPC is useful for driving site visits, CPM for brand awareness, and CPA is the ultimate metric for measuring actual return on ad spend.
 
 ### How can I lower my CPC without hurting conversion rates?
 

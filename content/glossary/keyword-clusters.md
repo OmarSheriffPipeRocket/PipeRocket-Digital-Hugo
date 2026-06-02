@@ -19,7 +19,7 @@ A keyword cluster is a set of closely related keywords grouped to cover a single
 
 ## TL;DR
 
-- Keyword clusters group related queries, letting one page rank for multiple terms without cannibalizing your own [SEO](/glossary/what-is-seo/) efforts.
+- Keyword clusters group related queries, letting one page rank for multiple terms without cannibalizing your own SEO efforts.
 - Teams building clusters by intent, not just topic, see more reliable ranking gains across SaaS and B2B industries.
 - Google’s algorithms reward authority; covering a topic in depth using clusters signals your site is the best resource.
 - Organic search still drives 91.3% of SaaS traffic, so clustering is more important than AI-first “single keyword” writing.
@@ -34,7 +34,7 @@ A keyword cluster is a strategic group of search terms variations, synonyms, and
 - Core keyword: The main phrase you want to rank for, like “SaaS onboarding.”
 - Supporting variations: Related terms and synonyms, such as “user onboarding for SaaS” or “SaaS app onboarding checklist.”
 - Search intent: What users actually want information, a product, or a solution so you group keywords by purpose, not just wording.
-- [SERP](/glossary/what-is-serp/) overlap: Clustering is only effective when Google shows the same or similar results for your chosen terms.
+- SERP overlap: Clustering is only effective when Google shows the same or similar results for your chosen terms.
 - Content mapping: Each cluster becomes a blueprint for a single, high-authority page or a tight group of supporting pages.
 
 Here’s what this looks like in the wild: Trackflow, a project management tool for creative agencies, stopped writing isolated posts for “project tracking software,” “creative agency project tool,” and “best project management app.” Instead, they built a single pillar page that covered all core and supporting terms. Rankings consolidated, and organic signups jumped 40% in six months.
@@ -43,7 +43,7 @@ What this means in practice: Instead of chasing every keyword with a separate ar
 
 ### How to Build a Keyword Cluster Step by Step
 
-- Find the core topic: Start with a high-value keyword for your SaaS (like “SaaS billing automation”) that fits your [ICP](/glossary/what-is-icp/) and business goals.
+- Find the core topic: Start with a high-value keyword for your SaaS (like “SaaS billing automation”) that fits your ICP and business goals.
 - Collect related terms: Use tools like Ahrefs or Semrush to gather variations, synonyms, and questions people search alongside your core topic.
 - Check SERP overlap: Search each term if Google shows similar results for multiple keywords, they belong in the same cluster.
 - Map by intent: Separate keywords by what the searcher wants (buy, learn, compare). Group those with matching intent to avoid cannibalizing pages.

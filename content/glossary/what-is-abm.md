@@ -62,7 +62,7 @@ ABM fails most often because of a misalignment problem that starts before any ca
 
 That’s the most common failure mode. But there are others.
 
-- No defined [ICP](/glossary/what-is-icp/): Without a tight ideal customer profile, account selection becomes arbitrary. You end up targeting accounts that look big on paper but have no real fit with your product.
+- No defined ICP: Without a tight ideal customer profile, account selection becomes arbitrary. You end up targeting accounts that look big on paper but have no real fit with your product.
 - Weak intent data: ABM without intent signals means you’re guessing at timing. Accounts that match your ICP perfectly still won’t convert if you’re reaching them six months before they’re in-market.
 - Personalisation that isn’t personal: Swapping a logo into a slide deck isn’t personalisation. Real ABM personalisation addresses the account’s specific situation their current tech stack, their recent news, their regulatory exposure.
 - Measuring the wrong things: Tracking impressions and MQLs on an ABM programme is measuring the wrong layer entirely. Pipeline created, deal velocity, and account engagement rate are what matter.
@@ -74,7 +74,7 @@ Also read: [top B2B PPC agencies that support account-based paid strategies](/li
 
 ## How Does ABM Fit With Paid and SEO Channels?
 
-ABM doesn’t replace your other channels it gives them direction. Paid and [SEO](/glossary/what-is-seo/) both become more effective when they’re anchored to a specific account list rather than broad audience targeting.
+ABM doesn’t replace your other channels it gives them direction. Paid and SEO both become more effective when they’re anchored to a specific account list rather than broad audience targeting.
 
 On the paid side, platforms like Linked In allow you to upload a company list and serve ads only to employees at those accounts. This is where ABM and paid search genuinely intersect you’re not bidding for traffic volume, you’re buying mindshare with a defined set of buyers. Working with a specialist [B2B Google Ads agency](/list/best-b2b-google-ads-agencies/) that understands account-level targeting can make this layer significantly more efficient.
 

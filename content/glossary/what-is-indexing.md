@@ -23,7 +23,7 @@ Indexing is the process where a search engine adds a web page to its searchable 
 - If your SaaS site isn’t indexed, your content is invisible to organic search and can’t drive traffic no matter how good it is.
 - Most teams assume “crawled” equals “indexed” but Google often crawls pages it never indexes due to quality or technical issues.
 - Search engines update their index constantly, but changes can take days or weeks to show up in results after you publish or update a page.
-- Working with a dedicated SaaS [SEO](/glossary/what-is-seo/) agency can help identify and resolve indexing issues faster than most in-house teams.
+- Working with a dedicated SaaS SEO agency can help identify and resolve indexing issues faster than most in-house teams.
 
 ## What Is Indexing in SEO?
 
@@ -48,7 +48,7 @@ Most teams only check if their pages are live, not if they’re indexed. The rea
 - Crawl accessibility: Make sure your site isn’t blocking Googlebot with robots.txt or meta tags otherwise, indexing is impossible.
 - Quality content: Thin, duplicate, or auto-generated pages often get skipped by the index. Only substantial, unique content consistently makes it in.
 - Sitemaps and internal links: Submit XML sitemaps in Google Search Console and use strong internal linking to help bots discover all key pages.
-- Fix technical errors: Resolve server errors, broken redirects, or [canonical tag](/glossary/what-is-a-canonical-tag/) issues these frequently block indexing.
+- Fix technical errors: Resolve server errors, broken redirects, or canonical tag issues these frequently block indexing.
 - Monitor with Search Console: Regularly check which pages are “Crawled currently not indexed” and address patterns causing them to be left out.
 - Request indexing for key pages: Use Search Console’s “Request Indexing” tool for high-priority pages, but don’t rely on it as your main strategy.
 
@@ -64,7 +64,7 @@ At a basic level, indexing sounds simple: a bot visits, stores your page, and yo
 
 **Fast Fact:** Users from organic search spend an average of 4 minutes 40 seconds on SaaS pages, nearly a full minute longer than AI-referred visitors.
 
-A common mistake: publishing dozens of similar integration pages, each with near-identical copy except for the product name. Google starts skipping them in the index so half your integrations never get search traffic, no matter how many [backlinks](/glossary/what-is-a-backlink/) you build.
+A common mistake: publishing dozens of similar integration pages, each with near-identical copy except for the product name. Google starts skipping them in the index so half your integrations never get search traffic, no matter how many backlinks you build.
 
 Here’s the real trade-off: auto-generating feature or integration pages saves time, but at scale, thin variations get filtered from the index. It’s worth it for massive product catalogs where unique value exists per page, but it fails for SaaS with templated blurbs and no real differentiator.
 

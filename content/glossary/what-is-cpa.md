@@ -35,7 +35,7 @@ CPA, or cost per acquisition, is a metric that tells you the average marketing a
 - LTV connection: Tracking CPA without also tracking customer lifetime value (LTV) gives a warped view of channel quality.
 - Misconceptions: Most teams target the lowest CPA, but that often rewards channels that bring low-intent, short-term users.
 
-Here’s the pattern most teams miss: You run $10,000 of [Google Ads](/glossary/what-is-google-ads/), get 100 new signups, and report a $100 CPA. But if only 20 become paying customers, your true CPA is $500 and if half churn in two months, that “cheap” CPA is actually a silent drain.
+Here’s the pattern most teams miss: You run $10,000 of Google Ads, get 100 new signups, and report a $100 CPA. But if only 20 become paying customers, your true CPA is $500 and if half churn in two months, that “cheap” CPA is actually a silent drain.
 
 Trackflow, a project tool for creative agencies, used to celebrate low CPA from social ads, only to realize those users churned 3x faster than higher-CPA, organic search customers. When the team shifted focus from minimizing CPA to maximizing LTV/CAC ratio, their payback period dropped from 14 months to 9.
 
