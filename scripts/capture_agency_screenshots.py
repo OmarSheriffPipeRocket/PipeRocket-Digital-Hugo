@@ -205,7 +205,7 @@ def normalize_homepage(url: str) -> str:
     return m.group(1) + "/"
 
 
-def detect_brand_url(section_text: str, brand_name: str) -> str | None:
+def detect_brand_url(section_text: str, brand_name: str):
     """1) Try the override map (handles brands whose listicle section
        links only to internal pages, like our own /contact-us/).
        2) Otherwise, scan markdown links: prefer one whose link text
