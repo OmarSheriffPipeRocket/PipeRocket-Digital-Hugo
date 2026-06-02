@@ -64,22 +64,6 @@
     </div>
   </nav>
 
-  {{/* Schema.org BreadcrumbList for SEO */}}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {{ range $i, $c := $crumbs -}}
-        {{ if $i }},{{ end -}}
-        {
-          "@type": "ListItem",
-          "position": {{ add $i 1 }},
-          "name": {{ (or $c.nameFull $c.name) | jsonify }}{{ if not $c.current }},
-          "item": {{ (absURL $c.url) | jsonify }}{{ end }}
-        }
-      {{- end }}
-    ]
-  }
-  </script>
+  {{/* BreadcrumbList JSON-LD is emitted from head-meta.html so it runs on
+       every page, not just the ones that include this visible nav. */}}
 {{ end }}

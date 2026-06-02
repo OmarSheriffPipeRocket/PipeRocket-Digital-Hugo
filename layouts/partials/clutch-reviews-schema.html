@@ -27,11 +27,14 @@
   {{ $reviewItems = $reviewItems | append $item }}
 {{ end }}
 
+{{/* Merge reviews + aggregateRating into the canonical Organization node
+     declared in head-meta.html (@id: piperocket.digital/#organization),
+     instead of declaring a second Organization. Google's parser merges
+     nodes with the same @id, so reviews attach to the org that already
+     has logo, founders, sameAs, etc. */}}
 {{ $schema := dict
    "@context" "https://schema.org"
-   "@type" "Organization"
-   "name" "PipeRocket Digital"
-   "url" "https://piperocket.digital/"
+   "@id" "https://piperocket.digital/#organization"
    "aggregateRating" (dict
       "@type" "AggregateRating"
       "ratingValue" (printf "%v" $rating)
