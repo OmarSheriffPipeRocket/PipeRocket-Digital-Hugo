@@ -1,0 +1,29 @@
+{
+  "_comment": "Rolling cursor for the listicle refresh agent. cursor = index into the publish-date-ordered list of v3 listicles. Agent processes 10 starting at cursor, then advances cursor by 10 (mod 22). last_run is informational.",
+  "cursor": 0,
+  "last_run": null,
+  "publish_order": [
+    "best-enterprise-seo-agencies",
+    "best-saas-seo-agencies",
+    "top-b2b-ppc-agencies",
+    "top-performance-marketing-agencies",
+    "best-edtech-marketing-agencies",
+    "best-saas-content-marketing-agencies",
+    "top-fintech-seo-agencies",
+    "top-fintech-marketing-agencies",
+    "best-saas-ppc-agencies",
+    "best-saas-geo-agencies",
+    "best-saas-seo-agencies-for-startups",
+    "best-geo-agencies",
+    "best-saas-link-building-agencies",
+    "best-technical-seo-agencies",
+    "best-saas-growth-marketing-agencies",
+    "best-saas-marketing-agencies-2026",
+    "best-devtools-marketing-agencies",
+    "best-healthtech-marketing-agencies",
+    "best-hr-tech-marketing-agencies",
+    "best-martech-marketing-agencies",
+    "best-proptech-marketing-agencies",
+    "best-linkedin-marketing-agencies"
+  ]
+}
