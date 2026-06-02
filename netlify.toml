@@ -39,6 +39,14 @@
 [context.branch-deploy]
   command = "hugo --baseURL $DEPLOY_PRIME_URL && npx purgecss --config ./purgecss.config.js"
 
+# ─── Edge function: noindex the *.netlify.app staging subdomain ────────
+# Adds X-Robots-Tag: noindex on requests to piperocketdigital.netlify.app
+# (and any branch/preview *.netlify.app URL) so Google deindexes them and
+# only piperocket.digital ranks. Production custom domain is untouched.
+[[edge_functions]]
+  function = "noindex-staging"
+  path = "/*"
+
 # ─── Cache-Control headers ─────────────────────────────────────────────
 # Hugo fingerprints CSS+JS in the filename (e.g. main.min.<hash>.css), so the
 # URL changes when content changes — safe to cache for a year as immutable.
