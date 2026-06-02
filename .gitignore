@@ -36,5 +36,8 @@ tmp/
 # Listicle rewrite working artifacts (research dossiers per slug)
 /research/
 
+# Daily refresh reports (local artifacts, not for publish)
+/refresh-reports/
+
 # Local Netlify folder
 .netlify
