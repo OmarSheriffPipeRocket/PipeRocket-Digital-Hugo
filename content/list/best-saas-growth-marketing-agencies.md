@@ -39,7 +39,7 @@ Picking the wrong growth partner can quietly burn a year of runway, so we cross-
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | Mid-market and enterprise SaaS pipeline | [$6,500/mo](https://directiveconsulting.com) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | B2B SaaS revenue-first growth | [$5,000/mo](/contact-us/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS revenue-first growth | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | NoGood | High-velocity SaaS experimentation | [$20,000/mo](https://nogood.io) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
 | Kalungi | Fractional CMO for early-stage SaaS | [$6,500/mo](https://www.kalungi.com) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 | Refine Labs | SaaS demand creation, away from MQLs | Custom pricing | Yes | Verified on Clutch (0 reviews) |

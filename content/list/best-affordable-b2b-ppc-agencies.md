@@ -34,7 +34,7 @@ Picking the wrong agency costs more than retainer fees: it costs you a wasted qu
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | KlientBoost | Performance PPC with transparent pricing | [$2,000/mo](https://klientboost.com/pricing) | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
-| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Directive Consulting | Enterprise B2B SaaS Customer Generation | [$6,500/mo startup](https://directiveconsulting.com/startup-package/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
 | Disruptive Advertising | Month-to-month B2B PPC management | [$5,000/mo+](https://disruptiveadvertising.com/advertising-services/) | Yes | [4.8/5 (365+ reviews)](https://clutch.co/profile/disruptive-advertising) |
 | Ladder.io | Creative-first growth marketing | [Custom, $3,500+ reported](https://ladder.io/) | Yes | [4.4/5 (14 reviews)](https://clutch.co/profile/ladderio) |
@@ -176,7 +176,7 @@ Some early-stage startups find our $3,000/mo minimum retainer higher than budget
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Clutch Rating | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

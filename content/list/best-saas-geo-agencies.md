@@ -39,7 +39,7 @@ Picking the wrong [GEO/AEO](/aeo-geo-agency/) partner costs six months of unansw
 | --- | --- | --- | --- | --- |
 | Minuttia | B2B SaaS GEO depth | [Custom pricing](https://minuttia.com/contact) | Yes | [4.9/5 (16 reviews)](https://clutch.co/profile/minuttia) |
 | First Page Sage | Enterprise SaaS thought-leadership GEO | [$10,000+/project](https://firstpagesage.com/contact-us/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/first-page-sage) |
-| PipeRocket Digital | B2B SaaS GEO tied to pipeline | [$5,000/mo](/pricing/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS GEO tied to pipeline | [$5,000/mo](/pricing/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Omniscient Digital | Strategy-led SaaS GEO | [Custom pricing](https://beomniscient.com/contact/) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
 | The SEO Works | UK/EU SaaS GEO product | [Custom pricing](https://www.seoworks.co.uk/contact-us/) | Yes | [4.8/5 (58 reviews)](https://clutch.co/profile/seo-works) |
 | Single Grain | Multi-channel SaaS GEO | [Custom pricing](https://www.singlegrain.com/contact/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |

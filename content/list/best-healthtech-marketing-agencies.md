@@ -39,7 +39,7 @@ Picking the wrong agency in healthtech costs more than a wasted quarter: it can 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Clarity Quest | Health IT, biotech, medtech B2B | Custom pricing | Yes | [4.9/5 (6 reviews)](https://clutch.co/profile/clarity-quest-marketing) |
-| PipeRocket Digital | B2B healthtech SaaS pipeline | [$5,000/mo](/contact-us/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B healthtech SaaS pipeline | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | HealthLaunchpad | Early-stage B2B healthtech | Custom pricing | Yes | No verified Clutch profile |
 | Avenue Z | Healthtech PR + performance | Custom pricing | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/avenue-z) |
 | Insivia | Digital health SaaS demand gen | Custom pricing | Yes | [5.0/5 (5 reviews)](https://clutch.co/profile/insivia) |

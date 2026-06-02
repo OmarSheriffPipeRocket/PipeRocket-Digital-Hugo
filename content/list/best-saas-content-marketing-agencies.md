@@ -40,7 +40,7 @@ A wrong pick on a [content marketing](/content-marketing-agency/) partner usuall
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Siege Media | Content plus design plus PR | [Custom pricing](https://www.siegemedia.com/contact) | Yes | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
-| PipeRocket Digital | Pipeline-tied SaaS content | [Custom pricing](/contact-us/) | Yes | [4.9/5 (28 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-tied SaaS content | [Custom pricing](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Animalz | Research-backed thought leadership | [Custom pricing](https://www.animalz.co/) | Yes | [Verified on Clutch](https://clutch.co/profile/animalz) |
 | Grow and Convert | Pain Point SEO conversion content | [Custom pricing](https://www.growandconvert.com/) | Yes | [4.8/5 (9 reviews)](https://clutch.co/profile/grow-convert) |
 | Quoleady | BOFU content and link building | [$3,500/mo](https://www.quoleady.com/pricing/) | Yes | [4.9/5 (6 reviews)](https://clutch.co/profile/quoleady) |

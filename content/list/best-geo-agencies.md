@@ -42,7 +42,7 @@ Picking the wrong [GEO/AEO](/aeo-geo-agency/) partner costs six months of unansw
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | iPullRank | GEO as an engineering discipline | [Custom pricing](https://ipullrank.com/contact) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/ipullrank) |
-| PipeRocket Digital | B2B SaaS GEO tied to pipeline | [$1,500/mo](/pricing/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS GEO tied to pipeline | [$1,500/mo](/pricing/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | First Page Sage | Enterprise thought-leadership GEO | [$10,000+/project](https://firstpagesage.com/contact-us/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/first-page-sage) |
 | Omniscient Digital | Editorial B2B SaaS GEO | [Custom pricing](https://beomniscient.com/contact/) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
 | RevenueZen | Public month-to-month GEO pricing | [$2,500/mo](https://revenuezen.com/pricing/) | Yes | [4.9/5 (38 reviews)](https://clutch.co/profile/revenuezen) |
