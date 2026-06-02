@@ -5594,8 +5594,9 @@ a.pr-footer__trust-item:hover {
   font-weight: 400;
   line-height: 1.6 !important;
   color: var(--pr-ink) !important;
-  display: flex;
-  flex-direction: column;
+  /* No `display: flex` — the ::before eyebrow positions itself via negative
+     margins, and flex-column would break inline <a> children onto their
+     own lines (e.g. an [SEO] link mid-paragraph rendering as a block). */
 }
 .pr-glossary__body > p:first-child::before {
   content: "Definition";
