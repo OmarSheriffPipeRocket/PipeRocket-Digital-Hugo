@@ -6,7 +6,7 @@
 ) }}
 
 {{ partial "directory-grid.html" (dict
-  "pages" .Pages.ByDate.Reverse
+  "pages" .Pages.ByLastmod.Reverse
   "chips" (slice "All Blogs" "SaaS SEO" "SaaS PPC" "Enterprise" "B2B SEO" "B2B PPC" "B2B Marketing")
 ) }}
 {{ end }}
