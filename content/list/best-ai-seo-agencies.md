@@ -707,13 +707,29 @@ Challenger retainers start at $9,625/mo (Sprint is a 90-day project, not ongoing
 
 AI SEO agencies optimise content and technical SEO for both Google and AI answer engines (ChatGPT, Perplexity, Claude, Gemini, AI Overviews) using AI-powered tools and workflows.
 
+### Is AEO/GEO just SEO rebranded with a new buzzword?
+
+No. The fundamentals overlap, but the target moved. AEO/GEO optimise for passage retrieval and citation inside LLM answers, not blue-link rankings. Same craft, different surface.
+
 ### How are AI SEO services different from traditional SEO?
 
 AI SEO services target passage retrieval and answer engines, not just keyword rankings. AI content optimization focuses on entity coverage, citations, and LLM-friendly structure.
 
-### How much do AI SEO agencies cost?
+### Should we hire an AI SEO agency or just buy a tool like Semrush AI?
 
-Public pricing ranges from $1,500/mo (Embarque Lean, PipeRocket early-stage) to $25,000+ project (Foundation). Most retainers fall in the $5K to $15K/mo range.
+Tools surface data; they don't produce cited content. Buy a tool if you have an in-house team to act on it. Hire an agency if you need execution, not another dashboard.
+
+### How do you actually measure AI SEO, or whether ChatGPT is citing you?
+
+Honestly, AI visibility tracking is a mess. Most tools sample or guess. Stop obsessing over where you're cited today and start building content that earns citations, with E-E-A-T as the anchor.
+
+### How do we get our SaaS mentioned in ChatGPT answers when buyers research tools?
+
+Earn citations from sources LLMs trust: comparison pages, third-party reviews, and structured, factual content with clear entities. Show up where both buyers and models already look.
+
+### How much should a B2B SaaS company pay for AI SEO?
+
+Most B2B SaaS teams pay $5K to $15K/mo. Early-stage programs start near $1,500/mo (Embarque, PipeRocket); enterprise scope runs $25K+ project (Foundation).
 
 ### Which AI SEO agencies have public pricing?
 
@@ -727,7 +743,7 @@ Yes. PipeRocket Digital, Embarque, and SimpleTiger all run AI SEO programs sized
 
 Foundation discloses Profound, SEMrush AI toolkit, and Ahrefs. Animalz uses AirOps. Most agencies keep specific AI-powered SEO tools private; ask for tool disclosure before signing.
 
-### How long until AI SEO services show results?
+### How long before AI SEO shows results?
 
 Plan for 60 to 90 days for AI search visibility signal (LLM citations, AI Overview presence) and 120+ days for pipeline contribution from AI-augmented organic traffic.
 
