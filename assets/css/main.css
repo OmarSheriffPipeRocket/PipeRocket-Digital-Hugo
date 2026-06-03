@@ -6911,6 +6911,14 @@ main table a,
   transform: translateY(-1px);
   color: #B07F1F;
 }
+/* On-page author cards: dark-ink LinkedIn logo, no hover effect.
+   Higher specificity than the prose-link rule (.pr-listicle__body a) that
+   would otherwise add a border. */
+.pr-author-card .pr-linkedin-icon,
+.pr-author-card .pr-linkedin-icon:hover {
+  color: var(--pr-ink);
+  transform: none;
+}
 
 /* Single-author fallback: photo on top centered, body below */
 .pr-author-card > .pr-author-card__photo {
@@ -6920,6 +6928,10 @@ main table a,
   margin: 0 auto var(--pr-s-4);
 }
 .pr-author-card > .pr-author-card__body { text-align: center; padding: 0; }
+
+/* Keep the "View full profile" CTA hugging its content (not full-width)
+   now that it uses the global .pr-btn class inside the flex-column body. */
+.pr-author-card__body > .pr-btn { align-self: flex-start; }
 
 .pr-author-card__name {
   display: block;

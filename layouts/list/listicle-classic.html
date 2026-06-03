@@ -76,10 +76,10 @@
           <div class="pr-author-card__body">
             <div class="pr-author-card__head">
               <span class="pr-author-card__name">{{ .name }}</span>
-              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}{{ with .linkedin }} {{ partial "linkedin-icon.html" . }}{{ end }}
             </div>
             {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
-            <a class="pr-author-card__btn" href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">View full profile</a>
+            <a class="pr-btn" data-cta-source="author-card" href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">View full profile</a>
           </div>
         </div>
         {{ end }}

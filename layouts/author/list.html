@@ -6,7 +6,9 @@
       {{ with .Params.description }}<p class="pr-bloglist__lede">{{ . }}</p>{{ end }}
     </header>
     <div class="pr-author-list__grid">
-      {{ range .Pages.ByTitle }}
+      {{ $team := where .Pages "Params.contributor" "!=" true }}
+      {{ $contributors := where .Pages "Params.contributor" true }}
+      {{ range (append $contributors.ByTitle $team.ByTitle) }}
         {{ $slug := default .File.BaseFileName .Params.slug }}
         {{ $profile := index $.Site.Data.authors $slug }}
         <a class="pr-author-list__card" href="{{ .RelPermalink }}">

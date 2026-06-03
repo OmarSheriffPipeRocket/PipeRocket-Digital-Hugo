@@ -59,3 +59,35 @@ linkedin = "https://www.linkedin.com/in/vishnuprasadh/"
 bio = "Vishnu is a paid marketing manager focused on building high-ROI acquisition engines for B2B SaaS companies. Playing a key role in building PipeRocket Digital, he designs and scales paid media programs across Google, LinkedIn, and other performance channels — turning ad spend into qualified pipeline. With a revenue-first approach to every campaign, Vishnu helps SaaS brands move beyond vanity metrics and drive growth that actually closes."
 expertise = ["B2B SaaS PPC", "Google Ads", "LinkedIn Ads"]
 
+[deepan-siddhu]
+name = "Deepan Siddhu"
+role = "Sr. Director of Growth Marketing"
+photo = "/images/authors/deepan.webp"
+linkedin = "https://in.linkedin.com/in/deepansiddhu"
+bio = "Deepan is a growth marketing leader recognised among India's top SaaS marketers, with experience scaling demand for B2B SaaS brands including JustCall. Named SaaS Marketer of the Year 2024 and an Adobe Digi 100 honoree, he writes for PipeRocket on growth marketing, content, and SaaS customer acquisition."
+expertise = ["Growth marketing", "SaaS demand generation", "Content marketing"]
+
+[pritesh-vora]
+name = "Pritesh Vora"
+role = "SaaS Growth Advisor"
+photo = "/images/authors/pritesh.webp"
+linkedin = "https://in.linkedin.com/in/thevora"
+bio = "Pritesh builds revenue engines for B2B SaaS companies. An ex-founder turned growth leader, he helped scale Sprinto from under $300K to multi-million ARR while building a 50+ person revenue team. He writes for PipeRocket on go-to-market strategy, ABM, and demand generation."
+expertise = ["B2B SaaS growth", "Go-to-market strategy", "ABM"]
+
+[jithesh-joseph]
+name = "Jithesh Joseph"
+role = "Associate Director, Marketing"
+photo = "/images/authors/jithesh.webp"
+linkedin = "https://in.linkedin.com/in/jithesh-joseph"
+bio = "Jithesh is a digital marketing leader with 18+ years of experience across growth, demand generation, SEO, performance marketing, and martech automation for B2B SaaS, including GRC software leader MetricStream. He writes for PipeRocket on demand generation and full-funnel digital marketing."
+expertise = ["Demand generation", "SEO and PPC", "Martech automation"]
+
+[douglas-ribback]
+name = "Douglas Ribback"
+role = "VP, Head of Global Demand Generation"
+photo = "/images/authors/douglas.webp"
+linkedin = "https://www.linkedin.com/in/dribback"
+bio = "Douglas is a demand generation and ABM leader who turns strategy into pipeline across brand, demand, and product marketing. Demandbase ABM-certified and LSE-educated, he writes for PipeRocket on account-based marketing, AEO, and modern pipeline building for B2B SaaS."
+expertise = ["Demand generation", "Account-based marketing", "Pipeline development"]
+

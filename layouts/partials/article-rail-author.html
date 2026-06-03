@@ -20,13 +20,12 @@
                 <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}">{{ .name }}</a>
                 {{ partial "trust-badge.html" . }}
               </strong>
-              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}{{ with .linkedin }} {{ partial "linkedin-icon.html" . }}{{ end }}
             </div>
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
           <div class="pr-author-card__footer">
-            <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}" class="pr-author-card__btn">View full profile</a>
-            {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+            <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.writtenBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.writtenBy }}/{{ end }}" class="pr-btn" data-cta-source="author-card">View full profile</a>
           </div>
         </div>
       {{ end }}
@@ -45,13 +44,12 @@
                 <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}">{{ .name }}</a>
                 {{ partial "trust-badge.html" . }}
               </strong>
-              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}
+              {{ with .role }}<span class="pr-author-card__role">{{ . }}</span>{{ end }}{{ with .linkedin }} {{ partial "linkedin-icon.html" . }}{{ end }}
             </div>
           </div>
           {{ with .bio }}<p class="pr-author-card__bio">{{ . }}</p>{{ end }}
           <div class="pr-author-card__footer">
-            <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}" class="pr-author-card__btn">View full profile</a>
-            {{ with .linkedin }}{{ partial "linkedin-icon.html" . }}{{ end }}
+            <a href="{{ with $.Site.GetPage (printf "/author/%s" $.Params.reviewedBy) }}{{ .RelPermalink }}{{ else }}/author/{{ $.Params.reviewedBy }}/{{ end }}" class="pr-btn" data-cta-source="author-card">View full profile</a>
           </div>
         </div>
       {{ end }}
