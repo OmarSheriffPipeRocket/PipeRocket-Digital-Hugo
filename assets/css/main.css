@@ -3850,6 +3850,14 @@ a.pr-footer__trust-item:hover {
   font-weight: 400;
 }
 
+/* AI SEO Services page: all section-header subtexts (after the hero fold) in
+   Helvetica Neue Light (300). Targets the <p> that sits directly under each
+   section <h2> inside a .pr-center header; hero copy is excluded. */
+.page-ai-seo .pr-center > p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
 @media (min-width: 1024px) {
   .page-saas-seo h2:not(.pr-hero__title) {
     max-width: 1010px;
