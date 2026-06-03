@@ -41,3 +41,6 @@ tmp/
 
 # Local Netlify folder
 .netlify
+
+# Local video scripts (drafts, not for publish)
+/video-script-*.md
