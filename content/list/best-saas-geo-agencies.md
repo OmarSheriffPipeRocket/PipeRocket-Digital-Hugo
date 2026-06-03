@@ -304,9 +304,7 @@ Only 5 Clutch reviews limits how quickly buyers can triangulate fit across multi
 | Free Consultation | Yes |
 | Clutch Rating | 4.8/5 (5 reviews) |
 
-Want a side-by-side? See our [PipeRocket vs Omniscient Digital](/compare/piperocket-digital-vs-omniscient-digital/) breakdown.
-
-
+For a closer look, see our [PipeRocket vs Omniscient Digital](/compare/piperocket-digital-vs-omniscient-digital/) comparison and our roundup of [Omniscient Digital alternatives](/alternative/omniscient-digital-alternatives/).
 
 ### 5. The SEO Works
 
@@ -494,9 +492,7 @@ GEO is bundled into content and SEO rather than scoped as a dedicated offering, 
 | Free Consultation | Yes |
 | Clutch Rating | 4.9/5 (46 reviews) |
 
-For a head-to-head on paid, organic, and pricing, see [PipeRocket vs Siege Media](/compare/piperocket-digital-vs-siege-media/).
-
-
+Weighing your options? Compare [PipeRocket vs Siege Media](/compare/piperocket-digital-vs-siege-media/), or browse the [top Siege Media alternatives](/alternative/siege-media-alternatives/).
 
 ### 8. Searchbloom
 

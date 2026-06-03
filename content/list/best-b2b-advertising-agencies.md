@@ -136,9 +136,10 @@ Directive publishes their startup package on their website. Standard engagements
 | Free Consultation | Yes, includes strategy session and growth audit |
 | Clutch Rating | [4.8/5 (56+ reviews)](https://clutch.co/profile/directive) |
 
-Want to see how PipeRocket stacks up? Read our [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/) comparison.
 
 ---
+
+Weighing your options? Compare [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/), or browse the [top Directive Consulting alternatives](/alternative/directive-consulting-alternatives/).
 
 ### 2. PipeRocket Digital
 
@@ -289,9 +290,10 @@ KlientBoost doesn't publish full rate cards (visitors are routed through a free 
 | Free Consultation | Yes, includes marketing plan and ROI calculation |
 | Clutch Rating | [4.9/5 (400+ reviews)](https://clutch.co/profile/klientboost) |
 
-Want to see how PipeRocket stacks up? Read our [PipeRocket vs KlientBoost](/compare/piperocket-digital-vs-klientboost/) comparison.
 
 ---
+
+Want a side-by-side? Read our [PipeRocket vs KlientBoost](/compare/piperocket-digital-vs-klientboost/) breakdown, or see the [best KlientBoost alternatives](/alternative/klientboost-alternatives/).
 
 ### 4. Disruptive Advertising
 

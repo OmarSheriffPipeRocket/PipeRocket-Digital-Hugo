@@ -136,9 +136,10 @@ If you're comparing KlientBoost on retainer alone, you're missing the point; the
 | Free Consultation | Yes, includes marketing plan and ROI calculation |
 | Clutch Rating | [4.9/5 (400+ reviews)](https://clutch.co/profile/klientboost) |
 
-Want to see how PipeRocket stacks up? Read our [PipeRocket vs KlientBoost](/compare/piperocket-digital-vs-klientboost/) comparison.
 
 ---
+
+Want a side-by-side? Read our [PipeRocket vs KlientBoost](/compare/piperocket-digital-vs-klientboost/) breakdown, or see the [best KlientBoost alternatives](/alternative/klientboost-alternatives/).
 
 ### 2. PipeRocket Digital
 
@@ -289,9 +290,10 @@ Directive shines when your CFO is already asking why ad spend isn't showing up i
 | Free Consultation | Yes, includes strategy session and growth audit |
 | Clutch Rating | [Verified on Clutch](https://clutch.co/profile/directive-consulting) |
 
-Want to see how PipeRocket stacks up? Read our [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/) comparison.
 
 ---
+
+For a closer look, see our [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/) comparison and our roundup of [Directive Consulting alternatives](/alternative/directive-consulting-alternatives/).
 
 ### 4. Single Grain
 

@@ -120,9 +120,7 @@ Some reviewers cited account-team turnover during periods of agency growth on [C
 | Free Consultation | Yes, scoped discovery call |
 | Clutch Rating | 4.8/5 (56 reviews) |
 
-For a head-to-head on paid, organic, and pricing, see [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/).
-
-
+For a closer look, see our [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/) comparison and our roundup of [Directive Consulting alternatives](/alternative/directive-consulting-alternatives/).
 
 ### 2. PipeRocket Digital
 
@@ -434,9 +432,7 @@ With only 1 review on file, external validation depends heavily on private refer
 | Free Consultation | Yes, growth-audit call |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 
-Want a side-by-side? See our [PipeRocket vs NoGood](/compare/piperocket-digital-vs-nogood/) breakdown.
-
-
+Weighing your options? Compare [PipeRocket vs NoGood](/compare/piperocket-digital-vs-nogood/), or browse the [top NoGood alternatives](/alternative/nogood-alternatives/).
 
 ### 7. The Social Shepherd
 

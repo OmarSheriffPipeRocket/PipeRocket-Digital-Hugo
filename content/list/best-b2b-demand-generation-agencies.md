@@ -287,9 +287,10 @@ Directive shines when your CFO is already asking why ad spend isn't showing up i
 | Free Consultation | Yes, includes strategy session and growth audit |
 | Clutch Rating | [Verified on Clutch](https://clutch.co/profile/directive-consulting) |
 
-Want to see how PipeRocket stacks up? Read our [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/) comparison.
 
 ---
+
+Weighing your options? Compare [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/), or browse the [top Directive Consulting alternatives](/alternative/directive-consulting-alternatives/).
 
 ### 4. Intelligent Demand
 

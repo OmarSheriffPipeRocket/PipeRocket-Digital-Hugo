@@ -460,9 +460,7 @@ A Power Digital director loved the output but noted Siege isn't the place for te
 
 ---
 
-For a head-to-head on paid, organic, and pricing, see [PipeRocket vs Siege Media](/compare/piperocket-digital-vs-siege-media/).
-
-
+Want a side-by-side? Read our [PipeRocket vs Siege Media](/compare/piperocket-digital-vs-siege-media/) breakdown, or see the [best Siege Media alternatives](/alternative/siege-media-alternatives/).
 
 ### 7. MADX Digital
 
@@ -596,9 +594,7 @@ A SaaS head of marketing praised the deliverables, but five reviews is a small p
 
 ---
 
-Want a side-by-side? See our [PipeRocket vs Omniscient Digital](/compare/piperocket-digital-vs-omniscient-digital/) breakdown.
-
-
+For a closer look, see our [PipeRocket vs Omniscient Digital](/compare/piperocket-digital-vs-omniscient-digital/) comparison and our roundup of [Omniscient Digital alternatives](/alternative/omniscient-digital-alternatives/).
 
 ### 9. First Page Sage
 

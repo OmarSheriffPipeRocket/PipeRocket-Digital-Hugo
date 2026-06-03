@@ -569,7 +569,6 @@ Only 1 verified Clutch review despite the enterprise roster, and no dedicated pr
 
 **Editor's read:** We'd consider NoGood for a Series B+ proptech with budget headroom and a SaaS-style buyer, and we'd skip them if vertical specialism is the must-have.
 
-Want to see how PipeRocket stacks up? Read our [PipeRocket vs NoGood](/compare/piperocket-digital-vs-nogood/) comparison.
 
 **Price Tag**
 
@@ -587,6 +586,8 @@ NoGood states a $15,000/mo starting tier with an average retainer above $20,000/
 | Clutch Rating | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
 
 ---
+
+For a closer look, see our [PipeRocket vs NoGood](/compare/piperocket-digital-vs-nogood/) comparison and our roundup of [NoGood alternatives](/alternative/nogood-alternatives/).
 
 ### 9. Thrive Internet Marketing
 
@@ -703,7 +704,6 @@ The [WebFX real estate page](https://www.webfx.com/industries/real-estate/) mark
 
 **Editor's read:** We'd hire WebFX for the attribution platform and channel breadth, and we'd be straight that their real estate book is broker-side, not proptech vendor-side.
 
-Want to see how PipeRocket stacks up? Read our [PipeRocket vs WebFX](/compare/piperocket-digital-vs-webfx/) comparison.
 
 **Price Tag**
 
@@ -721,6 +721,8 @@ WebFX scopes engagements custom with a free-proposal model and no published rate
 | Clutch Rating | [4.9/5 (450 reviews)](https://clutch.co/profile/webfx) |
 
 ---
+
+Weighing your options? Compare [PipeRocket vs WebFX](/compare/piperocket-digital-vs-webfx/), or browse the [top WebFX alternatives](/alternative/webfx-alternatives/).
 
 ### 11. SmartSites
 
