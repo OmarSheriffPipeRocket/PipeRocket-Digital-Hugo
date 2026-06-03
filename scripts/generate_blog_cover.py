@@ -22,8 +22,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 TEMPLATES_DIR = "/Users/omarsheriff/Downloads/+ Piperocket website design (23)"
-FONT_REGULAR  = "/Users/omarsheriff/Desktop/piperocket-site/static/fonts/IvyPresto-Headline-Light.otf"
-FONT_BOLD     = "/Users/omarsheriff/Desktop/piperocket-site/static/fonts/IvyPresto-Headline-SemiBold.otf"
+FONT_REGULAR  = "/Users/omarsheriff/Desktop/piperocket-site/static/fonts/IvyPresto-Headline-Light.woff2"
+FONT_BOLD     = "/Users/omarsheriff/Desktop/piperocket-site/static/fonts/IvyPresto-Headline-SemiBold.woff2"
 TEXT_COLOR    = (20, 20, 20)
 
 TEMPLATE_FILES = [
