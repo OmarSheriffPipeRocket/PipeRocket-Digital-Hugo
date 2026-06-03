@@ -140,7 +140,7 @@ I built [PipeRocket Digital](/) because generalist enterprise SEO agencies kept 
 | Founded | 2019 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
-| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/aeo-geo-agency/), technical SEO, pipeline attribution |
+| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), technical SEO, pipeline attribution |
 
 **Built To Win:** We work backward from SQLs and report every campaign inside the pipeline view your CFO already opens. GEO and AEO sit on the same team as technical SEO, so there's no handoff drag when AI search visibility becomes a quarterly target.
 

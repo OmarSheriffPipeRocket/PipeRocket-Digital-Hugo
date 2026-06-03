@@ -142,7 +142,7 @@ Best for: Series A to B B2B SaaS that wants full-funnel execution without enterp
 | Notable Clients | Storylane, LeadSquared, GreytHR, Tredence, DevRev, Spendflo |
 | Specialization | Full-funnel B2B [SaaS marketing](/saas-seo-agency/) |
 
-**Mandate Match:** You're Series A to B B2B SaaS ($1M to $25M ARR) wanting full-funnel work ([SEO](/saas-seo-agency/), [PPC](/saas-ppc/), content, ABM, [AEO/GEO](/aeo-geo-agency/)) under one retainer with senior pod access.
+**Mandate Match:** You're Series A to B B2B SaaS ($1M to $25M ARR) wanting full-funnel work ([SEO](/saas-seo-agency/), [PPC](/saas-ppc/), content, ABM, [AEO/GEO](/ai-seo-services/)) under one retainer with senior pod access.
 
 **Out Of Mandate:** You're B2C or e-commerce, or you're running $100K+/mo paid spend that needs a dedicated paid-media powerhouse.
 

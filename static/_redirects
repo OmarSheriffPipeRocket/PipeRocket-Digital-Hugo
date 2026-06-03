@@ -62,6 +62,7 @@
 /case-studies/*                                         /case-study/:splat                                      301
 /success-stories/*                                      /case-study/:splat                                      301
 /articles/*                                             /blogs/:splat                                           301
+/aeo-geo-agency/                                        /ai-seo-services/                                       301
 /account-based-marketing/                               /account-based-marketing-agency/                        301
 /content-marketing/                                     /content-marketing-agency/                              301
 /link-building/                                         /link-building-agency/                                  301

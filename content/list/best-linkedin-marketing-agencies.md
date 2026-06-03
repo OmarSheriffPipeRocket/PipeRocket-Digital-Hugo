@@ -143,7 +143,7 @@ Best for: B2B SaaS running LinkedIn inside a pipeline-attributed paid stack
 | Founded | 2023 |
 | Team Size | 30+ specialists |
 | Notable Clients | Storylane, Spendflo, HyperVerge, DevRev, LeadSquared, GreytHR, Tredence, CyberSierra |
-| Specialization | [PPC](/saas-ppc/), [SEO](/saas-seo-agency/), [GEO/AEO](/aeo-geo-agency/), [marketing ops](/marketing-ops/) |
+| Specialization | [PPC](/saas-ppc/), [SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), [marketing ops](/marketing-ops/) |
 
 **What Sets Us Apart:** We build LinkedIn campaigns around the ICP, not the channel.
 

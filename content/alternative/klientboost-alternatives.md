@@ -77,7 +77,7 @@ Best for: B2B SaaS Founders Who Want SEO and PPC Inside One Retainer with Pipeli
 
 **Differentiator:** We're B2B SaaS only — no eCommerce, no consumer, no local. Every playbook in the team was written for a software buying cycle, not adapted from one. Pipeline reporting covers MQLs, CAC, and pipeline value from week four, not quarter four.
 
-- [B2B SaaS SEO](/saas-seo-agency/), technical SEO, and [GEO/AEO](/aeo-geo-agency/) for AI-visible search inside one retainer
+- [B2B SaaS SEO](/saas-seo-agency/), technical SEO, and [GEO/AEO](/ai-seo-services/) for AI-visible search inside one retainer
 - [SaaS PPC](/saas-ppc/) across Google and LinkedIn, owned by the same team running organic — no vendor handoffs
 - [Link building](/link-building-agency/) scoped for SaaS domain authority, not generic directory spam
 
@@ -710,7 +710,7 @@ Yes. Disruptive Advertising, JumpFly, and AdVenture Media all explicitly positio
 
 ### Which alternative is best for full-funnel coverage beyond paid and CRO?
 
-Directive Consulting and Power Digital offer the widest channel coverage. NoGood's growth squad model adds lifecycle, content, and performance branding alongside paid. PipeRocket covers [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [link building](/link-building-agency/), and [GEO/AEO](/aeo-geo-agency/) in one retainer — broader than KlientBoost's paid-and-CRO focus without the enterprise overhead of Directive or Power Digital.
+Directive Consulting and Power Digital offer the widest channel coverage. NoGood's growth squad model adds lifecycle, content, and performance branding alongside paid. PipeRocket covers [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [link building](/link-building-agency/), and [GEO/AEO](/ai-seo-services/) in one retainer — broader than KlientBoost's paid-and-CRO focus without the enterprise overhead of Directive or Power Digital.
 
 ### How should I evaluate any of these agencies before signing?
 

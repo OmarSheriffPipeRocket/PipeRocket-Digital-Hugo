@@ -128,7 +128,7 @@ For a closer look, see our [PipeRocket vs Directive Consulting](/compare/piperoc
 
 Best for: B2B SaaS teams that want growth tied to pipeline at any ARR stage
 
-[PipeRocket Digital](https://piperocket.digital) runs an embedded growth-team model that ties [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/aeo-geo-agency/), ABM LinkedIn, and marketing ops to one pipeline metric. We don't sell channels; we sell pipeline movement.
+[PipeRocket Digital](https://piperocket.digital) runs an embedded growth-team model that ties [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/ai-seo-services/), ABM LinkedIn, and marketing ops to one pipeline metric. We don't sell channels; we sell pipeline movement.
 
 **Firm Card**
 

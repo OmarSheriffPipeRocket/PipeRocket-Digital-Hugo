@@ -140,7 +140,7 @@ Best for: B2B proptech SaaS that report marketing against pipeline, not page vie
 | Founded | 2018 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
-| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/aeo-geo-agency/), [marketing ops](/marketing-ops/) |
+| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/ai-seo-services/), [marketing ops](/marketing-ops/) |
 
 **Right For:** B2B proptech SaaS from pre-revenue through Series B+ who need an integrated demand engine where every channel reports against MQLs, SQLs, and pipeline created.
 
@@ -149,7 +149,7 @@ Best for: B2B proptech SaaS that report marketing against pipeline, not page vie
 **What Sets Us Apart:** What we keep seeing in proptech is a marketing mix that generates traffic but can't explain its contribution to qualified pipeline. Attribution infrastructure is the first thing we build for every proptech client, before any spend goes live.
 
 - BOFU-led keyword targeting that filters tyre-kickers before sales touches them
-- [GEO/AEO](/aeo-geo-agency/) depth alongside traditional technical SEO; same team owns both
+- [GEO/AEO](/ai-seo-services/) depth alongside traditional technical SEO; same team owns both
 - Every campaign reports inside the pipeline view your CFO already opens
 
 **Client Voice**

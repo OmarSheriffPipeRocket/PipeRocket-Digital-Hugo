@@ -75,6 +75,8 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/case-studies/*",                                 "/case-study/:splat"),
     ("/success-stories/*",                              "/case-study/:splat"),
     ("/articles/*",                                     "/blogs/:splat"),
+    # Service-page rename — AEO/GEO agency repositioned as AI SEO services (2026-06)
+    ("/aeo-geo-agency/",                                "/ai-seo-services/"),
     # Service-page aliases (old shorter URLs without -agency suffix)
     ("/account-based-marketing/",                       "/account-based-marketing-agency/"),
     ("/content-marketing/",                             "/content-marketing-agency/"),

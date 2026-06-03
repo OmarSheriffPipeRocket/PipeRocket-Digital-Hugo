@@ -81,7 +81,7 @@ Where Omniscient Digital focuses on organic content and GEO depth at an $8,000-p
 
 **Differentiator:** We're practitioners, not account managers. Our [SaaS SEO agency](/saas-seo-agency/) model is built around senior operators who've spent a decade inside B2B SaaS companies. We know how buyers buy, how sales teams think, and what pipeline looks like when marketing is working.
 
-- Every retainer combines [SaaS SEO](/saas-seo-agency/), [BOFU content](/content-marketing-agency/), [link building](/link-building-agency/), and paid search, with [GEO and AI search visibility](/aeo-geo-agency/) built in
+- Every retainer combines [SaaS SEO](/saas-seo-agency/), [BOFU content](/content-marketing-agency/), [link building](/link-building-agency/), and paid search, with [GEO and AI search visibility](/ai-seo-services/) built in
 - Reporting ties directly to MQL, SQL, and CAC, not sessions and rankings alone
 - Retainers start at $3,000/mo with no markup on ad spend and no lock-in beyond the 3-month pilot
 

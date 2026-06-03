@@ -135,7 +135,7 @@ Pricing is public and tiered as of June 2026. Quarterly billing with a 3-month m
 
 Best for: B2B SaaS startups wanting SEO, AEO, and GEO from one team from day zero.
 
-[PipeRocket Digital](https://www.piperocket.digital/) is the only agency on this list that runs [SEO](/saas-seo-agency/), [GEO/AEO](/aeo-geo-agency/), and [link building](/link-building-agency/) as one connected program from pre-revenue through enterprise without switching playbooks.
+[PipeRocket Digital](https://www.piperocket.digital/) is the only agency on this list that runs [SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), and [link building](/link-building-agency/) as one connected program from pre-revenue through enterprise without switching playbooks.
 
 **Snapshot**
 

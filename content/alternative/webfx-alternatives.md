@@ -80,7 +80,7 @@ We built [PipeRocket Digital](/) around the gap WebFX doesn't fill: B2B SaaS ver
 **Differentiator:** Our [SaaS SEO](/saas-seo-agency/) and [SaaS PPC](/saas-ppc/) run inside one unified retainer so attribution never falls through the gap between vendors. Senior strategists sit on every account with no handoffs to junior coordinators.
 
 - Pipeline-level reporting covers MQL count, CAC, and pipeline value added per quarter from week four
-- [Programmatic SEO](/programmatic-seo-agency/) and [GEO/AEO](/aeo-geo-agency/) built into core service, not sold as add-ons
+- [Programmatic SEO](/programmatic-seo-agency/) and [GEO/AEO](/ai-seo-services/) built into core service, not sold as add-ons
 - Retainers start at $3,000/mo with no markup on ad spend and no hidden fees
 
 **Proof point:** [HyperStart](/case-study-hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead 73%. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in three months. [Storylane](/case-study-storylane/) saw 2.5x business growth in one quarter, with SQLs up 25% and meetings booked up 62%.

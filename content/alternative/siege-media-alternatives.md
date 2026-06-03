@@ -75,7 +75,7 @@ We built [PipeRocket Digital](/) because Siege Media's model — strong at conte
 | Founded | 2023 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra, LeadSquared |
-| Specialization | [B2B SaaS SEO](/saas-seo-agency/), [GEO/AEO](/aeo-geo-agency/), [link building](/link-building-agency/), pipeline attribution |
+| Specialization | [B2B SaaS SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), [link building](/link-building-agency/), pipeline attribution |
 
 **What Sets Us Apart:** We're BOFU-first practitioners, not account managers. Where Siege leads with design-heavy assets engineered for link earning, we lead with [content marketing](/content-marketing-agency/) that addresses buying-stage queries and connects every piece of output to SQL and CAC reporting.
 

@@ -135,7 +135,7 @@ Best for: B2B SaaS teams that want technical fixes tied to pipeline, not audit c
 | Founded | 2019 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, LeadSquared, GreytHR, Tredence, DevRev, Spendflo |
-| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/aeo-geo-agency/), pipeline attribution |
+| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), pipeline attribution |
 
 **What Sets Us Apart:** Every technical fix gets mapped to a pipeline question.
 

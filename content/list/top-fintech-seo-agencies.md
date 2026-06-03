@@ -190,7 +190,7 @@ Only seven [verified Clutch reviews](https://clutch.co/profile/cstmr) makes patt
 
 Best for: B2B fintech and SaaS teams that need organic search tied to closed-won pipeline.
 
-[PipeRocket Digital](/) is our Chennai-based agency delivering [fintech SEO](/fintech-seo-agency/), [GEO/AEO](/aeo-geo-agency/), and pipeline-attributed content for B2B fintech and SaaS operators. We hold a 4.8 Clutch rating with US-hours delivery.
+[PipeRocket Digital](/) is our Chennai-based agency delivering [fintech SEO](/fintech-seo-agency/), [GEO/AEO](/ai-seo-services/), and pipeline-attributed content for B2B fintech and SaaS operators. We hold a 4.8 Clutch rating with US-hours delivery.
 
 **Firm Profile**
 
@@ -200,7 +200,7 @@ Best for: B2B fintech and SaaS teams that need organic search tied to closed-won
 | Founded | 2017 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev |
-| Specialization | [Fintech SEO](/fintech-seo-agency/), [GEO/AEO](/aeo-geo-agency/), [link building](/link-building-agency/) |
+| Specialization | [Fintech SEO](/fintech-seo-agency/), [GEO/AEO](/ai-seo-services/), [link building](/link-building-agency/) |
 
 **The Distinctive Move:** We run a Unified SEO and Demand Gen Architecture, so every brief connects to pipeline, not impressions.
 
@@ -659,7 +659,7 @@ Read review counts and recency, not just star ratings. A 5.0 rating across 3 rev
 
 ### Do I need separate vendors for SEO and AEO/GEO?
 
-You can run them under one vendor if their AEO/GEO offer is integrated, not bolted on. Bolted-on AEO usually means a single audit deliverable, not ongoing optimization. See our [GEO/AEO program](/aeo-geo-agency/) for the integrated model.
+You can run them under one vendor if their AEO/GEO offer is integrated, not bolted on. Bolted-on AEO usually means a single audit deliverable, not ongoing optimization. See our [GEO/AEO program](/ai-seo-services/) for the integrated model.
 
 ### What disqualifies an SEO agency for a fintech buyer?
 

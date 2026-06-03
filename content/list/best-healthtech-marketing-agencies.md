@@ -136,13 +136,13 @@ Best for: B2B healthtech SaaS tying SEO, paid, and content to one pipeline numbe
 | Notable Clients | Storylane, Spendflo, HappyFox, LeadSquared, GreytHR |
 | Specialization | B2B SaaS demand generation |
 
-**Fits when:** B2B healthtech SaaS at any ARR stage that wants [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/aeo-geo-agency/), and ABM reporting against one pipeline target.
+**Fits when:** B2B healthtech SaaS at any ARR stage that wants [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/ai-seo-services/), and ABM reporting against one pipeline target.
 
 **Skip if:** Pharma launches, DTC wellness products, or teams that want channel-by-channel reporting with no pipeline tie-back.
 
 **What Sets Us Apart:** We start with the ICP, mapping clinical champions, IT decision-makers, procurement, and executive sponsors as separate audiences inside one account. Every channel reports against MQLs, SQLs, and pipeline created, not platform dashboards.
 
-- [SaaS SEO](/saas-seo-agency/), [PPC](/saas-ppc/), and [GEO/AEO](/aeo-geo-agency/) run from one pipeline target
+- [SaaS SEO](/saas-seo-agency/), [PPC](/saas-ppc/), and [GEO/AEO](/ai-seo-services/) run from one pipeline target
 - Marketing ops layer reconciles HubSpot, Salesforce, and ad platforms
 - ICP-led account selection for healthtech buying committees
 

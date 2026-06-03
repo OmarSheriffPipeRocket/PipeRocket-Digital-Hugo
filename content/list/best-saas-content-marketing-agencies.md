@@ -140,7 +140,7 @@ Best for: B2B SaaS teams that want every article tied to a pipeline number.
 | Founded | 2020 |
 | Team Size | 50+ people |
 | Notable Clients | Mid-market and enterprise B2B SaaS |
-| Specialization | [Content marketing](/content-marketing-agency/), [SEO](/saas-seo-agency/), [GEO/AEO](/aeo-geo-agency/) |
+| Specialization | [Content marketing](/content-marketing-agency/), [SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/) |
 
 **Differentiator:** We extract knowledge from your subject matter experts and turn it into content AI can't replicate.
 
