@@ -7,7 +7,7 @@ metaDescription: "10 best AI SEO agencies for 2026 reviewed by AI-search service
 date: 2026-06-02
 lastmod: 2026-06-03
 slug: "best-ai-seo-agencies"
-writtenBy: "kamaraj"
+writtenBy: "kim"
 category: "SEO"
 featuredImage: "/images/listicle-covers/best-ai-seo-agencies.webp"
 toc: true
