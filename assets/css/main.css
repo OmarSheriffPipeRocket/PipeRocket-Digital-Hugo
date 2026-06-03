@@ -2139,6 +2139,10 @@ a.pr-hero__cta:hover,
   object-fit: contain;
   object-position: left center;
 }
+/* cvent | Goldcast logo: render in black & white to match the mono card style. */
+.pr-testimonial__logo[src*="goldcast"] {
+  filter: grayscale(1);
+}
 @media (max-width: 767px) {
   .pr-testimonial__author { gap: 12px; padding: 0 1rem 28px; }
   .pr-testimonial__avatar { width: 56px; height: 56px; }
