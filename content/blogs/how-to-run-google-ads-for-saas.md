@@ -262,7 +262,7 @@ Congratulations, you’ve finally launched your first campaign. Your ads are ali
 
 This is the most honest report in marketing. It shows you the *actual words* people typed before clicking your ad (not just the keywords you bid on). I review this weekly. If I see a term that is irrelevant—say, someone searched for “Inventory management software *for home use*“—I immediately add “home use” to the Negative Keyword list.
 
-This is how you refine your traffic. Over time, your wasted spend drops to near zero because you have blocked all the bad terms or maybe even found more relevant keywords.
+This is how you refine your traffic. Over time, your wasted spend drops to near zero because you have blocked all the bad terms or maybe even found more relevant keywords. The bar for "relevant" is always your [ICP](/glossary/what-is-icp/) — a cheap click from outside your ideal customer profile is still wasted spend.
 
 ### **2. CPC Monitoring**
 
@@ -272,7 +272,7 @@ I tell Google, “I am willing to bid on this, but I will not pay more than $50 
 
 ## **Conclusion**
 
-Running Google Ads for SaaS is a specific skill. It requires a mix of deep product and [ICP](/glossary/what-is-icp/) understanding, proper keyword planning, forecasting, and monitoring.
+Running Google Ads for SaaS is a specific skill. It requires a mix of deep product and ICP understanding, proper keyword planning, forecasting, and monitoring.
 
 When you follow this process, you stop gambling with your marketing budget and start building a predictable revenue engine. You stop worrying about “clicks” and start focusing on what matters: pipeline and revenue.
 

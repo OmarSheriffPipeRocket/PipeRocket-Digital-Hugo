@@ -252,7 +252,7 @@ What gets measured improves. Tracking the right metrics helps you scale what’s
 
 ## Best Practices to Improve B2B Lead Quality
 
-Generating more leads is easy. Generating better leads is what actually drives revenue. Here’s how to improve [lead generation](/glossary/what-is-lead-generation/) across your funnel.
+Generating more leads is easy. Generating better leads is what actually drives revenue. Here’s how to improve lead generation across your funnel.
 
 For the umbrella view, see our [B2B marketing guide](/blogs/b2b-marketing/ "B2B Marketing Complete Guide").
 

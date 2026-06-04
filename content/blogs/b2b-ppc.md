@@ -351,7 +351,7 @@ At [Piperocket Digital](/saas-ppc/), we build B2B PPC systems that align with lo
 
 ### 1. What is B2B PPC?
 
-B2B PPC (business-to-business [pay-per-click](/glossary/what-is-ppc/) advertising) is a paid marketing strategy where companies run ads, typically on Google, LinkedIn, Bing, or YouTube, to reach decision-makers, generate qualified leads, and drive pipeline. Unlike B2C, B2B PPC focuses on long sales cycles, high-intent keywords, and multi-stakeholder buying journeys.
+B2B PPC (business-to-business pay-per-click advertising) is a paid marketing strategy where companies run ads, typically on Google, LinkedIn, Bing, or YouTube, to reach decision-makers, generate qualified leads, and drive pipeline. Unlike B2C, B2B PPC focuses on long sales cycles, high-intent keywords, and multi-stakeholder buying journeys.
 
 ### 2. What is the difference between B2B PPC vs B2C PPC?
 

@@ -230,7 +230,7 @@ Optimizing a SaaS landing page for SEO is a cycle, not a task. You research the 
 
 Whether it is tweaking a title tag to trigger an emotional response (“Free” or “SMB”) or adding an inline CTA to catch a user mid-read, these small nuances are what separate a dead page from a lead generation machine.
 
-### **Frequently Asked Questions**
+## Frequently Asked Questions
 
 ### **1. What is the most important element when optimizing a SaaS landing page for SEO?**
 

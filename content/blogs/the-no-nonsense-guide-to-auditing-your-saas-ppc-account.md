@@ -217,7 +217,7 @@ When you are looking at your funnel, you will usually find three types of campai
 
 ## **Phase 6: Creating Your Action Plan**
 
-An audit is useless if it just sits in a Google Doc. You need to turn your “Eagle’s View” into a “Snake’s Strike” (okay, I made that up, but you get the point).
+An audit is useless if it just sits in a Google Doc. You need to turn your “Eagle’s View” into a “Snake’s Strike” (okay, I made that up, but you get the point). The whole point of the exercise is to keep your [SaaS PPC](/blogs/saas-ppc/) program tied to revenue, not just activity.
 
 Group your findings into three buckets:
 
@@ -246,7 +246,7 @@ Where are we winning?
 
 ## **Conclusion: It’s About Direction And Correction**
 
-The goal of a SaaS [PPC](/glossary/what-is-ppc/ "Glossary: PPC") audit is to answer the big question: **Are we going in the right direction?**
+The goal of a SaaS PPC audit is to answer the big question: **Are we going in the right direction?**
 
 You need to know:
 
@@ -254,7 +254,7 @@ You need to know:
 2. Are the channels efficient? Is the CPL sustainable?
 3. Where do we double down? Which campaign is the winner?
 
-When you audit from the top down, starting with the business goals, moving to the funnel, and *then* looking at the keywords, you stop being a “[SaaS PPC](/blogs/saas-ppc/) mechanic” and start being a “Revenue Architect.”
+When you audit from the top down, starting with the business goals, moving to the funnel, and *then* looking at the keywords, you stop being a “SaaS PPC mechanic” and start being a “Revenue Architect.”
 
 And honestly? That’s where the fun (and the money) is.
 

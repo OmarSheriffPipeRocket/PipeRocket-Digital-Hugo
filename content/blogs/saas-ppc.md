@@ -59,7 +59,7 @@ Your ads must highlight what makes your product meaningfully different, whether 
 
 ## Build the Right SaaS PPC Foundation
 
-Before you think about keywords, ad formats, or landing pages, your SaaS [PPC](/glossary/what-is-ppc/ "Glossary: PPC") strategy needs a solid foundation. Here’s how to build a SaaS [PPC](/glossary/what-is-ppc/) foundation that actually supports growth.
+Before you think about keywords, ad formats, or landing pages, your SaaS [PPC](/glossary/what-is-ppc/ "Glossary: PPC") strategy needs a solid foundation. Here’s how to build a SaaS PPC foundation that actually supports growth.
 
 ### 1. Have a Clear ICP + Buyer Personas
 

@@ -96,7 +96,7 @@ Run three distinct campaign types and treat each as its own program with its own
 
 ### Connect Your CRM to Your Ad Account Before Optimising Anything
 
-This is the single highest-leverage technical step in any [b2b ppc](/blogs/b2b-ppc/) setup, and most teams never do it. Offline conversion tracking sends your CRM pipeline events back to [Google Ads](/glossary/what-is-google-ads/ "Glossary: Google Ads") so the algorithm learns which clicks produce SQLs, opportunities, and closed deals — rather than optimising for whatever fires on a thank-you page.
+This is the single highest-leverage technical step in any b2b ppc setup, and most teams never do it. Offline conversion tracking sends your CRM pipeline events back to [Google Ads](/glossary/what-is-google-ads/ "Glossary: Google Ads") so the algorithm learns which clicks produce SQLs, opportunities, and closed deals — rather than optimising for whatever fires on a thank-you page.
 
 Google’s own data shows advertisers using offline conversion tracking typically see a 20 to 30% improvement in conversion quality at the same spend level ([Google Ads Help Center](https://support.google.com/google-ads/answer/2998031)). The setup takes a few hours. The impact compounds over months as the algorithm accumulates better training data.
 
@@ -186,7 +186,7 @@ Running b2b ppc that converts comes down to building the right foundation before
 
 ### 1. What is B2B PPC and how does it differ from B2C PPC?
 
-B2B PPC is [pay-per-click](/glossary/what-is-ppc/) advertising targeted at business buyers rather than individual consumers. The fundamental difference is in the buying process. B2C buyers often make quick decisions alone, while B2B buyers operate in committees of six to ten people with sales cycles that stretch across weeks or months. That changes how you structure campaigns, how you define a conversion, how you write ad copy, and how you measure success. In B2C, you are optimising for a purchase. In B2B, you are optimising for a sales conversation, and every part of your b2b ppc strategy needs to be built around reaching that moment.
+B2B PPC is pay-per-click advertising targeted at business buyers rather than individual consumers. The fundamental difference is in the buying process. B2C buyers often make quick decisions alone, while B2B buyers operate in committees of six to ten people with sales cycles that stretch across weeks or months. That changes how you structure campaigns, how you define a conversion, how you write ad copy, and how you measure success. In B2C, you are optimising for a purchase. In B2B, you are optimising for a sales conversation, and every part of your b2b ppc strategy needs to be built around reaching that moment.
 
 ### 2. How much should a B2B SaaS company budget for PPC?
 
@@ -198,7 +198,7 @@ From what we have observed, this is almost always a targeting or handoff problem
 
 ### 4. Is Google Ads or LinkedIn Ads better for B2B?
 
-They serve different purposes in a b2b ppc strategy. [Google Ads](/glossary/what-is-google-ads/) captures buyers who are already searching for a solution, so intent is high and pipeline timelines tend to be shorter. LinkedIn Ads reaches buyers who fit your ICP but are not actively searching yet, making it better for building awareness with specific job titles or companies you want to target. Most B2B SaaS companies see faster pipeline results starting with Google, then layering in LinkedIn as they scale. Our [LinkedIn Account-Based Marketing guide](/blogs/linkedin-account-based-marketing/) covers how to approach that second layer once your paid search foundation is in place.
+They serve different purposes in a b2b ppc strategy. Google Ads captures buyers who are already searching for a solution, so intent is high and pipeline timelines tend to be shorter. LinkedIn Ads reaches buyers who fit your ICP but are not actively searching yet, making it better for building awareness with specific job titles or companies you want to target. Most B2B SaaS companies see faster pipeline results starting with Google, then layering in LinkedIn as they scale. Our [LinkedIn Account-Based Marketing guide](/blogs/linkedin-account-based-marketing/) covers how to approach that second layer once your paid search foundation is in place.
 
 ### 5. What is offline conversion tracking and why does it matter for b2b adwords management?
 

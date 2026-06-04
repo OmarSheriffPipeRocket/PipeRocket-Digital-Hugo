@@ -187,11 +187,11 @@ If traffic is high but conversions are low, fix your Call-to-Action (CTA). If co
 
 Once the basics are running smoothly, level up. Refine your ICP, expand your content clusters, build more advanced nurture sequences, test new channels, or introduce [ABM](/glossary/what-is-abm/) and referral programs.
 
-Inbound becomes incredibly powerful when every part of your marketing system is aligned and optimized around how your customers buy.
+Inbound becomes incredibly powerful when every part of your marketing system is aligned and optimized around how your customers buy. Get those parts working together and you have a modern [B2B marketing](/blogs/b2b-marketing/) engine, not just a content calendar.
 
 ## Conclusion
 
-The numbers don’t lie: [B2B marketing](/blogs/b2b-marketing) and buying has changed faster than most companies have kept up with.
+The numbers don’t lie: B2B marketing and buying has changed faster than most companies have kept up with.
 
 Buyers are still doing the bulk of their research alone, with 90% of their purchasing decisions significantly impacted by online content, as per the [CMO Council](https://www.cmocouncil.org/thought-leadership/reports/btob-content-impacts-customer-thinking--buying-decisions). And they are contacting sellers, but still, only after 60% of the journey is complete, as per the [2025 B2B Buyer Experience Report](https://6sense.com/science-of-b2b/buyer-experience-report-2025/#introduction-ch).
 

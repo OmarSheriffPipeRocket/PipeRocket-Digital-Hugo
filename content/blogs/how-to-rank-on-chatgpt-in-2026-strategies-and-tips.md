@@ -71,7 +71,7 @@ If you ignore your top-of-funnel content because you’re “only doing AI SEO,�
 
 ### **Your technical debt is killing you**
 
-You can’t rank in ChatGPT if your foundational SaaS SEO is broken. I see this all the time, companies trying to do “[LLM](/glossary/what-is-an-llm/) optimization” while their site is full of 404s and messy redirects. It’s like trying to build a skyscraper on a swamp. You have to get the basics locked down.
+You can’t rank in ChatGPT if your foundational SaaS SEO is broken. I see this all the time, companies trying to do “LLM optimization” while their site is full of 404s and messy redirects. It’s like trying to build a skyscraper on a swamp. You have to get the basics locked down.
 
 I’m talking about mapping your target keywords to the right pages. I’m talking about having high-quality content that actually answers the search intent. If the foundation is shaky, the AI isn’t going to trust you as a source.
 

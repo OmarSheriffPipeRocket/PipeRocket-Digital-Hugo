@@ -64,7 +64,7 @@ Every piece of published content reflects directly on brand. At enterprise scale
 Guardrails to implement:
 
 - **Automated QA checks** that flag missing title tags, broken [canonical tags](/glossary/what-is-a-canonical-tag/), incorrect meta tags, and accidental noindex directives on core templates
-- **Pre-launch [SEO](/glossary/what-is-seo/) validations** built into every publishing and release process
+- **Pre-launch SEO validations** built into every publishing and release process
 - **Staging environment testing** before any SEO change goes live
 
 **Pro Tip:** Educate non-SEO team members — developers, product managers, writers — on crawlability, search intent frameworks, and internal linking impact. When developers understand content hierarchy, they build UX that also performs in search.
@@ -107,7 +107,7 @@ Edge SEO implementations address this directly:
 
 - Reduce dependency on slow development cycles for SEO fixes
 - Enable site-wide changes to roll out without core code deploys
-- Allow lower-risk testing of [technical SEO](/glossary/what-is-technical-seo/) changes before full deployment
+- Allow lower-risk testing of technical SEO changes before full deployment
 
 ### Global Hreflang Architecture
 

@@ -43,7 +43,7 @@ B2C brands pursue volume; B2B SaaS brands pursue alignment. The keywords with hi
 
 ### Align SEO with overall demand generation
 
-The most successful B2B SaaS businesses use [SEO](/glossary/what-is-seo/ "Glossary: SEO") not as a content generator, but as a source of revenue. This implies coordination of [SEO](/glossary/what-is-seo/) with paid campaigns, lifecycle nurturing, email workflows, and sales enablement.
+The most successful B2B SaaS businesses use [SEO](/glossary/what-is-seo/ "Glossary: SEO") not as a content generator, but as a source of revenue. This implies coordination of SEO with paid campaigns, lifecycle nurturing, email workflows, and sales enablement.
 
 ## 5 Factors to Consider for a B2B SaaS SEO Strategy
 
@@ -53,7 +53,7 @@ These 5 factors are important while you start strategizing your B2B SaaS SEO act
 
 ### Defining ICPs and Mapping Buyer Journeys
 
-A strong B2B SaaS SEO strategy starts with clearly defining your Ideal Customer Profiles (ICPs) and knowing how each persona searches throughout the buying journey. 
+A strong B2B SaaS SEO strategy starts with clearly defining your Ideal Customer Profiles (ICPs) and knowing how each persona searches throughout the buying journey. Get your [ICP](/glossary/what-is-icp/) wrong and every downstream keyword and content decision inherits the error. 
 
 In B2B SaaS, a single user does not make a quick decision as it is in B2C. Rather, you strike on many layers within an organization- each layer contains its priorities, pain points, and search habits. There are three main personas that are normally addressed by most B2B SaaS products, and all these should be targeted by your SEO.
 
@@ -178,11 +178,11 @@ There will still be such content with high authority, but it will be deeper, exp
 
 ## Conclusion
 
-Effective B2B SaaS SEO is more than just rankings; it generates steady, measurable revenue. It starts with an in-depth understanding of your [ICP](/glossary/what-is-icp/), tracing the intent of the buyer all the way down the funnel, and producing content that answers the questions that buyers have when making real purchases. Build authority by entering into relationships with partners, fostering relationships in the ecosystem, and releasing content based on credibility rather than using individual backlinks.
+Effective B2B SaaS SEO is more than just rankings; it generates steady, measurable revenue. It starts with an in-depth understanding of your ICP, tracing the intent of the buyer all the way down the funnel, and producing content that answers the questions that buyers have when making real purchases. Build authority by entering into relationships with partners, fostering relationships in the ecosystem, and releasing content based on credibility rather than using individual backlinks.
 
 Measure pipeline (not only the number of pageviews) by connecting the organic performance to your CRM, and measure how SEO is driving demos, trials, and ARR. Intent, authority, and trust-focused brands will continue to achieve visibility and motivate customers to make purchases even with AI-driven searches, and turn organic traffic into close deals.
 
-**Frequently Asked Questions**
+## Frequently Asked Questions
 
 1. **What is B2B SaaS SEO?**
 

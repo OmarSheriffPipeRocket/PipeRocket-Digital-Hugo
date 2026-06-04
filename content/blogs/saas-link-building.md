@@ -46,7 +46,7 @@ According to Ahrefs research, pages ranking in position one have 3.8 times more 
 
 ## Strategy 1: Fix Which Pages You Are Building Links To
 
-Before you pitch a single journalist or send a single outreach email, audit where your saas [backlinks](/glossary/what-is-a-backlink/) are currently pointing and compare that against where your pipeline actually originates.
+Before you pitch a single journalist or send a single outreach email, audit where your saas backlinks are currently pointing and compare that against where your pipeline actually originates.
 
 ![Typical SaaS link distribution (78% blog, 15% homepage, almost nothing to pricing or comparison pages) versus PipeRocket's recommended distribution (25% comparison, 22% pillar hubs, 18% alternatives, 15% free tools, 12% high-intent blog, 8% product/pricing/home). Stop building authority on pages that don't convert.](/images/blog-infographics/where-to-point-saas-links.svg)
 

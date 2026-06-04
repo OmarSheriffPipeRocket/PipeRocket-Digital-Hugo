@@ -165,9 +165,9 @@ We analyze these top-heavy combinations to ensure they remain highly relevant wh
 
 ### **How Do You Replace the Losers?**
 
-We relentlessly review the performance data for every single individual headline. We look for the headlines dragging down the overall metrics. We identify the headline with the absolute lowest [Click-Through Rate](/glossary/what-is-ctr/). We immediately weed out that low-performing asset. We then look at our top-performing headline.
+We relentlessly review the performance data for every single individual headline. We look for the headlines dragging down the overall metrics. We identify the headline with the absolute lowest Click-Through Rate. We immediately weed out that low-performing asset. We then look at our top-performing headline.
 
-We write a slight variation of that winning concept. We replace the loser with this new variation. We force the ad to continually compete against its own best numbers. This constant pruning cycle ensures your [Google ads](/glossary/what-is-google-ads/) copy gets sharper and more effective every single week.
+We write a slight variation of that winning concept. We replace the loser with this new variation. We force the ad to continually compete against its own best numbers. This constant pruning cycle ensures your Google ads copy gets sharper and more effective every single week.
 
 **SaaS Example: The Continuous Pruning Cycle**
 
