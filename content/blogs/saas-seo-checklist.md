@@ -15,7 +15,7 @@ wp_link: "/blogs/saas-seo-checklist/"
 
 I’ve spent over 15 years in SEO, and if there’s one thing I’ve learned, it’s that most “checklists” are distractions. They focus on green lights in a plugin rather than the green lines on your revenue chart.
 
-Recently, I sat down with my team to break down exactly how we approach [SaaS SEO](/blogs/saas-seo/) at PipeRocket Digital. This isn’t theoretical, this is the exact methodology we use to turn search traffic into pipelines. If you’re tired of vanity metrics and want a strategy that sells, this is for you.
+Recently, I sat down with my team to break down exactly how we approach SaaS SEO at PipeRocket Digital. This isn’t theoretical, this is the exact methodology we use to turn search traffic into pipelines. If you’re tired of vanity metrics and want a strategy that sells, this is for you.
 
 Here’s my SaaS SEO checklist – with in-depth notes on why you should be ticking them.
 
@@ -41,7 +41,7 @@ Even if you are a brilliant marketer, if you do not understand the category firs
 
 **Why understand the product first?** Because understanding the category gives you the luxury of patience. It allows you to sit down and map out exactly how the market moves before you start fighting for attention. You need to know the Total Addressable Market (TAM) based on the keywords you want to focus on.
 
-**Why understand the [ICP](/glossary/what-is-icp/) first?** Because, in SaaS specifically, there is often confusion in the user’s journey. You need to know if the user is looking to book a demo immediately or if they are just looking to buy the product directly. If you don’t align your strategy with the category’s maturity and the user’s specific intent, you are just shooting in the dark.
+**Why understand the ICP first?** Because, in SaaS specifically, there is often confusion in the user’s journey. You need to know if the user is looking to book a demo immediately or if they are just looking to buy the product directly. If you don’t align your strategy with the category’s maturity and the user’s specific intent, you are just shooting in the dark.
 
 You must identify the right keywords where people are actually looking for a solution like yours, but you cannot do that without knowing the persona first.
 
@@ -64,7 +64,7 @@ That’s why, for SaaS [SEO](/glossary/what-is-seo/), I insist on analyzing keyw
 
 To prove this isn’t just theory, let me share a case study regarding a client of ours.
 
-**The Problem:** Our client wanted to focus strictly on the Indian market and strictly on B2B customers. However, their competitors were dominating the search results, but they were attracting everyone, including freelancers and consumers. Our client did not want that freelancer traffic as it wasn’t their ICP.
+**The Problem:** Our client wanted to focus strictly on the Indian market and strictly on B2B customers. However, their competitors were dominating the search results, but they were attracting everyone, including freelancers and consumers. Our client did not want that freelancer traffic as it wasn’t their [ICP](/glossary/what-is-icp/).
 
 **The Pivot:** We analyzed the Total Addressable Market (TAM) in search and realized general keywords brought the wrong traffic. We proposed a **Programmatic SEO** strategy to target specific B2B use cases.
 
@@ -76,7 +76,7 @@ To prove this isn’t just theory, let me share a case study regarding a client 
 
 ## **Checkbox 3: Map Your Content to Topics, Not Just Keywords**
 
-A common failure point I see in SaaS SEO is keyword cannibalization. Marketers find a list of 100 to 200 keywords and think they need 100 to 200 pages.
+A common failure point I see in [SaaS SEO](/blogs/saas-seo/) is keyword cannibalization. Marketers find a list of 100 to 200 keywords and think they need 100 to 200 pages.
 
 Let’s look at an example in the procurement space. You might see keywords like:
 

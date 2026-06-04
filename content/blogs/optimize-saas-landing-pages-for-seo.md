@@ -23,13 +23,13 @@ I am going to walk you through the exact perspective I have developed over my 15
 
 ## How to Validate if the SaaS Landing Page Should Even Exist?
 
-When I look at optimizing a landing page for [SaaS SEO](/blogs/saas-seo/), I generally split it into two distinct use cases. You’re either creating a new page from scratch or fixing an existing page. This validation applies to both these cases.
+When I look at optimizing a landing page for SaaS SEO, I generally split it into two distinct use cases. You’re either creating a new page from scratch or fixing an existing page. This validation applies to both these cases.
 
 In both of these scenarios, most people rush into writing a copy or designing the wireframe immediately. That is the fastest way to burn resources and time.
 
 ### Start with Keyword Research and Search Validation
 
-I always start with [**Keyword Research**](/blogs/how-to-do-saas-seo-keyword-research/), but not in the way you might think. I look strictly at the **Intent**.
+I always start with **Keyword Research**, but not in the way you might think. I look strictly at the **Intent**.
 
 You might find a keyword that looks incredible on paper because it has 5,000 monthly searches. But that volume is a vanity metric if the intent is wrong. Before I let my team write a single word, I put that keyword into the SERP (Search Engine Results Page) to see what Google is actually rewarding.
 
@@ -162,7 +162,7 @@ Why does this matter? Because a search result with gold stars psychologically ma
 
 Let’s look at the second use case. You have done all of this – the [keyword research](/glossary/what-is-keyword-research/), the content, the design—and the website is live. But it isn’t performing. The traffic is flat, or worse, the traffic is there but nobody is booking demos.
 
-This is where I begin the SEO optimization for the SaaS landing page.
+This is where I begin the SEO optimization for the SaaS landing page. I treat the page as one node in a wider [SaaS SEO](/blogs/saas-seo/) program rather than an island, because a page rarely fails in isolation.
 
 First, I analyze the performance using **[GA4](/glossary/what-is-ga4/) (Google Analytics)** and **GSC (Search Console)** to see the rankings.
 
@@ -178,7 +178,7 @@ I use tools like **Hotjar**, **Microsoft Clarity**, or **VWO** to see how users 
 - Where are the clicks going?
 - Are the CTA buttons properly placed, or are they invisible?
 
-Once I have this data, I re-optimize. And I want to give you a specific, real-life example of what this looks like in the wild.
+Once I have this data, I re-optimize. If it shows the term itself was the wrong target, I go back to [keyword research](/blogs/how-to-do-saas-seo-keyword-research/) and re-validate intent before touching the page again. And I want to give you a specific, real-life example of what this looks like in the wild.
 
 ## A Real-Life Case Study: How We Fixed Sprinto’s Landing Page
 

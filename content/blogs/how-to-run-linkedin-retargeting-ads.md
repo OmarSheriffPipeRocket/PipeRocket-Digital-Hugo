@@ -25,7 +25,7 @@ LinkedIn Retargeting Ads are advertisements that track and target professionals 
 
 ## **What are the core segments of a winning LinkedIn Ads strategy?**
 
-When we map out [LinkedIn ads](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/), we only focus on three important segments. You have your prospecting layer. You have your Account-Based Marketing (ABM) layer. You have your LinkedIn retargeting ads layer. I want to take a deep dive into LinkedIn retargeting ads right now because that is where the easiest revenue lives.
+When we map out LinkedIn ads, we only focus on three important segments. You have your prospecting layer. You have your Account-Based Marketing (ABM) layer. You have your LinkedIn retargeting ads layer. I want to take a deep dive into LinkedIn retargeting ads right now because that is where the easiest revenue lives.
 
 A prospect finds you by searching organically. They might find you through paid ads. They look around your website completely. If you are selling B2B SaaS, LinkedIn is your absolute best bet to stay in front of them. We are going to break down exactly how we set up audiences for LinkedIn retargeting ads audiences step by step.
 
@@ -103,7 +103,7 @@ We haven’t fully rolled this out with clients yet, but the idea is to run ads 
 
 ## How we Approach LinkedIn Retargeting Ads at PipeRocket Digital?
 
-Look, building a sophisticated LinkedIn retargeting ads engine takes serious work. You have to map out the audiences, filter the high-intent URLs, and perfectly time your pipeline acceleration ads.
+Look, building a sophisticated LinkedIn retargeting ads engine takes serious work. You have to map out the audiences, filter the high-intent URLs, and perfectly time your pipeline acceleration ads. Retargeting only pays off once your prospecting and core [LinkedIn ads](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/) are already feeding the funnel with the right visitors to re-engage.
 
 Most SaaS teams simply lack the bandwidth to manage this level of granularity. We built [PipeRocket Digital](/saas-ppc/) specifically to solve this problem. We step in, audit your entire funnel, and build out the exact remarketing frameworks I just described.
 

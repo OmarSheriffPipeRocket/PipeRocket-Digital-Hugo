@@ -31,7 +31,7 @@ Before we get into the tactical execution, we need to align on why this matters 
 
 ### You Target High-intent Buyers
 
-With [SaaS SEO](/blogs/saas-seo/), you have to understand the specific mindset your user is in when they type that query into Google. If a user is searching for “Zendesk alternatives” or “HubSpot vs. Salesforce,” they are already deep in **evaluation mode**.
+With SaaS SEO, you have to understand the specific mindset your user is in when they type that query into Google. If a user is searching for “Zendesk alternatives” or “HubSpot vs. Salesforce,” they are already deep in **evaluation mode**.
 
 They know what the product category is. They understand the problem it solves. They probably even have a shortlist of the top sellers in the market. But they aren’t convinced yet.
 
@@ -41,7 +41,7 @@ The reason they are searching is that investing in SaaS is expensive and risky. 
 
 Search volume metrics can be incredibly deceiving.
 
-You might do [keyword research](/blogs/how-to-do-saas-seo-keyword-research/) and see a volume of only 500 or 1,000 for a comparison or “alternative” keyword. Compared to broad informational terms, that number looks negligible. However, the intent behind those searches is massive. These are real users who are trying to compare two or three tools to make a final decision.
+You might do keyword research and see a volume of only 500 or 1,000 for a comparison or “alternative” keyword. Compared to broad informational terms, that number looks negligible. However, the intent behind those searches is massive. These are real users who are trying to compare two or three tools to make a final decision.
 
 If you rank in the top position for this query, you get to control the narrative. The user checks your page, compares the products based on the criteria *you* highlight, and it helps them make a decision that favors you.
 
@@ -77,7 +77,7 @@ These are the obvious ones. If Product A has a Help Desk, IT support, and Chatbo
 
 These are trickier but highly valuable. Brand B might focus on only one particular product you offer. If you are an all-in-one platform, you might compete with a specialized tool for just one feature. You need to win that battle too because clients often fragment their stack if they don’t know you can do it all.
 
-We curate this list and make combinations like A versus B, A versus C, or A versus D to cover the entire landscape.
+We curate this list and make combinations like A versus B, A versus C, or A versus D to cover the entire landscape. Layer in [keyword research](/blogs/how-to-do-saas-seo-keyword-research/) on each pairing to confirm the comparison terms actually carry buyer intent before you commit a page to them.
 
 ## **How Should You Structure the URL Architecture for the SaaS Comparison Pages?**
 
@@ -264,7 +264,7 @@ Building these pages isn’t just about writing a copy. It requires deep researc
 
 At **PipeRocket Digital**, we act as an extended team that owns the outcome, specifically SQLs and Pipeline.
 
-We ensure this exact process is followed while collaborating with you to ensure we improve topical authority and close deals. We use this “outcome-first” approach to all the activities we do to improve your pipeline.
+We ensure this exact process is followed while collaborating with you to ensure we improve topical authority and close deals. We use this “outcome-first” approach to all the activities we do to improve your pipeline. Comparison pages are just one high-intent slice of a broader [SaaS SEO](/blogs/saas-seo/) program, and they convert best when the rest of your funnel is already pulling qualified traffic.
 
 If you’re curious about how we can scale your pipeline, let’s talk.
 

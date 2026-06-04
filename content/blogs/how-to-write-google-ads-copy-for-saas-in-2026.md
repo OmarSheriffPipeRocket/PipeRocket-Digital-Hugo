@@ -24,7 +24,7 @@ We see this mistake constantly. At PipeRocket Digital, we refuse to guess. We bu
 
 ## **Step 1: Understand the Buyer Before Writing a Single Word**
 
-We always start by ripping apart the Ideal Customer Profile. You cannot write compelling SaaS [Google ads](/blogs/how-to-run-google-ads-for-saas/) copy if you do not intimately understand the person staring at the screen.
+We always start by ripping apart the Ideal Customer Profile. You cannot write compelling SaaS Google ads copy if you do not intimately understand the person staring at the screen.
 
 ### **How Do We Actually Define the Persona?**
 
@@ -177,7 +177,7 @@ We write a slight variation of that winning concept. We replace the loser with t
 
 ## **Choose PipeRocket Digital to Stop Burning Your Ad Budget**
 
-At [PipeRocket Digital](/saas-ppc/), we help your SaaS company by building high-converting search campaigns Google Ads. You can spend weeks trying to build the perfect ad structure yourself. But you risk losing thousands of dollars testing the wrong messaging on the wrong audience. Or you can let an experienced team handle the heavy lifting for you.
+At [PipeRocket Digital](/saas-ppc/), we help your SaaS company by building high-converting search campaigns [Google Ads](/blogs/how-to-run-google-ads-for-saas/). You can spend weeks trying to build the perfect ad structure yourself. But you risk losing thousands of dollars testing the wrong messaging on the wrong audience. Or you can let an experienced team handle the heavy lifting for you.
 
 If you’d like to see how we can scale your Google Ads campaigns, [let’s connect!](/contact-us/)
 

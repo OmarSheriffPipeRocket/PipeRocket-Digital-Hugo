@@ -23,11 +23,11 @@ The reality is that AI is the only way to scale content effectively right now, b
 
 ## **What is “Meaningful Content” and Why Does AI Struggle with It?**
 
-In my eyes, meaningful content is any [SaaS SEO](/blogs/saas-seo/) blog that gives the reader qualitative, actionable information about the topic they are searching for. While that sounds simple, AI is terrible at this by default.
+In my eyes, meaningful content is any SaaS SEO blog that gives the reader qualitative, actionable information about the topic they are searching for. While that sounds simple, AI is terrible at this by default.
 
 ### **Why AI Models Fail at Meaningful SaaS SEO Content?**
 
-If you go to ChatGPT or Gemini right now and type in a keyword from your [saas keyword research](/blogs/how-to-do-saas-seo-keyword-research/), it will give you a blog in less than two minutes that looks and reads like a blog that completely lacks soul.
+If you go to ChatGPT or Gemini right now and type in a keyword from your saas keyword research, it will give you a blog in less than two minutes that looks and reads like a blog that completely lacks soul.
 
 The initial output from any model is almost always “editorial” because it scrapes the internet to accumulate existing sources and summarizes them. If you publish that summary, you are adding zero value because you are just regurgitating what is already on Page 1.
 
@@ -43,13 +43,13 @@ Most marketers make the mistake of treating blogging like a broadcast, thinking 
 
 Blogs are not a “one-to-many” interaction; they are a “one-on-one” interaction.
 
-When I use AI to help me write, I imagine I am talking to exactly one person. I visualize my Ideal Customer Profile ([ICP](/glossary/what-is-icp/)). For example, I know that you are in the SaaS industry and trying to figure out how to use AI without getting slapped by Google. I know your pain points and that you aren’t looking for a generic “Top 10 AI Tools” list, but rather a workflow you can actually use.
+When I use AI to help me write, I imagine I am talking to exactly one person. I visualize my Ideal Customer Profile (ICP). For example, I know that you are in the SaaS industry and trying to figure out how to use AI without getting slapped by Google. I know your pain points and that you aren’t looking for a generic “Top 10 AI Tools” list, but rather a workflow you can actually use.
 
 When you shift your perspective to this 1-on-1 mentality, the content becomes conversational and helpful. If you treat a blog like a lecture, it becomes boring, but if you treat it like a consultation with a colleague, it becomes valuable.
 
 ## **How Do You Get High-Quality Inputs for AI?**
 
-The biggest problem with AI writing is the “Garbage In, Garbage Out” rule. If you give an AI a generic brief, it gives you a generic blog.
+The biggest problem with AI writing is the “Garbage In, Garbage Out” rule. If you give an AI a generic brief, it gives you a generic blog. That starts upstream: feed it a brief grounded in real [SaaS keyword research](/blogs/how-to-do-saas-seo-keyword-research/), not just a topic title, so the model actually understands the intent it is writing for.
 
 For example, if you want to write a blog about “Best practices to keep employees happy” for an HR manager but you aren’t an HR expert, you would typically:
 
@@ -143,13 +143,13 @@ AI is not the enemy of [SEO](/glossary/what-is-seo/), but rather the enemy of la
 
 The formula is simple: **Meaningful Content = Expert Input + AI Efficiency + Human Verification.**
 
-Stop trying to write *for* the search engine and start writing for that one person, your ICP, sitting on the other side of the screen. Use the tools to handle the heavy lifting of structure and grammar, but keep the soul of the content human so you don’t need to worry about penalties.
+Stop trying to write *for* the search engine and start writing for that one person, your [ICP](/glossary/what-is-icp/), sitting on the other side of the screen. Use the tools to handle the heavy lifting of structure and grammar, but keep the soul of the content human so you don’t need to worry about penalties.
 
 ## **Frequently Asked Questions=**
 
 ### **1. Will Google penalize my SaaS SEO content if I use AI to write it?**
 
-No, Google only penalizes SaaS SEO content that does not serve User Intent or is low-value spam. As long as you use AI to scale meaningful, helpful content that answers the user’s query, you are safe because it is about quality, not the tool used.
+No, Google only penalizes [SaaS SEO](/blogs/saas-seo/) content that does not serve User Intent or is low-value spam. As long as you use AI to scale meaningful, helpful content that answers the user’s query, you are safe because it is about quality, not the tool used.
 
 ### **2. Why should I interview an expert instead of just researching on Google?**
 

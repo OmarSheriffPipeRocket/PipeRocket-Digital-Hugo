@@ -39,17 +39,17 @@ What separates SaaS SEO from general content marketing is the pipeline intent be
 
 ![Anatomy of a SaaS SEO Program: four pillars — Content (BOFU/MOFU/TOFU + hub-and-spoke), Technical (crawl/index/speed/schema), Authority (digital PR, data studies, directories, integrations), and Measurement (organic SQLs, CAC, pipeline contribution) — all feeding one outcome: qualified pipeline.](/images/blog-infographics/anatomy-saas-seo-program.svg)
 
-**Did You Know?** Organic visitors convert to leads at 0.92% vs AI traffic’s 0.26%. That’s a 3.5X gap in favor of organic, right now in 2026. *According to [PipeRocket Digital’s State of SEO in the AI World 2026 report](/research/ai-seo-statistics/), based on data from 53 B2B SaaS clients over 8 months.*
+**Did You Know?** Organic visitors convert to leads at 0.92% vs AI traffic’s 0.26%. That’s a 3.5X gap in favor of organic, right now in 2026. *According to PipeRocket Digital’s State of SEO in the AI World 2026 report, based on data from 53 B2B SaaS clients over 8 months.*
 
 ## Why Does SEO Matter for B2B SaaS Companies?
 
-SEO matters for B2B SaaS because it’s the only acquisition channel that compounds. Paid ads stop the moment you pause the budget. [SEO](/glossary/what-is-seo/) content built in month one is still generating demos in month eighteen at zero incremental cost per visit.
+SEO matters for B2B SaaS because it’s the only acquisition channel that compounds. Paid ads stop the moment you pause the budget. SEO content built in month one is still generating demos in month eighteen at zero incremental cost per visit.
 
 For B2B SaaS, organic search matches the way your buyers actually research. They search “how to reduce SaaS churn” before they ever search “churn reduction software.” A content strategy aligned to that journey means your brand is present from the first search, not just the last one.
 
 The economics are concrete. [PipeRocket grew Spendflo’s organic traffic 5X](/case-study-spendflo/) over eight months and increased organic leads by 25%. [CyberSierra went from 6 to 338 keywords in top-10 positions](/case-study-cybersierra/), a 279% organic traffic increase. Neither result came from chasing traffic volume. Both came from [ICP](/glossary/what-is-icp/)-mapped content built to convert.
 
-**Did You Know?** Organic drives 37X more absolute leads than all AI engines combined and converts those leads to SQLs at 33.3% vs AI’s 28.6%. *According to PipeRocket Digital’s State of SEO in the AI World 2026 report.*
+**Did You Know?** Organic drives 37X more absolute leads than all AI engines combined and converts those leads to SQLs at 33.3% vs AI’s 28.6%. *According to [PipeRocket Digital’s State of SEO in the AI World 2026 report](/research/ai-seo-statistics/).*
 
 ### SEO vs Paid: When Organic Wins
 
@@ -66,7 +66,7 @@ For most SaaS companies, organic CAC crosses below paid CAC somewhere between mo
 
 ## How Do You Build a SaaS SEO Strategy (Step by Step)?
 
-A SaaS SEO strategy follows eight steps in sequence: set pipeline-tied goals, audit your site, analyze competitors for gaps, research keywords by funnel stage, build a content plan around your ICP, optimize on-page signals, build [backlinks](/glossary/what-is-a-backlink/) through earned authority, and clean up your technical foundations.
+A SaaS [SEO](/glossary/what-is-seo/) strategy follows eight steps in sequence: set pipeline-tied goals, audit your site, analyze competitors for gaps, research keywords by funnel stage, build a content plan around your ICP, optimize on-page signals, build [backlinks](/glossary/what-is-a-backlink/) through earned authority, and clean up your technical foundations.
 
 The sequence matters. Most SaaS teams start at step five without doing steps one through four. The result is content that ranks for terms their buyers never search. Start with goals and ICP clarity. Everything downstream depends on it.
 

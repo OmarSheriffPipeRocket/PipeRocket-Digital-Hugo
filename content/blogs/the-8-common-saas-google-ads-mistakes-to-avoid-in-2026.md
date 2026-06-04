@@ -35,7 +35,7 @@ I manage Google Ads accounts for B2B SaaS companies every single day, and I keep
 
 ## **Mistake 1: Going for Top-of-Funnel Keywords Initially**
 
-This is probably the most common [SaaS Google Ads](/blogs/how-to-run-google-ads-for-saas/) mistakes I see, and honestly, it makes sense why it happens.
+This is probably the most common SaaS Google Ads mistakes I see, and honestly, it makes sense why it happens.
 
 - You open Google Keyword Planner
 - You see a ToFu keyword pulling a hundred thousand monthly searches
@@ -344,7 +344,7 @@ If you want this done right from the start, [Let’s talk!](/contact-us/).
 
 ## **Conclusion**
 
-None of these SaaS Google Ads mistakes need advanced expertise to fix. Most of them happen before the campaigns even go live, which means they are almost entirely preventable with the right setup process. Get the foundation right, keep a close eye on it, and Google Ads becomes a genuinely reliable pipeline channel for your SaaS. Cut corners on any of it, and you are paying for data that quietly leads you in the wrong direction.
+None of these [SaaS Google Ads](/blogs/how-to-run-google-ads-for-saas/) mistakes need advanced expertise to fix. Most of them happen before the campaigns even go live, which means they are almost entirely preventable with the right setup process. Get the foundation right, keep a close eye on it, and Google Ads becomes a genuinely reliable pipeline channel for your SaaS. Cut corners on any of it, and you are paying for data that quietly leads you in the wrong direction.
 
 ## **Frequently Asked Questions**
 

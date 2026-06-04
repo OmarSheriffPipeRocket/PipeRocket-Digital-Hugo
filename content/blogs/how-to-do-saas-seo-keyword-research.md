@@ -15,7 +15,7 @@ wp_link: "/blogs/how-to-do-saas-seo-keyword-research/"
 
 If you asked me how I do keyword research, the exact steps we follow at PipeRocket Digital, this blog will be your answer. We’ve had long discussions about this within our team, and the reality is that most people start with tools when they should be starting with people.
 
-We treat SaaS SEO keyword research not just as a standard [SaaS SEO checklist](/blogs/saas-seo-checklist/), but as a way to map the entire Total Addressable Market (TAM) for a product.Whether you are a founder trying to get traction or a marketer trying to scale, I am going to walk you through the exact process we use, a process that evolved directly from managing massive accounts like Sprinto.
+We treat SaaS SEO keyword research not just as a standard SaaS SEO checklist, but as a way to map the entire Total Addressable Market (TAM) for a product.Whether you are a founder trying to get traction or a marketer trying to scale, I am going to walk you through the exact process we use, a process that evolved directly from managing massive accounts like Sprinto.
 
 I will be upfront with you: it is a bit more work upfront. It takes time. But that extra effort is the difference between guessing what might work and actually dominating your category.
 
@@ -141,7 +141,7 @@ Here is a benchmark I want you to remember: Most SaaS companies with a single pr
 
 The biggest struggle marketers face is justifying the budget. Management usually throws out a random number, like “We need 30 articles this quarter”.With this research method, you can walk into that meeting with confidence. You can say:*“Based on our research, the Total Addressable Market for content in our category is 250 articles. We have the potential to capture 60 BOFU pages, 70 MOFU pages, and 200 TOFU pages”*.
 
-This transforms content from a random request into a calculated investment. It gives clarity to the executives on the overall budget needed, and it gives the SEO team a clear roadmap of where to start and where to end.
+This transforms content from a random request into a calculated investment. It gives clarity to the executives on the overall budget needed, and it gives the SEO team a clear roadmap of where to start and where to end. Once that roadmap is set, run it against our [SaaS SEO checklist](/blogs/saas-seo-checklist/) so nothing downstream — content, on-page, or technical — slips through the cracks.
 
 This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategies-and-framework/ "SaaS SEO Framework").
 

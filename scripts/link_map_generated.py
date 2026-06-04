@@ -32,13 +32,16 @@ GENERATED_LINK_MAP = [
     ("Webfx alternatives", "/alternative/webfx-alternatives/", False, "P1"),  # 10 Best WebFX Alternatives in 2026
     ("Webfx", "/alternative/webfx-alternatives/", False, "P1"),  # 10 Best WebFX Alternatives in 2026
 
-    # ---- listicle targets (96 entries) ----
+    # ---- listicle targets (99 entries) ----
     ("best aeo agency", "/list/best-aeo-agency/", False, "P1"),  # 12 Best Answer Engine Optimization (AEO) Agencies in the USA 2026
     ("top aeo agency", "/list/best-aeo-agency/", False, "P1"),  # 12 Best Answer Engine Optimization (AEO) Agencies in the USA 2026
     ("AEO Agency", "/list/best-aeo-agency/", False, "P1"),  # 12 Best Answer Engine Optimization (AEO) Agencies in the USA 2026
     ("best affordable b2b ppc agencies", "/list/best-affordable-b2b-ppc-agencies/", False, "P1"),  # Best Affordable B2B PPC Agencies
     ("top affordable b2b ppc agencies", "/list/best-affordable-b2b-ppc-agencies/", False, "P1"),  # Best Affordable B2B PPC Agencies
     ("Affordable B2B PPC Agencies", "/list/best-affordable-b2b-ppc-agencies/", False, "P1"),  # Best Affordable B2B PPC Agencies
+    ("best ai seo agencies", "/list/best-ai-seo-agencies/", False, "P1"),  # 10 Best AI SEO Agencies for 2026 (Honest Review)
+    ("top ai seo agencies", "/list/best-ai-seo-agencies/", False, "P1"),  # 10 Best AI SEO Agencies for 2026 (Honest Review)
+    ("AI SEO Agencies", "/list/best-ai-seo-agencies/", False, "P1"),  # 10 Best AI SEO Agencies for 2026 (Honest Review)
     ("best b2b advertising agencies", "/list/best-b2b-advertising-agencies/", False, "P1"),  # The Best B2B Advertising Agencies (2026 Rankings)
     ("top b2b advertising agencies", "/list/best-b2b-advertising-agencies/", False, "P1"),  # The Best B2B Advertising Agencies (2026 Rankings)
     ("B2B Advertising Agencies", "/list/best-b2b-advertising-agencies/", False, "P1"),  # The Best B2B Advertising Agencies (2026 Rankings)
@@ -108,12 +111,12 @@ GENERATED_LINK_MAP = [
     ("best saas ppc agencies", "/list/best-saas-ppc-agencies/", False, "P1"),  # 10 Best SaaS PPC Agencies in 2026
     ("top saas ppc agencies", "/list/best-saas-ppc-agencies/", False, "P1"),  # 10 Best SaaS PPC Agencies in 2026
     ("SaaS PPC Agencies", "/list/best-saas-ppc-agencies/", False, "P1"),  # 10 Best SaaS PPC Agencies in 2026
-    ("best saas seo agencies", "/list/best-saas-seo-agencies-for-startups/", False, "P1"),  # 12 Best SaaS SEO Agencies for Startups 2026
-    ("top saas seo agencies", "/list/best-saas-seo-agencies-for-startups/", False, "P1"),  # 12 Best SaaS SEO Agencies for Startups 2026
-    ("SaaS SEO Agencies", "/list/best-saas-seo-agencies-for-startups/", False, "P1"),  # 12 Best SaaS SEO Agencies for Startups 2026
-    ("best the 11 best saas seo agencies", "/list/best-saas-seo-agencies/", False, "P1"),  # I Ranked The 11 Best SaaS SEO Agencies in 2026
-    ("top the 11 best saas seo agencies", "/list/best-saas-seo-agencies/", False, "P1"),  # I Ranked The 11 Best SaaS SEO Agencies in 2026
-    ("The 11 Best SaaS SEO Agencies", "/list/best-saas-seo-agencies/", False, "P1"),  # I Ranked The 11 Best SaaS SEO Agencies in 2026
+    ("best saas seo agencies", "/list/best-saas-seo-agencies-for-startups/", False, "P1"),  # Best 12 SaaS SEO Agencies for Startups: An Honest 2026 Review
+    ("top saas seo agencies", "/list/best-saas-seo-agencies-for-startups/", False, "P1"),  # Best 12 SaaS SEO Agencies for Startups: An Honest 2026 Review
+    ("SaaS SEO Agencies", "/list/best-saas-seo-agencies-for-startups/", False, "P1"),  # Best 12 SaaS SEO Agencies for Startups: An Honest 2026 Review
+    ("best saas seo agencies", "/list/best-saas-seo-agencies/", False, "P1"),  # Best 11 SaaS SEO Agencies: An Honest 2026 Review
+    ("top saas seo agencies", "/list/best-saas-seo-agencies/", False, "P1"),  # Best 11 SaaS SEO Agencies: An Honest 2026 Review
+    ("SaaS SEO Agencies", "/list/best-saas-seo-agencies/", False, "P1"),  # Best 11 SaaS SEO Agencies: An Honest 2026 Review
     ("best technical seo agencies", "/list/best-technical-seo-agencies/", False, "P1"),  # The 9 Best Technical SEO Agencies for 2026
     ("top technical seo agencies", "/list/best-technical-seo-agencies/", False, "P1"),  # The 9 Best Technical SEO Agencies for 2026
     ("Technical SEO Agencies", "/list/best-technical-seo-agencies/", False, "P1"),  # The 9 Best Technical SEO Agencies for 2026
@@ -130,7 +133,7 @@ GENERATED_LINK_MAP = [
     ("top performance marketing agencies", "/list/top-performance-marketing-agencies/", False, "P1"),  # 9 Best Performance Marketing Agencies in 2026 (Honest Review)
     ("Performance Marketing Agencies", "/list/top-performance-marketing-agencies/", False, "P1"),  # 9 Best Performance Marketing Agencies in 2026 (Honest Review)
 
-    # ---- blog targets (39 entries) ----
+    # ---- blog targets (40 entries) ----
     ("Ultimate Guide to B2B Content Marketing", "/blogs/b2b-content-marketing-guide/", False, "P1"),  # The Ultimate Guide to B2B Content Marketing
     ("Ultimate Guide to B2B Demand Generation", "/blogs/b2b-demand-generation-guide/", False, "P1"),  # The Ultimate Guide to B2B Demand Generation
     ("B2B Inbound Marketing – The Ultimate Guide", "/blogs/b2b-inbound-marketing-guide/", False, "P1"),  # B2B Inbound Marketing – The Ultimate Guide
@@ -167,6 +170,7 @@ GENERATED_LINK_MAP = [
     ("SaaS PPC", "/blogs/saas-ppc/", False, "P1"),  # SaaS PPC: A Complete Guide for 2025
     ("My SaaS SEO Checklist for : An Experience-based Guide", "/blogs/saas-seo-checklist/", False, "P1"),  # My SaaS SEO Checklist for 2026: An Experience-based Guide
     ("SaaS SEO Strategies: Complete 8-step Framework for", "/blogs/saas-seo-strategies-and-framework/", False, "P1"),  # SaaS SEO Strategies: Complete 8-step Framework for 2026
+    ("SaaS SEO", "/blogs/saas-seo-v2/", False, "P1"),  # SaaS SEO: The 8-Step Pipeline Strategy for 2026 (v2)
     ("SaaS SEO: My 7-step Strategy for", "/blogs/saas-seo/", False, "P1"),  # SaaS SEO: My 7-step Strategy for 2026
     ("8 Common SaaS Google Ads Mistakes to Avoid in", "/blogs/the-8-common-saas-google-ads-mistakes-to-avoid-in-2026/", False, "P1"),  # The 8 Common SaaS Google Ads Mistakes to Avoid in 2026
     ("No-Nonsense Guide to Auditing Your SaaS PPC Account", "/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account/", False, "P1"),  # The No-Nonsense Guide to Auditing Your SaaS PPC Account

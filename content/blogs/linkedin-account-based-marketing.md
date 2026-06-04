@@ -30,7 +30,7 @@ I’ve been running ABM campaigns on LinkedIn for over a decade and in this blog
 
 LinkedIn account-based marketing is a B2B paid strategy where you target specific companies or decision-makers with ads, instead of broadcasting to a broad audience.
 
-**Unlike Google Ads**, where you’re chasing intent through search queries, [**LinkedIn Ads**](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/) **lets you** walk straight up to the door of the exact company you want, by name, by industry, by revenue, by job title.
+**Unlike Google Ads**, where you’re chasing intent through search queries, **LinkedIn Ads** **lets you** walk straight up to the door of the exact company you want, by name, by industry, by revenue, by job title.
 
 That level of precision is why ABM works so well here specifically. The platform’s targeting infrastructure is literally built for this, so you’re not hacking anything. You’re using it exactly the way it was designed.
 
@@ -165,6 +165,8 @@ How you structure the actual campaign depends on which ABM type you’re running
 - **ABM 1:1** – You don’t always need to build a separate matched audience beforehand. Go directly into campaign setup, enter the company name, and layer your job title and function filters on top.
 - **ABM 1:Few** – You’ve got two options here. Build a matched audience from your uploaded list, or manually select your 10 to 20 companies directly inside campaign setup and add your ICP filters on top. Either approach works.
 - **ABM 1:Many** – Building a matched audience first is completely non-negotiable. You’re dealing with thousands of companies, and manually entering them inside campaign setup isn’t happening.
+
+If the platform mechanics are new to you, our guide to running [LinkedIn ads](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/) for SaaS walks through the bidding, budgets, and creative setup these ABM campaigns sit on top of.
 
 ### **Step 7: Run the Campaign for 3 to 4 Weeks Then Hand the Data to Sales**
 
