@@ -17,8 +17,14 @@ module.exports = {
     'assets/js/**/*.js',
   ],
 
-  // Target the minified, fingerprinted bundle Hugo writes to /public/css/.
-  css: ['public/css/*.css'],
+  // Target ONLY the main fingerprinted bundle Hugo writes to /public/css/.
+  // It is loaded WITHOUT an integrity attribute, so rewriting it in place is
+  // safe. Every other CSS file (listicle, blog-v2, compare, glossary, …) is
+  // loaded WITH a Subresource-Integrity hash computed by Hugo — purging those
+  // in place changes their bytes, breaks the SRI hash, and the browser then
+  // silently refuses to apply them (banner/layout renders unstyled). So the
+  // glob must stay scoped to main.min.*.css only.
+  css: ['public/css/main.min.*.css'],
 
   // Default extractor splits on whitespace; this one also keeps class names
   // that contain ':' (Tailwind-like) and standard BEM separators.
