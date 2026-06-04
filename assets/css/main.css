@@ -283,6 +283,15 @@ p { margin: 0 0 var(--pr-s-4); }
   margin-left: auto;
   margin-right: auto;
 }
+/* New paid-media service pages: wider compare-table heading on desktop */
+@media (min-width: 1024px) {
+  body.page-linkedin-marketing .pr-compare--ppc__header h2,
+  body.page-google-ads .pr-compare--ppc__header h2,
+  body.page-bing-ads .pr-compare--ppc__header h2,
+  body.page-paid-social .pr-compare--ppc__header h2 {
+    max-width: 1050px;
+  }
+}
 .pr-section--outcome {
   background: #282828;
   overflow: hidden;
@@ -14146,7 +14155,8 @@ body.page-home main,
 body.page-saas-ppc main,
 body.page-linkedin-marketing main,
 body.page-google-ads main,
-body.page-bing-ads main {
+body.page-bing-ads main,
+body.page-paid-social main {
   overflow-x: clip;
 }
 

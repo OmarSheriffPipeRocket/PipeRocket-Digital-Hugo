@@ -1,0 +1,640 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__h1-eyebrow">AI-First Technical SEO Agency for B2B SaaS</h1>
+
+        <h2 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">Your best pages exist. Google just can&rsquo;t crawl, render, or index them.</span>
+          <span class="pr-hero__title-strong">That&rsquo;s a technical problem.</span>
+        </h2>
+        <div class="pr-hero__copy pr-hero__copy--seo">
+          <p>Most SEO stalls on technical debt — crawl traps, render-blocked content, slow Core Web Vitals, thin indexation. PipeRocket fixes the foundation so your pages actually get crawled, indexed, ranked, and cited, then connects every fix to one outcome: qualified pipeline, not a green Lighthouse score.</p>
+        </div>
+
+        {{/* Technical SEO page = any Clutch review tagged with "SaaS SEO" (mixed services OK) */}}
+        {{ $clutchSeo := where (where .Site.Data.reviews.reviews "source" "Clutch") "services" "intersect" (slice "SaaS SEO") }}
+        {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
+        <div class="pr-hero-seo__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-seo__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.webp" alt="Clutch" class="pr-hero-seo__rating-logo">
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero-seo__mobile-img" aria-hidden="true">
+        <img src="/images/hero-seo/hero-mobile.webp" alt="" loading="eager">
+      </div>
+      <div class="pr-hero__collage pr-hero__collage--seo" aria-label="PipeRocket technical SEO — crawled, rendered, indexed, ranked">
+        <img class="pr-hero-seo__buyer" src="/images/hero-seo/buyer-first.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__bofu" src="/images/hero-seo/bofu-vector.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__search" src="/images/hero-seo/search-bar.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__stroke" src="/images/hero-seo/red-stroke.svg" alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-seo__man" src="/images/hero-seo/man-clock.webp" alt="Vintage figure under an SEO Results street clock" loading="eager" decoding="async">
+        <img class="pr-hero-seo__arrow" src="/images/hero-seo/arrow.svg" alt="" aria-hidden="true" loading="eager" data-arrow-parallax>
+      </div>
+    </div>
+
+    {{ partial "clutch-reviews-schema.html" (dict "reviews" $clutchSeo "rating" $clutchSource.rating "count" (len $clutchSeo)) }}
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     HOW WE TURN TECHNICAL FIXES INTO PIPELINE
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container">
+    <div class="pr-center" style="margin: 0 auto 140px; white-space: nowrap;">
+      <h2>How we turn technical fixes into pipeline</h2>
+    </div>
+    <div class="pr-principles" data-principles>
+      <div class="pr-principles__line" aria-hidden="true">
+        <div class="pr-principles__line-bg"></div>
+        <div class="pr-principles__line-fill" data-line-fill></div>
+        <img class="pr-principles__arrow" src="/images/principles/pr-arrow.svg" alt="" data-principles-arrow>
+      </div>
+      <div class="pr-principles__col pr-principles__col--left">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--buyers"></div>
+          <h3>Crawlability over chaos</h3>
+          <p>Search engines and AI crawlers cannot rank what they cannot reach. We fix crawl traps, render-blocking resources, broken redirects, and orphan pages first — so the budget Google spends on your site lands on the pages that matter, not the ones that don't.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--intent"></div>
+          <h3>Indexation over publishing</h3>
+          <p>A page that isn't indexed earns nothing, no matter how good the content is. We make sure every page that should rank is crawled, rendered, and indexed — and that thin, duplicate, and low-value URLs aren't quietly eating your crawl budget.</p>
+        </article>
+      </div>
+      <div class="pr-principles__col pr-principles__col--right">
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--purpose"></div>
+          <h3>Architecture over add-ons</h3>
+          <p>Site structure and internal linking decide what ranks. We build crawl paths and link equity flows that push authority to your buying-stage pages — comparisons, alternatives, category landers — instead of letting it pool on the homepage and blog.</p>
+        </article>
+        <article class="pr-principles__card" data-principle>
+          <div class="pr-principles__icon pr-principles__icon--revenue"></div>
+          <h3>Revenue over green scores</h3>
+          <p>A perfect Lighthouse score on a page nobody buys from is vanity. We prioritise the technical fixes that unblock the pages tied to pipeline first, then work down the list. Every fix is sequenced by revenue impact, not by what's easy to report.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight pr-section--working-seo">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    {{ partial "working-tv.html" . }}
+  </div>
+</section>
+
+<!-- ====================================================
+     WHY SAAS TEAMS CHOOSE PIPEROCKET FOR TECHNICAL SEO — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-compare--seo">
+  <div class="pr-container">
+    <div class="pr-center pr-compare--seo__header">
+      <h2>Why SaaS teams choose PipeRocket for technical SEO</h2>
+      <p>Every audit tool spits out 300 errors. The gap is knowing which five actually block pipeline — and whether your SEO partner fixes them or just hands you the PDF.</p>
+    </div>
+    <img src="/images/compare-blue-vector.svg" class="pr-compare--seo__blue-vec" aria-hidden="true">
+    <div class="pr-compare--seo__table-wrap">
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-compare-table__pr-logo">
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Technical SEO is whatever the dev team gets to after the product roadmap. Usually never.</div>
+        <div>Runs a crawl, exports 300 issues, and hands over a prioritised-by-severity spreadsheet. Implementation is your problem.</div>
+        <div>We crawl, diagnose, prioritise by pipeline impact, and work with your engineers to ship the fixes. The audit is the start, not the deliverable.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Issues are found reactively, when traffic drops and nobody knows why.</div>
+        <div>One audit at kickoff, then quarterly check-ins. Regressions sit undetected for months.</div>
+        <div>Daily automated crawls catch indexation drops, render failures, and broken deployments within hours, not quarters.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Core Web Vitals and JS rendering are a mystery owned by no one between marketing and engineering.</div>
+        <div>Generic recommendations: "improve page speed", "add schema". Little understanding of your stack or framework.</div>
+        <div>We work at the framework level — Next.js, React, headless CMS rendering, CDN config — and give engineers PRs, not vague advice.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Fixes ship, but nobody connects them to rankings, indexation, or revenue.</div>
+        <div>Reports on errors resolved and health scores. Nobody asks about pipeline contribution.</div>
+        <div>Every fix is tracked to its effect on crawl coverage, indexation, rankings, and the pipeline those pages produce.</div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Structured data and AI-crawler readiness aren't on the radar at all.</div>
+        <div>Schema is bolted on as a checkbox, if at all. No view of how AI engines crawl and cite the site.</div>
+        <div>We structure content and schema so both Google and AI engines — ChatGPT, Perplexity, AI Overviews — can crawl, understand, and cite your pages.</div>
+      </div>
+    </div>
+    <img src="/images/compare-red-vector.svg" class="pr-compare--seo__red-vec" aria-hidden="true" data-compare-red-vec>
+    <img src="/images/seo-table-rocket.svg" class="pr-compare--seo__rocket" aria-hidden="true" data-compare-rocket>
+    </div><!-- end table-wrap -->
+    <div class="pr-compare--seo__cta">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-middle">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     TESTIMONIALS — 3 CARDS (SEO-SPECIFIC)
+     ==================================================== -->
+<section class="pr-section--tight pr-section--social-proof">
+  <div class="pr-container">
+    <div class="pr-center"><h2>50+ brands have grown organic pipeline with our SaaS SEO services</h2></div>
+
+    <div class="pr-testimonials__viewport">
+      <div class="pr-testimonials" data-testimonials-track>
+
+        <!-- Page 1 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-cyberseirra.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">I've worked with a lot of paid ads contractors, agencies big and small, and this is one of the few times I can confidently say my paid ads channel&mdash;when I spend a dollar, $9 in pipeline will come in. Even now with Goldcast being acquired, I consider them my paid ads headcount.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-cindy.png" alt="Cindy">
+            <div>
+              <div class="pr-testimonial__name">Cindy</div>
+              <div class="pr-testimonial__role">Director of Growth Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logos/goldcast.svg" alt="Goldcast" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperverge.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience, actionable strategies brought in 51 high-quality MQLs in just 3 months. Specifically, the team's approach towards fine-tuning campaigns across regions not only grew our leads but also saved us costs.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-navien.png" alt="Navien">
+            <div>
+              <div class="pr-testimonial__name">Navien</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Working alongside PipeRocket has been a commendable experience for Storylane. We were looking into how to boost our qualified leads. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
+            <div>
+              <div class="pr-testimonial__name">Nalin</div>
+              <div class="pr-testimonial__role">CEO</div>
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperstart.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working and invalidated two new geographies for the ads. Moreover, PipeRocket Digital was responsive, open to feedback, and eager to meet the objectives.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-anusha.png" alt="Anusha">
+            <div>
+              <div class="pr-testimonial__name">Anusha</div>
+              <div class="pr-testimonial__role">Founding member</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperstart.png" alt="HyperStart" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+        <!-- Page 2 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-spendflo.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution. Moreover, their in-depth understanding of SEO and consistent involvement make them a reliable partner.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nivas.png" alt="Nivas">
+            <div>
+              <div class="pr-testimonial__name">Nivas</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-devrev.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly. PipeRocket Digital was committed to driving growth and continuously learning and improving.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
+            <div>
+              <div class="pr-testimonial__name">Saptharishi</div>
+              <div class="pr-testimonial__role">Head of Demand Generation</div>
+              <img loading="lazy" decoding="async" src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="pr-testimonials__dots">
+      <button class="pr-testimonials__dot pr-testimonials__dot--active" data-testimonial-dot="0" aria-label="Page 1">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-active.png" alt="">
+      </button>
+      <button class="pr-testimonials__dot" data-testimonial-dot="1" aria-label="Page 2">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-inactive.png" alt="">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     NUMBERS THAT MATTER — STAT BAND (SEO: 3 BOXES)
+     ==================================================== -->
+<section class="pr-stat-band pr-stat-band--seo pr-stat-band--saas-seo">
+  <div class="pr-container pr-center">
+    <h2 class="pr-stat-band__heading">A clean crawl report is not the success metric. Pipeline is.</h2>
+    <div class="pr-stat-band__row">
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-customers.webp" alt="Customers" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">CUSTOMERS</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">PIPELINE</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-revenue.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">REVENUE</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     EVERYONE TALKS ABOUT AI — ACCORDION
+     ==================================================== -->
+<section class="pr-section pr-section--ai pr-section--ai-seo">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
+      <h2>Everyone talks about AI.<br>We just use it where it matters.</h2>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img class="pr-ai-grid__layer is-active" data-image-key="research" loading="lazy" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in technical SEO">
+        <img class="pr-ai-grid__layer" data-image-key="copy" loading="lazy" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="design" loading="lazy" decoding="async" src="/images/ai-accordion/design.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="optimisation" loading="lazy" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="analysis" loading="lazy" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
+      </div>
+      <div class="pr-accordion" data-ai-accordion-seo>
+        <details class="pr-accordion__item" open data-image="research">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Crawl &amp; Diagnose
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI crawls the full site, parses log files, and clusters thousands of issues into root causes before a human opens the report. Which problems block indexation, which waste crawl budget, and which actually touch pipeline pages stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="copy">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Structured Data
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI generates and validates schema markup — Product, SoftwareApplication, FAQ, Organization — across templates at scale. Which entities to mark up, how to model the site for AI citation, and what earns rich results stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="design">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Page Experience
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI profiles Core Web Vitals, render paths, and layout shifts across templates and pinpoints the component causing the regression. Which fix to ship, what to defer, and how to balance speed against the build stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="optimisation">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Monitoring
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI watches indexation coverage, rankings, and deployments daily, flagging the moment a release breaks rendering or a page falls out of the index. What to roll back, what to escalate, and what's noise stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="analysis">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Analysis
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI connects technical changes to crawl coverage, indexation, rankings, and the pipeline those pages produce. What a fix was actually worth, and where to invest engineering time next, stays with the team.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('[data-ai-accordion-seo]');
+      if(!acc) return;
+      var media = acc.parentElement.querySelector('.pr-ai-grid__media');
+      if(!media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var key = item.getAttribute('data-image');
+          if(!key) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === key);
+          });
+        });
+      });
+    })();
+  </script>
+</section>
+<style>
+  @media (min-width: 1024px) {
+    .pr-ai-grid { grid-template-columns: 0.9fr 1.1fr !important; gap: var(--pr-s-9) !important; }
+  }
+</style>
+
+<!-- ====================================================
+     AGENTIC AI DELIVERY — 4 PILLARS (technical-SEO-specific)
+     ==================================================== -->
+<section class="pr-section pr-section--ai-pillars">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7); text-wrap: balance;">
+      <h2>We rebuilt technical SEO around autonomous agents.</h2>
+      <p style="font-size: 1rem; line-height: 1.55; margin-top: var(--pr-s-4); color: var(--pr-ink-2);">AI agents own the data work autonomously — full crawls in hours, log-file analysis on demand, Core Web Vitals profiling per template. Senior engineers own the calls that decide what ships.</p>
+    </div>
+    <div class="pr-ai-pillars__grid">
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 01</div>
+        <h3>Agents that finish, not assist</h3>
+        <p>Our agents complete full technical workflows end-to-end: site crawls, log-file analysis, indexation audits, schema generation, Core Web Vitals profiling, redirect mapping. Not chatbots. Not co-pilots. Autonomous agents that finish the audit and ship the fix list ready for an engineer's review.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 02</div>
+        <h3>Crawled while you sleep</h3>
+        <p>Agents crawl your site every day, diff it against the last known-good state, and flag the moment a deployment breaks rendering, an indexation drop starts, or a redirect chain appears. By the time most agencies notice in the quarterly audit, we have already filed the ticket.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 03</div>
+        <h3>Fix priority stays senior</h3>
+        <p>Agents produce the data layer: crawl maps, log analysis, issue clusters, schema drafts. Senior engineers make the calls that matter: which fixes unblock pipeline pages, what's safe to ship, and how to sequence work against your release cycle. Prioritisation is never delegated to a model.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 04</div>
+        <h3>Fixed, indexed, and tied to pipeline</h3>
+        <p>Every agent reports to one outcome: qualified pipeline. We do not optimise for health scores or resolved-error counts in isolation. Crawl coverage, indexation, rankings, and the pipeline those pages produce surface continuously, so engineering time goes where it actually moves revenue.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     THE PIPEROCKET TECHNICAL SEO APPROACH
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading">The PipeRocket Technical SEO Approach</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">We focus on outcomes, not error counts. Each phase builds on the last, and every fix is sequenced by pipeline impact.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-start-from-inside.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Crawl the full picture</div>
+        <div class="pr-approach__copy"><p>We start with a complete technical crawl of your site, paired with server log analysis to see exactly how Googlebot and AI crawlers actually move through it — not how you assume they do.</p><p>By the end of this phase we know which pages get crawled, how often, where budget is wasted, and which templates are quietly invisible to search.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-map-full-picture.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Diagnose what&rsquo;s blocking</div>
+        <div class="pr-approach__copy"><p>We separate the issues that block indexation and rankings from the noise every audit tool generates. Crawl traps, render-blocking, duplicate and thin URLs, broken canonicals, redirect chains, orphan pages.</p><p>Then we prioritise — ruthlessly — by impact on the pages that drive pipeline, not by the tool's severity colour.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-build-with-intent.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Fix crawl &amp; indexation</div>
+        <div class="pr-approach__copy"><p>We clean up what Google crawls and indexes: robots and meta directives, canonical logic, XML sitemaps, pagination, parameter handling, and the thin or duplicate URLs eating crawl budget.</p><p>The result is a site where the pages that should rank get crawled and indexed, and the ones that shouldn't stop competing for attention.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-go-where-buyers.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Architect for authority</div>
+        <div class="pr-approach__copy"><p>We rebuild site structure and internal linking so authority flows to the pages that convert — comparisons, alternatives, category landers — instead of pooling on the homepage and blog.</p><p>Clean hierarchies, deliberate internal links, and crawl depth that keeps your money pages a few clicks from home.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-convert-day-one.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Engineer page experience</div>
+        <div class="pr-approach__copy"><p>We profile Core Web Vitals at the template level and ship fixes with your engineers: LCP, CLS, INP, render-blocking resources, image and font delivery, and CDN configuration.</p><p>Speed work is sequenced by which pages it unblocks, and delivered as PRs, not a list of vague recommendations.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-built-to-be-found.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Make JS crawlable</div>
+        <div class="pr-approach__copy"><p>For React, Next.js, and headless builds, we make sure content rendered by JavaScript is actually visible to crawlers — SSR, dynamic rendering, hydration, and lazy-loaded content that search engines can reach.</p><p>If your content only exists after a client-side render, it effectively does not exist to search. We fix that.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-cited-where-counts.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Structure for search &amp; AI</div>
+        <div class="pr-approach__copy"><p>We implement and validate structured data — Product, SoftwareApplication, FAQ, Organization, Breadcrumb — so Google earns rich results and AI engines can parse what your pages mean.</p><p>Content and entities are modelled so ChatGPT, Perplexity, and AI Overviews can crawl, understand, and cite your site alongside traditional results.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-scale-what-works.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Monitor &amp; protect</div>
+        <div class="pr-approach__copy"><p>Technical SEO is not a one-time project. We crawl daily, watch indexation and Core Web Vitals, and catch the regressions that ship with every release before they cost you rankings.</p><p>Performance is reviewed against rankings and pipeline, so the foundation stays solid as your site and product evolve.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CASE STUDIES
+     ==================================================== -->
+<section class="pr-section--tight pr-section--casestudies">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Success Stories</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Driving 2.5X Growth and 82% More Demos: Storylane's Success with PipeRocket's Campaigns.</p>
+          <a href="/case-study-storylane/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-devrev-cs.svg" alt="DevRev" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Achieving 127% Organic Traffic Growth in 6 Months: DevRev's Case Study with PipeRocket.</p>
+          <a href="/case-study-devrev/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">From Stagnation to Domination: PipeRocket's Impact on Spendflo's 81% Traffic Rise.</p>
+          <a href="/case-study-spendflo/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
+      <a href="/case-study/" class="pr-btn pr-btn--ghost">View all success stories</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     TECHNICAL SEO AGENT STACK — 5 NAMED AGENTS (approach-section design)
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo pr-section--agents-stack" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">Inside the five-agent technical SEO stack we deploy on every account</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Each agent owns one layer of the technical workflow — crawl, indexation, page experience, structured data, attribution. They ship in hours instead of weeks and report straight to the senior engineer on your account.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Crawl &amp; Log Analysis Agent</div>
+        <div class="pr-approach__copy"><p>Crawls the full site and parses server logs to map exactly how search and AI crawlers move through it — crawl frequency, wasted budget, orphan pages, and invisible templates. A full crawl that took days now ships in hours.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Indexation &amp; Coverage Agent</div>
+        <div class="pr-approach__copy"><p>Audits what's actually indexed against what should be, flags coverage drops, and isolates the canonical, directive, and duplicate issues keeping pipeline pages out of the index. Drafts the fix list with root causes, not symptoms.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Core Web Vitals &amp; Render Agent</div>
+        <div class="pr-approach__copy"><p>Profiles LCP, CLS, and INP per template, traces regressions to the component, and checks that JavaScript-rendered content is reachable by crawlers. Hands engineers specific PRs, not generic "improve page speed" advice.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Structured Data &amp; AI-Readiness Agent</div>
+        <div class="pr-approach__copy"><p>Generates and validates schema across templates and models your entities so both Google and AI engines can parse and cite your pages. Catches markup that breaks on deploy before it costs you a rich result.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Pipeline Attribution Agent</div>
+        <div class="pr-approach__copy"><p>Connects every technical fix to crawl coverage, indexation, rankings, and the pipeline those pages produce. The reporting your board wants — what the engineering time was actually worth — generated continuously, not at month-end.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     OUR TECH STACK
+     ==================================================== -->
+{{ partial "tech-stack.html" . }}
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Technical SEO questions, answered</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is a technical SEO agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">A technical SEO agency fixes the foundation that lets search engines and AI crawlers find, render, index, and rank your site — crawlability, indexation, site architecture, Core Web Vitals, JavaScript rendering, and structured data — and connects that work to qualified pipeline rather than stopping at an audit PDF.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What does technical SEO include?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Crawl budget and log-file analysis, indexation and coverage fixes, canonicalisation, XML sitemaps, robots and meta directives, site architecture and internal linking, Core Web Vitals (LCP, CLS, INP), JavaScript rendering, redirects, hreflang, and structured data — sequenced by impact on the pages that drive revenue.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How is technical SEO different from content SEO?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Content SEO decides what you say and which queries you target. Technical SEO makes sure search engines can actually crawl, render, index, and trust those pages. The best content in the world earns nothing if it's render-blocked, non-indexed, or buried twelve clicks deep — technical SEO removes those blockers.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How long until technical SEO improves rankings?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Indexation and crawl fixes can move within days to weeks as Google recrawls. Core Web Vitals and architecture changes compound over weeks to a few months. We prioritise the fixes that unblock pipeline pages first, so the highest-impact wins land early rather than at the end of a long roadmap.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Does technical SEO matter for AI search like ChatGPT and AI Overviews?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Yes. AI engines crawl and parse your site much like search engines do — if content is render-blocked, poorly structured, or missing schema, they can't reliably understand or cite it. Clean crawlability and structured data are what get you surfaced in AI Overviews, ChatGPT, and Perplexity answers, not just the blue links.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final pr-cta-final--seo">
+  <div class="pr-container">
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2><span class="pr-cta-soft">You wouldn't be here if what you were doing was working.</span> <strong>It's time for PipeRocket.</strong></h2>
+    <p>We work with a small number of B2B SaaS companies at a time. If your pipeline isn't growing the way your board expects, let's find out if we're the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="service-bottom">Book free consultation</a>
+  </div>
+</section>
+
+{{ end }}

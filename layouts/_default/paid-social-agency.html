@@ -1,0 +1,733 @@
+{{ define "main" }}
+
+<!-- ====================================================
+     HERO
+     ==================================================== -->
+<section class="pr-hero pr-hero--ppc">
+  <div class="pr-container">
+    <div class="pr-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__h1-eyebrow">AI-First Paid Social Agency for B2B</h1>
+
+        <h2 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">There are lots of ways to run paid social. Plenty of agencies promising to help.</span>
+          <span class="pr-hero__title-strong">You&rsquo;ve probably tried some.<br>Yet, here you are.</span>
+        </h2>
+        <div class="pr-hero__copy">
+          <p>PipeRocket turns paid social spend into a qualified pipeline in 60 days by aligning ICP, scroll-stopping creative, and sales feedback.</p>
+        </div>
+
+        {{/* Keep clutch data for structured data schema only */}}
+        {{ $allClutch := where .Site.Data.reviews.reviews "source" "Clutch" }}
+        {{ $clutchPpc := slice }}
+        {{ range $allClutch }}
+          {{ $hasNonSeo := false }}
+          {{ range .services }}
+            {{ if ne . "SaaS SEO" }}{{ $hasNonSeo = true }}{{ end }}
+          {{ end }}
+          {{ if $hasNonSeo }}{{ $clutchPpc = $clutchPpc | append . }}{{ end }}
+        {{ end }}
+        {{ $clutchSource := .Site.Data.reviews.sources.clutch }}
+        <div class="pr-hero-ppc__rating" aria-label="Rated 5 out of 5 on Clutch">
+          <img src="/images/hero-seo/star-rating.svg" alt="5.0 out of 5 stars" class="pr-hero-ppc__rating-stars">
+          <img src="/images/hero-seo/clutch-logo.webp" alt="Clutch" class="pr-hero-ppc__rating-logo">
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-hero">{{ .Site.Params.secondary_cta_text }}</a>
+      </div>
+      <div class="pr-hero-ppc__mobile-img" aria-hidden="true">
+        <img src="/images/hero-ppc/hero-mobile.webp" alt="" loading="eager">
+      </div>
+      <div class="pr-hero__collage pr-hero__collage--ppc" aria-label="PipeRocket paid social — audience-led, pipeline-focused social ads">
+        <img class="pr-hero-ppc__sales"  src="/images/hero-ppc/sales-alignment.svg"  alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-ppc__funnel" src="/images/hero-ppc/full-funnel.svg"       alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-ppc__intent" src="/images/hero-ppc/intent-capture.svg"    alt="" aria-hidden="true" loading="eager">
+        <img class="pr-hero-ppc__man"    src="/images/hero-ppc/man-ppc.webp"          alt="Vintage figure representing paid social pipeline growth" loading="eager" decoding="async">
+      </div>
+    </div>
+
+    {{ partial "clutch-reviews-schema.html" (dict "reviews" $clutchPpc "rating" $clutchSource.rating "count" (len $clutchPpc)) }}
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     FROM AD SPEND TO PIPELINE — ZIGZAG PIPELINE FLOW
+     ==================================================== -->
+<section class="pr-section pr-pipeline-flow">
+
+  <!-- frame-t is section-relative so it extends to the viewport right edge at any zoom level -->
+  <span class="pr-pipeline-flow__deco pr-pipeline-flow__deco--frame-t" aria-hidden="true"></span>
+
+  <div class="pr-container">
+
+    <!-- frame-r stays container-relative to align its left edge with the cards -->
+    <span class="pr-pipeline-flow__deco pr-pipeline-flow__deco--frame-r"  aria-hidden="true"></span>
+
+    <header class="pr-pipeline-flow__header">
+      <h2 class="pr-pipeline-flow__title">From paid social spend to qualified pipeline</h2>
+      <p class="pr-pipeline-flow__lede">We use AI to surface patterns faster, and expert judgment to make the right decisions.</p>
+    </header>
+
+    <div class="pr-pipeline-flow__grid" data-principles>
+
+      <div class="pr-principles__line" aria-hidden="true">
+        <div class="pr-principles__line-bg"></div>
+        <div class="pr-principles__line-fill" data-line-fill></div>
+        <img class="pr-principles__arrow" src="/images/principles/pr-arrow.svg" alt="" data-principles-arrow>
+      </div>
+
+      <div class="pr-pipeline-flow__runner">
+        <img class="pr-pipeline-flow__speed" src="/images/man-speed-vector.svg" alt="" aria-hidden="true">
+        <img src="/images/runner-businessman.webp" alt="Running businessman with briefcase — turning ad spend into pipeline" onerror="this.style.display='none'">
+      </div>
+
+      <div class="pr-pipeline-flow__col pr-pipeline-flow__col--left">
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/know-who-buys.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Know who buys</h3>
+          <p>Most paid social is optimised for cheap clicks and engagement. We build around who actually buys. That means fewer leads overall but a sales team that stops rejecting what marketing sends them.</p>
+        </article>
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/speak-to-the-moment.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Speak to the moment</h3>
+          <p>Creative is built around real buying moments and real problems, pulled from actual sales call recordings. Generic feature lists and buzzwords get scrolled past. They do not fill pipelines.</p>
+        </article>
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/sales-in-the-loop.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Sales in the loop</h3>
+          <p>Lead quality is validated through actual sales conversations and acceptance rates, not platform dashboards. When sales reject a lead, we want to know why and fix the upstream cause.</p>
+        </article>
+
+      </div>
+
+      <div class="pr-pipeline-flow__col pr-pipeline-flow__col--right">
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/go-where-intent-is.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Go where your buyers are</h3>
+          <p>We put spend behind the audiences and communities your buyers actually live in, not broad reach that inflates impressions without producing pipeline. Budget follows your ICP, not vanity reach.</p>
+        </article>
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/follow-the-pipeline.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Follow the pipeline</h3>
+          <p>You can see exactly what is influencing the pipeline and where leads drop off, not just what happened at the click. Every touchpoint is connected to revenue so the board question has a clear answer.</p>
+        </article>
+
+        <article class="pr-pipeline-flow__card" data-principle>
+          <div class="pr-pipeline-flow__icon">
+            <img src="/images/icons/spend-on-what-works.svg" alt="" aria-hidden="true">
+          </div>
+          <h3>Spend on what works</h3>
+          <p>Budgets follow performance. When an audience or creative consistently drives the pipeline we scale it. When it does not we pause it and find out why. No spend exists to show activity.</p>
+        </article>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight" style="padding-bottom: 100px;">
+  <div class="pr-container pr-center">
+    <h2>Working With PipeRocket</h2>
+    {{ partial "working-tv.html" . }}
+  </div>
+</section>
+
+<!-- ====================================================
+     WE TREAT AD SPEND LIKE AN INVESTMENT — DARK COMPARISON TABLE
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-compare--ppc">
+  <div class="pr-container">
+    <div class="pr-center pr-compare--ppc__header">
+      <h2>Our paid social agency treats every paid dollar<br>as an investment, not an engagement target</h2>
+      <p>Every dollar is planned, tracked, and optimised against pipeline and ROI.</p>
+    </div>
+    <img src="/images/compare-blue-vector.svg" class="pr-compare--ppc__blue-vec" aria-hidden="true">
+    <div class="pr-compare--ppc__table-wrap">
+    <div class="pr-compare-table">
+      <div class="pr-compare-table__row pr-compare-table__row--head">
+        <div>In house</div>
+        <div>Other agencies</div>
+        <div class="pr-compare-table__pr">
+          <img src="/images/piperocket-logo.svg" alt="PipeRocket" class="pr-compare-table__pr-logo">
+        </div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Learn the product, category, and ICP over time, often on the company's budget.</div>
+        <div>Relies on the onboarding brief. Surface-level understanding of the product, category, and how buyers evaluate.</div>
+        <div><p>Deep understanding of your product, ICP, and category built before a campaign goes live.</p><p>AI accelerates research.</p><p>Category mapping, competitor ad-library analysis, and audience signals that would take weeks happen in days.</p></div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Runs paid social campaigns as an activity. Limited view of how paid fits into the larger marketing system.</div>
+        <div>Acts as a platform specialist on Meta or TikTok, with a list of best practices and a campaign to deliver.</div>
+        <div><p>Treats paid social as a growth lever connected to your broader marketing goals, sales motion, and pipeline targets.</p><p>Not a channel to manage in isolation.</p></div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Audience and creative choices driven by familiarity. Defaults to what the team knows how to run.</div>
+        <div>Prioritises a broad-reach awareness play, regardless of whether that is the right fit for a considered B2B purchase.</div>
+        <div><p>Channel and audience prioritisation recommended based on your goals, ICP, and growth stage.</p><p>AI surfaces audience behaviour, community signals, and competitive creative patterns that inform the recommendation.</p><p>The call on where to invest is still strategic, not algorithmic.</p></div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Activity-driven. Campaigns launch and run. Strategy is reviewed when something stops working.</div>
+        <div>High-level launch plan with limited alignment to business outcomes. Optimised for delivery, not results.</div>
+        <div><p>Clear paid social strategy with a 30/60/90-day action plan tied to pipeline outcomes.</p><p>AI is embedded in the planning process across market research, audience universe, and creative analysis.</p><p>The plan arrives faster and with more data behind every decision.</p></div>
+      </div>
+      <div class="pr-compare-table__row">
+        <div>Reports on platform metrics. Business context comes from marketing leadership, not the paid function itself.</div>
+        <div>Optimises for CPM, reach, and engagement. Business context is treated as outside the project scope.</div>
+        <div><p>Measures what the business actually cares about: CAC, payback period, and pipeline contribution.</p><p>AI connects marketing touchpoints to pipeline faster than any manual attribution model.</p><p>What the data means for next steps is a human call.</p></div>
+      </div>
+    </div>
+    <img src="/images/compare-red-vector.svg" class="pr-compare--ppc__red-vec" aria-hidden="true" data-compare-red-vec>
+    <img src="/images/seo-table-rocket.svg" class="pr-compare--ppc__rocket" aria-hidden="true" data-compare-rocket>
+    </div><!-- end table-wrap -->
+    <div class="pr-compare--ppc__cta">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-location="service-middle">{{ .Site.Params.secondary_cta_text }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     NUMBERS THAT MATTER — STATS
+     ==================================================== -->
+<section class="pr-stat-band pr-stat-band--ppc pr-stat-band--saas-ppc">
+  <div class="pr-container pr-center">
+    <h2 class="pr-stat-band__heading">Paid social metrics that move pipeline and revenue</h2>
+    <div class="pr-stat-band__row">
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-customers.webp" alt="Customers" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">CUSTOMERS</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-pipeline.webp" alt="Pipeline" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">PIPELINE</div>
+        </div>
+      </div>
+      <div class="pr-stat-band__item">
+        <div class="pr-stat-band__gif-box">
+          <img src="/images/stat-revenue.webp" alt="Revenue" class="pr-stat-band__gif" loading="lazy" decoding="async">
+          <div class="pr-stat-band__label">REVENUE</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     EVERYONE TALKS ABOUT AI — ACCORDION (shared with SEO/homepage)
+     ==================================================== -->
+<section class="pr-section pr-section--ai pr-section--ai-ppc">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 880px; margin: 0 auto var(--pr-s-7);">
+      <h2>Everyone talks about AI.<br>We just use it where it matters.</h2>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--pr-s-7); align-items: stretch;" class="pr-ai-grid">
+      <div class="pr-ai-grid__media">
+        <img class="pr-ai-grid__layer is-active" data-image-key="/images/ai-accordion/research.webp" loading="lazy" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in marketing">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/copy.webp" loading="lazy" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/design.webp" loading="lazy" decoding="async" src="/images/ai-accordion/design.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/optimisation.webp" loading="lazy" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="/images/ai-accordion/analysis.webp" loading="lazy" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
+      </div>
+      <div class="pr-accordion" data-ai-accordion>
+        <details class="pr-accordion__item" open data-image="/images/ai-accordion/research.webp">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Research
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI surfaces ICP signals, competitor creative, and audience intent data before a single campaign launches. Which communities are actively in-market, which messages move them, and what pipeline opportunities are hiding in plain sight stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/copy.webp">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Copy
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI generates ad copy and hook variants across angles, audiences, and formats so more combinations get tested before budget commits. Which angle matches the ICP, which message moves a buyer who is actively evaluating, and whether the copy sounds like a real buyer or an agency brief stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/design.webp">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Design
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI produces creative variants across sizes, formats, and messaging angles so more combinations are evaluated before spend is committed. In paid social the creative is the targeting — which concept reflects the ICP, which thumb-stopping hook converts, and whether the creative earns trust or loses it in the first second stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/optimisation.webp">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Optimisation
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI flags creative fatigue, audience saturation, budget inefficiencies, and bid signal shifts before they become pipeline problems. What to pause, what to scale, and when a signal means refresh the creative rather than adjust the bid stays with the team.</div>
+        </details>
+
+        <details class="pr-accordion__item" data-image="/images/ai-accordion/analysis.webp">
+          <summary class="pr-accordion__header">
+            <span class="pr-accordion__header-left">
+              <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
+              Analysis
+            </span>
+            <span class="pr-accordion__toggle">+</span>
+          </summary>
+          <div class="pr-accordion__body">AI connects paid touchpoints to pipeline and revenue across channels, surfacing CAC, payback period, and pipeline contribution faster than any manual model. What the data means for strategy, where budget should shift next, and how to present pipeline contribution to the board in a way that holds up stays with the team.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function(){
+      var acc = document.querySelector('.pr-section--ai-ppc [data-ai-accordion]');
+      var media = document.querySelector('.pr-section--ai-ppc .pr-ai-grid__media');
+      if(!acc || !media) return;
+      var items = acc.querySelectorAll('details.pr-accordion__item');
+      var layers = media.querySelectorAll('.pr-ai-grid__layer');
+      function lockHeight(){
+        var openStates = Array.prototype.map.call(items, function(it){ return it.open; });
+        var max = 0;
+        items.forEach(function(item){
+          items.forEach(function(other){ other.open = (other === item); });
+          var h = acc.scrollHeight;
+          if(h > max) max = h;
+        });
+        items.forEach(function(item, idx){ item.open = openStates[idx]; });
+        acc.style.minHeight = max + 'px';
+      }
+      if(document.readyState === 'complete') lockHeight();
+      else window.addEventListener('load', lockHeight);
+
+      items.forEach(function(item){
+        item.addEventListener('toggle', function(){
+          if(!item.open) return;
+          items.forEach(function(other){ if(other !== item) other.open = false; });
+          var src = item.getAttribute('data-image');
+          if(!src) return;
+          layers.forEach(function(l){
+            l.classList.toggle('is-active', l.getAttribute('data-image-key') === src);
+          });
+        });
+      });
+    })();
+  </script>
+</section>
+
+<!-- ====================================================
+     TESTIMONIALS — 3 CARDS (paid-specific)
+     ==================================================== -->
+<section class="pr-section--tight pr-section--social-proof pr-section--social-proof-ppc">
+  <div class="pr-container">
+    <div class="pr-center"><h2 style="max-width: 850px; margin-left: auto; margin-right: auto;">How 50+ B2B teams scaled their paid pipeline with our paid social services</h2></div>
+
+    <div class="pr-testimonials__viewport">
+      <div class="pr-testimonials" data-testimonials-track>
+
+        <!-- Page 1 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-cyberseirra.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">I've worked with a lot of paid ads contractors, agencies big and small, and this is one of the few times I can confidently say my paid ads channel&mdash;when I spend a dollar, $9 in pipeline will come in. Even now with Goldcast being acquired, I consider them my paid ads headcount.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-cindy.png" alt="Cindy">
+            <div>
+              <div class="pr-testimonial__name">Cindy</div>
+              <div class="pr-testimonial__role">Director of Growth Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logos/goldcast.svg" alt="Goldcast" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperverge.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience, actionable strategies brought in 51 high-quality MQLs in just 3 months. Specifically, the team's approach towards fine-tuning campaigns across regions not only grew our leads but also saved us costs.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-navien.png" alt="Navien">
+            <div>
+              <div class="pr-testimonial__name">Navien</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Working alongside PipeRocket has been a commendable experience for Storylane. We were looking into how to boost our qualified leads. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
+            <div>
+              <div class="pr-testimonial__name">Nalin</div>
+              <div class="pr-testimonial__role">CEO</div>
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-hyperstart.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working and invalidated two new geographies for the ads. Moreover, PipeRocket Digital was responsive, open to feedback, and eager to meet the objectives.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-anusha.png" alt="Anusha">
+            <div>
+              <div class="pr-testimonial__name">Anusha</div>
+              <div class="pr-testimonial__role">Founding member</div>
+              <img loading="lazy" decoding="async" src="/images/logo-hyperstart.png" alt="HyperStart" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+        <!-- Page 2 -->
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-spendflo.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution. Moreover, their in-depth understanding of paid and consistent involvement make them a reliable partner.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nivas.png" alt="Nivas">
+            <div>
+              <div class="pr-testimonial__name">Nivas</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-devrev.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly. PipeRocket Digital was committed to driving growth and continuously learning and improving.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
+            <div>
+              <div class="pr-testimonial__name">Saptharishi</div>
+              <div class="pr-testimonial__role">Head of Demand Generation</div>
+              <img loading="lazy" decoding="async" src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="pr-testimonials__dots">
+      <button class="pr-testimonials__dot pr-testimonials__dot--active" data-testimonial-dot="0" aria-label="Page 1">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-active.png" alt="">
+      </button>
+      <button class="pr-testimonials__dot" data-testimonial-dot="1" aria-label="Page 2">
+        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-inactive.png" alt="">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     AGENTIC AI DELIVERY — 4 PILLARS (paid-specific)
+     ==================================================== -->
+<section class="pr-section pr-section--ai-pillars">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 1320px; margin: 0 auto var(--pr-s-7); text-wrap: balance;">
+      <h2>Agentic AI is how we cut paid social waste before the creative fatigues</h2>
+      <p style="font-size: 1rem; line-height: 1.55; margin-top: var(--pr-s-4); color: var(--pr-ink-2);">AI agents own the data layer — audience builds in 48 hours, 30 creative variants per audience, fatigue detection in minutes. Senior paid strategists own every campaign call.</p>
+    </div>
+    <div class="pr-ai-pillars__grid">
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 01</div>
+        <h3>Autonomous, not auto-suggested</h3>
+        <p>Our agents complete entire paid social workflows end-to-end: audience research, creative and hook generation, landing-page hypotheses, fatigue signals, attribution. Not a "smart suggestion" button next to a media planner's checklist. Autonomous agents that finish the task and hand it to a strategist for the call.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 02</div>
+        <h3>Signal-driven, not weekly-reviewed</h3>
+        <p>Agents watch every paid social campaign, audience, and creative in real time. Creative fatigue, audience saturation, bid-signal shifts, and budget waste get flagged the moment they appear, not at the Monday standup three days after spend was already burned.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 03</div>
+        <h3>Creative and budget strategy stays human</h3>
+        <p>Agents handle the execution layer: audience builds, creative variant generation, in-platform optimisation, attribution stitching. Senior paid strategists own the calls that move the spend: which audiences to scale, which creative concepts to back, when to kill a channel that looks busy but does not produce pipeline.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Pillar 04</div>
+        <h3>ROAS that survives a CFO review</h3>
+        <p>Every agent reports to one number: pipeline-tied ROAS. CPM, CTR, and engagement rate are diagnostic, never the goal. CAC, payback period, and pipeline contribution by channel and creative surface continuously so the spend story holds up in the boardroom, not just the marketing standup.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     THE PIPEROCKET APPROACH — DARK 6-CARD GRID
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--approach-ppc">
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-ppc__vec pr-approach-ppc__vec--blue-top">
+  <img src="/images/approach-ppc/approach-vector-blue.svg" alt="" aria-hidden="true" class="pr-approach-ppc__vec pr-approach-ppc__vec--blue">
+  <img src="/images/approach-ppc/approach-vector-red.svg" alt="" aria-hidden="true" class="pr-approach-ppc__vec pr-approach-ppc__vec--red">
+  <div class="pr-approach-ppc__container">
+    <div class="pr-approach-ppc__header">
+      <h2 class="pr-approach-ppc__heading">Our paid social approach: every paid dollar maps to a meeting</h2>
+      <img loading="lazy" decoding="async" src="/images/seo-table-rocket.svg" alt="" class="pr-approach-ppc__rocket" aria-hidden="true" data-compare-rocket>
+      <p class="pr-approach-ppc__lede">We focus on outcomes, not activity. Each phase builds on the last, and we know that after the fundamentals are priced.</p>
+    </div>
+    <div class="pr-approach-ppc__grid">
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/discovery.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Discovery &amp; Alignment</div>
+        <div class="pr-approach-ppc__copy"><p>We start by understanding your product, your market, and the real problem you solve. This includes getting clarity on your ICP, buying triggers, and business goals.</p><p>We align on what success looks like, set clear sales and marketing expectations, map the full funnel, and put proper tracking in place. The goal is simple: everyone agrees on who you&rsquo;re targeting, why they buy, and how results will be measured.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/market.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Market &amp; Competitor Research</div>
+        <div class="pr-approach-ppc__copy"><p>We map how your category buys on social: which communities your buyers gather in, which competitors are running ads in the ad libraries, and which creative angles already cut through the feed.</p><p>AI accelerates the audience and creative research so the targeting strategy is grounded in data, not assumptions, before a campaign goes live.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/strategy.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Strategy &amp; Planning</div>
+        <div class="pr-approach-ppc__copy"><p>With clarity in place, we turn insights into a focused plan. We validate offers and messaging, define a creative testing framework, forecast pipeline and budget pacing, and build a clear 30-60-90 day roadmap.</p><p>We also define the creative direction and assets needed so execution doesn&rsquo;t stall later. This phase removes guesswork before a single dollar is scaled.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/execution.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Execution &amp; Launch</div>
+        <div class="pr-approach-ppc__copy"><p>We launch with speed and intention. Campaigns go live across Meta, Reddit, TikTok, and Quora with clean structure, precise audience targeting, and clear goals.</p><p>Early engagement and audience signals are closely monitored to understand intent and quality from the start. This phase is about learning fast without sacrificing discipline.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/review.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Review &amp; Optimize</div>
+        <div class="pr-approach-ppc__copy"><p>Optimization goes beyond creative and bids. We regularly review performance against benchmarks, refresh creative before it fatigues, assess lead quality, and connect campaign data to product usage and sales conversations.</p><p>Weekly reviews keep execution tight, while monthly reviews ensure strategy stays aligned with pipeline and revenue outcomes.</p></div>
+      </div>
+      <div class="pr-approach-ppc__card">
+        <img loading="lazy" decoding="async" src="/images/approach-ppc/scale.svg" alt="" class="pr-approach-ppc__icon" aria-hidden="true">
+        <div class="pr-approach-ppc__title">Scale</div>
+        <div class="pr-approach-ppc__copy"><p>We scale only after proof. Once the system consistently produces qualified pipeline, we increase budgets, expand into new audiences or regions, and deepen creative and experimentation.</p><p>Growth happens in a controlled way, without burning budget or credibility.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     PAID SOCIAL CHANNELS WE RUN — LIGHT CARD GRID
+     ==================================================== -->
+<section class="pr-section pr-section--ai-pillars">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 1320px; margin: 0 auto var(--pr-s-7); text-wrap: balance;">
+      <h2>Paid social channels and creative we run</h2>
+      <p style="font-size: 1rem; line-height: 1.55; margin-top: var(--pr-s-4); color: var(--pr-ink-2);">We match the channel and creative to the buying stage and the audience, not the other way around. Every campaign is measured against pipeline, not engagement.</p>
+    </div>
+    <div class="pr-ai-pillars__grid">
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Channel 01</div>
+        <h3>Meta Ads</h3>
+        <p>Facebook and Instagram campaigns — the workhorse for reaching your ICP at scale with thumb-stopping creative pulled from real buying moments, not generic feature lists.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Channel 02</div>
+        <h3>Reddit Ads</h3>
+        <p>Community-led targeting in the subreddits where your buyers actually evaluate tools and ask for recommendations — high-trust placements that broad social can't reach.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Channel 03</div>
+        <h3>TikTok Ads</h3>
+        <p>Short-form video that introduces your category and product to in-market buyers before they search — measured all the way to pipeline, not just views.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Channel 04</div>
+        <h3>Quora Ads</h3>
+        <p>Reach buyers researching solutions on high-intent question threads — a B2B-friendly channel that captures consideration most paid social misses.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Channel 05</div>
+        <h3>Retargeting &amp; Lookalikes</h3>
+        <p>Audience, retargeting, and lookalike campaigns that keep your offer in front of warm accounts across the full consideration cycle, not just the first impression.</p>
+      </article>
+      <article class="pr-ai-pillars__card">
+        <div class="pr-ai-pillars__eyebrow">Channel 06</div>
+        <h3>Creative Testing &amp; Iteration</h3>
+        <p>In paid social the creative is the targeting. We run a continuous test-and-refresh engine across hooks, formats, and concepts so winning creative scales before it fatigues.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     PAID SOCIAL AGENT STACK — 5 NAMED AGENTS (approach-section design)
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo pr-section--agents-stack" data-outcome-section>
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">Five autonomous agents between your media spend and qualified pipeline</h2>
+      <p style="color: #fff; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 14px;">Audience, creative, landing page, fatigue, attribution — each agent owns one stage of how a paid social dollar becomes a meeting your sales team takes. They run continuously and feed every decision to the senior paid strategist on the account.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Audience &amp; Targeting Agent</div>
+        <div class="pr-approach__copy"><p>Scans interest signals, community behaviour, and firmographic data across Meta, Reddit, TikTok, and third-party sources to surface the audiences actually in-market for your product. Audience builds that took strategists two weeks now ship in 48 hours.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Creative &amp; Hook Variant Agent</div>
+        <div class="pr-approach__copy"><p>Generates 30+ creative and hook variants per audience pulled from your sales call transcripts and competitor ad libraries, ready to test in days instead of months. Each variant is matched to a specific buyer moment, not a generic feature list.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-design.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Landing Page &amp; Conversion Agent</div>
+        <div class="pr-approach__copy"><p>Produces creative variants and landing page hypotheses tied to each ad audience so the on-page experience matches the click-through intent. The CTA, the proof points, and the MQL path are decided before traffic lands.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Fatigue &amp; Budget Optimization Agent</div>
+        <div class="pr-approach__copy"><p>Monitors campaigns continuously, flags creative fatigue, audience saturation, budget inefficiencies, and bid signal shifts before they become pipeline problems. What to pause, what to scale, and when to refresh creative stays with the team.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">Pipeline Attribution Agent</div>
+        <div class="pr-approach__copy"><p>Connects every paid touchpoint to your CRM, surfacing CAC, payback period, and pipeline influenced by channel, audience, and creative. The reporting your board wants, generated continuously, not stitched together from platform dashboards.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     SUCCESS STORIES
+     ==================================================== -->
+<section class="pr-section--tight pr-section--casestudies pr-section--casestudies-ppc">
+  <div class="pr-container">
+    <div class="pr-center"><h2>Success Stories</h2></div>
+    <div class="pr-cases">
+      <article class="pr-case">
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-storylane-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Driving 2.5X Growth and 82% More Demos: Storylane's Success with PipeRocket's Campaigns.</p>
+          <a href="/case-study-storylane/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-devrev-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-devrev-cs.svg" alt="DevRev" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">Achieving 127% Organic Traffic Growth in 6 Months: DevRev's Case Study with PipeRocket.</p>
+          <a href="/case-study-devrev/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
+      </article>
+      <article class="pr-case">
+        <div class="pr-case__card">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-red.svg" class="pr-case__stroke pr-case__stroke--red" alt="" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/images/cs-spendflo-blue.svg" class="pr-case__stroke pr-case__stroke--blue" alt="" aria-hidden="true">
+          <div class="pr-case__logo-wrap">
+            <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-case__logo-img">
+          </div>
+        </div>
+        <div class="pr-case__body">
+          <p class="pr-case__copy">From Stagnation to Domination: PipeRocket's Impact on Spendflo's 81% Traffic Rise.</p>
+          <a href="/case-study-spendflo/" class="pr-case__link"><span class="pr-case__link-text">Read full story</span> <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></a>
+        </div>
+      </article>
+    </div>
+    <div class="pr-center" style="margin-top: 70px; margin-bottom: 70px;">
+      <a href="/case-study/" class="pr-btn pr-btn--ghost">View all success stories</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Paid social questions from finance, marketing, and RevOps teams</h2></div>
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">What is a paid social agency?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">A paid social agency runs paid acquisition across social platforms for B2B companies — Meta, Reddit, TikTok, Quora, and retargeting — and ties every dollar of spend to qualified pipeline rather than vanity engagement metrics.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Does paid social actually work for B2B?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">Yes — when it's run as demand generation, not lead-gen-form farming. B2B buyers spend hours on Meta, Reddit, and TikTok; paid social reaches them in the communities where they research and ask peers, builds category awareness ahead of the search moment, and feeds your retargeting and search channels.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How quickly does paid social produce pipeline?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">First spend goes live in week 3 of the engagement. Most B2B clients see qualified pipeline within 30–60 days once attribution is set up cleanly and creative has cycled through enough variants to find what converts.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">Why does creative matter so much in paid social?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">On social, the creative is the targeting — the algorithm finds the audience the creative resonates with. Winning creative also fatigues fast, so we run a continuous test-and-refresh engine across hooks, formats, and concepts rather than launching a few ads and letting them decay.</div>
+      </details>
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">How do you measure paid social beyond clicks and engagement?</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">We connect paid social touchpoints to your CRM and report on CAC, payback period, and pipeline contribution by channel, audience, and creative. CPM, CTR, and engagement rate stay diagnostic — the number that matters is qualified pipeline and the revenue it becomes.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final pr-cta-final--ppc">
+  <div class="pr-container">
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2><span class="pr-cta-soft">You wouldn't be here if what you were doing was working.</span> <strong>It's time for PipeRocket.</strong></h2>
+    <p>We work with a small number of B2B companies at a time. If your pipeline isn't growing the way your board expects, let's find out if we're the right fit.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-location="service-bottom">Book free consultation</a>
+  </div>
+</section>
+
+{{ end }}
