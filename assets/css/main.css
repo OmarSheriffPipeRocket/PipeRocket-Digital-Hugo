@@ -14133,7 +14133,10 @@ body.pr-modal-open { overflow: hidden; }
 
 /* Constrain homepage content at very wide viewports (zoom-out) */
 body.page-home main,
-body.page-saas-ppc main {
+body.page-saas-ppc main,
+body.page-linkedin-marketing main,
+body.page-google-ads main,
+body.page-bing-ads main {
   overflow-x: clip;
 }
 
