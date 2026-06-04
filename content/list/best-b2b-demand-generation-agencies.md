@@ -162,7 +162,7 @@ Retainers start at $5,000/mo for B2B demand generation, with full-funnel engagem
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Demand Gen Core | $5,000/mo | ICP mapping, paid media, content marketing, pipeline reporting |
-| Full Funnel | $8,000-$12,000/mo | Demand gen plus ABM, [SaaS SEO](/saas-seo-agency/), MarOps integration |
+| Full Funnel | $8,000-$12,000/mo | Demand gen plus ABM, SaaS SEO, MarOps integration |
 | Enterprise | Custom | Full-service: demand gen, SEO, PPC, ABM, GEO, dedicated senior pod |
 
 **What Sets Us Apart**
@@ -298,7 +298,7 @@ Best for: Enterprise B2B Companies Building Integrated Demand Generation Program
 
 {{< agency-triptych slug="intelligent-demand" name="Intelligent Demand" >}}
 
-[Intelligent Demand](https://www.intelligentdemand.com) positions itself as a full-funnel demand generation partner, covering strategy, execution, and the [marketing operations](/blogs/b2b-marketing-operations-guide) infrastructure needed to measure it properly. Their approach is structured around Revenue Performance Management, connecting demand gen activity to revenue outcomes through ABM, marketing automation, and multi-touch attribution.
+[Intelligent Demand](https://www.intelligentdemand.com) positions itself as a full-funnel demand generation partner, covering strategy, execution, and the marketing operations infrastructure needed to measure it properly. Their approach is structured around Revenue Performance Management, connecting demand gen activity to revenue outcomes through ABM, marketing automation, and multi-touch attribution.
 
 **Agency Profile**
 
@@ -925,7 +925,7 @@ The ability to trace demand generation activity from first touch through closed 
 
 ## B2B Demand Generation Agency Pricing in 2026
 
-Pricing for [B2B demand generation services](/marketing-ops/) in 2026 ranges significantly based on the scope of channels, whether ABM and intent data are included, and the level of marketing operations support built into the engagement.
+Pricing for B2B demand generation services in 2026 ranges significantly based on the scope of channels, whether ABM and intent data are included, and the level of marketing operations support built into the engagement.
 
 | Engagement Type | Price Range | Best For |
 | --- | --- | --- |
@@ -970,4 +970,4 @@ ABM fits when ACV is $50K+, the buying committee has 5+ stakeholders, and you ha
 
 ---
 
-*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2 based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency.*
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2 based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*

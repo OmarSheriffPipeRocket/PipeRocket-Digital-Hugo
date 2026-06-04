@@ -767,7 +767,7 @@ WebFX offers strong breadth and proprietary tech (MarketingCloudFX) at a competi
 
 ### What is the best WebFX alternative for B2B SaaS?
 
-[PipeRocket Digital](/saas-seo-agency/) for pipeline-tied SEO and paid in one retainer, Directive Consulting for high-ACV Customer Generation methodology, or KlientBoost for paid-media specialisation with no long-term contract. See the full [PipeRocket vs. WebFX comparison](/compare/piperocket-digital-vs-webfx/) for a side-by-side breakdown.
+PipeRocket Digital for pipeline-tied SEO and paid in one retainer, Directive Consulting for high-ACV Customer Generation methodology, or KlientBoost for paid-media specialisation with no long-term contract. See the full [PipeRocket vs. WebFX comparison](/compare/piperocket-digital-vs-webfx/) for a side-by-side breakdown.
 
 ### What is the best WebFX alternative for franchise brands?
 
@@ -787,4 +787,4 @@ Hire a specialist if you have a clear primary channel need (paid media, SEO, fra
 
 ---
 
-*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #1 based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency.*
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #1 based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*

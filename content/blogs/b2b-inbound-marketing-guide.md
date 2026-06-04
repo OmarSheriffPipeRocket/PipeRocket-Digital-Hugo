@@ -19,17 +19,17 @@ And each person has different fears, priorities, and objections. The CTO wants t
 
 Try explaining all that in a single cold outreach email. You can’t. Which is why outbound alone keeps falling flat.
 
-[Inbound marketing](/glossary/what-is-inbound-marketing/) changes the entire dynamic. Instead of forcing one message on everyone, you create a library of targeted content, such as guides, case studies, webinars, and ROI tools, that speak to each stakeholder in the way they prefer to learn. Suddenly, your content does the hard work for your sales team.
+Inbound marketing changes the entire dynamic. Instead of forcing one message on everyone, you create a library of targeted content, such as guides, case studies, webinars, and ROI tools, that speak to each stakeholder in the way they prefer to learn. Suddenly, your content does the hard work for your sales team.
 
 When you show up with the answers they’re already searching for, buyers come to you,  educated, interested, and ready for a real conversation. This guide will show you how to build that kind of engine.
 
 ## TL;DR
 
-1. **B2B [inbound marketing](/glossary/what-is-inbound-marketing/)** is a strategic process that attracts business customers by creating valuable, relevant content that solves their problems, positions your brand as a trusted expert, and ultimately draws quality leads and nurtures relationships.
+1. **B2B inbound marketing** is a strategic process that attracts business customers by creating valuable, relevant content that solves their problems, positions your brand as a trusted expert, and ultimately draws quality leads and nurtures relationships.
 
 2. **B2B inbound marketing**helps businesses cope with changing buyer behavior, builds authority, supports long sale-cycles, all while being cost-effective.
 
-3. **The Core pillars of b2b inbound marketing include:** [content marketing](/glossary/what-is-content-marketing/), [SEO](/glossary/what-is-seo/), [Lead generation](/glossary/what-is-lead-generation/), Lead nurturing, Multi-channel promotion, and Post-sale activities.
+3. **The Core pillars of b2b inbound marketing include:** content marketing, SEO, Lead generation, Lead nurturing, Multi-channel promotion, and Post-sale activities.
 
 ## What is B2B Inbound Marketing?
 
@@ -37,7 +37,7 @@ B2B inbound marketing is a strategic approach that attracts potential business c
 
 A successful b2b inbound marketing strategy acknowledges that business purchases involve multiple stakeholders, high price points, and long consideration phases. 
 
-Therefore, it combines [technical SEO](/glossary/what-is-technical-seo/), educational content, and sophisticated automation to guide prospects through a complex, non-linear journey, transforming anonymous visitors into qualified leads, and eventually, loyal partners.
+Therefore, it combines technical SEO, educational content, and sophisticated automation to guide prospects through a complex, non-linear journey, transforming anonymous visitors into qualified leads, and eventually, loyal partners.
 
 ## Why B2B Inbound Marketing Matters for Modern Businesses
 
@@ -181,7 +181,7 @@ Inbound is a long game, but it’s also a numbers game. So you need to watch the
 - **[Conversion Rate](/glossary/what-is-conversion-rate/):** Are they downloading your lead magnets?
 - **Lead Quality**: Are sales accepting these leads?
 
-If traffic is high but conversions are low, fix your Call-to-Action (CTA). If conversions are high but sales hate the leads, revisit your [ICP](/glossary/what-is-icp/) definition.
+If traffic is high but conversions are low, fix your Call-to-Action (CTA). If conversions are high but sales hate the leads, revisit your ICP definition.
 
 ### 8. Scale & Optimize
 
@@ -227,4 +227,4 @@ Most companies see meaningful traction in 3–6 months, with stronger ROI compou
 
 ### 5. What tools or software help manage B2B inbound marketing and lead nurturing effectively?
 
-Popular tools include HubSpot, Salesforce, ActiveCampaign, Marketo, and Pardot for CRM and automation; Ahrefs, SEMrush, and [Google Search Console](/glossary/what-is-google-search-console/) for SEO; and platforms like Webflow, WordPress, or HubSpot CMS for content publishing. These tools streamline content management, lead capture, nurturing, and analytics.
+Popular tools include HubSpot, Salesforce, ActiveCampaign, Marketo, and Pardot for CRM and automation; Ahrefs, SEMrush, and [Google Search Console](/glossary/what-is-google-search-console/) for [SEO](/glossary/what-is-seo/); and platforms like Webflow, WordPress, or HubSpot CMS for content publishing. These tools streamline content management, lead capture, nurturing, and analytics.

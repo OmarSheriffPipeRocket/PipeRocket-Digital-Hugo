@@ -100,7 +100,7 @@ Brand positioning should drive every marketing campaign, sales sequence, and eve
 
 Teams that treat positioning as “just a website exercise” miss the point: it’s the filter for every decision which channels to double down on, which conferences to sponsor, which integrations to build, and what messaging your SDRs lead with.
 
-- Tighter targeting: Paid channels (like [SaaS PPC](/blogs/saas-ppc/) or Google Ads) work best when your creative speaks directly to your core audience.
+- Tighter targeting: Paid channels (like [SaaS PPC](/blogs/saas-ppc/) or [Google Ads](/glossary/what-is-google-ads/)) work best when your creative speaks directly to your core audience.
 - Content alignment: Your blog, SEO, and email all work together when guided by the same positioning you publish less, but every piece pulls its weight.
 - Sales enablement: Sales decks, demo scripts, and objection handling flow naturally when anchored in your position, not just feature lists.
 - Conversion optimization: Landing pages convert better when they echo the exact problem and vocabulary your ICP cares about.

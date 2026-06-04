@@ -32,7 +32,7 @@ Performance marketing is a results-based approach where you only pay for outcome
 **Here’s what most teams miss:** performance marketing isn’t just about running [Google Ads](/glossary/what-is-google-ads/) or Facebook campaigns. It’s about building a closed feedback loop where every dollar can be traced to an actual business result.
 
 - Results-based payment: You pay only when a user takes a defined action, such as a click, form submission, trial signup, or purchase.
-- Trackable metrics: Everything is measured cost per click (CPC), cost per acquisition (CPA), return on ad spend ([ROAS](/glossary/what-is-roas/)), and lifetime value (LTV).
+- Trackable metrics: Everything is measured cost per click ([CPC](/glossary/what-is-cost-per-click/)), cost per acquisition (CPA), return on ad spend ([ROAS](/glossary/what-is-roas/)), and lifetime value (LTV).
 - Channel-agnostic: Performance marketing isn’t limited to paid search or social; it includes affiliate, influencer, and partner programs where payouts are tied to results.
 - Continuous optimization: Campaigns are adjusted in real-time based on what’s actually driving results, not vanity metrics.
 - Shared risk: The advertiser transfers some risk to the platform or partner, since payment is only for real outcomes.

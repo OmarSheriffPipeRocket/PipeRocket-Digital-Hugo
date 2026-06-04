@@ -158,7 +158,7 @@ The companies that get stuck on this are the ones trying to measure everything w
 - Use self-reported attribution alongside your analytics — asking customers directly how they found you and what influenced their decision
 - Track leading indicators like content engagement, demo request sources, and pipeline velocity rather than trying to attribute every dollar perfectly
 - Adopt a blended approach that combines quantitative data with qualitative signals from your sales team about what buyers are telling them
-- Accept that not everything is measurable and allocate a portion of budget to activities that are hard to track but clearly influence pipeline, like community participation and [thought leadership](/glossary/what-is-thought-leadership/)
+- Accept that not everything is measurable and allocate a portion of budget to activities that are hard to track but clearly influence pipeline, like community participation and thought leadership
 
 The best attribution setup we have seen is not the most sophisticated one. It is the one that combines numbers with narratives and gives leadership enough confidence to keep investing in what works.
 
@@ -166,7 +166,7 @@ The best attribution setup we have seen is not the most sophisticated one. It is
 
 At [PipeRocket Digital](/), we work with B2B SaaS companies that are dealing with exactly these saas marketing challenges, and we approach every engagement by connecting marketing directly to pipeline outcomes.
 
-What makes us different is that we have seen these patterns enough times to know what actually works and what just looks good in a deck. Whether it is [SaaS SEO](/saas-seo-agency/), [paid campaigns](/saas-ppc/), or [marketing operations](/marketing-ops/), we do not sell generic playbooks. We build strategies around your specific product, your buyers, and the challenges that are actually holding your growth back.
+What makes us different is that we have seen these patterns enough times to know what actually works and what just looks good in a deck. Whether it is [SaaS SEO](/saas-seo-agency/), paid campaigns, or marketing operations, we do not sell generic playbooks. We build strategies around your specific product, your buyers, and the challenges that are actually holding your growth back.
 
 If any of this resonated and you want to talk through what it would look like for your situation, we would love to have that conversation.
 
@@ -178,7 +178,7 @@ The saas marketing challenges we have covered here are not going away. CAC will 
 - **Content not converting** — map to buyer intent, add clear CTAs, and audit before you create more
 - **Dark social** — show up where your buyers are and create content worth sharing
 - **Stakeholder complexity** — build content for every persona in the buying committee
-- **Churn** — tighten your [ICP](/glossary/what-is-icp/), align messaging to reality, and invest in post-sale content
+- **Churn** — tighten your ICP, align messaging to reality, and invest in post-sale content
 - **Attribution** — blend quantitative data with self-reported signals and stop chasing perfect measurement
 
 What we keep seeing is that the companies who treat these as interconnected saas marketing problems rather than isolated issues are the ones that break through. Fix them as a system, and growth gets a lot easier.
@@ -191,7 +191,7 @@ From what we see across the SaaS companies we work with, the biggest challenge i
 
 ### 2. Why is customer acquisition so expensive for SaaS companies compared to other industries?
 
-SaaS companies are competing for the same buyers across the same channels, which drives up the cost of every paid impression. Beyond that, SaaS buying decisions involve multiple stakeholders with longer evaluation cycles, which means more touchpoints before a deal closes and a higher total [cost per acquisition](/glossary/what-is-cpa/). The companies that solve this shift their mix toward channels that build audience over time, like [SEO](/glossary/what-is-seo/), community, and content, rather than channels that reset to zero every month.
+SaaS companies are competing for the same buyers across the same channels, which drives up the cost of every paid impression. Beyond that, SaaS buying decisions involve multiple stakeholders with longer evaluation cycles, which means more touchpoints before a deal closes and a higher total [cost per acquisition](/glossary/what-is-cpa/). The companies that solve this shift their mix toward channels that build audience over time, like SEO, community, and content, rather than channels that reset to zero every month.
 
 ### 3. How do you reduce churn when it feels like a product problem, not a marketing one?
 

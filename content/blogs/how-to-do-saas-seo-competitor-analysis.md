@@ -13,7 +13,7 @@ wp_id: 2593
 wp_link: "/blogs/how-to-do-saas-seo-competitor-analysis/"
 ---
 
-Let’s be honest with each other for a minute here. You have to ask yourself why most SaaS founders and marketers actually do competitor analysis for SaaS [SEO](/glossary/what-is-seo/). I’ve sat in these meetings, and if we look at the industry standard, it usually comes down to one thing: “what are we missing”?
+Let’s be honest with each other for a minute here. You have to ask yourself why most SaaS founders and marketers actually do competitor analysis for SaaS SEO. I’ve sat in these meetings, and if we look at the industry standard, it usually comes down to one thing: “what are we missing”?
 
 It happens all the time. We look at a competitor, we see their traffic graph going up and ours is staying flat, and we panic. We just panic. We want to know what keywords they have that we don’t. We want to know why they are ranking number one and we aren’t.
 
@@ -25,8 +25,8 @@ In this guide, I want to walk you through the exact process we use at PipeRocket
 
 ## TL;DR
 
-- **Prioritize Revenue Over Vanity Metrics:** For SaaS [SEO](/glossary/what-is-seo/) competitor analysis ignores “vanity metrics” like total blog post counts or high-volume traffic. Instead, use tools like Semrush or Ahrefs to identify “Money Pages” like Use Case, Industry Vertical, Comparison, Alternative, and Listicle pages, where users are actively in “buying mode”.
-- **The Hybrid Strategy:** You must differentiate between **Direct Competitors** (business rivals) and **[SERP](/glossary/what-is-serp/) Competitors** (ranking rivals). The winning strategy involves taking the persuasive sales logic and product messaging from direct rivals and injecting it into the structural blueprint and content depth preferred by Google from [SERP](/glossary/what-is-serp/) winners.
+- **Prioritize Revenue Over Vanity Metrics:** For SaaS SEO competitor analysis ignores “vanity metrics” like total blog post counts or high-volume traffic. Instead, use tools like Semrush or Ahrefs to identify “Money Pages” like Use Case, Industry Vertical, Comparison, Alternative, and Listicle pages, where users are actively in “buying mode”.
+- **The Hybrid Strategy:** You must differentiate between **Direct Competitors** (business rivals) and **SERP Competitors** (ranking rivals). The winning strategy involves taking the persuasive sales logic and product messaging from direct rivals and injecting it into the structural blueprint and content depth preferred by Google from SERP winners.
 - **Bridge the Gap Between Product and Intent:** A superior product will still lose if its content isn’t aligned with market search behavior. To outrank competitors, you must solve for search intent, cover entire topical clusters to build authority, and implement E-E-A-T signals like clear author bylines and transparent data citations.
 
 ## **What I look for in a SaaS SEO Competitor Analysis**
@@ -45,7 +45,7 @@ It usually looks like this:
 
 **The Founder or the Developer view is specific.** They look at a competitor and ask, “Do our features match theirs?”. They are obsessed with the product. If a competitor has a “one-click payroll” feature, the founder wants to build it too. They believe the product with the most features wins.
 
-**Then you have the SaaS SEO competitor analysis view.** Us SEO’s and marketers don’t care as much about the feature itself, but we care about the language used to communicate to the potential customers. We look at integrations, feature lists, and specifically the terms the market uses to describe them.
+**Then you have the SaaS [SEO](/glossary/what-is-seo/) competitor analysis view.** Us SEO’s and marketers don’t care as much about the feature itself, but we care about the language used to communicate to the potential customers. We look at integrations, feature lists, and specifically the terms the market uses to describe them.
 
 **Here is why this matters:** You might have a better product than your competitor. You might have better code, faster load times, and a cleaner UI.
 
@@ -57,7 +57,7 @@ If you just scrape everything blindly without this “Revenue First” filter, y
 
 This is the step where most internal marketing teams get it wrong. They really struggle here. They have a list of five companies that the Sales team hates losing deals to, and they focus 100% of their energy on them.
 
-While conducting SaaS SEO competitor analysis, you cannot lump everyone into one “competitor” bucket. You just can’t do it. You have to split them into two distinct categories: Direct Competitors and SERP Competitors.
+While conducting SaaS SEO competitor analysis, you cannot lump everyone into one “competitor” bucket. You just can’t do it. You have to split them into two distinct categories: Direct Competitors and [SERP](/glossary/what-is-serp/) Competitors.
 
 If you treat them the same, your strategy will fail.
 
@@ -196,7 +196,7 @@ If you cover the entire cluster, Google tags you as a “Subject Matter Expert�
 
 ### **How You Need to Approach Domain Authority & Backlinks**
 
-Check the external links of the top-ranking people. If the #1 result has 100 quality [backlinks](/glossary/what-is-a-backlink/) and you have 10, ranking will be difficult.
+Check the external links of the top-ranking people. If the #1 result has 100 quality backlinks and you have 10, ranking will be difficult.
 
 **Note:** Quality backlinks refer to backlinks that are attained from relevant websites. You can have 100 backlinks, but if they are from sites that aren’t even close to each other, then they are not worth it.
 

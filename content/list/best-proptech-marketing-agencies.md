@@ -20,7 +20,7 @@ Comparing the top 11 best proptech marketing agencies of 2026 includes 1. Insivi
 
 Each one targets a different slice of the property technology buyer. Insivia and PipeRocket build integrated programmes for B2B proptech SaaS, Geekly Media works deep inside the property management sub-vertical, Upgrow and First Page Sage anchor on organic and GEO, UpSpring and Clarity Global run earned media, and Thrive, WebFX, and SmartSites are generalist scale shops with real estate adjacency.
 
-Picking the wrong agency in this category costs you a year of marketing that talks to brokers when you sell to landlords, or to landlords when you sell to enterprise REITs. We evaluated each agency on proptech vertical depth, pipeline reporting, named-client evidence, pricing honesty, and the Clutch and Reddit record. We also link our [proptech marketing](/proptech-marketing-agency/) service page for buyers who want our own scope before reading further.
+Picking the wrong agency in this category costs you a year of marketing that talks to brokers when you sell to landlords, or to landlords when you sell to enterprise REITs. We evaluated each agency on proptech vertical depth, pipeline reporting, named-client evidence, pricing honesty, and the Clutch and Reddit record. We also link our proptech marketing service page for buyers who want our own scope before reading further.
 
 ## TL;DR
 
@@ -149,7 +149,7 @@ Best for: B2B proptech SaaS that report marketing against pipeline, not page vie
 **What Sets Us Apart:** What we keep seeing in proptech is a marketing mix that generates traffic but can't explain its contribution to qualified pipeline. Attribution infrastructure is the first thing we build for every proptech client, before any spend goes live.
 
 - BOFU-led keyword targeting that filters tyre-kickers before sales touches them
-- [GEO/AEO](/ai-seo-services/) depth alongside traditional technical SEO; same team owns both
+- GEO/AEO depth alongside traditional technical SEO; same team owns both
 - Every campaign reports inside the pipeline view your CFO already opens
 
 **Client Voice**

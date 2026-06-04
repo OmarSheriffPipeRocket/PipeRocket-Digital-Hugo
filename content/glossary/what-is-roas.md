@@ -114,7 +114,7 @@ ROAS is easy to measure and looks good on a dashboard. But using it as your sing
 - Attribution errors: Ad platforms tend to over-report conversions especially for retargeting or brand campaigns. This inflates your ROAS artificially.
 - Overlooking churn: High ROAS can mask retention problems. If churn is high, the “revenue” used in ROAS calculations is a mirage.
 - Ignoring expansion: Paid ads that land big accounts with upsell potential can look less efficient at first, but drive more net revenue over time.
-- Brand and content investment: Channels like SEO, organic social, and [content marketing](/glossary/what-is-content-marketing/) don’t always show up in ROAS but are essential for long-term pipeline.
+- Brand and content investment: Channels like [SEO](/glossary/what-is-seo/), organic social, and [content marketing](/glossary/what-is-content-marketing/) don’t always show up in ROAS but are essential for long-term pipeline.
 
 Here’s the thing: ROAS is a lagging indicator for SaaS. By the time you see a dip, you’ve often already lost the real battle churn, misaligned messaging, or product-market fit issues. Using only ROAS means you’re always driving using the rearview mirror.
 

@@ -20,7 +20,7 @@ PPC (pay-per-click) is a digital advertising model where advertisers pay each ti
 ## TL;DR
 
 - PPC means you only pay when a user actually clicks your ad, not just when it’s shown.
-- Most SaaS teams use PPC for fast lead generation, but costs can spiral without tight targeting and active management.
+- Most SaaS teams use PPC for fast [lead generation](/glossary/what-is-lead-generation/), but costs can spiral without tight targeting and active management.
 - Google Ads is the most widely used PPC platform, but Linked In and Facebook also run PPC campaigns for B2B and SaaS.
 - Clicks don’t equal customers average [SaaS PPC](/blogs/saas-ppc/) conversion rates are often below 5%, so budget discipline is critical.
 - Getting PPC right demands ongoing testing of keywords, ads, and landing pages set-and-forget campaigns almost always underperform.

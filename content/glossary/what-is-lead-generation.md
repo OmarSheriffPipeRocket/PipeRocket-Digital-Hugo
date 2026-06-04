@@ -96,7 +96,7 @@ Most teams mess this up by treating all leads as equal. That’s how you get a �
 The best lead generation channels for SaaS depend on your audience and deal size, but some patterns are clear. Organic search, outbound email, paid search, and partnerships each play a role but the mix changes as you scale. Chasing every channel is a mistake; the winners double down on what actually converts their ICP.
 
 - Organic search (SEO): High-intent visitors find you when they’re already searching for a solution the backbone of sustainable pipeline for most SaaS.
-- Paid search (PPC): [Google Ads](/glossary/what-is-google-ads/) and Linked In Ads capture demand quickly, but costs rise if you’re not qualifying tightly.
+- Paid search ([PPC](/glossary/what-is-ppc/)): [Google Ads](/glossary/what-is-google-ads/) and Linked In Ads capture demand quickly, but costs rise if you’re not qualifying tightly.
 - Outbound email: Personalized outreach cuts through the noise, especially for mid-market and enterprise buyers.
 - Content marketing: Guides, webinars, and comparison pages position your brand as a trusted resource and attract buyers before they even know what to Google.
 - Partnerships and integrations: Co-marketing with complementary tools puts you in front of new audiences that already trust your partners.

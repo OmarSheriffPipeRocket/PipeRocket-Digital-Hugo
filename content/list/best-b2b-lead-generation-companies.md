@@ -460,7 +460,7 @@ Leadium works with companies like Veem and SignalWire, demonstrating their fit f
 
 **The Sell**
 
-Their outbound model works best when paired with [inbound marketing](/glossary/what-is-inbound-marketing/) to cover both demand creation and demand capture. They cover sales appointment setting and inbound lead management with heavily personalised outreach based on buyer intent signals.
+Their outbound model works best when paired with inbound marketing to cover both demand creation and demand capture. They cover sales appointment setting and inbound lead management with heavily personalised outreach based on buyer intent signals.
 
 - Data-quality-first approach before any outreach launch
 - Agile campaign structure with rapid iteration cycles
@@ -699,4 +699,4 @@ Track lead-to-SQL conversion rate and lead-to-opportunity rate, not just meeting
 
 ---
 
-*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2, behind CIENCE, based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency.*
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2, behind CIENCE, based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*

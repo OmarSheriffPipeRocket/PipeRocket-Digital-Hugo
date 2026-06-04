@@ -15,17 +15,17 @@ wp_link: "/blogs/how-to-do-saas-content-audit/"
 
 Most SaaS companies publish content, wait a few months, and then wonder why rankings stall. The problem usually isn’t your new content. It’s the old content quietly dragging everything down, and the only way to catch it before it does real damage is a proper content audit.
 
-Not the generic “update your [meta descriptions](/glossary/what-is-a-meta-description/)” kind. The kind that systematically repairs what’s broken, realigns your pages with how Google ranks today, and turns your existing library into a compounding traffic machine.
+Not the generic “update your meta descriptions” kind. The kind that systematically repairs what’s broken, realigns your pages with how Google ranks today, and turns your existing library into a compounding traffic machine.
 
 ## TL;DR
 
 Here’s the TL;DR version on running an effective SaaS content audit.
 
-- **Check [SERP](/glossary/what-is-serp/) & User Intent**: Make sure your content format matches what Google rewards and what your reader actually wants
+- **Check SERP & User Intent**: Make sure your content format matches what Google rewards and what your reader actually wants
 - **Directly Answer The Query:** Lead with the answer, cut anything that delays it
 - **Take Care of Internal & External Links**: Fix broken links, replace outdated sources, and fill your interlink gaps
 - **Ensure Readability**: Short paragraphs, simple language, WEBP images, and visuals that actually add context
-- **Implement [Schema Markup](/glossary/what-is-schema-markup/)**: Implement Article, FAQ, and Review schema wherever relevant
+- **Implement Schema Markup**: Implement Article, FAQ, and Review schema wherever relevant
 - **Ensure E-E-A-T Signals Are Met:** Add author bios and reference real experiences and specific outcomes
 - **Include Secondary Keywords**: Find and contextually add the related keywords your content is missing
 - **Ensure FAQ Relevance**: Build your FAQ from “People Also Ask” and Reddit, not from guesswork
@@ -121,7 +121,7 @@ Schema is easy to get right and easy to ignore, and most SaaS content teams igno
 **For SaaS blog content, here’s what to implement:**
 
 - **Article or BlogPosting schema** on every blog post — with author name and editor name populated
-- **FAQ schema** on any piece with a FAQ section — this enables rich results in the SERP and meaningfully increases [click-through rate](/glossary/what-is-ctr/)
+- **FAQ schema** on any piece with a FAQ section — this enables rich results in the [SERP](/glossary/what-is-serp/) and meaningfully increases [click-through rate](/glossary/what-is-ctr/)
 
 Most CMS platforms make this straightforward to set up. The upside in SERP visibility is real, and there’s no excuse to skip it.
 

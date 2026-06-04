@@ -20,7 +20,7 @@ Comparing the top 11 best B2B SEO agencies to improve pipeline in 2026 includes 
 
 Each agency targets a different slice of B2B SEO, from revenue-obsessed pipeline operators that report against SQLs to thought-leadership ghostwriters serving enterprise; from HubSpot Elite Outsourced CMOs to lean bootstrapped specialists who ship in weeks. Some optimise for technical depth, others for editorial authority, and a few focus on the brand-psychology side of organic growth.
 
-Picking the wrong agency costs more than retainer fees: it costs you a year of traffic that never converts, a board meeting where SEO can't show pipeline contribution, and a content library that ranks but doesn't sell. The agencies below were evaluated on pipeline impact, B2B specialisation, [technical SEO](/glossary/what-is-technical-seo/) depth, content strategy, and client transparency.
+Picking the wrong agency costs more than retainer fees: it costs you a year of traffic that never converts, a board meeting where SEO can't show pipeline contribution, and a content library that ranks but doesn't sell. The agencies below were evaluated on pipeline impact, B2B specialisation, technical SEO depth, content strategy, and client transparency.
 
 ## TL;DR
 
@@ -454,7 +454,7 @@ Best for: High-End B2B Content Marketing and Premium Link Acquisition Campaigns
 
 {{< agency-triptych slug="siege-media" name="Siege Media" >}}
 
-[Siege Media](https://siegemedia.com) sets the standard in [B2B content marketing](/blogs/b2b-content-marketing-guide/). Their visual assets, infographics, and data studies rank among the best in the industry. Working with Asana and Zendesk demonstrates their premium positioning and creative capabilities.
+[Siege Media](https://siegemedia.com) sets the standard in B2B content marketing. Their visual assets, infographics, and data studies rank among the best in the industry. Working with Asana and Zendesk demonstrates their premium positioning and creative capabilities.
 
 **Stat Block**
 
@@ -667,7 +667,7 @@ The 6-month-minimum engagement and content-only scope mean growth teams wanting 
 - 6-month engagement minimum doesn't suit fast-iteration testing
 - $2M ARR floor effectively excludes pre-Series A teams
 
-**Suits You If:** You're a growth-stage B2B SaaS investing in long-term editorial strategy and [thought leadership](/glossary/what-is-thought-leadership/) where content is the durable moat.
+**Suits You If:** You're a growth-stage B2B SaaS investing in long-term editorial strategy and thought leadership where content is the durable moat.
 
 **Wrong Fit If:** You need quick tactical wins or short-term campaign execution, or you want PPC and conversion architecture under the same retainer.
 
@@ -778,7 +778,7 @@ Best for: Early-Stage B2B SaaS Needing Lean, Fast Execution Without Bureaucratic
 | Founded | 2021 |
 | Team Size | 10+ people |
 | Notable Clients | Instantly, Publer, seed-stage B2B SaaS |
-| Specialization | Lean SEO, [link building](/blogs/saas-link-building/), content production, GEO |
+| Specialization | Lean SEO, link building, content production, GEO |
 
 **Methodology**
 
@@ -948,4 +948,4 @@ SEO ranks pages on Google for buyer queries. Content marketing creates the asset
 
 ---
 
-*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2, behind Straight North, based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency.*
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2, behind Straight North, based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*

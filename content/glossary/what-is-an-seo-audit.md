@@ -58,7 +58,7 @@ What this means in practice: a real SEO audit isn’t just a tool output or a PD
 Most SaaS teams dramatically underestimate the cost of unchecked SEO issues. The real risk isn’t just a few lost rankings it’s months of wasted spend, missed pipeline, and a funnel that never compounds. The core problem: as your product and site evolve, “set-and-forget” SEO decays quietly until your best content is buried.
 
 - Compound value loss: Small technical errors like duplicate meta tags or misconfigured redirects can quietly sabotage your highest-converting pages for months.
-- Wasted acquisition spend: Paid channels ([Google Ads](/glossary/what-is-google-ads/), PPC) amplify SEO waste; if landing pages aren’t indexable or optimized, you’re burning budget on traffic that never compounds.
+- Wasted acquisition spend: Paid channels ([Google Ads](/glossary/what-is-google-ads/), [PPC](/glossary/what-is-ppc/)) amplify SEO waste; if landing pages aren’t indexable or optimized, you’re burning budget on traffic that never compounds.
 - Missed intent shifts: Without regular audits, you miss when buyer intent changes or new features create new search opportunities your old pages can’t capture.
 - Neglected content: Outdated blog posts and documentation drag your whole domain down Google rewards freshness and topical authority.
 - Competitive stagnation: Competitors who audit and fix aggressively compound their advantage, while your fixes get stuck in backlog.
@@ -77,7 +77,7 @@ A full SEO audit covers far more than just running a tool and fixing a few broke
 - On-page diagnosis: Reviews every URL for intent match, keyword targeting, duplicate content, missing or weak titles, meta descriptions, and internal link structure.
 - Content gap analysis: Compares your site’s topic coverage to competitors, surfacing missing pages and under-optimized clusters.
 - Backlink and authority review: Assesses backlink quality, lost links, unnatural link patterns, and [anchor text](/glossary/what-is-anchor-text/) distribution using Ahrefs or Semrush.
-- SERP and intent mapping: Reviews actual search results (SERPs) for your target keywords to spot new intent patterns and adjust your content or feature targeting.
+- [SERP](/glossary/what-is-serp/) and intent mapping: Reviews actual search results (SERPs) for your target keywords to spot new intent patterns and adjust your content or feature targeting.
 - Action plan: Converts findings into a prioritized list of fixes grouped as “critical”, “quick win”, and “long-term” with real business impact mapped to each.
 
 Here’s the real trade-off: automated tools like SEMrush Site Audit or Ahrefs Webmaster Tools catch 70% of obvious issues fast, but miss contextual patterns like keyword cannibalization or intent mismatches that only a human can spot. The tools get you speed; the manual work gets you impact. It’s worth automating the grunt work, but never skip manual review of your most important money pages.

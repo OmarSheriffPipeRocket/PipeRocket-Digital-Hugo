@@ -17,7 +17,7 @@ I’ve sat in meetings where everyone treats a landing page like a digital broch
 
 They throw up some generic feature lists, sprinkle in a few keywords they found on a tool like Ahrefs, and then they sit back and wonder why their traffic isn’t converting into demos.
 
-The reality is that, optimizing SaaS landing pages for [SEO](/glossary/what-is-seo/) is about understanding that the person on the other end of the screen is trying to solve a very specific, boring, or painful problem. They don’t care about your brand colors; they care about how fast you can make their pain go away.
+The reality is that, optimizing SaaS landing pages for SEO is about understanding that the person on the other end of the screen is trying to solve a very specific, boring, or painful problem. They don’t care about your brand colors; they care about how fast you can make their pain go away.
 
 I am going to walk you through the exact perspective I have developed over my 15 years in this space. I will show you the specific optimization techniques I check for, the “hygiene” factors most agencies miss.
 
@@ -31,7 +31,7 @@ In both of these scenarios, most people rush into writing a copy or designing th
 
 I always start with [**Keyword Research**](/blogs/how-to-do-saas-seo-keyword-research/), but not in the way you might think. I look strictly at the **Intent**.
 
-You might find a keyword that looks incredible on paper because it has 5,000 monthly searches. But that volume is a vanity metric if the intent is wrong. Before I let my team write a single word, I put that keyword into the [SERP](/glossary/what-is-serp/) (Search Engine Results Page) to see what Google is actually rewarding.
+You might find a keyword that looks incredible on paper because it has 5,000 monthly searches. But that volume is a vanity metric if the intent is wrong. Before I let my team write a single word, I put that keyword into the SERP (Search Engine Results Page) to see what Google is actually rewarding.
 
 **You need to ask yourself**: What is ranking right now?
 
@@ -228,7 +228,7 @@ If you are ready to stop guessing and start building a predictable revenue engin
 
 Optimizing a SaaS landing page for SEO is a cycle, not a task. You research the intent to ensure you are building the right page. You write content that hits the USP hard. You build trust with social proof. Then you watch the data like a hawk.
 
-Whether it is tweaking a title tag to trigger an emotional response (“Free” or “SMB”) or adding an inline CTA to catch a user mid-read, these small nuances are what separate a dead page from a [lead generation](/glossary/what-is-lead-generation/) machine.
+Whether it is tweaking a title tag to trigger an emotional response (“Free” or “SMB”) or adding an inline CTA to catch a user mid-read, these small nuances are what separate a dead page from a lead generation machine.
 
 ### **Frequently Asked Questions**
 

@@ -13,13 +13,13 @@ wp_id: 3017
 wp_link: "/blogs/enterprise-seo-strategy-and-framework/"
 ---
 
-Most B2B SaaS companies hit a point where the startup [SEO](/glossary/what-is-seo/) playbook stops working. The team is publishing consistently, rankings are moving, and traffic is growing. But the program keeps running into the same ceiling: organizational friction, governance gaps, and a reporting model that cannot connect organic search to the revenue number the CFO cares about. That ceiling is where enterprise [SEO](/glossary/what-is-seo/) strategy begins.
+Most B2B SaaS companies hit a point where the startup SEO playbook stops working. The team is publishing consistently, rankings are moving, and traffic is growing. But the program keeps running into the same ceiling: organizational friction, governance gaps, and a reporting model that cannot connect organic search to the revenue number the CFO cares about. That ceiling is where enterprise SEO strategy begins.
 
 ## TL;DR
 
 - Enterprise SEO strategy is the structured, cross-functional approach B2B SaaS companies use to drive pipeline from organic search at scale, across multiple product lines, stakeholders, and markets
 - The biggest difference from SMB SEO is not the tactics. It is the organizational complexity underneath them
-- Pipeline-tied goals have to come before [keyword research](/glossary/what-is-keyword-research/). Everything else flows from that
+- Pipeline-tied goals have to come before keyword research. Everything else flows from that
 - Technical governance at enterprise scale prevents a single template error from cascading across thousands of pages
 - The companies that win at enterprise SEO build it as a revenue function, not a marketing activity
 
@@ -27,7 +27,7 @@ Most B2B SaaS companies hit a point where the startup [SEO](/glossary/what-is-se
 
 Enterprise SEO strategy is the framework a large or scaling B2B SaaS company uses to systematically grow organic search visibility, capture qualified pipeline, and measure that pipeline contribution against revenue goals. It differs from standard SaaS SEO in scope, complexity, and organizational requirements.
 
-At the SMB level, one person can own the [keyword research](/glossary/what-is-keyword-research/), write the content, manage the technical configuration, and report on results. At enterprise scale, those functions are spread across SEO leads, content teams, engineering, product marketing, and revenue operations.
+At the SMB level, one person can own the keyword research, write the content, manage the technical configuration, and report on results. At enterprise scale, those functions are spread across SEO leads, content teams, engineering, product marketing, and revenue operations.
 
 Getting all of them moving in the same direction requires a strategy that is as much about internal alignment as it is about search engine optimization.
 
@@ -38,26 +38,26 @@ Here is how the key differences stack up:
 | Site scale | Dozens to hundreds of pages | Hundreds to thousands of pages |
 | Stakeholders | 1–3 people | SEO, content, engineering, product, RevOps |
 | Technical risk | Single template errors | Template errors cascade across thousands of pages |
-| Content scope | One product, one [ICP](/glossary/what-is-icp/) | Multiple products, personas, and markets |
+| Content scope | One product, one ICP | Multiple products, personas, and markets |
 | Reporting | Traffic and rankings | Pipeline, SQL attribution, organic CAC |
 | Governance | Ad hoc | Documented standards enforced at CMS level |
 | Link strategy | Opportunistic | Systematic, programmatic at scale |
 
 ## Why Enterprise SEO Is Different From SMB SEO
 
-The tactics of enterprise SEO are not fundamentally different from smaller-scale programs. The same principles apply: intent-matched keywords, high-quality content, strong technical foundations, and earned [backlinks](/glossary/what-is-a-backlink/). What changes is everything around those tactics.
+The tactics of enterprise SEO are not fundamentally different from smaller-scale programs. The same principles apply: intent-matched keywords, high-quality content, strong technical foundations, and earned backlinks. What changes is everything around those tactics.
 
-At enterprise scale, a single misconfigured noindex tag in a global page template can remove thousands of pages from Google’s index overnight. A content strategy built around one [ICP](/glossary/what-is-icp/) falls apart when the company has five product lines serving different buyer personas. A reporting framework that worked for a 20-page site becomes useless when the domain has 2,000 pages generating traffic from hundreds of [keyword clusters](/glossary/what-are-keyword-clusters/).
+At enterprise scale, a single misconfigured noindex tag in a global page template can remove thousands of pages from Google’s index overnight. A content strategy built around one ICP falls apart when the company has five product lines serving different buyer personas. A reporting framework that worked for a 20-page site becomes useless when the domain has 2,000 pages generating traffic from hundreds of [keyword clusters](/glossary/what-are-keyword-clusters/).
 
 The three things that break [enterprise SEO](/blogs/enterprise-seo-guide/) programs most consistently:
 
-- **No governance system:** SEO standards that exist in a document but are not enforced at the CMS or template level get overridden constantly by developers, marketers, and product teams making localized decisions without SEO visibility
+- **No governance system:** [SEO](/glossary/what-is-seo/) standards that exist in a document but are not enforced at the CMS or template level get overridden constantly by developers, marketers, and product teams making localized decisions without SEO visibility
 - **No cross-functional alignment:** Engineering ships a site migration without looping in SEO. Product launches a new feature page without a keyword brief. Content publishes 40 articles targeting terms the sales team has never heard prospects use
 - **No pipeline reporting:** The SEO team reports on sessions, rankings, and impressions. The CFO reports on pipeline. Nobody builds the bridge between those two datasets, so SEO never gets credit for what it is actually contributing
 
 ## Step 1: Set Pipeline-Tied Goals Before Touching Keywords
 
-The most common enterprise SEO mistake is starting with keyword research. Keywords are a tool for achieving a goal, not the goal itself. If you have not defined what success looks like in your CRM, you cannot build a keyword strategy that points toward it.
+The most common enterprise SEO mistake is starting with [keyword research](/glossary/what-is-keyword-research/). Keywords are a tool for achieving a goal, not the goal itself. If you have not defined what success looks like in your CRM, you cannot build a keyword strategy that points toward it.
 
 Set your goals first using the metrics that connect to revenue:
 
@@ -68,7 +68,7 @@ Set your goals first using the metrics that connect to revenue:
 
 Once those targets exist, every keyword decision, every content investment, and every technical fix can be evaluated against whether it moves those numbers. Without them, you are optimizing for inputs with no clarity on what outputs you need.
 
-**What this looks like in practice:** A $30M [ARR](/glossary/what-is-arr/) SaaS company sets a goal to generate 40 organic SQLs per month by Q4. Working backwards from that target, they calculate they need approximately 8,000 organic visits per month from BOFU-intent pages at a 0.5% SQL [conversion rate](/glossary/what-is-conversion-rate/). That math tells them exactly how many comparison and alternatives pages to build, at what publishing cadence, to hit the number. The goal drove the strategy.
+**What this looks like in practice:** A $30M [ARR](/glossary/what-is-arr/) SaaS company sets a goal to generate 40 organic SQLs per month by Q4. Working backwards from that target, they calculate they need approximately 8,000 organic visits per month from BOFU-intent pages at a 0.5% SQL conversion rate. That math tells them exactly how many comparison and alternatives pages to build, at what publishing cadence, to hit the number. The goal drove the strategy.
 
 ## Step 2: Audit Technical Foundations at Enterprise Scale
 
@@ -98,7 +98,7 @@ Enterprise B2B SaaS companies serve multiple ICPs, often across multiple industr
 - **Product line:** if you have multiple products, each needs its own keyword universe and content architecture
 - **Market:** global enterprise programs need to account for regional search behavior, language, and local competitor landscapes
 
-For each segment, prioritize keywords using the same three-question intent filter: Does it match a real ICP pain point? Can we introduce our product naturally in the answer? Is the searcher likely to be a qualified buyer? Volume is a secondary input, not the primary one.
+For each segment, prioritize keywords using the same three-question intent filter: Does it match a real [ICP](/glossary/what-is-icp/) pain point? Can we introduce our product naturally in the answer? Is the searcher likely to be a qualified buyer? Volume is a secondary input, not the primary one.
 
 **What this looks like in practice:** A HR SaaS company initially builds one keyword list targeting “HR software” and related terms. After ICP segmentation, they realize their best customers are mid-market companies in manufacturing and healthcare. They rebuild their keyword strategy around vertical-specific queries: “HR software for manufacturing companies,” “healthcare workforce management platform,” and “shift scheduling software for hospitals.” Conversion rates from those pages run three times higher than the generic HR software content.
 
@@ -119,7 +119,7 @@ Every page needs a clear place in this hierarchy and a clear path to conversion.
 
 ## Step 5: Govern SEO Across Multiple Teams and Stakeholders
 
-Enterprise SEO breaks down most often at the organizational layer. Engineering ships a redesign without preserving URL structures. A regional marketing team launches a microsites campaign without [canonical tags](/glossary/what-is-a-canonical-tag/). A product team adds a new feature section with duplicate H1s across every page. Each of these is a governance failure, not a strategy failure.
+Enterprise SEO breaks down most often at the organizational layer. Engineering ships a redesign without preserving URL structures. A regional marketing team launches a microsites campaign without canonical tags. A product team adds a new feature section with duplicate H1s across every page. Each of these is a governance failure, not a strategy failure.
 
 Enterprise SEO governance requires:
 
@@ -202,7 +202,7 @@ Starting without pipeline-tied goals. When the SEO program does not have a defin
 
 ### 4. How does enterprise SEO interact with account-based marketing programs?
 
-They are complementary. [ABM](/glossary/what-is-abm/) targets named accounts with personalized outreach. Enterprise SEO captures demand from decision-makers at those same accounts who are doing their own research outside of [ABM](/glossary/what-is-abm/) touchpoints. The keyword data from your SEO program tells you which topics your target accounts are actively researching, which can sharpen your ABM content and outreach messaging.
+They are complementary. [ABM](/glossary/what-is-abm/) targets named accounts with personalized outreach. Enterprise SEO captures demand from decision-makers at those same accounts who are doing their own research outside of ABM touchpoints. The keyword data from your SEO program tells you which topics your target accounts are actively researching, which can sharpen your ABM content and outreach messaging.
 
 ### 5. Should enterprise SaaS companies build in-house SEO teams or work with agencies?
 

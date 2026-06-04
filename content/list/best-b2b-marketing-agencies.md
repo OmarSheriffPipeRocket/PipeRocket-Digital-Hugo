@@ -164,7 +164,7 @@ I ask the hard questions your product team avoids. I trace the path from a Googl
 | Location | Chennai, India with US delivery |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
-| Specialization | Full-funnel B2B SaaS, SEO, PPC, [demand generation](/blogs/b2b-demand-generation-guide/), pipeline attribution |
+| Specialization | Full-funnel B2B SaaS, SEO, PPC, demand generation, pipeline attribution |
 
 **Documented**
 
@@ -450,7 +450,7 @@ Best for: B2B Tech Companies Needing PR, Demand Generation, and Brand Strategy C
 
 {{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
 
-[Walker Sands](https://www.walkersands.com) runs Outcome-Based Marketing, starting with the business result you need and working backward to determine which channels actually get you there. Their strength lies in integrating PR, [demand generation](/blogs/b2b-demand-generation-guide/), content, and brand strategy into one coordinated program rather than running each as a separate workstream.
+[Walker Sands](https://www.walkersands.com) runs Outcome-Based Marketing, starting with the business result you need and working backward to determine which channels actually get you there. Their strength lies in integrating PR, demand generation, content, and brand strategy into one coordinated program rather than running each as a separate workstream.
 
 **The Pitch**
 
@@ -681,7 +681,7 @@ Best for: Industrial and Manufacturing B2B Companies Where Lead Quality Varies W
 
 {{< agency-triptych slug="straight-north" name="Straight North" >}}
 
-[Straight North](https://www.straightnorth.com) has built B2B [lead generation](/glossary/what-is-lead-generation/) programs for industrial and manufacturing companies for decades. Their proprietary lead validation system listens to calls and reviews form submissions to filter noise before anything reaches your CRM. This filtering saves real time and budget for sales teams drowning in unqualified inquiries.
+[Straight North](https://www.straightnorth.com) has built [B2B lead generation](/blogs/b2b-lead-generation/) programs for industrial and manufacturing companies for decades. Their proprietary lead validation system listens to calls and reviews form submissions to filter noise before anything reaches your CRM. This filtering saves real time and budget for sales teams drowning in unqualified inquiries.
 
 **The Pitch**
 
@@ -937,4 +937,4 @@ Can the agency tell you, in one number, what marketing contributed to closed rev
 
 ---
 
-*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2, behind Directive Consulting, based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency.*
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2, behind Directive Consulting, based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*

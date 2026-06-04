@@ -27,7 +27,7 @@ In this guide, you will learn proven B2B LinkedIn marketing strategies that deli
 
 2. Unlike general social platforms, **LinkedIn enables precise B2B targeting** based on job role, industry, company size, and buying intent, leading to higher-quality pipeline and measurable revenue impact. their problems, positions your brand as a trusted expert, and ultimately draws quality leads and nurtures relationships.
 
-3. To **build a strong B2B LinkedIn marketing strategy** in 2026, start by defining business goals and [ICP](/glossary/what-is-icp/), optimizing company and leadership profiles, creating consistent content pillars, blending organic and paid efforts, engaging employees as advocates, and integrating campaigns with sales and [ABM](/glossary/what-is-abm/) workflows. Track performance metrics to continually improve results and scalability.
+3. To **build a strong B2B LinkedIn marketing strategy** in 2026, start by defining business goals and ICP, optimizing company and leadership profiles, creating consistent content pillars, blending organic and paid efforts, engaging employees as advocates, and integrating campaigns with sales and ABM workflows. Track performance metrics to continually improve results and scalability.
 
 ## What is B2B LinkedIn Marketing?
 
@@ -35,7 +35,7 @@ B2B LinkedIn Marketing is the process of using LinkedIn to promote products or s
 
 Unlike general social platforms that are mainly social or entertainment-led, B2B LinkedIn Marketing is designed to support real business outcomes such as generating leads, filling pipeline, strengthening brand authority, and driving sales.
 
-It also includes both organic content and LinkedIn B2B ads like sponsored posts, message campaigns, and targeted [lead generation](/glossary/what-is-lead-generation/) tools. A strong LinkedIn business to business marketing strategy helps companies position themselves as experts, connect with ideal buyers, and guide prospects toward becoming customers.
+It also includes both organic content and LinkedIn B2B ads like sponsored posts, message campaigns, and targeted lead generation tools. A strong LinkedIn business to business marketing strategy helps companies position themselves as experts, connect with ideal buyers, and guide prospects toward becoming customers.
 
 ## **Why LinkedIn Marketing Is Especially Powerful for B2B?**
 
@@ -112,7 +112,7 @@ Use organic posting to strengthen trust and build audience relationships. Use Li
 
 Align marketing and sales so insights from LinkedIn fuel pipeline. Share engagement data with SDRs and retarget warm account visitors. Consistent messaging helps shorten deal cycles. 
 
-PipeRocket applies this with a structured Initiate → Accelerate → Optimize workflow that supports ABM and improves conversion rates.
+PipeRocket applies this with a structured Initiate → Accelerate → Optimize workflow that supports [ABM](/glossary/what-is-abm/) and improves conversion rates.
 
 ## **LinkedIn Content & Campaign Tactics for B2B**
 
@@ -138,7 +138,7 @@ B2B buyers want proof, not promises. Share stories that explain the problem, pro
 - Before-and-after problem framing
 - Video snippets
 
-Real outcomes build instant trust. For example, discussing [Spendflo’s growth journey](/case-study-spendflo/) helped prospects visualise impact, which increased engagement and inbound interest because customers relate better to real experiences.
+Real outcomes build instant trust. For example, discussing Spendflo’s growth journey helped prospects visualise impact, which increased engagement and inbound interest because customers relate better to real experiences.
 
 ### **3. Targeted LinkedIn Ads – Sponsored Content, InMail, Dynamic Ads**
 
@@ -299,7 +299,7 @@ Post 3–5 times per week for consistent visibility and engagement. Use a mix of
 
 ### **4. Should my B2B LinkedIn strategy focus more on organic posts or paid advertising?**
 
-Use both. Organic content builds trust and community. LinkedIn B2B ads scale reach, target decision-makers, and accelerate lead generation. The best results come from blending the two: organic for authority, paid for predictable pipeline growth.
+Use both. Organic content builds trust and community. LinkedIn B2B ads scale reach, target decision-makers, and accelerate [lead generation](/glossary/what-is-lead-generation/). The best results come from blending the two: organic for authority, paid for predictable pipeline growth.
 
 ### **5. How can I integrate LinkedIn marketing with my sales and account-based marketing (ABM) efforts?**
 

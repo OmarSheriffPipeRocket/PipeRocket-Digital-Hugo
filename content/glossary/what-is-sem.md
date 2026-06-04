@@ -71,7 +71,7 @@ SEM campaigns have four core pieces: [keyword research](/glossary/what-is-keywor
 
 - Keyword research: Start by identifying commercial, branded, and competitor terms that signal intent not just traffic.
 - Ad copywriting: Write headlines and descriptions that echo the searcher’s language, pain point, or goal.
-- Bid strategy: Pick between manual [CPC](/glossary/what-is-cost-per-click/), automated bidding (like Target CPA), or enhanced options each changes how much you pay and how you scale.
+- Bid strategy: Pick between manual [CPC](/glossary/what-is-cost-per-click/), automated bidding (like Target [CPA](/glossary/what-is-cpa/)), or enhanced options each changes how much you pay and how you scale.
 - Negative keywords: Exclude irrelevant terms (“free,” “jobs,” “download”) that waste budget and lower conversion rates.
 - Landing page experience: Match ad promise to page, remove distractions, and make the call to action blindingly obvious.
 

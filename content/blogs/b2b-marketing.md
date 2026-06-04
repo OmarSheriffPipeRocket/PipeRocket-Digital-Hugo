@@ -55,7 +55,7 @@ So their research is broad, which includes blogs, reports, benchmarks, and short
 
 B2B decisions rarely involve one person. A single purchase can include users, technical evaluators, IT, procurement, and finance teams. Each group cares about different things, such as usability, integration, compliance, cost, and ROI.
 
-**Best fit here:** personas-based messaging, buyer enablement decks, comparison guides, and [ABM](/glossary/what-is-abm/) campaigns.
+**Best fit here:** personas-based messaging, buyer enablement decks, comparison guides, and ABM campaigns.
 
 ### 3. Building Trust Through Information
 
@@ -197,7 +197,7 @@ Content is still the engine of B2B marketing. Buyers want to learn on their own 
 
 **How to apply it:**
 
-- Build an [ICP](/glossary/what-is-icp/) + TAM list
+- Build an ICP + TAM list
 - Create personalized landing pages
 - Use LinkedIn and email for targeted outreach
 - Align sales+ marketing for 1:1 or 1:few campaigns
@@ -219,7 +219,7 @@ B2B buying cycles are long, and email is what keeps prospects engaged during the
 
 In 2025, B2B buyers trust people more than brands. A strong presence on platforms like LinkedIn creates early influence. Sharing insights, frameworks, and real experience builds authority before a sales conversation even starts.
 
-**Why it works:** Buyers trust experts, not just brands. [Thought leadership](/glossary/what-is-thought-leadership/) humanizes your company and positions you as someone who understands the space deeply.
+**Why it works:** Buyers trust experts, not just brands. Thought leadership humanizes your company and positions you as someone who understands the space deeply.
 
 **How to apply it:**
 
@@ -294,7 +294,7 @@ At the same time, we introduced LinkedIn retargeting to re-engage people who had
 - Strategic use of retargeting to re-engage interest
 - Landing page and copy improvements that drove conversions
 
-This example shows the power of combining high-intent [PPC](/glossary/what-is-ppc/) with retargeting and message optimization.
+This example shows the power of combining high-intent PPC with retargeting and message optimization.
 
 ### 2. Live Event Marketing: How One B2B Firm Turned a Conference Booth into 31 Enterprise Leads
 
@@ -350,7 +350,7 @@ Think demo requests, SQLs, opportunities created, the things that sales can actu
 
 ### 2. Lead Quality
 
-In B2B, more leads don’t mean more revenue. What matters is whether those leads match your [ICP](/glossary/what-is-icp/), show intent, and progress through qualification. 
+In B2B, more leads don’t mean more revenue. What matters is whether those leads match your ICP, show intent, and progress through qualification. 
 
 You can track this by looking at MQL → SQL → Opportunity conversion rates. High-quality leads convert consistently and reduce friction for sales.
 

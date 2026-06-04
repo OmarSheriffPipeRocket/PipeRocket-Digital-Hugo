@@ -47,7 +47,7 @@ Most teams treat an LLM like a plug-and-play tool, but that’s a shortcut to me
 
 Here’s the thing: LLMs aren’t magic they’re pattern recognisers on steroids. The model “reads” your input, predicts the next likely words, and strings together sentences that fit context. This is why LLMs can summarise a support ticket, draft outreach emails, or power chatbots provided you give them the right prompts and guardrails.
 
-- Prompt engineering: The way you structure inputs (prompts) directly shapes the LLM’s responses. Poor prompts mean generic or off-topic answers.
+- [Prompt engineering](/glossary/what-is-prompt-engineering/): The way you structure inputs (prompts) directly shapes the LLM’s responses. Poor prompts mean generic or off-topic answers.
 - System instructions: Embedding company rules, tone, or forbidden answers in the LLM’s configuration keeps outputs on-brand and compliant.
 - [Retrieval-augmented generation](/glossary/what-is-rag/) (RAG): Instead of relying on static training data, you can connect the LLM to a live knowledge base or API so it fetches up-to-date facts before responding.
 - User feedback loops: Collecting real user ratings on LLM-generated answers helps retrain and refine the model over time, improving accuracy.

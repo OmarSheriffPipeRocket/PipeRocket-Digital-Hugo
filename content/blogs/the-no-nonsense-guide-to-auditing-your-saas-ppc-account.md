@@ -15,11 +15,11 @@ wp_link: "/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account/"
 
 We’ve all been there.
 
-You’re staring at a [Google Ads](/glossary/what-is-google-ads/) dashboard that looks like it was organized by a toddler. Or maybe you’ve just inherited an ad account from a previous agency, and you’re trying to figure out why they were bidding on keywords that have absolutely nothing to do with your product.
+You’re staring at a Google Ads dashboard that looks like it was organized by a toddler. Or maybe you’ve just inherited an ad account from a previous agency, and you’re trying to figure out why they were bidding on keywords that have absolutely nothing to do with your product.
 
-Whether you are trying to fix a broken funnel or just looking for efficiency in a chaotic account, you need a SaaS [PPC](/glossary/what-is-ppc/) audit. But not just a checklist of “did we use correct capitalization in headlines?”
+Whether you are trying to fix a broken funnel or just looking for efficiency in a chaotic account, you need a SaaS PPC audit. But not just a checklist of “did we use correct capitalization in headlines?”
 
-Let’s walk through how to audit a SaaS [PPC](/glossary/what-is-ppc/) account the right way, from the high-level strategy down to the nitty-gritty settings.
+Let’s walk through how to audit a SaaS PPC account the right way, from the high-level strategy down to the nitty-gritty settings.
 
 Here’s a quick index of what you’ll be looking at in this blog:
 
@@ -27,7 +27,7 @@ Here’s a quick index of what you’ll be looking at in this blog:
 
 ## **Phase 1: Know the Context Before the PPC Audit**
 
-Before you even log into [Google Ads](/glossary/what-is-google-ads/) or LinkedIn Campaign Manager, you need to step back. The biggest mistake marketers make is **auditing the** ***settings*** **before auditing the** ***strategy*****.**
+Before you even log into Google Ads or LinkedIn Campaign Manager, you need to step back. The biggest mistake marketers make is **auditing the** ***settings*** **before auditing the** ***strategy*****.**
 
 You cannot determine if a keyword is “good” or “bad” if you don’t know who is supposed to be searching for it.
 
@@ -36,12 +36,12 @@ You cannot determine if a keyword is “good” or “bad” if you don’t know
 You need to fundamentally understand what is being sold. This sounds obvious, but you’d be surprised how many audits skip this.
 
 - **What is the product?** What problem does it *actually* solve? Not the feature list, but the pain point.
-- **Who is the [ICP](/glossary/what-is-icp/) (Ideal Customer Profile)?** Be specific. “Marketing Managers” is too broad. “Marketing Ops Managers at Series B SaaS companies using Salesforce” is better.
+- **Who is the ICP (Ideal Customer Profile)?** Be specific. “Marketing Managers” is too broad. “Marketing Ops Managers at Series B SaaS companies using Salesforce” is better.
 - **Who are the competitors?** Who are you bidding against? Who is stealing your lunch money? Where do you stand in the market compared to them?
 
 **Why this matters:**
 
-This gives you the “overall picture” regarding messaging and positioning. If your ads are technically perfect (great Quality Score, low CPC) but the messaging doesn’t address the specific pain points of your [ICP](/glossary/what-is-icp/), you are just burning cash efficiently.
+This gives you the “overall picture” regarding messaging and positioning. If your ads are technically perfect (great Quality Score, low CPC) but the messaging doesn’t address the specific pain points of your ICP, you are just burning cash efficiently.
 
 ### **2. Do a Lead Quality Check**
 
@@ -59,7 +59,7 @@ You need a baseline. If your [conversion rate](/glossary/what-is-conversion-rate
 
 For your specific category, you should have a rough idea.
 
-- Maybe a healthy inbound funnel for your brand generates a **3% [conversion rate](/glossary/what-is-conversion-rate/)** from visitor to lead.
+- Maybe a healthy inbound funnel for your brand generates a **3% conversion rate** from visitor to lead.
 - Maybe your **Lead-to-MQL ratio should be 45-50%**.
 
 Once you have these numbers, you can spot the outliers immediately. If your Lead-to-MQL drop-off is 90%, you don’t have a traffic problem; you have a targeting (or product) problem.
@@ -83,11 +83,11 @@ Ideally, you want to track revenue as well, but it’s not that important as a b
 
 **Why this step is critical:**
 
-This highlights the “Bleeders.” You might find that LinkedIn is consuming 60% of the budget but generating 10% of the SQLs. Or that [Google Ads](/blogs/how-to-run-google-ads-for-saas/ "Google Ads for SaaS Guide") has a high CPL but a fantastic [conversion rate](/glossary/what-is-conversion-rate/) to Opportunity. This “Eagle’s View” tells you where to dig deeper.
+This highlights the “Bleeders.” You might find that LinkedIn is consuming 60% of the budget but generating 10% of the SQLs. Or that [Google Ads](/blogs/how-to-run-google-ads-for-saas/ "Google Ads for SaaS Guide") has a high CPL but a fantastic conversion rate to Opportunity. This “Eagle’s View” tells you where to dig deeper.
 
 ## **Phase 3: Deep Dive into Google Ads (The Intent Engine)**
 
-Okay, now we roll up our sleeves. For most SaaS companies, Google Ads is the bread and butter because it captures *intent*. People are literally searching for your solution.
+Okay, now we roll up our sleeves. For most SaaS companies, [Google Ads](/glossary/what-is-google-ads/) is the bread and butter because it captures *intent*. People are literally searching for your solution.
 
 Here is how to audit Google Ads specifically:
 
@@ -114,7 +114,7 @@ You might be bidding on the keyword “SaaS CRM”, but what are you actually pa
 Go to the **Search Terms Report**.
 
 - **Intent Mismatch:** Are you paying for clicks from people looking for “free CRM templates” or “CRM meaning”?
-- **ICP Mismatch:** If you are an Enterprise tool, are you showing up for “cheap CRM for startups”?
+- **[ICP](/glossary/what-is-icp/) Mismatch:** If you are an Enterprise tool, are you showing up for “cheap CRM for startups”?
 - **The “Landing Page Handshake”:** When they click that search term, where do they go? Is the landing page actually answering the question they asked in Google?
 
 If someone searches for “Healthcare CRM” and you dump them on a generic CRM page, they will bounce.
@@ -234,7 +234,7 @@ These are things that are actively burning money.
 
 These are hypothesis-driven changes.
 
-- “Our [CTR](/glossary/what-is-ctr/) on LinkedIn is low. Let’s test a Video ad vs. the current Image ad.”
+- “Our CTR on LinkedIn is low. Let’s test a Video ad vs. the current Image ad.”
 - “The ‘Competitor’ campaign has a high CPL. Let’s try a dedicated comparison landing page to improve conversion.”
 - “Let’s control the CPC on this campaign to see if we can get more volume.”
 
@@ -262,7 +262,7 @@ And honestly? That’s where the fun (and the money) is.
 
 ### 1. How often should a SaaS company run a PPC audit?
 
-A full SaaS PPC audit should happen every quarter, with lighter check-ins each month. Quarterly audits give enough data to spot patterns in lead quality, funnel drop-offs, and cost trends. Monthly reviews help catch budget leaks, tracking issues, and sudden performance shifts before they snowball. If you change pricing, ICP, or positioning, run an immediate audit. Major business changes always deserve a fresh look at how paid media supports revenue.
+A full SaaS [PPC](/glossary/what-is-ppc/) audit should happen every quarter, with lighter check-ins each month. Quarterly audits give enough data to spot patterns in lead quality, funnel drop-offs, and cost trends. Monthly reviews help catch budget leaks, tracking issues, and sudden performance shifts before they snowball. If you change pricing, ICP, or positioning, run an immediate audit. Major business changes always deserve a fresh look at how paid media supports revenue.
 
 ### 2. What’s the biggest mistake teams make during a PPC audit?
 

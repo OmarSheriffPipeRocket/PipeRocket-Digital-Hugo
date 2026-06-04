@@ -17,8 +17,8 @@ Most SaaS companies we talk to know they need saas link building but have no rea
 
 ### TL;DR
 
-- SaaS link building is the practice of acquiring [backlinks](/glossary/what-is-a-backlink/) to build search authority specifically for a software company’s most important pages
-- Most saas [backlinks](/glossary/what-is-a-backlink/) go to blog posts when product, comparison, and pricing pages are what actually drive revenue — that is where to start
+- SaaS link building is the practice of acquiring backlinks to build search authority specifically for a software company’s most important pages
+- Most saas backlinks go to blog posts when product, comparison, and pricing pages are what actually drive revenue — that is where to start
 - Saas link building strategies like digital PR, original research, and AI visibility link building are significantly underused by most teams
 - If you are evaluating an authority link building service, the questions you ask before signing matter more than the tactics they pitch
 
@@ -46,7 +46,7 @@ According to Ahrefs research, pages ranking in position one have 3.8 times more 
 
 ## Strategy 1: Fix Which Pages You Are Building Links To
 
-Before you pitch a single journalist or send a single outreach email, audit where your saas backlinks are currently pointing and compare that against where your pipeline actually originates.
+Before you pitch a single journalist or send a single outreach email, audit where your saas [backlinks](/glossary/what-is-a-backlink/) are currently pointing and compare that against where your pipeline actually originates.
 
 ![Typical SaaS link distribution (78% blog, 15% homepage, almost nothing to pricing or comparison pages) versus PipeRocket's recommended distribution (25% comparison, 22% pillar hubs, 18% alternatives, 15% free tools, 12% high-intent blog, 8% product/pricing/home). Stop building authority on pages that don't convert.](/images/blog-infographics/where-to-point-saas-links.svg)
 
@@ -120,7 +120,7 @@ Every time someone writes about your product, recommends it in an article, or re
 
 ### How to find your unlinked mentions
 
-Set up Google Alerts for your brand name and your most distinctive product features. Use Ahrefs Alerts if you have an account — filter for mentions without a backlink. Review your [Google Search Console](/glossary/what-is-google-search-console/) coverage data for references you can spot from traffic patterns. For most SaaS companies that have been around two or more years, this exercise surfaces 10 to 20 genuinely easy link opportunities within the first week.
+Set up Google Alerts for your brand name and your most distinctive product features. Use Ahrefs Alerts if you have an account — filter for mentions without a backlink. Review your Google Search Console coverage data for references you can spot from traffic patterns. For most SaaS companies that have been around two or more years, this exercise surfaces 10 to 20 genuinely easy link opportunities within the first week.
 
 ### The outreach approach that actually converts
 
@@ -150,7 +150,7 @@ This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategie
 
 - **Keyword rank movement on your target URLs** — not across your whole site, but specifically the product and comparison pages you identified in Strategy 1
 - **Organic sessions to those pages** — are more buyers reaching the pages that convert?
-- **[Domain authority](/glossary/what-is-domain-authority/) or domain rating trend** — directional health check, not the primary metric
+- **Domain authority or domain rating trend** — directional health check, not the primary metric
 - **Pipeline influenced by organic** — what opportunities originated from a page that benefitted from your link building work?
 
 Track these at the URL level, not the domain level. A 10-position rank improvement on your pricing page is worth far more than a 2-point domain rating increase, and it is the metric your leadership team will actually care about.
@@ -185,7 +185,7 @@ Our 25-person team has built link programs for 50+ B2B SaaS companies across cat
 
 SaaS link building works when it is built around the right pages, the right sources, and a measurement setup that connects backlinks to business outcomes. Most teams skip one or more of those three things, which is why so many campaigns run for months without producing anything demonstrable. Get your page targeting right first, then build your mix of saas link building strategies around editorial outreach, original research, directory placements, and brand mention reclamation.
 
-Track rank movement and organic sessions on your target URLs, not just [domain authority](/glossary/what-is-domain-authority/). And if you are evaluating an authority link building service, ask them which pages they plan to build links to and how they will measure pipeline impact. The answer to those two questions tells you most of what you need to know.
+Track rank movement and organic sessions on your target URLs, not just domain authority. And if you are evaluating an authority link building service, ask them which pages they plan to build links to and how they will measure pipeline impact. The answer to those two questions tells you most of what you need to know.
 
 ## Frequently Asked Questions About SaaS Link Building
 

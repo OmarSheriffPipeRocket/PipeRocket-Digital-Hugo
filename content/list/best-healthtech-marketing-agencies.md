@@ -142,7 +142,7 @@ Best for: B2B healthtech SaaS tying SEO, paid, and content to one pipeline numbe
 
 **What Sets Us Apart:** We start with the ICP, mapping clinical champions, IT decision-makers, procurement, and executive sponsors as separate audiences inside one account. Every channel reports against MQLs, SQLs, and pipeline created, not platform dashboards.
 
-- [SaaS SEO](/saas-seo-agency/), [PPC](/saas-ppc/), and [GEO/AEO](/ai-seo-services/) run from one pipeline target
+- SaaS SEO, PPC, and GEO/AEO run from one pipeline target
 - Marketing ops layer reconciles HubSpot, Salesforce, and ad platforms
 - ICP-led account selection for healthtech buying committees
 

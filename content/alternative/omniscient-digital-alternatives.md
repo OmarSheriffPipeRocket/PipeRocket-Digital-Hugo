@@ -79,9 +79,9 @@ Where Omniscient Digital focuses on organic content and GEO depth at an $8,000-p
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
 | Specialization | B2B SaaS SEO, content, PPC, GEO, pipeline attribution |
 
-**Differentiator:** We're practitioners, not account managers. Our [SaaS SEO agency](/saas-seo-agency/) model is built around senior operators who've spent a decade inside B2B SaaS companies. We know how buyers buy, how sales teams think, and what pipeline looks like when marketing is working.
+**Differentiator:** We're practitioners, not account managers. Our SaaS SEO agency model is built around senior operators who've spent a decade inside B2B SaaS companies. We know how buyers buy, how sales teams think, and what pipeline looks like when marketing is working.
 
-- Every retainer combines [SaaS SEO](/saas-seo-agency/), [BOFU content](/content-marketing-agency/), [link building](/link-building-agency/), and paid search, with [GEO and AI search visibility](/ai-seo-services/) built in
+- Every retainer combines SaaS SEO, BOFU content, [link building](/link-building-agency/), and paid search, with [GEO and AI search visibility](/ai-seo-services/) built in
 - Reporting ties directly to MQL, SQL, and CAC, not sessions and rankings alone
 - Retainers start at $3,000/mo with no markup on ad spend and no lock-in beyond the 3-month pilot
 
@@ -799,4 +799,4 @@ Foundation Marketing serves broader B2B tech rather than SaaS-exclusively. Their
 
 ---
 
-*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #1 based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency on this list.*
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #1 based on our published methodology, which we apply to our own listing the same way we apply it to every other agency on this list.*

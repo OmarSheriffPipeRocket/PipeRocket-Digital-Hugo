@@ -837,7 +837,7 @@ Best for: Growth-Stage B2B Companies Seeking Performance Marketing With Strategi
 
 {{< agency-triptych slug="power-digital" name="Power Digital" >}}
 
-[Power Digital](https://powerdigitalmarketing.com) combines [performance marketing](/glossary/what-is-performance-marketing/) execution with growth consulting services. Their team helps B2B brands develop acquisition strategies before launching campaigns, with proprietary technology identifying growth opportunities and tracking performance against business objectives throughout the engagement.
+[Power Digital](https://powerdigitalmarketing.com) combines performance marketing execution with growth consulting services. Their team helps B2B brands develop acquisition strategies before launching campaigns, with proprietary technology identifying growth opportunities and tracking performance against business objectives throughout the engagement.
 
 **Vitals**
 
@@ -940,4 +940,4 @@ A paid media audit ($2,500-$8,000 one-time) before any retainer commitment. SMB 
 
 ---
 
-*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2 based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency.*
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2 based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*

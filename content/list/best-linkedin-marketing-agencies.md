@@ -187,7 +187,7 @@ Our pricing is custom, scoped against the channels you run and the pipeline targ
 
 | Criteria | Detail |
 | --- | --- |
-| Free Consultation | Yes, scoped via [contact form](/contact-us/) |
+| Free Consultation | Yes, scoped via contact form |
 | Clutch Rating | 4.7/5 (13 reviews) |
 
 ### 3. Impactable

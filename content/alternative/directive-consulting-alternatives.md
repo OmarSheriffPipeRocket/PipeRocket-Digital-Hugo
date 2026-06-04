@@ -77,7 +77,7 @@ We built PipeRocket Digital for the stage before Directive. Before we run a sing
 | Notable Clients | Storylane, LeadSquared, GreytHR, DevRev, Spendflo, Tredence |
 | Specialization | Full-funnel B2B SaaS marketing, pipeline attribution |
 
-**Differentiator:** We're practitioners, not account managers. Our [SaaS PPC agency](/saas-ppc/) model is built around senior operators who have spent a decade inside B2B SaaS companies. We report every channel — [SEO](/saas-seo-agency/), [paid media](/saas-ppc/), [content](/content-marketing-agency/), [ABM](/account-based-marketing-agency/), and [AEO/GEO for AI search](/ai-seo-services/) — against the same pipeline metric in the same review your sales team attends.
+**Differentiator:** We're practitioners, not account managers. Our [SaaS PPC agency](/saas-ppc/) model is built around senior operators who have spent a decade inside B2B SaaS companies. We report every channel — SEO, paid media, [content](/content-marketing-agency/), [ABM](/account-based-marketing-agency/), and [AEO/GEO for AI search](/ai-seo-services/) — against the same pipeline metric in the same review your sales team attends.
 
 - Retainers start at $3,000/mo, month-to-month rolling, no ad spend minimum and no annual lock-in
 - 100% B2B SaaS focus — we don't work outside the vertical, which keeps ICP and pipeline thinking sharp across every account
@@ -787,4 +787,4 @@ Treat review count as a confidence interval, not just the rating itself. A 5.0 f
 
 ---
 
-*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #1 based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency.*
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #1 based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*

@@ -17,9 +17,9 @@ Do you feel like you’re spending more on ads but getting less in return?
 
 It is a brutal reality for modern businesses. B2B buyers have become almost immune to anything that looks or sounds like traditional marketing. They’ve stopped picking up calls, they scroll past ads, and they only talk to sales when they’ve already made their decision.
 
-So if you aren’t influencing them during this invisible research phase, you have already lost the deal. This is where B2B [content marketing](/glossary/what-is-content-marketing/) comes in.
+So if you aren’t influencing them during this invisible research phase, you have already lost the deal. This is where B2B content marketing comes in.
 
-Done right, it turns your website into a salesperson that works 24/7, attracting better leads, shortening sales cycles, and lowering acquisition costs. In this guide, let’s see a concrete b2b [content marketing](/glossary/what-is-content-marketing/) plan to turn strangers into high-value customers.
+Done right, it turns your website into a salesperson that works 24/7, attracting better leads, shortening sales cycles, and lowering acquisition costs. In this guide, let’s see a concrete b2b content marketing plan to turn strangers into high-value customers.
 
 ## TL;DR
 
@@ -61,7 +61,7 @@ Ads are rent; content is ownership. The second you stop paying for ads, traffic 
 
 ### 4. Helps Generate and Nurture Qualified Leads
 
-Cold outreach is grueling because you are interrupting people. Content marketing flips the script by pulling in buyers who are actively searching for solutions to specific pain points. These “hand-raisers” are far easier for sales teams to close than cold prospects.
+Cold outreach is grueling because you are interrupting people. [Content marketing](/glossary/what-is-content-marketing/) flips the script by pulling in buyers who are actively searching for solutions to specific pain points. These “hand-raisers” are far easier for sales teams to close than cold prospects.
 
 ## What Are the Core Elements of a B2B Content Strategy
 
@@ -124,13 +124,13 @@ Here are the six non-negotiable pillars you need to build.
 
 This is the foundation of your organic growth. In B2B, “thin” content is dead. To rank in 2025, your articles must be comprehensive, expert-driven resources that answer specific industry questions better than anyone else.
 
-**Best for:** Awareness (Top of Funnel), Organic Search ([SEO](/glossary/what-is-seo/)).
+**Best for:** Awareness (Top of Funnel), Organic Search (SEO).
 
 ### 2. Whitepapers, Industry Reports & E-books
 
 When a topic is too complex for a blog post, it belongs here. These are typically “gated” (requiring an email to download) and offer deep dives into industry trends or research. They are the currency you trade for a prospect’s contact info.
 
-**Best for:** [Lead Generation](/glossary/what-is-lead-generation/) (Middle of Funnel), [Thought Leadership](/glossary/what-is-thought-leadership/).
+**Best for:** [Lead Generation](/glossary/what-is-lead-generation/) (Middle of Funnel), Thought Leadership.
 
 ### 3. Case Studies & Success Stories
 

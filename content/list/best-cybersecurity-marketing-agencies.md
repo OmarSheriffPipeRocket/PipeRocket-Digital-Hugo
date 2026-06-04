@@ -539,7 +539,7 @@ Best for: Growth-Stage Cybersecurity Companies That Need a Full-Service Marketin
 
 **The Playbook**
 
-Magnetude's services cover demand generation strategy, content, digital marketing, and [marketing operations](/marketing-ops/). What sets them apart is the adaptability of their model: fractional, project, or full retainer.
+Magnetude's services cover demand generation strategy, content, digital marketing, and marketing operations. What sets them apart is the adaptability of their model: fractional, project, or full retainer.
 
 - Flexible fractional, project, and retainer engagement structures
 - Cybersecurity practice with genuine sector experience, not a generalist add-on
@@ -612,7 +612,7 @@ Best for: Early to Growth-Stage Cybersecurity SaaS Companies That Need a Pipelin
 | Founded | 2013 |
 | Team Size | 20+ people |
 | Notable Clients | Cybersecurity SaaS vendors (various) |
-| Specialization | Cybersecurity [SaaS SEO](/saas-seo-agency/), content, paid media, analytics |
+| Specialization | Cybersecurity SaaS SEO, content, paid media, analytics |
 
 **The Playbook**
 
@@ -892,4 +892,4 @@ An agency that starts with ICP mapping and positioning before spending on channe
 
 ---
 
-*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2 based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency.*
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2 based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*

@@ -22,8 +22,8 @@ I run campaigns every day for B2B SaaS companies, and I watch the same avoidable
 |  |  |  |
 | --- | --- | --- |
 | **Mistake** | **Why It’s Bad** | **How to Avoid** |
-| **Treating LinkedIn like [Google Ads](/glossary/what-is-google-ads/)** | LinkedIn is a nurturing channel, not a direct-response one. Expecting quick conversions leads to killing campaigns that were actually working | Set realistic attribution expectations upfront and measure brand lift, not just direct conversions |
-| **Having a vague [ICP](/glossary/what-is-icp/)** | You end up paying to reach people who will never care about your product | Go persona-level — specific job title, company size, and industry before you open Campaign Manager |
+| **Treating LinkedIn like Google Ads** | LinkedIn is a nurturing channel, not a direct-response one. Expecting quick conversions leads to killing campaigns that were actually working | Set realistic attribution expectations upfront and measure brand lift, not just direct conversions |
+| **Having a vague ICP** | You end up paying to reach people who will never care about your product | Go persona-level — specific job title, company size, and industry before you open Campaign Manager |
 | **Allocating incorrect budget** | Too little budget means the algorithm never gets enough data and you run out of runway before seeing results | Go ABM-style with a tight audience if budget is limited rather than spreading thin and broad |
 | **Targeting a broad audience** | You waste money reaching sub-industries and company sizes that are irrelevant to your offer | Use every available filter — sub-industry, company size, seniority — to tighten your audience |
 | **Having only one or two creatives** | LinkedIn suppresses ads shown to the same person more than twice, so one creative kills your own reach | Launch with a minimum of five creatives per campaign |
@@ -213,7 +213,7 @@ LinkedIn gives you two paths here. You have job function (broad category) and jo
 
 ### **How to avoid it:**
 
-- **Niche product with a specific owner?** Use job title. For a content repurposing tool, you want Content Directors and [Content Marketing](/glossary/what-is-content-marketing/) Managers, not the broader marketing function.
+- **Niche product with a specific owner?** Use job title. For a content repurposing tool, you want Content Directors and Content Marketing Managers, not the broader marketing function.
 - **Broad product relevant to an entire function at the decision-maker level?** Use job function plus seniority filters. A marketing analytics platform is relevant to any CMO, VP, or Director of Marketing, so job function with seniority gets you there without over-restricting.
 - Align the targeting type to what your ICP actually looks like, not what feels intuitive in the interface
 

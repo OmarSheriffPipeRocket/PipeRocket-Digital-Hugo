@@ -13,9 +13,9 @@ wp_id: 2839
 wp_link: "/blogs/linkedin-account-based-marketing/"
 ---
 
-You’ve probably heard of [Account-based Marketing](/glossary/what-is-abm/) (ABM), the strategy where instead of casting a wide net, you get laser-focused on a specific set of companies and go after them with everything you’ve got. The reason LinkedIn is the perfect place to run it is simple. Every other ad platform makes you guess who’s seeing your ads.
+You’ve probably heard of Account-based Marketing (ABM), the strategy where instead of casting a wide net, you get laser-focused on a specific set of companies and go after them with everything you’ve got. The reason LinkedIn is the perfect place to run it is simple. Every other ad platform makes you guess who’s seeing your ads.
 
-LinkedIn [Account-based Marketing](/glossary/what-is-abm/) lets you walk straight up to the door of the exact company you want and knock on it, by name, by industry, by job title, by revenue. That targeting precision is something no other platform gives you at this level.
+LinkedIn Account-based Marketing lets you walk straight up to the door of the exact company you want and knock on it, by name, by industry, by job title, by revenue. That targeting precision is something no other platform gives you at this level.
 
 I’ve been running ABM campaigns on LinkedIn for over a decade and in this blog, I’m going to show you exactly how to run ABM on LinkedIn the right way, from picking the right type of ABM for your business all the way to handing warm accounts over to your sales team.
 
@@ -23,14 +23,14 @@ I’ve been running ABM campaigns on LinkedIn for over a decade and in this blog
 
 - **LinkedIn is the best ABM platform** because the targeting lets you reach specific companies, job titles, and decision-makers by name in a way no other ad platform can match.
 - **There are three types of ABM.** **ABM 1:1** is for going after one specific company with fully personalised creatives. **ABM 1:Few** targets 10 to 20 companies and works best for sales-led teams. **ABM 1:Many** targets hundreds to thousands of accounts and is best suited for PLG products.
-- **Your [ICP](/glossary/what-is-icp/) has to be defined before you touch the platform.** Industry, company size, buyer profile, revenue range and funding stage all need to be locked in before you build a single audience.
+- **Your ICP has to be defined before you touch the platform.** Industry, company size, buyer profile, revenue range and funding stage all need to be locked in before you build a single audience.
 - **If sales isn’t following up, the whole thing falls apart.** You can see who engaged with your ads, but you have no visibility into buying intent. Only your sales team can confirm that by picking up the phone.
 
 ## **What Is LinkedIn Account-Based Marketing?**
 
 LinkedIn account-based marketing is a B2B paid strategy where you target specific companies or decision-makers with ads, instead of broadcasting to a broad audience.
 
-**Unlike [Google Ads](/glossary/what-is-google-ads/)**, where you’re chasing intent through search queries, [**LinkedIn Ads**](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/) **lets you** walk straight up to the door of the exact company you want, by name, by industry, by revenue, by job title.
+**Unlike Google Ads**, where you’re chasing intent through search queries, [**LinkedIn Ads**](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/) **lets you** walk straight up to the door of the exact company you want, by name, by industry, by revenue, by job title.
 
 That level of precision is why ABM works so well here specifically. The platform’s targeting infrastructure is literally built for this, so you’re not hacking anything. You’re using it exactly the way it was designed.
 
@@ -80,7 +80,7 @@ Those two signals alone cut out a huge amount of wasted spend before the campaig
 
 ## **How to Run LinkedIn Account-Based Marketing Campaigns?**
 
-Here is the step-by-step process on how to run LinkedIn Account-based Marketing campaigns:
+Here is the step-by-step process on how to run LinkedIn [Account-based Marketing](/glossary/what-is-abm/) campaigns:
 
 ### **Step 1: Define Your ICP Before You Touch the Platform**
 

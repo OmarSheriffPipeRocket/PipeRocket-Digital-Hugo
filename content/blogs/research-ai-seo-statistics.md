@@ -15,7 +15,7 @@ wp_id: 2967
 wp_link: "/research/ai-seo-statistics/"
 ---
 
-If you run marketing for a B2B SaaS company right now, you've probably heard some version of this: *"AI is killing organic search."* Or the opposite: *"AI is just a distraction — [SEO](/glossary/what-is-seo/) still works."* The problem is, most people saying either thing are working off vibes, not data.
+If you run marketing for a B2B SaaS company right now, you've probably heard some version of this: *"AI is killing organic search."* Or the opposite: *"AI is just a distraction — SEO still works."* The problem is, most people saying either thing are working off vibes, not data.
 
 We wanted to know what's actually happening. So we pulled 8 months of real analytics and CRM data from 53 B2B SaaS brands we work with — and looked at how organic search and AI referral traffic actually compare across traffic, leads, conversions, and pipeline. No estimates. No surveys. Just what we saw in the numbers.
 
@@ -129,7 +129,7 @@ Beyond our proprietary dataset, here is what broader industry research tells us 
 - Pages with **proper [schema markup](/glossary/what-is-schema-markup/)** are **30–40% more likely** to be cited in AI-generated answers.
 - GEO optimization techniques can boost AI content visibility by **up to 40%** through statistics inclusion, structured formatting, and comprehensive topic coverage.
 - Content with clear, verifiable data points earns roughly **30–40% more visibility** in [LLM](/glossary/what-is-an-llm/)-generated answers than purely qualitative content.
-- **Brand search volume** — not [backlinks](/glossary/what-is-a-backlink/) — is the strongest predictor of AI citations, with a **0.334 correlation** to [LLM](/glossary/what-is-an-llm/) visibility.
+- **Brand search volume** — not [backlinks](/glossary/what-is-a-backlink/) — is the strongest predictor of AI citations, with a **0.334 correlation** to LLM visibility.
 - Establishing entity presence across **4+ third-party platforms** increases AI citation likelihood by **2.8x**.
 - Only **11% of domains** are cited by both ChatGPT and Perplexity — platform-specific GEO optimization is essential, not optional.
 - Brands in the **top quartile for web mentions** receive over **10x more citations** in AI Overviews than those in the second quartile.
@@ -140,7 +140,7 @@ Beyond our proprietary dataset, here is what broader industry research tells us 
 - Across all industries, **YouTube (~23.3%), Wikipedia (~18.4%), and Google.com (~16.4%)** are the three most cited domains in AI Overviews.
 - **38% of Americans** now use AI tools like ChatGPT and Perplexity as their primary search interface as of 2026.
 - Listicle and comparison formats are selected for AI citation approximately **2.5x more often** than narrative content — comparative listicles win **32.5% of all AI citations**.
-- Nearly **half of SEO experts (48.6%)** identified Digital PR as the most effective link-building tactic for 2025.
+- Nearly **half of [SEO](/glossary/what-is-seo/) experts (48.6%)** identified Digital PR as the most effective link-building tactic for 2025.
 - The overlap between top Google results and AI-cited sources has **dropped from 70% to below 20%** as of late 2025.
 - Organic search is projected to remain the **#1 B2B pipeline channel through at least 2028** — but brands winning AI citation will hold a decisive share-of-voice advantage in the discovery phase.
 - AI platforms generated over **1.1 billion referral visits in June 2025** — up 357% year-over-year.
@@ -150,7 +150,7 @@ Beyond our proprietary dataset, here is what broader industry research tells us 
 - Gartner predicts **traditional search volume will drop 25% by 2026** as AI agents replace Google for product research among B2B buyers.
 - Gartner also projects that **90% of B2B purchases will be agent-driven by 2028** — making AI visibility a prerequisite for pipeline, not just awareness.
 - Nearly **half of B2B buyers now use AI platforms like ChatGPT and Claude for vendor research**, according to HG Insights' 2025 buyer behavior analysis.
-- When an [LLM](/glossary/what-is-an-llm/) surfaces a vendor a B2B buyer had not previously considered, **51% go directly to that vendor's website** — making AI citation a new top-of-funnel acquisition channel.
+- When an LLM surfaces a vendor a B2B buyer had not previously considered, **51% go directly to that vendor's website** — making AI citation a new top-of-funnel acquisition channel.
 - The GEO market was valued at approximately **$848 million in 2025** and is projected to reach **$33.7 billion by 2034** — a 50.5% CAGR.
 - AI search traffic across SaaS brands is growing at an average of **41% month-over-month**, while organic grows at roughly 2–3% MoM — but organic still leads in absolute conversion volume.
 - Between 40% and 60% of cited sources **change month-to-month** across Google AI Mode and ChatGPT — making AI citation far less stable than organic rankings.
@@ -159,7 +159,7 @@ Beyond our proprietary dataset, here is what broader industry research tells us 
 - **ChatGPT only cites 15% of the pages it retrieves** — 85% of sources retrieved during a search session are never cited in the final response.
 - Sites with over **32,000 referring domains are 3.5x more likely to be cited by ChatGPT** than sites with up to 200 referring domains.
 - The zero-click rate on Google **exceeded 65% in Q1 2026**, up from 58.5% in late 2025. On mobile, it reaches 77%.
-- AI Overviews now trigger on **30%+ of Google queries** in 2026, up from just 13% in March 2025 — and when they appear, organic [CTR](/glossary/what-is-ctr/) drops by 61%.
+- AI Overviews now trigger on **30%+ of Google queries** in 2026, up from just 13% in March 2025 — and when they appear, organic CTR drops by 61%.
 
 ---
 

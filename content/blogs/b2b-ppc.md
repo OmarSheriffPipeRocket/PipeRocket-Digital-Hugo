@@ -17,7 +17,7 @@ Most B2B teams question whether PPC is worth it. 
 
 You spend money, the clicks look good, but the leads?
 
-They’re all over the place. Some relevant, many not even close to your [ICP](/glossary/what-is-icp/). And because B2B deals take months and involve multiple people, proving whether PPC actually works becomes a whole different challenge.
+They’re all over the place. Some relevant, many not even close to your ICP. And because B2B deals take months and involve multiple people, proving whether PPC actually works becomes a whole different challenge.
 
 But the good news is that when you build PPC around buyer intent, not volume, it becomes one of the most reliable ways to capture in-market demand and turn it into a real pipeline.
 
@@ -49,7 +49,7 @@ Even if someone clicks your ad today, they may not become an SQL for weeks — s
 - You need to nurture touchpoints
 - You need ads that support the entire journey
 
-[CPC](/glossary/what-is-cost-per-click/) alone won’t tell you if your campaigns are working. Movement through the funnel: MQL → SQL → Opportunity is what actually matters.
+CPC alone won’t tell you if your campaigns are working. Movement through the funnel: MQL → SQL → Opportunity is what actually matters.
 
 Because of these differences, B2B PPC requires intent-driven keywords, precise audience targeting, and messaging built for long-term influence. 
 
@@ -291,7 +291,7 @@ For the umbrella view, see our [B2B marketing guide](/blogs/b2b-marketing/ "B2B 
 
 ### 1. Account-Based Marketing + PPC
 
-With [ABM](/glossary/what-is-abm/), instead of targeting broadly, you focus your PPC campaigns on a specific list of high-value accounts your sales team already cares about.
+With ABM, instead of targeting broadly, you focus your PPC campaigns on a specific list of high-value accounts your sales team already cares about.
 
 What this does:
 

@@ -135,7 +135,7 @@ Best for: B2B SaaS teams that want links measured against pipeline, not domain r
 | Founded | 2020 |
 | Team Size | 25+ people |
 | Notable Clients | Storylane, LeadSquared, GreytHR, Tredence, DevRev, Spendflo |
-| Specialization | [Link building](/link-building-agency/), [SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/) |
+| Specialization | [Link building](/link-building-agency/), SEO, [GEO/AEO](/ai-seo-services/) |
 
 **Cleared For:** Series A+ B2B SaaS teams that want links from publications their buyers and AI search engines actually trust, measured against pipeline outcomes.
 
@@ -643,7 +643,7 @@ Ideally the same program. Silo'd link building builds authority to pages that do
 
 ### Do SaaS link building agencies help with AI visibility?
 
-The best ones do. AI models cite authoritative publications. Links from those sources lift both search authority and [GEO/AEO](/ai-seo-services/) visibility.
+The best ones do. AI models cite authoritative publications. Links from those sources lift both search authority and GEO/AEO visibility.
 
 ### How do I verify an agency's "no PBN" claim?
 

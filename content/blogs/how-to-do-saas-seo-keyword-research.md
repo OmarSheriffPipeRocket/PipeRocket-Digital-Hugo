@@ -13,15 +13,15 @@ wp_id: 2597
 wp_link: "/blogs/how-to-do-saas-seo-keyword-research/"
 ---
 
-If you asked me how I do [keyword research](/glossary/what-is-keyword-research/), the exact steps we follow at PipeRocket Digital, this blog will be your answer. We’ve had long discussions about this within our team, and the reality is that most people start with tools when they should be starting with people.
+If you asked me how I do keyword research, the exact steps we follow at PipeRocket Digital, this blog will be your answer. We’ve had long discussions about this within our team, and the reality is that most people start with tools when they should be starting with people.
 
-We treat SaaS [SEO](/glossary/what-is-seo/) [keyword research](/glossary/what-is-keyword-research/) not just as a standard [SaaS SEO checklist](/blogs/saas-seo-checklist/), but as a way to map the entire [Total Addressable Market](/glossary/what-is-tam-sam-som/) (TAM) for a product.Whether you are a founder trying to get traction or a marketer trying to scale, I am going to walk you through the exact process we use, a process that evolved directly from managing massive accounts like Sprinto.
+We treat SaaS SEO keyword research not just as a standard [SaaS SEO checklist](/blogs/saas-seo-checklist/), but as a way to map the entire Total Addressable Market (TAM) for a product.Whether you are a founder trying to get traction or a marketer trying to scale, I am going to walk you through the exact process we use, a process that evolved directly from managing massive accounts like Sprinto.
 
 I will be upfront with you: it is a bit more work upfront. It takes time. But that extra effort is the difference between guessing what might work and actually dominating your category.
 
 ## TL;DR
 
-- **Stop opening [SEO](/glossary/what-is-seo/) tools first:** I honestly believe this is where everyone gets it wrong. You shouldn’t start with Ahrefs or Semrush. You have to start with your internal teams, Sales, CS, Product, because they know the specific, messy words customers actually use to describe their pain, which is data a tool just won’t give you.
+- **Stop opening SEO tools first:** I honestly believe this is where everyone gets it wrong. You shouldn’t start with Ahrefs or Semrush. You have to start with your internal teams, Sales, CS, Product, because they know the specific, messy words customers actually use to describe their pain, which is data a tool just won’t give you.
 - **Don’t just copy your competitors.** If you only look at what the other guys are ranking for, you are just validating your own bias. We find that the real “gold” comes from merging that human insight from your team with the data, rather than just downloading a competitor’s keyword list and calling it a strategy.
 - **Group keywords into “Topics,” not just lists.** A spreadsheet with two thousand rows is useless noise. We group them into topics,like “GRC Software”, so we can walk into a meeting and tell the executives, “We don’t need a random budget, we need to build exactly 60 pages to capture the market.” It turns a guessing game into a business case.
 
@@ -31,11 +31,11 @@ Before we even think about opening a spreadsheet, we have to talk about the shif
 
 The way people interact with the internet is changing.However, I have a strong belief that traditional search isn’t ending anytime soon. Look at the behavior right now. [Around 90% of people are still using Google](https://gs.statcounter.com/search-engine-market-share) to find their information.
 
-That is a massive chunk of the world.So, while we are absolutely preparing for a future of AI prompts, we’ll stick to the foundation: [Keyword Research](/glossary/what-is-keyword-research/ "Glossary: Keyword Research") for SaaS SEO. It is still the bedrock of how your customers find you.
+That is a massive chunk of the world.So, while we are absolutely preparing for a future of AI prompts, we’ll stick to the foundation: [Keyword Research](/glossary/what-is-keyword-research/ "Glossary: Keyword Research") for SaaS [SEO](/glossary/what-is-seo/). It is still the bedrock of how your customers find you.
 
 ## Do Not Go the Usual SaaS Keyword Research Route: Here’s Why
 
-If I asked you to sit down and do keyword research for SaaS SEO right now, you would probably follow the standard playbook we all learned. You know the one. It usually looks something like this:
+If I asked you to sit down and do [keyword research](/glossary/what-is-keyword-research/) for SaaS SEO right now, you would probably follow the standard playbook we all learned. You know the one. It usually looks something like this:
 
 1. You open a notes app or Excel sheet.
 2. You write down the category terms you *think* are relevant. For example, if you are in the GRC (Governance, Risk, and Compliance) space, you write “GRC software,” “GRC tools,” and “GRC pricing”.

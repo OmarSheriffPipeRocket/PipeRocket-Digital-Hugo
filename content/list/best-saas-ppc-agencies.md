@@ -138,7 +138,7 @@ Best for: B2B SaaS that need qualified pipeline, not vanity metrics, from paid.
 | Founded | 2023 |
 | Team Size | 30+ specialists |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
-| Specialization | [SaaS PPC](/saas-ppc/), [GEO/AEO](/ai-seo-services/), revenue attribution |
+| Specialization | SaaS PPC, [GEO/AEO](/ai-seo-services/), revenue attribution |
 
 **The Approach:** We run paid search across Google and Bing plus paid social on LinkedIn, Meta, and Reddit. We don't sell impressions. We sell pipeline our clients' sales teams can actually work, and our reporting reflects that.
 

@@ -25,7 +25,7 @@ Picking the wrong growth partner can quietly burn a year of runway, so we cross-
 ## TL;DR
 
 1. **Directive Consulting:** Best for mid-market and enterprise SaaS unifying paid and organic under one revenue model.
-2. **PipeRocket Digital:** Best for B2B [SaaS](/saas-seo-agency/) teams that want growth tied to pipeline at any ARR stage.
+2. **PipeRocket Digital:** Best for B2B SaaS teams that want growth tied to pipeline at any ARR stage.
 3. **NoGood:** Best for VC-backed SaaS that needs fast experimentation across paid and product analytics.
 4. **Kalungi:** Best for early-stage SaaS hiring a fractional CMO plus an execution team in one engagement.
 5. **Refine Labs:** Best for SaaS rebuilding spend away from MQLs toward dark social and pipeline influence.

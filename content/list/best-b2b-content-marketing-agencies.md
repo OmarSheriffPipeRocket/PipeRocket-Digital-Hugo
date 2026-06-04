@@ -538,7 +538,7 @@ Best for: Enterprise B2B Companies With Large Buying Committees and Extended Sal
 | Notable Clients | Enterprise tech and healthcare brands |
 | Specialization | Enterprise content, [ABM](/glossary/what-is-abm/) integration, lead nurturing, sales enablement |
 
-**Right Call When:** You're an enterprise tech or healthcare company with complex, multi-stakeholder sales processes where content needs to nurture buying committees across 6-12 month cycles, pairing well with [account-based marketing](/glossary/what-is-abm/) outreach.
+**Right Call When:** You're an enterprise tech or healthcare company with complex, multi-stakeholder sales processes where content needs to nurture buying committees across 6-12 month cycles, pairing well with account-based marketing outreach.
 
 **Wrong Call When:** You're a startup or SMB with shorter sales cycles and simpler buying processes, or you need fast conversion content rather than long-cycle nurture infrastructure.
 
@@ -782,4 +782,4 @@ Can the agency tell you, in one number, what content contributed to closed reven
 
 ---
 
-*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2, behind Animalz, based on our [published methodology](/research-methodology/), which we apply to our own listing the same way we apply it to every other agency.*
+*Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2, behind Animalz, based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*

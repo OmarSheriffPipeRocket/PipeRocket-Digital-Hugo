@@ -50,7 +50,7 @@ Most teams never revisit old pages after launch. That’s a mistake. Google’s 
 - Craft unique title and meta tags: Write clear, specific titles and compelling meta descriptions that match the searcher’s intent and stand out in results.
 - Structure with headings: Use H1 for the main topic, H2s for subtopics, and H3s for supporting details to help both users and Google scan your content.
 - Optimize content for depth: Cover the topic fully, answer related questions, and include data, examples, and relevant entities to signal authority.
-- Add internal links: Link to related pages using descriptive [anchor text](/glossary/what-is-anchor-text/) (e.g., “SaaS PPC service” instead of “click here”) to build topical clusters.
+- Add internal links: Link to related pages using descriptive [anchor text](/glossary/what-is-anchor-text/) (e.g., “[SaaS PPC](/blogs/saas-ppc/) service” instead of “click here”) to build topical clusters.
 - Check mobile and speed: Make sure pages load fast and display well on all devices slow or broken pages lose rankings fast.
 
 ## Why Does On Page SEO Matter More Than Most Teams Realize?

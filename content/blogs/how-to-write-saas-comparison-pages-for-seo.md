@@ -294,4 +294,4 @@ This is a unique tool or section that competitors don’t have on their pages. A
 
 ### 4. Can I just list my competitor’s weaknesses in my SaaS comparison pages?
 
-No, because adding too many weaknesses will ruin the page and make it look biased. You can list weaknesses, but balance it with where they are strong, and then pivot to why *your* strengths matter more for the specific [ICP](/glossary/what-is-icp/) you are targeting.
+No, because adding too many weaknesses will ruin the page and make it look biased. You can list weaknesses, but balance it with where they are strong, and then pivot to why *your* strengths matter more for the specific ICP you are targeting.

@@ -15,13 +15,13 @@ wp_link: "/blogs/b2b-lead-generation/"
 
 One month you have leads flowing in… the next month everything slows down. 
 
-Most B2B teams face this feast-or-famine cycle. And it’s not because your market vanished or your product stopped being good,  it’s usually because your [lead generation](/glossary/what-is-lead-generation/) is relying on just one channel or one tactic that eventually slows down.
+Most B2B teams face this feast-or-famine cycle. And it’s not because your market vanished or your product stopped being good,  it’s usually because your lead generation is relying on just one channel or one tactic that eventually slows down.
 
 The deeper issue is inconsistency: buyers don’t convert after one touch anymore. They move through six, seven, sometimes eight different interactions before they even think about talking to sales. 
 
 So if you’re only showing up in one part of their journey, you disappear everywhere else.
 
-That’s why predictable B2B [lead generation](/glossary/what-is-lead-generation/) needs a multi-channel engine. And in this guide, we’ll walk you through exactly how to build that.
+That’s why predictable B2B lead generation needs a multi-channel engine. And in this guide, we’ll walk you through exactly how to build that.
 
 ## What is B2B Lead Generation?
 
@@ -29,7 +29,7 @@ B2B lead generation is the process of attracting the right businesses, getting t
 
 Here’s what it really involves:
 
-- Finding the right accounts (your [ICP](/glossary/what-is-icp/))
+- Finding the right accounts (your ICP)
 - Reaching them across multiple channels
 - Engaging them with useful content or offers
 - Capturing their details through forms, demos, or gated assets
@@ -49,7 +49,7 @@ B2B lead generation isn’t a single tactic; it’s a sequence of steps that mov
 
 ### 1. Identifying the Right Accounts & Personas
 
-Everything starts with knowing exactly who you’re targeting. A strong [ICP](/glossary/what-is-icp/) tells you which companies are worth pursuing based on industry, size, tech stack, and pain points.
+Everything starts with knowing exactly who you’re targeting. A strong ICP tells you which companies are worth pursuing based on industry, size, tech stack, and pain points.
 
 From there, build personas for each key stakeholder. Your messaging should speak to:
 
@@ -61,11 +61,11 @@ Each cares about something different, and your lead gen strategy must reflect th
 
 ### 2. Attracting Interest Through Multi-Channel Marketing
 
-Once you know your audience, show up where they already are. Relying on one channel creates an inconsistent pipeline. Buyers move across content, [SEO](/glossary/what-is-seo/), cold email, social, and ads before engaging. 
+Once you know your audience, show up where they already are. Relying on one channel creates an inconsistent pipeline. Buyers move across content, SEO, cold email, social, and ads before engaging. 
 
 A balanced mix usually includes:
 
-- **Inbound:** content, [SEO](/glossary/what-is-seo/), webinars, social posts
+- **Inbound:** content, SEO, webinars, social posts
 - **Outbound:** cold email, SDR outreach, LinkedIn messages
 - **Paid:** Google Search, LinkedIn Ads, retargeting
 
@@ -133,7 +133,7 @@ This complements our [B2B demand generation guide](/blogs/b2b-demand-generation-
 
 ### 2. SEO & Search Intent Alignment
 
-SEO still drives consistent [inbound](/blogs/b2b-inbound-marketing-guide/ "B2B Inbound Marketing Guide") leads, but intent matters more than volume. Informational keywords bring awareness, but high-intent pages move the pipeline. Your pricing page, comparison pages, solution pages, and use-case pages are doing the real heavy lifting. 
+[SEO](/glossary/what-is-seo/) still drives consistent [inbound](/blogs/b2b-inbound-marketing-guide/ "B2B Inbound Marketing Guide") leads, but intent matters more than volume. Informational keywords bring awareness, but high-intent pages move the pipeline. Your pricing page, comparison pages, solution pages, and use-case pages are doing the real heavy lifting. 
 
 Someone searching “Product A vs Product B” is far closer to buying than someone reading an intro guide. When your content aligns with these levels of intent, inbound becomes predictable instead of sporadic.
 
@@ -252,7 +252,7 @@ What gets measured improves. Tracking the right metrics helps you scale what’s
 
 ## Best Practices to Improve B2B Lead Quality
 
-Generating more leads is easy. Generating better leads is what actually drives revenue. Here’s how to improve lead generation across your funnel.
+Generating more leads is easy. Generating better leads is what actually drives revenue. Here’s how to improve [lead generation](/glossary/what-is-lead-generation/) across your funnel.
 
 For the umbrella view, see our [B2B marketing guide](/blogs/b2b-marketing/ "B2B Marketing Complete Guide").
 

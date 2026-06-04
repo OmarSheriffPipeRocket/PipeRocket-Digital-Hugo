@@ -13,9 +13,9 @@ wp_id: 2555
 wp_link: "/blogs/how-to-run-google-ads-for-saas/"
 ---
 
-I’ve sat in your chair. The pressure to fill the pipeline is real, and [Google Ads](/glossary/what-is-google-ads/) often feels like the fastest lever to pull.
+I’ve sat in your chair. The pressure to fill the pipeline is real, and Google Ads often feels like the fastest lever to pull.
 
-SaaS [Google Ads](/glossary/what-is-google-ads/) offers a massive inventory with Performance Max, Demand Gen, YouTube, and more. While these have their place, today I’m focusing exclusively on Search Ads. Why? Because in my experience in the B2B SaaS world, Search Ads is where 90% of the budget is spent and where the strongest revenue is generated.
+SaaS Google Ads offers a massive inventory with Performance Max, Demand Gen, YouTube, and more. While these have their place, today I’m focusing exclusively on Search Ads. Why? Because in my experience in the B2B SaaS world, Search Ads is where 90% of the budget is spent and where the strongest revenue is generated.
 
 Unlike other formats, Search captures high intent exactly when your prospect feels the pain and is actively looking for a solution. I’m going to pull back the curtain and walk you through the exact, step-by-step process I use to build campaigns that actually close deals.
 
@@ -119,7 +119,7 @@ Bidding on your own name.
 
 ### **How we Helped a 10M+ Revenue Generating SaaS Company Spend Less and Earn More**
 
-We recently audited a [PPC](/glossary/what-is-ppc/) account of a SaaS client and found a major flaw in their Google Ads campaign. Here’s what happened.
+We recently audited a [PPC](/glossary/what-is-ppc/) account of a SaaS client and found a major flaw in their [Google Ads](/glossary/what-is-google-ads/) campaign. Here’s what happened.
 
 ### The Problem: Spending Without Focus
 
@@ -155,7 +155,7 @@ You will hear marketers talk about the funnel all day long. But when it comes to
 - **MOFU (Middle of Funnel):** Consideration. They are comparing options.
 - **TOFU (Top of Funnel):** Awareness. They are just learning.
 
-**Here is my rule:** I generally do **not** suggest starting with TOFU for SaaS [PPC](/glossary/what-is-ppc/).
+**Here is my rule:** I generally do **not** suggest starting with TOFU for SaaS PPC.
 
 Why? Because TOFU keywords (like “What is employee engagement?”) bring in students, researchers, and people who are either irrelevant or months away from buying. It burns the budget fast.
 
@@ -241,7 +241,7 @@ Let me walk you through an **example calculation** so you can see how I derive t
    - *Math:* 2,736 × 5% = **136 Clicks**.
 3. **Conversions:** How many of those clicks become a lead? I aim for a 3% [conversion rate](/glossary/what-is-conversion-rate/) on the landing page.
    - *Math:* 136 × 3% = **~4 Conversions**.
-4. **Cost:** The average [CPC](/glossary/what-is-cost-per-click/) of the 4 keywords I target comes around “$77”
+4. **Cost:** The average CPC of the 4 keywords I target comes around “$77”
    - *Math:* 136 Clicks × $77 = **$10,472 Total Cost**.
 5. **CPA:** What is the [Cost Per Acquisition](/glossary/what-is-cpa/)?
    - *Math:* $10,472 / 4 = **$2,618 per Lead**.
@@ -304,4 +304,4 @@ Google recommends Broad Match because it helps *them* spend your budget faster. 
 
 It depends on three things: The keywords you’re focusing, and your SaaS tool’s selling price. If your target keyword has a high CPC but the forecasting tells you that bringing in a single lead costs way less than your selling price, then you’re in the clear. But, if the cost of a lead is higher than your selling price, it’s not worth it.
 
-It also depends on who your ads are reaching. If they are reaching people who are either not in your [ICP](/glossary/what-is-icp/) or searching for a different intent, then it can also increase your cost per lead. While running Google Ads for SaaS, always monitor the quality of leads to make changes to the campaigns.
+It also depends on who your ads are reaching. If they are reaching people who are either not in your ICP or searching for a different intent, then it can also increase your cost per lead. While running Google Ads for SaaS, always monitor the quality of leads to make changes to the campaigns.

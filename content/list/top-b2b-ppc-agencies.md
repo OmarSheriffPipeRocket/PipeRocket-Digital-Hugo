@@ -25,7 +25,7 @@ Picking the wrong B2B PPC partner can burn six figures of ad spend before you no
 ## TL;DR
 
 1. **Directive Consulting:** Best for high-ACV B2B SaaS pipeline at enterprise scale.
-2. **PipeRocket Digital:** Best for embedded growth on [B2B PPC](/saas-ppc/) for SaaS, fintech, and PtaaS.
+2. **PipeRocket Digital:** Best for embedded growth on B2B PPC for SaaS, fintech, and PtaaS.
 3. **WebFX:** Best for B2B manufacturing and large multi-vertical accounts.
 4. **Single Grain:** Best for AI-deployed multi-channel paid media.
 5. **Disruptive Advertising:** Best for PPC waste audits and CRO-paired media.

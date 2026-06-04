@@ -18,13 +18,13 @@ If you are running b2b ppc right now and your leads are not turning into pipelin
 ### TL;DR
 
 - B2B PPC is paid advertising targeted at business buyers, built to generate qualified pipeline rather than just clicks or leads
-- A strong b2b ppc strategy starts with [ICP](/glossary/what-is-icp/) clarity — understanding who your buyer is before a single keyword is researched
-- This b2b ppc guide covers six steps: [ICP](/glossary/what-is-icp/) mapping, keyword intent, campaign structure, ad copy, landing pages, and pipeline tracking
+- A strong b2b ppc strategy starts with ICP clarity — understanding who your buyer is before a single keyword is researched
+- This b2b ppc guide covers six steps: ICP mapping, keyword intent, campaign structure, ad copy, landing pages, and pipeline tracking
 - Most b2b ppc campaigns fail for predictable reasons that trace directly back to skipping the foundation steps covered early in this guide
 
 ## What is B2B PPC?
 
-B2B PPC, or [pay-per-click](/glossary/what-is-ppc/) advertising for business-to-business companies, is the practice of running paid ads on platforms like Google, LinkedIn, and Microsoft to reach business buyers at the moment they are searching for solutions.
+B2B PPC, or pay-per-click advertising for business-to-business companies, is the practice of running paid ads on platforms like Google, LinkedIn, and Microsoft to reach business buyers at the moment they are searching for solutions.
 
 Unlike B2C PPC where a click can lead to an immediate purchase, b2b ppc is designed to generate qualified pipeline — demo requests, trial signups, and lead captures that feed a longer sales cycle. The challenge is that B2B buying involves multiple stakeholders, longer evaluation periods, and higher acquisition costs, which means campaigns must be built around pipeline quality rather than lead volume. Done correctly, b2b ppc connects ad spend directly to closed revenue.
 
@@ -32,7 +32,7 @@ Unlike B2C PPC where a click can lead to an immediate purchase, b2b ppc is desig
 
 ## Step 1: Understand and Map Your ICP
 
-Before a single campaign goes live, you need to know exactly who you are trying to reach. This sounds obvious, but what we keep seeing is teams jumping straight into [keyword research](/glossary/what-is-keyword-research/) without first defining who their buyer actually is, what triggers them to search, and how they evaluate options.
+Before a single campaign goes live, you need to know exactly who you are trying to reach. This sounds obvious, but what we keep seeing is teams jumping straight into keyword research without first defining who their buyer actually is, what triggers them to search, and how they evaluate options.
 
 ### Who in Your Market Actually Buys
 
@@ -60,7 +60,7 @@ This matters for [PPC](/glossary/what-is-ppc/ "Glossary: PPC") because the perso
 
 ## Step 2: Map Your Keywords to Buyer Intent
 
-With your ICP mapped, [keyword research](/glossary/what-is-keyword-research/) becomes much more focused. You are not looking for the highest-volume terms. You are looking for the terms your specific buyer uses at each stage of their journey, and you are building separate campaigns around each type of intent.
+With your [ICP](/glossary/what-is-icp/) mapped, keyword research becomes much more focused. You are not looking for the highest-volume terms. You are looking for the terms your specific buyer uses at each stage of their journey, and you are building separate campaigns around each type of intent.
 
 ### Split Your Keywords Across Three Intent Tiers
 
