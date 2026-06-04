@@ -603,6 +603,16 @@ a.pr-btn--ghost:hover,
   text-transform: uppercase;
   line-height: 1;
 }
+/* Upcoming (unreleased) mega-menu items — non-clickable, dimmed */
+.pr-megamenu__link--soon {
+  opacity: 0.55;
+  cursor: default;
+  pointer-events: none;
+}
+.pr-megamenu__badge--soon {
+  background: var(--pr-muted, #9a9a9a);
+  color: #fff;
+}
 .pr-nav__item--mega:hover .pr-megamenu,
 .pr-nav__item--mega:focus-within .pr-megamenu {
   opacity: 1;
