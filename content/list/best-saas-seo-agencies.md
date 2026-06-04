@@ -60,6 +60,8 @@ We pulled verified Clutch ratings, cross-checked FeaturedCustomers profiles wher
 
 For this list, we weighted SaaS Specialization and Pipeline Attribution most heavily, because SaaS buyers get burned more often by generalist agencies that don't speak ICP, ARR, or CAC than by retainer size, and because vanity-traffic reporting is the most common reason SaaS marketing leaders fire their SEO partner mid-contract.
 
+Narrowing by stage or go-to-market motion? We keep dedicated shortlists for [Series A](/list/best-saas-seo-agencies-for-series-a/), [Series B](/list/best-saas-seo-agencies-for-series-b/), [product-led growth](/list/best-saas-seo-agencies-for-product-led-growth/), and [sales-led growth](/list/best-saas-seo-agencies-for-sales-led-growth/) SaaS companies.
+
 For the full process, every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy, read [our research methodology and editorial policy](/research-methodology/).
 
 ## Detailed Comparison
