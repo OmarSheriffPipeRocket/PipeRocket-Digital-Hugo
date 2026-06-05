@@ -6310,12 +6310,29 @@ main table a,
   border-radius: 5px;
   padding: 12px;
   transition: border-color 0.15s, transform 0.15s;
+  position: relative;
+  cursor: pointer;
 }
 .pr-bloglist__card[hidden] { display: none; }
 .pr-bloglist__card:hover {
   border-color: var(--pr-cyan);
   transform: translateY(-2px);
   box-shadow: 0 0 14px 4px rgba(11, 165, 224, 0.35);
+}
+/* Stretch the title link into a full-card click target via ::after overlay.
+   Author / category links sit above it via z-index so they remain clickable. */
+.pr-bloglist__title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: 5px;
+}
+.pr-bloglist__cat,
+.pr-bloglist__thumb,
+.pr-bloglist__author a {
+  position: relative;
+  z-index: 1;
 }
 .pr-bloglist__body {
   display: flex;
