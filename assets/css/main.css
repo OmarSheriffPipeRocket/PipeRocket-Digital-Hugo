@@ -12380,6 +12380,9 @@ body.pr-modal-open { overflow: hidden; }
   display: flex;
   flex-direction: column;
   position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 .pr-about__team-card-photo-wrap {
   position: relative;

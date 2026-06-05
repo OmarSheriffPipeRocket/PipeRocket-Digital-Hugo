@@ -113,7 +113,7 @@
         }}
 
         {{ range $members }}
-        <article class="pr-about__team-card">
+        <a href="{{ .linkedin }}" target="_blank" rel="noopener" class="pr-about__team-card" aria-label="{{ .name }} on LinkedIn">
           <div class="pr-about__team-card-photo-wrap">
             {{/* Default state: doodle frame + photo */}}
             <img src="{{ .frame }}" alt="" class="pr-about__team-card-frame pr-about__team-card-frame--default" aria-hidden="true" loading="lazy">
@@ -128,10 +128,10 @@
                 <strong class="pr-about__team-card-name">{{ .name }}</strong>
                 <span class="pr-about__team-card-role">{{ .role }}</span>
               </div>
-              <a href="{{ .linkedin }}" target="_blank" rel="noopener" class="pr-about__team-card-li" aria-label="{{ .name }} on LinkedIn"></a>
+              <span class="pr-about__team-card-li" aria-hidden="true"></span>
             </div>
           </div>
-        </article>
+        </a>
         {{ end }}
 
         <article class="pr-about__team-card pr-about__team-card--cta">
