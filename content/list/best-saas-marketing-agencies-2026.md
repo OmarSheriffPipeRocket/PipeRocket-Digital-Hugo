@@ -669,3 +669,7 @@ Promises of rankings or lead volume before an ICP conversation. SaaS marketing w
 ### How long before a new SaaS marketing engagement shows pipeline impact?
 
 Paid channels show pipeline contribution in 30-60 days; SEO and content take 6-9 months to compound. Honest agencies sequence quick wins vs compounding bets.
+
+## Update History
+
+- **April 17, 2026:** Published.

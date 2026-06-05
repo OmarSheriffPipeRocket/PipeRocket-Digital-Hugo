@@ -749,3 +749,7 @@ Buying generic B2B demand gen without checking whether the agency has named mart
 ### How quickly can a martech agency produce pipeline results?
 
 Paid programs show pipeline contribution in 60-90 days. SEO and content take 3-6 months. Demand creation compounds over 6-12 months as authority accrues.
+
+## Update History
+
+- **April 28, 2026:** Published.

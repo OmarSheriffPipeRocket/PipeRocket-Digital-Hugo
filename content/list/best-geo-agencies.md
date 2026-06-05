@@ -730,3 +730,7 @@ Hire a specialist if AI visibility is your top growth blocker. Hire a generalist
 ### How long does GEO take to show results?
 
 Most target a 6-12 month horizon for measurable citation movement. Enterprise thought-leadership programs like First Page Sage run on a 12-24 month model.
+
+## Update History
+
+- **April 1, 2026:** Published.

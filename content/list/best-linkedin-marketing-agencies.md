@@ -707,3 +707,7 @@ Some do, some don't. B2Linked and Remotion are Ads-only. Sculpt and Linkedist co
 ### How long until LinkedIn Ads show pipeline impact?
 
 Most B2B SaaS teams see meaningful pipeline signal at 90-120 days with tight ICP. ABM enterprise motions often need 6+ months for closed-won.
+
+## Update History
+
+- **April 29, 2026:** Published.

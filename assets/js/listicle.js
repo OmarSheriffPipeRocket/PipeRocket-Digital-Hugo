@@ -177,9 +177,32 @@
     });
   }
 
+  /* ─── Update History — card wrap ───────────────────────────────────────
+     Authors write a plain `## Update History` section (a bulleted list of
+     dated, material changes) as the LAST section of the article, after the
+     FAQs. Wrap that H2 + its list into a styled card that matches the author
+     card's background, so it reads as a companion block beneath the FAQs. */
+  function wrapUpdateHistory() {
+    var h2 = Array.from(main.querySelectorAll('h2')).find(function (h) {
+      return /^\s*update history\s*$/i.test(h.textContent || '');
+    });
+    if (!h2 || h2.closest('.pr-update-history')) return;
+    var section = el('section', 'pr-update-history');
+    h2.parentNode.insertBefore(section, h2);
+    /* Update History is the last section, so absorb the H2 and every node
+       that follows it into the card. */
+    var node = section.nextSibling;
+    while (node) {
+      var next = node.nextSibling;
+      section.appendChild(node);
+      node = next;
+    }
+  }
+
   function init() {
     stripEmptyTableHeaders();
     highlightPipeRocketRow();
+    wrapUpdateHistory();
     buildSidebarTOC();
     setupMobileTOCToggle();
   }

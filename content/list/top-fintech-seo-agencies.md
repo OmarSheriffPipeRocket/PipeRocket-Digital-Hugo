@@ -664,3 +664,7 @@ You can run them under one vendor if their AEO/GEO offer is integrated, not bolt
 ### What disqualifies an SEO agency for a fintech buyer?
 
 Disqualify any agency that can't show a compliance-aware content workflow, refuses to instrument attribution back to closed-won, or cites only traffic and impression metrics as proof of value.
+
+## Update History
+
+- **November 19, 2025:** Published.

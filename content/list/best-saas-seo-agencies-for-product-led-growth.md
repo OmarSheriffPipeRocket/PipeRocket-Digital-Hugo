@@ -799,3 +799,7 @@ Most do. Graphite, Skale, Omniscient, MADX, and PipeRocket all run GEO or AEO, w
 ### Is PipeRocket a fit for a pure self-serve freemium product?
 
 It's strongest for sales-assisted PLG. For a pure self-serve motion it adds a BOFU, GEO/AEO, and technical layer, not a standalone programmatic-page engine.
+
+## Update History
+
+- **June 4, 2026:** Published.

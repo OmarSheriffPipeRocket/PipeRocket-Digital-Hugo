@@ -817,3 +817,7 @@ Property manager, landlord, or REIT buyers: hire a specialist (Insivia, Geekly, 
 ### What should I check before signing with a proptech marketing agency?
 
 Verify named proptech clients, a live proptech vertical page, Clutch profile links, and unprompted fluency in your dual audience (operator + end user).
+
+## Update History
+
+- **April 28, 2026:** Published.

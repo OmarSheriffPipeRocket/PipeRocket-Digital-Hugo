@@ -649,3 +649,7 @@ Cross-check Clutch and G2, match case studies to real client URLs, ask for refer
 ### What disqualifies a performance marketing agency?
 
 No public review base, opaque pricing with vague case studies, unverifiable Clutch slugs, or refusal to share attribution methodology in discovery.
+
+## Update History
+
+- **November 7, 2025:** Published.

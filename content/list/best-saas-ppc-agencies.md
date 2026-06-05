@@ -718,3 +718,7 @@ Most scope by ad spend, channel mix, and ACV, so a public number rarely fits. Bo
 ### Which SaaS PPC agencies have the deepest verified Clutch evidence?
 
 KlientBoost has 402 reviews, Disruptive 365, and NinjaPromo 82. Powered by Search, Kalungi, and NoGood have 0-1 reviews despite live profiles.
+
+## Update History
+
+- **March 12, 2026:** Published.

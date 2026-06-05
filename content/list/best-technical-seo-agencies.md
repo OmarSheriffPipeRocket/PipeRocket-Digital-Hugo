@@ -640,3 +640,7 @@ Ask for case studies with named brands, whether they have a dedicated tech SEO p
 ### Which agency is best for JavaScript-heavy sites?
 
 Onely and iPullRank both productize JS SEO. Onely has the longest pure-play track record; iPullRank pairs it with the Relevance Engineering framework.
+
+## Update History
+
+- **April 13, 2026:** Published.

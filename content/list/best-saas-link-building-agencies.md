@@ -648,3 +648,7 @@ The best ones do. AI models cite authoritative publications. Links from those so
 ### How do I verify an agency's "no PBN" claim?
 
 Ask for sample placements and check organic traffic of those domains in Ahrefs or Semrush. PBNs typically show low traffic despite high DR.
+
+## Update History
+
+- **April 13, 2026:** Published.

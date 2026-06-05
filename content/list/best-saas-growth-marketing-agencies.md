@@ -672,3 +672,7 @@ Single-channel entry: $2K-$5K/mo. Multi-channel growth retainers: $5K-$15K/mo. F
 ### How do I verify an agency's actual track record?
 
 Check the live Clutch profile, cross-reference named clients against the agency's case-studies page, and read FeaturedCustomers and LinkedIn references.
+
+## Update History
+
+- **April 14, 2026:** Published.

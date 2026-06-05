@@ -759,3 +759,7 @@ Most leading enterprise SEO agencies now run generative engine optimisation alon
 ### How do I verify an agency's claims during procurement?
 
 Cross-check Clutch and G2 reviews, ask for two direct references at similar scale, request a sample monthly report, and pressure-test the case studies on the agency's site against published outcomes.
+
+## Update History
+
+- **October 29, 2025:** Published.

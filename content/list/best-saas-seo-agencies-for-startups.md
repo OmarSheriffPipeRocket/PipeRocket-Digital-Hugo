@@ -864,3 +864,7 @@ Generally no. Stick to month-to-month or 3-month minimums until pipeline attribu
 ### Why are TripleDart, Animalz, and First Page Sage shown without Clutch ratings?
 
 All three have Clutch profiles but zero verified reviews. We don't fabricate ratings, so we list them as "Verified on Clutch (0 reviews)".
+
+## Update History
+
+- **March 29, 2026:** Published.

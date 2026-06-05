@@ -797,3 +797,7 @@ Most credible agencies now run GEO alongside SEO so the brand surfaces when buyi
 ### How do I verify a sales-led SEO agency's claims?
 
 Cross-check Clutch and FeaturedCustomers, request two references at similar ARR, and ask for a sample pipeline report tied to CRM data.
+
+## Update History
+
+- **June 4, 2026:** Published.

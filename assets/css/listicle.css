@@ -464,6 +464,40 @@
   .pr-author-card { flex-direction: column; align-items: flex-start; }
 }
 
+/* ---------- Update History ---------- */
+.pr-update-history {
+  background: #e5e0d8;
+  border-radius: 8px;
+  padding: 32px;
+  margin: 48px 0 0;
+}
+.pr-update-history h2 {
+  margin: 0 0 16px;
+  padding: 0;
+  border: 0;
+  font-family: "IvyPresto Headline", Georgia, serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #111;
+}
+.pr-update-history ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pr-update-history li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #4a4a4a;
+  line-height: 1.6;
+  margin: 0;
+  padding: 12px 0;
+  border-top: 1px solid rgba(17, 17, 17, 0.1);
+}
+.pr-update-history li::before { content: none; }
+.pr-update-history li:first-child { border-top: 0; padding-top: 0; }
+.pr-update-history li strong { color: #111; font-weight: 600; }
+
 /* ---------- Methodology section ---------- */
 .pr-listicle-v2__method { margin: 32px 0 48px; }
 .pr-listicle-v2__method-title {

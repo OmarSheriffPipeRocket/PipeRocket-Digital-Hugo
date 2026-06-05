@@ -729,3 +729,7 @@ Engineer-written content starts ~$9,000/mo. B2B SaaS demand-gen retainers run $5
 ### How do I measure ROI from a devtools marketing agency?
 
 Track pipeline contribution, qualified opportunities, and closed revenue in one report. Tutorial views, GitHub stars, or MQL counts alone are vanity.
+
+## Update History
+
+- **April 24, 2026:** Published.

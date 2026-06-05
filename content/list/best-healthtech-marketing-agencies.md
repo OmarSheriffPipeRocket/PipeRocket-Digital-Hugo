@@ -647,3 +647,7 @@ Startup retainers run $3,000-$7,000/mo. Growth-stage demand gen $5,000-$15,000/m
 ### Why were two agencies dropped from this version of the list?
 
 Real Chemistry and Klick Health are pharma communications giants, not B2B healthtech SaaS demand-gen partners. Their book is drug launches, not software.
+
+## Update History
+
+- **April 24, 2026:** Published.

@@ -819,3 +819,7 @@ Useful but incomplete. GrowthMode, Red Branch, Firebrand, and Kalungi all have z
 ### Should I hire an HR-tech specialist or a generalist B2B agency?
 
 Hire a specialist when buyer fluency matters (HCM, payroll, ATS). Hire a B2B SaaS generalist when sales motion is the bottleneck and positioning is set.
+
+## Update History
+
+- **April 28, 2026:** Published.

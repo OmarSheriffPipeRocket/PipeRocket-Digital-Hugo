@@ -735,3 +735,7 @@ Ask for case studies from companies at your ACV, ARR stage, and buyer persona. N
 ### Should I pick an agency with public pricing or custom quotes?
 
 Public pricing speeds procurement; custom quotes usually mean deeper scoping. Either fits depending on whether you want a tier card or a tailored pod.
+
+## Update History
+
+- **November 4, 2025:** Published.

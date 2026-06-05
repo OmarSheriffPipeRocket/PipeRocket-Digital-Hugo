@@ -973,3 +973,7 @@ A paid media audit ($2,500-$8,000 one-time) before any retainer commitment. SMB 
 ---
 
 *Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2 based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*
+
+## Update History
+
+- **April 13, 2026:** Published.

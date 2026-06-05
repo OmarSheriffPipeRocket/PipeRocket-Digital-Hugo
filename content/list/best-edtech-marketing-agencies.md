@@ -545,3 +545,7 @@ Yes. District RFPs, state funding cycles, and university IT review boards shape 
 ### Is it better to hire a generalist B2B agency or an edtech-only shop?
 
 Edtech-only shops win on buyer language and category references; generalists win on scale and channel depth. Match it to your bottleneck.
+
+## Update History
+
+- **November 19, 2025:** Published.

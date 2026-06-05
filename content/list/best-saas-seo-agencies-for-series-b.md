@@ -748,3 +748,7 @@ Most do. MADX, Skale, Minuttia, and Omniscient build GEO and AEO into the core p
 ### How do I verify a Series B SaaS SEO agency during procurement?
 
 Cross-check Clutch and G2, ask for two references at similar ARR, request a migration or large-site case study, and ask who staffs the account day to day.
+
+## Update History
+
+- **June 4, 2026:** Published.

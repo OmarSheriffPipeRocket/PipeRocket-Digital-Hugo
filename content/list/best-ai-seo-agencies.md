@@ -754,3 +754,7 @@ Plan for 60 to 90 days for AI search visibility signal (LLM citations, AI Overvi
 ---
 
 *Editor's note: PipeRocket Digital is the publisher of this list. We've ranked ourselves at #2, behind iPullRank, based on our published methodology, which we apply to our own listing the same way we apply it to every other agency.*
+
+## Update History
+
+- **June 2, 2026:** Published.

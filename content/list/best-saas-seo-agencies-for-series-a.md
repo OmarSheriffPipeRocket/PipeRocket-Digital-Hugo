@@ -797,3 +797,7 @@ Most do now. Confirm the team treats GEO and AEO as a discipline owned in-house,
 ### How do I verify a SaaS SEO agency's claims during procurement?
 
 Cross-check Clutch and FeaturedCustomers, ask for two references at similar ARR, and request a sample monthly report tied to pipeline.
+
+## Update History
+
+- **June 4, 2026:** Published.
