@@ -1,0 +1,8 @@
+{{- /* Markdown link render hook: open article/content body links in a new tab.
+       Applies only to links generated from markdown (.Content / RenderString) —
+       nav, header, footer, and CTA buttons are hardcoded HTML and are untouched.
+       Same-page anchor links (#…) stay in the same tab so in-content jump links
+       (TOCs, FAQ jumps) behave normally. */ -}}
+{{- $dest := .Destination -}}
+{{- $isAnchor := hasPrefix $dest "#" -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if not $isAnchor }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
