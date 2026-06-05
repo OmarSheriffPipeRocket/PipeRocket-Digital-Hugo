@@ -800,4 +800,5 @@ Cross-check Clutch and FeaturedCustomers, ask for two references at similar ARR,
 
 ## Update History
 
+- **June 5, 2026:** Added MADX Digital news (mid-market positioning shift, May 2026); updated RevenueZen Clutch profile and risk note (confirmed senior-leader departures).
 - **June 4, 2026:** Published.

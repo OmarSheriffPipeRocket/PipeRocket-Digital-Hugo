@@ -757,4 +757,5 @@ Plan for 60 to 90 days for AI search visibility signal (LLM citations, AI Overvi
 
 ## Update History
 
+- **June 5, 2026:** Added iPullRank news (SEO Week 2026); added MADX Digital news (mid-market and enterprise positioning shift, May 2026); updated RevenueZen Clutch profile URL and limitation note (confirmed senior-leader departures).
 - **June 2, 2026:** Published.

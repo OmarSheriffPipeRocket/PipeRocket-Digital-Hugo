@@ -675,4 +675,5 @@ Check the live Clutch profile, cross-reference named clients against the agency'
 
 ## Update History
 
+- **June 4, 2026:** Corrected PipeRocket Digital Clutch rating to 4.7/5 (13 reviews).
 - **April 14, 2026:** Published.
