@@ -216,6 +216,20 @@ const setupGlossarySearch = () => {
 
   let activeIdx = -1;
 
+  // ── Site-search tracking: debounced dataLayer push (fires ~1s after typing stops,
+  //    once per distinct term, with the result count so zero-result searches are visible) ──
+  const searchSection = wrap.dataset.searchSection || (location.pathname.split('/').filter(Boolean)[0] || 'site');
+  let searchTimer = null, lastTrackedTerm = '';
+  const trackSearch = (term, count) => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      if (term === lastTrackedTerm) return;
+      lastTrackedTerm = term;
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'site_search', search_term: term, results_count: count, search_section: searchSection });
+    }, 1000);
+  };
+
   const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const escapeHtml = (s) => String(s || '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const highlight = (text, q) => escapeHtml(text).replace(new RegExp(escapeRegExp(q), 'gi'), (m) => `<mark>${m}</mark>`);
@@ -244,12 +258,14 @@ const setupGlossarySearch = () => {
       activeIdx = -1;
       return;
     }
-    const matches = index.filter((item) =>
+    const allMatches = index.filter((item) =>
       item.title.toLowerCase().includes(q) ||
       (item.definition && item.definition.toLowerCase().includes(q))
-    ).slice(0, 8);
+    );
+    const matches = allMatches.slice(0, 8);
     activeIdx = -1;
     render(matches, q);
+    trackSearch(q, allMatches.length);
   };
 
   input.addEventListener('input', search);

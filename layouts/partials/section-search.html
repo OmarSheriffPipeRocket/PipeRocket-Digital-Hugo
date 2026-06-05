@@ -10,7 +10,7 @@
 {{ $section := .section }}
 {{ $placeholder := default (printf "Search %s…" $section) .placeholder }}
 
-<div class="pr-search pr-glossary__search-top" data-pr-search>
+<div class="pr-search pr-glossary__search-top" data-pr-search data-search-section="{{ $section }}">
   <svg class="pr-search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <circle cx="11" cy="11" r="7"/><path d="m20 20-4.35-4.35"/>
   </svg>
