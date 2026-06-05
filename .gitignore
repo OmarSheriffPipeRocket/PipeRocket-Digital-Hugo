@@ -52,3 +52,6 @@ deno.lock
 
 # Local video scripts (drafts, not for publish)
 /video-script-*.md
+
+# Experience Bank — internal writing asset with client data; local only, not for publish
+/data/experience-bank.md
