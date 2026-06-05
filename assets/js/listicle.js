@@ -189,10 +189,12 @@
     if (!h2 || h2.closest('.pr-update-history')) return;
     var section = el('section', 'pr-update-history');
     h2.parentNode.insertBefore(section, h2);
-    /* Update History is the last section, so absorb the H2 and every node
-       that follows it into the card. */
+    /* Absorb the H2 and the entries that follow it, but STOP at the author
+       card (a sibling rendered after .Content) so it stays a separate box. */
     var node = section.nextSibling;
     while (node) {
+      if (node.nodeType === 1 && node.classList &&
+          node.classList.contains('pr-author-card')) break;
       var next = node.nextSibling;
       section.appendChild(node);
       node = next;
