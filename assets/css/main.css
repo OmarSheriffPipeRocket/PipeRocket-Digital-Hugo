@@ -5966,6 +5966,29 @@ a.pr-footer__trust-item:hover {
 .pr-compare__body a:hover,
 .pr-vs__body a:hover { background: var(--pr-cyan-soft); }
 
+/* Button CTAs inside prose (e.g. the author-card "View full profile") are
+   styled as solid buttons — strip the inherited cyan underline and its hover
+   background so no blue band shows at the button's edge. */
+.pr-blog__body a.pr-btn,
+.pr-blog-v2__main a.pr-btn,
+.pr-glossary__body a.pr-btn,
+.pr-listicle__body a.pr-btn,
+.pr-listicle-v2__main a.pr-btn,
+.pr-alt__body a.pr-btn,
+.pr-compare__body a.pr-btn,
+.pr-vs__body a.pr-btn,
+.pr-blog__body a.pr-btn:hover,
+.pr-blog-v2__main a.pr-btn:hover,
+.pr-glossary__body a.pr-btn:hover,
+.pr-listicle__body a.pr-btn:hover,
+.pr-listicle-v2__main a.pr-btn:hover,
+.pr-alt__body a.pr-btn:hover,
+.pr-compare__body a.pr-btn:hover,
+.pr-vs__body a.pr-btn:hover {
+  border-bottom: none;
+  background: var(--pr-btn-blue, #0BA6E2);
+}
+
 /* Inside table cells, drop the cyan underline and use cyan text instead —
    keeps tables visually quieter than prose. */
 .pr-blog__body table a,
@@ -12155,14 +12178,18 @@ body.pr-modal-open { overflow: hidden; }
 .pr-about__letter-sig p.pr-about__letter-sig-kicker { font-size: 14px !important; }
 .pr-about__letter-sig-line { display: inline; }
 
+/* The full letter stays visible from the start at a low base opacity;
+   the scroll-triggered animation brightens each character up to full,
+   sweeping left-to-right via the per-char stagger set in main.js. */
 .pr-letter-ch {
-  opacity: 0;
+  opacity: 0.22;
+  transition: opacity 0.1s ease-out;
 }
-.pr-about__letter.is-typing .pr-letter-ch {
-  animation: pr-letter-type 0.01s linear forwards;
+.pr-letter-ch.is-lit {
+  opacity: 1;
 }
-@keyframes pr-letter-type {
-  to { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .pr-letter-ch { opacity: 1 !important; transition: none !important; }
 }
 .pr-about__letter-photo {
   position: absolute;

@@ -1431,7 +1431,10 @@ const setupStickyGlossarySearch = () => {
   io.observe(sentinel);
 };
 
-// Typewriter reveal for the About page letter
+// Scroll-linked reveal for the About page letter.
+// The full letter is visible at a low base opacity; as the reader scrolls
+// through it, characters brighten to full progressively (and dim again on
+// scroll-up). Each character eases via the CSS transition on .pr-letter-ch.
 const setupAboutLetterTypewriter = () => {
   const letter = document.querySelector('.pr-about__letter');
   if (!letter) return;
@@ -1441,22 +1444,20 @@ const setupAboutLetterTypewriter = () => {
   );
   if (!targets.length) return;
 
-  let charIndex = 0;
-  const PER_CHAR_MS = 12;
+  // Higher = the whole letter finishes revealing over less scrolling (faster).
+  const SPEED = 1.2;
 
+  const chars = [];
   const wrapTextNodes = (node) => {
     for (const child of [...node.childNodes]) {
       if (child.nodeType === Node.TEXT_NODE) {
-        const text = child.textContent;
         const frag = document.createDocumentFragment();
-        for (const ch of text) {
+        for (const ch of child.textContent) {
           const span = document.createElement('span');
           span.className = 'pr-letter-ch';
           span.textContent = ch;
-          span.style.setProperty('--i', charIndex);
-          span.style.animationDelay = (charIndex * PER_CHAR_MS) + 'ms';
           frag.appendChild(span);
-          charIndex++;
+          chars.push(span);
         }
         child.replaceWith(frag);
       } else if (child.nodeType === Node.ELEMENT_NODE) {
@@ -1466,18 +1467,38 @@ const setupAboutLetterTypewriter = () => {
   };
   targets.forEach(wrapTextNodes);
 
-  const io = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((e) => {
-        if (e.isIntersecting) {
-          letter.classList.add('is-typing');
-          io.disconnect();
-        }
-      });
-    },
-    { threshold: 0.25 }
-  );
-  io.observe(letter);
+  const total = chars.length;
+  let litCount = 0;
+  let ticking = false;
+
+  const update = () => {
+    ticking = false;
+    const rect = letter.getBoundingClientRect();
+    const vh = window.innerHeight || document.documentElement.clientHeight;
+    // progress 0 when the letter's top sits at 80% of the viewport; the scroll
+    // distance to full reveal is compressed by SPEED so it completes sooner.
+    const startY = vh * 0.8;
+    const distance = (rect.height + startY - vh * 0.4) / SPEED;
+    let progress = (startY - rect.top) / distance;
+    if (progress < 0) progress = 0;
+    else if (progress > 1) progress = 1;
+
+    const target = Math.round(progress * total);
+    if (target === litCount) return;
+    if (target > litCount) {
+      for (let i = litCount; i < target; i++) chars[i].classList.add('is-lit');
+    } else {
+      for (let i = target; i < litCount; i++) chars[i].classList.remove('is-lit');
+    }
+    litCount = target;
+  };
+
+  const onScroll = () => {
+    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll, { passive: true });
+  update();
 };
 
 if (document.readyState === 'loading') {
