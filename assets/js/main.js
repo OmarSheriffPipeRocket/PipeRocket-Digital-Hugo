@@ -1439,9 +1439,9 @@ const setupAboutLetterTypewriter = () => {
   const letter = document.querySelector('.pr-about__letter');
   if (!letter) return;
 
-  const targets = letter.querySelectorAll(
-    '.pr-about__letter-body > p, .pr-about__letter-sig-kicker, .pr-about__letter-sig-name, .pr-about__letter-sig-role'
-  );
+  // Only the body paragraphs get the scroll-linked reveal — the signature
+  // (kicker / name / role) stays at full opacity the whole time.
+  const targets = letter.querySelectorAll('.pr-about__letter-body > p');
   if (!targets.length) return;
 
   // Higher = the whole letter finishes revealing over less scrolling (faster).
