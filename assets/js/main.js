@@ -905,6 +905,7 @@ const init = () => {
   setupAlsoReadCallouts();
   setupFactCallouts();
   setupCtaModal();
+  setupDemoFunnelTracking();
   setupStoriesFilter();
   setupReviewsFilter();
   setupClutchAccordion();
@@ -1259,6 +1260,7 @@ const setupCtaModal = () => {
 
   const open = (ctaSource) => {
     applyUtmParams(ctaSource);
+    window.__prCtaSource = ctaSource || 'header_cta';
     lastFocused = document.activeElement;
     modal.hidden = false;
     document.body.classList.add('pr-modal-open');
@@ -1283,6 +1285,28 @@ const setupCtaModal = () => {
   });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && !modal.hidden) close();
+  });
+};
+
+// ── Demo funnel tracking (site-wide, single source of truth) ──────────────
+// Fires for BOTH the global funnel-audit modal (header/blog/listicle/etc.)
+// and the contact-us inline form, since they share one HubSpot form. Lives
+// here (not per-page) so a submit is counted exactly once, anywhere.
+//   Event 1: demo_form_submit — HubSpot form submitted (lead captured)
+//   Event 2: demo_booked      — booking completed in Praveen's Meetings iframe
+const setupDemoFunnelTracking = () => {
+  window.addEventListener('message', (e) => {
+    if (!e.data) return;
+    const push = (event) => {
+      // CTA source now arrives as utm_medium on the /contact-us/ link (set on every CTA).
+      let src = window.__prCtaSource;
+      if (!src) { try { src = new URLSearchParams(window.location.search).get('utm_medium'); } catch (err) {} }
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event, cta_source: src || 'contact-page' });
+    };
+    // Only the final submit (onFormSubmitted), not the pre-submit validation pass.
+    if (e.data.type === 'hsFormCallback' && e.data.eventName === 'onFormSubmitted') push('Contact_Form_Submission');
+    if (e.data.meetingBookSucceeded) push('demo_booked');
   });
 };
 

@@ -6,9 +6,12 @@
       <p>Senior pod runs your account from day one. Pipeline target written into the SOW — if we don't move the needle, cancel any month with zero penalty. We're picking 4 B2B SaaS brands this quarter.</p>
     </div>
     <div class="pr-article-cta__action">
-      {{- $ctaSource := "blog-inline-pilot" -}}
-      {{- if eq .Type "list" }}{{- $ctaSource = "listicle-inline-pilot" -}}{{ end -}}
-      <button type="button" class="pr-btn" data-modal-trigger="funnel-audit" data-cta-source="{{ $ctaSource }}">Claim a pilot slot</button>
+      {{/* Section-aware CTA label: blogs→blog, list→listicle, else the section name (alternative, glossary, compare, vs…). */}}
+      {{- $seg := .Section -}}
+      {{- $segMap := dict "list" "listicle" "blogs" "blog" -}}
+      {{- with index $segMap $seg }}{{ $seg = . }}{{ end -}}
+      {{- if not $seg }}{{ $seg = "page" }}{{ end -}}
+      <a href="/contact-us/?utm_source=site&amp;utm_medium={{ $seg }}-inline-pilot&amp;utm_campaign=free_funnel_audit" class="pr-btn" data-cta-source="{{ $seg }}-inline-pilot">Claim a pilot slot</a>
     </div>
   </div>
 </aside>
