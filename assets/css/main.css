@@ -2577,7 +2577,7 @@ a.pr-hero__cta:hover,
 .pr-cta-final__mark {
   position: absolute;
   left: max(3%, calc(50% - 760px));
-  top: -2%;
+  top: 20%;
   width: 240px;
   height: auto;
   pointer-events: none;
@@ -2589,7 +2589,7 @@ a.pr-hero__cta:hover,
 .pr-cta-final__phone {
   position: absolute;
   right: max(0px, calc(50% - 800px));
-  top: -14%;
+  top: 8%;
   width: 320px;
   height: auto;
   pointer-events: none;
