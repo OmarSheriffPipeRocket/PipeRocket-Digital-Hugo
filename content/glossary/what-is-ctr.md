@@ -131,4 +131,4 @@ No a high CTR means more clicks, but not necessarily more revenue or qualified l
 
 ## The Bottom Line
 
-CTR is a directional signal, not the finish line. The best SaaS teams use it as a health check tying every click back to intent and revenue, not just volume. If you want to get beyond vanity metrics, [reach out](https://www.piperocket.co/contact) or see how [our SaaS SEO approach](https://www.piperocket.co/saas-seo) puts CTR in context with real revenue outcomes.
+CTR is a directional signal, not the finish line. The best SaaS teams use it as a health check tying every click back to intent and revenue, not just volume. If you want to get beyond vanity metrics, [reach out](https://piperocket.digital/contact-us/) or see how [our SaaS SEO approach](https://piperocket.digital/saas-seo-agency/) puts CTR in context with real revenue outcomes.

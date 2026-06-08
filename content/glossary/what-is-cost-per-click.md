@@ -89,7 +89,7 @@ Trackflow, the project management tool for creative agencies, doubled down on hi
 
 Real trade-off: Investing in high-CPC keywords gives you higher intent and better LTV, but it can drain your budget if your sales process or onboarding isn’t ready to close and retain those customers. It’s worth paying more per click when you have proven product-market fit and a sales motion that can actually convert.
 
-**Also read:** [SaaS PPC service options for teams scaling paid search](https://www.piperocket.co/saas-ppc)
+**Also read:** [SaaS PPC service options for teams scaling paid search](https://piperocket.digital/saas-ppc/)
 
 ## What Are the Most Common CPC Mistakes SaaS Teams Make?
 
@@ -123,4 +123,4 @@ To lower CPC without sacrificing conversions, tighten your targeting, use negati
 
 ## The Bottom Line
 
-Cost per click is a useful metric, but chasing the lowest CPC is a trap. Use CPC as a signal to find the highest-intent, most profitable customer acquisition paths not as a vanity number. If you want to get serious about paid search ROI, [get in touch with our team](https://www.piperocket.co/contact). For a deep dive into [SaaS PPC service options](https://www.piperocket.co/saas-ppc), see how we bridge paid and organic for lasting growth.
+Cost per click is a useful metric, but chasing the lowest CPC is a trap. Use CPC as a signal to find the highest-intent, most profitable customer acquisition paths not as a vanity number. If you want to get serious about paid search ROI, [get in touch with our team](https://piperocket.digital/contact-us/). For a deep dive into [SaaS PPC service options](https://piperocket.digital/saas-ppc/), see how we bridge paid and organic for lasting growth.

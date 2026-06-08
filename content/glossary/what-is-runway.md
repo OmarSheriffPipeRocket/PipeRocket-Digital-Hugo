@@ -130,4 +130,4 @@ If you’re at a stage where marketing efficiency matters as much as volume, the
 
 Runway is one of the most consequential numbers in your business not because it predicts failure, but because it shapes every decision you make between now and your next milestone. Manage it actively, update it monthly, and treat it as a strategic tool rather than a reporting obligation.
 
-If you want to make your marketing spend work harder against a tight cash position, explore our [SaaS PPC service](https://www.piperocket.co/saas-ppc) or [get in touch with our team](https://www.piperocket.co/contact) to talk through where your growth investment should go next.
+If you want to make your marketing spend work harder against a tight cash position, explore our [SaaS PPC service](https://piperocket.digital/saas-ppc/) or [get in touch with our team](https://piperocket.digital/contact-us/) to talk through where your growth investment should go next.

@@ -155,4 +155,4 @@ SSL and TLS both refer to protocols for encrypting web traffic. SSL (Secure Sock
 
 SSL certificates aren’t just a technical checkbox they’re the front line of trust, SEO, and conversion for any SaaS or B2B business. Get it right once, automate renewals, and you’ll never have to worry about browser warnings or lost leads again.
 
-If you want technical guidance or a second set of eyes on your setup, [reach out via our contact page](https://www.piperocket.co/contact). Or see how our [SaaS SEO service](https://www.piperocket.co/saas-seo) helps SaaS companies build authority and trust from the first click.
+If you want technical guidance or a second set of eyes on your setup, [reach out via our contact page](https://piperocket.digital/contact-us/). Or see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) helps SaaS companies build authority and trust from the first click.

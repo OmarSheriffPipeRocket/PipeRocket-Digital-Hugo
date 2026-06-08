@@ -105,7 +105,7 @@ The warning here: This approach works well for SaaS products with active, invest
 
 Consider “Forecastly,” a SaaS for finance teams. They found that sending a personal invite to power users after a big feature launch asking for a two-minute “what changed in your workflow?” video yielded more authentic content than any generic “please review us” campaign.
 
-**Also read:** [SaaS SEO service: integrating UGC into your content strategy](https://www.piperocket.co/saas-seo)
+**Also read:** [SaaS SEO service: integrating UGC into your content strategy](https://piperocket.digital/saas-seo-agency/)
 
 ## What Are the Risks and Trade-Offs of Relying on User Generated Content?
 
@@ -121,7 +121,7 @@ Here’s a nuanced warning: UGC works best for products that deliver value users
 
 A contrarian insight: Most SaaS teams try to filter out all critical feedback before promoting UGC, thinking it protects the brand. That’s backwards. Mixed reviews and honest discussion actually boost trust so long as you’re seen publicly responding and improving.
 
-**Also read:** [SaaS PPC service: using paid search to amplify high-impact UGC](https://www.piperocket.co/saas-ppc)
+**Also read:** [SaaS PPC service: using paid search to amplify high-impact UGC](https://piperocket.digital/saas-ppc/)
 
 ## Frequently Asked Questions
 
@@ -141,4 +141,4 @@ UGC works best for SaaS products that solve a visible, high-value problem and ha
 
 User generated content is the most trusted, influential form of content in SaaS, but it requires real effort to cultivate and sustain. The brands that win don’t just let UGC happen they actively nurture, curate, and amplify it to build the kind of trust that can’t be bought.
 
-If you want to integrate real user content into your growth playbook, [reach out to our team](https://www.piperocket.co/contact) or see how our [SaaS SEO service](https://www.piperocket.co/saas-seo) accelerates organic growth with UGC at the core.
+If you want to integrate real user content into your growth playbook, [reach out to our team](https://piperocket.digital/contact-us/) or see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) accelerates organic growth with UGC at the core.

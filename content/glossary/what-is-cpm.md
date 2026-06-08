@@ -120,7 +120,7 @@ Most SaaS teams fall into one of two traps: either they chase the lowest CPM and
 
 The contrarian insight: CPM is a cost metric, not a value metric. Buying 100,000 cheap impressions looks impressive in a dashboard, but it’s the number of high-intent buyers moved through your funnel that really matters. The best SaaS paid teams use CPM to audit efficiency, not as the headline number.
 
-**Also read:** [SaaS PPC service options for growth-stage SaaS](https://www.piperocket.co/saas-ppc)
+**Also read:** [SaaS PPC service options for growth-stage SaaS](https://piperocket.digital/saas-ppc/)
 
 ## Frequently Asked Questions
 
@@ -140,4 +140,4 @@ You can lower CPM by broadening your audience, adjusting bidding, or optimizing 
 
 CPM is a useful benchmark for understanding your ad spend efficiency, but it was never designed to be your main metric. The real value comes from pairing CPM with conversion rates, lead quality, and pipeline impact otherwise, you’re optimizing for vanity, not growth.
 
-If you want pragmatic advice on paid SaaS channels, [get in touch with our team](https://www.piperocket.co/contact). To see how a [SaaS PPC agency](/list/best-saas-ppc-agencies/) approaches channel selection, check out our latest agency list.
+If you want pragmatic advice on paid SaaS channels, [get in touch with our team](https://piperocket.digital/contact-us/). To see how a [SaaS PPC agency](/list/best-saas-ppc-agencies/) approaches channel selection, check out our latest agency list.

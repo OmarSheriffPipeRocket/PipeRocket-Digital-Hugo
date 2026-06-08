@@ -137,4 +137,4 @@ Yes internal links are critical for on page SEO. They help search engines unders
 
 On page SEO is more than a checklist it’s a living, evolving process that can drive real SaaS growth when done right. The teams who treat it as an ongoing system, not a one-and-done task, consistently outpace their competition.
 
-If you want expert support, [get in touch with our team](https://www.piperocket.co/contact). Or see [how we approach SaaS SEO](https://www.piperocket.co/saas-seo) for real-world examples and results.
+If you want expert support, [get in touch with our team](https://piperocket.digital/contact-us/). Or see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) for real-world examples and results.

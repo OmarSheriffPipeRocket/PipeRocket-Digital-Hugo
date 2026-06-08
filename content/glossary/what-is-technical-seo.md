@@ -60,7 +60,7 @@ Here’s what actually happens: A SaaS like Bench Sync, which automates accounti
 
 The real question isn’t “can technical SEO help?” It’s “what is it costing you to ignore it?” Most teams don’t realize just how much low-level friction is holding back their best work.
 
-**Also read:** [our SaaS SEO approach for practical technical audits](https://www.piperocket.co/saas-seo)
+**Also read:** [our SaaS SEO approach for practical technical audits](https://piperocket.digital/saas-seo-agency/)
 
 ## What Are the Main Elements of Technical SEO?
 
@@ -165,7 +165,7 @@ A contrarian insight: Most teams think technical SEO is all about hitting a perf
 
 Here’s the trade-off: Over-optimizing for technical SEO can slow you down if it blocks fast experimentation or product launches. It’s worth tightening the process for core pages, but for experimental features, a lighter touch lets you move fast and fix issues after launch.
 
-**Also read:** [SaaS PPC service for paid search alongside SEO](https://www.piperocket.co/saas-ppc)
+**Also read:** [SaaS PPC service for paid search alongside SEO](https://piperocket.digital/saas-ppc/)
 
 ## Frequently Asked Questions
 
@@ -183,4 +183,4 @@ Technical SEO can unlock rankings by removing barriers, but it won’t guarantee
 
 ## The Bottom Line
 
-Technical SEO is the invisible engine behind your search performance. If you want your SaaS site to rank, stay visible, and support your growth, technical SEO has to be ongoing not just a box to tick. If you want expert help or a second opinion, [reach out](https://www.piperocket.co/contact) or see how [our SaaS SEO approach](https://www.piperocket.co/saas-seo) puts this into practice.
+Technical SEO is the invisible engine behind your search performance. If you want your SaaS site to rank, stay visible, and support your growth, technical SEO has to be ongoing not just a box to tick. If you want expert help or a second opinion, [reach out](https://piperocket.digital/contact-us/) or see how [our SaaS SEO approach](https://piperocket.digital/saas-seo-agency/) puts this into practice.

@@ -144,4 +144,4 @@ A healthy CLV to CAC ratio for SaaS is typically considered to be at least 3:1, 
 
 ## The Bottom Line
 
-CLV is your reality check on SaaS growth the single number that reveals if your acquisition, retention, and expansion efforts are actually creating long-term revenue. If you’re not tracking and segmenting CLV, you’re flying blind. For a deeper look at improving your CLV by channel or segment, check out our [SaaS SEO service](https://www.piperocket.co/saas-seo), or [get in touch here](https://www.piperocket.co/contact) to talk through your numbers one-on-one.
+CLV is your reality check on SaaS growth the single number that reveals if your acquisition, retention, and expansion efforts are actually creating long-term revenue. If you’re not tracking and segmenting CLV, you’re flying blind. For a deeper look at improving your CLV by channel or segment, check out our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/), or [get in touch here](https://piperocket.digital/contact-us/) to talk through your numbers one-on-one.

@@ -111,7 +111,7 @@ Let’s get practical. To make LLMs actually deliver value instead of headaches 
 - Performance monitoring: Track LLM outputs for errors, hallucinations, and user disengagement adjust quickly when patterns emerge.
 - Cost control: Monitor API usage and model calls LLMs can burn through your SaaS margins if left unchecked.
 
-Here’s the trade-off: custom-tuning an LLM improves accuracy, but increases engineering complexity. For early-stage SaaS, it’s often smarter to start with a proven [SaaS PPC service](https://www.piperocket.co/saas-ppc) to drive growth, then invest in LLM customisation as you find product-market fit.
+Here’s the trade-off: custom-tuning an LLM improves accuracy, but increases engineering complexity. For early-stage SaaS, it’s often smarter to start with a proven [SaaS PPC service](https://piperocket.digital/saas-ppc/) to drive growth, then invest in LLM customisation as you find product-market fit.
 
 If you’re already using AI in your product, map which features actually benefit from LLMs, and which just add complexity. A focused rollout beats a bloated feature set every time.
 
@@ -135,4 +135,4 @@ LLM costs vary widely based on provider, usage, and volume. API models like GPT-
 
 LLMs are powerful, but they’re not plug-and-play magic real value comes from tuning, guardrails, and ongoing review. Ignore the hype, build with intent, and your SaaS will avoid the most painful LLM mistakes.
 
-If you want to see how LLMs fit your SaaS growth stack, [get in touch](https://www.piperocket.co/contact). For hands-on help aligning AI with your goals, see our [SaaS SEO service](https://www.piperocket.co/saas-seo).
+If you want to see how LLMs fit your SaaS growth stack, [get in touch](https://piperocket.digital/contact-us/). For hands-on help aligning AI with your goals, see our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/).

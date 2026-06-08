@@ -125,4 +125,4 @@ Investors and acquirers value SaaS companies as a multiple of ARR typically 5x 1
 
 ## The Bottom Line
 
-ARR is the single most important SaaS metric for tracking true, predictable growth as long as you count only contractually recurring revenue and segment your growth drivers. If you want to benchmark your ARR or see how pro teams handle it, check out our [SaaS SEO service](https://www.piperocket.co/saas-seo). And if you want to talk through your reporting, [reach out to our team](https://www.piperocket.co/contact) anytime.
+ARR is the single most important SaaS metric for tracking true, predictable growth as long as you count only contractually recurring revenue and segment your growth drivers. If you want to benchmark your ARR or see how pro teams handle it, check out our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/). And if you want to talk through your reporting, [reach out to our team](https://piperocket.digital/contact-us/) anytime.

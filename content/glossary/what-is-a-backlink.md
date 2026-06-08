@@ -133,4 +133,4 @@ No, the value of a backlink depends on its source’s authority, industry releva
 
 Backlinks are the foundation of SEO authority but only when they’re earned from relevant, trusted sites in your niche. Focus on quality over quantity, and remember: building real reputation takes time, not shortcuts.
 
-If you want expert help earning the right links, [reach out to our team](https://www.piperocket.co/contact) or see our [SaaS SEO service](https://www.piperocket.co/saas-seo) for how we approach link building for SaaS.
+If you want expert help earning the right links, [reach out to our team](https://piperocket.digital/contact-us/) or see our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) for how we approach link building for SaaS.

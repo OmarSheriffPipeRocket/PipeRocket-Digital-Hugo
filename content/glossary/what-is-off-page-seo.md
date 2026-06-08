@@ -117,4 +117,4 @@ Focus on earning links from relevant, respected industry sites, review platforms
 
 ## The Bottom Line
 
-Off page SEO isn’t just about chasing backlinks it’s about proving your authority to Google and your audience. Teams that treat it as a one-off tactic fall behind; those who invest in building genuine external signals earn compounding organic returns. If you want to build a real moat, [reach out to our team](https://www.piperocket.co/contact) or check out our [SaaS SEO service](https://www.piperocket.co/saas-seo) to see how we approach authority building for real-world SaaS growth.
+Off page SEO isn’t just about chasing backlinks it’s about proving your authority to Google and your audience. Teams that treat it as a one-off tactic fall behind; those who invest in building genuine external signals earn compounding organic returns. If you want to build a real moat, [reach out to our team](https://piperocket.digital/contact-us/) or check out our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) to see how we approach authority building for real-world SaaS growth.

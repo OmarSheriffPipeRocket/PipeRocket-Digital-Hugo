@@ -97,7 +97,7 @@ Here’s a concrete example: Pipe Sync, a SaaS for syncing CRM data across sales
 
 What actually works: Think of your meta description as the one-sentence pitch you’d use if you had 3 seconds to convince a decision-maker. If it wouldn’t get a busy CFO or VP of Sales to click, it won’t work in the SERP either.
 
-**Also read:** [our SaaS SEO approach for B2B brands](https://www.piperocket.co/saas-seo)
+**Also read:** [our SaaS SEO approach for B2B brands](https://piperocket.digital/saas-seo-agency/)
 
 ## How Should You Optimize and Test Meta Descriptions for SaaS SEO?
 
@@ -133,4 +133,4 @@ If you don’t provide a meta description, Google will automatically generate on
 
 A meta description won’t boost your rankings, but it’s your one-shot pitch to searchers and it’s the difference between being clicked or ignored. Treat it as conversion copy, not SEO filler, and you’ll get more value from every SEO dollar you spend.
 
-If you want a strategy that turns rankings into real pipeline, [get in touch with our team](https://www.piperocket.co/contact). Or see how our [SaaS SEO service](https://www.piperocket.co/saas-seo) approaches meta descriptions with real intent and results.
+If you want a strategy that turns rankings into real pipeline, [get in touch with our team](https://piperocket.digital/contact-us/). Or see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) approaches meta descriptions with real intent and results.

@@ -148,4 +148,4 @@ You can lower CPA by improving ad targeting, optimizing landing pages, and tight
 
 CPA isn’t just a number to report it’s a signal to guide smarter SaaS growth decisions. The best teams use CPA to understand channel quality, align spend with LTV, and avoid sacrificing long-term profit for short-term acquisition wins.
 
-If you want to make your CPA work for you, [get in touch](https://www.piperocket.co/contact). And to see how a [SaaS PPC service](https://www.piperocket.co/saas-ppc) can power high-quality customer acquisition, explore our approach.
+If you want to make your CPA work for you, [get in touch](https://piperocket.digital/contact-us/). And to see how a [SaaS PPC service](https://piperocket.digital/saas-ppc/) can power high-quality customer acquisition, explore our approach.

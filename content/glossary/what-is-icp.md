@@ -121,4 +121,4 @@ Yes, it’s possible for SaaS companies to have more than one ICP, especially if
 
 ICP isn’t just a marketing buzzword it’s the filter that keeps your SaaS focused, efficient, and growing for the right reasons. When you get ICP right, every part of your business from sales to product gets easier and more repeatable.
 
-If you want to sharpen your ICP-driven growth, see our [SaaS SEO service](https://www.piperocket.co/saas-seo). And if you’d like to talk through your ideal customer profile or go-to-market fit, [reach out via our contact page](https://www.piperocket.co/contact).
+If you want to sharpen your ICP-driven growth, see our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/). And if you’d like to talk through your ideal customer profile or go-to-market fit, [reach out via our contact page](https://piperocket.digital/contact-us/).

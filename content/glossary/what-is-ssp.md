@@ -130,4 +130,4 @@ Poorly configured SSPs can slow down your site if ad tags add latency or if you 
 
 An SSP gives SaaS publishers a way to automate and optimize ad revenue but only if you treat it as an active channel, not a set-and-forget solution. The difference between steady, high-yield revenue and a brand trust crisis often comes down to how well you manage floor pricing, blocklists, and reporting.
 
-If you want to maximize your SaaS monetization, [get in touch with our team](https://www.piperocket.co/contact) or see the full [SaaS PPC service page](/saas-ppc/) for hands-on help with programmatic ad management.
+If you want to maximize your SaaS monetization, [get in touch with our team](https://piperocket.digital/contact-us/) or see the full [SaaS PPC service page](/saas-ppc/) for hands-on help with programmatic ad management.

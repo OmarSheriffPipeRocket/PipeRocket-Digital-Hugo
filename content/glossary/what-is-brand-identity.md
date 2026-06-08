@@ -140,4 +140,4 @@ Many SaaS teams also underinvest in brand during the growth phase because paid a
 
 Brand identity is the system that makes everything else in your go-to-market work harder. Get the positioning right, build the verbal and visual layers on top of it, and enforce consistency and your brand starts doing active conversion work across every channel, not just in your marketing campaigns.
 
-If you want to talk through how brand positioning connects to your search and paid strategy, [reach out to our team](https://www.piperocket.co/contact) or explore how our [best SaaS SEO agencies list](/list/best-saas-seo-agencies/) can help you find the right partner to build both together.
+If you want to talk through how brand positioning connects to your search and paid strategy, [reach out to our team](https://piperocket.digital/contact-us/) or explore how our [best SaaS SEO agencies list](/list/best-saas-seo-agencies/) can help you find the right partner to build both together.

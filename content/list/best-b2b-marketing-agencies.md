@@ -5,7 +5,7 @@ description: "I ranked 11 B2B marketing agencies on pipeline impact, technical e
 metaTitle: "I Ranked the 11 Best B2B Marketing Agencies (2026)"
 metaDescription: "I ranked 11 B2B marketing agencies on pipeline impact, technical expertise, and client retention. See which ones drive real revenue."
 date: 2025-11-13
-lastmod: 2026-06-03
+lastmod: 2026-06-06
 slug: "best-b2b-marketing-agencies"
 writtenBy: "kim"
 category: "B2B Marketing"
@@ -16,9 +16,9 @@ toc: true
 readingTime: "20 min read"
 ---
 
-Comparing the top 11 best B2B marketing agencies for 2026 includes 1. Directive Consulting, 2. PipeRocket Digital, 3. New North, 4. Ironpaper, 5. Disruptive Advertising, 6. Walker Sands, 7. Siege Media, 8. Velocity Partners, 9. Straight North, 10. Serpsculpt, and 11. 310 Creative.
+Comparing the top 11 best B2B marketing agencies for 2026 includes 1. Directive Consulting, 2. PipeRocket Digital, 3. New North, 4. Ironpaper, 5. Disruptive Advertising, 6. Walker Sands, 7. Siege Media, 8. Pretzl, 9. Straight North, 10. Serpsculpt, and 11. 310 Creative.
 
-Each agency targets a different slice of B2B marketing, from revenue-obsessed full-funnel partners to creative differentiation shops to technical-SEO diagnosticians. Some optimise for closed pipeline contribution, others for category credibility through PR and brand work, and a few focus on the unglamorous plumbing of HubSpot RevOps and lead-scoring infrastructure.
+Each agency covers a different corner of B2B marketing, from pipeline-obsessed full-funnel shops to brand differentiation specialists to technical-SEO practitioners. Some optimise for closed pipeline contribution, others for category credibility through PR and brand work, and a few focus on the unglamorous plumbing of HubSpot RevOps and lead-scoring infrastructure.
 
 Picking the wrong agency costs more than retainer fees: it costs you a quarter of activity that never moves pipeline, a board meeting where marketing can't show revenue contribution, and a sales team that stops attending the QBR. The agencies below were evaluated on pipeline impact, technical expertise, client retention, industry specialisation, and transparency.
 
@@ -31,7 +31,7 @@ Picking the wrong agency costs more than retainer fees: it costs you a quarter o
 5. **Disruptive Advertising:** Best for integrated paid media and CRO managed as one system
 6. **Walker Sands:** Best for B2B tech PR and demand generation coordinated as one program
 7. **Siege Media:** Best for link-worthy content that compounds organic authority over years
-8. **Velocity Partners:** Best for creative differentiation in crowded, commoditised B2B markets
+8. **Pretzl:** Best for creative differentiation in crowded, commoditised B2B markets
 9. **Straight North:** Best for industrial B2B with lead validation built into the workflow
 10. **Serpsculpt:** Best for technical SEO diagnostics on complex enterprise site architectures
 11. **310 Creative:** Best for HubSpot RevOps implementation and marketing-to-sales handoff fixes
@@ -42,12 +42,12 @@ Picking the wrong agency costs more than retainer fees: it costs you a quarter o
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV SaaS Customer Generation | [$8,000/mo](https://directiveconsulting.com) | Yes | [Verified on Clutch](https://clutch.co/profile/directive-consulting) |
 | PipeRocket Digital | Revenue-obsessed B2B SaaS | [Custom](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
-| New North | Agile multi-channel B2B | [$5,000/mo](https://newnorth.com) | Yes | [4.9/5 verified](https://clutch.co/profile/new-north) |
+| New North | Agile multi-channel B2B | [$5,000/mo](https://newnorth.com) | Yes | [4.6/5 (11 reviews)](https://clutch.co/profile/new-north) |
 | Ironpaper | Funnel optimisation, ABM | [Custom](https://www.ironpaper.com) | Yes | [Verified on Clutch](https://clutch.co/profile/ironpaper) |
 | Disruptive Advertising | Integrated paid plus CRO | [$5,000/mo](https://disruptiveadvertising.com) | Yes | [4.8/5 (365+ reviews)](https://clutch.co/profile/disruptive-advertising) |
 | Walker Sands | B2B tech PR plus demand gen | [Custom](https://www.walkersands.com) | Yes | [Verified on Clutch](https://clutch.co/profile/walker-sands) |
 | Siege Media | Premium link-worthy content | [$10,000/mo](https://siegemedia.com) | Yes | [Verified on Clutch](https://clutch.co/profile/siege-media) |
-| Velocity Partners | Creative B2B differentiation | [Custom](https://velocitypartners.com) | Yes | Verified on FeaturedCustomers |
+| Pretzl | Creative B2B differentiation | [Custom](https://www.pretzl.com) | Yes | Verified on FeaturedCustomers |
 | Straight North | Industrial lead validation | [$3,000/mo](https://www.straightnorth.com) | Yes | [Verified on Clutch](https://clutch.co/profile/straight-north) |
 | Serpsculpt | Technical SEO diagnostics | [Custom](https://serpsculpt.com) | Yes | [Verified on Clutch](https://clutch.co/profile/serpsculpt) |
 | 310 Creative | HubSpot RevOps | [Custom](https://www.310creative.com) | Yes | [Verified on Clutch](https://clutch.co/profile/310-creative-inc) |
@@ -56,7 +56,7 @@ Picking the wrong agency costs more than retainer fees: it costs you a quarter o
 
 We pulled verified Clutch and G2 ratings, surfaced unfiltered opinions from r/SaaS, r/marketing, and B2B marketing Quora threads where buyers describe real engagements, and opened every agency's homepage and pricing page directly. Every link and rating was spot-checked in May 2026.
 
-For this list, we weighted Pipeline Impact and Technical Expertise most heavily, because B2B marketing buyers are judged on closed pipeline and revenue contribution, and the agencies that win here treat marketing as a math problem to be solved across the full funnel rather than a creative exercise judged on impressions.
+In our scoring for this list, Pipeline Impact and Technical Expertise carried the most weight, since B2B marketing buyers are ultimately measured on closed pipeline and revenue contribution, and the agencies that win here treat marketing as a math problem solved across the full funnel rather than a creative exercise judged on impressions.
 
 For the full process, including every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy, read [our research methodology and editorial policy](/research-methodology/).
 
@@ -228,7 +228,7 @@ Best for: B2B Companies With Lean Marketing Teams That Need an Agile Partner Cap
 
 For B2B companies tired of slow agency processes and rigid quarterly plans, New North offers a refreshing alternative. They prioritise velocity without sacrificing strategic thinking, making them particularly effective for growth-stage companies navigating rapidly evolving markets.
 
-- 4.9 on Clutch reflects the quality of the embedded-team relationship
+- 4.6 on Clutch (11 reviews) reflects the quality of the embedded-team relationship
 - Fractional marketing model rare at growth-stage budgets
 - B2B tech exclusive focus; no consumer or non-tech work
 
@@ -244,7 +244,7 @@ For B2B companies tired of slow agency processes and rigid quarterly plans, New 
 
 **Documented**
 
-New North's client work includes ePlus, MicroEdge, and Decisioning Solutions, B2B tech companies at growth stages where marketing needs to do a lot with limited budget. Documented engagement reviews consistently rate 4.9 on Clutch.
+New North's client work includes ePlus, MicroEdge, and Decisioning Solutions, B2B tech companies at growth stages where marketing needs to do a lot with limited budget. Documented engagement reviews rate 4.6 on Clutch (11 reviews).
 
 **Strong Fit:** Growth-stage B2B tech companies that need strategic marketing leadership and hands-on execution at a budget that doesn't require enterprise agency retainers.
 
@@ -288,7 +288,7 @@ New North is the right call when your in-house team is two people and a Trello b
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes fractional team strategy session |
-| Clutch Rating | [4.9/5 verified](https://clutch.co/profile/new-north) |
+| Clutch Rating | [4.6/5 (11 reviews)](https://clutch.co/profile/new-north) |
 
 ---
 
@@ -435,7 +435,7 @@ Disruptive's [advertising services page](https://disruptiveadvertising.com/adver
 
 **Field Notes**
 
-Worth flagging: Disruptive's month-to-month contract is rare in this category and matters more than the $5K floor for teams burned by 12-month lock-ins.
+Worth flagging: Disruptive's month-to-month contract is rare in this category and matters more than the $5K floor for teams burned by 12-month lock-ins. (Disruptive was named top U.S. advertising agency by DesignRush for performance marketing excellence in March 2026.)
 
 | Criteria | Detail |
 | --- | --- |
@@ -599,17 +599,17 @@ Siege Media shines when your category is crowded and you need design-led assets 
 
 Weighing your options? Compare [PipeRocket vs Siege Media](/compare/piperocket-digital-vs-siege-media/), or browse the [top Siege Media alternatives](/alternative/siege-media-alternatives/).
 
-### 8. Velocity Partners
+### 8. Pretzl
 
 Best for: B2B Tech Companies With Solid Products That Blend Into Crowded Markets and Need Distinctive Creative Positioning
 
-{{< agency-triptych slug="velocity-partners" name="Velocity Partners" >}}
+{{< agency-triptych slug="velocity-partners" name="Pretzl" >}}
 
-[Velocity Partners](https://velocitypartners.com) wages war against boring [B2B marketing](/blogs/b2b-marketing/). They build Big Rock content pieces and creative campaigns that give brands a real voice and distinct point of view. Their work makes complex enterprise products feel human and worth paying attention to in markets drowning in sameness.
+[Pretzl](https://www.pretzl.com) (formerly Velocity Partners) wages war against boring [B2B marketing](/blogs/b2b-marketing/). They build Big Rock content pieces and creative campaigns that give brands a real voice and distinct point of view. Their work makes complex enterprise products feel human and worth paying attention to in markets drowning in sameness. Note: Velocity Partners merged with four B2B agencies (Agent3 Group, Publitek, This Machine, and Twogether) to form Pretzl in February 2026; the combined entity operates at pretzl.com.
 
 **The Pitch**
 
-For B2B brands that are technically solid but visually and verbally indistinguishable from competitors, Velocity provides the creative edge needed to stand out. They understand that in enterprise sales, being memorable often matters as much as being comprehensive.
+For B2B brands that are technically solid but visually and verbally indistinguishable from competitors, Pretzl provides the creative edge needed to stand out. They understand that in enterprise sales, being memorable often matters as much as being comprehensive.
 
 - "War against boring B2B marketing" positioning calibrated for crowded categories
 - Big Rock content methodology for content with distinctive voice
@@ -627,7 +627,7 @@ For B2B brands that are technically solid but visually and verbally indistinguis
 
 **Documented**
 
-Velocity Partners' portfolio includes notable B2B tech rebrand and creative campaign work, with VPs of Marketing at cloud security companies citing Velocity gave their brand a voice that actually sounds human, with prospects remembering them after the first conversation.
+Pretzl's portfolio includes notable B2B tech rebrand and creative campaign work, with VPs of Marketing at cloud security companies citing Velocity gave their brand a voice that actually sounds human, with prospects remembering them after the first conversation.
 
 **Strong Fit:** B2B tech companies with established products seeking creative differentiation in crowded, commoditised markets where brand voice is the missing edge.
 
@@ -650,13 +650,13 @@ VPs of Marketing at cloud security companies cite Velocity gave their brand a vo
 
 **Complain:** Performance-marketing gap
 
-The creative-led model means companies needing immediate paid-media pipeline impact find Velocity's brand-first approach mismatched to their KPIs.
+The creative-led model means companies needing immediate paid-media pipeline impact find Pretzl's brand-first approach mismatched to their KPIs.
 
 - Custom-only pricing means slower procurement timelines
 
 **Dollars**
 
-Velocity Partners doesn't publish rate cards. Custom creative and content programs priced by scope, as of May 2026.
+Pretzl doesn't publish rate cards. Custom creative and content programs priced by scope, as of June 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -666,7 +666,7 @@ Velocity Partners doesn't publish rate cards. Custom creative and content progra
 
 **Field Notes**
 
-Velocity Partners is the bet when your bottleneck is brand voice; the wrong fit when paid pipeline is the immediate KPI.
+Pretzl is the bet when your bottleneck is brand voice; the wrong fit when paid pipeline is the immediate KPI.
 
 | Criteria | Detail |
 | --- | --- |
@@ -942,3 +942,4 @@ Can the agency tell you, in one number, what marketing contributed to closed rev
 ## Update History
 
 - **November 13, 2025:** Published.
+- **June 6, 2026:** Updated New North Clutch rating to 4.6/5 (11 reviews); renamed Velocity Partners to Pretzl (merged Feb 2026, now at pretzl.com); added Disruptive Advertising DesignRush top U.S. agency award (March 2026).

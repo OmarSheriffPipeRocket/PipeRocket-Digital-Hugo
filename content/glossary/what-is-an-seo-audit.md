@@ -138,4 +138,4 @@ For most SaaS companies, a quarterly audit is recommended, with monthly spot che
 
 ## The Bottom Line
 
-An SEO audit is only as valuable as the action it drives. Treat it as an ongoing feedback loop not just a checklist and you’ll catch issues before they stall your growth. If you want to talk through your audit approach, [get in touch](https://www.piperocket.co/contact). And if you’re looking for a real partner, see [how we approach SaaS SEO](https://www.piperocket.co/saas-seo) to turn audits into lasting organic growth.
+An SEO audit is only as valuable as the action it drives. Treat it as an ongoing feedback loop not just a checklist and you’ll catch issues before they stall your growth. If you want to talk through your audit approach, [get in touch](https://piperocket.digital/contact-us/). And if you’re looking for a real partner, see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) to turn audits into lasting organic growth.

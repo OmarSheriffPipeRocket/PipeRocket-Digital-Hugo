@@ -119,4 +119,4 @@ If you’re building out the broader acquisition side of this paid and organic w
 
 SAL is the checkpoint that turns a lead handoff into a real accountability structure. Get the criteria right, set a response SLA, and make rejection feedback mandatory and you’ll have a funnel where marketing and sales are actually working from the same definition of a good lead.
 
-If you want to build a pipeline where leads arrive already aligned to what sales wants to work, [get in touch with our team](https://www.piperocket.co/contact) or see how our [best SaaS marketing agencies](/list/best-saas-marketing-agencies-2026/) resource can help you find the right partner for the job.
+If you want to build a pipeline where leads arrive already aligned to what sales wants to work, [get in touch with our team](https://piperocket.digital/contact-us/) or see how our [best SaaS marketing agencies](/list/best-saas-marketing-agencies-2026/) resource can help you find the right partner for the job.

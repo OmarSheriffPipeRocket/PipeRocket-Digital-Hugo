@@ -105,7 +105,7 @@ The real trade-off: Paid channels deliver fast results, but you’ll hit diminis
 
 Most SaaS brands see their best pipeline when channels feed off each other for example, someone reads a blog post, clicks a retargeting ad, and then replies to an outbound email. Omnichannel isn’t just a buzzword; it’s how modern SaaS buyers actually move.
 
-**Also read:** [SaaS SEO services for lasting pipeline growth](https://www.piperocket.co/saas-seo)
+**Also read:** [SaaS SEO services for lasting pipeline growth](https://piperocket.digital/saas-seo-agency/)
 
 ## How Do You Qualify and Score Leads for SaaS?
 
@@ -141,4 +141,4 @@ Popular lead generation tools for SaaS include HubSpot, Marketo, and Salesforce 
 
 Lead generation isn’t about filling your CRM it’s about building a repeatable system that brings in real buyers and turns them into pipeline, not just marketing metrics. The teams who win treat lead generation as a quality game, not a volume contest.
 
-If you want to see how experts qualify SaaS leads, [get in touch](https://www.piperocket.co/contact). Or, see our [SaaS SEO service](https://www.piperocket.co/saas-seo) for a look at pipeline-first search strategies.
+If you want to see how experts qualify SaaS leads, [get in touch](https://piperocket.digital/contact-us/). Or, see our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) for a look at pipeline-first search strategies.

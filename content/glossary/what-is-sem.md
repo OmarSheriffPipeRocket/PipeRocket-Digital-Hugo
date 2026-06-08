@@ -131,4 +131,4 @@ SEM can be worth it for early-stage SaaS if you need quick feedback, want to tes
 
 SEM is the fastest way to appear in front of buyers with real intent, but it’s a rental not an owned channel. The best SaaS teams use paid search for fast validation and launches, then invest in SEO for sustainable growth.
 
-To see how this works for SaaS, [explore our SaaS PPC service](https://www.piperocket.co/saas-ppc). And if you want to talk through your SEM or SEO strategy, [reach out via our contact page](https://www.piperocket.co/contact).
+To see how this works for SaaS, [explore our SaaS PPC service](https://piperocket.digital/saas-ppc/). And if you want to talk through your SEM or SEO strategy, [reach out via our contact page](https://piperocket.digital/contact-us/).

@@ -118,7 +118,7 @@ Optimizing anchor text isn’t a one-and-done project it’s a recurring check t
 
 Here’s the nuance: This works well for SaaS brands with large content libraries and multiple personas there’s more room to diversify anchors and map them to specific buyer journeys. For point-solution products or single-landing-page SaaS, over-engineering anchor text can create more confusion than clarity. The right move is to focus on a handful of high-impact, context-rich anchors.
 
-If you want to take this further, consider a quarterly anchor text audit as part of your ongoing [SaaS SEO service](https://www.piperocket.co/saas-seo) routine. It’s a simple checklist that pays compounding dividends in visibility and trust.
+If you want to take this further, consider a quarterly anchor text audit as part of your ongoing [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) routine. It’s a simple checklist that pays compounding dividends in visibility and trust.
 
 **Also read:** [enterprise SEO agency tactics for large-scale anchor text management](/list/best-enterprise-seo-agencies/)
 
@@ -140,4 +140,4 @@ Repeating the same anchor text across many links (internal or external) looks un
 
 Anchor text is more than a [technical SEO](/glossary/what-is-technical-seo/) lever it’s a trust signal for both search engines and real users. Get it right, and you build topical authority, improve rankings, and create smoother navigation. Get it wrong, and you risk penalties, confusion, and lost opportunities.
 
-If you want expert help with your strategy, [get in touch](https://www.piperocket.co/contact) or see [how we approach SaaS SEO](https://www.piperocket.co/saas-seo) for sustainable growth.
+If you want expert help with your strategy, [get in touch](https://piperocket.digital/contact-us/) or see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) for sustainable growth.

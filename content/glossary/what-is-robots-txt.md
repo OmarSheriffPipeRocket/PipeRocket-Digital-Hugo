@@ -71,7 +71,7 @@ Take Launch Padly, a SaaS for product onboarding. Their marketing team “Disall
 
 **Fast Fact:** Users from organic search spend an average of 4 minutes 40 seconds on SaaS pages, nearly a full minute longer than AI-referred visitors.
 
-**Also read:** [how SaaS SEO services use robots.txt and sitemaps together](https://www.piperocket.co/saas-seo)
+**Also read:** [how SaaS SEO services use robots.txt and sitemaps together](https://piperocket.digital/saas-seo-agency/)
 
 ## What Are Common robots.txt Mistakes in SaaS and B2B?
 
@@ -125,4 +125,4 @@ Update your robots.txt file whenever you launch a major redesign, migrate your s
 
 ## The Bottom Line
 
-Robots.txt is often overlooked, but it’s one of the most important and dangerous SEO levers on your site. Use it to shape what search engines can (and can’t) see, but treat every rule as a potential risk. If you want robots.txt to work for you (not against you), [get in touch](https://www.piperocket.co/contact) or check out our [SaaS SEO agency](/saas-seo-agency/) page for a deeper look at [technical SEO](/glossary/what-is-technical-seo/) in practice.
+Robots.txt is often overlooked, but it’s one of the most important and dangerous SEO levers on your site. Use it to shape what search engines can (and can’t) see, but treat every rule as a potential risk. If you want robots.txt to work for you (not against you), [get in touch](https://piperocket.digital/contact-us/) or check out our [SaaS SEO agency](/saas-seo-agency/) page for a deeper look at [technical SEO](/glossary/what-is-technical-seo/) in practice.

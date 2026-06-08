@@ -142,4 +142,4 @@ ROAS measures revenue generated per dollar of ad spend, while CAC (customer acqu
 
 ROAS is a powerful metric for SaaS, but only when used alongside LTV, payback period, and retention data. Most teams get it wrong by treating it as a simple efficiency score, missing the bigger picture of customer value and cash flow. For SaaS growth, use ROAS as a starting point not the final answer.
 
-If you want a real-world view of how ROAS fits your SaaS, [reach out to our team](https://www.piperocket.co/contact) and see how our [SaaS PPC service](https://www.piperocket.co/saas-ppc) builds paid strategies that drive true lifetime value.
+If you want a real-world view of how ROAS fits your SaaS, [reach out to our team](https://piperocket.digital/contact-us/) and see how our [SaaS PPC service](https://piperocket.digital/saas-ppc/) builds paid strategies that drive true lifetime value.

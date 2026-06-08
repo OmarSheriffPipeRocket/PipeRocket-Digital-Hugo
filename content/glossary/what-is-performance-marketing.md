@@ -123,7 +123,7 @@ Take CPQSync, a SaaS for B2B quoting, which built custom dashboards showing cost
 
 If you’re new to this, a [SaaS PPC agency](/saas-ppc/) can set up your tracking and campaigns, but you still need internal discipline no agency can fix broken handoffs between your marketing and sales teams.
 
-**Also read:** [how a SaaS PPC service supports full-funnel measurement](https://www.piperocket.co/saas-ppc)
+**Also read:** [how a SaaS PPC service supports full-funnel measurement](https://piperocket.digital/saas-ppc/)
 
 ## Frequently Asked Questions
 
@@ -143,4 +143,4 @@ The most important SaaS metrics for performance marketing include cost per acqui
 
 Performance marketing gives you radical visibility into what’s actually working and what’s wasting your budget. It’s not just about running ads it’s about building a feedback system where every decision is tied to real revenue, not vanity metrics.
 
-If you want to see how performance marketing can drive more revenue for your SaaS, [reach out](https://www.piperocket.co/contact). Or explore [SaaS PPC service options and strategy](https://www.piperocket.co/saas-ppc) for hands-on help building a trackable, outcome-driven program.
+If you want to see how performance marketing can drive more revenue for your SaaS, [reach out](https://piperocket.digital/contact-us/). Or explore [SaaS PPC service options and strategy](https://piperocket.digital/saas-ppc/) for hands-on help building a trackable, outcome-driven program.

@@ -137,4 +137,4 @@ Google’s SERPs change constantly. The company makes hundreds of algorithm upda
 
 SERP analysis isn’t just an SEO chore it’s the fastest way to find where your SaaS can win, lose, or get crowded out. If you don’t know what your buyers see, you’re guessing, not optimizing.
 
-If you want a hands-on approach to SERP-driven growth, [reach out via our contact page](https://www.piperocket.co/contact) or see [how we approach SaaS SEO](https://www.piperocket.co/saas-seo) to build real, defensible visibility.
+If you want a hands-on approach to SERP-driven growth, [reach out via our contact page](https://piperocket.digital/contact-us/) or see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) to build real, defensible visibility.

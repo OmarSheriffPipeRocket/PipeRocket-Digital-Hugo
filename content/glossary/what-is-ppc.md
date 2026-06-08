@@ -132,6 +132,6 @@ Yes, PPC can be a fast way for early-stage SaaS startups to generate leads, vali
 
 PPC is a pay-for-results ad model that can drive immediate, targeted traffic but speed comes at the cost of constant vigilance and ongoing spend. When used strategically, it’s a powerful lever for SaaS and B2B teams to accelerate growth, validate offers, and defend brand visibility.
 
-To see how PPC and SEO work together for real SaaS teams, explore our [SaaS PPC service](https://www.piperocket.co/saas-ppc). And if you want hands-on help beyond this guide, [reach out via our contact page](https://www.piperocket.co/contact).
+To see how PPC and SEO work together for real SaaS teams, explore our [SaaS PPC service](https://piperocket.digital/saas-ppc/). And if you want hands-on help beyond this guide, [reach out via our contact page](https://piperocket.digital/contact-us/).
 
 **Also read:** [best SaaS SEO agencies for early-stage startups](/list/best-saas-seo-agencies/)

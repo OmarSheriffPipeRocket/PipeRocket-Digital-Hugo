@@ -154,4 +154,4 @@ B2B SaaS teams with longer sales cycles tend to use Meta as a nurturing and re-e
 
 Meta Ads is a demand generation channel, not a demand capture channel and the SaaS teams that get real value from it are the ones who use it that way. Start with retargeting, build toward cold audiences once you have creative and data, and don’t judge the channel by metrics it was never designed to produce.
 
-If you want help building a paid strategy that actually maps to your funnel, [get in touch with our team](https://www.piperocket.co/contact) or see how we approach [SaaS paid ads](/saas-ppc/) for teams that want paid search and paid social working together.
+If you want help building a paid strategy that actually maps to your funnel, [get in touch with our team](https://piperocket.digital/contact-us/) or see how we approach [SaaS paid ads](/saas-ppc/) for teams that want paid search and paid social working together.

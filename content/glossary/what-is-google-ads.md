@@ -91,7 +91,7 @@ Here’s the warning: Search campaigns convert best for SaaS, but if you skip re
 
 Take Notedesk, a SaaS for remote team documentation. They started with Search, but saw a 40% drop-off after the first visit. Adding remarketing doubled their return demo rate. Ignore this touchpoint and you’re leaving pipeline on the table.
 
-**Also read:** [SaaS PPC service for companies scaling paid acquisition](https://www.piperocket.co/saas-ppc)
+**Also read:** [SaaS PPC service for companies scaling paid acquisition](https://piperocket.digital/saas-ppc/)
 
 ## How Can You Avoid Wasting Budget on Google Ads?
 
@@ -143,4 +143,4 @@ Google Ads is for advertisers you pay to show ads on Google and partner sites. G
 
 Google Ads is a powerful way to reach buyers at the moment they’re searching but only if you treat it as a data-driven, intent-focused tool, not just a spend bucket. The best SaaS and B2B teams combine paid search with strong tracking and relentless optimization to drive real pipeline, not just clicks.
 
-If you want to see how experts run Google Ads for SaaS, [contact us](https://www.piperocket.co/contact) or explore our [SaaS PPC service](https://www.piperocket.co/saas-ppc) to see what top performers do differently.
+If you want to see how experts run Google Ads for SaaS, [contact us](https://piperocket.digital/contact-us/) or explore our [SaaS PPC service](https://piperocket.digital/saas-ppc/) to see what top performers do differently.

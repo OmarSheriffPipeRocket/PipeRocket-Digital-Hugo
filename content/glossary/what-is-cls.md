@@ -137,4 +137,4 @@ Yes, high CLS can significantly reduce SaaS signups and conversions by causing u
 
 ## The Bottom Line
 
-CLS isn’t just a technical metric it’s a direct signal to Google and your users that you care about stability and trust. For SaaS brands, fixing CLS is one of the fastest, most impactful ways to improve SEO, UX, and revenue. If you want hands-on help diagnosing and fixing layout shifts, [get in touch](https://www.piperocket.co/contact). To see how our [SaaS SEO service](https://www.piperocket.co/saas-seo) prioritizes Core Web Vitals for SaaS growth, check out our approach.
+CLS isn’t just a technical metric it’s a direct signal to Google and your users that you care about stability and trust. For SaaS brands, fixing CLS is one of the fastest, most impactful ways to improve SEO, UX, and revenue. If you want hands-on help diagnosing and fixing layout shifts, [get in touch](https://piperocket.digital/contact-us/). To see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) prioritizes Core Web Vitals for SaaS growth, check out our approach.

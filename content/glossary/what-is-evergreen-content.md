@@ -107,7 +107,7 @@ Micro-example: Hello Flow, a SaaS onboarding tool, doubled demo conversions from
 
 A contrarian insight: Many teams obsess over publishing volume, thinking more evergreen pieces mean more traffic. What works is depth and maintenance five well-maintained clusters will outperform 30 thin, out-of-date “evergreen” guides every time.
 
-**Also read:** [SaaS SEO services built around evergreen content](https://www.piperocket.co/saas-seo)
+**Also read:** [SaaS SEO services built around evergreen content](https://piperocket.digital/saas-seo-agency/)
 
 ## What Are Common Evergreen Content Mistakes SaaS Teams Make?
 
@@ -141,4 +141,4 @@ Evergreen content is any page designed to stay relevant long-term, like guides o
 
 Evergreen content isn’t a shortcut to passive SEO it’s a compounding asset when managed with intent, structure, and ongoing updates. In SaaS, the teams who treat evergreen as living, evolving resources consistently see better rankings, lower CAC, and more qualified leads year after year.
 
-If you want to build a real evergreen engine for your SaaS, [get in touch with our team](https://www.piperocket.co/contact) or see how our [SaaS SEO service](https://www.piperocket.co/saas-seo) makes evergreen content work in practice.
+If you want to build a real evergreen engine for your SaaS, [get in touch with our team](https://piperocket.digital/contact-us/) or see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) makes evergreen content work in practice.

@@ -58,7 +58,7 @@ Here’s a pattern most teams miss: an ad for SaaS project tool Sprint Pilot mig
 
 If you want programmatic to work, don’t treat it as a black box. The best teams get granular: they build tight audiences, run small experiments, and adjust bids and creative constantly based on what the data shows not on autopilot.
 
-**Also read:** [SaaS PPC service options for data-driven campaigns](https://www.piperocket.co/saas-ppc)
+**Also read:** [SaaS PPC service options for data-driven campaigns](https://piperocket.digital/saas-ppc/)
 
 ## What Are the Main Types of Programmatic Advertising?
 
@@ -130,4 +130,4 @@ Yes, small SaaS teams can use programmatic advertising, but success depends on t
 
 Programmatic advertising automates digital ad buying for speed and targeting, but it will amplify both good and bad strategies not fix them. Teams that treat it as a set-and-forget shortcut almost always waste budget, while those who use it as a precision tool for tightly defined audiences see real value.
 
-If you want to run smarter campaigns, [get in touch](https://www.piperocket.co/contact) or see how our [SaaS PPC service](https://www.piperocket.co/saas-ppc) builds programmatic into a full-funnel growth plan.
+If you want to run smarter campaigns, [get in touch](https://piperocket.digital/contact-us/) or see how our [SaaS PPC service](https://piperocket.digital/saas-ppc/) builds programmatic into a full-funnel growth plan.

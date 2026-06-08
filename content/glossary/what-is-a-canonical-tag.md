@@ -99,7 +99,7 @@ The choice between canonical tags and 301 redirects is a real operator’s quest
 
 Here’s a nuanced warning: Canonical tags work well for filtered, parameterized, or alternate-format pages that users still need to access (like PDFs, case studies, or campaign variants). For legacy URLs or dead-end pages, always use a 301. If you use a canonical where a redirect is needed, users will keep landing on obsolete URLs, hurting both UX and SEO.
 
-**Also read:** [SaaS SEO services that include canonical audits](https://www.piperocket.co/saas-seo)
+**Also read:** [SaaS SEO services that include canonical audits](https://piperocket.digital/saas-seo-agency/)
 
 ## How Can You Audit and Monitor Canonical Tags on Your SaaS Site?
 
@@ -131,4 +131,4 @@ Yes, adding a self-referencing canonical tag (where the canonical URL is the pag
 
 ## The Bottom Line
 
-Canonical tags are a simple, powerful fix for one of the easiest SEO mistakes to make duplicate content. Handle them proactively, and you’ll keep your rankings and analytics on track as your SaaS grows. If you want to see how this works for your site, [get in touch](https://www.piperocket.co/contact), or explore our [SaaS SEO agency](/saas-seo-agency/) service to see real-world audits and recommendations.
+Canonical tags are a simple, powerful fix for one of the easiest SEO mistakes to make duplicate content. Handle them proactively, and you’ll keep your rankings and analytics on track as your SaaS grows. If you want to see how this works for your site, [get in touch](https://piperocket.digital/contact-us/), or explore our [SaaS SEO agency](/saas-seo-agency/) service to see real-world audits and recommendations.

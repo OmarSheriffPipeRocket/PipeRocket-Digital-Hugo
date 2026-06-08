@@ -97,7 +97,7 @@ Acme Recruit, a SaaS for recruitment agencies, ran a quarterly accessibility aud
 
 What works well: assign ownership. If nobody owns alt text, it gets neglected. Make it a shared KPI for content and web teams, and review it just like you do for meta titles or H1s.
 
-**Also read:** [our SaaS SEO approach for technical and content optimization](https://www.piperocket.co/saas-seo)
+**Also read:** [our SaaS SEO approach for technical and content optimization](https://piperocket.digital/saas-seo-agency/)
 
 ## How Can You Measure the Impact of Image Alt Text Changes?
 
@@ -133,4 +133,4 @@ Yes, image alt text directly impacts SEO. Search engines use it to understand, i
 
 Image alt text isn’t just a checkbox it’s a competitive lever for SaaS brands serious about SEO, accessibility, and conversion. Small changes here compound over time, making your product discoverable and usable by everyone.
 
-If you want to operationalize alt text standards, [get in touch](https://www.piperocket.co/contact) or see exactly [how we approach SaaS SEO for growth and accessibility](https://www.piperocket.co/saas-seo).
+If you want to operationalize alt text standards, [get in touch](https://piperocket.digital/contact-us/) or see exactly [how we approach SaaS SEO for growth and accessibility](https://piperocket.digital/saas-seo-agency/).

@@ -142,4 +142,4 @@ Inbound marketing is one of the few growth strategies that gets more efficient o
 
 The teams that get the most from it are the ones who treat it as a system content, SEO, conversion, and nurture working together not a blog publishing schedule.
 
-If you want to build that system properly, [get in touch with our team](https://www.piperocket.co/contact) or see how our [SaaS SEO service](https://www.piperocket.co/saas-seo) approaches inbound from the ground up.
+If you want to build that system properly, [get in touch with our team](https://piperocket.digital/contact-us/) or see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) approaches inbound from the ground up.

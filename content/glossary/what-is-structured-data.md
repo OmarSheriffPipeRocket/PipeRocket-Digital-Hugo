@@ -135,4 +135,4 @@ Structured data should be reviewed and updated at least quarterly, or immediatel
 
 ## The Bottom Line
 
-Structured data isn’t just a technical SEO checkbox it’s a direct path to higher visibility, better-qualified leads, and a more authoritative SaaS brand. Treat it as an ongoing strategic asset, not a one-time project. If you want to see how structured data could drive growth for your SaaS, [reach out via our contact page](https://www.piperocket.co/contact), or explore [how we approach SaaS SEO](https://www.piperocket.co/saas-seo) for lasting results.
+Structured data isn’t just a technical SEO checkbox it’s a direct path to higher visibility, better-qualified leads, and a more authoritative SaaS brand. Treat it as an ongoing strategic asset, not a one-time project. If you want to see how structured data could drive growth for your SaaS, [reach out via our contact page](https://piperocket.digital/contact-us/), or explore [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) for lasting results.

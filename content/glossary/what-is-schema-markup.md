@@ -126,7 +126,7 @@ Here’s a nuanced warning: Schema works well for SaaS with distinct feature set
 
 The best SaaS teams treat schema markup as a living asset, not a one-off project. Keep it updated, audit it quarterly, and make sure it maps to both your business priorities and your users’ search intent.
 
-**Also read:** [our SaaS SEO approach for technical and on-page wins](https://www.piperocket.co/saas-seo)
+**Also read:** [our SaaS SEO approach for technical and on-page wins](https://piperocket.digital/saas-seo-agency/)
 
 ## Frequently Asked Questions
 
@@ -144,4 +144,4 @@ Pages that answer specific user questions or demonstrate key product features be
 
 ## The Bottom Line
 
-Schema markup is how you help search engines and your buyers see what makes your SaaS unique before they even land on your site. Treat it as a growth lever, not a checkbox, and you’ll consistently outcompete teams who treat SEO as a technical chore. If you want to see schema markup done right for SaaS, [reach out via our contact page](https://www.piperocket.co/contact) or explore how our [SaaS SEO service](https://www.piperocket.co/saas-seo) makes [technical SEO](/glossary/what-is-technical-seo/) a competitive win.
+Schema markup is how you help search engines and your buyers see what makes your SaaS unique before they even land on your site. Treat it as a growth lever, not a checkbox, and you’ll consistently outcompete teams who treat SEO as a technical chore. If you want to see schema markup done right for SaaS, [reach out via our contact page](https://piperocket.digital/contact-us/) or explore how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) makes [technical SEO](/glossary/what-is-technical-seo/) a competitive win.

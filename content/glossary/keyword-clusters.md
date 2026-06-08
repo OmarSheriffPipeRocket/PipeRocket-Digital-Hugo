@@ -143,4 +143,4 @@ Popular tools like Ahrefs, Semrush, and Google Search Console help you identify 
 
 Keyword clusters are the backbone of modern SaaS SEO they focus your content, build authority, and allow you to win multiple keywords with less internal competition. Over time, this approach compounds your organic growth and stabilizes rankings where they matter most.
 
-If you want to see how this works for your business, [get in touch with our team](https://www.piperocket.co/contact) or see [how we approach SaaS SEO](https://www.piperocket.co/saas-seo) for real-world results.
+If you want to see how this works for your business, [get in touch with our team](https://piperocket.digital/contact-us/) or see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) for real-world results.

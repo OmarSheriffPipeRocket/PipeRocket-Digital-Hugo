@@ -125,4 +125,4 @@ GPT can automate repetitive writing and basic support queries, saving human team
 
 GPT is more than a chatbot it’s a foundational AI model that’s reshaping how SaaS, B2B, and enterprise teams automate work, improve support, and scale content. The real opportunity is pairing GPT’s raw speed with thoughtful prompts, strong human oversight, and clear business goals.
 
-To see how GPT-powered automation can drive results for your team, [get in touch](https://www.piperocket.co/contact). For a closer look at how [SaaS SEO services](https://www.piperocket.co/saas-seo) integrate AI-driven content, check out our in-depth approach.
+To see how GPT-powered automation can drive results for your team, [get in touch](https://piperocket.digital/contact-us/). For a closer look at how [SaaS SEO services](https://piperocket.digital/saas-seo-agency/) integrate AI-driven content, check out our in-depth approach.

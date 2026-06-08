@@ -128,4 +128,4 @@ The most common mistake is going too broad, trying to appeal to everyone instead
 
 ## The Bottom Line
 
-Brand positioning isn’t just a slogan it’s the strategy that makes your SaaS memorable, defensible, and profitable. The teams that win are those who define their mental slot early, revisit it often, and let it shape every customer touchpoint. If you want practical help sharpening your position, [get in touch](https://www.piperocket.co/contact) or see [how we approach SaaS SEO](https://www.piperocket.co/saas-seo) to align content with your positioning.
+Brand positioning isn’t just a slogan it’s the strategy that makes your SaaS memorable, defensible, and profitable. The teams that win are those who define their mental slot early, revisit it often, and let it shape every customer touchpoint. If you want practical help sharpening your position, [get in touch](https://piperocket.digital/contact-us/) or see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) to align content with your positioning.

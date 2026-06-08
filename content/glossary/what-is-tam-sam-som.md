@@ -119,4 +119,4 @@ Also read: [best SaaS marketing agencies for early-stage and scaling teams](/lis
 
 TAM SAM SOM is most useful when you treat it as a planning tool, not a pitch prop. Build your SAM from real account data, tie your SOM to your actual go-to-market capacity, and update both as the market and your business evolve. The founders who get this right use it to make better decisions not just better slides.
 
-If you want to talk through how market sizing connects to your content and acquisition strategy, [get in touch with our team](https://www.piperocket.co/contact) or explore [how we approach SaaS SEO](https://www.piperocket.co/saas-seo) to align demand capture with the segments your SOM actually targets.
+If you want to talk through how market sizing connects to your content and acquisition strategy, [get in touch with our team](https://piperocket.digital/contact-us/) or explore [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) to align demand capture with the segments your SOM actually targets.

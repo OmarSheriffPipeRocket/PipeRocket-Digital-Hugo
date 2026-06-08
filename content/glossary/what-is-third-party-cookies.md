@@ -132,4 +132,4 @@ For [best B2B marketing agencies](/list/best-b2b-marketing-agencies/) helping cl
 
 Third-party cookies are a fading technology, not a future problem. The SaaS teams that treat this as a compliance checkbox are going to find their retargeting, attribution, and audience tools quietly degrading over the next few years. The ones building first-party data infrastructure now and rethinking how they measure campaign performance will be in a much stronger position when the last browser flips the switch.
 
-If you want to talk through how this affects your paid and organic strategy, [get in touch with our team](https://www.piperocket.co/contact) or see how our [SaaS PPC service](https://www.piperocket.co/saas-ppc) approaches cookieless campaign measurement in practice.
+If you want to talk through how this affects your paid and organic strategy, [get in touch with our team](https://piperocket.digital/contact-us/) or see how our [SaaS PPC service](https://piperocket.digital/saas-ppc/) approaches cookieless campaign measurement in practice.

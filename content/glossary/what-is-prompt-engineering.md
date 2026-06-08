@@ -130,4 +130,4 @@ Yes, prompt engineering can dramatically boost support automation by making chat
 
 Prompt engineering isn’t a niche technical skill it’s a foundational tool for SaaS teams that want reliable, useful AI outputs. Treating prompts as living assets, not throwaway experiments, sets your team apart as AI becomes core to daily operations.
 
-If you want to build lasting AI skills, [get in touch](https://www.piperocket.co/contact) or see how our [SaaS SEO service](https://www.piperocket.co/saas-seo) helps teams operationalize AI and prompt workflows.
+If you want to build lasting AI skills, [get in touch](https://piperocket.digital/contact-us/) or see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) helps teams operationalize AI and prompt workflows.
