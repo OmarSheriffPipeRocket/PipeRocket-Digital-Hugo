@@ -53,8 +53,13 @@ deno.lock
 # Local video scripts (drafts, not for publish)
 /video-script-*.md
 
-# Experience Bank + style anchor — internal writing assets with client data; local only, not for publish
-/data/experience-bank.md
+# Experience Bank + style anchor + worksheets — internal writing assets (client data); local only, not for publish.
+# These live in /reference/ (NOT /data/ — Hugo tries to parse everything in data/ as a data file and breaks the build).
 /reference/experience-bank.md
+/reference/style-anchor.md
+/reference/style-anchor-worksheet.md
+/reference/tool-listicle-worksheet.md
+# legacy /data/ paths (files moved to /reference/)
+/data/experience-bank.md
 /data/style-anchor.md
 /data/style-anchor-worksheet.md
