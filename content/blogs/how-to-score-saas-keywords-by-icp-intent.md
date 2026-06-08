@@ -10,7 +10,9 @@ category: "SaaS SEO"
 featuredImage: "/images/blog-covers/how-to-score-saas-keywords-by-icp-intent.webp"
 ---
 
-You already have the keyword list. Maybe it's 400 rows from Ahrefs, maybe it's the messy human list your sales team gave you. The question now isn't "is this a keyword," it's "does the person typing this look anything like someone we can actually sell to." Here's the scoring system we run to answer that, one keyword at a time.
+You already have the keyword list. Maybe it's 400 rows from Ahrefs, maybe it's the messy human list your sales team gave you.
+
+The question now isn't "is this a keyword," it's "does the person typing this look anything like someone we can actually sell to." Here's the scoring system we run to answer that, one keyword at a time.
 
 ## TL;DR
 
@@ -26,9 +28,13 @@ You already have the keyword list. Maybe it's 400 rows from Ahrefs, maybe it's t
 
 Most keyword scoring models rate the wrong thing. You open a tool, you get Keyword Difficulty, search volume, maybe a CPC, and you build a priority score out of those three. The problem is every one of those numbers describes the keyword's SEO odds. None of them describe the human typing it.
 
-Most teams score keywords on how winnable they are. That's backwards, because a keyword you can win easily and a buyer who can pay you are two completely different things. We've watched teams rank top-three for high-volume terms and move zero pipeline, because the searchers were mostly students and job seekers who were never going to buy.
+Most teams score keywords on how winnable they are. That's backwards, because a keyword you can win easily and a buyer who can pay you are two completely different things.
 
-A 1,000-search keyword ranking top three might bring 100 clicks, and at a typical SaaS conversion rate of 2 to 4%, that's four or five conversions. Now ask: were any of those four people your ICP? If you scored the keyword on volume, you never asked. That's the gap this rubric closes. You score each keyword on [ICP](/glossary/what-is-icp/) fit, then you let volume break ties, not lead the decision. If you want the deeper case for that ordering, we made it in our piece on [search volume versus search intent](/blogs/how-to-choose-search-volume-vs-search-intent/).
+We've watched teams rank top-three for high-volume terms and move zero pipeline, because the searchers were mostly students and job seekers who were never going to buy.
+
+A 1,000-search keyword ranking top three might bring 100 clicks, and at a typical SaaS conversion rate of 2 to 4%, that's four or five conversions. Now ask: were any of those four people your ICP? If you scored the keyword on volume, you never asked.
+
+That's the gap this rubric closes. You score each keyword on [ICP](/glossary/what-is-icp/) fit, then you let volume break ties, not lead the decision. If you want the deeper case for that ordering, we made it in our piece on [search volume versus search intent](/blogs/how-to-choose-search-volume-vs-search-intent/).
 
 ## Step 1: Score Whether the Searcher Owns the Problem
 
@@ -38,7 +44,9 @@ This signal does most of the work, so it carries the most weight. A query like "
 
 ![A five-signal scoring rubric for rating SaaS keywords by ICP fit, with weights and a kill threshold.](/images/blog-infographics/how-to-score-saas-keywords-by-icp-intent-infographic-1.webp)
 
-We learned how much this matters by changing one question. On an enterprise client we stopped asking "what gets the most searches" and started asking "what does someone search when they already have this problem and need a solution now." Most of those queries had very low volume. But the searchers were decision-makers, and a page getting five or ten visitors a week was almost all qualified. That client went from a handful of sales opportunities to several times that in two quarters, no budget increase, no extra content.
+We learned how much this matters by changing one question. On an enterprise client we stopped asking "what gets the most searches" and started asking "what does someone search when they already have this problem and need a solution now."
+
+Most of those queries had very low volume. But the searchers were decision-makers, and a page getting five or ten visitors a week was almost all qualified. That client went from a handful of sales opportunities to several times that in two quarters, no budget increase, no extra content.
 
 Here's how to score the signal:
 
@@ -55,9 +63,13 @@ The second signal is whether the searcher's company can actually buy from you. A
 
 This is where SaaS teams leak the most effort. You map keywords beautifully, you rank, and the leads that show up are freelancers and SMBs when you sell to mid-market security teams. The keyword wasn't wrong about the problem. It was wrong about the wallet.
 
-Take a compliance SaaS built for fintech teams of 200-plus. "Free compliance checklist" owns a real problem and pulls real volume. But it pulls solo founders and three-person startups who'll never reach your floor price. Same problem, wrong buyer. That keyword scores high on Step 1 and a flat 0 here, which is exactly the signal you want the rubric to catch.
+Take a compliance SaaS built for fintech teams of 200-plus. "Free compliance checklist" owns a real problem and pulls real volume. But it pulls solo founders and three-person startups who'll never reach your floor price.
 
-One thing we see constantly: the obvious role isn't the buyer. A client whose product repurposed content kept targeting Demand Gen and Growth Marketers, but the person who actually owned the problem was the Head of Content. The right keyword set leaned heavily toward content-leadership language. So when you score fit, score it against the title that signs, not the title you assume. The same precision matters when you [map keywords to the buyer's journey](/blogs/how-to-map-keywords-to-saas-buyer-journey/) later.
+Same problem, wrong buyer. That keyword scores high on Step 1 and a flat 0 here, which is exactly the signal you want the rubric to catch.
+
+One thing we see constantly: the obvious role isn't the buyer. A client whose product repurposed content kept targeting Demand Gen and Growth Marketers, but the person who actually owned the problem was the Head of Content. The right keyword set leaned heavily toward content-leadership language.
+
+So when you score fit, score it against the title that signs, not the title you assume. The same precision matters when you [map keywords to the buyer's journey](/blogs/how-to-map-keywords-to-saas-buyer-journey/) later.
 
 Score it like this:
 
@@ -69,9 +81,9 @@ Score it like this:
 
 The third signal is the trigger. How close does this search sit to the moment something actually broke? Someone searching because a deadline, an audit, an outage, or a failed tool just landed on their desk is worth far more than someone idly reading. Score it 0 to 2.
 
-Trigger language is specific and a little urgent. "Vanta alternative" carries a trigger, someone's unhappy with a tool right now. "Zendesk migration" carries a trigger. "What is helpdesk software" carries none. The first two searchers have a reason to act this month. The third might act next year, or never.
+Trigger language is specific and a little urgent. "Vanta alternative" carries a trigger, someone's unhappy with a tool right now. "Zendesk migration" carries a trigger. "What is helpdesk software" carries none. The first two searchers have a reason to act this month. The third might act next year, or never. Trigger fit decays the moment your positioning moves, so re-score it whenever your ICP shifts.
 
-This is the signal that separates a comparison or alternative keyword from a definitional one. We've seen the pattern hold across accounts: when SEO keeps ranking the old version of a company after it repositions, traffic looks healthy while the wrong people land, because the trigger-heavy keywords were never rebuilt around the new ICP. Trigger fit decays the moment your positioning moves, so re-score it whenever your ICP shifts.
+This is the signal that separates a comparison or alternative keyword from a definitional one. We've seen the pattern hold across accounts: when SEO keeps ranking the old version of a company after it repositions, traffic looks healthy while the wrong people land, because the trigger-heavy keywords were never rebuilt around the new ICP.
 
 Score the trigger:
 
@@ -106,21 +118,33 @@ Take a real slice. Say a compliance SaaS for fintech is scoring these four:
 - "what is soc 2" → ownership 1, fit 1, trigger 0 = 2+1+0 = **3**
 - "free compliance checklist" → ownership 2, fit 0, trigger 1 = 4+0+1 = **5**
 
-The "vanta alternative" and "soc 2 compliance software" rows are obvious builds. "What is soc 2" dies at a 3 even if it has ten times the volume. The checklist sits right on the line at 5, and that's where volume finally earns a vote: if it's huge and cheap to produce, it can be a supporting asset, but it never jumps the queue ahead of a 9.
+The "vanta alternative" and "soc 2 compliance software" rows are obvious builds. "What is soc 2" dies at a 3 even if it has ten times the volume.
 
-Sort the whole list by score, descending. Build top-down. The keywords clustered at 8 to 10 are your money pages and your [BOFU set](/blogs/how-to-rank-bofu-keywords-saas/), the ones worth real effort. Everything from 5 to 7 is a maybe, sequenced by capacity. Below 5 doesn't enter the plan. If you want the full sequencing logic once the list is scored, we laid it out in [how to prioritize SaaS keywords by funnel stage](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/).
+The checklist sits right on the line at 5, and that's where volume finally earns a vote: if it's huge and cheap to produce, it can be a supporting asset, but it never jumps the queue ahead of a 9.
+
+Sort the whole list by score, descending. Build top-down. The keywords clustered at 8 to 10 are your money pages and your [BOFU set](/blogs/how-to-rank-bofu-keywords-saas/), the ones worth real effort.
+
+Everything from 5 to 7 is a maybe, sequenced by capacity. Below 5 doesn't enter the plan. If you want the full sequencing logic once the list is scored, we laid it out in [how to prioritize SaaS keywords by funnel stage](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/).
 
 ## The Traffic-Trap Keywords That Pass Volume and Fail ICP
 
 A traffic trap is a keyword that scores beautifully on every SEO metric and zero on every ICP signal. High volume, low difficulty, healthy CPC, and a searcher who will never, ever buy. These are the ones that wreck a quarter, because they look like wins right up until the pipeline report lands.
 
-The tell is always the same: the keyword describes a topic in your category but not a person in your market. "What is [category]," "[category] examples," "[category] template," "free [thing]" all pull volume and pull the wrong human. They feel productive because traffic climbs. We've seen SaaS teams scale exactly this kind of content and watch sessions rise while demos stay flat, which is the clearest sign you don't have a traffic problem, you have an audience problem.
+The tell is always the same: the keyword describes a topic in your category but not a person in your market. "What is [category]," "[category] examples," "[category] template," "free [thing]" all pull volume and pull the wrong human.
 
-Spot the trap before it reaches the plan by running the ownership question first, not the volume column. If you can't name the specific person who'd type the query with the problem on their desk, the volume is irrelevant. We treat SEO as a way to chase buying signals rather than raw sessions, so a keyword that can't name its buyer doesn't get built no matter how the tool scores it. It's a boring discipline to hold to, but it's the part that actually protects your pipeline. For the broader vocabulary behind these signals, our breakdown of the [types of keywords in SEO](/blogs/types-of-keywords-in-seo/) and the full [SaaS keyword research process](/blogs/how-to-do-saas-seo-keyword-research/) both feed this rubric.
+They feel productive because traffic climbs. We've seen SaaS teams scale exactly this kind of content and watch sessions rise while demos stay flat, which is the clearest sign you don't have a traffic problem, you have an audience problem.
+
+Spot the trap before it reaches the plan by running the ownership question first, not the volume column. If you can't name the specific person who'd type the query with the problem on their desk, the volume is irrelevant.
+
+We treat SEO as a way to chase buying signals rather than raw sessions, so a keyword that can't name its buyer doesn't get built no matter how the tool scores it.
+
+It's a boring discipline to hold to, but it's the part that actually protects your pipeline. For the broader vocabulary behind these signals, our breakdown of the [types of keywords in SEO](/blogs/types-of-keywords-in-seo/) and the full [SaaS keyword research process](/blogs/how-to-do-saas-seo-keyword-research/) both feed this rubric.
 
 ## How PipeRocket Digital Scores Keywords by ICP Intent
 
-We don't build SaaS content off a volume export. For every client we score the keyword list against the ICP first, problem ownership, buying power, and trigger, then let volume break ties. That's how a page with five qualified visitors a week beats a page with five thousand of the wrong ones. If you want this run on your own list, our [SaaS SEO team](https://piperocket.digital/saas-seo-agency/) does exactly this, and you can [talk to us here](https://piperocket.digital/contact-us/).
+We don't build SaaS content off a volume export. For every client we score the keyword list against the ICP first, problem ownership, buying power, and trigger, then let volume break ties.
+
+That's how a page with five qualified visitors a week beats a page with five thousand of the wrong ones. If you want this run on your own list, our [SaaS SEO team](https://piperocket.digital/saas-seo-agency/) does exactly this, and you can [talk to us here](https://piperocket.digital/contact-us/).
 
 ## Frequently Asked Questions
 

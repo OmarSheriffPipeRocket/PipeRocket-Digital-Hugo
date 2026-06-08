@@ -121,12 +121,18 @@ If you'd rather not wrestle the export yourself, our [SaaS SEO team](/saas-seo-a
 
 ### What's the difference between a keyword gap analysis and competitor analysis?
 
-Competitor analysis is the broad read: who your real competitors are, how their whole SEO strategy works, what messaging and page structures they use. A keyword gap analysis is one narrow step inside that, finding the specific keywords and pages they rank for that you don't. You run the gap analysis after you've decided which competitors matter, then turn its output into a build list.
+Competitor analysis is the broad read: who your real competitors are, how their whole SEO strategy works, what messaging and page structures they use.
+
+A keyword gap analysis is one narrow step inside that, finding the specific keywords and pages they rank for that you don't. You run the gap analysis after you've decided which competitors matter, then turn its output into a build list.
 
 ### What tools do I need for a keyword gap analysis?
 
-Ahrefs or Semrush will do it. Ahrefs calls it the Content Gap report, Semrush calls it the Keyword Gap tool. Both let you enter your domain plus several competitors and export every keyword they rank for that you don't. The tool is the easy part. The value is in the filtering and page-mapping you do afterward, which no tool does for you.
+Ahrefs or Semrush will do it. Ahrefs calls it the Content Gap report, Semrush calls it the Keyword Gap tool. Both let you enter your domain plus several competitors and export every keyword they rank for that you don't.
+
+The tool is the easy part. The value is in the filtering and page-mapping you do afterward, which no tool does for you.
 
 ### How many competitors should I include in a gap analysis?
 
-Two or three direct competitors is usually the sweet spot. More than that and the overlap gets noisy, and you start pulling in keywords from companies that aren't really competing for your buyer. Pick your closest business rivals, plus one domain that genuinely ranks for your target money-page keywords, and ignore aggregators like G2 or Capterra unless you're specifically studying their page structure rather than chasing their rankings.
+Two or three direct competitors is usually the sweet spot. More than that and the overlap gets noisy, and you start pulling in keywords from companies that aren't really competing for your buyer.
+
+Pick your closest business rivals, plus one domain that genuinely ranks for your target money-page keywords, and ignore aggregators like G2 or Capterra unless you're specifically studying their page structure rather than chasing their rankings.
