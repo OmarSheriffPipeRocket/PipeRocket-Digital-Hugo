@@ -32,11 +32,11 @@ Most teams treat volume and intent as two equal inputs and average them into a p
 
 So the real question isn't "which matters more in general." It's narrower than that. Intent decides whether a keyword belongs on your list at all, and volume only decides where it ranks among the keywords that already passed the intent test.
 
+![A four-step flow showing how a keyword earns a slot: gate on intent, confirm on the SERP, decide the page type, then rank by volume.](/images/blog-infographics/how-to-choose-search-volume-vs-search-intent-infographic-1.webp)
+
 We've watched teams rank top-three for big terms and move zero pipeline, because the searchers were mostly students and job seekers who were a year away from a credit card.
 
 This is the same ordering we use when we [score keywords by ICP intent](/blogs/how-to-score-saas-keywords-by-icp-intent/): intent gates, volume ranks. The rest of this piece is about the cases where that order gets genuinely hard to call.
-
-![Search intent acts as a gate that a keyword must pass before search volume is allowed to rank it.](/images/blog-infographics/how-to-choose-search-volume-vs-search-intent-infographic-1.webp)
 
 ## Stop Arguing and Search the Keyword Yourself
 
@@ -48,9 +48,11 @@ If the top ten are product and comparison pages, the query carries buying intent
 
 The page type that already ranks tells you the intent, and the intent tells you whether the volume is reachable for the kind of page you'd actually want to build.
 
+![A comparison of an informational SERP versus a transactional SERP: what ranks, what Google is signalling, your move, and the volume verdict for each.](/images/blog-infographics/how-to-choose-search-volume-vs-search-intent-infographic-2.webp)
+
 ### The SERP can flip a keyword you'd have skipped
 
-Sometimes the SERP rescues a low-volume keyword you'd have cut on the number. A query like "[tool] for HIPAA compliance" might show 90 searches a month, which looks like nothing next to "best project management software."
+Sometimes the SERP rescues a low-volume keyword you'd have cut on the number. A query like "[tool] for HIPAA compliance" might show 90 searches a month. That looks like nothing next to "best project management software."
 
 But search it, and if the first page is full of vendor product pages and comparison content, Google is telling you those 90 searchers are buyers in a regulated vertical who pulled out their credit card.
 
@@ -58,7 +60,9 @@ The low volume isn't a weakness here, it's a filter that's already removed every
 
 ### The SERP also kills high-volume keywords you wanted to win
 
-The reverse happens just as often. A keyword with great volume can turn out to be a trap once you read the page. Search "marketing automation" and you'll find definitions, Wikipedia-style explainers, and listicles aimed at people learning the category. None of that converts, and you can't bolt a demo CTA onto a definition and expect it to rank.
+The reverse happens just as often. A keyword with great volume can turn out to be a trap once you read the page.
+
+Search "marketing automation" and you'll find definitions, Wikipedia-style explainers, and listicles aimed at people learning the category. None of that converts, and you can't bolt a demo CTA onto a definition and expect it to rank.
 
 So even with the volume staring at you, the SERP says this is a top-of-funnel education query, and you either write it as education and accept it won't drive pipeline directly, or you skip it. Either way, the page type ranking there made the call for you before you wrote a word.
 
@@ -77,33 +81,43 @@ This is also where reporting honesty matters, because the same keyword performs 
 
 Judge a top-of-funnel blog post by a comparison page's benchmark and you'll make bad calls in both directions, cutting pages that were doing their actual job and scaling pages that never could. The volume math only means something once you've decided what page the keyword becomes and which benchmark it answers to.
 
+![A pictograph of 100 round person icons standing for 100 clicks, with only 4 to 5 filled in to show how few of them become real conversions.](/images/blog-infographics/how-to-choose-search-volume-vs-search-intent-infographic-3.webp)
+
 ## When Search Volume Actually Wins
 
 Volume genuinely wins in one specific situation: the searcher already has buying intent, and you simply want more people exactly like them. Volume is a multiplier on intent that already exists. It is never a substitute for intent that doesn't.
+
+Here's the whole call in one view:
+
+| The decision | Volume wins the slot | Intent overrides volume |
+|---|---|---|
+| The searcher | Already a qualified buyer, you just want more like them | A rare decision-maker with an active problem |
+| What volume is doing | Multiplying intent that already exists | Nothing on its own; one real buyer beats thousands who can't sign |
+| Typical query | High-intent terms at scale, like "[category] software comparison" | Near-zero-volume problem queries, like "migrate off [legacy tool] without downtime" |
+| Where it shows up | Broad comparison and category terms with budget behind them | Enterprise and high-ACV SaaS: migration, compliance, a tool that just failed |
 
 Picture two comparison keywords that both pass the intent test. "[Your category] software comparison" gets 2,000 searches a month and "[niche tool] vs [niche tool]" gets 120. Both are high-intent, both pull people choosing between real options with a budget.
 
 Here, and only here, volume is the right tiebreaker, so you build the 2,000-search page first because it's the same qualified buyer at fifteen times the scale. That's volume doing its honest job, ranking two keywords that already earned their place.
 
-The trap is using volume to justify a keyword that failed the intent test, telling yourself the traffic will "build awareness" or "warm them up." Sometimes that's a real top-of-funnel play with a real purpose, and a deliberate awareness page is fine.
-
-The mistake is pretending a high-volume informational keyword is a pipeline keyword because the number is big. It's a pipeline keyword only if the people behind the searches can buy. If they can't, the volume is just a louder version of zero.
+The trap is using volume to justify a keyword that failed the intent test, telling yourself the traffic will "build awareness." A deliberate top-of-funnel page is fine, but a high-volume informational keyword is only a pipeline keyword if the people searching it can buy. If they can't, the volume is just a louder version of zero.
 
 ## When Search Intent Has to Override Volume
 
 Intent overrides volume whenever the rare searcher is worth more than the crowd. In enterprise and high-ACV SaaS this is the norm, not the exception, because one decision-maker with an active problem is worth more than thousands of random visitors who'll never sign anything.
 
-We grew one client from 3 sales opportunities to 15 in two quarters with no budget increase and no extra content.
+### A client that traded volume for buyers
 
-At first we did what most SEO teams do, target high-volume bottom-of-funnel keywords and publish traffic-focused content. Traffic grew, pipeline didn't, and the leads weren't qualified. So we changed the question from "what gets the most searches" to "what does someone search when they already have a problem and need a solution now," things like implementation problems and scaling bottlenecks.
+We grew one client from 3 sales opportunities to 15 in two quarters, with no budget increase and no extra content. All we changed was which keywords we chased:
 
-Most of those keywords had very low or near-zero volume, but a page might get 5 to 10 visitors a week and almost all of them were decision-makers. If your traffic is growing but pipeline isn't, you may not have a traffic problem at all, you have an audience problem.
+- **Before:** we targeted high-volume bottom-of-funnel keywords and published traffic-focused content. Traffic grew, pipeline didn't, and the leads weren't qualified.
+- **After:** we asked "what does someone search when they already have a problem and need a solution now," things like implementation problems and scaling bottlenecks. Most had near-zero volume, but a page might get 5 to 10 visitors a week and almost all of them were decision-makers.
+
+If your traffic is growing but pipeline isn't, you may not have a traffic problem at all, you have an audience problem.
 
 This is where the standard tools fail you, because Keyword Difficulty and volume describe the keyword's SEO odds and say nothing about the human typing it. A query like "migrate off [legacy tool] without downtime" might show almost no volume, yet the person typing it is mid-crisis and ready to switch vendors this month.
 
 For the mechanics of building these, our guide on [ranking BOFU keywords](/blogs/how-to-rank-bofu-keywords-saas/) covers the page side. The point here is the judgment call: low volume plus high intent beats high volume plus soft intent almost every time in B2B SaaS.
-
-![A comparison of when search volume wins the decision versus when search intent has to override it.](/images/blog-infographics/how-to-choose-search-volume-vs-search-intent-infographic-2.webp)
 
 ## How to Make the Call on a Single Keyword
 
@@ -118,23 +132,23 @@ For any one keyword, here's the order we run:
 
 The mistake almost every team makes is starting at the bottom of that list, sorting by volume on day one and reverse-engineering a reason the traffic matters. Run it the other way and the hard cases stop being hard.
 
-If you want the full picture of where each passing keyword sits in the buyer's path, we lay that out in our guide to [mapping keywords to the SaaS buyer journey](/blogs/how-to-map-keywords-to-saas-buyer-journey/), and the build order once they're mapped is covered in [how to prioritize keywords by funnel stage](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/).
+If you want the full picture of where each passing keyword sits in the buyer's path, we lay that out in our guide to [mapping keywords to the SaaS buyer journey](/blogs/how-to-map-keywords-to-saas-buyer-journey/). The build order once they're mapped is covered in [how to prioritize keywords by funnel stage](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/).
 
 ## A Mistake Worth Naming
 
 The most expensive version of this plays out across your whole list, not on one keyword. You run the entire list on volume, never notice, and volume reporting keeps looking like success right up until someone asks where the pipeline is.
 
-A compliance SaaS for fintech teams can rank page-one for a dozen high-volume category terms, watch its traffic chart climb every month, and still close nothing, because every one of those terms is owned by analysts and students rather than buyers. The dashboard says the program is working. Sales says they've never heard of a single one of those visitors.
+A compliance SaaS for fintech teams can rank page-one for a dozen high-volume category terms and still close nothing, because every one of those terms is owned by analysts and students rather than buyers. The dashboard says the program is working. Sales says they've never heard of a single one of those visitors.
 
-That gap is the whole problem, and it stays invisible as long as you measure traffic instead of qualified pipeline.
-
-If you understand the difference between the [types of keywords](/blogs/types-of-keywords-in-seo/) and gate on intent before you ever sort by volume, which is exactly how we run [SaaS keyword research](/blogs/how-to-do-saas-seo-keyword-research/), the gap never opens in the first place.
+That gap is the whole problem, and it stays invisible as long as you measure traffic instead of qualified pipeline. If you understand the difference between the [types of keywords](/blogs/types-of-keywords-in-seo/) and gate on intent before you ever sort by volume, which is exactly how we run [SaaS keyword research](/blogs/how-to-do-saas-seo-keyword-research/), the gap never opens in the first place.
 
 ## How PipeRocket Digital Makes This Call
 
 We don't pick keywords off a volume sort. We gate every keyword on whether the searcher is someone you can sell to, confirm it against the live SERP, and only then let volume decide the build order among the survivors.
 
-It's slower than exporting a list and sorting by the biggest number, and it's the reason our clients' rankings turn into pipeline instead of a traffic chart nobody acts on. If you want this run properly on your keyword list, our [SaaS SEO team](https://piperocket.digital/saas-seo-agency/) does exactly this, and you can [reach out here](https://piperocket.digital/contact-us/).
+It's slower than exporting a list and sorting by the biggest number, and it's the reason our clients' rankings turn into pipeline instead of a traffic chart nobody acts on.
+
+If you want this run properly on your keyword list, our [SaaS SEO team](https://piperocket.digital/saas-seo-agency/) does exactly this, and you can [reach out here](https://piperocket.digital/contact-us/).
 
 ## Frequently Asked Questions
 

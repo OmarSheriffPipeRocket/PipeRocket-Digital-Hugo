@@ -106,27 +106,19 @@ Ranking with the wrong content type, or with content that converts nobody, is as
 
 ## How MOFU Ranking Differs From BOFU Execution
 
-MOFU and BOFU rank on different signals and do different jobs, so running one playbook on both is where SaaS content programs quietly waste a quarter. It's worth naming the split clearly.
+MOFU and BOFU rank on different signals and do different jobs, so running one playbook on both is where SaaS content programs quietly waste a quarter. The split looks like this:
 
-### BOFU is conversion work; MOFU is authority work
+| Dimension | BOFU | MOFU |
+| --- | --- | --- |
+| Job | Convert a buyer who already wants a tool. Closing. | Earn the buyer who's still deciding and build the topical authority that lets BOFU rank. Qualifying and supporting. |
+| Page count / sequencing | Few and finite, usually 40 to 60 per single-product company. Build these first for fast pipeline. | Broader, since consideration covers more ground. Expand this layer next to feed the decision pages. |
+| How to measure | Direct conversions and last-click. Mostly accurate. | Contribution by page type, not last-click. MOFU assists deals rather than closing them. |
 
-A BOFU page (comparison, alternatives, pricing) is a landing page whose job is to convert a buyer who already wants a tool. The execution is sales copy and an honest comparison table that matches SERP intent.
-
-A MOFU page's job is different: earn the buyer who's still deciding, and build the topical authority that lets your BOFU pages rank at all.
-
-One is closing. The other is qualifying and supporting. The detailed BOFU side, page types and ranking timelines, stays in the [BOFU playbook](/blogs/how-to-rank-bofu-keywords-saas/) so this piece doesn't double it.
-
-### They sit at different points and need different sequencing
-
-BOFU pages are few and finite, most single-product SaaS companies max out around 40 to 60 of them. MOFU is broader because the consideration stage covers more ground. That changes how you prioritise: build the high-intent decision pages first for fast pipeline, then expand the MOFU layer to feed them.
+BOFU pages (comparison, alternatives, pricing) are landing pages, so the execution is sales copy and an honest comparison table matching SERP intent. The detailed BOFU side, page types and ranking timelines, stays in the [BOFU playbook](/blogs/how-to-rank-bofu-keywords-saas/) so this piece doesn't double it.
 
 The full sequencing call, build the high-intent decision pages first and expand the MOFU layer to feed them, is in [how to prioritise keywords by funnel stage](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/).
 
-### Measure MOFU on contribution, not last-click
-
-Judge a BOFU page on direct conversions and you're mostly right. Judge a MOFU page the same way and you'll cut pages that were doing real work, because MOFU usually assists the deal rather than closing it.
-
-Report by page type and hold each to its own benchmark: comparison pages convert higher, educational pages convert lower and often on an asset rather than a demo.
+On measurement, report by page type and hold each to its own benchmark. Comparison pages convert higher. Educational pages convert lower, often on an asset rather than a demo. Judge a MOFU page on last-click and you'll cut pages that were doing real work.
 
 If you're scoring which MOFU terms even deserve the effort, the [ICP-intent scoring filter](/blogs/how-to-score-saas-keywords-by-icp-intent/) and the [ICP definition](/glossary/what-is-icp/) keep you focused on the buyer who actually pays.
 

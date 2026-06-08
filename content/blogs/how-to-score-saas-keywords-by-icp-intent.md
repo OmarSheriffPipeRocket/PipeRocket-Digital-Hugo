@@ -36,6 +36,8 @@ A 1,000-search keyword ranking top three might bring 100 clicks, and at a typica
 
 That's the gap this rubric closes. You score each keyword on [ICP](/glossary/what-is-icp/) fit, then you let volume break ties, not lead the decision. If you want the deeper case for that ordering, we made it in our piece on [search volume versus search intent](/blogs/how-to-choose-search-volume-vs-search-intent/).
 
+![A pictograph of 100 round person icons standing for the 100 clicks a 1,000-search keyword brings, with only 4 to 5 filled in to show how few are ICP-fit buyers.](/images/blog-infographics/how-to-score-saas-keywords-by-icp-intent-infographic-3.webp)
+
 ## Step 1: Score Whether the Searcher Owns the Problem
 
 The heaviest signal is problem ownership. Before anything else, ask: does the person typing this query personally own the pain our product removes? Not "are they in our category," but "is this their problem to fix." Score it 0 to 3.
@@ -113,10 +115,12 @@ Put the scoring into your keyword sheet and make it a column, not a vibe. The sh
 
 Take a real slice. Say a compliance SaaS for fintech is scoring these four:
 
-- "soc 2 compliance software" → ownership 3, fit 2, trigger 1 = 6+2+1 = **9**
-- "vanta alternative" → ownership 3, fit 2, trigger 2 = 6+2+2 = **10**
-- "what is soc 2" → ownership 1, fit 1, trigger 0 = 2+1+0 = **3**
-- "free compliance checklist" → ownership 2, fit 0, trigger 1 = 4+0+1 = **5**
+| Keyword | Ownership | Fit | Trigger | Score |
+| --- | --- | --- | --- | --- |
+| soc 2 compliance software | 3 | 2 | 1 | **9** |
+| vanta alternative | 3 | 2 | 2 | **10** |
+| what is soc 2 | 1 | 1 | 0 | **3** |
+| free compliance checklist | 2 | 0 | 1 | **5** |
 
 The "vanta alternative" and "soc 2 compliance software" rows are obvious builds. "What is soc 2" dies at a 3 even if it has ten times the volume.
 
@@ -130,7 +134,12 @@ Everything from 5 to 7 is a maybe, sequenced by capacity. Below 5 doesn't enter 
 
 A traffic trap is a keyword that scores beautifully on every SEO metric and zero on every ICP signal. High volume, low difficulty, healthy CPC, and a searcher who will never, ever buy. These are the ones that wreck a quarter, because they look like wins right up until the pipeline report lands.
 
-The tell is always the same: the keyword describes a topic in your category but not a person in your market. "What is [category]," "[category] examples," "[category] template," "free [thing]" all pull volume and pull the wrong human.
+The tell is always the same: the keyword describes a topic in your category but not a person in your market. The query patterns that pull volume and pull the wrong human:
+
+- "What is [category]"
+- "[category] examples"
+- "[category] template"
+- "free [thing]"
 
 They feel productive because traffic climbs. We've seen SaaS teams scale exactly this kind of content and watch sessions rise while demos stay flat, which is the clearest sign you don't have a traffic problem, you have an audience problem.
 

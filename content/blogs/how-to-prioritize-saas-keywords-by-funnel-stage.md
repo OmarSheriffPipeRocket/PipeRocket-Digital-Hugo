@@ -52,6 +52,8 @@ The standard advice runs the other way: build awareness first, then nurture peop
 
 TOFU takes months to rank and even longer to tie to revenue. BOFU pages catch people who've already decided they need a solution and are choosing between vendors right now.
 
+### What 3 to 15 Opportunities Looked Like
+
 We grew one B2B SaaS client from 3 sales opportunities to 15 in two quarters, no budget increase and no extra content. The shift was purely about what we prioritized.
 
 We stopped chasing high-volume terms and started building for the queries someone types when they already have the problem. Many of those pages got 5 to 10 visitors a week, but almost every visitor was a decision-maker.
@@ -113,11 +115,19 @@ Rank the keywords inside a stage by likely pipeline contribution, not by traffic
 
 A page's value is intent times conversion likelihood times how badly sales wants that kind of lead, and you build in descending order of that score.
 
+![Within one funnel stage, a keyword's priority score multiplies buying intent, conversion likelihood by page type, and sales relevance to set the build order](/images/blog-infographics/how-to-prioritize-saas-keywords-by-funnel-stage-infographic-2.webp)
+
 This is the same logic behind [scoring SaaS keywords by ICP intent](/blogs/how-to-score-saas-keywords-by-icp-intent/), which goes deeper on weighting terms by how well they match your ideal buyer.
 
 I report conversion by page *type*, not aggregate traffic, and hold each type to its own benchmark. A comparison or alternative page should convert at three to four percent because the intent is high.
 
 A general top-of-funnel page often sits around 0.75 percent, frequently on an asset download rather than a demo. Judge a blog post by a comparison page's benchmark and you'll make bad sequencing calls.
+
+| Page type | Typical conversion | When it leads |
+|---|---|---|
+| Comparison / alternative pages | 3 to 4% | Highest intent, so they go first inside the stage |
+| Pricing / BOFU pages | High intent, no fixed benchmark stated | Strong, but escape-intent pages still lead them |
+| General top-of-funnel pages | Around 0.75% | Last in the build order, usually on an asset download |
 
 Take a compliance SaaS for fintech teams. Their "[competitor] alternative" page and their "SOC 2 automation pricing" page both sit in BOFU, but the alternative page catches someone actively leaving a tool that failed them, while the pricing page catches comparison shoppers.
 
@@ -133,17 +143,11 @@ The point is sequence: intent and conversion math set the order, and volume brea
 
 Three mistakes wreck more SaaS content sequences than anything else, and all three come from prioritizing the wrong thing at the wrong time.
 
-The first is building TOFU-first because it's easier to justify to leadership. Awareness content gets more traffic, the charts go up and to the right, and everyone feels productive.
+1. **Building TOFU-first because it's easier to justify to leadership.** Awareness content gets more traffic, the charts go up and to the right, and everyone feels productive. Six months later traffic has tripled and pipeline hasn't moved, because you built for people who weren't buying while ignoring the ones who were.
 
-Six months later traffic has tripled and pipeline hasn't moved, because you built for people who weren't buying while ignoring the ones who were.
+2. **Treating every BOFU page as equal priority.** Teams build their BOFU set in whatever order the keywords appear in the sheet, instead of leading with the pages that map to the deals sales wants most. Your "[biggest competitor] alternative" page and your page for a tool nobody compares you to are both BOFU, but only one belongs in week one.
 
-The second is treating every BOFU page as equal priority. Teams build their BOFU set in whatever order the keywords appear in the sheet, instead of leading with the pages that map to the deals sales wants most.
-
-Your "[biggest competitor] alternative" page and your page for a tool nobody compares you to are both BOFU, but only one belongs in week one.
-
-The third is ignoring how long pages take to rank when you sequence. BOFU pages on a young domain don't rank overnight; they need supporting content and internal links behind them.
-
-Sequence as though everything ranks instantly, and you'll build a pricing page in isolation, watch it sit on page three, and conclude BOFU "doesn't work" when the real problem was that you built the pricing page before the content that was supposed to hold it up.
+3. **Ignoring how long pages take to rank when you sequence.** BOFU pages on a young domain don't rank overnight; they need supporting content and internal links behind them. Sequence as though everything ranks instantly, and you'll build a pricing page in isolation, watch it sit on page three, and conclude BOFU "doesn't work" when the real problem was that you built the pricing page before the content that was supposed to hold it up.
 
 The fix for all three is the same: sequence by where revenue actually comes from, and build the finite high-intent layer first. The slow-ranking authority content still has to start early, precisely because it pays off late.
 

@@ -53,7 +53,9 @@ One thing worth knowing: across the 53 B2B SaaS brands we analysed over 8 months
 
 Now the searcher has a category. They're searching "best compliance automation software," "GRC tools for startups," "alternatives to manual SOC 2 audits." The query names a kind of solution but not a winner. They're building a shortlist.
 
-This is where most buying actually starts to take shape, and it's the stage SaaS teams under-serve most. The searcher wants orientation: what types of tools solve this, what should I look for, who's in the running. Listicles, category pages, and "how to choose" guides live here. The intent is warmer than awareness but not yet locked onto a vendor.
+This is where most buying actually starts to take shape, and it's the stage SaaS teams under-serve most. The searcher wants orientation: what types of tools solve this, what should I look for, who's in the running.
+
+Listicles, category pages, and "how to choose" guides live here. The intent is warmer than awareness but not yet locked onto a vendor.
 
 ### Decision: they're choosing between named options
 
