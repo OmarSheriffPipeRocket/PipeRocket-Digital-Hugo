@@ -45,7 +45,7 @@ Picking the wrong agency costs more than retainer fees: it costs you six months 
 | PipeRocket Digital | Full-spectrum AEO, GEO, and pipeline for B2B SaaS | [$1,500/mo](/contact-us/) | Yes | [Verified on Clutch](https://clutch.co/profile/piperocket-digital) |
 | First Page Sage | Enterprise GEO and thought leadership | [~$10,000/mo](https://firstpagesage.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/first-page-sage) |
 | Single Grain | Search Everywhere Optimization with paid media | [~$10,000/mo](https://www.singlegrain.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/single-grain) |
-| Omniscient Digital | Editorial-first GEO with Surround Sound SEO | [~$10,000-$15,000/mo](https://beomniscient.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/omniscient-digital-llc) |
+| Omniscient Digital | Editorial-first GEO with Surround Sound SEO | [~$10,000-$15,000/mo](https://beomniscient.com/) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
 | RevenueZen | Full-funnel B2B with month-to-month pricing | [$9,625/mo](https://revenuezen.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/revenuezen) |
 | iPullRank | Enterprise technical GEO and relevance engineering | [~$10,000-$30,000/mo](https://ipullrank.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/ipullrank) |
 | NoGood | AEO inside multi-channel growth squad | [~$15,000-$25,000/mo](https://nogood.io/) | Yes | [Verified on Clutch](https://clutch.co/profile/nogood) |
@@ -383,20 +383,20 @@ Omniscient Digital doesn't publish rate cards publicly. Full-service engagements
 
 **Love:** Editorial depth and category positioning
 
-Clutch reviewers praise the OmniscientX research framework and the way every content piece is engineered for both LLM citation and human authority ([source](https://clutch.co/profile/omniscient-digital-llc)).
+Clutch reviewers praise the OmniscientX research framework and the way every content piece is engineered for both LLM citation and human authority ([source](https://clutch.co/profile/omniscient-digital)).
 
 - Clients value the founder pedigree from HubSpot, Shopify, and Workato across the strategy work
 
 **Complain:** Pace and breadth
 
-The methodical 6-month-minimum cadence can feel slow to growth teams used to weekly experimentation cycles, and the content-only scope means clients need a separate PPC or conversion partner ([source](https://clutch.co/profile/omniscient-digital-llc)).
+The methodical 6-month-minimum cadence can feel slow to growth teams used to weekly experimentation cycles, and the content-only scope means clients need a separate PPC or conversion partner ([source](https://clutch.co/profile/omniscient-digital)).
 
 - Some clients report wanting paid media and CRO under the same roof for a fully integrated motion
 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes positioning audit and content strategy preview |
-| Clutch Rating | [Verified on Clutch](https://clutch.co/profile/omniscient-digital-llc) |
+| Clutch Rating | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
 
 
 ---
@@ -940,4 +940,5 @@ Search your top buyer queries in ChatGPT, Perplexity, and Google AI Overviews. N
 
 ## Update History
 
+- **June 8, 2026:** Fixed broken Omniscient Digital Clutch profile URL (omniscient-digital-llc 404); updated Omniscient Digital Clutch rating to 4.8/5 (5 reviews).
 - **April 1, 2026:** Published.
