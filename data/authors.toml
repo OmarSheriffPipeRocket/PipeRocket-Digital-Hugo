@@ -21,11 +21,11 @@ expertise = ["B2B SaaS SEO", "Topical authority", "BOFU strategy", "Agency strat
 
 [omar]
 name = "Omar Khan"
-role = "Senior SEO Writer, PipeRocket Digital"
+role = "SEO Specialist, PipeRocket Digital"
 photo = "/images/authors/omar.webp"
 linkedin = "https://www.linkedin.com/in/omarsheriff04/"
-bio = "Omar is a dedicated SEO writer with over 5 years of experience creating content for B2B SaaS marketing teams. As Senior SEO Writer at PipeRocket Digital, he specialises in BOFU intent and category-defining content. Driven by clarity and conversion, he produces editorial that ranks, resonates, and moves buyers down the funnel."
-expertise = ["BOFU SEO", "Content briefs", "SaaS content"]
+bio = "Omar is an SEO specialist with experience driving organic growth for B2B SaaS companies. As SEO Specialist at PipeRocket Digital, he focuses on on-page optimisation, content strategy, and BOFU intent — building programmes that turn search visibility into qualified pipeline."
+expertise = ["B2B SaaS SEO", "On-page optimisation", "Content strategy"]
 
 [ranjeeth]
 name = "Ranjeeth Kumar"
@@ -36,11 +36,11 @@ bio = "Ranjeeth is a B2B SEO specialist focused on building organic growth engin
 expertise = ["B2B SaaS SEO", "Technical SEO", "Keyword research"]
 
 [rohith]
-name = "Rohith Sharma"
-role = "Senior SEO Specialist, PipeRocket Digital"
+name = "Sabari Rohith"
+role = "Sr. SEO Specialist, PipeRocket Digital"
 photo = "/images/authors/rohith.webp"
-linkedin = "https://in.linkedin.com/in/sabarirohith"
-bio = "Rohith is a senior SEO specialist with deep expertise in organic search strategy for B2B SaaS. As Senior SEO Specialist at PipeRocket Digital, he builds data-driven SEO programmes that combine technical excellence with topical authority. Previously SEO at Kovai.co, he focuses on turning search visibility into qualified pipeline."
+linkedin = "https://www.linkedin.com/in/sabarirohith/"
+bio = "Sabari Rohith is a senior SEO specialist with deep expertise in organic search strategy for B2B SaaS. As Sr. SEO Specialist at PipeRocket Digital, he builds data-driven SEO programmes that combine technical excellence with topical authority — turning search visibility into qualified pipeline."
 expertise = ["B2B SaaS SEO", "Organic search strategy", "Technical SEO"]
 
 [varshini]
@@ -90,4 +90,28 @@ photo = "/images/authors/douglas.webp"
 linkedin = "https://www.linkedin.com/in/dribback"
 bio = "Douglas is a demand generation and ABM leader who turns strategy into pipeline across brand, demand, and product marketing. Demandbase ABM-certified and LSE-educated, he writes for PipeRocket on account-based marketing, AEO, and modern pipeline building for B2B SaaS."
 expertise = ["Demand generation", "Account-based marketing", "Pipeline development"]
+
+[vignesh-sampath]
+name = "Vignesh Sampath"
+role = "SEO Lead, PipeRocket Digital"
+photo = "https://ui-avatars.com/api/?name=Vignesh+Sampath&size=256&background=1d4ed8&color=fff&font-size=0.4&bold=true"
+linkedin = "https://www.linkedin.com/in/vignesh-sampath-kumar/"
+bio = "Vignesh is an SEO lead specialising in scalable organic growth for B2B SaaS companies. As SEO Lead at PipeRocket Digital, he owns end-to-end SEO strategy — from technical audits and site architecture to keyword research and content-led acquisition — helping clients compound search visibility into predictable pipeline."
+expertise = ["B2B SaaS SEO", "SEO strategy", "Technical SEO", "Keyword research"]
+
+[sabarish-chandrasekar]
+name = "Sabarish Chandrasekar"
+role = "PPC Lead, PipeRocket Digital"
+photo = "https://ui-avatars.com/api/?name=Sabarish+Chandrasekar&size=256&background=0f766e&color=fff&font-size=0.4&bold=true"
+linkedin = "https://www.linkedin.com/in/sabarishchandrasekar/"
+bio = "Sabarish is a paid media lead focused on building high-performance acquisition programmes for B2B SaaS companies. As PPC Lead at PipeRocket Digital, he architects and scales Google Ads and LinkedIn Ads campaigns that drive qualified pipeline — bringing a data-first approach to every dollar of ad spend."
+expertise = ["B2B SaaS PPC", "Google Ads", "LinkedIn Ads", "Paid acquisition"]
+
+[immanual]
+name = "Immanual D M"
+role = "PPC Specialist, PipeRocket Digital"
+photo = "https://ui-avatars.com/api/?name=Immanual+DM&size=256&background=7c3aed&color=fff&font-size=0.4&bold=true"
+linkedin = "https://www.linkedin.com/in/immanualdm/"
+bio = "Immanual is a PPC specialist with hands-on expertise in paid search and social for B2B SaaS brands. As PPC Specialist at PipeRocket Digital, he manages day-to-day campaign execution across Google and LinkedIn — optimising for conversion efficiency and pipeline contribution at every stage of the funnel."
+expertise = ["Paid search", "Google Ads", "LinkedIn Ads", "Campaign optimisation"]
 
