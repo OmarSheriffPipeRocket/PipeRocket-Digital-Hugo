@@ -952,5 +952,5 @@ SEO ranks pages on Google for buyer queries. Content marketing creates the asset
 
 ## Update History
 
-- **June 8, 2026:** Updated RevenueZen Clutch to 4.9/5 (38 reviews); updated Directive Consulting Clutch to 4.8/5 (56 reviews); updated Omniscient Digital Clutch to 4.8/5 (5 reviews); updated Stratabeat Clutch to 5.0/5 (12 reviews); updated Kalungi to 0 reviews and added CEO transition news (Antoine Vial appointed March 2026).
+- **June 8, 2026:** RevenueZen Clutch "Verified on Clutch" -> 4.9/5 (38 reviews); Directive Consulting "Verified on Clutch" -> 4.8/5 (56 reviews); Omniscient Digital "Verified on Clutch" -> 4.8/5 (5 reviews); Stratabeat "Verified on Clutch" -> 5.0/5 (12 reviews); Kalungi "Verified on Clutch" -> 0 reviews; added Kalungi CEO transition news (Antoine Vial appointed March 2026).
 - **November 17, 2025:** Published.

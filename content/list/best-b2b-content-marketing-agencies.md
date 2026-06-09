@@ -786,5 +786,5 @@ Can the agency tell you, in one number, what content contributed to closed reven
 
 ## Update History
 
-- **June 8, 2026:** Updated Omniscient Digital Clutch to 4.8/5 (5 reviews) and corrected Clutch profile URL.
+- **June 8, 2026:** Omniscient Digital Clutch "Verified on Clutch" -> 4.8/5 (5 reviews); fixed Clutch URL (omniscient-digital-llc 404 -> omniscient-digital).
 - **November 19, 2025:** Published.

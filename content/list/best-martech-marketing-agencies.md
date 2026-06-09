@@ -752,5 +752,5 @@ Paid programs show pipeline contribution in 60-90 days. SEO and content take 3-6
 
 ## Update History
 
-- **June 5, 2026:** Updated Directive Consulting Clutch rating to 4.8/5 (56 reviews); noted SmartBug Media rebrand to Point Success Media (January 2026).
+- **June 5, 2026:** Directive Consulting Clutch 4.7/5 (56 reviews) -> 4.8/5 (56 reviews); added SmartBug Media news (rebrand to Point Success Media, January 2026).
 - **April 28, 2026:** Published.

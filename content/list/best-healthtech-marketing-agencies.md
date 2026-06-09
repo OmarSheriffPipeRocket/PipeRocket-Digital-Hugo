@@ -650,5 +650,5 @@ Real Chemistry and Klick Health are pharma communications giants, not B2B health
 
 ## Update History
 
-- **June 4, 2026:** Corrected PipeRocket Digital Clutch rating to 4.7/5 (13 reviews).
+- **June 4, 2026:** PipeRocket Digital Clutch 4.8/5 (12 reviews) -> 4.7/5 (13 reviews).
 - **April 24, 2026:** Published.

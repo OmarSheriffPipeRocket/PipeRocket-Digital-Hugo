@@ -822,5 +822,5 @@ Hire a specialist when buyer fluency matters (HCM, payroll, ATS). Hire a B2B Saa
 
 ## Update History
 
-- **June 5, 2026:** Updated Directive Consulting Clutch rating to 4.8/5 (56 reviews).
+- **June 5, 2026:** Directive Consulting Clutch 4.7/5 (56 reviews) -> 4.8/5 (56 reviews).
 - **April 28, 2026:** Published.

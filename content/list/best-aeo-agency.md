@@ -940,5 +940,5 @@ Search your top buyer queries in ChatGPT, Perplexity, and Google AI Overviews. N
 
 ## Update History
 
-- **June 8, 2026:** Fixed broken Omniscient Digital Clutch profile URL (omniscient-digital-llc 404); updated Omniscient Digital Clutch rating to 4.8/5 (5 reviews).
+- **June 8, 2026:** Omniscient Digital Clutch "Verified on Clutch" -> 4.8/5 (5 reviews); fixed Clutch URL (omniscient-digital-llc 404 -> omniscient-digital).
 - **April 1, 2026:** Published.
