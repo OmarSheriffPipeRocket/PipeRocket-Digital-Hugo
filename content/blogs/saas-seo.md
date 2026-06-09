@@ -66,6 +66,10 @@ For most SaaS companies, organic CAC crosses below paid CAC somewhere between mo
 - AI Overviews, ChatGPT citations, and Perplexity answers now intercept traffic before it ever reaches your page — entity clarity and Knowledge Graph alignment are non-optional
 - Vertical-specific regulations (SOC 2, GDPR, HIPAA, FedRAMP) intersect with how you publish content and which trust signals you surface
 
+{{< expert-take author="kim" >}}
+We turn SaaS companies away from SEO more often than you'd think. If you don't have product-market fit and a clear ICP yet, SEO will just scale your confusion faster. Fix that first — then we talk search.
+{{< /expert-take >}}
+
 ## How Do You Build a SaaS SEO Strategy (Step by Step)?
 
 A SaaS SEO strategy follows eight steps in sequence: set pipeline-tied goals, audit your site, analyse competitors for gaps, research keywords by funnel stage, build a content plan around your ICP, optimise on-page signals for search and AI, build backlinks through earned authority, and clean up your technical foundations.

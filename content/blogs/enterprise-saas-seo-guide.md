@@ -49,6 +49,10 @@ At enterprise scale, the compounding advantage is even more pronounced. A conten
 
 **What this looks like in practice:** A $50M [ARR](/glossary/what-is-arr/) enterprise collaboration SaaS discovers through a pipeline attribution audit that 60% of their closed-won enterprise accounts had at least one organic search touchpoint in the 90 days before entering the sales cycle. The [SEO](/glossary/what-is-seo/) program had never been given credit for that contribution because the attribution model only tracked last-touch paid channels. After rebuilding the measurement framework, the company doubles the SEO budget at the next planning cycle.
 
+{{< expert-take author="kim" >}}
+On a recent enterprise engagement, the SEO was never the hard part. We submitted a set of competitor-term landing pages for approval in October — and were told those terms weren't allowed. We had to justify them as business-critical before we got the green light. Then the content team had higher-priority commitments, so it sat. Then design and dev were backed up, so we built the pages ourselves. The first set went live in December. Two months end to end, and almost none of it was about SEO tactics — it was governance.
+{{< /expert-take >}}
+
 ## The Four Pillars of Enterprise SaaS SEO
 
 Every enterprise SaaS SEO program that generates consistent pipeline is built on four interconnected foundations. Weakness in any one of them limits the entire program.
