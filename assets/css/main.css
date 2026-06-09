@@ -3537,6 +3537,29 @@ a.pr-footer__trust-item:hover {
   }
 }
 
+/* Approach section heading rocket — sits to the right of the h2 */
+.pr-approach-seo__head-rocket {
+  position: absolute;
+  top: -10px;
+  right: 40px;
+  width: 200px;
+  height: auto;
+  max-width: none;
+  pointer-events: none;
+  will-change: transform;
+  z-index: 0;
+  /* Slide-in on viewport entry — rises diagonally (bottom-left to top-right)
+     into its resting spot (right:40px, translate 0). */
+  transform: translate(-70px, 70px);
+  transition: transform 1.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.pr-approach-seo__head-rocket.is-visible {
+  transform: translate(0, 0);
+}
+@media (max-width: 1023px) {
+  .pr-approach-seo__head-rocket { display: none; }
+}
+
 /* =================================================================
    STATS — 4-up variant
    ================================================================= */
