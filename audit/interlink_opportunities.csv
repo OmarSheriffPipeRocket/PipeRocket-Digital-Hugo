@@ -1,6 +1,116 @@
 source_type,source_slug,source_cluster,source_path,method,destination_type,target_cluster,anchor,target,priority,word_pos
-blogs,saas-seo-v2,,content/blogs/saas-seo-v2.md,existing_phrase,glossary,ai-seo,LLM,/glossary/what-is-an-llm/,P2,2491
-blogs,saas-seo-v2,,content/blogs/saas-seo-v2.md,existing_phrase,glossary,seo-basics,anchor text,/glossary/what-is-anchor-text/,P2,2313
-blogs,saas-seo-v2,,content/blogs/saas-seo-v2.md,existing_phrase,glossary,seo-basics,meta description,/glossary/what-is-a-meta-description/,P2,1954
-blogs,saas-seo-v2,,content/blogs/saas-seo-v2.md,existing_phrase,glossary,seo-basics,Canonical tag,/glossary/what-is-a-canonical-tag/,P2,1232
+blogs,b2b-lead-generation,b2b-lead-gen,content/blogs/b2b-lead-generation.md,existing_phrase,glossary,b2b-lead-gen,lead generation,/glossary/what-is-lead-generation/,P0,1831
+blogs,b2b-marketing-operations-guide,b2b-marketing,content/blogs/b2b-marketing-operations-guide.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,3171
+blogs,b2b-ppc-guide,b2b-ppc,content/blogs/b2b-ppc-guide.md,existing_phrase,glossary,saas-ppc,Google Ads,/glossary/what-is-google-ads/,P2,2846
+blogs,b2b-ppc-guide,b2b-ppc,content/blogs/b2b-ppc-guide.md,existing_phrase,glossary,ppc-basics,PPC,/glossary/what-is-ppc/,P2,1638
+blogs,b2b-ppc-guide,b2b-ppc,content/blogs/b2b-ppc-guide.md,existing_phrase,blog,b2b-ppc,b2b ppc,/blogs/b2b-ppc/,P0,1137
+blogs,b2b-ppc,b2b-ppc,content/blogs/b2b-ppc.md,existing_phrase,glossary,ppc-basics,PPC,/glossary/what-is-ppc/,P2,1043
+blogs,b2b-saas-seo,saas-seo,content/blogs/b2b-saas-seo.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,515
+blogs,b2b-saas-seo,saas-seo,content/blogs/b2b-saas-seo.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,483
+blogs,enterprise-saas-seo-guide,enterprise-seo,content/blogs/enterprise-saas-seo-guide.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,648
+blogs,enterprise-seo-guide,enterprise-seo,content/blogs/enterprise-seo-guide.md,existing_phrase,glossary,seo-basics,technical SEO,/glossary/what-is-technical-seo/,P2,951
+blogs,enterprise-seo-guide,enterprise-seo,content/blogs/enterprise-seo-guide.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,536
+blogs,fintech-seo-guide,fintech-marketing,content/blogs/fintech-seo-guide.md,existing_phrase,glossary,seo-basics,Technical SEO,/glossary/what-is-technical-seo/,P2,2177
+blogs,fintech-seo-guide,fintech-marketing,content/blogs/fintech-seo-guide.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,622
+blogs,how-to-build-topic-clusters,,content/blogs/how-to-build-topic-clusters.md,existing_phrase,glossary,seo-basics,domain authority,/glossary/what-is-domain-authority/,P2,2047
+blogs,how-to-build-topic-clusters,,content/blogs/how-to-build-topic-clusters.md,existing_phrase,glossary,seo-basics,backlinks,/glossary/what-is-a-backlink/,P2,1868
+blogs,how-to-build-topic-clusters,,content/blogs/how-to-build-topic-clusters.md,existing_phrase,glossary,seo-basics,anchor text,/glossary/what-is-anchor-text/,P2,1778
+blogs,how-to-build-topic-clusters,,content/blogs/how-to-build-topic-clusters.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,1451
+blogs,how-to-build-topic-clusters,,content/blogs/how-to-build-topic-clusters.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,1300
+blogs,how-to-choose-search-volume-vs-search-intent,,content/blogs/how-to-choose-search-volume-vs-search-intent.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,1660
+blogs,how-to-choose-search-volume-vs-search-intent,,content/blogs/how-to-choose-search-volume-vs-search-intent.md,existing_phrase,glossary,digital-marketing-metrics,ICP,/glossary/what-is-icp/,P2,992
+blogs,how-to-choose-search-volume-vs-search-intent,,content/blogs/how-to-choose-search-volume-vs-search-intent.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,515
+blogs,how-to-do-keyword-gap-analysis,,content/blogs/how-to-do-keyword-gap-analysis.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,1727
+blogs,how-to-do-keyword-gap-analysis,,content/blogs/how-to-do-keyword-gap-analysis.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,1539
+blogs,how-to-do-saas-content-audit,saas-seo,content/blogs/how-to-do-saas-content-audit.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,2687
+blogs,how-to-do-saas-seo-competitor-analysis,saas-seo,content/blogs/how-to-do-saas-seo-competitor-analysis.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,820
+blogs,how-to-do-saas-seo-keyword-research,saas-seo,content/blogs/how-to-do-saas-seo-keyword-research.md,existing_phrase,glossary,saas-marketing,keyword research,/glossary/what-is-keyword-research/,P2,740
+blogs,how-to-do-saas-seo-keyword-research,saas-seo,content/blogs/how-to-do-saas-seo-keyword-research.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,512
+blogs,how-to-fix-keyword-cannibalization,,content/blogs/how-to-fix-keyword-cannibalization.md,existing_phrase,glossary,seo-basics,anchor text,/glossary/what-is-anchor-text/,P2,1568
+blogs,how-to-fix-keyword-cannibalization,,content/blogs/how-to-fix-keyword-cannibalization.md,existing_phrase,glossary,seo-basics,canonical tag,/glossary/what-is-a-canonical-tag/,P2,1217
+blogs,how-to-fix-keyword-cannibalization,,content/blogs/how-to-fix-keyword-cannibalization.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,1168
+blogs,how-to-fix-keyword-cannibalization,,content/blogs/how-to-fix-keyword-cannibalization.md,existing_phrase,glossary,seo-basics,backlinks,/glossary/what-is-a-backlink/,P2,1017
+blogs,how-to-fix-keyword-cannibalization,,content/blogs/how-to-fix-keyword-cannibalization.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,629
+blogs,how-to-map-keywords-to-saas-buyer-journey,,content/blogs/how-to-map-keywords-to-saas-buyer-journey.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,1553
+blogs,how-to-prioritize-saas-keywords-by-funnel-stage,,content/blogs/how-to-prioritize-saas-keywords-by-funnel-stage.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,835
+blogs,how-to-rank-bofu-keywords-saas,,content/blogs/how-to-rank-bofu-keywords-saas.md,existing_phrase,glossary,seo-basics,domain authority,/glossary/what-is-domain-authority/,P2,1291
+blogs,how-to-rank-bofu-keywords-saas,,content/blogs/how-to-rank-bofu-keywords-saas.md,existing_phrase,glossary,seo-basics,backlinks,/glossary/what-is-a-backlink/,P2,931
+blogs,how-to-rank-bofu-keywords-saas,,content/blogs/how-to-rank-bofu-keywords-saas.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,830
+blogs,how-to-rank-mofu-keywords-saas,,content/blogs/how-to-rank-mofu-keywords-saas.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,527
+blogs,how-to-rank-on-chatgpt-in-2026-strategies-and-tips,ai-seo,content/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips.md,existing_phrase,glossary,ai-seo,LLM,/glossary/what-is-an-llm/,P0,952
+blogs,how-to-score-saas-keywords-by-icp-intent,,content/blogs/how-to-score-saas-keywords-by-icp-intent.md,existing_phrase,glossary,digital-marketing-metrics,CPC,/glossary/what-is-cost-per-click/,P2,1745
+blogs,how-to-score-saas-keywords-by-icp-intent,,content/blogs/how-to-score-saas-keywords-by-icp-intent.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,1177
+blogs,how-to-write-google-ads-copy-for-saas-in-2026,saas-ppc,content/blogs/how-to-write-google-ads-copy-for-saas-in-2026.md,existing_phrase,glossary,saas-ppc,Google ads,/glossary/what-is-google-ads/,P0,2087
+blogs,saas-link-building,saas-seo,content/blogs/saas-link-building.md,existing_phrase,glossary,seo-basics,backlinks,/glossary/what-is-a-backlink/,P2,459
+blogs,saas-ppc-checklist,saas-ppc,content/blogs/saas-ppc-checklist.md,existing_phrase,glossary,ppc-basics,PPC,/glossary/what-is-ppc/,P2,1557
+blogs,saas-ppc,saas-ppc,content/blogs/saas-ppc.md,existing_phrase,glossary,ppc-basics,PPC,/glossary/what-is-ppc/,P2,492
+blogs,saas-seo-checklist,saas-seo,content/blogs/saas-seo-checklist.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,1153
+blogs,saas-seo-strategies-and-framework,saas-seo,content/blogs/saas-seo-strategies-and-framework.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,3596
+blogs,saas-seo,saas-seo,content/blogs/saas-seo.md,existing_phrase,glossary,seo-basics,technical SEO,/glossary/what-is-technical-seo/,P2,5401
+blogs,saas-seo,saas-seo,content/blogs/saas-seo.md,existing_phrase,glossary,ai-seo,Retrieval-Augmented Generation,/glossary/what-is-rag/,P2,3562
+blogs,saas-seo,saas-seo,content/blogs/saas-seo.md,existing_phrase,glossary,ai-seo,LLM,/glossary/what-is-an-llm/,P2,2970
+blogs,saas-seo,saas-seo,content/blogs/saas-seo.md,existing_phrase,glossary,seo-basics,anchor text,/glossary/what-is-anchor-text/,P2,2741
+blogs,saas-seo,saas-seo,content/blogs/saas-seo.md,existing_phrase,glossary,seo-basics,meta description,/glossary/what-is-a-meta-description/,P2,2287
+blogs,saas-seo,saas-seo,content/blogs/saas-seo.md,existing_phrase,glossary,seo-basics,Canonical tag,/glossary/what-is-a-canonical-tag/,P2,1382
+blogs,saas-seo,saas-seo,content/blogs/saas-seo.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,620
+blogs,saas-seo,saas-seo,content/blogs/saas-seo.md,existing_phrase,glossary,saas-marketing,content marketing,/glossary/what-is-content-marketing/,P2,517
+blogs,saas-seo,saas-seo,content/blogs/saas-seo.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,494
+blogs,types-of-keywords-in-seo,,content/blogs/types-of-keywords-in-seo.md,existing_phrase,glossary,digital-marketing-metrics,ICP,/glossary/what-is-icp/,P2,2059
+blogs,types-of-keywords-in-seo,,content/blogs/types-of-keywords-in-seo.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,595
+blogs,types-of-keywords-in-seo,,content/blogs/types-of-keywords-in-seo.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,499
+list,b2b-ppc-experts,,content/list/b2b-ppc-experts.md,existing_phrase,blog,b2b-ppc,B2B PPC,/blogs/b2b-ppc/,P1,1979
+list,b2b-ppc-experts,,content/list/b2b-ppc-experts.md,new_sentence,compare,,PipeRocket vs KlientBoost,/compare/piperocket-digital-vs-klientboost/,P0,589
+list,best-aeo-agency,ai-seo,content/list/best-aeo-agency.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,7002
+list,best-b2b-google-ads-agencies,b2b-ppc,content/list/best-b2b-google-ads-agencies.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,3928
+list,best-cybersecurity-marketing-agencies,saas-marketing,content/list/best-cybersecurity-marketing-agencies.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,4233
+list,best-keyword-clustering-tools,,content/list/best-keyword-clustering-tools.md,existing_phrase,blog,enterprise-seo,enterprise SEO,/blogs/enterprise-seo-guide/,P1,2982
+list,best-keyword-clustering-tools,,content/list/best-keyword-clustering-tools.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,2946
+list,best-legaltech-marketing-agencies,,content/list/best-legaltech-marketing-agencies.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,3689
+list,best-saas-geo-agencies,ai-seo,content/list/best-saas-geo-agencies.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,2519
+list,best-saas-growth-marketing-agencies,saas-marketing,content/list/best-saas-growth-marketing-agencies.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,3429
+list,best-saas-link-building-agencies,saas-seo,content/list/best-saas-link-building-agencies.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,3062
+list,best-saas-marketing-agencies-2026,saas-marketing,content/list/best-saas-marketing-agencies-2026.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,3843
+list,best-saas-seo-agencies-for-product-led-growth,,content/list/best-saas-seo-agencies-for-product-led-growth.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,3901
+list,best-saas-seo-agencies-for-sales-led-growth,,content/list/best-saas-seo-agencies-for-sales-led-growth.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,3929
+list,best-saas-seo-agencies-for-series-a,,content/list/best-saas-seo-agencies-for-series-a.md,existing_phrase,blog,saas-seo,B2B SaaS SEO,/blogs/b2b-saas-seo/,P1,4087
+list,best-saas-seo-agencies-for-series-a,,content/list/best-saas-seo-agencies-for-series-a.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,2672
+list,best-saas-seo-agencies-for-series-b,,content/list/best-saas-seo-agencies-for-series-b.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,2615
+list,best-saas-seo-agencies-for-series-b,,content/list/best-saas-seo-agencies-for-series-b.md,existing_phrase,blog,saas-seo,B2B SaaS SEO,/blogs/b2b-saas-seo/,P1,2569
+list,best-saas-seo-agencies-for-startups,saas-seo,content/list/best-saas-seo-agencies-for-startups.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,5378
+list,best-saas-seo-agencies,saas-seo,content/list/best-saas-seo-agencies.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,2676
+list,best-serp-testing-tools-for-saas,,content/list/best-serp-testing-tools-for-saas.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,4628
+list,saas-seo-experts,,content/list/saas-seo-experts.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,2432
+list,saas-seo-experts,,content/list/saas-seo-experts.md,new_sentence,compare,,PipeRocket vs Omniscient Digital,/compare/piperocket-digital-vs-omniscient-digital/,P0,597
+glossary,keyword-clusters,,content/glossary/keyword-clusters.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,1461
+glossary,what-is-a-commercial-keyword,,content/glossary/what-is-a-commercial-keyword.md,existing_phrase,glossary,digital-marketing-metrics,ICP,/glossary/what-is-icp/,P2,1507
+glossary,what-is-a-commercial-keyword,,content/glossary/what-is-a-commercial-keyword.md,existing_phrase,glossary,seo-basics,backlink,/glossary/what-is-a-backlink/,P2,1440
+glossary,what-is-a-commercial-keyword,,content/glossary/what-is-a-commercial-keyword.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,789
+glossary,what-is-a-commercial-keyword,,content/glossary/what-is-a-commercial-keyword.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,440
+glossary,what-is-a-meta-description,seo-basics,content/glossary/what-is-a-meta-description.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,1701
+glossary,what-is-a-navigational-keyword,,content/glossary/what-is-a-navigational-keyword.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,1131
+glossary,what-is-a-navigational-keyword,,content/glossary/what-is-a-navigational-keyword.md,existing_phrase,glossary,digital-marketing-metrics,CTR,/glossary/what-is-ctr/,P2,565
+glossary,what-is-a-navigational-keyword,,content/glossary/what-is-a-navigational-keyword.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,463
+glossary,what-is-a-transactional-keyword,,content/glossary/what-is-a-transactional-keyword.md,existing_phrase,glossary,seo-basics,domain authority,/glossary/what-is-domain-authority/,P2,1539
+glossary,what-is-a-transactional-keyword,,content/glossary/what-is-a-transactional-keyword.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,741
+glossary,what-is-a-transactional-keyword,,content/glossary/what-is-a-transactional-keyword.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,455
+glossary,what-is-an-informational-keyword,,content/glossary/what-is-an-informational-keyword.md,existing_phrase,glossary,seo-basics,backlinks,/glossary/what-is-a-backlink/,P2,1305
+glossary,what-is-an-informational-keyword,,content/glossary/what-is-an-informational-keyword.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,327
+glossary,what-is-an-informational-keyword,,content/glossary/what-is-an-informational-keyword.md,existing_phrase,glossary,digital-marketing-metrics,ICP,/glossary/what-is-icp/,P2,140
+glossary,what-is-anchor-text,seo-basics,content/glossary/what-is-anchor-text.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,762
 glossary,what-is-brand-positioning,brand-marketing,content/glossary/what-is-brand-positioning.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,1496
+glossary,what-is-domain-authority,seo-basics,content/glossary/what-is-domain-authority.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,160
+glossary,what-is-evergreen-content,seo-basics,content/glossary/what-is-evergreen-content.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,482
+glossary,what-is-go-to-market-strategy,saas-marketing,content/glossary/what-is-go-to-market-strategy.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,2177
+glossary,what-is-google-search-console,seo-basics,content/glossary/what-is-google-search-console.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,467
+glossary,what-is-image-alt-text,seo-basics,content/glossary/what-is-image-alt-text.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,133
+glossary,what-is-keyword-difficulty,,content/glossary/what-is-keyword-difficulty.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,623
+glossary,what-is-keyword-difficulty,,content/glossary/what-is-keyword-difficulty.md,existing_phrase,glossary,seo-basics,backlinks,/glossary/what-is-a-backlink/,P2,74
+glossary,what-is-keyword-difficulty,,content/glossary/what-is-keyword-difficulty.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,25
+glossary,what-is-keyword-ranking,,content/glossary/what-is-keyword-ranking.md,existing_phrase,glossary,seo-basics,backlinks,/glossary/what-is-a-backlink/,P2,611
+glossary,what-is-keyword-ranking,,content/glossary/what-is-keyword-ranking.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,95
+glossary,what-is-search-intent,,content/glossary/what-is-search-intent.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,1565
+glossary,what-is-search-intent,,content/glossary/what-is-search-intent.md,existing_phrase,glossary,seo-basics,domain authority,/glossary/what-is-domain-authority/,P2,1489
+glossary,what-is-search-intent,,content/glossary/what-is-search-intent.md,existing_phrase,glossary,seo-basics,SERP,/glossary/what-is-serp/,P2,524
+glossary,what-is-search-volume,,content/glossary/what-is-search-volume.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,67
+glossary,what-is-serp,seo-basics,content/glossary/what-is-serp.md,existing_phrase,blog,,SaaS SEO,/blogs/saas-seo-v2/,P1,113
+glossary,what-is-topical-authority,,content/glossary/what-is-topical-authority.md,existing_phrase,glossary,seo-basics,SEO,/glossary/what-is-seo/,P2,392

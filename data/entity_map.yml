@@ -1524,3 +1524,536 @@ saas-paid-marketing:
       - Self-reported attribution
       - Audience measurement (Nielsen, comScore)
       - Diminishing-returns curve / saturation analysis
+
+# ---------------------------------------------------------------------------
+# Primary topic: AI SEO (the AEO / GEO / LLMO neighbourhood)
+# ~435 entities across 26 categories
+# NOTE: scoped to what an SEO/content practitioner optimizing for AI search
+# actually deals with — NOT deep ML/AI engineering. LLM/RAG concepts are kept
+# only at the "how AI search works" explainer level (RAG, embeddings, vector
+# search, grounding); model internals (HNSW, embeddings algorithms, vector-DB
+# products, image-gen models, etc.) are intentionally excluded — those belong
+# in a machine-learning entity map, not an AI SEO one.
+# Scope: everything about optimizing for AI, answer, and generative search —
+#        AEO (Answer Engine Optimization), GEO (Generative Engine Optimization),
+#        LLMO, AI Overviews / AI Mode optimization, and visibility inside
+#        ChatGPT / Perplexity / Gemini / Claude / Copilot. Includes the LLM /
+#        RAG / knowledge-graph infrastructure these engines run on.
+# Sources: site cluster (AI-primary pages + AI sections of SEO pillars: 6 glossary,
+#          3 AI blogs, 6 pillar guides, 2 service pages, 4 listicles)
+#          + SERP top-15 GEO/AEO guides (incl. the arXiv GEO paper, Aggarwal et al. KDD'24)
+#          + Google entity signals + Wikipedia adjacency (10 articles)
+#          + AI-era synthesis + underweighted-class gaps
+# Built: 2026-06-09
+# ---------------------------------------------------------------------------
+
+ai-seo:
+  primary_entity: "AI SEO"
+
+  parent_entities:
+    - SEO
+    - Search Engine Marketing
+    - Generative AI
+    - Natural Language Processing (NLP)
+    - Content Marketing
+    - Digital Marketing
+    - B2B SaaS Marketing
+
+  sibling_entities:
+    - SaaS SEO
+    - Technical SEO
+    - Entity SEO
+    - Semantic SEO
+    - Content marketing
+    - Digital PR
+    - SaaS paid marketing
+    - Programmatic SEO
+
+  categories:
+
+    ai_seo_disciplines:
+      - AI SEO
+      - Answer Engine Optimization (AEO)
+      - Generative Engine Optimization (GEO)
+      - Large Language Model Optimization (LLMO)
+      - LLM SEO
+      - AI Optimization (AIO)
+      - Generative AI Optimization (GAIO)
+      - Search Everywhere Optimization
+      - Relevance Engineering
+      - Entity SEO
+      - Semantic SEO
+      - AI search visibility
+      - AI search layer
+
+    discipline_comparisons:
+      - GEO vs SEO
+      - AEO vs SEO
+      - AEO vs GEO
+      - LLMO vs GEO
+      - AI Overviews vs featured snippets
+      - Traditional search vs generative engines
+      - Be in the answer (AEO) vs be the source (GEO)
+      - SEO as infrastructure layer / AEO as adaptation layer
+
+    ai_engines_answer_products:
+      - ChatGPT
+      - ChatGPT Search
+      - Perplexity AI
+      - Google Gemini
+      - Google AI Overviews
+      - Google AI Mode
+      - Search Generative Experience (SGE)
+      - Microsoft Copilot
+      - Bing Chat / Copilot
+      - Anthropic Claude
+      - Grok (xAI)
+      - DeepSeek
+      - Meta AI
+      - Arc Search
+      - WolframAlpha
+      - Siri
+      - Amazon Alexa
+      - AI browsers (ChatGPT Atlas, Perplexity Comet)
+      - AI agents / agentic browsing
+      - AI Mode Deep Search
+      - AI Mode follow-ups / jump-to-conversation
+      - Search Live (multimodal voice/camera)
+      - ChatGPT shopping / product discovery
+      - ChatGPT shopping research
+      - Bing Copilot shopping
+      - Agentic checkout (AI Mode)
+      - Google AI Pro / AI Ultra tiers
+
+    model_makers:
+      - OpenAI
+      - Anthropic
+      - Google DeepMind
+      - Meta AI
+      - Microsoft
+      - Mistral AI
+      - xAI
+      - DeepSeek
+      - Perplexity
+
+    llm_models_families:
+      - GPT family (GPT-3.5 / GPT-4 / GPT-4o / GPT-5)
+      - Claude (Sonnet / Opus / Haiku)
+      - Gemini
+      - LLaMA
+      - Mistral / Mixtral
+      - DeepSeek R1
+      - o-series reasoning models
+      - Sonar / Sonar Pro (Perplexity)
+      - Gemini 3 (powers AI Overviews / AI Mode)
+      - BERT (Google BERT update)
+
+    llm_concepts_in_ai_seo:
+      - Large language model (LLM)
+      - Generative AI
+      - Transformer architecture
+      - Training data / training cutoff
+      - Fine-tuning
+      - Tokens / tokenization
+      - Context window
+      - Prompt engineering
+      - Zero-shot / few-shot prompting
+      - Chain-of-thought
+      - Role-based prompting
+      - Hallucination
+      - Foundation models
+      - RLHF
+
+    how_ai_search_works:
+      - Retrieval-augmented generation (RAG)
+      - Grounding / document grounding
+      - Embeddings
+      - Vector search
+      - Vector database
+      - Semantic / similarity search
+      - Reranking
+      - Chunking / content chunking
+      - Passage retrieval / passage ranking
+      - Query fan-out / query reformulation
+      - Hybrid search (lexical + vector)
+      - Training corpus vs live retrieval
+      - Two-layer citation model
+      - Information retrieval
+      - Synthetic subquery
+      - Latent intent
+      - Multi-hop reasoning
+      - Observable retrieval set
+      - Citation neighborhood
+      - Retrieval eligibility
+      - Source aggregation
+      - Snippet extractability / pullability
+
+    knowledge_graph_entities:
+      - Knowledge Graph
+      - Google Knowledge Graph
+      - Knowledge Panel
+      - Named entity
+      - Named entity recognition (NER)
+      - Entity linking
+      - Entity salience
+      - Entity disambiguation
+      - Semantic triples (subject-predicate-object)
+      - sameAs links
+      - Wikidata
+      - DBpedia
+      - Freebase
+      - Knowledge base
+      - Brand entity consistency
+      - Entity home / canonical entity page
+
+    structured_data_schema:
+      - Schema.org
+      - JSON-LD
+      - Microdata
+      - RDFa
+      - Article schema
+      - BlogPosting schema
+      - FAQPage schema
+      - HowTo schema
+      - Product schema
+      - SoftwareApplication schema
+      - Organization schema
+      - BreadcrumbList schema
+      - Review schema
+      - AggregateRating schema
+      - Person schema
+      - QAPage schema
+      - Dataset schema
+      - ItemList schema
+      - VideoObject schema
+      - Speakable schema
+      - WebSite / SearchAction schema
+      - Event schema
+      - LocalBusiness schema
+      - Definedterm / glossary schema
+      - ImageObject schema
+      - Author / authorship markup
+      - Attribute-rich vs unpopulated schema
+      - Rich Results Test
+      - Schema.org Validator
+
+    ai_crawlers_access:
+      - GPTBot
+      - OAI-SearchBot
+      - ChatGPT-User
+      - PerplexityBot
+      - Perplexity-User
+      - ClaudeBot
+      - Claude-SearchBot
+      - Claude-User
+      - Google-Extended
+      - CCBot
+      - Bingbot
+      - Googlebot
+      - robots.txt
+      - llms.txt
+      - llms-full.txt
+      - ai-content-declaration meta tag
+      - Server-side rendering (SSR)
+      - Static site generation (SSG)
+      - JavaScript rendering
+      - Crawlability / indexability
+      - Model Context Protocol (MCP)
+      - Live crawling
+      - IndexNow (for AI freshness)
+      - Cloudflare AI Crawl Control
+      - Pay per crawl
+      - HTTP 402 (Payment Required) for AI crawlers
+      - Cloudflare Radar (AI bot traffic)
+      - NLWeb (agent-queryable endpoints)
+      - Content licensing deals
+
+    geo_optimization_tactics:
+      - Answer-first / front-loaded content
+      - Bottom Line Up Front (BLUF)
+      - Inverted pyramid
+      - Self-contained / extractable passages
+      - Question-based headings (H2-as-question)
+      - FAQ blocks
+      - Citation-worthy statistics
+      - Quotable content / authority quotations
+      - Comparison tables / structured lists
+      - Content freshness / regular updates
+      - Citation decay window (~13 weeks)
+      - Author E-E-A-T / author bios
+      - Original research / quantified claims
+      - Cite sources (GEO tactic)
+      - Quotation addition (GEO tactic)
+      - Statistics addition (GEO tactic)
+      - Fluency optimization
+      - Authoritative tone
+      - Technical terms
+      - Easy-to-understand language
+      - Keyword stuffing (tested counter-tactic, does NOT work)
+      - Consensus / web-wide agreement
+      - Human-in-the-loop QA
+      - Semantic HTML / clean markup
+      - Sentence-level extractability
+      - Definitional sentences ("X is...")
+      - According-to attributions
+      - Table of contents / jump links
+      - Internal entity linking
+      - Content depth / comprehensiveness
+      - Multimodal content (images, video, transcripts)
+      - Statistic + source pairing
+      - Named-entity density
+      - Passage optimization
+      - Semantic chunking
+      - Semantic completeness
+      - Retrieval simulation
+      - Prompt mapping across the funnel
+      - Prompt-to-keyword conversion
+      - Brand-mention outreach
+      - Co-occurrence with category terms
+      - Reverse-engineer cited sources
+      - Citation authority elevation
+      - TL;DR blocks
+      - Competitor comparison articles ("Best X", "A vs B")
+      - Niche persona pages
+      - Query perturbation testing
+      - Co-citation frequency analysis
+
+    offsite_brand_presence:
+      - Brand mentions (unlinked)
+      - Co-citation
+      - Reddit presence
+      - Quora presence
+      - Wikipedia presence
+      - Wikidata seeding
+      - YouTube presence
+      - LinkedIn presence
+      - Crunchbase presence
+      - GitHub presence
+      - G2 presence
+      - Capterra presence
+      - Trustpilot presence
+      - Stack Overflow presence
+      - Clutch presence
+      - Substack / newsletter presence
+      - Medium presence
+      - Podcast appearances
+      - Industry directory listings
+      - News / PR distribution (PR Newswire, EIN)
+      - Digital PR
+      - Listicle / roundup placement
+      - Community-led SEO
+      - Referring domains (AI citation predictor)
+      - Reddit thread-level citations
+      - LinkedIn published content as citation source
+      - Non-tier-1 earned media
+
+    ai_visibility_metrics:
+      - AI citation rate / citation frequency
+      - AI citation share
+      - Share of voice in LLMs
+      - Share of Model Response
+      - AI Share of Voice
+      - Brand mentions in AI answers
+      - Brand Recommendation Rate
+      - AI referral traffic
+      - AI visibility score
+      - Brand sentiment in AI responses
+      - Mention rate across platforms
+      - Citation accuracy / authority
+      - AI-attributed leads / conversions
+      - Lead-to-SQL rate by AI platform
+      - Position-Adjusted Word Count
+      - Subjective Impression score
+      - Prompt coverage
+      - Citation position within answer
+      - Answer inclusion rate
+      - Competitor share-of-voice gap
+      - Brand-intent share of sessions
+      - Engagement rate by AI source
+      - Average brand position in AI answers
+      - Citation score / weighting
+      - Brand Visibility Index
+      - Sentiment index
+      - Source / page-type classification of citations
+      - Domains cited per response (benchmark)
+      - Dark funnel / dark search funnel
+
+    ai_seo_research_concepts:
+      - GEO paper (Aggarwal et al., KDD 2024)
+      - Impression metrics (GEO paper)
+      - GEO-bench
+      - AI Overviews ranking signals (entities, authority, structure, freshness, depth, accessibility)
+      - Brand search volume as citation predictor
+      - Platform-specific citation overlap
+      - Zero-click search
+      - Conversational / natural-language queries
+      - 15-word prompts
+      - Fan-out rank
+      - Chunk retrievability
+      - Query-answer / intent-format match
+      - Preview control (as citation factor)
+      - Training-data frequency / cross-platform presence
+      - Content decay / verification range
+      - The Matthew Effect (citations compound)
+
+    geo_aeo_tracking_tools:
+      - Profound
+      - Otterly AI
+      - Peec AI
+      - AthenaHQ
+      - Daydream
+      - Goodie
+      - Scrunch
+      - Knowatoa
+      - Rankscale
+      - Evertune.ai
+      - LLMrefs
+      - ZipTie.dev
+      - Sight AI
+      - Ahrefs Brand Radar
+      - Semrush AI Visibility Toolkit
+      - BrightEdge
+      - Conductor
+      - seoClarity
+      - AIclicks
+      - AI Peekaboo
+      - Rank Prompt
+      - HubSpot AI Search Grader
+      - Brandlight
+      - Hikoo
+      - Quno
+      - Writer
+      - Google Search Console
+      - Bing Webmaster Tools
+      - Bing AI Performance report
+
+    ai_content_optimization_tools:
+      - Frase
+      - Surfer SEO
+      - Clearscope
+      - MarketMuse
+      - Jasper
+      - Writesonic
+      - AirOps
+      - ClickFlow
+      - Copyleaks
+      - Originality.ai
+      - Screaming Frog
+      - AlsoAsked
+      - AnswerThePublic
+
+    agency_geo_frameworks:
+      - Relevance Engineering (iPullRank)
+      - Surround Sound SEO (Omniscient Digital)
+      - Search Everywhere Optimization (Single Grain)
+      - Interview-Led AI Content (RevenueZen)
+      - MERIT framework (Searchbloom)
+      - DataFlyWheel / BlueprintIQ (Siege Media)
+      - Foundation Labs (Foundation)
+      - Customer Generation (Directive)
+      - Three-swing model (be the source / be in the source / shape the narrative)
+      - Barbell content strategy
+      - Distribution-first GEO
+      - 10-Step GEO framework (Profound)
+      - Upstream vs downstream signals
+      - The AI Search Manual (iPullRank)
+
+    ai_seo_agencies:
+      - PipeRocket Digital
+      - iPullRank
+      - SimpleTiger
+      - MADX Digital
+      - Single Grain
+      - NoGood
+      - Animalz
+      - Embarque
+      - Foundation Marketing
+      - RevenueZen
+      - WebFX
+      - First Page Sage
+      - Omniscient Digital
+      - Siege Media
+      - Minuttia
+      - Searchbloom
+      - The SEO Works
+      - Discovered Labs
+
+    ai_seo_voices:
+      - Mike King (iPullRank)
+      - Evan Bailyn (First Page Sage)
+      - Eric Siu (Single Grain)
+      - Ross Simmonds (Foundation)
+      - Ross Hudgens (Siege Media)
+      - George Chasiotis (Minuttia)
+      - Cody C. Jensen (Searchbloom)
+      - Kevin Indig
+      - Jason Barnard (entity / knowledge-graph)
+      - Britney Muller
+      - Nick Lafferty
+
+    agentic_ai_search:
+      - Agentic AI
+      - Agent-ready web
+      - Agentic Engine Optimization (AgEO)
+      - AI agents / autonomous research agents
+      - OpenAI Operator
+      - Google search agents / information agents
+      - NLWeb
+      - Agentic checkout / task completion
+
+    ai_seo_events_publications:
+      - Zero Click (conference)
+      - GEO Conference
+      - SEO Week (iPullRank)
+      - The AI Search Manual (iPullRank)
+      - State of GEO / AEO reports
+
+    classic_seo_bridge:
+      - Featured snippets
+      - Position Zero
+      - People Also Ask (PAA)
+      - PageRank
+      - RankBrain
+      - Topical authority
+      - Topic clusters
+      - Pillar pages
+      - Hub-and-spoke
+      - Internal linking
+      - Canonical tags
+      - Core Web Vitals
+      - YMYL
+      - SERP
+
+    multimodal_emerging_surfaces:
+      - Multimodal search
+      - Google Lens
+      - Voice search
+      - Visual search
+      - Shopping Graph
+      - Image / video citations in AI answers
+
+    funnel_buyer_context:
+      - Ideal Customer Profile (ICP)
+      - ToFu / MoFu / BoFu
+      - BOFU page optimization for LLMs
+      - Commercial vs informational prompts
+      - Vendor research via AI
+      - Buying committee
+
+    compliance_trust:
+      - E-E-A-T
+      - Factual grounding
+      - Citation accuracy
+      - AI hallucination risk
+      - Content provenance
+      - Author verification
+
+    research_data_sources:
+      - PipeRocket "State of SEO in the AI World 2026"
+      - Ahrefs AI citation studies
+      - Semrush zero-click / GEO research
+      - arXiv GEO paper (Aggarwal et al.)
+      - Bain zero-click research
+      - Gartner AI search forecasts
+      - Forrester B2B AI buyer research
+      - HG Insights vendor-research data

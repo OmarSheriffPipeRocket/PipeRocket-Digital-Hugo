@@ -53,7 +53,7 @@ You end up with a pillar that pulls traffic and a cluster that pulls no pipeline
 
 The pillar should be the page closest to the decision. For a SaaS topic, the decision-stage pages (alternatives, pricing, comparison, category) are where the credit card comes out, so those are what you build first. A "what is X" article is a spoke that feeds them, not the reverse.
 
-This flips the usual cluster order. The shape I build follows the buyer down the funnel: What Is → How To → Automate → Tools → Alternatives → Pricing/Reviews → Conversion. The decision-stage nodes get built first because they close, and everything upstream pushes authority toward them.
+This flips the usual cluster order. The shape I build follows the [buyer down the funnel](/blogs/how-to-map-keywords-to-saas-buyer-journey/): What Is → How To → Automate → Tools → Alternatives → Pricing/Reviews → Conversion. The decision-stage nodes get built first because they close, and everything upstream pushes authority toward them.
 
 A cluster that starts with the "what is" page and never reaches the alternatives page is a cluster with no exit.
 
@@ -81,7 +81,7 @@ I build the full topic map before publishing a single page. List every question 
 
 The cluster is "done" when there's no real question left unanswered, not when you hit a round number.
 
-A practical ceiling helps here. Most single-product SaaS companies have a maximum of 40 to 60 genuine bottom-of-funnel pages across the whole site: software pages, alternatives, comparisons, pricing. Force more decision-stage pages than that and you're stretching intent that isn't there.
+A practical ceiling helps here. Most single-product SaaS companies have a maximum of 40 to 60 genuine [bottom-of-funnel pages](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/) across the whole site: software pages, alternatives, comparisons, pricing. Force more decision-stage pages than that and you're stretching intent that isn't there.
 
 The same discipline applies inside one cluster: padding it past real demand just dilutes the pages that matter.
 
@@ -103,7 +103,7 @@ Those 2,400 keywords weren't a content calendar. Grouped by intent, they became 
 
 That's how a 2,400-keyword mess collapses into a tight, buildable cluster map instead of a backlog.
 
-That's the difference between a list and a strategy. A spreadsheet of 2,400 keywords is noise; grouped into topics it's a business case (this many BOFU pages, this many MOFU, this many TOFU) built around language buyers use.
+That's the difference between a list and a strategy. A spreadsheet of 2,400 keywords is noise; grouped into topics it's a business case (this many BOFU pages, this many [MOFU](/blogs/how-to-rank-mofu-keywords-saas/), this many TOFU) built around language buyers use.
 
 The cluster ranked because it answered real questions in real words, not because the diagram was tidy.
 
