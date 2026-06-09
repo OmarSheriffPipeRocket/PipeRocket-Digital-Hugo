@@ -6598,6 +6598,12 @@ main table a,
     grid-template-columns: 3fr 6fr 3fr;
     gap: var(--pr-s-8);
   }
+  /* Glossary content sits flush under the banner with the same vertical
+     rhythm as the blog grid (.pr-blog-v2__grid: 56px 0 80px). */
+  .pr-glossary .pr-article-3-6-3 {
+    margin-top: 0;
+    padding: 56px 0 80px;
+  }
   .pr-article-rail {
     position: sticky;
     top: calc(var(--pr-s-7) + 70px);
@@ -7856,7 +7862,7 @@ main table a,
 /* =================================================================
    GLOSSARY
    ================================================================= */
-.pr-glossary { padding: var(--pr-s-7) 0; }
+.pr-glossary { padding: 0; }
 .pr-glossary__header {
   max-width: 960px;
   margin: 0 auto var(--pr-s-8);
@@ -8515,6 +8521,8 @@ main table a,
   .pr-glossary .pr-article-3-6-3 {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
+    padding: 24px 0 48px;
   }
   .pr-glossary .pr-article-3-6-3 .pr-article-main { order: 1; }
   /* The left blog-v2 rail (TOC + CTA) comes BEFORE the right Knowledge Hub
