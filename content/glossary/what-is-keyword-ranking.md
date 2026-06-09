@@ -18,7 +18,7 @@ Keyword ranking is the position your web page holds in Google's search results f
 
 - Keyword ranking is the numbered position your page holds in Google's organic results for a specific search query.
 - Rankings shift constantly based on algorithm updates, competitor activity, and changes to your own site.
-- Position one captures roughly 28% of clicks for most queries, though SERP features like featured snippets cut into that.
+- Position one captures roughly 28% of clicks for most queries, though [SERP](/glossary/what-is-serp/) features like featured snippets cut into that.
 - Tracking rankings only makes sense if the keywords you're monitoring are tied to real buyer intent.
 - SaaS teams that chase position over qualified traffic often watch their traffic grow while pipeline stays flat.
 
@@ -32,7 +32,7 @@ Most teams treat ranking as the goal. It's not. Ranking is a proxy. The real goa
 - **Organic result:** A listing Google shows because your page earned it, not because you paid for placement. Separate from the ads above and below.
 - **SERP features:** Featured snippets, People Also Ask boxes, and local packs can push organic listings down even if your raw ranking stays the same.
 - **Ranking volatility:** Google updates its algorithm thousands of times per year. A page at position two today can drop to six tomorrow with no change on your end.
-- **Tracked vs. actual position:** Rank tracking tools report an average position. The real position varies by location, device, and user history.
+- **Tracked vs. actual position:** [Rank tracking tools](/list/best-rank-tracking-tools-for-saas/) report an average position. The real position varies by location, device, and user history.
 
 Consider a SaaS built for finance teams managing expense approvals. They rank second for "expense management software," a high-volume, broadly competitive term. But they rank fourth for "expense approval workflow for mid-market finance teams," a more specific query with a clear buyer.
 
@@ -51,7 +51,7 @@ Google ranks pages based on hundreds of signals, but the core logic is simpler t
 The signals fall into three buckets: relevance, authority, and experience. Relevance means your page clearly covers what the searcher wants. Authority means your domain has earned trust through links and consistent topical coverage. Experience means your page loads fast, works on mobile, and delivers.
 
 - **Relevance signals:** How closely your page matches the intent behind the query. Title, headings, body copy, and on-page structure all send relevance signals.
-- **[Domain authority](/glossary/what-is-domain-authority/):** The overall trust and link equity of your domain. New SaaS sites with no backlinks struggle to rank for competitive terms.
+- **[Domain authority](/glossary/what-is-domain-authority/):** The overall trust and link equity of your domain. New SaaS sites with no [backlinks](/glossary/what-is-a-backlink/) struggle to rank for competitive terms.
 - **Backlinks:** Links from trusted sites act as third-party endorsements. A single link from a respected SaaS publication often outweighs dozens from low-quality directories.
 - **Core Web Vitals:** Google's page experience signals cover loading speed, visual stability, and interactivity. A slow page can lose ground to a faster competitor.
 - **Content freshness:** For fast-moving topics, Google favours recently updated content. Stale pages drift down as fresher competitors publish.

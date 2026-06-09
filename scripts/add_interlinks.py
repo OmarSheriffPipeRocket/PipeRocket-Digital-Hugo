@@ -275,6 +275,18 @@ LINK_MAP = [
     ("ROAS", "/glossary/what-is-roas/", True, "P2"),
     ("SERP", "/glossary/what-is-serp/", True, "P2"),
     ("ARR", "/glossary/what-is-arr/", True, "P2"),
+    # ---- P1 tool-listicle targets (added 2026-06-09) ----
+    ("rank tracking tools", "/list/best-rank-tracking-tools-for-saas/", False, "P1"),
+    ("rank trackers", "/list/best-rank-tracking-tools-for-saas/", False, "P1"),
+    ("rank tracker", "/list/best-rank-tracking-tools-for-saas/", False, "P1"),
+    ("session recording tools", "/list/best-heatmap-session-recording-tools-for-saas/", False, "P1"),
+    ("heatmap tools", "/list/best-heatmap-session-recording-tools-for-saas/", False, "P1"),
+    ("landing page builders", "/list/best-landing-page-builders-for-saas/", False, "P1"),
+    ("schema markup tools", "/list/best-schema-markup-tools-for-saas/", False, "P1"),
+    ("schema markup generators", "/list/best-schema-markup-tools-for-saas/", False, "P1"),
+    ("SERP testing tools", "/list/best-serp-testing-tools-for-saas/", False, "P1"),
+    ("rich results testing", "/list/best-serp-testing-tools-for-saas/", False, "P1"),
+
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),
     # ("best SaaS SEO agencies", "/list/best-saas-seo-agencies/", False, "P1"),
