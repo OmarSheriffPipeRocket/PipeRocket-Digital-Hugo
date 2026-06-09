@@ -103,7 +103,7 @@ Check the related queries and PAA boxes for the keyword in Google Search Console
 
 ### 3. Can informational content rank for commercial keywords over time?
 
-Sometimes, but it's usually a sign of something going wrong rather than right. If your informational blog post is outranking your comparison page for a commercial query, that's [keyword cannibalization](/glossary/what-is-keyword-cannibalization/), and it's costing you conversions. The informational post is stealing clicks that should go to a page designed to convert. Fix it by restructuring internal links to signal which page should own the commercial query, and consider consolidating thin content.
+Sometimes, but it's usually a sign of something going wrong rather than right. If your informational blog post is outranking your comparison page for a commercial query, that's [keyword cannibalization](/blogs/how-to-fix-keyword-cannibalization/), and it's costing you conversions. The informational post is stealing clicks that should go to a page designed to convert. Fix it by restructuring internal links to signal which page should own the commercial query, and consider consolidating thin content.
 
 ## The Bottom Line
 

@@ -26,7 +26,7 @@ A navigational keyword is a search query where the user already knows where they
 
 A navigational keyword is a query used to find a specific site or page the searcher already has in mind. Rather than typing a full URL, they search the brand or page name and click the top result. "Figma login," "Stripe docs," and "Zoom download" are all navigational.
 
-The defining trait is that the destination is already chosen. The searcher isn't evaluating options or learning a concept. They want to land on a known page. That makes navigational intent high in certainty but narrow in opportunity, because the search usually resolves to one obvious result.
+The defining trait is that the destination is already chosen. The searcher isn't evaluating options or [learning a concept](/glossary/what-is-an-informational-keyword/). They want to land on a known page. That makes navigational [search intent](/glossary/what-is-search-intent/) high in certainty but narrow in opportunity, because the search usually resolves to one obvious result.
 
 - **Brand-name queries:** "[Brand]" on its own, where the searcher wants the homepage. Your homepage should own this without question.
 - **Brand-plus-page queries:** "[Brand] login," "[Brand] pricing," "[Brand] blog." The searcher wants a specific page within a known site.
@@ -55,7 +55,7 @@ Navigational queries also tend to have very high click-through rates on the top 
 - **Utility modifiers:** "Login," "sign in," "download," "docs," "support" attached to a brand confirm navigational intent.
 - **High top-result CTR:** Navigational queries send most clicks to one result, because the searcher has a single destination in mind.
 
-A team auditing "Loopflow vs competitor" would find commercial intent, but "Loopflow login" is purely navigational. The difference matters, because the first is a content opportunity and the second is a brand-defense check to make sure your own page ranks first.
+A team auditing "Loopflow vs competitor" would find [commercial intent](/glossary/what-is-a-commercial-keyword/), but "Loopflow login" is purely navigational. The difference matters, because the first is a content opportunity and the second is a brand-defense check to make sure your own page ranks first.
 
 ## Why Do Navigational Keywords Matter for SaaS?
 

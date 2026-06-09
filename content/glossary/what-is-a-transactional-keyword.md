@@ -26,7 +26,7 @@ A transactional keyword is a search query from someone ready to take action, whe
 
 A transactional keyword is a query where the searcher intends to do something right now. They want to buy, start a trial, request a demo, or see what a tool costs. "Salesforce pricing," "sign up for Slack," and "Calendly free trial" are all transactional.
 
-This is the end of the intent spectrum. Informational searchers want to learn. Commercial searchers are comparing. Transactional searchers have mostly decided and want to act. The closer a query sits to the transaction, the higher it converts and the lower its volume tends to be.
+This is the end of the [intent spectrum](/glossary/what-is-search-intent/). [Informational searchers](/glossary/what-is-an-informational-keyword/) want to learn. [Commercial searchers](/glossary/what-is-a-commercial-keyword/) are comparing. Transactional searchers have mostly decided and want to act. The closer a query sits to the transaction, the higher it converts and the lower its volume tends to be.
 
 - **Pricing queries:** "[Product] pricing" or "[Product] cost." The searcher is evaluating affordability before committing. A clear pricing page matches this.
 - **Trial and signup queries:** "[Product] free trial," "sign up for [Product]." The searcher wants to start using the tool now.

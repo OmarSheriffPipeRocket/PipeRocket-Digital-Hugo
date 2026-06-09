@@ -18,7 +18,7 @@ A commercial keyword is a search query from someone actively researching or comp
 
 - A commercial keyword signals a searcher comparing or evaluating options, sitting between learning and buying.
 - Typical patterns include "best," "top," "vs," "alternatives," and "review" plus your category.
-- Commercial keywords drive more SaaS pipeline than informational ones because the searcher is already in-market.
+- Commercial keywords drive more SaaS pipeline than [informational ones](/glossary/what-is-an-informational-keyword/) because the searcher is already in-market.
 - The right content formats are comparison pages, alternative pages, and honest listicles, not definitions.
 - Ranking for commercial keywords is harder, so a new domain usually earns the authority through informational content first.
 
@@ -26,7 +26,7 @@ A commercial keyword is a search query from someone actively researching or comp
 
 A commercial keyword is a query where the searcher is investigating before they commit. They know they have a problem and roughly what category of tool solves it. Now they're weighing options. "Best CRM for startups," "Notion vs Asana," and "Intercom alternatives" are all commercial.
 
-This sits in the middle of the intent spectrum. Informational queries want to learn. Transactional queries are ready to buy a specific thing. Commercial queries are the bridge, and they're where a lot of SaaS buying decisions are actually shaped.
+This sits in the middle of the [intent spectrum](/glossary/what-is-search-intent/). Informational queries want to learn. [Transactional queries](/glossary/what-is-a-transactional-keyword/) are ready to buy a specific thing. Commercial queries are the bridge, and they're where a lot of SaaS buying decisions are actually shaped.
 
 - **Comparison queries:** "X vs Y." The searcher has two named options and wants help choosing. A structured comparison page matches this best.
 - **Best-of queries:** "Best [category] for [use case]." The searcher wants a shortlist. Honest listicles and category roundups rank here.

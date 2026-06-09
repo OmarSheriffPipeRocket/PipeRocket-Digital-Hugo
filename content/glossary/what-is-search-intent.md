@@ -30,10 +30,10 @@ Here's where most SaaS teams get this wrong. They research keywords, find volume
 
 "What is churn rate" wants a definition. "How to reduce SaaS churn" wants a process. "Best churn reduction tools" wants a comparison. Three different pages, not one page with three sections.
 
-- **Informational intent:** The searcher wants to learn. "What is MRR," "how does SaaS billing work." Best matched with educational content like glossary entries and how-to guides.
+- **[Informational intent](/glossary/what-is-an-informational-keyword/):** The searcher wants to learn. "What is MRR," "how does SaaS billing work." Best matched with educational content like glossary entries and how-to guides.
 - **Navigational intent:** The searcher wants a specific site or page. "Stripe login," "HubSpot blog." Usually your own brand searches or a competitor's. No content strategy needed here.
-- **Commercial intent:** The searcher is researching before a decision. "Best CRM for SaaS," "Intercom alternatives." Best matched with comparison pages, listicles, and alternative pages.
-- **Transactional intent:** The searcher is ready to act. "Buy Salesforce," "Intercom free trial." Best matched with product pages, pricing pages, and conversion-focused landing pages.
+- **[Commercial intent](/glossary/what-is-a-commercial-keyword/):** The searcher is researching before a decision. "Best CRM for SaaS," "Intercom alternatives." Best matched with comparison pages, listicles, and alternative pages.
+- **[Transactional intent](/glossary/what-is-a-transactional-keyword/):** The searcher is ready to act. "Buy Salesforce," "Intercom free trial." Best matched with product pages, pricing pages, and conversion-focused landing pages.
 
 Consider a SaaS built for legal operations teams. The keyword "contract management" is mostly informational. "Contract management software comparison" is commercial. Building an informational blog post to rank for the second query is a mismatch Google penalises by ranking a comparison page ahead of yours.
 
@@ -87,7 +87,7 @@ If you're wondering why your traffic grows while pipeline stays flat, intent mis
 - **Informational content builds topical authority:** Blog posts, glossary entries, and how-to guides establish your domain's credibility in a topic area. They help your commercial pages rank.
 - **Commercial content captures active evaluators:** Comparison pages, alternative pages, and listicles intercept buyers ready to choose. These drive demo requests and trial signups.
 - **Transactional content converts:** Pricing pages, landing pages, and free trial pages serve the buyer who already wants to act. Their job is conversion, not education.
-- **Intent mapping prevents [keyword cannibalization](/glossary/what-is-keyword-cannibalization/):** Assigning each intent tier to specific page types stops two pages competing for the same query.
+- **Intent mapping prevents [keyword cannibalization](/blogs/how-to-fix-keyword-cannibalization/):** Assigning each intent tier to specific page types stops two pages competing for the same query.
 - **Pillar pages bridge intent stages:** A well-structured pillar page can serve commercial intent while linking to informational spokes and transactional product pages.
 
 Audit your existing content by intent. Group every page into informational, commercial, or transactional. Then look at where your target keywords sit. The gaps between your content map and your keyword intent map are your production priorities.

@@ -57,7 +57,7 @@ That backlink focus is why scores vary between tools. Ahrefs weights referring d
 
 A compliance SaaS checking "SOC 2 compliance" across two tools might see 65 in one and 58 in another. Neither is wrong. They're measuring slightly different things. The practical move is to pick one tool, stay consistent, and compare keywords within that single system.
 
-It also helps to remember what the score leaves out. Difficulty rarely accounts for how well the ranking pages match search intent, or how strong their content actually is.
+It also helps to remember what the score leaves out. Difficulty rarely accounts for how well the ranking pages match [search intent](/glossary/what-is-search-intent/), or how strong their content actually is.
 
 Two keywords can share the same difficulty score while one is wide open and the other is genuinely locked down. That gap is exactly why the number alone never tells the full story, and why the SERP check matters so much.
 

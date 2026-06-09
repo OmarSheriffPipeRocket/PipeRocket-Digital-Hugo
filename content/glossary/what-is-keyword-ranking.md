@@ -67,7 +67,7 @@ Here's the part most SaaS teams underestimate. Ranking isn't just about the page
 The click-through rate data tells the honest story. Position one gets roughly 28% of clicks. Position three drops to about 11%. By position ten, you're below 3%. Below page one, clicks are close to zero.
 
 - **Positions one to three:** Where most organic clicks go. Worth targeting for any keyword with real buyer intent at your domain's authority level.
-- **Positions four to ten:** Still valuable, especially for bottom-of-funnel queries close to a decision. A position seven ranking for a [BOFU](/glossary/what-is-a-bofu-page/) comparison keyword can still drive pipeline.
+- **Positions four to ten:** Still valuable, especially for bottom-of-funnel queries close to a decision. A position seven ranking for a BOFU comparison keyword can still drive pipeline.
 - **Page two and beyond:** Not worth tracking as an outcome. If you're stuck here, the page needs stronger content, more links, or better intent alignment.
 - **Featured snippets:** Position zero. Google pulls a direct answer above all organic results. Capturing a snippet can double click-through rate even if your ranking doesn't change.
 

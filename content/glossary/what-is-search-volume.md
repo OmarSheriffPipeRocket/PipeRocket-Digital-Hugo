@@ -53,7 +53,7 @@ Google Keyword Planner pulls from Google's own ad data, but it shows ranges and 
 - **Google Keyword Planner:** Uses Google ad data, but reports broad ranges and is tuned for advertisers rather than organic planners.
 - **Clickstream tools:** Ahrefs and Semrush model volume from anonymised browsing data, then scale it up statistically.
 - **Smoothing and averaging:** Most tools average over twelve months, which hides seasonal peaks unless you check the trend graph.
-- **Confidence varies:** High-volume head terms are estimated more reliably than long-tail terms, where small sample sizes make numbers shakier.
+- **Confidence varies:** High-volume head terms are estimated more reliably than [long-tail terms](/glossary/what-is-a-long-tail-keyword/), where small sample sizes make numbers shakier.
 
 A fintech SaaS researching "expense management" might see 40,000 in one tool and 33,000 in another. The gap isn't an error. It's two models disagreeing. The practical takeaway is to pick one tool for consistency and treat the number as directional, not exact.
 
@@ -80,7 +80,7 @@ SaaS teams should use search volume as one input among several, weighed against 
 
 The practical approach is to filter for relevance first, then look at volume. Start from the keywords your exact buyer searches, then use volume to prioritise among those. That's the reverse of how most teams work, and it's why most teams end up with traffic that doesn't convert.
 
-- **Relevance before volume:** Start with keywords your ICP actually searches, then rank those by volume, not the other way around.
+- **Relevance before volume:** Start with keywords your [ICP](/glossary/what-is-icp/) actually searches, then rank those by volume, not the other way around.
 - **Volume plus intent:** A high-volume term is only worth it if the intent matches a buyer who could use your product.
 - **Aggregate the long tail:** Many low-volume, high-intent keywords together can out-deliver one high-volume head term on pipeline.
 - **Check the trend:** Look at the volume graph, not just the average, so you catch seasonal patterns and rising or declining terms.
@@ -120,4 +120,4 @@ It depends on your market, but in niche B2B SaaS, keywords with a few hundred mo
 
 ## The Bottom Line
 
-Search volume tells you the size of an opportunity, not its quality. Weigh it against intent and difficulty, and stop treating big numbers as the goal. Want a keyword strategy built on qualified traffic instead of vanity volume? [Get in touch](https://piperocket.digital/contact-us/) or see how our [SaaS SEO services](https://piperocket.digital/saas-seo-agency/) approach it.
+Search volume tells you the size of an opportunity, not its quality. Weigh it against intent and difficulty, and stop treating big numbers as the goal. Want a keyword strategy built on qualified traffic, not vanity volume? [Get in touch](https://piperocket.digital/contact-us/) or see how the [best SaaS SEO agencies](/list/best-saas-seo-agencies/) approach it.

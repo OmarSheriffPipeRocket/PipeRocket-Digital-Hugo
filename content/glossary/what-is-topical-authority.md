@@ -89,7 +89,7 @@ Think of it as reading a dashboard of related trends rather than checking one ga
 
 The clearest sign is when you start ranking for keywords you never directly targeted. That's Google extending trust across the topic. Combined with growing share of voice in the subject and faster indexing of new pages, it tells you the authority is real.
 
-It's worth tracking these signals together, because any single one can move for unrelated reasons. A ranking bump might come from a competitor slipping, or a backlink landing. When several signals climb at once across the whole subject, that's the reliable read on authority.
+It's worth tracking these signals together, because any single one can move for unrelated reasons. A ranking bump might come from a competitor slipping, or a [backlink](/glossary/what-is-a-backlink/) landing. When several signals climb at once across the whole subject, that's the reliable read on authority.
 
 - **Rankings for untargeted terms:** When pages rank for related keywords you didn't optimise for, Google is treating you as a topic authority.
 - **Share of voice:** Track what percentage of your target subject's keywords you rank for versus competitors over time.
@@ -104,7 +104,7 @@ That spillover is topical authority working. Measuring it means watching the tre
 
 ### 1. How long does it take to build topical authority?
 
-It's a months-long effort, not a quick win. For a focused subject, a SaaS team publishing and interlinking consistently might see early authority signals in three to six months, with meaningful dominance taking six to twelve months or more. The timeline depends on your starting domain authority, how competitive the subject is, and how completely you cover it. Authority compounds, so the pace usually accelerates once the core cluster is in place.
+It's a months-long effort, not a quick win. For a focused subject, a SaaS team publishing and interlinking consistently might see early authority signals in three to six months, with meaningful dominance taking six to twelve months or more. The timeline depends on your starting [domain authority](/glossary/what-is-domain-authority/), how competitive the subject is, and how completely you cover it. Authority compounds, so the pace usually accelerates once the core cluster is in place.
 
 ### 2. What's the difference between topical authority and domain authority?
 
