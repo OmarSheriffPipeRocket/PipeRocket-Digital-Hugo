@@ -3,7 +3,7 @@ title: "How to Build Topic Clusters That Rank a SaaS Site"
 description: "Most SaaS topic clusters fail because they're drawn as org charts, not built around how buyers actually search. Here's the architecture I use: pillar and spoke decisions, how many spokes a cluster needs, and the internal linking that makes the whole thing rank."
 metaTitle: "How to Build Topic Clusters for a SaaS Site"
 metaDescription: "How to build SaaS topic clusters that actually rank: pillar vs spoke decisions, how many spokes a cluster needs, and the linking that ties it together."
-date: 2026-06-06
+date: 2026-06-08
 slug: "how-to-build-topic-clusters"
 writtenBy: "kim"
 category: "SaaS SEO"

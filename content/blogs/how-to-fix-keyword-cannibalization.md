@@ -3,7 +3,7 @@ title: "How to Find and Fix Keyword Cannibalization on a SaaS Site"
 description: "When two of your pages compete for the same query, both usually lose. Here's how I find keyword cannibalization on a SaaS site and the exact consolidation decision I make for each pair: merge, canonical, or delete."
 metaTitle: "Fix Keyword Cannibalization on a SaaS Site"
 metaDescription: "Two pages fighting one query means both lose. How to find keyword cannibalization on a SaaS site and decide whether to merge, canonical, or delete."
-date: 2026-06-06
+date: 2026-06-08
 slug: "how-to-fix-keyword-cannibalization"
 writtenBy: "kim"
 category: "SaaS SEO"

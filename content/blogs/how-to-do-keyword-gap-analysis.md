@@ -3,7 +3,7 @@ title: "How to Do a Keyword Gap Analysis vs SaaS Competitors"
 description: "A keyword gap analysis isn't about the keywords you're missing. It's about the money pages competitors built and you didn't. Here's the exact method I use to find the gaps that actually move pipeline, and the ones worth ignoring."
 metaTitle: "How to Do a Keyword Gap Analysis (SaaS Method)"
 metaDescription: "The keyword gap analysis method I use for SaaS clients: find the money pages competitors rank for that you don't, and ignore the gaps that waste budget."
-date: 2026-06-06
+date: 2026-06-08
 slug: "how-to-do-keyword-gap-analysis"
 writtenBy: "kim"
 category: "SaaS SEO"

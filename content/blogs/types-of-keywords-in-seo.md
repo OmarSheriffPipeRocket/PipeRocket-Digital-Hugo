@@ -3,7 +3,7 @@ title: "Types of Keywords in SEO (with SaaS Examples)"
 description: "Keywords aren't one thing. They split by intent, length, and funnel stage, and treating them all the same is the structural mistake that sinks most SaaS SEO programs. Here's how I sort them, with real SaaS examples for each type."
 metaTitle: "Types of Keywords in SEO (SaaS Examples)"
 metaDescription: "The types of keywords in SEO, explained with real SaaS examples, sorted by intent, length, and funnel stage, so you target the ones that actually drive pipeline."
-date: 2026-06-06
+date: 2026-06-08
 slug: "types-of-keywords-in-seo"
 writtenBy: "kim"
 category: "SaaS SEO"

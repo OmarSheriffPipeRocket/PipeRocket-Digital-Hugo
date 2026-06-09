@@ -3,7 +3,7 @@ title: "How to Rank BOFU Keywords for SaaS (A Practitioner's Playbook)"
 description: "BOFU pages don't rank in isolation. Here's how I rank comparison, alternative, and pricing pages for SaaS on a low-authority domain, by matching SERP intent, borrowing authority, and building a cluster that points to them. The exact process we use, including how fast these pages actually move."
 metaTitle: "How to Rank BOFU Keywords for SaaS: A Playbook"
 metaDescription: "How to rank BOFU keywords for SaaS (comparison, alternative, and pricing pages) on a low-authority domain, plus realistic ranking timelines."
-date: 2026-06-06
+date: 2026-06-08
 slug: "how-to-rank-bofu-keywords-saas"
 writtenBy: "kim"
 category: "SaaS SEO"
