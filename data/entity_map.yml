@@ -1,0 +1,1526 @@
+# PipeRocket Entity Map
+# Primary topic: SaaS SEO
+# ~798 entities across 34 categories
+# Sources: site cluster (46 pages) + SERP top-15 + Google entity signals
+#          + Wikipedia adjacency + AI-search-era additions + 9 gap categories
+# Usage: reference while writing content to ensure topical entity coverage
+# Last updated: 2026-06-05
+
+saas-seo:
+  primary_entity: "SaaS SEO"
+
+  parent_entities:
+    - SEO
+    - B2B SaaS Marketing
+    - Content Marketing
+    - Digital Marketing
+    - Search Engine Marketing
+
+  sibling_entities:
+    - B2B SaaS SEO
+    - Enterprise SaaS SEO
+    - Programmatic SEO
+    - SaaS PPC
+    - SaaS Content Marketing
+    - SaaS Link Building
+    - AI SEO
+    - GEO
+    - AEO
+    - LLMO
+    - Local SEO
+    - E-commerce SEO
+
+  categories:
+
+    core_seo_disciplines:
+      - On-page SEO
+      - Off-page SEO
+      - Technical SEO
+      - SEO audit
+      - Content audit
+      - Competitor analysis
+      - Keyword research
+      - Search intent
+      - Topic clusters
+      - Hub-and-spoke
+      - Pillar pages
+      - Topical authority
+      - Internal linking
+      - Anchor text
+      - Long-tail keywords
+      - Head terms
+      - Keyword cannibalisation
+      - Keyword gap analysis
+      - Content gap analysis
+      - SERP overlap
+      - Featured snippets
+      - People Also Ask
+      - Zero-click search
+      - SERP features
+      - Sitelinks
+      - E-E-A-T
+      - Semantic SEO
+      - Entity SEO
+      - Entity-based SEO
+      - Brand SERPs
+
+    technical_seo:
+      - Crawlability
+      - Indexation
+      - Crawl budget
+      - Crawl depth
+      - XML sitemap
+      - Robots.txt
+      - Canonical tags
+      - Canonical loops
+      - 301 redirects
+      - Redirect chains
+      - 404s
+      - Soft 404s
+      - Noindex
+      - Hreflang
+      - Mobile-first indexing
+      - Page speed
+      - Core Web Vitals
+      - LCP
+      - INP
+      - CLS
+      - FID
+      - JavaScript rendering
+      - SSR
+      - SSG
+      - HTTPS
+      - HSTS
+      - URL structure
+      - Duplicate content
+      - Parameter URLs
+      - Faceted navigation
+      - Orphan pages
+      - Image compression
+      - WebP
+      - AVIF
+      - Lazy loading
+      - srcset
+      - Log file analysis
+      - llms.txt
+      - llms-full.txt
+      - AI sitemaps
+
+    schema_structured_data:
+      - JSON-LD
+      - Microdata
+      - RDFa
+      - FAQPage
+      - SoftwareApplication
+      - Organization
+      - Article
+      - BlogPosting
+      - BreadcrumbList
+      - Review
+      - AggregateRating
+      - HowTo
+      - Product
+      - Author
+      - Person
+      - WebSite
+      - WebPage
+      - VideoObject
+      - PodcastEpisode
+      - ImageObject
+      - LocalBusiness
+      - Event
+      - Course
+
+    content_page_types:
+      - Pillar pages
+      - Spoke articles
+      - Cluster articles
+      - Comparison pages
+      - Alternatives pages
+      - Pricing pages
+      - Feature pages
+      - Use-case pages
+      - Integration pages
+      - Industry / vertical pages
+      - Landing pages
+      - Listicles
+      - Roundups
+      - Case studies
+      - Whitepapers
+      - Ebooks
+      - Webinars
+      - Podcasts
+      - Free tools
+      - ROI calculators
+      - Original research
+      - Benchmark reports
+      - Glossary pages
+      - FAQ pages
+      - Templates
+      - Money pages
+      - Thought leadership
+      - Editorial pieces
+      - Newsletter content
+
+    funnel_stages_intent:
+      - TOFU
+      - MOFU
+      - BOFU
+      - Informational intent
+      - Commercial intent
+      - Transactional intent
+      - Navigational intent
+      - Buyer journey
+      - Buying committee
+      - Multi-stakeholder buying
+      - Search journey mapping
+      - Pain Point SEO
+      - Awareness stages (Eugene Schwartz)
+      - Demand capture
+      - Demand creation
+      - Dark funnel
+      - Surround sound marketing
+      - Pipeline marketing
+
+    keyword_content_frameworks:
+      - Hub-and-spoke
+      - Pillar-cluster architecture
+      - Content silos
+      - Jobs-to-be-Done (JTBD)
+      - ICP-first keyword scoring
+      - Skyscraper Technique
+      - Content briefs
+      - Content velocity
+      - Editorial calendar
+      - Content refresh
+      - Content decay
+      - Content atomisation
+      - Content repurposing
+      - Cumulative content cluster
+      - 8-Step SaaS SEO Framework (PipeRocket)
+      - Four Pillars of Enterprise SaaS SEO (PipeRocket)
+      - 40-60 BOFU rule (PipeRocket)
+      - CORE Framework (Optimist)
+      - DiscoverabilityOS (Directive)
+      - RAISE Framework (Grow & Convert)
+      - Thought Leadership Marketing (First Page Sage)
+      - Power Circuit Framework (Power Digital)
+      - Five Pillar Approach (RankAI)
+      - Engine/Fuel/Oil (Marketer Milk)
+      - Pain Point SEO (Grow & Convert)
+      - Surround Sound SEO (Omniscient)
+
+    ai_search_geo_aeo:
+      - AI Overviews
+      - Generative Engine Optimisation (GEO)
+      - Answer Engine Optimisation (AEO)
+      - LLM Optimisation (LLMO)
+      - Google AI Mode
+      - Google SGE
+      - AI citations
+      - AI visibility
+      - Brand entity consistency
+      - Entity disambiguation
+      - Knowledge Graph
+      - Knowledge Panel
+      - Query fan-out
+      - Conversational prompts
+      - Answer-first content structure
+      - Front-loaded answers
+      - Question-format headings
+      - Content chunking
+      - SVO sentence structure
+      - Share of Model Response
+      - AI Citation Rate
+      - Brand Recommendation Rate
+      - AI Share of Voice
+
+    ai_search_infrastructure:
+      - Model Context Protocol (MCP)
+      - AI agents
+      - AI operators
+      - Agentic browsing
+      - ChatGPT Atlas
+      - Perplexity Comet
+      - Anthropic Computer Use
+      - Retrieval-Augmented Generation (RAG)
+      - Vector embeddings
+      - Vector search
+      - Vector databases
+      - Pinecone
+      - Weaviate
+      - Chroma
+      - BM25
+      - TF-IDF
+      - Cosine similarity
+      - Semantic chunking
+      - Reranking
+      - Hybrid search
+      - AI grounding
+      - Hallucination
+      - Prompt injection
+      - Constitutional AI
+      - Citation quality
+      - Source authority signals
+
+    ai_engines_llms:
+      - ChatGPT
+      - OpenAI GPT
+      - Google Gemini
+      - Perplexity
+      - Microsoft Copilot
+      - Anthropic Claude
+      - Google AI Overviews
+      - Google AI Mode
+      - Google SGE
+      - Mistral
+      - Meta AI
+      - DeepSeek
+
+    seo_tools_platforms:
+      - Ahrefs
+      - Semrush
+      - Moz
+      - Google Search Console
+      - Google Analytics 4
+      - Google Keyword Planner
+      - Google Tag Manager
+      - Looker Studio
+      - Screaming Frog
+      - Sitebulb
+      - Botify
+      - Lumar
+      - Clearscope
+      - Surfer SEO
+      - Frase
+      - MarketMuse
+      - AlsoAsked
+      - AnswerThePublic
+      - Keywords Everywhere
+      - QuestionDB
+      - Google PageSpeed Insights
+      - GTmetrix
+      - Pingdom
+      - Rich Results Test
+      - Mobile-Friendly Test
+      - Structured Data Markup Helper
+      - Schema App
+      - Ahrefs Brand Radar
+      - Semrush AI Visibility Toolkit
+      - Profound
+      - Otterly
+      - AthenaHQ
+      - Peec
+      - Daydream
+      - Bing Webmaster Tools
+
+    cro_behavioural_tools:
+      - Hotjar
+      - Microsoft Clarity
+      - Mouseflow
+      - FullStory
+      - VWO
+      - Optimizely
+      - A/B testing
+      - Multivariate testing
+      - Split testing
+      - Statistical significance
+      - Heatmaps
+      - Session recording
+      - Scroll mapping
+      - Friction audit
+      - Exit intent
+      - Form optimisation
+      - Personalisation
+      - Dynamic content
+      - Hypothesis-driven testing
+      - Above-the-fold optimisation
+
+    demand_gen_abm_tools:
+      - 6sense
+      - Demandbase
+      - Mutiny
+      - RollWorks
+      - Terminus
+      - Folloze
+      - PathFactory
+      - Common Room
+      - Bombora
+      - Clearbit
+      - Apollo
+      - ZoomInfo
+      - SparkToro
+      - Datanyze
+      - RB2B
+      - Leadfeeder
+      - Hull.io
+      - Segment
+      - Gong
+      - Chorus
+      - Salesloft
+      - Navattic
+      - Revive
+      - HARO / Connectively
+
+    authority_off_page:
+      - Backlinks
+      - Link building
+      - Digital PR
+      - Guest posting
+      - Broken-link building
+      - Niche edits
+      - Link insertions
+      - HARO
+      - Unlinked-mention reclamation
+      - Original research as link asset
+      - Free tools as link bait
+      - Integration directories
+      - Partner marketplaces
+      - Podcast appearances
+      - Conference speaking
+      - Domain Authority
+      - Domain Rating
+      - Authority Score
+      - Referring domain quality
+      - PageRank
+      - Nofollow
+      - Dofollow
+      - Sponsored links
+      - UGC links
+      - Link farm (black hat)
+      - Spamdexing
+      - Anchor text optimisation
+
+    community_parasitic_seo:
+      - Community-led SEO
+      - Parasitic SEO
+      - Reddit SEO
+      - Subreddit ranking
+      - Reddit AMA
+      - Quora SEO
+      - Quora Spaces
+      - LinkedIn SEO
+      - LinkedIn newsletter
+      - LinkedIn article ranking
+      - Medium SEO
+      - GitHub SEO
+      - Hacker News
+      - Indie Hackers
+      - Product Hunt SEO
+      - Discord community SEO
+      - Slack community SEO
+      - Forum SEO
+      - Wikipedia citation
+      - Wikidata seeding
+      - UGC SEO
+      - Brand mentions
+      - Unlinked brand mentions
+
+    b2b_saas_business_model:
+      - B2B SaaS
+      - Subscription business model
+      - Freemium
+      - Free trial
+      - Demo request
+      - Product-led growth (PLG)
+      - Sales-led
+      - Sales-led growth
+      - Marketing-led growth
+      - ABM
+      - Demand generation
+      - Lead generation
+      - Marketing operations
+      - RevOps
+      - Customer success
+      - ICP
+      - Buyer persona
+      - Buyer enablement
+      - TAM
+      - SAM
+      - SOM
+      - Long sales cycle
+      - Buying committee
+      - Multi-stakeholder buying
+      - Rule of 40
+      - Multi-tenant
+      - API
+      - Microservices
+      - Cloud computing
+      - IaaS
+      - PaaS
+
+    pipeline_revenue_metrics:
+      - Organic SQLs
+      - MQLs
+      - SQLs
+      - SQOs
+      - SAL
+      - PQL
+      - Pipeline contribution
+      - Pipeline-influenced revenue
+      - Organic CAC
+      - Paid CAC
+      - LTV
+      - CLV
+      - LTV:CAC
+      - CAC payback
+      - MRR
+      - ARR
+      - NRR
+      - GRR
+      - Expansion revenue
+      - Churn
+      - Trial-to-paid conversion
+      - Activation rate
+      - Time-to-value (TTV)
+      - Aha moment
+      - North Star Metric
+      - Conversion rate
+      - First-touch attribution
+      - Last-touch attribution
+      - Multi-touch attribution
+      - Pipeline-influenced attribution
+      - 30-60-90 milestones
+
+    engagement_onsite_metrics:
+      - Organic traffic
+      - Keyword rankings
+      - CTR
+      - Engagement rate
+      - Bounce rate
+      - Time on page
+      - Dwell time
+      - Scroll depth
+      - Page views
+      - Sessions
+      - Pages per session
+      - Click path
+      - Clickstream
+      - Cost per lead
+      - Share of voice
+
+    search_engine_infrastructure:
+      - Google
+      - Bing
+      - Yahoo
+      - DuckDuckGo
+      - Baidu
+      - Yandex
+      - Naver
+      - Yahoo Japan
+      - Seznam
+      - Web crawler
+      - Googlebot
+      - Bingbot
+      - SERP
+      - Search engine results page
+      - PageRank
+      - Semantic search
+      - Mobile-first indexing
+      - Knowledge Graph
+      - Knowledge Panel
+      - Panda
+      - Penguin
+      - Hummingbird
+      - BERT
+      - MUM
+      - Helpful Content Update
+      - Core updates
+      - Spam updates
+      - E-E-A-T update
+
+    multimodal_seo:
+      - YouTube SEO
+      - Video sitemap
+      - VideoObject schema
+      - Chapter markers
+      - Closed captions
+      - Transcripts
+      - Thumbnail optimisation
+      - Watch time
+      - Retention curve
+      - YouTube Shorts
+      - TubeBuddy
+      - vidIQ
+      - Podcast SEO
+      - Apple Podcasts ranking
+      - Spotify ranking
+      - Show notes optimisation
+      - PodcastEpisode schema
+      - Castmagic
+      - Riverside
+      - Descript
+      - Image SEO
+      - Open Graph
+      - Twitter Cards
+      - Pinterest Rich Pins
+      - ImageObject schema
+      - Visual search
+      - Google Lens
+      - ImageKit
+      - Cloudinary
+      - Voice search
+      - Alexa
+      - Google Assistant
+      - Siri
+      - Conversational queries
+      - Multimodal search
+      - ASO
+      - App Store
+      - Google Play
+      - App keywords
+
+    international_seo:
+      - International SEO
+      - Hreflang
+      - ccTLDs
+      - gTLD subfolders
+      - IP geolocation
+      - Geotargeting
+      - GSC country targeting
+      - Localised content
+      - Translation vs transcreation
+      - Local backlink profiles
+      - Naver SEO
+      - Yandex SEO
+      - Baidu SEO
+      - Yahoo Japan SEO
+      - Seznam SEO
+      - Currency localisation
+      - VAT localisation
+      - Schrems II
+
+    trust_eeat_entities:
+      - Author byline
+      - Author bio
+      - Author schema
+      - About page authority
+      - Editorial guidelines
+      - Editorial policy
+      - Fact-checking policy
+      - Sources cited
+      - Citation density
+      - Last updated timestamps
+      - Reviewed by pattern
+      - Source links to authoritative sites
+      - Expert quotes
+      - Real author photos
+      - LinkedIn verification
+      - X/Twitter verification
+      - Wikipedia entity
+      - Wikidata entity
+      - Press mentions
+      - Speaker credentials
+      - Trustworthy publish dates
+      - Methodology page
+
+    compliance_regulatory:
+      - SOC 2
+      - ISO 27001
+      - GDPR
+      - CCPA
+      - CPRA
+      - HIPAA
+      - FedRAMP
+      - PCI DSS
+      - WCAG
+      - ADA
+      - Section 508
+      - Data residency
+      - Cookie consent
+      - Privacy policy
+      - Terms of service
+      - Trust center
+      - Schrems II
+
+    review_platforms_directories:
+      - G2
+      - Capterra
+      - Clutch
+      - TrustRadius
+      - Trustpilot
+      - Software Advice
+      - GetApp
+      - Gartner
+      - Forrester
+      - IDC
+      - Product Hunt
+      - FeaturedCustomers
+      - Y Combinator
+      - Techstars
+      - AWS Marketplace
+      - Azure Marketplace
+      - Google Cloud Marketplace
+
+    citation_surfaces:
+      - Reddit
+      - Quora
+      - LinkedIn
+      - YouTube
+      - X/Twitter
+      - Hacker News
+      - Indie Hackers
+      - Medium
+      - Substack
+      - GitHub
+      - Product Hunt
+      - Wikipedia
+      - Wikidata
+
+    industry_events:
+      - BrightonSEO
+      - MozCon
+      - SearchLove
+      - Chiang Mai SEO Conference
+      - SMX Advanced
+      - Pubcon
+      - SaaStr Annual
+      - INBOUND
+      - Content Marketing World
+      - B2B Marketing Exchange
+      - MarTech Conference
+      - Demandbase Advance
+      - Pavilion CMO Summit
+      - ContentTECH Summit
+      - Marketing Operations Summit
+      - The B2B Sales & Marketing Exchange
+
+    publications_blogs:
+      - Search Engine Land
+      - Search Engine Journal
+      - Search Engine Roundtable
+      - Moz blog
+      - Ahrefs blog
+      - Semrush blog
+      - Backlinko
+      - HubSpot blog
+      - The Pavilion
+      - Demand Curve
+      - Lenny's Newsletter
+      - Marketing Brew
+      - Animalz blog
+      - Foundation Inc blog
+      - Growth Marketing Pro
+      - SaaStr
+      - OpenView Partners
+      - SaaS Mag
+      - ChiefMartec
+      - MarTech Today
+      - Adweek
+
+    industry_voices:
+      - Aleyda Solis
+      - Lily Ray
+      - Cyrus Shepard
+      - Marie Haynes
+      - Glenn Gabe
+      - Kevin Indig
+      - Eli Schwartz
+      - Tom Critchlow
+      - Bernard Huang
+      - Andy Crestodina
+      - Britney Muller
+      - Will Critchlow
+      - Mike King
+      - Dawn Anderson
+      - Jes Scholz
+      - Olga Andrienko
+      - John Mueller
+      - Gary Illyes
+      - Danny Sullivan
+      - Barry Schwartz
+      - Bill Slawski
+      - April Dunford
+      - Wes Bush
+      - Kyle Poyar
+      - Lenny Rachitsky
+      - Sangram Vajre
+      - Chris Walker
+      - Dave Gerhardt
+      - Emily Kramer
+      - Jason Lemkin
+      - Anthony Pierri
+      - Peep Laja
+      - Olaf Kopp
+      - Andrew Chen
+      - Andrej Karpathy
+      - Praveen Ravi
+      - Omar Sheriff
+
+    saas_verticals:
+      - SaaS
+      - B2B SaaS
+      - Fintech
+      - HR Tech
+      - DevTools
+      - MarTech
+      - SalesTech
+      - LegalTech
+      - CLM
+      - Cybersecurity
+      - Compliance SaaS
+      - Customer support SaaS
+      - Procurement SaaS
+      - Healthcare SaaS
+      - HealthTech
+      - EdTech
+      - PropTech
+      - InsurTech
+      - ConstructionTech
+      - Crypto
+
+    research_data_sources:
+      - PipeRocket State of SEO in the AI World 2026
+      - 6sense Buyer Experience Report
+      - Content Marketing Institute B2B Benchmark
+      - Edelman B2B Thought Leadership Impact Report
+      - Gartner B2B Buyer Survey
+      - Forrester Total Economic Impact
+      - HG Insights
+      - StatCounter
+      - Similarweb data
+      - Datanyze
+
+    hosting_framework_tech:
+      - React
+      - Next.js
+      - Angular
+      - Vue
+      - Svelte
+      - WordPress
+      - Webflow
+      - Vercel
+      - Cloudflare
+      - Netlify
+      - Hugo
+      - Astro
+      - Server-side rendering
+      - Static site generation
+      - ISR
+
+    reference_saas_exemplars:
+      - Salesforce
+      - HubSpot
+      - Zapier
+      - Slack
+      - Notion
+      - Canva
+      - Monday.com
+      - Intercom
+      - Stripe
+      - Paddle
+      - Atlassian
+      - Amplitude
+      - Segment
+      - Auth0
+      - Webflow
+      - Zoom
+      - Dropbox
+      - Gmail
+      - Asana
+      - Trello
+      - ClickUp
+      - Linear
+      - Figma
+      - Airtable
+      - Shopify
+      - Calendly
+      - Loom
+
+    competitive_landscape_agencies:
+      - PipeRocket Digital
+      - Siege Media
+      - First Page Sage
+      - Kalungi
+      - SimpleTiger
+      - Directive Consulting
+      - Omniscient Digital
+      - Grow and Convert
+      - MADX Digital
+      - TripleDart
+      - Animalz
+      - Skale
+      - Minuttia
+      - Powered by Search
+      - Embarque
+      - RevenueZen
+      - iPullRank
+      - Stratabeat
+      - NoGood
+      - WebFX
+      - KlientBoost
+      - Single Grain
+      - Foundation Marketing
+      - Quoleady
+      - Campfire Labs
+      - Codeless
+      - ClearVoice
+      - Searchbloom
+      - Editorial.Link
+      - uSERP
+      - Onely
+      - Above Apex
+      - Jeenam
+      - OneLittleWeb
+      - Growfusely
+
+    # Gap categories added 2026-06-05
+    adjacent_disciplines:
+      - Conversion Rate Optimisation (CRO)
+      - Demand capture
+      - Demand creation
+      - Dark funnel
+      - Surround sound marketing
+      - Pipeline marketing
+      - Customer lifecycle marketing
+      - Retention marketing
+      - PQL (Product-Qualified Lead)
+      - Activation rate
+      - Time-to-value (TTV)
+      - Aha moment
+      - North Star Metric
+      - ABM tooling
+      - Account-based marketing
+
+    e_eat_infrastructure:
+      - Author byline
+      - Author bio page
+      - Author schema
+      - Editorial policy page
+      - Fact-checking standards page
+      - Methodology page
+      - Expert quotes in content
+      - Last updated timestamps
+      - Reviewed by pattern
+      - Wikipedia entity seeding
+      - Wikidata entity seeding
+      - Press mentions
+      - Speaker credentials
+      - LinkedIn author verification
+      - sameAs markup
+
+# ---------------------------------------------------------------------------
+# Primary topic: SaaS Paid Marketing (holistic — all paid channels + media discipline)
+# ~517 entities across 32 categories
+# Scope: the whole paid-marketing neighbourhood (paid search, paid social,
+#        programmatic/display, native/discovery, CTV/audio, sponsorships,
+#        affiliate, review-site ads) plus the media planning/buying, creative,
+#        and incrementality disciplines — NOT just pay-per-click.
+# Sources: site cluster (44 pages: 16 glossary, 12 blogs, 6 service, 7 listicles,
+#          3 case studies) + SERP top-14 competitor guides + Google entity signals
+#          (PAA/related/autocomplete) + Wikipedia adjacency (12 articles)
+#          + AI-paid-era additions + holistic-channel/discipline synthesis
+# Built: 2026-06-09
+# ---------------------------------------------------------------------------
+
+saas-paid-marketing:
+  primary_entity: "SaaS Paid Marketing"
+
+  parent_entities:
+    - Paid Media
+    - Paid Advertising
+    - Performance Marketing
+    - Demand Generation
+    - Online Advertising
+    - Digital Marketing
+    - B2B SaaS Marketing
+    - Growth Marketing
+
+  sibling_entities:
+    - SaaS SEO
+    - SaaS PPC
+    - Paid Search
+    - Paid Social
+    - Programmatic advertising
+    - Display advertising
+    - Retargeting / remarketing
+    - Connected TV (CTV) advertising
+    - Native advertising
+    - Affiliate marketing
+    - Influencer marketing
+    - SaaS content marketing
+    - Demand capture
+    - Demand creation
+
+  categories:
+
+    paid_channels_platforms:
+      - Google Ads
+      - Microsoft Advertising (Bing Ads)
+      - LinkedIn Ads
+      - Meta Ads (Facebook Ads)
+      - Instagram Ads
+      - YouTube Ads
+      - Google Demand Gen
+      - Google Display Network
+      - Google Search Network
+      - Google Ad Manager
+      - Reddit Ads
+      - Quora Ads
+      - X (Twitter) Ads
+      - TikTok Ads
+      - Pinterest Ads
+      - Amazon Advertising
+      - Taboola
+      - Outbrain
+      - The Trade Desk
+      - Amazon DSP
+      - Google Display & Video 360 (DV360)
+      - StackAdapt
+      - MNTN (CTV)
+      - DuckDuckGo Ads
+      - Audience Network (Meta)
+      - Messenger Ads
+      - Gmail / Discover placements
+      - Yandex.Direct
+      - Yahoo / AOL network
+      - Google AdSense
+
+    campaign_types:
+      - Search campaigns
+      - Display campaigns
+      - Remarketing / retargeting campaigns
+      - Performance Max (PMax)
+      - Demand Gen campaigns
+      - Discovery campaigns
+      - Shopping campaigns
+      - Video campaigns
+      - Brand defense campaigns
+      - Branded campaigns
+      - Non-branded / category campaigns
+      - Competitor / conquesting campaigns
+      - High-intent generic campaigns
+      - Problem-aware campaigns
+      - Solution-aware campaigns
+      - RLSA (Remarketing Lists for Search Ads)
+      - ABM / account-list campaigns
+      - Upsell / expansion campaigns
+
+    ad_formats:
+      - Responsive Search Ads (RSA)
+      - Expanded text ads
+      - Single image ads
+      - Carousel ads
+      - Video ads (in-stream / skippable / bumper)
+      - Lead Gen Forms (LinkedIn)
+      - Meta Lead Ads
+      - Sponsored Content (LinkedIn)
+      - Conversation Ads (LinkedIn)
+      - Message Ads (LinkedIn)
+      - Document Ads (LinkedIn)
+      - Text Ads (LinkedIn)
+      - Dynamic ads
+      - Collection / Instant Experience ads (Meta)
+      - Native ads
+      - Banner / display ads
+      - Responsive display ads
+      - Ad extensions / assets
+      - Sitelinks
+      - Callout extensions
+      - Structured snippets
+      - Dynamic Keyword Insertion (DKI)
+
+    bidding_strategies:
+      - Manual CPC
+      - Enhanced CPC (eCPC)
+      - Smart Bidding
+      - Automated bidding
+      - Target CPA (tCPA)
+      - Target ROAS (tROAS)
+      - Maximize Conversions
+      - Maximize Conversion Value
+      - Maximize Clicks
+      - Value-based bidding
+      - Portfolio bid strategies
+      - Bid adjustments (device / geo / audience)
+      - Bid caps
+      - Real-time bidding (RTB)
+      - Auction model
+      - Flat-rate vs bid-based PPC
+
+    keyword_targeting_concepts:
+      - Keyword research
+      - Keyword match types
+      - Broad match
+      - Phrase match
+      - Exact match
+      - Broad match modifier
+      - Negative keywords
+      - Negative keyword lists
+      - Long-tail keywords
+      - Single Keyword Ad Groups (SKAGs)
+      - Ad groups
+      - Search Terms report
+      - Quality Score
+      - Ad Rank
+      - Ad relevance
+      - Expected CTR
+      - Landing page experience
+      - Impression share
+      - Auction Insights
+      - Keyword intent tiers (use-case / feature / comparison / problem)
+
+    audience_targeting:
+      - Audience segmentation
+      - Audience layering
+      - Cold / warm / retargeting segmentation
+      - Lookalike / similar audiences
+      - In-market audiences
+      - Custom intent audiences
+      - Customer Match
+      - CRM-based audiences
+      - Matched Audiences (LinkedIn)
+      - Predictive audiences
+      - Firmographic targeting
+      - Job title / seniority targeting
+      - Company size / industry targeting
+      - Target account lists
+      - Contact-based targeting
+      - Buying-committee targeting
+      - Behavioral / intent-signal targeting
+      - Contextual targeting
+      - Geo-targeting
+      - Device targeting
+      - Frequency caps
+      - Audience exclusions
+      - Placement exclusions
+
+    funnel_buyer_journey:
+      - ToFu / MoFu / BoFu
+      - Awareness / Consideration / Decision
+      - Buyer-awareness stages (Unaware to Most Aware)
+      - Demand generation vs demand capture
+      - Product-Led Growth (PLG)
+      - Sales-Led Growth (SLG)
+      - Self-serve vs sales-led motion
+      - Free trial vs demo-request paths
+      - Trial-to-paid
+      - Buying committee (6-10 stakeholders)
+      - User vs buyer distinction
+      - Champions / decision-makers
+
+    conversion_lead_stages:
+      - Demo requests
+      - Free trial signups
+      - Form fills / form submissions
+      - Lead (Marketing Qualified Lead / MQL)
+      - SQL (Sales Qualified Lead)
+      - SAL (Sales Accepted Lead)
+      - PQL (Product-Qualified Lead)
+      - Opportunity
+      - Closed-Won
+      - Micro-conversions vs macro-conversions
+      - Lead scoring
+      - Lead qualification
+      - Whitepaper / content downloads
+      - Activation
+
+    ppc_metrics_kpis:
+      - CPC (Cost Per Click)
+      - CPM (Cost Per Mille)
+      - CPA (Cost Per Acquisition)
+      - CPL (Cost Per Lead)
+      - CPQL (Cost Per Qualified Lead)
+      - Cost per SQL
+      - Cost per opportunity
+      - Cost per demo
+      - CTR (Click-Through Rate)
+      - Conversion rate
+      - ROAS (Return on Ad Spend)
+      - ROI
+      - Impression share
+      - Quality Score
+      - View-through rate
+      - Cost per view (CPV)
+      - SQL-to-opportunity rate
+      - Win rate
+      - Pipeline generated / pipeline influenced
+      - Pipeline ROI
+
+    saas_unit_economics:
+      - CAC (Customer Acquisition Cost)
+      - Blended CAC
+      - CAC by channel
+      - LTV (Lifetime Value)
+      - LTV:CAC ratio
+      - CAC payback period
+      - MRR
+      - ARR
+      - ACV (Average Contract Value)
+      - Churn rate
+      - Retention rate
+      - Activation rate
+      - Marketing Efficiency Ratio (MER)
+
+    tracking_measurement:
+      - Conversion tracking
+      - Google Analytics 4 (GA4)
+      - Universal Analytics (UA)
+      - Google Tag Manager (GTM)
+      - gtag.js
+      - dataLayer
+      - Measurement Protocol
+      - Server-side tracking / tagging
+      - Enhanced conversions
+      - Enhanced Conversions for Leads
+      - Offline conversion tracking / import
+      - GCLID / click ID stitching
+      - CRM integration
+      - UTM parameters
+      - Google Signals
+      - User ID
+      - LinkedIn Insight Tag
+      - Meta Pixel
+      - Conversions API (CAPI)
+      - BigQuery (GA4 export)
+      - Looker Studio
+      - Recommended events (sign_up, generate_lead, purchase)
+
+    attribution_models:
+      - Last-click attribution
+      - First-touch attribution
+      - Multi-touch attribution
+      - Data-driven attribution
+      - Position-based attribution
+      - View-through attribution
+      - Probabilistic attribution
+      - Full-funnel attribution
+      - Conversion window
+      - Offline conversion attribution
+
+    programmatic_adtech:
+      - Programmatic advertising
+      - Real-time bidding (RTB)
+      - Demand-side platform (DSP)
+      - Supply-side platform (SSP)
+      - Ad exchange
+      - Ad server
+      - Ad network
+      - Open auction
+      - Programmatic direct
+      - Private marketplace (PMP)
+      - Preferred deals
+      - Header bidding
+      - Data management platform (DMP)
+      - Identity graph
+      - Deterministic vs probabilistic matching
+      - Universal ID
+      - Floor pricing / price floors
+      - Fill rate
+      - eCPM / yield
+      - Advertising inventory
+      - Connected TV (CTV)
+      - Audio ads
+      - Brand safety
+      - Made-for-advertising (MFA) sites
+      - Banner blindness
+      - Blocklists / allowlists
+      - Click fraud / invalid clicks
+      - Ad fraud
+
+    privacy_cookies_consent:
+      - Third-party cookies
+      - First-party cookies / first-party data
+      - Cookie deprecation / cookieless
+      - Consent Mode v2
+      - Privacy Sandbox
+      - Intelligent Tracking Prevention (ITP)
+      - iOS 14 / ATT privacy changes
+      - Signal loss
+      - GDPR
+      - CCPA
+      - Customer Data Platform (CDP)
+      - Data clean rooms
+
+    landing_pages_cro:
+      - Landing pages
+      - Dedicated landing pages vs homepage
+      - Landing page experience
+      - Message match
+      - Conversion Rate Optimization (CRO)
+      - Above the fold
+      - Hero section / H1 keyword match
+      - Value proposition
+      - Call-to-action (CTA)
+      - A/B testing
+      - Multivariate testing
+      - Form optimization / friction reduction
+      - Multi-step forms
+      - Progressive profiling
+      - Frictionless / email-only signup
+      - One-click SSO
+      - Social proof / testimonials
+      - Customer logos / G2 badges
+      - ROI calculators
+      - Comparison landing pages
+      - Page speed / load time
+      - Mobile optimization
+      - Heatmaps / session replays
+
+    strategic_frameworks:
+      - Ideal Customer Profile (ICP)
+      - Buyer personas
+      - Account-Based Marketing (ABM)
+      - ABM tiers (1:1 / 1:Few / 1:Many)
+      - Programmatic ABM
+      - ABM Lite
+      - Brand vs performance marketing
+      - Surround-sound strategy
+      - Dark funnel / dark social
+      - Demand creation vs demand capture
+      - Full-funnel paid strategy
+      - Channel blending / sequential messaging
+      - Positioning / differentiation
+      - Unique Selling Proposition (USP)
+      - Value proposition
+      - Jobs-to-be-Done (JTBD)
+      - Customer Generation (Directive)
+      - RevOps
+      - Budget allocation / channel split
+      - Pain-point-to-product bridge
+      - Remarketing / nurture sequences
+      - Total Addressable Market (TAM)
+      - Trademark / brand-bidding restrictions
+
+    ai_paid_search_era:
+      - AI Max for Search
+      - Performance Max AI
+      - Asset groups
+      - AI-generated creative
+      - Broad match + Smart Bidding
+      - Predictive audiences
+      - Generative engine optimization (ad surfaces)
+      - AI Overviews ad placements
+      - ChatGPT ads
+      - Perplexity ads
+      - Automated experiments / drafts
+
+    pricing_agency_models:
+      - Percentage of ad spend (10-30%)
+      - Flat fee / monthly retainer
+      - Hourly rate
+      - Spend-tier / channel-based pricing
+      - Performance-based pricing
+      - No-contract PPC management
+      - Management fee vs ad spend
+      - In-house vs agency PPC
+      - PPC management
+      - Account audit
+
+    channel_comparisons:
+      - PPC vs SEO
+      - Paid search vs paid social
+      - Google Ads vs LinkedIn Ads
+      - Google Ads vs Microsoft Ads
+      - Branded vs non-branded search
+      - SEM vs SEO vs PPC
+      - Self-serve vs sales-led
+
+    bid_management_tools:
+      - Optmyzr
+      - Opteo
+      - Adalysis
+      - Marin Software
+      - SpyFu
+      - Google Ads Editor
+      - Improvado
+      - Google Keyword Planner
+
+    measurement_attribution_tools:
+      - HubSpot
+      - Salesforce
+      - Marketo
+      - Pardot
+      - Pipedrive
+      - Zapier
+      - Segment
+      - Dreamdata
+      - HockeyStack
+      - Cometly
+      - Ruler Analytics
+      - Triple Whale
+      - Supermetrics
+      - INCRMNTAL
+      - Bizible
+      - Rockerbox
+      - CallRail
+      - Mixpanel
+      - Stripe
+      - ProfitWell
+      - Hotjar
+      - Tableau
+
+    intent_data_abm_platforms:
+      - 6sense
+      - Demandbase
+      - Terminus
+      - RollWorks
+      - Metadata
+      - Mutiny
+      - Bombora
+      - ZoomInfo
+      - Apollo
+      - G2 Buyer Intent
+      - Clearbit
+      - Gong
+
+    review_directory_platforms:
+      - Clutch
+      - G2
+      - Capterra
+      - TrustRadius
+      - Gartner Peer Insights
+      - FeaturedCustomers
+      - Trustpilot
+      - DesignRush
+      - Review-platform ads (G2 / Capterra sponsored listings)
+
+    partner_certifications:
+      - Google Partner
+      - Google Premier Partner
+      - Microsoft Advertising Partner
+      - Meta Business Partner
+      - LinkedIn Certified
+      - Google Ad Transparency Center
+      - Meta Ad Library
+      - LinkedIn Ad Library
+
+    verticals_specialisations:
+      - B2B SaaS PPC
+      - Enterprise PPC
+      - Fintech PPC
+      - HR Tech PPC
+      - DevTools PPC
+      - Cybersecurity PPC
+      - HealthTech PPC
+      - LegalTech PPC
+      - PtaaS (Pen-Testing as a Service)
+
+    compliance_regulatory:
+      - HIPAA-compliant advertising
+      - SOC 2
+      - GDPR
+      - CCPA
+      - Security certifications / trust badges
+
+    industry_voices_ppc:
+      - AJ Wilcox
+      - Frederick Vallaeys
+      - Brad Geddes
+      - Susan Wenograd
+      - Johnathan Dane
+      - Amy Hebdon
+      - Michelle Morgan
+      - Patrick Gilbert
+      - Kirk Williams
+      - Julie Friedman Bacchini
+      - Andrea Cruz
+      - Tas Bober
+      - Dylan Hey
+
+    research_data_sources:
+      - WordStream PPC benchmarks
+      - Global State of PPC Survey
+      - G2 Buyer Behavior Report
+      - SaaS Capital
+      - First Page Sage benchmarks
+      - Google Ads Benchmarks
+
+    expanded_paid_channels:
+      - Connected TV (CTV) / OTT advertising
+      - Streaming TV ads
+      - CTV platforms (Roku, Hulu, Netflix Ads, YouTube TV, Samsung Ads, Amazon Fire TV)
+      - Podcast advertising
+      - Podcast ad networks (Acast, Podscribe)
+      - Audio ads / Spotify Ad Studio
+      - Digital out-of-home (DOOH)
+      - Native advertising / content discovery
+      - Sponsored content / advertorials
+      - Newsletter sponsorships
+      - Paid newsletter placements (e.g. industry newsletters)
+      - Community / Slack / Discord sponsorships
+      - Podcast / YouTube sponsorships
+      - Affiliate marketing
+      - Partner / co-marketing campaigns
+      - Influencer marketing
+      - Influencer whitelisting / allowlisting
+      - Creator partnerships
+      - Apple Search Ads
+      - App install campaigns
+      - Review-site paid placements (G2 / Capterra / TrustRadius)
+      - Comparison / category page sponsorships
+      - Webinar / event sponsorships
+      - Retail media (where applicable)
+
+    media_planning_buying:
+      - Media planning
+      - Media buying
+      - Media mix / channel mix
+      - Budget allocation / pacing
+      - Flighting / bursting
+      - Always-on vs campaign bursts
+      - Share of voice (SOV)
+      - Share of market (SOM)
+      - Excess Share of Voice (ESOV)
+      - Binet & Field 60-40 rule
+      - Reach and frequency
+      - Effective frequency
+      - Frequency capping
+      - Gross rating points (GRPs) / cost per point
+      - Flighting / pulsing / bursting
+      - Insertion order (IO)
+      - Rate card / CPM negotiation
+      - Programmatic vs direct buys
+      - Private marketplace (PMP)
+      - Preferred deals
+      - Upfront vs spot buys
+      - Channel saturation / diminishing returns
+      - Budget split (e.g. 70-20-10)
+      - Budget allocation by ARR stage
+      - Test budget / scaling budget
+      - Budget pacing
+      - Marketing budget as % of revenue
+      - Full-funnel media plan
+
+    creative_strategy_production:
+      - Creative strategy
+      - Ad creative production
+      - Creative testing
+      - Creative fatigue
+      - Ad rotation
+      - Hook / scroll-stopper
+      - UGC-style ads
+      - Static vs video creative
+      - Motion / animated ads
+      - Ad concept / angle
+      - Messaging framework
+      - Brand vs performance creative
+      - Creative iteration velocity
+      - Modular / scalable creative
+      - Ad copywriting
+      - Visual hierarchy
+
+    incrementality_brand_measurement:
+      - Incrementality testing
+      - Geo-lift / geo-holdout tests
+      - Conversion lift studies
+      - Brand lift studies
+      - Marketing mix modeling (MMM)
+      - Bayesian / experiment-calibrated MMM
+      - Adstock / carryover effect
+      - Media mix modeling
+      - Holdout / control groups
+      - Ghost ads / PSA control
+      - Minimum detectable effect (MDE) / power analysis
+      - A/B geo experiments
+      - Difference-in-differences
+      - View-through conversions / CPCV / completion rate
+      - Causal attribution / causal inference
+      - Halo effect / channel cannibalisation
+      - Marketing Efficiency Ratio (MER)
+      - Blended ROAS
+      - Brand vs non-brand split analysis
+      - Spend-to-pipeline lag
+      - Self-reported attribution
+      - Audience measurement (Nielsen, comScore)
+      - Diminishing-returns curve / saturation analysis
