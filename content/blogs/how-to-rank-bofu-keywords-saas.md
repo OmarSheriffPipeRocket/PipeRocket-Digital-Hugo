@@ -28,7 +28,7 @@ This is the process I use to actually rank these pages, even on a young, low-aut
 
 Because it's standing alone. Everyone says TOFU is dying (AI answers informational queries, Google summarises before the click), so teams go BOFU-only and skip the supporting content entirely. Then the comparison and alternatives pages sit on page 2 to 3 with nothing behind them.
 
-This is the core mistake, and it's a structural one. BOFU and TOFU aren't two separate problems. They're one engine. TOFU-heavy sites pull traffic but book few demos. BOFU-only sites have the intent but never rank, because Google has no signal that you actually know the category.
+This is the core mistake, and it's a structural one. BOFU and TOFU aren't two separate problems. They're one engine, and the MOFU layer between them carries the load — [how to rank MOFU keywords](/blogs/how-to-rank-mofu-keywords-saas/) covers that half. TOFU-heavy sites pull traffic but book few demos. BOFU-only sites have the intent but never rank, because Google has no signal that you actually know the category.
 
 Organic search still drives 91.3% of SaaS traffic, so abandoning the supporting content that earns that visibility leaves your decision-stage pages with nothing behind them.
 
@@ -40,7 +40,7 @@ The trade-off is real, though. Authority-led BOFU works when you have the patien
 
 ## Build the Right Five Pages, Not Twenty
 
-Most SaaS BOFU keyword lists are bloated with pages that will never earn a buyer. There are only five page types where the credit card actually comes out, and they're the only ones worth your ranking effort:
+Most SaaS [BOFU keyword lists](/blogs/how-to-do-saas-seo-keyword-research/) are bloated with pages that will never earn a buyer. There are only five page types where the credit card actually comes out, and they're the only ones worth your ranking effort:
 
 - **Use case pages:** "X for [specific workflow]"
 - **Industry vertical pages:** "X for healthcare," "X for fintech"
@@ -54,7 +54,7 @@ One thing teams get wrong constantly: comparison pages and alternative pages are
 
 An alternative visitor searching "Zendesk alternatives" is already frustrated with a tool they use and looking for an escape route. One is an argument; the other is a rescue. Write them the same way and both convert worse.
 
-Picture a [compliance SaaS for fintech teams](/glossary/what-is-icp/). Its "vs" page should reason through audit scope and SOC 2 readiness for a buyer deciding between two real options. Its "alternatives" page should open with the pain the incumbent tool caused, like slow evidence collection and manual screenshots, because that searcher already knows what they're escaping.
+Picture a compliance SaaS for fintech teams — a product with a [well-defined ICP](/glossary/what-is-icp/). Its "vs" page should reason through audit scope and SOC 2 readiness for a buyer deciding between two real options. Its "alternatives" page should open with the pain the incumbent tool caused, like slow evidence collection and manual screenshots, because that searcher already knows what they're escaping.
 
 ## Match the SERP Before You Write a Word
 
@@ -94,7 +94,7 @@ Slower than people hope, faster than TOFU. There's no fixed number, but the patt
 
 A well-built BOFU page on a domain with some existing authority and a supporting cluster behind it usually starts moving in weeks. A page on a brand-new domain with nothing around it can take months, or never move, if it's standing alone.
 
-The reason BOFU moves faster than TOFU is intent and competition. BOFU queries have lower search volume and far fewer pages chasing them, so a precisely matched page faces a thinner field. TOFU keywords are oceans of content; ranking there is a slog.
+The reason BOFU moves faster than TOFU is intent and competition. [BOFU queries](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/) have lower search volume and far fewer pages chasing them, so a precisely matched page faces a thinner field. TOFU keywords are oceans of content; ranking there is a slog.
 
 What I tell clients to expect:
 

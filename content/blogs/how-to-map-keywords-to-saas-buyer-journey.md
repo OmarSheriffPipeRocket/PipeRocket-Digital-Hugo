@@ -33,7 +33,7 @@ I've watched teams burn a whole quarter on this. They publish 30 awareness blogs
 
 When you map keywords to the buyer journey first, the list reorganizes itself around a real question: at each stage, what does this person need to see to move one step closer? That's a different exercise from "which keyword has 5,400 searches."
 
-It's the difference between [keyword research](/glossary/what-is-keyword-research/) as a volume hunt and keyword research as audience mapping. The volume still matters. It just stops being the thing you sort by.
+It's the difference between [keyword research](/glossary/what-is-keyword-research/) as a volume hunt and [keyword research as audience mapping](/blogs/how-to-do-saas-seo-keyword-research/). The volume still matters. It just stops being the thing you sort by.
 
 ## The Three Stages, and What Each One Actually Sounds Like
 

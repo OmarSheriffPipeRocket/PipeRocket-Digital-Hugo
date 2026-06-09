@@ -29,9 +29,9 @@ The standard gap report measures the wrong thing. It compares keyword counts, so
 
 Now you might be thinking a keyword gap analysis is a keyword exercise. I get it, the name says so. But it's actually a page-and-intent exercise that just happens to use keyword data as the input. Two SaaS companies can have the exact same keyword gap on paper and a completely different revenue gap sitting underneath it.
 
-The competitor isn't beating you because they have more keywords. They're beating you because they built [comparison and alternative pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) for the exact moment a buyer pulls out a credit card, while you spent that quarter writing top-of-funnel posts. The gap report shows you the keywords. It quietly hides the reason they're winning.
+The competitor isn't beating you because they have more keywords. They're beating you because they built comparison and alternative pages for the exact moment a buyer pulls out a credit card, while you spent that quarter writing top-of-funnel posts. The gap report shows you the keywords. It quietly hides the reason they're winning.
 
-This piece is just the narrow execution method, how to actually run the gap analysis. The bigger question of which competitors to study, and how to read their whole strategy, lives in our guide on [SaaS SEO competitor analysis](/blogs/how-to-do-saas-seo-competitor-analysis/). Start there if you haven't picked your competitors yet.
+This piece is just the narrow execution method, how to actually run the gap analysis. The bigger question of which competitors to study, and how to read their whole strategy, lives in our guide on [SaaS SEO competitor analysis](/blogs/how-to-do-saas-seo-competitor-analysis/). Start there if you haven't picked your competitors yet, and see the [full SaaS SEO keyword research process](/blogs/how-to-do-saas-seo-keyword-research/) for how the gaps you find feed your master list.
 
 Here, I'm assuming you already know who they are and you just want the gap.
 
@@ -73,7 +73,7 @@ If a competitor ranks for a money-page keyword and you don't, you're leaving mon
 
 A small example: a compliance SaaS for fintech teams runs the gap report and finds the competitor ranks for "SOC 2 software for startups," "Vanta alternatives," and "Drata vs competitor."
 
-Those three aren't three keywords to add to a blog. They're a use-case page, an alternative page, and a comparison page that don't exist on the client's site yet. That's the build list.
+Those three aren't three keywords to add to a blog. They're a use-case page, an alternative page, and a [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) that don't exist on the client's site yet. That's the build list.
 
 ## Step 3: Group the gaps into topics, not a flat list
 

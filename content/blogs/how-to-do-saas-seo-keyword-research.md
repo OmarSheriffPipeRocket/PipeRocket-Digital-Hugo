@@ -145,6 +145,31 @@ This transforms content from a random request into a calculated investment. It g
 
 This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategies-and-framework/ "SaaS SEO Framework").
 
+## Go Deeper: The SaaS Keyword Research Cluster
+
+This guide is the hub for how we approach keyword research. Each stage below has its own deep dive:
+
+**Keyword foundations**
+
+- [Types of keywords in SEO](/blogs/types-of-keywords-in-seo/) — the intent categories every keyword should be tagged against
+- [Search volume vs search intent](/blogs/how-to-choose-search-volume-vs-search-intent/) — which to weight when the two pull in different directions
+
+**Prioritising and mapping**
+
+- [How to prioritise SaaS keywords by funnel stage](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/)
+- [How to score SaaS keywords by ICP intent](/blogs/how-to-score-saas-keywords-by-icp-intent/)
+- [How to map keywords to the SaaS buyer journey](/blogs/how-to-map-keywords-to-saas-buyer-journey/)
+
+**Ranking by funnel stage**
+
+- [How to rank MOFU keywords for SaaS](/blogs/how-to-rank-mofu-keywords-saas/)
+- [How to rank BOFU keywords for SaaS](/blogs/how-to-rank-bofu-keywords-saas/)
+
+**Keeping the cluster clean**
+
+- [How to run a keyword gap analysis](/blogs/how-to-do-keyword-gap-analysis/)
+- [How to fix keyword cannibalization](/blogs/how-to-fix-keyword-cannibalization/)
+
 ## Let PipeRocket Digital Do It for You
 
 Look, I’ll be honest with you, this methodology works, but it is a grind.If you are running a lean marketing team, you probably don’t have 40 hours to spare next week to sit in spreadsheets.That is exactly where **PipeRocketDigital** comes in.We don’t just send you a generic Semrush export and wish you luck. We come in and execute this exact “Goldmine” process for you.

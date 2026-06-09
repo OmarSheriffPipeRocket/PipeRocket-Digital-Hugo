@@ -33,7 +33,7 @@ Classifying keywords by volume is the default move, and it's backwards. Tools so
 
 In SaaS, those are wildly different questions: our own data shows organic search converts visitors at 0.92%, more than 3x the 0.26% we see from AI-driven traffic.
 
-I learned to do [keyword research](/glossary/what-is-keyword-research/) by starting with people, not tools. Tools are for validation, not discovery.
+I learned to do keyword research by [starting with people, not tools](/blogs/how-to-do-saas-seo-keyword-research/). Tools are for validation, not discovery.
 
 Lean 100% on Ahrefs or Semrush and you only ever see the keywords your competitors already found. The richest keyword types surface from talking to Sales and Customer Success, because real buyers don't search like SEO pros.
 
@@ -109,7 +109,7 @@ Most teams build the opposite direction and wonder why their well-ranked ToFu co
 
 The mistake is trying to apply all three lenses to 2,000 keywords in one pass. Don't. Classify in a structured sheet, one column per dimension, then group, because a flat list of 2,000 keywords is noise, while 250 grouped topics is a strategy.
 
-My keyword master sheet has a column for each signal you've now met:
+My [keyword research](/glossary/what-is-keyword-research/) master sheet has a column for each signal you've now met:
 
 - **Keyword:** the query itself
 - **Search Volume:** for context, never as the deciding factor

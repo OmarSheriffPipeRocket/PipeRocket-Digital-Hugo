@@ -31,7 +31,7 @@ Most people get this part wrong: they assume more content on a topic helps. It d
 
 The split is the problem. Every internal link, every backlink, every bit of topical relevance gets divided across two URLs instead of stacked behind one. A single strong page beats two mediocre ones every time.
 
-So the goal of fixing cannibalization is to simply make one page absorb the other.
+So the goal of fixing cannibalization is to simply make one page absorb the other. The deeper fix is upstream: mapping every term to a single Topic during [keyword research](/blogs/how-to-do-saas-seo-keyword-research/) so two pages never chase the same query in the first place.
 
 This matters more for SaaS than for most verticals because of where it bites. SaaS keywords are low-volume and high-intent. A comparison or alternatives query might get 80 searches a month, but those 80 are buyers.
 
@@ -58,11 +58,11 @@ Most are harmless. A brand term will surface your homepage and a product page, a
 
 A useful cross-check is the SERP itself. Search the query in an incognito window with `site:yourdomain.com` appended. If Google returns three of your own blog posts for one keyword, you've found a cannibalization cluster, not a pair.
 
-Those clusters are common on SaaS blogs that published "what is X," "X examples," and "X guide" as three separate posts when they were always one topic.
+Those clusters are common on SaaS blogs that published "what is X," "X examples," and "X guide" as three separate posts when they were always [one topic](/blogs/how-to-build-topic-clusters/).
 
 ### When the wrong page type ranks, that's cannibalization too
 
-The trickiest version is a blog post outranking the product or comparison page that should own a query. Our team sees this constantly: a site ranks top-three for a high-intent keyword with an informational article instead of the page built to convert.
+The trickiest version is a blog post outranking the product or comparison page that should own a query. Our team sees this constantly: a site ranks top-three for a [high-intent keyword](/blogs/types-of-keywords-in-seo/) with an informational article instead of the page built to convert.
 
 That's still cannibalization, because two of your URLs are eligible for one query and the weaker-converting one is winning. Ranking with the wrong page type is almost as costly as not ranking. The traffic shows up, but lands on a page never designed to move anyone toward a demo.
 
@@ -124,7 +124,7 @@ A real warning here: not every pair that shares a keyword is cannibalizing. Two 
 
 Merging those would be a mistake. You'd collapse two distinct intents into one page that serves neither well, and lose a ranking you were entitled to keep.
 
-The test is intent, not vocabulary: if both pages compete to answer the *same* search, consolidate; if they answer different searches that share keywords, leave them alone. SERP intent alignment is the highest-impact lever in most content audits, and it tells you what to merge and what to protect.
+The test is intent, not vocabulary: if both pages compete to answer the *same* search, consolidate; if they answer different searches that share keywords, leave them alone. [SERP intent alignment](/blogs/how-to-map-keywords-to-saas-buyer-journey/) is the highest-impact lever in most content audits, and it tells you what to merge and what to protect.
 
 ## Why PipeRocket Digital Fixes Cannibalization Instead of Just Auditing It
 

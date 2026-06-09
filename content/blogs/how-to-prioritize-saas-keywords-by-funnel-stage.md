@@ -28,7 +28,7 @@ Here's how I decide what to ship first, and why almost every SaaS site I touch s
 
 Most teams treat prioritization as a sorting problem. They've already split keywords into [TOFU, MOFU, and BOFU buckets](/blogs/how-to-map-keywords-to-saas-buyer-journey/), so they assume the work is done and start writing whatever's at the top of the sheet. That's usually the highest-volume term, which is almost always a top-of-funnel definition.
 
-The mapping tells you what each keyword *is*. It says nothing about what to build *first*. Those are two different jobs, and conflating them is why content calendars fill up with awareness blogs while the pages that close deals never get written.
+Once you've done the [keyword research and mapping](/blogs/how-to-do-saas-seo-keyword-research/), you know what each keyword *is*. That still says nothing about what to build *first*. Those are two different jobs, and conflating them is why content calendars fill up with awareness blogs while the pages that close deals never get written.
 
 Sequencing is where the actual strategy lives. A buyer searching "best GRC platform for fintech" is reaching for a credit card, while a buyer searching "what is GRC" might be a student.
 
