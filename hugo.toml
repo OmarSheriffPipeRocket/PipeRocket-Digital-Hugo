@@ -296,7 +296,7 @@ secondary_cta_text = "Book free consultation"
 secondary_cta_url = "/contact-us/"
 
 [params.social]
-linkedin = "https://www.linkedin.com/company/piperocketdigital/"
+linkedin = "https://www.linkedin.com/company/piperocket-digital/"
 twitter = "https://x.com/piperocket"
 clutch_rating = "5.0"
 
