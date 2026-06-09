@@ -102,7 +102,7 @@ expertise = ["B2B SaaS SEO", "SEO strategy", "Technical SEO", "Keyword research"
 [sabarish-chandrasekar]
 name = "Sabarish Chandrasekar"
 role = "PPC Lead, PipeRocket Digital"
-photo = "https://ui-avatars.com/api/?name=Sabarish+Chandrasekar&size=256&background=0f766e&color=fff&font-size=0.4&bold=true"
+photo = "/images/authors/sabarish-chandrasekar.webp"
 linkedin = "https://www.linkedin.com/in/sabarishchandrasekar/"
 bio = "Sabarish is a paid media lead focused on building high-performance acquisition programmes for B2B SaaS companies. As PPC Lead at PipeRocket Digital, he architects and scales Google Ads and LinkedIn Ads campaigns that drive qualified pipeline — bringing a data-first approach to every dollar of ad spend."
 expertise = ["B2B SaaS PPC", "Google Ads", "LinkedIn Ads", "Paid acquisition"]
@@ -110,7 +110,7 @@ expertise = ["B2B SaaS PPC", "Google Ads", "LinkedIn Ads", "Paid acquisition"]
 [immanual]
 name = "Immanual D M"
 role = "PPC Specialist, PipeRocket Digital"
-photo = "https://ui-avatars.com/api/?name=Immanual+DM&size=256&background=7c3aed&color=fff&font-size=0.4&bold=true"
+photo = "/images/authors/immanual.webp"
 linkedin = "https://www.linkedin.com/in/immanualdm/"
 bio = "Immanual is a PPC specialist with hands-on expertise in paid search and social for B2B SaaS brands. As PPC Specialist at PipeRocket Digital, he manages day-to-day campaign execution across Google and LinkedIn — optimising for conversion efficiency and pipeline contribution at every stage of the funnel."
 expertise = ["Paid search", "Google Ads", "LinkedIn Ads", "Campaign optimisation"]
