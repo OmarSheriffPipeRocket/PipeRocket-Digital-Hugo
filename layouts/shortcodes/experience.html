@@ -17,7 +17,12 @@
 {{- $a := index .Site.Data.authors $slug -}}
 {{- $label := .Get "label" | default "First-hand experience" -}}
 {{- if $a -}}
-{{- $authorURL := absURL (printf "/author/%s/" $slug) -}}
+{{- /* Resolve the author's canonical URL via GetPage (honours any `url`/`slug`
+       override in the author page front matter) so the #person @id matches the
+       one head-meta.html emits. Building it from the raw slug would mismatch. */ -}}
+{{- $authorPath := printf "/author/%s/" $slug -}}
+{{- with site.GetPage (printf "/author/%s" $slug) }}{{ $authorPath = .RelPermalink }}{{ end -}}
+{{- $authorURL := absURL $authorPath -}}
 <section class="pr-experience">
   <span class="pr-experience__label">{{ $label }}</span>
   {{- with .Get "title" }}<h3 class="pr-experience__title">{{ . }}</h3>{{ end }}
@@ -27,11 +32,15 @@
     <span class="pr-experience__meta">From the work of <cite class="pr-experience__name"><a href="{{ $authorURL }}">{{ $a.name }}</a></cite>, {{ $a.role }}</span>
   </footer>
 </section>
-{{- $creator := dict "@type" "Person" "name" $a.name "url" $authorURL -}}
+{{- /* Reference the one credentialed Person + bind to the Article that
+       head-meta.html defines, so this first-hand passage joins the page's
+       schema graph instead of spawning a duplicate, floating Person node. */ -}}
+{{- $authorID := printf "%s#person" $authorURL -}}
+{{- $creator := dict "@id" $authorID "@type" "Person" "name" $a.name "url" $authorURL -}}
 {{- with $a.role }}{{ $creator = merge $creator (dict "jobTitle" .) }}{{ end -}}
 {{- with $a.linkedin }}{{ $creator = merge $creator (dict "sameAs" (slice .)) }}{{ end -}}
 {{- with $a.expertise }}{{ $creator = merge $creator (dict "knowsAbout" .) }}{{ end -}}
-{{- $piece := dict "@context" "https://schema.org" "@type" "CreativeWork" "creativeWorkStatus" "Published" "abstract" (.Inner | plainify | chomp | truncate 300) "author" $creator -}}
+{{- $piece := dict "@context" "https://schema.org" "@type" "CreativeWork" "creativeWorkStatus" "Published" "text" (.Inner | plainify | chomp) "author" $creator "isPartOf" (dict "@id" (printf "%s#article" .Page.Permalink)) -}}
 {{- with .Get "title" }}{{ $piece = merge $piece (dict "name" .) }}{{ end -}}
 <script type="application/ld+json">{{ $piece | jsonify | safeJS }}</script>
 {{- else -}}

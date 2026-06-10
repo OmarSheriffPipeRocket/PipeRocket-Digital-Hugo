@@ -207,6 +207,13 @@
 {{ if $author.linkedin }}{{ $authorJson = merge $authorJson (dict "sameAs" (slice $author.linkedin)) }}{{ end }}
 {{ if $author.expertise }}{{ $authorJson = merge $authorJson (dict "knowsAbout" $author.expertise) }}{{ end }}
 
+{{/* Canonical author + article @ids — shared with the experience / expert-take
+     shortcodes so every first-hand block resolves to this one credentialed
+     Person and binds to this Article (one connected graph, not floating nodes). */}}
+{{ $authorURL := cond (ne $authorPath "") (printf "%s%s" (trim .Site.BaseURL "/") $authorPath) "" }}
+{{ $authorID := cond (ne $authorURL "") (printf "%s#person" $authorURL) "" }}
+{{ $articleID := printf "%s#article" .Permalink }}
+
 {{/* Build enriched Article schema with wordCount, keywords, articleSection, inLanguage */}}
 {{ $wordCount := .WordCount }}
 {{ $readingTime := .ReadingTime }}
@@ -224,6 +231,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": "{{ $articleID }}",
   "headline": "{{ .Title }}",
   "description": "{{ $descJ }}",
   "image": "{{ $img }}",
@@ -239,6 +247,7 @@
   {{- end }}
   "author": {
     "@type": "Person",
+    {{- with $authorID }}"@id": "{{ . }}",{{ end }}
     "name": "{{ default .Params.writtenBy $author.name }}"
     {{- with $author.bio }},"description": "{{ . | replaceRE "\"" "\\\"" }}"{{ end -}}
     {{- with $author.role }},"jobTitle": "{{ . }}"{{ end -}}

@@ -14,7 +14,12 @@
 {{- $a := index .Site.Data.authors $slug -}}
 {{- $label := .Get "label" | default "First-hand take" -}}
 {{- if $a -}}
-{{- $authorURL := absURL (printf "/author/%s/" $slug) -}}
+{{- /* Resolve the author's canonical URL via GetPage (honours any `url`/`slug`
+       override in the author page front matter) so the #person @id matches the
+       one head-meta.html emits. Building it from the raw slug would mismatch. */ -}}
+{{- $authorPath := printf "/author/%s/" $slug -}}
+{{- with site.GetPage (printf "/author/%s" $slug) }}{{ $authorPath = .RelPermalink }}{{ end -}}
+{{- $authorURL := absURL $authorPath -}}
 <blockquote class="pr-expert-take"{{ with $a.linkedin }} cite="{{ . }}"{{ end }}>
   <span class="pr-expert-take__label">{{ $label }}</span>
   <div class="pr-expert-take__quote">{{ .Inner | markdownify }}</div>
@@ -26,11 +31,15 @@
     </span>
   </footer>
 </blockquote>
-{{- $creator := dict "@type" "Person" "name" $a.name "url" $authorURL -}}
+{{- /* Reference the one credentialed Person + bind to the Article that
+       head-meta.html defines, so this quote joins the page's schema graph
+       instead of spawning a duplicate, floating Person node. */ -}}
+{{- $authorID := printf "%s#person" $authorURL -}}
+{{- $creator := dict "@id" $authorID "@type" "Person" "name" $a.name "url" $authorURL -}}
 {{- with $a.role }}{{ $creator = merge $creator (dict "jobTitle" .) }}{{ end -}}
 {{- with $a.linkedin }}{{ $creator = merge $creator (dict "sameAs" (slice .)) }}{{ end -}}
 {{- with $a.expertise }}{{ $creator = merge $creator (dict "knowsAbout" .) }}{{ end -}}
-{{- $quotation := dict "@context" "https://schema.org" "@type" "Quotation" "text" (.Inner | plainify | chomp) "creator" $creator -}}
+{{- $quotation := dict "@context" "https://schema.org" "@type" "Quotation" "text" (.Inner | plainify | chomp) "creator" $creator "isPartOf" (dict "@id" (printf "%s#article" .Page.Permalink)) -}}
 <script type="application/ld+json">{{ $quotation | jsonify | safeJS }}</script>
 {{- else -}}
 {{- warnf "expert-take: unknown author slug %q (check data/authors.toml)" $slug -}}
