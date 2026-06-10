@@ -18,7 +18,12 @@
        networks. <noscript> fallback keeps it loading for no-JS users. */}}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
-  <link rel="preload" as="font" type="font/woff2" href="/fonts/IvyPresto-Headline.woff2" crossorigin>
+  {{/* No font is preloaded: every IvyPresto @font-face uses font-display:swap,
+       so text paints immediately in the fallback and swaps in when the font
+       arrives — fonts are off the critical path. The previous preload pulled
+       IvyPresto-Headline.woff2 (weight 400), which the hero <h1> doesn't even
+       use (it renders in Headline/Display SemiBold, 600), so it only stole
+       early high-priority bandwidth from the LCP hero-image preload below. */}}
 
   {{/* LCP image preload — homepage only. Different image per viewport. */}}
   {{ if .IsHome }}
