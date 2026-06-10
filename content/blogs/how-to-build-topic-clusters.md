@@ -93,11 +93,13 @@ This is the most underrated lever in SaaS SEO, and most teams leave it untouched
 
 ## A Cluster That Lifted a Whole Site
 
+{{< experience author="kim" >}}
 The clearest example I've lived through started when I stopped opening a keyword tool first. Working with Sprinto in 2023, instead of building from Ahrefs, I sent a simple keyword sheet to every team that touches the customer (Sales, CS, Product, marketing) asking what buyers actually said on calls.
 
 I expected duplicates of what Vanta and Drata already ranked for. Instead it surfaced 900+ keywords we'd never have found from a tool, taking the list from around 1,500 to roughly 2,400. Real buyers don't search like SEO pros. They use the messy, layman language sales hears on calls.
 
 That language is where the un-contested cluster opportunities hide.
+{{< /experience >}}
 
 Those 2,400 keywords weren't a content calendar. Grouped by intent, they became topics, and topics tell you how many pages a cluster actually needs. "What is GRC," "GRC components," and "GRC examples" all map to one pillar page, not three thin articles.
 

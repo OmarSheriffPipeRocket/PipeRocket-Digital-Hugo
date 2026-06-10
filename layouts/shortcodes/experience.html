@@ -1,0 +1,43 @@
+{{- /*
+  experience — first-hand experience SECTION (E-E-A-T / GEO signal).
+
+  Companion to expert-take: where expert-take is a short pull-quote opinion,
+  experience wraps a full multi-paragraph first-hand story (client work,
+  experiments, real numbers). Body typography stays normal so it reads as a
+  section of the article, not a quote.
+
+  Usage (paired shortcode):
+    open:  experience author="kim"
+           optional: title="What 3 to 15 opportunities looked like"
+                     label="First-hand experience"
+    body:  the story, markdown, in the expert's first-person voice
+    close: /experience
+*/ -}}
+{{- $slug := .Get "author" -}}
+{{- $a := index .Site.Data.authors $slug -}}
+{{- $label := .Get "label" | default "First-hand experience" -}}
+{{- if $a -}}
+{{- $authorURL := absURL (printf "/author/%s/" $slug) -}}
+<section class="pr-experience">
+  <span class="pr-experience__label">{{ $label }}</span>
+  {{- with .Get "title" }}<h3 class="pr-experience__title">{{ . }}</h3>{{ end }}
+  <div class="pr-experience__body">{{ .Inner | markdownify }}</div>
+  <footer class="pr-experience__author">
+    {{ with $a.photo }}<img class="pr-experience__photo" src="{{ . }}" alt="{{ $a.name }}" width="36" height="36" loading="lazy">{{ end }}
+    <span class="pr-experience__meta">From the work of <cite class="pr-experience__name"><a href="{{ $authorURL }}">{{ $a.name }}</a></cite>, {{ $a.role }}</span>
+  </footer>
+</section>
+{{- $creator := dict "@type" "Person" "name" $a.name "url" $authorURL -}}
+{{- with $a.role }}{{ $creator = merge $creator (dict "jobTitle" .) }}{{ end -}}
+{{- with $a.linkedin }}{{ $creator = merge $creator (dict "sameAs" (slice .)) }}{{ end -}}
+{{- with $a.expertise }}{{ $creator = merge $creator (dict "knowsAbout" .) }}{{ end -}}
+{{- $piece := dict "@context" "https://schema.org" "@type" "CreativeWork" "creativeWorkStatus" "Published" "abstract" (.Inner | plainify | chomp | truncate 300) "author" $creator -}}
+{{- with .Get "title" }}{{ $piece = merge $piece (dict "name" .) }}{{ end -}}
+<script type="application/ld+json">{{ $piece | jsonify | safeJS }}</script>
+{{- else -}}
+{{- warnf "experience: unknown author slug %q (check data/authors.toml)" $slug -}}
+<section class="pr-experience">
+  <span class="pr-experience__label">{{ $label }}</span>
+  <div class="pr-experience__body">{{ .Inner | markdownify }}</div>
+</section>
+{{- end -}}

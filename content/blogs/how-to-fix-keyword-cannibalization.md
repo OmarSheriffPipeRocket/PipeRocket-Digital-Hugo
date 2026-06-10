@@ -116,7 +116,9 @@ Here's the sequence I follow on every pair:
 
 That internal-link step is the one teams skip, and it's the one that quietly undoes the whole fix. Redirect a page but leave 15 internal links pointing at the old URL with the old anchor text, and you're still telling Google two stories about which page owns the query.
 
+{{< experience author="kim" >}}
 Recovery is usually fast when the fix is clean. I've watched a consolidated page climb from deep on page two into the top of page one within weeks. We saw the same on a client we grew from 6,400 to 13,400 clicks, average position 17.8 to 6.9, and consolidation drove it.
+{{< /experience >}}
 
 ### Don't consolidate pages that only look like duplicates
 

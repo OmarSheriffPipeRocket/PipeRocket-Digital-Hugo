@@ -64,11 +64,13 @@ If the top ten results are product pages, you build a product page. If they're l
 
 This is the single highest-impact lever for a stuck BOFU page, and it's the one most teams skip. A page sitting between positions 8 and 20 is usually there because its format fights the SERP, not because it's poorly written.
 
+{{< experience author="kim" >}}
 A client of ours was stuck on page 2 to 3 for a core keyword. The diagnosis wasn't backlinks. Their page read like an academic paper, all "methodologies" and "frameworks," while the searcher wanted a fix for a mess they were dealing with right now.
 
 We rewrote it to a strict problem-then-solution structure, changing the first fold from "We are an X firm with Y years of experience" to "Struggling with X? Here's how to fix it in weeks, not months."
 
 Within days the page went from page 2 to position 2 on page 1, with traffic up around 30%. No links bought, just copy matched to the intent behind the query.
+{{< /experience >}}
 
 So before you write, answer two things from the live SERP: what page type is winning, and what specific question are the top results answering. Then build to that, not to what you wish ranked.
 

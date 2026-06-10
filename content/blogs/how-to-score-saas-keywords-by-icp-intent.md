@@ -46,9 +46,11 @@ This signal does most of the work, so it carries the most weight. A query like "
 
 ![A five-signal scoring rubric for rating SaaS keywords by ICP fit, with weights and a kill threshold.](/images/blog-infographics/how-to-score-saas-keywords-by-icp-intent-infographic-1.webp)
 
+{{< experience author="kim" >}}
 We learned how much this matters by changing one question. On an enterprise client we stopped asking "what gets the most searches" and started asking "what does someone search when they already have this problem and need a solution now."
 
 Most of those queries had very low volume. But the searchers were decision-makers, and a page getting five or ten visitors a week was almost all qualified. That client went from a handful of sales opportunities to several times that in two quarters, no budget increase, no extra content.
+{{< /experience >}}
 
 Here's how to score the signal:
 
@@ -69,7 +71,9 @@ Take a compliance SaaS built for fintech teams of 200-plus. "Free compliance che
 
 Same problem, wrong buyer. That keyword scores high on Step 1 and a flat 0 here, which is exactly the signal you want the rubric to catch.
 
+{{< experience author="kim" >}}
 One thing we see constantly: the obvious role isn't the buyer. A client whose product repurposed content kept targeting Demand Gen and Growth Marketers, but the person who actually owned the problem was the Head of Content. The right keyword set leaned heavily toward content-leadership language.
+{{< /experience >}}
 
 So when you score fit, score it against the title that signs, not the title you assume. The same precision matters when you [map keywords to the buyer's journey](/blogs/how-to-map-keywords-to-saas-buyer-journey/) later.
 

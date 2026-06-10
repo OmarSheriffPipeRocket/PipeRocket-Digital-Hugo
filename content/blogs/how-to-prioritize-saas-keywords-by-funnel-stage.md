@@ -52,11 +52,11 @@ The standard advice runs the other way: build awareness first, then nurture peop
 
 TOFU takes months to rank and even longer to tie to revenue. BOFU pages catch people who've already decided they need a solution and are choosing between vendors right now.
 
-### What 3 to 15 Opportunities Looked Like
-
+{{< experience author="kim" title="What 3 to 15 Opportunities Looked Like" >}}
 We grew one B2B SaaS client from 3 sales opportunities to 15 in two quarters, no budget increase and no extra content. The shift was purely about what we prioritized.
 
 We stopped chasing high-volume terms and started building for the queries someone types when they already have the problem. Many of those pages got 5 to 10 visitors a week, but almost every visitor was a decision-maker.
+{{< /experience >}}
 
 That's the whole argument for bottom-up sequencing. One high-intent visitor on a comparison page is worth more than a thousand on a definition post.
 

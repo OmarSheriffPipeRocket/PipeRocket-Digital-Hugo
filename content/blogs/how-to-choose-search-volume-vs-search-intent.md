@@ -106,14 +106,14 @@ The trap is using volume to justify a keyword that failed the intent test, telli
 
 Intent overrides volume whenever the rare searcher is worth more than the crowd. In enterprise and high-ACV SaaS this is the norm, not the exception, because one decision-maker with an active problem is worth more than thousands of random visitors who'll never sign anything.
 
-### A client that traded volume for buyers
-
+{{< experience author="kim" title="A client that traded volume for buyers" >}}
 We grew one client from 3 sales opportunities to 15 in two quarters, with no budget increase and no extra content. All we changed was which keywords we chased:
 
 - **Before:** we targeted high-volume bottom-of-funnel keywords and published traffic-focused content. Traffic grew, pipeline didn't, and the leads weren't qualified.
 - **After:** we asked "what does someone search when they already have a problem and need a solution now," things like implementation problems and scaling bottlenecks. Most had near-zero volume, but a page might get 5 to 10 visitors a week and almost all of them were decision-makers.
 
 If your traffic is growing but pipeline isn't, you may not have a traffic problem at all, you have an audience problem.
+{{< /experience >}}
 
 This is where the standard tools fail you, because Keyword Difficulty and volume describe the keyword's SEO odds and say nothing about the human typing it. A query like "migrate off [legacy tool] without downtime" might show almost no volume, yet the person typing it is mid-crisis and ready to switch vendors this month.
 

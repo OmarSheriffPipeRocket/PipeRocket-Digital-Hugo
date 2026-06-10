@@ -438,11 +438,10 @@ button.pr-blog-v2__cta-btn {
   margin-bottom: 12px;
 }
 .pr-expert-take__quote {
-  font-family: "IvyPresto Display", Georgia, serif;
-  font-weight: 300;
-  font-size: 22px;
-  line-height: 1.45;
-  color: #14202a;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #111;
 }
 .pr-expert-take__quote p { margin: 0 0 14px; }
 .pr-expert-take__quote p:last-child { margin-bottom: 0; }
@@ -465,6 +464,7 @@ button.pr-blog-v2__cta-btn {
 .pr-expert-take__meta {
   display: flex;
   flex-direction: column;
+  gap: 4px;
   line-height: 1.3;
 }
 .pr-expert-take__name {
@@ -474,24 +474,89 @@ button.pr-blog-v2__cta-btn {
   font-size: 17px;
   color: #111;
 }
+.pr-blog-v2__main .pr-expert-take__name a {
+  color: inherit;
+  text-decoration: none;
+  background: none;
+}
+.pr-blog-v2__main .pr-expert-take__name a:hover {
+  text-decoration: none;
+  background: none;
+}
 .pr-expert-take__role {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #4a4a4a;
 }
-.pr-expert-take__link {
-  margin-left: auto;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  color: #0993c9;
-  text-decoration: none;
-  white-space: nowrap;
-}
-.pr-expert-take__link:hover { text-decoration: underline; }
 @media (max-width: 640px) {
   .pr-expert-take__author { flex-wrap: wrap; }
-  .pr-expert-take__link { margin-left: 0; }
+}
+
+/* ---------- Experience section (first-hand story, companion to expert-take) ---------- */
+.pr-blog-v2__main .pr-experience {
+  border: 1px solid #cfeaf7;
+  background: #f0f9fd;
+  border-radius: 8px;
+  margin: 32px 0;
+  padding: 24px 28px;
+}
+.pr-experience__label {
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #0993c9;
+  margin-bottom: 12px;
+}
+.pr-blog-v2__main .pr-experience__title {
+  margin: 0 0 12px;
+  font-size: 24px;
+}
+.pr-experience__body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #111;
+}
+.pr-experience__body p { margin: 0 0 14px; }
+.pr-experience__body p:last-child,
+.pr-experience__body ul:last-child,
+.pr-experience__body ol:last-child { margin-bottom: 0; }
+.pr-experience__author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid #cfeaf7;
+}
+.pr-experience__photo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid #0ba6e2;
+}
+.pr-experience__meta {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #4a4a4a;
+}
+.pr-experience__name {
+  font-style: normal;
+  font-weight: 600;
+}
+.pr-blog-v2__main .pr-experience__name a {
+  color: inherit;
+  text-decoration: none;
+  background: none;
+}
+.pr-blog-v2__main .pr-experience__name a:hover {
+  text-decoration: none;
+  background: none;
 }
 
 /* ---------- Author card (shared) ---------- */

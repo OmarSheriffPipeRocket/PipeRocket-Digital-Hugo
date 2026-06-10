@@ -81,9 +81,11 @@ Head terms still matter for brand authority and as the hub of a topic cluster. J
 
 A long-tail keyword is the specific, multi-word query: "HIPAA-compliant appointment scheduling for dental clinics," "CRM that integrates with QuickBooks for accountants." Lower volume, far lower difficulty, and intent so clear you know exactly who's searching and why.
 
+{{< experience author="kim" >}}
 We grew a client from 3 sales opportunities to 15 in two quarters by shifting from high-volume terms to exactly these: implementation problems and operational bottlenecks. Most had near-zero search volume, but the searchers were decision-makers.
 
 A page might get only 5 to 10 visitors a week, almost all highly qualified. In enterprise SaaS, one high-intent visitor is worth more than thousands of random clicks.
+{{< /experience >}}
 
 The lesson sits underneath the whole length lens: if traffic is growing but pipeline isn't, what you usually have is an audience problem, not a traffic problem.
 

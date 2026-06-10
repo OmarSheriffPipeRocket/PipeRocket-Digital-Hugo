@@ -21,10 +21,9 @@
   <footer class="pr-expert-take__author">
     {{ with $a.photo }}<img class="pr-expert-take__photo" src="{{ . }}" alt="{{ $a.name }}" width="46" height="46" loading="lazy">{{ end }}
     <span class="pr-expert-take__meta">
-      <cite class="pr-expert-take__name">{{ $a.name }}</cite>
+      <cite class="pr-expert-take__name"><a href="{{ $authorURL }}">{{ $a.name }}</a></cite>
       <span class="pr-expert-take__role">{{ $a.role }}{{ with $a.expertise }} &middot; {{ index . 0 }}{{ end }}</span>
     </span>
-    {{ with $a.linkedin }}<a class="pr-expert-take__link" href="{{ . }}" target="_blank" rel="noopener nofollow">LinkedIn &#8599;</a>{{ end }}
   </footer>
 </blockquote>
 {{- $creator := dict "@type" "Person" "name" $a.name "url" $authorURL -}}
