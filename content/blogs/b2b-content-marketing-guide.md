@@ -4,7 +4,7 @@ description: "Do you feel like you’re spending more on ads but getting less in
 metaTitle: "B2B Content Marketing: Everything You Need to Know"
 metaDescription: "Turn your website into a 24/7 salesperson. Discover the 2025 B2B content guide to attract better leads and prove ROI."
 date: 2025-12-10
-lastmod: 2026-05-12
+lastmod: 2026-06-11
 slug: "b2b-content-marketing-guide"
 writtenBy: "kim"
 category: "B2B Content Marketing"
@@ -198,7 +198,7 @@ And it’s not just traditional search engines; [LLM](/glossary/what-is-an-llm/)
 
 Personalization isn’t optional anymore; it’s what audiences expect.
 
-[McKinsey](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/unlocking-the-next-frontier-of-personalized-marketing) reports that 71% of consumers now expect personalized interactions, and 76% get frustrated when they don’t. That same expectation is reshaping B2B buying, where generic content is ignored instantly. 
+[Attentive's 2025 Consumer Trends Report](https://www.attentive.com/press-releases/new-global-study-reveals-consumers-demand-more-personalization-in-marketing-81-ignore-irrelevant-messages-while-personalized-experiences-drive-loyalty-and-sales) found that 90% of consumers want more personalized communication than they currently get, and 81% simply ignore marketing messages that aren’t relevant to them. That same expectation is reshaping B2B buying, where generic content is ignored instantly. 
 
 With AI, companies can now tailor emails, [landing pages](/glossary/what-is-a-landing-page/), recommendations, and even long-form content to specific roles and industries in real time. What once required huge teams is now accessible to everyone. 
 

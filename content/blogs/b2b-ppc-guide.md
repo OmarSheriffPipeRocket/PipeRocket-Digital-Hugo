@@ -5,7 +5,7 @@ metaTitle: "What is B2B PPC and How to Run Campaigns That Convert"
 metaDescription: "A practical b2b ppc guide covering campaign structure, ad copy, landing pages, and how to track what your spend is actually doing for pipeline."
 date: 2026-04-08
 featuredImage: "/images/blog-covers/b2b-ppc-guide.webp"
-lastmod: 2026-05-13
+lastmod: 2026-06-11
 slug: "b2b-ppc-guide"
 writtenBy: "praveen"
 category: "B2B PPC"
@@ -133,7 +133,7 @@ You can have the right ICP, the right keywords, the right structure, and the rig
 
 Every ad group needs a dedicated landing page that mirrors the exact offer in the ad. If the ad says “Download our B2B [PPC](/glossary/what-is-ppc/) benchmarks report,” the page should say that — not “Request a demo” and not the homepage.
 
-Research from Formstack shows that reducing form fields from 11 to 4 can increase conversions by up to 120% ([Formstack](https://www.formstack.com/resources/blog/form-field-studies)). For TOFU and MOFU offers, collect name, email, and company name only. For BOFU demo requests, add one qualifying field at most.
+Reducing the number of form fields is one of the most reliable ways to lift conversions — every extra field you cut takes friction out of the path. For TOFU and MOFU offers, collect name, email, and company name only. For BOFU demo requests, add one qualifying field at most.
 
 ### Cut Your Form Fields and Make Your Social Proof Specific
 

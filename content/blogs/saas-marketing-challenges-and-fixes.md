@@ -5,7 +5,7 @@ metaTitle: "Top 6 SaaS Marketing Challenges & How to Solve Them"
 metaDescription: "We break down the saas marketing challenges we see most often and share what actually works to fix them, from CAC to churn to attribution."
 date: 2026-04-08
 featuredImage: "/images/blog-covers/saas-marketing-challenges-and-fixes.webp"
-lastmod: 2026-04-29
+lastmod: 2026-06-11
 slug: "saas-marketing-challenges-and-fixes"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -47,7 +47,7 @@ This is the one we hear first in almost every conversation. You are spending mor
 
 More SaaS companies are competing for the same keywords and audiences on paid platforms, which drives up costs for everyone. Buyers have developed strong ad blindness, especially in B2B where they are bombarded daily. And attribution is getting murkier, so you are not even sure which spend is driving results.
 
-KeyBanc’s annual SaaS survey found that median CAC payback hit 20 months in 2024, up significantly from the historical norm of 12 to 14 months ([KeyBanc Capital Markets](https://www.key.com/businesses-institutions/industry-expertise/technology/saas-survey.html)). That longer payback period means your paid spend takes almost twice as long to return value as it did just a few years ago.
+CAC payback periods have stretched well beyond the historical norm of 12 to 14 months, with many SaaS companies now waiting closer to two years to recoup what they spend acquiring a customer. That longer payback period means your paid spend takes almost twice as long to return value as it did just a few years ago.
 
 ### What We Would Do About It
 
@@ -126,7 +126,7 @@ When you arm your champion with the right content for every person in the room, 
 
 You can acquire customers all day long, and it will not matter if they are leaving just as fast. Churn is one of those saas marketing pain points that does not always feel like a marketing problem, but it almost always has marketing roots.
 
-For context, the average churn rate for B2B SaaS sits around 3.5% monthly, which compounds to significant annual losses when you do the math ([Recurly](https://recurly.com/research/churn-rate-benchmarks/)). Even what looks like a small monthly number means you are replacing a substantial portion of your customer base every year just to stay flat.
+For context, even a low-looking monthly churn rate compounds to significant annual losses once you do the math. Even what looks like a small monthly number means you are replacing a substantial portion of your customer base every year just to stay flat.
 
 ### Where Marketing Connects to Churn
 
@@ -149,7 +149,7 @@ Attribution in SaaS marketing has always been messy, but it has gotten genuinely
 
 Last-touch attribution gives all the credit to the final touchpoint and ignores everything that came before. First-touch attribution overvalues awareness and ignores what actually closed the deal. Multi-touch models are better but still miss the offline and dark social influences that we talked about earlier.
 
-Forrester’s B2B Buying Study found that the average B2B buyer engages with 27 interactions over the course of a purchase decision, up from 17 interactions just two years prior ([Forrester](https://www.forrester.com/blogs/three-seismic-shifts-in-buying-behavior-from-forresters-2021-b2b-buying-survey/)). Trying to assign precise credit across that many touchpoints is a losing game if you are aiming for perfection.
+Forrester’s State of Business Buying study found that an average of 13 people inside an organization are now involved in a typical B2B buying decision, with 89% of purchases spanning two or more departments ([Forrester](https://www.forrester.com/press-newsroom/forrester-the-state-of-business-buying-2024/)). Trying to assign precise credit across that many stakeholders is a losing game if you are aiming for perfection.
 
 ### What We Would Do About It
 
