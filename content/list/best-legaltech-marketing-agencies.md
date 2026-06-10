@@ -4,8 +4,8 @@ title: "Best 10 LegalTech Marketing Agencies: An Honest 2026 Review"
 description: "We reviewed 10 legaltech marketing agencies and ranked them on vertical expertise, demand generation depth, content and thought leadership, channel coverage, and verified client outcomes."
 metaTitle: "Best 10 LegalTech Marketing Agencies in 2026"
 metaDescription: "We ranked the 10 best legaltech marketing agencies for 2026 on pipeline attribution, vertical expertise, and verified client reviews."
-date: 2026-06-06
-lastmod: 2026-06-06
+date: 2026-06-08
+lastmod: 2026-06-08
 slug: "best-legaltech-marketing-agencies"
 writtenBy: "kim"
 category: "B2B Marketing"
