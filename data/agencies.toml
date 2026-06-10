@@ -47,6 +47,12 @@ homepage = "https://madx.digital/"
 pricing = "https://madx.digital/pricing"
 contact = "https://madx.digital/book-call"
 
+[obility]
+name = "Obility"
+homepage = "https://www.obilityb2b.com/"
+pricing = "https://www.obilityb2b.com/pricing/"
+contact = "https://www.obilityb2b.com/contact/"
+
 [omniscient-digital]
 name = "Omniscient Digital"
 homepage = "https://beomniscient.com/"
