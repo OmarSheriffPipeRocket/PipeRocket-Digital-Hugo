@@ -37,7 +37,7 @@ Most SaaS founders treat SEM as a shortcut to growth: “Turn on Google Ads, get
 - Auction-based pricing: You set a maximum bid for each keyword, but actual cost per click fluctuates depending on competition and quality score.
 - Ad copy and extensions: Crafting headlines and descriptions that match user intent and encourage clicks often with site links, callouts, or lead forms.
 - Landing page alignment: Sending traffic to a page that matches the ad and is built to convert, not just your homepage.
-- Performance tracking: Using Google Ads or Bing Ads dashboards to see which keywords, ads, and landing pages are actually producing real signups or pipeline.
+- Performance tracking: Using Google Ads or Bing Ads dashboards to see which keywords, ads, and [landing pages](/glossary/what-is-a-landing-page/) are actually producing real signups or pipeline.
 
 Take Formwise, a SaaS for automating intake forms in healthcare. When they launch new features, SEM lets them immediately appear for “HIPAA-compliant form builder” while organic [SEO](/glossary/what-is-seo/) might take three to six months to rank. With paid search, they can test which messaging converts best, then fold those learnings back into their site and organic strategy.
 

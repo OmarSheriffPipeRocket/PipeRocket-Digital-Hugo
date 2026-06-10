@@ -58,7 +58,7 @@ What this means in practice: a real SEO audit isn’t just a tool output or a PD
 Most SaaS teams dramatically underestimate the cost of unchecked SEO issues. The real risk isn’t just a few lost rankings it’s months of wasted spend, missed pipeline, and a funnel that never compounds. The core problem: as your product and site evolve, “set-and-forget” SEO decays quietly until your best content is buried.
 
 - Compound value loss: Small technical errors like duplicate meta tags or misconfigured redirects can quietly sabotage your highest-converting pages for months.
-- Wasted acquisition spend: Paid channels ([Google Ads](/glossary/what-is-google-ads/), [PPC](/glossary/what-is-ppc/)) amplify SEO waste; if landing pages aren’t indexable or optimized, you’re burning budget on traffic that never compounds.
+- Wasted acquisition spend: Paid channels ([Google Ads](/glossary/what-is-google-ads/), [PPC](/glossary/what-is-ppc/)) amplify SEO waste; if [landing pages](/glossary/what-is-a-landing-page/) aren’t indexable or optimized, you’re burning budget on traffic that never compounds.
 - Missed intent shifts: Without regular audits, you miss when buyer intent changes or new features create new search opportunities your old pages can’t capture.
 - Neglected content: Outdated blog posts and documentation drag your whole domain down Google rewards freshness and topical authority.
 - Competitive stagnation: Competitors who audit and fix aggressively compound their advantage, while your fixes get stuck in backlog.

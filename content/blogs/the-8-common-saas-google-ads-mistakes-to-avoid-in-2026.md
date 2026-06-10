@@ -334,7 +334,7 @@ Everything in this post is exactly how we run accounts at [PipeRocket Digital](/
 
 - We build keyword architecture around real buying intent before a single dollar goes live.
 - We write Google Ad copies that start from the keyword and the buyer at the same time
-- We build landing pages that hold the message together from the ad all the way through to the conversion.
+- We build [landing pages](/glossary/what-is-a-landing-page/) that hold the message together from the ad all the way through to the conversion.
 - Every technical detail gets handled correctly from day one like negative lists, match types, extensions, brand protection, bid strategy
 - We audit everything on a consistent schedule so nothing drifts without us catching it early.
 

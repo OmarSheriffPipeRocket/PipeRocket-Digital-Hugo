@@ -198,7 +198,7 @@ Content is still the engine of B2B marketing. Buyers want to learn on their own 
 **How to apply it:**
 
 - Build an ICP + TAM list
-- Create personalized landing pages
+- Create personalized [landing pages](/glossary/what-is-a-landing-page/)
 - Use LinkedIn and email for targeted outreach
 - Align sales+ marketing for 1:1 or 1:few campaigns
 

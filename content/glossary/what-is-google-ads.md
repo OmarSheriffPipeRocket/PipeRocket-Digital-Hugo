@@ -37,7 +37,7 @@ But here’s what most SaaS teams miss: Google Ads isn’t just a “switch on, 
 - Multiple campaign types: Beyond Search, you can also run Display, Shopping, You Tube, and remarketing ads.
 - Auction-based pricing: Every search runs a real-time auction, so you’re always competing for visibility based on your settings.
 
-**Here’s the trade-off:** Google Ads puts you in front of buyers instantly, but if you treat it as a set-and-forget channel, costs spiral and quality drops. Winning teams treat Google Ads as a testing engine they iterate keywords, landing pages, and offers every week. If you’re ready to get aggressive about paid search, make sure you’re tracking not just clicks, but the full buyer journey and lifetime value.
+**Here’s the trade-off:** Google Ads puts you in front of buyers instantly, but if you treat it as a set-and-forget channel, costs spiral and quality drops. Winning teams treat Google Ads as a testing engine they iterate keywords, [landing pages](/glossary/what-is-a-landing-page/), and offers every week. If you’re ready to get aggressive about paid search, make sure you’re tracking not just clicks, but the full buyer journey and lifetime value.
 
 > **Fast Fact:** Google’s ad network covers over 2 million websites, reaching more than 90% of internet users globally.
 

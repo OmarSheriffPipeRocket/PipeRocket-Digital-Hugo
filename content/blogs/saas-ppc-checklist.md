@@ -86,7 +86,7 @@ Avoid the patterns we list in [common SaaS Google Ads mistakes](/blogs/the-8-com
 It is a common mistake for SaaS marketers to assume they don’t need to bid on their own brand name because they “already rank number one organically.” This is a dangerous oversight.
 
 - **Preventing Lead Theft:** If you do not bid on your own brand name, your competitors likely will. They will appear above your organic result, effectively poaching your most qualified, “ready-to-buy” leads at the very last second.
-- **Controlling the Narrative:** Brand ads allow you to control exactly what a high-intent searcher sees—whether it’s a new feature launch, a specific landing page for a demo, or a limited-time offer.
+- **Controlling the Narrative:** Brand ads allow you to control exactly what a high-intent searcher sees—whether it’s a new feature launch, a specific [landing page](/glossary/what-is-a-landing-page/) for a demo, or a limited-time offer.
 
 ### 2. Pillar 2: High-Intent Generic Campaigns
 
@@ -128,7 +128,7 @@ It also targets high-intent users who have searched for your relevant terms and 
 
 ## Conclusion
 
-SaaS PPC works best when it is treated as a system, not a set of disconnected tactics. From building a strong strategic foundation to activating LinkedIn’s identity-based targeting and capturing real purchase intent on Google, every phase in this checklist serves a clear purpose. When these layers work together, PPC stops feeling reactive and starts becoming predictable.
+SaaS [PPC](/glossary/what-is-ppc/) works best when it is treated as a system, not a set of disconnected tactics. From building a strong strategic foundation to activating LinkedIn’s identity-based targeting and capturing real purchase intent on Google, every phase in this checklist serves a clear purpose. When these layers work together, PPC stops feeling reactive and starts becoming predictable.
 
 Add AI-led expansion through Demand Gen and Performance Max, and you move from simply capturing demand to shaping it at scale. Use this checklist as your operating framework to keep strategy focused, execution disciplined, and growth sustainable.
 

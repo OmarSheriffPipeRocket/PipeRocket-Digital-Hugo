@@ -131,7 +131,7 @@ You can have the right ICP, the right keywords, the right structure, and the rig
 
 ### Match Every Page to the Specific Ad Offer
 
-Every ad group needs a dedicated landing page that mirrors the exact offer in the ad. If the ad says “Download our B2B PPC benchmarks report,” the page should say that — not “Request a demo” and not the homepage.
+Every ad group needs a dedicated landing page that mirrors the exact offer in the ad. If the ad says “Download our B2B [PPC](/glossary/what-is-ppc/) benchmarks report,” the page should say that — not “Request a demo” and not the homepage.
 
 Research from Formstack shows that reducing form fields from 11 to 4 can increase conversions by up to 120% ([Formstack](https://www.formstack.com/resources/blog/form-field-studies)). For TOFU and MOFU offers, collect name, email, and company name only. For BOFU demo requests, add one qualifying field at most.
 
@@ -164,7 +164,7 @@ Once connected, build a simple reporting view that tracks paid leads from first 
 
 Now that you have a picture of what a properly structured campaign looks like, it is easier to see where most setups go wrong. And in most cases, the failures trace back to the same root causes.
 
-The most common is skipping ICP definition and jumping straight to keyword research. When you do not know exactly who you are targeting and what they search for at each stage, your keyword selection becomes guesswork, your ad copy becomes generic, and your landing pages speak to nobody in particular.
+The most common is skipping ICP definition and jumping straight to keyword research. When you do not know exactly who you are targeting and what they search for at each stage, your keyword selection becomes guesswork, your ad copy becomes generic, and your [landing pages](/glossary/what-is-a-landing-page/) speak to nobody in particular.
 
 The second is measuring success by CPL and lead volume rather than SQL rate and pipeline contribution. This causes teams to optimise for the wrong outcomes and eventually conclude that b2b ppc does not work — when really they were just measuring the wrong things. A campaign generating $500 CPL that consistently produces $100k [ARR](/glossary/what-is-arr/) deals is exceptional. A campaign generating $50 CPL with zero pipeline contribution is a waste of budget.
 
@@ -198,7 +198,7 @@ From what we have observed, this is almost always a targeting or handoff problem
 
 ### 4. Is Google Ads or LinkedIn Ads better for B2B?
 
-They serve different purposes in a b2b ppc strategy. Google Ads captures buyers who are already searching for a solution, so intent is high and pipeline timelines tend to be shorter. LinkedIn Ads reaches buyers who fit your ICP but are not actively searching yet, making it better for building awareness with specific job titles or companies you want to target. Most B2B SaaS companies see faster pipeline results starting with Google, then layering in LinkedIn as they scale. Our [LinkedIn Account-Based Marketing guide](/blogs/linkedin-account-based-marketing/) covers how to approach that second layer once your paid search foundation is in place.
+They serve different purposes in a b2b ppc strategy. [Google Ads](/glossary/what-is-google-ads/) captures buyers who are already searching for a solution, so intent is high and pipeline timelines tend to be shorter. LinkedIn Ads reaches buyers who fit your ICP but are not actively searching yet, making it better for building awareness with specific job titles or companies you want to target. Most B2B SaaS companies see faster pipeline results starting with Google, then layering in LinkedIn as they scale. Our [LinkedIn Account-Based Marketing guide](/blogs/linkedin-account-based-marketing/) covers how to approach that second layer once your paid search foundation is in place.
 
 ### 5. What is offline conversion tracking and why does it matter for b2b adwords management?
 

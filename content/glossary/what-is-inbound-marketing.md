@@ -68,7 +68,7 @@ Inbound isn’t a single tactic it’s a system of channels that work together t
 The channels that drive the most consistent inbound results for SaaS companies are:
 
 - Organic search (SEO): The highest-intent inbound channel. When someone searches “best CRM for small agencies,” they’re already in buying mode. Ranking for those queries puts you in front of buyers at the exact right moment. Working with a [dedicated SaaS SEO team](/saas-seo-agency/) accelerates this significantly if you’re starting from a thin content base.
-- Content marketing: Blog posts, landing pages, comparison guides, and use-case pages that map to real search queries and buyer questions. The content needs to earn rankings not just exist.
+- Content marketing: Blog posts, [landing pages](/glossary/what-is-a-landing-page/), comparison guides, and use-case pages that map to real search queries and buyer questions. The content needs to earn rankings not just exist.
 - Conversion-focused assets: Free tools, ROI calculators, templates, and checklists that create value while capturing leads. These work best when they solve a real problem, not when they’re thinly veiled sales collateral.
 - Email marketing: The follow-through layer. Inbound brings people in; email keeps them engaged through longer consideration cycles.
 - Product-led content: For PLG SaaS, the product itself becomes an inbound channel free tiers, interactive demos, and reverse trials that let buyers self-qualify.

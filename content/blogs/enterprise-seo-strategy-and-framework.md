@@ -62,7 +62,7 @@ The most common enterprise SEO mistake is starting with [keyword research](/glos
 Set your goals first using the metrics that connect to revenue:
 
 - Organic SQLs and demo requests per month (by quarter, with a 12-month ramp curve)
-- Organic-to-trial [conversion rate](/glossary/what-is-conversion-rate/) by landing page
+- Organic-to-trial [conversion rate](/glossary/what-is-conversion-rate/) by [landing page](/glossary/what-is-a-landing-page/)
 - Organic CAC versus paid CAC at the same pipeline volume
 - Share of pipeline influenced by organic across all channels
 

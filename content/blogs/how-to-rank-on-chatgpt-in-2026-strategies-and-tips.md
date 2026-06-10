@@ -61,7 +61,7 @@ The system might be hallucinating, or the live data it’s pulling from might ha
 
 ### **People think AEO / GEO is it’s own thing**
 
-Marketers love new acronyms. Now they’re talking about Answer Engine Optimization (AEO) and [Generative Engine](/list/best-saas-geo-agencies/ "Best SaaS GEO Agencies") Optimization (GEO)like it’s this separate department. It’s not. We view it as just another layer of your [SaaS SEO](/blogs/saas-seo/). There is no fundamental difference between optimizing for a keyword and optimizing for a prompt.
+Marketers love new acronyms. Now they’re talking about [Answer Engine Optimization](/glossary/what-is-aeo/) (AEO) and [Generative Engine](/list/best-saas-geo-agencies/ "Best SaaS GEO Agencies") Optimization (GEO)like it’s this separate department. It’s not. We view it as just another layer of your [SaaS SEO](/blogs/saas-seo/). There is no fundamental difference between optimizing for a keyword and optimizing for a prompt.
 
 If you ignore your top-of-funnel content because you’re “only doing AI SEO,” you’re going to fail. You need that authoritative content across the whole funnel because that’s where the context comes from. The AI needs to see that you know what you’re talking about at every stage.
 
@@ -71,7 +71,7 @@ If you ignore your top-of-funnel content because you’re “only doing AI SEO,�
 
 ### **Your technical debt is killing you**
 
-You can’t rank in ChatGPT if your foundational SaaS SEO is broken. I see this all the time, companies trying to do “LLM optimization” while their site is full of 404s and messy redirects. It’s like trying to build a skyscraper on a swamp. You have to get the basics locked down.
+You can’t rank in ChatGPT if your foundational SaaS SEO is broken. I see this all the time, companies trying to do “[LLM](/glossary/what-is-an-llm/) optimization” while their site is full of 404s and messy redirects. It’s like trying to build a skyscraper on a swamp. You have to get the basics locked down.
 
 I’m talking about mapping your target keywords to the right pages. I’m talking about having high-quality content that actually answers the search intent. If the foundation is shaky, the AI isn’t going to trust you as a source.
 

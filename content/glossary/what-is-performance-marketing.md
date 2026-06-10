@@ -112,7 +112,7 @@ Getting performance marketing right starts with clear goal setting, airtight tra
 - Define your north star metric: Pick one or two actions that actually drive business value like “qualified demo booked” or “trial account activated.”
 - Build full-funnel tracking: Use tools like Google Tag Manager, UTM parameters, and CRM integrations to connect ad spend with downstream revenue.
 - Set up conversion goals in ad platforms: In Google Ads, for example, configure conversions for every key action (not just clicks), and sync them to your CRM.
-- Test and refine creative and targeting: Regularly run A/B tests on copy, audience segments, and landing pages optimize for what drives qualified pipeline, not just traffic.
+- Test and refine creative and targeting: Regularly run A/B tests on copy, audience segments, and [landing pages](/glossary/what-is-a-landing-page/) optimize for what drives qualified pipeline, not just traffic.
 - Close the loop: Weekly check-ins between marketing and sales are non-negotiable. If sales says leads are junk, fix it don’t just show a pretty dashboard.
 
 **Here’s what most SaaS teams get wrong:** they set up conversion tracking once and never revisit it. High-growth teams audit attribution monthly, check CRM-to-ad sync, and run “shadow conversions” to catch missed events.

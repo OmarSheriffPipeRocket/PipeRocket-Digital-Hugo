@@ -131,7 +131,7 @@ BOFU content targets buyers who have already defined their problem, shortlisted 
 The BOFU content types that drive the most pipeline for B2B SaaS:
 
 - **[Competitor] alternatives pages:** capture buyers who have evaluated a competitor and are looking for a different option. Every major competitor in your category should have a dedicated alternatives page on your site
-- **[Your product] vs [Competitor] pages:** capture buyers running a direct comparison. These pages rank for high-intent queries and convert at rates comparable to paid landing pages
+- **[Your product] vs [Competitor] pages:** capture buyers running a direct comparison. These pages rank for high-intent queries and convert at rates comparable to paid [landing pages](/glossary/what-is-a-landing-page/)
 - **Best [category] for [ICP] roundups:** capture buyers in evaluation mode who are building a shortlist. Being included in those roundups is valuable. Owning one is more so
 - **Pricing and packaging content:** buyers researching pricing are at the bottom of the funnel. A transparent, well-structured pricing page converts significantly better than a “contact us for pricing” wall
 
@@ -185,7 +185,7 @@ Organic drives 37X more absolute leads than all AI engines combined and converts
 
 ### Strategy 6: Optimize Every Page for Traditional Search and AI Overviews
 
-In 2026, ranking on page one of Google is necessary but not sufficient. AI Overviews now appear above organic results for a significant share of commercial queries. If your content is not structured to be cited in those answers, you are invisible at the top of the funnel even when you rank.
+In 2026, ranking on page one of Google is necessary but not sufficient. [AI Overviews](/glossary/what-is-an-ai-overview/) now appear above organic results for a significant share of commercial queries. If your content is not structured to be cited in those answers, you are invisible at the top of the funnel even when you rank.
 
 On-page optimization for traditional search:
 

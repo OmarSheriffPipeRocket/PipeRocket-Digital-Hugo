@@ -104,14 +104,14 @@ What actually works: Think of your meta description as the one-sentence pitch yo
 Optimizing meta descriptions isn’t about finding the perfect phrase once and moving on. It’s about testing, tracking, and adapting as your traffic and buyer needs shift. The best SaaS teams treat meta descriptions as conversion copy, not just metadata. Here’s how to do it right:
 
 - CTR monitoring: Use Google Search Console to track click-through rates for your top SEO pages flag any with low CTR vs their position.
-- A/B testing: Change meta descriptions one at a time on high-traffic pages, then compare clicks and conversions over two-week windows.
+- [A/B testing](/glossary/what-is-ab-testing/): Change meta descriptions one at a time on high-traffic pages, then compare clicks and conversions over two-week windows.
 - SERP snapshotting: Take regular screenshots or exports of your live snippets to spot Google rewrites or unexpected truncations.
 - Competitor review: Watch how top competitors pitch similar products or features borrow what’s working, but never copy word-for-word.
 - Feedback loop: Share live SERP snippets with your product, sales, or customer success teams is the description actually true, or just marketing spin?
 
 Here’s the warning: This works well for product-led SaaS and high-traffic “feature” pages. For long-tail blog posts or support articles, over-optimizing meta descriptions can actually backfire Google may rewrite them anyway, and your time is better spent improving on-page content or internal linking.
 
-If you’re investing in SaaS SEO at scale, working with a [dedicated SaaS SEO team](/saas-seo-agency/) can help cut trial-and-error, especially for high-intent landing pages.
+If you’re investing in SaaS SEO at scale, working with a [dedicated SaaS SEO team](/saas-seo-agency/) can help cut trial-and-error, especially for high-intent [landing pages](/glossary/what-is-a-landing-page/).
 
 **Also read:** [how the best enterprise SEO agencies handle snippet optimization](/list/best-enterprise-seo-agencies/)
 

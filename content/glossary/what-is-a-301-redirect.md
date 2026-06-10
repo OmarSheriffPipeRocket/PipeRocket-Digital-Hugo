@@ -35,7 +35,7 @@ A 301 redirect is the web’s way of saying, “This page has moved for good use
 - Migration safety net: Critical during rebrands, domain changes, or URL restructuring avoids costly drops in organic traffic.
 - Chaining danger: Multiple hops (URL A → URL B → URL C) slow pages and leak SEO value at each step.
 
-Here’s the pattern interrupt: teams think 301s are a “set and forget” safety net, but the reality is far riskier. SaaS teams moving fast rebuilding their blog structure or combining landing pages often slap on 301s in bulk. The result? Orphaned product tours, demo CTAs that fail, and Google uncoupling your new URLs from hard-won rankings.
+Here’s the pattern interrupt: teams think 301s are a “set and forget” safety net, but the reality is far riskier. SaaS teams moving fast rebuilding their blog structure or combining [landing pages](/glossary/what-is-a-landing-page/) often slap on 301s in bulk. The result? Orphaned product tours, demo CTAs that fail, and Google uncoupling your new URLs from hard-won rankings.
 
 Let’s take “Recurly Pro,” a SaaS billing tool, which rebranded and migrated to a new domain. They mapped every product feature page to the new site with 301s, but missed several old URLs used in ads and onboarding emails. Sign-up conversion dropped 16% in two weeks as users landed on generic homepages, not the deep links they expected. The fix was a full redirect audit proving that precision, not volume, is what makes 301s safe.
 
@@ -74,7 +74,7 @@ Here’s what actually works: map every old URL to a new destination with matchi
 Here’s the real question: not all redirects are created equal, and using the wrong one sends Google the wrong message. The main alternatives to a 301 are 302 (temporary), JavaScript-based redirects, meta refresh, and server-side rewrites but only a 301 tells Google, “This change is forever, update your index.”
 
 - 301 (Permanent): Use when a page, feature, or resource has moved for good ideal for rebrands, domain moves, or deleting old content.
-- 302 (Temporary): Use if you expect the move to be short-term (e.g., A/B testing a new page or limited-time campaign).
+- 302 (Temporary): Use if you expect the move to be short-term (e.g., [A/B testing](/glossary/what-is-ab-testing/) a new page or limited-time campaign).
 - Meta refresh: Browser-level redirect, often slow and bad for SEO should be avoided for anything mission-critical.
 - JavaScript redirect: Used in single-page apps, but Google may not always process these as intended, risking crawlability issues.
 - Server-side rewrite: Keeps the URL the same for the user but serves different content a tool for advanced use cases, not basic migrations.

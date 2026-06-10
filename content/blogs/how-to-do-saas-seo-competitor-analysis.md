@@ -165,7 +165,7 @@ Let me give you a real example of how this applies to copy. We had a client who 
 
 **The Diagnosis:** When we analyzed the intent of the top-ranking pages, we realized our client’s page was too academic. It was talking about “methodologies” and “frameworks.” The users, however, were searching for a solution to a mess.
 
-**The Fix:** We changed the landing page copy to address the Intent immediately. We switched the structure to a strict Problem -> Solution framework.
+**The Fix:** We changed the [landing page](/glossary/what-is-a-landing-page/) copy to address the Intent immediately. We switched the structure to a strict Problem -> Solution framework.
 
 **Old Copy:** “We are an X firm with Y years of experience…”.
 

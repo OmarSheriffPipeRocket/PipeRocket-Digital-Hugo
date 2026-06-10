@@ -186,7 +186,7 @@ B2B content marketing is evolving fast. Here are the trends shaping the future o
 
 The era of chasing “blue links” is fading. 
 
-With the rollout of Google’s AI Overviews (SGE), users are getting answers directly on the search results page without ever visiting a website. [Bain’s 2025 research](https://www.bain.com/insights/goodbye-clicks-hello-ai-zero-click-search-redefines-marketing/) confirms just how dramatic this shift is: 80% of consumers rely on AI-based “zero-click” results at least 40% of the time.
+With the rollout of Google’s [AI Overviews](/glossary/what-is-an-ai-overview/) (SGE), users are getting answers directly on the search results page without ever visiting a website. [Bain’s 2025 research](https://www.bain.com/insights/goodbye-clicks-hello-ai-zero-click-search-redefines-marketing/) confirms just how dramatic this shift is: 80% of consumers rely on AI-based “zero-click” results at least 40% of the time.
 
 ![Zero Click Trend Statistic](/images/wp-import/12_Zero-Click-Trend-Statistic.png)
 
@@ -200,7 +200,7 @@ Personalization isn’t optional anymore; it’s what audiences expect.
 
 [McKinsey](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/unlocking-the-next-frontier-of-personalized-marketing) reports that 71% of consumers now expect personalized interactions, and 76% get frustrated when they don’t. That same expectation is reshaping B2B buying, where generic content is ignored instantly. 
 
-With AI, companies can now tailor emails, landing pages, recommendations, and even long-form content to specific roles and industries in real time. What once required huge teams is now accessible to everyone. 
+With AI, companies can now tailor emails, [landing pages](/glossary/what-is-a-landing-page/), recommendations, and even long-form content to specific roles and industries in real time. What once required huge teams is now accessible to everyone. 
 
 **What this means for you:** If your content doesn’t feel like it was written for a specific person, it will be ignored. AI gives every company the ability to personalize at scale; the only difference is who adopts it first.
 

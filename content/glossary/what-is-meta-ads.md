@@ -122,7 +122,7 @@ The format you choose shapes everything how much space you have to make your poi
 - Single image ads: The simplest format. One image, a headline, body copy, and a call to action. Works well for retargeting where the audience already has context. Easy to produce, easy to test.
 - Video ads: Higher production effort but stronger for cold audiences where you need to explain something quickly. Reels placements in particular get strong reach. Even a 15-second product walkthrough can outperform a static image for awareness campaigns.
 - Carousel ads: Multiple cards, each with its own image, headline, and link. Useful for showcasing multiple features, walking through a process, or presenting different use cases to different buyer types.
-- [Lead generation](/glossary/what-is-lead-generation/) ads (Lead Ads): A form opens natively inside Facebook or Instagram the user never leaves the platform. Lower friction, higher volume, but typically lower lead quality since users don’t have to engage with your site or landing page.
+- [Lead generation](/glossary/what-is-lead-generation/) ads (Lead Ads): A form opens natively inside Facebook or Instagram the user never leaves the platform. Lower friction, higher volume, but typically lower lead quality since users don’t have to engage with your site or [landing page](/glossary/what-is-a-landing-page/).
 - Collection and Instant Experience ads: More immersive formats designed for mobile. Less common in SaaS, more common in e-commerce, but worth testing if you have a visually rich product.
 - Dynamic ads: Automatically pull from a product catalogue and personalise ad content based on user behaviour. Primarily e-commerce, but some SaaS teams use them for personalised retargeting at scale.
 

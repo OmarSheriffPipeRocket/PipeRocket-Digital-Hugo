@@ -53,7 +53,7 @@ SSL certificates matter for SaaS and B2B sites because buyers expect security by
 
 > **Fast Fact:** Over 95% of page loads in Google Chrome now use HTTPS, making SSL the expected baseline for any business website.
 
-**Here’s what actually happens:** You run a targeted ad campaign for “Fleet Flow,” a fleet management SaaS. Prospects click through, see a warning in Chrome, and leave not because your product is weak, but because “Not Secure” triggers a visceral “walk away” reaction. Most teams focus on tweaking landing page copy when SSL is the real conversion killer.
+**Here’s what actually happens:** You run a targeted ad campaign for “Fleet Flow,” a fleet management SaaS. Prospects click through, see a warning in Chrome, and leave not because your product is weak, but because “Not Secure” triggers a visceral “walk away” reaction. Most teams focus on tweaking [landing page](/glossary/what-is-a-landing-page/) copy when SSL is the real conversion killer.
 
 This isn’t just about avoiding risk. SSL is a revenue gate. If you’re serious about B2B or SaaS, you can’t afford to ignore it.
 

@@ -100,7 +100,7 @@ Most teams assume “any schema is good schema.” That’s not just wrong it’
 - Forgetting maintenance: Schema that’s accurate at launch but never updated becomes a liability especially after feature launches or pricing updates.
 - Ignoring intent: Schema should highlight information buyers actually care about, not just what’s easy to tag.
 
-Here’s a warning you rarely hear: Structured data works well for SaaS with clear features, reviews, and supporting content. For niche products with a single landing page and minimal supporting material, aggressive schema can backfire Google may see it as spam or simply ignore it.
+Here’s a warning you rarely hear: Structured data works well for SaaS with clear features, reviews, and supporting content. For niche products with a single [landing page](/glossary/what-is-a-landing-page/) and minimal supporting material, aggressive schema can backfire Google may see it as spam or simply ignore it.
 
 Another common trap: automating schema across thousands of pages without real differentiation. What works for a marketplace SaaS with hundreds of templates or integrations won’t apply to a single-product tool. Always match schema depth to your actual content and product range.
 

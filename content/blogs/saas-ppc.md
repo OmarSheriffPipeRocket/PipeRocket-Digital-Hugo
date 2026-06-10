@@ -59,11 +59,11 @@ Your ads must highlight what makes your product meaningfully different, whether 
 
 ## Build the Right SaaS PPC Foundation
 
-Before you think about keywords, ad formats, or landing pages, your SaaS [PPC](/glossary/what-is-ppc/ "Glossary: PPC") strategy needs a solid foundation. Here’s how to build a SaaS PPC foundation that actually supports growth.
+Before you think about keywords, ad formats, or [landing pages](/glossary/what-is-a-landing-page/), your SaaS [PPC](/glossary/what-is-ppc/ "Glossary: PPC") strategy needs a solid foundation. Here’s how to build a SaaS PPC foundation that actually supports growth.
 
 ### 1. Have a Clear ICP + Buyer Personas
 
-The biggest mistake SaaS companies make is targeting “anyone who might use the product.” This leads to high CPCs, irrelevant traffic, and low-intent signups. SaaS PPC only works when you know exactly who your best users are, such as their role, industry, workflows, and the pain that pushes them into solution mode. 
+The biggest mistake SaaS companies make is targeting “anyone who might use the product.” This leads to high CPCs, irrelevant traffic, and low-intent signups. SaaS [PPC](/glossary/what-is-ppc/) only works when you know exactly who your best users are, such as their role, industry, workflows, and the pain that pushes them into solution mode. 
 
 Clear ICPs make your keywords, messaging, and landing pages far more relevant while naturally filtering out users who were never going to convert.
 

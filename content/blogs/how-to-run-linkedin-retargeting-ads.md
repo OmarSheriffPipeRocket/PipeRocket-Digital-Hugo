@@ -71,7 +71,7 @@ We treat those people as high-intent because they’ve already stopped their scr
 
 One of the most powerful things we do for our clients is creating a bridge between [Google Ads](/blogs/how-to-run-google-ads-for-saas/) and LinkedIn retargeting ads, because they work so much better together than they do in isolation. If you’re bidding on high-intent keywords on Google, you’re capturing people who are actively searching for a solution, which is great, but they might not convert on that first click.
 
-What we do is drive that Google traffic to very specific landing pages, and then we build a custom LinkedIn retargeting audience just for the people who landed there. But the secret is to group those keywords into broader Topics.
+What we do is drive that Google traffic to very specific [landing pages](/glossary/what-is-a-landing-page/), and then we build a custom LinkedIn retargeting audience just for the people who landed there. But the secret is to group those keywords into broader Topics.
 
 If you’re bidding on twenty different terms related to “compliance,” we don’t build twenty LinkedIn audiences; we build one big “Compliance Topic” audience.
 

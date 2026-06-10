@@ -132,7 +132,7 @@ Beyond our proprietary dataset, here is what broader industry research tells us 
 - **Brand search volume** — not [backlinks](/glossary/what-is-a-backlink/) — is the strongest predictor of AI citations, with a **0.334 correlation** to LLM visibility.
 - Establishing entity presence across **4+ third-party platforms** increases AI citation likelihood by **2.8x**.
 - Only **11% of domains** are cited by both ChatGPT and Perplexity — platform-specific GEO optimization is essential, not optional.
-- Brands in the **top quartile for web mentions** receive over **10x more citations** in AI Overviews than those in the second quartile.
+- Brands in the **top quartile for web mentions** receive over **10x more citations** in [AI Overviews](/glossary/what-is-an-ai-overview/) than those in the second quartile.
 - AI referral traffic grew **527% year-over-year** between January and May 2025 — yet most analytics platforms still misattribute it as direct traffic.
 - The dark funnel hides an estimated **57–73% of the B2B buying journey** from attribution tools.
 - When AI Overviews appear in Google results, **organic [CTR](/glossary/what-is-ctr/) drops from 1.41% to 0.64%** — a 54.6% decline.

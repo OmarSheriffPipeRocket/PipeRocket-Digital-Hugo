@@ -94,7 +94,7 @@ The core warning: features like featured snippets work best for informational or
 Most SaaS teams rely on rank trackers and generic keyword tools, missing the single most actionable play: live SERP analysis. The real opportunity is in spotting and exploiting gaps your competitors ignore.
 
 - Find “feature gaps”: Look for queries where a competitor owns organic, but no one has secured the snippet or PAA these are winnable.
-- Target “intent mismatches”: If the SERP is showing guides but competitors serve only landing pages, you can win by matching real searcher intent.
+- Target “intent mismatches”: If the SERP is showing guides but competitors serve only [landing pages](/glossary/what-is-a-landing-page/), you can win by matching real searcher intent.
 - Hijack branded SERPs: Use paid search and review-rich content to appear alongside or above competitors for their own names.
 - Monitor SERP volatility: Use tools like Ahrefs, Semrush, or Google Search Console to spot sudden shifts in rankings or features and react faster than slower-moving competitors.
 - Layer paid and organic: On head terms where features crowd out organic, run coordinated SEO and PPC campaigns to own more real estate.

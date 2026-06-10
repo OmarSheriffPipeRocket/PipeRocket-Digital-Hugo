@@ -37,7 +37,7 @@ The trade-off is real. Treating MOFU like awareness content works fine when all 
 
 ## Match the SERP Format Before You Write a Word
 
-The single biggest thing you can do to rank a MOFU keyword is match the content format Google is already rewarding for it. Most MOFU content stuck between positions 8 and 20 is there because the format fights the SERP. A long narrative essay loses to a scannable listicle when every top result is a listicle.
+The single biggest thing you can do to rank a MOFU keyword is match the content format Google is already rewarding for it. Most MOFU content stuck between positions 8 and 20 is there because the format fights the [SERP](/glossary/what-is-serp/). A long narrative essay loses to a scannable listicle when every top result is a listicle.
 
 So before writing, run the query and read the first page. Ask what type of page is winning:
 
@@ -114,7 +114,7 @@ MOFU and BOFU rank on different signals and do different jobs, so running one pl
 | Page count / sequencing | Few and finite, usually 40 to 60 per single-product company. Build these first for fast pipeline. | Broader, since consideration covers more ground. Expand this layer next to feed the decision pages. |
 | How to measure | Direct conversions and last-click. Mostly accurate. | Contribution by page type, not last-click. MOFU assists deals rather than closing them. |
 
-BOFU pages (comparison, alternatives, pricing) are landing pages, so the execution is sales copy and an honest comparison table matching SERP intent. The detailed BOFU side, page types and ranking timelines, stays in the [BOFU playbook](/blogs/how-to-rank-bofu-keywords-saas/) so this piece doesn't double it.
+BOFU pages (comparison, alternatives, pricing) are [landing pages](/glossary/what-is-a-landing-page/), so the execution is sales copy and an honest comparison table matching SERP intent. The detailed BOFU side, page types and ranking timelines, stays in the [BOFU playbook](/blogs/how-to-rank-bofu-keywords-saas/) so this piece doesn't double it.
 
 The full sequencing call, build the high-intent decision pages first and expand the MOFU layer to feed them, is in [how to prioritise keywords by funnel stage](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/).
 

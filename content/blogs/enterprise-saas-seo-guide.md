@@ -50,7 +50,7 @@ At enterprise scale, the compounding advantage is even more pronounced. A conten
 **What this looks like in practice:** A $50M [ARR](/glossary/what-is-arr/) enterprise collaboration SaaS discovers through a pipeline attribution audit that 60% of their closed-won enterprise accounts had at least one organic search touchpoint in the 90 days before entering the sales cycle. The [SEO](/glossary/what-is-seo/) program had never been given credit for that contribution because the attribution model only tracked last-touch paid channels. After rebuilding the measurement framework, the company doubles the SEO budget at the next planning cycle.
 
 {{< expert-take author="kim" >}}
-On a recent enterprise engagement, the SEO was never the hard part. We submitted a set of competitor-term landing pages for approval in October — and were told those terms weren't allowed. We had to justify them as business-critical before we got the green light. Then the content team had higher-priority commitments, so it sat. Then design and dev were backed up, so we built the pages ourselves. The first set went live in December. Two months end to end, and almost none of it was about SEO tactics — it was governance.
+On a recent enterprise engagement, the SEO was never the hard part. We submitted a set of competitor-term [landing pages](/glossary/what-is-a-landing-page/) for approval in October — and were told those terms weren't allowed. We had to justify them as business-critical before we got the green light. Then the content team had higher-priority commitments, so it sat. Then design and dev were backed up, so we built the pages ourselves. The first set went live in December. Two months end to end, and almost none of it was about SEO tactics — it was governance.
 {{< /expert-take >}}
 
 ## The Four Pillars of Enterprise SaaS SEO
@@ -124,7 +124,7 @@ For enterprise SaaS, pipeline-influenced and organic CAC are the two metrics wor
 
 ## How Enterprise SaaS SEO Must Adapt for AI Search
 
-AI Overviews, ChatGPT, and Perplexity are changing how enterprise buyers research software. They are not replacing traditional search, but they are adding a new visibility layer that enterprise SaaS companies must optimize for separately.
+[AI Overviews](/glossary/what-is-an-ai-overview/), ChatGPT, and Perplexity are changing how enterprise buyers research software. They are not replacing traditional search, but they are adding a new visibility layer that enterprise SaaS companies must optimize for separately.
 
 | Traditional SEO signal | AI search signal |
 | --- | --- |

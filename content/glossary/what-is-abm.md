@@ -36,7 +36,7 @@ Here’s the part most guides skip: ABM isn’t a campaign type. It’s a way of
 - Sales and marketing alignment: ABM collapses the handoff problem between marketing and sales because both teams are working from the same account list, not different funnel stages.
 - Measurement by account: Pipeline and revenue per account replace MQLs as the primary metric. This shift alone changes how both teams behave.
 
-Consider a SaaS company selling compliance software to financial services firms. Rather than running broad awareness campaigns, their marketing team builds account-specific landing pages referencing each target firm’s regulatory exposure, while sales follows up with a tailored briefing. That’s ABM working as intended not a spray-and-pray campaign with a logo swap.
+Consider a SaaS company selling compliance software to financial services firms. Rather than running broad awareness campaigns, their marketing team builds account-specific [landing pages](/glossary/what-is-a-landing-page/) referencing each target firm’s regulatory exposure, while sales follows up with a tailored briefing. That’s ABM working as intended not a spray-and-pray campaign with a logo swap.
 
 The common belief is that ABM is just personalised outbound. That’s wrong. Outbound targets individuals. ABM targets organisations and the strategy lives at the account level, not the contact level. That distinction changes everything from how you build lists to how you measure success.
 

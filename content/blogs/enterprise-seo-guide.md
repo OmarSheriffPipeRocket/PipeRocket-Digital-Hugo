@@ -64,7 +64,7 @@ Every piece of published content reflects directly on brand. At enterprise scale
 Guardrails to implement:
 
 - **Automated QA checks** that flag missing title tags, broken [canonical tags](/glossary/what-is-a-canonical-tag/), incorrect meta tags, and accidental noindex directives on core templates
-- **Pre-launch SEO validations** built into every publishing and release process
+- **Pre-launch [SEO](/glossary/what-is-seo/) validations** built into every publishing and release process
 - **Staging environment testing** before any SEO change goes live
 
 **Pro Tip:** Educate non-SEO team members — developers, product managers, writers — on crawlability, search intent frameworks, and internal linking impact. When developers understand content hierarchy, they build UX that also performs in search.
@@ -107,7 +107,7 @@ Edge SEO implementations address this directly:
 
 - Reduce dependency on slow development cycles for SEO fixes
 - Enable site-wide changes to roll out without core code deploys
-- Allow lower-risk testing of technical SEO changes before full deployment
+- Allow lower-risk testing of [technical SEO](/glossary/what-is-technical-seo/) changes before full deployment
 
 ### Global Hreflang Architecture
 
@@ -127,7 +127,7 @@ For the SaaS-specific overlay, read our [enterprise SaaS SEO guide](/blogs/enter
 
 ### Programmatic SEO and Taxonomy
 
-Programmatic SEO (pSEO) uses templates, automation, and [structured data](/glossary/what-is-structured-data/) to generate large volumes of high-quality, data-driven landing pages. Instead of one page for “best LMS,” pSEO builds thousands of pages for “best LMS for HR managers in Texas” — matching specific buyer intent at scale.
+Programmatic SEO (pSEO) uses templates, automation, and [structured data](/glossary/what-is-structured-data/) to generate large volumes of high-quality, data-driven [landing pages](/glossary/what-is-a-landing-page/). Instead of one page for “best LMS,” pSEO builds thousands of pages for “best LMS for HR managers in Texas” — matching specific buyer intent at scale.
 
 Solid taxonomy and site structure make pSEO pages discoverable. Organizing pages into a logical hierarchy presents your site architecture clearly to search engines, enabling accurate indexing — and avoiding the thin-page penalties Google enforces.
 
@@ -156,7 +156,7 @@ Set up automated triggers using Google Analytics and GSC APIs to surface pages t
 
 ### Future-Proofing: AEO and Entity Optimization
 
-AI Overviews (AIO) are reshaping how search surfaces content. To stay visible, enterprise SEO strategies need to transition toward Answer Engine Optimization (AEO) and entity-based optimization.
+AI Overviews (AIO) are reshaping how search surfaces content. To stay visible, enterprise SEO strategies need to transition toward [Answer Engine Optimization](/glossary/what-is-aeo/) (AEO) and entity-based optimization.
 
 Two steps to make this transition:
 

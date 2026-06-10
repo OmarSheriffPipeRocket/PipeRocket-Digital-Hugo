@@ -65,7 +65,7 @@ Canonical tags are one of those invisible SEO levers that can quietly make or br
 - Faster indexation: Googlebot spends less time crawling redundant pages, which means new features or launches get indexed and ranked faster.
 - Reduced penalty risk: Search engines penalize obvious duplicate content canonicals provide a clear roadmap to avoid accidental devaluation.
 
-Here’s a real trade-off: programmatic canonicals (where your CMS auto-applies the main URL as canonical for every page) save time on small sites, but break down fast on SaaS products with user-generated content, parameterized URLs, or dynamic landing pages. It’s worth the automation if your content stays stable, but it fails when your site structure is in flux or you regularly launch new campaign variants.
+Here’s a real trade-off: programmatic canonicals (where your CMS auto-applies the main URL as canonical for every page) save time on small sites, but break down fast on SaaS products with user-generated content, parameterized URLs, or dynamic [landing pages](/glossary/what-is-a-landing-page/). It’s worth the automation if your content stays stable, but it fails when your site structure is in flux or you regularly launch new campaign variants.
 
 **Fast Fact:** Users from organic search spend an average of 4 minutes 40 seconds on SaaS pages, nearly a full minute longer than AI-referred visitors.
 

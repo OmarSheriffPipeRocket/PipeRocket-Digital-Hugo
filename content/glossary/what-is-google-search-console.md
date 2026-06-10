@@ -59,7 +59,7 @@ GSC works by letting you “see through Google’s eyes.” After you verify you
 - Data collection: GSC tracks impressions, clicks, and rankings in real-time, not through third-party scraping or estimates.
 - Crawl and index monitoring: You see which URLs are in Google’s index, which are excluded, and the reasons why (e.g., “Discovered, not indexed,” “Blocked by robots.txt”).
 - Error and enhancement reports: GSC calls out structured data issues, Core Web Vitals failures, and mobile usability problems these all impact rankings and user experience.
-- Query and page reports: You can break down performance by individual search queries, landing pages, country, or device giving you a real sense of what’s driving growth.
+- Query and page reports: You can break down performance by individual search queries, [landing pages](/glossary/what-is-a-landing-page/), country, or device giving you a real sense of what’s driving growth.
 
 **Fast Fact:** Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 

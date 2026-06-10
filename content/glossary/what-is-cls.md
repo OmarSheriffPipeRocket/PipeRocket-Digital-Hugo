@@ -32,7 +32,7 @@ CLS, or Cumulative Layout Shift, is a user experience metric that tracks how muc
 - Core Web Vital: CLS is one of Google’s primary metrics for page experience, alongside Largest Contentful Paint (LCP) and First Input Delay (FID).
 - Visual stability: It measures unexpected movement of visible elements think buttons, images, or forms shifting after the content is loaded.
 - Ranking factor: Google uses CLS as a signal for both desktop and mobile search, penalizing sites that frustrate users.
-- Direct impact: High CLS leads to accidental clicks, lost conversions, and higher bounce rates, especially for SaaS landing pages.
+- Direct impact: High CLS leads to accidental clicks, lost conversions, and higher bounce rates, especially for SaaS [landing pages](/glossary/what-is-a-landing-page/).
 - Measurement tool: CLS scores are visible in Google Search Console, Page Speed Insights, and tools like Web Page Test and Lighthouse.
 
 Here’s what this looks like: A visitor lands on your SaaS signup page. As the hero image finishes loading, the “Start Free Trial” button suddenly jumps down 40 pixels the user accidentally clicks “Learn More” instead, and now they’re on a different page. That’s a real-world CLS problem, and it can quietly kill your conversion rate.

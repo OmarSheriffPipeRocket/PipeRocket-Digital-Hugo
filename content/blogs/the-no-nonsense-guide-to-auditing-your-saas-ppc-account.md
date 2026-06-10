@@ -143,7 +143,7 @@ They were doing great, generating qualified leads consistently.
 
 We didn’t panic. We took the “Eagle’s View.”
 
-1. **Doing too much**: They were **doing multiple things at one time**, like changing creatives, landing pages, and bids all at once, which screwed up the data clarity.
+1. **Doing too much**: They were **doing multiple things at one time**, like changing creatives, [landing pages](/glossary/what-is-a-landing-page/), and bids all at once, which screwed up the data clarity.
 2. **Isolate the Variable:** We collated the campaigns that ***used*** **to perform but were now failing**. We ignored everything else. The problem statement was clear: **“It was working, now it’s not.”**
 3. **The Drill Down:** We looked at the **data week-over-week and day-by-day**.
 4. **The Diagnosis:** Everything looked decent on the surface. Search terms were fine, ads were fine. But one metric stood out: **The CPC had skyrocketed.**
@@ -213,7 +213,7 @@ When you are looking at your funnel, you will usually find three types of campai
    - ***Action**:* Check “Lost Impression Share (Budget).” Give these campaigns more money immediately.
 3. **High Spend / Low ROI (The “Optimization Trap”):**
    - ***Diagnosis**:* These campaigns are bringing in leads, but they are too expensive.
-   - ***Action**:* This is where you do CRO (Conversion Rate Optimization). Test new headlines. Tighten the audience. Try to squeeze more juice out of the lemon.
+   - ***Action**:* This is where you do CRO ([Conversion Rate Optimization](/glossary/what-is-cro/)). Test new headlines. Tighten the audience. Try to squeeze more juice out of the lemon.
 
 ## **Phase 6: Creating Your Action Plan**
 

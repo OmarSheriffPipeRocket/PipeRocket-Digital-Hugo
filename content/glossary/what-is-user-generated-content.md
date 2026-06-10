@@ -97,7 +97,7 @@ If you want high-value UGC, you have to create the conditions for it. That means
 
 - Ask at the right moment: Trigger review or feedback requests after a true win like a successful onboarding or a solved pain point.
 - Lower the barrier: Provide templates, prompts, or even simple “share your workflow” requests so users aren’t overwhelmed by a blank slate.
-- Amplify the best: Feature strong UGC in newsletters, on landing pages, or in product show users their voice matters.
+- Amplify the best: Feature strong UGC in newsletters, on [landing pages](/glossary/what-is-a-landing-page/), or in product show users their voice matters.
 - Reward transparency: Acknowledge and thank users for honest feedback, even when it’s critical this sets the tone for real contributions.
 - Nurture community spaces: Invest in forums, Slack groups, or public product boards so users have a natural place to share and riff off each other.
 

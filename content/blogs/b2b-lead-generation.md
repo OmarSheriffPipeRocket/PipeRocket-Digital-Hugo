@@ -167,7 +167,7 @@ If you sell to mid-market or enterprise companies, [ABM](/glossary/what-is-abm/)
 ABM can include:
 
 - One-to-few campaigns
-- One-to-one landing pages
+- One-to-one [landing pages](/glossary/what-is-a-landing-page/)
 - Personalised ads
 - Account-specific emails
 - Tailored outreach sequences
@@ -252,7 +252,7 @@ What gets measured improves. Tracking the right metrics helps you scale what’s
 
 ## Best Practices to Improve B2B Lead Quality
 
-Generating more leads is easy. Generating better leads is what actually drives revenue. Here’s how to improve lead generation across your funnel.
+Generating more leads is easy. Generating better leads is what actually drives revenue. Here’s how to improve [lead generation](/glossary/what-is-lead-generation/) across your funnel.
 
 For the umbrella view, see our [B2B marketing guide](/blogs/b2b-marketing/ "B2B Marketing Complete Guide").
 

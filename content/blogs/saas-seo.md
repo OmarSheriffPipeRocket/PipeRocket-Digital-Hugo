@@ -33,9 +33,9 @@ SaaS SEO is the practice of optimising a software company's web presence to attr
 
 It differs from traditional SEO because your buyer doesn't convert on the first visit. A B2B SaaS purchase involves multiple stakeholders, a 30–90 day evaluation cycle, and a search journey that moves from problem awareness to vendor comparison before a single demo request lands in your CRM.
 
-A CMO searching "best project management software" and a developer searching "project management API integration" are often in the same buying committee. Your SEO strategy has to reach both of them at different moments with different content. As Eli Schwartz argues in *Product-Led SEO*, the right SaaS SEO programme is built around the product, not around keywords — and the keywords flow from there.
+A CMO searching "best project management software" and a developer searching "project management API integration" are often in the same buying committee. Your [SEO](/glossary/what-is-seo/) strategy has to reach both of them at different moments with different content. As Eli Schwartz argues in *Product-Led SEO*, the right SaaS SEO programme is built around the product, not around keywords — and the keywords flow from there.
 
-What separates SaaS SEO from general content marketing is the pipeline intent behind every keyword decision. You're not publishing to build an audience. You're publishing to capture buyers who are actively researching a problem your product solves and routing them toward a conversion.
+What separates SaaS SEO from general [content marketing](/glossary/what-is-content-marketing/) is the pipeline intent behind every keyword decision. You're not publishing to build an audience. You're publishing to capture buyers who are actively researching a problem your product solves and routing them toward a conversion.
 
 ![Anatomy of a SaaS SEO Program: four pillars — Content (BOFU/MOFU/TOFU + hub-and-spoke), Technical (crawl/index/speed/schema), Authority (digital PR, data studies, directories, integrations), and Measurement (organic SQLs, CAC, pipeline contribution) — all feeding one outcome: qualified pipeline.](/images/blog-infographics/anatomy-saas-seo-program.svg)
 
@@ -63,7 +63,7 @@ For most SaaS companies, organic CAC crosses below paid CAC somewhere between mo
 - Multi-stakeholder buying means you need content for multiple personas simultaneously
 - Complex products require educational depth that takes time to build and rank
 - Competitive [SERPs](/glossary/what-is-serp/) are dominated by high-DA players like G2, Capterra, Gartner, and established SaaS brands
-- AI Overviews, ChatGPT citations, and Perplexity answers now intercept traffic before it ever reaches your page — entity clarity and Knowledge Graph alignment are non-optional
+- [AI Overviews](/glossary/what-is-an-ai-overview/), ChatGPT citations, and Perplexity answers now intercept traffic before it ever reaches your page — entity clarity and Knowledge Graph alignment are non-optional
 - Vertical-specific regulations (SOC 2, GDPR, HIPAA, FedRAMP) intersect with how you publish content and which trust signals you surface
 
 {{< expert-take author="kim" >}}
@@ -96,7 +96,7 @@ If Google can't crawl your site cleanly, your content won't rank regardless of q
 
 - Accidental noindex tags on important pages
 - Robots.txt misconfigurations blocking key sections
-- Canonical tag errors and canonical loops
+- [Canonical tag](/glossary/what-is-a-canonical-tag/) errors and canonical loops
 - Duplicate content from parameter URLs, faceted navigation, or staging environments
 - Orphan pages not linked from anywhere on the site
 - 301 redirect chains and soft 404 errors in [Google Search Console](/glossary/what-is-google-search-console/) and Bing Webmaster Tools
@@ -154,7 +154,7 @@ For a deeper look at building content that compounds, read the [SaaS Content Mar
 
 ### Step 6: Optimise On-Page SEO for Search and AI Signals
 
-Write your title tag under 60 characters with the primary keyword near the front. Write a meta description that earns the click — under 155 characters, with a clear value promise. Use exactly one H1 per page and a clean H2/H3 hierarchy. Optimise image alt text for accessibility (WCAG-aligned descriptive alt) and for image search. Add Open Graph and Twitter Card tags for social distribution. Use srcset and modern formats (WebP, AVIF) for responsive images, served through Cloudinary, ImageKit, or a CDN.
+Write your title tag under 60 characters with the primary keyword near the front. Write a [meta description](/glossary/what-is-a-meta-description/) that earns the click — under 155 characters, with a clear value promise. Use exactly one H1 per page and a clean H2/H3 hierarchy. Optimise image alt text for accessibility (WCAG-aligned descriptive alt) and for image search. Add Open Graph and Twitter Card tags for social distribution. Use srcset and modern formats (WebP, AVIF) for responsive images, served through Cloudinary, ImageKit, or a CDN.
 
 Put a direct, complete answer in the first two to three sentences under every major heading. That's what Google pulls for featured snippets and what AI engines pull for citations.
 
@@ -182,7 +182,7 @@ Authority compounds when it comes from a portfolio of sources, not a single tact
 - **Free tools and calculators** — embed codes let other sites share them with a backlink attached
 - **Integration and partner directories** — contextual links from high-DA domains in your exact category (G2, Capterra, Clutch, AWS Marketplace, Azure Marketplace, integration-specific partner pages)
 - **HARO / Connectively quotes and expert contributions** — turn your in-house experts into named sources for journalists at Search Engine Land, Search Engine Journal, Marketing Brew, and trade publications
-- **Strategic guest posting** — long-form, on-topic guest content on high-authority publications, with anchor text that supports your cluster's keyword targets
+- **Strategic guest posting** — long-form, on-topic guest content on high-authority publications, with [anchor text](/glossary/what-is-anchor-text/) that supports your cluster's keyword targets
 - **Unlinked-mention reclamation** — find existing brand mentions without links, ask for the link
 - **Community-led brand mentions** — active, helpful presence on Reddit, Quora, LinkedIn, Hacker News, Indie Hackers, and Common Room communities, since AI engines disproportionately cite these surfaces (more on this below)
 
@@ -203,7 +203,7 @@ Watch your referring-domain quality, not just count. One link from a top SaaS pu
 | URL structure | Short, hyphenated, keyword-bearing, no parameters where avoidable | Medium |
 | Image compression | WebP or AVIF, lazy loading, descriptive filenames, srcset | Low |
 | HTTPS / HSTS | Force HTTPS everywhere, HSTS preload list | Low |
-| llms.txt and llms-full.txt | Add so LLM crawlers can find the canonical content map | Low |
+| llms.txt and llms-full.txt | Add so [LLM](/glossary/what-is-an-llm/) crawlers can find the canonical content map | Low |
 | Accessibility (WCAG / ADA) | Semantic HTML, ARIA where needed, contrast, keyboard nav | Medium |
 | Hreflang | Only if you have localised content; otherwise skip | Conditional |
 
@@ -229,7 +229,7 @@ A side-by-side view of the two operating models most SaaS teams oscillate betwee
 
 ### GEO, AEO, and the AI Search Layer for SaaS
 
-Generative Engine Optimisation (GEO), Answer Engine Optimisation (AEO), and Large Language Model Optimisation (LLMO) describe the same shift in different words: search no longer ends at a SERP. ChatGPT, Perplexity, Google Gemini, Microsoft Copilot, Anthropic Claude, and Google AI Overviews now answer questions inline, citing sources, often without the user clicking through. The new wave — ChatGPT Atlas, Perplexity Comet, Anthropic Computer Use — pushes this even further: AI browser agents that browse, summarise, and act on behalf of users, without ever showing them a traditional search results page.
+Generative Engine Optimisation ([GEO](/glossary/what-is-geo/)), Answer Engine Optimisation (AEO), and Large Language Model Optimisation (LLMO) describe the same shift in different words: search no longer ends at a SERP. ChatGPT, Perplexity, Google Gemini, Microsoft Copilot, Anthropic Claude, and Google AI Overviews now answer questions inline, citing sources, often without the user clicking through. The new wave — ChatGPT Atlas, Perplexity Comet, Anthropic Computer Use — pushes this even further: AI browser agents that browse, summarise, and act on behalf of users, without ever showing them a traditional search results page.
 
 For SaaS, this changes the playbook in five concrete ways:
 
@@ -245,7 +245,7 @@ PipeRocket's data shows AI users spend just 3 minutes 25 seconds on a page versu
 
 Underneath the visible AI search products is an infrastructure layer that's worth understanding because it determines who gets cited and why. The mechanics:
 
-- **Retrieval-Augmented Generation (RAG)** is how most AI engines actually answer: a retrieval step pulls candidate documents from a corpus, then the LLM generates an answer grounded in those documents. Your job in SaaS SEO is to be in that retrieval set.
+- **[Retrieval-Augmented Generation](/glossary/what-is-rag/) (RAG)** is how most AI engines actually answer: a retrieval step pulls candidate documents from a corpus, then the LLM generates an answer grounded in those documents. Your job in SaaS SEO is to be in that retrieval set.
 - **Vector embeddings and vector search** are how the retrieval step decides which documents are semantically relevant. Vector databases like Pinecone, Weaviate, and Chroma store embeddings; cosine similarity ranks them. The practical implication: writing for "semantic SEO" is no longer a metaphor — embeddings literally cluster your content by meaning, not keywords. Reranking layers on top filter the candidate set.
 - **BM25 and TF-IDF** still matter — most production RAG stacks use hybrid search (lexical + vector) because pure semantic retrieval misses exact-match queries.
 - **MCP (Model Context Protocol)** is Anthropic's emerging open standard for how AI agents access external data. As MCP adoption grows, SaaS companies that expose clean, structured product data via an MCP server become directly queryable by AI agents — a new surface area for discovery.
@@ -277,14 +277,14 @@ The 2026 SaaS SEO stack is more crowded than the 2020 version, but the core rema
 | AI visibility and citation tracking | Ahrefs Brand Radar, Semrush AI Visibility Toolkit, Profound, Otterly, AthenaHQ, Peec, Daydream |
 | Schema and structured data | Schema App, Rich Results Test, Structured Data Markup Helper |
 | Intent data (for [ABM](/account-based-marketing-agency/) / pipeline overlap) | 6sense, Demandbase, Bombora, Clearbit, ZoomInfo, Apollo, RB2B, Leadfeeder |
-| Behavioural and CRO | Hotjar, Microsoft Clarity, Mouseflow, FullStory, VWO |
+| Behavioural and [CRO](/glossary/what-is-cro/) | Hotjar, Microsoft Clarity, Mouseflow, FullStory, VWO |
 | Community and brand monitoring | Common Room, SparkToro, Mention, Brand24 |
 
 You don't need all of these. Most teams thrive with Ahrefs or Semrush + Screaming Frog + GSC + GA4 + one of the AI-visibility tools + one intent-data signal. The rest are useful when scale demands them.
 
 ## Programmatic SEO for SaaS
 
-Programmatic SEO uses templates and structured data to publish hundreds or thousands of pages targeting long-tail, intent-specific queries — at a scale no human content team can match. For SaaS, the highest-ROI programmatic patterns are integration pages (`"how to connect [your product] with [tool]"`), comparison pages (`"[your product] vs [competitor]"`), use-case pages, city- or industry-specific landing pages, and template directories where the variation is real and the underlying value is real.
+Programmatic SEO uses templates and structured data to publish hundreds or thousands of pages targeting long-tail, intent-specific queries — at a scale no human content team can match. For SaaS, the highest-ROI programmatic patterns are integration pages (`"how to connect [your product] with [tool]"`), comparison pages (`"[your product] vs [competitor]"`), use-case pages, city- or industry-specific [landing pages](/glossary/what-is-a-landing-page/), and template directories where the variation is real and the underlying value is real.
 
 Done well, programmatic SEO captures BOFU intent at the scale only structured data allows. Done badly, it generates thin, near-duplicate pages that get classified as spam and trigger algorithmic suppression. The line between the two is the quality of the source data and the genuine differentiation between pages. See [PipeRocket's programmatic SEO service](/programmatic-seo-agency/) for how we run this.
 
@@ -377,11 +377,11 @@ Two to four ICP-targeted pieces per month. Below that threshold you don't build 
 
 6. How much should a B2B SaaS company budget for SEO?
 
-Early-stage: $3,000–$8,000 per month covers content, technical SEO, and link acquisition. Growth-stage: $8,000–$20,000 per month. The benchmark is your organic CAC falling below paid CAC within 12–18 months.
+Early-stage: $3,000–$8,000 per month covers content, [technical SEO](/glossary/what-is-technical-seo/), and link acquisition. Growth-stage: $8,000–$20,000 per month. The benchmark is your organic CAC falling below paid CAC within 12–18 months.
 
 7. Does SaaS SEO still work with AI Overviews and ChatGPT answering questions directly?
 
-Yes — and the gap has widened in organic's favour. PipeRocket data across 53 B2B SaaS clients shows organic visitors convert to leads at 0.92% versus AI traffic's 0.26%, and organic drives 37X more absolute leads. AI search changes the shape of the work (GEO, AEO, entity clarity, community-led citation) but not the underlying economics: organic is still the channel with the best lead quality, the lowest CAC at scale, and the only compounding curve.
+Yes — and the gap has widened in organic's favour. PipeRocket data across 53 B2B SaaS clients shows organic visitors convert to leads at 0.92% versus AI traffic's 0.26%, and organic drives 37X more absolute leads. AI search changes the shape of the work (GEO, [AEO](/glossary/what-is-aeo/), entity clarity, community-led citation) but not the underlying economics: organic is still the channel with the best lead quality, the lowest CAC at scale, and the only compounding curve.
 
 8. Should SaaS companies invest in programmatic SEO?
 

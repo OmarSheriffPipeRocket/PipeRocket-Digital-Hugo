@@ -105,7 +105,7 @@ The most common SEO mistakes for SaaS and B2B teams come from treating SEO as a 
 - Never updating content: Old pages lose rankings fast as competitors refresh and improve their own.
 - Measuring the wrong thing: Focusing on traffic volume alone leads to vanity metrics track leads, signups, and real conversions instead.
 
-**Here’s a real trade-off:** programmatic SEO (auto-generating hundreds of landing pages) can drive fast traffic, but thin, repetitive pages get penalized or deindexed. It’s worth it if you have real, data-rich variations (like geography or integrations), but a disaster for thin, generic use cases.
+**Here’s a real trade-off:** programmatic SEO (auto-generating hundreds of [landing pages](/glossary/what-is-a-landing-page/)) can drive fast traffic, but thin, repetitive pages get penalized or deindexed. It’s worth it if you have real, data-rich variations (like geography or integrations), but a disaster for thin, generic use cases.
 
 If you’re unsure whether your current agency is doing more harm than good, compare your strategy with the [top SaaS SEO agencies](/list/best-saas-seo-agencies/). They’ll show you what a full-stack, intent-driven approach actually looks like.
 

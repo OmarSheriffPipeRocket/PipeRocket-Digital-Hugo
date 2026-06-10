@@ -44,7 +44,7 @@ What this means in practice: Robots.txt isn’t just a “set and forget” file
 ### How to Create a robots.txt File Step by Step
 
 - Map your site’s structure: Identify which folders and URLs should be public, which are private, and which are low-value for search engines.
-- Prioritize critical SEO pages: List the core landing pages, blog posts, and product areas that must be crawlable for ranking.
+- Prioritize critical SEO pages: List the core [landing pages](/glossary/what-is-a-landing-page/), blog posts, and product areas that must be crawlable for ranking.
 - Write clear rules for user agents: Use “User-agent: \*” for all bots or specify names (like “User-agent: Googlebot”) for tailored access.
 - Block sensitive or duplicate paths: Add “Disallow:” lines for admin, login, checkout, test, and any duplicate or thin-content sections.
 - Test with robots.txt tools: Use Google Search Console’s robots.txt tester or tools from [top SaaS SEO agencies](/list/best-saas-seo-agencies/) to check for syntax errors and unintended blocks.

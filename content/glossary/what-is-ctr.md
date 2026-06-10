@@ -95,7 +95,7 @@ Every SaaS marketer wants higher CTR, but most chase it at the expense of actual
 - Test for intent: Run A/B tests on copy that speaks to pain points versus curiosity watch for conversion drop-off, not just click spike.
 - Qualify in your copy: Use pre-qualifiers (“For SaaS teams with >10 reps”) to filter out low-fit users even before the click.
 - Align offer to stage: Match your call-to-action to the buyer’s journey don’t push demos to cold prospects, offer value first.
-- Automate exclusion: Use negative keywords, audience exclusions, and placement filters to weed out irrelevant clicks before they hit your landing page.
+- Automate exclusion: Use negative keywords, audience exclusions, and placement filters to weed out irrelevant clicks before they hit your [landing page](/glossary/what-is-a-landing-page/).
 
 Warning: This works well for SaaS with clearly defined ICPs and high-ticket deals, where every click matters. For PLG SaaS or products with huge TAM, over-qualifying can choke your funnel and slow growth, because you miss out on edge-case power users.
 

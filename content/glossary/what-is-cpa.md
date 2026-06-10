@@ -142,7 +142,7 @@ A “good” CPA varies widely depending on your pricing, customer lifetime valu
 
 ### How can SaaS teams lower their CPA without hurting quality?
 
-You can lower CPA by improving ad targeting, optimizing landing pages, and tightening sales qualification. However, cutting spend too aggressively can backfire if it leads to low-intent signups or churn-prone users. The best approach is to chase higher LTV-to-CPA ratios not just the lowest headline CPA by focusing on channels and campaigns that deliver customers who stick and upgrade.
+You can lower CPA by improving ad targeting, optimizing [landing pages](/glossary/what-is-a-landing-page/), and tightening sales qualification. However, cutting spend too aggressively can backfire if it leads to low-intent signups or churn-prone users. The best approach is to chase higher LTV-to-CPA ratios not just the lowest headline CPA by focusing on channels and campaigns that deliver customers who stick and upgrade.
 
 ## The Bottom Line
 

@@ -32,7 +32,7 @@ Image alt text, or “alternative text,” is a written description added to an 
 - Definition: Alt text is the textual alternative that describes an image in HTML, using the alt attribute.
 - Accessibility: Screen readers use alt text to “read” images aloud for users who are blind or have low vision.
 - SEO impact: Search engines rely on alt text to index and rank images, impacting organic traffic and visibility.
-- Conversion role: Descriptive alt text can boost clarity on SaaS landing pages and improve conversion rates, especially when images fail to load.
+- Conversion role: Descriptive alt text can boost clarity on SaaS [landing pages](/glossary/what-is-a-landing-page/) and improve conversion rates, especially when images fail to load.
 - Content context: Alt text clarifies what an image adds to the surrounding copy, avoiding confusion for all users.
 
 Here’s the pattern interrupt: most teams slap generic phrases like “product screenshot” or “SaaS dashboard” into every image’s alt attribute. That’s a missed opportunity. Google’s John Mueller has repeatedly said that unique, descriptive alt text is a direct ranking signal for image and universal search. For instance, if your onboarding flow includes a screenshot of a “create team” modal, alt text like “Acme Cloud team creation modal with invite options” gives both Google and screen readers real context.

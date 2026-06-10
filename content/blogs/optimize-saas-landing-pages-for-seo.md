@@ -81,7 +81,7 @@ That specific detail needs to be plastered on the landing page. It shouldn’t b
 
 ## How to Optimize the Frontend of the SaaS Landing Page for Psychology?
 
-Once the content value proposition is locked, we develop that content into a frontend page. This is where the focus shifts heavily to **[Conversion Rate](/glossary/what-is-conversion-rate/) Optimization (CRO)**.
+Once the content value proposition is locked, we develop that content into a frontend page. This is where the focus shifts heavily to **[Conversion Rate](/glossary/what-is-conversion-rate/) Optimization ([CRO](/glossary/what-is-cro/))**.
 
 Many people think CRO is just changing button colors from red to green. That is nonsense. CRO is about reducing friction and increasing motivation through psychology.
 
@@ -238,7 +238,7 @@ The Value Proposition and USP (Unique Selling Proposition) are the non-negotiabl
 
 ### **2. How do I know if I should build a blog post or a product page to optimize SaaS landing pages for SEO?**
 
-You must do Search Validation before you write a single word. Put the keyword into Google; if the results are all blogs, you need a blog, but if they are product pages, you need a product page. You cannot successfully optimize SaaS landing pages for SEO if you fight the intent Google is already rewarding.
+You must do Search Validation before you write a single word. Put the keyword into Google; if the results are all blogs, you need a blog, but if they are product pages, you need a product page. You cannot successfully optimize SaaS [landing pages](/glossary/what-is-a-landing-page/) for SEO if you fight the intent Google is already rewarding.
 
 ### **3. What schema markups are essential when optimizing SaaS landing pages for SEO?**
 

@@ -159,7 +159,7 @@ Once that’s done, create a lead magnet. This could be a checklist, a template,
 
 ### 5. Set up lead capture and nurturing infrastructure
 
-Traffic is useless if you don’t convert it. Make sure your website has clear, helpful CTAs, frictionless forms, strategic landing pages, and a CRM that’s actually being used. 
+Traffic is useless if you don’t convert it. Make sure your website has clear, helpful CTAs, frictionless forms, strategic [landing pages](/glossary/what-is-a-landing-page/), and a CRM that’s actually being used. 
 
 Add marketing automation so new leads get nurtured automatically with emails, resources, and workflows tailored to their stage and intent. This is where strangers start becoming pipelines.
 

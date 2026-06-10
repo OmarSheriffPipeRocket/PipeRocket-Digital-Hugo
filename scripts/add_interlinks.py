@@ -286,6 +286,26 @@ LINK_MAP = [
     ("schema markup generators", "/list/best-schema-markup-tools-for-saas/", False, "P1"),
     ("SERP testing tools", "/list/best-serp-testing-tools-for-saas/", False, "P1"),
     ("rich results testing", "/list/best-serp-testing-tools-for-saas/", False, "P1"),
+    # ---- new pages added 2026-06-10 ----
+    # Glossaries
+    ("conversion rate optimization", "/glossary/what-is-cro/", False, "P2"),
+    ("CRO", "/glossary/what-is-cro/", True, "P2"),
+    ("A/B testing", "/glossary/what-is-ab-testing/", False, "P2"),
+    ("AB testing", "/glossary/what-is-ab-testing/", False, "P2"),
+    ("split testing", "/glossary/what-is-ab-testing/", False, "P2"),
+    ("landing page", "/glossary/what-is-a-landing-page/", False, "P2"),
+    ("landing pages", "/glossary/what-is-a-landing-page/", False, "P2"),
+    ("generative engine optimization", "/glossary/what-is-geo/", False, "P2"),
+    ("GEO", "/glossary/what-is-geo/", True, "P2"),
+    ("answer engine optimization", "/glossary/what-is-aeo/", False, "P2"),
+    ("AEO", "/glossary/what-is-aeo/", True, "P2"),
+    ("AI Overview", "/glossary/what-is-an-ai-overview/", False, "P2"),
+    ("AI Overviews", "/glossary/what-is-an-ai-overview/", False, "P2"),
+    # Tool listicles
+    ("CRO tools", "/list/best-cro-tools-saas/", False, "P1"),
+    ("conversion optimization tools", "/list/best-cro-tools-saas/", False, "P1"),
+    ("AI visibility tools", "/list/best-ai-visibility-tools/", False, "P1"),
+    ("AI visibility tracking tools", "/list/best-ai-visibility-tools/", False, "P1"),
 
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),

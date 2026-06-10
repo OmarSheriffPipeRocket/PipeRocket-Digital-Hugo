@@ -66,7 +66,7 @@ Each of those queries needs a different page, a different format, and a differen
 
 - Informational intent: The user wants to understand something. Blog posts, glossaries, and explainer guides serve this intent. These attract early-stage buyers who are still defining their problem.
 - Commercial investigation intent: The user is comparing options. Comparison pages, listicles, and “best X for Y” articles serve this intent. This is where shortlisting happens.
-- Transactional intent: The user is ready to act. Landing pages, free trial offers, and demo pages serve this intent. This is where conversion happens.
+- Transactional intent: The user is ready to act. [Landing pages](/glossary/what-is-a-landing-page/), free trial offers, and demo pages serve this intent. This is where conversion happens.
 
 Fast Fact: Organic search converts SaaS visitors at 0.92% more than 3x the rate of AI-driven traffic at 0.26%.
 

@@ -142,7 +142,7 @@ Bottom-of-funnel keywords are the goldmine terms, the ones that convert into a r
 
 These are the people closest to converting, and they often deliver the best CPQL and largest pipeline value.
 
-A clear, intent-driven keyword structure ensures your B2B PPC budget is allocated efficiently across awareness, consideration, and decision stages.
+A clear, intent-driven keyword structure ensures your B2B [PPC](/glossary/what-is-ppc/) budget is allocated efficiently across awareness, consideration, and decision stages.
 
 For the run-the-campaign view, see [how to run B2B PPC campaigns](/blogs/b2b-ppc-guide/ "How to Run B2B PPC Campaigns").
 
@@ -209,7 +209,7 @@ If your landing page makes everyone scroll around to “find themselves,” they
 
 ### 2. Proof
 
-B2B buyers require validation before engaging with a vendor. Strong landing pages include:
+B2B buyers require validation before engaging with a vendor. Strong [landing pages](/glossary/what-is-a-landing-page/) include:
 
 - Case studies with measurable outcomes.
 - Customer logos from recognized brands.

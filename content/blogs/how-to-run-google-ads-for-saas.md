@@ -136,7 +136,7 @@ We rebuilt their Google Ads account based on **intent**:
 - **Understanding the different use-cases:** We started by understanding the different ICPs and their pain points.
 - **Segmented by Use-case:** We built dedicated campaigns for each use-case so the messaging matched the specific user pain point.
 - **Funnel Segmentation:** We strictly grouped keywords by intent (ToFu vs MoFu vs BoFu) to ensure we weren’t paying premium prices for low-intent browsers.
-- **Message Alignment:** We rewrote ad copy to align with specific search queries and optimized landing pages based on user behavior analysis.
+- **Message Alignment:** We rewrote ad copy to align with specific search queries and optimized [landing pages](/glossary/what-is-a-landing-page/) based on user behavior analysis.
 
 ### The Results: Efficiency at Scale
 

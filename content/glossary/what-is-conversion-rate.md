@@ -70,7 +70,7 @@ Conversion rate matters because it’s the signal that your marketing, product, 
 - Pricing and packaging: Conversion rate dips can flag that your pricing page or offer structure isn’t matching user expectation or perceived value.
 - Retention link: Conversion isn’t just about new users upsells, cross-sells, and renewals are all conversion events that drive lifetime value.
 
-Here’s my take: most SaaS teams focus their experiments on homepage or ad landing pages, hoping for a bump. That’s backwards. The real impact comes from fixing the activation drop-off like getting trial users to their first value moment or from removing friction between trial and paid. If you only track the first conversion, you’re missing the story and leaving revenue on the table.
+Here’s my take: most SaaS teams focus their experiments on homepage or ad [landing pages](/glossary/what-is-a-landing-page/), hoping for a bump. That’s backwards. The real impact comes from fixing the activation drop-off like getting trial users to their first value moment or from removing friction between trial and paid. If you only track the first conversion, you’re missing the story and leaving revenue on the table.
 
 **Fast Fact:** Most SaaS companies don’t realize their “best converting” campaign produces users who never activate, so revenue stalls even as signups rise.
 
@@ -120,7 +120,7 @@ You improve conversion rate by removing friction, clarifying your offer, and mak
 
 ### Does conversion rate optimization (CRO) work for every SaaS?
 
-Conversion rate optimization works best when you have a clear funnel, enough traffic to test changes, and a product that solves a real problem for a defined audience. For early-stage SaaS with low traffic or unclear ICP, CRO often produces noise or false positives founders should focus more on product-market fit and qualitative feedback. For SaaS with established channels and enough data, systematic CRO is one of the highest-leverage ways to grow revenue without increasing spend.
+[Conversion rate optimization](/glossary/what-is-cro/) works best when you have a clear funnel, enough traffic to test changes, and a product that solves a real problem for a defined audience. For early-stage SaaS with low traffic or unclear ICP, CRO often produces noise or false positives founders should focus more on product-market fit and qualitative feedback. For SaaS with established channels and enough data, systematic CRO is one of the highest-leverage ways to grow revenue without increasing spend.
 
 ## The Bottom Line
 

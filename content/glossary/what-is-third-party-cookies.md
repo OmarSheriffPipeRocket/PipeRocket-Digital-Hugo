@@ -30,7 +30,7 @@ Third-party cookies are tracking files created by a domain other than the one th
 
 Here’s how the mechanics work: when a page loads, it often pulls in scripts from external services ad platforms, analytics tools, customer data platforms, live chat widgets. Each of those services can set their own cookies. Because those cookies belong to external domains, they can track you across any site that loads the same scripts.
 
-That’s the part most guides skim over. Third-party cookies aren’t just about ads. They’re the invisible infrastructure behind retargeting, cross-site analytics, A/B testing platforms, and attribution models. When they go away, it’s not just your Facebook pixel that breaks it’s your entire view of how users move through the web before they reach you.
+That’s the part most guides skim over. Third-party cookies aren’t just about ads. They’re the invisible infrastructure behind retargeting, cross-site analytics, [A/B testing](/glossary/what-is-ab-testing/) platforms, and attribution models. When they go away, it’s not just your Facebook pixel that breaks it’s your entire view of how users move through the web before they reach you.
 
 - Cross-site tracking: A single third-party cookie can follow a user across thousands of websites, building a behavioural profile without that user ever interacting with the tracking company directly.
 - Retargeting audiences: Ad platforms use these cookies to identify users who visited your site and serve them ads elsewhere the mechanism behind “why is this product following me around the internet.”

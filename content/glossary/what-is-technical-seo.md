@@ -140,7 +140,7 @@ What most SaaS teams get wrong: treating their site like a simple blog or brochu
 - App vs marketing site: Your main product lives behind a login Google can’t see it, so your public site has to tell the full story.
 - JavaScript-heavy pages: SPAs need extra configuration (like SSR or pre-rendering) so Googlebot can “see” the content instead of a blank shell.
 - Internationalization: SaaS sites with multiple languages or regions need correct hreflang tags and region-specific sitemaps.
-- Frequent changes: Feature launches, pricing updates, and new landing pages all risk breaking your technical setup if they’re not part of a process.
+- Frequent changes: Feature launches, pricing updates, and new [landing pages](/glossary/what-is-a-landing-page/) all risk breaking your technical setup if they’re not part of a process.
 - Third-party scripts: Chat widgets, analytics, and integrations can slow down your site or introduce unexpected crawl issues.
 
 Here’s a SaaS-specific pattern: Invoice Pilot, an invoicing platform for agencies, noticed Google was indexing test environments because noindex tags were missing from their staging site. Suddenly, duplicate pages appeared in search, confusing users and hurting rankings.

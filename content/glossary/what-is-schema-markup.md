@@ -122,7 +122,7 @@ Another common pattern: teams copy-paste code from competitors or schema generat
 - Letting plugins auto-generate everything: Plugins often miss business-specific fields or break during CMS updates custom code is more reliable for critical pages.
 - Failing to update: Schema needs to be updated as you add features, change pricing, or launch new content types outdated markup loses trust with search engines and users.
 
-Here’s a nuanced warning: Schema works well for SaaS with distinct feature sets or active review/testimonial programs. For single-feature tools or barebones landing pages, excessive schema can actually backfire Google may see it as “over-optimization” and suppress rich results.
+Here’s a nuanced warning: Schema works well for SaaS with distinct feature sets or active review/testimonial programs. For single-feature tools or barebones [landing pages](/glossary/what-is-a-landing-page/), excessive schema can actually backfire Google may see it as “over-optimization” and suppress rich results.
 
 The best SaaS teams treat schema markup as a living asset, not a one-off project. Keep it updated, audit it quarterly, and make sure it maps to both your business priorities and your users’ search intent.
 

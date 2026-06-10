@@ -224,7 +224,7 @@ Most people start with keywords, but effective SaaS SEO actually starts with **C
 1. **Prioritize Revenue over Volume:** Analyze keywords for conversion potential, not just search volume.
 2. **Build Topic Clusters:** Group keywords by intent to avoid cannibalization.
 3. **Write for AI:** creating content that answers conversational prompts with original insights.
-4. **Focus on CRO:** Use “Asset Exchanges” (like reports for emails) to nurture early-stage visitors.
+4. **Focus on [CRO](/glossary/what-is-cro/):** Use “Asset Exchanges” (like reports for emails) to nurture early-stage visitors.
 5. **Ensure Crawlability:** Keep the technical side simple—if Google can crawl and index it, you’re 90% there.
 
 ### **2. Why is my high-volume keyword traffic not converting into demos?**

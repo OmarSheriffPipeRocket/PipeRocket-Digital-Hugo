@@ -100,7 +100,7 @@ Now match topics to how people search.
 - Commercial: “best”, “vs”, “alternatives”.
 - Transactional: “pricing”, “demo”, “trial”.
 
-Group these into topic clusters around problems, features and jobs. This helps your SaaS Content Marketing show up in organic search, AI Overviews and answer boxes.
+Group these into topic clusters around problems, features and jobs. This helps your SaaS Content Marketing show up in organic search, [AI Overviews](/glossary/what-is-an-ai-overview/) and answer boxes.
 
 ### **5. Choose Content Formats & Distribution Channels**
 

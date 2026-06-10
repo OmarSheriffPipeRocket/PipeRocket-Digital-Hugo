@@ -164,7 +164,7 @@ We catch this on almost every campaign audit. The ad sets an expectation. The la
 ### **How to avoid it:**
 
 - Every campaign needs a landing page where the headline and messaging directly mirror the creative
-- If you have multiple products or solutions, build dedicated landing pages for each campaign — do not route all traffic to your homepage
+- If you have multiple products or solutions, build dedicated [landing pages](/glossary/what-is-a-landing-page/) for each campaign — do not route all traffic to your homepage
 - **Think of it this way**: if we ran a [SaaS-PPC](/blogs/saas-ppc/)-focused creative at PipeRocket and sent the click to an [SEO](/glossary/what-is-seo/) page, we wasted that click. Same logic applies to your product.
 
 ## **Mistake 7: Ignoring the “Recently Visited” Location Option**

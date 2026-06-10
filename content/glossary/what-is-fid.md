@@ -64,7 +64,7 @@ Here’s the catch: optimizing FID isn’t just about SEO. It’s about making e
 The biggest FID killer is main thread blocking usually from heavy JavaScript or analytics tags. Most teams assume compressing images or optimizing CSS will solve all speed issues, but the real culprit is often in your scripts.
 
 - Long JavaScript tasks: Scripts that take over 50ms to execute block the browser, delaying interaction response.
-- Third-party tags: Analytics, chat widgets, or A/B testing scripts can silently add hundreds of ms to FID.
+- Third-party tags: Analytics, chat widgets, or [A/B testing](/glossary/what-is-ab-testing/) scripts can silently add hundreds of ms to FID.
 - Non-critical scripts: Loading everything up front instead of deferring or lazy-loading scripts compounds the delay.
 - Heavy frameworks: Using frameworks like React or Angular without proper code-splitting can balloon main-thread time.
 - Inefficient event listeners: Attaching event handlers inefficiently or globally instead of directly can introduce extra latency.

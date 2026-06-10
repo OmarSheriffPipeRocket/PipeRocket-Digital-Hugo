@@ -66,7 +66,7 @@ Most people assume all anchor text works the same, but the reality is far more n
 - Naked URL: The full URL is used as anchor (“/saas-seo-agency/”).
 - Image anchor: When an image is hyperlinked, the alt text becomes the anchor.
 
-The ideal anchor profile is a blend. If you’re running dozens of links to a landing page, and every one uses “best SaaS SEO agency,” you’re waving a red flag for search engines. On the other hand, a mix of branded, partial-match, and descriptive anchors strengthens your topical map and makes your linking pattern look natural.
+The ideal anchor profile is a blend. If you’re running dozens of links to a [landing page](/glossary/what-is-a-landing-page/), and every one uses “best SaaS SEO agency,” you’re waving a red flag for search engines. On the other hand, a mix of branded, partial-match, and descriptive anchors strengthens your topical map and makes your linking pattern look natural.
 
 Consider Invo Sync, a SaaS invoicing tool. When they shifted from mostly generic and naked anchors (“click here,” “www.invosync.com”) to a blend of partial match (“automate invoicing with Invo Sync”) and branded anchors, their organic traffic grew by 19% in four months.
 

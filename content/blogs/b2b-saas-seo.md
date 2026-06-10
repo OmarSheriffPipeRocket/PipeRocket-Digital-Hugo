@@ -43,7 +43,7 @@ B2C brands pursue volume; B2B SaaS brands pursue alignment. The keywords with hi
 
 ### Align SEO with overall demand generation
 
-The most successful B2B SaaS businesses use [SEO](/glossary/what-is-seo/ "Glossary: SEO") not as a content generator, but as a source of revenue. This implies coordination of SEO with paid campaigns, lifecycle nurturing, email workflows, and sales enablement.
+The most successful B2B SaaS businesses use [SEO](/glossary/what-is-seo/ "Glossary: SEO") not as a content generator, but as a source of revenue. This implies coordination of [SEO](/glossary/what-is-seo/) with paid campaigns, lifecycle nurturing, email workflows, and sales enablement.
 
 ## 5 Factors to Consider for a B2B SaaS SEO Strategy
 
@@ -132,7 +132,7 @@ This is the phase of solution evaluation by prospects. Write use-case tutorials,
 
 ### **BOFU (Bottom-of-Funnel) Content**
 
-This is the place where conversions occur. Pay attention to product landing pages, case studies, and ROI calculators, as well as comparison pages such as ‘Asana vs Monday’ or ‘SOC 2 compliance tool pricing’. This content will be directed to the demo requests, trial sign-ups, and purchase decisions.
+This is the place where conversions occur. Pay attention to product [landing pages](/glossary/what-is-a-landing-page/), case studies, and ROI calculators, as well as comparison pages such as ‘Asana vs Monday’ or ‘SOC 2 compliance tool pricing’. This content will be directed to the demo requests, trial sign-ups, and purchase decisions.
 
 By adding these three layers together, you make a content system, not merely a group of isolated blog posts. This hierarchy spins motivated traffic throughout the hierarchy and develops a pipeline that supports actual business objectives, as opposed to basic SEO metrics.
 
