@@ -39,7 +39,7 @@ Picking the wrong agency when switching from WebFX costs more than a wasted quar
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV SaaS Customer Generation | [~$8,000/mo (reported)](https://directiveconsulting.com/pricing/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | KlientBoost | Performance PPC and CRO, no lock-in | [Custom via free plan](https://klientboost.com/pricing/) | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
 | Single Grain | Senior team, AI-search, boutique scale | [Custom, $10,000+ min](https://www.singlegrain.com/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
 | Power Digital | DTC and consumer growth marketing | [Custom pricing](https://powerdigitalmarketing.com/) | Yes | [4.8/5 (66 reviews)](https://clutch.co/profile/power-digital-marketing) |
@@ -199,7 +199,7 @@ Some early-stage teams find our $3,000/mo minimum above their initial budget ran
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Clutch Rating | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

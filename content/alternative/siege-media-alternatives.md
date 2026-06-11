@@ -39,7 +39,7 @@ Picking the wrong Siege Media alternative costs more than the retainer fee. It c
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Omniscient Digital | Surround Sound SEO and LLM citation | [~$8,000/mo](https://beomniscient.com) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
-| PipeRocket Digital | Full-funnel B2B SaaS SEO tied to pipeline | [$5,000/mo](/contact-us/) | Yes | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Full-funnel B2B SaaS SEO tied to pipeline | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Animalz | Editorial depth and thought leadership | [~$10,000/mo](https://www.animalz.co) | Yes | [No reviews on Clutch](https://clutch.co/profile/animalz) |
 | Grow and Convert | BOFU conversion attribution from organic | [~$10,000/mo](https://www.growandconvert.com) | Yes | [4.8/5 (9 reviews)](https://clutch.co/profile/grow-convert) |
 | Foundation Marketing | Content distribution across Reddit and LLMs | [Custom pricing](https://foundationinc.co) | Yes | [5.0/5 (14 reviews)](https://clutch.co/profile/foundation-marketing) |
@@ -199,7 +199,7 @@ Some non-SaaS buyers have found our strict ICP focus means we're not the right f
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes content audit and pipeline gap analysis |
-| Clutch Rating | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 
 

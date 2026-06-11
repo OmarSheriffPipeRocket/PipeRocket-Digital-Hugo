@@ -38,7 +38,7 @@ Choosing the wrong demand-gen partner costs more than the retainer. You risk a s
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV SaaS Customer Generation | [~$8,000/mo (reported)](https://directiveconsulting.com/pricing/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Powered by Search | B2B SaaS demand gen plus SEO and paid search | [Custom, $5,000+ min](https://www.poweredbysearch.com) | Yes | [4.8/5 (1,178 ratings, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/powered-search) |
 | Kalungi | Seed-to-Series B GTM-as-a-Service with fractional CMO | [Not public, reported ~$6,500-$45,000/mo](https://www.kalungi.com) | Yes | [4.8/5 (852 ratings, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/kalungi) |
 | KlientBoost | Performance PPC and CRO, no lock-in | [Custom via free plan](https://klientboost.com/pricing/) | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
@@ -201,7 +201,7 @@ Retainers start at $3,000/mo for a single-channel SaaS SEO or SaaS PPC engagemen
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Rating | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

@@ -42,7 +42,7 @@ NoGood's five-channel growth squad typically starts at $20,000/mo and requires e
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Single Grain | Full-service paid, SEO, and CRO | [$10,000/mo+](https://www.singlegrain.com) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
-| PipeRocket Digital | Pipeline-accountable SaaS SEO and PPC | [$3,000/mo](/contact-us/) | Yes | [4.9/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-accountable SaaS SEO and PPC | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Bay Leaf Digital | B2B SaaS with transparent pricing | [$3,999/mo](https://www.bayleafdigital.com/pricing/) | Yes | [5.0/5 (4 reviews)](https://clutch.co/profile/bay-leaf-digital) |
 | Refine Labs | Demand creation for enterprise SaaS | [$25,000/mo+](https://www.refinelabs.com) | Yes | No Clutch reviews |
 | Roketto | Inbound marketing with web design | [$10,000/mo+](https://www.helloroketto.com) | Yes | [4.6/5 (16 reviews)](https://clutch.co/profile/roketto) |
@@ -193,7 +193,7 @@ Some founders note our $3,000/mo minimum is higher than budget alternatives, and
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Clutch Rating | [4.9/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

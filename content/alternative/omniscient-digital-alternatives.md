@@ -39,7 +39,7 @@ Choosing the wrong content or SEO partner for your growth stage can cost six to 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Siege Media | Visual content and Digital PR for link earning | [Custom, ~$8,000/mo+](https://www.siegemedia.com) | Yes | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
-| PipeRocket Digital | SEO plus paid media in one SaaS retainer | [$3,000/mo](/contact-us/) | Yes | [4.9/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | SEO plus paid media in one SaaS retainer | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Animalz | Executive thought leadership for B2B SaaS | [Custom, ~$10,000/mo+](https://www.animalz.co) | Yes | No reviews on Clutch as of June 2026 |
 | Grow and Convert | Pain Point SEO and BOFU content | [$10,000/mo flat](https://www.growandconvert.com/content-marketing-service-agency/) | Yes | [4.8/5 (9 reviews)](https://clutch.co/profile/grow-convert) |
 | Foundation Marketing | LLM citation building and Reddit distribution | [Custom, ~$10,000/mo+](https://foundationinc.co) | Yes | [5.0/5 (14 reviews)](https://clutch.co/profile/foundation-marketing) |
@@ -204,7 +204,7 @@ We're upfront about being B2B SaaS-only, which means we turn away non-SaaS compa
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Clutch Rating | [4.9/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

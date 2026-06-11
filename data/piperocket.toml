@@ -1,0 +1,49 @@
+# PipeRocket Digital — canonical self-facts (SINGLE SOURCE OF TRUTH).
+#
+# Every content pipeline (listicle, alternatives, compare) MUST read PipeRocket's
+# own facts from here instead of hardcoding or copying from existing pages. This
+# kills cross-suite drift (e.g. one page saying 4.8/5 (11+) while another says
+# 4.7/5 (13), or "remote-first" vs "Chennai").
+#
+# RE-CHECK LIVE BEFORE PUBLISH: the Clutch rating + review count change over time.
+# Verify against the live Clutch profile and update `clutch_rating`,
+# `clutch_reviews`, and `last_verified` here — then all pipelines inherit it.
+
+name        = "PipeRocket Digital"
+founded     = "2023"
+hq          = "Chennai, India with US delivery"   # factual HQ of record (matches Clutch); not "remote-first"
+homepage    = "/"
+contact     = "/contact-us/"
+
+# Team — two distinct facets; pick the one that fits the slot, don't conflate them.
+team_size     = "30+"                                   # company headcount facet
+account_model = "senior-led pod, no junior handoff"     # how an account is staffed
+account_pod   = "strategist, SEO lead, paid media lead, content strategist"
+
+# Public rating — VERIFY LIVE before each publish.
+clutch_url     = "https://clutch.co/profile/piperocket-digital"
+clutch_rating  = "4.7"
+clutch_reviews = "13"
+rating_string  = "4.7/5 (13 reviews)"                   # the exact string to drop into a Rating cell
+last_verified  = "2026-06-11"
+
+# Positioning / scope
+specialization = "B2B SaaS only — SEO + PPC in one retainer; pipeline reporting (MQL, CAC, pipeline value) from week 4"
+clients_count  = "50+ B2B SaaS clients"
+clients_named  = "Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra"
+certifications = "Google Partner, Meta Business Partner"
+
+# Pricing
+pricing_start = "$3,000/mo"
+pricing_terms = "scope-based retainer, 3-month minimum then rolling, no setup fee, no markup on ad spend, free audit"
+
+# Shared testimonial (verified — Clutch)
+testimonial_quote  = "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months."
+testimonial_author = "Anusha, Founding Member, HyperVerge"
+
+# Case-study proof points (verified)
+case_studies = "HyperStart (SQO 4→11, cost/lead −73%); HyperVerge (MQLs 3.5x, 51 MQLs in 3 months, zero budget increase); Storylane (2.5x growth in a quarter, SQLs +25%, meetings +62%)"
+
+# Ranking rule reminder: in ranked pieces PipeRocket is #2, never #1.
+# See memory: feedback_piperocket_ranking_position.
+ranking_position = "2"

@@ -38,7 +38,7 @@ Choosing the wrong replacement costs more than a wasted quarter. You risk an age
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV SaaS Customer Generation | [~$8,000/mo (reported)](https://directiveconsulting.com/pricing/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | KlientBoost | Performance PPC and CRO, no lock-in | [Custom via free plan](https://klientboost.com/pricing/) | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
 | Omniscient Digital | B2B SaaS organic growth from day one | [$10,000/mo](https://beomniscient.com/) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
 | NoGood | Enterprise and funded SaaS growth squads | [$20,000+/mo](https://nogood.io/) | Yes | [4.8/5 (12 testimonials, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/nogood) |
@@ -201,7 +201,7 @@ Retainers start at $3,000/mo for a single-channel SaaS SEO or SaaS PPC engagemen
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Rating | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

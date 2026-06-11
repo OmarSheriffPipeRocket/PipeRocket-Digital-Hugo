@@ -42,7 +42,7 @@ Picking the wrong alternative costs more than the retainer itself: it costs the 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | Full-funnel Customer Generation for SaaS | [Custom pricing](https://directiveconsulting.com/startup-package/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | Unified SEO and PPC for B2B SaaS | [$3,000/mo](/contact-us/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Unified SEO and PPC for B2B SaaS | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Single Grain | AI-first multi-channel growth marketing | [Custom pricing](https://www.singlegrain.com) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
 | NoGood | Squad-embedded growth for VC-backed startups | [Custom pricing](https://nogood.io) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
 | Disruptive Advertising | Month-to-month paid and CRO management | [Custom pricing](https://disruptiveadvertising.com) | Yes | [4.8/5 (365 reviews)](https://clutch.co/profile/disruptive-advertising) |
@@ -202,7 +202,7 @@ Some early-stage startups find the $5,000/mo SaaS SEO floor higher than budget a
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Clutch Rating | [4.8/5 (12 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 
 

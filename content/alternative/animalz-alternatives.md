@@ -38,7 +38,7 @@ Picking the wrong agency when leaving Animalz costs more than a wasted quarter. 
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | Omniscient Digital | B2B SaaS content plus pipeline attribution | [$10,000/mo](https://beomniscient.com/services/faqs/) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
-| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Siege Media | Content and link building with GEO layer | [~$8,000/mo (reported)](https://www.siegemedia.com/creation/content-marketing-cost) | Yes | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
 | Grow and Convert | Pain Point SEO driving trials and demos | [$10,000/mo](https://clutch.co/profile/grow-convert) | Yes | [4.8/5 (9 reviews)](https://clutch.co/profile/grow-convert) |
 | Foundation Marketing | Thought leadership with distribution strategy | [~$8,000/mo (reported)](https://clutch.co/profile/foundation-marketing) | Yes | [5.0/5 (14 reviews)](https://clutch.co/profile/foundation-marketing) |
@@ -181,7 +181,7 @@ Retainers start at $3,000/mo for single-channel SaaS SEO or SaaS PPC, scaling to
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Rating | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

@@ -38,7 +38,7 @@ Leaving a well-regarded agency like Powered by Search without a clear reason is 
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV SaaS Customer Generation | [~$8,000/mo (reported)](https://directiveconsulting.com/pricing/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Refine Labs | Pipeline-first demand gen for Series B-plus | [$20,000/mo](https://www.refinelabs.com/pricing) | Yes | [4.8/5 (4 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/refine-labs) |
 | Kalungi | Fractional CMO plus GTM for pre-Series B | [Custom pricing](https://www.kalungi.com) | Yes | [4.8/5 (52 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/kalungi) |
 | Skale | SEO-only, revenue-tied organic for SaaS | [$5,000/mo](https://www.skale.so) | Yes | [4.9/5 (16 reviews)](https://clutch.co/profile/skale-0) |
@@ -191,7 +191,7 @@ Retainers start at $3,000/mo for a single-channel SaaS SEO or SaaS PPC engagemen
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Rating | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

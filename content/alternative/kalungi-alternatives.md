@@ -39,7 +39,7 @@ Choosing the wrong agency when leaving Kalungi costs more than a missed quarter.
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV SaaS Customer Generation | [~$8,000/mo (reported)](https://clutch.co/profile/directive-consulting) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Omniscient Digital | B2B SaaS organic growth and GEO | [$10,000/mo](https://beomniscient.com) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
 | SimpleTiger | SaaS-only SEO and PPC execution | [Custom, $5,000+ min](https://www.simpletiger.com/pricing) | Yes | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
 | Skale | SaaS SEO tied to MRR and signups | [~$8,000/mo](https://www.skale.so) | Yes | [4.9/5 (16 reviews)](https://clutch.co/profile/skale-0) |
@@ -195,7 +195,7 @@ Early-stage teams find our $3,000/mo minimum above their initial budget, and tea
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Rating | [4.8/5 (11+ reviews)](https://clutch.co/profile/piperocket-digital) |
+| Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
