@@ -118,9 +118,9 @@ GENERATED_LINK_MAP = [
     ("best legaltech marketing agencies", "/list/best-legaltech-marketing-agencies/", False, "P1"),  # Best 10 LegalTech Marketing Agencies: An Honest 2026 Review
     ("top legaltech marketing agencies", "/list/best-legaltech-marketing-agencies/", False, "P1"),  # Best 10 LegalTech Marketing Agencies: An Honest 2026 Review
     ("LegalTech Marketing Agencies", "/list/best-legaltech-marketing-agencies/", False, "P1"),  # Best 10 LegalTech Marketing Agencies: An Honest 2026 Review
-    ("best linkedin marketing agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # 10 LinkedIn Marketing Agencies Ranked in 2026
-    ("top linkedin marketing agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # 10 LinkedIn Marketing Agencies Ranked in 2026
-    ("Linkedin Marketing Agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # 10 LinkedIn Marketing Agencies Ranked in 2026
+    ("best linkedin marketing agencies", "/list/best-linkedin-marketing-agencies/", False, "P1"),  # 10 LinkedIn Marketing Agencies Ranked in 2026
+    ("top linkedin marketing agencies", "/list/best-linkedin-marketing-agencies/", False, "P1"),  # 10 LinkedIn Marketing Agencies Ranked in 2026
+    ("Linkedin Marketing Agencies", "/list/best-linkedin-marketing-agencies/", False, "P1"),  # 10 LinkedIn Marketing Agencies Ranked in 2026
     ("best martech marketing agencies", "/list/best-martech-marketing-agencies/", False, "P1"),  # 10 Best Martech Marketing Agencies in 2026 (Honest Review)
     ("top martech marketing agencies", "/list/best-martech-marketing-agencies/", False, "P1"),  # 10 Best Martech Marketing Agencies in 2026 (Honest Review)
     ("Martech Marketing Agencies", "/list/best-martech-marketing-agencies/", False, "P1"),  # 10 Best Martech Marketing Agencies in 2026 (Honest Review)
@@ -178,9 +178,9 @@ GENERATED_LINK_MAP = [
     ("best saas seo experts", "/list/saas-seo-experts/", False, "P1"),  # 13 Best SaaS SEO Experts & Consultants in 2026
     ("top saas seo experts", "/list/saas-seo-experts/", False, "P1"),  # 13 Best SaaS SEO Experts & Consultants in 2026
     ("SAAS SEO Experts", "/list/saas-seo-experts/", False, "P1"),  # 13 Best SaaS SEO Experts & Consultants in 2026
-    ("best b2b ppc agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # The Top 10 B2B PPC Agencies You Need to Consider in 2026
-    ("top b2b ppc agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # The Top 10 B2B PPC Agencies You Need to Consider in 2026
-    ("B2B PPC Agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # The Top 10 B2B PPC Agencies You Need to Consider in 2026
+    ("best b2b ppc agencies", "/list/best-affordable-b2b-ppc-agencies/", False, "P1"),  # The Top 10 B2B PPC Agencies You Need to Consider in 2026
+    ("top b2b ppc agencies", "/list/best-affordable-b2b-ppc-agencies/", False, "P1"),  # The Top 10 B2B PPC Agencies You Need to Consider in 2026
+    ("B2B PPC Agencies", "/list/best-affordable-b2b-ppc-agencies/", False, "P1"),  # The Top 10 B2B PPC Agencies You Need to Consider in 2026
     ("best fintech marketing agencies", "/list/top-fintech-marketing-agencies/", False, "P1"),  # Best Fintech Marketing Agencies in 2026
     ("top fintech marketing agencies", "/list/top-fintech-marketing-agencies/", False, "P1"),  # Best Fintech Marketing Agencies in 2026
     ("Fintech Marketing Agencies", "/list/top-fintech-marketing-agencies/", False, "P1"),  # Best Fintech Marketing Agencies in 2026

@@ -42,7 +42,7 @@ Consider a B2B SaaS tool for legal teams. They run retargeting ads on Linked In 
 
 The contrarian read here: most SaaS marketers treat cookie deprecation as a future problem. It’s not. Safari blocked third-party cookies in 2017. Firefox followed. A meaningful chunk of your audience has been invisible to your retargeting stack for years you just didn’t know it because your reporting never flagged it.
 
-Also read: [how top B2B PPC agencies are adapting paid strategies to cookieless targeting](/list/top-b2b-ppc-agencies/)
+Also read: [how top B2B PPC agencies are adapting paid strategies to cookieless targeting](/list/best-affordable-b2b-ppc-agencies/)
 
 ## Why Are Third-Party Cookies Being Phased Out?
 

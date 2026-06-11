@@ -43,7 +43,7 @@ What this means in practice: using ad platform ROAS without adjusting for churn,
 
 **Fast Fact:** SaaS brands that optimize ROAS using customer LTV, not just first-month revenue, consistently outgrow those that stick to “last click” ad reporting.
 
-**Also read:** [how top B2B PPC agencies approach paid SaaS growth](/list/top-b2b-ppc-agencies/)
+**Also read:** [how top B2B PPC agencies approach paid SaaS growth](/list/best-affordable-b2b-ppc-agencies/)
 
 ### How to Calculate and Use ROAS in SaaS
 

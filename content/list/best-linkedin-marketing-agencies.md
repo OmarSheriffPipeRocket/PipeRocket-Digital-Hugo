@@ -20,7 +20,7 @@ relatedLinks:
     url: "/list/best-saas-ppc-agencies/"
     description: "10 agencies ranked on pipeline attribution and pricing transparency."
   - title: "Top B2B PPC agencies"
-    url: "/list/top-b2b-ppc-agencies/"
+    url: "/list/best-affordable-b2b-ppc-agencies/"
     description: "10 agencies ranked on B2B pipeline depth and verified Clutch evidence."
 ---
 

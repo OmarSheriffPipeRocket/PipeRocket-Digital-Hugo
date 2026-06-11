@@ -53,7 +53,10 @@ def read_frontmatter(filepath: Path):
     fm = parts[1]
     title = slug = url = None
     for line in fm.splitlines():
-        m = re.match(r'\s*(title|slug|url):\s*"?([^"]+?)"?\s*$', line)
+        # Only top-level (unindented) keys — otherwise nested structures like
+        # `relatedLinks:` get their `url:` scooped as if it were the page's own
+        # URL (this mis-mapped LinkedIn anchors to a B2B-PPC page). No leading \s*.
+        m = re.match(r'(title|slug|url):\s*"?([^"]+?)"?\s*$', line)
         if not m: continue
         key, val = m.group(1), m.group(2)
         if key == "title": title = val
@@ -142,6 +145,13 @@ def clean_service_anchors(title: str, slug: str):
     return [slug.replace("-", " ").title()] if slug else []
 
 
+# Pages kept on disk but consolidated into another URL via a forced 301 — never
+# emit them as link targets (the live file still exists, so without this they'd
+# be re-added on every regen and re-introduce the cannibalization we just fixed).
+CONSOLIDATED_SLUGS = {
+    "top-b2b-ppc-agencies",  # → /list/best-affordable-b2b-ppc-agencies/ (2026-06-11)
+}
+
 # ----- Walk content & emit -----
 
 def collect_targets():
@@ -162,6 +172,7 @@ def collect_targets():
         if f.name == "_index.md": continue
         slug, title, url = read_frontmatter(f)
         if not slug: continue
+        if slug in CONSOLIDATED_SLUGS: continue  # consolidated → don't link to it
         # Listicles often have `url:` overrides — prefer that
         target = url if (url and url.startswith("/list/")) else f"/list/{slug}/"
         if not target.startswith("/list/"):

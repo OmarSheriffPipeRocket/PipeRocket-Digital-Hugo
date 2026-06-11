@@ -71,7 +71,7 @@ An effective ICP is grounded in real, data-backed customer patterns not wishful 
 
 The real trade-off: narrowing your ICP feels risky. You’ll say no to a lot of “possible” deals. But the payoff is higher NRR, shorter sales cycles, and less resource drain on accounts that were never likely to stick. It’s worth it if your retention and expansion metrics are lagging, even if top-of-funnel lead numbers go down.
 
-**Also read:** [top B2B PPC agencies for account-based marketing](/list/top-b2b-ppc-agencies/)
+**Also read:** [top B2B PPC agencies for account-based marketing](/list/best-affordable-b2b-ppc-agencies/)
 
 ## How Do You Build and Validate an ICP in Practice?
 

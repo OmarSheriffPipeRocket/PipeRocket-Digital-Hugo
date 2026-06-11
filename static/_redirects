@@ -48,7 +48,7 @@
 /blogs/best-saas-ppc-agencies/                          /list/best-saas-ppc-agencies/                           301
 /blogs/best-b2b-marketing-agencies/                     /list/best-b2b-marketing-agencies/                      301
 /blogs/best-enterprise-seo-agencies/                    /list/best-enterprise-seo-agencies/                     301
-/blogs/top-b2b-ppc-agencies/                            /list/top-b2b-ppc-agencies/                             301
+/blogs/top-b2b-ppc-agencies/                            /list/best-affordable-b2b-ppc-agencies/                 301
 /blogs/best-b2b-google-ads-agencies/                    /list/best-b2b-google-ads-agencies/                     301
 /blogs/best-b2b-content-marketing-agencies/             /list/best-b2b-content-marketing-agencies/              301
 /blogs/best-saas-geo-agencies/                          /list/best-saas-geo-agencies/                           301
@@ -74,7 +74,7 @@
 /blog/best-b2b-lead-generation-agencies/                /list/best-b2b-lead-generation-companies/               301
 /blog/best-b2b-linkedin-ads-agencies/                   /list/best-linkedin-marketing-agencies/                 301
 /blog/best-b2b-marketing-agencies/                      /list/best-b2b-marketing-agencies/                      301
-/blog/best-b2b-ppc-agencies/                            /list/top-b2b-ppc-agencies/                             301
+/blog/best-b2b-ppc-agencies/                            /list/best-affordable-b2b-ppc-agencies/                 301
 /blog/best-b2b-saas-seo-agencies/                       /list/best-saas-seo-agencies/                           301
 /blog/best-b2b-seo-agencies/                            /list/best-b2b-seo-agencies/                            301
 /blog/best-b2b-social-media-marketing-agencies/         /list/                                                  301
@@ -96,7 +96,7 @@
 /seo/best-b2b-google-ads-agencies/                      /list/best-b2b-google-ads-agencies/                     301
 /seo/best-b2b-linkedin-ads-agencies/                    /list/best-linkedin-marketing-agencies/                 301
 /seo/best-b2b-marketing-agencies/                       /list/best-b2b-marketing-agencies/                      301
-/seo/best-b2b-ppc-agencies/                             /list/top-b2b-ppc-agencies/                             301
+/seo/best-b2b-ppc-agencies/                             /list/best-affordable-b2b-ppc-agencies/                 301
 /seo/best-enterprise-seo-agencies/                      /list/best-enterprise-seo-agencies/                     301
 /seo/best-linkedin-marketing-agencies/                  /list/best-linkedin-marketing-agencies/                 301
 /seo/best-performance-marketing-agencies/               /list/top-performance-marketing-agencies/               301
@@ -132,6 +132,7 @@
 #  D. Decommissioned URLs (thin content + legacy WP paths)
 # ============================================================
 
+/list/top-b2b-ppc-agencies/                                  /list/best-affordable-b2b-ppc-agencies/                      301!
 /blog/                                                       /blogs/                                                      301
 /gtm-lp/                                                     /                                                            301
 /saas-seo/                                                   /saas-seo-agency/                                            301

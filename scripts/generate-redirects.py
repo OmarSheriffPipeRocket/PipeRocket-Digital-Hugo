@@ -60,7 +60,7 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/blogs/best-saas-ppc-agencies/",                  "/list/best-saas-ppc-agencies/"),
     ("/blogs/best-b2b-marketing-agencies/",             "/list/best-b2b-marketing-agencies/"),
     ("/blogs/best-enterprise-seo-agencies/",            "/list/best-enterprise-seo-agencies/"),
-    ("/blogs/top-b2b-ppc-agencies/",                    "/list/top-b2b-ppc-agencies/"),
+    ("/blogs/top-b2b-ppc-agencies/",                    "/list/best-affordable-b2b-ppc-agencies/"),
     ("/blogs/best-b2b-google-ads-agencies/",            "/list/best-b2b-google-ads-agencies/"),
     ("/blogs/best-b2b-content-marketing-agencies/",     "/list/best-b2b-content-marketing-agencies/"),
     ("/blogs/best-saas-geo-agencies/",                  "/list/best-saas-geo-agencies/"),
@@ -90,7 +90,7 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/blog/best-b2b-lead-generation-agencies/",        "/list/best-b2b-lead-generation-companies/"),
     ("/blog/best-b2b-linkedin-ads-agencies/",           "/list/best-linkedin-marketing-agencies/"),
     ("/blog/best-b2b-marketing-agencies/",              "/list/best-b2b-marketing-agencies/"),
-    ("/blog/best-b2b-ppc-agencies/",                    "/list/top-b2b-ppc-agencies/"),
+    ("/blog/best-b2b-ppc-agencies/",                    "/list/best-affordable-b2b-ppc-agencies/"),
     ("/blog/best-b2b-saas-seo-agencies/",               "/list/best-saas-seo-agencies/"),
     ("/blog/best-b2b-seo-agencies/",                    "/list/best-b2b-seo-agencies/"),
     ("/blog/best-b2b-social-media-marketing-agencies/", "/list/"),
@@ -113,7 +113,7 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/seo/best-b2b-google-ads-agencies/",              "/list/best-b2b-google-ads-agencies/"),
     ("/seo/best-b2b-linkedin-ads-agencies/",            "/list/best-linkedin-marketing-agencies/"),
     ("/seo/best-b2b-marketing-agencies/",               "/list/best-b2b-marketing-agencies/"),
-    ("/seo/best-b2b-ppc-agencies/",                     "/list/top-b2b-ppc-agencies/"),
+    ("/seo/best-b2b-ppc-agencies/",                     "/list/best-affordable-b2b-ppc-agencies/"),
     ("/seo/best-enterprise-seo-agencies/",              "/list/best-enterprise-seo-agencies/"),
     ("/seo/best-linkedin-marketing-agencies/",          "/list/best-linkedin-marketing-agencies/"),
     ("/seo/best-performance-marketing-agencies/",       "/list/top-performance-marketing-agencies/"),
@@ -180,6 +180,11 @@ WP_KILL_PATHS = [
 #
 # Catch-alls go last so more specific curated rules above always win.
 DECOMMISSIONED_PATHS = [
+    # Consolidation: /list/top-b2b-ppc-agencies/ lost the B2B-PPC cluster to
+    # /list/best-affordable-b2b-ppc-agencies/ (Google ranks the latter for nearly
+    # every shared query, incl. "top b2b ppc agencies"). Page file kept; FORCED
+    # 301 (!) so the redirect fires over the live page without deleting it.
+    ("/list/top-b2b-ppc-agencies/",     "/list/best-affordable-b2b-ppc-agencies/", "301!"),
     # Curated section-level redirects (preserve link equity)
     ("/blog/",                          "/blogs/", 301),
     ("/gtm-lp/",                        "/",       301),

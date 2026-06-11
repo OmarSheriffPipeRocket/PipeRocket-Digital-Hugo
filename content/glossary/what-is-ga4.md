@@ -139,7 +139,7 @@ Fast Fact: Most teams spend the majority of their time in the standard Reports s
 
 The reporting in GA4 is more powerful than Universal Analytics in most respects, but it requires more setup to get there. Out of the box, the standard reports are fairly surface-level. The real value is in Explorations, which takes some time to learn but is worth the investment.
 
-Also read: [top B2B PPC agencies that use GA4 data to optimise paid campaigns](/list/top-b2b-ppc-agencies/)
+Also read: [top B2B PPC agencies that use GA4 data to optimise paid campaigns](/list/best-affordable-b2b-ppc-agencies/)
 
 ## What Are the Biggest Mistakes SaaS Teams Make With GA4?
 

@@ -109,7 +109,7 @@ Working with a specialist [SaaS PPC agency](/saas-ppc/) during a tight runway pe
 
 The trade-off is real: cutting spend too aggressively kills the pipeline that would have saved you. Cutting nothing when the numbers are genuinely bad is denial. The answer is surgical know exactly what each dollar is doing before you decide whether to cut it.
 
-Also read: [top B2B PPC agencies for efficient paid acquisition](/list/top-b2b-ppc-agencies/)
+Also read: [top B2B PPC agencies for efficient paid acquisition](/list/best-affordable-b2b-ppc-agencies/)
 
 ## Why Does Runway Matter More Than Most Founders Realise?
 
