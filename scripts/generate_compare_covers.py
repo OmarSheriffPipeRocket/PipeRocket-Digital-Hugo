@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content" / "compare"
 OUT_DIR = ROOT / "static" / "images" / "compare-covers"
 
-FONT_TITLE = str(ROOT / "static" / "fonts" / "IvyPresto-Headline-SemiBold.otf")
+FONT_TITLE = str(ROOT / "static" / "fonts" / "IvyPresto-Headline-SemiBold.woff2")
 FONT_BRAND = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
 LOGO_PNG = ROOT / "static" / "images" / "piperocket-logo@800.png"
 

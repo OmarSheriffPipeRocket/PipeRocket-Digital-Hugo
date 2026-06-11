@@ -213,6 +213,7 @@ sources:
   - { id: 7, title: "Disruptive Advertising — industries served", url: "https://disruptiveadvertising.com/industry/", accessed: "June 2026" }
   - { id: 8, title: "Disruptive Advertising — Google Premier Partner 2022", url: "https://disruptiveadvertising.com/blog/marketing/disruptive-advertising-named-google-premier-partner-2022/", accessed: "June 2026" }
   - { id: 9, title: "Disruptive Advertising — pricing review (third-party, groas.com)", url: "https://www.groas.com/post/disruptive-advertising-pricing-review-2026-monthly-retainer-groas-alternative", accessed: "June 2026" }
+featuredImage: "/images/compare-covers/klientboost-vs-disruptive-advertising.webp"
 ---
 
 ## Decision matrix — who fits which side

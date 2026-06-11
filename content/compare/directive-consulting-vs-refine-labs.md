@@ -201,6 +201,7 @@ sources:
   - { id: 7, title: "Clutch — Refine Labs profile (0 reviews)", url: "https://clutch.co/profile/refine-labs", accessed: "June 2026" }
   - { id: 8, title: "Refine Labs — ownership update (Walker exit, Bowen majority owner)", url: "https://www.refinelabs.com/article/megan-ownership-update", accessed: "June 2026" }
   - { id: 9, title: "Refine Labs — customer stories", url: "https://www.refinelabs.com/customer-stories", accessed: "June 2026" }
+featuredImage: "/images/compare-covers/directive-consulting-vs-refine-labs.webp"
 ---
 
 ## Decision matrix — who fits which side

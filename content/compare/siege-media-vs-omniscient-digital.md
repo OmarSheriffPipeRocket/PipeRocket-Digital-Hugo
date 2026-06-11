@@ -199,6 +199,7 @@ sources:
   - { id: 7, title: "Omniscient Digital — case studies", url: "https://beomniscient.com/case-studies/", accessed: "June 2026" }
   - { id: 8, title: "Clutch — Omniscient Digital profile (4.8, 5 reviews)", url: "https://clutch.co/profile/omniscient-digital", accessed: "June 2026" }
   - { id: 9, title: "HubSpot Marketplace — Omniscient Digital (Solutions Provider)", url: "https://ecosystem.hubspot.com/marketplace/solutions/omniscient", accessed: "June 2026" }
+featuredImage: "/images/compare-covers/siege-media-vs-omniscient-digital.webp"
 ---
 
 ## Decision matrix — who fits which side

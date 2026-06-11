@@ -215,6 +215,7 @@ sources:
   - { id: 7, title: "Skale — SaaS SEO agency page", url: "https://skale.so/saas-seo-agency/", accessed: "June 2026" }
   - { id: 8, title: "Clutch — Skale profile (4.9, 16 reviews)", url: "https://clutch.co/profile/skale-0", accessed: "June 2026" }
   - { id: 9, title: "Skale — client stories", url: "https://skale.so/stories/", accessed: "June 2026" }
+featuredImage: "/images/compare-covers/simpletiger-vs-skale.webp"
 ---
 
 ## Decision matrix — who fits which side

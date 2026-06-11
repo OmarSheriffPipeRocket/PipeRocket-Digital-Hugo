@@ -188,6 +188,7 @@ sources:
   - { id: 7, title: "Animalz — case studies", url: "https://www.animalz.co/blog/category/case-studies", accessed: "June 2026" }
   - { id: 8, title: "Clutch — Animalz profile", url: "https://clutch.co/profile/animalz", accessed: "June 2026" }
   - { id: 9, title: "Animalz — about / leadership", url: "https://www.animalz.co/about", accessed: "June 2026" }
+featuredImage: "/images/compare-covers/siege-media-vs-animalz.webp"
 ---
 
 ## Decision matrix — who fits which side
