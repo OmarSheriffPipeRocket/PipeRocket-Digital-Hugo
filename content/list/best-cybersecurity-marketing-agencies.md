@@ -827,6 +827,8 @@ Kalungi is the right call when you're funded but CMO-less; the wrong fit when yo
 
 ---
 
+If Kalungi isn't quite the fit, check our [Kalungi alternatives](/alternative/kalungi-alternatives/) shortlist.
+
 ## Red Flags to Watch for When Choosing a Cybersecurity Marketing Agency
 
 ### They don't understand the cybersecurity buyer's trust problem

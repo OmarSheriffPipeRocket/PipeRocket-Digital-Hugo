@@ -768,6 +768,8 @@ Powered by Search doesn't publish list pricing; Clutch lists $200 to $300 per ho
 
 ---
 
+If Powered by Search isn't quite the fit, check our [Powered by Search alternatives](/alternative/powered-by-search-alternatives/) shortlist.
+
 ## FAQs
 
 ### How much should a Series A SaaS company budget for SEO?

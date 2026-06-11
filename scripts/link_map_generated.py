@@ -18,21 +18,34 @@ GENERATED_LINK_MAP = [
     ("Webfx", "/compare/piperocket-digital-vs-webfx/", False, "P0"),  # WebFX — about / team
     ("Directive Consulting", "/compare/piperocket-vs-directive-consulting/", False, "P0"),  # Crunchbase — Directive Consulting — founded 2014
 
-    # ---- alternative targets (12 entries) ----
+    # ---- alternative targets (22 entries) ----
+    ("Animalz alternatives", "/alternative/animalz-alternatives/", False, "P1"),  # 9 Best Animalz Alternatives in 2026
+    ("Animalz", "/alternative/animalz-alternatives/", False, "P1"),  # 9 Best Animalz Alternatives in 2026
     ("Directive Consulting alternatives", "/alternative/directive-consulting-alternatives/", False, "P1"),  # 10 Best Directive Consulting Alternatives in 2026
     ("Directive Consulting", "/alternative/directive-consulting-alternatives/", False, "P1"),  # 10 Best Directive Consulting Alternatives in 2026
+    ("Kalungi alternatives", "/alternative/kalungi-alternatives/", False, "P1"),  # 10 Best Kalungi Alternatives in 2026
+    ("Kalungi", "/alternative/kalungi-alternatives/", False, "P1"),  # 10 Best Kalungi Alternatives in 2026
     ("Klientboost alternatives", "/alternative/klientboost-alternatives/", False, "P1"),  # 9 Best KlientBoost Alternatives in 2026
     ("Klientboost", "/alternative/klientboost-alternatives/", False, "P1"),  # 9 Best KlientBoost Alternatives in 2026
     ("Nogood alternatives", "/alternative/nogood-alternatives/", False, "P1"),  # 9 Best NoGood Alternatives in 2026
     ("Nogood", "/alternative/nogood-alternatives/", False, "P1"),  # 9 Best NoGood Alternatives in 2026
     ("Omniscient Digital alternatives", "/alternative/omniscient-digital-alternatives/", False, "P1"),  # 10 Best Omniscient Digital Alternatives in 2026
     ("Omniscient Digital", "/alternative/omniscient-digital-alternatives/", False, "P1"),  # 10 Best Omniscient Digital Alternatives in 2026
+    ("Powered By Search alternatives", "/alternative/powered-by-search-alternatives/", False, "P1"),  # 9 Best Powered by Search Alternatives in 2026
+    ("Powered By Search", "/alternative/powered-by-search-alternatives/", False, "P1"),  # 9 Best Powered by Search Alternatives in 2026
+    ("Refine Labs alternatives", "/alternative/refine-labs-alternatives/", False, "P1"),  # 9 Best Refine Labs Alternatives in 2026
+    ("Refine Labs", "/alternative/refine-labs-alternatives/", False, "P1"),  # 9 Best Refine Labs Alternatives in 2026
     ("Siege Media alternatives", "/alternative/siege-media-alternatives/", False, "P1"),  # 10 Best Siege Media Alternatives in 2026
     ("Siege Media", "/alternative/siege-media-alternatives/", False, "P1"),  # 10 Best Siege Media Alternatives in 2026
+    ("Single Grain alternatives", "/alternative/single-grain-alternatives/", False, "P1"),  # 9 Best Single Grain Alternatives in 2026
+    ("Single Grain", "/alternative/single-grain-alternatives/", False, "P1"),  # 9 Best Single Grain Alternatives in 2026
     ("Webfx alternatives", "/alternative/webfx-alternatives/", False, "P1"),  # 10 Best WebFX Alternatives in 2026
     ("Webfx", "/alternative/webfx-alternatives/", False, "P1"),  # 10 Best WebFX Alternatives in 2026
 
-    # ---- listicle targets (99 entries) ----
+    # ---- listicle targets (147 entries) ----
+    ("best b2b ppc experts", "/list/b2b-ppc-experts/", False, "P1"),  # 13 Best B2B PPC Experts & Consultants in 2026
+    ("top b2b ppc experts", "/list/b2b-ppc-experts/", False, "P1"),  # 13 Best B2B PPC Experts & Consultants in 2026
+    ("B2B PPC Experts", "/list/b2b-ppc-experts/", False, "P1"),  # 13 Best B2B PPC Experts & Consultants in 2026
     ("best aeo agency", "/list/best-aeo-agency/", False, "P1"),  # 12 Best Answer Engine Optimization (AEO) Agencies in the USA 2026
     ("top aeo agency", "/list/best-aeo-agency/", False, "P1"),  # 12 Best Answer Engine Optimization (AEO) Agencies in the USA 2026
     ("AEO Agency", "/list/best-aeo-agency/", False, "P1"),  # 12 Best Answer Engine Optimization (AEO) Agencies in the USA 2026
@@ -42,6 +55,9 @@ GENERATED_LINK_MAP = [
     ("best ai seo agencies", "/list/best-ai-seo-agencies/", False, "P1"),  # 10 Best AI SEO Agencies for 2026 (Honest Review)
     ("top ai seo agencies", "/list/best-ai-seo-agencies/", False, "P1"),  # 10 Best AI SEO Agencies for 2026 (Honest Review)
     ("AI SEO Agencies", "/list/best-ai-seo-agencies/", False, "P1"),  # 10 Best AI SEO Agencies for 2026 (Honest Review)
+    ("best ai visibility tools", "/list/best-ai-visibility-tools/", False, "P1"),  # Best 9 AI Visibility Tracking Tools: An Honest 2026 Review
+    ("top ai visibility tools", "/list/best-ai-visibility-tools/", False, "P1"),  # Best 9 AI Visibility Tracking Tools: An Honest 2026 Review
+    ("AI Visibility Tools", "/list/best-ai-visibility-tools/", False, "P1"),  # Best 9 AI Visibility Tracking Tools: An Honest 2026 Review
     ("best b2b advertising agencies", "/list/best-b2b-advertising-agencies/", False, "P1"),  # The Best B2B Advertising Agencies (2026 Rankings)
     ("top b2b advertising agencies", "/list/best-b2b-advertising-agencies/", False, "P1"),  # The Best B2B Advertising Agencies (2026 Rankings)
     ("B2B Advertising Agencies", "/list/best-b2b-advertising-agencies/", False, "P1"),  # The Best B2B Advertising Agencies (2026 Rankings)
@@ -63,6 +79,9 @@ GENERATED_LINK_MAP = [
     ("best b2b seo agencies", "/list/best-b2b-seo-agencies/", False, "P1"),  # My Picks for the Top 11 B2B SEO Agencies to Improve Pipeline
     ("top b2b seo agencies", "/list/best-b2b-seo-agencies/", False, "P1"),  # My Picks for the Top 11 B2B SEO Agencies to Improve Pipeline
     ("B2B SEO Agencies", "/list/best-b2b-seo-agencies/", False, "P1"),  # My Picks for the Top 11 B2B SEO Agencies to Improve Pipeline
+    ("best cro tools saas", "/list/best-cro-tools-saas/", False, "P1"),  # 8 Best CRO Tools for SaaS: An Honest 2026 Review
+    ("top cro tools saas", "/list/best-cro-tools-saas/", False, "P1"),  # 8 Best CRO Tools for SaaS: An Honest 2026 Review
+    ("Cro Tools SAAS", "/list/best-cro-tools-saas/", False, "P1"),  # 8 Best CRO Tools for SaaS: An Honest 2026 Review
     ("best cybersecurity marketing agencies", "/list/best-cybersecurity-marketing-agencies/", False, "P1"),  # Best Cybersecurity Marketing Agencies in 2026
     ("top cybersecurity marketing agencies", "/list/best-cybersecurity-marketing-agencies/", False, "P1"),  # Best Cybersecurity Marketing Agencies in 2026
     ("Cybersecurity Marketing Agencies", "/list/best-cybersecurity-marketing-agencies/", False, "P1"),  # Best Cybersecurity Marketing Agencies in 2026
@@ -75,15 +94,30 @@ GENERATED_LINK_MAP = [
     ("best enterprise seo agencies", "/list/best-enterprise-seo-agencies/", False, "P1"),  # My Picks for the Top 10 Enterprise SEO Agencies in 2026
     ("top enterprise seo agencies", "/list/best-enterprise-seo-agencies/", False, "P1"),  # My Picks for the Top 10 Enterprise SEO Agencies in 2026
     ("Enterprise SEO Agencies", "/list/best-enterprise-seo-agencies/", False, "P1"),  # My Picks for the Top 10 Enterprise SEO Agencies in 2026
+    ("best free keyword research tools", "/list/best-free-keyword-research-tools/", False, "P1"),  # 7 Best Free Keyword Research Tools in 2026
+    ("top free keyword research tools", "/list/best-free-keyword-research-tools/", False, "P1"),  # 7 Best Free Keyword Research Tools in 2026
+    ("Free Keyword Research Tools", "/list/best-free-keyword-research-tools/", False, "P1"),  # 7 Best Free Keyword Research Tools in 2026
     ("best geo agencies", "/list/best-geo-agencies/", False, "P1"),  # 12 Best GEO Agencies for 2026 (Honest Review)
     ("top geo agencies", "/list/best-geo-agencies/", False, "P1"),  # 12 Best GEO Agencies for 2026 (Honest Review)
     ("GEO Agencies", "/list/best-geo-agencies/", False, "P1"),  # 12 Best GEO Agencies for 2026 (Honest Review)
     ("best healthtech marketing agencies", "/list/best-healthtech-marketing-agencies/", False, "P1"),  # 9 Best HealthTech Marketing Agencies in 2026
     ("top healthtech marketing agencies", "/list/best-healthtech-marketing-agencies/", False, "P1"),  # 9 Best HealthTech Marketing Agencies in 2026
     ("HealthTech Marketing Agencies", "/list/best-healthtech-marketing-agencies/", False, "P1"),  # 9 Best HealthTech Marketing Agencies in 2026
+    ("best heatmap session recording tools for saas", "/list/best-heatmap-session-recording-tools-for-saas/", False, "P1"),  # 5 Best Heatmap & Session Recording Tools for SaaS (2026)
+    ("top heatmap session recording tools for saas", "/list/best-heatmap-session-recording-tools-for-saas/", False, "P1"),  # 5 Best Heatmap & Session Recording Tools for SaaS (2026)
+    ("Heatmap Session Recording Tools For SAAS", "/list/best-heatmap-session-recording-tools-for-saas/", False, "P1"),  # 5 Best Heatmap & Session Recording Tools for SaaS (2026)
     ("best hr tech marketing agencies", "/list/best-hr-tech-marketing-agencies/", False, "P1"),  # 11 Best HR Tech Marketing Agencies in 2026
     ("top hr tech marketing agencies", "/list/best-hr-tech-marketing-agencies/", False, "P1"),  # 11 Best HR Tech Marketing Agencies in 2026
     ("HR Tech Marketing Agencies", "/list/best-hr-tech-marketing-agencies/", False, "P1"),  # 11 Best HR Tech Marketing Agencies in 2026
+    ("best keyword clustering tools", "/list/best-keyword-clustering-tools/", False, "P1"),  # 7 Best Keyword Clustering Tools for SaaS in 2026
+    ("top keyword clustering tools", "/list/best-keyword-clustering-tools/", False, "P1"),  # 7 Best Keyword Clustering Tools for SaaS in 2026
+    ("Keyword Clustering Tools", "/list/best-keyword-clustering-tools/", False, "P1"),  # 7 Best Keyword Clustering Tools for SaaS in 2026
+    ("best landing page builders for saas", "/list/best-landing-page-builders-for-saas/", False, "P1"),  # 7 Best Landing Page Builders for SaaS (2026)
+    ("top landing page builders for saas", "/list/best-landing-page-builders-for-saas/", False, "P1"),  # 7 Best Landing Page Builders for SaaS (2026)
+    ("Landing Page Builders For SAAS", "/list/best-landing-page-builders-for-saas/", False, "P1"),  # 7 Best Landing Page Builders for SaaS (2026)
+    ("best legaltech marketing agencies", "/list/best-legaltech-marketing-agencies/", False, "P1"),  # Best 10 LegalTech Marketing Agencies: An Honest 2026 Review
+    ("top legaltech marketing agencies", "/list/best-legaltech-marketing-agencies/", False, "P1"),  # Best 10 LegalTech Marketing Agencies: An Honest 2026 Review
+    ("LegalTech Marketing Agencies", "/list/best-legaltech-marketing-agencies/", False, "P1"),  # Best 10 LegalTech Marketing Agencies: An Honest 2026 Review
     ("best linkedin marketing agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # 10 LinkedIn Marketing Agencies Ranked in 2026
     ("top linkedin marketing agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # 10 LinkedIn Marketing Agencies Ranked in 2026
     ("Linkedin Marketing Agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # 10 LinkedIn Marketing Agencies Ranked in 2026
@@ -93,6 +127,9 @@ GENERATED_LINK_MAP = [
     ("best proptech marketing agencies", "/list/best-proptech-marketing-agencies/", False, "P1"),  # 11 Best Proptech Marketing Agencies in 2026 (Honest Review)
     ("top proptech marketing agencies", "/list/best-proptech-marketing-agencies/", False, "P1"),  # 11 Best Proptech Marketing Agencies in 2026 (Honest Review)
     ("Proptech Marketing Agencies", "/list/best-proptech-marketing-agencies/", False, "P1"),  # 11 Best Proptech Marketing Agencies in 2026 (Honest Review)
+    ("best rank tracking tools for saas", "/list/best-rank-tracking-tools-for-saas/", False, "P1"),  # 7 Best Rank Tracking Tools for SaaS (2026)
+    ("top rank tracking tools for saas", "/list/best-rank-tracking-tools-for-saas/", False, "P1"),  # 7 Best Rank Tracking Tools for SaaS (2026)
+    ("Rank Tracking Tools For SAAS", "/list/best-rank-tracking-tools-for-saas/", False, "P1"),  # 7 Best Rank Tracking Tools for SaaS (2026)
     ("best saas content marketing agencies", "/list/best-saas-content-marketing-agencies/", False, "P1"),  # 10 Best SaaS Content Marketing Agencies for 2026 (Honest Review)
     ("top saas content marketing agencies", "/list/best-saas-content-marketing-agencies/", False, "P1"),  # 10 Best SaaS Content Marketing Agencies for 2026 (Honest Review)
     ("SaaS Content Marketing Agencies", "/list/best-saas-content-marketing-agencies/", False, "P1"),  # 10 Best SaaS Content Marketing Agencies for 2026 (Honest Review)
@@ -111,15 +148,36 @@ GENERATED_LINK_MAP = [
     ("best saas ppc agencies", "/list/best-saas-ppc-agencies/", False, "P1"),  # 10 Best SaaS PPC Agencies in 2026
     ("top saas ppc agencies", "/list/best-saas-ppc-agencies/", False, "P1"),  # 10 Best SaaS PPC Agencies in 2026
     ("SaaS PPC Agencies", "/list/best-saas-ppc-agencies/", False, "P1"),  # 10 Best SaaS PPC Agencies in 2026
+    ("best saas seo agencies", "/list/best-saas-seo-agencies-for-product-led-growth/", False, "P1"),  # Best 11 SaaS SEO Agencies for Product-Led Growth: An Honest 2026 Review
+    ("top saas seo agencies", "/list/best-saas-seo-agencies-for-product-led-growth/", False, "P1"),  # Best 11 SaaS SEO Agencies for Product-Led Growth: An Honest 2026 Review
+    ("SaaS SEO Agencies", "/list/best-saas-seo-agencies-for-product-led-growth/", False, "P1"),  # Best 11 SaaS SEO Agencies for Product-Led Growth: An Honest 2026 Review
+    ("best saas seo agencies", "/list/best-saas-seo-agencies-for-sales-led-growth/", False, "P1"),  # Best 11 SaaS SEO Agencies for Sales-Led Growth: An Honest 2026 Review
+    ("top saas seo agencies", "/list/best-saas-seo-agencies-for-sales-led-growth/", False, "P1"),  # Best 11 SaaS SEO Agencies for Sales-Led Growth: An Honest 2026 Review
+    ("SaaS SEO Agencies", "/list/best-saas-seo-agencies-for-sales-led-growth/", False, "P1"),  # Best 11 SaaS SEO Agencies for Sales-Led Growth: An Honest 2026 Review
+    ("best saas seo agencies", "/list/best-saas-seo-agencies-for-series-a/", False, "P1"),  # Best 11 SaaS SEO Agencies for Series A Companies: An Honest 2026 Review
+    ("top saas seo agencies", "/list/best-saas-seo-agencies-for-series-a/", False, "P1"),  # Best 11 SaaS SEO Agencies for Series A Companies: An Honest 2026 Review
+    ("SaaS SEO Agencies", "/list/best-saas-seo-agencies-for-series-a/", False, "P1"),  # Best 11 SaaS SEO Agencies for Series A Companies: An Honest 2026 Review
+    ("best saas seo agencies", "/list/best-saas-seo-agencies-for-series-b/", False, "P1"),  # Best 11 SaaS SEO Agencies for Series B Companies: An Honest 2026 Review
+    ("top saas seo agencies", "/list/best-saas-seo-agencies-for-series-b/", False, "P1"),  # Best 11 SaaS SEO Agencies for Series B Companies: An Honest 2026 Review
+    ("SaaS SEO Agencies", "/list/best-saas-seo-agencies-for-series-b/", False, "P1"),  # Best 11 SaaS SEO Agencies for Series B Companies: An Honest 2026 Review
     ("best saas seo agencies", "/list/best-saas-seo-agencies-for-startups/", False, "P1"),  # Best 12 SaaS SEO Agencies for Startups: An Honest 2026 Review
     ("top saas seo agencies", "/list/best-saas-seo-agencies-for-startups/", False, "P1"),  # Best 12 SaaS SEO Agencies for Startups: An Honest 2026 Review
     ("SaaS SEO Agencies", "/list/best-saas-seo-agencies-for-startups/", False, "P1"),  # Best 12 SaaS SEO Agencies for Startups: An Honest 2026 Review
     ("best saas seo agencies", "/list/best-saas-seo-agencies/", False, "P1"),  # Best 11 SaaS SEO Agencies: An Honest 2026 Review
     ("top saas seo agencies", "/list/best-saas-seo-agencies/", False, "P1"),  # Best 11 SaaS SEO Agencies: An Honest 2026 Review
     ("SaaS SEO Agencies", "/list/best-saas-seo-agencies/", False, "P1"),  # Best 11 SaaS SEO Agencies: An Honest 2026 Review
+    ("best schema markup tools for saas", "/list/best-schema-markup-tools-for-saas/", False, "P1"),  # 5 Best Schema Markup Tools for SaaS (2026): And When You Don't Need One
+    ("top schema markup tools for saas", "/list/best-schema-markup-tools-for-saas/", False, "P1"),  # 5 Best Schema Markup Tools for SaaS (2026): And When You Don't Need One
+    ("Schema Markup Tools For SAAS", "/list/best-schema-markup-tools-for-saas/", False, "P1"),  # 5 Best Schema Markup Tools for SaaS (2026): And When You Don't Need One
+    ("best serp testing tools for saas", "/list/best-serp-testing-tools-for-saas/", False, "P1"),  # 7 Best SERP & Rich Results Testing Tools for SaaS (2026)
+    ("top serp testing tools for saas", "/list/best-serp-testing-tools-for-saas/", False, "P1"),  # 7 Best SERP & Rich Results Testing Tools for SaaS (2026)
+    ("Serp Testing Tools For SAAS", "/list/best-serp-testing-tools-for-saas/", False, "P1"),  # 7 Best SERP & Rich Results Testing Tools for SaaS (2026)
     ("best technical seo agencies", "/list/best-technical-seo-agencies/", False, "P1"),  # The 9 Best Technical SEO Agencies for 2026
     ("top technical seo agencies", "/list/best-technical-seo-agencies/", False, "P1"),  # The 9 Best Technical SEO Agencies for 2026
     ("Technical SEO Agencies", "/list/best-technical-seo-agencies/", False, "P1"),  # The 9 Best Technical SEO Agencies for 2026
+    ("best saas seo experts", "/list/saas-seo-experts/", False, "P1"),  # 13 Best SaaS SEO Experts & Consultants in 2026
+    ("top saas seo experts", "/list/saas-seo-experts/", False, "P1"),  # 13 Best SaaS SEO Experts & Consultants in 2026
+    ("SAAS SEO Experts", "/list/saas-seo-experts/", False, "P1"),  # 13 Best SaaS SEO Experts & Consultants in 2026
     ("best b2b ppc agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # The Top 10 B2B PPC Agencies You Need to Consider in 2026
     ("top b2b ppc agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # The Top 10 B2B PPC Agencies You Need to Consider in 2026
     ("B2B PPC Agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),  # The Top 10 B2B PPC Agencies You Need to Consider in 2026
@@ -133,7 +191,7 @@ GENERATED_LINK_MAP = [
     ("top performance marketing agencies", "/list/top-performance-marketing-agencies/", False, "P1"),  # 9 Best Performance Marketing Agencies in 2026 (Honest Review)
     ("Performance Marketing Agencies", "/list/top-performance-marketing-agencies/", False, "P1"),  # 9 Best Performance Marketing Agencies in 2026 (Honest Review)
 
-    # ---- blog targets (40 entries) ----
+    # ---- blog targets (49 entries) ----
     ("Ultimate Guide to B2B Content Marketing", "/blogs/b2b-content-marketing-guide/", False, "P1"),  # The Ultimate Guide to B2B Content Marketing
     ("Ultimate Guide to B2B Demand Generation", "/blogs/b2b-demand-generation-guide/", False, "P1"),  # The Ultimate Guide to B2B Demand Generation
     ("B2B Inbound Marketing – The Ultimate Guide", "/blogs/b2b-inbound-marketing-guide/", False, "P1"),  # B2B Inbound Marketing – The Ultimate Guide
@@ -150,12 +208,21 @@ GENERATED_LINK_MAP = [
     ("Enterprise SEO Strategies: Complete 7-step Framework for", "/blogs/enterprise-seo-strategy-and-framework/", False, "P1"),  # Enterprise SEO Strategies: Complete 7-step Framework for 2026
     ("Fintech SEO: Everything You Need to Know", "/blogs/fintech-seo-guide/", False, "P1"),  # Fintech SEO: Everything You Need to Know
     ("How do I Run LinkedIn Ads for SaaS (An Expert’s Take)", "/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/", False, "P1"),  # How do I Run LinkedIn Ads for SaaS (An Expert’s Take)
+    ("How to Build Topic Clusters That Rank a SaaS Site", "/blogs/how-to-build-topic-clusters/", False, "P1"),  # How to Build Topic Clusters That Rank a SaaS Site
+    ("Search Volume vs Search Intent", "/blogs/how-to-choose-search-volume-vs-search-intent/", False, "P1"),  # Search Volume vs Search Intent: How to Choose for SaaS
+    ("How to Do a Keyword Gap Analysis vs SaaS Competitors", "/blogs/how-to-do-keyword-gap-analysis/", False, "P1"),  # How to Do a Keyword Gap Analysis vs SaaS Competitors
     ("How to Run a SaaS Content Audit That Actually Moves Rankings", "/blogs/how-to-do-saas-content-audit/", False, "P1"),  # How to Run a SaaS Content Audit That Actually Moves Rankings
     ("How I Do Competitor Analysis for SaaS SEO in", "/blogs/how-to-do-saas-seo-competitor-analysis/", False, "P1"),  # How I Do Competitor Analysis for SaaS SEO in 2026
     ("How I Do SaaS SEO Keyword Research in", "/blogs/how-to-do-saas-seo-keyword-research/", False, "P1"),  # How I Do SaaS SEO Keyword Research in 2026?
+    ("How to Find and Fix Keyword Cannibalization on a SaaS Site", "/blogs/how-to-fix-keyword-cannibalization/", False, "P1"),  # How to Find and Fix Keyword Cannibalization on a SaaS Site
+    ("How to Map Keywords to the SaaS Buyer Journey", "/blogs/how-to-map-keywords-to-saas-buyer-journey/", False, "P1"),  # How to Map Keywords to the SaaS Buyer Journey
+    ("How to Prioritize SaaS Keywords by Funnel Stage", "/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/", False, "P1"),  # How to Prioritize SaaS Keywords by Funnel Stage
+    ("How to Rank BOFU Keywords for SaaS (A Practitioner's Playbook)", "/blogs/how-to-rank-bofu-keywords-saas/", False, "P1"),  # How to Rank BOFU Keywords for SaaS (A Practitioner's Playbook)
+    ("How to Rank MOFU Keywords for SaaS", "/blogs/how-to-rank-mofu-keywords-saas/", False, "P1"),  # How to Rank MOFU Keywords for SaaS
     ("How to Rank on ChatGPT in : Strategies and Tips", "/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips/", False, "P1"),  # How to Rank on ChatGPT in 2026: Strategies and Tips
     ("Google Ads for SaaS Guide: Based on 10+ Years of Experience", "/blogs/how-to-run-google-ads-for-saas/", False, "P1"),  # Google Ads for SaaS Guide: Based on 10+ Years of Experience
     ("How to Run LinkedIn Retargeting Ads in", "/blogs/how-to-run-linkedin-retargeting-ads/", False, "P1"),  # How to Run LinkedIn Retargeting Ads in 2026?
+    ("How to Score SaaS Keywords by ICP Intent (Not Volume)", "/blogs/how-to-score-saas-keywords-by-icp-intent/", False, "P1"),  # How to Score SaaS Keywords by ICP Intent (Not Volume)
     ("How to Write Google Ads Copy for SaaS in", "/blogs/how-to-write-google-ads-copy-for-saas-in-2026/", False, "P1"),  # How to Write Google Ads Copy for SaaS in 2026?
     ("How to Write SaaS Comparison Pages for SEO", "/blogs/how-to-write-saas-comparison-pages-for-seo/", False, "P1"),  # How to Write SaaS Comparison Pages for SEO?
     ("How to Write SaaS SEO Content with AI (That Actually Ranks)", "/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks/", False, "P1"),  # How to Write SaaS SEO Content with AI (That Actually Ranks)
@@ -170,10 +237,10 @@ GENERATED_LINK_MAP = [
     ("SaaS PPC", "/blogs/saas-ppc/", False, "P1"),  # SaaS PPC: A Complete Guide for 2025
     ("My SaaS SEO Checklist for : An Experience-based Guide", "/blogs/saas-seo-checklist/", False, "P1"),  # My SaaS SEO Checklist for 2026: An Experience-based Guide
     ("SaaS SEO Strategies: Complete 8-step Framework for", "/blogs/saas-seo-strategies-and-framework/", False, "P1"),  # SaaS SEO Strategies: Complete 8-step Framework for 2026
-    ("SaaS SEO", "/blogs/saas-seo-v2/", False, "P1"),  # SaaS SEO: The 8-Step Pipeline Strategy for 2026 (v2)
-    ("SaaS SEO: My 7-step Strategy for", "/blogs/saas-seo/", False, "P1"),  # SaaS SEO: My 7-step Strategy for 2026
+    ("SaaS SEO", "/blogs/saas-seo/", False, "P1"),  # SaaS SEO: The 8-Step Pipeline Strategy for 2026
     ("8 Common SaaS Google Ads Mistakes to Avoid in", "/blogs/the-8-common-saas-google-ads-mistakes-to-avoid-in-2026/", False, "P1"),  # The 8 Common SaaS Google Ads Mistakes to Avoid in 2026
     ("No-Nonsense Guide to Auditing Your SaaS PPC Account", "/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account/", False, "P1"),  # The No-Nonsense Guide to Auditing Your SaaS PPC Account
+    ("Types of Keywords in SEO (with SaaS Examples)", "/blogs/types-of-keywords-in-seo/", False, "P1"),  # Types of Keywords in SEO (with SaaS Examples)
 
     # ---- service targets (3 entries) ----
     ("B2B SaaS SEO Agency | Pipeline-First Organic Growth", "/saas-seo-agency/", False, "P1"),  # B2B SaaS SEO Agency | Pipeline-First Organic Growth

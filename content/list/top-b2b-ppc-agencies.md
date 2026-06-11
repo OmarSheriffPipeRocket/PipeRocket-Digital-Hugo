@@ -320,6 +320,8 @@ With 12 reviews on [Clutch](https://clutch.co/profile/single-grain), it's harder
 | Free Consultation | Yes |
 | Clutch Rating | 4.8/5 (12 reviews) |
 
+Also weighing Single Grain? See our roundup of the [best Single Grain alternatives](/alternative/single-grain-alternatives/).
+
 ### 5. Disruptive Advertising
 
 Best for: Brands with existing campaigns leaking budget on bad keywords.

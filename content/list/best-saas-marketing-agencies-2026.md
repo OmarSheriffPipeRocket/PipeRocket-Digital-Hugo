@@ -318,6 +318,8 @@ Kalungi's fractional CMO retainer starts around $10,000/mo with full GTM engagem
 | Free Consultation | Yes, GTM diagnostic call |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
+If Kalungi isn't quite the fit, check our [Kalungi alternatives](/alternative/kalungi-alternatives/) shortlist.
+
 ### 5. Refine Labs
 
 Best for: $50M+ ARR SaaS migrating from MQL farming to modern dark-funnel demand generation.
@@ -381,6 +383,8 @@ Refine Labs publishes pricing as of June 2026, which is rare for this category a
 | --- | --- |
 | Free Consultation | Yes, scoped intake |
 | Clutch Rating | Verified on Clutch (0 reviews) |
+
+Looking at Refine Labs too? Browse the [top Refine Labs alternatives](/alternative/refine-labs-alternatives/).
 
 ### 6. KlientBoost
 
@@ -512,6 +516,8 @@ Single Grain retainers run $10,000 to $30,000+/mo for multi-channel scope as of 
 | Free Consultation | Yes, intake call |
 | Clutch Rating | 4.8/5 (12 reviews) |
 
+Also weighing Single Grain? See our roundup of the [best Single Grain alternatives](/alternative/single-grain-alternatives/).
+
 ### 8. SimpleTiger
 
 Best for: SaaS-exclusive SEO where senior leadership touches every account.
@@ -639,6 +645,8 @@ Animalz pricing isn't published as of June 2026. Clutch lists a $10,000+ minimum
 | --- | --- |
 | Free Consultation | Yes, scoped intake |
 | Clutch Rating | Verified on Clutch (0 reviews) |
+
+If Animalz isn't quite the fit, check our [Animalz alternatives](/alternative/animalz-alternatives/) shortlist.
 
 ## FAQs
 

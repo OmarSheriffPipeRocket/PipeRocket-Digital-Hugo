@@ -658,6 +658,8 @@ Kalungi's documented project minimum is $25,000 with hourly rates of $100-$149, 
 | Free Consultation | Yes |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
+Also weighing Kalungi? See our roundup of the [best Kalungi alternatives](/alternative/kalungi-alternatives/).
+
 ### 10. SEO-GrowUp
 
 Best for: HR tech vendors wanting a UK-based SEO and GEO specialist

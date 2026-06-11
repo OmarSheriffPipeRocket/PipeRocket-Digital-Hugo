@@ -310,6 +310,8 @@ Buyers verifying through [the Clutch profile](https://clutch.co/profile/powered-
 | Free Consultation | Yes, strategy call before scoping |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
+If Powered by Search isn't quite the fit, check our [Powered by Search alternatives](/alternative/powered-by-search-alternatives/) shortlist.
+
 ### 5. Bounty Hunter
 
 Best for: B2B SaaS that want public tiered pricing and SQL-level optimization.
@@ -497,6 +499,8 @@ The [pricing page is a 404](https://www.singlegrain.com), so procurement teams c
 | --- | --- |
 | Free Consultation | Yes, strategy call to scope |
 | Clutch Rating | 4.8/5 (12 reviews) |
+
+Looking at Single Grain too? Browse the [top Single Grain alternatives](/alternative/single-grain-alternatives/).
 
 ### 8. NoGood
 
@@ -688,6 +692,8 @@ The [Clutch profile](https://clutch.co/profile/kalungi) is live but holds no ver
 | --- | --- |
 | Free Consultation | Yes, fractional CMO scoping call |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
+
+Also weighing Kalungi? See our roundup of the [best Kalungi alternatives](/alternative/kalungi-alternatives/).
 
 ## FAQs
 

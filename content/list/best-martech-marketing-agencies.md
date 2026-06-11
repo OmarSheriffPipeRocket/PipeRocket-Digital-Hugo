@@ -258,6 +258,8 @@ Refine Labs publishes pricing as of June 2026, which is unusual. Engagement star
 | Free Consultation | Yes, paid assessment as entry |
 | Clutch Rating | Verified on Clutch (0 reviews) |
 
+Looking at Refine Labs too? Browse the [top Refine Labs alternatives](/alternative/refine-labs-alternatives/).
+
 ### 4. SmartBug Media
 
 {{< agency-triptych slug="smartbug-media" name="SmartBug Media" >}}
@@ -588,6 +590,8 @@ Powered by Search bills $200 to $300/hr with a $5,000+ minimum project as of Jun
 | Free Consultation | Yes |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
+Also weighing Powered by Search? See our roundup of the [best Powered by Search alternatives](/alternative/powered-by-search-alternatives/).
+
 ### 9. Kalungi
 
 {{< agency-triptych slug="kalungi" name="Kalungi" >}}
@@ -653,6 +657,8 @@ Kalungi bills $100 to $149/hr with a $25,000+ minimum project as of June 2026. R
 | --- | --- |
 | Free Consultation | Yes |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
+
+If Kalungi isn't quite the fit, check our [Kalungi alternatives](/alternative/kalungi-alternatives/) shortlist.
 
 ### 10. Cremarc
 

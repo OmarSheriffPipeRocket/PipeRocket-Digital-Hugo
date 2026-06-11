@@ -252,6 +252,8 @@ As of June 2026, Powered by Search publishes no retainer rate. [Clutch](https://
 | Free Consultation | Yes, strategy call available |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
+Also weighing Powered by Search? See our roundup of the [best Powered by Search alternatives](/alternative/powered-by-search-alternatives/).
+
 ### 4. Perceptric
 
 Best for: B2B SaaS SEO with published, tiered pricing rare for this category.
@@ -379,6 +381,8 @@ As of June 2026, Animalz publishes no public pricing. [Clutch](https://clutch.co
 | --- | --- |
 | Free Consultation | Yes, discovery call available |
 | Clutch Rating | Verified on Clutch (0 reviews) |
+
+If Animalz isn't quite the fit, check our [Animalz alternatives](/alternative/animalz-alternatives/) shortlist.
 
 ### 6. EveryDeveloper
 
@@ -636,6 +640,8 @@ As of June 2026, Refine Labs publishes no public pricing. [Clutch](https://clutc
 | Free Consultation | Yes, strategy call gated by form |
 | Clutch Rating | Verified on Clutch (0 reviews) |
 
+Looking at Refine Labs too? Browse the [top Refine Labs alternatives](/alternative/refine-labs-alternatives/).
+
 ### 10. Kalungi
 
 Best for: Fractional CMO leadership for VC-backed B2B SaaS, devtools by stage fit.
@@ -699,6 +705,8 @@ As of June 2026, Kalungi structures three published tiers. Coaching engagements 
 | --- | --- |
 | Free Consultation | Yes, discovery call available |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
+
+Also weighing Kalungi? See our roundup of the [best Kalungi alternatives](/alternative/kalungi-alternatives/).
 
 ## FAQs
 

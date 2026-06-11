@@ -371,6 +371,8 @@ Single Grain wins when you want one agency to own paid plus content; the wrong f
 
 ---
 
+Also weighing Single Grain? See our roundup of the [best Single Grain alternatives](/alternative/single-grain-alternatives/).
+
 ### 5. Disruptive Advertising
 
 Best for: Mid-Market B2B Companies Ready to Scale Paid Search Quickly With Hands-On Account Management

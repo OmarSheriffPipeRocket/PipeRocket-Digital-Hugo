@@ -42,6 +42,13 @@ AGENCIES = {
         "/compare/piperocket-digital-vs-webfx/",
         "/alternative/webfx-alternatives/",
     ),
+    # Alt-only agencies (have an /alternative/ page but no /compare/ page yet).
+    # cmp_url is None — these render via ALT_ONLY_TEMPLATES.
+    "Kalungi": (None, "/alternative/kalungi-alternatives/"),
+    "Animalz": (None, "/alternative/animalz-alternatives/"),
+    "Powered by Search": (None, "/alternative/powered-by-search-alternatives/"),
+    "Refine Labs": (None, "/alternative/refine-labs-alternatives/"),
+    "Single Grain": (None, "/alternative/single-grain-alternatives/"),
 }
 
 # Lead-in variants, rotated per card occurrence so the corpus isn't
@@ -50,6 +57,13 @@ TEMPLATES = [
     "Want a side-by-side? Read our [PipeRocket vs {name}]({cmp}) breakdown, or see the [best {name} alternatives]({alt}).",
     "Weighing your options? Compare [PipeRocket vs {name}]({cmp}), or browse the [top {name} alternatives]({alt}).",
     "For a closer look, see our [PipeRocket vs {name}]({cmp}) comparison and our roundup of [{name} alternatives]({alt}).",
+]
+
+# Used when an agency has an /alternative/ page but no /compare/ page.
+ALT_ONLY_TEMPLATES = [
+    "Also weighing {name}? See our roundup of the [best {name} alternatives]({alt}).",
+    "Looking at {name} too? Browse the [top {name} alternatives]({alt}).",
+    "If {name} isn't quite the fit, check our [{name} alternatives]({alt}) shortlist.",
 ]
 
 HEAD_RE = re.compile(r"^### (\d+)\.\s+(.*?)\s*$")
@@ -115,9 +129,13 @@ def process(path, counter):
         while len(cleaned) > 1 and cleaned[-1].strip() == "":
             cleaned.pop()
 
-        tmpl = TEMPLATES[counter % len(TEMPLATES)]
+        if cmp_url:
+            tmpl = TEMPLATES[counter % len(TEMPLATES)]
+            link_line = tmpl.format(name=name, cmp=cmp_url, alt=alt_url)
+        else:
+            tmpl = ALT_ONLY_TEMPLATES[counter % len(ALT_ONLY_TEMPLATES)]
+            link_line = tmpl.format(name=name, alt=alt_url)
         counter += 1
-        link_line = tmpl.format(name=name, cmp=cmp_url, alt=alt_url)
 
         cleaned.append("")
         cleaned.append(link_line)
@@ -133,6 +151,15 @@ def process(path, counter):
 
 
 def main():
+    global AGENCIES
+    # --names "Single Grain,Refine Labs" restricts the run to specific agency
+    # cards, leaving every other card (and its existing links) untouched.
+    if "--names" in sys.argv:
+        wanted = sys.argv[sys.argv.index("--names") + 1]
+        names = {n.strip().lower() for n in wanted.split(",") if n.strip()}
+        AGENCIES = {k: v for k, v in AGENCIES.items() if k.lower() in names}
+        print(f"Restricted to: {', '.join(AGENCIES) or '(none matched)'}")
+
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     files = sorted(glob.glob(os.path.join(root, "content/list/*.md")))
     counter = 0

@@ -318,6 +318,8 @@ Coaching engagements begin around $6,500/mo and full-service tiers reach $45,000
 | Free Consultation | Yes, scoping call via kalungi.com |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
+Looking at Kalungi too? Browse the [top Kalungi alternatives](/alternative/kalungi-alternatives/).
+
 ### 5. Refine Labs
 
 Best for: SaaS rebuilding spend away from MQLs toward dark social and pipeline influence
@@ -382,6 +384,8 @@ Pricing is gated as of June 2026 with a $25,000 minimum project on Clutch and no
 | Free Consultation | Yes, strategy call gated via refinelabs.com |
 | Clutch Rating | Verified on Clutch (0 reviews) |
 
+Also weighing Refine Labs? See our roundup of the [best Refine Labs alternatives](/alternative/refine-labs-alternatives/).
+
 ### 6. Single Grain
 
 Best for: Growth-stage SaaS wanting one vendor across paid, SEO, and CRO
@@ -445,6 +449,8 @@ Pricing is custom as of June 2026 with no public page; industry references cite 
 | --- | --- |
 | Free Consultation | Yes, intake via singlegrain.com |
 | Clutch Rating | 4.8/5 (12 reviews) |
+
+If Single Grain isn't quite the fit, check our [Single Grain alternatives](/alternative/single-grain-alternatives/) shortlist.
 
 ### 7. Skale
 
@@ -573,6 +579,8 @@ Pricing starts at $5,000/mo with custom retainers based on demand-system scope a
 | --- | --- |
 | Free Consultation | Yes, intake via poweredbysearch.com |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
+
+Looking at Powered by Search too? Browse the [top Powered by Search alternatives](/alternative/powered-by-search-alternatives/).
 
 ### 9. Omniscient Digital
 
