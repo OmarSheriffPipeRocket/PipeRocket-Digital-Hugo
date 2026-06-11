@@ -98,7 +98,7 @@ backgrounds:
           - "HubSpot Partner"
           - "Salesforce Partner"
         featured_in:
-          - "TechCrunch"
+          - { name: "TechCrunch" }
 
 at_a_glance:
   - { label: "Founded",         a: "2023",            b: "2016" }
