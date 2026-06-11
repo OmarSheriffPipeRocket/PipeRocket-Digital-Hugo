@@ -62,7 +62,7 @@ backgrounds:
         Pricing starts at $3K/mo with a 3-month pilot.
       facts:
         - { label: "Founded",         value: "2023" }
-        - { label: "HQ",              value: "Remote-first" }
+        - { label: "HQ",              value: "Chennai, India with US delivery" }
         - { label: "Team",            value: "4 senior practitioners (dedicated pod)" }
         - { label: "Notable clients", value: "HyperVerge, StoryLane, Spendflo, DevRev" }
         - { label: "Public rating",   value: "4.7 — Clutch" }
