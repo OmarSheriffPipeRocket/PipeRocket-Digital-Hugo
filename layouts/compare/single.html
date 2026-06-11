@@ -76,12 +76,22 @@
           </div>
         {{ end }}
 
-        <div class="pr-blog-v2__cta pr-blog-v2__cta--pilot">
-          <div class="pr-blog-v2__cta-eyebrow">Pilot · 4 slots left</div>
-          <div class="pr-blog-v2__cta-h">Real pipeline in 90 days. Or you walk, free.</div>
-          <p class="pr-blog-v2__cta-d">Senior pod runs your account. Pipeline target in the SOW. Cancel any month — no annual lock-in.</p>
-          <a href="/contact-us/?utm_source=site&amp;utm_medium=compare-sidebar-pilot&amp;utm_campaign=free_funnel_audit" class="pr-btn pr-blog-v2__cta-btn" data-cta-source="compare-sidebar-pilot">Claim a pilot slot</a>
-        </div>
+        {{ if .Params.neutral }}
+          {{/* Neutral A-vs-B page: PipeRocket is the publisher, not a participant — soft, no pitch. */}}
+          <div class="pr-blog-v2__cta pr-blog-v2__cta--pilot">
+            <div class="pr-blog-v2__cta-eyebrow">Weighing a third option?</div>
+            <div class="pr-blog-v2__cta-h">Not sure either one fits?</div>
+            <p class="pr-blog-v2__cta-d">We're PipeRocket, a B2B SaaS specialist. If you want an outside read on which way to go, we'll give you an honest one.</p>
+            <a href="/contact-us/?utm_source=site&amp;utm_medium=vs-sidebar&amp;utm_campaign=honest_read" class="pr-btn pr-blog-v2__cta-btn" data-cta-source="vs-sidebar">Get an honest read</a>
+          </div>
+        {{ else }}
+          <div class="pr-blog-v2__cta pr-blog-v2__cta--pilot">
+            <div class="pr-blog-v2__cta-eyebrow">Pilot · 4 slots left</div>
+            <div class="pr-blog-v2__cta-h">Real pipeline in 90 days. Or you walk, free.</div>
+            <p class="pr-blog-v2__cta-d">Senior pod runs your account. Pipeline target in the SOW. Cancel any month — no annual lock-in.</p>
+            <a href="/contact-us/?utm_source=site&amp;utm_medium=compare-sidebar-pilot&amp;utm_campaign=free_funnel_audit" class="pr-btn pr-blog-v2__cta-btn" data-cta-source="compare-sidebar-pilot">Claim a pilot slot</a>
+          </div>
+        {{ end }}
       </aside>
 
       <div class="pr-article-main pr-compare__body" data-pr-blog-main>
@@ -491,14 +501,25 @@
     <!-- ====================================================
          BOTTOM CTA — full-width
          ==================================================== -->
-    <section class="pr-compare__bottom-cta">
-      <div class="pr-compare__bottom-cta-inner">
-        <span class="pr-eyebrow pr-eyebrow--red">Need a second opinion?</span>
-        <h2>Book a call today. Scale your pipeline tomorrow.</h2>
-        <p>Please note that we only partner with 1–2 new clients per month. 20-min call. We'll tell you honestly whether you'd be better off with us, the other agency, or neither.</p>
-        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn pr-btn--lg" data-cta-source="compare-bottom">{{ .Site.Params.secondary_cta_text }}</a>
-      </div>
-    </section>
+    {{ if .Params.neutral }}
+      <section class="pr-compare__bottom-cta">
+        <div class="pr-compare__bottom-cta-inner">
+          <span class="pr-eyebrow pr-eyebrow--red">Still deciding?</span>
+          <h2>Want an outside opinion before you commit?</h2>
+          <p>This comparison is independent — we don't take referral fees from either agency. If you'd like a second read from a B2B SaaS specialist on which fits your stage, PipeRocket is happy to give you an honest one. No obligation.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn pr-btn--lg" data-cta-source="vs-bottom">{{ .Site.Params.secondary_cta_text }}</a>
+        </div>
+      </section>
+    {{ else }}
+      <section class="pr-compare__bottom-cta">
+        <div class="pr-compare__bottom-cta-inner">
+          <span class="pr-eyebrow pr-eyebrow--red">Need a second opinion?</span>
+          <h2>Book a call today. Scale your pipeline tomorrow.</h2>
+          <p>Please note that we only partner with 1–2 new clients per month. 20-min call. We'll tell you honestly whether you'd be better off with us, the other agency, or neither.</p>
+          <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn pr-btn--lg" data-cta-source="compare-bottom">{{ .Site.Params.secondary_cta_text }}</a>
+        </div>
+      </section>
+    {{ end }}
 
   </div>
 </article>
