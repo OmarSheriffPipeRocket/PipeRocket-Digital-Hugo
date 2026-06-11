@@ -19,12 +19,12 @@ toc:
   - { label: "The short answer",        anchor: "short-answer" }
   - { label: "At a glance",             anchor: "at-a-glance" }
   - { label: "Company profile",         anchor: "backgrounds" }
-  - { label: "Decision matrix",         anchor: "decision-matrix" }
+  - { label: "Decision matrix",         anchor: "decision-matrix--who-fits-which-side" }
   - { label: "Capability comparison",   anchor: "services" }
   - { label: "Team structure",          anchor: "team" }
   - { label: "Reporting",               anchor: "reporting" }
   - { label: "Pricing",                 anchor: "pricing" }
-  - { label: "Strengths & tradeoffs",   anchor: "tradeoffs" }
+  - { label: "Strengths & tradeoffs",   anchor: "strengths--tradeoffs" }
   - { label: "Social proof",            anchor: "social-proof" }
   - { label: "FAQ",                     anchor: "faqs" }
 
@@ -60,15 +60,38 @@ backgrounds:
         live in one retainer with pipeline-level reporting (MQL, CAC,
         pipeline value) from week four. Senior pod on every account, no
         junior pass-through.
+      facts:
+        - { label: "Founded",         value: "2023" }
+        - { label: "HQ",              value: "Remote-first" }
+        - { label: "Team",            value: "4 senior practitioners (dedicated pod)" }
+        - { label: "Notable clients", value: "HyperVerge, StoryLane, Spendflo, DevRev" }
+        - { label: "Public rating",   value: "4.7 — Clutch" }
+      credentials:
+        certifications:
+          - "Google Partner"
+          - "Meta Business Partner"
     - name: "KlientBoost"
-      meta: "Founded 2015 · Costa Mesa, CA · 80–100 employees"
+      meta: "Founded 2015 · Costa Mesa, CA · 100–130 employees"
       body: >-
         Founded by Johnathan Dane in Costa Mesa, California. Performance
         marketing agency known for aggressive PPC management and CRO with
-        200+ published case studies. Google Premier Partner, Meta Business
-        Partner, HubSpot Diamond Partner. Notable clients include Airbnb,
-        Le Tote, Thinkific, AdRoll, and Some.ly. Ratings: 4.9 — Clutch,
-        4.8 — G2.
+        200+ published case studies. Notable clients include Airbnb,
+        Le Tote, Thinkific, AdRoll, and Some.ly.
+      facts:
+        - { label: "Founded",         value: "2015" }
+        - { label: "HQ",              value: "Costa Mesa, CA" }
+        - { label: "Team",            value: "100–130 employees" }
+        - { label: "Founders",        value: "Johnathan Dane (Founder & CEO)" }
+        - { label: "Notable clients", value: "Airbnb, Le Tote, Thinkific, AdRoll, Some.ly" }
+        - { label: "Public rating",   value: "4.9 — Clutch · 4.8 — G2" }
+      credentials:
+        awards:
+          - "Inc 5000 (multiple years)"
+          - "Glassdoor #1 Best Place to Work"
+        certifications:
+          - "Google Premier Partner"
+          - "Meta Business Partner"
+          - "HubSpot Platinum Partner"
 
 at_a_glance:
   - { label: "Founded",         a: "2023",            b: "2015" }
@@ -76,7 +99,7 @@ at_a_glance:
   - { label: "Core motion",     a: "SEO-led",         b: "Paid-led + CRO" }
   - { label: "Starting price",  a: "$3,000 / mo",     b: "~$5,000 / mo" }
   - { label: "Min contract",    a: "3 months",        b: "Not publicly listed" }
-  - { label: "Public rating",   a: "4.9 — Clutch",    b: "4.9 — Clutch · 4.8 — G2" }
+  - { label: "Public rating",   a: "4.7 — Clutch",    b: "4.9 — Clutch · 4.8 — G2" }
 
 services:
   heading: "Capability comparison"
@@ -252,9 +275,9 @@ Same axis, both columns filled. A comparison page that only shows wins on one si
 
 | Metric | PipeRocket | KlientBoost |
 |---|---|---|
-| Clutch rating | 4.9 / 5 | 4.9 / 5 |
+| Clutch rating | 4.7 / 5 | 4.9 / 5 |
 | G2 rating | 4.8 / 5 | 4.8 / 5 |
-| Verified reviews | 11+ | 400+ (Clutch), 381+ (G2) |
+| Verified reviews | 13 | 400+ (Clutch), 381+ (G2) |
 | Reviewer profile | Seed–Series B SaaS | SaaS + eCommerce, Series A–C |
 | Lifetime clients | 50+ B2B SaaS | 250+ active clients |
 | Listed on Clutch as | SaaS marketing specialist | Top PPC & CRO agency |

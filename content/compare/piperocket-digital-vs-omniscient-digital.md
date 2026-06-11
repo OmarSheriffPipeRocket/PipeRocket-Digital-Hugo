@@ -19,12 +19,12 @@ toc:
   - { label: "The short answer",        anchor: "short-answer" }
   - { label: "At a glance",             anchor: "at-a-glance" }
   - { label: "Company profile",         anchor: "backgrounds" }
-  - { label: "Decision matrix",         anchor: "decision-matrix" }
+  - { label: "Decision matrix",         anchor: "decision-matrix--who-fits-which-side" }
   - { label: "Capability comparison",   anchor: "services" }
   - { label: "Team structure",          anchor: "team" }
   - { label: "Reporting",               anchor: "reporting" }
   - { label: "Pricing",                 anchor: "pricing" }
-  - { label: "Strengths & tradeoffs",   anchor: "tradeoffs" }
+  - { label: "Strengths & tradeoffs",   anchor: "strengths--tradeoffs" }
   - { label: "Social proof",            anchor: "social-proof" }
   - { label: "FAQ",                     anchor: "faqs" }
 
@@ -47,7 +47,7 @@ short_answer:
       title: "Content-led SEO at enterprise depth"
       body: >-
         If content-led SEO is your only channel and you can commit
-        $8,000-plus per month to it long-term, **Omniscient Digital** is
+        $10,000-plus per month to it long-term, **Omniscient Digital** is
         best-in-class for B2B SaaS. SAP, Adobe, and Loom are on their
         roster for a reason. The rest of this page is the why.
 
@@ -60,22 +60,43 @@ backgrounds:
         B2B SaaS-only agency with SEO and PPC in one retainer, pipeline
         reporting from week four, and a senior pod on every account.
         Pricing starts at $3K/mo with a 3-month pilot.
+      facts:
+        - { label: "Founded",         value: "2023" }
+        - { label: "HQ",              value: "Remote-first" }
+        - { label: "Team",            value: "4 senior practitioners (dedicated pod)" }
+        - { label: "Notable clients", value: "HyperVerge, StoryLane, Spendflo, DevRev" }
+        - { label: "Public rating",   value: "4.7 — Clutch" }
+      credentials:
+        certifications:
+          - "Google Partner"
+          - "Meta Business Partner"
     - name: "Omniscient Digital"
       meta: "Founded 2019 · Austin, TX · 10–49 employees"
       body: >-
-        Founded by Allie Decker, Alex Birkett, and David Khim. Specialises
+        Founded by Alex Birkett, David Ly Khim, and Allie Konchar (also
+        known as Allie Decker), Chief Content Officer. Specialises
         in content-led SEO and organic growth for B2B SaaS. Notable
         clients include SAP, Adobe, Loom, Jasper, and Asana. HubSpot
-        Solutions Partner. Named top B2B SaaS SEO agency across multiple
-        2026 rankings.
+        Solutions Provider (tier unspecified). Named top B2B SaaS SEO
+        agency across multiple 2026 rankings.
+      facts:
+        - { label: "Founded",         value: "2019" }
+        - { label: "HQ",              value: "Austin, TX" }
+        - { label: "Team",            value: "10–49 employees" }
+        - { label: "Founders",        value: "Alex Birkett, David Ly Khim, Allie Konchar" }
+        - { label: "Notable clients", value: "SAP, Adobe, Loom, Jasper, Asana, AppSumo, TikTok" }
+        - { label: "Public rating",   value: "4.8 — Clutch (5 reviews)" }
+      credentials:
+        certifications:
+          - "HubSpot Solutions Provider (tier unspecified)"
 
 at_a_glance:
   - { label: "Founded",         a: "2023",            b: "2019" }
   - { label: "Specialization",  a: "B2B SaaS only",   b: "Content-led SEO and organic growth for B2B SaaS" }
   - { label: "Core motion",     a: "SEO-led",         b: "Content-led SEO" }
-  - { label: "Starting price",  a: "$3,000 / mo",     b: "$8,000 / mo" }
+  - { label: "Starting price",  a: "$3,000 / mo",     b: "$10,000 / mo" }
   - { label: "Min contract",    a: "3 months",        b: "Not publicly listed" }
-  - { label: "Public rating",   a: "4.9 — Clutch",    b: "Not yet rated on Clutch or G2" }
+  - { label: "Public rating",   a: "4.7 — Clutch",    b: "4.8 — Clutch (5 reviews)" }
 
 services:
   heading: "Capability comparison"
@@ -88,7 +109,7 @@ services:
     - { label: "Programmatic SEO",                             a: "✓ Core offering",     b: "✓ Offered" }
     - { label: "GEO / AI-search optimisation",                 a: "Not a named offering", b: "✓ Core offering" }
     - { label: "Senior-led execution",                         a: "✓ Default",           b: "✓ Default — small team" }
-    - { label: "Starting price",                               a: "$3K / mo",            b: "$8K / mo" }
+    - { label: "Starting price",                               a: "$3K / mo",            b: "$10K / mo" }
     - { label: "Pilot program",                                a: "✓ 3-mo pilot",        b: "✕ None" }
 
 team:
@@ -145,8 +166,8 @@ pricing:
     range, not the landing-page starter. Under $5K, a scope-based retainer
     usually goes further than a team-based one.
   table:
-    - { label: "Starting price",            a: "$3K / mo",                b: "$8,000 / mo" }
-    - { label: "Typical operating range",   a: "$4K – $8K / mo",          b: "$10K – $25K / mo" }
+    - { label: "Starting price",            a: "$3K / mo",                b: "$10,000 / mo" }
+    - { label: "Typical operating range",   a: "$4K – $8K / mo",          b: "$10K+ / mo (upper bound not publicly listed)" }
     - { label: "Minimum contract",          a: "3 months",                b: "Not publicly listed" }
     - { label: "Setup fee",                 a: "None",                    b: "Not publicly listed" }
     - { label: "Pricing structure",         a: "Scope-based retainer",    b: "Custom retainer (scope-based)" }
@@ -180,7 +201,7 @@ faqs:
   - q: "When should I choose Omniscient Digital over PipeRocket?"
     a: >-
       Content and organic SEO is your sole growth focus and you're willing
-      to invest $8K+/mo in it. If you don't need paid media and want a
+      to invest $10K+/mo in it. If you don't need paid media and want a
       senior team with a proven track record building organic moats for
       SaaS companies like Adobe and Asana, Omniscient Digital is
       best-in-class.
@@ -239,16 +260,16 @@ featuredImage: "/images/compare-covers/piperocket-digital-vs-omniscient-digital.
 | **Paid media** | SEO + PPC together with connected attribution | No paid media. Organic only |
 | **Content quality** | Included in retainer. Not the sole focus | Their signature — SAP, Adobe, Loom-level content depth |
 | **GEO / AI search** | Not a named offering | Core offering — built for AI search alongside traditional SEO |
-| **Entry price** | $3K/mo. Lower barrier for early-stage | $8K/mo minimum. Positioned for Series A and above |
+| **Entry price** | $3K/mo. Lower barrier for early-stage | $10K/mo minimum. Positioned for Series A and above |
 | **Reporting** | Pipeline: MQL, CAC, revenue attribution | Organic traffic, pipeline impact, revenue correlation |
 
 ## Social proof
 
 | Metric | PipeRocket | Omniscient Digital |
 |---|---|---|
-| Clutch rating | 4.9 / 5 | Not yet rated |
+| Clutch rating | 4.7 / 5 | 4.8 / 5 |
 | G2 rating | 4.8 / 5 | Not listed |
-| Verified reviews | 11+ | Not yet on Clutch or G2 |
+| Verified reviews | 13 | 5 (Clutch) |
 | Reviewer profile | Seed–Series B SaaS | Series A–B B2B SaaS (SAP, Adobe, Loom level) |
 | Lifetime clients | 50+ B2B SaaS | Select roster of B2B SaaS companies |
 

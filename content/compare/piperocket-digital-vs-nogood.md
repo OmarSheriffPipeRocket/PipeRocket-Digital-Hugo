@@ -19,12 +19,12 @@ toc:
   - { label: "The short answer",        anchor: "short-answer" }
   - { label: "At a glance",             anchor: "at-a-glance" }
   - { label: "Company profile",         anchor: "backgrounds" }
-  - { label: "Decision matrix",         anchor: "decision-matrix" }
+  - { label: "Decision matrix",         anchor: "decision-matrix--who-fits-which-side" }
   - { label: "Capability comparison",   anchor: "services" }
   - { label: "Team structure",          anchor: "team" }
   - { label: "Reporting",               anchor: "reporting" }
   - { label: "Pricing",                 anchor: "pricing" }
-  - { label: "Strengths & tradeoffs",   anchor: "tradeoffs" }
+  - { label: "Strengths & tradeoffs",   anchor: "strengths--tradeoffs" }
   - { label: "Social proof",            anchor: "social-proof" }
   - { label: "FAQ",                     anchor: "faqs" }
 
@@ -59,23 +59,54 @@ backgrounds:
         B2B SaaS-only agency. SEO and PPC in one retainer with
         pipeline-level reporting (MQL, CAC, pipeline value). Senior pod
         on every account, $3K/mo floor, 3-month pilot.
+      facts:
+        - { label: "Founded",         value: "2023" }
+        - { label: "HQ",              value: "Remote-first" }
+        - { label: "Team",            value: "4 senior practitioners (dedicated pod)" }
+        - { label: "Notable clients", value: "HyperVerge, StoryLane, Spendflo, DevRev" }
+        - { label: "Public rating",   value: "4.7 — Clutch" }
+      credentials:
+        certifications:
+          - "Google Partner"
+          - "Meta Business Partner"
     - name: "NoGood"
-      meta: "Founded 2017 · New York, NY · 50–100 employees"
+      meta: "Founded 2016 · New York, NY · 70+ experts globally"
       body: >-
         Founded by Mostafa ElBermawy. Full-funnel growth marketing for
         VC-backed consumer and B2B SaaS brands. Notable clients include
-        Nike, TikTok, Amazon, Microsoft, and Intuit. Inc 5000 honoree
-        (multiple years), Verified Expert Growth Agency by TechCrunch.
-        Google Partner, Meta Business Partner, HubSpot Partner. Rating:
-        5.0 — Clutch (1 review).
+        Nike, TikTok, Amazon, SteelSeries, MongoDB, and Inflection AI.
+        Verified Expert Growth Agency by TechCrunch, Drum Award winner
+        (2022, 2023), and Webby Honoree. Google Partner, Meta Partner,
+        HubSpot Partner, Salesforce Partner. Rating: 5.0 — Clutch (1
+        review).
+      facts:
+        - { label: "Founded",         value: "2016 (Clutch lists 2017)" }
+        - { label: "HQ",              value: "New York, NY (Soho)" }
+        - { label: "Team",            value: "70+ experts (self-reported); ~98 per Tracxn" }
+        - { label: "Founders",        value: "Mostafa ElBermawy (Founder & CEO)" }
+        - { label: "Notable clients", value: "Nike, TikTok, Amazon, SteelSeries, MongoDB, Spring Health, Chime, Inflection AI" }
+        - { label: "Public rating",   value: "5.0 — Clutch (1 review)" }
+      credentials:
+        awards:
+          - "The Drum Award Winner (2022, 2023)"
+          - "Webby Award Honoree"
+          - "Shorty Awards Finalist"
+          - "TechCrunch Verified Expert Growth Agency"
+        certifications:
+          - "Google Partner"
+          - "Meta Partner"
+          - "HubSpot Partner"
+          - "Salesforce Partner"
+        featured_in:
+          - "TechCrunch"
 
 at_a_glance:
-  - { label: "Founded",         a: "2023",            b: "2017" }
+  - { label: "Founded",         a: "2023",            b: "2016" }
   - { label: "Specialization",  a: "B2B SaaS only",   b: "Full-funnel growth marketing for VC-backed brands" }
   - { label: "Core motion",     a: "SEO-led",         b: "Full-funnel growth squad" }
   - { label: "Starting price",  a: "$3,000 / mo",     b: "$20,000+ / mo (avg)" }
   - { label: "Min contract",    a: "3 months",        b: "Not publicly listed" }
-  - { label: "Public rating",   a: "4.9 — Clutch",    b: "5.0 — Clutch (1 review)" }
+  - { label: "Public rating",   a: "4.7 — Clutch",    b: "5.0 — Clutch (1 review)" }
 
 services:
   heading: "Capability comparison"
@@ -207,7 +238,7 @@ sources:
     accessed: "May 2026"
   - id: 5
     title: "NoGood — client portfolio and case studies"
-    url: "https://nogood.io/case-study/"
+    url: "https://nogood.io/results/"
     accessed: "May 2026"
   - id: 6
     title: "TechCrunch — Verified Expert Growth Agency listing"
@@ -246,11 +277,11 @@ featuredImage: "/images/compare-covers/piperocket-digital-vs-nogood.webp"
 
 | Metric | PipeRocket | NoGood |
 |---|---|---|
-| Clutch rating | 4.9 / 5 | 5.0 / 5 |
+| Clutch rating | 4.7 / 5 | 5.0 / 5 |
 | G2 rating | 4.8 / 5 | Not listed |
-| Verified reviews | 11+ | 1 (Clutch) — relies on direct referrals |
+| Verified reviews | 13 | 1 (Clutch) — relies on direct referrals |
 | Reviewer profile | Seed–Series B SaaS | VC-backed startups and enterprise brands |
-| Lifetime clients | 50+ B2B SaaS | Nike, TikTok, Amazon, Microsoft, Intuit, P&G, MongoDB and more |
+| Lifetime clients | 50+ B2B SaaS | Nike, TikTok, Amazon, Intuit, SteelSeries, MongoDB, Spring Health and more |
 | Listed on Clutch as | SaaS marketing specialist | Growth marketing agency — New York |
 
 > "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months."

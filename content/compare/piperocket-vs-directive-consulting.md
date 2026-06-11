@@ -6,7 +6,7 @@ metaDescription: "PipeRocket Digital vs Directive Consulting. Pricing, services,
 date: 2026-04-30
 category: "Agency comparison"
 readingTime: "8 min read"
-sources_count: 7
+sources_count: 8
 writtenBy: "kim"
 reviewedBy: "praveen"
 
@@ -48,7 +48,7 @@ short_answer:
       title: "Series B-plus fit"
       body: >-
         If you're Series B-plus running $50,000-or-more per month in paid
-        media, **Directive Consulting's** 150-person team and SGM
+        media, **Directive Consulting's** 100-to-150-person team and SGM
         attribution methodology is better suited. The rest of this article is
         the "why" behind that call, with the sources we used for every claim
         cited at the bottom.
@@ -65,15 +65,41 @@ backgrounds:
         Series C. Our focus is narrower by design: SEO and PPC for
         founder-led and PLG SaaS, with pipeline reporting (MQL, CAC,
         pipeline value) as the core deliverable, not traffic or impressions.
+      facts:
+        - { label: "Founded",         value: "2023" }
+        - { label: "HQ",              value: "Remote-first" }
+        - { label: "Team",            value: "4 senior practitioners (dedicated pod)" }
+        - { label: "Notable clients", value: "HyperVerge, StoryLane, Spendflo, DevRev" }
+        - { label: "Public rating",   value: "4.7 — Clutch" }
+      credentials:
+        certifications:
+          - "Google Partner"
+          - "Meta Business Partner"
     - name: "Directive Consulting"
-      meta: "Founded 2014 · Irvine, CA · 150+ team"
+      meta: "Founded 2013 · Irvine, CA · 100–150 team"
       body: >-
-        Directive Consulting has been running since 2014 out of Irvine,
-        California. Over the last decade they've grown to a team of
-        150-plus, focused on performance marketing for SaaS and tech.
+        Directive Consulting has been running since 2013 out of Irvine,
+        California. Over the last decade they've grown to a team of around
+        100 to 150, focused on performance marketing for SaaS and tech.
         Their "Customer Generation" methodology pulls paid search, paid
         social, SEO, and RevOps into one framework. Clutch shows 56
         verified reviews at 4.8 out of 5.
+      facts:
+        - { label: "Founded",         value: "2013" }
+        - { label: "HQ",              value: "Irvine, CA" }
+        - { label: "Team",            value: "100–150 employees" }
+        - { label: "Founders",        value: "Garrett Mehrguth (Founder, President & CEO), Tanner Shaffer (Co-Founder & Managing Partner)" }
+        - { label: "Notable clients", value: "iCIMS, AxisCare, Placemakr, dbt, Arctic Wolf, SentinelOne" }
+        - { label: "Public rating",   value: "4.8 — Clutch (56 reviews)" }
+      credentials:
+        awards:
+          - "Inc. 5000 (2021, 2022)"
+          - "Clutch Top Digital Marketing Company 2023"
+          - "Clutch Global Award 2023"
+          - "2026 Clutch Startup Award"
+          - "2021 Integrated Agency of the Year"
+        certifications:
+          - "Google Partner"
 
 # 3. PRICING ─────────────────────────────────────────────────────
 pricing:
@@ -82,16 +108,16 @@ pricing:
     This is where most founders get stuck, and where most "best agency"
     articles stay vague on purpose. Here are the numbers up front.
   table:
-    - { label: "Starting fee",     a: "$3,000 / mo",      b: "$8,000 / mo" }
+    - { label: "Starting fee",     a: "$3,000 / mo",      b: "$5K–$10K / mo" }
     - { label: "Upper range",      a: "$15,000 / mo",     b: "$25,000 / mo" }
-    - { label: "Ad spend minimum", a: "None required",    b: "~$50K / mo typical" }
+    - { label: "Ad spend minimum", a: "None required",    b: "$10K–$20K / mo min." }
     - { label: "Contract",         a: "Monthly rolling",  b: "Annual typical" }
   commentary: >-
-    Directive's pricing starts at $8,000 per month for their startup
-    engagement and scales to around $25,000 per month for enterprise
-    accounts. Most clients commit to annual contracts, and Clutch reviews
-    indicate typical ad spend on top of the fee runs $50,000 or more per
-    month.
+    Directive's pricing starts at $5,000 to $10,000 per month for a
+    single-channel engagement and scales to around $25,000 per month for
+    enterprise accounts. Most clients commit to annual contracts, and 2026
+    pricing sources indicate a recommended ad spend minimum on top of the
+    fee of $10,000 to $20,000 per month for paid media alone.
 
 
     PipeRocket starts at $3,000 per month on a monthly rolling contract.
@@ -129,7 +155,7 @@ who_they_serve:
         Directive is built for Series B and beyond. Their team size, SGM
         methodology, and RevOps integrations are engineered for companies
         that already know their ICP and need to scale paid acquisition
-        from $50,000 to $500,000 per month. At that stage the 150-person
+        from $50,000 to $500,000 per month. At that stage the 100-to-150-person
         team becomes an asset, not overhead.
   pattern: >-
     The underlying pattern: if your ICP doesn't yet search on Google for
@@ -171,7 +197,7 @@ services:
 team:
   heading: "Team structure: pod vs agency"
   intro: >-
-    "150-plus team" sounds like an unambiguous strength on paper. In
+    "100-to-150 team" sounds like an unambiguous strength on paper. In
     practice it's a structural choice with trade-offs. A *pod* is a small,
     fixed cross-functional group — in our case, four senior practitioners
     (strategist, SEO lead, paid lead, content) who work together on a
@@ -246,12 +272,12 @@ strengths_weaknesses:
     - name: "Directive Consulting"
       strengths:
         - "10+ years of SaaS track record"
-        - "150+ team bandwidth"
+        - "100–150 team bandwidth"
         - "SGM attribution methodology"
         - "Verified reviews from top brands"
         - "Enterprise-scale paid experience"
       weaknesses:
-        - "$8K to $25K floor too steep early"
+        - "$5K–$10K floor too steep early"
         - "Annual contract typical"
         - "Weaker organic SEO depth"
         - "Varied seniority per task"
@@ -260,7 +286,7 @@ strengths_weaknesses:
 reviews:
   heading: "Reading between the reviews"
   body: |-
-    Both agencies have 4.8 out of 5 Clutch ratings. The ratings are identical. The reviews reveal the ICP.
+    Both agencies sit near the top of Clutch: PipeRocket at 4.7 out of 5 (13 reviews), Directive at 4.8 out of 5 (56 reviews). The scores are close enough that the reviews, not the rating, reveal the ICP.
 
     PipeRocket reviews skew toward Seed and Series A founders describing setup-to-pipeline transformations. One Clutch review: *"Within six months we went from zero to ranking for 40 bottom-of-funnel keywords. Demo requests from organic grew 3x."* That's a pattern you only see in early-stage engagements where there's room to move the needle fast.
 
@@ -329,9 +355,10 @@ faqs:
   - q: "How does PipeRocket pricing compare to Directive?"
     a: >-
       PipeRocket starts from $3,000 per month with no ad spend minimum.
-      Directive typically starts at $8,000 per month and scales to
-      $25,000, plus $50,000-or-more per month in ad spend. For
-      early-stage SaaS, PipeRocket is significantly more accessible.
+      Directive typically starts at $5,000 to $10,000 per month and scales
+      to $25,000, plus a recommended ad spend minimum of $10,000 to
+      $20,000 per month on top. For early-stage SaaS, PipeRocket is
+      significantly more accessible.
   - q: "Does Directive do SEO as well as PPC?"
     a: >-
       Directive offers SEO in select packages but their core strength is
@@ -358,10 +385,10 @@ faqs:
 
 # 13. AT A GLANCE ────────────────────────────────────────────────
 at_a_glance:
-  - { label: "Starting price", a: "$3K/mo",       b: "$8K/mo" }
-  - { label: "Rating",         a: "4.8 / 5",      b: "4.8 / 5" }
-  - { label: "Team",           a: "Boutique pod", b: "150+" }
-  - { label: "Founded",        a: "2023",         b: "2014" }
+  - { label: "Starting price", a: "$3K/mo",       b: "$5K–$10K/mo" }
+  - { label: "Rating",         a: "4.7 / 5",      b: "4.8 / 5" }
+  - { label: "Team",           a: "Boutique pod", b: "100–150" }
+  - { label: "Founded",        a: "2023",         b: "2013" }
   - { label: "Best fit",       a: "Seed–Series B", b: "Series B+" }
   - { label: "Commitment",     a: "3-mo pilot",   b: "Annual" }
 
@@ -388,13 +415,17 @@ sources:
     url: "https://directiveconsulting.com/services/"
     accessed: "April 2026"
   - id: 6
-    title: "LinkedIn — Directive Consulting — team size 150+"
+    title: "LinkedIn — Directive Consulting — team size 51-200"
     url: "https://www.linkedin.com/company/directive-consulting"
     accessed: "April 2026"
   - id: 7
-    title: "Crunchbase — Directive Consulting — founded 2014"
-    url: "https://www.crunchbase.com/organization/directive-consulting"
-    accessed: "April 2026"
+    title: "Directive Consulting — Our Story — founded 2013, founders"
+    url: "https://directiveconsulting.com/about/our-story/"
+    accessed: "June 2026"
+  - id: 8
+    title: "Groas — Directive Consulting pricing review 2026 — fee ranges, ad spend minimums"
+    url: "https://www.groas.com/post/directive-consulting-pricing-review-2026-google-ads-groas-alternative"
+    accessed: "June 2026"
 featuredImage: "/images/compare-covers/piperocket-vs-directive-consulting.webp"
 ---
 

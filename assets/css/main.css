@@ -13183,6 +13183,57 @@ body.pr-modal-open { overflow: hidden; }
   letter-spacing: 0.04em;
 }
 
+/* Optional structured fact list inside a background card */
+.pr-compare__bg-facts {
+  margin: var(--pr-s-4) 0 0;
+  border-top: 1px solid var(--pr-line);
+}
+.pr-compare__bg-fact {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: var(--pr-s-3);
+  padding: var(--pr-s-2) 0;
+  border-bottom: 1px solid var(--pr-line);
+  font-size: 0.9rem;
+}
+.pr-compare__bg-fact dt {
+  margin: 0;
+  font-weight: 600;
+  color: var(--pr-muted);
+}
+.pr-compare__bg-fact dd { margin: 0; color: var(--pr-ink); }
+
+/* Optional credentials strip — awards / featured-in / certifications */
+.pr-compare__credentials {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--pr-s-4);
+  margin-top: var(--pr-s-4);
+  padding-top: var(--pr-s-4);
+  border-top: 1px solid var(--pr-line);
+}
+@media (min-width: 560px) {
+  .pr-compare__credentials { grid-template-columns: repeat(3, 1fr); }
+}
+.pr-compare__cred-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--pr-muted);
+  margin-bottom: var(--pr-s-2);
+}
+.pr-compare__cred-col ul { margin: 0; padding-left: 1.1em; }
+.pr-compare__cred-col li { font-size: 0.85rem; margin-bottom: 2px; }
+.pr-compare__cred-press { display: flex; flex-wrap: wrap; gap: var(--pr-s-2); }
+.pr-compare__cred-press a,
+.pr-compare__cred-press span {
+  font-size: 0.85rem;
+  color: var(--pr-ink);
+}
+.pr-compare__cred-press a { text-decoration: underline; }
+
 /* Compare/vs tables now inherit the blog-table styling via the
    `.pr-compare__body table` / `.pr-vs__body table` selectors above. */
 

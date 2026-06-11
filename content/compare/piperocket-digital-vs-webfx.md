@@ -19,12 +19,12 @@ toc:
   - { label: "The short answer",        anchor: "short-answer" }
   - { label: "At a glance",             anchor: "at-a-glance" }
   - { label: "Company profile",         anchor: "backgrounds" }
-  - { label: "Decision matrix",         anchor: "decision-matrix" }
+  - { label: "Decision matrix",         anchor: "decision-matrix--who-fits-which-side" }
   - { label: "Capability comparison",   anchor: "services" }
   - { label: "Team structure",          anchor: "team" }
   - { label: "Reporting",               anchor: "reporting" }
   - { label: "Pricing",                 anchor: "pricing" }
-  - { label: "Strengths & tradeoffs",   anchor: "tradeoffs" }
+  - { label: "Strengths & tradeoffs",   anchor: "strengths--tradeoffs" }
   - { label: "Social proof",            anchor: "social-proof" }
   - { label: "FAQ",                     anchor: "faqs" }
 
@@ -58,16 +58,41 @@ backgrounds:
         B2B SaaS-only agency. SEO and PPC in one retainer with
         pipeline-level reporting (MQL, CAC, pipeline value) from week
         four. Senior pod on every account, 3-month pilot, $3K/mo floor.
+      facts:
+        - { label: "Founded",         value: "2023" }
+        - { label: "HQ",              value: "Remote-first" }
+        - { label: "Team",            value: "4 senior practitioners (dedicated pod)" }
+        - { label: "Notable clients", value: "HyperVerge, StoryLane, Spendflo, DevRev" }
+        - { label: "Public rating",   value: "4.7 — Clutch" }
+      credentials:
+        certifications:
+          - "Google Partner"
+          - "Meta Business Partner"
     - name: "WebFX"
-      meta: "Founded 1996 · Harrisburg, PA · 700+ employees"
+      meta: "Founded 1996 · Harrisburg, PA · 750+ on staff"
       body: >-
-        Founded by Bill Craig and Karie Shearer. Full-service digital
+        Founded by William Craig and Karie Shearer. Full-service digital
         marketing for SMBs and mid-market across 150+ industries.
-        Notable clients include Verizon, Virginia Tech, YMCA, and
-        Mercury. 8× Inc 5000 honoree, UpCity National Excellence Award,
-        multiple "Best Places to Work" rankings. Google Premier Partner,
-        Meta Business Partner, HubSpot Diamond Partner, Microsoft
-        Advertising Partner. Ratings: 4.9 — Clutch, 4.9 — G2.
+        Notable clients include Thompson Tractor, KOA Holiday, HydroWorx,
+        Enabling Devices, and Sharretts Plating. 8× Inc 5000 honoree,
+        UpCity National Excellence Award, multiple "Best Places to Work"
+        rankings. Google Premier Partner, Meta Business Partner,
+        Microsoft Advertising Partner. Ratings: 4.9 — Clutch, 4.8 — G2.
+      facts:
+        - { label: "Founded",         value: "1996" }
+        - { label: "HQ",              value: "Harrisburg, PA" }
+        - { label: "Team",            value: "750+ on staff (self-reported)" }
+        - { label: "Founders",        value: "William Craig (CEO), Karie Shearer" }
+        - { label: "Notable clients", value: "Thompson Tractor, KOA Holiday, HydroWorx, Enabling Devices, Sharretts Plating" }
+        - { label: "Public rating",   value: "4.9 — Clutch · 4.8 — G2" }
+      credentials:
+        awards:
+          - "8× Inc 5000 honoree"
+          - "Clutch #1 SEO Agency"
+        certifications:
+          - "Google Premier Partner"
+          - "Meta Business Partner"
+          - "Microsoft Advertising Partner"
 
 at_a_glance:
   - { label: "Founded",         a: "2023",            b: "1996" }
@@ -75,7 +100,7 @@ at_a_glance:
   - { label: "Core motion",     a: "SEO-led",         b: "Multi-channel full-service" }
   - { label: "Starting price",  a: "$3,000 / mo",     b: "$3,000 / mo" }
   - { label: "Min contract",    a: "3 months",        b: "Not publicly listed" }
-  - { label: "Public rating",   a: "4.9 — Clutch",    b: "4.9 — Clutch · 4.9 — G2" }
+  - { label: "Public rating",   a: "4.7 — Clutch",    b: "4.9 — Clutch · 4.8 — G2" }
 
 services:
   heading: "Capability comparison"
@@ -107,7 +132,7 @@ team:
         - { role: "Paid media lead",      seniority: "6 yrs" }
         - { role: "Content strategist",   seniority: "5 yrs" }
     - heading: "WebFX team"
-      subheading: "500+ person agency · channel specialists from a shared pool"
+      subheading: "750+ person agency · channel specialists from a shared pool"
       members:
         - { role: "Dedicated account manager",     seniority: "Senior" }
         - { role: "Channel specialists",           seniority: "Pooled" }
@@ -148,7 +173,7 @@ pricing:
     retainer and the seniority you'll see on the work.
   table:
     - { label: "Starting price",            a: "$3K / mo",                b: "$3,000 / mo" }
-    - { label: "Typical operating range",   a: "$4K – $8K / mo",          b: "$3K – $10K / mo" }
+    - { label: "Typical operating range",   a: "$4K – $8K / mo",          b: "$3K – $20K+ / mo" }
     - { label: "Minimum contract",          a: "3 months",                b: "Not publicly listed" }
     - { label: "Setup fee",                 a: "None",                    b: "Not publicly listed" }
     - { label: "Pricing structure",         a: "Scope-based retainer",    b: "Custom retainer by service and scope" }
@@ -240,19 +265,19 @@ featuredImage: "/images/compare-covers/piperocket-digital-vs-webfx.webp"
 | Axis | PipeRocket | WebFX |
 |---|---|---|
 | **Vertical depth** | 100% B2B SaaS — one buyer profile, deep SaaS playbook | Full-service across 150+ industries. Breadth over depth |
-| **Team size** | Boutique pod — dedicated senior strategist on every account | 500+ employees. Senior attention varies by account size and budget |
+| **Team size** | Boutique pod — dedicated senior strategist on every account | 750+ employees. Senior attention varies by account size and budget |
 | **Service breadth** | SEO + PPC. No web builds, email, or social management | Full-service: SEO, PPC, social, email, web design — all under one roof |
 | **Reporting** | Pipeline: MQL, CAC, pipeline value — SaaS-native metrics | Revenue-level reporting with proprietary MarketingCloudFX platform |
 | **Entry price** | $3K/mo, 3-month minimum | $3K/mo starting — similar entry point, broader scope |
-| **Track record** | Newer agency — fewer reviews | 30 years, 448 Clutch reviews, 4.9 stars — one of the most trusted US agencies |
+| **Track record** | Newer agency — fewer reviews | 30 years, 450 Clutch reviews, 4.9 stars — one of the most trusted US agencies |
 
 ## Social proof
 
 | Metric | PipeRocket | WebFX |
 |---|---|---|
-| Clutch rating | 4.9 / 5 | 4.9 / 5 |
-| G2 rating | 4.8 / 5 | 4.9 / 5 |
-| Verified reviews | 11+ | 448 (Clutch), 176+ (G2) |
+| Clutch rating | 4.7 / 5 | 4.9 / 5 |
+| G2 rating | 4.8 / 5 | 4.8 / 5 |
+| Verified reviews | 13 | 450 (Clutch), 214 (G2) |
 | Reviewer profile | Seed–Series B SaaS | SMB to mid-market, all industries |
 | Lifetime clients | 50+ B2B SaaS | 1,000+ clients across 150+ industries |
 | Listed on Clutch as | SaaS marketing specialist | #1 Digital Marketing Agency (multiple years) |

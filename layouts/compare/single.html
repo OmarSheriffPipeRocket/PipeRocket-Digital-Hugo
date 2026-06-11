@@ -106,6 +106,33 @@
         {{ end }}
 
         <!-- ====================================================
+             AT A GLANCE summary — appears before company profile
+             ==================================================== -->
+        {{ with .Params.at_a_glance }}
+          <section class="pr-compare__glance" id="at-a-glance">
+            <h2>At a glance</h2>
+            <table class="pr-compare__table pr-compare__glance-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>{{ $.Params.product_a.name }}</th>
+                  <th>{{ $.Params.product_b.name }}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range . }}
+                  <tr>
+                    <td><strong>{{ .label }}</strong></td>
+                    <td>{{ .a }}</td>
+                    <td>{{ .b }}</td>
+                  </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </section>
+        {{ end }}
+
+        <!-- ====================================================
              2. COMPANY BACKGROUNDS
              ==================================================== -->
         {{ with .Params.backgrounds }}
@@ -117,6 +144,46 @@
                   <h3>{{ .name }}</h3>
                   {{ with .meta }}<p class="pr-compare__bg-meta">{{ . }}</p>{{ end }}
                   {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
+
+                  {{/* Optional structured fact list — founders, HQ, notable clients, etc. */}}
+                  {{ with .facts }}
+                    <dl class="pr-compare__bg-facts">
+                      {{ range . }}
+                        <div class="pr-compare__bg-fact">
+                          <dt>{{ .label }}</dt>
+                          <dd>{{ .value | markdownify }}</dd>
+                        </div>
+                      {{ end }}
+                    </dl>
+                  {{ end }}
+
+                  {{/* Optional credentials strip — awards, certifications, featured-in */}}
+                  {{ with .credentials }}
+                    <div class="pr-compare__credentials">
+                      {{ with .awards }}
+                        <div class="pr-compare__cred-col">
+                          <span class="pr-compare__cred-label">Awards</span>
+                          <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+                        </div>
+                      {{ end }}
+                      {{ with .featured_in }}
+                        <div class="pr-compare__cred-col">
+                          <span class="pr-compare__cred-label">Featured in</span>
+                          <div class="pr-compare__cred-press">
+                            {{ range . }}
+                              {{ if .url }}<a href="{{ .url }}" rel="noopener nofollow">{{ .name }}</a>{{ else }}<span>{{ .name }}</span>{{ end }}
+                            {{ end }}
+                          </div>
+                        </div>
+                      {{ end }}
+                      {{ with .certifications }}
+                        <div class="pr-compare__cred-col">
+                          <span class="pr-compare__cred-label">Certifications</span>
+                          <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+                        </div>
+                      {{ end }}
+                    </div>
+                  {{ end }}
                 </div>
               {{ end }}
             </div>
@@ -366,33 +433,6 @@
                 </details>
               {{ end }}
             </div>
-          </section>
-        {{ end }}
-
-        <!-- ====================================================
-             13. AT A GLANCE summary
-             ==================================================== -->
-        {{ with .Params.at_a_glance }}
-          <section class="pr-compare__glance" id="at-a-glance">
-            <h2>At a glance</h2>
-            <table class="pr-compare__table pr-compare__glance-table">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>{{ $.Params.product_a.name }}</th>
-                  <th>{{ $.Params.product_b.name }}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {{ range . }}
-                  <tr>
-                    <td><strong>{{ .label }}</strong></td>
-                    <td>{{ .a }}</td>
-                    <td>{{ .b }}</td>
-                  </tr>
-                {{ end }}
-              </tbody>
-            </table>
           </section>
         {{ end }}
 
