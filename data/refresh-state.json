@@ -1,7 +1,7 @@
 {
   "_comment": "Rolling cursor for the listicle refresh agent. cursor = index into the publish-date-ordered list of v3 listicles. Agent processes BATCH_SIZE starting at cursor, then advances cursor by BATCH_SIZE (mod len(publish_order)). BATCH_SIZE is set in scripts/daily_refresh_pick.py (currently 6). publish_order now covers all 37 listicles in content/list/ (date-ascending). last_run is informational.",
-  "cursor": 24,
-  "last_run": "2026-06-10",
+  "cursor": 30,
+  "last_run": "2026-06-11",
   "publish_order": [
     "best-enterprise-seo-agencies",
     "best-saas-seo-agencies",

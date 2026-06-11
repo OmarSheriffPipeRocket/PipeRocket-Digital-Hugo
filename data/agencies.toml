@@ -53,6 +53,10 @@ homepage = "https://www.obilityb2b.com/"
 pricing = "https://www.obilityb2b.com/pricing/"
 contact = "https://www.obilityb2b.com/contact/"
 
+[hey-digital]
+name = "Hey Digital"
+homepage = "https://www.heydigital.co/"
+
 [omniscient-digital]
 name = "Omniscient Digital"
 homepage = "https://beomniscient.com/"
