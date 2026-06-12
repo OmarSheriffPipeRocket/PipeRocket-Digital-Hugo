@@ -1,8 +1,8 @@
 ---
-title: "B2B SaaS SEO Agency | Pipeline-First Organic Growth"
-description: "B2B SaaS SEO agency that goes after in-market BOFU searches from week one. Every page tied to qualified pipeline and closed-won MRR, not traffic reports."
-metaTitle: "B2B SaaS SEO Agency | Pipeline-First Organic Growth"
-metaDescription: "B2B SaaS SEO agency going after in-market BOFU searches from week one. Every page tied to qualified pipeline and closed-won MRR, not traffic reports."
+title: "SaaS SEO Agency | AI-First SaaS SEO Services"
+description: "PipeRocket is an AI-first SEO agency for SaaS companies. Our SaaS SEO services drive demos, MQLs, and MRR from bottom-of-funnel searches, starting week one."
+metaTitle: "SaaS SEO Agency | AI-First SaaS SEO Services"
+metaDescription: "PipeRocket is an AI-first SEO agency for SaaS companies. Our SaaS SEO services drive demos, MQLs, and MRR from bottom-of-funnel searches, starting week one."
 layout: "saas-seo-agency"
 bodyClass: "page-saas-seo"
 logobar_label: "Trusted by 50+ B2B SaaS brands"
