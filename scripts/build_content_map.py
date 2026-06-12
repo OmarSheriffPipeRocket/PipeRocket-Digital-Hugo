@@ -140,6 +140,39 @@ def page_url(fm_url, default):
     return default
 
 
+def gsc_measure(g, primary):
+    """Measurement block: how the page performs in GSC, read AGAINST the chosen
+    primary target (not a substitute for it).
+      - top_query / position: the query the page actually surfaces best for
+        (junk brand/site: queries skipped).
+      - primary_position: where the page ranks for its OWN target keyword
+        (omitted + primary_ranking:false when the target isn't surfacing at all).
+      - aligned: is the actual top query the same as the target? (false = the
+        page is showing up, but for the wrong keyword.)
+    """
+    queries = g.get("queries", [])
+    top = next((q for q in queries if not is_junk_query(q["query"])), None)
+    if top is None:
+        top = {"query": g["top_query"], "position": g["top_query_position"],
+               "impressions": g["top_query_impressions"]}
+    block = {
+        "total_impressions": g["total_impressions"],
+        "top_query": top["query"],
+        "top_query_position": top["position"],
+        "top_query_impressions": top["impressions"],
+    }
+    if primary:
+        pn = set(normalize(primary))
+        pq = next((q for q in queries if set(normalize(q["query"])) == pn), None)
+        block["aligned"] = bool(pq) and set(normalize(top["query"])) == pn
+        if pq:
+            block["primary_position"] = pq["position"]
+            block["primary_impressions"] = pq["impressions"]
+        else:
+            block["primary_ranking"] = False
+    return block
+
+
 def url_to_path(url):
     """https://piperocket.digital/blogs/x/ -> /blogs/x/ ; pass through if already a path."""
     if not url:
@@ -206,48 +239,72 @@ def match_cluster(primary, clusters):
 
 # ---------- intent / funnel heuristics ----------
 
+# Title cues that mark a blog as TOFU (plain definition / starter level).
+# Everything else — in-depth strategy, tactics, measurement, playbooks — is MOFU.
+TOFU_BLOG_CUES = ("what is", "what are", "starter guide", "beginner",
+                  "for beginners", "basics", "101", "getting started",
+                  "introduction to", "intro to", "a primer")
+
+
 def guess_intent_funnel(ctype, title, slug):
+    """Return (intent, funnel, needs_review). needs_review is True only when the
+    call is a genuine judgment (blogs: TOFU vs MOFU depends on content depth,
+    which we approximate from the title). All other types are deterministic."""
     t = (title or "").lower()
     s = (slug or "").lower()
     if ctype == "glossary":
-        return "informational", "tofu"
+        return "informational", "tofu", False
     if ctype == "list":
-        return "commercial", "mofu"           # "best X agencies" = vendor research
+        return "commercial", "bofu", False    # "best X agencies" = vendor shortlist
     if ctype == "landing":
-        return "commercial", "bofu"           # service/industry money pages
+        return "commercial", "bofu", False    # service/industry money pages
     if ctype == "compare":
         # PipeRocket-vs-X is branded/navigational; neutral A-vs-B is commercial
         nav = "piperocket" in s or "pipe-rocket" in s
-        return ("navigational" if nav else "commercial"), "bofu"
+        return ("navigational" if nav else "commercial"), "bofu", False
     if ctype == "alternative":
-        return "commercial", "bofu"           # "X alternatives" = switching intent
+        return "commercial", "bofu", False    # "X alternatives" = switching intent
     if ctype == "case-study":
-        return "navigational", "bofu"         # branded proof, not keyword-led
+        return "navigational", "bofu", False  # branded proof, not keyword-led
     if ctype == "tools":
-        return "transactional", "tofu"        # free calculators = tool intent
-    if ctype == "utility":
-        return "navigational", "none"         # legal/utility/conversion, no funnel
-    if ctype == "author":
-        return "navigational", "none"         # E-E-A-T byline pages
-    if ctype == "section":
-        return "navigational", "none"         # directory/index listing pages
+        return "transactional", "tofu", False # free calculators = tool intent
+    if ctype in ("utility", "author", "section"):
+        return "navigational", "none", False  # no keyword target / no funnel
     if ctype == "home":
-        return "commercial", "bofu"           # head term: saas marketing agency
-    # blogs
+        return "commercial", "bofu", False    # head term: saas marketing agency
+    # ---- blogs ----
     if " vs " in t or "-vs-" in s:
-        return "commercial", "bofu"
+        return "commercial", "bofu", True
     if re.search(r"\bbest\b.*\b(agenc|tool|software|platform)", t):
-        return "commercial", "mofu"
-    if t.startswith("how to") or t.startswith("what is") or "guide" in t or "examples" in t:
-        return "informational", "tofu"
-    return "informational", "tofu"
+        return "commercial", "mofu", True
+    # Plain definition / starter content = TOFU; anything deeper = MOFU.
+    is_tofu = any(c in t for c in TOFU_BLOG_CUES)
+    return "informational", ("tofu" if is_tofu else "mofu"), True
 
 
 # ---------- primary derivation ----------
 
+def blog_slug_primary(slug):
+    """Derive a clean keyword from a blog slug (editorial intent). The slug is a
+    far better keyword source than the title, which is often a full sentence
+    ("How to Run a SaaS Content Audit That Actually Moves Rankings"). Strip the
+    question/how-to framing and trailing year / format suffixes.
+        how-to-do-saas-content-audit          -> saas content audit
+        how-do-i-run-linkedin-ads-for-saas-an-experts-take -> run linkedin ads for saas
+        b2b-saas-seo                           -> b2b saas seo
+    """
+    s = (slug or "").replace("-", " ").strip()
+    s = re.sub(r"^(how to do|how to|how do i|how does|how can i|what is|what are|"
+               r"why|when|the|a)\s+", "", s)
+    s = re.sub(r"\s+(an experts take|a practitioners playbook|a complete guide|"
+               r"guide|in \d{4}|\d{4})$", "", s)
+    return s.strip()
+
+
 def slug_primary(ctype, title, slug):
     if ctype == "blogs":
-        cands = clean_blog_anchor(title)
+        kw = blog_slug_primary(slug)
+        cands = [kw] if kw else clean_blog_anchor(title)
     elif ctype == "list":
         cands = clean_listicle_anchors(title, slug)
     elif ctype == "glossary":  # strip "what is", "?", trailing clauses
@@ -319,53 +376,40 @@ def build():
         slug, title, _ = read_frontmatter(f)
         no_keyword = ctype in NO_KEYWORD_TYPES   # utility / author / section
 
-        # primary candidate: home gets its fixed head term, no-keyword types get
-        # nothing, everything else derives from slug/title.
+        # ---- primary = the keyword we CHOSE to target (editorial intent). ----
+        # Derived from slug/title, never from GSC: the whole point of the GSC
+        # block below is to measure whether the page actually surfaces for THIS
+        # target. Seeding primary from GSC would be circular (you'd define the
+        # target as whatever you already rank for, so "wrong keyword" is
+        # undetectable). Home gets its fixed head term; no-keyword types get none.
         if ctype == "home":
-            slug_kw = HOME_PRIMARY
+            primary = HOME_PRIMARY
         elif no_keyword:
-            slug_kw = ""
+            primary = ""
         else:
-            slug_kw = slug_primary(ctype, title, slug)
-        primary = slug_kw
-        review_note = None
-        secondary, gsc_block = [], None
+            primary = slug_primary(ctype, title, slug)
 
+        # secondary = additional TARGET keywords (also editorial). Only lists
+        # carry an obvious variant ("best X" + "top X"); leave others for humans.
+        secondary = []
+        if ctype == "list":
+            secondary = [c for c in clean_listicle_anchors(title, slug)[1:]
+                         if normalize(c) != normalize(primary)]
+
+        # gsc = MEASUREMENT add-on: where we rank for the target vs what we
+        # actually surface for. Absent when the page has no GSC data yet.
         g = gsc.get(path)
-        if g:
-            top = g["top_query"]
-            # Seed primary from GSC reality, but never let a junk query
-            # (bare brand/domain, site: operator) become the target keyword.
-            # No-keyword pages never seed a primary; the home keyword is fixed —
-            # but the gsc block is still attached as an informational add-on.
-            if not no_keyword and ctype != "home" and not is_junk_query(top):
-                primary = top
-                if normalize(primary) != normalize(slug_kw):
-                    review_note = f'slug said "{slug_kw}"'
-            if not no_keyword:
-                # secondary = next few queries, excluding the primary + junk
-                for q in g.get("queries", [])[1:6]:
-                    if is_junk_query(q["query"]):
-                        continue
-                    if normalize(q["query"]) != normalize(primary):
-                        secondary.append(q["query"])
-            gsc_block = {
-                "top_query": g["top_query"],
-                "impressions": g["top_query_impressions"],
-                "clicks": g["top_query_clicks"],
-                "position": g["top_query_position"],
-                "total_impressions": g["total_impressions"],
-            }
+        gsc_block = gsc_measure(g, primary) if g else None
 
         ckey, centity = (None, None) if no_keyword else match_cluster(primary, clusters)
-        intent, funnel = guess_intent_funnel(ctype, title, slug)
+        intent, funnel, needs_review = guess_intent_funnel(ctype, title, slug)
 
         entries.append({
             "url": path, "type": TYPE_LABEL.get(ctype, ctype),
             "keyword_target": not no_keyword,
-            "primary": primary, "review_note": review_note,
+            "primary": primary,
             "secondary": secondary,
-            "intent": intent, "funnel": funnel,
+            "intent": intent, "funnel": funnel, "needs_review": needs_review,
             "cluster": ckey, "cluster_entity": centity,
             "canonical_for": primary,
             "status": "active",
@@ -386,11 +430,13 @@ def yq(s):
 
 def write_yaml(entries, gsc_src):
     L = [
-        "# data/content_map.yml — page → target-keyword ownership ledger",
+        "# data/content_map.yml — page → target-keyword ownership ledger (full site).",
         "# Generated by scripts/build_content_map.py.",
-        "# Phase 1: blogs + glossary + list.  Phase 2: landing + compare + alternative + case-study + tools.",
-        "# `primary` is GSC-seeded where data exists (junk brand/site: queries filtered), else slug/title-derived.",
-        "# REVIEW the intent/funnel fields and any `# REVIEW:` lines before relying on them.",
+        "# `primary` is the keyword we CHOSE to target (slug/title-derived, editorial),",
+        "# never seeded from GSC. The `gsc:` block is a MEASUREMENT add-on: it reports",
+        "# whether the page actually ranks for that target (primary_position) and whether",
+        "# the query it surfaces best for matches the target (aligned). `# REVIEW` marks",
+        "# blog intent/funnel calls (TOFU vs MOFU depends on depth, inferred from title).",
         f"# GSC source: {gsc_src or 'none (slug/title-only build)'}",
         "",
         "meta:",
@@ -401,10 +447,7 @@ def write_yaml(entries, gsc_src):
         "pages:",
     ]
     for e in entries:
-        head = f"  - url: {yq(e['url'])}"
-        if e["review_note"]:
-            head += f"          # REVIEW: {e['review_note']}"
-        L.append(head)
+        L.append(f"  - url: {yq(e['url'])}")
         L.append(f"    type: {e['type']}")
         # Utility/legal pages are part of the inventory but carry no keyword
         # target — flag them explicitly; keyword pages omit the field (= true).
@@ -417,10 +460,10 @@ def write_yaml(entries, gsc_src):
                 L.append(f"      - {yq(s)}")
         else:
             L.append("    secondary: []")
-        # Fixed intent/funnel for utility pages need no human review.
-        rev = "        # REVIEW" if e.get("keyword_target", True) else ""
+        # # REVIEW marks only genuine judgment calls (blog TOFU vs MOFU).
+        rev = "        # REVIEW" if e.get("needs_review") else ""
         L.append(f"    intent: {e['intent']}{rev}")
-        L.append(f"    funnel: {e['funnel']}{'            # REVIEW' if e.get('keyword_target', True) else ''}")
+        L.append(f"    funnel: {e['funnel']}")
         L.append(f"    cluster: {e['cluster'] or 'null'}")
         if e["cluster_entity"]:
             L.append(f"    cluster_entity: {yq(e['cluster_entity'])}")
@@ -428,32 +471,49 @@ def write_yaml(entries, gsc_src):
         L.append(f"    status: {e['status']}")
         if e["gsc"]:
             g = e["gsc"]
-            L.append("    gsc:")
-            L.append(f"      top_query: {yq(g['top_query'])}")
-            L.append(f"      impressions: {g['impressions']}")
-            L.append(f"      clicks: {g['clicks']}")
-            L.append(f"      position: {g['position']}")
+            L.append("    gsc:                          # MEASUREMENT only — not the target")
             L.append(f"      total_impressions: {g['total_impressions']}")
+            L.append(f"      top_query: {yq(g['top_query'])}          # what the page actually surfaces for")
+            L.append(f"      top_query_position: {g['top_query_position']}")
+            L.append(f"      top_query_impressions: {g['top_query_impressions']}")
+            if "aligned" in g:
+                L.append(f"      aligned: {str(g['aligned']).lower()}              # top query == primary target?")
+            if g.get("primary_position") is not None:
+                L.append(f"      primary_position: {g['primary_position']}        # rank for the TARGET keyword")
+                L.append(f"      primary_impressions: {g['primary_impressions']}")
+            elif g.get("primary_ranking") is False:
+                L.append("      primary_ranking: false        # target keyword not surfacing yet")
         L.append("")
     OUT_FILE.write_text("\n".join(L), encoding="utf-8")
 
 
 def summarize(entries, gsc_src):
-    by_type, gsc_seeded, no_cluster, reviews = {}, 0, 0, 0
+    by_type, measured, no_cluster, reviews = {}, 0, 0, 0
+    aligned = misaligned = not_ranking = 0
     for e in entries:
         by_type[e["type"]] = by_type.get(e["type"], 0) + 1
         if e["gsc"]:
-            gsc_seeded += 1
+            measured += 1
+            g = e["gsc"]
+            if "aligned" in g:
+                if g["aligned"]:
+                    aligned += 1
+                elif g.get("primary_ranking") is False:
+                    not_ranking += 1
+                else:
+                    misaligned += 1
         if not e["cluster"]:
             no_cluster += 1
-        if e["review_note"]:
+        if e.get("needs_review"):
             reviews += 1
     print(f"\nWrote {OUT_FILE}  ({len(entries)} pages)")
     for k, v in sorted(by_type.items()):
         print(f"  {k:10s}: {v}")
-    print(f"  GSC-seeded primaries : {gsc_seeded}/{len(entries)}"
-          + (f" (from {gsc_src})" if gsc_src else " — run gsc_query_page.py to seed"))
-    print(f"  slug↔GSC mismatches  : {reviews}  (marked `# REVIEW:`)")
+    print(f"  pages with GSC data  : {measured}/{len(entries)}"
+          + (f" (from {gsc_src})" if gsc_src else " — run gsc_query_page.py first"))
+    print(f"  target alignment     : {aligned} ranking-for-target · "
+          f"{misaligned} surfacing-wrong-query · {not_ranking} target-not-ranking")
+    print(f"  blog intent/funnel   : {reviews}  (marked `# REVIEW` — confirm TOFU vs MOFU)")
     print(f"  unmatched to cluster : {no_cluster}  (entity-map gaps or off-topic)")
 
 

@@ -10,53 +10,9 @@ Two-layer detection: **declarative** (content_map.yml collisions) × **empirical
 |---|---|---|
 | CONFIRMED (both layers) | 3 | Declared overlap that IS splitting rankings — fix first |
 | UNDECLARED (GSC only) | 10 | On-SERP overlap the map didn't predict — verify + declare |
-| LATENT (map only) | 10 | Same target declared, not yet both ranking — prevent |
+| LATENT (map only) | 3 | Same target declared, not yet both ranking — prevent |
 
 ## CONFIRMED — declared overlap splitting rankings
-
-### 1. `enterprise seo agency` — MEDIUM  ·  4505 impr
-
-_Also: `seo enterprise agency`, `top enterprise seo agency`_
-
-| URL | type | pos | impr | clk |  |
-|---|---|---|---|---|---|
-| `/blogs/best-enterprise-seo-agencies/` | — | 29.1 | 2770 | 0 |  🏆 most impr |
-| `/list/best-enterprise-seo-agencies/` | list | 12.4 | 1734 | 0 |  |
-| `/enterprise-ai-seo-services/` | landing | 118.0 | 1 | 0 |  |
-
-- **INVESTIGATE** `/list/best-enterprise-seo-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
-
-### 2. `saas ppc agency` — MEDIUM  ·  2909 impr
-
-_Also: `ppc agency for saas`, `top saas ppc agency`_
-
-| URL | type | pos | impr | clk |  |
-|---|---|---|---|---|---|
-| `/blogs/best-saas-ppc-agencies/` | — | 27.5 | 1894 | 3 |  🏆 most impr |
-| `/saas-ppc/` | landing | 53.3 | 518 | 0 |  |
-| `/list/best-saas-ppc-agencies/` | list | 23.2 | 493 | 1 |  |
-| `/blogs/best-saas-marketing-agencies/` | — | 19.0 | 2 | 0 |  |
-| `/blogs/` | section | 75.0 | 1 | 0 |  |
-| `/saas-ppc/faqs` | — | 19.0 | 1 | 0 |  |
-
-- **INVESTIGATE** `/list/best-saas-ppc-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
-
-### 3. `ppc b2b agency` — MEDIUM  ·  2499 impr
-
-_Also: `b2b ppc agency`, `top b2b ppc agency`_
-
-| URL | type | pos | impr | clk |  |
-|---|---|---|---|---|---|
-| `/list/best-affordable-b2b-ppc-agencies/` | list | 29.2 | 1861 | 1 |  🏆 most impr |
-| `/blogs/top-b2b-ppc-agencies/` | — | 29.2 | 385 | 0 |  |
-| `/list/top-b2b-ppc-agencies/` | list | 51.1 | 211 | 0 |  |
-| `/saas-ppc/` | landing | 67.0 | 37 | 0 |  |
-| `/blogs/best-saas-ppc-agencies/` | — | 26.5 | 4 | 0 |  |
-| `/list/best-b2b-advertising-agencies/` | list | 38.0 | 1 | 0 |  |
-
-- **INVESTIGATE** `/blogs/top-b2b-ppc-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
-
-## UNDECLARED — GSC shows 2+ URLs, map didn't predict it
 
 ### 1. `b2b ppc agencies` — HIGH  ·  654 impr
 
@@ -89,7 +45,21 @@ _Also: `top saas ppc agencies`, `best saas ppc agencies`_
 - **INVESTIGATE** `/list/best-affordable-b2b-ppc-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 - **INVESTIGATE** `/blogs/top-performance-marketing-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
-### 3. `b2b saas ppc agencies` — HIGH  ·  166 impr
+### 3. `seo enterprise agency` — MEDIUM  ·  4505 impr
+
+_Also: `enterprise seo agency`, `top enterprise seo agency`_
+
+| URL | type | pos | impr | clk |  |
+|---|---|---|---|---|---|
+| `/blogs/best-enterprise-seo-agencies/` | — | 29.1 | 2770 | 0 |  🏆 most impr |
+| `/list/best-enterprise-seo-agencies/` | list | 12.4 | 1734 | 0 |  |
+| `/enterprise-ai-seo-services/` | landing | 118.0 | 1 | 0 |  |
+
+- **INVESTIGATE** `/list/best-enterprise-seo-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
+
+## UNDECLARED — GSC shows 2+ URLs, map didn't predict it
+
+### 1. `b2b saas ppc agencies` — HIGH  ·  166 impr
 
 _Also: `best b2b saas ppc agencies`, `best ppc agencies for b2b saas`_
 
@@ -105,7 +75,7 @@ _Also: `best b2b saas ppc agencies`, `best ppc agencies for b2b saas`_
 
 - **INVESTIGATE** `/blogs/top-b2b-ppc-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
-### 4. `which generative engine optimization services provide the best value for u.s. businesses?` — HIGH  ·  59 impr
+### 2. `which generative engine optimization services provide the best value for u.s. businesses?` — HIGH  ·  59 impr
 
 | URL | type | pos | impr | clk |  |
 |---|---|---|---|---|---|
@@ -114,7 +84,7 @@ _Also: `best b2b saas ppc agencies`, `best ppc agencies for b2b saas`_
 
 - **INVESTIGATE** `/list/best-geo-agency/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
-### 5. `b2b performance marketing agencies` — HIGH  ·  54 impr
+### 3. `b2b performance marketing agencies` — HIGH  ·  54 impr
 
 _Also: `top b2b performance marketing agencies`, `best b2b performance marketing agencies`_
 
@@ -125,7 +95,7 @@ _Also: `top b2b performance marketing agencies`, `best b2b performance marketing
 
 - **INVESTIGATE** `/blogs/best-b2b-marketing-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
-### 6. `which u.s. companies provide geo and ai visibility optimization?` — HIGH  ·  47 impr
+### 4. `which u.s. companies provide geo and ai visibility optimization?` — HIGH  ·  47 impr
 
 | URL | type | pos | impr | clk |  |
 |---|---|---|---|---|---|
@@ -134,7 +104,7 @@ _Also: `top b2b performance marketing agencies`, `best b2b performance marketing
 
 - **INVESTIGATE** `/list/best-geo-agency/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
-### 7. `best growth marketing agencies` — HIGH  ·  39 impr
+### 5. `best growth marketing agencies` — HIGH  ·  39 impr
 
 _Also: `top growth marketing agencies 2025 2026`, `best growth marketing agencies 2025 2026`_
 
@@ -145,7 +115,7 @@ _Also: `top growth marketing agencies 2025 2026`, `best growth marketing agencie
 
 - **INVESTIGATE** `/blogs/top-performance-marketing-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
-### 8. `geo aeo llm optimization startup funding 2026` — HIGH  ·  26 impr
+### 6. `geo aeo llm optimization startup funding 2026` — HIGH  ·  26 impr
 
 | URL | type | pos | impr | clk |  |
 |---|---|---|---|---|---|
@@ -153,6 +123,36 @@ _Also: `top growth marketing agencies 2025 2026`, `best growth marketing agencie
 | `/list/best-geo-agencies/` | list | 6.8 | 11 | 0 |  |
 
 - **DELETE** `/list/best-geo-agencies/` — no clicks, minimal impressions → 301 to winner
+
+### 7. `saas ppc agency` — MEDIUM  ·  2909 impr
+
+_Also: `ppc agency for saas`, `top saas ppc agency`_
+
+| URL | type | pos | impr | clk |  |
+|---|---|---|---|---|---|
+| `/blogs/best-saas-ppc-agencies/` | — | 27.5 | 1894 | 3 |  🏆 most impr |
+| `/saas-ppc/` | landing | 53.3 | 518 | 0 |  |
+| `/list/best-saas-ppc-agencies/` | list | 23.2 | 493 | 1 |  |
+| `/blogs/best-saas-marketing-agencies/` | — | 19.0 | 2 | 0 |  |
+| `/blogs/` | section | 75.0 | 1 | 0 |  |
+| `/saas-ppc/faqs` | — | 19.0 | 1 | 0 |  |
+
+- **INVESTIGATE** `/list/best-saas-ppc-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
+
+### 8. `ppc b2b agency` — MEDIUM  ·  2499 impr
+
+_Also: `b2b ppc agency`, `top b2b ppc agency`_
+
+| URL | type | pos | impr | clk |  |
+|---|---|---|---|---|---|
+| `/list/best-affordable-b2b-ppc-agencies/` | list | 29.2 | 1861 | 1 |  🏆 most impr |
+| `/blogs/top-b2b-ppc-agencies/` | — | 29.2 | 385 | 0 |  |
+| `/list/top-b2b-ppc-agencies/` | list | 51.1 | 211 | 0 |  |
+| `/saas-ppc/` | landing | 67.0 | 37 | 0 |  |
+| `/blogs/best-saas-ppc-agencies/` | — | 26.5 | 4 | 0 |  |
+| `/list/best-b2b-advertising-agencies/` | list | 38.0 | 1 | 0 |  |
+
+- **INVESTIGATE** `/blogs/top-b2b-ppc-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
 ### 9. `agency to fix underperforming saas ppc services` — MEDIUM  ·  53 impr
 
@@ -179,13 +179,6 @@ _Also: `top growth marketing agencies 2025 2026`, `best growth marketing agencie
 
 | target key | pages declaring it | note |
 |---|---|---|
-| `search volume` | `/blogs/how-to-choose-search-volume-vs-search-intent/`<br>`/glossary/what-is-search-volume/` | intent-differentiated? |
-| `keyword multiple page same using` | `/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/`<br>`/blogs/how-to-rank-mofu-keywords-saas/` |  |
-| `ppc saa` | `/blogs/saas-ppc-checklist/`<br>`/blogs/saas-ppc/`<br>`/glossary/what-is-ppc/` |  |
-| `agency cybersecurity marketing` | `/cybersecurity-marketing-agency/`<br>`/list/best-cybersecurity-marketing-agencies/` |  |
-| `agency edtech marketing` | `/edtech-marketing-agency/`<br>`/list/best-edtech-marketing-agencies/` |  |
-| `agency healthtech marketing` | `/healthtech-marketing-agency/`<br>`/list/best-healthtech-marketing-agencies/` |  |
-| `agency hr marketing tech` | `/hrtech-marketing-agency/`<br>`/list/best-hr-tech-marketing-agencies/` |  |
-| `agency marketing saa` | `/`<br>`/list/best-saas-growth-marketing-agencies/` |  |
-| `agencie saa seo` | `/list/best-saas-seo-agencies-for-sales-led-growth/`<br>`/list/best-saas-seo-agencies-for-series-a/` |  |
-| `agency saa seo` | `/list/best-saas-seo-agencies/`<br>`/saas-seo-agency/` |  |
+| `b2b ppc` | `/blogs/b2b-ppc-guide/`<br>`/blogs/b2b-ppc/` |  |
+| `ppc saa` | `/blogs/saas-ppc/`<br>`/saas-ppc/` | intent-differentiated? |
+| `agencie saa seo` | `/list/best-saas-seo-agencies-for-product-led-growth/`<br>`/list/best-saas-seo-agencies-for-sales-led-growth/`<br>`/list/best-saas-seo-agencies-for-series-a/`<br>`/list/best-saas-seo-agencies-for-series-b/`<br>`/list/best-saas-seo-agencies-for-startups/`<br>`/list/best-saas-seo-agencies/` |  |
