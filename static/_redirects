@@ -63,6 +63,8 @@
 /success-stories/*                                      /case-study/:splat                                      301
 /articles/*                                             /blogs/:splat                                           301
 /aeo-geo-agency/                                        /saas-seo-agency/ai-seo-services/                       301
+/fintech-seo-agency/                                    /saas-seo-agency/fintech-seo-agency/                    301
+/hrtech-seo-agency/                                     /saas-seo-agency/hrtech-seo-agency/                     301
 /content-marketing-agency/                              /saas-seo-agency/content-marketing-agency/              301
 /technical-seo-agency/                                  /saas-seo-agency/technical-seo-agency/                  301
 /link-building-agency/                                  /saas-seo-agency/link-building-agency/                  301
@@ -71,7 +73,7 @@
 /account-based-marketing/                               /account-based-marketing-agency/                        301
 /content-marketing/                                     /saas-seo-agency/content-marketing-agency/              301
 /link-building/                                         /saas-seo-agency/link-building-agency/                  301
-/fintech-seo/                                           /fintech-seo-agency/                                    301
+/fintech-seo/                                           /saas-seo-agency/fintech-seo-agency/                    301
 /blog/b2b-buyers-journey/                               /blogs/                                                 301
 /blog/b2b-seo/                                          /list/best-b2b-seo-agencies/                            301
 /blog/best-b2b-demand-generation-agencies/              /list/                                                  301

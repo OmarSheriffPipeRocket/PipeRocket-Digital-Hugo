@@ -206,7 +206,7 @@ We built [PipeRocket Digital](/) because most fintech agencies still optimise fo
 | Founded | 2020 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
-| Specialization | B2B SaaS [fintech SEO](/fintech-seo-agency/), [fintech PPC](/fintech-ppc-agency/), [GEO/AEO](/saas-seo-agency/ai-seo-services/) |
+| Specialization | B2B SaaS [fintech SEO](/saas-seo-agency/fintech-seo-agency/), [fintech PPC](/fintech-ppc-agency/), [GEO/AEO](/saas-seo-agency/ai-seo-services/) |
 
 **Distinctive Strength:** We treat fintech marketing as a revenue function, not a creative one.
 

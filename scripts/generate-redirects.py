@@ -78,6 +78,8 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     # Service-page rename — AEO/GEO agency repositioned as AI SEO services (2026-06)
     ("/aeo-geo-agency/",                                "/saas-seo-agency/ai-seo-services/"),
     # Service silo (2026-06): SEO sub-services moved under /saas-seo-agency/
+    ("/fintech-seo-agency/",                            "/saas-seo-agency/fintech-seo-agency/"),
+    ("/hrtech-seo-agency/",                             "/saas-seo-agency/hrtech-seo-agency/"),
     ("/content-marketing-agency/",                      "/saas-seo-agency/content-marketing-agency/"),
     ("/technical-seo-agency/",                          "/saas-seo-agency/technical-seo-agency/"),
     ("/link-building-agency/",                          "/saas-seo-agency/link-building-agency/"),
@@ -87,7 +89,7 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/account-based-marketing/",                       "/account-based-marketing-agency/"),
     ("/content-marketing/",                             "/saas-seo-agency/content-marketing-agency/"),
     ("/link-building/",                                 "/saas-seo-agency/link-building-agency/"),
-    ("/fintech-seo/",                                   "/fintech-seo-agency/"),
+    ("/fintech-seo/",                                   "/saas-seo-agency/fintech-seo-agency/"),
     # Old /blog/<slug>/ WordPress URLs (singular path) — Hugo serves /blogs/ now
     ("/blog/b2b-buyers-journey/",                       "/blogs/"),
     ("/blog/b2b-seo/",                                  "/list/best-b2b-seo-agencies/"),

@@ -182,7 +182,7 @@ url = "/proptech-marketing-agency/"
 weight = 10
 [[menu.footer_industries]]
 name = "Fintech SEO Agency"
-url = "/fintech-seo-agency/"
+url = "/saas-seo-agency/fintech-seo-agency/"
 weight = 11
 [[menu.footer_industries]]
 name = "Fintech PPC Agency"
@@ -190,7 +190,7 @@ url = "/fintech-ppc-agency/"
 weight = 12
 [[menu.footer_industries]]
 name = "HR Tech SEO Agency"
-url = "/hrtech-seo-agency/"
+url = "/saas-seo-agency/hrtech-seo-agency/"
 weight = 13
 [[menu.footer_industries]]
 name = "HR Tech PPC Agency"
