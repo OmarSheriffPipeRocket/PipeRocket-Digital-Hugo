@@ -1,65 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 420" role="img" aria-labelledby="prFfTitle prFfDesc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="prFfTitle prFfDesc">
   <title id="prFfTitle">PipeRocket SaaS SEO framework funnel</title>
-  <desc id="prFfDesc">A funnel running from week one to compounding MRR through four stages: 01 Buyers over keywords (sales calls and ICP data go in), 02 Intent over volume (in-market BOFU queries), 03 Purpose over publish (pages built to convert), 04 Revenue over rankings (demos, MQLs and MRR out).</desc>
+  <desc id="prFfDesc">Buyer conversations and ICP data enter a funnel with four stages, buyers over keywords, intent over volume, purpose over publish, revenue over rankings, and exit as demos, MQLs and MRR.</desc>
 
-  <!-- funnel cone -->
+  <!-- input chips -->
+  <g font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0D0D0D" text-anchor="middle">
+    <rect x="75" y="86" width="160" height="30" rx="15" fill="none" stroke="#0D0D0D" stroke-width="1.6"/>
+    <text x="155" y="105">sales call recordings</text>
+    <rect x="60" y="131" width="130" height="30" rx="15" fill="none" stroke="#0D0D0D" stroke-width="1.6"/>
+    <text x="125" y="150">ICP intent data</text>
+    <rect x="72" y="176" width="155" height="30" rx="15" fill="none" stroke="#0D0D0D" stroke-width="1.6"/>
+    <text x="149" y="195">evaluation searches</text>
+    <rect x="68" y="221" width="135" height="30" rx="15" fill="none" stroke="#0D0D0D" stroke-width="1.6"/>
+    <text x="135" y="240">buying triggers</text>
+  </g>
+  <!-- dashed connectors into the mouth -->
+  <g fill="none" stroke="#6B6B6B" stroke-width="1.4" stroke-dasharray="4 5">
+    <path d="M 238 101 q 30 12 44 32"/>
+    <path d="M 193 146 q 45 6 88 12"/>
+    <path d="M 230 191 q 28 -2 52 -6"/>
+    <path d="M 206 236 q 42 -14 76 -32"/>
+  </g>
+
+  <!-- funnel body -->
   <g fill="none" stroke="#0D0D0D" stroke-width="2.5">
-    <path d="M 150 50 C 470 64, 850 104, 1170 118"/>
-    <path d="M 150 350 C 470 336, 850 296, 1170 282"/>
-    <ellipse cx="150" cy="200" rx="22" ry="150"/>
-    <ellipse cx="1170" cy="200" rx="9" ry="82"/>
+    <path d="M 300 75 C 540 92, 760 120, 980 142"/>
+    <path d="M 300 265 C 540 248, 760 220, 980 198"/>
+    <ellipse cx="300" cy="170" rx="20" ry="95"/>
+    <ellipse cx="980" cy="170" rx="8" ry="28"/>
   </g>
 
-  <!-- segment dividers inside the cone -->
-  <g stroke="#6B6B6B" stroke-width="1.2" stroke-dasharray="3 7" opacity="0.4">
-    <line x1="465" y1="71" x2="465" y2="329"/>
-    <line x1="700" y1="87" x2="700" y2="313"/>
-    <line x1="940" y1="103" x2="940" y2="297"/>
+  <!-- stage dividers -->
+  <g stroke="#6B6B6B" stroke-width="1.2" stroke-dasharray="3 6" opacity="0.5">
+    <line x1="470" y1="99" x2="470" y2="241"/>
+    <line x1="630" y1="113" x2="630" y2="227"/>
+    <line x1="790" y1="126" x2="790" y2="214"/>
   </g>
 
-  <!-- flow arrows on the centerline -->
+  <!-- stage words inside funnel -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-weight="700" fill="#0D0D0D" text-anchor="middle">
+    <text x="388" y="181" font-size="30">Buyers</text>
+    <text x="550" y="179" font-size="26">Intent</text>
+    <text x="710" y="177" font-size="22">Purpose</text>
+    <text x="885" y="176" font-size="19">Revenue</text>
+  </g>
+
+  <!-- ticks + "over X" sub-labels below funnel -->
+  <g stroke="#6B6B6B" stroke-width="1.2" stroke-dasharray="2 5">
+    <line x1="388" y1="260" x2="388" y2="286"/>
+    <line x1="550" y1="246" x2="550" y2="286"/>
+    <line x1="710" y1="232" x2="710" y2="286"/>
+    <line x1="885" y1="214" x2="885" y2="286"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#6B6B6B" text-anchor="middle">
+    <text x="388" y="308">over <tspan>keywords</tspan></text>
+    <text x="550" y="308">over <tspan>volume</tspan></text>
+    <text x="710" y="308">over <tspan>publish</tspan></text>
+    <text x="885" y="308">over <tspan>rankings</tspan></text>
+  </g>
+  <g stroke="#E63946" stroke-width="2" stroke-linecap="round">
+    <line x1="375" y1="303" x2="437" y2="300"/>
+    <line x1="542" y1="303" x2="594" y2="300"/>
+    <line x1="700" y1="303" x2="752" y2="300"/>
+    <line x1="874" y1="303" x2="932" y2="300"/>
+  </g>
+
+  <!-- output arrows -->
   <g fill="none" stroke="#0D0D0D" stroke-width="2" stroke-linecap="round">
-    <path d="M 440 200 h 44"/><path d="M 484 200 l -10 -6 M 484 200 l -10 6"/>
-    <path d="M 678 200 h 44"/><path d="M 722 200 l -10 -6 M 722 200 l -10 6"/>
-    <path d="M 918 200 h 44"/><path d="M 962 200 l -10 -6 M 962 200 l -10 6"/>
+    <path d="M 992 162 q 18 -22 40 -34"/>
+    <path d="M 1032 128 l -12 -1 M 1032 128 l -7 9"/>
+    <path d="M 994 170 h 38"/>
+    <path d="M 1032 170 l -10 -6 M 1032 170 l -10 6"/>
+    <path d="M 992 178 q 18 22 40 34"/>
+    <path d="M 1032 212 l -12 1 M 1032 212 l -7 -9"/>
   </g>
 
-  <!-- ===== four stages ===== -->
+  <!-- output chips -->
   <g text-anchor="middle">
-    <!-- 01 Buyers -->
-    <text x="330" y="170" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#0CC6F1">01</text>
-    <text x="330" y="214" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#0D0D0D">Buyers</text>
-    <text x="330" y="246" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#6B6B6B">over <tspan>keywords</tspan></text>
-    <line x1="316" y1="240" x2="376" y2="237" stroke="#E63946" stroke-width="2.2" stroke-linecap="round"/>
-    <text x="330" y="276" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B6B6B">Sales calls + ICP data go in</text>
-
-    <!-- 02 Intent -->
-    <text x="585" y="170" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#0CC6F1">02</text>
-    <text x="585" y="214" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#0D0D0D">Intent</text>
-    <text x="585" y="246" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#6B6B6B">over <tspan>volume</tspan></text>
-    <line x1="573" y1="240" x2="623" y2="237" stroke="#E63946" stroke-width="2.2" stroke-linecap="round"/>
-    <text x="585" y="276" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B6B6B">In-market, BOFU queries</text>
-
-    <!-- 03 Purpose -->
-    <text x="830" y="170" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#0CC6F1">03</text>
-    <text x="830" y="214" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#0D0D0D">Purpose</text>
-    <text x="830" y="246" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#6B6B6B">over <tspan>publish</tspan></text>
-    <line x1="816" y1="240" x2="868" y2="237" stroke="#E63946" stroke-width="2.2" stroke-linecap="round"/>
-    <text x="830" y="276" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B6B6B">Pages built to convert</text>
-
-    <!-- 04 Revenue -->
-    <text x="1050" y="170" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#0CC6F1">04</text>
-    <text x="1050" y="214" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#0D0D0D">Revenue</text>
-    <path d="M 968 224 q 84 9 170 1" fill="none" stroke="#E63946" stroke-width="3" stroke-linecap="round"/>
-    <path d="M 976 230 q 74 7 156 0" fill="none" stroke="#E63946" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
-    <text x="1050" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#6B6B6B">over <tspan>rankings</tspan></text>
-    <line x1="1036" y1="246" x2="1098" y2="243" stroke="#E63946" stroke-width="2.2" stroke-linecap="round"/>
-    <text x="1050" y="278" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B6B6B">Demos, MQLs, MRR out</text>
+    <rect x="1042" y="106" width="104" height="36" rx="18" fill="none" stroke="#0CC6F1" stroke-width="2.4"/>
+    <text x="1094" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="700" fill="#0D0D0D">Demos</text>
+    <rect x="1042" y="152" width="104" height="36" rx="18" fill="none" stroke="#0CC6F1" stroke-width="2.4"/>
+    <text x="1094" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="700" fill="#0D0D0D">MQLs</text>
+    <rect x="1042" y="198" width="104" height="36" rx="18" fill="none" stroke="#0CC6F1" stroke-width="2.4"/>
+    <text x="1094" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="700" fill="#0D0D0D">MRR</text>
+    <path d="M 1048 244 q 24 6 92 1" fill="none" stroke="#E63946" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 1054 249 q 36 5 80 0" fill="none" stroke="#E63946" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
   </g>
-
-  <!-- WEEK ONE -> COMPOUNDING MRR rail -->
-  <line x1="70" y1="384" x2="1218" y2="384" stroke="#0D0D0D" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round" opacity="0.45"/>
-  <path d="M 1230 384 l -12 -6 M 1230 384 l -12 6" fill="none" stroke="#0D0D0D" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
-  <text x="70" y="404" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2.5" fill="#6B6B6B">WEEK ONE</text>
-  <text x="1230" y="404" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2.5" fill="#6B6B6B">COMPOUNDING MRR</text>
 </svg>
