@@ -126,7 +126,7 @@ Best for: Website owners who need authoritative, first-party data on how their o
 - URL Inspection tool for checking crawl, index, and rendering status
 - Core Web Vitals and page experience monitoring
 
-**Standout feature:** The Coverage report flags indexing errors and excluded pages with specific error codes, which makes it the fastest way to find and fix pages Google is refusing to index. For [technical SEO](/technical-seo-agency/) work, this is the diagnostic layer that paid tools approximate but do not replace.
+**Standout feature:** The Coverage report flags indexing errors and excluded pages with specific error codes, which makes it the fastest way to find and fix pages Google is refusing to index. For [technical SEO](/saas-seo-agency/technical-seo-agency/) work, this is the diagnostic layer that paid tools approximate but do not replace.
 
 **Limitation:** Search Console only shows data for your own verified properties. If you need to research competitor keyword strategies or identify untapped keyword opportunities beyond your current rankings, you will need an additional tool alongside it.
 
@@ -226,7 +226,7 @@ Best for: Site owners who want professional-grade backlink and technical SEO aud
 - Site Audit scans for 170-plus technical and on-page SEO issues with a Health Score
 - Web Analytics provides privacy-focused traffic data without cookies
 
-**Standout feature:** The Site Audit crawl with 5,000 credits per month is more thorough than what most free tools offer. For [technical SEO](/technical-seo-agency/) teams managing a single domain, the issue categorisation and prioritisation guidance inside the audit makes it genuinely actionable, not just diagnostic.
+**Standout feature:** The Site Audit crawl with 5,000 credits per month is more thorough than what most free tools offer. For [technical SEO](/saas-seo-agency/technical-seo-agency/) teams managing a single domain, the issue categorisation and prioritisation guidance inside the audit makes it genuinely actionable, not just diagnostic.
 
 **Limitation:** The free tier's 500 total Site Explorer credits is a hard cap that depletes quickly during active research. Once credits are exhausted, the tool reverts to audit-only functionality. Keyword Explorer, which covers competitive research on any domain, is locked entirely behind paid plans.
 
@@ -332,7 +332,7 @@ Best for: Content creators and bloggers who need rapid question-based keyword id
 - Question-based keyword discovery covering who, what, when, where, why, how
 - CSV export of keyword clusters for use in briefs and planning documents
 
-**Standout feature:** The comparison cluster reveals how users contrast your topic against alternatives or substitutes. For [content marketing](/content-marketing-agency/) teams building comparison and versus pages, the comparison output provides a structured starting inventory rather than requiring manual search pattern research.
+**Standout feature:** The comparison cluster reveals how users contrast your topic against alternatives or substitutes. For [content marketing](/saas-seo-agency/content-marketing-agency/) teams building comparison and versus pages, the comparison output provides a structured starting inventory rather than requiring manual search pattern research.
 
 **Limitation:** AnswerThePublic does not provide organic difficulty scores, search volume data, or SERP analysis on any plan. It is a content ideation tool, not a keyword prioritisation tool. Free users are also limited to 3 searches per day, which limits how quickly a team can explore a topic cluster.
 

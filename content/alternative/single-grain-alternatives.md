@@ -139,7 +139,7 @@ Best for: B2B SaaS companies at $1M-plus ARR wanting SEO and paid in one retaine
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 
-We built [PipeRocket Digital](/) to close the gap Single Grain doesn't fill: a SaaS-only retainer where every keyword strategy, paid campaign, and [link-building](/link-building-agency/) decision is built around software buying cycles. Single Grain serves multiple verticals; we serve one.
+We built [PipeRocket Digital](/) to close the gap Single Grain doesn't fill: a SaaS-only retainer where every keyword strategy, paid campaign, and [link-building](/saas-seo-agency/link-building-agency/) decision is built around software buying cycles. Single Grain serves multiple verticals; we serve one.
 
 **Firm Profile**
 
@@ -164,7 +164,7 @@ Pre-seed teams without product-market fit, ecommerce brands, local businesses, o
 Our [SaaS SEO](/saas-seo-agency/) and [SaaS PPC](/saas-ppc/) run inside one unified retainer — attribution never falls through a gap between vendors. Single Grain's full-service model mixes channels across multiple verticals; our 30-person team works SaaS-only.
 
 - Pipeline reporting covers MQL count, CAC, and pipeline value added per quarter from week four
-- [Programmatic SEO](/programmatic-seo-agency/) and [GEO/AEO](/ai-seo-services/) are included in the core retainer, not sold as add-ons
+- [Programmatic SEO](/saas-seo-agency/programmatic-seo-agency/) and [GEO/AEO](/saas-seo-agency/ai-seo-services/) are included in the core retainer, not sold as add-ons
 - $3,000/mo entry point, no markup on ad spend, no hidden fees
 
 **From Our Clients**

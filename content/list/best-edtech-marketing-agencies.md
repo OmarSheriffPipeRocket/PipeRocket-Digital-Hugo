@@ -136,7 +136,7 @@ We built [PipeRocket Digital](/) because most agencies obsess over impressions w
 | Founded | 2020 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
-| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/ai-seo-services/), [content marketing](/content-marketing-agency/) |
+| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), [content marketing](/saas-seo-agency/content-marketing-agency/) |
 
 **What Sets Us Apart:** We treat marketing as a revenue function, not a creative one.
 

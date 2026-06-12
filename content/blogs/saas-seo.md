@@ -142,7 +142,7 @@ Score every keyword on three dimensions:
 
 ### Step 5: Build Content Around Hub-and-Spoke Clusters
 
-One pillar page covers the broad topic. Ten to fifteen spoke articles cover every sub-topic: [keyword research](/glossary/what-is-keyword-research/), [link building](/link-building-agency/), [technical SEO](/technical-seo-agency/), AI search optimisation. Every spoke links back to the pillar. The pillar links to every spoke. This is the architecture behind topical authority and the semantic SEO signal Google uses to rank a brand as a topic expert rather than a page-by-page ranker.
+One pillar page covers the broad topic. Ten to fifteen spoke articles cover every sub-topic: [keyword research](/glossary/what-is-keyword-research/), [link building](/saas-seo-agency/link-building-agency/), [technical SEO](/saas-seo-agency/technical-seo-agency/), AI search optimisation. Every spoke links back to the pillar. The pillar links to every spoke. This is the architecture behind topical authority and the semantic SEO signal Google uses to rank a brand as a topic expert rather than a page-by-page ranker.
 
 High-authority spokes that earn [backlinks](/glossary/what-is-a-backlink/) pass that equity through internal links to your service pages and demo CTAs. The whole cluster lifts together. Some teams call this a content silo; the mechanics are identical. Andy Crestodina's framing is the cleanest practical take: the pillar earns the topical authority, the spokes earn the links, and the conversion pages cash in the equity.
 
@@ -251,7 +251,7 @@ Underneath the visible AI search products is an infrastructure layer that's wort
 - **MCP (Model Context Protocol)** is Anthropic's emerging open standard for how AI agents access external data. As MCP adoption grows, SaaS companies that expose clean, structured product data via an MCP server become directly queryable by AI agents — a new surface area for discovery.
 - **Source authority signals** — citations, links, entity consistency, freshness — feed into both retrieval and reranking, mirroring traditional SEO but with different weights.
 
-You don't need to build vector databases. You need to publish content that's clean, structured, entity-consistent, and chunkable — because that's what the infrastructure rewards. For managed implementation of these AI-search infrastructure plays, see PipeRocket's [AI SEO services](/ai-seo-services/).
+You don't need to build vector databases. You need to publish content that's clean, structured, entity-consistent, and chunkable — because that's what the infrastructure rewards. For managed implementation of these AI-search infrastructure plays, see PipeRocket's [AI SEO services](/saas-seo-agency/ai-seo-services/).
 
 ### How to Measure SaaS SEO by Pipeline, Not Vanity Metrics
 
@@ -286,7 +286,7 @@ You don't need all of these. Most teams thrive with Ahrefs or Semrush + Screamin
 
 Programmatic SEO uses templates and structured data to publish hundreds or thousands of pages targeting long-tail, intent-specific queries — at a scale no human content team can match. For SaaS, the highest-ROI programmatic patterns are integration pages (`"how to connect [your product] with [tool]"`), comparison pages (`"[your product] vs [competitor]"`), use-case pages, city- or industry-specific [landing pages](/glossary/what-is-a-landing-page/), and template directories where the variation is real and the underlying value is real.
 
-Done well, programmatic SEO captures BOFU intent at the scale only structured data allows. Done badly, it generates thin, near-duplicate pages that get classified as spam and trigger algorithmic suppression. The line between the two is the quality of the source data and the genuine differentiation between pages. See [PipeRocket's programmatic SEO service](/programmatic-seo-agency/) for how we run this.
+Done well, programmatic SEO captures BOFU intent at the scale only structured data allows. Done badly, it generates thin, near-duplicate pages that get classified as spam and trigger algorithmic suppression. The line between the two is the quality of the source data and the genuine differentiation between pages. See [PipeRocket's programmatic SEO service](/saas-seo-agency/programmatic-seo-agency/) for how we run this.
 
 This is the same signal Google's core updates keep sending. The May 2026 core update — like the broad updates before it — rewarded helpful, people-first content and further squeezed thin, templated pages ([Google Search Status](https://status.search.google.com/incidents/wdAXJk6LRRihEjpzEeWE)). The pattern across the last few years is now unmistakable: every core update widens the gap between genuinely useful pages and scaled filler, so the durable strategy isn't to chase each update — it's to be the page that updates keep rewarding.
 
@@ -353,7 +353,7 @@ PipeRocket Digital is a [SaaS SEO agency](/saas-seo-agency/) that reports on pip
 
 Every page is measured against MQLs, SQLs, PQLs, and pipeline contribution — not rankings and impressions.
 
-With 50+ B2B SaaS companies served, a 4.8 rating on Clutch, strong G2 and Capterra presence, and a 25-person team embedded across SEO, [performance marketing](/glossary/what-is-performance-marketing/), and [content marketing](/content-marketing-agency/), PipeRocket acts as an extended revenue team, not a vendor.
+With 50+ B2B SaaS companies served, a 4.8 rating on Clutch, strong G2 and Capterra presence, and a 25-person team embedded across SEO, [performance marketing](/glossary/what-is-performance-marketing/), and [content marketing](/saas-seo-agency/content-marketing-agency/), PipeRocket acts as an extended revenue team, not a vendor.
 
 ## Frequently Asked Questions
 

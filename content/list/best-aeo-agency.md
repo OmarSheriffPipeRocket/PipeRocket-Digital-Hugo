@@ -150,7 +150,7 @@ PipeRocket Digital is built for US B2B SaaS and B2B tech companies that need AEO
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
 | Specialization | AEO, GEO, SaaS SEO, pipeline attribution, full-funnel |
 
-**Differentiator:** We're the only full-spectrum agency on this list working from pre-revenue ($0 ARR) through enterprise, which makes us the natural choice for US founders who can't afford high agency minimums and for growth teams needing the same rigour at scale. Our [AEO/GEO services](/ai-seo-services/) tie every citation to demos and MRR, not impressions.
+**Differentiator:** We're the only full-spectrum agency on this list working from pre-revenue ($0 ARR) through enterprise, which makes us the natural choice for US founders who can't afford high agency minimums and for growth teams needing the same rigour at scale. Our [AEO/GEO services](/saas-seo-agency/ai-seo-services/) tie every citation to demos and MRR, not impressions.
 
 - Retainers start at $1,500/mo for early-stage and scale to $6,000+/mo for enterprise, with transparent pricing
 - Every engagement measured against demos, pipeline, and MRR through [B2B marketing operations](/marketing-ops/) and RevOps alignment

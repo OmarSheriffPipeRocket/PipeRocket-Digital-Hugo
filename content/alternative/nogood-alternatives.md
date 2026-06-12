@@ -150,7 +150,7 @@ We built PipeRocket specifically for the B2B SaaS companies NoGood prices out. O
 **Differentiator:** We're practitioners who have spent a decade inside B2B SaaS companies. Our model runs [SEO](/saas-seo-agency/) and [PPC](/saas-ppc/) as an integrated system pointed at one outcome: qualified pipeline. We don't take on lifecycle email or consumer clients; every account is B2B SaaS, every metric ties to MQLs and closed revenue.
 
 - Retainers start at $3,000/mo, typical engagement $4,000–$8,000/mo, no ad spend markup
-- [AEO/GEO](/ai-seo-services/), [account-based LinkedIn](/account-based-marketing-agency/), and [marketing ops](/marketing-ops/) available alongside core SEO and PPC
+- [AEO/GEO](/saas-seo-agency/ai-seo-services/), [account-based LinkedIn](/account-based-marketing-agency/), and [marketing ops](/marketing-ops/) available alongside core SEO and PPC
 - Senior pod model: four practitioners per account, no junior handoff after onboarding
 
 **Proof point:** HyperVerge generated 51 high-quality MQLs in three months. HyperStart doubled SQO volume from 4 to 11 while cutting cost per lead by 73%. Storylane grew 2.5x in a single quarter, adding 25% more SQLs and 62% more meetings booked. All figures are from verified client reviews and published case studies.

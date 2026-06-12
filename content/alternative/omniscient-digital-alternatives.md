@@ -143,7 +143,7 @@ Best for: B2B SaaS teams at Seed to Series B that need SEO and paid media in one
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 
-We built PipeRocket Digital as a B2B SaaS-only agency because most content shops hand you organic traffic reports while your sales team asks where the leads are. Our fractional team pod handles [SaaS SEO](/saas-seo-agency/), [content marketing](/content-marketing-agency/), and paid search in one retainer, reporting on MQLs, SQLs, and CAC rather than sessions.
+We built PipeRocket Digital as a B2B SaaS-only agency because most content shops hand you organic traffic reports while your sales team asks where the leads are. Our fractional team pod handles [SaaS SEO](/saas-seo-agency/), [content marketing](/saas-seo-agency/content-marketing-agency/), and paid search in one retainer, reporting on MQLs, SQLs, and CAC rather than sessions.
 
 Where Omniscient Digital focuses on organic content and GEO depth at an $8,000-plus monthly floor, we start at $3,000 per month and fold paid media into the same engagement. For Seed and Series B teams that can't afford two separate agencies, that gap matters. See our [PipeRocket Digital vs Omniscient Digital](/compare/piperocket-digital-vs-omniscient-digital/) breakdown for the full head-to-head.
 
@@ -159,7 +159,7 @@ Where Omniscient Digital focuses on organic content and GEO depth at an $8,000-p
 
 **Differentiator:** We're practitioners, not account managers. Our SaaS SEO agency model is built around senior operators who've spent a decade inside B2B SaaS companies. We know how buyers buy, how sales teams think, and what pipeline looks like when marketing is working.
 
-- Every retainer combines SaaS SEO, BOFU content, [link building](/link-building-agency/), and paid search, with [GEO and AI search visibility](/ai-seo-services/) built in
+- Every retainer combines SaaS SEO, BOFU content, [link building](/saas-seo-agency/link-building-agency/), and paid search, with [GEO and AI search visibility](/saas-seo-agency/ai-seo-services/) built in
 - Reporting ties directly to MQL, SQL, and CAC, not sessions and rankings alone
 - Retainers start at $3,000/mo with no markup on ad spend and no lock-in beyond the 3-month pilot
 

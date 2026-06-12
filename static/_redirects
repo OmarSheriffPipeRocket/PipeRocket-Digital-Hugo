@@ -56,16 +56,21 @@
 /blogs/best-saas-content-marketing-agencies/            /list/best-saas-content-marketing-agencies/             301
 /blogs/top-performance-marketing-agencies/              /list/top-performance-marketing-agencies/               301
 /blogs/best-geo-agencies/                               /list/best-geo-agencies/                                301
-/blogs/best-technical-seo-agencies/                     /list/best-technical-seo-agencies/                      301
+/blogs/best-technical-seo-agencies/                     /list/the-11-best-technical-seo-agencies-for-2026/      301
 /blogs/best-saas-link-building-agencies/                /list/the-10-best-saas-link-building-agencies-in-2026/  301
 /blogs/best-b2b-advertising-agencies/                   /list/the-best-b2b-advertising-agencies-2026-rankings/  301
 /case-studies/*                                         /case-study/:splat                                      301
 /success-stories/*                                      /case-study/:splat                                      301
 /articles/*                                             /blogs/:splat                                           301
-/aeo-geo-agency/                                        /ai-seo-services/                                       301
+/aeo-geo-agency/                                        /saas-seo-agency/ai-seo-services/                       301
+/content-marketing-agency/                              /saas-seo-agency/content-marketing-agency/              301
+/technical-seo-agency/                                  /saas-seo-agency/technical-seo-agency/                  301
+/link-building-agency/                                  /saas-seo-agency/link-building-agency/                  301
+/programmatic-seo-agency/                               /saas-seo-agency/programmatic-seo-agency/               301
+/ai-seo-services/                                       /saas-seo-agency/ai-seo-services/                       301
 /account-based-marketing/                               /account-based-marketing-agency/                        301
-/content-marketing/                                     /content-marketing-agency/                              301
-/link-building/                                         /link-building-agency/                                  301
+/content-marketing/                                     /saas-seo-agency/content-marketing-agency/              301
+/link-building/                                         /saas-seo-agency/link-building-agency/                  301
 /fintech-seo/                                           /fintech-seo-agency/                                    301
 /blog/b2b-buyers-journey/                               /blogs/                                                 301
 /blog/b2b-seo/                                          /list/best-b2b-seo-agencies/                            301
@@ -84,7 +89,7 @@
 /blog/best-saas-demand-generation-agencies/             /list/                                                  301
 /blog/best-saas-link-building-agency/                   /list/the-10-best-saas-link-building-agencies-in-2026/  301
 /blog/best-saas-marketing-agencies/                     /list/best-saas-marketing-agencies-2026/                301
-/blog/best-technical-seo-agencies/                      /list/best-technical-seo-agencies/                      301
+/blog/best-technical-seo-agencies/                      /list/the-11-best-technical-seo-agencies-for-2026/      301
 /blog/choose-best-saas-seo-agency-saas-companies/       /saas-seo-agency/                                       301
 /blog/enterprise-seo-guide/                             /blogs/enterprise-seo-guide/                            301
 /blog/saas-marketing-companies-challenges/              /blogs/saas-marketing-challenges-and-fixes/             301
@@ -103,7 +108,7 @@
 /seo/best-saas-demand-generation-agencies/              /list/                                                  301
 /seo/best-saas-link-building-agency/                    /list/the-10-best-saas-link-building-agencies-in-2026/  301
 /seo/best-saas-marketing-agencies/                      /list/best-saas-marketing-agencies-2026/                301
-/seo/best-technical-seo-agencies/                       /list/best-technical-seo-agencies/                      301
+/seo/best-technical-seo-agencies/                       /list/the-11-best-technical-seo-agencies-for-2026/      301
 /seo/enterprise-seo-guide/                              /blogs/enterprise-seo-guide/                            301
 /seo/saas-seo/                                          /saas-seo-agency/                                       301
 /b2b-seo/best-b2b-seo-agencies/                         /list/best-b2b-seo-agencies/                            301
@@ -113,9 +118,9 @@
 /list/best-saas-seo-agencies-2/                         /list/best-saas-seo-agencies/                           301
 /author/kim/                                            /author/kamaraj-mathiarasan/                            301
 /author/praveen/                                        /author/praveen-ravi/                                   301
-/pseo-agency/                                           /programmatic-seo-agency/                               301
-/pseo/                                                  /programmatic-seo-agency/                               301
-/programmatic-seo/                                      /programmatic-seo-agency/                               301
+/pseo-agency/                                           /saas-seo-agency/programmatic-seo-agency/               301
+/pseo/                                                  /saas-seo-agency/programmatic-seo-agency/               301
+/programmatic-seo/                                      /saas-seo-agency/programmatic-seo-agency/               301
 
 # ============================================================
 #  C. Auto-generated per-page redirects (wp_link → permalink)

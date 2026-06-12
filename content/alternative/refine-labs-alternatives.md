@@ -154,7 +154,7 @@ We built [PipeRocket Digital](/) around the specific gap Refine Labs leaves open
 
 Refine Labs doesn't touch organic search or Google Ads at the execution level. We run both inside a single retainer so attribution never falls between vendors. Senior strategists sit on every account with no handoffs to junior coordinators.
 
-- [Programmatic SEO](/programmatic-seo-agency/) and [GEO/AEO](/ai-seo-services/) built into core service, not sold separately
+- [Programmatic SEO](/saas-seo-agency/programmatic-seo-agency/) and [GEO/AEO](/saas-seo-agency/ai-seo-services/) built into core service, not sold separately
 - Pipeline reporting covers MQL count, CAC, and pipeline value added per quarter from week four
 - No markup on ad spend; retainers start at $3,000/mo with no hidden fees
 

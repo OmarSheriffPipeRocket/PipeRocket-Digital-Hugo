@@ -120,7 +120,7 @@ weight = 3
 params = { badge = "NEW" }
 [[menu.footer_services]]
 name = "Programmatic SEO"
-url = "/programmatic-seo-agency/"
+url = "/saas-seo-agency/programmatic-seo-agency/"
 weight = 4
 params = { badge = "NEW" }
 [[menu.footer_services]]
@@ -129,11 +129,11 @@ url = "/account-based-marketing-agency/"
 weight = 5
 [[menu.footer_services]]
 name = "Link Building"
-url = "/link-building-agency/"
+url = "/saas-seo-agency/link-building-agency/"
 weight = 6
 [[menu.footer_services]]
 name = "Content Marketing"
-url = "/content-marketing-agency/"
+url = "/saas-seo-agency/content-marketing-agency/"
 weight = 7
 [[menu.footer_services]]
 name = "Marketing Operations"

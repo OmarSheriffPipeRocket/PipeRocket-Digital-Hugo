@@ -50,7 +50,7 @@ Picking the wrong GEO/AEO partner hands six months of AI category queries to a c
 
 We started with 30+ candidate agencies identified through Clutch and G2, then stress-tested each against r/SaaS, r/SEO, and LinkedIn posts from named SaaS marketing leaders, plus Quora questions about AI search visibility. Agency-hosted "review hubs" and recycled press releases were disqualified without further consideration.
 
-For SaaS [GEO/AEO](/ai-seo-services/), two of our five criteria mattered most: whether the agency runs a real productized GEO service (with a dedicated page, methodology, and named outcomes) versus a relabeled [SEO](/saas-seo-agency/) offering, and whether their verified client roster contains actual B2B SaaS logos rather than borrowed team-member credentials.
+For SaaS [GEO/AEO](/saas-seo-agency/ai-seo-services/), two of our five criteria mattered most: whether the agency runs a real productized GEO service (with a dedicated page, methodology, and named outcomes) versus a relabeled [SEO](/saas-seo-agency/) offering, and whether their verified client roster contains actual B2B SaaS logos rather than borrowed team-member credentials.
 
 For the full process, every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy, read [our research methodology and editorial policy](/research-methodology/).
 
@@ -184,7 +184,7 @@ Their Clutch profile lists zero reviews ([Clutch](https://clutch.co/profile/firs
 
 Best for: B2B SaaS GEO connected to pipeline outcomes
 
-We built [PipeRocket Digital](/) as a B2B SaaS marketing agency before AI search was a category, and we run GEO as a first-class service rather than a relabeled SEO retainer. Our team blends SEO, GEO/AEO, and [link building](/link-building-agency/) under one pod so AI visibility translates into demos, trials, and SQLs.
+We built [PipeRocket Digital](/) as a B2B SaaS marketing agency before AI search was a category, and we run GEO as a first-class service rather than a relabeled SEO retainer. Our team blends SEO, GEO/AEO, and [link building](/saas-seo-agency/link-building-agency/) under one pod so AI visibility translates into demos, trials, and SQLs.
 
 **Profile Card**
 

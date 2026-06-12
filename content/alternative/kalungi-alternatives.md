@@ -151,7 +151,7 @@ We built [PipeRocket Digital](/) specifically for the gap Kalungi's model leaves
 
 **Differentiator:** Our SEO and paid media run inside one retainer so attribution never falls through the vendor gap. We report against pipeline metrics — MQL count, CAC, and pipeline value added — from week four, not just traffic and click volume.
 
-- [Programmatic SEO](/programmatic-seo-agency/) and [GEO/AEO](/ai-seo-services/) are built into our core offering, not sold as add-ons
+- [Programmatic SEO](/saas-seo-agency/programmatic-seo-agency/) and [GEO/AEO](/saas-seo-agency/ai-seo-services/) are built into our core offering, not sold as add-ons
 - No markup on ad spend; no fractional-CMO advisory layer for clients who don't need it
 - Retainers start at $3,000/mo — a 3-month pilot minimum, no 6-to-12 month lock-in
 

@@ -140,7 +140,7 @@ We built [PipeRocket Digital](/) because generalist agencies kept celebrating tr
 | Founded | 2019 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, DevRev, Goldcast, LeadSquared, HyperVerge |
-| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), technical SEO |
+| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), technical SEO |
 
 **Right Round For:** A Series A B2B SaaS team at roughly $1M to $5M ARR whose first marketing leader needs a repeatable engine and pipeline reporting, not enterprise overhead.
 
@@ -149,7 +149,7 @@ We built [PipeRocket Digital](/) because generalist agencies kept celebrating tr
 **What Sets Us Apart:** We work backward from SQLs and report every campaign inside the pipeline view leadership already opens. GEO and AEO sit on the same team as technical SEO, so there's no handoff drag when AI search visibility becomes a quarterly target.
 
 - BOFU-led targeting that filters tyre-kickers before sales touches them
-- [GEO and AEO](/ai-seo-services/) depth alongside technical SEO, one team owns both
+- [GEO and AEO](/saas-seo-agency/ai-seo-services/) depth alongside technical SEO, one team owns both
 - Every campaign reports inside the pipeline view leadership reviews monthly
 
 **Founder Feedback**

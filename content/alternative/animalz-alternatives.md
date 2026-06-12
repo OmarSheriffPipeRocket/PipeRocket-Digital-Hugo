@@ -142,7 +142,7 @@ We built [PipeRocket Digital](/) around the gap Animalz doesn't fill: tying ever
 
 **The Gap It Fills:** Where Animalz is content-only and reports on traffic, we run [SaaS SEO](/saas-seo-agency/) and [SaaS PPC](/saas-ppc/) inside one unified retainer and report on MQL count, CAC, and pipeline value added per quarter. No separate vendors. No handoff where attribution breaks.
 
-- [Programmatic SEO](/programmatic-seo-agency/) and [GEO/AEO](/ai-seo-services/) built into core service, not sold as add-ons
+- [Programmatic SEO](/saas-seo-agency/programmatic-seo-agency/) and [GEO/AEO](/saas-seo-agency/ai-seo-services/) built into core service, not sold as add-ons
 - Retainers start at $3,000/mo, well below Animalz's reported $8,000-plus floor
 - Senior strategists on every account - no handoffs to junior coordinators
 

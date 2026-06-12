@@ -140,7 +140,7 @@ We built [PipeRocket Digital](/) because generalist SaaS SEO agencies kept celeb
 | Founded | 2019 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, DevRev, Goldcast, LeadSquared, HyperVerge |
-| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), [technical SEO](/technical-seo-agency/) |
+| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), [technical SEO](/saas-seo-agency/technical-seo-agency/) |
 
 **Deal Terms**
 
@@ -148,7 +148,7 @@ We scope to pipeline outcomes and growth stage, with a $5,000/mo floor and enter
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| SaaS SEO | $5,000/mo | Technical SEO, BOFU content, [link building](/link-building-agency/), SQL reporting |
+| SaaS SEO | $5,000/mo | Technical SEO, BOFU content, [link building](/saas-seo-agency/link-building-agency/), SQL reporting |
 | Full Funnel | $6,000/mo+ | SEO plus GEO/AEO plus content plus pipeline attribution |
 | Enterprise | Custom pricing | Senior pod, ABM-aligned content, full attribution |
 

@@ -157,9 +157,9 @@ Best for: B2B SaaS Founders Who Want SEO and PPC Inside One Retainer with Pipeli
 
 **Differentiator:** We're B2B SaaS only — no eCommerce, no consumer, no local. Every playbook in the team was written for a software buying cycle, not adapted from one. Pipeline reporting covers MQLs, CAC, and pipeline value from week four, not quarter four.
 
-- B2B SaaS SEO, technical SEO, and [GEO/AEO](/ai-seo-services/) for AI-visible search inside one retainer
+- B2B SaaS SEO, technical SEO, and [GEO/AEO](/saas-seo-agency/ai-seo-services/) for AI-visible search inside one retainer
 - SaaS PPC across Google and LinkedIn, owned by the same team running organic — no vendor handoffs
-- [Link building](/link-building-agency/) scoped for SaaS domain authority, not generic directory spam
+- [Link building](/saas-seo-agency/link-building-agency/) scoped for SaaS domain authority, not generic directory spam
 
 **Proof point:** "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months." — Anusha, Founding Member, HyperVerge ([Clutch](https://clutch.co/profile/piperocket-digital)).
 

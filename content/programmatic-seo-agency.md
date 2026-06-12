@@ -4,4 +4,5 @@ description: "AI-first programmatic SEO agency for B2B SaaS. AI agents generate 
 metaTitle: "AI-First Programmatic SEO (PSEO) Agency for US B2B SaaS | PipeRocket"
 metaDescription: "AI-first programmatic SEO agency. AI agents build comparison, alternative, integration, and use-case pages at scale, tied to qualified pipeline. Built for B2B SaaS."
 layout: "programmatic-seo-agency"
+url: "/saas-seo-agency/programmatic-seo-agency/"
 ---

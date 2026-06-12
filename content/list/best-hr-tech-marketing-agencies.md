@@ -134,7 +134,7 @@ Best for: B2B HR tech SaaS wanting one pipeline number across SEO, paid, and ABM
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 
-We're a B2B SaaS demand-gen team that runs [SaaS SEO](/saas-seo-agency/), [B2B PPC](/saas-ppc/), [AEO/GEO](/ai-seo-services/), account-based LinkedIn, and [marketing operations](/marketing-ops/) against a single pipeline target. Our HR tech work spans ATS, HRIS, employee engagement, and workforce management platforms.
+We're a B2B SaaS demand-gen team that runs [SaaS SEO](/saas-seo-agency/), [B2B PPC](/saas-ppc/), [AEO/GEO](/saas-seo-agency/ai-seo-services/), account-based LinkedIn, and [marketing operations](/marketing-ops/) against a single pipeline target. Our HR tech work spans ATS, HRIS, employee engagement, and workforce management platforms.
 
 **The Dossier**
 

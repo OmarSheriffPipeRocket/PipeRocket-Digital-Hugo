@@ -147,7 +147,7 @@ We built [PipeRocket Digital](/) to serve the exact ICP Powered by Search's pric
 
 **The Differentiating Move:** Our [SaaS SEO](/saas-seo-agency/) and [SaaS PPC](/saas-ppc/) run in one unified retainer. No separate vendors, no attribution gap between channels. Powered by Search charges from $6K/mo for paid media and from $9K/mo for SEO as distinct service lines. We combine both and start at $3K/mo, with pipeline-level MQL, CAC, and pipeline-value reporting built into every engagement from week four.
 
-- [Programmatic SEO](/programmatic-seo-agency/) and [GEO/AEO](/ai-seo-services/) are core services, not add-ons
+- [Programmatic SEO](/saas-seo-agency/programmatic-seo-agency/) and [GEO/AEO](/saas-seo-agency/ai-seo-services/) are core services, not add-ons
 - No markup on ad spend; retainers include [B2B marketing operations](/marketing-ops/) at full-funnel tier
 - Pipeline accountability that matches PBS's Predictable Growth Model, baked in from day one
 

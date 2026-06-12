@@ -267,7 +267,7 @@ Kim is Co-Founder of [PipeRocket Digital](/saas-seo-agency/) and the SEO lead be
 | Notable Work | Leads organic programs for PipeRocket's B2B SaaS clients |
 | Specialty | Topical authority, BOFU SEO, agency strategy |
 
-**What sets him apart:** Kim's approach starts at the bottom of the funnel — the comparison, alternative, and use-case searches buyers run right before they commit — and builds topical authority outward from there. It's why our [SaaS SEO](/saas-seo-agency/) work is measured in pipeline contribution rather than keyword counts, and why we pair it with [content marketing](/content-marketing-agency/) and [link building](/link-building-agency/).
+**What sets him apart:** Kim's approach starts at the bottom of the funnel — the comparison, alternative, and use-case searches buyers run right before they commit — and builds topical authority outward from there. It's why our [SaaS SEO](/saas-seo-agency/) work is measured in pipeline contribution rather than keyword counts, and why we pair it with [content marketing](/saas-seo-agency/content-marketing-agency/) and [link building](/saas-seo-agency/link-building-agency/).
 
 - 15+ years of SEO experience, focused on B2B SaaS
 - BOFU-first methodology aimed at revenue, not vanity traffic
@@ -329,7 +329,7 @@ Ranjeeth is SEO Manager at [PipeRocket Digital](/saas-seo-agency/), where he lea
 | Notable Work | Runs SEO strategy across PipeRocket's B2B SaaS accounts |
 | Specialty | Technical SEO, keyword research, content strategy |
 
-**What sets him apart:** Ranjeeth pairs technical rigor with deep keyword research, mapping the full set of queries a SaaS buyer runs across the journey and turning that into a content and architecture plan that compounds. It's the engine behind much of our [programmatic SEO](/programmatic-seo-agency/) and topical-authority work.
+**What sets him apart:** Ranjeeth pairs technical rigor with deep keyword research, mapping the full set of queries a SaaS buyer runs across the journey and turning that into a content and architecture plan that compounds. It's the engine behind much of our [programmatic SEO](/saas-seo-agency/programmatic-seo-agency/) and topical-authority work.
 
 - Leads technical, content, and keyword research as one connected program
 - Focused on high-intent SaaS demand, not generic traffic

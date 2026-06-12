@@ -140,10 +140,10 @@ Best for: Sales-assisted PLG teams that want GEO/AEO and technical SEO on one ac
 | Notable Clients | Storylane, DevRev, Goldcast, LeadSquared, HyperVerge |
 | Specialization | B2B SaaS SEO, GEO/AEO |
 
-**The Loop:** We run [SaaS SEO](/saas-seo-agency/) with [GEO and AEO](/ai-seo-services/) on the same team, so the long-tail visibility a PLG product depends on is future-proofed as search shifts to AI answers. We pair that with [technical SEO](/technical-seo-agency/) and product-led "show-the-product" content.
+**The Loop:** We run [SaaS SEO](/saas-seo-agency/) with [GEO and AEO](/saas-seo-agency/ai-seo-services/) on the same team, so the long-tail visibility a PLG product depends on is future-proofed as search shifts to AI answers. We pair that with [technical SEO](/saas-seo-agency/technical-seo-agency/) and product-led "show-the-product" content.
 
 - GEO and AEO sit on the same team as core SEO
-- [Link-building](/link-building-agency/) runs in-house, not subcontracted
+- [Link-building](/saas-seo-agency/link-building-agency/) runs in-house, not subcontracted
 - Content is attributed to signups and pipeline, not rankings alone
 
 **Signups On Record:** Our Storylane work centres on interactive-demo SEO, and DevRev brings a developer audience. Case studies for HyperVerge, HyperStart, and Storylane document the BOFU-content and technical layer that drives qualified signups.

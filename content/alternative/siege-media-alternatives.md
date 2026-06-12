@@ -151,12 +151,12 @@ We built [PipeRocket Digital](/) because Siege Media's model — strong at conte
 | Founded | 2023 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra, LeadSquared |
-| Specialization | [B2B SaaS SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), [link building](/link-building-agency/), pipeline attribution |
+| Specialization | [B2B SaaS SEO](/saas-seo-agency/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), [link building](/saas-seo-agency/link-building-agency/), pipeline attribution |
 
-**What Sets Us Apart:** We're BOFU-first practitioners, not account managers. Where Siege leads with design-heavy assets engineered for link earning, we lead with [content marketing](/content-marketing-agency/) that addresses buying-stage queries and connects every piece of output to SQL and CAC reporting.
+**What Sets Us Apart:** We're BOFU-first practitioners, not account managers. Where Siege leads with design-heavy assets engineered for link earning, we lead with [content marketing](/saas-seo-agency/content-marketing-agency/) that addresses buying-stage queries and connects every piece of output to SQL and CAC reporting.
 
 - Retainers start at $5,000/mo with transparent pricing and no setup fee
-- Every engagement includes [programmatic SEO](/programmatic-seo-agency/) and technical SEO — no siloed handoffs to separate vendors
+- Every engagement includes [programmatic SEO](/saas-seo-agency/programmatic-seo-agency/) and technical SEO — no siloed handoffs to separate vendors
 - We report to pipeline: MQL, SQL, CAC, and closed-won, not sessions or keyword count
 
 **Proof point:** HyperVerge generated 51 high-quality MQLs in three months. HyperStart doubled SQO volume from 4 to 11 while cutting cost per lead by 73%. Storylane saw 2.5x business growth in a single quarter with +25% SQLs and +62% meetings booked.

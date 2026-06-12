@@ -126,7 +126,7 @@ For a closer look, see our [PipeRocket vs Directive Consulting](/compare/piperoc
 
 Best for: B2B SaaS marketing leaders who report performance in SQLs and pipeline
 
-[PipeRocket Digital](https://piperocket.digital) is a B2B SaaS performance agency running paid media, [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), and [GEO/AEO](/ai-seo-services/) under one pod with a CRM-first reporting model. We work backward from SQLs, so every campaign view we ship to clients lives inside the pipeline dashboard their CFO already opens.
+[PipeRocket Digital](https://piperocket.digital) is a B2B SaaS performance agency running paid media, [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), and [GEO/AEO](/saas-seo-agency/ai-seo-services/) under one pod with a CRM-first reporting model. We work backward from SQLs, so every campaign view we ship to clients lives inside the pipeline dashboard their CFO already opens.
 
 **Quick Facts**
 
@@ -632,7 +632,7 @@ Published floors run $3,000-$20,000/mo. Most mid-market engagements land between
 
 ### What is the difference between performance marketing and digital marketing?
 
-Performance marketing ties spend to outcomes; digital marketing covers brand and [content](/content-marketing-agency/) work without attribution.
+Performance marketing ties spend to outcomes; digital marketing covers brand and [content](/saas-seo-agency/content-marketing-agency/) work without attribution.
 
 ### How long until a performance marketing agency shows ROI?
 

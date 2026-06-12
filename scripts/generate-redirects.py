@@ -76,11 +76,17 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/success-stories/*",                              "/case-study/:splat"),
     ("/articles/*",                                     "/blogs/:splat"),
     # Service-page rename — AEO/GEO agency repositioned as AI SEO services (2026-06)
-    ("/aeo-geo-agency/",                                "/ai-seo-services/"),
+    ("/aeo-geo-agency/",                                "/saas-seo-agency/ai-seo-services/"),
+    # Service silo (2026-06): SEO sub-services moved under /saas-seo-agency/
+    ("/content-marketing-agency/",                      "/saas-seo-agency/content-marketing-agency/"),
+    ("/technical-seo-agency/",                          "/saas-seo-agency/technical-seo-agency/"),
+    ("/link-building-agency/",                          "/saas-seo-agency/link-building-agency/"),
+    ("/programmatic-seo-agency/",                       "/saas-seo-agency/programmatic-seo-agency/"),
+    ("/ai-seo-services/",                               "/saas-seo-agency/ai-seo-services/"),
     # Service-page aliases (old shorter URLs without -agency suffix)
     ("/account-based-marketing/",                       "/account-based-marketing-agency/"),
-    ("/content-marketing/",                             "/content-marketing-agency/"),
-    ("/link-building/",                                 "/link-building-agency/"),
+    ("/content-marketing/",                             "/saas-seo-agency/content-marketing-agency/"),
+    ("/link-building/",                                 "/saas-seo-agency/link-building-agency/"),
     ("/fintech-seo/",                                   "/fintech-seo-agency/"),
     # Old /blog/<slug>/ WordPress URLs (singular path) — Hugo serves /blogs/ now
     ("/blog/b2b-buyers-journey/",                       "/blogs/"),
@@ -138,9 +144,9 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/author/kim/",                                    "/author/kamaraj-mathiarasan/"),
     ("/author/praveen/",                                "/author/praveen-ravi/"),
     # PSEO acronym alias — redirect /pseo-agency/ to the full-keyword canonical
-    ("/pseo-agency/",                                   "/programmatic-seo-agency/"),
-    ("/pseo/",                                          "/programmatic-seo-agency/"),
-    ("/programmatic-seo/",                              "/programmatic-seo-agency/"),
+    ("/pseo-agency/",                                   "/saas-seo-agency/programmatic-seo-agency/"),
+    ("/pseo/",                                          "/saas-seo-agency/programmatic-seo-agency/"),
+    ("/programmatic-seo/",                              "/saas-seo-agency/programmatic-seo-agency/"),
 ])
 
 # WordPress system paths to permanently kill.

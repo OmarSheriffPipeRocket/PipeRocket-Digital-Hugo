@@ -138,7 +138,7 @@ Best for: B2B SaaS teams that need AI SEO optimization tied to pipeline and MRR
 | Founded | 2017 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, DevRev, Goldcast, LeadSquared, HyperVerge |
-| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), [content marketing](/content-marketing-agency/) |
+| Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), [content marketing](/saas-seo-agency/content-marketing-agency/) |
 
 **Differentiator:** We treat AI search as a separate discipline with its own workflow: LLM-assisted briefs, AI-powered entity mapping, and human-in-the-loop QA. Our GEO and AEO program ships against pipeline outcomes, not impression counts.
 

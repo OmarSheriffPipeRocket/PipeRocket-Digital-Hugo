@@ -58,7 +58,7 @@ The wrong GEO/AEO partner hands six months of AI category queries to a competito
 
 We started with 48 candidate agencies drawn from Clutch, G2, and named LinkedIn posts from B2B marketing leaders, then stress-tested each against r/SEO, r/SaaS, Quora questions about AI search visibility, and direct verification of every service page on the agency's own site. Agency-hosted "review sites" and recycled press releases were disqualified without exception.
 
-For [GEO/AEO](/ai-seo-services/), two of our five criteria mattered most: whether the agency runs a real productized GEO offering (a dedicated page, a methodology, named outcomes) versus a relabeled [SEO](/saas-seo-agency/) retainer, and whether their third-party review pool is deep enough to count as social proof rather than a single five-star anecdote.
+For [GEO/AEO](/saas-seo-agency/ai-seo-services/), two of our five criteria mattered most: whether the agency runs a real productized GEO offering (a dedicated page, a methodology, named outcomes) versus a relabeled [SEO](/saas-seo-agency/) retainer, and whether their third-party review pool is deep enough to count as social proof rather than a single five-star anecdote.
 
 For the full process, every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy, read [our research methodology and editorial policy](/research-methodology/).
 
@@ -120,7 +120,7 @@ Pricing is not published as of June 2026. Existing third-party estimates put eng
 
 Best for: B2B SaaS GEO/AEO connected to pipeline, demos, and MRR
 
-[PipeRocket Digital](/) is a B2B SaaS and B2B tech agency that runs GEO/AEO, SaaS SEO, and [link building](/link-building-agency/) as a single pipeline system. We measure every engagement against booked demos and MRR rather than rankings.
+[PipeRocket Digital](/) is a B2B SaaS and B2B tech agency that runs GEO/AEO, SaaS SEO, and [link building](/saas-seo-agency/link-building-agency/) as a single pipeline system. We measure every engagement against booked demos and MRR rather than rankings.
 
 **Snapshot**
 

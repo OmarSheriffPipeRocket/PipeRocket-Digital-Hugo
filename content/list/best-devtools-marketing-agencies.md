@@ -146,7 +146,7 @@ Best for: B2B devtools SaaS that need developer adoption to enterprise pipeline,
 
 **Wrong Fit:** Pure dev-to-dev open-source projects with no enterprise motion, or anyone wanting a DevRel community-programme partner.
 
-**What Sets Us Apart:** We're not the most technical content shop on this list. What we run is the pipeline architecture, SEO, [PPC](/saas-ppc/), [GEO/AEO](/ai-seo-services/), ABM, and [marketing ops](/marketing-ops/) reported against a single pipeline number.
+**What Sets Us Apart:** We're not the most technical content shop on this list. What we run is the pipeline architecture, SEO, [PPC](/saas-ppc/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), ABM, and [marketing ops](/marketing-ops/) reported against a single pipeline number.
 
 - ICP mapping across both developer champions and enterprise buyers
 - Single pipeline attribution across paid, organic, ABM, and content

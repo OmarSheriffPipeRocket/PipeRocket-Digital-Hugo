@@ -136,7 +136,7 @@ Best for: B2B healthtech SaaS tying SEO, paid, and content to one pipeline numbe
 | Notable Clients | Storylane, Spendflo, HappyFox, LeadSquared, GreytHR |
 | Specialization | B2B SaaS demand generation |
 
-**Fits when:** B2B healthtech SaaS at any ARR stage that wants [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/ai-seo-services/), and ABM reporting against one pipeline target.
+**Fits when:** B2B healthtech SaaS at any ARR stage that wants [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), and ABM reporting against one pipeline target.
 
 **Skip if:** Pharma launches, DTC wellness products, or teams that want channel-by-channel reporting with no pipeline tie-back.
 

@@ -479,7 +479,7 @@ Schema helps, but it's not the primary driver of AI search visibility. LLMs read
 
 ## Why PipeRocket Digital
 
-Schema is plumbing, not strategy. Valid markup makes a deserving page eligible for richer results. It doesn't make a weak page rank. We handle schema inside your CMS as part of the [technical SEO](/technical-seo-agency/) baseline, validate it, and spend the budget where it actually moves pipeline. If you want a [SaaS SEO partner](/blogs/saas-seo/) that's honest about what to build, what to buy, and what to skip, [talk to us](/contact-us/).
+Schema is plumbing, not strategy. Valid markup makes a deserving page eligible for richer results. It doesn't make a weak page rank. We handle schema inside your CMS as part of the [technical SEO](/saas-seo-agency/technical-seo-agency/) baseline, validate it, and spend the budget where it actually moves pipeline. If you want a [SaaS SEO partner](/blogs/saas-seo/) that's honest about what to build, what to buy, and what to skip, [talk to us](/contact-us/).
 
 ## Update History
 

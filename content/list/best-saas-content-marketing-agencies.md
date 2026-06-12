@@ -130,7 +130,7 @@ Want a side-by-side? Read our [PipeRocket vs Siege Media](/compare/piperocket-di
 
 Best for: B2B SaaS teams that want every article tied to a pipeline number.
 
-[PipeRocket Digital](/) is a B2B SaaS [content marketing](/content-marketing-agency/) and [SEO](/saas-seo-agency/) agency that builds expert-driven content programs reported against pipeline, not pageviews. We were founded by operators who got tired of agencies hiding behind vanity metrics while sales teams starved for qualified leads.
+[PipeRocket Digital](/) is a B2B SaaS [content marketing](/saas-seo-agency/content-marketing-agency/) and [SEO](/saas-seo-agency/) agency that builds expert-driven content programs reported against pipeline, not pageviews. We were founded by operators who got tired of agencies hiding behind vanity metrics while sales teams starved for qualified leads.
 
 **At a Glance**
 
@@ -140,7 +140,7 @@ Best for: B2B SaaS teams that want every article tied to a pipeline number.
 | Founded | 2020 |
 | Team Size | 50+ people |
 | Notable Clients | Mid-market and enterprise B2B SaaS |
-| Specialization | Content marketing, SEO, [GEO/AEO](/ai-seo-services/) |
+| Specialization | Content marketing, SEO, [GEO/AEO](/saas-seo-agency/ai-seo-services/) |
 
 **Differentiator:** We extract knowledge from your subject matter experts and turn it into content AI can't replicate.
 
