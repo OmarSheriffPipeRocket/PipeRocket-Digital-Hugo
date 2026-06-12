@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="prFvTitle prFvDesc">
+  <title id="prFvTitle">The PipeRocket SaaS SEO framework funnel</title>
+  <desc id="prFvDesc">A vertical funnel. Search intent enters the wide top and narrows down through four stages to qualified pipeline and MRR. 01 Buyers over keywords: who buys and how they search comes first. 02 Intent over volume: decision-stage searches that convert in weeks. 03 Purpose over publish: high-converting pages shipped in month one. 04 Revenue over rankings: the CTA and MQL path is baked in before a word is written.</desc>
+
+  <!-- top label: what enters the funnel -->
+  <text x="600" y="40" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#6B6B6B">SEARCH INTENT IN</text>
+
+  <!-- funnel body -->
+  <path d="M 320 70 L 880 70 L 655 478 L 545 478 Z" fill="#EEEDE6" stroke="#0D0D0D" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- band dividers -->
+  <g stroke="#0D0D0D" stroke-width="1.4" opacity="0.55">
+    <line x1="372.8" y1="165" x2="827.2" y2="165"/>
+    <line x1="425.6" y1="260" x2="774.4" y2="260"/>
+    <line x1="478.3" y1="355" x2="721.7" y2="355"/>
+  </g>
+
+  <!-- in-funnel stage labels -->
+  <g text-anchor="middle">
+    <!-- 01 Buyers -->
+    <text x="600" y="102" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.5" fill="#0CC6F1">01</text>
+    <text x="600" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#0D0D0D">Buyers</text>
+    <text x="600" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" fill="#9a9a96">not <tspan fill="#6B6B6B">keywords</tspan></text>
+    <line x1="591" y1="146" x2="631" y2="143.5" stroke="#E63946" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- 02 Intent -->
+    <text x="600" y="197" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.5" fill="#0CC6F1">02</text>
+    <text x="600" y="225" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#0D0D0D">Intent</text>
+    <text x="600" y="245" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" fill="#9a9a96">not <tspan fill="#6B6B6B">volume</tspan></text>
+    <line x1="593" y1="241" x2="631" y2="238.5" stroke="#E63946" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- 03 Purpose -->
+    <text x="600" y="292" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.5" fill="#0CC6F1">03</text>
+    <text x="600" y="320" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#0D0D0D">Purpose</text>
+    <text x="600" y="340" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" fill="#9a9a96">not <tspan fill="#6B6B6B">publish</tspan></text>
+    <line x1="589" y1="336" x2="630" y2="333.5" stroke="#E63946" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- 04 Revenue -->
+    <text x="600" y="388" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.5" fill="#0CC6F1">04</text>
+    <text x="600" y="416" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#0D0D0D">Revenue</text>
+    <text x="600" y="436" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" fill="#9a9a96">not <tspan fill="#6B6B6B">rankings</tspan></text>
+    <line x1="589" y1="432" x2="631" y2="429.5" stroke="#E63946" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <!-- alternating side callouts (the up/down read) -->
+  <g stroke="#6B6B6B" stroke-width="1.2" stroke-dasharray="3 4">
+    <line x1="853" y1="117" x2="900" y2="117"/>
+    <line x1="399" y1="212" x2="352" y2="212"/>
+    <line x1="748" y1="307" x2="900" y2="307"/>
+    <line x1="505" y1="402" x2="458" y2="402"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#0D0D0D">
+    <text x="910" y="113">Who buys and how they</text>
+    <text x="910" y="130">search comes first</text>
+    <text x="342" y="208" text-anchor="end">Decision-stage searches</text>
+    <text x="342" y="225" text-anchor="end">that convert in weeks</text>
+    <text x="910" y="303">High-converting pages</text>
+    <text x="910" y="320">shipped in month one</text>
+    <text x="448" y="398" text-anchor="end">CTA + MQL path baked in</text>
+    <text x="448" y="415" text-anchor="end">before a word is written</text>
+  </g>
+
+  <!-- spout to outcome -->
+  <line x1="600" y1="478" x2="600" y2="500" stroke="#0D0D0D" stroke-width="1.6" opacity="0.55"/>
+  <text x="600" y="522" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1" fill="#0D0D0D">QUALIFIED PIPELINE &amp; MRR</text>
+  <path d="M 470 533 q 130 9 260 0" fill="none" stroke="#E63946" stroke-width="2.8" stroke-linecap="round"/>
+</svg>
