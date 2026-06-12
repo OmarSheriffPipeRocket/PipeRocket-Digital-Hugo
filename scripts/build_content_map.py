@@ -36,7 +36,9 @@ GSC_DIR = ROOT / "credentials" / "gsc_output"
 OUT_FILE = ROOT / "data" / "content_map.yml"
 # Editorial overrides (human-verified primary/intent/funnel), keyed by url.
 # These WIN over the heuristics — the builder only fills gaps for new pages.
-OVERRIDES_FILE = ROOT / "data" / "content_map_overrides.csv"
+# NB: kept at repo root, NOT under data/ — Hugo auto-loads data/ and errors on a
+# CSV there ("unexpected data type [][]string"). This file is build-input only.
+OVERRIDES_FILE = ROOT / "content_map_overrides.csv"
 
 # Section-based scopes live under content/<section>/*.md.
 # "landing" is special: root-level content/*.md with URL /<slug>/ (no section).
