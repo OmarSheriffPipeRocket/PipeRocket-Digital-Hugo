@@ -63,3 +63,6 @@ deno.lock
 /data/experience-bank.md
 /data/style-anchor.md
 /data/style-anchor-worksheet.md
+
+# GSC manual-indexing tracker (local operational state, not site content)
+piperocket_gsc_submitted.json
