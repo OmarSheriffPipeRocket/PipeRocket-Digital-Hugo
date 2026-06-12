@@ -282,6 +282,20 @@ def rendered_text(html_text):
     return re.sub(r"\s+", " ", html.unescape(t)).strip()
 
 
+def heading_texts(html_text, tag):
+    """Rendered <h1>/<h2> inner text, chrome stripped. <header> is KEPT because
+    the blog/article banner H1 lives inside <header class=...banner>; only nav,
+    footer, aside, script, style are removed."""
+    t = re.sub(r"<head\b.*?</head>", " ", html_text, flags=re.S | re.I)
+    t = re.sub(r"<(script|style|nav|footer|aside)\b.*?</\1>", " ", t, flags=re.S | re.I)
+    out = []
+    for m in re.findall(rf"<{tag}\b[^>]*>(.*?)</{tag}>", t, flags=re.S | re.I):
+        txt = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", m))).strip()
+        if txt:
+            out.append(txt)
+    return out
+
+
 # ---------------- redirects ----------------
 
 def load_redirects():
@@ -504,6 +518,8 @@ def build():
         # landing pages correctly; markdown body is empty for those).
         rtext = rendered_text(html_text) if html_text else text
         rendered_words = len(rtext.split())
+        h1_texts = heading_texts(html_text, "h1") if html_text else []
+        h2_texts = heading_texts(html_text, "h2") if html_text else []
         exact, fam = phrase_counts(rtext, primary)
         sec_freq = {s: dict(zip(("exact", "family"), phrase_counts(rtext, s)))
                     for s in meta["secondary"]}
@@ -534,10 +550,12 @@ def build():
             # 4-5 title/desc
             "title": head["title"], "title_len": head["title_len"],
             "description": head["description"], "desc_len": head["desc_len"],
-            # 6 headings
-            "h1_count": head["h1_count"],
+            # 6 headings (rendered HTML, main content — count matches the text list)
+            "h1_count": len(h1_texts),
+            "h1_texts": h1_texts,
+            "h2_count": len(h2_texts),
+            "h2_texts": h2_texts,
             "headings": heading_outline(body),
-            "h2_count": sum(1 for x in heading_outline(body) if x["level"] == 2),
             # 7 schema (deep)
             "schema_types": schema_types or head["schema_types"],
             "schema_issues": schema_issues,

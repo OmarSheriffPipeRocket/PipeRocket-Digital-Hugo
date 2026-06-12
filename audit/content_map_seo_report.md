@@ -86,7 +86,7 @@ H1 ≠ 1 (should be exactly one):
 
 | Page | H1 | H2 |
 | --- | --- | --- |
-| /glossary/what-is-crawling/ | 3 | 7 |
+| /glossary/what-is-crawling/ | 3 | 8 |
 
 ## 5. Schema (JSON-LD)
 

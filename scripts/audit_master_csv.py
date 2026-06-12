@@ -65,24 +65,25 @@ def main():
     anchors, keywords, cannib = load_judgment()
 
     cols = [
-        # A — identity & taxonomy
+        # A — identity & taxonomy  (secondary sits right after primary)
         "url", "type", "keyword_target", "primary", "secondary", "intent", "funnel",
         "cluster", "redirected", "redirect_target",
-        # B — on-page metadata
-        "title", "title_len", "description", "desc_len", "h1_count", "h2_count",
+        # B — on-page metadata  (description next to title_len; H1s next to h1_count; H2s next to h2_count)
+        "title", "title_len", "description", "desc_len",
+        "h1_count", "h1s", "h2_count", "h2s",
         # C — schema
         "schema_types", "schema_issue_count", "schema_issues",
-        # D — content & keyword
-        "body_word_count", "rendered_word_count", "primary_freq_exact", "primary_freq_family",
-        # E — linking
-        "internal_link_count", "external_link_count", "inbound_count", "outbound_count",
-        "anchor_flag_count", "internal_links", "external_links", "inbound_pages", "outbound_pages",
+        # D — content & keyword  (secondary_freq replaces primary_freq_family)
+        "body_word_count", "rendered_word_count", "primary_freq_exact", "secondary_freq",
+        # E — linking  (link lists sit right after their counts)
+        "internal_link_count", "internal_links", "external_link_count", "external_links",
+        "inbound_count", "inbound_pages", "outbound_count", "outbound_pages", "anchor_flag_count",
         # F — crawlability
         "indexable", "canonical", "canonical_self", "robots", "noindex", "in_sitemap", "is_alias",
-        # G — GSC performance
+        # G — GSC performance  (cannibalization URLs sit right after the count)
         "gsc_total_impressions", "gsc_top_query", "gsc_top_query_position",
-        "gsc_primary_position", "gsc_aligned", "cannibalization_count",
-        "gsc_top_queries", "gsc_cannibalization_candidates",
+        "gsc_primary_position", "gsc_aligned",
+        "cannibalization_count", "cannibalization_urls", "gsc_top_queries",
         # H/I — verified findings (flattened)
         "finding_anchor_mismatches", "finding_keyword_targeting", "finding_cannibalization",
     ]
@@ -98,26 +99,27 @@ def main():
             anch = anchors.get(p["url"], [])
             kw = keywords.get(p["url"], [])
             can = cannib.get(p["url"], [])
+            sec_freq = "; ".join(f"{k}: {v.get('family', 0)}" for k, v in p.get("secondary_freq", {}).items())
             w.writerow([
                 p["url"], p["type"], p["keyword_target"], p["primary"],
                 "; ".join(p["secondary"]), p["intent"], p["funnel"], p["cluster"] or "",
                 p["redirected"], p["redirect_target"],
                 p["title"], p["title_len"], p["description"], p["desc_len"],
-                p["h1_count"], p["h2_count"],
+                p["h1_count"], " | ".join(p.get("h1_texts", [])),
+                p["h2_count"], " | ".join(p.get("h2_texts", [])),
                 "|".join(p["schema_types"]), len(p["schema_issues"]), "; ".join(p["schema_issues"]),
-                p["body_word_count"], p["rendered_word_count"], p["primary_freq_exact"],
-                p["primary_freq_family"],
-                p["internal_link_count"], p["external_link_count"], p["inbound_count"],
-                p["outbound_count"], len(p["anchor_flags"]),
-                links_str(p["internal_links"]), links_str(p["external_links"]),
-                "; ".join(p["inbound_pages"]), "; ".join(p["outbound_pages"]),
+                p["body_word_count"], p["rendered_word_count"], p["primary_freq_exact"], sec_freq,
+                p["internal_link_count"], links_str(p["internal_links"]),
+                p["external_link_count"], links_str(p["external_links"]),
+                p["inbound_count"], "; ".join(p["inbound_pages"]),
+                p["outbound_count"], "; ".join(p["outbound_pages"]), len(p["anchor_flags"]),
                 p["indexable"], p["canonical"], p["canonical_self"], p["robots"],
                 p["noindex"], p["in_sitemap"], p["is_alias"],
                 g.get("total_impressions", ""), g.get("top_query", ""),
-                g.get("top_query_position", ""), g.get("primary_position", ""),
-                g.get("aligned", ""), len(p["cannibalization"]),
-                "; ".join(f"{x['query']} (p{x['position']}, {x['impressions']}i)" for x in p["gsc_top_queries"]),
+                g.get("top_query_position", ""), g.get("primary_position", ""), g.get("aligned", ""),
+                len(p["cannibalization"]),
                 "; ".join(f"{o['page']} ({o['impressions']}i, p{o['position']})" for o in p["cannibalization"]),
+                "; ".join(f"{x['query']} (p{x['position']}, {x['impressions']}i)" for x in p["gsc_top_queries"]),
                 " | ".join(f'"{a["anchor"]}" {a["href"]} -> {a["better_target"] or "—"} [{a["why"]}]' for a in anch),
                 " | ".join(f'[{k["problem"]}] {k["detail"]} -> {k["suggestion"]}' for k in kw),
                 " | ".join(f'{x["competitor"]} ({x["severity"]}/{x["recommended_action"]}) {x["why"]}' for x in can),
