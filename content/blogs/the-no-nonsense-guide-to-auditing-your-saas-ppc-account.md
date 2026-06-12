@@ -4,7 +4,7 @@ description: "We’ve all been there. You’re staring at a Google Ads dashboard
 metaTitle: "How to Conduct a SaaS PPC Audit in 2026?"
 metaDescription: "Wondering how to conduct a PPC account audit for your SaaS product? Here's a complete phase-by-phase guide to help you audit your SaaS PPC account."
 date: 2026-01-12
-lastmod: 2026-05-13
+lastmod: 2026-06-12
 slug: "the-no-nonsense-guide-to-auditing-your-saas-ppc-account"
 writtenBy: "praveen"
 category: "SaaS PPC"
@@ -52,6 +52,8 @@ SaaS isn’t e-commerce. You aren’t selling $20 t-shirts where a click equals 
 - **For your SaaS brand:** You should be looking at whether your leads are flowing through this funnel: **Leads → MQLs  → SQLs → Converted to a paying customer**.
 
 **Audit Tip:** If you can’t see this data, don’t go into the audit yet and fix your tracking. If you are optimizing for “Leads” but 90% of them are junk, your audit will lead you in the wrong direction.
+
+**Two 2026 measurement changes to factor in.** First, since **June 1, 2026** Google Ads only retains granular (hourly/daily/weekly) reporting data for **37 months** — so any year-over-year audit reaching further back than that won’t have day-level detail ([Google Ads Developer Blog](https://ads-developers.googleblog.com/2026/05/new-data-retention-policy-for-google.html)). Second, since **June 15, 2026** Google made `ad_storage` in Consent Mode the single control for ad-data collection — Google Signals in GA4 no longer governs what Google Ads collects ([Google](https://support.google.com/analytics/answer/17016975)). If your conversion volumes look off after that date, check your consent setup before you blame the campaigns.
 
 ### **3. Set Your Benchmarks**
 

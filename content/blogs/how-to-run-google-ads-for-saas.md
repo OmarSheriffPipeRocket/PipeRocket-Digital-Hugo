@@ -4,7 +4,7 @@ description: "I’ve sat in your chair. The pressure to fill the pipeline is rea
 metaTitle: "How to Run Google Ads for SaaS in 2026? An Expert's Guide"
 metaDescription: "Wondering how to start running a Google Ads account for your SaaS product? Here's a complete guide based on my 10+ years of experience in SaaS."
 date: 2026-01-21
-lastmod: 2026-05-12
+lastmod: 2026-06-12
 slug: "how-to-run-google-ads-for-saas"
 writtenBy: "praveen"
 category: "SaaS PPC"
@@ -269,6 +269,10 @@ This is how you refine your traffic. Over time, your wasted spend drops to near 
 If I see a keyword that is costing an astronomical amount (high CPC) but isn’t bringing in conversions, I have to make a call. I will often put a **CPC Bid Cap** on that specific keyword.
 
 I tell Google, “I am willing to bid on this, but I will not pay more than $50 for a click.” This keeps the algorithm from spending your whole budget on one expensive keyword.
+
+### **3. Budget Pacing (a 2026 change to watch)**
+
+There’s one more budget mechanic I now check on every account. As of **June 1, 2026, Google changed how it paces budgets for campaigns using ad schedules** — it now paces toward the full monthly limit (30.4× your daily budget) regardless of how many days your ads actually run, instead of daily-budget × active days ([Search Engine Land](https://searchengineland.com/google-changes-budget-pacing-rules-for-scheduled-campaigns-475107)). If you daypart — weekdays only, business hours only — your monthly spend can climb well past what the old math implied: a weekend-only campaign at $100/day that used to spend ~$800/month can now pace toward ~$1,600. The fix is simple but easy to miss: set your daily budget against the 30.4× monthly cap, not your active-day count.
 
 ## **Conclusion**
 

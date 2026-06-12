@@ -80,20 +80,20 @@ Referenced-by:
   - content/blogs/saas-marketing-challenges-and-fixes.md
 Note: long-standing Gartner figure; page is undated — confirm it still states 6–10.
 
-### gartner-75pct-rep-free-selfserve
-Claim: ~75% of B2B buyers prefer a rep-free, self-serve buying experience
+### gartner-rep-free-selfserve-qualitative
+Claim: most B2B buyers prefer a rep-free, self-serve buying experience (qualitative)
 Source: https://www.gartner.com/en/sales/insights/b2b-buying-journey
 Publisher: Gartner
 Provenance: primary
 Published: undated
 Cadence: living-page
-Status: verify-source
+Status: keep
 Referenced-by:
   - content/blogs/b2b-ppc-guide.md
   - content/blogs/research-ai-seo-statistics.md
   - content/blogs/saas-content-marketing-guide.md
   - content/blogs/saas-marketing-challenges-and-fixes.md
-Note: same page also cited for the 6–10 stat; confirm the 75% wording.
+Note: 2026-06-12 — was "~75%"; the specific figure was dropped in saas-content-marketing.md (reframed to "most") to resolve a collision with the 67%/2026 survey (see gartner-67pct-rep-free-2026). Kept as the qualitative/evergreen rep-free entry.
 
 ### gartner-67pct-rep-free-2026
 Claim: 67% of B2B buyers prefer a rep-free buying experience (2026 Sales Survey)
@@ -155,18 +155,18 @@ Referenced-by:
   - content/blogs/b2b-saas-seo.md
 Note: bot-blocks curl (403) — verify in browser.
 
-### ppcsurvey-2025-harder
-Claim: more than half of PPC professionals say managing PPC has gotten harder over two years
-Source: https://www.ppcsurvey.com/the-state-of-ppc-2025
-Publisher: ppcsurvey.com (State of PPC Global Report 2025)
+### ppcsurvey-2026-harder
+Claim: 53% of PPC professionals say managing PPC has gotten harder over two years (up from 49% in 2024)
+Source: https://www.ppcsurvey.com/the-state-of-ppc-2026
+Publisher: ppcsurvey.com (State of PPC Global Report 2026, 1,306 pros)
 Provenance: primary
-Published: 2025
+Published: 2026
 Cadence: annual
-Next-expected: 2026 (a 2026 edition already exists — candidate upgrade)
-Status: aging
+Next-expected: 2027
+Status: fresh
 Referenced-by:
   - content/blogs/b2b-ppc.md
-Note: State of PPC 2026 is out — check whether to move to it.
+Note: 2026-06-12 — upgraded from the 2025 edition ("more than half") to the 2026 edition (53%, up from 49% in 2024).
 
 ### attentive-2025-personalization
 Claim: 90% of consumers want more personalized communication; 81% ignore irrelevant messages

@@ -122,7 +122,7 @@ Long-form posts are the core of SaaS Content Marketing at the top and middle of 
 - Target problem, “how-to,” and comparison keywords.
 - Add simple examples and light product walkthroughs.
 
-According to Gartner research, around [75% of B2B buyers](https://www.gartner.com/en/sales/insights/b2b-buying-journey) prefer a rep-free, self-serve buying experience, so strong educational content lets you join their shortlist early.
+According to Gartner research, [most B2B buyers](https://www.gartner.com/en/sales/insights/b2b-buying-journey) prefer a rep-free, self-serve buying experience, so strong educational content lets you join their shortlist early.
 
 ### **2. Case Studies & User Stories (Evaluation / Purchase)**
 

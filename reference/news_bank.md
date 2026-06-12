@@ -95,7 +95,7 @@ Should-mention:
   - content/blogs/saas-seo.md
   - content/blogs/fintech-seo-guide.md
   - content/blogs/saas-seo-strategies-and-framework.md
-Does-mention: [AUTO — pending]
+Does-mention: content/blogs/b2b-saas-seo.md
 Notes: AI Mode citations only ~14% overlap with AI Overview citations — implies optimizing for both surfaces separately. Higher weight on structured answers, schema, demonstrable expertise. Verify the primary Google announcement URL before publishing claims.
 
 ### may-2026-core-update
@@ -113,7 +113,7 @@ Should-mention:
   - content/blogs/saas-seo-strategies-and-framework.md
   - content/blogs/how-to-do-saas-content-audit.md
   - content/blogs/how-to-do-saas-seo-competitor-analysis.md
-Does-mention: [AUTO — pending]
+Does-mention: content/blogs/saas-seo.md
 Notes: Rolled out May 21, completed ~June 4. Standard Google guidance ("people-first content"). Use only where a post discusses ranking volatility/recovery; don't bolt onto unrelated guides. Next core update expected ~June–July 2026 — watch.
 
 ### gads-budget-pacing-2026-06
@@ -134,7 +134,7 @@ Should-mention:
   - content/blogs/b2b-ppc-guide.md
   - content/blogs/saas-ppc-checklist.md
   - content/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md
-Does-mention: none (zero posts currently mention it)
+Does-mention: content/blogs/how-to-run-google-ads-for-saas.md
 Notes: PUBLISHING GUIDANCE — now fully primary-backed by Google's own notification. Exact Google wording: "On June 01, 2026, budget pacing will change for campaigns using daily budgets in conjunction with ad schedules. This change will make it easier for advertisers to hit their monthly spending goals." / "Previously, our systems would typically pace towards spending your daily budget times the number of active days in your ad schedule. Starting June 1, we will pace towards spending the monthly limit (30.4 times your daily budget) regardless of any ad schedules." / "Billing limits are unchanged. Your monthly bill remains capped at 30.4 times your daily budget and your daily bill remains capped at 2 times your daily budget." / "Campaigns will never run on days disabled by ad schedules." Safe to state the 30.4×/regardless-of-schedule behavior as official fact. Practical impact for dayparted campaigns: e.g. a weekend-only $100/day campaign that previously spent ~$800/mo could now pace toward the full 30.4× ≈ $1,600/mo unless the daily budget is lowered.
 
 ### gads-data-retention-2026-06
@@ -150,7 +150,7 @@ Action: insert-mention
 Should-mention:
   - content/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md
   - content/blogs/saas-ppc.md
-Does-mention: none
+Does-mention: content/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md
 Notes: Effective June 1, 2026. Granular (hourly/daily/weekly) reporting data retained 37 months; monthly/quarterly/annual for 11 years; reach & frequency 3 years. Queries for granular data >37 months old return DateRangeError. Affects Ads API, scripts, GA Data API, BigQuery transfer. Relevant to reporting/measurement & audit guides.
 
 ### gads-signals-analytics-override-2026-06
@@ -166,7 +166,7 @@ Action: insert-mention
 Should-mention:
   - content/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md
   - content/blogs/b2b-marketing-operations-guide.md
-Does-mention: none
+Does-mention: content/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md
 Notes: Effective June 15, 2026. Per Google: "Google Ads settings will exclusively control Google Ads data" and "Google Analytics settings will exclusively control data used within Google Analytics." `ad_storage` in Consent Mode becomes the single gate for ad-data collection; Google Signals in GA4 no longer controls Ads data. Conversion tracking itself unchanged — what changes is how Ads cookies/IDs are collected via the GA4 tag. Primary confirmed via Google Analytics Help Center.
 
 ---
@@ -176,6 +176,7 @@ Notes: Effective June 15, 2026. Per Google: "Google Ads settings will exclusivel
 - 2026-06-12 — First scan (30-day backfill, all clusters). Banked 5 items: I/O 2026 AI Mode (major), May 2026 core update (major), Google Ads budget pacing (major), Ads data retention (medium), Analytics/Ads override removal (medium). Spun off a stat_bank action: update zero-click % to 58.5% and AIO coverage from the I/O figures.
 - 2026-06-12 — Primary-source verification pass: I/O 2026 → blog.google primary confirmed (+ AI Mode 1B / AI Overviews 2.5B MAU data); May core update → Google Status Dashboard primary confirmed; budget pacing → NO primary found (advertiser comms + LinkedIn only) → marked VERIFY. "Biggest change in 25 years" softened to Google's framing. Data-retention + override entries still need primaries.
 - 2026-06-12 — Deeper verification + corrections: data-retention → PRIMARY found (Google Ads Developer Blog, May 1; 37-month detail added); budget-pacing dates CORRECTED (public Feb 19 / effective Mar 1 in waves — earlier "June 1" was wrong; status established); override → effective June 15, ad_storage becomes single gate (ppc.land secondary, Google consent-mode doc still to confirm). Does-mention computed: all 5 items = none currently in content (work queue = all candidates).
+- 2026-06-12 — ALL 5 items inserted into best-fit posts (one home each, primary-cited, with a pattern/implication take): AI Mode → b2b-saas-seo.md; May core update → saas-seo.md; budget pacing → how-to-run-google-ads-for-saas.md; data-retention + override → the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md. Does-mention updated accordingly. Budget-pacing screenshot (official Google Ads notification) confirmed the 30.4×/June-1 detail as official. Also (stat_bank): ppcsurvey upgraded 2025→2026 (53%); Gartner 75%/67% collision reconciled in saas-content-marketing.md.
 - 2026-06-12 — Budget-pacing VERIFIED: found the official primary — it's Google's "demand-led budget pacing" (Ads & Commerce Blog, May 7). Reframed the entry: the FEATURE is official; the "30.4× / full-monthly-regardless-of-schedule overspend" detail is trade interpretation (SEL), not in Google's wording. Publishing guidance added.
 - 2026-06-12 — Override VERIFIED: ppc.land + dataslayer both cite the same primary — Google Analytics Help Center answer/17016975. Entry upgraded to PRIMARY. ALL 5 first-scan items now have confirmed Google primaries.
 - 2026-06-12 — Budget-pacing fully RESOLVED: Omar supplied the official Google Ads notification screenshot ("Updates to Google Ads Budget Pacing for Ad Scheduling"). Corrects the effective date to June 1, 2026 (the Feb/Mar dates were wrong) and confirms the 30.4×/regardless-of-schedule behavior as OFFICIAL Google wording (no longer trade interpretation). Also clarified this ad-scheduling change is SEPARATE from the May 7 "demand-led budget pacing" AI feature — they were conflated earlier.
