@@ -64,6 +64,19 @@ GSC_ROWS = ROOT / "credentials" / "gsc_output" / "qp_2026-06-08.json"
 SEMRUSH_AS = 20
 SEMRUSH_RD = 133
 SEMRUSH_RD_QUALITY = "~30–70"
+# Referring domains by Authority Score (Semrush, owner-supplied 2026-06-12).
+SEMRUSH_RD_DIST = [
+    ("91–100", 2, "1%", "excellent"),
+    ("81–90", 0, "0%", "—"),
+    ("71–80", 1, "<1%", "excellent"),
+    ("61–70", 1, "<1%", "strong"),
+    ("51–60", 6, "4%", "strong"),
+    ("41–50", 9, "7%", "good"),
+    ("31–40", 9, "7%", "decent"),
+    ("21–30", 17, "13%", "borderline"),
+    ("11–20", 10, "7%", "weak"),
+    ("0–10", 78, "59%", "near-worthless (spam/dirs)"),
+]
 
 
 def gsc_aggregate():
@@ -458,12 +471,29 @@ def add_conclusion(story, audit, kw):
 
     story.append(Paragraph("The cause: authority deficit + targeting above weight class", S["h2"]))
     story.append(callout(
-        f"<b>Authority, not on-page.</b> Semrush Authority Score <b>{SEMRUSH_AS}</b>, ~{SEMRUSH_RD} referring "
-        f"domains ({SEMRUSH_RD_QUALITY} genuinely good). The SERPs the program targets — “best b2b seo "
-        "agency”, “enter­prise seo agency”, “saas marketing agency” — are owned by AS 50–80 sites with "
-        "hundreds-to-thousands of referring domains. An AS-20 site cannot rank there regardless of page "
-        "quality. The branded rankings (pos "
+        f"<b>Authority, not on-page.</b> Semrush Authority Score <b>{SEMRUSH_AS}</b>, {SEMRUSH_RD} referring "
+        "domains. The SERPs the program targets — “best b2b seo agency”, “enter­prise seo agency”, “saas "
+        "marketing agency” — are owned by AS 50–80 sites with hundreds-to-thousands of referring domains. "
+        "An AS-20 site cannot rank there regardless of page quality. The branded rankings (pos "
         f"{b['pos']:.1f}) prove Google knows the brand — it just doesn't trust the domain for non-brand terms yet.", RED))
+    story.append(Spacer(1, 6))
+
+    # referring-domain quality breakdown (Semrush)
+    story.append(Paragraph("Referring-domain quality — the real authority picture", S["h2"]))
+    dist_rows = []
+    for rng, cnt, pct, note in SEMRUSH_RD_DIST:
+        dist_rows.append([rng, str(cnt), pct, note])
+    story.append(styled_table(["Authority Score", "Ref. domains", "Share", "Worth"],
+                              dist_rows, [110, 80, 60, FRAME_W - 250],
+                              body_styles=["cellb", "cell", "cell", "cell"]))
+    story.append(Spacer(1, 4))
+    story.append(callout(
+        f"<b>The “{SEMRUSH_RD} backlinks” headline is inflated.</b> <b>59% (78) of referring domains are "
+        "AS 0–10</b> — scrapers, junk directories, spam that Google ignores or discounts. Only "
+        "<b>~19 referring domains are AS 41+</b> (and ~28 are AS 31+). Your <i>effective</i> authority is "
+        "far below even AS&nbsp;20. <b>The fix is link quality, not volume</b>: another 50 AS-0–10 links "
+        "do nothing — you need editorial AS 40+ domains. Realistic first milestone: AS 41+ referring "
+        "domains from ~19 → ~50.", RED))
     story.append(Spacer(1, 4))
     story.append(callout(
         "<b>Not the migration.</b> The site never ranked well for non-brand terms — pre- or post-migration. "
