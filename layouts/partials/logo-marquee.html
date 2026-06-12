@@ -28,7 +28,7 @@
   (dict "name" "Atlas"         "src" "/images/logos/atlas-systems.svg" "w" 300  "h" 95)
 }}
 <section class="pr-logobar pr-logobar--marquee">
-  <div class="pr-logobar__label">Leading SaaS companies that choose us</div>
+  <div class="pr-logobar__label">{{ .Params.logobar_label | default "Leading SaaS companies that choose us" }}</div>
   <div class="pr-logobar__viewport">
     <div class="pr-logobar__track">
       <div class="pr-logobar__group">
