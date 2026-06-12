@@ -117,13 +117,14 @@ Does-mention: [AUTO — pending]
 Notes: Rolled out May 21, completed ~June 4. Standard Google guidance ("people-first content"). Use only where a post discusses ranking volatility/recovery; don't bolt onto unrelated guides. Next core update expected ~June–July 2026 — watch.
 
 ### gads-budget-pacing-2026-06
-Event: Google Ads changes budget pacing — campaigns now pace toward the full monthly limit (30.4× daily) regardless of schedule
-Date: 2026-02 (public Feb 19) → effective 2026-03-01 in notification waves  [CORRECTED — earlier "June 1" was wrong]
+Event: Google Ads budget pacing for ad scheduling — from June 1 2026, campaigns using daily budgets with ad schedules pace toward the full monthly limit (30.4× daily budget) regardless of active days (can raise spend on dayparted campaigns). [Separate from, but related to, the May 7 "demand-led budget pacing" AI feature.]
+Date: 2026-06-01 (effective)  [CONFIRMED by official Google Ads notification — earlier Feb/Mar dates were wrong]
 Cluster: saas-paid-marketing
 Significance: major
-Source: https://searchengineland.com/google-changes-budget-pacing-rules-for-scheduled-campaigns-475107  [SECONDARY]
-Related-official: https://support.google.com/google-ads/answer/13685469 (Google Ads Help — budget pacing insights; not a press release)
-Status: established — partial-VERIFY
+Source: Official Google Ads in-product notification "Updates to Google Ads Budget Pacing for Ad Scheduling" (screenshot supplied by Omar 2026-06-12) [PRIMARY — Google's own wording]
+Related-official: https://business.google.com/us/accelerate/announcements/demand-led-budget-pacing/ (the separate May 7 demand-led pacing AI feature)
+Secondary: https://searchengineland.com/google-changes-budget-pacing-rules-for-scheduled-campaigns-475107
+Status: VERIFIED — the 30.4×/regardless-of-schedule behavior is now confirmed as OFFICIAL Google wording (not trade interpretation)
 Reframe-by: 2026-09
 Action: update-advice
 Should-mention:
@@ -134,7 +135,7 @@ Should-mention:
   - content/blogs/saas-ppc-checklist.md
   - content/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md
 Does-mention: none (zero posts currently mention it)
-Notes: ⚠️ Still NO single official press release — Google communicated it via direct email to advertisers (first public Feb 19, 2026) and rolled it out in waves from March 1. The Google Ads Help "budget pacing insights" page exists but doesn't announce this specific change. Safe to publish as "Google began pacing campaigns toward the full monthly limit in early 2026" (well-corroborated); avoid implying a formal press announcement. Directly changes daily-budget math for dayparted campaigns — e.g. a weekend-only $100/day campaign could jump from ~$800 to ~$1,600/mo.
+Notes: PUBLISHING GUIDANCE — now fully primary-backed by Google's own notification. Exact Google wording: "On June 01, 2026, budget pacing will change for campaigns using daily budgets in conjunction with ad schedules. This change will make it easier for advertisers to hit their monthly spending goals." / "Previously, our systems would typically pace towards spending your daily budget times the number of active days in your ad schedule. Starting June 1, we will pace towards spending the monthly limit (30.4 times your daily budget) regardless of any ad schedules." / "Billing limits are unchanged. Your monthly bill remains capped at 30.4 times your daily budget and your daily bill remains capped at 2 times your daily budget." / "Campaigns will never run on days disabled by ad schedules." Safe to state the 30.4×/regardless-of-schedule behavior as official fact. Practical impact for dayparted campaigns: e.g. a weekend-only $100/day campaign that previously spent ~$800/mo could now pace toward the full 30.4× ≈ $1,600/mo unless the daily budget is lowered.
 
 ### gads-data-retention-2026-06
 Event: New Google Ads data retention policy takes effect
@@ -157,16 +158,16 @@ Event: Google removes Analytics' ability to override Ads behaviour ("destination
 Date: 2026-06
 Cluster: saas-paid-marketing
 Significance: medium
-Source: https://ppc.land/google-strips-analytics-of-ad-data-authority-in-june-2026-consent-overhaul/  [SECONDARY — trade]
-Related-official: Google Consent Mode / destination-specific controls docs (confirm exact Google URL before publishing)
-Status: breaking
+Source: https://support.google.com/analytics/answer/17016975  [PRIMARY — Google Analytics Help Center]
+Secondary: https://ppc.land/google-strips-analytics-of-ad-data-authority-in-june-2026-consent-overhaul/ ; https://www.dataslayer.ai/blog/ga4-google-ads-data-controls-june-15-2026
+Status: VERIFIED
 Reframe-by: 2026-09
 Action: insert-mention
 Should-mention:
   - content/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md
   - content/blogs/b2b-marketing-operations-guide.md
 Does-mention: none
-Notes: Effective June 15, 2026. After this, `ad_storage` in Consent Mode becomes the single gate for what ad data Google Ads collects; Google Signals in GA4 no longer controls Ads data collection. Conversion tracking itself unchanged — what changes is how Ads cookies/IDs are collected via the GA4 tag. Still want a direct Google doc before publishing as fact.
+Notes: Effective June 15, 2026. Per Google: "Google Ads settings will exclusively control Google Ads data" and "Google Analytics settings will exclusively control data used within Google Analytics." `ad_storage` in Consent Mode becomes the single gate for ad-data collection; Google Signals in GA4 no longer controls Ads data. Conversion tracking itself unchanged — what changes is how Ads cookies/IDs are collected via the GA4 tag. Primary confirmed via Google Analytics Help Center.
 
 ---
 
@@ -175,3 +176,6 @@ Notes: Effective June 15, 2026. After this, `ad_storage` in Consent Mode becomes
 - 2026-06-12 — First scan (30-day backfill, all clusters). Banked 5 items: I/O 2026 AI Mode (major), May 2026 core update (major), Google Ads budget pacing (major), Ads data retention (medium), Analytics/Ads override removal (medium). Spun off a stat_bank action: update zero-click % to 58.5% and AIO coverage from the I/O figures.
 - 2026-06-12 — Primary-source verification pass: I/O 2026 → blog.google primary confirmed (+ AI Mode 1B / AI Overviews 2.5B MAU data); May core update → Google Status Dashboard primary confirmed; budget pacing → NO primary found (advertiser comms + LinkedIn only) → marked VERIFY. "Biggest change in 25 years" softened to Google's framing. Data-retention + override entries still need primaries.
 - 2026-06-12 — Deeper verification + corrections: data-retention → PRIMARY found (Google Ads Developer Blog, May 1; 37-month detail added); budget-pacing dates CORRECTED (public Feb 19 / effective Mar 1 in waves — earlier "June 1" was wrong; status established); override → effective June 15, ad_storage becomes single gate (ppc.land secondary, Google consent-mode doc still to confirm). Does-mention computed: all 5 items = none currently in content (work queue = all candidates).
+- 2026-06-12 — Budget-pacing VERIFIED: found the official primary — it's Google's "demand-led budget pacing" (Ads & Commerce Blog, May 7). Reframed the entry: the FEATURE is official; the "30.4× / full-monthly-regardless-of-schedule overspend" detail is trade interpretation (SEL), not in Google's wording. Publishing guidance added.
+- 2026-06-12 — Override VERIFIED: ppc.land + dataslayer both cite the same primary — Google Analytics Help Center answer/17016975. Entry upgraded to PRIMARY. ALL 5 first-scan items now have confirmed Google primaries.
+- 2026-06-12 — Budget-pacing fully RESOLVED: Omar supplied the official Google Ads notification screenshot ("Updates to Google Ads Budget Pacing for Ad Scheduling"). Corrects the effective date to June 1, 2026 (the Feb/Mar dates were wrong) and confirms the 30.4×/regardless-of-schedule behavior as OFFICIAL Google wording (no longer trade interpretation). Also clarified this ad-scheduling change is SEPARATE from the May 7 "demand-led budget pacing" AI feature — they were conflated earlier.
