@@ -14,10 +14,73 @@ Usage: python3 scripts/audit_master_csv.py
 
 import csv
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
-from audit_content_map import load_redirects, resolve, norm_path, parse_content_map
+from audit_content_map import (load_redirects, resolve, norm_path, parse_content_map,
+                               read_html, rendered_text, phrase_counts)
+
+
+def editorial_secondaries(primary, ptype):
+    """Generate editorial secondary keywords = intent-based variants of the
+    primary (synonyms, plural/singular, qualifier forms, top↔best). Derived from
+    the primary only — NOT from GSC. Returns up to 4, deduped, excluding primary."""
+    p = (primary or "").strip().lower()
+    if not p:
+        return []
+    out = []
+
+    def add(s):
+        s = re.sub(r"\s+", " ", s or "").strip()
+        if s and s != p and s not in out:
+            out.append(s)
+
+    if ptype in ("landing", "home"):
+        if p.endswith(" agency"):
+            base = p[:-len(" agency")]
+            add(base + " services"); add(base + " company")
+            if not p.startswith("b2b"):
+                add("b2b " + p)
+            add(base + " firm")
+        elif p.endswith(" services"):
+            base = p[:-len(" services")]
+            add(base + " agency"); add(base + " company"); add("best " + base + " agency")
+        else:
+            add("best " + p); add(p + " services"); add(p + " company")
+    elif ptype == "list":
+        if p.startswith("best "):
+            rest = p[5:]
+            add("top " + rest); add(rest)
+            if rest.endswith("agencies"):
+                add(rest[:-len("agencies")] + "companies")
+            elif rest.endswith("tools"):
+                add(rest[:-len("tools")] + "software"); add(rest[:-len("tools")] + "tool")
+            elif rest.endswith("companies"):
+                add(rest[:-len("companies")] + "agencies")
+        else:
+            add("best " + p); add("top " + p)
+    elif ptype == "alternative":
+        base = p[:-len(" alternatives")] if p.endswith(" alternatives") else p
+        add(base + " competitors"); add("alternatives to " + base); add("best " + base + " alternatives")
+    elif ptype == "compare":
+        if " vs " in p:
+            a, b = p.split(" vs ", 1)
+            add(p + " comparison"); add(b + " vs " + a); add(a + " or " + b)
+    elif ptype == "glossary":
+        base = re.sub(r"^what is (a |an |the )?", "", p)
+        add(base + " meaning"); add(base + " definition"); add("what is " + base); add(base + " explained")
+    elif ptype == "tool":
+        add("free " + p) if not p.startswith("free") else None
+        add(p.replace("calculator", "").strip() + " calculator") if "calculator" in p else add(p + " tool")
+        add(p + " online")
+    elif ptype == "blog":
+        if p.startswith("how to "):
+            rest = p[7:]
+            add(rest); add(rest + " guide"); add(rest + " best practices")
+        else:
+            add(p + " guide"); add(p + " strategy"); add(p + " best practices")
+    return out[:4]
 
 ROOT = Path(__file__).resolve().parent.parent
 AUDIT = ROOT / "audit"
@@ -99,10 +162,18 @@ def main():
             anch = anchors.get(p["url"], [])
             kw = keywords.get(p["url"], [])
             can = cannib.get(p["url"], [])
-            sec_freq = "; ".join(f"{k}: {v.get('family', 0)}" for k, v in p.get("secondary_freq", {}).items())
+            # editorial secondary keywords (generated from the primary) + their
+            # frequency on the rendered page — master CSV only, content map untouched.
+            sec_kw = editorial_secondaries(p["primary"], p["type"]) if p["keyword_target"] else []
+            if sec_kw:
+                _, html_text = read_html(p["url"])
+                rtext = rendered_text(html_text) if html_text else ""
+                sec_freq = "; ".join(f"{s}: {phrase_counts(rtext, s)[0]}" for s in sec_kw)  # exact-phrase count
+            else:
+                sec_freq = ""
             w.writerow([
                 p["url"], p["type"], p["keyword_target"], p["primary"],
-                "; ".join(p["secondary"]), p["intent"], p["funnel"], p["cluster"] or "",
+                "; ".join(sec_kw), p["intent"], p["funnel"], p["cluster"] or "",
                 p["redirected"], p["redirect_target"],
                 p["title"], p["title_len"], p["description"], p["desc_len"],
                 p["h1_count"], " | ".join(p.get("h1_texts", [])),
