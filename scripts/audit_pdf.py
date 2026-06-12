@@ -390,6 +390,9 @@ def build():
         "split SaaS-SEO blogs. Merge / canonical / differentiate as noted in §9.", AMBER))
     story.append(PageBreak())
 
+    # ---- Conclusion / goal validation (separate section; per-page detail untouched) ----
+    add_conclusion(story, audit, kw)
+
     # ---- Dimension sections ----
     add_crawl(story, kw)
     add_titles(story, audit)
@@ -424,6 +427,67 @@ def build():
 
 
 # ---------------- sections ----------------
+
+def add_conclusion(story, audit, kw):
+    g = gsc_aggregate()
+    story.append(Paragraph("Conclusion — why the site isn't ranking (goal validation)", S["h1"]))
+    story.append(Paragraph(
+        "This audit was commissioned because the site has published consistently since ~November yet "
+        "non-brand content does not rank. The per-page sections that follow are <b>hygiene</b> — real, "
+        "worth fixing, but <b>not</b> the reason nothing ranks. The actual bottleneck is below.", S["body"]))
+
+    story.append(Paragraph("The decisive split: brand vs non-brand", S["h2"]))
+    b, n = g["brand"], g["non"]
+    story.append(styled_table(
+        ["Query type", "Query-rows", "Clicks", "Impr-weighted avg position"],
+        [["Branded (“piperocket…”)", str(b["rows"]), str(b["clicks"]), f"{b['pos']:.1f}  (page 1)"],
+         ["Non-brand (the whole content program)", str(n["rows"]), str(n["clicks"]), f"{n['pos']:.1f}  (page 5)"]],
+        [220, 70, 60, FRAME_W - 350], body_styles=["cell", "cell", "cellb", "cellb"]))
+    pct = round(b["clicks"] / max(1, g["tot_clicks"]) * 100)
+    story.append(Paragraph(
+        f"<b>{pct}% of all clicks come from people already searching the brand name.</b> Every non-brand "
+        f"commercial/informational term — the entire purpose of the content — averages position "
+        f"{n['pos']:.0f} and produced {n['clicks']} clicks in 6 weeks despite {g['tot_impr']:,} impressions. "
+        "Google indexes the content and shows it for the right queries, then ranks it on page 5.", S["body"]))
+
+    story.append(Paragraph("Where impressions actually sit", S["h2"]))
+    bk = g["buckets"]; ti = g["tot_impr"]
+    story.append(styled_table(["Position bucket", "Impressions", "Share"],
+                              [[k, f"{v:,}", f"{v/ti*100:.0f}%"] for k, v in bk.items()],
+                              [FRAME_W - 200, 120, 80]))
+
+    story.append(Paragraph("The cause: authority deficit + targeting above weight class", S["h2"]))
+    story.append(callout(
+        f"<b>Authority, not on-page.</b> Semrush Authority Score <b>{SEMRUSH_AS}</b>, ~{SEMRUSH_RD} referring "
+        f"domains ({SEMRUSH_RD_QUALITY} genuinely good). The SERPs the program targets — “best b2b seo "
+        "agency”, “enter­prise seo agency”, “saas marketing agency” — are owned by AS 50–80 sites with "
+        "hundreds-to-thousands of referring domains. An AS-20 site cannot rank there regardless of page "
+        "quality. The branded rankings (pos "
+        f"{b['pos']:.1f}) prove Google knows the brand — it just doesn't trust the domain for non-brand terms yet.", RED))
+    story.append(Spacer(1, 4))
+    story.append(callout(
+        "<b>Not the migration.</b> The site never ranked well for non-brand terms — pre- or post-migration. "
+        "The WP→Hugo move (~Apr 2026) only adds minor friction (5 broken redirects → 404, see §6). "
+        "<b>Not indexing</b> either — 283 pages indexed, shown for the right queries.", AMBER))
+    story.append(Spacer(1, 4))
+    story.append(callout(
+        "<b>Trend confirms it.</b> Avg position crept 33→29 over the window but impressions fell ~21% and "
+        "CTR is stuck at 0.3% — not a healthy authority-building ramp. Publishing more content will not move this.", AMBER))
+
+    story.append(Paragraph("What actually moves rankings (in priority order)", S["h2"]))
+    story.append(styled_table(["#", "Lever", "Why"], [
+        ["1", "Backlinks / digital PR — referring domains ~50 → 150+", "The bottleneck. Original data studies (you have a stats page), founder-led/HARO, write-for-us, partnerships."],
+        ["2", "Target within weight class", "Pursue keywords whose page-1 competitors are AS ≤25–30 (long-tail, segment-specific, BOFU niche) using the content-map intent/funnel/cluster lens. Win those first, then climb."],
+        ["3", "Consolidate topical authority", "A weak domain spread across 240 pages (saas-seo + saas-ppc + 15 verticals + tools + glossary) signals shallow everywhere. Dominate ONE cluster first."],
+        ["4", "Stop equity leaks", "Fix the 5 broken redirects → real targets; fix orphaned money pages. Free, but won't move rankings alone."],
+    ], [22, 200, FRAME_W - 222], body_styles=["cellb", "cellb", "cell"]))
+    story.append(Spacer(1, 6))
+    story.append(Paragraph(
+        "<b>Bottom line:</b> the content and the pages are not the problem. The bottleneck is off-page "
+        "authority and over-ambitious keyword targeting. Fix authority + targeting; treat the per-page "
+        "findings below as hygiene.", S["body"]))
+    story.append(PageBreak())
+
 
 def add_crawl(story, kw):
     story.append(Paragraph("1. Crawlability", S["h1"]))
