@@ -482,18 +482,18 @@ def write_yaml(entries, gsc_src):
         L.append(f"    status: {e['status']}")
         if e["gsc"]:
             g = e["gsc"]
-            L.append("    gsc:                          # MEASUREMENT only — not the target")
+            L.append("    gsc:")
             L.append(f"      total_impressions: {g['total_impressions']}")
-            L.append(f"      top_query: {yq(g['top_query'])}          # what the page actually surfaces for")
+            L.append(f"      top_query: {yq(g['top_query'])}")
             L.append(f"      top_query_position: {g['top_query_position']}")
             L.append(f"      top_query_impressions: {g['top_query_impressions']}")
             if "aligned" in g:
-                L.append(f"      aligned: {str(g['aligned']).lower()}              # top query == primary target?")
+                L.append(f"      aligned: {str(g['aligned']).lower()}")
             if g.get("primary_position") is not None:
-                L.append(f"      primary_position: {g['primary_position']}        # rank for the TARGET keyword")
+                L.append(f"      primary_position: {g['primary_position']}")
                 L.append(f"      primary_impressions: {g['primary_impressions']}")
             elif g.get("primary_ranking") is False:
-                L.append("      primary_ranking: false        # target keyword not surfacing yet")
+                L.append("      primary_ranking: false")
         L.append("")
     OUT_FILE.write_text("\n".join(L), encoding="utf-8")
 

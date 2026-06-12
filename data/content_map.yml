@@ -23,13 +23,13 @@ pages:
     cluster: "B2B Content Marketing"
     canonical_for: "b2b content marketing"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2
-      top_query: "b2b content experts"          # what the page actually surfaces for
+      top_query: "b2b content experts"
       top_query_position: 36
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_position: 20        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 20
       primary_impressions: 1
 
   - url: "/blogs/b2b-demand-generation-guide/"
@@ -51,13 +51,13 @@ pages:
     cluster: "B2B Inbound Marketing"
     canonical_for: "b2b inbound marketing"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2003
-      top_query: "inbound marketing b2b"          # what the page actually surfaces for
+      top_query: "inbound marketing b2b"
       top_query_position: 63.5
       top_query_impressions: 611
-      aligned: true              # top query == primary target?
-      primary_position: 63.5        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 63.5
       primary_impressions: 611
 
   - url: "/blogs/b2b-lead-generation/"
@@ -69,13 +69,13 @@ pages:
     cluster: "B2B Lead Generation"
     canonical_for: "b2b lead generation"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 54
-      top_query: "b2b lead generation blog"          # what the page actually surfaces for
+      top_query: "b2b lead generation blog"
       top_query_position: 46.6
       top_query_impressions: 28
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/b2b-linkedin-marketing-guide/"
     type: blog
@@ -96,13 +96,13 @@ pages:
     cluster: "B2B Marketing"
     canonical_for: "b2b marketing operations"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 100
-      top_query: "b2b marketing operations"          # what the page actually surfaces for
+      top_query: "b2b marketing operations"
       top_query_position: 13.8
       top_query_impressions: 57
-      aligned: true              # top query == primary target?
-      primary_position: 13.8        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 13.8
       primary_impressions: 57
 
   - url: "/blogs/b2b-marketing/"
@@ -114,13 +114,13 @@ pages:
     cluster: "B2B Marketing"
     canonical_for: "b2b marketing"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 6
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 17.6
       top_query_impressions: 5
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/b2b-ppc-guide/"
     type: blog
@@ -131,13 +131,13 @@ pages:
     cluster: "B2B PPC"
     canonical_for: "b2b ppc"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 20
-      top_query: "b2b ppc campaigns"          # what the page actually surfaces for
+      top_query: "b2b ppc campaigns"
       top_query_position: 65.3
       top_query_impressions: 6
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/b2b-ppc/"
     type: blog
@@ -148,13 +148,13 @@ pages:
     cluster: "B2B PPC"
     canonical_for: "b2b ppc"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 57
-      top_query: "b2b saas ppc"          # what the page actually surfaces for
+      top_query: "b2b saas ppc"
       top_query_position: 23.9
       top_query_impressions: 27
-      aligned: false              # top query == primary target?
-      primary_position: 15.6        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 15.6
       primary_impressions: 18
 
   - url: "/blogs/b2b-saas-seo/"
@@ -166,13 +166,13 @@ pages:
     cluster: "B2B SEO"
     canonical_for: "b2b saas seo"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 21
-      top_query: "b2b saas seo roadmap"          # what the page actually surfaces for
+      top_query: "b2b saas seo roadmap"
       top_query_position: 17.2
       top_query_impressions: 17
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/enterprise-saas-seo-guide/"
     type: blog
@@ -183,13 +183,13 @@ pages:
     cluster: "Enterprise Marketing"
     canonical_for: "enterprise saas seo"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 47
-      top_query: "enterprise saas seo"          # what the page actually surfaces for
+      top_query: "enterprise saas seo"
       top_query_position: 17
       top_query_impressions: 17
-      aligned: true              # top query == primary target?
-      primary_position: 17        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 17
       primary_impressions: 17
 
   - url: "/blogs/enterprise-seo-challenges-and-fixes/"
@@ -201,13 +201,13 @@ pages:
     cluster: "Enterprise Marketing"
     canonical_for: "enterprise seo challenges and fixes"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 231
-      top_query: "enterprise seo issues"          # what the page actually surfaces for
+      top_query: "enterprise seo issues"
       top_query_position: 45.3
       top_query_impressions: 73
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/enterprise-seo-guide/"
     type: blog
@@ -218,13 +218,13 @@ pages:
     cluster: "Enterprise Marketing"
     canonical_for: "enterprise seo"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 335
-      top_query: "enterprise seo definition"          # what the page actually surfaces for
+      top_query: "enterprise seo definition"
       top_query_position: 43.6
       top_query_impressions: 37
-      aligned: false              # top query == primary target?
-      primary_position: 70.4        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 70.4
       primary_impressions: 25
 
   - url: "/blogs/enterprise-seo-strategy-and-framework/"
@@ -236,13 +236,13 @@ pages:
     cluster: "Enterprise Marketing"
     canonical_for: "enterprise seo strategy and framework"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 28
-      top_query: "four-phase growth framework enterprise seo large brands"          # what the page actually surfaces for
+      top_query: "four-phase growth framework enterprise seo large brands"
       top_query_position: 8.1
       top_query_impressions: 15
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/fintech-seo-guide/"
     type: blog
@@ -263,13 +263,13 @@ pages:
     cluster: "SaaS PPC"
     canonical_for: "linkedin ads for saas"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3
-      top_query: "linkedin ad for saas"          # what the page actually surfaces for
+      top_query: "linkedin ad for saas"
       top_query_position: 35.5
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_position: 22        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 22
       primary_impressions: 1
 
   - url: "/blogs/how-to-build-topic-clusters/"
@@ -281,13 +281,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "topic clusters"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 19
-      top_query: "topic clusters"          # what the page actually surfaces for
+      top_query: "topic clusters"
       top_query_position: 25
       top_query_impressions: 3
-      aligned: true              # top query == primary target?
-      primary_position: 25        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 25
       primary_impressions: 3
 
   - url: "/blogs/how-to-choose-search-volume-vs-search-intent/"
@@ -299,13 +299,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "search volume vs search intent"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 9
-      top_query: "search volume"          # what the page actually surfaces for
+      top_query: "search volume"
       top_query_position: 42
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/how-to-do-keyword-gap-analysis/"
     type: blog
@@ -316,13 +316,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "keyword gap analysis"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 26
-      top_query: "what is keyword gap analysis"          # what the page actually surfaces for
+      top_query: "what is keyword gap analysis"
       top_query_position: 42.1
       top_query_impressions: 9
-      aligned: true              # top query == primary target?
-      primary_position: 42.1        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 42.1
       primary_impressions: 9
 
   - url: "/blogs/how-to-do-saas-content-audit/"
@@ -334,13 +334,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "saas content audit"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 111
-      top_query: "saas content audit"          # what the page actually surfaces for
+      top_query: "saas content audit"
       top_query_position: 17.5
       top_query_impressions: 91
-      aligned: true              # top query == primary target?
-      primary_position: 17.5        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 17.5
       primary_impressions: 91
 
   - url: "/blogs/how-to-do-saas-seo-competitor-analysis/"
@@ -352,13 +352,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "saas seo competitor analysis"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 90
-      top_query: "saas seo competitor analysis"          # what the page actually surfaces for
+      top_query: "saas seo competitor analysis"
       top_query_position: 14.9
       top_query_impressions: 29
-      aligned: true              # top query == primary target?
-      primary_position: 14.9        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 14.9
       primary_impressions: 29
 
   - url: "/blogs/how-to-do-saas-seo-keyword-research/"
@@ -370,13 +370,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "saas seo keyword research"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 258
-      top_query: "seo keywords for saas"          # what the page actually surfaces for
+      top_query: "seo keywords for saas"
       top_query_position: 67.0
       top_query_impressions: 140
-      aligned: false              # top query == primary target?
-      primary_position: 41        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 41
       primary_impressions: 5
 
   - url: "/blogs/how-to-fix-keyword-cannibalization/"
@@ -388,13 +388,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "fix keyword cannibalization"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 120
-      top_query: "cannibalization in seo"          # what the page actually surfaces for
+      top_query: "cannibalization in seo"
       top_query_position: 50.2
       top_query_impressions: 25
-      aligned: false              # top query == primary target?
-      primary_position: 26.8        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 26.8
       primary_impressions: 12
 
   - url: "/blogs/how-to-map-keywords-to-saas-buyer-journey/"
@@ -406,13 +406,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "map keywords to saas buyer journey"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 15
-      top_query: "keyword mapping"          # what the page actually surfaces for
+      top_query: "keyword mapping"
       top_query_position: 41
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/"
     type: blog
@@ -423,13 +423,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "prioritize saas keywords by funnel stage"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3
-      top_query: "using the same keywords on multiple pages"          # what the page actually surfaces for
+      top_query: "using the same keywords on multiple pages"
       top_query_position: 48.7
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/how-to-rank-bofu-keywords-saas/"
     type: blog
@@ -440,13 +440,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "rank saas bofu keywords"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 14
-      top_query: "keywords rankings"          # what the page actually surfaces for
+      top_query: "keywords rankings"
       top_query_position: 78
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/how-to-rank-mofu-keywords-saas/"
     type: blog
@@ -457,13 +457,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "rank saas mofu keywords"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 8
-      top_query: "using the same keywords on multiple pages"          # what the page actually surfaces for
+      top_query: "using the same keywords on multiple pages"
       top_query_position: 69.2
       top_query_impressions: 5
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips/"
     type: blog
@@ -474,13 +474,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "how to rank on chatgpt"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 7
-      top_query: "chatgpt rating 2026"          # what the page actually surfaces for
+      top_query: "chatgpt rating 2026"
       top_query_position: 11
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/how-to-run-google-ads-for-saas/"
     type: blog
@@ -491,13 +491,13 @@ pages:
     cluster: "SaaS PPC"
     canonical_for: "google ads for saas"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1
-      top_query: "how to run google ads for saas"          # what the page actually surfaces for
+      top_query: "how to run google ads for saas"
       top_query_position: 43
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/how-to-run-linkedin-retargeting-ads/"
     type: blog
@@ -508,13 +508,13 @@ pages:
     cluster: "SaaS PPC"
     canonical_for: "linkedin retargeting ads"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 181
-      top_query: "linkedin retargeting"          # what the page actually surfaces for
+      top_query: "linkedin retargeting"
       top_query_position: 35.4
       top_query_impressions: 15
-      aligned: false              # top query == primary target?
-      primary_position: 30.4        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 30.4
       primary_impressions: 11
 
   - url: "/blogs/how-to-score-saas-keywords-by-icp-intent/"
@@ -526,13 +526,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "score saas keywords by icp intent"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 5
-      top_query: "audit seo b2b"          # what the page actually surfaces for
+      top_query: "audit seo b2b"
       top_query_position: 56
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/how-to-write-google-ads-copy-for-saas-in-2026/"
     type: blog
@@ -563,13 +563,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "write saas seo content with ai"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 28
-      top_query: "seo and ai for saas"          # what the page actually surfaces for
+      top_query: "seo and ai for saas"
       top_query_position: 49.4
       top_query_impressions: 9
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/linkedin-account-based-marketing/"
     type: blog
@@ -580,13 +580,13 @@ pages:
     cluster: "SaaS PPC"
     canonical_for: "linkedin account based marketing"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 92
-      top_query: "linkedin account based marketing"          # what the page actually surfaces for
+      top_query: "linkedin account based marketing"
       top_query_position: 39.0
       top_query_impressions: 26
-      aligned: true              # top query == primary target?
-      primary_position: 39.0        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 39.0
       primary_impressions: 26
 
   - url: "/blogs/optimize-saas-landing-pages-for-seo/"
@@ -598,13 +598,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "optimize saas landing pages for seo"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 15
-      top_query: "on-page seo for saas landing pages"          # what the page actually surfaces for
+      top_query: "on-page seo for saas landing pages"
       top_query_position: 8
       top_query_impressions: 8
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/research/ai-seo-statistics/"
     type: blog
@@ -615,13 +615,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "ai seo statistics"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 173
-      top_query: "powered by seo stats"          # what the page actually surfaces for
+      top_query: "powered by seo stats"
       top_query_position: 168.9
       top_query_impressions: 44
-      aligned: false              # top query == primary target?
-      primary_position: 25.5        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 25.5
       primary_impressions: 33
 
   - url: "/blogs/saas-content-marketing-guide/"
@@ -643,13 +643,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "saas link building"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 283
-      top_query: "link building for saas"          # what the page actually surfaces for
+      top_query: "link building for saas"
       top_query_position: 28.5
       top_query_impressions: 118
-      aligned: true              # top query == primary target?
-      primary_position: 28.5        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 28.5
       primary_impressions: 118
 
   - url: "/blogs/saas-linkedin-ads-mistakes-to-avoid/"
@@ -671,13 +671,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "saas marketing challenges"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 24
-      top_query: "challenges of marketing saas with limited resources"          # what the page actually surfaces for
+      top_query: "challenges of marketing saas with limited resources"
       top_query_position: 17.1
       top_query_impressions: 12
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/saas-ppc-checklist/"
     type: blog
@@ -688,13 +688,13 @@ pages:
     cluster: "SaaS PPC"
     canonical_for: "saas ppc checklist"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 103
-      top_query: "ppc for saas"          # what the page actually surfaces for
+      top_query: "ppc for saas"
       top_query_position: 22.0
       top_query_impressions: 34
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/blogs/saas-ppc/"
     type: blog
@@ -715,13 +715,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "saas seo checklist"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 351
-      top_query: "saas seo checklist"          # what the page actually surfaces for
+      top_query: "saas seo checklist"
       top_query_position: 22.9
       top_query_impressions: 328
-      aligned: true              # top query == primary target?
-      primary_position: 22.9        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 22.9
       primary_impressions: 328
 
   - url: "/blogs/saas-seo-strategies-and-framework/"
@@ -733,13 +733,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "saas seo strategies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 339
-      top_query: "saas seo strategy"          # what the page actually surfaces for
+      top_query: "saas seo strategy"
       top_query_position: 56.6
       top_query_impressions: 124
-      aligned: false              # top query == primary target?
-      primary_position: 48.6        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 48.6
       primary_impressions: 49
 
   - url: "/blogs/saas-seo/"
@@ -751,13 +751,13 @@ pages:
     cluster: "SEO"
     canonical_for: "saas seo"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1359
-      top_query: "saas seo"          # what the page actually surfaces for
+      top_query: "saas seo"
       top_query_position: 74.4
       top_query_impressions: 421
-      aligned: true              # top query == primary target?
-      primary_position: 74.4        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 74.4
       primary_impressions: 421
 
   - url: "/blogs/the-8-common-saas-google-ads-mistakes-to-avoid-in-2026/"
@@ -779,13 +779,13 @@ pages:
     cluster: "SaaS PPC"
     canonical_for: "saas ppc audit"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 18
-      top_query: "saas ppc audit"          # what the page actually surfaces for
+      top_query: "saas ppc audit"
       top_query_position: 4.8
       top_query_impressions: 15
-      aligned: true              # top query == primary target?
-      primary_position: 4.8        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 4.8
       primary_impressions: 15
 
   - url: "/blogs/types-of-keywords-in-seo/"
@@ -797,13 +797,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "types of keywords in seo"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 10
-      top_query: "example keyword"          # what the page actually surfaces for
+      top_query: "example keyword"
       top_query_position: 41.7
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-are-keyword-clusters/"
     type: glossary
@@ -814,13 +814,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is keyword clusters"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1819
-      top_query: "keyword grouping"          # what the page actually surfaces for
+      top_query: "keyword grouping"
       top_query_position: 77.9
       top_query_impressions: 662
-      aligned: false              # top query == primary target?
-      primary_position: 55.8        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 55.8
       primary_impressions: 70
 
   - url: "/glossary/what-is-a-301-redirect/"
@@ -832,13 +832,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is 301 Redirect"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 46
-      top_query: "301 redirect"          # what the page actually surfaces for
+      top_query: "301 redirect"
       top_query_position: 79.3
       top_query_impressions: 21
-      aligned: true              # top query == primary target?
-      primary_position: 79.3        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 79.3
       primary_impressions: 21
 
   - url: "/glossary/what-is-a-backlink/"
@@ -850,13 +850,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is a Backlink"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 230
-      top_query: "backlink meaning"          # what the page actually surfaces for
+      top_query: "backlink meaning"
       top_query_position: 54.9
       top_query_impressions: 44
-      aligned: false              # top query == primary target?
-      primary_position: 49.4        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 49.4
       primary_impressions: 36
 
   - url: "/glossary/what-is-a-canonical-tag/"
@@ -898,13 +898,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is a Long Tail Keyword"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2
-      top_query: "long tail keywords definition"          # what the page actually surfaces for
+      top_query: "long tail keywords definition"
       top_query_position: 92
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_position: 99        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 99
       primary_impressions: 1
 
   - url: "/glossary/what-is-a-meta-description/"
@@ -916,13 +916,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is a Meta Description"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 308
-      top_query: "meta description"          # what the page actually surfaces for
+      top_query: "meta description"
       top_query_position: 89.8
       top_query_impressions: 143
-      aligned: true              # top query == primary target?
-      primary_position: 89.8        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 89.8
       primary_impressions: 143
 
   - url: "/glossary/what-is-a-navigational-keyword/"
@@ -1014,13 +1014,13 @@ pages:
     cluster: "AI & Future Search"
     canonical_for: "what is an LLM"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 26
-      top_query: "llm"          # what the page actually surfaces for
+      top_query: "llm"
       top_query_position: 72.3
       top_query_impressions: 15
-      aligned: true              # top query == primary target?
-      primary_position: 72.3        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 72.3
       primary_impressions: 15
 
   - url: "/glossary/what-is-an-seo-audit/"
@@ -1032,13 +1032,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is an SEO Audit"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 829
-      top_query: "seo audits"          # what the page actually surfaces for
+      top_query: "seo audits"
       top_query_position: 69.4
       top_query_impressions: 219
-      aligned: true              # top query == primary target?
-      primary_position: 69.4        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 69.4
       primary_impressions: 219
 
   - url: "/glossary/what-is-anchor-text/"
@@ -1060,13 +1060,13 @@ pages:
     cluster: "SaaS Metrics & Growth"
     canonical_for: "what is ARR"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 10
-      top_query: "what is bad arr"          # what the page actually surfaces for
+      top_query: "what is bad arr"
       top_query_position: 59
       top_query_impressions: 9
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-brand-identity/"
     type: glossary
@@ -1097,13 +1097,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is CLS"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 4
-      top_query: "cls seo"          # what the page actually surfaces for
+      top_query: "cls seo"
       top_query_position: 51
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-clv/"
     type: glossary
@@ -1154,13 +1154,13 @@ pages:
     cluster: "PPC & Paid Advertising"
     canonical_for: "what is CPA"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 9
-      top_query: "cpa saas"          # what the page actually surfaces for
+      top_query: "cpa saas"
       top_query_position: 46
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-cpm/"
     type: glossary
@@ -1171,13 +1171,13 @@ pages:
     cluster: "PPC & Paid Advertising"
     canonical_for: "what is CPM"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 12
-      top_query: "what is cpm in marketing"          # what the page actually surfaces for
+      top_query: "what is cpm in marketing"
       top_query_position: 93.2
       top_query_impressions: 6
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-crawling/"
     type: glossary
@@ -1208,13 +1208,13 @@ pages:
     cluster: "PPC & Paid Advertising"
     canonical_for: "what is CTR"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3
-      top_query: "ctr marketing"          # what the page actually surfaces for
+      top_query: "ctr marketing"
       top_query_position: 78
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-domain-authority/"
     type: glossary
@@ -1225,13 +1225,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Domain Authority"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 33
-      top_query: "how to build domain authority"          # what the page actually surfaces for
+      top_query: "how to build domain authority"
       top_query_position: 78.1
       top_query_impressions: 9
-      aligned: false              # top query == primary target?
-      primary_position: 89.3        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 89.3
       primary_impressions: 3
 
   - url: "/glossary/what-is-employer-branding/"
@@ -1253,13 +1253,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Evergreen Content"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 5
-      top_query: "wat is evergreen content"          # what the page actually surfaces for
+      top_query: "wat is evergreen content"
       top_query_position: 84
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-fid/"
     type: glossary
@@ -1270,13 +1270,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is FID"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 26
-      top_query: "seo fid"          # what the page actually surfaces for
+      top_query: "seo fid"
       top_query_position: 16.2
       top_query_impressions: 20
-      aligned: false              # top query == primary target?
-      primary_position: 44        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 44
       primary_impressions: 1
 
   - url: "/glossary/what-is-ga4/"
@@ -1318,13 +1318,13 @@ pages:
     cluster: "PPC & Paid Advertising"
     canonical_for: "what is Google Ads"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 159
-      top_query: "google ads for saas"          # what the page actually surfaces for
+      top_query: "google ads for saas"
       top_query_position: 33.6
       top_query_impressions: 43
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-google-search-console/"
     type: glossary
@@ -1335,13 +1335,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Google Search Console"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 8
-      top_query: "google search console team"          # what the page actually surfaces for
+      top_query: "google search console team"
       top_query_position: 22
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_position: 73        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 73
       primary_impressions: 1
 
   - url: "/glossary/what-is-google-tag-manager/"
@@ -1363,13 +1363,13 @@ pages:
     cluster: "AI & Future Search"
     canonical_for: "what is GPT"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 4
-      top_query: "gpt"          # what the page actually surfaces for
+      top_query: "gpt"
       top_query_position: 39
       top_query_impressions: 1
-      aligned: true              # top query == primary target?
-      primary_position: 39        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 39
       primary_impressions: 1
 
   - url: "/glossary/what-is-icp/"
@@ -1381,13 +1381,13 @@ pages:
     cluster: "Demand Generation"
     canonical_for: "what is ICP"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 5
-      top_query: "icp examples for saas"          # what the page actually surfaces for
+      top_query: "icp examples for saas"
       top_query_position: 42.2
       top_query_impressions: 5
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-image-alt-text/"
     type: glossary
@@ -1398,13 +1398,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Image Alt Text"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 17
-      top_query: "image alt text"          # what the page actually surfaces for
+      top_query: "image alt text"
       top_query_position: 96.8
       top_query_impressions: 4
-      aligned: true              # top query == primary target?
-      primary_position: 96.8        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 96.8
       primary_impressions: 4
 
   - url: "/glossary/what-is-inbound-marketing/"
@@ -1426,13 +1426,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Indexing"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 84
-      top_query: "seo indexing"          # what the page actually surfaces for
+      top_query: "seo indexing"
       top_query_position: 81.7
       top_query_impressions: 28
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-keyword-difficulty/"
     type: glossary
@@ -1453,13 +1453,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Keyword Ranking"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 89
-      top_query: "keyword rank monitoring"          # what the page actually surfaces for
+      top_query: "keyword rank monitoring"
       top_query_position: 68.4
       top_query_impressions: 15
-      aligned: false              # top query == primary target?
-      primary_position: 42        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 42
       primary_impressions: 2
 
   - url: "/glossary/what-is-keyword-research/"
@@ -1471,13 +1471,13 @@ pages:
     cluster: "Content Marketing"
     canonical_for: "what is Keyword Research"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 143
-      top_query: "saas keyword research"          # what the page actually surfaces for
+      top_query: "saas keyword research"
       top_query_position: 30.6
       top_query_impressions: 41
-      aligned: false              # top query == primary target?
-      primary_position: 81.1        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 81.1
       primary_impressions: 20
 
   - url: "/glossary/what-is-lead-generation/"
@@ -1489,13 +1489,13 @@ pages:
     cluster: "Demand Generation"
     canonical_for: "what is Lead Generation"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3
-      top_query: "lead generation for saas"          # what the page actually surfaces for
+      top_query: "lead generation for saas"
       top_query_position: 51.3
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-meta-ads/"
     type: glossary
@@ -1506,13 +1506,13 @@ pages:
     cluster: "PPC & Paid Advertising"
     canonical_for: "what is Meta Ads"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1
-      top_query: "mtea ads"          # what the page actually surfaces for
+      top_query: "mtea ads"
       top_query_position: 26
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-nrr/"
     type: glossary
@@ -1533,13 +1533,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Off Page SEO"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2
-      top_query: "off-page seo for saas in global"          # what the page actually surfaces for
+      top_query: "off-page seo for saas in global"
       top_query_position: 5
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-on-page-seo/"
     type: glossary
@@ -1550,13 +1550,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is On Page SEO"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 11
-      top_query: "saas on-page seo"          # what the page actually surfaces for
+      top_query: "saas on-page seo"
       top_query_position: 19.6
       top_query_impressions: 11
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-performance-marketing/"
     type: glossary
@@ -1567,13 +1567,13 @@ pages:
     cluster: "Demand Generation"
     canonical_for: "what is Performance Marketing"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 128
-      top_query: "performance marketing"          # what the page actually surfaces for
+      top_query: "performance marketing"
       top_query_position: 84.9
       top_query_impressions: 38
-      aligned: true              # top query == primary target?
-      primary_position: 84.9        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 84.9
       primary_impressions: 38
 
   - url: "/glossary/what-is-ppc/"
@@ -1585,13 +1585,13 @@ pages:
     cluster: "PPC & Paid Advertising"
     canonical_for: "what is PPC"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 8
-      top_query: "saas ppc"          # what the page actually surfaces for
+      top_query: "saas ppc"
       top_query_position: 84.2
       top_query_impressions: 5
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-programmatic-advertising/"
     type: glossary
@@ -1602,13 +1602,13 @@ pages:
     cluster: "PPC & Paid Advertising"
     canonical_for: "what is Programmatic Advertising"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3
-      top_query: "programmatic advertising saas"          # what the page actually surfaces for
+      top_query: "programmatic advertising saas"
       top_query_position: 13
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-prompt-engineering/"
     type: glossary
@@ -1619,13 +1619,13 @@ pages:
     cluster: "AI & Future Search"
     canonical_for: "what is Prompt Engineering"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1
-      top_query: "\"prompt engineering\" definition"          # what the page actually surfaces for
+      top_query: "\"prompt engineering\" definition"
       top_query_position: 81
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-rag/"
     type: glossary
@@ -1656,13 +1656,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Robots.txt"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 8
-      top_query: "seo txt"          # what the page actually surfaces for
+      top_query: "seo txt"
       top_query_position: 69.3
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-runway/"
     type: glossary
@@ -1673,13 +1673,13 @@ pages:
     cluster: "SaaS Metrics & Growth"
     canonical_for: "what is Runway"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2
-      top_query: "site:http://piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:http://piperocket.digital"
       top_query_position: 40
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-sal-in-saas/"
     type: glossary
@@ -1700,13 +1700,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Schema Markup"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 17
-      top_query: "schema markup"          # what the page actually surfaces for
+      top_query: "schema markup"
       top_query_position: 85.7
       top_query_impressions: 14
-      aligned: true              # top query == primary target?
-      primary_position: 85.7        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 85.7
       primary_impressions: 14
 
   - url: "/glossary/what-is-search-intent/"
@@ -1758,13 +1758,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is SERP"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 43
-      top_query: "saas serp monitoring"          # what the page actually surfaces for
+      top_query: "saas serp monitoring"
       top_query_position: 9
       top_query_impressions: 5
-      aligned: false              # top query == primary target?
-      primary_position: 77.5        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 77.5
       primary_impressions: 2
 
   - url: "/glossary/what-is-ssl-certificate/"
@@ -1776,13 +1776,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is an SSL Certificate"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2
-      top_query: "site:http://piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:http://piperocket.digital"
       top_query_position: 55
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-ssp/"
     type: glossary
@@ -1803,13 +1803,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Structured Data"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 191
-      top_query: "structured data"          # what the page actually surfaces for
+      top_query: "structured data"
       top_query_position: 87.8
       top_query_impressions: 161
-      aligned: true              # top query == primary target?
-      primary_position: 87.8        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 87.8
       primary_impressions: 161
 
   - url: "/glossary/what-is-tam-sam-som/"
@@ -1831,13 +1831,13 @@ pages:
     cluster: "SEO"
     canonical_for: "what is Technical SEO"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 11
-      top_query: "\"obstacles to\" crawling or crawl seo term or \"technical seo\""          # what the page actually surfaces for
+      top_query: "\"obstacles to\" crawling or crawl seo term or \"technical seo\""
       top_query_position: 8.3
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-third-party-cookies/"
     type: glossary
@@ -1848,13 +1848,13 @@ pages:
     cluster: "Analytics & Attribution"
     canonical_for: "what is Third-Party Cookies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1
-      top_query: "retargeting third party cookies"          # what the page actually surfaces for
+      top_query: "retargeting third party cookies"
       top_query_position: 10
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/glossary/what-is-thought-leadership/"
     type: glossary
@@ -1905,13 +1905,13 @@ pages:
     cluster: "B2B PPC"
     canonical_for: "b2b ppc experts"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 10
-      top_query: "\"tinuiti\""          # what the page actually surfaces for
+      top_query: "\"tinuiti\""
       top_query_position: 53
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-aeo-agency/"
     type: list
@@ -1922,13 +1922,13 @@ pages:
     cluster: "SEO"
     canonical_for: "best aeo agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1730
-      top_query: "aeo agency"          # what the page actually surfaces for
+      top_query: "aeo agency"
       top_query_position: 71.2
       top_query_impressions: 692
-      aligned: true              # top query == primary target?
-      primary_position: 71.2        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 71.2
       primary_impressions: 692
 
   - url: "/list/best-affordable-b2b-ppc-agencies/"
@@ -1940,13 +1940,13 @@ pages:
     cluster: "B2B PPC"
     canonical_for: "best affordable b2b ppc agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 4467
-      top_query: "b2b ppc agency"          # what the page actually surfaces for
+      top_query: "b2b ppc agency"
       top_query_position: 27.2
       top_query_impressions: 1637
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-ai-seo-agencies/"
     type: list
@@ -1957,13 +1957,13 @@ pages:
     cluster: "SEO"
     canonical_for: "best ai seo agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 243
-      top_query: "best ai seo agency"          # what the page actually surfaces for
+      top_query: "best ai seo agency"
       top_query_position: 66.1
       top_query_impressions: 30
-      aligned: false              # top query == primary target?
-      primary_position: 68        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 68
       primary_impressions: 16
 
   - url: "/list/best-ai-visibility-tools/"
@@ -1985,13 +1985,13 @@ pages:
     cluster: "B2B PPC"
     canonical_for: "best b2b advertising agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 798
-      top_query: "otrenix"          # what the page actually surfaces for
+      top_query: "otrenix"
       top_query_position: 37.8
       top_query_impressions: 153
-      aligned: false              # top query == primary target?
-      primary_position: 60.7        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 60.7
       primary_impressions: 47
 
   - url: "/list/best-b2b-content-marketing-agencies/"
@@ -2003,13 +2003,13 @@ pages:
     cluster: "B2B Content Marketing"
     canonical_for: "best b2b content marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 277
-      top_query: "b2b content marketing agency"          # what the page actually surfaces for
+      top_query: "b2b content marketing agency"
       top_query_position: 86.6
       top_query_impressions: 119
-      aligned: false              # top query == primary target?
-      primary_position: 79.4        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 79.4
       primary_impressions: 17
 
   - url: "/list/best-b2b-demand-generation-agencies/"
@@ -2021,13 +2021,13 @@ pages:
     cluster: "B2B Demand Generation"
     canonical_for: "best b2b demand generation agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2808
-      top_query: "demand generation agency"          # what the page actually surfaces for
+      top_query: "demand generation agency"
       top_query_position: 85.4
       top_query_impressions: 505
-      aligned: false              # top query == primary target?
-      primary_position: 68.0        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 68.0
       primary_impressions: 86
 
   - url: "/list/best-b2b-google-ads-agencies/"
@@ -2039,13 +2039,13 @@ pages:
     cluster: "B2B PPC"
     canonical_for: "best b2b google ads agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 720
-      top_query: "b2b google ads agency"          # what the page actually surfaces for
+      top_query: "b2b google ads agency"
       top_query_position: 44.6
       top_query_impressions: 174
-      aligned: false              # top query == primary target?
-      primary_position: 46.0        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 46.0
       primary_impressions: 90
 
   - url: "/list/best-b2b-lead-generation-companies/"
@@ -2057,13 +2057,13 @@ pages:
     cluster: "B2B Lead Generation"
     canonical_for: "best b2b lead generation agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1578
-      top_query: "b2b lead generation agency"          # what the page actually surfaces for
+      top_query: "b2b lead generation agency"
       top_query_position: 80.5
       top_query_impressions: 225
-      aligned: false              # top query == primary target?
-      primary_position: 80.1        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 80.1
       primary_impressions: 69
 
   - url: "/list/best-b2b-marketing-agencies/"
@@ -2075,13 +2075,13 @@ pages:
     cluster: "B2B Marketing"
     canonical_for: "best b2b marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1509
-      top_query: "b2b marketing agency"          # what the page actually surfaces for
+      top_query: "b2b marketing agency"
       top_query_position: 70.8
       top_query_impressions: 107
-      aligned: false              # top query == primary target?
-      primary_position: 59.1        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 59.1
       primary_impressions: 42
 
   - url: "/list/best-b2b-seo-agencies/"
@@ -2093,13 +2093,13 @@ pages:
     cluster: "B2B SEO"
     canonical_for: "best b2b seo agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 4089
-      top_query: "b2b seo agency"          # what the page actually surfaces for
+      top_query: "b2b seo agency"
       top_query_position: 76.3
       top_query_impressions: 738
-      aligned: false              # top query == primary target?
-      primary_position: 66.4        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 66.4
       primary_impressions: 204
 
   - url: "/list/best-cro-tools-saas/"
@@ -2121,13 +2121,13 @@ pages:
     cluster: "B2B Marketing"
     canonical_for: "best cybersecurity marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2197
-      top_query: "cybersecurity marketing agency"          # what the page actually surfaces for
+      top_query: "cybersecurity marketing agency"
       top_query_position: 67.2
       top_query_impressions: 832
-      aligned: false              # top query == primary target?
-      primary_position: 55.9        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 55.9
       primary_impressions: 61
 
   - url: "/list/best-devtools-marketing-agencies/"
@@ -2139,13 +2139,13 @@ pages:
     cluster: "B2B Marketing"
     canonical_for: "best devtools marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 229
-      top_query: "developer marketing agencies that specialize in open source companies"          # what the page actually surfaces for
+      top_query: "developer marketing agencies that specialize in open source companies"
       top_query_position: 9.5
       top_query_impressions: 21
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-edtech-marketing-agencies/"
     type: list
@@ -2156,13 +2156,13 @@ pages:
     cluster: "Edtech Marketing"
     canonical_for: "best edtech marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 245
-      top_query: "edtech marketing agency"          # what the page actually surfaces for
+      top_query: "edtech marketing agency"
       top_query_position: 25.7
       top_query_impressions: 130
-      aligned: false              # top query == primary target?
-      primary_position: 25.4        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 25.4
       primary_impressions: 14
 
   - url: "/list/best-enterprise-seo-agencies/"
@@ -2174,13 +2174,13 @@ pages:
     cluster: "Enterprise Marketing"
     canonical_for: "best enterprise seo agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2180
-      top_query: "enterprise seo agency"          # what the page actually surfaces for
+      top_query: "enterprise seo agency"
       top_query_position: 15.8
       top_query_impressions: 551
-      aligned: false              # top query == primary target?
-      primary_position: 34.9        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 34.9
       primary_impressions: 81
 
   - url: "/list/best-free-keyword-research-tools/"
@@ -2192,13 +2192,13 @@ pages:
     cluster: "SEO Tools"
     canonical_for: "best free keyword research tools"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 229
-      top_query: "keyword research"          # what the page actually surfaces for
+      top_query: "keyword research"
       top_query_position: 54.2
       top_query_impressions: 22
-      aligned: false              # top query == primary target?
-      primary_position: 37        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 37
       primary_impressions: 7
 
   - url: "/list/best-geo-agencies/"
@@ -2210,13 +2210,13 @@ pages:
     cluster: "SEO"
     canonical_for: "best geo agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1257
-      top_query: "geo agency"          # what the page actually surfaces for
+      top_query: "geo agency"
       top_query_position: 62.2
       top_query_impressions: 267
-      aligned: false              # top query == primary target?
-      primary_position: 57.7        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 57.7
       primary_impressions: 30
 
   - url: "/list/best-healthtech-marketing-agencies/"
@@ -2228,13 +2228,13 @@ pages:
     cluster: "B2B Marketing"
     canonical_for: "best healthtech marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1183
-      top_query: "healthtech marketing agency"          # what the page actually surfaces for
+      top_query: "healthtech marketing agency"
       top_query_position: 44.4
       top_query_impressions: 140
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-heatmap-session-recording-tools-for-saas/"
     type: list
@@ -2255,13 +2255,13 @@ pages:
     cluster: "B2B Marketing"
     canonical_for: "best hr tech marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 592
-      top_query: "hr tech marketing agency"          # what the page actually surfaces for
+      top_query: "hr tech marketing agency"
       top_query_position: 12.9
       top_query_impressions: 112
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-keyword-clustering-tools/"
     type: list
@@ -2272,13 +2272,13 @@ pages:
     cluster: "SEO Tools"
     canonical_for: "best keyword clustering tools"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 115
-      top_query: "keyword clustering tool"          # what the page actually surfaces for
+      top_query: "keyword clustering tool"
       top_query_position: 69.2
       top_query_impressions: 20
-      aligned: true              # top query == primary target?
-      primary_position: 69.2        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 69.2
       primary_impressions: 20
 
   - url: "/list/best-landing-page-builders-for-saas/"
@@ -2300,13 +2300,13 @@ pages:
     cluster: "B2B Marketing"
     canonical_for: "best legaltech marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 63
-      top_query: "legal marketing agency"          # what the page actually surfaces for
+      top_query: "legal marketing agency"
       top_query_position: 86.5
       top_query_impressions: 8
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-linkedin-marketing-agencies/"
     type: list
@@ -2317,13 +2317,13 @@ pages:
     cluster: "B2B LinkedIn Marketing"
     canonical_for: "best linkedin marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1650
-      top_query: "linkedin marketing agency"          # what the page actually surfaces for
+      top_query: "linkedin marketing agency"
       top_query_position: 51.8
       top_query_impressions: 567
-      aligned: false              # top query == primary target?
-      primary_position: 55.7        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 55.7
       primary_impressions: 161
 
   - url: "/list/best-martech-marketing-agencies/"
@@ -2335,13 +2335,13 @@ pages:
     cluster: "B2B Marketing"
     canonical_for: "best martech marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 583
-      top_query: "martech agency"          # what the page actually surfaces for
+      top_query: "martech agency"
       top_query_position: 49.8
       top_query_impressions: 199
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-proptech-marketing-agencies/"
     type: list
@@ -2352,13 +2352,13 @@ pages:
     cluster: "B2B Marketing"
     canonical_for: "best proptech marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 667
-      top_query: "proptech pr agency"          # what the page actually surfaces for
+      top_query: "proptech pr agency"
       top_query_position: 12.9
       top_query_impressions: 215
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-rank-tracking-tools-for-saas/"
     type: list
@@ -2379,13 +2379,13 @@ pages:
     cluster: "SaaS Content Marketing"
     canonical_for: "best saas content marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 506
-      top_query: "saas content marketing agency"          # what the page actually surfaces for
+      top_query: "saas content marketing agency"
       top_query_position: 64.0
       top_query_impressions: 144
-      aligned: false              # top query == primary target?
-      primary_position: 64.0        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 64.0
       primary_impressions: 38
 
   - url: "/list/best-saas-geo-agencies/"
@@ -2397,13 +2397,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "best saas geo agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 40
-      top_query: "saas geo"          # what the page actually surfaces for
+      top_query: "saas geo"
       top_query_position: 54.1
       top_query_impressions: 10
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-saas-growth-marketing-agencies/"
     type: list
@@ -2414,13 +2414,13 @@ pages:
     cluster: "SaaS Marketing"
     canonical_for: "best saas growth marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 6118
-      top_query: "saas marketing agency"          # what the page actually surfaces for
+      top_query: "saas marketing agency"
       top_query_position: 73.0
       top_query_impressions: 1083
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-saas-link-building-agencies/"
     type: list
@@ -2431,13 +2431,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "best saas link building agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1657
-      top_query: "saas link building agency"          # what the page actually surfaces for
+      top_query: "saas link building agency"
       top_query_position: 48.9
       top_query_impressions: 432
-      aligned: false              # top query == primary target?
-      primary_position: 45.2        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 45.2
       primary_impressions: 284
 
   - url: "/list/best-saas-marketing-agencies-2026/"
@@ -2449,13 +2449,13 @@ pages:
     cluster: "SaaS Marketing"
     canonical_for: "best saas marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 158
-      top_query: "evaluate the g2 - aeo insights company g2 on greythr"          # what the page actually surfaces for
+      top_query: "evaluate the g2 - aeo insights company g2 on greythr"
       top_query_position: 9.8
       top_query_impressions: 11
-      aligned: false              # top query == primary target?
-      primary_position: 55.6        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 55.6
       primary_impressions: 5
 
   - url: "/list/best-saas-ppc-agencies/"
@@ -2467,13 +2467,13 @@ pages:
     cluster: "SaaS PPC"
     canonical_for: "best saas ppc agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1077
-      top_query: "saas ppc agency"          # what the page actually surfaces for
+      top_query: "saas ppc agency"
       top_query_position: 29.5
       top_query_impressions: 361
-      aligned: false              # top query == primary target?
-      primary_position: 42.0        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 42.0
       primary_impressions: 20
 
   - url: "/list/best-saas-seo-agencies-for-product-led-growth/"
@@ -2485,13 +2485,13 @@ pages:
     cluster: "SEO"
     canonical_for: "best saas seo agencies for plg"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 16
-      top_query: "seo for plg companies"          # what the page actually surfaces for
+      top_query: "seo for plg companies"
       top_query_position: 39.4
       top_query_impressions: 5
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-saas-seo-agencies-for-sales-led-growth/"
     type: list
@@ -2502,13 +2502,13 @@ pages:
     cluster: "SEO"
     canonical_for: "best saas seo agencies for slg"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 68
-      top_query: "saas seo agencies"          # what the page actually surfaces for
+      top_query: "saas seo agencies"
       top_query_position: 71.4
       top_query_impressions: 15
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-saas-seo-agencies-for-series-a/"
     type: list
@@ -2519,13 +2519,13 @@ pages:
     cluster: "SEO"
     canonical_for: "best saas seo agencies for series a"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 47
-      top_query: "saas seo agencies"          # what the page actually surfaces for
+      top_query: "saas seo agencies"
       top_query_position: 78.1
       top_query_impressions: 8
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-saas-seo-agencies-for-series-b/"
     type: list
@@ -2536,13 +2536,13 @@ pages:
     cluster: "SEO"
     canonical_for: "best saas seo agencies for series b"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 19
-      top_query: "saas seo consulting agencies"          # what the page actually surfaces for
+      top_query: "saas seo consulting agencies"
       top_query_position: 84.2
       top_query_impressions: 4
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-saas-seo-agencies-for-startups/"
     type: list
@@ -2553,13 +2553,13 @@ pages:
     cluster: "SEO"
     canonical_for: "best saas seo agencies for startups"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1490
-      top_query: "seo for saas startups"          # what the page actually surfaces for
+      top_query: "seo for saas startups"
       top_query_position: 37.1
       top_query_impressions: 189
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/list/best-saas-seo-agencies/"
     type: list
@@ -2570,13 +2570,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "best saas seo agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3778
-      top_query: "saas seo agency"          # what the page actually surfaces for
+      top_query: "saas seo agency"
       top_query_position: 71.1
       top_query_impressions: 752
-      aligned: false              # top query == primary target?
-      primary_position: 68.1        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 68.1
       primary_impressions: 250
 
   - url: "/list/best-schema-markup-tools-for-saas/"
@@ -2608,13 +2608,13 @@ pages:
     cluster: "SEO"
     canonical_for: "best technical seo agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3542
-      top_query: "technical seo agency"          # what the page actually surfaces for
+      top_query: "technical seo agency"
       top_query_position: 69.9
       top_query_impressions: 1083
-      aligned: false              # top query == primary target?
-      primary_position: 75.1        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 75.1
       primary_impressions: 339
 
   - url: "/list/saas-seo-experts/"
@@ -2626,13 +2626,13 @@ pages:
     cluster: "SaaS SEO"
     canonical_for: "saas seo experts"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 408
-      top_query: "saas seo consultant"          # what the page actually surfaces for
+      top_query: "saas seo consultant"
       top_query_position: 66.3
       top_query_impressions: 65
-      aligned: false              # top query == primary target?
-      primary_position: 61.3        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 61.3
       primary_impressions: 41
 
   - url: "/list/top-b2b-ppc-agencies/"
@@ -2644,13 +2644,13 @@ pages:
     cluster: "B2B PPC"
     canonical_for: "best b2b ppc agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 380
-      top_query: "b2b ppc agency"          # what the page actually surfaces for
+      top_query: "b2b ppc agency"
       top_query_position: 52.2
       top_query_impressions: 184
-      aligned: false              # top query == primary target?
-      primary_position: 36.7        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 36.7
       primary_impressions: 26
 
   - url: "/list/top-fintech-marketing-agencies/"
@@ -2662,13 +2662,13 @@ pages:
     cluster: "Fintech SEO"
     canonical_for: "best fintech marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 518
-      top_query: "fintech marketing agency"          # what the page actually surfaces for
+      top_query: "fintech marketing agency"
       top_query_position: 69.1
       top_query_impressions: 110
-      aligned: false              # top query == primary target?
-      primary_position: 61.7        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 61.7
       primary_impressions: 17
 
   - url: "/list/top-fintech-seo-agencies/"
@@ -2680,13 +2680,13 @@ pages:
     cluster: "Fintech SEO"
     canonical_for: "best fintech seo agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 128
-      top_query: "fintech seo agency"          # what the page actually surfaces for
+      top_query: "fintech seo agency"
       top_query_position: 62.7
       top_query_impressions: 30
-      aligned: false              # top query == primary target?
-      primary_position: 37.5        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 37.5
       primary_impressions: 13
 
   - url: "/list/top-performance-marketing-agencies/"
@@ -2698,13 +2698,13 @@ pages:
     cluster: "B2B PPC"
     canonical_for: "best performance marketing agencies"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 179
-      top_query: "best performance marketing agencies"          # what the page actually surfaces for
+      top_query: "best performance marketing agencies"
       top_query_position: 51.5
       top_query_impressions: 33
-      aligned: true              # top query == primary target?
-      primary_position: 51.5        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 51.5
       primary_impressions: 33
 
   - url: "/compare/directive-consulting-vs-refine-labs/"
@@ -2736,13 +2736,13 @@ pages:
     cluster: "Agency comparison"
     canonical_for: "piperocket digital vs klientboost"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 71
-      top_query: "klientboost reviews"          # what the page actually surfaces for
+      top_query: "klientboost reviews"
       top_query_position: 33.6
       top_query_impressions: 12
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/compare/piperocket-digital-vs-nogood/"
     type: compare
@@ -2753,13 +2753,13 @@ pages:
     cluster: "Agency comparison"
     canonical_for: "piperocket digital vs nogood"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 24
-      top_query: "nogood agency minimum budget"          # what the page actually surfaces for
+      top_query: "nogood agency minimum budget"
       top_query_position: 5.6
       top_query_impressions: 10
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/compare/piperocket-digital-vs-omniscient-digital/"
     type: compare
@@ -2770,13 +2770,13 @@ pages:
     cluster: "Agency comparison"
     canonical_for: "piperocket digital vs omniscient digital"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 62
-      top_query: "omniscient digital clutch reviews"          # what the page actually surfaces for
+      top_query: "omniscient digital clutch reviews"
       top_query_position: 9.5
       top_query_impressions: 28
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/compare/piperocket-digital-vs-siege-media/"
     type: compare
@@ -2787,13 +2787,13 @@ pages:
     cluster: "Agency comparison"
     canonical_for: "piperocket digital vs siege media"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 465
-      top_query: "siege media clutch rating"          # what the page actually surfaces for
+      top_query: "siege media clutch rating"
       top_query_position: 7.6
       top_query_impressions: 162
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/compare/piperocket-digital-vs-webfx/"
     type: compare
@@ -2804,13 +2804,13 @@ pages:
     cluster: "Agency comparison"
     canonical_for: "piperocket digital vs webfx"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 32
-      top_query: "webfx clutch rating"          # what the page actually surfaces for
+      top_query: "webfx clutch rating"
       top_query_position: 8.6
       top_query_impressions: 14
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/compare/piperocket-vs-directive-consulting/"
     type: compare
@@ -2821,13 +2821,13 @@ pages:
     cluster: "Agency comparison"
     canonical_for: "piperocket vs directive consulting"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 154
-      top_query: "directive consulting clutch rating"          # what the page actually surfaces for
+      top_query: "directive consulting clutch rating"
       top_query_position: 6.3
       top_query_impressions: 36
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/compare/siege-media-vs-animalz/"
     type: compare
@@ -2878,13 +2878,13 @@ pages:
     cluster: "Alternatives"
     canonical_for: "directive consulting alternatives"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 18
-      top_query: "alternatives to directive consulting for saas seo"          # what the page actually surfaces for
+      top_query: "alternatives to directive consulting for saas seo"
       top_query_position: 9
       top_query_impressions: 6
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/alternative/kalungi-alternatives/"
     type: alternative
@@ -2905,13 +2905,13 @@ pages:
     cluster: "Alternatives"
     canonical_for: "klientboost alternatives"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 48
-      top_query: "klientboost"          # what the page actually surfaces for
+      top_query: "klientboost"
       top_query_position: 49.4
       top_query_impressions: 18
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/alternative/nogood-alternatives/"
     type: alternative
@@ -2922,13 +2922,13 @@ pages:
     cluster: "Alternatives"
     canonical_for: "nogood alternatives"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 20
-      top_query: "nogood alternatives"          # what the page actually surfaces for
+      top_query: "nogood alternatives"
       top_query_position: 8.2
       top_query_impressions: 6
-      aligned: true              # top query == primary target?
-      primary_position: 8.2        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 8.2
       primary_impressions: 6
 
   - url: "/alternative/omniscient-digital-alternatives/"
@@ -2940,13 +2940,13 @@ pages:
     cluster: "Alternatives"
     canonical_for: "omniscient digital alternatives"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 20
-      top_query: "omniscient digital"          # what the page actually surfaces for
+      top_query: "omniscient digital"
       top_query_position: 24.8
       top_query_impressions: 8
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/alternative/powered-by-search-alternatives/"
     type: alternative
@@ -2977,13 +2977,13 @@ pages:
     cluster: "Alternatives"
     canonical_for: "siege media alternatives"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 10
-      top_query: "siege media"          # what the page actually surfaces for
+      top_query: "siege media"
       top_query_position: 48.5
       top_query_impressions: 6
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/alternative/single-grain-alternatives/"
     type: alternative
@@ -3004,13 +3004,13 @@ pages:
     cluster: "Alternatives"
     canonical_for: "webfx alternatives"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 11
-      top_query: "webfx vs disruptive advertising vs klientboost pricing reddit"          # what the page actually surfaces for
+      top_query: "webfx vs disruptive advertising vs klientboost pricing reddit"
       top_query_position: 12.5
       top_query_impressions: 6
-      aligned: false              # top query == primary target?
-      primary_position: 1        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 1
       primary_impressions: 1
 
   - url: "/case-study-cybersierra/"
@@ -3022,13 +3022,13 @@ pages:
     cluster: null
     canonical_for: "cybersierra case study"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2
-      top_query: "site:http://piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:http://piperocket.digital"
       top_query_position: 35
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/case-study-devrev/"
     type: case-study
@@ -3039,13 +3039,13 @@ pages:
     cluster: null
     canonical_for: "devrev case study"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 7
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 16.7
       top_query_impressions: 6
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/case-study-hyperstart/"
     type: case-study
@@ -3056,13 +3056,13 @@ pages:
     cluster: null
     canonical_for: "hyperstart case study"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 18
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/case-study-hyperverge/"
     type: case-study
@@ -3073,13 +3073,13 @@ pages:
     cluster: null
     canonical_for: "hyperverge case study"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3
-      top_query: "case study brandverge"          # what the page actually surfaces for
+      top_query: "case study brandverge"
       top_query_position: 48
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/case-study-spendflo/"
     type: case-study
@@ -3090,13 +3090,13 @@ pages:
     cluster: null
     canonical_for: "spendflo case study"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 7
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 18.8
       top_query_impressions: 5
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/case-study-storylane/"
     type: case-study
@@ -3107,13 +3107,13 @@ pages:
     cluster: null
     canonical_for: "storylane case study"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 8
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 19.8
       top_query_impressions: 4
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/tools/free-seo-roi-calculator/"
     type: tool
@@ -3124,13 +3124,13 @@ pages:
     cluster: null
     canonical_for: "free seo roi calculator"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 772
-      top_query: "enterprise seo roi calculator"          # what the page actually surfaces for
+      top_query: "enterprise seo roi calculator"
       top_query_position: 43.0
       top_query_impressions: 222
-      aligned: false              # top query == primary target?
-      primary_position: 11.2        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 11.2
       primary_impressions: 35
 
   - url: "/tools/ppc-roas-calculator/"
@@ -3142,13 +3142,13 @@ pages:
     cluster: null
     canonical_for: "ppc roas calculator"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 36
-      top_query: "ppc roas average"          # what the page actually surfaces for
+      top_query: "ppc roas average"
       top_query_position: 55
       top_query_impressions: 11
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/author/deepan-siddhu/"
     type: author
@@ -3160,9 +3160,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 10
-      top_query: "\"webfx\""          # what the page actually surfaces for
+      top_query: "\"webfx\""
       top_query_position: 53.7
       top_query_impressions: 3
 
@@ -3176,9 +3176,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 5
-      top_query: "\"cybersecurity marketing\""          # what the page actually surfaces for
+      top_query: "\"cybersecurity marketing\""
       top_query_position: 61.7
       top_query_impressions: 3
 
@@ -3203,9 +3203,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 7
-      top_query: "\"cybersecurity marketing\""          # what the page actually surfaces for
+      top_query: "\"cybersecurity marketing\""
       top_query_position: 51.3
       top_query_impressions: 6
 
@@ -3219,9 +3219,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 16
       top_query_impressions: 2
 
@@ -3246,9 +3246,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1
-      top_query: "piperocket digital"          # what the page actually surfaces for
+      top_query: "piperocket digital"
       top_query_position: 69
       top_query_impressions: 1
 
@@ -3262,9 +3262,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 6
-      top_query: "\"cybersecurity marketing\""          # what the page actually surfaces for
+      top_query: "\"cybersecurity marketing\""
       top_query_position: 70
       top_query_impressions: 2
 
@@ -3278,9 +3278,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2
-      top_query: "piperocket"          # what the page actually surfaces for
+      top_query: "piperocket"
       top_query_position: 83
       top_query_impressions: 1
 
@@ -3337,13 +3337,13 @@ pages:
     cluster: null
     canonical_for: "saas marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1366
-      top_query: "piperocket digital company"          # what the page actually surfaces for
+      top_query: "piperocket digital company"
       top_query_position: 1.4
       top_query_impressions: 35
-      aligned: false              # top query == primary target?
-      primary_position: 49        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 49
       primary_impressions: 9
 
   - url: "/alternative/"
@@ -3356,9 +3356,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 36
-      top_query: "hyperverge"          # what the page actually surfaces for
+      top_query: "hyperverge"
       top_query_position: 75
       top_query_impressions: 1
 
@@ -3372,9 +3372,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 8
-      top_query: "vicky piperocket.digital linkedin profile"          # what the page actually surfaces for
+      top_query: "vicky piperocket.digital linkedin profile"
       top_query_position: 10
       top_query_impressions: 1
 
@@ -3388,9 +3388,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 376
-      top_query: "piperocket digital company"          # what the page actually surfaces for
+      top_query: "piperocket digital company"
       top_query_position: 10
       top_query_impressions: 8
 
@@ -3404,9 +3404,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 321
-      top_query: "piperocket digital company"          # what the page actually surfaces for
+      top_query: "piperocket digital company"
       top_query_position: 1.5
       top_query_impressions: 2
 
@@ -3420,9 +3420,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 21
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 6.5
       top_query_impressions: 17
 
@@ -3436,9 +3436,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 15
-      top_query: "saas conversion keywords"          # what the page actually surfaces for
+      top_query: "saas conversion keywords"
       top_query_position: 62
       top_query_impressions: 1
 
@@ -3452,9 +3452,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 21
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 6.2
       top_query_impressions: 15
 
@@ -3468,9 +3468,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 68
-      top_query: "piperocket"          # what the page actually surfaces for
+      top_query: "piperocket"
       top_query_position: 1.1
       top_query_impressions: 45
 
@@ -3484,9 +3484,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 26
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 6.8
       top_query_impressions: 22
 
@@ -3500,9 +3500,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 952
-      top_query: "piperocket digital company"          # what the page actually surfaces for
+      top_query: "piperocket digital company"
       top_query_position: 3.3
       top_query_impressions: 25
 
@@ -3515,13 +3515,13 @@ pages:
     cluster: null
     canonical_for: "account based marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 26
-      top_query: "saas abm agency"          # what the page actually surfaces for
+      top_query: "saas abm agency"
       top_query_position: 42.3
       top_query_impressions: 10
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/ai-seo-services/"
     type: landing
@@ -3532,13 +3532,13 @@ pages:
     cluster: null
     canonical_for: "ai seo services"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 5
-      top_query: "perplexity aeo service"          # what the page actually surfaces for
+      top_query: "perplexity aeo service"
       top_query_position: 27.8
       top_query_impressions: 5
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/bing-ads-agency/"
     type: landing
@@ -3549,13 +3549,13 @@ pages:
     cluster: null
     canonical_for: "bing ads agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 24
-      top_query: "bing ads pipedrive"          # what the page actually surfaces for
+      top_query: "bing ads pipedrive"
       top_query_position: 65.5
       top_query_impressions: 4
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/careers/"
     type: utility
@@ -3567,9 +3567,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 94
-      top_query: "piperockele"          # what the page actually surfaces for
+      top_query: "piperockele"
       top_query_position: 1
       top_query_impressions: 1
 
@@ -3583,9 +3583,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 874
-      top_query: "piperocket digital official website"          # what the page actually surfaces for
+      top_query: "piperocket digital official website"
       top_query_position: 4
       top_query_impressions: 21
 
@@ -3598,13 +3598,13 @@ pages:
     cluster: null
     canonical_for: "content marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 19
-      top_query: "piperocket digital company"          # what the page actually surfaces for
+      top_query: "piperocket digital company"
       top_query_position: 2.2
       top_query_impressions: 11
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/cookies-policy/"
     type: utility
@@ -3616,9 +3616,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 16
       top_query_impressions: 1
 
@@ -3631,13 +3631,13 @@ pages:
     cluster: null
     canonical_for: "cybersecurity marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 244
-      top_query: "cybersecurity marketing agency"          # what the page actually surfaces for
+      top_query: "cybersecurity marketing agency"
       top_query_position: 59.1
       top_query_impressions: 110
-      aligned: true              # top query == primary target?
-      primary_position: 59.1        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 59.1
       primary_impressions: 110
 
   - url: "/devtools-marketing-agency/"
@@ -3649,13 +3649,13 @@ pages:
     cluster: null
     canonical_for: "devtools marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 12
-      top_query: "devtools marketing"          # what the page actually surfaces for
+      top_query: "devtools marketing"
       top_query_position: 53.6
       top_query_impressions: 5
-      aligned: false              # top query == primary target?
-      primary_position: 32        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 32
       primary_impressions: 1
 
   - url: "/edtech-marketing-agency/"
@@ -3667,13 +3667,13 @@ pages:
     cluster: null
     canonical_for: "edtech marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 36
-      top_query: "edtech marketing agency"          # what the page actually surfaces for
+      top_query: "edtech marketing agency"
       top_query_position: 61.1
       top_query_impressions: 23
-      aligned: true              # top query == primary target?
-      primary_position: 61.1        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 61.1
       primary_impressions: 23
 
   - url: "/enterprise-ai-seo-services/"
@@ -3685,13 +3685,13 @@ pages:
     cluster: null
     canonical_for: "enterprise ai seo services"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 38
-      top_query: "aeo agency"          # what the page actually surfaces for
+      top_query: "aeo agency"
       top_query_position: 67.2
       top_query_impressions: 4
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/enterprise-ppc-agency/"
     type: landing
@@ -3702,13 +3702,13 @@ pages:
     cluster: null
     canonical_for: "enterprise ppc agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 131
-      top_query: "enterprise ppc agency"          # what the page actually surfaces for
+      top_query: "enterprise ppc agency"
       top_query_position: 27.4
       top_query_impressions: 37
-      aligned: true              # top query == primary target?
-      primary_position: 27.4        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 27.4
       primary_impressions: 37
 
   - url: "/enterprise-seo-agency/"
@@ -3720,13 +3720,13 @@ pages:
     cluster: null
     canonical_for: "enterprise seo agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 29
-      top_query: "\"cybersecurity marketing\""          # what the page actually surfaces for
+      top_query: "\"cybersecurity marketing\""
       top_query_position: 91
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/faqs/"
     type: utility
@@ -3738,9 +3738,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 30
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 8.8
       top_query_impressions: 26
 
@@ -3753,13 +3753,13 @@ pages:
     cluster: null
     canonical_for: "fintech marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 119
-      top_query: "fintech marketing firm"          # what the page actually surfaces for
+      top_query: "fintech marketing firm"
       top_query_position: 67.2
       top_query_impressions: 33
-      aligned: false              # top query == primary target?
-      primary_position: 80        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 80
       primary_impressions: 1
 
   - url: "/fintech-ppc-agency/"
@@ -3771,13 +3771,13 @@ pages:
     cluster: null
     canonical_for: "fintech ppc agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 4
-      top_query: "fintech ppc"          # what the page actually surfaces for
+      top_query: "fintech ppc"
       top_query_position: 48
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/fintech-seo-agency/"
     type: landing
@@ -3788,13 +3788,13 @@ pages:
     cluster: null
     canonical_for: "fintech seo agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3
-      top_query: "fintech ai seo services"          # what the page actually surfaces for
+      top_query: "fintech ai seo services"
       top_query_position: 59.5
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/google-ads-agency/"
     type: landing
@@ -3805,13 +3805,13 @@ pages:
     cluster: null
     canonical_for: "google ads agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 13
-      top_query: "\"webfx\""          # what the page actually surfaces for
+      top_query: "\"webfx\""
       top_query_position: 82
       top_query_impressions: 4
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/healthtech-marketing-agency/"
     type: landing
@@ -3822,13 +3822,13 @@ pages:
     cluster: null
     canonical_for: "healthtech marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 120
-      top_query: "healthtech marketing agency"          # what the page actually surfaces for
+      top_query: "healthtech marketing agency"
       top_query_position: 56.3
       top_query_impressions: 29
-      aligned: true              # top query == primary target?
-      primary_position: 56.3        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 56.3
       primary_impressions: 29
 
   - url: "/hrtech-marketing-agency/"
@@ -3840,13 +3840,13 @@ pages:
     cluster: null
     canonical_for: "hrtech marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 7
-      top_query: "hr tech marketing agency"          # what the page actually surfaces for
+      top_query: "hr tech marketing agency"
       top_query_position: 56.6
       top_query_impressions: 7
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/hrtech-ppc-agency/"
     type: landing
@@ -3867,13 +3867,13 @@ pages:
     cluster: null
     canonical_for: "hrtech seo agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 5
-      top_query: "best seo agency for hr tech saas"          # what the page actually surfaces for
+      top_query: "best seo agency for hr tech saas"
       top_query_position: 5
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/insurancetech-marketing-agency/"
     type: landing
@@ -3884,13 +3884,13 @@ pages:
     cluster: null
     canonical_for: "insurancetech marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 253
-      top_query: "b2b insurtech marketing"          # what the page actually surfaces for
+      top_query: "b2b insurtech marketing"
       top_query_position: 40.5
       top_query_impressions: 62
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/legaltech-marketing-agency/"
     type: landing
@@ -3901,13 +3901,13 @@ pages:
     cluster: null
     canonical_for: "legaltech marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 34
-      top_query: "austin ai legal marketing agency"          # what the page actually surfaces for
+      top_query: "austin ai legal marketing agency"
       top_query_position: 90
       top_query_impressions: 14
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/link-building-agency/"
     type: landing
@@ -3918,13 +3918,13 @@ pages:
     cluster: null
     canonical_for: "link building agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 4
-      top_query: "hyperverge"          # what the page actually surfaces for
+      top_query: "hyperverge"
       top_query_position: 84
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/linkedin-marketing-agency/"
     type: landing
@@ -3935,13 +3935,13 @@ pages:
     cluster: null
     canonical_for: "linkedin marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 9
-      top_query: "\"cybersecurity marketing\""          # what the page actually surfaces for
+      top_query: "\"cybersecurity marketing\""
       top_query_position: 56
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/marketing-ops/"
     type: landing
@@ -3952,13 +3952,13 @@ pages:
     cluster: null
     canonical_for: "marketing ops agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 132
-      top_query: "marketing operations agency for saas"          # what the page actually surfaces for
+      top_query: "marketing operations agency for saas"
       top_query_position: 46
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/martech-marketing-agency/"
     type: landing
@@ -3969,13 +3969,13 @@ pages:
     cluster: null
     canonical_for: "martech marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 59
-      top_query: "martech pr agency"          # what the page actually surfaces for
+      top_query: "martech pr agency"
       top_query_position: 55.7
       top_query_impressions: 13
-      aligned: false              # top query == primary target?
-      primary_position: 46.7        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 46.7
       primary_impressions: 3
 
   - url: "/paid-social-agency/"
@@ -3987,13 +3987,13 @@ pages:
     cluster: null
     canonical_for: "paid social agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1
-      top_query: "piperocket"          # what the page actually surfaces for
+      top_query: "piperocket"
       top_query_position: 89
       top_query_impressions: 1
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/partnership/"
     type: utility
@@ -4005,9 +4005,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 61
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 3.8
       top_query_impressions: 26
 
@@ -4020,9 +4020,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 35
-      top_query: "\"webfx\""          # what the page actually surfaces for
+      top_query: "\"webfx\""
       top_query_position: 53.8
       top_query_impressions: 4
 
@@ -4036,9 +4036,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 109
-      top_query: "piperrockella"          # what the page actually surfaces for
+      top_query: "piperrockella"
       top_query_position: 1
       top_query_impressions: 1
 
@@ -4051,13 +4051,13 @@ pages:
     cluster: null
     canonical_for: "programmatic seo agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 16
-      top_query: "programmatic seo agency"          # what the page actually surfaces for
+      top_query: "programmatic seo agency"
       top_query_position: 69.5
       top_query_impressions: 10
-      aligned: true              # top query == primary target?
-      primary_position: 69.5        # rank for the TARGET keyword
+      aligned: true
+      primary_position: 69.5
       primary_impressions: 10
 
   - url: "/proptech-marketing-agency/"
@@ -4069,13 +4069,13 @@ pages:
     cluster: null
     canonical_for: "proptech marketing agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 18
-      top_query: "proptech marketing"          # what the page actually surfaces for
+      top_query: "proptech marketing"
       top_query_position: 68.7
       top_query_impressions: 12
-      aligned: false              # top query == primary target?
-      primary_position: 26        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 26
       primary_impressions: 2
 
   - url: "/research-methodology/"
@@ -4088,9 +4088,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 9
       top_query_impressions: 1
 
@@ -4114,9 +4114,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 105
-      top_query: "ppc for saas"          # what the page actually surfaces for
+      top_query: "ppc for saas"
       top_query_position: 64.7
       top_query_impressions: 32
 
@@ -4129,13 +4129,13 @@ pages:
     cluster: null
     canonical_for: "saas ppc"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 2083
-      top_query: "saas ppc agency"          # what the page actually surfaces for
+      top_query: "saas ppc agency"
       top_query_position: 53.3
       top_query_impressions: 514
-      aligned: false              # top query == primary target?
-      primary_position: 60.7        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 60.7
       primary_impressions: 130
 
   - url: "/saas-seo-agency/faqs/"
@@ -4148,9 +4148,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 1
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 68
       top_query_impressions: 1
 
@@ -4163,13 +4163,13 @@ pages:
     cluster: null
     canonical_for: "saas seo agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 558
-      top_query: "saas seo services"          # what the page actually surfaces for
+      top_query: "saas seo services"
       top_query_position: 72.0
       top_query_impressions: 106
-      aligned: false              # top query == primary target?
-      primary_position: 55.5        # rank for the TARGET keyword
+      aligned: false
+      primary_position: 55.5
       primary_impressions: 6
 
   - url: "/schedule-a-demo/"
@@ -4182,9 +4182,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 5
-      top_query: "pipe rocket"          # what the page actually surfaces for
+      top_query: "pipe rocket"
       top_query_position: 1
       top_query_impressions: 3
 
@@ -4197,13 +4197,13 @@ pages:
     cluster: null
     canonical_for: "technical seo agency"
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 31
-      top_query: "b2b seo"          # what the page actually surfaces for
+      top_query: "b2b seo"
       top_query_position: 75.5
       top_query_impressions: 2
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: false
+      primary_ranking: false
 
   - url: "/terms-and-conditions/"
     type: utility
@@ -4215,9 +4215,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 18.3
       top_query_impressions: 3
 
@@ -4231,9 +4231,9 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 30
-      top_query: "site:piperocket.digital"          # what the page actually surfaces for
+      top_query: "site:piperocket.digital"
       top_query_position: 10.1
       top_query_impressions: 28
 
@@ -4247,8 +4247,8 @@ pages:
     cluster: null
     canonical_for: ""
     status: active
-    gsc:                          # MEASUREMENT only — not the target
+    gsc:
       total_impressions: 3
-      top_query: "marketing \"write for us\""          # what the page actually surfaces for
+      top_query: "marketing \"write for us\""
       top_query_position: 262
       top_query_impressions: 1
