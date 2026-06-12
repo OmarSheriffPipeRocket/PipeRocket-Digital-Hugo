@@ -239,11 +239,13 @@ def match_cluster(primary, clusters):
 
 # ---------- intent / funnel heuristics ----------
 
-# Title cues that mark a blog as TOFU (plain definition / starter level).
-# Everything else — in-depth strategy, tactics, measurement, playbooks — is MOFU.
-TOFU_BLOG_CUES = ("what is", "what are", "starter guide", "beginner",
-                  "for beginners", "basics", "101", "getting started",
-                  "introduction to", "intro to", "a primer")
+# Title cues that mark a blog as TOFU (reference / starter level).
+# NB: a bare "what is X" is deliberately NOT here — our blog guides go deep
+# (strategy + tactics + measurement = MOFU); the glossary holds plain
+# definitions. Only explicit starter/reference signals qualify a blog as TOFU.
+TOFU_BLOG_CUES = ("starter guide", "beginner", "for beginners", "basics",
+                  "101", "getting started", "introduction to", "intro to",
+                  "a primer", "statistic", "stats")
 
 
 def guess_intent_funnel(ctype, title, slug):
@@ -273,13 +275,16 @@ def guess_intent_funnel(ctype, title, slug):
     if ctype == "home":
         return "commercial", "bofu", False    # head term: saas marketing agency
     # ---- blogs ----
-    if " vs " in t or "-vs-" in s:
-        return "commercial", "bofu", True
+    # NB: blog "X vs Y" titles are CONCEPT comparisons (e.g. "search volume vs
+    # search intent"), not product comparisons — those live in /compare/ and
+    # /alternative/. So a blog "vs" is informational, not commercial/BOFU.
     if re.search(r"\bbest\b.*\b(agenc|tool|software|platform)", t):
-        return "commercial", "mofu", True
-    # Plain definition / starter content = TOFU; anything deeper = MOFU.
-    is_tofu = any(c in t for c in TOFU_BLOG_CUES)
-    return "informational", ("tofu" if is_tofu else "mofu"), True
+        return "commercial", "mofu", False
+    # Reference/awareness (stats roundups, explicit starter guides) = TOFU;
+    # every other blog is an in-depth strategy/tactics/measurement piece = MOFU.
+    if any(c in t for c in TOFU_BLOG_CUES):
+        return "informational", "tofu", False
+    return "informational", "mofu", False
 
 
 # ---------- primary derivation ----------
@@ -435,8 +440,8 @@ def write_yaml(entries, gsc_src):
         "# `primary` is the keyword we CHOSE to target (slug/title-derived, editorial),",
         "# never seeded from GSC. The `gsc:` block is a MEASUREMENT add-on: it reports",
         "# whether the page actually ranks for that target (primary_position) and whether",
-        "# the query it surfaces best for matches the target (aligned). `# REVIEW` marks",
-        "# blog intent/funnel calls (TOFU vs MOFU depends on depth, inferred from title).",
+        "# the query it surfaces best for matches the target (aligned).",
+        "# intent/funnel are rule-derived per type (blogs: stats/starter = TOFU, else MOFU).",
         f"# GSC source: {gsc_src or 'none (slug/title-only build)'}",
         "",
         "meta:",

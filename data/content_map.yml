@@ -3,8 +3,8 @@
 # `primary` is the keyword we CHOSE to target (slug/title-derived, editorial),
 # never seeded from GSC. The `gsc:` block is a MEASUREMENT add-on: it reports
 # whether the page actually ranks for that target (primary_position) and whether
-# the query it surfaces best for matches the target (aligned). `# REVIEW` marks
-# blog intent/funnel calls (TOFU vs MOFU depends on depth, inferred from title).
+# the query it surfaces best for matches the target (aligned).
+# intent/funnel are rule-derived per type (blogs: stats/starter = TOFU, else MOFU).
 # GSC source: qp_rollup_2026-06-08.json
 
 meta:
@@ -17,7 +17,7 @@ pages:
     type: blog
     primary: "b2b content marketing"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Content Marketing"
@@ -36,7 +36,7 @@ pages:
     type: blog
     primary: "b2b demand generation"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Demand generation"
@@ -47,7 +47,7 @@ pages:
     type: blog
     primary: "b2b inbound marketing"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "B2B SaaS Marketing"
@@ -66,7 +66,7 @@ pages:
     type: blog
     primary: "b2b lead generation"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Lead generation"
@@ -84,7 +84,7 @@ pages:
     type: blog
     primary: "b2b linkedin marketing"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "B2B SaaS Marketing"
@@ -95,7 +95,7 @@ pages:
     type: blog
     primary: "b2b marketing operations"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Marketing operations"
@@ -114,7 +114,7 @@ pages:
     type: blog
     primary: "b2b marketing"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "B2B SaaS Marketing"
@@ -132,7 +132,7 @@ pages:
     type: blog
     primary: "b2b ppc"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-paid-marketing
     cluster_entity: "B2B SaaS PPC"
@@ -150,7 +150,7 @@ pages:
     type: blog
     primary: "b2b ppc"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-paid-marketing
     cluster_entity: "B2B SaaS PPC"
@@ -169,7 +169,7 @@ pages:
     type: blog
     primary: "b2b saas seo"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "B2B SaaS SEO"
@@ -187,8 +187,8 @@ pages:
     type: blog
     primary: "enterprise saas seo"
     secondary: []
-    intent: informational        # REVIEW
-    funnel: tofu
+    intent: informational
+    funnel: mofu
     cluster: saas-seo
     cluster_entity: "Enterprise SaaS SEO"
     canonical_for: "enterprise saas seo"
@@ -206,7 +206,7 @@ pages:
     type: blog
     primary: "enterprise seo challenges and fixes"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Enterprise SaaS SEO"
@@ -224,7 +224,7 @@ pages:
     type: blog
     primary: "enterprise seo"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Enterprise SaaS SEO"
@@ -243,7 +243,7 @@ pages:
     type: blog
     primary: "enterprise seo strategy and framework"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Enterprise SaaS SEO"
@@ -261,7 +261,7 @@ pages:
     type: blog
     primary: "fintech seo"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "SEO"
@@ -272,7 +272,7 @@ pages:
     type: blog
     primary: "run linkedin ads for saas"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-paid-marketing
     cluster_entity: "LinkedIn Ads"
@@ -290,7 +290,7 @@ pages:
     type: blog
     primary: "build topic clusters"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Topic clusters"
@@ -308,8 +308,8 @@ pages:
     type: blog
     primary: "choose search volume vs search intent"
     secondary: []
-    intent: commercial        # REVIEW
-    funnel: bofu
+    intent: informational
+    funnel: mofu
     cluster: saas-seo
     cluster_entity: "Search intent"
     canonical_for: "choose search volume vs search intent"
@@ -326,8 +326,8 @@ pages:
     type: blog
     primary: "keyword gap analysis"
     secondary: []
-    intent: commercial        # REVIEW
-    funnel: bofu
+    intent: informational
+    funnel: mofu
     cluster: saas-seo
     cluster_entity: "Keyword gap analysis"
     canonical_for: "keyword gap analysis"
@@ -345,7 +345,7 @@ pages:
     type: blog
     primary: "saas content audit"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Content audit"
@@ -364,7 +364,7 @@ pages:
     type: blog
     primary: "saas seo competitor analysis"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Competitor analysis"
@@ -383,7 +383,7 @@ pages:
     type: blog
     primary: "saas seo keyword research"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Keyword research"
@@ -402,7 +402,7 @@ pages:
     type: blog
     primary: "fix keyword cannibalization"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: null
     canonical_for: "fix keyword cannibalization"
@@ -420,7 +420,7 @@ pages:
     type: blog
     primary: "map keywords to saas buyer journey"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Buyer journey"
@@ -438,7 +438,7 @@ pages:
     type: blog
     primary: "prioritize saas keywords by funnel stage"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: null
     canonical_for: "prioritize saas keywords by funnel stage"
@@ -455,7 +455,7 @@ pages:
     type: blog
     primary: "rank bofu keywords saas"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: null
     canonical_for: "rank bofu keywords saas"
@@ -472,7 +472,7 @@ pages:
     type: blog
     primary: "rank mofu keywords saas"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: null
     canonical_for: "rank mofu keywords saas"
@@ -489,7 +489,7 @@ pages:
     type: blog
     primary: "rank on chatgpt in 2026 strategies and tips"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: null
     canonical_for: "rank on chatgpt in 2026 strategies and tips"
@@ -506,7 +506,7 @@ pages:
     type: blog
     primary: "run google ads for saas"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-paid-marketing
     cluster_entity: "Google Ads"
@@ -525,7 +525,7 @@ pages:
     type: blog
     primary: "run linkedin retargeting ads"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-paid-marketing
     cluster_entity: "LinkedIn Ads"
@@ -543,7 +543,7 @@ pages:
     type: blog
     primary: "score saas keywords by icp intent"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: null
     canonical_for: "score saas keywords by icp intent"
@@ -560,7 +560,7 @@ pages:
     type: blog
     primary: "write google ads copy for saas"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-paid-marketing
     cluster_entity: "Google Ads"
@@ -571,7 +571,7 @@ pages:
     type: blog
     primary: "write saas comparison pages for seo"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "On-page SEO"
@@ -582,7 +582,7 @@ pages:
     type: blog
     primary: "write saas seo content with ai that actually ranks"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: null
     canonical_for: "write saas seo content with ai that actually ranks"
@@ -599,7 +599,7 @@ pages:
     type: blog
     primary: "linkedin account based marketing"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "Account-based marketing"
@@ -618,7 +618,7 @@ pages:
     type: blog
     primary: "optimize saas landing pages for seo"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "On-page SEO"
@@ -636,8 +636,8 @@ pages:
     type: blog
     primary: "ai seo statistics"
     secondary: []
-    intent: informational        # REVIEW
-    funnel: mofu
+    intent: informational
+    funnel: tofu
     cluster: saas-seo
     cluster_entity: "AI SEO"
     canonical_for: "ai seo statistics"
@@ -655,7 +655,7 @@ pages:
     type: blog
     primary: "saas content marketing"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "SaaS Content Marketing"
@@ -666,7 +666,7 @@ pages:
     type: blog
     primary: "saas link building"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "SaaS Link Building"
@@ -685,7 +685,7 @@ pages:
     type: blog
     primary: "saas linkedin ads mistakes to avoid"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-paid-marketing
     cluster_entity: "LinkedIn Ads"
@@ -696,7 +696,7 @@ pages:
     type: blog
     primary: "saas marketing challenges and fixes"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "B2B SaaS Marketing"
@@ -714,7 +714,7 @@ pages:
     type: blog
     primary: "saas ppc checklist"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "SaaS PPC"
@@ -732,7 +732,7 @@ pages:
     type: blog
     primary: "saas ppc"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "SaaS PPC"
@@ -743,7 +743,7 @@ pages:
     type: blog
     primary: "saas seo checklist"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-paid-marketing
     cluster_entity: "SaaS SEO"
@@ -762,7 +762,7 @@ pages:
     type: blog
     primary: "saas seo strategies and framework"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-seo
     cluster_entity: "8-Step SaaS SEO Framework (PipeRocket)"
@@ -780,7 +780,7 @@ pages:
     type: blog
     primary: "saas seo"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-paid-marketing
     cluster_entity: "SaaS SEO"
@@ -799,7 +799,7 @@ pages:
     type: blog
     primary: "8 common saas google ads mistakes to avoid"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: null
     canonical_for: "8 common saas google ads mistakes to avoid"
@@ -809,7 +809,7 @@ pages:
     type: blog
     primary: "no nonsense guide to auditing your saas ppc account"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: null
     canonical_for: "no nonsense guide to auditing your saas ppc account"
@@ -826,7 +826,7 @@ pages:
     type: blog
     primary: "types of keywords in seo"
     secondary: []
-    intent: informational        # REVIEW
+    intent: informational
     funnel: mofu
     cluster: saas-paid-marketing
     cluster_entity: "Keyword match types"
