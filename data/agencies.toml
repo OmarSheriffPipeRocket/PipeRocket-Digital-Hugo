@@ -57,6 +57,11 @@ contact = "https://www.obilityb2b.com/contact/"
 name = "Hey Digital"
 homepage = "https://www.heydigital.co/"
 
+[saas-hero]
+name = "SaaS Hero"
+homepage = "https://www.saashero.net/"
+pricing = "https://www.saashero.net/pricing/"
+
 [omniscient-digital]
 name = "Omniscient Digital"
 homepage = "https://beomniscient.com/"
