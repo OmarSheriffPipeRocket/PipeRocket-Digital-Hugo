@@ -4,7 +4,7 @@ description: "Many B2B SaaS firms are heavy on SEO, chasing the wrong metric: th
 metaTitle: "B2B SaaS SEO: The Ultimate Guide for 2025"
 metaDescription: "Looking for the definitive guide on B2B SaaS SEO? This guide will walk you through what it means, how you should implement it, metrics to track, and more."
 date: 2025-11-24
-lastmod: 2026-06-11
+lastmod: 2026-06-12
 slug: "b2b-saas-seo"
 writtenBy: "kim"
 category: "B2B SEO"
@@ -172,7 +172,7 @@ Early-stage teams should check our [best SaaS SEO agencies for startups](/list/b
 
 ![Future of B2B SaaS SEO timeline: 2024 baseline with traditional SERPs, 2025 AI Overviews mainstream with zero-click hitting 57%, 2026 multi-engine search era across ChatGPT, Perplexity, Gemini, Copilot, Claude, and 2027+ entity-first SEO where brand resolves above URL. What to build now: direct-answer formatting, first-party data, entity consistency, and BOFU pages.](/images/blog-infographics/future-b2b-saas-seo-timeline.svg)
 
-With generative AI and SGE changes presented by Google remaking search results, B2B SaaS brands should evolve. In the meantime, zero-clicks are on the rise – [Semrush](https://www.semrush.com/blog/future-of-seo/?) claims that 57% of all Google searches do not involve a click, so featured snippets, [structured data](/glossary/what-is-structured-data/), and interactive results are more than ever.
+With generative AI and SGE changes presented by Google remaking search results, B2B SaaS brands should evolve. In the meantime, zero-clicks are on the rise – [SparkToro and Similarweb](https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/) found that roughly 68% of US Google searches ended without a click in early 2026, so featured snippets, [structured data](/glossary/what-is-structured-data/), and interactive results matter more than ever.
 
 There will still be such content with high authority, but it will be deeper, expert-led, and really worthy. Brands that combine the basics of solid SEO with expert opinions will be brilliant in the AI-enhanced search space.
 

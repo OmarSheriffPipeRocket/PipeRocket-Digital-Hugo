@@ -4,7 +4,7 @@ description: "Ever feel like SaaS marketing moves faster than you can keep up? Y
 metaTitle: "SaaS Content Marketing: The Definitive Guide to Grow Faster"
 metaDescription: "Learn how SaaS Content Marketing works in 2026 with simple strategies, examples, and templates to help you get more leads, demos, and customer growth."
 date: 2025-12-11
-lastmod: 2026-05-12
+lastmod: 2026-06-12
 slug: "saas-content-marketing-guide"
 writtenBy: "kim"
 category: "SaaS Content Marketing"
@@ -171,7 +171,7 @@ Search is where most SaaS research begins, so [SEO](/blogs/saas-seo/) should anc
 - Fix on-page basics: titles, H1s, [meta descriptions](/glossary/what-is-a-meta-description/), [alt text](/glossary/what-is-image-alt-text/), internal links.
 - Build topic clusters and pillar pages around core problems and use cases.
 
-According to Gartner’s 2025 B2B Sales Survey, [61% of B2B buyers](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-sales-survey-finds-61-percent-of-b2b-buyers-prefer-a-rep-free-buying-experience) now prefer a rep-free buying experience, meaning they rely heavily on search, online content, and AI-driven results, making organic visibility essential.
+According to Gartner’s 2026 B2B Sales Survey, [67% of B2B buyers](https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience) now prefer a rep-free buying experience, meaning they rely heavily on search, online content, and AI-driven results, making organic visibility essential.
 
 ### **2. Email & Drip Campaigns for Nurture**
 

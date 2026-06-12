@@ -4,7 +4,7 @@ description: "One month you have leads flowing in… the next month everything s
 metaTitle: "B2B Lead Generation: Everything You Need to Know"
 metaDescription: "A comprehensive guide to b2b lead generation in 2025. Learn how to attract, qualify, and nurture high-intent leads using various marketing strategies."
 date: 2025-11-28
-lastmod: 2026-05-13
+lastmod: 2026-06-12
 slug: "b2b-lead-generation"
 writtenBy: "praveen"
 category: "B2B Lead Generation"
@@ -312,7 +312,7 @@ Tools like [Google Ads](/glossary/what-is-google-ads/) and LinkedIn Ads help you
 
 ## Conclusion
 
-Today’s buyers want more than information; they want to feel understood. That’s why 96% of marketers say personalized experiences increase sales in the [Hubspot 2025 State of Marketing Report](https://www.hubspot.com/state-of-marketing?hubs_content=www.hubspot.com/marketing-statistics&hubs_content-cta=hubspot-marketing-strategy-report&_gl=1*aqmyw9*_gcl_au*MTMxOTE2MTAyOC4xNzY0MjYyODQ0*FPAU*MTMxOTE2MTAyOC4xNzY0MjYyODQ0*_ga*NTAzNDQ3NTg1LjE3NjQyNjI4NDQ.*_ga_LXTM6CQ0XK*czE3NjQyOTk4NTckbzEkZzAkdDE3NjQyOTk4NTckajYwJGwwJGgw*_fplc*RnV1MHU4bll4RGlkN3BnN3J4SGF1SDBJVTJYaHd5S1pkMUZaWUprQndzUmphVm5xWFZQQ3RSRzFhbEx0JTJGc2c4Q25BZzBwQmtuQ2J5cDJLeGlvRSUyQnBjaktsa0RKcERYbFlCbVFUVEhHZTQ2WUdiSVQ2VzRySEV4VUY4SmFwUSUzRCUzRA..&hubs_post=blog.hubspot.com/marketing/hubspot-blog-marketing-industry-trends-report&hubs_post-cta=pillar). 
+Today’s buyers want more than information; they want to feel understood. That’s why 96% of marketers say personalized experiences increase sales in the [Hubspot 2025 State of Marketing Report](https://www.hubspot.com/state-of-marketing). 
 
 When your lead generation strategy is built around real buyer intent, thoughtful content, and multi-touch nurturing, everything becomes easier: better leads, faster sales cycles, and a predictable pipeline.
 

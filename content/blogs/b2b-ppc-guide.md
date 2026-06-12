@@ -5,7 +5,7 @@ metaTitle: "What is B2B PPC and How to Run Campaigns That Convert"
 metaDescription: "A practical b2b ppc guide covering campaign structure, ad copy, landing pages, and how to track what your spend is actually doing for pipeline."
 date: 2026-04-08
 featuredImage: "/images/blog-covers/b2b-ppc-guide.webp"
-lastmod: 2026-06-11
+lastmod: 2026-06-12
 slug: "b2b-ppc-guide"
 writtenBy: "praveen"
 category: "B2B PPC"
@@ -194,7 +194,7 @@ A useful starting point is to work backwards from your pipeline targets. If you 
 
 ### 3. Why are my B2B PPC leads not turning into pipeline?
 
-From what we have observed, this is almost always a targeting or handoff problem rather than a channel problem. On the targeting side, check whether leads match your ICP in terms of company size, industry, and job title. If they do not, your keywords or audience settings are pulling in the wrong buyers. On the handoff side, check your speed-to-contact rate. Research published in Harvard Business Review shows that contacting a lead within five minutes increases qualification rates by 21x compared to waiting 30 minutes ([HBR](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)). Slow follow-up makes even good leads look like bad ones.
+From what we have observed, this is almost always a targeting or handoff problem rather than a channel problem. On the targeting side, check whether leads match your ICP in terms of company size, industry, and job title. If they do not, your keywords or audience settings are pulling in the wrong buyers. On the handoff side, check your speed-to-contact rate. The landmark MIT/InsideSales study published in Harvard Business Review found that contacting a lead within five minutes makes you 21x more likely to qualify it than waiting 30 minutes — a benchmark that still holds today ([HBR](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)). Slow follow-up makes even good leads look like bad ones.
 
 ### 4. Is Google Ads or LinkedIn Ads better for B2B?
 

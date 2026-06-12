@@ -4,7 +4,7 @@ description: "B2B marketing has a big problem right now: every brand sounds exac
 metaTitle: "B2B Marketing Guide: How Modern Buyers Research & Convert"
 metaDescription: "Learn how B2B marketing works in 2025. Explore strategies, buyer journeys, funnels, trends, and tactics that drive trust, pipeline, and revenue."
 date: 2025-11-28
-lastmod: 2026-05-13
+lastmod: 2026-06-12
 slug: "b2b-marketing"
 writtenBy: "praveen"
 category: "B2B Marketing"
@@ -322,13 +322,13 @@ B2B marketing in 2025 is being shaped by deeper digital behavior, AI-driven expe
 
 ### 1. AI-Powered Personalization Across the Buying Journey
 
-According to [Adobe’s 2025 Digital Trends in B2B Marketing report](https://business.adobe.com/resources/reports/b2b-marketing-digital-trends.html), 87% of senior executives say AI-driven customer journeys will deliver measurable ROI by the end of 2025. This shift is transforming how marketing teams personalise emails, ads, landing pages, and product education for entire buying groups. 
+According to [Adobe’s 2026 AI and Digital Trends report](https://business.adobe.com/resources/reports/b2b-marketing-digital-trends.html), organisations already report moderate-to-significant gains from generative AI in content production (76%) and marketing-driven revenue growth (65%). This shift is transforming how marketing teams personalise emails, ads, landing pages, and product education for entire buying groups. 
 
 Instead of generic nurturing, buyers now receive role-based content, intent-based recommendations, and dynamic messaging, improving relevance and accelerating engagement at every stage.
 
 ### 2. Rise of Self-Service & Rep-Free Digital Buying
 
-Modern B2B buyers want autonomy. A [2025 Gartner survey](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-sales-survey-finds-61-percent-of-b2b-buyers-prefer-a-rep-free-buying-experience) found that 61% prefer a rep-free buying experience, relying on digital channels for research and evaluation.
+Modern B2B buyers want autonomy. A [2026 Gartner survey](https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience) found that 67% prefer a rep-free buying experience, relying on digital channels for research and evaluation.
 
 This means brands must create transparent, self-guided journeys: interactive demos, ungated tours, on-demand webinars, and rich product pages. When buyers gather most of their information independently, content becomes the new “first salesperson.”
 

@@ -5,7 +5,7 @@ description: "60+ AI SEO statistics, updated June 2026, drawn from 8 months of a
 metaTitle: "60+ AI SEO Statistics (Updated June 2026, B2B SaaS Data)"
 metaDescription: "60+ AI SEO statistics updated June 2026, from 8 months of real analytics and CRM data across 53 B2B SaaS brands. AI vs organic compared."
 date: 2026-04-06
-lastmod: 2026-06-02
+lastmod: 2026-06-12
 slug: "ai-seo-statistics"
 url: "/research/ai-seo-statistics/"
 writtenBy: "kim"
@@ -121,8 +121,8 @@ Across the five AI platforms tracked, traffic volume, on-site engagement, and pi
 
 Beyond our proprietary dataset, here is what broader industry research tells us about AI's role in B2B buying behaviour and how to optimize for AI citation and visibility.
 
-- **89% of B2B buyers** now use generative AI at some point in their buying process. (source — [Forrester, via Discovered Labs](https://discoveredlabs.com/blog/dark-search-funnel-aeo-measurement-attribution))
-- B2B buyers complete **60–70% of their purchase research** before ever contacting a vendor's sales team. (source — [Gartner, via Martal](https://martal.ca/what-is-a-b2b-buyer-lb/))
+- **89% of B2B buyers** now use generative AI at some point in their buying process. (source — [Forrester Buyers' Journey Survey, 2024](https://www.forrester.com/report/b2b-buyer-adoption-of-generative-ai/RES181769))
+- B2B buyers spend just **17% of their total purchase journey** meeting with potential suppliers — most evaluation happens independently. (source — [Gartner](https://www.gartner.com/en/sales/insights/b2b-buying-journey))
 - **92% of B2B buyers** start with at least one vendor already in mind, and **41% have a single preferred vendor selected** before formal evaluation begins.
 - **95% of the time**, the winning vendor is already on the buyer's Day One shortlist — before a single sales conversation takes place.
 - Adding **statistics and data points** to content increases AI visibility by **22%**. Including direct quotations boosts it by **37%**.

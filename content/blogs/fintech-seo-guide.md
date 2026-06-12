@@ -4,7 +4,7 @@ description: "In Fintech, you’re not just selling software. You’re asking pe
 metaTitle: "The Essential Fintech SEO Guide You Need"
 metaDescription: "Struggling with expensive fintech ads? This guide breaks down SEO strategies to earn organic visibility, trust, and long-term growth."
 date: 2025-12-11
-lastmod: 2026-05-13
+lastmod: 2026-06-12
 slug: "fintech-seo-guide"
 writtenBy: "kim"
 category: "Fintech SEO"
@@ -135,7 +135,7 @@ Here are the two biggest trends defining the Fintech SEO landscape right now:
 
 The goalpost has moved. You are no longer just fighting for the #1 spot; you are fighting to be the cited source in the AI Overview (AIO).
 
-Google’s [AI Overviews](/glossary/what-is-an-ai-overview/) have become aggressive. [Semrush report](https://www.semrush.com/blog/semrush-ai-overviews-study/) notes that as of March 2025, AIOs are triggering on approximately 13.14% of all search queries, predominantly on informational “how-to” finance questions.
+Google’s [AI Overviews](/glossary/what-is-an-ai-overview/) have become aggressive. [Semrush report](https://www.semrush.com/blog/semrush-ai-overviews-study/) notes that AIOs settled at around 16% of all search queries by late 2025 (after peaking near 25% mid-year), predominantly on informational “how-to” finance questions.
 
 This is hurting traditional traffic. Data from September 2025 shows that when an AI Overview appears, the [click-through rate](/glossary/what-is-ctr/) (CTR) for organic results drops by a staggering 61%.
 
@@ -145,7 +145,7 @@ This is hurting traditional traffic. Data from September 2025 shows that when an
 
 For the first time in search history, Google isn’t your only algorithmic gatekeeper. Users are splitting their research across ChatGPT, Perplexity, Gemini, Claude, and even AI-native browsers like Arc. And these platforms don’t “rank” websites; they summarize them.
 
-[Semrush’s dataset](https://www.semrush.com/blog/semrush-ai-overviews-study/) shows that while Google’s AI Overviews surged past 13% of all queries, alternative AI engines are pulling from entirely different citation pools, with Reddit, YouTube, and niche finance blogs often outranking major publications. 
+[Semrush’s dataset](https://www.semrush.com/blog/semrush-ai-overviews-study/) shows that while Google’s AI Overviews climbed to around 16% of all queries, alternative AI engines are pulling from entirely different citation pools, with Reddit, YouTube, and niche finance blogs often outranking major publications. 
 
 In Fintech, this is even more dramatic: product queries like “best payment gateway for startups” show completely different recommended brands across different AI engines.
 
