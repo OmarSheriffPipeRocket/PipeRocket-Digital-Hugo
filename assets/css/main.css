@@ -3326,6 +3326,8 @@ a.pr-footer__trust-item:hover {
 .pr-approach__card--seo .pr-approach__copy { font-size: 0.8rem; padding-right: 12px; }
 .pr-approach__card--seo .pr-approach__copy p { margin: 0 0 8px; }
 .pr-approach__card--seo .pr-approach__copy p:last-child { margin-bottom: 0; }
+.pr-approach__card--seo .pr-approach__copy a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.pr-approach__card--seo .pr-approach__copy a:hover { color: var(--pr-ink); }
 .pr-approach--seo-3 .pr-approach__card { opacity: 1 !important; transform: none !important; transition: none !important; }
 .pr-approach__card--seo:hover { border-color: var(--pr-cyan) !important; }
 .pr-section--approach-seo { padding-bottom: calc(var(--pr-s-9) + 60px); position: relative; overflow: hidden; }
