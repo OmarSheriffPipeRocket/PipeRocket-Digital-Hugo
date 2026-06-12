@@ -42,6 +42,19 @@
     </div>
 
     {{ partial "clutch-reviews-schema.html" (dict "reviews" $clutchSeo "rating" $clutchSource.rating "count" (len $clutchSeo)) }}
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "SaaS SEO Services",
+      "serviceType": "SaaS SEO",
+      "url": "https://piperocket.digital/saas-seo-agency/",
+      "provider": { "@id": "https://piperocket.digital/#organization" },
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "description": "AI-first SaaS SEO services for SaaS companies targeting the US market: keyword research, product-led content, CRO, technical SEO, link building, GEO/AEO, programmatic SEO, and pipeline attribution."
+    }
+    </script>
   </div>
 </section>
 
@@ -60,7 +73,7 @@
     <img loading="lazy" decoding="async" src="/images/piperocket-logo-animation.svg" alt="" class="pr-outcome__rocket" aria-hidden="true" data-outcome-rocket>
     <div class="pr-center pr-outcome__header">
       <h2 class="pr-outcome__heading" style="white-space: normal;"><span class="pr-hero__h1-eyebrow" style="display:block;color:#0CC6F1;">SaaS SEO Services</span>Eight services. Five AI agents. One goal: pipeline.</h2>
-      <p style="color: #fff; max-width: 640px; margin-left: auto; margin-right: auto; font-size: 14px;">Our SaaS SEO services cover every layer of organic growth for B2B SaaS companies: research, content, CRO, technical SEO, link building, AI search, programmatic, and attribution. AI agents run the workflow and ship in hours. Senior strategists make every call.</p>
+      <p style="color: #fff; max-width: 640px; margin-left: auto; margin-right: auto; font-size: 14px;">Our SaaS SEO services cover every layer of organic growth for SaaS companies targeting the US market: research, content, CRO, technical SEO, link building, AI search, programmatic, and attribution. AI agents run the workflow and ship in hours. Senior strategists make every call.</p>
     </div>
     <div class="pr-approach pr-approach--seo-3">
       <div class="pr-approach__card pr-approach__card--seo">
@@ -356,7 +369,7 @@
         <img class="pr-ai-grid__layer is-active" data-image-key="research" loading="lazy" decoding="async" src="/images/ai-accordion/research.webp" alt="AI in SEO">
         <img class="pr-ai-grid__layer" data-image-key="copy" loading="lazy" decoding="async" src="/images/ai-accordion/copy.webp" alt="">
         <img class="pr-ai-grid__layer" data-image-key="design" loading="lazy" decoding="async" src="/images/ai-accordion/design.webp" alt="">
-        <img class="pr-ai-grid__layer" data-image-key="optimisation" loading="lazy" decoding="async" src="/images/ai-accordion/optimisation.webp" alt="">
+        <img class="pr-ai-grid__layer" data-image-key="optimization" loading="lazy" decoding="async" src="/images/ai-accordion/optimization.webp" alt="">
         <img class="pr-ai-grid__layer" data-image-key="analysis" loading="lazy" decoding="async" src="/images/ai-accordion/analysis.webp" alt="">
       </div>
       <div class="pr-accordion" data-ai-accordion-seo>
@@ -393,11 +406,11 @@
           <div class="pr-accordion__body">AI produces UI variants and page-design hypotheses. Which layout converts, where to place the CTA, and whether the page earns trust in the first three seconds stays with the team.</div>
         </details>
 
-        <details class="pr-accordion__item" data-image="optimisation">
+        <details class="pr-accordion__item" data-image="optimization">
           <summary class="pr-accordion__header">
             <span class="pr-accordion__header-left">
               <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" class="pr-accordion__icon" alt="" aria-hidden="true">
-              Optimisation
+              Optimization
             </span>
             <span class="pr-accordion__toggle">+</span>
           </summary>
@@ -473,7 +486,7 @@
       <article class="pr-ai-pillars__card">
         <div class="pr-ai-pillars__eyebrow">Pillar 04</div>
         <h3>Ranked, cited, and tied to pipeline</h3>
-        <p>Every agent reports to one outcome: qualified pipeline. We do not optimise for impressions, sessions, or rankings in isolation. MQLs, SQLs, pipeline influenced, and CAC payback by intent category surface continuously, not at month-end, so editorial decisions stay grounded in what is actually closing.</p>
+        <p>Every agent reports to one outcome: qualified pipeline. We do not optimize for impressions, sessions, or rankings in isolation. MQLs, SQLs, pipeline influenced, and CAC payback by intent category surface continuously, not at month-end, so editorial decisions stay grounded in what is actually closing.</p>
       </article>
     </div>
   </div>
@@ -505,7 +518,7 @@
       <div class="pr-approach__card pr-approach__card--seo">
         <img loading="lazy" decoding="async" src="/images/icon-approach-build-with-intent.svg" alt="" class="pr-approach__icon" aria-hidden="true">
         <div class="pr-approach__title">Build with intent</div>
-        <div class="pr-approach__copy"><p>We organise keywords into topic clusters mapped to funnel stages, not a content calendar. Educational pages pull in early demand. Comparison and alternative pages are where that demand gets converted. Category pages anchor the pipeline.</p><p>Every page has a defined role before it is briefed, so nothing ends up orphaned or cannibalising something else.</p></div>
+        <div class="pr-approach__copy"><p>We organize keywords into topic clusters mapped to funnel stages, not a content calendar. Educational pages pull in early demand. Comparison and alternative pages are where that demand gets converted. Category pages anchor the pipeline.</p><p>Every page has a defined role before it is briefed, so nothing ends up orphaned or cannibalising something else.</p></div>
       </div>
       <div class="pr-approach__card pr-approach__card--seo">
         <img loading="lazy" decoding="async" src="/images/icon-approach-go-where-buyers.svg" alt="" class="pr-approach__icon" aria-hidden="true">
@@ -525,7 +538,7 @@
       <div class="pr-approach__card pr-approach__card--seo">
         <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" alt="" class="pr-approach__icon" aria-hidden="true">
         <div class="pr-approach__title">Optimised for AI answers</div>
-        <div class="pr-approach__copy"><p>Generative Engine Optimisation (GEO) and Answer Engine Optimisation (AEO) are built into every page, not bolted on afterwards. We structure content and schema so AI crawlers can parse, trust, and cite you.</p><p>The result: your brand surfaces inside AI Overviews, ChatGPT, Perplexity, and Gemini alongside traditional rankings — where B2B SaaS buyers increasingly start their research.</p></div>
+        <div class="pr-approach__copy"><p>Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO) are built into every page, not bolted on afterwards. We structure content and schema so AI crawlers can parse, trust, and cite you.</p><p>The result: your brand surfaces inside AI Overviews, ChatGPT, Perplexity, and Gemini alongside traditional rankings — where B2B SaaS buyers increasingly start their research.</p></div>
       </div>
       <div class="pr-approach__card pr-approach__card--seo">
         <img loading="lazy" decoding="async" src="/images/icon-approach-cited-where-counts.svg" alt="" class="pr-approach__icon" aria-hidden="true">
@@ -611,17 +624,17 @@
     {{/* Single source of truth: renders both the accordion and the FAQPage schema below. */}}
     {{ $faqs := slice
       (dict "q" "What is a SaaS SEO agency?"
-            "a" "A SaaS SEO agency specialises in helping SaaS companies grow their business through organic search. They combine technical SEO expertise with an understanding of the SaaS customer journey to attract qualified leads, increase website traffic, and ultimately drive conversions.")
+            "a" "A SaaS SEO agency specializes in helping SaaS companies grow their business through organic search. They combine technical SEO expertise with an understanding of the SaaS customer journey to attract qualified leads, increase website traffic, and ultimately drive conversions.")
       (dict "q" "What SaaS SEO services do you offer?"
-            "a" "Our SaaS SEO services cover the full program: technical SEO, keyword and search-intent research, content production, on-page optimisation, link building and digital PR, Generative Engine Optimisation (GEO) and Answer Engine Optimisation (AEO) for AI search, and pipeline attribution reporting. Every deliverable is tied to qualified pipeline, not traffic.")
+            "a" "Our SaaS SEO services cover the full program: technical SEO, keyword and search-intent research, content production, on-page optimization, link building and digital PR, Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO) for AI search, and pipeline attribution reporting. Every deliverable is tied to qualified pipeline, not traffic.")
       (dict "q" "What is the difference between SaaS SEO and regular SEO?"
-            "a" "Regular SEO optimises for traffic and rankings across any market. SaaS SEO is built around a long, multi-stakeholder B2B buying committee and a subscription revenue model — so it prioritises high-intent BOFU searches (comparison pages, alternatives pages, category keywords) and ties every page to MQLs, SQLs and pipeline rather than sessions.")
+            "a" "Regular SEO optimizes for traffic and rankings across any market. SaaS SEO is built around a long, multi-stakeholder B2B buying committee and a subscription revenue model — so it prioritizes high-intent BOFU searches (comparison pages, alternatives pages, category keywords) and ties every page to MQLs, SQLs and pipeline rather than sessions.")
       (dict "q" "How long does SaaS SEO take to show results?"
             "a" "Because we go after in-market BOFU searches from week one, early MQLs typically appear in the first few weeks while the broader topic-cluster strategy compounds underneath. Most SaaS SEO programs see meaningful pipeline contribution within the first quarter rather than the usual 'give it six months'.")
       (dict "q" "How much does a SaaS SEO agency cost?"
             "a" "SaaS SEO is priced as a monthly retainer scoped to the program — content velocity, technical scope, and link building all factor in. Engagements start at $3,000/mo. We work with a small number of B2B SaaS companies at a time and scope each engagement on a discovery call.")
       (dict "q" "What is GEO and AEO, and do you do it?"
-            "a" "GEO (Generative Engine Optimisation) and AEO (Answer Engine Optimisation) are the practice of getting your brand cited inside AI-generated answers — Google AI Overviews, ChatGPT, Perplexity, Gemini and Microsoft Copilot. Yes, it is built into every engagement: we structure content and schema so AI crawlers can understand and cite your pages alongside traditional search results.")
+            "a" "GEO (Generative Engine Optimization) and AEO (Answer Engine Optimization) are the practice of getting your brand cited inside AI-generated answers — Google AI Overviews, ChatGPT, Perplexity, Gemini and Microsoft Copilot. Yes, it is built into every engagement: we structure content and schema so AI crawlers can understand and cite your pages alongside traditional search results.")
       (dict "q" "What SEO tools do you use?"
             "a" "Our core stack includes Ahrefs and Semrush for research, Google Search Console and Google Analytics for performance, Looker Studio for reporting, and OpenAI and Anthropic Claude in our AI agent workflows. Better tools do not produce better SEO — better judgment does — but we use the best of both.")
       (dict "q" "What is a SaaS pipeline?"
@@ -632,6 +645,8 @@
             "a" "B2B SaaS buyers research independently before talking to sales. If you're not visible in organic search when they're researching, you're not in their consideration set when they're ready to buy.")
       (dict "q" "Which technical SEO factors are crucial for B2B SaaS websites?"
             "a" "Site speed, indexability, schema markup for software/product/FAQ, internal linking that surfaces buying-stage pages, and Core Web Vitals — in roughly that order of impact.")
+      (dict "q" "Do you work with US-based SaaS companies?"
+            "a" "Yes. Most PipeRocket engagements target the US market first. Our client roster includes US-headquartered SaaS brands like Esri, Goldcast, Storylane, and DevRev, pricing is in USD, and the team overlaps with US time zones for standups, reporting, and strategy calls.")
     }}
 
     <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
@@ -654,8 +669,8 @@
     "mainEntity": [
       {{ range $i, $f := $faqs }}{{ if $i }},{{ end }}{
         "@type": "Question",
-        "name": {{ $f.q | jsonify }},
-        "acceptedAnswer": { "@type": "Answer", "text": {{ $f.a | jsonify }} }
+        "name": {{ $f.q }},
+        "acceptedAnswer": { "@type": "Answer", "text": {{ $f.a }} }
       }{{ end }}
     ]
   }
