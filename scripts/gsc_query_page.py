@@ -12,7 +12,7 @@ First run may trigger the OAuth copy-URL flow if credentials/token.json is stale
 Writes two artifacts to credentials/gsc_output/:
   qp_<end>.json        — full page→query rows (impr/clicks/position/ctr)
   qp_rollup_<end>.json — per-URL rollup: top query + metrics (the primary seed
-                         for build_keyword_map.py) + every query the URL ranks for
+                         for build_content_map.py) + every query the URL ranks for
 
 Usage:
   python3 scripts/gsc_query_page.py
