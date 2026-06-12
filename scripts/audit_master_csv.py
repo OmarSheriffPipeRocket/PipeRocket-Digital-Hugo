@@ -93,8 +93,30 @@ def redirect_pair(page, competitor):
 
 
 def load_judgment():
-    """Per-page verified findings (anchor / keyword / cannibalization), redirect-filtered."""
+    """Per-page findings (anchor / keyword / cannibalization), redirect-filtered.
+
+    Prefers the DEEP pass (audit/_judgment_deep.json) — recall-oriented, every
+    finding confidence-labeled, no verify filter. Falls back to the conservative
+    verified pass (audit/_judgment.json, confirmed-only) when the deep file is
+    absent."""
     anchors, keywords, cannib = defaultdict(list), defaultdict(list), defaultdict(list)
+    deep = AUDIT / "_judgment_deep.json"
+    if deep.exists():
+        for c in json.loads(deep.read_text()):
+            if not c or not c.get("judgment"):
+                continue
+            j = c["judgment"]
+            for a in j.get("anchor_issues", []):
+                if a.get("better_target") and a["better_target"] in RMAP:
+                    continue
+                anchors[a["page"]].append(a)
+            for k in j.get("keyword_issues", []):
+                keywords[k["page"]].append(k)
+            for x in j.get("cannibalization", []):
+                if x.get("verdict") == "benign" or redirect_pair(x["page"], x["competitor"]):
+                    continue
+                cannib[x["page"]].append(x)
+        return anchors, keywords, cannib
     jpath = AUDIT / "_judgment.json"
     if not jpath.exists():
         return anchors, keywords, cannib
@@ -191,9 +213,9 @@ def main():
                 len(p["cannibalization"]),
                 "; ".join(f"{o['page']} ({o['impressions']}i, p{o['position']})" for o in p["cannibalization"]),
                 "; ".join(f"{x['query']} (p{x['position']}, {x['impressions']}i)" for x in p["gsc_top_queries"]),
-                " | ".join(f'"{a["anchor"]}" {a["href"]} -> {a["better_target"] or "—"} [{a["why"]}]' for a in anch),
-                " | ".join(f'[{k["problem"]}] {k["detail"]} -> {k["suggestion"]}' for k in kw),
-                " | ".join(f'{x["competitor"]} ({x["severity"]}/{x["recommended_action"]}) {x["why"]}' for x in can),
+                " | ".join(f'[{a.get("confidence","?")}] "{a["anchor"]}" {a["href"]} -> {a["better_target"] or "—"} ({a["why"]})' for a in anch),
+                " | ".join(f'[{k.get("confidence","?")}|{k["problem"]}] {k["detail"]} -> {k["suggestion"]}' for k in kw),
+                " | ".join(f'[{x.get("confidence","?")}|{x.get("verdict","?")}/{x["severity"]}/{x["recommended_action"]}] {x["competitor"]} — {x["why"]}' for x in can),
             ])
     print(f"Wrote audit/content_map_master.csv  ({len(pages)} rows, {len(cols)} columns)")
 
