@@ -4,7 +4,8 @@
 # never seeded from GSC. The `gsc:` block is a MEASUREMENT add-on: it reports
 # whether the page actually ranks for that target (primary_position) and whether
 # the query it surfaces best for matches the target (aligned).
-# intent/funnel are rule-derived per type (blogs: stats/starter = TOFU, else MOFU).
+# primary/intent/funnel come from data/content_map_overrides.csv (editorial),
+# falling back to per-type heuristics. cluster = the page's directory category.
 # GSC source: qp_rollup_2026-06-08.json
 
 meta:
@@ -18,9 +19,8 @@ pages:
     primary: "b2b content marketing"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Content Marketing"
+    funnel: tofu
+    cluster: "B2B Content Marketing"
     canonical_for: "b2b content marketing"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -37,9 +37,8 @@ pages:
     primary: "b2b demand generation"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Demand generation"
+    funnel: tofu
+    cluster: "B2B Demand Generation"
     canonical_for: "b2b demand generation"
     status: active
 
@@ -48,9 +47,8 @@ pages:
     primary: "b2b inbound marketing"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "B2B SaaS Marketing"
+    funnel: tofu
+    cluster: "B2B Inbound Marketing"
     canonical_for: "b2b inbound marketing"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -67,9 +65,8 @@ pages:
     primary: "b2b lead generation"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Lead generation"
+    funnel: tofu
+    cluster: "B2B Lead Generation"
     canonical_for: "b2b lead generation"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -85,9 +82,8 @@ pages:
     primary: "b2b linkedin marketing"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "B2B SaaS Marketing"
+    funnel: tofu
+    cluster: "B2B LinkedIn Marketing"
     canonical_for: "b2b linkedin marketing"
     status: active
 
@@ -96,9 +92,8 @@ pages:
     primary: "b2b marketing operations"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Marketing operations"
+    funnel: tofu
+    cluster: "B2B Marketing"
     canonical_for: "b2b marketing operations"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -115,9 +110,8 @@ pages:
     primary: "b2b marketing"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "B2B SaaS Marketing"
+    funnel: tofu
+    cluster: "B2B Marketing"
     canonical_for: "b2b marketing"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -133,9 +127,8 @@ pages:
     primary: "b2b ppc"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-paid-marketing
-    cluster_entity: "B2B SaaS PPC"
+    funnel: tofu
+    cluster: "B2B PPC"
     canonical_for: "b2b ppc"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -151,9 +144,8 @@ pages:
     primary: "b2b ppc"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-paid-marketing
-    cluster_entity: "B2B SaaS PPC"
+    funnel: tofu
+    cluster: "B2B PPC"
     canonical_for: "b2b ppc"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -170,9 +162,8 @@ pages:
     primary: "b2b saas seo"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "B2B SaaS SEO"
+    funnel: tofu
+    cluster: "B2B SEO"
     canonical_for: "b2b saas seo"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -188,9 +179,8 @@ pages:
     primary: "enterprise saas seo"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Enterprise SaaS SEO"
+    funnel: tofu
+    cluster: "Enterprise Marketing"
     canonical_for: "enterprise saas seo"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -208,8 +198,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Enterprise SaaS SEO"
+    cluster: "Enterprise Marketing"
     canonical_for: "enterprise seo challenges and fixes"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -225,9 +214,8 @@ pages:
     primary: "enterprise seo"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Enterprise SaaS SEO"
+    funnel: tofu
+    cluster: "Enterprise Marketing"
     canonical_for: "enterprise seo"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -245,8 +233,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Enterprise SaaS SEO"
+    cluster: "Enterprise Marketing"
     canonical_for: "enterprise seo strategy and framework"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -262,21 +249,19 @@ pages:
     primary: "fintech seo"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "SEO"
+    funnel: tofu
+    cluster: "Fintech SEO"
     canonical_for: "fintech seo"
     status: active
 
   - url: "/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/"
     type: blog
-    primary: "run linkedin ads for saas"
+    primary: "linkedin ads for saas"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-paid-marketing
-    cluster_entity: "LinkedIn Ads"
-    canonical_for: "run linkedin ads for saas"
+    cluster: "SaaS PPC"
+    canonical_for: "linkedin ads for saas"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 3
@@ -284,35 +269,35 @@ pages:
       top_query_position: 35.5
       top_query_impressions: 2
       aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      primary_position: 22        # rank for the TARGET keyword
+      primary_impressions: 1
 
   - url: "/blogs/how-to-build-topic-clusters/"
     type: blog
-    primary: "build topic clusters"
+    primary: "topic clusters"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Topic clusters"
-    canonical_for: "build topic clusters"
+    cluster: "SaaS SEO"
+    canonical_for: "topic clusters"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 19
       top_query: "topic clusters"          # what the page actually surfaces for
       top_query_position: 25
       top_query_impressions: 3
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: true              # top query == primary target?
+      primary_position: 25        # rank for the TARGET keyword
+      primary_impressions: 3
 
   - url: "/blogs/how-to-choose-search-volume-vs-search-intent/"
     type: blog
-    primary: "choose search volume vs search intent"
+    primary: "search volume vs search intent"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Search intent"
-    canonical_for: "choose search volume vs search intent"
+    cluster: "SaaS SEO"
+    canonical_for: "search volume vs search intent"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 9
@@ -328,8 +313,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Keyword gap analysis"
+    cluster: "SaaS SEO"
     canonical_for: "keyword gap analysis"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -347,8 +331,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Content audit"
+    cluster: "SaaS SEO"
     canonical_for: "saas content audit"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -366,8 +349,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Competitor analysis"
+    cluster: "SaaS SEO"
     canonical_for: "saas seo competitor analysis"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -385,8 +367,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Keyword research"
+    cluster: "SaaS SEO"
     canonical_for: "saas seo keyword research"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -404,7 +385,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: null
+    cluster: "SaaS SEO"
     canonical_for: "fix keyword cannibalization"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -422,8 +403,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Buyer journey"
+    cluster: "SaaS SEO"
     canonical_for: "map keywords to saas buyer journey"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -440,7 +420,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: null
+    cluster: "SaaS SEO"
     canonical_for: "prioritize saas keywords by funnel stage"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -453,12 +433,12 @@ pages:
 
   - url: "/blogs/how-to-rank-bofu-keywords-saas/"
     type: blog
-    primary: "rank bofu keywords saas"
+    primary: "rank saas bofu keywords"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: null
-    canonical_for: "rank bofu keywords saas"
+    cluster: "SaaS SEO"
+    canonical_for: "rank saas bofu keywords"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 14
@@ -470,12 +450,12 @@ pages:
 
   - url: "/blogs/how-to-rank-mofu-keywords-saas/"
     type: blog
-    primary: "rank mofu keywords saas"
+    primary: "rank saas mofu keywords"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: null
-    canonical_for: "rank mofu keywords saas"
+    cluster: "SaaS SEO"
+    canonical_for: "rank saas mofu keywords"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 8
@@ -487,12 +467,12 @@ pages:
 
   - url: "/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips/"
     type: blog
-    primary: "rank on chatgpt in 2026 strategies and tips"
+    primary: "how to rank on chatgpt"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: null
-    canonical_for: "rank on chatgpt in 2026 strategies and tips"
+    cluster: "SaaS SEO"
+    canonical_for: "how to rank on chatgpt"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 7
@@ -504,32 +484,29 @@ pages:
 
   - url: "/blogs/how-to-run-google-ads-for-saas/"
     type: blog
-    primary: "run google ads for saas"
+    primary: "google ads for saas"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Google Ads"
-    canonical_for: "run google ads for saas"
+    cluster: "SaaS PPC"
+    canonical_for: "google ads for saas"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 1
       top_query: "how to run google ads for saas"          # what the page actually surfaces for
       top_query_position: 43
       top_query_impressions: 1
-      aligned: true              # top query == primary target?
-      primary_position: 43        # rank for the TARGET keyword
-      primary_impressions: 1
+      aligned: false              # top query == primary target?
+      primary_ranking: false        # target keyword not surfacing yet
 
   - url: "/blogs/how-to-run-linkedin-retargeting-ads/"
     type: blog
-    primary: "run linkedin retargeting ads"
+    primary: "linkedin retargeting ads"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-paid-marketing
-    cluster_entity: "LinkedIn Ads"
-    canonical_for: "run linkedin retargeting ads"
+    cluster: "SaaS PPC"
+    canonical_for: "linkedin retargeting ads"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 181
@@ -537,7 +514,8 @@ pages:
       top_query_position: 35.4
       top_query_impressions: 15
       aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      primary_position: 30.4        # rank for the TARGET keyword
+      primary_impressions: 11
 
   - url: "/blogs/how-to-score-saas-keywords-by-icp-intent/"
     type: blog
@@ -545,7 +523,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: null
+    cluster: "SaaS SEO"
     canonical_for: "score saas keywords by icp intent"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -558,34 +536,32 @@ pages:
 
   - url: "/blogs/how-to-write-google-ads-copy-for-saas-in-2026/"
     type: blog
-    primary: "write google ads copy for saas"
+    primary: "google ads copy for saas"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Google Ads"
-    canonical_for: "write google ads copy for saas"
+    cluster: "SaaS PPC"
+    canonical_for: "google ads copy for saas"
     status: active
 
   - url: "/blogs/how-to-write-saas-comparison-pages-for-seo/"
     type: blog
-    primary: "write saas comparison pages for seo"
+    primary: "saas comparison pages"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "On-page SEO"
-    canonical_for: "write saas comparison pages for seo"
+    cluster: "SaaS SEO"
+    canonical_for: "saas comparison pages"
     status: active
 
   - url: "/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks/"
     type: blog
-    primary: "write saas seo content with ai that actually ranks"
+    primary: "write saas seo content with ai"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: null
-    canonical_for: "write saas seo content with ai that actually ranks"
+    cluster: "SaaS SEO"
+    canonical_for: "write saas seo content with ai"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 28
@@ -600,9 +576,8 @@ pages:
     primary: "linkedin account based marketing"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "Account-based marketing"
+    funnel: tofu
+    cluster: "SaaS PPC"
     canonical_for: "linkedin account based marketing"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -620,8 +595,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "On-page SEO"
+    cluster: "SaaS SEO"
     canonical_for: "optimize saas landing pages for seo"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -637,9 +611,8 @@ pages:
     primary: "ai seo statistics"
     secondary: []
     intent: informational
-    funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "AI SEO"
+    funnel: mofu
+    cluster: "SaaS SEO"
     canonical_for: "ai seo statistics"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -656,9 +629,8 @@ pages:
     primary: "saas content marketing"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "SaaS Content Marketing"
+    funnel: tofu
+    cluster: "SaaS Content Marketing"
     canonical_for: "saas content marketing"
     status: active
 
@@ -667,9 +639,8 @@ pages:
     primary: "saas link building"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "SaaS Link Building"
+    funnel: tofu
+    cluster: "SaaS SEO"
     canonical_for: "saas link building"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -683,24 +654,22 @@ pages:
 
   - url: "/blogs/saas-linkedin-ads-mistakes-to-avoid/"
     type: blog
-    primary: "saas linkedin ads mistakes to avoid"
+    primary: "saas linkedin ads mistakes"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-paid-marketing
-    cluster_entity: "LinkedIn Ads"
-    canonical_for: "saas linkedin ads mistakes to avoid"
+    cluster: "SaaS PPC"
+    canonical_for: "saas linkedin ads mistakes"
     status: active
 
   - url: "/blogs/saas-marketing-challenges-and-fixes/"
     type: blog
-    primary: "saas marketing challenges and fixes"
+    primary: "saas marketing challenges"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "B2B SaaS Marketing"
-    canonical_for: "saas marketing challenges and fixes"
+    cluster: "SaaS SEO"
+    canonical_for: "saas marketing challenges"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 24
@@ -716,8 +685,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "SaaS PPC"
+    cluster: "SaaS PPC"
     canonical_for: "saas ppc checklist"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -733,9 +701,8 @@ pages:
     primary: "saas ppc"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "SaaS PPC"
+    funnel: tofu
+    cluster: "SaaS PPC"
     canonical_for: "saas ppc"
     status: active
 
@@ -745,8 +712,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-paid-marketing
-    cluster_entity: "SaaS SEO"
+    cluster: "SaaS SEO"
     canonical_for: "saas seo checklist"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -760,13 +726,12 @@ pages:
 
   - url: "/blogs/saas-seo-strategies-and-framework/"
     type: blog
-    primary: "saas seo strategies and framework"
+    primary: "saas seo strategies"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-seo
-    cluster_entity: "8-Step SaaS SEO Framework (PipeRocket)"
-    canonical_for: "saas seo strategies and framework"
+    cluster: "SaaS SEO"
+    canonical_for: "saas seo strategies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 339
@@ -774,16 +739,16 @@ pages:
       top_query_position: 56.6
       top_query_impressions: 124
       aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      primary_position: 48.6        # rank for the TARGET keyword
+      primary_impressions: 49
 
   - url: "/blogs/saas-seo/"
     type: blog
     primary: "saas seo"
     secondary: []
     intent: informational
-    funnel: mofu
-    cluster: saas-paid-marketing
-    cluster_entity: "SaaS SEO"
+    funnel: tofu
+    cluster: "SEO"
     canonical_for: "saas seo"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -797,30 +762,31 @@ pages:
 
   - url: "/blogs/the-8-common-saas-google-ads-mistakes-to-avoid-in-2026/"
     type: blog
-    primary: "8 common saas google ads mistakes to avoid"
+    primary: "saas google ads mistakes"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: null
-    canonical_for: "8 common saas google ads mistakes to avoid"
+    cluster: "SaaS PPC"
+    canonical_for: "saas google ads mistakes"
     status: active
 
   - url: "/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account/"
     type: blog
-    primary: "no nonsense guide to auditing your saas ppc account"
+    primary: "saas ppc audit"
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: null
-    canonical_for: "no nonsense guide to auditing your saas ppc account"
+    cluster: "SaaS PPC"
+    canonical_for: "saas ppc audit"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 18
       top_query: "saas ppc audit"          # what the page actually surfaces for
       top_query_position: 4.8
       top_query_impressions: 15
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      aligned: true              # top query == primary target?
+      primary_position: 4.8        # rank for the TARGET keyword
+      primary_impressions: 15
 
   - url: "/blogs/types-of-keywords-in-seo/"
     type: blog
@@ -828,8 +794,7 @@ pages:
     secondary: []
     intent: informational
     funnel: mofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Keyword match types"
+    cluster: "SaaS SEO"
     canonical_for: "types of keywords in seo"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -842,12 +807,12 @@ pages:
 
   - url: "/glossary/what-are-keyword-clusters/"
     type: glossary
-    primary: "Keyword Cluster"
+    primary: "what is keyword clusters"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Keyword Cluster"
+    cluster: "SEO"
+    canonical_for: "what is keyword clusters"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 1819
@@ -860,13 +825,12 @@ pages:
 
   - url: "/glossary/what-is-a-301-redirect/"
     type: glossary
-    primary: "a 301 Redirect"
+    primary: "what is 301 Redirect"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "301 redirects"
-    canonical_for: "a 301 Redirect"
+    cluster: "SEO"
+    canonical_for: "what is 301 Redirect"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 46
@@ -879,13 +843,12 @@ pages:
 
   - url: "/glossary/what-is-a-backlink/"
     type: glossary
-    primary: "a Backlink"
+    primary: "what is a Backlink"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Backlinks"
-    canonical_for: "a Backlink"
+    cluster: "SEO"
+    canonical_for: "what is a Backlink"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 230
@@ -898,45 +861,42 @@ pages:
 
   - url: "/glossary/what-is-a-canonical-tag/"
     type: glossary
-    primary: "a Canonical Tag"
+    primary: "what is a Canonical Tag"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Canonical tags"
-    canonical_for: "a Canonical Tag"
+    cluster: "SEO"
+    canonical_for: "what is a Canonical Tag"
     status: active
 
   - url: "/glossary/what-is-a-commercial-keyword/"
     type: glossary
-    primary: "a Commercial Keyword"
+    primary: "what is a Commercial Keyword"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "a Commercial Keyword"
+    cluster: "SEO"
+    canonical_for: "what is a Commercial Keyword"
     status: active
 
   - url: "/glossary/what-is-a-landing-page/"
     type: glossary
-    primary: "a Landing Page"
+    primary: "what is a Landing Page"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Landing pages"
-    canonical_for: "a Landing Page"
+    cluster: "B2B Marketing"
+    canonical_for: "what is a Landing Page"
     status: active
 
   - url: "/glossary/what-is-a-long-tail-keyword/"
     type: glossary
-    primary: "a Long Tail Keyword"
+    primary: "what is a Long Tail Keyword"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Long-tail keywords"
-    canonical_for: "a Long Tail Keyword"
+    cluster: "SEO"
+    canonical_for: "what is a Long Tail Keyword"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 2
@@ -949,12 +909,12 @@ pages:
 
   - url: "/glossary/what-is-a-meta-description/"
     type: glossary
-    primary: "a Meta Description"
+    primary: "what is a Meta Description"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "a Meta Description"
+    cluster: "SEO"
+    canonical_for: "what is a Meta Description"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 308
@@ -967,98 +927,92 @@ pages:
 
   - url: "/glossary/what-is-a-navigational-keyword/"
     type: glossary
-    primary: "a Navigational Keyword"
+    primary: "what is a Navigational Keyword"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "a Navigational Keyword"
+    cluster: "SEO"
+    canonical_for: "what is a Navigational Keyword"
     status: active
 
   - url: "/glossary/what-is-a-transactional-keyword/"
     type: glossary
-    primary: "a Transactional Keyword"
+    primary: "what is a Transactional Keyword"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "a Transactional Keyword"
+    cluster: "SEO"
+    canonical_for: "what is a Transactional Keyword"
     status: active
 
   - url: "/glossary/what-is-ab-testing/"
     type: glossary
-    primary: "A/B Testing"
+    primary: "what is A/B Testing"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "A/B testing"
-    canonical_for: "A/B Testing"
+    cluster: "Analytics & Attribution"
+    canonical_for: "what is A/B Testing"
     status: active
 
   - url: "/glossary/what-is-abm/"
     type: glossary
-    primary: "ABM"
+    primary: "what is ABM"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "ABM"
-    canonical_for: "ABM"
+    cluster: "Demand Generation"
+    canonical_for: "what is ABM"
     status: active
 
   - url: "/glossary/what-is-aeo/"
     type: glossary
-    primary: "AEO (Answer Engine Optimization)"
+    primary: "what is AEO (Answer Engine Optimization)"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: ai-seo
-    cluster_entity: "Answer Engine Optimization (AEO)"
-    canonical_for: "AEO (Answer Engine Optimization)"
+    cluster: "SEO"
+    canonical_for: "what is AEO (Answer Engine Optimization)"
     status: active
 
   - url: "/glossary/what-is-ai-hallucination/"
     type: glossary
-    primary: "AI Hallucination"
+    primary: "what is AI Hallucination"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: ai-seo
-    cluster_entity: "AI hallucination risk"
-    canonical_for: "AI Hallucination"
+    cluster: "AI & Future Search"
+    canonical_for: "what is AI Hallucination"
     status: active
 
   - url: "/glossary/what-is-an-ai-overview/"
     type: glossary
-    primary: "an AI Overview"
+    primary: "what is an AI Overview"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "AI Overviews"
-    canonical_for: "an AI Overview"
+    cluster: "SEO"
+    canonical_for: "what is an AI Overview"
     status: active
 
   - url: "/glossary/what-is-an-informational-keyword/"
     type: glossary
-    primary: "an Informational Keyword"
+    primary: "what is an Informational Keyword"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "an Informational Keyword"
+    cluster: "SEO"
+    canonical_for: "what is an Informational Keyword"
     status: active
 
   - url: "/glossary/what-is-an-llm/"
     type: glossary
-    primary: "an LLM"
+    primary: "what is an LLM"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "llms.txt"
-    canonical_for: "an LLM"
+    cluster: "AI & Future Search"
+    canonical_for: "what is an LLM"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 26
@@ -1071,13 +1025,12 @@ pages:
 
   - url: "/glossary/what-is-an-seo-audit/"
     type: glossary
-    primary: "an SEO Audit"
+    primary: "what is an SEO Audit"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "SEO audit"
-    canonical_for: "an SEO Audit"
+    cluster: "SEO"
+    canonical_for: "what is an SEO Audit"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 829
@@ -1090,24 +1043,22 @@ pages:
 
   - url: "/glossary/what-is-anchor-text/"
     type: glossary
-    primary: "Anchor Text"
+    primary: "what is Anchor Text"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Anchor text"
-    canonical_for: "Anchor Text"
+    cluster: "SEO"
+    canonical_for: "what is Anchor Text"
     status: active
 
   - url: "/glossary/what-is-arr/"
     type: glossary
-    primary: "ARR"
+    primary: "what is ARR"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "ARR"
-    canonical_for: "ARR"
+    cluster: "SaaS Metrics & Growth"
+    canonical_for: "what is ARR"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 10
@@ -1119,33 +1070,32 @@ pages:
 
   - url: "/glossary/what-is-brand-identity/"
     type: glossary
-    primary: "Brand Identity"
+    primary: "what is Brand Identity"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Brand Identity"
+    cluster: "Social & Brand"
+    canonical_for: "what is Brand Identity"
     status: active
 
   - url: "/glossary/what-is-brand-positioning/"
     type: glossary
-    primary: "Brand Positioning"
+    primary: "what is Brand Positioning"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Brand Positioning"
+    cluster: "Social & Brand"
+    canonical_for: "what is Brand Positioning"
     status: active
 
   - url: "/glossary/what-is-cls/"
     type: glossary
-    primary: "CLS"
+    primary: "what is CLS"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "CLS"
-    canonical_for: "CLS"
+    cluster: "SEO"
+    canonical_for: "what is CLS"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 4
@@ -1157,56 +1107,52 @@ pages:
 
   - url: "/glossary/what-is-clv/"
     type: glossary
-    primary: "CLV"
+    primary: "what is CLV"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "CLV"
-    canonical_for: "CLV"
+    cluster: "SaaS Metrics & Growth"
+    canonical_for: "what is CLV"
     status: active
 
   - url: "/glossary/what-is-content-marketing/"
     type: glossary
-    primary: "Content Marketing"
+    primary: "what is Content Marketing"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Content Marketing"
-    canonical_for: "Content Marketing"
+    cluster: "Content Marketing"
+    canonical_for: "what is Content Marketing"
     status: active
 
   - url: "/glossary/what-is-conversion-rate/"
     type: glossary
-    primary: "Conversion Rate"
+    primary: "what is Conversion Rate"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Conversion rate"
-    canonical_for: "Conversion Rate"
+    cluster: "Analytics & Attribution"
+    canonical_for: "what is Conversion Rate"
     status: active
 
   - url: "/glossary/what-is-cost-per-click/"
     type: glossary
-    primary: "Cost Per Click"
+    primary: "what is Cost Per Click"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-paid-marketing
-    cluster_entity: "CPC (Cost Per Click)"
-    canonical_for: "Cost Per Click"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is Cost Per Click"
     status: active
 
   - url: "/glossary/what-is-cpa/"
     type: glossary
-    primary: "CPA"
+    primary: "what is CPA"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "CPA"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is CPA"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 9
@@ -1218,12 +1164,12 @@ pages:
 
   - url: "/glossary/what-is-cpm/"
     type: glossary
-    primary: "CPM"
+    primary: "what is CPM"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "CPM"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is CPM"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 12
@@ -1235,34 +1181,32 @@ pages:
 
   - url: "/glossary/what-is-crawling/"
     type: glossary
-    primary: "Crawling"
+    primary: "what is Crawling"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: ai-seo
-    cluster_entity: "Live crawling"
-    canonical_for: "Crawling"
+    cluster: "SEO"
+    canonical_for: "what is Crawling"
     status: active
 
   - url: "/glossary/what-is-cro/"
     type: glossary
-    primary: "CRO"
+    primary: "what is CRO"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "CRO"
+    cluster: "Analytics & Attribution"
+    canonical_for: "what is CRO"
     status: active
 
   - url: "/glossary/what-is-ctr/"
     type: glossary
-    primary: "CTR"
+    primary: "what is CTR"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "CTR"
-    canonical_for: "CTR"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is CTR"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 3
@@ -1274,13 +1218,12 @@ pages:
 
   - url: "/glossary/what-is-domain-authority/"
     type: glossary
-    primary: "Domain Authority"
+    primary: "what is Domain Authority"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Domain Authority"
-    canonical_for: "Domain Authority"
+    cluster: "SEO"
+    canonical_for: "what is Domain Authority"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 33
@@ -1293,22 +1236,22 @@ pages:
 
   - url: "/glossary/what-is-employer-branding/"
     type: glossary
-    primary: "Employer Branding"
+    primary: "what is Employer Branding"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Employer Branding"
+    cluster: "Social & Brand"
+    canonical_for: "what is Employer Branding"
     status: active
 
   - url: "/glossary/what-is-evergreen-content/"
     type: glossary
-    primary: "Evergreen Content"
+    primary: "what is Evergreen Content"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Evergreen Content"
+    cluster: "SEO"
+    canonical_for: "what is Evergreen Content"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 5
@@ -1320,13 +1263,12 @@ pages:
 
   - url: "/glossary/what-is-fid/"
     type: glossary
-    primary: "FID"
+    primary: "what is FID"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "FID"
-    canonical_for: "FID"
+    cluster: "SEO"
+    canonical_for: "what is FID"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 26
@@ -1339,44 +1281,42 @@ pages:
 
   - url: "/glossary/what-is-ga4/"
     type: glossary
-    primary: "GA4"
+    primary: "what is GA4"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "GA4"
+    cluster: "Analytics & Attribution"
+    canonical_for: "what is GA4"
     status: active
 
   - url: "/glossary/what-is-geo/"
     type: glossary
-    primary: "GEO (Generative Engine Optimization)"
+    primary: "what is GEO (Generative Engine Optimization)"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: ai-seo
-    cluster_entity: "Generative Engine Optimization (GEO)"
-    canonical_for: "GEO (Generative Engine Optimization)"
+    cluster: "SEO"
+    canonical_for: "what is GEO (Generative Engine Optimization)"
     status: active
 
   - url: "/glossary/what-is-go-to-market-strategy/"
     type: glossary
-    primary: "Go To Market Strategy"
+    primary: "what is Go To Market Strategy"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Go To Market Strategy"
+    cluster: "SaaS Metrics & Growth"
+    canonical_for: "what is Go To Market Strategy"
     status: active
 
   - url: "/glossary/what-is-google-ads/"
     type: glossary
-    primary: "Google Ads"
+    primary: "what is Google Ads"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Google Ads"
-    canonical_for: "Google Ads"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is Google Ads"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 159
@@ -1388,13 +1328,12 @@ pages:
 
   - url: "/glossary/what-is-google-search-console/"
     type: glossary
-    primary: "Google Search Console"
+    primary: "what is Google Search Console"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Google Search Console"
-    canonical_for: "Google Search Console"
+    cluster: "SEO"
+    canonical_for: "what is Google Search Console"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 8
@@ -1407,24 +1346,22 @@ pages:
 
   - url: "/glossary/what-is-google-tag-manager/"
     type: glossary
-    primary: "Google Tag Manager"
+    primary: "what is Google Tag Manager"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Google Tag Manager"
-    canonical_for: "Google Tag Manager"
+    cluster: "Analytics & Attribution"
+    canonical_for: "what is Google Tag Manager"
     status: active
 
   - url: "/glossary/what-is-gpt/"
     type: glossary
-    primary: "GPT"
+    primary: "what is GPT"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "OpenAI GPT"
-    canonical_for: "GPT"
+    cluster: "AI & Future Search"
+    canonical_for: "what is GPT"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 4
@@ -1437,13 +1374,12 @@ pages:
 
   - url: "/glossary/what-is-icp/"
     type: glossary
-    primary: "ICP"
+    primary: "what is ICP"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "ICP"
-    canonical_for: "ICP"
+    cluster: "Demand Generation"
+    canonical_for: "what is ICP"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 5
@@ -1455,12 +1391,12 @@ pages:
 
   - url: "/glossary/what-is-image-alt-text/"
     type: glossary
-    primary: "Image Alt Text"
+    primary: "what is Image Alt Text"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Image Alt Text"
+    cluster: "SEO"
+    canonical_for: "what is Image Alt Text"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 17
@@ -1473,23 +1409,22 @@ pages:
 
   - url: "/glossary/what-is-inbound-marketing/"
     type: glossary
-    primary: "Inbound Marketing"
+    primary: "what is Inbound Marketing"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "INBOUND"
-    canonical_for: "Inbound Marketing"
+    cluster: "Content Marketing"
+    canonical_for: "what is Inbound Marketing"
     status: active
 
   - url: "/glossary/what-is-indexing/"
     type: glossary
-    primary: "Indexing"
+    primary: "what is Indexing"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Indexing"
+    cluster: "SEO"
+    canonical_for: "what is Indexing"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 84
@@ -1501,23 +1436,22 @@ pages:
 
   - url: "/glossary/what-is-keyword-difficulty/"
     type: glossary
-    primary: "Keyword Difficulty"
+    primary: "what is Keyword Difficulty"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Keyword Difficulty"
+    cluster: "SEO"
+    canonical_for: "what is Keyword Difficulty"
     status: active
 
   - url: "/glossary/what-is-keyword-ranking/"
     type: glossary
-    primary: "Keyword Ranking"
+    primary: "what is Keyword Ranking"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Keyword rankings"
-    canonical_for: "Keyword Ranking"
+    cluster: "SEO"
+    canonical_for: "what is Keyword Ranking"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 89
@@ -1530,13 +1464,12 @@ pages:
 
   - url: "/glossary/what-is-keyword-research/"
     type: glossary
-    primary: "Keyword Research"
+    primary: "what is Keyword Research"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Keyword research"
-    canonical_for: "Keyword Research"
+    cluster: "Content Marketing"
+    canonical_for: "what is Keyword Research"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 143
@@ -1549,13 +1482,12 @@ pages:
 
   - url: "/glossary/what-is-lead-generation/"
     type: glossary
-    primary: "Lead Generation"
+    primary: "what is Lead Generation"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Lead generation"
-    canonical_for: "Lead Generation"
+    cluster: "Demand Generation"
+    canonical_for: "what is Lead Generation"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 3
@@ -1567,13 +1499,12 @@ pages:
 
   - url: "/glossary/what-is-meta-ads/"
     type: glossary
-    primary: "Meta Ads"
+    primary: "what is Meta Ads"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Meta Ads (Facebook Ads)"
-    canonical_for: "Meta Ads"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is Meta Ads"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 1
@@ -1585,24 +1516,22 @@ pages:
 
   - url: "/glossary/what-is-nrr/"
     type: glossary
-    primary: "Nrr"
+    primary: "what is Nrr"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "NRR"
-    canonical_for: "Nrr"
+    cluster: "SaaS Metrics & Growth"
+    canonical_for: "what is Nrr"
     status: active
 
   - url: "/glossary/what-is-off-page-seo/"
     type: glossary
-    primary: "Off Page SEO"
+    primary: "what is Off Page SEO"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Off-page SEO"
-    canonical_for: "Off Page SEO"
+    cluster: "SEO"
+    canonical_for: "what is Off Page SEO"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 2
@@ -1614,13 +1543,12 @@ pages:
 
   - url: "/glossary/what-is-on-page-seo/"
     type: glossary
-    primary: "On Page SEO"
+    primary: "what is On Page SEO"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "On-page SEO"
-    canonical_for: "On Page SEO"
+    cluster: "SEO"
+    canonical_for: "what is On Page SEO"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 11
@@ -1632,13 +1560,12 @@ pages:
 
   - url: "/glossary/what-is-performance-marketing/"
     type: glossary
-    primary: "Performance Marketing"
+    primary: "what is Performance Marketing"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Performance Marketing"
-    canonical_for: "Performance Marketing"
+    cluster: "Demand Generation"
+    canonical_for: "what is Performance Marketing"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 128
@@ -1651,13 +1578,12 @@ pages:
 
   - url: "/glossary/what-is-ppc/"
     type: glossary
-    primary: "PPC"
+    primary: "what is PPC"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "SaaS PPC"
-    canonical_for: "PPC"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is PPC"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 8
@@ -1669,13 +1595,12 @@ pages:
 
   - url: "/glossary/what-is-programmatic-advertising/"
     type: glossary
-    primary: "Programmatic Advertising"
+    primary: "what is Programmatic Advertising"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Programmatic advertising"
-    canonical_for: "Programmatic Advertising"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is Programmatic Advertising"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 3
@@ -1687,13 +1612,12 @@ pages:
 
   - url: "/glossary/what-is-prompt-engineering/"
     type: glossary
-    primary: "Prompt Engineering"
+    primary: "what is Prompt Engineering"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: ai-seo
-    cluster_entity: "Prompt engineering"
-    canonical_for: "Prompt Engineering"
+    cluster: "AI & Future Search"
+    canonical_for: "what is Prompt Engineering"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 1
@@ -1705,34 +1629,32 @@ pages:
 
   - url: "/glossary/what-is-rag/"
     type: glossary
-    primary: "RAG"
+    primary: "what is RAG"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "RAG"
+    cluster: "AI & Future Search"
+    canonical_for: "what is RAG"
     status: active
 
   - url: "/glossary/what-is-roas/"
     type: glossary
-    primary: "ROAS"
+    primary: "what is ROAS"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Blended ROAS"
-    canonical_for: "ROAS"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is ROAS"
     status: active
 
   - url: "/glossary/what-is-robots-txt/"
     type: glossary
-    primary: "Robots.txt"
+    primary: "what is Robots.txt"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Robots.txt"
-    canonical_for: "Robots.txt"
+    cluster: "SEO"
+    canonical_for: "what is Robots.txt"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 8
@@ -1744,12 +1666,12 @@ pages:
 
   - url: "/glossary/what-is-runway/"
     type: glossary
-    primary: "Runway"
+    primary: "what is Runway"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Runway"
+    cluster: "SaaS Metrics & Growth"
+    canonical_for: "what is Runway"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 2
@@ -1761,23 +1683,22 @@ pages:
 
   - url: "/glossary/what-is-sal-in-saas/"
     type: glossary
-    primary: "SAL in SaaS"
+    primary: "what is SAL in SaaS"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "SAL"
-    canonical_for: "SAL in SaaS"
+    cluster: "SaaS Metrics & Growth"
+    canonical_for: "what is SAL in SaaS"
     status: active
 
   - url: "/glossary/what-is-schema-markup/"
     type: glossary
-    primary: "Schema Markup"
+    primary: "what is Schema Markup"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Schema Markup"
+    cluster: "SEO"
+    canonical_for: "what is Schema Markup"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 17
@@ -1790,55 +1711,52 @@ pages:
 
   - url: "/glossary/what-is-search-intent/"
     type: glossary
-    primary: "Search Intent"
+    primary: "what is Search Intent"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Search intent"
-    canonical_for: "Search Intent"
+    cluster: "SEO"
+    canonical_for: "what is Search Intent"
     status: active
 
   - url: "/glossary/what-is-search-volume/"
     type: glossary
-    primary: "Search Volume"
+    primary: "what is Search Volume"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Search Volume"
+    cluster: "SEO"
+    canonical_for: "what is Search Volume"
     status: active
 
   - url: "/glossary/what-is-sem/"
     type: glossary
-    primary: "SEM"
+    primary: "what is SEM"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "SEM"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is SEM"
     status: active
 
   - url: "/glossary/what-is-seo/"
     type: glossary
-    primary: "SEO"
+    primary: "what is SEO"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "SEO"
-    canonical_for: "SEO"
+    cluster: "SEO"
+    canonical_for: "what is SEO"
     status: active
 
   - url: "/glossary/what-is-serp/"
     type: glossary
-    primary: "SERP"
+    primary: "what is SERP"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "SERP"
-    canonical_for: "SERP"
+    cluster: "SEO"
+    canonical_for: "what is SERP"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 43
@@ -1851,12 +1769,12 @@ pages:
 
   - url: "/glossary/what-is-ssl-certificate/"
     type: glossary
-    primary: "an SSL Certificate"
+    primary: "what is an SSL Certificate"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "an SSL Certificate"
+    cluster: "SEO"
+    canonical_for: "what is an SSL Certificate"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 2
@@ -1868,23 +1786,22 @@ pages:
 
   - url: "/glossary/what-is-ssp/"
     type: glossary
-    primary: "SSP"
+    primary: "what is SSP"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "SSP"
+    cluster: "PPC & Paid Advertising"
+    canonical_for: "what is SSP"
     status: active
 
   - url: "/glossary/what-is-structured-data/"
     type: glossary
-    primary: "Structured Data"
+    primary: "what is Structured Data"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Structured Data Markup Helper"
-    canonical_for: "Structured Data"
+    cluster: "SEO"
+    canonical_for: "what is Structured Data"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 191
@@ -1897,23 +1814,22 @@ pages:
 
   - url: "/glossary/what-is-tam-sam-som/"
     type: glossary
-    primary: "TAM SAM SOM"
+    primary: "what is TAM SAM SOM"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "TAM SAM SOM"
+    cluster: "SaaS Metrics & Growth"
+    canonical_for: "what is TAM SAM SOM"
     status: active
 
   - url: "/glossary/what-is-technical-seo/"
     type: glossary
-    primary: "Technical SEO"
+    primary: "what is Technical SEO"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Technical SEO"
-    canonical_for: "Technical SEO"
+    cluster: "SEO"
+    canonical_for: "what is Technical SEO"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 11
@@ -1925,13 +1841,12 @@ pages:
 
   - url: "/glossary/what-is-third-party-cookies/"
     type: glossary
-    primary: "Third-Party Cookies"
+    primary: "what is Third-Party Cookies"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Third-party cookies"
-    canonical_for: "Third-Party Cookies"
+    cluster: "Analytics & Attribution"
+    canonical_for: "what is Third-Party Cookies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 1
@@ -1943,55 +1858,52 @@ pages:
 
   - url: "/glossary/what-is-thought-leadership/"
     type: glossary
-    primary: "Thought Leadership"
+    primary: "what is Thought Leadership"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Thought leadership"
-    canonical_for: "Thought Leadership"
+    cluster: "Content Marketing"
+    canonical_for: "what is Thought Leadership"
     status: active
 
   - url: "/glossary/what-is-topical-authority/"
     type: glossary
-    primary: "Topical Authority"
+    primary: "what is Topical Authority"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "Topical authority"
-    canonical_for: "Topical Authority"
+    cluster: "SEO"
+    canonical_for: "what is Topical Authority"
     status: active
 
   - url: "/glossary/what-is-upsell/"
     type: glossary
-    primary: "Upsell"
+    primary: "what is Upsell"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "Upsell"
+    cluster: "SaaS Metrics & Growth"
+    canonical_for: "what is Upsell"
     status: active
 
   - url: "/glossary/what-is-user-generated-content/"
     type: glossary
-    primary: "User Generated Content"
+    primary: "what is User Generated Content"
     secondary: []
     intent: informational
     funnel: tofu
-    cluster: null
-    canonical_for: "User Generated Content"
+    cluster: "Content Marketing"
+    canonical_for: "what is User Generated Content"
     status: active
 
   - url: "/list/b2b-ppc-experts/"
     type: list
-    primary: "best b2b ppc experts"
+    primary: "b2b ppc experts"
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "B2B SaaS PPC"
-    canonical_for: "best b2b ppc experts"
+    cluster: "B2B PPC"
+    canonical_for: "b2b ppc experts"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 10
@@ -2007,8 +1919,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "AEO"
+    cluster: "SEO"
     canonical_for: "best aeo agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2026,8 +1937,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "B2B SaaS PPC"
+    cluster: "B2B PPC"
     canonical_for: "best affordable b2b ppc agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2044,8 +1954,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "AI SEO"
+    cluster: "SEO"
     canonical_for: "best ai seo agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2063,8 +1972,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "AI visibility"
+    cluster: "SEO Tools"
     canonical_for: "best ai visibility tools"
     status: active
 
@@ -2074,7 +1982,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "B2B PPC"
     canonical_for: "best b2b advertising agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2092,8 +2000,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Content Marketing"
+    cluster: "B2B Content Marketing"
     canonical_for: "best b2b content marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2111,8 +2018,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Demand generation"
+    cluster: "B2B Demand Generation"
     canonical_for: "best b2b demand generation agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2130,8 +2036,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Google Ads"
+    cluster: "B2B PPC"
     canonical_for: "best b2b google ads agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2149,8 +2054,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Lead generation"
+    cluster: "B2B Lead Generation"
     canonical_for: "best b2b lead generation agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2164,13 +2068,12 @@ pages:
 
   - url: "/list/best-b2b-marketing-agencies/"
     type: list
-    primary: "best the top 11 b2b marketing agencies"
+    primary: "best b2b marketing agencies"
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "B2B SaaS Marketing"
-    canonical_for: "best the top 11 b2b marketing agencies"
+    cluster: "B2B Marketing"
+    canonical_for: "best b2b marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 1509
@@ -2178,7 +2081,8 @@ pages:
       top_query_position: 70.8
       top_query_impressions: 107
       aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
+      primary_position: 59.1        # rank for the TARGET keyword
+      primary_impressions: 42
 
   - url: "/list/best-b2b-seo-agencies/"
     type: list
@@ -2186,8 +2090,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "B2B SaaS SEO"
+    cluster: "B2B SEO"
     canonical_for: "best b2b seo agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2205,7 +2108,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "CRO Tools"
     canonical_for: "best cro tools saas"
     status: active
 
@@ -2215,7 +2118,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "B2B Marketing"
     canonical_for: "best cybersecurity marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2233,7 +2136,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "B2B Marketing"
     canonical_for: "best devtools marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2250,7 +2153,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "Edtech Marketing"
     canonical_for: "best edtech marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2268,8 +2171,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Enterprise SaaS SEO"
+    cluster: "Enterprise Marketing"
     canonical_for: "best enterprise seo agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2287,8 +2189,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Keyword research"
+    cluster: "SEO Tools"
     canonical_for: "best free keyword research tools"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2306,8 +2207,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "GEO"
+    cluster: "SEO"
     canonical_for: "best geo agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2325,7 +2225,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "B2B Marketing"
     canonical_for: "best healthtech marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2342,8 +2242,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Session recording"
+    cluster: "CRO Tools"
     canonical_for: "best heatmap session recording tools for saas"
     status: active
 
@@ -2353,8 +2252,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "HR Tech"
+    cluster: "B2B Marketing"
     canonical_for: "best hr tech marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2371,7 +2269,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "SEO Tools"
     canonical_for: "best keyword clustering tools"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2389,8 +2287,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Landing pages"
+    cluster: "CRO Tools"
     canonical_for: "best landing page builders for saas"
     status: active
 
@@ -2400,7 +2297,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "B2B Marketing"
     canonical_for: "best legaltech marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2417,7 +2314,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "B2B LinkedIn Marketing"
     canonical_for: "best linkedin marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2435,7 +2332,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "B2B Marketing"
     canonical_for: "best martech marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2452,7 +2349,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "B2B Marketing"
     canonical_for: "best proptech marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2469,7 +2366,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "SEO Tools"
     canonical_for: "best rank tracking tools for saas"
     status: active
 
@@ -2479,8 +2376,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "SaaS Content Marketing"
+    cluster: "SaaS Content Marketing"
     canonical_for: "best saas content marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2498,7 +2394,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "SaaS SEO"
     canonical_for: "best saas geo agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2515,8 +2411,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Growth Marketing"
+    cluster: "SaaS Marketing"
     canonical_for: "best saas growth marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2533,8 +2428,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "SaaS Link Building"
+    cluster: "SaaS SEO"
     canonical_for: "best saas link building agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2552,8 +2446,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "B2B SaaS Marketing"
+    cluster: "SaaS Marketing"
     canonical_for: "best saas marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2571,8 +2464,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "SaaS PPC"
+    cluster: "SaaS PPC"
     canonical_for: "best saas ppc agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2586,13 +2478,12 @@ pages:
 
   - url: "/list/best-saas-seo-agencies-for-product-led-growth/"
     type: list
-    primary: "best saas seo agencies"
+    primary: "best saas seo agencies for plg"
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "SaaS SEO"
-    canonical_for: "best saas seo agencies"
+    cluster: "SEO"
+    canonical_for: "best saas seo agencies for plg"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 16
@@ -2604,51 +2495,46 @@ pages:
 
   - url: "/list/best-saas-seo-agencies-for-sales-led-growth/"
     type: list
-    primary: "best saas seo agencies"
+    primary: "best saas seo agencies for slg"
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "SaaS SEO"
-    canonical_for: "best saas seo agencies"
+    cluster: "SEO"
+    canonical_for: "best saas seo agencies for slg"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 68
       top_query: "saas seo agencies"          # what the page actually surfaces for
       top_query_position: 71.4
       top_query_impressions: 15
-      aligned: true              # top query == primary target?
-      primary_position: 71.4        # rank for the TARGET keyword
-      primary_impressions: 15
+      aligned: false              # top query == primary target?
+      primary_ranking: false        # target keyword not surfacing yet
 
   - url: "/list/best-saas-seo-agencies-for-series-a/"
     type: list
-    primary: "best saas seo agencies"
+    primary: "best saas seo agencies for series a"
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "SaaS SEO"
-    canonical_for: "best saas seo agencies"
+    cluster: "SEO"
+    canonical_for: "best saas seo agencies for series a"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 47
       top_query: "saas seo agencies"          # what the page actually surfaces for
       top_query_position: 78.1
       top_query_impressions: 8
-      aligned: true              # top query == primary target?
-      primary_position: 78.1        # rank for the TARGET keyword
-      primary_impressions: 8
+      aligned: false              # top query == primary target?
+      primary_ranking: false        # target keyword not surfacing yet
 
   - url: "/list/best-saas-seo-agencies-for-series-b/"
     type: list
-    primary: "best saas seo agencies"
+    primary: "best saas seo agencies for series b"
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "SaaS SEO"
-    canonical_for: "best saas seo agencies"
+    cluster: "SEO"
+    canonical_for: "best saas seo agencies for series b"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 19
@@ -2656,18 +2542,16 @@ pages:
       top_query_position: 84.2
       top_query_impressions: 4
       aligned: false              # top query == primary target?
-      primary_position: 81        # rank for the TARGET keyword
-      primary_impressions: 1
+      primary_ranking: false        # target keyword not surfacing yet
 
   - url: "/list/best-saas-seo-agencies-for-startups/"
     type: list
-    primary: "best saas seo agencies"
+    primary: "best saas seo agencies for startups"
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "SaaS SEO"
-    canonical_for: "best saas seo agencies"
+    cluster: "SEO"
+    canonical_for: "best saas seo agencies for startups"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 1490
@@ -2675,8 +2559,7 @@ pages:
       top_query_position: 37.1
       top_query_impressions: 189
       aligned: false              # top query == primary target?
-      primary_position: 72.0        # rank for the TARGET keyword
-      primary_impressions: 37
+      primary_ranking: false        # target keyword not surfacing yet
 
   - url: "/list/best-saas-seo-agencies/"
     type: list
@@ -2684,8 +2567,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "SaaS SEO"
+    cluster: "SaaS SEO"
     canonical_for: "best saas seo agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2703,7 +2585,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "SEO Tools"
     canonical_for: "best schema markup tools for saas"
     status: active
 
@@ -2713,7 +2595,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "SEO Tools"
     canonical_for: "best serp testing tools for saas"
     status: active
 
@@ -2723,8 +2605,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Technical SEO"
+    cluster: "SEO"
     canonical_for: "best technical seo agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2738,13 +2619,12 @@ pages:
 
   - url: "/list/saas-seo-experts/"
     type: list
-    primary: "best saas seo experts"
+    primary: "saas seo experts"
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "SaaS SEO"
-    canonical_for: "best saas seo experts"
+    cluster: "SaaS SEO"
+    canonical_for: "saas seo experts"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 408
@@ -2761,8 +2641,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "B2B SaaS PPC"
+    cluster: "B2B PPC"
     canonical_for: "best b2b ppc agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2780,7 +2659,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "Fintech SEO"
     canonical_for: "best fintech marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2798,7 +2677,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "Fintech SEO"
     canonical_for: "best fintech seo agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2816,8 +2695,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Performance Marketing"
+    cluster: "B2B PPC"
     canonical_for: "best performance marketing agencies"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2835,8 +2713,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Directive Consulting"
+    cluster: "Head-to-head"
     canonical_for: "directive consulting vs refine labs"
     status: active
 
@@ -2846,7 +2723,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "Head-to-head"
     canonical_for: "klientboost vs disruptive advertising"
     status: active
 
@@ -2856,8 +2733,7 @@ pages:
     secondary: []
     intent: navigational
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "PipeRocket Digital"
+    cluster: "Agency comparison"
     canonical_for: "piperocket digital vs klientboost"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2874,8 +2750,7 @@ pages:
     secondary: []
     intent: navigational
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "PipeRocket Digital"
+    cluster: "Agency comparison"
     canonical_for: "piperocket digital vs nogood"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2892,8 +2767,7 @@ pages:
     secondary: []
     intent: navigational
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "PipeRocket Digital"
+    cluster: "Agency comparison"
     canonical_for: "piperocket digital vs omniscient digital"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2910,8 +2784,7 @@ pages:
     secondary: []
     intent: navigational
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "PipeRocket Digital"
+    cluster: "Agency comparison"
     canonical_for: "piperocket digital vs siege media"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2928,8 +2801,7 @@ pages:
     secondary: []
     intent: navigational
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "PipeRocket Digital"
+    cluster: "Agency comparison"
     canonical_for: "piperocket digital vs webfx"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2946,8 +2818,7 @@ pages:
     secondary: []
     intent: navigational
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Directive Consulting"
+    cluster: "Agency comparison"
     canonical_for: "piperocket vs directive consulting"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -2964,8 +2835,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Siege Media"
+    cluster: "Head-to-head"
     canonical_for: "siege media vs animalz"
     status: active
 
@@ -2975,8 +2845,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Siege Media"
+    cluster: "Head-to-head"
     canonical_for: "siege media vs omniscient digital"
     status: active
 
@@ -2986,7 +2855,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "Head-to-head"
     canonical_for: "simpletiger vs skale"
     status: active
 
@@ -2996,8 +2865,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Animalz"
+    cluster: "Alternatives"
     canonical_for: "animalz alternatives"
     status: active
 
@@ -3007,8 +2875,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Directive Consulting"
+    cluster: "Alternatives"
     canonical_for: "directive consulting alternatives"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3025,8 +2892,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Kalungi"
+    cluster: "Alternatives"
     canonical_for: "kalungi alternatives"
     status: active
 
@@ -3036,8 +2902,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "KlientBoost"
+    cluster: "Alternatives"
     canonical_for: "klientboost alternatives"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3054,8 +2919,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "NoGood"
+    cluster: "Alternatives"
     canonical_for: "nogood alternatives"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3073,8 +2937,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Omniscient Digital"
+    cluster: "Alternatives"
     canonical_for: "omniscient digital alternatives"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3091,8 +2954,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Powered by Search"
+    cluster: "Alternatives"
     canonical_for: "powered by search alternatives"
     status: active
 
@@ -3102,7 +2964,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: null
+    cluster: "Alternatives"
     canonical_for: "refine labs alternatives"
     status: active
 
@@ -3112,8 +2974,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Siege Media"
+    cluster: "Alternatives"
     canonical_for: "siege media alternatives"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3130,8 +2991,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Single Grain"
+    cluster: "Alternatives"
     canonical_for: "single grain alternatives"
     status: active
 
@@ -3141,8 +3001,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "WebFX"
+    cluster: "Alternatives"
     canonical_for: "webfx alternatives"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3261,9 +3120,8 @@ pages:
     primary: "free seo roi calculator"
     secondary: []
     intent: transactional
-    funnel: tofu
-    cluster: saas-seo
-    cluster_entity: "ROI calculators"
+    funnel: bofu
+    cluster: null
     canonical_for: "free seo roi calculator"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3280,7 +3138,7 @@ pages:
     primary: "ppc roas calculator"
     secondary: []
     intent: transactional
-    funnel: tofu
+    funnel: bofu
     cluster: null
     canonical_for: "ppc roas calculator"
     status: active
@@ -3298,7 +3156,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3314,7 +3172,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3330,7 +3188,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3341,7 +3199,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3357,7 +3215,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3373,7 +3231,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3384,7 +3242,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3400,7 +3258,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3416,7 +3274,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3432,7 +3290,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3443,7 +3301,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3454,7 +3312,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3465,7 +3323,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3475,9 +3333,8 @@ pages:
     primary: "saas marketing agency"
     secondary: []
     intent: commercial
-    funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "B2B SaaS Marketing"
+    funnel: brand
+    cluster: null
     canonical_for: "saas marketing agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3495,7 +3352,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3511,7 +3368,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3527,7 +3384,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3543,7 +3400,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3559,7 +3416,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3575,7 +3432,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3591,7 +3448,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3607,7 +3464,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3623,7 +3480,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3639,7 +3496,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3655,8 +3512,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Account-based marketing"
+    cluster: null
     canonical_for: "account based marketing agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3673,8 +3529,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "AI SEO"
+    cluster: null
     canonical_for: "ai seo services"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3691,8 +3546,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Microsoft Advertising (Bing Ads)"
+    cluster: null
     canonical_for: "bing ads agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3709,7 +3563,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3725,7 +3579,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3741,8 +3595,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Content Marketing"
+    cluster: null
     canonical_for: "content marketing agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3759,7 +3612,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3829,8 +3682,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "AI SEO"
+    cluster: null
     canonical_for: "enterprise ai seo services"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3847,8 +3699,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Enterprise PPC"
+    cluster: null
     canonical_for: "enterprise ppc agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3866,8 +3717,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Enterprise SaaS SEO"
+    cluster: null
     canonical_for: "enterprise seo agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3884,7 +3734,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -3918,8 +3768,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Fintech PPC"
+    cluster: null
     canonical_for: "fintech ppc agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -3953,8 +3802,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Google Ads"
+    cluster: null
     canonical_for: "google ads agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -4006,8 +3854,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "In-house vs agency PPC"
+    cluster: null
     canonical_for: "hrtech ppc agency"
     status: active
 
@@ -4068,8 +3915,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Link building"
+    cluster: null
     canonical_for: "link building agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -4099,12 +3945,12 @@ pages:
 
   - url: "/marketing-ops/"
     type: landing
-    primary: "marketing ops"
+    primary: "marketing ops agency"
     secondary: []
     intent: commercial
     funnel: bofu
     cluster: null
-    canonical_for: "marketing ops"
+    canonical_for: "marketing ops agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 132
@@ -4138,8 +3984,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "Paid Social"
+    cluster: null
     canonical_for: "paid social agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -4156,7 +4001,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -4168,21 +4013,18 @@ pages:
 
   - url: "/pricing/"
     type: landing
-    primary: "pricing"
+    primary: ""
     secondary: []
     intent: commercial
-    funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Pricing pages"
-    canonical_for: "pricing"
+    funnel: brand
+    cluster: null
+    canonical_for: ""
     status: active
     gsc:                          # MEASUREMENT only — not the target
       total_impressions: 35
       top_query: "\"webfx\""          # what the page actually surfaces for
       top_query_position: 53.8
       top_query_impressions: 4
-      aligned: false              # top query == primary target?
-      primary_ranking: false        # target keyword not surfacing yet
 
   - url: "/privacy-policy/"
     type: utility
@@ -4190,7 +4032,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -4206,8 +4048,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Programmatic SEO"
+    cluster: null
     canonical_for: "programmatic seo agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -4243,7 +4084,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -4255,13 +4096,12 @@ pages:
 
   - url: "/reviews/"
     type: landing
-    primary: "reviews"
+    primary: ""
     secondary: []
     intent: commercial
-    funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Review"
-    canonical_for: "reviews"
+    funnel: brand
+    cluster: null
+    canonical_for: ""
     status: active
 
   - url: "/saas-ppc/faqs/"
@@ -4270,7 +4110,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -4286,8 +4126,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "SaaS PPC"
+    cluster: null
     canonical_for: "saas ppc"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -4305,7 +4144,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -4321,8 +4160,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-paid-marketing
-    cluster_entity: "SaaS SEO"
+    cluster: null
     canonical_for: "saas seo agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -4340,7 +4178,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -4356,8 +4194,7 @@ pages:
     secondary: []
     intent: commercial
     funnel: bofu
-    cluster: saas-seo
-    cluster_entity: "Technical SEO"
+    cluster: null
     canonical_for: "technical seo agency"
     status: active
     gsc:                          # MEASUREMENT only — not the target
@@ -4374,7 +4211,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -4390,7 +4227,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active
@@ -4406,7 +4243,7 @@ pages:
     primary: ""
     secondary: []
     intent: navigational
-    funnel: none
+    funnel: brand
     cluster: null
     canonical_for: ""
     status: active

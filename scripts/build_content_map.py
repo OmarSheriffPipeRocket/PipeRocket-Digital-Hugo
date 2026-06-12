@@ -32,9 +32,11 @@ from generate_link_map import read_frontmatter, clean_blog_anchor, clean_listicl
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
-ENTITY_MAP = ROOT / "data" / "entity_map.yml"
 GSC_DIR = ROOT / "credentials" / "gsc_output"
 OUT_FILE = ROOT / "data" / "content_map.yml"
+# Editorial overrides (human-verified primary/intent/funnel), keyed by url.
+# These WIN over the heuristics — the builder only fills gaps for new pages.
+OVERRIDES_FILE = ROOT / "data" / "content_map_overrides.csv"
 
 # Section-based scopes live under content/<section>/*.md.
 # "landing" is special: root-level content/*.md with URL /<slug>/ (no section).
@@ -200,41 +202,34 @@ def normalize(s):
     return [singularize(w) for w in s.split() if w not in STOPWORDS and len(w) > 1]
 
 
-def load_entity_clusters():
-    """Return {cluster_key: [(entity_string, token_set), ...]} from entity_map.yml.
+def load_overrides():
+    """Return {url: {intent, funnel, primary, secondary[]}} from the editorial
+    overrides CSV, or {} if absent. These are the human-verified values."""
+    import csv
+    if not OVERRIDES_FILE.exists():
+        return {}
+    out = {}
+    for r in csv.DictReader(OVERRIDES_FILE.open(encoding="utf-8")):
+        url = (r.get("url") or "").strip()
+        if not url:
+            continue
+        sec = [s.strip() for s in (r.get("secondary") or "").split(";") if s.strip()]
+        out[url] = {
+            "intent": (r.get("intent") or "").strip(),
+            "funnel": (r.get("funnel") or "").strip(),
+            "primary": (r.get("primary") or "").strip(),
+            "secondary": sec,
+        }
+    return out
 
-    Minimal hand-parse (avoids a hard PyYAML dep): top-level `key:` at col 0 opens
-    a cluster; `- Entity` list items anywhere under it are collected.
-    """
-    clusters = {}
-    cur = None
-    for line in ENTITY_MAP.read_text(encoding="utf-8").splitlines():
-        if re.match(r"^[a-z][a-z0-9\-]*:\s*$", line):       # top-level cluster key
-            cur = line.split(":")[0]
-            clusters[cur] = []
-        elif cur and re.match(r"^\s*-\s+\S", line):          # list item (entity)
-            ent = line.strip()[1:].strip().strip('"')
-            toks = set(normalize(ent))
-            if toks:
-                clusters[cur].append((ent, toks))
-    return clusters
 
-
-def match_cluster(primary, clusters):
-    """Best (cluster_key, entity) by token-Jaccard against primary; None if weak."""
-    ptoks = set(normalize(primary))
-    if not ptoks:
-        return None, None
-    best, best_score = (None, None), 0.0
-    for ckey, ents in clusters.items():
-        for ent, etoks in ents:
-            inter = len(ptoks & etoks)
-            if not inter:
-                continue
-            score = inter / len(ptoks | etoks)
-            if score > best_score:
-                best, best_score = (ckey, ent), score
-    return best if best_score >= 0.34 else (None, None)
+def page_category(f):
+    """The page's editorial cluster = its directory category (frontmatter
+    `category`, or `glossaryCategory` for glossary). This is the same taxonomy
+    that powers the resource-directory category tabs — maintained by hand, not
+    guessed. None when the page declares no category."""
+    extra = read_extra_fm(f)
+    return extra.get("category") or extra.get("glossaryCategory") or None
 
 
 # ---------- intent / funnel heuristics ----------
@@ -373,7 +368,7 @@ def iter_pages():
 
 
 def build():
-    clusters = load_entity_clusters()
+    overrides = load_overrides()
     gsc, gsc_src = load_gsc_rollup()
     entries = []
 
@@ -382,11 +377,9 @@ def build():
         no_keyword = ctype in NO_KEYWORD_TYPES   # utility / author / section
 
         # ---- primary = the keyword we CHOSE to target (editorial intent). ----
-        # Derived from slug/title, never from GSC: the whole point of the GSC
-        # block below is to measure whether the page actually surfaces for THIS
-        # target. Seeding primary from GSC would be circular (you'd define the
-        # target as whatever you already rank for, so "wrong keyword" is
-        # undetectable). Home gets its fixed head term; no-keyword types get none.
+        # Heuristic default (slug/title), overridden below by the editorial CSV.
+        # Never seeded from GSC: the GSC block measures whether the page actually
+        # surfaces for THIS target, so defining the target from GSC is circular.
         if ctype == "home":
             primary = HOME_PRIMARY
         elif no_keyword:
@@ -394,20 +387,34 @@ def build():
         else:
             primary = slug_primary(ctype, title, slug)
 
-        # secondary = additional TARGET keywords (also editorial). Only lists
-        # carry an obvious variant ("best X" + "top X"); leave others for humans.
+        # secondary = additional TARGET keywords. Lists carry an obvious variant
+        # ("best X" + "top X"); others come from the overrides CSV.
         secondary = []
         if ctype == "list":
             secondary = [c for c in clean_listicle_anchors(title, slug)[1:]
                          if normalize(c) != normalize(primary)]
 
+        intent, funnel, needs_review = guess_intent_funnel(ctype, title, slug)
+
+        # ---- editorial overrides WIN (human-verified primary/intent/funnel) ----
+        ov = overrides.get(path)
+        if ov:
+            primary = ov["primary"]       # verbatim editorial truth (blank = no target)
+            if ov["intent"]:
+                intent = ov["intent"]
+            if ov["funnel"]:
+                funnel = ov["funnel"]
+            if ov["secondary"]:
+                secondary = ov["secondary"]
+            needs_review = False
+
         # gsc = MEASUREMENT add-on: where we rank for the target vs what we
-        # actually surface for. Absent when the page has no GSC data yet.
+        # actually surface for. Measured against the (possibly overridden) primary.
         g = gsc.get(path)
         gsc_block = gsc_measure(g, primary) if g else None
 
-        ckey, centity = (None, None) if no_keyword else match_cluster(primary, clusters)
-        intent, funnel, needs_review = guess_intent_funnel(ctype, title, slug)
+        # cluster = the page's directory category (editorial taxonomy), not a guess.
+        cluster = None if no_keyword else page_category(f)
 
         entries.append({
             "url": path, "type": TYPE_LABEL.get(ctype, ctype),
@@ -415,7 +422,7 @@ def build():
             "primary": primary,
             "secondary": secondary,
             "intent": intent, "funnel": funnel, "needs_review": needs_review,
-            "cluster": ckey, "cluster_entity": centity,
+            "cluster": cluster,
             "canonical_for": primary,
             "status": "active",
             "gsc": gsc_block,
@@ -441,7 +448,8 @@ def write_yaml(entries, gsc_src):
         "# never seeded from GSC. The `gsc:` block is a MEASUREMENT add-on: it reports",
         "# whether the page actually ranks for that target (primary_position) and whether",
         "# the query it surfaces best for matches the target (aligned).",
-        "# intent/funnel are rule-derived per type (blogs: stats/starter = TOFU, else MOFU).",
+        "# primary/intent/funnel come from data/content_map_overrides.csv (editorial),",
+        "# falling back to per-type heuristics. cluster = the page's directory category.",
         f"# GSC source: {gsc_src or 'none (slug/title-only build)'}",
         "",
         "meta:",
@@ -469,9 +477,7 @@ def write_yaml(entries, gsc_src):
         rev = "        # REVIEW" if e.get("needs_review") else ""
         L.append(f"    intent: {e['intent']}{rev}")
         L.append(f"    funnel: {e['funnel']}")
-        L.append(f"    cluster: {e['cluster'] or 'null'}")
-        if e["cluster_entity"]:
-            L.append(f"    cluster_entity: {yq(e['cluster_entity'])}")
+        L.append(f"    cluster: {yq(e['cluster']) if e['cluster'] else 'null'}")
         L.append(f"    canonical_for: {yq(e['canonical_for'])}")
         L.append(f"    status: {e['status']}")
         if e["gsc"]:

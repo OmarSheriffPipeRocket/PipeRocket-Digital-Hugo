@@ -45,9 +45,9 @@ _Also: `top saas ppc agencies`, `best saas ppc agencies`_
 - **INVESTIGATE** `/list/best-affordable-b2b-ppc-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 - **INVESTIGATE** `/blogs/top-performance-marketing-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
-### 3. `seo enterprise agency` — MEDIUM  ·  4505 impr
+### 3. `enterprise seo agency` — MEDIUM  ·  4505 impr
 
-_Also: `enterprise seo agency`, `top enterprise seo agency`_
+_Also: `seo enterprise agency`, `top enterprise seo agency`_
 
 | URL | type | pos | impr | clk |  |
 |---|---|---|---|---|---|
@@ -181,4 +181,4 @@ _Also: `b2b ppc agency`, `top b2b ppc agency`_
 |---|---|---|
 | `b2b ppc` | `/blogs/b2b-ppc-guide/`<br>`/blogs/b2b-ppc/` |  |
 | `ppc saa` | `/blogs/saas-ppc/`<br>`/saas-ppc/` | intent-differentiated? |
-| `agencie saa seo` | `/list/best-saas-seo-agencies-for-product-led-growth/`<br>`/list/best-saas-seo-agencies-for-sales-led-growth/`<br>`/list/best-saas-seo-agencies-for-series-a/`<br>`/list/best-saas-seo-agencies-for-series-b/`<br>`/list/best-saas-seo-agencies-for-startups/`<br>`/list/best-saas-seo-agencies/` |  |
+| `agencie saa seo serie` | `/list/best-saas-seo-agencies-for-series-a/`<br>`/list/best-saas-seo-agencies-for-series-b/` |  |
