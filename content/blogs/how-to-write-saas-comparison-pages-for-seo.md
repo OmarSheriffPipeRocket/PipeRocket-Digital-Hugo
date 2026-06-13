@@ -262,7 +262,7 @@ Use context-aware buttons. In the migration section, say “Talk to our migratio
 
 Building these pages isn’t just about writing a copy. It requires deep research, accurate data collection, and a strategy that balances [SEO](/glossary/what-is-seo/) with conversion psychology.
 
-At **PipeRocket Digital**, we act as an extended team that owns the outcome, specifically SQLs and Pipeline.
+At **PipeRocket Digital**, we work as a [SaaS SEO agency](/saas-seo-agency/) that acts as an extended team and owns the outcome, specifically SQLs and Pipeline.
 
 We ensure this exact process is followed while collaborating with you to ensure we improve topical authority and close deals. We use this “outcome-first” approach to all the activities we do to improve your pipeline. Comparison pages are just one high-intent slice of a broader [SaaS SEO](/blogs/saas-seo/) program, and they convert best when the rest of your funnel is already pulling qualified traffic.
 

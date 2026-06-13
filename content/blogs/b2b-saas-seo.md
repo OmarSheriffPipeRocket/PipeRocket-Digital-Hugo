@@ -128,7 +128,7 @@ The Content Marketing Institute's [2026 B2B Content Marketing research](https://
 
 ### **MOFU (Middle-of-Funnel) Content**
 
-This is the phase of solution evaluation by prospects. Write use-case tutorials, compare-and-contrast articles, or guidebooks at depth- An example: CRM workflow automation of real estate, or project management software for remote teams. The content assists buyers in comparing, learning, and refining the options. Increase credibility through internal links to strategic articles, that demonstrate authority and a bigger picture of your service offerings.
+This is the phase of solution evaluation by prospects. Write use-case tutorials, compare-and-contrast articles, or guidebooks at depth- An example: CRM workflow automation of real estate, or project management software for remote teams. The content assists buyers in comparing, learning, and refining the options. Increase credibility through internal links to strategic articles, that demonstrate authority and a bigger picture of your service offerings. If building this out in-house is stretching your team thin, a specialized [SaaS SEO agency](/saas-seo-agency/) can own the execution while you stay focused on product.
 
 ### **BOFU (Bottom-of-Funnel) Content**
 

@@ -172,7 +172,7 @@ This guide is the hub for how we approach keyword research. Each stage below has
 
 ## Let PipeRocket Digital Do It for You
 
-Look, I’ll be honest with you, this methodology works, but it is a grind.If you are running a lean marketing team, you probably don’t have 40 hours to spare next week to sit in spreadsheets.That is exactly where **PipeRocketDigital** comes in.We don’t just send you a generic Semrush export and wish you luck. We come in and execute this exact “Goldmine” process for you.
+Look, I’ll be honest with you, this methodology works, but it is a grind. If you are running a lean marketing team, you probably don’t have 40 hours to spare next week to sit in spreadsheets. That is exactly where our [SaaS SEO services](/saas-seo-agency/) come in. We don’t just send you a generic Semrush export and wish you luck. We come in and execute this exact “Goldmine” process for you.
 
 We interview your Sales and CS teams, we map your Total Addressable Market (TAM), and we hand you a fully prioritized execution roadmap.You get the strategy without the headache.**Ready to stop guessing and start dominating your category?** [**Reach out to us!**](/contact-us/)
 
