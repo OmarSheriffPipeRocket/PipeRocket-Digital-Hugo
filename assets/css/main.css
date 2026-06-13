@@ -2491,44 +2491,6 @@ a.pr-hero__cta:hover,
 .pr-case:hover .pr-case__link-text { text-decoration-thickness: 2px; }
 
 /* =================================================================
-   REAL PAIN POINTS — the problem, before the solution
-   ================================================================= */
-.pr-pains__grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  max-width: 1080px;
-  margin: 0 auto;
-}
-.pr-pains__card {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 26px 22px;
-  background: var(--pr-cream);
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  border-left: 3px solid var(--pr-red);
-  border-radius: 6px;
-}
-.pr-pains__x {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.5rem; font-weight: 700; line-height: 1;
-  color: var(--pr-red);
-}
-.pr-pains__title {
-  margin: 0;
-  font-family: "IvyPresto Headline", Georgia, "Times New Roman", serif;
-  font-weight: 700; font-size: 1.12rem; line-height: 1.22; color: var(--pr-ink);
-}
-.pr-pains__desc {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.9rem; line-height: 1.5; color: var(--pr-ink-2);
-}
-@media (max-width: 900px) { .pr-pains__grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 520px) { .pr-pains__grid { grid-template-columns: 1fr; } }
-
-/* =================================================================
    CASE STUDY SLIDER (stats + quote + attribution + CTA)
    ================================================================= */
 /* Tighter vertical padding for the case-study section on this page only */
