@@ -2639,8 +2639,7 @@ a.pr-hero__cta:hover,
   gap: 22px;
 }
 .pr-segtabs__cards:has(.pr-segtabs__card:only-child),
-.pr-segtabs__panel[data-panel="motion"] .pr-segtabs__cards,
-.pr-segtabs__panel[data-panel="industry"] .pr-segtabs__cards {
+.pr-segtabs__panel[data-panel="motion"] .pr-segtabs__cards {
   grid-template-columns: repeat(2, 1fr);
   max-width: 660px;
   margin: 0 auto;
