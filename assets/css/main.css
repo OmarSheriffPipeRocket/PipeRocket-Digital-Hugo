@@ -4674,9 +4674,11 @@ a.pr-footer__trust-item:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 768px) {
-  .pr-compare-table__row { grid-template-columns: 0.62fr 1fr 1fr 1.1fr; }
+  .pr-compare-table__row { grid-template-columns: 1fr 1fr 1.1fr; }
+  /* Only the SaaS SEO page has the extra "The difference" dimension column */
+  .page-saas-seo .pr-compare-table__row { grid-template-columns: 0.62fr 1fr 1fr 1.1fr; }
 }
-.pr-compare-table__row > div.pr-compare-table__dim {
+.page-saas-seo .pr-compare-table__row > div.pr-compare-table__dim {
   display: flex;
   align-items: center;
   font-family: "IvyPresto Headline", Georgia, "Times New Roman", serif;
@@ -4711,8 +4713,9 @@ a.pr-footer__trust-item:hover {
 }
 .pr-compare-table__row > div p:last-child { margin-bottom: 0; }
 @media (max-width: 1023px) {
-  .pr-compare-table__row { grid-template-columns: 0.5fr 1fr 1fr 1fr; }
-  .pr-compare-table__row > div.pr-compare-table__dim { font-size: 0.74rem; line-height: 1.25; }
+  .pr-compare-table__row { grid-template-columns: 1fr 1fr 1fr; }
+  .page-saas-seo .pr-compare-table__row { grid-template-columns: 0.5fr 1fr 1fr 1fr; }
+  .page-saas-seo .pr-compare-table__row > div.pr-compare-table__dim { font-size: 0.74rem; line-height: 1.25; }
   .pr-compare-table__row > div {
     padding: 12px 6px;
     font-size: 0.7rem;
