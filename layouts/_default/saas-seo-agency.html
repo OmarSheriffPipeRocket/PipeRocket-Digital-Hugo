@@ -630,6 +630,76 @@
 </section>
 
 <!-- ====================================================
+     RELATED GUIDES — carousel of SaaS SEO blog guides (silo hub -> spokes)
+     ==================================================== -->
+<section class="pr-section pr-section--tight pr-guides">
+  <div class="pr-container">
+    <div class="pr-guides__head">
+      <div>
+        <h2><span class="pr-hero__h1-eyebrow" style="display:block;">Related Guides</span>Go deeper on SaaS SEO</h2>
+      </div>
+      <div class="pr-guides__nav" aria-hidden="true">
+        <button type="button" class="pr-guides__arrow" data-guides-prev aria-label="Previous guides">&#8592;</button>
+        <button type="button" class="pr-guides__arrow" data-guides-next aria-label="Next guides">&#8594;</button>
+      </div>
+    </div>
+    <div class="pr-guides__track" data-guides-track>
+      <a class="pr-guides__card" href="/blogs/saas-seo/">
+        <span class="pr-guides__eyebrow">Strategy</span>
+        <span class="pr-guides__title">SaaS SEO: The 8-Step Pipeline Strategy for 2026</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/blogs/b2b-saas-seo/">
+        <span class="pr-guides__eyebrow">Guide</span>
+        <span class="pr-guides__title">B2B SaaS SEO: Turn Organic Traffic into Deals</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/blogs/saas-seo-strategies-and-framework/">
+        <span class="pr-guides__eyebrow">Framework</span>
+        <span class="pr-guides__title">SaaS SEO Strategies: The Complete 8-Step Framework</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/blogs/saas-seo-checklist/">
+        <span class="pr-guides__eyebrow">Checklist</span>
+        <span class="pr-guides__title">The SaaS SEO Checklist for 2026</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/blogs/how-to-do-saas-seo-keyword-research/">
+        <span class="pr-guides__eyebrow">Keyword Research</span>
+        <span class="pr-guides__title">How to Do SaaS SEO Keyword Research</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/blogs/saas-link-building/">
+        <span class="pr-guides__eyebrow">Link Building</span>
+        <span class="pr-guides__title">SaaS Link Building: The Definitive Guide</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/blogs/how-to-do-saas-seo-competitor-analysis/">
+        <span class="pr-guides__eyebrow">Competitor Analysis</span>
+        <span class="pr-guides__title">How to Do Competitor Analysis for SaaS SEO</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/blogs/enterprise-saas-seo-guide/">
+        <span class="pr-guides__eyebrow">Enterprise</span>
+        <span class="pr-guides__title">What Is Enterprise SaaS SEO? Four Pillars Explained</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var track = document.querySelector('[data-guides-track]');
+      if (!track) return;
+      var step = function () { var c = track.querySelector('.pr-guides__card'); return c ? c.offsetWidth + 20 : 320; };
+      var prev = document.querySelector('[data-guides-prev]');
+      var next = document.querySelector('[data-guides-next]');
+      if (prev) prev.addEventListener('click', function () { track.scrollBy({ left: -step() * 2, behavior: 'smooth' }); });
+      if (next) next.addEventListener('click', function () { track.scrollBy({ left: step() * 2, behavior: 'smooth' }); });
+    })();
+  </script>
+</section>
+
+<!-- ====================================================
      FINAL CTA
      ==================================================== -->
 <section class="pr-cta-final pr-cta-final--seo">

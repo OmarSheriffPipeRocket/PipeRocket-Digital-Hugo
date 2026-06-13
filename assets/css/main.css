@@ -2491,6 +2491,73 @@ a.pr-hero__cta:hover,
 .pr-case:hover .pr-case__link-text { text-decoration-thickness: 2px; }
 
 /* =================================================================
+   RELATED GUIDES — carousel (silo hub -> spoke guides)
+   ================================================================= */
+.pr-guides__head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: var(--pr-s-6);
+}
+.pr-guides__nav { display: flex; gap: 10px; flex: 0 0 auto; }
+.pr-guides__arrow {
+  width: 44px; height: 44px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+  background: var(--pr-cream);
+  font-size: 1.1rem; line-height: 1; color: var(--pr-ink);
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.pr-guides__arrow:hover { border-color: var(--pr-cyan); background: #fff; }
+.pr-guides__track {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 4px 4px 20px;
+  margin: 0 -4px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+.pr-guides__card {
+  flex: 0 0 300px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 190px;
+  padding: 24px;
+  background: var(--pr-cream);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.pr-guides__card:hover { border-color: var(--pr-cyan); transform: translateY(-3px); }
+.pr-guides__eyebrow {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--pr-cyan);
+}
+.pr-guides__title {
+  font-family: "IvyPresto Headline", Georgia, "Times New Roman", serif;
+  font-weight: 700; font-size: 1.18rem; line-height: 1.25; color: var(--pr-ink);
+  flex: 1;
+}
+.pr-guides__more {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.82rem; font-weight: 600; color: var(--pr-ink-2);
+}
+.pr-guides__more img { width: 14px; height: auto; }
+@media (max-width: 600px) {
+  .pr-guides__card { flex-basis: 80%; }
+  .pr-guides__nav { display: none; }
+}
+
+/* =================================================================
    FINAL CTA
    ================================================================= */
 .pr-cta-final {
