@@ -134,16 +134,45 @@
       if (!root) return;
       var section = root.closest('section') || root;
       var track = root.querySelector('[data-csx-track]');
-      function step() { var c = track.querySelector('.pr-csx__card'); return c ? c.offsetWidth + 22 : 360; }
-      function next() {
-        if (track.scrollLeft + track.clientWidth >= track.scrollWidth - 6) track.scrollTo({ left: 0, behavior: 'smooth' });
-        else track.scrollBy({ left: step(), behavior: 'smooth' });
+      var GAP = 22;
+      // Clone the original set once so the track wraps seamlessly (infinite loop).
+      var originals = Array.prototype.slice.call(track.querySelectorAll('.pr-csx__card'));
+      var setCount = originals.length;
+      originals.forEach(function (c) {
+        var clone = c.cloneNode(true);
+        clone.setAttribute('aria-hidden', 'true');
+        clone.setAttribute('tabindex', '-1');
+        track.appendChild(clone);
+      });
+      function step() { var c = track.querySelector('.pr-csx__card'); return c ? c.offsetWidth + GAP : 360; }
+      // Width of one full original set = where the first clone begins.
+      function setWidth() {
+        var cards = track.querySelectorAll('.pr-csx__card');
+        return cards[setCount] ? cards[setCount].offsetLeft - cards[0].offsetLeft : track.scrollWidth / 2;
       }
+      // After a scroll settles, if we've crossed into the cloned set, shift back by
+      // exactly one set width. The card on screen is identical, so the wrap is invisible.
+      function normalize() {
+        var w = setWidth();
+        if (w <= 0) return;
+        if (track.scrollLeft >= w) track.scrollLeft -= w;
+        else if (track.scrollLeft < 0) track.scrollLeft += w;
+      }
+      function advance() { track.scrollBy({ left: step(), behavior: 'smooth' }); }
+      function back() {
+        if (track.scrollLeft - step() < 0) track.scrollLeft += setWidth(); // hop into the clone zone first
+        track.scrollBy({ left: -step(), behavior: 'smooth' });
+      }
+      var snapTimer = null;
+      track.addEventListener('scroll', function () {
+        if (snapTimer) clearTimeout(snapTimer);
+        snapTimer = setTimeout(normalize, 130); // fires only once scrolling has stopped
+      });
       var DELAY = 5000, timer = null;
-      function start() { stop(); timer = setInterval(next, DELAY); }
+      function start() { stop(); timer = setInterval(advance, DELAY); }
       function stop() { if (timer) { clearInterval(timer); timer = null; } }
-      section.querySelector('[data-csx-prev]').addEventListener('click', function () { track.scrollBy({ left: -step(), behavior: 'smooth' }); start(); });
-      section.querySelector('[data-csx-next]').addEventListener('click', function () { next(); start(); });
+      section.querySelector('[data-csx-prev]').addEventListener('click', function () { back(); start(); });
+      section.querySelector('[data-csx-next]').addEventListener('click', function () { advance(); start(); });
       section.addEventListener('mouseenter', stop);
       section.addEventListener('mouseleave', start);
       start();
@@ -589,106 +618,6 @@
     </div>
     <div class="pr-center" style="margin-top: var(--pr-s-6);">
       <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn pr-btn--ghost" data-cta-source="pricing">Scope your engagement</a>
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================
-     TESTIMONIALS — 3 CARDS (SEO-SPECIFIC)
-     ==================================================== -->
-<section class="pr-section--tight pr-section--social-proof">
-  <div class="pr-container">
-    <div class="pr-center"><h2>50+ brands have grown organic pipeline with our SaaS SEO services</h2></div>
-
-    <div class="pr-testimonials__viewport">
-      <div class="pr-testimonials" data-testimonials-track>
-
-        <!-- Page 1 -->
-        <article class="pr-testimonial">
-          <img loading="lazy" decoding="async" src="/images/stroke-cyberseirra.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
-          <p class="pr-testimonial__quote">I've worked with a lot of paid ads contractors, agencies big and small, and this is one of the few times I can confidently say my paid ads channel&mdash;when I spend a dollar, $9 in pipeline will come in. Even now with Goldcast being acquired, I consider them my paid ads headcount.</p>
-          <div class="pr-testimonial__author">
-            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-cindy.png" alt="Cindy">
-            <div>
-              <div class="pr-testimonial__name">Cindy</div>
-              <div class="pr-testimonial__role">Director of Growth Marketing</div>
-              <img loading="lazy" decoding="async" src="/images/logos/goldcast.svg" alt="Goldcast" class="pr-testimonial__logo">
-            </div>
-          </div>
-        </article>
-        <article class="pr-testimonial">
-          <img loading="lazy" decoding="async" src="/images/stroke-hyperverge.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
-          <p class="pr-testimonial__quote">PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience, actionable strategies brought in 51 high-quality MQLs in just 3 months. Specifically, the team's approach towards fine-tuning campaigns across regions not only grew our leads but also saved us costs.</p>
-          <div class="pr-testimonial__author">
-            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-navien.png" alt="Navien">
-            <div>
-              <div class="pr-testimonial__name">Navien</div>
-              <div class="pr-testimonial__role">Head of Marketing</div>
-              <img loading="lazy" decoding="async" src="/images/logo-hyperverge.png" alt="HyperVerge" class="pr-testimonial__logo">
-            </div>
-          </div>
-        </article>
-        <article class="pr-testimonial">
-          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
-          <p class="pr-testimonial__quote">Working alongside PipeRocket has been a commendable experience for Storylane. We were looking into how to boost our qualified leads. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us.</p>
-          <div class="pr-testimonial__author">
-            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
-            <div>
-              <div class="pr-testimonial__name">Nalin</div>
-              <div class="pr-testimonial__role">CEO</div>
-              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
-            </div>
-          </div>
-        </article>
-        <article class="pr-testimonial">
-          <img loading="lazy" decoding="async" src="/images/stroke-hyperstart.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
-          <p class="pr-testimonial__quote">They worked closely with us and took ownership like our in-house team. The team ran over 10 experiments to identify what was working and invalidated two new geographies for the ads. Moreover, PipeRocket Digital was responsive, open to feedback, and eager to meet the objectives.</p>
-          <div class="pr-testimonial__author">
-            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-anusha.png" alt="Anusha">
-            <div>
-              <div class="pr-testimonial__name">Anusha</div>
-              <div class="pr-testimonial__role">Founding member</div>
-              <img loading="lazy" decoding="async" src="/images/logo-hyperstart.png" alt="HyperStart" class="pr-testimonial__logo">
-            </div>
-          </div>
-        </article>
-
-        <!-- Page 2 -->
-        <article class="pr-testimonial">
-          <img loading="lazy" decoding="async" src="/images/stroke-spendflo.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
-          <p class="pr-testimonial__quote">PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution. Moreover, their in-depth understanding of SEO and consistent involvement make them a reliable partner.</p>
-          <div class="pr-testimonial__author">
-            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nivas.png" alt="Nivas">
-            <div>
-              <div class="pr-testimonial__name">Nivas</div>
-              <div class="pr-testimonial__role">Head of Marketing</div>
-              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-testimonial__logo">
-            </div>
-          </div>
-        </article>
-        <article class="pr-testimonial">
-          <img loading="lazy" decoding="async" src="/images/stroke-devrev.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
-          <p class="pr-testimonial__quote">PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly. PipeRocket Digital was committed to driving growth and continuously learning and improving.</p>
-          <div class="pr-testimonial__author">
-            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
-            <div>
-              <div class="pr-testimonial__name">Saptharishi</div>
-              <div class="pr-testimonial__role">Head of Demand Generation</div>
-              <img loading="lazy" decoding="async" src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
-            </div>
-          </div>
-        </article>
-
-      </div>
-    </div>
-
-    <div class="pr-testimonials__dots">
-      <button class="pr-testimonials__dot pr-testimonials__dot--active" data-testimonial-dot="0" aria-label="Page 1">
-        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-active.png" alt="">
-      </button>
-      <button class="pr-testimonials__dot" data-testimonial-dot="1" aria-label="Page 2">
-        <img decoding="async" data-no-lazy="1" class="skip-lazy" src="/images/dot-inactive.png" alt="">
-      </button>
     </div>
   </div>
 </section>
