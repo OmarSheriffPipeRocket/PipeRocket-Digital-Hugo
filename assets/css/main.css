@@ -2544,20 +2544,25 @@ a.pr-hero__cta:hover,
 .pr-csx__name { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-size: 0.85rem; color: var(--pr-ink); }
 .pr-csx__role { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 0.76rem; color: var(--pr-muted); }
 .pr-csx__card-go { margin-left: auto; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 0.78rem; font-weight: 600; color: var(--pr-cyan); white-space: nowrap; }
+/* Header row: heading (centered) with the prev/next arrows pinned top-right */
+.pr-csx__head { position: relative; }
+.pr-csx__arrows {
+  position: absolute; top: 50%; right: 0; transform: translateY(-50%);
+  display: flex; gap: 10px; z-index: 3;
+}
 .pr-csx__nav {
-  position: absolute; top: 50%; transform: translateY(-50%); z-index: 3;
+  display: flex; align-items: center; justify-content: center;
   width: 44px; height: 44px; border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.18); background: #fff;
   font-size: 1.35rem; line-height: 1; color: var(--pr-ink); cursor: pointer;
-  transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease, color 0.2s ease;
 }
-.pr-csx__nav:hover { border-color: var(--pr-cyan); }
-.pr-csx__nav--prev { left: 16px; }
-.pr-csx__nav--next { right: 16px; }
+.pr-csx__nav:hover { border-color: var(--pr-cyan); color: var(--pr-cyan); }
 @media (max-width: 1024px) { .pr-csx__card { flex-basis: calc(50% - 11px); } }
 @media (max-width: 640px) {
   .pr-csx__card { flex-basis: 86%; }
   .pr-csx__track { padding-left: 5vw; padding-right: 5vw; }
+  .pr-csx__arrows { display: none; }
 }
 
 /* =================================================================

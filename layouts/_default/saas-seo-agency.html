@@ -86,12 +86,17 @@
      ==================================================== -->
 <section class="pr-section--tight pr-section--casestudies pr-csx">
   <div class="pr-container">
-    <div class="pr-center">
-      <h2><span class="pr-hero__h1-eyebrow" style="display:block;">SaaS SEO Case Studies</span>Success Stories</h2>
+    <div class="pr-csx__head">
+      <div class="pr-center">
+        <h2><span class="pr-hero__h1-eyebrow" style="display:block;">SaaS SEO Case Studies</span>Success Stories</h2>
+      </div>
+      <div class="pr-csx__arrows">
+        <button type="button" class="pr-csx__nav pr-csx__nav--prev" data-csx-prev aria-label="Previous">&#8249;</button>
+        <button type="button" class="pr-csx__nav pr-csx__nav--next" data-csx-next aria-label="Next">&#8250;</button>
+      </div>
     </div>
     {{ $slugs := slice "storylane" "devrev" "spendflo" "hyperverge" "hyperstart" "cybersierra" }}
     <div class="pr-csx" data-csx>
-      <button type="button" class="pr-csx__nav pr-csx__nav--prev" data-csx-prev aria-label="Previous">&#8249;</button>
       <div class="pr-csx__track" data-csx-track>
         {{ range $slug := $slugs }}
         {{ with site.GetPage (printf "/case-study/%s" $slug) }}
@@ -118,7 +123,6 @@
         {{ end }}
         {{ end }}
       </div>
-      <button type="button" class="pr-csx__nav pr-csx__nav--next" data-csx-next aria-label="Next">&#8250;</button>
     </div>
     <div class="pr-center" style="margin-top: var(--pr-s-5);">
       <a href="/case-study/" class="pr-btn pr-btn--ghost">View all success stories</a>
@@ -128,6 +132,7 @@
     (function () {
       var root = document.querySelector('[data-csx]');
       if (!root) return;
+      var section = root.closest('section') || root;
       var track = root.querySelector('[data-csx-track]');
       function step() { var c = track.querySelector('.pr-csx__card'); return c ? c.offsetWidth + 22 : 360; }
       function next() {
@@ -137,10 +142,10 @@
       var DELAY = 5000, timer = null;
       function start() { stop(); timer = setInterval(next, DELAY); }
       function stop() { if (timer) { clearInterval(timer); timer = null; } }
-      root.querySelector('[data-csx-prev]').addEventListener('click', function () { track.scrollBy({ left: -step(), behavior: 'smooth' }); start(); });
-      root.querySelector('[data-csx-next]').addEventListener('click', function () { next(); start(); });
-      root.addEventListener('mouseenter', stop);
-      root.addEventListener('mouseleave', start);
+      section.querySelector('[data-csx-prev]').addEventListener('click', function () { track.scrollBy({ left: -step(), behavior: 'smooth' }); start(); });
+      section.querySelector('[data-csx-next]').addEventListener('click', function () { next(); start(); });
+      section.addEventListener('mouseenter', stop);
+      section.addEventListener('mouseleave', start);
       start();
     })();
   </script>
