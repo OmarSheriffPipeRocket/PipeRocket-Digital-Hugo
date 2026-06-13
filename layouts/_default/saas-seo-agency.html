@@ -91,46 +91,36 @@
     </div>
     {{ $slugs := slice "storylane" "devrev" "spendflo" "hyperverge" "hyperstart" "cybersierra" }}
     <div class="pr-csx" data-csx>
-      <button type="button" class="pr-csx__nav pr-csx__nav--prev" data-csx-prev aria-label="Previous case study">&#8249;</button>
-      <div class="pr-csx__track">
-        {{ range $i, $slug := $slugs }}
+      <button type="button" class="pr-csx__nav pr-csx__nav--prev" data-csx-prev aria-label="Previous">&#8249;</button>
+      <div class="pr-csx__track" data-csx-track>
+        {{ range $slug := $slugs }}
         {{ with site.GetPage (printf "/case-study/%s" $slug) }}
-        <article class="pr-csx__slide{{ if eq $i 0 }} is-active{{ end }}" data-csx-slide aria-hidden="{{ if eq $i 0 }}false{{ else }}true{{ end }}">
-          <div class="pr-csx__stats">
-            {{ range .Params.hero_metrics }}
-            <div class="pr-csx__stat">
-              <div class="pr-csx__stat-value">{{ .value }}</div>
-              <div class="pr-csx__stat-label">{{ .label }}</div>
+        <a class="pr-csx__card" href="{{ .RelPermalink }}">
+          <img class="pr-csx__card-logo" loading="lazy" decoding="async" src="{{ .Params.logo }}" alt="{{ .Params.client }}">
+          <div class="pr-csx__card-metrics">
+            {{ range first 3 .Params.hero_metrics }}
+            <div class="pr-csx__metric">
+              <span class="pr-csx__metric-v">{{ .value }}</span>
+              <span class="pr-csx__metric-l">{{ .label }}</span>
             </div>
             {{ end }}
           </div>
-          <div class="pr-csx__quote">
-            <span class="pr-csx__qmark" aria-hidden="true">&ldquo;</span>
-            <p class="pr-csx__quote-text">{{ .Params.testimonial.quote }}</p>
-            <div class="pr-csx__footer">
-              <div class="pr-csx__author">
-                <img class="pr-csx__avatar" loading="lazy" decoding="async" src="{{ .Params.testimonial.photo }}" alt="{{ .Params.testimonial.name }}">
-                <div class="pr-csx__who">
-                  <div class="pr-csx__name">{{ .Params.testimonial.name }}</div>
-                  <div class="pr-csx__role">{{ .Params.testimonial.role }}</div>
-                  <img class="pr-csx__logo" loading="lazy" decoding="async" src="{{ .Params.logo }}" alt="{{ .Params.client }}">
-                </div>
-              </div>
-              <a class="pr-btn pr-csx__cta" href="{{ .RelPermalink }}">View Case Study</a>
+          <p class="pr-csx__card-quote">{{ .Params.testimonial.quote }}</p>
+          <div class="pr-csx__card-foot">
+            <img class="pr-csx__avatar" loading="lazy" decoding="async" src="{{ .Params.testimonial.photo }}" alt="{{ .Params.testimonial.name }}">
+            <div class="pr-csx__who">
+              <span class="pr-csx__name">{{ .Params.testimonial.name }}</span>
+              <span class="pr-csx__role">{{ .Params.testimonial.role }}</span>
             </div>
+            <span class="pr-csx__card-go" aria-hidden="true">View case study &#8250;</span>
           </div>
-        </article>
+        </a>
         {{ end }}
         {{ end }}
       </div>
-      <button type="button" class="pr-csx__nav pr-csx__nav--next" data-csx-next aria-label="Next case study">&#8250;</button>
+      <button type="button" class="pr-csx__nav pr-csx__nav--next" data-csx-next aria-label="Next">&#8250;</button>
     </div>
-    <div class="pr-csx__dots" role="tablist" aria-label="Choose case study">
-      {{ range $i, $slug := $slugs }}
-      <button type="button" class="pr-csx__dot{{ if eq $i 0 }} is-active{{ end }}" data-csx-dot="{{ $i }}" aria-label="Case study {{ add $i 1 }}"></button>
-      {{ end }}
-    </div>
-    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+    <div class="pr-center" style="margin-top: var(--pr-s-5);">
       <a href="/case-study/" class="pr-btn pr-btn--ghost">View all success stories</a>
     </div>
   </div>
@@ -138,29 +128,19 @@
     (function () {
       var root = document.querySelector('[data-csx]');
       if (!root) return;
-      var slides = root.querySelectorAll('[data-csx-slide]');
-      var dots = root.parentElement.querySelectorAll('[data-csx-dot]');
-      var cur = 0;
-      function show(i) {
-        if (i < 0) i = slides.length - 1;
-        if (i >= slides.length) i = 0;
-        cur = i;
-        slides.forEach(function (s, idx) { var on = idx === i; s.classList.toggle('is-active', on); s.setAttribute('aria-hidden', on ? 'false' : 'true'); });
-        dots.forEach(function (d, idx) { d.classList.toggle('is-active', idx === i); });
+      var track = root.querySelector('[data-csx-track]');
+      function step() { var c = track.querySelector('.pr-csx__card'); return c ? c.offsetWidth + 22 : 360; }
+      function next() {
+        if (track.scrollLeft + track.clientWidth >= track.scrollWidth - 6) track.scrollTo({ left: 0, behavior: 'smooth' });
+        else track.scrollBy({ left: step(), behavior: 'smooth' });
       }
-      // Infinite autoplay (advances every 6s, loops). Pauses on hover/focus
-      // and restarts after a manual interaction so it never jumps instantly.
-      var DELAY = 6000, timer = null;
-      function start() { stop(); timer = setInterval(function () { show(cur + 1); }, DELAY); }
+      var DELAY = 5000, timer = null;
+      function start() { stop(); timer = setInterval(next, DELAY); }
       function stop() { if (timer) { clearInterval(timer); timer = null; } }
-      function go(i) { show(i); start(); }
-      root.querySelector('[data-csx-prev]').addEventListener('click', function () { go(cur - 1); });
-      root.querySelector('[data-csx-next]').addEventListener('click', function () { go(cur + 1); });
-      dots.forEach(function (d, idx) { d.addEventListener('click', function () { go(idx); }); });
+      root.querySelector('[data-csx-prev]').addEventListener('click', function () { track.scrollBy({ left: -step(), behavior: 'smooth' }); start(); });
+      root.querySelector('[data-csx-next]').addEventListener('click', function () { next(); start(); });
       root.addEventListener('mouseenter', stop);
       root.addEventListener('mouseleave', start);
-      root.addEventListener('focusin', stop);
-      root.addEventListener('focusout', start);
       start();
     })();
   </script>
