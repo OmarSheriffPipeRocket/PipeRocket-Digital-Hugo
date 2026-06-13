@@ -3659,6 +3659,21 @@ a.pr-footer__trust-item:hover {
   content: ""; position: absolute; left: 1px; top: 7px;
   width: 5px; height: 5px; border-radius: 50%; background: #0CC6F1;
 }
+/* Collapsible "What we do" toggle per service card (bullets hidden until expanded) */
+.pr-approach__card--seo .pr-approach__copy details.pr-approach__more { margin-top: 12px; }
+.pr-approach__card--seo .pr-approach__copy summary {
+  cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 6px;
+  font-size: 0.78rem; font-weight: 600; color: #0CC6F1;
+}
+.pr-approach__card--seo .pr-approach__copy summary::-webkit-details-marker { display: none; }
+.pr-approach__card--seo .pr-approach__copy summary::after { content: "+"; font-size: 0.95em; line-height: 1; }
+.pr-approach__card--seo .pr-approach__copy details[open] summary::after { content: "\2212"; }
+.pr-approach__card--seo .pr-approach__copy details.pr-approach__more ul { margin-top: 10px; }
+/* Let the collapsible service cards grow/shrink to their content instead of the fixed
+   homepage card height (which clipped the expanded bullets), and top-align the grid so
+   expanding one card doesn't stretch its row-mates. */
+.pr-section--outcome .pr-approach__card--seo { height: auto !important; min-height: 480px !important; }
+.pr-approach--seo-3 { align-items: stretch; }
 .pr-approach--seo-3 .pr-approach__card { opacity: 1 !important; transform: none !important; transition: none !important; }
 .pr-approach__card--seo:hover { border-color: var(--pr-cyan) !important; }
 .pr-section--approach-seo { padding-bottom: calc(var(--pr-s-9) + 60px); position: relative; overflow: hidden; }
