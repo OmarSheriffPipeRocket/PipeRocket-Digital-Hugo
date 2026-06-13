@@ -52,7 +52,25 @@
       "url": "https://piperocket.digital/saas-seo-agency/",
       "provider": { "@id": "https://piperocket.digital/#organization" },
       "areaServed": { "@type": "Country", "name": "United States" },
-      "description": "AI-first SaaS SEO services for SaaS companies targeting the US market: keyword research, product-led content, CRO, technical SEO, link building, GEO/AEO, programmatic SEO, and pipeline attribution."
+      "description": "AI-first SaaS SEO services for SaaS companies targeting the US market: keyword research, product-led content, CRO, technical SEO, link building, GEO/AEO, programmatic SEO, and pipeline attribution.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "{{ $clutchSource.rating }}",
+        "reviewCount": "{{ len $clutchSeo }}",
+        "bestRating": "5",
+        "worstRating": "1"
+      }{{ if $clutchSeo }},
+      "review": [
+        {{ range $i, $r := $clutchSeo }}{{ if $i }},{{ end }}{
+          "@type": "Review",
+          "author": { "@type": "Person", "name": {{ $r.reviewer_name }} },
+          "reviewRating": { "@type": "Rating", "ratingValue": "{{ $r.rating }}", "bestRating": "5" },
+          "reviewBody": {{ $r.quote }},
+          "name": {{ $r.title }},
+          "publisher": { "@type": "Organization", "name": "Clutch", "url": "https://clutch.co/profile/piperocket-digital" }{{ with $r.review_url }},
+          "url": "{{ . }}"{{ end }}
+        }{{ end }}
+      ]{{ end }}
     }
     </script>
   </div>
