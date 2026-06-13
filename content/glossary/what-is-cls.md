@@ -57,7 +57,7 @@ Most teams think a small shift here or there won’t matter, but that’s wrong.
 
 **Fast Fact:** Google’s data shows that pages with poor CLS are 24% more likely to lose their first-page ranking when competitors improve their Web Vitals.
 
-**Also read:** [how top B2B SEO companies prioritize Core Web Vitals](/list/best-saas-seo-agencies/)
+**Also read:** [how top B2B SEO companies prioritize Core Web Vitals](/list/best-b2b-seo-agencies/)
 
 ## Why Do SaaS Teams Get CLS Wrong?
 

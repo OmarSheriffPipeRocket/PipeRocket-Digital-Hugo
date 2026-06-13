@@ -105,7 +105,7 @@ The buyer has narrowed their list. They need reassurance: case studies, ROI calc
 
 Decision-stage content rarely drives high traffic volumes, but it converts at a much higher rate than awareness content. Ignoring it means your inbound program hands warm leads off to a weak close.
 
-Also read: [best B2B SEO agencies for full-funnel content strategy](/list/best-saas-seo-agencies/)
+Also read: [best B2B SEO agencies for full-funnel content strategy](/list/best-b2b-seo-agencies/)
 
 ## What Makes Inbound Marketing Succeed or Fail?
 

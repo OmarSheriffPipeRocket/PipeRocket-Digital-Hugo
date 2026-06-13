@@ -63,7 +63,7 @@ The real trade-off: Buying links from high-DA sites can give you a fast boost, b
 
 **Fast Fact:** Users from organic search spend an average of 4 minutes 40 seconds on SaaS pages, nearly a full minute longer than AI-referred visitors.
 
-**Also read:** [how top B2B SEO companies judge domain authority](/list/best-saas-seo-agencies/)
+**Also read:** [how top B2B SEO companies judge domain authority](/list/best-b2b-seo-agencies/)
 
 ## Why Do Most Teams Misuse Domain Authority?
 

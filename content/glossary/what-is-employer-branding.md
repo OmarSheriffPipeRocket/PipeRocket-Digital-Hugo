@@ -125,4 +125,4 @@ A nuanced warning here: this approach works well for companies with at least som
 
 Employer branding is the gap between who you say you are as an employer and who your employees and candidates actually experience. Close that gap deliberately through honest EVP work, visible culture signals, and a candidate experience that matches your reputation and hiring gets easier, retention improves, and the best candidates start finding you rather than the other way around.
 
-If you want to think through how brand and content strategy connects to your growth goals, [get in touch with our team](https://piperocket.digital/contact-us/) or explore how the [best B2B SEO agencies](/list/best-saas-seo-agencies/) approach brand visibility as part of a broader organic strategy.
+If you want to think through how brand and content strategy connects to your growth goals, [get in touch with our team](https://piperocket.digital/contact-us/) or explore how the [best B2B SEO agencies](/list/best-b2b-seo-agencies/) approach brand visibility as part of a broader organic strategy.

@@ -89,7 +89,7 @@ Most teams underestimate this: even a rough video or typo-ridden forum post can 
 
 A trade-off: UGC gives you trust, but you lose some control. Negative or mixed feedback will surface but that’s the price of authenticity. It’s worth it when your product genuinely solves a problem and you want to attract customers who stick, not just those swayed by the flashiest pitch.
 
-**Also read:** [how the best B2B SEO agencies drive authority with user content](/list/best-saas-seo-agencies/)
+**Also read:** [how the best B2B SEO agencies drive authority with user content](/list/best-b2b-seo-agencies/)
 
 ## How Should SaaS Teams Encourage Useful User Generated Content?
 

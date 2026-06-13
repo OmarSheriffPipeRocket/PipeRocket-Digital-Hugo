@@ -85,7 +85,7 @@ Contrarian insight: Many SaaS teams believe “all unique content is safe from d
 
 Trackflow, a project management SaaS for creative agencies, discovered three of its top-converting landing pages weren’t ranking because Google was indexing 12 versions of each every A/B test, ad landing, and UTM parameter created a new duplicate. Cleaning up their canonical tags led to a 19% boost in conversion rate and a jump to the top 5 for competitive keywords.
 
-**Also read:** [best B2B SEO agencies for SaaS growth](/list/best-saas-seo-agencies/)
+**Also read:** [best B2B SEO agencies for SaaS growth](/list/best-b2b-seo-agencies/)
 
 ## When Should You Use a Canonical Tag vs a 301 Redirect?
 

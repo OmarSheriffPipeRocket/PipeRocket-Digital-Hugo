@@ -69,7 +69,7 @@ Here’s the real trade-off: chasing position #1 organically gives you compoundi
 
 **Fast Fact:** Users from organic search spend an average of 4 minutes 40 seconds on SaaS pages, nearly a full minute longer than AI-referred visitors.
 
-**Also read:** [how top B2B SEO agencies benchmark SERPs](/list/best-saas-seo-agencies/)
+**Also read:** [how top B2B SEO agencies benchmark SERPs](/list/best-b2b-seo-agencies/)
 
 ## What Are the Main Types of SERP Features to Watch?
 

@@ -89,7 +89,7 @@ Here’s a real scenario: Sendlane, an email automation tool for ecommerce, used
 
 Most teams mess this up by treating all leads as equal. That’s how you get a “leaky funnel” lots of activity, not much revenue. Clear definitions and criteria between lead, MQL, and SQL keep everyone on the same page.
 
-**Also read:** [B2B SEO agency strategies for qualifying leads](/list/best-saas-seo-agencies/)
+**Also read:** [B2B SEO agency strategies for qualifying leads](/list/best-b2b-seo-agencies/)
 
 ## What Are the Most Effective Lead Generation Channels for SaaS?
 

@@ -75,7 +75,7 @@ A nuanced warning: Product-specific tutorials seem evergreen, but unless you com
 
 The real trade-off: Evergreen content gives you compounding search and lead generation, but it breaks down if you neglect freshness. It’s worth the work when your niche has steady search volume and buyer intent skip it if your product or market shifts every quarter.
 
-**Also read:** [best B2B SEO agencies for ongoing content optimization](/list/best-saas-seo-agencies/)
+**Also read:** [best B2B SEO agencies for ongoing content optimization](/list/best-b2b-seo-agencies/)
 
 ## How Do You Create Evergreen Content That Actually Ranks?
 

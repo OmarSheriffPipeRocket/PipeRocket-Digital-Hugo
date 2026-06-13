@@ -74,7 +74,7 @@ Here’s my take: most SaaS teams focus their experiments on homepage or ad [lan
 
 **Fast Fact:** Most SaaS companies don’t realize their “best converting” campaign produces users who never activate, so revenue stalls even as signups rise.
 
-**Also read:** [best B2B SEO agencies for full-funnel optimization](/list/best-saas-seo-agencies/)
+**Also read:** [best B2B SEO agencies for full-funnel optimization](/list/best-b2b-seo-agencies/)
 
 ## What Are the Biggest Mistakes Teams Make with Conversion Rate?
 

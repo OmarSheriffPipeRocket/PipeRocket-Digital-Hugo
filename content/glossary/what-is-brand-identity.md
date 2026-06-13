@@ -119,7 +119,7 @@ This works well for SaaS companies with a clear ICP and a defined category. For 
 
 If you’re working with an external team on brand positioning or go-to-market messaging, partnering with one of the [best B2B marketing agencies](/list/best-b2b-marketing-agencies/) that specialises in SaaS can accelerate the process significantly especially in the early stages when positioning decisions have the biggest downstream impact.
 
-Also read: [top B2B SEO companies that integrate brand and search strategy](/list/best-saas-seo-agencies/)
+Also read: [top B2B SEO companies that integrate brand and search strategy](/list/best-b2b-seo-agencies/)
 
 ## What Are the Most Common Brand Identity Mistakes in SaaS?
 

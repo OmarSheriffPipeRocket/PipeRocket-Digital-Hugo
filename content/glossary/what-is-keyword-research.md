@@ -72,7 +72,7 @@ Fast Fact: Organic search converts SaaS visitors at 0.92% more than 3x the rate 
 
 The practical implication: your keyword research needs to produce a map, not just a list. You want coverage across all three intent stages so you’re visible when a buyer first starts researching, when they’re comparing tools, and when they’re ready to sign up.
 
-Also read: [how the best B2B SEO agencies structure content around buyer intent](/list/best-saas-seo-agencies/)
+Also read: [how the best B2B SEO agencies structure content around buyer intent](/list/best-b2b-seo-agencies/)
 
 ## What Makes a Keyword Worth Targeting?
 
