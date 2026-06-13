@@ -7,6 +7,13 @@ relativeURLs = false
 timeZone = "Asia/Kolkata"
 hasCJKLanguage = false
 
+# Use each file's real git commit date for .Lastmod (sitemap <lastmod>, schema
+# dateModified). Without this, pages with no date/lastmod frontmatter fell back
+# to build time on every Netlify deploy, so every URL looked "changed daily" to
+# Google. Hugo's default lastmod order already prefers :git, this just turns it
+# on. Falls back to date/buildtime only if a file has no git history.
+enableGitInfo = true
+
 # Hide the <meta name="generator" content="Hugo x.y.z"> tag that Hugo
 # auto-injects on the homepage. Keeps the stack + version out of
 # competitors' tech-profiling tools (Wappalyzer, BuiltWith). No SEO impact.
