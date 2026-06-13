@@ -2533,11 +2533,16 @@ a.pr-hero__cta:hover,
    ================================================================= */
 /* Tighter vertical padding for the case-study section on this page only */
 .pr-section--casestudies.pr-csx { padding-top: 52px; padding-bottom: 44px; }
-.pr-csx { position: relative; max-width: 1240px; margin: var(--pr-s-4) auto 0; }
+/* Full-bleed: the slider breaks out of the page container to full viewport width */
+[data-csx].pr-csx {
+  position: relative;
+  margin: var(--pr-s-4) calc(-50vw + 50%) 0;
+  max-width: 100vw;
+}
 .pr-csx__track {
   display: flex; gap: 22px;
   overflow-x: auto; scroll-snap-type: x mandatory;
-  padding: 4px; margin: 0 -4px;
+  padding: 4px 5vw; margin: 0;
   -webkit-overflow-scrolling: touch; scrollbar-width: none;
 }
 .pr-csx__track::-webkit-scrollbar { display: none; }
@@ -2585,13 +2590,12 @@ a.pr-hero__cta:hover,
   transition: border-color 0.2s ease;
 }
 .pr-csx__nav:hover { border-color: var(--pr-cyan); }
-.pr-csx__nav--prev { left: -22px; }
-.pr-csx__nav--next { right: -22px; }
+.pr-csx__nav--prev { left: 16px; }
+.pr-csx__nav--next { right: 16px; }
 @media (max-width: 1024px) { .pr-csx__card { flex-basis: calc(50% - 11px); } }
 @media (max-width: 640px) {
   .pr-csx__card { flex-basis: 86%; }
-  .pr-csx__nav--prev { left: 2px; }
-  .pr-csx__nav--next { right: 2px; }
+  .pr-csx__track { padding-left: 5vw; padding-right: 5vw; }
 }
 
 /* =================================================================
