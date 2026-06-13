@@ -2493,8 +2493,8 @@ a.pr-hero__cta:hover,
 /* =================================================================
    CASE STUDY SLIDER (stats + quote + attribution + CTA)
    ================================================================= */
-/* Tighter vertical padding for the case-study section on this page only */
-.pr-section--casestudies.pr-csx { padding-top: 52px; padding-bottom: 44px; }
+/* Vertical padding for the case-study section on this page only */
+.pr-section--casestudies.pr-csx { padding-top: 88px; padding-bottom: 80px; }
 /* Full-bleed: the slider breaks out of the page container to full viewport width */
 [data-csx].pr-csx {
   position: relative;
