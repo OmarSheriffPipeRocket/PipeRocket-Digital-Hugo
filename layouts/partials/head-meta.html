@@ -141,21 +141,35 @@
   },
   "description": "{{ .Site.Params.description }}",
   "foundingDate": "2020",
-  "founders": [
-    { "@type": "Person", "name": "Praveen Ravi", "jobTitle": "Founder" },
-    { "@type": "Person", "name": "Kim Mathiarasan", "jobTitle": "Co-Founder" }
+  "founder": [
+    {
+      "@type": "Person",
+      "@id": "{{ .Site.BaseURL }}#praveen-ravi",
+      "name": "Praveen Ravi",
+      "jobTitle": "Co-Founder",
+      "worksFor": { "@id": "{{ .Site.BaseURL }}#organization" },
+      "sameAs": ["https://www.linkedin.com/in/praveenravi14/"]
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ .Site.BaseURL }}#kamaraj-mathiarasan",
+      "name": "Kamaraj Mathiarasan",
+      "jobTitle": "Co-Founder",
+      "worksFor": { "@id": "{{ .Site.BaseURL }}#organization" },
+      "sameAs": ["https://www.linkedin.com/in/kamarajkkl/"]
+    }
   ],
   "address": [
     {
       "@type": "PostalAddress",
-      "addressLocality": "New York",
-      "addressRegion": "NY",
-      "addressCountry": "US"
+      "addressLocality": "Chennai",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "IN"
     },
     {
       "@type": "PostalAddress",
-      "addressLocality": "Bangalore",
-      "addressCountry": "IN"
+      "addressRegion": "California",
+      "addressCountry": "US"
     }
   ],
   "areaServed": [
@@ -163,7 +177,17 @@
   ],
   "sameAs": [
     "https://www.linkedin.com/company/piperocket-digital/",
-    "https://clutch.co/profile/piperocket-digital"
+    "https://clutch.co/profile/piperocket-digital",
+    "https://www.youtube.com/@piperocketdigital"
+  ],
+  "knowsAbout": [
+    "SaaS SEO",
+    "B2B SaaS marketing",
+    "Generative Engine Optimization",
+    "Answer Engine Optimization",
+    "Programmatic SEO",
+    "Link building",
+    "Content marketing"
   ],
   "contactPoint": {
     "@type": "ContactPoint",
