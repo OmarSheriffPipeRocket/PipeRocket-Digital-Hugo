@@ -139,16 +139,6 @@
 </section>
 
 <!-- ====================================================
-     WORKING WITH PIPEROCKET — VINTAGE TV
-     ==================================================== -->
-<section class="pr-section--tight pr-section--working-seo">
-  <div class="pr-container pr-center">
-    <h2><span class="pr-hero__h1-eyebrow" style="display:block;">Client Testimonials</span>Working With PipeRocket</h2>
-    {{ partial "working-tv.html" . }}
-  </div>
-</section>
-
-<!-- ====================================================
      CASE STUDIES
      ==================================================== -->
 <section class="pr-section--tight pr-section--casestudies pr-csx">
@@ -215,9 +205,20 @@
         slides.forEach(function (s, idx) { var on = idx === i; s.classList.toggle('is-active', on); s.setAttribute('aria-hidden', on ? 'false' : 'true'); });
         dots.forEach(function (d, idx) { d.classList.toggle('is-active', idx === i); });
       }
-      root.querySelector('[data-csx-prev]').addEventListener('click', function () { show(cur - 1); });
-      root.querySelector('[data-csx-next]').addEventListener('click', function () { show(cur + 1); });
-      dots.forEach(function (d, idx) { d.addEventListener('click', function () { show(idx); }); });
+      // Infinite autoplay (advances every 6s, loops). Pauses on hover/focus
+      // and restarts after a manual interaction so it never jumps instantly.
+      var DELAY = 6000, timer = null;
+      function start() { stop(); timer = setInterval(function () { show(cur + 1); }, DELAY); }
+      function stop() { if (timer) { clearInterval(timer); timer = null; } }
+      function go(i) { show(i); start(); }
+      root.querySelector('[data-csx-prev]').addEventListener('click', function () { go(cur - 1); });
+      root.querySelector('[data-csx-next]').addEventListener('click', function () { go(cur + 1); });
+      dots.forEach(function (d, idx) { d.addEventListener('click', function () { go(idx); }); });
+      root.addEventListener('mouseenter', stop);
+      root.addEventListener('mouseleave', start);
+      root.addEventListener('focusin', stop);
+      root.addEventListener('focusout', start);
+      start();
     })();
   </script>
 </section>
@@ -298,6 +299,16 @@
         </article>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WORKING WITH PIPEROCKET — VINTAGE TV
+     ==================================================== -->
+<section class="pr-section--tight pr-section--working-seo">
+  <div class="pr-container pr-center">
+    <h2><span class="pr-hero__h1-eyebrow" style="display:block;">Client Testimonials</span>Working With PipeRocket</h2>
+    {{ partial "working-tv.html" . }}
   </div>
 </section>
 
@@ -880,6 +891,7 @@
     <a href="/contact-us/" class="pr-btn" data-cta-source="service-bottom">Book free consultation</a>
   </div>
 </section>
+
 
 
 
