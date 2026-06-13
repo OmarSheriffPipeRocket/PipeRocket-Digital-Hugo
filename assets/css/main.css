@@ -2542,7 +2542,8 @@ a.pr-hero__cta:hover,
   text-decoration: none;
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
-.pr-segtabs__card:hover { border-color: var(--pr-cyan); transform: translateY(-3px); }
+a.pr-segtabs__card:hover { border-color: var(--pr-cyan); transform: translateY(-3px); }
+.pr-segtabs__card--static { cursor: default; }
 .pr-segtabs__card-title {
   font-family: "IvyPresto Headline", Georgia, "Times New Roman", serif;
   font-weight: 700; font-size: 1.2rem; line-height: 1.2; color: var(--pr-ink);
