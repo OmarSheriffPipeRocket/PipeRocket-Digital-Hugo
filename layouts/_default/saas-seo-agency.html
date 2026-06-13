@@ -443,6 +443,58 @@
 </section>
 
 <!-- ====================================================
+     WATCH — SAAS SEO STRATEGY (educational videos from our YouTube channel)
+     ==================================================== -->
+<section class="pr-section pr-section--tight pr-videos">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 760px; margin: 0 auto var(--pr-s-6);">
+      <h2><span class="pr-hero__h1-eyebrow" style="display:block;">Watch &amp; learn</span>SaaS SEO strategy, explained</h2>
+      <p>No-fluff breakdowns from our team on the audits, the strategy, and the AI-search shift behind the pipeline numbers above.</p>
+    </div>
+    {{ $videos := slice
+        (dict "id" "p0mm9XkOJe4" "title" "The SaaS SEO strategy that fixed a $10M SaaS website in 2 weeks")
+        (dict "id" "Hc8dMpyHbpQ" "title" "The part of your SaaS SEO audit costing you the most conversions")
+        (dict "id" "yYVfghkr7dc" "title" "The quiet traffic shift that's changing SaaS marketing")
+        (dict "id" "MQmB6V_Tl34" "title" "AI visibility tools have a dirty secret nobody talks about") }}
+    <div class="pr-videos__grid">
+      {{ range $videos }}
+      <button type="button" class="pr-videos__card" data-yt="{{ .id }}" aria-label="Play video: {{ .title }}">
+        <span class="pr-videos__thumb">
+          <img loading="lazy" decoding="async" src="https://i.ytimg.com/vi/{{ .id }}/hqdefault.jpg" alt="" width="480" height="360">
+          <span class="pr-videos__play" aria-hidden="true"></span>
+        </span>
+        <span class="pr-videos__title">{{ .title }}</span>
+      </button>
+      {{ end }}
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-5);">
+      <a href="https://www.youtube.com/@piperocketdigital" target="_blank" rel="noopener" class="pr-btn pr-btn--ghost">More on our YouTube</a>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var cards = document.querySelectorAll('.pr-videos__card');
+      cards.forEach(function (card) {
+        card.addEventListener('click', function () {
+          var id = card.getAttribute('data-yt');
+          var thumb = card.querySelector('.pr-videos__thumb');
+          if (!id || !thumb || card.classList.contains('is-playing')) return;
+          var frame = document.createElement('iframe');
+          frame.className = 'pr-videos__iframe';
+          frame.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+          frame.setAttribute('allowfullscreen', '');
+          frame.setAttribute('title', card.getAttribute('aria-label') || 'PipeRocket video');
+          frame.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+          thumb.innerHTML = '';
+          thumb.appendChild(frame);
+          card.classList.add('is-playing');
+        });
+      });
+    })();
+  </script>
+</section>
+
+<!-- ====================================================
      WHY SAAS TEAMS CHOOSE PIPEROCKET FOR SEO — DARK COMPARISON TABLE
      ==================================================== -->
 <section class="pr-section pr-section--dark pr-compare--seo">
