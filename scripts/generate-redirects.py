@@ -206,15 +206,14 @@ DECOMMISSIONED_PATHS = [
     # Thin auto-generated FAQ pages — 301 to curated FAQ hub
     ("/blogs/faqs/*",                   "/faqs/",  301),
     ("/faqs/*",                         "/faqs/",  301),
-    # Programmatic city/state SEO pages — collapse to parent service page.
-    # NOTE: this splat is a NON-FIRING backstop only. Netlify shadows a
-    # non-forced splat whenever its base dir exists (/saas-seo-agency/ does),
-    # so unmatched leaves fall through to the final /* → 404 instead of 301.
-    # The real work is done by the explicit per-slug rules emitted from
-    # DECOMMISSIONED_LOCATION_SLUGS below (exact non-forced rules DO fire,
-    # and being exact they never touch the live nested silo children).
-    # Kept here only in case Netlify's splat-shadowing behavior ever changes.
-    ("/saas-seo-agency/*",              "/saas-seo-agency/", 301),
+    # Programmatic city/state SEO pages: handled by explicit per-slug rules
+    # emitted from DECOMMISSIONED_LOCATION_SLUGS below, NOT a splat.
+    # A "/saas-seo-agency/*" splat is deliberately NOT used here. Netlify
+    # shadows a non-forced splat whenever its base dir exists (it does), so
+    # the splat never fires for unknown leaves AND, because Netlify stops at
+    # the first matching rule, a splat placed above the exact rules would
+    # shadow-kill them too (request falls through to the final /* → 404).
+    # Verified live 2026-06-13. So: no splat; exact rules only.
 ]
 
 # Programmatic geo landing pages (US states + major cities) that lived at

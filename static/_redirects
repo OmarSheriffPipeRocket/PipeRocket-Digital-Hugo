@@ -150,7 +150,6 @@
 /webinar-nivas/                                              /                                                            410
 /blogs/faqs/*                                                /faqs/                                                       301
 /faqs/*                                                      /faqs/                                                       301
-/saas-seo-agency/*                                           /saas-seo-agency/                                            301
 
 #  Pruned programmatic geo pages → parent (101 rules, exact so live silo children are untouched)
 /saas-seo-agency/alabama/                                    /saas-seo-agency/                                            301
