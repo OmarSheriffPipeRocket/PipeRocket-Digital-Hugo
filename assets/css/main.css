@@ -2531,7 +2531,9 @@ a.pr-hero__cta:hover,
 /* =================================================================
    CASE STUDY SLIDER (stats + quote + attribution + CTA)
    ================================================================= */
-.pr-csx { position: relative; max-width: 1040px; margin: var(--pr-s-5) auto 0; }
+/* Tighter vertical padding for the case-study section on this page only */
+.pr-section--casestudies.pr-csx { padding-top: 52px; padding-bottom: 44px; }
+.pr-csx { position: relative; max-width: 1240px; margin: var(--pr-s-4) auto 0; }
 .pr-csx__track {
   display: flex; gap: 22px;
   overflow-x: auto; scroll-snap-type: x mandatory;
@@ -2540,7 +2542,7 @@ a.pr-hero__cta:hover,
 }
 .pr-csx__track::-webkit-scrollbar { display: none; }
 .pr-csx__card {
-  flex: 0 0 calc(50% - 11px);
+  flex: 0 0 calc(33.333% - 15px);
   scroll-snap-align: start;
   display: flex; flex-direction: column; gap: 16px;
   padding: 26px 26px 22px;
@@ -2585,7 +2587,8 @@ a.pr-hero__cta:hover,
 .pr-csx__nav:hover { border-color: var(--pr-cyan); }
 .pr-csx__nav--prev { left: -22px; }
 .pr-csx__nav--next { right: -22px; }
-@media (max-width: 820px) {
+@media (max-width: 1024px) { .pr-csx__card { flex-basis: calc(50% - 11px); } }
+@media (max-width: 640px) {
   .pr-csx__card { flex-basis: 86%; }
   .pr-csx__nav--prev { left: 2px; }
   .pr-csx__nav--next { right: 2px; }
