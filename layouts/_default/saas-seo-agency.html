@@ -1,4 +1,14 @@
 {{ define "main" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ .Site.BaseURL }}" },
+    { "@type": "ListItem", "position": 2, "name": "SaaS SEO Agency", "item": "{{ .Permalink }}" }
+  ]
+}
+</script>
 
 <!-- ====================================================
      HERO
@@ -546,6 +556,7 @@
   <div class="pr-container">
     <div class="pr-center">
       <h2><span class="pr-hero__h1-eyebrow" style="display:block;">Who we work with</span>Built for your growth motion, stage, and market</h2>
+      <p style="max-width: 680px; margin: var(--pr-s-4) auto 0;">Great SEO for SaaS companies is never one-size-fits-all. As a SaaS SEO company, we shape our SEO consulting for SaaS around your growth motion, stage, and market, so the strategy matches your buyers, not a template.</p>
     </div>
     <div class="pr-segtabs__tabs" role="tablist" aria-label="Who we work with">
       <button type="button" class="pr-segtabs__tab is-active" role="tab" aria-selected="true" data-tab="industry">By industry</button>
@@ -715,7 +726,7 @@
     {{/* Single source of truth: renders both the accordion and the FAQPage schema below. */}}
     {{ $faqs := slice
       (dict "q" "What is a SaaS SEO agency?"
-            "a" "A SaaS SEO agency specializes in helping SaaS companies grow their business through organic search. They combine technical SEO expertise with an understanding of the SaaS customer journey to attract qualified leads, increase website traffic, and ultimately drive conversions.")
+            "a" "A SaaS SEO agency, or SEO agency for SaaS companies, helps SaaS businesses grow through organic search. As a SaaS search engine optimization company, PipeRocket combines technical SEO expertise with a real understanding of the SaaS buying journey to attract qualified leads, demos, and pipeline, not just traffic.")
       (dict "q" "What SaaS SEO services do you offer?"
             "a" "Our SaaS SEO services cover the full program: technical SEO, keyword and search-intent research, content production, on-page optimization, link building and digital PR, Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO) for AI search, and pipeline attribution reporting. Every deliverable is tied to qualified pipeline, not traffic.")
       (dict "q" "What is the difference between SaaS SEO and regular SEO?"
@@ -725,7 +736,7 @@
       (dict "q" "How much does a SaaS SEO agency cost?"
             "a" "SaaS SEO is priced as a monthly retainer scoped to the program: content velocity, technical scope, and link building all factor in. Engagements start at $3,000/mo. We work with a small number of B2B SaaS companies at a time and scope each engagement on a discovery call.")
       (dict "q" "How do I evaluate a SaaS SEO agency?"
-            "a" "Look past traffic charts and rankings. Ask for named clients with real revenue or pipeline numbers, and a clear line from each page they built to an MQL, SQL, or closed deal. Be cautious of anyone who guarantees number-one rankings, claims a special relationship with Google, or won't tell you who actually does the work. We are happy to be checked against that list.")
+            "a" "Whether you are vetting a SaaS SEO agency, a SaaS SEO firm, or any provider of SEO for SaaS companies, look past traffic charts and rankings. Ask for named clients with real revenue or pipeline numbers, and a clear line from each page they built to an MQL, SQL, or closed deal. Be cautious of anyone who guarantees number-one rankings, claims a special relationship with Google, or won't tell you who actually does the work. We are happy to be checked against that list.")
       (dict "q" "What is GEO and AEO, and do you do it?"
             "a" "GEO (Generative Engine Optimization) and AEO (Answer Engine Optimization) are the practice of getting your brand cited inside AI-generated answers (Google AI Overviews, ChatGPT, Perplexity, Gemini and Microsoft Copilot). Yes, it is built into every engagement: we structure content and schema so AI crawlers can understand and cite your pages alongside traditional search results.")
       (dict "q" "What SEO tools do you use?"

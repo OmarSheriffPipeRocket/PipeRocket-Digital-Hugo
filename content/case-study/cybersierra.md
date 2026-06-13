@@ -21,7 +21,7 @@ hero_metrics:
   - value: "+279%"
     label: "Organic traffic growth"
   - value: "Strategic"
-    label: "SEO programme"
+    label: "SEO program"
 testimonial:
   quote: "Thanks to PipeRocket Digital's work, we saw a 279% increase in organic traffic. The team also helped us grow from six to 338 keywords, ranking in the top 10 positions. The team was highly responsive to feedback, quickly adjusted to changes, and showed outstanding SEO expertise."
   name: "Srividhya Karthik"
