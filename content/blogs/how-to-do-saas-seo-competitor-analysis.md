@@ -123,7 +123,7 @@ Why they work is psychology. This captures users who are unhappy with your compe
 
 These are usually blogs that aim to list down SaaS products in a particular segment, for example, “Best Payroll Software” and “Top 10 CRM tools”. They provide digestible and easy-to-compare type content for the readers. Here’s an example of our [SaaS SEO agencies](/list/best-saas-seo-agencies/) listicle.
 
-Why do they work? Even if you are a product company yourself, you can write these lists. You place yourself at #1 (obviously) and objectively review the others below. This allows you to capture the high-intent traffic that usually goes to G2 or other directories.
+Why do they work? Even if you are a product company yourself, you can write these lists. You place yourself at #1 (obviously) and objectively review the others below, the same way our roundup of the [top SaaS SEO agencies](/list/best-saas-seo-agencies/) does. This allows you to capture the high-intent traffic that usually goes to G2 or other directories.
 
 We create a mind map of these pages using the competitor data and prioritize them. We don’t care about their “How to solve the X problem” blog post right now. We care about these five buckets.
 

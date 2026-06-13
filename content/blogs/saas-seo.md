@@ -367,7 +367,7 @@ First ranking movements happen in 30–90 days for low-difficulty BOFU keywords.
 
 3. Should an early-stage SaaS company invest in SEO or paid ads first?
 
-Both can run in parallel. Start BOFU SEO content immediately. Comparison and alternatives pages have no minimum domain authority requirement and convert at rates comparable to paid. [Paid fills the gap while SEO compounds](/saas-ppc/).
+Both can run in parallel. Start BOFU SEO content immediately. Comparison and alternatives pages have no minimum domain authority requirement and convert at rates comparable to paid. [Paid fills the gap while SEO compounds](/saas-ppc/). If you'd rather not build the function in-house this early, compare the [best SaaS SEO agencies](/list/best-saas-seo-agencies/) and bring in a partner to run the BOFU work from day one.
 
 4. What tools do I need for SaaS SEO?
 

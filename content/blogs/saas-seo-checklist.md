@@ -193,7 +193,7 @@ AI tools and [LLMs](/glossary/what-is-an-llm/) (Large Language Models) determine
 
 ### **Here’s How it Works**
 
-If your brand is mentioned in listicles and external content alongside other category leaders, AI associates you with that “cluster”.
+If your brand is mentioned in listicles (think roundups of the [best SaaS SEO agencies](/list/best-saas-seo-agencies/) or top tools in your niche) and external content alongside other category leaders, AI associates you with that “cluster”.
 
 If a user prompts an AI with: *“Show me the top 10 project management software for digital agencies under $1,000,”* the AI looks for the common denominators across authoritative mentions on the web. Then, it gives you the result. If you’re there in most of its trusted sites, you’ll be in the top 10. 
 

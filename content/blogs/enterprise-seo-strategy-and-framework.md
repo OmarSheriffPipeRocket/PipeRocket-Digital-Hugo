@@ -206,4 +206,4 @@ They are complementary. [ABM](/glossary/what-is-abm/) targets named accounts wit
 
 ### 5. Should enterprise SaaS companies build in-house SEO teams or work with agencies?
 
-Most enterprise SaaS companies at Series B and beyond benefit from a hybrid model. An in-house SEO lead or director owns strategy, cross-functional alignment, and reporting. A specialist agency brings execution capacity, deep channel expertise, and the external perspective that in-house teams often lack after 12 to 18 months of building their own playbook.
+Most enterprise SaaS companies at Series B and beyond benefit from a hybrid model. An in-house SEO lead or director owns strategy, cross-functional alignment, and reporting. A specialist agency brings execution capacity, deep channel expertise, and the external perspective that in-house teams often lack after 12 to 18 months of building their own playbook. If you are weighing partners, start by comparing the [best B2B SEO agencies](/list/best-b2b-seo-agencies/) on their track record with companies at your scale.

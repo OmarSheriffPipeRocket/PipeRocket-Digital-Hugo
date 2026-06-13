@@ -925,7 +925,7 @@ Check client roster for similar ACV and sales cycle. Ask for case studies showin
 
 ### Should I hire a specialised B2B agency or a full-service agency?
 
-Specialist when you have one deep channel need and an internal team for the rest. Full-service when you need integrated campaigns across multiple channels.
+Specialist when you have one deep channel need and an internal team for the rest. If organic search is that gap, our roundup of the [best B2B SEO agencies](/list/best-b2b-seo-agencies/) covers the dedicated options. Full-service when you need integrated campaigns across multiple channels.
 
 ### Should B2B marketing and sales operations be managed together?
 
