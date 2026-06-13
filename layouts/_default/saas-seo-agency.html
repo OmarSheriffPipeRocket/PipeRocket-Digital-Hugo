@@ -145,37 +145,54 @@
         track.appendChild(clone);
       });
       function step() { var c = track.querySelector('.pr-csx__card'); return c ? c.offsetWidth + GAP : 360; }
-      // Width of one full original set = where the first clone begins.
-      function setWidth() {
+      // Width of one full original set = where the first clone begins (cached; recalc on resize/load).
+      var SETW = 0;
+      function recalc() {
         var cards = track.querySelectorAll('.pr-csx__card');
-        return cards[setCount] ? cards[setCount].offsetLeft - cards[0].offsetLeft : track.scrollWidth / 2;
+        SETW = cards[setCount] ? cards[setCount].offsetLeft - cards[0].offsetLeft : track.scrollWidth / 2;
       }
-      // After a scroll settles, if we've crossed into the cloned set, shift back by
-      // exactly one set width. The card on screen is identical, so the wrap is invisible.
-      function normalize() {
-        var w = setWidth();
-        if (w <= 0) return;
-        if (track.scrollLeft >= w) track.scrollLeft -= w;
-        else if (track.scrollLeft < 0) track.scrollLeft += w;
+      recalc();
+      window.addEventListener('resize', recalc);
+      window.addEventListener('load', recalc);
+      // Continuous marquee: glide the cards left forever; once a full set has scrolled
+      // past, jump back by exactly one set width onto the identical clones (invisible wrap).
+      var SPEED = 0.6;             // px per 60fps frame (~36px/s)
+      var pos = track.scrollLeft;  // float accumulator (scrollLeft is integer-only)
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var paused = reduced, prevTs = null;
+      function frame(ts) {
+        if (prevTs === null) prevTs = ts;
+        var dt = ts - prevTs; prevTs = ts;
+        if (paused) {
+          pos = track.scrollLeft;  // resync if the user dragged or used the arrows
+        } else {
+          pos += SPEED * (dt / 16.67);
+          if (SETW > 0 && pos >= SETW) pos -= SETW;
+          track.scrollLeft = pos;
+        }
+        requestAnimationFrame(frame);
       }
-      function advance() { track.scrollBy({ left: step(), behavior: 'smooth' }); }
-      function back() {
-        if (track.scrollLeft - step() < 0) track.scrollLeft += setWidth(); // hop into the clone zone first
-        track.scrollBy({ left: -step(), behavior: 'smooth' });
+      function pause() { paused = true; }
+      function play() { if (!reduced) paused = false; }
+      // Arrows nudge one card; the crawl picks up from there.
+      function nudge(dir) {
+        pause();
+        if (dir < 0 && SETW > 0 && track.scrollLeft - step() < 0) track.scrollLeft += SETW; // hop into clone zone first
+        track.scrollBy({ left: dir * step(), behavior: 'smooth' });
+        setTimeout(function () {
+          if (SETW > 0) { if (track.scrollLeft >= SETW) track.scrollLeft -= SETW; else if (track.scrollLeft < 0) track.scrollLeft += SETW; }
+          pos = track.scrollLeft;
+          if (!section.matches(':hover')) play();
+        }, 460);
       }
-      var snapTimer = null;
-      track.addEventListener('scroll', function () {
-        if (snapTimer) clearTimeout(snapTimer);
-        snapTimer = setTimeout(normalize, 130); // fires only once scrolling has stopped
-      });
-      var DELAY = 5000, timer = null;
-      function start() { stop(); timer = setInterval(advance, DELAY); }
-      function stop() { if (timer) { clearInterval(timer); timer = null; } }
-      section.querySelector('[data-csx-prev]').addEventListener('click', function () { back(); start(); });
-      section.querySelector('[data-csx-next]').addEventListener('click', function () { advance(); start(); });
-      section.addEventListener('mouseenter', stop);
-      section.addEventListener('mouseleave', start);
-      start();
+      section.querySelector('[data-csx-prev]').addEventListener('click', function () { nudge(-1); });
+      section.querySelector('[data-csx-next]').addEventListener('click', function () { nudge(1); });
+      // Pause on hover (so visitors can read) and during touch/drag.
+      section.addEventListener('mouseenter', pause);
+      section.addEventListener('mouseleave', play);
+      track.addEventListener('pointerdown', pause);
+      window.addEventListener('pointerup', function () { if (!section.matches(':hover')) { pos = track.scrollLeft; play(); } });
+      requestAnimationFrame(frame);
     })();
   </script>
 </section>
