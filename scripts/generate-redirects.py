@@ -207,10 +207,46 @@ DECOMMISSIONED_PATHS = [
     ("/blogs/faqs/*",                   "/faqs/",  301),
     ("/faqs/*",                         "/faqs/",  301),
     # Programmatic city/state SEO pages — collapse to parent service page.
-    # Listed as a catch-all; legitimate sub-paths (/saas-seo-agency/faqs/,
-    # /saas-seo-agency/faqs1) have specific rules earlier or live as
-    # static files which take precedence over non-forced redirects.
+    # NOTE: this splat is a NON-FIRING backstop only. Netlify shadows a
+    # non-forced splat whenever its base dir exists (/saas-seo-agency/ does),
+    # so unmatched leaves fall through to the final /* → 404 instead of 301.
+    # The real work is done by the explicit per-slug rules emitted from
+    # DECOMMISSIONED_LOCATION_SLUGS below (exact non-forced rules DO fire,
+    # and being exact they never touch the live nested silo children).
+    # Kept here only in case Netlify's splat-shadowing behavior ever changes.
     ("/saas-seo-agency/*",              "/saas-seo-agency/", 301),
+]
+
+# Programmatic geo landing pages (US states + major cities) that lived at
+# /saas-seo-agency/<slug>/ on the old WP site. They were pruned as thin
+# content but remain indexed in Google (live 404s losing link equity), so
+# each is 301'd to the parent service page. Source of truth: Wayback CDX
+# audit of piperocket.digital/saas-seo-agency/* (2026-06-13). These are
+# EXACT, non-forced rules — they fire over the 404 and, being exact, cannot
+# shadow the live nested silo pages in LIVE_SAAS_SEO_CHILDREN.
+LIVE_SAAS_SEO_CHILDREN = {
+    "ai-seo-services", "content-marketing-agency", "faqs", "fintech-seo-agency",
+    "hrtech-seo-agency", "link-building-agency", "programmatic-seo-agency",
+    "technical-seo-agency",
+}
+DECOMMISSIONED_LOCATION_SLUGS = [
+    "alabama", "alaska", "albuquerque", "arizona", "arkansas", "arlington",
+    "atlanta", "austin", "baltimore", "boston", "california", "charlotte",
+    "chicago", "cleveland", "colorado", "colorado-springs", "columbus", "connecticut",
+    "dallas", "delaware", "denver", "detroit", "el-paso", "florida",
+    "fort-worth", "fresno", "georgia", "hawaii", "houston", "idaho",
+    "illinois", "indiana", "indianapolis", "iowa", "jacksonville", "kansas",
+    "kansas-city", "kentucky", "las-vegas", "long-beach", "los-angeles", "louisiana",
+    "louisville", "maine", "maryland", "massachusetts", "memphis", "miami",
+    "michigan", "milwaukee", "minneapolis", "minnesota", "mississippi", "missouri",
+    "montana", "nashville", "nebraska", "nevada", "new-hampshire", "new-jersey",
+    "new-mexico", "new-orleans", "new-york", "new-york-city", "north-carolina", "north-dakota",
+    "oakland", "ohio", "oklahoma", "oklahoma-city", "omaha", "oregon",
+    "pennsylvania", "philadelphia", "phoenix", "portland", "raleigh", "rhode-island",
+    "sacramento", "san-antonio", "san-diego", "san-francisco", "san-jose", "seattle",
+    "south-carolina", "south-dakota", "tampa", "tennessee", "texas", "tucson",
+    "tulsa", "utah", "vermont", "virginia", "virginia-beach", "washington",
+    "washington-dc", "west-virginia", "wichita", "wisconsin", "wyoming",
 ]
 
 
@@ -347,6 +383,14 @@ def main():
     for src, dst, code in DECOMMISSIONED_PATHS:
         lines.append(f"{src:<60} {dst:<60} {code}")
     lines.append("")
+    location_slugs = [s for s in DECOMMISSIONED_LOCATION_SLUGS
+                      if s not in LIVE_SAAS_SEO_CHILDREN]
+    lines.append(f"#  Pruned programmatic geo pages → parent ({len(location_slugs)} rules,"
+                 " exact so live silo children are untouched)")
+    for slug in location_slugs:
+        src = f"/saas-seo-agency/{slug}/"
+        lines.append(f"{src:<60} {'/saas-seo-agency/':<60} 301")
+    lines.append("")
     lines.append("# ============================================================")
     lines.append("#  E. Final fallback — anything unmatched returns HTTP 404")
     lines.append("# ============================================================")
@@ -361,6 +405,7 @@ def main():
     print(f"  Curated slug renames:     {len(MANUAL_SLUG_REDIRECTS)}")
     print(f"  Auto wp_link → permalink: {len(auto_redirects)}")
     print(f"  Decommissioned URLs:      {len(DECOMMISSIONED_PATHS)}")
+    print(f"  Pruned geo location pages:{len([s for s in DECOMMISSIONED_LOCATION_SLUGS if s not in LIVE_SAAS_SEO_CHILDREN])}")
     print(f"  (skipped {skipped_same} pages where wp_link == permalink)")
     print(f"  (skipped {skipped_shadow} pages where wp_link is a live URL)")
     print(f"  Total lines: {len(lines)}")
