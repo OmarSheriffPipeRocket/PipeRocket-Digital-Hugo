@@ -60,7 +60,7 @@ Here's the real trade-off: intent matching often means writing less, not more. A
 
 > **Fast Fact:** Organic search converts SaaS visitors at 0.92% — more than 3x the rate of AI-driven traffic at 0.26%.
 
-**Also read:** [how leading B2B SEO agencies align content format to search intent at scale](/list/best-b2b-seo-agencies/)
+**Also read:** [how leading B2B SEO agencies align content format to search intent at scale](/list/best-saas-seo-agencies/)
 
 ![Five signals for identifying search intent from a keyword before writing: SERP format, snippet type, PAA questions, modifier, and ad presence](/images/glossary-infographics/what-is-search-intent-infographic-2.webp)
 

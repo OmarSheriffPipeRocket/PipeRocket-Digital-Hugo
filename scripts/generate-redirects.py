@@ -92,7 +92,7 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/fintech-seo/",                                   "/saas-seo-agency/fintech-seo-agency/"),
     # Old /blog/<slug>/ WordPress URLs (singular path) — Hugo serves /blogs/ now
     ("/blog/b2b-buyers-journey/",                       "/blogs/"),
-    ("/blog/b2b-seo/",                                  "/list/best-b2b-seo-agencies/"),
+    ("/blog/b2b-seo/",                                  "/list/best-saas-seo-agencies/"),
     ("/blog/best-b2b-demand-generation-agencies/",      "/list/"),
     ("/blog/best-b2b-google-ads-agencies/",             "/list/best-b2b-google-ads-agencies/"),
     ("/blog/best-b2b-lead-generation-agencies/",        "/list/best-b2b-lead-generation-companies/"),
@@ -100,7 +100,7 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/blog/best-b2b-marketing-agencies/",              "/list/best-b2b-marketing-agencies/"),
     ("/blog/best-b2b-ppc-agencies/",                    "/list/best-affordable-b2b-ppc-agencies/"),
     ("/blog/best-b2b-saas-seo-agencies/",               "/list/best-saas-seo-agencies/"),
-    ("/blog/best-b2b-seo-agencies/",                    "/list/best-b2b-seo-agencies/"),
+    ("/blog/best-b2b-seo-agencies/",                    "/list/best-saas-seo-agencies/"),
     ("/blog/best-b2b-social-media-marketing-agencies/", "/list/"),
     ("/blog/best-enterprise-seo-agencies/",             "/list/best-enterprise-seo-agencies/"),
     ("/blog/best-linkedin-marketing-agencies/",         "/list/best-linkedin-marketing-agencies/"),
@@ -115,7 +115,7 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/blog/saas-seo/",                                 "/saas-seo-agency/"),
     ("/blog/saas-seo-services/",                        "/saas-seo-agency/"),
     ("/blog/seo-for-saas-companies/",                   "/saas-seo-agency/"),
-    ("/blog/the-complete-guide-to-b2b-seo-for-2025/",   "/list/best-b2b-seo-agencies/"),
+    ("/blog/the-complete-guide-to-b2b-seo-for-2025/",   "/list/best-saas-seo-agencies/"),
     # Old /seo/<slug>/ pattern (predecessor of /list/)
     ("/seo/best-b2b-demand-generation-agencies/",       "/list/"),
     ("/seo/best-b2b-google-ads-agencies/",              "/list/best-b2b-google-ads-agencies/"),
@@ -132,7 +132,9 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/seo/enterprise-seo-guide/",                      "/blogs/enterprise-seo-guide/"),
     ("/seo/saas-seo/",                                  "/saas-seo-agency/"),
     # Old single-section service path
-    ("/b2b-seo/best-b2b-seo-agencies/",                 "/list/best-b2b-seo-agencies/"),
+    ("/b2b-seo/best-b2b-seo-agencies/",                 "/list/best-saas-seo-agencies/"),
+    # Consolidated: best-b2b-seo-agencies listicle merged into the SaaS SEO listicle
+    ("/list/best-b2b-seo-agencies/",                    "/list/best-saas-seo-agencies/"),
     # One-off legacy URLs
     ("/SaaS-SEO/",                                      "/saas-seo-agency/"),
     ("/mark-ops/",                                      "/marketing-ops/"),

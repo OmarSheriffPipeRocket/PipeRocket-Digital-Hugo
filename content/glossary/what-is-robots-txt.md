@@ -107,7 +107,7 @@ Trackflow, a project tool for creative agencies, went through a headless CMS reb
 
 What this means: The best robots.txt files look boring just enough rules to keep sensitive or junk areas out, and nothing that breaks how your site appears in search.
 
-**Also read:** [how the best B2B SEO agencies handle technical crawl control](/list/best-b2b-seo-agencies/)
+**Also read:** [how the best B2B SEO agencies handle technical crawl control](/list/best-saas-seo-agencies/)
 
 ## Frequently Asked Questions
 

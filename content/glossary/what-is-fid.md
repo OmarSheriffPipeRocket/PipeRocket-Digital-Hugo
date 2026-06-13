@@ -89,7 +89,7 @@ A counterintuitive insight: many teams obsess over their “best” FID numbers.
 
 At Docu Spark, a SaaS for digital agreements, leadership was happy with an average FID of 90ms. But their 75th percentile was 142ms. After optimizing for that slower quartile, they saw a 15% decrease in trial abandonment from mobile users.
 
-**Also read:** [B2B SEO agencies with technical performance expertise](/list/best-b2b-seo-agencies/)
+**Also read:** [B2B SEO agencies with technical performance expertise](/list/best-saas-seo-agencies/)
 
 ## How Is FID Different From Other Core Web Vitals Metrics?
 

@@ -118,4 +118,4 @@ They do, but they can be misleading if you lump them in with acquisition. Brande
 
 ## The Bottom Line
 
-Navigational keywords are about control, not acquisition. Own every branded query, and route competitor interest through comparison content instead of chasing brand terms you can't win. Want a clear read on where your brand stands? [Get in touch](https://piperocket.digital/contact-us/) or see how the [best B2B SEO agencies](/list/best-b2b-seo-agencies/) handle it.
+Navigational keywords are about control, not acquisition. Own every branded query, and route competitor interest through comparison content instead of chasing brand terms you can't win. Want a clear read on where your brand stands? [Get in touch](https://piperocket.digital/contact-us/) or see how the [best B2B SEO agencies](/list/best-saas-seo-agencies/) handle it.

@@ -87,7 +87,7 @@ Building a real SaaS content marketing strategy means starting with your [ICP](/
 
 If you’re just getting started or don’t have the resources to do this in-house, working with a [SaaS SEO agency](/saas-seo-agency/) that understands the SaaS buyer journey can shortcut months of trial and error.
 
-**Also read:** [B2B SEO agency strategies for mapping content to buyer intent](/list/best-b2b-seo-agencies/)
+**Also read:** [B2B SEO agency strategies for mapping content to buyer intent](/list/best-saas-seo-agencies/)
 
 ## What Are Common Content Marketing Mistakes SaaS Teams Make?
 
