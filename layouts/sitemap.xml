@@ -48,6 +48,9 @@
   <url>
     <loc>{{ .Permalink }}</loc>
     {{- $lastmod := .Lastmod -}}
+    {{/* Per-page manual override: set `sitemap_lastmod: "YYYY-MM-DD"` in front matter to pin a
+         page's <lastmod> regardless of its git commit date. Everything else stays on :git. */}}
+    {{- with .Params.sitemap_lastmod }}{{ $lastmod = (time.AsTime .) }}{{ end -}}
     {{- if $lastmod.IsZero }}{{ $lastmod = .Date }}{{ end -}}
     {{- if $lastmod.IsZero }}{{ $lastmod = $buildTime }}{{ end }}
     <lastmod>{{ $lastmod.Format "2006-01-02" }}</lastmod>
