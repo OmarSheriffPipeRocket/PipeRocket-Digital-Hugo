@@ -332,30 +332,90 @@
 <!-- ====================================================
      WHO WE WORK WITH — segments (PLG/SLG/stage) + industries
      ==================================================== -->
-<section class="pr-section pr-section--tight pr-segments">
+<section class="pr-section pr-section--tight pr-segtabs">
   <div class="pr-container">
     <div class="pr-center">
       <h2><span class="pr-hero__h1-eyebrow" style="display:block;">Who we work with</span>Built for your growth motion, stage, and market</h2>
     </div>
-    <div class="pr-segments__grid">
-      <div class="pr-segments__group">
-        <h3 class="pr-segments__label">By growth motion</h3>
-        <a class="pr-segments__item" href="/list/best-saas-seo-agencies-for-product-led-growth/">Product-led growth (PLG)</a>
-        <a class="pr-segments__item" href="/list/best-saas-seo-agencies-for-sales-led-growth/">Sales-led growth (SLG)</a>
+    <div class="pr-segtabs__tabs" role="tablist" aria-label="Who we work with">
+      <button type="button" class="pr-segtabs__tab is-active" role="tab" aria-selected="true" data-tab="motion">By growth motion</button>
+      <button type="button" class="pr-segtabs__tab" role="tab" aria-selected="false" data-tab="stage">By stage</button>
+      <button type="button" class="pr-segtabs__tab" role="tab" aria-selected="false" data-tab="industry">By industry</button>
+    </div>
+
+    <div class="pr-segtabs__panel is-active" role="tabpanel" data-panel="motion">
+      <div class="pr-segtabs__cards">
+        <a class="pr-segtabs__card" href="/list/best-saas-seo-agencies-for-product-led-growth/">
+          <span class="pr-segtabs__card-title">Product-led growth (PLG)</span>
+          <span class="pr-segtabs__card-desc">Self-serve buyers searching for free trials, freemium, and alternatives. Content and CTAs tuned for product signups and activation, not just demos.</span>
+          <span class="pr-segtabs__card-more">Explore PLG SEO <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+        </a>
+        <a class="pr-segtabs__card" href="/list/best-saas-seo-agencies-for-sales-led-growth/">
+          <span class="pr-segtabs__card-title">Sales-led growth (SLG)</span>
+          <span class="pr-segtabs__card-desc">Multi-stakeholder buying committees and demo requests. BOFU comparison pages and pipeline attribution mapped to a longer sales cycle.</span>
+          <span class="pr-segtabs__card-more">Explore SLG SEO <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+        </a>
       </div>
-      <div class="pr-segments__group">
-        <h3 class="pr-segments__label">By stage</h3>
-        <a class="pr-segments__item" href="/list/best-saas-seo-agencies-for-startups/">Startups</a>
-        <a class="pr-segments__item" href="/list/best-saas-seo-agencies-for-series-a/">Series A</a>
-        <a class="pr-segments__item" href="/list/best-saas-seo-agencies-for-series-b/">Series B</a>
+    </div>
+
+    <div class="pr-segtabs__panel" role="tabpanel" data-panel="stage" hidden>
+      <div class="pr-segtabs__cards">
+        <a class="pr-segtabs__card" href="/list/best-saas-seo-agencies-for-startups/">
+          <span class="pr-segtabs__card-title">Startups</span>
+          <span class="pr-segtabs__card-desc">Pre-Series A and early. BOFU-first so you produce pipeline in weeks while domain authority is still building.</span>
+          <span class="pr-segtabs__card-more">SEO for startups <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+        </a>
+        <a class="pr-segtabs__card" href="/list/best-saas-seo-agencies-for-series-a/">
+          <span class="pr-segtabs__card-title">Series A</span>
+          <span class="pr-segtabs__card-desc">Scaling the engine. Topic clusters and link building compound as authority grows and the category footprint widens.</span>
+          <span class="pr-segtabs__card-more">SEO for Series A <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+        </a>
+        <a class="pr-segtabs__card" href="/list/best-saas-seo-agencies-for-series-b/">
+          <span class="pr-segtabs__card-title">Series B</span>
+          <span class="pr-segtabs__card-desc">Category leadership. Programmatic scale, multi-category coverage, and continuous refresh to defend and extend share.</span>
+          <span class="pr-segtabs__card-more">SEO for Series B <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+        </a>
       </div>
-      <div class="pr-segments__group">
-        <h3 class="pr-segments__label">By industry</h3>
-        <a class="pr-segments__item" href="/saas-seo-agency/fintech-seo-agency/">Fintech SEO</a>
-        <a class="pr-segments__item" href="/saas-seo-agency/hrtech-seo-agency/">HR Tech SEO</a>
+    </div>
+
+    <div class="pr-segtabs__panel" role="tabpanel" data-panel="industry" hidden>
+      <div class="pr-segtabs__cards">
+        <a class="pr-segtabs__card" href="/saas-seo-agency/fintech-seo-agency/">
+          <span class="pr-segtabs__card-title">Fintech SEO</span>
+          <span class="pr-segtabs__card-desc">Compliance-aware SEO for fintech and financial SaaS, where trust signals and YMYL credibility decide who ranks.</span>
+          <span class="pr-segtabs__card-more">Fintech SaaS SEO <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+        </a>
+        <a class="pr-segtabs__card" href="/saas-seo-agency/hrtech-seo-agency/">
+          <span class="pr-segtabs__card-title">HR Tech SEO</span>
+          <span class="pr-segtabs__card-desc">SEO for HR, payroll, and people-ops platforms, built around the comparison and category searches HR buyers run.</span>
+          <span class="pr-segtabs__card-more">HR Tech SaaS SEO <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+        </a>
       </div>
     </div>
   </div>
+  <script>
+    (function () {
+      var root = document.currentScript.closest('section');
+      if (!root) return;
+      var tabs = root.querySelectorAll('.pr-segtabs__tab');
+      var panels = root.querySelectorAll('.pr-segtabs__panel');
+      tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+          var key = tab.getAttribute('data-tab');
+          tabs.forEach(function (t) {
+            var on = t === tab;
+            t.classList.toggle('is-active', on);
+            t.setAttribute('aria-selected', on ? 'true' : 'false');
+          });
+          panels.forEach(function (p) {
+            var on = p.getAttribute('data-panel') === key;
+            p.classList.toggle('is-active', on);
+            p.hidden = !on;
+          });
+        });
+      });
+    })();
+  </script>
 </section>
 
 <!-- ====================================================
