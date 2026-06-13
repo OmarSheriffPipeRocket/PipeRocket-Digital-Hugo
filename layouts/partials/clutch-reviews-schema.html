@@ -13,6 +13,11 @@
 {{ $rating := .rating }}
 {{ $count := .count }}
 
+{{/* Month-name -> number map so human dates ("Jan 2025") become ISO 8601
+     ("2025-01") for datePublished. Strict schema validators flag a non-ISO
+     Date as an error; Google tolerates it but the ISO form is correct. */}}
+{{ $months := dict "Jan" "01" "Feb" "02" "Mar" "03" "Apr" "04" "May" "05" "Jun" "06" "Jul" "07" "Aug" "08" "Sep" "09" "Oct" "10" "Nov" "11" "Dec" "12" }}
+
 {{ $reviewItems := slice }}
 {{ range $reviews }}
   {{ $item := dict
@@ -23,7 +28,16 @@
      "name" .title
   }}
   {{ with .review_url }}{{ $item = merge $item (dict "url" .) }}{{ end }}
-  {{ with .date }}{{ $item = merge $item (dict "datePublished" .) }}{{ end }}
+  {{ with .date }}
+    {{/* Convert "Mon YYYY" -> "YYYY-MM"; leave a bare year ("2026") as-is. */}}
+    {{ $parts := split (trim . " ") " " }}
+    {{ $iso := . }}
+    {{ if eq (len $parts) 2 }}
+      {{ $mon := index $months (index $parts 0) }}
+      {{ if $mon }}{{ $iso = printf "%s-%s" (index $parts 1) $mon }}{{ end }}
+    {{ end }}
+    {{ $item = merge $item (dict "datePublished" $iso) }}
+  {{ end }}
   {{ $reviewItems = $reviewItems | append $item }}
 {{ end }}
 
