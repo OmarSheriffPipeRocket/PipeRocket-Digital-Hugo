@@ -2546,6 +2546,9 @@ a.pr-hero__cta:hover,
 .pr-csx__card-go { margin-left: auto; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 0.78rem; font-weight: 600; color: var(--pr-cyan); white-space: nowrap; }
 /* Header row: heading (centered) with the prev/next arrows pinned top-right */
 .pr-csx__head { position: relative; }
+/* This heading is a long sentence; dial it down so it doesn't dominate. Needs higher specificity
+   + !important to beat the global ".pr-section--casestudies h2 { font-size:56px !important }" rule. */
+.pr-section--casestudies .pr-csx__head h2 { font-size: clamp(1.5rem, 2.7vw, 2.15rem) !important; line-height: 1.22 !important; }
 .pr-csx__arrows {
   position: absolute; top: 50%; right: 0; transform: translateY(-50%);
   display: flex; gap: 10px; z-index: 3;
