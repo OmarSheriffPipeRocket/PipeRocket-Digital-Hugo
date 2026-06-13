@@ -2606,10 +2606,25 @@ a.pr-segtabs__card:hover { border-color: var(--pr-cyan); transform: translateY(-
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.82rem; font-weight: 600; color: var(--pr-ink-2);
 }
-.pr-pricing__desc {
-  margin: 0;
+.pr-pricing__incl {
+  margin: 4px 0 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.92rem; line-height: 1.55; color: var(--pr-ink-2);
+  font-size: 0.82rem; font-weight: 700; color: var(--pr-ink);
+}
+.pr-pricing__list {
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.pr-pricing__list li {
+  position: relative; padding-left: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem; line-height: 1.45; color: var(--pr-ink-2);
+}
+.pr-pricing__list li::before {
+  content: ""; position: absolute; left: 4px; top: 4px;
+  width: 5px; height: 9px;
+  border: solid var(--pr-cyan); border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 @media (max-width: 768px) {
   .pr-pricing__grid { grid-template-columns: 1fr; }
