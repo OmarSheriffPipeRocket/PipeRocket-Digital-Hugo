@@ -3648,6 +3648,17 @@ a.pr-footer__trust-item:hover {
 .pr-approach__card--seo .pr-approach__copy p:last-child { margin-bottom: 0; }
 .pr-approach__card--seo .pr-approach__copy a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .pr-approach__card--seo .pr-approach__copy a:hover { color: var(--pr-ink); }
+/* Sub-service bullets inside each SaaS-SEO service card */
+.pr-approach__card--seo .pr-approach__copy ul {
+  list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px;
+}
+.pr-approach__card--seo .pr-approach__copy li {
+  position: relative; padding-left: 16px; font-size: 0.78rem; line-height: 1.4;
+}
+.pr-approach__card--seo .pr-approach__copy li::before {
+  content: ""; position: absolute; left: 1px; top: 7px;
+  width: 5px; height: 5px; border-radius: 50%; background: #0CC6F1;
+}
 .pr-approach--seo-3 .pr-approach__card { opacity: 1 !important; transform: none !important; transition: none !important; }
 .pr-approach__card--seo:hover { border-color: var(--pr-cyan) !important; }
 .pr-section--approach-seo { padding-bottom: calc(var(--pr-s-9) + 60px); position: relative; overflow: hidden; }
