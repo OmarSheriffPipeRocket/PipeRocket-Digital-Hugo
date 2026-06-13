@@ -4,16 +4,23 @@
      when there's no data/agencies.toml entry — just shows the homepage
      screenshot at static/images/agencies/<slug>-home.webp.
      Caller: pass slug="<slug>". Optional name="Display Name" overrides
-     the brand name used in alt text when no data entry exists. */}}
+     the brand name used in alt text when no data entry exists. Optional
+     only="home" forces the homepage-only single-card render even when a
+     data entry exists (used by listicles that want one clean image). */}}
 {{- $slug := .Get "slug" -}}
 {{- $agency := index site.Data.agencies $slug -}}
+{{- $only := .Get "only" -}}
 {{- $captured := .Get "captured" | default "May 2026" -}}
-{{- if not $agency -}}
-  {{/* No data file entry — render single-card layout with just the
-       homepage screenshot. The brand name for alt text comes from the
-       optional `name` shortcode parameter, falling back to a humanized
-       version of the slug. No outbound link, no source line. */}}
-  {{- $name := .Get "name" | default (replace $slug "-" " " | title) -}}
+{{- if or (not $agency) (eq $only "home") -}}
+  {{/* Single-card layout showing just the homepage screenshot. Triggered
+       when there's no data/agencies.toml entry, OR when the caller passes
+       only="home" to force a homepage-only render even if an entry exists.
+       Brand name for alt text: `name` param, else the data entry name,
+       else a humanized slug. No outbound link, no source line. */}}
+  {{- $name := .Get "name" -}}
+  {{- if not $name -}}
+    {{- if $agency -}}{{- $name = $agency.name -}}{{- else -}}{{- $name = (replace $slug "-" " " | title) -}}{{- end -}}
+  {{- end -}}
   {{- $imgPath := printf "/images/agencies/%s-home.webp" $slug -}}
   <div class="pr-agency-triptych pr-agency-triptych--solo" data-pr-slug="{{ $slug }}" data-pr-count="1">
     <figure class="pr-agency-card pr-agency-card--home">
