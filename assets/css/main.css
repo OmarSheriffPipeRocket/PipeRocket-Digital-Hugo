@@ -8909,7 +8909,13 @@ main table a,
   .pr-2col-article .pr-article-3-6-3 {
     display: flex;
     flex-direction: column;
+    /* Stretch items to the container width so the content column has a
+       DEFINITE width. Without this the base `align-items: start` lets the
+       column size to its widest child (e.g. a wide comparison table), which
+       then overflows and gets clipped by body `overflow-x: clip` on mobile. */
+    align-items: stretch;
   }
+  .pr-2col-article .pr-article-3-6-3 > * { min-width: 0; max-width: 100%; }
   .pr-2col-article .pr-article-3-6-3 > .pr-article-main { order: 1; }
   .pr-2col-article .pr-article-3-6-3 > .pr-article-rail--left { order: 2; }
 
@@ -8917,9 +8923,11 @@ main table a,
   .pr-glossary .pr-article-3-6-3 {
     display: flex;
     flex-direction: column;
+    align-items: stretch; /* definite-width column — see note above */
     margin-top: 0;
     padding: 24px 0 48px;
   }
+  .pr-glossary .pr-article-3-6-3 > * { min-width: 0; max-width: 100%; }
   .pr-glossary .pr-article-3-6-3 .pr-article-main { order: 1; }
   /* The left blog-v2 rail (TOC + CTA) comes BEFORE the right Knowledge Hub
      rail. Both are .pr-blog-v2__rail — distinguished by DOM order via
