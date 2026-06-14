@@ -183,7 +183,7 @@ Most marketing ops engagements start with tool audits. PipeRocket’s start with
 - **SaaS SEO:** pipeline-first organic strategy integrated with your marketing ops infrastructure so organic touchpoints are captured in attribution and organic CAC is visible alongside paid
 - **[SaaS PPC:](/saas-ppc/)** paid programs connected to your CRM and reporting framework so spend decisions are made on SQL and pipeline data, not click-through rates
 
-With 50+ B2B SaaS companies served and a 4.8 rating on Clutch, PipeRocket operates as an extended revenue team. If your marketing team cannot tell the board what it contributed to pipeline last quarter, that is the specific problem we were built to solve.
+With 70+ B2B SaaS companies served and a 4.7 rating on Clutch, PipeRocket operates as an extended revenue team. If your marketing team cannot tell the board what it contributed to pipeline last quarter, that is the specific problem we were built to solve.
 
 ## Conclusion
 

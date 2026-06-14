@@ -150,7 +150,7 @@ Every article goes through expert interviews, original POV development, and a co
 - GEO/AEO reporting alongside traditional SEO metrics
 - Pipeline attribution baked into monthly reporting
 
-**Proof point:** We've shipped programs for B2B SaaS clients across fintech, devtools, and martech. Our Clutch profile averages 4.9/5 across 28 verified reviews, with reviewers consistently citing pipeline contribution as the reason they renewed.
+**Proof point:** We've shipped programs for B2B SaaS clients across fintech, devtools, and martech. Our Clutch profile averages 4.7/5 across 13 verified reviews, with reviewers consistently citing pipeline contribution as the reason they renewed.
 
 **Limitation:** We're not a fit for teams that want 30 articles a month at $2,000 with no strategic guidance. Our minimum engagement assumes you have a product worth interviewing experts about.
 

@@ -40,7 +40,7 @@ Picking the wrong partner at enterprise scale costs more than the retainer fee. 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Loopex Digital | Technical SEO debt | [Custom pricing](https://www.loopexdigital.com) | Yes | [5.0/5 (84 reviews)](https://clutch.co/profile/loopex-digital) |
-| PipeRocket Digital | B2B SaaS pipeline SEO | [$5,000/mo](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS pipeline SEO | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Linkflow | SaaS authority + AI search | [Custom pricing](https://linkflow.ai) | Yes | [5.0/5 (5 reviews)](https://clutch.co/profile/linkflow) |
 | Amsive | Omnichannel enterprise | [Custom pricing](https://www.amsive.com) | Yes | [4.8/5 (3 reviews)](https://clutch.co/profile/amsive) |
 | Searchbloom | Fast mid-market execution | [Custom pricing](https://www.searchbloom.com) | Yes | [4.9/5 (100 reviews)](https://clutch.co/profile/searchbloom) |
@@ -188,7 +188,7 @@ We're upfront that B2B SaaS, fintech, and PTaaS are the only verticals we serve,
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [SEO audit and pipeline analysis](/contact-us/?utm_source=best-enterprise-seo&utm_medium=free-audit) |
-| Clutch Rating | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

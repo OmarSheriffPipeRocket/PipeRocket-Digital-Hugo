@@ -164,7 +164,7 @@ A few prospects find our intake heavy because we ask for pipeline data others do
 
 - Teams without clean CRM hygiene need a setup phase first ([Clutch](https://clutch.co/profile/piperocket-digital))
 
-**Track Record:** We carry 4.8/5 on Clutch and have shipped programs for Storylane, Astra, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo. Engagements span seed-stage founders through $50M+ ARR SaaS teams.
+**Track Record:** We carry 4.7/5 (13 reviews) on Clutch and have shipped programs for Storylane, Astra, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo. Engagements span seed-stage founders through $50M+ ARR SaaS teams.
 
 **The Trade-off:** We're SaaS-only, which means we say no to e-commerce and B2C work. Our pipeline-attribution model also assumes you'll grant CRM access; teams that won't share sales data get less from us.
 

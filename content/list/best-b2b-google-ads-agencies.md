@@ -41,7 +41,7 @@ Picking the wrong agency costs more than management fees: it means a quarter of 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | KlientBoost | Creative testing and CRO | [$10,000/mo](https://klientboost.com/pricing) | Yes | [4.9/5 (400+ reviews)](https://clutch.co/profile/klientboost) |
-| PipeRocket Digital | SQL-focused B2B campaigns | [$5,000/mo](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | SQL-focused B2B campaigns | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Directive Consulting | Enterprise SaaS paid search | [$15,000/mo](https://directiveconsulting.com) | Yes | [Verified on Clutch](https://clutch.co/profile/directive-consulting) |
 | Single Grain | Integrated paid plus content | [$5,000/mo](https://www.singlegrain.com) | Yes | [Verified on Clutch](https://clutch.co/profile/single-grain) |
 | Disruptive Advertising | Mid-market hands-on PPC | [$3,000/mo](https://disruptiveadvertising.com) | Yes | [4.8/5 (365+ reviews)](https://clutch.co/profile/disruptive-advertising) |
@@ -212,7 +212,7 @@ We built this for the VP Marketing who's tired of paid-media decks full of CTRs 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [pipeline audit and ICP analysis](/contact-us/?utm_source=best-b2b-google-ads&utm_medium=free-audit) |
-| Clutch Rating | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

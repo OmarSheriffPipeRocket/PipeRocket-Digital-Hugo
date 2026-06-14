@@ -353,7 +353,7 @@ PipeRocket Digital is a [SaaS SEO agency](/saas-seo-agency/) that reports on pip
 
 Every page is measured against MQLs, SQLs, PQLs, and pipeline contribution — not rankings and impressions.
 
-With 50+ B2B SaaS companies served, a 4.8 rating on Clutch, strong G2 and Capterra presence, and a 25-person team embedded across SEO, [performance marketing](/glossary/what-is-performance-marketing/), and [content marketing](/saas-seo-agency/content-marketing-agency/), PipeRocket acts as an extended revenue team, not a vendor.
+With 70+ B2B SaaS companies served, a 4.7 rating on Clutch, strong G2 and Capterra presence, and a 25-person team embedded across SEO, [performance marketing](/glossary/what-is-performance-marketing/), and [content marketing](/saas-seo-agency/content-marketing-agency/), PipeRocket acts as an extended revenue team, not a vendor.
 
 ## Frequently Asked Questions
 

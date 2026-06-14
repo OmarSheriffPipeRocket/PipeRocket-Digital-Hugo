@@ -148,7 +148,7 @@ Our programs braid AEO content, GEO authority signals, technical SEO, and AI cit
 
 - Reviewers cite pipeline attribution and revenue tie-back as the differentiator.
 
-**Track Record:** Verified client roster includes Storylane, DevRev, Goldcast, LeadSquared, and Astra. The Clutch profile shows a 4.8/5 rating across 12 reviews, with consistent themes around revenue attribution and AEO depth ([Clutch](https://clutch.co/profile/piperocket-digital)).
+**Track Record:** Verified client roster includes Storylane, DevRev, Goldcast, LeadSquared, and Astra. The Clutch profile shows a 4.7/5 rating across 13 reviews, with consistent themes around revenue attribution and AEO depth ([Clutch](https://clutch.co/profile/piperocket-digital)).
 
 **Trade-offs:** We don't take B2C, e-commerce, or affiliate work, which narrows the buyer pool. Our SaaS specialization means non-SaaS teams should look elsewhere on this list.
 

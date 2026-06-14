@@ -176,7 +176,7 @@ PipeRocket was built to solve exactly this. Before any content brief is written,
 - **[SaaS PPC:](/saas-ppc/)** paid programs connected to your CRM and integrated with your organic strategy so both channels share data and report against the same pipeline targets
 - **[Marketing Operations:](/marketing-ops/)** the attribution infrastructure, CRM configuration, and multi-touch reporting framework that makes enterprise SEO pipeline contribution visible at the board level
 
-With 50+ B2B SaaS companies served and a 4.8 rating on Clutch, PipeRocket operates as an extended enterprise revenue team. If your organic program is generating traffic that does not show up in your pipeline report, that is the specific problem we were built to solve.
+With 70+ B2B SaaS companies served and a 4.7 rating on Clutch, PipeRocket operates as an extended enterprise revenue team. If your organic program is generating traffic that does not show up in your pipeline report, that is the specific problem we were built to solve.
 
 ## Conclusion
 

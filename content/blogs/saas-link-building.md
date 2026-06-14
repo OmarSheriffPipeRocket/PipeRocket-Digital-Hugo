@@ -183,7 +183,7 @@ Our [SaaS SEO service](/saas-seo-agency/) includes a full link building componen
 
 Our saas link building strategies are built around editorial outreach, original research, integration ecosystem placement, and brand mention reclamation.
 
-Our 25-person team has built link programs for 50+ B2B SaaS companies across categories including sales enablement, HR tech, revenue operations, and marketing automation, managing campaigns for clients like Storylane, LeadSquared, and Spendflo. We hold a 4.8 rating on Clutch.
+Our 25-person team has built link programs for 70+ B2B SaaS companies across categories including sales enablement, HR tech, revenue operations, and marketing automation, managing campaigns for clients like Storylane, LeadSquared, and Spendflo. We hold a 4.7 rating on Clutch.
 
 ## Conclusion
 

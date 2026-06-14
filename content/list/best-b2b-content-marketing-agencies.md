@@ -39,7 +39,7 @@ Picking the wrong agency costs more than the retainer line item: it means a quar
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | Animalz | Executive ghostwriting and research | Custom | Yes | [Verified on Clutch](https://clutch.co/profile/animalz) |
-| PipeRocket Digital | ROI-driven B2B content for SaaS | [Custom](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | ROI-driven B2B content for SaaS | [Custom](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Grow and Convert | BOFU conversion-focused content | Custom | Yes | [Verified on Clutch](https://clutch.co/profile/grow-convert) |
 | Megawatt | Cybersecurity and technical B2B | [Custom](https://megawatt.co) | Yes | Verified on Clutch |
 | Siege Media | Visual link-earning assets | [Custom](https://siegemedia.com) | Yes | [Verified on Clutch](https://clutch.co/profile/siege-media) |
@@ -207,7 +207,7 @@ PipeRocket Digital scopes engagements to your pipeline goals and growth stage ra
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [content audit and pipeline gap analysis](/contact-us/?utm_source=best-b2b-content&utm_medium=free-audit) |
-| Clutch Rating | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

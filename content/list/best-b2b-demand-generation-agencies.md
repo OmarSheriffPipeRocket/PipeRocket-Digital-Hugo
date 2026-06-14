@@ -41,7 +41,7 @@ Picking the wrong agency costs more than retainer fees: it costs you a quarter o
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | Refine Labs | Demand creation methodology | Custom | Yes | Verified on Clutch |
-| PipeRocket Digital | Pipeline-attributed demand gen | [$5,000/mo](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-attributed demand gen | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Directive Consulting | Customer Generation paid media | [$15,000/mo](https://directiveconsulting.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/directive-consulting) |
 | Intelligent Demand | Enterprise ABM + RevOps | Custom | Yes | [Verified on Clutch](https://clutch.co/profile/intelligent-demand) |
 | SmartBug Media | HubSpot Elite inbound | Custom | Yes | [Verified on Clutch](https://clutch.co/profile/smartbug-media) |
@@ -211,7 +211,7 @@ We built this for the VP Marketing who has to defend demand gen spend at the nex
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [demand gen audit and ICP analysis](/contact-us/?utm_source=best-b2b-demand-gen&utm_medium=free-audit) |
-| Clutch Rating | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

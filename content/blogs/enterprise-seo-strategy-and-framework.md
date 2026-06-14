@@ -172,7 +172,7 @@ Before a keyword tool opens, the team goes inside your sales call recordings, ma
 - **[SaaS PPC:](/saas-ppc/)** paid programs connected directly to your CRM so organic and paid report against the same pipeline outcomes, and SEO keyword data feeds paid targeting decisions
 - **[Marketing Operations:](/marketing-ops/)** the attribution infrastructure, CRM configuration, and reporting framework that makes enterprise SEO pipeline contribution visible to the CFO, not just the marketing team
 
-With 50+ B2B SaaS companies served and a 4.8 rating on Clutch, PipeRocket operates as an extended revenue team. If your enterprise SEO program is generating traffic but not pipeline, that is the specific problem we were built to solve.
+With 70+ B2B SaaS companies served and a 4.7 rating on Clutch, PipeRocket operates as an extended revenue team. If your enterprise SEO program is generating traffic but not pipeline, that is the specific problem we were built to solve.
 
 ## Conclusion
 

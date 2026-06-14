@@ -158,7 +158,7 @@ Teams looking for consumer-health DTC growth programmes are pointed elsewhere be
 
 - We don't do pharma launches or patient-facing app growth
 
-**What's On Record:** We've built and scaled demand-gen programmes for 50+ B2B SaaS companies, including Storylane, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo. Healthtech engagements draw on the same playbook with clinical-stakeholder mapping layered on top.
+**What's On Record:** We've built and scaled demand-gen programmes for 70+ B2B SaaS companies, including Storylane, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo. Healthtech engagements draw on the same playbook with clinical-stakeholder mapping layered on top.
 
 **The Friction:** We're a B2B SaaS shop first, with healthtech as one of several verticals our playbook applies to. Teams that want a healthcare-only agency with a 25-year clinical track record should look at Clarity Quest or HealthLaunchpad. Our edge is the attribution discipline, not the longest healthcare tenure on this list.
 

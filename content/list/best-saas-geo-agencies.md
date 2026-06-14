@@ -202,7 +202,7 @@ We built [PipeRocket Digital](/) as a B2B SaaS marketing agency before AI search
 - Each engagement gets a specialist pod, so execution never stalls on capacity.
 - We work exclusively with B2B SaaS, which keeps the ICP focus tight.
 
-**Proof On File:** We hold a 4.8/5 verified Clutch rating across 12 reviews ([Clutch](https://clutch.co/profile/piperocket-digital)) and named B2B SaaS clients including Storylane, DevRev, Goldcast, LeadSquared, and Astra. Our case studies are published on the [case studies hub](/case-study/).
+**Proof On File:** We hold a 4.7/5 verified Clutch rating across 13 reviews ([Clutch](https://clutch.co/profile/piperocket-digital)) and named B2B SaaS clients including Storylane, DevRev, Goldcast, LeadSquared, and Astra. Our case studies are published on the [case studies hub](/case-study/).
 
 **Friction Points:** We're a 30+ team, not a 200-person shop, so we cap how many enterprise programs we run in parallel each quarter.
 

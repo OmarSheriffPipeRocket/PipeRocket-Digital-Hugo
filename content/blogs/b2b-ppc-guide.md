@@ -176,7 +176,7 @@ Most paid agencies start with the campaign. We start with your ICP, your sales c
 
 We measure against MQLs, SQLs, and pipeline contribution within 60 days — not clicks and impression share. Our [SaaS PPC service](/saas-ppc/) is built for founders and marketing leaders who are done receiving platform dashboards and want to see pipeline contribution by channel, audience, and intent. Our [Marketing Operations service](/marketing-ops/) makes sure your CRM, tracking, and attribution are all connected before a single dollar goes out.
 
-Our 25-person team has run paid programs for 50+ B2B SaaS companies, managing over $5M in ad spend for clients including Storylane, Astra, LeadSquared, and Spendflo, with a 4.8 rating on Clutch.
+Our 25-person team has run paid programs for 70+ B2B SaaS companies, managing over $5M in ad spend for clients including Storylane, Astra, LeadSquared, and Spendflo, with a 4.7 rating on Clutch.
 
 ## Conclusion
 

@@ -37,7 +37,7 @@ Picking the wrong partner costs more than the retainer fee. You lose a year of c
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | 27Zero | Edtech-exclusive brand and content | [Custom pricing](https://www.27zero.agency) | Yes | No verified Clutch profile |
-| PipeRocket Digital | Revenue-focused edtech SaaS | [$5,000/mo](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Revenue-focused edtech SaaS | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Aspectus | Global edtech enterprise comms | [Custom pricing](https://aspectusgroup.com) | Yes | [5.0/5 (8 reviews)](https://clutch.co/profile/aspectus-group) |
 | Insivia | Edtech SaaS adoption and CRO | [Custom pricing](https://www.insivia.com) | Yes | [5.0/5 (5 reviews)](https://clutch.co/profile/insivia) |
 | Native Digital | Edtech creative and paid media | [Custom pricing](https://nativedigital.com) | Yes | [4.9/5 (9 reviews)](https://clutch.co/profile/native-digital) |
@@ -146,7 +146,7 @@ Our 30-plus-person team owns BOFU-led SEO, paid search, GEO/AEO, and programmati
 - GEO and AEO depth alongside traditional technical SEO under one roof
 - Pipeline-attributed reporting that survives the quarterly board review
 
-**Proof point:** A B2B SaaS Marketing Director on Clutch said our "strategic thinking and ownership of our enterprise projects exceeded expectations," and our 4.8/5 verified Clutch rating is built on engagements where SQL contribution was the agreed success metric ([source](https://clutch.co/profile/piperocket-digital)).
+**Proof point:** A B2B SaaS Marketing Director on Clutch said our "strategic thinking and ownership of our enterprise projects exceeded expectations," and our 4.7/5 verified Clutch rating is built on engagements where SQL contribution was the agreed success metric ([source](https://clutch.co/profile/piperocket-digital)).
 
 **Limitation:** We're a B2B SaaS shop, which means we politely decline K-12 district sales work that requires deep procurement-cycle navigation, lobbying-style government relations, or pure brand campaigns without a measurable demand component.
 
@@ -184,7 +184,7 @@ We're upfront that B2B SaaS, fintech, and PTaaS are the only verticals we serve,
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, 30-minute pipeline audit via the contact form |
-| Clutch Rating | 4.8/5 verified on Clutch |
+| Clutch Rating | 4.7/5 verified on Clutch |
 
 ### 3. Aspectus
 

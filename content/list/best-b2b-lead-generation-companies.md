@@ -38,7 +38,7 @@ Picking the wrong agency costs more than retainer fees: it costs you a quarter o
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | CIENCE | AI-enhanced multi-channel outreach | [Custom](https://cience.com) | Yes | Verified on Clutch |
-| PipeRocket Digital | Full-funnel SaaS lead generation | [Custom](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Full-funnel SaaS lead generation | [Custom](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Belkins | Appointment setting for technical B2B | [Custom](https://belkins.io) | Yes | Verified on Clutch |
 | Martal Group | Outsourced sales executives | [Custom](https://martal.ca) | Yes | Verified on Clutch |
 | Callbox | Global ABM and multi-region | [Custom](https://callboxinc.com) | Yes | Verified on Clutch |
@@ -203,7 +203,7 @@ We built this for the VP Marketing who's tired of agencies that hand off a meeti
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [lead gen audit and ICP analysis](/contact-us/?utm_source=best-b2b-lead-gen&utm_medium=free-audit) |
-| Clutch Rating | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

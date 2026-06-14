@@ -201,7 +201,7 @@ Technical SEO depends heavily on engineering cooperation. Getting it requires mo
 
 Building a corporate SEO framework is not just about expanding your purview — it requires a complete overhaul of strategy, governance, technical infrastructure, and organizational alignment. Whether you are starting from scratch or revamping an existing program, PipeRocket Digital guides you through every component.
 
-Our [SaaS SEO service](/saas-seo-agency/) is built on the same pipeline-first principles that make enterprise programs actually generate revenue — not just rankings. With a 25-person team that has worked across 50+ B2B companies and a 4.8 Clutch rating, we act as an extended revenue team, not a vendor.
+Our [SaaS SEO service](/saas-seo-agency/) is built on the same pipeline-first principles that make enterprise programs actually generate revenue — not just rankings. With a 25-person team that has worked across 70+ B2B companies and a 4.7 Clutch rating, we act as an extended revenue team, not a vendor.
 
 To navigate enterprise SEO seamlessly, [get in touch with us today](/contact-us/).
 

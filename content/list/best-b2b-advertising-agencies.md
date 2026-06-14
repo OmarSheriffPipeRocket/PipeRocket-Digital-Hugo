@@ -41,7 +41,7 @@ Picking the wrong agency costs more than retainer fees: it costs you a quarter o
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | Customer Generation for B2B SaaS | $8,000/mo | Yes | [4.8/5 (56+ reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | Pipeline-first paid for B2B SaaS | [$3,000/mo](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-first paid for B2B SaaS | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | KlientBoost | Performance PPC with CRO | [$3,000/mo](https://klientboost.com/contact/) | Yes | [4.9/5 (400+ reviews)](https://clutch.co/profile/klientboost) |
 | Disruptive Advertising | Paid media efficiency audits | [$5,000/mo](https://disruptiveadvertising.com/contact/) | Yes | [4.8/5 (365+ reviews)](https://clutch.co/profile/disruptive-advertising) |
 | Walker Sands | Advertising integrated with PR | Custom | Yes | [Verified on Clutch](https://clutch.co/profile/walker-sands) |
@@ -162,7 +162,7 @@ What we keep seeing is that most B2B advertising agencies hand you a dashboard f
 
 Our 25-person team has run paid media for 50+ SaaS companies and we report every campaign in the same review your sales team attends, not a separate marketing deck. Pipeline contribution shows up by channel, audience, and intent stage.
 
-- We hold a 4.8 on Clutch across verified B2B SaaS engagements as of May 2026
+- We hold a 4.7 on Clutch across verified B2B SaaS engagements as of May 2026
 - ICP-led targeting before campaign launch, never platform audience defaults
 - Same team owns paid, SEO, ABM, and content; no handoffs between agencies
 
@@ -212,7 +212,7 @@ Retainers start at $3,000/month for B2B SaaS paid media, with full-service [mark
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [pipeline audit and ICP analysis](/contact-us/?utm_source=best-b2b-advertising-agencies&utm_medium=free-audit) |
-| Clutch Rating | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

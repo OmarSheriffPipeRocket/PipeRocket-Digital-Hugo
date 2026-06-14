@@ -40,7 +40,7 @@ The wrong B2B PPC agency can drain six figures in ad spend before the first perf
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | Enterprise B2B SaaS pipeline | Custom pricing | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | Embedded B2B SaaS growth | Custom pricing | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Embedded B2B SaaS growth | Custom pricing | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | WebFX | Manufacturing, multi-vertical PPC | [$1,500/mo](https://www.webfx.com/digital-marketing/pricing/) | Yes | [4.9/5 (450 reviews)](https://clutch.co/profile/webfx) |
 | Single Grain | AI-deployed paid media | Custom pricing | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
 | Disruptive Advertising | PPC audit and waste cleanup | Custom pricing | Yes | [4.8/5 (365 reviews)](https://clutch.co/profile/disruptive-advertising) |

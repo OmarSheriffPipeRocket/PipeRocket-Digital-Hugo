@@ -41,7 +41,7 @@ Picking the wrong agency costs more than the retainer invoice: it means a year o
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | Straight North | Traditional B2B services | [Custom](https://www.straightnorth.com) | Yes | [Verified on Clutch](https://clutch.co/profile/straight-north) |
-| PipeRocket Digital | ROI-driven B2B SaaS | [$5,000/mo](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | ROI-driven B2B SaaS | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Directive Consulting | Enterprise technology | [$15,000/mo](https://directiveconsulting.com) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
 | RevenueZen | Sales-led B2B SaaS | [$9,625/mo](https://revenuezen.com) | Yes | [4.9/5 (38 reviews)](https://clutch.co/profile/revenuezen) |
 | mvpGROW | B2B startups | [Custom](https://mvpgrow.com) | Yes | [Verified on Clutch](https://clutch.co/profile/mvpgrow) |
@@ -210,7 +210,7 @@ We built this for the VP Marketing who needs to walk into a board meeting and pr
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [SEO audit and pipeline analysis](/contact-us/?utm_source=best-b2b-seo&utm_medium=free-audit) |
-| Clutch Rating | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

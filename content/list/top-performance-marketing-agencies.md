@@ -39,7 +39,7 @@ The wrong choice here can cost six to seven figures in mis-allocated ad spend an
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | B2B SaaS pipeline | [$6,500/mo](https://directiveconsulting.com) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | B2B SaaS revenue | [Custom pricing](https://piperocket.digital) | Yes | [4.8/5](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS revenue | [Custom pricing](https://piperocket.digital) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Tinuiti | Enterprise retail and marketplace | [$10,000+ min project](https://tinuiti.com) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/tinuiti) |
 | Disruptive Advertising | PPC plus CRO | [$5,000/mo](https://disruptiveadvertising.com) | Yes | [4.8/5 (365 reviews)](https://clutch.co/profile/disruptive-advertising) |
 | Ignite Visibility | Multi-channel attribution | [$3,000/mo](https://ignitevisibility.com) | Yes | [4.8/5 (173 reviews)](https://clutch.co/profile/ignite-visibility) |
@@ -172,7 +172,7 @@ PipeRocket runs on custom retainers scoped to channel mix, target pipeline, and 
 **Love:** Pipeline-first reporting
 A verified Clutch reviewer called us "an extension of our team with complete ownership of results" on [our Clutch profile](https://clutch.co/profile/piperocket-digital).
 
-- Our 4.8/5 Clutch rating reflects consistent reporting cadence and SQL-grade attribution
+- Our 4.7/5 Clutch rating reflects consistent reporting cadence and SQL-grade attribution
 
 **Complain:** SaaS-only scope
 Buyers outside B2B SaaS have flagged that our pod model doesn't flex to e-commerce on [our site](https://piperocket.digital).

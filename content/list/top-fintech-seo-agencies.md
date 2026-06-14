@@ -40,7 +40,7 @@ The wrong fintech SEO partner doesn't just underperform: it burns 9 to 18 months
 | --- | --- | --- | --- | --- |
 | SureOak | High-authority link building | [Custom pricing](https://sureoak.com/) | Yes | [4.9/5 (38 reviews)](https://clutch.co/profile/sure-oak) |
 | CSTMR | Fintech-only CRO and SEO | [Custom pricing](https://cstmr.com/) | Yes | [4.9/5 (7 reviews)](https://clutch.co/profile/cstmr) |
-| PipeRocket Digital | B2B fintech and SaaS pipeline | [$5,000/mo](/saas-seo-agency/) | Yes | [4.8/5](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B fintech and SaaS pipeline | [$5,000/mo](/saas-seo-agency/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Evara (Inbound Fintech) | HubSpot-native fintech funnels | [Custom pricing](https://www.evara.co/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/inbound-fintech) |
 | High Voltage SEO | Experiment-driven on-page testing | [Custom pricing](https://hvseo.co/) | Yes | [4.7/5 (25 reviews)](https://clutch.co/profile/high-voltage-seo) |
 | Omnius | Capped-roster reverse-funnel SEO | [Custom pricing](https://www.omnius.so/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/omnius-0) |
@@ -190,7 +190,7 @@ Only seven [verified Clutch reviews](https://clutch.co/profile/cstmr) makes patt
 
 Best for: B2B fintech and SaaS teams that need organic search tied to closed-won pipeline.
 
-[PipeRocket Digital](/) is our Chennai-based agency delivering [fintech SEO](/saas-seo-agency/fintech-seo-agency/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), and pipeline-attributed content for B2B fintech and SaaS operators. We hold a 4.8 Clutch rating with US-hours delivery.
+[PipeRocket Digital](/) is our Chennai-based agency delivering [fintech SEO](/saas-seo-agency/fintech-seo-agency/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), and pipeline-attributed content for B2B fintech and SaaS operators. We hold a 4.7 Clutch rating with US-hours delivery.
 
 **Firm Profile**
 

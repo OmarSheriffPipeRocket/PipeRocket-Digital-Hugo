@@ -39,7 +39,7 @@ Picking the wrong agency means twelve months of impressive domain ratings that n
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Editorial.Link | Productized per-link buyers | [$300/link](https://editorial.link/) | Yes | [5.0/5 (80 reviews)](https://clutch.co/profile/editoriallink) |
-| PipeRocket Digital | Pipeline-tied B2B SaaS links | [Custom retainer](/contact-us/) | Yes | [4.8/5 (verified)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-tied B2B SaaS links | [Custom retainer](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | uSERP | Tier 1 editorial placements | [$5,000/mo](https://userp.io/) | Yes | [4.9/5 (20 reviews)](https://clutch.co/profile/userp) |
 | Siege Media | Content-led link earning | [$5,000/mo](https://www.siegemedia.com/contact/) | Yes | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
 | Above Apex | SaaS-only editorial boutique | [$5,000+ project](https://aboveapex.com/) | Yes | [4.9/5 (16 reviews)](https://clutch.co/profile/above-apex) |
@@ -150,7 +150,7 @@ Best for: B2B SaaS teams that want links measured against pipeline, not domain r
 **Reviewer Log**
 
 **Love:** Pipeline outcomes, not DR vanity
-Clutch reviews repeatedly cite pipeline influence as the differentiator, with 4.8/5 across verified B2B SaaS engagements ([Clutch](https://clutch.co/profile/piperocket-digital)).
+Clutch reviews repeatedly cite pipeline influence as the differentiator, with 4.7/5 across verified B2B SaaS engagements ([Clutch](https://clutch.co/profile/piperocket-digital)).
 
 - "PipeRocket built our entire SEO and AEO foundation from zero. We went from no organic traffic to consistent demo pipeline in under 9 months" ([Clutch](https://clutch.co/profile/piperocket-digital))
 
@@ -159,7 +159,7 @@ Buyers wanting a fixed monthly link count find our model less prescriptive than 
 
 - Custom retainer structure means scoping calls before any number is quoted
 
-**Evidence Filed:** We've worked with 50+ B2B SaaS companies including Storylane, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo. Our Clutch profile shows a 4.8/5 with reviews citing pipeline outcomes inside 9 months for greenfield SaaS programs.
+**Evidence Filed:** We've worked with 70+ B2B SaaS companies including Storylane, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo. Our Clutch profile shows a 4.7/5 with reviews citing pipeline outcomes inside 9 months for greenfield SaaS programs.
 
 **Where We Don't Fit:** Teams that want link building isolated from broader SEO strategy, or buyers comparing on per-link cost without a pipeline metric attached.
 

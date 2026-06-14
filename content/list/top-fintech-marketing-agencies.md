@@ -39,7 +39,7 @@ Each agency targets a different slice of fintech: pure-play specialists for bank
 | --- | --- | --- | --- | --- |
 | Fintech Digital | Fintech-only digital marketing | [$25,000 project min](https://www.fintechdigital.com/) | Yes | [5.0/5 (4 reviews)](https://clutch.co/profile/fintech-digital) |
 | CSTMR | Full-funnel fintech growth | [$50,000 project min](https://cstmr.com/) | Yes | [4.9/5 (7 reviews)](https://clutch.co/profile/cstmr) |
-| PipeRocket Digital | Pipeline-tied demand gen | [$5,000/mo](/contact-us/) | Yes | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-tied demand gen | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Walker Sands | Integrated PR plus demand | [$10,000 project min](https://www.walkersands.com/) | Yes | [4.8/5 (9 reviews)](https://clutch.co/profile/walker-sands-0) |
 | Mint Studios | Fintech content marketing | [$5,000/mo](https://www.mintcopywritingstudios.com/) | Yes | [4.8/5 (2 reviews)](https://clutch.co/profile/mint-studios) |
 | NinjaPromo | Crypto and social subscription | [$4,000/mo](https://ninjapromo.io/) | Yes | [4.9/5 (82 reviews)](https://clutch.co/profile/ninja-promo) |
@@ -216,7 +216,7 @@ Our 30-plus-person team owns BOFU-led SEO, paid search, GEO/AEO, and programmati
 - GEO and AEO depth alongside technical SEO under one roof
 - Pipeline-attributed reporting that survives the quarterly board review
 
-**Evidence on Record:** We hold a 4.8/5 verified Clutch rating, and our case studies show measurable pipeline impact: [HyperStart](/case-study-hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead by 73%, and [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase.
+**Evidence on Record:** We hold a 4.7/5 verified Clutch rating, and our case studies show measurable pipeline impact: [HyperStart](/case-study-hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead by 73%, and [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase.
 
 **Where They Fall Short:** We're a B2B SaaS shop, so we politely decline B2C banking apps, consumer crypto products, and pure brand engagements without a pipeline KPI attached.
 
@@ -254,7 +254,7 @@ We're upfront that B2B SaaS and fintech are the only verticals we serve, which m
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, 30-minute pipeline audit via the contact form |
-| Clutch Rating | [4.8/5 verified](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ### 4. Walker Sands
 
