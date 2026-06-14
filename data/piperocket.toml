@@ -10,7 +10,7 @@
 # `clutch_reviews`, and `last_verified` here — then all pipelines inherit it.
 
 name        = "PipeRocket Digital"
-founded     = "2020"
+founded     = "2023"
 hq          = "Chennai, India with US delivery"   # factual HQ of record (matches Clutch); not "remote-first"
 homepage    = "/"
 contact     = "/contact-us/"
@@ -29,7 +29,7 @@ last_verified  = "2026-06-11"
 
 # Positioning / scope
 specialization = "B2B SaaS only — SEO + PPC in one retainer; pipeline reporting (MQL, CAC, pipeline value) from week 4"
-clients_count  = "50+ B2B SaaS clients"
+clients_count  = "70+ B2B SaaS clients"
 clients_named  = "Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra"
 certifications = "Google Partner, Meta Business Partner"
 

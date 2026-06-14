@@ -1,8 +1,8 @@
 ---
 title: "B2B SaaS Marketing Agency Built for Pipeline | PipeRocket"
-description: "B2B SaaS marketing agency built for pipeline, not vanity traffic. Senior SaaS SEO, SaaS PPC, and MarOps operators embedded in your team. 50+ brands shipped."
+description: "B2B SaaS marketing agency built for pipeline, not vanity traffic. Senior SaaS SEO, SaaS PPC, and MarOps operators embedded in your team. 70+ brands shipped."
 metaTitle: "B2B SaaS Marketing Agency Built for Pipeline | PipeRocket"
-metaDescription: "B2B SaaS marketing agency built for pipeline, not vanity traffic. Senior SaaS SEO, SaaS PPC, and MarOps operators embedded in your team. 50+ brands shipped."
+metaDescription: "B2B SaaS marketing agency built for pipeline, not vanity traffic. Senior SaaS SEO, SaaS PPC, and MarOps operators embedded in your team. 70+ brands shipped."
 
 # Homepage FAQ — single source of truth for BOTH the visible accordion
 # (layouts/index.html) and the FAQPage JSON-LD (layouts/partials/head-meta.html).
@@ -10,7 +10,7 @@ metaDescription: "B2B SaaS marketing agency built for pipeline, not vanity traff
 # self-contained sentence as a citation. Keep founders named with ex-employers.
 faqs:
   - q: "Who is PipeRocket Digital?"
-    a: "PipeRocket Digital is a B2B SaaS marketing agency that builds qualified pipeline, not just traffic or clicks, for software companies. Founded in 2020, it runs SaaS SEO, SaaS PPC, and AI search optimization (AEO and GEO) as one connected system, and has delivered measurable pipeline for 50+ B2B SaaS brands including Storylane, Spendflo, HyperVerge, and DevRev."
+    a: "PipeRocket Digital is a B2B SaaS marketing agency that builds qualified pipeline, not just traffic or clicks, for software companies. Founded in 2023, it runs SaaS SEO, SaaS PPC, and AI search optimization (AEO and GEO) as one connected system, and has delivered measurable pipeline for 70+ B2B SaaS brands including Storylane, Spendflo, HyperVerge, and DevRev."
   - q: "Who founded PipeRocket Digital, and what experience do they have?"
     a: "PipeRocket Digital was co-founded by Praveen Ravi and Kamaraj Mathiarasan (Kim), two operators who spent over a decade inside B2B SaaS before starting the agency. Praveen Ravi led performance marketing at SaaS Labs and Kissflow, managing $500K+ per month in paid budgets, and was named to CMO Alliance's CMOs to Watch 2026. Kim brings 15+ years of SaaS SEO, having led organic growth at Sprinto and Kissflow and studied 150+ B2B SaaS brands. Both founders run client strategy directly, so the team you meet on day one is the team doing the work on day ninety."
   - q: "Who are PipeRocket Digital's clients?"

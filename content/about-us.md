@@ -1,8 +1,8 @@
 ---
 title: "Built by SaaS operators, not pitch-deck strategists."
-description: "PipeRocket is run by people who spent a decade inside B2B SaaS. Founded in 2020, we've shipped pipeline programmes for 70+ SaaS companies including Storylane, HyperVerge, Spendflo, MetricStream, Goldcast, and SaaS Labs."
+description: "PipeRocket is run by people who spent a decade inside B2B SaaS. Founded in 2023, we've shipped pipeline programmes for 70+ SaaS companies including Storylane, HyperVerge, Spendflo, MetricStream, Goldcast, and SaaS Labs."
 metaTitle: "About PipeRocket Digital | B2B SaaS Marketing Operators"
-metaDescription: "Run by senior B2B SaaS operators. Founded 2020. Pipeline programmes shipped for 70+ SaaS brands including Storylane, Spendflo, HyperVerge."
+metaDescription: "Run by senior B2B SaaS operators. Founded 2023. Pipeline programmes shipped for 70+ SaaS brands including Storylane, Spendflo, HyperVerge."
 date: 2025-02-10
 slug: "about-us"
 layout: "about-us"
@@ -11,7 +11,7 @@ wp_id: 1229
 wp_link: "/about-us/"
 
 eyebrow: "About PipeRocket"
-founded: "2020"
+founded: "2023"
 locations: "New York · Bangalore"
 
 # Numbers strip, verifiable from press release + Clutch
@@ -105,7 +105,7 @@ We've sat across the table from too many agencies that started a meeting with a 
 
 That's why PipeRocket exists.
 
-We started this in 2020 after a decade inside B2B SaaS, first as in-house marketers running paid programmes that had to defend themselves against a CFO every quarter, later as practitioners who got tired of watching agencies optimise for ranking reports instead of revenue.
+We started PipeRocket in 2023, after a decade each inside B2B SaaS, first as in-house marketers running paid programmes that had to defend themselves against a CFO every quarter, later as practitioners who got tired of watching agencies optimise for ranking reports instead of revenue.
 
 Cut the vanity. Start with the buyer. Tie every page, every campaign, every report back to a number the board recognises.
 
