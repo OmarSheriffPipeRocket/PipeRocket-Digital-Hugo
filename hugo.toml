@@ -299,7 +299,7 @@ gsc_verifications = [
   "35sx_ohg4CVnedHcqmFWOdPnVDgd2UOSFlSCHPQwrUc",
   "_g31ybIIcWEPUvuVu43mkjfsSnfYtZliuR1M1ZAehUM",
 ]
-secondary_cta_text = "Book free consultation"
+secondary_cta_text = "Book Free Audit"
 secondary_cta_url = "/contact-us/"
 
 [params.social]
