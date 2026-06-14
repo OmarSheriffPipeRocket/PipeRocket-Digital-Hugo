@@ -1,0 +1,81 @@
+{{- /*
+  clutch-reviews shortcode — collapsible accordion that opens into a horizontal
+  carousel of every verified Clutch review we hold in data/reviews.toml.
+
+  Reuses the prebuilt component already shipped in the codebase:
+    - CSS:  .pr-clutch-accordion* / .pr-clutch-card*  (assets/css/main.css)
+    - JS:   setupClutchAccordion()                    (assets/js/main.js, called on init)
+  The JS only needs the data-* hooks below; it wires toggle + arrows automatically.
+
+  Data-driven: add the 13th Clutch review to data/reviews.toml and it appears here
+  with no template change. Count in the head reflects what is actually rendered.
+
+  Optional params:
+    id      — unique panel id when more than one accordion is on a page (default: clutch-reviews)
+    service — filter to reviews tagged with this service in reviews.toml, e.g. "SaaS PPC"
+              or "SaaS SEO" (default: show all Clutch reviews)
+*/ -}}
+{{- $reviews := where .Site.Data.reviews.reviews "source" "Clutch" -}}
+{{- $clutch := .Site.Data.reviews.sources.clutch -}}
+{{- $panelID := .Get "id" | default "clutch-reviews" -}}
+{{- $svc := .Get "service" -}}
+{{- $svcLabel := "" -}}
+{{- with $svc -}}
+  {{- $reviews = where $reviews "services" "intersect" (slice .) -}}
+  {{- $svcLabel = printf "%s " (replace . "SaaS " "") -}}
+{{- end -}}
+<div class="pr-clutch-embed">
+  <button class="pr-clutch-accordion__head" type="button" data-clutch-accordion-toggle aria-expanded="false" aria-controls="{{ $panelID }}">
+    <span class="pr-clutch-accordion__brand">
+      <img class="pr-clutch-accordion__logo" src="/images/logos/clutch.svg" alt="Clutch" width="76" height="22" loading="lazy">
+      <span class="pr-clutch-accordion__rating">
+        <strong>{{ $clutch.rating }}</strong>
+        <span class="pr-clutch-accordion__stars" aria-hidden="true">★★★★★</span>
+      </span>
+      <span class="pr-clutch-accordion__count">{{ len $reviews }} verified {{ $svcLabel }}reviews</span>
+    </span>
+    <span class="pr-clutch-accordion__caret" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+    </span>
+  </button>
+
+  <div class="pr-clutch-accordion__panel" id="{{ $panelID }}" data-clutch-accordion-panel hidden>
+    <div class="pr-clutch-accordion__carousel-wrap">
+      <div class="pr-clutch-accordion__track" data-carousel-track>
+        {{- range $reviews }}
+        <article class="pr-clutch-card">
+          <div class="pr-clutch-card__head">
+            <div class="pr-clutch-card__rating-row" aria-label="Rated {{ .rating }} out of 5">
+              {{- $r := .rating -}}
+              {{- range seq 5 -}}
+                {{- if le (float .) $r -}}
+                  <span class="pr-clutch-card__star pr-clutch-card__star--full">★</span>
+                {{- else if le (sub (float .) 0.5) $r -}}
+                  <span class="pr-clutch-card__star pr-clutch-card__star--half">★</span>
+                {{- else -}}
+                  <span class="pr-clutch-card__star">★</span>
+                {{- end -}}
+              {{- end -}}
+              <span class="pr-clutch-card__rating-value">{{ .rating }}</span>
+            </div>
+          </div>
+          <h4 class="pr-clutch-card__title">{{ .title }}</h4>
+          <blockquote class="pr-clutch-card__quote">"{{ .quote }}"</blockquote>
+          <div class="pr-clutch-card__footer">
+            <strong>{{ .reviewer_name }}</strong>
+            <span>{{ .reviewer_role }}{{ with .company }} · {{ . }}{{ end }}</span>
+            {{- $link := .review_url | default $clutch.url }}
+            <a class="pr-clutch-card__link" href="{{ $link }}" target="_blank" rel="noopener">View on Clutch ↗</a>
+          </div>
+        </article>
+        {{- end }}
+      </div>
+      <button class="pr-clutch-accordion__nav pr-clutch-accordion__nav--prev" type="button" data-carousel-prev aria-label="Previous reviews">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <button class="pr-clutch-accordion__nav pr-clutch-accordion__nav--next" type="button" data-carousel-next aria-label="Next reviews">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </div>
+  </div>
+</div>

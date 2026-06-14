@@ -555,7 +555,20 @@
    <table> inside a track will blow the grid out past the viewport. */
 .pr-listicle-v2__grid > * { min-width: 0; }
 @media (max-width: 1024px) {
+  /* Single column on mobile. Keep display: GRID with a minmax(0, 1fr) track,
+     not flex: the 1fr track + `min-width: 0` (base rule) caps the column to
+     the viewport so the wide comparison table scrolls inside .pr-table-scroll
+     instead of stretching the whole column to ~980px. (Flex + align-items:
+     start let `main` grow to the table's content width and broke responsiveness.)
+     Dissolve the rail (display: contents) so its children join the grid's
+     column flow and can be ordered: compact TOC at top, article, Pilot CTA last.
+     Defined here, not just in main.css, because listicle.css wins the cascade. */
   .pr-listicle-v2__grid { grid-template-columns: minmax(0, 1fr); padding: 24px 0 48px; gap: 24px; }
+  .pr-listicle-v2__rail-left { display: contents; }
+  .pr-listicle-v2__toc-block { order: 0; }
+  .pr-listicle-v2__main { order: 1; }
+  .pr-listicle-v2__disc-note { order: 2; }
+  .pr-listicle-v2__cta { order: 3; }
 }
 
 /* ---------- Left rail ----------
@@ -585,13 +598,10 @@
 .pr-listicle-v2__rail-left::-webkit-scrollbar-track { background: transparent; }
 .pr-listicle-v2__rail-left > * { flex-shrink: 0; }
 @media (max-width: 1024px) {
-  .pr-listicle-v2__rail-left {
-    position: static;
-    top: auto;
-    max-height: none;
-    overflow-y: visible;
-    padding-right: 0;
-  }
+  /* Rail is display: contents on mobile (see grid rule above), so the
+     sticky/scroll props move to the TOC block: cap its height so a long
+     agency list stays scrollable and never buries the article. */
+  .pr-listicle-v2__toc-block { position: static; max-height: 42vh; overflow-y: auto; }
 }
 
 /* TOC block */

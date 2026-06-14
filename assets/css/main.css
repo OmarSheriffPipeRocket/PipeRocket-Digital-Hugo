@@ -8885,13 +8885,25 @@ main table a,
   .pr-blog-v2__grid > [data-pr-blog-main] { order: 1; }
   .pr-blog-v2__grid > .pr-blog-v2__rail { order: 2; }
 
-  /* Listicles */
+  /* Listicles — surface a compact TOC at the very top on mobile, article
+     next, pilot CTA last. display:contents lets the rail's children join the
+     grid's column flow, so the TOC block sits above the article while the CTA
+     stays at the bottom. The TOC is height-capped + scrollable so a long list
+     never buries the article. */
   .pr-listicle-v2__grid {
     display: flex;
     flex-direction: column;
   }
+  .pr-listicle-v2__grid > .pr-listicle-v2__rail-left { display: contents; }
+  .pr-listicle-v2__grid .pr-listicle-v2__toc-block {
+    order: 0;
+    position: static;
+    max-height: 42vh;
+    overflow-y: auto;
+  }
   .pr-listicle-v2__grid > .pr-listicle-v2__main { order: 1; }
-  .pr-listicle-v2__grid > .pr-listicle-v2__rail-left { order: 2; }
+  .pr-listicle-v2__grid .pr-listicle-v2__disc-note { order: 2; }
+  .pr-listicle-v2__grid .pr-listicle-v2__cta { order: 3; }
 
   /* Compare + Alternative (2-col article using .pr-article-3-6-3) */
   .pr-2col-article .pr-article-3-6-3 {
@@ -12040,6 +12052,16 @@ body.pr-modal-open { overflow: hidden; }
   .pr-clutch-accordion__rating { border-left: 0; padding-left: 0; }
   .pr-clutch-accordion__count { border-left: 0; padding-left: 0; display: block; width: 100%; margin-top: 4px; }
   .pr-clutch-card { width: 280px; }
+}
+
+/* Embed of the Clutch accordion inside article body flow (listicles, etc.) */
+.pr-clutch-embed { margin: 32px 0; }
+.pr-clutch-embed .pr-clutch-accordion__logo { height: 22px; }
+.pr-clutch-embed .pr-clutch-card { width: 264px; padding: 16px 18px 14px; }
+.pr-clutch-embed .pr-clutch-card__title { font-size: 0.95rem; margin-bottom: 10px; }
+.pr-clutch-embed .pr-clutch-card__quote { font-size: 0.9rem; line-height: 1.5; margin-bottom: 12px; }
+@media (max-width: 700px) {
+  .pr-clutch-embed .pr-clutch-card { width: 228px; }
 }
 
 /* Simplified Clutch accordion head — just logo + rating + arrow */
