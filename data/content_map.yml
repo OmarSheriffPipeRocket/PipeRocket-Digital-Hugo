@@ -2484,7 +2484,7 @@ pages:
     funnel: bofu
     cluster: "SEO"
     canonical_for: "best saas seo agencies for plg"
-    status: active
+    status: redirected
     gsc:
       total_impressions: 16
       top_query: "seo for plg companies"
@@ -2501,7 +2501,7 @@ pages:
     funnel: bofu
     cluster: "SEO"
     canonical_for: "best saas seo agencies for slg"
-    status: active
+    status: redirected
     gsc:
       total_impressions: 68
       top_query: "saas seo agencies"
@@ -2518,7 +2518,7 @@ pages:
     funnel: bofu
     cluster: "SEO"
     canonical_for: "best saas seo agencies for series a"
-    status: active
+    status: redirected
     gsc:
       total_impressions: 47
       top_query: "saas seo agencies"
@@ -2535,7 +2535,7 @@ pages:
     funnel: bofu
     cluster: "SEO"
     canonical_for: "best saas seo agencies for series b"
-    status: active
+    status: redirected
     gsc:
       total_impressions: 19
       top_query: "saas seo consulting agencies"
@@ -2552,7 +2552,7 @@ pages:
     funnel: bofu
     cluster: "SEO"
     canonical_for: "best saas seo agencies for startups"
-    status: active
+    status: redirected
     gsc:
       total_impressions: 1490
       top_query: "seo for saas startups"

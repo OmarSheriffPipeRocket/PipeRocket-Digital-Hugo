@@ -136,4 +136,4 @@ Logo retention measures the percentage of customers who stay, regardless of how 
 
 Net Revenue Retention tells you if your SaaS business is actually compounding revenue or just treading water. It’s the metric that spots churn and contraction before they explode, and rewards teams who build real expansion into their product and pricing. If you want to benchmark your NRR or fix a leaky revenue bucket, get in touch or see how we approach SaaS [SEO](/glossary/what-is-seo/) for expansion and retention.
 
-Also read: [top SaaS SEO agencies](/list/best-saas-seo-agencies-for-startups/) for SaaS teams focused on growth
+Also read: [top SaaS SEO agencies](/list/best-saas-seo-agencies/) for SaaS teams focused on growth
