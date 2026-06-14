@@ -10,7 +10,7 @@
 # `clutch_reviews`, and `last_verified` here — then all pipelines inherit it.
 
 name        = "PipeRocket Digital"
-founded     = "2023"
+founded     = "2020"
 hq          = "Chennai, India with US delivery"   # factual HQ of record (matches Clutch); not "remote-first"
 homepage    = "/"
 contact     = "/contact-us/"

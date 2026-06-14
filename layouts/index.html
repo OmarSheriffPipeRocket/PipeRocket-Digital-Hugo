@@ -600,41 +600,15 @@
   <div class="pr-container" style="max-width: 880px;">
     <div class="pr-center"><h2>Frequently asked questions</h2></div>
     <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      {{ range .Params.faqs }}
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What does PipeRocket Digital do?</span>
+          <span class="pr-accordion__header-left">{{ .q }}</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">We're an AI-first B2B SaaS marketing agency obsessed with one thing — your pipeline. SaaS SEO, SaaS PPC, and AI SEO (AEO + GEO) so you get cited by ChatGPT, Perplexity, and Google AI Overviews — all embedded into your team. Think of us less as a vendor, more as the marketing crew you didn't have time to hire.</div>
+        <div class="pr-accordion__body">{{ .a }}</div>
       </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What is a SaaS pipeline?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">It's the journey a potential customer takes from "never heard of you" to signed contract. Lives in your CRM, gets worked by sales, and is the only number that actually pays the bills.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">How is PipeRocket different from a typical agency?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">Most agencies execute tasks — we own outcomes, and we're AI-first about how we get there. AI agents run the grunt work and the data; senior strategists own the strategy. The team you meet on day one is the same team running your campaigns on day ninety. No handoffs from sales to delivery, no swapping account managers every quarter.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What kind of results have your clients seen?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">We've helped 50+ SaaS brands grow — like 5X organic traffic for HyperVerge, 2.5X demos for Storylane, 3.5X MQLs for DevRev, and 81% traffic growth for Spendflo. Real pipeline impact, not just ranking screenshots.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">Why focus only on B2B SaaS?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">Because that's all we've done. Kim brings 15+ years of SaaS SEO — building organic engines that compound. Praveen brings a decade of B2B SaaS paid media — turning ad spend into pipeline, not just clicks. SaaS is the only playbook we run, because it's the only one we know inside out.</div>
-      </details>
+      {{ end }}
     </div>
   </div>
 </section>

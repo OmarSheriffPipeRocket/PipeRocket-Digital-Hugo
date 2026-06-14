@@ -147,16 +147,36 @@
       "@id": "{{ .Site.BaseURL }}#praveen-ravi",
       "name": "Praveen Ravi",
       "jobTitle": "Co-Founder",
+      "description": "Performance marketing leader with 10+ years in B2B SaaS paid acquisition and demand generation. Previously led performance marketing at SaaS Labs and Kissflow, managing $500K+/month in paid budgets.",
       "worksFor": { "@id": "{{ .Site.BaseURL }}#organization" },
-      "sameAs": ["https://www.linkedin.com/in/praveenravi14/"]
+      "alumniOf": [
+        { "@type": "Organization", "name": "SaaS Labs" },
+        { "@type": "Organization", "name": "Kissflow" }
+      ],
+      "knowsAbout": ["B2B SaaS PPC", "Performance marketing", "Pipeline attribution", "Demand generation"],
+      "award": "CMO Alliance CMOs to Watch 2026",
+      "sameAs": [
+        "https://www.linkedin.com/in/praveenravi14/",
+        "https://clutch.co/profile/piperocket-digital"
+      ]
     },
     {
       "@type": "Person",
       "@id": "{{ .Site.BaseURL }}#kamaraj-mathiarasan",
       "name": "Kamaraj Mathiarasan",
+      "alternateName": "Kim",
       "jobTitle": "Co-Founder",
+      "description": "SEO expert with 15+ years helping B2B SaaS companies scale organic pipeline. Previously led SEO at Sprinto and Kissflow, and has studied 150+ B2B SaaS brands.",
       "worksFor": { "@id": "{{ .Site.BaseURL }}#organization" },
-      "sameAs": ["https://www.linkedin.com/in/kamarajkkl/"]
+      "alumniOf": [
+        { "@type": "Organization", "name": "Sprinto" },
+        { "@type": "Organization", "name": "Kissflow" }
+      ],
+      "knowsAbout": ["B2B SaaS SEO", "Topical authority", "BOFU strategy", "Agency strategy"],
+      "sameAs": [
+        "https://www.linkedin.com/in/kamarajkkl/",
+        "https://clutch.co/profile/piperocket-digital"
+      ]
     }
   ],
   "address": [
@@ -212,6 +232,33 @@
   "inLanguage": "en-US"
 }
 </script>
+{{/* ============== JSON-LD: FAQPage (home page, from _index.md frontmatter) ==============
+     Mirrors the visible FAQ accordion in layouts/index.html — both read the same
+     .Params.faqs array, so the machine-readable Q&A can never drift from the page.
+     Entity-first answers ("PipeRocket Digital is...") so AI engines can lift a
+     self-contained sentence as a citation. */}}
+{{ with .Params.faqs }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "{{ $.Site.BaseURL }}#faq",
+  "mainEntity": [
+    {{- range $i, $faq := . }}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ $faq.q | replaceRE "\"" "\\\"" }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $faq.a | replaceRE "\"" "\\\"" | replaceRE "\n" " " }}"
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{ end }}
 {{ end }}
 
 {{/* ============== JSON-LD: Article + Author (per article page) ============== */}}
