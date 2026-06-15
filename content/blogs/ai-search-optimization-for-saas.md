@@ -55,17 +55,26 @@ When a founder, VP of engineering, or procurement manager asks an AI engine "wha
 
 Getting cited is different from getting ranked. You cannot submit a URL to be indexed in ChatGPT. There is no position checker for Perplexity in the same way there is for Google. The citation decision is made by the model at inference time, based on what the model learned during training and what it retrieves through real-time web browsing where available.
 
-The levers are indirect: write content structured to be extractable, build genuine third-party mentions on platforms AI engines trust, maintain consistent brand signals across the web, and keep content current with accurate freshness signals. None of these are new disciplines. They are the same things that drive organic rankings, with a few specific additions for AI citation eligibility.
+The levers are indirect:
+- Write content structured to be extractable by AI systems
+- Build genuine third-party mentions on platforms AI engines trust
+- Maintain consistent brand signals across the web
+- Keep content current with accurate freshness signals
+
+None of these are new disciplines. They are the same things that drive organic rankings, with a few specific additions for AI citation eligibility.
 
 ## How AI Engines Decide What to Cite
 
-Understanding the citation mechanism helps explain why some SaaS brands appear consistently in AI answers while others with comparable products do not.
+AI engines cite brands through two distinct mechanisms: real-time web retrieval and training-data frequency. Understanding both explains why some SaaS brands appear consistently in AI answers while others with comparable products do not.
 
-AI engines that browse the web in real time (Perplexity, Bing Copilot, some ChatGPT Plus queries) retrieve pages at inference time and use them as sources for their answers. The ranking of those real-time retrieved pages is heavily influenced by the same signals as traditional search: [domain authority](/glossary/what-is-domain-authority/), content quality, topical relevance, and recency.
+| | Real-time browsing engines | Training-data-only engines |
+|---|---|---|
+| **Engines** | Perplexity, Copilot, ChatGPT Plus | Base ChatGPT, Claude without web access |
+| **How they cite** | Retrieve pages at inference time; rank them like search | Surface brands from training corpus frequency |
+| **Primary signal** | [Domain authority](/glossary/what-is-domain-authority/), content quality, recency | Credible mentions on news sites, Reddit, G2, Capterra |
+| **What to build** | Rank for organic search | Third-party review presence and industry coverage |
 
-AI engines operating from training data alone (most base ChatGPT responses, Claude responses without web access) surface brands and claims that appeared frequently in their training corpus. High-frequency, credible mentions across news articles, Reddit threads, G2 reviews, Capterra profiles, and industry blogs give a brand training-data presence that shows up in citations.
-
-The practical implication for SaaS companies: brands that rank well for organic search and have strong third-party review presence tend to appear more consistently in AI answers, even when they have not run any explicit AEO campaign. The same signals that drive organic authority are the inputs AI engines use to decide which brands are established and trustworthy enough to cite.
+The practical implication: brands that rank well for organic search and have strong third-party review presence appear more consistently in AI answers across both mechanisms. The same signals that drive organic authority are the inputs AI engines use to decide which brands are trustworthy enough to cite.
 
 This is why AEO for SaaS starts with organic SEO fundamentals, not with special AI optimization techniques.
 
@@ -75,7 +84,11 @@ Four areas specifically determine how consistently AI engines cite your content.
 
 ### Lever 1: Content structure and direct answers
 
-AI engines extract specific answers to specific questions. Content written with an answer-first structure is significantly easier for models to extract than flowing prose. The structural markers that help AI systems parse your content are: a clear H2 and H3 heading hierarchy, short paragraphs under 80 words, topic sentences that state the answer before the explanation, and FAQ sections written in the natural language of how buyers actually ask questions.
+AI engines extract specific answers to specific questions. Content written with an answer-first structure is significantly easier for models to extract than flowing prose. The structural markers that help AI systems parse your content:
+- A clear H2 and H3 heading hierarchy
+- Short paragraphs under 80 words
+- Topic sentences that state the answer before the explanation
+- FAQ sections written in the natural language of how buyers actually ask questions
 
 This is not just a formatting choice. When an AI engine is deciding which sentence to pull for a citation, the page that answers the question in the first sentence of a section wins over the page that builds to the answer over four paragraphs.
 
@@ -87,7 +100,7 @@ AI models trust Reddit threads, G2 reviews, Clutch profiles, Quora answers, and 
 Our agency appeared in Google's [AI Overview](/glossary/what-is-an-ai-overview/) without being cited from our website at all. The citation was pulled from a Reddit thread where a founder asked about SaaS SEO agencies in the US and our name came up in the context of helping B2B companies with organic growth. The AI used that third-party conversation as its source, not our homepage.
 {{< /experience >}}
 
-AI models trust Reddit threads, G2 reviews, Clutch profiles, Quora answers, and comparison articles on independent sites more than they trust the vendor's own marketing pages. For SaaS companies building AEO for SaaS presence, this means building genuine review profiles and participating in the conversations where your product gets mentioned in context. Not manufactured reviews. Real user testimonials that describe specific problems your product solved, in the language of the problem.
+For SaaS companies, this means building genuine review profiles and participating in the conversations where your product gets mentioned in context. Not manufactured reviews — real user testimonials that describe specific problems your product solved, in the language of the problem.
 
 ### Lever 3: Structured data and brand signals
 
@@ -123,11 +136,17 @@ Treating AI search as a single homogeneous channel misses a 20-percentage-point 
 
 The hard truths about AI-visibility dashboards:
 
-**They do not track real user queries.** ChatGPT and Gemini do not share first-party intent data with third-party tools. There is no Search Console equivalent for LLMs. Every tool claiming to show you your "AI search ranking" is running synthetic prompts through the model, not tracking what real users actually searched.
+### They do not track real user queries
 
-**There is no universal rank.** LLM outputs are personalized by location, IP address, chat history, and context window. A tool that says "you rank third for CRM software" is reporting that its bot ranked third when it ran that specific query with a specific context. That result may not match what your target customer sees.
+ChatGPT and Gemini do not share first-party intent data with third-party tools. There is no Search Console equivalent for LLMs. Every tool claiming to show you your "AI search ranking" is running synthetic prompts through the model, not tracking what real users actually searched.
 
-**They rely on traditional signals under the hood.** Despite the branding, most AI-visibility tools ultimately measure content quality, domain authority, and third-party mentions. These are the same inputs that drive traditional SEO. If your SEO fundamentals are strong, you are likely already appearing in AI answers for relevant queries, whether or not a dashboard shows it.
+### There is no universal rank
+
+LLM outputs are personalized by location, IP address, chat history, and context window. A tool that says "you rank third for CRM software" is reporting that its bot ranked third when it ran that specific query with a specific context. That result may not match what your target customer sees.
+
+### They rely on traditional signals under the hood
+
+Despite the branding, most AI-visibility tools ultimately measure content quality, domain authority, and third-party mentions. These are the same inputs that drive traditional SEO. If your SEO fundamentals are strong, you are likely already appearing in AI answers for relevant queries, whether or not a dashboard shows it.
 
 Until AI platforms open their data, these tools provide directional signal at best. The most defensible approach is measuring AI-referred traffic in GA4 by platform, tracking brand mentions on third-party review sites over time, and using AI-visibility tools as one imperfect indicator alongside stronger signals.
 
@@ -137,13 +156,25 @@ The single most reliable leading indicator of AEO performance is not an AI-visib
 
 The content structure that serves AI citation is the same structure that serves human readers: organized, scannable, and answer-first. But specific architectural decisions determine how easily AI engines can traverse and extract content from your site.
 
-**Topical authority clusters.** AI engines do not evaluate pages in isolation. They assess how comprehensively a domain covers a topic. A hub page on AEO for SaaS surrounded by spoke pages covering specific tactics, platform guides, and case studies signals to AI engines that this domain is an authoritative source on the topic. A single well-written page with no related content signals narrower authority. Building comprehensive topical clusters is as important for AI citation as it is for organic rankings.
+### Topical authority clusters
 
-**Answer-first content structure at the page level.** The structural principle that most directly improves AI citation eligibility is placing the direct answer in the first sentence of each section. AI extraction systems look for the most relevant sentence to cite for a given query. A section that opens with "Copilot sends 3.1% of AI-referred B2B SaaS traffic but produces the highest Lead-to-SQL rate of any platform in our dataset" is a citeable sentence. A section that opens with "There are several factors to consider when evaluating platform quality" is not.
+AI engines do not evaluate pages in isolation. They assess how comprehensively a domain covers a topic.
 
-**Schema implementation at the site level.** Organization schema on every page, Article schema on every editorial page, and FAQ schema on pages with structured Q&A sections are the structured data requirements for maximizing AI citation eligibility. The `author` property should point to a specific named person with a verifiable URL. A generic "author: Company Name" has less citation value than a named author linked to a real bio page.
+A hub page on AEO for SaaS surrounded by spoke pages covering specific tactics, platform guides, and case studies signals to AI engines that this domain is an authoritative source on the topic. A single well-written page with no related content signals narrower authority. Building comprehensive topical clusters is as important for AI citation as it is for organic rankings.
 
-**Recency signals on time-sensitive content.** For pages covering topics where facts change (market statistics, product comparisons, pricing, AI engine capabilities), the `dateModified` field in Article schema should reflect the date of the most recent substantive content update. AI systems that use freshness signals to assess citation suitability will deprioritize pages that are technically unmodified even when the facts have changed. Refresh content when the underlying data changes, not just when the URL gets a technical touch.
+### Answer-first content structure at the page level
+
+The structural principle that most directly improves AI citation eligibility is placing the direct answer in the first sentence of each section. AI extraction systems look for the most relevant sentence to cite for a given query.
+
+A section that opens with "Copilot sends 3.1% of AI-referred B2B SaaS traffic but produces the highest Lead-to-SQL rate of any platform in our dataset" is a citeable sentence. A section that opens with "There are several factors to consider when evaluating platform quality" is not.
+
+### Schema implementation at the site level
+
+Organization schema on every page, Article schema on every editorial page, and FAQ schema on pages with structured Q&A sections are the structured data requirements for maximizing AI citation eligibility. The `author` property should point to a specific named person with a verifiable URL. A generic "author: Company Name" has less citation value than a named author linked to a real bio page.
+
+### Recency signals on time-sensitive content
+
+For pages covering topics where facts change (market statistics, product comparisons, pricing, AI engine capabilities), the `dateModified` field in Article schema should reflect the date of the most recent substantive content update. AI systems that use freshness signals to assess citation suitability will deprioritize pages that are technically unmodified even when the facts have changed. Refresh content when the underlying data changes, not just when the URL gets a technical touch.
 
 ## AEO and SEO: Where They Overlap
 
@@ -151,7 +182,12 @@ The overlap between AEO for SaaS and traditional SEO is larger than most teams e
 
 The signals that help AI engines cite your content are the same signals that help Google rank your pages: a clear site structure, well-organized content with direct answers, genuine third-party authority through [backlinks](/glossary/what-is-a-backlink/) and reviews, accurate and current information, and structured data that establishes brand identity.
 
-AEO adds a few specific optimizations on top of the SEO foundation. Content should lead with the answer before the elaboration. FAQ sections should be written in natural question language, not formal headers. Organization and Author schema should be present on every page. Brand presence on third-party platforms where AI engines look for corroboration (G2, Clutch, Reddit, industry forums) should be maintained with genuine, specific reviews. The `dateModified` field should reflect actual content updates, not just technical refreshes.
+AEO adds a few specific optimizations on top of the SEO foundation:
+- Lead with the answer in the first sentence of every section
+- Write FAQ sections in natural question language, not formal headers
+- Organization and Author schema on every page, with `author` pointing to a named person with a real bio URL
+- Maintain brand presence on G2, Clutch, Reddit, and industry forums with genuine, specific reviews
+- Set `dateModified` to reflect actual content updates, not just technical touches
 
 Teams that pursue AEO for SaaS in isolation, without a working organic SEO foundation, consistently underperform against teams that build SEO fundamentals first. The organic foundation is not optional. It is the mechanism through which most AEO citation eligibility is built.
 
@@ -169,7 +205,9 @@ Citation decisions are made by the model at inference time based on content stru
 
 ### Does AEO replace SEO for SaaS companies?
 
-No. Data from 53 B2B SaaS brands shows organic search sends 91.3% of total website traffic versus 8.7% from all AI engines combined. In absolute lead volume, organic produces 37 times more leads. AEO is an additive channel. The signals that drive organic rankings (content quality, domain authority, third-party mentions, structured data) are largely the same signals that drive AI citation eligibility. Building SEO fundamentals first is not optional; it is the mechanism through which most AEO citation potential is established.
+No. Data from 53 B2B SaaS brands shows organic search sends 91.3% of total website traffic versus 8.7% from all AI engines combined. In absolute lead volume, organic produces 37 times more leads.
+
+AEO is an additive channel. The signals that drive organic rankings (content quality, domain authority, third-party mentions, structured data) are largely the same signals that drive AI citation eligibility. Building SEO fundamentals first is not optional; it is the mechanism through which most AEO citation potential is established.
 
 ### How do you track AEO performance for a SaaS brand?
 
