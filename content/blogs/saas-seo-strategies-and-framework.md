@@ -5,7 +5,7 @@ metaTitle: "SaaS SEO Strategies: The 8-Step Framework for Growth"
 metaDescription: "A complete 8-step SaaS SEO strategy framework built for B2B SaaS teams who want organic search to generate pipeline, not just traffic."
 date: 2026-04-09
 featuredImage: "/images/blog-covers/saas-seo-strategies-and-framework.webp"
-lastmod: 2026-04-29
+lastmod: 2026-06-15
 slug: "saas-seo-strategies-and-framework"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -110,6 +110,14 @@ If the answer to any of those is no, the keyword comes off the list regardless o
 
 **What this looks like in practice:** A customer success platform initially builds a keyword list around “customer success” and related terms pulling 10,000 to 50,000 monthly searches. After applying the intent filter, they discover 80% of those terms are searched by students, HR professionals, and customer service reps, not the VP of Customer Success who is their actual buyer. They rebuild the list around queries like “enterprise customer success software” and “Gainsight alternatives,” which have lower volume but a 6x higher SQL conversion rate.
 
+{{< experience author="kim" title="The 900 keywords a tool would never have found" >}}
+Working with Sprinto in 2023, I stopped opening Ahrefs first. Instead I sent a simple keyword sheet to every team that touches the customer: Sales, CS, Product, and each marketing sub-team.
+
+I expected duplicates of what Vanta and Drata already ranked for. Instead it surfaced more than 900 keywords we'd never have found from a tool, taking the list from roughly 1,500 to 2,400.
+
+Real buyers don't search like SEO pros. They use the messy, layman language your sales team hears on discovery calls every day.
+{{< /experience >}}
+
 What not to do
 
 - Do not build your keyword list by sorting a tool by volume and taking the top results
@@ -171,6 +179,12 @@ How to build a cluster:
 
 **What this looks like in practice:** A workforce management SaaS builds a cluster around “employee scheduling software.” The pillar covers the full landscape. The spokes go deep on sub-topics: shift scheduling for restaurants, nurse scheduling software, and five direct competitor alternatives pages. Within six months, the pillar ranks on page one for its primary term and the cluster as a whole generates 40% of the company’s organic pipeline.
 
+{{< experience author="kim" title="What compounding actually looked like, month by month" >}}
+The compounding effect isn't a theory I show on a slide. On one client's Search Console, URL clicks moved from 1,858 in January to 2,038 by March, then 3,006 in June, 4,248 in July, 6,610 in August, and 7,610 in September.
+
+Notice where the curve bends. Almost nothing dramatic happens until around month six, then it stops being linear. That's the cluster finally earning enough authority that every page starts lifting the ones around it.
+{{< /experience >}}
+
 What not to do
 
 - Do not build spokes before you have a pillar. Disconnected content does not compound
@@ -203,6 +217,12 @@ On-page optimization for AI search:
 - Add FAQPage schema on every blog article, SoftwareApplication schema on every product and feature page, and Organization schema on the homepage
 
 **What this looks like in practice:** A B2B analytics SaaS rewrites their top 15 blog posts with direct-answer opening sentences under every H2 and question-format headings throughout. Within two quarters, three of those articles begin appearing in AI Overview citations for their target queries, driving a 22% lift in branded search volume as AI-referred visitors look up the company after seeing it cited.
+
+{{< experience author="kim" title="A page-2 ranking fixed with copy, not links" >}}
+One client was stuck on page 2 to 3 for a core keyword. The page wasn't thin. It was too academic, all methodologies and frameworks, while the searcher just wanted a fix for the mess they were in.
+
+I rewrote the first fold from "We are an X firm with Y years of experience" to "Struggling with X? We help you fix it in weeks, not months." Within days the page moved from page 2 to position 2, with about a 30% traffic increase. No backlinks bought, just copy matched to what the searcher actually wanted to read.
+{{< /experience >}}
 
 What not to do
 

@@ -45,9 +45,9 @@ _Also: `top saas ppc agencies`, `best saas ppc agencies`_
 - **INVESTIGATE** `/list/best-affordable-b2b-ppc-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 - **INVESTIGATE** `/blogs/top-performance-marketing-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
-### 3. `seo enterprise agency` — MEDIUM  ·  4505 impr
+### 3. `enterprise seo agency` — MEDIUM  ·  4505 impr
 
-_Also: `enterprise seo agency`, `top enterprise seo agency`_
+_Also: `seo enterprise agency`, `top enterprise seo agency`_
 
 | URL | type | pos | impr | clk |  |
 |---|---|---|---|---|---|
@@ -139,9 +139,9 @@ _Also: `top saas ppc agency`, `ppc agency for saas`_
 
 - **INVESTIGATE** `/list/best-saas-ppc-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
-### 8. `ppc b2b agency` — MEDIUM  ·  2499 impr
+### 8. `b2b ppc agency` — MEDIUM  ·  2499 impr
 
-_Also: `b2b ppc agency`, `top b2b ppc agency`_
+_Also: `ppc b2b agency`, `top b2b ppc agency`_
 
 | URL | type | pos | impr | clk |  |
 |---|---|---|---|---|---|

@@ -746,21 +746,21 @@ pages:
 
   - url: "/blogs/saas-seo-strategies-and-framework/"
     type: blog
-    primary: "saas seo strategies"
+    primary: "saas seo strategy"
     secondary: []
     intent: informational
     funnel: mofu
     cluster: "SaaS SEO"
-    canonical_for: "saas seo strategies"
+    canonical_for: "saas seo strategy"
     status: active
     gsc:
       total_impressions: 339
       top_query: "saas seo strategy"
       top_query_position: 56.6
       top_query_impressions: 124
-      aligned: false
-      primary_position: 48.6
-      primary_impressions: 49
+      aligned: true
+      primary_position: 56.6
+      primary_impressions: 124
 
   - url: "/blogs/saas-seo/"
     type: blog
