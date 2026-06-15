@@ -11,7 +11,7 @@ writtenBy: "kim"
 category: "SaaS SEO"
 ---
 
-[Technical SEO](/glossary/what-is-technical-seo/) for SaaS is the practice of ensuring your marketing website and all connected web properties can be correctly discovered, crawled, rendered, and indexed by search engines, so that the content and landing pages you invest in actually show up in search results and earn rankings.
+Technical SEO for SaaS is the practice of ensuring your marketing website and all connected web properties can be correctly discovered, crawled, rendered, and indexed by search engines, so that the content and landing pages you invest in actually show up in search results and earn rankings.
 
 For SaaS companies, this discipline carries a specific weight that it does not carry for most other verticals. A SaaS marketing site often runs on a JavaScript-heavy frontend framework that requires server-side rendering to be properly indexed.
 

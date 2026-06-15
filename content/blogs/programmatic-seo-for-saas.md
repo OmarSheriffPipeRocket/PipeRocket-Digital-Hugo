@@ -11,7 +11,7 @@ writtenBy: "kim"
 category: "SaaS SEO"
 ---
 
-Programmatic [SEO](/glossary/what-is-seo/) for SaaS is the practice of generating large sets of search-optimized pages from a structured data source, covering every relevant combination of product, use case, industry, location, or persona at a scale that would be impossible to produce manually.
+Programmatic SEO for SaaS is the practice of generating large sets of search-optimized pages from a structured data source, covering every relevant combination of product, use case, industry, location, or persona at a scale that would be impossible to produce manually.
 
 Instead of writing one page for "project management software for construction teams," a programmatic approach generates a page for every industry, team size, use case, and geography your product serves, automatically, from a database of inputs.
 
