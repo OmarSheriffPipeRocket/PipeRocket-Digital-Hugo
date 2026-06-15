@@ -6,7 +6,7 @@
   - JSON-LD Article + Person (author) + Organization (publisher)
 */}}
 
-{{ $isArticle := in (slice "blogs" "list" "glossary" "alternative" "vs" "author" "case-study") .Section }}
+{{ $isArticle := in (slice "blogs" "list" "glossary" "alternative" "vs" "author" "case-study" "compare") .Section }}
 {{ $isHome := .IsHome }}
 
 {{/* Resolve author from frontmatter (writtenBy) OR from authors section page slug */}}
@@ -412,7 +412,7 @@
        2. Fallback: intro paragraph "Comparing the top N best ... includes 1. X, 2. Y, ..."
      Each entry becomes a position in the ranked ItemList. Unlocks Google's
      "best X" SERP features and AI Overview citation. */}}
-{{ if or (eq .Section "list") (in .RelPermalink "/list/") }}
+{{ if or (eq .Section "list") (eq .Section "alternative") (in .RelPermalink "/list/") (in .RelPermalink "/alternative/") }}
   {{ $items := slice }}
 
   {{/* Path 1: TL;DR or Quick Picks section */}}

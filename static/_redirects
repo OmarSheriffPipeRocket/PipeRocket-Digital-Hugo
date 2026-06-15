@@ -44,7 +44,7 @@
 /glossary/keyword-clusters/                             /glossary/what-are-keyword-clusters/                    301
 /blogs/best-saas-marketing-agencies/                    /list/best-saas-marketing-agencies-2026/                301
 /blogs/best-saas-seo-agencies/                          /list/best-saas-seo-agencies/                           301
-/blogs/best-b2b-seo-agencies/                           /list/best-b2b-seo-agencies-2/                          301
+/blogs/best-b2b-seo-agencies/                           /list/best-b2b-seo-agencies/                          301
 /blogs/best-saas-ppc-agencies/                          /list/best-saas-ppc-agencies/                           301
 /blogs/best-b2b-marketing-agencies/                     /list/best-b2b-marketing-agencies/                      301
 /blogs/best-enterprise-seo-agencies/                    /list/best-enterprise-seo-agencies/                     301
@@ -57,8 +57,8 @@
 /blogs/top-performance-marketing-agencies/              /list/top-performance-marketing-agencies/               301
 /blogs/best-geo-agencies/                               /list/best-geo-agencies/                                301
 /blogs/best-technical-seo-agencies/                     /list/the-11-best-technical-seo-agencies-for-2026/      301
-/blogs/best-saas-link-building-agencies/                /list/the-10-best-saas-link-building-agencies-in-2026/  301
-/blogs/best-b2b-advertising-agencies/                   /list/the-best-b2b-advertising-agencies-2026-rankings/  301
+/blogs/best-saas-link-building-agencies/                /list/best-saas-link-building-agencies/  301
+/blogs/best-b2b-advertising-agencies/                   /list/best-b2b-advertising-agencies/  301
 /case-studies/*                                         /case-study/:splat                                      301
 /success-stories/*                                      /case-study/:splat                                      301
 /articles/*                                             /blogs/:splat                                           301
@@ -89,7 +89,7 @@
 /blog/best-linkedin-marketing-agencies/                 /list/best-linkedin-marketing-agencies/                 301
 /blog/best-performance-marketing-agencies/              /list/top-performance-marketing-agencies/               301
 /blog/best-saas-demand-generation-agencies/             /list/                                                  301
-/blog/best-saas-link-building-agency/                   /list/the-10-best-saas-link-building-agencies-in-2026/  301
+/blog/best-saas-link-building-agency/                   /list/best-saas-link-building-agencies/  301
 /blog/best-saas-marketing-agencies/                     /list/best-saas-marketing-agencies-2026/                301
 /blog/best-technical-seo-agencies/                      /list/the-11-best-technical-seo-agencies-for-2026/      301
 /blog/choose-best-saas-seo-agency-saas-companies/       /saas-seo-agency/                                       301
@@ -108,7 +108,7 @@
 /seo/best-linkedin-marketing-agencies/                  /list/best-linkedin-marketing-agencies/                 301
 /seo/best-performance-marketing-agencies/               /list/top-performance-marketing-agencies/               301
 /seo/best-saas-demand-generation-agencies/              /list/                                                  301
-/seo/best-saas-link-building-agency/                    /list/the-10-best-saas-link-building-agencies-in-2026/  301
+/seo/best-saas-link-building-agency/                    /list/best-saas-link-building-agencies/  301
 /seo/best-saas-marketing-agencies/                      /list/best-saas-marketing-agencies-2026/                301
 /seo/best-technical-seo-agencies/                       /list/the-11-best-technical-seo-agencies-for-2026/      301
 /seo/enterprise-seo-guide/                              /blogs/enterprise-seo-guide/                            301

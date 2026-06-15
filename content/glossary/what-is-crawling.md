@@ -59,25 +59,17 @@ A few mechanics worth understanding:
 
 Here’s a basic robots.txt showing what a correct vs broken configuration looks like:
 
-“`
-
-# CORRECT allows all bots, blocks only admin paths
-
-User-agent: \*
-
+```
+# CORRECT — allows all bots, blocks only admin paths
+User-agent: *
 Disallow: /admin/
-
 Disallow: /staging/
-
 Sitemap: https://yourdomain.com/sitemap.xml
 
-# BROKEN accidentally blocks all bots from the entire site
-
-User-agent: \*
-
+# BROKEN — accidentally blocks all bots from the entire site
+User-agent: *
 Disallow: /
-
-“`
+```
 
 That second configuration is a single character difference. Googlebot reads it, respects it, and walks away from your entire site. This exact mistake has killed organic visibility for SaaS teams the week before a launch.
 
