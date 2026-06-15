@@ -32,6 +32,7 @@ scripts/__pycache__/
 tmp/
 .claude/worktrees/
 .claude/agents/
+.claude/skills/
 
 # Listicle rewrite working artifacts (research dossiers per slug)
 /research/
