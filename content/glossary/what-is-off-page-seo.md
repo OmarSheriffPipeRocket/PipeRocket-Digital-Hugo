@@ -42,7 +42,7 @@ What this means is simple: even the best [on-page SEO](/glossary/what-is-on-page
 
 **Fast Fact:** Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
-**Also read:** [best SaaS SEO agencies for early-stage startups](/list/best-saas-seo-agencies/)
+**Also read:** [best SaaS SEO agencies](/list/best-saas-seo-agencies/)
 
 ## Why Does Off Page SEO Matter More Than Most Teams Think?
 

@@ -42,7 +42,7 @@ Most teams only check if their pages are live, not if they’re indexed. The rea
 
 **Fast Fact:** Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
-**Also read:** [best SaaS SEO agencies for early-stage startups](/list/best-saas-seo-agencies/)
+**Also read:** [best SaaS SEO agencies](/list/best-saas-seo-agencies/)
 
 ### How to Get Indexed: Step by Step
 

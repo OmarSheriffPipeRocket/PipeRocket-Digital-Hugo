@@ -42,7 +42,7 @@ What this means in practice: Every shift, even if it seems trivial, chips away a
 
 **Fast Fact:** Even a 0.1 increase in CLS can result in a measurable drop in SaaS signup conversions, especially on mobile.
 
-**Also read:** [best SaaS SEO agencies for early-stage startups](/list/best-saas-seo-agencies/)
+**Also read:** [best SaaS SEO agencies](/list/best-saas-seo-agencies/)
 
 ## How Is CLS Calculated and What’s a Good Score?
 

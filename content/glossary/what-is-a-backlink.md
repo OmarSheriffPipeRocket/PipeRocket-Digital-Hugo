@@ -44,7 +44,7 @@ What this means in practice: If you’re just chasing more backlinks and ignorin
 
 **Fast Fact:** Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
-**Also read:** [best SaaS SEO agencies for early-stage startups](/list/best-saas-seo-agencies/)
+**Also read:** [best SaaS SEO agencies](/list/best-saas-seo-agencies/)
 
 ### How to Earn Backlinks (Step by Step)
 

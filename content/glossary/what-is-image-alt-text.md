@@ -48,7 +48,7 @@ What this means in practice: writing alt text isn’t a mindless task. It’s a 
 - Avoid “image of…” or “screenshot of…”: Screen readers already know it’s an image jump right to the content.
 - Leave purely decorative images empty: If an image adds no meaning, use alt=”” so screen readers skip it.
 
-**Also read:** [best SaaS SEO agencies for early-stage startups](/list/best-saas-seo-agencies/)
+**Also read:** [best SaaS SEO agencies](/list/best-saas-seo-agencies/)
 
 ## Why Does Image Alt Text Matter for SaaS SEO and Accessibility?
 

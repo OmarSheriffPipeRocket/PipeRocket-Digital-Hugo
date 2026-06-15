@@ -44,7 +44,7 @@ What this means in practice: “Doing SEO” is not the same as “winning on th
 
 **Fast Fact:** Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
-**Also read:** [best SaaS SEO agencies for early-stage startups](/list/best-saas-seo-agencies/)
+**Also read:** [best SaaS SEO agencies](/list/best-saas-seo-agencies/)
 
 ### How to Analyze a SERP Like an Operator
 

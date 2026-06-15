@@ -46,7 +46,7 @@ What this means in practice: Use domain authority as a directional check are you
 
 **Fast Fact:** Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
-**Also read:** [best SaaS SEO agencies for early-stage startups](/list/best-saas-seo-agencies/)
+**Also read:** [best SaaS SEO agencies](/list/best-saas-seo-agencies/)
 
 ## How Is Domain Authority Calculated and What Affects It?
 

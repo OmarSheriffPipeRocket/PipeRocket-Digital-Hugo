@@ -42,7 +42,7 @@ Here’s the pattern interrupt: most teams believe evergreen content is a shortc
 
 **Fast Fact:** Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
-**Also read:** [best SaaS SEO agencies for early-stage startups](/list/best-saas-seo-agencies/)
+**Also read:** [best SaaS SEO agencies](/list/best-saas-seo-agencies/)
 
 ## Why Does Evergreen Content Matter for SaaS Growth?
 

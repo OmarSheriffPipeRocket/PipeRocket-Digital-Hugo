@@ -42,7 +42,7 @@ Most teams assume if their lab tests are green, their real-world users are happy
 
 **Fast Fact:** FID ignores scrolls and hovers it only counts clicks, taps, or keypresses that trigger an event handler, making it easy to miss in synthetic speed tests.
 
-**Also read:** [best SaaS SEO agencies for early-stage startups](/list/best-saas-seo-agencies/)
+**Also read:** [best SaaS SEO agencies](/list/best-saas-seo-agencies/)
 
 ## How Does FID Affect SEO Performance?
 
