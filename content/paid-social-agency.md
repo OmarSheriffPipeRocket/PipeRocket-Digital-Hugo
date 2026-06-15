@@ -5,4 +5,5 @@ metaTitle: "B2B SaaS Paid Social Agency | Pipeline-Attributed Social Ads"
 metaDescription: "B2B paid social agency that measures Meta, Reddit, TikTok, and Quora ads against qualified pipeline and closed revenue. CAC payback math, not engagement reports."
 layout: "paid-social-agency"
 bodyClass: "page-paid-social"
+sitemap_lastmod: "2026-06-05"
 ---

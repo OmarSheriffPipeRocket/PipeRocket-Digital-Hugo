@@ -4,4 +4,5 @@ description: "AI agents run CHRO-committee audience research, ad copy variants, 
 metaTitle: "AI-First HR Tech PPC Agency for US B2B SaaS | PipeRocket"
 metaDescription: "AI-first hrtech PPC agency for US B2B SaaS. AI agents automate the data work. Pipeline-tied delivery for HRIS, payroll, ATS, and benefits SaaS."
 layout: "hrtech-ppc-agency"
+sitemap_lastmod: "2026-06-09"
 ---

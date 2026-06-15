@@ -4,4 +4,5 @@ description: "AI agents run regulated-buyer audience research, compliance-aware 
 metaTitle: "AI-First Fintech PPC Agency for US B2B SaaS | PipeRocket"
 metaDescription: "AI-first fintech PPC agency for US B2B SaaS. AI agents automate the data work. Pipeline-tied delivery for banking, payments, embedded finance, and lending SaaS."
 layout: "fintech-ppc-agency"
+sitemap_lastmod: "2026-06-03"
 ---

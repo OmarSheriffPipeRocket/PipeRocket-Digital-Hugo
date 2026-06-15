@@ -4,4 +4,5 @@ description: "AI agents run privilege-aware content, peer-referral positioning, 
 metaTitle: "AI-First Legal Tech Marketing Agency for US B2B SaaS | PipeRocket"
 metaDescription: "AI-first legaltech marketing agency for US B2B SaaS. AI agents handle research, content, audits, and attribution. Built for GCs, firm partners, and legal ops across CLM, e-discovery, legal research, and matter management."
 layout: "legaltech-marketing-agency"
+sitemap_lastmod: "2026-06-06"
 ---

@@ -4,4 +4,5 @@ description: "AI agents run outcome-led messaging, asset-class-aware content, br
 metaTitle: "AI-First PropTech Marketing Agency for US B2B SaaS | PipeRocket"
 metaDescription: "AI-first proptech marketing agency for US B2B SaaS. AI agents handle research, content, audits, and attribution. Built for owners, brokers, and asset managers across property management, brokerage, asset management, and real-estate fintech."
 layout: "proptech-marketing-agency"
+sitemap_lastmod: "2026-06-04"
 ---

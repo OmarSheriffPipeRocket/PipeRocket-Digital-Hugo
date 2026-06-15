@@ -4,4 +4,5 @@ description: "AI agents run compliance-aware content briefs, regulated-buyer mes
 metaTitle: "AI-First Fintech Marketing Agency for US B2B SaaS | PipeRocket"
 metaDescription: "AI-first fintech marketing agency for US B2B SaaS. AI agents handle research, content, audits, and attribution. Built for finance buyers and risk teams across banking, payments, embedded finance, and lending SaaS."
 layout: "fintech-marketing-agency"
+sitemap_lastmod: "2026-06-10"
 ---

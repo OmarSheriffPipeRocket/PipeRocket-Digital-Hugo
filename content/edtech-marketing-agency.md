@@ -4,4 +4,5 @@ description: "AI agents run FERPA/COPPA-aware content, outcomes-led positioning,
 metaTitle: "AI-First EdTech Marketing Agency for US B2B SaaS | PipeRocket"
 metaDescription: "AI-first edtech marketing agency for US B2B SaaS. AI agents handle research, content, audits, and attribution. Built for district leaders, deans, and L&D heads across K-12, higher-ed, corporate L&D, and learning platforms."
 layout: "edtech-marketing-agency"
+sitemap_lastmod: "2026-06-08"
 ---

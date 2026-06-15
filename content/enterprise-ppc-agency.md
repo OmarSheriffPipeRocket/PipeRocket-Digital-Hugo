@@ -5,4 +5,5 @@ metaTitle: "Enterprise PPC Agency | Pipeline-Attributed Paid Media at Scale"
 metaDescription: "Enterprise paid media across Google, LinkedIn, and programmatic — governed at scale and attributed to pipeline, CAC, and payback. Board-ready reporting."
 layout: "enterprise-ppc-agency"
 bodyClass: "page-saas-ppc"
+sitemap_lastmod: "2026-06-06"
 ---

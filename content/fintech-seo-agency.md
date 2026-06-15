@@ -5,4 +5,5 @@ metaTitle: "AI-First Fintech SEO Agency for US B2B SaaS | PipeRocket"
 metaDescription: "AI-first fintech SEO agency for US B2B SaaS. AI agents automate the data work. Pipeline-tied delivery for banking, payments, embedded finance, and lending SaaS."
 layout: "fintech-seo-agency"
 url: "/saas-seo-agency/fintech-seo-agency/"
+sitemap_lastmod: "2026-06-07"
 ---

@@ -5,4 +5,5 @@ metaTitle: "LinkedIn Marketing Agency | Revenue-Focused for B2B SaaS"
 metaDescription: "B2B LinkedIn marketing agency that measures LinkedIn Ads against qualified pipeline and closed revenue. CAC payback math, not engagement reports."
 layout: "linkedin-marketing-agency"
 bodyClass: "page-linkedin-marketing"
+sitemap_lastmod: "2026-06-09"
 ---
