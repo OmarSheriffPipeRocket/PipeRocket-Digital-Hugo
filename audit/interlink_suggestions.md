@@ -3,65 +3,19 @@
 _Scope: tools excluded (redesign pending); `/blogs/saas-seo/` excluded as a source (being rewritten); glossary included. For each target, candidate SOURCE pages already contain the anchor phrase, so a link is natural. Respect the 450-word rule._
 
 
-**Phase 1 — ready now (42 targets, have a natural source).** **Phase 2 — need a contextual mention added first (50 targets).**
+**Phase 1 — ready now (31 targets, have a natural source).** **Phase 2 — need a contextual mention added first (61 targets).**
 
 
 ## PHASE 1 — ready to interlink
 
 
-### `/list/best-ai-visibility-tools/`  [list]  (inbound 0)
-- anchor: "ai visibility tools"  · link FROM (✦ same cluster):
-    - /saas-seo-agency/  [landing]
-
-### `/list/best-cybersecurity-marketing-agencies/`  [list]  (inbound 0)
-- anchor: "cybersecurity marketing agency"  · link FROM (✦ same cluster):
-    - /cybersecurity-marketing-agency/  [landing]
-
-### `/list/best-healthtech-marketing-agencies/`  [list]  (inbound 0)
-- anchor: "healthtech marketing agency"  · link FROM (✦ same cluster):
-    - /healthtech-marketing-agency/  [landing]
-
-### `/list/best-hr-tech-marketing-agencies/`  [list]  (inbound 0)
-- anchor: "hr tech marketing agency"  · link FROM (✦ same cluster):
-    - /hrtech-marketing-agency/  [landing]
-
-### `/list/best-legaltech-marketing-agencies/`  [list]  (inbound 0)
-- anchor: "legaltech marketing agency"  · link FROM (✦ same cluster):
-    - /legaltech-marketing-agency/  [landing]
-
-### `/list/best-linkedin-marketing-agencies/`  [list]  (inbound 0)
-- anchor: "linkedin marketing agency"  · link FROM (✦ same cluster):
-    - /linkedin-marketing-agency/  [landing]
-
-### `/list/best-martech-marketing-agencies/`  [list]  (inbound 0)
-- anchor: "martech marketing agency"  · link FROM (✦ same cluster):
-    - /martech-marketing-agency/  [landing]
-
-### `/list/best-proptech-marketing-agencies/`  [list]  (inbound 0)
-- anchor: "proptech marketing agency"  · link FROM (✦ same cluster):
-    - /proptech-marketing-agency/  [landing]
-
 ### `/list/best-saas-content-marketing-agencies/`  [list]  (inbound 1)
 - anchor: "saas content marketing agency"  · link FROM (✦ same cluster):
     - /list/best-legaltech-marketing-agencies/  [list]
-    - /saas-seo-agency/content-marketing-agency/  [landing]
 
 ### `/list/best-saas-link-building-agencies/`  [list]  (inbound 0)
 - anchor: "saas link building agency"  · link FROM (✦ same cluster):
     - ✦ /blogs/saas-link-building/  [blog]
-    - /saas-seo-agency/link-building-agency/  [landing]
-
-### `/list/best-technical-seo-agencies/`  [list]  (inbound 0)
-- anchor: "technical seo agency"  · link FROM (✦ same cluster):
-    - /saas-seo-agency/technical-seo-agency/  [landing]
-
-### `/list/top-fintech-marketing-agencies/`  [list]  (inbound 0)
-- anchor: "fintech marketing agency"  · link FROM (✦ same cluster):
-    - /fintech-marketing-agency/  [landing]
-
-### `/list/top-fintech-seo-agencies/`  [list]  (inbound 1)
-- anchor: "fintech seo agency"  · link FROM (✦ same cluster):
-    - /saas-seo-agency/fintech-seo-agency/  [landing]
 
 ### `/bing-ads-agency/`  [landing]  (inbound 0)
 - anchor: "bing ads"  · link FROM (✦ same cluster):
@@ -122,15 +76,11 @@ _Scope: tools excluded (redesign pending); `/blogs/saas-seo/` excluded as a sour
     - ✦ /list/top-fintech-marketing-agencies/  [list]
     - ✦ /list/top-fintech-seo-agencies/  [list]
     - /alternative/single-grain-alternatives/  [alternative]
-    - /fintech-marketing-agency/  [landing]
-    - /saas-seo-agency/  [landing]
-    - /saas-seo-agency/fintech-seo-agency/  [landing]
 
 ### `/blogs/technical-seo-for-saas/`  [blog]  (inbound 0)
 - anchor: "technical seo for saas"  · link FROM (✦ same cluster):
     - ✦ /blogs/ai-search-optimization-for-saas/  [blog]
     - /glossary/what-is-technical-seo/  [glossary]
-    - /saas-seo-agency/  [landing]
 
 ### `/research/ai-seo-statistics/`  [blog]  (inbound 1)
 - anchor: "ai seo statistics"  · link FROM (✦ same cluster):
@@ -204,7 +154,6 @@ _Scope: tools excluded (redesign pending); `/blogs/saas-seo/` excluded as a sour
     - ✦ /glossary/what-is-ppc/  [glossary]
     - /list/best-proptech-marketing-agencies/  [list]
     - /list/best-saas-ppc-agencies/  [list]
-    - /paid-social-agency/  [landing]
 
 ### `/glossary/what-is-off-page-seo/`  [glossary]  (inbound 0)
 - anchor: "off page seo"  · link FROM (✦ same cluster):
@@ -246,21 +195,32 @@ _Scope: tools excluded (redesign pending); `/blogs/saas-seo/` excluded as a sour
 ## PHASE 2 — no natural source yet (add a mention or hub link)
 
 - `/list/b2b-ppc-experts/`  [list]  — anchor "b2b ppc experts"
+- `/list/best-ai-visibility-tools/`  [list]  — anchor "best ai visibility tools"
 - `/list/best-b2b-advertising-agencies/`  [list]  — anchor "best b2b advertising agencies"
 - `/list/best-b2b-content-marketing-agencies/`  [list]  — anchor "best b2b content marketing agencies"
 - `/list/best-b2b-demand-generation-agencies/`  [list]  — anchor "best b2b demand generation agencies"
 - `/list/best-b2b-lead-generation-companies/`  [list]  — anchor "best b2b lead generation agencies"
 - `/list/best-cro-tools-saas/`  [list]  — anchor "best cro tools saas"
+- `/list/best-cybersecurity-marketing-agencies/`  [list]  — anchor "best cybersecurity marketing agencies"
 - `/list/best-devtools-marketing-agencies/`  [list]  — anchor "best devtools marketing agencies"
 - `/list/best-edtech-marketing-agencies/`  [list]  — anchor "best edtech marketing agencies"
 - `/list/best-free-keyword-research-tools/`  [list]  — anchor "best free keyword research tools"
+- `/list/best-healthtech-marketing-agencies/`  [list]  — anchor "best healthtech marketing agencies"
+- `/list/best-hr-tech-marketing-agencies/`  [list]  — anchor "best hr tech marketing agencies"
 - `/list/best-keyword-clustering-tools/`  [list]  — anchor "best keyword clustering tools"
 - `/list/best-landing-page-builders-for-saas/`  [list]  — anchor "best landing page builders for saas"
+- `/list/best-legaltech-marketing-agencies/`  [list]  — anchor "best legaltech marketing agencies"
+- `/list/best-linkedin-marketing-agencies/`  [list]  — anchor "best linkedin marketing agencies"
+- `/list/best-martech-marketing-agencies/`  [list]  — anchor "best martech marketing agencies"
+- `/list/best-proptech-marketing-agencies/`  [list]  — anchor "best proptech marketing agencies"
 - `/list/best-saas-geo-agencies/`  [list]  — anchor "best saas geo agencies"
 - `/list/best-saas-growth-marketing-agencies/`  [list]  — anchor "best saas growth marketing agencies"
 - `/list/best-schema-markup-tools-for-saas/`  [list]  — anchor "best schema markup tools for saas"
 - `/list/best-serp-testing-tools-for-saas/`  [list]  — anchor "best serp testing tools for saas"
+- `/list/best-technical-seo-agencies/`  [list]  — anchor "best technical seo agencies"
 - `/list/saas-seo-experts/`  [list]  — anchor "saas seo experts"
+- `/list/top-fintech-marketing-agencies/`  [list]  — anchor "best fintech marketing agencies"
+- `/list/top-fintech-seo-agencies/`  [list]  — anchor "best fintech seo agencies"
 - `/edtech-marketing-agency/`  [landing]  — anchor "edtech marketing agency"
 - `/enterprise-ai-seo-services/`  [landing]  — anchor "enterprise ai seo services"
 - `/healthtech-marketing-agency/`  [landing]  — anchor "healthtech marketing agency"

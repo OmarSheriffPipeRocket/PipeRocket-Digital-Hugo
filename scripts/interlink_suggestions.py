@@ -28,6 +28,10 @@ CONTENT = {"blog", "list", "glossary", "compare", "alternative", "case-study", "
 # scoping (per Omar):
 EXCLUDE_TARGET_TYPES = {"tool"}          # tools pending redesign — skip
 EXCLUDE_SOURCES = {"/blogs/saas-seo/"}   # being rewritten — don't propose as a link source
+# Hierarchy rule (per Omar): service/landing pages sit at the TOP tier. They may
+# link LATERALLY to other service pages, but must NOT link DOWN to listicles /
+# blogs / glossary. Lower tiers link UP to service pages freely.
+SERVICE_TYPES = {"landing"}
 
 
 def pf(u):
@@ -117,6 +121,9 @@ def main():
             srcs = []
             for s, t in text.items():
                 if s == u or typ[s] in NONSOURCE or s in redirected or s in EXCLUDE_SOURCES:
+                    continue
+                # hierarchy: a service page may only link to another service page
+                if typ[s] in SERVICE_TYPES and typ[u] not in SERVICE_TYPES:
                     continue
                 if u in outl.get(s, set()):
                     continue
