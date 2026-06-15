@@ -66,7 +66,7 @@ A real SaaS SEO program is four parts working at once: Content, Technical, Autho
 
 Programs that win are scored across all four dimensions at the same time, the way you'd score a product across reliability, speed, and design rather than maxing one and ignoring the rest. Get one part to "great" and leave the others at "weak," and the great one can't carry the program on its own.
 
-![Anatomy of a SaaS SEO Program: four pillars, Content, Technical, Authority, and Measurement, all feeding one outcome, qualified pipeline.](/images/blog-infographics/anatomy-saas-seo-program.svg)
+![Anatomy of a SaaS SEO Program: four pillars, Content, Technical, Authority, and Measurement, all feeding one outcome, qualified pipeline.](/images/blog-infographics/anatomy-saas-seo-program.webp)
 
 Here's what each part is responsible for. This is the map. Each one has its own deep guide where the tactics live.
 
