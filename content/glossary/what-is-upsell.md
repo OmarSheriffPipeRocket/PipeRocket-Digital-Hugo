@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-upsell.webp"
 title: "What Is Upsell? The SaaS Growth Playbook"
 description: "An upsell is when you offer an existing customer a higher-tier plan, add-on, or upgraded version of what they already use. It matters because expansion revenue from existing customers is cheaper to generate than new acquisition. Done right, it improves retention too customers on better plans tend to get more value and stay longer. TL;DR […]"
 metaTitle: "What Is Upsell? The SaaS Revenue Guide"

@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-cpa.webp"
 title: "What Is CPA? Cost Per Acquisition in SaaS Explained"
 description: "CPA (cost per acquisition) is the average amount a business spends to acquire one paying customer. Tracking CPA helps SaaS teams measure marketing efficiency, identify profitable channels, and avoid overspending on low-value users. TL;DR What Is CPA and Why Is It More Than Just a Simple Metric? CPA, or cost per acquisition, is a metric […]"
 metaTitle: "What Is CPA? Cost Per Acquisition in SaaS Explained"

@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-indexing.webp"
 title: "What Is Indexing? Meaning, Process & Why It Matters"
 description: "Indexing is the process where a search engine adds a web page to its searchable database after crawling it. If your SaaS pages aren’t indexed, they can’t appear in search results so fixing indexing issues is critical for organic growth. TL;DR What Is Indexing in SEO? Indexing means a search engine Google, Bing, or others […]"
 metaTitle: "What Is Indexing? SEO Meaning, Process & Why It Matters"

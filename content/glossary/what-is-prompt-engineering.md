@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-prompt-engineering.webp"
 title: "What Is Prompt Engineering? Definition, Examples, and Uses"
 description: "Prompt engineering is the process of crafting and refining instructions (prompts) given to AI models like Chat GPT, so they produce targeted, useful outputs. It matters because precise prompts can dramatically improve the accuracy, consistency, and relevance of AI-generated results. TL;DR What Is Prompt Engineering? Prompt engineering means building instructions for AI models like GPT-4 […]"
 metaTitle: "What Is Prompt Engineering? Definition, Examples, and Uses"

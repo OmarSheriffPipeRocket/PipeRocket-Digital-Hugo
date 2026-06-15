@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-keyword-ranking-infographic-1.webp"
 title: "What Is Keyword Ranking? A SaaS Team's Plain-English Guide"
 description: "Keyword ranking is your page's position in Google's search results for a specific query. A higher rank means more visibility and more clicks, but position alone doesn't tell you whether you're attracting the right buyers. Here's what ranking actually means for SaaS growth."
 metaTitle: "What Is Keyword Ranking? A SaaS Team's Guide"

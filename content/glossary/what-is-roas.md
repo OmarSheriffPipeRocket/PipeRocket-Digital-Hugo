@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-roas.webp"
 title: "What Is ROAS? SaaS Guide to Real Return on Ad Spend"
 description: "ROAS (Return on Ad Spend) measures how much revenue you earn for every dollar spent on advertising. It matters because it shows whether your paid campaigns are profitable or burning cash. Tracking ROAS helps SaaS teams optimize budget, channels, and messaging for growth. TL;DR What Is ROAS and Why Does It Matter for SaaS? ROAS, […]"
 metaTitle: "What Is ROAS? SaaS Guide to Real Return on Ad Spend"

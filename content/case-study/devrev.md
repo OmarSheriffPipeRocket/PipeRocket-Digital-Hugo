@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/case-study-covers/devrev.webp"
 title: "How DevRev Achieved 127% Organic Traffic Growth: A Case Study with PipeRocket"
 slug: "devrev"
 url: "/case-study-devrev/"

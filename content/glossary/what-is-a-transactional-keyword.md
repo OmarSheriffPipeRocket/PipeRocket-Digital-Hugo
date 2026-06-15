@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-a-transactional-keyword-infographic-1.webp"
 title: "What Is a Transactional Keyword? A SaaS Guide"
 description: "A transactional keyword is a search query from someone ready to act, sign up, buy, or see pricing. These are the lowest-volume, highest-intent queries in SaaS, and the pages that target them have one job: convert. Here's how to find and use them."
 metaTitle: "What Is a Transactional Keyword? A SaaS Guide"

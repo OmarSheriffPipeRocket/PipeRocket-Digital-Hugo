@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-geo-infographic-1.webp"
 title: "What Is GEO (Generative Engine Optimization)? A SaaS Guide"
 description: "GEO (generative engine optimization) is how you get your brand cited and recommended inside AI-generated answers from engines like ChatGPT, Perplexity, and Google's AI Overviews. Here's how it works, how it differs from SEO, and what SaaS teams should actually do about it."
 metaTitle: "What Is GEO? Generative Engine Optimization for SaaS"

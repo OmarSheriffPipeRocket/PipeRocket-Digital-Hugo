@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-an-ai-overview-infographic-1.webp"
 title: "What Is an AI Overview? Google's AI Answers, Explained for SaaS"
 description: "An AI Overview is the AI-generated answer Google shows at the top of search results, built by its Gemini models from multiple sources. For SaaS teams, it changes who gets the click. Here's how it works, how sources get cited, and what to do about it."
 metaTitle: "What Is an AI Overview? Google's AI Answers for SaaS"

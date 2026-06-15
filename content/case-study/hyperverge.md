@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/case-study-covers/hyperverge.webp"
 title: "Achieving 3.5X MQL Growth: HyperVerge's Success Story with PipeRocket"
 slug: "hyperverge"
 url: "/case-study-hyperverge/"

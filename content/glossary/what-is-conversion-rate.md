@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-conversion-rate.webp"
 title: "What Is Conversion Rate"
 description: "Conversion rate is the percentage of users who complete a desired action, like signing up or making a purchase, out of everyone who visits your site or landing page. A strong conversion rate means your marketing, product, or funnel actually moves real buyers forward. Track it by action not just by page view. TL;DR What […]"
 metaTitle: "What Is Conversion Rate? How To Measure & Improve"

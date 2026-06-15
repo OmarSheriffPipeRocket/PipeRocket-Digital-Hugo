@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/case-study-covers/cybersierra.webp"
 title: "PipeRocket Drives 279% Organic Traffic Growth for CyberSierra Through Strategic SEO"
 slug: "cybersierra"
 url: "/case-study-cybersierra/"

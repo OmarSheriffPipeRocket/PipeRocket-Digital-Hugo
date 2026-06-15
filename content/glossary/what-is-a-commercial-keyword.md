@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-a-commercial-keyword-infographic-1.webp"
 title: "What Is a Commercial Keyword? A SaaS Marketer's Guide"
 description: "A commercial keyword is a search query from someone comparing or researching options before they buy. These are the queries that capture active evaluators, and they're where most SaaS pipeline actually comes from. Here's how to spot them and what to build for them."
 metaTitle: "What Is a Commercial Keyword? SaaS Marketer's Guide"

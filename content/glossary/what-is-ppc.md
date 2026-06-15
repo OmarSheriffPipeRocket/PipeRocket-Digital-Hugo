@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-ppc.webp"
 title: "What Is PPC? Paid Search Explained for SaaS & B2B Teams"
 description: "PPC (pay-per-click) is a digital advertising model where advertisers pay each time someone clicks their ad, commonly used on platforms like Google Ads. It drives targeted traffic quickly, but costs scale with each click, not just results. Effective PPC requires constant optimization to avoid wasting budget. TL;DR What Is PPC and How Does It Actually […]"
 metaTitle: "What Is PPC? Paid Search Explained for SaaS & B2B Teams"

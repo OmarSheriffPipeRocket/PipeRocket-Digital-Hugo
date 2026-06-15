@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-meta-ads.webp"
 title: "What Is Meta Ads"
 description: "Meta Ads is the paid advertising platform that runs across Facebook, Instagram, Messenger, and the Audience Network. It lets businesses target users based on demographics, interests, and behaviours not just search intent. For SaaS teams, it’s most effective for brand awareness and retargeting, not bottom-of-funnel conversions. TL;DR What Is Meta Ads? Meta Ads is Facebook’s […]"
 metaTitle: "What Is Meta Ads? Plain English for SaaS Teams"

@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-a-navigational-keyword-infographic-1.webp"
 title: "What Is a Navigational Keyword? A SaaS SEO Guide"
 description: "A navigational keyword is a search where the user is trying to reach a specific website or page they already have in mind. They're brand-driven, high-intent, and often overlooked, but for SaaS they shape both brand defense and competitor strategy. Here's what they mean for your SEO."
 metaTitle: "What Is a Navigational Keyword? A SaaS SEO Guide"

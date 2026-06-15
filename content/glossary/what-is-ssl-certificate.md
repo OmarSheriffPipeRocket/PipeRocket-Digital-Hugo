@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-ssl-certificate.webp"
 title: "What Is an SSL Certificate? Clear Definition for SaaS and B2B"
 description: "An SSL certificate is a digital file that encrypts data between a website and its visitors, keeping information private and secure. It matters because browsers mark sites without SSL as “Not Secure,” hurting trust and conversions. For SaaS and B2B, skipping SSL can cost you leads and credibility. TL;DR What Is an SSL Certificate? An […]"
 metaTitle: "What Is an SSL Certificate? SaaS Guide"

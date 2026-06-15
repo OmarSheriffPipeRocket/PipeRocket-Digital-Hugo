@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-sal-in-saas.webp"
 title: "What Is SAL in SaaS? The Lead Stage Most Teams Get Wrong"
 description: "SAL stands for Sales Accepted Lead a lead that a sales rep has reviewed and agreed meets the criteria to pursue. It sits between a Marketing Qualified Lead (MQL) and a Sales Qualified Lead (SQL), and it’s the handoff checkpoint where marketing and sales alignment either holds or breaks down. TL;DR SAL is the stage […]"
 metaTitle: "What Is SAL in SaaS Sales? A Clear Guide"

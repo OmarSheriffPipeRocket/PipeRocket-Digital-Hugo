@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-inbound-marketing.webp"
 title: "What Is Inbound Marketing? The SaaS Growth Guide"
 description: "Inbound marketing is a strategy that attracts buyers by creating content and experiences they actively seek out rather than pushing ads at them. For SaaS companies, it’s the difference between renting attention and building an audience that compounds over time. TL;DR Inbound marketing attracts buyers through content, SEO, and trust instead of interrupting them with […]"
 metaTitle: "What Is Inbound Marketing? A SaaS Marketer's Guide"

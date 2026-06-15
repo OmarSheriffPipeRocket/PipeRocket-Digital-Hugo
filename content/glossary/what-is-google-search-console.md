@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-google-search-console.webp"
 title: "What Is Google Search Console? Plain-English Guide for SaaS Teams"
 description: "Google Search Console is a free tool from Google that lets you monitor, troubleshoot, and improve your website’s performance in Google Search. It helps identify indexing issues, track keyword rankings, and see how users reach your site critical for SaaS teams aiming for growth. TL;DR What Is Google Search Console and Why Does It Matter? […]"
 metaTitle: "What Is Google Search Console? A Guide for SaaS Teams"

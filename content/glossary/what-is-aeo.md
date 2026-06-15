@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-aeo-infographic-1.webp"
 title: "What Is AEO (Answer Engine Optimization)? A SaaS Guide"
 description: "AEO (Answer Engine Optimization) is the practice of structuring your content so search engines and AI assistants can lift it as the direct answer to a question. For SaaS teams, it's how you stay visible when users stop clicking and start asking."
 metaTitle: "What Is AEO (Answer Engine Optimization)? A SaaS Guide"

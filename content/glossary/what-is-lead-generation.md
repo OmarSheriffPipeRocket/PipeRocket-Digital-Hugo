@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-lead-generation.webp"
 title: "What Is Lead Generation? SaaS Guide for Real Growth"
 description: "Lead generation is the process of attracting and identifying people or companies who are likely to become customers. It matters because an empty pipeline means stalled revenue and wasted marketing effort. Strong lead generation aligns your message to real buyer intent, not just form fills or email captures. TL;DR What Is Lead Generation? Lead generation […]"
 metaTitle: "What Is Lead Generation? SaaS Guide for Real Growth"

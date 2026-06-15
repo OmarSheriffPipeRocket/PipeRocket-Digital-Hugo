@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-user-generated-content.webp"
 title: "What Is User Generated Content"
 description: "User generated content (UGC) is any text, images, videos, or reviews created and published by people who use a product or platform, not by the company itself. UGC builds trust because it’s seen as authentic, driving engagement and influencing buying decisions. Prioritizing UGC can accelerate SaaS adoption and organic reach. TL;DR What Is User Generated […]"
 metaTitle: "What Is User Generated Content? Full Guide for SaaS Teams"

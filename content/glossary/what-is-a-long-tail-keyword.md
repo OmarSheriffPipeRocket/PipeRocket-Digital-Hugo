@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-a-long-tail-keyword.webp"
 title: "What Is a Long Tail Keyword? SEO Benefits & Examples"
 description: "A long tail keyword is a highly specific search phrase with low search volume but high intent and low competition. Targeting long tail keywords attracts qualified traffic and makes it easier to rank than broad, high-volume terms. TL;DR What Is a Long Tail Keyword? A long tail keyword is a specific search phrase usually three […]"
 metaTitle: "What Is a Long Tail Keyword? SEO Benefits & Examples"

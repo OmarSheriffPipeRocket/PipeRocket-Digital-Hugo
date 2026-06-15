@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-cost-per-click.webp"
 title: "What Is Cost Per Click? How to Use CPC for SaaS Growth"
 description: "Cost per click (CPC) is the amount an advertiser pays each time someone clicks their ad. CPC matters because it directly impacts your total ad spend and customer acquisition costs. Accurate CPC tracking helps SaaS teams optimize paid campaigns for real ROI. TL;DR What Is Cost Per Click? Cost per click (CPC) is a paid […]"
 metaTitle: "What Is Cost Per Click? How to Use CPC for SaaS Growth"

@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-performance-marketing.webp"
 title: "What Is Performance Marketing? Definition, Examples & SaaS Guide"
 description: "Performance marketing is a digital marketing approach where you pay only for specific, trackable results like clicks, signups, or sales instead of upfront for exposure. This matters because every dollar is tied directly to outcomes, not just activity. The real benefit: you get clear ROI and can optimize spend fast. TL;DR What Is Performance Marketing? […]"
 metaTitle: "What Is Performance Marketing? Examples & SaaS Guide"

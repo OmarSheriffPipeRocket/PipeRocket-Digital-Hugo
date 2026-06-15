@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/case-study-covers/hyperstart.webp"
 title: "HyperStart Achieves 2X the Lead at 73% Less Cost with PipeRocket's Winning Strategy Formula"
 slug: "hyperstart"
 url: "/case-study-hyperstart/"

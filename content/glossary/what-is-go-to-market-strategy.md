@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-go-to-market-strategy.webp"
 title: "What Is Go To Market Strategy"
 description: "A go to market strategy is a detailed plan for how a company will sell and deliver a product to its target customers. It connects product, marketing, and sales actions to reach, attract, and convert the right buyers. Without a focused GTM, even great products struggle to find traction. TL;DR What Is Go To Market […]"
 metaTitle: "What Is Go To Market Strategy? SaaS GTM Explained"

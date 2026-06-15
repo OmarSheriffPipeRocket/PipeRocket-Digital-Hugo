@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-cro-infographic-1.webp"
 title: "What Is CRO? Conversion Rate Optimization for SaaS Teams"
 description: "Conversion rate optimization (CRO) is the ongoing practice of finding out why visitors don't convert and fixing it, using research, testing, and funnel data. For SaaS, it's how you turn the traffic you already have into pipeline. Here's how the practice actually works."
 metaTitle: "What Is CRO? Conversion Rate Optimization for SaaS"

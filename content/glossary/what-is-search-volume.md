@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-search-volume-infographic-1.webp"
 title: "What Is Search Volume? A SaaS Marketer's Guide"
 description: "Search volume is the average number of times a keyword is searched per month. It's the metric most teams over-trust, chasing big numbers that never convert. Here's what search volume really tells you, where it lies, and how SaaS teams should weigh it."
 metaTitle: "What Is Search Volume? A SaaS Marketer's Guide"

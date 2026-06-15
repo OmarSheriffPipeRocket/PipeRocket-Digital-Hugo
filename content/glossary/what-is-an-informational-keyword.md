@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-an-informational-keyword-infographic-1.webp"
 title: "What Is an Informational Keyword? Guide for SaaS Marketers"
 description: "An informational keyword is a search query where the user wants to learn, not buy. They're the foundation of SaaS content strategy, but teams that treat them as pipeline drivers misunderstand how they work. Here's what they actually do and when they're worth targeting."
 metaTitle: "What Is an Informational Keyword? SaaS Guide"

@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-ctr.webp"
 title: "What Is CTR? Click-Through Rate Explained for SaaS Growth"
 description: "Click-through rate (CTR) is the percentage of people who click a link, ad, or search result out of those who see it. High CTR means your message compels action, while low CTR signals weak targeting or messaging. Improving CTR boosts traffic, leads, and revenue. TL;DR What Is CTR and Why Does It Matter for SaaS? […]"
 metaTitle: "What Is CTR? Click-Through Rate Explained for SaaS Growth"

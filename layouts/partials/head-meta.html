@@ -6,7 +6,9 @@
   - JSON-LD Article + Person (author) + Organization (publisher)
 */}}
 
-{{ $isArticle := in (slice "blogs" "list" "glossary" "alternative" "vs" "author" "case-study" "compare") .Section }}
+{{/* Article schema only on actual content pages (Kind=page) — never on section
+     index / taxonomy / home listing pages. */}}
+{{ $isArticle := and (in (slice "blogs" "list" "glossary" "alternative" "vs" "author" "case-study" "compare") .Section) (eq .Kind "page") }}
 {{ $isHome := .IsHome }}
 
 {{/* Resolve author from frontmatter (writtenBy) OR from authors section page slug */}}
@@ -65,7 +67,7 @@
   {{ $desc = . }}
 {{ end }}
 
-{{ $img := absURL (default "/images/piperocket-logo.svg" .Params.featuredImage) }}
+{{ $img := absURL (default "/images/og-default.webp" .Params.featuredImage) }}
 
 {{/* ============== Core SEO tags ============== */}}
 <title>{{ $title }}</title>

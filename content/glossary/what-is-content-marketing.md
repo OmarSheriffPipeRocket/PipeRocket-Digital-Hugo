@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-content-marketing.webp"
 title: "What Is Content Marketing? Direct Answer for SaaS Teams "
 description: "Content marketing means creating and sharing useful content like guides, demos, or case studies to attract and convert potential customers. It matters because people now research before buying, and teams that publish real answers capture trust and leads. Success comes from matching content to real buyer intent, not just volume. TL;DR What Is Content Marketing? […]"
 metaTitle: "What Is Content Marketing? Direct Answer for SaaS Teams"

@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-brand-positioning.webp"
 title: "What Is Brand Positioning"
 description: "Brand positioning is the strategy of defining how your product is different from competitors in customers’ minds. It matters because clear positioning attracts the right users and makes your offer memorable. Weak positioning leads to confusion, wasted marketing, and fewer sales. TL;DR What Is Brand Positioning? Brand positioning means owning a distinct place in your […]"
 metaTitle: "What Is Brand Positioning? Definition & SaaS Guide"

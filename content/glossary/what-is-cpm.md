@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-cpm.webp"
 title: "What Is CPM? SaaS Guide to Cost-Per-Mille in 2026"
 description: "CPM (cost-per-mille) is the price an advertiser pays for 1,000 ad impressions. It measures brand reach, not guaranteed clicks or conversions. High CPM can signal premium audiences or wasted budget use it to compare channels, but never as your sole metric. TL;DR What Is CPM and Why Does It Matter for SaaS? CPM, or cost-per-mille, […]"
 metaTitle: "What Is CPM? SaaS Guide to Cost-Per-Mille in 2024"

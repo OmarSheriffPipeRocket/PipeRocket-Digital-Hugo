@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-topical-authority-infographic-1.webp"
 title: "What Is Topical Authority? A SaaS SEO Guide"
 description: "Topical authority is how much Google trusts your site as an expert on a subject, earned by covering it in real depth. For SaaS, it's the difference between ranking for one keyword and owning a whole category. Here's how it works and how to build it."
 metaTitle: "What Is Topical Authority? A SaaS SEO Guide"

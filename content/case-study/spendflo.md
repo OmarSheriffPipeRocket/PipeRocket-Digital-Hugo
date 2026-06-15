@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/case-study-covers/spendflo.webp"
 title: "From Stagnation to Domination: PipeRocket's Impact on Spendflo's 81% Traffic Rise"
 slug: "spendflo"
 url: "/case-study-spendflo/"

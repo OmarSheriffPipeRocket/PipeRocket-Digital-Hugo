@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-structured-data.webp"
 title: "What Is Structured Data? Clear Definition & SaaS Use Cases"
 description: "Structured data is information organized into a defined format, making it easy for search engines and software to understand and display. Using structured data improves visibility in search results and enables features like rich snippets, which can boost click-through rates. TL;DR What Is Structured Data? Structured data is information formatted in a consistent, predictable way […]"
 metaTitle: "What Is Structured Data? Clear Definition & SaaS Use Cases"

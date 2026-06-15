@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-seo-infographic-1.webp"
 title: "What Is SEO? Plain-English Guide for SaaS and B2B Teams"
 description: "SEO (Search Engine Optimization) is the process of improving your website so it appears higher in Google search results for relevant queries. Strong SEO brings consistent, high-intent traffic that converts better than most paid channels. Effective SEO isn’t just content it’s technical, strategic, and always tied to business outcomes. TL;DR What Is SEO? SEO stands […]"
 metaTitle: "What Is SEO? Plain-English Guide for SaaS and B2B Teams"

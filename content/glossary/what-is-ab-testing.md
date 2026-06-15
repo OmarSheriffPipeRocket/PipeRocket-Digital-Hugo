@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-ab-testing-infographic-1.webp"
 title: "What Is A/B Testing? A Practical Guide for SaaS Teams"
 description: "A/B testing is comparing two versions of a page or element by splitting traffic between them and measuring which one converts better. For SaaS teams, it's the difference between guessing what works and knowing. Here's how it works, what to test, and when it breaks down."
 metaTitle: "What Is A/B Testing? A Practical Guide for SaaS"

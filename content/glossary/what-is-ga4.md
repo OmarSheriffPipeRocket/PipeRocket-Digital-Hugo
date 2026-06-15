@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-ga4.webp"
 title: "What Is GA4? Everything SaaS Teams Need to Know"
 description: "GA4 (Google Analytics 4) is Google’s current analytics platform, built around event-based tracking instead of session-based data. It replaced Universal Analytics in July 2023. Unlike its predecessor, GA4 tracks user behaviour across devices and platforms in a single property. TL;DR GA4 replaced Universal Analytics in July 2023 and is now the only version of Google […]"
 metaTitle: "What Is GA4? The SaaS Marketer's Guide"

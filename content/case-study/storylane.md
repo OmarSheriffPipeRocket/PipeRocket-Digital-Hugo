@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/case-study-covers/storylane.webp"
 title: "Driving 2.5X Growth and 62% More Demos: Storylane's Success with PipeRocket's Campaigns"
 slug: "storylane"
 url: "/case-study-storylane/"

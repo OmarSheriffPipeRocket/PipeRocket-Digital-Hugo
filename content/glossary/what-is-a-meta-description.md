@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-a-meta-description.webp"
 title: "What Is a Meta Description? Explained for SaaS & B2B SEO"
 description: "A meta description is the short summary beneath a page title in Google search results. It helps users decide whether to click and can increase your organic CTR if it matches search intent and highlights a real benefit. TL;DR What Is a Meta Description? A meta description is a short piece of text up to […]"
 metaTitle: "What Is a Meta Description? Explained for SaaS & B2B SEO"

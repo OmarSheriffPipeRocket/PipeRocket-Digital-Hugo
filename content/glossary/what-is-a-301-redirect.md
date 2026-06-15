@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-a-301-redirect.webp"
 title: "What Is a 301 Redirect? SEO, SaaS, and Real-World Risks"
 description: "A 301 redirect is a permanent way to forward one URL to another, telling browsers and Google to treat the new address as the official version. This preserves most of the original page’s SEO value and user traffic, reducing the risk of broken links or lost rankings. TL;DR What Is a 301 Redirect? A 301 […]"
 metaTitle: "What Is a 301 Redirect? SEO, SaaS, and Real-World Risks"

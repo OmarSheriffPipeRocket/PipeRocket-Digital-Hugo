@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-programmatic-advertising.webp"
 title: "What Is Programmatic Advertising"
 description: "Programmatic advertising is the automated buying, selling, and placement of digital ads using software and real-time bidding. It matters because it targets audiences more precisely and operates at a speed and scale that manual ad buying can’t match. Used well, it reduces wasted spend and unlocks higher campaign efficiency. TL;DR What Is Programmatic Advertising? Programmatic […]"
 metaTitle: "What Is Programmatic Advertising? Guide for SaaS & B2B"

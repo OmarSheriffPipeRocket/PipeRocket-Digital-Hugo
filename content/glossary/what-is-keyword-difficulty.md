@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-keyword-difficulty-infographic-1.webp"
 title: "What Is Keyword Difficulty? A SaaS SEO Guide"
 description: "Keyword difficulty is a score that estimates how hard it is to rank for a search term. It's useful for prioritising, but it's a proxy, not a verdict. Here's what the number actually measures, where it misleads, and how SaaS teams should really use it."
 metaTitle: "What Is Keyword Difficulty? A SaaS SEO Guide"

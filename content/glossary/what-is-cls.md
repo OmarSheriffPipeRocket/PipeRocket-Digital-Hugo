@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-cls.webp"
 title: "What Is CLS? Core Web Vitals, SEO Impact, and Fixes"
 description: "CLS (Cumulative Layout Shift) is a Core Web Vital metric that measures unexpected movement of page elements as it loads. High CLS frustrates users and can lower your Google rankings. Reducing CLS improves user experience and SEO performance. TL;DR What Is CLS and Why Does It Matter? CLS, or Cumulative Layout Shift, is a user […]"
 metaTitle: "What Is CLS? Core Web Vitals, SEO Impact, and Fixes"

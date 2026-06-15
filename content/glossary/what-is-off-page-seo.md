@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-off-page-seo.webp"
 title: "What Is Off Page SEO? Real-World Guide for SaaS Teams"
 description: "Off page SEO is the process of improving your website’s authority and rankings by earning backlinks and trust signals from other sites. It matters because Google uses these signals to judge credibility strong off page SEO leads to higher rankings and more organic traffic. TL;DR What Is Off Page SEO? Off page SEO is everything […]"
 metaTitle: "What Is Off Page SEO? Real-World Guide for SaaS Teams"

@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-an-seo-audit.webp"
 title: "What Is an SEO Audit? Plain Definition & Real SaaS Impact"
 description: "An SEO audit is a systematic review of your website’s technical, on-page, and off-page factors to identify issues hurting search performance. It matters because missed errors can block organic growth, bury pages, or waste marketing spend. Regular audits keep your SEO strategy focused and effective. TL;DR What Is an SEO Audit? An SEO audit is […]"
 metaTitle: "What Is an SEO Audit? Plain Definition & Real SaaS Impact"

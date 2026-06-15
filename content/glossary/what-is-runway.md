@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-runway.webp"
 title: "What Is Runway? The SaaS Founder’s Survival Guide"
 description: "Runway is the number of months your company can operate before it runs out of cash, calculated by dividing current cash by monthly burn rate. It tells you how much time you have to hit your next milestone before you need more capital or reach profitability. Most investors expect to see at least 12 to […]"
 metaTitle: "What Is Runway? A SaaS Founder's Guide"

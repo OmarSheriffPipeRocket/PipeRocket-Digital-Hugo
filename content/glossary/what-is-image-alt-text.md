@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-image-alt-text.webp"
 title: "What Is Image Alt Text? SEO, Accessibility & SaaS Best Practices"
 description: "Image alt text is a brief description of an image added to HTML code so search engines and screen readers can understand its content. It improves SEO by making images discoverable and ensures accessibility for users who can’t see images. TL;DR What Is Image Alt Text? Image alt text, or “alternative text,” is a written […]"
 metaTitle: "What Is Image Alt Text? SEO & Accessibility Guide"

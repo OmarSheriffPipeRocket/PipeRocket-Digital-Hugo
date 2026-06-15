@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-anchor-text.webp"
 title: "What Is Anchor Text? Anchor Text Definition & SEO Impact"
 description: "Anchor text is the visible, clickable text in a hyperlink what users see and click to visit another page. It signals content relevance to search engines, impacting SEO rankings and user trust. Using precise, context-matching anchor text leads to better rankings and clearer navigation. TL;DR What Is Anchor Text and Why Does It Matter in […]"
 metaTitle: "What Is Anchor Text? Anchor Text Definition & SEO Impact"

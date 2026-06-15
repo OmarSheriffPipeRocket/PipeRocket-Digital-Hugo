@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-evergreen-content.webp"
 title: "What Is Evergreen Content? Definition, Myths & Real SaaS ROI"
 description: "Evergreen content is information that stays relevant and useful over time, like guides or FAQs, instead of news or trends. It matters because it keeps attracting organic traffic and leads month after month, reducing the need for constant new content. TL;DR What Is Evergreen Content? Evergreen content is content designed to stay relevant long after […]"
 metaTitle: "What Is Evergreen Content? Definition, Myths & Real SaaS ROI"

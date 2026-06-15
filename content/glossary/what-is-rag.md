@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-rag.webp"
 title: "What Is RAG? Retrieval-Augmented Generation Explained Simply"
 description: "RAG (Retrieval-Augmented Generation) is an AI framework that combines external document search with language model generation to produce more accurate, up-to-date answers. It matters because it reduces hallucination and lets AI systems pull in real, relevant context at response time. TL;DR What Is RAG and Why Does It Matter? RAG stands for Retrieval-Augmented Generation. It’s […]"
 metaTitle: "What Is RAG? Retrieval-Augmented Generation Explained Simply"

@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-technical-seo.webp"
 title: "What Is Technical SEO? Practical Guide for SaaS Teams"
 description: "Technical SEO is the process of optimizing your website’s infrastructure so search engines can crawl, index, and understand your content. It matters because technical issues can block rankings no matter how good your content is. Fixing technical SEO ensures your site is discoverable and visible in search. TL;DR What Is Technical SEO? Technical SEO is […]"
 metaTitle: "What Is Technical SEO? Practical Guide for SaaS Teams"

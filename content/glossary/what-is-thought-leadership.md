@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-covers/what-is-thought-leadership.webp"
 title: "What Is Thought Leadership"
 description: "Thought leadership is the practice of influencing your industry’s perspective by consistently sharing unique insights, not just expertise. It matters because it builds trust and shapes buying criteria making your brand the reference point when customers make decisions. TL;DR What Is Thought Leadership? Thought leadership is when a person or brand consistently influences their market’s […]"
 metaTitle: "What Is Thought Leadership? Real Definition for SaaS Teams"

@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-a-landing-page-infographic-1.webp"
 title: "What Is a Landing Page? A Practical Guide for SaaS Teams"
 description: "A landing page is a standalone page built for one campaign and one action, like booking a demo or starting a trial. For SaaS, it's where ad spend turns into pipeline or quietly burns. Here's how landing pages work, where teams get them wrong, and how to build ones that convert."
 metaTitle: "What Is a Landing Page? A Practical SaaS Guide"

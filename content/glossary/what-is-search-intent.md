@@ -1,4 +1,5 @@
 ---
+featuredImage: "/images/glossary-infographics/what-is-search-intent-infographic-1.webp"
 title: "What Is Search Intent? A Practical Guide for SaaS Teams"
 description: "Search intent is the underlying reason someone types a query into Google. It tells you what kind of content they actually want to find, not just what words they used. Getting intent right is the single biggest lever in SaaS SEO, and most teams are still guessing."
 metaTitle: "What Is Search Intent? A Guide for SaaS Teams"
