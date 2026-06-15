@@ -34,11 +34,17 @@ The core mismatch: generic guides treat every page as a static HTML document ser
 
 Three structural differences define SaaS technical SEO and separate it from a standard content site audit:
 
-**JavaScript rendering at the framework level.** SaaS marketing sites are almost always built on JavaScript frameworks: React, Angular, Vue, Next.js. When content renders client-side, the HTML Googlebot receives on the first request can be nearly empty. The actual content loads after JavaScript executes in a browser environment. Google handles this with a two-stage crawl: fetch the raw HTML first, queue the page for rendering, process the rendered version later. This delay can range from hours to days depending on crawl budget and page authority. Indexation lags behind publishing in a way that standard audit tools do not surface.
+### JavaScript rendering at the framework level
 
-**The app subdomain split.** Almost every SaaS product separates the marketing site from the logged-in application: `yourdomain.com` for marketing, `app.yourdomain.com` for the product. This is a practical engineering decision. It has real [SEO](/glossary/what-is-seo/) consequences. Subdomains are treated as separate entities for crawl allocation and link authority. The link equity accumulated by the marketing domain does not flow to the app subdomain.
+SaaS marketing sites are almost always built on JavaScript frameworks: React, Angular, Vue, Next.js. When content renders client-side, the HTML Googlebot receives on the first request can be nearly empty. The actual content loads after JavaScript executes in a browser environment. Google handles this with a two-stage crawl: fetch the raw HTML first, queue the page for rendering, process the rendered version later. This delay can range from hours to days depending on crawl budget and page authority. Indexation lags behind publishing in a way that standard audit tools do not surface.
 
-**Authentication walls.** Large portions of a SaaS product's URL structure live behind login: feature dashboards, account settings, gated documentation. Googlebot follows internal links to these URLs, hits a redirect to a login page, and stops. Internal links pointing to auth-gated pages waste crawl budget without delivering SEO value.
+### The app subdomain split
+
+Almost every SaaS product separates the marketing site from the logged-in application: `yourdomain.com` for marketing, `app.yourdomain.com` for the product. This is a practical engineering decision. It has real [SEO](/glossary/what-is-seo/) consequences. Subdomains are treated as separate entities for crawl allocation and link authority. The link equity accumulated by the marketing domain does not flow to the app subdomain.
+
+### Authentication walls
+
+Large portions of a SaaS product's URL structure live behind login: feature dashboards, account settings, gated documentation. Googlebot follows internal links to these URLs, hits a redirect to a login page, and stops. Internal links pointing to auth-gated pages waste crawl budget without delivering SEO value.
 
 These are not edge cases. They are the default state of most SaaS marketing sites. Any SaaS [technical SEO](/glossary/what-is-technical-seo/) audit that does not address all three is working from the wrong starting point.
 
