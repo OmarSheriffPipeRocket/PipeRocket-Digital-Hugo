@@ -36,7 +36,9 @@ Three structural differences define SaaS technical SEO and separate it from a st
 
 ### JavaScript rendering at the framework level
 
-SaaS marketing sites are almost always built on JavaScript frameworks: React, Angular, Vue, Next.js. When content renders client-side, the HTML Googlebot receives on the first request can be nearly empty. The actual content loads after JavaScript executes in a browser environment. Google handles this with a two-stage crawl: fetch the raw HTML first, queue the page for rendering, process the rendered version later. This delay can range from hours to days depending on crawl budget and page authority. Indexation lags behind publishing in a way that standard audit tools do not surface.
+SaaS marketing sites are almost always built on JavaScript frameworks: React, Angular, Vue, Next.js. When content renders client-side, the HTML Googlebot receives on the first request can be nearly empty. The actual content loads after JavaScript executes in a browser environment. Google handles this with a two-stage crawl: fetch the raw HTML first, queue the page for rendering, process the rendered version later.
+
+This delay can range from hours to days depending on crawl budget and page authority. Indexation lags behind publishing in a way that standard audit tools do not surface.
 
 ### The app subdomain split
 
@@ -200,7 +202,9 @@ Standard technical SEO checklists were designed for content-heavy websites and d
 
 ### What does "Crawled but not indexed" mean in Google Search Console?
 
-"Crawled but not indexed" means Google visited the page and decided not to index it. This is a content quality judgment, not a technical crawling problem. Adding the page to a sitemap, requesting indexation via GSC, or adjusting robots.txt will not change this status. The page needs meaningful content improvement or consolidation with a stronger page on the same topic. This status is commonly misdiagnosed as a technical problem when it is a content problem.
+"Crawled but not indexed" means Google visited the page and decided not to index it. This is a content quality judgment, not a technical crawling problem.
+
+Adding the page to a sitemap, requesting indexation via GSC, or adjusting robots.txt will not change this status. The page needs meaningful content improvement or consolidation with a stronger page on the same topic. This status is commonly misdiagnosed as a technical problem when it is a content problem.
 
 ### Does using a JavaScript framework hurt SaaS technical SEO?
 

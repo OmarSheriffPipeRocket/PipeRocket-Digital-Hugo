@@ -33,9 +33,13 @@ Programmatic SEO is not a magic volume play. It works for specific types of comp
 
 For thin, generic use cases, it produces pages Google has no reason to rank.
 
-The failure mode is well-documented: a company identifies a large keyword set (say, "[software type] for [industry]" across 50 industries), builds a template that swaps the industry variable, and publishes 50 pages where the only meaningful difference between them is the industry label in the heading and a few sentences.
+The failure mode is well-documented and almost always follows the same path:
 
-Google recognizes near-duplicate content. Most of the pages receive the "Crawled but not indexed" status in GSC. The company doubles down and builds 5,000 more pages, hoping volume will overcome the quality signal. It does not.
+1. The team identifies a large keyword set — "[software] for [industry]" across 50 industries, for example
+2. They build a template that swaps one variable and publish the pages
+3. The only meaningful difference between pages is the industry label in the heading
+4. Google recognizes near-duplicates — most pages get "Crawled but not indexed" in GSC
+5. The team doubles down with 5,000 more pages, hoping volume overcomes the quality signal. It does not.
 
 The companies that succeed with programmatic [SEO](/glossary/what-is-seo/) for SaaS do one thing differently before launching: they validate that genuine per-page variation exists. Not a different headline. Genuinely different content, examples, workflow steps, integration notes, or industry-specific context that a buyer in that vertical would not find on any other page in the set.
 
@@ -65,7 +69,10 @@ If you cannot answer "what unique data does page X contain that page Y does not?
 
 ### Question 4: Can engineering build a clean template system?
 
-A programmatic SEO template that creates canonicalization problems, introduces near-duplicate metadata across pages, or produces inconsistent URL patterns will fail at scale even if the content is differentiated. The engineering requirements include: a clear URL structure (ideally with the variable component as a slug, not a query parameter), unique titles and meta descriptions generated from data fields (not truncated templates with the same first 60 characters), and a canonical strategy that handles the edge cases in the variable set.
+A programmatic SEO template that creates canonicalization problems, introduces near-duplicate metadata across pages, or produces inconsistent URL patterns will fail at scale even if the content is differentiated. The engineering requirements:
+- A clear URL structure (ideally with the variable component as a slug, not a query parameter)
+- Unique titles and meta descriptions generated from data fields, not truncated templates with the same first 60 characters
+- A canonical strategy that handles the edge cases in the variable set
 
 If the answer to any of these four questions is no, the right move is to fix the underlying issue before building templates, not to proceed and fix it later at 10,000 pages.
 
@@ -147,11 +154,15 @@ Our programmatic SEO work starts with the qualification test, launches with a 10
 
 ### What is programmatic SEO for SaaS?
 
-Programmatic SEO for SaaS is the practice of generating a large set of search-optimized pages from a structured data source, covering every relevant combination of use case, industry, integration, or persona that a buyer might search for. Instead of writing each page manually, the team designs a template and a data source; the pages are generated automatically at scale. It works when the data genuinely varies per page and real buyers search those variations. It fails when the variation is superficial and the resulting pages are near-duplicates.
+Programmatic SEO for SaaS is the practice of generating a large set of search-optimized pages from a structured data source, covering every relevant combination of use case, industry, integration, or persona that a buyer might search for. Instead of writing each page manually, the team designs a template and a data source; the pages are generated automatically at scale.
+
+It works when the data genuinely varies per page and real buyers search those variations. It fails when the variation is superficial and the resulting pages are near-duplicates.
 
 ### How many programmatic pages should a B2B SaaS company build?
 
-There is no correct number. The right question is: how many pages can you build where each one provides genuinely different value to a specific buyer? Most B2B SaaS companies that have tried programmatic SEO find that 1,000 to 10,000 differentiated pages produce better results than 50,000 shallow ones. Start with 100 pages. Validate indexation and conversion. Scale to 1,000. Validate again. The total page count is a byproduct of how much genuine variation exists in your data, not a target to be set in advance.
+There is no correct number. The right question is: how many pages can you build where each one provides genuinely different value to a specific buyer? Most B2B SaaS companies that have tried programmatic SEO find that 1,000 to 10,000 differentiated pages produce better results than 50,000 shallow ones.
+
+Start with 100 pages. Validate indexation and conversion. Scale to 1,000. Validate again. The total page count is a byproduct of how much genuine variation exists in your data, not a target to be set in advance.
 
 ### What is the most common reason programmatic SEO fails for SaaS?
 
