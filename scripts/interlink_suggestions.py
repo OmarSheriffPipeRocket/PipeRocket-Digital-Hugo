@@ -25,6 +25,9 @@ CHROME = re.compile(r"(cta|__rail|author-card|breadcrumb|subscribe|related|stick
                     r"funnel-audit|section-search|modal)", re.I)
 NONSOURCE = {"section", "home", "author", "utility"}
 CONTENT = {"blog", "list", "glossary", "compare", "alternative", "case-study", "landing", "tool"}
+# scoping (per Omar):
+EXCLUDE_TARGET_TYPES = {"tool"}          # tools pending redesign — skip
+EXCLUDE_SOURCES = {"/blogs/saas-seo/"}   # being rewritten — don't propose as a link source
 
 
 def pf(u):
@@ -104,57 +107,53 @@ def main():
                     inbound[tg].add(u)
 
     orphans = [u for u, m in cmap.items()
-               if m["type"] in CONTENT and u not in redirected and len(inbound[u]) <= 1]
-    order = {"list": 0, "landing": 1, "tool": 2, "blog": 3, "compare": 4, "alternative": 5, "glossary": 6}
+               if m["type"] in CONTENT and m["type"] not in EXCLUDE_TARGET_TYPES
+               and u not in redirected and len(inbound[u]) <= 1]
+    order = {"list": 0, "landing": 1, "blog": 2, "compare": 3, "alternative": 4, "glossary": 5}
     orphans.sort(key=lambda u: (order.get(typ[u], 9), u))
 
-    L = ["# Interlink suggestions (plan only — no links added)\n",
-         "_For each orphan / near-orphan, candidate SOURCE pages already contain the "
-         "anchor phrase in-content, so a link would be natural. Pick 2-3 per target; "
-         "respect the 450-word rule (no link before ~word 450) and don't link from the "
-         "page's own cluster hub if already saturated._\n",
-         f"\n{len(orphans)} targets with ≤1 inbound. Ordered: listicles → landing → tools → blogs → compare → glossary.\n"]
-
-    for u in orphans:
-        cands = anchor_candidates(u, prim[u], typ[u])
-        # find the most-specific candidate phrase that has source matches
-        best = None
-        for phrase in cands:
+    def best_sources(u):
+        for phrase in anchor_candidates(u, prim[u], typ[u]):
             srcs = []
             for s, t in text.items():
-                if s == u or typ[s] in NONSOURCE or s in redirected:
+                if s == u or typ[s] in NONSOURCE or s in redirected or s in EXCLUDE_SOURCES:
                     continue
-                if u in outl.get(s, set()):     # already links to target
+                if u in outl.get(s, set()):
                     continue
                 if phrase in t:
-                    same_clus = (clus[s] == clus[u] and clus[u])
-                    srcs.append((s, same_clus))
+                    srcs.append((s, clus[s] == clus[u] and bool(clus[u])))
             if srcs:
-                best = (phrase, srcs); break
+                srcs.sort(key=lambda x: (not x[1], x[0]))
+                return phrase, srcs
+        return None
+
+    phase1, phase2 = [], []
+    for u in orphans:
+        b = best_sources(u)
+        (phase1 if b else phase2).append((u, b))
+
+    L = ["# Interlink suggestions (plan only — no links added)\n",
+         "_Scope: tools excluded (redesign pending); `/blogs/saas-seo/` excluded as a source "
+         "(being rewritten); glossary included. For each target, candidate SOURCE pages already "
+         "contain the anchor phrase, so a link is natural. Respect the 450-word rule._\n",
+         f"\n**Phase 1 — ready now ({len(phase1)} targets, have a natural source).** "
+         f"**Phase 2 — need a contextual mention added first ({len(phase2)} targets).**\n",
+         "\n## PHASE 1 — ready to interlink\n"]
+    for u, b in phase1:
+        phrase, srcs = b
         L.append(f"\n### `{u}`  [{typ[u]}]  (inbound {len(inbound[u])})")
-        L.append(f"- target primary: \"{prim[u]}\"")
-        if not best:
-            L.append(f"- suggested anchor: \"{cands[0] if cands else prim[u]}\"")
-            L.append("- **no existing page contains this phrase** → add a contextual mention first, "
-                     "or link from the topical hub / cluster siblings manually.")
-            continue
-        phrase, srcs = best
-        srcs.sort(key=lambda x: (not x[1], x[0]))   # same-cluster first
-        L.append(f"- suggested anchor: \"{phrase}\"  ({len(srcs)} pages already use it)")
-        L.append("- link FROM (✦ = same cluster):")
+        L.append(f"- anchor: \"{phrase}\"  · link FROM (✦ same cluster):")
         for s, sc in srcs[:6]:
             L.append(f"    - {'✦ ' if sc else ''}{s}  [{typ[s]}]")
+    L.append("\n## PHASE 2 — no natural source yet (add a mention or hub link)\n")
+    for u, _ in phase2:
+        L.append(f"- `{u}`  [{typ[u]}]  — anchor \"{(anchor_candidates(u, prim[u], typ[u]) or [prim[u]])[0]}\"")
 
     (AUDIT / "interlink_suggestions.md").write_text("\n".join(L), encoding="utf-8")
-    print(f"Wrote audit/interlink_suggestions.md  ({len(orphans)} targets)")
-    # quick coverage stat
-    havesrc = 0
-    for u in orphans:
-        cands = anchor_candidates(u, prim[u], typ[u])
-        for phrase in cands:
-            if any(phrase in text.get(s, "") for s in text if s != u and typ[s] not in NONSOURCE):
-                havesrc += 1; break
-    print(f"  targets with at least one natural source: {havesrc}/{len(orphans)}")
+    print(f"Wrote audit/interlink_suggestions.md")
+    print(f"  Phase 1 (ready): {len(phase1)}   Phase 2 (need mention): {len(phase2)}")
+    from collections import Counter
+    print("  Phase 1 by type:", dict(Counter(typ[u] for u, _ in phase1)))
 
 
 if __name__ == "__main__":
