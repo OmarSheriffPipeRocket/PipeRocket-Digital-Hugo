@@ -261,6 +261,25 @@
 {{ end }}
 {{ end }}
 
+{{/* ============== JSON-LD: WebPage with dateModified (service/landing pages) ==============
+     Fires on non-article, non-home pages that set sitemap_lastmod in frontmatter.
+     Gives Google a machine-readable dateModified signal in the HTML, not just the sitemap. */}}
+{{ if and (not $isArticle) (not $isHome) .Params.sitemap_lastmod }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{ .Permalink }}#webpage",
+  "url": "{{ .Permalink }}",
+  "name": "{{ .Title }}",
+  "description": "{{ $desc | replaceRE "\"" "\\\"" }}",
+  "dateModified": "{{ .Params.sitemap_lastmod }}",
+  "publisher": { "@id": "{{ .Site.BaseURL }}#organization" },
+  "inLanguage": "en-US"
+}
+</script>
+{{ end }}
+
 {{/* ============== JSON-LD: Article + Author (per article page) ============== */}}
 {{ if $isArticle }}
 {{ $authorPath := "" }}
