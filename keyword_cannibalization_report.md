@@ -10,7 +10,7 @@ Two-layer detection: **declarative** (content_map.yml collisions) × **empirical
 |---|---|---|
 | CONFIRMED (both layers) | 3 | Declared overlap that IS splitting rankings — fix first |
 | UNDECLARED (GSC only) | 10 | On-SERP overlap the map didn't predict — verify + declare |
-| LATENT (map only) | 3 | Same target declared, not yet both ranking — prevent |
+| LATENT (map only) | 2 | Same target declared, not yet both ranking — prevent |
 
 ## CONFIRMED — declared overlap splitting rankings
 
@@ -45,9 +45,9 @@ _Also: `top saas ppc agencies`, `best saas ppc agencies`_
 - **INVESTIGATE** `/list/best-affordable-b2b-ppc-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 - **INVESTIGATE** `/blogs/top-performance-marketing-agencies/` — a competing URL is not in content_map (legacy/redirect or service page) — confirm which URL is canonical before consolidating
 
-### 3. `enterprise seo agency` — MEDIUM  ·  4505 impr
+### 3. `seo enterprise agency` — MEDIUM  ·  4505 impr
 
-_Also: `seo enterprise agency`, `top enterprise seo agency`_
+_Also: `enterprise seo agency`, `top enterprise seo agency`_
 
 | URL | type | pos | impr | clk |  |
 |---|---|---|---|---|---|
@@ -126,7 +126,7 @@ _Also: `top growth marketing agencies 2025 2026`, `best growth marketing agencie
 
 ### 7. `saas ppc agency` — MEDIUM  ·  2909 impr
 
-_Also: `ppc agency for saas`, `top saas ppc agency`_
+_Also: `top saas ppc agency`, `ppc agency for saas`_
 
 | URL | type | pos | impr | clk |  |
 |---|---|---|---|---|---|
@@ -181,4 +181,3 @@ _Also: `b2b ppc agency`, `top b2b ppc agency`_
 |---|---|---|
 | `b2b ppc` | `/blogs/b2b-ppc-guide/`<br>`/blogs/b2b-ppc/` |  |
 | `ppc saa` | `/blogs/saas-ppc/`<br>`/saas-ppc/` | intent-differentiated? |
-| `agencie saa seo serie` | `/list/best-saas-seo-agencies-for-series-a/`<br>`/list/best-saas-seo-agencies-for-series-b/` |  |

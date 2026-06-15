@@ -11,9 +11,19 @@
 meta:
   gsc_property: "sc-domain:piperocket.digital"
   gsc_snapshot: "qp_rollup_2026-06-08.json"
-  page_count: 277
+  page_count: 275
 
 pages:
+  - url: "/blogs/ai-search-optimization-for-saas/"
+    type: blog
+    primary: "ai search optimization for saas"
+    secondary: []
+    intent: informational
+    funnel: mofu
+    cluster: "SaaS SEO"
+    canonical_for: "ai search optimization for saas"
+    status: active
+
   - url: "/blogs/b2b-content-marketing-guide/"
     type: blog
     primary: "b2b content marketing"
@@ -606,6 +616,16 @@ pages:
       aligned: false
       primary_ranking: false
 
+  - url: "/blogs/programmatic-seo-for-saas/"
+    type: blog
+    primary: "programmatic seo for saas"
+    secondary: []
+    intent: informational
+    funnel: mofu
+    cluster: "SaaS SEO"
+    canonical_for: "programmatic seo for saas"
+    status: active
+
   - url: "/research/ai-seo-statistics/"
     type: blog
     primary: "ai seo statistics"
@@ -759,6 +779,16 @@ pages:
       aligned: true
       primary_position: 74.4
       primary_impressions: 421
+
+  - url: "/blogs/technical-seo-for-saas/"
+    type: blog
+    primary: "technical seo for saas"
+    secondary: []
+    intent: informational
+    funnel: mofu
+    cluster: "SaaS SEO"
+    canonical_for: "technical seo for saas"
+    status: active
 
   - url: "/blogs/the-8-common-saas-google-ads-mistakes-to-avoid-in-2026/"
     type: blog
@@ -2476,91 +2506,6 @@ pages:
       primary_position: 42.0
       primary_impressions: 20
 
-  - url: "/list/best-saas-seo-agencies-for-product-led-growth/"
-    type: list
-    primary: "best saas seo agencies for plg"
-    secondary: []
-    intent: commercial
-    funnel: bofu
-    cluster: "SEO"
-    canonical_for: "best saas seo agencies for plg"
-    status: redirected
-    gsc:
-      total_impressions: 16
-      top_query: "seo for plg companies"
-      top_query_position: 39.4
-      top_query_impressions: 5
-      aligned: false
-      primary_ranking: false
-
-  - url: "/list/best-saas-seo-agencies-for-sales-led-growth/"
-    type: list
-    primary: "best saas seo agencies for slg"
-    secondary: []
-    intent: commercial
-    funnel: bofu
-    cluster: "SEO"
-    canonical_for: "best saas seo agencies for slg"
-    status: redirected
-    gsc:
-      total_impressions: 68
-      top_query: "saas seo agencies"
-      top_query_position: 71.4
-      top_query_impressions: 15
-      aligned: false
-      primary_ranking: false
-
-  - url: "/list/best-saas-seo-agencies-for-series-a/"
-    type: list
-    primary: "best saas seo agencies for series a"
-    secondary: []
-    intent: commercial
-    funnel: bofu
-    cluster: "SEO"
-    canonical_for: "best saas seo agencies for series a"
-    status: redirected
-    gsc:
-      total_impressions: 47
-      top_query: "saas seo agencies"
-      top_query_position: 78.1
-      top_query_impressions: 8
-      aligned: false
-      primary_ranking: false
-
-  - url: "/list/best-saas-seo-agencies-for-series-b/"
-    type: list
-    primary: "best saas seo agencies for series b"
-    secondary: []
-    intent: commercial
-    funnel: bofu
-    cluster: "SEO"
-    canonical_for: "best saas seo agencies for series b"
-    status: redirected
-    gsc:
-      total_impressions: 19
-      top_query: "saas seo consulting agencies"
-      top_query_position: 84.2
-      top_query_impressions: 4
-      aligned: false
-      primary_ranking: false
-
-  - url: "/list/best-saas-seo-agencies-for-startups/"
-    type: list
-    primary: "best saas seo agencies for startups"
-    secondary: []
-    intent: commercial
-    funnel: bofu
-    cluster: "SEO"
-    canonical_for: "best saas seo agencies for startups"
-    status: redirected
-    gsc:
-      total_impressions: 1490
-      top_query: "seo for saas startups"
-      top_query_position: 37.1
-      top_query_impressions: 189
-      aligned: false
-      primary_ranking: false
-
   - url: "/list/best-saas-seo-agencies/"
     type: list
     primary: "best saas seo agencies"
@@ -3523,7 +3468,7 @@ pages:
       aligned: false
       primary_ranking: false
 
-  - url: "/ai-seo-services/"
+  - url: "/saas-seo-agency/ai-seo-services/"
     type: landing
     primary: "ai seo services"
     secondary: []
@@ -3532,13 +3477,6 @@ pages:
     cluster: null
     canonical_for: "ai seo services"
     status: active
-    gsc:
-      total_impressions: 5
-      top_query: "perplexity aeo service"
-      top_query_position: 27.8
-      top_query_impressions: 5
-      aligned: false
-      primary_ranking: false
 
   - url: "/bing-ads-agency/"
     type: landing
@@ -3589,7 +3527,7 @@ pages:
       top_query_position: 4
       top_query_impressions: 21
 
-  - url: "/content-marketing-agency/"
+  - url: "/saas-seo-agency/content-marketing-agency/"
     type: landing
     primary: "content marketing agency"
     secondary: []
@@ -3598,13 +3536,6 @@ pages:
     cluster: null
     canonical_for: "content marketing agency"
     status: active
-    gsc:
-      total_impressions: 19
-      top_query: "piperocket digital company"
-      top_query_position: 2.2
-      top_query_impressions: 11
-      aligned: false
-      primary_ranking: false
 
   - url: "/cookies-policy/"
     type: utility
@@ -3779,7 +3710,7 @@ pages:
       aligned: false
       primary_ranking: false
 
-  - url: "/fintech-seo-agency/"
+  - url: "/saas-seo-agency/fintech-seo-agency/"
     type: landing
     primary: "fintech seo agency"
     secondary: []
@@ -3788,13 +3719,6 @@ pages:
     cluster: null
     canonical_for: "fintech seo agency"
     status: active
-    gsc:
-      total_impressions: 3
-      top_query: "fintech ai seo services"
-      top_query_position: 59.5
-      top_query_impressions: 2
-      aligned: false
-      primary_ranking: false
 
   - url: "/google-ads-agency/"
     type: landing
@@ -3858,7 +3782,7 @@ pages:
     canonical_for: "hrtech ppc agency"
     status: active
 
-  - url: "/hrtech-seo-agency/"
+  - url: "/saas-seo-agency/hrtech-seo-agency/"
     type: landing
     primary: "hrtech seo agency"
     secondary: []
@@ -3867,13 +3791,6 @@ pages:
     cluster: null
     canonical_for: "hrtech seo agency"
     status: active
-    gsc:
-      total_impressions: 5
-      top_query: "best seo agency for hr tech saas"
-      top_query_position: 5
-      top_query_impressions: 1
-      aligned: false
-      primary_ranking: false
 
   - url: "/insurancetech-marketing-agency/"
     type: landing
@@ -3909,7 +3826,7 @@ pages:
       aligned: false
       primary_ranking: false
 
-  - url: "/link-building-agency/"
+  - url: "/saas-seo-agency/link-building-agency/"
     type: landing
     primary: "link building agency"
     secondary: []
@@ -3918,13 +3835,6 @@ pages:
     cluster: null
     canonical_for: "link building agency"
     status: active
-    gsc:
-      total_impressions: 4
-      top_query: "hyperverge"
-      top_query_position: 84
-      top_query_impressions: 1
-      aligned: false
-      primary_ranking: false
 
   - url: "/linkedin-marketing-agency/"
     type: landing
@@ -4042,7 +3952,7 @@ pages:
       top_query_position: 1
       top_query_impressions: 1
 
-  - url: "/programmatic-seo-agency/"
+  - url: "/saas-seo-agency/programmatic-seo-agency/"
     type: landing
     primary: "programmatic seo agency"
     secondary: []
@@ -4051,14 +3961,6 @@ pages:
     cluster: null
     canonical_for: "programmatic seo agency"
     status: active
-    gsc:
-      total_impressions: 16
-      top_query: "programmatic seo agency"
-      top_query_position: 69.5
-      top_query_impressions: 10
-      aligned: true
-      primary_position: 69.5
-      primary_impressions: 10
 
   - url: "/proptech-marketing-agency/"
     type: landing
@@ -4188,7 +4090,7 @@ pages:
       top_query_position: 1
       top_query_impressions: 3
 
-  - url: "/technical-seo-agency/"
+  - url: "/saas-seo-agency/technical-seo-agency/"
     type: landing
     primary: "technical seo agency"
     secondary: []
@@ -4197,13 +4099,6 @@ pages:
     cluster: null
     canonical_for: "technical seo agency"
     status: active
-    gsc:
-      total_impressions: 31
-      top_query: "b2b seo"
-      top_query_position: 75.5
-      top_query_impressions: 2
-      aligned: false
-      primary_ranking: false
 
   - url: "/terms-and-conditions/"
     type: utility
