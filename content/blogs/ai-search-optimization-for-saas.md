@@ -28,17 +28,20 @@ This guide covers what AEO for SaaS actually requires, the data on how AI and or
 
 The data from our study makes the current state of AI search clear for B2B SaaS brands.
 
-Organic search drove 91.3% of total website traffic across the 53 brands in the dataset. AI engines (ChatGPT, Perplexity, Gemini, Microsoft Copilot, and Claude) collectively sent 8.7%. That is roughly an 11-to-1 traffic ratio. In absolute lead volume, organic delivered 37 times more leads than all AI engines combined over the eight-month period.
+| Metric | Organic | AI engines |
+|---|---|---|
+| Share of total traffic | 91.3% | 8.7% |
+| Absolute leads (8-month period) | 37× more | — |
+| Session-to-lead rate | 0.92% | 0.26% |
+| Lead-to-SQL rate | 33.3% | 28.6% |
+| Sessions with brand intent | 28.1% | 11.8% |
+| BoFu session share | 41% | 44%* |
 
-Organic also converts better at this stage. Organic sessions converted to leads at 0.92%, AI sessions at 0.26%. The Lead-to-SQL rate for organic was 33.3%; for AI it was 28.6%.
+*AI's higher BoFu % is offset by volume: organic drove 4.4× more absolute BoFu traffic.
 
-At the same time, AI traffic has a specific quality profile that changes how you should interpret the channel. Only 11.8% of AI-referred sessions carried brand-name search intent, compared to 28.1% for organic. That is a 16.3-point gap. AI surfaces categories before brands.
+The brand intent gap is the most important number in that table. Only 11.8% of AI-referred sessions carried brand-name search intent versus 28.1% for organic — a 16.3-point gap. The 88.2% of AI sessions that arrive non-branded represent buyers exploring the category who have not yet formed a vendor preference. That is a different kind of discovery than organic provides, and the reason AEO matters.
 
-The 88.2% of AI sessions that arrive non-branded represent buyers exploring the category who have not yet decided which vendor to investigate. That is a different kind of discovery than organic provides.
-
-The funnel stage split reinforces this distinction. AI sessions skewed slightly harder toward bottom-of-funnel than organic: 44% of AI sessions were BoFu versus 41% for organic. But organic still drove 4.4 times more absolute BoFu traffic across the dataset. Both channels deliver commercial intent. Organic does it at higher volume. AI does it with a higher proportion of unconvinced, category-exploring buyers.
-
-AEO for SaaS is an additive strategy, layered on top of a working organic foundation. You are building a second discovery layer on top of a working organic foundation, not replacing one channel with another.
+AEO for SaaS is an additive strategy layered on top of a working organic foundation, not a replacement for it.
 
 ![Bar chart comparing organic vs AI search traffic for B2B SaaS: organic 91.3% of total traffic vs AI 8.7%. Callouts showing 37x more leads from organic in absolute terms, and AI traffic breakdown by platform: ChatGPT 65.8%, Perplexity 24.6%, Gemini 5.4%, Copilot 3.1% with highest Lead-to-SQL, Claude 1.1%.](/images/blog-infographics/ai-search-optimization-for-saas-infographic-1.webp)
 
