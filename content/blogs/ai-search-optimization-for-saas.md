@@ -70,11 +70,15 @@ This is why AEO for SaaS starts with organic SEO fundamentals, not with special 
 
 Four areas specifically determine how consistently AI engines cite your content. They apply across ChatGPT, Perplexity, Gemini, Copilot, and Claude.
 
-**Lever 1: Content structure and direct answers.** AI engines extract specific answers to specific questions. Content written with an answer-first structure is significantly easier for models to extract than flowing prose. The structural markers that help AI systems parse your content are: a clear H2 and H3 heading hierarchy, short paragraphs under 80 words, topic sentences that state the answer before the explanation, and FAQ sections written in the natural language of how buyers actually ask questions.
+### Lever 1: Content structure and direct answers
+
+AI engines extract specific answers to specific questions. Content written with an answer-first structure is significantly easier for models to extract than flowing prose. The structural markers that help AI systems parse your content are: a clear H2 and H3 heading hierarchy, short paragraphs under 80 words, topic sentences that state the answer before the explanation, and FAQ sections written in the natural language of how buyers actually ask questions.
 
 This is not just a formatting choice. When an AI engine is deciding which sentence to pull for a citation, the page that answers the question in the first sentence of a section wins over the page that builds to the answer over four paragraphs.
 
-**Lever 2: Third-party mentions and citations.** AI models trust Reddit threads, G2 reviews, Clutch profiles, Quora answers, and comparison articles on independent sites more than vendor marketing pages. That is not intuitive, but the citation mechanism makes it clear.
+### Lever 2: Third-party mentions and citations
+
+AI models trust Reddit threads, G2 reviews, Clutch profiles, Quora answers, and comparison articles on independent sites more than vendor marketing pages. That is not intuitive, but the citation mechanism makes it clear.
 
 {{< experience author="kim" title="How We Appeared in Google's AI Overview" >}}
 Our agency appeared in Google's [AI Overview](/glossary/what-is-an-ai-overview/) without being cited from our website at all. The citation was pulled from a Reddit thread where a founder asked about SaaS SEO agencies in the US and our name came up in the context of helping B2B companies with organic growth. The AI used that third-party conversation as its source, not our homepage.
@@ -82,9 +86,13 @@ Our agency appeared in Google's [AI Overview](/glossary/what-is-an-ai-overview/)
 
 AI models trust Reddit threads, G2 reviews, Clutch profiles, Quora answers, and comparison articles on independent sites more than they trust the vendor's own marketing pages. For SaaS companies building AEO for SaaS presence, this means building genuine review profiles and participating in the conversations where your product gets mentioned in context. Not manufactured reviews. Real user testimonials that describe specific problems your product solved, in the language of the problem.
 
-**Lever 3: Structured data and brand signals.** Organization schema, Article schema with a named author, and consistent NAP data across the web help AI citation systems verify that your content is attributable to a real entity with a real presence. Brand mentions across diverse third-party platforms (news articles, podcast appearances, industry reports, partner pages) build the brand signal that AI models use to distinguish established companies from unknown vendors.
+### Lever 3: Structured data and brand signals
 
-**Lever 4: Content freshness and `dateModified` signals.** For topics where facts change (SaaS pricing comparisons, AI engine capabilities, software feature matrices, market statistics), AI engines with browsing capability prefer recently updated content. A page with a current `lastmod` and visible "Updated [date]" signals is more likely to be cited for a time-sensitive query than an identical page untouched in 18 months.
+Organization schema, Article schema with a named author, and consistent NAP data across the web help AI citation systems verify that your content is attributable to a real entity with a real presence. Brand mentions across diverse third-party platforms (news articles, podcast appearances, industry reports, partner pages) build the brand signal that AI models use to distinguish established companies from unknown vendors.
+
+### Lever 4: Content freshness and `dateModified` signals
+
+For topics where facts change (SaaS pricing comparisons, AI engine capabilities, software feature matrices, market statistics), AI engines with browsing capability prefer recently updated content. A page with a current `lastmod` and visible "Updated [date]" signals is more likely to be cited for a time-sensitive query than an identical page untouched in 18 months.
 
 ## Platform-Specific Considerations: Volume vs Quality
 

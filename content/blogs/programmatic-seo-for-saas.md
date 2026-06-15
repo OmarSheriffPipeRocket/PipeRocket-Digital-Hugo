@@ -45,25 +45,25 @@ This validation happens before any template is designed. It is the first of four
 
 These four questions separate viable programmatic SEO programs from ones that produce near-duplicate pages. Answer all four before writing a line of template code.
 
-**Question 1: Does content change meaningfully per page?**
+### Question 1: Does content change meaningfully per page?
 
 This is not about swapping a city, industry, or integration name in the heading. Ask whether the body content, examples, FAQs, and use-case descriptions genuinely differ from page to page. A "[software] for [city]" page that only swaps the city name fails this test. A "[software] for [industry]" page that includes industry-specific workflow examples, regulatory requirements, integration notes for tools specific to that vertical, and FAQs written for that industry's vocabulary passes it, if those elements genuinely differ.
 
 If content does not change meaningfully per page, the programmatic strategy is not ready. More pages will not solve this. Better data will.
 
-**Question 2: Do real buyers search these query variations?**
+### Question 2: Do real buyers search these query variations?
 
 Use Keyword Planner or Ahrefs to check search volume for a representative sample of your planned query set. The benchmark: real search volume should exist for at least 80% of the variations you plan to build. If the volume is concentrated in 10% of the variations (often the case with long-tail programmatic sets), the 90% with no search volume will generate pages that never receive organic traffic.
 
 B2B SaaS keyword sets often have a steep volume distribution. The top ten query variations might have genuine search volume. The remaining 490 might have zero. Building 500 pages when 490 have no audience is not a scale advantage. It is a crawl budget allocation problem.
 
-**Question 3: Do you have data to differentiate each page?**
+### Question 3: Do you have data to differentiate each page?
 
 The best programmatic SEO programs in B2B SaaS are built on proprietary data: integration compatibility matrices, industry benchmark datasets, use-case workflow comparisons, customer-reported outcome data. This data is the ingredient that makes each page genuinely different from both other pages in the set and from competitor content.
 
 If you cannot answer "what unique data does page X contain that page Y does not?" before launching, the pages will look like near-duplicates to Google, because they are.
 
-**Question 4: Can engineering build a clean template system?**
+### Question 4: Can engineering build a clean template system?
 
 A programmatic SEO template that creates canonicalization problems, introduces near-duplicate metadata across pages, or produces inconsistent URL patterns will fail at scale even if the content is differentiated. The engineering requirements include: a clear URL structure (ideally with the variable component as a slug, not a query parameter), unique titles and meta descriptions generated from data fields (not truncated templates with the same first 60 characters), and a canonical strategy that handles the edge cases in the variable set.
 
