@@ -1,10 +1,3 @@
-{{ $listicles    := where .Site.RegularPages "Section" "list"      | first 30 }}
-{{ $caseStudies  := where .Site.RegularPages "Section" "case-study" }}
-{{ $compares     := where .Site.RegularPages "Section" "compare"   }}
-{{ $tools        := where .Site.RegularPages "Section" "tools"     }}
-{{ $blogs        := first 24 (where .Site.RegularPages "Section" "blogs") }}
-{{ $glossary     := where .Site.RegularPages "Section" "glossary"  | first 30 }}
-
 <footer class="pr-footer">
   <div class="pr-container">
 
@@ -78,82 +71,13 @@
 
     </div>
 
-    {{/* DISCOVERY: tabs panel */}}
-    <div class="pr-footer__discovery" data-footer-discovery>
-      <div class="pr-footer__tabs" role="tablist" aria-label="Explore PipeRocket">
-        <button type="button" class="pr-footer__tab is-active" data-tab="about" role="tab" aria-selected="true">About PipeRocket</button>
-        <button type="button" class="pr-footer__tab" data-tab="best" role="tab" aria-selected="false">Best Lists</button>
-        <button type="button" class="pr-footer__tab" data-tab="case-studies" role="tab" aria-selected="false">Case Studies</button>
-        <button type="button" class="pr-footer__tab" data-tab="industries" role="tab" aria-selected="false">Industries</button>
-        <button type="button" class="pr-footer__tab" data-tab="compare" role="tab" aria-selected="false">Comparisons</button>
-        <button type="button" class="pr-footer__tab" data-tab="tools" role="tab" aria-selected="false">Tools</button>
-        <button type="button" class="pr-footer__tab" data-tab="blogs" role="tab" aria-selected="false">Blogs</button>
-        <button type="button" class="pr-footer__tab" data-tab="glossary" role="tab" aria-selected="false">Glossary</button>
-      </div>
-
-      <div class="pr-footer__panels">
-
-        {{/* ABOUT PIPEROCKET */}}
-        <div class="pr-footer__panel pr-footer__panel--prose is-active" data-panel="about" role="tabpanel">
-          <p>PipeRocket Digital is an AI-first B2B SaaS marketing agency founded in 2023, headquartered in California and serving US B2B SaaS companies across SaaS SEO, SaaS PPC, AEO and GEO, account-based marketing, programmatic SEO, content marketing, and marketing operations, with 70+ shipped pipeline engagements. Our clients include Storylane, HyperVerge, LatentView, Spendflo, MetricStream, Goldcast, greytHR, and SaaS Labs.</p>
-        </div>
-
-        {{/* BEST LISTS */}}
-        <div class="pr-footer__panel" data-panel="best" role="tabpanel" hidden>
-          {{ range $i, $page := $listicles }}
-            <a class="pr-footer__panel-link{{ if ge $i 15 }} is-extra{{ end }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
-          {{ end }}
-        </div>
-
-        {{/* CASE STUDIES */}}
-        <div class="pr-footer__panel" data-panel="case-studies" role="tabpanel" hidden>
-          {{ range $caseStudies }}
-            <a class="pr-footer__panel-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-          {{ end }}
-        </div>
-
-        {{/* INDUSTRIES */}}
-        <div class="pr-footer__panel" data-panel="industries" role="tabpanel" hidden>
-          {{ range .Site.Menus.footer_industries }}
-            <a class="pr-footer__panel-link" href="{{ .URL }}">{{ .Name }}</a>
-          {{ end }}
-        </div>
-
-        {{/* COMPARISONS */}}
-        <div class="pr-footer__panel" data-panel="compare" role="tabpanel" hidden>
-          {{ range $compares }}
-            <a class="pr-footer__panel-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-          {{ end }}
-        </div>
-
-        {{/* TOOLS */}}
-        <div class="pr-footer__panel" data-panel="tools" role="tabpanel" hidden>
-          {{ range $tools }}
-            <a class="pr-footer__panel-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-          {{ end }}
-        </div>
-
-        {{/* BLOGS */}}
-        <div class="pr-footer__panel" data-panel="blogs" role="tabpanel" hidden>
-          {{ range $i, $page := $blogs }}
-            <a class="pr-footer__panel-link{{ if ge $i 15 }} is-extra{{ end }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
-          {{ end }}
-        </div>
-
-        {{/* GLOSSARY */}}
-        <div class="pr-footer__panel" data-panel="glossary" role="tabpanel" hidden>
-          {{ range $i, $page := $glossary }}
-            <a class="pr-footer__panel-link{{ if ge $i 15 }} is-extra{{ end }}" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
-          {{ end }}
-        </div>
-
-      </div>
-
-      <div class="pr-footer__show-more-wrap">
-        <button type="button" class="pr-footer__show-more" data-footer-show-more aria-expanded="false">
-          <span class="pr-footer__show-more-label">Show more</span>
-          <span class="pr-footer__show-more-icon" aria-hidden="true">↓</span>
-        </button>
+    {{/* ABOUT — tabbed discovery menu removed (kept only the About blurb to
+         cut the sitewide footer-link bloat). No data-footer-discovery hook, so
+         setupFooterTabs() no-ops cleanly. */}}
+    <div class="pr-footer__discovery">
+      <div class="pr-footer__panel pr-footer__panel--prose is-active" role="region" aria-label="About PipeRocket">
+        <h4 class="pr-footer__group-title">About PipeRocket</h4>
+        <p>PipeRocket Digital is an AI-first B2B SaaS marketing agency founded in 2023, headquartered in California and serving US B2B SaaS companies across SaaS SEO, SaaS PPC, AEO and GEO, account-based marketing, programmatic SEO, content marketing, and marketing operations, with 70+ shipped pipeline engagements. Our clients include Storylane, HyperVerge, LatentView, Spendflo, MetricStream, Goldcast, greytHR, and SaaS Labs.</p>
       </div>
     </div>
 
