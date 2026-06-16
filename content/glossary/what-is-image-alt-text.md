@@ -134,4 +134,4 @@ Yes, image alt text directly impacts SEO. Search engines use it to understand, i
 
 Image alt text isn’t just a checkbox it’s a competitive lever for SaaS brands serious about SEO, accessibility, and conversion. Small changes here compound over time, making your product discoverable and usable by everyone.
 
-If you want to operationalize alt text standards, [get in touch](https://piperocket.digital/contact-us/) or see exactly [how we approach SaaS SEO for growth and accessibility](https://piperocket.digital/saas-seo-agency/).
+If you want to operationalize alt text standards, [get in touch](https://piperocket.digital/contact-us/) or see exactly how we approach SaaS SEO for growth and accessibility.

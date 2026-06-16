@@ -130,7 +130,7 @@ Here’s a quick implementation example for adding structured data to a SaaS pri
 
 Most teams skip structured data entirely or simply copy-paste generic markup. That’s incomplete schema has to match your real content and update as your features evolve.
 
-**Also read:** [SaaS SEO services for technical optimization](/saas-seo-agency/)
+**Also read:** SaaS SEO services for technical optimization
 
 ## How Is Technical SEO Different for SaaS Websites?
 
@@ -184,4 +184,4 @@ Technical SEO can unlock rankings by removing barriers, but it won’t guarantee
 
 ## The Bottom Line
 
-Technical SEO is the invisible engine behind your search performance. If you want your SaaS site to rank, stay visible, and support your growth, technical SEO has to be ongoing not just a box to tick. If you want expert help or a second opinion, [reach out](https://piperocket.digital/contact-us/) or see how [our SaaS SEO approach](https://piperocket.digital/saas-seo-agency/) puts this into practice.
+Technical SEO is the invisible engine behind your search performance. If you want your SaaS site to rank, stay visible, and support your growth, technical SEO has to be ongoing not just a box to tick. If you want expert help or a second opinion, [reach out](https://piperocket.digital/contact-us/) or see how our SaaS SEO approach puts this into practice.

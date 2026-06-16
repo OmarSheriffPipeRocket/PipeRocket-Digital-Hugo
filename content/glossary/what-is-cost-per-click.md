@@ -106,7 +106,7 @@ Here’s a warning: This works well for SaaS with clear buyer intent and defined
 
 Opinion: Most teams set their CPC targets based on what the ad platform suggests or what competitors pay. That’s incomplete. The right move is to set your CPC target based on your own LTV, gross margin, and acceptable payback period then work backward.
 
-**Also read:** [see how a dedicated SaaS SEO team can lower your paid spend by winning expensive keywords organically](/saas-seo-agency/)
+**Also read:** see how a dedicated SaaS SEO team can lower your paid spend by winning expensive keywords organically
 
 ## Frequently Asked Questions
 

@@ -132,4 +132,4 @@ Yes, adding a self-referencing canonical tag (where the canonical URL is the pag
 
 ## The Bottom Line
 
-Canonical tags are a simple, powerful fix for one of the easiest SEO mistakes to make duplicate content. Handle them proactively, and you’ll keep your rankings and analytics on track as your SaaS grows. If you want to see how this works for your site, [get in touch](https://piperocket.digital/contact-us/), or explore our [SaaS SEO agency](/saas-seo-agency/) service to see real-world audits and recommendations.
+Canonical tags are a simple, powerful fix for one of the easiest SEO mistakes to make duplicate content. Handle them proactively, and you’ll keep your rankings and analytics on track as your SaaS grows. If you want to see how this works for your site, [get in touch](https://piperocket.digital/contact-us/), or explore our SaaS SEO agency service to see real-world audits and recommendations.

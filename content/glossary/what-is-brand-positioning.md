@@ -111,7 +111,7 @@ Here’s the contrarian insight most miss: Content and [performance marketing](/
 
 If your SaaS is running paid ads or content campaigns that convert poorly, review your positioning before blaming the channels. Sometimes, working with a [SaaS PPC agency](/list/best-saas-ppc-agencies/) that insists on a positioning audit before launching ads can save you months of wasted budget.
 
-**Also read:** [SaaS SEO agency services for content that matches positioning](/saas-seo-agency/)
+**Also read:** SaaS SEO agency services for content that matches positioning
 
 ## Frequently Asked Questions
 
@@ -129,4 +129,4 @@ The most common mistake is going too broad, trying to appeal to everyone instead
 
 ## The Bottom Line
 
-Brand positioning isn’t just a slogan it’s the strategy that makes your SaaS memorable, defensible, and profitable. The teams that win are those who define their mental slot early, revisit it often, and let it shape every customer touchpoint. If you want practical help sharpening your position, [get in touch](https://piperocket.digital/contact-us/) or see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) to align content with your positioning.
+Brand positioning isn’t just a slogan it’s the strategy that makes your SaaS memorable, defensible, and profitable. The teams that win are those who define their mental slot early, revisit it often, and let it shape every customer touchpoint. If you want practical help sharpening your position, [get in touch](https://piperocket.digital/contact-us/) or see how we approach SaaS SEO to align content with your positioning.

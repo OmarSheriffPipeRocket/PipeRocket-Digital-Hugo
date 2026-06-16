@@ -137,4 +137,4 @@ Most SaaS teams treat technical SEO as a one-time setup task. That’s wrong. Cr
 
 Crawling is the foundation that everything else in SEO sits on. If bots can’t reach your pages, your content, your [backlinks](/glossary/what-is-a-backlink/), and your optimisations are irrelevant. Get the technical basics right clean robots.txt, solid internal linking, no crawl budget waste and treat it as ongoing maintenance, not a one-time task.
 
-If you want help auditing your site’s crawlability or building an SEO strategy that starts from the technical foundation, [reach out to our team](https://piperocket.digital/contact-us/) or see how we structure [our SaaS SEO approach](https://piperocket.digital/saas-seo-agency/) to make sure crawling, indexing, and content all work together.
+If you want help auditing your site’s crawlability or building an SEO strategy that starts from the technical foundation, [reach out to our team](https://piperocket.digital/contact-us/) or see how we structure our SaaS SEO approach to make sure crawling, indexing, and content all work together.

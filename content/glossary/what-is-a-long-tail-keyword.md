@@ -102,7 +102,7 @@ Most content roadmaps start with the highest-volume terms at the top and work th
 
 Here’s the nuance: This works well for SaaS with multiple buyer personas, each searching for different features or outcomes. For a point-solution SaaS with one clear ICP, you may only need a few very deep, targeted pages to win.
 
-**Also read:** [SaaS SEO agency approaches for building defensible rankings](https://piperocket.digital/saas-seo-agency/)
+**Also read:** SaaS SEO agency approaches for building defensible rankings
 
 ## Frequently Asked Questions
 
@@ -122,4 +122,4 @@ Yes, especially for SaaS and B2B brands in competitive markets. By targeting hun
 
 Long tail keywords aren’t just for SEO beginners they’re the engine behind intentional, sustainable SaaS growth. Targeting them puts you in front of buyers ready to act, not just browsers. If you want to build a pipeline that compounds, talk to your customers, map their language, and own the long tail.
 
-To see how this works in practice, [get in touch with our team](https://piperocket.digital/contact-us/) or explore our [SaaS SEO services](https://piperocket.digital/saas-seo-agency/) for proven long tail strategies.
+To see how this works in practice, [get in touch with our team](https://piperocket.digital/contact-us/) or explore our SaaS SEO services for proven long tail strategies.

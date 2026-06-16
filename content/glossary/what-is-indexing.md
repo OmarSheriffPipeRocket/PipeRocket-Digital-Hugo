@@ -135,4 +135,4 @@ Indexed pages can drop out of Google if the content becomes outdated, engagement
 
 ## The Bottom Line
 
-Indexing is where SEO moves from theory to results: if you’re not indexed, you’re invisible. For SaaS, the discipline is less about “getting crawled” and more about proving each page deserves a slot in Google’s index and fixing what’s quietly blocking you. If you want to close your indexing gaps, [get in touch](https://piperocket.digital/contact-us/) or see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) for real-world results.
+Indexing is where SEO moves from theory to results: if you’re not indexed, you’re invisible. For SaaS, the discipline is less about “getting crawled” and more about proving each page deserves a slot in Google’s index and fixing what’s quietly blocking you. If you want to close your indexing gaps, [get in touch](https://piperocket.digital/contact-us/) or see how we approach SaaS SEO for real-world results.

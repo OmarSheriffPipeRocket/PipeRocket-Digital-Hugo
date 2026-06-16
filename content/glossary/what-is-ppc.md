@@ -95,7 +95,7 @@ Most SaaS teams treat PPC and SEO as either/or. That’s a mistake. The highest-
 
 **Here’s the real trade-off:** PPC gives you speed but drains your budget with every click. SEO takes patience, but successful pages generate free, compounding traffic. Use PPC to identify what actually converts then build your SEO strategy around proven high-intent topics.
 
-**Also read:** [SaaS SEO agency service principles](/saas-seo-agency/)
+**Also read:** SaaS SEO agency service principles
 
 ## How Should You Set Up and Optimize a PPC Campaign?
 

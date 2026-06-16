@@ -267,7 +267,7 @@ Kim is Co-Founder of [PipeRocket Digital](/saas-seo-agency/) and the SEO lead be
 | Notable Work | Leads organic programs for PipeRocket's B2B SaaS clients |
 | Specialty | Topical authority, BOFU SEO, agency strategy |
 
-**What sets him apart:** Kim's approach starts at the bottom of the funnel — the comparison, alternative, and use-case searches buyers run right before they commit — and builds topical authority outward from there. It's why our [SaaS SEO](/saas-seo-agency/) work is measured in pipeline contribution rather than keyword counts, and why we pair it with [content marketing](/saas-seo-agency/content-marketing-agency/) and [link building](/saas-seo-agency/link-building-agency/).
+**What sets him apart:** Kim's approach starts at the bottom of the funnel — the comparison, alternative, and use-case searches buyers run right before they commit — and builds topical authority outward from there. It's why our SaaS SEO work is measured in pipeline contribution rather than keyword counts, and why we pair it with [content marketing](/saas-seo-agency/content-marketing-agency/) and [link building](/saas-seo-agency/link-building-agency/).
 
 - 15+ years of SEO experience, focused on B2B SaaS
 - BOFU-first methodology aimed at revenue, not vanity traffic
@@ -318,7 +318,7 @@ Best for: Senior technical SEO, migrations, and JavaScript-heavy stacks.
 
 Best for: Technical SEO and keyword research that compounds over time.
 
-Ranjeeth is SEO Manager at [PipeRocket Digital](/saas-seo-agency/), where he leads strategy across content, technical SEO, and keyword research. He focuses on understanding exactly how SaaS buyers search — and building programs that capture that demand.
+Ranjeeth is SEO Manager at PipeRocket Digital, where he leads strategy across content, technical SEO, and keyword research. He focuses on understanding exactly how SaaS buyers search — and building programs that capture that demand.
 
 **At a Glance**
 

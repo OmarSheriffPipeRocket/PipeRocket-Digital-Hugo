@@ -126,4 +126,4 @@ Update your robots.txt file whenever you launch a major redesign, migrate your s
 
 ## The Bottom Line
 
-Robots.txt is often overlooked, but it’s one of the most important and dangerous SEO levers on your site. Use it to shape what search engines can (and can’t) see, but treat every rule as a potential risk. If you want robots.txt to work for you (not against you), [get in touch](https://piperocket.digital/contact-us/) or check out our [SaaS SEO agency](/saas-seo-agency/) page for a deeper look at [technical SEO](/glossary/what-is-technical-seo/) in practice.
+Robots.txt is often overlooked, but it’s one of the most important and dangerous SEO levers on your site. Use it to shape what search engines can (and can’t) see, but treat every rule as a potential risk. If you want robots.txt to work for you (not against you), [get in touch](https://piperocket.digital/contact-us/) or check out our SaaS SEO agency page for a deeper look at [technical SEO](/glossary/what-is-technical-seo/) in practice.

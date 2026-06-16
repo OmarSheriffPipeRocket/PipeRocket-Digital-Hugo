@@ -94,7 +94,7 @@ SEO works by sending the right signals to search engines signals that your site 
 
 **Here’s the contrarian view:** publishing a blog post and waiting is not a strategy. If you’re not actively building internal links, updating older content, and tracking ranked pages month over month, you’re not doing SEO you’re just writing. It’s not about volume; it’s about focused, high-quality signals that reinforce your authority on a subject.
 
-**Also read:** [SaaS SEO service approach that prioritises compounding traffic](https://piperocket.digital/saas-seo-agency/)
+**Also read:** SaaS SEO service approach that prioritises compounding traffic
 
 ## What Are the Most Common SEO Mistakes SaaS Teams Make?
 
@@ -146,4 +146,4 @@ AI can help speed up content creation, but unedited AI content rarely ranks for 
 
 SEO is how you make your site findable for buyers who are already searching for what you do but it only works if you treat it as an ongoing, business-driven system, not a content-publishing treadmill. Get the foundations right, measure what matters, and build authority on topics that actually move your pipeline.
 
-To explore your best options, [reach out via our contact page](https://piperocket.digital/contact-us/) or get a closer look at [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/).
+To explore your best options, [reach out via our contact page](https://piperocket.digital/contact-us/) or get a closer look at how we approach SaaS SEO.

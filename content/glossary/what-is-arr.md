@@ -108,7 +108,7 @@ Here’s the counterintuitive bit: Most leaders obsess over ARR growth as the ul
 
 A real trade-off: Expansion ARR (upsells, cross-sells to existing customers) is stickier and more valuable than new logo ARR. But it’s harder to grow if your product has a narrow use case. It’s worth prioritizing if your customers have clear upgrade paths, but don’t neglect new sales or your pipeline dries up.
 
-**Also read:** [SaaS SEO agency services that track metrics the right way](/saas-seo-agency/)
+**Also read:** SaaS SEO agency services that track metrics the right way
 
 ## Frequently Asked Questions
 
@@ -126,4 +126,4 @@ Investors and acquirers value SaaS companies as a multiple of ARR typically 5x 1
 
 ## The Bottom Line
 
-ARR is the single most important SaaS metric for tracking true, predictable growth as long as you count only contractually recurring revenue and segment your growth drivers. If you want to benchmark your ARR or see how pro teams handle it, check out our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/). And if you want to talk through your reporting, [reach out to our team](https://piperocket.digital/contact-us/) anytime.
+ARR is the single most important SaaS metric for tracking true, predictable growth as long as you count only contractually recurring revenue and segment your growth drivers. If you want to benchmark your ARR or see how pro teams handle it, check out our SaaS SEO service. And if you want to talk through your reporting, [reach out to our team](https://piperocket.digital/contact-us/) anytime.

@@ -118,7 +118,7 @@ A nuanced warning: GSC works brilliantly for tracking your own site’s performa
 
 Real-world example: Rosterly, a SaaS for sports club management, used GSC’s “Queries” report to spot a spike in searches for “youth team scheduling.” By spinning up a targeted landing page and linking it from their blog, they increased signups in that segment by 18% in one quarter.
 
-**Also read:** [our SaaS SEO approach for compounding organic growth](https://piperocket.digital/saas-seo-agency/)
+**Also read:** our SaaS SEO approach for compounding organic growth
 
 ## Frequently Asked Questions
 
@@ -136,4 +136,4 @@ Google Search Console gives you direct data from Google about your own site, but
 
 ## The Bottom Line
 
-Google Search Console isn’t just a technical tool it’s your SaaS company’s main feedback loop for organic growth, content strategy, and site health. The teams that treat it as a living, breathing dashboard not a static report outperform those who only check it in a crisis. If you want to put these insights into practice, [reach out via our contact page](https://piperocket.digital/contact-us/) or see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) for growth-focused teams.
+Google Search Console isn’t just a technical tool it’s your SaaS company’s main feedback loop for organic growth, content strategy, and site health. The teams that treat it as a living, breathing dashboard not a static report outperform those who only check it in a crisis. If you want to put these insights into practice, [reach out via our contact page](https://piperocket.digital/contact-us/) or see how we approach SaaS SEO for growth-focused teams.

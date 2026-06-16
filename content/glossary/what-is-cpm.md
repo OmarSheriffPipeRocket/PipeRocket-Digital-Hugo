@@ -107,7 +107,7 @@ Here’s a warning: CPM works well for brand and awareness campaigns, especially
 
 **Fast Fact:** In SaaS, brand campaigns using CPM often see a halo effect organic direct traffic can lift by 20%+ after a well-targeted awareness push, even if no conversions happen immediately.
 
-**Also read:** [SaaS SEO agency strategies for nurturing pipeline beyond paid ads](/saas-seo-agency/)
+**Also read:** SaaS SEO agency strategies for nurturing pipeline beyond paid ads
 
 ## What Are the Most Common CPM Mistakes in SaaS Marketing?
 

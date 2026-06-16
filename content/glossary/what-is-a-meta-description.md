@@ -112,7 +112,7 @@ Optimizing meta descriptions isn’t about finding the perfect phrase once and m
 
 Here’s the warning: This works well for product-led SaaS and high-traffic “feature” pages. For long-tail blog posts or support articles, over-optimizing meta descriptions can actually backfire Google may rewrite them anyway, and your time is better spent improving on-page content or internal linking.
 
-If you’re investing in SaaS SEO at scale, working with a [dedicated SaaS SEO team](/saas-seo-agency/) can help cut trial-and-error, especially for high-intent [landing pages](/glossary/what-is-a-landing-page/).
+If you’re investing in SaaS SEO at scale, working with a dedicated SaaS SEO team can help cut trial-and-error, especially for high-intent [landing pages](/glossary/what-is-a-landing-page/).
 
 **Also read:** [how the best enterprise SEO agencies handle snippet optimization](/list/best-enterprise-seo-agencies/)
 
@@ -134,4 +134,4 @@ If you don’t provide a meta description, Google will automatically generate on
 
 A meta description won’t boost your rankings, but it’s your one-shot pitch to searchers and it’s the difference between being clicked or ignored. Treat it as conversion copy, not SEO filler, and you’ll get more value from every SEO dollar you spend.
 
-If you want a strategy that turns rankings into real pipeline, [get in touch with our team](https://piperocket.digital/contact-us/). Or see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) approaches meta descriptions with real intent and results.
+If you want a strategy that turns rankings into real pipeline, [get in touch with our team](https://piperocket.digital/contact-us/). Or see how our SaaS SEO service approaches meta descriptions with real intent and results.

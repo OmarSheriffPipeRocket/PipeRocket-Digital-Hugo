@@ -124,4 +124,4 @@ Yes paid search and content marketing are strongest when combined. Content build
 
 Content marketing is about helping, not just selling publishing answers and resources your ideal buyers actually need. Teams that treat content as a strategy, not a checkbox, consistently win more trust and better leads over time.
 
-If you want to see this approach in action, [explore our SaaS SEO service](https://piperocket.digital/saas-seo-agency/). And if you’d like to talk through your content or growth challenges, [reach out via our contact page](https://piperocket.digital/contact-us/).
+If you want to see this approach in action, explore our SaaS SEO service. And if you’d like to talk through your content or growth challenges, [reach out via our contact page](https://piperocket.digital/contact-us/).

@@ -112,7 +112,7 @@ There’s also a sequencing logic here. Most successful SaaS companies don’t t
 
 Consider a workflow automation tool targeting operations teams. Its SAM might span multiple industries, but its SOM in year one is mid-sized e-commerce companies in the US, where the founders have existing relationships and the problem is acutely felt. Winning that segment first builds the case study library that opens the next vertical.
 
-If you’re building out organic acquisition as part of your go-to-market, pairing this market clarity with a structured content programme run by a [dedicated SaaS SEO team](/saas-seo-agency/) can help you capture demand from the specific segments your SOM targets.
+If you’re building out organic acquisition as part of your go-to-market, pairing this market clarity with a structured content programme run by a dedicated SaaS SEO team can help you capture demand from the specific segments your SOM targets.
 
 Also read: [best SaaS marketing agencies for early-stage and scaling teams](/list/best-saas-marketing-agencies-2026/)
 
@@ -120,4 +120,4 @@ Also read: [best SaaS marketing agencies for early-stage and scaling teams](/lis
 
 TAM SAM SOM is most useful when you treat it as a planning tool, not a pitch prop. Build your SAM from real account data, tie your SOM to your actual go-to-market capacity, and update both as the market and your business evolve. The founders who get this right use it to make better decisions not just better slides.
 
-If you want to talk through how market sizing connects to your content and acquisition strategy, [get in touch with our team](https://piperocket.digital/contact-us/) or explore [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) to align demand capture with the segments your SOM actually targets.
+If you want to talk through how market sizing connects to your content and acquisition strategy, [get in touch with our team](https://piperocket.digital/contact-us/) or explore how we approach SaaS SEO to align demand capture with the segments your SOM actually targets.

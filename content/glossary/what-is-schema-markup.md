@@ -145,4 +145,4 @@ Pages that answer specific user questions or demonstrate key product features be
 
 ## The Bottom Line
 
-Schema markup is how you help search engines and your buyers see what makes your SaaS unique before they even land on your site. Treat it as a growth lever, not a checkbox, and you’ll consistently outcompete teams who treat SEO as a technical chore. If you want to see schema markup done right for SaaS, [reach out via our contact page](https://piperocket.digital/contact-us/) or explore how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) makes [technical SEO](/glossary/what-is-technical-seo/) a competitive win.
+Schema markup is how you help search engines and your buyers see what makes your SaaS unique before they even land on your site. Treat it as a growth lever, not a checkbox, and you’ll consistently outcompete teams who treat SEO as a technical chore. If you want to see schema markup done right for SaaS, [reach out via our contact page](https://piperocket.digital/contact-us/) or explore how our SaaS SEO service makes [technical SEO](/glossary/what-is-technical-seo/) a competitive win.

@@ -142,4 +142,4 @@ Popular lead generation tools for SaaS include HubSpot, Marketo, and Salesforce 
 
 Lead generation isn’t about filling your CRM it’s about building a repeatable system that brings in real buyers and turns them into pipeline, not just marketing metrics. The teams who win treat lead generation as a quality game, not a volume contest.
 
-If you want to see how experts qualify SaaS leads, [get in touch](https://piperocket.digital/contact-us/). Or, see our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) for a look at pipeline-first search strategies.
+If you want to see how experts qualify SaaS leads, [get in touch](https://piperocket.digital/contact-us/). Or, see our SaaS SEO service for a look at pipeline-first search strategies.

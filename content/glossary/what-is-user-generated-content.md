@@ -142,4 +142,4 @@ UGC works best for SaaS products that solve a visible, high-value problem and ha
 
 User generated content is the most trusted, influential form of content in SaaS, but it requires real effort to cultivate and sustain. The brands that win don’t just let UGC happen they actively nurture, curate, and amplify it to build the kind of trust that can’t be bought.
 
-If you want to integrate real user content into your growth playbook, [reach out to our team](https://piperocket.digital/contact-us/) or see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) accelerates organic growth with UGC at the core.
+If you want to integrate real user content into your growth playbook, [reach out to our team](https://piperocket.digital/contact-us/) or see how our SaaS SEO service accelerates organic growth with UGC at the core.

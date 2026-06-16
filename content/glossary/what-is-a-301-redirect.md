@@ -136,4 +136,4 @@ Yes, stacking multiple 301 redirects creates longer “hops,” increasing time 
 
 A 301 redirect is a powerful tool, but only when used with precision and intent sloppy mapping, chained redirects, and “bulk-to-homepage” approaches are silent killers for SaaS growth. Treat redirects as critical infrastructure, not an afterthought, and you’ll protect both rankings and product flows as your site evolves.
 
-If you want a redirect audit or a SaaS migration safety plan, [get in touch with our team](https://piperocket.digital/contact-us/). For more detail on how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) handles 301s and migrations, see our approach in practice.
+If you want a redirect audit or a SaaS migration safety plan, [get in touch with our team](https://piperocket.digital/contact-us/). For more detail on how our SaaS SEO service handles 301s and migrations, see our approach in practice.

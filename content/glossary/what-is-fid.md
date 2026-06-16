@@ -124,4 +124,4 @@ FID remains an official Core Web Vital until Google fully transitions to INP (In
 
 ## The Bottom Line
 
-First Input Delay is the hidden metric that separates sites that feel fast from those that only look fast in the lab. If you want users to engage, convert, and stick around, FID is the Core Web Vital you can’t afford to ignore. For help making your SaaS site truly interactive, [reach out via our contact page](https://piperocket.digital/contact-us/) or see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) for technical results that move the needle.
+First Input Delay is the hidden metric that separates sites that feel fast from those that only look fast in the lab. If you want users to engage, convert, and stick around, FID is the Core Web Vital you can’t afford to ignore. For help making your SaaS site truly interactive, [reach out via our contact page](https://piperocket.digital/contact-us/) or see how we approach SaaS SEO for technical results that move the needle.

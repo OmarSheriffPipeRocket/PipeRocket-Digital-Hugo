@@ -120,7 +120,7 @@ Domain authority isn’t the only metric in town, and it’s not perfect. Every 
 
 The genuine trade-off: Tracking DA is helpful for monitoring progress and sizing up competitors, but it fails when used as a north star. It’s the right move for agencies and SaaS teams needing a high-level pulse, but it should always be paired with deeper checks on traffic, keyword rankings, and engagement.
 
-**Also read:** [SaaS SEO service and our approach to ranking](https://piperocket.digital/saas-seo-agency/)
+**Also read:** SaaS SEO service and our approach to ranking
 
 ## Frequently Asked Questions
 
@@ -140,4 +140,4 @@ Not always context matters. A SaaS with domain authority 20 can outrank a DA 60 
 
 Domain authority is a useful directional metric, but it’s not a finish line or a guarantee of SEO success. The real wins come from building topical authority, aligning content with intent, and earning relevant, editorial links. Treat DA as a compass, not the destination.
 
-To talk through your authority strategy, [get in touch](https://piperocket.digital/contact-us/). If you want to see our full [SaaS SEO service and approach](https://piperocket.digital/saas-seo-agency/), you’ll find practical details there.
+To talk through your authority strategy, [get in touch](https://piperocket.digital/contact-us/). If you want to see our full SaaS SEO service and approach, you’ll find practical details there.

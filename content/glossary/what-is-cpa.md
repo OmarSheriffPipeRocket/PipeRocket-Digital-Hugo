@@ -113,7 +113,7 @@ A nuanced warning: This approach works well for SaaS with clear value metrics an
 
 Here’s what actually works: Set your target CPA as a percentage of LTV, then adjust by channel. If paid search brings customers with 2x the LTV of organic, it’s worth accepting a higher CPA. But if you’re blindly chasing the lowest CPA, you’re probably ignoring your best long-term growth bets.
 
-**Also read:** [SaaS SEO agency strategies for high-LTV acquisition](/saas-seo-agency/)
+**Also read:** SaaS SEO agency strategies for high-LTV acquisition
 
 ## What Tools and Agencies Help Track and Optimize CPA?
 
@@ -127,7 +127,7 @@ Manual CPA tracking quickly falls apart as you scale. SaaS teams need tools that
 
 Here’s the kicker: Most agencies pitch “lower CPA” as the whole pitch, but that misses the point. The best partners help you track LTV and churn by channel, then tell you when it’s smart to accept a higher CPA for higher-value customers.
 
-Segment Pilot, a SaaS for B2B data enrichment, started working with a [dedicated SaaS SEO team](/saas-seo-agency/) after struggling to justify rising CPA from paid search. By shifting focus to organic acquisition even with a higher upfront CPA they saw net revenue per customer climb 38% in under a year.
+Segment Pilot, a SaaS for B2B data enrichment, started working with a dedicated SaaS SEO team after struggling to justify rising CPA from paid search. By shifting focus to organic acquisition even with a higher upfront CPA they saw net revenue per customer climb 38% in under a year.
 
 **Also read:** [enterprise SEO agencies that excel at channel attribution](/list/best-enterprise-seo-agencies/)
 

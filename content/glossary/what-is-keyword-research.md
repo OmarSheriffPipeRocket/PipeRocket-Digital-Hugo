@@ -126,4 +126,4 @@ The real trade-off with broad keyword targeting is this: you can build significa
 
 Keyword research isn’t a task you complete before writing content it’s the strategic layer that determines whether your content ever finds the right buyer. Do it based on intent and business fit, not volume, and revisit it regularly as your market shifts.
 
-If you want a team that builds keyword strategy around pipeline, not just traffic, [get in touch via our contact page](https://piperocket.digital/contact-us/) or see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) in practice.
+If you want a team that builds keyword strategy around pipeline, not just traffic, [get in touch via our contact page](https://piperocket.digital/contact-us/) or see how we approach SaaS SEO in practice.

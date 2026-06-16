@@ -131,7 +131,7 @@ A full SEO audit for a SaaS website typically takes 1 to 3 weeks, depending on s
 
 ### Can I run an SEO audit myself, or do I need an agency?
 
-You can run a basic SEO audit yourself using tools like Screaming Frog, Ahrefs, or Google Search Console. However, most SaaS teams benefit from an expert or [SaaS SEO agency](/saas-seo-agency/) for deeper analysis especially to spot intent mismatches, technical debt, or content cannibalization that tools alone miss. Agencies bring outside perspective, proven processes, and can tie audit insights directly to business growth.
+You can run a basic SEO audit yourself using tools like Screaming Frog, Ahrefs, or Google Search Console. However, most SaaS teams benefit from an expert or SaaS SEO agency for deeper analysis especially to spot intent mismatches, technical debt, or content cannibalization that tools alone miss. Agencies bring outside perspective, proven processes, and can tie audit insights directly to business growth.
 
 ### How often should I audit my SaaS website?
 
@@ -139,4 +139,4 @@ For most SaaS companies, a quarterly audit is recommended, with monthly spot che
 
 ## The Bottom Line
 
-An SEO audit is only as valuable as the action it drives. Treat it as an ongoing feedback loop not just a checklist and you’ll catch issues before they stall your growth. If you want to talk through your audit approach, [get in touch](https://piperocket.digital/contact-us/). And if you’re looking for a real partner, see [how we approach SaaS SEO](https://piperocket.digital/saas-seo-agency/) to turn audits into lasting organic growth.
+An SEO audit is only as valuable as the action it drives. Treat it as an ongoing feedback loop not just a checklist and you’ll catch issues before they stall your growth. If you want to talk through your audit approach, [get in touch](https://piperocket.digital/contact-us/). And if you’re looking for a real partner, see how we approach SaaS SEO to turn audits into lasting organic growth.
