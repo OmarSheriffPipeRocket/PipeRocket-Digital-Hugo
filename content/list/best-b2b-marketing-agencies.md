@@ -5,7 +5,7 @@ description: "I ranked 11 B2B marketing agencies on pipeline impact, technical e
 metaTitle: "I Ranked the 11 Best B2B Marketing Agencies (2026)"
 metaDescription: "I ranked 11 B2B marketing agencies on pipeline impact, technical expertise, and client retention. See which ones drive real revenue."
 date: 2025-11-13
-lastmod: 2026-06-06
+lastmod: 2026-06-16
 slug: "best-b2b-marketing-agencies"
 writtenBy: "kim"
 category: "B2B Marketing"
@@ -20,7 +20,7 @@ Comparing the top 11 best B2B marketing agencies for 2026 includes 1. Directive 
 
 Each of these B2B marketing agencies covers a different corner of the market, from pipeline-obsessed full-funnel shops to brand differentiation specialists to technical-SEO practitioners. Some optimise for closed pipeline contribution, others for category credibility through PR and brand work, and a few focus on the unglamorous plumbing of HubSpot RevOps and lead-scoring infrastructure.
 
-Picking the wrong agency costs more than retainer fees: it costs you a quarter of activity that never moves pipeline, a board meeting where marketing can't show revenue contribution, and a sales team that stops attending the QBR. The B2B marketing agencies below were evaluated on pipeline impact, technical expertise, client retention, industry specialisation, and transparency. These are the B2B marketing agencies worth shortlisting in 2026.
+Choosing the wrong partner costs more than the retainer line: it costs you a quarter of activity that never moves pipeline, a board meeting where marketing has no revenue number to defend, and a sales team that quietly stops showing up to the QBR. The agencies below were assessed on pipeline impact, technical expertise, client retention, industry specialisation, and transparency. These are the B2B marketing agencies worth putting on your shortlist in 2026.
 
 ## TL;DR
 
@@ -527,7 +527,7 @@ Walker Sands doesn't publish rate cards. Custom integrated programs priced based
 
 **Field Notes**
 
-Walker Sands is who you hire when your category narrative is the demand lever; less the right pick when your bottleneck is conversion architecture or LinkedIn audience tuning. Few B2B marketing agencies pair earned media and demand gen this tightly.
+Walker Sands is who you hire when your category narrative is the demand lever; less the right pick when your bottleneck is conversion architecture or LinkedIn audience tuning. Few B2B marketing agencies pair earned media and demand gen this tightly. (Walker Sands acquired RevPartners, a RevOps and GTM engineering firm, in June 2026, adding HubSpot CRM architecture and demand orchestration to its integrated model.)
 
 | Criteria | Detail |
 | --- | --- |
@@ -965,5 +965,6 @@ When scoped to pipeline outcomes, yes. The best B2B marketing agencies that repo
 
 ## Update History
 
-- **November 13, 2025:** Published.
+- **June 16, 2026:** Added Walker Sands news (acquired RevPartners, RevOps and GTM engineering firm, June 2026).
 - **June 6, 2026:** Updated New North Clutch rating to 4.6/5 (11 reviews); renamed Velocity Partners to Pretzl (merged Feb 2026, now at pretzl.com); added Disruptive Advertising DesignRush top U.S. agency award (March 2026).
+- **November 13, 2025:** Published.
