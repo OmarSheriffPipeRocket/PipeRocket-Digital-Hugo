@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="270" viewBox="0 0 390 270">
+  <defs>
+    <clipPath id="gc-card-clip">
+      <rect width="390" height="270" rx="6" ry="6"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="390" height="270" fill="#fff" stroke="#d9d5c9" rx="6" ry="6"/>
+
+  <!-- Goldcast arc motif (scaled from logo brand paths), clipped to card -->
+  <g clip-path="url(#gc-card-clip)">
+    <g transform="translate(365,135) scale(2.2) translate(-260,-37)">
+      <!-- Outer arc, light -->
+      <path fill="#ff4200" fill-opacity="0.22" d="M289.833 37.034c0-16.35-13.477-29.826-29.833-29.826v-6.12c19.735 0 35.952 16.214 35.952 35.946S279.735 72.979 260 72.979v-6.12c16.356 0 29.833-13.474 29.833-29.825"/>
+      <!-- Inner arc, solid -->
+      <path fill="#ff4200" d="M276.901 36.76c0-9.256-7.641-16.899-16.901-16.899v-7.058c13.158 0 23.96 10.802 23.96 23.956S273.158 60.716 260 60.716v-7.059c9.26 0 16.901-7.642 16.901-16.898"/>
+    </g>
+  </g>
+
+  <!-- Metric 1: spend -->
+  <text x="32" y="86" font-family="Georgia,'Times New Roman',serif" font-size="52" font-weight="700" fill="#020617">−76%</text>
+  <text x="33" y="107" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#999999" letter-spacing="1.5">SPEND REDUCTION</text>
+
+  <line x1="33" y1="122" x2="178" y2="122" stroke="#ede9e2" stroke-width="1"/>
+
+  <!-- Metric 2: revenue -->
+  <text x="32" y="163" font-family="Georgia,'Times New Roman',serif" font-size="46" font-weight="700" fill="#020617">+126%</text>
+  <text x="33" y="184" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#999999" letter-spacing="1.5">REVENUE GROWTH</text>
+
+  <!-- Bottom rule + label -->
+  <line x1="33" y1="228" x2="357" y2="228" stroke="#ede9e2" stroke-width="1"/>
+  <text x="33" y="247" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#020617">Goldcast</text>
+  <text x="96" y="247" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#999999">· 23.5× ROAS in Q4</text>
+</svg>
