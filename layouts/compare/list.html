@@ -7,7 +7,7 @@
 ) }}
 
 {{ partial "directory-grid.html" (dict
-  "pages" .Pages.ByDate.Reverse
+  "pages" .Pages.ByLastmod.Reverse
   "noImage" true
 ) }}
 {{ end }}
