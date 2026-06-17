@@ -2,10 +2,10 @@
 title: "How to Get Cited in Google AI Overviews"
 description: "Most SaaS pages get skipped by Google AI Overviews because they're built to sell, not answer. This guide walks through the on-page and off-page signals that drive AIO citations, and the gap-first audit method we used to get a listicle page cited almost immediately after a single targeted insert."
 metaTitle: "How to Get Cited in Google AI Overviews"
-metaDescription: "Most SaaS pages get skipped by Google AI Overviews. Here's the gap-first approach we used to get cited — and how to apply it to your pages."
+metaDescription: "Most SaaS pages get skipped by Google AI Overviews. Here's the gap-first approach we used to get cited, and how to apply it to your pages."
 date: 2026-06-16
 slug: "how-to-get-cited-in-ai-overviews"
-writtenBy: "kim"
+writtenBy: "vignesh-sampath"
 category: "AI Search"
 featuredImage: "/images/blog-covers/how-to-get-cited-in-ai-overviews.webp"
 ---
@@ -67,7 +67,11 @@ The off-page layer is about brand trust, and it's built in places you don't cont
 
 Third-party listicles are probably the most direct signal. If Google sees your brand consistently appearing on "best X tool" lists across multiple credible sites, it treats that as an endorsement. It's a signal that you're a recognised entity in the category, not just a company claiming to be.
 
-Unlinked brand mentions matter too. A Reddit thread where someone recommends your tool, a comparison page on a SaaS review site, a G2 profile with real reviews: these all feed the same trust signal. Google aggregates them.
+Unlinked brand mentions matter too. These all feed the same trust signal, and Google aggregates them:
+
+- A Reddit thread where someone recommends your tool
+- A comparison page on a SaaS review site
+- A G2 profile with real reviews
 
 The compounding effect is real. Building off-page presence is slow, but once it's there, it reinforces every on-page insert you make. The two layers work together. Build on-page alone and Google may not trust the source enough to cite it.
 
@@ -99,11 +103,13 @@ Identifying the format is the crucial step. Once you know the format, you know w
 
 Now look at your page with that format in mind. Does it directly provide that answer type, early in the content?
 
+{{< experience author="vignesh-sampath" title="Finding the gap in our own listicle" >}}
 This is where I found our gap. The AIO for the listicle query was producing a definition paragraph. It was answering "what is this category of tool?" as its first output. Our listicle didn't have that. It launched straight into the list, like most listicles do.
 
 So I added a "what is" block near the top of the page. A short, clear definition of the category, written the way you'd explain it to someone who just encountered the term. Not a long explanation. Two or three clean paragraphs that answered the definition question directly.
 
 Within a short time, AIO cited that section. It had found the exact answer type it needed, now supplied in extractable form, early in the page.
+{{< /experience >}}
 
 This is the kind of gap most teams miss. They look at their page and see a complete, well-written piece.
 
@@ -151,7 +157,7 @@ If you want to know how we approach this as part of a [SaaS SEO engagement](/saa
 
 ### Do I need to rank in the top 10 to get cited in Google AI Overviews?
 
-No. Studies of AIO citation patterns show roughly 38% of cited pages don't rank in the organic top 10 for the same query. AIO is not simply pulling from the top organic results.
+No. Studies of AIO citation patterns show roughly 62% of cited pages don't rank in the organic top 10 for the same query — only 38% of cited pages also hold a top-10 organic ranking. AIO is not simply pulling from the top organic results.
 
 It's selecting pages that best supply the specific answer format it needs, regardless of rank. A page on position 14 with a clean, extractable definition block can be cited ahead of a page on position 3 that doesn't supply that format.
 
