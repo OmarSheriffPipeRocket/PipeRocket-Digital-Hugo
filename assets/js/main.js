@@ -801,10 +801,32 @@ const wrapArticleTables = () => {
   ].join(', ');
   document.querySelectorAll(selector).forEach((table) => {
     if (table.parentElement && table.parentElement.classList.contains('pr-table-scroll')) return;
+    const outer = document.createElement('div');
+    outer.className = 'pr-table-scroll-wrap';
     const wrapper = document.createElement('div');
     wrapper.className = 'pr-table-scroll';
-    table.parentNode.insertBefore(wrapper, table);
+    table.parentNode.insertBefore(outer, table);
+    outer.appendChild(wrapper);
     wrapper.appendChild(table);
+
+    // Horizontal-scroll affordance: a small nudging arrow + edge fade, shown
+    // only when the table actually overflows AND the user has not yet scrolled
+    // to the end. Self-scoping — narrow tables that fit never show it.
+    const hint = document.createElement('span');
+    hint.className = 'pr-table-scroll-hint';
+    hint.setAttribute('aria-hidden', 'true');
+    hint.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l6 6-6 6"/><path d="M13 6l6 6-6 6"/></svg>';
+    outer.appendChild(hint);
+
+    const updateHint = () => {
+      const overflow = wrapper.scrollWidth - wrapper.clientWidth;
+      const atEnd = wrapper.scrollLeft >= overflow - 2;
+      outer.classList.toggle('has-scroll', overflow > 4 && !atEnd);
+    };
+    updateHint();
+    requestAnimationFrame(updateHint);
+    wrapper.addEventListener('scroll', updateHint, { passive: true });
+    window.addEventListener('resize', updateHint, { passive: true });
 
     // Remove thead rows where every th is empty (WP export artefact)
     const thead = table.querySelector('thead');

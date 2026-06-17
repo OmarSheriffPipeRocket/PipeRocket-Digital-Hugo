@@ -6136,6 +6136,46 @@ a.pr-footer__trust-item:hover {
   scrollbar-width: thin;
 }
 
+/* Horizontal-scroll affordance for wide tables: a small nudging arrow + a
+   right-edge fade, shown only when the table overflows and the user has not
+   scrolled to the end. main.js wraps each scroller in .pr-table-scroll-wrap
+   and toggles .has-scroll. */
+.pr-table-scroll-wrap { position: relative; }
+.pr-table-scroll-hint {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  background: linear-gradient(to right, rgba(246, 246, 241, 0), var(--pr-cream) 70%);
+  border-radius: 0 5px 5px 0;
+}
+.pr-table-scroll-wrap.has-scroll .pr-table-scroll-hint { opacity: 1; }
+.pr-table-scroll-hint svg {
+  color: var(--pr-ink);
+  background: var(--pr-cyan);
+  border-radius: 50%;
+  padding: 6px;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.18);
+  animation: pr-table-hint-nudge 1.4s ease-in-out infinite;
+}
+@keyframes pr-table-hint-nudge {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pr-table-scroll-hint svg { animation: none; }
+}
+
 .pr-blog__body table,
 .pr-blog-v2__main table,
 .pr-glossary__body table,
@@ -6180,6 +6220,20 @@ a.pr-footer__trust-item:hover {
   background: transparent;
   overflow: visible;
 }
+
+/* Comparison table only (the 7-column agency table): size each column to its
+   own content instead of crushing all columns equally into the narrow center
+   column. table-layout:auto lets the browser allocate width per column by
+   content; width:max-content lets the table exceed the container so the
+   .pr-table-scroll wrapper scrolls it horizontally. Scoped via :has(6th column)
+   so no other (narrow) table on the page is affected. */
+.pr-listicle__body .pr-table-scroll:has(> table th:nth-child(6)) > table {
+  table-layout: auto;
+  width: 100%;
+  min-width: 1200px;
+  max-width: none;
+}
+
 .pr-blog__body th,
 .pr-blog-v2__main th,
 .pr-glossary__body th,
