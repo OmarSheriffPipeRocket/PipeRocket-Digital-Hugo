@@ -12,7 +12,7 @@ featuredImage: "/images/blog-covers/how-to-rank-new-saas-site.webp"
 
 Your site is live. You've published a few blog posts. You open Google Search Console and it's blank. Zero clicks, zero impressions, nothing. The natural reaction is to blame the domain authority. "We're too new. We need more links. We need to wait."
 
-That's the wrong diagnosis. Low domain authority is a constraint, not the cause. Most new SaaS sites don't rank because they're targeting keywords that established domains already own. No amount of waiting fixes that. What fixes it is competing in a bracket your site can actually win in right now, with a plan that builds authority as a by-product of the work.
+That's the wrong diagnosis. Low domain authority is a constraint, not the cause. Most new SaaS sites don't rank because they're targeting keywords established domains already own. What fixes it is competing in a bracket your site can actually win right now, with a plan that builds authority as a by-product of the work.
 
 Here's what that plan looks like.
 
@@ -70,13 +70,18 @@ One warning worth flagging: if you're launching with a staging site that was ind
 
 Here's the pattern we see constantly with new SaaS sites. A team publishes 40 blog posts across 15 different topics in the first year and wonders why nothing ranks. Google looks at the site and sees a thin, scattered presence: a little bit of content on everything and deep expertise in nothing.
 
+![Why narrow topic depth beats spreading across many topics, a side-by-side comparison for new SaaS sites](/images/blog-infographics/how-to-rank-new-saas-site-infographic-2.webp)
+
 Topical authority doesn't work that way. Google's understanding of a site's expertise is built through connected, deep coverage of a specific domain. A site with 8 tightly connected posts on one narrow topic signals expertise in that category far faster than 40 posts spread across 15.
 
 The mechanism matters. BOFU pages (your comparison pages, alternative pages, pricing pages) are the ones that actually convert. But they don't rank in isolation. BOFU pages without topical authority behind them sit on page three regardless of how good the content is.
 
 And TOFU content without BOFU pages to convert the traffic gets you sessions, not pipeline. The only approach that works for a low-authority site is what we'd call authority-led BOFU: pick one narrow category, build the supporting content that earns topical credibility, then let the BOFU pages inherit it.
 
-![Why narrow topic depth beats spreading across many topics, a side-by-side comparison for new SaaS sites](/images/blog-infographics/how-to-rank-new-saas-site-infographic-2.webp)
+| Approach | What happens |
+|---|---|
+| TOFU-first | Traffic grows but BOFU pages lack authority to rank — conversions stay flat |
+| BOFU-first | Decision-stage pages rank first, TOFU content builds authority underneath them |
 
 ### Pick One Category. Just One.
 
@@ -101,11 +106,17 @@ Once the cluster is live, hold the line. Don't expand to a new topic until the f
 
 A new SaaS site at zero links isn't helpless. Three channels reliably produce quality first links without a content-marketing budget or an agency-run outreach programme.
 
-**Product directories.** G2, Capterra, Product Hunt, Crunchbase, and the relevant directory in your vertical. Every one of these is a link and a trust signal. They're also where your early buyers go to research, so you want to be there regardless of the SEO benefit. Set up complete profiles, collect a few reviews. These directories have real domain authority and the links carry weight.
+### Product Directories
 
-**Founder LinkedIn posts.** A founder explaining a real problem they solved for a customer (with the product URL in the post) gets shared, saved, and often picks up nofollow brand mentions across blogs and newsletters. Nofollow links still build entity recognition. And if the post picks up traction, someone writes about it and links to the site properly. This isn't a scalable link-building strategy, but it works well in the first three to six months while you're building the content cluster.
+G2, Capterra, Product Hunt, Crunchbase, and the relevant directory in your vertical. Every one of these is a link and a trust signal. They're also where your early buyers go to research, so you want to be there regardless of the SEO benefit. Set up complete profiles, collect a few reviews. These directories have real domain authority and the links carry weight.
 
-**Niche community contributions.** One detailed, genuinely useful answer on a relevant Reddit thread or Slack community (with your site linked where relevant) earns a link and qualified referral traffic. The key word is "genuinely useful." A low-effort plug reads as spam and gets removed. A 300-word answer to a specific technical question that happens to mention the product at the end reads as helpful and stays.
+### Founder LinkedIn Posts
+
+A founder explaining a real problem they solved for a customer (with the product URL in the post) gets shared, saved, and often picks up nofollow brand mentions across blogs and newsletters. Nofollow links still build entity recognition. And if the post picks up traction, someone writes about it and links to the site properly. This isn't a scalable link-building strategy, but it works well in the first three to six months while you're building the content cluster.
+
+### Niche Community Contributions
+
+One detailed, genuinely useful answer on a relevant Reddit thread or Slack community (with your site linked where relevant) earns a link and qualified referral traffic. The key word is "genuinely useful." A low-effort plug reads as spam and gets removed. A 300-word answer to a specific technical question that happens to mention the product at the end reads as helpful and stays.
 
 What to avoid early on: guest posting farms, reciprocal link exchanges, and high-volume DR-10 links from generic directories. In bulk, these dilute your link profile and can make it harder to earn trust from quality sites later. Build slowly with links that make contextual sense.
 
@@ -115,10 +126,12 @@ A new SaaS site won't rank on page one for anything competitive in the first 90 
 
 Here's what to watch instead:
 
-- **Impressions in Google Search Console:** even if clicks are low, rising impressions mean Google is finding and indexing your content and starting to match it to queries. That's the first real signal.
-- **Indexed pages:** the number of your URLs actually indexed should grow cleanly as you publish. If you publish 10 pages and only six are indexed, investigate. Usually it's a crawl or quality issue.
-- **Long-tail clicks:** your first organic clicks will almost always come from long-tail queries, not the primary keyword you're targeting. Those clicks are evidence the cluster is working, even if they're not on the exact terms you wanted.
-- **Clicks on BOFU pages:** when your comparison and alternative pages start picking up any clicks at all, that's a real signal. Those pages have buyer intent. A few clicks there are worth more than hundreds on an informational post.
+| Metric | What it tells you |
+|---|---|
+| Impressions in Google Search Console | Google is finding and indexing your content and starting to match it to queries — the first real signal, even before clicks arrive |
+| Indexed pages | Should grow cleanly as you publish; if you publish 10 pages and only six are indexed, there's a crawl or quality issue to diagnose |
+| Long-tail clicks | Your first organic clicks will almost always come from long-tail queries, not the primary keyword — evidence the cluster is working |
+| Clicks on BOFU pages | When comparison and alternative pages start picking up any clicks, that's a real signal; a few BOFU clicks are worth more than hundreds on an informational post |
 
 The compounding effect is real, but it arrives late. But the curve is flat for the first three to four months and then turns sharply. Most teams quit just before the inflection point.
 
@@ -144,7 +157,7 @@ Low domain authority is a starting point you can move from. Targeting the wrong 
 
 ## How PipeRocket Digital Helps New SaaS Sites Rank
 
-We build the sequenced plan for early-stage SaaS sites: keyword targeting, technical foundation, and cluster architecture, specifically calibrated for sites that don't have the authority to play the generic SEO playbook yet. If you're starting from zero and want a realistic path to organic pipeline, [get in touch with us](https://piperocket.digital/contact-us/) or see how we work on our [SaaS SEO agency page](https://piperocket.digital/saas-seo-agency/).
+We build the sequenced plan for early-stage SaaS sites — keyword targeting, technical foundation, and cluster architecture calibrated for sites that can't yet play the generic SEO playbook. If you're starting from zero, [get in touch](https://piperocket.digital/contact-us/) or see how we work on our [SaaS SEO agency page](https://piperocket.digital/saas-seo-agency/).
 
 ## Frequently Asked Questions
 
@@ -162,6 +175,6 @@ But for anything in a contested category, you'll need at least a handful of qual
 
 ### What is a good domain authority for a new SaaS site?
 
-Domain authority scores from Ahrefs (DR) or Moz (DA) for a brand-new site will typically sit in the 1 to 10 range and stay low for the first three to six months regardless of content quality. A DR of 20 to 30 after 12 months of consistent publishing and link earning is a solid benchmark for a SaaS site in a competitive space.
+A brand-new site will typically sit at DR 1–10 for the first three to six months regardless of content quality. A DR of 20–30 after 12 months of consistent publishing and link earning is a solid benchmark for a SaaS site in a competitive space.
 
 The more important number isn't the DA itself. It's whether the specific pages you're trying to rank are competing against pages with similar authority. A DR 15 site can absolutely rank on page one if the competition for that specific keyword is also sitting at DR 15 to 25.

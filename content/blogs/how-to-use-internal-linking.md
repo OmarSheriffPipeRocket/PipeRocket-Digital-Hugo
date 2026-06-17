@@ -25,7 +25,7 @@ Internal linking is actually the most controllable ranking lever most SaaS teams
 
 ## Step 1: Stop Linking by Convenience, Start Linking by Intent
 
-Most SaaS teams place internal links where they're easiest to add: the first time a term is mentioned in an article. You're writing about keyword research, the word "anchor text" comes up, and you link it to your glossary page. Done. Move on.
+Linking by convenience sends equity to the wrong pages. Most SaaS teams place internal links where they're easiest to add: the first time a term is mentioned in an article. You're writing about keyword research, the word "anchor text" comes up, and you link it to your glossary page. Done. Move on.
 
 The problem is that this approach scatters link equity across whatever pages happen to get mentioned first, not the pages that actually need ranking help.
 
@@ -37,7 +37,7 @@ Convenience-based linking feels thorough. It produces a site where the most impo
 
 ### What linking by intent looks like
 
-Linking by intent means asking two questions before placing any link: "What should the reader do next?" and "Which page on this site needs this authority most?"
+Linking by intent means asking two questions before placing any link. First: what should the reader do next? Second: which page on this site needs this authority most?
 
 If someone's reading a TOFU blog about SaaS content strategy, the useful next step is a MOFU comparison page or a listicle, not another awareness blog. That's where you send them, and that's where the link equity goes.
 
@@ -53,12 +53,14 @@ Your internal link architecture should mirror your funnel — BOFU pages receive
 
 The way our team structures a SaaS content cluster starts from the conversion endpoint and works backward. The cluster shape looks like this:
 
-- **What Is / Overview** (TOFU, broad awareness)
-- **How To / Implementation guides** (TOFU to MOFU, intent sharpening)
-- **Tools roundups / Listicles** (MOFU, evaluation stage)
-- **Alternatives / Comparisons** (MOFU to BOFU, decision stage)
-- **Pricing / Reviews / Case Studies** (BOFU, conversion stage)
-- **Conversion page** (service page or product page — the commercial endpoint)
+| Stage | Content type | Role in the funnel |
+|---|---|---|
+| TOFU | What Is / Overview | Broad awareness; earns traffic |
+| TOFU → MOFU | How To / Implementation guides | Sharpens reader intent |
+| MOFU | Tools roundups / Listicles | Evaluation stage |
+| MOFU → BOFU | Alternatives / Comparisons | Decision stage |
+| BOFU | Pricing / Reviews / Case Studies | Conversion stage |
+| Endpoint | Service page / Product page | Commercial endpoint |
 
 The Alternatives, Pricing, and Case Studies pages are built first and receive the most internal links from everything above them. Every TOFU blog in the cluster should link to at least one BOFU page, in addition to the pillar.
 
@@ -134,7 +136,11 @@ Most teams focus on building new links and ignore the ones they already have. Th
 
 An orphan page is a page on your site that receives zero or very few internal links. Google can technically index it if it's in your sitemap, but it gets crawled infrequently and builds no equity over time.
 
-To find them: crawl your site with Screaming Frog (free up to 500 URLs), export the full list of pages, and filter for pages with 0 or 1 inlinks. Every page that shows up on that list is invisible to your internal equity flow. Fix it by finding the two or three most relevant existing pages and adding links from them.
+To find them: crawl your site with Screaming Frog (free up to 500 URLs), export the full list of pages, and filter for pages with 0 or 1 inlinks.
+
+> **Tip:** Screaming Frog's free plan crawls up to 500 URLs — enough to audit most early-stage SaaS content sites without paying.
+
+Every page that shows up on that list is invisible to your internal equity flow. Fix it by finding the two or three most relevant existing pages and adding links from them.
 
 ### The link equity reversal
 
@@ -144,9 +150,11 @@ That's backwards. Reverse it. Your BOFU pages should be receiving the most inter
 
 ### Fix broken internal links first
 
-A link pointing to a 404 page wastes every bit of equity from every page linking to it. It also signals a poorly-maintained site to Google's crawlers. Screaming Frog's "Response Codes" export will surface all your broken internal links in a few minutes — fix or redirect them before anything else, since each broken link is silently leaking equity from every page pointing to it.
+A link pointing to a 404 page wastes every bit of equity from every page linking to it. It also signals a poorly-maintained site to Google's crawlers.
 
-## Common Mistakes That Kill Your Internal Linking Strategy
+Screaming Frog's "Response Codes" export will surface all your broken internal links in a few minutes — fix or redirect them before anything else.
+
+## Three Internal Linking Mistakes That Scatter Your Equity
 
 Three patterns show up on almost every SaaS site we audit:
 
@@ -178,7 +186,9 @@ There's no number Google has officially set, but for a typical 2,000-word blog p
 
 ### Does internal linking actually help SEO rankings?
 
-Yes, and it's one of the most underestimated ranking levers. Internal links do two things: they help Google discover and crawl pages faster, and they pass PageRank from high-authority pages to lower-authority ones. For SaaS sites with existing content clusters, fixing the link flow from TOFU blogs toward BOFU conversion pages often produces faster ranking movement than building new backlinks — and it's fully within your control.
+Yes, and it's one of the most underestimated ranking levers. Internal links do two things: they help Google discover and crawl pages faster, and they pass PageRank from high-authority pages to lower-authority ones.
+
+For SaaS sites with existing content clusters, fixing the link flow from TOFU blogs toward BOFU conversion pages often produces faster ranking movement than building new backlinks — and it's fully within your control.
 
 ### What is the best anchor text for internal links?
 

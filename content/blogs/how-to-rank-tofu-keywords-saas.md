@@ -72,6 +72,11 @@ One thing we do before building out any TOFU cluster: we group keywords into top
 
 A flat list of 300 TOFU keywords is noise. Seventy topics is a strategy. Topics tell you how many pages you actually need, and which ones can be consolidated. It also makes the internal linking structure obvious, which matters for Step 4.
 
+| Approach | What you get | Problem |
+|---|---|---|
+| Flat keyword list | Lots of topics | No cluster depth; each page is a dead end |
+| Topic-grouped | 70 coherent topics | Authority compounds across the cluster |
+
 ## Step 2: Match the Format Google Already Rewards for That Query
 
 You can have the right keyword with the right ICP angle and still not rank if the format is wrong. I've seen well-written long-form guides sitting on page 4 for queries where Google is showing short definitional pieces in the featured snippet. Format mismatch is what's blocking it, not the content quality.
@@ -103,7 +108,7 @@ And most teams don't even know it's happened.
 
 ### The deindexation problem
 
-Here's how to check: open Google Search Console, go to the Pages report, and look at "Not Indexed." Inside that, look at "Crawled but not indexed" and "Discovered but not indexed." If those numbers are climbing while you're publishing more TOFU content, that's your answer.
+> **Tip:** Open Google Search Console, go to the Pages report, and look at "Not Indexed." Inside that, look at "Crawled but not indexed" and "Discovered but not indexed." If those numbers are climbing while you're publishing more TOFU content, that's your answer.
 
 Google cleared out pages with no real point of view, no unique insight, and no genuine depth. Recovery isn't publishing more content. It's making what's there worth showing. We started seeing this pattern consistently after the April 2024 update. The fix is consistent: add a real ICP-specific angle, go deeper on the actual problem, and resubmit in Search Console.
 
@@ -123,7 +128,9 @@ None of this requires more words. It requires more thinking before you write.
 
 ## Step 4: Build Internal Links That Pass Authority to BOFU Pages
 
-A TOFU page that earns backlinks and rankings but isn't wired into your site's internal link structure is a dead end. The authority it earns doesn't go anywhere. This is one of the most common gaps we see in SaaS content programs. Teams produce strong TOFU content but don't connect it to the money pages.
+{{< blog-infographic src="/images/blog-infographics/how-to-rank-tofu-keywords-saas-infographic-4.webp" alt="TOFU to MOFU to BOFU internal link flow — authority passes from awareness content down to decision-stage pages through strategic internal links" >}}
+
+Internal links are how TOFU authority reaches your BOFU pages; without them, the equity dies at the TOFU level. The authority it earns doesn't go anywhere. This is one of the most common gaps we see in SaaS content programs. Teams produce strong TOFU content but don't connect it to the money pages.
 
 Here's the basic structure that works:
 
@@ -141,10 +148,12 @@ Most teams measure TOFU by traffic. That's how you end up celebrating a 40% orga
 
 The right metrics for TOFU are authority signals, not traffic signals. Specifically, track:
 
-- **Backlinks earned** by TOFU pages over 90 days (are other sites citing your content?)
-- **Ranking movement on BOFU pages** in the weeks after TOFU pages index (the authority transfer is real and usually visible within 4-8 weeks)
-- **Indexed page count** for TOFU content (are the pages actually getting indexed, or quietly getting skipped?)
-- **Average position improvement** across the topic cluster over a rolling 90-day window
+| Metric | What it tells you | Where to check it |
+|---|---|---|
+| Backlinks earned (90-day) | Whether other sites find your content worth citing | Ahrefs / GSC Links report |
+| BOFU ranking movement | Whether TOFU authority transfer is working | GSC Performance, filtered by BOFU URLs |
+| Indexed page count | Whether TOFU pages are actually in Google's index | GSC Pages report, "Not Indexed" status |
+| Average position (rolling 90d) | Cluster-level authority trend | GSC Performance, topic cluster URL filter |
 
 Traffic is a lagging indicator and a noisy one. An AI Overview showing up for one of your TOFU queries can halve your clicks without your ranking changing at all. If you're tracking clicks and they drop, you'll think your TOFU strategy is failing when actually it's working. Google just summarized the answer before the click.
 
@@ -174,9 +183,9 @@ A strong TOFU piece on a site with good internal linking and a few relevant back
 
 ### Should SaaS startups focus on TOFU or BOFU keywords first?
 
-For a brand-new SaaS site, BOFU first. This is counterintuitive but it's what the data supports. TOFU keywords on high-volume queries are competitive, and a new site isn't going to outrank established players on "what is project management software" anytime soon.
+For a brand-new SaaS site, BOFU first.
 
-BOFU keywords (alternatives, comparisons, pricing pages) are lower competition, higher intent, and more likely to produce pipeline from whatever traffic does come in. Once the BOFU pages are in place and the site has some domain authority, TOFU content starts to compound. Building TOFU first on a new site is how teams end up with lots of traffic and no pipeline.
+This is counterintuitive but it's what the data supports. TOFU keywords on high-volume queries are competitive, and a new site isn't going to outrank established players on "what is project management software" anytime soon. BOFU keywords (alternatives, comparisons, pricing pages) are lower competition, higher intent, and more likely to produce pipeline from whatever traffic does come in. Once the BOFU pages are in place and the site has some domain authority, TOFU content starts to compound. Building TOFU first on a new site is how teams end up with lots of traffic and no pipeline.
 
 ### How do I know if my TOFU pages are being indexed by Google?
 

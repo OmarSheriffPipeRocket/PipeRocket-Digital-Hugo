@@ -36,11 +36,13 @@ Then they wonder why their comparison pages and alternative pages aren't ranking
 
 Publishing more content fixes neither of these problems. A diagnostic and a build sequence do.
 
+> **Note:** Publishing more content fixes neither of these problems — it usually makes the second one worse.
+
 ## Step 1: Map Your Topic Universe Before Publishing Anything
 
 ![A 5-step topical authority build process: 1) Map topic universe, 2) Audit coverage, 3) Build BOFU-first, 4) Internal linking structure, 5) Measure compound signals, shown as a vertical flow with connecting arrows on a blue background](/images/blog-infographics/how-to-improve-topical-authority-infographic-1.webp)
 
-Before you write a word, you need to know the full shape of your topic. Not a keyword list, an actual topic map. The distinction matters more than most people think.
+Before you write a word, you need to know the full shape of your topic. Not a keyword list, **an actual topic map**. The distinction matters more than most people think.
 
 A spreadsheet of 2,000 keywords is noise. It tells you what search volume exists but nothing about how many pages you actually need to build. A structured set of 250 topics is a strategy. It tells you exactly how many pieces of content it takes to cover your category, and which ones belong on the same page versus separate ones.
 
@@ -70,9 +72,11 @@ The upfront investment is real. In our experience, a thorough topic mind map tak
 
 If you already have content published, you need to audit it before building new pages. Not a light review. An honest one.
 
+**The goal is to find out whether you have genuine depth on any subtopic or whether you've just visited it once with a thin post.**
+
 Pull your existing posts and map each one to a node on the topic mind map. The goal is to find out whether you have genuine depth on any subtopic or whether you've just visited it once with a thin post.
 
-"Visiting" a topic means you have one or two posts that mention it. Owning a topic means you have a page that is the best answer to the primary question in that cluster, plus supporting content that builds around it. There's a real difference, and Google sees it.
+"Visiting" a topic means you have one or two posts that mention it. **Owning a topic means you have a page that is the best answer to the primary question in that cluster**, plus supporting content that builds around it. There's a real difference, and Google sees it.
 
 Watch for these signals in your audit:
 
@@ -87,7 +91,12 @@ Note: if your organic traffic has gone stale despite consistent publishing, a to
 
 ## Step 3: Build in the Right Order (BOFU First, Support Second)
 
-This is the step most SaaS teams get backwards, and it's the one that matters most.
+Build decision-stage (BOFU) pages first, then add support content outward — not the other way around.
+
+| Approach | What happens |
+|---|---|
+| TOFU-first | Traffic accumulates, but decision-stage pages lack the authority to rank |
+| BOFU-first | Revenue-stage pages rank first; TOFU content compounds authority underneath them |
 
 The instinct is to build from TOFU downward. Start with educational content that gets traffic, let the domain authority accumulate, then build conversion-stage pages when the site has more credibility. It sounds logical. But for SaaS brands trying to build topical authority, it's the wrong sequence.
 
@@ -108,7 +117,7 @@ Build these pages before anything else:
 
 These pages catch buying intent. A person searching for alternatives or comparisons is already in the decision stage. If your site has nothing ranking there, you're invisible to the buyers who are actually ready to convert.
 
-Once the BOFU anchors are live, the support content (workflows, how-tos, implementation guides, definition posts) exists for a specific reason: to earn citations, warm buyers who are still researching, and pass topical authority back to the decision-stage pages through internal links.
+Once the BOFU anchors are live, the support content (workflows, how-tos, implementation guides, definition posts) exists for a specific reason. **It earns citations, warms buyers who are still researching, and passes topical authority back to the decision-stage pages through internal links.**
 
 One constraint matters here: pick ONE category to dominate before expanding to a second.
 
@@ -116,29 +125,29 @@ Spreading authority across ten topics at once dilutes the signal in each. A comp
 
 ## Step 4: Use Internal Linking as the Authority Signal, Not an Afterthought
 
-Internal linking is the mechanism that tells Google your cluster is a cluster, not a random collection of posts. Without it, you have individual pages. With it, you have a body of work.
+**Internal linking is the mechanism that tells Google your cluster is a cluster**, not a random collection of posts. Without it, you have individual pages. With it, you have a body of work.
 
-The core rules:
-
-- Every support post links to its BOFU anchor (e.g., a how-to on SOC 2 implementation links to your SOC 2 compliance software category page)
-- The pillar links to key spoke pages; spokes link back to the pillar
-- Use descriptive anchor text that reflects what the linked page is about — "SOC 2 compliance checklist" signals something; "click here" signals nothing
-- Cap at 3–5 internal links per post — packing 15 links into every post reads as noise, not structure
+| Rule | Why it matters |
+|---|---|
+| Every support post links to its BOFU anchor | Concentrates authority where it converts |
+| Pillar links out to spokes; spokes link back | Creates bidirectional authority flow |
+| Use descriptive anchor text | Tells Google what the destination page is about |
+| Cap at 3-5 internal links per post | Prevents PageRank dilution |
 
 Where teams go wrong is treating internal links as housekeeping rather than strategy. Links added in a "read more" section at the bottom, or with generic anchor text, don't help Google understand how your cluster is structured.
 
 ## Step 5: Measure Whether Your Topical Authority Is Actually Growing
 
-Most people track topical authority by looking at whether their primary keyword ranking moved. That's the least useful signal you can watch.
+![Three signal types for measuring topical authority: 1) Rankings on untargeted subtopics, shown with upward arrow, 2) AI and Overview citations, shown with citation icon, 3) Impression breadth across the cluster, shown with expanding coverage icon](/images/blog-infographics/how-to-improve-topical-authority-infographic-3.webp)
 
-Topical authority compounds indirectly. The real signals that it's working are:
+Topical authority compounds through indirect signals — **untargeted subtopic rankings, impression breadth, and AI citations** — not through movement on a single target keyword.
+
+The real signals that it's working are:
 
 - Rankings on subtopic queries you haven't explicitly targeted yet
 - Impression growth across a cluster of queries, not just one page
 - Being cited in AI-generated answers on topic-related questions
 - Time-on-site improvements on cluster pages (buyers are reading more because the content is deeper and better connected)
-
-![Three signal types for measuring topical authority: 1) Rankings on untargeted subtopics, shown with upward arrow, 2) AI and Overview citations, shown with citation icon, 3) Impression breadth across the cluster, shown with expanding coverage icon](/images/blog-infographics/how-to-improve-topical-authority-infographic-3.webp)
 
 When our team evaluates whether a SaaS brand has strong topical authority, we score it as one of six dimensions, alongside technical SEO health, backlinks, brand signals, user intent mapping, and AI readiness. The brands that win don't max out one dimension while neglecting the others. They reach "strong" across all six.
 
