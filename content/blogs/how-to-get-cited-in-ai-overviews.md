@@ -59,7 +59,7 @@ The on-page layer is about making your page's meaning unmistakable. AIO needs to
 
 Answer-first structure is the delivery mechanism. Put the direct answer in the first 100 words of a section, not 300 words into a narrative build-up. AIO doesn't wait for you to get to the point.
 
-The pages that get cited tend to be the ones that read like a well-briefed expert answering a direct question. Not a sales page. Not a long-form essay. A clear, specific answer.
+The pages that get cited tend to be the ones that read like a well-briefed expert answering a direct question. Not a sales page. Not a long-form essay. A clear, specific answer. That same answer-first structure is what wins [question keywords](/blogs/how-to-rank-for-question-keywords/) in classic search, too.
 
 ### Off-page: appearing in other people's lists is a citation signal
 
