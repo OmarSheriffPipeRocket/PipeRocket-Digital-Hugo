@@ -1,12 +1,12 @@
 ---
 draft: true
 featuredImage: "/images/case-study-covers/goldcast.svg"
-title: "Spend Down 76%, Revenue Up 126%: Goldcast's Google Ads Turnaround with PipeRocket"
+title: "Spend Down 76%, ROAS Up to 11x: Goldcast's Google Ads Turnaround with PipeRocket"
 slug: "goldcast"
 url: "/case-study-goldcast/"
-description: "How restructuring Goldcast's Google Ads account around product intent reduced spend 76% across four quarters — while revenue grew 126% over the same period."
-metaTitle: "Goldcast Case Study: −76% Spend, +126% Revenue | PipeRocket"
-metaDescription: "How PipeRocket restructured Goldcast's Google Ads account around product intent — reducing spend 76% across four quarters while revenue grew 126%. Full case study."
+description: "How restructuring Goldcast's Google Ads account around product intent cut spend 76% over four quarters — while ROAS grew from 2.5x to 11x."
+metaTitle: "Goldcast Case Study: −76% Spend, 11x ROAS | PipeRocket"
+metaDescription: "How PipeRocket restructured Goldcast's Google Ads account around product intent — cutting spend 76% over four quarters while ROAS grew from 2.5x to 11x. Full case study."
 client: "Goldcast"
 logo: "/images/logos/goldcast.svg"
 industry: "SaaS · Events / Video Engagement"
@@ -22,15 +22,15 @@ short_description: "Goldcast is a B2B SaaS platform that helps companies run hig
 hero_metrics:
   - value: "−76%"
     label: "Google Ads spend reduction, Q1 to Q4"
-  - value: "+126%"
-    label: "Revenue growth over the same period"
-  - value: "23.5x"
+  - value: "11x"
     label: "ROAS in the final quarter"
+  - value: "+59%"
+    label: "Peak revenue growth (Q3 vs Q1)"
 secondary_metrics:
-  - value: "5.1x"
+  - value: "4.1x"
     label: "ROAS across the full engagement"
-  - value: "+42%"
-    label: "Revenue growth in Q4 alone"
+  - value: "2.5x → 11x"
+    label: "ROAS improvement over 4 quarters"
 ---
 
 
@@ -94,11 +94,11 @@ As structural inefficiencies were removed, performance compounded — spend fell
 | Q1      | Baseline    | Baseline      | 2.5x |
 | Q2      | −12%        | +8%           | 3.0x |
 | Q3      | −27%        | +59%          | 5.4x |
-| Q4      | −76%        | +126%         | 23.5x |
+| Q4      | −76%        | +6%           | 11.1x |
 
-**Across the full four-quarter engagement, a 76% reduction in spend produced 126% revenue growth** — with ROAS moving from 2.5x to 23.5x by the final quarter. The overall ROAS across all spend was **5.1x**.
+**Across the full four-quarter engagement, spend fell 76% while ROAS grew from 2.5x to 11x.** Revenue peaked in Q3 at +59% above baseline — the cleanest read on paid-channel contribution before year-end renewals affect the Q4 comparison. The overall ROAS across all spend was **4.1x**.
 
-By Q4, the account had become so precise in its targeting that ad spend was a fraction of what it started at — while revenue had more than doubled. That's not a budget story. It's a signal quality story.
+By Q4, the account had become so precise in its targeting that ad spend was a fraction of what it started at — and every dollar that remained was working at 4× the efficiency of Q1. That's not a budget story. It's a signal quality story.
 
 ## Why it worked
 
