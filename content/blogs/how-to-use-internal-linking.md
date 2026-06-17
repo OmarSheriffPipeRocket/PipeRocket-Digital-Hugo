@@ -10,9 +10,11 @@ category: "SaaS SEO"
 featuredImage: "/images/blog-covers/how-to-use-internal-linking.webp"
 ---
 
-Here's something I see on almost every SaaS content audit I run: there are internal links everywhere, and almost none of them are doing any real SEO work. The links exist, but they're placed by convenience, not strategy. That's the difference between a site that grows organically and one that publishes for years and stays stuck on page two.
+Here's something I see on almost every SaaS content audit I run: there are internal links everywhere, and almost none of them are doing any real SEO work. The links exist — but they're **placed by convenience, not strategy.**
 
-Internal linking is actually the most controllable ranking lever most SaaS teams have. You don't need to wait for backlinks. You don't need to publish new content. You just need to route the equity you already have toward the pages that need it most.
+That's the difference between a site that grows organically and one that publishes for years and stays stuck on page two.
+
+**Internal linking is the most controllable ranking lever most SaaS teams have.** You don't need to wait for backlinks. You don't need to publish new content. You just need to route the equity you already have toward the pages that need it.
 
 ## TL;DR
 
@@ -25,27 +27,27 @@ Internal linking is actually the most controllable ranking lever most SaaS teams
 
 ## Step 1: Stop Linking by Convenience, Start Linking by Intent
 
-Linking by convenience sends equity to the wrong pages. Most SaaS teams place internal links where they're easiest to add: the first time a term is mentioned in an article. You're writing about keyword research, the word "anchor text" comes up, and you link it to your glossary page. Done. Move on.
+**Linking by convenience sends equity to the wrong pages.** Most SaaS teams place internal links where they're easiest to add — the first time a term is mentioned. You're writing about keyword research, the word "anchor text" comes up, and you link it to your glossary page. Done. Move on.
 
-The problem is that this approach scatters link equity across whatever pages happen to get mentioned first, not the pages that actually need ranking help.
+The problem is that **this approach scatters link equity** across whatever pages happen to get mentioned first, not the pages that actually need ranking help.
 
 ### The convenience trap
 
-When you link every first-mention of a term to a definition page, you're sending authority to pages that usually don't convert anyone. Glossary pages and broad informational posts rarely close deals. Your pricing page, your alternatives page, your comparison content — those are the pages that move pipeline, and they're usually receiving the fewest internal links.
+When you link every first-mention of a term to a definition page, you're **sending authority to pages that usually don't convert anyone.** Glossary pages and broad informational posts rarely close deals. Your pricing page, your alternatives page, your comparison content — those are the pages that move pipeline. And they're usually receiving the fewest internal links.
 
-Convenience-based linking feels thorough. It produces a site where the most important pages are the most isolated.
+Convenience-based linking feels thorough. It produces a site where **the most important pages are the most isolated.**
 
 ### What linking by intent looks like
 
-Linking by intent means asking two questions before placing any link. First: what should the reader do next? Second: which page on this site needs this authority most?
+**Linking by intent means asking two questions before placing any link.** First: what should the reader do next? Second: which page on this site needs this authority most?
 
-If someone's reading a TOFU blog about SaaS content strategy, the useful next step is a MOFU comparison page or a listicle, not another awareness blog. That's where you send them, and that's where the link equity goes.
+If someone's reading a TOFU blog about SaaS content strategy, the useful next step is a MOFU comparison page or a listicle — not another awareness blog. That's where you send them, and that's **where the link equity goes.**
 
 The test is simple: finish reading the paragraph where you're placing a link, then ask what a genuinely interested reader would logically want to see next. That's your destination.
 
 ## Step 2: Build Your Link Architecture Around the Funnel
 
-Your internal link architecture should mirror your funnel — BOFU pages receive the most links, TOFU blogs feed authority downward.
+**Your internal link architecture should mirror your funnel.** BOFU pages receive the most links; TOFU blogs feed authority downward.
 
 ![SaaS internal linking funnel map showing TOFU to MOFU to BOFU flow with link directions](/images/blog-infographics/how-to-use-internal-linking-infographic-1.webp)
 
@@ -62,11 +64,11 @@ The way our team structures a SaaS content cluster starts from the conversion en
 | BOFU | Pricing / Reviews / Case Studies | Conversion stage |
 | Endpoint | Service page / Product page | Commercial endpoint |
 
-The Alternatives, Pricing, and Case Studies pages are built first and receive the most internal links from everything above them. Every TOFU blog in the cluster should link to at least one BOFU page, in addition to the pillar.
+The **Alternatives, Pricing, and Case Studies pages** are built first and receive the most internal links from everything above them. Every TOFU blog in the cluster should link to at least one BOFU page in addition to the pillar.
 
 ### The direction of links matters as much as the volume
 
-A TOFU blog linking sideways to another TOFU blog spreads link equity horizontally. It keeps readers in the awareness stage. It doesn't push authority toward the pages that need to rank for commercial queries.
+**A TOFU blog linking sideways to another TOFU blog spreads link equity horizontally.** It keeps readers in the awareness stage — it doesn't push authority toward the pages that need to rank for commercial queries.
 
 Links should flow downward through the funnel:
 
@@ -76,17 +78,17 @@ Links should flow downward through the funnel:
 
 TOFU content earns the traffic, and the links carry that authority toward the pages that close deals.
 
-The trade-off: this means some of your TOFU blogs won't link to each other much at all. That feels counterintuitive when you're trying to build topical authority. But horizontal TOFU-to-TOFU linking is mostly just content calendar navigation, not funnel architecture.
+The trade-off: some of your TOFU blogs won't link to each other much at all. That feels counterintuitive when you're trying to build topical authority. But **horizontal TOFU-to-TOFU linking is mostly content calendar navigation, not funnel architecture.**
 
 ## Step 3: Use Anchor Text That Describes the Destination Page's Target Keyword
 
-Generic anchor text is wasted signal. "Click here," "read more," and "this post" tell Google nothing about what the destination page is about. Descriptive anchor text that reflects the destination page's target keyword is how you reinforce relevance.
+**Generic anchor text is wasted signal.** "Click here," "read more," and "this post" tell Google nothing about the destination page. **Descriptive anchor text that reflects the destination page's target keyword** is how you reinforce relevance.
 
 ![Good vs bad anchor text comparison for internal links](/images/blog-infographics/how-to-use-internal-linking-infographic-2.webp)
 
 ### What good anchor text looks like
 
-Good anchor text is a natural phrase in your sentence that happens to describe what the destination page is actually about. If you're linking to a page targeting "B2B SaaS keyword research," your anchor might be "B2B SaaS keyword research process" or "how we approach keyword research for SaaS clients." Both are natural in context and descriptive of the destination.
+**Good anchor text is a natural phrase in your sentence that describes what the destination page is actually about.** If you're linking to a page targeting "B2B SaaS keyword research," your anchor might be "B2B SaaS keyword research process" or "how we approach keyword research for SaaS clients." Both are natural in context and descriptive of the destination.
 
 What to avoid:
 
@@ -94,7 +96,7 @@ What to avoid:
 - The full URL written out as text
 - The exact page title word-for-word when it reads unnaturally
 
-The goal is a phrase a reader would understand and click on, that also happens to signal keyword relevance to Google. Those two things almost always align.
+The goal is a phrase a reader would understand and click on that also signals keyword relevance to Google. Those two things almost always align.
 
 | Avoid | Use instead |
 |---|---|
@@ -103,56 +105,56 @@ The goal is a phrase a reader would understand and click on, that also happens t
 
 ### The over-optimisation trap (and when to vary)
 
-Internal links carry lower over-optimisation risk than external links, so exact-match anchors are fine. But if five different pages all link to your alternatives page with the exact same anchor text, that does look unnatural in aggregate.
+**Internal links carry lower over-optimisation risk than external links**, so exact-match anchors are fine. But if five different pages all link to your alternatives page with the exact same anchor text, that looks unnatural in aggregate.
 
-Vary the phrasing across different linking pages while keeping the core keyword concept consistent. "SaaS alternatives to [Tool]," "[Tool] alternatives for SaaS teams," and "comparing [Tool] alternatives" are all pointing at the same intent without being robotically identical.
+Vary the phrasing across different linking pages while keeping **the core keyword concept consistent.** "SaaS alternatives to [Tool]," "[Tool] alternatives for SaaS teams," and "comparing [Tool] alternatives" all point at the same intent without being robotically identical.
 
 ## Step 4: Set a Link Budget Per Page (and Stick to It)
 
-Adding 40 internal links to a blog post doesn't mean the pages you link to each get more authority. It means each one gets less. PageRank (and its modern equivalent) is diluted across every link on a page. A focused page with 8-10 relevant internal links passes more equity per link than one that links to everything.
+Adding 40 internal links to a blog post doesn't mean the pages you link to each get more authority — it means each one gets less. **PageRank is diluted across every link on a page.** A focused page with 8–10 relevant internal links passes more equity per link than one that links to everything.
 
 ### How many internal links per page?
 
-There's no official rule from Google, but for a 2,000-word blog post, 6-10 in-body internal links is a working ceiling. That's enough to signal topical relevance and pass authority to priority pages without diluting the equity across too many destinations.
+There's no official rule from Google, but for a 2,000-word blog post, **6–10 in-body internal links is a working ceiling.** That's enough to signal topical relevance and pass authority to priority pages without diluting equity across too many destinations.
 
-Navigation links (header, footer, sidebar) are different — they exist on every page and Google treats them with lower weight. Your in-body links are the ones doing the ranking work.
+Navigation links (header, footer, sidebar) are different — they exist on every page and Google treats them with lower weight. **Your in-body links are the ones doing the ranking work.**
 
 ### Which pages should you prioritise linking to?
 
 Two categories earn priority:
 
 - **New pages** (published within the last 90 days). New pages need crawling and initial authority to establish themselves. A handful of internal links from existing pages helps Google find them faster and gives them a baseline of equity.
-- **Pages sitting on page 2-3** for a target keyword. These are your biggest wins. A page that's already close to page 1 often needs just a few more relevant internal links to break through. Check your Search Console position data for these candidates and build links toward them deliberately.
+- **Pages sitting on page 2–3** for a target keyword. These are your biggest wins. A page that's already close to page 1 often needs just a few more relevant internal links to break through. Check your Search Console position data for these candidates and build links toward them deliberately.
 
 Don't waste your link budget on pages already sitting in position 1-5. They don't need more help.
 
 ## Step 5: Audit Your Existing Internal Links
 
-Most teams focus on building new links and ignore the ones they already have. That's a mistake. Your existing link structure might be sending equity in the wrong direction, leaving pages orphaned, or wasting equity on 404s.
+Most teams focus on building new links and **ignore the ones they already have.** That's a mistake. Your existing link structure might be sending equity in the wrong direction, leaving pages orphaned, or burning equity on 404s.
 
 ![Internal link audit process showing four steps: crawl, find orphans, check equity flow, fix 404s](/images/blog-infographics/how-to-use-internal-linking-infographic-3.webp)
 
 ### How to find orphan pages
 
-An orphan page is a page on your site that receives zero or very few internal links. Google can technically index it if it's in your sitemap, but it gets crawled infrequently and builds no equity over time.
+**An orphan page is a page on your site that receives zero or very few internal links.** Google can technically index it if it's in your sitemap — but it gets crawled infrequently and builds no equity over time.
 
-To find them: crawl your site with Screaming Frog (free up to 500 URLs), export the full list of pages, and filter for pages with 0 or 1 inlinks.
+To find them: crawl your site with Screaming Frog (free up to 500 URLs), export the full list of pages, and **filter for pages with 0 or 1 inlinks.**
 
 > **Tip:** Screaming Frog's free plan crawls up to 500 URLs — enough to audit most early-stage SaaS content sites without paying.
 
-Every page that shows up on that list is invisible to your internal equity flow. Fix it by finding the two or three most relevant existing pages and adding links from them.
+Every page that shows up on that list is **invisible to your internal equity flow.** Fix it by finding the two or three most relevant existing pages and adding links from them.
 
 ### The link equity reversal
 
-Export your crawl data and look at which pages receive the most internal links. Then compare it to your commercial intent map. In almost every audit I run, the pattern is the same: often far more links point to TOFU blogs than to pricing or alternatives pages.
+Export your crawl data and look at which pages receive the most internal links. Compare it to your commercial intent map. In almost every audit I run, the pattern is the same: **far more links point to TOFU blogs than to pricing or alternatives pages.**
 
-That's backwards. Reverse it. Your BOFU pages should be receiving the most internal links from the cluster, not the fewest.
+That's backwards. Reverse it. **Your BOFU pages should be receiving the most internal links from the cluster, not the fewest.**
 
 ### Fix broken internal links first
 
-A link pointing to a 404 page wastes every bit of equity from every page linking to it. It also signals a poorly-maintained site to Google's crawlers.
+**A link pointing to a 404 page wastes every bit of equity from every page linking to it.** It also signals a poorly-maintained site to Google's crawlers.
 
-Screaming Frog's "Response Codes" export will surface all your broken internal links in a few minutes — fix or redirect them before anything else.
+Screaming Frog's "Response Codes" export will surface all your broken internal links in a few minutes — **fix or redirect them before anything else.**
 
 ## Three Internal Linking Mistakes That Scatter Your Equity
 
@@ -160,21 +162,21 @@ Three patterns show up on almost every SaaS site we audit:
 
 ### Linking only to the homepage
 
-The homepage already has the most authority on the site. Adding more links to it from blog posts doesn't meaningfully help it rank better, but it does mean those links aren't helping anything else.
+**The homepage already has the most authority on the site.** Adding more links to it from blog posts doesn't meaningfully help it rank better, but it does mean those links aren't helping anything else.
 
 ### Ignoring new pages for the first 90 days
 
-A new page with no internal links sits in a crawling dead zone. Even two or three links from existing relevant pages dramatically improves how quickly Google finds and ranks it. Build those links when you publish, not three months later.
+**A new page with no internal links sits in a crawling dead zone.** Even two or three links from existing relevant pages dramatically improves how quickly Google finds and ranks it. Build those links when you publish, not three months later.
 
 ### Using the same link placement every time
 
-If every blog post links to your alternatives page only in the final paragraph as an afterthought, that link carries less weight than a contextual link in a relevant section early in the post. Vary placement based on where the content genuinely connects.
+If every blog post links to your alternatives page only in the final paragraph, **that link carries less weight than a contextual link placed early in a relevant section.** Vary placement based on where the content genuinely connects.
 
-E-E-A-T trade-off worth naming: some link placements that are excellent for SEO (early, contextual, descriptive anchor) feel slightly aggressive to readers if overdone. Keep the reader experience as the tiebreaker. A link that feels natural in context earns more clicks and more equity than one that's been forced in.
+E-E-A-T trade-off worth naming: some link placements that are excellent for SEO — early, contextual, descriptive anchor — feel slightly aggressive to readers if overdone. **Keep the reader experience as the tiebreaker.** A link that feels natural in context earns more clicks and more equity than one that's been forced in.
 
 ## Why PipeRocket Fixes Internal Linking as Part of Every SEO Audit
 
-Internal linking audits are part of every engagement we run at PipeRocket. We consistently find equity flowing the wrong direction, toward informational pages and away from conversion pages. Fixing that flow usually produces faster ranking movement than publishing new content.
+Internal linking audits are part of every engagement we run at PipeRocket. We consistently find equity flowing the wrong direction — toward informational pages and away from conversion pages. Fixing that flow usually produces faster ranking movement than publishing new content.
 
 If your SaaS content program isn't producing the pipeline results you expect, [get in touch with our team](https://piperocket.digital/contact-us/) or see how we approach it as a [SaaS SEO agency](https://piperocket.digital/saas-seo-agency/).
 
