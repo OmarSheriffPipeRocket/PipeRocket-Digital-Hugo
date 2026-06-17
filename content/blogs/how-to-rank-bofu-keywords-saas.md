@@ -32,7 +32,7 @@ This is the core mistake, and it's a structural one. BOFU and TOFU aren't two se
 
 Organic search still drives 91.3% of SaaS traffic, so abandoning the supporting content that earns that visibility leaves your decision-stage pages with nothing behind them.
 
-What I do instead is authority-led BOFU. Pick one category to dominate, not ten. Build deep supporting content around the real problems, like workflows, implementation steps, and the questions buyers actually ask, so the site earns topical credibility. Then keep the BOFU pages lean and intentional, and hold the whole thing together with internal links pointing toward the decision-stage pages.
+What I do instead is authority-led BOFU. Pick one category to dominate, not ten. Build deep supporting content around the real problems, like workflows, implementation steps, and the questions buyers actually ask, so the site earns topical credibility. Then keep the BOFU pages lean and intentional, and hold the whole thing together with [internal links](/blogs/how-to-use-internal-linking/) pointing toward the decision-stage pages.
 
 The trade-off is real, though. Authority-led BOFU works when you have the patience to build one category properly over two or three quarters. It breaks when you need pipeline this month and try to shortcut it with ten thin pages across ten categories. That just gives Google a larger index it has less reason to crawl.
 
@@ -58,14 +58,14 @@ Picture a compliance SaaS for fintech teams — a product with a [well-defined I
 
 ## Match the SERP Before You Write a Word
 
-Before I build any BOFU page, I run a search validation: put the target keyword into Google and look at what's already ranking. The SERP tells you what page type Google rewards for that query.
+Before I build any BOFU page, I run a search validation: put the target keyword into Google and look at what's already ranking. The [SERP](/glossary/what-is-serp/) tells you what page type Google rewards for that query.
 
 If the top ten results are product pages, you build a product page. If they're listicles, a narrative essay loses no matter how good the writing is.
 
 This is the single highest-impact lever for a stuck BOFU page, and it's the one most teams skip. A page sitting between positions 8 and 20 is usually there because its format fights the SERP, not because it's poorly written.
 
 {{< experience author="kim" >}}
-A client of ours was stuck on page 2 to 3 for a core keyword. The diagnosis wasn't backlinks. Their page read like an academic paper, all "methodologies" and "frameworks," while the searcher wanted a fix for a mess they were dealing with right now.
+A client of ours was stuck on page 2 to 3 for a core keyword. The diagnosis wasn't [backlinks](/glossary/what-is-a-backlink/). Their page read like an academic paper, all "methodologies" and "frameworks," while the searcher wanted a fix for a mess they were dealing with right now.
 
 We rewrote it to a strict problem-then-solution structure, changing the first fold from "We are an X firm with Y years of experience" to "Struggling with X? Here's how to fix it in weeks, not months."
 
@@ -88,7 +88,7 @@ The second move is to study who actually ranks, not just who you compete with fo
 
 Combine the sales logic of a direct competitor with the structural blueprint of whoever sits at position one.
 
-One caution: don't blindly copy a giant's page structure. A category leader often ranks on brand power and decades of domain authority, not keyword strategy. Mimic the structure of a site closer to your weight class that's punching above it. That's a winnable blueprint.
+One caution: don't blindly copy a giant's page structure. A category leader often ranks on brand power and decades of [domain authority](/glossary/what-is-domain-authority/), not keyword strategy. Mimic the structure of a site closer to your weight class that's punching above it. That's a winnable blueprint.
 
 ## What's a Realistic Ranking Timeline for BOFU?
 
@@ -96,7 +96,7 @@ Slower than people hope, faster than TOFU. There's no fixed number, but the patt
 
 A well-built BOFU page on a domain with some existing authority and a supporting cluster behind it usually starts moving in weeks. A page on a brand-new domain with nothing around it can take months, or never move, if it's standing alone.
 
-The reason BOFU moves faster than TOFU is intent and competition. [BOFU queries](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/) have lower search volume and far fewer pages chasing them, so a precisely matched page faces a thinner field. TOFU keywords are oceans of content; ranking there is a slog.
+The reason BOFU moves faster than TOFU is intent and competition. [BOFU queries](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/) have lower search volume and far fewer pages chasing them, so a precisely matched page faces a thinner field. [TOFU keywords](/blogs/how-to-rank-tofu-keywords-saas/) are oceans of content; ranking there is a slog.
 
 What I tell clients to expect:
 

@@ -12,16 +12,16 @@ featuredImage: "/images/blog-covers/how-to-rank-tofu-keywords-saas.webp"
 
 If you're asking "how do I get more TOFU traffic?" you're **already asking the wrong question**. The teams I see struggling with TOFU aren't failing to publish. They're publishing a lot.
 
-The problem is that their TOFU content either doesn't rank at all, or it ranks and drives **zero pipeline** — and they don't know which of those to fix first.
+The problem is that their TOFU content either doesn't rank at all, or it ranks and drives **zero pipeline**. They don't know which of those to fix first.
 
-The right question is: how do I build TOFU content Google won't skip, and that makes my BOFU pages easier to rank? Those are actually the same question — and this is the five-step answer.
+The right question is: how do I build TOFU content Google won't skip, and that makes my BOFU pages easier to rank? Those are actually the same question, and this is the five-step answer.
 
 ## TL;DR
 
 - **Why TOFU fails:** Most SaaS teams treat TOFU as a volume play; it's actually an authority infrastructure play that BOFU pages depend on to rank.
 - **Step 1 (ICP keywords):** Pick TOFU keywords that match how your ICP describes their own problem, not generic category terms.
 - **Step 2 (Format match):** Check what format Google already rewards for each query before writing; format mismatch kills rankings regardless of content quality.
-- **Step 3 (Depth):** After recent Google core updates, shallow TOFU content gets quietly removed from the index — not just demoted. Depth means ICP specificity and a real POV, not word count.
+- **Step 3 (Depth):** After recent Google core updates, shallow TOFU content gets quietly removed from the index, not just demoted. Depth means ICP specificity and a real POV, not word count.
 - **Step 4 (Internal links):** TOFU pages only complete their job when they're wired into the site's internal link structure and passing authority to BOFU pages.
 - **Step 5 (Measurement):** Track TOFU by authority signals (backlinks earned, BOFU ranking movement), not traffic.
 
@@ -35,14 +35,14 @@ The assumption behind volume-first TOFU is that traffic equals awareness, and aw
 
 Here's what actually happens. A SaaS company publishing dozens of TOFU blogs on generic category terms sees traffic grow. The team celebrates. Six months later, their "best [software category]" comparison page is sitting on page 3 and converting nobody. The TOFU content got traffic but didn't build the topical authority the BOFU pages needed to move.
 
-The sites that rank for competitive BOFU terms aren't just building good BOFU pages. They're building depth across the topic so Google trusts them on the high-intent queries too. TOFU content is what creates that depth — but only when it's the right TOFU content, done the right way.
+The sites that rank for competitive BOFU terms aren't just building good BOFU pages. They're building depth across the topic so Google trusts them on the high-intent queries too. TOFU content is what creates that depth, but only when it's the right TOFU content, done the right way.
 
 ### What TOFU is actually for in SaaS SEO
 
 **TOFU's real job isn't to generate demos.** A blog post about "what is [problem category]" isn't going to produce trials. When done well, it does three things:
 
 - Earns backlinks from sites that cite genuinely useful, specific content
-- Builds topical authority Google uses to rank your site for adjacent queries
+- Builds [topical authority](/blogs/how-to-improve-topical-authority/) Google uses to rank your site for adjacent queries
 - Passes internal link equity down to the BOFU pages that actually convert
 
 We've seen BOFU pages stuck mid-page jump into top positions after adding TOFU support content underneath them. The TOFU didn't drive demos. The TOFU made the BOFU pages rank, and the demos followed.
@@ -51,12 +51,12 @@ We've seen BOFU pages stuck mid-page jump into top positions after adding TOFU s
 
 ## Step 1: Pick TOFU Keywords That Signal Real ICP Problems
 
-Most TOFU keyword lists are built from keyword tools. The result is a list of generic category terms: "what is project management software," "employee onboarding best practices," "what is CRM." High volume. Broad audience. **Almost useless for a SaaS company trying to reach a specific ICP.**
+Most TOFU keyword lists are built from keyword tools. The result is a list of generic category terms: "what is project management software," "employee onboarding best practices," "what is CRM." High volume. Broad audience. **Almost useless for a SaaS company trying to reach a specific [ICP](/glossary/what-is-icp/).**
 
 
 ### Use ICP language, not category language
 
-**Your buyers don't search the way keyword tools think they do.** A VP of Engineering at a Series B company doesn't search "what is sprint planning software." They search "how to track velocity across three engineering teams" — or "cross-team dependencies in Jira."
+**Your buyers don't search the way keyword tools think they do.** A VP of Engineering at a Series B company doesn't search "what is sprint planning software." They search "how to track velocity across three engineering teams," or "cross-team dependencies in Jira."
 
 The language your ICP uses to describe their own problem is what you want to target. And you won't find that in Ahrefs. You'll find it in:
 
@@ -69,9 +69,9 @@ Once you have that language, validate it in a keyword tool. But **discovery shou
 
 ### Group by topic, not by keyword
 
-Before building out any TOFU cluster: **we group keywords into topics first, not a flat list.** "What is GRC," "GRC components," and "GRC examples" all map to one topic — one strong pillar page, not three thin articles.
+Before building out any TOFU cluster: **we group keywords into topics first, not a flat list.** "What is GRC," "GRC components," and "GRC examples" all map to one topic: one strong pillar page, not three thin articles.
 
-A flat list of 300 TOFU keywords is noise. Seventy topics is a strategy. Topics tell you how many pages you need and which ones can be consolidated. It also makes the internal linking structure obvious — which matters for Step 4.
+A flat list of 300 TOFU keywords is noise. Seventy topics is a strategy. Topics tell you how many pages you need and which ones can be consolidated. It also makes the [internal linking](/blogs/how-to-use-internal-linking/) structure obvious, which matters for Step 4.
 
 | Approach | What you get | Problem |
 |---|---|---|
@@ -95,15 +95,15 @@ The format question isn't about copying what's ranking. It's about understanding
 
 ### When to go deeper than what's ranking
 
-There's an important exception. If the top results for your target keyword are thin and generic — short, no original perspective, clearly written to rank rather than to help — **you can outflank them with genuine depth plus a specific ICP angle.**
+There's an important exception. If the top results for your target keyword are thin and generic (short, no original perspective, clearly written to rank rather than to help), **you can outflank them with genuine depth plus a specific ICP angle.**
 
-The trap is thinking more words always wins. They don't. A tight piece with a real scenario ("here's how a 50-person fintech team uses X to solve Y") will outrank a bloated generic guide every time — assuming the format matches what Google wants for that query.
+The trap is thinking more words always wins. They don't. A tight piece with a real scenario ("here's how a 50-person fintech team uses X to solve Y") will outrank a bloated generic guide every time, assuming the format matches what Google wants for that query.
 
 ![Format match matrix for TOFU keywords: four query types (what-is, how-to, best practices, comparison) mapped against recommended format, target length, and featured snippet opportunity](/images/blog-infographics/how-to-rank-tofu-keywords-saas-infographic-2.webp)
 
 ## Step 3: Write Depth Google Won't Deindex
 
-This is the step most guides skip, and it's the one that matters most right now. After Google's core updates over the past year, shallow TOFU content isn't getting penalized with ranking drops — it's getting quietly removed from the index entirely.
+This is the step most guides skip, and it's the one that matters most right now. After Google's core updates over the past year, shallow TOFU content isn't getting penalized with ranking drops. It's getting quietly removed from the index entirely.
 
 And most teams don't even know it's happened.
 
@@ -130,7 +130,7 @@ None of this requires more words. It requires more thinking before you write.
 ## Step 4: Build Internal Links That Pass Authority to BOFU Pages
 
 
-**Internal links are how TOFU authority reaches your BOFU pages.** Without them, the equity dies at the TOFU level — it doesn't go anywhere. This is one of the most common gaps we see in SaaS content programs. Teams produce strong TOFU content but don't connect it to the money pages.
+**Internal links are how TOFU authority reaches your BOFU pages.** Without them, the equity dies at the TOFU level. It doesn't go anywhere. This is one of the most common gaps we see in SaaS content programs. Teams produce strong TOFU content but don't connect it to the money pages.
 
 Here's the basic structure that works:
 
@@ -150,12 +150,12 @@ The right metrics for TOFU are authority signals, not traffic signals. Specifica
 
 | Metric | What it tells you | Where to check it |
 |---|---|---|
-| Backlinks earned (90-day) | Whether other sites find your content worth citing | Ahrefs / GSC Links report |
+| [Backlinks](/glossary/what-is-a-backlink/) earned (90-day) | Whether other sites find your content worth citing | Ahrefs / GSC Links report |
 | BOFU ranking movement | Whether TOFU authority transfer is working | GSC Performance, filtered by BOFU URLs |
 | Indexed page count | Whether TOFU pages are actually in Google's index | GSC Pages report, "Not Indexed" status |
 | Average position (rolling 90d) | Cluster-level authority trend | GSC Performance, topic cluster URL filter |
 
-Traffic is a lagging indicator and a noisy one. An AI Overview showing up for one of your TOFU queries can halve your clicks without your ranking changing at all. If you track clicks and they drop, you'll think your TOFU strategy is failing when actually it's working. Google just summarized the answer before the click.
+Traffic is a lagging indicator and a noisy one. An [AI Overview](/glossary/what-is-an-ai-overview/) showing up for one of your TOFU queries can halve your clicks without your ranking changing at all. If you track clicks and they drop, you'll think your TOFU strategy is failing when actually it's working. Google just summarized the answer before the click.
 
 Authority is what makes traffic compound. Track it instead.
 
@@ -167,11 +167,11 @@ Beyond the five steps above, three specific mistakes trip up SaaS teams consiste
 
 **Publishing TOFU with no internal linking plan.** "We'll add links later" is how pages sit in isolation for a year. Before you publish any TOFU piece, know which BOFU or MOFU page it should link to, and add that link at the time of publishing.
 
-**Measuring traffic instead of authority.** Already covered in Step 5, but worth repeating because it's where most reporting goes wrong. If your monthly SEO report leads with sessions or clicks on TOFU content, you're optimizing for the wrong signal — and you'll make bad decisions because of it.
+**Measuring traffic instead of authority.** Already covered in Step 5, but worth repeating because it's where most reporting goes wrong. If your monthly [SEO](/glossary/what-is-seo/) report leads with sessions or clicks on TOFU content, you're optimizing for the wrong signal, and you'll make bad decisions because of it.
 
 ## Why PipeRocket Digital Helps SaaS Teams Rank TOFU Content
 
-At PipeRocket, **we build TOFU content programs designed from day one to support BOFU rankings** — not just drive awareness traffic. That means ICP-specific keyword research, format-matched content, depth standards that hold up after core updates, and internal linking wired in at publish time.
+At PipeRocket, **we build TOFU content programs designed from day one to support BOFU rankings**, not just drive awareness traffic. That means ICP-specific [keyword research](/glossary/what-is-keyword-research/), format-matched content, depth standards that hold up after core updates, and internal linking wired in at publish time.
 
 If your TOFU content isn't ranking or isn't converting into pipeline, **[reach out to us](https://piperocket.digital/contact-us/) and we'll show you what's breaking.** See how we work with SaaS teams at our [SaaS SEO agency page](https://piperocket.digital/saas-seo-agency/).
 
@@ -181,15 +181,15 @@ If your TOFU content isn't ranking or isn't converting into pipeline, **[reach o
 
 Realistically, **three to six months for a new domain** or a thin authority site, and four to eight weeks on a domain that already has topical authority in the category. The timeline depends less on the quality of the specific piece and more on whether the site has the authority infrastructure around it.
 
-A strong TOFU piece on a site with good internal linking and a few relevant backlinks will move faster than the same piece sitting in isolation on a site Google doesn't fully trust yet. No movement after six months usually points to authority or indexation — not content quality.
+A strong TOFU piece on a site with good internal linking and a few relevant backlinks will move faster than the same piece sitting in isolation on a site Google doesn't fully trust yet. No movement after six months usually points to authority or indexation, not content quality.
 
 ### Should SaaS startups focus on TOFU or BOFU keywords first?
 
-For a brand-new SaaS site, **BOFU first.**
+For a brand-[new SaaS site](/blogs/how-to-rank-new-saas-site/), **BOFU first.**
 
-This is counterintuitive but it's what the data supports. TOFU keywords on high-volume queries are competitive, and a new site isn't going to outrank established players on "what is project management software" anytime soon. BOFU keywords — alternatives, comparisons, pricing pages — are lower competition, higher intent, and more likely to produce pipeline from whatever traffic does come in.
+This is counterintuitive but it's what the data supports. TOFU keywords on high-volume queries are competitive, and a new site isn't going to outrank established players on "what is project management software" anytime soon. BOFU keywords (alternatives, comparisons, pricing pages) are lower competition, higher intent, and more likely to produce pipeline from whatever traffic does come in.
 
-Once the BOFU pages are in place and the site has some domain authority, TOFU content starts to compound. Building TOFU first on a new site is how teams end up with lots of traffic and no pipeline.
+Once the BOFU pages are in place and the site has some [domain authority](/glossary/what-is-domain-authority/), TOFU content starts to compound. Building TOFU first on a new site is how teams end up with lots of traffic and no pipeline.
 
 ### How do I know if my TOFU pages are being indexed by Google?
 

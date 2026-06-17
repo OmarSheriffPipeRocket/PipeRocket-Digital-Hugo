@@ -43,7 +43,7 @@ Standard SaaS SEO gets you to $10M ARR. Enterprise SaaS SEO gets you past it. Th
 
 At enterprise scale, organic search is either a strategic revenue channel or a liability. There is no middle ground.
 
-The economics make it unavoidable. B2B SaaS companies generate an average SEO ROI of 702%, with a payback period of under seven months. For every dollar invested in organic search, the average SaaS business earns more than $22 back over time. Paid acquisition can never replicate that compounding curve because the cost scales linearly with spend and stops the moment the budget pauses.
+The economics make it unavoidable. B2B SaaS companies generate an average [SEO ROI](/blogs/how-to-prove-seo-roi/) of 702%, with a payback period of under seven months. For every dollar invested in organic search, the average SaaS business earns more than $22 back over time. Paid acquisition can never replicate that compounding curve because the cost scales linearly with spend and stops the moment the budget pauses.
 
 At enterprise scale, the compounding advantage is even more pronounced. A content library of 500 high-quality pages built over two years keeps generating pipeline at zero incremental cost per visit, while paid spend of the same budget period contributes nothing after the campaigns end.
 

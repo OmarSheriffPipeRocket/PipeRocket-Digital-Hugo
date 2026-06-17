@@ -205,7 +205,7 @@ Start from a clean view of the SERP using our [SaaS SEO competitor analysis](/bl
 
 ### **When Your Organic Traffic Is Stale**
 
-Your traffic might look stable and everything could feel fine. What’s actually happening is your existing content has hit its ceiling, and new content isn’t breaking through because your site has topical authority gaps that haven’t been addressed.
+Your traffic might look stable and everything could feel fine. What’s actually happening is your existing content has hit its ceiling, and new content isn’t breaking through because your site has topical authority gaps that haven’t been addressed. Once the audit flags those decaying pages, a structured [content refresh](/blogs/how-to-refresh-content-rankings/) is how you recover the lost rankings.
 
 **What an audit tells you:**
 

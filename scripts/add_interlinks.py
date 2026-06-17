@@ -307,6 +307,32 @@ LINK_MAP = [
     ("AI visibility tools", "/list/best-ai-visibility-tools/", False, "P1"),
     ("AI visibility tracking tools", "/list/best-ai-visibility-tools/", False, "P1"),
 
+    # ---- new blog spokes added 2026-06-17 (KW Research Hub + ROI/refresh/brief/questions) ----
+    ("TOFU keywords", "/blogs/how-to-rank-tofu-keywords-saas/", False, "P0"),
+    ("top-of-funnel keywords", "/blogs/how-to-rank-tofu-keywords-saas/", False, "P0"),
+    ("high-difficulty keywords", "/blogs/how-to-rank-high-difficulty-keywords/", False, "P0"),
+    ("high difficulty keywords", "/blogs/how-to-rank-high-difficulty-keywords/", False, "P0"),
+    ("topical authority", "/blogs/how-to-improve-topical-authority/", False, "P0"),
+    ("internal linking", "/blogs/how-to-use-internal-linking/", False, "P0"),
+    ("internal links", "/blogs/how-to-use-internal-linking/", False, "P0"),
+    ("rank a new SaaS site", "/blogs/how-to-rank-new-saas-site/", False, "P0"),
+    ("new SaaS site", "/blogs/how-to-rank-new-saas-site/", False, "P0"),
+    ("SEO ROI", "/blogs/how-to-prove-seo-roi/", False, "P0"),
+    ("content refresh", "/blogs/how-to-refresh-content-rankings/", False, "P0"),
+    ("refresh old content", "/blogs/how-to-refresh-content-rankings/", False, "P0"),
+    ("SEO content brief", "/blogs/how-to-write-seo-content-brief/", False, "P0"),
+    ("content brief", "/blogs/how-to-write-seo-content-brief/", False, "P0"),
+    ("question keywords", "/blogs/how-to-rank-for-question-keywords/", False, "P0"),
+    # entity-map anchors → existing blog/list content (added 2026-06-17 for ROI/refresh coverage)
+    ("comparison pages", "/blogs/how-to-write-saas-comparison-pages-for-seo/", False, "P0"),
+    ("comparison page", "/blogs/how-to-write-saas-comparison-pages-for-seo/", False, "P0"),
+    ("top-of-funnel content", "/blogs/how-to-rank-tofu-keywords-saas/", False, "P0"),
+    ("bottom-of-funnel", "/blogs/how-to-rank-bofu-keywords-saas/", False, "P0"),
+    ("BOFU pages", "/blogs/how-to-rank-bofu-keywords-saas/", False, "P0"),
+    ("rank tracking", "/list/best-rank-tracking-tools-for-saas/", False, "P1"),
+    ("cannibalization", "/blogs/how-to-fix-keyword-cannibalization/", False, "P0"),
+    ("secondary keywords", "/blogs/how-to-do-saas-seo-keyword-research/", False, "P0"),
+
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),
     # ("best SaaS SEO agencies", "/list/best-saas-seo-agencies/", False, "P1"),
