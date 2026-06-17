@@ -10624,20 +10624,26 @@ body.pr-modal-open { overflow: hidden; }
   background: #FCE4E4;
   padding: 24px 28px 12px;
   border-radius: 12px 12px 0 0;
-  margin: var(--pr-s-7) 0 0;
+  margin: 0;
   font-size: 1.5rem;
 }
 .pr-cs__content > h2[id*="challenge"] + p {
   background: #FCE4E4;
-  padding: 0 28px 12px;
-  margin: 0;
+  padding: 0 28px 24px;
+  margin: 0 0 var(--pr-s-6);
+  border-radius: 0 0 12px 12px;
+}
+/* When a UL follows the paragraph, the box isn't done yet — keep it open */
+.pr-cs__content > h2[id*="challenge"] + p:has(+ ul) {
+  padding-bottom: 12px;
+  margin-bottom: 0;
   border-radius: 0;
 }
 .pr-cs__content > h2[id*="challenge"] + p + ul,
 .pr-cs__content > h2[id*="challenge"] + ul {
   background: #FCE4E4;
   padding: 0 28px 24px 48px;
-  margin: 0;
+  margin: 0 0 var(--pr-s-7);
   border-radius: 0 0 12px 12px;
   list-style-position: outside;
 }
