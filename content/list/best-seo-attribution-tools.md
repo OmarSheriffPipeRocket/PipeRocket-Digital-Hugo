@@ -50,7 +50,7 @@ Picking the wrong attribution tool means your SEO team is optimising for traffic
 
 Each tool on this list was evaluated using G2, Capterra, and qualitative signals from practitioner discussions on Reddit, LinkedIn, and Quora threads focused on B2B attribution and SaaS SEO measurement. Pricing was verified directly from live product pages as of June 2026, and any claim that could not be confirmed from a primary source is flagged in the relevant card below.
 
-The two criteria that separated the shortlist from the broader field: revenue stitching (can the tool connect an organic visit all the way to a closed-won deal in CRM, not just to a form fill) and attribution model transparency (does the tool expose how credit is assigned across touchpoints, so the SEO team can defend the number to finance). Tools that only report traffic sources without tying sessions to revenue were excluded from the final set.
+The two criteria that separated the shortlist from the broader field: revenue stitching (can the tool connect an organic visit all the way to a closed-won deal in CRM, not just to a form fill) and attribution model transparency (does the tool expose how credit is assigned across touchpoints, so the SEO team can defend the number to finance). Tools that only report traffic sources without tying sessions to revenue were excluded from the final set. If your goal is to [prove SEO ROI](/blogs/how-to-prove-seo-roi/) to leadership, that revenue-stitching capability is the one to weight most heavily.
 
 For the full process (every source we use, what disqualifies a tool, our conflict-of-interest handling, and our corrections policy) read [our research methodology and editorial policy](/research-methodology/).
 
@@ -206,7 +206,7 @@ Best for: B2B SaaS teams who need to stitch anonymous web visits to named CRM ac
 Dreamdata's core differentiator is B2B journey stitching. It matches anonymous web visits to known accounts and CRM opportunities, so a blog reader who doesn't convert for six months still gets attributed to the organic content they read.
 
 - Anonymous-to-known account stitching: connects pre-conversion touchpoints to CRM deals
-- Revenue attribution, ROAS reporting, and content analytics linked to pipeline
+- Revenue attribution, [ROAS](/glossary/what-is-roas/) reporting, and content analytics linked to pipeline
 - LinkedIn integration for audience building based on attribution signals
 
 **What Reviewers Say**

@@ -578,7 +578,7 @@ Early-stage teams can start with zero cost using the free tiers on Qwoted (2 pit
 
 ### Can digital PR tools directly improve SEO rankings?
 
-Indirectly, yes. High-authority backlinks from media placements are a direct ranking input. Tools like Featured.com and Qwoted are explicitly designed to generate bylines and backlinks from publishers. Outreach tools like BuzzStream are commonly used for link-building campaigns alongside PR. The SEO value depends on the domain authority of the publications where you earn placements.
+Indirectly, yes. High-authority [backlinks](/glossary/what-is-a-backlink/) from media placements are a direct ranking input. Tools like Featured.com and Qwoted are explicitly designed to generate bylines and backlinks from publishers. Outreach tools like BuzzStream are commonly used for [SaaS link building](/blogs/saas-link-building/) campaigns alongside PR. The SEO value depends on the domain authority of the publications where you earn placements.
 
 ### How do I evaluate a digital PR tool before committing to a paid plan?
 

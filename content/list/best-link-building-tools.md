@@ -46,7 +46,7 @@ Choosing the wrong tool at the wrong stage costs more than the subscription: a p
 
 Each tool on this list was evaluated using G2, Capterra, and qualitative signals from SEO practitioner discussions on Reddit, LinkedIn, and Quora. Pricing was verified directly from live product pages as of June 2026, and any claim that could not be confirmed from a primary source is flagged in the relevant card below.
 
-The two criteria that separated the shortlist from a much longer field: functional role clarity (does the tool actually do what it claims at the layer it operates in: prospecting, outreach, verification, or quality analysis?) and review honesty (tools where G2 reviewers describe specific failure modes, not just generic praise, earned more weight than high ratings with thin review bases). Pricing transparency on the live page was a secondary filter that immediately dropped several tools from consideration.
+The two criteria that separated the shortlist from a much longer field: functional role clarity (does the tool actually do what it claims at the layer it operates in: prospecting, outreach, verification, or quality analysis?) and review honesty (tools where G2 reviewers describe specific failure modes, not just generic praise, earned more weight than high ratings with thin review bases). Pricing transparency on the live page was a secondary filter that immediately dropped several tools from consideration. For the strategy these tools support, see our guide to [SaaS link building](/blogs/saas-link-building/).
 
 For the full process (every source we use, what disqualifies a tool, our conflict-of-interest handling, and our corrections policy) read [our research methodology and editorial policy](/research-methodology/).
 
@@ -81,7 +81,7 @@ It's NOT for teams who want a single tool from prospect to sent email. Ahrefs en
 
 Ahrefs runs the largest commercial backlink index in the market, which means more comprehensive competitor analysis and fewer missed prospects.
 
-- Site Explorer: full backlink profile, referring domains, DR/UR metrics, anchor text distribution
+- Site Explorer: full [backlink](/glossary/what-is-a-backlink/) profile, referring domains, DR/UR metrics, [anchor text](/glossary/what-is-anchor-text/) distribution
 - Link Intersect: surfaces domains linking to competitors that aren't linking to you
 - Broken link finder for reclamation campaigns and Content Explorer for topic-based prospecting
 
