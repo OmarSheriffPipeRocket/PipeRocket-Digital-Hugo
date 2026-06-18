@@ -349,8 +349,10 @@ LINK_MAP = [
     ("content optimization tools", "/list/best-ai-content-optimization-tools/", False, "P1"),
     ("all-in-one AI SEO platforms", "/list/best-all-in-one-ai-seo-platforms/", False, "P1"),
     ("AI SEO platforms", "/list/best-all-in-one-ai-seo-platforms/", False, "P1"),
+    ("AI SEO tools", "/list/best-all-in-one-ai-seo-platforms/", False, "P1"),
     ("AI content detection tools", "/list/best-ai-content-detection-tools/", False, "P1"),
     ("AI content detectors", "/list/best-ai-content-detection-tools/", False, "P1"),
+    ("AI content detector", "/list/best-ai-content-detection-tools/", False, "P1"),
 
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),
