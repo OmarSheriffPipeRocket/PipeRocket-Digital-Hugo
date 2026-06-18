@@ -50,7 +50,7 @@ That means tracking, for organic search specifically:
 - Opportunities created
 - Closed-won revenue (the number finance actually cares about)
 
-You get this by tagging the source. Set up your forms and CRM so every lead carries the channel that created it, then segment by organic. Most teams have the tooling already; they just never look at it past the session count. If your CRM and analytics don't connect the channel to the closed deal cleanly, the [SEO attribution tools](/list/best-seo-attribution-tools/) built for this stitch first-touch and multi-touch organic credit back to pipeline so you aren't reconstructing the path by hand.
+You get this by tagging the source. Set up your forms and CRM so every lead carries the channel that created it, then segment by organic. Most teams have the tooling already; they just never look at it past the session count. If your CRM and analytics don't connect the channel to the closed deal cleanly, the [SEO attribution tools](/list/best-marketing-attribution-tools/) built for this stitch first-touch and multi-touch organic credit back to pipeline so you aren't reconstructing the path by hand.
 
 One nuance worth flagging. The close rate on organic leads is usually different from paid, and from social, so don't blend them. We've consistently seen organic convert to qualified pipeline at a healthy clip relative to other channels, which is exactly the argument you want to make: organic doesn't just bring volume, it brings traffic that closes.
 
