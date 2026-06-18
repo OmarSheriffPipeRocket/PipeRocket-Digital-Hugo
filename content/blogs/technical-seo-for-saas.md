@@ -170,7 +170,7 @@ Run a Screaming Frog or Sitebulb crawl. Export pages with zero inbound internal 
 
 ## How to Run a SaaS Technical SEO Audit
 
-SaaS technical SEO audits stall because they generate 200-item reports with no clear priority order. The issue is not the scope of the audit. It is the sequence.
+SaaS technical SEO audits stall because they generate 200-item reports with no clear priority order. The issue is not the scope of the audit. It is the sequence. The right [SEO audit tools](/list/best-seo-audit-tools/) will surface the issues; the sequence that follows is how you turn that list into ranking progress.
 
 **Step 1: Start with GSC Coverage.** Export all non-indexed pages. Sort by status. Identify whether the dominant category is "Crawled but not indexed" (content quality issue) or "Discovered but not indexed" (internal linking issue). These require completely different responses.
 

@@ -353,6 +353,12 @@ LINK_MAP = [
     ("AI content detection tools", "/list/best-ai-content-detector/", False, "P1"),
     ("AI content detectors", "/list/best-ai-content-detector/", False, "P1"),
     ("AI content detector", "/list/best-ai-content-detector/", False, "P1"),
+    # ---- SEO audit tools listicle added 2026-06-18 ----
+    ("SEO audit tools", "/list/best-seo-audit-tools/", False, "P1"),
+    ("SEO audit tool", "/list/best-seo-audit-tools/", False, "P1"),
+    ("SEO audit software", "/list/best-seo-audit-tools/", False, "P1"),
+    ("site audit tools", "/list/best-seo-audit-tools/", False, "P1"),
+    ("technical SEO audit tools", "/list/best-seo-audit-tools/", False, "P1"),
 
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),
