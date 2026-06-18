@@ -10,9 +10,13 @@ hasCJKLanguage = false
 # Use each file's real git commit date for .Lastmod (sitemap <lastmod>, schema
 # dateModified). Without this, pages with no date/lastmod frontmatter fell back
 # to build time on every Netlify deploy, so every URL looked "changed daily" to
-# Google. Hugo's default lastmod order already prefers :git, this just turns it
-# on. Falls back to date/buildtime only if a file has no git history.
+# Google. Falls back to date/buildtime only if a file has no git history.
 enableGitInfo = true
+
+# Frontmatter lastmod takes priority over git commit date when explicitly set.
+# Fallback order: frontmatter lastmod → git commit date → file mod time.
+[frontmatter]
+  lastmod = ['lastmod', ':git', ':fileModTime', ':default']
 
 # Hide the <meta name="generator" content="Hugo x.y.z"> tag that Hugo
 # auto-injects on the homepage. Keeps the stack + version out of
