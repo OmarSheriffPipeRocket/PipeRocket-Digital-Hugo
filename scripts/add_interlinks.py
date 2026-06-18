@@ -333,6 +333,26 @@ LINK_MAP = [
     ("cannibalization", "/blogs/how-to-fix-keyword-cannibalization/", False, "P0"),
     ("secondary keywords", "/blogs/how-to-do-saas-seo-keyword-research/", False, "P0"),
 
+    # ---- new tool listicles added 2026-06-17 (10 SaaS SEO + AI SEO roundups) ----
+    ("link building tools", "/list/best-link-building-tools/", False, "P1"),
+    ("link-building tools", "/list/best-link-building-tools/", False, "P1"),
+    ("digital PR tools", "/list/best-digital-pr-tools/", False, "P1"),
+    ("backlink analysis tools", "/list/best-backlink-analysis-tools/", False, "P1"),
+    ("backlink checker", "/list/best-backlink-analysis-tools/", False, "P1"),
+    ("SEO attribution tools", "/list/best-seo-attribution-tools/", False, "P1"),
+    ("marketing attribution tools", "/list/best-seo-attribution-tools/", False, "P1"),
+    ("SEO reporting tools", "/list/best-seo-reporting-tools/", False, "P1"),
+    ("SEO reporting tool", "/list/best-seo-reporting-tools/", False, "P1"),
+    ("pipeline analytics tools", "/list/best-pipeline-analytics-tools/", False, "P1"),
+    ("AEO tools", "/list/best-aeo-tools/", False, "P1"),
+    ("answer engine optimization tools", "/list/best-aeo-tools/", False, "P1"),
+    ("AI content optimization tools", "/list/best-ai-content-optimization-tools/", False, "P1"),
+    ("content optimization tools", "/list/best-ai-content-optimization-tools/", False, "P1"),
+    ("all-in-one AI SEO platforms", "/list/best-all-in-one-ai-seo-platforms/", False, "P1"),
+    ("AI SEO platforms", "/list/best-all-in-one-ai-seo-platforms/", False, "P1"),
+    ("AI content detection tools", "/list/best-ai-content-detection-tools/", False, "P1"),
+    ("AI content detectors", "/list/best-ai-content-detection-tools/", False, "P1"),
+
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),
     # ("best SaaS SEO agencies", "/list/best-saas-seo-agencies/", False, "P1"),

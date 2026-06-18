@@ -50,7 +50,7 @@ That means tracking, for organic search specifically:
 - Opportunities created
 - Closed-won revenue (the number finance actually cares about)
 
-You get this by tagging the source. Set up your forms and CRM so every lead carries the channel that created it, then segment by organic. Most teams have the tooling already; they just never look at it past the session count.
+You get this by tagging the source. Set up your forms and CRM so every lead carries the channel that created it, then segment by organic. Most teams have the tooling already; they just never look at it past the session count. If your CRM and analytics don't connect the channel to the closed deal cleanly, the [SEO attribution tools](/list/best-seo-attribution-tools/) built for this stitch first-touch and multi-touch organic credit back to pipeline so you aren't reconstructing the path by hand.
 
 One nuance worth flagging. The close rate on organic leads is usually different from paid, and from social, so don't blend them. We've consistently seen organic convert to qualified pipeline at a healthy clip relative to other channels, which is exactly the argument you want to make: organic doesn't just bring volume, it brings traffic that closes.
 
@@ -108,7 +108,7 @@ The fully-loaded cost has to include everything, not just the agency invoice:
 - Content production and design
 - Internal time spent on SEO
 
-Take a worked example. A compliance SaaS for fintech teams attributes a quarter's organic-sourced pipeline, applies its real close rate and average deal size to get revenue, then divides by its all-in SEO cost for the same quarter. That ratio is the ROI number. No rankings in sight.
+Be honest about the tooling line in particular, because it adds up fast across rank tracking, crawling, the [SEO reporting tools](/list/best-seo-reporting-tools/) that assemble the quarterly deck, and the [pipeline analytics tools](/list/best-pipeline-analytics-tools/) that tie organic-sourced opportunities back to revenue. Take a worked example. A compliance SaaS for fintech teams attributes a quarter's organic-sourced pipeline, applies its real close rate and average deal size to get revenue, then divides by its all-in SEO cost for the same quarter. That ratio is the ROI number. No rankings in sight.
 
 To sanity-check whether the spend itself is reasonable, weigh it against a planning benchmark. As a working range, SaaS companies tend to put roughly 10-15% of their marketing budget into SEO, weighted by stage. Earlier-stage companies often run higher to establish presence; scaling companies lean in further as organic becomes a primary pipeline channel. Treat it as a stage-dependent range, not a fixed rule.
 
