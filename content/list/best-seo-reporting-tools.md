@@ -364,7 +364,7 @@ Best for: SEO agencies already using SE Ranking for [rank tracking](/list/best-r
 
 **Right Buyer**
 
-It's for SEO-focused agencies managing 5 to 30 client accounts that already need rank tracking, keyword research, and a regular [SEO audit](/glossary/what-is-an-seo-audit/). Using SE Ranking's Report Builder means one subscription covers the SEO tool and the reporting layer, rather than paying separately for both.
+It's for SEO-focused agencies managing 5 to 30 client accounts that already need rank tracking, keyword research, and a regular SEO audit. Using SE Ranking's Report Builder means one subscription covers the SEO tool and the reporting layer, rather than paying separately for both.
 
 **Skip If**
 

@@ -81,7 +81,7 @@ It's NOT for teams who want a single tool from prospect to sent email. Ahrefs en
 
 Ahrefs runs the largest commercial backlink index in the market, which means more comprehensive competitor analysis and fewer missed prospects.
 
-- Site Explorer: full [backlink](/glossary/what-is-a-backlink/) profile, referring domains, DR/UR metrics, [anchor text](/glossary/what-is-anchor-text/) distribution
+- Site Explorer: full backlink profile, referring domains, DR/UR metrics, anchor text distribution
 - Link Intersect: surfaces domains linking to competitors that aren't linking to you
 - Broken link finder for reclamation campaigns and Content Explorer for topic-based prospecting
 

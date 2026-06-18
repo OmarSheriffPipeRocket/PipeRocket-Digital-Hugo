@@ -46,7 +46,7 @@ Picking the wrong backlink tool means your [link building](/blogs/saas-link-buil
 
 Each tool was evaluated using G2 ratings, Capterra reviews, and practitioner discussion threads on Reddit, LinkedIn, and Quora. Pricing was pulled directly from live product pages as of June 2026, and any field that could not be confirmed from a primary source is flagged in the relevant card below.
 
-The two criteria that separated the shortlist from a wider field: index depth and crawl freshness (a [backlink](/glossary/what-is-a-backlink/) index that misses 30% of competitor referring domains produces a systematically incomplete picture of why pages rank) and toxic-link detection capability (for SaaS companies in competitive verticals, identifying and disavowing harmful links before they trigger a manual action is a preventative cost, not a recovery one). G2 social proof volume, pricing accessibility, and use-case focus were secondary filters.
+The two criteria that separated the shortlist from a wider field: index depth and crawl freshness (a backlink index that misses 30% of competitor referring domains produces a systematically incomplete picture of why pages rank) and toxic-link detection capability (for SaaS companies in competitive verticals, identifying and disavowing harmful links before they trigger a manual action is a preventative cost, not a recovery one). G2 social proof volume, pricing accessibility, and use-case focus were secondary filters.
 
 For the full process (every source we use, what disqualifies a tool, our conflict-of-interest handling, and our corrections policy) read [our research methodology and editorial policy](/research-methodology/).
 
@@ -577,7 +577,7 @@ For monitoring your own site's backlink profile, yes. Ahrefs Webmaster Tools pro
 
 ### What is the difference between Domain Authority, Trust Flow, and Domain Rating?
 
-[Domain Authority](/glossary/what-is-domain-authority/) (Moz) and Domain Rating (Ahrefs) are both 100-point proprietary scores predicting ranking strength, calculated differently. Trust Flow (Majestic) specifically measures the topical quality of links pointing to a domain, weighted by the trust of those linking domains. All three are proxies, not Google signals.
+Domain Authority (Moz) and Domain Rating (Ahrefs) are both 100-point proprietary scores predicting ranking strength, calculated differently. Trust Flow (Majestic) specifically measures the topical quality of links pointing to a domain, weighted by the trust of those linking domains. All three are proxies, not Google signals.
 
 ### When does a SaaS company need a toxic-link audit?
 

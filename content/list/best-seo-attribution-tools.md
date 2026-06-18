@@ -206,7 +206,7 @@ Best for: B2B SaaS teams who need to stitch anonymous web visits to named CRM ac
 Dreamdata's core differentiator is B2B journey stitching. It matches anonymous web visits to known accounts and CRM opportunities, so a blog reader who doesn't convert for six months still gets attributed to the organic content they read.
 
 - Anonymous-to-known account stitching: connects pre-conversion touchpoints to CRM deals
-- Revenue attribution, [ROAS](/glossary/what-is-roas/) reporting, and content analytics linked to pipeline
+- Revenue attribution, ROAS reporting, and content analytics linked to pipeline
 - LinkedIn integration for audience building based on attribution signals
 
 **What Reviewers Say**

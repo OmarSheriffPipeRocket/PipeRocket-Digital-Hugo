@@ -529,7 +529,7 @@ Use them as one signal in a multi-step review, not as a single gate. A high AI s
 
 ### Are these tools useful for SEO content quality assurance?
 
-They're useful as one checkpoint in a broader [content marketing](/glossary/what-is-content-marketing/) quality framework. A passing score doesn't mean a piece is well-written, accurate, or useful to a reader. Detection is a floor, not a ceiling.
+They're useful as one checkpoint in a broader content marketing quality framework. A passing score doesn't mean a piece is well-written, accurate, or useful to a reader. Detection is a floor, not a ceiling.
 
 ## Update History
 
