@@ -108,7 +108,7 @@ The fully-loaded cost has to include everything, not just the agency invoice:
 - Content production and design
 - Internal time spent on SEO
 
-Be honest about the tooling line in particular, because it adds up fast across rank tracking, crawling, the [SEO reporting tools](/list/best-seo-reporting-tools/) that assemble the quarterly deck, and the [pipeline analytics tools](/list/best-pipeline-analytics-tools/) that tie organic-sourced opportunities back to revenue. Take a worked example. A compliance SaaS for fintech teams attributes a quarter's organic-sourced pipeline, applies its real close rate and average deal size to get revenue, then divides by its all-in SEO cost for the same quarter. That ratio is the ROI number. No rankings in sight.
+Be honest about the tooling line in particular, because it adds up fast across rank tracking, crawling, and the [SEO reporting tools](/list/best-seo-reporting-tools/) that assemble the quarterly deck. Take a worked example. A compliance SaaS for fintech teams attributes a quarter's organic-sourced pipeline, applies its real close rate and average deal size to get revenue, then divides by its all-in SEO cost for the same quarter. That ratio is the ROI number. No rankings in sight.
 
 To sanity-check whether the spend itself is reasonable, weigh it against a planning benchmark. As a working range, SaaS companies tend to put roughly 10-15% of their marketing budget into SEO, weighted by stage. Earlier-stage companies often run higher to establish presence; scaling companies lean in further as organic becomes a primary pipeline channel. Treat it as a stage-dependent range, not a fixed rule.
 

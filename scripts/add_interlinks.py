@@ -343,7 +343,6 @@ LINK_MAP = [
     ("marketing attribution tools", "/list/best-seo-attribution-tools/", False, "P1"),
     ("SEO reporting tools", "/list/best-seo-reporting-tools/", False, "P1"),
     ("SEO reporting tool", "/list/best-seo-reporting-tools/", False, "P1"),
-    ("pipeline analytics tools", "/list/best-pipeline-analytics-tools/", False, "P1"),
     ("AEO tools", "/list/best-aeo-tools/", False, "P1"),
     ("answer engine optimization tools", "/list/best-aeo-tools/", False, "P1"),
     ("AI content optimization tools", "/list/best-ai-content-optimization-tools/", False, "P1"),
