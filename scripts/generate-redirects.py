@@ -200,11 +200,11 @@ DECOMMISSIONED_PATHS = [
     # page. Each stage was folded into an H2 section on the main listicle and the
     # 5 stage page files deleted; 301 each to the matching anchor. (4-day watch —
     # revert if head-term position/clicks regress.)
-    ("/list/best-saas-seo-agencies-for-startups/",           "/list/best-saas-seo-agencies/#best-saas-seo-agencies-for-startups", 301),
-    ("/list/best-saas-seo-agencies-for-product-led-growth/", "/list/best-saas-seo-agencies/#best-saas-seo-agencies-for-product-led-growth", 301),
-    ("/list/best-saas-seo-agencies-for-sales-led-growth/",   "/list/best-saas-seo-agencies/#best-saas-seo-agencies-for-sales-led-growth", 301),
-    ("/list/best-saas-seo-agencies-for-series-a/",           "/list/best-saas-seo-agencies/#best-saas-seo-agencies-for-series-a", 301),
-    ("/list/best-saas-seo-agencies-for-series-b/",           "/list/best-saas-seo-agencies/#best-saas-seo-agencies-for-series-b", 301),
+    ("/list/best-saas-seo-agencies-for-startups/",           "/list/best-saas-seo-agencies/", 301),
+    ("/list/best-saas-seo-agencies-for-product-led-growth/", "/list/best-saas-seo-agencies/", 301),
+    ("/list/best-saas-seo-agencies-for-sales-led-growth/",   "/list/best-saas-seo-agencies/", 301),
+    ("/list/best-saas-seo-agencies-for-series-a/",           "/list/best-saas-seo-agencies/", 301),
+    ("/list/best-saas-seo-agencies-for-series-b/",           "/list/best-saas-seo-agencies/", 301),
     # Curated section-level redirects (preserve link equity)
     ("/blog/",                          "/blogs/", 301),
     ("/gtm-lp/",                        "/",       301),
