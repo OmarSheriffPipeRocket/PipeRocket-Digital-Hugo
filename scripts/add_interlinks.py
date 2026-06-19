@@ -352,6 +352,18 @@ LINK_MAP = [
     ("AI SEO tools", "/list/best-ai-seo-tools/", False, "P1"),
     ("AI content detection tools", "/list/best-ai-content-detector/", False, "P1"),
     ("AI content detectors", "/list/best-ai-content-detector/", False, "P1"),
+
+    # ---- tool vs / alternatives pages added 2026-06-19 (neutral tool comparisons) ----
+    ("Surfer SEO vs Clearscope", "/compare/surfer-seo-vs-clearscope/", False, "P2"),
+    ("Screaming Frog vs Sitebulb", "/compare/screaming-frog-vs-sitebulb/", False, "P2"),
+    ("Hotjar vs Microsoft Clarity", "/compare/hotjar-vs-microsoft-clarity/", False, "P2"),
+    ("Hotjar vs Mouseflow", "/compare/hotjar-vs-mouseflow/", False, "P2"),
+    ("6sense vs Demandbase", "/compare/6sense-vs-demandbase/", False, "P2"),
+    ("Ubersuggest alternatives", "/alternative/ubersuggest-alternatives/", False, "P2"),
+    ("Botify alternatives", "/alternative/botify-alternatives/", False, "P2"),
+    ("Opteo alternatives", "/alternative/opteo-alternatives/", False, "P2"),
+    ("HockeyStack alternatives", "/alternative/hockeystack-alternatives/", False, "P2"),
+    ("Demandbase alternatives", "/alternative/demandbase-alternatives/", False, "P2"),
     ("AI content detector", "/list/best-ai-content-detector/", False, "P1"),
     # ---- SEO audit tools listicle added 2026-06-18 ----
     ("SEO audit tools", "/list/best-seo-audit-tools/", False, "P1"),
