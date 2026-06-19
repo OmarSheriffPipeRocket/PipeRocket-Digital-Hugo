@@ -5,7 +5,7 @@ description: "Honest review of the 9 best SaaS marketing agencies for 2026, scor
 metaTitle: "9 Best SaaS Marketing Agencies in 2026 (Honest Review)"
 metaDescription: "We reviewed the 9 best SaaS marketing agencies of 2026. Verified Clutch ratings, real pricing, and where each agency actually fits."
 date: 2026-04-17
-lastmod: 2026-06-10
+lastmod: 2026-06-19
 slug: "best-saas-marketing-agencies-2026"
 writtenBy: "kim"
 category: "SaaS Marketing"
@@ -20,7 +20,7 @@ Comparing the top 9 best SaaS marketing agencies of 2026 includes 1. Directive C
 
 Directive and Refine Labs serve mid-market and enterprise B2B SaaS with $50M+ ARR. PipeRocket and Kalungi target Series A through B SaaS in the $1M to $25M ARR range. NoGood and KlientBoost run on VC-backed startups with appetite for paid experimentation. Single Grain and SimpleTiger split between SaaS and adjacent verticals, and Animalz concentrates on category-leading content for established B2B SaaS brands.
 
-The cost of choosing wrong runs deeper than the retainer fee. Two quarters of mis-targeted pipeline, a sales team that stops trusting marketing-sourced leads, and a board that exhausts its patience are the real stakes. We evaluated each agency against five criteria: verified review depth, named client roster, pricing transparency, channel fit for SaaS buying motions, and pipeline accountability.
+The cost of the wrong choice goes well beyond the retainer fee. Two quarters of mis-targeted pipeline, a sales team that slowly stops trusting marketing leads, and a board whose patience runs out are the real stakes. We scored each agency against five criteria: verified review depth, named client roster, pricing transparency, channel fit for SaaS buying motions, and pipeline accountability.
 
 ## TL;DR
 
@@ -300,6 +300,7 @@ Kalungi's Clutch profile shows zero verified reviews, forcing buyers to rely on 
 
 - Verification gap on Clutch
 - Fractional CMO is shared, not dedicated
+- New CEO appointed March 2026 (Antoine Vial); founder Brian Graf returning to direct client CMO work — leadership transition to monitor
 
 **Our Position:** Kalungi is the cleanest answer when you're $1M to $5M ARR and the bottleneck is senior strategic leadership, not channel execution.
 
@@ -680,5 +681,6 @@ Paid channels show pipeline contribution in 30-60 days; SEO and content take 6-9
 
 ## Update History
 
+- **June 19, 2026:** Added Kalungi news (new CEO Antoine Vial, Mar 16, 2026; founder Brian Graf to Board/CMO work).
 - **June 10, 2026:** Directive Consulting Clutch 4.7/5 (56 reviews) -> 4.8/5 (56 reviews).
 - **April 17, 2026:** Published.
