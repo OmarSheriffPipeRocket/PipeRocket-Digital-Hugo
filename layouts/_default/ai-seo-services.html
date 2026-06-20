@@ -580,79 +580,62 @@
 <section class="pr-section">
   <div class="pr-container" style="max-width: 880px;">
     <div class="pr-center"><h2>Frequently asked questions</h2></div>
+
+    {{/* Single source of truth: renders both the accordion and the FAQPage schema below.
+         HTML allowed in answers via $.RenderString; schema text is stripped to plain text. */}}
+    {{ $faqs := slice
+      (dict "q" "What is an AI SEO agency?"
+            "a" "An AI SEO agency optimises your brand to be surfaced and cited inside AI search experiences (ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews), not just ranked in blue links. PipeRocket runs AI SEO as one program covering AEO services (Answer Engine Optimization), which make you the cited answer, and GEO services (Generative Engine Optimization), which make you visible across generative AI engines, with every citation tied to qualified pipeline.")
+      (dict "q" "What is AI SEO?"
+            "a" "AI SEO is the practice of getting your brand surfaced and cited inside AI search experiences, ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews, instead of competing only for blue links. It is the umbrella for two disciplines: AEO services (Answer Engine Optimization), which make you the cited answer, and GEO services (Generative Engine Optimization), which make you visible across generative AI engines. We run AEO and GEO as one AI SEO program tied to qualified pipeline.")
+      (dict "q" "What is AEO (Answer Engine Optimization)?"
+            "a" "AEO is the practice of getting your brand cited as the answer when buyers ask questions to AI engines like ChatGPT, Perplexity, Claude, and Google AI Overviews, instead of optimising for a blue link on page one. It combines retrieval-friendly content engineering, schema, and authoritative distribution.")
+      (dict "q" "What is GEO (Generative Engine Optimization)?"
+            "a" "GEO is the broader discipline of being visible inside generative AI experiences, across ChatGPT, Perplexity, Claude, Gemini, and AI Overviews. AEO is one tactic within GEO; GEO also covers entity recognition, brand mention frequency in training corpora, and citation graph posture.")
+      (dict "q" "How is AEO different from traditional SEO?"
+            "a" "SEO optimises for a ranked list of links. AEO optimises for being the cited source inside an answer. The work overlaps (schema, authority, factual content) but the success metric shifts from \"rank #1\" to \"cited by ChatGPT when a buyer asks the question\". You need both, but most agencies still only ship one.")
+      (dict "q" "Which AI engines do you optimise for?"
+            "a" "ChatGPT, Perplexity, Claude, Google AI Overviews, Gemini, and Microsoft Copilot. Each has a different retrieval architecture and corpus weighting, we tune the work per engine and report citation share of voice across all of them.")
+      (dict "q" "How quickly does AEO drive pipeline?"
+            "a" "First citations on long-tail buyer questions appear within 30 to 60 days of restructuring content. Citation share of voice on competitive head terms takes 90 to 180 days. AI-led pipeline starts trickling immediately because most teams aren't even tagging it yet, making it visible in the CRM is half the win.")
+      (dict "q" "What does \"AI-first\" mean for AEO/GEO delivery?"
+            "a" "It means AI agents handle the data layer, running buyer questions across every AI engine weekly, mapping citation share of voice by competitor, identifying which subreddits and trade publications AI engines actually pull from, and tagging AI-led referrers in your CRM. The work that didn't exist as tooling 12 months ago ships continuously. Strategic calls, which questions to target, which corpora to invest in, stay with senior strategists.")
+      (dict "q" "How much does an AI SEO agency cost?"
+            "a" "Engagements start at $5,000/month for a standalone AEO/GEO program. AEO/GEO bundled with SaaS SEO runs as one program, most B2B SaaS clients ship them together because the technical infrastructure (schema, citation graphs, retrieval-friendly content) compounds across both."
+            "html" "Engagements start at $5,000/month for a standalone AEO/GEO program. AEO/GEO bundled with <a href=\"/saas-seo-agency/\">SaaS SEO</a> runs as one program, most B2B SaaS clients ship them together because the technical infrastructure (schema, citation graphs, retrieval-friendly content) compounds across both.")
+      (dict "q" "What kinds of SaaS companies do you work with?"
+            "a" "Our AEO/GEO clients are B2B SaaS companies whose buyers actively use ChatGPT, Perplexity, Claude, and AI Overviews to evaluate vendors. The English-language LLM training corpora are the densest, which makes AEO measurable faster than other markets.")
+      (dict "q" "Do I still need traditional SEO if I have AEO/GEO?"
+            "a" "Yes, and the inverse is also true. AI engines retrieve heavily from indexed web content, so first-page Google rankings remain a strong predictor of citation share. Most US B2B SaaS clients run SaaS SEO and AEO/GEO as one integrated program. Skipping SEO and going AEO-only leaves the entire retrieval substrate unbuilt."
+            "html" "Yes, and the inverse is also true. AI engines retrieve heavily from indexed web content, so first-page Google rankings remain a strong predictor of citation share. Most US B2B SaaS clients run <a href=\"/saas-seo-agency/\">SaaS SEO</a> and AEO/GEO as one integrated program. Skipping SEO and going AEO-only leaves the entire retrieval substrate unbuilt.")
+    }}
+
     <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      {{ range $faqs }}
       <details class="pr-accordion__item">
         <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What is AI SEO?</span>
+          <span class="pr-accordion__header-left">{{ .q }}</span>
           <span class="pr-accordion__toggle">+</span>
         </summary>
-        <div class="pr-accordion__body">AI SEO is the practice of getting your brand surfaced and cited inside AI search experiences, ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews, instead of competing only for blue links. It is the umbrella for two disciplines: AEO services (Answer Engine Optimization), which make you the cited answer, and GEO services (Generative Engine Optimization), which make you visible across generative AI engines. We run AEO and GEO as one AI SEO program tied to qualified pipeline.</div>
+        <div class="pr-accordion__body">{{ with .html }}{{ . | safeHTML }}{{ else }}{{ .a }}{{ end }}</div>
       </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What is AEO (Answer Engine Optimization)?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">AEO is the practice of getting your brand cited as the answer when buyers ask questions to AI engines like ChatGPT, Perplexity, Claude, and Google AI Overviews, instead of optimising for a blue link on page one. It combines retrieval-friendly content engineering, schema, and authoritative distribution.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What is GEO (Generative Engine Optimization)?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">GEO is the broader discipline of being visible inside generative AI experiences, across ChatGPT, Perplexity, Claude, Gemini, and AI Overviews. AEO is one tactic within GEO; GEO also covers entity recognition, brand mention frequency in training corpora, and citation graph posture.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">How is AEO different from traditional SEO?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">SEO optimises for a ranked list of links. AEO optimises for being the cited source inside an answer. The work overlaps (schema, authority, factual content) but the success metric shifts from "rank #1" to "cited by ChatGPT when a buyer asks the question". You need both, but most agencies still only ship one.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">Which AI engines do you optimise for?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">ChatGPT, Perplexity, Claude, Google AI Overviews, Gemini, and Microsoft Copilot. Each has a different retrieval architecture and corpus weighting, we tune the work per engine and report citation share of voice across all of them.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">How quickly does AEO drive pipeline?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">First citations on long-tail buyer questions appear within 30–60 days of restructuring content. Citation share of voice on competitive head terms takes 90–180 days. AI-led pipeline starts trickling immediately because most teams aren&rsquo;t even tagging it yet, making it visible in the CRM is half the win.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What does "AI-first" mean for AEO/GEO delivery?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">It means AI agents handle the data layer, running buyer questions across every AI engine weekly, mapping citation share of voice by competitor, identifying which subreddits and trade publications AI engines actually pull from, and tagging AI-led referrers in your CRM. The work that didn't exist as tooling 12 months ago ships continuously. Strategic calls, which questions to target, which corpora to invest in, stay with senior strategists.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">How much does AEO/GEO cost?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">Engagements start at $5,000/month for a standalone AEO/GEO program. AEO/GEO bundled with <a href="/saas-seo-agency/">SaaS SEO</a> runs as one program, most B2B SaaS clients ship them together because the technical infrastructure (schema, citation graphs, retrieval-friendly content) compounds across both.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">What kinds of SaaS companies do you work with?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">Our AEO/GEO clients are B2B SaaS companies whose buyers actively use ChatGPT, Perplexity, Claude, and AI Overviews to evaluate vendors. The English-language LLM training corpora are the densest, which makes AEO measurable faster than other markets.</div>
-      </details>
-      <details class="pr-accordion__item">
-        <summary class="pr-accordion__header">
-          <span class="pr-accordion__header-left">Do I still need traditional SEO if I have AEO/GEO?</span>
-          <span class="pr-accordion__toggle">+</span>
-        </summary>
-        <div class="pr-accordion__body">Yes, and the inverse is also true. AI engines retrieve heavily from indexed web content, so first-page Google rankings remain a strong predictor of citation share. Most US B2B SaaS clients run <a href="/saas-seo-agency/">SaaS SEO</a> and AEO/GEO as one integrated program. Skipping SEO and going AEO-only leaves the entire retrieval substrate unbuilt.</div>
-      </details>
+      {{ end }}
     </div>
   </div>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{ range $i, $f := $faqs }}{{ if $i }},{{ end }}{
+        "@type": "Question",
+        "name": {{ $f.q }},
+        "acceptedAnswer": { "@type": "Answer", "text": {{ $f.a }} }
+      }{{ end }}
+    ]
+  }
+  </script>
 </section>
 
 <!-- ====================================================
