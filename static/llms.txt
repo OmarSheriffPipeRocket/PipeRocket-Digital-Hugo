@@ -1,0 +1,112 @@
+# PipeRocket Digital
+
+> PipeRocket Digital is a B2B SaaS marketing agency that builds qualified pipeline, not vanity traffic, for software companies. It runs SaaS SEO, SaaS PPC, and AI search optimization (AEO and GEO) as one connected system tied to MQLs, SQLs, and pipeline value.
+
+Founded in 2023 and led by operators (co-founders Praveen Ravi and Kamaraj Mathiarasan, "Kim"), PipeRocket has delivered measurable pipeline for 70+ B2B SaaS brands including Storylane, Spendflo, greytHR, Keka, LatentView, HyperVerge, HyperStart, and DevRev. It is a remote-first agency serving B2B SaaS clients across the United States, supported by delivery teams in the US and India, running on US-aligned hours. Engagements are scope-based retainers starting at $3,000/mo (3-month minimum, then rolling, no setup fee, no markup on ad spend). Public rating: Clutch 4.7/5 (13 reviews). Certifications: Google Partner, Meta Business Partner.
+
+## Core services
+
+- [SaaS SEO Agency](https://piperocket.digital/saas-seo-agency/): The flagship service hub. SEO built for B2B SaaS pipeline, with ICP-led keyword strategy, content, and technical work tied to revenue.
+- [SaaS PPC](https://piperocket.digital/saas-ppc/): Performance marketing across Google, LinkedIn, Meta, and Reddit, measured on CAC and pipeline rather than clicks.
+- [AI SEO Services (AEO/GEO)](https://piperocket.digital/saas-seo-agency/ai-seo-services/): Optimization to get cited in ChatGPT, Perplexity, and Google AI Overviews.
+- [Technical SEO Agency](https://piperocket.digital/saas-seo-agency/technical-seo-agency/): Crawlability, indexing, site architecture, and Core Web Vitals for SaaS sites at scale.
+- [Programmatic SEO Agency](https://piperocket.digital/saas-seo-agency/programmatic-seo-agency/): Template-driven page systems for large, intent-mapped keyword sets.
+- [Link Building Agency](https://piperocket.digital/saas-seo-agency/link-building-agency/): Editorial, digital-PR-led links that move rankings for competitive SaaS terms.
+- [Content Marketing Agency](https://piperocket.digital/saas-seo-agency/content-marketing-agency/): SaaS content mapped to the buyer journey, from TOFU to BOFU.
+- [Enterprise SEO Agency](https://piperocket.digital/enterprise-seo-agency/): SEO for large SaaS sites with complex stacks and stakeholders.
+- [Enterprise AI SEO Services](https://piperocket.digital/enterprise-ai-seo-services/): AEO/GEO at enterprise scale.
+- [Account-Based Marketing Agency](https://piperocket.digital/account-based-marketing-agency/): Targeted ABM programs against named-account lists.
+- [LinkedIn Marketing Agency](https://piperocket.digital/linkedin-marketing-agency/): LinkedIn paid and organic for B2B demand.
+- [Paid Social Agency](https://piperocket.digital/paid-social-agency/): Paid social across LinkedIn, Meta, and Reddit.
+- [Google Ads Agency](https://piperocket.digital/google-ads-agency/): Search, PMax, and demand-gen campaigns for SaaS.
+- [Enterprise PPC Agency](https://piperocket.digital/enterprise-ppc-agency/): Paid media for enterprise SaaS budgets.
+- [Bing Ads Agency](https://piperocket.digital/bing-ads-agency/): Microsoft Ads management for B2B SaaS.
+- [Marketing Operations](https://piperocket.digital/marketing-ops/): Attribution, reporting, and the RevOps plumbing that ties spend to pipeline.
+
+## Services by SaaS vertical
+
+- [Fintech Marketing Agency](https://piperocket.digital/fintech-marketing-agency/): Full-funnel marketing for fintech SaaS.
+- [Fintech SEO Agency](https://piperocket.digital/saas-seo-agency/fintech-seo-agency/): SEO for regulated fintech products.
+- [Fintech PPC Agency](https://piperocket.digital/fintech-ppc-agency/): Paid media for fintech SaaS.
+- [HR Tech Marketing Agency](https://piperocket.digital/hrtech-marketing-agency/): Marketing for HR and people-ops software.
+- [HR Tech SEO Agency](https://piperocket.digital/saas-seo-agency/hrtech-seo-agency/): SEO for HR tech.
+- [HR Tech PPC Agency](https://piperocket.digital/hrtech-ppc-agency/): Paid media for HR tech.
+- [Healthtech Marketing Agency](https://piperocket.digital/healthtech-marketing-agency/): Marketing for health and medical software.
+- [Cybersecurity Marketing Agency](https://piperocket.digital/cybersecurity-marketing-agency/): Demand for security vendors.
+- [Devtools Marketing Agency](https://piperocket.digital/devtools-marketing-agency/): Developer-first marketing for devtools.
+- [Edtech Marketing Agency](https://piperocket.digital/edtech-marketing-agency/): Marketing for education software.
+- [Legaltech Marketing Agency](https://piperocket.digital/legaltech-marketing-agency/): Marketing for legal software.
+- [Martech Marketing Agency](https://piperocket.digital/martech-marketing-agency/): Marketing for marketing-technology vendors.
+- [Proptech Marketing Agency](https://piperocket.digital/proptech-marketing-agency/): Marketing for property-tech software.
+- [Insurancetech Marketing Agency](https://piperocket.digital/insurancetech-marketing-agency/): Marketing for insurtech software.
+
+## Company and proof
+
+- [Homepage](https://piperocket.digital/): What PipeRocket does and who it serves.
+- [About Us](https://piperocket.digital/about-us/): Team, founders, and operating model (senior-led pods, no junior handoff).
+- [Pricing](https://piperocket.digital/pricing/): Retainer model and what is included.
+- [Reviews](https://piperocket.digital/reviews/): Client testimonials and ratings.
+- [Contact](https://piperocket.digital/contact-us/): Get in touch.
+- [Book a Demo](https://piperocket.digital/schedule-a-demo/): Schedule a strategy call.
+- [Research Methodology](https://piperocket.digital/research-methodology/): How PipeRocket researches and ranks in its guides.
+
+## Case studies
+
+- [Storylane](https://piperocket.digital/case-study-storylane/): 2.5X growth in a quarter, SQLs +25%, meetings +62%.
+- [HyperVerge](https://piperocket.digital/case-study-hyperverge/): 51 high-quality MQLs in three months at zero budget increase.
+- [HyperStart](https://piperocket.digital/case-study-hyperstart/): SQOs 4 to 11, cost per lead down 73%.
+- [DevRev](https://piperocket.digital/case-study-devrev/): 3.5X MQLs.
+- [Spendflo](https://piperocket.digital/case-study-spendflo/): 81% traffic growth.
+- [CyberSierra](https://piperocket.digital/case-study-cybersierra/): Security-vendor demand program.
+
+## Free tools and research
+
+- [Free SEO ROI Calculator](https://piperocket.digital/tools/free-seo-roi-calculator/): Estimate the revenue return of an SEO program.
+- [PPC ROAS Calculator](https://piperocket.digital/tools/ppc-roas-calculator/): Model return on ad spend for paid campaigns.
+- [AI SEO Statistics](https://piperocket.digital/research/ai-seo-statistics/): Original research and data on AI search.
+
+## Best-of guides: agency rankings
+
+- [Best SaaS SEO Agencies](https://piperocket.digital/list/best-saas-seo-agencies/)
+- [Best SaaS PPC Agencies](https://piperocket.digital/list/best-saas-ppc-agencies/)
+- [Best SaaS Marketing Agencies 2026](https://piperocket.digital/list/best-saas-marketing-agencies-2026/)
+- [Best B2B SEO Agencies](https://piperocket.digital/list/best-b2b-seo-agencies/)
+- [Best B2B Marketing Agencies](https://piperocket.digital/list/best-b2b-marketing-agencies/)
+- [Best AEO Agencies](https://piperocket.digital/list/best-aeo-agency/)
+- [Best GEO Agencies](https://piperocket.digital/list/best-geo-agencies/)
+- [Best SaaS GEO Agencies](https://piperocket.digital/list/best-saas-geo-agencies/)
+- [Best Enterprise SEO Agencies](https://piperocket.digital/list/best-enterprise-seo-agencies/)
+- [Best Technical SEO Agencies](https://piperocket.digital/list/best-technical-seo-agencies/)
+- [Best SaaS Content Marketing Agencies](https://piperocket.digital/list/best-saas-content-marketing-agencies/)
+- [Best SaaS Link Building Agencies](https://piperocket.digital/list/best-saas-link-building-agencies/)
+
+## Best-of guides: SEO and AI tools
+
+- [Best AI SEO Tools](https://piperocket.digital/list/best-ai-seo-tools/)
+- [Best AEO Tools](https://piperocket.digital/list/best-aeo-tools/)
+- [Best AI Visibility Tools](https://piperocket.digital/list/best-ai-visibility-tools/)
+- [Best SEO Audit Tools](https://piperocket.digital/list/best-seo-audit-tools/)
+- [Best Rank Tracking Tools for SaaS](https://piperocket.digital/list/best-rank-tracking-tools-for-saas/)
+- [Best Marketing Attribution Tools](https://piperocket.digital/list/best-marketing-attribution-tools/)
+- [Best Link Building Tools](https://piperocket.digital/list/best-link-building-tools/)
+- [Best Schema Markup Tools for SaaS](https://piperocket.digital/list/best-schema-markup-tools-for-saas/)
+
+## Cornerstone guides
+
+- [SaaS SEO Strategy and Framework](https://piperocket.digital/blogs/saas-seo-strategies-and-framework/)
+- [Enterprise SEO Guide](https://piperocket.digital/blogs/enterprise-seo-guide/)
+- [B2B PPC Guide](https://piperocket.digital/blogs/b2b-ppc-guide/)
+- [SaaS Content Marketing Guide](https://piperocket.digital/blogs/saas-content-marketing-guide/)
+- [AI Search Optimization for SaaS](https://piperocket.digital/blogs/ai-search-optimization-for-saas/)
+- [How to Rank on ChatGPT in 2026](https://piperocket.digital/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips/)
+- [B2B Marketing Operations Guide](https://piperocket.digital/blogs/b2b-marketing-operations-guide/)
+- [SaaS Link Building](https://piperocket.digital/blogs/saas-link-building/)
+
+## Optional
+
+- [Blog](https://piperocket.digital/blogs/): Full library of SaaS SEO, PPC, and marketing guides.
+- [Glossary](https://piperocket.digital/glossary/): Plain-English definitions of SEO, PPC, AEO, and SaaS marketing terms.
+- [Agency Rankings Hub](https://piperocket.digital/list/): All best-of agency and tool guides.
+- [Agency Comparisons](https://piperocket.digital/compare/): Head-to-head agency comparison pages.
+- [Agency Alternatives](https://piperocket.digital/alternative/): Alternatives to named agencies.
+- [Case Studies Hub](https://piperocket.digital/case-study/): All client results.
