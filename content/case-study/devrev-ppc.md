@@ -3,7 +3,7 @@ draft: true
 featuredImage: "/images/case-study-covers/devrev-ppc.svg"
 title: "3x Pipeline ROAS: How DevRev Saved a Google Ads Channel That Was About to Be Shut Down"
 slug: "devrev-ppc"
-url: "/case-study-devrev-ppc/"
+url: "/case-study/devrev-ppc/"
 description: "How PipeRocket rebuilt DevRev's Google Ads account around enterprise ICP targeting — growing pipeline 7x and hitting 3x pipeline ROAS on a channel that was weeks from being paused."
 metaTitle: "DevRev Google Ads Case Study: 3x Pipeline ROAS, 7x Growth | PipeRocket"
 metaDescription: "How PipeRocket helped DevRev rescue a Google Ads channel on the verge of closure — rebuilding it around enterprise ICP targeting to deliver 3x pipeline ROAS and 7x pipeline growth."

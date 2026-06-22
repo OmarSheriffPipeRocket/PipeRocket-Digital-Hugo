@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 410" width="100%" role="img" aria-label="Grouped bar chart of quarter-over-quarter change. In Q2 ad spend fell 12% and revenue rose 8%. In Q3 ad spend fell 18% and revenue rose 47%.">
+  <title>Quarter-over-quarter change: ad spend down, revenue up</title>
+  <desc>Change versus the previous quarter. Q2: ad spend −12%, revenue +8%. Q3: ad spend −18%, revenue +47%. Spend bars fall below zero, revenue bars rise above it.</desc>
+
+  <!-- legend -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#3c4043">
+    <rect x="430" y="22" width="12" height="12" fill="#FF0025"/>
+    <text x="448" y="32">Ad spend</text>
+    <rect x="540" y="22" width="12" height="12" fill="#0BA6E2"/>
+    <text x="558" y="32">Revenue</text>
+  </g>
+
+  <!-- gridlines + y labels (%) -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#9aa0a6">
+    <line x1="120" y1="60" x2="700" y2="60" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="98.6" x2="700" y2="98.6" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="137.1" x2="700" y2="137.1" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="175.7" x2="700" y2="175.7" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="214.3" x2="700" y2="214.3" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="291.4" x2="700" y2="291.4" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="330" x2="700" y2="330" stroke="#f0eee8" stroke-width="1"/>
+    <text x="112" y="64" text-anchor="end">+50%</text>
+    <text x="112" y="102.6" text-anchor="end">+40%</text>
+    <text x="112" y="141.1" text-anchor="end">+30%</text>
+    <text x="112" y="179.7" text-anchor="end">+20%</text>
+    <text x="112" y="218.3" text-anchor="end">+10%</text>
+    <text x="112" y="295.4" text-anchor="end">−10%</text>
+    <text x="112" y="334" text-anchor="end">−20%</text>
+  </g>
+
+  <!-- zero baseline -->
+  <line x1="120" y1="252.86" x2="700" y2="252.86" stroke="#0D0D0D" stroke-width="1.5"/>
+  <text x="112" y="256.86" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#6b7280">0%</text>
+
+  <!-- Q2 group: spend -12%, revenue +8% -->
+  <rect x="215" y="252.86" width="60" height="46.24" fill="#FF0025"/>
+  <rect x="285" y="222" width="60" height="30.86" fill="#0BA6E2"/>
+  <text x="245" y="314" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#CC001E">−12%</text>
+  <text x="315" y="215" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#0A6E96">+8%</text>
+
+  <!-- Q3 group: spend -18%, revenue +47% -->
+  <rect x="455" y="252.86" width="60" height="69.43" fill="#FF0025"/>
+  <rect x="525" y="71.57" width="60" height="181.29" fill="#0BA6E2"/>
+  <text x="485" y="337" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#CC001E">−18%</text>
+  <text x="555" y="64" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#0A6E96">+47%</text>
+
+  <!-- x group labels -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#020617" text-anchor="middle">
+    <text x="280" y="362">Q2</text>
+    <text x="520" y="362">Q3</text>
+  </g>
+  <text x="400" y="392" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#9aa0a6">change vs previous quarter</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="100%" role="img" aria-label="Bar chart of six-month growth: inbound leads up 67 percent, total MQLs up 46 percent, US MQLs up 51 percent, UK MQLs up 38 percent.">
+  <title>Lead and MQL growth, six months</title>
+  <desc>Versus the prior six-month period: inbound leads +67%, total MQLs +46%, US MQLs +51%, UK MQLs +38%.</desc>
+
+  <!-- gridlines + y labels -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#9aa0a6">
+    <line x1="120" y1="300" x2="700" y2="300" stroke="#cfcabd" stroke-width="1.5"/>
+    <line x1="120" y1="231.4" x2="700" y2="231.4" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="162.9" x2="700" y2="162.9" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="94.3" x2="700" y2="94.3" stroke="#f0eee8" stroke-width="1"/>
+    <text x="112" y="304" text-anchor="end">0</text>
+    <text x="112" y="235.4" text-anchor="end">+20%</text>
+    <text x="112" y="166.9" text-anchor="end">+40%</text>
+    <text x="112" y="98.3" text-anchor="end">+60%</text>
+  </g>
+
+  <!-- bars -->
+  <rect x="140" y="70.3" width="80" height="229.7" fill="#0BA6E2"/>
+  <rect x="300" y="142.3" width="80" height="157.7" fill="#0BA6E2"/>
+  <rect x="460" y="125.1" width="80" height="174.9" fill="#0BA6E2"/>
+  <rect x="620" y="169.7" width="80" height="130.3" fill="#0BA6E2"/>
+
+  <!-- value labels -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#0A6E96" text-anchor="middle">
+    <text x="180" y="62.3">+67%</text>
+    <text x="340" y="134.3">+46%</text>
+    <text x="500" y="117.1">+51%</text>
+    <text x="660" y="161.7">+38%</text>
+  </g>
+
+  <!-- x labels -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#020617" text-anchor="middle">
+    <text x="180" y="322">Inbound leads</text>
+    <text x="340" y="322">Total MQLs</text>
+    <text x="500" y="322">US MQLs</text>
+    <text x="660" y="322">UK MQLs</text>
+  </g>
+  <text x="410" y="356" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#9aa0a6">growth vs prior six-month period</text>
+</svg>

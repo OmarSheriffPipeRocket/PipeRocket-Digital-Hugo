@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" role="img" aria-label="Line chart of LeadSquared return on spend by quarter: 1.15x in Q1, 1.97x in Q2, dipping below break-even to 0.74x in Q3, then rising to a peak of 3.21x in Q4.">
+  <title>Return on spend by quarter: dip in Q3, peak in Q4</title>
+  <desc>Return on spend was 1.15x in Q1, 1.97x in Q2, fell below the 1.0x break-even line to 0.74x in Q3, then climbed to its highest point of 3.21x in Q4.</desc>
+
+  <!-- gridlines + y labels (x) -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#9aa0a6">
+    <line x1="120" y1="320" x2="700" y2="320" stroke="#ede9e2" stroke-width="1"/>
+    <line x1="120" y1="171.4" x2="700" y2="171.4" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="97.1" x2="700" y2="97.1" stroke="#f0eee8" stroke-width="1"/>
+    <text x="112" y="324" text-anchor="end">0x</text>
+    <text x="112" y="249.7" text-anchor="end">1x</text>
+    <text x="112" y="175.4" text-anchor="end">2x</text>
+    <text x="112" y="101.1" text-anchor="end">3x</text>
+  </g>
+
+  <!-- break-even reference line at 1.0x -->
+  <line x1="120" y1="245.7" x2="700" y2="245.7" stroke="#9aa0a6" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="700" y="241" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#6b7280">break-even (1.0x)</text>
+
+  <!-- x labels -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#020617" text-anchor="middle">
+    <text x="150" y="344">Q1</text>
+    <text x="330" y="344">Q2</text>
+    <text x="510" y="344">Q3</text>
+    <text x="690" y="344">Q4</text>
+  </g>
+
+  <!-- return on spend line (brand blue) -->
+  <polyline points="150,234.6 330,173.7 510,265.0 690,81.5" fill="none" stroke="#0BA6E2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#0BA6E2">
+    <circle cx="150" cy="234.6" r="5"/>
+    <circle cx="330" cy="173.7" r="5"/>
+    <circle cx="690" cy="81.5" r="5"/>
+  </g>
+  <!-- Q3 point below break-even, marked red -->
+  <circle cx="510" cy="265.0" r="5" fill="#FF0025"/>
+
+  <!-- value labels -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold">
+    <text x="150" y="222" text-anchor="middle" fill="#0A6E96">1.15x</text>
+    <text x="330" y="161" text-anchor="middle" fill="#0A6E96">1.97x</text>
+    <text x="510" y="284" text-anchor="middle" fill="#CC001E">0.74x</text>
+    <text x="690" y="69" text-anchor="end" fill="#0A6E96">3.21x</text>
+  </g>
+</svg>

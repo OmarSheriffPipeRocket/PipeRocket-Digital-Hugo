@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="270" viewBox="0 0 390 270">
+  <defs>
+    <clipPath id="es-card-clip">
+      <rect width="390" height="270" rx="6" ry="6"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="390" height="270" fill="#fff" stroke="#d9d5c9" rx="6" ry="6"/>
+
+  <!-- Esri brand arc motif (blue), clipped to card -->
+  <g clip-path="url(#es-card-clip)">
+    <circle cx="370" cy="135" r="90" fill="#0079C1" fill-opacity="0.10"/>
+    <circle cx="370" cy="135" r="58" fill="#0079C1" fill-opacity="0.16"/>
+  </g>
+
+  <!-- Metric 1: AI search traffic -->
+  <text x="32" y="86" font-family="Georgia,'Times New Roman',serif" font-size="52" font-weight="700" fill="#020617">+166%</text>
+  <text x="33" y="107" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#999999" letter-spacing="1.5">AI-SEARCH TRAFFIC (YoY)</text>
+
+  <line x1="33" y1="122" x2="200" y2="122" stroke="#ede9e2" stroke-width="1"/>
+
+  <!-- Metric 2: organic sessions -->
+  <text x="32" y="163" font-family="Georgia,'Times New Roman',serif" font-size="52" font-weight="700" fill="#020617">+25%</text>
+  <text x="33" y="184" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#999999" letter-spacing="1.5">ORGANIC SESSIONS (YoY)</text>
+
+  <!-- Bottom rule + label -->
+  <line x1="33" y1="228" x2="357" y2="228" stroke="#ede9e2" stroke-width="1"/>
+  <text x="33" y="247" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#020617">Esri</text>
+  <text x="68" y="247" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#999999">· +33% new users YoY</text>
+</svg>

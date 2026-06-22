@@ -1,12 +1,12 @@
 ---
 draft: true
 featuredImage: "/images/case-study-covers/leadsquared.svg"
-title: "5x SALs, 70% Less Spend: How LeadSquared Rebuilt Its Google Ads Pipeline with PipeRocket"
+title: "Return on Spend Nearly Tripled: How LeadSquared Rebuilt Its Google Ads Pipeline with PipeRocket"
 slug: "leadsquared"
-url: "/case-study-leadsquared/"
-description: "How PipeRocket rebuilt LeadSquared's Google Ads account around pipeline-qualified intent, cutting spend 70% while growing SALs 5x."
-metaTitle: "LeadSquared Case Study: 5x SALs, −70% Spend | PipeRocket"
-metaDescription: "How PipeRocket helped LeadSquared cut Google Ads spend by 70%, grow SALs 5x, and reduce cost per SAL by 88% by rebuilding the account around pipeline intent."
+url: "/case-study/leadsquared/"
+description: "How PipeRocket rebuilt LeadSquared's Google Ads account around pipeline-qualified intent, nearly tripling return on spend from 1.15x to 3.21x and almost doubling Lead-to-SAL conversion."
+metaTitle: "LeadSquared Case Study: Return on Spend 1.15x to 3.21x | PipeRocket"
+metaDescription: "How PipeRocket rebuilt LeadSquared's Google Ads account around pipeline intent, nearly tripling return on spend (1.15x to 3.21x) and almost doubling Lead-to-SAL conversion."
 client: "LeadSquared"
 logo: "/images/logos/leadsquared.png"
 industry: "SaaS · CRM / Marketing Automation"
@@ -20,17 +20,17 @@ duration: "4 quarters"
 date: 2025-01-01
 short_description: "LeadSquared is a B2B SaaS platform providing CRM and marketing automation for high-velocity enterprise sales teams across India and global markets."
 hero_metrics:
-  - value: "5x"
-    label: "Sales Accepted Leads growth"
-  - value: "−70%"
-    label: "Google Ads spend reduction"
-  - value: "−88%"
-    label: "Cost per SAL reduction"
+  - value: "1.15x → 3.21x"
+    label: "Return on spend across the engagement"
+  - value: "18.9% → 35.9%"
+    label: "Lead-to-SAL conversion"
+  - value: "47.4%"
+    label: "SAL-to-SQL conversion, final quarter"
 secondary_metrics:
   - value: "3.21x"
-    label: "ROI in the final quarter"
-  - value: "−88%"
-    label: "Cost per SAL improvement"
+    label: "Return on spend, final quarter"
+  - value: "Nearly 2x"
+    label: "Lead-to-SAL conversion lift"
 ---
 
 
@@ -62,7 +62,7 @@ Every dollar that stayed in the account was mapped to a keyword that had actuall
 
 ### Pillar 2: Reduced spend without breaking pipeline
 
-Cutting 70% of spend sounds aggressive. The key is knowing which 70% to cut.
+Cutting spend hard sounds aggressive. The key is knowing exactly which spend to cut.
 
 - Identified and paused low-ROI keywords and categories using actual pipeline data, not just CPL
 - Dynamically shifted budget toward high-intent search that was already moving leads into pipeline
@@ -88,25 +88,27 @@ We also ran daily performance hygiene throughout the engagement: search term aud
 
 ## The results
 
-The journey wasn't linear. Q3 was the trough — pipeline being rebuilt, conversion rates dipping as we tightened targeting. Q4 is where everything landed.
+The journey wasn't linear. Q3 was the trough, pipeline being rebuilt and conversion rates dipping as we tightened targeting. Q4 is where everything landed.
 
-*All figures show quarter-over-quarter change.*
+{{< figure src="/images/case-study-leadsquared/return-on-spend-chart.svg" alt="Chart showing LeadSquared's return on spend rising from 1.15x in Q1 to a peak of 3.21x in Q4, dipping below break-even to 0.74x in Q3" caption="Return on spend nearly tripled. It fell below break-even in Q3 during the rebuild, then peaked at 3.21x in Q4." >}}
 
-| Quarter | Pipeline | Lead → SAL | SAL → SQL | Cohort ROI |
-|---------|:--------:|:----------:|:---------:|:----------:|
-| Q1      | Baseline | Baseline   | Baseline  | Baseline   |
-| Q2      | +87%     | +12%       | −9%       | +71%       |
-| Q3      | −86%     | −36%       | −2%       | −62%       |
-| Q4      | +294%    | +166%      | +23%      | +334%      |
+{{< figure src="/images/case-study-leadsquared/results-chart.svg" alt="Chart showing LeadSquared's Lead-to-SAL conversion rising from 18.9% to 35.9% and SAL-to-SQL conversion ending at 47.4%, both peaking in Q4 after a Q3 dip" caption="Lead quality improved at every stage. Both conversion rates dipped in Q3 during the rebuild, then peaked in Q4." >}}
 
-**By Q4, Lead-to-SAL conversion nearly doubled from Q1 and SAL-to-SQL hit its highest point of the engagement.** Spend was down 70% and cost per SAL fell 88%. The account was doing more with less at every stage of the funnel.
+| Quarter | Lead → SAL | SAL → SQL | Return on spend |
+|---------|:----------:|:---------:|:---------------:|
+| Q1      | 18.9%      | 42.9%     | 1.15x           |
+| Q2      | 21.1%      | 39.1%     | 1.97x           |
+| Q3      | 13.5%      | 38.5%     | 0.74x           |
+| Q4      | 35.9%      | 47.4%     | 3.21x           |
 
-Q3 tells the honest part of the story. As we cut low-quality traffic and tightened match types, volume dropped before quality caught up. That's what a structural rebuild actually looks like mid-flight. By Q4, the signal was clean and the results compounded.
+**By Q4, Lead-to-SAL conversion had nearly doubled from Q1 and SAL-to-SQL hit its highest point of the engagement.** Return on spend climbed from 1.15x to 3.21x. The account was doing more with less at every stage of the funnel.
+
+Q3 tells the honest part of the story. As we cut low-quality traffic and tightened match types, volume dropped before quality caught up. That's what a structural rebuild actually looks like mid-flight. By Q4, the signal was clean, conversion quality was at its peak, and every dollar of spend was returning over 3x in pipeline.
 
 ## Why it worked
 
 Three things drove the outcome:
 
 1. **We diagnosed the full funnel, not just the ads.** CPL looked manageable. The problem was downstream. Fixing click-to-lead without fixing lead-to-pipeline would have just moved the problem somewhere else. We rebuilt end-to-end.
-2. **We cut by pipeline contribution, not by spend percentage.** The 70% budget reduction wasn't a target. It was a byproduct of cutting everything that couldn't show pipeline influence, and concentrating what remained on what could.
+2. **We cut by pipeline contribution, not by spend percentage.** The budget reduction wasn't a target. It was a byproduct of cutting everything that couldn't show pipeline influence, and concentrating what remained on what could.
 3. **Messaging alignment compounded.** When the keyword, the ad, and the landing page all say the same thing to the same buyer, conversion rates improve at every stage. That's what happened here. Each fix reinforced the next.

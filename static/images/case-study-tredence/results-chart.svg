@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" role="img" aria-label="Bar chart of growth from 2024 to 2025: blog traffic grew 4.7x, keywords in top 3 grew 3.0x, service and industry traffic grew 1.6x.">
+  <title>Growth by metric, 2024 vs 2025</title>
+  <desc>Comparing full-year 2025 against 2024: blog traffic grew 4.7x, keywords in the top 3 grew 3.0x (27 to 81), and service and industry traffic grew 1.6x.</desc>
+
+  <!-- title + period -->
+  <text x="60" y="26" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#020617">Growth by metric, year over year</text>
+  <text x="60" y="48" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#6b7280">Full-year 2025 vs 2024</text>
+
+  <!-- gridlines + y labels (x) -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#9aa0a6">
+    <line x1="120" y1="330" x2="700" y2="330" stroke="#cfcabd" stroke-width="1.5"/>
+    <line x1="120" y1="282" x2="700" y2="282" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="234" x2="700" y2="234" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="186" x2="700" y2="186" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="138" x2="700" y2="138" stroke="#f0eee8" stroke-width="1"/>
+    <line x1="120" y1="90" x2="700" y2="90" stroke="#f0eee8" stroke-width="1"/>
+    <text x="112" y="334" text-anchor="end">0x</text>
+    <text x="112" y="286" text-anchor="end">1x</text>
+    <text x="112" y="238" text-anchor="end">2x</text>
+    <text x="112" y="190" text-anchor="end">3x</text>
+    <text x="112" y="142" text-anchor="end">4x</text>
+    <text x="112" y="94" text-anchor="end">5x</text>
+  </g>
+
+  <!-- bars -->
+  <rect x="155" y="104.4" width="90" height="225.6" fill="#0BA6E2"/>
+  <rect x="355" y="186" width="90" height="144" fill="#0BA6E2"/>
+  <rect x="555" y="253.2" width="90" height="76.8" fill="#0BA6E2"/>
+
+  <!-- value labels -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#0A6E96" text-anchor="middle">
+    <text x="200" y="96.4">4.7x</text>
+    <text x="400" y="178">3.0x</text>
+    <text x="600" y="245.2">1.6x</text>
+  </g>
+
+  <!-- x labels -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#020617" text-anchor="middle">
+    <text x="200" y="352">Blog traffic</text>
+    <text x="400" y="352">Keywords in top 3</text>
+    <text x="600" y="352">Service &amp; industry</text>
+  </g>
+</svg>
