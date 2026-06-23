@@ -4,7 +4,7 @@ description: "Do you feel like you’re spending more on ads but getting less in
 metaTitle: "B2B Content Marketing: Everything You Need to Know"
 metaDescription: "Turn your website into a 24/7 salesperson. Discover the 2025 B2B content guide to attract better leads and prove ROI."
 date: 2025-12-10
-lastmod: 2026-06-11
+lastmod: 2026-06-23
 slug: "b2b-content-marketing-guide"
 writtenBy: "kim"
 category: "B2B Content Marketing"

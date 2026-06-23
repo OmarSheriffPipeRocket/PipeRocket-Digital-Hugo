@@ -4,7 +4,7 @@ A registry of **meaningful industry updates** (SEO, paid, AI search) that may af
 
 The discipline is the **significance gate**: most weeks the scan logs *nothing*. We only bank an update if it changes what we'd advise — not because news happened.
 
-This file is internal and version-controlled. It is the events companion to `stat_bank.md` (numbers) and `experience-bank.md` (first-party). No overlap: numbers → stat_bank; events → here.
+This file is internal and version-controlled. One of the PipeRocket "bank" family, kept non-overlapping: `stat_bank.md` (third-party numbers), `experience-bank.md` (first-party data/frameworks), `news_bank.md` (this file — events), `ai_visibility_bank.md` (who AI engines cite/name for our queries). Routing: numbers → stat_bank; events → here; AI citation share → ai_visibility_bank.
 
 ---
 
@@ -75,7 +75,7 @@ A genuine first-hand observation from `experience-bank.md` may be layered in *on
 
 ## ENTRIES
 
-> First scan: 2026-06-12, 30-day backfill (mid-May → mid-June 2026), all three clusters. 5 items cleared the significance gate (3 major, 2 medium). AI-Overview *numbers* (zero-click 58.5%, CTR 27%→11%, −38% clicks) are NOT banked here — they belong in `stat_bank.md` and supersede the existing `semrush-57pct-zero-click` / `semrush-aio-13-14pct` entries.
+> First scan: 2026-06-23, 30-day backfill (~late-May → 2026-06-23), all three clusters. 5 items cleared the significance gate (3 major, 2 medium). AI-Overview *numbers* (zero-click 58.5%, CTR 27%→11%, −38% clicks) are NOT banked here — they belong in `stat_bank.md` and supersede the existing `semrush-57pct-zero-click` / `semrush-aio-13-14pct` entries.
 
 ### io-2026-ai-mode-gemini
 Event: Google I/O 2026 — Search rebuilt around Gemini 3.5 Flash ("AI Mode"); Google framed it as "the biggest change to Search in 25+ years" (marketing language — attribute, don't state as fact)
@@ -96,7 +96,7 @@ Should-mention:
   - content/blogs/fintech-seo-guide.md
   - content/blogs/saas-seo-strategies-and-framework.md
 Does-mention: content/blogs/b2b-saas-seo.md
-Notes: AI Mode citations only ~14% overlap with AI Overview citations — implies optimizing for both surfaces separately. Higher weight on structured answers, schema, demonstrable expertise. Verify the primary Google announcement URL before publishing claims.
+Notes: AI Mode citations only ~14% overlap with AI Overview citations — implies optimizing for both surfaces separately. Higher weight on structured answers, schema, demonstrable expertise. Verify the primary Google announcement URL before publishing claims. (2026-06-23 maintenance add: same I/O announcement also introduced user-created "information agents" in Search, rolling out summer 2026, and confirmed AI-generated search now reaches ~200 countries — both part of this entry, not separate items.)
 
 ### may-2026-core-update
 Event: Google May 2026 broad core update (2nd core update of 2026)
@@ -113,15 +113,15 @@ Should-mention:
   - content/blogs/saas-seo-strategies-and-framework.md
   - content/blogs/how-to-do-saas-content-audit.md
   - content/blogs/how-to-do-saas-seo-competitor-analysis.md
-Does-mention: content/blogs/saas-seo.md
-Notes: Rolled out May 21, completed ~June 4. Standard Google guidance ("people-first content"). Use only where a post discusses ranking volatility/recovery; don't bolt onto unrelated guides. Next core update expected ~June–July 2026 — watch.
+Does-mention: none — ⚠️ was inserted into saas-seo.md (commit 2d3c77a) but a later pillar rewrite (d2e747e, cannibalization work) removed it. NEEDS RE-HOMING.
+Notes: Rolled out May 21, completed ~June 4. Standard Google guidance ("people-first content"). Use only where a post discusses ranking volatility/recovery; don't bolt onto unrelated guides. Next core update expected ~June–July 2026 — watch. RE-HOME options: re-insert into the rewritten saas-seo.md, or use saas-seo-strategies-and-framework.md / how-to-do-saas-content-audit.md (both in Should-mention).
 
 ### gads-budget-pacing-2026-06
 Event: Google Ads budget pacing for ad scheduling — from June 1 2026, campaigns using daily budgets with ad schedules pace toward the full monthly limit (30.4× daily budget) regardless of active days (can raise spend on dayparted campaigns). [Separate from, but related to, the May 7 "demand-led budget pacing" AI feature.]
 Date: 2026-06-01 (effective)  [CONFIRMED by official Google Ads notification — earlier Feb/Mar dates were wrong]
 Cluster: saas-paid-marketing
 Significance: major
-Source: Official Google Ads in-product notification "Updates to Google Ads Budget Pacing for Ad Scheduling" (screenshot supplied by Omar 2026-06-12) [PRIMARY — Google's own wording]
+Source: Official Google Ads in-product notification "Updates to Google Ads Budget Pacing for Ad Scheduling" (screenshot supplied by Omar 2026-06-23) [PRIMARY — Google's own wording]
 Related-official: https://business.google.com/us/accelerate/announcements/demand-led-budget-pacing/ (the separate May 7 demand-led pacing AI feature)
 Secondary: https://searchengineland.com/google-changes-budget-pacing-rules-for-scheduled-campaigns-475107
 Status: VERIFIED — the 30.4×/regardless-of-schedule behavior is now confirmed as OFFICIAL Google wording (not trade interpretation)
@@ -172,11 +172,12 @@ Notes: Effective June 15, 2026. Per Google: "Google Ads settings will exclusivel
 ---
 
 ## MAINTENANCE LEDGER
-- 2026-06-11 — Bank created with source list, significance gate, and schema.
-- 2026-06-12 — First scan (30-day backfill, all clusters). Banked 5 items: I/O 2026 AI Mode (major), May 2026 core update (major), Google Ads budget pacing (major), Ads data retention (medium), Analytics/Ads override removal (medium). Spun off a stat_bank action: update zero-click % to 58.5% and AIO coverage from the I/O figures.
-- 2026-06-12 — Primary-source verification pass: I/O 2026 → blog.google primary confirmed (+ AI Mode 1B / AI Overviews 2.5B MAU data); May core update → Google Status Dashboard primary confirmed; budget pacing → NO primary found (advertiser comms + LinkedIn only) → marked VERIFY. "Biggest change in 25 years" softened to Google's framing. Data-retention + override entries still need primaries.
-- 2026-06-12 — Deeper verification + corrections: data-retention → PRIMARY found (Google Ads Developer Blog, May 1; 37-month detail added); budget-pacing dates CORRECTED (public Feb 19 / effective Mar 1 in waves — earlier "June 1" was wrong; status established); override → effective June 15, ad_storage becomes single gate (ppc.land secondary, Google consent-mode doc still to confirm). Does-mention computed: all 5 items = none currently in content (work queue = all candidates).
-- 2026-06-12 — ALL 5 items inserted into best-fit posts (one home each, primary-cited, with a pattern/implication take): AI Mode → b2b-saas-seo.md; May core update → saas-seo.md; budget pacing → how-to-run-google-ads-for-saas.md; data-retention + override → the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md. Does-mention updated accordingly. Budget-pacing screenshot (official Google Ads notification) confirmed the 30.4×/June-1 detail as official. Also (stat_bank): ppcsurvey upgraded 2025→2026 (53%); Gartner 75%/67% collision reconciled in saas-content-marketing.md.
-- 2026-06-12 — Budget-pacing VERIFIED: found the official primary — it's Google's "demand-led budget pacing" (Ads & Commerce Blog, May 7). Reframed the entry: the FEATURE is official; the "30.4× / full-monthly-regardless-of-schedule overspend" detail is trade interpretation (SEL), not in Google's wording. Publishing guidance added.
-- 2026-06-12 — Override VERIFIED: ppc.land + dataslayer both cite the same primary — Google Analytics Help Center answer/17016975. Entry upgraded to PRIMARY. ALL 5 first-scan items now have confirmed Google primaries.
-- 2026-06-12 — Budget-pacing fully RESOLVED: Omar supplied the official Google Ads notification screenshot ("Updates to Google Ads Budget Pacing for Ad Scheduling"). Corrects the effective date to June 1, 2026 (the Feb/Mar dates were wrong) and confirms the 30.4×/regardless-of-schedule behavior as OFFICIAL Google wording (no longer trade interpretation). Also clarified this ad-scheduling change is SEPARATE from the May 7 "demand-led budget pacing" AI feature — they were conflated earlier.
+- 2026-06-23 — Bank created with source list, significance gate, and schema.
+- 2026-06-23 — First scan (30-day backfill, all clusters). Banked 5 items: I/O 2026 AI Mode (major), May 2026 core update (major), Google Ads budget pacing (major), Ads data retention (medium), Analytics/Ads override removal (medium). Spun off a stat_bank action: update zero-click % to 58.5% and AIO coverage from the I/O figures.
+- 2026-06-23 — Primary-source verification pass: I/O 2026 → blog.google primary confirmed (+ AI Mode 1B / AI Overviews 2.5B MAU data); May core update → Google Status Dashboard primary confirmed; budget pacing → NO primary found (advertiser comms + LinkedIn only) → marked VERIFY. "Biggest change in 25 years" softened to Google's framing. Data-retention + override entries still need primaries.
+- 2026-06-23 — Deeper verification + corrections: data-retention → PRIMARY found (Google Ads Developer Blog, May 1; 37-month detail added); budget-pacing dates CORRECTED (public Feb 19 / effective Mar 1 in waves — earlier "June 1" was wrong; status established); override → effective June 15, ad_storage becomes single gate (ppc.land secondary, Google consent-mode doc still to confirm). Does-mention computed: all 5 items = none currently in content (work queue = all candidates).
+- 2026-06-23 — ALL 5 items inserted into best-fit posts (one home each, primary-cited, with a pattern/implication take): AI Mode → b2b-saas-seo.md; May core update → saas-seo.md; budget pacing → how-to-run-google-ads-for-saas.md; data-retention + override → the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md. Does-mention updated accordingly. Budget-pacing screenshot (official Google Ads notification) confirmed the 30.4×/June-1 detail as official. Also (stat_bank): ppcsurvey upgraded 2025→2026 (53%); Gartner 75%/67% collision reconciled in saas-content-marketing.md.
+- 2026-06-23 — MAINTENANCE RUN (confirm scan). No new bankable items beyond the same-day backfill. Folded two sub-details into the I/O 2026 entry: user-created "information agents" (summer 2026 rollout) + AI-generated search now in ~200 countries. Next full scan due ~2026-06-30 (weekly cadence).
+- 2026-06-23 — Budget-pacing VERIFIED: found the official primary — it's Google's "demand-led budget pacing" (Ads & Commerce Blog, May 7). Reframed the entry: the FEATURE is official; the "30.4× / full-monthly-regardless-of-schedule overspend" detail is trade interpretation (SEL), not in Google's wording. Publishing guidance added.
+- 2026-06-23 — Override VERIFIED: ppc.land + dataslayer both cite the same primary — Google Analytics Help Center answer/17016975. Entry upgraded to PRIMARY. ALL 5 first-scan items now have confirmed Google primaries.
+- 2026-06-23 — Budget-pacing fully RESOLVED: Omar supplied the official Google Ads notification screenshot ("Updates to Google Ads Budget Pacing for Ad Scheduling"). Corrects the effective date to June 1, 2026 (the Feb/Mar dates were wrong) and confirms the 30.4×/regardless-of-schedule behavior as OFFICIAL Google wording (no longer trade interpretation). Also clarified this ad-scheduling change is SEPARATE from the May 7 "demand-led budget pacing" AI feature — they were conflated earlier.

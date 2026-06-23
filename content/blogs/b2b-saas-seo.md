@@ -4,7 +4,7 @@ description: "Many B2B SaaS firms are heavy on SEO, chasing the wrong metric: th
 metaTitle: "B2B SaaS SEO: The Ultimate Guide for 2025"
 metaDescription: "Looking for the definitive guide on B2B SaaS SEO? This guide will walk you through what it means, how you should implement it, metrics to track, and more."
 date: 2025-11-24
-lastmod: 2026-06-12
+lastmod: 2026-06-23
 slug: "b2b-saas-seo"
 writtenBy: "kim"
 category: "B2B SEO"

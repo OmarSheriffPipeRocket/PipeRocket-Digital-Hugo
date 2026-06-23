@@ -64,7 +64,7 @@ Action: get listed in <sources> | optimise/create <page> | community seeding | e
 
 ## SEED QUERIES (v1)
 
-> **Data status: SOURCE-LAYER proxy** (Google SERP + listicle contents, 2026-06-12). This captures layer 3 (corroboration) — *which third-party "influencers" rank and whom they name*. It is **NOT** a live per-engine citation check; the AIO/ChatGPT/Perplexity/Gemini "named?" scoreboard is still pending (see Data Collection). Roster: `data/agencies.toml`. Blocklist still applies to *featuring* (TripleDart, RevvGrowth, etc.) but we track them as competitors.
+> **Data status: SOURCE-LAYER proxy** (Google SERP + listicle contents, 2026-06-23). This captures layer 3 (corroboration) — *which third-party "influencers" rank and whom they name*. It is **NOT** a live per-engine citation check; the AIO/ChatGPT/Perplexity/Gemini "named?" scoreboard is still pending (see Data Collection). Roster: `data/agencies.toml`. Blocklist still applies to *featuring* (TripleDart, RevvGrowth, etc.) but we track them as competitors.
 
 ### Cross-query insight (the pattern, not the excuse)
 The agencies that win these queries — **First Page Sage, Onely, Searchbloom, MADX, Omniscient** — are *both the cited source AND the named competitor*. They run a two-part play: **(1) publish a "best X agencies" listicle that ranks, and rank themselves in it; (2) get named across other publishers' lists.** That's replicable, not "they're big." PipeRocket already executes exactly this for **PPC** — and it's the *only* query of the four where we appear. We own listicles for all four (`best-saas-seo-agencies.md`, `best-saas-ppc-agencies.md`, `best-ai-seo-agencies.md`, `best-enterprise-seo-agencies.md`) — but only the PPC one ranks.
@@ -72,7 +72,7 @@ The agencies that win these queries — **First Page Sage, Onely, Searchbloom, M
 **Source-layer PipeRocket share: 1/4 queries.**
 
 ## Query: "best saas seo agencies"  | intent: commercial | cluster: saas-seo
-Source layer (SERP/listicle, 2026-06-12): top "influencers" = firstpagesage.com, position.digital, onely.com, seoprofy.com, aimers.io, newmedia.com, cuttingedgepr.com, aeoengine.ai, tripledart.com *(blocklist)*
+Source layer (SERP/listicle, 2026-06-23): top "influencers" = firstpagesage.com, position.digital, onely.com, seoprofy.com, aimers.io, newmedia.com, cuttingedgepr.com, aeoengine.ai, tripledart.com *(blocklist)*
 Competitors named: MADX Digital, Onely, Position Digital, Rock The Rankings, Omniscient Digital, Grow and Convert, First Page Sage
 PipeRocket present?: **NO** — not named in top third-party lists; own `best-saas-seo-agencies.md` not ranking p1
 Primary lever: corroboration + self-published listicle (we have the asset; it isn't ranking)
@@ -81,7 +81,7 @@ Action: (a) SEO/GEO push to rank `best-saas-seo-agencies.md`; (b) earn inclusion
 Per-engine "named?": _pending live run_
 
 ## Query: "best saas ppc agencies"  | intent: commercial | cluster: saas-paid-marketing
-Source layer (SERP/listicle, 2026-06-12): our own `/list/best-saas-ppc-agencies/` AND `/blogs/best-saas-ppc-agencies/` both rank p1; other sources = linkquest, disruptiveadvertising, rightleft, heydigital, scopicstudios, thesmarketers, revvgrowth *(blocklist)*
+Source layer (SERP/listicle, 2026-06-23): our own `/list/best-saas-ppc-agencies/` AND `/blogs/best-saas-ppc-agencies/` both rank p1; other sources = linkquest, disruptiveadvertising, rightleft, heydigital, scopicstudios, thesmarketers, revvgrowth *(blocklist)*
 Competitors named: Directive, Disruptive Advertising, Powered by Search, KlientBoost, Hey Digital, Bay Leaf Digital, HawkSEM
 PipeRocket present?: **YES** — own listicles rank and PipeRocket is named in aggregate summaries
 Primary lever: working (self-published listicle ranks)
@@ -90,7 +90,7 @@ Action: keep own listicle fresh; pursue inclusion in the third-party lists that 
 Per-engine "named?": _pending live run_
 
 ## Query: "best ai seo agencies"  | intent: commercial | cluster: ai-seo
-Source layer (SERP/listicle, 2026-06-12): top "influencers" = onely.com, firstpagesage.com, searchbloom.com, spicymargarita.co, thriveagency.com, seoprofy.com, embarque.io (29-agency list), commercepundit.com, revvgrowth *(blocklist)*
+Source layer (SERP/listicle, 2026-06-23): top "influencers" = onely.com, firstpagesage.com, searchbloom.com, spicymargarita.co, thriveagency.com, seoprofy.com, embarque.io (29-agency list), commercepundit.com, revvgrowth *(blocklist)*
 Competitors named: Searchbloom, The SEO Works, Tinuiti, Digital Authority Partners, Omniscient, First Page Sage, Thrive, Intero, Victorious
 PipeRocket present?: **NO** — not named; own `best-ai-seo-agencies.md` not ranking p1 (note: we also have `best-geo-agencies.md`, `best-saas-geo-agencies.md`, `best-aeo-agency.md`)
 Primary lever: corroboration + self-published listicle
@@ -99,7 +99,7 @@ Action: rank our AI/GEO/AEO listicles; pitch for inclusion in Embarque + Spicy M
 Per-engine "named?": _pending live run_
 
 ## Query: "best enterprise seo agencies"  | intent: commercial | cluster: saas-seo (enterprise)
-Source layer (SERP/listicle, 2026-06-12): top "influencers" = siegemedia.com, madx.digital, firstpagesage.com, searchbloom.com, ipullrank.com, onelittleweb.com, omniscient, semrush agencies directory, serpsculpt.com, fuelonline.com
+Source layer (SERP/listicle, 2026-06-23): top "influencers" = siegemedia.com, madx.digital, firstpagesage.com, searchbloom.com, ipullrank.com, onelittleweb.com, omniscient, semrush agencies directory, serpsculpt.com, fuelonline.com
 Competitors named: Searchbloom, Directive, Seer Interactive, First Page Sage, iPullRank, NetPeak, OneLittleWeb
 PipeRocket present?: **NO** — not named; own `best-enterprise-seo-agencies.md` not ranking p1
 Primary lever: corroboration — **but entity/authority component is largest here** (named agencies cite Logitech/Verizon/Salesforce-tier clients)
@@ -113,10 +113,10 @@ Per-engine "named?": _pending live run_
 Source-layer proxy first; per-engine columns fill once live runs start.
 | Date | Query | Source-layer (PR present?) | AIO | ChatGPT | Perplexity | Gemini |
 |---|---|---|---|---|---|---|
-| 2026-06-12 | best saas seo agencies | ✗ | — | — | — | — |
-| 2026-06-12 | best saas ppc agencies | ✓ | — | — | — | — |
-| 2026-06-12 | best ai seo agencies | ✗ | — | — | — | — |
-| 2026-06-12 | best enterprise seo agencies | ✗ | — | — | — | — |
+| 2026-06-23 | best saas seo agencies | ✗ | — | — | — | — |
+| 2026-06-23 | best saas ppc agencies | ✓ | — | — | — | — |
+| 2026-06-23 | best ai seo agencies | ✗ | — | — | — | — |
+| 2026-06-23 | best enterprise seo agencies | ✗ | — | — | — | — |
 
 ---
 
@@ -124,5 +124,5 @@ Source-layer proxy first; per-engine columns fill once live runs start.
 Source layer (layer 3) is done via web research above. The per-engine "named?" scoreboard (layer A) still needs live runs — options: manual (4 queries is small), custom API pipeline (Perplexity Sonar + OpenAI web_search + Gemini grounding + SerpApi for AIO), or an off-the-shelf GEO tool. Whatever we pick must: hit multiple engines, fresh/no-personalization sessions, 2–3 phrasings/query, re-run on a cadence.
 
 ## MAINTENANCE LEDGER
-- 2026-06-12 — Bank framework created (4-layer model, foundation checklist, per-query schema, 4 seed queries).
-- 2026-06-12 — Source-layer research done for all 4 queries (Google SERP + listicle contents). Finding: PipeRocket appears only for "best saas ppc agencies" (own listicles rank); absent from SaaS-SEO, AI-SEO, Enterprise-SEO despite owning listicles for all. Recurring winners (First Page Sage, Onely, Searchbloom, MADX, Omniscient) run the "publish-a-ranking-list + get-cross-listed" play we already win at for PPC. Per-engine live scoreboard still pending.
+- 2026-06-23 — Bank framework created (4-layer model, foundation checklist, per-query schema, 4 seed queries).
+- 2026-06-23 — Source-layer research done for all 4 queries (Google SERP + listicle contents). Finding: PipeRocket appears only for "best saas ppc agencies" (own listicles rank); absent from SaaS-SEO, AI-SEO, Enterprise-SEO despite owning listicles for all. Recurring winners (First Page Sage, Onely, Searchbloom, MADX, Omniscient) run the "publish-a-ranking-list + get-cross-listed" play we already win at for PPC. Per-engine live scoreboard still pending.

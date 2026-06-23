@@ -4,7 +4,7 @@ description: "One month you have leads flowing in… the next month everything s
 metaTitle: "B2B Lead Generation: Everything You Need to Know"
 metaDescription: "A comprehensive guide to b2b lead generation in 2025. Learn how to attract, qualify, and nurture high-intent leads using various marketing strategies."
 date: 2025-11-28
-lastmod: 2026-06-12
+lastmod: 2026-06-23
 slug: "b2b-lead-generation"
 writtenBy: "praveen"
 category: "B2B Lead Generation"

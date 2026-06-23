@@ -5,7 +5,7 @@ description: "60+ AI SEO statistics, updated June 2026, drawn from 8 months of a
 metaTitle: "60+ AI SEO Statistics (Updated June 2026, B2B SaaS Data)"
 metaDescription: "60+ AI SEO statistics updated June 2026, from 8 months of real analytics and CRM data across 53 B2B SaaS brands. AI vs organic compared."
 date: 2026-04-06
-lastmod: 2026-06-12
+lastmod: 2026-06-23
 slug: "ai-seo-statistics"
 url: "/research/ai-seo-statistics/"
 writtenBy: "kim"
