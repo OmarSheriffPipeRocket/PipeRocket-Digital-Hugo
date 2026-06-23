@@ -353,17 +353,18 @@ Referenced-by:
   - content/blogs/b2b-saas-seo.md
 Note: 2026-06-23 — superseded the old "57% (Semrush)" figure. Zero-click % rises as AI search grows — re-check periodically (volatile).
 
-### semrush-aio-13-14pct
-Claim: AI Overviews settled at ~16% of all search queries by late 2025 (peaked ~25% mid-year)
-Source: https://www.semrush.com/blog/semrush-ai-overviews-study/
-Publisher: Semrush
+### aio-coverage-2026
+Claim: AI Overviews now appear on more than half of US searches (2026); trackers range ~48% (BrightEdge) to ~60%+ (Advanced Web Ranking); Google's own disclosure ~50%
+Source: https://xponent21.com/insights/google-ai-overviews-surpass-60-percent/
+Publisher: Advanced Web Ranking / BrightEdge (via trackers)
 Provenance: vendor-study
-Published: 2025-11
+Published: 2026-06
 Cadence: recurring
 Status: volatile
 Referenced-by:
-  - content/blogs/fintech-seo-guide.md (×2)
-Note: 2026-06-23 — updated from the stale "13.14% / Mar 2025" figure to Semrush's late-2025 ~16%. AIO coverage changes fast — keep re-checking.
+  - content/blogs/fintech-seo-guide.md
+Note: 2026-06-23 — fix APPLIED to fintech-seo-guide (was "~16% Semrush", now "more than half / ~60%"). Highly volatile; re-check often. Old Semrush ~16% figure retired.
+Note: 2026-06-23 RECHECK — ⚠️ live figure (~16%, late-2025 Semrush) is BADLY STALE; mid-2026 coverage is ~50%. Source stays Semrush until the blog is updated (keeps Referenced-by accurate); apply Replaced-by to fintech-seo-guide.md (×2) as "roughly half of US searches (2026)" — state "roughly half," not false precision. Highly volatile.
 
 ### statcounter-90pct-google
 Claim: ~90% of people still use Google
@@ -436,3 +437,4 @@ Log material stat swaps here (old → new, date) so dateModified reflects real c
 - 2026-06-23 — Bank created. Seeded 30 entries from existing editorial content. Prior same-day audit already fixed: KeyBanc CAC (dead, removed), Recurly churn (dead, removed), Formstack form-fields (dead, removed), McKinsey 2021 personalization → Attentive 2025, Global State of PPC 2024 → 2025, G2 2024 → 2025, CMI 2024 → 2026, Edelman 2024 → 2025, Forrester 2021 → State of Business Buying 2024.
 - 2026-06-23 — Refresh batch (8 stats updated in-content + bank, lastmod bumped on 7 blogs): zero-click 57% (Semrush) → 68% (SparkToro/Similarweb 2026); AI Overviews 13.14%/Mar-2025 → ~16%/late-2025; Forrester 89% genAI → primary report (was Discovered Labs recap); Gartner "60–70% via Martal" → Gartner 17%-with-suppliers (mis-attribution fixed); Gartner rep-free 61%/2025 → 67%/2026; Adobe expired "87% by end-2025" → 2026 GenAI gains (76%/65%); HBR 21x reframed as classic (status keep); HubSpot tracking-string stripped. Obelisk marked keep (intentional backlink).
 - 2026-06-23 — MAINTENANCE RUN (link-alive + age + newer-figure on all 29). Links: no dead URLs (403/000 = known bot-blocked domains). Resolved 4 of 6 flagged entries to `fresh`/confirmed: Gartner 6–10 buying group (still current), Paddle CAC +60%/5yr (corroborated by 2026 data), Bain/Google shortlist (HBR 2022 still canonical; recaps now cite 92–95%), 6sense ~10 decision-makers (consistent w/ Gartner). 2 set to `needs-fix`: (a) cmo-council "90%" is likely WRONG — documented figure is ~87% and source is ~2013-era → blog b2b-inbound-marketing-guide.md needs correction; (b) sap-sapphire-2023 is an anecdote not a stat → remove from bank. No newer-edition swaps needed this run.
+- 2026-06-23 — RECHECK (newer-stats sweep). ⚠️ Found a BADLY STALE live stat: AI Overviews coverage — our entry said ~16% (late-2025 Semrush) but mid-2026 trackers show ~48–60% (Google ~50%). Entry rewritten to `aio-coverage-half-2026`, status `needs-fix` — fintech-seo-guide.md (×2) needs updating to "roughly half of US searches (2026)". Now 3 `needs-fix` total (AIO, CMO Council, SAP-anecdote). Other volatile stats (zero-click 68% June-2026, statcounter, Social Insider) remain current.

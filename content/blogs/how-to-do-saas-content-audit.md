@@ -4,7 +4,7 @@ description: "Most SaaS companies publish content, wait a few months, and then w
 metaTitle: "How We Effectively Run A SaaS Content Audit in 2026"
 metaDescription: "A practical SaaS content audit: how to find pages eating crawl budget, decide what to keep, rewrite, merge, or kill, and turn audits into ranking moves."
 date: 2026-03-11
-lastmod: 2026-05-13
+lastmod: 2026-06-23
 slug: "how-to-do-saas-content-audit"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -191,7 +191,7 @@ This is the metric that closes the loop. You’re looking for sustained, compoun
 
 ## **When Should You Actually Run a SaaS Content Audit?**
 
-This is the question most people skip which leads to either auditing too early when there’s nothing meaningful to fix, or too late when the damage has already set in. There’s no single universal rule, but there are four clear signals that tell me it’s time.
+This is the question most people skip which leads to either auditing too early when there’s nothing meaningful to fix, or too late when the damage has already set in. There’s no single universal rule, but there are five clear signals that tell me it’s time.
 
 ### **When Your Rankings Are Dropping Consistently**
 
@@ -202,6 +202,10 @@ Search intent shifts over time, and a piece that perfectly matched the SERP two 
 The drift is silent and gradual, which is exactly what makes it dangerous. The moment you notice consistent position drops with no clear external cause, that’s your cue to start digging.
 
 Start from a clean view of the SERP using our [SaaS SEO competitor analysis](/blogs/how-to-do-saas-seo-competitor-analysis/ "SaaS SEO Competitor Analysis") walk-through.
+
+### **After a Google Core Update**
+
+A core update is the clearest "audit now" signal there is. Google's core updates keep rewarding the same thing, helpful and people-first content, while squeezing thin or outdated pages, and the May 2026 core update was no exception ([Google Search Status](https://status.search.google.com/incidents/wdAXJk6LRRihEjpzEeWE)). If your rankings moved when one rolled out, the update didn't break your site. It re-scored your existing content against that bar. An audit is how you find the pages that slipped and close the quality gap, instead of waiting for the next update to do it to you again.
 
 ### **When Your Organic Traffic Is Stale**
 

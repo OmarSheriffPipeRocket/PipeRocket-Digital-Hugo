@@ -671,7 +671,7 @@ Best for: B2B SaaS and fintech GEO with a proprietary AI-visibility tool
 | Founded | 2020 |
 | Team Size | 10-49 people |
 | Notable Clients | TextCortex, AuthoredUp, ANNA Money, Payoneer, WorldFirst, Global App Testing |
-| Specialization | B2B SaaS and fintech SEO + GEO |
+| Specialization | B2B SaaS and [fintech SEO](/blogs/fintech-seo-guide/) + GEO |
 
 **Differentiator:** Omnius caps its roster at roughly 8 clients a year and runs a 12-week internal academy before anyone touches client work. Its GEO program deploys LLMs.txt, AEO schema, and citation engineering across Reddit, Quora, G2, and Gartner, tracked with a proprietary AI-visibility tool built in early 2024.
 
@@ -743,7 +743,7 @@ Honestly, AI visibility tracking is a mess. Most tools sample or guess. Stop obs
 
 ### How do we get our SaaS mentioned in ChatGPT answers when buyers research tools?
 
-Earn citations from sources LLMs trust: comparison pages, third-party reviews, and structured, factual content with clear entities. Show up where both buyers and models already look.
+Earn citations from sources LLMs trust: [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), third-party reviews, and structured, factual content with clear entities. Show up where both buyers and models already look.
 
 ### How much should a B2B SaaS company pay for AI SEO?
 

@@ -113,7 +113,7 @@ Should-mention:
   - content/blogs/saas-seo-strategies-and-framework.md
   - content/blogs/how-to-do-saas-content-audit.md
   - content/blogs/how-to-do-saas-seo-competitor-analysis.md
-Does-mention: none — ⚠️ was inserted into saas-seo.md (commit 2d3c77a) but a later pillar rewrite (d2e747e, cannibalization work) removed it. NEEDS RE-HOMING.
+Does-mention: content/blogs/how-to-do-saas-content-audit.md (re-homed 2026-06-23 as a 5th "when to audit" trigger, after the saas-seo pillar rewrite clobbered the original insertion)
 Notes: Rolled out May 21, completed ~June 4. Standard Google guidance ("people-first content"). Use only where a post discusses ranking volatility/recovery; don't bolt onto unrelated guides. Next core update expected ~June–July 2026 — watch. RE-HOME options: re-insert into the rewritten saas-seo.md, or use saas-seo-strategies-and-framework.md / how-to-do-saas-content-audit.md (both in Should-mention).
 
 ### gads-budget-pacing-2026-06
@@ -169,6 +169,87 @@ Should-mention:
 Does-mention: content/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md
 Notes: Effective June 15, 2026. Per Google: "Google Ads settings will exclusively control Google Ads data" and "Google Analytics settings will exclusively control data used within Google Analytics." `ad_storage` in Consent Mode becomes the single gate for ad-data collection; Google Signals in GA4 no longer controls Ads data. Conversion tracking itself unchanged — what changes is how Ads cookies/IDs are collected via the GA4 tag. Primary confirmed via Google Analytics Help Center.
 
+### gads-bidding-budgeting-overhaul-2026-06
+Event: Google Ads bidding & budgeting overhaul — 3 changes announced June 15 2026: (1) Bidding Target Optimization (auto Aug 17; pulls budget-limited over-delivering campaigns back to target; Bid Target Adjustment Tool ships July 6); (2) Smart Bidding Exploration expands to all PMax w/o feeds (+18% query categories, +19% conversions); (3) Promotion Mode beta (temporary ROAS/budget boosts for peak events). Also a RENAME: "Maximize conversions w/ Target CPA" → "Target CPA"; "Maximize conversion value w/ Target ROAS" → "Target ROAS".
+Date: 2026-06-15 (announced) — Bidding Target Optimization auto-applies 2026-08-17
+Cluster: saas-paid-marketing
+Significance: major
+Source: https://business.google.com/us/accelerate/announcements/  [PRIMARY — Google Ads product announcements; confirm exact post]
+Secondary: https://ppc.land/google-ads-gets-promotion-mode-and-a-major-bidding-overhaul-this-august/ ; https://almcorp.com/news/google-ads-three-bidding-budgeting-updates-june-2026/
+Status: breaking
+Reframe-by: 2026-10
+Action: update-advice
+Should-mention:
+  - content/blogs/how-to-run-google-ads-for-saas.md
+  - content/blogs/saas-ppc.md
+  - content/blogs/b2b-ppc-guide.md
+  - content/blogs/the-8-common-saas-google-ads-mistakes-to-avoid-in-2026.md
+Does-mention: none
+Notes: The Target CPA/ROAS RENAME matters for our PPC content — any guide using the old "Maximize conversions w/ a target CPA" phrasing should update (rename-lint candidate). Bidding Target Optimization is the behavioral change to flag (auto Aug 17). Verify the exact Google announcement post before publishing.
+
+### google-unconfirmed-update-2026-06-19
+Event: Unconfirmed Google ranking update (~June 19 2026) — community reports of movement hitting spam/black-hat tactics; most volatility trackers stayed calm; Google has NOT confirmed or named it
+Date: 2026-06-19 (reported)
+Cluster: saas-seo
+Significance: medium
+Source: https://www.seroundtable.com/google-search-ranking-volatility-41523.html  [SECONDARY — Search Engine Roundtable]
+Status: VERIFY — unconfirmed by Google
+Reframe-by: n/a
+Action: watch (do NOT insert)
+Should-mention: (none — watch only)
+Does-mention: none
+Notes: Per the primary-source rule, do NOT publish as a "Google update" — it's unconfirmed and unnamed. Watch item only; promote to a real entry if/when Google confirms. Caps a month of near-continuous June volatility on top of the (confirmed) May core update.
+
+### chatgpt-brand-links-2026-05
+Event: ChatGPT made brand names clickable callouts inside responses (May 7 2026) — total ChatGPT referrals reportedly +157.7% week-over-week after the change
+Date: 2026-05-07
+Cluster: ai-seo
+Significance: medium
+Source: https://higoodie.com/blog/ai-search-traffic-report-2026/  [SECONDARY — trade/traffic report; find a primary OpenAI/ChatGPT source before publishing the +157.7% figure]
+Status: VERIFY
+Reframe-by: 2026-09
+Action: insert-mention
+Should-mention:
+  - content/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips.md
+  - content/blogs/research-ai-seo-statistics.md
+Does-mention: none
+Notes: Strengthens the "get cited inside AI answers" thesis — citations are now clickable, so AI-citation traffic is more measurable. The +157.7% WoW is a third-party traffic-tool figure; treat as illustrative until a primary confirms.
+
+### google-ai-search-guidance-2026
+Event: Google published official AI-search guidance (mid-2026) stating AEO/GEO are "still SEO" (not separate disciplines) and that **llms.txt, content chunking, AI-specific rewriting, and special schema are NOT needed** for its generative AI features; AI-focused site files may be crawled but get no special treatment.
+Date: 2026-06
+Cluster: ai-seo, saas-seo
+Significance: major
+Source: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide  [PRIMARY — Google Search Central, confirmed 2026-06-23]
+Secondary: https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026/
+Status: VERIFIED
+Does-mention: content/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks.md (live as of 2026-06-23 rewrite)
+Reframe-by: 2026-10
+Action: update-advice
+Should-mention:
+  - content/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips.md
+  - content/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks.md
+  - content/blogs/saas-seo.md
+Does-mention: none
+Notes: ⚠️ CONTENT-CHECK NEEDED — this may CONTRADICT our own advice. saas-seo.md Step 8 recommends `llms.txt`; our GEO/AEO framing treats AI optimisation as somewhat distinct. Google now says those special tactics aren't required and AEO/GEO ≈ SEO. Decide our editorial stance (we can still argue llms.txt is low-cost insurance, but must acknowledge Google's position) and reconcile across the ai-seo cluster. Strong "take" candidate for the newsletter (pattern: Google keeps collapsing "AI SEO" hype back into fundamentals).
+
+### gads-campaign-type-migrations-2026
+Event: Google Ads campaign-type shifts (2026): (a) DSA→AI Max auto-migration DELAYED from Sept 2026 to Feb 2027, DSA creation returned, and AI Max is now the DEFAULT for new Search campaigns; (b) standalone Display campaigns being retired in favour of Demand Gen, with an in-product migration tool rolling out June 2026; (c) new Gemini-powered ad formats from GML 2026 (Conversational Discovery ads, Highlighted Answers, AI Shopping ads, Business Agent for Leads).
+Date: 2026-06
+Cluster: saas-paid-marketing
+Significance: medium
+Source: https://searchengineland.com/google-delays-dynamic-search-ads-migration-to-ai-max-480049  [SECONDARY]
+Secondary: https://www.searchenginejournal.com/google-is-retiring-standalone-display-campaigns-in-favor-of-demand-gen/575889/ ; https://searchengineland.com/google-tests-new-conversational-ad-formats-in-ai-mode-and-search-478115
+Status: breaking
+Reframe-by: 2026-12
+Action: update-advice
+Should-mention:
+  - content/blogs/how-to-run-google-ads-for-saas.md
+  - content/blogs/saas-ppc.md
+  - content/blogs/b2b-ppc-guide.md
+Does-mention: none
+Notes: Net direction = Google pushing advertisers onto AI-driven campaign types (AI Max, Demand Gen) and Gemini ad formats. Relevant to any guide that discusses campaign-type selection or DSA. AI Max default + DSA-migration timeline (now Feb 2027) is the actionable bit. Confirm exact primaries (Google Ads announcements) before publishing specifics.
+
 ---
 
 ## MAINTENANCE LEDGER
@@ -181,3 +262,5 @@ Notes: Effective June 15, 2026. Per Google: "Google Ads settings will exclusivel
 - 2026-06-23 — Budget-pacing VERIFIED: found the official primary — it's Google's "demand-led budget pacing" (Ads & Commerce Blog, May 7). Reframed the entry: the FEATURE is official; the "30.4× / full-monthly-regardless-of-schedule overspend" detail is trade interpretation (SEL), not in Google's wording. Publishing guidance added.
 - 2026-06-23 — Override VERIFIED: ppc.land + dataslayer both cite the same primary — Google Analytics Help Center answer/17016975. Entry upgraded to PRIMARY. ALL 5 first-scan items now have confirmed Google primaries.
 - 2026-06-23 — Budget-pacing fully RESOLVED: Omar supplied the official Google Ads notification screenshot ("Updates to Google Ads Budget Pacing for Ad Scheduling"). Corrects the effective date to June 1, 2026 (the Feb/Mar dates were wrong) and confirms the 30.4×/regardless-of-schedule behavior as OFFICIAL Google wording (no longer trade interpretation). Also clarified this ad-scheduling change is SEPARATE from the May 7 "demand-led budget pacing" AI feature — they were conflated earlier.
+- 2026-06-23 — RECHECK (newer-news sweep, mid→late June). Added 3 entries: (1) gads-bidding-budgeting-overhaul (June 15, MAJOR — Bidding Target Optimization auto Aug 17, Smart Bidding Exploration → all PMax, Promotion Mode beta, + Target CPA/ROAS rename); (2) google-unconfirmed-update-2026-06-19 (medium, VERIFY — unconfirmed/unnamed, watch only); (3) chatgpt-brand-links (May 7, medium, VERIFY — clickable brand callouts, +157.7% WoW referrals per trade tool). Stat side flagged separately: AI Overviews coverage now ~50% (was ~16%) → stat_bank needs-fix.
+- 2026-06-23 — SEJ + SEL targeted scan (Omar request). Added 2 more: (4) google-ai-search-guidance-2026 (MAJOR — "AEO/GEO still SEO"; llms.txt/chunking/special-schema NOT needed → ⚠️ may contradict our saas-seo.md llms.txt advice; content-check flagged); (5) gads-campaign-type-migrations-2026 (medium — DSA→AI Max delayed to Feb 2027 + AI Max now default; Display→Demand Gen; new Gemini ad formats). News_bank now holds 10 entries.

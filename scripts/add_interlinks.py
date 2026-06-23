@@ -372,6 +372,9 @@ LINK_MAP = [
     ("site audit tools", "/list/best-seo-audit-tools/", False, "P1"),
     ("technical SEO audit tools", "/list/best-seo-audit-tools/", False, "P1"),
 
+    # ---- fintech SEO pillar added 2026-06-23 ----
+    ("fintech SEO", "/blogs/fintech-seo-guide/", False, "P0"),
+
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),
     # ("best SaaS SEO agencies", "/list/best-saas-seo-agencies/", False, "P1"),
