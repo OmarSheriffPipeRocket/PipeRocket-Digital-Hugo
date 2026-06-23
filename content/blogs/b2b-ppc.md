@@ -4,7 +4,7 @@ description: "Most B2B teams question whether PPC is worth it.  You spend money
 metaTitle: "B2B PPC: A Complete 2026 Strategy Guide for SaaS Teams"
 metaDescription: "B2B PPC strategy for 2026: how to build campaigns that generate qualified pipeline, not just clicks. ICP mapping, intent tiers, and budget allocation."
 date: 2025-11-28
-lastmod: 2026-06-23
+lastmod: 2026-05-13
 slug: "b2b-ppc"
 writtenBy: "praveen"
 category: "B2B PPC"

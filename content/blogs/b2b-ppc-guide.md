@@ -5,7 +5,7 @@ metaTitle: "What is B2B PPC and How to Run Campaigns That Convert"
 metaDescription: "A practical b2b ppc guide covering campaign structure, ad copy, landing pages, and how to track what your spend is actually doing for pipeline."
 date: 2026-04-08
 featuredImage: "/images/blog-covers/b2b-ppc-guide.webp"
-lastmod: 2026-06-23
+lastmod: 2026-05-13
 slug: "b2b-ppc-guide"
 writtenBy: "praveen"
 category: "B2B PPC"

@@ -4,7 +4,7 @@ description: "B2B marketing has a big problem right now: every brand sounds exac
 metaTitle: "B2B Marketing Guide: How Modern Buyers Research & Convert"
 metaDescription: "Learn how B2B marketing works in 2025. Explore strategies, buyer journeys, funnels, trends, and tactics that drive trust, pipeline, and revenue."
 date: 2025-11-28
-lastmod: 2026-06-23
+lastmod: 2026-05-13
 slug: "b2b-marketing"
 writtenBy: "praveen"
 category: "B2B Marketing"

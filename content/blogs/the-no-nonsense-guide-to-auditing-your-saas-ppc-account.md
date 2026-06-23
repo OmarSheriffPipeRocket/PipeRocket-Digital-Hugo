@@ -4,7 +4,7 @@ description: "We’ve all been there. You’re staring at a Google Ads dashboard
 metaTitle: "How to Conduct a SaaS PPC Audit in 2026?"
 metaDescription: "Wondering how to conduct a PPC account audit for your SaaS product? Here's a complete phase-by-phase guide to help you audit your SaaS PPC account."
 date: 2026-01-12
-lastmod: 2026-06-23
+lastmod: 2026-05-13
 slug: "the-no-nonsense-guide-to-auditing-your-saas-ppc-account"
 writtenBy: "praveen"
 category: "SaaS PPC"
