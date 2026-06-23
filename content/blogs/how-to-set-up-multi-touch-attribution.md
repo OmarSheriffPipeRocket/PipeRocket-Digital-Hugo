@@ -3,8 +3,8 @@ title: "How to Set Up Multi-Touch Attribution for SaaS SEO"
 description: "A hands-on setup guide for multi-touch attribution in a B2B SaaS marketing team. Pick a model, wire your CRM and analytics, choose tooling, and validate the data so the credit you report actually holds up."
 metaTitle: "How to Set Up Multi-Touch Attribution"
 metaDescription: "A practical setup guide for multi-touch attribution in B2B SaaS: pick a model, wire your CRM and analytics, choose tooling, and validate the data."
-date: 2026-06-18
-lastmod: 2026-06-18
+date: 2026-06-23
+lastmod: 2026-06-23
 slug: "how-to-set-up-multi-touch-attribution"
 writtenBy: "omar"
 category: "SaaS SEO"

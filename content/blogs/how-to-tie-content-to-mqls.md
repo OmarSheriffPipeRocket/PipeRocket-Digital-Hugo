@@ -3,7 +3,7 @@ title: "How to Tie Content to MQLs in B2B SaaS"
 description: "Most SaaS content libraries have a handful of pages doing all the MQL work and dozens just pulling sessions, and nobody knows which is which. Here's the method we use to tie individual content to marketing-qualified leads, find the pages that actually produce them, and score leads by what they read."
 metaTitle: "How to Tie Content to MQLs (B2B SaaS)"
 metaDescription: "Tie content to MQLs page by page: find which posts produce qualified leads, score leads by what they read, and build more of what actually works."
-date: 2026-06-18
+date: 2026-06-23
 slug: "how-to-tie-content-to-mqls"
 writtenBy: "ranjeeth"
 category: "SaaS SEO"
@@ -30,7 +30,12 @@ Here's the part most teams get wrong. They assume the content-to-MQL connection 
 
 This guide assumes that connection is already in place. If your leads don't carry the source and the pages they viewed into your CRM, that's the prerequisite, and the mechanics of wiring organic search to your CRM pipeline are a separate method. Here, we're past the plumbing. We're answering a different question: of the content you already have, which pieces make qualified leads?
 
-That question splits your library into two piles. One pile creates MQLs. The other creates an audience. Both have value. They are not the same content, and treating them as one number is why content programs stall.
+That question splits your library into two piles, and both have value:
+
+- one pile creates **MQLs**
+- the other creates an **audience**
+
+They are not the same content, and treating them as one number is why content programs stall.
 
 ## Step 1: Sort Your Content by the MQL Job It Does
 
@@ -82,7 +87,11 @@ Stop treating every lead as equal the second they fill a form. The content a per
 
 The framing our team keeps coming back to: stop chasing traffic, start chasing signals. The work isn't to maximise sessions. It's to feed lead-scoring signals, who visited, which pages, how often, into how you qualify and prioritise a lead.
 
-In practice that means content-weighting your lead score, using the same weights from the table above. Pricing, comparison, alternative, and demo-adjacent pages signal active evaluation and earn heavy weight. Repeat visits to use-case or integration pages that match your [ICP](/glossary/what-is-icp/)'s problem earn moderate weight. A single visit to a top-of-funnel definition post is awareness, not intent, so it earns light or zero weight.
+In practice that means content-weighting your lead score, using the same weights from the table above:
+
+- **Heavy weight:** pricing, comparison, alternative, and demo-adjacent pages signal active evaluation.
+- **Moderate weight:** repeat visits to use-case or integration pages that match your [ICP](/glossary/what-is-icp/)'s problem.
+- **Light or zero weight:** a single visit to a top-of-funnel definition post is awareness, not intent.
 
 This changes who sales calls first. A lead who downloaded one checklist looks identical to a lead who read your pricing page three times and your main competitor comparison once, until you let the content weight pull them apart. The second lead is an MQL with a clear story. The first is a name on a list.
 

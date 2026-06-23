@@ -135,15 +135,36 @@ The moment you change how you count, you lose the ability to show a trend, and t
 
 ## Common Mistakes That Make SEO ROI Look Fake
 
-The fastest way to lose a finance team's trust is a number that's technically true but obviously gamed. A few patterns do this every time.
+The fastest way to lose a finance team's trust is a number that's technically true but obviously gamed. Four patterns do it every time, and each one has a tell a CFO spots in seconds.
 
-**Reporting traffic value as ROI.** Tools will tell you your organic traffic is "worth $80,000 in equivalent ad spend." That's a made-up number finance has seen before and learned to ignore. Equivalent ad value isn't pipeline and it isn't revenue, so leave it out of the ROI case entirely.
+### Reporting Traffic Value as ROI
 
-**Counting assisted conversions as direct.** Multi-touch credit is useful context, but if you fold influenced pipeline into your headline ROI figure, one sharp question unravels the whole report. Keep the defensible number and the directional number in separate columns.
+SEO tools will tell you your organic traffic is "worth $80,000 in equivalent ad spend." Finance learned to ignore that line years ago: it's a hypothetical, not money in the bank, and it assumes you'd have bought the traffic at full CPC, which no one would. Keep it out of the ROI case, or at most park it in the appendix as a directional brand metric.
 
-**Ignoring the cost side.** Plenty of "10x ROI" claims only count the agency retainer and quietly drop tooling, content production, and internal hours. A real ROI number uses the fully-loaded cost, even when that makes the ratio less flattering.
+### Counting Assisted Conversions as Direct
 
-**Switching the method to flatter the quarter.** Changing attribution rules or benchmarks between reports produces a great-looking number and zero credibility. Pick the method once and hold it, even on a bad quarter.
+Multi-touch credit is genuinely useful context, but folding influenced pipeline into your headline ROI figure is where reports come apart. The moment a board member asks "is that pipeline organic-sourced or just organic-touched?" and the honest answer is "both, blended together," the whole number loses its footing.
+
+Keep the two numbers in separate columns:
+
+- **Directly-attributed pipeline** you can defend line by line. This is the headline.
+- **Influenced pipeline**, flagged as directional. It supports the headline, it never replaces it.
+
+### Ignoring the Cost Side
+
+Plenty of "10x ROI" claims divide pipeline by the agency retainer alone and quietly drop everything else the channel consumes:
+
+- SEO tooling
+- content production and freelance writers
+- the internal hours your team spends managing the work
+
+Leave those out and the ratio falls apart the first time finance cross-checks it against actual spend. A defensible 4x on fully-loaded cost beats a fantasy 10x that evaporates under one follow-up question.
+
+### Switching the Method to Flatter the Quarter
+
+Changing attribution rules, benchmarks, or the definition of "qualified" between reports is the fastest way to manufacture a great-looking number and zero credibility. Finance notices when the methodology moves in lockstep with the results, and once they suspect the method is being tuned to the answer, every future number gets discounted.
+
+The discipline that prevents it is dull but decisive: pick the method once, write it down, and hold it even on a bad quarter, because a number that occasionally dips beats a polished one nobody trusts.
 
 ## How PipeRocket Helps You Prove SEO ROI
 

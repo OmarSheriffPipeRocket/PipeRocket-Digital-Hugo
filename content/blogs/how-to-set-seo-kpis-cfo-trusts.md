@@ -3,7 +3,7 @@ title: "How to Set SEO KPIs a CFO Trusts (B2B SaaS)"
 description: "Most SEO scorecards measure effort, not money, so finance never trusts them. Here's the short list of SEO KPIs a CFO will actually back, how to define each one so it survives a finance review, and the vanity metrics to drop on purpose."
 metaTitle: "SEO KPIs a CFO Trusts: The B2B SaaS Set"
 metaDescription: "Pick the right SEO KPIs for finance. Here's the CFO-grade KPI set for B2B SaaS, how to define each one, and the vanity metrics to cut."
-date: 2026-06-18
+date: 2026-06-23
 slug: "how-to-set-seo-kpis-cfo-trusts"
 writtenBy: "omar"
 category: "SaaS SEO"
@@ -30,7 +30,7 @@ Our team sees this pattern constantly when interviewing SEO managers. A candidat
 
 That gap is exactly what shows up on a budget slide. You're proud of the work, the traffic chart looks great, and the CFO still files SEO under "cost we don't fully understand." A scorecard full of effort metrics confirms the suspicion instead of fixing it.
 
-The instinct most SEO teams chase is the wrong one. We have a phrase for the better one: chase signals, not sessions. Rankings and sessions are the early signal the work is happening. They're not the result, and a finance team can tell the difference in about four seconds.
+Note: Chase signals, not sessions. Rankings and sessions are the early signal that the work is happening, not the result, and a finance team can tell the difference in about four seconds.
 
 So the move is a smaller, sharper set of KPIs rather than a better-looking dashboard, each one tied to money or to a decision finance can actually make. The rest of this is which KPIs make that cut and how to define them.
 

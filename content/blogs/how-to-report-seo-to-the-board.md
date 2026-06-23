@@ -3,7 +3,7 @@ title: "How to Report SEO to the Board (Pipeline, Not Traffic)"
 description: "The board doesn't want your SEO report, they want to know if the channel pays. Here's how we build the one-slide format, the spoken narrative, and the cut list that gets SEO funded instead of questioned."
 metaTitle: "How to Report SEO to the Board in 2026"
 metaDescription: "Stop presenting a traffic deck to a finance room. Here's how to report SEO to the board: the one-slide format, the narrative, and what to cut."
-date: 2026-06-18
+date: 2026-06-23
 slug: "how-to-report-seo-to-the-board"
 writtenBy: "rohith"
 category: "SaaS SEO"
@@ -26,7 +26,12 @@ A board doesn't care that SEO is busy. They care whether it pays, and whether it
 
 The report isn't failing because SEO is failing. It's failing because you're presenting a marketing-team artifact to a finance-minded audience, and the two want completely different things.
 
-Your team's standup deck answers "what did we ship and what moved?" That's the right conversation for a Monday. A board meeting answers a different question: is this channel returning money, is the return growing, and should we put more behind it? Walk in with the first deck and the room quietly files SEO under "cost we don't fully understand."
+Your two audiences want opposite things:
+
+- **Your team's standup deck** answers "what did we ship and what moved?" That's the right conversation for a Monday.
+- **A board meeting** asks whether the channel is returning money, whether the return is growing, and whether to put more behind it.
+
+Walk in with the first deck and the room quietly files SEO under "cost we don't fully understand."
 
 We've interviewed plenty of strong SEO managers over the years, and the pattern is the same. They can grow traffic, publish on cadence, fix the technical issues, then someone asks "what business impact did that create?" and the room goes quiet. The skill the board is testing isn't execution. It's translation.
 

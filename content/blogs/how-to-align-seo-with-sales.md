@@ -3,7 +3,7 @@ title: "How to Align SEO With Sales in B2B SaaS"
 description: "In most B2B SaaS companies SEO and sales never actually talk, so SEO targets keywords sales doesn't care about and sales never hears the leads it's about to get. Here's how we get the two teams working off the same pipeline: mining sales calls for the keywords that matter, agreeing on handoffs, and using sales feedback to pick what gets written next."
 metaTitle: "How to Align SEO With Sales (B2B SaaS)"
 metaDescription: "Get SEO and sales working off one pipeline: mine sales calls for keywords, agree on handoffs, and let sales feedback decide what content gets built next."
-date: 2026-06-18
+date: 2026-06-23
 slug: "how-to-align-seo-with-sales"
 writtenBy: "rohith"
 category: "SaaS SEO"
@@ -30,7 +30,7 @@ Here's what that looks like in practice. SEO ships a guide that ranks beautifull
 
 Meanwhile the page sales would have loved, the one answering the exact objection they fight every week, never got written because it had no search volume worth a slot on the calendar.
 
-We've watched this play out enough times to call it. When traffic is climbing but pipeline is flat, you usually don't have a traffic problem. You have an alignment problem, and the fix isn't more content.
+Note: When traffic is climbing but pipeline is flat, you usually don't have a traffic problem. You have an alignment problem, and the fix isn't more content.
 
 The deeper issue is that SEO treats keywords as the unit of work and sales treats conversations as the unit of work. A keyword is what someone types. A conversation is what they actually need. Those are not the same thing, and the whole point of aligning the two teams is to make the keyword list reflect the conversations.
 
