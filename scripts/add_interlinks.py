@@ -375,6 +375,19 @@ LINK_MAP = [
     # ---- fintech SEO pillar added 2026-06-23 ----
     ("fintech SEO", "/blogs/fintech-seo-guide/", False, "P0"),
 
+    # ---- Pipeline & Revenue hub blogs added 2026-06-18 ----
+    ("attribute SEO to pipeline", "/blogs/how-to-attribute-seo-to-pipeline/", False, "P0"),
+    ("SEO attribution", "/blogs/how-to-attribute-seo-to-pipeline/", False, "P0"),
+    ("multi-touch attribution", "/blogs/how-to-set-up-multi-touch-attribution/", False, "P0"),
+    ("report SEO to the board", "/blogs/how-to-report-seo-to-the-board/", False, "P0"),
+    ("organic CAC", "/blogs/how-to-measure-organic-cac/", False, "P0"),
+    ("tie content to MQLs", "/blogs/how-to-tie-content-to-mqls/", False, "P0"),
+    ("forecast pipeline from SEO", "/blogs/how-to-forecast-pipeline-from-seo/", False, "P0"),
+    ("SEO forecast", "/blogs/how-to-forecast-pipeline-from-seo/", False, "P0"),
+    ("align SEO with sales", "/blogs/how-to-align-seo-with-sales/", False, "P0"),
+    ("blog revenue impact", "/blogs/how-to-calculate-blog-revenue-impact/", False, "P0"),
+    ("SEO KPIs", "/blogs/how-to-set-seo-kpis-cfo-trusts/", False, "P0"),
+
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),
     # ("best SaaS SEO agencies", "/list/best-saas-seo-agencies/", False, "P1"),

@@ -45,24 +45,24 @@ Pull the keywords you're targeting over the forecast window and, for each one, n
 
 Be ruthless about that middle column. If your domain is mid-authority and a keyword's first page is wall-to-wall enterprise competitors, you're not landing position two in nine months. Model position six, or leave the keyword out. We've watched plenty of forecasts inflate themselves purely by assuming top-three rankings on terms the site had no business targeting yet.
 
-One nuance most forecasts miss entirely. A single page rarely ranks for one keyword. A well-built post picks up a primary term plus a tail of secondary keywords, and across a content program that secondary traffic compounds hard.
+One nuance most forecasts miss entirely. A single page rarely ranks for one keyword. A well-built post picks up a primary term plus a tail of [secondary keywords](/blogs/how-to-do-saas-seo-keyword-research/), and across a content program that secondary traffic compounds hard.
 
-Our team treats secondary keywords as the most underrated lever in SaaS SEO, because one post ranking for twenty terms instead of two does the work of ten articles. Fold a conservative secondary-traffic multiplier into the model rather than pretending each page earns only its primary keyword.
+Our team treats secondary keywords as the most underrated lever in SaaS [SEO](/glossary/what-is-seo/), because one post ranking for twenty terms instead of two does the work of ten articles. Fold a conservative secondary-traffic multiplier into the model rather than pretending each page earns only its primary keyword.
 
 ## Step 2: Turn Volume Into Traffic With the Click Curve
 
 Apply a click-through rate tied to expected position, because raw search volume is not traffic. This is the single biggest correction between a fantasy forecast and a defensible one.
 
-Click-through rate drops off a cliff as you move down the page. The exact numbers vary by query and SERP layout, especially now that AI Overviews eat into informational clicks, so treat any CTR table as directional. As a working model:
+Click-through rate drops off a cliff as you move down the page. The exact numbers vary by query and SERP layout, especially now that [AI Overviews](/glossary/what-is-an-ai-overview/) eat into informational clicks, so treat any CTR table as directional. As a working model:
 
-| Expected position | Rough CTR to model | What it means for 4,000 searches |
+| Expected position | Rough [CTR](/glossary/what-is-ctr/) to model | What it means for 4,000 searches |
 |---|---|---|
 | Position 1 | ~25-30% | ~1,000-1,200 visits |
 | Position 2-3 | ~10-15% | ~400-600 visits |
 | Position 4-6 | ~4-7% | ~160-280 visits |
 | Position 7-10 | ~2-3% | ~80-120 visits |
 
-Run each keyword's volume through the CTR for the position you modeled in Step 1, not the position you hope for. Then haircut informational queries further if AI Overviews are likely to answer them inside the SERP, because those clicks may never arrive at all.
+Run each keyword's volume through the CTR for the position you modeled in Step 1, not the position you hope for. Then haircut informational queries further if AI Overviews are likely to answer them inside the [SERP](/glossary/what-is-serp/), because those clicks may never arrive at all.
 
 Here's the trade-off this exposes. Chasing a few high-volume head terms looks great on a slide and converts terribly, while a stack of lower-volume, high-intent terms looks unimpressive but feeds real pipeline. A forecast built on head-term volume will look bigger and deliver less. Sum the realistic visits across every keyword, and that monthly traffic estimate is what flows into conversion.
 
@@ -72,7 +72,7 @@ Here's the trade-off this exposes. Chasing a few high-volume head terms looks gr
 
 Never run one blended conversion rate through the whole forecast. A top-of-funnel blog post and a comparison page do completely different jobs, and a single average will badly misprice both.
 
-The mistake is taking a site-wide "0.9% converts" number and applying it to every keyword's traffic. That overstates pipeline from your top-of-funnel content, which converts far lower, and understates it from your decision-stage pages, which convert far higher. The forecast ends up directionally wrong in two places at once. Segment by the intent you tagged in Step 1 and convert each bucket on its own rate:
+The mistake is taking a site-wide "0.9% converts" number and applying it to every keyword's traffic. That overstates pipeline from your [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/), which converts far lower, and understates it from your decision-stage pages, which convert far higher. The forecast ends up directionally wrong in two places at once. Segment by the intent you tagged in Step 1 and convert each bucket on its own rate:
 
 | Page type | Intent | Conversion rate to model | What converts |
 |---|---|---|---|
@@ -84,7 +84,7 @@ Use your own historical rates if you have them, because these benchmarks are a s
 
 If you don't have clean organic close-rate data yet, that's the gap to fix before the forecast means anything, since you can't project pipeline on a channel you can't [attribute to pipeline](/blogs/how-to-attribute-seo-to-pipeline/) in the first place.
 
-Take a worked example. A compliance SaaS for fintech teams forecasts 600 monthly visits to a set of comparison pages at a 3.5% demo rate, which is roughly 21 demos a month, then applies its real demo-to-close rate and average deal size to turn that into a pipeline and revenue range. No rankings on the slide, just the funnel.
+Take a worked example. A compliance SaaS for fintech teams forecasts 600 monthly visits to a set of [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) at a 3.5% demo rate, which is roughly 21 demos a month, then applies its real demo-to-close rate and average deal size to turn that into a pipeline and revenue range. No rankings on the slide, just the funnel.
 
 ## Step 4: Phase It Over Time, Because SEO Lags Then Compounds
 

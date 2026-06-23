@@ -41,13 +41,13 @@ Commit to four KPIs, not fourteen. A finance team trusts a short scorecard where
 | KPI | What it measures | Why a CFO trusts it | Vanity metric it replaces |
 |---|---|---|---|
 | Organic-sourced pipeline | Qualified pipeline value where organic was the sourcing channel | It's denominated in currency, against plan, in finance's own vocabulary | Total organic sessions |
-| Organic CAC | Fully-loaded SEO cost divided by customers organic sourced | It's a cost-efficiency number finance already uses for every channel | Cost per click / "cheap traffic" |
+| [Organic CAC](/blogs/how-to-measure-organic-cac/) | Fully-loaded SEO cost divided by customers organic sourced | It's a cost-efficiency number finance already uses for every channel | Cost per click / "cheap traffic" |
 | Organic's pipeline share | Organic-sourced pipeline as a percent of total new-business pipeline | It sizes the channel against the whole funnel, not in isolation | Keyword count / "ranking for 4,000 terms" |
 | Influenced pipeline (flagged) | Branded and direct lift that tracks with content investment | Honest about what's believed vs proven, which finance rewards | Domain rating / domain authority |
 
 ![Scorecard table mapping four CFO-grade SEO KPIs to what each measures, why finance trusts it, and the vanity metric it retires](/images/blog-infographics/how-to-set-seo-kpis-cfo-trusts-infographic-1.webp)
 
-Read that table before you build a single slide. The left side is a revenue conversation. The right side is an SEO conversation, and finance didn't come for an SEO conversation.
+Read that table before you build a single slide. The left side is a revenue conversation. The right side is an [SEO](/glossary/what-is-seo/) conversation, and finance didn't come for an SEO conversation.
 
 A few notes on why these four and not others. Organic-sourced pipeline is the headline because it's the one number that answers "did it pay?" Organic CAC is the efficiency check finance reaches for next, because they run it on paid already and want the comparison.
 
@@ -112,7 +112,7 @@ Here's the honest split. The right column belongs in your working dashboard, whe
 |---|---|
 | Organic-sourced pipeline | Total organic sessions |
 | Organic CAC | Keyword count / "ranking for X terms" |
-| Organic's pipeline share | Domain rating / domain authority |
+| Organic's pipeline share | Domain rating / [domain authority](/glossary/what-is-domain-authority/) |
 | Influenced pipeline (flagged directional) | Average position across all keywords |
 |  | Backlink count, time on page, bounce rate |
 

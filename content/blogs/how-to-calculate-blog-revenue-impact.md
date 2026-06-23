@@ -68,7 +68,7 @@ That inversion is the entire reason to do this. The post you'd never promote on 
 
 ## Step 3: Judge Each Post Against Its Page-Type Benchmark
 
-A revenue number means nothing until you compare it to what that page type should earn. A comparison page and a definition post have completely different jobs, so they produce revenue at completely different rates. Score them against the same bar and you'll cut the wrong posts.
+A revenue number means nothing until you compare it to what that page type should earn. A [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) and a definition post have completely different jobs, so they produce revenue at completely different rates. Score them against the same bar and you'll cut the wrong posts.
 
 Our team reports conversion by page TYPE, never as one blended number, because the benchmarks are so far apart:
 
@@ -92,7 +92,7 @@ The whole point of a revenue number is the decision it forces. Once a post has a
 Here's how we read each bucket:
 
 - **Keep:** steady influenced revenue, earning more than it costs to maintain. Low traffic is fine if the buyers are right. Leave it alone and protect the ranking.
-- **Scale:** high revenue per visitor and close to the buying decision, with related queries you don't own yet. This is where the next investment goes, with sharper CTAs and internal links pointing in.
+- **Scale:** high revenue per visitor and close to the buying decision, with related queries you don't own yet. This is where the next investment goes, with sharper CTAs and [internal links](/blogs/how-to-use-internal-linking/) pointing in.
 - **Cut or merge:** lots of traffic, near-zero influenced revenue, no buyers, and a maintenance cost it never pays back. Merge it into a stronger page or redirect it.
 
 The scale bucket is the one to act on first, because it's connected to the search intent that actually drives pipeline. We have seen a single quietly-converting use-case page outproduce a high-traffic explainer on pipeline, just by shifting attention from high-volume pages to the low-volume, high-intent ones where decision-makers were searching. Most of those pages got 5 to 10 visitors a week, almost all qualified.
@@ -127,7 +127,7 @@ Warning: don't use a thin revenue read to cut a top-of-funnel post that feeds yo
 
 ## How PipeRocket Calculates Content-Level Revenue
 
-We build SaaS SEO programs around the posts that earn, not the ones that rank. That means putting a real revenue figure on individual pages, judging each against its page-type benchmark, and making the keep-scale-cut call on evidence instead of traffic charts.
+We build SaaS [SEO](/glossary/what-is-seo/) programs around the posts that earn, not the ones that rank. That means putting a real revenue figure on individual pages, judging each against its page-type benchmark, and making the keep-scale-cut call on evidence instead of traffic charts.
 
 If your blog pulls sessions but you can't say what any post earned, [talk to our team](https://piperocket.digital/contact-us/) or see how we run [SaaS SEO](https://piperocket.digital/saas-seo-agency/). We work to one standard: own the outcome, not the output.
 

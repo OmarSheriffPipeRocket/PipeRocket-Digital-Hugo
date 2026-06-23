@@ -36,7 +36,7 @@ The deeper issue is that SEO treats keywords as the unit of work and sales treat
 
 ## Mine Your Sales Calls for the Keywords Sales Actually Cares About
 
-Start with people, not tools. The one move that does the most for SEO-sales alignment is sitting in on sales calls and writing down the exact language buyers use, because real buyers don't search the way SEO pros do.
+Start with people, not tools. The one move that does the most for [SEO](/glossary/what-is-seo/)-sales alignment is sitting in on sales calls and writing down the exact language buyers use, because real buyers don't search the way SEO pros do.
 
 Our team's core keyword principle is that tools are for validation, not discovery. Lean only on Ahrefs or Semrush and you see what your competitors already found, in the polished category language they use. Sales hears something messier and far more useful: the layman words, the specific problem, the trigger that made someone pick up the phone today.
 
@@ -52,11 +52,11 @@ Then bring the tools in to validate. Take that human list and check it against G
 
 Take a compliance SaaS for fintech teams. Sales keeps hearing "how do I prove SOC 2 to an enterprise buyer mid-deal." That phrase barely registers in a keyword tool. It's also the exact moment a prospect needs them, so a page that answers it converts far above anything ranking for "what is SOC 2."
 
-That's the trade-off to be honest about. Tool-led keyword research scales and looks rigorous, but it systematically misses the highest-intent searches because they're too specific to have volume. Call-led research is slower and feels unscientific, and it's where the qualified pipeline hides.
+That's the trade-off to be honest about. Tool-led [keyword research](/glossary/what-is-keyword-research/) scales and looks rigorous, but it systematically misses the highest-intent searches because they're too specific to have volume. Call-led research is slower and feels unscientific, and it's where the qualified pipeline hides.
 
 ## Agree on What a Good Lead Actually Is
 
-SEO and sales have to write down the ICP and the disqualifiers together, in one document, before either team optimizes another thing. Most misalignment traces back to the two teams holding different, unspoken definitions of "a good lead," then blaming each other when the numbers don't match.
+SEO and sales have to write down the [ICP](/glossary/what-is-icp/) and the disqualifiers together, in one document, before either team optimizes another thing. Most misalignment traces back to the two teams holding different, unspoken definitions of "a good lead," then blaming each other when the numbers don't match.
 
 The exercise is simple and most teams skip it. Get SEO, sales, and whoever owns the funnel in a room and answer a short list out loud:
 
@@ -66,7 +66,7 @@ The exercise is simple and most teams skip it. Get SEO, sales, and whoever owns 
 
 Write the answers down. That document becomes the filter SEO runs every keyword and every page through. A keyword that pulls the wrong company size isn't a win just because it ranks, and once both teams have agreed to that in writing, the argument stops being personal.
 
-This is also where you protect against a quieter failure. We've seen ABM and high-intent campaigns die on arrival because marketing ran them and sales ran the other way, with no shared definition of who the effort was even for. SEO has the same exposure. Rank for terms sales can't use and you've built a beautiful machine pointed at the wrong people.
+This is also where you protect against a quieter failure. We've seen [ABM](/glossary/what-is-abm/) and high-intent campaigns die on arrival because marketing ran them and sales ran the other way, with no shared definition of who the effort was even for. SEO has the same exposure. Rank for terms sales can't use and you've built a beautiful machine pointed at the wrong people.
 
 The honest version of this conversation includes funnel data. If sales won't show SEO what happens after the click, all the way to qualified and closed, the SEO team is optimizing blind. That's one of the clearest signs an alignment effort is going to stall, and it's worth fixing before you touch a keyword.
 
@@ -108,11 +108,11 @@ Each of those maps to a content type:
 
 The borrowed power here is that you're taking the persuasive arguments sales already wins with and putting them where buyers search, so the page does some of the convincing before a human ever picks up the phone.
 
-The feedback also runs the other way, and this is the part that builds trust. SEO should ask sales a single recurring question: what are you actually hearing from leads right now? When reps start saying "this one came in already knowing our product" or "they mentioned the comparison page on the call," that's your real signal that the alignment is working, long before any dashboard confirms it.
+The feedback also runs the other way, and this is the part that builds trust. SEO should ask sales a single recurring question: what are you actually hearing from leads right now? When reps start saying "this one came in already knowing our product" or "they mentioned the [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) on the call," that's your real signal that the alignment is working, long before any dashboard confirms it.
 
 This is the difference between SEO that chases traffic and SEO that chases signals. The work is to answer the questions that move a deal rather than to maximize sessions, and sales is the only team in the building that hears those questions all day. Tie the content calendar to that, and you stop guessing.
 
-One caution. Don't let sales feedback become the only input either, because reps are biased toward the deals in front of them right now and can starve the top-of-funnel content that feeds next year's pipeline. Weigh their input heavily for decision-stage pages, lightly for awareness ones.
+One caution. Don't let sales feedback become the only input either, because reps are biased toward the deals in front of them right now and can starve the [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/) that feeds next year's pipeline. Weigh their input heavily for decision-stage pages, lightly for awareness ones.
 
 ## How PipeRocket Aligns SEO With Sales
 

@@ -36,7 +36,7 @@ So the reframe that fixes most board reports is simple. You're not reporting on 
 
 Lead with the number that maps to the board's job: how much qualified pipeline organic search sourced this period, and where that sits against plan. That's the first thing out of your mouth, before a single chart.
 
-Most SEO presenters do the opposite. They build up, context, methodology, rankings, traffic, then arrive at impact in the last 30 seconds, usually after the room has stopped listening. A board reads top-down. Give them the headline first, then let the curious ones pull on the detail in Q&A.
+Most [SEO](/glossary/what-is-seo/) presenters do the opposite. They build up, context, methodology, rankings, traffic, then arrive at impact in the last 30 seconds, usually after the room has stopped listening. A board reads top-down. Give them the headline first, then let the curious ones pull on the detail in Q&A.
 
 A clean opening line sounds like this: "Organic sourced X in qualified pipeline this quarter, up from last, which is Y% of new-business pipeline." Three facts, no jargon, and every word is in their vocabulary. If you can't say that sentence yet, your tracking isn't board-ready, and that's the real problem to fix before the next meeting.
 
@@ -81,7 +81,7 @@ Here's the arc, said out loud, in order:
 
 ![The board SEO narrative arc as four sequential steps, the committed goal, the pipeline result, the honest read on what worked, and the forward bet for next quarter](/images/blog-infographics/how-to-report-seo-to-the-board-infographic-2.webp)
 
-A compliance SaaS for fintech teams might open with "last quarter we bet that ranking the security-comparison pages would feed enterprise pipeline." Then: here's the pipeline those pages sourced, here's where we fell short on the integrations content, here's the fix. That's a narrative a board can follow and fund. A table of keyword positions is not.
+A compliance SaaS for fintech teams might open with "last quarter we bet that ranking the security-[comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) would feed enterprise pipeline." Then: here's the pipeline those pages sourced, here's where we fell short on the integrations content, here's the fix. That's a narrative a board can follow and fund. A table of keyword positions is not.
 
 The forward bet matters more than people think. Boards fund direction, not history. If your report is all rear-view, you're asking them to react; if it ends on a clear, outcome-tied bet, you're asking them to invest, which is a far better conversation to be in.
 
@@ -97,7 +97,7 @@ Here's the honest split between what earns a place in front of the board and wha
 |---|---|
 | Organic-sourced qualified pipeline | Total organic sessions |
 | Pipeline trend vs last quarter | Keyword count / "ranking for 4,000 terms" |
-| Influenced pipeline (flagged as directional) | Domain rating / domain authority |
+| Influenced pipeline (flagged as directional) | Domain rating / [domain authority](/glossary/what-is-domain-authority/) |
 | The bet for next quarter | Average position across all keywords |
 | The risk you're managing | Backlink count |
 | Organic's share of new-business pipeline | Time on page, bounce rate, raw CTR |

@@ -36,7 +36,7 @@ Our team has a phrase for this: own outcomes, not output. Most agencies report t
 
 Warning: More traffic can actively hide a failing program. If you're celebrating a 40% traffic lift driven by top-of-funnel terms that convert at well under 1%, you're growing the number that looks impressive and starving the number that pays. Leadership claps for the chart, then quietly wonders why pipeline didn't move.
 
-The fix is a different denominator. Stop measuring how many people arrived and start measuring how many entered the pipeline, what they were worth, and what it cost to get them. That's the rest of this guide.
+The fix is a different denominator. Stop measuring how many people arrived and start measuring how many entered the pipeline, what they were worth, and what it cost to get them. If even the pipeline number stays flat, that's a separate problem, and it's worth pausing to [diagnose why the traffic isn't driving pipeline](/blogs/why-is-my-seo-not-driving-pipeline/) before you build any ROI report on top of it. That's the rest of this guide.
 
 ## Step 1: Report Organic-Attributed Pipeline, Not Sessions
 
@@ -114,7 +114,7 @@ To sanity-check whether the spend itself is reasonable, weigh it against a plann
 
 > Note: Use a payback window, not a single month. SEO compounds and lags, so a one-month ROI snapshot will look terrible early and unrealistically great later. Judge it on a trailing 6-to-12-month basis so the lag and the compounding both show up honestly.
 
-That benchmark does two jobs in your report. It tells leadership whether you're under-investing in a channel that's working, and it frames the ROI number against what peers spend, which is the comparison a finance team reaches for anyway.
+That benchmark does two jobs in your report. It tells leadership whether you're under-investing in a channel that's working, and it frames the ROI number against what peers spend, which is the comparison a finance team reaches for anyway. Once the proven number holds up, the same attribution and close-rate inputs let you [forecast pipeline from SEO](/blogs/how-to-forecast-pipeline-from-seo/) for the next few quarters instead of only reporting the last one.
 
 ![Formula visual showing SEO ROI as organic-attributed pipeline value divided by fully-loaded SEO cost, with the cost variables broken out and a stage-weighted spend benchmark](/images/blog-infographics/how-to-prove-seo-roi-infographic-2.webp)
 
@@ -122,9 +122,9 @@ That benchmark does two jobs in your report. It tells leadership whether you're 
 
 Report ROI quarterly with a method that never changes, not monthly with a number that swings. Trust in an SEO number comes from consistency of method far more than from the size of the figure.
 
-A monthly traffic chart trains leadership to watch the wrong thing and react to noise. A quarterly pipeline-attributed report, built the same way every time, trains them to treat SEO like the revenue channel it is. The cadence itself is a signal: short windows say "marketing activity," quarterly windows say "investment with a return."
+A monthly traffic chart trains leadership to watch the wrong thing and react to noise. A quarterly pipeline-attributed report, built the same way every time, trains them to treat SEO like the revenue channel it is, which is also what makes it credible when you [report it to the board](/blogs/how-to-report-seo-to-the-board/) rather than just the marketing team. The cadence itself is a signal: short windows say "marketing activity," quarterly windows say "investment with a return."
 
-Lock the method so the number is comparable quarter to quarter:
+Lock the method so the number is comparable quarter to quarter, and settle on [the KPIs a CFO trusts](/blogs/how-to-set-seo-kpis-cfo-trusts/) before the first report so you aren't redefining them later:
 
 - Same attribution rules every report
 - Same page-type benchmarks

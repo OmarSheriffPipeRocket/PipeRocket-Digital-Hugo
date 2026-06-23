@@ -51,7 +51,7 @@ Most teams put their agency retainer on top, divide by customers, and call it or
 Here's what belongs in the organic cost line:
 
 - Agency fees or in-house SEO salaries (loaded with benefits)
-- Tools (rank tracking, crawlers, content and reporting software)
+- Tools ([rank tracking](/list/best-rank-tracking-tools-for-saas/), crawlers, content and reporting software)
 - Content production and design
 - Internal time from people who aren't on the SEO team but work on it
 
@@ -73,7 +73,7 @@ You get the customer count by tagging the source in your CRM, so every closed de
 
 ## How to Read Organic CAC Over Time, Not in a Single Month
 
-Never judge organic CAC on one month. SEO costs land up front and the customers show up late, so a single-month snapshot will look catastrophic early and unrealistically cheap later, and neither reading is true.
+Never judge organic CAC on one month. [SEO](/glossary/what-is-seo/) costs land up front and the customers show up late, so a single-month snapshot will look catastrophic early and unrealistically cheap later, and neither reading is true.
 
 Picture the first quarter of a new SEO program. You're paying for content, tools, and people, and almost nobody has bought yet because the pages aren't ranking. Run the formula on month one and your organic CAC is enormous, sometimes higher than paid. That's not the channel failing. That's the channel loading.
 
@@ -101,7 +101,7 @@ Organic is the opposite. The cost to keep a ranking page live is far lower than 
 |---|---|---|
 | Behavior over time | Flat, resets monthly | Falls as content compounds |
 | When you stop spending | Customers stop immediately | Customers keep arriving |
-| Effect of scaling | CAC usually rises (CPC ceiling) | Marginal CAC keeps dropping |
+| Effect of scaling | CAC usually rises ([CPC](/glossary/what-is-cost-per-click/) ceiling) | Marginal CAC keeps dropping |
 | Best read | Monthly is fine | Trailing 6-to-12 months |
 | What it's good for | Speed, predictable volume | Lowest long-run cost per customer |
 

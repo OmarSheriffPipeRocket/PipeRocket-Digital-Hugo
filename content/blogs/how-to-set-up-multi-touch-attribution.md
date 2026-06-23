@@ -57,7 +57,7 @@ Here are the six models you'll choose between, ordered roughly from simplest to 
 
 A few honest trade-offs the table can't hold:
 
-- **First-touch** is great for judging top-of-funnel content, but it over-credits the first blog someone ever read and ignores everything that closed the deal.
+- **First-touch** is great for judging [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/), but it over-credits the first blog someone ever read and ignores everything that closed the deal.
 - **Last-touch** is simple and sales tends to trust it, but it makes your demo and pricing pages look like heroes while starving the content that fed them.
 - **W-shaped** is the workhorse for most B2B SaaS because it rewards the three moments that genuinely matter: getting found, becoming a lead, and becoming an opportunity. It needs your lead and opportunity stages defined cleanly in the CRM, though, or the math has nothing to anchor to.
 - **Data-driven** sounds like the obvious winner, but it's only as good as your volume. Run it on a few dozen conversions a month and it's guessing with confidence, which is worse than a simple model you understand.

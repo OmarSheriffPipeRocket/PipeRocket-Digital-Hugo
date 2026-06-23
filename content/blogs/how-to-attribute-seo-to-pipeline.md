@@ -36,7 +36,7 @@ Our team treats attribution as plumbing. The honest version of this is uncomfort
 
 Warning: A pretty attribution dashboard is more dangerous than no dashboard. If your tool shows "organic sourced $200K pipeline" but the number was never reconciled against the CRM, you're reporting a model's guess as a fact, and one question from finance will expose it.
 
-The fix isn't a better belief about SEO. It's three pieces of wiring:
+The fix isn't a better belief about [SEO](/glossary/what-is-seo/). It's three pieces of wiring:
 
 1. Stamp the source on the lead.
 2. Carry it into the CRM.
@@ -51,7 +51,7 @@ Stamp the channel and entry page onto every lead at the moment it's created, bef
 Most teams already have analytics firing on the page. What they're missing is the handoff: the source data never travels with the lead into the CRM. So you capture it explicitly. On every form, pass hidden fields that record:
 
 - The channel and source (organic, the search engine)
-- The first landing page that brought them to the site
+- The first [landing page](/glossary/what-is-a-landing-page/) that brought them to the site
 - The landing page of the converting session
 - A timestamp for the first known touch
 
@@ -82,20 +82,20 @@ You need a CRM that holds source data on the deal and a way to fill the cross-se
 
 The reason for the third layer is the device problem from Step 1. A reverse-IP and identity tool catches a chunk of the touches that go dark when a buyer switches devices or comes back days later. It won't catch everything, but it turns "we lost that path" into "we recovered most of that path," which is the difference between a defensible number and a shrug.
 
-A compliance SaaS for fintech teams, for instance, might see a security lead read three organic comparison pages, vanish, then book a demo through a sales rep weeks later. Without the stitch, that deal reads as "sales-sourced." With it, the comparison pages get the first-touch credit they earned.
+A compliance SaaS for fintech teams, for instance, might see a security lead read three organic [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), vanish, then book a demo through a sales rep weeks later. Without the stitch, that deal reads as "sales-sourced." With it, the comparison pages get the first-touch credit they earned.
 
 ## Step 3: Assign First-Touch and Multi-Touch Credit on Purpose
 
 Decide how credit gets split before you report, because the model you pick changes which pages look valuable. Run one model blindly and you'll defund the wrong content. The two questions are who gets credit and how much.
 
-The trap is last-touch. It hands all the credit to whatever page sat closest to the conversion, usually a demo or pricing page, and gives zero to the top-of-funnel content that started the relationship. Judge SEO on last-touch alone and your blog library looks worthless while your bottom-of-funnel pages look like the whole show. Both readings are wrong.
+The trap is last-touch. It hands all the credit to whatever page sat closest to the conversion, usually a demo or pricing page, and gives zero to the [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/) that started the relationship. Judge SEO on last-touch alone and your blog library looks worthless while your bottom-of-funnel pages look like the whole show. Both readings are wrong.
 
 So run more than one view in parallel and read them together:
 
 | Model | What it credits | Best used for |
 |---|---|---|
 | First-touch | The page that started the relationship | Valuing top-of-funnel and discovery content |
-| Last-touch | The page closest to the conversion | Valuing bottom-of-funnel and decision pages |
+| Last-touch | The page closest to the conversion | Valuing [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) and decision pages |
 | Multi-touch | A share to every page in the path | Seeing the full organic contribution to a deal |
 
 First-touch tells you which content opens relationships that eventually close. Last-touch tells you which pages seal them. Multi-touch spreads credit across the path so an early blog post and a late comparison page both show up in the same closed deal. You want all three, not a winner.

@@ -34,7 +34,7 @@ That question splits your library into two piles. One pile creates MQLs. The oth
 
 ## Step 1: Sort Your Content by the MQL Job It Does
 
-Start by accepting that different page types create MQLs at wildly different rates. A "what is X" definition post almost never produces an MQL directly. A pricing or comparison page produces them all day. If you score both against the same expectation, you'll cut the wrong things.
+Start by accepting that different page types create MQLs at wildly different rates. A "what is X" definition post almost never produces an MQL directly. A pricing or [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) produces them all day. If you score both against the same expectation, you'll cut the wrong things.
 
 So before you measure anything, classify your content by the job it's built to do. We sort pages into three buckets:
 
@@ -82,7 +82,7 @@ Stop treating every lead as equal the second they fill a form. The content a per
 
 The framing our team keeps coming back to: stop chasing traffic, start chasing signals. The work isn't to maximise sessions. It's to feed lead-scoring signals, who visited, which pages, how often, into how you qualify and prioritise a lead.
 
-In practice that means content-weighting your lead score, using the same weights from the table above. Pricing, comparison, alternative, and demo-adjacent pages signal active evaluation and earn heavy weight. Repeat visits to use-case or integration pages that match your ICP's problem earn moderate weight. A single visit to a top-of-funnel definition post is awareness, not intent, so it earns light or zero weight.
+In practice that means content-weighting your lead score, using the same weights from the table above. Pricing, comparison, alternative, and demo-adjacent pages signal active evaluation and earn heavy weight. Repeat visits to use-case or integration pages that match your [ICP](/glossary/what-is-icp/)'s problem earn moderate weight. A single visit to a top-of-funnel definition post is awareness, not intent, so it earns light or zero weight.
 
 This changes who sales calls first. A lead who downloaded one checklist looks identical to a lead who read your pricing page three times and your main competitor comparison once, until you let the content weight pull them apart. The second lead is an MQL with a clear story. The first is a name on a list.
 
@@ -96,7 +96,7 @@ Once you know which content makes MQLs, your content roadmap stops being a guess
 
 Concretely, that means three different jobs for three different findings:
 
-- **Strengthen the MQL-producers.** If five pages make most of your MQLs, those get your best CRO attention, your sharpest CTAs, and internal links pointing into them.
+- **Strengthen the MQL-producers.** If five pages make most of your MQLs, those get your best CRO attention, your sharpest CTAs, and [internal links](/blogs/how-to-use-internal-linking/) pointing into them.
 - **Build feeders for them.** Map which audience-builders actually pass readers into your MQL pages and write more of those, not more of whatever happens to rank.
 - **Stop over-investing in dead traffic.** A page with huge sessions and zero MQL involvement isn't a priority, no matter how good the traffic chart looks.
 
@@ -119,7 +119,7 @@ Warning: don't act on a 90-day pattern from a handful of MQLs as if it were sett
 
 ## How PipeRocket Ties Content to Pipeline
 
-We build SaaS SEO programs around the pages that make qualified leads, not the ones that make traffic charts look good. That means tracing MQLs back to the content that produced them, weighting your content roadmap toward those pages, and feeding content-consumption signals into how leads get scored. If your blog pulls traffic but your pipeline isn't moving, [talk to our team](https://piperocket.digital/contact-us/) or see how we approach [SaaS SEO](https://piperocket.digital/saas-seo-agency/). We work to a simple standard: own the outcome, not the output.
+We build SaaS [SEO](/glossary/what-is-seo/) programs around the pages that make qualified leads, not the ones that make traffic charts look good. That means tracing MQLs back to the content that produced them, weighting your content roadmap toward those pages, and feeding content-consumption signals into how leads get scored. If your blog pulls traffic but your pipeline isn't moving, [talk to our team](https://piperocket.digital/contact-us/) or see how we approach [SaaS SEO](https://piperocket.digital/saas-seo-agency/). We work to a simple standard: own the outcome, not the output.
 
 ## Frequently Asked Questions
 
