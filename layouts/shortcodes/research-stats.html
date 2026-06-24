@@ -1,0 +1,26 @@
+{{/* research-stats.html — a visible "how we researched this list" stat strip.
+     Promotes the depth of research behind a listicle. All values are passed
+     per-list so the numbers stay truthful to each page.
+
+     Usage:
+       {{< research-stats evaluated="30+" shortlisted="12" caseStudies="48" verified="June 2026" >}}
+
+     Optional: methodologyUrl (defaults to /research-methodology/). */}}
+{{ $evaluated := .Get "evaluated" }}
+{{ $shortlisted := .Get "shortlisted" }}
+{{ $caseStudies := .Get "caseStudies" }}
+{{ $verified := .Get "verified" }}
+{{ $href := .Get "methodologyUrl" | default "/research-methodology/" }}
+<aside class="pr-research-stats" aria-label="How we researched this list">
+  <div class="pr-research-stats__head">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <span>How we researched this list</span>
+  </div>
+  <ul class="pr-research-stats__grid">
+    {{ with $evaluated }}<li><strong>{{ . }}</strong><span>agencies evaluated</span></li>{{ end }}
+    {{ with $shortlisted }}<li><strong>{{ . }}</strong><span>shortlisted &amp; reviewed</span></li>{{ end }}
+    {{ with $caseStudies }}<li><strong>{{ . }}</strong><span>case studies read</span></li>{{ end }}
+    {{ with $verified }}<li><strong>{{ . }}</strong><span>last verified</span></li>{{ end }}
+  </ul>
+  <p class="pr-research-stats__note">Ratings cross-checked on Clutch &amp; G2, practitioner threads on r/SaaS and r/SEO read, AI-Overview citations checked, and every figure linked to its source. No paid placements. <a href="{{ $href }}">See our full methodology &rarr;</a></p>
+</aside>

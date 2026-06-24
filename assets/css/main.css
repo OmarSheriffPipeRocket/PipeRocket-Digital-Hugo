@@ -6176,6 +6176,46 @@ a.pr-footer__trust-item:hover {
   .pr-table-scroll-hint svg { animation: none; }
 }
 
+/* "How we researched this list" stat strip (research-stats shortcode). */
+.pr-research-stats {
+  border: 1px solid var(--pr-ink);
+  border-radius: 5px;
+  background: var(--pr-cream);
+  padding: var(--pr-s-5) var(--pr-s-6);
+  margin: var(--pr-s-6) 0;
+}
+.pr-research-stats__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--pr-sans);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--pr-ink);
+  margin: 0 0 var(--pr-s-4);
+}
+.pr-research-stats__head svg { width: 17px; height: 17px; color: var(--pr-cyan); flex: none; }
+.pr-research-stats__grid {
+  list-style: none;
+  margin: 0 0 var(--pr-s-4);
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: var(--pr-s-5);
+}
+.pr-research-stats__grid li { display: flex; flex-direction: column; gap: 3px; }
+.pr-research-stats__grid strong {
+  font-family: var(--pr-ivy-headline, Georgia, serif);
+  font-size: 30px;
+  line-height: 1;
+  color: var(--pr-ink);
+}
+.pr-research-stats__grid span { font-family: var(--pr-sans); font-size: 13px; color: var(--pr-muted); }
+.pr-research-stats__note { font-family: var(--pr-sans); font-size: 13px; line-height: 1.5; color: var(--pr-muted); margin: 0; }
+.pr-research-stats__note a { color: var(--pr-ink); text-decoration: underline; text-decoration-color: var(--pr-cyan); text-underline-offset: 2px; }
+
 .pr-blog__body table,
 .pr-blog-v2__main table,
 .pr-glossary__body table,
