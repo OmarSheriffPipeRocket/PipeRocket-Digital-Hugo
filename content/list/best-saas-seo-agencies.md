@@ -74,23 +74,6 @@ With those differences in mind, here are the top SaaS SEO agencies built for MRR
 | Simple Tiger | Jeremiah & Sean Smith | Productized SaaS SEO sprints with senior leads | Keyword research, technical SEO, content, link building | Productized SEO sprints | [Custom pricing](https://www.simpletiger.com/) | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
 | Powered by Search | Dev Basu | SaaS SEO within a demand-gen system | SEO, demand gen, ABM, paid media, HubSpot RevOps | SEO inside an ABM and demand-gen system | [Custom pricing](https://www.poweredbysearch.com/) | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
-## How We Chose These SaaS SEO Agencies?
-
-We rank-ordered the 12 finalists with a weighted scorecard, leaning hardest on the signals SaaS buyers tell us actually predict results:
-
-- **SaaS Specialization (25%):** Depth of SaaS-only focus. Does the agency speak ICP, ARR, CAC, trial-to-paid, and PLG versus sales-led without a learning curve? Generalists who treat SaaS like any other vertical lose points here.
-- **Pipeline & Revenue Attribution (25%):** Whether the agency reports organic results in MQLs, SQLs, pipeline, and MRR/ARR inside your CRM, not sessions and domain authority. Vanity-traffic reporting is the most common trigger for mid-contract terminations, so it carries the most weight alongside specialization.
-- **Verified Client Outcomes & Reviews (20%):** Named SaaS clients with case studies we could verify, plus verified Clutch and FeaturedCustomers ratings. Unverifiable logos on a slide were discounted.
-- **GEO & AEO Capability (15%):** Demonstrated ability to earn citations in Google AI Overviews, ChatGPT, Perplexity, and Gemini through real entity and schema work, not AI search listed as a future roadmap item.
-- **Technical SEO Depth (10%):** Command of JavaScript rendering, indexation, site architecture, schema, and Core Web Vitals, plus clean migrations, the issues that quietly cap SaaS organic growth.
-- **Vertical & Stage Fit (5%):** Proven fit for specific verticals (fintech, devtools, security) and company stages, from seed through Series B and beyond.
-
-In short, specialization and attribution outweigh everything else, because that is what SaaS buyers most often cite as the difference between a partner that moves pipeline and one that just grows a traffic chart.
-
-Narrowing by stage or go-to-market motion? Jump to our shortlists for [startups](#best-saas-seo-agencies-for-startups), [product-led growth](#best-saas-seo-agencies-for-product-led-growth), [sales-led growth](#best-saas-seo-agencies-for-sales-led-growth), [Series A](#best-saas-seo-agencies-for-series-a), and [Series B](#best-saas-seo-agencies-for-series-b) SaaS companies below.
-
-For the full process, every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy, read [our research methodology and editorial policy](/research-methodology/).
-
 ## Detailed Comparison
 
 ### 1. Directive Consulting

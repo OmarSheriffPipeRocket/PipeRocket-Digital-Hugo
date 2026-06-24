@@ -39,7 +39,7 @@ We deliberately do **not** rely on:
 
 ## How we score
 
-Each agency on every list is scored against the same core criteria below, and the criteria are weighted, not equal. The two that carry the most weight are subject-matter expertise and pipeline-and-revenue attribution, because those are what SaaS buyers tell us actually predict results. Some lists add a domain-specific criterion (for example, GEO and AEO capability on our [SaaS SEO list](/list/best-saas-seo-agencies/)) and publish their exact percentage weighting on the page itself. On every list the criteria are spelled out in plain English, so you can audit the call rather than trust a black-box number.
+Each agency on every list is scored against the same core criteria below, and the criteria are weighted, not equal. The two that carry the most weight are subject-matter expertise and pipeline-and-revenue attribution, because those are what SaaS buyers tell us actually predict results. Some lists add a domain-specific criterion, like GEO and AEO capability for [SaaS SEO](/list/best-saas-seo-agencies/). We spell the criteria out in plain English here so you can audit the call rather than trust a black-box number.
 
 **1. Subject-matter expertise.** Has the agency demonstrably shipped work in the buyer's exact category? For a "best B2B PPC agencies" list, that means real B2B PPC case studies, not "we do PPC" plus an unrelated B2C portfolio. For a "best fintech SEO agencies" list, that means fintech-specific work with the compliance, KYC, and regulated-buyer awareness that fintech demands.
 
