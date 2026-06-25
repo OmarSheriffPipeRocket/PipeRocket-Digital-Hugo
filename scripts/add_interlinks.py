@@ -362,6 +362,13 @@ LINK_MAP = [
     ("LLMO agencies", "/list/best-saas-llmo-agencies/", False, "P1"),
     ("LLM optimization agencies", "/list/best-saas-llmo-agencies/", False, "P1"),
     ("LLM SEO agencies", "/list/best-saas-llmo-agencies/", False, "P1"),
+    ("conversion rate optimization agencies", "/list/best-conversion-rate-optimization-agencies/", False, "P1"),
+    ("conversion rate optimization agency", "/list/best-conversion-rate-optimization-agencies/", False, "P1"),
+    ("CRO agencies", "/list/best-conversion-rate-optimization-agencies/", False, "P1"),
+    ("enterprise SEO software", "/list/best-enterprise-seo-software/", False, "P1"),
+    ("enterprise SEO platform", "/list/best-enterprise-seo-software/", False, "P1"),
+    ("enterprise SEO platforms", "/list/best-enterprise-seo-software/", False, "P1"),
+    ("enterprise SEO tools", "/list/best-enterprise-seo-software/", False, "P1"),
 
     # ---- tool vs / alternatives pages added 2026-06-19 (neutral tool comparisons) ----
     ("Surfer SEO vs Clearscope", "/compare/surfer-seo-vs-clearscope/", False, "P2"),
