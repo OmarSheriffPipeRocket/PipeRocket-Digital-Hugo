@@ -100,7 +100,7 @@ NOISE_SENDERS = (
     "ads-account-noreply@google.com", "gartner.com", "conductor.com",
     "freepik.com", "microsoftadvertising.com", "crunchbase.com", "netlify.com",
     "redditmail.com", "minuteslink.com", "designrush.co", "openai.com",
-    "growresolve.com", "conductor.com", "gartner.com",
+    "growresolve.com", "conductor.com", "gartner.com", "growthner.com",
 )
 
 
