@@ -353,6 +353,16 @@ LINK_MAP = [
     ("AI content detection tools", "/list/best-ai-content-detector/", False, "P1"),
     ("AI content detectors", "/list/best-ai-content-detector/", False, "P1"),
 
+    # ---- new listicles added 2026-06-24 (ABM platforms, PPC audit tools, SaaS LLMO agencies) ----
+    ("ABM platforms", "/list/best-abm-platforms/", False, "P1"),
+    ("account-based marketing platforms", "/list/best-abm-platforms/", False, "P1"),
+    ("ABM software", "/list/best-abm-platforms/", False, "P1"),
+    ("PPC audit tools", "/list/best-ppc-audit-tools/", False, "P1"),
+    ("PPC audit tool", "/list/best-ppc-audit-tools/", False, "P1"),
+    ("LLMO agencies", "/list/best-saas-llmo-agencies/", False, "P1"),
+    ("LLM optimization agencies", "/list/best-saas-llmo-agencies/", False, "P1"),
+    ("LLM SEO agencies", "/list/best-saas-llmo-agencies/", False, "P1"),
+
     # ---- tool vs / alternatives pages added 2026-06-19 (neutral tool comparisons) ----
     ("Surfer SEO vs Clearscope", "/compare/surfer-seo-vs-clearscope/", False, "P2"),
     ("Screaming Frog vs Sitebulb", "/compare/screaming-frog-vs-sitebulb/", False, "P2"),
