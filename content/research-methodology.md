@@ -28,6 +28,8 @@ Every agency on a PipeRocket list is researched across these sources, in order o
 
 **First-party founder and operator commentary.** Reddit r/PPC, r/SEO, r/marketing, and r/SaaS threads where the agency is mentioned by name. Quora answers about the agency. LinkedIn posts by ex-employees and ex-clients. This is unfiltered signal that surfaces the praise and the complaints that don't show up on Clutch.
 
+**AI-search citation checks.** For each agency we check whether they actually earn citations in Google AI Overviews, ChatGPT, and Perplexity for the list's head terms, not just whether they sell GEO or AEO as a service. Being named by the engines is a stronger signal than claiming the capability, and it is increasingly how SaaS buyers shortlist in the first place.
+
 **Trustpilot, GoodFirms, and Google Business reviews.** Used as tiebreakers when Clutch and G2 give conflicting signals.
 
 We deliberately do **not** rely on:
@@ -37,7 +39,7 @@ We deliberately do **not** rely on:
 
 ## How we score
 
-Each agency on every list is scored on the same five criteria. The criteria are equal-weighted, and the score is qualitative, we publish criteria in plain English rather than a 100-point rubric because pretending agency comparison is a precise number is a more honest signal of imprecision than a fake-precise score.
+Each agency on every list is scored against the same core criteria below, and the criteria are weighted, not equal. The two that carry the most weight are subject-matter expertise and pipeline-and-revenue attribution, because those are what SaaS buyers tell us actually predict results. Some lists add a domain-specific criterion, like GEO and AEO capability for [SaaS SEO](/list/best-saas-seo-agencies/). We spell the criteria out in plain English here so you can audit the call rather than trust a black-box number.
 
 **1. Subject-matter expertise.** Has the agency demonstrably shipped work in the buyer's exact category? For a "best B2B PPC agencies" list, that means real B2B PPC case studies, not "we do PPC" plus an unrelated B2C portfolio. For a "best fintech SEO agencies" list, that means fintech-specific work with the compliance, KYC, and regulated-buyer awareness that fintech demands.
 
