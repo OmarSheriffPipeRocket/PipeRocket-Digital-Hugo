@@ -23,9 +23,9 @@ account_pod   = "strategist, SEO lead, paid media lead, content strategist"
 # Public rating — VERIFY LIVE before each publish.
 clutch_url     = "https://clutch.co/profile/piperocket-digital"
 clutch_rating  = "4.7"
-clutch_reviews = "13"
-rating_string  = "4.7/5 (13 reviews)"                   # the exact string to drop into a Rating cell
-last_verified  = "2026-06-14"
+clutch_reviews = "14"
+rating_string  = "4.7/5 (14 reviews)"                   # the exact string to drop into a Rating cell
+last_verified  = "2026-06-24"
 
 # Positioning / scope
 specialization = "B2B SaaS only — SEO + PPC in one retainer; pipeline reporting (MQL, CAC, pipeline value) from week 4"
