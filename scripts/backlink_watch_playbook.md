@@ -12,6 +12,12 @@ Run these steps in order. Do not skip the final two (they prevent duplicates).
 ```
 python3 scripts/backlink_backfill.py watch
 ```
+The watcher is gap-aware: it queries Gmail from the last successful run, so
+however long the Mac was closed, this run catches up the whole gap (up to 60
+days). If `credentials/_watch_gap.txt` contains a number (days), the Mac was
+closed a while — prepend a line like `:hourglass: Catching up after an N-day
+gap` to your first Slack message this run.
+
 Then read `credentials/_watch_new.json`. Each item is a full email thread
 (`id`, `messages[]` with from/to/subject/date/body). If the file is empty `[]`,
 there is nothing to do — STOP here (do not post, do not mark-seen).
@@ -23,7 +29,13 @@ Keep only GENUINE inbound requests of these types:
 - **guest post** — they want to publish on our site (or place a client's post)
 - (a listicle/roundup inclusion counts as **brand mention**)
 
+**Relevance gate (important):** PipeRocket only cares about partners in its niche.
+- KEEP a request if the sender is a **SaaS or B2B (marketing/SEO/content/PPC) agency**, OR they're offering a **mention / link exchange that involves a SaaS or B2B agency** (theirs or a client's).
+- **DROP guest-post requests** (and other asks) when the sender is **not** from a SaaS/B2B agency background AND there's **no** SaaS/B2B mention/link exchange on offer — e.g. generic freelance "I write guest posts" pitches, non-SaaS niches (health, crypto-casino, ecommerce dropshipping, local services), or bulk link-list vendors with no relevant SaaS/B2B angle.
+- When unsure of the sender's background, check the email domain / signature / linked site; if it isn't clearly a SaaS or B2B agency and there's no relevant exchange, drop it.
+
 DROP (do not alert):
+- Anything failing the relevance gate above (non-SaaS/B2B guest-post and link pitches)
 - Newsletters, webinars, digests, product updates, job alerts, invoices, notifications
 - Vendors selling SEO/link-building *services* to us with no specific mention/exchange ask
 - Anything where WE are the original sender and this is just their acknowledgement/thanks

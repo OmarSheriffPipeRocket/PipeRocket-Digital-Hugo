@@ -28,7 +28,9 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
+from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
 
@@ -49,10 +51,39 @@ ENV_FILE = ROOT / "credentials" / ".env"
 SEEN_FILE = ROOT / "credentials" / "_seen_threads.json"      # thread ids already processed
 WATCH_NEW_FILE = ROOT / "credentials" / "_watch_new.json"    # new candidates for Claude to classify
 SLACK_QUEUE_FILE = ROOT / "credentials" / "_slack_queue.json"  # messages Claude wants posted
-# Incoming requests only (someone asking us). 7-day window so the watcher
-# tolerates multi-day downtime (e.g. app closed over a weekend) without missing
-# requests; the seen-state dedupes the large overlap so nothing alerts twice.
-WATCH_QUERY = "newer_than:7d in:inbox"
+META_FILE = ROOT / "credentials" / "_watch_meta.json"        # {last_run_epoch} for gap-aware catch-up
+
+# Incoming requests only (someone asking us). Includes Spam because legit
+# cold outreach is often mis-flagged; the keyword + noise filters cut the junk.
+WATCH_INBOX = "(in:inbox OR in:spam)"
+# Lookback on the very first run (no recorded last-run yet).
+DEFAULT_LOOKBACK = "newer_than:7d"
+GAP_BUFFER = 3600          # re-scan 1h before last run so nothing on the boundary slips
+GAP_MAX = 60 * 86400       # cap the catch-up window at 60 days, even after a long closure
+
+
+def _load_meta():
+    return json.loads(META_FILE.read_text()) if META_FILE.exists() else {}
+
+
+def _save_meta(d):
+    META_FILE.write_text(json.dumps(d))
+
+
+def build_watch_query():
+    """Gmail query covering everything since the last successful run.
+
+    No last_run (first run) -> 7-day window. Otherwise query from last_run minus
+    a 1h buffer, so however long the Mac was closed, the next run catches up the
+    whole gap (capped at 60 days). Returns (query, gap_seconds_or_None).
+    """
+    last = _load_meta().get("last_run")
+    if not last:
+        return f"{DEFAULT_LOOKBACK} {WATCH_INBOX}", None
+    now = int(time.time())
+    gap = now - int(last)
+    after = now - min(gap + GAP_BUFFER, GAP_MAX)
+    return f"after:{after} {WATCH_INBOX}", gap
 
 # Automated/bulk senders that are never a real brand-mention request — dropped
 # before Claude classifies, to keep the hourly run clean.
@@ -69,6 +100,7 @@ NOISE_SENDERS = (
     "ads-account-noreply@google.com", "gartner.com", "conductor.com",
     "freepik.com", "microsoftadvertising.com", "crunchbase.com", "netlify.com",
     "redditmail.com", "minuteslink.com", "designrush.co", "openai.com",
+    "growresolve.com", "conductor.com", "gartner.com",
 )
 
 
@@ -115,7 +147,8 @@ KEYWORD_RE = re.compile(
     r"add\s*(?:you|your|us|our)\b|include\s*(?:you|your|us|our)\b|reciprocal|"
     r"add\s*(?:you|us)\s*to\s*(?:your|our|the)\s*list|featured?\s*in\s*(?:your|our|the)\s*list|"
     # --- partnership / collab / outreach ---
-    r"collaborat|partnership|partner\s*with|co-?marketing|cross\s*-?promot|outreach|"
+    r"collaborat|collaboration|\bcollab\b|work\s*together|"
+    r"partnership|partner\s*with|co-?marketing|cross\s*-?promot|outreach|"
     # --- SEO authority signals ---
     r"domain\s*authority|domain\s*rating|\bDA\s*\d|\bDR\s*\d|high\s*-?authority|"
     r"digital\s*pr\b|\bHARO\b|\bqwoted\b"
@@ -353,14 +386,25 @@ def run_watch():
     """
     creds = get_creds()
     gmail = build("gmail", "v1", credentials=creds, cache_discovery=False)
-    print(f"Watch query: {WATCH_QUERY}")
-    threads = fetch_threads(gmail, query=WATCH_QUERY, cache=False)
+    query, gap = build_watch_query()
+    if gap is not None and gap > 6 * 3600:
+        days = gap / 86400
+        print(f"⏳ Gap since last run: {days:.1f} days — catching up the whole window.")
+        # leave a breadcrumb so Claude can mention the catch-up in Slack if it wants
+        (ROOT / "credentials" / "_watch_gap.txt").write_text(f"{days:.1f}")
+    else:
+        (ROOT / "credentials" / "_watch_gap.txt").write_text("")
+    print(f"Watch query: {query}")
+    threads = fetch_threads(gmail, query=query, cache=False)
     seen = _load_seen()
     fresh = []
     for t in threads:
         prev = seen.get(t["id"])  # None if never seen
         if prev is not None and len(t["messages"]) <= prev:
             continue  # already processed, no new reply
+        # If WE sent the latest message, the ball is in their court — nothing to alert.
+        if "piperocket.digital" in t["messages"][-1]["from"].lower():
+            continue
         if all(_is_noise_sender(m["from"]) for m in t["messages"]):
             continue
         if KEYWORD_RE.search(thread_text(t)):
@@ -386,6 +430,11 @@ def run_mark_seen():
     for t in fresh:
         seen[t["id"]] = len(t["messages"])
     _save_seen(seen)
+    # Stamp last successful run so the next watch covers exactly the gap since now.
+    meta = _load_meta()
+    meta["last_run"] = int(time.time())
+    meta["last_run_iso"] = datetime.now(timezone.utc).isoformat()
+    _save_meta(meta)
     print(f"Marked {len(fresh)} threads at current message count (total tracked: {len(seen)}).")
 
 
