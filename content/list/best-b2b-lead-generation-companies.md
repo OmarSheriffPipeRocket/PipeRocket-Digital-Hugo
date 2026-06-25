@@ -151,7 +151,7 @@ I built [PipeRocket Digital](/) because I saw a gap in how agencies handle B2B S
 
 **Proof**
 
-Specific outcomes from our case studies: [HyperStart](/case-study-hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase. [Storylane](/case-study-storylane/) saw 2.5x business growth in a single quarter from content-led lead gen.
+Specific outcomes from our case studies: [HyperStart](/case-study/hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase. [Storylane](/case-study/storylane/) saw 2.5x business growth in a single quarter from content-led lead gen.
 
 **The Sell**
 

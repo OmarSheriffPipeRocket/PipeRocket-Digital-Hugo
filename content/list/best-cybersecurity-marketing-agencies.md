@@ -163,7 +163,7 @@ Our approach starts with the ICP: the job titles, buying triggers, compliance pr
 
 **Field Evidence**
 
-We work with cybersecurity-adjacent SaaS like CyberSierra and DevRev. Across our portfolio, [HyperStart](/case-study-hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73%, and [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase.
+We work with cybersecurity-adjacent SaaS like CyberSierra and DevRev. Across our portfolio, [HyperStart](/case-study/hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73%, and [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase.
 
 **The Spend**
 

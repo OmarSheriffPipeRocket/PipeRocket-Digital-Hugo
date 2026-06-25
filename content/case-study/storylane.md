@@ -2,7 +2,7 @@
 featuredImage: "/images/case-study-covers/storylane.webp"
 title: "Driving 2.5X Growth and 62% More Demos: Storylane's Success with PipeRocket's Campaigns"
 slug: "storylane"
-url: "/case-study-storylane/"
+url: "/case-study/storylane/"
 description: "How PipeRocket's Google Ads + LinkedIn campaigns lifted Storylane's SQLs by 25% — while holding cost-per-SQL flat across one quarter."
 metaTitle: "Storylane Case Study: 2.5X Growth, 62% More Demos"
 metaDescription: "How PipeRocket's Google Ads + LinkedIn campaigns lifted Storylane's SQLs by 25% while holding cost-per-SQL flat across one quarter. Full case study."

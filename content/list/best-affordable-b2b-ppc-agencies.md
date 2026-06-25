@@ -140,7 +140,7 @@ PipeRocket Digital stands out for B2B SaaS companies that need full-funnel PPC t
 - Every campaign ties to pipeline and MRR through [B2B marketing operations](/marketing-ops/) and RevOps alignment
 - BOFU-led: we optimize for the bottom-of-funnel terms that drive revenue, not top-of-funnel impressions
 
-**Proof point:** Specific PPC outcomes from our case studies: [HyperStart](/case-study-hyperstart/) doubled SQO volume (4 → 11) while cutting cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in 3 months. [Storylane](/case-study-storylane/) saw 2.5x business growth in a single quarter, +25% SQLs, and +62% meetings booked.
+**Proof point:** Specific PPC outcomes from our case studies: [HyperStart](/case-study/hyperstart/) doubled SQO volume (4 → 11) while cutting cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in 3 months. [Storylane](/case-study/storylane/) saw 2.5x business growth in a single quarter, +25% SQLs, and +62% meetings booked.
 
 **Limitation:** We're not for everyone. We work with a small number of B2B SaaS companies at a time, and we don't take on clients outside SaaS or clients who want CPL-only reporting without caring about pipeline.
 

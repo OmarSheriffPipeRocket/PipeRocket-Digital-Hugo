@@ -2,7 +2,7 @@
 featuredImage: "/images/case-study-covers/hyperverge.webp"
 title: "Achieving 3.5X MQL Growth: HyperVerge's Success Story with PipeRocket"
 slug: "hyperverge"
-url: "/case-study-hyperverge/"
+url: "/case-study/hyperverge/"
 description: "How a focused Google Ads rebuild — sharper keywords, tighter forms, weekly negatives — 3.5X'd HyperVerge's MQL pipeline in three months."
 metaTitle: "HyperVerge Case Study: 3.5X MQL Growth"
 metaDescription: "How a focused Google Ads rebuild — sharper keywords, tighter forms, weekly negatives — 3.5X'd HyperVerge's MQL pipeline in three months."

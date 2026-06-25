@@ -160,7 +160,7 @@ Refine Labs doesn't touch organic search or Google Ads at the execution level. W
 
 **What We've Delivered**
 
-[HyperStart](/case-study-hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead 73%. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase, landing 51 high-quality MQLs in three months. [Storylane](/case-study-storylane/) saw 2.5x business growth in a single quarter, with SQLs up 25% and booked meetings up 62%.
+[HyperStart](/case-study/hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead 73%. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase, landing 51 high-quality MQLs in three months. [Storylane](/case-study/storylane/) saw 2.5x business growth in a single quarter, with SQLs up 25% and booked meetings up 62%.
 
 **What Users Say**
 

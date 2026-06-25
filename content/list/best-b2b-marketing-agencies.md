@@ -184,7 +184,7 @@ I ask the hard questions your product team avoids. I trace the path from a Googl
 
 **Documented**
 
-[HyperStart](/case-study-hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase. [Storylane](/case-study-storylane/) saw 2.5x business growth in a single quarter from full-funnel B2B marketing.
+[HyperStart](/case-study/hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase. [Storylane](/case-study/storylane/) saw 2.5x business growth in a single quarter from full-funnel B2B marketing.
 
 **Strong Fit:** B2B SaaS companies with $5M+ ARR seeking a marketing partner obsessed with revenue outcomes over activity metrics, where every campaign defends itself in the next pipeline review.
 

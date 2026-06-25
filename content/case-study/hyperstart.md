@@ -2,7 +2,7 @@
 featuredImage: "/images/case-study-covers/hyperstart.webp"
 title: "HyperStart Achieves 2X the Lead at 73% Less Cost with PipeRocket's Winning Strategy Formula"
 slug: "hyperstart"
-url: "/case-study-hyperstart/"
+url: "/case-study/hyperstart/"
 description: "How HyperStart's SQO pipeline doubled while cost-per-lead dropped 73% — across one quarter of disciplined PPC restructuring."
 metaTitle: "HyperStart Case Study: 2X Leads at 73% Less Cost"
 metaDescription: "How HyperStart's SQL pipeline doubled while cost-per-lead dropped 73% in one quarter of disciplined B2B SaaS PPC restructuring with PipeRocket."

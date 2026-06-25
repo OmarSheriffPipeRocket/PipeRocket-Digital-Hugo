@@ -175,7 +175,7 @@ Clutch reviewers consistently note we're the first agency they've worked with th
 
 **Documented Outcomes**
 
-[HyperStart](/case-study-hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead 73%. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in three months. [Storylane](/case-study-storylane/) saw 2.5x business growth in one quarter, with SQLs up 25% and meetings booked up 62%.
+[HyperStart](/case-study/hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead 73%. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in three months. [Storylane](/case-study/storylane/) saw 2.5x business growth in one quarter, with SQLs up 25% and meetings booked up 62%.
 
 **Where We Fall Short**
 

@@ -2,7 +2,7 @@
 featuredImage: "/images/case-study-covers/spendflo.webp"
 title: "From Stagnation to Domination: PipeRocket's Impact on Spendflo's 81% Traffic Rise"
 slug: "spendflo"
-url: "/case-study-spendflo/"
+url: "/case-study/spendflo/"
 description: "How a stalled organic programme turned into a 61% traffic lift for Spendflo — without chasing volume keywords."
 metaTitle: "Spendflo Case Study: 61% Traffic Lift in 6 Months"
 metaDescription: "How a stalled organic programme turned into a 61% traffic lift for Spendflo — without chasing volume keywords. Pipeline-first SaaS SEO case study."

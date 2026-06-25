@@ -159,7 +159,7 @@ We built [PipeRocket Digital](/) around the gap WebFX doesn't fill: B2B SaaS ver
 - [Programmatic SEO](/saas-seo-agency/programmatic-seo-agency/) and [GEO/AEO](/saas-seo-agency/ai-seo-services/) built into core service, not sold as add-ons
 - Retainers start at $3,000/mo with no markup on ad spend and no hidden fees
 
-**Proof point:** [HyperStart](/case-study-hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead 73%. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in three months. [Storylane](/case-study-storylane/) saw 2.5x business growth in one quarter, with SQLs up 25% and meetings booked up 62%.
+**Proof point:** [HyperStart](/case-study/hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead 73%. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in three months. [Storylane](/case-study/storylane/) saw 2.5x business growth in one quarter, with SQLs up 25% and meetings booked up 62%.
 
 **Limitation:** We're B2B SaaS only. No ecommerce, no local services, no non-SaaS B2B. Pre-seed teams without product-market fit are declined because we can't manufacture demand for a product that doesn't fit a clear ICP.
 

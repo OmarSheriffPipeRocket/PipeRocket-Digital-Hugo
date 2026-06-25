@@ -158,7 +158,7 @@ We run SEO, [B2B paid media](/saas-ppc/), GEO/AEO, content, and marketing operat
 
 **Client Evidence**
 
-We've built demand gen programmes across B2B SaaS at every stage. Across our published case studies: [HyperStart](/case-study-hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead by 73%. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase. [Storylane](/case-study-storylane/) saw 2.5x business growth in a single quarter from SEO-led pipeline.
+We've built demand gen programmes across B2B SaaS at every stage. Across our published case studies: [HyperStart](/case-study/hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead by 73%. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase. [Storylane](/case-study/storylane/) saw 2.5x business growth in a single quarter from SEO-led pipeline.
 
 **What Reviewers Say**
 

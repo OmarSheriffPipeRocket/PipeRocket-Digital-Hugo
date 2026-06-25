@@ -2,7 +2,7 @@
 featuredImage: "/images/case-study-covers/cybersierra.webp"
 title: "PipeRocket Drives 279% Organic Traffic Growth for CyberSierra Through Strategic SEO"
 slug: "cybersierra"
-url: "/case-study-cybersierra/"
+url: "/case-study/cybersierra/"
 description: "How disciplined topical-authority SEO drove a 279% organic traffic lift for CyberSierra in a high-trust, high-competition category."
 metaTitle: "CyberSierra Case Study: 279% Organic Traffic Growth"
 metaDescription: "How disciplined topical-authority SEO drove a 279% organic traffic lift for CyberSierra in a high-trust, high-competition cybersecurity SaaS category."

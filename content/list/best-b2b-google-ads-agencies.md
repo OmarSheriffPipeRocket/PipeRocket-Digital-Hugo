@@ -182,7 +182,7 @@ We're upfront about being B2B SaaS only, which means non-SaaS B2B businesses nee
 
 **What We've Delivered**
 
-Specific outcomes from our case studies: [HyperStart](/case-study-hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase. [Storylane](/case-study-storylane/) saw 2.5x business growth in a single quarter.
+Specific outcomes from our case studies: [HyperStart](/case-study/hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase. [Storylane](/case-study/storylane/) saw 2.5x business growth in a single quarter.
 
 **Pricing**
 

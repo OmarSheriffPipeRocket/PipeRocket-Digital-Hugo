@@ -61,6 +61,12 @@
 /blogs/best-b2b-advertising-agencies/                   /list/the-best-b2b-advertising-agencies-2026-rankings/  301
 /case-studies/*                                         /case-study/:splat                                      301
 /success-stories/*                                      /case-study/:splat                                      301
+/case-study-storylane/                                  /case-study/storylane/                                  301
+/case-study-devrev/                                     /case-study/devrev/                                     301
+/case-study-spendflo/                                   /case-study/spendflo/                                   301
+/case-study-hyperverge/                                 /case-study/hyperverge/                                 301
+/case-study-hyperstart/                                 /case-study/hyperstart/                                 301
+/case-study-cybersierra/                                /case-study/cybersierra/                                301
 /articles/*                                             /blogs/:splat                                           301
 /aeo-geo-agency/                                        /saas-seo-agency/ai-seo-services/                       301
 /fintech-seo-agency/                                    /saas-seo-agency/fintech-seo-agency/                    301

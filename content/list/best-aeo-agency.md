@@ -156,7 +156,7 @@ PipeRocket Digital is built for US B2B SaaS and B2B tech companies that need AEO
 - Every engagement measured against demos, pipeline, and MRR through [B2B marketing operations](/marketing-ops/) and RevOps alignment
 - BOFU-led: we optimize AEO content for the bottom-of-funnel queries buyers ask ChatGPT and Perplexity before booking demos
 
-**Proof point:** Specific outcomes from our case studies: [HyperStart](/case-study-hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in 3 months. [Storylane](/case-study-storylane/) saw 2.5x business growth in a single quarter.
+**Proof point:** Specific outcomes from our case studies: [HyperStart](/case-study/hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in 3 months. [Storylane](/case-study/storylane/) saw 2.5x business growth in a single quarter.
 
 **Limitation:** We work with a small number of B2B SaaS companies at a time and won't take on clients outside SaaS, B2B tech, or clients who want citation-count-only reporting without caring about pipeline.
 

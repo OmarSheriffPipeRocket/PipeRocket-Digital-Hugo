@@ -108,7 +108,7 @@ The data is blunt on this. We analysed 53 B2B SaaS brands over eight months. Org
 
 Organic drove roughly 11 times more traffic than every AI engine put together, and converted at nearly 3.5 times the AI rate. Those numbers come from PipeRocket Digital's [State of SEO in the AI World 2026 report](/research/ai-seo-statistics/).
 
-The economics show up in client work too. [Spendflo credits us](/case-study-spendflo/) with 5X organic traffic over eight months and a 25% lift in organic leads. [CyberSierra went from 6 to 338 keywords in top-10 positions](/case-study-cybersierra/), a 279% organic traffic increase. Neither came from chasing volume. Both came from ICP-mapped content built to convert.
+The economics show up in client work too. [Spendflo credits us](/case-study/spendflo/) with 5X organic traffic over eight months and a 25% lift in organic leads. [CyberSierra went from 6 to 338 keywords in top-10 positions](/case-study/cybersierra/), a 279% organic traffic increase. Neither came from chasing volume. Both came from ICP-mapped content built to convert.
 
 For most SaaS companies, organic CAC crosses below paid CAC somewhere between months 9 and 14, then keeps falling as the content library grows. Paid can never replicate that curve.
 

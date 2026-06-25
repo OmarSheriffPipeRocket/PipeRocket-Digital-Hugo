@@ -80,7 +80,7 @@ Start by deciding what success looks like for your LinkedIn marketing. Your goal
 - Connection requests from [ICP](/glossary/what-is-icp/) roles
 - Opportunities created
 
-Define your audience by job titles, industries, company size and pain points. For example, PipeRocket helped [Storylane](/case-study-storylane/) refine targeting to mid-market enterprise buyers, improving lead quality because LinkedIn B2B ads reached real decision-makers instead of a broad audience.
+Define your audience by job titles, industries, company size and pain points. For example, PipeRocket helped [Storylane](/case-study/storylane/) refine targeting to mid-market enterprise buyers, improving lead quality because LinkedIn B2B ads reached real decision-makers instead of a broad audience.
 
 ### **2. Develop Your LinkedIn Company Page & Profile Strategy**
 
@@ -102,7 +102,7 @@ Use content pillars that align with buyer needs and reinforce expertise. Example
 - Product explanations or demos
 - Customer success stories and behind-the-scenes processes
 
-Mix formats like short posts, carousels, long-form articles, and video. Real stories outperform generic tips. When PipeRocket shared [Spendflo’s success results](/case-study-spendflo/) publicly, engagement improved because buyers value practical examples over theory.
+Mix formats like short posts, carousels, long-form articles, and video. Real stories outperform generic tips. When PipeRocket shared [Spendflo’s success results](/case-study/spendflo/) publicly, engagement improved because buyers value practical examples over theory.
 
 ### **4. Organic vs Paid Approach – How to Blend**
 

@@ -216,7 +216,7 @@ Our 30-plus-person team owns BOFU-led SEO, paid search, GEO/AEO, and programmati
 - GEO and AEO depth alongside technical SEO under one roof
 - Pipeline-attributed reporting that survives the quarterly board review
 
-**Evidence on Record:** We hold a 4.7/5 verified Clutch rating, and our case studies show measurable pipeline impact: [HyperStart](/case-study-hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead by 73%, and [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase.
+**Evidence on Record:** We hold a 4.7/5 verified Clutch rating, and our case studies show measurable pipeline impact: [HyperStart](/case-study/hyperstart/) doubled SQO volume from 4 to 11 and cut cost per lead by 73%, and [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase.
 
 **Where They Fall Short:** We're a B2B SaaS shop, so we politely decline B2C banking apps, consumer crypto products, and pure brand engagements without a pipeline KPI attached.
 

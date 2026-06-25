@@ -177,7 +177,7 @@ Every programme we run is measured against MQLs, SQLs, pipeline created, and pip
 
 **Documented Outcome**
 
-Specific outcomes from our published case studies: [HyperStart](/case-study-hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study-hyperverge/) grew MQLs 3.5x with zero budget increase. [Storylane](/case-study-storylane/) saw 2.5x business growth in a single quarter.
+Specific outcomes from our published case studies: [HyperStart](/case-study/hyperstart/) doubled SQO volume (4 to 11) and cut cost per lead by 73% across 10+ experiments. [HyperVerge](/case-study/hyperverge/) grew MQLs 3.5x with zero budget increase. [Storylane](/case-study/storylane/) saw 2.5x business growth in a single quarter.
 
 **Ideal Buyer:** B2B SaaS and B2B tech at any ARR stage, from pre-revenue founders building demand from zero to Series B+ teams scaling pipeline through integrated demand gen and organic channels.
 

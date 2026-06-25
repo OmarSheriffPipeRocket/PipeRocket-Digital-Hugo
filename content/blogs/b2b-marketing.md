@@ -277,7 +277,7 @@ For long-form context on the content side of the mix, see our [B2B content marke
 
 ### 1. Storylane: Using Paid Search + LinkedIn Retargeting to Increase SQLs and Demos
 
-[Storylane](/case-study-storylane/), a no-code demo creation platform, wanted to improve SQL quality and attract more mid-market and enterprise buyers. At PipeRocket Digital, we restructured their Google Search campaigns, paused low-performing keywords, and reallocated budget into high-intent terms. This tightened the funnel efficiency.
+[Storylane](/case-study/storylane/), a no-code demo creation platform, wanted to improve SQL quality and attract more mid-market and enterprise buyers. At PipeRocket Digital, we restructured their Google Search campaigns, paused low-performing keywords, and reallocated budget into high-intent terms. This tightened the funnel efficiency.
 
 At the same time, we introduced LinkedIn retargeting to re-engage people who had visited their content or landing pages but hadn’t converted yet. We also improved ad copy and landing pages to reduce drop-offs.
 

@@ -2,7 +2,7 @@
 featuredImage: "/images/case-study-covers/devrev.webp"
 title: "How DevRev Achieved 127% Organic Traffic Growth: A Case Study with PipeRocket"
 slug: "devrev"
-url: "/case-study-devrev/"
+url: "/case-study/devrev/"
 description: "How DevRev's organic programme more than doubled traffic in six months — by ranking on the queries their ICP was actually searching."
 metaTitle: "DevRev Case Study: 127% Traffic Growth in 6 Months"
 metaDescription: "How DevRev's organic programme more than doubled traffic in six months — by ranking on the BOFU queries their ICP was actually searching for."
