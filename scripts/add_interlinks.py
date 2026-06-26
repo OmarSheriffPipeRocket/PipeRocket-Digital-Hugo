@@ -370,6 +370,15 @@ LINK_MAP = [
     ("enterprise SEO platforms", "/list/best-enterprise-seo-software/", False, "P1"),
     ("enterprise SEO tools", "/list/best-enterprise-seo-software/", False, "P1"),
 
+    # ---- new blog added 2026-06-25 (GEO + AEO consolidated how-to) ----
+    ("generative engine optimization", "/blogs/how-to-do-geo-for-saas/", False, "P0"),
+    ("answer engine optimization", "/blogs/how-to-do-geo-for-saas/", False, "P0"),
+    ("GEO for SaaS", "/blogs/how-to-do-geo-for-saas/", False, "P0"),
+    ("google ranking factors", "/blogs/google-ranking-factors-saas/", False, "P0"),
+    ("Google ranking factors", "/blogs/google-ranking-factors-saas/", False, "P0"),
+    ("SaaS marketing metrics", "/blogs/saas-marketing-metrics/", False, "P0"),
+    ("marketing metrics", "/blogs/saas-marketing-metrics/", False, "P0"),
+
     # ---- tool vs / alternatives pages added 2026-06-19 (neutral tool comparisons) ----
     ("Surfer SEO vs Clearscope", "/compare/surfer-seo-vs-clearscope/", False, "P2"),
     ("Screaming Frog vs Sitebulb", "/compare/screaming-frog-vs-sitebulb/", False, "P2"),
