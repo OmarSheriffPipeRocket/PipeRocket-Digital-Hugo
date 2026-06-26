@@ -338,6 +338,10 @@ Moz Pro uses a tiered subscription with savings on annual billing. As of June 20
 
 ---
 
+Also evaluating Moz? See our [Moz alternatives](/alternative/moz-alternatives/) breakdown.
+
+
+
 ### 5. Mangools
 
 Best for: Bloggers and freelancers who want the friendliest keyword-research toolkit at a budget price close to Ubersuggest's.

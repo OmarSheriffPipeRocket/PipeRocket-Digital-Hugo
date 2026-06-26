@@ -217,6 +217,10 @@ Best for: B2B SaaS companies wanting deep organic specialisation — SEO, conten
 | Notable Clients | SAP, Adobe, TikTok Shop, Asana, Loom, Jasper, Smartling, Drift |
 | Specialization | B2B SaaS SEO, content, digital PR, link building, GEO/AEO |
 
+Also evaluating Jasper? See our [Jasper alternatives](/alternative/jasper-alternatives/) breakdown.
+
+
+
 **Differentiator:** Omniscient built organic programs specifically for B2B software companies at scale — not adapted from a generalist SEO playbook. Their GEO/AEO practice, optimising for generative AI search engines alongside traditional Google rankings, is a forward specialisation that Kalungi's T2D3 framework doesn't address.
 
 - Named clients include SAP, Adobe, Asana, and TikTok Shop — brand-name social proof that Kalungi's FeaturedCustomers-only profile can't match on Clutch

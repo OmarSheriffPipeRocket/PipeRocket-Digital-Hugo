@@ -49,6 +49,8 @@ AGENCIES = {
     "Powered by Search": (None, "/alternative/powered-by-search-alternatives/"),
     "Refine Labs": (None, "/alternative/refine-labs-alternatives/"),
     "Single Grain": (None, "/alternative/single-grain-alternatives/"),
+    "Skale": (None, "/alternative/skale-alternatives/"),
+    "SimpleTiger": (None, "/alternative/simpletiger-alternatives/"),
 }
 
 # Lead-in variants, rotated per card occurrence so the corpus isn't

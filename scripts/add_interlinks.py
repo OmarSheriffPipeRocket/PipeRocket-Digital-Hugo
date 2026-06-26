@@ -390,6 +390,16 @@ LINK_MAP = [
     ("Opteo alternatives", "/alternative/opteo-alternatives/", False, "P2"),
     ("HockeyStack alternatives", "/alternative/hockeystack-alternatives/", False, "P2"),
     ("Demandbase alternatives", "/alternative/demandbase-alternatives/", False, "P2"),
+    # ---- tool-alternatives batch added 2026-06-26 ----
+    ("Surfer SEO alternatives", "/alternative/surfer-seo-alternatives/", False, "P2"),
+    ("Moz alternatives", "/alternative/moz-alternatives/", False, "P2"),
+    ("Screaming Frog alternatives", "/alternative/screaming-frog-alternatives/", False, "P2"),
+    ("Hotjar alternatives", "/alternative/hotjar-alternatives/", False, "P2"),
+    ("Clearscope alternatives", "/alternative/clearscope-alternatives/", False, "P2"),
+    ("Jasper alternatives", "/alternative/jasper-alternatives/", False, "P2"),
+    ("Copy.ai alternatives", "/alternative/copy-ai-alternatives/", False, "P2"),
+    ("Frase alternatives", "/alternative/frase-alternatives/", False, "P2"),
+    ("Unbounce alternatives", "/alternative/unbounce-alternatives/", False, "P2"),
     ("AI content detector", "/list/best-ai-content-detector/", False, "P1"),
     # ---- SEO audit tools listicle added 2026-06-18 ----
     ("SEO audit tools", "/list/best-seo-audit-tools/", False, "P1"),

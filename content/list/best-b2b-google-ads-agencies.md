@@ -603,6 +603,8 @@ SimpleTiger is the accessible SaaS-specialist pick when SEO is the foundation an
 
 ---
 
+Also weighing SimpleTiger? See our roundup of the [best SimpleTiger alternatives](/alternative/simpletiger-alternatives/).
+
 ### 8. Wpromote
 
 Best for: B2B Brands Wanting Data Science and Machine Learning Applied to Google Ads Optimisation
