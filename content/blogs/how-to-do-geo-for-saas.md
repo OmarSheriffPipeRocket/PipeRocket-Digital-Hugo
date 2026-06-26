@@ -81,7 +81,7 @@ If you're not present on Reddit, Quora, or G2, you're invisible to the surface y
 
 Make your name, category, and core facts consistent everywhere they appear. AI engines build a picture of who you are from across the web, and a messy entity (different descriptions, conflicting facts) makes you a risky thing to cite.
 
-{{< experience author="kim" title="Getting a client cited by AI through Wikipedia" >}}
+{{< experience author="vignesh-sampath" title="Getting a client cited by AI through Wikipedia" >}}
 The strongest entity move we run is getting a client listed on Wikipedia, and not for the [backlink](/glossary/what-is-a-backlink/). It's for the credibility. In our experience, Wikipedia shows up constantly in AI citations for competitive B2B queries, so a neutral, fully-cited entry earns trust the engines respect.
 
 I won't pretend it's easy. We failed three or four times before one stuck, because everything has to be neutral and fact-based with no promotional language. Done right, client pages started appearing in GPT and Perplexity citations within weeks.
