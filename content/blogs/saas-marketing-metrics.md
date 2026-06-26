@@ -5,7 +5,7 @@ metaTitle: "SaaS Marketing Metrics That Actually Matter"
 metaDescription: "The SaaS marketing metrics worth tracking, grouped by acquisition, conversion, revenue, and retention, plus the vanity metrics to stop reporting."
 date: 2026-06-25
 slug: "saas-marketing-metrics"
-writtenBy: "kim"
+writtenBy: "omar"
 category: "B2B Marketing"
 featuredImage: "/images/blog-covers/saas-marketing-metrics.webp"
 ---
@@ -86,7 +86,7 @@ Churn is the revenue you lose from cancellations and downgrades, and net revenue
 
 Some metrics fill dashboards and impress no one who reads a P&L. They feel like progress because they go up and to the right, but they don't connect to revenue, and reporting them crowds out the numbers that do.
 
-The framing I keep coming back to is simple: stop chasing traffic, start chasing signals. A metric earns its place on the board deck only if you can trace a line from it to pipeline.
+The framing we keep coming back to is simple: stop chasing traffic, start chasing signals. A metric earns its place on the board deck only if you can trace a line from it to pipeline.
 
 ### Raw traffic, impressions, and followers
 

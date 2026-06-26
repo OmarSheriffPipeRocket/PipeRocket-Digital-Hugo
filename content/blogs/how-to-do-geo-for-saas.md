@@ -5,7 +5,7 @@ metaTitle: "GEO and AEO for SaaS: One AI Search Playbook"
 metaDescription: "GEO and AEO aren't separate jobs. One AI SEO playbook gets your SaaS cited in ChatGPT and extracted into Google AI Overviews. Here's the move-set."
 date: 2026-06-25
 slug: "how-to-do-geo-for-saas"
-writtenBy: "kim"
+writtenBy: "vignesh-sampath"
 category: "AI Search"
 featuredImage: "/images/blog-covers/how-to-do-geo-for-saas.webp"
 ---
@@ -117,7 +117,7 @@ If you have to choose what to start with, choose by where your buyers actually a
 
 AI-visibility tracking is directional in 2026, so treat every number as an estimate. The tools sample a handful of prompts, results swing between sessions, and nobody has a clean, repeatable read on share-of-answer yet.
 
-I'll be blunt about it. "Most [LLM](/glossary/what-is-an-llm/) SEO tracking tools right now? Pure guesswork." That doesn't mean skip measurement, it means hold the numbers loosely and watch the trend instead of the decimal.
+The blunt truth, as our SEO lead puts it: "Most [LLM](/glossary/what-is-an-llm/) SEO tracking tools right now? Pure guesswork." That doesn't mean skip measurement, it means hold the numbers loosely and watch the trend instead of the decimal.
 
 ### What's worth tracking now
 

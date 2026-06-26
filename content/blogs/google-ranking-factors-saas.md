@@ -5,7 +5,7 @@ metaTitle: "Google Ranking Factors That Matter for SaaS"
 metaDescription: "Most of the 200 Google ranking factors are noise. Here are the few that actually move SaaS rankings, the ones to ignore, and what's SaaS-specific."
 date: 2026-06-25
 slug: "google-ranking-factors-saas"
-writtenBy: "kim"
+writtenBy: "rohith"
 category: "SaaS SEO"
 featuredImage: "/images/blog-covers/google-ranking-factors-saas.webp"
 ---
