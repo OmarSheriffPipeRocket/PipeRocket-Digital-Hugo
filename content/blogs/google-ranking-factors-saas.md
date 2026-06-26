@@ -61,7 +61,7 @@ A handful of links from sites Google trusts beats a hundred low-quality ones. Th
 
 Brand signals matter more every year, and AI search is accelerating it. Google and the AI engines surface a category before they surface a brand, so a clean, consistent entity (same name, category, and facts everywhere) increasingly feeds what gets shown.
 
-The shift shows up in the data. In our analysis, only 11.8% of AI-referred sessions carried brand-name search intent, versus 28.1% for organic, a 16.3-point gap. People ask AI for the best tool in a category, not for you by name, so being a recognizable entity in that category is what gets you surfaced. Modern SaaS [SEO](/glossary/what-is-seo/) wins by being "great" across these four factors together, not by maxing one and ignoring the others.
+The shift shows up in the data. In [our AI search analysis](/research/ai-seo-statistics/), only 11.8% of AI-referred sessions carried brand-name search intent, versus 28.1% for organic, a 16.3-point gap. People ask AI for the best tool in a category, not for you by name, so being a recognizable entity in that category is what gets you surfaced. Modern SaaS [SEO](/glossary/what-is-seo/) wins by being "great" across these four factors together, not by maxing one and ignoring the others.
 
 ## The Factors SaaS Teams Obsess Over That Barely Move the Needle
 
