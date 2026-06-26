@@ -48,7 +48,7 @@ Most teams only check if their pages are live, not if they’re indexed. The rea
 
 - Crawl accessibility: Make sure your site isn’t blocking Googlebot with robots.txt or meta tags otherwise, indexing is impossible.
 - Quality content: Thin, duplicate, or auto-generated pages often get skipped by the index. Only substantial, unique content consistently makes it in.
-- Sitemaps and internal links: Submit XML sitemaps in Google Search Console and use strong internal linking to help bots discover all key pages.
+- Sitemaps and internal links: Submit XML sitemaps in Google Search Console and use strong [internal linking](/blogs/how-to-use-internal-linking/) to help bots discover all key pages.
 - Fix technical errors: Resolve server errors, broken redirects, or [canonical tag](/glossary/what-is-a-canonical-tag/) issues these frequently block indexing.
 - Monitor with Search Console: Regularly check which pages are “Crawled currently not indexed” and address patterns causing them to be left out.
 - Request indexing for key pages: Use Search Console’s “Request Indexing” tool for high-priority pages, but don’t rely on it as your main strategy.

@@ -135,7 +135,7 @@ The second most common mistake is confusing brand activity with brand identity. 
 
 The warning here is specific: brand consistency matters most at the moments of highest buyer scrutiny when someone is evaluating you against a shortlist. That’s when inconsistency between your marketing brand and your product experience creates the most damage. A polished website that leads into a product that feels unrelated is a trust problem, not a design problem.
 
-Many SaaS teams also underinvest in brand during the growth phase because paid acquisition is producing results. That’s a reasonable short-term trade-off but it creates a ceiling. When CAC rises and you need brand to carry more of the conversion load, you’ll wish you’d built it earlier. Working with a SaaS SEO agency that understands how brand signals interact with organic search can help you build both in parallel, rather than sequentially.
+Many SaaS teams also underinvest in brand during the growth phase because paid acquisition is producing results. That’s a reasonable short-term trade-off but it creates a ceiling. When CAC rises and you need brand to carry more of the conversion load, you’ll wish you’d built it earlier. Working with a SaaS [SEO](/glossary/what-is-seo/) agency that understands how brand signals interact with organic search can help you build both in parallel, rather than sequentially.
 
 ## The Bottom Line
 

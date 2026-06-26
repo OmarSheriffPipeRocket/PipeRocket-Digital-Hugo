@@ -114,7 +114,7 @@ Here's the honest split. The right column belongs in your working dashboard, whe
 | Organic CAC | Keyword count / "ranking for X terms" |
 | Organic's pipeline share | Domain rating / [domain authority](/glossary/what-is-domain-authority/) |
 | Influenced pipeline (flagged directional) | Average position across all keywords |
-|  | Backlink count, time on page, bounce rate |
+|  | [Backlink](/glossary/what-is-a-backlink/) count, time on page, bounce rate |
 
 The one that fools the most teams is raw sessions. A traffic spike from low-intent top-of-funnel terms makes a program look healthy while it's quietly starving the pipeline, and reporting that spike as a KPI trains finance to watch the wrong line. More traffic can hide a failing program, which is exactly why it can't be the metric finance grades you on.
 

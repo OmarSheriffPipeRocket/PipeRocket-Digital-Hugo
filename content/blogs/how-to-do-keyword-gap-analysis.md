@@ -93,7 +93,7 @@ I judge pages by the benchmark for their type, not aggregate traffic. Alternativ
 
 Judge a comparison-page gap by a blog-page benchmark and you'll deprioritise the thing that would've closed deals.
 
-So the order is usually: alternative and comparison gaps first (highest intent, fastest to pipeline), then use-case and vertical pages, then the informational gaps that build the topical authority those money pages need to rank. Build the decision-stage pages first and let the support content follow.
+So the order is usually: alternative and comparison gaps first (highest intent, fastest to pipeline), then use-case and vertical pages, then the informational gaps that build the [topical authority](/blogs/how-to-improve-topical-authority/) those money pages need to rank. Build the decision-stage pages first and let the support content follow.
 
 This is the whole point of running a gap analysis the narrow way. Most agencies execute the task. They hand over the gap list and call it done.
 
@@ -105,7 +105,7 @@ The most common one is treating the gap report as the deliverable. The export is
 
 The second is comparing against the wrong competitors. A direct business rival and the domain that actually ranks #1 are often different. Frequently the #1 is G2 or an aggregator riding brand authority you'll never match.
 
-Don't blindly chase a giant's keyword gap. They often rank on domain power, not strategy, so their "gap" is unreachable for you. Sort out direct-versus-SERP competitors before you pick which domains to compare against.
+Don't blindly chase a giant's keyword gap. They often rank on domain power, not strategy, so their "gap" is unreachable for you. Sort out direct-versus-[SERP](/glossary/what-is-serp/) competitors before you pick which domains to compare against.
 
 The third is closing every gap. You don't want to rank for everything a competitor ranks for, because a lot of their gap is junk traffic that won't convert for your product either.
 
@@ -121,7 +121,7 @@ If you'd rather not wrestle the export yourself, our [SaaS SEO team](/saas-seo-a
 
 ### What's the difference between a keyword gap analysis and competitor analysis?
 
-Competitor analysis is the broad read: who your real competitors are, how their whole SEO strategy works, what messaging and page structures they use.
+Competitor analysis is the broad read: who your real competitors are, how their whole [SEO](/glossary/what-is-seo/) strategy works, what messaging and page structures they use.
 
 A keyword gap analysis is one narrow step inside that, finding the specific keywords and pages they rank for that you don't. You run the gap analysis after you've decided which competitors matter, then turn its output into a build list.
 

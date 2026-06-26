@@ -411,7 +411,7 @@ Best for: Full-Funnel US B2B Organic Growth With GEO, Transparent Pricing, and M
 
 {{< agency-triptych slug="revenuezen" name="RevenueZen" >}}
 
-[RevenueZen](https://revenuezen.com) is often known among B2B companies seeking full-funnel organic growth including SEO, content, and conversion optimisation. Their Generative Engine Optimization services take a full-funnel approach, turning AI-driven organic traffic into booked pipeline by combining GEO content, SEO, and landing page optimisation under one roof.
+[RevenueZen](https://revenuezen.com) is often known among B2B companies seeking full-funnel organic growth including SEO, content, and conversion optimisation. Their [Generative Engine Optimization](/blogs/how-to-do-geo-for-saas/) services take a full-funnel approach, turning AI-driven organic traffic into booked pipeline by combining GEO content, SEO, and landing page optimisation under one roof.
 
 **At a Glance**
 

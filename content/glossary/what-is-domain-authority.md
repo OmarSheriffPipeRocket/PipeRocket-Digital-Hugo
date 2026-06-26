@@ -21,7 +21,7 @@ Domain authority is a metric that predicts how likely a website is to rank in se
 ## TL;DR
 
 - Domain authority is a predictive metric, not a Google ranking factor, and should be used as a directional benchmark, not an absolute goal.
-- Most SaaS teams mistakenly chase higher domain authority instead of focusing on topical authority, which drives more stable rankings.
+- Most SaaS teams mistakenly chase higher domain authority instead of focusing on [topical authority](/blogs/how-to-improve-topical-authority/), which drives more stable rankings.
 - A site with a domain authority of 40 can still outrank a site with 70 for specific, targeted keywords if its content is more relevant and better linked internally.
 - Moz, Ahrefs, and Semrush all have their own versions of domain authority, but each calculates it differently, so scores aren’t interchangeable.
 - Organic search still drives 91.3% of SaaS website traffic, making smart authority-building a critical part of any SaaS SEO strategy.
@@ -34,7 +34,7 @@ Domain authority sounds like the holy grail of SEO, but it’s not what most Saa
 - Backlink-driven: The score is based on the trust and relevance of sites linking to you, not just the number of links.
 - Relative value: DA is best used to compare your site with competitors in your niche, not as an absolute measure of SEO health.
 - Tool-specific: Moz’s DA, Ahrefs’ Domain Rating, and Semrush’s Authority Score all use different methods, so a “50” in one isn’t the same as “50” in another.
-- Not a direct goal: Chasing a bigger DA number without building the right topical authority or internal linking won’t drive real SaaS growth.
+- Not a direct goal: Chasing a bigger DA number without building the right topical authority or [internal linking](/blogs/how-to-use-internal-linking/) won’t drive real SaaS growth.
 
 Here’s the pattern interrupt: Most SaaS marketers fixate on increasing DA as if it’s a finish line. But the sites that win in search aren’t always the ones with the highest domain authority they’re the ones that own tightly defined topics and match user intent. For instance, Fin Hero, a SaaS for small business accounting, grew from 0 to 12,000 monthly organic visits by focusing on building content clusters and earning links from niche blogs, not by chasing “big” DA numbers.
 

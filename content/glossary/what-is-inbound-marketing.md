@@ -33,7 +33,7 @@ The mechanics are straightforward: someone has a problem, they search for answer
 
 The real engine of inbound is intent alignment. Every piece of content should answer a specific question a real buyer is asking at a specific stage of their decision process.
 
-- [Content marketing](/glossary/what-is-content-marketing/): Blog posts, guides, and comparison pages that meet buyers where they are in their research process.
+- [Content marketing](/glossary/what-is-content-marketing/): Blog posts, guides, and [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) that meet buyers where they are in their research process.
 - SEO: Making sure your content surfaces when buyers search for the problems your product solves not just branded queries.
 - Lead magnets and gated content: Tools, templates, or reports that trade genuine value for contact information.
 - Email nurture: Keeping engaged visitors in your orbit until they’re ready to evaluate or buy.
@@ -118,7 +118,7 @@ The second failure mode is impatience. Inbound is a compounding investment, not 
 
 - Intent mismatch: Publishing content around topics you want to rank for rather than questions your buyers are actually asking.
 - No conversion path: Attracting readers without giving them a clear next step a relevant lead magnet, a trial CTA, or a nurture sequence.
-- Ignoring distribution: Publishing content and waiting for Google to find it. You still need [backlinks](/glossary/what-is-a-backlink/), internal linking, and promotion to build authority.
+- Ignoring distribution: Publishing content and waiting for Google to find it. You still need [backlinks](/glossary/what-is-a-backlink/), [internal linking](/blogs/how-to-use-internal-linking/), and promotion to build authority.
 - Wrong ICP targeting: Writing for a broad audience when your product solves a specific problem for a specific buyer. Broad content attracts broad traffic that doesn’t convert.
 
 Imagine a SaaS tool built for independent financial advisors. If their blog targets general “personal finance” topics instead of the specific compliance, client management, and reporting problems their buyers face, they’ll attract a lot of traffic from the wrong people. Volume without fit isn’t growth.

@@ -44,7 +44,7 @@ Most SaaS [BOFU keyword lists](/blogs/how-to-do-saas-seo-keyword-research/) are 
 
 - **Use case pages:** "X for [specific workflow]"
 - **Industry vertical pages:** "X for healthcare," "X for fintech"
-- **Comparison pages:** "Brand A vs Brand B"
+- **[Comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/):** "Brand A vs Brand B"
 - **Alternative pages:** "Brand X alternatives"
 - **Listicles:** "Best X software for [use case]"
 

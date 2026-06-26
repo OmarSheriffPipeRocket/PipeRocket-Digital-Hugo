@@ -99,7 +99,7 @@ This workflow fixes old posts, not just new ones. Everyone has pages written thr
 
 This isn't theory. I'm running this exact playbook right now and I've written about 10 blogs using the interview-to-transcript-to-blog format. I sit with a founder or a colleague, we talk for 30 minutes, I transcribe and structure it with Gemini, then I edit and publish.
 
-All 10 sit in the top two pages of the SERP. Not because of a trick, but because high-quality content built on real experience is what Google is trying to surface in the first place. Satisfy the human first and the rankings follow.
+All 10 sit in the top two pages of the [SERP](/glossary/what-is-serp/). Not because of a trick, but because high-quality content built on real experience is what Google is trying to surface in the first place. Satisfy the human first and the rankings follow.
 
 ## Common Mistakes That Sink AI Content
 
@@ -117,7 +117,7 @@ We started PipeRocket because we were tired of watching SaaS companies burn budg
 
 ### Will Google penalise my SaaS content if I write it with AI?
 
-No. Google penalises content that fails the reader or reads as low-value spam, regardless of who or what wrote it. Its own 2026 guidance treats AI-search optimisation as ordinary SEO and says no special AI tactics are required. Use AI to scale genuinely helpful content and you're safe, because the judgement is about quality, not the tool.
+No. Google penalises content that fails the reader or reads as low-value spam, regardless of who or what wrote it. Its own 2026 guidance treats AI-search optimisation as ordinary [SEO](/glossary/what-is-seo/) and says no special AI tactics are required. Use AI to scale genuinely helpful content and you're safe, because the judgement is about quality, not the tool.
 
 ### What are the best AI tools for writing SaaS content?
 

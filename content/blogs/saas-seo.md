@@ -74,9 +74,9 @@ Here's what each part is responsible for. This is the map. Each one has its own 
 
 ### Content: BOFU-first, built in clusters
 
-Content is where most SaaS SEO budget goes, and where most of it is wasted. The fix is to build bottom-of-funnel first. Comparison pages, alternatives pages, integration pages, and pricing content get built before thought-leadership, because a comparison page with 300 visits at 15% conversion beats a trend article with 10,000 visits at 0.2%.
+Content is where most SaaS SEO budget goes, and where most of it is wasted. The fix is to build bottom-of-funnel first. [Comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternatives pages, integration pages, and pricing content get built before thought-leadership, because a comparison page with 300 visits at 15% conversion beats a trend article with 10,000 visits at 0.2%.
 
-Then you organise it as clusters. One pillar page covers the broad topic, 10 to 15 spokes cover every sub-topic, and every spoke links back to the pillar. That architecture is what signals topical authority to Google and gives AI engines a coherent body of work to cite.
+Then you organise it as clusters. One pillar page covers the broad topic, 10 to 15 spokes cover every sub-topic, and every spoke links back to the pillar. That architecture is what signals [topical authority](/blogs/how-to-improve-topical-authority/) to Google and gives AI engines a coherent body of work to cite.
 
 ### Technical: crawlability and indexation first
 
@@ -110,11 +110,11 @@ Organic drove roughly 11 times more traffic than every AI engine put together, a
 
 The economics show up in client work too. [Spendflo credits us](/case-study/spendflo/) with 5X organic traffic over eight months and a 25% lift in organic leads. [CyberSierra went from 6 to 338 keywords in top-10 positions](/case-study/cybersierra/), a 279% organic traffic increase. Neither came from chasing volume. Both came from ICP-mapped content built to convert.
 
-For most SaaS companies, organic CAC crosses below paid CAC somewhere between months 9 and 14, then keeps falling as the content library grows. Paid can never replicate that curve.
+For most SaaS companies, [organic CAC](/blogs/how-to-measure-organic-cac/) crosses below paid CAC somewhere between months 9 and 14, then keeps falling as the content library grows. Paid can never replicate that curve.
 
 ## How SaaS SEO Works in the AI Search Era (GEO, AEO, LLMO)
 
-Search no longer ends at a SERP. ChatGPT, Perplexity, Google Gemini, Microsoft Copilot, and Google [AI Overviews](/glossary/what-is-an-ai-overview/) now answer questions inline and cite their sources, often without the user clicking through. Generative Engine Optimisation, Answer Engine Optimisation, and Large Language Model Optimisation are three names for adapting to that shift. For SaaS, it changes who gets discovered and why.
+Search no longer ends at a [SERP](/glossary/what-is-serp/). ChatGPT, Perplexity, Google Gemini, Microsoft Copilot, and Google [AI Overviews](/glossary/what-is-an-ai-overview/) now answer questions inline and cite their sources, often without the user clicking through. Generative Engine Optimisation, Answer Engine Optimisation, and Large Language Model Optimisation are three names for adapting to that shift. For SaaS, it changes who gets discovered and why.
 
 ![The AI search layer for SaaS: visible answer engines on top, a retrieval and ranking layer beneath, sitting on entity and authority signals.](/images/blog-infographics/saas-seo-ai-search-layer.webp)
 
@@ -199,7 +199,7 @@ SaaS SEO is the practice of optimising a software company's site for organic and
 
 ### Does SaaS SEO still work now that AI Overviews and ChatGPT answer questions directly?
 
-Yes, and the gap has widened in organic's favour. Across 53 B2B SaaS clients, organic converted visitors to leads at 0.92% versus AI traffic's 0.26% and drove 37 times more absolute leads. AI search changes the shape of the work, adding [GEO](/glossary/what-is-geo/), AEO, entity clarity, and community-led citation, but not the underlying economics. Organic remains the channel with the best lead quality and the only compounding cost curve.
+Yes, and the gap has widened in organic's favour. Across 53 B2B SaaS clients, organic converted visitors to leads at 0.92% versus AI traffic's 0.26% and drove 37 times more absolute leads. AI search changes the shape of the work, adding [GEO](/glossary/what-is-geo/), [AEO](/glossary/what-is-aeo/), entity clarity, and community-led citation, but not the underlying economics. Organic remains the channel with the best lead quality and the only compounding cost curve.
 
 ### How long does SaaS SEO take to show results for a B2B SaaS company?
 

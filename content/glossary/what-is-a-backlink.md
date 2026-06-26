@@ -108,7 +108,7 @@ Building backlinks that move the ranking needle requires a mix of strategy, pati
 - Strategic outreach: Personalized, non-generic outreach to editors, partners, and industry influencers is much more effective than automated blasts.
 - Co-marketing and partnerships: Joint webinars, podcasts, and resource swaps with other SaaS tools open doors to organic mentions and links.
 - Digital PR: Getting featured in SaaS roundups, podcasts, or news stories builds both backlinks and brand reputation.
-- Internal links and topical authority: Building clusters of well-linked, intent-driven content on your own domain helps search engines see your site as an expert and makes your external backlinks more powerful.
+- Internal links and [topical authority](/blogs/how-to-improve-topical-authority/): Building clusters of well-linked, intent-driven content on your own domain helps search engines see your site as an expert and makes your external backlinks more powerful.
 
 Let’s say Plan Pilot, a SaaS for remote team scheduling, published a proprietary study on async productivity trends. After promoting it to the right bloggers and SaaS consultants, they landed links from three respected SaaS operations blogs and saw their “remote team scheduling software” page jump from page three to page one in Google.
 

@@ -31,7 +31,7 @@ Robots.txt is a text file on your website that tells search engines which pages 
 Robots.txt is a simple text file placed at the root of your website that tells search engine crawlers (like Googlebot or Bingbot) which parts of your site they’re allowed to visit and which to avoid. Most SaaS teams assume robots.txt is just a technical checkbox for webmasters, but that’s a trap. The reality is robots.txt is a powerful lever for both SEO performance and risk management and a single misconfiguration can tank your rankings or expose private data.
 
 - Crawl control: Specifies which user agents (bots) can or cannot access certain URLs or folders.
-- SEO hygiene: Blocks duplicate, thin, or sensitive content from being indexed, which helps prevent keyword cannibalization and confusion in search results.
+- SEO hygiene: Blocks duplicate, thin, or sensitive content from being indexed, which helps prevent keyword [cannibalization](/blogs/how-to-fix-keyword-cannibalization/) and confusion in search results.
 - Security guardrail: Keeps private, admin, or staging sections out of search engine indexes.
 - Crawl budget management: Helps large SaaS sites guide bots toward valuable pages instead of wasting crawl capacity on junk or low-value assets.
 - Transparency: Every robots.txt file is publicly accessible at yourdomain.com/robots.txt, so anyone including competitors can see your rules.

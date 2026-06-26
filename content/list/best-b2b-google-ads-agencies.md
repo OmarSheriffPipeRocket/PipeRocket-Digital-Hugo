@@ -590,7 +590,7 @@ SimpleTiger's paid capability is layered onto their SaaS SEO foundation, not a p
 
 **Best Fit For:** B2B SaaS startups with $3K-$15K monthly budgets seeking integrated paid and organic growth with a SaaS-exclusive agency.
 
-**Not Built For:** Enterprise companies requiring complex multi-touch attribution, or pure PPC-only teams wanting paid-specialist depth without SEO bundled in.
+**Not Built For:** Enterprise companies requiring complex [multi-touch attribution](/blogs/how-to-set-up-multi-touch-attribution/), or pure PPC-only teams wanting paid-specialist depth without SEO bundled in.
 
 **Our Take**
 

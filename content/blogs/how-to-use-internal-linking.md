@@ -41,13 +41,13 @@ Convenience-based linking feels thorough. It produces a site where **the most im
 
 **Linking by intent means asking two questions before placing any link.** First: what should the reader do next? Second: which page on this site needs this authority most?
 
-If someone's reading a TOFU blog about SaaS content strategy, the useful next step is a MOFU comparison page or a listicle, not another awareness blog. That's where you send them, and that's **where the link equity goes.**
+If someone's reading a TOFU blog about SaaS content strategy, the useful next step is a MOFU [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) or a listicle, not another awareness blog. That's where you send them, and that's **where the link equity goes.**
 
 The test is simple: finish reading the paragraph where you're placing a link, then ask what a genuinely interested reader would logically want to see next. That's your destination.
 
 ## Step 2: Build Your Link Architecture Around the Funnel
 
-**Your internal link architecture should mirror your funnel.** BOFU pages receive the most links; TOFU blogs feed authority downward.
+**Your internal link architecture should mirror your funnel.** [BOFU pages](/blogs/how-to-rank-bofu-keywords-saas/) receive the most links; TOFU blogs feed authority downward.
 
 ![SaaS internal linking funnel map showing TOFU to MOFU to BOFU flow with link directions](/images/blog-infographics/how-to-use-internal-linking-infographic-1.webp)
 

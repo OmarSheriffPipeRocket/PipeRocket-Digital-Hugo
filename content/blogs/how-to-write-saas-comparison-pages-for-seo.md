@@ -264,7 +264,7 @@ Building these pages isn’t just about writing a copy. It requires deep researc
 
 At **PipeRocket Digital**, we work as a [SaaS SEO agency](/saas-seo-agency/) that acts as an extended team and owns the outcome, specifically SQLs and Pipeline.
 
-We ensure this exact process is followed while collaborating with you to ensure we improve topical authority and close deals. We use this “outcome-first” approach to all the activities we do to improve your pipeline. Comparison pages are just one high-intent slice of a broader [SaaS SEO](/blogs/saas-seo/) program, and they convert best when the rest of your funnel is already pulling qualified traffic.
+We ensure this exact process is followed while collaborating with you to ensure we improve [topical authority](/blogs/how-to-improve-topical-authority/) and close deals. We use this “outcome-first” approach to all the activities we do to improve your pipeline. Comparison pages are just one high-intent slice of a broader [SaaS SEO](/blogs/saas-seo/) program, and they convert best when the rest of your funnel is already pulling qualified traffic.
 
 If you’re curious about how we can scale your pipeline, let’s talk.
 

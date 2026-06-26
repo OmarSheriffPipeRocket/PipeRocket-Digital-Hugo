@@ -425,6 +425,10 @@ Best for: Mid-market and enterprise brands needing coordinated SEO, content, and
 
 [NP Digital](https://npdigital.com/about/) was founded by Neil Patel in 2017 and has grown to 1,000-plus employees across 28 countries. Owning Ubersuggest and Answer The Public gives NP Digital keyword and content intelligence that no other agency on this list has built into its own product stack.
 
+Also evaluating Ubersuggest? See our [Ubersuggest alternatives](/alternative/ubersuggest-alternatives/) breakdown.
+
+
+
 **At a Glance**
 
 | | |

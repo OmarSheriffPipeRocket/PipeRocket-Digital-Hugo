@@ -20,7 +20,7 @@ A commercial keyword is a search query from someone actively researching or comp
 - A commercial keyword signals a searcher comparing or evaluating options, sitting between learning and buying.
 - Typical patterns include "best," "top," "vs," "alternatives," and "review" plus your category.
 - Commercial keywords drive more SaaS pipeline than [informational ones](/glossary/what-is-an-informational-keyword/) because the searcher is already in-market.
-- The right content formats are comparison pages, alternative pages, and honest listicles, not definitions.
+- The right content formats are [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternative pages, and honest listicles, not definitions.
 - Ranking for commercial keywords is harder, so a new domain usually earns the authority through informational content first.
 
 ## What Is a Commercial Keyword?
@@ -47,7 +47,7 @@ Most teams over-invest in informational content and under-invest in commercial. 
 
 ## How Do You Identify a Commercial Keyword?
 
-The fastest test is to read the query and the SERP together. If the wording implies comparison or evaluation, and the top results are listicles, comparison pages, or review content, you're looking at a commercial keyword.
+The fastest test is to read the query and the [SERP](/glossary/what-is-serp/) together. If the wording implies comparison or evaluation, and the top results are listicles, comparison pages, or review content, you're looking at a commercial keyword.
 
 Word patterns give you the first signal. Modifiers like "best," "top," "vs," "alternatives," "review," and "comparison" almost always indicate commercial intent. But the SERP is the final word, because Google has already classified the query for you.
 
@@ -67,7 +67,7 @@ The honest trade-off is that this traffic is harder to win. Commercial keywords 
 - **Higher conversion intent:** The searcher is comparing, which means they're planning to buy something soon. Your job is to be on the shortlist.
 - **Better lead quality:** Commercial traffic produces demo requests and trials from people who already understand the category.
 - **Competitive interception:** Ranking for "[competitor] alternatives" puts you in front of buyers actively looking to switch.
-- **Revenue attribution:** Commercial pages are far easier to tie to pipeline than top-of-funnel content, which makes the SEO investment defensible.
+- **Revenue attribution:** Commercial pages are far easier to tie to pipeline than [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/), which makes the SEO investment defensible.
 
 A compliance SaaS for fintech teams might publish a "best SOC 2 automation tools" listicle that honestly includes competitors. It ranks, it earns trust, and it captures buyers mid-evaluation. That single page can outperform months of informational posts on pipeline contribution.
 
@@ -92,7 +92,7 @@ The contrarian move that works: include your competitors and be honest about whe
 
 The right time to prioritise commercial keywords is once your domain has enough authority to actually rank for them. Before that, you're publishing comparison pages that sit on page three while stronger domains take the clicks. Sequencing matters more than most teams admit.
 
-A useful rule: if your domain is new and thin, lead with informational content to build topical authority. Once you're ranking for a cluster of informational queries in your category, start layering in commercial pages, because the authority you've built now gives them a real shot.
+A useful rule: if your domain is new and thin, lead with informational content to build [topical authority](/blogs/how-to-improve-topical-authority/). Once you're ranking for a cluster of informational queries in your category, start layering in commercial pages, because the authority you've built now gives them a real shot.
 
 - **Domain maturity:** Established domains can target competitive commercial terms directly. New domains earn the right through informational coverage first.
 - **Sales motion fit:** Sales-led SaaS should prioritise comparison and alternative pages that support longer evaluations. Product-led SaaS can lean harder on listicles that drive self-serve trials.
@@ -111,11 +111,11 @@ A commercial keyword signals research and comparison, like "best CRM for SaaS." 
 
 ### 2. Should a new SaaS site target commercial keywords right away?
 
-Usually not as the first move. Commercial keywords are competitive and dominated by established domains with strong backlink profiles. A new site typically builds topical authority through informational content first, then targets commercial keywords once the domain has earned enough trust to compete. That said, low-competition long-tail commercial queries, like "best [niche tool] for [specific use case]," can be winnable early.
+Usually not as the first move. Commercial keywords are competitive and dominated by established domains with strong [backlink](/glossary/what-is-a-backlink/) profiles. A new site typically builds topical authority through informational content first, then targets commercial keywords once the domain has earned enough trust to compete. That said, low-competition long-tail commercial queries, like "best [niche tool] for [specific use case]," can be winnable early.
 
 ### 3. How do I know if a commercial keyword is worth the effort?
 
-Check three things: search volume, SERP competition, and ICP fit. A commercial keyword is worth targeting when your exact buyer searches it, the top results aren't all high-authority giants, and a realistic ranking improvement would put credible pipeline within reach. A high-volume commercial term you can't realistically rank for is worth less than a lower-volume one where your specific buyer is in the room.
+Check three things: search volume, SERP competition, and [ICP](/glossary/what-is-icp/) fit. A commercial keyword is worth targeting when your exact buyer searches it, the top results aren't all high-authority giants, and a realistic ranking improvement would put credible pipeline within reach. A high-volume commercial term you can't realistically rank for is worth less than a lower-volume one where your specific buyer is in the room.
 
 ## The Bottom Line
 

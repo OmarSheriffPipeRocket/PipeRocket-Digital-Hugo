@@ -342,7 +342,7 @@ Best for: B2B SaaS SEO with published, tiered pricing rare for this category.
 
 **Wrong Fit:** Teams needing engineer-as-author content or full demand-gen with paid media and ABM at scale.
 
-**The Wedge:** Published price tiers are unusual for the category, and the SME-interview methodology pulls genuine practitioner insight into the content brief.
+**The Wedge:** Published price tiers are unusual for the category, and the SME-interview methodology pulls genuine practitioner insight into the [content brief](/blogs/how-to-write-seo-content-brief/).
 
 - Published SEO tiers from $2,000 to $7,000/mo
 - GEO/AEO for ChatGPT, Claude, and Perplexity is a named service

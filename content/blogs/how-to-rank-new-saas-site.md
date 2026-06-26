@@ -74,9 +74,9 @@ Here's the pattern we see constantly with new SaaS sites. A team publishes 40 bl
 
 [Topical authority](/blogs/how-to-improve-topical-authority/) doesn't work that way. **Google's understanding of a site's expertise is built through connected, deep coverage of a specific domain.** A site with 8 tightly connected posts on one narrow topic signals expertise in that category far faster than 40 posts spread across 15.
 
-The mechanism matters. **BOFU pages (your comparison pages, alternative pages, pricing pages) are the ones that actually convert.** But they don't rank in isolation. BOFU pages without topical authority behind them sit on page three regardless of how good the content is.
+The mechanism matters. **BOFU pages (your [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternative pages, pricing pages) are the ones that actually convert.** But they don't rank in isolation. BOFU pages without topical authority behind them sit on page three regardless of how good the content is.
 
-And TOFU content without BOFU pages to convert the traffic gets you sessions, not pipeline. The only approach that works for a low-authority site is what we'd call **authority-led BOFU**: pick one narrow category, build the supporting content that earns topical credibility, then let the BOFU pages inherit it.
+And TOFU content without [BOFU pages](/blogs/how-to-rank-bofu-keywords-saas/) to convert the traffic gets you sessions, not pipeline. The only approach that works for a low-authority site is what we'd call **authority-led BOFU**: pick one narrow category, build the supporting content that earns topical credibility, then let the BOFU pages inherit it.
 
 | Approach | What happens |
 |---|---|

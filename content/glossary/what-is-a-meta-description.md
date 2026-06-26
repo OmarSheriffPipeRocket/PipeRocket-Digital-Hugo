@@ -110,7 +110,7 @@ Optimizing meta descriptions isn’t about finding the perfect phrase once and m
 - Competitor review: Watch how top competitors pitch similar products or features borrow what’s working, but never copy word-for-word.
 - Feedback loop: Share live SERP snippets with your product, sales, or customer success teams is the description actually true, or just marketing spin?
 
-Here’s the warning: This works well for product-led SaaS and high-traffic “feature” pages. For long-tail blog posts or support articles, over-optimizing meta descriptions can actually backfire Google may rewrite them anyway, and your time is better spent improving on-page content or internal linking.
+Here’s the warning: This works well for product-led SaaS and high-traffic “feature” pages. For long-tail blog posts or support articles, over-optimizing meta descriptions can actually backfire Google may rewrite them anyway, and your time is better spent improving on-page content or [internal linking](/blogs/how-to-use-internal-linking/).
 
 If you’re investing in SaaS SEO at scale, working with a dedicated SaaS SEO team can help cut trial-and-error, especially for high-intent [landing pages](/glossary/what-is-a-landing-page/).
 

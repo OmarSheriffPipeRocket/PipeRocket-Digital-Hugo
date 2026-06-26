@@ -63,7 +63,7 @@ Set your goals first using the metrics that connect to revenue:
 
 - Organic SQLs and demo requests per month (by quarter, with a 12-month ramp curve)
 - Organic-to-trial [conversion rate](/glossary/what-is-conversion-rate/) by [landing page](/glossary/what-is-a-landing-page/)
-- Organic CAC versus paid CAC at the same pipeline volume
+- [Organic CAC](/blogs/how-to-measure-organic-cac/) versus paid CAC at the same pipeline volume
 - Share of pipeline influenced by organic across all channels
 
 Once those targets exist, every keyword decision, every content investment, and every technical fix can be evaluated against whether it moves those numbers. Without them, you are optimizing for inputs with no clarity on what outputs you need.
@@ -110,7 +110,7 @@ A scalable enterprise content architecture has four layers:
 
 - **Homepage and core product/feature pages:** target the highest-intent, most competitive terms. These carry the most authority and should be the destination for internal link equity from across the site
 - **Vertical and use-case pages:** one page per ICP segment, industry, or key use case. These are product-led pages built around the specific problem the product solves for that audience
-- **Pillar pages:** comprehensive topic-level pages that establish topical authority in each keyword cluster. One pillar per major theme, linking to every spoke in the cluster
+- **Pillar pages:** comprehensive topic-level pages that establish [topical authority](/blogs/how-to-improve-topical-authority/) in each keyword cluster. One pillar per major theme, linking to every spoke in the cluster
 - **Supporting content:** the spoke articles, comparison pages, alternatives pages, and FAQ content that targets long-tail intent and feeds authority back up to pillar pages and conversion pages
 
 Every page needs a clear place in this hierarchy and a clear path to conversion. Content without a defined role in the architecture is a drag on the program, not a contribution to it.
@@ -123,7 +123,7 @@ Enterprise SEO breaks down most often at the organizational layer. Engineering s
 
 Enterprise SEO governance requires:
 
-- **SEO standards documentation:** written standards for metadata, URL structure, heading hierarchy, internal linking, and schema, referenced during every development sprint and content project
+- **SEO standards documentation:** written standards for metadata, URL structure, heading hierarchy, [internal linking](/blogs/how-to-use-internal-linking/), and schema, referenced during every development sprint and content project
 - **CMS-level enforcement:** key standards built into templates so they cannot be overridden without a deliberate change request
 - **SEO review in development workflows:** a defined point in the engineering release process where SEO impact is assessed before code ships
 - **Cross-functional SEO education:** product, engineering, and content teams that understand the SEO implications of their decisions, not just the SEO team

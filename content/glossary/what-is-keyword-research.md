@@ -37,7 +37,7 @@ The real job is intent matching. A keyword like “project management software�
 - Keyword difficulty: How hard it is to rank for a term based on the authority and depth of existing ranking pages. A low-difficulty keyword in your niche is often more valuable than a high-difficulty term in a crowded category.
 - Search intent: What the user actually wants a definition, a comparison, a tool, or a purchase. Intent is the filter that makes volume data meaningful.
 - Long-tail keywords: Longer, more specific phrases with lower volume but higher purchase intent. “Best CRM for SaaS startups under 50 employees” converts better than “CRM software.”
-- Topical authority: How deeply you cover a subject area across multiple pages. Google rewards sites that own a topic, not sites that mention it once.
+- [Topical authority](/blogs/how-to-improve-topical-authority/): How deeply you cover a subject area across multiple pages. Google rewards sites that own a topic, not sites that mention it once.
 
 ### The Intent Filter
 
@@ -66,7 +66,7 @@ Google has gotten very good at understanding what type of content belongs on a r
 Each of those queries needs a different page, a different format, and a different call to action. Sending all three to the same homepage is how you get traffic that bounces.
 
 - Informational intent: The user wants to understand something. Blog posts, glossaries, and explainer guides serve this intent. These attract early-stage buyers who are still defining their problem.
-- Commercial investigation intent: The user is comparing options. Comparison pages, listicles, and “best X for Y” articles serve this intent. This is where shortlisting happens.
+- Commercial investigation intent: The user is comparing options. [Comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), listicles, and “best X for Y” articles serve this intent. This is where shortlisting happens.
 - Transactional intent: The user is ready to act. [Landing pages](/glossary/what-is-a-landing-page/), free trial offers, and demo pages serve this intent. This is where conversion happens.
 
 Fast Fact: Organic search converts SaaS visitors at 0.92% more than 3x the rate of AI-driven traffic at 0.26%.
@@ -116,7 +116,7 @@ Most keyword research processes produce a list that looks thorough and performs 
 Here’s the specific failure mechanism: volume-first keyword research selects for popularity, not relevance. Popular queries attract a broad audience. Broad audiences convert at lower rates. Lower conversion rates mean more traffic needed to hit the same revenue target. More traffic means more content. More content means more dilution of topical authority. It compounds.
 
 - Targeting head terms too early: “Marketing automation” is a legitimate keyword for your roadmap not for month two. Build topical authority on narrower terms first, then earn your way up to the competitive ones.
-- Ignoring cannibalization: Two pages targeting the same intent compete with each other in Google’s index. One of them will rank lower because of the other. Audit for this before you publish, not after.
+- Ignoring [cannibalization](/blogs/how-to-fix-keyword-cannibalization/): Two pages targeting the same intent compete with each other in Google’s index. One of them will rank lower because of the other. Audit for this before you publish, not after.
 - Skipping the SERP check: Before writing any piece of content, look at what’s actually ranking. If the top five results are all product pages and you’re planning a blog post, you’re creating the wrong content type for that query.
 - Treating keyword research as a one-time project: Buyer language shifts. New competitors publish. Google updates its understanding of intent. A keyword strategy built eighteen months ago needs a refresh.
 
@@ -126,4 +126,4 @@ The real trade-off with broad keyword targeting is this: you can build significa
 
 Keyword research isn’t a task you complete before writing content it’s the strategic layer that determines whether your content ever finds the right buyer. Do it based on intent and business fit, not volume, and revisit it regularly as your market shifts.
 
-If you want a team that builds keyword strategy around pipeline, not just traffic, [get in touch via our contact page](https://piperocket.digital/contact-us/) or see how we approach SaaS SEO in practice.
+If you want a team that builds keyword strategy around pipeline, not just traffic, [get in touch via our contact page](https://piperocket.digital/contact-us/) or see how we approach SaaS [SEO](/glossary/what-is-seo/) in practice.

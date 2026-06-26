@@ -13,7 +13,7 @@ toc: true
 readingTime: "10 min read"
 ---
 
-GEO (generative engine optimization) is the practice of making your brand and content more likely to be cited and recommended inside AI-generated answers from engines like ChatGPT, Perplexity, and Google's AI Overviews. Where [SEO](/glossary/what-is-seo/) earns you a ranking, GEO earns you a mention in the answer itself.
+GEO ([generative engine optimization](/blogs/how-to-do-geo-for-saas/)) is the practice of making your brand and content more likely to be cited and recommended inside AI-generated answers from engines like ChatGPT, Perplexity, and Google's AI Overviews. Where [SEO](/glossary/what-is-seo/) earns you a ranking, GEO earns you a mention in the answer itself.
 
 ## TL;DR
 

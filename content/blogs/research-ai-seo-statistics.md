@@ -45,7 +45,7 @@ These figures reflect the share of traffic across the 53 B2B SaaS brands we anal
 - Google Gemini contributed **5.4%** of AI referral traffic, Microsoft Copilot **3.1%**, and Claude just **1.1%**.
 - Not a single vertical in the dataset showed AI traffic surpassing organic in **absolute visit volume**.
 - Of all Top-of-Funnel traffic recorded, **83.4% came from organic search** and 16.6% from AI engines.
-- Of all Bottom-of-Funnel traffic recorded, **81.5% came from organic search** and 18.5% from AI engines.
+- Of all [Bottom-of-Funnel](/blogs/how-to-rank-bofu-keywords-saas/) traffic recorded, **81.5% came from organic search** and 18.5% from AI engines.
 - In Customer Support SaaS, organic accounted for **87% of all traffic** — the highest organic dominance of any vertical studied.
 - Homepage conversions grew **6–9% month-over-month for 6 consecutive months**, consistent with AI-driven discovery feeding into branded organic searches.
 
@@ -127,7 +127,7 @@ Beyond our proprietary dataset, here is what broader industry research tells us 
 - **95% of the time**, the winning vendor is already on the buyer's Day One shortlist — before a single sales conversation takes place.
 - Adding **statistics and data points** to content increases AI visibility by **22%**. Including direct quotations boosts it by **37%**.
 - Pages with **proper [schema markup](/glossary/what-is-schema-markup/)** are **30–40% more likely** to be cited in AI-generated answers.
-- GEO optimization techniques can boost AI content visibility by **up to 40%** through statistics inclusion, structured formatting, and comprehensive topic coverage.
+- [GEO](/glossary/what-is-geo/) optimization techniques can boost AI content visibility by **up to 40%** through statistics inclusion, structured formatting, and comprehensive topic coverage.
 - Content with clear, verifiable data points earns roughly **30–40% more visibility** in [LLM](/glossary/what-is-an-llm/)-generated answers than purely qualitative content.
 - **Brand search volume** — not [backlinks](/glossary/what-is-a-backlink/) — is the strongest predictor of AI citations, with a **0.334 correlation** to LLM visibility.
 - Establishing entity presence across **4+ third-party platforms** increases AI citation likelihood by **2.8x**.

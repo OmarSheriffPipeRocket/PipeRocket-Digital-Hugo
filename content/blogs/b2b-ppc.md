@@ -94,7 +94,7 @@ This is where the money is. Buyers in this stage are actively evaluating vendors
 Your must-have BoFu channels:
 
 - **Google Search (high-intent keywords)**: Anything with “software,” “platform,” “demo,” or “pricing.”
-- **Retargeting high-value pages**: Think demo page, pricing page, comparison pages.
+- **Retargeting high-value pages**: Think demo page, pricing page, [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/).
 - **LinkedIn Lead Gen Forms**: Auto-filled fields make conversion easier for [ICP](/glossary/what-is-icp/) personas.
 - **Competitor search campaigns**: Extremely high intent.
 - **CRM-based audiences**: Target opportunities, warm accounts, or [ABM](/glossary/what-is-abm/) lists to push deals forward.
@@ -133,7 +133,7 @@ These keywords bring in people who know what type of product they need; they’r
 
 ### BoFu Keywords (Decision Stage)
 
-Bottom-of-funnel keywords are the goldmine terms, the ones that convert into a real pipeline. These searches usually look like:
+[Bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) keywords are the goldmine terms, the ones that convert into a real pipeline. These searches usually look like:
 
 - Competitor comparisons (“Tool A vs Tool B,” “Tool A alternative”)
 - Pricing-related queries

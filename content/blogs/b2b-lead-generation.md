@@ -133,7 +133,7 @@ This complements our [B2B demand generation guide](/blogs/b2b-demand-generation-
 
 ### 2. SEO & Search Intent Alignment
 
-[SEO](/glossary/what-is-seo/) still drives consistent [inbound](/blogs/b2b-inbound-marketing-guide/ "B2B Inbound Marketing Guide") leads, but intent matters more than volume. Informational keywords bring awareness, but high-intent pages move the pipeline. Your pricing page, comparison pages, solution pages, and use-case pages are doing the real heavy lifting. 
+[SEO](/glossary/what-is-seo/) still drives consistent [inbound](/blogs/b2b-inbound-marketing-guide/ "B2B Inbound Marketing Guide") leads, but intent matters more than volume. Informational keywords bring awareness, but high-intent pages move the pipeline. Your pricing page, [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), solution pages, and use-case pages are doing the real heavy lifting. 
 
 Someone searching “Product A vs Product B” is far closer to buying than someone reading an intro guide. When your content aligns with these levels of intent, inbound becomes predictable instead of sporadic.
 

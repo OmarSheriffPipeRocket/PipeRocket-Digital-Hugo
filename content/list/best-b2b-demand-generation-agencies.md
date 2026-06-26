@@ -965,7 +965,7 @@ Ideally yes, because content and SEO are demand creation channels while paid han
 
 ### What should I look for with a long sales cycle?
 
-Multi-touch attribution, content for each evaluation stage, and ABM capability for orchestrated account-level engagement.
+[Multi-touch attribution](/blogs/how-to-set-up-multi-touch-attribution/), content for each evaluation stage, and ABM capability for orchestrated account-level engagement.
 
 ### When does ABM make sense for demand gen?
 

@@ -99,7 +99,7 @@ The best lead generation channels for SaaS depend on your audience and deal size
 - Organic search (SEO): High-intent visitors find you when they’re already searching for a solution the backbone of sustainable pipeline for most SaaS.
 - Paid search ([PPC](/glossary/what-is-ppc/)): [Google Ads](/glossary/what-is-google-ads/) and Linked In Ads capture demand quickly, but costs rise if you’re not qualifying tightly.
 - Outbound email: Personalized outreach cuts through the noise, especially for mid-market and enterprise buyers.
-- Content marketing: Guides, webinars, and comparison pages position your brand as a trusted resource and attract buyers before they even know what to Google.
+- Content marketing: Guides, webinars, and [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) position your brand as a trusted resource and attract buyers before they even know what to Google.
 - Partnerships and integrations: Co-marketing with complementary tools puts you in front of new audiences that already trust your partners.
 
 The real trade-off: Paid channels deliver fast results, but you’ll hit diminishing returns and higher costs as you scale. Organic efforts take longer but deliver compounding value over time. It’s worth leaning into paid early if you need quick feedback, but don’t neglect organic or you’ll always be paying for every lead.
@@ -140,6 +140,6 @@ Popular lead generation tools for SaaS include HubSpot, Marketo, and Salesforce 
 
 ## The Bottom Line
 
-Lead generation isn’t about filling your CRM it’s about building a repeatable system that brings in real buyers and turns them into pipeline, not just marketing metrics. The teams who win treat lead generation as a quality game, not a volume contest.
+Lead generation isn’t about filling your CRM it’s about building a repeatable system that brings in real buyers and turns them into pipeline, not just [marketing metrics](/blogs/saas-marketing-metrics/). The teams who win treat lead generation as a quality game, not a volume contest.
 
 If you want to see how experts qualify SaaS leads, [get in touch](https://piperocket.digital/contact-us/). Or, see our SaaS SEO service for a look at pipeline-first search strategies.

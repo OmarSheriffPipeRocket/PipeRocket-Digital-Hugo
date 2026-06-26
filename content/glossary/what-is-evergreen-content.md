@@ -32,7 +32,7 @@ Evergreen content is content designed to stay relevant long after it’s publish
 
 - Timeless relevance: Evergreen content covers core questions, workflows, and industry concepts that rarely change, keeping search demand steady.
 - Long-term traffic: Well-optimized evergreen pages can rank for months or years, steadily pulling in organic visits and leads.
-- Compounding authority: As evergreen resources gather [backlinks](/glossary/what-is-a-backlink/) and internal links, their topical authority grows boosting trust with Google and buyers.
+- Compounding authority: As evergreen resources gather [backlinks](/glossary/what-is-a-backlink/) and internal links, their [topical authority](/blogs/how-to-improve-topical-authority/) grows boosting trust with Google and buyers.
 - Low maintenance myth: Many teams treat evergreen as “set and forget,” but even the best guides need annual updates to maintain accuracy and rankings.
 - Strategic clustering: True evergreen content anchors content clusters, acting as pillar pages for related subtopics, FAQs, and comparisons.
 
@@ -51,7 +51,7 @@ Evergreen content is the backbone of lasting SaaS SEO, but most teams chase “v
 - Sustained [lead generation](/glossary/what-is-lead-generation/): Evergreen pages keep ranking and driving demo requests, trials, and signups long after launch.
 - Stable acquisition costs: Quality evergreen pieces reduce your dependence on paid campaigns, lowering CAC over time.
 - Compounds with age: Each high-performing evergreen piece acts as a durable traffic and lead engine, especially as it accumulates backlinks and authority.
-- Content flywheel: Strong evergreen resources anchor content clusters, letting you build out supporting blog posts, case studies, and comparison pages.
+- Content flywheel: Strong evergreen resources anchor content clusters, letting you build out supporting blog posts, case studies, and [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/).
 - Brand trust: Buyers searching for “how to create SaaS invoices” or “SaaS onboarding best practices” land on your evergreen guides, not your competitors.
 
 Most SaaS teams focus on constant output new blogs, trends, and product updates thinking more content means more growth. That’s backwards. Volume without intent-based structure just creates noise. What actually works is building clusters around evergreen pillars, then feeding them with regular updates and targeted supporting pieces.
@@ -101,7 +101,7 @@ Evergreen is not “publish and walk away.” The best SaaS teams set up ongoing
 - Scheduled audits: Review evergreen pieces every 3 to 6 months for accuracy, intent shifts, and new search trends.
 - Performance tracking: Use Google Analytics and Search Console to monitor clicks, rankings, and conversion rates watch for drops that signal outdated info.
 - Content refreshing: Revise screenshots, stats, and references to keep pace with industry changes and product updates.
-- Internal linking: Routinely add links from new articles to existing evergreen pillars to reinforce their authority.
+- [Internal linking](/blogs/how-to-use-internal-linking/): Routinely add links from new articles to existing evergreen pillars to reinforce their authority.
 - Retirement signals: If a piece loses all search demand or relevance, redirect or merge it rather than letting it rot.
 
 Micro-example: Hello Flow, a SaaS onboarding tool, doubled demo conversions from their “SaaS Onboarding Checklist” page after quarterly content refreshes and new case studies. The page kept ranking top 3 for two years straight.

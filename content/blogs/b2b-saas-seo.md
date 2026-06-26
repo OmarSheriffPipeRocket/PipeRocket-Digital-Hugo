@@ -82,7 +82,7 @@ The concern of this persona is ROI, security, scalability, and long-term value. 
 - ROI enterprise data governance software.
 - SOC 2 compliant CRM for banks
 
-They react to BOFU content such as case studies, security documentation, comparison pages, and detailed product pages, which point to financial impact and risk reduction.
+They react to BOFU content such as case studies, security documentation, [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), and detailed product pages, which point to financial impact and risk reduction.
 
 **The personas coincide with various levels of intent:**
 
@@ -124,7 +124,7 @@ For the SaaS-specific overlay, read our [enterprise SaaS SEO guide](/blogs/enter
 
 Such works are informative and consciousness-raising, aimed at capturing initial interest. Some of them are trend articles, how-to guides, and industry challenge overviews. For example, topics such as emerging SaaS security risks in 2025 or workflow automation tool selection are a wide net in terms of expanding visibility and creating trust.
 
-The Content Marketing Institute's [2026 B2B Content Marketing research](https://contentmarketinginstitute.com/b2b-research/b2b-content-marketing-trends-research) found that the most effective [content marketing](/glossary/what-is-content-marketing/) teams point to content relevance and quality as the top factor driving their results (cited by 65%), and the majority of B2B marketers say their content performance has improved year over year. Internal linking is very important: connect TOFU articles with more in-depth, conversion-oriented materials, e.g., the blog PipeRocket has about the [best SaaS SEO agencies](/list/best-saas-seo-agencies/).
+The Content Marketing Institute's [2026 B2B Content Marketing research](https://contentmarketinginstitute.com/b2b-research/b2b-content-marketing-trends-research) found that the most effective [content marketing](/glossary/what-is-content-marketing/) teams point to content relevance and quality as the top factor driving their results (cited by 65%), and the majority of B2B marketers say their content performance has improved year over year. [Internal linking](/blogs/how-to-use-internal-linking/) is very important: connect TOFU articles with more in-depth, conversion-oriented materials, e.g., the blog PipeRocket has about the [best SaaS SEO agencies](/list/best-saas-seo-agencies/).
 
 ### **MOFU (Middle-of-Funnel) Content**
 
@@ -192,7 +192,7 @@ In contrast to traditional SEO, it places more importance on the quality of lead
 
 2. **What is the difference between B2B SaaS SEO and SaaS SEO?**
 
-[SaaS SEO](/blogs/saas-seo/) enhances search optimization of all SaaS products, targeting a broad audience that includes both individual and business users. B2B SaaS SEO, however, is designed to sell software to businesses. It focuses more on longer sales cycles, decision-maker keywords, comparison pages, and bottom-of-funnel pages that lead to demo or sales calls.
+[SaaS SEO](/blogs/saas-seo/) enhances search optimization of all SaaS products, targeting a broad audience that includes both individual and business users. B2B SaaS SEO, however, is designed to sell software to businesses. It focuses more on longer sales cycles, decision-maker keywords, comparison pages, and [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) pages that lead to demo or sales calls.
 
 General SaaS SEO typically drives sign-ups and traffic, but B2B SaaS SEO emphasizes finding qualified business buyers, nurturing them through various stages, and creating high-value leads, rather than a high volume of users.
 

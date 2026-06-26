@@ -49,7 +49,7 @@ What this means in practice is simple: use 301s with intent. Every redirect shou
 - Test redirect behavior: Verify each redirect works as expected, using tools like Screaming Frog or browser extensions; pay special attention to login and sign-up flows.
 - Avoid chained redirects: Redirect each old URL directly to its final target never create a sequence (A → B → C) that slows load times and loses SEO value.
 - Monitor analytics: Track traffic, conversions, and crawl errors post-redirect using Google Search Console and analytics tools to catch missed or broken redirects quickly.
-- Update internal links: Change links in navigation, blogs, emails, and ads to point directly at the new URLs; this prevents users from bouncing through unnecessary redirects.
+- Update [internal links](/blogs/how-to-use-internal-linking/): Change links in navigation, blogs, emails, and ads to point directly at the new URLs; this prevents users from bouncing through unnecessary redirects.
 - Audit periodically: Recheck your redirect map after launch URLs change, and missed or outdated redirects can cause silent leaks in authority and traffic.
 
 **Also read:** [how top SaaS SEO agencies handle site migrations](/list/best-saas-seo-agencies/)

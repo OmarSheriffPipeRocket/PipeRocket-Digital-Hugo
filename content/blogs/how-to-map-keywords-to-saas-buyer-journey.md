@@ -45,7 +45,7 @@ Map every keyword to one of three buyer-journey stages: awareness, consideration
 
 At the awareness stage the searcher knows something hurts but hasn't named the fix. They type questions: "why is my team missing deadlines," "what is SOC 2 compliance," "how to reduce customer churn." There's no product category in the query, often no commercial intent at all.
 
-These keywords carry the highest volume and the lowest buying signal, which is exactly why they're so easy to over-invest in. Awareness content earns trust and topical authority, and it warms people up. What it doesn't do is fill next quarter's pipeline. Treat it as a credibility play, not a lead play.
+These keywords carry the highest volume and the lowest buying signal, which is exactly why they're so easy to over-invest in. Awareness content earns trust and [topical authority](/blogs/how-to-improve-topical-authority/), and it warms people up. What it doesn't do is fill next quarter's pipeline. Treat it as a credibility play, not a lead play.
 
 One thing worth knowing: across the 53 B2B SaaS brands we analysed over 8 months, only 11.8% of AI-referred sessions carried brand-name intent versus 28.1% of organic, which tells you most early-stage discovery happens before anyone knows your name.
 
@@ -111,7 +111,7 @@ Take your master keyword sheet and add three columns next to each keyword:
 - **Persona:** which role types this (engineer, CFO, CEO, end user)
 - **Page type:** the format that matches the intent (blog, listicle, comparison, pricing, alternative)
 
-The page-type column is the one teams forget, and it's the one that prevents the most damage. A decision-stage keyword needs a comparison or alternative page, never a blog post, because the SERP for "Vanta vs Drata" is full of comparison pages and Google won't rank your narrative essay there no matter how good it is.
+The page-type column is the one teams forget, and it's the one that prevents the most damage. A decision-stage keyword needs a comparison or alternative page, never a blog post, because the SERP for "Vanta vs Drata" is full of [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) and Google won't rank your narrative essay there no matter how good it is.
 
 Comparison and alternative pages aren't even the same format. A comparison-page visitor is weighing two viable options, while an alternative-page visitor is escaping a tool that failed them, so they need different writing.
 
@@ -135,7 +135,7 @@ Lean too far toward awareness and you get traffic with no demos; lean BoFu-only 
 
 The second mistake is format-intent mismatch. The keyword is mapped to "decision" correctly, but the team writes a 2,000-word blog post for it instead of a comparison page. The stage was right and the format fought it.
 
-If the top 10 results for a query are all comparison pages and you publish an essay, you lose regardless of writing quality. Map the stage, then match the format to what the SERP already rewards.
+If the top 10 results for a query are all comparison pages and you publish an essay, you lose regardless of writing quality. Map the stage, then match the format to what the [SERP](/glossary/what-is-serp/) already rewards.
 
 ### Assuming a keyword has a fixed stage
 

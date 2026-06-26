@@ -108,7 +108,7 @@ Here’s the counterintuitive bit: Most leaders obsess over ARR growth as the ul
 
 A real trade-off: Expansion ARR (upsells, cross-sells to existing customers) is stickier and more valuable than new logo ARR. But it’s harder to grow if your product has a narrow use case. It’s worth prioritizing if your customers have clear upgrade paths, but don’t neglect new sales or your pipeline dries up.
 
-**Also read:** SaaS SEO agency services that track metrics the right way
+**Also read:** SaaS [SEO](/glossary/what-is-seo/) agency services that track metrics the right way
 
 ## Frequently Asked Questions
 

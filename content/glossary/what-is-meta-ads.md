@@ -15,7 +15,7 @@ toc: true
 readingTime: "13 min read"
 ---
 
-Meta Ads is the paid advertising platform that runs across Facebook, Instagram, Messenger, and the Audience Network. It lets businesses target users based on demographics, interests, and behaviours not just search intent. For SaaS teams, it’s most effective for brand awareness and retargeting, not bottom-of-funnel conversions.
+Meta Ads is the paid advertising platform that runs across Facebook, Instagram, Messenger, and the Audience Network. It lets businesses target users based on demographics, interests, and behaviours not just search intent. For SaaS teams, it’s most effective for brand awareness and retargeting, not [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) conversions.
 
 ## TL;DR
 

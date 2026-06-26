@@ -709,7 +709,7 @@ Best for: Thought Leadership and Complex Enterprise B2B SEO Requiring Deep Subje
 
 First Page Sage translates expert knowledge into content reading like industry veteran or PhD-level writing. This methodology serves long, complex sales cycles where trust and authority matter most. Organisations with products too complex for standard copywriting find deep intellectual content creation.
 
-- They coined the term Generative Engine Optimization in 2024
+- They coined the term [Generative Engine Optimization](/blogs/how-to-do-geo-for-saas/) in 2024
 - Published quarterly research on AI search behaviour widely cited in the agency category
 - Strong fit for enterprise SaaS with complex products needing intellectual authority
 

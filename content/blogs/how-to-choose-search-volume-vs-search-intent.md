@@ -40,11 +40,11 @@ This is the same ordering we use when we [score keywords by ICP intent](/blogs/h
 
 ## Stop Arguing and Search the Keyword Yourself
 
-When volume and intent point in opposite directions, the quickest way to settle it is to put the keyword into Google and read the first page. The SERP is Google's verdict on what intent that query actually carries, and it overrides whatever your gut or your tool says.
+When volume and intent point in opposite directions, the quickest way to settle it is to put the keyword into Google and read the first page. The [SERP](/glossary/what-is-serp/) is Google's verdict on what intent that query actually carries, and it overrides whatever your gut or your tool says.
 
 This is the check we run before building any page. If you search a keyword and the top ten results are all "what is X" blog posts, Google has decided that query is informational, and a hard-sell product page won't rank there no matter how high the volume looks.
 
-If the top ten are product and comparison pages, the query carries buying intent and a blog post will get buried.
+If the top ten are product and [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), the query carries buying intent and a blog post will get buried.
 
 The page type that already ranks tells you the intent, and the intent tells you whether the volume is reachable for the kind of page you'd actually want to build.
 
@@ -70,7 +70,7 @@ So even with the volume staring at you, the SERP says this is a top-of-funnel ed
 
 Before anyone argues for a high-volume keyword, run the arithmetic on what that volume is actually worth. The number almost always shrinks once you push it through a funnel, and a lot of "we have to rank for this" keywords don't survive the math.
 
-Take a keyword with 1,000 searches a month. Ranking top three, you might capture 100 clicks. At a typical SaaS conversion rate of 2 to 4%, that's four or five conversions, and that's before you ask whether any of those four people were your ICP or just curious.
+Take a keyword with 1,000 searches a month. Ranking top three, you might capture 100 clicks. At a typical SaaS conversion rate of 2 to 4%, that's four or five conversions, and that's before you ask whether any of those four people were your [ICP](/glossary/what-is-icp/) or just curious.
 
 A keyword that looked like a thousand opportunities is really four or five, and the wrong four or five if the intent is soft. Run that math and the volume stops being intimidating.
 
@@ -115,7 +115,7 @@ We grew one client from 3 sales opportunities to 15 in two quarters, with no bud
 If your traffic is growing but pipeline isn't, you may not have a traffic problem at all, you have an audience problem.
 {{< /experience >}}
 
-This is where the standard tools fail you, because Keyword Difficulty and volume describe the keyword's SEO odds and say nothing about the human typing it. A query like "migrate off [legacy tool] without downtime" might show almost no volume, yet the person typing it is mid-crisis and ready to switch vendors this month.
+This is where the standard tools fail you, because Keyword Difficulty and volume describe the keyword's [SEO](/glossary/what-is-seo/) odds and say nothing about the human typing it. A query like "migrate off [legacy tool] without downtime" might show almost no volume, yet the person typing it is mid-crisis and ready to switch vendors this month.
 
 For the mechanics of building these, our guide on [ranking BOFU keywords](/blogs/how-to-rank-bofu-keywords-saas/) covers the page side. The point here is the judgment call: low volume plus high intent beats high volume plus soft intent almost every time in B2B SaaS.
 

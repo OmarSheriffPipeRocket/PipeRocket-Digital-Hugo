@@ -68,7 +68,7 @@ The Coverage report divides all known pages into four status categories. Each de
 |---|---|---|
 | **Valid** | Google has indexed the page. | Monitor for unexpected drops after deployments. Common causes of leaving Valid: accidental noindex in a template change, a canonical update pointing elsewhere, or a server config change. |
 | **Crawled but not indexed** | Google visited and made a quality judgment not to index it. | Content improvement or consolidation with a stronger page on the same topic. Sitemap submission and GSC indexation requests will not change this status — it is a content problem, not a technical one. The most misdiagnosed status in SaaS technical SEO. |
-| **Discovered but not indexed** | Google knows the page exists but has not crawled it. | Improve internal linking to the affected pages. Crawl budget flows through inbound links; pages with few internal links get deprioritized in the crawl queue. |
+| **Discovered but not indexed** | Google knows the page exists but has not crawled it. | Improve [internal linking](/blogs/how-to-use-internal-linking/) to the affected pages. Crawl budget flows through inbound links; pages with few internal links get deprioritized in the crawl queue. |
 | **Excluded by noindex** | A noindex directive is on the page (meta tag or HTTP header). | Verify this list against your intended exclusions. Template-level noindex tags sometimes apply to pages that should be indexed, particularly after CMS updates or product launches. |
 
 ### The Hidden Indexation Problems on SaaS Sites
@@ -152,7 +152,7 @@ For SaaS sites with large blog archives, feature pages, use-case pages, and inte
 
 ### Hub and Spoke Architecture
 
-The internal linking structure that works best for SaaS marketing sites follows a hub-and-spoke model. Hub pages are broad, commercially important landing pages: the pricing page, the main feature overview, the [ICP](/glossary/what-is-icp/) category landing page. Spoke pages are supporting content: blog posts, use-case articles, glossary entries, comparison pages, and integration landing pages.
+The internal linking structure that works best for SaaS marketing sites follows a hub-and-spoke model. Hub pages are broad, commercially important landing pages: the pricing page, the main feature overview, the [ICP](/glossary/what-is-icp/) category landing page. Spoke pages are supporting content: blog posts, use-case articles, glossary entries, [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), and integration landing pages.
 
 Every spoke page covering a topic related to a hub page should link to that hub with contextually relevant [anchor text](/glossary/what-is-anchor-text/) placed naturally in the content body. Footer and navigation links pass equity, but in-content links from relevant pages carry more contextual weight.
 

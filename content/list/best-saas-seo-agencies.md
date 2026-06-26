@@ -526,7 +526,7 @@ Best for: Premium SaaS Content SEO and Link Earning
 
 **Ideal Buyer:** A SaaS company with a healthy technical SEO baseline that needs sustained link velocity and editorial coverage to compete on authority.
 
-**Where They Won't Fit:** A SaaS team with technical debt, weak internal linking, or a need for paid integration alongside organic.
+**Where They Won't Fit:** A SaaS team with technical debt, weak [internal linking](/blogs/how-to-use-internal-linking/), or a need for paid integration alongside organic.
 
 **Editor's Take:** We think Siege is unmatched when content velocity is the lever, and we'd pair them with a technical SEO partner if the site has crawl issues.
 
@@ -645,7 +645,7 @@ A Fiducia Adamantina CEO praised the team but US clients commonly flag the Armen
 
 ### 8. Breaking B2B
 
-Best for: Bottom-of-Funnel SaaS SEO and Comparison Content
+Best for: [Bottom-of-Funnel](/blogs/how-to-rank-bofu-keywords-saas/) SaaS SEO and Comparison Content
 
 [Breaking B2B](https://www.breakingb2b.com/) is a UK-based, founder-led agency run by Sam Dunning. They position as the anti-agency for SaaS brands tired of retainers that report on traffic and not revenue. The team is small and BOFU-focused.
 
@@ -665,7 +665,7 @@ Best for: Bottom-of-Funnel SaaS SEO and Comparison Content
 
 **Strategy:** Founder-led, shipping bottom-of-funnel comparison and alternatives pages built to feed demos.
 
-**What Sets Them Apart:** They focus heavily on revenue-driven SaaS SEO, working on comparison pages, alternatives content, and product positioning that influence the buying decision rather than top-funnel topics.
+**What Sets Them Apart:** They focus heavily on revenue-driven SaaS SEO, working on [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternatives content, and product positioning that influence the buying decision rather than top-funnel topics.
 
 - BOFU-first focus on comparison and alternatives pages
 - Founder-led engagements with strong SaaS podcast and brand presence
@@ -1146,7 +1146,7 @@ Every agency on this list will open with a deck and a hockey-stick traffic chart
 - **Make them show pipeline, not sessions.** Ask for one report that ties a keyword cluster to organic signups, trial starts, demos, SQLs, or closed revenue. If every slide leads with traffic and domain authority, they are optimizing for the wrong number.
 - **Test SaaS fluency in the first ten minutes.** A real SaaS partner already speaks ICP, ARR, trial-to-paid, and PLG versus sales-led. A generalist spends your first quarter learning the vocabulary, and you pay for that quarter.
 - **Meet the person who runs the account.** The founder who charms you in the pitch is rarely the one writing your content brief. Ask who owns the work day to day, then talk to them before you sign.
-- **Check that BOFU comes before TOFU.** Your comparison, alternatives, integration, use-case, and pricing pages are the ones that convert. A strong partner builds topical authority with tight topic clusters and pain-point SEO, and earns links with genuinely linkable assets, instead of shipping 40 top-funnel posts before touching your money pages.
+- **Check that BOFU comes before TOFU.** Your comparison, alternatives, integration, use-case, and pricing pages are the ones that convert. A strong partner builds [topical authority](/blogs/how-to-improve-topical-authority/) with tight topic clusters and pain-point SEO, and earns links with genuinely linkable assets, instead of shipping 40 top-funnel posts before touching your money pages.
 - **Confirm GEO and AEO are real work.** Ask to see a single citation they earned inside Google AI Overviews, ChatGPT, Perplexity, or Gemini. If they cannot show one, treat AI search as a roadmap item, not a current capability.
 - **Ask how they lift conversion, not just clicks.** Rankings without conversion rate optimization (CRO) only grow your traffic bill. The best partners map content to your buyer journey, then test the pages that turn organic visitors into trials and demos.
 - **Demand two references at your ARR.** Logos on a slide are not proof. A short call with a current client at your stage tells you more than any polished case study.
@@ -1188,7 +1188,7 @@ Ask for case studies tied to pipeline or MQL outcomes, who staffs the account da
 
 ### Do SaaS SEO agencies now handle GEO and AEO?
 
-Most credible SaaS SEO agencies now run generative engine optimization (GEO) and answer engine optimization (AEO) alongside traditional SEO, working to get you cited in Google AI Overviews, ChatGPT, Perplexity, and Gemini. Ask how they structure your content for entity recognition and machine extraction, how they track your AI citation rate, and confirm they treat it as a discipline, not a reporting add-on.
+Most credible SaaS SEO agencies now run [generative engine optimization](/blogs/how-to-do-geo-for-saas/) (GEO) and answer engine optimization (AEO) alongside traditional SEO, working to get you cited in Google AI Overviews, ChatGPT, Perplexity, and Gemini. Ask how they structure your content for entity recognition and machine extraction, how they track your AI citation rate, and confirm they treat it as a discipline, not a reporting add-on.
 
 ### Which metrics should a SaaS SEO agency report on?
 

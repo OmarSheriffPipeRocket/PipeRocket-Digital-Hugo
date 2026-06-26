@@ -46,7 +46,7 @@ Marketing ops is responsible for four interconnected domains. Weakness in any on
 | Technology stack | Selection, configuration, integration, and maintenance of your MAP, CRM, enrichment tools, and analytics platforms | Disconnected tools producing siloed data that no single report can reconcile |
 | Data management | Lead and account data quality, enrichment, deduplication, field mapping, and lifecycle stage logic | Campaigns targeting the wrong audience, CRM data the sales team does not trust |
 | Process and automation | Lead routing, nurture sequences, SLA workflows between marketing and sales, and lifecycle stage transitions | Leads that fall through the cracks, reps receiving leads without context |
-| Reporting and attribution | Pipeline contribution reports, multi-touch attribution models, channel CAC, and forecast inputs | Marketing cannot prove its revenue contribution, programs lose budget despite generating pipeline |
+| Reporting and attribution | Pipeline contribution reports, [multi-touch attribution](/blogs/how-to-set-up-multi-touch-attribution/) models, channel CAC, and forecast inputs | Marketing cannot prove its revenue contribution, programs lose budget despite generating pipeline |
 
 **Technology stack:** A marketing technology stack is not a list of tools. It is a system, and a system only works when its components are connected in ways that move data in both directions. The most common failure is a HubSpot or Marketo instance configured by multiple people over three years with no documentation, firing automations nobody fully understands, and field mappings that no longer reflect how the sales team actually works.
 
@@ -122,7 +122,7 @@ At Series B, marketing ops moves from a support function to a strategic infrastr
 
 | Priority | What to do | Why it matters at this stage |
 | --- | --- | --- |
-| Advanced revenue attribution | Move to a full multi-touch model tied to closed ARR, not just pipeline. Benchmark organic CAC against paid CAC | The CFO and board need to see channel efficiency against revenue outcomes, not just pipeline influenced |
+| Advanced revenue attribution | Move to a full multi-touch model tied to closed ARR, not just pipeline. Benchmark [organic CAC](/blogs/how-to-measure-organic-cac/) against paid CAC | The CFO and board need to see channel efficiency against revenue outcomes, not just pipeline influenced |
 | Funnel governance | Document and enforce every stage definition, transition rule, and SLA. Audit quarterly for drift | With multiple SDRs, AEs, and marketing sub-teams, funnel definitions drift unless actively governed |
 | [ABM](/glossary/what-is-abm/) infrastructure | Integrate an ABM platform (6sense or Demandbase) to identify and prioritize accounts showing active buying signals | At Series B, named account programs run alongside inbound. The ops infrastructure has to support both motions simultaneously |
 | Board-level reporting | Build a monthly marketing contribution report showing pipeline sourced, pipeline influenced, organic CAC versus paid CAC, and MQL-to-close rate by channel. It should take minutes to produce, not days | At Series B, every program needs to justify its budget against revenue outcomes in language that survives a board conversation |

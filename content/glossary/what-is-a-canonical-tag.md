@@ -53,7 +53,7 @@ What this means in practice: you can have hundreds of URLs pointing to nearly id
 - Add the rel=”canonical” tag: Insert the canonical tag in the <head> of every duplicate page, pointing to your chosen canonical URL.
 - Check for conflicting signals: Make sure there are no competing canonical tags, redirects, or inconsistent sitewide rules that confuse search engines.
 - Test and monitor: Use Google Search Console’s URL Inspection tool to see how Google indexes your canonicalized pages and fix issues fast.
-- Update internal links: Point all internal links to the canonical version, not duplicates, to reinforce your chosen primary page.
+- Update [internal links](/blogs/how-to-use-internal-linking/): Point all internal links to the canonical version, not duplicates, to reinforce your chosen primary page.
 - Review after site changes: Every big product or CMS update can create new duplicate URLs re-audit your canonicals regularly.
 
 ## How Do Canonical Tags Affect SEO Performance?
@@ -61,7 +61,7 @@ What this means in practice: you can have hundreds of URLs pointing to nearly id
 Canonical tags are one of those invisible SEO levers that can quietly make or break organic growth. When used correctly, they consolidate rankings, links, and metrics around a single “hero” URL. But many teams fall into the trap of assuming “set it and forget it” is enough.
 
 - Link signal consolidation: All backlinks to duplicate URLs flow to the canonical page, strengthening its authority in Google’s eyes.
-- Keyword cannibalization prevention: Multiple pages for the same keyword won’t compete against each other, preserving your topical authority.
+- Keyword cannibalization prevention: Multiple pages for the same keyword won’t compete against each other, preserving your [topical authority](/blogs/how-to-improve-topical-authority/).
 - SERP appearance control: You manage which version of a page shows up in search, reducing the risk of users landing on out-of-date or tracking-laden URLs.
 - Faster indexation: Googlebot spends less time crawling redundant pages, which means new features or launches get indexed and ranked faster.
 - Reduced penalty risk: Search engines penalize obvious duplicate content canonicals provide a clear roadmap to avoid accidental devaluation.

@@ -47,7 +47,7 @@ AEO for SaaS is an additive strategy layered on top of a working organic foundat
 
 ## What AEO for SaaS Actually Means
 
-AEO (Answer Engine Optimization) is the practice of making your content easy for AI engines to cite in their generated answers. It overlaps with GEO ([Generative Engine Optimization](/glossary/what-is-geo/)) in most practical work.
+AEO ([Answer Engine Optimization](/blogs/how-to-do-geo-for-saas/)) is the practice of making your content easy for AI engines to cite in their generated answers. It overlaps with GEO ([Generative Engine Optimization](/glossary/what-is-geo/)) in most practical work.
 
 The distinction matters primarily in terminology: AEO focuses on being cited in direct answers to specific questions; GEO is the broader optimization for AI-generated outputs including summaries, comparisons, and recommendation responses. For B2B SaaS, the practical question is the same regardless of which label you use.
 
@@ -76,7 +76,7 @@ AI engines cite brands through two distinct mechanisms: real-time web retrieval 
 
 The practical implication: brands that rank well for organic search and have strong third-party review presence appear more consistently in AI answers across both mechanisms. The same signals that drive organic authority are the inputs AI engines use to decide which brands are trustworthy enough to cite.
 
-This is why AEO for SaaS starts with organic SEO fundamentals, not with special AI optimization techniques.
+This is why AEO for SaaS starts with organic [SEO](/glossary/what-is-seo/) fundamentals, not with special AI optimization techniques.
 
 ## The Four Levers for AI Citation Eligibility
 

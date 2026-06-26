@@ -78,7 +78,7 @@ It’s easy to confuse CPA (cost per acquisition) with CAC (customer acquisition
 - CPA vs. CAC: CPA is often campaign-specific or channel-specific; CAC is broader, including all sales and marketing costs over a period.
 - CPA vs. CPL: CPL measures cost to acquire a lead (e.g., signup), not a paying customer; CPA and CAC are about actual conversions.
 - Time frame: CAC is usually calculated quarterly or annually, while CPA is often tracked per campaign or month.
-- Funnel focus: CPL optimizes top-of-funnel, CPA/CAC focus on bottom-of-funnel where revenue happens.
+- Funnel focus: CPL optimizes top-of-funnel, CPA/CAC focus on [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) where revenue happens.
 - Strategic use: CAC is the north star for sustainable SaaS growth, but channel-level CPA helps you spot underperforming tactics early.
 
 Here’s a quick snapshot:
@@ -113,7 +113,7 @@ A nuanced warning: This approach works well for SaaS with clear value metrics an
 
 Here’s what actually works: Set your target CPA as a percentage of LTV, then adjust by channel. If paid search brings customers with 2x the LTV of organic, it’s worth accepting a higher CPA. But if you’re blindly chasing the lowest CPA, you’re probably ignoring your best long-term growth bets.
 
-**Also read:** SaaS SEO agency strategies for high-LTV acquisition
+**Also read:** SaaS [SEO](/glossary/what-is-seo/) agency strategies for high-LTV acquisition
 
 ## What Tools and Agencies Help Track and Optimize CPA?
 

@@ -125,4 +125,4 @@ You measure thought leadership by tracking references in the market when prospec
 
 ## The Bottom Line
 
-Thought leadership isn’t about publishing more it’s about having something worth saying and the guts to say it first. The teams that shape their market’s thinking become the default choice when it matters. If you want to build real authority, [reach out to our team](https://piperocket.digital/contact-us/) or see how we approach SaaS SEO for lasting market influence.
+Thought leadership isn’t about publishing more it’s about having something worth saying and the guts to say it first. The teams that shape their market’s thinking become the default choice when it matters. If you want to build real authority, [reach out to our team](https://piperocket.digital/contact-us/) or see how we approach SaaS [SEO](/glossary/what-is-seo/) for lasting market influence.

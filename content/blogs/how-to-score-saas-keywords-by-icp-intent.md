@@ -89,7 +89,7 @@ The third signal is the trigger. How close does this search sit to the moment so
 
 Trigger language is specific and a little urgent. "Vanta alternative" carries a trigger, someone's unhappy with a tool right now. "Zendesk migration" carries a trigger. "What is helpdesk software" carries none. The first two searchers have a reason to act this month. The third might act next year, or never. Trigger fit decays the moment your positioning moves, so re-score it whenever your ICP shifts.
 
-This is the signal that separates a comparison or alternative keyword from a definitional one. We've seen the pattern hold across accounts: when SEO keeps ranking the old version of a company after it repositions, traffic looks healthy while the wrong people land, because the trigger-heavy keywords were never rebuilt around the new ICP.
+This is the signal that separates a comparison or alternative keyword from a definitional one. We've seen the pattern hold across accounts: when [SEO](/glossary/what-is-seo/) keeps ranking the old version of a company after it repositions, traffic looks healthy while the wrong people land, because the trigger-heavy keywords were never rebuilt around the new ICP.
 
 Score the trigger:
 
@@ -136,7 +136,7 @@ Everything from 5 to 7 is a maybe, sequenced by capacity. Below 5 doesn't enter 
 
 ## The Traffic-Trap Keywords That Pass Volume and Fail ICP
 
-A traffic trap is a keyword that scores beautifully on every SEO metric and zero on every ICP signal. High volume, low difficulty, healthy CPC, and a searcher who will never, ever buy. These are the ones that wreck a quarter, because they look like wins right up until the pipeline report lands.
+A traffic trap is a keyword that scores beautifully on every SEO metric and zero on every ICP signal. High volume, low difficulty, healthy [CPC](/glossary/what-is-cost-per-click/), and a searcher who will never, ever buy. These are the ones that wreck a quarter, because they look like wins right up until the pipeline report lands.
 
 The tell is always the same: the keyword describes a topic in your category but not a person in your market. The query patterns that pull volume and pull the wrong human:
 

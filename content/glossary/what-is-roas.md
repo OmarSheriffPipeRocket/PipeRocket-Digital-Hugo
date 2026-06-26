@@ -98,7 +98,7 @@ ROAS is a useful metric, but it’s not the only metric. The teams that use it b
 - Budget allocation: Weigh ROAS alongside CAC payback and LTV. An ad set with lower ROAS but much faster payback can be a better use of cash than one with a high number but two-year return.
 - Channel testing: Use ROAS to compare campaigns within the same channel not between completely different platforms with different reporting logic.
 - Creative iteration: If specific ad messaging or creative consistently boosts ROAS by 30%+, double down on that angle but watch for fatigue and diminishing returns.
-- Attribution model: Don’t accept “last click” ROAS as gospel. Multi-touch attribution (using tools like HubSpot, Segment, or Dreamdata) gives a truer view of what’s really driving revenue.
+- Attribution model: Don’t accept “last click” ROAS as gospel. [Multi-touch attribution](/blogs/how-to-set-up-multi-touch-attribution/) (using tools like HubSpot, Segment, or Dreamdata) gives a truer view of what’s really driving revenue.
 - Board and investor reporting: Report both “platform” and “actual” ROAS, making the differences clear, and always tie back to LTV and churn for credibility.
 
 Contrarian insight: Many teams cut paid social or niche channels too early because ROAS looks weak in the first month. This is backwards. What works is running small, structured experiments and tracking actual LTV and retention by channel cohort not just first-touch revenue.

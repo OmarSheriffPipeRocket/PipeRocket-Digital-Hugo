@@ -33,7 +33,7 @@ On page SEO is the process of optimizing individual web pages so search engines 
 - Content relevance: Each page must answer the exact questions your target buyer is searching for, not just mention the right keywords.
 - Title tags and meta descriptions: These elements tell Google and users what your page is about and they’re the first thing searchers see in results.
 - Header structure (H1, H2, H3): Organizing content with clear headings signals the page’s hierarchy and makes it easier to scan.
-- Internal linking: Linking to and from related pages distributes authority and clarifies your site’s content map for search engines.
+- [Internal linking](/blogs/how-to-use-internal-linking/): Linking to and from related pages distributes authority and clarifies your site’s content map for search engines.
 - Technical signals: Elements like schema markup, image alt text, and mobile-friendliness help Google understand and trust your page.
 
 Here’s the twist: On page SEO isn’t just about pleasing Google. It’s about making your page the obvious answer for a real person searching for a specific SaaS problem. Take Invoice Nest, a SaaS for freelance invoicing. They rebuilt their pricing, integrations, and feature pages around real search intent leading to a 27% jump in organic signups within three months.
@@ -60,7 +60,7 @@ Here’s what most people miss: On page SEO is the single biggest control lever 
 
 - Click-through impact: Better-optimized title tags and meta descriptions can increase click-through rates by 15 30% compared to generic or poorly written ones.
 - Content depth: Pages that truly answer the user’s question (not just “what is X,” but “should I use X for Y?”) tend to rank higher and convert better.
-- Intent structure: Mapping each page to a single search intent prevents keyword cannibalization where your own pages compete and both lose.
+- Intent structure: Mapping each page to a single search intent prevents keyword [cannibalization](/blogs/how-to-fix-keyword-cannibalization/) where your own pages compete and both lose.
 - Internal linking: Strategic internal links can move underperforming pages into the top 10 by passing authority from stronger, related content.
 - Ongoing optimization: Regular updates based on rank tracking and [SERP](/glossary/what-is-serp/) changes keep your pages relevant and competitive.
 
@@ -79,7 +79,7 @@ Most guides boil on page SEO down to “use keywords, write long content, add so
 - Title tag: The most important ranking signal on the page. Must be unique, concise (under 60 characters), and match the searcher’s main question.
 - [Meta description](/glossary/what-is-a-meta-description/): Not a ranking factor, but a huge lever for clicks. Write it like ad copy clear, benefit-driven, under 155 characters.
 - Header structure: Logical use of H1, H2, and H3 tags to organize the page. Each header should preview the content beneath it.
-- Primary and secondary keywords: Use the main keyword early, but sprinkle in related phrases and synonyms think “on page SEO techniques,” “SEO page optimization,” etc.
+- Primary and [secondary keywords](/blogs/how-to-do-saas-seo-keyword-research/): Use the main keyword early, but sprinkle in related phrases and synonyms think “on page SEO techniques,” “SEO page optimization,” etc.
 - Entities and topical depth: Mention relevant tools, frameworks, or brands (like Ahrefs, Semrush, Google Search Console) to signal expertise.
 - Internal links: Link to and from related pages using anchor text that describes the target page (not generic “read more” links).
 - Image alt text and schema markup: Provide descriptive alt text for all images, and use schema to give Google more context about your page.

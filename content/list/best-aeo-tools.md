@@ -596,7 +596,7 @@ The best AEO tools in 2026 are Profound (deepest review base plus proprietary Pr
 
 ### Is AEO the same as GEO?
 
-They're used interchangeably. AEO (Answer Engine Optimization) stresses structured answers; GEO (Generative Engine Optimization) stresses citations. Same job.
+They're used interchangeably. AEO (Answer Engine Optimization) stresses structured answers; GEO ([Generative Engine Optimization](/blogs/how-to-do-geo-for-saas/)) stresses citations. Same job.
 
 ### How many AI engines should I be tracking for a SaaS product?
 

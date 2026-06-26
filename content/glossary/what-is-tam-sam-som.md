@@ -112,7 +112,7 @@ There’s also a sequencing logic here. Most successful SaaS companies don’t t
 
 Consider a workflow automation tool targeting operations teams. Its SAM might span multiple industries, but its SOM in year one is mid-sized e-commerce companies in the US, where the founders have existing relationships and the problem is acutely felt. Winning that segment first builds the case study library that opens the next vertical.
 
-If you’re building out organic acquisition as part of your go-to-market, pairing this market clarity with a structured content programme run by a dedicated SaaS SEO team can help you capture demand from the specific segments your SOM targets.
+If you’re building out organic acquisition as part of your go-to-market, pairing this market clarity with a structured content programme run by a dedicated SaaS [SEO](/glossary/what-is-seo/) team can help you capture demand from the specific segments your SOM targets.
 
 Also read: [best SaaS marketing agencies for early-stage and scaling teams](/list/best-saas-marketing-agencies-2026/)
 

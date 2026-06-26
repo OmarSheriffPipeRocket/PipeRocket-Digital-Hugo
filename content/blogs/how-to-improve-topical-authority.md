@@ -79,7 +79,7 @@ Pull your existing posts and map each one to a node on the topic mind map. The g
 Watch for these signals in your audit:
 
 - Short, thin posts on complex subtopics (a sign of thin coverage, not depth)
-- Multiple posts targeting the same keyword without different intent (a cannibalization risk)
+- Multiple posts targeting the same keyword without different intent (a [cannibalization](/blogs/how-to-fix-keyword-cannibalization/) risk)
 - Clusters where you have TOFU posts but no BOFU content pointing buyers toward a decision
 - Topics you haven't covered at all despite them sitting inside a cluster you're trying to own
 
@@ -109,7 +109,7 @@ The approach our team uses is to anchor the cluster on decision-stage pages firs
 Build these pages before anything else:
 
 - Alternatives pages ("best [competitor] alternatives")
-- Comparison pages ("[your product] vs [competitor]")
+- [Comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) ("[your product] vs [competitor]")
 - Category pages ("best [category] software")
 - Integration and use-case pages
 
@@ -151,7 +151,7 @@ The real signals that it's working are:
 - Being cited in AI-generated answers on topic-related questions
 - Time-on-site improvements on cluster pages (buyers are reading more because the content is deeper and better connected)
 
-When our team evaluates a SaaS brand's topical authority, we score it as one of six dimensions, alongside [technical SEO](/glossary/what-is-technical-seo/) health, backlinks, brand signals, user intent mapping, and AI readiness. The brands that win reach "strong" across all six. They don't max out one dimension while neglecting the others.
+When our team evaluates a SaaS brand's topical authority, we score it as one of six dimensions, alongside [technical SEO](/glossary/what-is-technical-seo/) health, [backlinks](/glossary/what-is-a-backlink/), brand signals, user intent mapping, and AI readiness. The brands that win reach "strong" across all six. They don't max out one dimension while neglecting the others.
 
 ### What to Watch in Search Console
 
@@ -190,6 +190,6 @@ Building topical authority is one of the most durable things you can do for **bo
 
 There's no universal number, and chasing a count is the wrong frame. **What matters is coverage completeness relative to your specific topic.**
 
-A focused SaaS product in a defined category might need several dozen core pages to cover the topic well (including BOFU pages, pillar content, and key subtopic posts). A broader category might need more.
+A focused SaaS product in a defined category might need several dozen core pages to cover the topic well (including [BOFU pages](/blogs/how-to-rank-bofu-keywords-saas/), pillar content, and key subtopic posts). A broader category might need more.
 
 The topic mind map tells you the number specific to your product and audience. If you build to that map with genuine depth on each node, you have topical authority. If you publish 100 thin posts that don't cover the map systematically, you don't.

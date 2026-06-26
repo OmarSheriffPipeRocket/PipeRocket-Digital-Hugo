@@ -261,7 +261,7 @@ Ahrefs Webmaster Tools is free for verified site owners with no time limit. Paid
 
 Best for: Freelancers and small business owners who need an affordable, beginner-friendly all-in-one SEO tool with a usable free tier.
 
-[Ubersuggest](https://neilpatel.com/ubersuggest/) is an all-in-one SEO tool built by Neil Patel Digital. It covers keyword research, domain overview, site auditing, and rank tracking in a single interface aimed at users who are newer to SEO. It is available as both a web app and a Chrome extension, with the extension providing inline keyword data on Google SERPs.
+[Ubersuggest](https://neilpatel.com/ubersuggest/) is an all-in-one SEO tool built by Neil Patel Digital. It covers keyword research, domain overview, site auditing, and [rank tracking](/list/best-rank-tracking-tools-for-saas/) in a single interface aimed at users who are newer to SEO. It is available as both a web app and a Chrome extension, with the extension providing inline keyword data on Google SERPs.
 
 **At a Glance**
 

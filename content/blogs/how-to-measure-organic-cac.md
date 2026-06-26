@@ -139,7 +139,7 @@ The most common way to understate organic CAC is to put only the agency retainer
 
 - the SEO tooling stack
 - content production and freelance writers
-- design and dev time for landing pages
+- design and dev time for [landing pages](/glossary/what-is-a-landing-page/)
 - the internal hours your own team spends managing the work
 
 Drop those and CAC looks impressive right up until finance asks what else the channel consumes, at which point the number collapses. Use the fully-loaded cost from the start; a higher, honest CAC you can defend beats a flattering one that falls apart under a single follow-up.

@@ -91,7 +91,7 @@ A contrarian insight: Most “link building agencies” promise fast results, bu
 
 ## How Does Off Page SEO Work for SaaS vs Other Industries?
 
-SaaS off page SEO has unique challenges and opportunities. Generic link building doesn’t cut it here you need relevance, topical authority, and connections in real buyer communities.
+SaaS off page SEO has unique challenges and opportunities. Generic link building doesn’t cut it here you need relevance, [topical authority](/blogs/how-to-improve-topical-authority/), and connections in real buyer communities.
 
 - Audience relevance: SaaS buyers are savvy links from generic blogs or unrelated review sites rarely influence them or Google’s algorithm.
 - Integration and marketplace links: Getting listed and reviewed on platforms like G2, Capterra, or major integration directories carries more weight than most guest posts.
@@ -106,7 +106,7 @@ A warning: This works well for B2B SaaS with clearly defined audiences and integ
 
 ### What’s the difference between on page and off page SEO?
 
-On page SEO is everything you control on your site: content, meta tags, internal linking, and technical setup. Off page SEO means building authority through backlinks, mentions, and signals from other sites. You need both but off page signals often drive the biggest ranking jumps once your basics are covered.
+On page SEO is everything you control on your site: content, meta tags, [internal linking](/blogs/how-to-use-internal-linking/), and technical setup. Off page SEO means building authority through backlinks, mentions, and signals from other sites. You need both but off page signals often drive the biggest ranking jumps once your basics are covered.
 
 ### How long does it take to see results from off page SEO?
 

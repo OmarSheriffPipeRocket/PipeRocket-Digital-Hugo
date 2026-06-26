@@ -43,7 +43,7 @@ The sites that rank for competitive BOFU terms aren't just building good BOFU pa
 
 - Earns backlinks from sites that cite genuinely useful, specific content
 - Builds [topical authority](/blogs/how-to-improve-topical-authority/) Google uses to rank your site for adjacent queries
-- Passes internal link equity down to the BOFU pages that actually convert
+- Passes internal link equity down to the [BOFU pages](/blogs/how-to-rank-bofu-keywords-saas/) that actually convert
 
 We've seen BOFU pages stuck mid-page jump into top positions after adding TOFU support content underneath them. The TOFU didn't drive demos. The TOFU made the BOFU pages rank, and the demos followed.
 
@@ -163,7 +163,7 @@ Authority is what makes traffic compound. Track it instead.
 
 Beyond the five steps above, three specific mistakes trip up SaaS teams consistently.
 
-**Cannibalization across TOFU topics.** If you've grouped keywords into topics (Step 1), you shouldn't have this problem. But teams that build from flat keyword lists often publish three or four pieces on what is effectively one topic, split across different angles. Google can't pick a winner, so it shows none of them consistently. Consolidate: pick the strongest piece and fold the others into it.
+**[Cannibalization](/blogs/how-to-fix-keyword-cannibalization/) across TOFU topics.** If you've grouped keywords into topics (Step 1), you shouldn't have this problem. But teams that build from flat keyword lists often publish three or four pieces on what is effectively one topic, split across different angles. Google can't pick a winner, so it shows none of them consistently. Consolidate: pick the strongest piece and fold the others into it.
 
 **Publishing TOFU with no internal linking plan.** "We'll add links later" is how pages sit in isolation for a year. Before you publish any TOFU piece, know which BOFU or MOFU page it should link to, and add that link at the time of publishing.
 

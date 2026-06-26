@@ -17,7 +17,7 @@ Search volume is the average number of times a keyword is searched in a given mo
 
 ## TL;DR
 
-- Search volume is the average monthly number of searches for a keyword, estimated by SEO tools from clickstream and other data.
+- Search volume is the average monthly number of searches for a keyword, estimated by [SEO](/glossary/what-is-seo/) tools from clickstream and other data.
 - The numbers are estimates, not exact counts, and they differ between tools and from Google's own data.
 - High volume often means broad, low-intent traffic, which is the opposite of what most SaaS teams need.
 - A low-volume keyword that your exact buyer searches usually beats a high-volume one that draws a crowd.

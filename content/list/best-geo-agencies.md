@@ -717,7 +717,7 @@ SEO ranks pages on Google. AEO structures content as the direct AI answer. GEO b
 
 ### Who coined the term GEO?
 
-First Page Sage's Evan Bailyn is credited with coining "Generative Engine Optimization" in 2024. iPullRank's Mike King is often cited as a co-definer.
+First Page Sage's Evan Bailyn is credited with coining "[Generative Engine Optimization](/blogs/how-to-do-geo-for-saas/)" in 2024. iPullRank's Mike King is often cited as a co-definer.
 
 ### How much does a GEO agency cost in 2026?
 

@@ -541,7 +541,7 @@ Best for: SaaS-exclusive SEO where senior leadership touches every account.
 
 **Out Of Mandate:** Teams needing paid media, ABM, or full-funnel demand. SimpleTiger does SEO only; other channels require a separate partner.
 
-**The Thesis:** SimpleTiger refuses to dilute by adding paid or ABM service lines. SaaS SERP patterns (comparison pages, alternative queries, integration intent) get specialist treatment that generalist SEO shops miss.
+**The Thesis:** SimpleTiger refuses to dilute by adding paid or ABM service lines. SaaS SERP patterns ([comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternative queries, integration intent) get specialist treatment that generalist SEO shops miss.
 
 - AI-accelerated keyword research and technical SEO
 - 2024 Clutch Global Award and Clutch Champion status
@@ -608,7 +608,7 @@ Best for: Established B2B SaaS investing in long-form thought leadership over sh
 **The Thesis:** Animalz built "The Animalz Way" around spokespeople over brand voices, zero-click content, and AI-assisted production. Content is treated as a category-influence asset, not a lead-capture funnel.
 
 - Long-form research-backed content + survey-driven whitepapers
-- AEO (Answer Engine Optimization) built into editorial workflow
+- AEO ([Answer Engine Optimization](/blogs/how-to-do-geo-for-saas/)) built into editorial workflow
 - Spokespeople-led publishing over brand byline
 
 **Market Sentiment**

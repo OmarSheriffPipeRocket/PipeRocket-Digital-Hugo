@@ -107,7 +107,7 @@ Here’s the trade-off: personalizing your funnel with dynamic content or tailor
 
 Most teams think they’re running conversion experiments, but if you’re not segmenting by channel, device, or user type, you’re just guessing. Every real improvement starts with a mapped funnel and user journey, not just a prettier landing page.
 
-**Also read:** dedicated SaaS SEO team approaches to conversion-driven content
+**Also read:** dedicated SaaS [SEO](/glossary/what-is-seo/) team approaches to conversion-driven content
 
 ## Frequently Asked Questions
 

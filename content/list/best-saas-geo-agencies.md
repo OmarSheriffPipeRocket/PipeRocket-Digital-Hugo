@@ -574,7 +574,7 @@ Early AI mentions can appear in two to three months on a solid content base. Com
 
 ### Does GEO replace SEO or complement it?
 
-GEO complements SEO. Content depth, topical authority, and links power both. SaaS with strong organic foundations have a head start on GEO.
+GEO complements SEO. Content depth, [topical authority](/blogs/how-to-improve-topical-authority/), and links power both. SaaS with strong organic foundations have a head start on GEO.
 
 ### How is GEO measured and reported?
 

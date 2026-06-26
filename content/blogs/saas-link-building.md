@@ -38,7 +38,7 @@ Link building for SaaS is not just link building with a SaaS logo on it. The buy
 
 ### The pages that actually drive revenue do not naturally attract links
 
-Most linkable content in SaaS is educational. Blog posts, how-to guides, and research reports get linked. Pricing pages, comparison pages, and product feature pages almost never do, despite those being the pages your organic pipeline actually flows through. If you are only building saas backlinks to your blog, you are building authority in the wrong part of your site.
+Most linkable content in SaaS is educational. Blog posts, how-to guides, and research reports get linked. Pricing pages, comparison pages, and product feature pages almost never do, despite those being the pages your organic pipeline actually flows through. If you are only building saas [backlinks](/glossary/what-is-a-backlink/) to your blog, you are building authority in the wrong part of your site.
 
 ### Niche relevance matters more than domain rating
 
@@ -62,7 +62,7 @@ Pull your [Google Search Console](/glossary/what-is-google-search-console/) data
 
 ### Create linkable entry points that funnel authority to your product pages
 
-No one links to a pricing page directly, but you can create a piece of content that earns links and then internally passes authority to the page that matters. A well-cited comparison post, a benchmark report, or a free tool can earn dozens of saas backlinks and route that authority exactly where you need it. This is the model HubSpot has used at scale — their most-linked content pieces consistently feed authority into their product and feature pages through tight internal linking.
+No one links to a pricing page directly, but you can create a piece of content that earns links and then internally passes authority to the page that matters. A well-cited comparison post, a benchmark report, or a free tool can earn dozens of saas backlinks and route that authority exactly where you need it. This is the model HubSpot has used at scale — their most-linked content pieces consistently feed authority into their product and feature pages through tight [internal linking](/blogs/how-to-use-internal-linking/).
 
 ## Strategy 2: Digital PR and Editorial Outreach
 
@@ -152,7 +152,7 @@ This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategie
 
 ### The metrics that actually matter
 
-- **Keyword rank movement on your target URLs** — not across your whole site, but specifically the product and comparison pages you identified in Strategy 1
+- **Keyword rank movement on your target URLs** — not across your whole site, but specifically the product and [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) you identified in Strategy 1
 - **Organic sessions to those pages** — are more buyers reaching the pages that convert?
 - **Domain authority or domain rating trend** — directional health check, not the primary metric
 - **Pipeline influenced by organic** — what opportunities originated from a page that benefitted from your link building work?

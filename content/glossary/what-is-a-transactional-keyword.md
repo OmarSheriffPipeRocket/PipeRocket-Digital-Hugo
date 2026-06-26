@@ -20,7 +20,7 @@ A transactional keyword is a search query from someone ready to take action, whe
 - A transactional keyword signals a searcher ready to act, like "HubSpot pricing" or "Notion free trial."
 - They sit at the very bottom of the funnel, past comparison and into decision.
 - Volume is low, but conversion intent is the highest of any keyword type.
-- The matching pages are pricing pages, signup pages, and conversion-focused landing pages, not blog posts.
+- The matching pages are pricing pages, signup pages, and conversion-focused [landing pages](/glossary/what-is-a-landing-page/), not blog posts.
 - Most transactional searches are branded, so capturing non-branded transactional terms is a real competitive edge.
 
 ## What Is a Transactional Keyword?
@@ -47,7 +47,7 @@ The practical takeaway: a transactional page has one job, and that's conversion.
 
 ## How Do You Identify a Transactional Keyword?
 
-The signal is action language. If the query includes words like "pricing," "buy," "trial," "signup," "demo," or "discount," the searcher wants to act, not learn. The SERP confirms it: transactional queries surface product pages, pricing pages, and signup flows rather than blog content.
+The signal is action language. If the query includes words like "pricing," "buy," "trial," "signup," "demo," or "discount," the searcher wants to act, not learn. The [SERP](/glossary/what-is-serp/) confirms it: transactional queries surface product pages, pricing pages, and signup flows rather than blog content.
 
 Branded transactional queries are the most common, since people searching "Stripe pricing" already know they want Stripe. The harder and more valuable target is non-branded transactional intent, where the searcher knows the category but hasn't locked in a brand.
 
@@ -65,7 +65,7 @@ Transactional keywords matter because they convert at the highest rate of any ke
 The honest limitation is volume. Far fewer people search "expense software pricing" than "what is expense management." So transactional keywords won't drive large traffic numbers. What they drive is conversions, which is the metric that actually matters.
 
 - **Highest conversion rate:** These searchers are ready to act, so the percentage who convert dwarfs informational traffic.
-- **Direct revenue line:** Transactional pages tie cleanly to signups and revenue, making them the easiest SEO work to justify.
+- **Direct revenue line:** Transactional pages tie cleanly to signups and revenue, making them the easiest [SEO](/glossary/what-is-seo/) work to justify.
 - **Branded capture:** Ranking your own pricing and signup pages protects branded transactional traffic from competitor ads and comparison sites.
 - **Non-branded opportunity:** Winning non-branded transactional queries intercepts buyers before they've committed to a competitor.
 
@@ -111,11 +111,11 @@ A commercial keyword signals comparison and research, like "best CRM for startup
 
 ### 2. Can a blog post rank for a transactional keyword?
 
-Rarely, and you usually don't want it to. Transactional queries surface product, pricing, and signup pages because that's what the searcher wants. A blog post ranking for "[product] pricing" would frustrate a ready-to-buy visitor and convert poorly. If a blog post is outranking your pricing page for a transactional query, that's a sign of keyword cannibalization, and you should fix the internal linking so the conversion page wins.
+Rarely, and you usually don't want it to. Transactional queries surface product, pricing, and signup pages because that's what the searcher wants. A blog post ranking for "[product] pricing" would frustrate a ready-to-buy visitor and convert poorly. If a blog post is outranking your pricing page for a transactional query, that's a sign of keyword cannibalization, and you should fix the [internal linking](/blogs/how-to-use-internal-linking/) so the conversion page wins.
 
 ### 3. How do I capture non-branded transactional traffic?
 
-Build a strong, well-optimised pricing or signup page targeting the category term, like "project management software pricing," and support it with internal links and topical authority. Non-branded transactional queries are competitive, so the page needs both conversion-focused design and the domain authority to rank. This is where informational and commercial content pay off, since they build the authority that lets your transactional pages compete for non-branded terms.
+Build a strong, well-optimised pricing or signup page targeting the category term, like "project management software pricing," and support it with internal links and [topical authority](/blogs/how-to-improve-topical-authority/). Non-branded transactional queries are competitive, so the page needs both conversion-focused design and the domain authority to rank. This is where informational and commercial content pay off, since they build the authority that lets your transactional pages compete for non-branded terms.
 
 ## The Bottom Line
 

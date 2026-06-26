@@ -122,7 +122,7 @@ What not to do
 
 - Do not build your keyword list by sorting a tool by volume and taking the top results
 - Do not skip persona validation. What your ICP searches for and what you think they search for are often different
-- Do not treat all TOFU keywords as equally worthless. Some awareness queries come from your exact buyer profile and are worth targeting
+- Do not treat all [TOFU keywords](/blogs/how-to-rank-tofu-keywords-saas/) as equally worthless. Some awareness queries come from your exact buyer profile and are worth targeting
 
 Did You Know
 
@@ -134,7 +134,7 @@ Organic visitors convert to leads at 0.92% vs AI traffic’s 0.26%. That’s a 3
 
 This is the strategy that most SaaS teams do backwards, and it is the single most common reason a content program generates traffic but not pipeline. Awareness content is easier to write, feels more strategic, and has bigger keyword numbers. So teams start there. They publish 30 articles about industry trends and best practices, then wonder why organic search is not generating demos.
 
-BOFU content targets buyers who have already defined their problem, shortlisted a category of solution, and are actively comparing vendors. These are your buyers right now. A comparison page or alternatives page that ranks for what they are searching converts at 10 to 20 times the rate of an awareness article.
+BOFU content targets buyers who have already defined their problem, shortlisted a category of solution, and are actively comparing vendors. These are your buyers right now. A [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) or alternatives page that ranks for what they are searching converts at 10 to 20 times the rate of an awareness article.
 
 The BOFU content types that drive the most pipeline for B2B SaaS:
 
@@ -252,11 +252,11 @@ What not to do
 
 - Do not run high-volume cold outreach for guest posts on low-DA sites. The links do not move the needle and the time cost is significant
 - Do not buy links. The short-term ranking lift is not worth the penalty risk, and Google’s ability to detect purchased links improves every year
-- Do not skip internal linking from your high-authority pages to your conversion pages. Earned external links that flow into the wrong pages are a missed opportunity
+- Do not skip [internal linking](/blogs/how-to-use-internal-linking/) from your high-authority pages to your conversion pages. Earned external links that flow into the wrong pages are a missed opportunity
 
 Did You Know
 
-AI traffic pushes 44% of its volume into bottom-of-funnel queries. Your BOFU pages are being surfaced to buyers who are ready to decide right now. According to PipeRocket Digital’s State of SEO in the AI World 2026 report.
+AI traffic pushes 44% of its volume into [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) queries. Your BOFU pages are being surfaced to buyers who are ready to decide right now. According to PipeRocket Digital’s State of SEO in the AI World 2026 report.
 
 ---
 
@@ -274,7 +274,7 @@ This is the strategy that determines whether SEO keeps its budget. Every other s
 
 The compounding advantage of organic search only becomes visible in a reporting model that captures the full pipeline contribution. For teams building the measurement infrastructure from scratch, [Enterprise SEO Strategy: How to Build a Program That Scales](/blogs/enterprise-seo-strategy-and-framework/) covers the attribution and governance layer in detail. Under last-touch attribution, organic looks like it contributes 8 to 12 percent of pipeline. Under pipeline-influenced attribution, that number typically rises to 50 to 70 percent for companies with mature content programs.
 
-**What this looks like in practice:** A $12M [ARR](/glossary/what-is-arr/) SaaS switches its monthly SEO report from a traffic dashboard to a pipeline contribution report showing organic SQLs, organic CAC, and pipeline-influenced attribution. In the first quarter with the new report, the CMO can demonstrate that organic search was a touchpoint in 64% of deals closed that quarter. The board approves a 2x increase in the content budget. The SEO program’s budget had been flat for three years under the previous traffic-based reporting model.
+**What this looks like in practice:** A $12M [ARR](/glossary/what-is-arr/) SaaS switches its monthly SEO report from a traffic dashboard to a pipeline contribution report showing organic SQLs, [organic CAC](/blogs/how-to-measure-organic-cac/), and pipeline-influenced attribution. In the first quarter with the new report, the CMO can demonstrate that organic search was a touchpoint in 64% of deals closed that quarter. The board approves a 2x increase in the content budget. The SEO program’s budget had been flat for three years under the previous traffic-based reporting model.
 
 What not to do
 
@@ -289,7 +289,7 @@ Most [SaaS SEO agencies](/list/best-saas-seo-agencies/) optimize for rankings. P
 - **[SEO strategy and roadmap:](/saas-seo-agency/)** we build pipeline-tied SEO roadmaps from scratch, including goal-setting, keyword architecture, content prioritization, and quarterly execution plans tied to your CRM, not a traffic dashboard
 - **Technical SEO:** we audit and fix the crawlability, rendering, and Core Web Vitals issues that prevent your content from ranking, and stay embedded through every site migration and platform change
 - **BOFU content creation:** we build the comparison pages, alternatives pages, and evaluation-stage content that converts organic traffic into demos and trials, before any awareness content is written
-- **Hub-and-spoke content architecture:** we design and execute full topic clusters that compound topical authority over time, giving your domain the coverage depth to rank across an entire category, not just individual terms
+- **Hub-and-spoke content architecture:** we design and execute full topic clusters that compound [topical authority](/blogs/how-to-improve-topical-authority/) over time, giving your domain the coverage depth to rank across an entire category, not just individual terms
 - **Link acquisition:** we build the benchmark reports, data assets, and free tools that earn authoritative backlinks at scale, without the agency practice of mass guest posting on irrelevant sites
 - **[Pipeline attribution and reporting:](/marketing-ops/)** we set up the UTM infrastructure, CRM integration, and pipeline-influenced attribution model that makes organic search’s contribution to revenue visible to your CFO and your board
 

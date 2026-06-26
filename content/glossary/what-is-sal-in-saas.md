@@ -114,7 +114,7 @@ If the conversation goes well, the lead moves to SQL status. If not wrong contac
 
 The SAL-to-SQL conversion rate is one of the most useful metrics in your funnel. If it’s low, you either have a discovery problem or your SAL criteria are too loose. If it’s high, your qualification is working.
 
-If you’re building out the broader acquisition side of this paid and organic working with a SaaS SEO agency or a [SaaS PPC](/saas-ppc/) team that understands pipeline stages means the leads they generate are more likely to pass SAL in the first place.
+If you’re building out the broader acquisition side of this paid and organic working with a SaaS [SEO](/glossary/what-is-seo/) agency or a [SaaS PPC](/saas-ppc/) team that understands pipeline stages means the leads they generate are more likely to pass SAL in the first place.
 
 ## The Bottom Line
 

@@ -59,7 +59,7 @@ The analysis covers four things:
 
 - **Your domain's topical footprint.** How many pages do you currently have that cover this topic cluster? How many rank in positions 1 to 20? What's the average position for those pages? That tells you where your [topical authority](/blogs/how-to-improve-topical-authority/) currently sits.
 - **The competing pages' link profiles.** Pull the top 10 ranking pages for the target keyword. Check each one's referring domains, DR of those domains, and how many links were earned recently versus accumulated over years. A page sitting on 800 links built over five years is a different challenge from a page that earned 50 high-quality links in the last year.
-- **Content depth and format.** What format are the top 10 using? Long-form pillar? Listicle? Tool-style comparison page? If 8 of the 10 are listicles, a 4,000-word narrative pillar is the wrong format. SERP format alignment is often the faster win, before authority even becomes the issue.
+- **Content depth and format.** What format are the top 10 using? Long-form pillar? Listicle? Tool-style [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/)? If 8 of the 10 are listicles, a 4,000-word narrative pillar is the wrong format. SERP format alignment is often the faster win, before authority even becomes the issue.
 - **Topical gaps in the current top 10.** This is your angle. Read the top 5 ranking pages carefully. What sub-topics do they miss or cover superficially? That's where your cluster can out-depth them. It earns citations, and becomes the reason newer links point to you instead of them.
 
 ## Step 2: Build the Cluster Before the Target Page Goes Live

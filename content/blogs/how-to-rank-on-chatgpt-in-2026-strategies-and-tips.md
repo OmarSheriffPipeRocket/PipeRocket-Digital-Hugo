@@ -61,9 +61,9 @@ The system might be hallucinating, or the live data it’s pulling from might ha
 
 ### **People think AEO / GEO is it’s own thing**
 
-Marketers love new acronyms. Now they’re talking about [Answer Engine Optimization](/glossary/what-is-aeo/) (AEO) and [Generative Engine](/list/best-saas-geo-agencies/ "Best SaaS GEO Agencies") Optimization (GEO)like it’s this separate department. It’s not. We view it as just another layer of your [SaaS SEO](/blogs/saas-seo/). There is no fundamental difference between optimizing for a keyword and optimizing for a prompt.
+Marketers love new acronyms. Now they’re talking about [Answer Engine Optimization](/glossary/what-is-aeo/) (AEO) and [Generative Engine](/list/best-saas-geo-agencies/ "Best SaaS GEO Agencies") Optimization ([GEO](/glossary/what-is-geo/))like it’s this separate department. It’s not. We view it as just another layer of your [SaaS SEO](/blogs/saas-seo/). There is no fundamental difference between optimizing for a keyword and optimizing for a prompt.
 
-If you ignore your top-of-funnel content because you’re “only doing AI SEO,” you’re going to fail. You need that authoritative content across the whole funnel because that’s where the context comes from. The AI needs to see that you know what you’re talking about at every stage.
+If you ignore your [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/) because you’re “only doing AI SEO,” you’re going to fail. You need that authoritative content across the whole funnel because that’s where the context comes from. The AI needs to see that you know what you’re talking about at every stage.
 
 ![The 5-step ChatGPT SEO process: 1) Master basic SaaS SEO foundations first, 2) Mine ICP prompts from sales calls and support tickets, 3) Restructure content to answer those prompts directly with question-based H2s and TL;DR summaries, 4) Fix indexing and brand-entity visibility across G2/Capterra/LinkedIn/Wikipedia, 5) Execute at scale across ChatGPT, Perplexity, Gemini, Copilot, and Claude.](/images/blog-infographics/chatgpt-seo-5-step-process.svg)
 

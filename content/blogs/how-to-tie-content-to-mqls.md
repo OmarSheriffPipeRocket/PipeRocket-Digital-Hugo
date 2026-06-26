@@ -105,7 +105,7 @@ Once you know which content makes MQLs, your content roadmap stops being a guess
 
 Concretely, that means three different jobs for three different findings:
 
-- **Strengthen the MQL-producers.** If five pages make most of your MQLs, those get your best CRO attention, your sharpest CTAs, and [internal links](/blogs/how-to-use-internal-linking/) pointing into them.
+- **Strengthen the MQL-producers.** If five pages make most of your MQLs, those get your best [CRO](/glossary/what-is-cro/) attention, your sharpest CTAs, and [internal links](/blogs/how-to-use-internal-linking/) pointing into them.
 - **Build feeders for them.** Map which audience-builders actually pass readers into your MQL pages and write more of those, not more of whatever happens to rank.
 - **Stop over-investing in dead traffic.** A page with huge sessions and zero MQL involvement isn't a priority, no matter how good the traffic chart looks.
 

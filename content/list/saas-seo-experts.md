@@ -254,7 +254,7 @@ Best for: AI-era, revenue-first SEO methodology.
 
 ### 7. Kamaraj "Kim" Mathiarasan
 
-Best for: B2B SaaS topical authority and BOFU-led organic growth.
+Best for: B2B SaaS [topical authority](/blogs/how-to-improve-topical-authority/) and BOFU-led organic growth.
 
 Kim is Co-Founder of [PipeRocket Digital](/saas-seo-agency/) and the SEO lead behind our organic programs. With 15+ years in SEO, he built our model around one idea: organic should produce pipeline, not just traffic. (Full disclosure — he's our co-founder, and we've placed him mid-list rather than at the top.)
 

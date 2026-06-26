@@ -394,7 +394,7 @@ The Report Builder is functional for SEO data but limited for multi-channel mark
 
 - Reporting limited to SEO-native data: no native paid social or email channel integration
 - Agency Pack ($69/mo add-on) required for full agency workflow including lead generation widget
-- Smaller keyword database than enterprise SEO platforms
+- Smaller keyword database than [enterprise SEO platforms](/list/best-enterprise-seo-software/)
 
 **Our Take**
 

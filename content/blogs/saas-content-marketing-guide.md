@@ -168,7 +168,7 @@ Distribution and promotion for SaaS content is the process of getting your conte
 
 Search is where most SaaS research begins, so [SEO](/blogs/saas-seo/) should anchor your distribution plan.
 
-- Fix on-page basics: titles, H1s, [meta descriptions](/glossary/what-is-a-meta-description/), [alt text](/glossary/what-is-image-alt-text/), internal links.
+- Fix on-page basics: titles, H1s, [meta descriptions](/glossary/what-is-a-meta-description/), [alt text](/glossary/what-is-image-alt-text/), [internal links](/blogs/how-to-use-internal-linking/).
 - Build topic clusters and pillar pages around core problems and use cases.
 
 According to Gartner’s 2026 B2B Sales Survey, [67% of B2B buyers](https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience) now prefer a rep-free buying experience, meaning they rely heavily on search, online content, and AI-driven results, making organic visibility essential.
@@ -284,7 +284,7 @@ You measure ROI by tracking how content influences trials, demos, product usage,
 
 ### **3. Which content formats work best for SaaS companies at different funnel stages?**
 
-Top-of-funnel works best with educational blogs, “how-to” guides, and comparison content. Mid-funnel performs well with case studies, product walkthroughs, and buying guides. Bottom-of-funnel benefits from ROI pages, demos, and feature explainers. Post-purchase growth comes from onboarding guides, tutorials, and customer success content that helps users adopt more features.
+Top-of-funnel works best with educational blogs, “how-to” guides, and comparison content. Mid-funnel performs well with case studies, product walkthroughs, and buying guides. [Bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) benefits from ROI pages, demos, and feature explainers. Post-purchase growth comes from onboarding guides, tutorials, and customer success content that helps users adopt more features.
 
 ### **4. How often should a SaaS company publish content and how do we scale production?**
 

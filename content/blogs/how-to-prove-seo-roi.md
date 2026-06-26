@@ -139,7 +139,7 @@ The fastest way to lose a finance team's trust is a number that's technically tr
 
 ### Reporting Traffic Value as ROI
 
-SEO tools will tell you your organic traffic is "worth $80,000 in equivalent ad spend." Finance learned to ignore that line years ago: it's a hypothetical, not money in the bank, and it assumes you'd have bought the traffic at full CPC, which no one would. Keep it out of the ROI case, or at most park it in the appendix as a directional brand metric.
+SEO tools will tell you your organic traffic is "worth $80,000 in equivalent ad spend." Finance learned to ignore that line years ago: it's a hypothetical, not money in the bank, and it assumes you'd have bought the traffic at full [CPC](/glossary/what-is-cost-per-click/), which no one would. Keep it out of the ROI case, or at most park it in the appendix as a directional brand metric.
 
 ### Counting Assisted Conversions as Direct
 

@@ -532,7 +532,7 @@ Run both. SEO compounds over 6-12 month research cycles; paid drives near-term p
 
 ### How do edtech marketing agencies measure success beyond lead volume?
 
-Mature agencies report on marketing-sourced pipeline, sales cycle velocity, multi-touch attribution, and revenue influence, not MQL counts.
+Mature agencies report on marketing-sourced pipeline, sales cycle velocity, [multi-touch attribution](/blogs/how-to-set-up-multi-touch-attribution/), and revenue influence, not MQL counts.
 
 ### What questions should I ask when evaluating an edtech marketing agency?
 

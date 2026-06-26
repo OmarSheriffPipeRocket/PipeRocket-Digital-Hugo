@@ -264,7 +264,7 @@ KeyClusters uses a credit-based model with no monthly commitment required. Pay-a
 
 Best for: SaaS SEO teams already on Ahrefs who want the fastest large-scale keyword clustering natively integrated with backlink and SERP data.
 
-[Ahrefs Keywords Explorer](https://ahrefs.com/keywords-explorer) is the keyword research module inside Ahrefs, one of the two dominant enterprise SEO platforms. Keyword clustering was added as a native feature and uses Ahrefs's proprietary Parent Topic metric to group keywords by the highest-traffic page they share. Clustering requires the Standard plan ($249/mo) or above.
+[Ahrefs Keywords Explorer](https://ahrefs.com/keywords-explorer) is the keyword research module inside Ahrefs, one of the two dominant [enterprise SEO platforms](/list/best-enterprise-seo-software/). Keyword clustering was added as a native feature and uses Ahrefs's proprietary Parent Topic metric to group keywords by the highest-traffic page they share. Clustering requires the Standard plan ($249/mo) or above.
 
 **At a Glance**
 
@@ -315,7 +315,7 @@ Keyword clustering is a feature of Ahrefs Keywords Explorer, available on Standa
 
 ### 6. Surfer SEO (Topical Map)
 
-Best for: SaaS content marketing teams building topical authority strategies who want an integrated map-to-publish workflow in one tool.
+Best for: SaaS content marketing teams building [topical authority](/blogs/how-to-improve-topical-authority/) strategies who want an integrated map-to-publish workflow in one tool.
 
 [Surfer SEO](https://surferseo.com/) is a content optimization platform that added a Topical Map feature to its core NLP-driven Content Editor workflow. The Topical Map generates a visual cluster of content topics designed to help a site build topical authority in a niche: it is a planning and gap-analysis tool rather than a traditional keyword grouper. Entry price is $49/mo on the Discovery plan.
 
@@ -333,7 +333,7 @@ Best for: SaaS content marketing teams building topical authority strategies who
 
 - Topical Map generates a visual cluster of content topics to build topical authority in a niche
 - Identifies content gaps: topics your site is missing relative to competitors
-- Cannibalization Report to detect keyword overlap across existing pages
+- [Cannibalization](/blogs/how-to-fix-keyword-cannibalization/) Report to detect keyword overlap across existing pages
 
 **Standout feature:** The Cannibalization Report is the most operationally useful feature on this list for SaaS teams with existing content libraries. Rather than only planning new clusters, it audits current pages for keyword overlap: a problem that affects almost every SaaS site that has published content without a clustering framework.
 

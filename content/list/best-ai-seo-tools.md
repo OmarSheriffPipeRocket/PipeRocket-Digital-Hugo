@@ -418,7 +418,7 @@ Surfer SEO uses annual-only pricing for the rates below. Monthly billing is high
 
 Best for: Enterprise SaaS programs (Series C+ or post-IPO) that need custom keyword segmentation, large-scale technical content auditing, and a dedicated customer success team acting as an extension of in-house SEO.
 
-[seoClarity](https://www.seoclarity.net/) is a custom-priced enterprise SEO platform with a $2,500/mo floor on its Research and Content package. Clarity Grid AI powers automated insights and recommendations; ArcAI handles AI search visibility and GEO monitoring; ContentIQ automates large-scale technical content analysis. It's purpose-built for programs running thousands of keyword clusters across multiple domains.
+[seoClarity](https://www.seoclarity.net/) is a custom-priced [enterprise SEO platform](/list/best-enterprise-seo-software/) with a $2,500/mo floor on its Research and Content package. Clarity Grid AI powers automated insights and recommendations; ArcAI handles AI search visibility and GEO monitoring; ContentIQ automates large-scale technical content analysis. It's purpose-built for programs running thousands of keyword clusters across multiple domains.
 
 **Platform Overview**
 

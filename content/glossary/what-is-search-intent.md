@@ -33,7 +33,7 @@ Here's where most SaaS teams get this wrong. They research keywords, find volume
 
 - **[Informational intent](/glossary/what-is-an-informational-keyword/):** The searcher wants to learn. "What is MRR," "how does SaaS billing work." Best matched with educational content like glossary entries and how-to guides.
 - **Navigational intent:** The searcher wants a specific site or page. "Stripe login," "HubSpot blog." Usually your own brand searches or a competitor's. No content strategy needed here.
-- **[Commercial intent](/glossary/what-is-a-commercial-keyword/):** The searcher is researching before a decision. "Best CRM for SaaS," "Intercom alternatives." Best matched with comparison pages, listicles, and alternative pages.
+- **[Commercial intent](/glossary/what-is-a-commercial-keyword/):** The searcher is researching before a decision. "Best CRM for SaaS," "Intercom alternatives." Best matched with [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), listicles, and alternative pages.
 - **[Transactional intent](/glossary/what-is-a-transactional-keyword/):** The searcher is ready to act. "Buy Salesforce," "Intercom free trial." Best matched with product pages, pricing pages, and conversion-focused landing pages.
 
 Consider a SaaS built for legal operations teams. The keyword "contract management" is mostly informational. "Contract management software comparison" is commercial. Building an informational blog post to rank for the second query is a mismatch Google penalises by ranking a comparison page ahead of yours.
@@ -48,7 +48,7 @@ Before you write anything, look at the top three ranking pages for your target k
 
 ## Why Does Intent Mismatch Kill Rankings?
 
-You can have the best-written, most technically sound page in your category and still fail to rank if the format doesn't match intent. This is the part even experienced teams misapply, because intent mismatch is invisible until you look at the SERP.
+You can have the best-written, most technically sound page in your category and still fail to rank if the format doesn't match intent. This is the part even experienced teams misapply, because intent mismatch is invisible until you look at the [SERP](/glossary/what-is-serp/).
 
 Google uses click behaviour to validate its ranking decisions. If users click your result and immediately bounce back to search, Google reads that as a signal your page didn't satisfy the intent. It moves your ranking down. A page with lower technical quality but higher intent match consistently outranks it.
 
@@ -85,7 +85,7 @@ Intent is the architecture behind a SaaS content strategy. Without it, you end u
 
 If you're wondering why your traffic grows while pipeline stays flat, intent mismatch is usually the answer. The content attracts the top of the funnel, but the commercial and transactional queries that capture ready buyers are either missing or poorly executed.
 
-- **Informational content builds topical authority:** Blog posts, glossary entries, and how-to guides establish your domain's credibility in a topic area. They help your commercial pages rank.
+- **Informational content builds [topical authority](/blogs/how-to-improve-topical-authority/):** Blog posts, glossary entries, and how-to guides establish your domain's credibility in a topic area. They help your commercial pages rank.
 - **Commercial content captures active evaluators:** Comparison pages, alternative pages, and listicles intercept buyers ready to choose. These drive demo requests and trial signups.
 - **Transactional content converts:** Pricing pages, landing pages, and free trial pages serve the buyer who already wants to act. Their job is conversion, not education.
 - **Intent mapping prevents [keyword cannibalization](/blogs/how-to-fix-keyword-cannibalization/):** Assigning each intent tier to specific page types stops two pages competing for the same query.
@@ -109,8 +109,8 @@ Intent can shift as markets evolve, new products emerge, or searcher behaviour c
 
 ### 3. Should I target high-intent or low-intent keywords first for a new SaaS site?
 
-For a new site with low domain authority, start with informational keywords. They're less competitive, help you build topical authority, and create the ranking foundation that makes commercial keywords achievable later. Targeting transactional keywords with zero domain authority on a brand-new site is frustrating. You'll be outranked by established players for months while generating no traffic. Build the authority base first, then move down the funnel.
+For a new site with low [domain authority](/glossary/what-is-domain-authority/), start with informational keywords. They're less competitive, help you build topical authority, and create the ranking foundation that makes commercial keywords achievable later. Targeting transactional keywords with zero domain authority on a brand-new site is frustrating. You'll be outranked by established players for months while generating no traffic. Build the authority base first, then move down the funnel.
 
 ## The Bottom Line
 
-Search intent is the question you answer before any other SEO decision. Get it right and everything downstream falls into place. Get it wrong and even perfect content won't rank. Want a content strategy built around intent? [Get in touch](https://piperocket.digital/contact-us/) or see how our [SaaS SEO services](https://piperocket.digital/saas-seo-agency/) approach it.
+Search intent is the question you answer before any other [SEO](/glossary/what-is-seo/) decision. Get it right and everything downstream falls into place. Get it wrong and even perfect content won't rank. Want a content strategy built around intent? [Get in touch](https://piperocket.digital/contact-us/) or see how our [SaaS SEO services](https://piperocket.digital/saas-seo-agency/) approach it.

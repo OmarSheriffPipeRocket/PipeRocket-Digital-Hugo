@@ -96,7 +96,7 @@ Most content roadmaps start with the highest-volume terms at the top and work th
 
 - ICP mapping: Start by listing your ideal customer profiles, then map each to the use cases and features most relevant to them.
 - Bottom-funnel focus: Prioritize keywords that signal purchase intent think “best SaaS for X,” “X software with Y feature,” or “how to solve Z problem.”
-- Content clusters: Build clusters of long tail pages around one pillar page to create topical authority and internal linking power.
+- Content clusters: Build clusters of long tail pages around one pillar page to create [topical authority](/blogs/how-to-improve-topical-authority/) and internal linking power.
 - Ongoing review: Review performance quarterly, pruning micro-pages that don’t drive signups and doubling down on those that do.
 - Cross-team alignment: Sync with sales and product teams to ensure your content answers real buyer questions not just what the SEO tool spits out.
 

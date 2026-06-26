@@ -76,7 +76,7 @@ To prove this isn’t just theory, let me share a case study regarding a client 
 
 ## **Checkbox 3: Map Your Content to Topics, Not Just Keywords**
 
-A common failure point I see in [SaaS SEO](/blogs/saas-seo/) is keyword cannibalization. Marketers find a list of 100 to 200 keywords and think they need 100 to 200 pages.
+A common failure point I see in [SaaS SEO](/blogs/saas-seo/) is keyword [cannibalization](/blogs/how-to-fix-keyword-cannibalization/). Marketers find a list of 100 to 200 keywords and think they need 100 to 200 pages.
 
 Let’s look at an example in the procurement space. You might see keywords like:
 
@@ -167,7 +167,7 @@ This detailed reporting allows us to set specific benchmarks based on page type.
 - **Alternative Pages (e.g., “ClickUp Alternative”):** These are high intent. We expect a **3% to 4% conversion rate**.
 - **General Top-of-Funnel Pages:** We might only aim for a **0.75% conversion rate** on asset downloads.
 
-If you judge a blog post by the same metrics as a high-intent comparison page, you will make bad decisions. By tracking pipeline progression weekly by page type, we know exactly where to double down and where to cut back.
+If you judge a blog post by the same metrics as a high-intent [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/), you will make bad decisions. By tracking pipeline progression weekly by page type, we know exactly where to double down and where to cut back.
 
 ## **Checkbox 7: Check the Crawlability (Technical SEO)**
 

@@ -23,7 +23,7 @@ Anchor text is the visible, clickable text in a hyperlink what users see and cli
 - Anchor text is the clickable text in a hyperlink that tells users and search engines what to expect on the destination page.
 - Over-optimized or misleading anchor text can trigger Google penalties or confuse users, hurting trust and site rankings.
 - Exact match anchor text should make up less than 10% of your internal and external links to avoid spam signals.
-- Anchor text variety using branded, partial-match, and descriptive phrases strengthens topical authority and natural linking patterns.
+- Anchor text variety using branded, partial-match, and descriptive phrases strengthens [topical authority](/blogs/how-to-improve-topical-authority/) and natural linking patterns.
 - SaaS companies with rigorous anchor text practices see faster rank improvements and fewer manual SEO penalties than those who ignore it.
 
 ## What Is Anchor Text and Why Does It Matter in SEO?
@@ -113,7 +113,7 @@ Optimizing anchor text isn’t a one-and-done project it’s a recurring check t
 
 - Inventory all anchors: Use tools like Ahrefs, Semrush, or Google Search Console to export internal and external anchor text distributions.
 - Spot overuse patterns: Flag any anchor phrase that appears in more than 10% of your total links especially if it’s an exact match keyword.
-- Align anchors with topic clusters: Group related pages and vary anchor text within each cluster to avoid cannibalization.
+- Align anchors with topic clusters: Group related pages and vary anchor text within each cluster to avoid [cannibalization](/blogs/how-to-fix-keyword-cannibalization/).
 - Update old content: Refresh legacy blog posts and resource pages with more descriptive, intent-matching anchor text.
 - Test and iterate: Track which anchor text variations correlate with ranking or conversion lifts, and double down on what works.
 
@@ -131,7 +131,7 @@ Most SEO experts recommend keeping exact match anchor text below 10% of your tot
 
 ### Does anchor text affect internal links and external links differently?
 
-Yes internal links can use more descriptive or keyword-rich anchor text since you control the context and destination. External links, especially backlinks from other sites, should look natural with a mix of branded, partial-match, and generic anchors. Over-optimized anchor text on external links is a common trigger for manual actions from Google.
+Yes [internal links](/blogs/how-to-use-internal-linking/) can use more descriptive or keyword-rich anchor text since you control the context and destination. External links, especially backlinks from other sites, should look natural with a mix of branded, partial-match, and generic anchors. Over-optimized anchor text on external links is a common trigger for manual actions from Google.
 
 ### Can using the same anchor text hurt my rankings?
 

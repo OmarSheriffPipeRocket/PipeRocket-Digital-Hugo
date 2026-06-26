@@ -77,18 +77,18 @@ Governance requires two things: written standards that define the correct config
 
 ## Challenge 3: Content Architecture Across Multiple Products and ICPs
 
-Enterprise SaaS companies rarely sell one product to one buyer. Building a content library that serves all dimensions without cannibalizing itself or confusing Google about topical authority is one of the hardest structural challenges in [enterprise SEO](/blogs/enterprise-seo-guide/).
+Enterprise SaaS companies rarely sell one product to one buyer. Building a content library that serves all dimensions without cannibalizing itself or confusing Google about [topical authority](/blogs/how-to-improve-topical-authority/) is one of the hardest structural challenges in [enterprise SEO](/blogs/enterprise-seo-guide/).
 
 The most common content architecture failures at enterprise scale:
 
 - **Keyword cannibalization:** two pages on the same domain targeting the same query. Google picks one, often not the one you want, and both pages underperform as a result
 - **Missing funnel coverage:** deep awareness content with no BOFU layer, so enterprise buyers who are ready to evaluate vendors find a competitor’s comparison page instead of yours
 - **No vertical specificity:** generic “enterprise software” positioning with no industry-specific pages, missing the high-converting intent of buyers searching for solutions in their specific context
-- **Unconnected content clusters:** blog posts about related topics with no internal linking structure and no pillar page tying them together as a coherent authority signal
+- **Unconnected content clusters:** blog posts about related topics with no [internal linking](/blogs/how-to-use-internal-linking/) structure and no pillar page tying them together as a coherent authority signal
 
 Our [SaaS SEO strategies guide](/blogs/saas-seo-strategies-and-framework/) covers the [ICP](/glossary/what-is-icp/)-to-keyword mapping process that underlies clean enterprise content architecture.
 
-**What this looks like in practice:** An enterprise legal SaaS has 180 published articles about contract management, compliance, and legal operations, none of which link to each other in any structured way. A content architecture audit reveals 23 instances of keyword cannibalization and 60 articles with no internal links pointing toward conversion pages. A four-month rebuild with no new content adds hub-and-spoke structure, resolves cannibalization, and adds conversion-directed internal links throughout. Organic SQLs from that content library increase 40% over the following two quarters.
+**What this looks like in practice:** An enterprise legal SaaS has 180 published articles about contract management, compliance, and legal operations, none of which link to each other in any structured way. A content architecture audit reveals 23 instances of keyword [cannibalization](/blogs/how-to-fix-keyword-cannibalization/) and 60 articles with no internal links pointing toward conversion pages. A four-month rebuild with no new content adds hub-and-spoke structure, resolves cannibalization, and adds conversion-directed internal links throughout. Organic SQLs from that content library increase 40% over the following two quarters.
 
 ## Challenge 4: Crawl Budget Inefficiency at Enterprise Scale
 
@@ -121,7 +121,7 @@ The fix requires a crawl budget audit that identifies which URL patterns are con
 
 ## Challenge 6: Attribution and Pipeline Reporting at Enterprise Scale
 
-Enterprise SaaS buying cycles are long. A buyer might find a blog post through organic search in month one, attend a webinar in month two, read three comparison pages in month three, and book a demo in month four after receiving an SDR sequence. Under last-touch attribution, the SDR sequence gets all the credit. Neither first-touch nor last-touch captures the full role organic played.
+Enterprise SaaS buying cycles are long. A buyer might find a blog post through organic search in month one, attend a webinar in month two, read three [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) in month three, and book a demo in month four after receiving an SDR sequence. Under last-touch attribution, the SDR sequence gets all the credit. Neither first-touch nor last-touch captures the full role organic played.
 
 This attribution gap is one of the primary reasons enterprise SEO programs get underfunded. The channel is contributing pipeline it is never receiving credit for.
 
@@ -131,9 +131,9 @@ This attribution gap is one of the primary reasons enterprise SEO programs get u
 | UTM hygiene | Consistent UTM parameters across all organic touchpoints so sessions are accurately categorized |
 | Lifecycle stage tracking | Contact records updated at each stage so the path from organic first-touch to SQL is visible |
 | Pipeline-influenced reporting | A report showing all opportunities where organic was any touchpoint, not just first or last |
-| Organic CAC calculation | Total SEO spend divided by organic-sourced customers, benchmarked against paid CAC |
+| [Organic CAC](/blogs/how-to-measure-organic-cac/) calculation | Total SEO spend divided by organic-sourced customers, benchmarked against paid CAC |
 
-This is a [B2B marketing operations](/blogs/b2b-marketing-operations-guide/) problem as much as it is an SEO problem. The CRM configuration, the data governance, and the reporting infrastructure that make multi-touch attribution reliable require RevOps ownership, not just marketing intent.
+This is a [B2B marketing operations](/blogs/b2b-marketing-operations-guide/) problem as much as it is an SEO problem. The CRM configuration, the data governance, and the reporting infrastructure that make [multi-touch attribution](/blogs/how-to-set-up-multi-touch-attribution/) reliable require RevOps ownership, not just marketing intent.
 
 **What this looks like in practice:** An enterprise cybersecurity SaaS builds a pipeline-influenced attribution report for the first time after a RevOps engagement. The data shows that 74% of opportunities closed in the last two quarters had at least one organic content touchpoint in the 60 days before entering the sales cycle. Under last-touch attribution, SEO had received credit for 9% of pipeline. The CMO presents the data to the board and receives approval for a 3x increase in content investment.
 
@@ -144,7 +144,7 @@ Enterprise SaaS companies publishing at scale face a content quality problem tha
 What enterprise SaaS teams do to maintain content quality at scale:
 
 - **ICP interview integration:** before briefing any content piece, interview one or two customers or prospects who represent the target ICP. Their language and specific pain points make the content impossible to replicate from a keyword brief alone
-- **Perspective requirements:** every content brief specifies a point of view the piece must take, not just topics it must cover
+- **Perspective requirements:** every [content brief](/blogs/how-to-write-seo-content-brief/) specifies a point of view the piece must take, not just topics it must cover
 - **Subject matter expert review:** for technical topics, every published piece is reviewed by someone who has actually done the work, not just someone who can describe it
 - **Data integration:** wherever the company’s own product data, client results, or industry research can support a claim, it goes into the content. First-party data is the single strongest differentiator from AI-generated commodity content
 

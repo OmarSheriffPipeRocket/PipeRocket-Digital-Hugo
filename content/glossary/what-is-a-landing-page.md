@@ -76,7 +76,7 @@ Imagine a compliance automation tool for fintech startups. Its ad says "SOC 2 in
 
 Yes, and for SaaS this is one of the most underused plays. Most teams build landing pages for paid campaigns, set them to noindex, and never think about organic. Meanwhile their competitors rank dedicated pages for "best X software for Y" queries and collect high-intent traffic without paying per click.
 
-A landing page built for [search intent](/glossary/what-is-search-intent/) looks a little different from a pure paid page. It needs enough real content for Google to understand and trust it, plus internal links so it isn't an orphan. But the core stays the same: one audience, one offer, one action.
+A landing page built for [search intent](/glossary/what-is-search-intent/) looks a little different from a pure paid page. It needs enough real content for Google to understand and trust it, plus [internal links](/blogs/how-to-use-internal-linking/) so it isn't an orphan. But the core stays the same: one audience, one offer, one action.
 
 - **Index it deliberately:** Pure ad variants can stay noindexed, but your evergreen use-case and solution pages should be crawlable and linked.
 - **Write for the query:** Match the page to what the searcher typed, the same message-match rule that governs paid.
@@ -108,7 +108,7 @@ A quick warning from experience: testing works when the page gets meaningful tra
 
 ### 1. How many landing pages does a SaaS company actually need?
 
-More than most have, fewer than the "one per keyword" advice suggests. A workable starting set is one page per core campaign type: a demo page and a trial page, plus a page per major use case or persona you actively advertise to. Add competitor comparison pages as paid campaigns justify them. The real signal is your ad account: any ad group spending meaningful budget deserves a page that matches its message.
+More than most have, fewer than the "one per keyword" advice suggests. A workable starting set is one page per core campaign type: a demo page and a trial page, plus a page per major use case or persona you actively advertise to. Add competitor [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) as paid campaigns justify them. The real signal is your ad account: any ad group spending meaningful budget deserves a page that matches its message.
 
 ### 2. What's a realistic conversion rate for a SaaS landing page?
 

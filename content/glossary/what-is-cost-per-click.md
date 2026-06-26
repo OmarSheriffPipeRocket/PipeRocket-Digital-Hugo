@@ -66,7 +66,7 @@ Here’s the real trap: most SaaS marketers obsess over lowering CPC as if a che
 
 - Intent dilution: Cheaper clicks often come from less relevant queries or audiences, meaning more work for your sales team and lower close rates.
 - Higher downstream CAC: If your clicks don’t convert, every “cheap” click makes your eventual customer acquisition cost skyrocket.
-- Paid search cannibalization: Bidding on broad, low-CPC terms can steal organic traffic or compete with other high-value campaigns.
+- Paid search [cannibalization](/blogs/how-to-fix-keyword-cannibalization/): Bidding on broad, low-CPC terms can steal organic traffic or compete with other high-value campaigns.
 - Channel bias: Teams often shift budget to channels with lower CPC but ignore the actual revenue impact Linked In costs more, but those clicks can be 3 5x more valuable than Facebook.
 - Quality vs quantity: More clicks look good in a dashboard, but if the conversion rate drops, you’re paying more for less.
 

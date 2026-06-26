@@ -35,7 +35,7 @@ That is a massive chunk of the world.So, while we are absolutely preparing for a
 
 ## Do Not Go the Usual SaaS Keyword Research Route: Here’s Why
 
-If I asked you to sit down and do keyword research for SaaS SEO right now, you would probably follow the standard playbook we all learned. You know the one. It usually looks something like this:
+If I asked you to sit down and do [keyword research](/glossary/what-is-keyword-research/) for SaaS SEO right now, you would probably follow the standard playbook we all learned. You know the one. It usually looks something like this:
 
 1. You open a notes app or Excel sheet.
 2. You write down the category terms you *think* are relevant. For example, if you are in the GRC (Governance, Risk, and Compliance) space, you write “GRC software,” “GRC tools,” and “GRC pricing”.

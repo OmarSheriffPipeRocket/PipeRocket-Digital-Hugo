@@ -70,7 +70,7 @@ Third-party listicles are probably the most direct signal. If Google sees your b
 Unlinked brand mentions matter too. These all feed the same trust signal, and Google aggregates them:
 
 - A Reddit thread where someone recommends your tool
-- A comparison page on a SaaS review site
+- A [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) on a SaaS review site
 - A G2 profile with real reviews
 
 The compounding effect is real. Building off-page presence is slow, but once it's there, it reinforces every on-page insert you make. The two layers work together. Build on-page alone and Google may not trust the source enough to cite it.
@@ -88,7 +88,7 @@ This is the most effective thing I've found for getting cited. It sounds simple 
 
 ### Step 1: Search your target query and read the AIO
 
-Open an incognito window and run the query you want to rank for. Look at the AI Overview if one fires. Don't just skim it. Read it carefully and ask: what answer format is AIO using?
+Open an incognito window and run the query you want to rank for. Look at the [AI Overview](/glossary/what-is-an-ai-overview/) if one fires. Don't just skim it. Read it carefully and ask: what answer format is AIO using?
 
 The common formats are:
 

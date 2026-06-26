@@ -13,7 +13,7 @@ toc: true
 readingTime: "10 min read"
 ---
 
-AEO (Answer Engine Optimization) is the practice of structuring content so search engines and AI assistants can extract it as the direct answer to a question. Instead of competing for a click, you're competing to be the passage an [AI Overview](/glossary/what-is-an-ai-overview/), a featured snippet, or a chatbot pulls and shows.
+AEO ([Answer Engine Optimization](/blogs/how-to-do-geo-for-saas/)) is the practice of structuring content so search engines and AI assistants can extract it as the direct answer to a question. Instead of competing for a click, you're competing to be the passage an [AI Overview](/glossary/what-is-an-ai-overview/), a featured snippet, or a chatbot pulls and shows.
 
 ## TL;DR
 
@@ -73,11 +73,11 @@ Under the hood, the engine matches the user's question against passages, not who
 - **Directness:** The answer appears in the first sentence after the question, not after a wind-up. Engines penalize throat-clearing.
 - **Completeness in small space:** Roughly 40 to 60 words that fully resolve the question score best for snippet extraction.
 - **Format match:** Definition questions want a paragraph. "How to" questions want steps. "Best X" questions want a list. Match the shape the engine expects.
-- **Page trust:** Topical authority and links still decide which pages are in the candidate pool at all.
+- **Page trust:** [Topical authority](/blogs/how-to-improve-topical-authority/) and links still decide which pages are in the candidate pool at all.
 
 Picture a compliance automation SaaS with the best explanation of SOC 2 evidence collection on the internet, written as one flowing 800-word essay. The engine can't lift anything from it. A weaker competitor with a question heading and a crisp four-sentence answer gets shown instead.
 
-This is the trade-off worth naming. Writing for extraction gives you answer placements, but it can flatten your voice if you apply it everywhere. It's worth it on informational pages built to capture questions. On BOFU comparison pages, persuasion still beats extractability, so don't sterilize those.
+This is the trade-off worth naming. Writing for extraction gives you answer placements, but it can flatten your voice if you apply it everywhere. It's worth it on informational pages built to capture questions. On BOFU [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), persuasion still beats extractability, so don't sterilize those.
 
 > **Fast Fact:** Organic search drives 37x more SaaS leads than AI search tools, yet most teams treat them as equal channels.
 

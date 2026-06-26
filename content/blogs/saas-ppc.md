@@ -256,7 +256,7 @@ The fastest way to filter a SaaS PPC agency is to ask about their kill criteria.
 
 A few more things worth checking before you sign:
 
-- **Do they report to pipeline, or to clicks?** If it's CTR and impressions instead of trials, SQLs, and CAC, keep looking.
+- **Do they report to pipeline, or to clicks?** If it's [CTR](/glossary/what-is-ctr/) and impressions instead of trials, SQLs, and CAC, keep looking.
 - **Have they run SaaS specifically?** SaaS PPC lives or dies on trial-to-paid and activation, not raw lead volume. Generalists optimise for the wrong number.
 - **Who actually touches the account?** A senior strategist in the pitch and a junior on the account after signing is the oldest trick in the book.
 

@@ -97,7 +97,7 @@ Broken links are a credibility problem and outdated sources are an E-E-A-T probl
 
 - Use Screaming Frog or Ahrefs to surface broken internal and external links fast
 - Replace outdated external references with current, authoritative sources
-- Build a simple content map to spot internal linking gaps across your library
+- Build a simple content map to spot [internal linking](/blogs/how-to-use-internal-linking/) gaps across your library
 
 ### **Question 4: Is Your Content Easy to Read?**
 
@@ -137,7 +137,7 @@ Google’s quality guidelines place heavy emphasis on Experience, Expertise, Aut
 
 ### **Question 7: Are You Covering Secondary Keywords?**
 
-Most content gets written around a single primary keyword, and secondary keywords get completely ignored. This is a massive missed opportunity because secondary keywords are how you expand a single piece’s ranking surface area without writing new content.
+Most content gets written around a single primary keyword, and [secondary keywords](/blogs/how-to-do-saas-seo-keyword-research/) get completely ignored. This is a massive missed opportunity because secondary keywords are how you expand a single piece’s ranking surface area without writing new content.
 
 A post that ranks for 20 secondary keywords instead of two is doing the work of multiple articles. Multiply that across a library of 50 to 100 pieces, and the compounding traffic impact is enormous.
 
@@ -209,7 +209,7 @@ A core update is the clearest "audit now" signal there is. Google's core updates
 
 ### **When Your Organic Traffic Is Stale**
 
-Your traffic might look stable and everything could feel fine. What’s actually happening is your existing content has hit its ceiling, and new content isn’t breaking through because your site has topical authority gaps that haven’t been addressed. Once the audit flags those decaying pages, a structured [content refresh](/blogs/how-to-refresh-content-rankings/) is how you recover the lost rankings.
+Your traffic might look stable and everything could feel fine. What’s actually happening is your existing content has hit its ceiling, and new content isn’t breaking through because your site has [topical authority](/blogs/how-to-improve-topical-authority/) gaps that haven’t been addressed. Once the audit flags those decaying pages, a structured [content refresh](/blogs/how-to-refresh-content-rankings/) is how you recover the lost rankings.
 
 **What an audit tells you:**
 

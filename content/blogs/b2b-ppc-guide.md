@@ -68,7 +68,7 @@ Organise your keyword universe into three tiers before building anything.
 
 - **BOFU keywords** signal active buying intent — things like “[competitor] alternative” or “b2b project management software pricing.” These get the largest share of your budget, roughly 60%, because the buyer is already in evaluation mode
 - **MOFU keywords** come from buyers who know they have a problem and are researching solutions. These feed gated content offers and nurture sequences, and typically get around 30% of budget
-- **TOFU keywords** are broad and educational, with low purchase intent. Cap spend here at around 10% and use it primarily to build remarketing audiences rather than generate direct leads
+- **[TOFU keywords](/blogs/how-to-rank-tofu-keywords-saas/)** are broad and educational, with low purchase intent. Cap spend here at around 10% and use it primarily to build remarketing audiences rather than generate direct leads
 
 ### Build Keyword Themes Around Buyer Roles, Not Product Features
 

@@ -22,7 +22,7 @@ Crawling is the process search engines use to discover and read web pages by fol
 - Crawling is how search engine bots discover pages by following links, and it happens before indexing or ranking can occur.
 - Blocking crawlers with a misconfigured robots.txt file is one of the most common and damaging [technical SEO](/glossary/what-is-technical-seo/) mistakes SaaS teams make.
 - Crawl budget matters most for large sites Googlebot won’t crawl every page, so low-value pages compete with important ones for attention.
-- Internal linking is the most direct way to signal which pages matter most and ensure bots find them reliably.
+- [Internal linking](/blogs/how-to-use-internal-linking/) is the most direct way to signal which pages matter most and ensure bots find them reliably.
 - Crawling and indexing are separate steps a page can be crawled but never indexed if it has quality or signal problems.
 
 ## What Is Crawling in SEO?

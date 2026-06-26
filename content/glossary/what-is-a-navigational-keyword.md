@@ -47,14 +47,14 @@ The practical point: navigational keywords are less about acquisition and more a
 
 ## How Do You Identify a Navigational Keyword?
 
-The clearest signal is a brand name in the query. If the search includes a specific company, product, or site name, and the searcher clearly wants to reach it, the keyword is navigational. The SERP confirms it, because the brand's own pages dominate the results.
+The clearest signal is a brand name in the query. If the search includes a specific company, product, or site name, and the searcher clearly wants to reach it, the keyword is navigational. The [SERP](/glossary/what-is-serp/) confirms it, because the brand's own pages dominate the results.
 
 Navigational queries also tend to have very high click-through rates on the top result, since there's usually one correct destination. When you see a single domain owning almost all the clicks for a query, you're looking at navigational intent.
 
 - **Brand presence:** A specific brand, product, or site name in the query is the strongest signal.
 - **SERP dominance:** If one domain owns the top several results, the query is navigational.
 - **Utility modifiers:** "Login," "sign in," "download," "docs," "support" attached to a brand confirm navigational intent.
-- **High top-result CTR:** Navigational queries send most clicks to one result, because the searcher has a single destination in mind.
+- **High top-result [CTR](/glossary/what-is-ctr/):** Navigational queries send most clicks to one result, because the searcher has a single destination in mind.
 
 A team auditing "Loopflow vs competitor" would find [commercial intent](/glossary/what-is-a-commercial-keyword/), but "Loopflow login" is purely navigational. The difference matters, because the first is a content opportunity and the second is a brand-defense check to make sure your own page ranks first.
 
@@ -90,7 +90,7 @@ The takeaway: navigational keywords are a control and positioning exercise, not 
 
 ## How Do Navigational Keywords Affect Your SEO Reporting?
 
-Navigational keywords quietly distort SEO reports when nobody separates them out. Branded navigational traffic comes from people who already know you, so it reflects existing demand, not new reach. Lump it in with everything else and a strong brand can mask weak performance on the queries that win buyers.
+Navigational keywords quietly distort [SEO](/glossary/what-is-seo/) reports when nobody separates them out. Branded navigational traffic comes from people who already know you, so it reflects existing demand, not new reach. Lump it in with everything else and a strong brand can mask weak performance on the queries that win buyers.
 
 The fix is simple segmentation. Split branded navigational traffic from non-branded informational, commercial, and transactional traffic in your reporting. That way you can see whether your SEO work is genuinely expanding reach or just riding demand you already had.
 

@@ -35,7 +35,7 @@ In SaaS, you're buying on mixed-intent queries. Someone searching "project manag
 
 The algorithm doesn't know who's behind the click. It just bids to win. Over time, CPC creeps up because it's competing against itself and against your competitors, with no floor, no cap, and no quality signal to anchor the bids.
 
-The fix is simple: add a CPC bid cap. Or, better, treat Max Clicks as a temporary strategy while you build conversion data, then switch once you have the signal to support something smarter.
+The fix is simple: add a [CPC](/glossary/what-is-cost-per-click/) bid cap. Or, better, treat Max Clicks as a temporary strategy while you build conversion data, then switch once you have the signal to support something smarter.
 
 ### Max Conversions without past data: campaigns that don't spend
 
@@ -63,11 +63,11 @@ SaaS doesn't work that way.
 
 A SaaS "trial signup" conversion event might represent a Series B CTO who's been evaluating your tool for three weeks. It also represents a student doing a coursework assignment, a competitor doing a benchmark analysis, and a researcher building a feature comparison spreadsheet. Google's model can't tell the difference. Not unless you give it the signals to sort them out.
 
-The practical consequence is the learning period. Google's eligibility minimum is around 15 conversions in 30 days, but in practice tCPA doesn't stabilise until you're closer to 50. Most SaaS accounts, targeting a specific ICP, never come close to that on a single conversion event. A busy month might produce 15 demo requests. That's 15 data points. Nowhere near enough for the algorithm to build a reliable model.
+The practical consequence is the learning period. Google's eligibility minimum is around 15 conversions in 30 days, but in practice tCPA doesn't stabilise until you're closer to 50. Most SaaS accounts, targeting a specific [ICP](/glossary/what-is-icp/), never come close to that on a single conversion event. A busy month might produce 15 demo requests. That's 15 data points. Nowhere near enough for the algorithm to build a reliable model.
 
 ![15 raw conversions vs 135 weighted signals — how a touchpoint hierarchy multiplies Smart Bidding's learning data](/images/blog-infographics/ai-smart-bidding-for-saas-ppc-infographic-3.webp)
 
-This isn't a settings problem you can fix by toggling options in the Google Ads interface. It's a fundamentally different signal environment compared to e-commerce. The high-volume strategies that work perfectly for online retail actively harm SaaS accounts, because the signal density that those strategies assume simply isn't there.
+This isn't a settings problem you can fix by toggling options in the [Google Ads](/glossary/what-is-google-ads/) interface. It's a fundamentally different signal environment compared to e-commerce. The high-volume strategies that work perfectly for online retail actively harm SaaS accounts, because the signal density that those strategies assume simply isn't there.
 
 The only way to close that gap is to give the algorithm more conversion events to learn from. Map every touchpoint in the buyer's journey and treat each one as a weighted signal, not just the final form submission.
 
@@ -77,7 +77,7 @@ The fix for Smart Bidding's learning problem isn't a different bidding strategy.
 
 ### Map every touchpoint on the path to conversion
 
-Start with the landing page and follow the buyer. From the moment someone clicks your ad to the moment they become a qualified lead, there are usually four or five meaningful moments you can track:
+Start with the [landing page](/glossary/what-is-a-landing-page/) and follow the buyer. From the moment someone clicks your ad to the moment they become a qualified lead, there are usually four or five meaningful moments you can track:
 
 - CTA click on the landing page
 - Pricing page visit
@@ -112,7 +112,7 @@ Once the conversion hierarchy is in place, the bidding strategy question becomes
 
 ### Why single-campaign tCPA fails for SaaS first
 
-tCPA needs conversion data to function. The practical threshold most PPC practitioners work to is around 50 conversions in 30 days per campaign before bids stabilise. If you have five separate campaigns (brand, competitor, category, feature, integration), each campaign needs to hit that threshold on its own. A SaaS account generating 20 total monthly conversions across five campaigns means every campaign is permanently in learning mode. The algorithm never graduates.
+tCPA needs conversion data to function. The practical threshold most [PPC](/glossary/what-is-ppc/) practitioners work to is around 50 conversions in 30 days per campaign before bids stabilise. If you have five separate campaigns (brand, competitor, category, feature, integration), each campaign needs to hit that threshold on its own. A SaaS account generating 20 total monthly conversions across five campaigns means every campaign is permanently in learning mode. The algorithm never graduates.
 
 That's the situation most SaaS accounts are actually in.
 
@@ -127,7 +127,7 @@ You still set one tCPA target for the portfolio. The algorithm distributes bids 
 ### The result
 
 {{< experience author="praveen" title="The setup that doubled MQL" >}}
-I ran exactly this setup for a SaaS cybersecurity client who was stuck in the problem I described above: low monthly conversion volume, campaigns permanently in learning mode, CPA that wouldn't stabilise. We built the conversion event hierarchy first, then set up tCPA with portfolio bidding across their core campaigns. The result was 2X MQL. We didn't add keywords, rewrite ads, or raise budget. Just restructured the signals.
+I ran exactly this setup for a SaaS cybersecurity client who was stuck in the problem I described above: low monthly conversion volume, campaigns permanently in learning mode, [CPA](/glossary/what-is-cpa/) that wouldn't stabilise. We built the conversion event hierarchy first, then set up tCPA with portfolio bidding across their core campaigns. The result was 2X MQL. We didn't add keywords, rewrite ads, or raise budget. Just restructured the signals.
 {{< /experience >}}
 
 ## How PipeRocket Sets Up Smart Bidding for SaaS PPC Clients

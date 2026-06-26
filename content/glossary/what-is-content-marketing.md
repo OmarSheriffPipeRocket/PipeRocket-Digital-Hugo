@@ -60,7 +60,7 @@ Content marketing matters for SaaS because your buyers do their own research bef
 
 ## What Types of Content Actually Work in SaaS?
 
-The content types that work best are those that directly address your target buyer’s problems think actionable guides, product walkthroughs, comparison pages, and customer stories. “Thought leadership” only matters if it solves a real problem for your audience.
+The content types that work best are those that directly address your target buyer’s problems think actionable guides, product walkthroughs, [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), and customer stories. “Thought leadership” only matters if it solves a real problem for your audience.
 
 - In-depth how-to guides: Walk people through the exact process of solving a problem your product addresses.
 - Product demos and tutorials: Show, don’t tell screenshots, videos, and interactive demos reduce friction for buyers.

@@ -71,7 +71,7 @@ This is where the easy gains live. A compliance SaaS for fintech teams might fin
 
 A single product topic fans out into dozens of questions, and you don't need a page per question. Cluster them. "What is X," "how does X work," and "why use X" usually belong on one page as sequential H2s, while "X vs Y" and "X pricing" earn their own decision-stage pages.
 
-The test for a standalone page: would the answer need a meaningfully different page type? A definition and a how-to can share a guide. A comparison question needs a comparison page. Map the cluster first, then decide where each answer lives.
+The test for a standalone page: would the answer need a meaningfully different page type? A definition and a how-to can share a guide. A comparison question needs a [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/). Map the cluster first, then decide where each answer lives.
 
 ## Step 2: Match the Answer Format to the Question Type
 
@@ -124,7 +124,7 @@ What you can actually measure reliably:
 
 - **Search Console position for your question queries.** Movement from position 8 to position 3 on a question query is real and trackable.
 - **Manual [SERP](/glossary/what-is-serp/) checks in incognito.** Search the target question and look: is your page in the featured snippet, and is it cited in the AI Overview? Do this for your priority questions on a schedule.
-- **Click-through on question queries.** If you hold the answer slot, CTR behavior tells you whether the surface is sending clicks or absorbing them.
+- **Click-through on question queries.** If you hold the answer slot, [CTR](/glossary/what-is-ctr/) behavior tells you whether the surface is sending clicks or absorbing them.
 
 The thing to accept: holding the AIO slot doesn't guarantee clicks the way a snippet once did. Sometimes you win the citation and the reader still gets their answer without visiting. That's not failure. The visibility and the brand association still compound, even when this single query doesn't convert a click.
 

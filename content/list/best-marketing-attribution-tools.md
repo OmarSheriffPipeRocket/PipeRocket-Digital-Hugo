@@ -373,7 +373,7 @@ Ruler Analytics pricing is visit-volume-based. As of June 2026, all prices on th
 
 ### 6. Adobe Marketo Measure
 
-Best for: Enterprise B2B marketing ops teams running Salesforce and Marketo who need the deepest CRM-native multi-touch attribution and 10-plus attribution model configurations.
+Best for: Enterprise B2B marketing ops teams running Salesforce and Marketo who need the deepest CRM-native [multi-touch attribution](/blogs/how-to-set-up-multi-touch-attribution/) and 10-plus attribution model configurations.
 
 [Adobe Marketo Measure](https://business.adobe.com/products/marketo/marketo-measure.html) (formerly Bizible) tracks every marketing touchpoint across the full buyer journey, integrates natively with Salesforce, and attributes pipeline and closed revenue using 10 or more attribution models including AI-driven custom configurations. It's built for enterprise marketing ops teams with dedicated technical resources.
 
@@ -640,7 +640,7 @@ The best marketing attribution tools in 2026 are Google Analytics 4 (free baseli
 
 ### What is SEO attribution?
 
-SEO attribution is the process of connecting organic search traffic to business outcomes (leads, pipeline, closed revenue). It answers which keywords, pages, and channels actually drive revenue, not just traffic.
+[SEO attribution](/blogs/how-to-attribute-seo-to-pipeline/) is the process of connecting organic search traffic to business outcomes (leads, pipeline, closed revenue). It answers which keywords, pages, and channels actually drive revenue, not just traffic.
 
 ### Is Google Analytics 4 enough for SEO attribution?
 

@@ -82,7 +82,7 @@ I'd go further: a click lost on "what is X" was rarely a pipeline click anyway. 
 
 You get cited by being the clearest answer Google can retrieve, on a domain it already trusts for the topic. There's no submission process and no separate index. The work is [SEO](/glossary/what-is-seo/) plus answer-first writing.
 
-The discipline of structuring content for AI answers has its own names now: [GEO](/glossary/what-is-geo/) (generative engine optimization) and [AEO](/glossary/what-is-aeo/) (answer engine optimization). Strip the acronyms away and the core moves are:
+The discipline of structuring content for AI answers has its own names now: [GEO](/glossary/what-is-geo/) ([generative engine optimization](/blogs/how-to-do-geo-for-saas/)) and [AEO](/glossary/what-is-aeo/) (answer engine optimization). Strip the acronyms away and the core moves are:
 
 - **Answer first, context after:** Open each section with the direct answer in one or two sentences, then expand. Gemini quotes openings, not conclusions.
 - **One question per heading:** Match headings to real query phrasing so retrieval connects your passage to the search.
@@ -120,7 +120,7 @@ An AI Overview is the AI answer block that appears within a normal search result
 
 ### 2. How do I know if AI Overviews are costing me traffic?
 
-Compare impressions against clicks for your informational queries in Google Search Console. The signature pattern is impressions holding steady or rising while CTR drops, on question-style queries where you still rank well. Spot-check those queries manually to confirm an Overview appears and see whether you're cited in it. If your BOFU pages show the same CTR decline, the cause is probably something else, because Overviews rarely fire on commercial queries.
+Compare impressions against clicks for your informational queries in Google Search Console. The signature pattern is impressions holding steady or rising while CTR drops, on question-style queries where you still rank well. Spot-check those queries manually to confirm an Overview appears and see whether you're cited in it. If your [BOFU pages](/blogs/how-to-rank-bofu-keywords-saas/) show the same CTR decline, the cause is probably something else, because Overviews rarely fire on commercial queries.
 
 ### 3. Can you opt out of AI Overviews without leaving Google entirely?
 

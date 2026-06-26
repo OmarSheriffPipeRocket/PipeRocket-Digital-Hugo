@@ -13,11 +13,11 @@ toc: true
 readingTime: "10 min read"
 ---
 
-Keyword difficulty is a score, usually from 0 to 100, that estimates how hard it would be to rank on page one for a term. SEO tools calculate it mainly from the backlink strength of the pages already ranking. Treating it as a verdict is where most teams go wrong.
+Keyword difficulty is a score, usually from 0 to 100, that estimates how hard it would be to rank on page one for a term. [SEO](/glossary/what-is-seo/) tools calculate it mainly from the backlink strength of the pages already ranking. Treating it as a verdict is where most teams go wrong.
 
 ## TL;DR
 
-- Keyword difficulty is a 0 to 100 score estimating how hard it is to rank for a term, based mostly on competitors' backlinks.
+- Keyword difficulty is a 0 to 100 score estimating how hard it is to rank for a term, based mostly on competitors' [backlinks](/glossary/what-is-a-backlink/).
 - Different tools calculate it differently, so an Ahrefs score and a Semrush score for the same keyword won't match.
 - The number ignores your domain authority, content quality, and search intent, which all change your real odds.
 - Low difficulty plus high relevance to your buyer is the sweet spot, not just low difficulty alone.
@@ -54,7 +54,7 @@ That backlink focus is why scores vary between tools. Ahrefs weights referring d
 - **Referring domains:** The number of unique sites linking to each ranking page is the single biggest input across most tools.
 - **Link quality:** A handful of links from high-authority domains can push difficulty higher than many weak links.
 - **Page-level vs domain-level:** Some tools weight the ranking page's own links more, others lean on the whole domain's authority.
-- **Additional signals:** A few tools fold in search volume, SERP features, or content signals, which is why their scores drift apart.
+- **Additional signals:** A few tools fold in search volume, [SERP](/glossary/what-is-serp/) features, or content signals, which is why their scores drift apart.
 
 A compliance SaaS checking "SOC 2 compliance" across two tools might see 65 in one and 58 in another. Neither is wrong. They're measuring slightly different things. The practical move is to pick one tool, stay consistent, and compare keywords within that single system.
 
@@ -98,7 +98,7 @@ Difficulty used this way becomes a sequencing tool, not a gate. If you want this
 
 ### 1. What's a good keyword difficulty score to target?
 
-There's no universal number, because it depends on your domain authority. A brand-new SaaS site should generally start with keywords scoring under 20 to 30, where thin competition makes early wins realistic. An established domain with a strong backlink profile can target 40 to 60 and higher. Rather than chasing a fixed score, target keywords where the pages currently ranking are within reach of your own authority and content quality.
+There's no universal number, because it depends on your domain authority. A brand-[new SaaS site](/blogs/how-to-rank-new-saas-site/) should generally start with keywords scoring under 20 to 30, where thin competition makes early wins realistic. An established domain with a strong backlink profile can target 40 to 60 and higher. Rather than chasing a fixed score, target keywords where the pages currently ranking are within reach of your own authority and content quality.
 
 ### 2. Why do Ahrefs and Semrush show different difficulty scores?
 

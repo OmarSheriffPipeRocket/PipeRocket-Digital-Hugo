@@ -60,7 +60,7 @@ Every enterprise SaaS SEO program that generates consistent pipeline is built on
 | Pillar | What it covers | What breaks without it |
 | --- | --- | --- |
 | Technical infrastructure | Crawlability, rendering, Core Web Vitals, template governance | Content that cannot be indexed regardless of quality |
-| Content architecture | [ICP](/glossary/what-is-icp/)-mapped [keyword clusters](/glossary/what-are-keyword-clusters/), hub-and-spoke structure, product line coverage | Content that never compounds into topical authority |
+| Content architecture | [ICP](/glossary/what-is-icp/)-mapped [keyword clusters](/glossary/what-are-keyword-clusters/), hub-and-spoke structure, product line coverage | Content that never compounds into [topical authority](/blogs/how-to-improve-topical-authority/) |
 | Authority and links | Programmatic link acquisition, digital PR, partner ecosystems | Rankings that stall when competition for high-value terms is high |
 | Measurement and attribution | CRM integration, pipeline reporting, organic CAC tracking | SEO budgets that cannot be justified in board meetings |
 
@@ -73,7 +73,7 @@ The enterprise-specific technical issues that show up most consistently in audit
 - **JavaScript rendering:** enterprise SaaS marketing sites frequently use React, Next.js, or Angular frameworks. Without server-side rendering configured correctly for public-facing pages, Google sees empty HTML shells instead of content. This does not show up in your analytics because the pages look fine to humans
 - **Crawl budget inefficiency:** enterprise sites generate thousands of low-value URLs through URL parameters from marketing tools, session IDs, and faceted navigation. Googlebot spending crawl budget on those URLs means your high-value content pages get crawled less frequently
 - **Template governance failures:** a single SEO error in a global page template can replicate across hundreds or thousands of pages before anyone notices
-- **Subdomain fragmentation:** enterprise SaaS companies often have product documentation, regional sites, help centers, and marketing properties on separate subdomains. Without a deliberate internal linking strategy, authority earned in one property does not flow to others
+- **Subdomain fragmentation:** enterprise SaaS companies often have product documentation, regional sites, help centers, and marketing properties on separate subdomains. Without a deliberate [internal linking](/blogs/how-to-use-internal-linking/) strategy, authority earned in one property does not flow to others
 
 **What this looks like in practice:** An enterprise DevOps SaaS company conducts a full technical audit ahead of a site architecture project. They discover that their documentation subdomain, which earns 400 [backlinks](/glossary/what-is-a-backlink/) per year from developer blogs, shares zero internal link equity with their main marketing domain because there are no cross-subdomain links. Implementing a targeted internal linking program between the docs subdomain and product pages lifts the main domain’s ranking positions for ten competitive developer tool queries within three months.
 
@@ -86,7 +86,7 @@ Enterprise SaaS content architecture needs to account for multiple product lines
 - **Tier 1: Core product and solution pages** targeting the highest-intent, most competitive terms. These are the conversion destinations that all other content should link toward
 - **Tier 2: Vertical and use-case pages** built around ICP-specific problems your product solves. One page per key industry or use case
 - **Tier 3: Pillar pages** establishing topical authority in each major keyword cluster. One per theme, linking to every spoke
-- **Tier 4: Supporting content** including comparison pages, alternatives pages, how-to guides, and FAQ content targeting long-tail intent
+- **Tier 4: Supporting content** including [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternatives pages, how-to guides, and FAQ content targeting long-tail intent
 
 Our [SaaS SEO strategies guide](/blogs/saas-seo-strategies-and-framework/) covers the keyword mapping process for each of these tiers in detail.
 
@@ -116,9 +116,9 @@ Enterprise SaaS companies have long, multi-touch buying cycles. A buyer might fi
 | First-touch | First interaction with the brand | Misses the compounding influence of ongoing content engagement |
 | Linear | Equal credit to all touchpoints | Does not weight the touchpoints that actually drove decisions |
 | Pipeline-influenced | Any opportunity where organic was a touchpoint | Shows the full breadth of organic’s role across all deals |
-| Organic CAC | Cost to acquire a customer through organic vs. paid | The most compelling metric for budget justification |
+| [Organic CAC](/blogs/how-to-measure-organic-cac/) | Cost to acquire a customer through organic vs. paid | The most compelling metric for budget justification |
 
-For enterprise SaaS, pipeline-influenced and organic CAC are the two metrics worth building toward. This requires [B2B marketing operations](/blogs/b2b-marketing-operations-guide/) infrastructure: CRM integration with proper lifecycle stage tracking, consistent UTM hygiene across all organic touchpoints, and a RevOps partner who understands multi-touch attribution methodology.
+For enterprise SaaS, pipeline-influenced and organic CAC are the two metrics worth building toward. This requires [B2B marketing operations](/blogs/b2b-marketing-operations-guide/) infrastructure: CRM integration with proper lifecycle stage tracking, consistent UTM hygiene across all organic touchpoints, and a RevOps partner who understands [multi-touch attribution](/blogs/how-to-set-up-multi-touch-attribution/) methodology.
 
 **What this looks like in practice:** An enterprise ITSM SaaS switches from last-touch to pipeline-influenced attribution after a RevOps audit reveals that organic content was present in 71% of deals closed in the previous quarter. Under last-touch, organic received credit for 12% of pipeline. Under pipeline-influenced, it receives credit for 68%. The CMO uses this data to make the case for tripling the content budget. The board approves it in the same meeting.
 
@@ -162,7 +162,7 @@ Scale, complexity, and organizational dynamics. At enterprise scale, technical e
 
 ### 2. How do you handle SEO across multiple product lines without cannibalizing rankings?
 
-Each product line needs its own keyword universe, content architecture, and conversion path. Keyword mapping at the product level, combined with clear internal linking rules that prevent pages in different product clusters from targeting the same terms, manages cannibalization. When two product pages legitimately compete for the same query, resolve it with a [canonical tag](/glossary/what-is-a-canonical-tag/) and redirect the weaker page’s authority to the primary.
+Each product line needs its own keyword universe, content architecture, and conversion path. Keyword mapping at the product level, combined with clear internal linking rules that prevent pages in different product clusters from targeting the same terms, manages [cannibalization](/blogs/how-to-fix-keyword-cannibalization/). When two product pages legitimately compete for the same query, resolve it with a [canonical tag](/glossary/what-is-a-canonical-tag/) and redirect the weaker page’s authority to the primary.
 
 ### 3. How much does enterprise SaaS SEO cost?
 

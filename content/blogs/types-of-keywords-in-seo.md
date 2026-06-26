@@ -35,7 +35,7 @@ In SaaS, those are wildly different questions: our own data shows organic search
 
 I learned to do keyword research by [starting with people, not tools](/blogs/how-to-do-saas-seo-keyword-research/). Tools are for validation, not discovery.
 
-Lean 100% on Ahrefs or Semrush and you only ever see the keywords your competitors already found. The richest keyword types surface from talking to Sales and Customer Success, because real buyers don't search like SEO pros.
+Lean 100% on Ahrefs or Semrush and you only ever see the keywords your competitors already found. The richest keyword types surface from talking to Sales and Customer Success, because real buyers don't search like [SEO](/glossary/what-is-seo/) pros.
 
 ![The three lenses for classifying SEO keywords: by search intent, by keyword length, and by funnel stage](/images/blog-infographics/types-of-keywords-in-seo-infographic-1.webp)
 
@@ -43,7 +43,7 @@ Lean 100% on Ahrefs or Semrush and you only ever see the keywords your competito
 
 A keyword has no fixed type until you know who's typing it. "Slack" is a navigational keyword for someone who already uses it and wants the login page. The same word is commercial for someone weighing it against Microsoft Teams, and it's nearly transactional for someone searching "Slack enterprise pricing."
 
-This matters because you can't classify a spreadsheet of keywords mechanically. You classify by reading the query the way the searcher meant it, and sometimes by checking what Google already ranks, since the SERP is Google's own verdict on the dominant intent behind that word.
+This matters because you can't classify a spreadsheet of keywords mechanically. You classify by reading the query the way the searcher meant it, and sometimes by checking what Google already ranks, since the [SERP](/glossary/what-is-serp/) is Google's own verdict on the dominant intent behind that word.
 
 The practical move: when a keyword feels ambiguous, search it. If the top 10 results are all blog posts explaining a concept, it's informational, and a product page won't rank there however much you want it to.
 
@@ -51,7 +51,7 @@ The practical move: when a keyword feels ambiguous, search it. If the top 10 res
 
 Intent is the most important lens, so start here. Every query falls into one of four buckets based on what the searcher wants to do next, and each maps to a different kind of page.
 
-**Informational:** the searcher wants to learn something. "What is single sign-on," "how does SOC 2 work," "employee onboarding best practices." They're not buying today. The right page is a guide or explainer, and the goal is trust and topical authority, not a hard demo pitch.
+**Informational:** the searcher wants to learn something. "What is single sign-on," "how does SOC 2 work," "employee onboarding best practices." They're not buying today. The right page is a guide or explainer, and the goal is trust and [topical authority](/blogs/how-to-improve-topical-authority/), not a hard demo pitch.
 
 **Navigational:** the searcher wants a specific page or brand. "Zendesk login," "Notion pricing page," "Asana help center." They already know where they're going. You mostly capture these for your own brand, defending your name so the right page shows up first.
 
@@ -101,7 +101,7 @@ Funnel stage maps keywords to where the buyer is in their decision, and it's the
 
 **BoFu (bottom of funnel):** decision. The buyer is choosing a vendor. "Monte Carlo vs Datadog," "Datadog pricing," "Datadog alternatives." Commercial and transactional, almost always long-tail, and the highest-converting keywords you'll ever target.
 
-Most teams ignore a structural reality here: a single-product SaaS company has a maximum of roughly 40 to 60 BoFu pages, like software pages, alternatives, comparisons, and pricing. Try to force more and you're stretching. That ceiling tells you how to balance your keyword portfolio, because BoFu is finite and ToFu is nearly infinite.
+Most teams ignore a structural reality here: a single-product SaaS company has a maximum of roughly 40 to 60 [BoFu pages](/blogs/how-to-rank-bofu-keywords-saas/), like software pages, alternatives, comparisons, and pricing. Try to force more and you're stretching. That ceiling tells you how to balance your keyword portfolio, because BoFu is finite and ToFu is nearly infinite.
 
 The cluster I build runs decision-first: What Is → How To → Tools → Alternatives → Pricing → Conversion, with the BoFu nodes built first and everything linking toward them.
 
@@ -141,7 +141,7 @@ This works the other way too: a thin blog post for a transactional query wastes 
 
 ## How PipeRocket Digital Uses Keyword Types
 
-We don't classify keywords to fill a spreadsheet. We classify them to tie every page to the actual sales pipeline. That means scoring keywords by intent and ICP fit, not volume, and building BoFu and MoFu pages first so the program returns pipeline early instead of just traffic.
+We don't classify keywords to fill a spreadsheet. We classify them to tie every page to the actual sales pipeline. That means scoring keywords by intent and [ICP](/glossary/what-is-icp/) fit, not volume, and building BoFu and MoFu pages first so the program returns pipeline early instead of just traffic.
 
 If your keyword list is long but your demos are flat, that's usually a classification problem we can fix. You can see how we approach it on our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) page, compare options among the [best SaaS SEO agencies](https://piperocket.digital/list/best-saas-seo-agencies/), or just [talk to our team](https://piperocket.digital/contact-us/).
 
@@ -163,4 +163,4 @@ In B2B SaaS, long-tail keywords usually drive far more qualified pipeline becaus
 
 Start with intent and funnel stage, not volume. If you're on a low-authority domain, prioritize commercial and transactional long-tail keywords at the bottom of the funnel (comparison, alternative, and pricing queries), because they convert highest and are easier to rank.
 
-Use informational top-of-funnel keywords to build topical authority once your BoFu pages have traction. The fastest check for any single keyword is to search it: whatever format Google already ranks tells you the page type you need to build.
+Use informational [top-of-funnel keywords](/blogs/how-to-rank-tofu-keywords-saas/) to build topical authority once your BoFu pages have traction. The fastest check for any single keyword is to search it: whatever format Google already ranks tells you the page type you need to build.

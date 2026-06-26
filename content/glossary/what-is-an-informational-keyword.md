@@ -19,7 +19,7 @@ An informational keyword is a search query where the user's primary goal is to u
 
 - Informational keywords are queries where the searcher wants to learn, not act, like "what is MRR" or "what causes high churn."
 - They're the highest-volume category of keywords and usually the easiest to rank for on a newer domain.
-- Informational content builds topical authority and feeds future commercial rankings, but rarely drives direct conversions.
+- Informational content builds [topical authority](/blogs/how-to-improve-topical-authority/) and feeds future commercial rankings, but rarely drives direct conversions.
 - The mistake most teams make is measuring informational content by pipeline instead of by the authority it creates.
 - Not all informational keywords are worth targeting. The ones that attract your ICP early are the ones worth building.
 
@@ -32,12 +32,12 @@ Google classifies these queries differently from commercial or transactional one
 - **Definitional queries:** "What is X" format. The searcher wants a clear explanation of a concept. Glossary entries and educational blog posts match this intent.
 - **How-to queries:** "How to do X" or "how does X work." The searcher wants a process or method. Step-by-step guides match this intent.
 - **Why queries:** "Why does X happen" or "why is X important." The searcher is building context or diagnosing a problem. Analytical content fits here.
-- **Concept comparisons (not products):** "Difference between MRR and ARR," "SEO vs SEM." The searcher is learning the territory, not evaluating vendors.
+- **Concept comparisons (not products):** "Difference between MRR and ARR," "[SEO](/glossary/what-is-seo/) vs SEM." The searcher is learning the territory, not evaluating vendors.
 - **Research queries:** "SaaS churn benchmarks," "average CAC for B2B SaaS." The searcher is gathering data to inform a decision, but isn't ready to make one yet.
 
 Consider an onboarding SaaS built for mid-market HR teams. A query like "what is employee onboarding" is informational. The searcher is probably an HR manager learning the concept, not a procurement lead ready to evaluate software. That's a very different audience from someone searching "best onboarding software for remote teams."
 
-Both queries are worth targeting, but for different reasons and with different content. Informational content rarely converts directly. Its job is to pull your ICP in early, build trust, and create the authority that makes your commercial and transactional pages rank later.
+Both queries are worth targeting, but for different reasons and with different content. Informational content rarely converts directly. Its job is to pull your [ICP](/glossary/what-is-icp/) in early, build trust, and create the authority that makes your commercial and transactional pages rank later.
 
 > **Fast Fact:** Organic search drives 91.3% of SaaS traffic — AI-referred visits account for less than 9%.
 
@@ -55,7 +55,7 @@ Second, they reach your ICP at the start of their journey. Someone searching "wh
 
 - **Topical authority building:** Covering the full breadth of your category's informational keywords signals expertise to Google and helps your commercial pages rank.
 - **Early funnel reach:** Informational searchers are often future buyers. Capturing them before they're ready influences the commercial decision later.
-- **Internal linking foundation:** Informational posts and glossary entries create natural links to your commercial and transactional pages, passing authority where it matters.
+- **[Internal linking](/blogs/how-to-use-internal-linking/) foundation:** Informational posts and glossary entries create natural links to your commercial and transactional pages, passing authority where it matters.
 - **Featured snippet opportunities:** Definitional and how-to queries frequently trigger featured snippets, putting your brand in front of searchers before they click.
 - **Lower competition:** Informational keywords are generally easier to rank for than commercial ones. For a new domain, they're the entry point into organic search.
 
@@ -90,7 +90,7 @@ The right format depends on the type of informational query. Definitional querie
 - **Analytical posts for "why" queries:** These need a real point of view. A post on "why SaaS churn spikes in Q1" that lists generic reasons loses to one that takes a specific, defensible position.
 - **Data roundups for research queries:** "SaaS churn benchmarks 2026" attracts searchers looking for numbers. A well-organised compilation of real data with clear sourcing ranks reliably.
 
-Here's the trade-off. Glossary entries are fast to produce and good for covering broad informational territory. Long-form analytical posts take more time but earn more backlinks and authority. A good SaaS content programme runs both: the glossary provides breadth, the analytical posts provide depth.
+Here's the trade-off. Glossary entries are fast to produce and good for covering broad informational territory. Long-form analytical posts take more time but earn more [backlinks](/glossary/what-is-a-backlink/) and authority. A good SaaS content programme runs both: the glossary provides breadth, the analytical posts provide depth.
 
 ## Frequently Asked Questions
 
@@ -104,7 +104,7 @@ Check the related queries and PAA boxes for the keyword in Google Search Console
 
 ### 3. Can informational content rank for commercial keywords over time?
 
-Sometimes, but it's usually a sign of something going wrong rather than right. If your informational blog post is outranking your comparison page for a commercial query, that's [keyword cannibalization](/blogs/how-to-fix-keyword-cannibalization/), and it's costing you conversions. The informational post is stealing clicks that should go to a page designed to convert. Fix it by restructuring internal links to signal which page should own the commercial query, and consider consolidating thin content.
+Sometimes, but it's usually a sign of something going wrong rather than right. If your informational blog post is outranking your [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) for a commercial query, that's [keyword cannibalization](/blogs/how-to-fix-keyword-cannibalization/), and it's costing you conversions. The informational post is stealing clicks that should go to a page designed to convert. Fix it by restructuring internal links to signal which page should own the commercial query, and consider consolidating thin content.
 
 ## The Bottom Line
 

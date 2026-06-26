@@ -48,7 +48,7 @@ On a small site you can spot this by eye. On a library of 200+ posts, you can't,
 - Rankings dropping consistently week-over-week for a page that used to be stable
 - Organic traffic gone flat after months of growth
 - A content library past 30 to 50 posts (the point where pages start competing with each other)
-- A new post that knocked an older, established page down the SERP
+- A new post that knocked an older, established page down the [SERP](/glossary/what-is-serp/)
 
 ### Run the query-to-URL audit at scale
 
@@ -62,7 +62,7 @@ Those clusters are common on SaaS blogs that published "what is X," "X examples,
 
 ### When the wrong page type ranks, that's cannibalization too
 
-The trickiest version is a blog post outranking the product or comparison page that should own a query. Our team sees this constantly: a site ranks top-three for a [high-intent keyword](/blogs/types-of-keywords-in-seo/) with an informational article instead of the page built to convert.
+The trickiest version is a blog post outranking the product or [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) that should own a query. Our team sees this constantly: a site ranks top-three for a [high-intent keyword](/blogs/types-of-keywords-in-seo/) with an informational article instead of the page built to convert.
 
 That's still cannibalization, because two of your URLs are eligible for one query and the weaker-converting one is winning. Ranking with the wrong page type is almost as costly as not ranking. The traffic shows up, but lands on a page never designed to move anyone toward a demo.
 
@@ -76,17 +76,17 @@ I work through it in this order, because most teams reach for the wrong move fir
 
 ### Merge when both pages have real equity
 
-Merging is the right call when both pages have something worth keeping, like backlinks, steady traffic, or sections that genuinely add value. You're not picking a winner and discarding a loser; you're folding the best of both into the stronger URL, then 301 redirecting the weaker one to it.
+Merging is the right call when both pages have something worth keeping, like [backlinks](/glossary/what-is-a-backlink/), steady traffic, or sections that genuinely add value. You're not picking a winner and discarding a loser; you're folding the best of both into the stronger URL, then 301 redirecting the weaker one to it.
 
 This is the most common fix on a mature SaaS blog, where two decent posts grew up next to each other and started overlapping. A compliance SaaS might have "SOC 2 checklist" and "SOC 2 requirements" as separate articles that answer 70% of the same questions.
 
 Merge them into one definitive page, redirect the other, and the combined link equity plus the deeper content usually pulls the survivor from page two to page one.
 
-The win here is also a secondary-keyword win. One consolidated page that ranks for 20 related terms does the work of two thin pages that ranked for two each, and that compounding is the most underrated lever in SaaS SEO.
+The win here is also a secondary-keyword win. One consolidated page that ranks for 20 related terms does the work of two thin pages that ranked for two each, and that compounding is the most underrated lever in SaaS [SEO](/glossary/what-is-seo/).
 
 ### Canonical when both pages must stay live
 
-Sometimes you can't delete or merge because both pages need to exist for users, like near-duplicate variants, a print version, or two product pages that look identical to Google. Here you keep both URLs accessible and add a canonical tag on the secondary page pointing at the one you want ranked.
+Sometimes you can't delete or merge because both pages need to exist for users, like near-duplicate variants, a print version, or two product pages that look identical to Google. Here you keep both URLs accessible and add a [canonical tag](/glossary/what-is-a-canonical-tag/) on the secondary page pointing at the one you want ranked.
 
 The canonical tells Google "treat this page's signals as belonging to that one." It's softer than a redirect. Nothing breaks for the user, and the ranking signals consolidate onto your preferred URL.
 
@@ -111,10 +111,10 @@ Here's the sequence I follow on every pair:
 - **Confirm the winner.** Pick the URL with stronger links, longer history, and the right intent for the query. That page survives.
 - **Move the unique value first.** Pull useful sections, FAQs, and secondary keywords from the losing page into the winner *before* you redirect anything.
 - **Apply the fix.** Merge, canonical, or delete based on the decision above. 301 redirect anything you merge or remove.
-- **Repoint internal links.** Update every internal link and its anchor text to point at the surviving URL, so your own site stops splitting signals.
+- **Repoint [internal links](/blogs/how-to-use-internal-linking/).** Update every internal link and its anchor text to point at the surviving URL, so your own site stops splitting signals.
 - **Resubmit and watch.** Submit the winner in Search Console and track its position for four to six weeks.
 
-That internal-link step is the one teams skip, and it's the one that quietly undoes the whole fix. Redirect a page but leave 15 internal links pointing at the old URL with the old anchor text, and you're still telling Google two stories about which page owns the query.
+That internal-link step is the one teams skip, and it's the one that quietly undoes the whole fix. Redirect a page but leave 15 internal links pointing at the old URL with the old [anchor text](/glossary/what-is-anchor-text/), and you're still telling Google two stories about which page owns the query.
 
 {{< experience author="kim" >}}
 Recovery is usually fast when the fix is clean. I've watched a consolidated page climb from deep on page two into the top of page one within weeks. We saw the same on a client we grew from 6,400 to 13,400 clicks, average position 17.8 to 6.9, and consolidation drove it.

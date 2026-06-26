@@ -35,7 +35,7 @@ That’s the part most guides skim over. Third-party cookies aren’t just about
 
 - Cross-site tracking: A single third-party cookie can follow a user across thousands of websites, building a behavioural profile without that user ever interacting with the tracking company directly.
 - Retargeting audiences: Ad platforms use these cookies to identify users who visited your site and serve them ads elsewhere the mechanism behind “why is this product following me around the internet.”
-- Attribution modelling: Many multi-touch attribution tools rely on third-party cookies to stitch together a user’s journey across different sites and sessions.
+- Attribution modelling: Many [multi-touch attribution](/blogs/how-to-set-up-multi-touch-attribution/) tools rely on third-party cookies to stitch together a user’s journey across different sites and sessions.
 - Audience segmentation: Data brokers and demand-side platforms use third-party cookie pools to build and sell audience segments based on inferred interests and behaviours.
 - Third-party analytics: Some analytics tools not just ad platforms drop their own cookies, which means even your reporting stack may be affected.
 

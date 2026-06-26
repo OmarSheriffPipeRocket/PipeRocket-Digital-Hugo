@@ -157,7 +157,7 @@ You will hear marketers talk about the funnel all day long. But when it comes to
 
 **Here is my rule:** I generally do **not** suggest starting with TOFU for SaaS PPC.
 
-Why? Because TOFU keywords (like “What is employee engagement?”) bring in students, researchers, and people who are either irrelevant or months away from buying. It burns the budget fast.
+Why? Because [TOFU keywords](/blogs/how-to-rank-tofu-keywords-saas/) (like “What is employee engagement?”) bring in students, researchers, and people who are either irrelevant or months away from buying. It burns the budget fast.
 
 I start all my clients on **BOFU and MOFU**. I want the people searching for “Best employee engagement software” or “X vs. Y”.
 

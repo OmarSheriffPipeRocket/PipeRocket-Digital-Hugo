@@ -46,7 +46,7 @@ The 90-search comparison term can convert at three to four percent, so the high-
 
 ## Why I Start at the Bottom of the Funnel
 
-I build BOFU first on almost every new SaaS site. Not because BOFU is "better" content, but because it's the content sitting closest to the money, and getting it live early means you're capturing demand while the rest of the plan is still warming up.
+I build BOFU first on almost every [new SaaS site](/blogs/how-to-rank-new-saas-site/). Not because BOFU is "better" content, but because it's the content sitting closest to the money, and getting it live early means you're capturing demand while the rest of the plan is still warming up.
 
 The standard advice runs the other way: build awareness first, then nurture people down the funnel. It's wrong for most early-stage SaaS, because you don't control the timeline on awareness content.
 
@@ -62,7 +62,7 @@ That's the whole argument for bottom-up sequencing. One high-intent visitor on a
 
 Start at the bottom and your earliest pages are the ones most likely to turn into pipeline, so the program pays for itself before the slow TOFU layer has even ranked.
 
-The detail of how those pages actually climb the SERP lives in our guide on [ranking BOFU keywords for SaaS](/blogs/how-to-rank-bofu-keywords-saas/).
+The detail of how those pages actually climb the [SERP](/glossary/what-is-serp/) lives in our guide on [ranking BOFU keywords for SaaS](/blogs/how-to-rank-bofu-keywords-saas/).
 
 ### When BOFU-First Breaks
 
@@ -99,7 +99,7 @@ Write a comparison page for a "competitor" nobody's actually evaluating you agai
 
 Once BOFU is built, MOFU is the next layer, and the same intent-first logic applies inside it. Prioritize the MOFU terms closest to a buying decision: implementation guides, "how to choose" articles, and the problem-aware searches that sit one step before someone starts comparing vendors.
 
-TOFU comes last in the build order, but not because it doesn't matter. It earns the topical authority that makes the BOFU pages rank, so it's essential to the engine.
+TOFU comes last in the build order, but not because it doesn't matter. It earns the [topical authority](/blogs/how-to-improve-topical-authority/) that makes the BOFU pages rank, so it's essential to the engine.
 
 It's just the slowest-paying layer, so it belongs at the back of the queue where its long timeline doesn't block the revenue pages. There's more on assembling these layers into a connected system in our guide to [building topic clusters](/blogs/how-to-build-topic-clusters/).
 
@@ -147,7 +147,7 @@ Three mistakes wreck more SaaS content sequences than anything else, and all thr
 
 2. **Treating every BOFU page as equal priority.** Teams build their BOFU set in whatever order the keywords appear in the sheet, instead of leading with the pages that map to the deals sales wants most. Your "[biggest competitor] alternative" page and your page for a tool nobody compares you to are both BOFU, but only one belongs in week one.
 
-3. **Ignoring how long pages take to rank when you sequence.** BOFU pages on a young domain don't rank overnight; they need supporting content and internal links behind them. Sequence as though everything ranks instantly, and you'll build a pricing page in isolation, watch it sit on page three, and conclude BOFU "doesn't work" when the real problem was that you built the pricing page before the content that was supposed to hold it up.
+3. **Ignoring how long pages take to rank when you sequence.** BOFU pages on a young domain don't rank overnight; they need supporting content and [internal links](/blogs/how-to-use-internal-linking/) behind them. Sequence as though everything ranks instantly, and you'll build a pricing page in isolation, watch it sit on page three, and conclude BOFU "doesn't work" when the real problem was that you built the pricing page before the content that was supposed to hold it up.
 
 The fix for all three is the same: sequence by where revenue actually comes from, and build the finite high-intent layer first. The slow-ranking authority content still has to start early, precisely because it pays off late.
 
@@ -171,7 +171,7 @@ The exception is brand-new categories with no existing comparison searches, wher
 
 Most single-product SaaS companies max out at roughly 40 to 60 bottom-of-funnel pages, covering software pages, comparisons, alternatives, integrations, and pricing. That's a practical ceiling, not a target to force.
 
-If you find yourself building comparison pages for competitors nobody actually evaluates you against, you've passed the point where real buying intent exists and you're manufacturing thin pages. Once the genuine BOFU set is built, move up to MOFU.
+If you find yourself building [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) for competitors nobody actually evaluates you against, you've passed the point where real buying intent exists and you're manufacturing thin pages. Once the genuine BOFU set is built, move up to MOFU.
 
 ### Does search volume matter when prioritizing keywords by funnel stage?
 

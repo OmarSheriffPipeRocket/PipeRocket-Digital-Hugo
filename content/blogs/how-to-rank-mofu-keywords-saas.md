@@ -69,11 +69,11 @@ Across 50 pieces that compounding is enormous, and it's how you map a topic inst
 
 ## Rank From the Cluster, Not the Standalone Page
 
-A MOFU page rarely ranks on its own. It ranks on the topical authority of the cluster around it. Google decides whether to trust your "best [category] software" page partly by whether the rest of your site proves you understand that category at all.
+A MOFU page rarely ranks on its own. It ranks on the [topical authority](/blogs/how-to-improve-topical-authority/) of the cluster around it. Google decides whether to trust your "best [category] software" page partly by whether the rest of your site proves you understand that category at all.
 
 This is the part teams skip. They publish a high-value MOFU listicle, it sits on page 3, and they assume the page is the problem. Usually the page is fine and the site around it is empty.
 
-There's no supporting content signalling category depth, no internal links pointing authority at the page, nothing telling Google this site is a credible source on the topic.
+There's no supporting content signalling category depth, no [internal links](/blogs/how-to-use-internal-linking/) pointing authority at the page, nothing telling Google this site is a credible source on the topic.
 
 Build the cluster deliberately. The MOFU layer is the educational and comparison middle that connects your top-of-funnel awareness content to your decision pages:
 
@@ -120,7 +120,7 @@ BOFU pages (comparison, alternatives, pricing) are [landing pages](/glossary/wha
 
 The full sequencing call, build the high-intent decision pages first and expand the MOFU layer to feed them, is in [how to prioritise keywords by funnel stage](/blogs/how-to-prioritize-saas-keywords-by-funnel-stage/).
 
-On measurement, report by page type and hold each to its own benchmark. Comparison pages convert higher. Educational pages convert lower, often on an asset rather than a demo. Judge a MOFU page on last-click and you'll cut pages that were doing real work.
+On measurement, report by page type and hold each to its own benchmark. [Comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) convert higher. Educational pages convert lower, often on an asset rather than a demo. Judge a MOFU page on last-click and you'll cut pages that were doing real work.
 
 If you're scoring which MOFU terms even deserve the effort, the [ICP-intent scoring filter](/blogs/how-to-score-saas-keywords-by-icp-intent/) and the [ICP definition](/glossary/what-is-icp/) keep you focused on the buyer who actually pays.
 

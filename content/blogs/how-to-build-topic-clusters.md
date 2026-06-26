@@ -59,7 +59,7 @@ A cluster that starts with the "what is" page and never reaches the alternatives
 
 ### Use Spokes to Answer Everything the Pillar Can't
 
-A spoke earns its place by answering a specific question the pillar would bloat trying to cover. If your pillar is a comparison page, the spokes are the questions asked on the way there: implementation steps, integration concerns, the workflow they're fixing. Each spoke owns one question and links up.
+A spoke earns its place by answering a specific question the pillar would bloat trying to cover. If your pillar is a [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/), the spokes are the questions asked on the way there: implementation steps, integration concerns, the workflow they're fixing. Each spoke owns one question and links up.
 
 The test for a spoke is simple: does a real buyer search this, and does answering it move them closer to the decision page? If a "spoke" only exists because it had search volume and loosely relates to the topic, it's a stray post you'll be auditing in a year.
 
@@ -87,9 +87,9 @@ The same discipline applies inside one cluster: padding it past real demand just
 
 ### One Strong Spoke Beats Three Thin Ones
 
-The multiplier is how many queries each spoke ranks for, not the spoke count. A single post built to answer a question thoroughly ranks for 20 related secondary keywords instead of two, doing the work of ten thin posts. Multiply that across a cluster and the compounding traffic is enormous.
+The multiplier is how many queries each spoke ranks for, not the spoke count. A single post built to answer a question thoroughly ranks for 20 related [secondary keywords](/blogs/how-to-do-saas-seo-keyword-research/) instead of two, doing the work of ten thin posts. Multiply that across a cluster and the compounding traffic is enormous.
 
-This is the most underrated lever in SaaS SEO, and most teams leave it untouched. They write one post per primary keyword, never expand it to own the related questions, then wonder why a 12-spoke cluster underperforms an 8-spoke one with more depth. Almost every time, fewer pages each covering more will beat more pages each covering less.
+This is the most underrated lever in SaaS [SEO](/glossary/what-is-seo/), and most teams leave it untouched. They write one post per primary keyword, never expand it to own the related questions, then wonder why a 12-spoke cluster underperforms an 8-spoke one with more depth. Almost every time, fewer pages each covering more will beat more pages each covering less.
 
 ## A Cluster That Lifted a Whole Site
 
@@ -105,13 +105,13 @@ Those 2,400 keywords weren't a content calendar. Grouped by intent, they became 
 
 That's how a 2,400-keyword mess collapses into a tight, buildable cluster map instead of a backlog.
 
-That's the difference between a list and a strategy. A spreadsheet of 2,400 keywords is noise; grouped into topics it's a business case (this many BOFU pages, this many [MOFU](/blogs/how-to-rank-mofu-keywords-saas/), this many TOFU) built around language buyers use.
+That's the difference between a list and a strategy. A spreadsheet of 2,400 keywords is noise; grouped into topics it's a business case (this many [BOFU pages](/blogs/how-to-rank-bofu-keywords-saas/), this many [MOFU](/blogs/how-to-rank-mofu-keywords-saas/), this many TOFU) built around language buyers use.
 
 The cluster ranked because it answered real questions in real words, not because the diagram was tidy.
 
 ## How Do You Wire a Cluster So It Ranks as One System?
 
-Internal linking is what turns a pile of related posts into a cluster Google reads as authority, and it's the step most teams treat as an afterthought. The links aren't decoration. They're how PageRank and topical relevance flow toward the pages you need to rank.
+[Internal linking](/blogs/how-to-use-internal-linking/) is what turns a pile of related posts into a cluster Google reads as authority, and it's the step most teams treat as an afterthought. The links aren't decoration. They're how PageRank and topical relevance flow toward the pages you need to rank.
 
 Every spoke links up to its pillar, the pillar links down to its most important spokes, and the whole thing pushes toward the conversion pages. Decision-stage nodes (alternatives, pricing, case studies) should be the most-linked-to pages in the cluster, because that's where you want authority concentrating.
 
@@ -121,11 +121,11 @@ If your highest internal-link count sits on a "what is" article, you're funnelin
 
 Automated "related posts" widgets don't build a cluster. They scatter links by recency or tags, not by buyer logic. A real cluster link goes from a specific sentence where a reader has a genuine next question to the exact page that answers it.
 
-The anchor text describes the destination, the placement matches where the reader's intent shifts, and every link earns its place by moving someone closer to a decision.
+The [anchor text](/glossary/what-is-anchor-text/) describes the destination, the placement matches where the reader's intent shifts, and every link earns its place by moving someone closer to a decision.
 
-This is also where topical authority gets built. It's one of the dimensions modern SaaS SEO is scored on (alongside intent mapping, technical health, and brand signals) and clusters are how you earn it. Covering one topic completely and linking it coherently tells Google you own that subject.
+This is also where [topical authority](/blogs/how-to-improve-topical-authority/) gets built. It's one of the dimensions modern SaaS SEO is scored on (alongside intent mapping, technical health, and brand signals) and clusters are how you earn it. Covering one topic completely and linking it coherently tells Google you own that subject.
 
-That's what lets the decision pages rank without buying links. Most teams chase backlinks for those pages when tighter internal architecture would have done more.
+That's what lets the decision pages rank without buying links. Most teams chase [backlinks](/glossary/what-is-a-backlink/) for those pages when tighter internal architecture would have done more.
 
 ## Common Mistakes That Break a SaaS Cluster
 
@@ -135,7 +135,7 @@ The second is letting clusters cannibalize each other. Build two pages for the s
 
 This happens fast once a site crosses 30 to 50 posts. Before adding a spoke, check that no existing page already owns that intent; if one does, expand it instead of writing a rival.
 
-The third is copying a giant's cluster structure wholesale. A big competitor often ranks on brand power, not on a clean cluster, so mirroring their page structure when you lack their domain authority just gives you their weaknesses without their backlinks.
+The third is copying a giant's cluster structure wholesale. A big competitor often ranks on brand power, not on a clean cluster, so mirroring their page structure when you lack their [domain authority](/glossary/what-is-domain-authority/) just gives you their weaknesses without their backlinks.
 
 Steal the content structure of whoever actually ranks #1 for your terms (frequently an aggregator like G2) but build your cluster on intent you can realistically win, not on authority you don't have.
 

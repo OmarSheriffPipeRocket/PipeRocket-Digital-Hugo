@@ -33,13 +33,13 @@ Most teams chase individual keywords. They write one post, target one term, and 
 
 - **Subject-level trust:** Authority attaches to a topic, not a single keyword. Cover the topic well and you rank for many related terms.
 - **Depth and breadth:** Google looks for thorough coverage, both deep on key concepts and broad across the subtopics around them.
-- **Internal linking:** Links between your related pages signal to Google how your content connects, reinforcing the topic structure.
+- **[Internal linking](/blogs/how-to-use-internal-linking/):** Links between your related pages signal to Google how your content connects, reinforcing the topic structure.
 - **Earned over time:** Authority compounds as you publish and interlink more on a subject, rather than appearing from one piece.
 - **Topic-specific:** A site can hold strong authority on one subject and none on another, since trust doesn't transfer across unrelated topics.
 
 Consider a SaaS that sells customer support software. Publishing one post on "reducing ticket volume" rarely ranks well alone. But covering the full subject, with pages on response times, ticket routing, support metrics, and automation, all interlinked, signals deep expertise. Google then ranks the whole set more reliably.
 
-The practical point: topical authority turns SEO from a series of one-off bets into a compounding asset. Each new page on the subject makes the others stronger.
+The practical point: topical authority turns [SEO](/glossary/what-is-seo/) from a series of one-off bets into a compounding asset. Each new page on the subject makes the others stronger.
 
 > **Fast Fact:** Organic search drives 91.3% of SaaS traffic — AI-referred visits account for less than 9%.
 

@@ -406,7 +406,7 @@ GrowPad does not publish pricing publicly, as of June 2026. All engagements are 
 
 Best for: Growth-stage SaaS companies wanting GEO and AI visibility as part of a larger AI-first organic growth retainer
 
-[Skale](https://skale.so/) is a London-based SaaS SEO agency that now positions as "AI search-first" and includes a dedicated Generative Engine Optimization (GEO) and AI Brand Mentions service alongside its core SaaS SEO work. LLM SEO is included in the SEO retainer scope rather than sold separately.
+[Skale](https://skale.so/) is a London-based SaaS SEO agency that now positions as "AI search-first" and includes a dedicated [Generative Engine Optimization](/blogs/how-to-do-geo-for-saas/) (GEO) and AI Brand Mentions service alongside its core SaaS SEO work. LLM SEO is included in the SEO retainer scope rather than sold separately.
 
 **Firm Summary**
 

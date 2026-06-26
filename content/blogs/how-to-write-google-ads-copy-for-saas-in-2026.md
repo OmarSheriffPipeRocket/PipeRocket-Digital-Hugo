@@ -60,7 +60,7 @@ We need to know what happens inside the buyer’s brain the second they hit the 
 
 ### **How Do We Leverage AI for Deep Intent Mapping?**
 
-We open up an AI tool like ChatGPT or Gemini. We feed the AI our core Bottom-of-Funnel Topics. We then ask it a very direct set of questions about the searcher’s psychology. We ask the AI to explain exactly what a professional is looking for when they type these phrases into a search engine. We demand to know the psychological triggers behind the search.
+We open up an AI tool like ChatGPT or Gemini. We feed the AI our core [Bottom-of-Funnel](/blogs/how-to-rank-bofu-keywords-saas/) Topics. We then ask it a very direct set of questions about the searcher’s psychology. We ask the AI to explain exactly what a professional is looking for when they type these phrases into a search engine. We demand to know the psychological triggers behind the search.
 
 The AI analyzes massive amounts of search behavior data to give us the raw motivations. It tells us if the user is looking for speed. It tells us if the user is worried about compliance. It tells us if the user is hunting for a cheaper alternative to their current software. We take these psychological insights and use them as the foundation for everything we write next.
 
@@ -167,7 +167,7 @@ We analyze these top-heavy combinations to ensure they remain highly relevant wh
 
 We relentlessly review the performance data for every single individual headline. We look for the headlines dragging down the overall metrics. We identify the headline with the absolute lowest Click-Through Rate. We immediately weed out that low-performing asset. We then look at our top-performing headline.
 
-We write a slight variation of that winning concept. We replace the loser with this new variation. We force the ad to continually compete against its own best numbers. This constant pruning cycle ensures your Google ads copy gets sharper and more effective every single week.
+We write a slight variation of that winning concept. We replace the loser with this new variation. We force the ad to continually compete against its own best numbers. This constant pruning cycle ensures your [Google ads](/glossary/what-is-google-ads/) copy gets sharper and more effective every single week.
 
 **SaaS Example: The Continuous Pruning Cycle**
 
