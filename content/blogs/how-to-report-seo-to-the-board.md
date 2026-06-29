@@ -71,6 +71,10 @@ That's the slide. Rankings, traffic, publishing volume, all the operational deta
 
 One nuance worth naming. The "bet" and "risk" lines are what turn a report into a conversation. A number alone invites "okay, noted." A bet and a risk invite the board to actually engage, weigh in, and back you, which is the entire point of being in the room.
 
+{{< experience author="rohith" title="What we've started adding to board reports in 2026" >}}
+The board report we bring now looks different than it did a year ago, because AI search forced it to. Five things have earned a place on the slide or its first appendix page. AI traffic comes first: how many sessions came from ChatGPT, Perplexity, and Google's AI surfaces, broken out rather than buried inside "organic." Next, which prompts we're actually showing up for, because prompt presence is becoming the new ranking and boards want to see it. Then whether any of that AI traffic converts, since traffic a model sends only matters if it reaches pipeline. Fourth, when a line is down we bring the reason with the number, a data-backed read on why a segment of traffic declined instead of just the drop itself. And last, the ranking of the handful of core keywords that map to revenue, never the full tracker. A board doesn't want a rank report, it wants to know the few positions that matter are holding.
+{{< /experience >}}
+
 ## Step 3: Narrate It Like a QBR, Not a Status Update
 
 A board report is a story with a shape, not a list of metrics read aloud. The arc that lands is the same one we use in client quarterly reviews: where we said we'd go, what actually happened, what we're doing next.
