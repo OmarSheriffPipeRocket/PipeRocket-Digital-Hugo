@@ -41,6 +41,24 @@ def fmt(m):
     return (m["clicks"], m["impressions"], m["ctr"] * 100, m["position"])
 
 
+def short_page(page):
+    return page.replace("https://piperocket.digital", "") or "/"
+
+
+def page_intent_clicks(svc, site, start, end, country=None):
+    """{page: {intent: clicks}}, intent assigned per (page, query) row."""
+    dims = ["page", "query", "country"] if country else ["page", "query"]
+    rows = query(svc, site, dims, start, end)
+    if country:
+        rows = [r for r in rows if r["keys"][2] == country]
+    out = {}
+    for r in rows:
+        page, q = r["keys"][0], r["keys"][1]
+        out.setdefault(page, {}).setdefault(classify(q), 0)
+        out[page][classify(q)] += r.get("clicks", 0)
+    return out
+
+
 def line(label, cur, prev):
     cc, ci, cr, cp = fmt(cur)
     pc, pi, pr, pp = fmt(prev)
@@ -121,6 +139,31 @@ def main():
     print("=== REGION ===")
     line("Global", region(CUR_START, CUR_END), region(PREV_START, PREV_END))
     line("US", region(CUR_START, CUR_END, "usa"), region(PREV_START, PREV_END, "usa"))
+    print()
+
+    # --- Page-level click movers, per intent (finished vs prev week) ---
+    def page_movers(label, country):
+        cur = page_intent_clicks(svc, site, CUR_START, CUR_END, country)
+        prev = page_intent_clicks(svc, site, PREV_START, PREV_END, country)
+        print(f"=== PAGE-LEVEL CLICK MOVERS — {label} ===")
+        for intent in ("Brand", "ToFu+MoFu", "BoFu"):
+            deltas = []
+            for p in set(cur) | set(prev):
+                cn = cur.get(p, {}).get(intent, 0)
+                cp = prev.get(p, {}).get(intent, 0)
+                if (cn or cp) and cn != cp:
+                    deltas.append((short_page(p), cn, cp, cn - cp))
+            gainers = sorted([d for d in deltas if d[3] > 0], key=lambda x: -x[3])
+            losers = sorted([d for d in deltas if d[3] < 0], key=lambda x: x[3])
+            cur_tot = sum(cur.get(p, {}).get(intent, 0) for p in cur)
+            prev_tot = sum(prev.get(p, {}).get(intent, 0) for p in prev)
+            print(f"  {intent}  (clicks {cur_tot} vs {prev_tot})")
+            print("    gained: " + (", ".join(f"{p} {cp}->{cn} ({d:+d})" for p, cn, cp, d in gainers[:6]) or "none"))
+            print("    lost:   " + (", ".join(f"{p} {cp}->{cn} ({d:+d})" for p, cn, cp, d in losers[:6]) or "none"))
+        print()
+
+    page_movers("GLOBAL", None)
+    page_movers("US", "usa")
 
 
 if __name__ == "__main__":
