@@ -66,6 +66,10 @@ Take a compliance SaaS for fintech teams. Their busiest post was a regulation ex
 
 That inversion is the entire reason to do this. The post you'd never promote on a traffic chart is often the one carrying real money.
 
+{{< experience author="kim" title="Three opportunities to fifteen, on pages almost no one visited" >}}
+We grew one client from three sales opportunities to fifteen in two quarters without adding budget or churning out more content. Early on we did the usual thing, chasing high-volume terms while traffic climbed and pipeline sat flat. So we changed the question from what gets the most searches to what someone types when they already have the problem and need to fix it now. Those pages often pulled five to ten visitors a week, but the visitors were decision-makers, and in enterprise SaaS one of those is worth more than a thousand random clicks. If you valued those pages by traffic alone, you would have cut the exact ones quietly carrying the pipeline.
+{{< /experience >}}
+
 ## Step 3: Judge Each Post Against Its Page-Type Benchmark
 
 A revenue number means nothing until you compare it to what that page type should earn. A [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) and a definition post have completely different jobs, so they produce revenue at completely different rates. Score them against the same bar and you'll cut the wrong posts.

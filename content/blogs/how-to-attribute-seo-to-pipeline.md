@@ -102,6 +102,10 @@ First-touch tells you which content opens relationships that eventually close. L
 
 The honest read is that no single model is "correct." Each is a lens, and the channel influence often only becomes clear when you stop asking "which touchpoint gets the credit" and start asking "what actually moved this deal." Our team has watched a Factors report make this concrete in a paid context, where one channel was driving the awareness and another was closing, and neither looked right alone under last-click. The same logic governs organic: the assist is real even when it isn't the last click.
 
+{{< experience author="kim" title="The branded-search bump attribution kept missing" >}}
+On one account we watched homepage conversions climb 6 to 9 percent month over month for six straight months, with no campaign that explained it. The likeliest read: off-site mentions and AI tools were doing the discovery, people then searched the brand by name, and standard attribution filed all of it under branded or direct. It never credited the organic content that actually started those journeys. The lesson we took from it: when a chunk of demand keeps showing up as branded search you can't source, that is the dark funnel, and your model is undercounting the work that opened the relationship.
+{{< /experience >}}
+
 ![Comparison of first-touch, last-touch, and multi-touch attribution showing how the same closed deal credits different organic pages depending on the model chosen](/images/blog-infographics/how-to-attribute-seo-to-pipeline-infographic-2.webp)
 
 ## Step 4: Report Provable Pipeline and Influenced Pipeline Separately

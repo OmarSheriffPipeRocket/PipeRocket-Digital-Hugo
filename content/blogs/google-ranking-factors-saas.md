@@ -38,6 +38,10 @@ This is the single biggest lever, and it's the one most teams underrate. A page 
 
 Matching intent beats chasing volume every time. A polished 3,000-word guide aimed at the wrong intent won't outrank a tight [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) that answers the real question. Look at what's ranking for your target query, see whether Google wants a guide, a comparison, or a tool, and match that before you write a word.
 
+{{< experience author="kim" title="A page-two ranking we fixed with intent, not links" >}}
+One client sat stuck on page two for a core keyword for months. The page wasn't thin, it was aimed wrong: all methodology and credentials, when the searcher wanted a fix for a problem they had right now. We rewrote it to a straight problem-then-solution structure, opening with the pain instead of the company's bio. Within days it moved from page two to near the top of page one, and traffic to it rose about 30 percent. We didn't buy a single link. The only thing that changed was matching what the searcher actually wanted.
+{{< /experience >}}
+
 ### Pages Google can actually crawl and index
 
 You can't rank a page Google never sees, and this is where SaaS sites quietly lose. Crawlability and indexation are roughly 90% of [technical SEO](/glossary/what-is-technical-seo/) for a SaaS site, because you have one or two thousand pages, not the millions an ecommerce catalog carries.
