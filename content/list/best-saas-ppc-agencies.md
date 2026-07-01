@@ -814,6 +814,6 @@ KlientBoost has 402 reviews, Disruptive 365, and NinjaPromo 82. Powered by Searc
 
 ## Update History
 
-- **July 1, 2026:** Added GrowthSpree as #5 (flat-fee pipeline attribution model, verified live at 4.8/5 (38 reviews) on G2, correcting the vendor-submitted 4.9/5 (37 reviews)); Bounty Hunter through Kalungi each moved down one spot (#6-#11); total agencies 10 -> 11.
+- **July 1, 2026:** Added GrowthSpree as #5 (flat-fee pipeline attribution model, verified live at 4.8/5 (38 reviews) on G2); Bounty Hunter through Kalungi each moved down one spot (#6-#11); total agencies 10 -> 11.
 - **June 14, 2026:** Added MRR framing to the title and metas, a "What is a SaaS PPC Agency?" section, and a founder column to the comparison table.
 - **March 12, 2026:** Published.
