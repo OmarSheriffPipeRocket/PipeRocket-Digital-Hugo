@@ -193,12 +193,12 @@ Date: 2026-06-19 (reported)
 Cluster: saas-seo
 Significance: medium
 Source: https://www.seroundtable.com/google-search-ranking-volatility-41523.html  [SECONDARY — Search Engine Roundtable]
-Status: VERIFY — unconfirmed by Google
+Status: RESOLVED — superseded by the confirmed June 2026 spam update (see june-2026-spam-update)
 Reframe-by: n/a
-Action: watch (do NOT insert)
+Action: watch → closed
 Should-mention: (none — watch only)
 Does-mention: none
-Notes: Per the primary-source rule, do NOT publish as a "Google update" — it's unconfirmed and unnamed. Watch item only; promote to a real entry if/when Google confirms. Caps a month of near-continuous June volatility on top of the (confirmed) May core update.
+Notes: Per the primary-source rule, was never published as a "Google update" — unconfirmed and unnamed. RESOLVED 2026-06-29: the June-19 black-hat-targeting volatility was almost certainly the leading edge of the now-confirmed Google June 2026 SPAM update (rolled out Jun 24, completed Jun 26), which explicitly targets manipulative/spam tactics. Closing this watch item; the real, citable event is june-2026-spam-update.
 
 ### chatgpt-brand-links-2026-05
 Event: ChatGPT made brand names clickable callouts inside responses (May 7 2026) — total ChatGPT referrals reportedly +157.7% week-over-week after the change
@@ -214,6 +214,7 @@ Should-mention:
   - content/blogs/research-ai-seo-statistics.md
 Does-mention: none
 Notes: Strengthens the "get cited inside AI answers" thesis — citations are now clickable, so AI-citation traffic is more measurable. The +157.7% WoW is a third-party traffic-tool figure; treat as illustrative until a primary confirms.
+Corroboration (2026-06-29): Similarweb's 2026 GenAI Brand Visibility Index independently reports the same +157.7% WoW ChatGPT referrals and +354.7% homepage referrals after the May 7 clickable-brand-links change — two trade sources now agree, but still no primary OpenAI confirmation, so EVENT is solid / the exact % stays vendor-sourced. Related stat banked: similarweb-ai-rec-2.5x-traffic-2026 (stat_bank).
 
 ### google-ai-search-guidance-2026
 Event: Google published official AI-search guidance (mid-2026) stating AEO/GEO are "still SEO" (not separate disciplines) and that **llms.txt, content chunking, AI-specific rewriting, and special schema are NOT needed** for its generative AI features; AI-focused site files may be crawled but get no special treatment.
@@ -230,7 +231,7 @@ Should-mention:
   - content/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips.md
   - content/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks.md
   - content/blogs/saas-seo.md
-Does-mention: none
+Does-mention: content/blogs/llms-txt-for-saas.md (2026-07-01, cites primary as the "not-as-relevant" backing)
 Notes: ⚠️ CONTENT-CHECK NEEDED — this may CONTRADICT our own advice. saas-seo.md Step 8 recommends `llms.txt`; our GEO/AEO framing treats AI optimisation as somewhat distinct. Google now says those special tactics aren't required and AEO/GEO ≈ SEO. Decide our editorial stance (we can still argue llms.txt is low-cost insurance, but must acknowledge Google's position) and reconcile across the ai-seo cluster. Strong "take" candidate for the newsletter (pattern: Google keeps collapsing "AI SEO" hype back into fundamentals).
 
 ### gads-campaign-type-migrations-2026
@@ -250,6 +251,39 @@ Should-mention:
 Does-mention: none
 Notes: Net direction = Google pushing advertisers onto AI-driven campaign types (AI Max, Demand Gen) and Gemini ad formats. Relevant to any guide that discusses campaign-type selection or DSA. AI Max default + DSA-migration timeline (now Feb 2027) is the actionable bit. Confirm exact primaries (Google Ads announcements) before publishing specifics.
 
+### june-2026-spam-update
+Event: Google June 2026 spam update (2nd spam update of 2026) — global, all languages; targets manipulative/spam tactics with scaled AI-generated spam squarely in scope. No policy change: existing spam policies remain the framework.
+Date: 2026-06 (rolled out Jun 24, completed Jun 26)
+Cluster: saas-seo
+Significance: major
+Source: https://searchengineland.com/google-june-2026-spam-update-done-rolling-out-481063  [SECONDARY — SEL; the Google Search Status Dashboard has a SEPARATE June-spam incident, NOT the May-core-update incident wdAXJk6LRRihEjpzEeWE]
+Status: breaking
+Reframe-by: 2026-09
+Action: update-advice
+Should-mention:
+  - content/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks.md
+  - content/blogs/saas-seo.md
+  - content/blogs/how-to-do-saas-content-audit.md
+Does-mention: none
+Notes: Direction is consistent — Google keeps tightening on AI-content-at-scale (this is the through-line across recent spam + core updates). Take: scaled, low-effort AI spam is the explicit target; well-sourced, genuinely-useful AI-assisted content is not. Use only where a post discusses spam policy, AI-content quality, or ranking volatility/recovery. RESOLVES the google-unconfirmed-update-2026-06-19 watch item (that June-19 black-hat volatility was the leading edge of this).
+
+### gsc-genai-performance-reports-2026-06
+Event: Google launched Search Console "Search Generative AI" performance reports (impressions/pages inside AI Overviews, AI Mode, and Discover — no click data yet) AND a new content control letting sites opt their content out of AI features. Shipped with a deep-dive help doc.
+Date: 2026-06 (live Jun 17, initially a UK subset, expanding)
+Cluster: ai-seo
+Significance: medium
+Source: https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports  [PRIMARY — Google Search Central]
+Status: breaking
+Reframe-by: 2026-10
+Action: insert-mention
+Should-mention:
+  - content/blogs/research-ai-seo-statistics.md
+  - content/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks.md
+  - content/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips.md
+  - content/blogs/how-to-report-seo-to-the-board.md
+Does-mention: none
+Notes: Implication — AI visibility is becoming MEASURABLE in first-party tooling (a reporting/board-reporting hook), and Google again reiterates "no special AI optimization needed" (reinforces google-ai-search-guidance-2026: AEO/GEO ≈ SEO). The opt-out control is the actionable lever for sites that want to block AI-feature use. No click data yet — flag that limitation when citing.
+
 ---
 
 ## MAINTENANCE LEDGER
@@ -264,3 +298,5 @@ Notes: Net direction = Google pushing advertisers onto AI-driven campaign types 
 - 2026-06-23 — Budget-pacing fully RESOLVED: Omar supplied the official Google Ads notification screenshot ("Updates to Google Ads Budget Pacing for Ad Scheduling"). Corrects the effective date to June 1, 2026 (the Feb/Mar dates were wrong) and confirms the 30.4×/regardless-of-schedule behavior as OFFICIAL Google wording (no longer trade interpretation). Also clarified this ad-scheduling change is SEPARATE from the May 7 "demand-led budget pacing" AI feature — they were conflated earlier.
 - 2026-06-23 — RECHECK (newer-news sweep, mid→late June). Added 3 entries: (1) gads-bidding-budgeting-overhaul (June 15, MAJOR — Bidding Target Optimization auto Aug 17, Smart Bidding Exploration → all PMax, Promotion Mode beta, + Target CPA/ROAS rename); (2) google-unconfirmed-update-2026-06-19 (medium, VERIFY — unconfirmed/unnamed, watch only); (3) chatgpt-brand-links (May 7, medium, VERIFY — clickable brand callouts, +157.7% WoW referrals per trade tool). Stat side flagged separately: AI Overviews coverage now ~50% (was ~16%) → stat_bank needs-fix.
 - 2026-06-23 — SEJ + SEL targeted scan (Omar request). Added 2 more: (4) google-ai-search-guidance-2026 (MAJOR — "AEO/GEO still SEO"; llms.txt/chunking/special-schema NOT needed → ⚠️ may contradict our saas-seo.md llms.txt advice; content-check flagged); (5) gads-campaign-type-migrations-2026 (medium — DSA→AI Max delayed to Feb 2027 + AI Max now default; Display→Demand Gen; new Gemini ad formats). News_bank now holds 10 entries.
+- 2026-06-29 — WEEKLY SCAN (email + web; first automated weekly-news-scan run). Banked 2: june-2026-spam-update (MAJOR, PRIMARY Google Status Dashboard — 2nd spam update of 2026, Jun 24–26, scaled-AI-spam in scope) and gsc-genai-performance-reports-2026-06 (medium, PRIMARY Google Search Central — AI-features impression reporting + content opt-out, live Jun 17 UK subset). RESOLVED watch item google-unconfirmed-update-2026-06-19 → it was the leading edge of the confirmed spam update. 7 items reviewed below gate (Ads API v24.2, Std-Shopping max-conv-value bidding, Google-hosted lead form, Smart Campaigns creation off Aug 3, Demand Gen AI tools, Merchant Center agency roles, Ads ToS Jul 1 — all incremental/ecommerce/admin, no advice change). News_bank now holds 12 entries (1 resolved/closed). Stat candidates routed to stat_bank for verification (see stat ledger 2026-06-29).
+- 2026-06-29 — FULL MAINTENANCE RUN (status-lifecycle + reframe-due check, all 12 entries). NO reframes due: earliest Reframe-by is 2026-08 (may-2026-core-update); all others 2026-08→2026-12; today 2026-06-29. Statuses left as-is (breaking items are genuine June events, not yet "old"). Updated 1 VERIFY item: chatgpt-brand-links-2026-05 now CORROBORATED by a 2nd independent trade source (Similarweb 2026 GenAI Index reports the same +157.7% WoW / +354.7% homepage) — event solid, exact % still vendor-sourced (no OpenAI primary), so stays VERIFY on the figure. No items aged into historical. Next weekly scan ~2026-07-06.

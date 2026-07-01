@@ -198,17 +198,17 @@ Referenced-by:
   - content/blogs/b2b-content-marketing-guide.md
 Note: bot-blocks curl (403) — verify in browser.
 
-### cmo-council-90pct-online-content
-Claim: 90% of buyers' purchasing decisions are significantly impacted by online content
+### cmo-council-87pct-online-content
+Claim: 87% of B2B buyers say online content has a major or moderate impact on vendor selection
 Source: https://www.cmocouncil.org/thought-leadership/reports/btob-content-impacts-customer-thinking--buying-decisions
-Publisher: CMO Council
+Publisher: CMO Council ("Better Lead Yield in the Content Marketing Field," 400+ B2B content seekers)
 Provenance: primary
-Published: undated
+Published: undated (report is ~2013-era)
 Cadence: one-off
-Status: needs-fix
+Status: keep
 Referenced-by:
   - content/blogs/b2b-inbound-marketing-guide.md
-Note: 2026-06-23 maintenance — ⚠️ FIGURE LIKELY WRONG. CMO Council's documented stat is ~87% ("major or moderate impact on vendor selection"), not 90%, and the underlying report ("Better Lead Yield…") is old (~2013-era). ACTION: correct the blog to 87% with the right report, or replace with a current content-impact stat (e.g. the 6sense/Gartner self-serve figures already in this bank). Do not leave 90% as-is.
+Note: 2026-06-29 — RESOLVED. Was "90%" (wrong); corrected to the documented 87% "major or moderate impact on vendor selection" and applied to b2b-inbound-marketing-guide.md. Underlying report is dated (~2013) but it's the canonical source for this exact figure; status `keep` (don't re-flag on age). If the page 404s or a current equivalent is needed, swap to a 6sense/Gartner self-serve figure already in this bank.
 
 ### 6sense-60pct-journey-before-contact
 Claim: buyers contact sellers only after ~60% of the journey is complete
@@ -294,16 +294,17 @@ Referenced-by:
   - content/blogs/b2b-marketing.md
 Note: 2026-06-23 — replaced the expired "87% ROI by end of 2025" prediction with current 2026 Adobe figures. Link bot-blocks curl (000) — verify in browser.
 
-### google-offline-conv-20-30
-Claim: advertisers using offline conversion tracking see 20–30% improvement in conversion quality
-Source: https://support.google.com/google-ads/answer/2998031
-Publisher: Google Ads Help
+### google-offline-conv-10pct-firstparty
+Claim: advertisers who pair first-party data (email/phone) with GCLIDs in offline import see a median 10% increase in conversions vs standard offline imports
+Source: https://support.google.com/google-ads/answer/2998031?hl=en
+Publisher: Google Ads Help ("About offline conversion imports")
 Provenance: primary
 Published: undated (support doc)
 Cadence: living-page
 Status: fresh
 Referenced-by:
   - content/blogs/b2b-ppc-guide.md
+Note: 2026-06-29 FULL-MAINTENANCE — RESOLVED. The prior "20–30% improvement in conversion quality" was NOT on the Google page and no credible primary backed it (web case studies cite unrelated 74%/89%); treated as unsourced and replaced. APPLIED to b2b-ppc-guide.md: now Google's documented "median 10% increase in conversions" for first-party-data + GCLID offline import (verified on-page 2026-06-29, quote confirmed via fetch). Source URL fixed to ?hl=en. lastmod bumped 2026-06-29.
 
 ### hbr-5min-21x-lead-response
 Claim: contacting a lead within 5 minutes increases qualification 21x vs waiting 30 minutes
@@ -363,8 +364,8 @@ Cadence: recurring
 Status: volatile
 Referenced-by:
   - content/blogs/fintech-seo-guide.md
-Note: 2026-06-23 — fix APPLIED to fintech-seo-guide (was "~16% Semrush", now "more than half / ~60%"). Highly volatile; re-check often. Old Semrush ~16% figure retired.
-Note: 2026-06-23 RECHECK — ⚠️ live figure (~16%, late-2025 Semrush) is BADLY STALE; mid-2026 coverage is ~50%. Source stays Semrush until the blog is updated (keeps Referenced-by accurate); apply Replaced-by to fintech-seo-guide.md (×2) as "roughly half of US searches (2026)" — state "roughly half," not false precision. Highly volatile.
+Note: 2026-06-23 — fix APPLIED to fintech-seo-guide (was "~16% Semrush", now "more than half / ~60%"). Old Semrush ~16% figure retired.
+Note: 2026-06-29 RECHECK — RESOLVED, no longer needs-fix. Confirmed current: mid-2026 trackers still span ~48% (BrightEdge, 9-industry) to 60.32% (xponent21/Advanced Web Ranking); Conductor's broader 21.9M-query benchmark is lower (~25%). fintech-seo-guide.md reads "more than half of US searches... above 60% (60.32%)" — matches. Status stays `volatile` (methodology-dependent; re-check each run). Caveat for future cites: the 60%+ figure is from commercial/keyword-set trackers; broad-query benchmarks run lower.
 
 ### statcounter-90pct-google
 Claim: ~90% of people still use Google
@@ -417,17 +418,29 @@ Referenced-by:
   - content/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips.md
 Note: INTENTIONAL BACKLINK — a link we gave Obelisk as part of a backlink relationship. Do NOT flag for replacement or removal on quality grounds. Only revisit if the URL 404s.
 
-### sap-sapphire-2023-example
-Claim: (anecdote/example, not a stat) SAP Sapphire 2023 booth engagement case
-Source: https://www.b2bsalesarrow.com/img/pdfs/sap-saphire-2023.pdf
-Publisher: B2B Sales Arrow (PDF)
-Provenance: secondary-recap
-Published: 2023
+### towcenter-ai-citation-60pct-wrong
+Claim: AI search engines cited sources incorrectly in more than 60% of tests
+Source: https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php
+Publisher: Tow Center for Digital Journalism, Columbia (via Columbia Journalism Review)
+Provenance: primary
+Published: 2025-03
 Cadence: one-off
-Status: needs-fix
+Status: fresh
 Referenced-by:
-  - content/blogs/b2b-marketing.md
-Note: 2026-06-23 maintenance — this is an event anecdote, NOT a statistic; it doesn't belong in stat_bank. ACTION: remove this entry (the blog reference itself is fine to keep as a story). Flagged for removal next pass.
+  - (none — no content currently cites this source)
+Note: 2026-06-29 — added from weekly news scan. 200 queries across 8 AI search engines (ChatGPT Search, Perplexity/Pro, Gemini, DeepSeek, Grok-2/3). Supports the "AI answers are confidently wrong → being a clearly-attributable, authoritative source matters" thesis. Good for research-ai-seo-statistics / how-to-rank-on-chatgpt.
+
+### similarweb-ai-rec-2.5x-traffic-2026
+Claim: brands recommended in ChatGPT were 2.5x more likely to get a site visit within 7 days; ~56% of that downstream traffic came via branded search
+Source: https://www.similarweb.com/blog/marketing/geo/gen-ai-stats/
+Publisher: Similarweb (2026 GenAI Brand Visibility Index)
+Provenance: vendor-study
+Published: 2026
+Cadence: recurring
+Status: fresh
+Referenced-by:
+  - (none — no content currently cites this source)
+Note: 2026-06-29 — added from weekly news scan. The branded-search share (55.9%) is the mechanism: AI recommends a brand → user searches the brand name → counts as branded organic, so AI influence hides in branded search (dark-funnel point). Vendor study — label as Similarweb. SEJ recap: https://www.searchenginejournal.com/ai-recommended-brands-saw-2-5x-more-site-visits-similarweb/580241/
 
 ---
 
@@ -438,3 +451,7 @@ Log material stat swaps here (old → new, date) so dateModified reflects real c
 - 2026-06-23 — Refresh batch (8 stats updated in-content + bank, lastmod bumped on 7 blogs): zero-click 57% (Semrush) → 68% (SparkToro/Similarweb 2026); AI Overviews 13.14%/Mar-2025 → ~16%/late-2025; Forrester 89% genAI → primary report (was Discovered Labs recap); Gartner "60–70% via Martal" → Gartner 17%-with-suppliers (mis-attribution fixed); Gartner rep-free 61%/2025 → 67%/2026; Adobe expired "87% by end-2025" → 2026 GenAI gains (76%/65%); HBR 21x reframed as classic (status keep); HubSpot tracking-string stripped. Obelisk marked keep (intentional backlink).
 - 2026-06-23 — MAINTENANCE RUN (link-alive + age + newer-figure on all 29). Links: no dead URLs (403/000 = known bot-blocked domains). Resolved 4 of 6 flagged entries to `fresh`/confirmed: Gartner 6–10 buying group (still current), Paddle CAC +60%/5yr (corroborated by 2026 data), Bain/Google shortlist (HBR 2022 still canonical; recaps now cite 92–95%), 6sense ~10 decision-makers (consistent w/ Gartner). 2 set to `needs-fix`: (a) cmo-council "90%" is likely WRONG — documented figure is ~87% and source is ~2013-era → blog b2b-inbound-marketing-guide.md needs correction; (b) sap-sapphire-2023 is an anecdote not a stat → remove from bank. No newer-edition swaps needed this run.
 - 2026-06-23 — RECHECK (newer-stats sweep). ⚠️ Found a BADLY STALE live stat: AI Overviews coverage — our entry said ~16% (late-2025 Semrush) but mid-2026 trackers show ~48–60% (Google ~50%). Entry rewritten to `aio-coverage-half-2026`, status `needs-fix` — fintech-seo-guide.md (×2) needs updating to "roughly half of US searches (2026)". Now 3 `needs-fix` total (AIO, CMO Council, SAP-anecdote). Other volatile stats (zero-click 68% June-2026, statcounter, Social Insider) remain current.
+- 2026-06-29 — WEEKLY SCAN intake. Added 2 verified stats flagged by the weekly news scan: towcenter-ai-citation-60pct-wrong (PRIMARY — Columbia Tow Center / CJR, Mar 2025) and similarweb-ai-rec-2.5x-traffic-2026 (vendor-study — Similarweb 2026 GenAI Brand Visibility Index). Both not yet referenced in content (Referenced-by empty) — candidates for research-ai-seo-statistics.md and how-to-rank-on-chatgpt. Skipped: GSC "AI impression/CTR" (no click data published yet, not a citable stat); AIO coverage already covered by aio-coverage-2026. The "ChatGPT-recommended-brand study" the scan listed = the same Similarweb index (deduped).
+- 2026-06-29 — FULL MAINTENANCE RUN. Regenerated Referenced-by via sync_stat_bank_refs.py (--write; the 2 new entries had empty lists, now correct). Cleared all 3 open needs-fix: (1) cmo-council "90%" → corrected to documented 87% ("major/moderate impact on vendor selection"), APPLIED to b2b-inbound-marketing-guide.md (lastmod bumped 2026-06-29), entry renamed cmo-council-87pct-online-content, status keep; (2) aio-coverage-2026 → RESOLVED, fintech-seo-guide.md already reads "more than half / 60.32%", confirmed current vs mid-2026 trackers (BrightEdge ~48% / xponent21 60.32% / Conductor ~25% on broad queries), stays volatile; (3) sap-sapphire-2023-example → REMOVED (event anecdote, not a stat; blog story untouched). Newer-figure re-check on volatile entries (zero-click 68% SparkToro Jun-2026, statcounter ~90%, Social Insider LinkedIn) — all still current, no swaps. needs-fix queue cleared.
+- 2026-06-29 — COMPLETE LINK-ALIVE + AGE SWEEP across ALL 30 entries (curl -IL, browser-verify exception for known bot-blockers). Results: most 200 OK. 403 (verify-in-browser, NOT dead): Gartner ×4, Edelman, 6sense ×3, SparkToro, Tow Center/CJR. 000 (conn refused, known bot-block): adobe-87pct-ai-roi-2025 — unchanged, browser-verify. ⚠️ NEW needs-fix found: google-offline-conv-20-30 — bare URL 404'd; page IS live at ?hl=en (Source fixed), but the "20–30% conversion-quality" figure is NOT on the current page (Google now documents a ~10% median lift for enhanced conversions) → flagged needs-fix, b2b-ppc-guide.md must reframe to ~10% or source the 20–30%. AGE check: >18mo entries = forrester-13-people (2024) + forrester-89pct-genai (2024) [aging but canonical annual/one-off, no newer edition found → kept], bain-google-shortlist (2022) + hbr-5min-21x (2011) [intentional `keep`, classics]. NEWER-FIGURE: full re-check on volatile + flagged this run; the ~24 stable primary/evergreen entries were newer-figure-checked 2026-06-23 (6 days prior) and not re-fetched (no edition cycle that fast). NET: all other entries link-alive + age-checked + current.
+- 2026-06-29 — RESOLVED google-offline-conv: no primary backed the "20–30% conversion quality" claim, so replaced with Google's on-page documented figure — "median 10% increase in conversions" for first-party-data + GCLID offline import (verified via fetch). Entry renamed google-offline-conv-10pct-firstparty (status fresh); APPLIED to b2b-ppc-guide.md (lastmod 2026-06-29). needs-fix queue now EMPTY (0).
