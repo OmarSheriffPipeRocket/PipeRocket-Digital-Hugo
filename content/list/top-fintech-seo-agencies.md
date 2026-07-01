@@ -329,7 +329,7 @@ Best for: HubSpot-native fintechs that want inbound funnels routed straight into
 | Founded | ~2017 |
 | Team Size | 10-49 people |
 | Notable Clients | MoneyCorp, Iwoca, Monavate |
-| Specialization | HubSpot, inbound marketing, fintech SEO |
+| Specialization | HubSpot, inbound marketing, [fintech SEO](/blogs/fintech-seo-guide/) |
 
 **The Distinctive Move:** Evara builds inbound funnels with HubSpot wired into every step, so leads route to sales without manual handoffs.
 
