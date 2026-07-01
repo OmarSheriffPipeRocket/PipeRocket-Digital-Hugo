@@ -259,28 +259,29 @@ Referenced-by:
   - content/blogs/b2b-lead-generation.md
 Note: 2026-06-23 — tracking query-string stripped to the bare URL in the blog.
 
-### socialinsider-linkedin-2000-views
-Claim: LinkedIn pages >100k followers can generate up to 2,000 views per video
+### socialinsider-linkedin-video-views
+Claim: LinkedIn pages with 100k–1M followers average ~1,380 video views per post (down from 2,430 a year earlier)
 Source: https://www.socialinsider.io/social-media-benchmarks/linkedin
-Publisher: Social Insider (2025 LinkedIn benchmarks)
+Publisher: Social Insider (2026 LinkedIn benchmarks)
 Provenance: vendor-study
-Published: 2025
+Published: 2026
 Cadence: living-page
 Status: volatile
 Referenced-by:
   - content/blogs/b2b-linkedin-marketing-guide.md (×2)
-Note: living benchmark page — numbers drift; re-check often.
+Note: living benchmark page, numbers drift, re-check often. 2026-07-01 UPDATE: was "up to 2,000 views per video" (2025); current page reads ~1,380 avg for 100k–1M pages (was 2,430 prior year), ~36% YoY decline across page sizes.
 
-### socialinsider-linkedin-carousel-6-6
-Claim: carousel/multi-image LinkedIn posts drive ~6.6% engagement
+### socialinsider-linkedin-format-engagement
+Claim: native document posts lead LinkedIn engagement at ~7.0%, multi-image ~6.45%, ahead of image (5.3%) and text (4.5%)
 Source: https://www.socialinsider.io/social-media-benchmarks/linkedin
-Publisher: Social Insider
+Publisher: Social Insider (2026 LinkedIn benchmarks)
 Provenance: vendor-study
-Published: 2025
+Published: 2026
 Cadence: living-page
 Status: volatile
 Referenced-by:
   - content/blogs/b2b-linkedin-marketing-guide.md (×2)
+Note: 2026-07-01 UPDATE: previously stored as "carousel/multi-image ~6.6% engagement" (2025). Current page: native documents now the top format at ~7.0%, multi-image 6.45%.
 
 ### adobe-87pct-ai-roi-2025
 Claim: organisations report moderate-to-significant GenAI gains in content production (76%) and marketing-driven revenue growth (65%)
@@ -441,6 +442,30 @@ Status: fresh
 Referenced-by:
   - (none — no content currently cites this source)
 Note: 2026-06-29 — added from weekly news scan. The branded-search share (55.9%) is the mechanism: AI recommends a brand → user searches the brand name → counts as branded organic, so AI influence hides in branded search (dark-funnel point). Vendor study — label as Similarweb. SEJ recap: https://www.searchenginejournal.com/ai-recommended-brands-saw-2-5x-more-site-visits-similarweb/580241/
+
+### benchmarkit-saas-cac-payback-16mo
+Claim: median SaaS CAC payback sits around 16 months; bottom-quartile teams wait two years or more
+Source: https://www.benchmarkit.ai/2025benchmarks
+Publisher: Benchmarkit (2025 B2B SaaS Performance Metrics)
+Provenance: vendor-study
+Published: 2025
+Cadence: annual
+Status: fresh
+Referenced-by:
+  - content/blogs/saas-marketing-challenges-and-fixes.md
+Note: 2026-07-01 — added during blog refresh of saas-marketing-challenges-and-fixes. Replaced an inverted/overstated in-blog claim (old text framed payback as rising to ~18mo from ~14mo; actual trend improved to ~16mo median). Corroborated by FirstPageSage SaaS CAC payback report + Aleph 2026. Volatile benchmark — re-check annually.
+
+### firstpagesage-saas-seo-roi-702
+Claim: average B2B SaaS SEO ROI ~702% over the first 3 years; break-even ~7 months (~$22 back per $1)
+Source: https://firstpagesage.com/reports/seo-roi-statistics-fc/
+Publisher: FirstPageSage (SEO ROI Statistics)
+Provenance: vendor-study
+Published: 2026
+Cadence: living-page
+Status: fresh
+Referenced-by:
+  - (none — no content currently cites this source)
+Note: 2026-07-01 — added during blog refresh of enterprise-saas-seo-guide (cited softly as "industry benchmarks... treat as directional"). 702% is a median across FirstPageSage's B2B SaaS clients, not a guarantee — always frame as directional. Vendor study; re-check figure periodically.
 
 ---
 

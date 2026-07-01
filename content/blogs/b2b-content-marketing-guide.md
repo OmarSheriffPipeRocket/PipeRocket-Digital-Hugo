@@ -2,9 +2,9 @@
 title: "The Ultimate Guide to B2B Content Marketing"
 description: "Do you feel like you’re spending more on ads but getting less in return? It is a brutal reality for modern businesses. B2B buyers have become almost immune to anything that looks or sounds like traditional marketing. They’ve stopped picking up calls, they scroll past ads, and they only talk to sales when they’ve already […]"
 metaTitle: "B2B Content Marketing: Everything You Need to Know"
-metaDescription: "Turn your website into a 24/7 salesperson. Discover the 2025 B2B content guide to attract better leads and prove ROI."
+metaDescription: "Turn your website into a 24/7 salesperson. A practical B2B content guide to attract better leads and prove ROI."
 date: 2025-12-10
-lastmod: 2026-05-12
+lastmod: 2026-07-01
 slug: "b2b-content-marketing-guide"
 writtenBy: "kim"
 category: "B2B Content Marketing"
@@ -118,11 +118,11 @@ This is where most B2B marketers fail. They follow the “publish and pray” me
 
 A winning B2B strategy requires a diverse portfolio of assets, each designed to perform a specific job in the buyer’s journey. 
 
-Here are the six non-negotiable pillars you need to build.
+Here are the five core content types you need.
 
 ### 1. Blog Posts & Long-Form Articles
 
-This is the foundation of your organic growth. In B2B, “thin” content is dead. To rank in 2025, your articles must be comprehensive, expert-driven resources that answer specific industry questions better than anyone else.
+This is the foundation of your organic growth. In B2B, “thin” content is dead. To rank now, your articles must be comprehensive, expert-driven resources that answer specific industry questions better than anyone else.
 
 **Best for:** Awareness (Top of Funnel), Organic Search (SEO).
 
@@ -140,11 +140,11 @@ Nothing builds confidence like peer-to-peer validation. B2B buyers are risk-aver
 
 ### 4. Webinars & Video Content
 
-In a digital-first world, video is how you scale human connection. Webinars allow you to demo products and answer questions in real-time. Crucially, a single webinar can be repurposed into dozens of social clips, blog posts, and YouTube shorts.
+Video is how you scale human connection. Webinars let you demo products and answer questions in real time. Crucially, a single webinar can be repurposed into dozens of social clips, blog posts, and YouTube shorts.
 
 **Best for:** Engagement, Explaining Complex Ideas.
 
-### 6. Newsletters & Email Content
+### 5. Newsletters & Email Content
 
 Most leads aren’t ready to buy the day they find you. An educational (not salesy) newsletter keeps you top-of-mind for weeks or months until a budget opens up. The secret is to deliver value directly in the inbox, rather than just forcing clicks.
 
@@ -186,7 +186,7 @@ B2B content marketing is evolving fast. Here are the trends shaping the future o
 
 The era of chasing “blue links” is fading. 
 
-With the rollout of Google’s [AI Overviews](/glossary/what-is-an-ai-overview/) (SGE), users are getting answers directly on the search results page without ever visiting a website. [Bain’s 2025 research](https://www.bain.com/insights/goodbye-clicks-hello-ai-zero-click-search-redefines-marketing/) confirms just how dramatic this shift is: 80% of consumers rely on AI-based “zero-click” results at least 40% of the time.
+With Google’s [AI Overviews](/glossary/what-is-an-ai-overview/) now appearing on roughly half of all searches (and even more of informational queries), users increasingly get answers directly on the search results page without ever visiting a website. [Bain’s 2025 research](https://www.bain.com/insights/goodbye-clicks-hello-ai-zero-click-search-redefines-marketing/) confirms just how dramatic this shift is: 80% of consumers rely on AI-based “zero-click” results at least 40% of the time.
 
 ![Zero Click Trend Statistic](/images/wp-import/12_Zero-Click-Trend-Statistic.png)
 
@@ -206,7 +206,7 @@ With AI, companies can now tailor emails, [landing pages](/glossary/what-is-a-la
 
 ## Step-by-Step Implementation Roadmap for B2B Content Marketing
 
-If you are starting from scratch or trying to fix our content process, here is your practical 8-step checklist to get moving.
+If you are starting from scratch or trying to fix your content process, here is a practical 8-step checklist to get moving.
 
 ### 1. Audit Existing Content & Assets
 
