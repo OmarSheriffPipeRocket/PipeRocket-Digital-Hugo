@@ -163,7 +163,7 @@ It's selecting pages that best supply the specific answer format it needs, regar
 
 ### Why is Google not citing my SaaS pages even though they rank well?
 
-The most common reason is a format mismatch. SaaS pages are built for conversion: feature lists, CTAs, benefit statements, social proof. That structure ranks fine. But AIO runs an extraction job on the page and finds sales architecture, not a direct answer.
+The most common reason is a format mismatch. SaaS pages are built for conversion: feature lists, CTAs, benefit statements, [social proof](/blogs/saas-social-proof/). That structure ranks fine. But AIO runs an extraction job on the page and finds sales architecture, not a direct answer.
 
 The second common reason is missing off-page brand signals. If Google hasn't seen your brand appear in third-party contexts (listicles, review platforms, community discussions), it has limited trust to extend to a citation.
 

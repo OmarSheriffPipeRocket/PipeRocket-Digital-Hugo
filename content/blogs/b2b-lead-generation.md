@@ -197,7 +197,7 @@ Before anything else, get clarity on who you’re targeting and who’s involved
 **Try this:**
 
 - Identify 10–15 of your best customers and document common traits (industry, size, budget).
-- Map the typical buying committee — decision-maker → user → influencer → finance/IT.
+- Map the typical [buying committee](/blogs/linkedin-buying-committee-saas/) — decision-maker → user → influencer → finance/IT.
 - Document each person’s pain points so your messaging speaks directly to their role.
 
 ### Step 2: Build Your Multi-Channel Mix

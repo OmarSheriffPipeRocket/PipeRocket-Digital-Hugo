@@ -177,7 +177,7 @@ The saas marketing challenges we have covered here are not going away. CAC will 
 - **Rising CAC** — shift toward compounding channels and tighten your paid spend to high-intent audiences
 - **Content not converting** — map to buyer intent, add clear CTAs, and audit before you create more
 - **Dark social** — show up where your buyers are and create content worth sharing
-- **Stakeholder complexity** — build content for every persona in the buying committee
+- **Stakeholder complexity** — build content for every persona in the [buying committee](/blogs/linkedin-buying-committee-saas/)
 - **Churn** — tighten your ICP, align messaging to reality, and invest in post-sale content
 - **Attribution** — blend quantitative data with self-reported signals and stop chasing perfect measurement
 

@@ -254,7 +254,7 @@ Say you sell customer support software and a prospect who heard about you on a p
 - CPCs are higher than they should be for the category and [CTR](/glossary/what-is-ctr/) is underperforming
 - Nobody connects any of those symptoms back to the copy because the copy reads well on its own
 
-But here is how Google sees it. Relevance between your keyword, your ad, and your landing page is what determines your Quality Score, and your Quality Score directly determines what you pay per click.
+But here is how Google sees it. Relevance between your keyword, your ad, and your landing page is what determines your [Quality Score](/blogs/saas-quality-score/), and your Quality Score directly determines what you pay per click.
 
 When the copy does not reflect the keyword, you are paying a premium for every click that a better-aligned ad would have gotten for less. And from the searcher’s side, they typed something specific, they are scanning the results looking for an ad that feels like it was written for that search, and if yours does not read that way, they move past it without a second look.
 
@@ -289,7 +289,7 @@ This one genuinely frustrates me because it takes twenty minutes to fix, costs a
 - On the results page, every competitor running a full extension setup takes up significantly more space with more links, more context, more reasons to click
 - Your ad sits next to them looking incomplete by comparison
 - CTR underperforms and it never gets traced back to the missing extensions because on paper the campaign looks set up correctly
-- Opportunities to surface pricing, key features, social proof, or direct CTAs are just sitting there unused
+- Opportunities to surface pricing, key features, [social proof](/blogs/saas-social-proof/), or direct CTAs are just sitting there unused
 
 Extensions do not add to your cost per click. You pay the same whether they are there or not. All they do is make your ad bigger, more informative, and more relevant to different types of buyers. There is genuinely no downside to having them.
 

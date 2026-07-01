@@ -213,7 +213,7 @@ B2B buying cycles are long, and email is what keeps prospects engaged during the
 - Set up welcome flows, lead nurtures, and demo follow-ups
 - Segment by role, industry, and behavior
 - Use intent signals to trigger personalized emails
-- Mix education, social proof, and product value
+- Mix education, [social proof](/blogs/saas-social-proof/), and product value
 
 ### 4. Thought Leadership & Social Presence
 

@@ -41,7 +41,7 @@ SaaS SEO differs from traditional SEO in one decisive way: your buyer almost nev
 
 Traditional SEO optimises for a ranking and a click. SaaS SEO optimises for a buying committee across that entire journey.
 
-A CMO searching "best project management software" and a developer searching "project management API integration" are often on the same buying committee. Your strategy has to reach both, at different moments, with different content. As Eli Schwartz argues in *Product-Led [SEO](/glossary/what-is-seo/)*, the strongest SaaS programme is built around the product, and the keywords flow from there.
+A CMO searching "best project management software" and a developer searching "project management API integration" are often on the same [buying committee](/blogs/linkedin-buying-committee-saas/). Your strategy has to reach both, at different moments, with different content. As Eli Schwartz argues in *Product-Led [SEO](/glossary/what-is-seo/)*, the strongest SaaS programme is built around the product, and the keywords flow from there.
 
 | | Traditional SEO | SaaS SEO |
 | --- | --- | --- |
@@ -74,7 +74,7 @@ Here's what each part is responsible for. This is the map. Each one has its own 
 
 ### Content: BOFU-first, built in clusters
 
-Content is where most SaaS SEO budget goes, and where most of it is wasted. The fix is to build bottom-of-funnel first. [Comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternatives pages, integration pages, and pricing content get built before thought-leadership, because a comparison page with 300 visits at 15% conversion beats a trend article with 10,000 visits at 0.2%.
+Content is where most SaaS SEO budget goes, and where most of it is wasted. The fix is to build [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) first. [Comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternatives pages, integration pages, and pricing content get built before thought-leadership, because a comparison page with 300 visits at 15% conversion beats a trend article with 10,000 visits at 0.2%.
 
 Then you organise it as clusters. One pillar page covers the broad topic, 10 to 15 spokes cover every sub-topic, and every spoke links back to the pillar. That architecture is what signals [topical authority](/blogs/how-to-improve-topical-authority/) to Google and gives AI engines a coherent body of work to cite.
 

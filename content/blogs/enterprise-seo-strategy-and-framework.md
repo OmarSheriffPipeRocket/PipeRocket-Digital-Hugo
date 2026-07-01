@@ -5,7 +5,7 @@ metaTitle: "Enterprise SEO Strategies: The 7-Step Framework for Growth"
 metaDescription: "A complete 7-step Enterprise SEO strategy framework built for B2B teams who want organic search to generate pipeline, not just traffic."
 date: 2026-04-09
 featuredImage: "/images/blog-covers/enterprise-seo-strategy-and-framework.webp"
-lastmod: 2026-04-29
+lastmod: 2026-07-01
 slug: "enterprise-seo-strategy-and-framework"
 writtenBy: "kim"
 category: "Enterprise Marketing"
@@ -36,7 +36,7 @@ Here is how the key differences stack up:
 | Dimension | SMB SaaS SEO | Enterprise SaaS SEO |
 | --- | --- | --- |
 | Site scale | Dozens to hundreds of pages | Hundreds to thousands of pages |
-| Stakeholders | 1–3 people | SEO, content, engineering, product, RevOps |
+| Stakeholders | 1 to 3 people | SEO, content, engineering, product, RevOps |
 | Technical risk | Single template errors | Template errors cascade across thousands of pages |
 | Content scope | One product, one ICP | Multiple products, personas, and markets |
 | Reporting | Traffic and rankings | Pipeline, SQL attribution, organic CAC |
@@ -111,9 +111,11 @@ A scalable enterprise content architecture has four layers:
 - **Homepage and core product/feature pages:** target the highest-intent, most competitive terms. These carry the most authority and should be the destination for internal link equity from across the site
 - **Vertical and use-case pages:** one page per ICP segment, industry, or key use case. These are product-led pages built around the specific problem the product solves for that audience
 - **Pillar pages:** comprehensive topic-level pages that establish [topical authority](/blogs/how-to-improve-topical-authority/) in each keyword cluster. One pillar per major theme, linking to every spoke in the cluster
-- **Supporting content:** the spoke articles, comparison pages, alternatives pages, and FAQ content that targets long-tail intent and feeds authority back up to pillar pages and conversion pages
+- **Supporting content:** the spoke articles, [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternatives pages, and FAQ content that targets long-tail intent and feeds authority back up to pillar pages and conversion pages
 
 Every page needs a clear place in this hierarchy and a clear path to conversion. Content without a defined role in the architecture is a drag on the program, not a contribution to it.
+
+This matters more since Google's June 2026 spam update, which rolled out June 24 and completed June 26. It targets manipulative and scaled AI-generated spam. Enterprise teams producing content at volume are the most exposed, so every page still needs a genuine role and genuine value behind it.
 
 **What this looks like in practice:** A procurement SaaS company audits its 300-page content library and finds that 40% of its articles have no internal links pointing to them, 30% target keywords already covered by other pages, and fewer than 10% link to a conversion page. A four-month architecture rebuild, with no new content published, lifts organic-attributed demo requests by 35% purely from restructuring what already exists.
 
@@ -158,6 +160,8 @@ Build a measurement framework that connects organic search to revenue at every s
 | Content-influenced pipeline | Opportunities where organic content was a touchpoint, not first-touch | Captures the full attribution impact across long B2B sales cycles |
 | Organic share of pipeline | What percentage of total pipeline has an organic touchpoint | Demonstrates channel importance in the overall revenue mix |
 
+One measurement gap to plan for: as of June 2026, Google Search Console reports impressions inside AI Overviews, AI Mode, and Discover, but not click data. Enterprise teams tracking organic visibility now have to read impression trends in AI surfaces separately from the sessions and pipeline landing in the CRM.
+
 This requires CRM integration, proper UTM hygiene, lifecycle stage tracking, and a RevOps team that understands how to attribute multi-touch pipeline. This is also one of the core [SaaS marketing challenges](/blogs/saas-marketing-challenges-and-fixes/) that enterprise teams consistently underinvest in solving until it is too late.
 
 **What this looks like in practice:** An enterprise workflow automation SaaS shifts its monthly SEO report from a traffic dashboard to a pipeline contribution report showing organic SQLs, pipeline value, and organic CAC alongside paid CAC for the same period. In the first quarter with the new report, SEO receives a 60% budget increase because the CMO can now walk into a board meeting and show that organic is generating pipeline at 40% lower CAC than paid.
@@ -186,15 +190,15 @@ Technical fixes and governance improvements can show impact within 30 to 90 days
 
 ### 2. How do you structure an enterprise SEO team?
 
-A SEO lead or director who takes care of Strategy, prioritization, cross-functional alignment, reporting
+A core enterprise SEO team covers five roles:
 
-A [Technical SEO](/glossary/what-is-technical-seo/) specialist who takes care of Crawl, rendering, Core Web Vitals, schema, migrations
-
-A Content strategist who does Keyword research, content briefs, architecture governance
-
-Content writers who take care of Execution of briefs with perspective and product knowledge
-
-A RevOps or analytics partner who takes care of CRM integration, attribution setup, pipeline reporting
+| Role | Owns |
+| --- | --- |
+| SEO lead or director | Strategy, prioritization, cross-functional alignment, reporting |
+| [Technical SEO](/glossary/what-is-technical-seo/) specialist | Crawl, rendering, Core Web Vitals, schema, migrations |
+| Content strategist | Keyword research, content briefs, architecture governance |
+| Content writers | Execution of briefs with perspective and product knowledge |
+| RevOps or analytics partner | CRM integration, attribution setup, pipeline reporting |
 
 ### 3. What is the biggest mistake enterprise SaaS companies make with SEO?
 

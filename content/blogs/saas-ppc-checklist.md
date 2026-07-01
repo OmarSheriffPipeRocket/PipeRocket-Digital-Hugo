@@ -68,7 +68,7 @@ For high-ticket SaaS, broad targeting is too expensive. You need to move toward 
 To move prospects effectively through the funnel, you should implement three specific types of remarketing:
 
 - **Website Visitor Retargeting:** Utilize the LinkedIn Insight Tag to retarget individuals who have visited specific, high-intent pages on your site, such as your pricing or “Compare vs. Competitor” pages.
-- **[Google Ads](/blogs/how-to-run-google-ads-for-saas/ "Google Ads for SaaS Guide") Visitor Retargeting:** This “pro-level” cross-channel move involves using UTM parameters to identify traffic coming from Google Search ads and then retargeting those same users on LinkedIn with social proof and case studies.
+- **[Google Ads](/blogs/how-to-run-google-ads-for-saas/ "Google Ads for SaaS Guide") Visitor Retargeting:** This “pro-level” cross-channel move involves using UTM parameters to identify traffic coming from Google Search ads and then retargeting those same users on LinkedIn with [social proof](/blogs/saas-social-proof/) and case studies.
 - **Ad Engagement Retargeting:** Instead of only focusing on website visitors, retarget people who have already interacted with your LinkedIn ads. This includes those who watched 50% of a video or clicked “Learn More” on a previous post, allowing you to build a “storytelling” sequence that guides them from awareness toward a demo request.
 
 Continuing from our foundation, we move into the “Capture” phase. If LinkedIn is about identifying **who** your buyer is, Google Search is about identifying **exactly when** they are ready to solve their problem.

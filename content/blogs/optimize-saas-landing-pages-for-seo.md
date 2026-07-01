@@ -107,7 +107,7 @@ This does two things. It drives action from the right people, and it helps us fi
 
 ## How to Build Trust Immediately for Your SaaS Landing Page?
 
-Once they land on the page, we need to make the user feel safe immediately. In B2B SaaS, nobody wants to be the person who bought the wrong software. We need to add social proof to drive trust signals.
+Once they land on the page, we need to make the user feel safe immediately. In B2B SaaS, nobody wants to be the person who bought the wrong software. We need to add [social proof](/blogs/saas-social-proof/) to drive trust signals.
 
 Look at **ClickUp** as a perfect example. They are masters at this.
 

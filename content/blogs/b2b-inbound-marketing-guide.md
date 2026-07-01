@@ -4,7 +4,7 @@ description: "The trickiest part in B2B marketing is this: you’re not selling 
 metaTitle: "B2B Inbound Marketing: A Complete Guide"
 metaDescription: "Learn how modern B2B buyers really make decisions and how inbound marketing helps you attract, educate, and convert high-value clients in a digital-first world."
 date: 2025-12-11
-lastmod: 2026-05-12
+lastmod: 2026-06-29
 slug: "b2b-inbound-marketing-guide"
 writtenBy: "kim"
 category: "B2B Inbound Marketing"
@@ -193,7 +193,7 @@ Inbound becomes incredibly powerful when every part of your marketing system is 
 
 The numbers don’t lie: B2B marketing and buying has changed faster than most companies have kept up with.
 
-Buyers are still doing the bulk of their research alone, with 90% of their purchasing decisions significantly impacted by online content, as per the [CMO Council](https://www.cmocouncil.org/thought-leadership/reports/btob-content-impacts-customer-thinking--buying-decisions). And they are contacting sellers, but still, only after 60% of the journey is complete, as per the [2025 B2B Buyer Experience Report](https://6sense.com/science-of-b2b/buyer-experience-report-2025/#introduction-ch).
+Buyers are still doing the bulk of their research alone: 87% of B2B buyers say online content has a major or moderate impact on vendor selection, as per the [CMO Council](https://www.cmocouncil.org/thought-leadership/reports/btob-content-impacts-customer-thinking--buying-decisions). And they are contacting sellers, but still, only after 60% of the journey is complete, as per the [2025 B2B Buyer Experience Report](https://6sense.com/science-of-b2b/buyer-experience-report-2025/#introduction-ch).
 
 That means the first impression is no longer made in a sales meeting… It’s made on Google, on your blog, in your comparison guides, and in the content your prospects binge before they ever talk to you.
 

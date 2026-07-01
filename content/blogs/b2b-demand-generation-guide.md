@@ -67,7 +67,7 @@ A successful B2B demand generation marketing strategy provides value at every si
 
 - **Demand Gen Focus***:* Customer success content, training, and asking for reviews and referrals (turning them into advocates).
 
-**Key Reality Check:** This funnel is rarely linear. A prospect might jump from being Product-Aware back to needing Solution-Aware content if a new stakeholder joins the buying committee. Your B2B demand generation methods must account for this looping behavior.
+**Key Reality Check:** This funnel is rarely linear. A prospect might jump from being Product-Aware back to needing Solution-Aware content if a new stakeholder joins the [buying committee](/blogs/linkedin-buying-committee-saas/). Your B2B demand generation methods must account for this looping behavior.
 
 ### **Why Long Cycles & Multiple Touch points are the norm in B2B**
 
@@ -105,7 +105,7 @@ Successful B2B demand generation relies on a multi-channel strategy across sever
 
 - **Educational Guides:** Create comprehensive guides that solve complex industry problems and educate the reader. This establishes immediate authority.
 - **[Thought Leadership](/glossary/what-is-thought-leadership/):** Publish original research, data reports, or market forecasts. This positions your company as a valuable source of information.
-- **Social Proof:** Use case studies and customer stories to build authority. Showing how you solved a problem for companies across various industries is extremely powerful.
+- **[Social Proof](/blogs/saas-social-proof/):** Use case studies and customer stories to build authority. Showing how you solved a problem for companies across various industries is extremely powerful.
 
 ### **Multi-Channel Outreach: Meeting buyers where they are**
 

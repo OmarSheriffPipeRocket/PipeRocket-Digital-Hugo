@@ -122,7 +122,7 @@ But be careful here. Most comparison tables are incredibly lazy. They just have 
 
 Your table needs detail to be credible.
 
-- **Ratings:** Pull real ratings from G2 or Capterra to show social proof.
+- **Ratings:** Pull real ratings from G2 or Capterra to show [social proof](/blogs/saas-social-proof/).
 - **Focus Area:** State clearly what Product A is built for versus Product B.
 - **Pricing:** Show the starting price clearly so they can disqualify or qualify themselves.
 - **Migration:** If they are already using a tool, they are terrified of moving data. Mentioning if you have “Free Migration” right here in the summary can be the deciding factor.

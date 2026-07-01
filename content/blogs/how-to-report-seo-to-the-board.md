@@ -109,7 +109,7 @@ Here's the honest split between what earns a place in front of the board and wha
 | Influenced pipeline (flagged as directional) | Domain rating / [domain authority](/glossary/what-is-domain-authority/) |
 | The bet for next quarter | Average position across all keywords |
 | The risk you're managing | [Backlink](/glossary/what-is-a-backlink/) count |
-| Organic's share of new-business pipeline | Time on page, bounce rate, raw CTR |
+| Organic's share of new-business pipeline | Time on page, bounce rate, raw [CTR](/glossary/what-is-ctr/) |
 
 Read that table before you build a single slide. The left column is a revenue conversation. The right column is an SEO conversation, and the board didn't come for an SEO conversation.
 

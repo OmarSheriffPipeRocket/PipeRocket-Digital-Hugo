@@ -5,7 +5,7 @@ metaTitle: "What is B2B PPC and How to Run Campaigns That Convert"
 metaDescription: "A practical b2b ppc guide covering campaign structure, ad copy, landing pages, and how to track what your spend is actually doing for pipeline."
 date: 2026-04-08
 featuredImage: "/images/blog-covers/b2b-ppc-guide.webp"
-lastmod: 2026-05-13
+lastmod: 2026-06-29
 slug: "b2b-ppc-guide"
 writtenBy: "praveen"
 category: "B2B PPC"
@@ -72,7 +72,7 @@ Organise your keyword universe into three tiers before building anything.
 
 ### Build Keyword Themes Around Buyer Roles, Not Product Features
 
-For each intent tier, build keyword themes around the specific roles in your buying committee. A VP of Engineering and a CFO evaluating the same tool are searching entirely different terms. Separate ad groups for each role, using their language, consistently improves both click-through rates and conversion rates.
+For each intent tier, build keyword themes around the specific roles in your [buying committee](/blogs/linkedin-buying-committee-saas/). A VP of Engineering and a CFO evaluating the same tool are searching entirely different terms. Separate ad groups for each role, using their language, consistently improves both click-through rates and conversion rates.
 
 This is one of the highest-leverage moves in any [b2b ppc](/blogs/b2b-ppc/ "B2B PPC Complete Guide") strategy, and one of the most frequently skipped. It takes more upfront effort than dumping keywords into one campaign, but the improvement in lead quality makes it worth it every time.
 
@@ -91,14 +91,14 @@ Most B2B paid accounts are structured like B2C accounts: one campaign, a handful
 Run three distinct campaign types and treat each as its own program with its own budget, its own goal, and its own success metric.
 
 - **High-intent campaigns** target pricing, demo, comparison, and alternatives keywords. Goal: demo booked or trial started. Measure by SQL rate and cost per SQL
-- **Research-intent campaigns** target problem-aware searches. Goal: email capture via a gated asset. Measure by lead quality score and 60-day pipeline influence
+- **Research-intent campaigns** target problem-aware searches. Goal: email capture via a gated asset. Measure by lead [quality score](/blogs/saas-quality-score/) and 60-day pipeline influence
 - **Remarketing campaigns** re-engage site visitors who did not convert on the first visit. These are typically the most cost-efficient campaigns because the audience already has some familiarity with you
 
 ### Connect Your CRM to Your Ad Account Before Optimising Anything
 
 This is the single highest-leverage technical step in any b2b ppc setup, and most teams never do it. Offline conversion tracking sends your CRM pipeline events back to [Google Ads](/glossary/what-is-google-ads/ "Glossary: Google Ads") so the algorithm learns which clicks produce SQLs, opportunities, and closed deals — rather than optimising for whatever fires on a thank-you page.
 
-Google’s own data shows advertisers using offline conversion tracking typically see a 20 to 30% improvement in conversion quality at the same spend level ([Google Ads Help Center](https://support.google.com/google-ads/answer/2998031)). The setup takes a few hours. The impact compounds over months as the algorithm accumulates better training data.
+Google’s own data shows advertisers who pair first-party data (emails, phone numbers) with GCLIDs in offline import see a median 10% increase in conversions versus standard offline imports ([Google Ads Help Center](https://support.google.com/google-ads/answer/2998031?hl=en)). The setup takes a few hours. The impact compounds over months as the algorithm accumulates better training data.
 
 ### Keep Ad Groups Tight with Single Keyword Themes
 
@@ -121,7 +121,7 @@ Instead of “B2B Project Management Software | Try Free Today,” try “Engine
 
 ### Test at Least Three Ad Variations Per Group
 
-Run one variation leading with the problem, one leading with the outcome, and one leading with social proof. Give each version two to three weeks before drawing conclusions.
+Run one variation leading with the problem, one leading with the outcome, and one leading with [social proof](/blogs/saas-social-proof/). Give each version two to three weeks before drawing conclusions.
 
 What we keep seeing is teams pausing tests too early — before the data is statistically meaningful — and ending up optimising based on noise. In B2B, where click volumes are lower than in consumer campaigns, patience with ad testing is not optional.
 

@@ -217,7 +217,7 @@ Google is aggressively filtering for quality. You need to audit your pages for t
 
 - Is there a “Last Updated” date?
 
-**Social Proof:**
+**[Social Proof](/blogs/saas-social-proof/):**
 
 - Does the author have a strong LinkedIn presence?
 - Do they answer questions on Quora or Reddit?

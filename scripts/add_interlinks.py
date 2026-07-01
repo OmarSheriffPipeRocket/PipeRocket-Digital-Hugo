@@ -374,6 +374,10 @@ LINK_MAP = [
     ("generative engine optimization", "/blogs/how-to-do-geo-for-saas/", False, "P0"),
     ("answer engine optimization", "/blogs/how-to-do-geo-for-saas/", False, "P0"),
     ("GEO for SaaS", "/blogs/how-to-do-geo-for-saas/", False, "P0"),
+
+    # ---- new blog added 2026-07-01 (llms.txt for SaaS) ----
+    ("llms.txt", "/blogs/llms-txt-for-saas/", False, "P1"),
+    ("llms.txt for SaaS", "/blogs/llms-txt-for-saas/", False, "P0"),
     ("google ranking factors", "/blogs/google-ranking-factors-saas/", False, "P0"),
     ("Google ranking factors", "/blogs/google-ranking-factors-saas/", False, "P0"),
     ("SaaS marketing metrics", "/blogs/saas-marketing-metrics/", False, "P0"),
@@ -396,6 +400,21 @@ LINK_MAP = [
     ("Hotjar vs FullStory", "/compare/hotjar-vs-fullstory/", False, "P2"),
     ("Unbounce vs Instapage", "/compare/unbounce-vs-instapage/", False, "P2"),
     ("Jasper vs Copy.ai", "/compare/jasper-vs-copy-ai/", False, "P2"),
+    # ---- paid-agency listicles batch added 2026-06-26 ----
+    ("Bing Ads agencies", "/list/best-bing-ads-agencies/", False, "P1"),
+    ("ABM agencies", "/list/best-abm-agencies/", False, "P1"),
+    ("Reddit Ads agencies", "/list/best-reddit-ads-agencies/", False, "P1"),
+    ("Enterprise PPC agencies", "/list/best-enterprise-ppc-agencies/", False, "P1"),
+    ("Paid social agencies", "/list/best-paid-social-agencies/", False, "P1"),
+    # ---- SaaS blog batch added 2026-07-01 ----
+    ("llms.txt file", "/blogs/llms-txt-for-saas/", False, "P1"),
+    ("paid search vs paid social", "/blogs/paid-search-vs-paid-social-for-saas/", False, "P1"),
+    ("social proof", "/blogs/saas-social-proof/", False, "P2"),
+    ("Quality Score", "/blogs/saas-quality-score/", False, "P1"),
+    ("Reddit ads", "/blogs/saas-reddit-ads/", False, "P1"),
+    ("LinkedIn ad copy", "/blogs/saas-linkedin-ad-copy/", False, "P1"),
+    ("A/B testing", "/blogs/ab-test-saas-landing-pages/", False, "P2"),
+    ("buying committee", "/blogs/linkedin-buying-committee-saas/", False, "P2"),
     ("MarketMuse vs Clearscope", "/compare/marketmuse-vs-clearscope/", False, "P2"),
     ("Ubersuggest alternatives", "/alternative/ubersuggest-alternatives/", False, "P2"),
     ("Botify alternatives", "/alternative/botify-alternatives/", False, "P2"),
@@ -435,6 +454,14 @@ LINK_MAP = [
     ("align SEO with sales", "/blogs/how-to-align-seo-with-sales/", False, "P0"),
     ("blog revenue impact", "/blogs/how-to-calculate-blog-revenue-impact/", False, "P0"),
     ("SEO KPIs", "/blogs/how-to-set-seo-kpis-cfo-trusts/", False, "P0"),
+
+    # ---- B2B PPC blogs ----
+    ("LinkedIn ad copy", "/blogs/saas-linkedin-ad-copy/", False, "P0"),
+    ("LinkedIn ads copy", "/blogs/saas-linkedin-ad-copy/", False, "P0"),
+    ("write LinkedIn ad copy", "/blogs/saas-linkedin-ad-copy/", False, "P0"),
+    ("buying committee", "/blogs/linkedin-buying-committee-saas/", False, "P0"),
+    ("SaaS buying committee", "/blogs/linkedin-buying-committee-saas/", False, "P0"),
+    ("target the buying committee", "/blogs/linkedin-buying-committee-saas/", False, "P0"),
 
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),

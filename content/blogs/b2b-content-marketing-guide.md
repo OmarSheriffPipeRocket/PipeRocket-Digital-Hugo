@@ -79,7 +79,7 @@ Your goals dictate your topics. If you need leads now, writing a 5,000-word “h
 
 ### 2. Understand Your Audience & Buyer Personas
 
-Stop creating generic personas. In B2B, you need to understand the job role and the buying committee. For eg, 
+Stop creating generic personas. In B2B, you need to understand the job role and the [buying committee](/blogs/linkedin-buying-committee-saas/). For eg, 
 
 - **The Researcher (End User):** Needs “how-to” guides and tactical lists.
 - **The Decision Maker (VP/Director):** Cares about strategy, implementation speed, and efficiency.

@@ -117,7 +117,7 @@ If you do not explicitly tell the user how to buy your product, they will not bu
 
 We then take the remaining nine headlines and dedicate them to the heavy lifting. We use these slots for deep product information. We highlight unique features. We list critical software integrations.
 
-We use social proof by stating the exact number of customers currently using the platform. These headlines do the actual selling. They provide the logical justification the buyer needs to click your link over the competitor below you.
+We use [social proof](/blogs/saas-social-proof/) by stating the exact number of customers currently using the platform. These headlines do the actual selling. They provide the logical justification the buyer needs to click your link over the competitor below you.
 
 **Examples of heavy-lifting headlines:**
 
