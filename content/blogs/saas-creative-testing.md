@@ -69,6 +69,12 @@ Here's how we map it:
 
 The rule is simple: use the earliest reliable signal that still correlates with money. [CTR](/glossary/what-is-ctr/) alone is a vanity trap because a clickbait hook wins on clicks and loses on pipeline. So we let CTR pick the shortlist, then we look one layer deeper at whether those clicks turned into leads before we crown anything.
 
+{{< experience author="immanual" title="A one-line creative beat the explainer by 3% CTR" >}}
+On one B2B SaaS account we ran two creatives that differed in exactly one thing: how much they explained the product. One version spelled out what the product did in detail. The other said it in a single line. We judged them the way this stage allows, on click-through and engagement, and the simple one-line creative won with about 3% higher CTR than the detailed one.
+
+The lesson we keep relearning is that on a crowded feed, less explanation earns the click. The detailed ad tried to close the sale inside the ad itself, while the one-liner earned attention and left the explaining for the landing page. CTR gave us a fast read on which message resonated, and from there we watch whether those clicks turn into real leads before we pour budget into the winner.
+{{< /experience >}}
+
 That layered read matters most on channels where you can't even see placement. On some platforms you get impressions, clicks, and CTR but no view of where the ad ran, so the on-platform number is all you've got and lead quality downstream becomes your only honest check.
 
 ## Step 3: Give the Test Enough Room, Then Call It

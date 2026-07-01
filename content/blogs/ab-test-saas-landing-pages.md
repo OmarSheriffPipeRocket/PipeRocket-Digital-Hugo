@@ -31,6 +31,12 @@ On a low-traffic page, A/B testing is the wrong tool for small changes. What we'
 
 Note: "before-and-after" is only an approximation of a true A/B test, and it's vulnerable to seasonality and traffic-mix shifts. Treat it as the honest fallback you reach for when you don't have the volume, and say so when you report it.
 
+{{< experience author="immanual" title="Reordering a SaaS homepage off attention data (0.8% to 1.5%)" >}}
+A SaaS client of ours had a landing page that converted well, so when they rebuilt their site they carried that design over to the new homepage. Before we changed anything, we looked at where attention actually went on the page. Two things stood out. The first fold wasn't holding people: the element pulling the most attention sat just below the fold, so most visitors never reached it. And a section lower down was earning strong engagement from the few who got there, but scroll depth was low, so hardly anyone did.
+
+Both fixes were about order rather than new copy. We moved the attention-grabbing element up into the first fold, and we pulled that high-engagement section higher on the page. Afterward it kept its strong attention and far more people actually scrolled to it. Conversion rate went from 0.8% to 1.5%. We didn't have the traffic for a clean split test here, so this was an evidence-led redesign measured before against after, which is the honest way to handle a page that can't support a true A/B test.
+{{< /experience >}}
+
 ## Step 1: Start With a Written Hypothesis
 
 Never launch a test to "see what happens." Every test starts with a written hypothesis, because a win with no reasoning behind it teaches you nothing you can reuse on the next page.

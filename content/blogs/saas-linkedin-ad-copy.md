@@ -81,6 +81,12 @@ Five variations give the feed something to rotate and keep your audience seeing 
 
 A common trap here is running five ads that are secretly the same ad with the comma moved. That teaches you nothing. If all five open on the same fear with the same CTA, the test has no variable. Make each one genuinely different so the winner tells you something you can build the next round on.
 
+{{< experience author="immanual" title="The one-line ad that beat the detailed one by 3% CTR" >}}
+On one B2B SaaS account we ran two ads that differed in a single thing: how much the copy explained. One version laid out what the product did in detail. The other said it in a single line. Judged on click-through and engagement, the one-line ad won with about 3% higher CTR than the detailed one.
+
+It is a lesson we keep relearning on LinkedIn: on a busy feed, less explanation earns the click. The detailed ad tried to close the sale inside the post itself, while the one-liner earned attention and left the explaining for the landing page. The copy's only job in the feed is to stop the scroll and win the click, so write the sharpest single line you can and save the full pitch for where they land.
+{{< /experience >}}
+
 ## The LinkedIn Copy Mistakes That Quietly Cost You
 
 Most underperforming LinkedIn ads fail on the same handful of copy mistakes, and none of them are about being clever. They're about ignoring how the feed and the buyer actually behave.
