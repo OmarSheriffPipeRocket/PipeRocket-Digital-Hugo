@@ -99,11 +99,9 @@ One more read to make: check that your "winner" actually cleared statistical sig
 
 Three habits fake more SaaS A/B test wins than anything else. Watch for them, because each one feels like success in the moment.
 
-**Peeking and stopping early.** You check the dashboard on day three, variant B is up 20%, you call it. The problem is that early in a test the numbers swing wildly, and if you stop the moment one variant is ahead, you'll "find" a winner almost every time, even between two identical pages. Set the run length up front and don't touch it until then.
-
-**Testing during a traffic anomaly.** Launch a test the week a big campaign, a product launch, or a conference drives a flood of atypical traffic, and you're measuring those visitors, not your normal audience. Run tests during representative periods, and if a spike hits mid-test, note it or extend the run.
-
-**Rolling out a result that never reached significance.** This is the most common one. The test "won" but never hit the confidence threshold, and the team ships it anyway because the number was bigger. Sometimes the rolled-out change even underperforms the original, and nobody notices because nobody measured after. If it didn't reach significance, you didn't learn anything. Treat it as inconclusive, not as a win.
+- **Peeking and stopping early.** You check the dashboard on day three, variant B is up 20%, you call it. Early in a test the numbers swing wildly, and if you stop the moment one variant is ahead, you'll "find" a winner almost every time, even between two identical pages. Set the run length up front and don't touch it until then.
+- **Testing during a traffic anomaly.** Launch a test the week a big campaign, a product launch, or a conference drives a flood of atypical traffic, and you're measuring those visitors, not your normal audience. Run tests during representative periods, and if a spike hits mid-test, note it or extend the run.
+- **Rolling out a result that never reached significance.** The most common one. The test "won" but never hit the confidence threshold, and the team ships it anyway because the number was bigger. Sometimes the rolled-out change even underperforms the original, and nobody notices because nobody measured after. If it didn't reach significance, you didn't learn anything, so treat it as inconclusive, not a win.
 
 ## How PipeRocket Helps SaaS Teams Test and Convert
 

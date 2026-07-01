@@ -32,7 +32,7 @@ SaaS teams ask about it more than anyone else for one reason: docs. A SaaS compa
 
 ### The one thing to be clear-eyed about
 
-No major AI crawler has publicly confirmed it reads llms.txt in 2026. Google's own [AI-optimization guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) is blunt about it: llms.txt, content chunking, and AI-specific schema are not needed for its generative features, and AI-focused site files may be crawled but get no special treatment. Google's wider message that same guidance is that AEO and GEO are still just SEO. OpenAI, Anthropic, and Perplexity haven't announced support either. So this is a bet on where things go, not a documented pipeline into any model today, and the biggest player has said plainly it changes nothing on its end. Treat it that way and you'll make a sane decision.
+No major AI crawler has publicly confirmed it reads llms.txt in 2026. Google's own [AI-optimization guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) is blunt about it: llms.txt, content chunking, and AI-specific schema are not needed for its generative features, and AI-focused site files may be crawled but get no special treatment. Google's wider message that same guidance is that AEO and GEO are still just [SEO](/glossary/what-is-seo/). OpenAI, Anthropic, and Perplexity haven't announced support either. So this is a bet on where things go, not a documented pipeline into any model today, and the biggest player has said plainly it changes nothing on its end. Treat it that way and you'll make a sane decision.
 
 ## How Is llms.txt Different From robots.txt and sitemap.xml?
 

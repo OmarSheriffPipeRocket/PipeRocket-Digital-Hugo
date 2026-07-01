@@ -204,7 +204,7 @@ Your goal at this stage is simple: bring back early-stage visitors and nurture t
 - Promote educational assets like use-case explainers, templates, checklists, benchmarks, or intro webinars.
 - Use low-commitment CTAs such as “Learn more,” “See how it works,” or “Explore guide.”
 - Reinforce your product category and core problem statements with light brand messaging.
-- Keep frequency caps low to avoid ad fatigue and preserve positive brand perception.
+- Keep frequency caps low to avoid [ad fatigue](/blogs/saas-ad-fatigue/) and preserve positive brand perception.
 
 This stage warms cold traffic and builds familiarity, so prospects naturally move toward deeper product evaluation.
 

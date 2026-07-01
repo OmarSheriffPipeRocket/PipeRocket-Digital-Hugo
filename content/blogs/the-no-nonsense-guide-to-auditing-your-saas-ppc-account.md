@@ -193,7 +193,7 @@ Since this is an interruption channel, are people actually stopping to look?
 - **Dwell Time:** Are they spending time with the ad?
 - **Creative Formats:** What are you running? Single Image? Video? Carousel?
 
-**Pro Tip:** Segment your performance by ad format. You might find that Carousels drive high engagement but Video drives better brand recall (though harder to track). If your ads aren’t resonating well (low [CTR](/glossary/what-is-ctr/), low engagement), you need to reiterate and come up with an actionable item for creative testing.
+**Pro Tip:** Segment your performance by ad format. You might find that Carousels drive high engagement but Video drives better brand recall (though harder to track). If your ads aren’t resonating well (low [CTR](/glossary/what-is-ctr/), low engagement), you need to reiterate and come up with an actionable item for [creative testing](/blogs/saas-creative-testing/).
 
 ### **3. Audience Penetration Check**
 

@@ -137,4 +137,4 @@ Because you are reaching people who already know your brand, these ads typically
 
 To protect user privacy and ensure ad delivery, LinkedIn requires a minimum of **300 members** in a Matched Audience before your ads can start running. However, just because 300 is the minimum doesn’t mean it’s the ideal number.
 
-For a campaign to gather enough data for LinkedIn’s algorithm to optimize effectively, most experts recommend an audience of at least **1,000 to 2,000 members**. If your audience is too small, your frequency (how often one person sees the same ad) will skyrocket, leading to “ad fatigue” where users begin to ignore your content entirely.
+For a campaign to gather enough data for LinkedIn’s algorithm to optimize effectively, most experts recommend an audience of at least **1,000 to 2,000 members**. If your audience is too small, your frequency (how often one person sees the same ad) will skyrocket, leading to “[ad fatigue](/blogs/saas-ad-fatigue/)” where users begin to ignore your content entirely.

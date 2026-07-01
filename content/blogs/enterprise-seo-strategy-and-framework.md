@@ -160,7 +160,7 @@ Build a measurement framework that connects organic search to revenue at every s
 | Content-influenced pipeline | Opportunities where organic content was a touchpoint, not first-touch | Captures the full attribution impact across long B2B sales cycles |
 | Organic share of pipeline | What percentage of total pipeline has an organic touchpoint | Demonstrates channel importance in the overall revenue mix |
 
-One measurement gap to plan for: as of June 2026, Google Search Console reports impressions inside AI Overviews, AI Mode, and Discover, but not click data. Enterprise teams tracking organic visibility now have to read impression trends in AI surfaces separately from the sessions and pipeline landing in the CRM.
+One measurement gap to plan for: as of June 2026, Google Search Console reports impressions inside [AI Overviews](/glossary/what-is-an-ai-overview/), AI Mode, and Discover, but not click data. Enterprise teams tracking organic visibility now have to read impression trends in AI surfaces separately from the sessions and pipeline landing in the CRM.
 
 This requires CRM integration, proper UTM hygiene, lifecycle stage tracking, and a RevOps team that understands how to attribute multi-touch pipeline. This is also one of the core [SaaS marketing challenges](/blogs/saas-marketing-challenges-and-fixes/) that enterprise teams consistently underinvest in solving until it is too late.
 
