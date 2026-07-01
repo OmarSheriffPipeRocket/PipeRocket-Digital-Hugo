@@ -1,6 +1,6 @@
 ---
 title: "Google Ads Quality Score for SaaS: What Actually Moves It"
-description: "Quality Score is really a bill, not a vanity metric. For SaaS accounts the three inputs that move it are expected CTR, ad relevance, and landing page experience. Here's how we actually raise each one, and what to ignore."
+description: "Quality Score is really a bill you pay on every click. For SaaS accounts the three inputs that move it are expected CTR, ad relevance, and landing page experience. Here's how we actually raise each one, and what to ignore."
 metaTitle: "SaaS Quality Score: What Actually Moves It"
 metaDescription: "Google Ads Quality Score for SaaS explained: the three inputs that move it, what to fix first, and the checks we run to lower CPC on real accounts."
 date: 2026-07-01
@@ -16,10 +16,10 @@ Here's what actually moves it, and what's a waste of your time.
 
 ## TL;DR
 
-- **It's three inputs, not one number:** expected CTR, ad relevance, and landing page experience are the three components Google scores, and each one is fixable.
+- **It's three separate inputs:** expected CTR, ad relevance, and landing page experience are the three components Google scores, and each one is fixable.
 - **Ad relevance is the fastest win:** get your target keyword into the ad copy and the headline, and a low Quality Score usually climbs within days.
 - **Landing page experience is where SaaS accounts leak:** sending every campaign to a generic homepage is the single most common Quality Score killer we see.
-- **Expected CTR is earned, not set:** you raise it with tighter ad groups, job-title filtering in the copy, and pruning your weakest headlines.
+- **Expected CTR is earned over time:** you raise it with tighter ad groups, job-title filtering in the copy, and pruning your weakest headlines.
 - **Ignore the account-level number:** obsessing over the "6/10" in your dashboard is a trap; work the three inputs at the keyword level and the number follows.
 
 ## Why Your Quality Score Is Really a CPC Problem
@@ -30,7 +30,7 @@ The mistake most SaaS teams make is treating Quality Score as a report card to f
 
 We've watched this play out on real accounts. One Series A/B SaaS suddenly saw qualified leads drop 70% with CPL spiking. The team panicked and started changing creatives, landing pages, and bids all at once.
 
-The real culprit our team found underneath the noise was CPC. It had climbed so high the daily budget was exhausted by noon, so their ads only showed for about 20% of searches. The fix was controlling CPC so the budget stretched across the whole day, not new ads. Quality Score sits upstream of exactly that problem.
+The real culprit our team found underneath the noise was CPC. It had climbed so high the daily budget was exhausted by noon, so their ads only showed for about 20% of searches. The fix was controlling CPC so the budget stretched across the whole day. New ads weren't the answer. Quality Score sits upstream of exactly that problem.
 
 So before you rebuild anything, understand the three inputs Google is actually scoring.
 
@@ -44,7 +44,7 @@ Quality Score is a rollup of three components, each rated "below average," "aver
 - **Ad relevance:** how closely your ad copy matches the intent behind the keyword.
 - **Landing page experience:** how relevant and usable the page is once someone clicks.
 
-You can see all three in the [Google Ads](/glossary/what-is-google-ads/) interface by adding the "Qual. Score," "Exp. CTR," "Ad Relevance," and "Landing Page Exp." columns to your keyword view. That's where the real work happens, at the keyword level, not the account average.
+You can see all three in the [Google Ads](/glossary/what-is-google-ads/) interface by adding the "Qual. Score," "Exp. CTR," "Ad Relevance," and "Landing Page Exp." columns to your keyword view. That's where the real work happens, at the keyword level. The account average won't guide you.
 
 ### Why the account-level number lies to you
 
@@ -54,13 +54,13 @@ Sort your keywords by cost, then look at Quality Score only on the ones actually
 
 ## Fix Ad Relevance First, It's the Fastest Win
 
-Ad relevance is the quickest Quality Score input to move, and it comes down to one thing: is your target keyword actually in the ad? Keeping the keyword out of your copy is one of the most preventable Google Ads mistakes we see, and it directly drags Quality Score down, which raises [CPC](/glossary/what-is-cost-per-click/). Write the ad copy starting from the keyword, not from your brand tagline.
+Ad relevance is the quickest Quality Score input to move, and it comes down to one thing: is your target keyword actually in the ad? Keeping the keyword out of your copy is one of the most preventable Google Ads mistakes we see, and it directly drags Quality Score down, which raises [CPC](/glossary/what-is-cost-per-click/). Write the ad copy starting from the keyword. Your brand tagline is the wrong starting point.
 
 When someone searches "SOC 2 compliance software" and your headline reads "Enterprise-Grade Security Platform," Google sees a gap between the query and the ad. That gap is scored as below-average relevance. Rewrite the headline to say "SOC 2 Compliance Software" and the match becomes obvious to both Google and the searcher.
 
 This is also where tight ad group structure pays off. If one ad group holds 30 loosely related keywords, no single ad can be relevant to all of them. Split them so each ad group holds a small cluster of keywords sharing one intent, then write copy that mirrors that exact intent.
 
-### Match the copy to the keyword, not your positioning
+### Match the copy to the keyword the searcher used
 
 Your marketing team may have branded the product as a "Revenue Intelligence Platform." Nobody searches for that. They search "sales dashboard" or "pipeline forecasting tool." If your ad leads with your invented category name while the searcher used the market's plain language, ad relevance suffers and you pay for it.
 
@@ -84,19 +84,19 @@ Google weighs a few things on the page, and none of them are exotic:
 - **Transparency and usefulness:** clear what the product does, who it's for, and what happens next.
 - **Load speed and mobile usability:** slow or clunky pages score worse.
 
-### Build one page per campaign, not one for the account
+### Build one page per campaign
 
 Give every campaign its own landing page mapped to its keyword cluster. A campaign targeting "HR software for SMBs" needs a page whose headline says exactly that, because a title that reads "HR Software for SMBs" also acts as a filter that repels enterprise-junk traffic before it costs you.
 
-We've seen the paid results turn on the page, not the ads. Four fixes our team has made repeatedly: kill the competing CTAs down to one clear ask, write the headline for the outcome rather than the feature, make the proof specific with named customers instead of "trusted by 500+ companies," and repeat that single CTA above the fold, mid-page, and at the bottom. Same button, same copy, no alternatives.
+We've seen the landing page decide the paid results more than the ads do. Four fixes our team has made repeatedly: kill the competing CTAs down to one clear ask, write the headline around the outcome the buyer wants, make the proof specific with named customers instead of "trusted by 500+ companies," and repeat that single CTA above the fold, mid-page, and at the bottom. Same button, same copy, no alternatives.
 
 ### Don't chase a perfect PageSpeed score
 
-Speed matters, but a flawless PageSpeed number isn't the goal, and chasing one is a distraction. Landing page experience is mostly about relevance and clarity, not shaving 200 milliseconds off load time. A page that matches the query, states the outcome, and makes the next step obvious will out-score a lightning-fast page that's generic. Fix the mismatch first, then optimise speed if there's genuinely a problem.
+Speed matters, but chasing a flawless PageSpeed number is a distraction. Landing page experience comes mostly from relevance and clarity rather than shaving 200 milliseconds off load time. A page that matches the query, states the outcome, and makes the next step obvious will out-score a lightning-fast page that's generic. Fix the mismatch first, then optimise speed if there's genuinely a problem.
 
-## Raise Expected CTR With Structure, Not Tricks
+## Raise Expected CTR With Solid Structure
 
-Expected CTR is the input you earn over time, and it climbs when your ads consistently get clicked by the right people. You don't set it, you build the conditions for it: tight ad groups, copy that speaks to one intent, and relentless pruning of your weakest headlines.
+Expected CTR is the input you earn over time, and it climbs when your ads consistently get clicked by the right people. You build the conditions for it: tight ad groups, copy that speaks to one intent, and relentless pruning of your weakest headlines.
 
 Start with structure. A keyword buried in a bloated ad group can't get a relevant ad, so its expected CTR stays low. Split ad groups until each one holds a small set of keywords sharing a single intent, then write ads specifically for that intent.
 
@@ -106,7 +106,7 @@ Then run a testing loop. Launch three distinct ads per ad group, each on a diffe
 
 After the initial test, keep pruning continuously. Find the single lowest-CTR headline in the ad, weed it out, and replace it with a variation of your best-performing headline. That way the ad is always competing against its own best numbers, and expected CTR ratchets up instead of plateauing.
 
-This beats any one-time "optimisation." Quality Score is something you maintain, not something you fix once. The accounts that hold high scores are the ones running this prune-and-replace loop on a steady cadence, catching drift before it compounds on a channel that bills you by the click.
+This beats any one-time "optimisation." Quality Score is something you maintain on an ongoing basis, and a one-time fix won't hold. The accounts that hold high scores are the ones running this prune-and-replace loop on a steady cadence, catching drift before it compounds on a channel that bills you by the click.
 
 ### Ad extensions are free CTR, use them
 
@@ -114,7 +114,7 @@ Sitelinks, callouts, and structured snippets don't directly change the three Qua
 
 ## The Quality Score Mistakes That Cost SaaS Teams the Most
 
-Most Quality Score damage on SaaS accounts comes from a short list of avoidable mistakes, not from anything Google is hiding. Here's what to check first, in order of how much it usually costs:
+Most Quality Score damage on SaaS accounts comes from a short list of avoidable mistakes rather than anything Google is hiding. Here's what to check first, in order of how much it usually costs:
 
 ![The five most common Google Ads Quality Score mistakes for SaaS accounts and the fix for each, from homepage traffic to a missing audit cadence.](/images/blog-infographics/saas-quality-score-infographic-2.webp)
 
@@ -133,7 +133,7 @@ One warning: don't over-rotate on Quality Score to the point of ignoring lead qu
 
 ## How PipeRocket Helps SaaS Teams Fix Quality Score
 
-We treat Quality Score as a CPC problem, not a dashboard number. On our [SaaS PPC](https://piperocket.digital/saas-ppc/) engagements, we restructure bloated ad groups into tight single-intent clusters, rewrite ad copy starting from the keyword, and build dedicated [landing pages](/glossary/what-is-a-landing-page/) that match each campaign's promise, then run the prune-and-replace loop on a two-week cadence so scores hold instead of slipping. The result is lower CPC, longer-lasting budget, and better-qualified clicks. If your account is overpaying for every click, [get in touch](https://piperocket.digital/contact-us/) and we'll audit where the leaks are.
+We treat Quality Score as a CPC problem rather than a dashboard number to admire. On our [SaaS PPC](https://piperocket.digital/saas-ppc/) engagements, we restructure bloated ad groups into tight single-intent clusters, rewrite ad copy starting from the keyword, and build dedicated [landing pages](/glossary/what-is-a-landing-page/) that match each campaign's promise, then run the prune-and-replace loop on a two-week cadence so scores hold instead of slipping. The result is lower CPC, longer-lasting budget, and better-qualified clicks. If your account is overpaying for every click, [get in touch](https://piperocket.digital/contact-us/) and we'll audit where the leaks are.
 
 ## Frequently Asked Questions
 
@@ -147,4 +147,4 @@ Ad relevance changes, like getting the keyword into the copy, often show up with
 
 ### Does Quality Score affect how much I pay per click?
 
-Yes, directly. Quality Score is a core input to Ad Rank, and a higher score lets you win the same ad position at a lower cost per click than a competitor with a lower score. On a SaaS account with expensive category keywords, the difference between a 4 and an 8 can meaningfully change how far your daily budget stretches. That's why we treat Quality Score as a lever on CPC and budget efficiency rather than a metric to admire in the dashboard.
+Yes, directly. Quality Score is a core input to Ad Rank, and a higher score lets you win the same ad position at a lower cost per click than a competitor with a lower score. On a SaaS account with expensive category keywords, the difference between a 4 and an 8 can meaningfully change how far your daily budget stretches. That's why we treat Quality Score as a lever on CPC and budget efficiency, a working control rather than a dashboard metric to admire.

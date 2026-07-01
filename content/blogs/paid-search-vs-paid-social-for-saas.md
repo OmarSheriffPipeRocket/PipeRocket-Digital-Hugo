@@ -19,8 +19,8 @@ Here's the frame I use with every client: Google is for capture, and social is f
 - **They do different jobs:** Paid search captures demand that already exists in the market; paid social creates demand in buyers who aren't searching yet. Neither replaces the other.
 - **Start with paid search:** If people are already searching for your category, fund search first. It's the highest-intent, fastest-payback money in B2B SaaS.
 - **Add paid social when capture is maxed:** Once you can't spend more on high-intent search profitably, social becomes the growth lever, but only for high-ACV products.
-- **Measure them differently:** Judge search on last-click cost per lead; judge social on lift, brand-search rise, and total pipeline, not the platform's own attribution.
-- **The split follows the deal, not a template:** Low ACV and mature demand lean search-heavy; high ACV and a new category lean social-heavy.
+- **Measure them differently:** Judge search on last-click cost per lead; judge social on lift, brand-search rise, and total pipeline rather than the platform's own attribution.
+- **The split follows the deal:** Low ACV and mature demand lean search-heavy; high ACV and a new category lean social-heavy. A fixed template won't fit.
 
 ## What's the Real Difference Between Paid Search and Paid Social?
 
@@ -34,7 +34,7 @@ Search meets demand that already exists. Social builds demand that doesn't. If y
 
 | | Paid Search (Google) | Paid Social (LinkedIn) |
 |---|---|---|
-| **Buyer mindset** | Actively looking for a fix | Scrolling, not shopping |
+| **Buyer mindset** | Actively looking for a fix | Scrolling between meetings |
 | **What it does** | Captures existing demand | Creates new demand |
 | **Cost model** | Pay per click | Pay per impression |
 | **Payback** | Fast, high intent | Slow, compounding |
