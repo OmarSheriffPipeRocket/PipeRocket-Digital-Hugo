@@ -119,7 +119,7 @@ Across the five AI platforms tracked, traffic volume, on-site engagement, and pi
 
 ## AEO and GEO Statistics: How B2B Buyers Use AI in the Purchase Journey
 
-Beyond our proprietary dataset, here is what broader industry research tells us about AI's role in B2B buying behaviour and how to optimize for AI citation and visibility.
+Beyond our proprietary dataset, here is what broader industry research tells us about AI's role in B2B buying behaviour and how to optimize for AI citation and visibility. If you would rather partner than build this in-house, our roundup of the [best AEO agencies for AI visibility tracking and reporting](/list/best-aeo-agency/) applies these same signals to real vendors.
 
 - **89% of B2B buyers** now use generative AI at some point in their buying process. (source — [Forrester Buyers' Journey Survey, 2024](https://www.forrester.com/report/b2b-buyer-adoption-of-generative-ai/RES181769))
 - B2B buyers spend just **17% of their total purchase journey** meeting with potential suppliers — most evaluation happens independently. (source — [Gartner](https://www.gartner.com/en/sales/insights/b2b-buying-journey))

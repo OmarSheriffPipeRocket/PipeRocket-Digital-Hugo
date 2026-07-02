@@ -151,7 +151,7 @@ At PipeRocket, AIO citation is a systematic part of how we approach client pages
 
 Alongside that, we build the off-page brand signal layer: third-party appearances, review profiles, the presence that gives Google a reason to trust a citation.
 
-If you want to know how we approach this as part of a [SaaS SEO engagement](/saas-seo-agency/), or want to run this audit on your own pages, [reach out and we can walk through it together](/contact-us/).
+If you want to know how we approach this as part of a [SaaS SEO engagement](/saas-seo-agency/) (and how we compare to other [AEO agencies for AI visibility tracking and reporting](/list/best-aeo-agency/)), or want to run this audit on your own pages, [reach out and we can walk through it together](/contact-us/).
 
 ## Frequently Asked Questions
 

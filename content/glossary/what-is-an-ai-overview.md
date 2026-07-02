@@ -94,7 +94,7 @@ A warning from experience: this works for informational and how-to content. For 
 
 This is the same foundation a good [SaaS SEO agency](https://piperocket.digital/saas-seo-agency/) builds anyway, which is exactly the point. Citation-worthiness is rankability plus clarity.
 
-**Also read:** [best AI SEO agencies](/list/best-ai-seo-agencies/)
+**Also read:** [best AI SEO agencies](/list/best-ai-seo-agencies/), [best AEO agencies](/list/best-aeo-agency/), and [best GEO agencies](/list/best-geo-agencies/)
 
 ![The four content traits Google's AI Overviews reward when selecting which pages to cite](/images/glossary-infographics/what-is-an-ai-overview-infographic-2.webp)
 

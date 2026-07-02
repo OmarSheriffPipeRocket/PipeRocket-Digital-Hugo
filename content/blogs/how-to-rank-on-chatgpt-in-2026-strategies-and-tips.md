@@ -161,7 +161,7 @@ I know everyone was talking about using Reddit to manipulate AI citations. We sa
 
 Look, I’m being honest here, executing a strategy like this is a massive amount of work. It takes hours of interviewing Sales staff, mapping out your [Total Addressable Market](/glossary/what-is-tam-sam-som/), and building these technical clusters.
 
-You probably don’t have the time to do this yourself while you’re trying to run a company. That’s why we built [PipeRocket Digital](/saas-seo-agency/).
+You probably don’t have the time to do this yourself while you’re trying to run a company. That’s why we built [PipeRocket Digital](/saas-seo-agency/), one of the [best AEO agencies for AI visibility tracking and reporting](/list/best-aeo-agency/).
 
 We identify the exact prompts your ICP is using. We restructure your content so the AI can actually read it. We build the external brand authority that makes these engines trust you. We turn organic search into a predictable revenue pipeline.
 
