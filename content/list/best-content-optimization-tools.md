@@ -345,7 +345,7 @@ MarketMuse paid plan pricing is not publicly listed as of June 2026 (removed pos
 
 ### 5. Scalenut
 
-Best for: Growing SaaS content teams that want keyword clustering, NLP scoring, and AI article generation in one platform at the lowest entry price in this set.
+Best for: Growing SaaS content teams that want [keyword clustering](/blogs/how-to-cluster-keywords-for-saas/), NLP scoring, and AI article generation in one platform at the lowest entry price in this set.
 
 [Scalenut](https://www.scalenut.com/) is an end-to-end content intelligence platform. At $24/mo (promotional annual pricing as of June 2026), it's the most affordable tool in this set that includes keyword clustering, SEO scoring, and AI writing at the entry tier. Its "Cruise Mode" generates a full article from keyword to scored draft in one workflow.
 
@@ -517,7 +517,7 @@ It's NOT viable as a standalone content optimization tool if you're not already 
 
 **Core Strengths**
 
-SE Ranking has the highest verified review count (1,300+ on G2) in this set, offering the broadest social proof for the platform as a whole. Content optimization, rank tracking, site audits, and competitive research all live in one subscription.
+SE Ranking has the highest verified review count (1,300+ on G2) in this set, offering the broadest [social proof](/blogs/saas-social-proof/) for the platform as a whole. Content optimization, rank tracking, site audits, and competitive research all live in one subscription.
 
 - Highest G2 review volume (1,300+ reviews) in this set: broadest validation base
 - All-in-one SEO platform: rank tracking, audits, and content optimization in one subscription

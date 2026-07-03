@@ -532,6 +532,10 @@ LINK_MAP = [
     ("creative testing", "/blogs/saas-creative-testing/", False, "P2"),
     ("ad fatigue", "/blogs/saas-ad-fatigue/", False, "P1"),
     ("creative testing", "/blogs/saas-creative-testing/", False, "P1"),
+    # ---- SaaS blog batch added 2026-07-03 ----
+    ("keyword clustering", "/blogs/how-to-cluster-keywords-for-saas/", False, "P1"),
+    ("cluster keywords", "/blogs/how-to-cluster-keywords-for-saas/", False, "P2"),
+    ("Customer Match", "/blogs/how-to-use-customer-match-for-saas/", False, "P1"),
     ("MarketMuse vs Clearscope", "/compare/marketmuse-vs-clearscope/", False, "P2"),
     ("Ubersuggest alternatives", "/alternative/ubersuggest-alternatives/", False, "P2"),
     ("Botify alternatives", "/alternative/botify-alternatives/", False, "P2"),

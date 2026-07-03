@@ -262,7 +262,7 @@ KeyClusters uses a credit-based model with no monthly commitment required. Pay-a
 
 ### 5. Ahrefs Keywords Explorer (Keyword Clustering)
 
-Best for: SaaS SEO teams already on Ahrefs who want the fastest large-scale keyword clustering natively integrated with backlink and SERP data.
+Best for: SaaS SEO teams already on Ahrefs who want the fastest large-scale [keyword clustering](/blogs/how-to-cluster-keywords-for-saas/) natively integrated with backlink and SERP data.
 
 [Ahrefs Keywords Explorer](https://ahrefs.com/keywords-explorer) is the keyword research module inside Ahrefs, one of the two dominant [enterprise SEO platforms](/list/best-enterprise-seo-software/). Keyword clustering was added as a native feature and uses Ahrefs's proprietary Parent Topic metric to group keywords by the highest-traffic page they share. Clustering requires the Standard plan ($249/mo) or above.
 
