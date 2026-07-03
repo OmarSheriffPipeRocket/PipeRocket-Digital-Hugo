@@ -15,11 +15,11 @@ wp_id: 2967
 wp_link: "/research/ai-seo-statistics/"
 ---
 
-If you run marketing for a B2B SaaS company right now, you've probably heard some version of this: *"AI is killing organic search."* Or the opposite: *"AI is just a distraction — SEO still works."* The problem is, most people saying either thing are working off vibes, not data.
+Here is the headline from our own data: across 53 B2B SaaS brands we tracked for 8 months, organic search still drove **91.3% of all traffic** and **37x more leads** than every AI engine combined, yet AI referral traffic is growing fast and converting a very different kind of buyer. If you run marketing for a B2B SaaS company, you have heard the two loud takes: *"AI is killing organic search,"* or *"AI is just a distraction."* Both are wrong, and most people repeating either one are working off vibes, not data.
 
-We wanted to know what's actually happening. So we pulled 8 months of real analytics and CRM data from 53 B2B SaaS brands we work with — and looked at how organic search and AI referral traffic actually compare across traffic, leads, conversions, and pipeline. No estimates. No surveys. Just what we saw in the numbers.
+So we dug in. We pulled real analytics and CRM data from those 53 brands and compared organic search against AI referral traffic across traffic, leads, conversions, and pipeline. No estimates. No surveys. Just what we saw in the numbers.
 
-Every statistic in sections 1 through 6 comes directly from that dataset. The industry stats in the final section are sourced separately, with links to the original research.
+Every statistic in the first six sections comes directly from that dataset. The industry statistics in the later sections are sourced separately, with links to the original research.
 
 ### Key Takeaways
 
@@ -117,6 +117,72 @@ Across the five AI platforms tracked, traffic volume, on-site engagement, and pi
 - Claude contributed only **1.1% of AI referral traffic** and had the lowest engagement (43.9%) and Lead-to-SQL rate (15%) of all platforms tracked.
 - Gemini's **20% Lead-to-SQL rate** matched Fintech organic performance — suggesting Gemini-referred users were in early, exploratory research phases.
 
+## AI Search Adoption and Usage Statistics
+
+The statistics above come from our own dataset. The sections that follow draw on the wider body of third-party research published across 2025 and 2026, with every figure linked to its original source. AI search is being adopted fast, but it is layering on top of traditional search rather than replacing it, and B2B software buyers are moving faster than the general population.
+
+- **44% of US adults** now report using ChatGPT as of early 2026, up from 34% in 2025 and 18% in 2023. ([Pew Research Center, June 2026](https://www.pewresearch.org/internet/2026/06/17/how-opinions-and-use-of-ai-differ-by-age/))
+- **28% of employed US adults** use ChatGPT for work, up from just 8% in early 2023. ([Pew Research Center, June 2025](https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/))
+- **51% of B2B software buyers** now start their research with an AI chatbot more often than with Google, up from 29% in April 2025. ([G2 Research, April 2026](https://www.prnewswire.com/news-releases/new-g2-research-half-of-b2b-software-buyers-now-start-their-research-with-ai-chatbots-302742807.html))
+- **71% of B2B buyers** rely on AI chatbots for software research, up from 60% just seven months earlier. ([G2 Research, April 2026](https://www.prnewswire.com/news-releases/new-g2-research-half-of-b2b-software-buyers-now-start-their-research-with-ai-chatbots-302742807.html))
+- **69% of B2B buyers** chose a different vendor than they originally planned based on AI chatbot guidance, and 33% bought from a vendor they had not previously known existed. ([G2 Research, April 2026](https://www.prnewswire.com/news-releases/new-g2-research-half-of-b2b-software-buyers-now-start-their-research-with-ai-chatbots-302742807.html))
+- **97% of B2B buyers** say AI chatbots have meaningfully changed their research habits, and 53% now find AI research more productive than traditional search. ([G2 Research, April 2026](https://www.prnewswire.com/news-releases/new-g2-research-half-of-b2b-software-buyers-now-start-their-research-with-ai-chatbots-302742807.html))
+- **94% of B2B buyers** report using AI at some point during a purchase process. ([Forrester, 2026](https://investor.forrester.com/news-releases/news-release-details/forresters-2026-b2b-marketing-sales-and-product-predictions-b2b))
+- ChatGPT's share of worldwide AI web traffic **fell from 86.7% to below 65%** in roughly a year as Gemini climbed past 20%, a redistribution of usage rather than a decline in AI overall. ([Similarweb, 2026](https://x.com/Similarweb/status/2008805674893939041))
+- Generative AI platforms referred **226.8 million US visitors** to third-party sites in January 2026. ([Similarweb 2026 Generative AI Visibility Index](https://datareportal.com/reports/similarweb-2026-generative-ai-visibility-index))
+
+## What Makes Content Get Cited by AI: LLM Ranking Factors
+
+The signals that earn AI citations are not the same as classic SEO ranking factors. Brand presence beats raw link metrics, freshness matters, and several widely-hyped tactics do nothing.
+
+- **Branded web mentions correlate with AI visibility about 3x more strongly than [backlinks](/glossary/what-is-a-backlink/)** (0.664 vs. 0.218), across a study of 75,000 brands. ([Ahrefs, August 2025](https://ahrefs.com/blog/ai-overview-brand-correlation/))
+- **YouTube mentions show the single strongest correlation with AI visibility (around 0.737)**, outranking every other factor tested across ChatGPT, AI Mode, and AI Overviews. ([Ahrefs, December 2025](https://ahrefs.com/blog/ai-brand-visibility-correlations/))
+- **Domain Rating correlates only 0.27 to 0.33, and backlink count only about 0.19** with AI visibility, confirming raw link metrics are secondary to brand mentions. ([Ahrefs, December 2025](https://ahrefs.com/blog/ai-brand-visibility-correlations/))
+- **76.4% of ChatGPT's top 1,000 cited pages were updated within the last 30 days.** ([Ahrefs, October 2025](https://ahrefs.com/blog/chatgpts-most-cited-pages/))
+- ChatGPT's cited pages skew far fresher than Google's organic results, with direct citations averaging **458 days newer** than what ranks organically. ([Ahrefs, 2026](https://ahrefs.com/blog/how-to-rank-on-chatgpt/))
+- **44.2% of all ChatGPT citations pull from the first 30% of a page**, with the middle 40% contributing 31.1% and the final third only 24.7%. ([Ahrefs, 2026](https://ahrefs.com/blog/how-to-rank-on-chatgpt/))
+- Cited content shows an **entity density of about 20.6%**, three to four times higher than standard prose, so AI favors content dense with named people, brands, and products. ([Ahrefs, 2026](https://ahrefs.com/blog/how-to-rank-on-chatgpt/))
+- **[Schema markup](/glossary/what-is-schema-markup/) showed no causal lift in AI citations** across 1,885 pages that added JSON-LD versus 4,000 control pages; all changes fell within statistical noise. ([Ahrefs, via Search Engine Land, 2026](https://searchengineland.com/schema-markup-ai-search-no-hype-472339))
+- **llms.txt showed no measurable effect on how often a domain is cited by LLMs** in a 300,000-domain analysis. ([SE Ranking, November 2025](https://seranking.com/blog/llms-txt/))
+
+## Top Cited Domains and Content Formats in AI Answers
+
+AI engines pull from a narrow, predictable set of domains and formats. Knowing which ones tells you where to build presence.
+
+- **Wikipedia is the single largest source in ChatGPT's top 1,000 cited pages at 29.7%**, followed by homepages and landing pages (23.8%) and educational pages (19.4%). ([Ahrefs, October 2025](https://ahrefs.com/blog/chatgpts-most-cited-pages/))
+- **Only 32.3% of ChatGPT's top-cited content types are ones marketers can directly influence**; the remaining 67.7% are formats like Wikipedia and organizational homepages. ([Ahrefs, October 2025](https://ahrefs.com/blog/chatgpts-most-cited-pages/))
+- **28.3% of ChatGPT's top-cited pages have zero organic Google keyword rankings**, confirming AI citation and classic SEO ranking are increasingly separate games. ([Ahrefs, October 2025](https://ahrefs.com/blog/chatgpts-most-cited-pages/))
+- **Reddit is the most-cited domain in Perplexity and Google AI Mode, and second only to Wikipedia in ChatGPT**, based on over 1 million citations analyzed. ([Otterly.AI, February 2026](https://otterly.ai/blog/the-ai-citations-report-2026/))
+- **Community platforms (Reddit and Quora) account for 52.5% of citations versus 47.5% for brand domains.** ([Otterly.AI, February 2026](https://otterly.ai/blog/the-ai-citations-report-2026/))
+- **Brand-domain citation rates vary sharply by platform: Google AI Overviews cite brand domains 59.8% of the time, ChatGPT 44.7%, and Perplexity only 28.9%.** ([Otterly.AI, February 2026](https://otterly.ai/blog/the-ai-citations-report-2026/))
+- **"Best of" listicles account for 43.83% of ChatGPT citations** across software, agency, and product categories, the dominant format for commercial queries. ([Ahrefs, 2026](https://ahrefs.com/blog/how-to-rank-on-chatgpt/))
+- **ChatGPT averages 15 sources per response versus Gemini's 3**, based on 126 million US AI search prompts, so ChatGPT casts a far wider citation net. ([Semrush 2026 AI Visibility Index](https://www.semrush.com/news/463141-semrush-releases-expanded-2026-ai-visibility-index-analyzing-126-million-ai-search-prompts/))
+
+## AI Bot, Crawler, and Agent Statistics
+
+If AI engines cannot crawl your pages, none of the citation factors matter. Crawler behavior is shifting quickly, and most of it exists to harvest training data rather than send traffic.
+
+- **GPTBot's share of crawler traffic grew from 2.2% to 7.7% in a year (up 305%)**, moving to the third most active crawler, while Googlebot reached 50% of all crawler traffic. ([Cloudflare, July 2025](https://blog.cloudflare.com/from-googlebot-to-gptbot-whos-crawling-your-site-in-2025/))
+- **PerplexityBot's request volume grew 157,490% year over year**, the fastest-growing crawler tracked, though from a small base. ([Cloudflare, July 2025](https://blog.cloudflare.com/from-googlebot-to-gptbot-whos-crawling-your-site-in-2025/))
+- **Only 14% of the top 10,000 domains have any robots.txt directive targeting AI bots**, so most publishers have not made an explicit access decision either way. ([Cloudflare, July 2025](https://blog.cloudflare.com/from-googlebot-to-gptbot-whos-crawling-your-site-in-2025/))
+- **Anthropic's ClaudeBot crawls 23,951 pages for every referral it sends back**, versus GPTBot at 1,276 to 1 and Google at roughly 5 to 1, showing most AI crawling harvests training data and returns almost no traffic. ([Cloudflare Radar, 2026](https://blog.cloudflare.com/crawlers-click-ai-bots-training/))
+- **llms.txt files reached 36,120 known instances by May 2026, an 8.8x jump in a year, yet AI crawlers almost never fetch them.** ([ppc.land, 2026](https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/))
+- **Google has confirmed it does not support llms.txt and has no plans to**, with John Mueller comparing it to the ignored meta-keywords tag. ([via Digital Applied, 2026](https://www.digitalapplied.com/blog/google-llms-txt-no-seo-value-lighthouse-audit-2026))
+
+## Google AI Overview and Zero-Click Statistics
+
+[AI Overviews](/glossary/what-is-an-ai-overview/) are expanding into commercial territory and compressing click-through rates, but being cited inside one is a measurable advantage.
+
+- **AI Overviews appeared in 6.49% of US queries in January 2025, peaked near 24.61% in July, then settled to 15.69% by November 2025** after Google recalibrated the feature. ([Semrush, December 2025](https://www.semrush.com/blog/semrush-ai-overviews-study/))
+- **AI Overview coverage grew 58% year over year, reaching roughly 48% of tracked queries by March 2026.** ([BrightEdge via Search Engine Journal, March 2026](https://www.searchenginejournal.com/google-ai-overviews-surges-across-9-industries/568448/))
+- **AI Overview presence in B2B technology queries climbed from 36% to 82% in twelve months**, one of the steepest increases of any industry tracked. ([BrightEdge via Search Engine Journal, March 2026](https://www.searchenginejournal.com/google-ai-overviews-surges-across-9-industries/568448/))
+- **US Google searches ended without a click 68.01% of the time in early 2026, up from 60.45% in 2024.** ([SparkToro via Search Engine Land, 2026](https://searchengineland.com/google-zero-click-searches-2026-study-479717))
+- **Organic [CTR](/glossary/what-is-ctr/) for queries with an AI Overview fell to 1.3% in December 2025 before recovering to 2.4% by February 2026**, based on 2.43 billion organic impressions across 53 brands. ([Seer Interactive, April 2026](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update))
+- **Brands cited inside an AI Overview earn 120% more organic clicks per impression than brands not cited on the same page** (2.07% vs. 0.94% CTR on informational queries). ([Seer Interactive, April 2026](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update))
+- **Comparison queries trigger an AI Overview 95.4% of the time, question queries 85.9%, review queries 86.3%, and "best of" queries 81.3%**, versus just 27.3% for single-word queries. ([Seer Interactive, April 2026](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update))
+- **Commercial-intent AI Overview queries rose from 8.15% to 18.57% and transactional queries from 1.98% to 13.94% in a year**, as AI Overviews move deeper into purchase-intent searches. ([Semrush, December 2025](https://www.semrush.com/blog/semrush-ai-overviews-study/))
+- **Healthcare has the highest AI Overview trigger rate at 88%, followed by Education at 83% and B2B Tech at 82%.** ([BrightEdge via Search Engine Journal, March 2026](https://www.searchenginejournal.com/google-ai-overviews-surges-across-9-industries/568448/))
+
 ## AEO and GEO Statistics: How B2B Buyers Use AI in the Purchase Journey
 
 Beyond our proprietary dataset, here is what broader industry research tells us about AI's role in B2B buying behaviour and how to optimize for AI citation and visibility. If you would rather partner than build this in-house, our roundup of the [best AEO agencies for AI visibility tracking and reporting](/list/best-aeo-agency/) applies these same signals to real vendors.
@@ -172,5 +238,5 @@ AI is not replacing organic search — it is acting as an untracked discovery la
 - **Target the right AI platforms.** Prioritize ChatGPT for general visibility. Build specific strategies for Microsoft Copilot and Gemini to capture high-intent enterprise buyers in "work mode."
 - **Close the attribution gap.** Add a "How did you hear about us?" field to your demo forms. AI's true impact on pipeline is being significantly underreported by standard attribution tools.
 
-Stats in sections 1–6 are sourced from PipeRocket Digital's proprietary 8-month analysis of 53 B2B SaaS brands. Stats in section 7 are drawn from third-party industry research published in 2025–2026, with individual sources linked inline.
+Stats in the first six sections are sourced from PipeRocket Digital's proprietary 8-month analysis of 53 B2B SaaS brands. Stats in the later sections are drawn from third-party industry research published in 2025 and 2026, with individual sources linked inline.
 

@@ -1,0 +1,299 @@
+{{/* AEO / AI-Search ROI Calculator.
+     Calculator built on the site's shared .pr-calc component (main.css).
+     Content below uses the site's standard 2-col article layout
+     (.pr-2col-article > .pr-article-3-6-3) with global prose (.pr-glossary__body),
+     a left rail (CTA + auto "On this page" TOC via blog-v2.js), matching
+     blogs / glossary / listicles. Local CSS is minimal. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 620px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  /* Disclosed-formula block, themed to match the site */
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "AEO / AI-Search ROI Calculator",
+  "description": "Free calculator that models how AI search citations across ChatGPT, Perplexity and Google AI Overviews turn into visits, MQLs, pipeline and ARR for B2B SaaS, with a dark-funnel attribution layer.",
+  "url": "{{ .Permalink }}",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you calculate the ROI of AEO or AI search?",
+      "acceptedAnswer": { "@type": "Answer", "text": "AEO ROI works the same way as any pipeline ROI, starting from AI citations instead of rankings. The chain is: buyer queries times your citation rate = AI citations, times citation-to-visit rate = referral visits, times visitor-to-MQL rate = MQLs, times close rate = customers, times ACV times 12 = new ARR. Divide new ARR by your AEO investment for ROI. Because last-click attribution undercounts AI-driven pipeline, this calculator also applies an attribution multiplier to show influenced ARR, then reports ROI on the conservative, directly attributable figure." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why can't I see AI search ROI in Google Analytics?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Because most AI-influenced journeys are invisible to last-click attribution. A buyer can read your brand in a ChatGPT or Perplexity answer, remember it, and convert later through a direct or branded visit, so GA4 credits the last channel, not the AI citation that started it. SegmentStream estimates last-click undercounts AI-driven revenue by 5 to 8 times, and up to 15 times for B2B. That is why this calculator includes an attribution multiplier to size the influenced pipeline GA4 misses." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does AI search traffic actually convert for B2B SaaS?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The evidence says it converts better than average, though studies disagree on how much. Visibility Labs found ChatGPT referrals converted about 31% higher than non-branded organic; Seer Interactive measured ChatGPT sessions converting near 15.9% versus 1.76% for Google organic in one case study; and Ahrefs reported AI-search visitors converting far above its site average. The multipliers vary widely, so this calculator lets you set your own conversion rate rather than assuming one number." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good AEO ROI for B2B SaaS?",
+      "acceptedAnswer": { "@type": "Answer", "text": "As a rule of thumb, under 100% is a weak return, 100% to 300% is solid, and above 300% is strong, mirroring the payback bands AEO tools commonly cite (typical payback of 3 to 6 months). Because B2B SaaS deal sizes are large, a single AI-sourced enterprise close can return an entire year of AEO investment, so high-ACV companies tend to see the highest ROI even at modest citation volumes." }
+    },
+    {
+      "@type": "Question",
+      "name": "How is AEO ROI different from SEO ROI?",
+      "acceptedAnswer": { "@type": "Answer", "text": "SEO ROI starts from rankings and clicks; AEO ROI starts from citations and mentions inside AI answers. Two differences matter. First, an AI citation can influence a buyer without ever producing a tracked click, so attribution needs a multiplier. Second, AI visibility is winner-take-most: being the cited source captures far more value than ranking second, whereas classic SEO spreads clicks across positions. This calculator models both effects." }
+    }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<!-- ===== CALCULATOR ===== -->
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">AEO / AI-Search ROI Calculator</h1>
+          <p class="pr-calc__sub">Turn AI citations across ChatGPT, Perplexity and Google AI Overviews into visits, MQLs, pipeline and ARR. Includes the dark-funnel pipeline last-click attribution misses. Fully disclosed formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Monthly buyer queries <em>in your category</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="q" value="50000" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">qrys</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Your AI citation rate <em>typical 15–25%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="cite" value="20" min="0" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Citation → visit rate <em>typical 8–22%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="c2v" value="12" min="0" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Visitor → MQL rate <em>typical 2–4%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="cvr" value="3" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">MQL → close rate <em>typical 15–25%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="close" value="15" min="0" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Average deal size (ACV) <em>USD</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="acv" value="25000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Attribution multiplier <em>dark-funnel, 3× typ.</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="attr" value="3" min="1" max="15" step="0.5" class="pr-calc__no-prefix"><span class="pr-calc__suffix">×</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Monthly AEO investment <em>USD</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="inv" value="5000" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your AI search return</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rVisits">—</div><div class="pr-calc__l">AI visits / mo</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rMqls">—</div><div class="pr-calc__l">MQLs / mo</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rArr">—</div><div class="pr-calc__l">New ARR / yr</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRoi">—</div><div class="pr-calc__l">AEO ROI</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your numbers to see the pipeline and ARR your AI search visibility can generate.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/ai-seo-services/" class="pr-btn" data-cta-source="tool-aeo-roi-mid">Model your real AI search pipeline →</a>
+          <small>No commitment · 30-min AI search strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTENT (standard 2-col article layout) ===== -->
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Turn AI visibility into pipeline.</strong>
+          <p>PipeRocket makes B2B SaaS brands the source AI engines cite, and proves the revenue.</p>
+          <a href="/saas-seo-agency/ai-seo-services/" class="pr-btn" data-cta-source="tool-aeo-roi-side">Get an AI search audit</a>
+        </div>
+
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/ai-overview-traffic-loss-calculator/">AI Overview Traffic-Loss Calculator</a>
+            <a href="/tools/ai-agent-readiness-checker/">AI Agent Readiness Checker</a>
+            <a href="/tools/free-seo-roi-calculator/">SEO ROI Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is AEO ROI?</h2>
+          <blockquote>AEO ROI (answer engine optimization ROI) is the revenue you earn from being cited in AI answers, measured against what you spend to earn those citations. It follows the same pipeline logic as SEO ROI but starts one step earlier, from citations inside ChatGPT, Perplexity and Google AI Overviews rather than from rankings. Because AI-influenced buyers often convert later through a direct or branded visit, a large share of this return is invisible to last-click analytics, which is why this calculator sizes both the attributable and the influenced pipeline.</blockquote>
+
+          <h2>Why AI search ROI matters now</h2>
+          <p>AI search is small in volume but high in value, and the value is systematically undercounted. The evidence, with the honest disagreement intact:</p>
+          <ul>
+            <li><strong>AI referrals convert above average, by a wide and contested margin.</strong> <a href="https://almcorp.com/blog/chatgpt-vs-organic-search-conversion-rate/" target="_blank" rel="noopener">Visibility Labs</a> found ChatGPT referrals converting about 31% higher than non-branded organic; <a href="https://www.seerinteractive.com/insights/case-study-6-learnings-about-how-traffic-from-chatgpt-converts" target="_blank" rel="noopener">Seer Interactive</a> measured ChatGPT at 15.9% versus 1.76% for Google organic in one case study; <a href="https://ahrefs.com/blog/ai-search-traffic-conversions-ahrefs/" target="_blank" rel="noopener">Ahrefs</a> reported AI-search visitors converting far above its site average.</li>
+            <li><strong>Last-click hides most of it.</strong> <a href="https://segmentstream.com/blog/articles/how-to-measure-roi-of-ai-search" target="_blank" rel="noopener">SegmentStream</a> estimates last-click attribution undercounts AI-driven revenue by 5 to 8 times, and up to 15 times for B2B.</li>
+            <li><strong>Being cited beats being listed.</strong> <a href="https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update" target="_blank" rel="noopener">Seer Interactive</a> found pages cited in an AI Overview earn roughly 120% more clicks per impression than uncited pages on the same result.</li>
+          </ul>
+
+          <h2>How this calculator works</h2>
+          <p>Every output traces back to one arithmetic chain and inputs you control. No black box:</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+AI citations   = Buyer queries × citation rate
+Referral visits = Citations × citation-to-visit rate
+MQLs           = Visits × visitor-to-MQL rate
+Customers      = MQLs × close rate
+New ARR        = Customers × ACV × 12   (attributable)
+Influenced ARR = New ARR × attribution multiplier
+AEO ROI        = (New ARR − annual investment) ÷ annual investment × 100</pre>
+          <p>ROI is reported on the <strong>attributable</strong> ARR, not the influenced figure, so the headline stays conservative. The influenced ARR sizes the dark-funnel pipeline your analytics misses.</p>
+          <table>
+            <thead><tr><th>Input</th><th>Default</th><th>Basis</th></tr></thead>
+            <tbody>
+              <tr><td>Citation → visit rate</td><td>12%</td><td>Hashmeta GEO ROI benchmark (8–22%)</td></tr>
+              <tr><td>MQL → close rate</td><td>15–25%</td><td>B2B SaaS averages by segment</td></tr>
+              <tr><td>Attribution multiplier</td><td>3×</td><td>SegmentStream: 5–8× undercount, up to 15× B2B</td></tr>
+            </tbody>
+          </table>
+          <p><em>Sources: <a href="https://www.hashmeta.ai/en/blog/geo-roi-calculator-measuring-the-business-value-of-ai-search-visibility" target="_blank" rel="noopener">Hashmeta</a>, <a href="https://segmentstream.com/blog/articles/how-to-measure-roi-of-ai-search" target="_blank" rel="noopener">SegmentStream</a>, <a href="https://www.seerinteractive.com/insights/case-study-6-learnings-about-how-traffic-from-chatgpt-converts" target="_blank" rel="noopener">Seer Interactive</a>.</em></p>
+
+          <h2>Worked example</h2>
+          <p>A mid-market SaaS cited in 20% of 50,000 monthly queries:</p>
+          <ol>
+            <li><strong>AI citations:</strong> 50,000 × 20% = 10,000 citations/month.</li>
+            <li><strong>Referral visits:</strong> 10,000 × 12% = 1,200 visits/month.</li>
+            <li><strong>MQLs:</strong> 1,200 × 3% = 36 MQLs/month.</li>
+            <li><strong>Customers:</strong> 36 × 15% = 5.4 customers/month.</li>
+            <li><strong>New ARR:</strong> 5.4 × $25,000 × 12 = about $1.62M/year attributable, or roughly $4.9M influenced at a 3× multiplier. On $60K annual AEO spend, that is a 27× return.</li>
+          </ol>
+
+          <h2>How to read your ROI number</h2>
+          <table>
+            <thead><tr><th>ROI</th><th>Read</th><th>What it usually means</th></tr></thead>
+            <tbody>
+              <tr><td>Below 100%</td><td>Weak</td><td>Citation volume or deal size too low to justify spend yet</td></tr>
+              <tr><td>100–300%</td><td>Solid</td><td>A healthy, defensible AEO program</td></tr>
+              <tr><td>300%+</td><td>Strong</td><td>Typical for high-ACV B2B SaaS with real AI visibility</td></tr>
+            </tbody>
+          </table>
+          <p><em>AEO tools commonly cite payback of 3 to 6 months and 12-month ROI in the 200–600% range for B2B. Your mileage depends on ACV, citation share and content quality.</em></p>
+
+          <h2>Why you can't see this in Google Analytics</h2>
+          <p>The most common objection to investing in AEO is "my analytics doesn't show any of this." That is the problem, not proof it isn't happening. A buyer reads your brand inside a ChatGPT or Perplexity answer, forms an opinion, and converts weeks later through a direct or branded search. Last-click gives the credit to that final touch and none to the AI citation that started the journey. Sizing the influenced pipeline (the attribution multiplier above) is how you make the invisible portion visible to your board, and building first-party attribution to confirm it is part of every PipeRocket engagement.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate the ROI of AEO or AI search?</h3>
+          <p>AEO ROI works like any pipeline ROI, starting from citations instead of rankings: buyer queries × citation rate = AI citations, × citation-to-visit rate = referral visits, × visitor-to-MQL rate = MQLs, × close rate = customers, × ACV × 12 = new ARR. Divide new ARR by your AEO investment for ROI. Because last-click undercounts AI-driven pipeline, the calculator also applies an attribution multiplier for influenced ARR, then reports ROI on the conservative attributable figure.</p>
+          <h3>Why can't I see AI search ROI in Google Analytics?</h3>
+          <p>Because most AI-influenced journeys are invisible to last-click attribution. A buyer can read your brand in a ChatGPT or Perplexity answer, remember it, then convert later through a direct or branded visit, so GA4 credits the last channel, not the AI citation that started it. SegmentStream estimates last-click undercounts AI-driven revenue by 5 to 8 times, up to 15 times for B2B.</p>
+          <h3>Does AI search traffic actually convert for B2B SaaS?</h3>
+          <p>The evidence says it converts better than average, though studies disagree on how much. Visibility Labs found ChatGPT referrals converting about 31% higher than non-branded organic; Seer Interactive measured ChatGPT near 15.9% versus 1.76% for Google organic in one case study; Ahrefs reported AI-search visitors converting well above its site average. Because the multipliers vary so widely, the calculator lets you set your own conversion rate.</p>
+          <h3>What is a good AEO ROI for B2B SaaS?</h3>
+          <p>As a rule of thumb, under 100% is weak, 100% to 300% is solid, and above 300% is strong, mirroring the payback bands AEO tools commonly cite (3 to 6 months typical). Because B2B SaaS deal sizes are large, a single AI-sourced enterprise close can return a full year of AEO investment, so high-ACV companies see the highest ROI even at modest citation volumes.</p>
+          <h3>How is AEO ROI different from SEO ROI?</h3>
+          <p>SEO ROI starts from rankings and clicks; AEO ROI starts from citations and mentions inside AI answers. An AI citation can influence a buyer without a tracked click, so attribution needs a multiplier; and AI visibility is winner-take-most, so being the cited source captures far more value than ranking second. See also our <a href="/tools/free-seo-roi-calculator/">SEO ROI calculator</a>.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['q','cite','c2v','cvr','close','acv','attr','inv'];
+  if (ids.some(function (i) { return !$(i); })) return;
+
+  function num(id) { return parseFloat($(id).value) || 0; }
+  function money(n) {
+    var a = Math.abs(n);
+    if (a >= 1e6) return '$' + (n/1e6).toFixed(2).replace(/\.?0+$/,'') + 'M';
+    if (a >= 1e3) { var k = n/1000; return '$' + (Math.abs(k)%1===0 ? k.toFixed(0) : k.toFixed(1)) + 'K'; }
+    return '$' + Math.round(n).toLocaleString();
+  }
+  function cnt(n) {
+    n = Math.round(n * 10) / 10;
+    if (Math.abs(n) >= 1e6) return (n/1e6).toFixed(2).replace(/\.?0+$/,'') + 'M';
+    return (n % 1 === 0) ? n.toLocaleString() : n.toFixed(1);
+  }
+
+  function recalc() {
+    var q = num('q'), cite = num('cite')/100, c2v = num('c2v')/100, cvr = num('cvr')/100,
+        close = num('close')/100, acv = num('acv'), attr = num('attr'), inv = num('inv');
+    var citations = q * cite, visits = citations * c2v, mqls = visits * cvr,
+        customers = mqls * close, arr = customers * acv * 12, influenced = arr * attr,
+        annualInv = inv * 12, roiMult = annualInv > 0 ? arr / annualInv : 0,
+        roiPct = Math.round((roiMult - 1) * 100);
+
+    $('rVisits').textContent = cnt(visits);
+    $('rMqls').textContent = cnt(mqls);
+    $('rArr').textContent = money(arr);
+    $('rRoi').textContent = (roiPct >= 0 ? '+' : '') + roiPct.toLocaleString() + '%';
+
+    var verdict = roiPct >= 300 ? 'strong' : roiPct >= 100 ? 'solid' : roiPct >= 0 ? 'modest' : 'early-stage';
+    $('rec').innerHTML = 'Cited in <strong>' + (cite*100).toFixed(0) + '%</strong> of <strong>' + cnt(q) +
+      '</strong> monthly queries, you earn about <strong>' + cnt(citations) + ' citations</strong>, <strong>' + cnt(visits) +
+      ' AI visits</strong> and <strong>' + cnt(mqls) + ' MQLs a month</strong>, closing to roughly <strong>' + cnt(customers) +
+      ' customers/month</strong> and <strong>' + money(arr) + '</strong> in attributable new ARR, a <strong>' + roiMult.toFixed(1) +
+      '× ' + verdict + ' return</strong> on <strong>' + money(annualInv) + '</strong> annual spend. Counting the dark-funnel influence GA4 misses, the real pipeline is closer to <strong>' + money(influenced) + '</strong>.';
+  }
+
+  ids.forEach(function (i) { $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{/* Shared article TOC engine — builds "On this page" from H2s in [data-pr-blog-main] */}}
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}
+  {{ $js = $js | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}
+{{ end }}

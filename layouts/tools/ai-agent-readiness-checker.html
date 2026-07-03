@@ -1,0 +1,413 @@
+{{/* AI Agent Readiness Checker.
+     Interactive scorecard (20 weighted checks) up top, styled with theme tokens
+     to match the light .pr-calc aesthetic. Content below uses the site's
+     standard 2-col article layout (.pr-2col-article > .pr-article-3-6-3) with
+     global prose (.pr-glossary__body) + auto TOC via blog-v2.js. Prefix: arc- */}}
+
+{{ define "head_extra" }}
+<style>
+  .arc-wrap *, .arc-wrap *::before, .arc-wrap *::after { box-sizing: border-box; }
+  .arc-wrap { max-width: 1180px; margin: 0 auto; }
+
+  .arc-hero { max-width: 820px; margin: 0 auto var(--pr-s-7); text-align: center; }
+  .arc-badge { display: inline-block; color: var(--pr-red); font-family: var(--pr-sans); font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; margin-bottom: 14px; }
+  .arc-hero h1 { font-family: var(--pr-serif); font-weight: 700; font-size: clamp(1.9rem, 3.8vw, 2.9rem); line-height: 1.12; color: var(--pr-ink); margin-bottom: 14px; }
+  .arc-hero h1 em { font-style: italic; color: var(--pr-cyan); }
+  .arc-hero p { font-size: 1rem; color: var(--pr-muted); max-width: 640px; margin: 0 auto; line-height: 1.6; }
+
+  .arc-app { display: grid; grid-template-columns: 1fr; gap: var(--pr-s-6); align-items: start; }
+  @media (min-width: 940px) { .arc-app { grid-template-columns: 1fr 340px; gap: var(--pr-s-7); } }
+
+  /* Checklist card */
+  .arc-checklist { background: var(--pr-cream); border: 1px solid var(--pr-line); border-radius: 8px; overflow: hidden; }
+  .arc-cl-head { padding: 20px 24px; border-bottom: 1px solid var(--pr-line); }
+  .arc-cl-head h2 { font-family: var(--pr-sans); font-size: 1rem; font-weight: 700; color: var(--pr-ink); margin: 0; }
+  .arc-cl-head p { font-size: 0.85rem; color: var(--pr-muted); margin: 4px 0 0; }
+  .arc-cat-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 24px 10px; }
+  .arc-cat-name { font-family: var(--pr-sans); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--pr-cyan); }
+  .arc-cat-wt { font-size: 0.7rem; font-weight: 600; color: var(--pr-muted); }
+  .arc-item { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 24px; border-top: 1px solid var(--pr-line); }
+  .arc-item-q { font-size: 0.9rem; line-height: 1.5; color: var(--pr-ink-2); flex: 1; }
+  .arc-toggle { display: inline-flex; border: 1px solid var(--pr-line); border-radius: 4px; overflow: hidden; flex-shrink: 0; background: var(--pr-cream-2); }
+  .arc-toggle button { appearance: none; border: none; background: transparent; font-family: var(--pr-sans); font-size: 0.75rem; font-weight: 600; color: var(--pr-muted); padding: 7px 12px; cursor: pointer; transition: background .12s, color .12s; border-right: 1px solid var(--pr-line); line-height: 1; }
+  .arc-toggle button:last-child { border-right: none; }
+  .arc-toggle button:hover { color: var(--pr-ink); }
+  .arc-toggle button.arc-on[data-val="yes"] { background: var(--pr-cyan); color: var(--pr-ink); }
+  .arc-toggle button.arc-on[data-val="partial"] { background: var(--pr-cyan-soft); color: var(--pr-ink); }
+  .arc-toggle button.arc-on[data-val="no"] { background: var(--pr-ink); color: var(--pr-cream); }
+
+  /* Results */
+  .arc-results { position: sticky; top: 90px; display: flex; flex-direction: column; gap: var(--pr-s-4); }
+  .arc-score-card { background: var(--pr-cream-2); color: var(--pr-ink); border: 1px solid var(--pr-line); border-radius: 8px; padding: 26px 24px; text-align: center; }
+  .arc-gauge { width: 172px; height: 172px; border-radius: 50%; margin: 4px auto 14px; display: grid; place-items: center; background: conic-gradient(var(--arc-gc, var(--pr-cyan)) calc(var(--arc-score,0) * 1%), rgba(13,13,13,0.08) 0); transition: background .5s ease; }
+  .arc-gauge-hole { width: 130px; height: 130px; border-radius: 50%; background: var(--pr-cream-2); display: grid; place-items: center; }
+  .arc-score-num { font-family: var(--pr-serif); font-weight: 700; font-size: 46px; line-height: 1; color: var(--pr-ink); }
+  .arc-score-num span { font-size: 18px; color: var(--pr-muted); }
+  .arc-tier { font-family: var(--pr-sans); font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+  .arc-tier.t-red, .arc-tier.t-pink { color: var(--pr-red); }
+  .arc-tier.t-cyan, .arc-tier.t-opt { color: var(--pr-ink); }
+  .arc-verdict { font-size: 0.82rem; color: var(--pr-muted); line-height: 1.55; }
+
+  .arc-panel { background: var(--pr-cream); border: 1px solid var(--pr-line); border-radius: 8px; padding: 20px 22px; }
+  .arc-panel-label { font-family: var(--pr-sans); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--pr-muted); margin-bottom: 14px; }
+  .arc-bd-row { margin-bottom: 12px; }
+  .arc-bd-row:last-child { margin-bottom: 0; }
+  .arc-bd-top { display: flex; justify-content: space-between; font-size: 0.78rem; margin-bottom: 5px; }
+  .arc-bd-name { color: var(--pr-ink-2); font-weight: 600; }
+  .arc-bd-val { color: var(--pr-muted); font-weight: 600; }
+  .arc-bd-track { height: 6px; background: var(--pr-cream-2); border-radius: 3px; overflow: hidden; }
+  .arc-bd-fill { height: 100%; background: var(--pr-cyan); border-radius: 3px; transition: width .5s ease; }
+  .arc-fix-item { display: flex; gap: 10px; align-items: flex-start; padding: 9px 0; border-bottom: 1px solid var(--pr-line); font-size: 0.82rem; line-height: 1.5; color: var(--pr-ink-2); }
+  .arc-fix-item:last-child { border-bottom: none; }
+  .arc-fix-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--pr-red); margin-top: 6px; flex-shrink: 0; }
+  .arc-fix-dot.p { background: var(--pr-pink); }
+  .arc-fix-empty { font-size: 0.82rem; color: var(--pr-muted); line-height: 1.5; }
+  .arc-cta { background: var(--pr-cyan); border-radius: 8px; padding: 20px 22px; }
+  .arc-cta p { font-size: 0.88rem; color: var(--pr-ink); line-height: 1.5; margin: 0 0 12px; font-weight: 500; }
+  .arc-cta strong { font-weight: 700; }
+  .arc-cta a { display: block; text-align: center; background: var(--pr-ink); color: var(--pr-cream); font-size: 0.88rem; font-weight: 700; padding: 11px 16px; border-radius: 4px; text-decoration: none; }
+  .arc-cta a:hover { opacity: .9; }
+
+  /* Content extras */
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "AI Agent Readiness Checker",
+  "description": "Free self-assessment scorecard that rates how ready a website is to be crawled, understood, cited and acted on by AI agents and answer engines, across 20 weighted checks.",
+  "url": "{{ .Permalink }}",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does AI agent readiness mean?",
+      "acceptedAnswer": { "@type": "Answer", "text": "AI agent readiness is how easily an AI system, from answer engines like ChatGPT, Perplexity, Gemini and Google AI Overviews to autonomous browsing and shopping agents, can crawl your site, understand its content, cite it as a source, and complete actions on it. It spans four things: whether AI crawlers are allowed to access your pages, whether your content is machine-readable through schema and semantic HTML, whether answers are easy to extract, and whether an agent can actually take action such as reaching pricing or completing a form." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I make my website ready for AI agents?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Start with access: allow the major AI crawlers in robots.txt and consider publishing an llms.txt file. Then make content machine-readable with Schema.org JSON-LD, semantic HTML and real-text pricing rather than images. Write answer-first so the key answer sits in the first paragraph, add FAQ blocks and comparison tables, and keep entity facts consistent across your site and third-party sources. Finally, make sure core information is reachable without a login wall and that URLs are clean and stable. This checker scores all 20 of these factors." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do AI crawlers read JavaScript-rendered content?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Mostly no. A Vercel/MERJ analysis of over 500 million GPTBot fetches found zero JavaScript execution, and most other AI crawlers behave the same way, so content that only appears after client-side rendering is invisible to them. Google's Gemini is the main exception, since it can use Googlebot's renderer. Server-side rendering or static generation is the safest way to guarantee that AI agents see your important content, which is why it is a weighted check in this scorecard." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is llms.txt and do I need it?",
+      "acceptedAnswer": { "@type": "Answer", "text": "llms.txt is a proposed standard: a markdown file at the root of your domain that gives large language models a curated map of your most important content, with clean links they can follow. It is a helpful signal rather than a strict requirement, and Google has said it does not use llms.txt for Search rankings, so treat it as a low-cost bonus rather than a core ranking factor. In this checker it is one factor within the crawler access category, not the whole score." }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the AI agent readiness score calculated?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The score is a weighted self-assessment. Twenty checks are grouped into five categories: crawler access and permissions (25 points), structured data and machine readability (25), content extractability (20), agentic actions and flows (15), and trust, identity and freshness (15). Each check scores full points for yes, half for partial and zero for no, and the points sum to a 0 to 100 readiness score. The full weighting is published on this page so the logic is transparent." }
+    }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<!-- ===== SCORECARD APP ===== -->
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="arc-wrap">
+
+      <div class="arc-hero">
+        <div class="arc-badge">AI Readiness Scorecard · B2B SaaS</div>
+        <h1>AI Agent Readiness Checker<br><em>is your site built for AI agents?</em></h1>
+        <p>Answer 20 quick checks to score how well your website can be crawled, understood, cited and acted on by AI agents and answer engines like ChatGPT, Perplexity, Gemini and Google AI Overviews. Get a 0 to 100 readiness score, a category breakdown and your priority fixes. No email.</p>
+      </div>
+
+      <div class="arc-app">
+        <div class="arc-checklist">
+          <div class="arc-cl-head">
+            <h2>Rate your website, honestly</h2>
+            <p>Pick Yes, Partial or No for each. Your score updates live.</p>
+          </div>
+          <div id="arc_cats"></div>
+        </div>
+
+        <div class="arc-results">
+          <div class="arc-score-card">
+            <div class="arc-gauge" id="arc_gauge">
+              <div class="arc-gauge-hole">
+                <div class="arc-score-num"><span id="arc_score">0</span><span>/100</span></div>
+              </div>
+            </div>
+            <div class="arc-tier t-red" id="arc_tier">Not agent-ready</div>
+            <div class="arc-verdict" id="arc_verdict">Answer the checks to see where your site stands.</div>
+          </div>
+          <div class="arc-panel">
+            <div class="arc-panel-label">Category Breakdown</div>
+            <div id="arc_breakdown"></div>
+          </div>
+          <div class="arc-panel">
+            <div class="arc-panel-label">Your Top Fixes</div>
+            <div id="arc_fixes"><div class="arc-fix-empty">Rate the checks and your biggest gaps appear here, ranked by impact.</div></div>
+          </div>
+          <div class="arc-cta">
+            <p><strong>Want a real audit, not a self-score?</strong> PipeRocket makes B2B SaaS sites the source AI agents crawl, cite and act on.</p>
+            <a href="/saas-seo-agency/ai-seo-services/" data-cta-source="tool-arc-side">Get an AI search audit →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTENT (standard 2-col article layout) ===== -->
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Score below 65?</strong>
+          <p>PipeRocket runs a full AI search audit and makes your B2B SaaS site the source AI agents cite.</p>
+          <a href="/saas-seo-agency/ai-seo-services/" class="pr-btn" data-cta-source="tool-arc-content">Get an AI search audit</a>
+        </div>
+
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/aeo-roi-calculator/">AEO / AI-Search ROI Calculator</a>
+            <a href="/tools/ai-overview-traffic-loss-calculator/">AI Overview Traffic-Loss Calculator</a>
+            <a href="/tools/free-seo-roi-calculator/">SEO ROI Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is AI agent readiness?</h2>
+          <blockquote>AI agent readiness is how easily an AI system, from answer engines like ChatGPT, Perplexity, Gemini and Google AI Overviews to autonomous browsing and shopping agents, can crawl your site, understand its content, cite it as a source, and act on it. A site can rank well in classic search and still be nearly invisible to AI agents if its content is locked behind JavaScript, missing structured data, or blocked from AI crawlers. This scorecard measures the four things that decide it: access, machine-readability, extractability, and agentic action.</blockquote>
+
+          <h2>How the score works</h2>
+          <p>The score is a weighted self-assessment across 20 checks in five categories. Each check earns full points for <strong>Yes</strong>, half for <strong>Partial</strong> and zero for <strong>No</strong>. Points sum to a 0 to 100 readiness score. Here is the full weighting, no black box:</p>
+          <table>
+            <thead><tr><th>Category</th><th>Weight</th><th>What it measures</th></tr></thead>
+            <tbody>
+              <tr><td>Crawler access &amp; permissions</td><td>25</td><td>Can AI crawlers reach and read your pages at all</td></tr>
+              <tr><td>Structured data &amp; machine readability</td><td>25</td><td>Is your content parseable through schema and semantic HTML</td></tr>
+              <tr><td>Content extractability</td><td>20</td><td>Can an AI lift a clean answer from your pages</td></tr>
+              <tr><td>Agentic actions &amp; flows</td><td>15</td><td>Can an agent navigate and complete tasks on your site</td></tr>
+              <tr><td>Trust, identity &amp; freshness</td><td>15</td><td>Will AI engines trust and attribute your brand</td></tr>
+            </tbody>
+          </table>
+          <p>Score bands: <strong>0 to 39</strong> not agent-ready, <strong>40 to 64</strong> emerging, <strong>65 to 84</strong> agent-ready, <strong>85 to 100</strong> agent-optimized.</p>
+
+          <h2>The 20 checks, explained</h2>
+          <h3>1. Crawler access &amp; permissions</h3>
+          <ul>
+            <li><strong>AI crawlers allowed in robots.txt.</strong> Your robots.txt permits the major AI user-agents (such as GPTBot, ClaudeBot, PerplexityBot and Google-Extended) rather than blocking them. If they are disallowed, you cannot be read or cited.</li>
+            <li><strong>llms.txt published.</strong> You publish an llms.txt file mapping your key content for language models, a low-cost signal that guides AI systems to your best pages.</li>
+            <li><strong>Content is server-rendered.</strong> Your important content appears in the raw HTML, not only after client-side JavaScript runs, because most AI crawlers do not execute JavaScript.</li>
+            <li><strong>No bot walls on legitimate agents.</strong> Your site responds quickly and does not CAPTCHA or hard-block well-behaved AI agents on public content.</li>
+          </ul>
+          <h3>2. Structured data &amp; machine readability</h3>
+          <ul>
+            <li><strong>Schema.org JSON-LD on key pages.</strong> Organization, Product, Article and FAQ schema tell AI systems exactly what your pages are.</li>
+            <li><strong>Machine-readable pricing and specs.</strong> Prices and product details live in real text, not trapped inside images or PDFs.</li>
+            <li><strong>Semantic HTML.</strong> Correct headings, lists and data tables, so structure is explicit.</li>
+            <li><strong>Clean metadata.</strong> Every page has a unique, descriptive title, meta description and canonical URL.</li>
+          </ul>
+          <h3>3. Content extractability</h3>
+          <ul>
+            <li><strong>Answer-first content.</strong> The core answer sits in the first paragraph, easy for a model to lift verbatim.</li>
+            <li><strong>FAQ and Q&amp;A blocks.</strong> Real buyer questions answered directly on the page.</li>
+            <li><strong>Clear definitions and entities.</strong> Your category, product and key terms are defined plainly.</li>
+            <li><strong>Comparison tables.</strong> Evaluative topics include tables an agent can parse and quote.</li>
+          </ul>
+          <h3>4. Agentic actions &amp; flows</h3>
+          <ul>
+            <li><strong>Core info without a login wall.</strong> Docs, pricing and product details are reachable without authentication.</li>
+            <li><strong>Completable forms.</strong> Signup and contact flows have accessible labels an agent can fill in.</li>
+            <li><strong>Programmatic access.</strong> You expose an API, data feed or MCP endpoint for machine access.</li>
+            <li><strong>Clean, stable URLs.</strong> Human-readable, persistent URLs an agent can rely on.</li>
+          </ul>
+          <h3>5. Trust, identity &amp; freshness</h3>
+          <ul>
+            <li><strong>Consistent facts on-site.</strong> Name, founding year and HQ are stated consistently across your own pages.</li>
+            <li><strong>Facts match third parties.</strong> The same facts align with LinkedIn, Crunchbase, G2 and similar sources.</li>
+            <li><strong>Visible freshness.</strong> Content shows publish and updated dates and is kept current.</li>
+            <li><strong>Third-party citations.</strong> Your brand is referenced on sources AI engines trust, such as review sites and press.</li>
+          </ul>
+
+          <h2>Why AI agent readiness matters now</h2>
+          <p>Buyers increasingly research through AI systems before they ever reach your site, and machines now make up more of the audience than people do. If those systems cannot access, parse or trust your content, you are absent from the answer at the exact moment a buyer is deciding. The numbers behind the shift:</p>
+          <ul>
+            <li><strong>Bots outnumber humans.</strong> Automated requests hit 57.5% of web traffic in mid-2026, the first time bots passed people online, driven largely by AI crawlers and agents (<a href="https://www.forbes.com/sites/josipamajic/2026/06/04/bots-now-outnumber-humans-online-and-the-internet-was-never-built-for-this/" target="_blank" rel="noopener">Cloudflare Radar</a>).</li>
+            <li><strong>AI crawlers can't see JavaScript-only content.</strong> A Vercel/MERJ analysis of 500M+ GPTBot fetches found zero JavaScript execution, yet 57% of the top 1,000 sites reveal content only after JS runs (<a href="https://www.asklantern.com/blogs/ai-crawlers-do-not-render-javascript" target="_blank" rel="noopener">Lantern</a>, <a href="https://modpagespeed.com/blog/can-ai-read-your-website/" target="_blank" rel="noopener">ModPageSpeed</a>). Google's Gemini is the main exception, via Googlebot's renderer.</li>
+            <li><strong>Nearly half of sites block an AI crawler.</strong> 44.9% of sites disallow at least one AI bot, often without realizing it costs them AI visibility (<a href="https://technologychecker.io/blog/robots-txt-ai-crawlers-blocking-report" target="_blank" rel="noopener">TechnologyChecker</a>).</li>
+            <li><strong>Most on-page work isn't done.</strong> Only about 12% of sites use schema.org at all, and Product/Review schema is cited by AI far more often than generic markup, 61.7% vs 41.6% (<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6284518" target="_blank" rel="noopener">SSRN study</a>).</li>
+          </ul>
+          <p>Being agent-ready is how you stay in the consideration set as discovery shifts from ten blue links to a single synthesized answer.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>What does AI agent readiness mean?</h3>
+          <p>It is how easily an AI system, from answer engines like ChatGPT, Perplexity, Gemini and Google AI Overviews to autonomous browsing and shopping agents, can crawl your site, understand its content, cite it as a source, and complete actions on it. It spans access, machine-readability through schema and semantic HTML, answer extractability, and whether an agent can actually take action such as reaching pricing or completing a form.</p>
+          <h3>How do I make my website ready for AI agents?</h3>
+          <p>Start with access: allow the major AI crawlers in robots.txt and consider publishing an llms.txt file. Make content machine-readable with Schema.org JSON-LD, semantic HTML and real-text pricing. Write answer-first, add FAQ blocks and comparison tables, and keep entity facts consistent across your site and third parties. Finally, make sure core information is reachable without a login wall and that URLs are clean and stable. This checker scores all 20 of these factors.</p>
+          <h3>Do AI crawlers read JavaScript-rendered content?</h3>
+          <p>Mostly no. A Vercel/MERJ analysis of over 500 million GPTBot fetches found zero JavaScript execution, and most other AI crawlers behave the same way, so content that only appears after client-side rendering is invisible to them. Google's Gemini is the main exception, since it can use Googlebot's renderer. Server-side rendering or static generation is the safest way to guarantee AI agents see your content.</p>
+          <h3>What is llms.txt and do I need it?</h3>
+          <p>llms.txt is a proposed standard: a markdown file at your domain root that gives large language models a curated map of your most important content with clean links. It is a helpful signal rather than a strict requirement, and Google has said it does not use llms.txt for Search rankings, so treat it as a low-cost bonus. Here it is one factor within crawler access, not the whole score.</p>
+          <h3>How is the AI agent readiness score calculated?</h3>
+          <p>It is a weighted self-assessment. Twenty checks sit in five categories: crawler access and permissions (25 points), structured data and machine readability (25), content extractability (20), agentic actions and flows (15), and trust, identity and freshness (15). Each check scores full points for yes, half for partial and zero for no, summing to a 0 to 100 score. The full weighting is published above.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</article>
+
+<!-- Checklist + scoring engine -->
+<script>
+(function () {
+  var CATS = [
+    { key: 'access', name: 'Crawler Access & Permissions', weight: 25, items: [
+      'Your robots.txt allows major AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended)',
+      'You publish an llms.txt file mapping your key content for LLMs',
+      'Your important content is server-rendered and visible without running JavaScript',
+      "Your site doesn't CAPTCHA or hard-block well-behaved AI agents on public pages",
+    ]},
+    { key: 'schema', name: 'Structured Data & Machine Readability', weight: 25, items: [
+      'Key pages carry Schema.org JSON-LD (Organization, Product, Article, FAQ)',
+      'Pricing and product specs are in real text, not trapped in images or PDFs',
+      'You use semantic HTML: correct headings, lists and data tables',
+      'Every page has a unique, descriptive title, meta description and canonical URL',
+    ]},
+    { key: 'extract', name: 'Content Extractability', weight: 20, items: [
+      'Pages answer the core question in the first paragraph (answer-first)',
+      'You have FAQ or Q&A blocks addressing real buyer questions',
+      'Key terms, entities and your category are clearly defined on the page',
+      'Evaluative topics include comparison tables an agent can parse',
+    ]},
+    { key: 'action', name: 'Agentic Actions & Flows', weight: 15, items: [
+      'Core info (docs, pricing, product) is reachable without a login wall',
+      'Forms and signup flows have accessible labels an agent can complete',
+      'You expose an API, data feed or MCP endpoint for programmatic access',
+      'URLs are clean, stable and human-readable',
+    ]},
+    { key: 'trust', name: 'Trust, Identity & Freshness', weight: 15, items: [
+      'Core facts (name, founding year, HQ) are consistent across your site',
+      'Those facts match third-party sources (LinkedIn, Crunchbase, G2)',
+      'Content shows clear publish/updated dates and is kept current',
+      'Your brand is cited on third-party sources AI engines trust (G2, review sites, press)',
+    ]},
+  ];
+  var VAL = { yes: 1, partial: 0.5, no: 0 };
+  var state = {};
+
+  var catsEl = document.getElementById('arc_cats');
+  if (!catsEl) return;
+  CATS.forEach(function (cat, ci) {
+    var per = cat.weight / cat.items.length;
+    var wrap = document.createElement('div');
+    wrap.className = 'arc-cat';
+    var html = '<div class="arc-cat-head"><span class="arc-cat-name">' + (ci+1) + '. ' + cat.name + '</span><span class="arc-cat-wt">' + cat.weight + ' pts</span></div>';
+    cat.items.forEach(function (q, ii) {
+      var id = cat.key + '_' + ii;
+      state[id] = 'no';
+      html += '<div class="arc-item"><div class="arc-item-q">' + q + '</div>' +
+        '<div class="arc-toggle" data-id="' + id + '" data-cat="' + cat.key + '" data-weight="' + per + '" data-q="' + q.replace(/"/g,'&quot;') + '">' +
+        '<button data-val="yes">Yes</button><button data-val="partial">Part</button><button data-val="no" class="arc-on">No</button></div></div>';
+    });
+    wrap.innerHTML = html;
+    catsEl.appendChild(wrap);
+  });
+
+  function tierFor(s) {
+    if (s >= 85) return { cls: 't-opt',  gc: 'var(--pr-cyan)', label: 'Agent-optimized', v: 'Excellent. AI agents can find, read, trust and act on your site. Keep it fresh and defend your citations.' };
+    if (s >= 65) return { cls: 't-cyan', gc: 'var(--pr-cyan)', label: 'Agent-ready',     v: 'Solid foundation. AI systems can work with your site. Close the remaining gaps to lead your category.' };
+    if (s >= 40) return { cls: 't-pink', gc: 'var(--pr-pink)', label: 'Emerging',        v: 'Partly ready. AI agents see some of your site but miss a lot. The fixes below have the highest impact.' };
+    return           { cls: 't-red',  gc: 'var(--pr-red)',  label: 'Not agent-ready', v: 'AI agents struggle to access, parse or trust your site. Start with the priority fixes below.' };
+  }
+
+  function recalc() {
+    var total = 0, catScore = {}, catMax = {};
+    CATS.forEach(function (c) { catScore[c.key] = 0; catMax[c.key] = c.weight; });
+    document.querySelectorAll('.arc-toggle').forEach(function (t) {
+      var w = parseFloat(t.dataset.weight), pts = w * VAL[state[t.dataset.id]];
+      total += pts; catScore[t.dataset.cat] += pts;
+    });
+    var score = Math.round(total), t = tierFor(score);
+    var g = document.getElementById('arc_gauge');
+    g.style.setProperty('--arc-score', score);
+    g.style.setProperty('--arc-gc', t.gc);
+    document.getElementById('arc_score').textContent = score;
+    var tierEl = document.getElementById('arc_tier');
+    tierEl.textContent = t.label; tierEl.className = 'arc-tier ' + t.cls;
+    document.getElementById('arc_verdict').textContent = t.v;
+
+    document.getElementById('arc_breakdown').innerHTML = CATS.map(function (c) {
+      var pct = catMax[c.key] > 0 ? (catScore[c.key] / catMax[c.key] * 100) : 0;
+      return '<div class="arc-bd-row"><div class="arc-bd-top"><span class="arc-bd-name">' + c.name + '</span><span class="arc-bd-val">' + Math.round(catScore[c.key]) + '/' + c.weight + '</span></div><div class="arc-bd-track"><div class="arc-bd-fill" style="width:' + pct + '%"></div></div></div>';
+    }).join('');
+
+    var gaps = [];
+    document.querySelectorAll('.arc-toggle').forEach(function (el) {
+      var v = state[el.dataset.id];
+      if (v !== 'yes') gaps.push({ q: el.dataset.q, w: parseFloat(el.dataset.weight), partial: v === 'partial' });
+    });
+    gaps.sort(function (a, b) { return (b.w - a.w) || (a.partial - b.partial); });
+    var fixEl = document.getElementById('arc_fixes');
+    if (!gaps.length) {
+      fixEl.innerHTML = '<div class="arc-fix-empty">No gaps left. Every check is a Yes, your site is fully agent-optimized on this scorecard.</div>';
+    } else {
+      fixEl.innerHTML = gaps.slice(0, 5).map(function (g) {
+        return '<div class="arc-fix-item"><span class="arc-fix-dot ' + (g.partial ? 'p' : '') + '"></span><span>' + g.q + '</span></div>';
+      }).join('');
+    }
+  }
+
+  document.querySelectorAll('.arc-toggle').forEach(function (t) {
+    t.addEventListener('click', function (e) {
+      var btn = e.target.closest('button');
+      if (!btn) return;
+      this.querySelectorAll('button').forEach(function (b) { b.classList.remove('arc-on'); });
+      btn.classList.add('arc-on');
+      state[this.dataset.id] = btn.dataset.val;
+      recalc();
+    });
+  });
+
+  recalc();
+})();
+</script>
+
+{{/* Shared article TOC engine — builds "On this page" from H2s in [data-pr-blog-main] */}}
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}
+  {{ $js = $js | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}
+{{ end }}

@@ -1,0 +1,298 @@
+{{/* AI Overview Traffic-Loss Calculator.
+     Focus: clicks WITHOUT AI Overviews vs WITH AI Overviews, and the clicks lost.
+     No revenue, no yearly projections. Calculator on the shared .pr-calc
+     component; content in the standard 2-col article layout (.pr-2col-article >
+     .pr-article-3-6-3) with global prose + auto TOC (blog-v2.js).
+     Logic: without = impressions x actual CTR(position) [First Page Sage];
+     with = without x (1 - coverage x CTR-drop(position)) [Ahrefs 300K study]. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-loss { color: var(--pr-red); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  /* "It's accelerating" mini bar chart (position-1 CTR hit over time) */
+  .aio-trend { margin: var(--pr-s-4) 0 var(--pr-s-2); }
+  .aio-trend-row { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+  .aio-trend-when { width: 116px; flex-shrink: 0; font-family: var(--pr-sans); font-size: 0.85rem; font-weight: 600; color: var(--pr-ink-2); }
+  .aio-trend-track { flex: 1; background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 4px; height: 38px; overflow: hidden; }
+  .aio-trend-fill { height: 100%; background: var(--pr-red); display: flex; align-items: center; justify-content: flex-end; padding-right: 14px; color: #fff; font-family: var(--pr-sans); font-weight: 700; font-size: 0.95rem; border-radius: 3px; min-width: 60px; }
+  .aio-trend-fill.is-soft { background: var(--pr-pink); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "AI Overview Traffic-Loss Calculator",
+  "description": "Free calculator that compares your organic clicks without AI Overviews vs with AI Overviews, and shows how many clicks you lose, using actual Google CTR-by-position data and Ahrefs' 300,000-keyword AI Overview study.",
+  "url": "{{ .Permalink }}",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much traffic do AI Overviews take away?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It depends on your ranking position. Ahrefs' study of 300,000 keywords found that when an AI Overview appears, click-through rate drops about 58% for the position-1 result, 51% for position 2 and 46% for position 3, tapering to roughly 19% at position 10. So a page that normally earns a 39.8% CTR at position 1 earns closer to 16.7% when an AI Overview is shown. This calculator applies that drop to your impressions and the share of your searches that trigger an AI Overview." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know AI Overviews caused my traffic drop and not an algorithm update?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Check Google Search Console. The signature of an AI Overview loss is impressions staying flat or rising while clicks fall, concentrated on informational queries. A ranking-driven drop instead shows falling impressions and a falling average position. Google also added an AI Overviews / AI Mode filter under Search Appearance in the Performance report, which lets you isolate AI-influenced queries and compare their clicks against impressions." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I measure traffic lost to AI Overviews?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Take your impressions and multiply by the normal click-through rate for your ranking position to get the clicks you would earn with no AI Overview. Then multiply that baseline by the share of your searches that show an AI Overview and by the position-specific CTR drop to get the clicks lost. This calculator runs exactly that math, so you can compare clicks without AI Overviews against clicks with them." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I recover traffic lost to AI Overviews, and how long does it take?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Partly, and it usually takes a few months. You cannot remove the AI Overview, but you can become the source it cites. Seer Interactive found pages cited inside an AI Overview earn about 120% more clicks per impression than uncited pages on the same result. Recovery comes from answer-first content, schema, and entity clarity, the discipline known as answer engine optimization (AEO), and typically shows up over one to three months as your pages start being cited." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it worth trying to appear inside the AI Overview?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Being cited inside the AI Overview is the single best way to win the click back, because cited pages earn roughly 120% more clicks per impression than uncited pages on the same AI-Overview result (Seer Interactive). You will not fully recover the pre-AI-Overview click volume, but being the cited source captures far more than sitting as a blue link beneath the answer." }
+    }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<!-- ===== CALCULATOR ===== -->
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">AI Overview Traffic-Loss Calculator</h1>
+          <p class="pr-calc__sub">Compare your organic clicks without AI Overviews against with AI Overviews, and see exactly how many clicks you lose. Based on real Google CTR-by-position data and Ahrefs' 300,000-keyword AI Overview study.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Monthly organic impressions <em>from Search Console</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="impr" value="200000" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">impr</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Average Google position <em>1 = top of page</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="pos" value="3" min="1" max="10" class="pr-calc__no-prefix"><span class="pr-calc__suffix">pos</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Searches with an AI Overview <em>typical ~47%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="aio" value="47" min="0" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your clicks: without vs with AI Overviews</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rWithout">—</div><div class="pr-calc__l">Clicks without AI Overviews</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rWith">—</div><div class="pr-calc__l">Clicks with AI Overviews</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-loss" id="rLost">—</div><div class="pr-calc__l">Clicks lost / month</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-loss" id="rPct">—</div><div class="pr-calc__l">Share of clicks lost</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your impressions and position to compare your clicks with and without AI Overviews.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/ai-seo-services/" class="pr-btn" data-cta-source="tool-aio-loss-mid">Win these clicks back →</a>
+          <small>No commitment · 30-min AI search audit · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTENT (standard 2-col article layout) ===== -->
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Win the click back from AI Overviews.</strong>
+          <p>PipeRocket makes B2B SaaS brands the source AI engines cite, not just a blue link beneath them.</p>
+          <a href="/saas-seo-agency/ai-seo-services/" class="pr-btn" data-cta-source="tool-aio-loss-side">Get an AI search audit</a>
+        </div>
+
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/aeo-roi-calculator/">AEO / AI-Search ROI Calculator</a>
+            <a href="/tools/ai-agent-readiness-checker/">AI Agent Readiness Checker</a>
+            <a href="/tools/free-seo-roi-calculator/">SEO ROI Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>How much traffic are you losing to AI Overviews?</h2>
+          <blockquote>When Google shows an AI Overview above the search results, it answers the query on the page, so fewer people click through. How much you lose depends on your ranking position: click-through rate falls about 58% at position 1 and 19% at position 10 when an AI Overview appears (Ahrefs, 300,000 keywords). The calculator above turns that into your own numbers, clicks without AI Overviews versus clicks with them.</blockquote>
+
+          <h2>The impact is accelerating</h2>
+          <p>At position 1, the click-through hit from AI Overviews nearly doubled in nine months, from <strong>-35% in March 2025 to -58% in December 2025</strong>, on the same 300,000-keyword panel (<a href="https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/" target="_blank" rel="noopener">Ahrefs</a>). Whatever you lose today, plan for it to grow.</p>
+          <div class="aio-trend" role="img" aria-label="Reduction in position-1 click-through rate from AI Overviews: 35% in March 2025, 58% in December 2025">
+            <div class="aio-trend-row">
+              <span class="aio-trend-when">March 2025</span>
+              <span class="aio-trend-track"><span class="aio-trend-fill is-soft" style="width:60%">-35%</span></span>
+            </div>
+            <div class="aio-trend-row">
+              <span class="aio-trend-when">December 2025</span>
+              <span class="aio-trend-track"><span class="aio-trend-fill" style="width:100%">-58%</span></span>
+            </div>
+          </div>
+
+          <h2>How the calculator works</h2>
+          <p>Two numbers, one difference. No revenue guesses, no black box:</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Clicks without AI Overviews = Impressions × normal CTR(position)
+Clicks with AI Overviews    = above × (1 − AI Overview coverage % × CTR drop(position))
+Clicks lost                 = without − with
+Share of clicks lost        = AI Overview coverage % × CTR drop(position)</pre>
+          <p>The "normal CTR" is the everyday organic click-through rate for your position. The "CTR drop" is how far that falls when an AI Overview appears, from Ahrefs' 300,000-keyword study.</p>
+
+          <h2>Google CTR by position, with and without AI Overviews</h2>
+          <p>This is the actual click-through rate for each Google position, and what it becomes once an AI Overview shows above it. It is the engine behind the calculator.</p>
+          <table>
+            <thead><tr><th>Position</th><th>CTR (no AI Overview)</th><th>CTR (AI Overview present)</th><th>Drop</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>39.8%</td><td>16.7%</td><td>-58.0%</td></tr>
+              <tr><td>2</td><td>18.7%</td><td>9.2%</td><td>-50.8%</td></tr>
+              <tr><td>3</td><td>10.2%</td><td>5.5%</td><td>-46.4%</td></tr>
+              <tr><td>4</td><td>7.2%</td><td>4.4%</td><td>-38.8%</td></tr>
+              <tr><td>5</td><td>5.1%</td><td>3.4%</td><td>-32.6%</td></tr>
+              <tr><td>6</td><td>4.4%</td><td>3.1%</td><td>-30.5%</td></tr>
+              <tr><td>7</td><td>3.0%</td><td>2.1%</td><td>-29.7%</td></tr>
+              <tr><td>8</td><td>2.1%</td><td>1.5%</td><td>-28.8%</td></tr>
+              <tr><td>9</td><td>1.9%</td><td>1.3%</td><td>-29.7%</td></tr>
+              <tr><td>10</td><td>1.6%</td><td>1.3%</td><td>-19.4%</td></tr>
+            </tbody>
+          </table>
+          <p><em>Normal CTR by position: <a href="https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/" target="_blank" rel="noopener">First Page Sage</a> (2025). CTR drop with AI Overviews: <a href="https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/" target="_blank" rel="noopener">Ahrefs</a> (300,000 keywords, Dec 2025). CTR varies by industry and query type, so treat these as directional averages.</em></p>
+
+          <h2>How to tell if AI Overviews caused your traffic drop</h2>
+          <p>Before you act, confirm the cause. A decline can come from an algorithm update, seasonality, a technical issue, or AI Overviews. The AI Overview signature is specific and easy to spot in Google Search Console:</p>
+          <ul>
+            <li><strong>Impressions flat or rising, clicks falling.</strong> Your pages still rank and appear, but the AI answer intercepts the click. A ranking loss instead shows falling impressions and a falling average position.</li>
+            <li><strong>The drop concentrates on informational queries.</strong> Semrush found 88% of AI-Overview-triggering queries are informational, so how-to and top-of-funnel pages bleed first.</li>
+            <li><strong>Use the AI Overviews filter.</strong> Google added an AI Overviews / AI Mode filter under Search Appearance in the Performance report. Filter to it and compare clicks against impressions.</li>
+          </ul>
+
+          <h2>Which pages lose the most traffic to AI Overviews</h2>
+          <p>The loss is not spread evenly. You lose the most where AI Overviews appear most and where your position is weakest:</p>
+          <ul>
+            <li><strong>Informational and how-to pages.</strong> These trigger AI Overviews far more than commercial or transactional pages, so top-of-funnel content takes the hardest hit.</li>
+            <li><strong>Pages ranking outside the top three.</strong> The AI Overview pushes them further down, compounding an already-low CTR.</li>
+            <li><strong>Non-branded queries.</strong> Branded terms can actually gain click-through when an AI Overview appears; non-branded terms lose about 20% on average (Amsive).</li>
+          </ul>
+
+          <h2>How to recover traffic lost to AI Overviews</h2>
+          <p>You cannot remove the AI Overview. You can be the source it quotes. Pages cited inside an AI Overview earn about 120% more clicks per impression than uncited pages on the same result (<a href="https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update" target="_blank" rel="noopener">Seer Interactive</a>). Winning that citation is the discipline of answer engine optimization (AEO):</p>
+          <ol>
+            <li><strong>Answer first, then expand.</strong> Lead each page with a direct answer an AI model can lift verbatim.</li>
+            <li><strong>Structure for extraction.</strong> Clear headings, definition sentences, comparison tables and FAQ schema.</li>
+            <li><strong>Build entity clarity.</strong> Consistent facts, author signals and schema so engines trust and attribute you.</li>
+            <li><strong>Target AI-Overview queries.</strong> Informational and comparison queries are where the loss, and the citation upside, are highest.</li>
+          </ol>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How much traffic do AI Overviews take away?</h3>
+          <p>It depends on your ranking position. Ahrefs' 300,000-keyword study found CTR drops about 58% at position 1, 51% at position 2 and 46% at position 3, tapering to roughly 19% at position 10. So a page that normally earns 39.8% CTR at position 1 earns closer to 16.7% when an AI Overview is shown. This calculator applies that drop to your impressions and the share of your searches that trigger an AI Overview.</p>
+          <h3>How do I know AI Overviews caused my drop and not an algorithm update?</h3>
+          <p>Check Google Search Console. The signature of an AI Overview loss is impressions staying flat or rising while clicks fall, concentrated on informational queries. A ranking-driven drop instead shows falling impressions and a falling average position. Google's AI Overviews / AI Mode filter under Search Appearance lets you isolate AI-influenced queries.</p>
+          <h3>How do I measure traffic lost to AI Overviews?</h3>
+          <p>Take your impressions and multiply by the normal CTR for your position to get the clicks you would earn with no AI Overview. Then multiply that baseline by the share of your searches that show an AI Overview and by the position-specific CTR drop to get the clicks lost. This calculator runs exactly that math so you can compare clicks without AI Overviews against clicks with them.</p>
+          <h3>Can I recover traffic lost to AI Overviews, and how long does it take?</h3>
+          <p>Partly, usually over a few months. You cannot remove the AI Overview, but you can become the source it cites. Seer Interactive found cited pages earn about 120% more clicks per impression than uncited pages on the same result. Recovery comes from answer-first content, schema and entity clarity (AEO), and typically shows up over one to three months as your pages start being cited.</p>
+          <h3>Is it worth trying to appear inside the AI Overview?</h3>
+          <p>Yes. Being cited inside the AI Overview is the best way to win the click back, because cited pages earn roughly 120% more clicks per impression than uncited pages on the same result (Seer Interactive). You will not fully recover the pre-AI-Overview volume, but being the cited source captures far more than sitting as a link beneath the answer.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  // Normal organic CTR by position (First Page Sage, 2025).
+  var CTR  = { 1:0.398, 2:0.187, 3:0.102, 4:0.072, 5:0.051, 6:0.044, 7:0.030, 8:0.021, 9:0.019, 10:0.016 };
+  // CTR reduction when an AI Overview appears, by position (Ahrefs, 300K keywords, Dec 2025).
+  var DROP = { 1:0.580, 2:0.508, 3:0.464, 4:0.388, 5:0.326, 6:0.305, 7:0.297, 8:0.288, 9:0.297, 10:0.194 };
+  var ids = ['impr','pos','aio'];
+  if (ids.some(function (i) { return !$(i); })) return;
+
+  function num(id) { return parseFloat($(id).value) || 0; }
+  function cnt(n) {
+    n = Math.round(n);
+    if (Math.abs(n) >= 1e6) return (n/1e6).toFixed(2).replace(/\.?0+$/,'') + 'M';
+    return n.toLocaleString();
+  }
+
+  function recalc() {
+    var impr = num('impr');
+    var pos = Math.min(10, Math.max(1, Math.round(num('pos'))));
+    var aio = num('aio') / 100;
+    var drop = DROP[pos];
+    var without = impr * CTR[pos];
+    var lostRate = aio * drop;                 // share of clicks lost
+    var lost = without * lostRate;
+    var withAIO = without - lost;
+
+    $('rWithout').textContent = cnt(without);
+    $('rWith').textContent = cnt(withAIO);
+    $('rLost').textContent = cnt(lost);
+    $('rPct').textContent = (lostRate * 100).toFixed(0) + '%';
+
+    $('rec').innerHTML = 'At <strong>position ' + pos + '</strong>, your ' + cnt(impr) +
+      ' impressions would earn about <strong>' + cnt(without) + ' clicks</strong> with no AI Overview. ' +
+      'With AI Overviews on <strong>' + (aio * 100).toFixed(0) + '%</strong> of those searches, you get about <strong>' +
+      cnt(withAIO) + ' clicks</strong>, losing <strong>' + cnt(lost) + ' clicks a month</strong> (<strong>' +
+      (lostRate * 100).toFixed(0) + '%</strong>) to AI Overviews. Being cited by the AI Overview is how you win them back.';
+  }
+
+  ids.forEach(function (i) { $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{/* Shared article TOC engine — builds "On this page" from H2s in [data-pr-blog-main] */}}
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}
+  {{ $js = $js | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}
+{{ end }}
