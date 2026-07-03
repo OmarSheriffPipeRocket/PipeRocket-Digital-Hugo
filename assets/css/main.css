@@ -596,6 +596,15 @@ a.pr-btn--ghost:hover,
 .pr-megamenu--industries .pr-megamenu__link strong { font-size: 0.95rem; }
 .pr-megamenu--industries .pr-megamenu__link span { font-size: 0.78rem; line-height: 1.35; }
 
+/* Tools mega menu — 2 columns (AI Search, SEO & Paid) */
+.pr-megamenu--tools {
+  grid-template-columns: 1fr 1fr !important;
+  max-width: 720px !important;
+}
+.pr-megamenu--tools .pr-megamenu__link { padding: 8px 2.4rem 8px 8px; margin: 0 -8px; }
+.pr-megamenu--tools .pr-megamenu__link strong { font-size: 0.95rem; }
+.pr-megamenu--tools .pr-megamenu__link span { font-size: 0.78rem; line-height: 1.35; }
+
 /* NEW badge on mega menu links (e.g. AEO & GEO) */
 .pr-megamenu__badge {
   display: inline-block;
