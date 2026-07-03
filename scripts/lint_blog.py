@@ -110,12 +110,24 @@ def lint(path):
             else:
                 warns.append(f"L{i}: contrastive 'X, not Y' in body — check it isn't a reframe tell")
 
-        # banned words / openers (skip frontmatter; skip quoted example copy)
+        # banned words / openers (skip frontmatter; skip quoted example copy).
+        # Match on original case so we can skip mid-sentence Capitalized hits —
+        # those are proper nouns (product/plan names like Cognism's "Elevate"
+        # tier), not the fluff verb. Lowercase and sentence-initial use still fail.
         if not in_frontmatter and i > 2:
-            low = unquoted.lower()
             for w in BANNED_WORDS:
-                if re.search(r"\b" + re.escape(w) + r"\b", low):
+                for m in re.finditer(r"\b" + re.escape(w) + r"\b", unquoted, re.IGNORECASE):
+                    hit = m.group(0)
+                    if hit[0].isupper():
+                        # sentence start? preceding non-space char is .!? or line start
+                        j = m.start() - 1
+                        while j >= 0 and unquoted[j] in " \t":
+                            j -= 1
+                        at_sentence_start = j < 0 or unquoted[j] in ".!?:"
+                        if not at_sentence_start:
+                            continue  # proper noun — skip
                     fails.append(f"L{i}: banned word '{w}'")
+                    break
             for o in BANNED_OPENERS:
                 if line.strip().startswith(o):
                     fails.append(f"L{i}: banned opener '{o}'")

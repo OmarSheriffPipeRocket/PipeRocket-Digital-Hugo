@@ -170,6 +170,7 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "jasper-alternatives": [
         ("Copy.ai", "/compare/jasper-vs-copy-ai/", "Jasper vs Copy.ai"),
+        ("Writesonic", "/compare/jasper-vs-writesonic/", "Jasper vs Writesonic"),
     ],
     "copy-ai-alternatives": [
         ("Jasper", "/compare/jasper-vs-copy-ai/", "Jasper vs Copy.ai"),
@@ -177,6 +178,52 @@ NEUTRAL_COMPARE_BRIDGES = {
     "unbounce-alternatives": [
         ("Instapage", "/compare/unbounce-vs-instapage/",  "Unbounce vs Instapage"),
         ("Leadpages", "/compare/leadpages-vs-unbounce/",  "Leadpages vs Unbounce"),
+    ],
+    # --- 2026-07-03 batch: new alternatives + existing alt pages -> new compares ---
+    "semrush-alternatives": [
+        ("Ahrefs", "/compare/ahrefs-vs-semrush/", "Ahrefs vs Semrush"),
+    ],
+    "ahrefs-alternatives": [
+        ("Semrush", "/compare/ahrefs-vs-semrush/", "Ahrefs vs Semrush"),
+    ],
+    "apollo-alternatives": [
+        ("ZoomInfo", "/compare/apollo-vs-zoominfo/", "Apollo vs ZoomInfo"),
+        ("Apollo", "/compare/clearbit-vs-apollo/", "Clearbit vs Apollo"),
+    ],
+    "zoominfo-alternatives": [
+        ("Apollo", "/compare/apollo-vs-zoominfo/", "Apollo vs ZoomInfo"),
+        ("ZoomInfo", "/compare/clearbit-vs-zoominfo/", "Clearbit vs ZoomInfo"),
+    ],
+    "dreamdata-alternatives": [
+        ("HockeyStack", "/compare/dreamdata-vs-hockeystack/", "Dreamdata vs HockeyStack"),
+    ],
+    "hockeystack-alternatives": [
+        ("Dreamdata", "/compare/dreamdata-vs-hockeystack/", "Dreamdata vs HockeyStack"),
+    ],
+    "marketmuse-alternatives": [
+        ("Frase", "/compare/marketmuse-vs-frase/", "MarketMuse vs Frase"),
+    ],
+    "frase-alternatives": [
+        ("MarketMuse", "/compare/marketmuse-vs-frase/", "MarketMuse vs Frase"),
+        ("Surfer", "/compare/surfer-seo-vs-frase/", "Surfer SEO vs Frase"),
+    ],
+    "surfer-seo-alternatives": [
+        ("Frase", "/compare/surfer-seo-vs-frase/", "Surfer SEO vs Frase"),
+    ],
+    "optmyzr-alternatives": [
+        ("Opteo", "/compare/optmyzr-vs-opteo/", "Optmyzr vs Opteo"),
+    ],
+    "opteo-alternatives": [
+        ("Optmyzr", "/compare/optmyzr-vs-opteo/", "Optmyzr vs Opteo"),
+    ],
+    "6sense-alternatives": [
+        ("Bombora", "/compare/6sense-vs-bombora/", "6sense vs Bombora"),
+    ],
+    "bombora-alternatives": [
+        ("6sense", "/compare/6sense-vs-bombora/", "6sense vs Bombora"),
+    ],
+    "mouseflow-alternatives": [
+        ("VWO", "/compare/vwo-vs-optimizely/", "VWO vs Optimizely"),
     ],
     # --- blog sources (limited blog→compare flow, cap 1/blog, past word floor) ---
     "saas-seo": [
@@ -453,6 +500,18 @@ LINK_MAP = [
     ("Hotjar vs FullStory", "/compare/hotjar-vs-fullstory/", False, "P2"),
     ("Unbounce vs Instapage", "/compare/unbounce-vs-instapage/", False, "P2"),
     ("Jasper vs Copy.ai", "/compare/jasper-vs-copy-ai/", False, "P2"),
+    # ---- tool-vs-tool comparisons batch added 2026-07-03 ----
+    ("Ahrefs vs Semrush", "/compare/ahrefs-vs-semrush/", False, "P2"),
+    ("Apollo vs ZoomInfo", "/compare/apollo-vs-zoominfo/", False, "P2"),
+    ("VWO vs Optimizely", "/compare/vwo-vs-optimizely/", False, "P2"),
+    ("Surfer SEO vs Frase", "/compare/surfer-seo-vs-frase/", False, "P2"),
+    ("Jasper vs Writesonic", "/compare/jasper-vs-writesonic/", False, "P2"),
+    ("Clearbit vs ZoomInfo", "/compare/clearbit-vs-zoominfo/", False, "P2"),
+    ("Dreamdata vs HockeyStack", "/compare/dreamdata-vs-hockeystack/", False, "P2"),
+    ("MarketMuse vs Frase", "/compare/marketmuse-vs-frase/", False, "P2"),
+    ("Optmyzr vs Opteo", "/compare/optmyzr-vs-opteo/", False, "P2"),
+    ("6sense vs Bombora", "/compare/6sense-vs-bombora/", False, "P2"),
+    ("Clearbit vs Apollo", "/compare/clearbit-vs-apollo/", False, "P2"),
     # ---- paid-agency listicles batch added 2026-06-26 ----
     ("Bing Ads agencies", "/list/best-bing-ads-agencies/", False, "P1"),
     ("ABM agencies", "/list/best-abm-agencies/", False, "P1"),
@@ -489,6 +548,18 @@ LINK_MAP = [
     ("Copy.ai alternatives", "/alternative/copy-ai-alternatives/", False, "P2"),
     ("Frase alternatives", "/alternative/frase-alternatives/", False, "P2"),
     ("Unbounce alternatives", "/alternative/unbounce-alternatives/", False, "P2"),
+    # ---- tool-alternatives batch added 2026-07-03 ----
+    ("Semrush alternatives", "/alternative/semrush-alternatives/", False, "P2"),
+    ("Ahrefs alternatives", "/alternative/ahrefs-alternatives/", False, "P2"),
+    ("ZoomInfo alternatives", "/alternative/zoominfo-alternatives/", False, "P2"),
+    ("Apollo alternatives", "/alternative/apollo-alternatives/", False, "P2"),
+    ("MarketMuse alternatives", "/alternative/marketmuse-alternatives/", False, "P2"),
+    ("6sense alternatives", "/alternative/6sense-alternatives/", False, "P2"),
+    ("Optmyzr alternatives", "/alternative/optmyzr-alternatives/", False, "P2"),
+    ("Dreamdata alternatives", "/alternative/dreamdata-alternatives/", False, "P2"),
+    ("Mouseflow alternatives", "/alternative/mouseflow-alternatives/", False, "P2"),
+    ("Bombora alternatives", "/alternative/bombora-alternatives/", False, "P2"),
+    ("Mutiny alternatives", "/alternative/mutiny-alternatives/", False, "P2"),
     ("AI content detector", "/list/best-ai-content-detector/", False, "P1"),
     # ---- SEO audit tools listicle added 2026-06-18 ----
     ("SEO audit tools", "/list/best-seo-audit-tools/", False, "P1"),
