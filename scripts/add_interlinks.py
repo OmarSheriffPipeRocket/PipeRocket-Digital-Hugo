@@ -137,6 +137,59 @@ ALTERNATIVE_BRIDGE_TEMPLATES = [
     "If {competitor} isn't quite the fit, check our [{competitor} alternatives](/alternative/{slug}/) shortlist.",
 ]
 
+# ---------------------------------------------------------------------------
+# NEUTRAL tool-vs-tool compare bridges (curated).
+# The standard bridge pass only handles "PipeRocket vs X" and "/alternative/"
+# targets — a neutral compare like /compare/moz-vs-semrush/ parses to the bogus
+# competitor "Moz Vs Semrush" and is silently skipped, which is why these pages
+# were inbound-orphaned. This curated map inserts a contextual bridge sentence
+# from a topically-matched source page (an alternatives page, or a tool-topic
+# blog) near where the paired tool is mentioned. Keyed by SOURCE file stem.
+# Blog sources are the "limited blog→compare flow" (Omar-approved 2026-07-03):
+# capped at ONE insert per blog and gated behind the blog word-floor. Not added
+# to ALLOWED_FLOWS so it stays limited to these curated neutral targets only.
+NEUTRAL_COMPARE_TEMPLATES = [
+    "Weighing the two directly? See our neutral [{display}]({url}) breakdown.",
+    "For a side-by-side on features and pricing, read our [{display}]({url}) comparison.",
+    "We put these head-to-head in our [{display}]({url}) breakdown.",
+]
+NEUTRAL_COMPARE_BRIDGES = {
+    # --- alternatives-page sources (topically exact) ---
+    "moz-alternatives": [
+        ("Ahrefs",  "/compare/ahrefs-vs-moz/",  "Ahrefs vs Moz"),
+        ("Semrush", "/compare/moz-vs-semrush/", "Moz vs Semrush"),
+    ],
+    "ubersuggest-alternatives": [
+        ("Ahrefs", "/compare/ahrefs-vs-ubersuggest/", "Ahrefs vs Ubersuggest"),
+    ],
+    "clearscope-alternatives": [
+        ("MarketMuse", "/compare/marketmuse-vs-clearscope/", "MarketMuse vs Clearscope"),
+    ],
+    "hotjar-alternatives": [
+        ("FullStory", "/compare/hotjar-vs-fullstory/", "Hotjar vs FullStory"),
+    ],
+    "jasper-alternatives": [
+        ("Copy.ai", "/compare/jasper-vs-copy-ai/", "Jasper vs Copy.ai"),
+    ],
+    "copy-ai-alternatives": [
+        ("Jasper", "/compare/jasper-vs-copy-ai/", "Jasper vs Copy.ai"),
+    ],
+    "unbounce-alternatives": [
+        ("Instapage", "/compare/unbounce-vs-instapage/",  "Unbounce vs Instapage"),
+        ("Leadpages", "/compare/leadpages-vs-unbounce/",  "Leadpages vs Unbounce"),
+    ],
+    # --- blog sources (limited blog→compare flow, cap 1/blog, past word floor) ---
+    "saas-seo": [
+        ("MarketMuse", "/compare/marketmuse-vs-clearscope/", "MarketMuse vs Clearscope"),
+    ],
+    "how-to-write-saas-seo-content-with-ai-that-actually-ranks": [
+        ("Jasper", "/compare/jasper-vs-copy-ai/", "Jasper vs Copy.ai"),
+    ],
+    "optimize-saas-landing-pages-for-seo": [
+        ("Hotjar", "/compare/hotjar-vs-fullstory/", "Hotjar vs FullStory"),
+    ],
+}
+
 # Known brand casings — applied when converting URL slugs back to display names.
 _BRAND_CASING = {
     "klientboost": "KlientBoost", "nogood": "NoGood", "webfx": "WebFX",
@@ -831,6 +884,39 @@ def process_file(filepath: Path, skip_faq: bool = False, word_gate: int = WORD_G
         bridge_inserts.append((insert_at, sentence, target, anchor_display, priority, dst))
         already_linked_targets.add(norm)
         bridge_idx += 1
+
+    # ---- Neutral tool-vs-tool compare bridges (curated map) ----
+    # De-orphans neutral /compare/ pages the standard pass can't (see
+    # NEUTRAL_COMPARE_BRIDGES). Places a contextual sentence near the paired
+    # tool's mention. Blog sources are capped at one insert and gated behind
+    # the source's word floor (the limited blog→compare flow).
+    neutral_placed = 0
+    for locate_tool, target_url, display in NEUTRAL_COMPARE_BRIDGES.get(filepath.stem, []):
+        norm = target_url.rstrip("/") + "/"
+        if norm in already_linked_targets:
+            continue
+        if norm in self_paths:
+            continue
+        if source_type == "blogs" and neutral_placed >= 1:
+            break  # cap: one neutral compare link per blog
+        # Find a mention of the paired tool whose paragraph END sits PAST the
+        # word floor (the first mention is often in the intro, before the gate).
+        insert_at = None
+        tpat = re.compile(r"\b" + re.escape(locate_tool) + r"\b", re.IGNORECASE)
+        for tm in tpat.finditer(body):
+            nb = body.find("\n\n", tm.end())
+            cand = len(body) if nb == -1 else nb
+            if word_at(word_index, cand) >= word_gate and not overlaps(cand, cand, protected):
+                insert_at = cand
+                break
+        if insert_at is None:
+            continue
+        sentence = NEUTRAL_COMPARE_TEMPLATES[bridge_idx % len(NEUTRAL_COMPARE_TEMPLATES)].format(
+            display=display, url=target_url)
+        bridge_inserts.append((insert_at, sentence, target_url, display, "P2", "compare"))
+        already_linked_targets.add(norm)
+        bridge_idx += 1
+        neutral_placed += 1
 
     if not replacements and not bridge_inserts:
         return content, [], None

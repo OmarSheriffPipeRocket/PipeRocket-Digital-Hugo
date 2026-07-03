@@ -174,6 +174,10 @@ Then, I look at **User Behavior**.
 
 I use tools like **Hotjar**, **Microsoft Clarity**, or **VWO** to see how users are actually interacting with the site.
 
+Weighing the two directly? See our neutral [Hotjar vs FullStory](/compare/hotjar-vs-fullstory/) breakdown.
+
+
+
 - Where are they scrolling?
 - Where are the clicks going?
 - Are the CTA buttons properly placed, or are they invisible?
