@@ -37,7 +37,7 @@ Picking the wrong paid social partner costs more than the retainer fee. It costs
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV B2B SaaS | Custom pricing | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | B2B SaaS pipeline | [$3,000/mo](https://piperocket.digital/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS pipeline | [$3,000/mo](https://piperocket.digital/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Hey Digital | Pure-play SaaS paid social | Custom pricing | Yes | [4.6/5 (4 reviews)](https://clutch.co/profile/hey-digital) |
 | KlientBoost | Multi-channel experimentation | Custom pricing | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
 | AdConversion | Series A+ pipeline-first | [$7,500/mo](https://www.adconversion.com/agency/pricing) | Yes | [4.7/5 (3 reviews)](https://clutch.co/profile/adconversion-0) |
@@ -188,7 +188,7 @@ Our retainer starts at $3,000/mo as of June 2026, scope-based with a 3-month min
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoping call with founders |
-| Rating | 4.7/5 (15 reviews) on Clutch |
+| Rating | 4.7/5 (16 reviews) on Clutch |
 
 ---
 

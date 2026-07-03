@@ -40,7 +40,7 @@ The wrong content marketing pick usually burns six months and $60K before anyone
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Siege Media | Content plus design plus PR | [Custom pricing](https://www.siegemedia.com/contact) | Yes | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
-| PipeRocket Digital | Pipeline-tied SaaS content | [Custom pricing](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-tied SaaS content | [Custom pricing](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Animalz | Research-backed thought leadership | [Custom pricing](https://www.animalz.co/) | Yes | [Verified on Clutch](https://clutch.co/profile/animalz) |
 | Grow and Convert | Pain Point SEO conversion content | [Custom pricing](https://www.growandconvert.com/) | Yes | [4.8/5 (10 reviews)](https://clutch.co/profile/grow-convert) |
 | Quoleady | BOFU content and link building | [$3,500/mo](https://www.quoleady.com/pricing/) | Yes | [4.9/5 (7 reviews)](https://clutch.co/profile/quoleady) |
@@ -188,7 +188,7 @@ A few reviewers note the kickoff month feels heavier than spinning up a content 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, 30-minute strategy call |
-| Clutch Rating | 4.7/5 (15 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 ### 3. Animalz
 
@@ -738,8 +738,8 @@ Treat it as a procurement risk, not a disqualifier. Ask for direct references, r
 
 ## Update History
 
-- **June 30, 2026:** PipeRocket Clutch 4.7/5 (13 reviews) -> 4.7/5 (15 reviews).
+- **June 30, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews).
 - **June 23, 2026:** Grow and Convert Clutch 4.8/5 (9 reviews) -> 4.8/5 (10 reviews) (side-by-side table, card proof point, and criteria row updated).
-- **June 16, 2026:** PipeRocket Clutch rating 4.9/5 (28 reviews) -> 4.7/5 (13 reviews); Quoleady Clutch 4.9/5 (6 reviews) -> 4.9/5 (7 reviews); added Animalz news (AirOps implementation services launched May 2026).
+- **June 16, 2026:** PipeRocket Clutch rating 4.9/5 (28 reviews) -> 4.7/5 (16 reviews); Quoleady Clutch 4.9/5 (6 reviews) -> 4.9/5 (7 reviews); added Animalz news (AirOps implementation services launched May 2026).
 - **June 8, 2026:** Added Siege Media news: founder Ross Hudgens book publishing with Wiley Q4 2026.
 - **November 19, 2025:** Published.

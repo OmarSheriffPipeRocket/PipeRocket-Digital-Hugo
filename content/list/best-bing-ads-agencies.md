@@ -38,7 +38,7 @@ Choosing the wrong Microsoft Ads partner costs more than the management fee. Mis
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV B2B SaaS pipeline | Custom pricing | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | B2B SaaS MQL reporting | [$3,000/mo](https://piperocket.digital/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS MQL reporting | [$3,000/mo](https://piperocket.digital/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Aimers | Dedicated Microsoft Ads for SaaS | Custom pricing | Yes | [4.9/5 (39 reviews)](https://clutch.co/profile/aimers) |
 | HawkSEM | Revenue-weighted multi-channel PPC | Custom pricing | Yes | [4.9/5 (33 reviews)](https://clutch.co/profile/hawksem) |
 | Hey Digital | Bing-specific B2B SaaS execution | Custom pricing | Yes | [4.6/5 (4 reviews)](https://clutch.co/profile/hey-digital) |
@@ -176,7 +176,7 @@ Our pricing is scope-based as of June 2026. Retainers start at $3,000/mo with a 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, free audit + scoping call with founders |
-| Rating | 4.7/5 (15 reviews) on Clutch |
+| Rating | 4.7/5 (16 reviews) on Clutch |
 
 ---
 

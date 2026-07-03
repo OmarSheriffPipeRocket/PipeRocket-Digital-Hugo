@@ -39,9 +39,9 @@ Getting the agency decision wrong in healthtech carries consequences well beyond
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Clarity Quest | Health IT, biotech, medtech B2B | Custom pricing | Yes | [4.9/5 (6 reviews)](https://clutch.co/profile/clarity-quest-marketing) |
-| PipeRocket Digital | B2B healthtech SaaS pipeline | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B healthtech SaaS pipeline | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | HealthLaunchpad | Early-stage B2B healthtech | Custom pricing | Yes | No verified Clutch profile |
-| Avenue Z | Healthtech PR + performance | Custom pricing | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/avenue-z) |
+| Avenue Z | Healthtech PR + performance | Custom pricing | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/avenue-z) |
 | Insivia | Digital health SaaS demand gen | Custom pricing | Yes | [5.0/5 (5 reviews)](https://clutch.co/profile/insivia) |
 | NoGood | Digital-health growth squad | Custom pricing | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 | Cardinal Digital Marketing | Multi-location provider patient acquisition | Custom pricing | Yes | [5.0/5 (4 reviews)](https://clutch.co/profile/cardinal-digital-marketing) |
@@ -180,7 +180,7 @@ PipeRocket retainers start at $5,000 per month as of June 2026, with flexible sc
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, free audit on first call |
-| Clutch Rating | 4.7/5 (13 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 ### 3. HealthLaunchpad
 
@@ -304,7 +304,7 @@ Avenue Z doesn't publish pricing. Per their Clutch profile as of June 2026, mini
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, discovery call available |
-| Clutch Rating | 4.7/5 (15 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 ### 5. Insivia
 
@@ -652,5 +652,5 @@ Real Chemistry and Klick Health are pharma communications giants, not B2B health
 
 - **June 26, 2026:** Avenue Z news updated: Shopify Platinum Partner (Apr 2026) -> ADWEEK AI Power 50 2026 (Jeffrey Herzog named for developing industry's first comprehensive AEO solution).
 - **June 20, 2026:** Roketto rebranded to Sōvyn (June 10, 2026); name and URL updated throughout (helloroketto.com -> sovyn.com). Avenue Z news added (Shopify Platinum Partner, April 2026).
-- **June 4, 2026:** PipeRocket Digital Clutch 4.8/5 (12 reviews) -> 4.7/5 (13 reviews).
+- **June 4, 2026:** PipeRocket Digital Clutch 4.8/5 (12 reviews) -> 4.7/5 (16 reviews).
 - **April 24, 2026:** Published.

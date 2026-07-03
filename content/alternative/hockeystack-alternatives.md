@@ -40,7 +40,7 @@ For a side-by-side on features and pricing, read our [Dreamdata vs HockeyStack](
 | Tool | Best For | Free Plan | Starting Price | Rating |
 | --- | --- | --- | --- | --- |
 | Dreamdata | Deep B2B revenue attribution | Yes (free B2B web analytics tier) | Custom (annual; ~$750+/mo third-party reported, verify) | [4.7/5 (245 reviews, G2)](https://www.g2.com/products/dreamdata/reviews) |
-| Factors.ai | Attribution + account ID/ABM | Yes (~200 accounts/mo) | $399/mo (Basic; last-published rate, now demo-quoted) | [4.6/5 (~180 reviews, G2)](https://www.g2.com/products/factors-ai/reviews) |
+| Factors.ai | Attribution + account ID/ABM | Yes (~200 accounts/mo) | $399/mo (Basic; last-published rate, now demo-quoted) | [4.5/5 (~181 reviews, G2)](https://www.g2.com/products/factors-ai/reviews) |
 | Adobe Marketo Measure | Enterprise every-touch attribution | No | Custom (contact Adobe) | [4.7/5 (147 reviews, G2)](https://www.g2.com/products/adobe-marketo-measure-formerly-bizible/reviews) |
 | Ruler Analytics | Offline + digital attribution | No (demo) | ~£199/mo (Small Business; verify live) | [4.6/5 (30 reviews, G2)](https://www.g2.com/products/ruler-analytics/reviews) |
 | Cometly | Ad-platform conversion feedback | No (demo) | Custom (demo; ~$199+/mo third-party reported) | [4.8/5 (35 reviews, G2)](https://www.g2.com/products/cometly/reviews) |
@@ -147,7 +147,7 @@ Best for: Demand-gen and ABM teams that want multi-touch attribution combined wi
 | Platform | Web app |
 | Free Plan | Yes: free tier for basic website account identification (~200 accounts/mo for onboarding) |
 | Starting Price | $399/mo (Basic, annual); last-published rate, the [pricing page](https://www.factors.ai/pricing) is now demo-quoted |
-| G2 Rating | [4.6/5 (~180 reviews)](https://www.g2.com/products/factors-ai/reviews) |
+| G2 Rating | [4.5/5 (~181 reviews)](https://www.g2.com/products/factors-ai/reviews) |
 
 **Fit Profile**
 
@@ -202,7 +202,7 @@ Factors.ai uses tiered annual subscriptions with a free tier. Its last-published
 | Criteria | Detail |
 | --- | --- |
 | Free Plan | Yes: ~200 accounts/mo |
-| G2 Rating | [4.6/5 (~180 reviews)](https://www.g2.com/products/factors-ai/reviews) |
+| G2 Rating | [4.5/5 (~181 reviews)](https://www.g2.com/products/factors-ai/reviews) |
 
 ---
 

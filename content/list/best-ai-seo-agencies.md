@@ -52,7 +52,7 @@ The best ones treat AI search as its own discipline with its own KPI, citation s
 | Agency | Best For | AI Specialization | Starting Price | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | 1. iPullRank | Enterprise AI search advisory | Relevance Engineering (r19g) | [Custom pricing](https://ipullrank.com/services/relevance-engineering) | [Verified on Clutch (0 reviews)](https://clutch.co/profile/ipullrank) |
-| 2. PipeRocket Digital | B2B SaaS AI SEO tied to pipeline | GEO + AEO for B2B SaaS | [$1,500/mo](/contact-us/) | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| 2. PipeRocket Digital | B2B SaaS AI SEO tied to pipeline | GEO + AEO for B2B SaaS | [$1,500/mo](/contact-us/) | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | 3. SimpleTiger | SaaS AI SEO sprints | SaaS AI SEO + AEO/GEO | [$5,000+ project](https://www.simpletiger.com/ai-seo-agency) | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
 | 4. Omniscient Digital | Authority-led SEO/GEO for VC-backed SaaS | Content-led GEO + Surround Sound SEO | [$10,000/mo](https://beomniscient.com/services/generative-engine-optimization/) | [4.8/5 (6 reviews)](https://clutch.co/profile/omniscient-digital) |
 | 5. Skale | AI-search-first SaaS SEO tied to MRR | GEO + AI citation outreach | [$4,000/mo](https://skale.so/services/geo/) | [4.9/5 (16 reviews)](https://clutch.co/profile/skale-0) |
@@ -775,7 +775,7 @@ Plan for 60 to 90 days for AI search visibility signal (LLM citations, AI Overvi
 
 ## Update History
 
-- **June 29, 2026:** PipeRocket Clutch 4.7/5 (13 reviews) -> 4.7/5 (15 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews).
+- **June 29, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews).
 - **June 22, 2026:** MADX Digital Clutch rating 5.0/5 (12 reviews) -> 4.9/5 (13 reviews); added Omniscient Digital compare/alternatives interlink.
 - **June 20, 2026:** Added a "What is an AI SEO Agency?" definition section (GEO + AEO) after the TL;DR, mirroring the live AI Overview's framing for this query. Reworked the comparison table (added rank + AI Specialization columns, dropped the non-differentiating "Free Consultation" column) and added a price-vs-stage positioning-map infographic. Updated the H1 and meta title to target AI SEO agencies, AEO, GEO, and LLM SEO for SaaS. Corrected PipeRocket's At-a-Glance founding year to the canonical 2023 (was 2017) and aligned the named-client list to documented clients. Swapped in three AI-consensus SaaS agencies (Omniscient Digital, Skale, Omnius) that recur across AI engine answers, replacing Single Grain, Animalz, and Foundation Marketing, and clubbed the rank into the Agency column.
 - **June 12, 2026:** Added Foundation Marketing news (Clutch 100 Fastest-Growing 2026, March 2026).

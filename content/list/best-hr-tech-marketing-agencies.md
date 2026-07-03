@@ -41,7 +41,7 @@ Choose the wrong partner and you burn a quarter on generic SaaS content HR buyer
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Walker Sands | Enterprise PR plus demand | [Custom pricing](https://www.walkersands.com/industries/technology/hr-tech/) | Yes | [4.8/5 (9 reviews)](https://clutch.co/profile/walker-sands-0) |
-| PipeRocket Digital | Pipeline-tied demand gen | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-tied demand gen | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Red Branch Media | HR-native content and demand | [$8,625/mo](https://redbranchmedia.com/memberships) | Yes | Verified on Clutch (0 reviews) |
 | GrowthMode Marketing | HR-tech-exclusive demand gen | [Custom pricing](https://growthmodemarketing4hr.com/) | Yes | Verified on Clutch (0 reviews) |
 | Directive Consulting | Post-PMF SaaS performance | [$8,000/mo](https://directiveconsulting.com/contact/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
@@ -163,7 +163,7 @@ HR buyers move slowly across HR, IT, finance, and legal stakeholders. Attributio
 **Love:** Board-ready reporting
 HR-tech marketing leads tell us the attribution layer made internal stakeholder buy-in dramatically easier ([source](https://clutch.co/profile/piperocket-digital)).
 
-- 4.7/5 (13 reviews) on Clutch with detailed B2B SaaS case work ([source](https://clutch.co/profile/piperocket-digital))
+- 4.7/5 (16 reviews) on Clutch with detailed B2B SaaS case work ([source](https://clutch.co/profile/piperocket-digital))
 
 **Complain:** Not a fit for non-SaaS
 Buyers looking for staffing or HR services support are a stylistic mismatch with our SaaS pipeline focus ([source](https://clutch.co/profile/piperocket-digital)).
@@ -192,7 +192,7 @@ Pricing starts at $5,000/mo with flexible retainers tied to ARR stage, as of Jun
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, [book a free audit](/contact-us/?utm_source=best-hr-tech-marketing-agencies&utm_medium=free-audit) |
-| Clutch Rating | 4.7/5 (13 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 ### 3. Red Branch Media
 
@@ -826,6 +826,6 @@ Hire a specialist when buyer fluency matters (HCM, payroll, ATS). Hire a B2B Saa
 
 - **June 26, 2026:** Kalungi FeaturedCustomers review count 52 reviews -> 874 reference ratings (30 testimonials); added Walker Sands news (PRovoke Media 100 Best Agencies in the US 2026).
 - **June 20, 2026:** Kalungi news added (Antoine Vial named CEO March 2026, Stijn Hendrikse moved to Chairman).
-- **June 11, 2026:** PipeRocket Clutch 4.8/5 -> 4.7/5 (13 reviews); added Walker Sands news (acquired RevPartners, June 2026).
+- **June 11, 2026:** PipeRocket Clutch 4.8/5 -> 4.7/5 (16 reviews); added Walker Sands news (acquired RevPartners, June 2026).
 - **June 5, 2026:** Directive Consulting Clutch 4.7/5 (56 reviews) -> 4.8/5 (56 reviews).
 - **April 28, 2026:** Published.

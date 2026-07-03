@@ -37,7 +37,7 @@ Pick the wrong partner and you can burn a year producing content aimed at broker
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Insivia | B2B proptech SaaS, full stack | [Custom pricing](https://www.insivia.com/expertise/proptech-real-estate/) | Yes | [5.0/5 (5 reviews)](https://clutch.co/profile/insivia) |
-| PipeRocket Digital | Pipeline-attributed proptech demand | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-attributed proptech demand | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Geekly Media | Property management software | [Custom pricing](https://www.geeklymedia.com/proptech) | Yes | No verified Clutch profile |
 | Upgrow | Proptech SEO plus paid | [$10,000+/project](https://www.upgrow.io/) | Yes | [5.0/5 (14 reviews)](https://clutch.co/profile/upgrow) |
 | UpSpring | Built-environment B2B PR | [$25,000+/project](https://www.weareupspring.com/proptech) | Yes | [5.0/5 (8 reviews)](https://clutch.co/profile/upspring-1) |
@@ -186,7 +186,7 @@ PipeRocket scopes engagements to pipeline outcomes and ARR stage, tiered by scop
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [SEO audit and pipeline analysis](/contact-us/?utm_source=best-proptech-marketing-agencies&utm_medium=free-audit) |
-| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -822,5 +822,5 @@ Verify named proptech clients, a live proptech vertical page, Clutch profile lin
 
 - **June 26, 2026:** SmartSites Clutch 4.9/5 (357 reviews) -> 4.9/5 (358 reviews); SmartSites news updated (Inc. Regionals Northeast 2026, No. 108, March 2026).
 - **June 20, 2026:** SmartSites Clutch 355 -> 357 reviews; Thrive news added (Silver Telly Award for real estate video production, May 2026); SmartSites news added (15th anniversary, April 2026).
-- **June 11, 2026:** PipeRocket Clutch 4.8/5 -> 4.7/5 (13 reviews); SmartSites Clutch 354 -> 355 reviews; added Insivia news (Top Strategic Marketing Agency 2026, Business Management Review).
+- **June 11, 2026:** PipeRocket Clutch 4.8/5 -> 4.7/5 (16 reviews); SmartSites Clutch 354 -> 355 reviews; added Insivia news (Top Strategic Marketing Agency 2026, Business Management Review).
 - **April 28, 2026:** Published.

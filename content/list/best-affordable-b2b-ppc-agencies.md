@@ -35,7 +35,7 @@ A poor agency match costs far more than a retainer line item: it means a missed 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | KlientBoost | Performance PPC with transparent pricing | [$2,000/mo](https://klientboost.com/pricing) | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
-| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Directive Consulting | Enterprise B2B SaaS Customer Generation | [$6,500/mo startup](https://directiveconsulting.com/startup-package/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
 | Disruptive Advertising | Month-to-month B2B PPC management | [$5,000/mo+](https://disruptiveadvertising.com/advertising-services/) | Yes | [4.8/5 (365+ reviews)](https://clutch.co/profile/disruptive-advertising) |
 | Ladder.io | Creative-first growth marketing | [Custom, $3,500+ reported](https://ladder.io/) | Yes | [4.4/5 (14 reviews)](https://clutch.co/profile/ladderio) |
@@ -179,7 +179,7 @@ Some early-stage startups find our $3,000/mo minimum retainer higher than budget
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -554,7 +554,7 @@ A $3,000-$5,000/mo agency usually beats a $100K/year PPC hire until you're spend
 
 ## Update History
 
-- **June 29, 2026:** PipeRocket Clutch 4.7/5 (13 reviews) -> 4.7/5 (15 reviews).
+- **June 29, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews).
 - **June 22, 2026:** WebFX Clutch review count corrected: "500+" -> 450 reviews (live Clutch verified).
 - **June 12, 2026:** Replaced GrowthSpree at #6 (on the agency blocklist; "$3,000/mo flat, 4.9/5 G2") with SaaS Hero 5.0/5 (11 Clutch reviews), an affordable SaaS PPC agency with published pricing from $1,250/mo.
 - **May 13, 2026:** Published.

@@ -41,7 +41,7 @@ The cost of a poor agency choice runs well past the retainer line: twelve months
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | Straight North | Traditional B2B services | [Custom](https://www.straightnorth.com) | Yes | [Verified on Clutch](https://clutch.co/profile/straight-north) |
-| PipeRocket Digital | ROI-driven B2B SaaS | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | ROI-driven B2B SaaS | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Directive Consulting | Enterprise technology | [$15,000/mo](https://directiveconsulting.com) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
 | RevenueZen | Sales-led B2B SaaS | [$9,625/mo](https://revenuezen.com) | Yes | [4.9/5 (38 reviews)](https://clutch.co/profile/revenuezen) |
 | mvpGROW | B2B startups | [Custom](https://mvpgrow.com) | Yes | [Verified on Clutch](https://clutch.co/profile/mvpgrow) |
@@ -210,7 +210,7 @@ We built this for the VP Marketing who needs to walk into a board meeting and pr
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [SEO audit and pipeline analysis](/contact-us/?utm_source=best-b2b-seo&utm_medium=free-audit) |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -954,6 +954,6 @@ SEO ranks pages on Google for buyer queries. Content marketing creates the asset
 
 ## Update History
 
-- **June 30, 2026:** PipeRocket Clutch 4.7/5 (13 reviews) -> 4.7/5 (15 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews); added Directive Consulting news (LinkedIn Ads Certified Agency, May 2026).
+- **June 30, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews); added Directive Consulting news (LinkedIn Ads Certified Agency, May 2026).
 - **June 8, 2026:** RevenueZen Clutch "Verified on Clutch" -> 4.9/5 (38 reviews); Directive Consulting "Verified on Clutch" -> 4.8/5 (56 reviews); Omniscient Digital "Verified on Clutch" -> 4.8/5 (5 reviews); Stratabeat "Verified on Clutch" -> 5.0/5 (12 reviews); Kalungi "Verified on Clutch" -> 0 reviews; added Kalungi CEO transition news (Antoine Vial appointed March 2026).
 - **November 17, 2025:** Published.

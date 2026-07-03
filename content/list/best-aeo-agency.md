@@ -42,7 +42,7 @@ Hiring the wrong agency costs more than retainer fees; it means six months of co
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | WebFX | Enterprise full-service with AEO bolt-on | [$2,500/mo](https://webfx.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/webfx) |
-| PipeRocket Digital | Full-spectrum AEO, GEO, and pipeline for B2B SaaS | [$1,500/mo](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Full-spectrum AEO, GEO, and pipeline for B2B SaaS | [$1,500/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | First Page Sage | Enterprise GEO and thought leadership | [~$10,000/mo](https://firstpagesage.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/first-page-sage) |
 | Single Grain | Search Everywhere Optimization with paid media | [~$10,000/mo](https://www.singlegrain.com/) | Yes | [Verified on Clutch](https://clutch.co/profile/single-grain) |
 | Omniscient Digital | Editorial-first GEO with Surround Sound SEO | [~$10,000-$15,000/mo](https://beomniscient.com/) | Yes | [4.8/5 (6 reviews)](https://clutch.co/profile/omniscient-digital) |
@@ -195,7 +195,7 @@ Enterprise teams used to large agency infrastructure sometimes ask for percentag
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [AEO audit and ICP analysis](/contact-us/?utm_source=best-aeo&utm_medium=free-audit) |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -946,7 +946,7 @@ Search your top buyer queries in ChatGPT, Perplexity, and Google AI Overviews. N
 
 ## Update History
 
-- **July 1, 2026:** PipeRocket Clutch 4.7/5 (14 reviews) -> 4.7/5 (15 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews).
+- **July 1, 2026:** PipeRocket Clutch 4.7/5 (14 reviews) -> 4.7/5 (16 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews).
 - **June 24, 2026:** PipeRocket Clutch "Verified on Clutch" -> 4.7/5 (14 reviews); added NoGood news: Drum Awards Gold 2026.
 - **June 18, 2026:** Added WebFX news: $10.7M Harrisburg HQ expansion announced April 2026, adding 100 new tech jobs (source: PA.gov).
 - **June 9, 2026:** Added WebFX news (Newsweek America's Most Reliable Companies 2026 and Netty Awards Best SEO Innovation for OmniSEO); added Animalz news (AirOps implementation services launch, May 2026).

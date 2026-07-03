@@ -43,7 +43,7 @@ Weighing the two directly? See our neutral [MarketMuse vs Frase](/compare/market
 
 | Tool | Best For | Free Plan | Starting Price | Rating |
 | --- | --- | --- | --- | --- |
-| Surfer SEO | NLP content editor + SERP data depth | No (free start, limited features) | [$49/mo](https://surferseo.com/pricing/) | [4.8/5 (537 reviews, G2)](https://www.g2.com/products/surfer-surfer/reviews) |
+| Surfer SEO | NLP content editor + SERP data depth | No (free start, limited features) | [$49/mo](https://surferseo.com/pricing/) | [4.8/5 (544 reviews, G2)](https://www.g2.com/products/surfer-surfer/reviews) |
 | Clearscope | Clean editor + unlimited seats | No free trial listed | [$129/mo](https://www.clearscope.io/pricing) | [4.9/5 (92 reviews, G2)](https://www.g2.com/products/clearscope/reviews) |
 | MarketMuse | Domain-level topical authority modeling | Yes (10 queries/mo) | Custom pricing (demo required) | [4.6/5 (216 reviews, G2)](https://www.g2.com/products/marketmuse/reviews) |
 | Scalenut | End-to-end workflow + GEO tracking | 7-day free trial | [$59/mo](https://www.scalenut.com/pricing) | [4.7/5 (~315 reviews, G2)](https://www.g2.com/products/scalenut/reviews) |
@@ -76,7 +76,7 @@ Best for: Content teams that want the market-leading NLP-driven content editor w
 | Platform | Web app |
 | Free Plan | Free start with limited features (no credit card required per site messaging; verify at surferseo.com/pricing/) |
 | Starting Price | [$49/mo](https://surferseo.com/pricing/) (Discovery, billed annually) |
-| G2 Rating | [4.8/5 (537 reviews)](https://www.g2.com/products/surfer-surfer/reviews) |
+| G2 Rating | [4.8/5 (544 reviews)](https://www.g2.com/products/surfer-surfer/reviews) |
 
 **Fit Profile**
 
@@ -94,11 +94,11 @@ Also evaluating Semrush? See our [Semrush alternatives](/alternative/semrush-alt
 
 **Core Strengths**
 
-Surfer's scoring algorithm has a longer track record than Frase's and is referenced more widely in SEO communities. Its content editor UI is more polished, and the volume of SERP data points per keyword is larger. The G2 review base (537 reviews at 4.8/5) gives the strongest signal in this set.
+Surfer's scoring algorithm has a longer track record than Frase's and is referenced more widely in SEO communities. Its content editor UI is more polished, and the volume of SERP data points per keyword is larger. The G2 review base (544 reviews at 4.8/5) gives the strongest signal in this set.
 
 - Largest SERP data volume per keyword of any tool in this set: clearest data-depth upgrade over Frase
 - More granular NLP term recommendations and heading structure guidance than Frase
-- 537 G2 reviews at 4.8/5: the broadest validated user signal in this lineup
+- 544 G2 reviews at 4.8/5: the broadest validated user signal in this lineup
 
 **Standout feature:** The real-time content score in Surfer's editor updates as you write, flagging which NLP terms are under- or over-used and comparing your structure against the top-ranking pages. Frase does this too, but Surfer's underlying SERP dataset is larger and the interface is less cluttered.
 
@@ -138,7 +138,7 @@ Surfer uses a tiered subscription with annual and monthly billing options. As of
 | Criteria | Detail |
 | --- | --- |
 | Free Plan | Free start with limited features (no credit card required per site messaging; verify live) |
-| G2 Rating | [4.8/5 (537 reviews)](https://www.g2.com/products/surfer-surfer/reviews) |
+| G2 Rating | [4.8/5 (544 reviews)](https://www.g2.com/products/surfer-surfer/reviews) |
 
 ---
 
@@ -405,7 +405,7 @@ The $23/mo Bronze entry price is the lowest in this set for a tool offering NLP-
 
 **Known Gaps**
 
-The G2 review pool (80+ reviews) is the smallest in this set with a verified count, which limits rating confidence relative to Surfer's 537 reviews. Note: one secondary source reported a conflicting rating of 4.4/5 from 31 reviews; the more widely cited figure is 4.7/5 from 80+ reviews (verify live at g2.com/products/neuronwriter/reviews before purchase). No named enterprise clients are visible on the primary source site.
+The G2 review pool (80+ reviews) is the smallest in this set with a verified count, which limits rating confidence relative to Surfer's 544 reviews. Note: one secondary source reported a conflicting rating of 4.4/5 from 31 reviews; the more widely cited figure is 4.7/5 from 80+ reviews (verify live at g2.com/products/neuronwriter/reviews before purchase). No named enterprise clients are visible on the primary source site.
 
 - Small G2 review base: lower statistical confidence in the rating than the larger tools
 - Bronze plan limited to 2 projects: inadequate for agency or multi-site use
@@ -590,11 +590,11 @@ If you'd rather have a team run your content optimization strategy than manage a
 
 ### What is the best Frase alternative?
 
-Surfer SEO is the strongest like-for-like Frase alternative for most teams, with a larger SERP dataset, a more polished editor, and the widest G2 review base (537 reviews at 4.8/5) in this set. Clearscope is the best alternative for teams with multiple editors, and Scalenut is the best pick for teams that want GEO/AI search tracking built into the same workflow.
+Surfer SEO is the strongest like-for-like Frase alternative for most teams, with a larger SERP dataset, a more polished editor, and the widest G2 review base (544 reviews at 4.8/5) in this set. Clearscope is the best alternative for teams with multiple editors, and Scalenut is the best pick for teams that want GEO/AI search tracking built into the same workflow.
 
 ### Is Surfer SEO better than Frase?
 
-For content teams that want the most granular NLP-term recommendations and the largest SERP data corpus, Surfer is the stronger tool. Its editor is more polished, its G2 rating (4.8/5, 537 reviews) exceeds Frase's review depth, and it's more widely referenced in SEO communities. The trade-off: Surfer is more expensive at comparable feature levels and requires a separate keyword research tool for a complete workflow.
+For content teams that want the most granular NLP-term recommendations and the largest SERP data corpus, Surfer is the stronger tool. Its editor is more polished, its G2 rating (4.8/5, 544 reviews) exceeds Frase's review depth, and it's more widely referenced in SEO communities. The trade-off: Surfer is more expensive at comparable feature levels and requires a separate keyword research tool for a complete workflow.
 
 ### Does Clearscope have a free trial?
 

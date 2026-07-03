@@ -40,7 +40,7 @@ Security teams bring professional scepticism to every vendor interaction; it com
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | Beacon Digital | ABM for VC-backed cyber SaaS | [$5,000/mo](https://info.yesandagency.com/) | Yes | [5.0/5 (4 reviews)](https://clutch.co/profile/beacon-digital-marketing) |
-| PipeRocket Digital | Pipeline-tied demand gen | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-tied demand gen | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | CyberTheory | Security-exclusive full-service | [Custom](https://cybertheory.io) | Yes | Verified on Clutch |
 | CyberWhyze | Video-led demand generation | Custom | Yes | Verified on Clutch |
 | The Rubicon Agency | Enterprise brand plus demand | [Custom](https://therubiconagency.com) | Yes | Verified on Clutch |
@@ -207,7 +207,7 @@ We built this for the cybersecurity VP Marketing who needs to walk into a board 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [demand gen audit and ICP analysis](/contact-us/?utm_source=best-cybersecurity-marketing-agencies&utm_medium=free-audit) |
-| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -900,5 +900,5 @@ An agency that starts with ICP mapping and positioning before spending on channe
 
 - **June 26, 2026:** Beacon Digital URL updated (beacondigitalmarketing.com -> info.yesandagency.com, now operating as Yes& Beacon practice); Beacon Digital Clutch "5.0/5 verified" -> 5.0/5 (4 reviews); Kalungi FeaturedCustomers "4.8" -> 4.8/5 (874 ratings); added Walker Sands news (PRovoke 100 Best Agencies in the US, May 2026). Human review flagged: Beacon Digital (#1) is fully absorbed into Yes& Agency -- homepage no longer resolves as a standalone brand, consider replacement at next editorial review.
 - **June 20, 2026:** Beacon Digital Analyst Note updated (acquired by Yes& Agency, February 2025); Jumpfactor URL updated (jumpfactor.com parked for sale, live site at jumpfactor.net). Human review flagged: Beacon Digital (#1) is an acquired brand -- consider replacement.
-- **June 11, 2026:** PipeRocket Clutch 4.8/5 -> 4.7/5 (13 reviews); Walker Sands Clutch URL fixed (walker-sands 404 -> walker-sands-0), rating 4.7/5 -> 4.8/5 (9 reviews); Magnetude Clutch 4.9/5 -> 4.8/5 (13 reviews); Bay Leaf Clutch 4.8/5 -> 5.0/5 (4 reviews); Jumpfactor Clutch 4.7/5 -> 5.0/5 (4 reviews); Kalungi switched to FeaturedCustomers (Clutch shows 0 reviews); added Walker Sands news (acquired RevPartners, June 2026); added Magnetude news (Best Cybersecurity Marketing Agency, 2026 Cybersecurity Excellence Awards).
+- **June 11, 2026:** PipeRocket Clutch 4.8/5 -> 4.7/5 (16 reviews); Walker Sands Clutch URL fixed (walker-sands 404 -> walker-sands-0), rating 4.7/5 -> 4.8/5 (9 reviews); Magnetude Clutch 4.9/5 -> 4.8/5 (13 reviews); Bay Leaf Clutch 4.8/5 -> 5.0/5 (4 reviews); Jumpfactor Clutch 4.7/5 -> 5.0/5 (4 reviews); Kalungi switched to FeaturedCustomers (Clutch shows 0 reviews); added Walker Sands news (acquired RevPartners, June 2026); added Magnetude news (Best Cybersecurity Marketing Agency, 2026 Cybersecurity Excellence Awards).
 - **April 24, 2026:** Published.

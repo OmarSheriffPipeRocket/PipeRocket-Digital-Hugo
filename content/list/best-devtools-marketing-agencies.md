@@ -41,7 +41,7 @@ The cost of a wrong hire here is 6 to 12 months of content that engineers scroll
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Draft.dev | Engineer-written technical content | [$9,000/mo](https://draft.dev/) | Yes | No verified Clutch profile |
-| PipeRocket Digital | Developer adoption to enterprise pipeline | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Developer adoption to enterprise pipeline | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Hackmamba | Full-stack GTM for developer-tool companies | [$8,000/mo](https://hackmamba.io/) | Yes | [4.7/5 (160 reference ratings) on FeaturedCustomers](https://www.featuredcustomers.com/vendor/hackmamba) |
 | Powered by Search | B2B SaaS demand-gen with technical-buyer depth | [Custom pricing](https://www.poweredbysearch.com/) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 | Perceptric | B2B SaaS SEO with published pricing | [$2,000/mo](https://perceptric.com/) | Yes | No verified Clutch profile |
@@ -188,7 +188,7 @@ As of June 2026, our retainers start at $5,000/mo and scale with ARR stage and s
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, free audit available |
-| Clutch Rating | 4.7/5 (13 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 ### 3. Hackmamba
 
@@ -807,5 +807,5 @@ Track pipeline contribution, qualified opportunities, and closed revenue in one 
 
 - **June 26, 2026:** Hackmamba FeaturedCustomers 4.7/5 (155 reference ratings) -> 4.7/5 (160 reference ratings).
 - **June 20, 2026:** Kalungi news added (Antoine Vial named CEO March 2026, Stijn Hendrikse moved to Chairman).
-- **June 11, 2026:** PipeRocket body text rating 4.8/5 (12 reviews) -> 4.7/5 (13 reviews); added Draft.dev news (2026 relaunch with faster turnaround and lower commitments); replaced GrowthSpree at #8 (on the agency blocklist; "Verified on Clutch (0 reviews)") with Hey Digital 4.6/5 (4 reviews), a SaaS paid-media agency with devtools clients (PostHog, Checkly, Hotjar).
+- **June 11, 2026:** PipeRocket body text rating 4.8/5 (12 reviews) -> 4.7/5 (16 reviews); added Draft.dev news (2026 relaunch with faster turnaround and lower commitments); replaced GrowthSpree at #8 (on the agency blocklist; "Verified on Clutch (0 reviews)") with Hey Digital 4.6/5 (4 reviews), a SaaS paid-media agency with devtools clients (PostHog, Checkly, Hotjar).
 - **April 24, 2026:** Published.

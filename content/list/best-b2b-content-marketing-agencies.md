@@ -39,7 +39,7 @@ A bad agency choice costs more than the retainer: a quarter of meticulously prod
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | Animalz | Executive ghostwriting and research | Custom | Yes | [Verified on Clutch](https://clutch.co/profile/animalz) |
-| PipeRocket Digital | ROI-driven B2B content for SaaS | [Custom](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | ROI-driven B2B content for SaaS | [Custom](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Grow and Convert | BOFU conversion-focused content | Custom | Yes | [4.8/5 (10 reviews)](https://clutch.co/profile/grow-convert) |
 | Megawatt | Cybersecurity and technical B2B | [Custom](https://megawatt.co) | Yes | Verified on Clutch |
 | Siege Media | Visual link-earning assets | [Custom](https://siegemedia.com) | Yes | [Verified on Clutch](https://clutch.co/profile/siege-media) |
@@ -207,7 +207,7 @@ PipeRocket Digital scopes engagements to your pipeline goals and growth stage ra
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [content audit and pipeline gap analysis](/contact-us/?utm_source=best-b2b-content&utm_medium=free-audit) |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -788,7 +788,7 @@ Can the agency tell you, in one number, what content contributed to closed reven
 
 ## Update History
 
-- **June 30, 2026:** PipeRocket Clutch 4.7/5 (13 reviews) -> 4.7/5 (15 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews).
+- **June 30, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews).
 - **June 23, 2026:** Grow and Convert Clutch "Verified on Clutch" -> 4.8/5 (10 reviews) (side-by-side table and agency card updated).
 - **June 16, 2026:** Added Animalz news (AirOps implementation services launched May 2026).
 - **June 8, 2026:** Omniscient Digital Clutch "Verified on Clutch" -> 4.8/5 (5 reviews); fixed Clutch URL (omniscient-digital-llc 404 -> omniscient-digital).

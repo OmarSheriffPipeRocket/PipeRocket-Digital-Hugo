@@ -37,7 +37,7 @@ Choosing the wrong Reddit agency typically means spending 60 to 90 days and seve
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | InterTeam Marketing | Certified Reddit B2B specialist | Custom pricing | Yes | [5.0/5 (23 reviews)](https://clutch.co/profile/interteam) |
-| PipeRocket Digital | B2B SaaS Reddit + pipeline | [$3,000/mo](https://piperocket.digital) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS Reddit + pipeline | [$3,000/mo](https://piperocket.digital) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Llama Lead Gen | Dedicated Reddit practice | Custom pricing | Yes | [4.9/5 (33 reviews)](https://clutch.co/profile/llama-lead-gen) |
 | Upgrow | Devtools and infra SaaS | Custom pricing | Yes | [5.0/5 (14 reviews)](https://clutch.co/profile/upgrow) |
 | Single Grain | Multi-channel + community | Custom pricing | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
@@ -176,7 +176,7 @@ Our pricing as of June 2026 is $3,000/mo, with a 3-month minimum then rolling. N
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoping call with founders |
-| Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) on Clutch |
+| Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) on Clutch |
 
 ---
 

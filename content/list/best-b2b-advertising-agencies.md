@@ -41,7 +41,7 @@ Choosing the wrong B2B advertising partner runs up a tab that goes well beyond t
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | Customer Generation for B2B SaaS | $8,000/mo | Yes | [4.8/5 (56+ reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | Pipeline-first paid for B2B SaaS | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-first paid for B2B SaaS | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | KlientBoost | Performance PPC with CRO | [$3,000/mo](https://klientboost.com/contact/) | Yes | [4.9/5 (403 reviews)](https://clutch.co/profile/klientboost) |
 | Disruptive Advertising | Paid media efficiency audits | [$5,000/mo](https://disruptiveadvertising.com/contact/) | Yes | [4.8/5 (365+ reviews)](https://clutch.co/profile/disruptive-advertising) |
 | Walker Sands | Advertising integrated with PR | Custom | Yes | [4.8/5 (9 reviews)](https://clutch.co/profile/walker-sands-0) |
@@ -212,7 +212,7 @@ Retainers start at $3,000/month for B2B SaaS paid media, with full-service [mark
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [pipeline audit and ICP analysis](/contact-us/?utm_source=best-b2b-advertising-agencies&utm_medium=free-audit) |
-| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

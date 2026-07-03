@@ -37,9 +37,9 @@ Picking the wrong platform here is expensive in a way the subscription fee doesn
 | --- | --- | --- | --- | --- |
 | 6sense | Predictive intent + AI account prioritization | Free tier (50 credits/mo) | [Custom pricing](https://6sense.com) | [4.3/5 (~1,200 reviews, G2)](https://www.g2.com/products/6sense-revenue-marketing/reviews) |
 | AdRoll ABM (RollWorks) | Multi-channel ABM advertising | Free-to-start retargeting (no trial) | [Custom pricing](https://www.adroll.com/solutions/account-based-marketing) | [4.3/5 (~600 reviews, G2)](https://www.g2.com/products/adroll-abm-formerly-rollworks/reviews) |
-| Terminus (DemandScience) | ABM ads + orchestration + syndication | No (demo only) | [Custom pricing](https://demandscience.com) | [4.4/5 (~1,000 reviews, G2)](https://www.g2.com/products/terminus-abm-platform/reviews) |
+| Terminus (DemandScience) | ABM ads + orchestration + syndication | No (demo only) | [Custom pricing](https://demandscience.com) | [4.4/5 (~470 reviews, G2)](https://www.g2.com/products/terminus-abm-platform/reviews) |
 | Madison Logic | Content syndication + intent data | No (demo only) | [Custom pricing](https://www.madisonlogic.com) | [4.3/5 (~235 reviews, G2)](https://www.g2.com/products/madison-logic-platform/reviews) |
-| Metadata | Paid-campaign automation | No (demo only) | [Custom pricing](https://metadata.io/) | [4.6/5 (298 reviews, G2)](https://www.g2.com/products/metadata-io/reviews) |
+| Metadata | Paid-campaign automation | No (demo only) | [Custom pricing](https://metadata.io/) | [4.6/5 (299 reviews, G2)](https://www.g2.com/products/metadata-io/reviews) |
 | ZoomInfo | B2B data + intent depth | No (limited trial only) | [Custom pricing](https://www.zoominfo.com) | [4.5/5 (~9,000 reviews, G2)](https://www.g2.com/products/zoominfo-sales/reviews) |
 | Apollo.io | Affordable data + outreach | Yes (free-forever plan) | [$49/user/mo](https://www.apollo.io/pricing) | [4.7/5 (~9,500 reviews, G2)](https://www.g2.com/products/apollo-io/reviews) |
 
@@ -210,7 +210,7 @@ Best for: Demand-gen teams that want ABM advertising and multi-channel orchestra
 | Platform | Web app |
 | Free Plan | No free plan; demo / sales-led evaluation only (no self-serve trial confirmed, June 2026) |
 | Starting Price | [Custom pricing](https://demandscience.com) (quote-only) |
-| G2 Rating | [4.4/5 (~1,000 reviews, G2)](https://www.g2.com/products/terminus-abm-platform/reviews) |
+| G2 Rating | [4.4/5 (~470 reviews, G2)](https://www.g2.com/products/terminus-abm-platform/reviews) |
 
 **Fit Profile**
 
@@ -263,7 +263,7 @@ Terminus / DemandScience uses a custom, quote-only model with no published rates
 | Criteria | Detail |
 | --- | --- |
 | Free Plan | No (demo only) |
-| G2 Rating | [4.4/5 (~1,000 reviews, G2)](https://www.g2.com/products/terminus-abm-platform/reviews) |
+| G2 Rating | [4.4/5 (~470 reviews, G2)](https://www.g2.com/products/terminus-abm-platform/reviews) |
 
 ---
 

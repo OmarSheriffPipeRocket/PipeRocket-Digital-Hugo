@@ -41,7 +41,7 @@ The cost of picking the wrong agency reaches far beyond the management fee line:
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | KlientBoost | Creative testing and CRO | [$10,000/mo](https://klientboost.com/pricing) | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
-| PipeRocket Digital | SQL-focused B2B campaigns | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | SQL-focused B2B campaigns | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Directive Consulting | Enterprise SaaS paid search | [$15,000/mo](https://directiveconsulting.com) | Yes | [Verified on Clutch](https://clutch.co/profile/directive-consulting) |
 | Single Grain | Integrated paid plus content | [$5,000/mo](https://www.singlegrain.com) | Yes | [Verified on Clutch](https://clutch.co/profile/single-grain) |
 | Disruptive Advertising | Mid-market hands-on PPC | [$3,000/mo](https://disruptiveadvertising.com) | Yes | [4.8/5 (365+ reviews)](https://clutch.co/profile/disruptive-advertising) |
@@ -212,7 +212,7 @@ We built this for the VP Marketing who's tired of paid-media decks full of CTRs 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [pipeline audit and ICP analysis](/contact-us/?utm_source=best-b2b-google-ads&utm_medium=free-audit) |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -948,7 +948,7 @@ A paid media audit ($2,500-$8,000 one-time) before any retainer commitment. SMB 
 
 ## Update History
 
-- **June 30, 2026:** PipeRocket Clutch 4.7/5 (13 reviews) -> 4.7/5 (15 reviews); KlientBoost Clutch 4.9/5 (400+ reviews) -> 4.9/5 (402 reviews).
+- **June 30, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews); KlientBoost Clutch 4.9/5 (400+ reviews) -> 4.9/5 (402 reviews).
 - **June 23, 2026:** Added Tinuiti news (Abbey Klaassen appointed CEO, April 2026, succeeding Zach Morrison).
 - **June 6, 2026:** Added Disruptive Advertising DesignRush top U.S. agency award (March 2026).
 - **November 13, 2025:** Published.

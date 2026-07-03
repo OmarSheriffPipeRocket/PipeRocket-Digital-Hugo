@@ -38,7 +38,7 @@ Attorneys and legal ops buyers are trained to question every assumption and eval
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Insivia | Full-service legaltech SaaS | [Custom](https://www.insivia.com/expertise/legaltech/) | Yes | [5.0/5 (5 reviews)](https://clutch.co/profile/insivia) |
-| PipeRocket Digital | Pipeline-tied legaltech demand gen | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-tied legaltech demand gen | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Bay Leaf Digital | Growth-stage legaltech SaaS pipeline | [$3,999/mo](https://www.bayleafdigital.com/pricing/) | Yes | [5.0/5 (4 reviews)](https://clutch.co/profile/bay-leaf-digital) |
 | LTMG | Legal-exclusive HubSpot strategy | [Custom](https://www.legaltechmg.com/) | Yes | Unverified on Clutch |
 | Directive | Enterprise legaltech demand gen | [Custom](https://directiveconsulting.com/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
@@ -202,7 +202,7 @@ Retainers are scoped to pipeline outcomes and growth stage. Transparent rates wi
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes SEO audit and pipeline analysis |
-| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 

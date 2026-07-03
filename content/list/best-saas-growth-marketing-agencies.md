@@ -39,7 +39,7 @@ A mismatched growth partner can burn an entire year of runway before the signal 
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | Mid-market and enterprise SaaS pipeline | [$6,500/mo](https://directiveconsulting.com) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | B2B SaaS revenue-first growth | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS revenue-first growth | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | NoGood | High-velocity SaaS experimentation | [$20,000/mo](https://nogood.io) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
 | Kalungi | Fractional CMO for early-stage SaaS | [$6,500/mo](https://www.kalungi.com) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 | Refine Labs | SaaS demand creation, away from MQLs | Custom pricing | Yes | Verified on Clutch (0 reviews) |
@@ -164,7 +164,7 @@ A few prospects find our intake heavy because we ask for pipeline data others do
 
 - Teams without clean CRM hygiene need a setup phase first ([Clutch](https://clutch.co/profile/piperocket-digital))
 
-**Track Record:** We carry 4.7/5 (13 reviews) on Clutch and have shipped programs for Storylane, Astra, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo. Engagements span seed-stage founders through $50M+ ARR SaaS teams.
+**Track Record:** We carry 4.7/5 (16 reviews) on Clutch and have shipped programs for Storylane, Astra, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo. Engagements span seed-stage founders through $50M+ ARR SaaS teams.
 
 **The Trade-off:** We're SaaS-only, which means we say no to e-commerce and B2C work. Our pipeline-attribution model also assumes you'll grant CRM access; teams that won't share sales data get less from us.
 
@@ -186,7 +186,7 @@ Retainers start at $5,000/mo with custom scopes tuned to ARR stage and channel m
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoped strategy call before any proposal |
-| Clutch Rating | 4.7/5 (13 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 ### 3. NoGood
 
@@ -688,5 +688,5 @@ Check the live Clutch profile, cross-reference named clients against the agency'
 
 - **June 25, 2026:** Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews).
 - **June 19, 2026:** Added Kalungi news (new CEO Antoine Vial, Mar 16, 2026; founder Brian Graf to Board/CMO client work); added Powered by Search news (Growth Gorilla partnership, Mar 25, 2026).
-- **June 4, 2026:** PipeRocket Digital Clutch 4.8/5 (12 reviews) -> 4.7/5 (13 reviews).
+- **June 4, 2026:** PipeRocket Digital Clutch 4.8/5 (12 reviews) -> 4.7/5 (16 reviews).
 - **April 14, 2026:** Published.

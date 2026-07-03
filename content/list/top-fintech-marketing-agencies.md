@@ -39,7 +39,7 @@ Each agency targets a different slice of fintech: pure-play specialists for bank
 | --- | --- | --- | --- | --- |
 | Fintech Digital | Fintech-only digital marketing | [$25,000 project min](https://www.fintechdigital.com/) | Yes | [5.0/5 (4 reviews)](https://clutch.co/profile/fintech-digital) |
 | NinjaPromo | Crypto and social subscription | [$4,000/mo](https://ninjapromo.io/) | Yes | [4.9/5 (90 reviews)](https://clutch.co/profile/ninja-promo) |
-| PipeRocket Digital | Pipeline-tied demand gen | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-tied demand gen | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | CSTMR | Full-funnel fintech growth | [$50,000 project min](https://cstmr.com/) | Yes | [4.9/5 (7 reviews)](https://clutch.co/profile/cstmr) |
 | Walker Sands | Integrated PR plus demand | [$10,000 project min](https://www.walkersands.com/) | Yes | [4.8/5 (9 reviews)](https://clutch.co/profile/walker-sands-0) |
 | Mint Studios | Fintech content marketing | [$5,000/mo](https://www.mintcopywritingstudios.com/) | Yes | [4.8/5 (2 reviews)](https://clutch.co/profile/mint-studios) |
@@ -254,7 +254,7 @@ We're upfront that B2B SaaS and fintech are the only verticals we serve, which m
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, 30-minute pipeline audit via the contact form |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ### 4. CSTMR
 
@@ -752,7 +752,7 @@ Yes, if the fintech product is B2B (payments infrastructure, financial tooling).
 
 ## Update History
 
-- **July 1, 2026:** Reordered rankings — NinjaPromo moved from #6 to #2; CSTMR moved from #2 to #4 (below PipeRocket); Walker Sands and Mint Studios each moved down one spot to #5 and #6; PipeRocket Clutch 4.7/5 (14 reviews) -> 4.7/5 (15 reviews); added Walker Sands news (B2B AI Search Visibility Benchmark launched April 2026).
+- **July 1, 2026:** Reordered rankings — NinjaPromo moved from #6 to #2; CSTMR moved from #2 to #4 (below PipeRocket); Walker Sands and Mint Studios each moved down one spot to #5 and #6; PipeRocket Clutch 4.7/5 (14 reviews) -> 4.7/5 (16 reviews); added Walker Sands news (B2B AI Search Visibility Benchmark launched April 2026).
 - **June 24, 2026:** NinjaPromo Clutch 4.9/5 (85 reviews) -> 4.9/5 (90 reviews); PipeRocket Clutch (13 reviews) -> (14 reviews); Walker Sands acquired RevPartners (June 2026), team size updated to 250+.
 - **June 18, 2026:** NinjaPromo Clutch 4.9/5 (82 reviews) -> 4.9/5 (85 reviews).
 - **June 8, 2026:** Added Walker Sands news: named to PRovoke Media's 100 Best Agencies in the US (May 2026).

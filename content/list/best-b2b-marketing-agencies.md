@@ -45,7 +45,7 @@ The table below lines up these B2B marketing agencies on starting price, free co
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV SaaS Customer Generation | [$8,000/mo](https://directiveconsulting.com) | Yes | [Verified on Clutch](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | Revenue-obsessed B2B SaaS | [Custom](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Revenue-obsessed B2B SaaS | [Custom](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | New North | Agile multi-channel B2B | [$5,000/mo](https://newnorth.com) | Yes | [4.6/5 (11 reviews)](https://clutch.co/profile/new-north) |
 | Ironpaper | Funnel optimisation, ABM | [Custom](https://www.ironpaper.com) | Yes | [Verified on Clutch](https://clutch.co/profile/ironpaper) |
 | Disruptive Advertising | Integrated paid plus CRO | [$5,000/mo](https://disruptiveadvertising.com) | Yes | [4.8/5 (365+ reviews)](https://clutch.co/profile/disruptive-advertising) |
@@ -228,7 +228,7 @@ We built this for the VP Marketing who has to defend the budget at the next boar
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [pipeline audit and ICP analysis](/contact-us/?utm_source=best-b2b-marketing&utm_medium=free-audit) |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -965,7 +965,7 @@ When scoped to pipeline outcomes, yes. The best B2B marketing agencies that repo
 
 ## Update History
 
-- **June 30, 2026:** PipeRocket Clutch 4.7/5 (13 reviews) -> 4.7/5 (15 reviews); added Directive Consulting news (LinkedIn Ads Certified Agency, May 2026).
+- **June 30, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews); added Directive Consulting news (LinkedIn Ads Certified Agency, May 2026).
 - **June 23, 2026:** Added Walker Sands PRovoke Media 100 Best Agencies US recognition (May 2026).
 - **June 16, 2026:** Added Walker Sands news (acquired RevPartners, RevOps and GTM engineering firm, June 2026).
 - **June 6, 2026:** Updated New North Clutch rating to 4.6/5 (11 reviews); renamed Velocity Partners to Pretzl (merged Feb 2026, now at pretzl.com); added Disruptive Advertising DesignRush top U.S. agency award (March 2026).

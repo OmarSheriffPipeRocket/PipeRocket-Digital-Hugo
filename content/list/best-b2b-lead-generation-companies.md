@@ -38,7 +38,7 @@ The cost of the wrong agency goes well beyond the retainer fee; it means a quart
 | Agency | Best For | Starting Price | Free Consultation | Clutch Profile |
 | --- | --- | --- | --- | --- |
 | CIENCE | AI-enhanced multi-channel outreach | [Custom](https://cience.com) | Yes | Verified on Clutch |
-| PipeRocket Digital | Full-funnel SaaS lead generation | [Custom](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Full-funnel SaaS lead generation | [Custom](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Belkins | Appointment setting for technical B2B | [Custom](https://belkins.io) | Yes | [4.9/5 (230 reviews)](https://clutch.co/profile/belkins) |
 | Martal Group | Outsourced sales executives | [Custom](https://martal.ca) | Yes | [4.8/5 (109 reviews)](https://clutch.co/profile/martal-group) |
 | Callbox | Global ABM and multi-region | [Custom](https://callboxinc.com) | Yes | Verified on Clutch |
@@ -203,7 +203,7 @@ We built this for the VP Marketing who's tired of agencies that hand off a meeti
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [lead gen audit and ICP analysis](/contact-us/?utm_source=best-b2b-lead-gen&utm_medium=free-audit) |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -703,7 +703,7 @@ Track lead-to-SQL conversion rate and lead-to-opportunity rate, not just meeting
 
 ## Update History
 
-- **July 1, 2026:** PipeRocket Clutch 4.7/5 (14 reviews) -> 4.7/5 (15 reviews); Belkins "Verified on Clutch" -> 4.9/5 (230 reviews); Martal Group "Verified on Clutch" -> 4.8/5 (109 reviews); Leadium "Verified on Clutch" -> 4.9/5 (51 reviews).
+- **July 1, 2026:** PipeRocket Clutch 4.7/5 (14 reviews) -> 4.7/5 (16 reviews); Belkins "Verified on Clutch" -> 4.9/5 (230 reviews); Martal Group "Verified on Clutch" -> 4.8/5 (109 reviews); Leadium "Verified on Clutch" -> 4.9/5 (51 reviews).
 - **June 24, 2026:** PipeRocket Clutch (13 reviews) -> (14 reviews); Leadium URL updated to leadium.com; added SalesRoads news: acquired VSA Prospecting (June 2026).
 - **June 18, 2026:** Added Martal Group news: April 2026 AI-powered outbound platform expansion, 39% lift in booked meetings reported.
 - **June 9, 2026:** Added CIENCE parent-company note (now operates under graph8, the AI revenue platform formed from CIENCE's spin-out).

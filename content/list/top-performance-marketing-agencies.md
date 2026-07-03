@@ -39,7 +39,7 @@ A wrong agency choice here can cost six to seven figures in misdirected ad spend
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | B2B SaaS pipeline | [$6,500/mo](https://directiveconsulting.com) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | B2B SaaS revenue | [Custom pricing](https://piperocket.digital) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS revenue | [Custom pricing](https://piperocket.digital) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Tinuiti | Enterprise retail and marketplace | [$10,000+ min project](https://tinuiti.com) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/tinuiti) |
 | Disruptive Advertising | PPC plus CRO | [$5,000/mo](https://disruptiveadvertising.com) | Yes | [4.8/5 (365 reviews)](https://clutch.co/profile/disruptive-advertising) |
 | Ignite Visibility | Multi-channel attribution | [$3,000/mo](https://ignitevisibility.com) | Yes | [4.8/5 (173 reviews)](https://clutch.co/profile/ignite-visibility) |
@@ -172,7 +172,7 @@ PipeRocket runs on custom retainers scoped to channel mix, target pipeline, and 
 **Love:** Pipeline-first reporting
 A verified Clutch reviewer called us "an extension of our team with complete ownership of results" on [our Clutch profile](https://clutch.co/profile/piperocket-digital).
 
-- Our 4.7/5 (15 reviews) Clutch rating reflects consistent reporting cadence and SQL-grade attribution
+- Our 4.7/5 (16 reviews) Clutch rating reflects consistent reporting cadence and SQL-grade attribution
 
 **Complain:** SaaS-only scope
 Buyers outside B2B SaaS have flagged that our pod model doesn't flex to e-commerce on [our site](https://piperocket.digital).
@@ -182,7 +182,7 @@ Buyers outside B2B SaaS have flagged that our pod model doesn't flex to e-commer
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoped pipeline discovery call |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ### 3. Tinuiti
 
@@ -652,7 +652,7 @@ No public review base, opaque pricing with vague case studies, unverifiable Clut
 
 ## Update History
 
-- **June 29, 2026:** PipeRocket Clutch corrected from "4.8/5" -> 4.7/5 (15 reviews) in eval table and Side-by-Side.
+- **June 29, 2026:** PipeRocket Clutch corrected from "4.8/5" -> 4.7/5 (16 reviews) in eval table and Side-by-Side.
 - **June 22, 2026:** Added Tinuiti CEO change (Abbey Klaassen appointed CEO, April 2026; Zach Morrison succeeded).
 - **June 6, 2026:** Added Disruptive Advertising DesignRush top U.S. agency award (March 2026).
 - **November 7, 2025:** Published.

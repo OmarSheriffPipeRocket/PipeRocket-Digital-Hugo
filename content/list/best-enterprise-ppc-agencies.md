@@ -38,7 +38,7 @@ Enterprise paid budgets are too large to recover slowly from a wrong agency pick
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV B2B SaaS PPC | [Custom pricing](https://directiveconsulting.com/pricing/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | B2B SaaS pipeline PPC + SEO | [$3,000/mo](https://piperocket.digital/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS pipeline PPC + SEO | [$3,000/mo](https://piperocket.digital/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | KlientBoost | Multi-channel paid + CRO | [Custom pricing](https://www.klientboost.com/get-a-proposal/) | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
 | Disruptive Advertising | Audit-led waste elimination | [Custom pricing](https://disruptiveadvertising.com/contact/) | Yes | [4.8/5 (365 reviews)](https://clutch.co/profile/disruptive-advertising) |
 | Power Digital Marketing | Enterprise B2B full-funnel | [Custom pricing](https://powerdigitalmarketing.com/contact/) | Yes | [4.8/5 (66 reviews)](https://clutch.co/profile/power-digital-marketing) |
@@ -203,7 +203,7 @@ Our retainer starts at $3,000/mo as of June 2026, with a 3-month minimum then ro
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoping call with founders |
-| Rating | 4.7/5 (15 reviews) on Clutch |
+| Rating | 4.7/5 (16 reviews) on Clutch |
 
 Don't take our word for it. Read our verified Clutch reviews from B2B SaaS PPC engagements:
 

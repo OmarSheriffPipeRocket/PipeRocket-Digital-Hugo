@@ -37,7 +37,7 @@ Choosing the wrong partner costs far more than the retainer fee. You give away a
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | 27Zero | Edtech-exclusive brand and content | [Custom pricing](https://www.27zero.agency) | Yes | No verified Clutch profile |
-| PipeRocket Digital | Revenue-focused edtech SaaS | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Revenue-focused edtech SaaS | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Aspectus | Global edtech enterprise comms | [Custom pricing](https://aspectusgroup.com) | Yes | [5.0/5 (8 reviews)](https://clutch.co/profile/aspectus-group) |
 | Insivia | Edtech SaaS adoption and CRO | [Custom pricing](https://www.insivia.com) | Yes | [5.0/5 (5 reviews)](https://clutch.co/profile/insivia) |
 | Native Digital | Edtech creative and paid media | [Custom pricing](https://nativedigital.com) | Yes | [4.9/5 (9 reviews)](https://clutch.co/profile/native-digital) |
@@ -184,7 +184,7 @@ We're upfront that B2B SaaS, fintech, and PTaaS are the only verticals we serve,
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, 30-minute pipeline audit via the contact form |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ### 3. Aspectus
 
@@ -548,6 +548,6 @@ Edtech-only shops win on buyer language and category references; generalists win
 
 ## Update History
 
-- **June 30, 2026:** PipeRocket Clutch 4.7/5 (13 reviews) -> 4.7/5 (15 reviews).
+- **June 30, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews).
 - **June 23, 2026:** Added Insivia news (Top Strategic Consultancy and Marketing Agency 2026, Business Management Review).
 - **November 19, 2025:** Published.

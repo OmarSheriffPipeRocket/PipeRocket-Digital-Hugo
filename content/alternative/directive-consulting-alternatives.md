@@ -39,11 +39,11 @@ Choosing the wrong agency at growth stage isn't just a bad quarter. It's 6 to 12
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | NoGood | VC-backed SaaS growth squad | [Custom, ~$20,000/mo+](https://nogood.io/contact/) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
-| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Full-funnel SaaS marketing tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Single Grain | Multi-channel SEO + paid + content | [Custom, ~$10,000/mo+](https://www.singlegrain.com/contact/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
 | Refine Labs | Dark-funnel demand gen for Series B+ | [$20,000/mo](https://www.refinelabs.com/pricing) | Yes | Not rated on Clutch |
 | Bay Leaf Digital | Full-service SaaS marketing at accessible pricing | [$3,999/mo](https://www.bayleafdigital.com/pricing/) | Yes | [5.0/5 (4 reviews)](https://clutch.co/profile/bay-leaf-digital) |
-| KlientBoost | PPC + CRO in tandem for scaling SaaS | [Custom, ~$3,000/mo+](https://klientboost.com/pricing/) | Yes | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
+| KlientBoost | PPC + CRO in tandem for scaling SaaS | [Custom, ~$3,000/mo+](https://klientboost.com/pricing/) | Yes | [4.9/5 (403 reviews)](https://clutch.co/profile/klientboost) |
 | Roketto | Inbound + web design for early-stage SaaS | [Custom, ~$5,000/mo+](https://www.helloroketto.com) | Yes | [4.6/5 (16 reviews)](https://clutch.co/profile/roketto) |
 | Power Digital | Multi-channel growth at enterprise scale | [Custom, $5,000+ project](https://powerdigitalmarketing.com) | Yes | [4.8/5 (66 reviews)](https://clutch.co/profile/power-digital) |
 | Kalungi | Fractional CMO + GTM for pre-Series B SaaS | [Custom, $25,000+ project](https://www.kalungi.com/contact) | Yes | Not rated on Clutch |
@@ -200,7 +200,7 @@ Some prospects find our SaaS-only constraint limiting if they operate across mul
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes ICP audit and pipeline attribution review |
-| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -432,13 +432,13 @@ Also evaluating Hotjar? See our [Hotjar alternatives](/alternative/hotjar-altern
 
 
 
-**Differentiator:** KlientBoost is a scaling engine, not a strategy builder — their "Growth Grid" methodology tracks goal pace continuously and reallocates budget toward what's working, removing underperforming campaigns without waiting for a quarterly review. They self-report 88% of client goals hit in Q1 2026 and hold the strongest verified Clutch footprint on this list at 4.9 from 402 reviews.
+**Differentiator:** KlientBoost is a scaling engine, not a strategy builder — their "Growth Grid" methodology tracks goal pace continuously and reallocates budget toward what's working, removing underperforming campaigns without waiting for a quarterly review. They self-report 88% of client goals hit in Q1 2026 and hold the strongest verified Clutch footprint on this list at 4.9 from 403 reviews.
 
 - PPC and CRO managed in tandem — ad creative, landing page design, and A/B testing in one engagement rather than three separate vendors
-- Clutch footprint (4.9 from 402 reviews) is the most independently verified signal of any agency on this list
+- Clutch footprint (4.9 from 403 reviews) is the most independently verified signal of any agency on this list
 - SaaS is one vertical among several — e-commerce and lead gen are also served, which dilutes pure-SaaS focus compared to Directive or PipeRocket
 
-**Proof point:** KlientBoost's 402-review Clutch profile shows consistent themes: measurable CPL reduction, conversion rate improvement, and proactive communication across B2B SaaS accounts including Gong and PostHog.
+**Proof point:** KlientBoost's 403-review Clutch profile shows consistent themes: measurable CPL reduction, conversion rate improvement, and proactive communication across B2B SaaS accounts including Gong and PostHog.
 
 **Limitation:** KlientBoost is not a strategy-first agency — they thrive on scaling what's already working, not building initial demand frameworks. Limited ABM depth. SEO is offered but isn't a primary strength compared to paid and CRO.
 
@@ -449,7 +449,7 @@ Also evaluating Hotjar? See our [Hotjar alternatives](/alternative/hotjar-altern
 
 **Who it's NOT for:** Companies building initial demand from scratch, teams needing ABM infrastructure and RevOps integration, or companies that want SEO as a primary channel alongside paid.
 
-**Editor's read:** KlientBoost is the most verifiable option on this list by review volume — 402 Clutch reviews is a confidence floor no other agency here matches.
+**Editor's read:** KlientBoost is the most verifiable option on this list by review volume — 403 Clutch reviews is a confidence floor no other agency here matches.
 
 **Pricing Breakdown**
 
@@ -478,7 +478,7 @@ Some clients found the onboarding process required significant time and effort u
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes free marketing plan and ROI calculation |
-| Clutch Rating | [4.9/5 (402 reviews)](https://clutch.co/profile/klientboost) |
+| Clutch Rating | [4.9/5 (403 reviews)](https://clutch.co/profile/klientboost) |
 
 ---
 
@@ -789,7 +789,7 @@ For many Series B+ B2B SaaS companies, yes. Directive's Customer Generation fram
 
 ### How do I evaluate Clutch ratings for agencies with very few reviews?
 
-Treat review count as a confidence interval, not just the rating itself. A 5.0 from 1 review (NoGood) or 4 reviews (Bay Leaf Digital) carries far less signal than a 4.9 from 402 reviews (KlientBoost). For agencies with zero Clutch reviews (Refine Labs, Kalungi, First Page Sage), ask for direct client references you can contact independently — don't rely on agency-curated testimonials alone.
+Treat review count as a confidence interval, not just the rating itself. A 5.0 from 1 review (NoGood) or 4 reviews (Bay Leaf Digital) carries far less signal than a 4.9 from 403 reviews (KlientBoost). For agencies with zero Clutch reviews (Refine Labs, Kalungi, First Page Sage), ask for direct client references you can contact independently — don't rely on agency-curated testimonials alone.
 
 ---
 

@@ -39,7 +39,7 @@ Picking the wrong firm here means 6 to 12 months of flat rankings with a six-fig
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Onely | JavaScript-heavy enterprise sites | [$10,000+ project](https://www.onely.com/contact/) | Yes | [5.0/5 (19 reviews)](https://clutch.co/profile/onely) |
-| PipeRocket Digital | B2B SaaS technical SEO tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS technical SEO tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | iPullRank | Enterprise sites needing Relevance Engineering | [Custom pricing](https://ipullrank.com/contact/) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/ipullrank) |
 | Victorious | Mid-market generalist technical SEO | [$50,000+ project](https://victorious.com/contact/) | Yes | [4.8/5 (119 reviews)](https://clutch.co/profile/victorious) |
 | Ayima | Global enterprise brands at crawl scale | [$5,000+ project](https://www.ayima.com/contact/) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/ayima) |

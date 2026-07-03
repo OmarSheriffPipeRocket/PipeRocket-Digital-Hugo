@@ -39,7 +39,7 @@ Choosing the wrong agency can mean twelve months of domain rating gains that nev
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Editorial.Link | Productized per-link buyers | [$300/link](https://editorial.link/) | Yes | [5.0/5 (80 reviews)](https://clutch.co/profile/editoriallink) |
-| PipeRocket Digital | Pipeline-tied B2B SaaS links | [Custom retainer](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Pipeline-tied B2B SaaS links | [Custom retainer](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | uSERP | Tier 1 editorial placements | [$5,000/mo](https://userp.io/) | Yes | [4.9/5 (20 reviews)](https://clutch.co/profile/userp) |
 | Siege Media | Content-led link earning | [$5,000/mo](https://www.siegemedia.com/contact/) | Yes | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
 | Above Apex | SaaS-only editorial boutique | [$5,000+ project](https://aboveapex.com/) | Yes | [4.9/5 (16 reviews)](https://clutch.co/profile/above-apex) |
@@ -181,7 +181,7 @@ Pricing is custom retainer as of June 2026. We scope against ICP, current author
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, fit assessment before any retainer |
-| Clutch Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ### 3. uSERP
 

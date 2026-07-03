@@ -48,7 +48,7 @@ Hiring the wrong LinkedIn agency is an expensive mistake: an entire quarter's bu
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | B2Linked | LinkedIn Ads-only specialists | [Custom pricing](https://b2linked.com) | Yes | [4.8/5 (4 reviews)](https://clutch.co/profile/b2linked) |
-| PipeRocket Digital | SaaS LinkedIn inside a pipeline stack | [Custom pricing](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | SaaS LinkedIn inside a pipeline stack | [Custom pricing](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Impactable | Mid-market LinkedIn Ads plus tooling | [$2,000/mo](https://impactable.com) | Yes | [4.4/5 (32 reviews)](https://clutch.co/profile/impactable) |
 | Cleverly | LinkedIn outbound DM at lowest entry | [$397/mo](https://www.cleverly.co) | Yes | [4.3/5 (83 reviews)](https://clutch.co/profile/cleverly) |
 | Sculpt | LinkedIn organic plus advocacy | [$10,000/mo](https://wearesculpt.com) | Yes | [4.8/5 (22 reviews)](https://clutch.co/profile/sculpt) |
@@ -188,7 +188,7 @@ Our pricing is custom, scoped against the channels you run and the pipeline targ
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoped via contact form |
-| Clutch Rating | 4.7/5 (15 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 ### 3. Impactable
 
@@ -712,6 +712,6 @@ Most B2B SaaS teams see meaningful pipeline signal at 90-120 days with tight ICP
 
 ## Update History
 
-- **June 29, 2026:** PipeRocket Clutch 4.7/5 (13 reviews) -> 4.7/5 (15 reviews); Impactable Clutch 4.4/5 (31 reviews) -> 4.4/5 (32 reviews).
+- **June 29, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews); Impactable Clutch 4.4/5 (31 reviews) -> 4.4/5 (32 reviews).
 - **June 22, 2026:** Impactable Clutch review count 4.4/5 (30 reviews) -> 4.4/5 (31 reviews).
 - **April 29, 2026:** Published.

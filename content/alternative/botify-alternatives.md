@@ -38,7 +38,7 @@ Most teams go looking for a Botify alternative for one reason: cost. Botify publ
 | Lumar | Enterprise crawl + accessibility/QA | No (demo-gated) | [Contact for pricing](https://www.lumar.io/pricing/) | [4.6/5 (~101 reviews, per G2)](https://www.g2.com/products/lumar-formerly-deepcrawl/reviews) |
 | OnCrawl | Crawl + log analysis for large sites | No (demo-gated) | [Contact for pricing](https://www.oncrawl.com/pricing/) | [3.8/5 (4 reviews, Capterra)](https://www.capterra.com/p/187401/Oncrawl/) |
 | JetOctopus | Scale crawling + logs, public pricing | Free trial (no CC) | [€383/mo](https://my.jetoctopus.com/pricing) (annual) | [4.8/5 (13 reviews, Capterra)](https://www.capterra.com/p/197386/JetOctopus/reviews/) |
-| Screaming Frog | Affordable deep desktop crawler | Free up to 500 URLs | [£199/yr](https://www.screamingfrog.co.uk/seo-spider/pricing/) | [4.9/5 (133 reviews, Capterra)](https://www.capterra.com/p/185765/Screaming-Frog-SEO-Spider/reviews/) |
+| Screaming Frog | Affordable deep desktop crawler | Free up to 500 URLs | [£199/yr](https://www.screamingfrog.co.uk/seo-spider/pricing/) | [4.9/5 (134 reviews, Capterra)](https://www.capterra.com/p/185765/Screaming-Frog-SEO-Spider/reviews/) |
 | Sitebulb | Guided, visual technical audits | 14-day trial (no CC) | [~£13.50/mo](https://sitebulb.com/pricing/) (verify live) | [4.9/5 (25 reviews, Capterra)](https://www.capterra.com/p/169089/Sitebulb/reviews/) |
 | Conductor | Content/AEO + real-time monitoring | No (sales-gated) | [Contact for pricing](https://www.conductor.com/) | [4.6/5 (~710 reviews, per G2)](https://www.g2.com/products/conductor/reviews) |
 | Semrush Site Audit | Technical checks in an all-in-one suite | Free (100 pages/mo) | [$139.95/mo](https://www.semrush.com/prices/) (Pro) | [4.5/5 (3,400+ reviews, full suite)](https://www.g2.com/products/semrush/reviews) |
@@ -280,7 +280,7 @@ Best for: SEO power users who want a deep, reliable desktop crawler at a flat an
 | Platform | Desktop application (Windows, macOS, Ubuntu) |
 | Free Plan | Yes: permanent free tier capped at 500 URLs per crawl (verified, June 2026) |
 | Starting Price | [£199/yr](https://www.screamingfrog.co.uk/seo-spider/pricing/) per user (also ~€245 / ~$279) |
-| Rating | [4.9/5 (133 reviews, Capterra)](https://www.capterra.com/p/185765/Screaming-Frog-SEO-Spider/reviews/) |
+| Rating | [4.9/5 (134 reviews, Capterra)](https://www.capterra.com/p/185765/Screaming-Frog-SEO-Spider/reviews/) |
 
 **Fit Profile**
 
@@ -335,7 +335,7 @@ Screaming Frog prices its SEO Spider license in GBP (FX-adjusted to other curren
 | Criteria | Detail |
 | --- | --- |
 | Free Plan | Yes: 500-URL crawl limit (permanent) |
-| Rating | [4.9/5 (133 reviews, Capterra)](https://www.capterra.com/p/185765/Screaming-Frog-SEO-Spider/reviews/) |
+| Rating | [4.9/5 (134 reviews, Capterra)](https://www.capterra.com/p/185765/Screaming-Frog-SEO-Spider/reviews/) |
 
 ---
 

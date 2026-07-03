@@ -42,7 +42,7 @@ An underqualified GEO/AEO partner quietly redirects six months of AI category qu
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | iPullRank | GEO as an engineering discipline | [Custom pricing](https://ipullrank.com/contact) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/ipullrank) |
-| PipeRocket Digital | B2B SaaS GEO tied to pipeline | [$1,500/mo](/pricing/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS GEO tied to pipeline | [$1,500/mo](/pricing/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | First Page Sage | Enterprise thought-leadership GEO | [$10,000+/project](https://firstpagesage.com/contact-us/) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/first-page-sage) |
 | Omniscient Digital | Editorial B2B SaaS GEO | [Custom pricing](https://beomniscient.com/contact/) | Yes | [4.8/5 (6 reviews)](https://clutch.co/profile/omniscient-digital) |
 | RevenueZen | Public month-to-month GEO pricing | [$2,500/mo](https://revenuezen.com/pricing/) | Yes | [4.9/5 (38 reviews)](https://clutch.co/profile/revenuezen) |
@@ -148,7 +148,7 @@ Our programs braid AEO content, GEO authority signals, technical SEO, and AI cit
 
 - Reviewers cite pipeline attribution and revenue tie-back as the differentiator.
 
-**Track Record:** Verified client roster includes Storylane, DevRev, Goldcast, LeadSquared, and Astra. The Clutch profile shows a 4.7/5 rating across 15 reviews, with consistent themes around revenue attribution and AEO depth ([Clutch](https://clutch.co/profile/piperocket-digital)).
+**Track Record:** Verified client roster includes Storylane, DevRev, Goldcast, LeadSquared, and Astra. The Clutch profile shows a 4.7/5 rating across 16 reviews, with consistent themes around revenue attribution and AEO depth ([Clutch](https://clutch.co/profile/piperocket-digital)).
 
 **Trade-offs:** We don't take B2C, e-commerce, or affiliate work, which narrows the buyer pool. Our SaaS specialization means non-SaaS teams should look elsewhere on this list.
 
@@ -739,7 +739,7 @@ Most target a 6-12 month horizon for measurable citation movement. Enterprise th
 
 ## Update History
 
-- **July 1, 2026:** PipeRocket Clutch 4.7/5 (14 reviews) -> 4.7/5 (15 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews).
+- **July 1, 2026:** PipeRocket Clutch 4.7/5 (14 reviews) -> 4.7/5 (16 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews).
 - **June 24, 2026:** PipeRocket Clutch (13 reviews) -> (14 reviews); added iPullRank news: AI Search Manual published (May 2026); added NoGood news: Drum Awards Gold 2026.
 - **June 18, 2026:** Added WebFX news: $10.7M Harrisburg HQ expansion announced April 2026, adding 100 new tech jobs (source: PA.gov).
 - **June 9, 2026:** Added iPullRank news (SEO Week 2026, April, New York); added WebFX news (Newsweek America's Most Reliable Companies 2026, Netty Awards Best SEO Innovation for OmniSEO); added Animalz news (AirOps implementation services launch, May 2026).

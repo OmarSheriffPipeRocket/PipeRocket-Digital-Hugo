@@ -37,10 +37,10 @@ Picking the wrong agency when leaving Animalz costs more than a wasted quarter. 
 
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
-| Omniscient Digital | B2B SaaS content plus pipeline attribution | [$10,000/mo](https://beomniscient.com/services/faqs/) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
-| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Omniscient Digital | B2B SaaS content plus pipeline attribution | [$10,000/mo](https://beomniscient.com/services/faqs/) | Yes | [4.8/5 (6 reviews)](https://clutch.co/profile/omniscient-digital) |
+| PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Siege Media | Content and link building with GEO layer | [~$8,000/mo (reported)](https://www.siegemedia.com/creation/content-marketing-cost) | Yes | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
-| Grow and Convert | Pain Point SEO driving trials and demos | [$10,000/mo](https://clutch.co/profile/grow-convert) | Yes | [4.8/5 (9 reviews)](https://clutch.co/profile/grow-convert) |
+| Grow and Convert | Pain Point SEO driving trials and demos | [$10,000/mo](https://clutch.co/profile/grow-convert) | Yes | [4.8/5 (10 reviews)](https://clutch.co/profile/grow-convert) |
 | Foundation Marketing | Thought leadership with distribution strategy | [~$8,000/mo (reported)](https://clutch.co/profile/foundation-marketing) | Yes | [5.0/5 (14 reviews)](https://clutch.co/profile/foundation-marketing) |
 | Single Grain | Content plus paid media and AI-search | [Custom, $10,000+ min](https://www.singlegrain.com/) | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
 | Skale | MRR-tied SaaS SEO, dedicated senior team | [~$8,000/mo (reported)](https://skale.so) | Yes | [4.9/5 (16 reviews)](https://clutch.co/profile/skale-0) |
@@ -101,11 +101,11 @@ Doesn't fit pre-Series A teams below the $10,000/mo floor, or teams that need pa
 
 - "Their level of industry expertise, experimental approach, and the quality of the deliverables are impressive." - Head of Marketing, AI-Powered SaaS Platform ([source](https://clutch.co/profile/omniscient-digital))
 
-Only 5 Clutch reviews for a 6-year-old agency makes social-proof due diligence thin at this price tier.
+Only 6 Clutch reviews for a 6-year-old agency makes social-proof due diligence thin at this price tier.
 
 **The Evidence:** Jasper: +810% organic sessions, 400x product signups, $4M+ blog-attributed revenue. Order.co: +2,117% blog sessions, 39x conversions, LLM traffic converting at 30% versus 5% for traditional SEO. Smartling: $3.7M qualified pipeline. SpotDraft: $2.94M pipeline ([source](https://beomniscient.com/case-studies/)).
 
-**Where It Falls Short:** 5 Clutch reviews is thin for independent validation at the $10K/mo tier. Small team caps execution for large enterprise programs. No paid media - organic-only, like Animalz.
+**Where It Falls Short:** 6 Clutch reviews is thin for independent validation at the $10K/mo tier. Small team caps execution for large enterprise programs. No paid media - organic-only, like Animalz.
 
 - $10,000/mo minimum excludes bootstrapped or pre-Series A teams entirely
 
@@ -124,7 +124,7 @@ Full-service engagements start at $10,000/mo, published on their FAQ page. Writt
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes content and SEO strategy audit |
-| Rating | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
+| Rating | [4.8/5 (6 reviews)](https://clutch.co/profile/omniscient-digital) |
 
 ---
 
@@ -189,7 +189,7 @@ Retainers start at $3,000/mo for single-channel SaaS SEO or SaaS PPC, scaling to
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Rating | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -294,11 +294,11 @@ Doesn't fit seed-stage teams below $10,000/mo or companies needing paid media al
 
 - "We trust them, which is extremely valuable in an agency partner." - Director, Brandfolder by Smartsheet ([source](https://clutch.co/profile/grow-convert))
 
-Only 9 Clutch reviews across 9 years creates a thin public evidence trail. Teams doing procurement diligence rely more on named case studies than third-party reviews here. Note: Grow and Convert's published pricing page URL returned a 404 in June 2026 - pricing figures are sourced from Clutch.
+Only 10 Clutch reviews across 9 years creates a thin public evidence trail. Teams doing procurement diligence rely more on named case studies than third-party reviews here. Note: Grow and Convert's published pricing page URL returned a 404 in June 2026 - pricing figures are sourced from Clutch.
 
 **The Evidence:** Smartlook: 600+ monthly signups from advanced users via Pain Point SEO. Rainforest QA: #1–#3 rankings for 25-plus high-intent keywords. LevelAI: appearing in AI search results for 100-plus prompts ([source](https://www.growandconvert.com)).
 
-**Where It Falls Short:** 9 Clutch reviews limits social proof for a 9-year-old agency. Small team caps volume at higher tiers. No paid media, no link building - content-only, like Animalz but conversion-intent-focused.
+**Where It Falls Short:** 10 Clutch reviews limits social proof for a 9-year-old agency. Small team caps volume at higher tiers. No paid media, no link building - content-only, like Animalz but conversion-intent-focused.
 
 - $10,000/mo for 3 articles/month is a high cost-per-piece relative to most alternatives here
 
@@ -317,7 +317,7 @@ Published pricing tiers, sourced via Clutch (pricing page returned 404 during Ju
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes content strategy and keyword audit |
-| Rating | [4.8/5 (9 reviews)](https://clutch.co/profile/grow-convert) |
+| Rating | [4.8/5 (10 reviews)](https://clutch.co/profile/grow-convert) |
 
 ---
 

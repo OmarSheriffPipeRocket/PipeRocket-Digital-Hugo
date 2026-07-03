@@ -39,7 +39,7 @@ Getting the agency decision wrong costs well beyond the monthly retainer. Two qu
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | Customer Generation for mid-market SaaS | [$8,000/mo](https://directiveconsulting.com/contact/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | Full-funnel B2B SaaS at boutique pricing | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Full-funnel B2B SaaS at boutique pricing | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | NoGood | Growth squads for VC-backed SaaS | [$15,000/mo](https://nogood.io/contact/) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/nogood) |
 | Kalungi | Fractional CMO for early-stage SaaS | [$10,000/mo](https://www.kalungi.com/contact) | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 | Refine Labs | Dark-funnel demand for enterprise SaaS | [$20,000/mo](https://www.refinelabs.com/pricing) | Yes | Verified on Clutch (0 reviews) |
@@ -186,7 +186,7 @@ Our retainers start at $3,000/mo with monthly rolling contracts and no ad-spend 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, free SaaS marketing audit |
-| Clutch Rating | 4.7/5 (13 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 ### 3. NoGood
 

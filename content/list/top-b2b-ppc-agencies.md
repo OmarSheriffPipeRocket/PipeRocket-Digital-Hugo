@@ -40,7 +40,7 @@ The wrong B2B PPC agency can consume six figures in ad spend before anyone raise
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | Enterprise B2B SaaS pipeline | Custom pricing | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | Embedded B2B SaaS growth | Custom pricing | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Embedded B2B SaaS growth | Custom pricing | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | WebFX | Manufacturing, multi-vertical PPC | [$1,500/mo](https://www.webfx.com/digital-marketing/pricing/) | Yes | [4.9/5 (450 reviews)](https://clutch.co/profile/webfx) |
 | Single Grain | AI-deployed paid media | Custom pricing | Yes | [4.8/5 (12 reviews)](https://clutch.co/profile/single-grain) |
 | Disruptive Advertising | PPC audit and waste cleanup | Custom pricing | Yes | [4.8/5 (365 reviews)](https://clutch.co/profile/disruptive-advertising) |
@@ -188,7 +188,7 @@ Buyers outside SaaS, fintech, or PtaaS won't get a fit from us, which the [profi
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoping call before any quote |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ### 3. WebFX
 
@@ -740,7 +740,7 @@ Public pricing speeds procurement; custom quotes usually mean deeper scoping. Ei
 
 ## Update History
 
-- **June 29, 2026:** PipeRocket Clutch corrected from "4.8/5 verified" -> 4.7/5 (15 reviews) (Side-by-Side and eval table); NinjaPromo Clutch 4.9/5 (87 reviews) -> 4.9/5 (90 reviews).
+- **June 29, 2026:** PipeRocket Clutch corrected from "4.8/5 verified" -> 4.7/5 (16 reviews) (Side-by-Side and eval table); NinjaPromo Clutch 4.9/5 (87 reviews) -> 4.9/5 (90 reviews).
 - **June 22, 2026:** NinjaPromo Clutch review count 4.9/5 (82 reviews) -> 4.9/5 (87 reviews); Grow and Convert Clutch review count 4.8/5 (9 reviews) -> 4.8/5 (10 reviews).
 - **June 6, 2026:** Updated LYFE Marketing Clutch review count to 156; added Disruptive Advertising DesignRush top U.S. agency award (March 2026).
 - **November 4, 2025:** Published.

@@ -21,7 +21,7 @@ stats:
   - value: "10+"
     label: "Years inside B2B SaaS"
   - value: "4.7"
-    label: "Clutch rating across 13 reviews"
+    label: "Clutch rating across 16 reviews"
   - value: "$4.5M+"
     label: "Pipeline generated for clients"
 
@@ -74,7 +74,7 @@ featured_in:
     label: "70+ SaaS Companies Achieved Measurable Marketing ROI"
     url: "https://www.prnewswire.com/news-releases/70-saas-companies-achieved-measurable-marketing-roi-with-piperocket-digital-302747241.html"
   - name: "Clutch"
-    label: "4.7 ★ Verified Reviews · 13 reviews"
+    label: "4.7 ★ Verified Reviews · 16 reviews"
     url: "https://clutch.co/profile/piperocket-digital"
   - name: "MarketersUnfiltered"
     label: "Podcast. Performance Marketing"

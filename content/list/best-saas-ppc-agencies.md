@@ -54,7 +54,7 @@ The best ones work backward from pipeline and unit economics, treating paid as a
 | Agency | Founder(s) | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- | --- |
 | Directive Consulting | Garrett Mehrguth & Tanner Shaffer | High-ACV B2B SaaS | Custom pricing | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
-| PipeRocket Digital | Praveen Ravi & Kim Mathiarasan | B2B SaaS pipeline | Custom pricing | Yes | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Praveen Ravi & Kim Mathiarasan | B2B SaaS pipeline | Custom pricing | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Disruptive Advertising | Jacob Baadsgaard | Waste elimination | Custom pricing | Yes | [4.8/5 (365 reviews)](https://clutch.co/profile/disruptive-advertising) |
 | Powered by Search | Dev Basu | Product-led SaaS | Custom pricing | Yes | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 | GrowthSpree | Ishan Manchanda et al. | Flat-fee pipeline attribution | [$3,000/mo](https://www.growthspreeofficial.com/) | Yes | [4.8/5 on G2 (38 reviews)](https://www.g2.com/products/growthspree-b2b-saas-marketing-consultancy/reviews) |
@@ -163,7 +163,7 @@ Best for: B2B SaaS that need qualified pipeline, not vanity metrics, from paid.
 - Revenue attribution built into HubSpot and Salesforce from week one.
 - 25 years combined founder experience in fintech, security, and enterprise SaaS.
 
-**What's Working:** Anusha, founding member at HyperVerge, said, "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months." Our Clutch profile is at 4.7/5 across 13 reviews, 10 of them verified.
+**What's Working:** Anusha, founding member at HyperVerge, said, "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months." Our Clutch profile is at 4.7/5 across 16 reviews, 10 of them verified.
 
 **Where It Slips:** We're SaaS-only by design, so non-SaaS buyers don't fit. Custom pricing means side-by-side procurement comparison takes a scoping call, and we run a deliberately small concurrent roster to keep senior attention on every account.
 
@@ -201,7 +201,7 @@ We keep the active roster tight, so [some inbound buyers](https://clutch.co/prof
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoping call with founders |
-| Clutch Rating | 4.7/5 (13 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 Don't take our word for it. Open our verified Clutch reviews from SaaS PPC engagements and read them in full:
 

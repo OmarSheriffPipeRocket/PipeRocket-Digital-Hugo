@@ -38,7 +38,7 @@ Directive and PipeRocket sit closest to martech as a core ICP; Refine Labs leads
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | Pipeline-led performance marketing | [Custom pricing](https://directiveconsulting.com/contact/) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | Integrated demand gen for SaaS | [$3,000/mo](/contact-us/) | Yes, free audit | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Integrated demand gen for SaaS | [$3,000/mo](/contact-us/) | Yes, free audit | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Refine Labs | Demand creation for $50M+ ARR | [$20,000/mo](https://www.refinelabs.com/pricing) | Yes | [Verified on Clutch (0 reviews)](https://clutch.co/profile/refine-labs) |
 | SmartBug Media | HubSpot Elite for martech | [Custom pricing](https://www.smartbugmedia.com/) | Yes | [4.9/5 (38 reviews)](https://clutch.co/profile/smartbug-media) |
 | 42DM | Explicit /martech/ vertical | [Custom pricing](https://42dm.net/) | Yes | [4.8/5 (16 reviews)](https://clutch.co/profile/42dm) |
@@ -190,7 +190,7 @@ Pricing starts at $3,000/mo as of June 2026. We hold monthly rolling contracts a
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, free audit |
-| Clutch Rating | 4.7/5 (13 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 ### 3. Refine Labs
 

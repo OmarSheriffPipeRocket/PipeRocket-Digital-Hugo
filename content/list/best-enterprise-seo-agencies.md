@@ -41,7 +41,7 @@ The criteria are the same whether you are hiring a full enterprise SEO agency, c
 | Agency | Best For | Starting Price | Free Consultation | Clutch Rating |
 | --- | --- | --- | --- | --- |
 | Searchbloom | Fast mid-market execution | [Custom pricing](https://www.searchbloom.com) | Yes | [4.9/5 (100 reviews)](https://clutch.co/profile/searchbloom) |
-| PipeRocket Digital | B2B SaaS pipeline SEO | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS pipeline SEO | [$5,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | WebFX | Full-service at scale | [Custom pricing](https://www.webfx.com) | Yes | [4.9/5 (450 reviews)](https://clutch.co/profile/webfx) |
 | Loopex Digital | Technical SEO debt | [Custom pricing](https://www.loopexdigital.com) | Yes | [5.0/5 (84 reviews)](https://clutch.co/profile/loopex-digital) |
 | First Page Sage | Thought leadership SEO | [Custom pricing](https://firstpagesage.com) | Yes | [Verified on Clutch](https://clutch.co/profile/first-page-sage) |
@@ -189,7 +189,7 @@ We're upfront that B2B SaaS, fintech, and PTaaS are the only verticals we serve,
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes [SEO audit and pipeline analysis](/contact-us/?utm_source=best-enterprise-seo&utm_medium=free-audit) |
-| Clutch Rating | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Clutch Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -779,7 +779,7 @@ Cross-check Clutch and G2 reviews, ask for two direct references at similar scal
 
 ## Update History
 
-- **June 29, 2026:** PipeRocket Clutch 4.7/5 (13 reviews) -> 4.7/5 (15 reviews).
+- **June 29, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews).
 - **June 22, 2026:** Added Searchbloom DesignRush Best SEO Agency 2026 award; added Linkflow acquisition news (acquired by Conifr, 2026, operating independently).
 - **October 29, 2025:** Published.
 - **June 15, 2026:** Agency ranking reorder — Searchbloom #5 → #1, WebFX #6 → #3, Loopex Digital #1 → #4, First Page Sage #9 → #5, Siege Media #7 → #6, iPullRank #10 → #7, Amsive #4 → #8, Seer Interactive #8 → #9, Linkflow #3 → #10; PipeRocket Digital unchanged at #2.

@@ -37,7 +37,7 @@ The cost of picking the wrong ABM partner isn't just the retainer -- it's the si
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV SaaS ABM + pipeline | Custom pricing | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | B2B SaaS intent-driven ABM | [$3,000/mo](https://piperocket.digital/contact-us/) | Yes | [4.7/5 (15 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS intent-driven ABM | [$3,000/mo](https://piperocket.digital/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | SaaSMQL | SaaS-only done-for-you ABM | [$8,000/mo](https://www.saasmql.com/account-based-marketing) | Yes | Not rated |
 | Refine Labs | Dark-funnel demand + ABM | [$20,000/mo](https://www.refinelabs.com/pricing) | Yes | [4.8/5 (833 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/refine-labs) |
 | Inverta | ABM strategy + capability-building | Custom pricing | Yes | Not rated |
@@ -140,7 +140,7 @@ Best for: B2B SaaS teams wanting intent-driven paid ABM plus SEO in a single ret
 - Pipeline reporting (MQL, CAC, pipeline value) built into HubSpot or Salesforce from week 4.
 - No setup fee, no markup on ad spend -- scope-based retainer, 3-month minimum then rolling.
 
-**Documented Results:** Anusha, Founding Member at HyperVerge, said, "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months." Our Clutch profile is at 4.7/5 across 15 reviews.
+**Documented Results:** Anusha, Founding Member at HyperVerge, said, "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months." Our Clutch profile is at 4.7/5 across 16 reviews.
 
 **Buyer Feedback**
 
@@ -175,7 +175,7 @@ Our pricing is $3,000/mo to start as of June 2026, scope-based on channel mix an
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, scoping call with founders |
-| Rating | 4.7/5 (15 reviews) on Clutch |
+| Rating | 4.7/5 (16 reviews) on Clutch |
 
 {{< clutch-reviews id="clutch-reviews-piperocket" service="ABM" >}}
 

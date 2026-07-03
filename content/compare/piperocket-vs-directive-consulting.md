@@ -286,7 +286,7 @@ strengths_weaknesses:
 reviews:
   heading: "Reading between the reviews"
   body: |-
-    Both agencies sit near the top of Clutch: PipeRocket at 4.7 out of 5 (13 reviews), Directive at 4.8 out of 5 (56 reviews). The scores are close enough that the reviews, not the rating, reveal the ICP.
+    Both agencies sit near the top of Clutch: PipeRocket at 4.7 out of 5 (16 reviews), Directive at 4.8 out of 5 (56 reviews). The scores are close enough that the reviews, not the rating, reveal the ICP.
 
     PipeRocket reviews skew toward Seed and Series A founders describing setup-to-pipeline transformations. One Clutch review: *"Within six months we went from zero to ranking for 40 bottom-of-funnel keywords. Demo requests from organic grew 3x."* That's a pattern you only see in early-stage engagements where there's room to move the needle fast.
 

@@ -62,7 +62,7 @@ With those differences in mind, here are the top SaaS SEO agencies built for MRR
 | Agency | Founder(s) | Best For | Key Services | Strategy | Starting Price | Clutch Rating |
 | --- | --- | --- | --- | --- | --- | --- |
 | Directive Consulting | Garrett Mehrguth | Enterprise SaaS SEO unified with paid media and RevOps | SEO, paid media, CRO, RevOps, ABM | Integrates SEO with paid media and RevOps | [Custom pricing](https://directiveconsulting.com/) | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | Kamaraj Mathiarasan & Praveen Ravi | SaaS SEO tied to MRR and ARR growth, with GEO and AEO in-house | SEO, GEO/AEO, technical SEO, content, link building | MRR/ARR-modeled BOFU pages with GEO/AEO and CRM attribution | [$3,000/mo](/contact-us/) | [4.7/5 (13 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | Kamaraj Mathiarasan & Praveen Ravi | SaaS SEO tied to MRR and ARR growth, with GEO and AEO in-house | SEO, GEO/AEO, technical SEO, content, link building | MRR/ARR-modeled BOFU pages with GEO/AEO and CRM attribution | [$3,000/mo](/contact-us/) | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | First Page Sage | Evan Bailyn | SaaS thought-leadership SEO for enterprise sales cycles | Thought-leadership SEO, ghostwriting, GEO/AEO, content strategy | Thought-leadership content for long sales cycles | [Custom pricing](https://firstpagesage.com/) | [Verified on Clutch](https://clutch.co/profile/first-page-sage) |
 | Animalz | Walter Chen | Top-of-funnel SaaS content and editorial SEO | Editorial content, long-form SEO, thought leadership, AEO | Top-of-funnel editorial content | [Custom pricing](https://www.animalz.co/) | No third-party reviews |
 | Omniscient Digital | Alex Birkett, David Khim & Allie Decker | Strategy-led SaaS content SEO and brand positioning | Content strategy, editorial SEO, technical SEO, GEO | Content-led category authority | [Custom pricing](https://beomniscient.com/) | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
@@ -160,7 +160,7 @@ Reviewers love the results but flag broader scope and execution pace, and note s
 
 Best for: SaaS SEO Tied to MRR and ARR Growth, With GEO and AEO In-House
 
-[PipeRocket Digital](/) is an AI-first, B2B-SaaS-only marketing agency, founded in 2023 and headquartered in California, that runs SEO, GEO, and AEO as one program built to report in pipeline rather than rankings. They have 70+ shipped pipeline engagements and hold a 4.7/5 Clutch rating across 13 reviews. (Disclosure: PipeRocket Digital publishes this list and is held to the same criteria as every other agency.)
+[PipeRocket Digital](/) is an AI-first, B2B-SaaS-only marketing agency, founded in 2023 and headquartered in California, that runs SEO, GEO, and AEO as one program built to report in pipeline rather than rankings. They have 70+ shipped pipeline engagements and hold a 4.7/5 Clutch rating across 16 reviews. (Disclosure: PipeRocket Digital publishes this list and is held to the same criteria as every other agency.)
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" only="home" >}}
 
@@ -236,7 +236,7 @@ The B2B-SaaS-only focus means many qualified inbound enquiries get politely decl
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes an SEO and pipeline audit |
-| Clutch Rating | 4.7/5 (13 reviews) |
+| Clutch Rating | 4.7/5 (16 reviews) |
 
 ---
 
