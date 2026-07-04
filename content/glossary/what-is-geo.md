@@ -90,7 +90,7 @@ A heads up on measurement: GEO attribution is messy. A founder might see your pr
 
 We've compiled the actual numbers on AI search behaviour, citation patterns, and traffic share if you want to pressure-test the investment case before committing budget.
 
-**Also read:** [100+ AI SEO statistics for SaaS teams](/research/ai-seo-statistics/)
+**Also read:** [200+ AI SEO statistics for SaaS teams](/research/ai-seo-statistics/)
 
 ## How Do You Start Doing GEO Without Wrecking Your SEO?
 
