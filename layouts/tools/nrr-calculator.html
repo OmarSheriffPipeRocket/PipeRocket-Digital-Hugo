@@ -1,0 +1,186 @@
+{{/* NRR Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "NRR Calculator for B2B SaaS", "description": "Free net revenue retention calculator for B2B SaaS. Enter starting MRR, expansion, contraction and churn to get NRR, gross revenue retention and net MRR movement.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate net revenue retention (NRR)?", "acceptedAnswer": { "@type": "Answer", "text": "NRR = (starting MRR + expansion MRR − contraction MRR − churned MRR) divided by starting MRR, times 100. It measures how much recurring revenue you keep and grow from your existing customer base over a period, excluding new customers. For example, $100K starting MRR with $15K expansion, $3K contraction and $5K churn gives an NRR of 107%." } },
+    { "@type": "Question", "name": "What is a good NRR for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "100% means you keep exactly what you had. Best-in-class B2B SaaS runs 110 to 130% NRR, meaning the existing base grows even before new sales. Around 100% is solid for SMB-focused products; below 90% signals a retention or expansion problem that will cap growth." } },
+    { "@type": "Question", "name": "What is the difference between NRR and GRR?", "acceptedAnswer": { "@type": "Answer", "text": "Gross revenue retention (GRR) only subtracts contraction and churn, so it can never exceed 100%; it shows how much revenue you keep before any expansion. Net revenue retention (NRR) adds expansion back in, so it can exceed 100%. GRR measures leakage; NRR measures the net growth of your installed base." } },
+    { "@type": "Question", "name": "Why does NRR matter so much?", "acceptedAnswer": { "@type": "Answer", "text": "NRR above 100% means your revenue compounds even if you stop acquiring new customers, which is the strongest signal of durable SaaS growth and a major driver of valuation multiples. It also lowers pressure on acquisition: with 120% NRR, expansion alone grows you 20% a year before a single new logo." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">NRR Calculator for B2B SaaS</h1>
+          <p class="pr-calc__sub">Measure net revenue retention from your existing base: starting MRR plus expansion, minus contraction and churn. Also shows gross revenue retention and net MRR movement. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Starting MRR <em>base at period start</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="start" value="100000" min="1"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Expansion MRR <em>upsells, seats</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="exp" value="15000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Contraction MRR <em>downgrades</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="contr" value="3000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Churned MRR <em>lost customers</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="churn" value="5000" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your revenue retention</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rNrr">—</div><div class="pr-calc__l">Net revenue retention</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rGrr">—</div><div class="pr-calc__l">Gross revenue retention</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rNet">—</div><div class="pr-calc__l">Net MRR change</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rAnnual">—</div><div class="pr-calc__l">Annualized impact</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your MRR movements to see net and gross revenue retention.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-nrr-mid">Build a base that expands on its own →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>NRR above 100% starts with the right customers.</strong>
+          <p>PipeRocket's ICP-first organic engine brings in accounts that expand, not churn.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-nrr-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/churn-rate-calculator/">Churn Rate Calculator</a>
+            <a href="/tools/mrr-arr-calculator/">MRR / ARR Calculator</a>
+            <a href="/tools/ltv-calculator/">LTV Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is net revenue retention (NRR)?</h2>
+          <blockquote>Net revenue retention is the percentage of recurring revenue you keep and grow from your existing customers over a period, before adding any new customers. It rolls expansion, contraction and churn into one number. Above 100% means your installed base grows on its own; it is one of the strongest signals of durable SaaS growth and a major driver of valuation.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+NRR = (Start MRR + Expansion − Contraction − Churn) ÷ Start MRR
+GRR = (Start MRR − Contraction − Churn) ÷ Start MRR
+Net MRR change   = Expansion − Contraction − Churn
+Annualized impact = Net MRR change × 12</pre>
+          <p>GRR can never exceed 100% because it ignores expansion; NRR can, because expansion is added back. The gap between them is the value your customer success and expansion motion create.</p>
+
+          <h2>What is a good NRR?</h2>
+          <table>
+            <thead><tr><th>NRR</th><th>Read</th></tr></thead>
+            <tbody>
+              <tr><td>Below 90%</td><td>Leaky base; growth is capped</td></tr>
+              <tr><td>~100%</td><td>Solid, typical for SMB SaaS</td></tr>
+              <tr><td>110 to 130%</td><td>Best-in-class; base grows before new sales</td></tr>
+            </tbody>
+          </table>
+
+          <h2>How to improve NRR</h2>
+          <ul>
+            <li><strong>Reduce churn and contraction.</strong> Onboarding, adoption and time-to-value protect the base.</li>
+            <li><strong>Build expansion paths.</strong> Seat growth, usage tiers and cross-sell turn NRR above 100%.</li>
+            <li><strong>Acquire expandable customers.</strong> ICP-fit accounts from organic search grow within your product instead of downgrading.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate net revenue retention?</h3>
+          <p>NRR = (starting MRR + expansion − contraction − churn) ÷ starting MRR, times 100. $100K starting MRR with $15K expansion, $3K contraction and $5K churn gives 107%.</p>
+          <h3>What is a good NRR for B2B SaaS?</h3>
+          <p>100% means you keep what you had; best-in-class runs 110 to 130%. Around 100% is solid for SMB; below 90% signals a retention or expansion problem.</p>
+          <h3>What is the difference between NRR and GRR?</h3>
+          <p>GRR only subtracts contraction and churn, so it caps at 100% and shows leakage. NRR adds expansion back, so it can exceed 100% and shows net base growth.</p>
+          <h3>Why does NRR matter so much?</h3>
+          <p>NRR above 100% means revenue compounds even without new customers, the strongest signal of durable SaaS growth and a big valuation driver. At 120% NRR, expansion alone grows you 20% a year before a single new logo.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['start','exp','contr','churn'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var s=n<0?'-':''; var a=Math.abs(n); var v; if(a>=1e6) v='$'+(a/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; else if(a>=1e3){var k=a/1000; v='$'+(k%1===0?k.toFixed(0):k.toFixed(1))+'K';} else v='$'+Math.round(a).toLocaleString(); return s+v; }
+
+  function recalc(){
+    var start=Math.max(num('start'),1), exp=num('exp'), contr=num('contr'), churn=num('churn');
+    var nrr = (start + exp - contr - churn)/start;
+    var grr = (start - contr - churn)/start;
+    var net = exp - contr - churn;
+    var annual = net*12;
+    $('rNrr').textContent = (nrr*100).toFixed(0)+'%';
+    $('rGrr').textContent = (grr*100).toFixed(0)+'%';
+    $('rNet').textContent = (net>=0?'+':'')+money(net);
+    $('rAnnual').textContent = (annual>=0?'+':'')+money(annual);
+    var verdict = nrr>=1.1?'best-in-class':nrr>=1?'solid':nrr>=0.9?'leaking':'a growth cap';
+    $('rec').innerHTML = 'Your base moved from <strong>'+money(start)+'</strong> by +'+money(exp)+' expansion, −'+money(contr)+' contraction and −'+money(churn)+' churn, a <strong>'+(nrr*100).toFixed(0)+'% NRR</strong> ('+verdict+') and <strong>'+(grr*100).toFixed(0)+'% GRR</strong>. Net MRR change: <strong>'+(net>=0?'+':'')+money(net)+'/mo</strong>, about <strong>'+(annual>=0?'+':'')+money(annual)+'</strong> annualized.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

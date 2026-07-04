@@ -1,0 +1,181 @@
+{{/* CPA Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "CPA Calculator (Cost Per Acquisition)", "description": "Free cost per acquisition calculator. Get CPA from ad spend and conversions, plus conversion rate, cost per click and ROAS.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate cost per acquisition (CPA)?", "acceptedAnswer": { "@type": "Answer", "text": "Cost per acquisition = total ad spend divided by the number of conversions (acquisitions). For example, $5,000 of spend producing 25 conversions is a $200 CPA. Adding clicks gives conversion rate and cost per click, and adding revenue per conversion gives ROAS." } },
+    { "@type": "Question", "name": "What is the difference between CPA and CAC?", "acceptedAnswer": { "@type": "Answer", "text": "CPA usually measures the cost of a single defined conversion or action, such as a signup or demo, at the campaign level. CAC (customer acquisition cost) measures the fully-loaded cost of acquiring a paying customer, including all sales and marketing. CPA is a campaign metric; CAC is a company metric. A signup CPA is only useful once you know what share of signups become customers." } },
+    { "@type": "Question", "name": "What is a good CPA for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "There is no universal figure because it depends on what the conversion is worth. The right test is whether CPA stays below the value of that conversion: for a lead, that is close rate times deal value; for a customer, it is compared to LTV. A $200 CPA is excellent for a lead worth $800 and poor for one worth $150." } },
+    { "@type": "Question", "name": "How can I reduce CPA?", "acceptedAnswer": { "@type": "Answer", "text": "Raise landing-page conversion so the same clicks produce more acquisitions, tighten targeting to your ICP, improve ad relevance to lower cost per click, and cut spend on channels or keywords with weak conversion. Building organic rankings for your best converting terms also lowers blended CPA over time." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · Paid Ads</span>
+          <h1 class="pr-calc__title">CPA Calculator</h1>
+          <p class="pr-calc__sub">Get your cost per acquisition from ad spend and conversions. Add clicks and revenue per conversion to also see conversion rate, cost per click and ROAS. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Ad spend <em>the period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="spend" value="5000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Conversions <em>acquisitions</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="conv" value="25" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">conv</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Clicks <em>optional, for CVR</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="clicks" value="0" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">clicks</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Revenue per conversion <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="rev" value="0" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your acquisition economics</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rCpa">—</div><div class="pr-calc__l">Cost per acquisition</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCvr">—</div><div class="pr-calc__l">Conversion rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCpc">—</div><div class="pr-calc__l">Cost per click</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRoas">—</div><div class="pr-calc__l">ROAS</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your ad spend and conversions to see your CPA.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cpa-mid">Lower blended CPA with SEO →</a>
+          <small>No commitment · 30-min paid + organic strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Organic acquisitions get cheaper over time.</strong>
+          <p>PipeRocket builds SEO that lowers your blended cost per acquisition.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cpa-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpc-calculator/">CPC Calculator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+            <a href="/tools/cac-calculator/">CAC Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is cost per acquisition (CPA)?</h2>
+          <blockquote>Cost per acquisition is what you pay, on average, for each conversion, whether that is a signup, demo request or sale. It is the workhorse metric of paid performance, but it only means something in context: a CPA is good or bad relative to what the acquisition is worth. Always compare it to the value of the conversion, not to a universal benchmark.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Cost per acquisition = ad spend ÷ conversions
+Conversion rate       = conversions ÷ clicks
+Cost per click        = ad spend ÷ clicks
+ROAS                  = (conversions × revenue per conversion) ÷ ad spend</pre>
+          <p>Clicks and revenue per conversion are optional. Add them to see the full efficiency picture, from click through to return.</p>
+
+          <h2>CPA vs CAC</h2>
+          <p>CPA usually measures a single campaign-level action; CAC measures the fully-loaded cost of a paying customer across all sales and marketing. A signup CPA only becomes useful once you know what share of signups turn into customers, which links CPA to CAC.</p>
+
+          <h2>How to reduce CPA</h2>
+          <ul>
+            <li><strong>Raise conversion rate.</strong> More acquisitions from the same clicks cuts CPA directly.</li>
+            <li><strong>Improve targeting.</strong> Stop paying for actions from poor-fit accounts.</li>
+            <li><strong>Lower cost per click.</strong> Better ad relevance reduces the input cost.</li>
+            <li><strong>Build organic rankings.</strong> Owning converting terms organically lowers blended CPA.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate cost per acquisition?</h3>
+          <p>CPA = ad spend ÷ conversions. $5,000 producing 25 conversions is a $200 CPA. Add clicks for conversion rate and cost per click, and revenue per conversion for ROAS.</p>
+          <h3>What is the difference between CPA and CAC?</h3>
+          <p>CPA is the cost of a defined conversion at campaign level; CAC is the fully-loaded cost of a paying customer across all sales and marketing. CPA is a campaign metric; CAC is a company metric.</p>
+          <h3>What is a good CPA for B2B SaaS?</h3>
+          <p>No universal figure; it depends on what the conversion is worth. Keep CPA below the value of the conversion (close rate × deal value for a lead, or below LTV for a customer).</p>
+          <h3>How can I reduce CPA?</h3>
+          <p>Raise landing-page conversion, tighten targeting, improve ad relevance to lower CPC, and build organic rankings for your best converting terms.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['spend','conv','clicks','rev'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+(n>=100?Math.round(n).toLocaleString():n.toFixed(2)); }
+
+  function recalc(){
+    var spend=num('spend'), conv=Math.max(num('conv'),1), clicks=num('clicks'), rev=num('rev');
+    var cpa=spend/conv;
+    var cvr=clicks>0?conv/clicks:0;
+    var cpc=clicks>0?spend/clicks:0;
+    var roas=(rev>0&&spend>0)?(conv*rev)/spend:0;
+    $('rCpa').textContent = money(cpa);
+    $('rCvr').textContent = clicks>0 ? (cvr*100).toFixed(1)+'%' : '—';
+    $('rCpc').textContent = clicks>0 ? money(cpc) : '—';
+    $('rRoas').textContent = rev>0 ? roas.toFixed(1)+'x' : '—';
+    var base = 'Spending <strong>'+money(spend)+'</strong> for <strong>'+num('conv')+' conversions</strong> is a <strong>'+money(cpa)+'</strong> cost per acquisition.';
+    if (rev>0) base += ' At '+money(rev)+' revenue each, that is a <strong>'+roas.toFixed(1)+'x ROAS</strong>.';
+    $('rec').innerHTML = base;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

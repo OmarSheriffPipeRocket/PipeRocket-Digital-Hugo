@@ -1,0 +1,187 @@
+{{/* MRR & ARR Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "MRR & ARR Calculator for B2B SaaS", "description": "Free MRR and ARR calculator for B2B SaaS. Get monthly and annual recurring revenue, net new MRR and a 12-month projection.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate MRR and ARR?", "acceptedAnswer": { "@type": "Answer", "text": "Monthly recurring revenue (MRR) = number of active customers times average monthly revenue per account (ARPA). Annual recurring revenue (ARR) = MRR times 12. For example, 400 customers at $500 ARPA is $200,000 MRR and $2.4M ARR. Only count recurring subscription revenue; exclude one-time fees and services." } },
+    { "@type": "Question", "name": "What is the difference between MRR and ARR?", "acceptedAnswer": { "@type": "Answer", "text": "They measure the same recurring revenue on different time frames. MRR is the monthly view, useful for tracking month-to-month movement and net new growth. ARR is the annualized view (MRR times 12), used for board reporting and valuation. Annual contracts are usually normalized to MRR by dividing the contract value by 12." } },
+    { "@type": "Question", "name": "What is net new MRR?", "acceptedAnswer": { "@type": "Answer", "text": "Net new MRR is the change in MRR in a month: new MRR plus expansion, minus contraction and churn. It shows whether your recurring revenue is actually growing after accounting for lost customers. Positive net new MRR means the base is expanding; negative means churn is outrunning new sales." } },
+    { "@type": "Question", "name": "Should annual contracts count as MRR or ARR?", "acceptedAnswer": { "@type": "Answer", "text": "Both, normalized. An annual contract is booked as ARR at its full value and converted to MRR by dividing by 12, so a $24,000 annual deal adds $2,000 to MRR. This keeps monthly and annual recurring revenue consistent regardless of billing frequency." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">MRR &amp; ARR Calculator</h1>
+          <p class="pr-calc__sub">Get your monthly and annual recurring revenue, net new MRR, and a 12-month projection from your customers, ARPA, new adds and churn. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Active customers <em>paying now</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="customers" value="400" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">cust</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">ARPA <em>avg revenue / account / mo</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="arpa" value="500" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">New customers / month <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="newc" value="30" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">/mo</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Monthly churn rate <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="churn" value="3" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your recurring revenue</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rMrr">—</div><div class="pr-calc__l">MRR</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rArr">—</div><div class="pr-calc__l">ARR</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rNet">—</div><div class="pr-calc__l">Net new MRR / mo</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rProj">—</div><div class="pr-calc__l">Projected ARR (12 mo)</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter customers and ARPA to see your MRR, ARR and projection.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-mrr-mid">Grow the pipeline behind your ARR →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>ARR grows when pipeline is predictable.</strong>
+          <p>PipeRocket builds the organic engine that feeds your recurring revenue.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-mrr-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/nrr-calculator/">NRR Calculator</a>
+            <a href="/tools/churn-rate-calculator/">Churn Rate Calculator</a>
+            <a href="/tools/ltv-calculator/">LTV Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What are MRR and ARR?</h2>
+          <blockquote>Monthly recurring revenue (MRR) and annual recurring revenue (ARR) are the predictable subscription revenue a SaaS business earns each month or year. They are the headline numbers for boards and investors because they are recurring and forecastable, unlike one-time fees. MRR is the operational view; ARR is the annualized view used for reporting and valuation.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+MRR = active customers × ARPA
+ARR = MRR × 12
+Net new MRR (mo) = (new customers × ARPA) − (MRR × churn rate)
+Projected ARR    = MRR compounded 12 months, then × 12</pre>
+          <p>The projection compounds month by month: each month adds new-customer MRR and removes churned MRR from the growing base, so it reflects real momentum rather than a flat line.</p>
+
+          <h2>MRR vs ARR</h2>
+          <table>
+            <thead><tr><th>Metric</th><th>Time frame</th><th>Best for</th></tr></thead>
+            <tbody>
+              <tr><td>MRR</td><td>Monthly</td><td>Tracking net new growth and momentum</td></tr>
+              <tr><td>ARR</td><td>Annual (MRR × 12)</td><td>Board reporting and valuation</td></tr>
+            </tbody>
+          </table>
+          <p>Only count recurring subscription revenue. Exclude one-time setup fees and services, and normalize annual contracts to MRR by dividing by 12.</p>
+
+          <h2>How to grow MRR faster</h2>
+          <ul>
+            <li><strong>Feed the top of funnel predictably.</strong> Compounding organic search turns new-customer adds into a reliable monthly input.</li>
+            <li><strong>Cut churn.</strong> Every point of churn is MRR your acquisition has to replace before you grow.</li>
+            <li><strong>Add expansion.</strong> Seat growth and upsells lift ARPA and net new MRR without new logos.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate MRR and ARR?</h3>
+          <p>MRR = active customers × ARPA; ARR = MRR × 12. 400 customers at $500 ARPA is $200,000 MRR and $2.4M ARR. Count only recurring subscription revenue.</p>
+          <h3>What is the difference between MRR and ARR?</h3>
+          <p>Same recurring revenue, different time frame. MRR is the monthly view for momentum; ARR is the annualized view (MRR × 12) for board reporting and valuation.</p>
+          <h3>What is net new MRR?</h3>
+          <p>The change in MRR in a month: new plus expansion, minus contraction and churn. Positive means the base is growing; negative means churn is outrunning new sales.</p>
+          <h3>Should annual contracts count as MRR or ARR?</h3>
+          <p>Both, normalized. Book the full value as ARR and divide by 12 for MRR, so a $24,000 annual deal adds $2,000 to MRR.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['customers','arpa','newc','churn'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var s=n<0?'-':''; var a=Math.abs(n); var v; if(a>=1e6) v='$'+(a/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; else if(a>=1e3){var k=a/1000; v='$'+(k%1===0?k.toFixed(0):k.toFixed(1))+'K';} else v='$'+Math.round(a).toLocaleString(); return s+v; }
+
+  function recalc(){
+    var customers=num('customers'), arpa=num('arpa'), newc=num('newc'), churn=num('churn')/100;
+    var mrr = customers*arpa;
+    var arr = mrr*12;
+    var net = (newc*arpa) - (mrr*churn);
+    var m = mrr;
+    for (var i=0;i<12;i++){ m = m + newc*arpa - m*churn; }
+    var projArr = m*12;
+    $('rMrr').textContent = money(mrr);
+    $('rArr').textContent = money(arr);
+    $('rNet').textContent = (net>=0?'+':'')+money(net);
+    $('rProj').textContent = money(projArr);
+    $('rec').innerHTML = '<strong>'+num('customers')+' customers</strong> at <strong>'+money(arpa)+' ARPA</strong> is <strong>'+money(mrr)+' MRR</strong> and <strong>'+money(arr)+' ARR</strong>. Adding '+num('newc')+' customers a month against '+num('churn')+'% churn is <strong>'+(net>=0?'+':'')+money(net)+' net new MRR</strong>, projecting to about <strong>'+money(projArr)+' ARR</strong> in 12 months.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

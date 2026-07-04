@@ -1,0 +1,202 @@
+{{/* A/B Test Significance Calculator. Shared .pr-calc component + 2-col article layout.
+     Two-proportion z-test; confidence via normal CDF (erf approximation). */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-calc__v.calc-loss { color: var(--pr-red); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "A/B Test Significance Calculator", "description": "Free A/B test significance calculator. Enter control and variant visitors and conversions to get conversion rates, uplift and statistical confidence.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate A/B test significance?", "acceptedAnswer": { "@type": "Answer", "text": "This calculator runs a two-proportion z-test. It computes the conversion rate of each variant, the pooled standard error, and a z-score for the difference, then converts that to a confidence level using the normal distribution. A confidence of 95% or higher (p-value of 0.05 or lower) is the common threshold for calling a result statistically significant." } },
+    { "@type": "Question", "name": "What does statistically significant mean in an A/B test?", "acceptedAnswer": { "@type": "Answer", "text": "It means the difference between your control and variant is unlikely to be down to random chance. At 95% confidence there is only a 5% probability the observed difference happened by luck. Significance does not tell you the result is large or important, only that it is probably real, so always read it alongside the uplift and absolute conversion numbers." } },
+    { "@type": "Question", "name": "How big a sample size do I need for an A/B test?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on your baseline conversion rate and the uplift you want to detect: smaller effects need much larger samples. As a rough guide, low-conversion B2B pages often need thousands of visitors per variant to reach 95% confidence on a modest uplift. Run tests for full business cycles (at least one to two weeks) and avoid stopping the moment significance flickers." } },
+    { "@type": "Question", "name": "Why should I not stop an A/B test early?", "acceptedAnswer": { "@type": "Answer", "text": "Confidence fluctuates as data comes in, so a test can cross 95% by chance and then fall back. Stopping the moment it looks significant (called peeking) inflates false positives. Decide the sample size and duration in advance, and let the test run its course before acting on the result." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · CRO</span>
+          <h1 class="pr-calc__title">A/B Test Significance Calculator</h1>
+          <p class="pr-calc__sub">Enter the visitors and conversions for your control and variant to see conversion rates, uplift and whether the result is statistically significant. Two-proportion z-test, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Control visitors <em>variant A</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="n1" value="5000" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">visits</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Control conversions <em>variant A</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="c1" value="100" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">conv</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Variant visitors <em>variant B</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="n2" value="5000" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">visits</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Variant conversions <em>variant B</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="c2" value="130" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">conv</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your test result</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCtrl">—</div><div class="pr-calc__l">Control rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rVar">—</div><div class="pr-calc__l">Variant rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rUplift">—</div><div class="pr-calc__l">Relative uplift</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rConf">—</div><div class="pr-calc__l">Confidence</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your control and variant numbers to test significance.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-abtest-mid">Turn winning tests into pipeline →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Winning tests only matter if they lift pipeline.</strong>
+          <p>PipeRocket pairs CRO with intent-matched SEO so more of your traffic converts.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-abtest-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/conversion-rate-calculator/">Conversion Rate Calculator</a>
+            <a href="/tools/lead-value-calculator/">Lead Value Calculator</a>
+            <a href="/tools/marketing-roi-calculator/">Marketing ROI Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is A/B test significance?</h2>
+          <blockquote>Statistical significance tells you whether the difference between your control and variant is real or just random noise. An A/B test can show a higher conversion rate for the variant purely by chance; significance testing estimates how confident you can be that the lift is genuine. The common bar is 95% confidence, meaning only a 5% chance the result is a fluke.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The method (two-proportion z-test):</strong>
+
+p1 = control conversions ÷ control visitors
+p2 = variant conversions ÷ variant visitors
+pooled p = (c1 + c2) ÷ (n1 + n2)
+standard error = √( pooled p × (1 − pooled p) × (1/n1 + 1/n2) )
+z = (p2 − p1) ÷ standard error
+confidence = probability from the normal distribution (two-tailed)</pre>
+          <p>Relative uplift is (variant rate − control rate) ÷ control rate. A result is called significant when confidence reaches 95% or more.</p>
+
+          <h2>How to read the result</h2>
+          <table>
+            <thead><tr><th>Confidence</th><th>Read</th></tr></thead>
+            <tbody>
+              <tr><td>Under 90%</td><td>Not significant; keep the test running</td></tr>
+              <tr><td>90 to 95%</td><td>Promising, not conclusive</td></tr>
+              <tr><td>95% or higher</td><td>Statistically significant at the standard bar</td></tr>
+            </tbody>
+          </table>
+
+          <h2>Common A/B testing mistakes</h2>
+          <ul>
+            <li><strong>Stopping early.</strong> Confidence fluctuates; peeking and stopping at the first 95% inflates false positives.</li>
+            <li><strong>Too-small samples.</strong> Low-conversion B2B pages often need thousands of visitors per variant.</li>
+            <li><strong>Ignoring the uplift.</strong> A significant but tiny lift may not be worth shipping. Read confidence with the effect size.</li>
+            <li><strong>Short windows.</strong> Run at least one to two full business cycles to avoid day-of-week bias.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate A/B test significance?</h3>
+          <p>With a two-proportion z-test: compute each variant's rate, the pooled standard error, and a z-score for the difference, then convert to a confidence level via the normal distribution. 95% confidence (p ≤ 0.05) is the common significance threshold.</p>
+          <h3>What does statistically significant mean?</h3>
+          <p>The difference is unlikely to be random. At 95% confidence there is a 5% chance it happened by luck. It does not mean the effect is large, so read it with the uplift.</p>
+          <h3>How big a sample size do I need?</h3>
+          <p>It depends on baseline rate and the uplift you want to detect; smaller effects need much larger samples. Low-conversion B2B pages often need thousands per variant, run over full business cycles.</p>
+          <h3>Why should I not stop a test early?</h3>
+          <p>Confidence fluctuates, so a test can cross 95% by chance then fall back. Decide sample size and duration in advance and let it run to avoid false positives.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['n1','c1','n2','c2'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  // Normal CDF via erf approximation (Abramowitz & Stegun 7.1.26).
+  function erf(x){
+    var s = x<0?-1:1; x=Math.abs(x);
+    var t = 1/(1+0.3275911*x);
+    var y = 1 - (((((1.061405429*t - 1.453152027)*t) + 1.421413741)*t - 0.284496736)*t + 0.254829592)*t*Math.exp(-x*x);
+    return s*y;
+  }
+  function phi(z){ return 0.5*(1+erf(z/Math.SQRT2)); }
+
+  function recalc(){
+    var n1=Math.max(num('n1'),1), c1=num('c1'), n2=Math.max(num('n2'),1), c2=num('c2');
+    var p1=c1/n1, p2=c2/n2;
+    var uplift = p1>0 ? (p2-p1)/p1 : 0;
+    var pooled=(c1+c2)/(n1+n2);
+    var se=Math.sqrt(pooled*(1-pooled)*(1/n1+1/n2));
+    var z = se>0 ? (p2-p1)/se : 0;
+    var conf = 2*phi(Math.abs(z))-1; // two-tailed confidence
+    $('rCtrl').textContent = (p1*100).toFixed(2).replace(/\.?0+$/,'')+'%';
+    $('rVar').textContent = (p2*100).toFixed(2).replace(/\.?0+$/,'')+'%';
+    var upEl=$('rUplift'); upEl.textContent = (uplift>=0?'+':'')+(uplift*100).toFixed(1)+'%';
+    upEl.className = 'pr-calc__v ' + (uplift>=0?'calc-hi':'calc-loss');
+    $('rConf').textContent = (conf*100).toFixed(1)+'%';
+    var sig = conf>=0.95;
+    var dir = p2>=p1 ? 'higher' : 'lower';
+    $('rec').innerHTML = 'The variant converts at <strong>'+(p2*100).toFixed(2).replace(/\.?0+$/,'')+'%</strong> vs <strong>'+(p1*100).toFixed(2).replace(/\.?0+$/,'')+'%</strong> for control, a <strong>'+(uplift>=0?'+':'')+(uplift*100).toFixed(1)+'%</strong> '+dir+' rate. At <strong>'+(conf*100).toFixed(1)+'% confidence</strong>, this result is <strong>'+(sig?'statistically significant':'not yet significant')+'</strong> at the 95% bar'+(sig?'.':' — keep the test running.');
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

@@ -1,0 +1,188 @@
+{{/* Marketing ROI Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Marketing ROI Calculator for B2B SaaS", "description": "Free marketing ROI calculator for B2B SaaS. Enter spend, leads, close rate and deal value to get marketing ROI, revenue, new customers and cost per lead.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate marketing ROI?", "acceptedAnswer": { "@type": "Answer", "text": "Marketing ROI = (revenue generated from marketing minus marketing cost) divided by marketing cost, times 100. This calculator builds the revenue from your funnel: leads times close rate = customers, times average deal value = revenue. For example, $20,000 of spend producing 200 leads at a 12% close rate and $8,000 ACV generates $192,000, a 860% marketing ROI." } },
+    { "@type": "Question", "name": "What is a good marketing ROI for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "A common rule of thumb is a 5:1 revenue-to-cost ratio (about 400% ROI); 2:1 is often break-even once delivery costs are included, and 10:1 or higher is exceptional. High-ACV B2B SaaS can post very high marketing ROI because a single closed deal can be many multiples of the campaign cost, so read ROI alongside CAC and payback." } },
+    { "@type": "Question", "name": "What is the difference between marketing ROI and ROAS?", "acceptedAnswer": { "@type": "Answer", "text": "ROAS (return on ad spend) usually measures revenue against paid media only. Marketing ROI is broader: it measures revenue against total marketing cost, which can include content, salaries, tools and agency fees. ROI subtracts the cost in the numerator; ROAS is a straight revenue-to-spend ratio." } },
+    { "@type": "Question", "name": "How can I improve marketing ROI?", "acceptedAnswer": { "@type": "Answer", "text": "Improve the funnel, not just the top: raise lead-to-customer conversion, target higher-intent traffic, and shift budget toward compounding channels like SEO that lower blended cost per lead over time. Because organic content keeps converting after it is published, it usually delivers the highest long-run marketing ROI." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">Marketing ROI Calculator</h1>
+          <p class="pr-calc__sub">See the return on your marketing spend: enter spend, leads, close rate and deal value to get marketing ROI, revenue generated, new customers and cost per lead. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Marketing spend <em>the period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="spend" value="20000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Leads generated <em>same period</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="leads" value="200" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">leads</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Lead → customer rate <em>close rate</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="close" value="12" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Average deal value (ACV) <em>USD</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="acv" value="8000" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your marketing return</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRoi">—</div><div class="pr-calc__l">Marketing ROI</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRev">—</div><div class="pr-calc__l">Revenue generated</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCust">—</div><div class="pr-calc__l">New customers</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCpl">—</div><div class="pr-calc__l">Cost per lead</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your spend, leads, close rate and deal value to see your marketing ROI.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-mroi-mid">Raise your marketing ROI with SEO →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>The highest long-run marketing ROI is organic.</strong>
+          <p>PipeRocket builds SEO systems that keep converting after the spend stops.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-mroi-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cost-per-lead-calculator/">Cost Per Lead Calculator</a>
+            <a href="/tools/lead-value-calculator/">Lead Value Calculator</a>
+            <a href="/tools/free-seo-roi-calculator/">SEO ROI Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is marketing ROI?</h2>
+          <blockquote>Marketing ROI is the revenue your marketing generates measured against what it costs, expressed as a percentage return. For B2B SaaS it is best built from the funnel rather than guessed: leads times close rate gives customers, and customers times deal value gives revenue. That makes the number defensible to a CFO and shows exactly which lever, volume, conversion or deal size, to pull.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Customers        = leads × lead-to-customer rate
+Revenue          = customers × average deal value
+Marketing ROI    = (revenue − spend) ÷ spend × 100
+Cost per lead    = spend ÷ leads</pre>
+          <p>ROI is reported net of spend, so a 400% ROI means you earned four dollars of revenue for every dollar spent, on top of recovering the dollar itself.</p>
+
+          <h2>What is a good marketing ROI?</h2>
+          <table>
+            <thead><tr><th>Return</th><th>Read</th></tr></thead>
+            <tbody>
+              <tr><td>Under 100% (below 2:1)</td><td>Often break-even once delivery costs are counted</td></tr>
+              <tr><td>~400% (5:1)</td><td>The common healthy benchmark</td></tr>
+              <tr><td>900%+ (10:1)</td><td>Exceptional; typical for high-ACV SaaS</td></tr>
+            </tbody>
+          </table>
+
+          <h2>How to improve marketing ROI</h2>
+          <ul>
+            <li><strong>Lift conversion, not just traffic.</strong> A higher lead-to-customer rate raises ROI with no extra spend.</li>
+            <li><strong>Target higher intent.</strong> Bottom-of-funnel search converts far better than broad awareness traffic.</li>
+            <li><strong>Shift to compounding channels.</strong> SEO lowers blended cost per lead over time because content keeps converting.</li>
+            <li><strong>Raise deal size.</strong> Moving upmarket multiplies revenue on the same lead volume.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate marketing ROI?</h3>
+          <p>Marketing ROI = (revenue − marketing cost) ÷ marketing cost × 100. This tool builds revenue from your funnel: leads × close rate = customers, × ACV = revenue. $20,000 producing 200 leads at 12% close and $8,000 ACV generates $192,000, an 860% ROI.</p>
+          <h3>What is a good marketing ROI for B2B SaaS?</h3>
+          <p>About 5:1 (400% ROI) is the common healthy benchmark; 2:1 is often break-even after delivery costs; 10:1+ is exceptional. High-ACV SaaS can post very high ROI, so read it alongside CAC and payback.</p>
+          <h3>What is the difference between marketing ROI and ROAS?</h3>
+          <p>ROAS usually measures revenue against paid media only; marketing ROI measures revenue against total marketing cost (content, salaries, tools, agency) and subtracts that cost in the numerator.</p>
+          <h3>How can I improve marketing ROI?</h3>
+          <p>Improve the whole funnel: raise conversion, target higher-intent traffic, and shift budget to compounding channels like SEO that lower blended cost per lead over time.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['spend','leads','close','acv'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+  function cnt(n){ n=Math.round(n*10)/10; return (n%1===0)?n.toLocaleString():n.toFixed(1); }
+
+  function recalc(){
+    var spend=num('spend'), leads=num('leads'), close=num('close')/100, acv=num('acv');
+    var customers=leads*close, revenue=customers*acv;
+    var roiPct = spend>0 ? Math.round((revenue-spend)/spend*100) : 0;
+    var cpl = leads>0 ? spend/leads : 0;
+    $('rRoi').textContent = (roiPct>=0?'+':'')+roiPct.toLocaleString()+'%';
+    $('rRev').textContent = money(revenue);
+    $('rCust').textContent = cnt(customers);
+    $('rCpl').textContent = money(cpl);
+    var mult = spend>0 ? revenue/spend : 0;
+    var verdict = mult>=10?'exceptional':mult>=5?'strong':mult>=2?'solid':'thin';
+    $('rec').innerHTML = '<strong>'+money(spend)+'</strong> producing <strong>'+num('leads')+' leads</strong> at a '+num('close')+'% close rate and '+money(acv)+' ACV generates about <strong>'+cnt(customers)+' customers</strong> and <strong>'+money(revenue)+'</strong> in revenue, a <strong>'+(roiPct>=0?'+':'')+roiPct.toLocaleString()+'% ('+mult.toFixed(1)+':1) '+verdict+'</strong> marketing ROI at <strong>'+money(cpl)+'</strong> per lead.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

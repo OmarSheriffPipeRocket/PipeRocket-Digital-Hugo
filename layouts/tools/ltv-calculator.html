@@ -1,0 +1,189 @@
+{{/* LTV Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "LTV Calculator for B2B SaaS", "description": "Free customer lifetime value calculator for B2B SaaS. Enter ARPA, gross margin and churn to get LTV, average lifespan and LTV:CAC ratio.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate LTV for SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "SaaS customer lifetime value = (average revenue per account times gross margin) divided by churn rate. Average revenue per account times gross margin gives the monthly gross profit per customer; dividing by the monthly churn rate extends it across the average customer lifespan, which is 1 divided by the churn rate. For example, $500 ARPA at 80% gross margin and 3% monthly churn gives an LTV of about $13,333." } },
+    { "@type": "Question", "name": "What is a good LTV:CAC ratio for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "A ratio of about 3 to 1 is the widely-cited healthy benchmark: each customer is worth roughly three times what it costs to acquire them. Below 1:1 you are losing money on every customer; around 5:1 or higher can mean you are underinvesting in growth and leaving pipeline on the table." } },
+    { "@type": "Question", "name": "What is the difference between LTV and CLV?", "acceptedAnswer": { "@type": "Answer", "text": "They are the same metric. LTV (lifetime value) and CLV (customer lifetime value) both describe the total gross profit you expect from a customer over the entire relationship. Different tools use different labels, but the calculation is identical." } },
+    { "@type": "Question", "name": "How can I increase customer lifetime value?", "acceptedAnswer": { "@type": "Answer", "text": "Three levers move LTV most: lower churn (a small reduction in churn dramatically lengthens lifespan, since lifespan is 1 divided by churn), increase ARPA through expansion revenue and pricing, and improve gross margin. Retention is usually the highest-leverage lever because it compounds." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">LTV Calculator for B2B SaaS</h1>
+          <p class="pr-calc__sub">Work out your customer lifetime value from ARPA, gross margin and churn, plus average customer lifespan and your LTV:CAC ratio. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">ARPA <em>avg revenue / account / mo</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="arpa" value="500" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Gross margin <em>typical 75–85%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="gm" value="80" min="0" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Monthly churn rate <em>typical 2–5%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="churn" value="3" min="0.1" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">CAC <em>optional, for LTV:CAC</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="cac" value="0" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your customer lifetime value</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rLtv">—</div><div class="pr-calc__l">Customer LTV</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rLife">—</div><div class="pr-calc__l">Avg lifespan (months)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rAnnual">—</div><div class="pr-calc__l">Annual value / customer</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRatio">—</div><div class="pr-calc__l">LTV:CAC ratio</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter ARPA, gross margin and churn to see your customer lifetime value.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-ltv-mid">Grow the pipeline behind these numbers →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Higher LTV starts with better retention and pipeline.</strong>
+          <p>PipeRocket builds the organic engine that brings in customers who stay.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-ltv-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cac-calculator/">CAC Calculator</a>
+            <a href="/tools/churn-rate-calculator/">Churn Rate Calculator</a>
+            <a href="/tools/mrr-arr-calculator/">MRR / ARR Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is customer lifetime value (LTV)?</h2>
+          <blockquote>Customer lifetime value is the total gross profit you expect from a customer over the entire relationship. For B2B SaaS it is driven by three inputs: how much each account pays (ARPA), your gross margin, and how long customers stay (the inverse of churn). LTV is the number that tells you how much you can afford to spend acquiring a customer, which is why it is always read alongside CAC.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <p>One formula, no black box:</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Avg lifespan (months) = 1 ÷ monthly churn rate
+Monthly gross profit   = ARPA × gross margin
+Customer LTV           = Monthly gross profit ÷ monthly churn rate
+LTV:CAC ratio          = LTV ÷ CAC</pre>
+          <p>Because lifespan is 1 divided by churn, a small drop in churn produces a large jump in LTV. Cutting monthly churn from 4% to 2% doubles the average customer lifespan and doubles LTV, with no change to pricing.</p>
+
+          <h2>What is a good LTV:CAC ratio?</h2>
+          <table>
+            <thead><tr><th>LTV:CAC</th><th>Read</th><th>What it means</th></tr></thead>
+            <tbody>
+              <tr><td>Below 1:1</td><td>Losing money</td><td>You spend more to acquire a customer than they are worth.</td></tr>
+              <tr><td>~3:1</td><td>Healthy</td><td>The widely-cited benchmark for efficient B2B SaaS growth.</td></tr>
+              <tr><td>5:1 or higher</td><td>Underinvesting</td><td>Efficient, but you may be leaving growth on the table.</td></tr>
+            </tbody>
+          </table>
+
+          <h2>How to increase LTV</h2>
+          <ul>
+            <li><strong>Lower churn.</strong> The highest-leverage lever, because lifespan is the inverse of churn. Retention compounds.</li>
+            <li><strong>Grow ARPA.</strong> Expansion revenue, upsells and pricing raise the value of every customer month.</li>
+            <li><strong>Improve gross margin.</strong> More of each dollar becomes lifetime value.</li>
+            <li><strong>Acquire better-fit customers.</strong> ICP-aligned customers from organic search tend to retain and expand more than paid or discount-driven signups.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate LTV for SaaS?</h3>
+          <p>LTV = (ARPA × gross margin) ÷ monthly churn rate. ARPA × gross margin is the monthly gross profit per customer; dividing by churn extends it across the average lifespan (1 ÷ churn). For example, $500 ARPA at 80% margin and 3% monthly churn gives about $13,333.</p>
+          <h3>What is a good LTV:CAC ratio for B2B SaaS?</h3>
+          <p>About 3:1 is the healthy benchmark. Below 1:1 you lose money on every customer; 5:1 or higher can mean you are underinvesting in growth.</p>
+          <h3>What is the difference between LTV and CLV?</h3>
+          <p>They are the same metric. LTV and CLV both describe the total gross profit expected from a customer over the relationship; the calculation is identical.</p>
+          <h3>How can I increase customer lifetime value?</h3>
+          <p>Lower churn (it lengthens lifespan fastest), increase ARPA through expansion and pricing, and improve gross margin. Retention is usually the highest-leverage lever because it compounds.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['arpa','gm','churn','cac'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+
+  function recalc(){
+    var arpa=num('arpa'), gm=num('gm')/100, churn=num('churn')/100, cac=num('cac');
+    var life = churn>0 ? 1/churn : 0;
+    var monthlyGP = arpa*gm;
+    var ltv = churn>0 ? monthlyGP/churn : 0;
+    var annual = arpa*12;
+    var ratio = cac>0 ? ltv/cac : 0;
+    $('rLtv').textContent = money(ltv);
+    $('rLife').textContent = life ? life.toFixed(1) : '—';
+    $('rAnnual').textContent = money(annual);
+    $('rRatio').textContent = cac>0 ? ratio.toFixed(1)+':1' : '—';
+    var verdict = cac>0 ? (ratio>=5?'efficient (maybe underinvesting)':ratio>=3?'healthy':ratio>=1?'thin':'losing money') : '';
+    $('rec').innerHTML = 'At <strong>'+money(arpa)+' ARPA</strong>, <strong>'+num('gm')+'% margin</strong> and <strong>'+num('churn')+'% monthly churn</strong>, your average customer stays about <strong>'+(life?life.toFixed(1):'—')+' months</strong> and is worth <strong>'+money(ltv)+'</strong> in lifetime value'+(cac>0?', a <strong>'+ratio.toFixed(1)+':1 '+verdict+'</strong> LTV:CAC ratio':'')+'.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

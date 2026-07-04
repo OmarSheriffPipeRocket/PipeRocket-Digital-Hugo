@@ -1,0 +1,187 @@
+{{/* CAC Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "CAC Calculator for B2B SaaS", "description": "Free customer acquisition cost calculator for B2B SaaS. Enter sales and marketing spend and new customers to get CAC, CAC payback and gross profit per customer.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate CAC for SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "Customer acquisition cost = total sales and marketing spend in a period divided by the number of new customers acquired in that period. Include ad spend, salaries, tools and agency fees for a fully-loaded CAC. For example, $40,000 of sales and marketing spend that produces 20 new customers gives a CAC of $2,000." } },
+    { "@type": "Question", "name": "What is CAC payback period?", "acceptedAnswer": { "@type": "Answer", "text": "CAC payback period is how many months of gross profit it takes to recover the cost of acquiring a customer. It equals CAC divided by the monthly gross profit per customer (ARPA times gross margin). Under 12 months is considered good for B2B SaaS; under 6 months is excellent." } },
+    { "@type": "Question", "name": "What is a good CAC for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "There is no universal number because CAC scales with deal size. The better test is the ratio to lifetime value: an LTV:CAC of about 3 to 1 is healthy, and a CAC payback period under 12 months keeps growth capital-efficient. A $10,000 CAC can be excellent at high ACV and terrible at low ACV." } },
+    { "@type": "Question", "name": "How can I reduce CAC?", "acceptedAnswer": { "@type": "Answer", "text": "Shift spend toward compounding channels like SEO and content that lower blended CAC over time, improve landing-page and funnel conversion so the same spend closes more customers, tighten targeting to your ICP, and raise close rates through better qualification. Organic search usually has the lowest long-run CAC because content keeps converting after it is published." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">CAC Calculator for B2B SaaS</h1>
+          <p class="pr-calc__sub">Work out your customer acquisition cost, CAC payback period and gross profit per customer from your sales and marketing spend. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Sales &amp; marketing spend <em>the period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="spend" value="40000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">New customers <em>same period</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="customers" value="20" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">new</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">ARPA <em>avg revenue / account / mo</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="arpa" value="500" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Gross margin <em>typical 75–85%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="gm" value="80" min="0" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your acquisition economics</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rCac">—</div><div class="pr-calc__l">CAC</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rPayback">—</div><div class="pr-calc__l">CAC payback (months)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rGp">—</div><div class="pr-calc__l">Monthly GP / customer</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rAnnual">—</div><div class="pr-calc__l">Annual value / customer</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your spend and new customers to see your CAC and payback period.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cac-mid">Lower your blended CAC with SEO →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>The lowest long-run CAC is organic.</strong>
+          <p>PipeRocket builds SEO systems that keep converting after you stop paying per click.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cac-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/ltv-calculator/">LTV Calculator</a>
+            <a href="/tools/free-seo-roi-calculator/">SEO ROI Calculator</a>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is customer acquisition cost (CAC)?</h2>
+          <blockquote>Customer acquisition cost is the total amount you spend on sales and marketing to win one new customer. It is the denominator in every efficiency metric that matters for B2B SaaS: LTV:CAC and CAC payback both start here. A fully-loaded CAC includes ad spend, salaries, tools and agency fees, not just media cost.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+CAC                 = Sales &amp; marketing spend ÷ new customers
+Monthly gross profit = ARPA × gross margin
+CAC payback (months) = CAC ÷ monthly gross profit</pre>
+          <p>CAC on its own does not tell you if you are efficient. A $5,000 CAC is excellent at a $50K ACV and dangerous at a $3K ACV. Always read it against payback period and LTV.</p>
+
+          <h2>What is a good CAC payback period?</h2>
+          <table>
+            <thead><tr><th>Payback</th><th>Read</th><th>What it means</th></tr></thead>
+            <tbody>
+              <tr><td>Under 6 months</td><td>Excellent</td><td>Highly capital-efficient; you can reinvest fast.</td></tr>
+              <tr><td>6 to 12 months</td><td>Good</td><td>Healthy for most B2B SaaS.</td></tr>
+              <tr><td>12 to 18 months</td><td>Watch</td><td>Workable with strong retention, risky without.</td></tr>
+              <tr><td>Over 18 months</td><td>Too slow</td><td>Growth is burning cash faster than it returns.</td></tr>
+            </tbody>
+          </table>
+
+          <h2>How to reduce CAC</h2>
+          <ul>
+            <li><strong>Shift toward compounding channels.</strong> SEO and content lower blended CAC over time because they keep converting after publication.</li>
+            <li><strong>Improve funnel conversion.</strong> Better landing pages and qualification close more customers from the same spend.</li>
+            <li><strong>Tighten ICP targeting.</strong> Fewer wasted clicks and demos on poor-fit accounts.</li>
+            <li><strong>Raise close rates.</strong> Sales enablement and faster follow-up lift the customer count in the denominator.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate CAC for SaaS?</h3>
+          <p>CAC = total sales and marketing spend in a period ÷ new customers acquired in that period. Include ad spend, salaries, tools and agency fees for a fully-loaded figure. $40,000 of spend producing 20 customers gives a $2,000 CAC.</p>
+          <h3>What is CAC payback period?</h3>
+          <p>How many months of gross profit it takes to recover a customer's acquisition cost: CAC ÷ (ARPA × gross margin). Under 12 months is good for B2B SaaS; under 6 is excellent.</p>
+          <h3>What is a good CAC for B2B SaaS?</h3>
+          <p>There is no universal number because CAC scales with deal size. Judge it by LTV:CAC (about 3:1 healthy) and payback period (under 12 months). A $10,000 CAC can be excellent at high ACV and terrible at low ACV.</p>
+          <h3>How can I reduce CAC?</h3>
+          <p>Shift spend toward compounding channels like SEO, improve funnel conversion, tighten ICP targeting, and raise close rates. Organic search usually has the lowest long-run CAC because content keeps converting after it is published.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['spend','customers','arpa','gm'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+
+  function recalc(){
+    var spend=num('spend'), customers=Math.max(num('customers'),1), arpa=num('arpa'), gm=num('gm')/100;
+    var cac = spend/customers;
+    var monthlyGP = arpa*gm;
+    var payback = monthlyGP>0 ? cac/monthlyGP : 0;
+    var annual = arpa*12;
+    $('rCac').textContent = money(cac);
+    $('rPayback').textContent = payback ? payback.toFixed(1) : '—';
+    $('rGp').textContent = money(monthlyGP);
+    $('rAnnual').textContent = money(annual);
+    var verdict = payback>0 ? (payback<6?'excellent':payback<12?'good':payback<18?'watch':'too slow') : '';
+    $('rec').innerHTML = 'Spending <strong>'+money(spend)+'</strong> to win <strong>'+num('customers')+' customers</strong> puts your CAC at <strong>'+money(cac)+'</strong>. At '+money(arpa)+' ARPA and '+num('gm')+'% margin, you recover it in about <strong>'+(payback?payback.toFixed(1):'—')+' months</strong>'+(verdict?' (<strong>'+verdict+'</strong>)':'')+'.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

@@ -1,0 +1,179 @@
+{{/* Lead Value Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Lead Value Calculator for B2B SaaS", "description": "Free lead value calculator. Get value per lead, gross profit per lead, break-even cost per lead and monthly lead value from close rate and deal value.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate the value of a lead?", "acceptedAnswer": { "@type": "Answer", "text": "Value per lead = lead-to-customer close rate times average deal value. If 10% of leads close at $8,000, each lead is worth $800 on average. Multiply by gross margin to get the gross profit value of a lead, which is what you can actually afford to spend acquiring it." } },
+    { "@type": "Question", "name": "Why does lead value matter?", "acceptedAnswer": { "@type": "Answer", "text": "Lead value sets your ceiling for cost per lead. If a lead is worth $800, a $150 cost per lead is highly profitable and a $900 cost per lead loses money. Knowing lead value lets you set channel budgets, bid caps and CPL targets with confidence instead of guessing." } },
+    { "@type": "Question", "name": "What is break-even cost per lead?", "acceptedAnswer": { "@type": "Answer", "text": "Break-even cost per lead equals the value of a lead: the point where acquisition cost exactly matches the revenue a lead produces. Spending below it is profitable; above it loses money. Most teams target a cost per lead well under break-even to leave margin for delivery and overhead." } },
+    { "@type": "Question", "name": "How can I increase lead value?", "acceptedAnswer": { "@type": "Answer", "text": "Raise your close rate through better qualification and sales enablement, move upmarket to higher deal values, and improve lead quality at the source. Higher-intent leads from organic search typically close at higher rates than broad paid traffic, which raises average lead value." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">Lead Value Calculator</h1>
+          <p class="pr-calc__sub">Work out what a lead is actually worth: value per lead, gross profit per lead, your break-even cost per lead and total monthly lead value. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Lead → customer rate <em>close rate</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="close" value="10" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Average deal value (ACV) <em>USD</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="acv" value="8000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Gross margin <em>typical 75–85%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="gm" value="80" min="0" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Leads per month <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="leads" value="200" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">/mo</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>What a lead is worth</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rValue">—</div><div class="pr-calc__l">Value per lead</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rProfit">—</div><div class="pr-calc__l">Gross profit / lead</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rBe">—</div><div class="pr-calc__l">Break-even CPL</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rMonthly">—</div><div class="pr-calc__l">Monthly lead value</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your close rate and deal value to see what a lead is worth.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-leadval-mid">Bring in higher-value leads with SEO →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Higher-intent leads are worth more.</strong>
+          <p>PipeRocket's organic engine brings in leads that close at higher rates.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-leadval-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cost-per-lead-calculator/">Cost Per Lead Calculator</a>
+            <a href="/tools/marketing-roi-calculator/">Marketing ROI Calculator</a>
+            <a href="/tools/cac-calculator/">CAC Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is lead value?</h2>
+          <blockquote>Lead value is how much an average lead is worth to your business: your close rate times your deal value. It is the number that sets the ceiling for what you can afford to pay per lead. Without it, cost per lead and campaign budgets are guesswork; with it, every CPL target and bid cap becomes a simple profitability decision.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Value per lead     = close rate × average deal value
+Gross profit / lead = value per lead × gross margin
+Break-even CPL      = value per lead
+Monthly lead value  = value per lead × leads per month</pre>
+          <p>Break-even CPL is the line you must stay under to make money on a channel. Most teams target a cost per lead well below it to leave room for delivery and overhead.</p>
+
+          <h2>Why lead value matters</h2>
+          <ul>
+            <li><strong>It sets your CPL ceiling.</strong> A $150 cost per lead is great when a lead is worth $800 and terrible when it is worth $120.</li>
+            <li><strong>It sizes channel budgets.</strong> Multiply value per lead by expected volume to justify spend.</li>
+            <li><strong>It reframes lead quality.</strong> A higher close rate raises the value of every lead, so quality beats raw volume.</li>
+          </ul>
+
+          <h2>How to increase lead value</h2>
+          <ul>
+            <li><strong>Raise close rate.</strong> Better qualification and sales enablement lift the value of every lead.</li>
+            <li><strong>Move upmarket.</strong> Higher deal values multiply lead value directly.</li>
+            <li><strong>Improve lead quality at the source.</strong> High-intent organic leads close at higher rates than broad paid traffic.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate the value of a lead?</h3>
+          <p>Value per lead = close rate × average deal value. If 10% of leads close at $8,000, each lead is worth $800. Multiply by gross margin for the profit value you can afford to spend acquiring it.</p>
+          <h3>Why does lead value matter?</h3>
+          <p>It sets your ceiling for cost per lead. At $800 value, a $150 CPL is highly profitable and a $900 CPL loses money. It lets you set budgets and CPL targets with confidence.</p>
+          <h3>What is break-even cost per lead?</h3>
+          <p>The point where cost per lead equals the value of a lead. Spend below it to profit; above it loses money. Most teams target well under break-even to leave margin.</p>
+          <h3>How can I increase lead value?</h3>
+          <p>Raise close rate, move upmarket to higher deal values, and improve lead quality. Higher-intent organic leads typically close at higher rates, raising average lead value.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['close','acv','gm','leads'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+
+  function recalc(){
+    var close=num('close')/100, acv=num('acv'), gm=num('gm')/100, leads=num('leads');
+    var value=close*acv, profit=value*gm, be=value, monthly=value*leads;
+    $('rValue').textContent = money(value);
+    $('rProfit').textContent = money(profit);
+    $('rBe').textContent = money(be);
+    $('rMonthly').textContent = leads>0 ? money(monthly) : '—';
+    $('rec').innerHTML = 'At a <strong>'+num('close')+'% close rate</strong> and <strong>'+money(acv)+' deal value</strong>, each lead is worth about <strong>'+money(value)+'</strong> ('+money(profit)+' gross profit). Keep your cost per lead under <strong>'+money(be)+'</strong> to stay profitable'+(leads>0?', for about <strong>'+money(monthly)+'</strong> of lead value a month':'')+'.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

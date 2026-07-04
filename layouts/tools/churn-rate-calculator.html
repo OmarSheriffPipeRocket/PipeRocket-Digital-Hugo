@@ -1,0 +1,188 @@
+{{/* Churn Rate Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-calc__v.calc-loss { color: var(--pr-red); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Churn Rate Calculator for B2B SaaS", "description": "Free SaaS churn rate calculator. Get customer churn rate, retention rate, average lifespan and revenue churn from your numbers.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate churn rate?", "acceptedAnswer": { "@type": "Answer", "text": "Customer churn rate = customers lost during a period divided by customers at the start of that period, times 100. For example, losing 15 of 500 customers in a month is a 3% monthly churn rate. Revenue churn uses the same formula on MRR: MRR lost divided by MRR at the start." } },
+    { "@type": "Question", "name": "What is a good churn rate for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "For B2B SaaS, healthy monthly customer churn is roughly 1% or lower (about 5 to 7% annually). SMB-focused products run higher, often 3 to 5% monthly, while enterprise products should be well under 1% monthly. Revenue churn can even go negative when expansion from existing customers outweighs losses." } },
+    { "@type": "Question", "name": "What is the difference between customer churn and revenue churn?", "acceptedAnswer": { "@type": "Answer", "text": "Customer churn counts logos lost; revenue churn counts dollars lost. They differ when your churned customers are larger or smaller than average. Revenue churn is the more important number because losing a few large accounts can hurt more than losing many small ones. Net revenue retention accounts for expansion that offsets churn." } },
+    { "@type": "Question", "name": "How does churn affect customer lifetime value?", "acceptedAnswer": { "@type": "Answer", "text": "Average customer lifespan is 1 divided by the churn rate, so churn is the single biggest driver of lifetime value. Cutting monthly churn from 4% to 2% doubles the average lifespan from 25 to 50 months and doubles LTV, with no change to pricing. Retention is usually the highest-leverage growth lever." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">Churn Rate Calculator for B2B SaaS</h1>
+          <p class="pr-calc__sub">Get your customer churn rate, retention rate, average customer lifespan and revenue (MRR) churn from a few numbers. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Customers at start <em>of the period</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="start" value="500" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">cust</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Customers lost <em>same period</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="lost" value="15" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">lost</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">MRR at start <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="mrr" value="0" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">MRR churned <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="mrrLost" value="0" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your churn &amp; retention</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-loss" id="rChurn">—</div><div class="pr-calc__l">Customer churn rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRet">—</div><div class="pr-calc__l">Retention rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rLife">—</div><div class="pr-calc__l">Avg lifespan (periods)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-loss" id="rRev">—</div><div class="pr-calc__l">Revenue churn rate</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter customers at the start and customers lost to see your churn and retention.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-churn-mid">Attract customers who actually stay →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>The best retention starts with the right customers.</strong>
+          <p>PipeRocket's ICP-first organic engine brings in accounts that fit and stay.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-churn-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/ltv-calculator/">LTV Calculator</a>
+            <a href="/tools/nrr-calculator/">NRR Calculator</a>
+            <a href="/tools/mrr-arr-calculator/">MRR / ARR Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is churn rate?</h2>
+          <blockquote>Churn rate is the percentage of customers (or revenue) you lose over a period. It is the quiet killer of SaaS growth: every point of churn is a customer your acquisition engine has to replace before you grow at all. Because average customer lifespan is 1 divided by churn, small changes in churn have outsized effects on lifetime value.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Customer churn rate = customers lost ÷ customers at start
+Retention rate      = 1 − customer churn rate
+Avg lifespan        = 1 ÷ churn rate   (in the same period)
+Revenue churn rate  = MRR churned ÷ MRR at start</pre>
+          <p>Match the period to how you report: a 3% monthly churn is very different from 3% annual. Lifespan comes out in the same unit as your churn period.</p>
+
+          <h2>What is a good churn rate for B2B SaaS?</h2>
+          <table>
+            <thead><tr><th>Segment</th><th>Healthy monthly churn</th></tr></thead>
+            <tbody>
+              <tr><td>Enterprise</td><td>Under 1%</td></tr>
+              <tr><td>Mid-market</td><td>1 to 2%</td></tr>
+              <tr><td>SMB / self-serve</td><td>3 to 5%</td></tr>
+            </tbody>
+          </table>
+          <p>Revenue churn can go negative when expansion from existing customers outweighs losses, which is the hallmark of a great SaaS business.</p>
+
+          <h2>How to reduce churn</h2>
+          <ul>
+            <li><strong>Acquire better-fit customers.</strong> ICP-aligned accounts from organic search retain far better than discount-driven or poorly-targeted paid signups.</li>
+            <li><strong>Nail onboarding and time-to-value.</strong> Most churn is decided in the first 90 days.</li>
+            <li><strong>Drive product adoption.</strong> Usage of core features is the strongest retention predictor.</li>
+            <li><strong>Build expansion paths.</strong> Upsells and seat growth turn revenue churn negative.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate churn rate?</h3>
+          <p>Customer churn rate = customers lost during a period ÷ customers at the start, times 100. Losing 15 of 500 customers in a month is 3% monthly churn. Revenue churn applies the same formula to MRR.</p>
+          <h3>What is a good churn rate for B2B SaaS?</h3>
+          <p>Roughly 1% monthly or lower is healthy (about 5 to 7% annually). SMB products run higher (3 to 5% monthly); enterprise should be well under 1%. Revenue churn can go negative with strong expansion.</p>
+          <h3>What is the difference between customer churn and revenue churn?</h3>
+          <p>Customer churn counts logos lost; revenue churn counts dollars lost. Revenue churn matters more because losing a few large accounts can outweigh many small ones. Net revenue retention accounts for expansion that offsets churn.</p>
+          <h3>How does churn affect lifetime value?</h3>
+          <p>Average lifespan is 1 ÷ churn, so churn is the biggest driver of LTV. Cutting monthly churn from 4% to 2% doubles lifespan (25 to 50 months) and doubles LTV with no pricing change.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['start','lost','mrr','mrrLost'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function pct(x){ return (x*100).toFixed(1)+'%'; }
+
+  function recalc(){
+    var start=Math.max(num('start'),1), lost=num('lost'), mrr=num('mrr'), mrrLost=num('mrrLost');
+    var churn = lost/start;
+    var ret = 1-churn;
+    var life = churn>0 ? 1/churn : 0;
+    var revChurn = mrr>0 ? mrrLost/mrr : 0;
+    $('rChurn').textContent = pct(churn);
+    $('rRet').textContent = pct(ret);
+    $('rLife').textContent = life ? life.toFixed(1) : '—';
+    $('rRev').textContent = mrr>0 ? pct(revChurn) : '—';
+    $('rec').innerHTML = 'Losing <strong>'+num('lost')+' of '+num('start')+' customers</strong> is a <strong>'+pct(churn)+'</strong> churn rate, a <strong>'+pct(ret)+'</strong> retention rate and an average customer lifespan of about <strong>'+(life?life.toFixed(1):'—')+' periods</strong>'+(mrr>0?', with <strong>'+pct(revChurn)+'</strong> revenue churn':'')+'.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

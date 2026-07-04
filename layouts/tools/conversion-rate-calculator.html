@@ -1,0 +1,193 @@
+{{/* Conversion Rate Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Conversion Rate Calculator", "description": "Free conversion rate calculator. Get your conversion rate from visitors and conversions, plus the extra conversions and revenue from hitting a target rate.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate conversion rate?", "acceptedAnswer": { "@type": "Answer", "text": "Conversion rate = conversions divided by total visitors (or sessions), times 100. For example, 120 conversions from 6,000 visitors is a 2% conversion rate. Use the same denominator consistently, whether that is unique visitors, sessions, or leads entering a specific step." } },
+    { "@type": "Question", "name": "What is a good conversion rate for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "For B2B SaaS websites, a visitor-to-lead conversion rate of 2 to 5% is typical, with high-intent bottom-of-funnel pages converting higher and top-of-funnel blog traffic lower. Free-trial or demo-request pages often sit in the 1 to 3% range. Benchmarks vary widely by traffic source and page intent, so track your own trend rather than a universal number." } },
+    { "@type": "Question", "name": "Why does a small conversion rate lift matter so much?", "acceptedAnswer": { "@type": "Answer", "text": "Conversion rate is a multiplier on all of your traffic, so improving it compounds with every visit. Going from 2% to 3% is a 50% increase in conversions with no extra traffic spend, which lowers cost per lead and CAC proportionally. That is why conversion rate optimization is one of the highest-leverage growth levers." } },
+    { "@type": "Question", "name": "How can I improve my conversion rate?", "acceptedAnswer": { "@type": "Answer", "text": "Match the page to search intent, lead with a clear answer and value proposition, reduce form friction, add proof (reviews, logos, case studies), and A/B test headlines and calls to action. For SaaS, aligning content to bottom-of-funnel, high-intent queries usually lifts conversion faster than chasing more top-of-funnel traffic." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">Conversion Rate Calculator</h1>
+          <p class="pr-calc__sub">Get your conversion rate from visitors and conversions, then see the extra conversions and revenue you would gain by hitting a target rate. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Visitors <em>or sessions</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="visitors" value="6000" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">visits</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Conversions <em>leads, signups, sales</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="conv" value="120" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">conv</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Target conversion rate <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="target" value="3" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Value per conversion <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="value" value="0" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your conversion rate &amp; upside</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rCr">—</div><div class="pr-calc__l">Conversion rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rConv">—</div><div class="pr-calc__l">Conversions</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rExtra">—</div><div class="pr-calc__l">Extra conv. at target</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRev">—</div><div class="pr-calc__l">Extra revenue at target</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter visitors and conversions to see your conversion rate.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cvr-mid">Turn more of your traffic into pipeline →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>More traffic is only half the equation.</strong>
+          <p>PipeRocket pairs intent-matched SEO with conversion so more of your visitors become pipeline.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cvr-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/free-seo-roi-calculator/">SEO ROI Calculator</a>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+            <a href="/tools/cac-calculator/">CAC Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is conversion rate?</h2>
+          <blockquote>Conversion rate is the percentage of visitors who take the action you want, whether that is a signup, demo request, or purchase. It is a multiplier on all of your traffic, so a small lift compounds across every visit. That leverage is why conversion rate optimization often beats buying more traffic: it lowers your cost per lead and CAC at the same time.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Conversion rate      = conversions ÷ visitors
+Conversions at target = visitors × target rate
+Extra conversions     = conversions at target − current conversions
+Extra revenue         = extra conversions × value per conversion</pre>
+          <p>The target and value fields are optional. Add them to see exactly how many more conversions, and how much more revenue, a higher conversion rate would produce from the same traffic.</p>
+
+          <h2>What is a good conversion rate for B2B SaaS?</h2>
+          <table>
+            <thead><tr><th>Page type</th><th>Typical conversion rate</th></tr></thead>
+            <tbody>
+              <tr><td>Top-of-funnel blog</td><td>0.5 to 1.5%</td></tr>
+              <tr><td>Website visitor to lead</td><td>2 to 5%</td></tr>
+              <tr><td>Bottom-of-funnel / demo pages</td><td>3 to 10%+</td></tr>
+            </tbody>
+          </table>
+          <p>Benchmarks vary widely by traffic source and page intent, so track your own trend rather than chasing a universal number.</p>
+
+          <h2>How to improve conversion rate</h2>
+          <ul>
+            <li><strong>Match the page to intent.</strong> High-intent, bottom-of-funnel pages convert far higher than generic traffic.</li>
+            <li><strong>Lead with the answer.</strong> A clear value proposition above the fold beats a slow build.</li>
+            <li><strong>Reduce friction.</strong> Shorter forms and fewer steps lift completion.</li>
+            <li><strong>Add proof.</strong> Reviews, logos and case studies raise trust at the decision point.</li>
+            <li><strong>Test.</strong> A/B test headlines and calls to action; small wins compound.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate conversion rate?</h3>
+          <p>Conversion rate = conversions ÷ total visitors (or sessions), times 100. 120 conversions from 6,000 visitors is 2%. Keep the denominator consistent.</p>
+          <h3>What is a good conversion rate for B2B SaaS?</h3>
+          <p>Visitor-to-lead of 2 to 5% is typical; high-intent pages convert higher and top-of-funnel blog traffic lower. Track your own trend rather than a universal number.</p>
+          <h3>Why does a small conversion lift matter so much?</h3>
+          <p>Conversion rate multiplies all your traffic. Going from 2% to 3% is a 50% increase in conversions with no extra traffic spend, lowering cost per lead and CAC proportionally.</p>
+          <h3>How can I improve my conversion rate?</h3>
+          <p>Match the page to intent, lead with a clear value proposition, reduce form friction, add proof, and A/B test headlines and CTAs. Aligning to bottom-of-funnel intent usually lifts conversion faster than chasing more traffic.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['visitors','conv','target','value'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+  function cnt(n){ n=Math.round(n); return n.toLocaleString(); }
+
+  function recalc(){
+    var visitors=Math.max(num('visitors'),1), conv=num('conv'), target=num('target')/100, value=num('value');
+    var cr = conv/visitors;
+    var atTarget = visitors*target;
+    var extra = Math.max(0, atTarget-conv);
+    var extraRev = extra*value;
+    $('rCr').textContent = (cr*100).toFixed(2).replace(/\.?0+$/,'')+'%';
+    $('rConv').textContent = cnt(conv);
+    $('rExtra').textContent = target>0 ? '+'+cnt(extra) : '—';
+    $('rRev').textContent = (target>0 && value>0) ? '+'+money(extraRev) : '—';
+    var base = 'A conversion rate of <strong>'+(cr*100).toFixed(2).replace(/\.?0+$/,'')+'%</strong> from <strong>'+cnt(visitors)+' visitors</strong> and <strong>'+cnt(conv)+' conversions</strong>.';
+    if (target>0 && extra>0) {
+      base += ' Hitting a <strong>'+num('target')+'%</strong> rate would add about <strong>'+cnt(extra)+' more conversions</strong>'+(value>0?' worth <strong>'+money(extraRev)+'</strong>':'')+', from the same traffic.';
+    }
+    $('rec').innerHTML = base;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

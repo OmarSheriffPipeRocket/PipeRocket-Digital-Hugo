@@ -1,0 +1,183 @@
+{{/* Google Ads ROI Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Google Ads ROI Calculator for B2B SaaS", "description": "Free Google Ads ROI calculator. Get ROI, ROAS, revenue and cost per conversion from ad spend, conversions and revenue per conversion.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate Google Ads ROI?", "acceptedAnswer": { "@type": "Answer", "text": "Google Ads ROI = (revenue from ads minus ad spend) divided by ad spend, times 100. Revenue is conversions times revenue per conversion. For example, $8,000 of spend producing 40 conversions worth $600 each generates $24,000, a 200% ROI and a 3x ROAS." } },
+    { "@type": "Question", "name": "What is the difference between ROI and ROAS?", "acceptedAnswer": { "@type": "Answer", "text": "ROAS (return on ad spend) is revenue divided by ad spend, a simple ratio like 3x. ROI (return on investment) subtracts the spend first, so a 3x ROAS equals a 200% ROI. ROAS answers how much revenue each dollar returns; ROI answers how much profit over the spend, so ROI is always the ROAS multiple minus one, expressed as a percentage." } },
+    { "@type": "Question", "name": "What is a good ROAS for B2B SaaS Google Ads?", "acceptedAnswer": { "@type": "Answer", "text": "For B2B SaaS with high ACV, a 3 to 5x ROAS is solid and high-intent search campaigns can go well beyond that. Because SaaS deals are large and recurring, judge Google Ads by cost per acquisition against lifetime value, not just first-year ROAS: a campaign that looks break-even on year one can be highly profitable across the contract." } },
+    { "@type": "Question", "name": "How can I improve Google Ads ROI?", "acceptedAnswer": { "@type": "Answer", "text": "Focus budget on high-intent, bottom-of-funnel keywords, improve landing-page conversion, add negative keywords to cut waste, and bid to profit targets rather than volume. Pairing Google Ads with SEO on the same terms lowers blended cost per click and lifts overall ROI, because organic captures clicks you would otherwise pay for." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · Paid Ads</span>
+          <h1 class="pr-calc__title">Google Ads ROI Calculator</h1>
+          <p class="pr-calc__sub">See the return on your Google Ads spend: enter spend, conversions and revenue per conversion to get ROI, ROAS, total revenue and cost per conversion. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Ad spend <em>the period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="spend" value="8000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Conversions <em>leads or customers</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="conv" value="40" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">conv</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Revenue per conversion <em>value of one</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="rev" value="600" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your Google Ads return</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRoi">—</div><div class="pr-calc__l">Google Ads ROI</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRoas">—</div><div class="pr-calc__l">ROAS</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rRev">—</div><div class="pr-calc__l">Revenue generated</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCpa">—</div><div class="pr-calc__l">Cost per conversion</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your spend, conversions and revenue per conversion to see your ROI.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-gads-mid">Lift blended ROI by pairing ads with SEO →</a>
+          <small>No commitment · 30-min paid + organic strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Ads capture demand; SEO compounds it.</strong>
+          <p>PipeRocket pairs paid with organic so your blended ROI keeps climbing.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-gads-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+            <a href="/tools/cpc-calculator/">CPC Calculator</a>
+            <a href="/tools/cpa-calculator/">CPA Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is Google Ads ROI?</h2>
+          <blockquote>Google Ads ROI is the profit your paid search generates for every dollar spent, expressed as a percentage. It builds on ROAS but subtracts the spend, so it answers the sharper question a CFO asks: not just how much revenue came back, but how much more than you put in. For B2B SaaS, the honest version reads ROI against lifetime value, because a single closed deal can dwarf the click cost that started it.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Revenue           = conversions × revenue per conversion
+Google Ads ROI    = (revenue − ad spend) ÷ ad spend × 100
+ROAS              = revenue ÷ ad spend
+Cost per conversion = ad spend ÷ conversions</pre>
+          <p>A 3x ROAS is the same as a 200% ROI: ROI is always the ROAS multiple minus one, shown as a percentage.</p>
+
+          <h2>What is a good Google Ads ROI?</h2>
+          <table>
+            <thead><tr><th>ROAS</th><th>ROI</th><th>Read</th></tr></thead>
+            <tbody>
+              <tr><td>Under 2x</td><td>Under 100%</td><td>Thin; often break-even after delivery costs</td></tr>
+              <tr><td>3 to 5x</td><td>200 to 400%</td><td>Solid for B2B SaaS search</td></tr>
+              <tr><td>Above 5x</td><td>Above 400%</td><td>Strong; typical for high-intent, high-ACV terms</td></tr>
+            </tbody>
+          </table>
+
+          <h2>How to improve Google Ads ROI</h2>
+          <ul>
+            <li><strong>Bid to profit, not volume.</strong> Target ROI or CPA goals rather than clicks.</li>
+            <li><strong>Prioritize high intent.</strong> Bottom-of-funnel keywords convert far better.</li>
+            <li><strong>Cut waste.</strong> Negative keywords and tight match types stop paying for irrelevant clicks.</li>
+            <li><strong>Pair with SEO.</strong> Ranking organically for the same terms captures clicks you would otherwise buy, lowering blended cost and lifting ROI.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate Google Ads ROI?</h3>
+          <p>Google Ads ROI = (revenue − ad spend) ÷ ad spend × 100, where revenue = conversions × revenue per conversion. $8,000 producing 40 conversions worth $600 each is $24,000, a 200% ROI and 3x ROAS.</p>
+          <h3>What is the difference between ROI and ROAS?</h3>
+          <p>ROAS is revenue ÷ spend (a ratio like 3x); ROI subtracts spend first, so 3x ROAS = 200% ROI. ROI is the ROAS multiple minus one, as a percentage.</p>
+          <h3>What is a good ROAS for B2B SaaS Google Ads?</h3>
+          <p>3 to 5x is solid, and high-intent search can go beyond. Judge by cost per acquisition against lifetime value, since SaaS deals are large and recurring.</p>
+          <h3>How can I improve Google Ads ROI?</h3>
+          <p>Focus on high-intent keywords, improve landing-page conversion, add negatives to cut waste, bid to profit targets, and pair ads with SEO to lower blended cost per click.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['spend','conv','rev'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+(n>=100?Math.round(n).toLocaleString():n.toFixed(2)); }
+
+  function recalc(){
+    var spend=num('spend'), conv=num('conv'), rev=num('rev');
+    var revenue=conv*rev;
+    var roiPct = spend>0 ? Math.round((revenue-spend)/spend*100) : 0;
+    var roas = spend>0 ? revenue/spend : 0;
+    var cpa = conv>0 ? spend/conv : 0;
+    $('rRoi').textContent = (roiPct>=0?'+':'')+roiPct.toLocaleString()+'%';
+    $('rRoas').textContent = roas.toFixed(1)+'x';
+    $('rRev').textContent = money(revenue);
+    $('rCpa').textContent = conv>0 ? money(cpa) : '—';
+    var verdict = roas>=5?'strong':roas>=3?'solid':roas>=2?'workable':'thin';
+    $('rec').innerHTML = '<strong>'+money(spend)+'</strong> producing <strong>'+num('conv')+' conversions</strong> at '+money(rev)+' each generates <strong>'+money(revenue)+'</strong>, a <strong>'+(roiPct>=0?'+':'')+roiPct.toLocaleString()+'% ROI</strong> and <strong>'+roas.toFixed(1)+'x ('+verdict+') ROAS</strong>, at '+money(cpa)+' per conversion.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

@@ -1,0 +1,181 @@
+{{/* CPC Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "CPC Calculator (Cost Per Click)", "description": "Free cost per click calculator. Get CPC from ad spend and clicks, plus CTR, cost per conversion and conversion rate.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate cost per click (CPC)?", "acceptedAnswer": { "@type": "Answer", "text": "Cost per click = total ad spend divided by the number of clicks. For example, $5,000 of spend producing 400 clicks is a $12.50 CPC. If you also enter impressions you get click-through rate, and adding conversions gives you cost per conversion and conversion rate." } },
+    { "@type": "Question", "name": "What is a good CPC for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "B2B SaaS CPCs vary hugely by channel and keyword intent. Google Search for high-intent SaaS terms often runs $5 to $50+ per click, while LinkedIn clicks are frequently higher. The raw CPC matters less than what a click is worth: judge it by cost per conversion and whether that is below your value per lead." } },
+    { "@type": "Question", "name": "What is the difference between CPC and CPM?", "acceptedAnswer": { "@type": "Answer", "text": "CPC is cost per click; you pay for each click. CPM is cost per thousand impressions; you pay for reach regardless of clicks. CPC is better aligned with performance and lead generation, while CPM suits awareness campaigns. You can convert between them: effective CPC equals CPM divided by (1000 times click-through rate)." } },
+    { "@type": "Question", "name": "How can I lower CPC?", "acceptedAnswer": { "@type": "Answer", "text": "Improve ad relevance and quality score, tighten targeting and negative keywords, test better ad creative to raise click-through rate, and focus budget on your highest-intent terms. Longer term, building organic rankings for the same keywords reduces reliance on paid clicks and lowers blended cost per click." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · Paid Ads</span>
+          <h1 class="pr-calc__title">CPC Calculator</h1>
+          <p class="pr-calc__sub">Get your cost per click from ad spend and clicks. Add impressions and conversions to also see click-through rate, cost per conversion and conversion rate. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Ad spend <em>the period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="spend" value="5000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Clicks <em>from the campaign</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="clicks" value="400" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">clicks</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Impressions <em>optional, for CTR</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="impr" value="0" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">impr</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Conversions <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="conv" value="0" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">conv</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your click economics</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rCpc">—</div><div class="pr-calc__l">Cost per click</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCtr">—</div><div class="pr-calc__l">Click-through rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCpa">—</div><div class="pr-calc__l">Cost per conversion</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCvr">—</div><div class="pr-calc__l">Conversion rate</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your ad spend and clicks to see your CPC.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cpc-mid">Cut reliance on paid clicks with SEO →</a>
+          <small>No commitment · 30-min paid + organic strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Every organic ranking is a click you don't pay for.</strong>
+          <p>PipeRocket builds SEO that lowers your blended cost per click over time.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cpc-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpa-calculator/">CPA Calculator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is cost per click (CPC)?</h2>
+          <blockquote>Cost per click is the average price you pay for each click on a paid ad. It is the base unit of paid-search economics, but on its own it says nothing about whether a campaign is profitable. A high CPC is fine if those clicks convert into valuable customers, and a low CPC is worthless if they never convert. Read CPC alongside cost per conversion and lead value.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Cost per click       = ad spend ÷ clicks
+Click-through rate    = clicks ÷ impressions
+Cost per conversion   = ad spend ÷ conversions
+Conversion rate       = conversions ÷ clicks</pre>
+          <p>Impressions and conversions are optional. Add them to turn a simple CPC into a fuller picture of campaign efficiency.</p>
+
+          <h2>What is a good CPC for B2B SaaS?</h2>
+          <p>CPCs vary widely: high-intent Google Search terms for SaaS often run $5 to $50+ per click, and LinkedIn is frequently higher. The raw number matters less than the outcome, so judge CPC by cost per conversion and whether that stays below your value per lead.</p>
+
+          <h2>How to lower CPC</h2>
+          <ul>
+            <li><strong>Raise ad relevance and quality score.</strong> More relevant ads pay less per click.</li>
+            <li><strong>Tighten targeting and negatives.</strong> Stop paying for clicks that never convert.</li>
+            <li><strong>Improve click-through rate.</strong> Better creative earns cheaper clicks.</li>
+            <li><strong>Build organic rankings.</strong> Owning the same keywords organically lowers your blended cost per click.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate cost per click?</h3>
+          <p>CPC = ad spend ÷ clicks. $5,000 producing 400 clicks is $12.50 CPC. Add impressions for CTR and conversions for cost per conversion and conversion rate.</p>
+          <h3>What is a good CPC for B2B SaaS?</h3>
+          <p>It varies by channel and intent: $5 to $50+ on Google Search, often higher on LinkedIn. Judge it by cost per conversion versus your value per lead, not the raw number.</p>
+          <h3>What is the difference between CPC and CPM?</h3>
+          <p>CPC is cost per click; CPM is cost per thousand impressions. CPC aligns with performance; CPM suits awareness. Effective CPC = CPM ÷ (1000 × CTR).</p>
+          <h3>How can I lower CPC?</h3>
+          <p>Improve ad relevance and quality score, tighten targeting, lift click-through rate, and build organic rankings for the same terms to reduce paid reliance.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['spend','clicks','impr','conv'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+(n>=100?Math.round(n).toLocaleString():n.toFixed(2)); }
+
+  function recalc(){
+    var spend=num('spend'), clicks=Math.max(num('clicks'),1), impr=num('impr'), conv=num('conv');
+    var cpc=spend/clicks;
+    var ctr=impr>0?clicks/impr:0;
+    var cpa=conv>0?spend/conv:0;
+    var cvr=conv>0?conv/clicks:0;
+    $('rCpc').textContent = money(cpc);
+    $('rCtr').textContent = impr>0 ? (ctr*100).toFixed(2).replace(/\.?0+$/,'')+'%' : '—';
+    $('rCpa').textContent = conv>0 ? money(cpa) : '—';
+    $('rCvr').textContent = conv>0 ? (cvr*100).toFixed(1)+'%' : '—';
+    var base = 'Spending <strong>'+money(spend)+'</strong> for <strong>'+num('clicks')+' clicks</strong> is a <strong>'+money(cpc)+'</strong> cost per click.';
+    if (conv>0) base += ' Those clicks produced '+num('conv')+' conversions, a <strong>'+(cvr*100).toFixed(1)+'%</strong> conversion rate at <strong>'+money(cpa)+'</strong> per conversion.';
+    $('rec').innerHTML = base;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}
