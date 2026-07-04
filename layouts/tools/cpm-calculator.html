@@ -1,0 +1,182 @@
+{{/* CPM Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "CPM Calculator (Cost Per 1,000 Impressions)", "description": "Free CPM calculator. Get cost per thousand impressions from ad spend and impressions, plus CTR, effective CPC and cost per conversion.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate CPM?", "acceptedAnswer": { "@type": "Answer", "text": "CPM (cost per thousand impressions) = total ad spend divided by impressions, multiplied by 1,000. For example, $5,000 of spend across 500,000 impressions is a $10 CPM. The 1,000 multiplier is why it is called cost per mille, mille being Latin for thousand." } },
+    { "@type": "Question", "name": "What is a good CPM for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "It depends heavily on channel and targeting. Broad display and YouTube CPMs for SaaS often run $2 to $15, while tightly targeted LinkedIn CPMs aimed at senior decision-makers frequently run $30 to $100+. A higher CPM can be worth it if it puts you in front of the exact buying committee, so judge CPM against downstream cost per lead, not in isolation." } },
+    { "@type": "Question", "name": "What is the difference between CPM and CPC?", "acceptedAnswer": { "@type": "Answer", "text": "CPM is cost per thousand impressions; you pay for reach whether or not anyone clicks. CPC is cost per click; you pay only when someone clicks. CPM suits awareness and demand-generation campaigns, while CPC aligns with performance and lead capture. You can convert between them: effective CPC equals CPM divided by (1,000 times click-through rate)." } },
+    { "@type": "Question", "name": "How can I lower my CPM?", "acceptedAnswer": { "@type": "Answer", "text": "Broaden or refine your audience so you are not competing for a tiny, expensive segment, improve ad relevance and engagement so platforms reward you with cheaper inventory, rotate fresh creative to fight ad fatigue, and test additional placements. For B2B SaaS, remember a low CPM is only useful if it still reaches your ideal customer profile." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · Paid Ads</span>
+          <h1 class="pr-calc__title">CPM Calculator</h1>
+          <p class="pr-calc__sub">Get your cost per thousand impressions from ad spend and impressions. Add clicks and conversions to also see click-through rate, effective CPC and cost per conversion. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Ad spend <em>the period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="spend" value="5000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Impressions <em>from the campaign</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="impr" value="500000" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">impr</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Clicks <em>optional, for CTR &amp; eCPC</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="clicks" value="0" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">clicks</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Conversions <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="conv" value="0" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">conv</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your impression economics</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rCpm">—</div><div class="pr-calc__l">Cost per 1,000 impressions</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCtr">—</div><div class="pr-calc__l">Click-through rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rEcpc">—</div><div class="pr-calc__l">Effective cost per click</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCpa">—</div><div class="pr-calc__l">Cost per conversion</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your ad spend and impressions to see your CPM.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-ppc/" class="pr-btn" data-cta-source="tool-cpm-mid">Make every impression convert with SaaS-focused PPC →</a>
+          <small>No commitment · 30-min paid strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Cheap impressions mean nothing if they miss your ICP.</strong>
+          <p>PipeRocket builds paid programs that reach the buying committee and convert.</p>
+          <a href="/saas-ppc/" class="pr-btn" data-cta-source="tool-cpm-side">Get a paid audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpc-calculator/">CPC Calculator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is CPM (cost per thousand impressions)?</h2>
+          <blockquote>CPM is the price you pay for one thousand ad impressions. It is the base unit of awareness and demand-generation buying, but on its own it says nothing about whether a campaign is profitable. A low CPM is worthless if it reaches the wrong people, and a high CPM can be a bargain if it puts you in front of your exact buying committee. Read CPM alongside click-through rate, effective CPC and cost per conversion.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+CPM                  = (ad spend ÷ impressions) × 1,000
+Click-through rate   = clicks ÷ impressions
+Effective CPC        = ad spend ÷ clicks
+Cost per conversion  = ad spend ÷ conversions</pre>
+          <p>Clicks and conversions are optional. Add them to turn a simple CPM into a fuller picture of how efficiently your reach turns into pipeline.</p>
+
+          <h2>What is a good CPM for B2B SaaS?</h2>
+          <p>It varies widely by channel and targeting. Broad display and YouTube CPMs for SaaS often run $2 to $15, while tightly targeted LinkedIn CPMs aimed at senior decision-makers frequently run $30 to $100+. The raw number matters less than the outcome, so judge CPM by the cost per lead it ultimately produces, not by the impression price alone.</p>
+
+          <h2>How to lower CPM</h2>
+          <ul>
+            <li><strong>Right-size your audience.</strong> Segments that are too narrow get expensive fast; too broad and you waste reach.</li>
+            <li><strong>Raise ad relevance and engagement.</strong> Platforms reward engaging ads with cheaper inventory.</li>
+            <li><strong>Rotate creative.</strong> Fresh creative fights ad fatigue that quietly inflates CPM over time.</li>
+            <li><strong>Test placements.</strong> Different networks and formats price the same audience very differently.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate CPM?</h3>
+          <p>CPM = (ad spend ÷ impressions) × 1,000. $5,000 across 500,000 impressions is a $10 CPM. Add clicks for CTR and effective CPC, and conversions for cost per conversion.</p>
+          <h3>What is a good CPM for B2B SaaS?</h3>
+          <p>Roughly $2 to $15 on broad display and YouTube, and $30 to $100+ on tightly targeted LinkedIn. Judge it by downstream cost per lead, not the raw impression price.</p>
+          <h3>What is the difference between CPM and CPC?</h3>
+          <p>CPM is cost per thousand impressions; you pay for reach. CPC is cost per click; you pay for clicks. CPM suits awareness; CPC suits performance. Effective CPC = CPM ÷ (1,000 × CTR).</p>
+          <h3>How can I lower my CPM?</h3>
+          <p>Right-size the audience, improve ad relevance and engagement, rotate creative to beat fatigue, and test new placements, while keeping reach on your ideal customer profile.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['spend','impr','clicks','conv'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+(n>=100?Math.round(n).toLocaleString():n.toFixed(2)); }
+
+  function recalc(){
+    var spend=num('spend'), impr=Math.max(num('impr'),1), clicks=num('clicks'), conv=num('conv');
+    var cpm=spend/impr*1000;
+    var ctr=clicks>0?clicks/impr:0;
+    var ecpc=clicks>0?spend/clicks:0;
+    var cpa=conv>0?spend/conv:0;
+    $('rCpm').textContent = num('impr')>0 ? money(cpm) : '—';
+    $('rCtr').textContent = clicks>0 ? (ctr*100).toFixed(2).replace(/\.?0+$/,'')+'%' : '—';
+    $('rEcpc').textContent = clicks>0 ? money(ecpc) : '—';
+    $('rCpa').textContent = conv>0 ? money(cpa) : '—';
+    var base = 'Spending <strong>'+money(spend)+'</strong> across <strong>'+num('impr').toLocaleString()+' impressions</strong> is a <strong>'+money(cpm)+'</strong> CPM.';
+    if (clicks>0) base += ' Those impressions drove '+num('clicks').toLocaleString()+' clicks, a <strong>'+(ctr*100).toFixed(2).replace(/\.?0+$/,'')+'%</strong> CTR at an effective <strong>'+money(ecpc)+'</strong> per click.';
+    if (conv>0) base += ' You got '+num('conv').toLocaleString()+' conversions at <strong>'+money(cpa)+'</strong> each.';
+    $('rec').innerHTML = base;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}
