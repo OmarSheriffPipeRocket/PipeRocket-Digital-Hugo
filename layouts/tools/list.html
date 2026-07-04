@@ -10,8 +10,10 @@
   "placeholder" "Search tools…"
 ) }}
 
+{{/* Sort newest first by last-modified (matches /blogs/); tools have no
+     explicit date, so lastmod (git/file) is the recency signal. */}}
 {{ partial "directory-grid.html" (dict
-  "pages" .Pages.ByTitle
+  "pages" (.Pages.ByLastmod.Reverse)
   "noImage" true
 ) }}
 {{ end }}
