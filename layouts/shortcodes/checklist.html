@@ -1,0 +1,58 @@
+{{/* checklist.html — interactive, tickable checklist with progress + saved
+     state (localStorage) and a Download-as-PDF CTA. Content lives in
+     data/checklists/<id>.yml so the same widget powers multiple posts.
+
+     Usage:  {{< checklist id="saas-seo" >}}  */}}
+{{ $id := .Get "id" }}
+{{ $data := index site.Data.checklists $id }}
+{{ if not $data }}
+  {{ errorf "checklist shortcode: no data file found at data/checklists/%s.yml (called in %s)" $id .Page.File.Path }}
+{{ else }}
+{{ $total := 0 }}
+{{ range $data.groups }}{{ $total = add $total (len .items) }}{{ end }}
+<section class="pr-checklist" data-pr-checklist data-checklist-id="{{ $id }}" data-total="{{ $total }}" aria-label="{{ $data.title }}">
+
+  <div class="pr-checklist__brandbar" aria-hidden="true">PipeRocket Digital &middot; piperocket.digital</div>
+
+  <header class="pr-checklist__head">
+    <h2 class="pr-checklist__title">{{ $data.title }}</h2>
+    {{ with $data.subtitle }}<p class="pr-checklist__sub">{{ . }}</p>{{ end }}
+
+    <div class="pr-checklist__meter" data-checklist-meter>
+      <div class="pr-checklist__meter-track"><span class="pr-checklist__meter-fill" data-checklist-fill style="width:0%"></span></div>
+      <p class="pr-checklist__meter-label"><span data-checklist-count>0</span> of {{ $total }} complete</p>
+    </div>
+
+    <div class="pr-checklist__actions">
+      <button type="button" class="pr-checklist__btn pr-checklist__btn--primary" data-checklist-download>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download as PDF
+      </button>
+      <button type="button" class="pr-checklist__btn pr-checklist__btn--ghost" data-checklist-reset>Reset</button>
+    </div>
+  </header>
+
+  <div class="pr-checklist__groups">
+    {{ range $gi, $g := $data.groups }}
+    <div class="pr-checklist__group">
+      <h3 class="pr-checklist__group-title">{{ $g.title }}</h3>
+      <ul class="pr-checklist__list">
+        {{ range $ii, $item := $g.items }}
+        {{ $key := printf "%s-%d-%d" $id $gi $ii }}
+        <li class="pr-checklist__item">
+          <input type="checkbox" class="pr-checklist__box" id="chk-{{ $key }}" data-checklist-item>
+          <label for="chk-{{ $key }}">{{ $item }}</label>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+
+  <aside class="pr-checklist__cta">
+    <p class="pr-checklist__cta-text"><strong>Want this run for you?</strong> PipeRocket Digital turns SaaS search traffic into pipeline. Book a call and we'll audit your setup against this exact checklist.</p>
+    <a class="pr-checklist__cta-link" href="/contact-us/">Talk to PipeRocket &rarr;</a>
+  </aside>
+
+</section>
+{{ end }}

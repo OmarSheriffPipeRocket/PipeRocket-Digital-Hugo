@@ -1,0 +1,25 @@
+title: "The International SEO Checklist for 2026"
+subtitle: "Everything to rank across countries and languages without confusing search engines: structure, hreflang, localisation and targeting. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Strategy & structure"
+    items:
+      - "Decide your target markets and languages based on real demand"
+      - "Choose a URL structure: ccTLD, subdirectory, or subdomain (subdirectories are usually easiest)"
+      - "Map which content is translated vs localised vs market-specific"
+  - title: "2. Hreflang"
+    items:
+      - "Add hreflang tags for every language/region version, including a self-reference"
+      - "Include an x-default for users outside your targeted markets"
+      - "Keep hreflang and canonical tags consistent (do not point them at different URLs)"
+      - "Validate hreflang with a dedicated checker to catch return-tag errors"
+  - title: "3. Localisation, not translation"
+    items:
+      - "Localise content for currency, units, examples, and cultural context, not just language"
+      - "Do local keyword research per market (direct translations miss real search terms)"
+      - "Use native speakers or professional localisation, never raw machine translation"
+  - title: "4. Targeting & technical"
+    items:
+      - "Set country targeting in Search Console where you use subdirectories/subdomains"
+      - "Avoid auto-redirecting users by IP; offer a language/region switcher instead"
+      - "Serve the correct language version to crawlers without cloaking"
+      - "Build local backlinks and citations in each target market"

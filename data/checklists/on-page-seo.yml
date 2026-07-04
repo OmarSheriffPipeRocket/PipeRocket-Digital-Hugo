@@ -1,0 +1,38 @@
+title: "The On-Page SEO Checklist for 2026"
+subtitle: "Everything on the page itself that helps it rank and get clicked: intent, titles, headings, content, links and markup. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Match search intent"
+    items:
+      - "Confirm the page matches the dominant intent on the live SERP (guide vs tool vs comparison)"
+      - "Answer the primary query in the first paragraph"
+      - "Map one primary keyword and a set of related terms to the page"
+      - "Make sure this page does not overlap intent with another page you own"
+  - title: "2. Title, meta & URL"
+    items:
+      - "Write a unique title tag with the primary keyword near the front, under ~60 characters"
+      - "Write a meta description that earns the click (it is your SERP ad copy)"
+      - "Use a short, readable URL that includes the target keyword"
+      - "Set a self-referencing canonical tag"
+  - title: "3. Headings & structure"
+    items:
+      - "Use one clear H1 that states what the page is about"
+      - "Structure the body with logical H2s and H3s that include related terms"
+      - "Add a table of contents on long pages for scannability"
+      - "Break content into short paragraphs, bullets, and tables"
+  - title: "4. Content quality & E-E-A-T"
+    items:
+      - "Cover the topic more completely and usefully than the pages currently ranking"
+      - "Add first-hand experience: original data, screenshots, and examples AI can't fake"
+      - "Show a named author with real credentials and a bio"
+      - "Link claims to authoritative sources and keep facts current"
+  - title: "5. Links & media"
+    items:
+      - "Add internal links to and from relevant pages with descriptive anchor text"
+      - "Link out to a few authoritative external sources where it helps the reader"
+      - "Add descriptive, keyword-aware image alt text and compress images"
+      - "Include one clear call to action matched to the page's intent"
+  - title: "6. On-page technical & UX"
+    items:
+      - "Add relevant structured data (Article, FAQ, Breadcrumb, Product)"
+      - "Confirm the page is mobile-friendly and passes Core Web Vitals"
+      - "Front-load a quotable answer so AI engines can lift it"

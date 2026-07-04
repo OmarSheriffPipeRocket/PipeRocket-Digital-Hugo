@@ -1,0 +1,28 @@
+title: "The AI SEO Checklist for 2026"
+subtitle: "SEO for the AI era: keep winning classic search while getting found in answer engines and generative assistants. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Get the fundamentals right first"
+    items:
+      - "Keep classic SEO solid: crawlable, indexable, fast, and intent-matched pages"
+      - "Publish genuinely helpful, experience-led content (E-E-A-T), not AI filler"
+      - "Match each page to real search intent and answer the query up front"
+  - title: "2. Answer engines (AEO)"
+    items:
+      - "Front-load a clear, quotable answer in the first 1-2 sentences"
+      - "Structure content as question-and-answer blocks with FAQ/HowTo schema"
+      - "Target featured snippets, People Also Ask, and Google AI Overviews"
+  - title: "3. Generative assistants (GEO)"
+    items:
+      - "Allow AI crawlers (GPTBot, PerplexityBot, ClaudeBot, Google-Extended) unless you mean to block them"
+      - "Publish original data and specific facts that models prefer to cite"
+      - "Earn mentions on the third-party sites LLMs trust, and keep entity facts consistent"
+  - title: "4. Use AI in your workflow (carefully)"
+    items:
+      - "Use AI to scale research and drafting, but add original insight a human owns"
+      - "Fact-check every AI-generated claim and cite real sources"
+      - "Avoid publishing unedited AI content that adds nothing new"
+  - title: "5. Measure across surfaces"
+    items:
+      - "Track classic rankings and clicks in Search Console"
+      - "Track AI-referral traffic in GA4 (ChatGPT, Perplexity, Gemini)"
+      - "Test target prompts in the major assistants and track whether you are cited"

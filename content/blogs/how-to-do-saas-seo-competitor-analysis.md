@@ -95,7 +95,7 @@ When you combine the persuasive sales logic of a direct rival with the structura
 
 ## **How to Analyze Your Competitor’s “Money Pages”?**
 
-Through years of conducting SaaS SEO competitor analysis, I’ve found that high-quality leads consistently come from five specific types of pages. So, keep this one in your [SaaS SEO checklist.](/blogs/saas-seo-checklist/) When you are running a SaaS competitor analysis, look for these five. If they have them and you don’t, you are leaving money on the table.
+Through years of conducting SaaS SEO competitor analysis, I’ve found that high-quality leads consistently come from five specific types of pages. So, keep this one in your [SaaS SEO checklist.](/checklists/saas-seo-checklist/) When you are running a SaaS competitor analysis, look for these five. If they have them and you don’t, you are leaving money on the table.
 
 ### **1. Use Case Pages**
 

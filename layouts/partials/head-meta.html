@@ -8,7 +8,7 @@
 
 {{/* Article schema only on actual content pages (Kind=page) — never on section
      index / taxonomy / home listing pages. */}}
-{{ $isArticle := and (in (slice "blogs" "list" "glossary" "alternative" "vs" "author" "case-study" "compare") .Section) (eq .Kind "page") }}
+{{ $isArticle := and (in (slice "blogs" "checklists" "list" "glossary" "alternative" "vs" "author" "case-study" "compare") .Section) (eq .Kind "page") }}
 {{ $isHome := .IsHome }}
 
 {{/* Resolve author from frontmatter (writtenBy) OR from authors section page slug */}}

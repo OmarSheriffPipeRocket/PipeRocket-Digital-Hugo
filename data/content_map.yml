@@ -699,7 +699,7 @@ pages:
       aligned: false
       primary_ranking: false
 
-  - url: "/blogs/saas-ppc-checklist/"
+  - url: "/checklists/saas-ppc-checklist/"
     type: blog
     primary: "saas ppc checklist"
     secondary: []
@@ -726,7 +726,7 @@ pages:
     canonical_for: "saas ppc"
     status: active
 
-  - url: "/blogs/saas-seo-checklist/"
+  - url: "/checklists/saas-seo-checklist/"
     type: blog
     primary: "saas seo checklist"
     secondary: []

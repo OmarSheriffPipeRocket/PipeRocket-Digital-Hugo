@@ -1,0 +1,44 @@
+title: "The SaaS SEO Checklist for 2026"
+subtitle: "The exact revenue-first framework we run for every client at PipeRocket Digital. Tick items off as you go — your progress saves automatically."
+groups:
+  - title: "1. Understand your category & ICP"
+    items:
+      - "Map your Ideal Customer Profile (ICP) before opening any keyword tool"
+      - "Size the Total Addressable Market (TAM) for the keywords you'll target"
+      - "Clarify buyer intent: demo-ready vs. self-serve vs. still researching"
+  - title: "2. Do revenue-first keyword research"
+    items:
+      - "Score keywords by intent AND volume, never volume alone"
+      - "Run the revenue math (volume to clicks to a 2 to 4% conversion) before writing"
+      - "Prioritize keywords with real pipeline potential over high-volume vanity terms"
+  - title: "3. Map content to topics, not keywords"
+    items:
+      - "Group same-intent keywords into one topic to avoid cannibalization"
+      - "Check the live SERP to confirm Google treats the variants as one intent"
+      - "Build one comprehensive asset with subheadings covering the variations"
+  - title: "4. Write for the AI era"
+    items:
+      - "Anticipate the AI prompts users type and answer them directly on the page"
+      - "Add original inputs AI can't fake: interviews, real complications, first-hand data"
+      - "Link every claim to an authentic source or review for trust"
+      - "Use clear bullets, natural keyword placement, and relevant FAQs"
+  - title: "5. Give every page a CRO job"
+    items:
+      - "Assign each page a single, clear next step"
+      - "Use asset exchanges (a report for an email) on top-of-funnel pages"
+      - "Match the CTA to content intent: asset vs. trial vs. demo"
+  - title: "6. Report by intent, not aggregate traffic"
+    items:
+      - "Map every page to Intent, Category, and Sub-category"
+      - "Track leads, asset downloads, and pipeline progression by page type"
+      - "Set per-page-type benchmarks (alternative pages 3 to 4%, TOFU around 0.75%)"
+  - title: "7. Fix the technical basics (crawlability first)"
+    items:
+      - "Fix 404s and 301/302 redirect chains"
+      - "Sort out canonicals and sitemaps"
+      - "Confirm money pages are crawlable and indexable (don't obsess over a 100 speed score)"
+  - title: "8. Build brand mentions & authority"
+    items:
+      - "Get listed in relevant listicles and roundups alongside category leaders"
+      - "Earn brand mentions across trusted third-party sites (this trains the LLMs)"
+      - "Earn genuine, relevant backlinks (not directories or PBNs)"

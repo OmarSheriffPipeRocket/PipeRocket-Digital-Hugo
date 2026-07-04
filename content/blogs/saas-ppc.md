@@ -139,7 +139,7 @@ At the top of the funnel, buyers are still figuring out the problem. They’re s
 
 The goal is to position your brand as the voice that understands their challenge. ToFu ad copy should focus on outcomes, not features, and the landing pages should offer something genuinely helpful. 
 
-A template, a [checklist](/blogs/saas-ppc-checklist/ "SaaS PPC Checklist"), or a mini-guide works well because it gives the user value without asking for commitment. These value-first touchpoints warm the audience and set you up for stronger intent later.
+A template, a [checklist](/checklists/saas-ppc-checklist/ "SaaS PPC Checklist"), or a mini-guide works well because it gives the user value without asking for commitment. These value-first touchpoints warm the audience and set you up for stronger intent later.
 
 ### Middle-of-the-Funnel (MoFu) Strategies
 

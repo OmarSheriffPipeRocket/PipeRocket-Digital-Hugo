@@ -1,0 +1,32 @@
+title: "The SEO Competitor Analysis Checklist for 2026"
+subtitle: "Reverse-engineer why competitors outrank you and turn it into an action plan: keyword, content, backlink and SERP gaps. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Identify the right competitors"
+    items:
+      - "List your business competitors and your search competitors (often different)"
+      - "Confirm search competitors by who ranks for your target keywords"
+      - "Pick 3 to 5 to benchmark in depth"
+  - title: "2. Keyword gap"
+    items:
+      - "Run a keyword gap analysis to find terms competitors rank for and you don't"
+      - "Segment the gaps by intent and funnel stage"
+      - "Prioritise gaps by business value and difficulty"
+  - title: "3. Content gap"
+    items:
+      - "Map competitors' top pages by traffic and the topics they cover"
+      - "Find topics and formats they have that you are missing"
+      - "Note where you can cover a topic more completely or with better experience"
+  - title: "4. Backlink gap"
+    items:
+      - "Compare referring domains and identify links competitors have that you don't"
+      - "Find their most-linked pages to reverse-engineer linkable assets"
+      - "Build a target list of realistic link sources from their profile"
+  - title: "5. SERP & technical benchmark"
+    items:
+      - "Analyse the SERP features competitors win (snippets, PAA, AI Overviews, video)"
+      - "Compare titles, content depth, and freshness on head-to-head keywords"
+      - "Benchmark their Core Web Vitals and technical setup against yours"
+  - title: "6. Turn it into action"
+    items:
+      - "Prioritise the gaps into a ranked roadmap by impact and effort"
+      - "Assign owners and set a re-benchmark cadence"

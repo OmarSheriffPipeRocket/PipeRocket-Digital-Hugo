@@ -1,0 +1,43 @@
+title: "The SEO Audit Checklist for 2026"
+subtitle: "A full-site SEO audit in one pass: access, indexation, on-page, technical, content, links and competitor benchmarks. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Access & setup"
+    items:
+      - "Confirm access to Google Search Console, GA4, and Bing Webmaster Tools"
+      - "Run a full crawl (Screaming Frog or similar) to get a current site inventory"
+      - "Pull the last 12 months of organic clicks, impressions, and rankings as a baseline"
+  - title: "2. Indexation & crawl"
+    items:
+      - "Check indexed page count vs pages you actually want indexed"
+      - "Resolve coverage errors: crawled-not-indexed, discovered-not-indexed, soft 404s"
+      - "Review robots.txt and XML sitemap for mistakes"
+      - "Find orphan pages and crawl-budget waste in the logs"
+  - title: "3. On-page audit"
+    items:
+      - "Flag missing, duplicate, or truncated title tags and meta descriptions"
+      - "Find pages with missing or multiple H1s"
+      - "Identify thin, duplicate, or intent-mismatched pages"
+      - "Check that top pages answer their query and match SERP intent"
+  - title: "4. Technical audit"
+    items:
+      - "Test Core Web Vitals (LCP, INP, CLS) on mobile"
+      - "Find and fix 404s, redirect chains, and canonical errors"
+      - "Confirm HTTPS sitewide and no mixed content"
+      - "Validate structured data in the Rich Results Test"
+      - "Check mobile-friendliness and JavaScript rendering"
+  - title: "5. Content audit"
+    items:
+      - "Inventory every page and tag it keep, update, consolidate, or prune"
+      - "Find keyword cannibalization (multiple pages targeting one intent)"
+      - "Identify decaying pages that need a refresh"
+      - "Spot content gaps versus search demand and competitors"
+  - title: "6. Off-page & competitor benchmark"
+    items:
+      - "Audit the backlink profile and disavow only genuinely toxic links"
+      - "Benchmark referring domains and rankings against the top 3 competitors"
+      - "Run a keyword and content gap analysis versus competitors"
+  - title: "7. Prioritise & report"
+    items:
+      - "Score every finding by impact and effort"
+      - "Turn the audit into a prioritised, owner-assigned action list"
+      - "Set a re-audit date (quarterly is a good default)"

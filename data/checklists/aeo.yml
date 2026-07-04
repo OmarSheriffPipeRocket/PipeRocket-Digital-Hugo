@@ -1,0 +1,30 @@
+title: "The AEO Checklist for 2026"
+subtitle: "Answer Engine Optimization: get your content pulled into featured snippets, People Also Ask, and Google's AI Overviews. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Answer-first content"
+    items:
+      - "Front-load a direct, quotable answer in the first 1-2 sentences of each page"
+      - "Keep the core answer to roughly 40-60 words so it is snippet-sized"
+      - "Write self-contained paragraphs that make sense lifted out of context"
+      - "Lead with the definition or direct answer before you elaborate"
+  - title: "2. Structure for extraction"
+    items:
+      - "Use the real question as the H2/H3 and put the answer directly beneath it"
+      - "Use lists, steps, and tables for how-to and comparison queries"
+      - "Target the question formats that trigger snippets and People Also Ask"
+      - "Add a concise TL;DR or key-takeaways block near the top"
+  - title: "3. Markup & eligibility"
+    items:
+      - "Add FAQ, HowTo, and Article structured data where relevant"
+      - "Ensure the answer content is server-rendered, not hidden behind JavaScript"
+      - "Use descriptive headings that match how people phrase the question"
+  - title: "4. Win Google's AI surfaces"
+    items:
+      - "Cover the follow-up questions on the same page so one page answers the cluster"
+      - "Support claims with specific numbers, dates, and cited sources"
+      - "Keep content fresh so it stays eligible as answers get regenerated"
+  - title: "5. Measure"
+    items:
+      - "Track which queries you own the featured snippet or PAA answer for"
+      - "Watch for AI Overview appearances and impression/click shifts in Search Console"
+      - "Double down on the formats that win answer placements"

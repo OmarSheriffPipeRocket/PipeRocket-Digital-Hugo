@@ -182,7 +182,7 @@ Most teams only look when something is visibly wrong. But on a CPC channel, visi
 
 - **Run a full account audit every two weeks** and I mean a real one, not a two-minute dashboard glance that tells you the account is “spending fine”
 - A proper audit means looking at CPA by campaign, pulling the Search Terms report for fresh negatives, reviewing ad performance to know what to pause and what to push more budget behind, checking how daily budgets are pacing across the account, and making sure bid strategies have enough conversion volume to work properly
-- Build a [SaaS PPC](/blogs/saas-ppc-checklist/) checklist and run the same audit the same way every time. “the account looks fine” is an assumption, not a conclusion, and assumptions cost money on a CPC channel.
+- Build a [SaaS PPC](/checklists/saas-ppc-checklist/) checklist and run the same audit the same way every time. “the account looks fine” is an assumption, not a conclusion, and assumptions cost money on a CPC channel.
 - Two weeks is the right cadence, it is long enough to have data worth acting on, short enough that problems do not run far enough to do real damage
 
 ### **Before and after:**

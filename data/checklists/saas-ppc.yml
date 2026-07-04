@@ -1,0 +1,30 @@
+title: "The SaaS PPC Checklist for 2026"
+subtitle: "The four-phase framework we use to scale SaaS products across LinkedIn and Google Ads. Tick items off as you go — your progress saves automatically."
+groups:
+  - title: "Phase 1: The strategic foundation"
+    items:
+      - "Document the User vs. the Buyer (who uses the tool vs. who signs the check)"
+      - "Define the ICP: industry, company size, and existing tech stack"
+      - "Segment messaging by seniority (Manager saves-me-time vs. VP/CXO team-efficiency)"
+      - "Set a budget approach: startup test-and-learn vs. MNC full-scope"
+  - title: "Phase 2: The LinkedIn playbook"
+    items:
+      - "Set up job title and role targeting for decision-makers"
+      - "Layer firmographics: company size and industry filters"
+      - "Apply seniority filters (CXO, VP, Director) so enterprise ads skip interns"
+      - "Upload target account lists for ABM"
+      - "Upload contact/email lists to warm leads before sales calls"
+      - "Build 3 retargeting loops: website visitors, Google-ad visitors, and ad engagers"
+  - title: "Phase 3: Dominate Google Search intent"
+    items:
+      - "Run a Brand Defense campaign (bid on your own brand to stop lead theft)"
+      - "Build high-intent generic (BOFU) campaigns using software/platform/tools modifiers"
+      - "Add niche filters for specialized products (e.g. CRM for IT)"
+      - "Launch competitor conquest campaigns (never put trademarked names in ad copy)"
+      - "Lead conquest copy with USPs: faster implementation, better UI, lower seat cost"
+  - title: "Phase 4: Scale with multi-channel AI"
+    items:
+      - "Run Demand Gen with a consolidated budget so Google's AI has enough data"
+      - "Use Performance Max as a keyword-discovery tool, not a black box"
+      - "Audit the PMax search-terms report and graduate winners to manual campaigns"
+      - "Add existing target keywords as PMax negatives to keep it finding new intent"

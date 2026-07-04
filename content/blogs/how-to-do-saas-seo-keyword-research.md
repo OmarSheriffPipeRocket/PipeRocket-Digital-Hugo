@@ -141,7 +141,7 @@ Here is a benchmark I want you to remember: Most SaaS companies with a single pr
 
 The biggest struggle marketers face is justifying the budget. Management usually throws out a random number, like “We need 30 articles this quarter”.With this research method, you can walk into that meeting with confidence. You can say:*“Based on our research, the Total Addressable Market for content in our category is 250 articles. We have the potential to capture 60 BOFU pages, 70 MOFU pages, and 200 TOFU pages”*.
 
-This transforms content from a random request into a calculated investment. It gives clarity to the executives on the overall budget needed, and it gives the SEO team a clear roadmap of where to start and where to end. Once that roadmap is set, run it against our [SaaS SEO checklist](/blogs/saas-seo-checklist/) so nothing downstream — content, on-page, or technical — slips through the cracks.
+This transforms content from a random request into a calculated investment. It gives clarity to the executives on the overall budget needed, and it gives the SEO team a clear roadmap of where to start and where to end. Once that roadmap is set, run it against our [SaaS SEO checklist](/checklists/saas-seo-checklist/) so nothing downstream — content, on-page, or technical — slips through the cracks.
 
 This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategies-and-framework/ "SaaS SEO Framework").
 

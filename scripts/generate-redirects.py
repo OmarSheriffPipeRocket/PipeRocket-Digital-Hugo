@@ -49,6 +49,9 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/blogs/how-to-write-saas-seo-content-with-ai/",   "/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks/"),
     ("/blogs/how-to-write-saas-google-ads-copy/",       "/blogs/how-to-write-google-ads-copy-for-saas-in-2026/"),
     ("/blogs/optimize-saas-landing-pages-for-seo/",     "/blogs/blogs-optimize-saas-landing-pages-for-seo/"),
+    # Checklists moved from /blogs/ into the /checklists/ silo (2026-07-04)
+    ("/blogs/saas-seo-checklist/",                      "/checklists/saas-seo-checklist/"),
+    ("/blogs/saas-ppc-checklist/",                      "/checklists/saas-ppc-checklist/"),
     # Glossary slug normalization
     ("/glossary/mql/",                                  "/glossary/"),
     ("/glossary/buyer-persona/",                        "/glossary/"),

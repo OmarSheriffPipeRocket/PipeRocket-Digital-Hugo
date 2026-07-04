@@ -105,7 +105,7 @@ Don’t look at all campaigns at once. Segment them.
 
 Look for “Budget Capping.” Are your best performing campaigns limited by budget? If your “Competitor” campaign has an amazing CPA ([Cost Per Acquisition](/glossary/what-is-cpa/)) and [ROAS](/glossary/what-is-roas/ "Glossary: ROAS") (Return on Ad Spend) but is losing 50% of impression share due to budget, that is the easiest win you will find all day.
 
-Use our [SaaS PPC checklist](/blogs/saas-ppc-checklist/ "SaaS PPC Checklist") to make sure no campaign-setup step is skipped.
+Use our [SaaS PPC checklist](/checklists/saas-ppc-checklist/ "SaaS PPC Checklist") to make sure no campaign-setup step is skipped.
 
 ### **2. The Keyword vs. Search Term Audit**
 

@@ -1,0 +1,38 @@
+title: "The SEO Site Migration Checklist for 2026"
+subtitle: "Protect your rankings through a redesign, replatform, or domain change. Work it before, during, and after launch. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Plan before you touch anything"
+    items:
+      - "Define the migration type (domain, CMS, design, HTTP to HTTPS, restructure)"
+      - "Benchmark current rankings, traffic, top pages, and backlinks as a baseline"
+      - "Crawl the live site to capture a complete URL inventory"
+      - "Set a rollback plan and a low-traffic launch window"
+  - title: "2. Map URLs & redirects"
+    items:
+      - "Create a 1:1 old-URL to new-URL mapping for every indexed page"
+      - "Write 301 (permanent) redirects, never 302, for every changed URL"
+      - "Avoid redirect chains: point old URLs straight to the final destination"
+      - "Preserve or update internal links to the new URLs"
+  - title: "3. Preserve on-page & content"
+    items:
+      - "Keep or improve titles, meta, headings, and body content on migrated pages"
+      - "Migrate or recreate structured data on the new pages"
+      - "Carry over canonical tags and hreflang correctly"
+      - "Do not drop pages that earn traffic or links without a redirect plan"
+  - title: "4. Prepare staging"
+    items:
+      - "Build and QA on a staging site that is blocked from indexing (noindex or auth)"
+      - "Verify robots.txt and remove the staging noindex before launch"
+      - "Test the redirect map on staging before go-live"
+  - title: "5. Launch day"
+    items:
+      - "Deploy redirects at the moment of cutover"
+      - "Confirm the new site is crawlable and not accidentally noindexed"
+      - "Submit the new XML sitemap in Search Console"
+      - "Use the Change of Address tool for domain moves"
+  - title: "6. Post-launch monitoring"
+    items:
+      - "Watch Search Console coverage, crawl stats, and rankings daily for the first weeks"
+      - "Fix any 404s and broken redirects as they surface"
+      - "Compare traffic and rankings against the pre-migration baseline"
+      - "Update or reclaim external backlinks pointing to old URLs where possible"

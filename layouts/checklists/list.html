@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{/* Checklists hub — same directory hero + card grid as /tools/, /blogs/, /glossary/.
+     Covers every marketing checklist (SEO, PPC, ABM, social, and more); cards
+     carry a category chip so the grid self-organises as the library grows.
+     noImage: checklists have no thumbnails, so cards render as text cards. */}}
+{{ partial "directory-hero.html" (dict
+  "title" .Title
+  "lede" .Description
+  "section" "checklists"
+  "placeholder" "Search checklists…"
+) }}
+
+{{/* Sort newest first by last-modified (matches /blogs/ and /tools/). */}}
+{{ partial "directory-grid.html" (dict
+  "pages" (.Pages.ByLastmod.Reverse)
+  "noImage" true
+) }}
+{{ end }}
