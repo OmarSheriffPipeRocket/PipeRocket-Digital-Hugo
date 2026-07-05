@@ -72,6 +72,7 @@ This pillar is the map. When you are ready to work a single area in depth, use t
 - [SEO audit checklist](/checklists/seo-audit-checklist/) to review the whole site in one pass.
 - [SEO site migration checklist](/checklists/seo-site-migration-checklist/) for launches, redesigns, and replatforms.
 - [SEO competitor analysis checklist](/checklists/seo-competitor-analysis-checklist/) to reverse-engineer who outranks you.
+- [Keyword research checklist](/checklists/keyword-research-checklist/) and [content SEO checklist](/checklists/content-seo-checklist/) for planning and writing content that ranks.
 - [Local SEO checklist](/checklists/local-seo-checklist/) and [international SEO checklist](/checklists/international-seo-checklist/) for location and multi-market search.
 - AI search: the [AI SEO checklist](/checklists/ai-seo-checklist/) umbrella, plus the [AEO checklist](/checklists/aeo-checklist/) and [GEO checklist](/checklists/geo-checklist/).
 

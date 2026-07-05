@@ -1,0 +1,38 @@
+title: "The Landing Page Checklist for 2026"
+subtitle: "Everything that turns a landing page into conversions: message match, copy, trust, the form, speed, and testing. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Above the fold"
+    items:
+      - "Match the headline to the ad or link that sent the visitor here (message match)"
+      - "State the core value proposition in one clear sentence"
+      - "Show one primary call to action above the fold"
+      - "Use a hero visual that supports the offer, not a generic stock image"
+      - "Remove the main site navigation so there is one path forward"
+  - title: "2. Copy & clarity"
+    items:
+      - "Lead with benefits and outcomes, not features"
+      - "Make the page scannable with short paragraphs, subheads, and bullets"
+      - "Answer the top objections a skeptical buyer would raise"
+      - "Keep one goal per page (do not mix demo, trial, and newsletter)"
+  - title: "3. Trust & social proof"
+    items:
+      - "Add specific testimonials or quotes (named, with role and company)"
+      - "Show recognisable customer logos or review ratings"
+      - "Include relevant proof: case-study numbers, security badges, guarantees"
+  - title: "4. Form & CTA"
+    items:
+      - "Ask for the fewest fields you actually need"
+      - "Use an action-oriented, specific CTA (Get my audit, not Submit)"
+      - "Make the CTA button visually contrast with the page"
+      - "Reassure next to the form (no spam, unsubscribe anytime, what happens next)"
+  - title: "5. Speed & mobile"
+    items:
+      - "Pass Core Web Vitals, especially LCP and INP, on mobile"
+      - "Design mobile-first and confirm the CTA is tappable without zoom"
+      - "Compress images and remove scripts the page does not need"
+  - title: "6. Test & optimise"
+    items:
+      - "Set up conversion tracking before you drive traffic"
+      - "Run heatmaps and session recordings to see where visitors drop"
+      - "A/B test one element at a time (headline, CTA, form length)"
+      - "Review and iterate on a regular cadence"

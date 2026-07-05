@@ -1,0 +1,36 @@
+title: "The ABM Checklist for 2026"
+subtitle: "Everything to launch account-based marketing for B2B SaaS: readiness, target accounts, the buying committee, plays, orchestration, and measurement. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Readiness & alignment"
+    items:
+      - "Align sales and marketing on goals, target accounts, and definitions"
+      - "Confirm you have a clear ICP and a reason to run ABM (high ACV, few accounts)"
+      - "Agree how you will tier accounts (1:1, 1:few, 1:many)"
+      - "Set up the tooling: CRM, ad platform, intent data, and reporting"
+  - title: "2. Target account list"
+    items:
+      - "Build the target account list from ICP fit, not gut feel"
+      - "Layer intent and engagement data to prioritise in-market accounts"
+      - "Assign accounts to tiers with the right level of personalisation"
+      - "Get sales sign-off on the list before you spend"
+  - title: "3. Buying committee"
+    items:
+      - "Map the roles in each account's buying committee"
+      - "Source accurate contact data for those roles"
+      - "Build persona-level messaging for each role (user vs economic buyer)"
+  - title: "4. Plays & channels"
+    items:
+      - "Run coordinated plays across LinkedIn ads, email, and SDR outreach"
+      - "Create account or industry-specific landing pages and content"
+      - "Use personalised outreach for tier-1, scaled personalisation for tier-2/3"
+      - "Retarget engaged accounts across channels"
+  - title: "5. Orchestration"
+    items:
+      - "Sequence marketing and sales touches so they reinforce each other"
+      - "Trigger SDR follow-up on account engagement signals"
+      - "Keep messaging consistent across every touch and channel"
+  - title: "6. Measurement"
+    items:
+      - "Track account engagement and coverage, not just leads"
+      - "Measure pipeline created and influenced in target accounts"
+      - "Report deal velocity and win rate vs non-ABM accounts"

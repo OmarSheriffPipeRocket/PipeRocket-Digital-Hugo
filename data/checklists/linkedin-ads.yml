@@ -1,0 +1,39 @@
+title: "The LinkedIn Ads Checklist for 2026"
+subtitle: "Everything to launch, target, and optimise LinkedIn Ads for B2B SaaS: tracking, identity-based targeting, creative, offers, and measurement. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Foundation & tracking"
+    items:
+      - "Install the LinkedIn Insight Tag and confirm it fires"
+      - "Set up conversion tracking for demos, signups, and lead-gen forms"
+      - "Define the campaign objective that matches the funnel stage"
+      - "Set a test-and-learn budget before scaling"
+  - title: "2. Identity-based targeting"
+    items:
+      - "Target by job title and function, not just skills"
+      - "Layer seniority filters (CXO, VP, Director) to reach decision-makers"
+      - "Add firmographics: company size and industry"
+      - "Upload target account lists for ABM"
+      - "Exclude current customers, competitors, and unqualified segments"
+  - title: "3. Creative & copy"
+    items:
+      - "Pick the format for the goal (single image, document, video, thought-leader)"
+      - "Hook the right persona in the first line"
+      - "Use one clear CTA per ad"
+      - "Add social proof (customer logos, results) into the creative"
+      - "Rotate multiple creatives to fight ad fatigue"
+  - title: "4. Offers & funnel"
+    items:
+      - "Give cold audiences a low-friction asset (report, guide), not a demo"
+      - "Use Lead Gen Forms to cut friction on mobile"
+      - "Reserve demo and trial CTAs for warm, retargeted audiences"
+  - title: "5. Optimise & audit"
+    items:
+      - "Check audience overlap and frequency so you are not over-serving"
+      - "Build retargeting loops: website visitors, ad engagers, video viewers"
+      - "Prune low-performing placements, audiences, and creatives weekly"
+      - "Confirm bid strategy matches the objective and CPL target"
+  - title: "6. Measurement"
+    items:
+      - "Track cost per lead and, more importantly, cost per qualified pipeline"
+      - "Feed offline conversions back from your CRM"
+      - "Report by audience and creative so you know what to scale"

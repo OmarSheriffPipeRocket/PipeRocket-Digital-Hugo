@@ -1,0 +1,30 @@
+title: "The Keyword Research Checklist for 2026"
+subtitle: "A repeatable process to find, prioritise, and map the keywords worth targeting: seeds, expansion, intent, prioritisation, and mapping. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Seeds & expansion"
+    items:
+      - "Start from your ICP and the problems they search for, not a tool"
+      - "Build a seed list from your product, categories, and customer language"
+      - "Expand seeds with a keyword tool and autocomplete/related searches"
+      - "Pull the keywords your competitors rank for that you don't"
+  - title: "2. Intent & grouping"
+    items:
+      - "Classify each keyword by intent (informational, commercial, transactional, navigational)"
+      - "Check the live SERP to confirm the real intent"
+      - "Cluster same-intent keywords into one topic to avoid cannibalization"
+      - "Map each cluster to a funnel stage (TOFU, MOFU, BOFU)"
+  - title: "3. Prioritisation"
+    items:
+      - "Score by business value, not just search volume"
+      - "Weigh keyword difficulty against your site's authority"
+      - "Prioritise winnable, high-intent terms first"
+  - title: "4. Mapping"
+    items:
+      - "Map each target keyword or cluster to one page"
+      - "Check the target against existing pages so you don't cannibalize"
+      - "Flag content gaps where you have demand but no page"
+  - title: "5. Ongoing"
+    items:
+      - "Track ranking movement for target keywords"
+      - "Refresh the research each quarter as the SERP shifts"
+      - "Capture new keyword opportunities from Search Console queries"

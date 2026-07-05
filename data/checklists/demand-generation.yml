@@ -1,0 +1,33 @@
+title: "The Demand Generation Checklist for 2026"
+subtitle: "Everything to build a B2B SaaS demand-gen engine that creates pipeline, not just leads: strategy, content, channels, capture, sales handoff, and measurement. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Strategy & ICP"
+    items:
+      - "Define the ICP and the buying committee you are creating demand in"
+      - "Map the funnel stages and the goal for each (create, capture, convert)"
+      - "Set pipeline and revenue targets, not just lead-volume targets"
+  - title: "2. Content & offers"
+    items:
+      - "Build assets for each stage (TOFU education, MOFU comparison, BOFU proof)"
+      - "Create genuinely valuable lead magnets worth an email address"
+      - "Balance ungated demand-creation content with gated demand-capture assets"
+  - title: "3. Channels"
+    items:
+      - "Run demand capture on high-intent channels (SEO, paid search)"
+      - "Run demand creation on LinkedIn, webinars, events, and communities"
+      - "Use email and nurture to stay present across long sales cycles"
+  - title: "4. Capture & nurture"
+    items:
+      - "Build conversion-optimised landing pages and short forms"
+      - "Set up lead scoring based on fit and engagement"
+      - "Create nurture sequences that move leads toward sales-readiness"
+  - title: "5. Sales handoff"
+    items:
+      - "Agree MQL and SQL definitions with sales"
+      - "Set an SLA for follow-up speed and lead routing"
+      - "Sync everything to the CRM with clean attribution"
+  - title: "6. Measure"
+    items:
+      - "Report pipeline created and influenced, not just MQLs"
+      - "Track CAC and payback by channel"
+      - "Measure funnel velocity and conversion rates by stage"

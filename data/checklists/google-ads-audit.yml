@@ -1,0 +1,41 @@
+title: "The Google Ads Audit Checklist for 2026"
+subtitle: "A full Google Ads (and PPC) audit in one pass: structure, tracking, keywords, bidding, ads, audiences, and wasted spend. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Account structure"
+    items:
+      - "Confirm campaigns and ad groups are organised by theme and intent"
+      - "Check settings: network, location, language, and ad rotation"
+      - "Separate brand, generic, and competitor campaigns"
+      - "Use a consistent, readable naming convention"
+  - title: "2. Conversion tracking"
+    items:
+      - "Verify conversions fire accurately and are not double-counting"
+      - "Import offline conversions from the CRM for lead-gen accounts"
+      - "Assign realistic conversion values so bidding optimises for revenue"
+      - "Confirm you are counting the right primary conversion action"
+  - title: "3. Keywords & search terms"
+    items:
+      - "Review match types and intent alignment"
+      - "Mine the search-terms report for wasted spend and add negatives"
+      - "Build and maintain shared negative keyword lists"
+      - "Cut or pause keywords with spend but no conversions"
+  - title: "4. Bidding & budget"
+    items:
+      - "Confirm the bid strategy fits the goal (target CPA, ROAS, max conversions)"
+      - "Check budgets are allocated to the best-performing campaigns"
+      - "Make sure smart bidding has enough conversion data to work"
+  - title: "5. Ads & landing pages"
+    items:
+      - "Check ad strength and that RSAs have enough quality assets"
+      - "Confirm sitelinks, callouts, and other assets are live and relevant"
+      - "Verify landing pages match ad intent and convert"
+  - title: "6. Audiences & targeting"
+    items:
+      - "Review audience segments, observation vs targeting"
+      - "Check geo, device, and dayparting adjustments against performance"
+      - "Add exclusions for irrelevant placements and audiences"
+  - title: "7. Waste & quality"
+    items:
+      - "Investigate low quality scores and their landing-page/relevance causes"
+      - "Quantify wasted spend and reallocate it to what converts"
+      - "Confirm brand is defended and not cannibalising generic performance"

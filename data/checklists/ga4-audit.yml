@@ -1,0 +1,37 @@
+title: "The GA4 Audit Checklist for 2026"
+subtitle: "Everything to make sure Google Analytics 4 is set up right and you can trust the data: config, tracking accuracy, events, data quality, integrations, and reporting. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Setup & configuration"
+    items:
+      - "Confirm the property and data streams are set up correctly"
+      - "Set the correct time zone and currency"
+      - "Extend data retention to the maximum available"
+      - "Confirm Google signals and reporting identity are configured intentionally"
+  - title: "2. Tracking accuracy"
+    items:
+      - "Deploy GA4 through Google Tag Manager, not hardcoded and GTM both"
+      - "Check there are no duplicate tags inflating pageviews"
+      - "Set up cross-domain tracking if you span multiple domains"
+      - "Filter out internal and developer traffic"
+  - title: "3. Events & conversions"
+    items:
+      - "Confirm key events fire with the right parameters"
+      - "Mark the true business conversions as key events"
+      - "Validate ecommerce or lead events end to end"
+      - "Check you are not double-counting conversions"
+  - title: "4. Data quality"
+    items:
+      - "Filter referral spam and bot traffic"
+      - "Confirm no PII (emails, names) is being sent to GA4"
+      - "Set referral exclusions for payment and auth domains"
+      - "Implement Consent Mode where required for privacy compliance"
+  - title: "5. Integrations"
+    items:
+      - "Link GA4 to Google Ads for conversion import and audiences"
+      - "Link GA4 to Search Console for organic reporting"
+      - "Enable the BigQuery export if you need raw data"
+  - title: "6. Reporting"
+    items:
+      - "Build the audiences and custom reports the team actually uses"
+      - "Choose and document the attribution model"
+      - "Set up alerts for anomalies and tracking breakages"
