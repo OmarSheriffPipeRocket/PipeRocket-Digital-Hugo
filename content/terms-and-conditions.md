@@ -6,6 +6,7 @@ metaTitle: "Terms and Conditions | PipeRocket Digital"
 metaDescription: "PipeRocket Digital's terms and conditions. Website use, service engagements, fees, IP ownership, confidentiality, liability, and governing law for US B2B SaaS marketing services."
 date: 2026-05-26
 toc: true
+twoCol: true
 draft: false
 ---
 
@@ -17,7 +18,7 @@ By using the website, requesting a proposal, or signing a statement of work with
 
 ## About PipeRocket Digital
 
-PipeRocket Digital is operated by **PipeRocket Inc.**, a company founded in 2020 with offices in New York and Bangalore. We provide B2B SaaS marketing services, including SaaS SEO, SaaS PPC, AEO/GEO, account-based marketing, programmatic SEO, content, and marketing operations. For the avoidance of doubt, references to "PipeRocket" in these Terms mean PipeRocket Inc. and its authorised personnel.
+PipeRocket Digital is operated by **PipeRocket Inc.**, a company founded in 2023 with offices in California, USA. We provide B2B SaaS marketing services, including SaaS SEO, SaaS PPC, AEO/GEO, account-based marketing, programmatic SEO, content, and marketing operations. For the avoidance of doubt, references to "PipeRocket" in these Terms mean PipeRocket Inc. and its authorised personnel.
 
 ## 1. Use of the website
 

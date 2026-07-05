@@ -134,7 +134,7 @@ Best for: B2B SaaS teams that want growth tied to pipeline at any ARR stage
 
 | | |
 | --- | --- |
-| Location | Chennai, India (US delivery) |
+| Location | California, USA |
 | Founded | 2020 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Astra, LeadSquared, GreytHR, Spendflo |

@@ -147,7 +147,7 @@ We built PipeRocket Digital for the stage before Directive. Before we run a sing
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 25 people |
 | Notable Clients | Storylane, LeadSquared, GreytHR, DevRev, Spendflo, Tredence |

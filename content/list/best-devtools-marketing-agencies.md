@@ -138,7 +138,7 @@ Best for: B2B devtools SaaS that need developer adoption to enterprise pipeline,
 
 | | |
 | --- | --- |
-| Location | Chennai, India (US delivery) |
+| Location | California, USA |
 | Founded | 2019 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Astra, LeadSquared, DevRev, Spendflo |

@@ -150,7 +150,7 @@ Best for: B2B SaaS teams that need AI SEO optimization tied to pipeline and MRR
 
 | | |
 | --- | --- |
-| Location | Chennai, India (US delivery) |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, DevRev, Spendflo, Goldcast, HyperVerge |

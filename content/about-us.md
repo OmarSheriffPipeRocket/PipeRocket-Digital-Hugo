@@ -12,7 +12,7 @@ wp_link: "/about-us/"
 
 eyebrow: "About PipeRocket"
 founded: "2023"
-locations: "New York · Bangalore"
+locations: "California, USA"
 
 # Numbers strip, verifiable from press release + Clutch
 stats:

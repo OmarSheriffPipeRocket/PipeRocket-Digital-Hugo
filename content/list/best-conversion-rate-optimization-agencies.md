@@ -198,7 +198,7 @@ We're a [B2B SaaS SEO and PPC agency](/saas-seo-agency/) that does CRO as part o
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev |

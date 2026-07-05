@@ -137,7 +137,7 @@ I built [PipeRocket Digital](/) because generalist enterprise SEO agencies kept 
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2019 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

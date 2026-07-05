@@ -155,7 +155,7 @@ We built [PipeRocket Digital](/) to address the two gaps SimpleTiger buyers rais
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

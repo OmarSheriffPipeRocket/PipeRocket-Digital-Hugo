@@ -136,7 +136,7 @@ Best for: Series A to B B2B SaaS that wants full-funnel execution without enterp
 
 | | |
 | --- | --- |
-| Location | Chennai, India + US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 25 people |
 | Notable Clients | Storylane, LeadSquared, GreytHR, Tredence, DevRev, Spendflo |

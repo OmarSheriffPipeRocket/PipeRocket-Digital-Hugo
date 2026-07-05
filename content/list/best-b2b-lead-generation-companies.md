@@ -144,7 +144,7 @@ I built [PipeRocket Digital](/) because I saw a gap in how agencies handle B2B S
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
 | Specialization | Full-funnel SaaS lead gen, [SaaS SEO](/saas-seo-agency/), [SaaS PPC](/saas-ppc/), pipeline attribution |

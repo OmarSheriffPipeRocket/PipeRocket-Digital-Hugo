@@ -131,7 +131,7 @@ Best for: B2B SaaS teams that want technical fixes tied to pipeline, not audit c
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2019 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, LeadSquared, GreytHR, Tredence, DevRev, Spendflo |

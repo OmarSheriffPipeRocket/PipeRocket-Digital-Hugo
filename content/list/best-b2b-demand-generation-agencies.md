@@ -152,7 +152,7 @@ Best for: B2B SaaS Companies at Any ARR Stage Who Need Demand Generation Built F
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Team Size | 30+ people |
 | Notable Clients | Spendflo, Storylane, HappyFox, Xflow, DevRev, HyperVerge |
 | Specialization | Demand gen, pipeline attribution, ABM, paid media, [SaaS SEO](/saas-seo-agency/), GEO/AEO |

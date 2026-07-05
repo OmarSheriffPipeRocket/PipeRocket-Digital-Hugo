@@ -63,7 +63,7 @@ slug = "onboarding"
 
   [[categories.items]]
   question = "Where are you based?"
-  answer = "Bangalore, India. We work across IST, BST, and PST hours. Most clients have a weekly call in their timezone and async daily updates the rest of the week."
+  answer = "California, USA. We work across US and international hours. Most clients have a weekly call in their timezone and async daily updates the rest of the week."
 
 # External categories — sidebar links that jump to dedicated FAQ pages.
 # `url` makes the category render as an external link in the sidebar (no inline items).

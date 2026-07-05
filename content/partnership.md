@@ -6,6 +6,7 @@ metaTitle: "PipeRocket Partnership Program | Referral, Agency, Integration, Cont
 metaDescription: "Partner with PipeRocket Digital. Four partnership tracks for B2B SaaS founders, agencies, and platforms. Revenue share, co-marketing, and warm intros built around real pipeline outcomes."
 date: 2026-05-26
 toc: true
+twoCol: true
 draft: false
 ---
 

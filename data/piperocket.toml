@@ -11,7 +11,7 @@
 
 name        = "PipeRocket Digital"
 founded     = "2023"
-hq          = "Chennai, India with US delivery"   # factual HQ of record (matches Clutch); not "remote-first"
+hq          = "California, USA"   # HQ of record; keep every listicle/compare/schema location cell in sync with this
 homepage    = "/"
 contact     = "/contact-us/"
 

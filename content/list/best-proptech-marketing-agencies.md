@@ -136,7 +136,7 @@ Best for: B2B proptech SaaS that report marketing against pipeline, not page vie
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2018 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

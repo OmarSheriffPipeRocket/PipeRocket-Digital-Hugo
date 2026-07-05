@@ -132,7 +132,7 @@ Best for: B2B SaaS marketing leaders who report performance in SQLs and pipeline
 
 | | |
 | --- | --- |
-| Location | Chennai, India (US delivery) |
+| Location | California, USA |
 | Founded | 2019 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

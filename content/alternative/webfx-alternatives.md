@@ -147,7 +147,7 @@ We built [PipeRocket Digital](/) around the gap WebFX doesn't fill: B2B SaaS ver
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

@@ -150,7 +150,7 @@ Best for: B2B SaaS that need qualified pipeline, not vanity metrics, from paid.
 
 | | |
 | --- | --- |
-| Location | Chennai, India (US delivery) |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ specialists |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

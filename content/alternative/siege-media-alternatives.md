@@ -155,7 +155,7 @@ We built [PipeRocket Digital](/) because Siege Media's model — strong at conte
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra, LeadSquared |

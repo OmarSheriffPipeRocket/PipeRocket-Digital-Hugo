@@ -22,7 +22,7 @@ faqs:
   - q: "Who needs PipeRocket Digital's services?"
     a: "PipeRocket Digital is built for B2B SaaS companies whose marketing spend is not converting into pipeline, whether they are product-led (PLG) and need the right buyers into the trial, or sales-led (SLG) and need a pipeline worth working. It fits founders and marketing leaders who answer to a board on CAC, MQLs, and pipeline rather than on rankings or impressions."
   - q: "Where is PipeRocket Digital located?"
-    a: "PipeRocket Digital is a remote-first agency that serves B2B SaaS clients across the United States, supported by delivery teams in the US and India. Because the team works remotely, engagements run on US-aligned working hours regardless of where a client is based."
+    a: "PipeRocket Digital is a remote-first agency headquartered in California, USA that serves B2B SaaS clients across the United States. Because the team works remotely, engagements run on US-aligned working hours regardless of where a client is based."
   - q: "Which countries does PipeRocket Digital serve?"
     a: "PipeRocket Digital primarily serves B2B SaaS companies in the United States, and also works with SaaS clients across North America, Europe, and India. Every engagement is delivered remotely."
   - q: "How does PipeRocket Digital handle compliance and data security?"

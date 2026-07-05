@@ -130,7 +130,7 @@ PipeRocket Digital stands out for B2B SaaS companies that need full-funnel PPC t
 **At a Glance**
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
 | Specialization | SaaS PPC, pipeline attribution, full-funnel |
 

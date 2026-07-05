@@ -153,7 +153,7 @@ I built [PipeRocket Digital](/) to solve a specific problem: B2B companies wasti
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
 | Specialization | SaaS PPC, Performance Max, LinkedIn Ads, CRM-integrated attribution |

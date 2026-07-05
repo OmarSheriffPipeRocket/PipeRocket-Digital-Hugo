@@ -141,7 +141,7 @@ We built PipeRocket specifically for the B2B SaaS companies NoGood prices out. O
 
 | | |
 | --- | --- |
-| Location | Remote-first (Chennai, India with US delivery) |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | Senior pod, 4 practitioners per account |
 | Notable Clients | Storylane, Spendflo, LeadSquared, GreytHR, Tredence, DevRev, Astra |

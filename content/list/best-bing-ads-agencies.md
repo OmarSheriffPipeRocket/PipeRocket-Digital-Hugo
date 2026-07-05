@@ -129,7 +129,7 @@ Best for: B2B SaaS teams that want Bing Ads bundled with SEO and pipeline report
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ people, senior-led pod |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

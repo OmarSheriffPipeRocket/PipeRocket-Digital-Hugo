@@ -177,7 +177,7 @@ I ask the hard questions your product team avoids. I trace the path from a Googl
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
 | Specialization | Full-funnel B2B SaaS, SEO, PPC, demand generation, pipeline attribution |

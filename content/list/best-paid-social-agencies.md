@@ -134,7 +134,7 @@ Best for: B2B SaaS that want paid social, SEO, and pipeline reporting in a singl
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ people, senior-led pod |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

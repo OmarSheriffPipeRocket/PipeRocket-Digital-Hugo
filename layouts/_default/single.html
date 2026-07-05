@@ -1,5 +1,6 @@
 {{ define "main" }}
-<article class="pr-alt pr-blog">
+{{ $twoCol := .Params.twoCol }}
+<article class="pr-alt pr-blog{{ if $twoCol }} pr-2col-article{{ end }}">
   <div class="pr-container">
 
     <header class="pr-alt__header">
@@ -40,9 +41,11 @@
         {{ partial "article-cta.html" . }}
       </div>
 
-      {{ partial "article-rail-author.html" . }}
+      {{ if not $twoCol }}{{ partial "article-rail-author.html" . }}{{ end }}
 
     </div>
+
+    {{ if $twoCol }}{{ partial "article-rail-author.html" . }}{{ end }}
 
   </div>
 </article>

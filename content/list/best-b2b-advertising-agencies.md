@@ -153,7 +153,7 @@ What we keep seeing is that most B2B advertising agencies hand you a dashboard f
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Team Size | 25+ people |
 | Notable Clients | Storylane, LeadSquared, GreytHR, Tredence, DevRev, Spendflo, HyperVerge |
 | Specialization | SaaS PPC, LinkedIn Ads, ABM, pipeline attribution |

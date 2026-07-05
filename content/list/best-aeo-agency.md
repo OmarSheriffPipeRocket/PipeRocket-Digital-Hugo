@@ -160,7 +160,7 @@ PipeRocket Digital is built for US B2B SaaS and B2B tech companies that need AEO
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
 | Specialization | AEO, GEO, SaaS SEO, pipeline attribution, full-funnel |
 

@@ -138,7 +138,7 @@ We're [PipeRocket Digital](https://piperocket.digital), a B2B SaaS demand-gen po
 
 | | |
 | --- | --- |
-| Location | Chennai, India + US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 10-49 people |
 | Notable Clients | LeadSquared, Storylane, GreytHR, Tredence, DevRev |

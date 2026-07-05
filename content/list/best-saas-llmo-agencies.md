@@ -205,7 +205,7 @@ Best for: Series A/B SaaS teams wanting AI-search visibility inside a pipeline-a
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

@@ -6,6 +6,7 @@ metaTitle: "Cookies Policy | PipeRocket Digital"
 metaDescription: "PipeRocket Digital's cookies policy. What cookies and tracking technologies we use, why we use them, and how you can manage your preferences."
 date: 2026-05-26
 toc: true
+twoCol: true
 draft: false
 ---
 

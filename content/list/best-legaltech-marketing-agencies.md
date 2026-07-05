@@ -142,7 +142,7 @@ Best for: LegalTech SaaS Teams That Want SEO, Paid, and GEO/AEO Reported Against
 
 | | |
 | --- | --- |
-| Location | Chennai, India (US delivery hours) |
+| Location | California, USA |
 | Founded | 2017 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

@@ -149,7 +149,7 @@ Best for: B2B SaaS Founders Who Want SEO and PPC Inside One Retainer with Pipeli
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ people |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |

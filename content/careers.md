@@ -1,17 +1,18 @@
 ---
 title: "Careers"
 url: "/careers/"
-description: "Work at PipeRocket Digital. We hire senior B2B SaaS marketing operators across SEO, PPC, AEO/GEO, ABM, content, and RevOps from our New York and Bangalore teams."
+description: "Work at PipeRocket Digital. We hire senior B2B SaaS marketing operators across SEO, PPC, AEO/GEO, ABM, content, and RevOps from our California, USA team."
 metaTitle: "Careers at PipeRocket Digital | B2B SaaS Marketing Roles"
-metaDescription: "Open roles and how to apply at PipeRocket Digital. We hire senior B2B SaaS marketers across SEO, PPC, AEO/GEO, ABM, content, and RevOps. New York and Bangalore."
+metaDescription: "Open roles and how to apply at PipeRocket Digital. We hire senior B2B SaaS marketers across SEO, PPC, AEO/GEO, ABM, content, and RevOps. Based in California, USA."
 date: 2026-05-26
 toc: true
+twoCol: true
 draft: false
 ---
 
 ## A small team of senior B2B SaaS operators
 
-PipeRocket Digital is a B2B SaaS marketing agency founded in 2020 with teams in New York and Bangalore. We hire senior practitioners who have already shipped pipeline programmes inside SaaS companies, not generalists who learn on the job. If you have spent five-plus years inside B2B SaaS marketing and you want to do the work, not manage the work, the rest of this page is for you.
+PipeRocket Digital is a B2B SaaS marketing agency founded in 2023 and based in California, USA. We hire senior practitioners who have already shipped pipeline programmes inside SaaS companies, not generalists who learn on the job. If you have spent five-plus years inside B2B SaaS marketing and you want to do the work, not manage the work, the rest of this page is for you.
 
 We have shipped programmes for 70+ SaaS companies including Storylane, HyperVerge, Spendflo, MetricStream, Goldcast, and SaaS Labs. The work spans SaaS SEO, SaaS PPC, AEO/GEO, ABM, programmatic SEO, and content. Every engagement is led by a senior practitioner. Junior support sits underneath the senior, never in front of the client.
 
@@ -49,13 +50,13 @@ A few things are true about every role at PipeRocket. They shape what makes a gr
 
 - **Practitioners, not managers.** Everyone on the team does the work. Senior roles include strategy and account ownership, but the actual SEO audit, ad build, content brief, or attribution model is shipped by the person who owns the engagement.
 - **One named owner per engagement.** No pods of five passing slides between them. Each client has a senior operator they speak to every week, and that operator is accountable for the numbers.
-- **Remote by default, in-office when it matters.** We have anchor offices in New York and Bangalore. Most days are remote. Quarterly on-sites for client kick-offs, planning, and the occasional client visit are non-negotiable.
+- **Remote by default, in-office when it matters.** We have an anchor office in California, USA. Most days are remote. Quarterly on-sites for client kick-offs, planning, and the occasional client visit are non-negotiable.
 - **Written communication first.** We default to Loom, Notion, and Slack. Meetings need an agenda and a written outcome. If a meeting could be a doc, it is a doc.
 - **Direct feedback.** We tell each other what is working and what is not, in writing and in 1:1s. We do not let problems compound through "fit" conversations months later.
 
 ## Compensation and benefits
 
-We pay at the upper end of the senior-IC band for both the US and India markets. Compensation includes a base, a performance bonus tied to client outcomes (not utilisation hours), and equity for senior team members once tenure milestones are reached. We do not anchor pay to last role; we anchor it to the work this role does at PipeRocket.
+We pay at the upper end of the senior-IC band for the US market. Compensation includes a base, a performance bonus tied to client outcomes (not utilisation hours), and equity for senior team members once tenure milestones are reached. We do not anchor pay to last role; we anchor it to the work this role does at PipeRocket.
 
 Benefits vary slightly by geography but include health cover for the employee and immediate dependents, an annual learning and conference budget, a home-office stipend, and a paid time-off policy that has a floor (a minimum number of days you must take per year), not a cap.
 
@@ -65,8 +66,8 @@ We hire in waves, usually tied to two or three new client engagements landing in
 
 **As of May 2026, active roles are:**
 
-- Senior SaaS SEO Strategist. Bangalore or remote India. Five-plus years in B2B SaaS organic. Apply if you can audit a SaaS site, build a 12-month content and link plan, and ship the first 90 days within four weeks of joining.
-- Senior SaaS PPC Manager. New York or remote US. Five-plus years managing B2B SaaS paid, USD 50K-plus monthly spend, full-funnel ownership from creative brief to pipeline reporting.
+- Senior SaaS SEO Strategist. California or remote US. Five-plus years in B2B SaaS organic. Apply if you can audit a SaaS site, build a 12-month content and link plan, and ship the first 90 days within four weeks of joining.
+- Senior SaaS PPC Manager. California or remote US. Five-plus years managing B2B SaaS paid, USD 50K-plus monthly spend, full-funnel ownership from creative brief to pipeline reporting.
 - AEO/GEO Practitioner. Remote, any timezone overlap with US Eastern. Three-plus years in technical SEO or content strategy, plus demonstrable work on AI-search visibility (citations in ChatGPT, Perplexity, AI Overviews).
 - Senior Content Writer, SaaS. Remote, any timezone overlap with US Eastern. Portfolio of 10-plus published pieces on B2B SaaS topics with quoted SaaS operators.
 

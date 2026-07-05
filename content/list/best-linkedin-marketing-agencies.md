@@ -139,7 +139,7 @@ Best for: B2B SaaS running LinkedIn inside a pipeline-attributed paid stack
 
 | | |
 | --- | --- |
-| Location | Chennai, India with US delivery |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ specialists |
 | Notable Clients | Storylane, Spendflo, HyperVerge, DevRev, LeadSquared, GreytHR, Tredence, CyberSierra |

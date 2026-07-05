@@ -129,7 +129,7 @@ Best for: B2B SaaS teams that want Reddit paid social measured against pipeline,
 
 | | |
 | --- | --- |
-| Location | Chennai, India (US delivery) |
+| Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ specialists |
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
