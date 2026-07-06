@@ -683,7 +683,7 @@ Best for: B2B Companies Where LinkedIn Is the Primary Paid Channel and Account-B
 
 {{< agency-triptych slug="b2linked" name="B2Linked" >}}
 
-[B2Linked](https://b2linked.com) is the most specialist agency on this list: they do LinkedIn advertising and nothing else. That narrow focus is their entire value proposition, calibrated specifically for LinkedIn's B2B advertising environment, account-based targeting, and the platform's job-title and seniority filters that make it the highest-quality B2B channel.
+[B2Linked](https://b2linked.com) is the most specialist agency on this list: they do [LinkedIn advertising](/blogs/linkedin-ads-for-saas-guide/) and nothing else. That narrow focus is their entire value proposition, calibrated specifically for LinkedIn's B2B advertising environment, account-based targeting, and the platform's job-title and seniority filters that make it the highest-quality B2B channel.
 
 **Quick Facts**
 
@@ -742,7 +742,7 @@ B2Linked doesn't publish full rate cards. Industry-reported pricing is $3,000-$8
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| LinkedIn Core | ~$3,000/mo (reported) | LinkedIn campaign management, audience builds, creative testing |
+| LinkedIn Core | ~$3,000/mo (reported) | LinkedIn campaign management, audience builds, [creative testing](/blogs/saas-creative-testing/) |
 | Growth | ~$5,000-$8,000/mo (reported) | Multi-campaign LinkedIn, account-based targeting, attribution support |
 | Enterprise | Custom | Large-scale LinkedIn programmes, dedicated senior strategist |
 

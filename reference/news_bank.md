@@ -232,7 +232,7 @@ Should-mention:
   - content/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks.md
   - content/blogs/saas-seo.md
 Does-mention: content/blogs/llms-txt-for-saas.md (2026-07-01, cites primary as the "not-as-relevant" backing)
-Notes: ⚠️ CONTENT-CHECK NEEDED — this may CONTRADICT our own advice. saas-seo.md Step 8 recommends `llms.txt`; our GEO/AEO framing treats AI optimisation as somewhat distinct. Google now says those special tactics aren't required and AEO/GEO ≈ SEO. Decide our editorial stance (we can still argue llms.txt is low-cost insurance, but must acknowledge Google's position) and reconcile across the ai-seo cluster. Strong "take" candidate for the newsletter (pattern: Google keeps collapsing "AI SEO" hype back into fundamentals).
+Notes: ⚠️ CONTENT-CHECK NEEDED — this may CONTRADICT our own advice. saas-seo.md Step 8 recommends `llms.txt`; our GEO/AEO framing treats AI optimisation as somewhat distinct. Google now says those special tactics aren't required and AEO/GEO ≈ SEO. Decide our editorial stance (we can still argue llms.txt is low-cost insurance, but must acknowledge Google's position) and reconcile across the ai-seo cluster. Strong "take" candidate for the newsletter (pattern: Google keeps collapsing "AI SEO" hype back into fundamentals). Corroboration (2026-07-06): AI Overviews briefly/unexpectedly surfaced raw markdown-file content in snippets (spotted by Lily Ray; John Mueller: "that looks unexpected," confirmed Google does NOT treat markdown files any differently — likely just crawled like any other page). Supports, doesn't change, this entry's "no special AI-file treatment" guidance.
 
 ### gads-campaign-type-migrations-2026
 Event: Google Ads campaign-type shifts (2026): (a) DSA→AI Max auto-migration DELAYED from Sept 2026 to Feb 2027, DSA creation returned, and AI Max is now the DEFAULT for new Search campaigns; (b) standalone Display campaigns being retired in favour of Demand Gen, with an in-product migration tool rolling out June 2026; (c) new Gemini-powered ad formats from GML 2026 (Conversational Discovery ads, Highlighted Answers, AI Shopping ads, Business Agent for Leads).
@@ -284,6 +284,68 @@ Should-mention:
 Does-mention: none
 Notes: Implication — AI visibility is becoming MEASURABLE in first-party tooling (a reporting/board-reporting hook), and Google again reiterates "no special AI optimization needed" (reinforces google-ai-search-guidance-2026: AEO/GEO ≈ SEO). The opt-out control is the actionable lever for sites that want to block AI-feature use. No click data yet — flag that limitation when citing.
 
+### dmca-fraudulent-takedowns-2026-07
+Event: Fraudulent/manipulative DMCA takedown requests are wrongfully de-indexing legitimate pages at growing scale — competitors filing fake copyright claims to remove rivals' URLs from Google Search; Google does not verify submitter identity, and a wrongly-removed URL takes 2+ weeks minimum to restore via counter-notice. Recent victims include Press Gazette (twice in 2026) and a Search Engine Land article itself.
+Date: 2026-06/07 (ongoing, no single event date — ramp of incidents through June, still active early July)
+Cluster: saas-seo
+Significance: medium
+Source: https://www.searchenginejournal.com/fake-dmca-complaints-keep-erasing-real-pages-from-google-what-to-watch-for/581299/  [SECONDARY — SEJ]
+Secondary: https://www.seroundtable.com/fake-dmca-takedowns-google-search-41596.html
+Status: VERIFY — no Google primary/policy response found this scan (Google sued DMCA-abuse companies back in 2023 per SEL's own prior reporting, but no new 2026 enforcement announcement); treat as a reported risk, not a confirmed policy change
+Reframe-by: 2026-10
+Action: insert-mention
+Should-mention:
+  - content/blogs/technical-seo-for-saas.md
+  - content/blogs/how-to-do-saas-content-audit.md
+  - content/blogs/saas-seo.md
+Does-mention: none
+Notes: Actionable defensive-SEO advice — sites should monitor Search Console's "Removals" / manual-actions reporting for surprise DMCA notices and have a rapid counter-notice process ready, since 2+ weeks of lost rankings/traffic can result from a fully fraudulent claim with zero identity verification. Worth a "watch your GSC removals tool" callout in technical-SEO or content-audit guides. Not a Google-caused change, so distinct from the algorithm/platform entries above — bank because it changes what we'd tell clients to monitor.
+
+### gads-tos-ai-inputs-2026-07
+Event: Google Ads updated its Terms of Service (effective July 1, 2026) to clarify how advertiser inputs can be used across AI-powered/automated Ads features — covers (a) information/URLs entered into conversational experiences and similar tools, and (b) URLs/accounts advertisers authorize Google to crawl for automated campaign setup. Reinforces that advertisers remain responsible for reviewing/approving all auto-generated campaigns and assets, and must hold rights to whatever they input.
+Date: 2026-07-01 (effective)
+Cluster: saas-paid-marketing
+Significance: medium
+Source: https://support.google.com/google-ads/answer/16875158?hl=en  [PRIMARY — Google Ads Help, confirmed]
+Secondary: https://searchengineland.com/google-ads-updates-terms-of-service-ahead-of-july-2026-rollout-479255 ; https://www.seroundtable.com/google-ads-terms-of-service-updated-41431.html
+Status: VERIFIED
+Reframe-by: 2026-10
+Action: insert-mention
+Should-mention:
+  - content/blogs/the-no-nonsense-guide-to-auditing-your-saas-ppc-account.md
+  - content/blogs/saas-ppc.md
+  - content/blogs/how-to-run-google-ads-for-saas.md
+Does-mention: none
+Notes: No advertiser action required, but worth a line in audit/governance content: anything typed into Google Ads' conversational/AI setup tools, or any site Google is authorized to crawl for automated campaign creation, can now be used by Google's systems to shape campaigns — a data-hygiene consideration when using AI Max / automated setup features. Pairs with the existing gads-bidding-budgeting-overhaul-2026-06 and gads-campaign-type-migrations-2026 entries (same broader trend: Google formalizing its AI-automation footprint in Ads).
+
+### amp-cache-serving-ends-2026-07
+Event: Google ended AMP cache-served pages in Search — clicking an AMP result now takes users to the publisher's own AMP-hosted page instead of a Google-cached/AMP-viewer version. Google removed AMP viewer/cache/signed-exchange references from its AMP documentation. Ranking is unaffected — AMP content ranks like any other page.
+Date: 2026-07-01 (effective)
+Cluster: saas-seo
+Significance: medium
+Source: https://developers.google.com/search/updates  [PRIMARY — Google Search Central changelog, confirmed] + https://developers.google.com/search/docs/crawling-indexing/amp
+Secondary: https://www.searchenginejournal.com/google-ends-cache-served-amp-pages-in-search/581405/ ; https://www.seroundtable.com/google-publisher-hosted-amp-pages-change-41614.html
+Status: VERIFIED
+Reframe-by: 2026-10
+Action: none — general-awareness only
+Should-mention: none identified — PipeRocket's SaaS content corpus does not reference or recommend AMP
+Does-mention: none
+Notes: Banked for industry-awareness/newsletter completeness (Omar requested broader general SEO/PPC/AI coverage this scan), not because it changes our advice — no AMP content exists in our corpus to update. Simplifies AMP maintenance for any publisher still running it; removes the historical rationale for AMP's cache-speed advantage since Google's own serving path for it is gone.
+
+### gads-maxconvvalue-standard-shopping-2026-07
+Event: Google rolled out Maximize Conversion Value bidding for Standard Shopping campaigns without requiring a Target ROAS — previously advertisers wanting value-based bidding without a ROAS constraint had to run a feed-only Performance Max campaign as a workaround; that workaround is no longer necessary for Shopping inventory.
+Date: 2026-06/07 (rollout, exact date unconfirmed)
+Cluster: saas-paid-marketing
+Significance: medium
+Source: https://support.google.com/google-ads/answer/7684216?hl=en  [PRIMARY confirms Shopping is eligible + the strategy can run without a set ROAS target, but does not itself date the "newly available" framing]
+Secondary: https://searchengineland.com/google-brings-maximize-conversion-value-bidding-to-standard-shopping-481209 ; https://www.seroundtable.com/google-ads-maximize-conversion-value-standard-shopping-41576.html
+Status: VERIFY — mechanism confirmed on primary; "new rollout" timing is secondary-sourced only
+Reframe-by: 2026-10
+Action: none — general-awareness only
+Should-mention: none identified — PipeRocket's PPC content is B2B SaaS-focused; Standard Shopping/ecommerce bidding isn't part of the corpus
+Does-mention: none
+Notes: Banked for industry-awareness/newsletter completeness (general PPC coverage, per Omar's request), not because it changes SaaS PPC advice. Relevant if PipeRocket ever picks up an ecommerce-adjacent SaaS client running Shopping campaigns.
+
 ---
 
 ## MAINTENANCE LEDGER
@@ -300,3 +362,4 @@ Notes: Implication — AI visibility is becoming MEASURABLE in first-party tooli
 - 2026-06-23 — SEJ + SEL targeted scan (Omar request). Added 2 more: (4) google-ai-search-guidance-2026 (MAJOR — "AEO/GEO still SEO"; llms.txt/chunking/special-schema NOT needed → ⚠️ may contradict our saas-seo.md llms.txt advice; content-check flagged); (5) gads-campaign-type-migrations-2026 (medium — DSA→AI Max delayed to Feb 2027 + AI Max now default; Display→Demand Gen; new Gemini ad formats). News_bank now holds 10 entries.
 - 2026-06-29 — WEEKLY SCAN (email + web; first automated weekly-news-scan run). Banked 2: june-2026-spam-update (MAJOR, PRIMARY Google Status Dashboard — 2nd spam update of 2026, Jun 24–26, scaled-AI-spam in scope) and gsc-genai-performance-reports-2026-06 (medium, PRIMARY Google Search Central — AI-features impression reporting + content opt-out, live Jun 17 UK subset). RESOLVED watch item google-unconfirmed-update-2026-06-19 → it was the leading edge of the confirmed spam update. 7 items reviewed below gate (Ads API v24.2, Std-Shopping max-conv-value bidding, Google-hosted lead form, Smart Campaigns creation off Aug 3, Demand Gen AI tools, Merchant Center agency roles, Ads ToS Jul 1 — all incremental/ecommerce/admin, no advice change). News_bank now holds 12 entries (1 resolved/closed). Stat candidates routed to stat_bank for verification (see stat ledger 2026-06-29).
 - 2026-06-29 — FULL MAINTENANCE RUN (status-lifecycle + reframe-due check, all 12 entries). NO reframes due: earliest Reframe-by is 2026-08 (may-2026-core-update); all others 2026-08→2026-12; today 2026-06-29. Statuses left as-is (breaking items are genuine June events, not yet "old"). Updated 1 VERIFY item: chatgpt-brand-links-2026-05 now CORROBORATED by a 2nd independent trade source (Similarweb 2026 GenAI Index reports the same +157.7% WoW / +354.7% homepage) — event solid, exact % still vendor-sourced (no OpenAI primary), so stays VERIFY on the figure. No items aged into historical. Next weekly scan ~2026-07-06.
+- 2026-07-06 — WEEKLY SCAN (email 22 newsletters + web, all 4 clusters). Initial pass: no bankable items — the only two Google-caused developments this week (June spam update wrap-up, Aug-17 bidding overhaul reminder) were already banked with no status change, and the web check confirmed no July core/ranking update exists. Slack posted "nothing this week." Omar then asked to widen inclusion to general SEO/PPC/AI items surfaced in the below-gate list — added 4 more after primary-source verification: dmca-fraudulent-takedowns-2026-07 (medium, VERIFY — fraudulent DMCA claims wrongfully de-indexing pages, Press Gazette + a Search Engine Land article hit; actionable GSC-removals-monitoring advice); gads-tos-ai-inputs-2026-07 (medium, PRIMARY confirmed — Google Ads ToS clarifies AI/automated-feature use of advertiser inputs, eff. Jul 1); amp-cache-serving-ends-2026-07 (medium, PRIMARY confirmed via Search Central changelog — general-awareness only, zero AMP footprint in our corpus); gads-maxconvvalue-standard-shopping-2026-07 (medium, VERIFY on rollout timing — general-awareness only, Standard Shopping bidding isn't part of our B2B SaaS PPC corpus). Folded one more data point into the existing google-ai-search-guidance-2026 entry rather than a new item: AI Overviews briefly/unexpectedly surfaced raw markdown-file content in snippets (Lily Ray spotted it, John Mueller confirmed "unexpected," no special AI treatment) — corroborates, doesn't change, the "no special AI files needed" guidance already banked. News_bank now holds 16 entries (1 resolved/closed).

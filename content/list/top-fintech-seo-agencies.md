@@ -469,7 +469,7 @@ The hard cap at 8 new clients per year means partners get founder-and-strategist
 
 **Evidence on Record:** Their on-site testimonial reads: "Omnius completely owns the project, taking control and monitoring performance." The quote sits on the [Omnius client reviews page](https://www.omnius.so/client-reviews) and is not third-party verified on Clutch.
 
-**Where It Falls Short:** Their Clutch profile shows 0 reviews and a 0.0 rating despite operating since 2020. Public third-party social proof is thin, and the 8-client cap means availability windows are unpredictable.
+**Where It Falls Short:** Their Clutch profile shows 0 reviews and a 0.0 rating despite operating since 2020. Public third-party [social proof](/blogs/saas-social-proof/) is thin, and the 8-client cap means availability windows are unpredictable.
 
 - No verified Clutch reviews on file
 - Roster cap creates waitlist risk for buyers in a hurry

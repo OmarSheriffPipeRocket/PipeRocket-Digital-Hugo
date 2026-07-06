@@ -223,7 +223,7 @@ Praveen is Co-Founder of [PipeRocket Digital](/saas-ppc/) and the paid-media lea
 
 ### 6. Susan Wenograd
 
-Best for: Paid media strategy and account audits.
+Best for: [Paid media strategy](/blogs/saas-paid-marketing-guide/) and account audits.
 
 [Susan Wenograd](https://susanwenograd.com/) is a roughly two-decade paid media veteran and a familiar byline at Search Engine Journal. She works across Google Ads and paid social, with a strategist's eye for what's actually broken in an account.
 
@@ -269,7 +269,7 @@ Vishnu is PPC Manager at [PipeRocket Digital](/saas-ppc/), where he designs and 
 
 **What sets him apart:** Vishnu pairs day-to-day execution discipline with a revenue-first mindset — building campaigns around qualified pipeline rather than cheap clicks, and iterating fast on what the data shows. He's the engine behind much of our [Google Ads](/google-ads-agency/) and [paid social](/paid-social-agency/) delivery.
 
-- Hands-on across Google and LinkedIn Ads for SaaS
+- Hands-on across Google and [LinkedIn Ads for SaaS](/blogs/linkedin-ads-for-saas-guide/)
 - Revenue-first approach to campaign design and optimization
 - Fast, data-driven iteration on live accounts
 
@@ -473,7 +473,7 @@ Best for: Senior, human-led PPC consulting.
 
 A few influential names in B2B paid media didn't make the ranked list — not because they aren't excellent, but because they don't fit a "bookable B2B PPC consultant" frame. They've moved in-house at a platform, specialize in a different channel, or now lead a large group. Their work is still well worth following.
 
-- **[Navah Hopkins](https://about.ads.microsoft.com/):** Now Ads Liaison at Microsoft Advertising. One of the best-known PPC educators around — but she's in-house at a platform now, not a consultant for hire.
+- **[Navah Hopkins](https://about.ads.microsoft.com/):** Now Ads Liaison at [Microsoft Advertising](/blogs/microsoft-ads-for-saas/). One of the best-known PPC educators around — but she's in-house at a platform now, not a consultant for hire.
 - **[Joe Martinez](https://www.paidmediapros.com/):** Co-founder of Paid Media Pros alongside Michelle Morgan, and a specialist in Display and YouTube. An education-first voice rather than a client-services agency.
 - **[Gianluca Binelli](https://precis.com/):** Built the data-driven agency Booster Box, now part of the Precis group where he leads Southern Europe. A pioneer of quantitative, scientific PPC — now running a large integrated business rather than consulting directly.
 

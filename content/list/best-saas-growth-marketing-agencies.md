@@ -336,7 +336,7 @@ Best for: SaaS rebuilding spend away from MQLs toward dark social and pipeline i
 | Notable Clients | Clari, Cognism, Algolia, Vena, Showpad |
 | Specialization | B2B SaaS demand creation |
 
-**Where It Lands:** Mid-market SaaS ($3M-$30M ARR) frustrated with MQL reporting that wants to rebuild around channels influencing the buying committee.
+**Where It Lands:** Mid-market SaaS ($3M-$30M ARR) frustrated with MQL reporting that wants to rebuild around channels influencing the [buying committee](/blogs/linkedin-buying-committee-saas/).
 
 **Where It Misses:** Early-stage teams without an existing brand foundation, or buyers needing fast paid-acquisition results from a tactical retainer.
 
@@ -549,10 +549,10 @@ The methodology integrates demand capture (high-intent search) with light demand
 
 **Voice Of The Market**
 
-**Love:** Transformed paid media strategy
+**Love:** Transformed [paid media strategy](/blogs/saas-paid-marketing-guide/)
 An on-site testimonial reads, "I 100% recommend Powered By Search. They've completely transformed our paid media strategy." ([poweredbysearch.com](https://www.poweredbysearch.com/))
 
-- The 4.8/5 social proof lives on FeaturedCustomers, not Clutch ([FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search))
+- The 4.8/5 [social proof](/blogs/saas-social-proof/) lives on FeaturedCustomers, not Clutch ([FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search))
 
 **Complain:** Zero verified Clutch reviews
 The Clutch profile is verified but currently shows no reviews. ([Clutch](https://clutch.co/profile/powered-search))

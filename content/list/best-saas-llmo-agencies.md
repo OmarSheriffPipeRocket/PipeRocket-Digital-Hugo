@@ -367,7 +367,7 @@ NDA-protected logistics software client: brand mentions grew from roughly 75 to 
 **Love:** Highest third-party review count on this list with verified AI citation metrics
 A PR and Marketing Lead at Pilotfish wrote on [Clutch](https://clutch.co/profile/growpad): "What impressed us most was their guidance, insights, and support throughout the whole SEO/GEO preparation."
 
-- 5.0/5 across 37 Premier Verified Clutch reviews, the strongest social proof on this list by volume
+- 5.0/5 across 37 Premier Verified Clutch reviews, the strongest [social proof](/blogs/saas-social-proof/) on this list by volume
 
 **Complain:** Client base skews Eastern European dev shops, not typical SaaS product companies
 The named client roster (Fireart, Demigos, Cadabra Studio, CHI Software) reflects Eastern European software and dev agencies rather than the VC-backed B2B SaaS ICP most readers of this list represent.

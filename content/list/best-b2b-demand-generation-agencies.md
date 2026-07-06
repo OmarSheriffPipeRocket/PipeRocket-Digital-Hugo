@@ -476,7 +476,7 @@ Ironpaper doesn't publish rate cards. Custom enterprise-focused engagements scop
 
 **What Sets Them Apart**
 
-For Ironpaper, the sales cycle is 6-18 months, the buying committee has five or more people, and a single piece of content can materially influence a deal that closes a year later. That context shapes everything about how they build demand gen programmes.
+For Ironpaper, the sales cycle is 6-18 months, the [buying committee](/blogs/linkedin-buying-committee-saas/) has five or more people, and a single piece of content can materially influence a deal that closes a year later. That context shapes everything about how they build demand gen programmes.
 
 - Deep enterprise demand gen depth across technology, manufacturing, and financial services
 - Content engineered for each buying-committee stakeholder, not just top-of-funnel

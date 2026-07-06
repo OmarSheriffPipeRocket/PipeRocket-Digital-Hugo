@@ -430,7 +430,7 @@ Their methodology kicks off with an AEO audit that benchmarks AI visibility and 
 - No PPC, no technical SEO heavy lift, no CRO.
 - Layoff context worth raising during diligence.
 
-**Our Verdict:** We rank Animalz seventh because the AEO product is genuinely productized, but the missing review base and post-layoff headcount push it behind agencies with verified social proof. (In May 2026, Animalz launched AirOps implementation services for content teams, building AEO-optimized content pipelines on the AirOps platform.)
+**Our Verdict:** We rank Animalz seventh because the AEO product is genuinely productized, but the missing review base and post-layoff headcount push it behind agencies with verified [social proof](/blogs/saas-social-proof/). (In May 2026, Animalz launched AirOps implementation services for content teams, building AEO-optimized content pipelines on the AirOps platform.)
 
 **The Numbers**
 
@@ -464,7 +464,7 @@ Best for: Productized SaaS GEO and AEO across multiple distinct service lines
 
 **Where They Don't Fit:** Buyers needing custom enterprise consulting models, non-SaaS verticals, or teams whose primary need is paid media volume.
 
-**The Angle:** SimpleTiger runs four distinct AI-search service pages ([AEO Agency](/list/best-aeo-agency/), GEO/AI Search Optimization, AI SEO, Search Visibility), which is more productization than most "GEO add-on" agencies offer.
+**The Angle:** SimpleTiger runs four distinct AI-search service pages ([AEO Agency](/list/best-aeo-agency/), GEO/[AI Search Optimization](/blogs/ai-search-optimization-for-saas/), AI SEO, Search Visibility), which is more productization than most "GEO add-on" agencies offer.
 
 "AI Share of Voice" is a named KPI on their site. The CEO and COO consult directly with every client, which is unusual at this team size.
 
@@ -600,7 +600,7 @@ Pricing is partly public as of June 2026. Their homepage cites average retainers
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Growth squad | $20,000+/mo | AEO, paid, CRO, creative testing |
+| Growth squad | $20,000+/mo | AEO, paid, CRO, [creative testing](/blogs/saas-creative-testing/) |
 | Multi-region | Custom pricing | NY, Miami, or Dubai squad |
 | Enterprise | Custom pricing | Cross-f
 

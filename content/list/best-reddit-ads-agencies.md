@@ -371,7 +371,7 @@ Looking at other options? See the [best Single Grain alternatives](/alternative/
 
 Best for: Post-PMF SaaS with $50K MRR that wants one agency across all paid channels including Reddit.
 
-[Hey Digital](https://www.heydigital.co) is a Tallinn-based B2B SaaS PPC agency that has served 200+ SaaS companies and lists Reddit Ads alongside Google, LinkedIn, Meta, YouTube, and Bing as managed channels.
+[Hey Digital](https://www.heydigital.co) is a Tallinn-based B2B SaaS PPC agency that has served 200+ SaaS companies and lists [Reddit Ads](/blogs/saas-reddit-ads/) alongside Google, LinkedIn, Meta, YouTube, and Bing as managed channels.
 
 {{< agency-triptych slug="hey-digital" >}}
 

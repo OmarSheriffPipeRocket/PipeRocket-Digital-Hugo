@@ -363,7 +363,7 @@ Best for: Teams building landing pages at volume who want a 400+ template librar
 | --- | --- |
 | Founded | 2013 |
 | Free Plan | No. 14-day trial only. No free plan as of June 2026. (Older sources cited a free tier with 5 pages; not present on the live pricing page.) |
-| A/B Testing | Optimize plan and above ($149/mo monthly; $119/mo annual) |
+| [A/B Testing](/blogs/ab-test-saas-landing-pages/) | Optimize plan and above ($149/mo monthly; $119/mo annual) |
 | DTR | Optimize plan and above ($149/mo monthly; $119/mo annual) |
 | Capterra Rating | [4.8/5 (206 reviews)](https://www.capterra.com/p/146092/Landingi/) |
 | G2 Rating | 4.5/5 (~387 reviews, approximate) |
@@ -429,7 +429,7 @@ Landingi earns its rank for teams building pages at volume with native conversio
 
 Best for: SaaS teams running Google Ads and paid social where mobile page speed is the conversion variable, and AMP support is required without paying for a higher plan tier.
 
-[Swipe Pages](https://swipepages.com) is purpose-built for speed. AMP (Accelerated Mobile Pages) support is available on all plans including the entry Startup tier. For SaaS running paid campaigns where mobile traffic is significant and Google's page experience signals affect Quality Score, AMP at entry-plan pricing is a meaningful differentiator. It also holds the highest Capterra rating of any standalone builder on this list: 4.9/5 across 176 reviews.
+[Swipe Pages](https://swipepages.com) is purpose-built for speed. AMP (Accelerated Mobile Pages) support is available on all plans including the entry Startup tier. For SaaS running paid campaigns where mobile traffic is significant and Google's page experience signals affect [Quality Score](/blogs/saas-quality-score/), AMP at entry-plan pricing is a meaningful differentiator. It also holds the highest Capterra rating of any standalone builder on this list: 4.9/5 across 176 reviews.
 
 **Product Vitals**
 
@@ -456,7 +456,7 @@ The drag-and-drop editor is consistently described by reviewers as fast to learn
 
 **Buyer Fit**
 
-Right for SaaS paid marketing teams where Google Ads is the primary channel and mobile conversion rate is a tracked KPI. The Startup plan at $29/mo annual ($39/mo monthly) is the entry for AMP pages.
+Right for [SaaS paid marketing](/blogs/saas-paid-marketing-guide/) teams where Google Ads is the primary channel and mobile conversion rate is a tracked KPI. The Startup plan at $29/mo annual ($39/mo monthly) is the entry for AMP pages.
 
 Not right for teams that need A/B testing or DTR on the entry plan: both require the Marketer plan ($89/mo monthly). The template library at 50+ is the smallest of any standalone builder here.
 

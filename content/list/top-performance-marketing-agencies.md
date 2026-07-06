@@ -458,7 +458,7 @@ Best for: Consumer and eCommerce brands needing creative-led paid social
 
 **The Receipts:** Agency-published stats include "92% of brands grow within 90 days of working with us" on [thesocialshepherd.com](https://thesocialshepherd.com). No verified third-party reviewer quotes are available.
 
-**The Honest Caveat:** Their Clutch profile exists but has zero verified reviews, which makes external social proof thin. Pricing is not public, and the consumer/eCommerce DNA limits B2B fit.
+**The Honest Caveat:** Their Clutch profile exists but has zero verified reviews, which makes external [social proof](/blogs/saas-social-proof/) thin. Pricing is not public, and the consumer/eCommerce DNA limits B2B fit.
 
 - Zero Clutch reviews means no external review base to read before signing
 - B2B SaaS or technical buyers will find the methodology consumer-skewed

@@ -542,7 +542,7 @@ Best for: Early to growth-stage fintechs running influencer-led performance mark
 
 **Distinctive Strength:** Influencer-led performance marketing inside a fintech-only mandate.
 
-The team builds influencer-driven paid campaigns across Google, Meta, TikTok, YouTube, LinkedIn, Reddit, Spotify, and Microsoft Ads, with in-house creative production. For fintechs where influencer credibility moves user acquisition, that combination is uncommon at this size.
+The team builds influencer-driven paid campaigns across Google, Meta, TikTok, YouTube, LinkedIn, Reddit, Spotify, and [Microsoft Ads](/blogs/microsoft-ads-for-saas/), with in-house creative production. For fintechs where influencer credibility moves user acquisition, that combination is uncommon at this size.
 
 - Fintech-only client list including ARK Invest, GoTrade, LEDN, and FXTM
 - Multi-platform paid plus influencer plus creative under one roof
@@ -623,7 +623,7 @@ Fox Agency operates a "brand-led demand" model integrating brand, PR, content, d
 
 **Right Fit Profile:** Enterprise B2B tech brands with $25,000+ project budgets and a fintech product line needing global integrated brand, PR, and demand.
 
-**Wrong Fit Profile:** Pure-play fintechs (consumer banking, crypto, lending) wanting a fintech-only specialist with verified social proof.
+**Wrong Fit Profile:** Pure-play fintechs (consumer banking, crypto, lending) wanting a fintech-only specialist with verified [social proof](/blogs/saas-social-proof/).
 
 **Editor's Read:** We rank Fox Agency ninth because the scale is real, but the industrial-tech client base and missing reviews weaken the fintech case relative to peers.
 

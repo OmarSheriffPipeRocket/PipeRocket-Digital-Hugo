@@ -399,7 +399,7 @@ Statsig offers a free tier for startups, usage-based Pro pricing starting at app
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Free | $0 | Feature flags, A/B testing (usage-limited), product analytics |
+| Free | $0 | Feature flags, [A/B testing](/blogs/ab-test-saas-landing-pages/) (usage-limited), product analytics |
 | Pro | ~$150/mo (usage-based, metered events) | Higher event volume, advanced experimentation, integrations |
 | Enterprise | Custom pricing | Warehouse-native analytics, dedicated support, SLA |
 

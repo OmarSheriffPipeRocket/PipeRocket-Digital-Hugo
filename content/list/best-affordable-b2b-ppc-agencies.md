@@ -317,7 +317,7 @@ One client noted: "In short, Disruptive did not deliver. I suspect most of their
 
 ### 5. Ladder.io
 
-Best for: Data-Driven Growth Marketing with Creative Testing Across Paid Channels
+Best for: Data-Driven Growth Marketing with [Creative Testing](/blogs/saas-creative-testing/) Across Paid Channels
 
 {{< agency-triptych slug="ladder-io" name="Ladder.io" >}}
 
@@ -334,7 +334,7 @@ Best for: Data-Driven Growth Marketing with Creative Testing Across Paid Channel
 
 **Differentiator:** Traditional agencies stay locked in to scopes and static plans at the expense of strategic thinking. With Ladder you're always focused on what's going to make the most difference. Your strategy and your team evolves from week-to-week with your priorities and the market.
 
-- Services include Meta, Google, Bing, TikTok, Snap, X, LinkedIn, Reddit, Pinterest, Native, Programmatic, App Installs, AEO/GEO, funnel design, CRO, A/B testing, landing pages, ASO, live chat, CRM flows, performance creative, brand storytelling, high-value production, AI video, copy systems, and rapid iterations
+- Services include Meta, Google, Bing, TikTok, Snap, X, LinkedIn, Reddit, Pinterest, Native, Programmatic, App Installs, AEO/GEO, funnel design, CRO, [A/B testing](/blogs/ab-test-saas-landing-pages/), landing pages, ASO, live chat, CRM flows, performance creative, brand storytelling, high-value production, AI video, copy systems, and rapid iterations
 - Pricing varies by project, with reported costs of $3,500 to $300,000, with clients appreciating their value for cost though some express concerns about project management consistency and delivery timelines
 - "Ladder's strategic way of thinking - how they build and launch test-driven campaigns - is what helped a company even at our level. We are considered one of the world's greatest performance marketing success stories. Ladder still helped us breakthrough to new heights"
 
@@ -386,7 +386,7 @@ Best for: Early-Stage B2B SaaS Wanting Published, Low-Floor PPC Pricing Across G
 
 {{< agency-triptych slug="saas-hero" name="SaaS Hero" >}}
 
-[SaaS Hero](https://www.saashero.net/) is a SaaS-focused PPC agency that runs paid search and paid social across Google, Microsoft, LinkedIn, and Meta with fully published pricing. A Google Premier Partner and Microsoft Advertising Partner, the team is built for early-stage B2B SaaS that wants senior paid-media execution at an accessible floor, with CRM-level reporting tied to pipeline.
+[SaaS Hero](https://www.saashero.net/) is a SaaS-focused PPC agency that runs paid search and paid social across Google, Microsoft, LinkedIn, and Meta with fully published pricing. A Google Premier Partner and [Microsoft Advertising](/blogs/microsoft-ads-for-saas/) Partner, the team is built for early-stage B2B SaaS that wants senior paid-media execution at an accessible floor, with CRM-level reporting tied to pipeline.
 
 **At a Glance**
 | | |

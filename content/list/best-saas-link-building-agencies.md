@@ -598,7 +598,7 @@ The clutch.co/profile/growfusely URL returns a 404, which means no third-party a
 
 **Evidence Filed:** Verified clients on the homepage include Mind the Graph, JetOctopus, Whatfix, Document360, Sprinto, and Unbxd. The agency self-describes as a "SEO and AI Search Visibility agency for B2B brands." No Clutch profile means no third-party rating to cite.
 
-**Risk Note:** No Clutch profile, no public pricing, no isolated link product. Buyers wanting verified third-party social proof or per-link clarity will struggle here.
+**Risk Note:** No Clutch profile, no public pricing, no isolated link product. Buyers wanting verified third-party [social proof](/blogs/saas-social-proof/) or per-link clarity will struggle here.
 
 - No verified aggregate score on any third-party platform
 - Link building isn't isolated from broader content retainer

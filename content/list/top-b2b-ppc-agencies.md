@@ -720,7 +720,7 @@ Initial data emerges in 2-4 weeks, but pipeline results take 60-90 days because 
 
 ### Which platforms work best for B2B PPC?
 
-Google Ads captures high-intent search; LinkedIn targets job titles and firmographics; Microsoft Ads often delivers lower CPCs for B2B.
+Google Ads captures high-intent search; LinkedIn targets job titles and firmographics; [Microsoft Ads](/blogs/microsoft-ads-for-saas/) often delivers lower CPCs for B2B.
 
 ### How do top B2B PPC agencies measure success beyond leads?
 

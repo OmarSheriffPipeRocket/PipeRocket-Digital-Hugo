@@ -366,7 +366,7 @@ The Content Editor scores drafts in real time against the top-ranking pages for 
 - AI Article Writer and autopilot article generation built into the platform, no separate tool required
 - AI Tracker included from $99/mo annual Standard plan, covering AI search visibility without an add-on
 
-**Signature Capability:** Content Score is the reason most teams choose Surfer. It translates the abstract question "is this article competitive?" into a live number that changes as you write. For SaaS teams managing a content calendar across multiple writers, that shared benchmark is more practical than manually auditing each piece against SERP competitors.
+**Signature Capability:** Content Score is the reason most teams choose Surfer. It translates the abstract question "is this article competitive?" into a live number that changes as you write. For SaaS teams managing a [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/) across multiple writers, that shared benchmark is more practical than manually auditing each piece against SERP competitors.
 
 **What Buyers Report**
 

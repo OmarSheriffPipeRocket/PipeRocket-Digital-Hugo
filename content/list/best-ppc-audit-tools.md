@@ -372,13 +372,13 @@ You're already paying for Semrush Guru ($249/mo) for SEO and want to add competi
 
 **Wrong Fit**
 
-You want to audit your own Google Ads account for Quality Score issues, wasted spend in your own search term reports, or negative keyword gaps from your own data. The Advertising Toolkit does not connect to your Google Ads account and does not surface internal account health issues.
+You want to audit your own Google Ads account for [Quality Score](/blogs/saas-quality-score/) issues, wasted spend in your own search term reports, or negative keyword gaps from your own data. The Advertising Toolkit does not connect to your Google Ads account and does not surface internal account health issues.
 
 **What Sets It Apart**
 
 The Advertising History database goes back to 2012, which is useful for competitive creative benchmarking. The keyword gap tool surfaces terms competitors bid on that you don't, with CPC and volume context. AdClarity (on the Pro tier) adds display, video, and social creative tracking. These are legitimate research utilities, but they're competitor-intel tools, not account-health auditors.
 
-- Historical ad copy library dating to 2012 is useful for copy benchmarking and creative testing strategy
+- Historical ad copy library dating to 2012 is useful for copy benchmarking and [creative testing](/blogs/saas-creative-testing/) strategy
 - Keyword gap analysis surfaces missed bidding opportunities from competitor data
 - Unified SEO + PPC view is useful for teams already doing both in Semrush
 
@@ -444,7 +444,7 @@ You want to run a fast (~15-minute) full account audit for a client onboarding o
 
 **Wrong Fit**
 
-You need verified track record, stable pricing, or Microsoft Ads support. You're a risk-averse enterprise team that can't use beta tooling. You run high-volume audits monthly: the credit-based post-beta model could get expensive at scale.
+You need verified track record, stable pricing, or [Microsoft Ads](/blogs/microsoft-ads-for-saas/) support. You're a risk-averse enterprise team that can't use beta tooling. You run high-volume audits monthly: the credit-based post-beta model could get expensive at scale.
 
 **What Sets It Apart**
 

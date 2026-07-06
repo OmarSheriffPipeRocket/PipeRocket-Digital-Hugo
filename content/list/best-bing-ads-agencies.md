@@ -578,7 +578,7 @@ Best for: Series A-C B2B SaaS teams wanting demand gen across Bing, LinkedIn, Re
 **Buyer Feedback**
 
 **Love:** Founder-led credibility and multi-channel demand gen
-The B2B SaaS demand-gen community [recognizes the Omni Lab founders](https://www.omnilabconsulting.com/) as practitioners, which is a social proof signal separate from review counts.
+The B2B SaaS demand-gen community [recognizes the Omni Lab founders](https://www.omnilabconsulting.com/) as practitioners, which is a [social proof](/blogs/saas-social-proof/) signal separate from review counts.
 
 - Named clients [include recognized Series A-C SaaS brands](https://www.omnilabconsulting.com/services/paid-ad-for-b2b-saas) across multiple verticals.
 
@@ -634,7 +634,7 @@ For most B2B SaaS teams, an agency that runs both is more practical. Bing and Go
 
 ### What questions should I ask a Bing Ads agency before signing?
 
-Ask how they define success for Microsoft Ads specifically (SQLs vs leads), for a Bing-specific case study with CPA or pipeline outcomes, how they attribute between Google and Bing, who manages the account day to day, and whether they hold Microsoft Advertising Partner status.
+Ask how they define success for Microsoft Ads specifically (SQLs vs leads), for a Bing-specific case study with CPA or pipeline outcomes, how they attribute between Google and Bing, who manages the account day to day, and whether they hold [Microsoft Advertising](/blogs/microsoft-ads-for-saas/) Partner status.
 
 ## Update History
 

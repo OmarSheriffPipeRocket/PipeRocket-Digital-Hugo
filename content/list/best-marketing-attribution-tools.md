@@ -346,7 +346,7 @@ Ruler Analytics is the only tool in this set with native offline conversion trac
 
 The G2 review base is small (30 reviews) compared to HubSpot or GA4, which limits the validation pool. Reporting flexibility is constrained relative to enterprise BI tools. The dashboard load performance under high lead volumes is a recurring complaint, not an isolated edge case.
 
-- 30 G2 reviews: thin social proof compared to larger tools in this set
+- 30 G2 reviews: thin [social proof](/blogs/saas-social-proof/) compared to larger tools in this set
 - Reporting flexibility limited vs. enterprise BI; no custom dashboard builder
 
 **Our Read**

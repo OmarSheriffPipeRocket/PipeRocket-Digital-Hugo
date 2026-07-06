@@ -368,7 +368,7 @@ It's for SEO-focused agencies managing 5 to 30 client accounts that already need
 
 **Skip If**
 
-It's not the right tool if your reporting needs extend beyond SEO data to paid social, email, or ecommerce metrics. The Report Builder generates SEO-native reports; it doesn't pull Meta Ads or LinkedIn data natively. Agencies running multi-channel reporting need to add a separate tool or use the Agency Pack add-on with supplementary connectors.
+It's not the right tool if your reporting needs extend beyond SEO data to paid social, email, or ecommerce metrics. The Report Builder generates SEO-native reports; it doesn't pull [Meta Ads](/blogs/meta-ads-for-b2b-saas/) or LinkedIn data natively. Agencies running multi-channel reporting need to add a separate tool or use the Agency Pack add-on with supplementary connectors.
 
 **What Sets It Apart**
 
@@ -463,7 +463,7 @@ Some reviewers flag the rigid template structure: making layout changes to an ex
 
 **Weak Points**
 
-Integration breadth is the clearest constraint. 32 integrations covers the core Google and Meta stack, but agencies managing clients with Bing Ads, TikTok, LinkedIn, Pinterest, or less-common CRM integrations will hit walls. No anomaly detection or AI insight layer beyond summary text also limits its value for teams that want proactive data intelligence rather than narrative formatting.
+Integration breadth is the clearest constraint. 32 integrations covers the core Google and Meta stack, but agencies managing clients with [Bing Ads](/blogs/microsoft-ads-for-saas/), TikTok, LinkedIn, Pinterest, or less-common CRM integrations will hit walls. No anomaly detection or AI insight layer beyond summary text also limits its value for teams that want proactive data intelligence rather than narrative formatting.
 
 - 32 integrations: the smallest catalog on this list (vs. 85+ for AgencyAnalytics)
 - Rigid template structure: structural edits require permanently unlinking from master template

@@ -468,7 +468,7 @@ Their named roster of WalkMe, Gong, and Vanta on the [homepage](https://www.remo
 - Featured testimonials on the [agency site](https://www.remotion.io) read as exclusive ("the only agency we would trust").
 
 **Complain:** Zero Clutch reviews
-Their [Clutch profile](https://clutch.co/profile/remotion-0) shows zero reviews despite a decade of operation, so all social proof lives on their own site.
+Their [Clutch profile](https://clutch.co/profile/remotion-0) shows zero reviews despite a decade of operation, so all [social proof](/blogs/saas-social-proof/) lives on their own site.
 
 - The $15K+/mo ad-spend [minimum](https://www.remotion.io/faqs) gates them out for pre-Series A teams.
 

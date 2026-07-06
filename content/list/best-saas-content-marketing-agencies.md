@@ -375,7 +375,7 @@ Buyers on Reddit content threads frequently cite Quoleady's published pricing as
 - BOFU specialization produces signups faster than [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/) ([Clutch](https://clutch.co/profile/quoleady))
 
 **Complain:** Younger agency, thinner review base
-Seven Clutch reviews is still thin for buyers wanting deep social proof ([Clutch](https://clutch.co/profile/quoleady)).
+Seven Clutch reviews is still thin for buyers wanting deep [social proof](/blogs/saas-social-proof/) ([Clutch](https://clutch.co/profile/quoleady)).
 
 - Estonia timezone occasionally noted by US prospects (per Clutch profile location)
 

@@ -439,7 +439,7 @@ Best for: Strategy-Led SaaS Content SEO and Brand Positioning
 
 **My take after reviewing the case studies:** The strongest published revenue proof on this list, real ARR and pipeline dollars tied to named clients, which is rare and hard to fake; the catch is the patient, content-led timeline it takes to get there.
 
-**What to Watch For:** Only 5 Clutch reviews is thin social proof for an agency that pitches strategy-led work. Some third-party listicles repeat unverified client logos (SAP, Adobe, TikTok) that aren't on their case studies page.
+**What to Watch For:** Only 5 Clutch reviews is thin [social proof](/blogs/saas-social-proof/) for an agency that pitches strategy-led work. Some third-party listicles repeat unverified client logos (SAP, Adobe, TikTok) that aren't on their case studies page.
 
 - 5 reviews is a thin sample for strategy-led positioning
 - Watch for logo-name inflation in third-party listings
@@ -995,7 +995,7 @@ Best for: SaaS SEO Within a Demand-Gen System
 - Strong cybersecurity and enterprise SaaS vertical depth
 - HubSpot RevOps integration baked into delivery
 
-**Documented Outcome:** Their [client results page](https://www.poweredbysearch.com/clients-results/) documents named case studies for Fortra, ThreatX, PointClickCare, iWave, TouchBistro, and Cyera. An on-site testimonial says "I 100% recommend Powered By Search. They've completely transformed our paid media strategy."
+**Documented Outcome:** Their [client results page](https://www.poweredbysearch.com/clients-results/) documents named case studies for Fortra, ThreatX, PointClickCare, iWave, TouchBistro, and Cyera. An on-site testimonial says "I 100% recommend Powered By Search. They've completely transformed our [paid media strategy](/blogs/saas-paid-marketing-guide/)."
 
 **Case studies:**
 

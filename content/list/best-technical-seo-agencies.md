@@ -575,7 +575,7 @@ Their SEO Solutions hub covers technical SEO as "collaborating with developers a
 
 - Ex-Zillow SEO leadership at the founding level
 - Advisory plus recruiting plus enablement combination
-- Expanded into AI search optimization in 2026
+- Expanded into [AI search optimization](/blogs/ai-search-optimization-for-saas/) in 2026
 
 **Reviewer Signal**
 

@@ -409,7 +409,7 @@ Best for: SaaS teams scaling paid media where landing page and CRO are the bottl
 
 **Out Of Mandate:** Early product definition stage or buyers needing deep ABM strategy. KlientBoost scales what's working rather than building initial demand frameworks.
 
-**The Thesis:** Most paid agencies optimize ads in isolation, ignoring landing pages where conversions actually happen. KlientBoost runs rapid creative testing alongside CRO, tightening the feedback loop between spend and pipeline.
+**The Thesis:** Most paid agencies optimize ads in isolation, ignoring landing pages where conversions actually happen. KlientBoost runs rapid [creative testing](/blogs/saas-creative-testing/) alongside CRO, tightening the feedback loop between spend and pipeline.
 
 - PPC plus CRO under one retainer
 - 250+ active clients across SaaS, e-commerce, and B2B
@@ -625,7 +625,7 @@ Industry chatter notes Animalz content sometimes struggles to show direct pipeli
 
 - The lack of [verified Clutch reviews](https://clutch.co/profile/animalz) means buyers can't cross-reference pipeline outcomes.
 
-**Verified Wins:** Named clients include WorkOS, 360Learning, Airtable, Amplitude, Atlassian, Auth0, Intercom, Ramp, and Segment. The roster itself is unusual social proof for category leaders in B2B SaaS content.
+**Verified Wins:** Named clients include WorkOS, 360Learning, Airtable, Amplitude, Atlassian, Auth0, Intercom, Ramp, and Segment. The roster itself is unusual [social proof](/blogs/saas-social-proof/) for category leaders in B2B SaaS content.
 
 **Risk Register:** Zero verified Clutch reviews despite long tenure. 2023 headcount reduction (reportedly from ~100 to ~25) raises continuity questions. Pricing floor (~$10K+ project minimum) excludes early-stage startups. Direct pipeline attribution is a known weak point.
 

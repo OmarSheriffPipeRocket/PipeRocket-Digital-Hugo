@@ -626,7 +626,7 @@ Best for: Analytics-First Enterprises That Need to Justify Every SEO Dollar With
 
 **Wrong Buyer:** A growth team that wants aggressive ship-and-iterate execution and views deep analytics reporting as drag.
 
-**Editor's Read:** We'd shortlist Seer when the buying committee includes finance and analytics, and we'd warn growth-led teams to ask about cadence early.
+**Editor's Read:** We'd shortlist Seer when the [buying committee](/blogs/linkedin-buying-committee-saas/) includes finance and analytics, and we'd warn growth-led teams to ask about cadence early.
 
 **What It Costs**
 

@@ -520,7 +520,7 @@ LRT's 24-source data aggregation is the feature that distinguishes it from every
 **Complain:** Verbatim G2 and Capterra quotes were not confirmed from primary pages during research (403 block; thin G2 review pool of 13). The complaints above are synthesized from secondary review sources. Writer should verify at Capterra before publish.
 
 - "$599/mo entry price is prohibitive for all but enterprise teams and agencies with active penalty concerns."
-- "Only 13 G2 reviews: independent social proof is thin relative to the price point." (Source: [G2 seller page](https://www.g2.com/sellers/linkresearchtools-gmbh))
+- "Only 13 G2 reviews: independent [social proof](/blogs/saas-social-proof/) is thin relative to the price point." (Source: [G2 seller page](https://www.g2.com/sellers/linkresearchtools-gmbh))
 
 **Known Gaps**
 

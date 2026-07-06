@@ -328,7 +328,7 @@ Best for: Content creators and bloggers who need rapid question-based keyword id
 
 **What it does well:** AnswerThePublic produces a comprehensive map of how people phrase searches around a topic in seconds. The visual output groups queries by question type (who, what, when, where, why, how), preposition variations, and direct comparisons, which is a faster starting point for content briefs than manual SERP research. The CSV export makes it straightforward to pass keyword clusters to a writer or content strategist.
 
-- Visual keyword map organising search queries by questions, prepositions, comparisons, and alphabetical
+- Visual [keyword map](/blogs/how-to-build-saas-keyword-map-content-calendar/) organising search queries by questions, prepositions, comparisons, and alphabetical
 - Question-based keyword discovery covering who, what, when, where, why, how
 - CSV export of keyword clusters for use in briefs and planning documents
 

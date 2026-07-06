@@ -360,7 +360,7 @@ Best for: AI-search-first SaaS SEO tied to MRR and signups
 
 **Proof point:** Skale's Happy Scribe case study reports organic signups growing from 2,700 to 70,000 with cost per signup falling from EUR 7.15 to EUR 0.08, and its Rezi engagement reports an 86% revenue increase and 243% more organic signups.
 
-**Limitation:** At 16 Clutch reviews and a $4,000 to $5,000/mo floor, Skale is a boutique operation with less public social proof than larger shops. Reviewers cite a backlink-quality ceiling and occasional account-manager continuity issues, and the case-study library is English and Spanish only.
+**Limitation:** At 16 Clutch reviews and a $4,000 to $5,000/mo floor, Skale is a boutique operation with less public [social proof](/blogs/saas-social-proof/) than larger shops. Reviewers cite a backlink-quality ceiling and occasional account-manager continuity issues, and the case-study library is English and Spanish only.
 
 - Boutique review footprint (16 Clutch reviews)
 - Reviewer-noted backlink quality ceiling and account-manager continuity
@@ -482,7 +482,7 @@ Best for: AI-native growth squads with AEO embedded in paid plus organic
 | Notable Clients | Nike, TikTok, Anthropic, AWS, Microsoft, MongoDB |
 | Specialization | Growth marketing, AEO, paid + organic |
 
-**Differentiator:** NoGood pairs AEO with growth-squad delivery, so AI search optimization runs alongside paid acquisition and CRO inside the same pod. Anthropic, AWS, and Microsoft on the client list signal genuine AI-native fluency.
+**Differentiator:** NoGood pairs AEO with growth-squad delivery, so [AI search optimization](/blogs/ai-search-optimization-for-saas/) runs alongside paid acquisition and CRO inside the same pod. Anthropic, AWS, and Microsoft on the client list signal genuine AI-native fluency.
 
 - Dedicated AEO service page targeting ChatGPT, Gemini, Perplexity, AI Overviews
 - Anthropic as a client; AWS and Microsoft also on the roster
@@ -576,7 +576,7 @@ Embarque publishes 4-tier pricing on the homepage, as of June 2026. 3-month mini
 | --- | --- | --- |
 | Lean | $1,500/mo | Foundational AI SEO, content production |
 | Accelerate | $2,800/mo | AI SEO + LLM SEO, backlink building |
-| Scale | $5,000/mo | Full AI SEO program: GEO, AEO, per-LLM optimization |
+| Scale | $5,000/mo | Full [AI SEO program](/blogs/ai-seo-strategy-and-framework/): GEO, AEO, per-LLM optimization |
 | Enterprise | $10,000/mo | Programmatic SEO, all per-LLM service lines |
 
 **What Users Say**
@@ -665,7 +665,7 @@ Best for: B2B SaaS and fintech GEO with a proprietary AI-visibility tool
 
 {{< agency-triptych slug="omnius" name="Omnius" >}}
 
-[Omnius](https://www.omnius.so/) is a B2B SEO and GEO agency working exclusively with SaaS, fintech, and AI companies. It pairs traditional and programmatic SEO with a GEO layer (LLMs.txt, AEO schema, citation engineering) and a proprietary in-house AI-search tracking tool.
+[Omnius](https://www.omnius.so/) is a B2B SEO and GEO agency working exclusively with SaaS, fintech, and AI companies. It pairs traditional and programmatic SEO with a GEO layer ([LLMs.txt](/blogs/llms-txt-for-saas/), AEO schema, citation engineering) and a proprietary in-house AI-search tracking tool.
 
 **At a Glance**
 

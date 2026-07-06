@@ -350,7 +350,7 @@ Best for: B2B SaaS that want pipeline attributed to revenue, not form fills, at 
 | Team Size | Senior-operator model, no junior AM handoffs |
 | Notable Clients | PriceLabs, Hubilo, Rocketlane, Trackxi, Gumlet, Hasura |
 | Specialization | AI-native B2B SaaS demand gen (SQL + pipeline focused) |
-| Key Services | Google/LinkedIn/Meta Ads, ABM, RevOps (HubSpot), landing pages, MCP analytics |
+| Key Services | Google/LinkedIn/[Meta Ads](/blogs/meta-ads-for-b2b-saas/), ABM, RevOps (HubSpot), landing pages, MCP analytics |
 
 **The Approach:** GrowthSpree runs paid across Google, LinkedIn, and Meta alongside signal-based ABM, then pushes optimization past lead volume into SQL count, CAC, and closed-won pipeline. Attribution, RevOps, and landing pages come bundled under one team and one flat fee.
 
@@ -411,7 +411,7 @@ Best for: B2B SaaS that want public tiered pricing and SQL-level optimization.
 | Team Size | 10-49 people |
 | Notable Clients | Global App Testing, Medesk, SellTheTrend, DoxyChain |
 | Specialization | B2B SaaS SQL-focused PPC |
-| Key Services | Google & Bing Ads, LinkedIn/Meta Ads, Capterra/G2/Quora ads, CRO, landing pages |
+| Key Services | Google & [Bing Ads](/blogs/microsoft-ads-for-saas/), LinkedIn/Meta Ads, Capterra/G2/Quora ads, CRO, landing pages |
 
 **The Approach:** Bounty Hunter runs paid across Google, Bing, LinkedIn, Meta, Capterra, G2, and Quora with optimization pushed past lead volume into SQL count and deal velocity. CRO and landing page work is bundled.
 
@@ -541,7 +541,7 @@ Best for: SaaS wanting AI-native execution alongside paid and CRO.
 | Specialization | AI-deployed paid + CRO + SEO |
 | Key Services | Paid search & social (Google, Meta, LinkedIn, TikTok, YouTube), CRO, SEO/AEO, content |
 
-**The Approach:** Single Grain layers AI tooling on top of paid media and CRO so creative testing, audience segmentation, and bidding iterate faster than manual cycles allow. The team positions as implementers, not advisors.
+**The Approach:** Single Grain layers AI tooling on top of paid media and CRO so [creative testing](/blogs/saas-creative-testing/), audience segmentation, and bidding iterate faster than manual cycles allow. The team positions as implementers, not advisors.
 
 - AI-deployed paid across Google, Meta, LinkedIn, TikTok, YouTube.
 - CRO bundled with paid to capture more of the funnel.
@@ -640,7 +640,7 @@ NoGood publishes an average retainer floor above $20,000/month as of June 2026. 
 **Love:** Expert-led testing
 Invisibly's VP of Marketing [called the team](https://clutch.co/profile/nogood) "full of experts, and consistently learning."
 
-- The [public client roster](https://nogood.io) (Nike, MongoDB, Anthropic) carries its own social proof.
+- The [public client roster](https://nogood.io) (Nike, MongoDB, Anthropic) carries its own [social proof](/blogs/saas-social-proof/).
 
 **Complain:** Thin verified base
 [One Clutch review](https://clutch.co/profile/nogood) against a major-brand client list is a procurement red flag.

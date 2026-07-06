@@ -616,7 +616,7 @@ Users on OMR Reviews (4.4/5) cite the breadth of engine coverage and the low ent
 - Direct access to founding team via Slack cited as a meaningful support differentiator at the early stage.
 
 **Complain:** Very new with low review volume; monitoring only.
-"Very new (founded July 2025), low review volume means limited social proof." (via [dageno.ai](https://dageno.ai/blog/rankscale-ai-review-2026))
+"Very new (founded July 2025), low review volume means limited [social proof](/blogs/saas-social-proof/)." (via [dageno.ai](https://dageno.ai/blog/rankscale-ai-review-2026))
 
 - Does not provide optimization recommendations or content generation: monitoring only.
 
