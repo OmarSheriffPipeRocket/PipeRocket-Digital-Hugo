@@ -4,7 +4,7 @@ description: "I’ve sat in your chair. The pressure to fill the pipeline is rea
 metaTitle: "How to Run Google Ads for SaaS in 2026? An Expert's Guide"
 metaDescription: "Wondering how to start running a Google Ads account for your SaaS product? Here's a complete guide based on my 10+ years of experience in SaaS."
 date: 2026-01-21
-lastmod: 2026-05-12
+lastmod: 2026-07-01
 slug: "how-to-run-google-ads-for-saas"
 writtenBy: "praveen"
 category: "SaaS PPC"
@@ -127,7 +127,7 @@ The company had a powerful platform with multiple use-cases for different indust
 
 For example, someone searching for “best messaging app for teams” and another person searching for “Whatsapp alternative” would be seeing the same “Use Slack for Teams” ad.
 
-This “one size fits all” approach meant they were paying for irrelevant traffic that had no intent to buy – with about 60% junk traffic.
+This “one size fits all” approach meant they were paying for irrelevant traffic that had no intent to buy, with about 60% junk traffic.
 
 ### The Fix: Intent-Led Restructuring
 
@@ -187,7 +187,13 @@ Example**:** Keywords like “project management software” or “project manag
 
 Let me give you a piece of advice that will save you thousands of dollars: **Do not use Broad Match when you are launching a new account.**
 
-Broad Match is currently the default setting Google pushes, but it is the “loose cannon” of match types. If you bid on the keyword **CRM Software** in Broad Match, Google might show your ad to someone searching for:
+Broad Match is the match type Google pushes hardest, but it is the “loose cannon” of the three.
+
+A 2026 shift makes this discipline matter more, not less: Google now sets its AI Max option as the default for new Search campaigns, and AI Max leans on broad, AI-driven matching by design. So control your match types and negatives deliberately from day one.
+
+One related housekeeping note: a Google Ads Terms of Service update effective **July 1, 2026** spells out that URLs and text you feed into conversational and other AI-powered ad features can be used across those features to shape campaigns ([Google’s policy](https://support.google.com/google-ads/answer/16875158?hl=en)). Be deliberate about what you hand the machine.
+
+If you bid on the keyword **CRM Software** in Broad Match, Google might show your ad to someone searching for:
 
 - “CRM jobs in Chicago”
 - “What does CRM stand for?”
@@ -224,7 +230,7 @@ The process goes like this:
 - Then **estimate the clicks** you’ll get based on the impressions.
 - Then **estimate the number of conversion**s (leads) you’ll get based on the clicks.
 - Then **find out the average total cost** you’ll be spending by multiplying the total clicks with the average [CPC](/glossary/what-is-cost-per-click/) of the keywords.
-- Now, **divide the total cost with the number of conversions** – this is the amount of money you’re spending to get one lead.
+- Now, **divide the total cost with the number of conversions**. This is the amount of money you’re spending to get one lead.
 - This **number should be less than your sale value**.
 
 Let me walk you through an **example calculation** so you can see how I derive these numbers.
@@ -260,9 +266,9 @@ Congratulations, you’ve finally launched your first campaign. Your ads are ali
 
 ### **1. The Search Terms Report**
 
-This is the most honest report in marketing. It shows you the *actual words* people typed before clicking your ad (not just the keywords you bid on). I review this weekly. If I see a term that is irrelevant—say, someone searched for “Inventory management software *for home use*“—I immediately add “home use” to the Negative Keyword list.
+This is the most honest report in marketing. It shows you the *actual words* people typed before clicking your ad (not just the keywords you bid on). I review this weekly. If I see a term that is irrelevant, say someone searched for “Inventory management software *for home use*,” I immediately add “home use” to the Negative Keyword list.
 
-This is how you refine your traffic. Over time, your wasted spend drops to near zero because you have blocked all the bad terms or maybe even found more relevant keywords. The bar for "relevant" is always your [ICP](/glossary/what-is-icp/) — a cheap click from outside your ideal customer profile is still wasted spend.
+This is how you refine your traffic. Over time, your wasted spend drops to near zero because you have blocked all the bad terms or maybe even found more relevant keywords. The bar for "relevant" is always your [ICP](/glossary/what-is-icp/); a cheap click from outside your ideal customer profile is still wasted spend.
 
 ### **2. CPC Monitoring**
 
@@ -272,7 +278,13 @@ I tell Google, “I am willing to bid on this, but I will not pay more than $50 
 
 ### **3. Budget Pacing (a 2026 change to watch)**
 
-There’s one more budget mechanic I now check on every account. As of **June 1, 2026, Google changed how it paces budgets for campaigns using ad schedules** — it now paces toward the full monthly limit (30.4× your daily budget) instead of the old daily-budget × active-days math ([Search Engine Land](https://searchengineland.com/google-changes-budget-pacing-rules-for-scheduled-campaigns-475107)). Your ads still only run on the days you’ve scheduled — Google won’t serve on disabled days — but on the days they *do* run, it can now spend up to 2× your daily budget to chase that monthly cap. So if you daypart (weekends only, business hours only), monthly spend can climb well past the old math: a weekend-only campaign at $100/day (≈8 days) that used to spend ~$800/month can now pace toward ~$1,600 — the same 8 days, just up to ~$200 each. The fix is simple but easy to miss: size your daily budget against the 30.4× monthly cap, not your active-day count.
+There’s one more budget mechanic I now check on every account. As of **June 1, 2026, Google changed how it paces budgets for campaigns using ad schedules**: it now paces toward the full monthly limit (30.4× your daily budget) instead of the old daily-budget × active-days math ([Search Engine Land](https://searchengineland.com/google-changes-budget-pacing-rules-for-scheduled-campaigns-475107)). Your ads still only run on the days you’ve scheduled, and Google won’t serve on disabled days. But on the days they *do* run, it can now spend up to 2× your daily budget to chase that monthly cap.
+
+So if you daypart (weekends only, business hours only), monthly spend can climb well past the old math. A weekend-only campaign at $100/day (≈8 days) that used to spend ~$800/month can now pace toward ~$1,600: the same 8 days, just up to ~$200 each. The fix is simple but easy to miss: size your daily budget against the 30.4× monthly cap, not your active-day count.
+
+### **4. Bid Strategy Changes (another 2026 item to watch)**
+
+Google is also reworking how automated bidding behaves. On **June 15, 2026 it announced Bidding Target Optimization**, which from **August 17, 2026 auto-applies** to budget-limited, over-delivering campaigns and pulls them back toward your target (a Bid Target Adjustment Tool shipped July 6 to preview the impact first). Google also renamed two familiar strategies: "Maximize conversions with a Target CPA" is now just **Target CPA**, and "Maximize conversion value with a Target ROAS" is now **Target ROAS** ([Google](https://business.google.com/us/accelerate/announcements/)). Same mechanics, cleaner labels. If you inherited an old account, don’t panic when the strategy names look different.
 
 ## **Conclusion**
 
@@ -294,7 +306,7 @@ Honestly, forget the fancy settings for a minute. At its core, Running Google Ad
 
 **The Promise (The Ad):** Write an ad that repeats that phrase back to them. Headline: “Best Automated Payroll Software.”
 
-**The Delivery (The Website):** Send them to a page that actually talks about—you guessed it—automated payroll software. Don’t try to build a massive machine on day one. Just try to get those three things to match perfectly. If you do that, you’re already winning.
+**The Delivery (The Website):** Send them to a page that actually talks about (you guessed it) automated payroll software. Don’t try to build a massive machine on day one. Just try to get those three things to match perfectly. If you do that, you’re already winning.
 
 ### **2. How do I know if I have enough budget to compete?**
 

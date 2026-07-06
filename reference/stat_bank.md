@@ -196,6 +196,7 @@ Cadence: one-off
 Status: fresh
 Referenced-by:
   - content/blogs/b2b-content-marketing-guide.md
+  - content/blogs/research-ai-seo-statistics.md
 Note: bot-blocks curl (403) — verify in browser.
 
 ### cmo-council-87pct-online-content
@@ -250,14 +251,15 @@ Note: 2026-06-23 maintenance — consistent with Gartner's re-confirmed 6–10 b
 ### hubspot-96pct-personalization-sales
 Claim: 96% of marketers say personalized experiences increase sales
 Source: https://www.hubspot.com/state-of-marketing
-Publisher: HubSpot (State of Marketing 2025)
+Publisher: HubSpot (State of Marketing)
 Provenance: primary
 Published: 2025
 Cadence: annual
-Status: fresh
+Status: verify-source
 Referenced-by:
   - content/blogs/b2b-lead-generation.md
 Note: 2026-06-23 — tracking query-string stripped to the bare URL in the blog.
+Note: 2026-07-01 — the 96% figure is NO LONGER on the source URL (now serves the 2026 State of Marketing report without it). b2b-lead-generation.md was reframed qualitatively ("most marketers see personalized experiences lift sales", no number). Do NOT re-cite the 96% until a current HubSpot edition restores it. Kept as verify-source, not deleted, in case a future edition re-publishes a comparable figure.
 
 ### socialinsider-linkedin-video-views
 Claim: LinkedIn pages with 100k–1M followers average ~1,380 video views per post (down from 2,430 a year earlier)
@@ -440,7 +442,7 @@ Published: 2026
 Cadence: recurring
 Status: fresh
 Referenced-by:
-  - (none — no content currently cites this source)
+  - content/blogs/research-ai-seo-statistics.md (×7)
 Note: 2026-06-29 — added from weekly news scan. The branded-search share (55.9%) is the mechanism: AI recommends a brand → user searches the brand name → counts as branded organic, so AI influence hides in branded search (dark-funnel point). Vendor study — label as Similarweb. SEJ recap: https://www.searchenginejournal.com/ai-recommended-brands-saw-2-5x-more-site-visits-similarweb/580241/
 
 ### benchmarkit-saas-cac-payback-16mo
@@ -452,6 +454,7 @@ Published: 2025
 Cadence: annual
 Status: fresh
 Referenced-by:
+  - content/blogs/how-to-forecast-saas-ppc-budget.md
   - content/blogs/saas-marketing-challenges-and-fixes.md
 Note: 2026-07-01 — added during blog refresh of saas-marketing-challenges-and-fixes. Replaced an inverted/overstated in-blog claim (old text framed payback as rising to ~18mo from ~14mo; actual trend improved to ~16mo median). Corroborated by FirstPageSage SaaS CAC payback report + Aleph 2026. Volatile benchmark — re-check annually.
 
