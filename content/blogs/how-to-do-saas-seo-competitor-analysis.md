@@ -75,7 +75,7 @@ Now, I want you to open an Incognito window and search for your target keyword. 
 
 Often, it could be your direct competitor….or not. It might be G2, another company’s blog, or a massive aggregator site.
 
-In mid-2026 you also have to look above the classic blue links. Since Google rebuilt Search around AI Mode at I/O 2026, an AI Overview often sits at the top of the SERP, and the sites it pulls into that answer are now a competitor set of their own. Google’s own guidance is clear here: there’s no separate “AI SEO” trick, the pages that get cited are the same well-structured, genuinely helpful ones that rank organically. So when you check who owns a keyword, note who Google is quoting in the AI answer, not just who holds position #1.
+In mid-2026 you also have to look above the classic blue links. Since Google rebuilt Search around AI Mode at I/O 2026, an [AI Overview](/glossary/what-is-an-ai-overview/) often sits at the top of the SERP, and the sites it pulls into that answer are now a competitor set of their own. Google’s own guidance is clear here: there’s no separate “AI SEO” trick, the pages that get cited are the same well-structured, genuinely helpful ones that rank organically. So when you check who owns a keyword, note who Google is quoting in the AI answer, not just who holds position #1.
 
 Why we analyze them is also different. They are directly stealing your traffic and they are ranking based on SERP Intent. The goal is different here too. We analyze them to copy their ranking strategy.
 

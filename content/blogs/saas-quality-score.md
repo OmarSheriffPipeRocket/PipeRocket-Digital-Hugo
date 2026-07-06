@@ -40,7 +40,7 @@ So before you rebuild anything, understand the three inputs Google is actually s
 
 Quality Score is a rollup of three components, each rated "below average," "average," or "above average" against other advertisers on the same keyword:
 
-- **Expected click-through rate:** how likely your ad is to get clicked when it shows for that keyword.
+- **Expected [click-through rate](/blogs/how-to-improve-organic-ctr/):** how likely your ad is to get clicked when it shows for that keyword.
 - **Ad relevance:** how closely your ad copy matches the intent behind the keyword.
 - **Landing page experience:** how relevant and usable the page is once someone clicks.
 
@@ -75,7 +75,7 @@ One more move that lifts relevance and [CTR](/glossary/what-is-ctr/) at once: pu
 {{< experience author="praveen" title="A $10M SaaS account where relevance was the whole problem" >}}
 We audited a Google Ads account for a SaaS client doing over $10M in revenue, and the core issue was relevance. Every use case saw the same ad: someone searching "best messaging app for teams" and someone searching for a named competitor alternative landed on identical copy, and roughly 60% of the traffic was junk. On a CPC channel that shows up as a soft Quality Score and a climbing cost per click, because the ad never matches the query behind the click.
 
-We restructured around intent: dedicated campaigns per use case and ICP, strict top, middle, and bottom-funnel segmentation, and ad copy written to match each specific search. Over three quarters the account spent about 27% less and returned roughly 59% more revenue. None of that came from a bidding trick. It came from making each ad relevant to the exact search behind it, which is the same lever that moves Quality Score.
+We restructured around intent: dedicated campaigns per use case and [ICP](/glossary/what-is-icp/), strict top, middle, and bottom-funnel segmentation, and ad copy written to match each specific search. Over three quarters the account spent about 27% less and returned roughly 59% more revenue. None of that came from a bidding trick. It came from making each ad relevant to the exact search behind it, which is the same lever that moves Quality Score.
 {{< /experience >}}
 
 ## Landing Page Experience Is Where SaaS Accounts Leak

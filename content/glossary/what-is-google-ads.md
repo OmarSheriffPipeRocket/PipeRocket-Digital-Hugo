@@ -34,7 +34,7 @@ But here’s what most SaaS teams miss: Google Ads isn’t just a “switch on, 
 
 - Pay-per-click model: You only pay when someone clicks your ad, not for impressions or views.
 - Keyword targeting: You choose which search queries trigger your ads, controlling intent and relevance.
-- Ad Rank system: Google decides ad placement using both your bid and your ad’s Quality Score, which factors in relevance and landing page experience.
+- Ad Rank system: Google decides ad placement using both your bid and your ad’s [Quality Score](/blogs/saas-quality-score/), which factors in relevance and landing page experience.
 - Multiple campaign types: Beyond Search, you can also run Display, Shopping, You Tube, and remarketing ads.
 - Auction-based pricing: Every search runs a real-time auction, so you’re always competing for visibility based on your settings.
 
@@ -66,7 +66,7 @@ Let’s look at Taskly, a SaaS for legal workflow automation. When they switched
 
 Every time someone searches, Google runs a real-time auction. Your ad position isn’t just about how much you bid it’s also about relevance, ad quality, and expected impact. This is where small teams can outmaneuver big spenders.
 
-- Ad Rank explained: Google multiplies your bid by your Quality Score (a mix of ad relevance, expected click-through rate, and landing page experience) to assign a rank.
+- Ad Rank explained: Google multiplies your bid by your Quality Score (a mix of ad relevance, expected [click-through rate](/blogs/how-to-improve-organic-ctr/), and landing page experience) to assign a rank.
 - Quality Score math: High Quality Score means you can pay less for better positions; low Quality Score means you’ll pay more or not show up at all.
 - Auction mechanics: Even if you’re outbid, a more relevant ad and better landing page can push you above competitors.
 - Impact on costs: You can often halve your cost-per-click by fixing relevance and page experience, not by increasing your bid.

@@ -94,7 +94,7 @@ The most common mistake? Teams think of GSC as a set-and-forget traffic monitor,
 
 - Ignoring “Excluded” pages: Many SaaS sites have hundreds of “Discovered, not indexed” URLs often signup, onboarding, or support content. That’s traffic (and users) left on the table.
 - Misreading search queries: Teams often chase vanity keywords, missing the long-tail phrases that drive real conversions. GSC’s query data is a goldmine for intent-driven optimization.
-- Not integrating with content strategy: If your content calendar isn’t mapped to GSC data, you’re flying blind. Winning teams build their editorial plans around what’s already working (and what’s missing) in GSC.
+- Not integrating with content strategy: If your [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/) isn’t mapped to GSC data, you’re flying blind. Winning teams build their editorial plans around what’s already working (and what’s missing) in GSC.
 - Forgetting Core Web Vitals: GSC’s Core Web Vitals report is the fastest way to spot slow or glitchy product pages exactly where SaaS buyers drop off.
 - Over-relying on third-party SEO tools: While tools like Ahrefs or Semrush are useful for competitor research, none of them replace GSC’s direct-from-Google data for your own site.
 

@@ -40,7 +40,7 @@ Here’s the pattern interrupt most SaaS marketers miss: running a one-time SEO 
 
 Take Meetly, a scheduling SaaS for small teams. Their first SEO audit flagged 217 duplicate title tags and a robots.txt that blocked half their help docs. Fixing those two issues brought a 41% jump in organic signups in 60 days.
 
-What this means in practice: a real SEO audit isn’t just a tool output or a PDF report. It’s the feedback loop that powers ongoing growth, shapes your content calendar, and feeds into product, not just marketing. If your audit doesn’t surface tough trade-offs or force you to re-prioritize, it’s just busy work.
+What this means in practice: a real SEO audit isn’t just a tool output or a PDF report. It’s the feedback loop that powers ongoing growth, shapes your [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/), and feeds into product, not just marketing. If your audit doesn’t surface tough trade-offs or force you to re-prioritize, it’s just busy work.
 
 ### How to Run an SEO Audit Step by Step
 

@@ -205,7 +205,7 @@ Start from a clean view of the SERP using our [SaaS SEO competitor analysis](/bl
 
 ### **After a Google Core Update**
 
-A core update is the clearest "audit now" signal there is. Google's core updates keep rewarding the same thing, helpful and people-first content, while squeezing thin or outdated pages, and the May 2026 core update was no exception ([Google Search Status](https://status.search.google.com/incidents/wdAXJk6LRRihEjpzEeWE)). If your rankings moved when one rolled out, the update didn't break your site. It re-scored your existing content against that bar. An audit is how you find the pages that slipped and close the quality gap, instead of waiting for the next update to do it to you again.
+A [core update](/blogs/how-to-recover-from-google-core-update/) is the clearest "audit now" signal there is. Google's core updates keep rewarding the same thing, helpful and people-first content, while squeezing thin or outdated pages, and the May 2026 core update was no exception ([Google Search Status](https://status.search.google.com/incidents/wdAXJk6LRRihEjpzEeWE)). If your rankings moved when one rolled out, the update didn't break your site. It re-scored your existing content against that bar. An audit is how you find the pages that slipped and close the quality gap, instead of waiting for the next update to do it to you again.
 
 ### **When Your Organic Traffic Is Stale**
 

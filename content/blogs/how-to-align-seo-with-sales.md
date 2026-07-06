@@ -110,7 +110,7 @@ The borrowed power here is that you're taking the persuasive arguments sales alr
 
 The feedback also runs the other way, and this is the part that builds trust. SEO should ask sales a single recurring question: what are you actually hearing from leads right now? When reps start saying "this one came in already knowing our product" or "they mentioned the [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) on the call," that's your real signal that the alignment is working, long before any dashboard confirms it.
 
-This is the difference between SEO that chases traffic and SEO that chases signals. The work is to answer the questions that move a deal rather than to maximize sessions, and sales is the only team in the building that hears those questions all day. Tie the content calendar to that, and you stop guessing.
+This is the difference between SEO that chases traffic and SEO that chases signals. The work is to answer the questions that move a deal rather than to maximize sessions, and sales is the only team in the building that hears those questions all day. Tie the [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/) to that, and you stop guessing.
 
 One caution. Don't let sales feedback become the only input either, because reps are biased toward the deals in front of them right now and can starve the [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/) that feeds next year's pipeline. Weigh their input heavily for decision-stage pages, lightly for awareness ones.
 

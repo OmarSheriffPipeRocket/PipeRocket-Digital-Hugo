@@ -80,7 +80,7 @@ SERP features are the attention magnets on results pages. They’re not just eye
 - People Also Ask (PAA): Drop-down questions that expand to show short answers and link back to the source, multiplying your visibility.
 - Sitelinks: Extra links beneath a main result, usually for branded queries, increasing real estate and navigation options.
 - Local packs: Maps and business listings shown for location-driven SaaS terms, even for “near me” or regional modifiers.
-- Review stars and ratings: Social proof displayed directly in the SERP, often generated from structured data or third-party review platforms.
+- Review stars and ratings: [Social proof](/blogs/saas-social-proof/) displayed directly in the SERP, often generated from structured data or third-party review platforms.
 
 Most teams fixate on featured snippets, but PAA boxes can drive just as much “second click” traffic for SaaS brands, especially on mid-funnel queries like “best onboarding tips for CRM.”
 

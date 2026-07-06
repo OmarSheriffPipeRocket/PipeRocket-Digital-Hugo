@@ -149,13 +149,13 @@ The signals that earn AI citations are not the same as classic SEO ranking facto
 - **44.2% of all ChatGPT citations pull from the first 30% of a page**, with the middle 40% contributing 31.1% and the final third only 24.7%. ([Ahrefs, 2026](https://ahrefs.com/blog/how-to-rank-on-chatgpt/))
 - Cited content shows an **entity density of about 20.6%**, three to four times higher than standard prose, so AI favors content dense with named people, brands, and products. ([Ahrefs, 2026](https://ahrefs.com/blog/how-to-rank-on-chatgpt/))
 - **[Schema markup](/glossary/what-is-schema-markup/) showed no causal lift in AI citations** across 1,885 pages that added JSON-LD versus 4,000 control pages; all changes fell within statistical noise. ([Ahrefs, via Search Engine Land, 2026](https://searchengineland.com/schema-markup-ai-search-no-hype-472339))
-- **llms.txt showed no measurable effect on how often a domain is cited by LLMs** in a 300,000-domain analysis. ([SE Ranking, November 2025](https://seranking.com/blog/llms-txt/))
+- **[llms.txt](/blogs/llms-txt-for-saas/) showed no measurable effect on how often a domain is cited by LLMs** in a 300,000-domain analysis. ([SE Ranking, November 2025](https://seranking.com/blog/llms-txt/))
 
 ## Top Cited Domains and Content Formats in AI Answers
 
 AI engines pull from a narrow, predictable set of domains and formats. Knowing which ones tells you where to build presence.
 
-- **Wikipedia is the single largest source in ChatGPT's top 1,000 cited pages at 29.7%**, followed by homepages and landing pages (23.8%) and educational pages (19.4%). ([Ahrefs, October 2025](https://ahrefs.com/blog/chatgpts-most-cited-pages/))
+- **Wikipedia is the single largest source in ChatGPT's top 1,000 cited pages at 29.7%**, followed by homepages and [landing pages](/glossary/what-is-a-landing-page/) (23.8%) and educational pages (19.4%). ([Ahrefs, October 2025](https://ahrefs.com/blog/chatgpts-most-cited-pages/))
 - **Only 32.3% of ChatGPT's top-cited content types are ones marketers can directly influence**; the remaining 67.7% are formats like Wikipedia and organizational homepages. ([Ahrefs, October 2025](https://ahrefs.com/blog/chatgpts-most-cited-pages/))
 - **28.3% of ChatGPT's top-cited pages have zero organic Google keyword rankings**, confirming AI citation and classic SEO ranking are increasingly separate games. ([Ahrefs, October 2025](https://ahrefs.com/blog/chatgpts-most-cited-pages/))
 - **Reddit is the most-cited domain in Perplexity and Google AI Mode, and second only to Wikipedia in ChatGPT**, based on over 1 million citations analyzed. ([Otterly.AI, February 2026](https://otterly.ai/blog/the-ai-citations-report-2026/))
@@ -231,11 +231,11 @@ Beyond our proprietary dataset, here is what broader industry research tells us 
 - **ChatGPT only cites 15% of the pages it retrieves**, 85% of sources retrieved during a search session are never cited in the final response.
 - Sites with over **32,000 referring domains are 3.5x more likely to be cited by ChatGPT** than sites with up to 200 referring domains.
 - The zero-click rate on Google **exceeded 65% in Q1 2026**, up from 58.5% in late 2025. On mobile, it reaches 77%.
-- AI Overviews now trigger on **30%+ of Google queries** in 2026, up from just 13% in March 2025, and when they appear, organic CTR drops by 61%.
+- AI Overviews now trigger on **30%+ of Google queries** in 2026, up from just 13% in March 2025, and when they appear, [organic CTR](/blogs/how-to-improve-organic-ctr/) drops by 61%.
 
 ## AI SEO Statistics for B2B SaaS and Technology
 
-These figures come from Conductor's 2026 AEO/GEO benchmarks for the Information Technology sector, the vertical closest to most [B2B SaaS SEO](/saas-seo-agency/) programs.
+These figures come from Conductor's 2026 [AEO](/glossary/what-is-aeo/)/GEO benchmarks for the Information Technology sector, the vertical closest to most [B2B SaaS SEO](/saas-seo-agency/) programs.
 
 - AI Overviews appear on **11.4% of page-one Google queries** in the IT industry, rising to **19.4% for technology hardware** and **10.8% for software and services**. ([Conductor, April 2026](https://www.conductor.com/academy/information-technology-aeo-geo-benchmarks/))
 - AI referral traffic accounts for **2.80% of all website visits** in IT, and **3.37% in software and services**, one of the higher shares of any sector tracked. ([Conductor, April 2026](https://www.conductor.com/academy/information-technology-aeo-geo-benchmarks/))
@@ -347,7 +347,7 @@ If AI crawlers cannot reach your pages, none of the citation factors matter. Cra
 
 ## GEO and AEO Market Size Statistics (2026)
 
-Generative Engine Optimization has gone from a niche term to a budgeted line item, and the market projections reflect it. If you want a partner, see our [AEO and GEO agency](/aeo-geo-agency/).
+[Generative Engine Optimization](/blogs/how-to-do-geo-for-saas/) has gone from a niche term to a budgeted line item, and the market projections reflect it. If you want a partner, see our [AEO and GEO agency](/aeo-geo-agency/).
 
 - One estimate puts the **global GEO market at $1.09 billion in 2026**, growing to $17.1 billion by 2034, a 40.6% CAGR. ([Dimension Market Research, February 2026](https://dimensionmarketresearch.com/report/generative-engine-optimization-geo-market/))
 - The **US GEO market alone is projected at $365.4 million in 2026**, reaching $6.36 billion by 2034, a 42.9% CAGR. ([Dimension Market Research, February 2026](https://dimensionmarketresearch.com/report/us-generative-engine-optimization-market/))

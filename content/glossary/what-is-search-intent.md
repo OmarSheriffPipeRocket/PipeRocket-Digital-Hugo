@@ -34,7 +34,7 @@ Here's where most SaaS teams get this wrong. They research keywords, find volume
 - **[Informational intent](/glossary/what-is-an-informational-keyword/):** The searcher wants to learn. "What is MRR," "how does SaaS billing work." Best matched with educational content like glossary entries and how-to guides.
 - **Navigational intent:** The searcher wants a specific site or page. "Stripe login," "HubSpot blog." Usually your own brand searches or a competitor's. No content strategy needed here.
 - **[Commercial intent](/glossary/what-is-a-commercial-keyword/):** The searcher is researching before a decision. "Best CRM for SaaS," "Intercom alternatives." Best matched with [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), listicles, and alternative pages.
-- **[Transactional intent](/glossary/what-is-a-transactional-keyword/):** The searcher is ready to act. "Buy Salesforce," "Intercom free trial." Best matched with product pages, pricing pages, and conversion-focused landing pages.
+- **[Transactional intent](/glossary/what-is-a-transactional-keyword/):** The searcher is ready to act. "Buy Salesforce," "Intercom free trial." Best matched with product pages, pricing pages, and conversion-focused [landing pages](/glossary/what-is-a-landing-page/).
 
 Consider a SaaS built for legal operations teams. The keyword "contract management" is mostly informational. "Contract management software comparison" is commercial. Building an informational blog post to rank for the second query is a mismatch Google penalises by ranking a comparison page ahead of yours.
 

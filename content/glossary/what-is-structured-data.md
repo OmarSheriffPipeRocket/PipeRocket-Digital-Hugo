@@ -66,7 +66,7 @@ There’s no one-size-fits-all markup. The biggest mistake? Slapping on “Organ
 
 - Software Application: Describes SaaS products, features, pricing, platforms, and integrations ideal for product and [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/).
 - FAQPage: Highlights question-answer content, unlocking FAQ rich results that can claim more [SERP](/glossary/what-is-serp/) real estate.
-- Review & Aggregate Rating: Showcases customer feedback and ratings powerful social proof, especially for B2B buyers.
+- Review & Aggregate Rating: Showcases customer feedback and ratings powerful [social proof](/blogs/saas-social-proof/), especially for B2B buyers.
 - How To: Outlines step-by-step guides or onboarding flows, making you eligible for how-to rich snippets.
 - Breadcrumb List: Clarifies site structure, improving both user navigation and how search engines crawl your site.
 
@@ -112,7 +112,7 @@ Another common trap: automating schema across thousands of pages without real di
 Structured data isn’t magic on its own it’s a force multiplier when tightly integrated with your keyword strategy, content hierarchy, and buyer journeys. The best SaaS teams don’t just “add schema” they use it to reinforce the topics, questions, and features their ICPs actually search for.
 
 - Keyword alignment: Schema types like FAQPage or How To let you target long-tail, intent-rich queries, capturing more qualified traffic.
-- Content clusters: Grouping content and schema by persona or use case (e.g., by industry vertical) builds [topical authority](/blogs/how-to-improve-topical-authority/) and better internal linking, which Google rewards.
+- Content clusters: Grouping content and schema by persona or use case (e.g., by industry vertical) builds [topical authority](/blogs/how-to-improve-topical-authority/) and better [internal linking](/blogs/how-to-use-internal-linking/), which Google rewards.
 - SERP differentiation: Rich snippets and enhanced listings help you stand out in crowded SaaS categories especially in competitive B2B markets.
 - Performance tracking: Teams that measure which schema types actually drive rich results and traffic can double down on what works, instead of blindly tagging everything.
 

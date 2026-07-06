@@ -72,7 +72,7 @@ Take Onboard IQ, a platform for HR managers. They launched a partner marketing p
 
 The best performance marketing channels for SaaS are those where you can track user actions all the way from click to revenue typically search ads, paid social, partner and affiliate programs, and sometimes influencer campaigns with structured payouts. The right channel depends on your buyer, product, and how fast you need results.
 
-- Paid search (Google Ads, Bing Ads): Targets high-intent buyers searching for your solution; ideal for demo or trial signups.
+- Paid search (Google Ads, [Bing Ads](/blogs/microsoft-ads-for-saas/)): Targets high-intent buyers searching for your solution; ideal for demo or trial signups.
 - Paid social (Linked In, Facebook, Twitter): Good for reaching niche audiences, but watch out for low-intent, expensive leads if targeting is broad.
 - Affiliate partnerships: Partners promote your SaaS and get paid only when leads or sales are verified; scales well if you have a clear [ICP](/glossary/what-is-icp/).
 - Influencer/performance PR: You pay influencers or PR outlets only for signups or revenue attributed to specific campaigns.

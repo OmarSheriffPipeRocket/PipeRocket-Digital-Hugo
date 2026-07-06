@@ -21,7 +21,7 @@ User generated content (UGC) is any text, images, videos, or reviews created and
 
 - User generated content is any contribution made by real users, not the brand, including reviews, forum posts, and customer videos.
 - Most companies treat UGC as a side effect, but actively curating it often delivers more trust than polished brand content ever can.
-- UGC drives organic growth by giving buyers social proof and content that feels genuine, not scripted.
+- UGC drives organic growth by giving buyers [social proof](/blogs/saas-social-proof/) and content that feels genuine, not scripted.
 - Relying only on brand-created content misses the nuance and credibility users bring this is why review sites and community forums outperform official guides in conversion influence.
 - Actively encouraging UGC requires real effort in moderation and incentives, but the upside is compounding credibility that paid campaigns rarely match.
 

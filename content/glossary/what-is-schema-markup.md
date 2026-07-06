@@ -83,7 +83,7 @@ Here’s what most teams miss: defaulting to Organization or Website schema is j
 
 - Software Application: Describes your SaaS product, including its name, operating system, pricing, ratings, and more this is foundational for most SaaS homepages and feature pages.
 - Product: Best for solutions with tiered plans or physical elements (like hardware SaaS), this schema highlights features, price, and reviews.
-- Review and Aggregate Rating: Showcases testimonials, user feedback, and ratings, helping you build social proof and increase trust.
+- Review and Aggregate Rating: Showcases testimonials, user feedback, and ratings, helping you build [social proof](/blogs/saas-social-proof/) and increase trust.
 - FAQPage: Supports expanded FAQ snippets in the SERP, which can push competitors further down the page.
 - Breadcrumb List: Improves navigation and site structure signals for both users and search engines.
 
@@ -137,7 +137,7 @@ Schema markup is a specific vocabulary of structured data, using code from schem
 
 ### Do I need schema markup if I already have good rankings?
 
-Schema markup is not strictly required for strong rankings, but it gives your listings more visibility and click appeal. Even if your SaaS site ranks well, adding schema can unlock rich snippets (like stars, FAQs, or sitelinks) that set you apart from competitors. Sites with rich results typically see up to 30% higher organic CTR, so skipping schema leaves real traffic on the table.
+Schema markup is not strictly required for strong rankings, but it gives your listings more visibility and click appeal. Even if your SaaS site ranks well, adding schema can unlock rich snippets (like stars, FAQs, or sitelinks) that set you apart from competitors. Sites with rich results typically see up to 30% higher [organic CTR](/blogs/how-to-improve-organic-ctr/), so skipping schema leaves real traffic on the table.
 
 ### Which SaaS pages benefit most from schema markup?
 

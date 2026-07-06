@@ -288,7 +288,7 @@ Top-of-funnel works best with educational blogs, “how-to” guides, and compar
 
 ### **4. How often should a SaaS company publish content and how do we scale production?**
 
-Most SaaS companies see results by publishing 4–8 high-quality pieces per month. To scale, build topic clusters, create templates, repurpose long-form content into multiple formats, and use a content calendar tied to your goals. In SaaS, consistency matters more than volume, so focus on predictable production rather than daily posting.
+Most SaaS companies see results by publishing 4–8 high-quality pieces per month. To scale, build topic clusters, create templates, repurpose long-form content into multiple formats, and use a [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/) tied to your goals. In SaaS, consistency matters more than volume, so focus on predictable production rather than daily posting.
 
 ### **5. How can SaaS content marketing help reduce churn and boost customer expansion?**
 

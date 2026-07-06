@@ -97,7 +97,7 @@ The bottom line: If your positioning isn’t working, you’ll feel it everywher
 
 ## How Should Brand Positioning Shape SaaS Marketing and Sales?
 
-Brand positioning should drive every marketing campaign, sales sequence, and even your content calendar. If you know exactly who you’re for (and who you’re not), you attract higher-fit leads, run more effective paid campaigns, and close more deals at higher prices.
+Brand positioning should drive every marketing campaign, sales sequence, and even your [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/). If you know exactly who you’re for (and who you’re not), you attract higher-fit leads, run more effective paid campaigns, and close more deals at higher prices.
 
 Teams that treat positioning as “just a website exercise” miss the point: it’s the filter for every decision which channels to double down on, which conferences to sponsor, which integrations to build, and what messaging your SDRs lead with.
 

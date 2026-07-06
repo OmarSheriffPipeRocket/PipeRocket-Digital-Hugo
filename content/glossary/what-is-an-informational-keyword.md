@@ -32,7 +32,7 @@ Google classifies these queries differently from commercial or transactional one
 - **Definitional queries:** "What is X" format. The searcher wants a clear explanation of a concept. Glossary entries and educational blog posts match this intent.
 - **How-to queries:** "How to do X" or "how does X work." The searcher wants a process or method. Step-by-step guides match this intent.
 - **Why queries:** "Why does X happen" or "why is X important." The searcher is building context or diagnosing a problem. Analytical content fits here.
-- **Concept comparisons (not products):** "Difference between MRR and ARR," "[SEO](/glossary/what-is-seo/) vs SEM." The searcher is learning the territory, not evaluating vendors.
+- **Concept comparisons (not products):** "Difference between MRR and [ARR](/glossary/what-is-arr/)," "[SEO](/glossary/what-is-seo/) vs SEM." The searcher is learning the territory, not evaluating vendors.
 - **Research queries:** "SaaS churn benchmarks," "average CAC for B2B SaaS." The searcher is gathering data to inform a decision, but isn't ready to make one yet.
 
 Consider an onboarding SaaS built for mid-market HR teams. A query like "what is employee onboarding" is informational. The searcher is probably an HR manager learning the concept, not a procurement lead ready to evaluate software. That's a very different audience from someone searching "best onboarding software for remote teams."

@@ -564,6 +564,17 @@ LINK_MAP = [
     ("Mouseflow alternatives", "/alternative/mouseflow-alternatives/", False, "P2"),
     ("Bombora alternatives", "/alternative/bombora-alternatives/", False, "P2"),
     ("Mutiny alternatives", "/alternative/mutiny-alternatives/", False, "P2"),
+    # ---- alternatives batch added 2026-07-06 ----
+    ("Cognism alternatives", "/alternative/cognism-alternatives/", False, "P2"),
+    ("Lusha alternatives", "/alternative/lusha-alternatives/", False, "P2"),
+    ("Leadfeeder alternatives", "/alternative/leadfeeder-alternatives/", False, "P2"),
+    ("VWO alternatives", "/alternative/vwo-alternatives/", False, "P2"),
+    ("Optimizely alternatives", "/alternative/optimizely-alternatives/", False, "P2"),
+    ("Instapage alternatives", "/alternative/instapage-alternatives/", False, "P2"),
+    ("Writesonic alternatives", "/alternative/writesonic-alternatives/", False, "P2"),
+    ("Conductor alternatives", "/alternative/conductor-alternatives/", False, "P2"),
+    ("RollWorks alternatives", "/alternative/rollworks-alternatives/", False, "P2"),
+    ("Factors.ai alternatives", "/alternative/factors-ai-alternatives/", False, "P2"),
     ("AI content detector", "/list/best-ai-content-detector/", False, "P1"),
     # ---- SEO audit tools listicle added 2026-06-18 ----
     ("SEO audit tools", "/list/best-seo-audit-tools/", False, "P1"),
@@ -595,6 +606,45 @@ LINK_MAP = [
     ("buying committee", "/blogs/linkedin-buying-committee-saas/", False, "P0"),
     ("SaaS buying committee", "/blogs/linkedin-buying-committee-saas/", False, "P0"),
     ("target the buying committee", "/blogs/linkedin-buying-committee-saas/", False, "P0"),
+
+    # ---- new blog batch added 2026-07-06 (10 blogs) ----
+    # AI SEO strategy pillar (+ register the existing ai-search-optimization hub, previously orphaned)
+    ("AI SEO strategy", "/blogs/ai-seo-strategy-and-framework/", False, "P0"),
+    ("AI SEO framework", "/blogs/ai-seo-strategy-and-framework/", False, "P0"),
+    ("AI SEO program", "/blogs/ai-seo-strategy-and-framework/", False, "P1"),
+    ("AI search optimization", "/blogs/ai-search-optimization-for-saas/", False, "P0"),
+    ("AI search optimization for SaaS", "/blogs/ai-search-optimization-for-saas/", False, "P0"),
+    # SaaS paid marketing pillar
+    ("SaaS paid marketing", "/blogs/saas-paid-marketing-guide/", False, "P0"),
+    ("paid marketing for SaaS", "/blogs/saas-paid-marketing-guide/", False, "P0"),
+    ("paid media strategy", "/blogs/saas-paid-marketing-guide/", False, "P1"),
+    # LinkedIn Ads pillar
+    ("LinkedIn Ads for SaaS", "/blogs/linkedin-ads-for-saas-guide/", False, "P0"),
+    ("LinkedIn advertising", "/blogs/linkedin-ads-for-saas-guide/", False, "P1"),
+    # Google core update recovery
+    ("Google core update", "/blogs/how-to-recover-from-google-core-update/", False, "P0"),
+    ("core update", "/blogs/how-to-recover-from-google-core-update/", False, "P1"),
+    ("ranking drop", "/blogs/how-to-recover-from-google-core-update/", False, "P1"),
+    # Organic CTR
+    ("organic CTR", "/blogs/how-to-improve-organic-ctr/", False, "P0"),
+    ("click-through rate", "/blogs/how-to-improve-organic-ctr/", False, "P1"),
+    # Keyword map + content calendar
+    ("keyword map", "/blogs/how-to-build-saas-keyword-map-content-calendar/", False, "P0"),
+    ("content calendar", "/blogs/how-to-build-saas-keyword-map-content-calendar/", False, "P1"),
+    # Microsoft (Bing) Ads
+    ("Microsoft Advertising", "/blogs/microsoft-ads-for-saas/", False, "P0"),
+    ("Microsoft Ads", "/blogs/microsoft-ads-for-saas/", False, "P1"),
+    ("Bing Ads", "/blogs/microsoft-ads-for-saas/", False, "P1"),
+    # ABM paid playbook
+    ("paid ABM", "/blogs/abm-for-saas-paid-playbook/", False, "P0"),
+    ("ABM playbook", "/blogs/abm-for-saas-paid-playbook/", False, "P1"),
+    # ChatGPT Ads
+    ("ChatGPT ads", "/blogs/chatgpt-ads-for-saas/", False, "P0"),
+    ("ChatGPT advertising", "/blogs/chatgpt-ads-for-saas/", False, "P1"),
+    # SaaS PPC budget forecast
+    ("PPC budget", "/blogs/how-to-forecast-saas-ppc-budget/", False, "P0"),
+    ("forecast PPC budget", "/blogs/how-to-forecast-saas-ppc-budget/", False, "P0"),
+    ("PPC forecast", "/blogs/how-to-forecast-saas-ppc-budget/", False, "P1"),
 
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),

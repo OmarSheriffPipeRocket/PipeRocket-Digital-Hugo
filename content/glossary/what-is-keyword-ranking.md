@@ -65,7 +65,7 @@ Here's the part most SaaS teams underestimate. Ranking isn't just about the page
 
 "Good" depends entirely on the keyword. For a high-volume competitive term like "project management software," cracking the top twenty is a real milestone for a newer domain. For a specific long-tail query like "project management tool for architecture firms," the top five should be achievable within months.
 
-The click-through rate data tells the honest story. Position one gets roughly 28% of clicks. Position three drops to about 11%. By position ten, you're below 3%. Below page one, clicks are close to zero.
+The [click-through rate](/blogs/how-to-improve-organic-ctr/) data tells the honest story. Position one gets roughly 28% of clicks. Position three drops to about 11%. By position ten, you're below 3%. Below page one, clicks are close to zero.
 
 - **Positions one to three:** Where most organic clicks go. Worth targeting for any keyword with real buyer intent at your domain's authority level.
 - **Positions four to ten:** Still valuable, especially for bottom-of-funnel queries close to a decision. A position seven ranking for a BOFU comparison keyword can still drive pipeline.

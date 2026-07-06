@@ -64,7 +64,7 @@ Most people think 301 redirects preserve all your hard-won SEO value. The truth:
 - Soft 404 risk: Redirecting every old URL to the homepage signals to Google the content is gone not moved often leading to deindexing.
 - Penalty triggers: Mass 301s used to cover up thin content, doorway pages, or expired offers can trigger manual spam actions.
 
-**Fast Fact:** Organic search drives 91.3% of SaaS traffic so even a 5% ranking drop after 301 errors can tank lead volume for months.
+**Fast Fact:** Organic search drives 91.3% of SaaS traffic so even a 5% [ranking drop](/blogs/how-to-recover-from-google-core-update/) after 301 errors can tank lead volume for months.
 
 Here’s what actually works: map every old URL to a new destination with matching intent and content depth. A SaaS onboarding flow, for instance, should redirect to the new onboarding not a generic “features” page. When “Formlytic,” a user feedback SaaS, merged two product lines, mapping specific feature guides to new equivalents preserved 98% of their blog’s search traffic, while a competitor lost 22% by redirecting everything to the homepage.
 

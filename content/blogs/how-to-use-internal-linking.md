@@ -78,7 +78,7 @@ Links should flow downward through the funnel:
 
 TOFU content earns the traffic, and the links carry that authority toward the pages that close deals.
 
-The trade-off: some of your TOFU blogs won't link to each other much at all. That feels counterintuitive when you're trying to build [topical authority](/blogs/how-to-improve-topical-authority/). But **horizontal TOFU-to-TOFU linking is mostly content calendar navigation, not funnel architecture.**
+The trade-off: some of your TOFU blogs won't link to each other much at all. That feels counterintuitive when you're trying to build [topical authority](/blogs/how-to-improve-topical-authority/). But **horizontal TOFU-to-TOFU linking is mostly [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/) navigation, not funnel architecture.**
 
 ## Step 3: Use Anchor Text That Describes the Destination Page's Target Keyword
 

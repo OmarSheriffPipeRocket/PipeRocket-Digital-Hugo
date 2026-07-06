@@ -104,7 +104,7 @@ A bigger list feels like more strategy, but the number that matters is the clust
 
 ## How PipeRocket Digital Builds Keyword Clusters for SaaS
 
-We start every SaaS [SEO](/glossary/what-is-seo/) engagement by mapping the full topic universe into clusters before anyone briefs a page, so the plan targets real intent and your pages never compete against each other. That map becomes the build order: BOFU clusters first, pillar-and-spoke structure, links pointing at conversion. If you want this run for your product, our [SaaS SEO agency](https://piperocket.digital/saas-seo-agency/) team does it end to end, or you can [get in touch](https://piperocket.digital/contact-us/) to talk through your current keyword map.
+We start every SaaS [SEO](/glossary/what-is-seo/) engagement by mapping the full topic universe into clusters before anyone briefs a page, so the plan targets real intent and your pages never compete against each other. That map becomes the build order: BOFU clusters first, pillar-and-spoke structure, links pointing at conversion. If you want this run for your product, our [SaaS SEO agency](https://piperocket.digital/saas-seo-agency/) team does it end to end, or you can [get in touch](https://piperocket.digital/contact-us/) to talk through your current [keyword map](/blogs/how-to-build-saas-keyword-map-content-calendar/).
 
 ## Frequently Asked Questions
 

@@ -124,7 +124,7 @@ Compare impressions against clicks for your informational queries in Google Sear
 
 ### 3. Can you opt out of AI Overviews without leaving Google entirely?
 
-Not cleanly. The `nosnippet` and `max-snippet` directives limit what Google can quote from your page, which keeps you out of Overview answers, but they also gut your regular snippets and can hurt normal organic CTR. There's no setting that says "rank me but don't summarize me." For most SaaS sites, opting out costs more visibility than the Overview takes, so the better move is deciding which pages should be quotable and structuring accordingly.
+Not cleanly. The `nosnippet` and `max-snippet` directives limit what Google can quote from your page, which keeps you out of Overview answers, but they also gut your regular snippets and can hurt normal [organic CTR](/blogs/how-to-improve-organic-ctr/). There's no setting that says "rank me but don't summarize me." For most SaaS sites, opting out costs more visibility than the Overview takes, so the better move is deciding which pages should be quotable and structuring accordingly.
 
 ## The Bottom Line
 

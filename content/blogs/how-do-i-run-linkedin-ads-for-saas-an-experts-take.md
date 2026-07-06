@@ -106,7 +106,7 @@ When I looked inside their ad account, I found two massive [LinkedIn Ads mistake
 
 ### Mistake 1: The “Spray and Pray” Targeting
 
-They had a modest budget, enough to reach maybe a few thousand people effectively. However, their targeting was set to “Broad.” They were targeting hundreds of thousands of people. If you’re running LinkedIn Ads for SaaS, this is the easiest way to burn cash.
+They had a modest budget, enough to reach maybe a few thousand people effectively. However, their targeting was set to “Broad.” They were targeting hundreds of thousands of people. If you’re running [LinkedIn Ads for SaaS](/blogs/linkedin-ads-for-saas-guide/), this is the easiest way to burn cash.
 
 **The Result:** Their **Audience penetration** was abysmal at around 2%. Audience penetration is the metric that shows you how much of your target audience you’ve reached through the ad. They were showing ads but influencing none. Because they didn’t use filters for Company Size or Seniority, they were paying for impressions on irrelevant junior employees and small businesses.
 

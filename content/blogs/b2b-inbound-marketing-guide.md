@@ -149,7 +149,7 @@ Audit everything. See what’s performing (getting traffic/clicks) and what’s 
 Now, match your customer’s problems to search terms. Use tools like SEMrush or Ahrefs to find out what your personas are typing into Google.
 
 - Don’t just look for high volume; look for intent. A keyword like “marketing software price” is much more valuable than just “what is marketing.”
-- Create a content calendar that maps these topics to the buyer’s journey. Ensure you have a mix of educational “how-to” guides and product-focused solutions.
+- Create a [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/) that maps these topics to the buyer’s journey. Ensure you have a mix of educational “how-to” guides and product-focused solutions.
 
 ### 4. Create Cornerstone Content and Lead Magnets
 

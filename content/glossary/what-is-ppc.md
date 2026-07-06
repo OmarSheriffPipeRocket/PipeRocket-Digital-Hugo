@@ -30,7 +30,7 @@ PPC (pay-per-click) is a digital advertising model where advertisers pay each ti
 
 PPC (pay-per-click) is a paid online advertising model where you pay only when someone clicks your ad, not for views or impressions. The most popular PPC channel is search think Google Ads but it also covers paid ads on social networks and other digital platforms. The promise: instant, targeted exposure. The catch: every click costs real money, so mistakes add up fast.
 
-- Auction-based bidding: Your ad placement depends on how much you bid for each click, combined with factors like ad relevance and expected click-through rate.
+- Auction-based bidding: Your ad placement depends on how much you bid for each click, combined with factors like ad relevance and expected [click-through rate](/blogs/how-to-improve-organic-ctr/).
 - Targeted keywords: In search PPC, you choose specific keywords so your ads show only when users search for terms you care about.
 - Budget control: You set a daily or monthly budget, but poorly managed campaigns can eat through it quickly without delivering real results.
 - Ad copy and landing pages: Your messaging and where you send users after the click directly affect conversion rates a great ad with a weak landing page is wasted spend.
@@ -68,7 +68,7 @@ PPC platforms like Google Ads and Linked In run on auction-based systems where a
 
 Most teams start with Google Ads because it captures high-intent searchers, but B2B SaaS brands often find Linked In delivers better lead quality at a higher cost by targeting specific job roles, industries, or companies.
 
-- Google Ads: Lets you target by keyword, location, device, audience, and more. The ad auction combines your bid with a “Quality Score” based on relevance and landing page experience.
+- Google Ads: Lets you target by keyword, location, device, audience, and more. The ad auction combines your bid with a “[Quality Score](/blogs/saas-quality-score/)” based on relevance and landing page experience.
 - Linked In Ads: Focuses on professional attributes job title, company size, industry. Great for [ABM](/glossary/what-is-abm/), but click costs are usually higher than Google.
 - Facebook/Meta Ads: Strong for broad awareness and retargeting, but intent is lower for most B2B offers.
 - Other channels: Twitter/X, You Tube, and niche platforms can work, but volume and intent may not match Google or Linked In for SaaS.

@@ -101,7 +101,7 @@ I expected duplicates of what Vanta and Drata already ranked for. Instead it sur
 That language is where the un-contested cluster opportunities hide.
 {{< /experience >}}
 
-Those 2,400 keywords weren't a content calendar. Grouped by intent, they became topics, and topics tell you how many pages a cluster actually needs. "What is GRC," "GRC components," and "GRC examples" all map to one pillar page, not three thin articles.
+Those 2,400 keywords weren't a [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/). Grouped by intent, they became topics, and topics tell you how many pages a cluster actually needs. "What is GRC," "GRC components," and "GRC examples" all map to one pillar page, not three thin articles.
 
 That's how a 2,400-keyword mess collapses into a tight, buildable cluster map instead of a backlog.
 

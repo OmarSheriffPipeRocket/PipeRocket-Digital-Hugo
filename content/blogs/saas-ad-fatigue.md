@@ -117,7 +117,7 @@ We treat ad fatigue as a systems problem to engineer against. When we audit a st
 
 ### What is ad fatigue in paid advertising?
 
-Ad fatigue is when your target audience has seen the same ad so many times that they stop engaging with it, so click-through rate falls while your cost per click or impression rises. The platform is effectively charging you more to keep serving a message people have already tuned out. It's most acute on small, high-value B2B audiences, where the reachable pool is tiny and a single creative gets over-served quickly. The signature is rising frequency and falling CTR moving together over several weeks.
+Ad fatigue is when your target audience has seen the same ad so many times that they stop engaging with it, so [click-through rate](/blogs/how-to-improve-organic-ctr/) falls while your cost per click or impression rises. The platform is effectively charging you more to keep serving a message people have already tuned out. It's most acute on small, high-value B2B audiences, where the reachable pool is tiny and a single creative gets over-served quickly. The signature is rising frequency and falling CTR moving together over several weeks.
 
 ### How do you know if your ads are fatigued or just underperforming?
 

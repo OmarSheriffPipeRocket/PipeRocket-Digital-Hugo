@@ -128,7 +128,7 @@ Google does not use meta descriptions as a direct ranking factor. They don’t a
 
 ### What happens if I don’t write a meta description?
 
-If you don’t provide a meta description, Google will automatically generate one from on-page content or user reviews. This often leads to incomplete or irrelevant snippets, which can lower your click-through rate and attract unqualified visitors. Writing your own gives you control over your message.
+If you don’t provide a meta description, Google will automatically generate one from on-page content or user reviews. This often leads to incomplete or irrelevant snippets, which can lower your [click-through rate](/blogs/how-to-improve-organic-ctr/) and attract unqualified visitors. Writing your own gives you control over your message.
 
 ## The Bottom Line
 

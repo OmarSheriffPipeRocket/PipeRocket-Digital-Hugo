@@ -297,7 +297,7 @@ What this does:
 
 - Your ads reach the exact companies you want
 - You stay visible to multiple stakeholders inside those accounts
-- Your PPC budget stops going to random traffic
+- Your [PPC budget](/blogs/how-to-forecast-saas-ppc-budget/) stops going to random traffic
 
 It creates alignment between marketing and sales and dramatically improves lead quality.
 

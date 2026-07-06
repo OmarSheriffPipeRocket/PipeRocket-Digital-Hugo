@@ -168,7 +168,7 @@ This requires CRM integration, proper UTM hygiene, lifecycle stage tracking, and
 
 ## Why B2B SaaS Enterprises Trust PipeRocket to Scale Their SEO
 
-Most enterprise SEO engagements start with a keyword spreadsheet and a content calendar. PipeRocket’s start with a revenue target and work backwards to the strategy required to hit it.
+Most enterprise SEO engagements start with a keyword spreadsheet and a [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/). PipeRocket’s start with a revenue target and work backwards to the strategy required to hit it.
 
 Before a keyword tool opens, the team goes inside your sales call recordings, maps your ICP across each product line and buyer persona, and identifies the buying triggers and search behaviors that move a qualified enterprise prospect toward a conversation with sales. Every content investment is tied to a pipeline outcome before a word is written.
 

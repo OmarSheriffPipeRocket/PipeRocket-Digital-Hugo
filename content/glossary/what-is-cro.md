@@ -21,7 +21,7 @@ Conversion rate optimization (CRO) is the ongoing practice of figuring out why v
 - Your conversion rate is the metric; CRO is the discipline that moves it through deliberate, measured changes.
 - Most SaaS teams run CRO on the homepage when the bigger leaks are in signup flows and pricing pages.
 - A real CRO process starts with finding out why users drop off, not with a list of test ideas.
-- CRO breaks down on low-traffic pages, where qualitative research beats A/B testing every time.
+- CRO breaks down on low-traffic pages, where qualitative research beats [A/B testing](/blogs/ab-test-saas-landing-pages/) every time.
 
 ## What Is Conversion Rate Optimization (CRO)?
 

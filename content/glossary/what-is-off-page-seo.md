@@ -33,7 +33,7 @@ Off page [SEO](/glossary/what-is-seo/) is everything you do to improve your webs
 - Backlink building: Getting relevant, authoritative sites to link to your pages signals trust to Google and other search engines.
 - Brand mentions: When others talk about your brand (even without links), it reinforces your credibility and relevance.
 - Content promotion: Sharing your content on third-party platforms drives visibility and sometimes earns natural backlinks.
-- Social proof: Active engagement and sharing on channels like Linked In or Twitter can boost perception and prompt more links from real users.
+- [Social proof](/blogs/saas-social-proof/): Active engagement and sharing on channels like Linked In or Twitter can boost perception and prompt more links from real users.
 - External reviews and PR: Positive press coverage, podcast features, and SaaS review site ratings add powerful off page signals.
 
 Here’s what it looks like in practice: Imagine Lead Grid, a CRM SaaS for real estate agencies. Their blog post on “modern real estate lead nurturing” gets picked up by Inman, the industry’s top news site, with a direct link. That single link moves Lead Grid’s page from #8 to #3 for a high-intent keyword, driving 450% more monthly signups from organic search.

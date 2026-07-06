@@ -62,7 +62,7 @@ Here’s what most people miss: On page SEO is the single biggest control lever 
 - Content depth: Pages that truly answer the user’s question (not just “what is X,” but “should I use X for Y?”) tend to rank higher and convert better.
 - Intent structure: Mapping each page to a single search intent prevents keyword [cannibalization](/blogs/how-to-fix-keyword-cannibalization/) where your own pages compete and both lose.
 - Internal linking: Strategic internal links can move underperforming pages into the top 10 by passing authority from stronger, related content.
-- Ongoing optimization: Regular updates based on rank tracking and [SERP](/glossary/what-is-serp/) changes keep your pages relevant and competitive.
+- Ongoing optimization: Regular updates based on [rank tracking](/list/best-rank-tracking-tools-for-saas/) and [SERP](/glossary/what-is-serp/) changes keep your pages relevant and competitive.
 
 Trackflow, a project management SaaS for creative agencies, used to rank on page 3 for “creative agency project tool.” By rewriting their main use case page to answer agency-specific pain points and adding internal links from related guides they hit page 1 in six weeks, with demo signups up by 36%.
 
@@ -95,7 +95,7 @@ Most teams still believe word count is the key to ranking. That’s outdated. A 
 The real question isn’t “Did we optimize this page?” it’s “Is this page ranking, bringing the right traffic, and converting?” Most teams focus on rankings alone, but that’s only part of the story. On page SEO success needs to be tracked across three axes: visibility, engagement, and conversion.
 
 - Keyword rankings: Use Google Search Console or Ahrefs to track if your target phrases are moving up or if you’re stuck below the fold.
-- Organic click-through rate (CTR): Measure how often your result is clicked compared to impressions. Low CTR means your titles and meta descriptions need work.
+- Organic [click-through rate](/blogs/how-to-improve-organic-ctr/) (CTR): Measure how often your result is clicked compared to impressions. Low CTR means your titles and meta descriptions need work.
 - Time on page: Are visitors actually reading and scrolling, or bouncing immediately? Longer engagement signals quality and relevance.
 - Conversion rate: Are organic visitors signing up, booking demos, or hitting other key goals? Traffic without action isn’t the win.
 - Internal link performance: Pages with more relevant internal links tend to move up faster track which internal paths drive the most engagement.

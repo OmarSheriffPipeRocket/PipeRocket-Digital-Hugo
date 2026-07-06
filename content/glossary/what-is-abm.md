@@ -27,7 +27,7 @@ Account-based marketing (ABM) is a B2B strategy where you focus your marketing a
 
 ## What Is ABM in B2B Marketing?
 
-ABM is a focused B2B go-to-market strategy where you treat individual accounts or small clusters of accounts as markets of one. Instead of generating leads and hoping the right people convert, you pick the accounts you want, map the buying committee inside them, and build campaigns specifically for those people.
+ABM is a focused B2B go-to-market strategy where you treat individual accounts or small clusters of accounts as markets of one. Instead of generating leads and hoping the right people convert, you pick the accounts you want, map the [buying committee](/blogs/linkedin-buying-committee-saas/) inside them, and build campaigns specifically for those people.
 
 Here’s the part most guides skip: ABM isn’t a campaign type. It’s a way of organising your entire go-to-market motion. Calling a retargeting campaign “ABM” because it targets a company list is like calling a spreadsheet a CRM.
 
@@ -86,7 +86,7 @@ On the paid side, platforms like Linked In allow you to upload a company list an
 
 Fast Fact: Most SaaS teams running ABM treat paid and organic as separate motions teams that integrate both around a shared account list consistently report more consistent pipeline from target accounts.
 
-The catch with paid ABM is budget efficiency. Serving ads exclusively to a list of 200 accounts means your impressions are low and your CPMs look high. That’s fine you’re not optimising for reach, you’re optimising for account penetration. The metric that matters is how many stakeholders at each account have seen your message, not how many total people clicked.
+The catch with [paid ABM](/blogs/abm-for-saas-paid-playbook/) is budget efficiency. Serving ads exclusively to a list of 200 accounts means your impressions are low and your CPMs look high. That’s fine you’re not optimising for reach, you’re optimising for account penetration. The metric that matters is how many stakeholders at each account have seen your message, not how many total people clicked.
 
 If you’re running [SaaS paid ads](/saas-ppc/) alongside an ABM motion, make sure your paid team understands the account-level measurement model otherwise they’ll optimise for the wrong outcomes.
 

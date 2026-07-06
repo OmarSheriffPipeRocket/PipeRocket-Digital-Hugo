@@ -52,7 +52,7 @@ Our team treats secondary keywords as the most underrated lever in SaaS [SEO](/g
 
 ## Step 2: Turn Volume Into Traffic With the Click Curve
 
-Apply a click-through rate tied to expected position, because raw search volume is not traffic. This is the single biggest correction between a fantasy forecast and a defensible one.
+Apply a [click-through rate](/blogs/how-to-improve-organic-ctr/) tied to expected position, because raw search volume is not traffic. This is the single biggest correction between a fantasy forecast and a defensible one.
 
 Click-through rate drops off a cliff as you move down the page. The exact numbers vary by query and SERP layout, especially now that [AI Overviews](/glossary/what-is-an-ai-overview/) eat into informational clicks, so treat any CTR table as directional. As a working model:
 

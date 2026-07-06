@@ -50,7 +50,7 @@ Here's the part that stings: most SaaS teams already know this and still default
 - **Message match:** The ad promised something specific. The homepage answers with something general, and the visitor feels the gap immediately.
 - **Too many exits:** Every nav link on a homepage is a way to wander off before converting.
 - **Diluted measurement:** When ten campaigns all land on one page, you can't tell which message actually drove the signups.
-- **Quality Score:** Google scores landing page relevance. A generic homepage drags it down, which raises your cost per click.
+- **[Quality Score](/blogs/saas-quality-score/):** Google scores landing page relevance. A generic homepage drags it down, which raises your cost per click.
 
 Now you might say, "our homepage converts fine." Compared to what? Until you've run the same campaign against a dedicated page, you're comparing against nothing. We've yet to see a SaaS homepage beat a well-matched landing page for a focused paid campaign.
 
@@ -58,7 +58,7 @@ Now you might say, "our homepage converts fine." Compared to what? Until you've 
 
 ## What Makes a SaaS Landing Page Actually Convert?
 
-The message converts, the layout just carries it. A landing page works when the visitor reads the headline and thinks "this is exactly what I was looking for." Everything else (social proof, button placement) is amplification on top of that match.
+The message converts, the layout just carries it. A landing page works when the visitor reads the headline and thinks "this is exactly what I was looking for." Everything else ([social proof](/blogs/saas-social-proof/), button placement) is amplification on top of that match.
 
 Most teams get this backwards. They obsess over hero images and button placement while the headline still describes the product instead of the visitor's problem. Fix the message first. The layout debates can wait.
 

@@ -125,7 +125,7 @@ The biggest risk is wasted budget due to poor targeting or lack of oversight. Au
 
 ### Can small SaaS teams use programmatic ads effectively?
 
-Yes, small SaaS teams can use programmatic advertising, but success depends on tight audience definition, creative testing, and frequent optimization. While big brands may have more budget, smaller teams can get results by focusing on specific segments and running highly targeted campaigns. Starting small and scaling based on data is the safest approach.
+Yes, small SaaS teams can use programmatic advertising, but success depends on tight audience definition, [creative testing](/blogs/saas-creative-testing/), and frequent optimization. While big brands may have more budget, smaller teams can get results by focusing on specific segments and running highly targeted campaigns. Starting small and scaling based on data is the safest approach.
 
 ## The Bottom Line
 

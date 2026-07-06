@@ -67,7 +67,7 @@ The honest trade-off is that this traffic is harder to win. Commercial keywords 
 - **Higher conversion intent:** The searcher is comparing, which means they're planning to buy something soon. Your job is to be on the shortlist.
 - **Better lead quality:** Commercial traffic produces demo requests and trials from people who already understand the category.
 - **Competitive interception:** Ranking for "[competitor] alternatives" puts you in front of buyers actively looking to switch.
-- **Revenue attribution:** Commercial pages are far easier to tie to pipeline than [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/), which makes the SEO investment defensible.
+- **Revenue attribution:** Commercial pages are far easier to tie to pipeline than [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/), which makes the [SEO](/glossary/what-is-seo/) investment defensible.
 
 A compliance SaaS for fintech teams might publish a "best SOC 2 automation tools" listicle that honestly includes competitors. It ranks, it earns trust, and it captures buyers mid-evaluation. That single page can outperform months of informational posts on pipeline contribution.
 

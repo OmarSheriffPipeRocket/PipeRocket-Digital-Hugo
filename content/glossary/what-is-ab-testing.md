@@ -13,7 +13,7 @@ toc: true
 readingTime: "10 min read"
 ---
 
-A/B testing is a method of comparing two versions of a page, email, or ad by splitting your traffic between them and measuring which one drives more of the action you care about. For SaaS teams, it replaces opinion-driven debates about [landing pages](/glossary/what-is-a-landing-page/) and copy with actual user behavior.
+[A/B testing](/blogs/ab-test-saas-landing-pages/) is a method of comparing two versions of a page, email, or ad by splitting your traffic between them and measuring which one drives more of the action you care about. For SaaS teams, it replaces opinion-driven debates about [landing pages](/glossary/what-is-a-landing-page/) and copy with actual user behavior.
 
 ## TL;DR
 
@@ -86,7 +86,7 @@ My take: most SaaS teams test in exactly the wrong order. They start with the ho
 - **Form length and fields:** Every field you remove changes both volume and lead quality. Test it instead of guessing the balance.
 - **Pricing page structure:** Plan order and annual-versus-monthly defaults move real revenue. Few teams ever test them.
 - **CTA framing:** "Start free trial" against "Book a demo" is a business model question disguised as a button test.
-- **Social proof placement:** Logos and review scores near the form often shift conversions more than copy edits do.
+- **[Social proof](/blogs/saas-social-proof/) placement:** Logos and review scores near the form often shift conversions more than copy edits do.
 
 > **Fast Fact:** The pages SaaS teams are most nervous to test, like pricing, are usually the ones where a winning variant pays for the entire testing program.
 

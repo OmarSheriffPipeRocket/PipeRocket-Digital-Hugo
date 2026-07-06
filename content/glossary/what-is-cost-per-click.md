@@ -120,7 +120,7 @@ CPC (cost per click) is the price paid for each click on your ad, while CPM (cos
 
 ### How can I lower my CPC without hurting conversion rates?
 
-To lower CPC without sacrificing conversions, tighten your targeting, use negative keywords, and focus on high-quality ad copy that matches intent. Improving your Quality Score on Google Ads and testing new channels can drive down CPC, but don’t chase cheap clicks at the expense of lead quality always monitor downstream metrics like signup and paid conversion rate.
+To lower CPC without sacrificing conversions, tighten your targeting, use negative keywords, and focus on high-quality ad copy that matches intent. Improving your [Quality Score](/blogs/saas-quality-score/) on Google Ads and testing new channels can drive down CPC, but don’t chase cheap clicks at the expense of lead quality always monitor downstream metrics like signup and paid conversion rate.
 
 ## The Bottom Line
 

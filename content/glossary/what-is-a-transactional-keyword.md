@@ -111,11 +111,11 @@ A commercial keyword signals comparison and research, like "best CRM for startup
 
 ### 2. Can a blog post rank for a transactional keyword?
 
-Rarely, and you usually don't want it to. Transactional queries surface product, pricing, and signup pages because that's what the searcher wants. A blog post ranking for "[product] pricing" would frustrate a ready-to-buy visitor and convert poorly. If a blog post is outranking your pricing page for a transactional query, that's a sign of keyword cannibalization, and you should fix the [internal linking](/blogs/how-to-use-internal-linking/) so the conversion page wins.
+Rarely, and you usually don't want it to. Transactional queries surface product, pricing, and signup pages because that's what the searcher wants. A blog post ranking for "[product] pricing" would frustrate a ready-to-buy visitor and convert poorly. If a blog post is outranking your pricing page for a transactional query, that's a sign of keyword [cannibalization](/blogs/how-to-fix-keyword-cannibalization/), and you should fix the [internal linking](/blogs/how-to-use-internal-linking/) so the conversion page wins.
 
 ### 3. How do I capture non-branded transactional traffic?
 
-Build a strong, well-optimised pricing or signup page targeting the category term, like "project management software pricing," and support it with internal links and [topical authority](/blogs/how-to-improve-topical-authority/). Non-branded transactional queries are competitive, so the page needs both conversion-focused design and the domain authority to rank. This is where informational and commercial content pay off, since they build the authority that lets your transactional pages compete for non-branded terms.
+Build a strong, well-optimised pricing or signup page targeting the category term, like "project management software pricing," and support it with internal links and [topical authority](/blogs/how-to-improve-topical-authority/). Non-branded transactional queries are competitive, so the page needs both conversion-focused design and the [domain authority](/glossary/what-is-domain-authority/) to rank. This is where informational and commercial content pay off, since they build the authority that lets your transactional pages compete for non-branded terms.
 
 ## The Bottom Line
 

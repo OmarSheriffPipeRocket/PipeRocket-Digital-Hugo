@@ -157,7 +157,7 @@ Get the order right and the same keyword list that produced traffic for one team
 
 When we take on a SaaS site, we don't write the keyword list in spreadsheet order. We scope the finite BOFU layer first, sequence those pages by the deals your sales team wants, then build the MOFU and TOFU layers that earn the authority to rank them.
 
-Most agencies execute a content calendar. We own the outcome, which is pipeline. If you want your keyword plan sequenced for revenue, our [SaaS SEO team](https://piperocket.digital/saas-seo-agency/) does exactly this, and you can [talk to us here](https://piperocket.digital/contact-us/).
+Most agencies execute a [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/). We own the outcome, which is pipeline. If you want your keyword plan sequenced for revenue, our [SaaS SEO team](https://piperocket.digital/saas-seo-agency/) does exactly this, and you can [talk to us here](https://piperocket.digital/contact-us/).
 
 ## Frequently Asked Questions
 

@@ -141,7 +141,7 @@ The expensive errors all come from treating AI search as a new, separate thing i
 
 ### Running GEO and AEO as two separate projects
 
-This is the costliest one, and it's the whole reason for this article. Two roadmaps, two budgets, two reporting lines, for work that's largely identical. You don't get better results, you get duplicated effort and a split focus. Build one AI SEO program and let the shared work compound.
+This is the costliest one, and it's the whole reason for this article. Two roadmaps, two budgets, two reporting lines, for work that's largely identical. You don't get better results, you get duplicated effort and a split focus. Build one [AI SEO program](/blogs/ai-seo-strategy-and-framework/) and let the shared work compound.
 
 ### Chasing AI citations with zero off-site presence
 

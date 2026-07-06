@@ -24,7 +24,7 @@ SEM (search engine marketing) is using paid ads on search engines like Google an
 - Organic search drives 91.3% of SaaS traffic, while SEM is best for short-term wins, new launches, or high-intent commercial keywords.
 - Many SaaS teams treat SEM as a plug-and-play growth lever, but without strategy, it’s one of the fastest ways to burn budget.
 - Combining SEM and SEO usually delivers the best ROI, but only when each channel has its own role and KPIs.
-- [Google Ads](/glossary/what-is-google-ads/) and Bing Ads are the main SEM platforms, but SEM also covers retargeting, branded bidding, and competitor targeting.
+- [Google Ads](/glossary/what-is-google-ads/) and [Bing Ads](/blogs/microsoft-ads-for-saas/) are the main SEM platforms, but SEM also covers retargeting, branded bidding, and competitor targeting.
 
 ## What Is SEM and How Does It Work?
 
@@ -35,7 +35,7 @@ SEM, or search engine marketing, is when you pay to put your site or SaaS produc
 Most SaaS founders treat SEM as a shortcut to growth: “Turn on Google Ads, get more signups.” The reality is harsher. SEM gives you traffic but not always the right traffic, and not always at a price that makes sense. Paid search absolutely has a place in SaaS growth, but only when you have clarity around margin, intent, and what a qualified lead is worth to you.
 
 - Keyword targeting: You choose the exact terms you want to show up for, from branded queries (“Salesforce CRM pricing”) to commercial or competitor terms.
-- Auction-based pricing: You set a maximum bid for each keyword, but actual cost per click fluctuates depending on competition and quality score.
+- Auction-based pricing: You set a maximum bid for each keyword, but actual cost per click fluctuates depending on competition and [quality score](/blogs/saas-quality-score/).
 - Ad copy and extensions: Crafting headlines and descriptions that match user intent and encourage clicks often with site links, callouts, or lead forms.
 - Landing page alignment: Sending traffic to a page that matches the ad and is built to convert, not just your homepage.
 - Performance tracking: Using Google Ads or Bing Ads dashboards to see which keywords, ads, and [landing pages](/glossary/what-is-a-landing-page/) are actually producing real signups or pipeline.
@@ -104,7 +104,7 @@ SEM is worth it when your market is competitive, your LTV supports higher CAC, a
 
 - Cost control: You can burn thousands in a week if you target broad or irrelevant keywords. Tight negative keywords and frequent audits become non-negotiable.
 - Lead quality: Paid clicks don’t always mean high-fit buyers especially if you optimize for volume, not conversion.
-- Ad fatigue: Creative and messaging that works today can stop converting tomorrow. You need ongoing testing and updates.
+- [Ad fatigue](/blogs/saas-ad-fatigue/): Creative and messaging that works today can stop converting tomorrow. You need ongoing testing and updates.
 - Platform shifts: Google Ads and Bing Ads change their rules and pricing models often; what worked last quarter won’t always work now.
 - Attribution complexity: Tracking which clicks become real customers (not just trials or signups) gets tough fast without CRM integration and clear definitions.
 

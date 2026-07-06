@@ -50,7 +50,7 @@ Content marketing matters for SaaS because your buyers do their own research bef
 - Trust accelerates sales: When potential customers find answers to their exact problems on your site, you become the default authority and the obvious next step.
 - Self-serve buyers: Modern SaaS buyers want to try or understand the product before a demo. Content bridges that gap and pre-qualifies leads.
 - Compounding growth: Each high-quality piece adds to your “content equity,” making every new article easier to rank and more valuable over time.
-- Resilience to ad fatigue: When paid channels get more expensive or less effective, content-fed organic channels keep working.
+- Resilience to [ad fatigue](/blogs/saas-ad-fatigue/): When paid channels get more expensive or less effective, content-fed organic channels keep working.
 
 **Here’s the thing:** Most SaaS teams still treat content as a box to tick (“we publish a blog post every week”) rather than a strategic moat. That’s backwards. The teams who win treat content as the product before the product giving buyers a taste of what it’s like to work with them, before a sales call ever happens.
 

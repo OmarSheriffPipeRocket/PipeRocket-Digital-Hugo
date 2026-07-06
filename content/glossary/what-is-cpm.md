@@ -51,7 +51,7 @@ Here’s what this means in practice: CPM is useful for benchmarking reach and e
 - Adjust targeting, not just spend: High CPMs can be worth paying if your audience is tightly qualified don’t cut CPM at the expense of quality.
 - Use CPM for brand campaigns, not direct response: CPM is best for awareness or retargeting, where the goal is repeated exposure, not immediate clicks.
 - Watch frequency: Track how many times each user sees your ad; high CPM can be the result of overexposing a tiny audience rather than expanding reach.
-- Monitor CPM trends over time: Rising CPMs on the same audience signal increased competition or ad fatigue refresh creative or adjust bidding when this happens.
+- Monitor CPM trends over time: Rising CPMs on the same audience signal increased competition or [ad fatigue](/blogs/saas-ad-fatigue/) refresh creative or adjust bidding when this happens.
 - Optimize placements, not just creatives: Placement on premium sites or feeds will cost more, but can justify higher CPM if conversion rates follow.
 
 ## How Is CPM Different from CPC and CPA?

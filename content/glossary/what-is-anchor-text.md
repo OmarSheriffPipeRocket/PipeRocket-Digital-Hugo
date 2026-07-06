@@ -38,7 +38,7 @@ Anchor text is the visible, clickable part of a hyperlink what people actually s
 
 Here’s the catch: overusing keyword-rich anchor text or relying on generic phrases are both classic SEO mistakes. If every internal or external link says “best SaaS CRM,” you’ll look unnatural and Google will notice. If links are vague (“click here”), you lose both user trust and ranking clarity.
 
-Picture this in practice: A SaaS like Trackflow, targeting creative agencies, used “project management software” as anchor text for 90% of its [backlinks](/glossary/what-is-a-backlink/). As a result, it triggered a ranking drop and a warning in Google Search Console. By diversifying anchor text with branded and contextual phrases, Trackflow regained rank positions within three months.
+Picture this in practice: A SaaS like Trackflow, targeting creative agencies, used “project management software” as anchor text for 90% of its [backlinks](/glossary/what-is-a-backlink/). As a result, it triggered a [ranking drop](/blogs/how-to-recover-from-google-core-update/) and a warning in Google Search Console. By diversifying anchor text with branded and contextual phrases, Trackflow regained rank positions within three months.
 
 What this means: Anchor text isn’t just for search engines it’s a trust signal for users, too. Get it right, and your site navigation feels seamless and credible. Get it wrong, and you risk both penalties and lost conversions.
 

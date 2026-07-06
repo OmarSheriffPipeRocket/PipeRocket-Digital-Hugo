@@ -82,7 +82,7 @@ The real trade-off: Evergreen content gives you compounding search and lead gene
 
 Publishing another “Ultimate Guide” isn’t a strategy. Here’s what actually sets high-performing evergreen apart: intent matching, strategic structure, and a commitment to updates.
 
-- Intent-first research: Start with search queries that show lasting demand use tools like Ahrefs, Semrush, and Google Search Console for keyword clustering.
+- Intent-first research: Start with search queries that show lasting demand use tools like Ahrefs, Semrush, and Google Search Console for [keyword clustering](/blogs/how-to-cluster-keywords-for-saas/).
 - Content clustering: Build around pillar topics, then add supporting pages (FAQs, tools, comparisons) that link internally.
 - Update cadence: Schedule quarterly or biannual reviews to refresh stats, screenshots, and links don’t let pages go stale.
 - Authority building: Earn backlinks to your pillars through guest posts, resource swaps, and industry partnerships.
