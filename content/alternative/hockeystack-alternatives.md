@@ -138,7 +138,7 @@ Also evaluating Dreamdata? See our [Dreamdata alternatives](/alternative/dreamda
 
 Best for: Demand-gen and ABM teams that want multi-touch attribution combined with account identification, intent, and ad optimization in one platform.
 
-[Factors.ai](https://www.factors.ai/) is a B2B demand-generation and marketing analytics platform that unifies account intelligence, web analytics, multi-touch attribution, and ad optimization. It earns its position here because its paid tiers have historically been among the most transparently priced in this category (its last-published rates were $399/mo Basic and $999/mo Growth) and it pairs attribution with account identification that demand-gen teams use to prioritize outreach.
+[Factors.ai](https://www.factors.ai/) is a B2B demand-generation and marketing analytics platform that unifies account intelligence, web analytics, multi-touch attribution, and ad optimization. It earns its position here because its paid tiers have historically been among the most transparently priced in this category (its last-published rates were $399/mo Basic and $999/mo Growth) and it pairs attribution with account identification that demand-gen teams use to prioritize outreach. For teams weighing this option, see our full roundup of [Factors.ai alternatives](/alternative/factors-ai-alternatives/).
 
 **Tool Snapshot**
 

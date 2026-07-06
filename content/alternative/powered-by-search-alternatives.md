@@ -75,6 +75,10 @@ Best for: High-ACV B2B SaaS with long sales cycles needing a Customer Generation
 | Notable Clients | iCIMS, Intel, Cisco, ZoomInfo, Seismic, Calendly, Adobe |
 | Specialization | Customer Generation, paid media, SEO, CRO, RevOps |
 
+Also evaluating Zoominfo? See our [Zoominfo alternatives](/alternative/zoominfo-alternatives/) breakdown.
+
+
+
 **The Differentiating Move:** Directive's proprietary Stratos AI platform unifies CRM, paid media, SEO, and ops data in one view for real-time cost-per-customer clarity. Powered by Search's Predictable Growth Model targets pipeline contribution; Directive extends that logic through to closed-won revenue with a methodology that 420-plus B2B SaaS and fintech brands have been measured against since 2014.
 
 - Startup managed package publicly reported at $6,500/mo — the lowest documented entry point for the Customer Generation model
@@ -212,6 +216,10 @@ Best for: Series B-plus SaaS companies ready to rebuild demand gen around pipeli
 | Team Size | 10–49 people |
 | Notable Clients | Clari, Bonterra, Zappi, Hunters, EveryoneSocial, Algolia, Showpad, Cognism |
 | Specialization | Demand strategy, paid media, dark-social attribution, pipeline efficiency |
+
+Looking at Cognism too? Our [Cognism alternatives](/alternative/cognism-alternatives/) review covers who beats them on what.
+
+
 
 **The Differentiating Move:** Refine Labs doesn't run SEO or content. Their entire model sits in paid media (LinkedIn, Google, YouTube, CTV, Meta, Reddit) and demand strategy — forcing buyers to think about whether their organic motion is already solid before signing. That's a sharper constraint than Powered by Search, which bundles SEO + paid. If you're leaving PBS because the paid channel needed more senior thinking, Refine Labs is the most credible specialist upgrade.
 

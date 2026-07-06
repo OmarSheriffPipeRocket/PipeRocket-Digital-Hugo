@@ -137,7 +137,7 @@ Also evaluating Hockeystack? See our [Hockeystack alternatives](/alternative/hoc
 
 Best for: Mid-market B2B GTM teams wanting AI-driven account intelligence and ABM analytics at a lower price point than enterprise suites.
 
-[Factors.ai](https://www.factors.ai/) combines AI-driven account identification, intent scoring, and full-funnel multi-touch attribution with no-code setup. Clients include Multiplier, RevenueHero, and Acadia.
+[Factors.ai](https://www.factors.ai/) combines AI-driven account identification, intent scoring, and full-funnel multi-touch attribution with no-code setup. Clients include Multiplier, RevenueHero, and Acadia. For teams weighing this option, see our full roundup of [Factors.ai alternatives](/alternative/factors-ai-alternatives/).
 
 **Tool Snapshot**
 

@@ -75,6 +75,10 @@ Best for: High-ACV SaaS and fintech with multi-quarter sales cycles needing cost
 | Notable Clients | iCIMS, ZoomInfo, Calendly, Adobe, Cisco, Seismic, Gong, Chili Piper |
 | Specialization | Customer Generation, paid media, SEO, CRO, revenue operations |
 
+Also evaluating Zoominfo? See our [Zoominfo alternatives](/alternative/zoominfo-alternatives/) breakdown.
+
+
+
 **The Real Differentiator**
 
 Directive's proprietary Stratos AI platform unifies CRM, paid media, SEO, and ops data in one view. Refine Labs is methodology-forward but doesn't offer a comparable unified attribution layer - Directive does, at a lower price floor.

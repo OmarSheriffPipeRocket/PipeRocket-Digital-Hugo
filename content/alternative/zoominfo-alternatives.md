@@ -212,6 +212,10 @@ Reported Trustpilot rating of 3.0/5 reflects complaints about quote-only pricing
 
 ---
 
+Also evaluating Cognism? See our [Cognism alternatives](/alternative/cognism-alternatives/) breakdown.
+
+
+
 ### 3. Lusha
 
 Best for: SMBs and individual reps who want quick, LinkedIn-based prospecting without a steep learning curve or enterprise contract.
@@ -283,6 +287,10 @@ Reviewers note credit limits bite quickly on paid tiers, and coverage outside th
 | Rating | Reported 4.3/5 (G2); exact review count unverified |
 
 ---
+
+Looking at Lusha too? Our [Lusha alternatives](/alternative/lusha-alternatives/) review covers who beats them on what.
+
+
 
 ### 4. Clay
 

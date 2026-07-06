@@ -283,6 +283,10 @@ Best for: Mid-market and enterprise SaaS brands that are frustrated with MQL-dri
 | Notable Clients | MyCOI, Bonterra, Loxo, Vena, Clari, Cognism, FirstUp |
 | Specialization | Demand creation, dark social, pipeline attribution, revenue marketing |
 
+Looking at Cognism too? Our [Cognism alternatives](/alternative/cognism-alternatives/) review covers who beats them on what.
+
+
+
 **Differentiator:** Refine Labs is built around Chris Walker's demand creation thesis: that most B2B SaaS companies are over-invested in demand capture (gated content, cold outreach, MQL counting) and under-invested in creating category-level demand that pulls buyers in. Their methodology is designed for SaaS companies with enough brand gravity to invest in demand creation rather than lead capture.
 
 - Anti-MQL philosophy: they replace lead-counting with pipeline and revenue attribution frameworks
@@ -475,6 +479,10 @@ Best for: Enterprise and mid-market B2B SaaS that need performance marketing tie
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" >}}
 
 [Directive Consulting](https://directiveconsulting.com) is the premium SaaS-exclusive performance agency on this list. Founded in 2013 and headquartered in Irvine, CA, they've served Gong, ZoomInfo, Calendly, Adobe, Cisco, and BlackLine — a client list that signals mid-market to enterprise SaaS with established budgets and long sales cycles.
+
+Also evaluating Zoominfo? See our [Zoominfo alternatives](/alternative/zoominfo-alternatives/) breakdown.
+
+
 
 **At a Glance**
 

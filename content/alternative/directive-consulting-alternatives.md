@@ -292,6 +292,10 @@ Best for: Series B+ B2B SaaS companies with $50K+/mo in existing ad spend ready 
 | Notable Clients | Algolia, Clari, Cognism, BeyondTrust, Showpad, Dandy, Vena, Balto |
 | Specialization | B2B demand generation, dark funnel, paid social |
 
+Also evaluating Cognism? See our [Cognism alternatives](/alternative/cognism-alternatives/) breakdown.
+
+
+
 **Differentiator:** Refine Labs rejects MQL-centric lead gen in favour of pipeline creation from buyer intent signals — the "Brand, Demand, and Expand" framework targets buyers who self-educate on dark-funnel channels (LinkedIn, podcasts, communities) before they ever engage your form. One important context note: founder Chris Walker sold his remaining shares in July 2025; current CEO is Megan Bowen. Ask directly about methodology continuity when evaluating.
 
 - Published pricing at refinelabs.com/pricing: $20,000/mo for Paid Media and Creative Strategy; $31,000/mo for Full-Service Demand Gen Management; $35,000 one-time Marketing Strategy and Digital Media Assessment

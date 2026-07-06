@@ -133,6 +133,10 @@ Writesonic uses a tiered subscription with savings on annual billing. As of June
 
 ---
 
+Also evaluating Writesonic? See our [Writesonic alternatives](/alternative/writesonic-alternatives/) breakdown.
+
+
+
 ### 2. Copy.ai
 
 Best for: Marketing and sales ops teams that need automated multi-step GTM workflows, not just a writing editor.

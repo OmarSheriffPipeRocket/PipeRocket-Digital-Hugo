@@ -143,6 +143,10 @@ Unlimited-seat pricing means agencies don't pay per writer, and the grading UI i
 
 **Love:** Webflow reports "130% organic traffic growth in 2024" and Optimizely cites a "52% increase in search traffic" after adopting Clearscope, per [Clearscope's customer page](https://www.clearscope.io/customers).
 
+Also evaluating Optimizely? See our [Optimizely alternatives](/alternative/optimizely-alternatives/) breakdown.
+
+
+
 - Highest G2 rating in this set at 4.9/5 across 91 reviews.
 
 **Complain:** "Entry price is steep with no trial to test it first"

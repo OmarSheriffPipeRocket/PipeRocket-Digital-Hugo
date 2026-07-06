@@ -349,6 +349,10 @@ MarketMuse pricing for paid tiers is not publicly listed on the live page as of 
 
 ---
 
+Looking at Marketmuse too? Our [Marketmuse alternatives](/alternative/marketmuse-alternatives/) review covers who beats them on what.
+
+
+
 ### 5. NeuronWriter
 
 Best for: Freelancers, solopreneurs, and small teams that want solid semantic SEO optimization scoring at under one-fifth of Clearscope's entry price.
@@ -564,6 +568,10 @@ SEO Writing Assistant is included in Semrush Guru and Business plans. As of June
 | G2 Rating | [4.5/5 (3,434+ reviews)](https://www.g2.com/products/semrush/reviews) (platform-level rating) |
 
 ---
+
+Also evaluating Semrush? See our [Semrush alternatives](/alternative/semrush-alternatives/) breakdown.
+
+
 
 ## Why Look for a Clearscope Alternative?
 

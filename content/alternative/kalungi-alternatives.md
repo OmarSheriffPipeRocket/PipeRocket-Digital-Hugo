@@ -77,6 +77,10 @@ Best for: High-ACV B2B SaaS companies with multi-quarter sales cycles needing co
 | Notable Clients | iCIMS, Intel, Cisco, ZoomInfo, Seismic, Calendly, Adobe |
 | Specialization | Customer Generation, paid media, SEO, CRO, revenue operations |
 
+Also evaluating Zoominfo? See our [Zoominfo alternatives](/alternative/zoominfo-alternatives/) breakdown.
+
+
+
 **Differentiator:** Directive's proprietary Stratos AI platform unifies CRM, paid media, SEO, and ops data in one view — giving B2B marketers cost-per-customer clarity that Kalungi's reporting model, built around CMO-led strategy sessions, doesn't replicate for pure-channel attribution depth.
 
 - A startup managed package is publicly reported at ~$6,500/mo vs Kalungi's $45K+ full-service floor
@@ -564,6 +568,10 @@ Best for: $30M-plus ARR B2B SaaS companies with large ad budgets wanting pipelin
 | Team Size | ~51 people |
 | Notable Clients | Algolia, Cognism, Clari, Showpad, BeyondTrust, Vena, Dandy, FirstUp |
 | Specialization | B2B SaaS paid demand gen, key account engagement, content, measurement strategy |
+
+Looking at Cognism too? Our [Cognism alternatives](/alternative/cognism-alternatives/) review covers who beats them on what.
+
+
 
 **Differentiator:** Refine Labs built pipeline-first measurement into their methodology before it became common practice — rejecting MQL-as-a-metric in favour of SQL pipeline and revenue attribution. Kalungi measures through an Associate CMO's board reporting; Refine Labs measures through paid media tied directly to pipeline value.
 

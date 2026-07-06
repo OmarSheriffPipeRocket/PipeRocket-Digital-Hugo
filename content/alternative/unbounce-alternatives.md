@@ -131,6 +131,10 @@ Instapage uses a tiered subscription with up to 20% off on annual billing and a 
 
 ---
 
+If Instapage isn't quite the fit, check our [Instapage alternatives](/alternative/instapage-alternatives/) shortlist.
+
+
+
 ### 2. Swipe Pages
 
 Best for: Performance marketers running paid social or Google Ads who need fast-loading AMP mobile landing pages without code.
@@ -287,6 +291,14 @@ Best for: Design-led teams and developers who want pixel-perfect, animation-rich
 It's for in-house design teams or developers who treat landing pages as design projects and need a tool that can do what their creative brief requires. The updated May 2026 pricing (Basic and Premium tiers replacing former CMS/Business tiers) makes Webflow the cheapest entry point in this set for teams that only need publishing without A/B testing.
 
 It's NOT for non-technical marketers who need a guided A/B testing workflow: Webflow has no native A/B testing or personalization engine. You'd need to layer on Optimizely, VWO, or similar, which adds cost and complexity. The learning curve is steeper than any other tool here.
+
+Looking at Optimizely too? Our [Optimizely alternatives](/alternative/optimizely-alternatives/) review covers who beats them on what.
+
+
+
+Also evaluating Vwo? See our [Vwo alternatives](/alternative/vwo-alternatives/) breakdown.
+
+
 
 **Core Strengths**
 

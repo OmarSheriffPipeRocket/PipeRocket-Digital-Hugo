@@ -267,6 +267,10 @@ Mouseflow uses tiered per-session pricing with up to 35% discount on annual bill
 
 ---
 
+Also evaluating Mouseflow? See our [Mouseflow alternatives](/alternative/mouseflow-alternatives/) breakdown.
+
+
+
 ### 4. PostHog
 
 Best for: Developer-led product teams that want an open-source, self-hostable platform with session replay, product analytics, feature flags, and A/B testing in one tool.
