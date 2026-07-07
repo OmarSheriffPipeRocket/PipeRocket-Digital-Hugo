@@ -2,9 +2,9 @@
 layout: "listicle"
 title: "Best SaaS SEO Agencies for MRR & ARR Growth (Top 30+ Agencies Compared)"
 description: "We reviewed 12 SaaS SEO agencies for 2026 (shortlisted from 30+) on pipeline and MRR/ARR impact, technical depth, GEO readiness, and verified Clutch reviews. Real links, named clients, no paid spots."
-metaTitle: "Best SaaS SEO Agencies for MRR & ARR Growth (June 2026)"
+metaTitle: "Best SaaS SEO Agencies for MRR & ARR Growth (July 2026)"
 metaDescription: "An honest ranking of 12 SaaS SEO agencies for 2026 (shortlisted from 30+) on pipeline and MRR/ARR impact, technical depth, GEO readiness, and verified buyer reviews."
-lastmod: 2026-06-16
+lastmod: 2026-07-07
 slug: "best-saas-seo-agencies"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -15,8 +15,6 @@ toc: true
 readingTime: "22 min read"
 ---
 
-*By [Kamaraj (Kim)](/author/kamaraj-mathiarasan/), Co-Founder of PipeRocket Digital. Our team ran the research; I reviewed every agency and wrote these calls.*
-
 Comparing the best SaaS SEO agencies of 2026 includes 1. Directive Consulting, 2. PipeRocket Digital, 3. First Page Sage, 4. Animalz, 5. Omniscient Digital, 6. Siege Media, 7. Loopex Digital, 8. Breaking B2B, 9. Kalungi, 10. MADX Digital, 11. Simple Tiger, and 12. Powered by Search.
 
 These 12 aren't interchangeable. Some run pipeline-attributed retainers for B2B SaaS, others are content-and-PR studios, fractional GTM partners that bundle SEO into wider demand work, or boutique specialists for fintech, crypto, and product-led growth. Pick the wrong one and it costs more than the retainer: six months of runway and a CFO who stops believing in organic. So we graded hard on the signals that actually move pipeline, not traffic.
@@ -25,11 +23,11 @@ What you'll pay splits this field more than the logos do. Credible SaaS SEO reta
 
 Results follow a compounding curve, not the billing cycle. Expect rankings and traffic to move in months three to four, and real MQL and pipeline impact between months six and twelve, because SEO compounds and B2B software gets bought by committees over quarters. The partners worth keeping report in MQLs, SQLs, and pipeline from the first month; the ones to walk away from lead with traffic and domain-authority charts that look great in month three and mean nothing to your board by month twelve.
 
-{{< research-stats evaluated="30+" shortlisted="12" caseStudies="48" verified="June 2026" >}}
+{{< research-stats evaluated="30+" shortlisted="12" caseStudies="48" verified="July 2026" >}}
 
 ## TL;DR
 
-1. **Directive Consulting** - Best for enterprise SaaS SEO unified with paid media and RevOps
+1. **Directive Consulting** - Best for enterprise SaaS SEO with pipeline-accountable reporting
 2. **PipeRocket Digital** - Best for SaaS SEO tied to MRR and ARR growth, with GEO and AEO in-house
 3. **First Page Sage** - Best for SaaS thought-leadership SEO for enterprise sales cycles
 4. **Animalz** - Best for top-of-funnel SaaS content and editorial SEO
@@ -37,10 +35,10 @@ Results follow a compounding curve, not the billing cycle. Expect rankings and t
 6. **Siege Media** - Best for premium SaaS content SEO and link earning
 7. **Loopex Digital** - Best for SaaS SEO link building and digital PR
 8. **Breaking B2B** - Best for bottom-of-funnel SaaS SEO and comparison content
-9. **Kalungi** - Best for SaaS SEO within a fractional GTM team
+9. **Kalungi** - Best for early-stage SaaS SEO led by senior strategists
 10. **MADX Digital** - Best for fintech and AI-search SaaS SEO (GEO)
 11. **Simple Tiger** - Best for productized SaaS SEO sprints with senior leads
-12. **Powered by Search** - Best for SaaS SEO within a demand-gen system
+12. **Powered by Search** - Best for enterprise SaaS SEO with cybersecurity-vertical depth
 
 ## What is a SaaS SEO Agency?
 
@@ -63,7 +61,7 @@ With those differences in mind, here are the top SaaS SEO agencies built for MRR
 
 | Agency | Founder(s) | Best For | Key Services | Strategy | Starting Price | Clutch Rating |
 | --- | --- | --- | --- | --- | --- | --- |
-| Directive Consulting | Garrett Mehrguth | Enterprise SaaS SEO unified with paid media and RevOps | SEO, paid media, CRO, RevOps, ABM | Integrates SEO with paid media and RevOps | [Custom pricing](https://directiveconsulting.com/) | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
+| Directive Consulting | Garrett Mehrguth | Enterprise SaaS SEO with pipeline-accountable reporting | SEO, technical SEO, content, digital PR | Ties SEO to qualified pipeline, not rankings | [Custom pricing](https://directiveconsulting.com/) | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
 | PipeRocket Digital | Kamaraj Mathiarasan & Praveen Ravi | SaaS SEO tied to MRR and ARR growth, with GEO and AEO in-house | SEO, GEO/AEO, technical SEO, content, link building | MRR/ARR-modeled BOFU pages with GEO/AEO and CRM attribution | [$3,000/mo](/contact-us/) | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | First Page Sage | Evan Bailyn | SaaS thought-leadership SEO for enterprise sales cycles | Thought-leadership SEO, ghostwriting, GEO/AEO, content strategy | Thought-leadership content for long sales cycles | [Custom pricing](https://firstpagesage.com/) | [Verified on Clutch](https://clutch.co/profile/first-page-sage) |
 | Animalz | Walter Chen | Top-of-funnel SaaS content and editorial SEO | Editorial content, long-form SEO, thought leadership, AEO | Top-of-funnel editorial content | [Custom pricing](https://www.animalz.co/) | No third-party reviews |
@@ -71,18 +69,18 @@ With those differences in mind, here are the top SaaS SEO agencies built for MRR
 | Siege Media | Ross Hudgens | Premium SaaS content SEO and link earning | Content, SEO, digital PR, link building, data studies | Content production plus link earning | [Custom pricing](https://www.siegemedia.com/) | [4.9/5 (46 reviews)](https://clutch.co/profile/siege-media) |
 | Loopex Digital | Maria Harutyunyan & Vahan Poghosyan | SaaS SEO link building and digital PR | Link building, digital PR, technical SEO, content, audits | Off-page link building and digital PR | [Custom pricing](https://www.loopexdigital.com/) | [5.0/5 (84 reviews)](https://clutch.co/profile/loopex-digital) |
 | Breaking B2B | Sam Dunning | Bottom-of-funnel SaaS SEO and comparison content | BOFU SEO, comparison/alternatives content, SEO consulting | Founder-led BOFU and comparison content | [Custom pricing](https://www.breakingb2b.com/) | No Clutch profile |
-| Kalungi | Stijn Hendrikse | SaaS SEO within a fractional GTM team | Fractional CMO/GTM, SEO, content, ABM, demand gen | SEO inside a fractional GTM motion | [Custom pricing](https://www.kalungi.com/) | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
+| Kalungi | Stijn Hendrikse | Early-stage SaaS SEO led by senior strategists | SaaS SEO, technical SEO, content, keyword strategy | Senior-led SEO and content for early-stage SaaS | [Custom pricing](https://www.kalungi.com/) | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 | MADX Digital | Perry Steward & Toni Koraza | Fintech and AI-search SaaS SEO (GEO) | SEO, technical SEO, GEO/AI-search, content, digital PR | SEO plus GEO for fintech and AI search | [Custom pricing](https://www.madx.digital/) | [5.0/5 (12 reviews)](https://clutch.co/profile/madx-digital) |
 | Simple Tiger | Jeremiah & Sean Smith | Productized SaaS SEO sprints with senior leads | Keyword research, technical SEO, content, link building | Productized SEO sprints | [Custom pricing](https://www.simpletiger.com/) | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
-| Powered by Search | Dev Basu | SaaS SEO within a demand-gen system | SEO, demand gen, ABM, paid media, HubSpot RevOps | SEO inside an ABM and demand-gen system | [Custom pricing](https://www.poweredbysearch.com/) | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
+| Powered by Search | Dev Basu | Enterprise SaaS SEO with cybersecurity-vertical depth | SEO, technical SEO, content, link building | SEO for cybersecurity and enterprise SaaS | [Custom pricing](https://www.poweredbysearch.com/) | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search) |
 
 ## Detailed Comparison
 
 ### 1. Directive Consulting
 
-Best for: Enterprise SaaS SEO Unified With Paid Media and RevOps
+Best for: Enterprise SaaS SEO With Pipeline-Accountable Reporting
 
-[Directive Consulting](https://directiveconsulting.com/) is an Irvine, California performance marketing agency built for B2B and enterprise SaaS. Founded by Garrett Mehrguth, the team runs SEO, paid media, content, CRO, and revenue operations under a single "Customer Generation" model (since evolved into their DiscoverabilityOS framework) aimed at qualified pipeline rather than raw leads. They hold a 4.8/5 Clutch rating across 56 reviews.
+[Directive Consulting](https://directiveconsulting.com/) is an Irvine, California SEO agency built for B2B and enterprise SaaS. Founded by Garrett Mehrguth, its SEO practice is engineered for qualified pipeline rather than raw rankings, and sits inside a broader growth program. They hold a 4.8/5 Clutch rating across 56 reviews.
 
 {{< agency-triptych slug="directive-consulting" name="Directive Consulting" only="home" >}}
 
@@ -94,15 +92,15 @@ Best for: Enterprise SaaS SEO Unified With Paid Media and RevOps
 | Founded | 2014 |
 | Team Size | 130+ per agency claim (Clutch lists 50-249) |
 | Notable Clients | Adobe, Cisco, Calendly, BlackLine, SentinelOne, Bill.com, Gong, Amazon |
-| Specialization | B2B/SaaS SEO, paid media, RevOps, CRO, ABM |
+| Specialization | B2B/SaaS SEO, technical SEO, content, digital PR |
 
-**Key Services:** SaaS SEO, paid media (PPC), content marketing, CRO, RevOps, ABM and demand generation
+**Key Services:** SaaS SEO, technical SEO, content marketing, digital PR, link building
 
-**Strategy:** Runs SEO, paid media, and CRO under a single Customer Generation model, optimizing for qualified pipeline rather than raw leads.
+**Strategy:** Runs SEO for qualified pipeline rather than raw rankings, scoped tightly to organic performance.
 
-**What Sets Them Apart:** They're one of the few agencies that genuinely unifies organic, paid, and revenue operations under one roof, so SEO isn't a siloed retainer. Their Customer Generation thesis ties every channel back to pipeline rather than channel-level vanity metrics.
+**What Sets Them Apart:** Their SEO is reported against qualified pipeline rather than channel-level vanity metrics, backed by an enterprise-SaaS depth few pure-play shops match.
 
-- SEO sits inside a full-funnel program with paid and RevOps on the same team
+- SEO reported against qualified pipeline, not rankings or sessions
 - 56 verified Clutch reviews at 4.8/5 is a deep pool for an enterprise shop
 - Enterprise SaaS roster (Adobe, Cisco, SentinelOne, Gong) shows upmarket traction
 
@@ -121,21 +119,21 @@ Best for: Enterprise SaaS SEO Unified With Paid Media and RevOps
 - Scope is broader (and pricier) than a pure-play SEO retainer
 - Smaller retainers may see less hands-on senior time
 
-**Ideal Buyer:** An enterprise or scale-up B2B SaaS company that wants one partner aligning SEO, paid, and RevOps around pipeline, with budget for a premium retainer.
+**Ideal Buyer:** An enterprise or scale-up B2B SaaS company that wants enterprise SEO reported against pipeline, with budget for a premium retainer.
 
-**Where They Won't Fit:** An early-stage SaaS team on a tight budget that needs a focused, low-floor SEO retainer rather than a full Customer Generation engagement.
+**Where They Won't Fit:** An early-stage SaaS team on a tight budget that needs a focused, low-floor SEO retainer rather than a premium enterprise engagement.
 
-**Editor's Take:** We put Directive at the top for enterprise SaaS because almost no one else runs SEO, paid, and RevOps as one pipeline-accountable program, and we'd scope the SEO portion tightly so you aren't buying channels you don't need.
+**Editor's Take:** We put Directive at the top for enterprise SaaS because its SEO is unusually accountable to pipeline, and we'd scope the SEO engagement tightly so you aren't paying for the broader program you don't need.
 
 **The Numbers**
 
-Directive doesn't publish list pricing; Clutch lists rate and minimum as undisclosed, and engagements are scoped after a discovery call, as of June 2026. Multiple third-party sources peg Directive as a premium, enterprise-priced agency.
+Directive doesn't publish list pricing; Clutch lists rate and minimum as undisclosed, and engagements are scoped after a discovery call, as of July 2026. Multiple third-party sources peg Directive as a premium, enterprise-priced agency.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Customer Generation | Custom pricing | SEO, paid, content, CRO, RevOps unified |
-| SEO Program | Custom pricing | Technical SEO, content, digital PR |
-| Full-Funnel / ABM | Custom pricing | Multi-channel demand plus revenue operations |
+| SEO Program | Custom pricing | Technical SEO, content, digital PR, link building |
+| Enterprise SEO | Custom pricing | SEO strategy, content, and reporting at scale |
+| Broader Program | Custom pricing | A wider growth engagement that includes SEO |
 
 **On Clutch and Reddit**
 
@@ -143,7 +141,7 @@ Directive doesn't publish list pricing; Clutch lists rate and minimum as undiscl
 
 An iCIMS senior manager called Directive "the strongest agency I've worked with to date" ([source](https://clutch.co/profile/directive)).
 
-- Buyers cite the Customer Generation and pipeline framing as the differentiator
+- Buyers cite the pipeline-accountable SEO framing as the differentiator
 
 **Complain:** Premium scope and pace
 
@@ -162,7 +160,7 @@ Reviewers love the results but flag broader scope and execution pace, and note s
 
 Best for: SaaS SEO Tied to MRR and ARR Growth, With GEO and AEO In-House
 
-[PipeRocket Digital](/) is an AI-first, B2B-SaaS-only marketing agency, founded in 2023 and headquartered in California, that runs SEO, GEO, and AEO as one program built to report in pipeline rather than rankings. They have 70+ shipped pipeline engagements and hold a 4.7/5 Clutch rating across 16 reviews. (Disclosure: PipeRocket Digital publishes this list and is held to the same criteria as every other agency.)
+[PipeRocket Digital](/) is an AI-first, B2B-SaaS-only SEO agency, founded in 2023 and headquartered in California, that runs SEO, GEO, and AEO as one program built to report in pipeline rather than rankings. They have 70+ shipped pipeline engagements and hold a 4.7/5 Clutch rating across 16 reviews. (Disclosure: PipeRocket Digital publishes this list and is held to the same criteria as every other agency.)
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" only="home" >}}
 
@@ -174,7 +172,7 @@ Best for: SaaS SEO Tied to MRR and ARR Growth, With GEO and AEO In-House
 | Founded | 2023 |
 | Team Size | Senior B2B SaaS pod per account |
 | Notable Clients | Storylane, HyperVerge, LatentView, Spendflo, MetricStream, Goldcast, greytHR, SaaS Labs |
-| Specialization | B2B SaaS SEO, GEO/AEO, technical SEO, link building |
+| Specialization | [B2B SaaS SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), [technical SEO](/technical-seo-agency/), [link building](/link-building-agency/) |
 
 **Key Services:** SaaS SEO, GEO and AEO, technical SEO, content marketing, link building, programmatic SEO
 
@@ -200,7 +198,7 @@ Best for: SaaS SEO Tied to MRR and ARR Growth, With GEO and AEO In-House
 
 **My take after reviewing the case studies:** PipeRocket's public studies lead with organic traffic and ranking wins; the MQL and pipeline impact behind them is what they report inside the client's CRM, not on a marketing page, which is the honest order of operations for SEO.
 
-**What to Watch For:** PipeRocket is B2B SaaS only, so ecommerce, local, and consumer brands get declined. It is a younger agency (founded 2023), and its 13-review Clutch pool is smaller than the longest-tenured shops on this list.
+**What to Watch For:** PipeRocket is B2B SaaS only, so ecommerce, local, and consumer brands get declined. It is a younger agency (founded 2023), and its 16-review Clutch pool is smaller than the longest-tenured shops on this list.
 
 - B2B SaaS only; no ecommerce, local, or consumer
 - Newer agency with a smaller review pool than legacy peers
@@ -213,13 +211,13 @@ Best for: SaaS SEO Tied to MRR and ARR Growth, With GEO and AEO In-House
 
 **The Numbers**
 
-PipeRocket scopes engagements to pipeline outcomes and growth stage, with published entry tiers, as of June 2026.
+PipeRocket scopes engagements to pipeline outcomes and growth stage, with published entry tiers, as of July 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | SaaS SEO | $3,000/mo | Technical SEO, BOFU content, keyword strategy, pipeline reporting |
 | Full Funnel | $8,000-$15,000/mo | SEO plus GEO/AEO plus content plus paid integration |
-| Enterprise | Custom pricing | Dedicated senior pod, ABM, MarOps, full-funnel attribution |
+| Enterprise | Custom pricing | Dedicated senior pod, GEO/AEO, full-funnel SEO attribution |
 
 **On Clutch and Reddit**
 
@@ -246,7 +244,7 @@ The B2B-SaaS-only focus means many qualified inbound enquiries get politely decl
 
 Best for: SaaS Thought-Leadership SEO for Enterprise Sales Cycles
 
-[First Page Sage](https://firstpagesage.com/) is a Berkeley-based agency known for the "Thought Leadership SEO" model. They coined GEO in 2024 and publish self-hosted reviews at firstpagesagereviews.com.
+[First Page Sage](https://firstpagesage.com/) is a Berkeley-based SEO agency known for the "Thought Leadership SEO" model. They coined GEO in 2024 and publish self-hosted reviews at firstpagesagereviews.com.
 
 {{< agency-triptych slug="first-page-sage" name="First Page Sage" only="home" >}}
 
@@ -292,7 +290,7 @@ Best for: SaaS Thought-Leadership SEO for Enterprise Sales Cycles
 
 **The Numbers**
 
-First Page Sage doesn't publish pricing on the homepage; Clutch indicates a $10,000+ project minimum, as of June 2026.
+First Page Sage doesn't publish pricing on the homepage; Clutch indicates a $10,000+ project minimum, as of July 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -325,7 +323,7 @@ The Clutch profile is live but holds zero reviews, so external validation depend
 
 Best for: Top-of-Funnel SaaS Content and Editorial SEO
 
-[Animalz](https://www.animalz.co/) is a content marketing agency that started in NYC in 2015 and is now a remote-first, global team. Co-founded by Walter Chen (now Chairman) and led by CEO Ty Magnin, they specialize in deeply researched, top-of-funnel editorial content and thought leadership for B2B SaaS, with answer engine optimization built into the process.
+[Animalz](https://www.animalz.co/) is a content and editorial SEO agency that started in NYC in 2015 and is now a remote-first, global team. Co-founded by Walter Chen (now Chairman) and led by CEO Ty Magnin, they specialize in deeply researched, top-of-funnel editorial content and thought leadership for B2B SaaS, with answer engine optimization built into the process.
 
 {{< agency-triptych slug="animalz" name="Animalz" only="home" >}}
 
@@ -372,7 +370,7 @@ Best for: Top-of-Funnel SaaS Content and Editorial SEO
 
 **The Numbers**
 
-Animalz doesn't publish list pricing; third-party directories indicate a project minimum around $10,000 and hourly rates in the $150-$199 band, as of June 2026.
+Animalz doesn't publish list pricing; third-party directories indicate a project minimum around $10,000 and hourly rates in the $150-$199 band, as of July 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -452,7 +450,7 @@ Best for: Strategy-Led SaaS Content SEO and Brand Positioning
 
 **The Numbers**
 
-Omniscient doesn't publish list pricing; Clutch indicates $100-$149/hr and a $5,000+ project minimum, as of June 2026.
+Omniscient doesn't publish list pricing; Clutch indicates $100-$149/hr and a $5,000+ project minimum, as of July 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -487,7 +485,7 @@ See our roundup of [Omniscient Digital alternatives](/alternative/omniscient-dig
 
 Best for: Premium SaaS Content SEO and Link Earning
 
-[Siege Media](https://www.siegemedia.com/) is an Austin-based content and digital PR firm founded by Ross Hudgens. They're known for visual link bait, data studies, and content that earns enterprise SaaS coverage.
+[Siege Media](https://www.siegemedia.com/) is an Austin-based SEO, content, and digital PR firm founded by Ross Hudgens. They're known for visual link bait, data studies, and content that earns enterprise SaaS coverage.
 
 {{< agency-triptych slug="siege-media" name="Siege Media" only="home" >}}
 
@@ -534,7 +532,7 @@ Best for: Premium SaaS Content SEO and Link Earning
 
 **The Numbers**
 
-Siege doesn't publish list pricing; Clutch indicates $100-$149/hr and a $5,000+ project minimum, as of June 2026.
+Siege doesn't publish list pricing; Clutch indicates $100-$149/hr and a $5,000+ project minimum, as of July 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -616,7 +614,7 @@ Best for: SaaS SEO Link Building and Digital PR
 
 **The Numbers**
 
-Loopex doesn't publish retainer pricing; engagements are custom-scoped after discovery, as of June 2026. Clutch lists $50-$99/hr and a $1,000+ project minimum.
+Loopex doesn't publish retainer pricing; engagements are custom-scoped after discovery, as of July 2026. Clutch lists $50-$99/hr and a $1,000+ project minimum.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -649,7 +647,7 @@ A Fiducia Adamantina CEO praised the team but US clients commonly flag the Armen
 
 Best for: [Bottom-of-Funnel](/blogs/how-to-rank-bofu-keywords-saas/) SaaS SEO and Comparison Content
 
-[Breaking B2B](https://www.breakingb2b.com/) is a UK-based, founder-led agency run by Sam Dunning. They position as the anti-agency for SaaS brands tired of retainers that report on traffic and not revenue. The team is small and BOFU-focused.
+[Breaking B2B](https://www.breakingb2b.com/) is a UK-based, founder-led SaaS SEO agency run by Sam Dunning. They position as the anti-agency for SaaS brands tired of retainers that report on traffic and not revenue. The team is small and BOFU-focused.
 
 {{< agency-triptych slug="breaking-b2b" name="Breaking B2B" only="home" >}}
 
@@ -696,7 +694,7 @@ Best for: [Bottom-of-Funnel](/blogs/how-to-rank-bofu-keywords-saas/) SaaS SEO an
 
 **The Numbers**
 
-Breaking B2B doesn't publish pricing; engagements are scoped per project after a discovery call, as of June 2026.
+Breaking B2B doesn't publish pricing; engagements are scoped per project after a discovery call, as of July 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -727,9 +725,9 @@ The agency has no Clutch profile, so external validation depends entirely on own
 
 ### 9. Kalungi
 
-Best for: SaaS SEO Within a Fractional GTM Team
+Best for: Early-Stage SaaS SEO Led by Senior Strategists
 
-[Kalungi](https://www.kalungi.com/) is a Seattle-based agency that runs full fractional GTM for B2B SaaS startups, bundling SEO, content, ABM, and fractional CMO services. They publish customer testimonials at kalungi.com/customers.
+[Kalungi](https://www.kalungi.com/) is a Seattle-based SEO and content agency for B2B SaaS startups, with senior strategists leading each engagement. They publish customer testimonials at kalungi.com/customers.
 
 {{< agency-triptych slug="kalungi" name="Kalungi" only="home" >}}
 
@@ -741,13 +739,13 @@ Best for: SaaS SEO Within a Fractional GTM Team
 | Founded | 2018 |
 | Team Size | 10-49 people |
 | Notable Clients | Patch, Beezy, iControl, Avid, DataGuard, Clario, BP Logix |
-| Specialization | Fractional GTM, SaaS SEO, ABM, content |
+| Specialization | SaaS SEO, technical SEO, content, keyword strategy |
 
-**Key Services:** Fractional CMO and GTM, SaaS SEO, content marketing, ABM, demand generation
+**Key Services:** SaaS SEO, technical SEO, content marketing, keyword strategy, link building
 
-**Strategy:** Folds SEO into a fractional-CMO GTM motion alongside ABM and demand generation.
+**Strategy:** Delivers SEO and content with senior strategic leadership on each early-stage account.
 
-**What Sets Them Apart:** They solve the "we don't have a team yet" problem by stepping in as a full marketing engine including fractional leadership. SEO is one strand of a bundled GTM motion rather than a standalone retainer.
+**What Sets Them Apart:** They bring senior strategic leadership to early-stage SaaS that has no in-house team yet. Note that their SEO sits inside a broader engagement rather than as a standalone retainer.
 
 - Fractional CMO and team bundled with execution
 - Documented 1,500% MQL growth case study for Patch
@@ -776,11 +774,11 @@ Best for: SaaS SEO Within a Fractional GTM Team
 
 **The Numbers**
 
-Kalungi doesn't publish retainer pricing; engagements are scoped per GTM stage, as of June 2026. Clutch indicates $100-$149/hr and a $25,000+ project minimum.
+Kalungi doesn't publish retainer pricing; engagements are scoped per GTM stage, as of July 2026. Clutch indicates $100-$149/hr and a $25,000+ project minimum.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Fractional GTM | Custom pricing | CMO, SEO, content, ABM bundled |
+| Broader Engagement | Custom pricing | A wider growth engagement that includes SEO |
 | SaaS SEO | Custom pricing | Strategy, content, technical, link building |
 | Consulting | Custom pricing | Strategy, audits, planning |
 
@@ -790,7 +788,7 @@ Kalungi doesn't publish retainer pricing; engagements are scoped per GTM stage, 
 
 A Patch testimonial on [kalungi.com/customers](https://www.kalungi.com/customers) credits the team with 1,500% MQL growth across a bundled engagement.
 
-- Buyers cite the fractional CMO model as the difference vs piecemeal vendors
+- Buyers cite senior strategic leadership as the difference vs piecemeal vendors
 
 **Complain:** Zero Clutch reviews
 
@@ -800,7 +798,7 @@ The Clutch profile is live but holds no reviews, so external validation depends 
 
 | Criteria | Detail |
 | --- | --- |
-| Free Consultation | Yes, GTM discovery call |
+| Free Consultation | Yes, discovery call |
 | Rating | [4.8 on FeaturedCustomers](https://www.featuredcustomers.com/vendor/kalungi) |
 
 ---
@@ -858,7 +856,7 @@ Best for: Fintech and AI-Search SaaS SEO (GEO)
 
 **The Numbers**
 
-MADX doesn't publish list pricing; Clutch indicates a $5,000+ project minimum, as of June 2026.
+MADX doesn't publish list pricing; Clutch indicates a $5,000+ project minimum, as of July 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -938,7 +936,7 @@ Best for: Productized SaaS SEO Sprints With Senior Leads
 
 **The Numbers**
 
-Simple Tiger doesn't publish retainer pricing; Clutch indicates $200-$300/hr and a $5,000+ project minimum, as of June 2026.
+Simple Tiger doesn't publish retainer pricing; Clutch indicates $200-$300/hr and a $5,000+ project minimum, as of July 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -969,9 +967,9 @@ A senior SEO manager praised expertise, but the $200-$300/hr band makes hands-on
 
 ### 12. Powered by Search
 
-Best for: SaaS SEO Within a Demand-Gen System
+Best for: Enterprise SaaS SEO With Cybersecurity-Vertical Depth
 
-[Powered by Search](https://www.poweredbysearch.com/) is a Toronto-based B2B SaaS demand-gen agency running their "Predictable Growth" methodology. They bundle SEO with ABM, paid, and HubSpot RevOps for SaaS and cybersecurity clients.
+[Powered by Search](https://www.poweredbysearch.com/) is a Toronto-based B2B SaaS SEO agency with strong cybersecurity-vertical depth. Their SEO sits inside a broader growth program for SaaS and cybersecurity clients.
 
 {{< agency-triptych slug="powered-by-search" name="Powered by Search" only="home" >}}
 
@@ -983,19 +981,19 @@ Best for: SaaS SEO Within a Demand-Gen System
 | Founded | 2009 |
 | Team Size | 21-30 people |
 | Notable Clients | Fortra, ThreatX, PointClickCare, iWave, TouchBistro, Cyera |
-| Specialization | B2B SaaS demand gen, ABM, paid + SEO, cybersecurity vertical |
+| Specialization | B2B SaaS SEO, technical SEO, content, cybersecurity vertical |
 
-**Key Services:** SEO, demand generation, ABM, paid media, HubSpot RevOps, content
+**Key Services:** SEO, technical SEO, content, link building
 
-**Strategy:** Runs SEO inside a broader ABM and demand-generation system on HubSpot RevOps.
+**Strategy:** Runs SEO with cybersecurity and enterprise-SaaS vertical depth, inside a broader growth program.
 
-**What Sets Them Apart:** They run a full-funnel demand-gen methodology rather than isolated SEO retainers, with strong cybersecurity and enterprise SaaS vertical experience. The HubSpot RevOps integration is a real differentiator.
+**What Sets Them Apart:** They bring strong cybersecurity and enterprise-SaaS vertical experience to SEO, one of the harder trust bars to clear. Note their SEO runs inside a broader growth program rather than as an isolated retainer.
 
-- Predictable Growth methodology spans SEO, ABM, and paid
+- SEO built for cybersecurity and enterprise-SaaS verticals
 - Strong cybersecurity and enterprise SaaS vertical depth
-- HubSpot RevOps integration baked into delivery
+- Senior SEO strategy within a broader growth program
 
-**Documented Outcome:** Their [client results page](https://www.poweredbysearch.com/clients-results/) documents named case studies for Fortra, ThreatX, PointClickCare, iWave, TouchBistro, and Cyera. An on-site testimonial says "I 100% recommend Powered By Search. They've completely transformed our [paid media strategy](/blogs/saas-paid-marketing-guide/)."
+**Documented Outcome:** Their [client results page](https://www.poweredbysearch.com/clients-results/) documents named case studies for Fortra, ThreatX, PointClickCare, iWave, TouchBistro, and Cyera. Because most published proof spans their broader program, ask for SEO-specific references at your ARR.
 
 **Case studies:**
 
@@ -1010,29 +1008,29 @@ Best for: SaaS SEO Within a Demand-Gen System
 - No verified Clutch reviews; rely on FeaturedCustomers for third-party
 - Demand-gen scope broader than pure-SEO buyers may want
 
-**Ideal Buyer:** A cybersecurity or enterprise B2B SaaS company at $20M-$200M ARR that wants SEO bundled into a full demand-gen system with RevOps and paid integration.
+**Ideal Buyer:** A cybersecurity or enterprise B2B SaaS company at $20M-$200M ARR that wants SEO with real vertical depth and is comfortable with a broader engagement.
 
 **Where They Won't Fit:** A SaaS team that only wants a pure SEO retainer or a buyer who requires a verified Clutch review pool before procurement.
 
-**Editor's Take:** We think Powered by Search earns the spot for buyers who want one demand-gen partner, and we'd push pure-SEO briefs toward more focused shops on this list.
+**Editor's Take:** We think Powered by Search earns the spot for cybersecurity and enterprise SaaS SEO, and we'd push buyers who want a lean, pure-SEO retainer toward more focused shops on this list.
 
 **The Numbers**
 
-Powered by Search doesn't publish list pricing; Clutch indicates $200-$300/hr and a $5,000+ project minimum, as of June 2026.
+Powered by Search doesn't publish list pricing; Clutch indicates $200-$300/hr and a $5,000+ project minimum, as of July 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | SaaS SEO | Custom pricing | Technical SEO, content, link building |
-| Demand Gen | Custom pricing | SEO plus ABM plus paid plus RevOps |
-| Full Program | Custom pricing | Predictable Growth methodology end to end |
+| Broader Program | Custom pricing | SEO within a wider growth engagement |
+| Full Program | Custom pricing | End-to-end program that includes SEO |
 
 **On Clutch and Reddit**
 
-**Love:** Demand-gen transformation
+**Love:** Cybersecurity SEO depth
 
-An on-site testimonial says the team "completely transformed our paid media strategy" ([source](https://www.poweredbysearch.com/)).
+Buyers highlight the team's cybersecurity and enterprise-SaaS vertical experience ([source](https://www.poweredbysearch.com/)).
 
-- Buyers cite the RevOps and ABM integration as the differentiator
+- Buyers cite the team's cybersecurity vertical depth as the differentiator
 
 **Complain:** No verified Clutch reviews
 
@@ -1067,7 +1065,7 @@ We screened more than 30 agencies to build this list. The 12 above earned full r
 | [Codeless](https://codeless.io/) | High-volume long-form content production for SaaS |
 | [Bay Leaf Digital](https://www.bayleafdigital.com/) | Full-service SaaS marketing for early and mid-stage teams |
 | [Minuttia](https://minuttia.com/) | SaaS content strategy and SEO with editorial depth |
-| [Stratabeat](https://stratabeat.com/) | B2B SEO, GEO, content, and CRO out of Boston |
+| [Stratabeat](https://stratabeat.com/) | B2B SEO, GEO, and content out of Boston |
 | [SeoProfy](https://seoprofy.com/) | Data-driven SEO with SaaS and tech experience |
 | [Roketto](https://roketto.com/) | Inbound marketing and SaaS growth (Canada) |
 | [SmartBug Media](https://www.smartbugmedia.com/) | HubSpot-led inbound and content for B2B SaaS |
@@ -1110,9 +1108,9 @@ High-ACV, sales-led SaaS lives and dies on SQLs, ABM, and committee-driven pipel
 
 - **PipeRocket Digital:** best for sales-led SaaS that wants SEO reported in SQLs and pipeline, with GEO and AEO on the same team (disclosure: PipeRocket publishes this list).
 - **Directive Consulting:** best for high-ACV sales-led SaaS that needs SEO tied to SQLs, CAC, and revenue.
-- **Powered by Search:** best for sales-led teams wanting SEO inside a full ABM and demand-gen system with HubSpot RevOps.
+- **Powered by Search:** best for sales-led cybersecurity and enterprise SaaS wanting SEO with vertical depth.
 - **Grow and Convert:** best for sales-led SaaS that wants Pain Point SEO and competitor-alternatives pages engineered to feed demos.
-- **Kalungi:** best for early sales-led teams that want SEO inside a fractional-CMO ABM and pipeline motion.
+- **Kalungi:** best for early sales-led teams that want senior-led SEO and content.
 
 If they can't tie content to demos in your CRM, the reporting is theater.
 
