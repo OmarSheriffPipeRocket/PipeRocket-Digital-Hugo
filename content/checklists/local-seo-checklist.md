@@ -1,5 +1,5 @@
 ---
-title: "The Local SEO Checklist for 2026"
+title: "The Local SEO Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive local SEO checklist for 2026: Google Business Profile, NAP and citations, reviews, on-page local signals and local links. Tick items off, save your progress, and download the PDF."
 metaTitle: "The Local SEO Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete local SEO checklist for 2026: Google Business Profile, NAP citations, reviews, local landing pages and local links. Interactive, saves your progress, free PDF. No email."

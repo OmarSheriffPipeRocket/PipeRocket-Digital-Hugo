@@ -1,5 +1,5 @@
 ---
-title: "The SEO Audit Checklist for 2026"
+title: "The SEO Audit Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive SEO audit checklist for 2026: access, indexation, on-page, technical, content, backlinks and competitor benchmarks, ending in a prioritised action list. Tick items off, save your progress, download the PDF."
 metaTitle: "The SEO Audit Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete SEO audit checklist for 2026: indexation, on-page, technical, content, backlink and competitor checks, ending in a prioritised action list. Interactive, free PDF. No email."

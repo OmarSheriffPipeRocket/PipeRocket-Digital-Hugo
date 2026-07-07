@@ -1,5 +1,5 @@
 ---
-title: "My SaaS SEO Checklist for 2026: An Experience-based Guide"
+title: "My SaaS SEO Checklist for 2026: An Experience-based Guide (Free downloadable PDF)"
 description: "I’ve spent over 15 years in SEO, and if there’s one thing I’ve learned, it’s that most “checklists” are distractions. They focus on green lights in a plugin rather than the green lines on your revenue chart. Recently, I sat down with my team to break down exactly how we approach SaaS SEO at PipeRocket […]"
 metaTitle: "My SaaS SEO Checklist for 2026"
 metaDescription: "Here's the SaaS SEO checklist we use here at PipeRocket Digital for every client. It has everything you need to be the modern SaaS SEO marketer."

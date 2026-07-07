@@ -1,5 +1,5 @@
 ---
-title: "The AEO Checklist for 2026 (Answer Engine Optimization)"
+title: "The AEO (Answer Engine Optimization) Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive AEO checklist for 2026: get pulled into featured snippets, People Also Ask and Google's AI Overviews with answer-first content and schema. Tick items off, save your progress, download the PDF."
 metaTitle: "The AEO Checklist for 2026 (Answer Engine Optimization)"
 metaDescription: "A complete Answer Engine Optimization (AEO) checklist for 2026: answer-first content, snippet and PAA formatting, schema, and Google AI Overviews. Interactive, free PDF. No email."

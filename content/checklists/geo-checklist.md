@@ -1,5 +1,5 @@
 ---
-title: "The GEO Checklist for 2026 (Generative Engine Optimization)"
+title: "The GEO (Generative Engine Optimization) Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive GEO checklist for 2026: get your brand cited by ChatGPT, Perplexity, Gemini and Claude through crawler access, citable content, entity authority and off-site presence. Tick items off, save progress, download the PDF."
 metaTitle: "The GEO Checklist for 2026 (Generative Engine Optimization)"
 metaDescription: "A complete Generative Engine Optimization (GEO) checklist for 2026: get cited by ChatGPT, Perplexity, Gemini and Claude via crawler access, citable content and entity authority. Free PDF."

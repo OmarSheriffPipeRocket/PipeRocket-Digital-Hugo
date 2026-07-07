@@ -1,5 +1,5 @@
 ---
-title: "The LinkedIn Ads Checklist for 2026"
+title: "The LinkedIn Ads Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive LinkedIn Ads checklist for B2B SaaS in 2026: tracking, identity-based targeting, creative, offers, optimisation and measurement. Tick items off, save your progress, and download the PDF."
 metaTitle: "The LinkedIn Ads Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete LinkedIn Ads checklist for B2B SaaS 2026: Insight Tag, job-title targeting, ABM lists, creative, offers and optimisation. Interactive, free PDF. No email."

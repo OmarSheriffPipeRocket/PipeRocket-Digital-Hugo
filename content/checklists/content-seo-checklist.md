@@ -1,5 +1,5 @@
 ---
-title: "The Content SEO Checklist for 2026"
+title: "The Content SEO Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive content SEO checklist for 2026: research and intent, structure, writing and E-E-A-T, on-page SEO, and refresh. Tick items off, save your progress, and download the PDF."
 metaTitle: "The Content SEO Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete content SEO checklist for 2026: keyword and intent research, structure, E-E-A-T writing, on-page optimisation and content refresh. Interactive, free PDF. No email."

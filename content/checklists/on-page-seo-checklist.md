@@ -1,5 +1,5 @@
 ---
-title: "The On-Page SEO Checklist for 2026"
+title: "The On-Page SEO Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive on-page SEO checklist for 2026: search intent, titles, headings, content, E-E-A-T, internal links and markup. Tick items off, save your progress, and download the PDF."
 metaTitle: "The On-Page SEO Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete on-page SEO checklist for 2026: intent, title tags, headings, content quality, E-E-A-T, internal links and schema. Interactive, saves your progress, free PDF. No email."

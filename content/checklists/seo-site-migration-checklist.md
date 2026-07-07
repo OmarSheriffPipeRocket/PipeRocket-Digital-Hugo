@@ -1,5 +1,5 @@
 ---
-title: "The SEO Site Migration Checklist for 2026"
+title: "The SEO Site Migration Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive SEO site migration checklist for 2026: planning, URL mapping, 301 redirects, staging, launch day and post-launch monitoring, so you keep your rankings. Tick items off, save your progress, download the PDF."
 metaTitle: "The SEO Site Migration Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete SEO site migration checklist for 2026: URL mapping, 301 redirects, staging QA, launch day and post-launch monitoring. Protect your rankings. Interactive, free PDF. No email."

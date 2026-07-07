@@ -1,5 +1,5 @@
 ---
-title: "The International SEO Checklist for 2026"
+title: "The International SEO Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive international SEO checklist for 2026: market strategy, URL structure, hreflang, localisation and geotargeting. Tick items off, save your progress, and download the PDF."
 metaTitle: "The International SEO Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete international SEO checklist for 2026: URL structure, hreflang, content localisation and geotargeting across countries and languages. Interactive, free PDF. No email."

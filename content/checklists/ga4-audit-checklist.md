@@ -1,5 +1,5 @@
 ---
-title: "The GA4 Audit Checklist for 2026"
+title: "The GA4 Audit Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive GA4 audit checklist for 2026: setup and config, tracking accuracy, events and conversions, data quality, integrations and reporting. Tick items off, save your progress, and download the PDF."
 metaTitle: "The GA4 Audit Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete Google Analytics 4 audit checklist for 2026: configuration, tracking accuracy, events and conversions, data quality, integrations and reporting. Interactive, free PDF."

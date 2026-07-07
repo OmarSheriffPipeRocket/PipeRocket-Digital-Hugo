@@ -1,5 +1,5 @@
 ---
-title: "The SaaS Go-to-Market Checklist for 2026"
+title: "The SaaS Go-to-Market Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive SaaS go-to-market checklist for 2026: market and ICP, messaging and pricing, channels, assets, launch execution and measurement. Tick items off, save your progress, and download the PDF."
 metaTitle: "The SaaS Go-to-Market Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete B2B SaaS go-to-market and launch checklist for 2026: ICP, positioning, pricing, channels, assets, launch execution and measurement. Interactive, free PDF."

@@ -1,5 +1,5 @@
 ---
-title: "The ABM Checklist for 2026"
+title: "The ABM Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive account-based marketing (ABM) checklist for B2B SaaS in 2026: readiness, target accounts, the buying committee, plays, orchestration and measurement. Tick items off, save your progress, download the PDF."
 metaTitle: "The ABM Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete account-based marketing checklist for 2026: sales alignment, target account lists, buying committee, plays, orchestration and measurement. Interactive, free PDF."

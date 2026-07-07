@@ -1,5 +1,5 @@
 ---
-title: "The Google Ads Audit Checklist for 2026"
+title: "The Google Ads Audit Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive Google Ads audit checklist for 2026: account structure, conversion tracking, keywords and search terms, bidding, ads, audiences and wasted spend. Tick items off, save your progress, download the PDF."
 metaTitle: "The Google Ads Audit Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A complete Google Ads / PPC audit checklist for 2026: structure, conversion tracking, search terms, bidding, ads, audiences and wasted spend. Interactive, free PDF. No email."

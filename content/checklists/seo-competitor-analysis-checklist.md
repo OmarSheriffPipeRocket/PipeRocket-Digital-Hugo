@@ -1,5 +1,5 @@
 ---
-title: "The SEO Competitor Analysis Checklist for 2026"
+title: "The SEO Competitor Analysis Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive SEO competitor analysis checklist for 2026: identify competitors, then find keyword, content, backlink and SERP gaps and turn them into a roadmap. Tick items off, save your progress, download the PDF."
 metaTitle: "The SEO Competitor Analysis Checklist for 2026 (Free Tool)"
 metaDescription: "A complete SEO competitor analysis checklist for 2026: keyword, content, backlink and SERP gap analysis, turned into a prioritised roadmap. Interactive, saves progress, free PDF. No email."

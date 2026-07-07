@@ -1,5 +1,5 @@
 ---
-title: "The Technical SEO Checklist for 2026"
+title: "The Technical SEO Checklist for 2026 (Free downloadable PDF)"
 description: "An interactive technical SEO checklist for 2026: crawlability, indexing, site architecture, Core Web Vitals, rendering, structured data and security. Tick items off, save your progress, and download the PDF."
 metaTitle: "The Technical SEO Checklist for 2026 (Free Interactive Tool)"
 metaDescription: "A 35-point technical SEO checklist for 2026: crawlability, indexing, Core Web Vitals, rendering, schema and security. Interactive, saves your progress, free PDF. No email."
