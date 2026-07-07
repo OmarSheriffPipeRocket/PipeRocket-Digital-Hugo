@@ -18,8 +18,8 @@ Here's how we actually prove SEO ROI: by tying organic to pipeline and revenue, 
 
 ## TL;DR
 
-- **Traffic and rankings aren't ROI, they're activity:** A dashboard full of vanity metrics tells leadership the channel is working hard, not that it returns money, so prove pipeline instead.
-- **Attribute organic to pipeline by page type:** Tag organic-sourced leads, trials, and demos, then judge each page against its own conversion benchmark, not one blended number.
+- **Traffic and rankings aren't ROI, they're activity:** A dashboard full of vanity metrics tells leadership the channel is working hard rather than returning money, so prove pipeline instead.
+- **Attribute organic to pipeline by page type:** Tag organic-sourced leads, trials, and demos, then judge each page against its own conversion benchmark rather than one blended number.
 - **Account for the dark funnel before you report:** A chunk of organic's real impact shows up as branded and direct traffic that standard attribution never credits back to SEO.
 - **Build the math against a cost benchmark:** Organic-attributed pipeline value over fully-loaded SEO cost, weighed against the 10-15% of marketing spend SEO typically takes.
 - **Report on a cadence leadership trusts:** A quarterly pipeline-attributed number with a consistent method beats a monthly traffic chart nobody acts on.
@@ -93,7 +93,7 @@ Someone reads your content or finds you through an AI assistant, doesn't convert
 That's the dark funnel: real influence that the measurement model can't see. The right response is to report two layers rather than to invent numbers:
 
 - **Directly attributed organic pipeline:** the conservative, defensible number you'd take into a finance review.
-- **Influenced pipeline:** branded and direct growth that tracks with your content investment, presented as directional, not exact.
+- **Influenced pipeline:** branded and direct growth that tracks with your content investment, presented as directional rather than exact.
 
 Keep them separate and label them honestly. The directly-attributed number is your floor. The influenced number is context that explains why branded search is rising while you invest in organic. A CFO will trust a person who says "here's what I can prove, and here's what I believe is also happening" far more than one who claims a single suspiciously clean figure.
 
@@ -132,6 +132,56 @@ Lock the method so the number is comparable quarter to quarter, and settle on [t
 - Same cost inputs
 
 The moment you change how you count, you lose the ability to show a trend, and the trend is the whole point. Build the report once, then defend the method, not just this quarter's figure. When a number moves, you want the conversation to be about why pipeline changed, not about whether you measured it differently this time.
+
+## How to Calculate SEO Payback Period for SaaS
+
+The payback window from Step 4 has a specific number behind it: the payback period, or how long organic revenue takes to recover what you spent to earn it. For SaaS, recurring revenue and churn change the math, so it's worth calculating properly instead of eyeballing.
+
+The core formula is simple:
+
+**Payback Period = Total SEO Investment / Monthly Revenue from Organic**
+
+### Work it out step by step
+
+Start with your fully-loaded monthly SEO investment: agency or team cost, tools, content production, and any tech or dev work. Say that comes to $5,000 a month.
+
+Then calculate monthly organic-attributed revenue, which is the hard part for SaaS:
+
+**Monthly Organic MRR = Organic Signups x Trial-to-Paid Rate x ARPU**
+
+As a worked example, 500 organic visitors convert to 50 trials at 10%, 5 of those go paid at a 10% trial-to-paid rate, and at a $200 ARPU that's $1,000 a month in new organic MRR.
+
+Now divide. If you've spent $15,000 over three months and organic generates $1,000 a month, payback lands at $15,000 divided by $1,000, or 15 months.
+
+### Use Lifetime Value Instead of First-Month Revenue
+
+Because SaaS customers stick around, first-month MRR understates what each organic customer is actually worth. Swap in lifetime value for a truer picture:
+
+**Payback Period = Total Investment / (Monthly Organic Customers x LTV)**
+
+If those 5 monthly customers each carry an LTV of $1,200, one month of organic acquisition is worth $6,000 in lifetime value, and the payback picture improves sharply against the same $15,000 spend.
+
+### Why payback is hard to track for SaaS
+
+Three things make this messier than a paid-channel payback calculation:
+
+- **SEO lag:** organic revenue often starts 3 to 9 months after you begin investing, so the early months look terrible on paper.
+- **Attribution:** organic-assisted conversions are hard to isolate in GA4 or HubSpot without the UTM tagging and CRM tracking that Step 1 sets up.
+- **Compounding:** unlike paid, SEO compounds, so payback looks worse early and dramatically better later.
+
+### Read the number against a benchmark
+
+Once you have a payback period, this is roughly how to read it for SaaS:
+
+| SEO payback period | Interpretation |
+|---|---|
+| Under 6 months | Exceptional, usually low investment or high ARPU |
+| 6 to 12 months | Strong |
+| 12 to 18 months | Acceptable for SaaS |
+| 18 to 24 months | Borderline, review the content strategy |
+| 24+ months | Needs justification, such as a very high LTV |
+
+The real argument to make with leadership is residual value. Once content ranks, it keeps producing revenue with little ongoing spend, so frame it beyond the payback month itself. The honest version is "we hit payback at month 14, and the content keeps generating revenue for years at minimal maintenance cost."
 
 ## Common Mistakes That Make SEO ROI Look Fake
 
