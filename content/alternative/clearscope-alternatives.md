@@ -41,7 +41,7 @@ Weighing the two directly? See our neutral [MarketMuse vs Clearscope](/compare/m
 | --- | --- | --- | --- | --- |
 | Surfer SEO | Optimization + AI drafting in one platform | No free plan; free trial unverified as of June 2026 | [$49/mo](https://surferseo.com/pricing/) (Discovery, annual) | [4.8/5 (~537 reviews, G2)](https://www.g2.com/products/surfer-surfer/reviews) |
 | Frase.io | Research briefs + SEO/GEO optimization | 7-day trial (no credit card required) | [$49/mo](https://www.frase.io/pricing/) ($39/mo annual) | [4.8/5 (~290 reviews, G2)](https://www.g2.com/products/frase-io/reviews) |
-| Scalenut | Full content lifecycle at lower cost | 7-day free trial (all paid plans) | [$59/mo](https://www.scalenut.com/pricing) (Starter; promo rate lower, verify) | [4.7/5 (~310 reviews, G2)](https://www.g2.com/products/scalenut/reviews) |
+| Scalenut | Full content lifecycle at lower cost | 7-day free trial (all paid plans) | [$59/mo](https://www.scalenut.com/pricing) (Starter; promo rate lower, verify) | [4.7/5 (~286 reviews, G2)](https://www.g2.com/products/scalenut/reviews) |
 | MarketMuse | Site-level topic authority strategy | Free plan (10 queries/mo, 1 user) | [Price on request](https://www.marketmuse.com/pricing/) (demo required) | [4.6/5 (216 reviews, G2)](https://www.g2.com/products/marketmuse/reviews) |
 | NeuronWriter | Semantic SEO at a budget price | Free plan (no credit card required) | [$23/mo](https://neuronwriter.com/pricing-neuron/) (Bronze; $19/mo annual) | [4.7/5 (80+ reviews, G2)](https://www.g2.com/products/neuronwriter/reviews) |
 | Content Harmony | Brief-first workflow with per-workflow pricing | $10 trial (card required, no auto-billing) | [$50/mo](https://www.contentharmony.com/pricing/) (Standard-5, monthly; $42/mo annual) | [4.8/5 (22 reviews, G2)](https://www.g2.com/products/content-harmony/reviews) |
@@ -221,7 +221,7 @@ Best for: Growing content teams that need research, brief creation, AI drafting,
 | Platform | Web app |
 | Free Plan | 7-day free trial on all paid plans (verified at scalenut.com/pricing, June 2026) |
 | Starting Price | [$59/mo](https://www.scalenut.com/pricing) (Starter standard rate; a promotional rate of $24/mo was listed as of June 2026 but may be time-limited; verify before purchasing) |
-| G2 Rating | [4.7/5 (~310 reviews)](https://www.g2.com/products/scalenut/reviews) |
+| G2 Rating | [4.7/5 (~286 reviews)](https://www.g2.com/products/scalenut/reviews) |
 
 **Fit Profile**
 
@@ -242,7 +242,7 @@ The breadth of Scalenut's workflow coverage at a base price below Clearscope is 
 **Love:** "A complete solution for the full content cycle"
 "Scalenut is a complete solution for content creation. From keyword research to the actual writing and optimisation, it handles the full cycle in one place." (Source: [G2](https://www.g2.com/products/scalenut/reviews), paraphrased from verified review snippets; G2 direct fetch blocked.)
 
-- 4.7/5 across approximately 310 G2 reviews, with full-lifecycle coverage cited most often as the standout.
+- 4.7/5 across approximately 286 G2 reviews, with full-lifecycle coverage cited most often as the standout.
 
 **Complain:** "AI draft quality requires heavy editing"
 Several G2 reviewers note that AI-generated drafts from Scalenut need significant editing before publication, which offsets some of the drafting time savings.
@@ -275,7 +275,7 @@ Scalenut uses a tiered subscription with annual billing discounts. As of June 20
 | Criteria | Detail |
 | --- | --- |
 | Free Plan | 7-day free trial on all paid plans (verified at scalenut.com/pricing) |
-| G2 Rating | [4.7/5 (~310 reviews)](https://www.g2.com/products/scalenut/reviews) |
+| G2 Rating | [4.7/5 (~286 reviews)](https://www.g2.com/products/scalenut/reviews) |
 
 ---
 

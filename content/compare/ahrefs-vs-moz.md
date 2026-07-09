@@ -61,7 +61,7 @@ at_a_glance:
   - { label: "Founded / Vendor",   a: "Ahrefs Pte. Ltd. (ahrefs.com)",          b: "Moz, Inc. (moz.com)" }
   - { label: "Category",           a: "SEO and competitive intelligence",        b: "All-in-one SEO platform" }
   - { label: "Starting price",     a: "~$29/mo (Starter, monthly only)",         b: "~$39/mo (Starter, annual)" }
-  - { label: "Public rating",      a: "4.5 G2, 692 reviews (verify live)",       b: "4.3 G2, 606 reviews (verify live)" }
+  - { label: "Public rating",      a: "4.5 G2, 667 reviews (verify live)",       b: "4.3 G2, 606 reviews (verify live)" }
   - { label: "Best for",           a: "Backlink depth, content research, scale", b: "DA reporting, budget entry, beginner UX" }
 
 backgrounds:
@@ -84,7 +84,7 @@ backgrounds:
         - { label: "HQ",              value: "Singapore (Marina One East Tower)" }
         - { label: "Platform",        value: "Web app" }
         - { label: "Starting price",  value: "~$29/mo (Starter, monthly); ~$108/mo (Lite, annual)" }
-        - { label: "Public rating",   value: "4.5/5 G2, 692 reviews; 4.7/5 Capterra, 584 reviews (G2 cross-verified via search metadata; verify live)" }
+        - { label: "Public rating",   value: "4.5/5 G2, 667 reviews; 4.7/5 Capterra, 578 reviews (G2 cross-verified via search metadata; verify live)" }
     - name: "Moz Pro"
       meta: "Founded 2004 · Seattle, WA · acquired by Ziff Davis (2021)"
       body: >-
@@ -120,10 +120,10 @@ services:
     - { label: "Backlink index freshness",           a: "✓ Every 15 to 30 min",     b: "Monthly refresh cycle" }
     - { label: "Keyword database size",               a: "✓ 28.7 billion keywords",  b: "1.25 billion keywords" }
     - { label: "Content research tool",               a: "✓ Content Explorer (18.5B pages)", b: "✕ No equivalent" }
-    - { label: "Proprietary authority metric",        a: "Domain Rating (DR)",       b: "✓ Domain Authority (DA) — industry standard" }
+    - { label: "Proprietary authority metric",        a: "Domain Rating (DR)",       b: "✓ Domain Authority (DA), industry standard" }
     - { label: "Site audit issue coverage",           a: "✓ 100+ issue types",       b: "50+ issue types" }
     - { label: "Daily rank tracking",                 a: "✓ All paid plans",         b: "Medium/Large only; weekly on Starter/Standard" }
-    - { label: "AI/GEO visibility tracking (2026)",   a: "✓ Confirmed",              b: "Unverified — check moz.com" }
+    - { label: "AI/GEO visibility tracking (2026)",   a: "✓ Confirmed",              b: "Unverified, check moz.com" }
     - { label: "Free browser extension",              a: "✕",                        b: "✓ MozBar (DA/PA/Brand Authority in-browser)" }
     - { label: "Free entry point",                    a: "Ahrefs Webmaster Tools (own site only)", b: "7-day trial (card required)" }
     - { label: "Entry price (annual)",                a: "$108/mo (Lite)",           b: "✓ $39/mo (Starter)" }
@@ -206,14 +206,14 @@ sources:
   - { id: 2, title: "Ahrefs About page (founding, HQ)", url: "https://ahrefs.com/about", accessed: "June 2026" }
   - { id: 3, title: "Ahrefs pricing (third-party verified, clarorank)", url: "https://clarorank.com/ahrefs-pricing/", accessed: "June 2026" }
   - { id: 4, title: "Ahrefs pricing (third-party verified, seoscaleup)", url: "https://seoscaleup.com/blog/ahrefs-pricing-compared-2026/", accessed: "June 2026" }
-  - { id: 5, title: "Ahrefs Capterra profile (4.7/5, 584 reviews)", url: "https://www.capterra.com/p/176340/Ahrefs/", accessed: "June 2026" }
-  - { id: 6, title: "Ahrefs G2 profile (4.5/5, 692 reviews — cross-verified via search metadata)", url: "https://www.g2.com/products/ahrefs/reviews", accessed: "June 2026" }
+  - { id: 5, title: "Ahrefs Capterra profile (4.7/5, 578 reviews)", url: "https://www.capterra.com/p/176340/Ahrefs/", accessed: "June 2026" }
+  - { id: 6, title: "Ahrefs G2 profile (4.5/5, 667 reviews, cross-verified via search metadata)", url: "https://www.g2.com/products/ahrefs/reviews", accessed: "June 2026" }
   - { id: 7, title: "Moz homepage", url: "https://moz.com", accessed: "June 2026" }
   - { id: 8, title: "Moz pricing (third-party verified, aiproductivity.ai)", url: "https://aiproductivity.ai/pricing/moz-pro/", accessed: "June 2026" }
   - { id: 9, title: "Moz free trial details (checkthat.ai)", url: "https://checkthat.ai/brands/moz/pricing", accessed: "June 2026" }
   - { id: 10, title: "Moz acquisition by iContact (GeekWire)", url: "https://www.geekwire.com/2021/seo-software-startup-moz-acquired-icontact-marketing-corp-17-years-launching-seattle/", accessed: "June 2026" }
   - { id: 11, title: "Moz Capterra profile (4.5/5, 350 reviews)", url: "https://www.capterra.com/p/152215/Moz-Pro/", accessed: "June 2026" }
-  - { id: 12, title: "Moz G2 profile (4.3/5, 606 reviews — cross-verified via search metadata)", url: "https://www.g2.com/products/moz-pro/reviews", accessed: "June 2026" }
+  - { id: 12, title: "Moz G2 profile (4.3/5, 606 reviews, cross-verified via search metadata)", url: "https://www.g2.com/products/moz-pro/reviews", accessed: "June 2026" }
   - { id: 13, title: "Ahrefs vs Moz feature comparison (MarketersChoice)", url: "https://marketerschoice.com/ahrefs-vs-moz-2026/", accessed: "June 2026" }
   - { id: 14, title: "Ahrefs vs Moz rank tracking and database comparison (HeroicRankings)", url: "https://heroicrankings.com/seo/managed/ahrefs-vs-moz-comparison/", accessed: "June 2026" }
 featuredImage: "/images/compare-covers/ahrefs-vs-moz.webp"
@@ -258,9 +258,9 @@ Both platforms cover the full SEO workflow. The honest differences are in databa
 | Metric | Ahrefs | Moz Pro |
 |---|---|---|
 | G2 rating | 4.5 / 5 (verify live) | 4.3 / 5 (verify live) |
-| G2 reviews | 692 | 606 |
+| G2 reviews | 667 | 606 |
 | Capterra rating | 4.7 / 5 | 4.5 / 5 |
-| Capterra reviews | 584 | 350 |
+| Capterra reviews | 578 | 350 |
 | Founded | 2010 | 2004 |
 | Notable signal | Largest backlink index; AI visibility tracking in 2026 | Invented Domain Authority; universal client-facing metric |
 

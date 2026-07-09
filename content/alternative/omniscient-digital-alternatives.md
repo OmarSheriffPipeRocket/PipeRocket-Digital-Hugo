@@ -55,7 +55,7 @@ We pulled agency data from Clutch and G2, surfaced buyer opinions from r/SEO and
 
 For this list, Strategic Depth (how tightly an agency ties content and SEO activity to MQL, SQL, and pipeline outcomes) and Pipeline Proof (documented, named client results tied to revenue) carried the most weight. Any agency can promise organic traffic. The ones worth your retainer can show you which articles drove trials, demos, and closed-won.
 
-For the full process — every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy — read [our research methodology and editorial policy](/research-methodology/).
+For the full process, every source we use, what disqualifies an agency, our conflict-of-interest handling, and our corrections policy, read [our research methodology and editorial policy](/research-methodology/).
 
 ## Detailed Comparison
 
@@ -81,7 +81,7 @@ Their proprietary BlueprintIQ tool shapes content strategy and DataFlywheel hand
 
 **Differentiator:** Siege combines long-form SEO content with in-house design and Digital PR link earning, producing assets that generate links passively at scale. BlueprintIQ drives content strategy; DataFlywheel handles refresh to keep rankings compounding. They claim $148M-plus in annual client traffic value managed.
 
-- Digital PR retainers typically run $12,000–$15,000/mo on top of content work for brands that need link volume
+- Digital PR retainers typically run $12,000-$15,000/mo on top of content work for brands that need link volume
 - BlueprintIQ and DataFlywheel tools mean content strategy and refresh are systematized, not ad hoc
 - Broader verticals than Omniscient: fintech, e-commerce, and enterprise SaaS alongside B2B software
 
@@ -100,12 +100,12 @@ Their proprietary BlueprintIQ tool shapes content strategy and DataFlywheel hand
 
 **Pricing Breakdown**
 
-Siege Media doesn't publish rate cards publicly. Industry-reported retainer ranges start at $8,000/mo for content, with Digital PR retainers adding $12,000–$15,000/mo on top, as of June 2026.
+Siege Media doesn't publish rate cards publicly. Industry-reported retainer ranges start at $8,000/mo for content, with Digital PR retainers adding $12,000-$15,000/mo on top, as of June 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Content | ~$8,000/mo+ (reported) | SEO content strategy, BlueprintIQ, DataFlywheel refresh, GEO visibility |
-| Content + Digital PR | ~$20,000–$30,000+/mo (reported) | Content plus link earning and Digital PR outreach |
+| Content + Digital PR | ~$20,000-$30,000+/mo (reported) | Content plus link earning and Digital PR outreach |
 | Enterprise | Custom | Full-service: content, visual design, Digital PR, dedicated team |
 
 **What Users Say**
@@ -114,7 +114,7 @@ Siege Media doesn't publish rate cards publicly. Industry-reported retainer rang
 
 Clutch reviewers call Siege "the absolute best in this business," citing consistent over-delivery on content quality and reliable link acquisition results ([source](https://clutch.co/profile/siege-media)).
 
-- "Siege consistently over-delivers on content quality." — Director, Power Digital Marketing ([source](https://clutch.co/profile/siege-media))
+- "Siege consistently over-delivers on content quality.", Director, Power Digital Marketing ([source](https://clutch.co/profile/siege-media))
 
 **Concern:** Annual contracts and a high pricing floor
 
@@ -165,7 +165,7 @@ Where Omniscient Digital focuses on organic content and GEO depth at an $8,000-p
 
 **Proof point:** HyperVerge grew MQLs 3.5x with zero budget increase, generating 51 high-quality MQLs in 3 months. HyperStart doubled SQO volume from 4 to 11 while cutting cost per lead by 73%. Storylane saw 2.5x business growth in a single quarter, with SQLs up 25% and meetings booked up 62%.
 
-**Limitation:** We're B2B SaaS and B2B tech only — non-SaaS companies must look elsewhere. We also don't take on pre-PMF startups where there's no ICP to optimize against.
+**Limitation:** We're B2B SaaS and B2B tech only, non-SaaS companies must look elsewhere. We also don't take on pre-PMF startups where there's no ICP to optimize against.
 
 - No e-commerce, local services, or non-SaaS B2B
 - Not a fit for teams that want organic-only with no paid media involvement
@@ -184,7 +184,7 @@ Retainers start at $3,000/mo for SaaS SEO, with full-service retainers scaling b
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | SaaS SEO | $3,000/mo | Keyword strategy, BOFU content, link building, GEO, pipeline reporting |
-| Full-Funnel | $4,000–$8,000/mo | SEO + content + PPC, MarOps integration, weekly pipeline reporting |
+| Full-Funnel | $4,000-$8,000/mo | SEO + content + PPC, MarOps integration, weekly pipeline reporting |
 | Enterprise | Custom | Full-service pod: SEO, content, paid, ABM, GEO, dedicated team |
 
 **What Users Say**
@@ -193,7 +193,7 @@ Retainers start at $3,000/mo for SaaS SEO, with full-service retainers scaling b
 
 Clutch reviewers consistently praise our pipeline-first approach and the fact that we operate as an embedded part of the team rather than an external vendor ([source](https://clutch.co/profile/piperocket-digital)).
 
-- "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months." — Anusha, Founding Member, HyperVerge ([source](https://clutch.co/profile/piperocket-digital))
+- "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months.", Anusha, Founding Member, HyperVerge ([source](https://clutch.co/profile/piperocket-digital))
 
 **Concern:** SaaS-only scope means non-SaaS teams need to look elsewhere
 
@@ -236,10 +236,10 @@ The differentiator against Omniscient is the named-spokesperson model: Animalz p
 
 **Proof point:** Documented case studies on the Animalz site show SupportLogic at 5x organic traffic growth and Frontify at +52% organic traffic after their engagements. See [Animalz case studies](https://www.animalz.co/blog/category/case-studies) for sourced outcomes.
 
-**Limitation:** Animalz has no Clutch reviews as of June 2026 — their profile exists but shows zero ratings, making third-party independent verification harder than for other agencies on this list. Their $10,000-plus floor and organic-only model also rule out early-stage and paid-media buyers.
+**Limitation:** Animalz has no Clutch reviews as of June 2026, their profile exists but shows zero ratings, making third-party independent verification harder than for other agencies on this list. Their $10,000-plus floor and organic-only model also rule out early-stage and paid-media buyers.
 
 - No Clutch social proof as of June 2026, which limits independent verification for buyers who rely on review platforms
-- No paid media, no technical SEO execution — purely content-led and organic-only
+- No paid media, no technical SEO execution, purely content-led and organic-only
 
 **Who it's for:** Well-funded Series B-plus SaaS companies with budget for $10,000-plus per month that want to own the intellectual conversation in their category through executive-led content.
 
@@ -249,12 +249,12 @@ The differentiator against Omniscient is the named-spokesperson model: Animalz p
 
 **Pricing Breakdown**
 
-Animalz doesn't publish pricing publicly. Third-party directories cite a minimum project size of $10,000-plus per month. Typical engagements are estimated at $8,000–$15,000/mo based on industry sources, as of June 2026.
+Animalz doesn't publish pricing publicly. Third-party directories cite a minimum project size of $10,000-plus per month. Typical engagements are estimated at $8,000-$15,000/mo based on industry sources, as of June 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Content Strategy | ~$8,000/mo+ (estimated) | SEO and AEO content strategy, editorial brief development |
-| Thought Leadership | ~$10,000–$15,000+/mo (estimated) | Named-spokesperson program, research-driven content, AI-search targeting |
+| Thought Leadership | ~$10,000-$15,000+/mo (estimated) | Named-spokesperson program, research-driven content, AI-search targeting |
 | Enterprise | Custom | Full-service content: strategy, writing, AEO, brand authority |
 
 **What Users Say**
@@ -310,9 +310,9 @@ If Leadfeeder isn't quite the fit, check our [Leadfeeder alternatives](/alternat
 
 **Proof point:** Clutch reviewers at VP and COO level at Vocal Video and eWebinar cite Grow and Convert as one of the only agencies that delivers what it promises, with confirmed pipeline outcomes in both cases ([source](https://clutch.co/profile/grow-convert)).
 
-**Limitation:** The $10,000/mo floor has no flexibility for earlier-stage companies. The small team (10–49 people) also caps throughput, so teams needing more than 6–8 pieces per month may hit bandwidth limits.
+**Limitation:** The $10,000/mo floor has no flexibility for earlier-stage companies. The small team (10-49 people) also caps throughput, so teams needing more than 6-8 pieces per month may hit bandwidth limits.
 
-- $10,000/mo hard floor — no startup or entry-level tier
+- $10,000/mo hard floor, no startup or entry-level tier
 - Focused exclusively on content-driven SEO; no paid media, no technical SEO execution
 
 **Who it's for:** B2B SaaS companies at Series A-plus that can commit $10,000 per month and want a research-driven, conversion-first content program built on real buyer pain points.
@@ -336,13 +336,13 @@ Grow and Convert publishes a flat $10,000/mo rate on their [content marketing se
 
 Clutch reviewers from Vocal Video and eWebinar consistently cite Grow and Convert as one of the only agencies that delivers confirmed pipeline results, not just traffic reports ([source](https://clutch.co/profile/grow-convert)).
 
-- "It's insanely difficult to find an agency that can deliver what they promise, but Grow and Convert does just that." — VP Customer Success, Vocal Video ([source](https://clutch.co/profile/grow-convert))
+- "It's insanely difficult to find an agency that can deliver what they promise, but Grow and Convert does just that.", VP Customer Success, Vocal Video ([source](https://clutch.co/profile/grow-convert))
 
 **Concern:** Small team caps throughput and no flexibility below $10,000
 
-With a team of 10–49 people, Grow and Convert can't scale to high-volume content programs, and the $10,000 flat rate is non-negotiable for smaller teams ([source](https://clutch.co/profile/grow-convert)).
+With a team of 10-49 people, Grow and Convert can't scale to high-volume content programs, and the $10,000 flat rate is non-negotiable for smaller teams ([source](https://clutch.co/profile/grow-convert)).
 
-- No paid media, no technical SEO — organic-only BOFU scope means teams with mixed needs must split vendors
+- No paid media, no technical SEO, organic-only BOFU scope means teams with mixed needs must split vendors
 
 | Criteria | Detail |
 | --- | --- |
@@ -379,10 +379,10 @@ Against Omniscient Digital, Foundation is broader in B2B verticals (not SaaS-onl
 
 **Proof point:** Clutch reviewers from Paychex and Ascent Cloud cite Foundation's strategic thinking and execution as standout strengths. Head of Marketing at Ascent Cloud noted: "Their ability to combine strategic thinking with execution stood out" ([source](https://clutch.co/profile/foundation-marketing)).
 
-**Limitation:** Foundation's team of 10–49 people limits bandwidth for high-volume production. They serve broader B2B tech rather than SaaS-exclusively, so SaaS-specific buyer-journey depth is thinner than Omniscient or Animalz. No public pricing means buyers must commit to a discovery process before cost clarity.
+**Limitation:** Foundation's team of 10-49 people limits bandwidth for high-volume production. They serve broader B2B tech rather than SaaS-exclusively, so SaaS-specific buyer-journey depth is thinner than Omniscient or Animalz. No public pricing means buyers must commit to a discovery process before cost clarity.
 
-- Small team (10–49) limits throughput at high content volumes
-- No public pricing — buyers must go through discovery before knowing retainer range
+- Small team (10-49) limits throughput at high content volumes
+- No public pricing, buyers must go through discovery before knowing retainer range
 
 **Who it's for:** B2B tech companies at Series A and beyond that want content distributed into AI models and Reddit communities, not just published on a blog, with a retainer starting around $10,000/mo.
 
@@ -406,11 +406,11 @@ Foundation Marketing doesn't publish pricing on their homepage. Verified Clutch 
 
 Clutch reviewers from Paychex and Ascent Cloud consistently cite Foundation's ability to combine strategic thinking with execution as their most impressive trait ([source](https://clutch.co/profile/foundation-marketing)).
 
-- "Foundation Marketing is very skilled at what they do." — Manager of SEO, Paychex ([source](https://clutch.co/profile/foundation-marketing))
+- "Foundation Marketing is very skilled at what they do.", Manager of SEO, Paychex ([source](https://clutch.co/profile/foundation-marketing))
 
 **Concern:** Small team and opaque pricing create planning friction
 
-Foundation's 10–49 team size limits production bandwidth, and the absence of public pricing means buyers need to invest time in discovery before knowing what they're committing to ([source](https://clutch.co/profile/foundation-marketing)).
+Foundation's 10-49 team size limits production bandwidth, and the absence of public pricing means buyers need to invest time in discovery before knowing what they're committing to ([source](https://clutch.co/profile/foundation-marketing)).
 
 - Broader B2B tech focus means SaaS-specific buyer-journey depth is thinner than with Omniscient, Animalz, or Grow and Convert
 
@@ -447,11 +447,11 @@ Where Brafton wins is scale and format breadth. Their unit-based model (1 unit =
 - Premier Verified on Clutch with 43 reviews at 4.9/5 and offices in five global cities
 - SEO consulting billed at $200/hr; content at approximately $1/word for standalone projects
 
-**Proof point:** Clutch reviews from CivicRisk Mutual and Epson consistently praise on-time delivery and account management responsiveness, with named contacts cited across multiple reviews — a signal of low team turnover and consistent delivery systems ([source](https://clutch.co/profile/brafton)).
+**Proof point:** Clutch reviews from CivicRisk Mutual and Epson consistently praise on-time delivery and account management responsiveness, with named contacts cited across multiple reviews, a signal of low team turnover and consistent delivery systems ([source](https://clutch.co/profile/brafton)).
 
 **Limitation:** Brafton is not a SaaS specialist. Their institutional client list (MIT Sloan, Stanford, Epson) signals that deep SaaS-buyer-journey expertise is thinner here than at Omniscient, Animalz, or Grow and Convert. Review quotes focus on delivery timeliness rather than strategic outcomes or pipeline attribution.
 
-- Review sentiment centers on delivery reliability, not on pipeline or revenue outcomes — a gap that matters for SaaS buyers who need attribution
+- Review sentiment centers on delivery reliability, not on pipeline or revenue outcomes, a gap that matters for SaaS buyers who need attribution
 - Unit-model pricing creates planning friction when comparing against flat-rate or scope-based alternatives
 
 **Who it's for:** Mid-market and enterprise companies with multi-format content needs (blog, video, email, design, social) that don't require SaaS-specific buyer-journey depth or pipeline attribution.
@@ -476,11 +476,11 @@ Brafton uses a unit-based pricing model (1 unit = $100) with minimum project siz
 
 Clutch reviewers from CivicRisk Mutual and Epson praise Brafton's on-time delivery and named account contacts, with reviewers citing the same individuals across multiple reviews as a sign of team stability ([source](https://clutch.co/profile/brafton)).
 
-- "They consistently deliver content, social media posts, and website updates on time." — Business Services Manager, CivicRisk Mutual ([source](https://clutch.co/profile/brafton))
+- "They consistently deliver content, social media posts, and website updates on time.", Business Services Manager, CivicRisk Mutual ([source](https://clutch.co/profile/brafton))
 
 **Concern:** Thinner SaaS expertise and pricing opacity
 
-Review quotes focus on delivery timeliness rather than strategic outcomes or pipeline results — a real gap for SaaS buyers who need attribution beyond traffic ([source](https://clutch.co/profile/brafton)).
+Review quotes focus on delivery timeliness rather than strategic outcomes or pipeline results, a real gap for SaaS buyers who need attribution beyond traffic ([source](https://clutch.co/profile/brafton)).
 
 - The unit-based pricing model (1 unit = $100) creates planning friction when comparing against flat-rate or scope-based alternatives
 
@@ -521,11 +521,11 @@ Against Omniscient Digital, Codeless is less strategically deep and more product
 - Rigorous editorial fact-checking process is built for high-accuracy technical content at 20-plus articles per month
 - Named clients like monday.com and Freshworks signal comfort with high-stakes SaaS content at scale
 
-**Proof point:** A COO at a financial services company told Clutch: "We've gone from a couple of hundred website visitors to close to 70,000 monthly" — attributed directly to Codeless's content program ([source](https://clutch.co/profile/codeless)).
+**Proof point:** A COO at a financial services company told Clutch: "We've gone from a couple of hundred website visitors to close to 70,000 monthly", attributed directly to Codeless's content program ([source](https://clutch.co/profile/codeless)).
 
-**Limitation:** Codeless has only 5 Clutch reviews as of June 2026, which is limited third-party validation relative to their claimed scale. Pricing (reported at $4,000–$15,000/mo by third-party sources) is not publicly confirmed on their site, and the founder's attention is split across multiple businesses.
+**Limitation:** Codeless has only 5 Clutch reviews as of June 2026, which is limited third-party validation relative to their claimed scale. Pricing (reported at $4,000-$15,000/mo by third-party sources) is not publicly confirmed on their site, and the founder's attention is split across multiple businesses.
 
-- Only 5 Clutch reviews as of June 2026 — limited independent validation for a company operating at claimed SaaS scale
+- Only 5 Clutch reviews as of June 2026, limited independent validation for a company operating at claimed SaaS scale
 - Pricing is third-party reported only; their site doesn't confirm tiers or rates publicly, which makes scoping harder
 
 **Who it's for:** Series A-plus SaaS companies that need consistent, high-volume, editorial-grade long-form content (15-plus articles per month) and want link building integrated into the same engagement.
@@ -536,13 +536,13 @@ Against Omniscient Digital, Codeless is less strategically deep and more product
 
 **Pricing Breakdown**
 
-Codeless doesn't publish pricing on their site (a 403 error returned on their pricing page as of June 2026). Third-party sources report retainers of $4,000–$15,000/mo depending on volume tier, with a minimum project size of $5,000-plus per Clutch. Treat all pricing as reported, not confirmed, as of June 2026.
+Codeless doesn't publish pricing on their site (a 403 error returned on their pricing page as of June 2026). Third-party sources report retainers of $4,000-$15,000/mo depending on volume tier, with a minimum project size of $5,000-plus per Clutch. Treat all pricing as reported, not confirmed, as of June 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Entry | ~$4,000–$6,000/mo (reported) | 6–10 long-form articles/mo, editorial fact-checking, keyword research |
-| Growth | ~$8,000–$12,000/mo (reported) | 12–20 articles/mo, link building via uSERP integration, publishing via Wordable |
-| Scale | ~$12,000–$15,000+/mo (reported) | 20+ articles/mo, full editorial pipeline, digital PR, dedicated editor |
+| Entry | ~$4,000-$6,000/mo (reported) | 6-10 long-form articles/mo, editorial fact-checking, keyword research |
+| Growth | ~$8,000-$12,000/mo (reported) | 12-20 articles/mo, link building via uSERP integration, publishing via Wordable |
+| Scale | ~$12,000-$15,000+/mo (reported) | 20+ articles/mo, full editorial pipeline, digital PR, dedicated editor |
 
 **What Users Say**
 
@@ -550,7 +550,7 @@ Codeless doesn't publish pricing on their site (a 403 error returned on their pr
 
 Clutch reviewers cite significant traffic growth from Codeless's content programs, including a COO reporting growth from a few hundred to 70,000 monthly visitors ([source](https://clutch.co/profile/codeless)).
 
-- "Codeless goes above and beyond for us — they answer our questions at any time to ensure we're getting what we need." — CMO, Financial Aid Company ([source](https://clutch.co/profile/codeless))
+- "Codeless goes above and beyond for us, they answer our questions at any time to ensure we're getting what we need.", CMO, Financial Aid Company ([source](https://clutch.co/profile/codeless))
 
 **Concern:** Only 5 Clutch reviews and pricing that isn't publicly confirmed
 
@@ -585,7 +585,7 @@ Against Omniscient Digital, Skale is more SEO-execution-heavy (technical and lin
 | Notable Clients | G2, HubSpot, Maze, Flodesk, UserTesting, Attest, Bonsai, Wealthsimple, Slite |
 | Specialization | SaaS-exclusive SEO, technical SEO, content SEO, link building, pipeline reporting |
 
-**Differentiator:** Skale's four-person pod model (strategy, content SEO, technical SEO, off-page) covers the full SEO surface in one engagement with SaaS-exclusive focus. Every activity ties to SQLs, pipeline, and MRR rather than traffic and rankings — the same reporting language SaaS CFOs expect.
+**Differentiator:** Skale's four-person pod model (strategy, content SEO, technical SEO, off-page) covers the full SEO surface in one engagement with SaaS-exclusive focus. Every activity ties to SQLs, pipeline, and MRR rather than traffic and rankings, the same reporting language SaaS CFOs expect.
 
 - SaaS-exclusive focus means every brief, every tactic, and every report is calibrated to SaaS buyer journeys
 - Four-person pod structure bundles technical SEO and link building with content SEO in one retainer
@@ -606,12 +606,12 @@ Against Omniscient Digital, Skale is more SEO-execution-heavy (technical and lin
 
 **Pricing Breakdown**
 
-Skale doesn't publish pricing publicly. Industry sources cite $8,000–$20,000/mo, with a minimum project size of $5,000-plus and an hourly rate of $100–$149 per Clutch, as of June 2026.
+Skale doesn't publish pricing publicly. Industry sources cite $8,000-$20,000/mo, with a minimum project size of $5,000-plus and an hourly rate of $100-$149 per Clutch, as of June 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | SaaS SEO Pod | ~$8,000/mo+ (reported) | Strategy, content SEO, technical SEO, off-page, SQL/MRR reporting |
-| Full SEO | ~$12,000–$20,000/mo (reported) | Full pod plus AI-search-first programs, expanded link building |
+| Full SEO | ~$12,000-$20,000/mo (reported) | Full pod plus AI-search-first programs, expanded link building |
 | Enterprise | Custom | Dedicated pod, expanded scope, executive reporting |
 
 **What Users Say**
@@ -620,7 +620,7 @@ Skale doesn't publish pricing publicly. Industry sources cite $8,000–$20,000/m
 
 Clutch reviewers from Maze and a Business Travel Platform cite Skale's unmatched SaaS and SEO expertise and their ability to tie every activity to business impact as the primary reasons for continued engagement ([source](https://clutch.co/profile/skale-0)).
 
-- "Their expertise about SaaS and SEO was unmatched." — SEO Manager, Business Travel Platform ([source](https://clutch.co/profile/skale-0))
+- "Their expertise about SaaS and SEO was unmatched.", SEO Manager, Business Travel Platform ([source](https://clutch.co/profile/skale-0))
 
 **Concern:** London timezone and modest Clutch validation
 
@@ -663,10 +663,10 @@ Against Omniscient Digital, Ten Speed is more execution-forward (content, digita
 
 **Proof point:** The Visible case study shows +800% organic traffic and $1M in organic ARR generated. Ten Speed claims $50M-plus in organic ARR generated across 300-plus strategies delivered ([source](https://www.tenspeed.io)).
 
-**Limitation:** Ten Speed has only 5 Clutch reviews as of June 2026 — very limited public validation for an agency founded in 2020 that claims $50M-plus in organic ARR. The small team (10–49 people) also caps throughput for high-volume programs.
+**Limitation:** Ten Speed has only 5 Clutch reviews as of June 2026, very limited public validation for an agency founded in 2020 that claims $50M-plus in organic ARR. The small team (10-49 people) also caps throughput for high-volume programs.
 
 - Only 5 Clutch reviews as of June 2026, which is thin independent validation for the scale of claims made
-- Small team (10–49 people) caps throughput; not suited for 15-plus pieces per month programs
+- Small team (10-49 people) caps throughput; not suited for 15-plus pieces per month programs
 
 **Who it's for:** B2B SaaS companies at Series A-plus drawn to founder-operator credibility that want AEO alongside content and organic growth, with a budget for $5,000-plus per month minimum.
 
@@ -676,7 +676,7 @@ Against Omniscient Digital, Ten Speed is more execution-forward (content, digita
 
 **Pricing Breakdown**
 
-Ten Speed doesn't publish pricing publicly. Clutch cites a minimum project size of $5,000-plus and an hourly rate of $150–$199. Monthly retainers are not publicly confirmed, as of June 2026.
+Ten Speed doesn't publish pricing publicly. Clutch cites a minimum project size of $5,000-plus and an hourly rate of $150-$199. Monthly retainers are not publicly confirmed, as of June 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -690,13 +690,13 @@ Ten Speed doesn't publish pricing publicly. Clutch cites a minimum project size 
 
 Clutch reviewers cite Ten Speed's experience across both traditional and AI-driven search as a primary differentiator, alongside the level of client attention that smaller boutiques can deliver ([source](https://clutch.co/profile/ten-speed)).
 
-- "They have strong experience across both traditional and AI-driven search." — Content Manager, B2BROKER ([source](https://clutch.co/profile/ten-speed))
+- "They have strong experience across both traditional and AI-driven search.", Content Manager, B2BROKER ([source](https://clutch.co/profile/ten-speed))
 
 **Concern:** Only 5 Clutch reviews and a young agency track record
 
 Five Clutch reviews is a limited validation base for an agency founded in 2020 that claims $50M-plus in organic ARR generated for clients ([source](https://clutch.co/profile/ten-speed)).
 
-- Small team (10–49 people) caps throughput, which can create bottlenecks for programs requiring more than 8 pieces of content per month
+- Small team (10-49 people) caps throughput, which can create bottlenecks for programs requiring more than 8 pieces of content per month
 
 | Criteria | Detail |
 | --- | --- |
@@ -739,12 +739,12 @@ Against Omniscient Digital, Optimist has similarly strong case study results and
 - Documented outcomes: Stampli 5x inbound pipeline; Glide 14x leads in 12 months; Kubera 43x sign-ups in 15 months; HelloSign organic engine contributed to $230M Dropbox acquisition
 - Reported startup tier starting around $2,500/mo makes Optimist more accessible than Omniscient or Animalz
 
-**Proof point:** Director of Growth Marketing at Stampli, Evan Vuckovic, is attributed in industry articles as saying: "I was impressed by their domain expertise and their outside-the-box thinking around the changing AI-search landscape" — attributed to a Stampli case study engagement ([source](https://www.yesoptimist.com/case-study-stampli/)).
+**Proof point:** Director of Growth Marketing at Stampli, Evan Vuckovic, is attributed in industry articles as saying: "I was impressed by their domain expertise and their outside-the-box thinking around the changing AI-search landscape", attributed to a Stampli case study engagement ([source](https://www.yesoptimist.com/case-study-stampli/)).
 
-**Limitation:** Optimist's core team is approximately 3 full-time staff plus 15-plus freelancers — execution capacity is a real constraint at scale. No confirmed Clutch profile as of June 2026, which means buyers can't verify independent reviews. The proprietary CORE tier names (CORE Roadmap, CORE Advisory, CORE Principal) make apples-to-apples budget comparison harder.
+**Limitation:** Optimist's core team is approximately 3 full-time staff plus 15-plus freelancers, execution capacity is a real constraint at scale. No confirmed Clutch profile as of June 2026, which means buyers can't verify independent reviews. The proprietary CORE tier names (CORE Roadmap, CORE Advisory, CORE Principal) make apples-to-apples budget comparison harder.
 
 - Core team of approximately 3 FTE plus freelancers caps execution throughput for high-volume programs
-- No confirmed Clutch profile as of June 2026 — independent review verification isn't possible through standard channels
+- No confirmed Clutch profile as of June 2026, independent review verification isn't possible through standard channels
 
 **Who it's for:** Series A SaaS companies that want a structured CORE-framework engagement focused on AEO and GEO alongside SEO, with a founder-driven team and a budget starting around $2,500/mo.
 
@@ -766,7 +766,7 @@ Optimist doesn't publish pricing publicly. Third-party directories suggest retai
 
 **Love:** Strong case study outcomes and a structured AEO and GEO framework
 
-Stampi and HelloSign case study outcomes — 5x inbound pipeline and a $230M acquisition-contributing organic engine — are among the most impressive documented results on this list ([source](https://www.yesoptimist.com/case-study-stampli/)).
+Stampi and HelloSign case study outcomes, 5x inbound pipeline and a $230M acquisition-contributing organic engine, are among the most impressive documented results on this list ([source](https://www.yesoptimist.com/case-study-stampli/)).
 
 - Glide achieved 14x leads in 12 months and Kubera reached 43x sign-ups in 15 months, both attributed to Optimist's CORE Framework programs
 
@@ -795,7 +795,7 @@ PipeRocket Digital starts at $3,000/mo and includes both SEO and paid media unde
 
 ### What is the difference between Omniscient Digital and Animalz?
 
-Both are premium, B2B SaaS-focused, organic-only content agencies. Animalz differentiates on named-spokesperson thought leadership — they position executives as category voices, not just brand publishing channels. Omniscient's strength is content-led SEO strategy depth and GEO. Choose Animalz if executive authority content is the goal; choose Omniscient if GEO and strategic content architecture matter more. Note that Animalz has no Clutch reviews as of June 2026.
+Both are premium, B2B SaaS-focused, organic-only content agencies. Animalz differentiates on named-spokesperson thought leadership, they position executives as category voices, not just brand publishing channels. Omniscient's strength is content-led SEO strategy depth and GEO. Choose Animalz if executive authority content is the goal; choose Omniscient if GEO and strategic content architecture matter more. Note that Animalz has no Clutch reviews as of June 2026.
 
 ### Which alternatives include paid media alongside content and SEO?
 

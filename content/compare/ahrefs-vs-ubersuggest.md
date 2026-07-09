@@ -71,7 +71,7 @@ backgrounds:
       meta: "Professional SEO platform · SaaS web app + browser extension · bootstrapped, Singapore"
       body: >-
         Ahrefs was founded in 2010 by Dmitry Gerasimenko and is headquartered
-        in Singapore with 143 teammates across 26 locations. It is bootstrapped
+        in Singapore with 144 teammates across 26 locations. It is bootstrapped
         with no external funding, which is unusual at its scale. The platform
         is built around the world's largest commercial backlink index (35
         trillion links, refreshed approximately every 15 minutes) and a keyword
@@ -82,7 +82,7 @@ backgrounds:
         - { label: "Vendor",          value: "Ahrefs Pte. Ltd. (ahrefs.com)" }
         - { label: "Founded",         value: "2010, by Dmitry Gerasimenko" }
         - { label: "HQ",              value: "Singapore (Marina One East Tower)" }
-        - { label: "Team",            value: "143 teammates across 26 locations" }
+        - { label: "Team",            value: "144 teammates across 26 locations" }
         - { label: "Platform",        value: "SaaS web app plus Ahrefs SEO Toolbar browser extension" }
         - { label: "Starting price",  value: "$29/mo (Starter, monthly only; heavy limits)" }
         - { label: "Public rating",   value: "4.5/5 G2 (692 reviews, cross-verified via search metadata, June 2026; hedge: verify live)" }

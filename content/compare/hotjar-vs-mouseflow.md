@@ -20,7 +20,7 @@ toc:
   - { label: "The short answer",        anchor: "short-answer" }
   - { label: "At a glance",             anchor: "at-a-glance" }
   - { label: "Company profile",         anchor: "backgrounds" }
-  - { label: "Decision matrix",         anchor: "decision-matrix--who-fits-which-side" }
+  - { label: "Decision matrix",         anchor: "decision-matrix-who-fits-which-side" }
   - { label: "Capability comparison",   anchor: "services" }
   - { label: "Pricing",                 anchor: "pricing" }
   - { label: "Strengths & tradeoffs",   anchor: "strengths--tradeoffs" }
@@ -56,7 +56,7 @@ at_a_glance:
   - { label: "Vendor",         a: "Hotjar by Contentsquare", b: "Mouseflow" }
   - { label: "Free plan",      a: "Yes (Basic: ~35 daily sessions on Observe)", b: "Yes (500 monthly sessions, 1 funnel)" }
   - { label: "Starting price", a: "~€32 / mo (Observe Plus, ~$35, verify live)", b: "$25 / mo (Essential)" }
-  - { label: "Public rating",  a: "4.3 on G2 (~342 reviews)", b: "4.6 on G2 (~689 reviews)" }
+  - { label: "Public rating",  a: "4.3 on G2 (~342 reviews)", b: "4.7 on G2 (~682 reviews)" }
   - { label: "Best for",       a: "All-round CRO plus voice-of-customer", b: "Funnel and form depth plus friction scoring" }
 
 backgrounds:
@@ -93,7 +93,7 @@ backgrounds:
         - { label: "Vendor",        value: "Mouseflow" }
         - { label: "Free plan",     value: "Yes (500 monthly sessions, 1 project, 1 funnel)" }
         - { label: "Pricing model", value: "Single product, monthly-session tiers; 14-day money-back on paid annual plans" }
-        - { label: "Public rating", value: "4.6 on G2 (~689 reviews)" }
+        - { label: "Public rating", value: "4.7 on G2 (~682 reviews)" }
         - { label: "Notable usage", value: "Favored by CRO and growth teams diagnosing drop-off on signup flows, checkouts, and lead forms" }
 
 services:
@@ -170,23 +170,23 @@ sources:
   - { id: 4, title: "G2: Hotjar reviews (4.3, ~342 reviews)", url: "https://www.g2.com/products/hotjar/reviews", accessed: "June 2026" }
   - { id: 5, title: "Mouseflow: homepage", url: "https://mouseflow.com/", accessed: "June 2026" }
   - { id: 6, title: "Mouseflow: pricing", url: "https://mouseflow.com/pricing/", accessed: "June 2026" }
-  - { id: 7, title: "G2: Mouseflow reviews (4.6, ~689 reviews)", url: "https://www.g2.com/products/mouseflow/reviews", accessed: "June 2026" }
+  - { id: 7, title: "G2: Mouseflow reviews (4.7, ~682 reviews)", url: "https://www.g2.com/products/mouseflow/reviews", accessed: "June 2026" }
   - { id: 8, title: "Capterra: Mouseflow reviews", url: "https://www.capterra.com/p/163517/Mouseflow/reviews/", accessed: "June 2026" }
 featuredImage: "/images/compare-covers/hotjar-vs-mouseflow.webp"
 ---
 
-## Decision matrix — who fits which side
+## Decision matrix: who fits which side
 
 | Criterion | Hotjar | Mouseflow |
 |---|:---:|:---:|
-| Behavior analytics plus voice-of-customer in one suite | ✓ | – |
-| Surveys and recruited user interviews | ✓ | – |
-| Fastest, lowest-friction setup | ✓ | – |
-| Broad native integrations | ✓ | – |
-| Deep multi-step conversion funnels | – | ✓ |
-| Granular field-level form analytics | – | ✓ |
+| Behavior analytics plus voice-of-customer in one suite | ✓ | - |
+| Surveys and recruited user interviews | ✓ | - |
+| Fastest, lowest-friction setup | ✓ | - |
+| Broad native integrations | ✓ | - |
+| Deep multi-step conversion funnels | - | ✓ |
+| Granular field-level form analytics | - | ✓ |
 | Automatic per-session friction score | ✕ | ✓ |
-| More monthly sessions per dollar | – | ✓ |
+| More monthly sessions per dollar | - | ✓ |
 
 *Check = clear edge. Dash = capable but not the stronger pick. Cross = outside the model.*
 
@@ -208,13 +208,13 @@ Both are excellent at the core job (heatmaps plus session replay). The honest di
 
 | Metric | Hotjar | Mouseflow |
 |---|---|---|
-| G2 rating | 4.3 / 5 | 4.6 / 5 |
-| G2 review count | ~342 | ~689 |
+| G2 rating | 4.3 / 5 | 4.7 / 5 |
+| G2 review count | ~342 | ~682 |
 | Vendor | Hotjar by Contentsquare | Mouseflow |
 | Free plan | Yes (Basic, ~35 daily sessions on Observe) | Yes (500 monthly sessions, 1 funnel) |
 | Paid entry | ~€32/mo Observe Plus (~$35, verify live) | $25/mo Essential (5,000 sessions/mo) |
 
-On public ratings, both score well, with Mouseflow slightly ahead on G2 (4.6 across roughly 689 reviews versus Hotjar's 4.3 across roughly 342). The numbers reflect different jobs rather than a clear winner: Hotjar's reviewers value breadth and fast setup, while Mouseflow's value depth on funnels, form analytics, and friction scoring. Read both rating profiles against your own use case before deciding.
+On public ratings, both score well, with Mouseflow slightly ahead on G2 (4.7 across roughly 682 reviews versus Hotjar's 4.3 across roughly 342). The numbers reflect different jobs rather than a clear winner: Hotjar's reviewers value breadth and fast setup, while Mouseflow's value depth on funnels, form analytics, and friction scoring. Read both rating profiles against your own use case before deciding.
 
 ---
 

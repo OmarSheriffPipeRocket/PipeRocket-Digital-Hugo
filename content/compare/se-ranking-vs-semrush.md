@@ -227,15 +227,15 @@ featuredImage: "/images/compare-covers/se-ranking-vs-semrush.webp"
 
 | Criterion | SE Ranking | Semrush |
 |---|:---:|:---:|
-| Tighter budget, more projects at entry tier | ✓ | – |
+| Tighter budget, more projects at entry tier | ✓ | - |
 | Largest keyword and backlink databases | ✕ | ✓ |
-| White-label reporting without a plan upgrade | ✓ | – |
+| White-label reporting without a plan upgrade | ✓ | - |
 | Built-in link-building outreach CRM | ✕ | ✓ |
 | Google Shopping and PLA ad research | ✕ | ✓ |
-| Local SEO and Google Maps tracking built-in | ✓ | – |
-| Longer free trial (14 days, no card) | ✓ | – |
-| AI search visibility with top G2 recognition | – | ✓ |
-| Higher G2 rating and ease-of-use score | ✓ | – |
+| Local SEO and Google Maps tracking built-in | ✓ | - |
+| Longer free trial (14 days, no card) | ✓ | - |
+| AI search visibility with top G2 recognition | - | ✓ |
+| Higher G2 rating and ease-of-use score | ✓ | - |
 | Deepest historical data (back to 2012) | ✕ | ✓ |
 
 *Check = clear edge. Dash = capable but not the stronger pick. Cross = outside the model or not available.*

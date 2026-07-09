@@ -4,7 +4,13 @@ Deterministic phrasing gate for PipeRocket blogs (tofu-mofu-writer output).
 
 Usage:
     python3 scripts/lint_blog.py content/blogs/<slug>.md [more.md ...]
-    python3 scripts/lint_blog.py --all        # lint every content/blogs/*.md
+    python3 scripts/lint_blog.py --all        # full gate on every content/blogs/*.md
+    python3 scripts/lint_blog.py --corpus --dash-only
+        # dash-regression gate over content/compare/ + content/alternative/.
+        # Those dirs were never phrasing-linted, so they still carry pre-existing
+        # banned-word/contrastive debt (out of scope); --dash-only guards the one
+        # thing we HAVE cleaned corpus-wide there (em/en dashes) and stays green.
+    python3 scripts/lint_blog.py --dash-only <file.md ...>   # dash check only
 
 Hard-fails (exit 1) on the two AI tells that keep slipping past LLM writers:
   1. Em/en dashes anywhere.
@@ -76,7 +82,7 @@ def strip_quoted(text):
     return re.sub(r'"[^"]*"', '""', text)
 
 
-def lint(path):
+def lint(path, dash_only=False):
     fails, warns = [], []
     with open(path, encoding="utf-8") as f:
         lines = f.readlines()
@@ -94,6 +100,9 @@ def lint(path):
         # dashes: hard fail everywhere
         if "—" in line or "–" in line:
             fails.append(f"L{i}: em/en-dash — rewrite with comma/period/parens/colon")
+
+        if dash_only:
+            continue
 
         unquoted = strip_quoted(line)
 
@@ -140,8 +149,20 @@ def main():
     if not args:
         print(__doc__)
         sys.exit(2)
-    if args == ["--all"]:
+    dash_only = "--dash-only" in args
+    args = [a for a in args if a != "--dash-only"]
+
+    if "--all" in args:
         paths = sorted(glob.glob("content/blogs/*.md"))
+    elif "--corpus" in args:
+        # /compare/ and /alternative/ were never phrasing-linted, so they carry
+        # pre-existing banned-word/contrastive debt that's out of scope. What we
+        # HAVE cleaned corpus-wide there is dashes, so guard only that: run this
+        # with --dash-only to keep the gate green and catch dash regressions.
+        paths = sorted(
+            glob.glob("content/compare/*.md")
+            + glob.glob("content/alternative/*.md")
+        )
     else:
         paths = args
 
@@ -150,7 +171,9 @@ def main():
         if not os.path.exists(p):
             print(f"SKIP (missing): {p}")
             continue
-        fails, warns = lint(p)
+        if os.path.basename(p) == "_index.md":
+            continue
+        fails, warns = lint(p, dash_only=dash_only)
         slug = os.path.basename(p)
         if fails:
             any_fail = True

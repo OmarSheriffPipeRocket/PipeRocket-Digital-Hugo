@@ -44,7 +44,7 @@ For a side-by-side on features and pricing, read our [Dreamdata vs HockeyStack](
 | Adobe Marketo Measure | Enterprise every-touch attribution | No | Custom (contact Adobe) | [4.7/5 (147 reviews, G2)](https://www.g2.com/products/adobe-marketo-measure-formerly-bizible/reviews) |
 | Ruler Analytics | Offline + digital attribution | No (demo) | ~£199/mo (Small Business; verify live) | [4.6/5 (30 reviews, G2)](https://www.g2.com/products/ruler-analytics/reviews) |
 | Cometly | Ad-platform conversion feedback | No (demo) | Custom (demo; ~$199+/mo third-party reported) | [4.8/5 (35 reviews, G2)](https://www.g2.com/products/cometly/reviews) |
-| Rockerbox | Enterprise MTA + MMM + incrementality | No | Custom (~$2,000+/mo third-party reported) | [4.7/5 (~47 reviews, G2)](https://www.g2.com/products/rockerbox/reviews) |
+| Rockerbox | Enterprise MTA + MMM + incrementality | No | Custom (~$2,000+/mo third-party reported) | [4.5/5 (80+ reviews, G2)](https://www.g2.com/products/rockerbox/reviews) |
 | Attribution | Fast, low-friction MTA | No (free trial; verify live) | [$19/mo (entry; verify live)](https://attributionapp.com/) | [4.5/5 (51 reviews, G2)](https://www.g2.com/products/attribution/reviews) |
 
 ## How We Chose These Tools?
@@ -435,7 +435,7 @@ Best for: Larger organizations that want multi-touch attribution layered with me
 | Platform | Web app |
 | Free Plan | No |
 | Starting Price | Custom; third-party sources report from ~$2,000/mo with enterprise contracts in the high five figures (unverified; confirm directly) |
-| G2 Rating | [4.7/5 (~47 reviews; 93% 5-star)](https://www.g2.com/products/rockerbox/reviews) |
+| G2 Rating | [4.5/5 (80+ reviews)](https://www.g2.com/products/rockerbox/reviews) |
 
 **Fit Profile**
 
@@ -489,7 +489,7 @@ Rockerbox uses custom pricing based primarily on marketing spend under managemen
 | Criteria | Detail |
 | --- | --- |
 | Free Plan | No |
-| G2 Rating | [4.7/5 (~47 reviews; 93% 5-star)](https://www.g2.com/products/rockerbox/reviews) |
+| G2 Rating | [4.5/5 (80+ reviews)](https://www.g2.com/products/rockerbox/reviews) |
 
 ---
 

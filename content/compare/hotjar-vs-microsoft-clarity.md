@@ -9,7 +9,7 @@ readingTime: "9 min read"
 sources_count: 7
 writtenBy: "vishnu-prasad"
 reviewedBy: "praveen"
-neutral: true   # A-vs-B page — PipeRocket is publisher, not a participant; swaps CTAs to soft/neutral
+neutral: true   # A-vs-B page, PipeRocket is publisher, not a participant; swaps CTAs to soft/neutral
 
 product_a:
   name: "Hotjar"
@@ -55,9 +55,9 @@ short_answer:
 
 at_a_glance:
   - { label: "Vendor",         a: "Hotjar (Contentsquare)",        b: "Microsoft" }
-  - { label: "Free plan",      a: "Yes — Basic, capped (~35 daily sessions)", b: "Yes — fully free, no caps" }
+  - { label: "Free plan",      a: "Yes, Basic, capped (~35 daily sessions)", b: "Yes, fully free, no caps" }
   - { label: "Starting price", a: "Free Basic; paid from ~€32/mo", b: "Free (no paid tier)" }
-  - { label: "Public rating",  a: "4.3 — G2 (~337 reviews)",       b: "4.5 — G2 (~55 reviews)" }
+  - { label: "Public rating",  a: "4.3, G2 (~337 reviews)",       b: "4.5, G2 (~55 reviews)" }
   - { label: "Best for",       a: "Recordings + surveys in one paid suite", b: "Free, uncapped heatmaps and recordings" }
 
 backgrounds:
@@ -76,9 +76,9 @@ backgrounds:
         paid tiers.
       facts:
         - { label: "Vendor",         value: "Hotjar (acquired by Contentsquare, July 2025)" }
-        - { label: "Free plan",      value: "Yes — Basic, capped at ~35 daily sessions (verify live)" }
+        - { label: "Free plan",      value: "Yes, Basic, capped at ~35 daily sessions (verify live)" }
         - { label: "Pricing model",  value: "Freemium; per-product, session-metered" }
-        - { label: "Public rating",  value: "4.3 — G2 (~337 reviews)" }
+        - { label: "Public rating",  value: "4.3, G2 (~337 reviews)" }
         - { label: "Notable usage",  value: "Default behavioral-analytics tool many product/UX/CRO teams reach for first" }
     - name: "Microsoft Clarity"
       meta: "Free behavioral analytics product from Microsoft · no caps, no paid tier"
@@ -92,9 +92,9 @@ backgrounds:
         for or omit.
       facts:
         - { label: "Vendor",         value: "Microsoft" }
-        - { label: "Free plan",      value: "Yes — the entire product is free, no session or traffic caps" }
+        - { label: "Free plan",      value: "Yes, the entire product is free, no session or traffic caps" }
         - { label: "Pricing model",  value: "Free (no paid tier exists)" }
-        - { label: "Public rating",  value: "4.5 — G2 (~55 reviews)" }
+        - { label: "Public rating",  value: "4.5, G2 (~55 reviews)" }
         - { label: "Notable usage",  value: "Popular with startups, bootstrapped sites, and high-traffic sites avoiding per-session bills" }
 
 services:
@@ -105,7 +105,7 @@ services:
   table:
     - { label: "Heatmaps (click, move, scroll)",     a: "✓ Core",                 b: "✓ Core, unlimited" }
     - { label: "Session recordings",                 a: "✓ Core (metered)",       b: "✓ Core, unlimited" }
-    - { label: "Surveys / feedback widgets",         a: "✓ Native (Ask product)", b: "Partial — via integration; verify scope" }
+    - { label: "Surveys / feedback widgets",         a: "✓ Native (Ask product)", b: "Partial, via integration; verify scope" }
     - { label: "Conversion funnels",                 a: "✓ Offered",              b: "✓ Code-free funnels" }
     - { label: "Frustration detection (rage/dead clicks)", a: "✓",                b: "✓" }
     - { label: "GA4 integration",                    a: "Via integrations",       b: "✓ Native GA4 tie-in" }
@@ -113,15 +113,15 @@ services:
     - { label: "AI features",                        a: "Suite features",         b: "✓ AI Copilot summaries" }
 
 pricing:
-  heading: "Pricing — what you'll actually pay"
+  heading: "Pricing, what you'll actually pay"
   intro: >-
     Hotjar uses a freemium, per-product, session-metered model; Microsoft
     Clarity has exactly one tier (free). Hotjar's pricing page now redirects to
     its Contentsquare parent, prices are listed in EUR and the per-tier figures
     below are approximate, so verify current figures live before purchase.
   table:
-    - { label: "Free plan",     a: "Yes — Basic, ~35 daily sessions (verify live)", b: "Yes — entire product, unlimited" }
-    - { label: "Paid tiers",    a: "Plus ~€32/mo; Business from ~€80/mo; Scale ~€171/mo+ (approx, verify live)", b: "None — no paid tier exists" }
+    - { label: "Free plan",     a: "Yes, Basic, ~35 daily sessions (verify live)", b: "Yes, entire product, unlimited" }
+    - { label: "Paid tiers",    a: "Plus ~€32/mo; Business from ~€80/mo; Scale ~€171/mo+ (approx, verify live)", b: "None, no paid tier exists" }
     - { label: "Caps",          a: "Metered by daily sessions; scales with traffic", b: "No session or traffic caps" }
     - { label: "Pricing model", a: "Freemium, per-product (Observe/Ask/Engage), session-metered; Contentsquare migration in progress (verify live)", b: "Free, $0, no credit card" }
 
@@ -168,28 +168,28 @@ faqs:
       plan terms at purchase.
 
 sources:
-  - { id: 1, title: "Hotjar — homepage and product", url: "https://www.hotjar.com/", accessed: "June 2026" }
-  - { id: 2, title: "Hotjar — pricing (redirects to Contentsquare parent)", url: "https://www.hotjar.com/pricing/", accessed: "June 2026" }
-  - { id: 3, title: "G2 — Hotjar reviews (4.3, ~337 reviews)", url: "https://www.g2.com/products/hotjar/reviews", accessed: "June 2026" }
-  - { id: 4, title: "Capterra — Hotjar reviews", url: "https://www.capterra.com/p/163516/Hotjar/reviews/", accessed: "June 2026" }
-  - { id: 5, title: "Microsoft Clarity — homepage and product", url: "https://clarity.microsoft.com/", accessed: "June 2026" }
-  - { id: 6, title: "G2 — Microsoft Clarity reviews (4.5, ~55 reviews)", url: "https://www.g2.com/products/microsoft-microsoft-clarity/reviews", accessed: "June 2026" }
-  - { id: 7, title: "Capterra — Microsoft Clarity reviews", url: "https://www.capterra.com/p/236349/Microsoft-Clarity/reviews/", accessed: "June 2026" }
+  - { id: 1, title: "Hotjar, homepage and product", url: "https://www.hotjar.com/", accessed: "June 2026" }
+  - { id: 2, title: "Hotjar, pricing (redirects to Contentsquare parent)", url: "https://www.hotjar.com/pricing/", accessed: "June 2026" }
+  - { id: 3, title: "G2, Hotjar reviews (4.3, ~337 reviews)", url: "https://www.g2.com/products/hotjar/reviews", accessed: "June 2026" }
+  - { id: 4, title: "Capterra, Hotjar reviews", url: "https://www.capterra.com/p/163516/Hotjar/reviews/", accessed: "June 2026" }
+  - { id: 5, title: "Microsoft Clarity, homepage and product", url: "https://clarity.microsoft.com/", accessed: "June 2026" }
+  - { id: 6, title: "G2, Microsoft Clarity reviews (4.5, ~55 reviews)", url: "https://www.g2.com/products/microsoft-microsoft-clarity/reviews", accessed: "June 2026" }
+  - { id: 7, title: "Capterra, Microsoft Clarity reviews", url: "https://www.capterra.com/p/236349/Microsoft-Clarity/reviews/", accessed: "June 2026" }
 featuredImage: "/images/compare-covers/hotjar-vs-microsoft-clarity.webp"
 ---
 
-## Decision matrix — who fits which side
+## Decision matrix, who fits which side
 
 | Criterion | Hotjar | Microsoft Clarity |
 |---|:---:|:---:|
-| Native on-site surveys and feedback widgets | ✓ | – |
-| Unlimited heatmaps and recordings, no caps | – | ✓ |
+| Native on-site surveys and feedback widgets | ✓ | - |
+| Unlimited heatmaps and recordings, no caps | - | ✓ |
 | Free at any traffic volume | ✕ | ✓ |
-| Integrated "what plus why" CRO workspace | ✓ | – |
-| Native GA4 integration | – | ✓ |
-| Predictable cost for high-traffic sites | – | ✓ |
-| AI summaries across recordings | – | ✓ |
-| Single tool for qualitative research | ✓ | – |
+| Integrated "what plus why" CRO workspace | ✓ | - |
+| Native GA4 integration | - | ✓ |
+| Predictable cost for high-traffic sites | - | ✓ |
+| AI summaries across recordings | - | ✓ |
+| Single tool for qualitative research | ✓ | - |
 
 *Check = clear edge. Dash = capable but not the stronger pick. Cross = outside the model.*
 

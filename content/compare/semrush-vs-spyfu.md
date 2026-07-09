@@ -91,7 +91,7 @@ backgrounds:
       meta: "Competitive intelligence tool · privately held · Scottsdale, AZ"
       body: >-
         SpyFu was founded in 2006 by Mike Roberts (the company's own site states
-        2006; some secondary sources say 2005 — using the vendor-stated date).
+        2006; some secondary sources say 2005, using the vendor-stated date).
         It is headquartered in Scottsdale, Arizona, and is privately held and
         bootstrapped. Roberts remains President and Founder. SpyFu built its
         reputation on competitive PPC intelligence, offering 20 years of
@@ -101,7 +101,7 @@ backgrounds:
       facts:
         - { label: "Founded",        value: "2006 (vendor-stated)" }
         - { label: "HQ",             value: "Scottsdale, Arizona, USA" }
-        - { label: "Vendor",         value: "SpyFu, Inc. — privately held, bootstrapped" }
+        - { label: "Vendor",         value: "SpyFu, Inc., privately held, bootstrapped" }
         - { label: "CEO/Founder",    value: "Mike Roberts, President and Founder" }
         - { label: "Pricing model",  value: "Tiered subscription; annual and monthly; 30-day money-back guarantee" }
         - { label: "Starting price", value: "~$29/mo (Basic, billed yearly)" }
@@ -116,20 +116,20 @@ services:
     backlink depth (Semrush indexes roughly 6.5x more domains than SpyFu).
     Rows where SpyFu wins are included below.
   table:
-    - { label: "Keyword research",                       a: "✓ — 27.8B keywords, intent filters", b: "✓ — 13B keywords, no intent filters" }
-    - { label: "Rank tracking",                          a: "✓ — daily, up to 5,000 kws (Business)", b: "✓ — up to 50,000 kws (Team plan)" }
-    - { label: "Site audit / technical SEO",             a: "✓ — 140+ checks, AI Search Health",  b: "✕ — no site audit tool" }
-    - { label: "Backlink analysis",                      a: "✓ — 808M domains, toxic link audit",  b: "Partial — 125M domains, no toxic audit" }
-    - { label: "PPC / competitor ad research (included)", a: "Partial — AdClarity add-on ($99–$220/mo)", b: "✓ — included all plans" }
-    - { label: "Historical PPC ad data",                 a: "Partial — depth unverified (check semrush.com/adclarity)", b: "✓ — 20 years per domain" }
-    - { label: "Kombat 3-way competitor view",           a: "✕ — no direct base-plan equivalent",  b: "✓ — built in" }
-    - { label: "AI visibility / AI Overview tracking",   a: "✓ — add-on at $99/mo per domain",     b: "✕ — not available as of June 2026 (verify at spyfu.com)" }
-    - { label: "Content marketing tools",                a: "✓ — Semrush One Pro+ ($299/mo+)",       b: "Partial — RivalFlow AI on Pro + AI tier" }
-    - { label: "Local SEO management",                   a: "Partial — add-on ($30–$60/mo)",         b: "Partial — coverage only, no management" }
-    - { label: "Unlimited searches and exports",         a: "✕ — metered by plan",                  b: "✓ — all paid plans" }
+    - { label: "Keyword research",                       a: "✓, 27.8B keywords, intent filters", b: "✓, 13B keywords, no intent filters" }
+    - { label: "Rank tracking",                          a: "✓, daily, up to 5,000 kws (Business)", b: "✓, up to 50,000 kws (Team plan)" }
+    - { label: "Site audit / technical SEO",             a: "✓, 140+ checks, AI Search Health",  b: "✕, no site audit tool" }
+    - { label: "Backlink analysis",                      a: "✓, 808M domains, toxic link audit",  b: "Partial, 125M domains, no toxic audit" }
+    - { label: "PPC / competitor ad research (included)", a: "Partial, AdClarity add-on ($99-$220/mo)", b: "✓, included all plans" }
+    - { label: "Historical PPC ad data",                 a: "Partial, depth unverified (check semrush.com/adclarity)", b: "✓, 20 years per domain" }
+    - { label: "Kombat 3-way competitor view",           a: "✕, no direct base-plan equivalent",  b: "✓, built in" }
+    - { label: "AI visibility / AI Overview tracking",   a: "✓, add-on at $99/mo per domain",     b: "✕, not available as of June 2026 (verify at spyfu.com)" }
+    - { label: "Content marketing tools",                a: "✓, Semrush One Pro+ ($299/mo+)",       b: "Partial, RivalFlow AI on Pro + AI tier" }
+    - { label: "Local SEO management",                   a: "Partial, add-on ($30-$60/mo)",         b: "Partial, coverage only, no management" }
+    - { label: "Unlimited searches and exports",         a: "✕, metered by plan",                  b: "✓, all paid plans" }
     - { label: "Search intent classification",           a: "✓",                                     b: "✕" }
     - { label: "Free trial",                             a: "7 days, credit card required",           b: "No trial; 30-day money-back guarantee" }
-    - { label: "API access",                             a: "✓ — Business plan and above (verify rate limits at semrush.com/api)", b: "Unverified — check spyfu.com/api" }
+    - { label: "API access",                             a: "✓, Business plan and above (verify rate limits at semrush.com/api)", b: "Unverified, check spyfu.com/api" }
 
 pricing:
   heading: "Pricing: what you'll actually pay"
@@ -146,7 +146,7 @@ pricing:
     - { label: "Full-capability tier",         a: "Business, $416.66/mo (annual); Semrush One Advanced $455.67/mo (annual)", b: "Team / Agency, $187/mo (annual); includes 5 users" }
     - { label: "Free plan",                    a: "No",                                  b: "No" }
     - { label: "Free trial",                   a: "7 days; credit card required",         b: "No formal trial; 30-day money-back guarantee" }
-    - { label: "Add-on costs",                 a: "AdClarity $99–$220/mo; AI Visibility $99/mo per domain; Content $60/mo; Local $30–$60/mo; extra users $45–$100/mo", b: "Extra users $30/mo each (beyond plan seats)" }
+    - { label: "Add-on costs",                 a: "AdClarity $99-$220/mo; AI Visibility $99/mo per domain; Content $60/mo; Local $30-$60/mo; extra users $45-$100/mo", b: "Extra users $30/mo each (beyond plan seats)" }
     - { label: "Pricing model",                a: "Tiered; add-ons priced separately",    b: "Tiered; unlimited searches included; no contracts" }
     - { label: "Cancellation",                 a: "Verify terms at semrush.com/pricing",  b: "Cancel anytime; no contracts" }
 
@@ -199,7 +199,7 @@ sources:
   - { id: 1, title: "Semrush homepage", url: "https://www.semrush.com", accessed: "June 2026" }
   - { id: 2, title: "Semrush pricing (cross-verified via DemandSage)", url: "https://www.demandsage.com/semrush-pricing/", accessed: "June 2026" }
   - { id: 3, title: "G2 Semrush reviews (4.5, 3,434 reviews)", url: "https://www.g2.com/products/semrush/reviews", accessed: "June 2026" }
-  - { id: 4, title: "Semrush Wikipedia — founding and history", url: "https://en.wikipedia.org/wiki/Semrush", accessed: "June 2026" }
+  - { id: 4, title: "Semrush Wikipedia, founding and history", url: "https://en.wikipedia.org/wiki/Semrush", accessed: "June 2026" }
   - { id: 5, title: "Semrush CEO change (Bill Wagner)", url: "https://www.clay.com/dossier/semrush-ceo", accessed: "June 2026" }
   - { id: 6, title: "Semrush G2 Spring 2026 awards press release", url: "https://www.semrush.com/news/451131-semrush-unified-intelligence-sweeps-g2-spring-2026-reports-with-1-rankings-in-6-categories/", accessed: "June 2026" }
   - { id: 7, title: "SpyFu homepage", url: "https://www.spyfu.com", accessed: "June 2026" }
@@ -213,7 +213,7 @@ sources:
 featuredImage: "/images/compare-covers/semrush-vs-spyfu.webp"
 ---
 
-## Decision matrix — who fits which side
+## Decision matrix, who fits which side
 
 | Criterion | Semrush | SpyFu |
 |---|:---:|:---:|
@@ -238,12 +238,12 @@ Both tools cover the keyword research and competitor gap analysis workflow. The 
 | Axis | Semrush | SpyFu |
 |---|---|---|
 | **Scope** | Keyword research, technical audit, backlinks, content, PPC add-ons, AI visibility in one platform | Focused on competitive keyword and PPC intelligence; no site audit |
-| **PPC ad history** | Partial — AdClarity available as an add-on at $99 to $220/mo; historical depth unverified (check semrush.com/adclarity) | 20 years of Google Ads history per domain, included on all plans — the strongest differentiator at any price |
+| **PPC ad history** | Partial, AdClarity available as an add-on at $99 to $220/mo; historical depth unverified (check semrush.com/adclarity) | 20 years of Google Ads history per domain, included on all plans, the strongest differentiator at any price |
 | **Technical SEO** | Site audit with 140+ checks and AI Search Health scoring | No site audit tool; teams need a second tool for technical diagnostics |
 | **Backlink database** | 808M domains indexed; toxic link audit included | 125M domains (about 6.5x smaller); no toxic link audit |
 | **Keyword database** | 27.8B keywords with search intent classification | 13B keywords; no search intent classification |
-| **Rank tracking volume** | Up to 5,000 keywords on Business ($416.66/mo annual) | Up to 50,000 keywords on Team ($187/mo annual) — 10x the cap at a lower price |
-| **Entry price** | ~$117.33/mo (Pro, annual billing) | ~$29/mo (Basic, annual billing) — roughly 4x cheaper at entry |
+| **Rank tracking volume** | Up to 5,000 keywords on Business ($416.66/mo annual) | Up to 50,000 keywords on Team ($187/mo annual)-10x the cap at a lower price |
+| **Entry price** | ~$117.33/mo (Pro, annual billing) | ~$29/mo (Basic, annual billing), roughly 4x cheaper at entry |
 | **Free trial / entry commitment** | 7-day trial; credit card required | No formal trial; 30-day money-back guarantee; cancel anytime |
 | **AI visibility tracking** | Available as a dedicated add-on ($99/mo per domain) covering AI Overviews, ChatGPT, and Gemini | Not available as of June 2026 (verify at spyfu.com) |
 | **Vendor maturity** | NYSE-listed, 1,000+ employees, founded 2008 | Bootstrapped, estimated 21-person team, founded 2006 |

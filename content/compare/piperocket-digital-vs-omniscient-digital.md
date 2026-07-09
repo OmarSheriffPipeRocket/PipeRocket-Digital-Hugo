@@ -65,13 +65,13 @@ backgrounds:
         - { label: "HQ",              value: "California, USA" }
         - { label: "Team",            value: "4 senior practitioners (dedicated pod)" }
         - { label: "Notable clients", value: "HyperVerge, StoryLane, Spendflo, DevRev" }
-        - { label: "Public rating",   value: "4.7 — Clutch" }
+        - { label: "Public rating",   value: "4.7, Clutch" }
       credentials:
         certifications:
           - "Google Partner"
           - "Meta Business Partner"
     - name: "Omniscient Digital"
-      meta: "Founded 2019 · Austin, TX · 10–49 employees"
+      meta: "Founded 2019 · Austin, TX · 10-49 employees"
       body: >-
         Founded by Alex Birkett, David Ly Khim, and Allie Konchar (also
         known as Allie Decker), Chief Content Officer. Specialises
@@ -82,10 +82,10 @@ backgrounds:
       facts:
         - { label: "Founded",         value: "2019" }
         - { label: "HQ",              value: "Austin, TX" }
-        - { label: "Team",            value: "10–49 employees" }
+        - { label: "Team",            value: "10-49 employees" }
         - { label: "Founders",        value: "Alex Birkett, David Ly Khim, Allie Konchar" }
         - { label: "Notable clients", value: "SAP, Adobe, Loom, Jasper, Asana, AppSumo, TikTok" }
-        - { label: "Public rating",   value: "4.8 — Clutch (5 reviews)" }
+        - { label: "Public rating",   value: "4.8, Clutch (5 reviews)" }
       credentials:
         certifications:
           - "HubSpot Solutions Provider (tier unspecified)"
@@ -96,19 +96,19 @@ at_a_glance:
   - { label: "Core motion",     a: "SEO-led",         b: "Content-led SEO" }
   - { label: "Starting price",  a: "$3,000 / mo",     b: "$10,000 / mo" }
   - { label: "Min contract",    a: "3 months",        b: "Not publicly listed" }
-  - { label: "Public rating",   a: "4.7 — Clutch",    b: "4.8 — Clutch (5 reviews)" }
+  - { label: "Public rating",   a: "4.7, Clutch",    b: "4.8, Clutch (5 reviews)" }
 
 services:
   heading: "Capability comparison"
   table:
     - { label: "B2B SaaS focus (exclusive)",                   a: "✓ Exclusive",         b: "✓ Exclusive" }
     - { label: "Paid media",                                   a: "✓ Included",          b: "✕ None" }
-    - { label: "Best stage fit",                               a: "Seed → enterprise",   b: "Series A–B" }
+    - { label: "Best stage fit",                               a: "Seed → enterprise",   b: "Series A, B" }
     - { label: "SEO + PPC in one retainer",                    a: "✓ Unified",           b: "✕ SEO only" }
     - { label: "Content strategy depth",                       a: "✓ Included",          b: "✓ Core offering" }
     - { label: "Programmatic SEO",                             a: "✓ Core offering",     b: "✓ Offered" }
     - { label: "GEO / AI-search optimisation",                 a: "Not a named offering", b: "✓ Core offering" }
-    - { label: "Senior-led execution",                         a: "✓ Default",           b: "✓ Default — small team" }
+    - { label: "Senior-led execution",                         a: "✓ Default",           b: "✓ Default, small team" }
     - { label: "Starting price",                               a: "$3K / mo",            b: "$10K / mo" }
     - { label: "Pilot program",                                a: "✓ 3-mo pilot",        b: "✕ None" }
 
@@ -127,7 +127,7 @@ team:
         - { role: "Paid media lead",      seniority: "6 yrs" }
         - { role: "Content strategist",   seniority: "5 yrs" }
     - heading: "Omniscient team"
-      subheading: "Small senior team — practitioner-led, no junior handoff"
+      subheading: "Small senior team, practitioner-led, no junior handoff"
       members:
         - { role: "Content strategist",        seniority: "Senior" }
         - { role: "SEO lead",                  seniority: "Senior" }
@@ -139,35 +139,35 @@ reporting:
   columns:
     - heading: "Most agency reports"
       metrics:
-        - "Impressions — 2.4M"
-        - "Clicks — 38,200"
-        - "Avg. position — 8.2"
-        - "CTR — 1.6%"
-        - "Sessions — 22,400"
-        - "Bounce rate — 62%"
+        - "Impressions, 2.4M"
+        - "Clicks, 38,200"
+        - "Avg. position, 8.2"
+        - "CTR, 1.6%"
+        - "Sessions, 22,400"
+        - "Bounce rate, 62%"
     - heading: "PipeRocket report"
       highlight: true
       metrics:
-        - "MQLs — 142 (+18 vs prior mo)"
-        - "SQLs — 38 (+9)"
-        - "Pipeline ($) — $412K (+$96K)"
-        - "Blended CAC — $1,180 (−$220)"
-        - "CAC payback — 9.4 mo (−1.3 mo)"
-        - "Cost per SQL — $840 (−$160)"
+        - "MQLs, 142 (+18 vs prior mo)"
+        - "SQLs, 38 (+9)"
+        - "Pipeline ($)-$412K (+$96K)"
+        - "Blended CAC, $1,180 (−$220)"
+        - "CAC payback-9.4 mo (−1.3 mo)"
+        - "Cost per SQL, $840 (−$160)"
   note: >-
     The difference matters because the second report can defend a marketing
     budget in a board meeting. The first cannot. Every PipeRocket
     engagement reports against the right column from week 4 onward.
 
 pricing:
-  heading: "Pricing — what you'll actually pay"
+  heading: "Pricing, what you'll actually pay"
   intro: >-
     Sticker prices rarely match the real cheque. Below is the operating
     range, not the landing-page starter. Under $5K, a scope-based retainer
     usually goes further than a team-based one.
   table:
     - { label: "Starting price",            a: "$3K / mo",                b: "$10,000 / mo" }
-    - { label: "Typical operating range",   a: "$4K – $8K / mo",          b: "$10K+ / mo (upper bound not publicly listed)" }
+    - { label: "Typical operating range",   a: "$4K-$8K / mo",          b: "$10K+ / mo (upper bound not publicly listed)" }
     - { label: "Minimum contract",          a: "3 months",                b: "Not publicly listed" }
     - { label: "Setup fee",                 a: "None",                    b: "Not publicly listed" }
     - { label: "Pricing structure",         a: "Scope-based retainer",    b: "Custom retainer (scope-based)" }
@@ -177,27 +177,26 @@ pricing:
 faqs:
   - q: "Can PipeRocket run paid at Omniscient Digital's scale?"
     a: >-
-      Yes — handling paid for companies at any stage is one of our
+      Yes, handling paid for companies at any stage is one of our
       specialities. Our paid work complements organic, it doesn't lead a
       portfolio. If pure organic content is your model, Omniscient may be
       the better call.
   - q: "Is Omniscient Digital worth the higher starting price?"
     a: >-
-      If you need SEO, content, and GEO with no paid media — and the
-      budget's there — yes. If one workstream needs to go deep, the
+      If you need SEO, content, and GEO with no paid media, and the
+      budget's there, yes. If one workstream needs to go deep, the
       breadth premium is harder to justify.
   - q: "Does either offer a trial or audit before committing?"
     a: >-
-      PipeRocket runs a free audit, no contract. Omniscient Digital —
-      check their website; engagement terms vary.
+      PipeRocket runs a free audit, no contract. Omniscient Digital, check their website; engagement terms vary.
   - q: "What's the minimum contract length?"
     a: >-
       PipeRocket's 3 months, then rolling. Omniscient Digital's is
       usually not publicly listed.
   - q: "How fast do results show up?"
     a: >-
-      Paid signals start in 30–60 days on both sides. Organic compounds
-      from month 3 and hits meaningful scale by month 6–9.
+      Paid signals start in 30-60 days on both sides. Organic compounds
+      from month 3 and hits meaningful scale by month 6-9.
   - q: "When should I choose Omniscient Digital over PipeRocket?"
     a: >-
       Content and organic SEO is your sole growth focus and you're willing
@@ -208,47 +207,47 @@ faqs:
 
 sources:
   - id: 1
-    title: "PipeRocket Digital — pricing, services, agency profile"
+    title: "PipeRocket Digital, pricing, services, agency profile"
     url: "/"
     accessed: "May 2026"
   - id: 2
-    title: "Clutch — PipeRocket Digital — rating and verified reviews"
+    title: "Clutch, PipeRocket Digital, rating and verified reviews"
     url: "https://clutch.co/profile/piperocket-digital"
     accessed: "May 2026"
   - id: 3
-    title: "Omniscient Digital — website, services, positioning"
+    title: "Omniscient Digital, website, services, positioning"
     url: "https://beomniscient.com/"
     accessed: "May 2026"
   - id: 4
-    title: "Clutch — Omniscient Digital profile"
+    title: "Clutch, Omniscient Digital profile"
     url: "https://clutch.co/profile/omniscient-digital"
     accessed: "May 2026"
   - id: 5
-    title: "Omniscient Digital — services and case studies"
+    title: "Omniscient Digital, services and case studies"
     url: "https://beomniscient.com/services/"
     accessed: "May 2026"
   - id: 6
-    title: "Omniscient Digital — about / team"
+    title: "Omniscient Digital, about / team"
     url: "https://beomniscient.com/about/"
     accessed: "May 2026"
 featuredImage: "/images/compare-covers/piperocket-digital-vs-omniscient-digital.webp"
 ---
 
-## Decision matrix — who fits which side
+## Decision matrix, who fits which side
 
 | Criterion | PipeRocket | Omniscient |
 |---|:---:|:---:|
 | You need both SEO and PPC managed together with unified attribution | ✓ | ✕ |
 | Your growth motion requires organic + paid to work in parallel | ✓ | ✕ |
-| You're at Seed–Series B with a $3K–$8K/mo budget | ✓ | ✕ |
+| You're at Seed, Series B with a $3K-$8K/mo budget | ✓ | ✕ |
 | You want pipeline-level reporting beyond traffic and rankings | ✓ | ✕ |
 | B2B SaaS at Seed to enterprise | ✓ | ✓ |
 | Organic SEO is the primary growth lever | ✓ | ✓ |
-| Content production at scale is the main need | – | ✓ |
+| Content production at scale is the main need | - | ✓ |
 | Paid media is a required channel | ✓ | ✕ |
 | Budget under $8K / mo | ✓ | ✕ |
-| GEO / AI search optimisation needed | – | ✓ |
-| Series B+ with $10K+/mo content budget | – | ✓ |
+| GEO / AI search optimisation needed | - | ✓ |
+| Series B+ with $10K+/mo content budget | - | ✓ |
 
 *Check = natural fit. Dash = possible but not the better pick. Cross = outside the model.*
 
@@ -256,10 +255,10 @@ featuredImage: "/images/compare-covers/piperocket-digital-vs-omniscient-digital.
 
 | Axis | PipeRocket | Omniscient Digital |
 |---|---|---|
-| **Vertical depth** | 100% B2B SaaS — same buyer, same playbook across all accounts | 100% B2B SaaS — enterprise to growth stage, deep content expertise |
+| **Vertical depth** | 100% B2B SaaS, same buyer, same playbook across all accounts | 100% B2B SaaS, enterprise to growth stage, deep content expertise |
 | **Paid media** | SEO + PPC together with connected attribution | No paid media. Organic only |
-| **Content quality** | Included in retainer. Not the sole focus | Their signature — SAP, Adobe, Loom-level content depth |
-| **GEO / AI search** | Not a named offering | Core offering — built for AI search alongside traditional SEO |
+| **Content quality** | Included in retainer. Not the sole focus | Their signature, SAP, Adobe, Loom-level content depth |
+| **GEO / AI search** | Not a named offering | Core offering, built for AI search alongside traditional SEO |
 | **Entry price** | $3K/mo. Lower barrier for early-stage | $10K/mo minimum. Positioned for Series A and above |
 | **Reporting** | Pipeline: MQL, CAC, revenue attribution | Organic traffic, pipeline impact, revenue correlation |
 
@@ -270,13 +269,13 @@ featuredImage: "/images/compare-covers/piperocket-digital-vs-omniscient-digital.
 | Clutch rating | 4.7 / 5 | 4.8 / 5 |
 | G2 rating | 4.8 / 5 | Not listed |
 | Verified reviews | 13 | 5 (Clutch) |
-| Reviewer profile | Seed–Series B SaaS | Series A–B B2B SaaS (SAP, Adobe, Loom level) |
+| Reviewer profile | Seed, Series B SaaS | Series A, B B2B SaaS (SAP, Adobe, Loom level) |
 | Lifetime clients | 50+ B2B SaaS | Select roster of B2B SaaS companies |
 
 > "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months."
 >
-> — **Anusha**, Founding member, HyperVerge
+>, **Anusha**, Founding member, HyperVerge
 
 ---
 
-*Competitor data sourced from publicly available information as of May 2026. Pricing and team sizes may change — verify directly with each agency.*
+*Competitor data sourced from publicly available information as of May 2026. Pricing and team sizes may change, verify directly with each agency.*

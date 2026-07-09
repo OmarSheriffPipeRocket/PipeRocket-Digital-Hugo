@@ -60,7 +60,7 @@ short_answer:
         Series A+ SaaS teams tend to find the breadth worth the cost.
 
 at_a_glance:
-  - { label: "Founded / Vendor",   a: "Mangools (mangools.com) — 2014",     b: "Semrush (semrush.com) — 2008" }
+  - { label: "Founded / Vendor",   a: "Mangools (mangools.com)-2014",     b: "Semrush (semrush.com)-2008" }
   - { label: "Category",           a: "Five-tool organic SEO suite",         b: "All-in-one digital marketing platform" }
   - { label: "Starting price",     a: "~$49/mo (monthly) / $31.90/mo (annual)", b: "~$139.95/mo (monthly) / $117.33/mo (annual)" }
   - { label: "Public rating",      a: "4.7 G2 (95 reviews)",                 b: "4.5 G2 (~3,434 reviews)" }
@@ -235,16 +235,16 @@ featuredImage: "/images/compare-covers/mangools-vs-semrush.webp"
 | Criterion | Mangools | Semrush |
 |---|:---:|:---:|
 | Budget under $60/mo | ✓ | ✕ |
-| Organic keyword research, clean UI | ✓ | – |
-| Rank tracking with minimal setup | ✓ | – |
+| Organic keyword research, clean UI | ✓ | - |
+| Rank tracking with minimal setup | ✓ | - |
 | 10-day free trial, no credit card | ✓ | ✕ |
 | Technical site audit (140+ checks) | ✕ | ✓ |
 | PPC and paid search intelligence | ✕ | ✓ |
 | Backlink analysis at scale (43B URLs) | ✕ | ✓ |
-| Content marketing toolkit | ✕ | – |
+| Content marketing toolkit | ✕ | - |
 | Competitor traffic and market explorer | ✕ | ✓ |
-| Local SEO campaign management | ✕ | – |
-| API access for bulk data | ✕ | – |
+| Local SEO campaign management | ✕ | - |
+| API access for bulk data | ✕ | - |
 | All-in-one SEO and PPC platform | ✕ | ✓ |
 
 *Check = clear edge for that criterion. Dash = capable or available but not the stronger pick. Cross = outside the tool's model.*

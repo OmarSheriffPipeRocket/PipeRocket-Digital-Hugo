@@ -95,7 +95,7 @@ Optmyzr's rule engine and Rule Engine + scripts let teams build reusable optimiz
 **Love:** Time savings from one-click optimizations and strong reporting
 Reviewers consistently praise the breadth of features, the quality of the automation rules, and the reporting engine for client-facing deliverables, per aggregated [G2](https://www.g2.com/products/optmyzr/reviews) and [Capterra](https://www.capterra.com/p/156308/Optmyzr/reviews/) reviews.
 
-- Maintains 4.7/5 on G2 (128 reviews) and 4.7/5 on Capterra (183 reviews) as of June 2026.
+- Maintains 4.7/5 on G2 (128 reviews) and 4.7/5 on Capterra (184 reviews) as of June 2026.
 
 **Complain:** "Steep learning curve"
 The most consistent criticism across review platforms is the learning curve, with new users reporting weeks or months before they feel confident building effective automations.
@@ -149,7 +149,7 @@ Best for: Search-heavy accounts that need continuous ad A/B testing, quality-sco
 | Starting Price | ~$126/mo (Capterra; up to $50K/mo spend tier; [verify live](https://www.capterra.com/p/173311/Adalysis/pricing/)) |
 | Rating | [4.6/5 (119 reviews, Capterra)](https://www.capterra.com/p/173311/Adalysis/reviews/) |
 
-Note: The G2 rating and review count for Adalysis could not be confirmed from a primary source as of June 2026; the Capterra figure (4.6/5, 117 reviews) is used as the primary rating here. Verify the live G2 listing before citing in derivative content.
+Note: The G2 rating and review count for Adalysis could not be confirmed from a primary source as of June 2026; the Capterra figure (4.6/5, 119 reviews) is used as the primary rating here. Verify the live G2 listing before citing in derivative content.
 
 **Fit Profile**
 

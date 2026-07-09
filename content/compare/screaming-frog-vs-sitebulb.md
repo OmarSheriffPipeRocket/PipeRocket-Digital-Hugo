@@ -56,7 +56,7 @@ at_a_glance:
   - { label: "Vendor / founded", a: "Screaming Frog (UK agency)", b: "Sitebulb" }
   - { label: "Platform",         a: "Desktop (Windows, macOS, Ubuntu)", b: "Desktop (Windows, macOS) + Cloud/Server" }
   - { label: "Starting price",   a: "£199 / year (annual licence)", b: "From ~$18 / mo (Lite, desktop; verify live)" }
-  - { label: "Public rating",    a: "4.9 — Capterra (133 reviews)", b: "4.9 — Capterra (25 reviews)" }
+  - { label: "Public rating",    a: "4.9, Capterra (134 reviews)", b: "4.9, Capterra (25 reviews)" }
   - { label: "Best for",         a: "Raw crawl power and full control", b: "Guided, prioritised audits with visual reporting" }
 
 backgrounds:
@@ -76,7 +76,7 @@ backgrounds:
         - { label: "Vendor",        value: "Screaming Frog (UK agency)" }
         - { label: "Platform",      value: "Desktop app (Windows, macOS, Ubuntu)" }
         - { label: "Pricing model", value: "Flat annual licence (£199/year per user)" }
-        - { label: "Public rating", value: "4.9 — Capterra (133 reviews); 4.7 on G2 (~84)" }
+        - { label: "Public rating", value: "4.9, Capterra (134 reviews); 4.7 on G2 (~186)" }
         - { label: "Typical users", value: "Hands-on technical SEOs, developers, agencies" }
     - name: "Sitebulb"
       meta: "Desktop + Cloud/Server · Windows, macOS · from ~$18/mo (verify live)"
@@ -91,7 +91,7 @@ backgrounds:
         - { label: "Vendor",        value: "Sitebulb" }
         - { label: "Platform",      value: "Desktop (Windows, macOS) + Cloud/Server (browser-based)" }
         - { label: "Pricing model", value: "Monthly/annual subscription; separate Cloud/Server tier" }
-        - { label: "Public rating", value: "4.9 — Capterra (25 reviews); 4.5 on G2 (~13)" }
+        - { label: "Public rating", value: "4.9, Capterra (25 reviews); 4.5 on G2 (~13)" }
         - { label: "Typical users", value: "SEO teams, agencies, in-house specialists wanting guided audits" }
 
 services:
@@ -115,7 +115,7 @@ services:
     - { label: "Community / documentation depth",   a: "✓ Largest in SEO",       b: "Smaller community" }
 
 pricing:
-  heading: "Pricing — what you'll actually pay"
+  heading: "Pricing, what you'll actually pay"
   intro: >-
     Screaming Frog uses a flat annual licence; Sitebulb uses monthly/annual
     subscriptions across desktop tiers plus a separate Cloud/Server tier.
@@ -174,26 +174,26 @@ faqs:
       live page.
 
 sources:
-  - { id: 1, title: "Screaming Frog SEO Spider — product and pricing", url: "https://www.screamingfrog.co.uk/seo-spider/", accessed: "June 2026" }
-  - { id: 2, title: "Capterra — Screaming Frog SEO Spider profile (4.9, 133 reviews)", url: "https://www.capterra.com/p/185765/Screaming-Frog-SEO-Spider/", accessed: "June 2026" }
-  - { id: 3, title: "Sitebulb — homepage", url: "https://sitebulb.com/", accessed: "June 2026" }
-  - { id: 4, title: "Sitebulb — subscriptions and pricing", url: "https://sitebulb.com/subscriptions/pricing/index/", accessed: "June 2026" }
-  - { id: 5, title: "Capterra — Sitebulb profile (4.9, 25 reviews)", url: "https://www.capterra.com/p/169089/Sitebulb/", accessed: "June 2026" }
-  - { id: 6, title: "PipeRocket — best SEO audit tools roundup", url: "/list/best-seo-audit-tools/", accessed: "June 2026" }
+  - { id: 1, title: "Screaming Frog SEO Spider, product and pricing", url: "https://www.screamingfrog.co.uk/seo-spider/", accessed: "June 2026" }
+  - { id: 2, title: "Capterra, Screaming Frog SEO Spider profile (4.9, 134 reviews)", url: "https://www.capterra.com/p/185765/Screaming-Frog-SEO-Spider/", accessed: "June 2026" }
+  - { id: 3, title: "Sitebulb, homepage", url: "https://sitebulb.com/", accessed: "June 2026" }
+  - { id: 4, title: "Sitebulb, subscriptions and pricing", url: "https://sitebulb.com/subscriptions/pricing/index/", accessed: "June 2026" }
+  - { id: 5, title: "Capterra, Sitebulb profile (4.9, 25 reviews)", url: "https://www.capterra.com/p/169089/Sitebulb/", accessed: "June 2026" }
+  - { id: 6, title: "PipeRocket, best SEO audit tools roundup", url: "/list/best-seo-audit-tools/", accessed: "June 2026" }
 featuredImage: "/images/compare-covers/screaming-frog-vs-sitebulb.webp"
 ---
 
-## Decision matrix — who fits which side
+## Decision matrix, who fits which side
 
 | Criterion | Screaming Frog | Sitebulb |
 |---|:---:|:---:|
-| Raw crawl power and deep configurability | ✓ | – |
+| Raw crawl power and deep configurability | ✓ | - |
 | Prioritised audit hints and severity scoring | ✕ | ✓ |
-| Client-ready visualisation and reports | – | ✓ |
-| Lowest annual cost | ✓ | – |
+| Client-ready visualisation and reports | - | ✓ |
+| Lowest annual cost | ✓ | - |
 | Free tier (no time limit) | ✓ | ✕ |
-| Deepest community documentation | ✓ | – |
-| Guided interpretation for non-specialists | – | ✓ |
+| Deepest community documentation | ✓ | - |
+| Guided interpretation for non-specialists | - | ✓ |
 | Purpose-built cloud scale for teams | ✕ | ✓ |
 
 *Check = clear edge. Dash = capable but not the stronger pick. Cross = outside the model.*
@@ -216,12 +216,12 @@ Both are excellent at the core job, crawling a site and surfacing its technical 
 | Metric | Screaming Frog | Sitebulb |
 |---|---|---|
 | Capterra rating | 4.9 / 5 | 4.9 / 5 |
-| Capterra reviews | 133 | 25 |
+| Capterra reviews | 134 | 25 |
 | Vendor | Screaming Frog (UK agency) | Sitebulb |
 | Platform | Desktop (Windows, macOS, Ubuntu) | Desktop (Windows, macOS) + Cloud/Server |
 | Typical users | Hands-on technical SEOs, developers, agencies | SEO teams and agencies wanting guided audits |
 
-Both tools carry a 4.9 Capterra rating, but on review volume Screaming Frog is well ahead (133 reviews vs 25), which also means a far deeper pool of third-party documentation and community troubleshooting. Sitebulb's smaller review base is not a quality signal against it; reviewers single out its prioritised hints and visual reports. Weigh raw documentation depth against guided interpretation when deciding which suits your team. For a wider view of the category, see our roundup of the [best SEO audit tools](/list/best-seo-audit-tools/).
+Both tools carry a 4.9 Capterra rating, but on review volume Screaming Frog is well ahead (134 reviews vs 25), which also means a far deeper pool of third-party documentation and community troubleshooting. Sitebulb's smaller review base is not a quality signal against it; reviewers single out its prioritised hints and visual reports. Weigh raw documentation depth against guided interpretation when deciding which suits your team. For a wider view of the category, see our roundup of the [best SEO audit tools](/list/best-seo-audit-tools/).
 
 ---
 

@@ -60,7 +60,7 @@ short_answer:
         content tools and historical data.
 
 at_a_glance:
-  - { label: "Founded / Vendor",   a: "Moz (moz.com) — founded 2004",        b: "Semrush (semrush.com) — founded 2008" }
+  - { label: "Founded / Vendor",   a: "Moz (moz.com), founded 2004",        b: "Semrush (semrush.com), founded 2008" }
   - { label: "Category",           a: "SEO platform (organic only)", b: "Digital marketing intelligence (SEO + PPC + content + competitive)" }
   - { label: "Starting price",     a: "~$39/mo (Starter, annual)",  b: "~$117.33/mo (Pro, annual)" }
   - { label: "Public rating",      a: "4.3/5 G2 (606 reviews)",     b: "4.5/5 G2 (3,434 reviews)" }
@@ -122,19 +122,19 @@ services:
     and data freshness. Moz Pro wins on price and Domain Authority; Semrush
     wins on breadth, database size, and daily tracking at every tier.
   table:
-    - { label: "Keyword research",                    a: "✓ (~1.25B keywords, reported — verify at moz.com)", b: "✓ (27 to 29B keywords, 142 geographic DBs)" }
+    - { label: "Keyword research",                    a: "✓ (~1.25B keywords, reported, verify at moz.com)", b: "✓ (27 to 29B keywords, 142 geographic DBs)" }
     - { label: "Daily rank tracking",                 a: "Partial (weekly on Starter/Standard; daily on Medium/Large)", b: "✓ (all tiers)" }
     - { label: "Technical site audit",                a: "✓ (core checks)",  b: "✓ (130+ checks, Core Web Vitals)" }
     - { label: "Backlink analysis",                   a: "✓ (Link Explorer, DA/PA)", b: "✓ (43 to 51T links, 390M referring domains, daily crawl)" }
-    - { label: "Domain Authority (DA) metric",        a: "✓ (industry standard)",   b: "✕ (uses Authority Score — less adopted)" }
+    - { label: "Domain Authority (DA) metric",        a: "✓ (industry standard)",   b: "✕ (uses Authority Score, less adopted)" }
     - { label: "PPC competitor research",             a: "✕",               b: "✓ (all tiers)" }
     - { label: "Content marketing toolkit",           a: "✕",               b: "Partial (Guru tier and above only)" }
-    - { label: "AI visibility tracking",              a: "Partial (beta, limited platforms)", b: "✓ (dedicated toolkit — add-on or Semrush One bundle)" }
-    - { label: "Local SEO",                           a: "Partial (Moz Local — separate product)", b: "Partial (add-on toolkit, $30/mo per location)" }
+    - { label: "AI visibility tracking",              a: "Partial (beta, limited platforms)", b: "✓ (dedicated toolkit, add-on or Semrush One bundle)" }
+    - { label: "Local SEO",                           a: "Partial (Moz Local, separate product)", b: "Partial (add-on toolkit, $30/mo per location)" }
     - { label: "Social media tools",                  a: "✕",               b: "✓" }
-    - { label: "Historical data",                     a: "Unverified per tier — verify at moz.com/pricing", b: "Guru tier and above only" }
-    - { label: "API access",                          a: "Unverified — verify at moz.com/products/api", b: "Business tier only" }
-    - { label: "Free plan",                           a: "✕",               b: "✓ (limits unverified — verify live)" }
+    - { label: "Historical data",                     a: "Unverified per tier, verify at moz.com/pricing", b: "Guru tier and above only" }
+    - { label: "API access",                          a: "Unverified, verify at moz.com/products/api", b: "Business tier only" }
+    - { label: "Free plan",                           a: "✕",               b: "✓ (limits unverified, verify live)" }
     - { label: "Free trial",                          a: "7 days, Standard/Medium only (card required)", b: "7 days, all plans (card required; auto-bills after day 7)" }
 
 pricing:
@@ -148,10 +148,10 @@ pricing:
     - { label: "Starting price (annual)",     a: "~$39/mo (Starter)",         b: "~$117.33/mo (Pro)" }
     - { label: "Starting price (monthly)",    a: "~$49/mo (Starter)",         b: "~$139.95/mo (Pro)" }
     - { label: "Typical operating range",     a: "$79 to $143/mo (Standard to Medium, annual)", b: "$208.33 to $416.66/mo (Guru to Business, annual)" }
-    - { label: "Full-capability tier",        a: "Large — $239/mo annual, $299/mo monthly", b: "Business — $416.66/mo annual, $499.95/mo monthly" }
+    - { label: "Full-capability tier",        a: "Large, $239/mo annual, $299/mo monthly", b: "Business, $416.66/mo annual, $499.95/mo monthly" }
     - { label: "Content tools included",      a: "None at any tier",          b: "Guru ($208.33/mo annual) and above only" }
     - { label: "Historical data",             a: "Unverified per tier",       b: "Guru tier and above only" }
-    - { label: "Free plan",                   a: "No",                        b: "Yes (limits unverified — verify live)" }
+    - { label: "Free plan",                   a: "No",                        b: "Yes (limits unverified, verify live)" }
     - { label: "Free trial",                  a: "7 days (Standard/Medium only; card required)", b: "7 days (all plans; card required; auto-bills day 7)" }
     - { label: "Pricing model",               a: "Tiered; extra seats $49/mo; extra campaigns $10/mo", b: "Tiered; extra seats $45 to $100/mo; AI Visibility add-on $99/mo per domain" }
 
@@ -213,7 +213,7 @@ sources:
   - { id: 3, title: "Moz free trial terms (bloggerspassion.com)", url: "https://bloggerspassion.com/moz-free-trial/", accessed: "June 2026" }
   - { id: 4, title: "Moz company history (encyclopedia.pub)", url: "https://encyclopedia.pub/entry/29778", accessed: "June 2026" }
   - { id: 5, title: "Moz Pro backlink database overview (Backlinko hub)", url: "https://backlinko.com/hub/seo/moz-pro", accessed: "June 2026" }
-  - { id: 6, title: "G2 — Moz Pro reviews", url: "https://www.g2.com/products/moz-pro/reviews", accessed: "June 2026" }
+  - { id: 6, title: "G2, Moz Pro reviews", url: "https://www.g2.com/products/moz-pro/reviews", accessed: "June 2026" }
   - { id: 7, title: "Semrush homepage", url: "https://www.semrush.com/", accessed: "June 2026" }
   - { id: 8, title: "Semrush pricing (third-party cross-check, marketerschoice.com)", url: "https://marketerschoice.com/semrush-pricing-2026/", accessed: "June 2026" }
   - { id: 9, title: "Semrush vs Moz feature comparison (marketerschoice.com)", url: "https://marketerschoice.com/semrush-vs-moz-2026/", accessed: "June 2026" }
@@ -227,16 +227,16 @@ featuredImage: "/images/compare-covers/moz-vs-semrush.webp"
 
 | Criterion | Moz Pro | Semrush |
 |---|:---:|:---:|
-| Affordable entry for SEO-only teams | ✓ | – |
+| Affordable entry for SEO-only teams | ✓ | - |
 | Domain Authority as a reporting metric | ✓ | ✕ |
 | Daily rank tracking at entry tier | ✕ | ✓ |
 | Largest keyword database (27 to 29B keywords) | ✕ | ✓ |
 | PPC competitor research at every tier | ✕ | ✓ |
-| AI visibility tracking (AI Overviews, LLMs) | – | ✓ |
-| Content marketing toolkit built in | ✕ | – |
-| Local SEO via a purpose-built product | ✓ | – |
+| AI visibility tracking (AI Overviews, LLMs) | - | ✓ |
+| Content marketing toolkit built in | ✕ | - |
+| Local SEO via a purpose-built product | ✓ | - |
 | Free plan available | ✕ | ✓ |
-| Deepest verified G2 review pool | – | ✓ |
+| Deepest verified G2 review pool | - | ✓ |
 
 *Check = clear edge. Dash = capable but not the stronger pick. Cross = outside the model.*
 
@@ -246,11 +246,11 @@ Both platforms cover the SEO core competently. The real differences are scope, p
 
 | Axis | Moz Pro | Semrush |
 |---|---|---|
-| **Entry price** | ~$39/mo annual (Starter) — roughly 3x cheaper at entry | ~$117.33/mo annual (Pro) — higher floor, broader capability |
+| **Entry price** | ~$39/mo annual (Starter), roughly 3x cheaper at entry | ~$117.33/mo annual (Pro), higher floor, broader capability |
 | **Keyword database** | ~1.25B keywords (reported; verify at moz.com) | 27 to 29B keywords across 142 geographic databases |
 | **Rank tracking freshness** | Weekly on Starter/Standard; daily on Medium/Large only | Daily at every plan tier |
-| **PPC research** | None at any tier | Included at every tier — unique differentiator |
-| **Domain authority metric** | DA/PA — industry-standard, most-cited link metric | Authority Score — functional but less widely adopted |
+| **PPC research** | None at any tier | Included at every tier, unique differentiator |
+| **Domain authority metric** | DA/PA, industry-standard, most-cited link metric | Authority Score, functional but less widely adopted |
 | **AI visibility tracking** | Beta, limited platform coverage | Dedicated toolkit (add-on $99/mo per domain or Semrush One bundle $199/mo) |
 | **Content tools** | Not included at any tier | Guru tier ($208.33/mo) and above only; not in Pro |
 | **Local SEO** | Moz Local (separate purpose-built product) | Add-on toolkit from $30/mo per location |
@@ -264,7 +264,7 @@ Both platforms cover the SEO core competently. The real differences are scope, p
 |---|---|---|
 | G2 rating | 4.3 / 5 | 4.5 / 5 |
 | G2 reviews | 606 | 3,434 |
-| Capterra rating | 4.5 / 5 (~349 reviews) | Not extracted — verify live |
+| Capterra rating | 4.5 / 5 (~349 reviews) | Not extracted, verify live |
 | Founded | 2004 | 2008 |
 | Publicly traded | Unverified (verify at moz.com/about) | Yes, NYSE: SEMR since March 2021 |
 | Notable recognition | DA metric is the industry standard for link quality | G2 #1 in 6 categories, Spring 2026; four G2 Best Software Awards 2026 |

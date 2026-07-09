@@ -9,7 +9,7 @@ readingTime: "12 min read"
 sources_count: 7
 writtenBy: "immanual"
 reviewedBy: "praveen"
-neutral: true   # A-vs-B page — PipeRocket is publisher, not a participant; swaps CTAs to soft/neutral
+neutral: true   # A-vs-B page, PipeRocket is publisher, not a participant; swaps CTAs to soft/neutral
 
 product_a:
   name: "6sense"
@@ -34,7 +34,7 @@ short_answer:
     and account intelligence platforms B2B revenue teams shortlist to identify
     in-market accounts and orchestrate against a target list. Both are
     enterprise-grade, both are custom-priced, and both carry similar G2 standing
-    (each around 4.4 out of 5 as of June 2026). The decision usually comes down
+    (6sense around 4.3, Demandbase around 4.4 out of 5, as of July 2026). The decision usually comes down
     to whether predictive intent accuracy (6sense) or integrated B2B advertising
     plus a single account-intelligence pane of glass (Demandbase) is the
     higher-value capability for your team.
@@ -55,10 +55,10 @@ short_answer:
         choice.
 
 at_a_glance:
-  - { label: "Vendor / Founded",  a: "6sense (private; Revenue AI platform)", b: "Demandbase (private; Demandbase One)" }
+  - { label: "Vendor / Founded",  a: "6sense (founded 2013; private)", b: "Demandbase (founded 2006; private)" }
   - { label: "Category",          a: "Predictive intent + ABM / account intelligence", b: "All-in-one account intelligence + B2B advertising" }
   - { label: "Pricing model",     a: "Custom pricing (quote-based; not published)", b: "Custom pricing (quote-based; not published)" }
-  - { label: "Public rating",     a: "4.4 — G2 (Revenue Marketing listing)", b: "4.4 — G2 (Demandbase One)" }
+  - { label: "Public rating",     a: "4.3, G2 (Revenue Marketing listing)", b: "4.4, G2 (Demandbase One)" }
   - { label: "Best for",          a: "Predictive intent and AI-led pipeline prioritization", b: "All-in-one account intelligence + native B2B advertising" }
 
 backgrounds:
@@ -75,14 +75,14 @@ backgrounds:
         capabilities are predictive intent and buying-stage prediction (its
         Revenue AI engine).
       facts:
-        - { label: "Founded",         value: "Private company (Revenue AI platform)" }
-        - { label: "HQ",              value: "United States (verify at 6sense.com)" }
+        - { label: "Founded",         value: "2013 (private)" }
+        - { label: "HQ",              value: "San Francisco, California, USA" }
         - { label: "Pricing model",   value: "Custom pricing (quote-based; not published)" }
-        - { label: "Public rating",   value: "4.4 — G2 (Revenue Marketing listing; count varies ~1,028–1,288)" }
+        - { label: "Public rating",   value: "4.3, G2 (Revenue Marketing listing; ~1,355 reviews, as of July 2026)" }
         - { label: "Notable customers", value: "Enterprise and mid-market B2B revenue teams (verify references directly)" }
         - { label: "Free tier",       value: "Free Sales Intelligence tier, 50 data credits/mo (verified June 2026)" }
     - name: "Demandbase"
-      meta: "Demandbase One — all-in-one account-based experience (ABX) platform"
+      meta: "Demandbase One, all-in-one account-based experience (ABX) platform"
       body: >-
         Demandbase markets "Demandbase One," an all-in-one account-based
         experience (ABX) platform that combines account intelligence, intent
@@ -91,10 +91,10 @@ backgrounds:
         intent, Demandbase pairs account intelligence with the ability to run
         B2B display advertising and personalization from the same workspace.
       facts:
-        - { label: "Founded",         value: "Private company (Demandbase One platform)" }
-        - { label: "HQ",              value: "United States (verify at demandbase.com)" }
+        - { label: "Founded",         value: "2006 (private)" }
+        - { label: "HQ",              value: "San Francisco, California, USA" }
         - { label: "Pricing model",   value: "Custom pricing (quote-based; not published)" }
-        - { label: "Public rating",   value: "4.4 — G2 (Demandbase One; ~1,900 reviews)" }
+        - { label: "Public rating",   value: "4.4, G2 (Demandbase One; ~1,916 reviews, as of July 2026)" }
         - { label: "Notable customers", value: "Enterprise and mid-market B2B teams running integrated ABM advertising (verify directly)" }
         - { label: "Free tier",       value: "No free plan (verified June 2026)" }
 
@@ -105,25 +105,25 @@ services:
     B2B), so the differences are at the edges: predictive depth, de-anonymization,
     and native advertising.
   table:
-    - { label: "Predictive intent / AI scoring",        a: "✓ Core — buying-stage prediction (Revenue AI)", b: "✓ Offered — intent + predictive scoring" }
-    - { label: "Account intelligence",                  a: "✓ Account scoring + signals",       b: "✓ Core — single account dashboard" }
-    - { label: "Anonymous visitor de-anonymization",    a: "✓ Core strength",                   b: "Partial — within account intelligence" }
+    - { label: "Predictive intent / AI scoring",        a: "✓ Core, buying-stage prediction (Revenue AI)", b: "✓ Offered, intent + predictive scoring" }
+    - { label: "Account intelligence",                  a: "✓ Account scoring + signals",       b: "✓ Core, single account dashboard" }
+    - { label: "Anonymous visitor de-anonymization",    a: "✓ Core strength",                   b: "Partial, within account intelligence" }
     - { label: "B2B advertising / DSP",                 a: "✕ Not a native DSP",                b: "✓ Native B2B DSP (Self-Serve + Managed)" }
-    - { label: "Journey orchestration",                 a: "✓ Offered",                         b: "✓ Core — ABX orchestration" }
+    - { label: "Journey orchestration",                 a: "✓ Offered",                         b: "✓ Core, ABX orchestration" }
     - { label: "Free tier",                             a: "✓ Free Sales Intelligence tier",    b: "✕ No free plan" }
 
 pricing:
-  heading: "Pricing — what you'll actually pay"
+  heading: "Pricing, what you'll actually pay"
   intro: >-
     Neither vendor publishes a rate card; both are custom, quote-based, and
     enterprise-priced. Any dollar figures below come from third-party sources
-    and are unverified estimates — confirm pricing directly with each vendor.
+    and are unverified estimates, confirm pricing directly with each vendor.
   table:
     - { label: "Pricing model",          a: "Custom (quote-based; not published)", b: "Custom (quote-based; not published)" }
-    - { label: "Typical annual range",   a: "~$25K – $200K+ (unverified third-party estimate; verify live)", b: "~$24K – $300K+ (unverified third-party estimate; verify live)" }
-    - { label: "Per-user cost",          a: "Not publicly listed", b: "~$1,200 – $3,000 / yr (unverified third-party estimate; verify live)" }
+    - { label: "Typical annual range",   a: "~$25K-$200K+ (unverified third-party estimate; verify live)", b: "~$24K-$300K+ (unverified third-party estimate; verify live)" }
+    - { label: "Per-user cost",          a: "Not publicly listed", b: "~$1,200-$3,000 / yr (unverified third-party estimate; verify live)" }
     - { label: "Free tier",              a: "Free Sales Intelligence tier, 50 credits/mo (verified June 2026)", b: "No free plan (verified June 2026)" }
-    - { label: "Contract minimums",      a: "Reported multi-year minimums (unverified; verify directly)", b: "DSP ad-spend minimums reported ~$5K–$10K/mo (unverified; verify directly)" }
+    - { label: "Contract minimums",      a: "Reported multi-year minimums (unverified; verify directly)", b: "DSP ad-spend minimums reported ~$5K-$10K/mo (unverified; verify directly)" }
 
 faqs:
   - q: "What is the difference between 6sense and Demandbase?"
@@ -137,8 +137,8 @@ faqs:
       account-intelligence-plus-advertising-led.
   - q: "Is 6sense better than Demandbase?"
     a: >-
-      Neither is universally better. As of June 2026, both carry similar G2
-      standing (each around 4.4 out of 5). 6sense is the stronger choice when
+      Neither is universally better. As of July 2026, both carry similar G2
+      standing (6sense around 4.3, Demandbase around 4.4 out of 5). 6sense is the stronger choice when
       predictive prioritization is the priority; Demandbase is stronger when
       integrated B2B advertising and a single account-intelligence platform
       matter more. The right answer depends on whether you value predictive
@@ -166,28 +166,28 @@ faqs:
       the platform fee.
 
 sources:
-  - { id: 1, title: "6sense — homepage and product", url: "https://6sense.com/", accessed: "June 2026" }
-  - { id: 2, title: "6sense — pricing (free Sales Intelligence tier)", url: "https://6sense.com/pricing/", accessed: "June 2026" }
-  - { id: 3, title: "G2 — 6sense Revenue Marketing reviews (4.4)", url: "https://www.g2.com/products/6sense-revenue-marketing/reviews", accessed: "June 2026" }
-  - { id: 4, title: "Demandbase — homepage", url: "https://www.demandbase.com/", accessed: "June 2026" }
-  - { id: 5, title: "Demandbase — pricing", url: "https://www.demandbase.com/pricing/", accessed: "June 2026" }
-  - { id: 6, title: "G2 — Demandbase One reviews (4.4)", url: "https://www.g2.com/products/demandbase-one/reviews", accessed: "June 2026" }
-  - { id: 7, title: "Demandbase — B2B advertising (DSP)", url: "https://www.demandbase.com/products/advertising/", accessed: "June 2026" }
+  - { id: 1, title: "6sense, homepage and product", url: "https://6sense.com/", accessed: "June 2026" }
+  - { id: 2, title: "6sense, pricing (free Sales Intelligence tier)", url: "https://6sense.com/pricing/", accessed: "June 2026" }
+  - { id: 3, title: "G2-6sense Revenue Marketing reviews (4.4)", url: "https://www.g2.com/products/6sense-revenue-marketing/reviews", accessed: "June 2026" }
+  - { id: 4, title: "Demandbase, homepage", url: "https://www.demandbase.com/", accessed: "June 2026" }
+  - { id: 5, title: "Demandbase, pricing", url: "https://www.demandbase.com/pricing/", accessed: "June 2026" }
+  - { id: 6, title: "G2, Demandbase One reviews (4.4)", url: "https://www.g2.com/products/demandbase-one/reviews", accessed: "June 2026" }
+  - { id: 7, title: "Demandbase, B2B advertising (DSP)", url: "https://www.demandbase.com/products/advertising/", accessed: "June 2026" }
 featuredImage: "/images/compare-covers/6sense-vs-demandbase.webp"
 ---
 
-## Decision matrix — who fits which side
+## Decision matrix, who fits which side
 
 | Criterion | 6sense | Demandbase |
 |---|:---:|:---:|
-| Predictive intent / buying-stage prediction | ✓ | – |
-| Anonymous visitor de-anonymization | ✓ | – |
+| Predictive intent / buying-stage prediction | ✓ | - |
+| Anonymous visitor de-anonymization | ✓ | - |
 | Native B2B advertising DSP | ✕ | ✓ |
-| Single account-intelligence pane of glass | – | ✓ |
-| Journey orchestration breadth | – | ✓ |
+| Single account-intelligence pane of glass | - | ✓ |
+| Journey orchestration breadth | - | ✓ |
 | Free entry tier to trial | ✓ | ✕ |
-| Best fit for demand-gen / outbound prioritization | ✓ | – |
-| Best fit for integrated ABM advertising | – | ✓ |
+| Best fit for demand-gen / outbound prioritization | ✓ | - |
+| Best fit for integrated ABM advertising | - | ✓ |
 
 *Check = clear edge. Dash = capable but not the stronger pick. Cross = outside the model.*
 
@@ -209,13 +209,13 @@ Both are credible enterprise ABM platforms and excel at the core job (turning ac
 
 | Metric | 6sense | Demandbase |
 |---|---|---|
-| G2 rating | 4.4 / 5 | 4.4 / 5 |
-| G2 review count | ~1,028–1,288 (count varies across sources) | ~1,900 |
-| Founded | Private company (Revenue AI platform) | Private company (Demandbase One platform) |
+| G2 rating | 4.3 / 5 | 4.4 / 5 |
+| G2 review count | ~1,355 | ~1,916 |
+| Founded | 2013 (private) | 2006 (private) |
 | Vendor | 6sense | Demandbase |
 | Notable customers | Enterprise and mid-market B2B revenue teams | Enterprise and mid-market B2B teams running integrated ABM advertising |
 
-On documented third-party proof, the two are closely matched: both carry a 4.4 G2 rating as of June 2026, so neither wins on reputation alone. Demandbase shows the larger review base (around 1,900 versus a fragmented 6sense count that varies by listing), which is a directional edge in volume of feedback. 6sense counters on focus, with the most-praised predictive-intent and de-anonymization engine in the category. Weigh which form of evidence and which capability matter more to your motion.
+On documented third-party proof, the two are closely matched: 6sense carries a 4.3 and Demandbase a 4.4 G2 rating as of July 2026, so neither wins decisively on reputation alone. Demandbase shows the larger review base (around 1,916 versus roughly 1,355 for 6sense's Revenue Marketing listing), which is a directional edge in volume of feedback. 6sense counters on focus, with the most-praised predictive-intent and de-anonymization engine in the category. Weigh which form of evidence and which capability matter more to your motion.
 
 ---
 

@@ -172,18 +172,18 @@ sources:
 featuredImage: "/images/compare-covers/surfer-seo-vs-clearscope.webp"
 ---
 
-## Decision matrix — who fits which side
+## Decision matrix, who fits which side
 
 | Criterion | Surfer SEO | Clearscope |
 |---|:---:|:---:|
 | All-in-one research, AI writing, and scoring | ✓ | ✕ |
-| Clean, repeatable grading for many writers | – | ✓ |
+| Clean, repeatable grading for many writers | - | ✓ |
 | Unlimited user seats on every plan | ✕ | ✓ |
 | Built-in AI writer | ✓ | ✕ |
 | SERP keyword research and topic clusters | ✓ | ✕ |
-| Lowest entry price | ✓ | – |
-| Documented scoring-to-ranking correlation | ✓ | – |
-| Deepest verified review pool | ✓ | – |
+| Lowest entry price | ✓ | - |
+| Documented scoring-to-ranking correlation | ✓ | - |
+| Deepest verified review pool | ✓ | - |
 
 *Check = clear edge. Dash = capable but not the stronger pick. Cross = outside the model.*
 

@@ -88,7 +88,7 @@ backgrounds:
         - { label: "Platform",        value: "Web app (no Google Docs or WordPress integration)" }
         - { label: "Pricing model",   value: "Tiered subscription; per-user, per-query limits" }
         - { label: "Starting price",  value: "~$99/mo reported (Optimize, 1 user); Free plan available" }
-        - { label: "Public rating",   value: "Reported 4.6/5 G2 (216 reviews, as of June 2026; hedge — G2 returned 403 to automated access)" }
+        - { label: "Public rating",   value: "Reported 4.6/5 G2 (216 reviews, as of June 2026; hedge, G2 returned 403 to automated access)" }
     - name: "Clearscope"
       meta: "NLP content optimization platform · web app · Google Docs and WordPress integrations · independent"
       body: >-
@@ -208,7 +208,7 @@ sources:
   - { id: 2,  title: "MarketMuse pricing page",                                       url: "https://www.marketmuse.com/pricing/",                                                                           accessed: "June 2026" }
   - { id: 3,  title: "G2 MarketMuse reviews (reported 4.6, 216 reviews)",             url: "https://www.g2.com/products/marketmuse/reviews",                                                                accessed: "June 2026" }
   - { id: 4,  title: "MarketMuse Capterra reviews",                                   url: "https://www.capterra.com/p/144457/MarketMuse/reviews/",                                                         accessed: "June 2026" }
-  - { id: 5,  title: "Siteimprove acquires MarketMuse — press release",               url: "https://www.siteimprove.com/press/marketmuse/",                                                                 accessed: "June 2026" }
+  - { id: 5,  title: "Siteimprove acquires MarketMuse, press release",               url: "https://www.siteimprove.com/press/marketmuse/",                                                                 accessed: "June 2026" }
   - { id: 6,  title: "MarketMuse pricing cross-reference (aiproductivity.ai)",        url: "https://aiproductivity.ai/pricing/marketmuse/",                                                                 accessed: "June 2026" }
   - { id: 7,  title: "Clearscope homepage",                                           url: "https://www.clearscope.io/",                                                                                    accessed: "June 2026" }
   - { id: 8,  title: "Clearscope pricing page",                                       url: "https://www.clearscope.io/pricing",                                                                             accessed: "June 2026" }
@@ -226,15 +226,15 @@ featuredImage: "/images/compare-covers/marketmuse-vs-clearscope.webp"
 | Criterion | MarketMuse | Clearscope |
 |---|:---:|:---:|
 | Site-wide topic modeling and cluster planning | ✓ | ✕ |
-| Deep strategic content briefs | ✓ | – |
-| Writer-friendly optimization with letter grades | – | ✓ |
+| Deep strategic content briefs | ✓ | - |
+| Writer-friendly optimization with letter grades | - | ✓ |
 | Google Docs and WordPress integrations | ✕ | ✓ |
 | Unlimited user seats on every plan | ✕ | ✓ |
 | AI / GEO visibility tracking | ✕ | ✓ |
 | Internal linking recommendations | ✓ | ✕ |
 | Free plan available | ✓ | ✕ |
 | Stable independent ownership | ✕ | ✓ |
-| Lower entry price | ✓ | – |
+| Lower entry price | ✓ | - |
 
 *Check = clear edge. Dash = capable but not the stronger pick. Cross = outside the model.*
 

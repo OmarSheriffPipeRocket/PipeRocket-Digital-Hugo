@@ -41,7 +41,7 @@ Weighing the two directly? See our neutral [Hotjar vs FullStory](/compare/hotjar
 | --- | --- | --- | --- | --- |
 | LogRocket | Session replay + JS error tracking | Yes, 1,000 sessions/mo (no credit card) | [$69/mo](https://logrocket.com/pricing) (Core) | [4.6/5 (2,300+ reviews, G2)](https://www.g2.com/products/logrocket/reviews) |
 | Microsoft Clarity | Unlimited free heatmaps and recordings | Yes, unlimited (completely free) | Free | [4.5/5 (55 reviews, G2)](https://www.g2.com/products/microsoft-microsoft-clarity/reviews) |
-| Mouseflow | Per-session pricing, no sampling | Yes, 500 sessions/mo (no credit card) | [$25/mo](https://mouseflow.com/pricing/) (Essential) | [4.6/5 (690+ reviews, G2)](https://www.g2.com/products/mouseflow/reviews) |
+| Mouseflow | Per-session pricing, no sampling | Yes, 500 sessions/mo (no credit card) | [$25/mo](https://mouseflow.com/pricing/) (Essential) | [4.6/5 (680+ reviews, G2)](https://www.g2.com/products/mouseflow/reviews) |
 | PostHog | Open-source, self-hostable all-in-one | Yes, 5,000 recordings/mo free | [Pay-as-you-go](https://posthog.com/pricing) ($0.005/session above free tier) | [4.5/5 (1,035+ reviews, G2)](https://www.g2.com/products/posthog/reviews) |
 | Lucky Orange | All features on every plan tier | 7-day trial (no credit card) | [$32/mo](https://www.luckyorange.com/pricing) (Build, annual) | [4.6/5 (367 reviews, G2)](https://www.g2.com/products/lucky-orange/reviews) |
 | FullStory | Enterprise DX intelligence + data warehouse | Yes, 30,000 sessions/mo (no credit card) | [Custom pricing](https://www.fullstory.com/plans/) (paid plans contact sales) | [4.5/5 (1,048 reviews, G2)](https://www.g2.com/products/fullstory/reviews) |
@@ -209,7 +209,7 @@ Best for: E-commerce and growth teams needing session replay, heatmaps, funnel a
 | Platform | Web app |
 | Free Plan | $0/mo, 500 sessions/mo, 1 website, 1 funnel, 1-month retention (no credit card) |
 | Starting Price | [$25/mo](https://mouseflow.com/pricing/) (Essential, 5,000 sessions/mo) |
-| G2 Rating | [4.6/5 (690+ reviews)](https://www.g2.com/products/mouseflow/reviews) |
+| G2 Rating | [4.6/5 (680+ reviews)](https://www.g2.com/products/mouseflow/reviews) |
 
 **Fit Profile**
 
@@ -230,7 +230,7 @@ Mouseflow's no-sampling commitment and unlimited users on every plan make it a m
 **Love:** Clear interface and usable journey analysis
 "Clear and easy-to-use interface which simplifies evaluation of customer journeys and helps increase conversion rates." per [G2 reviewer composite](https://www.g2.com/products/mouseflow/reviews).
 
-- 4.6/5 across 690+ G2 reviews: strong satisfaction across a meaningful review volume.
+- 4.6/5 across 680+ G2 reviews: strong satisfaction across a meaningful review volume.
 
 **Complain:** Free plan is very restricted and tier jumps are steep
 The 500-session free plan is too low for serious use, and pricing between Essential ($25/mo) and Advanced ($109/mo) is a large jump for teams that outgrow the lower tier quickly.
@@ -263,7 +263,7 @@ Mouseflow uses tiered per-session pricing with up to 35% discount on annual bill
 | Criteria | Detail |
 | --- | --- |
 | Free Plan | Yes, 500 sessions/mo (no credit card required) |
-| G2 Rating | [4.6/5 (690+ reviews)](https://www.g2.com/products/mouseflow/reviews) |
+| G2 Rating | [4.6/5 (680+ reviews)](https://www.g2.com/products/mouseflow/reviews) |
 
 ---
 

@@ -183,7 +183,7 @@ Retainers start at $3,000/mo for single-channel SaaS SEO or SaaS PPC, scaling to
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | SaaS SEO or SaaS PPC | $3,000/mo | Single-channel, pipeline attribution, BOFU-first targeting |
-| Full-Funnel | $4,000–$8,000/mo | SEO and paid combined, [B2B marketing operations](/marketing-ops/), weekly pipeline reporting |
+| Full-Funnel | $4,000-$8,000/mo | SEO and paid combined, [B2B marketing operations](/marketing-ops/), weekly pipeline reporting |
 | Enterprise | Custom | SEO, PPC, GEO/AEO, programmatic SEO, dedicated team |
 
 | Criteria | Detail |
@@ -207,7 +207,7 @@ Best for: Brands that need content plus integrated link building and a GEO distr
 | --- | --- |
 | Location | Austin, TX; New York, Chicago, San Diego |
 | Founded | 2012 |
-| Team Size | 50–249 people |
+| Team Size | 50-249 people |
 | Notable Clients | Zapier, HubSpot, Airbnb, Zendesk, Asana, Healthline, Instacart, Smith.ai |
 | Specialization | SEO content, digital PR, link building, DataFlywheel, GEO |
 
@@ -233,7 +233,7 @@ Some Clutch reviewers note that technical SEO implementation isn't Siege's stron
 
 **The Evidence:** Siege Media's documented results span enterprise content programs at Zapier, HubSpot, Airbnb, and Zendesk. Their DataFlywheel link-building and digital PR approach are cited directly in client case studies ([source](https://www.siegemedia.com)).
 
-**Where It Falls Short:** $8,000/mo floor plus 12-month commitment is a barrier for early-stage teams. Pipeline and revenue reporting depth is lighter than Omniscient Digital's methodology. Digital PR starts higher at $12,000–$15,000/mo.
+**Where It Falls Short:** $8,000/mo floor plus 12-month commitment is a barrier for early-stage teams. Pipeline and revenue reporting depth is lighter than Omniscient Digital's methodology. Digital PR starts higher at $12,000-$15,000/mo.
 
 - No paid media - organic and link building only
 
@@ -241,12 +241,12 @@ Some Clutch reviewers note that technical SEO implementation isn't Siege's stron
 
 **What It Costs**
 
-Minimum $8,000/mo for content marketing, as of June 2026. Digital PR programs start at $12,000–$15,000/mo. 12-month contract with a 30-day out clause.
+Minimum $8,000/mo for content marketing, as of June 2026. Digital PR programs start at $12,000-$15,000/mo. 12-month contract with a 30-day out clause.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Content Marketing | ~$8,000/mo | SEO content strategy and production, DataFlywheel link data, monthly reporting |
-| Content plus Digital PR | ~$12,000–$15,000/mo | Content production, digital PR, earned media |
+| Content plus Digital PR | ~$12,000-$15,000/mo | Content production, digital PR, earned media |
 | Full-Service | Custom | All above plus graphic design, research reports, GEO strategy |
 
 | Criteria | Detail |
@@ -272,7 +272,7 @@ Best for: SaaS teams that want bottom-funnel Pain Point SEO driving trials and d
 | --- | --- |
 | Location | San Diego, CA |
 | Founded | 2017 |
-| Team Size | 10–49 people |
+| Team Size | 10-49 people |
 | Notable Clients | Smartlook, Brandfolder by Smartsheet, Rainforest QA, Patreon, Crazy Egg, ServiceTitan, Wrike, LastPass |
 | Specialization | Conversion-focused content marketing, Pain Point SEO, AI search visibility |
 
@@ -296,7 +296,7 @@ Doesn't fit seed-stage teams below $10,000/mo or companies needing paid media al
 
 Only 10 Clutch reviews across 9 years creates a thin public evidence trail. Teams doing procurement diligence rely more on named case studies than third-party reviews here. Note: Grow and Convert's published pricing page URL returned a 404 in June 2026 - pricing figures are sourced from Clutch.
 
-**The Evidence:** Smartlook: 600+ monthly signups from advanced users via Pain Point SEO. Rainforest QA: #1–#3 rankings for 25-plus high-intent keywords. LevelAI: appearing in AI search results for 100-plus prompts ([source](https://www.growandconvert.com)).
+**The Evidence:** Smartlook: 600+ monthly signups from advanced users via Pain Point SEO. Rainforest QA: #1, #3 rankings for 25-plus high-intent keywords. LevelAI: appearing in AI search results for 100-plus prompts ([source](https://www.growandconvert.com)).
 
 **Where It Falls Short:** 10 Clutch reviews limits social proof for a 9-year-old agency. Small team caps volume at higher tiers. No paid media, no link building - content-only, like Animalz but conversion-intent-focused.
 
@@ -335,7 +335,7 @@ Best for: B2B SaaS brands that want thought leadership plus active content distr
 | --- | --- |
 | Location | Dartmouth, Nova Scotia, Canada |
 | Founded | 2014 |
-| Team Size | 10–49 people |
+| Team Size | 10-49 people |
 | Notable Clients | Webex, Mailchimp, Snowflake, Canva, Procore, Bitly, Paychex, Tidio AI |
 | Specialization | Content marketing, content distribution, thought leadership, research reports |
 
@@ -347,7 +347,7 @@ Best for: B2B SaaS brands that want thought leadership plus active content distr
 
 **Who Should Read On:**
 
-Fits growth-stage or later B2B SaaS teams with a $8,000–$20,000/mo content budget that want brand authority built through distribution, not just production.
+Fits growth-stage or later B2B SaaS teams with a $8,000-$20,000/mo content budget that want brand authority built through distribution, not just production.
 
 Doesn't fit teams needing named per-client outcome proof before committing - Foundation's case studies are anonymized by industry type.
 
@@ -363,18 +363,18 @@ Foundation's 5.0/5 is on only 14 reviews - a high score on a small base. Publish
 
 **Where It Falls Short:** 5.0/5 on 14 reviews carries limited statistical weight. Case studies are all anonymized. $25,000+ minimum project and Canadian HQ may complicate US-only procurement. No paid media.
 
-- Monthly retainer $8,000–$20,000+ excludes smaller teams
+- Monthly retainer $8,000-$20,000+ excludes smaller teams
 
 **Our Assessment:** Foundation is right for the CMO already producing good Animalz content but watching it sit unread - the distribution layer is the value add here, not the writing itself.
 
 **What It Costs**
 
-Minimum project $25,000+. Monthly retainers reported at $8,000–$20,000+, hourly $200–$300/hr per Clutch, as of June 2026.
+Minimum project $25,000+. Monthly retainers reported at $8,000-$20,000+, hourly $200-$300/hr per Clutch, as of June 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Content Retainer | ~$8,000–$12,000/mo | Strategy, long-form content, editorial calendar, repurposing |
-| Full Distribution | ~$15,000–$20,000/mo | Content, distribution, amplification, research reports |
+| Content Retainer | ~$8,000-$12,000/mo | Strategy, long-form content, editorial calendar, repurposing |
+| Full Distribution | ~$15,000-$20,000/mo | Content, distribution, amplification, research reports |
 | Enterprise | $25,000+ project | Full thought leadership, AI citation seeding, executive strategy |
 
 | Criteria | Detail |
@@ -398,7 +398,7 @@ Best for: Founder-led SaaS wanting content plus paid media and AI-search experti
 | --- | --- |
 | Location | Los Angeles, CA |
 | Founded | 2009 (rebuilt under Eric Siu, 2014) |
-| Team Size | 10–49 people |
+| Team Size | 10-49 people |
 | Notable Clients | Amazon (Alexa), Nextiva, Uber, Salesforce, Airbnb, Lever, SmartRent |
 | Specialization | SEO, paid media, content marketing, AI-search, programmatic SEO, CRO |
 
@@ -461,7 +461,7 @@ Best for: SaaS companies that want MRR-tied SEO with a dedicated six-person seni
 | --- | --- |
 | Location | London, England |
 | Founded | 2019 |
-| Team Size | 50–249 people |
+| Team Size | 50-249 people |
 | Notable Clients | Maze, Flodesk, Holded, Wealthsimple, G2, Bonsai, Slite, Pendo, Usercentrics, Attest, Piktochart, Rezi |
 | Specialization | SaaS SEO, content production, link building, technical SEO, GEO/AI brand mentions |
 
@@ -489,18 +489,18 @@ Doesn't fit US-only procurement that requires a domestic HQ, or teams needing pa
 
 **Where It Falls Short:** 16 Clutch reviews is lean relative to team size. London HQ may not suit US-only procurement. No paid media. Pricing is reported, not published.
 
-- $8,000–$20,000/mo range comes from third-party benchmarks, not Skale's own published rates
+- $8,000-$20,000/mo range comes from third-party benchmarks, not Skale's own published rates
 
 **Our Assessment:** Skale's named six-person dedicated team is the specific antidote to the Animalz critique that you're never sure who's doing the work - every role on the account is scoped from day one.
 
 **What It Costs**
 
-Pricing reported at $8,000–$20,000/mo depending on scope. Skale doesn't publish rates on their site, as of June 2026.
+Pricing reported at $8,000-$20,000/mo depending on scope. Skale doesn't publish rates on their site, as of June 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Core SaaS SEO | ~$8,000/mo (reported) | SEO strategy, content production, MRR reporting, dedicated team |
-| Full-Service | ~$12,000–$15,000/mo (reported) | Content, link building, technical SEO, GEO/AI mentions |
+| Full-Service | ~$12,000-$15,000/mo (reported) | Content, link building, technical SEO, GEO/AI mentions |
 | Enterprise | ~$20,000/mo (reported) | Full stack: SEO, content, outreach, technical, 6-person dedicated team |
 
 | Criteria | Detail |
@@ -558,12 +558,12 @@ NoGood carries only 1 Clutch review. A 5.0/5 on one review has no statistical we
 
 **What It Costs**
 
-Average retainer above $20,000/mo per NoGood's own site. Third-party benchmarks report $15,000–$50,000/mo depending on channels. 6-month minimum typical, as of June 2026.
+Average retainer above $20,000/mo per NoGood's own site. Third-party benchmarks report $15,000-$50,000/mo depending on channels. 6-month minimum typical, as of June 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Growth | ~$15,000–$20,000/mo (reported) | 2–3 channels, Squad team, monthly attribution reporting |
-| Full-Funnel | ~$25,000–$35,000/mo (reported) | SEO, paid search, paid social, CRO, AEO, analytics |
+| Growth | ~$15,000-$20,000/mo (reported) | 2-3 channels, Squad team, monthly attribution reporting |
+| Full-Funnel | ~$25,000-$35,000/mo (reported) | SEO, paid search, paid social, CRO, AEO, analytics |
 | Enterprise | Custom | Full Squad, fractional CMO, multi-channel growth, executive reporting |
 
 | Criteria | Detail |
@@ -589,7 +589,7 @@ Best for: SaaS companies that want SEO plus PPC under one retainer at a lower fl
 | --- | --- |
 | Location | Sarasota, FL |
 | Founded | 2006 |
-| Team Size | 10–49 people |
+| Team Size | 10-49 people |
 | Notable Clients | Gainsight, Segment, Invoca, Gelato, Jotform, Bitly, Unsplash, Chargify/Maxio, CleverTap, Firecrawl |
 | Specialization | SaaS SEO, AEO, paid search, paid social, content, link building, digital PR, RevOps |
 
@@ -623,7 +623,7 @@ Pricing isn't transparent in dollar terms - the "5% of revenue" model is unusual
 
 **What It Costs**
 
-Pricing is "5% of revenue or funding at the respective growth stage" per their pricing page. Clutch reports minimum $1,000+ and most common projects $10,000–$49,999. No fixed dollar rates published, as of June 2026.
+Pricing is "5% of revenue or funding at the respective growth stage" per their pricing page. Clutch reports minimum $1,000+ and most common projects $10,000-$49,999. No fixed dollar rates published, as of June 2026.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |

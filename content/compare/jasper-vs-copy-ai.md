@@ -88,7 +88,7 @@ backgrounds:
         - { label: "Platform",        value: "SaaS, web-based plus browser extension" }
         - { label: "Pricing model",   value: "Per-seat tiered; Business plan custom, 12-month minimum" }
         - { label: "Starting price",  value: "$69/seat/mo (Pro, billed monthly); $59/seat/mo billed annually" }
-        - { label: "Public rating",   value: "4.7/5 G2 (1,270 reviews, cross-verified — verify live)" }
+        - { label: "Public rating",   value: "4.7/5 G2 (1,270 reviews, cross-verified; verify live)" }
       credentials:
         awards: ["Inc. 5000 Americas Fastest Growing Private Companies", "Forrester TEI study: 342% ROI (Sept 2025, vendor-commissioned)"]
         certifications: ["Google Cloud Partner"]
@@ -104,8 +104,8 @@ backgrounds:
         10 million total users. Named enterprise logos include Siemens, Gong,
         ServiceNow, Lenovo, and Juniper Networks, though individual published case
         study metrics for these accounts were not surfaced in research. HQ is
-        most recently cited as Memphis, Tennessee; verify current address at
-        https://craft.co/copy-ai before publish.
+        most recently reported as Memphis, Tennessee, with a distributed team
+        anchored in the San Francisco Bay Area (as of July 2026).
       facts:
         - { label: "Vendor",          value: "Copy.ai, Inc. (copy.ai)" }
         - { label: "Founded",         value: "2020" }
@@ -113,7 +113,7 @@ backgrounds:
         - { label: "Platform",        value: "SaaS, web-based; model-agnostic" }
         - { label: "Pricing model",   value: "Chat plan monthly; Growth/Expansion/Scale annual only" }
         - { label: "Starting price",  value: "$29/mo for 5 seats (Chat, billed monthly)" }
-        - { label: "Public rating",   value: "4.6 to 4.7/5 G2 (~177 to 183 reviews, cross-verified — verify live)" }
+        - { label: "Public rating",   value: "4.6 to 4.7/5 G2 (~177 to 183 reviews, cross-verified; verify live)" }
       credentials:
         certifications: ["SOC 2 certified", "GDPR compliant"]
 
@@ -125,7 +125,7 @@ services:
     governance and image generation; Copy.ai is broader on sales automation,
     LLM choice, and integration breadth. Several rows cut against each tool.
   table:
-    - { label: "Brand voice / brand governance",             a: "✓ (Jasper IQ — brand, style, audience profiles)", b: "✓ (Brand Voice module)" }
+    - { label: "Brand voice / brand governance",             a: "✓ (Jasper IQ: brand, style, audience profiles)", b: "✓ (Brand Voice module)" }
     - { label: "AI agents / automation workflows",           a: "✓ (100+ marketing agents, Content Pipelines)",    b: "✓ (Workflows, Actions, Agents for GTM)" }
     - { label: "Long-form content creation",                 a: "✓ (Canvas workspace)",                           b: "✓ (available; secondary to GTM positioning)" }
     - { label: "Short-form copy (ads, social, email)",       a: "✓",                                              b: "✓" }
@@ -136,7 +136,7 @@ services:
     - { label: "Integration breadth",                        a: "1,000+ integrations, APIs, MCP",                 b: "2,000+ integrations incl. Salesforce, HubSpot, Gong" }
     - { label: "Seats per entry plan",                       a: "1 seat (Pro, per-seat pricing)",                 b: "5 seats ($29/mo Chat tier)" }
     - { label: "Enterprise governance (RBAC, SSO, policies)", a: "✓ (Business plan)",                            b: "✓ (Enterprise plan; SOC 2, GDPR, SSO)" }
-    - { label: "Free plan",                                  a: "✕ (7-day trial only; no permanent free plan)",   b: "✕ (not confirmed on current pricing page — verify live)" }
+    - { label: "Free plan",                                  a: "✕ (7-day trial only; no permanent free plan)",   b: "✕ (not confirmed on current pricing page; verify live)" }
 
 pricing:
   heading: "Pricing: what you'll actually pay"
@@ -150,8 +150,8 @@ pricing:
     - { label: "Starting price",             a: "$69/seat/mo (Pro, billed monthly); $59/seat/mo annually", b: "$29/mo for 5 seats (Chat, billed monthly); $24/mo billed annually" }
     - { label: "Typical operating range",    a: "$69/seat/mo (Pro) to custom (Business)",                  b: "$29/mo (Chat) to $3,000/mo (Scale); Enterprise custom" }
     - { label: "Full self-serve tier",       a: "Pro, $69/seat/mo (Business plan is custom, contact sales)", b: "Scale, $3,000/mo (annual; 200 seats, 75K workflow credits)" }
-    - { label: "Notable pricing gap",        a: "None; scales per seat",                                   b: "Chat ($29/mo) to Growth ($1,000/mo) — no mid-tier published" }
-    - { label: "Free plan / trial",          a: "7-day trial; no permanent free plan (card requirement varies — verify live)", b: "No free plan confirmed on current pricing page (verify live)" }
+    - { label: "Notable pricing gap",        a: "None; scales per seat",                                   b: "Chat ($29/mo) to Growth ($1,000/mo); no mid-tier published" }
+    - { label: "Free plan / trial",          a: "7-day trial; no permanent free plan (card requirement varies; verify live)", b: "No free plan confirmed on current pricing page (verify live)" }
     - { label: "Pricing model",              a: "Per-seat; Business plan 12-month minimum",                b: "Chat monthly; Growth/Expansion/Scale annual only" }
     - { label: "Setup fee",                  a: "Not listed (verify live)",                                b: "Not listed (verify live)" }
 
@@ -208,11 +208,11 @@ sources:
   - { id: 4,  title: "Jasper Series A announcement (founding and HQ)",          url: "https://www.jasper.ai/blog/jasper-announces-125m-series-a-funding",                                 accessed: "June 2026" }
   - { id: 5,  title: "Jasper Inc. 5000 award",                                  url: "https://www.jasper.ai/blog/jasper-the-ai-content-platform-awarded-inc-5000-americas-fastest-growing-private-companies", accessed: "June 2026" }
   - { id: 6,  title: "Jasper Google Cloud Partner directory",                   url: "https://cloud.google.com/find-a-partner/partner/jasper",                                             accessed: "June 2026" }
-  - { id: 7,  title: "Jasper G2 reviews (4.7/5, 1,270 reviews — cross-verified via eyesift.com; verify live)", url: "https://www.g2.com/products/jasper-ai/reviews",                      accessed: "June 2026" }
+  - { id: 7,  title: "Jasper G2 reviews (4.7/5, 1,270 reviews, cross-verified via eyesift.com; verify live)", url: "https://www.g2.com/products/jasper-ai/reviews",                      accessed: "June 2026" }
   - { id: 8,  title: "Copy.ai homepage",                                        url: "https://www.copy.ai",                                                                                accessed: "June 2026" }
   - { id: 9,  title: "Copy.ai pricing",                                         url: "https://www.copy.ai/pricing",                                                                        accessed: "June 2026" }
   - { id: 10, title: "Copy.ai features",                                        url: "https://www.copy.ai/features",                                                                       accessed: "June 2026" }
-  - { id: 11, title: "Copy.ai G2 reviews (4.6 to 4.7/5, ~177 to 183 reviews — cross-verified via b2bsaasreviews.com; verify live)", url: "https://www.g2.com/products/copy-ai/reviews",  accessed: "June 2026" }
+  - { id: 11, title: "Copy.ai G2 reviews (4.6 to 4.7/5, ~177 to 183 reviews, cross-verified via b2bsaasreviews.com; verify live)", url: "https://www.g2.com/products/copy-ai/reviews",  accessed: "June 2026" }
   - { id: 12, title: "Copy.ai 10 million users (Growth Unhinged)",              url: "https://www.growthunhinged.com/p/from-0-to-10-million-copy-ai",                                     accessed: "June 2026" }
   - { id: 13, title: "Jasper statistics and Fortune 500 claims (sqmagazine.co.uk)", url: "https://sqmagazine.co.uk/jasper-ai-statistics/",                                                accessed: "June 2026" }
   - { id: 14, title: "Jasper YC company profile",                               url: "https://www.ycombinator.com/companies/jasper-ai",                                                   accessed: "June 2026" }
@@ -223,16 +223,16 @@ featuredImage: "/images/compare-covers/jasper-vs-copy-ai.webp"
 
 | Criterion | Jasper | Copy.ai |
 |---|:---:|:---:|
-| Marketing-only team needing brand governance | ✓ | – |
-| Cross-functional sales and marketing team | – | ✓ |
+| Marketing-only team needing brand governance | ✓ | - |
+| Cross-functional sales and marketing team | - | ✓ |
 | Image generation built in | ✓ | ✕ |
 | User-selectable LLM (OpenAI, Anthropic, Gemini) | ✕ | ✓ |
-| SEO and GEO optimization agents | ✓ | – |
+| SEO and GEO optimization agents | ✓ | - |
 | Native sales automation (prospecting, CRM, deals) | ✕ | ✓ |
-| Lowest entry price per seat | – | ✓ |
-| Largest verified G2 review pool | ✓ | – |
+| Lowest entry price per seat | - | ✓ |
+| Largest verified G2 review pool | ✓ | - |
 | Multi-seat entry plan (5 seats at entry) | ✕ | ✓ |
-| Broadest integration library (2,000+) | – | ✓ |
+| Broadest integration library (2,000+) | - | ✓ |
 
 *Check = clear edge. Dash = capable but not the stronger pick. Cross = outside the model.*
 
