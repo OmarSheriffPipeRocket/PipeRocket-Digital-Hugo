@@ -243,49 +243,75 @@
       var wb = new ExcelJS.Workbook();
       wb.creator = 'PipeRocket Digital';
       var ws = wb.addWorksheet('Checklist', { views: [{ showGridLines: false }] });
-      ws.columns = [{ width: 82 }, { width: 8 }];
+      ws.columns = [{ width: 72 }, { width: 10 }];
 
+      // Deterministic row cursor so nothing overlaps and every band lines up.
+      var R = 0;
+      function estH(text, cpl, lineH, min) {
+        var lines = Math.max(1, Math.ceil((text || '').length / cpl));
+        return Math.max(min || 15, lines * lineH + 4);
+      }
+      // Full-width band: merge A:B, wrap, so long text stays inside the table edge.
+      function band(text, font, height, fill) {
+        R += 1;
+        var row = ws.getRow(R);
+        row.getCell(1).value = text;
+        ws.mergeCells(R, 1, R, 2);
+        row.getCell(1).font = font;
+        row.getCell(1).alignment = { wrapText: true, vertical: 'middle' };
+        if (fill) { row.getCell(1).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: fill } }; }
+        if (height) { row.height = height; }
+        return row;
+      }
+
+      // Row 1: logo only (reserved so it never overlaps the text below).
       if (logo) {
         var b64 = logo.indexOf(',') >= 0 ? logo.split(',')[1] : logo;
         var imgId = wb.addImage({ base64: b64, extension: 'png' });
         ws.addImage(imgId, { tl: { col: 0, row: 0 }, ext: { width: 150, height: 24 } });
-        ws.getRow(1).height = 22;
       }
+      R += 1; ws.getRow(R).height = 22;
 
-      var rBrand = ws.addRow(['PipeRocket Digital']);
-      rBrand.getCell(1).font = { bold: true, size: 14, color: { argb: 'FF0D0D0D' } };
-      ws.addRow(['piperocket.digital']).getCell(1).font = { size: 10, color: { argb: 'FF6B6B6B' } };
-      ws.addRow([title]).getCell(1).font = { bold: true, size: 13 };
-      if (sub) { ws.addRow([sub]).getCell(1).font = { size: 10, italic: true, color: { argb: 'FF6B6B6B' } }; }
-      ws.addRow([]);
+      band('piperocket.digital', { size: 10, color: { argb: 'FF6B6B6B' } }, 16);
+      band(title, { bold: true, size: 14, color: { argb: 'FF0D0D0D' } }, estH(title, 55, 18, 22));
+      if (sub) { band(sub, { size: 10, italic: true, color: { argb: 'FF6B6B6B' } }, estH(sub, 92, 14, 16)); }
+      R += 1; ws.getRow(R).height = 6; // spacer
 
-      var rHdr = ws.addRow(['Task', 'Done']);
+      // Header row (Task | Done)
+      R += 1;
+      var rHdr = ws.getRow(R); rHdr.height = 18;
+      rHdr.getCell(1).value = 'Task';
+      rHdr.getCell(2).value = 'Done';
       rHdr.eachCell(function (c) {
         c.font = { bold: true, color: { argb: 'FFFFFFFF' } };
         c.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF0D0D0D' } };
+        c.alignment = { vertical: 'middle' };
       });
+      rHdr.getCell(2).alignment = { horizontal: 'center', vertical: 'middle' };
 
       Array.prototype.forEach.call(root.querySelectorAll('.pr-checklist__group'), function (g) {
         var gt = (g.querySelector('.pr-checklist__group-title') || {}).textContent || '';
-        var rg = ws.addRow([gt, '']);
-        rg.eachCell(function (c) {
-          c.font = { bold: true };
-          c.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF6F6F1' } };
-        });
+        // Group title as a full-width band so the fill spans cleanly.
+        band(gt, { bold: true, size: 11, color: { argb: 'FF0D0D0D' } }, 18, 'FFF1EFE7');
         Array.prototype.forEach.call(g.querySelectorAll('.pr-checklist__item'), function (it) {
           var input = it.querySelector('input');
           var lbl = (it.querySelector('label') || {}).textContent || '';
-          var ri = ws.addRow([lbl, input && input.checked ? '✓' : '']);
+          var checked = !!(input && input.checked);
+          R += 1;
+          var ri = ws.getRow(R);
+          ri.getCell(1).value = lbl;
+          ri.getCell(2).value = checked ? '✓' : '';
           ri.getCell(1).alignment = { wrapText: true, vertical: 'top' };
           ri.getCell(2).alignment = { horizontal: 'center', vertical: 'top' };
-          if (input && input.checked) { ri.getCell(2).font = { bold: true, color: { argb: 'FF217346' } }; }
+          if (checked) { ri.getCell(2).font = { bold: true, color: { argb: 'FF217346' } }; }
         });
       });
 
       if (cta) {
-        ws.addRow([]);
-        ws.addRow(['Work with PipeRocket — ' + cta + ' piperocket.digital/contact-us'])
-          .getCell(1).font = { size: 10, color: { argb: 'FF333333' } };
+        R += 1; ws.getRow(R).height = 6; // spacer
+        band(cta + '  piperocket.digital/contact-us',
+             { size: 10, color: { argb: 'FF333333' } },
+             estH(cta, 90, 14, 20), 'FFF1EFE7');
       }
 
       return wb.xlsx.writeBuffer();
