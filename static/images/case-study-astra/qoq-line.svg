@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1160 600" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Segoe UI, system-ui, sans-serif">
+<rect width="1160" height="600" fill="#F1EFE7"/>
+<text x="74" y="46" font-size="30" font-weight="700" fill="#0D0D0D">SQLs &amp; MQLs: quarter-on-quarter % change</text>
+<text x="74" y="76" font-size="17" fill="#6B6B6B">Each point = that quarter&#8217;s change vs the prior quarter &#8226; Google + Bing</text>
+<line x1="74" y1="504.0" x2="1032" y2="504.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="509.0" font-size="14" fill="#6B6B6B" text-anchor="end">-30%</text>
+<line x1="74" y1="455.0" x2="1032" y2="455.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="460.0" font-size="14" fill="#6B6B6B" text-anchor="end">-20%</text>
+<line x1="74" y1="406.0" x2="1032" y2="406.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="411.0" font-size="14" fill="#6B6B6B" text-anchor="end">-10%</text>
+<line x1="74" y1="357.0" x2="1032" y2="357.0" stroke="#9a9a90" stroke-width="2"/>
+<text x="62" y="362.0" font-size="14" fill="#6B6B6B" text-anchor="end">+0%</text>
+<line x1="74" y1="308.0" x2="1032" y2="308.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="313.0" font-size="14" fill="#6B6B6B" text-anchor="end">+10%</text>
+<line x1="74" y1="259.0" x2="1032" y2="259.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="264.0" font-size="14" fill="#6B6B6B" text-anchor="end">+20%</text>
+<line x1="74" y1="210.0" x2="1032" y2="210.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="215.0" font-size="14" fill="#6B6B6B" text-anchor="end">+30%</text>
+<line x1="74" y1="161.0" x2="1032" y2="161.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="166.0" font-size="14" fill="#6B6B6B" text-anchor="end">+40%</text>
+<line x1="74" y1="112.0" x2="1032" y2="112.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="117.0" font-size="14" fill="#6B6B6B" text-anchor="end">+50%</text>
+<text x="74.0" y="538.0" font-size="18" font-weight="700" fill="#0D0D0D" text-anchor="middle">Q3 '25</text>
+<text x="393.3" y="538.0" font-size="18" font-weight="700" fill="#0D0D0D" text-anchor="middle">Q4 '25</text>
+<text x="393.3" y="560.0" font-size="13.5" fill="#6B6B6B" text-anchor="middle">Nov scale-up</text>
+<text x="712.7" y="538.0" font-size="18" font-weight="700" fill="#0D0D0D" text-anchor="middle">Q1 '26</text>
+<text x="712.7" y="560.0" font-size="13.5" fill="#6B6B6B" text-anchor="middle">Dec–Feb dip</text>
+<text x="1032.0" y="538.0" font-size="18" font-weight="700" fill="#0D0D0D" text-anchor="middle">Q2 '26</text>
+<text x="1032.0" y="560.0" font-size="13.5" fill="#6B6B6B" text-anchor="middle">breakout</text>
+<path d="M 74.0 273.7 L 393.3 146.3 L 712.7 445.2 L 1032.0 219.8" fill="none" stroke="#E62415" stroke-width="5" stroke-linejoin="round"/>
+<path d="M 74.0 259.0 L 393.3 190.4 L 712.7 469.7 L 1032.0 151.2" fill="none" stroke="#0BA6E2" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="74.0" cy="273.7" r="8" fill="#E62415" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="393.3" cy="146.3" r="8" fill="#E62415" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="712.7" cy="445.2" r="8" fill="#E62415" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="1032.0" cy="219.8" r="8" fill="#E62415" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="74.0" cy="259.0" r="8" fill="#0BA6E2" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="393.3" cy="190.4" r="8" fill="#0BA6E2" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="712.7" cy="469.7" r="8" fill="#0BA6E2" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="1032.0" cy="151.2" r="8" fill="#0BA6E2" stroke="#F1EFE7" stroke-width="2.5"/>
+<text x="74.0" y="241.0" font-size="16" font-weight="700" fill="#0BA6E2" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+20%</text>
+<text x="74.0" y="305.7" font-size="16" font-weight="700" fill="#E62415" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+17%</text>
+<text x="393.3" y="222.4" font-size="16" font-weight="700" fill="#0BA6E2" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+34%</text>
+<text x="393.3" y="128.3" font-size="16" font-weight="700" fill="#E62415" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+43%</text>
+<text x="712.7" y="501.7" font-size="16" font-weight="700" fill="#0BA6E2" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">-23%</text>
+<text x="712.7" y="427.2" font-size="16" font-weight="700" fill="#E62415" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">-18%</text>
+<text x="1032.0" y="133.2" font-size="16" font-weight="700" fill="#0BA6E2" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+42%</text>
+<text x="1032.0" y="251.8" font-size="16" font-weight="700" fill="#E62415" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+28%</text>
+<text x="1048.0" y="157.2" font-size="17" font-weight="700" fill="#0BA6E2" text-anchor="start" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">SQL</text>
+<text x="1048.0" y="225.8" font-size="17" font-weight="700" fill="#E62415" text-anchor="start" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">MQL</text>
+<text x="74" y="584" font-size="14" fill="#6B6B6B">The Q4 scale-up, the Q1 dip, and the Q2 breakout. Net Q3 &#8217;25 &#8594; Q2 &#8217;26: SQLs +48%, MQLs +51%.</text>
+</svg>

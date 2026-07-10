@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1160 600" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Segoe UI, system-ui, sans-serif">
+<rect width="1160" height="600" fill="#F1EFE7"/>
+<text x="74" y="46" font-size="30" font-weight="700" fill="#0D0D0D">SQLs &amp; MQLs: month-on-month % change</text>
+<text x="74" y="76" font-size="17" fill="#6B6B6B">Each point = that month&#8217;s change vs the prior month &#8226; Google + Bing</text>
+<line x1="74" y1="504.0" x2="1032" y2="504.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="509.0" font-size="14" fill="#6B6B6B" text-anchor="end">-20%</text>
+<line x1="74" y1="438.7" x2="1032" y2="438.7" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="443.7" font-size="14" fill="#6B6B6B" text-anchor="end">-10%</text>
+<line x1="74" y1="373.3" x2="1032" y2="373.3" stroke="#9a9a90" stroke-width="2"/>
+<text x="62" y="378.3" font-size="14" fill="#6B6B6B" text-anchor="end">+0%</text>
+<line x1="74" y1="308.0" x2="1032" y2="308.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="313.0" font-size="14" fill="#6B6B6B" text-anchor="end">+10%</text>
+<line x1="74" y1="242.7" x2="1032" y2="242.7" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="247.7" font-size="14" fill="#6B6B6B" text-anchor="end">+20%</text>
+<line x1="74" y1="177.3" x2="1032" y2="177.3" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="182.3" font-size="14" fill="#6B6B6B" text-anchor="end">+30%</text>
+<line x1="74" y1="112.0" x2="1032" y2="112.0" stroke="#D9D5C9" stroke-width="1"/>
+<text x="62" y="117.0" font-size="14" fill="#6B6B6B" text-anchor="end">+40%</text>
+<text x="74.0" y="538.0" font-size="18" font-weight="700" fill="#0D0D0D" text-anchor="middle">Mar</text>
+<text x="393.3" y="538.0" font-size="18" font-weight="700" fill="#0D0D0D" text-anchor="middle">Apr</text>
+<text x="712.7" y="538.0" font-size="18" font-weight="700" fill="#0D0D0D" text-anchor="middle">May</text>
+<text x="1032.0" y="538.0" font-size="18" font-weight="700" fill="#0D0D0D" text-anchor="middle">Jun</text>
+<path d="M 74.0 196.9 L 393.3 347.2 L 712.7 301.5 L 1032.0 223.1" fill="none" stroke="#E62415" stroke-width="5" stroke-linejoin="round"/>
+<path d="M 74.0 464.8 L 393.3 281.9 L 712.7 131.6 L 1032.0 216.5" fill="none" stroke="#0BA6E2" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="74.0" cy="196.9" r="8" fill="#E62415" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="393.3" cy="347.2" r="8" fill="#E62415" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="712.7" cy="301.5" r="8" fill="#E62415" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="1032.0" cy="223.1" r="8" fill="#E62415" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="74.0" cy="464.8" r="8" fill="#0BA6E2" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="393.3" cy="281.9" r="8" fill="#0BA6E2" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="712.7" cy="131.6" r="8" fill="#0BA6E2" stroke="#F1EFE7" stroke-width="2.5"/>
+<circle cx="1032.0" cy="216.5" r="8" fill="#0BA6E2" stroke="#F1EFE7" stroke-width="2.5"/>
+<text x="74.0" y="496.8" font-size="16" font-weight="700" fill="#0BA6E2" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">-14%</text>
+<text x="74.0" y="178.9" font-size="16" font-weight="700" fill="#E62415" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+27%</text>
+<text x="393.3" y="263.9" font-size="16" font-weight="700" fill="#0BA6E2" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+14%</text>
+<text x="393.3" y="379.2" font-size="16" font-weight="700" fill="#E62415" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+4%</text>
+<text x="712.7" y="113.6" font-size="16" font-weight="700" fill="#0BA6E2" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+37%</text>
+<text x="712.7" y="333.5" font-size="16" font-weight="700" fill="#E62415" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+11%</text>
+<text x="1032.0" y="198.5" font-size="16" font-weight="700" fill="#0BA6E2" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+24%</text>
+<text x="1032.0" y="255.1" font-size="16" font-weight="700" fill="#E62415" text-anchor="middle" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">+23%</text>
+<text x="1048.0" y="211.8" font-size="17" font-weight="700" fill="#0BA6E2" text-anchor="start" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">SQL</text>
+<text x="1048.0" y="239.8" font-size="17" font-weight="700" fill="#E62415" text-anchor="start" stroke="#F1EFE7" stroke-width="4" paint-order="stroke" stroke-linejoin="round">MQL</text>
+<text x="74" y="584" font-size="14" fill="#6B6B6B">SQLs turned positive in April and climbed into June — the peak month, and +94% above March.</text>
+</svg>
