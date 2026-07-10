@@ -44,7 +44,7 @@ Add internal links to and from relevant pages with descriptive anchor text, link
 
 ## Go deeper
 
-This is one of the focused lists in our [marketing checklists hub](/checklists/). Start with the broader [complete SEO checklist](/checklists/seo-checklist/), and pair this with the [technical SEO checklist](/checklists/technical-seo-checklist/) and [off-page SEO checklist](/checklists/off-page-seo-checklist/).
+This is one of the focused lists in our [marketing checklists hub](/checklists/). Start with the broader [complete SEO checklist](/checklists/seo-checklist/), and pair this with the [internal linking checklist](/checklists/internal-linking-checklist/), the [technical SEO checklist](/checklists/technical-seo-checklist/) and [off-page SEO checklist](/checklists/off-page-seo-checklist/).
 
 ## How we use this at PipeRocket Digital
 

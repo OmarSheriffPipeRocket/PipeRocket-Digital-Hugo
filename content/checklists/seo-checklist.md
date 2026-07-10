@@ -68,6 +68,7 @@ This pillar is the map. When you are ready to work a single area in depth, use t
 
 - [Technical SEO checklist](/checklists/technical-seo-checklist/) for crawlability, rendering, and Core Web Vitals in depth.
 - [On-page SEO checklist](/checklists/on-page-seo-checklist/) for optimising individual pages.
+- [Internal linking checklist](/checklists/internal-linking-checklist/) to spread authority and structure topic clusters.
 - [Off-page SEO checklist](/checklists/off-page-seo-checklist/) for earning links and brand mentions.
 - [SEO audit checklist](/checklists/seo-audit-checklist/) to review the whole site in one pass.
 - [SEO site migration checklist](/checklists/seo-site-migration-checklist/) for launches, redesigns, and replatforms.

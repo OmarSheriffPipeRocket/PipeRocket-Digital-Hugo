@@ -1,0 +1,42 @@
+title: "The Internal Linking Checklist for 2026"
+subtitle: "Everything to build an internal linking structure that spreads authority and helps Google understand your site: strategy, architecture, on-page links, anchor text, technical hygiene, and measurement. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Strategy & foundations"
+    items:
+      - "Define your money pages and pillar pages (the pages links should point to)"
+      - "Map your topic clusters so related pages link to each other and up to the pillar"
+      - "Audit existing internal links and find pages with too few (or zero) inbound links"
+      - "Decide a links-per-page guideline you can apply consistently"
+  - title: "2. Site architecture"
+    items:
+      - "Keep important pages within three clicks of the homepage"
+      - "Use a logical, shallow folder and navigation structure"
+      - "Link pillar pages to their cluster pages and back again"
+      - "Add breadcrumb navigation with BreadcrumbList schema"
+      - "Fix orphan pages (pages with no internal links pointing to them)"
+  - title: "3. On-page internal links"
+    items:
+      - "Add contextual links within body copy, not just in the nav and footer"
+      - "Link from high-authority pages to the pages you want to rank"
+      - "Point new content to relevant older content, and update older content to link to the new page"
+      - "Link to related pages a reader would genuinely want next"
+      - "Avoid over-linking: keep contextual links relevant and useful"
+  - title: "4. Anchor text"
+    items:
+      - "Use descriptive, keyword-aware anchor text that reflects the destination"
+      - "Avoid generic anchors like 'click here' or 'read more'"
+      - "Vary anchor text naturally instead of repeating the exact same phrase"
+      - "Make sure the anchor matches the target page's topic and intent"
+  - title: "5. Technical hygiene"
+    items:
+      - "Fix broken internal links (404s) and update redirected links to the final URL"
+      - "Avoid long redirect chains between internal pages"
+      - "Ensure links are crawlable <a href> anchors, not JavaScript-only clicks"
+      - "Reserve nofollow for links you truly do not want crawled (rarely needed internally)"
+      - "Confirm important internal links are in the server-rendered HTML"
+  - title: "6. Measure & maintain"
+    items:
+      - "Check Search Console's Internal Links report for your top-linked pages"
+      - "Make sure your most important pages have the most internal links"
+      - "Re-run an internal link audit on a schedule as the site grows"
+      - "Track whether pages you boosted with links improve in rankings"
