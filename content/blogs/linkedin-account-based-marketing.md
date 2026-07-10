@@ -189,6 +189,8 @@ We’ve done this for PLG companies, SLG companies, across industries and all ki
 
 If your LinkedIn campaigns feel completely disconnected from your actual pipeline, [let’s talk about fixing that.](/contact-us/)
 
+For a step-by-step version you can tick off, use our free [ABM checklist](/checklists/abm-checklist/).
+
 ## **Conclusion**
 
 At the end of the day, ABM on LinkedIn isn’t complicated. You pick the right type for your growth model, you build your account list from a real ICP, and you make sure your sales team is ready to act before the campaign goes live.

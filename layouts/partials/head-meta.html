@@ -76,7 +76,7 @@
 {{/* ============== Open Graph ============== */}}
 <meta property="og:site_name" content="PipeRocket Digital">
 <meta property="og:locale" content="en_US">
-<meta property="og:type" content="{{ cond $isArticle "article" "website" }}">
+<meta property="og:type" content="{{ cond $isAuthorPage "profile" (cond $isArticle "article" "website") }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
@@ -89,7 +89,7 @@
 <meta name="twitter:image" content="{{ $img }}">
 
 {{/* ============== Article-specific meta tags ============== */}}
-{{ if $isArticle }}
+{{ if and $isArticle (not $isAuthorPage) }}
   {{ if not .Date.IsZero }}
     <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
     <meta property="article:modified_time" content="{{ (default .Date .Lastmod).Format "2006-01-02T15:04:05Z07:00" }}">
@@ -226,6 +226,27 @@
   "inLanguage": "en-US"
 }
 </script>
+{{/* ============== JSON-LD: WebPage (home) — ties WebSite ↔ Organization ==============
+     Not a rich-result type; it completes the entity graph so parsers can anchor
+     "this URL is the org's home page" (isPartOf → WebSite, about → Organization). */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{ .Site.BaseURL }}#webpage",
+  "url": "{{ .Site.BaseURL }}",
+  "name": "{{ .Title }}",
+  "description": "{{ $desc | replaceRE "\"" "\\\"" }}",
+  "isPartOf": { "@id": "{{ .Site.BaseURL }}#website" },
+  "about": { "@id": "{{ .Site.BaseURL }}#organization" },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "{{ $img }}"
+  },
+  {{ with .Params.sitemap_lastmod }}"dateModified": "{{ . }}",
+  {{ end }}"inLanguage": "en-US"
+}
+</script>
 {{/* ============== JSON-LD: FAQPage (home page, from _index.md frontmatter) ==============
      Mirrors the visible FAQ accordion in layouts/index.html — both read the same
      .Params.faqs array, so the machine-readable Q&A can never drift from the page.
@@ -311,6 +332,7 @@
 {{ $descJ := replaceRE "\"" "\\\"" (printf "%s" $desc) }}
 {{ $keywordsJ := replaceRE "\"" "\\\"" (delimit $keywords ", ") }}
 
+{{ if not $isAuthorPage }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -358,6 +380,37 @@
   }
 }
 </script>
+{{ end }}
+
+{{/* ============== JSON-LD: ProfilePage + Person (author profile pages) ==============
+     Author pages describe a person, not an article. Emit Google's recommended
+     ProfilePage type with the credentialed Person as mainEntity. The Person @id
+     ({permalink}#person) matches the author @id embedded in every Article this
+     person wrote, so the whole author↔article graph resolves to one entity. */}}
+{{ if $isAuthorPage }}
+{{ $personID := printf "%s#person" .Permalink }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "{{ .Permalink }}#profilepage",
+  "url": "{{ .Permalink }}",
+  {{ if not .Date.IsZero }}"dateModified": "{{ (default .Date .Lastmod).Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "{{ $personID }}",
+    "name": "{{ default .Title $author.name }}",
+    "url": "{{ .Permalink }}"
+    {{- with $author.role }},"jobTitle": "{{ . }}"{{ end -}}
+    {{- with $author.bio }},"description": "{{ . | replaceRE "\"" "\\\"" }}"{{ end -}}
+    {{- with $author.photo }},"image": "{{ absURL . }}"{{ end -}}
+    ,"worksFor": { "@id": "{{ .Site.BaseURL }}#organization" }
+    {{- with $author.linkedin }},"sameAs": ["{{ . }}"]{{ end -}}
+    {{- with $author.expertise }},"knowsAbout": [{{ range $idx, $exp := . }}{{ if $idx }},{{ end }}"{{ $exp }}"{{ end }}]{{ end }}
+  }
+}
+</script>
+{{ end }}
 
 {{/* ============== JSON-LD: FAQPage (auto-detected from markdown) ==============
      Parses ## FAQs or ## Frequently Asked Questions section,
@@ -368,7 +421,7 @@
 {{/* Find the FAQ section heading and slice everything after the line break that follows it.
      Heading may be "## FAQs", "## Frequently Asked Questions", or any variant like
      "## Frequently Asked Questions About SaaS Marketing Agencies" (suffix tolerated). */}}
-{{ $faqMatch := findRE "(?im)^##[ \\t]+(?:FAQs?|Frequently Asked Questions)[^\\n]*\\n" $raw 1 }}
+{{ $faqMatch := findRE "(?im)^##[ \\t]+\\*{0,2}(?:FAQs?|Frequently Asked Questions)[^\\n]*\\n" $raw 1 }}
 {{ if $faqMatch }}
   {{ $afterHeading := index (split $raw (index $faqMatch 0)) 1 }}
   {{ $faqAfter = $afterHeading }}
@@ -384,13 +437,18 @@
   {{ range $i, $c := $chunks }}
     {{ if gt $i 0 }}
       {{ $lines := split $c "\n" }}
-      {{ $q := trim (index $lines 0) " #" }}
+      {{ $q := trim (index $lines 0) " #*" }}
+      {{ $q = replaceRE "^\\d+[.)]\\s*" "" $q }}
       {{ $aLines := slice }}
       {{ range after 1 $lines }}
         {{ $t := trim . " " }}
         {{ if $t }}{{ $aLines = $aLines | append $t }}{{ end }}
       {{ end }}
       {{ $a := delimit $aLines " " }}
+      {{/* Strip inline markdown (bold markers, links) so the schema Q&A text is clean for AI extraction */}}
+      {{ $q = replaceRE "\\*\\*?" "" $q }}
+      {{ $a = replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" $a }}
+      {{ $a = replaceRE "\\*\\*?" "" $a }}
       {{ if and $q $a }}
         {{ $qaPairs = $qaPairs | append (dict "q" $q "a" $a) }}
       {{ end }}

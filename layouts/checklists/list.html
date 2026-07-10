@@ -10,9 +10,10 @@
   "placeholder" "Search checklists…"
 ) }}
 
-{{/* Sort newest first by last-modified (matches /blogs/ and /tools/). */}}
+{{/* Sort newest-added first by publish date (pages carry timestamped dates so
+     the most recently added checklist leads the grid). */}}
 {{ partial "directory-grid.html" (dict
-  "pages" (.Pages.ByLastmod.Reverse)
+  "pages" (.Pages.ByDate.Reverse)
   "noImage" true
 ) }}
 {{ end }}

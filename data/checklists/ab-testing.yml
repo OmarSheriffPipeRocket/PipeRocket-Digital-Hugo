@@ -1,0 +1,32 @@
+title: "The A/B Testing Checklist for 2026"
+subtitle: "Run experiments that produce trustworthy results: hypothesis, setup, running discipline, analysis, and acting on the outcome. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Hypothesis"
+    items:
+      - "Base the test on a real problem from data, not a random idea"
+      - "Write a clear hypothesis: change X to affect metric Y because Z"
+      - "Change one variable at a time so the result is attributable"
+      - "Define the single primary success metric before you start"
+  - title: "2. Setup"
+    items:
+      - "Calculate the sample size and minimum detectable effect up front"
+      - "Estimate how long the test must run to reach that sample"
+      - "QA both variants across browsers and devices before launch"
+      - "Confirm tracking fires correctly for the primary metric"
+  - title: "3. Run with discipline"
+    items:
+      - "Do not peek and stop the test early when it looks good"
+      - "Run for full business cycles (usually at least one to two weeks)"
+      - "Avoid changing anything else that could contaminate the test"
+      - "Split traffic evenly and randomly between variants"
+  - title: "4. Analyse"
+    items:
+      - "Check the result reaches statistical significance, not just a lift"
+      - "Segment by device, source, and new vs returning to find hidden effects"
+      - "Guard against false positives from too many simultaneous tests"
+      - "Confirm the winner also holds on secondary and guardrail metrics"
+  - title: "5. Act & document"
+    items:
+      - "Ship the winning variant (or keep the control if there is no lift)"
+      - "Document the hypothesis, result, and learning for the whole team"
+      - "Feed the insight into the next test in the roadmap"

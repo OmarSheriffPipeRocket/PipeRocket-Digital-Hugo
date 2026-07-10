@@ -244,6 +244,8 @@ At [PipeRocket Digital](/saas-seo-agency/), we run full-stack SaaS content audit
 
 We implement the fixes, track the metrics, and iterate until the numbers move. If your organic traffic has plateaued or your rankings are slipping without a clear reason, [let’s discuss how we can bring them back!](/contact-us/)
 
+For a step-by-step version you can tick off as you go, use our free [content audit checklist](/checklists/content-audit-checklist/).
+
 ## **Conclusion**
 
 A SaaS content audit is a recurring process that keeps your existing content performing at its ceiling.

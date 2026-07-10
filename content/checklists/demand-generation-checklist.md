@@ -1,10 +1,10 @@
 ---
-title: "The Demand Generation Checklist for 2026 (Free downloadable PDF)"
+title: "The Demand Generation Checklist for 2026 (Download PDF + Excel)"
 description: "An interactive B2B SaaS demand generation checklist for 2026: strategy and ICP, content and offers, channels, capture and nurture, sales handoff and measurement. Tick items off, save your progress, download the PDF."
-metaTitle: "The Demand Generation Checklist for 2026 (Free Interactive Tool)"
+metaTitle: "The Demand Generation Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "A complete B2B SaaS demand generation and lead generation checklist for 2026: ICP, content, channels, capture, nurture, sales handoff and measurement. Interactive, free PDF."
-date: 2026-07-05
-lastmod: 2026-07-05
+date: 2026-07-05T09:25:00+05:30
+lastmod: 2026-07-05T09:25:00+05:30
 slug: "demand-generation-checklist"
 url: "/checklists/demand-generation-checklist/"
 type: "blogs"

@@ -1,10 +1,10 @@
 ---
-title: "The Keyword Research Checklist for 2026 (Free downloadable PDF)"
+title: "The Keyword Research Checklist for 2026 (Download PDF + Excel)"
 description: "An interactive keyword research checklist for 2026: seeds and expansion, intent and grouping, prioritisation, mapping, and ongoing research. Tick items off, save your progress, and download the PDF."
-metaTitle: "The Keyword Research Checklist for 2026 (Free Interactive Tool)"
+metaTitle: "The Keyword Research Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "A complete keyword research checklist for 2026: seed lists, expansion, intent classification, clustering, prioritisation and mapping to pages. Interactive, free PDF. No email."
-date: 2026-07-05
-lastmod: 2026-07-05
+date: 2026-07-05T09:40:00+05:30
+lastmod: 2026-07-05T09:40:00+05:30
 slug: "keyword-research-checklist"
 url: "/checklists/keyword-research-checklist/"
 type: "blogs"

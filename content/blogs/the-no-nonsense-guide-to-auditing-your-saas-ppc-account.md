@@ -260,6 +260,8 @@ When you audit from the top down, starting with the business goals, moving to th
 
 And honestly? That’s where the fun (and the money) is.
 
+For a step-by-step version you can tick off as you go, use our free [Google Ads audit checklist](/checklists/google-ads-audit-checklist/).
+
 ## Frequently Asked Questions
 
 ### 1. How often should a SaaS company run a PPC audit?

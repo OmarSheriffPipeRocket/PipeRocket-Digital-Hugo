@@ -1,10 +1,10 @@
 ---
-title: "The GA4 Audit Checklist for 2026 (Free downloadable PDF)"
+title: "The GA4 Audit Checklist for 2026 (Download PDF + Excel)"
 description: "An interactive GA4 audit checklist for 2026: setup and config, tracking accuracy, events and conversions, data quality, integrations and reporting. Tick items off, save your progress, and download the PDF."
-metaTitle: "The GA4 Audit Checklist for 2026 (Free Interactive Tool)"
+metaTitle: "The GA4 Audit Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "A complete Google Analytics 4 audit checklist for 2026: configuration, tracking accuracy, events and conversions, data quality, integrations and reporting. Interactive, free PDF."
-date: 2026-07-05
-lastmod: 2026-07-05
+date: 2026-07-05T09:30:00+05:30
+lastmod: 2026-07-05T09:30:00+05:30
 slug: "ga4-audit-checklist"
 url: "/checklists/ga4-audit-checklist/"
 type: "blogs"

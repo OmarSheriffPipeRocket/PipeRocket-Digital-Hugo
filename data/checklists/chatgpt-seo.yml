@@ -1,0 +1,29 @@
+title: "The ChatGPT SEO Checklist for 2026"
+subtitle: "Get your brand surfaced and cited inside ChatGPT: crawler access, Bing-index presence, citable content, entity authority and trusted third-party sources. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Let ChatGPT reach you"
+    items:
+      - "Allow OpenAI's crawlers in robots.txt (GPTBot for training, OAI-SearchBot for search, ChatGPT-User for browsing)"
+      - "Make sure content is server-rendered so non-JS crawlers can read it"
+      - "Keep the site fast and crawlable so retrieval can fetch pages"
+  - title: "2. Be in the index ChatGPT search uses"
+    items:
+      - "Verify and optimise your site in Bing Webmaster Tools (ChatGPT search leans on Bing)"
+      - "Submit your sitemap to Bing and use IndexNow for fast pickup"
+      - "Confirm your key pages are actually indexed by Bing"
+  - title: "3. Be the most citable answer"
+    items:
+      - "Front-load a clear, quotable answer in the first 1-2 sentences of each page"
+      - "State specific facts, numbers, and dates a model can lift confidently"
+      - "Publish original data and definitions models prefer to cite"
+      - "Structure content as clean question-and-answer blocks"
+  - title: "4. Build entity authority"
+    items:
+      - "Keep entity facts (name, founders, category, HQ) consistent everywhere"
+      - "Earn mentions on the sources ChatGPT trusts (Wikipedia, Reddit, G2, reputable press)"
+      - "Get listed in best-of and comparison articles alongside category leaders"
+  - title: "5. Measure"
+    items:
+      - "Test your target prompts in ChatGPT monthly and note if you are cited"
+      - "Track ChatGPT referral traffic in GA4"
+      - "Double down on the pages and sources that get you mentioned"

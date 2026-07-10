@@ -1,7 +1,7 @@
 ---
-title: "The GEO (Generative Engine Optimization) Checklist for 2026 (Free downloadable PDF)"
+title: "The GEO Checklist for 2026 (Download PDF + Excel)"
 description: "An interactive GEO checklist for 2026: get your brand cited by ChatGPT, Perplexity, Gemini and Claude through crawler access, citable content, entity authority and off-site presence. Tick items off, save progress, download the PDF."
-metaTitle: "The GEO Checklist for 2026 (Generative Engine Optimization)"
+metaTitle: "The GEO Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "A complete Generative Engine Optimization (GEO) checklist for 2026: get cited by ChatGPT, Perplexity, Gemini and Claude via crawler access, citable content and entity authority. Free PDF."
 date: 2026-07-04
 lastmod: 2026-07-04
@@ -44,7 +44,7 @@ Test your target prompts in ChatGPT, Perplexity, Gemini, and Claude monthly, tra
 
 ## Go deeper
 
-This is one of the focused lists in our [marketing checklists hub](/checklists/). GEO is one half of AI search; pair it with the [AEO checklist](/checklists/aeo-checklist/) for Google's answer surfaces, or start with the broader [AI SEO checklist](/checklists/ai-seo-checklist/). For the SaaS-specific version, read our [GEO for SaaS](/blogs/how-to-do-geo-for-saas/) guide.
+This is one of the focused lists in our [marketing checklists hub](/checklists/). For a specific assistant, use the platform checklists: [ChatGPT SEO](/checklists/chatgpt-seo-checklist/), [Perplexity SEO](/checklists/perplexity-seo-checklist/), and [Bing Copilot](/checklists/bing-copilot-optimization-checklist/); make sure they can reach you with the [AI crawler access checklist](/checklists/ai-crawler-access-checklist/). GEO is one half of AI search; pair it with the [AEO checklist](/checklists/aeo-checklist/) for Google's answer surfaces, or start with the broader [AI SEO checklist](/checklists/ai-seo-checklist/). For the SaaS-specific version, read our [GEO for SaaS](/blogs/how-to-do-geo-for-saas/) guide.
 
 ## How we use this at PipeRocket Digital
 

@@ -176,6 +176,8 @@ Look, I’ll be honest with you, this methodology works, but it is a grind. If y
 
 We interview your Sales and CS teams, we map your Total Addressable Market (TAM), and we hand you a fully prioritized execution roadmap.You get the strategy without the headache.**Ready to stop guessing and start dominating your category?** [**Reach out to us!**](/contact-us/)
 
+For a step-by-step version you can tick off as you go, use our free [keyword research checklist](/checklists/keyword-research-checklist/).
+
 ## Conclusion
 
 Keyword research for SaaS SEO is about conversation. By starting with your internal teams, you capture the language your customers actually use. By mapping that data into a structured asset with Topics and Priorities, you stop guessing.Yes, it takes a few days to do it right. But this process allows you to see the entire battlefield of your Total Addressable Market, so you can scale effectively.

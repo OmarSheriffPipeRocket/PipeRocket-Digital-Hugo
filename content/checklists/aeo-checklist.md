@@ -1,7 +1,7 @@
 ---
-title: "The AEO (Answer Engine Optimization) Checklist for 2026 (Free downloadable PDF)"
+title: "The AEO Checklist for 2026 (Download PDF + Excel)"
 description: "An interactive AEO checklist for 2026: get pulled into featured snippets, People Also Ask and Google's AI Overviews with answer-first content and schema. Tick items off, save your progress, download the PDF."
-metaTitle: "The AEO Checklist for 2026 (Answer Engine Optimization)"
+metaTitle: "The AEO Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "A complete Answer Engine Optimization (AEO) checklist for 2026: answer-first content, snippet and PAA formatting, schema, and Google AI Overviews. Interactive, free PDF. No email."
 date: 2026-07-04
 lastmod: 2026-07-04
@@ -18,7 +18,7 @@ It is interactive. Tick each item as you finish it, your progress saves in your 
 
 ## How to use this checklist
 
-AEO sits on top of solid SEO, not instead of it. Get answer-first content and structure right first, then markup and measurement. This list focuses on answer engines and Google's answer surfaces; for generative assistants like ChatGPT and Perplexity, use the [GEO checklist](/checklists/geo-checklist/).
+AEO sits on top of solid SEO, not instead of it. Get answer-first content and structure right first, then markup and measurement. This list is the strategic view: the answer surfaces to target and how to measure them. For the granular, page-level build mechanics (answer engineering, schema per type, entity signals), use the [on-page AEO checklist](/checklists/on-page-aeo-checklist/). For generative assistants like ChatGPT and Perplexity, use the [GEO checklist](/checklists/geo-checklist/).
 
 {{< checklist id="aeo" >}}
 
@@ -44,7 +44,7 @@ Track which queries you own the snippet or PAA answer for, watch for AI Overview
 
 ## Go deeper
 
-This is one of the focused lists in our [marketing checklists hub](/checklists/). AEO is one half of AI search; pair it with the [GEO checklist](/checklists/geo-checklist/) for generative assistants, or start with the broader [AI SEO checklist](/checklists/ai-seo-checklist/) and [complete SEO checklist](/checklists/seo-checklist/).
+This is one of the focused lists in our [marketing checklists hub](/checklists/). For per-page execution, use the [on-page AEO checklist](/checklists/on-page-aeo-checklist/); for Google's AI Overviews specifically, use the [Google AI Overviews checklist](/checklists/google-ai-overviews-checklist/). AEO is one half of AI search; pair it with the [GEO checklist](/checklists/geo-checklist/) for generative assistants, or start with the broader [AI SEO checklist](/checklists/ai-seo-checklist/) and [complete SEO checklist](/checklists/seo-checklist/).
 
 ## How we use this at PipeRocket Digital
 

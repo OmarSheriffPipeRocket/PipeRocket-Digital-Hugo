@@ -1,0 +1,45 @@
+title: "The On-Page AEO Checklist for 2026"
+subtitle: "The page-level mechanics that get a single page pulled into AI answers: answer engineering, question structure, extraction formatting, schema per type, entity signals, and freshness. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Answer engineering"
+    items:
+      - "Front-load a direct, quotable answer in the first 1-2 sentences (roughly 40-60 words)"
+      - "Put a one-sentence definition immediately after the H1"
+      - "Write a self-contained answer under every subheading (no reliance on earlier context)"
+      - "Use declarative 'X is / X does' sentences a model can lift verbatim"
+  - title: "2. Question-based structure"
+    items:
+      - "Phrase H2s and H3s as the exact questions users ask"
+      - "Place the answer in the first sentence directly under each question heading"
+      - "Cover the People Also Ask cluster (related follow-ups) on the same page"
+      - "Add a TL;DR or key-takeaways block near the top"
+  - title: "3. Formatting for extraction"
+    items:
+      - "Use ordered lists for steps and processes"
+      - "Use tables for comparisons, specs, and pricing"
+      - "Keep paragraphs short (2-4 sentences)"
+      - "Bold the key term or answer in each section"
+  - title: "4. Structured data (per type)"
+    items:
+      - "Add FAQPage schema for question-and-answer sections"
+      - "Add HowTo schema for step-by-step content"
+      - "Add Article + author (Person) schema"
+      - "Add Breadcrumb schema for context"
+      - "Validate every schema type in the Rich Results Test"
+  - title: "5. Entity & semantic signals"
+    items:
+      - "Name entities explicitly (people, products, brands) instead of pronouns"
+      - "Keep entity facts on the page consistent with the rest of the site"
+      - "Add descriptive, keyword-aware image alt text and captions"
+      - "Link internally to related entity and topic pages with clear anchors"
+  - title: "6. Freshness & trust"
+    items:
+      - "Show a visible last-updated date on the page"
+      - "Cite sources with links right next to each claim or statistic"
+      - "Show a named author with credentials and a bio"
+      - "Keep facts, stats, and examples current"
+  - title: "7. Make the page readable by AI crawlers"
+    items:
+      - "Ensure the answer content is server-rendered, not JavaScript-only"
+      - "Do not block AI crawlers (GPTBot, PerplexityBot, ClaudeBot, Google-Extended) for this page"
+      - "Keep the page fast so retrieval systems can fetch it"

@@ -1,0 +1,30 @@
+title: "The Bing Copilot Optimization Checklist for 2026"
+subtitle: "Get surfaced in Microsoft Copilot, which runs on the Bing index: verify in Bing, index fast with IndexNow, allow the crawlers, and publish citable content. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Win Bing first (Copilot runs on Bing)"
+    items:
+      - "Verify and configure the site in Bing Webmaster Tools"
+      - "Submit your sitemap and confirm key pages are indexed by Bing"
+      - "Use IndexNow to get new and updated pages picked up fast"
+      - "Fix Bing-specific crawl and indexing issues in the Bing tools"
+  - title: "2. Let the crawlers in"
+    items:
+      - "Allow Bingbot and do not block Microsoft's AI crawlers in robots.txt"
+      - "Server-render content so it can be read without JavaScript"
+      - "Keep the site fast and technically clean"
+  - title: "3. Rank and answer well in Bing"
+    items:
+      - "Optimise for Bing ranking factors (Bing weights on-page and exact-match signals)"
+      - "Front-load a clear, quotable answer in the first 1-2 sentences"
+      - "Structure content as question-and-answer blocks with lists and tables"
+      - "Win Bing featured snippets, which feed Copilot answers"
+  - title: "4. Authority & entity"
+    items:
+      - "Keep entity facts consistent across the web"
+      - "Earn mentions and links from sources Bing and Copilot trust"
+      - "Add relevant structured data and keep it valid"
+  - title: "5. Measure"
+    items:
+      - "Track Bing organic performance in Bing Webmaster Tools"
+      - "Test target prompts in Copilot and note whether you are cited"
+      - "Monitor referral traffic and reinforce what gets surfaced"

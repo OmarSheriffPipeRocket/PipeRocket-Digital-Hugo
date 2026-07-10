@@ -1,7 +1,7 @@
 ---
-title: "The Complete SEO Checklist for 2026 (Free downloadable PDF)"
+title: "The Complete SEO Checklist for 2026 (Download PDF + Excel)"
 description: "A complete, interactive SEO checklist for 2026: 55+ steps across foundations, keyword research, on-page, content, technical, links, local, and AI search. Tick items off, save your progress, and download the PDF."
-metaTitle: "The Complete SEO Checklist for 2026 (Free Interactive Tool)"
+metaTitle: "The Complete SEO Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "A 55+ step SEO checklist for 2026 covering foundations, keyword research, on-page, content, technical, links, local and AI search (AEO/GEO). Interactive, saves your progress, free PDF. No email."
 date: 2026-07-04
 lastmod: 2026-07-04

@@ -244,6 +244,8 @@ When you do this right, LinkedIn becomes an engine that drives awareness, trust,
 
 If this sounds too much to handle, we at [PipeRocket Digital](/saas-ppc/) can manage your LinkedIn ad strategy end-to-end, so that you can focus on other pressing issues. If you want to explore how we can help you with LinkedIn Ads, [reach out to us and let’s plan how to grow your pipeline](/contact-us/).
 
+For a step-by-step version you can tick off as you launch, use our free [LinkedIn Ads checklist](/checklists/linkedin-ads-checklist/).
+
 ## Frequently Asked Questions
 
 ### 1. Is LinkedIn advertising worth it for B2B SaaS brands?

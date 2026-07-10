@@ -775,6 +775,8 @@ button.pr-blog-v2__cta-btn {
 }
 .pr-checklist__btn--primary { background: var(--pr-ink, #0D0D0D); color: #fff; }
 .pr-checklist__btn--primary:hover { background: var(--pr-cyan, #0CC6F1); border-color: var(--pr-cyan, #0CC6F1); color: var(--pr-ink, #0D0D0D); }
+.pr-checklist__btn--excel { background: #217346; color: #fff; border-color: #217346; }
+.pr-checklist__btn--excel:hover { background: #1a5c38; border-color: #1a5c38; color: #fff; }
 .pr-checklist__btn--ghost { background: transparent; color: var(--pr-ink, #0D0D0D); }
 .pr-checklist__btn--ghost:hover { background: var(--pr-cream-2, #E8E4DA); }
 .pr-checklist__groups { padding: var(--pr-s-5, 1.5rem) var(--pr-s-6, 2rem) var(--pr-s-6, 2rem); }

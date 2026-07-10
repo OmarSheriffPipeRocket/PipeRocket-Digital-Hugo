@@ -1,0 +1,30 @@
+title: "The Google AI Overviews (AIO) Optimization Checklist for 2026"
+subtitle: "Get your content pulled into Google's AI Overviews: rank first, answer the fan-out, structure for extraction, and reinforce authority. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Earn the foundation (rank first)"
+    items:
+      - "Rank on page one for the query — AI Overviews mostly draw from top results"
+      - "Match the search intent behind the query precisely"
+      - "Make sure the page is indexed, crawlable, and passes Core Web Vitals"
+  - title: "2. Answer the query and its fan-out"
+    items:
+      - "Front-load a direct, quotable answer in the first 1-2 sentences"
+      - "Cover the related sub-questions Google fans out from the main query"
+      - "Structure content as clear question-and-answer blocks"
+      - "Use lists and tables for steps and comparisons"
+  - title: "3. Structure for extraction"
+    items:
+      - "Use the real question as the heading with the answer directly beneath"
+      - "Add FAQ and HowTo structured data where relevant"
+      - "Keep the answer content server-rendered, not JavaScript-only"
+      - "Win the featured snippet, which often feeds the AI Overview"
+  - title: "4. Reinforce authority & freshness"
+    items:
+      - "Support claims with specific numbers, dates, and cited sources"
+      - "Show clear E-E-A-T: named author, credentials, first-hand experience"
+      - "Keep content fresh so it stays eligible as overviews regenerate"
+  - title: "5. Measure"
+    items:
+      - "Watch impression and click shifts in Search Console as AIO appears"
+      - "Check which queries trigger an AI Overview and whether you are cited"
+      - "Protect high-value pages by keeping them the best answer available"

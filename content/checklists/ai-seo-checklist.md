@@ -1,7 +1,7 @@
 ---
-title: "The AI SEO Checklist for 2026 (Free downloadable PDF)"
+title: "The AI SEO Checklist for 2026 (Download PDF + Excel)"
 description: "An interactive AI SEO checklist for 2026: keep winning classic search while getting found in answer engines and generative assistants, plus how to use AI in your workflow. Tick items off, save progress, download the PDF."
-metaTitle: "The AI SEO Checklist for 2026 (Free Interactive Tool)"
+metaTitle: "The AI SEO Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "A complete AI SEO checklist for 2026: classic SEO fundamentals, answer engines (AEO), generative assistants (GEO), using AI in your workflow, and measurement. Interactive, free PDF. No email."
 date: 2026-07-04
 lastmod: 2026-07-04

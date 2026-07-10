@@ -1,0 +1,35 @@
+title: "The Blog Post Checklist for 2026"
+subtitle: "Everything to take a blog post from idea to published and promoted: research, writing, on-page SEO, pre-publish QA, and promotion. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Before you write"
+    items:
+      - "Pick a primary keyword and confirm intent on the live SERP"
+      - "Choose an angle that adds something the ranking posts do not"
+      - "Outline the structure and the questions the post must answer"
+      - "Decide the one action a reader should take at the end"
+  - title: "2. Write"
+    items:
+      - "Write a compelling, keyword-aware title and one clear H1"
+      - "Answer the main question in the first paragraph"
+      - "Add first-hand experience, original data, and examples AI can't fake"
+      - "Keep it scannable: short paragraphs, subheads, bullets, and visuals"
+      - "Attribute the post to a named author with real credentials"
+  - title: "3. On-page SEO"
+    items:
+      - "Write a meta description that earns the click"
+      - "Add internal links to and from relevant posts and pages"
+      - "Add descriptive alt text and compress images"
+      - "Add relevant structured data (Article, FAQ)"
+      - "Front-load a quotable answer so AI engines can cite it"
+  - title: "4. Pre-publish QA"
+    items:
+      - "Proofread for grammar, clarity, and factual accuracy"
+      - "Check every link works and points where intended"
+      - "Confirm it reads well and loads fast on mobile"
+      - "Verify the CTA and any forms work"
+  - title: "5. Publish & promote"
+    items:
+      - "Publish and add internal links from existing relevant posts"
+      - "Share on the channels your audience actually uses"
+      - "Request indexing or confirm it is in the sitemap"
+      - "Set a review date to refresh the post before it decays"

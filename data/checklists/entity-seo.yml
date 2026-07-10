@@ -1,0 +1,33 @@
+title: "The Entity SEO Checklist for 2026"
+subtitle: "Build a clear, consistent entity that Google's Knowledge Graph and AI engines understand and trust: define it, mark it up, get it into the graph, and reinforce it. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Define the entity"
+    items:
+      - "Decide exactly what your entity is (brand, person, product) and its category"
+      - "Write a clear, consistent one-line description you will reuse everywhere"
+      - "Identify the topics your entity should be known for"
+  - title: "2. Keep facts consistent"
+    items:
+      - "Use identical core facts (name, founding year, HQ, category) across every page and profile"
+      - "Fix contradictions between your site, socials, directories, and third-party profiles"
+      - "Keep NAP consistent across all citations"
+  - title: "3. Mark it up"
+    items:
+      - "Add Organization or Person schema with a stable @id"
+      - "Add sameAs links to your authoritative profiles (LinkedIn, Crunchbase, Wikipedia, etc.)"
+      - "Connect content to the entity with Article author and publisher schema"
+  - title: "4. Get into the Knowledge Graph"
+    items:
+      - "Create or claim a Wikidata entry"
+      - "Earn a Wikipedia presence where genuinely notable"
+      - "Set up and complete a Google Business Profile where relevant"
+      - "Build citations and mentions that reinforce your category association"
+  - title: "5. Build topical authority & disambiguation"
+    items:
+      - "Publish a connected content cluster around your core topics"
+      - "Disambiguate from similarly-named entities (clear naming and context)"
+      - "Earn mentions alongside recognised names in your category"
+  - title: "6. Monitor"
+    items:
+      - "Check whether a Knowledge Panel exists and is accurate"
+      - "Monitor how AI engines describe your entity and correct drift at the source"

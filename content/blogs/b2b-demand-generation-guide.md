@@ -173,6 +173,8 @@ Demand generation is a process, not a destination.
 - **Retargeting:** Use retargeting campaigns to ensure prospects who engage with content stay connected to your brand as they move through the funnel.
 - **Budget Allocation:** Be ready to shift budget away from underperforming tactics and put it into what works better.
 
+For a step-by-step version you can tick off as you build the engine, use our free [demand generation checklist](/checklists/demand-generation-checklist/).
+
 ## **Final Thoughts**
 
 B2B demand generation is a strategic long-term investment in your company’s future. It’s not about the instant gratification of a lead list. It’s about patiently building a powerful, and recognizable brand that buyers trust before they even need your solution.

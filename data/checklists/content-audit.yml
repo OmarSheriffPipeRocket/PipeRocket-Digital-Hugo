@@ -1,0 +1,32 @@
+title: "The Content Audit Checklist for 2026"
+subtitle: "A repeatable content audit for B2B SaaS: inventory every page, assess it, decide keep/update/consolidate/prune, then execute. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Inventory"
+    items:
+      - "Crawl the site and export every indexable URL to a sheet"
+      - "Pull metrics per URL: organic clicks, impressions, rankings, and conversions"
+      - "Add backlinks, last-updated date, and word count for context"
+      - "Tag each page by type, topic, and funnel stage"
+  - title: "2. Assess each page"
+    items:
+      - "Flag pages with traffic but no conversions, and conversions but no traffic"
+      - "Identify decaying pages that have lost rankings or traffic over time"
+      - "Spot thin, outdated, or duplicate pages"
+      - "Find keyword cannibalization where several pages target one intent"
+  - title: "3. Decide the action"
+    items:
+      - "Keep and leave high-performing, current pages alone"
+      - "Update pages with potential that have decayed or gone stale"
+      - "Consolidate overlapping pages into one stronger asset"
+      - "Prune or 301 dead pages that add no value"
+  - title: "4. Execute"
+    items:
+      - "Refresh content, titles, and internal links on the update set"
+      - "Merge consolidations and 301 the retired URLs to the survivor"
+      - "Noindex or remove pages that should not rank"
+      - "Fix broken links and orphaned pages surfaced by the audit"
+  - title: "5. Measure & repeat"
+    items:
+      - "Track rankings, traffic, and conversions after each change"
+      - "Record decisions so the next audit starts from a known baseline"
+      - "Re-run the audit on a set cadence (twice a year is a good default)"

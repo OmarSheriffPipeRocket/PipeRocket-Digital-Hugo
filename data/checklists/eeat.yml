@@ -1,0 +1,39 @@
+title: "The E-E-A-T Checklist for 2026"
+subtitle: "Build the Experience, Expertise, Authoritativeness, and Trust signals Google and AI engines look for, on the page and across the web. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF."
+groups:
+  - title: "1. Experience"
+    items:
+      - "Include genuine first-hand experience with the topic, product, or process"
+      - "Add original data, screenshots, photos, or examples you produced yourself"
+      - "Share what actually happened, including complications, not just theory"
+      - "Have content created or reviewed by someone who has really done the thing"
+  - title: "2. Expertise"
+    items:
+      - "Attribute every piece to a named author, not 'admin' or the brand alone"
+      - "Give authors a bio page with real credentials and links"
+      - "Have subject-matter experts write or review technical content"
+      - "Make the content accurate, current, and deep enough to fully answer the query"
+  - title: "3. Authoritativeness"
+    items:
+      - "Earn mentions and links from recognised, authoritative sites in your niche"
+      - "Get listed in credible roundups and cited alongside category leaders"
+      - "Keep entity facts (name, founders, category, HQ) consistent everywhere"
+      - "Build out Wikidata/knowledge-panel sources and showcase awards or press"
+  - title: "4. Trust"
+    items:
+      - "Serve HTTPS and keep the site secure"
+      - "Show clear contact, about, privacy, and terms pages"
+      - "Cite authoritative sources with links next to claims and statistics"
+      - "Display genuine reviews and transparent business information"
+      - "Avoid deceptive design, fake urgency, and unsubstantiated claims"
+  - title: "5. On-page E-E-A-T signals"
+    items:
+      - "Add author (Person) schema with sameAs links to real profiles"
+      - "Show a visible published and last-updated date"
+      - "Link to an editorial or review process where relevant"
+      - "Make author credentials visible near the content, not buried"
+  - title: "6. YMYL extra rigor"
+    items:
+      - "For money, health, legal, or safety topics, raise the credential bar"
+      - "Have qualified experts review YMYL content and say so on the page"
+      - "Be especially careful with accuracy, sourcing, and claims"

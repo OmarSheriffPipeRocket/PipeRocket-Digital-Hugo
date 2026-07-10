@@ -1,0 +1,31 @@
+title: "The AI Crawler Access Checklist for 2026"
+subtitle: "Make a deliberate decision about which AI crawlers can read your site, then make sure the ones you want can actually reach it. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Know the crawlers"
+    items:
+      - "OpenAI: GPTBot (training), OAI-SearchBot (search), ChatGPT-User (browsing)"
+      - "Google: Googlebot (search) and Google-Extended (Gemini/Vertex training)"
+      - "Perplexity: PerplexityBot and Perplexity-User"
+      - "Anthropic: ClaudeBot and anthropic-ai"
+      - "Others: CCBot (Common Crawl), Bytespider, Amazonbot, Applebot-Extended, Meta-ExternalAgent"
+  - title: "2. Decide your policy"
+    items:
+      - "Decide per crawler whether you want citations more than you want to withhold content"
+      - "Allow the assistant crawlers you want to be cited by"
+      - "Block only the ones you have a real reason to block (and know the trade-off)"
+      - "Note that Google-Extended does not affect Google Search ranking, only AI training"
+  - title: "3. Configure robots.txt correctly"
+    items:
+      - "Write explicit user-agent rules per bot in robots.txt"
+      - "Confirm you are not accidentally blocking a bot you want (over-broad disallow)"
+      - "Consider an llms.txt file to guide AI systems to your key content"
+  - title: "4. Remove hidden blocks"
+    items:
+      - "Check your CDN/WAF (e.g. Cloudflare) is not silently blocking AI bots"
+      - "Make sure firewall or rate-limit rules do not throttle allowed crawlers"
+      - "Confirm content is server-rendered, not hidden behind JavaScript"
+  - title: "5. Verify"
+    items:
+      - "Check server logs to confirm the crawlers you allowed are actually fetching pages"
+      - "Test a page fetch as each bot where possible"
+      - "Re-audit after any robots.txt, CDN, or firewall change"

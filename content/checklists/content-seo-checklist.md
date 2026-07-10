@@ -1,10 +1,10 @@
 ---
-title: "The Content SEO Checklist for 2026 (Free downloadable PDF)"
+title: "The Content SEO Checklist for 2026 (Download PDF + Excel)"
 description: "An interactive content SEO checklist for 2026: research and intent, structure, writing and E-E-A-T, on-page SEO, and refresh. Tick items off, save your progress, and download the PDF."
-metaTitle: "The Content SEO Checklist for 2026 (Free Interactive Tool)"
+metaTitle: "The Content SEO Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "A complete content SEO checklist for 2026: keyword and intent research, structure, E-E-A-T writing, on-page optimisation and content refresh. Interactive, free PDF. No email."
-date: 2026-07-05
-lastmod: 2026-07-05
+date: 2026-07-05T09:35:00+05:30
+lastmod: 2026-07-05T09:35:00+05:30
 slug: "content-seo-checklist"
 url: "/checklists/content-seo-checklist/"
 type: "blogs"

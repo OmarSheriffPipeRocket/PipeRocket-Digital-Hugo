@@ -211,6 +211,101 @@
     }
   }
 
+  /* Lazy-load ExcelJS only when a user actually exports, so it never touches
+     page-load performance. Self-hosted at /js/exceljs.min.js. */
+  var _exceljsPromise = null;
+  function loadExcelJS() {
+    if (window.ExcelJS) return Promise.resolve(window.ExcelJS);
+    if (_exceljsPromise) return _exceljsPromise;
+    _exceljsPromise = new Promise(function (resolve, reject) {
+      var s = document.createElement('script');
+      s.src = '/js/exceljs.min.js';
+      s.async = true;
+      s.onload = function () { window.ExcelJS ? resolve(window.ExcelJS) : reject(new Error('ExcelJS not found')); };
+      s.onerror = function () { _exceljsPromise = null; reject(new Error('Failed to load ExcelJS')); };
+      document.head.appendChild(s);
+    });
+    return _exceljsPromise;
+  }
+
+  /* Download the checklist as a native .xlsx (branded, logo top-left,
+     reflects ticked state) built with ExcelJS. */
+  function exportExcel(root, btn) {
+    var title = (root.querySelector('.pr-checklist__title') || {}).textContent || 'Checklist';
+    var sub   = (root.querySelector('.pr-checklist__sub') || {}).textContent || '';
+    var cta   = (root.querySelector('.pr-checklist__cta-text') || {}).textContent || '';
+    var logo  = root.getAttribute('data-logo') || '';
+    var id    = root.getAttribute('data-checklist-id') || 'checklist';
+    var origLabel = btn ? btn.innerHTML : '';
+    if (btn) { btn.disabled = true; }
+
+    loadExcelJS().then(function (ExcelJS) {
+      var wb = new ExcelJS.Workbook();
+      wb.creator = 'PipeRocket Digital';
+      var ws = wb.addWorksheet('Checklist', { views: [{ showGridLines: false }] });
+      ws.columns = [{ width: 82 }, { width: 8 }];
+
+      if (logo) {
+        var b64 = logo.indexOf(',') >= 0 ? logo.split(',')[1] : logo;
+        var imgId = wb.addImage({ base64: b64, extension: 'png' });
+        ws.addImage(imgId, { tl: { col: 0, row: 0 }, ext: { width: 150, height: 24 } });
+        ws.getRow(1).height = 22;
+      }
+
+      var rBrand = ws.addRow(['PipeRocket Digital']);
+      rBrand.getCell(1).font = { bold: true, size: 14, color: { argb: 'FF0D0D0D' } };
+      ws.addRow(['piperocket.digital']).getCell(1).font = { size: 10, color: { argb: 'FF6B6B6B' } };
+      ws.addRow([title]).getCell(1).font = { bold: true, size: 13 };
+      if (sub) { ws.addRow([sub]).getCell(1).font = { size: 10, italic: true, color: { argb: 'FF6B6B6B' } }; }
+      ws.addRow([]);
+
+      var rHdr = ws.addRow(['Task', 'Done']);
+      rHdr.eachCell(function (c) {
+        c.font = { bold: true, color: { argb: 'FFFFFFFF' } };
+        c.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF0D0D0D' } };
+      });
+
+      Array.prototype.forEach.call(root.querySelectorAll('.pr-checklist__group'), function (g) {
+        var gt = (g.querySelector('.pr-checklist__group-title') || {}).textContent || '';
+        var rg = ws.addRow([gt, '']);
+        rg.eachCell(function (c) {
+          c.font = { bold: true };
+          c.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF6F6F1' } };
+        });
+        Array.prototype.forEach.call(g.querySelectorAll('.pr-checklist__item'), function (it) {
+          var input = it.querySelector('input');
+          var lbl = (it.querySelector('label') || {}).textContent || '';
+          var ri = ws.addRow([lbl, input && input.checked ? '✓' : '']);
+          ri.getCell(1).alignment = { wrapText: true, vertical: 'top' };
+          ri.getCell(2).alignment = { horizontal: 'center', vertical: 'top' };
+          if (input && input.checked) { ri.getCell(2).font = { bold: true, color: { argb: 'FF217346' } }; }
+        });
+      });
+
+      if (cta) {
+        ws.addRow([]);
+        ws.addRow(['Work with PipeRocket — ' + cta + ' piperocket.digital/contact-us'])
+          .getCell(1).font = { size: 10, color: { argb: 'FF333333' } };
+      }
+
+      return wb.xlsx.writeBuffer();
+    }).then(function (buf) {
+      var blob = new Blob([buf], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = id + '-checklist.xlsx';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+      if (btn) { btn.disabled = false; btn.innerHTML = origLabel; }
+    }).catch(function (e) {
+      if (btn) { btn.disabled = false; btn.innerHTML = origLabel; }
+      console.error('Excel export failed:', e);
+    });
+  }
+
   Array.prototype.forEach.call(widgets, function (root) {
     var id       = root.getAttribute('data-checklist-id') || 'default';
     var total    = parseInt(root.getAttribute('data-total'), 10) || 0;
@@ -218,6 +313,7 @@
     var fill     = root.querySelector('[data-checklist-fill]');
     var count    = root.querySelector('[data-checklist-count]');
     var dlBtn    = root.querySelector('[data-checklist-download]');
+    var xlBtn    = root.querySelector('[data-checklist-excel]');
     var resetBtn = root.querySelector('[data-checklist-reset]');
     var storeKey = 'pr-checklist:' + id;
 
@@ -263,6 +359,10 @@
     /* Download as PDF — print a clean branded doc (logo + checklist + CTA). */
     if (dlBtn) {
       dlBtn.addEventListener('click', function () { printChecklist(root); });
+    }
+    /* Download as Excel — branded workbook (logo top-left + checklist + CTA). */
+    if (xlBtn) {
+      xlBtn.addEventListener('click', function () { exportExcel(root, xlBtn); });
     }
   });
 }());

@@ -228,6 +228,8 @@ We act as the owners of your execution roadmap. We optimize for the “Money Pag
 
 If you are ready to stop guessing and start building a predictable revenue engine, [let’s have a real conversation](/contact-us/).
 
+For a conversion-focused companion you can tick off, work through our free [landing page checklist](/checklists/landing-page-checklist/).
+
 ## Conclusion
 
 Optimizing a SaaS landing page for SEO is a cycle, not a task. You research the intent to ensure you are building the right page. You write content that hits the USP hard. You build trust with social proof. Then you watch the data like a hawk.

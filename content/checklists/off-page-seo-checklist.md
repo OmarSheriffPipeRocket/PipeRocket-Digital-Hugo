@@ -1,7 +1,7 @@
 ---
-title: "The Off-Page SEO Checklist for 2026 (Free downloadable PDF)"
+title: "The Off-Page SEO Checklist for 2026 (Download PDF + Excel)"
 description: "An interactive off-page SEO checklist for 2026: backlink audits, link earning, digital PR, brand mentions, reviews and the entity signals AI engines weigh. Tick items off, save your progress, download the PDF."
-metaTitle: "The Off-Page SEO Checklist for 2026 (Free Interactive Tool)"
+metaTitle: "The Off-Page SEO Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "A 23-point off-page SEO checklist for 2026: backlink audit, link building, digital PR, brand mentions and reviews. Interactive, saves your progress, free PDF. No email."
 date: 2026-07-04
 lastmod: 2026-07-04

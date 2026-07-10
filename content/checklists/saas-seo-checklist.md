@@ -1,7 +1,7 @@
 ---
-title: "My SaaS SEO Checklist for 2026: An Experience-based Guide (Free downloadable PDF)"
+title: "My SaaS SEO Checklist for 2026: An Experience-based Guide (Download PDF + Excel)"
 description: "I’ve spent over 15 years in SEO, and if there’s one thing I’ve learned, it’s that most “checklists” are distractions. They focus on green lights in a plugin rather than the green lines on your revenue chart. Recently, I sat down with my team to break down exactly how we approach SaaS SEO at PipeRocket […]"
-metaTitle: "My SaaS SEO Checklist for 2026"
+metaTitle: "My SaaS SEO Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "Here's the SaaS SEO checklist we use here at PipeRocket Digital for every client. It has everything you need to be the modern SaaS SEO marketer."
 date: 2026-01-29
 lastmod: 2026-05-12
@@ -19,7 +19,7 @@ I’ve spent over 15 years in SEO, and if there’s one thing I’ve learned, it
 
 Recently, I sat down with my team to break down exactly how we approach SaaS SEO at PipeRocket Digital. This isn’t theoretical, this is the exact methodology we use to turn search traffic into pipelines. If you’re tired of vanity metrics and want a strategy that sells, this is for you.
 
-Here’s my SaaS SEO checklist – with in-depth notes on why you should be ticking them.
+Here’s my SaaS SEO checklist, with in-depth notes on why you should be ticking them.
 
 ## TL;DR
 
@@ -233,7 +233,7 @@ Most people start with keywords, but effective SaaS SEO actually starts with **C
 2. **Build Topic Clusters:** Group keywords by intent to avoid cannibalization.
 3. **Write for AI:** creating content that answers conversational prompts with original insights.
 4. **Focus on [CRO](/glossary/what-is-cro/):** Use “Asset Exchanges” (like reports for emails) to nurture early-stage visitors.
-5. **Ensure Crawlability:** Keep the technical side simple—if Google can crawl and index it, you’re 90% there.
+5. **Ensure Crawlability:** Keep the technical side simple. If Google can crawl and index it, you’re 90% there.
 
 ### 2. Why is my high-volume keyword traffic not converting into demos?
 

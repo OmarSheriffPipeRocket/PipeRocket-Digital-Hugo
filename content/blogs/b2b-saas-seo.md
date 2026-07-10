@@ -186,20 +186,17 @@ Measure pipeline (not only the number of pageviews) by connecting the organic pe
 
 ## Frequently Asked Questions
 
-1. **What is B2B SaaS SEO?**
-
+### What is B2B SaaS SEO?
 B2B SaaS SEO refers to the process of optimizing a SaaS firm’s website to attract high-intent business buyers through organic search. It focuses on keywords at all phases of the buyer’s journey: problem awareness, solution comparison, and product evaluation. This is done using [technical SEO](/glossary/what-is-technical-seo/ "Glossary: Technical SEO"), content strategy, performance tuning, and authority building.
 
 In contrast to traditional SEO, it places more importance on the quality of leads rather than the traffic volume, where the goal is to convert a visitor into a demo, trial, or long-term customer.
 
-2. **What is the difference between B2B SaaS SEO and SaaS SEO?**
-
+### What is the difference between B2B SaaS SEO and SaaS SEO?
 [SaaS SEO](/blogs/saas-seo/) enhances search optimization of all SaaS products, targeting a broad audience that includes both individual and business users. B2B SaaS SEO, however, is designed to sell software to businesses. It focuses more on longer sales cycles, decision-maker keywords, comparison pages, and [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) pages that lead to demo or sales calls.
 
 General SaaS SEO typically drives sign-ups and traffic, but B2B SaaS SEO emphasizes finding qualified business buyers, nurturing them through various stages, and creating high-value leads, rather than a high volume of users.
 
-3. **How to implement a successful B2B SaaS SEO strategy?**
-
+### How to implement a successful B2B SaaS SEO strategy?
 A successful B2B SaaS SEO strategy begins with identifying your ICP and mapping keywords with all the buyer-journey phases. Next, optimize the technical foundation of your site for speed, crawlability, and clear message delivery. Develop a content pipeline that consists of problem-aware, solution-aware, product-aware topics, including comparison and feature pages.
 
 Establish power through backlinks, online PR, and partners. Continuously optimize conversion paths like demo pages, trial pages, and CTAs. Lastly, track performance using pipeline metrics like MQLs, SQLs, and revenue contribution, and not just traffic.

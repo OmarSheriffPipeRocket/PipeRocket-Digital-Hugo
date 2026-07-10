@@ -1,0 +1,29 @@
+title: "The Perplexity SEO Checklist for 2026"
+subtitle: "Get cited by Perplexity: allow its crawler, stay fresh and crawlable, publish citation-worthy answers, and build authority on trusted sources. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Let Perplexity reach you"
+    items:
+      - "Allow PerplexityBot (and Perplexity-User) in robots.txt"
+      - "Server-render content so it can be read without running JavaScript"
+      - "Keep the site fast so real-time retrieval can fetch pages quickly"
+  - title: "2. Be fresh and crawlable"
+    items:
+      - "Publish and update content regularly (Perplexity favours fresh, live pages)"
+      - "Keep an accurate sitemap so new pages are found fast"
+      - "Fix crawl errors and make sure key pages are indexable"
+  - title: "3. Be citation-worthy"
+    items:
+      - "Front-load a direct, quotable answer in the first 1-2 sentences"
+      - "Cite your own sources with links (Perplexity rewards well-sourced pages)"
+      - "Publish original data, statistics, and clear definitions"
+      - "Structure content as self-contained question-and-answer blocks"
+  - title: "4. Build authority & entity signals"
+    items:
+      - "Keep entity facts consistent across the web"
+      - "Earn mentions on the trusted sources Perplexity pulls from (Reddit, docs, reputable press)"
+      - "Get listed in credible roundups and comparisons"
+  - title: "5. Measure"
+    items:
+      - "Test target prompts in Perplexity monthly and note citations"
+      - "Track Perplexity referral traffic in GA4"
+      - "Double down on the pages and sources that get cited"

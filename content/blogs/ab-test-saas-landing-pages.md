@@ -123,6 +123,8 @@ The through-line across all three: a fake win does real damage, because it teach
 
 We don't test button colors on pages that can't support it. When conversion is flat, we start with the data the page already has, GA4 path drop-offs and session recordings, form a real hypothesis, then either run a properly sized test or make a confident, evidence-led redesign and measure it honestly against the baseline. The point is always pipeline, measured in demos and trials rather than a prettier dashboard. If your traffic is holding but your demos aren't, that's a conversion problem worth diagnosing. You can see how we approach this as a [SaaS SEO agency](https://piperocket.digital/saas-seo-agency/), or just [reach out to us](https://piperocket.digital/contact-us/) and we'll take a look.
 
+Run your experiments against our free [A/B testing checklist](/checklists/ab-testing-checklist/), and optimise the page itself with the [landing page checklist](/checklists/landing-page-checklist/).
+
 ## Frequently Asked Questions
 
 ### How much traffic do you need to A/B test a landing page?

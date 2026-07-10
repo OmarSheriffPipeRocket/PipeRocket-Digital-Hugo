@@ -1,10 +1,10 @@
 ---
-title: "The Landing Page Checklist for 2026 (Free downloadable PDF)"
+title: "The Landing Page Checklist for 2026 (Download PDF + Excel)"
 description: "An interactive landing page checklist for 2026: message match, copy, trust, form and CTA, speed, and testing. Tick items off, save your progress, and download the PDF."
-metaTitle: "The Landing Page Checklist for 2026 (Free Interactive Tool)"
+metaTitle: "The Landing Page Checklist for 2026 (Download PDF + Excel)"
 metaDescription: "A complete landing page checklist for 2026: message match, copy, social proof, form and CTA, speed, and A/B testing. Interactive, saves your progress, free PDF. No email."
-date: 2026-07-05
-lastmod: 2026-07-05
+date: 2026-07-05T09:00:00+05:30
+lastmod: 2026-07-05T09:00:00+05:30
 slug: "landing-page-checklist"
 url: "/checklists/landing-page-checklist/"
 type: "blogs"
