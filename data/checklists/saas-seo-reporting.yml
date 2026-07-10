@@ -1,0 +1,31 @@
+title: "The SEO Reporting for SaaS Checklist for 2026"
+subtitle: "Build an SEO report executives actually read: outcome-led metrics, clean data plumbing, the sections every SaaS report needs, AI/SERP visibility, and insight over numbers. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Define what to report"
+    items:
+      - "Tie every metric to a business outcome (pipeline, signups, revenue), not just traffic"
+      - "Agree the KPIs and reporting cadence with stakeholders"
+      - "Separate leading indicators (rankings, impressions) from lagging ones (pipeline, revenue)"
+  - title: "2. Set up the data"
+    items:
+      - "Connect Search Console, GA4, and your rank tracker"
+      - "Define conversion events for signups, demos, and trials in GA4"
+      - "Segment organic cleanly from other channels"
+      - "Track brand vs non-brand queries separately"
+  - title: "3. Core report sections"
+    items:
+      - "Organic traffic and trend vs previous period and year"
+      - "Rankings and visibility for target keywords and clusters"
+      - "Organic conversions and pipeline attributed to SEO"
+      - "Top winning and decaying pages, each with a next action"
+      - "Technical health (indexation, Core Web Vitals, crawl issues)"
+  - title: "4. AI & SERP visibility"
+    items:
+      - "Track AI Overview and answer-engine appearances and citations"
+      - "Monitor featured snippets and People Also Ask ownership"
+      - "Note impression and click shifts from SERP-feature changes"
+  - title: "5. Insight & action"
+    items:
+      - "Lead with insights and next actions, not just numbers"
+      - "Flag what changed, why, and what you will do about it"
+      - "Keep an experiment log tied to outcomes"

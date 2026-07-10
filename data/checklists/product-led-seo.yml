@@ -1,0 +1,29 @@
+title: "The Product-Led SEO Checklist for 2026"
+subtitle: "Turn your product into your best-ranking asset: programmatic pages done right, free tools, bottom-funnel page types, and a path from organic traffic to activation. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Understand product-led SEO"
+    items:
+      - "Identify the parts of your product that can become indexable, searchable pages"
+      - "Map high-intent queries your product can answer better than an article"
+      - "Decide where programmatic pages fit versus hand-written content"
+  - title: "2. Programmatic & template pages"
+    items:
+      - "Build scalable page templates for repeatable query patterns (integrations, use cases, locations)"
+      - "Ensure every generated page has genuinely unique, useful content (no thin duplication)"
+      - "Add internal links so programmatic pages are discoverable and pass authority"
+      - "Control crawl budget: index the pages worth ranking, noindex the thin ones"
+  - title: "3. Free tools & lead magnets"
+    items:
+      - "Ship free tools, calculators, or templates that rank for high-intent queries"
+      - "Gate nothing that should rank; let the tool itself be the ranking asset"
+      - "Add contextual product CTAs inside the tool experience"
+  - title: "4. Comparison, alternative & integration pages"
+    items:
+      - "Create 'vs' and 'alternative to' pages for competitors you win against"
+      - "Build an integration page per major integration you support"
+      - "Add use-case pages that connect a job-to-be-done to a product feature"
+  - title: "5. Connect SEO to activation"
+    items:
+      - "Route organic visitors to a product-qualified action (signup, free tool, trial)"
+      - "Instrument the path from organic landing to signup to activation"
+      - "Feed conversion data back into which templates and topics to scale"
