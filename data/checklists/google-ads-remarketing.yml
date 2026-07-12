@@ -1,0 +1,41 @@
+title: "The Google Ads Remarketing Checklist for 2026"
+subtitle: "Build remarketing that re-engages real buyers instead of burning budget on bounced traffic: tag and audience setup, smart segmentation, the right campaign types, message-matched creative, and frequency control. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Tag and audience setup"
+    items:
+      - "Confirm the Google Ads remarketing tag (or GA4 remarketing) fires site-wide"
+      - "Link GA4 and Google Ads so you can share GA4 audiences into campaigns"
+      - "Enable Google signals and confirm consent mode is configured"
+      - "Verify audiences are collecting members and meeting size thresholds before launching"
+  - title: "2. Audience segmentation"
+    items:
+      - "Segment by funnel depth: all visitors vs pricing/demo/product-page viewers"
+      - "Build a cart or form-abandoner audience (started but did not convert)"
+      - "Create a converter audience to exclude (or to upsell/cross-sell separately)"
+      - "Set membership durations that match your sales cycle (short for BOFU, longer for B2B)"
+      - "Build a customer-match list from your CRM for existing users and closed-lost"
+  - title: "3. Campaign types"
+    items:
+      - "Run Display remarketing for cheap, broad re-engagement"
+      - "Add RLSA (remarketing lists for search ads) to bid up on returning searchers"
+      - "Use YouTube remarketing to re-engage video and channel viewers"
+      - "Consider Dynamic remarketing if you have a feed of products or plans"
+      - "Keep remarketing out of your prospecting campaigns so reporting stays clean"
+  - title: "4. Creative and messaging"
+    items:
+      - "Match the message to the funnel stage (reminder for BOFU, social proof for MOFU)"
+      - "Lead with a specific offer or objection-handler, not a generic brand ad"
+      - "Refresh creative on a schedule to fight ad fatigue"
+      - "Send clicks to the exact page they abandoned, not the homepage"
+  - title: "5. Frequency and exclusions"
+    items:
+      - "Set a frequency cap so you re-engage without stalking users"
+      - "Exclude converters and current customers from acquisition remarketing"
+      - "Exclude irrelevant placements (apps, low-quality sites) on Display"
+      - "Suppress audiences that never respond after a set number of impressions"
+  - title: "6. Measurement"
+    items:
+      - "Track view-through vs click-through conversions separately to judge true lift"
+      - "Compare remarketing CPA and ROAS against prospecting, not in isolation"
+      - "Watch for over-crediting: remarketing often claims conversions that would happen anyway"
+      - "Review audience overlap and prune redundant or shrinking lists monthly"

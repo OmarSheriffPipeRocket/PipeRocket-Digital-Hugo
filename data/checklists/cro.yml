@@ -1,0 +1,38 @@
+title: "The Conversion Rate Optimization (CRO) Checklist for 2026"
+subtitle: "A disciplined CRO loop that finds real friction, tests the right things, and only ships winners: research, prioritised hypotheses, sound experiments, honest analysis, and compounding wins. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Research and data"
+    items:
+      - "Set clear conversion goals and confirm they are tracked accurately in analytics"
+      - "Find the biggest drop-off pages with a funnel and path report"
+      - "Watch session recordings and heatmaps to see where users hesitate or rage-click"
+      - "Run on-page or exit surveys to hear objections in the user's own words"
+      - "Review the buyer journey for high-traffic, low-conversion pages worth fixing first"
+  - title: "2. Hypothesis and prioritization"
+    items:
+      - "Write each idea as a testable hypothesis (change, expected effect, why)"
+      - "Score ideas with a framework like ICE or PIE (impact, confidence, ease)"
+      - "Prioritise pages with high traffic and high business value"
+      - "Make sure you have enough traffic and conversions to reach significance in a reasonable time"
+  - title: "3. Optimize the fundamentals"
+    items:
+      - "Sharpen the value proposition and headline above the fold"
+      - "Reduce form friction: fewer fields, clearer labels, logical order"
+      - "Make the primary CTA specific, visible, and singular per page"
+      - "Add trust signals: social proof, logos, reviews, security and guarantees"
+      - "Fix page speed and mobile experience (a common silent conversion killer)"
+      - "Remove distractions and competing links on conversion-focused pages"
+  - title: "4. Testing"
+    items:
+      - "Run A/B tests, not untracked redesigns, so you can attribute the change"
+      - "Test one clear variable (or a well-defined variant) at a time"
+      - "Calculate sample size and duration up front; run full business cycles (usually 2+ weeks)"
+      - "Do not stop a test early just because it looks like it is winning"
+      - "QA the test across browsers and devices before it goes live"
+  - title: "5. Analyze and iterate"
+    items:
+      - "Only call a winner at statistical significance, not on a hunch"
+      - "Segment results (device, source, new vs returning) before rolling out"
+      - "Document every test and its outcome, including the losers"
+      - "Roll winners into the live experience and feed learnings into the next hypothesis"
+      - "Re-test important wins periodically as audience and market shift"

@@ -1,0 +1,38 @@
+title: "The Conversion Tracking Checklist for 2026"
+subtitle: "Set up measurement you can actually trust before you spend on ads: plan your events, wire GA4 and GTM cleanly, feed accurate conversions back to every ad platform, close the loop with your CRM, and QA it all. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Plan what to track"
+    items:
+      - "List your macro conversions (demo request, trial start, paid signup) and micro conversions (pricing view, resource download)"
+      - "Assign a value or proxy value to each conversion so platforms can optimise toward revenue, not clicks"
+      - "Define one primary conversion per campaign objective to avoid conflicting optimisation signals"
+      - "Document a naming convention for events and conversions before anyone builds them"
+      - "Decide count settings: one-per-click for lead gen, every for e-commerce-style actions"
+  - title: "2. GA4 and GTM foundation"
+    items:
+      - "Install GA4 through Google Tag Manager, not hard-coded, so tags stay maintainable"
+      - "Confirm the base tag fires once per page (no duplicate pageviews)"
+      - "Build key events in GA4 and mark the important ones as conversions"
+      - "Use consistent, descriptive event names and parameters across the site"
+      - "Set up cross-domain tracking if your funnel spans marketing site and app subdomains"
+      - "Configure consent mode so tracking respects cookie choices without losing modelled data"
+  - title: "3. Ad platform conversions"
+    items:
+      - "Install the Google Ads tag and import or create conversion actions (avoid double-counting GA4 imports and native tags)"
+      - "Add enhanced conversions for Google Ads to recover conversions lost to cookie limits"
+      - "Install the LinkedIn Insight Tag and Meta Pixel or CAPI where you run paid social"
+      - "Map each ad platform conversion to the same source-of-truth action to keep numbers comparable"
+      - "Verify UTM parameters are consistent so paid traffic attributes correctly"
+  - title: "4. CRM and offline conversions"
+    items:
+      - "Capture GCLID (and wbraid/gbraid) on form submissions and store it against the lead"
+      - "Pass CRM lifecycle stages (MQL, SQL, opportunity, closed-won) back to Google Ads as offline conversions"
+      - "Feed offline conversions so bidding optimises toward pipeline and revenue, not raw leads"
+      - "Reconcile CRM lead counts against ad-platform conversion counts monthly"
+  - title: "5. QA and maintenance"
+    items:
+      - "Test every conversion end-to-end in GTM Preview and the GA4 DebugView"
+      - "Fire a real test lead and confirm it lands in GA4, the ad platform, and the CRM"
+      - "Check for duplicate, missing, or self-attributed conversions after launch"
+      - "Set a recurring audit (quarterly) plus a check after any site or form change"
+      - "Document the full setup so it survives team and platform changes"
