@@ -604,6 +604,9 @@ a.pr-btn--ghost:hover,
 .pr-megamenu--tools .pr-megamenu__link { padding: 8px 2.4rem 8px 8px; margin: 0 -8px; }
 .pr-megamenu--tools .pr-megamenu__link strong { font-size: 0.95rem; }
 .pr-megamenu--tools .pr-megamenu__link span { font-size: 0.78rem; line-height: 1.35; }
+/* Free-tools menu: keep the right-arrow affordance visible on every tool link (not hover-only) */
+.pr-megamenu--tools .pr-megamenu__link::after { opacity: 1; }
+.pr-megamenu--tools .pr-megamenu__link:hover::after { transform: translateY(-50%) translateX(4px); }
 
 /* NEW badge on mega menu links (e.g. AEO & GEO) */
 .pr-megamenu__badge {
