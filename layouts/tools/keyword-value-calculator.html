@@ -1,0 +1,225 @@
+{{/* Keyword Value Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-calc select { flex: 1; border: 0; background: transparent; padding: var(--pr-s-3) 0; font-family: var(--pr-sans); font-size: 1rem; font-weight: 600; color: var(--pr-ink); outline: none; width: 100%; -webkit-appearance: none; appearance: none; cursor: pointer; }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Keyword Value Calculator for B2B SaaS SEO", "description": "Free keyword value calculator. Get a single keyword's monthly and annual revenue from search volume, ranking position, conversion and close rates and deal value.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate the value of a keyword?", "acceptedAnswer": { "@type": "Answer", "text": "Multiply search volume by your position's click-through rate for clicks, then apply your lead conversion, close rate and deal value to get monthly and annual revenue." } },
+    { "@type": "Question", "name": "What is a keyword worth for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "In B2B SaaS a keyword's worth is the revenue it captures, not its traffic: even 200 clicks a month can be worth six figures a year once a few visitors close as high-ACV deals." } },
+    { "@type": "Question", "name": "What CTR should I use by ranking position?", "acceptedAnswer": { "@type": "Answer", "text": "Use an organic CTR curve that decays with rank: about 30% at position 1, 15% at 2 and 10% at 3, then single digits from position 4 down, since top spots take most clicks." } },
+    { "@type": "Question", "name": "Why use ACV or LTV instead of order value?", "acceptedAnswer": { "@type": "Answer", "text": "SaaS revenue recurs rather than arriving as a one-time order, so value keywords on annual contract value or lifetime value to capture each won customer's full multi-year worth." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · SEO</span>
+          <h1 class="pr-calc__title">Keyword Value Calculator</h1>
+          <p class="pr-calc__sub">See what ranking for a single keyword is worth to your B2B SaaS. Enter search volume, a target position, your funnel rates and deal value to get the monthly and annual revenue that keyword can drive. Built on ACV, not order value. No email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Monthly search volume <em>for the keyword</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="vol" value="2000" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">/mo</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Target ranking position <em>Google page 1</em></span>
+            <span class="pr-calc__input-wrap"><select id="pos" class="pr-calc__no-prefix">
+              <option value="1">Position 1</option>
+              <option value="2">Position 2</option>
+              <option value="3" selected>Position 3</option>
+              <option value="4">Position 4</option>
+              <option value="5">Position 5</option>
+              <option value="6">Position 6</option>
+              <option value="7">Position 7</option>
+              <option value="8">Position 8</option>
+              <option value="9">Position 9</option>
+              <option value="10">Position 10</option>
+            </select><span class="pr-calc__suffix">&#9662;</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Visitor to lead rate <em>typical 1 to 3%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="conv" value="3" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Lead to customer close rate <em>typical 20%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="close" value="20" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Average deal value <em>ACV or LTV</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="acv" value="15000" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>What this keyword is worth</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rClicks">-</div><div class="pr-calc__l">Organic clicks / mo</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rLeads">-</div><div class="pr-calc__l">Leads / mo</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCust">-</div><div class="pr-calc__l">Customers / mo</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rMonthly">-</div><div class="pr-calc__l">Monthly value</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rAnnual">-</div><div class="pr-calc__l">Annual value</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter a monthly search volume and pick a target position to value this keyword.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-kwval-mid">See what ranking for your whole keyword set is worth →</a>
+          <small>No commitment · 30-min SaaS SEO strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>One keyword is a data point; a ranked keyword set is a pipeline.</strong>
+          <p>PipeRocket builds SEO programs around the terms your buyers actually close on.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-kwval-side">Get an SEO audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/free-seo-roi-calculator/">SEO ROI Calculator</a>
+            <a href="/tools/lead-value-calculator/">Lead Value Calculator</a>
+            <a href="/tools/conversion-rate-calculator/">Conversion Rate Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is keyword value?</h2>
+          <blockquote>Keyword value is the revenue a single keyword can produce once you rank for it, not the traffic it sends. It turns a search volume into a business number by tracing clicks through your funnel: clicks become leads, leads become customers, and customers carry a deal value. For B2B SaaS this matters more than for most sites, because a keyword with modest volume can still be worth six figures a year when even a handful of visitors close as high-value contracts.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Monthly clicks   = search volume × CTR at your position
+Leads            = clicks × (visitor-to-lead rate ÷ 100)
+Customers        = leads × (close rate ÷ 100)
+Monthly value    = customers × deal value (ACV or LTV)
+Annual value     = monthly value × 12</pre>
+          <p>The one input you do not type is the click-through rate. Picking a target position pulls a CTR from an organic curve (roughly 30% at position 1, tapering into low single digits by position 10), so you can model the value of climbing from, say, position 6 to the top three.</p>
+
+          <h2>Why B2B SaaS keywords are valued on deals, not order value</h2>
+          <p>Most keyword value calculators are built for e-commerce. They multiply clicks by a conversion rate and an average order value (AOV), which fits a one-time $80 purchase but badly underprices SaaS. A B2B SaaS customer does not place a single order; they sign a contract that recurs, expands, and often runs for years. Valuing that keyword on a one-off order figure hides most of the money.</p>
+          <p>This calculator swaps AOV for annual contract value (ACV) or lifetime value (LTV), and it splits conversion into two honest steps: visitor to lead, then lead to customer. That two-stage funnel reflects how SaaS actually closes, through a demo or trial and a sales conversation, rather than an instant checkout. The result is a number a founder or CFO can act on, because it speaks in pipeline and revenue rather than sessions.</p>
+
+          <h2>CTR by ranking position</h2>
+          <p>Click-through rate falls sharply as you move down the page, which is why the value of a keyword is so sensitive to where you rank. The curve below is an approximate industry blend for organic results; your real numbers vary with SERP features, brand strength and intent, but the shape holds.</p>
+          <table>
+            <thead><tr><th>Position</th><th>Approx. CTR</th><th>Read</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>30%</td><td>Captures most of the clicks on the term</td></tr>
+              <tr><td>2</td><td>15%</td><td>Roughly half of position one</td></tr>
+              <tr><td>3</td><td>10%</td><td>A realistic, credible target for most terms</td></tr>
+              <tr><td>4 to 6</td><td>7% to 4%</td><td>Meaningful, but leaving clicks on the table</td></tr>
+              <tr><td>7 to 10</td><td>3% to 1.5%</td><td>Page-one presence with thin traffic</td></tr>
+            </tbody>
+          </table>
+
+          <h2>How to raise a keyword's value</h2>
+          <ul>
+            <li><strong>Climb the ranking.</strong> Moving from position 6 to position 3 can more than double clicks from the same search volume, the single biggest lever here.</li>
+            <li><strong>Lift visitor-to-lead conversion.</strong> A sharper page, a stronger offer and a clear call to action turn the same clicks into more leads.</li>
+            <li><strong>Target higher-intent keywords.</strong> Bottom-of-funnel terms convert and close far better than top-of-funnel volume, even at lower search counts.</li>
+            <li><strong>Grow deal value.</strong> As ACV or LTV rises, every ranked keyword is worth proportionally more, which is why enterprise SaaS can justify aggressive SEO.</li>
+          </ul>
+
+          <h2>One keyword versus your whole program</h2>
+          <p>This tool values a single term on purpose, so you can compare two keywords, prioritize a content brief, or defend why a low-volume phrase deserves a page. To value an entire SEO program (budget in, pipeline and ARR out) use our <a href="/tools/free-seo-roi-calculator/">SEO ROI calculator</a>, which models your full funnel and return on spend. If you want the upstream number, what one converted lead is worth before you factor in traffic, the <a href="/tools/lead-value-calculator/">lead value calculator</a> handles that. Together they take you from one keyword to a full organic revenue model.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate the value of a keyword?</h3>
+          <p>Multiply search volume by your position's click-through rate for clicks, then apply your lead conversion, close rate and deal value to get monthly and annual revenue.</p>
+          <h3>What is a keyword worth for B2B SaaS?</h3>
+          <p>In B2B SaaS a keyword's worth is the revenue it captures, not its traffic: even 200 clicks a month can be worth six figures a year once a few visitors close as high-ACV deals.</p>
+          <h3>What CTR should I use by ranking position?</h3>
+          <p>Use an organic CTR curve that decays with rank: about 30% at position 1, 15% at 2 and 10% at 3, then single digits from position 4 down, since top spots take most clicks.</p>
+          <h3>Why use ACV or LTV instead of order value?</h3>
+          <p>SaaS revenue recurs rather than arriving as a one-time order, so value keywords on annual contract value or lifetime value to capture each won customer's full multi-year worth.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['vol','pos','conv','close','acv'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  var CTR = { 1:0.30, 2:0.15, 3:0.10, 4:0.07, 5:0.05, 6:0.04, 7:0.03, 8:0.025, 9:0.02, 10:0.015 };
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+(n>=100?Math.round(n).toLocaleString():n.toFixed(2)); }
+  function count(n){ if(!isFinite(n)||n<=0) return '0'; var r=Math.round(n*10)/10; return r%1===0 ? r.toLocaleString() : r.toFixed(1); }
+  function pct(x){ return (x*100).toFixed(1).replace(/\.?0+$/,'')+'%'; }
+
+  function recalc(){
+    var vol=num('vol'), pos=parseInt($('pos').value,10)||1, convR=num('conv'), closeR=num('close'), acv=num('acv');
+    var ctr=CTR[pos]||0;
+    var clicks=vol*ctr;
+    var leads=clicks*(convR/100);
+    var customers=leads*(closeR/100);
+    var monthly=customers*acv;
+    var annual=monthly*12;
+    var live = vol>0;
+    $('rClicks').textContent  = live ? count(clicks)    : '-';
+    $('rLeads').textContent   = live ? count(leads)     : '-';
+    $('rCust').textContent    = live ? count(customers) : '-';
+    $('rMonthly').textContent = live ? money(monthly)   : '-';
+    $('rAnnual').textContent  = live ? money(annual)    : '-';
+    if (!live) {
+      $('rec').innerHTML = 'Enter a monthly search volume and pick a target position to value this keyword.';
+      return;
+    }
+    $('rec').innerHTML = 'At <strong>position '+pos+'</strong> (about a <strong>'+pct(ctr)+'</strong> click-through rate), <strong>'+vol.toLocaleString()+'</strong> monthly searches send roughly <strong>'+count(clicks)+' clicks</strong>, <strong>'+count(leads)+' leads</strong> and <strong>'+count(customers)+' customers</strong> a month. At a <strong>'+money(acv)+'</strong> deal value that is about <strong>'+money(monthly)+'</strong> in new revenue every month, or <strong>'+money(annual)+'</strong> a year, from a single keyword.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); $(i).addEventListener('change', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

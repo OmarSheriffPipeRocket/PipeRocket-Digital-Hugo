@@ -1,0 +1,221 @@
+{{/* CAC Payback Period Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .calc-badge { display: inline-block; padding: 3px 14px; border-radius: 999px; font-weight: 700; font-size: 1rem; letter-spacing: 0.02em; }
+  .calc-badge--good { background: rgba(15, 122, 82, 0.14); color: #0F7A52; }
+  .calc-badge--ok { background: rgba(183, 121, 31, 0.16); color: #B7791F; }
+  .calc-badge--bad { background: rgba(230, 57, 70, 0.14); color: var(--pr-red); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "CAC Payback Period Calculator for SaaS", "description": "Free CAC payback period calculator for B2B SaaS. Enter CAC, monthly revenue per customer and gross margin to get your payback period in months with a benchmark health check.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is CAC payback period?", "acceptedAnswer": { "@type": "Answer", "text": "CAC payback period is the number of months a new SaaS customer needs to generate enough gross-margin revenue to repay what it cost to acquire them." } },
+    { "@type": "Question", "name": "How do you calculate CAC payback period?", "acceptedAnswer": { "@type": "Answer", "text": "Divide customer acquisition cost by monthly revenue per customer times gross margin: CAC / (ARPA x gross margin). For example, 12,000 / (800 x 0.8) = 18.75 months." } },
+    { "@type": "Question", "name": "What is a good CAC payback period for SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "For B2B SaaS in 2026, under 12 months is healthy, 12 to 18 months is acceptable, and over 18 months flags that acquisition is too costly to sustain." } },
+    { "@type": "Question", "name": "Should CAC payback use gross margin?", "acceptedAnswer": { "@type": "Answer", "text": "Yes; multiply recurring revenue by gross margin so payback counts only the profit each customer contributes, not raw revenue that ignores serving costs." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · SaaS Metrics</span>
+          <h1 class="pr-calc__title">CAC Payback Period Calculator</h1>
+          <p class="pr-calc__sub">Enter your customer acquisition cost, monthly revenue per customer and gross margin to get your CAC payback period in months, with a live health band against 2026 B2B SaaS benchmarks. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Customer acquisition cost <em>CAC, per customer</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="cac" value="12000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Monthly revenue per customer <em>ARPA, per month</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="arpa" value="800" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Gross margin <em>percent of revenue</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="margin" value="80" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your CAC payback</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rMonths">-</div><div class="pr-calc__l">CAC payback period</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rVerdict">-</div><div class="pr-calc__l">Benchmark health</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rContrib">-</div><div class="pr-calc__l">Gross-margin per customer</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rVsTarget">-</div><div class="pr-calc__l">Vs 12-month healthy line</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your CAC, monthly revenue per customer and gross margin to see your CAC payback period.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cacpayback-mid">Shorten CAC payback with compounding SaaS SEO →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>A cheaper acquisition channel shortens payback fastest.</strong>
+          <p>PipeRocket builds the organic engine that lowers blended CAC and speeds payback.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cacpayback-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cac-calculator/">CAC Calculator</a>
+            <a href="/tools/ltv-calculator/">LTV Calculator</a>
+            <a href="/tools/nrr-calculator/">NRR Calculator</a>
+            <a href="/tools/arpu-calculator/">ARPU Calculator</a>
+            <a href="/tools/rule-of-40-calculator/">Rule of 40 Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is CAC payback period?</h2>
+          <blockquote>CAC payback period is how many months a new customer takes to generate enough gross-margin revenue to repay what you spent acquiring them. It is the SaaS efficiency metric that answers a cash-flow question directly: how long until this customer stops being a net cost and starts funding the next one. Because SaaS revenue arrives monthly rather than upfront, a long payback ties up cash and slows how fast you can reinvest in growth.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <p>One line of arithmetic, no black box. Gross margin is baked in so the result reflects real profit, not headline revenue:</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Monthly gross-margin $  = ARPA × (gross margin ÷ 100)
+CAC payback (months)    = CAC ÷ monthly gross-margin $
+
+Worked example:
+                        = $12,000 ÷ ($800 × 0.80)
+                        = $12,000 ÷ $640
+                        = 18.75 months</pre>
+          <p>ARPA is the average monthly recurring revenue per account. Multiplying it by gross margin strips out the cost of serving that customer (hosting, support, payment fees) so you count the dollars that actually pay down CAC. Skip the margin step and you will understate payback and flatter every deal.</p>
+
+          <h2>Blended vs paid CAC: which to feed the calculator</h2>
+          <p>The number you put in the CAC field changes what the answer means. Blended CAC divides all sales and marketing spend by every new customer, including those from organic search, referrals and word of mouth, so it reflects the whole engine. Paid CAC counts only the customers a specific paid channel bought and the spend behind them. Blended CAC is the honest board-level number; paid CAC is what you optimise campaigns against. Run both, and note that scaling organic pulls blended CAC (and therefore payback) down over time even as paid CAC holds steady.</p>
+
+          <h2>What is a good CAC payback period for SaaS?</h2>
+          <table>
+            <thead><tr><th>CAC payback</th><th>Read</th><th>What it means in 2026</th></tr></thead>
+            <tbody>
+              <tr><td>Under 12 months</td><td>Healthy</td><td>Efficient acquisition; cash recycles fast enough to fund growth.</td></tr>
+              <tr><td>12 to 18 months</td><td>Acceptable</td><td>Workable for higher-ACV or enterprise motions, but worth tightening.</td></tr>
+              <tr><td>Over 18 months</td><td>Flag</td><td>Acquisition is expensive relative to margin; cash stays locked up too long.</td></tr>
+            </tbody>
+          </table>
+          <p>These bands assume gross-margin-adjusted payback. Benchmarks vary by segment: SMB SaaS should sit well under 12 months, while enterprise deals with large contract values can justify the upper end because retention is stronger and expansion follows.</p>
+
+          <h2>How to shorten CAC payback</h2>
+          <ul>
+            <li><strong>Lower CAC with compounding channels.</strong> Organic search and content keep converting after you stop paying per click, so they pull blended CAC and payback down month after month.</li>
+            <li><strong>Lift ARPA.</strong> Better packaging, expansion revenue and annual-upfront billing all shorten the time to recover CAC.</li>
+            <li><strong>Protect gross margin.</strong> Every point of margin you claw back on infrastructure or support flows straight into faster payback.</li>
+            <li><strong>Convert more of the traffic you already pay for.</strong> A stronger landing page and onboarding raise conversion, spreading the same spend across more customers.</li>
+          </ul>
+
+          <h2>CAC payback and the rest of your SaaS metrics</h2>
+          <p>CAC payback answers "how fast," while the <a href="/tools/ltv-calculator/">LTV to CAC ratio</a> answers "is it worth it at all." Pair this tool with the <a href="/tools/cac-calculator/">CAC calculator</a> to size acquisition cost, the <a href="/tools/arpu-calculator/">ARPU calculator</a> to pin down revenue per account, and the <a href="/tools/nrr-calculator/">NRR calculator</a> to see whether expansion keeps compounding after payback. Roll growth and profitability together in the <a href="/tools/rule-of-40-calculator/">Rule of 40 calculator</a> for a single balance check.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>What is CAC payback period?</h3>
+          <p>CAC payback period is the number of months a new SaaS customer needs to generate enough gross-margin revenue to repay what it cost to acquire them.</p>
+          <h3>How do you calculate CAC payback period?</h3>
+          <p>Divide customer acquisition cost by monthly revenue per customer times gross margin: CAC / (ARPA x gross margin). For example, 12,000 / (800 x 0.8) = 18.75 months.</p>
+          <h3>What is a good CAC payback period for SaaS?</h3>
+          <p>For B2B SaaS in 2026, under 12 months is healthy, 12 to 18 months is acceptable, and over 18 months flags that acquisition is too costly to sustain.</p>
+          <h3>Should CAC payback use gross margin?</h3>
+          <p>Yes; multiply recurring revenue by gross margin so payback counts only the profit each customer contributes, not raw revenue that ignores serving costs.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['cac','arpa','margin'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+(n>=100?Math.round(n).toLocaleString():n.toFixed(2)); }
+  function pct(n){ return (Math.round(n*10)/10)+'%'; }
+
+  function recalc(){
+    var cac=num('cac'), arpa=num('arpa'), margin=num('margin');
+    var gm = margin/100;
+    var contrib = arpa*gm;
+    var valid = cac>0 && contrib>0;
+
+    if (!valid){
+      $('rMonths').textContent = '-';
+      $('rVerdict').innerHTML = '-';
+      $('rContrib').textContent = contrib>0 ? money(contrib)+'/mo' : '-';
+      $('rVsTarget').textContent = '-';
+      $('rec').innerHTML = 'Enter a positive CAC, monthly revenue per customer and gross margin to see your CAC payback period.';
+      return;
+    }
+
+    var months = cac/contrib;
+    var band, cls;
+    if (months < 12){ band='Healthy'; cls='calc-badge--good'; }
+    else if (months <= 18){ band='Acceptable'; cls='calc-badge--ok'; }
+    else { band='Flag'; cls='calc-badge--bad'; }
+    var vsTarget = months-12;
+
+    $('rMonths').textContent = months.toFixed(1)+' mo';
+    $('rVerdict').innerHTML = '<span class="calc-badge '+cls+'">'+band+'</span>';
+    $('rContrib').textContent = money(contrib)+'/mo';
+    $('rVsTarget').textContent = (vsTarget>0?'+':'')+vsTarget.toFixed(1)+' mo';
+
+    var base = 'Spending <strong>'+money(cac)+'</strong> to win a customer worth <strong>'+money(arpa)+'/mo</strong> at a <strong>'+pct(margin)+'</strong> gross margin returns <strong>'+money(contrib)+'/mo</strong> in gross profit, so it takes <strong>'+months.toFixed(1)+' months</strong> to pay back CAC. ';
+    if (band==='Healthy') base += 'That is under 12 months, healthy by 2026 B2B SaaS benchmarks.';
+    else if (band==='Acceptable') base += 'That is in the 12 to 18 month range, acceptable but worth tightening.';
+    else base += 'That is over 18 months, a flag that acquisition is too expensive; aim to get under 12.';
+    $('rec').innerHTML = base;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

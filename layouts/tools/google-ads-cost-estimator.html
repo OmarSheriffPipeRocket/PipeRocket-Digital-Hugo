@@ -1,0 +1,221 @@
+{{/* Google Ads Cost Estimator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Google Ads Cost Estimator for B2B SaaS", "description": "Free Google Ads cost estimator. Enter monthly budget and average CPC to get estimated clicks, leads and cost per lead, plus new customers, pipeline value and ROAS.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How much do Google Ads cost for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "Most B2B SaaS advertisers spend $3,000 to $20,000+ per month on Google Ads, with clicks around $3 to $8 on competitive software terms and cost per lead often $80 to $300." } },
+    { "@type": "Question", "name": "How do I estimate my Google Ads budget?", "acceptedAnswer": { "@type": "Answer", "text": "Work backwards from your goal: multiply target leads by average CPC, then divide by your conversion rate, so 50 leads at a $4 CPC and 5% conversion needs about $4,000 per month." } },
+    { "@type": "Question", "name": "What is a good cost per click or cost per lead in B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "A healthy B2B SaaS CPC runs roughly $2 to $8 on search, and a good cost per lead is about $50 to $300 depending on ACV; judge both against pipeline and closed revenue." } },
+    { "@type": "Question", "name": "How does this estimator calculate cost?", "acceptedAnswer": { "@type": "Answer", "text": "It divides your monthly budget by average CPC to get clicks, applies your conversion rate for leads, then divides budget by leads for cost per lead, and adds ACV for pipeline." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · Paid Ads</span>
+          <h1 class="pr-calc__title">Google Ads Cost Estimator</h1>
+          <p class="pr-calc__sub">See what Google Ads will cost you and what budget it takes to hit your goal. Enter monthly budget and average CPC to get estimated clicks, leads and cost per lead, then add ACV and close rate for a full SaaS pipeline read. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Monthly budget <em>ad spend per month</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="budget" value="5000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Average CPC <em>cost per click</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="cpc" value="3.50" min="0" step="0.1"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Conversion rate to lead <em>clicks that become leads</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="cvr" value="5" min="0" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Average deal value <em>optional, ACV</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="acv" value="12000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Lead-to-customer close rate <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="close" value="20" min="0" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your Google Ads cost estimate</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rClicks">–</div><div class="pr-calc__l">Estimated monthly clicks</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rLeads">–</div><div class="pr-calc__l">Estimated leads</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rCpl">–</div><div class="pr-calc__l">Cost per lead</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCust">–</div><div class="pr-calc__l">Estimated new customers</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rPipe">–</div><div class="pr-calc__l">Pipeline value</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rRoas">–</div><div class="pr-calc__l">Pipeline ROAS</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter a monthly budget and average CPC to estimate your clicks, leads and cost per lead.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-ppc/" class="pr-btn" data-cta-source="tool-gads-cost-mid">Turn this budget into pipeline with SaaS-focused PPC →</a>
+          <small>No commitment · 30-min paid strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>A budget is only as good as the pipeline it builds.</strong>
+          <p>PipeRocket runs Google Ads for B2B SaaS so every click works toward closed revenue.</p>
+          <a href="/saas-ppc/" class="pr-btn" data-cta-source="tool-gads-cost-side">Get a paid audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpc-calculator/">CPC Calculator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What this Google Ads cost estimator tells you</h2>
+          <blockquote>This Google Ads cost estimator answers two questions at once: what will a given budget buy, and what budget do you need to hit a target. Feed it your monthly spend and average cost per click and it returns estimated clicks, leads and cost per lead. Add your average deal value and close rate and it reads all the way through to new customers, pipeline value and ROAS. For B2B SaaS, that last step matters most, because a click is only worth what the contract behind it is worth.</blockquote>
+
+          <h2>How this ad spend calculator works</h2>
+          <p>Under the hood it is a simple chain of division and multiplication. As an ad spend calculator it starts from budget and CPC, then layers your funnel rates on top so you can see where dollars turn into pipeline.</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Estimated clicks   = monthly budget ÷ average CPC
+Estimated leads    = clicks × (conversion rate ÷ 100)
+Cost per lead      = monthly budget ÷ leads
+New customers      = leads × (close rate ÷ 100)
+Pipeline value     = customers × ACV
+Pipeline ROAS      = pipeline value ÷ monthly budget
+
+Reverse (budget calculator):
+Budget needed      = target leads × CPC ÷ (conversion rate ÷ 100)</pre>
+          <p>The average deal value and close rate inputs are optional. Leave them blank for a quick clicks-and-leads read, or fill them in for the full SaaS picture from spend to pipeline.</p>
+
+          <h2>How much do Google Ads cost for B2B SaaS?</h2>
+          <p>There is no single number, because cost tracks your keywords, your competition and your quality score. As a working range, most B2B SaaS advertisers run $3,000 to $20,000+ per month once they are past the testing phase. Clicks on competitive software terms commonly land at $3 to $8, and can climb well past $10 on high-intent, high-value keywords like "best CRM software" where every buyer is a potential enterprise deal. Cost per lead usually falls somewhere between $80 and $300. The estimator lets you plug in your own numbers instead of guessing from an industry average, which is the point: your category and your landing page decide your real cost.</p>
+
+          <h2>Using it as a Google Ads budget calculator</h2>
+          <p>The same math runs in reverse, which turns this into a Google Ads budget calculator. Instead of asking what a budget buys, you start from a lead goal and solve for the spend it requires. Multiply your target leads by your average CPC, then divide by your conversion rate as a decimal. If you need 50 leads a month at a $4 CPC and 5% of clicks convert, that is 50 times 4 divided by 0.05, or roughly $4,000 per month. Used this way as a PPC budget calculator, it stops budget conversations from being arbitrary and ties every dollar to a defensible outcome. The recommendation line under the results shows this reverse read automatically so you can sanity-check the spend behind any goal.</p>
+
+          <h2>What is a good CPC and cost per lead in B2B SaaS?</h2>
+          <ul>
+            <li><strong>Cost per click.</strong> Roughly $2 to $8 on search for most SaaS categories, higher on crowded, high-intent terms and lower on long-tail or branded queries.</li>
+            <li><strong>Cost per lead.</strong> A healthy range is about $50 to $300, driven mostly by your offer, your landing page and how qualified you want the lead to be.</li>
+            <li><strong>The real test.</strong> Both numbers only mean something next to ACV. A $250 lead is cheap if it closes into a $30,000 contract and expensive if it never converts, so always read cost against pipeline and closed revenue.</li>
+          </ul>
+
+          <h2>Reading clicks all the way to pipeline</h2>
+          <p>The trap in paid search is optimizing for the metric closest to the click. A campaign can post a great cost per click and still lose money if those clicks do not become customers. That is why the estimator carries the math past cost per lead into customers and pipeline. When you enter a close rate and an average deal value, it applies your lead-to-customer rate to project new customers, multiplies by ACV for pipeline value, and divides by budget for a simple ROAS. Because SaaS revenue is recurring, treat that pipeline figure as a starting point, then judge the program against lifetime value over the contract, not just the first month of spend.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How much do Google Ads cost for B2B SaaS?</h3>
+          <p>Most B2B SaaS advertisers spend $3,000 to $20,000+ per month on Google Ads, with clicks around $3 to $8 on competitive software terms and cost per lead often $80 to $300.</p>
+          <h3>How do I estimate my Google Ads budget?</h3>
+          <p>Work backwards from your goal: multiply target leads by average CPC, then divide by your conversion rate, so 50 leads at a $4 CPC and 5% conversion needs about $4,000 per month.</p>
+          <h3>What is a good cost per click or cost per lead in B2B SaaS?</h3>
+          <p>A healthy B2B SaaS CPC runs roughly $2 to $8 on search, and a good cost per lead is about $50 to $300 depending on ACV; judge both against pipeline and closed revenue.</p>
+          <h3>How does this estimator calculate cost?</h3>
+          <p>It divides your monthly budget by average CPC to get clicks, applies your conversion rate for leads, then divides budget by leads for cost per lead, and adds ACV for pipeline.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['budget','cpc','cvr','acv','close'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+(n>=100?Math.round(n).toLocaleString():n.toFixed(2)); }
+  function whole(n){ return Math.round(n).toLocaleString(); }
+
+  function recalc(){
+    var budget=num('budget'), cpc=num('cpc'), cvr=num('cvr'), acv=num('acv'), close=num('close');
+    var clicks = cpc>0 ? budget/cpc : 0;
+    var leads = clicks*(cvr/100);
+    var cpl = leads>0 ? budget/leads : 0;
+    var customers = leads*(close/100);
+    var pipeline = customers*acv;
+    var roas = budget>0 ? pipeline/budget : 0;
+    var target = 100;
+    var reverseBudget = cvr>0 ? target*cpc/(cvr/100) : 0;
+
+    $('rClicks').textContent = cpc>0 ? whole(clicks) : '–';
+    $('rLeads').textContent = (cpc>0 && cvr>0) ? whole(leads) : '–';
+    $('rCpl').textContent = leads>0 ? money(cpl) : '–';
+    $('rCust').textContent = (leads>0 && close>0) ? whole(customers) : '–';
+    $('rPipe').textContent = (customers>0 && acv>0) ? money(pipeline) : '–';
+    $('rRoas').textContent = (pipeline>0 && budget>0) ? roas.toFixed(1)+'x' : '–';
+
+    if (cpc<=0 || budget<=0) {
+      $('rec').innerHTML = 'Enter a monthly budget and average CPC to estimate your clicks, leads and cost per lead.';
+      return;
+    }
+    var base = 'A <strong>'+money(budget)+'</strong>/month budget at a <strong>'+money(cpc)+'</strong> CPC buys about <strong>'+whole(clicks)+' clicks</strong>';
+    if (cvr>0) {
+      base += ', which at a <strong>'+cvr+'%</strong> conversion rate is roughly <strong>'+whole(leads)+' leads</strong> at <strong>'+money(cpl)+'</strong> cost per lead.';
+    } else {
+      base += '. Add a conversion rate to see leads and cost per lead.';
+    }
+    if (leads>0 && close>0 && acv>0) {
+      base += ' At a <strong>'+close+'%</strong> close rate that is about <strong>'+whole(customers)+' new customers</strong>, <strong>'+money(pipeline)+'</strong> in pipeline and a <strong>'+roas.toFixed(1)+'x</strong> pipeline ROAS.';
+    }
+    if (cvr>0) {
+      base += ' To reach <strong>'+target+' leads</strong> at this CPC and conversion rate you would need about <strong>'+money(reverseBudget)+'</strong> per month.';
+    }
+    $('rec').innerHTML = base;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}
