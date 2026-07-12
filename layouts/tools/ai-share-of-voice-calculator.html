@@ -1,0 +1,254 @@
+{{/* AI Share of Voice Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-calc__band { display: inline-block; margin-top: 6px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "AI Share of Voice Calculator (AI-Search Visibility)", "description": "Free AI share of voice calculator. Enter counts from a fixed prompt set across ChatGPT, Perplexity, Gemini and Google AI Overviews to get AI share of voice, mention rate, citation rate and gap to the category leader.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is AI share of voice?", "acceptedAnswer": { "@type": "Answer", "text": "AI share of voice is your brand's share of all brand mentions across AI answers like ChatGPT, Perplexity and Gemini. It shows how much of the AI conversation you own." } },
+    { "@type": "Question", "name": "How do you calculate AI share of voice?", "acceptedAnswer": { "@type": "Answer", "text": "Divide your brand's mentions by total brand mentions (you plus all competitors) across your AI answer set, then multiply by 100. So 34 of 280 mentions is a 12.1% share." } },
+    { "@type": "Question", "name": "What is a good AI share of voice in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "In fragmented markets, 15% or more is strong; concentrated-category leaders reach 35 to 50%. Average brand mention rate across AI answers sits near 17% (AthenaHQ, 2026)." } },
+    { "@type": "Question", "name": "What is the difference between a mention and a citation in AI search?", "acceptedAnswer": { "@type": "Answer", "text": "A mention names your brand in the answer text; a citation adds a clickable link to your site. Citations carry more weight because they drive referral traffic and trust." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<!-- ===== CALCULATOR ===== -->
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · AI Search</span>
+          <h1 class="pr-calc__title">AI Share of Voice Calculator</h1>
+          <p class="pr-calc__sub">Track a fixed prompt library across ChatGPT, Perplexity, Gemini and Google AI Overviews, then enter your aggregate counts to get your AI share of voice, mention rate, citation rate and the gap to your category leader. Benchmarked against 2026 data, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">AI answers checked <em>across your prompt set and engines</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="answers" value="200" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">ans</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Answers mentioning your brand <em>you appear in the text</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="mine" value="34" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">ans</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Total brand mentions <em>you + all competitors</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="total" value="280" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">mentions</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Answers that cite your site <em>with a clickable link</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="cites" value="18" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">cited</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Leading competitor's mentions <em>the top rival</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="leader" value="95" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">mentions</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your AI share of voice</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rSov">-</div><div class="pr-calc__l">AI share of voice</div><div class="pr-calc__band" id="rBand"></div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rMention">-</div><div class="pr-calc__l">Mention rate (avg ~17%)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCite">-</div><div class="pr-calc__l">Citation rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rGap">-</div><div class="pr-calc__l">Gap to leader</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your prompt-set counts to see your AI share of voice.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/ai-seo-services/" class="pr-btn" data-cta-source="tool-ai-sov-mid">Grow your AI share of voice with GEO-focused SEO →</a>
+          <small>No commitment · 30-min AI search strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTENT (standard 2-col article layout) ===== -->
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>A low AI share of voice means rivals own the answer.</strong>
+          <p>PipeRocket makes B2B SaaS brands the source AI engines mention and cite.</p>
+          <a href="/saas-seo-agency/ai-seo-services/" class="pr-btn" data-cta-source="tool-ai-sov-side">Get an AI search audit</a>
+        </div>
+
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/aeo-roi-calculator/">AEO / AI-Search ROI Calculator</a>
+            <a href="/tools/ai-overview-traffic-loss-calculator/">AI Overview Traffic-Loss Calculator</a>
+            <a href="/tools/ai-agent-readiness-checker/">AI Agent Readiness Checker</a>
+            <a href="/checklists/geo-checklist/">GEO Checklist</a>
+            <a href="/checklists/aeo-checklist/">AEO Checklist</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is AI share of voice?</h2>
+          <blockquote>AI share of voice is your brand's share of all brand mentions across AI answers, measured over a fixed set of buyer prompts run through engines like ChatGPT, Perplexity, Gemini and Google AI Overviews. If a category racks up 280 brand mentions across your prompt set and 34 of them are yours, your AI share of voice is 12.1%. It is the AI-search version of the classic share-of-voice metric marketers have always used, moved from ad impressions and organic rankings to the answers buyers now read first.</blockquote>
+
+          <h2>Why AI share of voice matters in 2026</h2>
+          <p>Buyers no longer start vendor research on a list of blue links. They ask an AI engine for a recommendation and read the answer it returns. Roughly 89% of B2B buyers now use generative AI tools somewhere in their vendor research (industry surveys, 2026), which means the brands named inside those answers get the shortlist and the brands left out never enter the conversation. AI share of voice tells you which side of that line you are on.</p>
+          <p>The catch is that AI answers are winner-take-most. According to the AthenaHQ State of AI Search 2026 report, the average brand mention rate across AI answers is only about 17%, and top SaaS brands earn roughly 8.4 times more AI citations than their competitors. A handful of names dominate each category while everyone else fights over the scraps. Tracking your share of voice, rather than a single vanity mention, is the only way to see whether you are gaining or losing ground against the specific rivals your buyers compare you to.</p>
+
+          <h2>How this calculator works</h2>
+          <p>Build a fixed prompt library (the questions your buyers actually ask), run it through each engine on a schedule, and tally the results by hand. Because the input is manual, the whole tool runs in your browser with no live API and nothing to connect. Every output traces back to counts you control:</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+AI share of voice = your mentions / total brand mentions x 100
+Mention rate       = answers mentioning you / AI answers checked x 100
+Citation rate      = answers that cite your site / AI answers checked x 100
+Leader share       = leading competitor mentions / total brand mentions x 100
+Gap to leader      = leader share - your share of voice (points)</pre>
+          <p>Share of voice divides by total brand mentions, so it answers "of all the brand name-drops in my category, how many are mine?" Mention rate and citation rate divide by answers checked instead, so they answer "how often do I show up at all?" You want both climbing together. For a fuller revenue model of what that visibility is worth, pair this with the <a href="/tools/aeo-roi-calculator/">AEO / AI-Search ROI Calculator</a>, and use the <a href="/tools/ai-overview-traffic-loss-calculator/">AI Overview Traffic-Loss Calculator</a> to size the clicks AI Overviews are quietly taking.</p>
+
+          <h2>What counts as a good AI share of voice</h2>
+          <p>There is no single target, because it depends on how concentrated your category is. Use these 2026 bands as a guide:</p>
+          <table>
+            <thead><tr><th>AI share of voice</th><th>Band</th><th>What it usually means</th></tr></thead>
+            <tbody>
+              <tr><td>Under 15%</td><td>Building visibility</td><td>You appear, but rivals own most of the answer space</td></tr>
+              <tr><td>15 to 34.9%</td><td>Strong</td><td>A defensible position, especially in fragmented markets</td></tr>
+              <tr><td>35 to 50%</td><td>Category leader</td><td>You are one of the names AI reaches for first</td></tr>
+              <tr><td>Over 50%</td><td>Category dominant</td><td>You own the majority of mentions in your space</td></tr>
+            </tbody>
+          </table>
+          <p>In fragmented markets with many players, 15% or more is already strong because no single brand can hold a huge share. In concentrated categories, the leaders reach 35 to 50%. Judge your number against the specific competitor set in your prompt library, not against an abstract ideal. The gap to your leader (the fourth result above) is often more actionable than the raw share, because it tells you exactly how much ground you need to make up.</p>
+
+          <h2>Mentions vs citations: why the difference matters</h2>
+          <p>A mention and a citation are not the same thing, and the gap between them is where a lot of AI visibility leaks away. A mention is your brand named in the answer text ("tools like Acme and Rival do this well"). A citation goes further: it attaches a clickable link to your site as the source. Citations carry more weight because they send referral traffic, they signal to the engine that you are an authority worth linking, and they give the reader a direct path to you rather than to a competitor's comparison page.</p>
+          <p>Watch the two rates together. A high mention rate with a low citation rate means AI knows your name but is not sending buyers to your site, usually because your content is not structured to be quoted as the source. Closing that gap is the core of answer engine optimization. Work through the <a href="/checklists/geo-checklist/">GEO checklist</a> and the <a href="/checklists/aeo-checklist/">AEO checklist</a> to make your pages easy for engines to extract and cite, and check whether your site is even readable to autonomous agents with the <a href="/tools/ai-agent-readiness-checker/">AI Agent Readiness Checker</a>.</p>
+
+          <h2>How to grow your AI share of voice</h2>
+          <ul>
+            <li><strong>Publish the answer, not just the topic.</strong> Lead each page with a direct, quotable answer so engines can lift it verbatim into a response.</li>
+            <li><strong>Earn third-party mentions.</strong> AI engines lean on independent lists, reviews and comparisons; being named across many sources lifts both your mentions and your citations.</li>
+            <li><strong>Structure for extraction.</strong> Clear headings, concise definitions, tables and schema make your content the easiest source to cite.</li>
+            <li><strong>Target the prompts that matter.</strong> Track the exact questions your buyers ask, then build content that wins those specific answers rather than chasing broad keywords.</li>
+            <li><strong>Re-measure on a schedule.</strong> Run the same prompt library monthly so your share of voice becomes a trend line, not a one-off snapshot.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>What is AI share of voice?</h3>
+          <p>AI share of voice is your brand's share of all brand mentions across AI answers like ChatGPT, Perplexity and Gemini. It shows how much of the AI conversation you own.</p>
+          <h3>How do you calculate AI share of voice?</h3>
+          <p>Divide your brand's mentions by total brand mentions (you plus all competitors) across your AI answer set, then multiply by 100. So 34 of 280 mentions is a 12.1% share.</p>
+          <h3>What is a good AI share of voice in 2026?</h3>
+          <p>In fragmented markets, 15% or more is strong; concentrated-category leaders reach 35 to 50%. Average brand mention rate across AI answers sits near 17% (AthenaHQ, 2026).</p>
+          <h3>What is the difference between a mention and a citation in AI search?</h3>
+          <p>A mention names your brand in the answer text; a citation adds a clickable link to your site. Citations carry more weight because they drive referral traffic and trust.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['answers','mine','total','cites','leader'];
+  if (ids.some(function (i) { return !$(i); })) return;
+
+  function num(id) { return parseFloat($(id).value) || 0; }
+  function pct1(n) { return n.toFixed(1) + '%'; }
+  function band(sov) {
+    if (sov < 15) return 'Building visibility';
+    if (sov < 35) return 'Strong (especially in fragmented markets)';
+    if (sov <= 50) return 'Category leader';
+    return 'Category dominant';
+  }
+
+  function recalc() {
+    var answers = num('answers'), mine = num('mine'), total = num('total'),
+        cites = num('cites'), leader = num('leader');
+
+    var sov      = total > 0 ? mine / total * 100 : 0;
+    var mention  = answers > 0 ? mine / answers * 100 : 0;
+    var citeRate = answers > 0 ? cites / answers * 100 : 0;
+    var leaderSov = total > 0 ? leader / total * 100 : 0;
+    var gap = leaderSov - sov;
+    var youLead = sov >= leaderSov;
+
+    $('rSov').textContent     = total > 0 ? pct1(sov) : '-';
+    $('rMention').textContent = answers > 0 ? pct1(mention) : '-';
+    $('rCite').textContent    = answers > 0 ? pct1(citeRate) : '-';
+    $('rBand').textContent    = total > 0 ? band(sov) : '';
+    if (total > 0) {
+      $('rGap').textContent = youLead ? 'You lead' : gap.toFixed(1) + ' pts';
+    } else {
+      $('rGap').textContent = '-';
+    }
+
+    if (total <= 0 && answers <= 0) {
+      $('rec').innerHTML = 'Enter your prompt-set counts to see your AI share of voice.';
+      return;
+    }
+
+    var out = 'Across <strong>' + Math.round(answers).toLocaleString() + ' AI answers</strong>, your brand was mentioned in <strong>' +
+      Math.round(mine).toLocaleString() + '</strong> (a <strong>' + pct1(mention) + '</strong> mention rate, vs a ~17% average) and cited in <strong>' +
+      Math.round(cites).toLocaleString() + '</strong> (a <strong>' + pct1(citeRate) + '</strong> citation rate). ';
+    if (total > 0) {
+      out += 'Your AI share of voice is <strong>' + pct1(sov) + '</strong> (' + band(sov) + '). ';
+      if (youLead) {
+        out += 'You lead your category ahead of your top rival at <strong>' + pct1(leaderSov) + '</strong>.';
+      } else {
+        out += 'The category leader holds <strong>' + pct1(leaderSov) + '</strong>, a gap of <strong>' + gap.toFixed(1) + ' points</strong> to close.';
+      }
+    } else {
+      out += 'Enter total brand mentions (you plus all competitors) to see your share of voice.';
+    }
+    $('rec').innerHTML = out;
+  }
+
+  ids.forEach(function (i) { $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{/* Shared article TOC engine that builds "On this page" from H2s in [data-pr-blog-main] */}}
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}
+  {{ $js = $js | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}
+{{ end }}
