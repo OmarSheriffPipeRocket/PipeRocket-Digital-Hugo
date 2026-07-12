@@ -1,8 +1,8 @@
 ---
-title: "Google Ranking Factors: The Complete 2026 List (Confirmed, Leaked & Debunked)"
-description: "Google uses hundreds of ranking signals but confirms only a handful. This is the complete, honestly-sourced list for 2026: every factor grouped and tagged by evidence level, what the 2024 Google leak revealed, what's still a guess, and what the AI-search era changes."
-metaTitle: "Google Ranking Factors: The Complete 2026 List"
-metaDescription: "The complete list of Google ranking factors for 2026, each tagged by evidence level: confirmed by Google, revealed by the 2024 leak, correlated but unconfirmed, or myth."
+title: "Google Ranking Factors 2026: The Complete List (Free PDF Download)"
+description: "Google uses hundreds of ranking signals but confirms only a handful. This is the complete, honestly-sourced list for 2026: every factor grouped and tagged by evidence level, what the 2024 Google leak revealed, what's still a guess, and what the AI-search era changes. Download the full list as a free, brand-themed PDF, no email required."
+metaTitle: "Google Ranking Factors 2026: Full List + Free PDF"
+metaDescription: "The complete list of Google ranking factors for 2026, each tagged by evidence level: confirmed by Google, revealed by the 2024 leak, or myth. Free PDF download, no email required."
 date: 2026-07-10
 slug: "google-ranking-factors-saas"
 writtenBy: "rohith"
@@ -10,7 +10,13 @@ category: "SaaS SEO"
 featuredImage: "/images/blog-covers/google-ranking-factors-saas.webp"
 ---
 
-Google ranking factors are the signals its algorithm uses to decide the order of search results for a query, covering your content, links, technical health, and brand. Google has never published an official count, and the famous "200 ranking factors" figure is old SEO folklore, not a Google number. Google actually confirms only a handful of signals directly. This is the complete list for 2026, with every factor tagged by how much evidence stands behind it: **confirmed by Google**, **revealed by the 2024 leak**, **correlated but unconfirmed**, or **myth**. That honesty layer is the whole point, because most ranking-factor lists present a rumor and a confirmed signal as if they carry equal weight, and they do not.
+Google ranking factors are the signals its algorithm uses to decide the order of search results for a query, covering your content, links, technical health, and brand. Google has never published an official count, and the famous "200 ranking factors" figure is old SEO folklore, not a Google number. Google actually confirms only a handful of signals directly. This is the complete list for 2026, with every factor tagged by how much evidence stands behind it: **confirmed by Google**, **revealed by the 2024 leak**, **correlated but unconfirmed**, or **myth**. That honesty layer is the whole point, because most ranking-factor lists present a rumor and a confirmed signal as if they carry equal weight, and they do not. You can grab the entire list as a free, brand-themed PDF below, no email required.
+
+{{< pdf-download
+     href="/downloads/google-ranking-factors-2026-piperocket.pdf"
+     title="Google Ranking Factors 2026 (Free PDF)"
+     subtitle="The complete list, grouped by category and tagged by evidence level, plus a priority sequence. A 4-page branded reference you can keep."
+     meta="4 pages · PDF · No email required" >}}
 
 ## TL;DR
 

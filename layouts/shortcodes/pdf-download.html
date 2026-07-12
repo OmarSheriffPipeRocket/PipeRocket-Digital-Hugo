@@ -1,0 +1,30 @@
+{{- /*
+  pdf-download: brand-themed download CTA card for a static PDF resource.
+
+  Usage:
+    {{< pdf-download
+         href="/downloads/google-ranking-factors-2026-piperocket.pdf"
+         title="Google Ranking Factors 2026 (Free PDF)"
+         subtitle="The complete list, tagged by evidence level, in a 4-page branded reference."
+         meta="4 pages · PDF · No email required" >}}
+
+  Self-contained (scoped inline styles + brand CSS vars with fallbacks) so it
+  renders correctly anywhere without depending on external CSS.
+*/ -}}
+{{- $href := .Get "href" -}}
+{{- $title := .Get "title" | default "Download the PDF" -}}
+{{- $subtitle := .Get "subtitle" -}}
+{{- $meta := .Get "meta" -}}
+{{- $file := path.Base $href -}}
+<a class="pr-pdfdl" href="{{ $href }}" download="{{ $file }}"
+   style="display:flex;align-items:center;gap:20px;text-decoration:none;background:var(--pr-cream,#F6F6F1);border:1px solid var(--pr-line,#D9D5C9);border-left:5px solid var(--pr-cyan,#0CC6F1);border-radius:14px;padding:22px 24px;margin:28px 0;color:var(--pr-ink,#0D0D0D);">
+  <span aria-hidden="true" style="flex:0 0 auto;display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:12px;background:var(--pr-cyan,#0CC6F1);color:#04303b;">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+  </span>
+  <span style="flex:1 1 auto;min-width:0;">
+    <span style="display:block;font-family:var(--pr-ivy-headline,Georgia,serif);font-size:1.15rem;font-weight:600;line-height:1.25;">{{ $title }}</span>
+    {{ with $subtitle }}<span style="display:block;margin-top:5px;font-size:.92rem;line-height:1.5;color:var(--pr-muted,#6B6B6B);">{{ . }}</span>{{ end }}
+    {{ with $meta }}<span style="display:block;margin-top:8px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--pr-muted,#6B6B6B);">{{ . }}</span>{{ end }}
+  </span>
+  <span style="flex:0 0 auto;background:var(--pr-ink,#0D0D0D);color:var(--pr-cream,#F6F6F1);font-weight:700;font-size:.9rem;padding:11px 20px;border-radius:8px;white-space:nowrap;">Download PDF</span>
+</a>
