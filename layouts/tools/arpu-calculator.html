@@ -1,0 +1,198 @@
+{{/* ARPU Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+  .calc-toggle { display: inline-flex; margin-top: 4px; border: 1px solid var(--pr-line); border-radius: 8px; overflow: hidden; }
+  .calc-toggle__btn { appearance: none; -webkit-appearance: none; border: none; background: transparent; color: var(--pr-ink-2); font: inherit; font-weight: 600; font-size: 0.9rem; padding: 10px 18px; cursor: pointer; transition: background .15s ease, color .15s ease; }
+  .calc-toggle__btn + .calc-toggle__btn { border-left: 1px solid var(--pr-line); }
+  .calc-toggle__btn.is-active { background: var(--pr-ink); color: #fff; }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "ARPU Calculator (Average Revenue Per User)", "description": "Free ARPU calculator for B2B SaaS. Enter total revenue and number of users to get average revenue per user, monthly or annual.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is ARPU?", "acceptedAnswer": { "@type": "Answer", "text": "ARPU (average revenue per user) is the average revenue a business earns from each user or account over a set period, usually a month or a year. You calculate it by dividing total revenue for the period by the number of active users or accounts. In B2B SaaS it is a core monetization metric that shows how much revenue each customer generates and whether pricing, packaging and expansion are working." } },
+    { "@type": "Question", "name": "How do you calculate ARPU?", "acceptedAnswer": { "@type": "Answer", "text": "ARPU equals total revenue for a period divided by the number of users or accounts in that period. For example, $500,000 in monthly revenue across 2,500 accounts is an ARPU of $200.00 per month. Keep revenue and the user count on the same time frame: monthly revenue with monthly active accounts for monthly ARPU, and annual revenue for annual ARPU." } },
+    { "@type": "Question", "name": "What is the difference between ARPU and ARPA?", "acceptedAnswer": { "@type": "Answer", "text": "ARPU is average revenue per user; ARPA is average revenue per account. In consumer products the two are often identical, but in B2B SaaS one account (a paying company) usually contains many users or seats. ARPA divides revenue by the number of paying accounts, which is typically the more meaningful unit for B2B pricing and expansion, while ARPU divides by individual users or seats. Pick the denominator that matches how you sell and stay consistent." } },
+    { "@type": "Question", "name": "How can a SaaS company increase ARPU?", "acceptedAnswer": { "@type": "Answer", "text": "The main levers are pricing and packaging (raise prices or move buyers into higher tiers), expansion revenue (upsells, add-ons and seat growth inside existing accounts), reducing reliance on heavy discounting, and acquiring higher-value ideal customer profile accounts. Expansion revenue is usually the most durable lever because it grows ARPU from customers who already trust the product." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · SaaS Metrics</span>
+          <h1 class="pr-calc__title">ARPU Calculator</h1>
+          <p class="pr-calc__sub">Get your average revenue per user from total revenue and your number of users or accounts. Toggle between monthly and annual to label the result the way you report it. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Total revenue <em>for the period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="rev" value="500000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Users or accounts <em>in that period</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="users" value="2500" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">users</span></span>
+          </label>
+          <div class="pr-calc__field">
+            <span class="pr-calc__label">Revenue period <em>changes the ARPU label</em></span>
+            <div class="calc-toggle" role="group" aria-label="Revenue period">
+              <button type="button" class="calc-toggle__btn is-active" data-period="monthly" aria-pressed="true">Monthly</button>
+              <button type="button" class="calc-toggle__btn" data-period="annual" aria-pressed="false">Annual</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your average revenue per user</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rArpu">–</div><div class="pr-calc__l" id="rArpuLabel">ARPU (per month)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rRev">–</div><div class="pr-calc__l">Total revenue</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rUsers">–</div><div class="pr-calc__l">Users / accounts</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your total revenue and number of users to see your ARPU.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-arpu-mid">Grow the accounts behind your ARPU →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Higher ARPU follows higher-intent pipeline.</strong>
+          <p>PipeRocket builds the organic engine that brings in accounts that expand.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-arpu-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpc-calculator/">CPC Calculator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is ARPU (average revenue per user)?</h2>
+          <blockquote>ARPU is the average revenue a SaaS business earns from each user or account in a given period, found by dividing total revenue by the number of users. It is a quick read on monetization: whether pricing, packaging and expansion are pulling their weight per customer. Read it alongside ARPA, churn and LTV, since ARPU on its own says nothing about retention or the cost to serve each account.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <p>Enter total revenue for a period and the number of users or accounts it came from. ARPU is simply the first divided by the second.</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+ARPU  =  total revenue ÷ number of users
+
+Monthly ARPU  =  monthly revenue ÷ users
+Annual ARPU   =  annual revenue ÷ users</pre>
+          <p>The Monthly / Annual toggle does not change the math. It only labels the result as ARPU per month or per year, so the number reads the way you report it. If you enter zero users, the calculator waits for a valid count, since dividing by zero has no meaning.</p>
+
+          <h2>ARPU vs ARPA, and which to track</h2>
+          <p>ARPU and ARPA are close cousins that answer the same question with a different denominator. ARPU (average revenue per user) divides revenue by individual users or seats. ARPA (average revenue per account) divides by paying accounts, where one account is usually a whole company with many seats. For most B2B SaaS teams ARPA is the more natural unit, because you sell to companies, price by account and expand within accounts. Track whichever matches how you sell, and label it clearly so nobody confuses a per-seat number with a per-account one.</p>
+
+          <h2>How B2B SaaS teams increase ARPU</h2>
+          <ul>
+            <li><strong>Pricing and packaging.</strong> Raise prices deliberately and design tiers that nudge buyers toward higher plans.</li>
+            <li><strong>Expansion revenue.</strong> Upsells, add-ons and seat growth inside existing accounts lift ARPU without new logos.</li>
+            <li><strong>Discipline on discounting.</strong> Heavy discounts quietly drag ARPU down and are hard to unwind later.</li>
+            <li><strong>Better-fit acquisition.</strong> Targeting higher-value ICP accounts raises ARPU at the top of the funnel, where organic search is a strong channel.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>What is ARPU?</h3>
+          <p>ARPU (average revenue per user) is the average revenue a business earns from each user or account in a period, usually a month or a year. You divide total revenue for the period by the number of active users or accounts. In B2B SaaS it is a core monetization metric showing how much revenue each customer generates and whether pricing, packaging and expansion are working.</p>
+          <h3>How do you calculate ARPU?</h3>
+          <p>ARPU = total revenue for a period ÷ number of users or accounts in that period. For example, $500,000 in monthly revenue across 2,500 accounts is $200.00 per month. Keep revenue and the user count on the same time frame: monthly revenue for monthly ARPU, annual revenue for annual ARPU.</p>
+          <h3>What is the difference between ARPU and ARPA?</h3>
+          <p>ARPU is average revenue per user; ARPA is average revenue per account. In consumer apps they are often the same, but in B2B SaaS one account (a paying company) usually holds many users or seats. ARPA divides revenue by paying accounts, the more meaningful unit for B2B pricing and expansion; ARPU divides by individual users or seats. Pick the denominator that matches how you sell and stay consistent.</p>
+          <h3>How can a SaaS company increase ARPU?</h3>
+          <p>The main levers are pricing and packaging (raise prices or move buyers to higher tiers), expansion revenue (upsells, add-ons and seat growth inside existing accounts), less reliance on heavy discounting, and acquiring higher-value ICP accounts. Expansion revenue is usually the most durable lever because it grows ARPU from customers who already trust the product.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var revEl = $('rev'), usersEl = $('users');
+  if (!revEl || !usersEl) return;
+  var period = 'monthly';
+  function num(el){ return parseFloat(el.value) || 0; }
+  function money2(n){ return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+  function moneyFull(n){ return '$' + Math.round(n).toLocaleString('en-US'); }
+
+  function recalc(){
+    var rev = num(revEl), users = num(usersEl);
+    var per = period === 'annual' ? 'per year' : 'per month';
+    var periodWord = period === 'annual' ? 'annual' : 'monthly';
+    $('rArpuLabel').textContent = 'ARPU (' + per + ')';
+    $('rRev').textContent = moneyFull(rev);
+    $('rUsers').textContent = users > 0 ? Math.round(users).toLocaleString('en-US') : '–';
+    if (users > 0) {
+      var arpu = rev / users;
+      $('rArpu').textContent = money2(arpu);
+      $('rec').innerHTML = 'At <strong>' + moneyFull(rev) + '</strong> in ' + periodWord + ' revenue across <strong>' + Math.round(users).toLocaleString('en-US') + '</strong> users or accounts, your ARPU is <strong>' + money2(arpu) + '</strong> ' + per + '.';
+    } else {
+      $('rArpu').textContent = '–';
+      $('rec').innerHTML = 'Enter at least one user or account to calculate ARPU. ARPU is total revenue divided by your number of users.';
+    }
+  }
+
+  var btns = document.querySelectorAll('.calc-toggle__btn');
+  Array.prototype.forEach.call(btns, function(b){
+    b.addEventListener('click', function(){
+      period = b.getAttribute('data-period');
+      Array.prototype.forEach.call(btns, function(x){ x.classList.remove('is-active'); x.setAttribute('aria-pressed','false'); });
+      b.classList.add('is-active'); b.setAttribute('aria-pressed','true');
+      recalc();
+    });
+  });
+  [revEl, usersEl].forEach(function(el){ el.addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

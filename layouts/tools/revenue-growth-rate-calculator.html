@@ -1,0 +1,199 @@
+{{/* Revenue Growth Rate Calculator (with CAGR). Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Revenue Growth Rate Calculator (with CAGR)", "description": "Free revenue growth rate calculator for B2B SaaS. Enter beginning revenue, ending revenue and the number of periods to get your total growth rate and annualized compound annual growth rate (CAGR).", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate revenue growth rate?", "acceptedAnswer": { "@type": "Answer", "text": "Revenue growth rate equals ending revenue minus beginning revenue, divided by beginning revenue, times 100. For example, $1,000,000 growing to $1,500,000 is a ($500,000 / $1,000,000) x 100 = 50% growth rate. Always compare periods of equal length, whether month over month, quarter over quarter or year over year, and use CAGR to annualize growth that spans multiple periods." } },
+    { "@type": "Question", "name": "What is a good revenue growth rate for a SaaS company?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on ARR stage. Early-stage SaaS chasing product-market fit often targets 100% or more per year, following the T2D3 path (triple, triple, double, double, double). Companies in the $10M to $50M ARR band are healthy around 40% to 60% year over year, and late-stage or public SaaS typically grows 20% to 30%. Judge growth against your ARR band and capital efficiency (the Rule of 40), not against one universal number." } },
+    { "@type": "Question", "name": "What is the difference between growth rate and CAGR?", "acceptedAnswer": { "@type": "Answer", "text": "Simple growth rate measures the total change between a start and end point with no regard for how long it took. CAGR (compound annual growth rate) smooths that total change into a constant per-period rate, so you can fairly compare growth across different time spans. Over a single period the two are identical; across multiple periods CAGR is lower than the raw total because it is compounded." } },
+    { "@type": "Question", "name": "Should I measure growth month over month or year over year?", "acceptedAnswer": { "@type": "Answer", "text": "Use both, for different jobs. Month over month (MoM) is sensitive and good for spotting momentum and short-term trends, but it is noisy and easily distorted by seasonality. Year over year (YoY) cancels seasonality and is the standard for board reporting and benchmarking SaaS companies. Fast-moving early-stage teams watch MoM closely, while established companies lead with YoY." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · SaaS Metrics</span>
+          <h1 class="pr-calc__title">Revenue Growth Rate Calculator</h1>
+          <p class="pr-calc__sub">Enter your beginning and ending revenue to get your total growth rate, then add the number of periods to see the annualized compound rate (CAGR). Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Beginning revenue <em>start of period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="beginning" value="1000000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Ending revenue <em>end of period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="ending" value="1500000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Periods for CAGR <em>1 = simple growth rate</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="periods" value="1" min="1" step="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">periods</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your revenue growth</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rGrowth">-</div><div class="pr-calc__l">Total growth rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rCagr">-</div><div class="pr-calc__l">Annualized growth (CAGR)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rChange">-</div><div class="pr-calc__l">Absolute change</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rMult">-</div><div class="pr-calc__l">Revenue multiple</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your beginning and ending revenue to see your growth rate.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-growth-mid">Put a durable engine behind these numbers →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>A number on a slide is not a growth plan.</strong>
+          <p>PipeRocket builds the organic engine that keeps the growth rate climbing quarter after quarter.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-growth-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpc-calculator/">CPC Calculator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is revenue growth rate?</h2>
+          <blockquote>Revenue growth rate is the percentage change in revenue between two points in time. It is the single clearest read on momentum for a B2B SaaS business, and the number every board, investor and operator anchors to. The catch is comparability: measure it over consistent periods, and when you compare growth across spans of different length, annualize it with CAGR so the comparison is honest.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <p>Two formulas, no black box:</p>
+          <pre class="calc-formula"><strong>The formulas:</strong>
+
+Total growth rate %   = ((Ending - Beginning) ÷ Beginning) × 100
+CAGR (annualized) %   = ((Ending ÷ Beginning) ^ (1 ÷ periods) - 1) × 100</pre>
+          <p>Set periods to 1 and the CAGR equals the simple growth rate, because raising the revenue multiple to the power of 1 changes nothing. Enter 2 or more periods (months, quarters or years) and the calculator compounds the total change into a constant per-period rate you can compare like for like.</p>
+
+          <h2>Growth rate vs CAGR: when to use each</h2>
+          <p>Simple growth rate answers "how much did revenue change from A to B?" It is fast and intuitive, but it ignores time, so a 50% jump over one quarter and a 50% jump over three years look identical on paper. CAGR fixes that by smoothing the total change into a steady annual rate, which is why it is the right lens for multi-year comparisons, cohort analysis and any chart where the periods are not the same length. Over a single period the two numbers are identical; the gap widens as you stretch the timeframe.</p>
+
+          <h2>What is a healthy SaaS revenue growth rate?</h2>
+          <table>
+            <thead><tr><th>ARR stage</th><th>Healthy YoY growth</th><th>Context</th></tr></thead>
+            <tbody>
+              <tr><td>Seed / pre product-market fit</td><td>3x to 4x per year</td><td>Growth is lumpy; the T2D3 path opens with tripling revenue.</td></tr>
+              <tr><td>$1M to $10M ARR</td><td>~100% (double)</td><td>The classic doubling phase once product-market fit is real.</td></tr>
+              <tr><td>$10M to $50M ARR</td><td>40% to 60%</td><td>Growth naturally decelerates as the revenue base compounds.</td></tr>
+              <tr><td>$50M+ / late stage</td><td>20% to 30%</td><td>Efficient growth (the Rule of 40) matters more than raw speed.</td></tr>
+            </tbody>
+          </table>
+          <p>These are directional, not verdicts. A 35% growth rate can be excellent at scale and worrying at $2M ARR. Always read growth alongside net revenue retention and the Rule of 40, which balances growth against profitability.</p>
+
+          <h2>How to move the growth rate</h2>
+          <ul>
+            <li><strong>Lift net revenue retention.</strong> Expansion revenue from existing accounts grows the base before you add a single new logo, and it compounds.</li>
+            <li><strong>Grow ARPA.</strong> Upsells, tiering and pricing lift the value of every customer month and flow straight into the top line.</li>
+            <li><strong>Widen the top of funnel.</strong> Organic search adds compounding, low-cost demand that keeps new-logo growth from stalling as paid gets expensive.</li>
+            <li><strong>Shorten the sales cycle.</strong> Faster conversion pulls revenue into the current period and steepens the curve.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate revenue growth rate?</h3>
+          <p>Revenue growth rate = ((ending revenue - beginning revenue) ÷ beginning revenue) × 100. Revenue of $1,000,000 growing to $1,500,000 is a 50% growth rate. Always compare periods of equal length, whether month over month, quarter over quarter or year over year, and use CAGR to annualize growth that spans multiple periods.</p>
+          <h3>What is a good revenue growth rate for a SaaS company?</h3>
+          <p>It depends on ARR stage. Early-stage SaaS chasing product-market fit often targets 100%+ per year (the T2D3 path of triple, triple, double, double, double). Companies in the $10M to $50M ARR band are healthy around 40% to 60% year over year, and late-stage or public SaaS typically 20% to 30%. Judge growth against your ARR band and efficiency (the Rule of 40), not one universal number.</p>
+          <h3>What is the difference between growth rate and CAGR?</h3>
+          <p>Simple growth rate measures the total change between two points with no regard for time. CAGR (compound annual growth rate) smooths that change into a constant per-period rate, so you can compare growth across different time spans. Over a single period the two are identical; across multiple periods CAGR is lower than the raw total because it is compounded.</p>
+          <h3>Should I measure growth month over month or year over year?</h3>
+          <p>Use both. Month over month (MoM) is sensitive and good for spotting momentum, but it is noisy and distorted by seasonality. Year over year (YoY) cancels seasonality and is the standard for board reporting and benchmarking SaaS companies. Fast-moving early-stage teams watch MoM closely; established companies lead with YoY.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['beginning','ending','periods'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var sign=n<0?'-':''; var a=Math.abs(n); if(a>=1e6) return sign+'$'+(a/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=a/1000; return sign+'$'+(k%1===0?k.toFixed(0):k.toFixed(1))+'K';} return sign+'$'+(a>=100?Math.round(a).toLocaleString():a.toFixed(2)); }
+  function pct(n){ return (n>=0?'+':'-')+Math.abs(n).toLocaleString(undefined,{maximumFractionDigits:2})+'%'; }
+
+  function recalc(){
+    var beginning=num('beginning'), ending=num('ending');
+    var periodsRaw=num('periods'), periods=periodsRaw>0?periodsRaw:1;
+    var valid = beginning>0;
+    var growth = valid ? (ending-beginning)/beginning*100 : 0;
+    var cagr = valid ? (Math.pow(ending/beginning, 1/periods)-1)*100 : 0;
+    var change = ending-beginning;
+    var mult = valid ? ending/beginning : 0;
+    $('rGrowth').textContent = valid ? pct(growth) : '-';
+    $('rCagr').textContent   = valid ? pct(cagr) : '-';
+    $('rChange').textContent = money(change);
+    $('rMult').textContent   = valid ? mult.toLocaleString(undefined,{maximumFractionDigits:2})+'×' : '-';
+    if (!valid) {
+      $('rec').innerHTML = 'Beginning revenue must be greater than $0 to calculate a growth rate. Enter your starting revenue above.';
+      return;
+    }
+    var base = 'Revenue moved from <strong>'+money(beginning)+'</strong> to <strong>'+money(ending)+'</strong>, a <strong>'+pct(growth)+'</strong> total '+(growth>=0?'increase':'decrease')+' ('+money(change)+').';
+    if (periods<=1) {
+      base += ' Over a single period the annualized rate (CAGR) is the same <strong>'+pct(cagr)+'</strong>.';
+    } else {
+      base += ' Spread across <strong>'+periods+' periods</strong>, that compounds to a <strong>'+pct(cagr)+'</strong> annualized rate (CAGR).';
+    }
+    $('rec').innerHTML = base;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

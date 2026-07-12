@@ -1,0 +1,188 @@
+{{/* Burn Rate Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Burn Rate Calculator for SaaS Startups", "description": "Free burn rate calculator for B2B SaaS. Enter starting and ending cash to get net monthly burn and cash runway in months.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is burn rate?", "acceptedAnswer": { "@type": "Answer", "text": "Burn rate is the pace at which a startup spends its cash reserves, usually expressed per month. Net burn rate is the cash you lose each month after revenue: (starting cash plus any capital raised, minus ending cash) divided by the number of months in the period. A $40,000 net monthly burn means the company's bank balance falls by $40,000 every month at the current pace." } },
+    { "@type": "Question", "name": "What is the difference between gross burn and net burn?", "acceptedAnswer": { "@type": "Answer", "text": "Gross burn is your total operating cash outflow: every dollar leaving the business each month on salaries, software, rent and marketing. Net burn is gross burn minus the cash revenue you collect, so it reflects the real monthly decline in your bank balance. This calculator derives net burn from your opening and closing cash balances, which already net out revenue. Investors usually track net burn because it drives runway." } },
+    { "@type": "Question", "name": "How do I calculate runway from burn rate?", "acceptedAnswer": { "@type": "Answer", "text": "Runway equals your current cash balance divided by your net monthly burn. If you hold $380,000 and burn $40,000 a month, you have about 9.5 months of runway before cash runs out, assuming burn stays flat. When net burn is zero or negative you are cash-flow positive, so runway is effectively unlimited at the current rate." } },
+    { "@type": "Question", "name": "What is a healthy burn rate or runway for a SaaS startup?", "acceptedAnswer": { "@type": "Answer", "text": "There is no single healthy burn number, because it depends on stage and growth. Runway is the better guardrail: most venture-backed SaaS startups aim to keep 18 to 24 months of runway after a raise and start fundraising again once runway drops toward 12 months. Below 6 months is a danger zone. Efficient operators also watch the burn multiple, net burn divided by net new ARR, aiming for under 1.5x." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · SaaS Metrics</span>
+          <h1 class="pr-calc__title">Burn Rate Calculator for SaaS Startups</h1>
+          <p class="pr-calc__sub">Work out your net monthly burn from your starting and ending cash balance, then see how many months of runway that leaves. Add any capital you raised in the period for an accurate read. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Starting cash balance <em>at start of period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="start" value="500000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Ending cash balance <em>at end of period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="end" value="380000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Months in period <em>length measured</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="months" value="3" min="1" step="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">mo</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Capital raised <em>optional, during period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="raised" value="0" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your burn and runway</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rBurn">-</div><div class="pr-calc__l">Net monthly burn</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRunway">-</div><div class="pr-calc__l">Runway (months)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rTotal">-</div><div class="pr-calc__l">Net burn this period</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rCash">-</div><div class="pr-calc__l">Cash on hand now</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your starting and ending cash to see your monthly burn and runway.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-burn-mid">Extend your runway with pipeline that compounds →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>The cheapest runway extension is efficient growth.</strong>
+          <p>PipeRocket builds the organic engine that lowers CAC and stretches every dollar of cash.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-burn-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpc-calculator/">CPC Calculator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is burn rate?</h2>
+          <blockquote>Burn rate is how fast a startup spends its cash, usually measured per month. Net burn is the number that matters most: the real monthly decline in your bank balance once revenue is netted against spend. It is the single input that decides your runway, and runway decides how long you have to hit the milestones that unlock the next round. A burn rate is neither good nor bad on its own; it only means something next to the growth it buys.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <p>Two formulas, no black box:</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Net monthly burn = (starting cash + capital raised - ending cash) ÷ months
+Runway (months)  = ending cash ÷ net monthly burn
+
+Runway only applies when net burn is above zero.</pre>
+          <p>Adding capital you raised during the period keeps the math honest. Without it, a mid-period raise would look like you spent far less than you actually did. If your cash balance grew over the period, net burn is zero or negative, you are cash-flow positive, and runway is effectively unlimited at the current pace.</p>
+
+          <h2>Gross burn vs net burn</h2>
+          <p>Gross burn is every dollar leaving the business each month, salaries, software, rent, ad spend. Net burn subtracts the cash revenue you collect, so it captures the true monthly drop in your balance. This tool works from your opening and closing cash, which already nets out revenue, so the figure it returns is net burn. Investors and boards track net burn because it, not gross burn, sets your runway.</p>
+
+          <h2>What runway tells you, and when to raise</h2>
+          <ul>
+            <li><strong>18 to 24 months</strong> is the target most venture-backed SaaS startups aim for right after a raise.</li>
+            <li><strong>Around 12 months</strong> is the point to open the next fundraise, since closing a round often takes three to six months.</li>
+            <li><strong>Below 6 months</strong> is a danger zone that forces a raise or a cut from a position of weakness.</li>
+            <li><strong>Watch the burn multiple.</strong> Net burn divided by net new ARR shows how efficiently you convert cash into growth; under 1.5x is strong.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>What is burn rate?</h3>
+          <p>Burn rate is the pace at which a startup spends its cash reserves, usually expressed per month. Net burn rate is the cash you lose each month after revenue: (starting cash plus any capital raised, minus ending cash) divided by the number of months in the period. A $40,000 net monthly burn means the company's bank balance falls by $40,000 every month at the current pace.</p>
+          <h3>What is the difference between gross burn and net burn?</h3>
+          <p>Gross burn is your total operating cash outflow: every dollar leaving the business each month on salaries, software, rent and marketing. Net burn is gross burn minus the cash revenue you collect, so it reflects the real monthly decline in your bank balance. This calculator derives net burn from your opening and closing cash balances, which already net out revenue. Investors usually track net burn because it drives runway.</p>
+          <h3>How do I calculate runway from burn rate?</h3>
+          <p>Runway equals your current cash balance divided by your net monthly burn. If you hold $380,000 and burn $40,000 a month, you have about 9.5 months of runway before cash runs out, assuming burn stays flat. When net burn is zero or negative you are cash-flow positive, so runway is effectively unlimited at the current rate.</p>
+          <h3>What is a healthy burn rate or runway for a SaaS startup?</h3>
+          <p>There is no single healthy burn number, because it depends on stage and growth. Runway is the better guardrail: most venture-backed SaaS startups aim to keep 18 to 24 months of runway after a raise and start fundraising again once runway drops toward 12 months. Below 6 months is a danger zone. Efficient operators also watch the burn multiple, net burn divided by net new ARR, aiming for under 1.5x.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['start','end','months','raised'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+
+  function recalc(){
+    var start=num('start'), end=num('end'), months=Math.max(num('months'),1), raised=num('raised');
+    var totalBurn = start + raised - end;
+    var netBurn = totalBurn / months;
+    var burning = netBurn > 0;
+    var runway = burning ? end / netBurn : 0;
+
+    $('rBurn').textContent = money(netBurn);
+    $('rRunway').textContent = burning ? runway.toFixed(1) : 'Cash positive';
+    $('rTotal').textContent = money(totalBurn);
+    $('rCash').textContent = money(end);
+
+    if (burning) {
+      var verdict = runway>=18 ? 'a comfortable' : runway>=12 ? 'a reasonable' : runway>=6 ? 'a tight' : 'a critical';
+      var note = runway>=18 ? 'Plenty of room to invest in growth.' : runway>=12 ? 'Start planning the next raise soon.' : runway>=6 ? 'Open your fundraise now; rounds take months to close.' : 'Danger zone. Raise or cut immediately.';
+      $('rec').innerHTML = 'Burning <strong>'+money(netBurn)+'</strong> a month, your <strong>'+money(end)+'</strong> in cash gives about <strong>'+runway.toFixed(1)+' months</strong> of runway, '+verdict+' position. '+note;
+    } else {
+      $('rec').innerHTML = 'Your cash balance held or grew over this period, so you are <strong>cash-flow positive</strong> and not burning. Runway is effectively unlimited at the current rate.';
+    }
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

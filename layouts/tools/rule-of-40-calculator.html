@@ -1,0 +1,187 @@
+{{/* Rule of 40 Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .calc-badge { display: inline-block; padding: 3px 14px; border-radius: 999px; font-weight: 700; font-size: 1rem; letter-spacing: 0.02em; }
+  .calc-badge--pass { background: rgba(15, 122, 82, 0.14); color: #0F7A52; }
+  .calc-badge--fail { background: rgba(230, 57, 70, 0.14); color: var(--pr-red); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Rule of 40 Calculator for SaaS", "description": "Free Rule of 40 calculator for SaaS. Enter revenue growth rate and profit margin to get your Rule of 40 score and a clear pass or below-40 verdict.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the Rule of 40?", "acceptedAnswer": { "@type": "Answer", "text": "The Rule of 40 is a SaaS health benchmark that says a company's revenue growth rate plus its profit margin should add up to at least 40%. It captures the trade-off between growth and profitability in a single number: a company can grow fast and burn cash, or grow slowly and run profitably, and still look healthy as long as the two together clear 40. Growth and later-stage investors popularised it as a quick screen for balanced, efficient SaaS businesses." } },
+    { "@type": "Question", "name": "How do you calculate the Rule of 40?", "acceptedAnswer": { "@type": "Answer", "text": "Add your revenue growth rate to your profit margin, both expressed as percentages. For example, 30% year-over-year growth plus a 15% profit margin gives a Rule of 40 score of 45%, which passes. A company at 60% growth and a negative 15% margin also scores 45 and passes, because rapid growth offsets the loss. Any score of 40 or higher passes; below 40 falls short." } },
+    { "@type": "Question", "name": "Which profit margin should I use (EBITDA vs FCF)?", "acceptedAnswer": { "@type": "Answer", "text": "There is no single official definition, so pick one and stay consistent. EBITDA margin and free-cash-flow (FCF) margin are the two most common choices for SaaS, and some operators use operating margin instead. FCF margin is often preferred for SaaS because it reflects the cash impact of deferred revenue and annual upfront billing. Whichever you choose, pair it with the same growth metric (usually revenue growth) every period so the score stays comparable over time." } },
+    { "@type": "Question", "name": "Is the Rule of 40 still relevant for SaaS in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and arguably more than during the growth-at-all-costs era. Now that investors and boards weigh capital efficiency heavily, the Rule of 40 remains a fast, widely-understood screen for balanced SaaS performance. Treat it as a starting point, not a verdict: it does not capture net revenue retention, gross margin quality, or how durable the growth is, so read it alongside those metrics rather than treating 40 as a hard pass/fail line." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · SaaS Metrics</span>
+          <h1 class="pr-calc__title">Rule of 40 Calculator for SaaS</h1>
+          <p class="pr-calc__sub">Add your revenue growth rate and profit margin to get your Rule of 40 score and a clear pass or below-40 verdict. See how growth and profitability balance out in one number. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Revenue growth rate <em>year-over-year %</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="growth" value="30" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Profit margin <em>EBITDA or FCF, can be negative</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="margin" value="15" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your Rule of 40 result</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rScore">-</div><div class="pr-calc__l">Rule of 40 score</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rStatus"></div><div class="pr-calc__l">Verdict</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rGap">-</div><div class="pr-calc__l">Points vs 40 threshold</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rProfile">-</div><div class="pr-calc__l">Growth vs profit profile</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your revenue growth rate and profit margin to see your Rule of 40 score.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-rule40-mid">Grow the top half of your Rule of 40 with SaaS SEO →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Add growth without wrecking your margin.</strong>
+          <p>PipeRocket builds the organic engine that lifts growth and stays efficient.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-rule40-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpc-calculator/">CPC Calculator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is the Rule of 40?</h2>
+          <blockquote>The Rule of 40 says a healthy SaaS company's revenue growth rate plus its profit margin should add up to at least 40%. It captures the trade-off between growth and profitability in one number, so a business can grow fast and burn cash, or grow slowly and run profitably, and still clear the bar as long as the two together reach 40. It is a fast screen, not a full diagnosis, which is why investors read it alongside retention and margin quality.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <p>One line of arithmetic, no black box:</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Rule of 40 score = revenue growth rate % + profit margin %
+Passing          = score is 40 or higher
+Below 40         = score is under 40</pre>
+          <p>Both inputs are percentages. Profit margin can be negative, which is common for high-growth SaaS still investing ahead of profitability. A strong growth rate can offset a negative margin and still pass, and vice versa.</p>
+
+          <h2>What counts as a good Rule of 40 score?</h2>
+          <table>
+            <thead><tr><th>Rule of 40 score</th><th>Read</th><th>What it means</th></tr></thead>
+            <tbody>
+              <tr><td>Below 40</td><td>Falls short</td><td>Growth and profit together are not efficient enough by this screen.</td></tr>
+              <tr><td>40 to 60</td><td>Healthy</td><td>Balanced, efficient SaaS performance that most investors respect.</td></tr>
+              <tr><td>Above 60</td><td>Elite</td><td>Rare, best-in-class combination of growth and profitability.</td></tr>
+            </tbody>
+          </table>
+
+          <h2>How to improve your Rule of 40</h2>
+          <ul>
+            <li><strong>Add efficient growth.</strong> Channels like organic search compound over time, lifting growth without inflating acquisition cost.</li>
+            <li><strong>Protect and expand margin.</strong> Trim low-ROI spend and grow expansion revenue so more of each dollar reaches profit.</li>
+            <li><strong>Retain more customers.</strong> Lower churn helps both halves of the score, since less revenue leaks and less budget goes to re-acquisition.</li>
+            <li><strong>Fix your definitions.</strong> Pick one margin (EBITDA or FCF) and one growth metric, then hold them steady so the score stays honest quarter over quarter.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>What is the Rule of 40?</h3>
+          <p>The Rule of 40 is a SaaS health benchmark that says a company's revenue growth rate plus its profit margin should add up to at least 40%. It captures the trade-off between growth and profitability in a single number: a company can grow fast and burn cash, or grow slowly and run profitably, and still look healthy as long as the two together clear 40. Growth and later-stage investors popularised it as a quick screen for balanced, efficient SaaS businesses.</p>
+          <h3>How do you calculate the Rule of 40?</h3>
+          <p>Add your revenue growth rate to your profit margin, both expressed as percentages. For example, 30% year-over-year growth plus a 15% profit margin gives a Rule of 40 score of 45%, which passes. A company at 60% growth and a negative 15% margin also scores 45 and passes, because rapid growth offsets the loss. Any score of 40 or higher passes; below 40 falls short.</p>
+          <h3>Which profit margin should I use (EBITDA vs FCF)?</h3>
+          <p>There is no single official definition, so pick one and stay consistent. EBITDA margin and free-cash-flow (FCF) margin are the two most common choices for SaaS, and some operators use operating margin instead. FCF margin is often preferred for SaaS because it reflects the cash impact of deferred revenue and annual upfront billing. Whichever you choose, pair it with the same growth metric (usually revenue growth) every period so the score stays comparable over time.</p>
+          <h3>Is the Rule of 40 still relevant for SaaS in 2026?</h3>
+          <p>Yes, and arguably more than during the growth-at-all-costs era. Now that investors and boards weigh capital efficiency heavily, the Rule of 40 remains a fast, widely-understood screen for balanced SaaS performance. Treat it as a starting point, not a verdict: it does not capture net revenue retention, gross margin quality, or how durable the growth is, so read it alongside those metrics rather than treating 40 as a hard pass/fail line.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['growth','margin'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function fmt(n){ return (Math.round(n * 10) / 10).toFixed(1).replace(/\.0$/, ''); }
+  function pct(n){ return fmt(n) + '%'; }
+
+  function recalc(){
+    var growth = num('growth'), margin = num('margin');
+    var score = growth + margin;
+    var pass = score >= 40;
+    var gap = score - 40;
+    var diff = growth - margin;
+    var profile = Math.abs(diff) <= 10 ? 'Balanced' : (diff > 0 ? 'Growth-led' : 'Profit-led');
+    $('rScore').textContent = pct(score);
+    $('rStatus').innerHTML = '<span class="calc-badge ' + (pass ? 'calc-badge--pass' : 'calc-badge--fail') + '">' + (pass ? 'PASS' : 'BELOW 40') + '</span>';
+    $('rGap').textContent = (gap >= 0 ? '+' : '') + fmt(gap) + ' pts';
+    $('rProfile').textContent = profile;
+    var base = 'A <strong>' + pct(growth) + '</strong> growth rate plus a <strong>' + pct(margin) + '</strong> profit margin gives a Rule of 40 score of <strong>' + pct(score) + '</strong>. ';
+    if (pass) base += 'That is <strong>' + fmt(gap) + ' points above</strong> the 40 threshold, so this company passes the Rule of 40.';
+    else base += 'That is <strong>' + fmt(Math.abs(gap)) + ' points below</strong> the 40 threshold, so it falls short of the Rule of 40.';
+    base += ' The mix is <strong>' + profile.toLowerCase() + '</strong>.';
+    $('rec').innerHTML = base;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

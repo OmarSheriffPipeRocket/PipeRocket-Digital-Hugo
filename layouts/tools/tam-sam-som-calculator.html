@@ -1,0 +1,183 @@
+{{/* TAM SAM SOM Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "TAM SAM SOM Calculator for B2B SaaS", "description": "Free TAM SAM SOM calculator. Enter potential customers and average annual contract value to size your total, serviceable and serviceable obtainable market.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is TAM SAM SOM?", "acceptedAnswer": { "@type": "Answer", "text": "TAM, SAM and SOM are three nested estimates of market size. TAM (total addressable market) is the total revenue opportunity if every possible customer bought your product. SAM (serviceable addressable market) narrows that to the segment you can actually serve with your current model, geography and pricing. SOM (serviceable obtainable market) is the realistic slice of SAM you can capture in the near term given your sales capacity and competition." } },
+    { "@type": "Question", "name": "How do you calculate TAM, SAM and SOM?", "acceptedAnswer": { "@type": "Answer", "text": "A simple bottom-up version multiplies market size by price. TAM equals total potential customers times average annual contract value. SAM equals TAM times the percentage of that market your product actually fits by segment, geography or use case. SOM equals SAM times the share you can realistically win in the next one to three years. For example, 100,000 potential customers at a $12,000 ACV is a $1.2B TAM, a 30% serviceable segment is a $360M SAM, and a 10% near-term capture is a $36M SOM." } },
+    { "@type": "Question", "name": "What is the difference between top-down and bottom-up TAM?", "acceptedAnswer": { "@type": "Answer", "text": "Top-down TAM starts with a large published market figure from an analyst report and narrows it with percentages, which is fast but easy to inflate. Bottom-up TAM builds from your own units, the number of real target accounts times a realistic annual contract value, summed across segments. Bottom-up is slower but far more credible with investors because every assumption is traceable to something you can defend. This calculator uses the bottom-up approach, customers times ACV." } },
+    { "@type": "Question", "name": "Why do investors care about TAM SAM SOM?", "acceptedAnswer": { "@type": "Answer", "text": "Investors use TAM, SAM and SOM to judge whether a company can grow large enough to return their fund. TAM signals the ceiling of the opportunity, SAM shows you understand who you can actually serve, and SOM shows a grounded near-term revenue plan. A credible, well-sourced SOM often matters more than a huge TAM, because it proves you can convert market size into real revenue rather than quoting an inflated headline number." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · SaaS Metrics</span>
+          <h1 class="pr-calc__title">TAM SAM SOM Calculator</h1>
+          <p class="pr-calc__sub">Size your market opportunity from the bottom up. Enter your total potential customers and average contract value to get TAM, SAM and SOM, the three nested market estimates investors expect. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Potential customers <em>total in your market</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="customers" value="100000" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">cust</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Average contract value <em>annual, per customer</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="acv" value="12000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">SAM as % of TAM <em>your serviceable segment</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="samPct" value="30" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">SOM as % of SAM <em>near-term capture</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="somPct" value="10" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your market opportunity</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rTam">–</div><div class="pr-calc__l">TAM (total addressable market)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rSam">–</div><div class="pr-calc__l">SAM (serviceable addressable market)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rSom">–</div><div class="pr-calc__l">SOM (serviceable obtainable market)</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your market size and ACV to see your TAM, SAM and SOM.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-tam-mid">Turn market size into real pipeline →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>A big TAM means nothing without pipeline to match.</strong>
+          <p>PipeRocket builds the organic engine that captures your serviceable market.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-tam-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpc-calculator/">CPC Calculator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+            <a href="/tools/ppc-roas-calculator/">PPC ROAS Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is TAM SAM SOM?</h2>
+          <blockquote>TAM, SAM and SOM are three nested estimates of market size. TAM (total addressable market) is the total revenue opportunity if every possible customer bought your product. SAM (serviceable addressable market) narrows that to the segment you can actually serve with your current model, geography and pricing. SOM (serviceable obtainable market) is the realistic slice of SAM you can capture in the near term. Read them together: TAM sets the ceiling, SAM proves you know your lane, and SOM is the number you can actually defend.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <p>One bottom-up formula, no black box:</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+TAM  = potential customers × average annual contract value
+SAM  = TAM × (SAM % of TAM ÷ 100)
+SOM  = SAM × (SOM % of SAM ÷ 100)</pre>
+          <p>Start with the number of accounts you could realistically sell to, multiply by your average annual contract value, then narrow twice: once for the slice of the market you can actually serve (SAM), and again for the share you can win in the next one to three years (SOM).</p>
+
+          <h2>Top-down vs bottom-up market sizing</h2>
+          <table>
+            <thead><tr><th>Approach</th><th>How it starts</th><th>Investor read</th></tr></thead>
+            <tbody>
+              <tr><td>Top-down</td><td>A published analyst market figure, narrowed by percentages.</td><td>Fast, but easy to inflate and hard to defend.</td></tr>
+              <tr><td>Bottom-up</td><td>Real target accounts times a realistic ACV, summed by segment.</td><td>Slower, but credible because every assumption is traceable.</td></tr>
+            </tbody>
+          </table>
+          <p>This calculator uses the bottom-up approach, customers times ACV, because that is the version investors trust.</p>
+
+          <h2>How to use TAM SAM SOM in a pitch</h2>
+          <ul>
+            <li><strong>Lead with SOM, not TAM.</strong> A grounded near-term number does more for credibility than a giant headline figure.</li>
+            <li><strong>Show your work.</strong> State the customer count, the ACV and each percentage so the math is auditable.</li>
+            <li><strong>Tie SAM to your ICP.</strong> The serviceable segment should map to the exact accounts your product fits today.</li>
+            <li><strong>Make SOM defensible.</strong> Base the capture rate on your sales capacity, win rate and competition, not optimism.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>What is TAM SAM SOM?</h3>
+          <p>TAM, SAM and SOM are three nested estimates of market size. TAM (total addressable market) is the total revenue opportunity if every possible customer bought your product. SAM (serviceable addressable market) narrows that to the segment you can actually serve with your current model, geography and pricing. SOM (serviceable obtainable market) is the realistic slice of SAM you can capture in the near term given your sales capacity and competition.</p>
+          <h3>How do you calculate TAM, SAM and SOM?</h3>
+          <p>A simple bottom-up version multiplies market size by price. TAM equals total potential customers times average annual contract value. SAM equals TAM times the percentage of that market your product actually fits by segment, geography or use case. SOM equals SAM times the share you can realistically win in the next one to three years. For example, 100,000 potential customers at a $12,000 ACV is a $1.2B TAM, a 30% serviceable segment is a $360M SAM, and a 10% near-term capture is a $36M SOM.</p>
+          <h3>What is the difference between top-down and bottom-up TAM?</h3>
+          <p>Top-down TAM starts with a large published market figure from an analyst report and narrows it with percentages, which is fast but easy to inflate. Bottom-up TAM builds from your own units, the number of real target accounts times a realistic annual contract value, summed across segments. Bottom-up is slower but far more credible with investors because every assumption is traceable to something you can defend. This calculator uses the bottom-up approach, customers times ACV.</p>
+          <h3>Why do investors care about TAM SAM SOM?</h3>
+          <p>Investors use TAM, SAM and SOM to judge whether a company can grow large enough to return their fund. TAM signals the ceiling of the opportunity, SAM shows you understand who you can actually serve, and SOM shows a grounded near-term revenue plan. A credible, well-sourced SOM often matters more than a huge TAM, because it proves you can convert market size into real revenue rather than quoting an inflated headline number.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['customers','acv','samPct','somPct'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e9) return '$'+(n/1e9).toFixed(2).replace(/\.?0+$/,'')+'B'; if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+
+  function recalc(){
+    var customers=num('customers'), acv=num('acv'), samPct=num('samPct')/100, somPct=num('somPct')/100;
+    var tam=customers*acv;
+    var sam=tam*samPct;
+    var som=sam*somPct;
+    $('rTam').textContent = tam>0 ? money(tam) : '–';
+    $('rSam').textContent = tam>0 ? money(sam) : '–';
+    $('rSom').textContent = tam>0 ? money(som) : '–';
+    $('rec').innerHTML = 'With <strong>'+num('customers').toLocaleString()+' potential customers</strong> at a <strong>'+money(acv)+' ACV</strong>, your total addressable market is <strong>'+money(tam)+'</strong>. A <strong>'+num('samPct')+'%</strong> serviceable segment is a <strong>'+money(sam)+'</strong> SAM, and a <strong>'+num('somPct')+'%</strong> near-term capture is a <strong>'+money(som)+'</strong> SOM.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

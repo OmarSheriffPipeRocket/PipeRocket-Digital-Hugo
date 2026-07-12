@@ -1,0 +1,188 @@
+{{/* SaaS Valuation Calculator (ARR multiple). Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "SaaS Valuation Calculator (ARR Multiple)", "description": "Free SaaS valuation calculator. Estimate company value from ARR and a revenue multiple, with a low-high valuation range and implied EV/Revenue.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How are SaaS companies valued?", "acceptedAnswer": { "@type": "Answer", "text": "Most private SaaS companies are valued on a revenue multiple, usually applied to annual recurring revenue (ARR). You take ARR and multiply it by a market multiple to get an enterprise value, so $2M ARR at a 6x multiple implies a roughly $12M valuation. Larger or more profitable businesses may also be valued on a multiple of EBITDA or on discounted cash flow, but for growth-stage SaaS the ARR multiple is the common shorthand. These are rules of thumb for a ballpark, not a formal appraisal or investment advice." } },
+    { "@type": "Question", "name": "What revenue (ARR) multiple should I use?", "acceptedAnswer": { "@type": "Answer", "text": "Use a multiple that reflects comparable companies at your size, growth rate and retention, then sanity-check it against recent deals in your category. As a rough guide, slow-growing or sub-scale SaaS often trades around 2x to 4x ARR, steady growers around 4x to 8x, and fast, efficient, high-retention companies can reach 8x to 12x or more. Because a single number rarely fits, this tool also shows a low-high range one turn either side of your chosen multiple." } },
+    { "@type": "Question", "name": "What is a good ARR multiple in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "In 2026, private B2B SaaS multiples have settled well below the 2021 peak, with the market rewarding efficient growth over growth at any cost. A healthy growth-stage company today often lands somewhere around 5x to 8x ARR, while exceptional growth combined with strong net revenue retention can command more and struggling or low-retention businesses trade lower. Treat any single benchmark as a starting point rather than a fixed price, since your own multiple depends on comparables and deal terms." } },
+    { "@type": "Question", "name": "What factors raise or lower a SaaS valuation?", "acceptedAnswer": { "@type": "Answer", "text": "Growth rate and net revenue retention are the two biggest levers: fast, durable growth and NRR above 100% push the multiple up. Gross margin, the rule of 40 (growth plus profit margin), a low CAC payback period, ARR mix toward recurring rather than services, customer concentration and market size all move it too. Weak retention, heavy churn, thin margins or reliance on one-off revenue pull the multiple down. Improving retention and capital-efficient growth is usually the fastest way to a higher valuation." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · SaaS Metrics</span>
+          <h1 class="pr-calc__title">SaaS Valuation Calculator (ARR Multiple)</h1>
+          <p class="pr-calc__sub">Estimate what a B2B SaaS business is worth from its ARR and a revenue multiple, with a low-high valuation range and the implied EV/Revenue. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">ARR <em>annual recurring revenue</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="arr" value="2000000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Revenue multiple <em>rule of thumb 4x to 8x</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="mult" value="6" min="0" step="0.5" class="pr-calc__no-prefix"><span class="pr-calc__suffix">x</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">YoY revenue growth <em>optional, for context</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="growth" value="40" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your estimated SaaS valuation</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rVal">-</div><div class="pr-calc__l">Estimated valuation</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rLow">-</div><div class="pr-calc__l">Low estimate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rHigh">-</div><div class="pr-calc__l">High estimate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rMult">-</div><div class="pr-calc__l">Implied EV/Revenue</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your ARR and a revenue multiple to see an estimated valuation.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-valuation-mid">Grow the ARR that drives your multiple →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>A higher multiple starts with faster, durable ARR growth.</strong>
+          <p>PipeRocket builds the organic engine that compounds ARR and retention.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-valuation-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/mrr-arr-calculator/">MRR / ARR Calculator</a>
+            <a href="/tools/nrr-calculator/">NRR Calculator</a>
+            <a href="/tools/churn-rate-calculator/">Churn Rate Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is a SaaS valuation (ARR multiple)?</h2>
+          <blockquote>A SaaS valuation is an estimate of what the business is worth, and for private B2B SaaS it is usually expressed as a multiple of annual recurring revenue. You multiply ARR by a market multiple to get an enterprise value: $2M ARR at 6x implies roughly $12M. The multiple is not fixed. It rises with growth and retention and falls with churn and thin margins, so the same ARR can be worth very different amounts depending on the quality of the revenue behind it.</blockquote>
+
+          <h2>How this calculator works</h2>
+          <p>One formula, no black box:</p>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Estimated valuation = ARR x revenue multiple
+Low estimate         = ARR x (revenue multiple - 1)
+High estimate        = ARR x (revenue multiple + 1)
+Implied EV/Revenue   = revenue multiple</pre>
+          <p>The low-high range widens the estimate one turn either side of your chosen multiple, because no single number captures how a real buyer will price the business. YoY growth is shown for context: it is the biggest reason a multiple lands high or low, so read the valuation with your growth rate in mind.</p>
+
+          <h2>What ARR multiple should you use in 2026?</h2>
+          <table>
+            <thead><tr><th>Profile</th><th>Rough ARR multiple</th><th>What it means</th></tr></thead>
+            <tbody>
+              <tr><td>Slow or sub-scale</td><td>2x to 4x</td><td>Modest growth, weaker retention, or early and unproven.</td></tr>
+              <tr><td>Steady grower</td><td>4x to 8x</td><td>Reliable growth with healthy retention. The common middle.</td></tr>
+              <tr><td>Fast and efficient</td><td>8x to 12x+</td><td>High growth plus strong NRR and margins. Priced at a premium.</td></tr>
+            </tbody>
+          </table>
+          <p>These are rules of thumb, not a formal appraisal or investment advice. Always sanity-check against recent deals for companies at your size, growth rate and retention.</p>
+
+          <h2>What raises or lowers the multiple</h2>
+          <ul>
+            <li><strong>Growth rate.</strong> Fast, durable revenue growth is the single largest driver of a higher multiple.</li>
+            <li><strong>Net revenue retention.</strong> NRR above 100% means the base grows on its own, which buyers pay up for.</li>
+            <li><strong>Efficiency.</strong> The rule of 40, gross margin and a short CAC payback signal growth that is not burning cash.</li>
+            <li><strong>Revenue quality.</strong> Recurring, diversified revenue beats services or a concentrated customer base.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How are SaaS companies valued?</h3>
+          <p>Most private SaaS companies are valued on a revenue multiple applied to ARR: ARR times a market multiple gives an enterprise value, so $2M ARR at 6x implies about $12M. Larger or profitable businesses may also use an EBITDA multiple or discounted cash flow, but for growth-stage SaaS the ARR multiple is the common shorthand. These are rules of thumb, not a formal appraisal or investment advice.</p>
+          <h3>What revenue (ARR) multiple should I use?</h3>
+          <p>Use one that reflects comparable companies at your size, growth and retention, then check it against recent deals. As a rough guide, slow or sub-scale SaaS trades around 2x to 4x ARR, steady growers around 4x to 8x, and fast, efficient, high-retention companies 8x to 12x or more. This tool also shows a range one turn either side of your multiple.</p>
+          <h3>What is a good ARR multiple in 2026?</h3>
+          <p>In 2026, private B2B SaaS multiples sit well below the 2021 peak, with efficient growth rewarded over growth at any cost. A healthy growth-stage company often lands around 5x to 8x ARR, while exceptional growth plus strong NRR can command more and low-retention businesses trade lower. Treat any single benchmark as a starting point, not a fixed price.</p>
+          <h3>What factors raise or lower a SaaS valuation?</h3>
+          <p>Growth rate and net revenue retention are the biggest levers: fast, durable growth and NRR above 100% push the multiple up. Gross margin, the rule of 40, a low CAC payback, recurring revenue mix, customer concentration and market size all move it too. Weak retention, heavy churn, thin margins or one-off revenue pull it down. Improving retention and capital-efficient growth is usually the fastest path to a higher valuation.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['arr','mult','growth'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+  function multStr(m){ return m.toFixed(1).replace(/\.?0+$/,''); }
+
+  function recalc(){
+    var arr=num('arr'), mult=num('mult'), growth=num('growth');
+    var val = arr*mult;
+    var low = arr*Math.max(mult-1,0);
+    var high = arr*(mult+1);
+    $('rVal').textContent = mult>0 ? money(val) : '-';
+    $('rLow').textContent = mult>0 ? money(low) : '-';
+    $('rHigh').textContent = mult>0 ? money(high) : '-';
+    $('rMult').textContent = mult>0 ? multStr(mult)+'x' : '-';
+    var band = growth>=60?'top-quartile':growth>=30?'solid':growth>=15?'moderate':'slow';
+    var base = 'At <strong>'+money(arr)+' ARR</strong> on a <strong>'+multStr(mult)+'x</strong> revenue multiple, this SaaS business is worth roughly <strong>'+money(val)+'</strong>, with a plausible range of <strong>'+money(low)+' to '+money(high)+'</strong>.';
+    if (growth>0) base += ' Your <strong>'+growth+'% YoY growth</strong> is '+band+' and is the biggest reason the multiple lands where it does.';
+    base += ' Treat this as a rule-of-thumb ballpark, not a formal appraisal or investment advice.';
+    $('rec').innerHTML = base;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}
