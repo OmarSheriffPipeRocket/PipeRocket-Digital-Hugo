@@ -59,7 +59,7 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     # /blogs/best-*-agencies/ → /list/*
     ("/blogs/best-saas-marketing-agencies/",            "/list/best-saas-marketing-agencies-2026/"),
     ("/blogs/best-saas-seo-agencies/",                  "/list/best-saas-seo-agencies/"),
-    ("/blogs/best-b2b-seo-agencies/",                   "/list/best-b2b-seo-agencies-2/"),
+    ("/blogs/best-b2b-seo-agencies/",                   "/list/best-b2b-seo-agencies/"),
     ("/blogs/best-saas-ppc-agencies/",                  "/list/best-saas-ppc-agencies/"),
     ("/blogs/best-b2b-marketing-agencies/",             "/list/best-b2b-marketing-agencies/"),
     ("/blogs/best-enterprise-seo-agencies/",            "/list/best-enterprise-seo-agencies/"),
@@ -71,9 +71,9 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/blogs/best-saas-content-marketing-agencies/",    "/list/best-saas-content-marketing-agencies/"),
     ("/blogs/top-performance-marketing-agencies/",      "/list/top-performance-marketing-agencies/"),
     ("/blogs/best-geo-agencies/",                       "/list/best-geo-agencies/"),
-    ("/blogs/best-technical-seo-agencies/",             "/list/the-11-best-technical-seo-agencies-for-2026/"),
-    ("/blogs/best-saas-link-building-agencies/",        "/list/the-10-best-saas-link-building-agencies-in-2026/"),
-    ("/blogs/best-b2b-advertising-agencies/",           "/list/the-best-b2b-advertising-agencies-2026-rankings/"),
+    ("/blogs/best-technical-seo-agencies/",             "/list/best-technical-seo-agencies/"),
+    ("/blogs/best-saas-link-building-agencies/",        "/list/best-saas-link-building-agencies/"),
+    ("/blogs/best-b2b-advertising-agencies/",           "/list/best-b2b-advertising-agencies/"),
     # Section aliases that humans / external sites sometimes link
     ("/case-studies/*",                                 "/case-study/:splat"),
     ("/success-stories/*",                              "/case-study/:splat"),
@@ -109,9 +109,9 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/blog/best-linkedin-marketing-agencies/",         "/list/best-linkedin-marketing-agencies/"),
     ("/blog/best-performance-marketing-agencies/",      "/list/top-performance-marketing-agencies/"),
     ("/blog/best-saas-demand-generation-agencies/",     "/list/"),
-    ("/blog/best-saas-link-building-agency/",           "/list/the-10-best-saas-link-building-agencies-in-2026/"),
+    ("/blog/best-saas-link-building-agency/",           "/list/best-saas-link-building-agencies/"),
     ("/blog/best-saas-marketing-agencies/",             "/list/best-saas-marketing-agencies-2026/"),
-    ("/blog/best-technical-seo-agencies/",              "/list/the-11-best-technical-seo-agencies-for-2026/"),
+    ("/blog/best-technical-seo-agencies/",              "/list/best-technical-seo-agencies/"),
     ("/blog/choose-best-saas-seo-agency-saas-companies/", "/saas-seo-agency/"),
     ("/blog/enterprise-seo-guide/",                     "/blogs/enterprise-seo-guide/"),
     ("/blog/saas-marketing-companies-challenges/",      "/blogs/saas-marketing-challenges-and-fixes/"),
@@ -129,9 +129,9 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/seo/best-linkedin-marketing-agencies/",          "/list/best-linkedin-marketing-agencies/"),
     ("/seo/best-performance-marketing-agencies/",       "/list/top-performance-marketing-agencies/"),
     ("/seo/best-saas-demand-generation-agencies/",      "/list/"),
-    ("/seo/best-saas-link-building-agency/",            "/list/the-10-best-saas-link-building-agencies-in-2026/"),
+    ("/seo/best-saas-link-building-agency/",            "/list/best-saas-link-building-agencies/"),
     ("/seo/best-saas-marketing-agencies/",              "/list/best-saas-marketing-agencies-2026/"),
-    ("/seo/best-technical-seo-agencies/",               "/list/the-11-best-technical-seo-agencies-for-2026/"),
+    ("/seo/best-technical-seo-agencies/",               "/list/best-technical-seo-agencies/"),
     ("/seo/enterprise-seo-guide/",                      "/blogs/enterprise-seo-guide/"),
     ("/seo/saas-seo/",                                  "/saas-seo-agency/"),
     # Old single-section service path
@@ -208,6 +208,13 @@ DECOMMISSIONED_PATHS = [
     ("/list/best-saas-seo-agencies-for-sales-led-growth/",   "/list/best-saas-seo-agencies/", 301),
     ("/list/best-saas-seo-agencies-for-series-a/",           "/list/best-saas-seo-agencies/", 301),
     ("/list/best-saas-seo-agencies-for-series-b/",           "/list/best-saas-seo-agencies/", 301),
+    # Re-slugged listicles — original published slugs still live in Google's index
+    # and external backlinks (server logs show direct hits still 404'ing). 301 the
+    # old slug straight to the current canonical URL to recover the link equity.
+    ("/list/the-11-best-technical-seo-agencies-for-2026/",   "/list/best-technical-seo-agencies/", 301),
+    ("/list/the-10-best-saas-link-building-agencies-in-2026/", "/list/best-saas-link-building-agencies/", 301),
+    ("/list/the-best-b2b-advertising-agencies-2026-rankings/", "/list/best-b2b-advertising-agencies/", 301),
+    ("/list/best-b2b-seo-agencies-2/",                       "/list/best-b2b-seo-agencies/", 301),
     # Curated section-level redirects (preserve link equity)
     ("/blog/",                          "/blogs/", 301),
     ("/gtm-lp/",                        "/",       301),
