@@ -1,0 +1,468 @@
+{{/* Google Penalty Checker.
+     Interactive RISK scorecard (20 weighted factors, higher = more risk) up top,
+     styled with theme tokens to match the light .pr-calc aesthetic. Content below
+     uses the standard 2-col article layout (.pr-2col-article > .pr-article-3-6-3)
+     with global prose (.pr-glossary__body) + auto TOC via blog-v2.js. Prefix: gpc- */}}
+
+{{ define "head_extra" }}
+<style>
+  .gpc-wrap *, .gpc-wrap *::before, .gpc-wrap *::after { box-sizing: border-box; }
+  .gpc-wrap { max-width: 1180px; margin: 0 auto; }
+
+  .gpc-hero { max-width: 820px; margin: 0 auto var(--pr-s-7); text-align: center; }
+  .gpc-badge { display: inline-block; color: var(--pr-red); font-family: var(--pr-sans); font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; margin-bottom: 14px; }
+  .gpc-hero h1 { font-family: var(--pr-serif); font-weight: 700; font-size: clamp(1.9rem, 3.8vw, 2.9rem); line-height: 1.12; color: var(--pr-ink); margin-bottom: 14px; }
+  .gpc-hero h1 em { font-style: italic; color: var(--pr-cyan); }
+  .gpc-hero p { font-size: 1rem; color: var(--pr-muted); max-width: 660px; margin: 0 auto; line-height: 1.6; }
+
+  .gpc-app { display: grid; grid-template-columns: 1fr; gap: var(--pr-s-6); align-items: start; }
+  @media (min-width: 940px) { .gpc-app { grid-template-columns: 1fr 340px; gap: var(--pr-s-7); } }
+
+  .gpc-checklist { background: var(--pr-cream); border: 1px solid var(--pr-line); border-radius: 8px; overflow: hidden; }
+  .gpc-cl-head { padding: 20px 24px; border-bottom: 1px solid var(--pr-line); }
+  .gpc-cl-head h2 { font-family: var(--pr-sans); font-size: 1rem; font-weight: 700; color: var(--pr-ink); margin: 0; }
+  .gpc-cl-head p { font-size: 0.85rem; color: var(--pr-muted); margin: 4px 0 0; }
+  .gpc-cat-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 24px 10px; }
+  .gpc-cat-name { font-family: var(--pr-sans); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--pr-cyan); }
+  .gpc-cat-wt { font-size: 0.7rem; font-weight: 600; color: var(--pr-muted); }
+  .gpc-item { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 24px; border-top: 1px solid var(--pr-line); }
+  .gpc-item-q { font-size: 0.9rem; line-height: 1.5; color: var(--pr-ink-2); flex: 1; }
+  .gpc-toggle { display: inline-flex; border: 1px solid var(--pr-line); border-radius: 4px; overflow: hidden; flex-shrink: 0; background: var(--pr-cream-2); }
+  .gpc-toggle button { appearance: none; border: none; background: transparent; font-family: var(--pr-sans); font-size: 0.75rem; font-weight: 600; color: var(--pr-muted); padding: 7px 12px; cursor: pointer; transition: background .12s, color .12s; border-right: 1px solid var(--pr-line); line-height: 1; }
+  .gpc-toggle button:last-child { border-right: none; }
+  .gpc-toggle button:hover { color: var(--pr-ink); }
+  /* risk polarity: Yes (issue present) = red, Some = pink, No (clean) = cyan */
+  .gpc-toggle button.gpc-on[data-val="yes"] { background: var(--pr-red); color: var(--pr-cream); }
+  .gpc-toggle button.gpc-on[data-val="some"] { background: var(--pr-pink); color: var(--pr-ink); }
+  .gpc-toggle button.gpc-on[data-val="no"] { background: var(--pr-cyan); color: var(--pr-ink); }
+
+  .gpc-results { position: sticky; top: 90px; display: flex; flex-direction: column; gap: var(--pr-s-4); }
+  .gpc-score-card { background: var(--pr-cream-2); color: var(--pr-ink); border: 1px solid var(--pr-line); border-radius: 8px; padding: 26px 24px; text-align: center; }
+  .gpc-gauge { width: 172px; height: 172px; border-radius: 50%; margin: 4px auto 14px; display: grid; place-items: center; background: conic-gradient(var(--gpc-gc, var(--pr-cyan)) calc(var(--gpc-score,0) * 1%), rgba(13,13,13,0.08) 0); transition: background .5s ease; }
+  .gpc-gauge-hole { width: 130px; height: 130px; border-radius: 50%; background: var(--pr-cream-2); display: grid; place-items: center; }
+  .gpc-score-num { font-family: var(--pr-serif); font-weight: 700; font-size: 46px; line-height: 1; color: var(--pr-ink); }
+  .gpc-score-num span { font-size: 18px; color: var(--pr-muted); }
+  .gpc-tier { font-family: var(--pr-sans); font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+  .gpc-tier.t-red { color: var(--pr-red); }
+  .gpc-tier.t-pink { color: var(--pr-red); }
+  .gpc-tier.t-cyan { color: var(--pr-ink); }
+  .gpc-verdict { font-size: 0.82rem; color: var(--pr-muted); line-height: 1.55; }
+
+  .gpc-panel { background: var(--pr-cream); border: 1px solid var(--pr-line); border-radius: 8px; padding: 20px 22px; }
+  .gpc-panel-label { font-family: var(--pr-sans); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--pr-muted); margin-bottom: 14px; }
+  .gpc-conc { font-size: 0.82rem; color: var(--pr-ink-2); line-height: 1.55; }
+  .gpc-conc strong { color: var(--pr-ink); }
+  .gpc-bd-row { margin-bottom: 12px; }
+  .gpc-bd-row:last-child { margin-bottom: 0; }
+  .gpc-bd-top { display: flex; justify-content: space-between; font-size: 0.78rem; margin-bottom: 5px; }
+  .gpc-bd-name { color: var(--pr-ink-2); font-weight: 600; }
+  .gpc-bd-val { color: var(--pr-muted); font-weight: 600; }
+  .gpc-bd-track { height: 6px; background: var(--pr-cream-2); border-radius: 3px; overflow: hidden; }
+  .gpc-bd-fill { height: 100%; background: var(--pr-red); border-radius: 3px; transition: width .5s ease; }
+  .gpc-fix-item { display: flex; gap: 10px; align-items: flex-start; padding: 9px 0; border-bottom: 1px solid var(--pr-line); font-size: 0.82rem; line-height: 1.5; color: var(--pr-ink-2); }
+  .gpc-fix-item:last-child { border-bottom: none; }
+  .gpc-fix-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--pr-red); margin-top: 6px; flex-shrink: 0; }
+  .gpc-fix-dot.p { background: var(--pr-pink); }
+  .gpc-fix-empty { font-size: 0.82rem; color: var(--pr-muted); line-height: 1.5; }
+  .gpc-cta { background: var(--pr-cyan); border-radius: 8px; padding: 20px 22px; }
+  .gpc-cta p { font-size: 0.88rem; color: var(--pr-ink); line-height: 1.5; margin: 0 0 12px; font-weight: 500; }
+  .gpc-cta strong { font-weight: 700; }
+  .gpc-cta a { display: block; text-align: center; background: var(--pr-ink); color: var(--pr-cream); font-size: 0.88rem; font-weight: 700; padding: 11px 16px; border-radius: 4px; text-decoration: none; }
+  .gpc-cta a:hover { opacity: .9; }
+
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Google Penalty Checker (Risk Assessment)",
+  "description": "Free self-assessment scorecard that rates a website's risk of a Google manual action or algorithmic demotion across 20 weighted factors, and points to the likely penalty type and recovery steps.",
+  "url": "{{ .Permalink }}",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can a tool detect if my site has a Google penalty?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No tool can definitively detect a penalty by scanning a URL. Manual actions exist only in the affected site's Google Search Console and have no public API, so no third party can look them up. Algorithmic demotions are never reported anywhere and can only be inferred by matching a traffic drop to known update dates. That is why an honest penalty checker is either a self-assessment of your risk factors, like this one, or an overlay of your own Search Console and Analytics data against the update calendar." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a manual action and an algorithmic penalty?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A manual action is a human reviewer at Google penalizing your site for breaking spam policies; it appears in Search Console under Security and Manual Actions and requires a reconsideration request to lift. An algorithmic penalty is not really a penalty but a demotion applied automatically by ranking systems such as core and spam updates; it is not reported anywhere, and it lifts only when you fix the underlying issue and the relevant system re-evaluates your site, usually at the next update or refresh." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I check if I have a Google penalty?",
+      "acceptedAnswer": { "@type": "Answer", "text": "First open Google Search Console and check Security and Manual Actions. If an action is listed, you have a confirmed manual penalty. If it is clean, the drop is most likely algorithmic or technical, so plot your organic traffic by date and see whether the decline lines up with a known Google core or spam update. A sharp, sitewide drop that aligns with an update date points to an algorithmic demotion; a gradual decline or one limited to a few pages usually points to competition, technical issues or SERP changes like AI Overviews rather than a penalty." }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to recover from a Google penalty?",
+      "acceptedAnswer": { "@type": "Answer", "text": "For a manual action, recovery takes as long as it takes to genuinely fix every flagged issue plus the review time on your reconsideration request, which is often one to several weeks. For an algorithmic demotion there is no reconsideration request; you fix the root cause and then wait for the relevant system to re-assess, which can take weeks to months and often only fully resolves at the next broad core or spam update. There is no way to force either timeline." }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the penalty risk score calculated?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It is a weighted self-assessment where a higher score means higher risk. Twenty factors are grouped into five categories: content quality (28 points), backlinks and link schemes (24), on-page and technical spam (20), security and site integrity (12), and drop pattern and timing signals (16). Each factor adds full points if the risk clearly applies, half if it somewhat applies, and zero if it does not, summing to a 0 to 100 risk score. If you report a manual action in Search Console, the tool treats that as a confirmed penalty rather than an estimate. The full weighting is published on this page." }
+    }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<!-- ===== SCORECARD APP ===== -->
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="gpc-wrap">
+
+      <div class="gpc-hero">
+        <div class="gpc-badge">Penalty Risk Scorecard · SEO</div>
+        <h1>Google Penalty Checker<br><em>how exposed is your site?</em></h1>
+        <p>No tool can scan a URL and "detect" a Google penalty, because manual actions live only in your Search Console and algorithmic demotions are never reported. So this is an honest self-assessment: rate 20 risk factors to score your exposure, see which penalty type you are most exposed to, and get the steps to confirm and recover. No email.</p>
+      </div>
+
+      <div class="gpc-app">
+        <div class="gpc-checklist">
+          <div class="gpc-cl-head">
+            <h2>Rate your site, honestly</h2>
+            <p>For each factor pick Yes, Some or No. Your risk score updates live. Higher means more risk.</p>
+          </div>
+          <div id="gpc_cats"></div>
+        </div>
+
+        <div class="gpc-results">
+          <div class="gpc-score-card">
+            <div class="gpc-gauge" id="gpc_gauge">
+              <div class="gpc-gauge-hole">
+                <div class="gpc-score-num"><span id="gpc_score">0</span><span>/100</span></div>
+              </div>
+            </div>
+            <div class="gpc-tier t-cyan" id="gpc_tier">Low penalty risk</div>
+            <div class="gpc-verdict" id="gpc_verdict">Answer the factors to see where your site stands.</div>
+          </div>
+          <div class="gpc-panel">
+            <div class="gpc-panel-label">Where your risk is concentrated</div>
+            <div class="gpc-conc" id="gpc_concentration">Rate the factors and your likely penalty type appears here.</div>
+          </div>
+          <div class="gpc-panel">
+            <div class="gpc-panel-label">Risk by Category</div>
+            <div id="gpc_breakdown"></div>
+          </div>
+          <div class="gpc-panel">
+            <div class="gpc-panel-label">Your Biggest Risk Factors</div>
+            <div id="gpc_fixes"><div class="gpc-fix-empty">Rate the factors and your highest-risk items appear here, ranked by impact.</div></div>
+          </div>
+          <div class="gpc-cta">
+            <p><strong>Traffic dropped and not sure why?</strong> PipeRocket runs a full penalty and recovery audit for B2B SaaS sites, from manual actions to core-update demotions.</p>
+            <a href="/saas-seo-agency/" data-cta-source="tool-gpc-side">Get a recovery audit →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTENT (standard 2-col article layout) ===== -->
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Scored 40 or higher?</strong>
+          <p>PipeRocket diagnoses the real cause of a traffic drop and rebuilds rankings the right way.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-gpc-content">Get a recovery audit</a>
+        </div>
+
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/ai-overview-traffic-loss-calculator/">AI Overview Traffic-Loss Calculator</a>
+            <a href="/tools/free-seo-roi-calculator/">SEO ROI Calculator</a>
+            <a href="/checklists/seo-audit-checklist/">SEO Audit Checklist</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What a Google penalty actually is</h2>
+          <blockquote>A Google penalty comes in two forms. A manual action is a human reviewer at Google demoting or removing your pages for breaking a spam policy, and it is the only form Google tells you about, inside Search Console. An algorithmic demotion is your rankings dropping automatically because a system like a core update or spam update reassessed your site; Google never reports these, so you can only infer them. Most "penalties" people worry about are actually algorithmic demotions, not manual actions.</blockquote>
+
+          <h2>Why no tool can "check" your site for a penalty</h2>
+          <p>This matters, because it is why every "instant penalty checker" that just wants your URL is misleading:</p>
+          <ul>
+            <li><strong>Manual actions are private.</strong> They appear only in the affected site's Search Console, under Security and Manual Actions, and there is no public API for them. No third-party tool can look up whether your site, or anyone else's, has one.</li>
+            <li><strong>Algorithmic demotions are never announced.</strong> Google does not label a site as "demoted." You can only infer it by correlating a traffic drop with the dates of known updates.</li>
+          </ul>
+          <p>So an honest penalty checker can only be one of two things: a self-assessment of the risk factors that trigger penalties, which is what this scorecard is, or an overlay of your own Search Console and Analytics data against the update calendar. This tool does the first and then tells you exactly how to do the second.</p>
+
+          <h2>How the penalty risk score works</h2>
+          <p>The score is a weighted self-assessment where <strong>a higher score means higher risk</strong>. Twenty factors sit in five categories. Each factor adds full points if the risk clearly applies, half for <strong>Some</strong>, and zero for <strong>No</strong>. Points sum to a 0 to 100 risk score. Here is the full weighting, no black box:</p>
+          <table>
+            <thead><tr><th>Category</th><th>Weight</th><th>Penalty type it maps to</th></tr></thead>
+            <tbody>
+              <tr><td>Content quality</td><td>28</td><td>Core update and Helpful Content demotions, scaled content abuse</td></tr>
+              <tr><td>Backlinks &amp; link schemes</td><td>24</td><td>Link spam system, unnatural links manual action</td></tr>
+              <tr><td>On-page &amp; technical spam</td><td>20</td><td>Spam-policy manual actions (cloaking, doorways, stuffing)</td></tr>
+              <tr><td>Security &amp; site integrity</td><td>12</td><td>Hacked-site and malware actions, page-experience drag</td></tr>
+              <tr><td>Drop pattern &amp; timing</td><td>16</td><td>Evidence of an actual manual or algorithmic hit</td></tr>
+            </tbody>
+          </table>
+          <p>Risk bands: <strong>0 to 19</strong> low risk, <strong>20 to 39</strong> moderate, <strong>40 to 64</strong> elevated, <strong>65 to 100</strong> high risk. If you report a manual action in Search Console, the tool treats it as a confirmed penalty rather than an estimate.</p>
+
+          <h2>The risk factors, explained</h2>
+          <h3>1. Content quality</h3>
+          <ul>
+            <li><strong>Thin or doorway content.</strong> Pages with little value that mainly exist to rank are the classic target of core and spam updates.</li>
+            <li><strong>Scaled or unedited AI content.</strong> Mass-produced pages with little original value fall under Google's scaled content abuse policy.</li>
+            <li><strong>Duplicate content.</strong> Large amounts of duplicate or near-duplicate content dilute quality signals.</li>
+            <li><strong>E-E-A-T gaps.</strong> No first-hand experience, named authors or clear expertise, which the Helpful Content signals weigh heavily.</li>
+            <li><strong>Built for search, not users.</strong> Content written to rank first and help second is exactly what recent updates demote.</li>
+          </ul>
+          <h3>2. Backlinks &amp; link schemes</h3>
+          <ul>
+            <li><strong>Bought or exchanged links.</strong> Paying for or swapping links to influence rankings breaks Google's link spam policy.</li>
+            <li><strong>Low-quality or PBN links.</strong> A large share of links from irrelevant, low-quality or private-blog-network sites is a strong risk signal.</li>
+            <li><strong>Over-optimized anchors.</strong> Heavily exact-match inbound anchor text looks manipulative.</li>
+            <li><strong>Links at scale.</strong> Paid guest posts and article-directory links built purely for links.</li>
+            <li><strong>No backlink hygiene.</strong> Never auditing your profile or disavowing toxic links leaves you exposed.</li>
+          </ul>
+          <h3>3. On-page &amp; technical spam</h3>
+          <ul>
+            <li><strong>Keyword stuffing or hidden text.</strong> Stuffed keywords or hidden text and links are direct spam violations.</li>
+            <li><strong>Cloaking or sneaky redirects.</strong> Showing Google different content than users, or redirecting users unexpectedly.</li>
+            <li><strong>Auto-generated content.</strong> Spun, scraped or auto-generated pages with no added value.</li>
+            <li><strong>Site reputation or expired-domain abuse.</strong> Publishing third-party or expired-domain content mainly to exploit ranking signals.</li>
+          </ul>
+          <h3>4. Security &amp; site integrity</h3>
+          <ul>
+            <li><strong>Hacked or malware.</strong> A hacked site or malware warnings can trigger a security action and crush visibility.</li>
+            <li><strong>Intrusive interstitials.</strong> Pop-ups that block your main content, especially on mobile, drag on page experience.</li>
+          </ul>
+          <h3>5. Drop pattern &amp; timing</h3>
+          <ul>
+            <li><strong>Manual action in Search Console.</strong> If Security and Manual Actions lists anything, you have a confirmed penalty, not a risk.</li>
+            <li><strong>Sudden, sharp drop.</strong> A cliff-edge fall is more consistent with a penalty or update than a slow decline.</li>
+            <li><strong>Aligned with an update.</strong> A drop that starts within a day or two of a known update strongly suggests an algorithmic cause.</li>
+            <li><strong>Sitewide, not page-level.</strong> A drop across most of the site points to a sitewide signal rather than a few pages losing to competitors.</li>
+          </ul>
+
+          <h2>How to confirm a manual action (the one definitive check)</h2>
+          <p>This is the only signal you can confirm with certainty, and it is free:</p>
+          <ol>
+            <li>Open <a href="https://search.google.com/search-console" target="_blank" rel="noopener">Google Search Console</a> for your property.</li>
+            <li>Go to <strong>Security &amp; Manual Actions &gt; Manual actions</strong>.</li>
+            <li>If it says "No issues detected," you do not have a manual action, and any drop is algorithmic or technical. If an action is listed, read the exact issue and affected scope.</li>
+            <li>Fix every flagged issue thoroughly, then submit a <a href="https://developers.google.com/search/docs/monitor-debug/manual-actions" target="_blank" rel="noopener">reconsideration request</a> describing what you fixed.</li>
+          </ol>
+          <p>See Google's <a href="https://developers.google.com/search/docs/essentials/spam-policies" target="_blank" rel="noopener">spam policies</a> for the full list of what triggers a manual action.</p>
+
+          <h2>How to tell if it was an algorithm update</h2>
+          <p>If Search Console is clean, plot your organic clicks by day and look for a drop that lines up with a known update. Google confirms major updates on its <a href="https://status.search.google.com/" target="_blank" rel="noopener">Search Status Dashboard</a> and <a href="https://developers.google.com/search/updates/ranking" target="_blank" rel="noopener">ranking updates page</a>. Recent milestones worth checking against include:</p>
+          <ul>
+            <li><strong>March 2024 core update</strong> plus new spam policies for scaled content abuse, site reputation abuse and expired domain abuse. This update also folded the Helpful Content system into core ranking.</li>
+            <li><strong>Multiple 2024 core and spam updates</strong> (including August, November and December 2024).</li>
+            <li><strong>Ongoing core and spam updates</strong> through 2025 and 2026. Google runs several a year, so always check the dashboard for the current list rather than assuming.</li>
+          </ul>
+          <p>A sharp, sitewide drop within a day or two of one of these is most consistent with an algorithmic demotion. If the drop does not match any update, look at technical issues (indexation, robots, redirects), lost rankings to competitors, or SERP-layout changes. A common non-penalty cause today is <a href="/tools/ai-overview-traffic-loss-calculator/">AI Overviews absorbing clicks</a> even while you still rank.</p>
+
+          <h2>How to recover</h2>
+          <ul>
+            <li><strong>Manual action:</strong> fix every flagged issue, then file a reconsideration request. This is the only case where a reconsideration request applies.</li>
+            <li><strong>Algorithmic (content):</strong> improve or consolidate thin and unhelpful content, add real experience and expertise, and remove pages that only exist to rank. Recovery typically lands at a later core update, not instantly.</li>
+            <li><strong>Algorithmic (links):</strong> audit your backlinks, stop any link buying, and disavow clearly toxic links. Rankings recover as the link spam system re-assesses.</li>
+            <li><strong>Technical or SERP change:</strong> if it is not a penalty at all, fix crawl and indexation issues or adapt your content to how the SERP now looks.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>Can a tool detect if my site has a Google penalty?</h3>
+          <p>No tool can definitively detect a penalty by scanning a URL. Manual actions exist only in the affected site's Search Console and have no public API, so no third party can look them up. Algorithmic demotions are never reported anywhere and can only be inferred by matching a traffic drop to known update dates. That is why an honest penalty checker is either a self-assessment of your risk factors, like this one, or an overlay of your own Search Console and Analytics data against the update calendar.</p>
+          <h3>What is the difference between a manual action and an algorithmic penalty?</h3>
+          <p>A manual action is a human reviewer at Google penalizing your site for breaking spam policies; it appears in Search Console under Security and Manual Actions and requires a reconsideration request to lift. An algorithmic penalty is not really a penalty but a demotion applied automatically by ranking systems such as core and spam updates; it is not reported anywhere, and it lifts only when you fix the underlying issue and the relevant system re-evaluates your site, usually at the next update or refresh.</p>
+          <h3>How do I check if I have a Google penalty?</h3>
+          <p>First open Google Search Console and check Security and Manual Actions. If an action is listed, you have a confirmed manual penalty. If it is clean, the drop is most likely algorithmic or technical, so plot your organic traffic by date and see whether the decline lines up with a known Google core or spam update. A sharp, sitewide drop that aligns with an update date points to an algorithmic demotion; a gradual decline or one limited to a few pages usually points to competition, technical issues or SERP changes like AI Overviews rather than a penalty.</p>
+          <h3>How long does it take to recover from a Google penalty?</h3>
+          <p>For a manual action, recovery takes as long as it takes to genuinely fix every flagged issue plus the review time on your reconsideration request, which is often one to several weeks. For an algorithmic demotion there is no reconsideration request; you fix the root cause and then wait for the relevant system to re-assess, which can take weeks to months and often only fully resolves at the next broad core or spam update. There is no way to force either timeline.</p>
+          <h3>How is the penalty risk score calculated?</h3>
+          <p>It is a weighted self-assessment where a higher score means higher risk. Twenty factors are grouped into five categories: content quality (28 points), backlinks and link schemes (24), on-page and technical spam (20), security and site integrity (12), and drop pattern and timing signals (16). Each factor adds full points if the risk clearly applies, half if it somewhat applies, and zero if it does not, summing to a 0 to 100 risk score. If you report a manual action in Search Console, the tool treats that as a confirmed penalty rather than an estimate. The full weighting is published above.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</article>
+
+<!-- Risk scorecard engine -->
+<script>
+(function () {
+  var CATS = [
+    { key: 'content', name: 'Content Quality', weight: 28, items: [
+      'You publish thin or doorway-style pages that mainly exist to rank',
+      'You have scaled or mass-produced content (including unedited AI output) with little original value',
+      'You have substantial duplicate or near-duplicate content across your site',
+      'Your content lacks first-hand experience, named authors or clear expertise (E-E-A-T gaps)',
+      'Pages feel built for search engines first rather than to genuinely help users',
+    ]},
+    { key: 'links', name: 'Backlinks & Link Schemes', weight: 24, items: [
+      'You have bought, sold or exchanged links to influence rankings',
+      'A large share of backlinks come from low-quality, irrelevant or PBN sites',
+      'Your inbound anchor text is heavily exact-match or over-optimized',
+      'You built links at scale through paid guest posts or article directories',
+      'You have never audited your backlink profile or disavowed toxic links',
+    ]},
+    { key: 'spam', name: 'On-page & Technical Spam', weight: 20, items: [
+      'You use keyword stuffing, or hidden text or links',
+      'You show different content to Google than to users (cloaking) or use sneaky redirects',
+      'You run auto-generated, spun or scraped content',
+      'You publish expired-domain or third-party content mainly to exploit ranking (reputation abuse)',
+    ]},
+    { key: 'security', name: 'Security & Site Integrity', weight: 12, items: [
+      'Your site has been hacked, or shows malware or security warnings',
+      'Intrusive pop-ups or interstitials block your main content, especially on mobile',
+    ]},
+    { key: 'timing', name: 'Drop Pattern & Timing', weight: 16, items: [
+      'Search Console shows a manual action under Security & Manual Actions',
+      'Your organic traffic dropped suddenly and sharply rather than declining slowly',
+      'The drop lines up closely with the date of a known Google update',
+      'The drop affected most of the site, not just a few pages',
+    ]},
+  ];
+  var VAL = { yes: 1, some: 0.5, no: 0 };
+  var CONC = {
+    content: 'Content quality. Most consistent with a <strong>core update or Helpful Content demotion</strong>, or a scaled-content-abuse action. Improve or cut thin pages and add real expertise.',
+    links: 'Backlinks. Most consistent with a <strong>link spam demotion</strong> or an unnatural-links manual action. Audit and disavow, and stop any link buying.',
+    spam: 'On-page spam. Most consistent with a <strong>spam-policy manual action</strong> (cloaking, doorways, stuffing). Remove the violations before anything else.',
+    security: 'Security and site integrity. Could be a <strong>hacked-site or malware action</strong>, or a page-experience drag rather than a classic penalty. Clean and secure the site first.',
+    timing: 'Drop pattern. A sharp, sitewide drop aligned to an update date points to an <strong>algorithmic demotion</strong> rather than a manual action. Confirm the timing against the update calendar.',
+  };
+  var state = {};
+
+  var catsEl = document.getElementById('gpc_cats');
+  if (!catsEl) return;
+  CATS.forEach(function (cat, ci) {
+    var per = cat.weight / cat.items.length;
+    var wrap = document.createElement('div');
+    wrap.className = 'gpc-cat';
+    var html = '<div class="gpc-cat-head"><span class="gpc-cat-name">' + (ci+1) + '. ' + cat.name + '</span><span class="gpc-cat-wt">' + cat.weight + ' pts</span></div>';
+    cat.items.forEach(function (q, ii) {
+      var id = cat.key + '_' + ii;
+      state[id] = 'no';
+      html += '<div class="gpc-item"><div class="gpc-item-q">' + q + '</div>' +
+        '<div class="gpc-toggle" data-id="' + id + '" data-cat="' + cat.key + '" data-weight="' + per + '" data-q="' + q.replace(/"/g,'&quot;') + '">' +
+        '<button data-val="yes">Yes</button><button data-val="some">Some</button><button data-val="no" class="gpc-on">No</button></div></div>';
+    });
+    wrap.innerHTML = html;
+    catsEl.appendChild(wrap);
+  });
+
+  function tierFor(s) {
+    if (s >= 65) return { cls: 't-red',  gc: 'var(--pr-red)',  label: 'High penalty risk', v: 'Multiple strong risk signals. A manual action or algorithmic demotion is plausible. Work the risk factors below and confirm in Search Console.' };
+    if (s >= 40) return { cls: 't-pink', gc: 'var(--pr-pink)', label: 'Elevated risk',      v: 'Real exposure. Several factors could be suppressing your rankings. Fix the highest-weighted ones and check for an update overlap.' };
+    if (s >= 20) return { cls: 't-cyan', gc: 'var(--pr-cyan)', label: 'Moderate risk',      v: 'Some exposure. No single factor is severe, but a few could contribute to a soft demotion. Tidy up the items below.' };
+    return           { cls: 't-cyan', gc: 'var(--pr-cyan)', label: 'Low penalty risk',   v: 'Low risk. Your answers do not point to a penalty. If traffic still dropped, investigate technical issues, SERP changes like AI Overviews, or seasonality.' };
+  }
+
+  function recalc() {
+    var total = 0, catScore = {}, catMax = {};
+    CATS.forEach(function (c) { catScore[c.key] = 0; catMax[c.key] = c.weight; });
+    document.querySelectorAll('.gpc-toggle').forEach(function (t) {
+      var w = parseFloat(t.dataset.weight), pts = w * VAL[state[t.dataset.id]];
+      total += pts; catScore[t.dataset.cat] += pts;
+    });
+    var score = Math.round(total);
+    var confirmed = state['timing_0'] === 'yes';
+    var t = confirmed
+      ? { cls: 't-red', gc: 'var(--pr-red)', label: 'Confirmed manual action', v: 'Search Console reports a manual action, so this is a confirmed penalty, not a risk estimate. Read the exact action, fix every flagged issue, then submit a reconsideration request. The factors below show where to focus.' }
+      : tierFor(score);
+
+    var g = document.getElementById('gpc_gauge');
+    g.style.setProperty('--gpc-score', confirmed ? 100 : score);
+    g.style.setProperty('--gpc-gc', t.gc);
+    document.getElementById('gpc_score').textContent = score;
+    var tierEl = document.getElementById('gpc_tier');
+    tierEl.textContent = t.label; tierEl.className = 'gpc-tier ' + t.cls;
+    document.getElementById('gpc_verdict').textContent = t.v;
+
+    // concentration readout
+    var concEl = document.getElementById('gpc_concentration');
+    if (total <= 0) {
+      concEl.innerHTML = 'Rate the factors and your likely penalty type appears here.';
+    } else {
+      var topKey = null, topPct = -1;
+      CATS.forEach(function (c) {
+        var pct = catMax[c.key] > 0 ? catScore[c.key] / catMax[c.key] : 0;
+        if (pct > topPct) { topPct = pct; topKey = c.key; }
+      });
+      concEl.innerHTML = CONC[topKey] || '';
+    }
+
+    document.getElementById('gpc_breakdown').innerHTML = CATS.map(function (c) {
+      var pct = catMax[c.key] > 0 ? (catScore[c.key] / catMax[c.key] * 100) : 0;
+      return '<div class="gpc-bd-row"><div class="gpc-bd-top"><span class="gpc-bd-name">' + c.name + '</span><span class="gpc-bd-val">' + Math.round(catScore[c.key]) + '/' + c.weight + '</span></div><div class="gpc-bd-track"><div class="gpc-bd-fill" style="width:' + pct + '%"></div></div></div>';
+    }).join('');
+
+    var risks = [];
+    document.querySelectorAll('.gpc-toggle').forEach(function (el) {
+      var v = state[el.dataset.id];
+      if (v !== 'no') risks.push({ q: el.dataset.q, w: parseFloat(el.dataset.weight), some: v === 'some' });
+    });
+    risks.sort(function (a, b) { return (b.w - a.w) || (a.some - b.some); });
+    var fixEl = document.getElementById('gpc_fixes');
+    if (!risks.length) {
+      fixEl.innerHTML = '<div class="gpc-fix-empty">No risk factors flagged. Nothing here points to a penalty on this scorecard.</div>';
+    } else {
+      fixEl.innerHTML = risks.slice(0, 6).map(function (r) {
+        return '<div class="gpc-fix-item"><span class="gpc-fix-dot ' + (r.some ? 'p' : '') + '"></span><span>' + r.q + '</span></div>';
+      }).join('');
+    }
+  }
+
+  document.querySelectorAll('.gpc-toggle').forEach(function (t) {
+    t.addEventListener('click', function (e) {
+      var btn = e.target.closest('button');
+      if (!btn) return;
+      this.querySelectorAll('button').forEach(function (b) { b.classList.remove('gpc-on'); });
+      btn.classList.add('gpc-on');
+      state[this.dataset.id] = btn.dataset.val;
+      recalc();
+    });
+  });
+
+  recalc();
+})();
+</script>
+
+{{/* Shared article TOC engine builds "On this page" from H2s in [data-pr-blog-main] */}}
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}
+  {{ $js = $js | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}
+{{ end }}
