@@ -98,27 +98,27 @@
     {
       "@type": "Question",
       "name": "Can a tool detect if my site has a Google penalty?",
-      "acceptedAnswer": { "@type": "Answer", "text": "No tool can definitively detect a penalty by scanning a URL. Manual actions exist only in the affected site's Google Search Console and have no public API, so no third party can look them up. Algorithmic demotions are never reported anywhere and can only be inferred by matching a traffic drop to known update dates. That is why an honest penalty checker is either a self-assessment of your risk factors, like this one, or an overlay of your own Search Console and Analytics data against the update calendar." }
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Manual actions appear only in your own Search Console (no public API) and algorithmic demotions are never reported, so any checker is really a self-assessment." }
     },
     {
       "@type": "Question",
       "name": "What is the difference between a manual action and an algorithmic penalty?",
-      "acceptedAnswer": { "@type": "Answer", "text": "A manual action is a human reviewer at Google penalizing your site for breaking spam policies; it appears in Search Console under Security and Manual Actions and requires a reconsideration request to lift. An algorithmic penalty is not really a penalty but a demotion applied automatically by ranking systems such as core and spam updates; it is not reported anywhere, and it lifts only when you fix the underlying issue and the relevant system re-evaluates your site, usually at the next update or refresh." }
+      "acceptedAnswer": { "@type": "Answer", "text": "A manual action is a human reviewer penalizing your site and shows in Search Console; an algorithmic demotion is applied automatically by updates and is never reported." }
     },
     {
       "@type": "Question",
       "name": "How do I check if I have a Google penalty?",
-      "acceptedAnswer": { "@type": "Answer", "text": "First open Google Search Console and check Security and Manual Actions. If an action is listed, you have a confirmed manual penalty. If it is clean, the drop is most likely algorithmic or technical, so plot your organic traffic by date and see whether the decline lines up with a known Google core or spam update. A sharp, sitewide drop that aligns with an update date points to an algorithmic demotion; a gradual decline or one limited to a few pages usually points to competition, technical issues or SERP changes like AI Overviews rather than a penalty." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Open Search Console and check Security and Manual Actions. If it is clean, plot your traffic and see whether the drop aligns with a known Google update." }
     },
     {
       "@type": "Question",
       "name": "How long does it take to recover from a Google penalty?",
-      "acceptedAnswer": { "@type": "Answer", "text": "For a manual action, recovery takes as long as it takes to genuinely fix every flagged issue plus the review time on your reconsideration request, which is often one to several weeks. For an algorithmic demotion there is no reconsideration request; you fix the root cause and then wait for the relevant system to re-assess, which can take weeks to months and often only fully resolves at the next broad core or spam update. There is no way to force either timeline." }
+      "acceptedAnswer": { "@type": "Answer", "text": "A manual action lifts after you fix the issues and pass a reconsideration request, often weeks. An algorithmic demotion only recovers at a later Google update." }
     },
     {
       "@type": "Question",
       "name": "How is the penalty risk score calculated?",
-      "acceptedAnswer": { "@type": "Answer", "text": "It is a weighted self-assessment where a higher score means higher risk. Twenty factors are grouped into five categories: content quality (28 points), backlinks and link schemes (24), on-page and technical spam (20), security and site integrity (12), and drop pattern and timing signals (16). Each factor adds full points if the risk clearly applies, half if it somewhat applies, and zero if it does not, summing to a 0 to 100 risk score. If you report a manual action in Search Console, the tool treats that as a confirmed penalty rather than an estimate. The full weighting is published on this page." }
+      "acceptedAnswer": { "@type": "Answer", "text": "It is a weighted self-assessment of 20 factors in five categories. Each adds full points for Yes, half for Some and none for No, up to a 0 to 100 risk score." }
     }
   ]
 }
@@ -140,10 +140,6 @@
 
       <div class="gpc-app">
         <div class="gpc-checklist">
-          <div class="gpc-cl-head">
-            <h2>Rate your site, honestly</h2>
-            <p>For each factor pick Yes, Some or No. Your risk score updates live. Higher means more risk.</p>
-          </div>
           <div id="gpc_cats"></div>
         </div>
 
@@ -302,15 +298,15 @@
 
           <h2>Frequently asked questions</h2>
           <h3>Can a tool detect if my site has a Google penalty?</h3>
-          <p>No tool can definitively detect a penalty by scanning a URL. Manual actions exist only in the affected site's Search Console and have no public API, so no third party can look them up. Algorithmic demotions are never reported anywhere and can only be inferred by matching a traffic drop to known update dates. That is why an honest penalty checker is either a self-assessment of your risk factors, like this one, or an overlay of your own Search Console and Analytics data against the update calendar.</p>
+          <p>No. Manual actions appear only in your own Search Console (no public API) and algorithmic demotions are never reported, so any checker is really a self-assessment.</p>
           <h3>What is the difference between a manual action and an algorithmic penalty?</h3>
-          <p>A manual action is a human reviewer at Google penalizing your site for breaking spam policies; it appears in Search Console under Security and Manual Actions and requires a reconsideration request to lift. An algorithmic penalty is not really a penalty but a demotion applied automatically by ranking systems such as core and spam updates; it is not reported anywhere, and it lifts only when you fix the underlying issue and the relevant system re-evaluates your site, usually at the next update or refresh.</p>
+          <p>A manual action is a human reviewer penalizing your site and shows in Search Console; an algorithmic demotion is applied automatically by updates and is never reported.</p>
           <h3>How do I check if I have a Google penalty?</h3>
-          <p>First open Google Search Console and check Security and Manual Actions. If an action is listed, you have a confirmed manual penalty. If it is clean, the drop is most likely algorithmic or technical, so plot your organic traffic by date and see whether the decline lines up with a known Google core or spam update. A sharp, sitewide drop that aligns with an update date points to an algorithmic demotion; a gradual decline or one limited to a few pages usually points to competition, technical issues or SERP changes like AI Overviews rather than a penalty.</p>
+          <p>Open Search Console and check Security and Manual Actions. If it is clean, plot your traffic and see whether the drop aligns with a known Google update.</p>
           <h3>How long does it take to recover from a Google penalty?</h3>
-          <p>For a manual action, recovery takes as long as it takes to genuinely fix every flagged issue plus the review time on your reconsideration request, which is often one to several weeks. For an algorithmic demotion there is no reconsideration request; you fix the root cause and then wait for the relevant system to re-assess, which can take weeks to months and often only fully resolves at the next broad core or spam update. There is no way to force either timeline.</p>
+          <p>A manual action lifts after you fix the issues and pass a reconsideration request, often weeks. An algorithmic demotion only recovers at a later Google update.</p>
           <h3>How is the penalty risk score calculated?</h3>
-          <p>It is a weighted self-assessment where a higher score means higher risk. Twenty factors are grouped into five categories: content quality (28 points), backlinks and link schemes (24), on-page and technical spam (20), security and site integrity (12), and drop pattern and timing signals (16). Each factor adds full points if the risk clearly applies, half if it somewhat applies, and zero if it does not, summing to a 0 to 100 risk score. If you report a manual action in Search Console, the tool treats that as a confirmed penalty rather than an estimate. The full weighting is published above.</p>
+          <p>It is a weighted self-assessment of 20 factors in five categories. Each adds full points for Yes, half for Some and none for No, up to a 0 to 100 risk score.</p>
 
         </div>
       </div>
