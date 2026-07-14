@@ -67,3 +67,17 @@ deno.lock
 
 # GSC manual-indexing tracker (local operational state, not site content)
 piperocket_gsc_submitted.json
+
+# Local ad-hoc analysis scripts, CSVs, and their output dirs (not part of the
+# site or the content pipeline — keep them out of git status / diffs).
+/*.csv
+scripts/ads_*.py
+scripts/ga4_check.py
+scripts/gsc_brand_check.py
+scripts/gsc_migration_compare.py
+scripts/overview_keyword_details.py
+scripts/build_distribution_sheet.py
+scripts/create_content_tracker.py
+scripts/agency_serp/
+scripts/outreach/
+/distribution/

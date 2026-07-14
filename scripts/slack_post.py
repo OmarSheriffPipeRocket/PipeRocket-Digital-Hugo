@@ -37,6 +37,12 @@ def main():
     WEBHOOK = load_webhook()
     ap = argparse.ArgumentParser()
     ap.add_argument("--text", help="Slack mrkdwn message. If omitted, read from stdin.")
+    ap.add_argument(
+        "--unfurl",
+        action="store_true",
+        help="Allow Slack to expand link/media previews. Off by default so news "
+        "digests stay compact (no bulky preview cards).",
+    )
     args = ap.parse_args()
 
     text = args.text if args.text is not None else sys.stdin.read()
@@ -44,7 +50,13 @@ def main():
     if not text:
         sys.exit("No message text provided (pass --text or pipe via stdin).")
 
-    payload = json.dumps({"text": text}).encode("utf-8")
+    payload = json.dumps(
+        {
+            "text": text,
+            "unfurl_links": args.unfurl,
+            "unfurl_media": args.unfurl,
+        }
+    ).encode("utf-8")
     req = urllib.request.Request(
         WEBHOOK, data=payload, headers={"Content-Type": "application/json"}
     )

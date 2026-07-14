@@ -232,7 +232,7 @@ Should-mention:
   - content/blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks.md
   - content/blogs/saas-seo.md
 Does-mention: content/blogs/llms-txt-for-saas.md (2026-07-01, cites primary as the "not-as-relevant" backing)
-Notes: ⚠️ CONTENT-CHECK NEEDED — this may CONTRADICT our own advice. saas-seo.md Step 8 recommends `llms.txt`; our GEO/AEO framing treats AI optimisation as somewhat distinct. Google now says those special tactics aren't required and AEO/GEO ≈ SEO. Decide our editorial stance (we can still argue llms.txt is low-cost insurance, but must acknowledge Google's position) and reconcile across the ai-seo cluster. Strong "take" candidate for the newsletter (pattern: Google keeps collapsing "AI SEO" hype back into fundamentals). Corroboration (2026-07-06): AI Overviews briefly/unexpectedly surfaced raw markdown-file content in snippets (spotted by Lily Ray; John Mueller: "that looks unexpected," confirmed Google does NOT treat markdown files any differently — likely just crawled like any other page). Supports, doesn't change, this entry's "no special AI-file treatment" guidance.
+Notes: ⚠️ CONTENT-CHECK NEEDED — this may CONTRADICT our own advice. saas-seo.md Step 8 recommends `llms.txt`; our GEO/AEO framing treats AI optimisation as somewhat distinct. Google now says those special tactics aren't required and AEO/GEO ≈ SEO. Decide our editorial stance (we can still argue llms.txt is low-cost insurance, but must acknowledge Google's position) and reconcile across the ai-seo cluster. Strong "take" candidate for the newsletter (pattern: Google keeps collapsing "AI SEO" hype back into fundamentals). Corroboration (2026-07-06): AI Overviews briefly/unexpectedly surfaced raw markdown-file content in snippets (spotted by Lily Ray; John Mueller: "that looks unexpected," confirmed Google does NOT treat markdown files any differently — likely just crawled like any other page). Supports, doesn't change, this entry's "no special AI-file treatment" guidance. Corroboration (2026-07-13): SEJ reports Google's John Mueller + Martin Splitt again cautioning against building separate markdown versions of pages for AI/LLMs — improve the existing HTML instead; parallel AI-only versions are tech debt (an AI won't email you when the markdown version breaks). Reinforces the "no special AI files needed / AEO ≈ GEO ≈ SEO" position. Source: https://www.searchenginejournal.com/google-cautions-against-markdown-versions-of-websites-for-ai-seo/580235/
 
 ### gads-campaign-type-migrations-2026
 Event: Google Ads campaign-type shifts (2026): (a) DSA→AI Max auto-migration DELAYED from Sept 2026 to Feb 2027, DSA creation returned, and AI Max is now the DEFAULT for new Search campaigns; (b) standalone Display campaigns being retired in favour of Demand Gen, with an in-product migration tool rolling out June 2026; (c) new Gemini-powered ad formats from GML 2026 (Conversational Discovery ads, Highlighted Answers, AI Shopping ads, Business Agent for Leads).
@@ -346,6 +346,95 @@ Should-mention: none identified — PipeRocket's PPC content is B2B SaaS-focused
 Does-mention: none
 Notes: Banked for industry-awareness/newsletter completeness (general PPC coverage, per Omar's request), not because it changes SaaS PPC advice. Relevant if PipeRocket ever picks up an ecommerce-adjacent SaaS client running Shopping campaigns.
 
+### gsc-platform-properties-2026-07
+Event: Google Search Console "platform properties" — a new SC property type showing how social/video content (Instagram, TikTok, X, YouTube) performs in Google Search & Discover: a Performance report (clicks, impressions, filterable by post/query) plus an Insights overview. Rolling out gradually.
+Date: 2026-07 (announced Jul 7)
+Cluster: ai-seo, saas-seo
+Significance: medium
+Source: https://developers.google.com/search/blog/2026/07/search-console-social-video-platforms  [PRIMARY — Google Search Central, Jul 7 2026]
+Secondary: https://searchengineland.com/google-search-console-gains-reporting-on-social-and-video-platforms-481696 ; https://www.searchenginejournal.com/google-search-console-adds-social-video-platform-properties/581634/
+Status: breaking
+Reframe-by: 2026-11
+Action: insert-mention
+Should-mention:
+  - content/blogs/how-to-report-seo-to-the-board.md
+  - content/blogs/research-ai-seo-statistics.md
+Does-mention: none
+Notes: Extends first-party GSC measurement beyond a site's own web pages to off-site social/video content performance in Search & Discover — a reporting/board-reporting hook. Same trajectory as gsc-genai-performance-reports-2026-06 (GSC measurement surface keeps widening). General-awareness/reporting relevance; does not change core SaaS content advice. Report clicks/impressions only — no click-through cannibalization data.
+
+### gads-ai-transparency-labels-2026-07
+Event: Google introduced AI transparency labels for ads — a "How this ad was made" section in the My Ad Center panel (via the three-dot/info icon) across Search, YouTube and Discover, indicating whether an ad was created or edited with AI. Auto-applied when advertisers use Google's generative-AI ad tools; a control lets advertisers self-declare AI use for ads made elsewhere; in some regions a label may appear directly on the ad per local law.
+Date: 2026-07 (announced ~Jul 8)
+Cluster: saas-paid-marketing
+Significance: medium
+Source: https://blog.google/products/ads-commerce/google-ads-ai-transparency-labels/  [PRIMARY — Google Ads & Commerce Blog]
+Related-official: https://support.google.com/My-Ad-Center-Help/answer/17196133 (My Ad Center Help — AI transparency in ads)
+Secondary: https://searchengineland.com/google-ai-ad-disclosures-search-youtube-discover-481887
+Status: breaking
+Reframe-by: 2026-11
+Action: none — general-awareness only
+Should-mention: none identified — a transparency/disclosure label; does not change how campaigns are built, bid, or targeted
+Does-mention: none
+Notes: Awareness-only for our corpus; no advertiser action required beyond deciding whether to self-declare AI use on non-Google-tool ads. Builds on Google's SynthID/AI-provenance efforts and pairs with gads-tos-ai-inputs-2026-07 (same trend: Google formalizing AI's footprint in Ads). At most a one-line governance mention if a PPC guide discusses AI-assisted ad creation.
+
+### google-canonicalization-2week-doc-2026-07
+Event: Google updated its "Fix canonicalization issues" documentation with expectations on how long fixes take — pages may remain in a duplicate cluster for up to ~2 weeks after content is fixed, and split out faster when the difference between the pages is clear and significant.
+Date: 2026-07
+Cluster: saas-seo
+Significance: medium
+Source: https://developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting  [PRIMARY — Google Search Central docs]
+Secondary: https://www.seroundtable.com/google-canonicalization-two-weeks-41664.html
+Status: breaking
+Reframe-by: 2026-11
+Action: insert-mention
+Should-mention:
+  - content/blogs/technical-seo-for-saas.md
+  - content/blogs/how-to-do-saas-content-audit.md
+Does-mention: none
+Notes: Doc clarification, not an algorithm change — useful expectation-setting for technical-SEO/indexing sections: after fixing duplicate/canonical issues, don't expect instant re-evaluation; allow ~2 weeks, and make the preferred page clearly distinct to speed the split. Complements the "how long Search takes to reflect changes" theme (see dmca-fraudulent-takedowns-2026-07 on removal/restore timelines).
+
+### gads-product-category-taxonomy-doc-2026-07
+Event: Google Ads updated its "About product category insights" help doc to state it "automatically assigns your products to categories using a continuously evolving product taxonomy" (advertisers can override via the google_product_category attribute in the Merchant Center feed). Reported as a documentation clarification/cleanup of behavior that has existed since ~2019, not a new feature.
+Date: 2026-07
+Cluster: saas-paid-marketing
+Significance: medium
+Source: https://support.google.com/google-ads/answer/15335872  [PRIMARY — Google Ads Help]
+Secondary: https://www.seroundtable.com/google-ads-product-categories-evolving-taxonomy-41654.html
+Status: breaking
+Reframe-by: 2026-11
+Action: none — general-awareness only
+Should-mention: none identified — Shopping/Merchant-Center behavior; PipeRocket's PPC corpus is B2B SaaS, not product-feed/Shopping
+Does-mention: none
+Notes: Banked for industry-awareness/newsletter completeness (general PPC coverage). Doc clarification only; relevant only if PipeRocket picks up an ecommerce-adjacent client running Shopping/PMax with product feeds — the lever is the google_product_category override.
+
+### chatgpt-ads-overview-expansion-2026-07
+Event: OpenAI expanded ChatGPT Ads — a new Overview tab (account health, recommended tasks, KPI trend chart), market expansion to Japan & South Korea, plus suggested ad drafts ("generate ads for you"), custom audiences, and a refreshed compact ad-card format.
+Date: 2026-07 (OpenAI email ~Jul 9)
+Cluster: saas-paid-marketing, ai-seo
+Significance: medium
+Source: https://ads.openai.com/ ; https://openai.com/index/testing-ads-in-chatgpt/ ; https://help.openai.com/en/articles/20001245-ads-manager-availability  [PRIMARY — OpenAI Ads / Help Center]
+Secondary: https://searchengineland.com/chatgpt-ads-new-overview-tab-suggested-ad-drafts-new-ad-formats-and-more-481913 ; https://www.seroundtable.com/chatgpt-ads-overview-tab-41661.html
+Status: breaking
+Reframe-by: 2026-11
+Action: update-advice
+Should-mention:
+  - content/blogs/how-to-rank-on-chatgpt-in-2026-strategies-and-tips.md
+Does-mention: none
+Notes: ChatGPT Ads is a channel PipeRocket now covers (per Omar) — track feature maturity. The Overview tab + suggested-drafts move mirrors Google's AI-automation direction (auto-generated campaigns/assets). JP/KR expansion is geo-only (not our primary market). ⚠️ CONFIRM a ChatGPT-Ads-specific content home exists before inserting: how-to-rank-on-chatgpt is ORGANIC AI-visibility, not paid — a dedicated ChatGPT Ads page is the better target if/when one is published.
+
+### chatgpt-atlas-deprecation-2026-07
+Event: OpenAI deprecating ChatGPT Atlas, its standalone desktop browser — end date Aug 9, 2026; browser-based AI features fold into the ChatGPT desktop app (which includes ChatGPT Work and Codex).
+Date: 2026-07 (announced) — Atlas sunset 2026-08-09
+Cluster: ai-seo
+Significance: medium
+Source: https://searchengineland.com/openai-chatgpt-atlas-deprecation-482003  [SECONDARY — SEL; primary = OpenAI product comms, confirm exact OpenAI URL before publishing the Aug-9 date as OpenAI's own wording]
+Status: breaking
+Reframe-by: 2026-10
+Action: none — general-awareness only
+Should-mention: none identified — PipeRocket content does not reference ChatGPT Atlas
+Does-mention: none
+Notes: Banked for industry-awareness/newsletter completeness. A product deprecation adjacent to AI-search, but not referenced in our corpus and not advice-changing. Signals OpenAI consolidating browsing into the main ChatGPT app rather than a separate browser.
+
 ---
 
 ## MAINTENANCE LEDGER
@@ -363,3 +452,4 @@ Notes: Banked for industry-awareness/newsletter completeness (general PPC covera
 - 2026-06-29 — WEEKLY SCAN (email + web; first automated weekly-news-scan run). Banked 2: june-2026-spam-update (MAJOR, PRIMARY Google Status Dashboard — 2nd spam update of 2026, Jun 24–26, scaled-AI-spam in scope) and gsc-genai-performance-reports-2026-06 (medium, PRIMARY Google Search Central — AI-features impression reporting + content opt-out, live Jun 17 UK subset). RESOLVED watch item google-unconfirmed-update-2026-06-19 → it was the leading edge of the confirmed spam update. 7 items reviewed below gate (Ads API v24.2, Std-Shopping max-conv-value bidding, Google-hosted lead form, Smart Campaigns creation off Aug 3, Demand Gen AI tools, Merchant Center agency roles, Ads ToS Jul 1 — all incremental/ecommerce/admin, no advice change). News_bank now holds 12 entries (1 resolved/closed). Stat candidates routed to stat_bank for verification (see stat ledger 2026-06-29).
 - 2026-06-29 — FULL MAINTENANCE RUN (status-lifecycle + reframe-due check, all 12 entries). NO reframes due: earliest Reframe-by is 2026-08 (may-2026-core-update); all others 2026-08→2026-12; today 2026-06-29. Statuses left as-is (breaking items are genuine June events, not yet "old"). Updated 1 VERIFY item: chatgpt-brand-links-2026-05 now CORROBORATED by a 2nd independent trade source (Similarweb 2026 GenAI Index reports the same +157.7% WoW / +354.7% homepage) — event solid, exact % still vendor-sourced (no OpenAI primary), so stays VERIFY on the figure. No items aged into historical. Next weekly scan ~2026-07-06.
 - 2026-07-06 — WEEKLY SCAN (email 22 newsletters + web, all 4 clusters). Initial pass: no bankable items — the only two Google-caused developments this week (June spam update wrap-up, Aug-17 bidding overhaul reminder) were already banked with no status change, and the web check confirmed no July core/ranking update exists. Slack posted "nothing this week." Omar then asked to widen inclusion to general SEO/PPC/AI items surfaced in the below-gate list — added 4 more after primary-source verification: dmca-fraudulent-takedowns-2026-07 (medium, VERIFY — fraudulent DMCA claims wrongfully de-indexing pages, Press Gazette + a Search Engine Land article hit; actionable GSC-removals-monitoring advice); gads-tos-ai-inputs-2026-07 (medium, PRIMARY confirmed — Google Ads ToS clarifies AI/automated-feature use of advertiser inputs, eff. Jul 1); amp-cache-serving-ends-2026-07 (medium, PRIMARY confirmed via Search Central changelog — general-awareness only, zero AMP footprint in our corpus); gads-maxconvvalue-standard-shopping-2026-07 (medium, VERIFY on rollout timing — general-awareness only, Standard Shopping bidding isn't part of our B2B SaaS PPC corpus). Folded one more data point into the existing google-ai-search-guidance-2026 entry rather than a new item: AI Overviews briefly/unexpectedly surfaced raw markdown-file content in snippets (Lily Ray spotted it, John Mueller confirmed "unexpected," no special AI treatment) — corroborates, doesn't change, the "no special AI files needed" guidance already banked. News_bank now holds 16 entries (1 resolved/closed).
+- 2026-07-13 — WEEKLY SCAN (email 28 newsletters + web, all 4 clusters). Only one item cleared the significance gate organically — gsc-platform-properties-2026-07 (medium, PRIMARY Google Search Central, Jul 7 — new "platform properties" SC type reporting IG/TikTok/X/YouTube content performance in Search & Discover). Confirmed NO new core/spam update this week (an earlier web-summary conflated the May core update, done ~Jun 2, with the June spam update, done Jun 26 — both already banked). At Omar's direction, added 5 more below-gate items after primary verification for general SEO/PPC/AI coverage: gads-ai-transparency-labels-2026-07 (PRIMARY blog.google — "How this ad was made" AI labels; awareness-only), google-canonicalization-2week-doc-2026-07 (PRIMARY Search Central docs — dupe-cluster fixes take up to ~2 weeks; insert-mention in technical-SEO/audit), gads-product-category-taxonomy-doc-2026-07 (PRIMARY Google Ads Help — auto product-category taxonomy doc clarification; awareness-only, Shopping), chatgpt-ads-overview-expansion-2026-07 (PRIMARY OpenAI Ads — Overview tab + JP/KR + suggested drafts; channel we cover, confirm a ChatGPT-Ads content home before inserting), chatgpt-atlas-deprecation-2026-07 (SECONDARY SEL — Atlas browser sunset Aug 9; awareness-only). Also folded the fresh Jul-10 Mueller/Splitt "don't build separate markdown pages for AI" warning into the existing google-ai-search-guidance-2026 entry as a 2026-07-13 corroboration (not a duplicate standalone). Routed to stat_bank (not here): "50% of marketers report organic declines since AIO / 61% blame AI" study, "AI search adoption up, trust down" study, and Ahrefs's schema/citation studies (all Mar–Jun 2026, older). Below the gate this week: Google Ads Travel campaigns → Things-to-Do/Events beta; Local Services Ads policy refresh (Jul 6); Jul-6 bidding-tool notice (already banked as gads-bidding-budgeting-overhaul-2026-06); GBP "no reviews yet" bug (transient, dropped per Omar). No already-banked item changed status; reframe-by audit — earliest due is may-2026-core-update (2026-08), nothing due at 2026-07-13. News_bank now holds 22 entries (1 resolved/closed). Slack posted (HTTP 200; cleaner sectioned format, link-unfurl disabled via new slack_post.py --unfurl default-off).

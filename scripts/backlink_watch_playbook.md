@@ -44,6 +44,36 @@ DROP (do not alert):
   but apply judgement on borderline cases.
 
 ## 3. Compose a Slack message per genuine request
+
+First decide which of two kinds this thread is:
+
+- **A) Outreach reply** — WE started it. The first message in the thread is FROM
+  `omar@piperocket.digital` (SENT label), subject like "Brand Mention Opportunity",
+  asking them to list PipeRocket in their listicle/article, and the new message is
+  *their reply*. This is a one-way ask (we request, we await their reply) — use the
+  **Outreach format** below.
+- **B) Inbound request** — THEY started it, asking us for a mention/link/guest post.
+  Use the **Inbound format** below.
+
+### A) Outreach-reply format
+Use EXACTLY this (Slack mrkdwn). One message per thread:
+
+```
+:loudspeaker: *Brand Mention Outreach*
+
+*From:* <Sender Name> (<email>)
+*Company:* <Company name, inferred from domain/signature>
+*Link PipeRocket in:* <their listicle/article URL we asked to be added to>
+
+*Reply:*
+> <a short quote/paraphrase of what they actually replied>
+
+*Suggested Reply:*
+> <2–5 sentence draft reply, see guidance below>
+<https://mail.google.com/mail/u/0/#all/THREAD_ID>
+```
+
+### B) Inbound-request format
 Use EXACTLY this format (Slack mrkdwn). One message per thread:
 
 ```
@@ -59,6 +89,11 @@ Use EXACTLY this format (Slack mrkdwn). One message per thread:
 ```
 
 ### Suggested-reply guidance (PipeRocket's playbook)
+- **Outreach reply (kind A):** Tailor to what they said. If they said **yes / send details**,
+  offer to send a short blurb + our URL in their format, and sweeten it with a mutual
+  swap (add them at #3 in our matching listicle for a top-3 spot back). If they asked for
+  **payment**, flag "needs Omar's call" and pivot to a mutual swap instead of paying. If
+  they **looped in a colleague/team**, thank them and restate the swap offer to the group.
 - **Listicle / brand-mention swap:** Offer to add them at **#3** (or #2) in the relevant
   PipeRocket listicle, and in return ask for PipeRocket in their **top 3**. Propose a
   **mutual link exchange** for the same placements. Ask them to send a short blurb +
