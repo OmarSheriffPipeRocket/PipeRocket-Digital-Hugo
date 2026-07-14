@@ -408,7 +408,7 @@ Best for: Fintechs building an inbound content engine with finance-fluent writer
 
 **Distinctive Strength:** Writers with actual finance backgrounds, not generalist content marketers researching a category for the first time.
 
-Mint focuses exclusively on long-form SEO content, thought leadership, whitepapers, and case studies for fintech and financial services. The fintech-only roster (Yapily, ClearBank, Modulr, SAP Fioneer) gives them domain language most content shops lack.
+Mint focuses exclusively on long-form SEO content, [thought leadership](/blogs/saas-thought-leadership-strategy/), whitepapers, and case studies for fintech and financial services. The fintech-only roster (Yapily, ClearBank, Modulr, SAP Fioneer) gives them domain language most content shops lack.
 
 - Fintech-only content focus, with finance-trained writers
 - Public pricing tier published, rare in the agency market
@@ -740,7 +740,7 @@ Experienced fintech agencies build legal-review steps into the brief and copy wo
 
 ### What metrics should we track on a fintech agency engagement?
 
-Track marketing-sourced pipeline, cost per SQL, customer acquisition cost, and marketing-influenced revenue, not impressions, clicks, or platform vanity metrics.
+Track marketing-sourced pipeline, cost per SQL, [customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost, and marketing-influenced revenue, not impressions, clicks, or platform vanity metrics.
 
 ### Why are some Clutch profiles empty for established agencies?
 

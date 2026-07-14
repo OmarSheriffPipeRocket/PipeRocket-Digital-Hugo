@@ -642,7 +642,7 @@ Engagements typically start around $10,000/mo with $100-$149/hr rates and a $5,0
 | --- | --- | --- |
 | Editorial Foundation | From $10,000/mo | Surround Sound SEO and content production |
 | Authority Program | Mid-range | Editorial plus link-building and GEO content |
-| Category Leadership | Custom pricing | Multi-channel editorial plus thought leadership |
+| Category Leadership | Custom pricing | Multi-channel editorial plus [thought leadership](/blogs/saas-thought-leadership-strategy/) |
 
 | Criteria | Detail |
 | --- | --- |

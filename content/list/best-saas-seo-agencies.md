@@ -421,7 +421,7 @@ Best for: Strategy-Led SaaS Content SEO and Brand Positioning
 
 **Strategy:** Pursues content-led category leadership through editorial strategy, comparison content, and an AI-surface flywheel.
 
-**What Sets Them Apart:** They lead with strategy and brand positioning rather than ticket-style execution. The roster (Jasper, Hotjar, AppSumo) shows real SaaS-native traction in product-led growth motions.
+**What Sets Them Apart:** They lead with strategy and brand positioning rather than ticket-style execution. The roster (Jasper, Hotjar, AppSumo) shows real SaaS-native traction in [product-led growth](/blogs/saas-product-led-growth-strategy/) motions.
 
 - Strategy-led pods rather than commodity execution
 - Real SaaS-native client roster, not enterprise logo strips
@@ -579,7 +579,7 @@ Best for: SaaS SEO Link Building and Digital PR
 | Founded | 2018 |
 | Team Size | 50-249 people |
 | Notable Clients | SenseHR, WorkYard, Functionize |
-| Specialization | SaaS SEO, digital PR, technical SEO, international SEO |
+| Specialization | SaaS SEO, digital PR, technical SEO, [international SEO](/blogs/saas-international-seo-strategy/) |
 
 **Key Services:** Technical SEO, content, link building, digital PR, international SEO, SEO audits
 
@@ -1054,7 +1054,7 @@ We screened more than 30 agencies to build this list. The 12 above earned full r
 | Agency | Best Known For |
 | --- | --- |
 | [Skale](https://skale.so/) | AI-search-first organic growth for tech and SaaS, focused on SQLs and pipeline |
-| [Foundation](https://foundationinc.co/) | B2B content marketing and content distribution at scale |
+| [Foundation](https://foundationinc.co/) | B2B content marketing and [content distribution](/blogs/saas-content-distribution-strategy/) at scale |
 | [Single Grain](https://www.singlegrain.com/) | Full-service SaaS and digital growth across SEO and paid |
 | [NoGood](https://nogood.io/) | Growth marketing for startups and venture-backed SaaS |
 | [Grow and Convert](https://growandconvert.com/) | Conversion-focused content marketing with pain-point SEO |

@@ -33,7 +33,7 @@ A prospect finds you by searching organically. They might find you through paid 
 
 Everyone tells you to just “retarget your visitors,” which sounds simple enough until you realize that your website is full of people who have zero intention of buying your software. You put that insight tag on through GTM and suddenly you have this massive LinkedIn retargeting audience building, but if you aren’t careful, you’re paying to show ads to people looking for jobs or students doing research for a paper.
 
-That’s why we always split things up immediately between predictive audiences and matched audiences, because they serve two completely different purposes in a real growth strategy. It’s about being surgical with who sees your ads, because every dollar you spend on a “career page” visitor is a dollar you aren’t spending on someone who just spent ten minutes looking at your enterprise features.
+That’s why we always split things up immediately between predictive audiences and matched audiences, because they serve two completely different purposes in a real [growth strategy](/blogs/saas-growth-strategy/). It’s about being surgical with who sees your ads, because every dollar you spend on a “career page” visitor is a dollar you aren’t spending on someone who just spent ten minutes looking at your enterprise features.
 
 ### Predictive Audiences
 

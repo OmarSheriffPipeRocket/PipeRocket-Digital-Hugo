@@ -479,7 +479,7 @@ Tinuiti's cross-channel expertise helps B2B brands maintain consistent messaging
 
 **Love:** Scale and unified measurement
 
-Clients value Tinuiti's ability to bring structure to fragmented digital efforts, with unified reporting that gives enterprise B2B teams visibility into true customer acquisition costs across channels.
+Clients value Tinuiti's ability to bring structure to fragmented digital efforts, with unified reporting that gives enterprise B2B teams visibility into true [customer acquisition](/blogs/saas-customer-acquisition-strategy/) costs across channels.
 
 - Enterprise VPs of Digital cite the cross-channel attribution as the differentiator that justifies premium positioning
 
@@ -907,7 +907,7 @@ Power Digital is the right call when your CMO wants strategy and execution from 
 
 | Criteria | Detail |
 | --- | --- |
-| Free Consultation | Yes, includes growth strategy session |
+| Free Consultation | Yes, includes [growth strategy](/blogs/saas-growth-strategy/) session |
 | Clutch Rating | Verified on Clutch |
 
 ---

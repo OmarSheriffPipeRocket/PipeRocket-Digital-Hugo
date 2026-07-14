@@ -61,7 +61,7 @@ What this means in practice: most SaaS teams treat CTR as a scoreboard for marke
 The short answer: CTR is an early signal, not a guarantee of pipeline. High CTR can mean your creative resonates, but it only matters if those clicks are from high-intent prospects who convert. Many SaaS teams get caught up in CTR “vanity wars” celebrating a 4% rate on Google Ads, for example without realizing that most of those clicks are from tire-kickers, competitors, or off-target audiences.
 
 - Top-of-funnel impact: A higher CTR increases the volume entering your funnel, but doesn’t guarantee more demos or signups.
-- CAC implications: High CTR on paid ads can actually drive up customer acquisition cost (CAC) if you’re paying for irrelevant clicks.
+- CAC implications: High CTR on paid ads can actually drive up [customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost (CAC) if you’re paying for irrelevant clicks.
 - Quality over quantity: It’s better to have a 2% CTR with a 20% conversion rate than a 6% CTR with a 2% conversion rate.
 - Budget allocation: Channels with lower CTR but higher conversion often deliver better ROI don’t kill a campaign just because the CTR is below “average.”
 - Feedback loop: CTR trends help you spot messaging-market fit if your best-performing ad copy suddenly tanks, your market may be shifting.

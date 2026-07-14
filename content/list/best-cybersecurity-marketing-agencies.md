@@ -449,7 +449,7 @@ Best for: Cybersecurity Brands That Need Integrated PR, Analyst Relations, and P
 
 {{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
 
-[Walker Sands](https://www.walkersands.com) is a B2B tech-focused agency with a specific practice for cybersecurity clients. Their model is built around integrated communications, combining earned media, PR, thought leadership content, and digital marketing into a programme where brand credibility and pipeline generation reinforce each other.
+[Walker Sands](https://www.walkersands.com) is a B2B tech-focused agency with a specific practice for cybersecurity clients. Their model is built around integrated communications, combining earned media, PR, [thought leadership](/blogs/saas-thought-leadership-strategy/) content, and digital marketing into a programme where brand credibility and pipeline generation reinforce each other.
 
 **The Dossier**
 

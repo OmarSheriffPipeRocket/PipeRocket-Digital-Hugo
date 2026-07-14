@@ -118,7 +118,7 @@ We report against pipeline and revenue, not vanity dashboards. That means tying 
 
 ### What are the most important SaaS marketing metrics?
 
-The ones that connect spend to revenue: customer acquisition cost (CAC) and CAC payback period, funnel conversion rates, LTV:CAC, and net revenue retention. For most SaaS teams, marketing-influenced pipeline is the single most important number, because it shows how much revenue marketing is actually sourcing rather than how much activity it's generating. Everything else is either a diagnostic input or, in the case of raw traffic and followers, vanity.
+The ones that connect spend to revenue: [customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost (CAC) and CAC payback period, funnel conversion rates, LTV:CAC, and net revenue retention. For most SaaS teams, marketing-influenced pipeline is the single most important number, because it shows how much revenue marketing is actually sourcing rather than how much activity it's generating. Everything else is either a diagnostic input or, in the case of raw traffic and followers, vanity.
 
 ### What is a good LTV:CAC ratio for SaaS?
 

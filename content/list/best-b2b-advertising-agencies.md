@@ -373,7 +373,7 @@ Disruptive's [advertising services page](https://disruptiveadvertising.com/adver
 
 ### 5. Walker Sands
 
-Best for: B2B Tech Brands That Want Advertising Integrated With PR, Earned Media, and Thought Leadership Rather Than Run as a Siloed Paid Channel
+Best for: B2B Tech Brands That Want Advertising Integrated With PR, Earned Media, and [Thought Leadership](/blogs/saas-thought-leadership-strategy/) Rather Than Run as a Siloed Paid Channel
 
 {{< agency-triptych slug="walker-sands" name="Walker Sands" >}}
 

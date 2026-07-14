@@ -146,7 +146,7 @@ A clear, intent-driven keyword structure ensures your B2B [PPC](/glossary/what-i
 
 |  |
 | --- |
-| **Heads up on budgets and dayparting (Google Ads):** Since June 1, 2026, Google Ads campaigns that use a daily budget together with an ad schedule pace toward the full monthly limit (30.4x the daily budget) regardless of how many days are active. If you daypart B2B campaigns to run only on weekdays or business hours, this can raise spend on the active days. Billing caps are unchanged. Recheck budgets on any scheduled campaign. |
+| **Heads up on budgets and dayparting ([Google Ads](/glossary/what-is-google-ads/)):** Since June 1, 2026, Google Ads campaigns that use a daily budget together with an ad schedule pace toward the full monthly limit (30.4x the daily budget) regardless of how many days are active. If you daypart B2B campaigns to run only on weekdays or business hours, this can raise spend on the active days. Billing caps are unchanged. Recheck budgets on any scheduled campaign. |
 
 For the run-the-campaign view, see [how to run B2B PPC campaigns](/blogs/b2b-ppc-guide/ "How to Run B2B PPC Campaigns").
 
@@ -355,7 +355,7 @@ At [Piperocket Digital](/saas-ppc/), we build B2B PPC systems that align with lo
 
 ### 1. What is B2B PPC?
 
-B2B PPC (business-to-business pay-per-click advertising) is a paid marketing strategy where companies run ads, typically on Google Ads, LinkedIn, Microsoft Advertising, or YouTube, to reach decision-makers, generate qualified leads, and drive pipeline. Unlike B2C, B2B PPC focuses on long sales cycles, high-intent keywords, and multi-stakeholder buying journeys.
+B2B PPC (business-to-business pay-per-click advertising) is a paid marketing strategy where companies run ads, typically on Google Ads, LinkedIn, [Microsoft Advertising](/blogs/microsoft-ads-for-saas/), or YouTube, to reach decision-makers, generate qualified leads, and drive pipeline. Unlike B2C, B2B PPC focuses on long sales cycles, high-intent keywords, and multi-stakeholder buying journeys.
 
 ### 2. What is the difference between B2B PPC vs B2C PPC?
 

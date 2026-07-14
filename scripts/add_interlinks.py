@@ -386,6 +386,10 @@ LINK_MAP = [
     ("schema markup generators", "/list/best-schema-markup-tools-for-saas/", False, "P1"),
     ("SERP testing tools", "/list/best-serp-testing-tools-for-saas/", False, "P1"),
     ("rich results testing", "/list/best-serp-testing-tools-for-saas/", False, "P1"),
+    # ---- research data pages (added 2026-07-09) ----
+    ("B2B SaaS Google Ads benchmarks", "/research/google-ads-benchmarks/", False, "P1"),
+    ("Google Ads benchmarks", "/research/google-ads-benchmarks/", False, "P1"),
+    ("Google Ads benchmark", "/research/google-ads-benchmarks/", False, "P1"),
     # ---- new pages added 2026-06-10 ----
     # Glossaries
     ("conversion rate optimization", "/glossary/what-is-cro/", False, "P2"),
@@ -645,6 +649,33 @@ LINK_MAP = [
     ("PPC budget", "/blogs/how-to-forecast-saas-ppc-budget/", False, "P0"),
     ("forecast PPC budget", "/blogs/how-to-forecast-saas-ppc-budget/", False, "P0"),
     ("PPC forecast", "/blogs/how-to-forecast-saas-ppc-budget/", False, "P1"),
+
+    # ---- strategy-pillar batch added 2026-07-14 (10 pillars; growth cluster hub+children) ----
+    # Growth cluster
+    ("SaaS growth strategy", "/blogs/saas-growth-strategy/", False, "P0"),
+    ("growth strategy", "/blogs/saas-growth-strategy/", False, "P1"),
+    ("customer acquisition strategy", "/blogs/saas-customer-acquisition-strategy/", False, "P0"),
+    ("customer acquisition", "/blogs/saas-customer-acquisition-strategy/", False, "P1"),
+    ("product-led growth strategy", "/blogs/saas-product-led-growth-strategy/", False, "P0"),
+    ("product-led growth", "/blogs/saas-product-led-growth-strategy/", False, "P1"),
+    ("PLG strategy", "/blogs/saas-product-led-growth-strategy/", False, "P1"),
+    # CRO
+    ("CRO strategy", "/blogs/saas-cro-strategy/", False, "P0"),
+    ("conversion rate optimization strategy", "/blogs/saas-cro-strategy/", False, "P1"),
+    # Positioning / messaging / PMM cluster
+    ("positioning strategy", "/blogs/saas-positioning-strategy/", False, "P0"),
+    ("SaaS positioning", "/blogs/saas-positioning-strategy/", False, "P1"),
+    ("messaging strategy", "/blogs/saas-messaging-strategy/", False, "P0"),
+    ("product marketing strategy", "/blogs/saas-product-marketing-strategy/", False, "P0"),
+    ("product marketing", "/blogs/saas-product-marketing-strategy/", False, "P2"),
+    # Content
+    ("thought leadership strategy", "/blogs/saas-thought-leadership-strategy/", False, "P0"),
+    ("thought leadership", "/blogs/saas-thought-leadership-strategy/", False, "P1"),
+    ("content distribution strategy", "/blogs/saas-content-distribution-strategy/", False, "P0"),
+    ("content distribution", "/blogs/saas-content-distribution-strategy/", False, "P1"),
+    # International SEO
+    ("international SEO strategy", "/blogs/saas-international-seo-strategy/", False, "P0"),
+    ("international SEO", "/blogs/saas-international-seo-strategy/", False, "P1"),
 
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),

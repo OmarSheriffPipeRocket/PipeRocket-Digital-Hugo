@@ -437,7 +437,7 @@ Jeenam publishes productized monthly tiers on Clutch as of June 2026. Bronze is 
 
 Best for: SaaS teams pairing link acquisition with technical SEO under one roof
 
-[Loopex Digital](https://www.loopexdigital.com/) is a SaaS-focused agency where link building sits as a named pillar alongside technical SEO and international SEO, rather than as an isolated product.
+[Loopex Digital](https://www.loopexdigital.com/) is a SaaS-focused agency where link building sits as a named pillar alongside technical SEO and [international SEO](/blogs/saas-international-seo-strategy/), rather than as an isolated product.
 
 **Dossier**
 
@@ -581,7 +581,7 @@ Best for: Teams that want content production and outreach managed together
 **The Play:** Growfusely positions as a "SEO and AI Search Visibility agency for B2B brands." Link building is bundled inside content and SEO retainers, so authority targets follow content gaps rather than chasing DR for its own sake.
 
 - Content plus link production under one team
-- B2B SaaS positioning across named clients
+- B2B [SaaS positioning](/blogs/saas-positioning-strategy/) across named clients
 - GEO and digital PR added to the bundle in 2025
 
 **Reviewer Log**

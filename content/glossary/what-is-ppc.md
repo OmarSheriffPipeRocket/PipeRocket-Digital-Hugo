@@ -70,7 +70,7 @@ Most teams start with Google Ads because it captures high-intent searchers, but 
 
 - Google Ads: Lets you target by keyword, location, device, audience, and more. The ad auction combines your bid with a “[Quality Score](/blogs/saas-quality-score/)” based on relevance and landing page experience.
 - Linked In Ads: Focuses on professional attributes job title, company size, industry. Great for [ABM](/glossary/what-is-abm/), but click costs are usually higher than Google.
-- Facebook/Meta Ads: Strong for broad awareness and retargeting, but intent is lower for most B2B offers.
+- Facebook/[Meta Ads](/blogs/meta-ads-for-b2b-saas/): Strong for broad awareness and retargeting, but intent is lower for most B2B offers.
 - Other channels: Twitter/X, You Tube, and niche platforms can work, but volume and intent may not match Google or Linked In for SaaS.
 
 > **Fast Fact:** On Google Ads, the average cost per click ([CPC](/glossary/what-is-cost-per-click/)) for SaaS can range from $3 to $15 or more, depending on competition for your target keywords.

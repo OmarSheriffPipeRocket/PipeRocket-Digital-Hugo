@@ -236,7 +236,7 @@ Done right, lifecycle PPC becomes a self-optimizing [performance marketing](/glo
 
 Clicks don’t pay the bills, but activated, retained users do. To understand true ROI, you must connect ad platform data with in-product analytics.
 
-**Customer Acquisition Cost (CAC):** This is the foundation of SaaS PPC measurement. Start by tracking fully loaded CAC like ad spend, landing page costs, and operational tools. Compare CAC by campaign, keyword, intent level, and funnel stage to find your most profitable segments.
+**[Customer Acquisition](/blogs/saas-customer-acquisition-strategy/) Cost (CAC):** This is the foundation of SaaS PPC measurement. Start by tracking fully loaded CAC like ad spend, landing page costs, and operational tools. Compare CAC by campaign, keyword, intent level, and funnel stage to find your most profitable segments.
 
 **Lifetime Value (LTV):** A high [CPC](/glossary/what-is-cost-per-click/) can still be profitable if those users stay longer, upgrade, or expand. Evaluating LTV by campaign gives you a deeper view of return vs. just [CPA](/glossary/what-is-cpa/).
 

@@ -587,7 +587,7 @@ If SimpleTiger isn't quite the fit, check our [SimpleTiger alternatives](/altern
 
 ### 9. Animalz
 
-Best for: Established B2B SaaS investing in long-form thought leadership over short-term lead capture.
+Best for: Established B2B SaaS investing in long-form [thought leadership](/blogs/saas-thought-leadership-strategy/) over short-term lead capture.
 
 {{< agency-triptych slug="animalz" name="Animalz" >}}
 

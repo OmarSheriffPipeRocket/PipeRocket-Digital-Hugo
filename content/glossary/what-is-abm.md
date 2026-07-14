@@ -79,7 +79,7 @@ ABM doesn’t replace your other channels it gives them direction. Paid and [SEO
 
 On the paid side, platforms like Linked In allow you to upload a company list and serve ads only to employees at those accounts. This is where ABM and paid search genuinely intersect you’re not bidding for traffic volume, you’re buying mindshare with a defined set of buyers. Working with a specialist [B2B Google Ads agency](/list/best-b2b-google-ads-agencies/) that understands account-level targeting can make this layer significantly more efficient.
 
-- Linked In Matched Audiences: Upload your target account list and serve content ads, thought leadership, or direct response to specific job titles inside those companies.
+- Linked In Matched Audiences: Upload your target account list and serve content ads, [thought leadership](/blogs/saas-thought-leadership-strategy/), or direct response to specific job titles inside those companies.
 - Retargeting by account: Pixel your site and build retargeting audiences that only include visitors from your target accounts not all visitors.
 - SEO for ABM: Create content that answers the specific questions your target accounts are researching. If your targets are CFOs at mid-market logistics firms, your content should speak directly to their world.
 - Intent data integration: Tools like Bombora or G2 Buyer Intent surface accounts actively researching your category feeding that signal into your ABM list keeps you focused on accounts in-market right now.

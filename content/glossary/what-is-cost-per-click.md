@@ -16,7 +16,7 @@ toc: true
 readingTime: "9 min read"
 ---
 
-Cost per click (CPC) is the amount an advertiser pays each time someone clicks their ad. CPC matters because it directly impacts your total ad spend and customer acquisition costs. Accurate CPC tracking helps SaaS teams optimize paid campaigns for real ROI.
+Cost per click (CPC) is the amount an advertiser pays each time someone clicks their ad. CPC matters because it directly impacts your total ad spend and [customer acquisition](/blogs/saas-customer-acquisition-strategy/) costs. Accurate CPC tracking helps SaaS teams optimize paid campaigns for real ROI.
 
 ## TL;DR
 

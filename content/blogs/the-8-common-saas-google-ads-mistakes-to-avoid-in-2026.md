@@ -185,7 +185,7 @@ Most teams only look when something is visibly wrong. But on a CPC channel, visi
 - Build a [SaaS PPC](/checklists/saas-ppc-checklist/) checklist and run the same audit the same way every time. "The account looks fine" is an assumption, not a conclusion, and assumptions cost money on a CPC channel.
 - Two weeks is the right cadence, it is long enough to have data worth acting on, short enough that problems do not run far enough to do real damage
 
-One more reason to keep the cadence tight in 2026: Google's [June 15, 2026 bidding and budgeting update](https://business.google.com/us/accelerate/announcements/) rolls out Bidding Target Optimization, which auto-applies from August 17. Budget-limited campaigns get pulled back toward their CPA or ROAS target automatically, so if you are not auditing, the platform is now making pacing calls on your behalf. A bi-weekly review is how you catch that before it quietly reshapes your account.
+One more reason to keep the cadence tight in 2026: Google's [June 15, 2026 bidding and budgeting update](https://business.google.com/us/accelerate/announcements/) rolls out Bidding Target Optimization, which auto-applies from August 17. Budget-limited campaigns get pulled back toward their CPA or [ROAS](/glossary/what-is-roas/) target automatically, so if you are not auditing, the platform is now making pacing calls on your behalf. A bi-weekly review is how you catch that before it quietly reshapes your account.
 
 ### **Before and after:**
 

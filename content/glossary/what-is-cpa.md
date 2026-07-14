@@ -73,7 +73,7 @@ A real trade-off: Paid search can deliver predictable CPA, but it fails when you
 
 ## What’s the Difference Between CPA, CAC, and CPL?
 
-It’s easy to confuse CPA (cost per acquisition) with CAC (customer acquisition cost) and CPL (cost per lead), but they answer different questions. Understanding the distinction is essential for SaaS teams who want to optimize for real revenue not vanity metrics.
+It’s easy to confuse CPA (cost per acquisition) with CAC ([customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost) and CPL (cost per lead), but they answer different questions. Understanding the distinction is essential for SaaS teams who want to optimize for real revenue not vanity metrics.
 
 - CPA vs. CAC: CPA is often campaign-specific or channel-specific; CAC is broader, including all sales and marketing costs over a period.
 - CPA vs. CPL: CPL measures cost to acquire a lead (e.g., signup), not a paying customer; CPA and CAC are about actual conversions.

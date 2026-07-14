@@ -532,7 +532,7 @@ Best for: HR tech companies needing senior content production with a narrow lens
 
 {{< agency-triptych slug="concurate" name="Concurate" >}}
 
-[Concurate](https://concurate.com/hr-tech-content-agency/) is a distributed B2B SaaS content agency operating from India and Singapore. They publish a dedicated HR-tech content landing page and lean into long-form SEO content, POVs, and thought leadership.
+[Concurate](https://concurate.com/hr-tech-content-agency/) is a distributed B2B SaaS content agency operating from India and Singapore. They publish a dedicated HR-tech content landing page and lean into long-form SEO content, POVs, and [thought leadership](/blogs/saas-thought-leadership-strategy/).
 
 **The Dossier**
 

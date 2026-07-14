@@ -265,7 +265,7 @@ We built [PipeRocket Digital](/saas-seo-agency/) specifically because the B2B Sa
 
 **We specialize exclusively in B2B SaaS:** Unlike generalist agencies, we understand the complexity of long, multi-stakeholder sales cycles. This “Revenue First” approach is designed to capture qualified decision-makers exactly when they are evaluating solutions.
 
-**We prioritize “Money” over “Volume”:** We’ve seen too many brands drown in noise. By focusing on high-intent “Money Pages”, we help our clients lower their CAC (Customer Acquisition Cost) while scaling their pipeline.
+**We prioritize “Money” over “Volume”:** We’ve seen too many brands drown in noise. By focusing on high-intent “Money Pages”, we help our clients lower their CAC ([Customer Acquisition](/blogs/saas-customer-acquisition-strategy/) Cost) while scaling their pipeline.
 
 **We believe in “Outcome over Output”:** As I’d like to say “Most agencies execute tasks. We own outcomes”. This means that we audit your entire funnel to ensure the traffic we generate has a clear path to conversion.
 

@@ -70,7 +70,7 @@ That collaboration gave us an **extra 900+ keywords** we hadn’t found on our o
 - Product
 - Sales
 - Customer Success
-- Product Marketing teams
+- [Product Marketing](/blogs/saas-product-marketing-strategy/) teams
 
 to curate a “human” list first.
 

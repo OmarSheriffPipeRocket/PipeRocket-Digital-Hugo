@@ -511,7 +511,7 @@ First Page Sage publishes a $10,000+ minimum project size on Clutch with custom 
 | --- | --- | --- |
 | SEO Programme | $10,000+/project | Technical SEO, content, link building |
 | GEO Programme | Custom pricing | Generative Engine Optimisation content |
-| Thought Leadership | Custom pricing | Long-form, white papers, executive content |
+| [Thought Leadership](/blogs/saas-thought-leadership-strategy/) | Custom pricing | Long-form, white papers, executive content |
 
 | Criteria | Detail |
 | --- | --- |

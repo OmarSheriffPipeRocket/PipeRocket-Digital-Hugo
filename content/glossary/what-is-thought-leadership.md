@@ -15,7 +15,7 @@ toc: true
 readingTime: "9 min read"
 ---
 
-Thought leadership is the practice of influencing your industry’s perspective by consistently sharing unique insights, not just expertise. It matters because it builds trust and shapes buying criteria making your brand the reference point when customers make decisions.
+[Thought leadership](/blogs/saas-thought-leadership-strategy/) is the practice of influencing your industry’s perspective by consistently sharing unique insights, not just expertise. It matters because it builds trust and shapes buying criteria making your brand the reference point when customers make decisions.
 
 ## TL;DR
 
@@ -63,7 +63,7 @@ A common trap: Many teams think “thought leadership” means launching a podca
 
 Thought leadership works in SaaS when you’re not just sharing knowledge, but making people rethink what matters about software, buying, or outcomes. The real impact comes from shaping the buying criteria or redefining what “good” looks like in your space.
 
-- Framework-setting: When you coin a term or create a new evaluation lens (think “product-led growth”), you become the filter buyers apply to every other product.
+- Framework-setting: When you coin a term or create a new evaluation lens (think “[product-led growth](/blogs/saas-product-led-growth-strategy/)”), you become the filter buyers apply to every other product.
 - Contrarian takes: The strongest SaaS thought leaders poke holes in accepted wisdom then offer a credible alternative path.
 - Transparency about mistakes: Sharing what failed, not just what worked, gives you credibility that polished thought pieces never will.
 - Accessible storytelling: Buyers remember stories, not statistics. The best thought leaders use real stories from the field to back up their claim.

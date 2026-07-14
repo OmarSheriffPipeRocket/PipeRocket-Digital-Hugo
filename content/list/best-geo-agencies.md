@@ -404,7 +404,7 @@ Best for: SME-led AEO content that earns AI citations through editorial depth
 | Founded | 2015 |
 | Team Size | 10-49 people |
 | Notable Clients | WorkOS, 360Learning, Airtable, Amplitude, Atlassian, Auth0, Intercom |
-| Specialization | AEO and editorial thought leadership |
+| Specialization | AEO and editorial [thought leadership](/blogs/saas-thought-leadership-strategy/) |
 
 **Where They Fit:** $5M+ ARR B2B SaaS brands competing on credibility in complex categories where editorial trust drives pipeline.
 

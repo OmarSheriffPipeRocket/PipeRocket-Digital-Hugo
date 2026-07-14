@@ -221,7 +221,7 @@ Most teams see initial rank movement on target URLs within two to four months of
 
 ### 4. Should I build links to my product pages or my blog?
 
-Both, but your product and comparison pages should be the priority, especially if you are working with a limited budget or link capacity. Blog posts naturally attract links through content distribution. Product pages almost never attract links organically, which means the only way they get saas backlinks is through deliberate strategy. The blog can support your product pages through internal linking once it has accumulated authority, but treating the blog as your primary link building target while your product pages sit with no backlinks is one of the most common and costly mistakes we see in B2B [SaaS SEO](/blogs/saas-seo/ "SaaS SEO Strategy") programs.
+Both, but your product and comparison pages should be the priority, especially if you are working with a limited budget or link capacity. Blog posts naturally attract links through [content distribution](/blogs/saas-content-distribution-strategy/). Product pages almost never attract links organically, which means the only way they get saas backlinks is through deliberate strategy. The blog can support your product pages through internal linking once it has accumulated authority, but treating the blog as your primary link building target while your product pages sit with no backlinks is one of the most common and costly mistakes we see in B2B [SaaS SEO](/blogs/saas-seo/ "SaaS SEO Strategy") programs.
 
 ### 5. What makes a backlink high quality for a SaaS company?
 

@@ -177,7 +177,7 @@ The companies that get stuck on this are the ones trying to measure everything w
 - Use self-reported attribution alongside your analytics, asking customers directly how they found you and what influenced their decision
 - Track leading indicators like content engagement, demo request sources, and pipeline velocity rather than trying to attribute every dollar perfectly
 - Adopt a blended approach that combines quantitative data with qualitative signals from your sales team about what buyers are telling them
-- Accept that not everything is measurable and allocate a portion of budget to activities that are hard to track but clearly influence pipeline, like community participation and thought leadership
+- Accept that not everything is measurable and allocate a portion of budget to activities that are hard to track but clearly influence pipeline, like community participation and [thought leadership](/blogs/saas-thought-leadership-strategy/)
 
 The best attribution setup we have seen is not the most sophisticated one. It is the one that combines numbers with narratives and gives leadership enough confidence to keep investing in what works.
 

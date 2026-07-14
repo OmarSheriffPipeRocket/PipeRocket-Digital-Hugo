@@ -83,7 +83,7 @@ That specific detail needs to be plastered on the landing page. It shouldn’t b
 
 Once the content value proposition is locked, we develop that content into a frontend page. This is where the focus shifts heavily to **[Conversion Rate](/glossary/what-is-conversion-rate/) Optimization ([CRO](/glossary/what-is-cro/))**.
 
-Many people think CRO is just changing button colors from red to green. That is nonsense. CRO is about reducing friction and increasing motivation through psychology.
+Many people think CRO is just changing button colors from red to green. That is nonsense. CRO is about reducing friction and increasing motivation through psychology, and it works best run as a prioritized [CRO strategy](/blogs/saas-cro-strategy/) rather than one-off tweaks.
 
 ### Why the Title Tag is Your First Sales Pitch
 

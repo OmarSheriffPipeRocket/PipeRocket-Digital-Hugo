@@ -30,7 +30,7 @@ A go to market strategy is a detailed plan for how a company will sell and deliv
 A go to market strategy (GTM) is the operating system for how your company brings a product to market and gets it into the hands of paying customers. It covers who you target, how you position the product, which channels you use, and what actions you take to win deals. Most teams mistake GTM for a single launch plan or a laundry list of tactics. The reality is that GTM is about making hard choices deciding what not to do, which segments are a waste of time, and when to ignore playbooks that don’t fit your company.
 
 - Target customers: The specific buyer profile (ICP) you’re focused on demographics, pain points, buying triggers, and budget.
-- Channels: The routes to market, from outbound sales to self-serve product-led growth, content, paid search, or partner ecosystems.
+- Channels: The routes to market, from outbound sales to self-serve [product-led growth](/blogs/saas-product-led-growth-strategy/), content, paid search, or partner ecosystems.
 - Value proposition: The sharp, credible promise that answers “why us?” for your ICP what outcome or pain you solve better than alternatives.
 - Pricing and packaging: How you structure your offers, pricing tiers, and conversion mechanics to match the way your target customer buys.
 - Customer journey: The end-to-end flow from first impression through activation and expansion where handoffs break, and where customer value is delivered or lost.

@@ -71,7 +71,7 @@ A revenue intelligence SaaS should build informational content around forecastin
 
 - **ICP language mapping:** List the concepts your ideal customers discuss in sales calls, reviews, and support tickets. Those concepts become your informational keyword targets.
 - **[Search volume](/glossary/what-is-search-volume/) vs. relevance:** A lower-volume keyword your exact ICP searches is more valuable than a high-volume term that draws a broad, unqualified crowd.
-- **Keyword difficulty:** Informational keywords vary in difficulty. "What is churn" is easier than "what is product-led growth," which faces competition from high-authority domains.
+- **Keyword difficulty:** Informational keywords vary in difficulty. "What is churn" is easier than "what is [product-led growth](/blogs/saas-product-led-growth-strategy/)," which faces competition from high-authority domains.
 - **Gap analysis:** Check which informational keywords your competitors rank for that you don't. These represent authority gaps worth filling.
 - **Supporting commercial intent:** The best informational keywords link naturally to your commercial pages, serving the user and your funnel at once.
 

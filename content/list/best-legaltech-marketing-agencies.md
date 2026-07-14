@@ -388,7 +388,7 @@ Named clients include iCIMS (enterprise talent software), Corti (AI healthcare S
 
 "This is the strongest agency I've worked with to date, and I would recommend them to anyone." — Sr. Manager, iCIMS ([Clutch](https://clutch.co/profile/directive)).
 
-- Directors at enterprise SaaS cite the team becoming an extension of product marketing rather than external consultants
+- Directors at enterprise SaaS cite the team becoming an extension of [product marketing](/blogs/saas-product-marketing-strategy/) rather than external consultants
 
 **Complain:** High floor and account-team turnover
 
@@ -520,7 +520,7 @@ Best for: LegalTech SaaS Wanting AI Visibility and Brand Citation in the LLMs Th
 | Founded | 2014 |
 | Team Size | 10-49 people |
 | Notable Clients | Paychex, Canva (Flourish), Moz, Ascent Cloud, Profound |
-| Specialization | GEO/AEO, content distribution, Reddit and community marketing, B2B audience-building |
+| Specialization | GEO/AEO, [content distribution](/blogs/saas-content-distribution-strategy/), Reddit and community marketing, B2B audience-building |
 
 **The Thesis**
 
@@ -658,7 +658,7 @@ Want a side-by-side? Read our [PipeRocket vs Siege Media](/compare/piperocket-di
 
 ### 9. Reputation Ink
 
-Best for: LegalTech SaaS Vendors Needing PR, Thought Leadership, and Trade Press Placements That Build Credibility With Skeptical Legal Buyers
+Best for: LegalTech SaaS Vendors Needing PR, [Thought Leadership](/blogs/saas-thought-leadership-strategy/), and Trade Press Placements That Build Credibility With Skeptical Legal Buyers
 
 [Reputation Ink](https://www.rep-ink.com/industries/legal-tech.aspx) is a B2B public relations and thought leadership agency for professional services and the companies that serve them, explicitly including legaltech and alternative legal services providers (ALSPs). Founder Michelle Calcote King has appeared on the Lawdragon Global 100 Leaders in Legal Strategy and Consulting three years running.
 

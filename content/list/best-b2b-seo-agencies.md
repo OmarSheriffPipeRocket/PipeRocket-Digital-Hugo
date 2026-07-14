@@ -669,7 +669,7 @@ The 6-month-minimum engagement and content-only scope mean growth teams wanting 
 - 6-month engagement minimum doesn't suit fast-iteration testing
 - $2M ARR floor effectively excludes pre-Series A teams
 
-**Suits You If:** You're a growth-stage B2B SaaS investing in long-term editorial strategy and thought leadership where content is the durable moat.
+**Suits You If:** You're a growth-stage B2B SaaS investing in long-term editorial strategy and [thought leadership](/blogs/saas-thought-leadership-strategy/) where content is the durable moat.
 
 **Wrong Fit If:** You need quick tactical wins or short-term campaign execution, or you want PPC and conversion architecture under the same retainer.
 
@@ -903,7 +903,7 @@ The brand-integration model means pure-SEO buyers find Stratabeat over-scoped. T
 - Pure-SEO retainer isn't on offer; brand work always in scope
 - Brand-overhaul commitment required for engagement to compound
 
-**Suits You If:** You're a B2B company needing brand messaging overhaul combined with organic growth strategy, where buyers' search behaviour reflects deeper positioning gaps.
+**Suits You If:** You're a B2B company needing brand messaging overhaul combined with organic [growth strategy](/blogs/saas-growth-strategy/), where buyers' search behaviour reflects deeper positioning gaps.
 
 **Wrong Fit If:** You have strong brand positioning already and just need pure SEO execution, or your team isn't ready to commit to a messaging-overhaul process.
 

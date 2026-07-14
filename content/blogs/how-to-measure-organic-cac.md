@@ -121,7 +121,7 @@ Add up the fully-loaded organic cost for the trailing 12 months:
 - the in-house SEO salary
 - the tool stack
 - content and design
-- the internal hours from product marketing and the founder's interview time
+- the internal hours from [product marketing](/blogs/saas-product-marketing-strategy/) and the founder's interview time
 
 That total is the numerator, not just the obvious line.
 

@@ -48,7 +48,7 @@ Here's how the main channels line up by role and by the deal size they suit best
 | Paid search (Google) | Capture existing demand | Any ACV with real search volume | Cost per SQL, pipeline sourced |
 | Microsoft (Bing) Ads | Capture, cheaper CPC | Enterprise / older-skewing ICPs | Cost per SQL, incremental volume |
 | LinkedIn Ads | Influence by job title | High-ACV, committee deals | Lift, assisted pipeline |
-| Meta Ads | Influence via lookalikes | PLG and mid-ACV with a user base | Lift, lead quality |
+| [Meta Ads](/blogs/meta-ads-for-b2b-saas/) | Influence via lookalikes | PLG and mid-ACV with a user base | Lift, lead quality |
 | [Reddit Ads](/blogs/saas-reddit-ads/) | Awareness | Community-led categories | Reach, assisted pipeline |
 | Review-site ads (G2, Capterra) | Capture late-stage intent | Categories buyers shortlist on | Demo requests, close rate |
 
@@ -122,7 +122,7 @@ The read is simpler than it sounds. After you launch a heavy influence campaign,
 
 ### Watch the channels that hide their own data
 
-Some paid surfaces don't give you enough to optimise, and you should know that going in. Running [ChatGPT ads](/blogs/chatgpt-ads-for-saas/), for example, you get impressions, clicks, conversions, CTR, and average CPC, but you can't see where the ad was actually shown. For a channel you're meant to optimise, that placement blind spot is the story, and it should shape how much budget you're willing to commit before the reporting catches up.
+Some paid surfaces don't give you enough to optimise, and you should know that going in. Running [ChatGPT ads](/blogs/chatgpt-ads-for-saas/), for example, you get impressions, clicks, conversions, [CTR](/glossary/what-is-ctr/), and average CPC, but you can't see where the ad was actually shown. For a channel you're meant to optimise, that placement blind spot is the story, and it should shape how much budget you're willing to commit before the reporting catches up.
 
 ## Common Mistakes to Avoid in SaaS Paid Marketing
 

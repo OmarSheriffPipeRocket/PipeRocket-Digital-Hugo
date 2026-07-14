@@ -284,7 +284,7 @@ So if you daypart (weekends only, business hours only), monthly spend can climb 
 
 ### **4. Bid Strategy Changes (another 2026 item to watch)**
 
-Google is also reworking how automated bidding behaves. On **June 15, 2026 it announced Bidding Target Optimization**, which from **August 17, 2026 auto-applies** to budget-limited, over-delivering campaigns and pulls them back toward your target (a Bid Target Adjustment Tool shipped July 6 to preview the impact first). Google also renamed two familiar strategies: "Maximize conversions with a Target CPA" is now just **Target CPA**, and "Maximize conversion value with a Target ROAS" is now **Target ROAS** ([Google](https://business.google.com/us/accelerate/announcements/)). Same mechanics, cleaner labels. If you inherited an old account, don’t panic when the strategy names look different.
+Google is also reworking how automated bidding behaves. On **June 15, 2026 it announced Bidding Target Optimization**, which from **August 17, 2026 auto-applies** to budget-limited, over-delivering campaigns and pulls them back toward your target (a Bid Target Adjustment Tool shipped July 6 to preview the impact first). Google also renamed two familiar strategies: "Maximize conversions with a Target CPA" is now just **Target CPA**, and "Maximize conversion value with a Target [ROAS](/glossary/what-is-roas/)" is now **Target ROAS** ([Google](https://business.google.com/us/accelerate/announcements/)). Same mechanics, cleaner labels. If you inherited an old account, don’t panic when the strategy names look different.
 
 ## **Conclusion**
 

@@ -24,7 +24,7 @@ Google Ads is Google’s pay-per-click ([PPC](/glossary/what-is-ppc/)) advertisi
 - Most SaaS teams treat Google Ads as just another “turn on and spend” channel but true results come from ongoing optimization and intent-based targeting.
 - Roughly 90% of online experiences start with a search engine, and Google controls the lion’s share of those searches.
 - Ad ranking is determined by both bid amount and ad quality not just budget so smaller teams can outcompete bigger spenders.
-- Relying solely on Google Ads for growth often leads to diminishing returns and higher customer acquisition costs over time.
+- Relying solely on Google Ads for growth often leads to diminishing returns and higher [customer acquisition](/blogs/saas-customer-acquisition-strategy/) costs over time.
 
 ## What Is Google Ads and How Does It Actually Work?
 

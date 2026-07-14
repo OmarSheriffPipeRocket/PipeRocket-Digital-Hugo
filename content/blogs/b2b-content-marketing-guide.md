@@ -130,7 +130,7 @@ This is the foundation of your organic growth. In B2B, “thin” content is dea
 
 When a topic is too complex for a blog post, it belongs here. These are typically “gated” (requiring an email to download) and offer deep dives into industry trends or research. They are the currency you trade for a prospect’s contact info.
 
-**Best for:** [Lead Generation](/glossary/what-is-lead-generation/) (Middle of Funnel), Thought Leadership.
+**Best for:** [Lead Generation](/glossary/what-is-lead-generation/) (Middle of Funnel), [Thought Leadership](/blogs/saas-thought-leadership-strategy/).
 
 ### 3. Case Studies & Success Stories
 

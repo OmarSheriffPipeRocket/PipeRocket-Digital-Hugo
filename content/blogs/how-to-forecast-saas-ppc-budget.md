@@ -144,7 +144,7 @@ The gaps tell you exactly what to fix:
 
 - **CPC higher than forecast?** The auction is tougher than planned. Tighten match types and negatives, or your spend buys fewer clicks than the model assumed.
 - **Clicks fine but CVR low?** The traffic is arriving but the [landing page](/glossary/what-is-a-landing-page/) isn't converting it. Fix the page before you touch the budget.
-- **Leads fine but SQL rate low?** You're buying the wrong intent. The clicks are coming from outside your ICP.
+- **Leads fine but SQL rate low?** You're buying the wrong intent. The clicks are coming from outside your [ICP](/glossary/what-is-icp/).
 
 Then re-fit the model with the real numbers. After two or three months you stop forecasting with borrowed assumptions and start forecasting with your own account's data, which is when the model gets genuinely accurate.
 

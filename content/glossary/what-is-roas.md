@@ -57,7 +57,7 @@ What this means in practice: using ad platform ROAS without adjusting for churn,
 
 ## How Is ROAS Different From Other Paid Metrics?
 
-On the surface, ROAS looks a lot like other paid performance metrics such as [CPA](/glossary/what-is-cpa/) (cost per acquisition), CAC (customer acquisition cost), or even CTR ([click-through rate](/blogs/how-to-improve-organic-ctr/)). But each metric answers a different question and ROAS is the only one focused directly on revenue return, not just cost or activity.
+On the surface, ROAS looks a lot like other paid performance metrics such as [CPA](/glossary/what-is-cpa/) (cost per acquisition), CAC ([customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost), or even CTR ([click-through rate](/blogs/how-to-improve-organic-ctr/)). But each metric answers a different question and ROAS is the only one focused directly on revenue return, not just cost or activity.
 
 - CPA (Cost Per Acquisition): Tells you what you pay for a signup, lead, or sale but not how much revenue that customer brings in.
 - CAC (Customer Acquisition Cost): Broader than CPA, includes all marketing and sales expenses, not just paid ads.

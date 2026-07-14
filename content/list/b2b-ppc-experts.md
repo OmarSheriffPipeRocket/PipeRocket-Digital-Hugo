@@ -428,7 +428,7 @@ Best for: Google Shopping and Performance Max.
 - Deep specialist in Google Shopping and Performance Max
 - Strong educator and writer on the platform's mechanics
 
-**Signature work:** *Ponderings of a PPC Professional* and his Shopping/PMax thought leadership.
+**Signature work:** *Ponderings of a PPC Professional* and his Shopping/PMax [thought leadership](/blogs/saas-thought-leadership-strategy/).
 
 **Who should work with him:** Teams that need serious Google Shopping or Performance Max expertise.
 

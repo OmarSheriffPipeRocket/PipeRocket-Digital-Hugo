@@ -305,7 +305,7 @@ Pricing is $300+/hr with a $50,000+ project minimum on the Clutch profile as of 
 
 ### 5. Ayima
 
-Best for: Global enterprise brands with international SEO and historical log-file pedigree
+Best for: Global enterprise brands with [international SEO](/blogs/saas-international-seo-strategy/) and historical log-file pedigree
 
 {{< agency-triptych slug="ayima" name="Ayima" >}}
 

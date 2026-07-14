@@ -74,7 +74,7 @@ Here is the full map, grouped by category. Each factor carries a tag so you can 
 | Crawlability and indexability | ✅ Confirmed |
 | HTTPS / site security | ✅ Confirmed |
 | Mobile-friendliness (mobile-first indexing) | ✅ Confirmed |
-| Site structure and internal linking | ✅ Confirmed |
+| Site structure and [internal linking](/blogs/how-to-use-internal-linking/) | ✅ Confirmed |
 | Structured data (eligibility for rich results, not a rank boost) | ✅ Confirmed |
 | Exact-match domain over-optimization | ⚪ Myth/Negligible |
 
@@ -91,7 +91,7 @@ Here is the full map, grouped by category. Each factor carries a tag so you can 
 | Factor | Evidence |
 |---|---|
 | Click signals / NavBoost (goodClicks, badClicks, longest clicks) | 🟡 Leak/Evidenced |
-| SERP-dissatisfaction / pogo-sticking demotion | 🟡 Leak/Evidenced |
+| [SERP](/glossary/what-is-serp/)-dissatisfaction / pogo-sticking demotion | 🟡 Leak/Evidenced |
 | Chrome usage data at the site level | 🟡 Leak/Evidenced |
 | Social-media shares as a direct signal | ⚪ Myth/Negligible |
 
@@ -179,7 +179,7 @@ This is the most misrepresented item in the entire space, so read it carefully: 
 
 ### Referring-domain growth
 
-Correlation studies across billions of pages find that pages with almost no referring domains get almost no organic traffic, and that steady referring-domain growth tracks with ranking gains. It is a correlation, not a proven direct lever, but it is one of the strongest correlations in SEO.
+Correlation studies across billions of pages find that pages with almost no referring domains get almost no organic traffic, and that steady referring-domain growth tracks with ranking gains. It is a correlation, not a proven direct lever, but it is one of the strongest correlations in [SEO](/glossary/what-is-seo/).
 
 ### Vendor "weighting" percentages
 
@@ -213,7 +213,7 @@ Exact-match domains no longer confer an advantage and can trigger a demotion whe
 
 ## How AI Overviews and AI Mode Change the Ranking Conversation
 
-The AI-search era doesn't replace ranking factors, it reweights them and adds a new surface on top. AI Overviews now appear on a large and growing share of US queries, though estimates vary widely by methodology, from around 21% in conservative trackers to 60%+ in others, so treat any single figure with skepticism.
+The AI-search era doesn't replace ranking factors, it reweights them and adds a new surface on top. [AI Overviews](/glossary/what-is-an-ai-overview/) now appear on a large and growing share of US queries, though estimates vary widely by methodology, from around 21% in conservative trackers to 60%+ in others, so treat any single figure with skepticism.
 
 Three practical shifts matter for a 2026 ranking-factor list:
 

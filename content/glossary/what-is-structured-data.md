@@ -88,7 +88,7 @@ Most guides make structured data sound like a one-time technical job. In reality
 - Validate with Google’s Rich Results Test: Always check your markup for errors before going live broken schema won’t just be ignored, it can hurt your search appearance.
 - Monitor and update regularly: Schema must keep pace with product updates, pricing changes, and new content set quarterly check-ins.
 
-The real question: who owns structured data in SaaS? Most teams punt it to devs and move on. That’s a mistake. The best results come when product marketing and [SEO](/glossary/what-is-seo/) work together, mapping schema to real buyer journeys and updating as go-to-market evolves.
+The real question: who owns structured data in SaaS? Most teams punt it to devs and move on. That’s a mistake. The best results come when [product marketing](/blogs/saas-product-marketing-strategy/) and [SEO](/glossary/what-is-seo/) work together, mapping schema to real buyer journeys and updating as go-to-market evolves.
 
 **Also read:** [SaaS SEO agency strategies for structured data governance](/saas-seo-agency/)
 

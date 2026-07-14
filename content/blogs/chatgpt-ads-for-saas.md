@@ -73,7 +73,7 @@ That changes how you run it. You're optimising a black box on outcome metrics al
 
 - You lean harder on your own conversion tracking, because it's the only honest signal you have
 - You judge the channel on cost per qualified lead rather than any in-platform placement [quality score](/blogs/saas-quality-score/)
-- You accept that you can't do the search-terms-style pruning that makes Google Ads efficient over time
+- You accept that you can't do the search-terms-style pruning that makes [Google Ads](/glossary/what-is-google-ads/) efficient over time
 
 Treat it like a channel you can measure at the outcome but not diagnose at the source. That's a fine trade for a test. It's a harder trade if you're trying to scale spend and defend every dollar to a board.
 

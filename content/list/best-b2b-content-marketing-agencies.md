@@ -384,7 +384,7 @@ Best for: B2B Brands That Need High-Quality Visual Content Engineered to Earn Ba
 
 **Right Call When:** You're a B2B or SaaS company needing premium visual content and link-building at scale, where design-led assets that earn .edu and .gov citations matter more than copy-only blog posts.
 
-**Wrong Call When:** You want purely text-based thought leadership without design investment, or you can't fund the production cycle that makes design-heavy link-earning content work.
+**Wrong Call When:** You want purely text-based [thought leadership](/blogs/saas-thought-leadership-strategy/) without design investment, or you can't fund the production cycle that makes design-heavy link-earning content work.
 
 **Their Angle**
 

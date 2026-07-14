@@ -554,7 +554,7 @@ Heinz Marketing doesn't publish rate cards. Custom enterprise engagements scoped
 
 Matt Heinz's reputation is built on years of pipeline-focused content, speaking, and published frameworks around B2B revenue acceleration. Their model leans heavily on consulting and pipeline framework work, with execution layered in.
 
-- Principal-led model with established category thought leadership
+- Principal-led model with established category [thought leadership](/blogs/saas-thought-leadership-strategy/)
 - Strong fit for companies needing sales-marketing alignment work, not just demand gen execution
 - Clients like Salesforce, LinkedIn, and DocuSign signal sophisticated sales motions where alignment is operational
 

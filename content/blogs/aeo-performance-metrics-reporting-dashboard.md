@@ -43,7 +43,7 @@ Position matters too, not just presence. In synthesized list-style answers, anal
 **How we measure it:**
 
 - We build the prompt set from evidence, not imagination. Real buyer language comes from Google Search Console queries, sales-call transcripts, support tickets, and the phrasing people actually use on Reddit and in review sites. We strip out leading prompts that would artificially inflate the mention rate (asking "why is PipeRocket the best AEO agency" is not a test, it's a mirror).
-- We run each prompt across the engines separately: ChatGPT, Perplexity, Google AI Mode and AI Overviews, Gemini, and Claude. Never aggregated into one figure.
+- We run each prompt across the engines separately: ChatGPT, Perplexity, Google AI Mode and [AI Overviews](/glossary/what-is-an-ai-overview/), Gemini, and Claude. Never aggregated into one figure.
 - For each prompt on each engine we log three things: cited or not, citation position, and which of your pages (or a competitor's) got pulled in.
 - We track the same prompt set over time so you can see movement, and we flag when a competitor breaks into an answer you used to own.
 
@@ -114,7 +114,7 @@ For context on scale: AI referral traffic is still small for most B2B sites, gen
 
 **What it answers:** does the AI traffic actually turn into demos and pipeline, or is it just curious traffic.
 
-This is the metric that ends the argument, and the data is the most encouraging on the whole list. Microsoft Clarity's study across 1,200-plus domains found LLM-referred visitors converted to sign-ups at **1.66%, versus 0.15% from search**, roughly an 11x difference, and to subscriptions at 1.34% versus 0.55% from search. More than half of the domains analyzed (52%) were already converting some AI traffic. In a B2B-specific cut, Opollo's study of 312 technology firms found AI visitors converting at 14.2% against 2.8% for Google organic. The consistent finding across independent sources is that AI-referred visitors convert several times better than the average organic visitor, because they arrive later in the decision, already primed by the answer that sent them.
+This is the metric that ends the argument, and the data is the most encouraging on the whole list. Microsoft Clarity's study across 1,200-plus domains found [LLM](/glossary/what-is-an-llm/)-referred visitors converted to sign-ups at **1.66%, versus 0.15% from search**, roughly an 11x difference, and to subscriptions at 1.34% versus 0.55% from search. More than half of the domains analyzed (52%) were already converting some AI traffic. In a B2B-specific cut, Opollo's study of 312 technology firms found AI visitors converting at 14.2% against 2.8% for Google organic. The consistent finding across independent sources is that AI-referred visitors convert several times better than the average organic visitor, because they arrive later in the decision, already primed by the answer that sent them.
 
 **How we measure it:**
 

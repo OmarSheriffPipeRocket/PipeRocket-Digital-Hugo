@@ -120,7 +120,7 @@ Effective B2B LinkedIn Marketing works when content educates, engages, and moves
 
 ### **1. Thought-Leadership Articles & Posts**
 
-Thought leadership content positions your brand and subject experts as trusted voices that prospects turn to for clarity and direction. Share valuable insights, explain industry trends, break down processes, and talk about real learnings. Use:
+[Thought leadership](/blogs/saas-thought-leadership-strategy/) content positions your brand and subject experts as trusted voices that prospects turn to for clarity and direction. Share valuable insights, explain industry trends, break down processes, and talk about real learnings. Use:
 
 - Short text posts
 - Long-form articles

@@ -94,7 +94,7 @@ Based on our previous example, if a company hasn’t raised any funding and isn�
 
 Once your ICP is locked in, use it to decide which ABM type fits your business:
 
-- **Are you a Product-Led Growth company?** Then go with ABM 1:Many because you need the scale. You’re targeting 1,000 accounts knowing that maybe 10 will sign up, and that’s the math you’re working with.
+- **Are you a [Product-Led Growth](/blogs/saas-product-led-growth-strategy/) company?** Then go with ABM 1:Many because you need the scale. You’re targeting 1,000 accounts knowing that maybe 10 will sign up, and that’s the math you’re working with.
 - **Are you a Sales-Led Growth company?** Then go with ABM 1:1 or 1:Few, because your sales team needs a manageable list to work through.
 
 **Why is this better?** With 1:Few specifically, if your first batch of 10 accounts in one industry doesn’t convert, you move to the next, whether that’s IT, manufacturing, healthcare, or wherever the next best fit is. That iteration loop is only possible when you’re working with a tight, defined list.

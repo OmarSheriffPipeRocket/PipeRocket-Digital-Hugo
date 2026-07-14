@@ -521,7 +521,7 @@ Walker Sands doesn't publish rate cards. Custom integrated programs priced based
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Integrated Comms | Custom | PR plus paid plus earned media plus thought leadership |
+| Integrated Comms | Custom | PR plus paid plus earned media plus [thought leadership](/blogs/saas-thought-leadership-strategy/) |
 | Full Programme | Custom | Multi-channel integrated demand plus brand strategy |
 | Enterprise | Custom | Multi-market communications and demand at scale |
 
@@ -740,7 +740,7 @@ Sales directors at manufacturing companies cite Straight North's lead validation
 
 - Long-term industrial vertical retention reflects category-specific fluency
 
-**Complain:** SaaS positioning gap
+**Complain:** [SaaS positioning](/blogs/saas-positioning-strategy/) gap
 
 Straight North's industrial focus means SaaS and digital-native B2B buyers find the model mismatched to their preferred outreach channels.
 

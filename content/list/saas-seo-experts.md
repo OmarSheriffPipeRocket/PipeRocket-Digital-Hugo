@@ -362,7 +362,7 @@ Best for: Revenue-not-rankings B2B SEO with a strong content engine.
 
 **What sets him apart:** Dunning's whole brand is B2B, and he practices what he preaches — his content and podcast output is relentless, and his own site ranks for terms he then helps clients win. For SaaS teams he's a clearly bookable, no-fluff option.
 
-- Squarely B2B/SaaS positioning with proof on his own site
+- Squarely B2B/[SaaS positioning](/blogs/saas-positioning-strategy/) with proof on his own site
 - Prolific podcast and content footprint
 - Transparent, bookable engagement model
 

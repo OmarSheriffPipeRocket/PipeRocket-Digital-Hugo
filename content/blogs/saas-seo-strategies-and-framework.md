@@ -105,7 +105,7 @@ If the answer to any of those is no, the keyword comes off the list regardless o
 | BOFU | Best [category] for [ICP] | Best CRM for SaaS startups | 8–15% |
 | MOFU | How to [solve problem] | How to reduce SaaS churn | 5–10% |
 | MOFU | [Category] strategy guide | SaaS pricing strategy guide | 5–8% |
-| TOFU | What is [concept] | What is product-led growth | 1–3% |
+| TOFU | What is [concept] | What is [product-led growth](/blogs/saas-product-led-growth-strategy/) | 1–3% |
 | TOFU | [Topic] examples | SaaS onboarding examples | 1–3% |
 
 **What this looks like in practice:** A customer success platform initially builds a keyword list around “customer success” and related terms pulling 10,000 to 50,000 monthly searches. After applying the intent filter, they discover 80% of those terms are searched by students, HR professionals, and customer service reps, not the VP of Customer Success who is their actual buyer. They rebuild the list around queries like “enterprise customer success software” and “Gainsight alternatives,” which have lower volume but a 6x higher SQL conversion rate.

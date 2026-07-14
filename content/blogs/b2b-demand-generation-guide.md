@@ -197,7 +197,7 @@ Demand gen builds a warm pool of educated prospects, while lead gen uses forms, 
 
 ### **3. Which marketing channels are most effective for B2B demand generation?**
 
-The most effective channels are those that prioritize content distribution and professional networking. LinkedIn is dominant for social engagement and targeted outreach. 
+The most effective channels are those that prioritize [content distribution](/blogs/saas-content-distribution-strategy/) and professional networking. LinkedIn is dominant for social engagement and targeted outreach. 
 
 [SEO](/glossary/what-is-seo/) and [Content Marketing](/glossary/what-is-content-marketing/) (via your blog and website) are essential for capturing buyers who are actively researching problems. Targeted [PPC](/glossary/what-is-ppc/) and ABM campaigns ensure your content reaches the right high-value accounts at the perfect time.
 

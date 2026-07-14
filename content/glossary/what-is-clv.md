@@ -19,7 +19,7 @@ Customer lifetime value (CLV) is the total revenue a customer generates for your
 
 ## TL;DR
 
-- Most SaaS companies miscalculate CLV by using averages that ignore churn and expansion, distorting their growth strategy.
+- Most SaaS companies miscalculate CLV by using averages that ignore churn and expansion, distorting their [growth strategy](/blogs/saas-growth-strategy/).
 - CLV helps you see which customer segments actually make your business profitable, not just which ones sign up fastest.
 - Raising CLV is more about retention and expansion than just acquisition upsells and lower churn matter more than new signups.
 - If your CLV is too low, your paid marketing will always hit a wall because you can’t outspend the competition sustainably.
@@ -32,7 +32,7 @@ CLV stands for customer lifetime value it’s the total revenue a customer bring
 - Total customer revenue: CLV sums up every dollar a customer spends initial purchase, upgrades, renewals, and even add-ons.
 - Churn impact: The sooner a customer leaves, the lower their lifetime value, which means churn is a direct drag on CLV.
 - Expansion revenue: Upsells and cross-sells increase CLV, making customer success and product adoption critical levers.
-- Acquisition cost balance: Knowing your CLV lets you set a rational CAC (customer acquisition cost) ceiling you won’t spend $1,000 to land a $500 customer.
+- Acquisition cost balance: Knowing your CLV lets you set a rational CAC ([customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost) ceiling you won’t spend $1,000 to land a $500 customer.
 - Predictive power: CLV is the backbone of revenue forecasting because it ties retention, ARPU (average revenue per user), and growth together.
 
 Here’s what this looks like in real life: Keeply, a SaaS for personal finance coaches, used to treat all customers the same. After looking at actual CLV by segment, they found that coaches serving small businesses stayed longer and bought more add-ons than those serving individuals. By shifting their focus, their annual recurring revenue ([ARR](/glossary/what-is-arr/)) skewed higher, even without growing total signups.

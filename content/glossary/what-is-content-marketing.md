@@ -28,7 +28,7 @@ Content marketing means creating and sharing useful content like guides, demos, 
 
 ## What Is Content Marketing?
 
-Content marketing is a strategy where you create and distribute content articles, videos, podcasts, guides, templates that answers your ideal customer’s questions or helps them solve a problem. It isn’t just “blogging” or “thought leadership.” The real test is whether your content attracts, educates, and converts the right audience without feeling like an ad.
+Content marketing is a strategy where you create and distribute content articles, videos, podcasts, guides, templates that answers your ideal customer’s questions or helps them solve a problem. It isn’t just “blogging” or “[thought leadership](/blogs/saas-thought-leadership-strategy/).” The real test is whether your content attracts, educates, and converts the right audience without feeling like an ad.
 
 Here’s where most SaaS teams miss the mark: they think publishing more content equals more results, when in reality, intent-driven content mapped to the buyer journey gets you much further.
 
