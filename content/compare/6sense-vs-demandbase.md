@@ -20,7 +20,7 @@ toc:
   - { label: "The short answer",        anchor: "short-answer" }
   - { label: "At a glance",             anchor: "at-a-glance" }
   - { label: "Company profile",         anchor: "backgrounds" }
-  - { label: "Decision matrix",         anchor: "decision-matrix--who-fits-which-side" }
+  - { label: "Decision matrix",         anchor: "decision-matrix-who-fits-which-side" }
   - { label: "Capability comparison",   anchor: "services" }
   - { label: "Pricing",                 anchor: "pricing" }
   - { label: "Strengths & tradeoffs",   anchor: "strengths--tradeoffs" }
