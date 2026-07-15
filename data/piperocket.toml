@@ -25,7 +25,7 @@ clutch_url     = "https://clutch.co/profile/piperocket-digital"
 clutch_rating  = "4.7"
 clutch_reviews = "16"
 rating_string  = "4.7/5 (16 reviews)"                   # the exact string to drop into a Rating cell
-last_verified = "2026-07-03"
+last_verified = "2026-07-15"
 
 # Positioning / scope
 specialization = "B2B SaaS only — SEO + PPC in one retainer; pipeline reporting (MQL, CAC, pipeline value) from week 4"

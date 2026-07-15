@@ -522,6 +522,10 @@ LINK_MAP = [
     ("Reddit Ads agencies", "/list/best-reddit-ads-agencies/", False, "P1"),
     ("Enterprise PPC agencies", "/list/best-enterprise-ppc-agencies/", False, "P1"),
     ("Paid social agencies", "/list/best-paid-social-agencies/", False, "P1"),
+    # ---- fintech GEO listicle added 2026-07-15 ----
+    ("fintech GEO agencies", "/list/best-fintech-geo-agencies/", False, "P1"),
+    ("fintech GEO agency", "/list/best-fintech-geo-agencies/", False, "P1"),
+    ("GEO agencies for fintech", "/list/best-fintech-geo-agencies/", False, "P1"),
     # ---- SaaS blog batch added 2026-07-01 ----
     ("llms.txt file", "/blogs/llms-txt-for-saas/", False, "P1"),
     ("paid search vs paid social", "/blogs/paid-search-vs-paid-social-for-saas/", False, "P1"),
