@@ -4,7 +4,7 @@ description: "If you asked me how I do keyword research, the exact steps we foll
 metaTitle: "How I Do SaaS SEO Keyword Research in 2026"
 metaDescription: "Here's the SaaS SEO keyword research steps we follow at PipeRocket Digital. My approach focuses on utilizing your internal teams to generate keywords."
 date: 2026-02-02
-lastmod: 2026-05-13
+lastmod: 2026-07-15
 slug: "how-to-do-saas-seo-keyword-research"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -15,7 +15,7 @@ wp_link: "/blogs/how-to-do-saas-seo-keyword-research/"
 
 If you asked me how I do keyword research, the exact steps we follow at PipeRocket Digital, this blog will be your answer. We’ve had long discussions about this within our team, and the reality is that most people start with tools when they should be starting with people.
 
-We treat SaaS SEO keyword research not just as a standard SaaS SEO checklist, but as a way to map the entire Total Addressable Market (TAM) for a product.Whether you are a founder trying to get traction or a marketer trying to scale, I am going to walk you through the exact process we use, a process that evolved directly from managing massive accounts like Sprinto.
+We treat SaaS SEO keyword research not just as a standard SaaS SEO checklist, but as a way to map the entire Total Addressable Market (TAM) for a product. Whether you are a founder trying to get traction or a marketer trying to scale, I am going to walk you through the exact process we use, a process that evolved directly from managing massive accounts like Sprinto.
 
 I will be upfront with you: it is a bit more work upfront. It takes time. But that extra effort is the difference between guessing what might work and actually dominating your category.
 
@@ -23,15 +23,15 @@ I will be upfront with you: it is a bit more work upfront. It takes time. But th
 
 - **Stop opening SEO tools first:** I honestly believe this is where everyone gets it wrong. You shouldn’t start with Ahrefs or Semrush. You have to start with your internal teams, Sales, CS, Product, because they know the specific, messy words customers actually use to describe their pain, which is data a tool just won’t give you.
 - **Don’t just copy your competitors.** If you only look at what the other guys are ranking for, you are just validating your own bias. We find that the real “gold” comes from merging that human insight from your team with the data, rather than just downloading a competitor’s keyword list and calling it a strategy.
-- **Group keywords into “Topics,” not just lists.** A spreadsheet with two thousand rows is useless noise. We group them into topics,like “GRC Software”, so we can walk into a meeting and tell the executives, “We don’t need a random budget, we need to build exactly 60 pages to capture the market.” It turns a guessing game into a business case.
+- **Group keywords into “Topics,” not just lists.** A spreadsheet with two thousand rows is useless noise. We group them into topics, like “GRC Software”, so we can walk into a meeting and tell the executives, “We don’t need a random budget, we need to build exactly 60 pages to capture the market.” It turns a guessing game into a business case.
 
 ## Should You Be Worried About AI Search for SaaS Keyword Research?
 
-Before we even think about opening a spreadsheet, we have to talk about the shift that is happening right now. I know you are probably hearing the noise.People are saying “keywords are dead” and claiming that everything is moving toward AI tools like ChatGPT or Perplexity. And there is truth to that. It is true that the term “keyword” is slowly evolving into “prompt”.
+Before we even think about opening a spreadsheet, we have to talk about the shift that is happening right now. I know you are probably hearing the noise. People are saying “keywords are dead” and claiming that everything is moving toward AI tools like ChatGPT or Perplexity. And there is truth to that. It is true that the term “keyword” is slowly evolving into “prompt”.
 
-The way people interact with the internet is changing.However, I have a strong belief that traditional search isn’t ending anytime soon. Look at the behavior right now. [Around 90% of people are still using Google](https://gs.statcounter.com/search-engine-market-share) to find their information.
+The way people interact with the internet is changing. However, I have a strong belief that traditional search isn’t ending anytime soon. Look at the behavior right now. [Around 90% of people are still using Google](https://gs.statcounter.com/search-engine-market-share) to find their information.
 
-That is a massive chunk of the world.So, while we are absolutely preparing for a future of AI prompts, we’ll stick to the foundation: [Keyword Research](/glossary/what-is-keyword-research/ "Glossary: Keyword Research") for SaaS [SEO](/glossary/what-is-seo/). It is still the bedrock of how your customers find you.
+That is a massive chunk of the world. So, while we are absolutely preparing for a future of AI prompts, we’ll stick to the foundation: [Keyword Research](/glossary/what-is-keyword-research/ "Glossary: Keyword Research") for SaaS [SEO](/glossary/what-is-seo/). It is still the bedrock of how your customers find you.
 
 ## Do Not Go the Usual SaaS Keyword Research Route: Here’s Why
 
@@ -42,7 +42,7 @@ If I asked you to sit down and do [keyword research](/glossary/what-is-keyword-r
 3. You list the big competitors, like “MetricStream” or “LogicGate,” and look for “MetricStream alternatives”.
 4. You take that list you just brainstormed, you paste it into Google Keyword Planner, you get the search volume, and maybe you run a [competitor gap analysis](/blogs/how-to-do-saas-seo-competitor-analysis/).
 
-I get it. We used to do it exactly this way, too. But we realized something critical: **this format does not help you scale**. Think about what is happening here. When you start with just your own knowledge and a software tool, you are creating a very narrow view of the market.You are missing the full spectrum, the [Total Addressable Market](/glossary/what-is-tam-sam-som/) (TAM). You are only finding the keywords you *expect* to find. You are validating your own bias. To fix this, we had to flip the script entirely.
+I get it. We used to do it exactly this way, too. But we realized something critical: **this format does not help you scale**. Think about what is happening here. When you start with just your own knowledge and a software tool, you are creating a very narrow view of the market. You are missing the full spectrum, the [Total Addressable Market](/glossary/what-is-tam-sam-som/) (TAM). You are only finding the keywords you *expect* to find. You are validating your own bias. To fix this, we had to flip the script entirely.
 
 ## How I Found Out the Best Way to do Keyword Research for SaaS SEO
 
@@ -55,9 +55,9 @@ Instead of jumping straight into Ahrefs or Semrush like I usually did, I created
 - I went to the Customer Success Team because they talk to existing clients every single day.
 - I went to the Sales Team because they hear the raw questions prospects ask during discovery calls.
 - I went to the Product Team because they know the technical roadmap and the precise definitions of what we are building.
-- I even went to the Marketing Sub-Teams – the Paid Ads team, the Events team, the Webinar team, and even the Social Media marketers.
+- I even went to the Marketing Sub-Teams: the Paid Ads team, the Events team, the Webinar team, and even the Social Media marketers.
 
-Honestly, when I first sent these sheets out, I was skeptical. I thought, “They’re just going to send me the same keywords I already know, the stuff competitors like Vanta or Drata are already ranking for”.I was very wrong and it was a huge surprise. You see, real users don’t search like [SaaS SEO](/blogs/saas-seo/) pros.
+Honestly, when I first sent these sheets out, I was skeptical. I thought, “They’re just going to send me the same keywords I already know, the stuff competitors like Vanta or Drata are already ranking for”. I was very wrong, and it was a huge surprise. You see, real users don’t search like [SaaS SEO](/blogs/saas-seo/) pros.
 
 - A prospect explaining a problem to a sales rep uses layman terms ([long-tail keywords](/glossary/what-is-a-long-tail-keyword/ "Glossary: Long-Tail Keyword")) to describe their pain.
 - A Product Manager might use technical jargon.
@@ -65,7 +65,7 @@ Honestly, when I first sent these sheets out, I was skeptical. I thought, “The
 
 ### The Result I Didn’t Expect
 
-That collaboration gave us an **extra 900+ keywords** we hadn’t found on our own. It took our list from a standard **1,500 keywords to a massive 2,400**.We never would have found those simply by staring at a keyword tool. **So here is your actionable step**: Before you touch a tool, collaborate with your:
+That collaboration gave us an **extra 900+ keywords** we hadn’t found on our own. It took our list from a standard **1,500 keywords to a massive 2,400**. We never would have found those simply by staring at a keyword tool. **So here is your first step**: Before you touch a tool, collaborate with your:
 
 - Product
 - Sales
@@ -88,11 +88,11 @@ We look at the Competitor Analysis Tools like Ahrefs or Semrush to see what our 
 
 ### Pro Tip:
 
-**Here’s a pro tip that many people miss: Industry Naming**.You need to know what the industry *officially* calls your category. We browse G2 and Gartner to see how they categorize products.For example, you might think people search for “Procurement Management Software”. But you go to G2 and realize they categorize it as “Procurement Automation Software” or just “Procurement Software”.Checking these sites ensures you are aligning your keywords with the actual industry standard.
+**Here’s a pro tip that many people miss: Industry Naming**. You need to know what the industry *officially* calls your category. We browse G2 and Gartner to see how they categorize products. For example, you might think people search for “Procurement Management Software”. But you go to G2 and realize they categorize it as “Procurement Automation Software” or just “Procurement Software”. Checking these sites ensures you are aligning your keywords with the actual industry standard.
 
 ### Now Create Your Keyword “Master Sheet”
 
-Now comes the heavy lifting. We take all these inputs – the team insights, the Google Keyword Planner data, the competitor gaps, the G2 categories, and we merge them into one “Master Sheet”.I won’t lie to you…this is time-consuming. It normally takes us three to four days to close this research phase. But if you want to identify your true priority and map your Total Addressable Market, this is the only way to do it.**Here is exactly how you should structure your Keyword Research Template:**
+Now comes the heavy lifting. We take all these inputs, the team insights, the Google Keyword Planner data, the competitor gaps, the G2 categories, and we merge them into one “Master Sheet”. I won’t lie to you, this is time-consuming. It normally takes us three to four days to close this research phase. But if you want to identify your true priority and map your Total Addressable Market, this is the only way to do it. **Here is exactly how you should structure your Keyword Research Template:**
 
 |  |  |  |
 | --- | --- | --- |
@@ -120,7 +120,7 @@ I want to highlight the “Topic” column because it is vital. This column help
 - “GRC components”
 - “GRC examples”
 
-All of these should be mapped to a single **Topic**: *“What is GRC”* or *“Overview of GRC”*. This tells you that you need **one** comprehensive pillar page to cover all those terms and rank higher in the [SERP](/glossary/what-is-serp/ "Glossary: SERP"), rather than writing three separate, thin articles.
+All of these should be mapped to a single **Topic**: *“What is GRC”* or *“Overview of GRC”*. This tells you that you need **one** complete pillar page to cover all those terms and rank higher in the [SERP](/glossary/what-is-serp/ "Glossary: SERP"), rather than writing three separate, thin articles.
 
 ## Map Your Keywords to its Intent
 
@@ -135,13 +135,13 @@ The final piece of the puzzle is using this research to make business decisions.
 
 ### **The “40-60” Rule for BOFU**
 
-Here is a benchmark I want you to remember: Most SaaS companies with a single product will have a **maximum of 40 to 60 Bottom-of-Funnel (BOFU) pages**.If you try to create more than that, you are likely forcing it. This count includes your software pages, alternatives pages, comparisons, and pricing pages. For GRC, that means “GRC software,” “GRC alternatives,” “GRC automation,” etc. It rarely exceeds 60.
+Here is a benchmark I want you to remember: Most SaaS companies with a single product will have a **maximum of 40 to 60 Bottom-of-Funnel (BOFU) pages**. If you try to create more than that, you are likely forcing it. This count includes your software pages, alternatives pages, comparisons, and pricing pages. For GRC, that means “GRC software,” “GRC alternatives,” “GRC automation,” etc. It rarely exceeds 60.
 
 ## How to Pitch This to Your Management
 
-The biggest struggle marketers face is justifying the budget. Management usually throws out a random number, like “We need 30 articles this quarter”.With this research method, you can walk into that meeting with confidence. You can say:*“Based on our research, the Total Addressable Market for content in our category is 250 articles. We have the potential to capture 60 BOFU pages, 70 MOFU pages, and 200 TOFU pages”*.
+The biggest struggle marketers face is justifying the budget. Management usually throws out a random number, like “We need 30 articles this quarter”. With this research method, you can walk into that meeting with confidence. You can say:*“Based on our research, the Total Addressable Market for content in our category is 250 articles. We have the potential to capture 60 BOFU pages, 70 MOFU pages, and 200 TOFU pages”*.
 
-This transforms content from a random request into a calculated investment. It gives clarity to the executives on the overall budget needed, and it gives the SEO team a clear roadmap of where to start and where to end. Once that roadmap is set, run it against our [SaaS SEO checklist](/checklists/saas-seo-checklist/) so nothing downstream — content, on-page, or technical — slips through the cracks.
+This transforms content from a random request into a calculated investment. It gives clarity to the executives on the overall budget needed, and it gives the SEO team a clear roadmap of where to start and where to end. Once that roadmap is set, run it against our [SaaS SEO checklist](/checklists/saas-seo-checklist/) so nothing downstream, content, on-page, or technical, slips through the cracks.
 
 This fits inside the wider [SaaS SEO 8-step framework](/blogs/saas-seo-strategies-and-framework/ "SaaS SEO Framework").
 
@@ -151,8 +151,8 @@ This guide is the hub for how we approach keyword research. Each stage below has
 
 **Keyword foundations**
 
-- [Types of keywords in SEO](/blogs/types-of-keywords-in-seo/) — the intent categories every keyword should be tagged against
-- [Search volume vs search intent](/blogs/how-to-choose-search-volume-vs-search-intent/) — which to weight when the two pull in different directions
+- [Types of keywords in SEO](/blogs/types-of-keywords-in-seo/): the intent categories every keyword should be tagged against
+- [Search volume vs search intent](/blogs/how-to-choose-search-volume-vs-search-intent/): which to weight when the two pull in different directions
 
 **Prioritising and mapping**
 
@@ -174,23 +174,23 @@ This guide is the hub for how we approach keyword research. Each stage below has
 
 Look, I’ll be honest with you, this methodology works, but it is a grind. If you are running a lean marketing team, you probably don’t have 40 hours to spare next week to sit in spreadsheets. That is exactly where our [SaaS SEO services](/saas-seo-agency/) come in. We don’t just send you a generic Semrush export and wish you luck. We come in and execute this exact “Goldmine” process for you.
 
-We interview your Sales and CS teams, we map your Total Addressable Market (TAM), and we hand you a fully prioritized execution roadmap.You get the strategy without the headache.**Ready to stop guessing and start dominating your category?** [**Reach out to us!**](/contact-us/)
+We interview your Sales and CS teams, we map your Total Addressable Market (TAM), and we hand you a fully prioritized execution roadmap. You get the strategy without the headache. **Ready to stop guessing and start dominating your category?** [**Reach out to us!**](/contact-us/)
 
 For a step-by-step version you can tick off as you go, use our free [keyword research checklist](/checklists/keyword-research-checklist/).
 
 ## Conclusion
 
-Keyword research for SaaS SEO is about conversation. By starting with your internal teams, you capture the language your customers actually use. By mapping that data into a structured asset with Topics and Priorities, you stop guessing.Yes, it takes a few days to do it right. But this process allows you to see the entire battlefield of your Total Addressable Market, so you can scale effectively.
+Keyword research for SaaS SEO is about conversation. By starting with your internal teams, you capture the language your customers actually use. By mapping that data into a structured asset with Topics and Priorities, you stop guessing. Yes, it takes a few days to do it right. But this process allows you to see the entire battlefield of your Total Addressable Market, so you can scale effectively.
 
 ## Frequently Asked Questions
 
 ### 1. Why can’t I just use Ahrefs or Semrush to find all my keywords?
 
-Tools are great for validation, but they are terrible for discovery. If you rely 100% on tools, you are only seeing what your competitors have already found. By skipping the internal interviews, you miss the “unseen gold”—the specific, high-intent phrases that real buyers use on sales calls but haven’t enough volume yet to show up in a tool. You need the human input to find the gaps the tools miss.
+Tools are great for validation, but they are terrible for discovery. If you rely 100% on tools, you are only seeing what your competitors have already found. By skipping the internal interviews, you miss the “unseen gold”, the specific, high-intent phrases that real buyers use on sales calls but don’t have enough volume yet to show up in a tool. You need the human input to find the gaps the tools miss.
 
 ### 2. Why is mapping keywords to ‘Topics’ more important than the keywords themselves?
 
-Because a list of 2,000 keywords is just noise; a list of 250 Topics is a strategy. Grouping keywords into Topics tells you exactly how many pages you need to build. It stops you from writing ten thin, repetitive articles about “GRC” and forces you to write one comprehensive pillar page that ranks for all of them. It turns data into a roadmap.
+Because a list of 2,000 keywords is just noise; a list of 250 Topics is a strategy. Grouping keywords into Topics tells you exactly how many pages you need to build. It stops you from writing ten thin, repetitive articles about “GRC” and forces you to write one complete pillar page that ranks for all of them. It turns data into a roadmap.
 
 ### 3. How does this method help me get budget approval from executives?
 

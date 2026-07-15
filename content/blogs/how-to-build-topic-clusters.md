@@ -4,6 +4,7 @@ description: "Most SaaS topic clusters fail because they're drawn as org charts,
 metaTitle: "How to Build Topic Clusters for a SaaS Site"
 metaDescription: "How to build SaaS topic clusters that actually rank: pillar vs spoke decisions, how many spokes a cluster needs, and the linking that ties it together."
 date: 2026-06-08
+lastmod: 2026-07-15
 slug: "how-to-build-topic-clusters"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -19,9 +20,9 @@ Below is the exact way I build clusters that rank: the pillar-versus-spoke call,
 ## TL;DR
 
 - **Clusters fail as org charts (build buyer structure):** Most clusters die because they're drawn as hierarchy diagrams Google never sees, instead of pages wired around how one buyer actually searches.
-- **Pillar vs spoke is an intent test, not volume:** A page is a pillar if it's where the buyer decides, and a spoke if it exists only to answer one question and feed links toward that decision.
-- **Size a cluster by coverage, not a number:** Map every real buyer question first and the spoke count falls out, usually landing between 8 and 15 pages once you stop padding for a count.
-- **Real buyer language unlocks uncontested clusters:** Pulling keywords from the teams who talk to customers, not a tool, surfaces the messy queries competitors miss and turns a keyword mess into a buildable map.
+- **Pillar vs spoke is an intent test:** A page is a pillar if it's where the buyer decides, and a spoke if it exists only to answer one question and feed links toward that decision.
+- **Size a cluster by coverage:** Map every real buyer question first and the spoke count falls out, usually landing between 8 and 15 pages once you stop padding for a count.
+- **Real buyer language unlocks uncontested clusters:** Pulling keywords from the teams who talk to customers surfaces the messy queries a tool misses, and turns a keyword mess into a buildable map.
 - **Internal linking is what makes it rank as one system:** Wire every spoke up to its pillar and concentrate the most links on decision-stage pages, so authority flows where it converts instead of to "what is" posts.
 - **Avoid the cluster-killers (diagrams, cannibalization, copying giants):** Linking with intent, expanding pages instead of writing rivals, and building on winnable intent beats mirroring a competitor's structure you can't support.
 
@@ -143,7 +144,7 @@ Steal the content structure of whoever actually ranks #1 for your terms (frequen
 
 We build clusters backwards from the decision. Before mapping a single pillar, we interview the teams that talk to customers, group those queries into topics, and architect the cluster so the decision-stage pages get built and linked first.
 
-Then we wire the internal links with buyer intent, not a plugin, so authority concentrates where it converts. If your content is publishing but not compounding, that's usually an architecture problem. [Talk to our team](https://piperocket.digital/contact-us/) or see how we approach [SaaS SEO](https://piperocket.digital/saas-seo-agency/).
+Then we wire the internal links with buyer intent, not a plugin, so authority concentrates where it converts. If your content is publishing but not compounding, you usually have an architecture problem. [Talk to our team](https://piperocket.digital/contact-us/) or see how we approach [SaaS SEO](https://piperocket.digital/saas-seo-agency/).
 
 ## Frequently Asked Questions
 

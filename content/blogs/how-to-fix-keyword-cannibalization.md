@@ -4,6 +4,7 @@ description: "When two of your pages compete for the same query, both usually lo
 metaTitle: "Fix Keyword Cannibalization on a SaaS Site"
 metaDescription: "Two pages fighting one query means both lose. How to find keyword cannibalization on a SaaS site and decide whether to merge, canonical, or delete."
 date: 2026-06-08
+lastmod: 2026-07-15
 slug: "how-to-fix-keyword-cannibalization"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -19,8 +20,8 @@ When two of your URLs fight for one keyword, Google can't tell which one you act
 ## TL;DR
 
 - **Two pages fighting means both lose (split signals):** When two URLs target one query, Google divides link equity and ranking signals between them, so neither breaks the top 10.
-- **Detect it in the data, not the content (GSC query audit):** Filter Search Console by query and flag any query returning two or more competing URLs, which at scale means exporting and sorting the whole library.
-- **The fix is a decision, not a rewrite (merge, canonical, or delete):** Every cannibalizing pair resolves to one of three moves, chosen by what each page is actually worth, not how much effort it took.
+- **Detect it in the data with a GSC query audit:** Filter Search Console by query and flag any query returning two or more competing URLs, which at scale means exporting and sorting the whole library.
+- **The fix is a decision, merge, canonical, or delete:** Every cannibalizing pair resolves to one of three moves, chosen by what each page is actually worth rather than by how much effort it took.
 - **Execution order matters (move value, then redirect):** Pull unique content into the winner first, apply the fix with a 301, repoint internal links, then resubmit and watch the position recover.
 
 ## Why Two Pages Targeting One Keyword Both Lose

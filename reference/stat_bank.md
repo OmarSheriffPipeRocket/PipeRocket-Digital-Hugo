@@ -84,7 +84,10 @@ Referenced-by:
   - content/blogs/b2b-ppc-guide.md
   - content/blogs/research-ai-seo-statistics.md
   - content/blogs/saas-content-marketing-guide.md
+  - content/blogs/saas-growth-strategy.md
   - content/blogs/saas-marketing-challenges-and-fixes.md
+  - content/blogs/saas-messaging-strategy.md
+  - content/blogs/saas-positioning-strategy.md
 Note: 2026-06-23 maintenance — re-confirmed current: Gartner still cites 6–10 decision-makers (some 2026 framings widen it to 5–16). Figure stands.
 
 ### gartner-rep-free-selfserve-qualitative
@@ -99,7 +102,10 @@ Referenced-by:
   - content/blogs/b2b-ppc-guide.md
   - content/blogs/research-ai-seo-statistics.md
   - content/blogs/saas-content-marketing-guide.md
+  - content/blogs/saas-growth-strategy.md
   - content/blogs/saas-marketing-challenges-and-fixes.md
+  - content/blogs/saas-messaging-strategy.md
+  - content/blogs/saas-positioning-strategy.md
 Note: 2026-06-23 — was "~75%"; the specific figure was dropped in saas-content-marketing.md (reframed to "most") to resolve a collision with the 67%/2026 survey (see gartner-67pct-rep-free-2026). Kept as the qualitative/evergreen rep-free entry.
 
 ### gartner-67pct-rep-free-2026
@@ -136,6 +142,7 @@ Cadence: annual
 Next-expected: 2026-01
 Status: fresh
 Referenced-by:
+  - content/blogs/saas-growth-strategy.md
   - content/blogs/saas-ppc.md
 
 ### cmi-2026-relevance-quality-65
@@ -149,6 +156,7 @@ Next-expected: 2026-10
 Status: fresh
 Referenced-by:
   - content/blogs/b2b-saas-seo.md
+  - content/blogs/saas-thought-leadership-strategy.md
 
 ### edelman-2025-thought-leadership
 Claim: B2B thought leadership builds credibility/authority (used as an example, not a hard %)
@@ -160,6 +168,7 @@ Cadence: annual
 Status: fresh
 Referenced-by:
   - content/blogs/b2b-saas-seo.md
+  - content/blogs/saas-thought-leadership-strategy.md
 Note: bot-blocks curl (403) — verify in browser.
 
 ### ppcsurvey-2026-harder
@@ -342,6 +351,7 @@ Published: undated
 Cadence: one-off
 Status: fresh
 Referenced-by:
+  - content/blogs/saas-growth-strategy.md
   - content/blogs/saas-marketing-challenges-and-fixes.md
 Note: 2026-06-23 maintenance — corroborated by multiple 2026 sources ("CAC risen ~60% in the past five years"). Stands.
 
@@ -406,7 +416,10 @@ Referenced-by:
   - content/blogs/b2b-ppc-guide.md
   - content/blogs/research-ai-seo-statistics.md
   - content/blogs/saas-content-marketing-guide.md
+  - content/blogs/saas-growth-strategy.md
   - content/blogs/saas-marketing-challenges-and-fixes.md
+  - content/blogs/saas-messaging-strategy.md
+  - content/blogs/saas-positioning-strategy.md
 Note: 2026-06-23 — replaced the mis-attributed "60–70% via Martal" recap (that figure is B2B International's, not Gartner's) with Gartner's documented 17%-with-suppliers stat, which makes the same point accurately.
 
 ### obelisk-chatgpt-vs-google
@@ -455,6 +468,8 @@ Cadence: annual
 Status: fresh
 Referenced-by:
   - content/blogs/how-to-forecast-saas-ppc-budget.md
+  - content/blogs/saas-customer-acquisition-strategy.md
+  - content/blogs/saas-growth-strategy.md
   - content/blogs/saas-marketing-challenges-and-fixes.md
 Note: 2026-07-01 — added during blog refresh of saas-marketing-challenges-and-fixes. Replaced an inverted/overstated in-blog claim (old text framed payback as rising to ~18mo from ~14mo; actual trend improved to ~16mo median). Corroborated by FirstPageSage SaaS CAC payback report + Aleph 2026. Volatile benchmark — re-check annually.
 

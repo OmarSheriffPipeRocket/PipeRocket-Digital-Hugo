@@ -4,7 +4,7 @@ description: "We’ve all been there. You’re staring at a Google Ads dashboard
 metaTitle: "How to Conduct a SaaS PPC Audit in 2026?"
 metaDescription: "Wondering how to conduct a PPC account audit for your SaaS product? Here's a complete phase-by-phase guide to help you audit your SaaS PPC account."
 date: 2026-01-12
-lastmod: 2026-05-13
+lastmod: 2026-07-15
 slug: "the-no-nonsense-guide-to-auditing-your-saas-ppc-account"
 writtenBy: "praveen"
 category: "SaaS PPC"
@@ -53,7 +53,13 @@ SaaS isn’t e-commerce. You aren’t selling $20 t-shirts where a click equals 
 
 **Audit Tip:** If you can’t see this data, don’t go into the audit yet and fix your tracking. If you are optimizing for “Leads” but 90% of them are junk, your audit will lead you in the wrong direction.
 
-**Two 2026 measurement changes to factor in.** First, since **June 1, 2026** Google Ads only retains granular (hourly/daily/weekly) reporting data for **37 months** — so any year-over-year audit reaching further back than that won’t have day-level detail ([Google Ads Developer Blog](https://ads-developers.googleblog.com/2026/05/new-data-retention-policy-for-google.html)). Second, since **June 15, 2026** Google made `ad_storage` in Consent Mode the single control for ad-data collection — Google Signals in GA4 no longer governs what Google Ads collects ([Google](https://support.google.com/analytics/answer/17016975)). If your conversion volumes look off after that date, check your consent setup before you blame the campaigns.
+Three 2026 measurement and policy changes to factor in:
+
+- **Data retention (June 1, 2026):** Google Ads now retains granular (hourly/daily/weekly) reporting data for only **37 months**, so a year-over-year audit reaching further back won't have day-level detail ([Google Ads Developer Blog](https://ads-developers.googleblog.com/2026/05/new-data-retention-policy-for-google.html)).
+- **Consent Mode (June 15, 2026):** `ad_storage` is now the single control for ad-data collection, so Google Signals in GA4 no longer governs what Google Ads collects ([Google](https://support.google.com/analytics/answer/17016975)).
+- **ToS on AI inputs (July 1, 2026):** a Google Ads Terms update clarifies how inputs you feed AI-powered Ads features (URLs and text in conversational and automated setup tools) can be used, and reaffirms you are responsible for reviewing, approving, or removing whatever those features generate ([Google](https://support.google.com/google-ads/answer/16875158?hl=en)).
+
+If your conversion volumes look off after these dates, check your consent and data setup before you blame the campaigns.
 
 ### **3. Set Your Benchmarks**
 
@@ -104,6 +110,10 @@ Don’t look at all campaigns at once. Segment them.
 **Audit Action:**
 
 Look for “Budget Capping.” Are your best performing campaigns limited by budget? If your “Competitor” campaign has an amazing CPA ([Cost Per Acquisition](/glossary/what-is-cpa/)) and [ROAS](/glossary/what-is-roas/ "Glossary: ROAS") (Return on Ad Spend) but is losing 50% of impression share due to budget, that is the easiest win you will find all day.
+
+**One pacing change to know.** Since **June 1, 2026**, campaigns using a daily budget together with an ad schedule pace toward the full monthly amount (**30.4x your daily budget**), no matter how many days the ads actually run ([Search Engine Land](https://searchengineland.com/google-changes-budget-pacing-rules-for-scheduled-campaigns-475107)).
+
+Your billing caps do not change, but daily spend can now swing higher on active days. Read "overspend" days against the monthly figure before you cut budgets.
 
 Use our [SaaS PPC checklist](/checklists/saas-ppc-checklist/ "SaaS PPC Checklist") to make sure no campaign-setup step is skipped.
 
@@ -193,7 +203,7 @@ Since this is an interruption channel, are people actually stopping to look?
 - **Dwell Time:** Are they spending time with the ad?
 - **Creative Formats:** What are you running? Single Image? Video? Carousel?
 
-**Pro Tip:** Segment your performance by ad format. You might find that Carousels drive high engagement but Video drives better brand recall (though harder to track). If your ads aren’t resonating well (low [CTR](/glossary/what-is-ctr/), low engagement), you need to reiterate and come up with an actionable item for [creative testing](/blogs/saas-creative-testing/).
+**Pro Tip:** Segment your performance by ad format. You might find that Carousels drive high engagement but Video drives better brand recall (though harder to track). If your ads aren’t resonating well (low [CTR](/glossary/what-is-ctr/), low engagement), you need to reiterate and come up with a concrete next step for [creative testing](/blogs/saas-creative-testing/).
 
 ### **3. Audience Penetration Check**
 

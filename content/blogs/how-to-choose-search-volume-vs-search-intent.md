@@ -4,6 +4,7 @@ description: "Volume and intent pull in opposite directions on a SaaS keyword li
 metaTitle: "Search Volume vs Search Intent for SaaS"
 metaDescription: "When does search volume win and when does intent win for SaaS keywords? A practical way to settle the trade-off keyword by keyword, with real benchmarks."
 date: 2026-06-08
+lastmod: 2026-07-15
 slug: "how-to-choose-search-volume-vs-search-intent"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -19,7 +20,7 @@ Here's how we actually make that call, keyword by keyword, instead of letting th
 - **Why the debate is fake most of the time:** For the vast majority of SaaS keywords the answer is intent, and volume only earns a vote once intent is already a yes.
 - **Let the SERP settle it:** The fastest way to break the tie is to search the keyword yourself and see what page type Google already rewards.
 - **Run the volume math before you argue:** A high-volume keyword's real conversion count is usually smaller than it looks, so do the arithmetic before you defend it.
-- **When volume genuinely wins:** Volume earns the slot when the searcher already has buying intent and you simply want more of them, not when you're hoping volume creates intent.
+- **When volume genuinely wins:** Volume earns the slot once the searcher already has buying intent and you simply want more of them, so lean on it to scale reach among searchers who are already ready to buy.
 - **When intent has to override:** A near-zero-volume keyword beats a popular one whenever the rare searcher is a decision-maker with a problem they need solved now.
 - **How to decide on one keyword:** Score intent first as a gate, then use volume only to rank the keywords that already passed.
 - **The mistake worth naming:** Running your whole list on volume hides the damage, because the traffic chart looks like success long after the pipeline has stopped.
@@ -126,7 +127,7 @@ Put it together and the decision is a sequence, not a balancing act. You don't w
 For any one keyword, here's the order we run:
 
 - **Gate on intent first.** Could the person typing this be someone you can sell to, and do they have a reason to act? If no, the keyword is out, and the volume never gets a vote.
-- **Confirm it on the SERP.** Search the keyword and read the page types ranking. If they match the kind of page you'd build to convert this searcher, the intent is real, not assumed.
+- **Confirm it on the SERP.** Search the keyword and read the page types ranking. If they match the kind of page you'd build to convert this searcher, the intent is real and confirmed by what Google already rewards.
 - **Decide the page type.** A passing keyword becomes a specific page, comparison, alternative, use-case, or a deliberate education piece, and that choice sets the conversion benchmark you'll judge it by.
 - **Now rank by volume.** Among the keywords that passed, build the higher-volume ones first, because at that point volume is finally measuring more of the right person instead of more of anyone.
 

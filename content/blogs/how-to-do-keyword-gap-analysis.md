@@ -4,6 +4,7 @@ description: "A keyword gap analysis isn't about the keywords you're missing. It
 metaTitle: "How to Do a Keyword Gap Analysis (SaaS Method)"
 metaDescription: "The keyword gap analysis method I use for SaaS clients: find the money pages competitors rank for that you don't, and ignore the gaps that waste budget."
 date: 2026-06-08
+lastmod: 2026-07-15
 slug: "how-to-do-keyword-gap-analysis"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -12,15 +13,15 @@ featuredImage: "/images/blog-covers/how-to-do-keyword-gap-analysis.webp"
 
 Most keyword gap reports hand you 4,000 keywords your competitor ranks for and you don't, sorted by volume. I delete that report. It's the wrong thing to look at.
 
-The gap you actually care about isn't in the keywords. It's in the pages. A competitor quietly built a set of pages to catch buyers at the moment they're ready to pay, and you didn't build them. Find those pages and you've basically found their pipeline.
+The gap you actually care about lives in the pages themselves. A competitor quietly built a set of pages to catch buyers at the moment they're ready to pay, and you didn't build them. Find those pages and you've basically found their pipeline.
 
 ## TL;DR
 
 - **Most gap reports measure the wrong thing:** They compare keyword counts, so a competitor's top-of-funnel blog haul looks like dominance when the real gap is the money pages they built and you didn't.
 - **Step 1, pull the raw gap then cut hard:** Run the Content Gap or Keyword Gap report, then strip out informational, branded, and off-intent terms until a few hundred buyer-close keywords survive.
 - **Step 2, map each gap to a money page:** Bucket every surviving keyword into the five page types (use-case, vertical, comparison, alternative, listicle) where buyers actually convert.
-- **Step 3, group the gaps into topics:** Most gap keywords collapse into far fewer pages than the row count suggests, so plan around pages you're missing, not a flat keyword list.
-- **Step 4, prioritise by worth, not by ease:** Score each page by searcher intent and build the high-converting alternative and comparison gaps first, letting support content follow.
+- **Step 3, group the gaps into topics:** Most gap keywords collapse into far fewer pages than the row count suggests, so plan around the pages you're missing rather than a flat keyword list.
+- **Step 4, prioritise by worth over ease:** Score each page by searcher intent and build the high-converting alternative and comparison gaps first, letting support content follow.
 - **Skipping gaps matters as much as closing them:** Don't ship the raw CSV, chase the wrong competitors, or try to close every gap, because much of it is junk traffic that won't pay.
 
 ## Why most keyword gap reports are useless
@@ -75,7 +76,7 @@ A small example: a compliance SaaS for fintech teams runs the gap report and fin
 
 Those three aren't three keywords to add to a blog. They're a use-case page, an alternative page, and a [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) that don't exist on the client's site yet. That's the build list.
 
-## Step 3: Group the gaps into topics, not a flat list
+## Step 3: Group the gaps into topics instead of a flat list
 
 A spreadsheet of 250 gap keywords is noise. The same 250 grouped into topics is a strategy, and usually a much shorter one. Most gap keywords collapse into far fewer pages than the row count suggests.
 
@@ -85,7 +86,7 @@ Grouping does two things. It tells you the real size of the gap ("we're missing 
 
 Done right, this is also where a gap analysis hands off cleanly to [keyword research](/glossary/what-is-keyword-research/) and a topic plan, rather than staying a one-off audit.
 
-## Step 4: Prioritise the gap by what it's worth, not what's easy
+## Step 4: Prioritise the gap by what it's worth over what's easy
 
 Now you have a grouped build list. Don't work it top to bottom. Score each page by the intent of the searchers it captures, because that's what predicts pipeline. A gap analysis that doesn't end in a priority order is just a longer report.
 
