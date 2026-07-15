@@ -104,7 +104,7 @@ A note on AI drafting. It's fine to use a model to shape a transcript into a fir
 
 This is where an executive-led program pays off in ways a [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/) never does. A consistent point of view around one category builds the topical depth that search engines reward and that AI answer engines pull from when they cite sources. The opinion is the content; the authority is the compounding asset.
 
-Everyone's been told [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/) is dying because AI now answers informational queries directly. So teams retreat to bottom-of-funnel pages only. The problem is that BOFU pages don't rank in isolation. The best "best X" and "X alternatives" pages sit on page two without real authority behind them, and thought leadership is how you build that authority honestly.
+Everyone's been told [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/) is dying because AI now answers informational queries directly. So teams retreat to [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) pages only. The problem is that BOFU pages don't rank in isolation. The best "best X" and "X alternatives" pages sit on page two without real authority behind them, and thought leadership is how you build that authority honestly.
 
 ### Pick one category and go deep enough to be cited
 

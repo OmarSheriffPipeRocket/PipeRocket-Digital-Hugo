@@ -145,7 +145,7 @@ The first is a language task. The second is an SEO and marketing task.
 Here's the practical split for a SaaS team.
 
 - **Translate:** UI strings, legal text, documentation where meaning must match exactly.
-- **Localise:** Landing pages, category pages, [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), and any content meant to rank or convert.
+- **Localise:** [Landing pages](/glossary/what-is-a-landing-page/), category pages, [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), and any content meant to rank or convert.
 
 Use native speakers or professional localisation for anything that has to rank. Raw machine translation is fine for a first draft, but a native editor catches the phrasing and the local search terms that a model trained mostly on English will miss. The pages that carry your pipeline are exactly the ones that can't afford to read like a translation.
 
