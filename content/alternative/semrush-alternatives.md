@@ -34,6 +34,10 @@ For a side-by-side on features and pricing, read our [Moz vs Semrush](/compare/m
 7. **SpyFu:** Best for teams running paid search alongside SEO who want combined PPC and SEO competitor intelligence.
 8. **Ubersuggest:** Best for solo founders and budget-constrained teams who need basic keyword and backlink visibility.
 
+Weighing the two directly? See our neutral [Semrush vs Serpstat](/compare/semrush-vs-serpstat/) breakdown.
+
+
+
 For a side-by-side on features and pricing, read our [Ahrefs vs Semrush](/compare/ahrefs-vs-semrush/) comparison.
 
 

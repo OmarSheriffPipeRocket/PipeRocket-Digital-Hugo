@@ -174,6 +174,7 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "copy-ai-alternatives": [
         ("Jasper", "/compare/jasper-vs-copy-ai/", "Jasper vs Copy.ai"),
+        ("Writesonic", "/compare/writesonic-vs-copy-ai/", "Writesonic vs Copy.ai"),
     ],
     "unbounce-alternatives": [
         ("Instapage", "/compare/unbounce-vs-instapage/",  "Unbounce vs Instapage"),
@@ -182,6 +183,7 @@ NEUTRAL_COMPARE_BRIDGES = {
     # --- 2026-07-03 batch: new alternatives + existing alt pages -> new compares ---
     "semrush-alternatives": [
         ("Ahrefs", "/compare/ahrefs-vs-semrush/", "Ahrefs vs Semrush"),
+        ("Serpstat", "/compare/semrush-vs-serpstat/", "Semrush vs Serpstat"),
     ],
     "ahrefs-alternatives": [
         ("Semrush", "/compare/ahrefs-vs-semrush/", "Ahrefs vs Semrush"),
@@ -196,6 +198,7 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "dreamdata-alternatives": [
         ("HockeyStack", "/compare/dreamdata-vs-hockeystack/", "Dreamdata vs HockeyStack"),
+        ("Factors", "/compare/factors-ai-vs-dreamdata/", "Factors.ai vs Dreamdata"),
     ],
     "hockeystack-alternatives": [
         ("Dreamdata", "/compare/dreamdata-vs-hockeystack/", "Dreamdata vs HockeyStack"),
@@ -218,12 +221,53 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "6sense-alternatives": [
         ("Bombora", "/compare/6sense-vs-bombora/", "6sense vs Bombora"),
+        ("RollWorks", "/compare/rollworks-vs-6sense/", "RollWorks vs 6sense"),
+    ],
+    "demandbase-alternatives": [
+        ("RollWorks", "/compare/rollworks-vs-demandbase/", "RollWorks vs Demandbase"),
+    ],
+    "botify-alternatives": [
+        ("Conductor", "/compare/conductor-vs-brightedge/", "Conductor vs BrightEdge"),
     ],
     "bombora-alternatives": [
         ("6sense", "/compare/6sense-vs-bombora/", "6sense vs Bombora"),
     ],
     "mouseflow-alternatives": [
         ("VWO", "/compare/vwo-vs-optimizely/", "VWO vs Optimizely"),
+    ],
+    # --- 2026-07-08 batch: new-alternative pages -> their paired new compares ---
+    "cognism-alternatives": [
+        ("ZoomInfo", "/compare/cognism-vs-zoominfo/", "Cognism vs ZoomInfo"),
+        ("Apollo", "/compare/cognism-vs-apollo/", "Cognism vs Apollo"),
+        ("Lusha", "/compare/lusha-vs-cognism/", "Lusha vs Cognism"),
+    ],
+    "lusha-alternatives": [
+        ("Cognism", "/compare/lusha-vs-cognism/", "Lusha vs Cognism"),
+    ],
+    "leadfeeder-alternatives": [
+        ("Albacross", "/compare/leadfeeder-vs-albacross/", "Leadfeeder vs Albacross"),
+    ],
+    "rollworks-alternatives": [
+        ("6sense", "/compare/rollworks-vs-6sense/", "RollWorks vs 6sense"),
+        ("Demandbase", "/compare/rollworks-vs-demandbase/", "RollWorks vs Demandbase"),
+    ],
+    "factors-ai-alternatives": [
+        ("Dreamdata", "/compare/factors-ai-vs-dreamdata/", "Factors.ai vs Dreamdata"),
+    ],
+    "writesonic-alternatives": [
+        ("Copy.ai", "/compare/writesonic-vs-copy-ai/", "Writesonic vs Copy.ai"),
+    ],
+    "conductor-alternatives": [
+        ("BrightEdge", "/compare/conductor-vs-brightedge/", "Conductor vs BrightEdge"),
+    ],
+    "instapage-alternatives": [
+        ("Leadpages", "/compare/instapage-vs-leadpages/", "Instapage vs Leadpages"),
+    ],
+    "optimizely-alternatives": [
+        ("AB Tasty", "/compare/optimizely-vs-ab-tasty/", "Optimizely vs AB Tasty"),
+    ],
+    "vwo-alternatives": [
+        ("Convert", "/compare/vwo-vs-convert/", "VWO vs Convert"),
     ],
     # --- blog sources (limited blog→compare flow, cap 1/blog, past word floor) ---
     "saas-seo": [
@@ -516,6 +560,20 @@ LINK_MAP = [
     ("Optmyzr vs Opteo", "/compare/optmyzr-vs-opteo/", False, "P2"),
     ("6sense vs Bombora", "/compare/6sense-vs-bombora/", False, "P2"),
     ("Clearbit vs Apollo", "/compare/clearbit-vs-apollo/", False, "P2"),
+    # ---- 2026-07-08 compares batch ----
+    ("Cognism vs ZoomInfo", "/compare/cognism-vs-zoominfo/", False, "P2"),
+    ("Cognism vs Apollo", "/compare/cognism-vs-apollo/", False, "P2"),
+    ("Lusha vs Cognism", "/compare/lusha-vs-cognism/", False, "P2"),
+    ("RollWorks vs 6sense", "/compare/rollworks-vs-6sense/", False, "P2"),
+    ("RollWorks vs Demandbase", "/compare/rollworks-vs-demandbase/", False, "P2"),
+    ("Factors.ai vs Dreamdata", "/compare/factors-ai-vs-dreamdata/", False, "P2"),
+    ("Writesonic vs Copy.ai", "/compare/writesonic-vs-copy-ai/", False, "P2"),
+    ("Conductor vs BrightEdge", "/compare/conductor-vs-brightedge/", False, "P2"),
+    ("Instapage vs Leadpages", "/compare/instapage-vs-leadpages/", False, "P2"),
+    ("Optimizely vs AB Tasty", "/compare/optimizely-vs-ab-tasty/", False, "P2"),
+    ("Leadfeeder vs Albacross", "/compare/leadfeeder-vs-albacross/", False, "P2"),
+    ("VWO vs Convert", "/compare/vwo-vs-convert/", False, "P2"),
+    ("Semrush vs Serpstat", "/compare/semrush-vs-serpstat/", False, "P2"),
     # ---- paid-agency listicles batch added 2026-06-26 ----
     ("Bing Ads agencies", "/list/best-bing-ads-agencies/", False, "P1"),
     ("ABM agencies", "/list/best-abm-agencies/", False, "P1"),
