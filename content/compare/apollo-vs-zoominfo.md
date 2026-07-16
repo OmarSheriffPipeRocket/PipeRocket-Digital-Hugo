@@ -62,7 +62,7 @@ at_a_glance:
   - { label: "Founded / Vendor",   a: "Apollo.io (apollo.io)",        b: "ZoomInfo (zoominfo.com)" }
   - { label: "Category",           a: "All-in-one prospecting + engagement", b: "Enterprise GTM data platform" }
   - { label: "Starting price",     a: "$0 (Free tier); Basic $49/user/mo (annual)", b: "No public price; sales-led annual contract" }
-  - { label: "Public rating",      a: "4.7 to 4.8 G2 (~7,100 to 9,600 reviews); 4.5 Capterra (395)", b: "4.5 G2 (~9,106, GTM Workspace); 4.1 Capterra (320)" }
+  - { label: "Public rating",      a: "4.7 to 4.8 G2 (~7,100 to 9,600 reviews); 4.5 Capterra (396)", b: "4.5 G2 (~9,106, GTM Workspace); 4.1 Capterra (320)" }
   - { label: "Best for",           a: "SMB / startup / mid-market outbound, US tech ICP", b: "Mid-market to enterprise revenue orgs, multi-vertical ICP" }
 
 backgrounds:
@@ -87,7 +87,7 @@ backgrounds:
         - { label: "Category",        value: "All-in-one prospecting + engagement" }
         - { label: "Pricing model",   value: "Per-seat tiered; free tier; annual or monthly" }
         - { label: "Starting price",  value: "$0 (Free); Basic $49/user/mo (annual)" }
-        - { label: "Public rating",   value: "4.7 to 4.8/5 G2 (~7,100 to 9,600 reviews); 4.5/5 Capterra (395)" }
+        - { label: "Public rating",   value: "4.7 to 4.8/5 G2 (~7,100 to 9,600 reviews); 4.5/5 Capterra (396)" }
     - name: "ZoomInfo"
       meta: "Enterprise GTM data platform · web app · sales-led annual contract"
       body: >-
@@ -247,7 +247,7 @@ Both platforms do the core job well (surface B2B contacts and help you reach the
 | **Intent data** | None; no standalone intent product (key gap) | Company- and person-level intent; core strength |
 | **Integrations** | Salesforce and HubSpot; solid for push, reported weaker on pull; described as one generation behind | 40+ native; bidirectional Salesforce sync with custom objects; more mature across RevOps |
 | **Pricing** | Transparent per-seat; free tier; ~$3,000 to $7,200/yr for 5 users | Sales-led annual contract; no public price; ~$30K to $60K/yr all-in |
-| **Public proof** | 4.7 to 4.8 on G2 (~7,100 to 9,600 reviews); 4.5 Capterra (395) | 4.5 on G2 (~9,106, GTM Workspace); 4.1 Capterra (320) |
+| **Public proof** | 4.7 to 4.8 on G2 (~7,100 to 9,600 reviews); 4.5 Capterra (396) | 4.5 on G2 (~9,106, GTM Workspace); 4.1 Capterra (320) |
 
 ## Ratings & track record
 
@@ -255,7 +255,7 @@ Both platforms do the core job well (surface B2B contacts and help you reach the
 |---|---|---|
 | G2 rating | 4.7 to 4.8 / 5 | 4.5 / 5 (GTM Workspace listing) |
 | G2 reviews | ~7,100 to 9,600 (source-dependent) | ~9,106 |
-| Capterra rating | 4.5 / 5 (395 reviews) | 4.1 / 5 (320 reviews, ZoomInfo Sales) |
+| Capterra rating | 4.5 / 5 (396 reviews) | 4.1 / 5 (320 reviews, ZoomInfo Sales) |
 | Category | All-in-one prospecting + engagement | Enterprise GTM data platform |
 | Notable signal | Higher public ratings; free tier and transparent pricing | Larger verified database; intent data and enterprise integrations |
 

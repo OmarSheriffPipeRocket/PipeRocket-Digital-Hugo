@@ -43,12 +43,12 @@ Weighing the two directly? See our neutral [Ahrefs vs Moz](/compare/ahrefs-vs-mo
 
 | Tool | Best For | Free Plan | Starting Price | Rating |
 | --- | --- | --- | --- | --- |
-| Semrush | Deepest all-in-one database | 7-day trial (credit card required) | [$139.95/mo](https://www.semrush.com/pricing/) | [4.5/5 (3,434 reviews, G2)](https://www.g2.com/products/semrush/reviews) |
+| Semrush | Deepest all-in-one database | 7-day trial (credit card required) | [$139/mo](https://www.semrush.com/pricing/) | [4.5/5 (3,434 reviews, G2)](https://www.g2.com/products/semrush/reviews) |
 | Ahrefs | Backlink depth + link index | No free trial as of June 2026 | [$129/mo](https://ahrefs.com/pricing) (Lite) | [4.5/5 (692 reviews, G2)](https://www.g2.com/products/ahrefs/reviews) |
-| SE Ranking | Best-value full platform | 14-day trial (no credit card) | [$103.20/mo](https://seranking.com/subscription.html) (Core, annual; $129/mo monthly) | [4.8/5 (1,432 reviews, G2)](https://www.g2.com/products/se-ranking/reviews) |
+| SE Ranking | Best-value full platform | 14-day trial (no credit card) | [$103.20/mo](https://seranking.com/subscription.html) (Core, annual; $129/mo monthly) | [4.7/5 (2,396 reviews, G2)](https://www.g2.com/products/se-ranking/reviews) |
 | Serpstat | Budget agency all-in-one | 7-day trial | [$50/mo](https://serpstat.com/page/pricing-plans/) (Individual) | [4.6/5 (464 reviews, G2)](https://www.g2.com/products/serpstat/reviews) |
-| SpyFu | PPC competitor intelligence | Free account (limited data) | [$39/mo](https://www.spyfu.com/mainpurchase/?page=default) (Basic) | [4.6/5 (512 reviews, G2)](https://www.g2.com/products/spyfu/reviews) |
-| Mangools | Budget keyword research | 10-day trial + free plan (no credit card) | [$19.90/mo](https://mangools.com/plans-and-pricing) (Entry, annual) | [4.7/5 (95 reviews, G2)](https://www.g2.com/products/mangools/reviews) |
+| SpyFu | PPC competitor intelligence | No free account; 30-day money-back | [$33/mo](https://www.spyfu.com/mainpurchase/?page=default) (Basic, billed annually; $39/mo monthly) | [4.6/5 (512 reviews, G2)](https://www.g2.com/products/spyfu/reviews) |
+| Mangools | Budget keyword research | 10-day trial + free plan (no credit card) | [$18.85/mo](https://mangools.com/plans-and-pricing) (Basic, billed annually; verified live July 2026) | [4.7/5 (95 reviews, G2)](https://www.g2.com/products/mangools/reviews) |
 | Ubersuggest | Low-cost keyword research entry | 7-day trial | [$29/mo](https://neilpatel.com/ubersuggest/) (Individual, reported) | [3.8/5 (149 reviews, G2, reported)](https://www.g2.com/products/ubersuggest/reviews) |
 
 ## How We Chose These Tools?
@@ -75,14 +75,14 @@ Best for: Teams that need the deepest all-in-one keyword and competitive databas
 | --- | --- |
 | Platform | Web app |
 | Free Plan | 7-day free trial; credit card required (confirmed June 2026, semrush.com/pricing/) |
-| Starting Price | [$139.95/mo](https://www.semrush.com/pricing/) (Pro, monthly; ~$117.33/mo annual) |
+| Starting Price | [$139/mo](https://www.semrush.com/pricing/) (SEO plan, monthly; ~$117.33/mo annual) |
 | G2 Rating | [4.5/5 (3,434 reviews)](https://www.g2.com/products/semrush/reviews) |
 
 **Fit Profile**
 
 It's for marketing teams and agencies that have hit Moz Pro's data ceiling and need keyword volumes, difficulty scores, and competitor intelligence they can build a roadmap on. PPC competitive intelligence (Ad History, CPC maps) is a major bonus with no real Moz equivalent.
 
-It's NOT for solo bloggers or tight-budget teams. At $139.95/mo monthly, Semrush is roughly 1.4x to 2.9x Moz Pro's entry price, and the per-seat model gets expensive fast for small teams. The credit-card-required trial is a friction point compared with SE Ranking's no-card option.
+It's NOT for solo bloggers or tight-budget teams. At $139/mo monthly (entry SEO plan), Semrush is roughly 1.4x to 2.9x Moz Pro's entry price, and the per-seat model gets expensive fast for small teams. The credit-card-required trial is a friction point compared with SE Ranking's no-card option.
 
 **Core Strengths**
 
@@ -107,7 +107,7 @@ The entry price is high relative to Moz Pro, and per-user pricing makes small te
 
 **Known Gaps**
 
-The Pro plan limits users to 5 projects and 500 tracked keywords, forcing growing teams to upgrade to Guru ($249.95/mo). Add-ons (local SEO, additional users, historical data) push the real cost above the headline plan price. The credit-card requirement for the trial is a friction point.
+The entry SEO plan limits you to 5 sites and 500 tracked keywords, pushing growing teams to Pro+ ($299/mo monthly) for historical data and higher limits. Add-ons (local SEO, additional users, historical data) push the real cost above the headline plan price. The credit-card requirement for the trial is a friction point.
 
 - Entry price higher than Moz Pro; per-seat model expensive for small teams
 - Credit card required to start the trial (verify live before purchase)
@@ -118,14 +118,14 @@ Semrush earns its rank on data depth, not price. If the reason you're leaving Mo
 
 **Pricing**
 
-Semrush uses a tiered per-seat subscription with roughly 17% savings on annual billing. As of June 2026, a 7-day free trial is available but requires a credit card to activate (verify at semrush.com/pricing/ before purchase).
+Semrush (an Adobe company since April 2026) uses a tiered subscription with roughly 17% savings on annual billing. As of July 2026 the plan lineup is SEO / Starter / Pro+ / Advanced; a free trial requires a credit card to activate (verified at semrush.com/pricing/seo-ai-search/).
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Pro | $139.95/mo monthly (~$117.33/mo annual) | 1 user, core keyword research, 500 tracked keywords, site audits |
-| Guru | $249.95/mo monthly | Content tools, historical data, more projects and keywords |
-| Business | $499.95/mo monthly | API access, higher limits, extended reporting |
-| Enterprise | Custom pricing | Custom volume, dedicated support |
+| SEO | $139/mo monthly (~$117.33/mo annual) | 5 sites, 500 tracked keywords, keyword research, Position Tracking, Site Audit |
+| Starter | $199/mo monthly (~$165.17/mo annual) | Adds AI Search visibility, MCP access, 50 AI prompts tracked daily |
+| Pro+ | $299/mo monthly (~$248.17/mo annual) | 15 sites, 1,500 keywords, historical data, content optimization, 100 AI prompts daily |
+| Advanced | $549/mo monthly (~$455.67/mo annual) | 40 sites, 5,000 keywords, API access, 200 AI prompts daily |
 
 | Criteria | Detail |
 | --- | --- |
@@ -227,7 +227,7 @@ Best for: SMBs and mid-market teams that want a full SEO suite at a lower price 
 | Platform | Web app |
 | Free Plan | 14-day free trial, no credit card required (verified: seranking.com, June 2026) |
 | Starting Price | [$103.20/mo](https://seranking.com/subscription.html) (Core, annual billing; $129/mo month-to-month) |
-| G2 Rating | [4.8/5 (1,432 reviews)](https://www.g2.com/products/se-ranking/reviews) |
+| G2 Rating | [4.7/5 (2,396 reviews)](https://www.g2.com/products/se-ranking/reviews) |
 
 **Fit Profile**
 
@@ -237,9 +237,9 @@ It's NOT for teams that need the absolute deepest keyword or backlink database; 
 
 **Core Strengths**
 
-SE Ranking holds the highest G2 rating in this set (4.8/5) across the largest review base after Semrush (1,432 reviews), which is the strongest satisfaction signal here. Its rank tracker supports daily check frequency out of the box, and the AI Search tracking add-on covers answer-engine visibility that neither Moz nor any other tool here matches at this price.
+SE Ranking holds one of the highest G2 ratings in this set (4.7/5, tied with Mangools) across a large review base (2,396 reviews), which is the strongest satisfaction signal here. Its rank tracker supports daily check frequency out of the box, and the AI Search tracking add-on covers answer-engine visibility that neither Moz nor any other tool here matches at this price.
 
-- Highest G2 rating (4.8/5) in this set across 1,432 reviews: best satisfaction-plus-volume signal here
+- One of the highest G2 ratings (4.7/5) in this set across 2,396 reviews: strong satisfaction-plus-volume signal
 - Daily rank tracking frequency and AI Search tracking add-on (no Moz equivalent)
 - 14-day free trial with no credit card: the lowest-friction evaluation of any tool in this set
 
@@ -250,7 +250,7 @@ SE Ranking holds the highest G2 rating in this set (4.8/5) across the largest re
 **Love:** "The most intuitive platform for keyword research"
 "I found SE Ranking the most intuitive to use. I appreciate the keyword research tool and the advanced filters for intent and search features." via [G2](https://www.g2.com/products/se-ranking/reviews).
 
-- 4.8/5 across 1,432 G2 reviews: highest satisfaction score of any tool in this roundup.
+- 4.7/5 across 2,396 G2 reviews: one of the highest satisfaction scores of any tool in this roundup (tied with Mangools).
 
 **Complain:** "Data depth trails the premium suites"
 Keyword and backlink data, while solid, is not as deep as Semrush or Ahrefs for demanding competitive analysis work.
@@ -281,7 +281,7 @@ SE Ranking uses a tiered subscription with savings on annual billing. A 14-day f
 | Criteria | Detail |
 | --- | --- |
 | Free Plan | 14-day free trial, no credit card required |
-| G2 Rating | [4.8/5 (1,432 reviews)](https://www.g2.com/products/se-ranking/reviews) |
+| G2 Rating | [4.7/5 (2,396 reviews)](https://www.g2.com/products/se-ranking/reviews) |
 
 ---
 
@@ -367,7 +367,7 @@ Best for: Teams with a strong PPC component who want competitor keyword and ad h
 | | |
 | --- | --- |
 | Platform | Web app |
-| Free Plan | Free account with limited data (no credit card required); 30-day money-back guarantee on paid plans |
+| Free Plan | No free account; 30-day money-back guarantee on all plans (verified live July 2026) |
 | Starting Price | [$39/mo](https://www.spyfu.com/mainpurchase/?page=default) (Basic, monthly; pricing corroborated by multiple sources as of June 2026, direct page not fetched) |
 | G2 Rating | [4.6/5 (512 reviews)](https://www.g2.com/products/spyfu/reviews) |
 
@@ -411,7 +411,7 @@ SpyFu is worth considering for any team where PPC and SEO share a budget. If pai
 
 **Pricing**
 
-SpyFu uses a tiered subscription with a 30-day money-back guarantee. As of June 2026, a free account with limited data is available, and pricing below is corroborated by multiple secondary sources (spyfu.com pricing page not directly fetched; verify live before purchase).
+SpyFu uses a tiered subscription with a 30-day money-back guarantee. As of July 2026, SpyFu offers no free account (only a 30-day money-back guarantee); membership starts at $33/mo billed annually, verified live on spyfu.com.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -421,7 +421,7 @@ SpyFu uses a tiered subscription with a 30-day money-back guarantee. As of June 
 
 | Criteria | Detail |
 | --- | --- |
-| Free Plan | Free account with limited data; 30-day money-back on paid plans |
+| Free Plan | No free account; 30-day money-back guarantee (verified live July 2026) |
 | G2 Rating | [4.6/5 (512 reviews)](https://www.g2.com/products/spyfu/reviews) |
 
 ---
@@ -438,7 +438,7 @@ Best for: Freelancers and bloggers who want the friendliest keyword-research too
 | --- | --- |
 | Platform | Web app |
 | Free Plan | 10-day free trial (no credit card) plus a limited permanent free plan (verify at mangools.com/plans-and-pricing) |
-| Starting Price | [$19.90/mo](https://mangools.com/plans-and-pricing) (Entry, annual; Entry plan confirmed via mangools.com) |
+| Starting Price | [$18.85/mo](https://mangools.com/plans-and-pricing) (Basic, billed annually; verified live July 2026) |
 | G2 Rating | [4.7/5 (95 reviews)](https://www.g2.com/products/mangools/reviews) |
 
 **Fit Profile**
@@ -449,7 +449,7 @@ It's NOT for agencies or teams needing deep competitive intelligence, enterprise
 
 **Core Strengths**
 
-Mangools is consistently singled out as the easiest keyword tool to learn, and all five tools bundle on every paid tier. Its annual Entry plan at $19.90/mo is a fraction of Moz Pro's cheapest tier. SERPChecker's visual SERP feature analysis is a differentiator at this price that Moz Pro doesn't match.
+Mangools is consistently singled out as the easiest keyword tool to learn, and all five tools bundle on every paid tier. Its annual Basic plan at $18.85/mo is a fraction of Moz Pro's cheapest tier. SERPChecker's visual SERP feature analysis is a differentiator at this price that Moz Pro doesn't match.
 
 - Friendliest interface in this set: lowest learning curve and cleanest UX
 - All five tools (KWFinder, SERPChecker, SERPWatcher, LinkMiner, SiteProfiler) on every paid plan
@@ -482,11 +482,11 @@ Mangools is the most natural pick for a Moz Pro user who primarily needs keyword
 
 **Pricing**
 
-Mangools uses a tiered subscription with an aggressive annual discount (roughly 30% to 40% off). A 10-day free trial with no credit card and a limited permanent free plan are available. Entry plan pricing confirmed from mangools.com; upper-tier monthly prices below are from third-party sources (verify live before purchase).
+Mangools uses a tiered subscription with an aggressive annual discount (roughly 30% to 40% off). A 10-day free trial with no credit card and a limited permanent free plan are available. Basic plan pricing confirmed live from mangools.com (July 2026); upper-tier monthly prices below are from third-party sources (verify live before purchase).
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Entry | $19.90/mo annual (reported ~$29/mo monthly) | All 5 tools, daily lookup limits, 1 user |
+| Basic | $18.85/mo annual (verified live July 2026) | All tools, daily lookup limits, 1 user |
 | Basic | Reported ~$29.90/mo annual | Higher daily limits, more tracked keywords |
 | Premium | Reported ~$44.90/mo annual | Higher limits, more keywords |
 | Agency | Reported ~$89.90/mo annual | Highest limits, multiple users |
@@ -602,7 +602,7 @@ Semrush is the strongest all-round Moz Pro alternative in 2026 for teams that ne
 
 ### Is Semrush better than Moz Pro?
 
-For most use cases, yes. Semrush has a larger keyword database, broader competitive intelligence tools including PPC ad history, and a higher G2 rating. The trade-off is price: Semrush Pro starts at $139.95/mo versus Moz's $49/mo Starter tier. If data depth is the bottleneck, the upgrade is worth it.
+For most use cases, yes. Semrush has a larger keyword database, broader competitive intelligence tools including PPC ad history, and a higher G2 rating. The trade-off is price: Semrush's entry SEO plan starts at $139/mo versus Moz's $49/mo Starter tier. If data depth is the bottleneck, the upgrade is worth it.
 
 ### Is Ahrefs better than Moz Pro?
 
@@ -610,7 +610,7 @@ Ahrefs leads Moz Pro on backlink index size, index freshness, and traffic-estima
 
 ### What is the cheapest Moz Pro alternative?
 
-Mangools is the cheapest with an annual Entry plan at $19.90/mo. Ubersuggest is the cheapest month-to-month at a reported $29/mo Individual (verify live). Among full all-in-one suites, Serpstat at $50/mo Individual is the lowest-cost option with keyword research, rank tracking, audits, and backlinks in one plan.
+Mangools is the cheapest with an annual Basic plan at $18.85/mo. Ubersuggest is the cheapest month-to-month at a reported $29/mo Individual (verify live). Among full all-in-one suites, Serpstat at $50/mo Individual is the lowest-cost option with keyword research, rank tracking, audits, and backlinks in one plan.
 
 ### Does Semrush offer a free trial?
 
@@ -622,7 +622,7 @@ Ahrefs runs one of the largest and most frequently refreshed backlink indexes in
 
 ### Is SE Ranking a good Moz Pro replacement?
 
-For most SMBs and small agencies, yes. SE Ranking offers a full platform at a price below Moz Pro's Standard tier, with the highest G2 satisfaction score in this set (4.8/5 across 1,432 reviews) and a no-credit-card 14-day trial. Its databases are smaller than Semrush's and Ahrefs', but for typical SMB competitive research, the gap is manageable.
+For most SMBs and small agencies, yes. SE Ranking offers a full platform at a price below Moz Pro's Standard tier, with one of the highest G2 satisfaction scores in this set (4.7/5 across 2,396 reviews) and a no-credit-card 14-day trial. Its databases are smaller than Semrush's and Ahrefs', but for typical SMB competitive research, the gap is manageable.
 
 ## Update History
 

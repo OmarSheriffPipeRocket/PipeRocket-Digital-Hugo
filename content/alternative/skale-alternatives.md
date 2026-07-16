@@ -37,14 +37,14 @@ Picking the wrong replacement after leaving Skale doesn't just cost a wasted qua
 
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
-| MADX Digital | B2B SaaS pipeline-SEO with GEO and digital PR | [Custom pricing](https://www.madx.digital) | Yes | [4.9/5 (13 reviews)](https://clutch.co/profile/madx-digital) |
-| PipeRocket Digital | B2B SaaS SEO and PPC tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (14 reviews)](https://clutch.co/profile/piperocket-digital) |
+| MADX Digital | B2B SaaS pipeline-SEO with GEO and digital PR | [Custom pricing](https://www.madx.digital) | Yes | [4.9/5 (7 reviews)](https://clutch.co/profile/madx-digital) |
+| PipeRocket Digital | B2B SaaS SEO and PPC tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Omniscient Digital | SaaS editorial strategy and thought leadership | [Custom pricing](https://beomniscient.com) | Yes | [4.8/5 (6 reviews)](https://clutch.co/profile/omniscient-digital) |
 | Directive Consulting | High-ACV SaaS Customer Generation methodology | [Custom pricing](https://directiveconsulting.com) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
 | Grow and Convert | Conversion-first Pain Point SEO, founder-led | [Custom pricing](https://www.growandconvert.com) | Yes | [4.8/5 (10 reviews)](https://clutch.co/profile/grow-convert) |
 | SimpleTiger | SaaS and AI: SEO and PPC combined | [$5,000/mo](https://www.simpletiger.com) | Yes | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
 | uSERP | SaaS link-building and digital PR | [Custom pricing](https://userp.io) | Yes | [4.9/5 (20 reviews)](https://clutch.co/profile/userp) |
-| Foundation Inc | Enterprise SaaS AI visibility and content distribution | [Custom pricing](https://foundationinc.co) | Yes | [5.0/5 (14 reviews)](https://clutch.co/profile/foundation-marketing) |
+| Foundation Inc | Enterprise SaaS AI visibility and content distribution | [Custom pricing](https://foundationinc.co) | Yes | [5.0/5 (9 reviews)](https://clutch.co/profile/foundation-marketing) |
 | Optimist | $10M-$500M ARR SaaS SEO and AEO, senior-only | [Custom pricing](https://www.yesoptimist.com) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/optimist) |
 
 ## How We Chose These Skale Alternatives?
@@ -132,7 +132,7 @@ A 10-49 person team means MADX can't match the raw execution throughput of large
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Rating | [4.9/5 (13 reviews)](https://clutch.co/profile/madx-digital) |
+| Rating | [4.9/5 (7 reviews)](https://clutch.co/profile/madx-digital) |
 
 ---
 
@@ -212,7 +212,7 @@ Founded 2023 means our published case study library is smaller than Skale's or O
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Rating | [4.7/5 (14 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -655,10 +655,10 @@ Also evaluating Moz? See our [Moz alternatives](/alternative/moz-alternatives/) 
 
 **What Sets Them Apart**
 
-Foundation's distribution-first model extends organic content into community (Reddit, Hacker News, niche Slack channels), earned media, and AI-model citations. For buyers concerned about the long-term shift from Google search toward LLM-referenced answers, Foundation is the most purpose-built option in this roster. Perfect 5.0 Clutch rating from 14 reviews.
+Foundation's distribution-first model extends organic content into community (Reddit, Hacker News, niche Slack channels), earned media, and AI-model citations. For buyers concerned about the long-term shift from Google search toward LLM-referenced answers, Foundation is the most purpose-built option in this roster. Perfect 5.0 Clutch rating from 9 reviews.
 
 - Builds brand citations in ChatGPT, Perplexity, and Google AI Overviews as a named service
-- 5.0/5 on Clutch from 14 verified reviews, the highest rating in this comparison
+- 5.0/5 on Clutch from 9 verified reviews, the highest rating in this comparison
 - "This partnership has been the most rewarding agency collaboration I've had the privilege of leading." ([source](https://clutch.co/profile/foundation-marketing))
 
 **Documented Outcomes**
@@ -710,7 +710,7 @@ $25,000+ minimum makes Foundation inaccessible to growth-stage SaaS buyers unles
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Rating | [5.0/5 (14 reviews)](https://clutch.co/profile/foundation-marketing) |
+| Rating | [5.0/5 (9 reviews)](https://clutch.co/profile/foundation-marketing) |
 
 ---
 

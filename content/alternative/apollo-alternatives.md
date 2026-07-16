@@ -46,7 +46,7 @@ For a side-by-side on features and pricing, read our [Apollo vs ZoomInfo](/compa
 | --- | --- | --- | --- | --- |
 | ZoomInfo | Enterprise database + intent data | Demo only, no free tier | Custom pricing (reported $25K+/yr all-in) | [4.5/5 (9,000+ reviews, G2, reported)](https://www.g2.com/products/zoominfo-sales/reviews) |
 | Cognism | GDPR-compliant EMEA phone data | Demo only, no free tier | Custom pricing (reported ~$22,500/yr) | [4.5/5 (1,337+ reviews, G2, reported)](https://www.g2.com/products/cognism) |
-| Clay | Custom waterfall enrichment | Free plan, 500 actions/mo | [$167/mo](https://www.clay.com/pricing) (Launch, $54/mo annual) | [4.9/5 (312 reviews, G2, reported)](https://www.g2.com/products/clay-com-clay/reviews) |
+| Clay | Custom waterfall enrichment | Free plan, 500 actions/mo | [$167/mo](https://www.clay.com/pricing) (Launch, ~$150/mo annual) | [4.9/5 (312 reviews, G2, reported)](https://www.g2.com/products/clay-com-clay/reviews) |
 | Lusha | SMB browser-extension lookup | Free plan, 40 credits/mo | [$49.90/mo](https://www.lusha.com/pricing/) (Starter) | [4.3/5 (1,400+ reviews, G2, reported)](https://www.g2.com/products/lusha/reviews) |
 | Seamless.AI | Low-cost real-time search | Free plan, 50 credits | [Reported ~$147/mo](https://seamless.ai/pricing) (Pro, negotiated) | [4.4/5 (5,277 reviews, G2, reported)](https://www.g2.com/products/seamless-ai/reviews) |
 | UpLead | Per-seat tool, published accuracy guarantee | 7-day trial, 5 credits | [$99/mo](https://www.uplead.com/pricing/) (Essentials, $74/mo annual) | [4.7/5 (829 reviews, G2, reported)](https://www.g2.com/products/uplead/reviews) |
@@ -198,7 +198,7 @@ Best for: Technical or RevOps-savvy teams that want to build custom, highly-pers
 | --- | --- |
 | Platform | Web app |
 | Free Plan | Free plan, 500 actions/mo |
-| Starting Price | [$167/mo](https://www.clay.com/pricing) (Launch, monthly; $54/mo billed annually) |
+| Starting Price | [$167/mo](https://www.clay.com/pricing) (Launch, monthly; ~$150/mo billed annually at 10% off) |
 | G2 Rating | [4.9/5 (312 reviews, reported)](https://www.g2.com/products/clay-com-clay/reviews) |
 
 **Fit Profile**
@@ -233,8 +233,8 @@ Clay uses a tiered subscription with a free plan and annual discounts. As of Jul
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Free | $0/mo | 500 actions/mo |
-| Launch | $167/mo monthly ($54/mo annual) | 15,000 actions/mo, waterfall enrichment |
-| Growth | $446/mo monthly ($185/mo annual) | Higher action limits, more integrations |
+| Launch | $167/mo monthly (~$150/mo annual) | 15,000 actions/mo, waterfall enrichment |
+| Growth | $446/mo monthly (~$401/mo annual) | Higher action limits, more integrations |
 | Enterprise | Custom pricing | Custom volume, dedicated support |
 
 | Criteria | Detail |
@@ -256,7 +256,7 @@ Best for: Budget-conscious SMB and mid-market sales teams that mainly need a fas
 | --- | --- |
 | Platform | Web app + browser extension |
 | Free Plan | Free plan, 40 credits/mo |
-| Starting Price | [$49.90/mo](https://www.lusha.com/pricing/) (Starter, $449.10/yr annual) |
+| Starting Price | [$49.90/mo](https://www.lusha.com/pricing/) (Starter, ~$32.45/mo billed annually) |
 | G2 Rating | [4.3/5 (1,400+ reviews, reported)](https://www.g2.com/products/lusha/reviews) |
 
 **Fit Profile**
@@ -291,9 +291,9 @@ Lusha uses a tiered, credit-based subscription with annual discounts. As of July
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Free | $0/mo | 40 credits/mo |
-| Starter | $49.90/mo ($449.10/yr annual) | 400 credits/mo |
-| Professional | $69.90/mo ($629.10/yr annual) | 600 credits/mo |
-| Premium | $399.90/mo ($3,599.10/yr annual) | 3,400 credits/mo |
+| Starter | $49.90/mo (~$32.45/mo annual, ~$389/yr) | 400 credits/mo |
+| Professional | $69.90/mo (~$45.45/mo annual, ~$545/yr) | 600 credits/mo |
+| Premium | $399.90/mo (~$259.95/mo annual, ~$3,119/yr) | 3,400 credits/mo |
 
 | Criteria | Detail |
 | --- | --- |
@@ -567,7 +567,7 @@ RocketReach is reported as the cheapest at roughly $27/mo. Lusha's free plan and
 
 ### Does Clay offer a free plan?
 
-Yes. Clay includes a free plan with 500 actions per month, more generous than most tools in this set, before paid tiers start at $167/mo monthly ($54/mo annual).
+Yes. Clay includes a free plan with 500 actions per month, more generous than most tools in this set, before paid tiers start at $167/mo monthly (~$150/mo annual).
 
 ### Which Apollo.io alternative has the best data accuracy?
 

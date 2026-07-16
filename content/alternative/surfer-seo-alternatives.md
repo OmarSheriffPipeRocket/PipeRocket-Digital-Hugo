@@ -42,7 +42,7 @@ Weighing the two directly? See our neutral [Surfer SEO vs Frase](/compare/surfer
 | Clearscope | Stable content grading, unlimited users | Demo on request; no trial | [$129/mo](https://www.clearscope.io/pricing) | [4.9/5 (92 reviews, G2)](https://www.g2.com/products/clearscope/reviews) |
 | Frase.io | Brief + AI writing + GEO tracking | 7-day trial, no credit card | [$49/mo](https://www.frase.io/pricing) ($39/mo annual) | [4.8/5 (~297 reviews, G2)](https://www.g2.com/products/frase-io/reviews) |
 | MarketMuse | Site-wide topic authority and content strategy | Free tier (10 queries/month) | Not publicly listed (demo required) | [4.6/5 (~216 reviews, G2)](https://www.g2.com/products/marketmuse/reviews) |
-| SearchAtlas | All-in-one: content + technical SEO + rank tracking | 7-day trial | [$99/mo](https://searchatlas.com/pricing/) | [4.8/5 (~81 reviews, Capterra)](https://www.capterra.com/p/198498/Searchatlas/) |
+| SearchAtlas | All-in-one: content + technical SEO + rank tracking | 7-day trial | [$99/mo](https://searchatlas.com/pricing/) | [4.8/5 (82 reviews, Capterra)](https://www.capterra.com/p/198498/Searchatlas/) |
 | Content Harmony | Deep research briefs for agencies | $10 trial (first 10 briefs) | [$50/mo](https://www.contentharmony.com/pricing/) (5 workflows) | [4.9/5 (16 reviews, Capterra)](https://www.capterra.com/p/208203/Content-Harmony/) |
 | NeuronWriter | Budget NLP optimization + AI writing | 7-day trial (terms unverified) | [$23/mo](https://neuronwriter.com/pricing-neuron/) | [4.7/5 (~80 reviews, G2)](https://www.g2.com/products/neuronwriter/reviews) |
 | Dashword | Clean content scoring for small teams | Free report, no credit card | [$99/mo](https://www.dashword.com/pricing) (Startup) | Not rated (G2 fetch failed; verify live) |
@@ -312,7 +312,7 @@ Best for: Growth-stage teams and agencies that want content optimization, techni
 | Platform | Web app |
 | Free Plan | 7-day free trial on all plans; free 1-on-1 onboarding session included during trial |
 | Starting Price | [$99/mo](https://searchatlas.com/pricing/) (Starter, 1 user) |
-| Rating | [4.8/5 (~81 reviews, Capterra)](https://www.capterra.com/p/198498/Searchatlas/) |
+| Rating | [4.8/5 (82 reviews, Capterra)](https://www.capterra.com/p/198498/Searchatlas/) |
 
 **Fit Profile**
 
@@ -346,10 +346,10 @@ Some users flag that OTTO-deployed technical improvements revert when the subscr
 
 **Known Gaps**
 
-The OTTO dependency model means technical improvements are contingent on an active subscription. JavaScript-rendered optimizations may be invisible to AI crawlers. G2 data was unavailable at research time (G2 returned 403); the Capterra rating (~81 reviews) is approximate and should be verified live.
+The OTTO dependency model means technical improvements are contingent on an active subscription. JavaScript-rendered optimizations may be invisible to AI crawlers. G2 data was unavailable at research time (G2 returned 403); the Capterra rating (82 reviews) was verified live in July 2026.
 
 - OTTO improvements revert on subscription lapse (technical improvements are rented, not owned)
-- G2 rating unavailable at research time; Capterra count (~81 reviews) is approximate
+- G2 rating unavailable at research time; Capterra rating verified (82 reviews)
 
 **Our Read**
 
@@ -369,7 +369,7 @@ SearchAtlas uses tiered subscription pricing. A 7-day free trial is available on
 | Criteria | Detail |
 | --- | --- |
 | Free Plan | 7-day free trial on all plans; free onboarding session included |
-| Rating | [4.8/5 (~81 reviews, Capterra; approximate)](https://www.capterra.com/p/198498/Searchatlas/) |
+| Rating | [4.8/5 (82 reviews, Capterra)](https://www.capterra.com/p/198498/Searchatlas/) |
 
 ---
 

@@ -109,7 +109,7 @@ backgrounds:
         - { label: "Platform",        value: "Web app + Chrome extension" }
         - { label: "Pricing model",   value: "Per-user tiered; free plan available" }
         - { label: "Starting price",  value: "$0 free; paid from $49/user/mo (annual)" }
-        - { label: "Public rating",   value: "4.7/5 G2 (~9,300+ reviews); 4.5/5 Capterra (~381 to 393 reviews)" }
+        - { label: "Public rating",   value: "4.7/5 G2 (~9,300+ reviews); 4.5/5 Capterra (~396 reviews, as of July 2026)" }
 
 services:
   heading: "Capability comparison"
@@ -260,7 +260,7 @@ Both tools handle B2B data competently, but they draw their limits in different 
 |---|---|---|
 | G2 rating | 4.4 / 5 | 4.7 / 5 |
 | G2 reviews | ~628 | ~9,300+ |
-| Capterra | Listed under Clearbit / Breeze (verify count live) | 4.5 / 5 (~381 to 393 reviews) |
+| Capterra | Listed under Clearbit / Breeze (verify count live) | 4.5 / 5 (~396 reviews, as of July 2026) |
 | Status | HubSpot Breeze Intelligence (no standalone product since 2024) | Independent all-in-one platform |
 | Notable signal | Firmographic enrichment + visitor ID inside HubSpot | Order-of-magnitude larger review base; broad self-serve adoption |
 

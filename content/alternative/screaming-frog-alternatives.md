@@ -151,7 +151,7 @@ A G2 reviewer notes: "We use it regularly for rank tracking, competitor analysis
 
 - 3,434 G2 reviews: the largest review base of any tool in this set, offering the most statistical confidence.
 
-**Complain:** "Monthly crawl caps reset, not unlimited"
+**Complain:** "Monthly crawl caps reset each cycle"
 The Pro plan's 100,000 pages/month crawl limit resets monthly rather than running an unlimited single crawl like Screaming Frog allows. Large sites can deplete the crawl budget before finishing a full audit.
 
 - Significantly higher cost than Screaming Frog ($279/yr) if site auditing is the only use case; the value equation only holds for full-suite users.

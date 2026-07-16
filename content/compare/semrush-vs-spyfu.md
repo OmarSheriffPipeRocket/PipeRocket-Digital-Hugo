@@ -68,12 +68,14 @@ backgrounds:
   heading: "Vendor profile"
   companies:
     - name: "Semrush"
-      meta: "All-in-one SEO and visibility platform · publicly traded NYSE: SEMR · Boston, MA"
+      meta: "All-in-one SEO and visibility platform · Adobe subsidiary (acquired April 2026; formerly NYSE: SEMR) · Boston, MA"
       body: >-
         Semrush was founded in 2008 as SEOquake Tools by Oleg Shchegolev and
         Dmitrii Melnikov, launched publicly as SEMrush, and rebranded to Semrush
         in 2021. The company went public on the NYSE (ticker: SEMR) in March
-        2021 and is headquartered in Boston, Massachusetts, with offices in
+        2021 and, on 28 April 2026, was acquired by Adobe in a ~$1.9B all-cash
+        deal, becoming a wholly owned Adobe subsidiary (SEMR delisted from the
+        NYSE). It is headquartered in Boston, Massachusetts, with offices in
         Barcelona, Berlin, Belgrade, Prague, Warsaw, Amsterdam, Dallas, and
         others. Bill Wagner became CEO in March 2025; Oleg Shchegolev moved to
         CTO. The platform covers keyword research, technical site audit, backlink
@@ -82,7 +84,7 @@ backgrounds:
       facts:
         - { label: "Founded",        value: "2008" }
         - { label: "HQ",             value: "Boston, Massachusetts, USA" }
-        - { label: "Vendor",         value: "Semrush Holdings, Inc. (NYSE: SEMR)" }
+        - { label: "Vendor",         value: "Semrush Holdings, Inc. (Adobe subsidiary since April 2026; formerly NYSE: SEMR)" }
         - { label: "CEO",            value: "Bill Wagner (since March 2025)" }
         - { label: "Pricing model",  value: "Tiered subscription; annual and monthly; add-ons priced separately" }
         - { label: "Starting price", value: "~$117.33/mo (Pro, billed yearly)" }
@@ -246,7 +248,7 @@ Both tools cover the keyword research and competitor gap analysis workflow. The 
 | **Entry price** | ~$117.33/mo (Pro, annual billing) | ~$29/mo (Basic, annual billing), roughly 4x cheaper at entry |
 | **Free trial / entry commitment** | 7-day trial; credit card required | No formal trial; 30-day money-back guarantee; cancel anytime |
 | **AI visibility tracking** | Available as a dedicated add-on ($99/mo per domain) covering AI Overviews, ChatGPT, and Gemini | Not available as of June 2026 (verify at spyfu.com) |
-| **Vendor maturity** | NYSE-listed, 1,000+ employees, founded 2008 | Bootstrapped, estimated 21-person team, founded 2006 |
+| **Vendor maturity** | Adobe subsidiary (acquired April 2026), ~1,600 employees, founded 2008 | Bootstrapped, estimated 21-person team, founded 2006 |
 
 ## Ratings & track record
 
@@ -255,7 +257,7 @@ Both tools cover the keyword research and competitor gap analysis workflow. The 
 | G2 rating | 4.5 / 5 | 4.6 / 5 |
 | G2 reviews | 3,434 | 518 |
 | Founded | 2008 | 2006 |
-| Ownership | Public (NYSE: SEMR) | Private, bootstrapped |
+| Ownership | Adobe subsidiary (acquired April 2026; formerly NYSE: SEMR) | Private, bootstrapped |
 | Notable signal | Largest review pool in category; G2 Leader in 6 categories (Spring 2026) | Higher rating of the two; 20-year PPC history differentiator |
 
 SpyFu edges Semrush on raw G2 rating (4.6 versus 4.5), but Semrush's 3,434 reviews represent roughly 6.6x the review depth. A one-decimal difference on a much smaller sample carries less statistical weight. Semrush also swept G2's Spring 2026 reports with top rankings in six categories, which reflects the breadth of its platform coverage. The more useful question is not which tool scores higher, but whether the broader Semrush feature set justifies its higher price for your specific workflow.

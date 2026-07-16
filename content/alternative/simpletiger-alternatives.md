@@ -38,7 +38,7 @@ Picking the wrong agency after leaving SimpleTiger typically costs a quarter of 
 | Agency | Best For | Starting Price | Free Consultation | Rating |
 | --- | --- | --- | --- | --- |
 | Directive Consulting | Full-stack B2B SaaS performance marketing | [~$10,000/mo (reported)](https://clutch.co/profile/directive) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive) |
-| PipeRocket Digital | B2B SaaS SEO and paid in one fixed retainer | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (14 reviews)](https://clutch.co/profile/piperocket-digital) |
+| PipeRocket Digital | B2B SaaS SEO and paid in one fixed retainer | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 | Omniscient Digital | Authority-led organic growth for SaaS | [$10,000/mo](https://beomniscient.com/) | Yes | [4.8/5 (6 reviews)](https://clutch.co/profile/omniscient-digital) |
 | Skale | MRR-tied SaaS SEO with EU delivery | [~$8,000/mo (reported)](https://skale.so/) | Yes | [4.9/5 (16 reviews)](https://clutch.co/profile/skale-0) |
 | Grow and Convert | BOFU Pain Point SEO with fixed package pricing | [$10,000/mo](https://www.growandconvert.com/) | Yes | [4.8/5 (10 reviews)](https://clutch.co/profile/grow-convert) |
@@ -187,7 +187,7 @@ HyperStart doubled SQO volume from 4 to 11 and cut cost per lead 73%. HyperVerge
 
 **Watch Out For**
 
-We were founded in 2023, so our track record is shorter than most agencies on this list. With 14 Clutch reviews, the review pool is thinner than SimpleTiger's 30. Teams at early seed stage who can't yet share CRM data for attribution won't get the full value of the pipeline reporting layer.
+We were founded in 2023, so our track record is shorter than most agencies on this list. With 16 Clutch reviews, the review pool is thinner than SimpleTiger's 30. Teams at early seed stage who can't yet share CRM data for attribution won't get the full value of the pipeline reporting layer.
 
 - Custom pricing on full-funnel retainers can be slower to compare for procurement teams used to published rate cards
 - B2B SaaS only means we're not a fit for any non-SaaS buyer
@@ -216,14 +216,14 @@ Clutch reviewers consistently note we're the first agency they've worked with th
 
 **Complain:** Newer agency with a shorter review trail
 
-Some early-stage teams flag our 2023 founding and 14-review Clutch profile as thinner social proof than longer-established agencies on this list ([source](https://clutch.co/profile/piperocket-digital)).
+Some early-stage teams flag our 2023 founding and 16-review Clutch profile as thinner social proof than longer-established agencies on this list ([source](https://clutch.co/profile/piperocket-digital)).
 
 - B2B SaaS only means we're not a fit for the mixed-portfolio buyer who needs a generalist alongside SimpleTiger
 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes, includes pipeline audit and ICP analysis |
-| Rating | [4.7/5 (14 reviews)](https://clutch.co/profile/piperocket-digital) |
+| Rating | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
 
 ---
 
@@ -349,7 +349,7 @@ SaaS teams that need paid media in the retainer, or those with seed-stage budget
 
 SimpleTiger's revenue-percentage pricing creates ongoing finance-approval friction. Skale's reporting framework uses MRR impact as the primary metric, which gives SaaS CFOs a cleaner story than traffic or rankings. The European delivery hub is also a differentiator SimpleTiger can't match for EU-headquartered SaaS buyers.
 
-- 4.9/5 on Clutch from 16 reviews, higher rating than SimpleTiger's 4.9 with comparable review depth
+- 4.9/5 on Clutch from 16 reviews, matching SimpleTiger's 4.9 rating with comparable review depth
 - Conversion optimization included in retainers, not billed as a separate CRO engagement
 - Reporting maps every SEO activity to qualified signups, SQLs, and MRR rather than sessions or impression share
 

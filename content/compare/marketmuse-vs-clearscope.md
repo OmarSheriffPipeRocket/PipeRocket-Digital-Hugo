@@ -82,8 +82,8 @@ backgrounds:
         and the standalone product roadmap is in transition.
       facts:
         - { label: "Vendor",          value: "MarketMuse (marketmuse.com)" }
-        - { label: "Founded",         value: "c. 2013 to 2015 (conflicting sources; verify on About page)" }
-        - { label: "HQ",              value: "Atlanta, GA (reported; verify on live About page)" }
+        - { label: "Founded",         value: "2013 (confirmed via Siteimprove acquisition press release)" }
+        - { label: "HQ",              value: "Boston, MA (reported)" }
         - { label: "Parent company",  value: "Siteimprove (acquired October 2024)" }
         - { label: "Platform",        value: "Web app (no Google Docs or WordPress integration)" }
         - { label: "Pricing model",   value: "Tiered subscription; per-user, per-query limits" }
@@ -260,8 +260,8 @@ Both tools improve content quality against SERP benchmarks, but they do it at di
 |---|---|---|
 | G2 rating (reported) | 4.6 / 5 | 4.9 / 5 |
 | G2 reviews (reported) | 216 | 92 |
-| Capterra rating | Available (primary rating not extracted) | 4.9 / 5 (verified, 60 reviews) |
-| Founded / Vendor | c. 2013 to 2015, marketmuse.com | 2016 (reported), clearscope.io |
+| Capterra rating | 4.6 / 5 (verified, 28 reviews) | 4.9 / 5 (verified, 60 reviews) |
+| Founded / Vendor | 2013, marketmuse.com | 2016 (reported), clearscope.io |
 | Ownership | Siteimprove (acquired October 2024) | Independent |
 | Notable signal | Site-wide topic modeling; deep briefs; G2 Leader in content strategy | Highest G2 score of the two; unlimited seats; GEO tracking |
 

@@ -42,7 +42,7 @@ Weighing the two directly? See our neutral [Ahrefs vs Semrush](/compare/ahrefs-v
 | Semrush | All-in-one SEO, PPC, and AI-visibility tracking | Not confirmed in this pass | [$139.95/mo](https://www.semrush.com/) (Pro) | [4.5/5 (3,434+ reviews, G2)](https://www.g2.com/products/semrush/reviews) |
 | SE Ranking | Best-value platform with white-label reporting | 14-day free trial | [$103.20-$129/mo](https://seranking.com/) (Core; annual vs monthly) | [4.7/5 (~2,396 reviews, G2)](https://www.g2.com/products/se-ranking/reviews) |
 | Moz Pro | Beginner-friendly UI + Domain Authority | Not confirmed in this pass | [$49/mo](https://moz.com/) (Starter) | [4.0-4.5/5, G2/Capterra range](https://www.g2.com/products/moz-pro/reviews) |
-| SpyFu | Combined SEO + PPC competitor intelligence | Not confirmed in this pass | [$39/mo](https://www.spyfu.com/) (Basic) | [4.6/5 (518 reviews, G2)](https://www.g2.com/products/spyfu/reviews) |
+| SpyFu | Combined SEO + PPC competitor intelligence | Not confirmed in this pass | [$39/mo](https://www.spyfu.com/) (Basic) | [4.6/5 (512 reviews, G2)](https://www.g2.com/products/spyfu/reviews) |
 | Mangools | Affordable keyword research for solo founders | Free account available | [$29.90/mo](https://mangools.com/) (annual) | [4.7/5 (95 reviews, G2)](https://www.g2.com/products/mangools/reviews) |
 | Serpstat | Feature parity without a credit-based model | Not confirmed in this pass | [$69/mo](https://serpstat.com/) (Individual) | [4.6/5 (464+ reviews, G2)](https://www.g2.com/products/serpstat/reviews) |
 | Screaming Frog | Crawling and technical-audit depth at low cost | Free version (500 URL cap) | [~$250/yr](https://www.screamingfrog.co.uk/seo-spider/pricing/) (£199/yr license) | Not rated |
@@ -263,7 +263,7 @@ Best for: Teams that need combined SEO and PPC competitor intelligence without A
 | Platform | Web app |
 | Free Trial | Not confirmed in this research pass; verify at spyfu.com |
 | Starting Price | [$39/mo](https://www.spyfu.com/) (Basic) |
-| G2 Rating | [4.6/5 (518 reviews)](https://www.g2.com/products/spyfu/reviews) |
+| G2 Rating | [4.6/5 (512 reviews)](https://www.g2.com/products/spyfu/reviews) |
 
 **Fit Profile**
 
@@ -307,7 +307,7 @@ SpyFu uses tiered subscription pricing. As of July 2026, the Basic and Team/Agen
 | Criteria | Detail |
 | --- | --- |
 | Free Trial | Not confirmed in this pass; verify live |
-| Rating | [4.6/5 (518 reviews)](https://www.g2.com/products/spyfu/reviews) on G2 |
+| Rating | [4.6/5 (512 reviews)](https://www.g2.com/products/spyfu/reviews) on G2 |
 
 ---
 
@@ -361,7 +361,8 @@ Mangools uses tiered subscription pricing with an annual discount. As of July 20
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Free | $0/mo | Limited daily lookups |
+| Free | $0/mo | Free account, limited daily lookups |
+| Basic | $29.90/mo annual | Entry paid tier, core keyword research |
 | Premium | $44.90/mo annual | Higher limits, more tracked keywords |
 | Agency | $89.90/mo annual | 1,500 tracked keywords, 5 seats |
 

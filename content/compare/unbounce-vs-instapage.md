@@ -148,14 +148,15 @@ pricing:
     Unbounce's entry point is significantly lower, but full CRO capability
     (Smart Traffic) requires the $249/mo Optimize plan. Instapage's full
     feature set (A/B testing, heatmaps, personalization) is gated at $199/mo.
-    Annual discount terms are available from both vendors but are not fully
-    published on Instapage's self-serve pricing page. Verify current terms
-    live before purchase.
+    Both vendors publish annual pricing: Unbounce lists per-tier annual rates,
+    and Instapage's self-serve annual plans are $79/mo (Create) and $159/mo
+    (Optimize), a 20% saving over monthly. Verify current terms live before
+    purchase.
   table:
     - { label: "Starting price",          a: "$29/mo (Starter, monthly)",       b: "$99/mo (Create, monthly)" }
     - { label: "Full-capability tier",    a: "$249/mo (Optimize, Smart Traffic)", b: "$199/mo (Optimize; A/B, AdMap, personalization). Heatmaps on Convert" }
     - { label: "Typical operating range", a: "$29 to $249/mo self-serve; Concierge custom", b: "$99 to $199/mo self-serve; Convert custom" }
-    - { label: "Annual pricing",          a: "Published (Starter $22/mo, Build $74/mo, Experiment $112/mo, Optimize $187/mo annually)", b: "Annual discount available; exact monthly-equivalent not published for self-serve tiers (verify live)" }
+    - { label: "Annual pricing",          a: "Published (Starter $22/mo, Build $74/mo, Experiment $112/mo, Optimize $187/mo annually)", b: "Published (Create $79/mo, Optimize $159/mo annually; 20% off monthly)" }
     - { label: "Free trial",              a: "14 days, no credit card required", b: "14 days, credit card required; Convert plan requires demo" }
     - { label: "Pricing model",           a: "Visitor-capped tiers; overage penalty reported (30% annual sub/mo, per user reviews)", b: "Visitor-limited tiers; no overage penalty model reported; Convert requires annual contract" }
 
@@ -182,8 +183,8 @@ faqs:
       Instapage's $99/mo (Create), as of June 2026. Unbounce's full-feature
       Optimize plan is $249/mo, while Instapage's equivalent Optimize plan is
       $199/mo, making Instapage closer to parity at the capable tier.
-      Annual pricing lowers both; Instapage does not publish its annual
-      monthly-equivalent for self-serve plans, so verify live.
+      Annual pricing lowers both: Instapage's annual self-serve plans are
+      $79/mo (Create) and $159/mo (Optimize), a 20% saving; verify live.
   - q: "Does Instapage have popups and sticky bars like Unbounce?"
     a: >-
       No. Instapage does not offer popups or sticky bars. Those features are
@@ -250,7 +251,7 @@ Both platforms handle the core job of no-code landing page creation and conversi
 | **Heatmaps** | No native tool; requires Hotjar or similar | Built in on Convert (enterprise) plan |
 | **Personalization** | DTR (keyword-level) only | UTM, geo, device-based segments on Optimize |
 | **Team workflow** | Seat-count only; no native commenting or approvals | Real-time commenting, approvals, version history on all plans |
-| **Pricing transparency** | Annual pricing published across all tiers | Annual discount available but monthly-equivalent not published for self-serve tiers |
+| **Pricing transparency** | Annual pricing published across all tiers | Annual pricing published for self-serve tiers ($79/mo Create, $159/mo Optimize) |
 | **Overage risk** | Overage penalty reported by users (30% of annual sub/mo); verify current TOS | No overage penalty model reported; Convert requires annual contract |
 
 ## Ratings & track record

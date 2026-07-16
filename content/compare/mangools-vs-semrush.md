@@ -38,8 +38,8 @@ short_answer:
     platform with a 26.8-billion keyword database, a 43-billion-URL backlink
     index, technical site audit, PPC intelligence, content marketing tools,
     and local SEO. The honest split is budget vs breadth: Mangools starts at
-    $49/mo (monthly billing) and does organic SEO well; Semrush starts at
-    $139.95/mo and covers organic SEO, paid search, and competitive
+    $49/mo (monthly billing, verify live) and does organic SEO well; Semrush starts at
+    $139/mo and covers organic SEO, paid search, and competitive
     intelligence in one platform.
   callouts:
     - label: "Choose Mangools"
@@ -49,20 +49,20 @@ short_answer:
         keyword research and rank tracking**, a clean minimal UI matters more
         than breadth, and you have no paid-search workflow, Mangools is the
         sharper pick. The **10-day free trial requires no credit card**, and
-        the Basic plan starts at **$49/mo** (or $31.90/mo billed annually).
+        the Basic plan starts at **$18.85/mo billed annually** (verified live July 2026; monthly rate ~$49, verify live).
     - label: "Choose Semrush"
       title: "Full-platform SEO and PPC intelligence for growing teams"
       body: >-
         If the team runs **SEO and PPC** together, needs deep backlink
         analysis (43B URL index), technical site audits (140+ checks), or
-        content marketing workflows, Semrush justifies its **$139.95/mo
+        content marketing workflows, Semrush justifies its **$139/mo
         entry price** for the tool consolidation it delivers. Agencies and
         Series A+ SaaS teams tend to find the breadth worth the cost.
 
 at_a_glance:
   - { label: "Founded / Vendor",   a: "Mangools (mangools.com)-2014",     b: "Semrush (semrush.com)-2008" }
   - { label: "Category",           a: "Five-tool organic SEO suite",         b: "All-in-one digital marketing platform" }
-  - { label: "Starting price",     a: "~$49/mo (monthly) / $31.90/mo (annual)", b: "~$139.95/mo (monthly) / $117.33/mo (annual)" }
+  - { label: "Starting price",     a: "$18.85/mo (annual, verified live July 2026); ~$49/mo monthly (verify live)", b: "~$139/mo (monthly) / $117.33/mo (annual)" }
   - { label: "Public rating",      a: "4.7 G2 (95 reviews)",                 b: "4.5 G2 (~3,434 reviews)" }
   - { label: "Best for",           a: "Solopreneurs, freelancers, small SEO teams", b: "Agencies, in-house teams running SEO + PPC" }
 
@@ -90,7 +90,7 @@ backgrounds:
         - { label: "Founder / CEO",   value: "Peter Hrbacik" }
         - { label: "Team size",       value: "Under 50 employees (reported; not disclosed officially)" }
         - { label: "Pricing model",   value: "Tiered subscription; monthly or annual billing" }
-        - { label: "Starting price",  value: "$49/mo (monthly) or $31.90/mo (annual billing)" }
+        - { label: "Starting price",  value: "$18.85/mo billed annually (verified live July 2026); ~$49/mo monthly (verify live)" }
         - { label: "Public rating",   value: "4.7/5 G2 (95 reviews); 4.8/5 Capterra (91 reviews)" }
     - name: "Semrush"
       meta: "Publicly traded NYSE: SEMR · Founded 2008 · Boston, MA, USA"
@@ -101,7 +101,7 @@ backgrounds:
         relations at time of publish). The platform has grown into a
         full digital marketing suite covering keyword research, backlink
         analysis, technical site audit, position tracking, competitive
-        intelligence, content marketing (Guru+ only), PPC research, local SEO
+        intelligence, content marketing (higher tiers only), PPC research, local SEO
         (add-on), and AI search visibility monitoring through its Semrush One
         product launched in October 2025. Semrush cites 10 million users and
         names Tesla, Samsung, Amazon, Forbes, IBM, and Quora as enterprise
@@ -114,7 +114,7 @@ backgrounds:
         - { label: "Founders",        value: "Oleg Shchegolev (CEO), Dmitry Melnikov (President)" }
         - { label: "Team size",       value: "1,000+ employees (reported; verify on investor relations)" }
         - { label: "Pricing model",   value: "Tiered subscription; monthly or annual billing; add-ons extra" }
-        - { label: "Starting price",  value: "$139.95/mo (monthly) or $117.33/mo (annual billing)" }
+        - { label: "Starting price",  value: "$139/mo (monthly) or $117.33/mo (annual billing)" }
         - { label: "Public rating",   value: "4.5/5 G2 (~3,434 reviews; verify count live)" }
 
 services:
@@ -132,7 +132,7 @@ services:
     - { label: "Backlink analysis",                 a: "Partial (LinkMiner; database size not disclosed)", b: "✓ (43B URL index, toxic link detection)" }
     - { label: "Technical site audit",              a: "✕ (domain metrics only; no deep crawler)", b: "✓ (140+ checks incl. Core Web Vitals)" }
     - { label: "Competitor / gap analysis",         a: "Partial (SERP-level keyword gap only)", b: "✓ (domain vs domain, traffic analytics, market explorer)" }
-    - { label: "Content marketing toolkit",         a: "✕",                                b: "Partial (Guru+ only)" }
+    - { label: "Content marketing toolkit",         a: "✕",                                b: "Partial (higher tiers only)" }
     - { label: "PPC / paid search data",            a: "✕",                                b: "✓ (ad copy research, CPC data, Shopping)" }
     - { label: "Local SEO",                         a: "✕",                                b: "Partial (add-on, extra cost)" }
     - { label: "API access",                        a: "✕ (not listed; unverified)",        b: "Partial (Business plan only)" }
@@ -148,14 +148,18 @@ pricing:
     sources as of June 2026. Mangools annual-billing rates carry a small
     discrepancy between sources (Capterra and Masterblogging differ by a few
     dollars per month); verify the live figure on mangools.com/plans-and-pricing
-    before purchase. Semrush add-ons (Local SEO, social tools, agency kit)
-    raise the effective cost above listed plan prices.
+    before purchase. Semrush has restructured its plans (now SEO, Starter,
+    Pro+, and Advanced tiers rather than the older Pro/Guru/Business names);
+    the entry SEO plan is $139/mo and the top Advanced tier is $549/mo as of
+    July 2026, so verify the current plan lineup on semrush.com/pricing.
+    Semrush add-ons (Local SEO, social tools, agency kit) raise the effective
+    cost above listed plan prices.
   table:
-    - { label: "Starting price (monthly billing)", a: "$49/mo (Basic)",                   b: "$139.95/mo (Pro)" }
-    - { label: "Starting price (annual billing)",  a: "$31.90/mo (Basic)",                b: "$117.33/mo (Pro)" }
-    - { label: "Typical operating range",          a: "$49 to $129/mo (monthly) / $31.90 to $83.90/mo (annual)", b: "$139.95 to $499.95/mo (monthly) / $117.33 to $416.66/mo (annual)" }
-    - { label: "Full-capability tier",             a: "Agency, $129/mo monthly / $83.90/mo annual", b: "Business, $499.95/mo monthly / $416.66/mo annual" }
-    - { label: "Free trial",                       a: "10 days, full access, no card required", b: "7 days (Pro or Guru), card required; auto-charges after trial" }
+    - { label: "Starting price (monthly billing)", a: "~$49/mo (Basic, verify live)",                   b: "$139/mo (SEO plan)" }
+    - { label: "Starting price (annual billing)",  a: "$18.85/mo (Basic, live July 2026)",                b: "$117.33/mo (SEO plan)" }
+    - { label: "Typical operating range",          a: "~$49 to $129/mo monthly (verify live) / $18.85 to $48.85/mo annual (live July 2026)", b: "$139 to $549/mo (monthly) / $117.33 to $455.67/mo (annual)" }
+    - { label: "Full-capability tier",             a: "Agency, ~$129/mo monthly (verify live) / $48.85/mo annual (live July 2026)", b: "Advanced, $549/mo monthly / $455.67/mo annual" }
+    - { label: "Free trial",                       a: "10 days, full access, no card required", b: "7 days (paid plan), card required; auto-charges after trial" }
     - { label: "Permanent free tier",              a: "Yes (5 lookups/day, 10 tracked keywords, 500 backlink rows)", b: "Yes (10 searches/day, 5 projects, 10 tracked keywords, 100-page audit)" }
     - { label: "Setup fee",                        a: "None",                             b: "None" }
     - { label: "Refund policy",                    a: "48-hour money-back guarantee",     b: "7-day refund on first-time annual purchase only" }
@@ -169,7 +173,7 @@ faqs:
       solopreneurs and small teams, starting at $49/mo. Semrush is a
       full-platform digital marketing suite that adds PPC intelligence, a
       43-billion-URL backlink index, 140+ technical audit checks, content
-      marketing tools, and competitive intelligence, starting at $139.95/mo.
+      marketing tools, and competitive intelligence, starting at $139/mo.
       Mangools does organic SEO cleanly at lower cost; Semrush covers SEO,
       PPC, and content in one platform.
   - q: "Is Mangools good enough to replace Semrush?"
@@ -183,8 +187,8 @@ faqs:
   - q: "Which is cheaper, Mangools or Semrush?"
     a: >-
       Mangools is substantially cheaper. Monthly billing starts at $49/mo
-      (Mangools Basic) versus $139.95/mo (Semrush Pro) as of June 2026. On
-      annual billing the gap is $31.90/mo versus $117.33/mo. Mangools also
+      (Mangools Basic, $18.85/mo annual) versus $139/mo (Semrush entry SEO plan) as of June 2026. On
+      annual billing the gap is $18.85/mo versus $117.33/mo. Mangools also
       offers a 10-day free trial with no credit card, while Semrush's 7-day
       trial requires a card and auto-charges after expiry. Verify current
       pricing on each vendor's pricing page before purchase.
@@ -202,7 +206,7 @@ faqs:
       backlink analysis at scale, Semrush has the deeper dataset.
   - q: "Does Semrush have a free trial without a credit card?"
     a: >-
-      No. Semrush's 7-day free trial on Pro or Guru plans requires a credit
+      No. Semrush's 7-day free trial on a paid plan requires a credit
       card and auto-charges after the trial ends unless cancelled. Mangools'
       10-day free trial requires no credit card. Semrush does offer a
       permanent free account (very limited at 10 searches/day), and Mangools
@@ -255,14 +259,14 @@ Both tools share keyword research and rank tracking as their core, but that is w
 
 | Axis | Mangools | Semrush |
 |---|---|---|
-| **Price** | $49/mo monthly / $31.90/mo annual; substantially cheaper at every tier | $139.95/mo monthly / $117.33/mo annual; roughly 3x the Mangools entry price |
+| **Price** | ~$49/mo monthly / $18.85/mo annual; substantially cheaper at every tier | $139/mo monthly / $117.33/mo annual; roughly 3x the Mangools entry price |
 | **Keyword database** | 2.5 billion keywords (KWFinder) | 26.8 billion keywords (Keyword Magic Tool) |
 | **Backlink depth** | LinkMiner; database size not disclosed, widely reported as smaller | 43-billion-URL index; deepest in class; includes toxic link detection |
 | **Technical audit** | No deep crawler; SiteProfiler covers domain metrics only | 140+ checks including Core Web Vitals, crawlability, HTTPS, and redirect chains |
 | **PPC intelligence** | None; purely organic | Ad copy research, CPC data, Google Shopping data |
-| **Content marketing** | None | Topic Research, SEO Writing Assistant, ContentShake AI (Guru+ only) |
+| **Content marketing** | None | Topic Research, SEO Writing Assistant, ContentShake AI (higher tiers only) |
 | **UI and learning curve** | Rated 9.7/10 ease of use on G2; consistently praised as beginner-friendly | Steeper learning curve; described as overwhelming for beginners in multiple G2 reviews |
-| **Free trial** | 10 days, full access, no credit card required | 7 days (Pro or Guru), credit card required, auto-charges after trial |
+| **Free trial** | 10 days, full access, no credit card required | 7 days (paid plan), credit card required, auto-charges after trial |
 | **AI search visibility** | AI Search Watcher add-on (separate pricing) | Semrush One; launched October 2025; integrated into main platform |
 | **Review pool** | 4.7/5 on 95 G2 reviews; higher average rating of the two | 4.5/5 on ~3,434 G2 reviews; far larger sample size |
 

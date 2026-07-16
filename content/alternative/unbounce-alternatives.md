@@ -44,7 +44,7 @@ Weighing the two directly? See our neutral [Unbounce vs Instapage](/compare/unbo
 | Tool | Best For | Free Plan | Starting Price | Rating |
 | --- | --- | --- | --- | --- |
 | Instapage | Post-click personalization and A/B testing at scale | 14-day free trial (credit card required) | [$99/mo](https://instapage.com/plans) (Create) | [4.3/5 (~521 reviews, G2)](https://www.g2.com/products/instapage/reviews) |
-| Swipe Pages | AMP mobile landing pages for paid ads | Free trial (duration unverified from official site) | [$39/mo](https://www.g2.com/products/swipe-pages/pricing) (Starter) | [4.8/5 (~173 reviews, G2)](https://www.g2.com/products/swipe-pages/reviews) |
+| Swipe Pages | AMP mobile landing pages for paid ads | 14-day free trial (no credit card) | [$29/mo](https://swipepages.com/pricing/) (Startup) | [4.8/5 (~173 reviews, G2)](https://www.g2.com/products/swipe-pages/reviews) |
 | Leadpages | Unlimited pages with no traffic caps | 7-day free trial | [$49/mo promo](https://leadpages.com/pricing) ($99/mo regular, Grow) | [4.3/5 (231 reviews, G2)](https://www.g2.com/products/leadpages/reviews) |
 | Webflow | Pixel-perfect design freedom with CMS | Free Starter tier | [$15/mo](https://webflow.com/pricing) (Basic, annual) | [4.4/5 (975 reviews, G2)](https://www.g2.com/products/webflow/reviews) |
 | Landingi | High-volume multilingual agency pages | 14-day free trial | [$24/mo](https://landingi.com/pricing) (Build, annual) | [4.5/5 (~277 reviews, G2)](https://www.g2.com/products/landingi/reviews) |
@@ -146,13 +146,13 @@ Best for: Performance marketers running paid social or Google Ads who need fast-
 | | |
 | --- | --- |
 | Platform | Web app |
-| Free Plan | Free trial available (duration unverified from official site; verify at swipepages.com before purchase) |
-| Starting Price | [$39/mo](https://www.g2.com/products/swipe-pages/pricing) (Starter) |
+| Free Plan | 14-day free trial (no credit card required) |
+| Starting Price | [$29/mo](https://swipepages.com/pricing/) (Startup) |
 | G2 Rating | [4.8/5 (~173 reviews)](https://www.g2.com/products/swipe-pages/reviews) (rating and count from search aggregation; verify live) |
 
 **Fit Profile**
 
-It's for performance marketers running paid social or Google Ads who need fast mobile pages without paying Unbounce or Instapage prices. The Agency tier's sub-account structure supports client management at $199/mo, well below comparable agency-level plans elsewhere.
+It's for performance marketers running paid social or Google Ads who need fast mobile pages without paying Unbounce or Instapage prices. The Agency tier's sub-account structure supports client management at $149/mo, well below comparable agency-level plans elsewhere.
 
 It's NOT for teams that need an extensive template library: Swipe Pages' template selection is smaller than Unbounce's. No native CRM means all lead routing relies on Zapier integrations, adding a dependency.
 
@@ -162,7 +162,7 @@ Native AMP support is the headline feature: mobile landing pages load near-insta
 
 - Native AMP landing pages: fastest mobile load times in this set, a direct conversion advantage
 - Highest G2 rating (4.8/5) in this set, with reviewers noting Unbounce/Instapage feature parity at a lower price
-- Sub-account structure at Agency tier ($199/mo) supports clean client management
+- Sub-account structure at Agency tier ($149/mo) supports clean client management
 
 **What Users Say**
 
@@ -188,17 +188,17 @@ Swipe Pages is the clearest cost-reduction move for a paid-ads team that's leavi
 
 **Pricing**
 
-Swipe Pages uses a tiered subscription. As of June 2026, pricing is verified from G2's pricing data for Swipe Pages; verify at swipepages.com/pricing before purchase.
+Swipe Pages uses a tiered subscription with up to 25% off on annual billing. As of July 2026, pricing is verified from swipepages.com/pricing; verify before purchase.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Starter | $39/mo | Core page builder, AMP pages |
-| Marketer | $89/mo | Higher limits, additional features |
-| Agency | $199/mo | Sub-accounts, client management |
+| Startup | $29/mo | Core page builder, AMP pages |
+| Marketer | $69/mo | Higher limits, additional features |
+| Agency | $149/mo | Sub-accounts, client management |
 
 | Criteria | Detail |
 | --- | --- |
-| Free Plan | Free trial (duration unverified; verify live before purchase) |
+| Free Plan | 14-day free trial (no credit card required) |
 | G2 Rating | [4.8/5 (~173 reviews)](https://www.g2.com/products/swipe-pages/reviews) |
 
 ---
@@ -562,7 +562,7 @@ Pricing is the dominant driver: 67% of negative Unbounce reviews on G2 and Trust
 
 The second driver is editor rigidity. Objects snap to invisible grids, fonts revert to Arial on save, and mobile pages require separate builds. For design teams that need control over every pixel, Webflow resolves this structurally. For marketers who just need a clean drag-and-drop experience without the quirks, Swipe Pages and Leadpages both have fewer reported editor frustrations.
 
-Finally, attribution depth. Unbounce's native reporting doesn't reach CRM-level attribution, and teams running complex paid media programs typically end up layering on additional tracking tools. HubSpot Marketing Hub is the only tool in this set that resolves the attribution gap natively, but only for teams already on HubSpot CRM. For most teams, the combination of predictable pricing and cleaner A/B testing access (Leadpages at $99/mo regular or Swipe Pages at $89/mo Marketer) is the practical fix. If you're running conversion rate optimization across paid channels and want to understand how CRO strategy fits into a broader growth program, our [SaaS SEO agency](/saas-seo-agency/) page covers how organic and paid CRO programs work together.
+Finally, attribution depth. Unbounce's native reporting doesn't reach CRM-level attribution, and teams running complex paid media programs typically end up layering on additional tracking tools. HubSpot Marketing Hub is the only tool in this set that resolves the attribution gap natively, but only for teams already on HubSpot CRM. For most teams, the combination of predictable pricing and cleaner A/B testing access (Leadpages at $99/mo regular or Swipe Pages at $69/mo Marketer) is the practical fix. If you're running conversion rate optimization across paid channels and want to understand how CRO strategy fits into a broader growth program, our [SaaS SEO agency](/saas-seo-agency/) page covers how organic and paid CRO programs work together.
 
 ---
 
@@ -580,7 +580,7 @@ The best Unbounce alternative depends on why you're leaving. For post-click pers
 
 ### Is there a free Unbounce alternative?
 
-Webflow offers a free Starter tier for static pages. Several tools offer no-credit-card free trials: Leadpages (7-day), Landingi (14-day), and ClickFunnels (14-day). Swipe Pages offers a trial of unverified duration. HubSpot has a limited free tier for landing pages.
+Webflow offers a free Starter tier for static pages. Several tools offer no-credit-card free trials: Leadpages (7-day), Landingi (14-day), and ClickFunnels (14-day), and Swipe Pages (14-day, no credit card). HubSpot has a limited free tier for landing pages.
 
 ### Why is Unbounce so expensive now?
 
@@ -600,7 +600,7 @@ Yes, but with a trade-off: Webflow gives you more design freedom and no grid-sna
 
 ### What is the cheapest Unbounce alternative?
 
-Landingi's Build plan at $24/mo annual is the lowest entry price in this set, but the 2,000 visits/month cap makes it impractical for paid campaigns. For practical paid-ads use, Swipe Pages ($39/mo Starter) and Leadpages ($49/mo promo, $99/mo regular) are the most affordable options with usable traffic limits.
+Landingi's Build plan at $24/mo annual is the lowest entry price in this set, but the 2,000 visits/month cap makes it impractical for paid campaigns. For practical paid-ads use, Swipe Pages ($29/mo Startup) and Leadpages ($49/mo promo, $99/mo regular) are the most affordable options with usable traffic limits.
 
 ## Update History
 

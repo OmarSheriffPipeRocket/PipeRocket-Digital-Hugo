@@ -88,12 +88,13 @@ backgrounds:
         - { label: "Users",           value: "800,000+ across 150+ countries" }
         - { label: "Public rating",   value: "4.8/5 G2 (review count reported as ~1,400 to 2,400; verify live)" }
     - name: "Semrush"
-      meta: "Founded 2008, Boston MA USA, NYSE-listed (SEMR), 3,400+ G2 reviews"
+      meta: "Founded 2008, Boston MA USA, acquired by Adobe (April 2026), 3,400+ G2 reviews"
       body: >-
         Semrush was founded in 2008 in St. Petersburg, Russia by Oleg Shchegolev
         and Dmitry Melnikov, and is now headquartered in Boston, Massachusetts.
-        It is NYSE-listed (ticker SEMR), positioning it as the most
-        institutionally credible option in this comparison. The platform covers
+        Formerly NYSE-listed (ticker SEMR), Semrush was acquired by Adobe in an
+        all-cash deal that completed on April 28, 2026, and its stock was delisted
+        from the NYSE; it now operates as an Adobe subsidiary. The platform covers
         SEO, PPC, content marketing, social media, competitive intelligence, and
         AI search visibility. It runs two parallel pricing tracks as of 2026:
         Classic SEO plans and Semrush One (which bundles the AI Visibility
@@ -104,7 +105,7 @@ backgrounds:
         - { label: "Founded",         value: "2008" }
         - { label: "HQ",              value: "Boston, Massachusetts, USA" }
         - { label: "Founders",        value: "Oleg Shchegolev and Dmitry Melnikov" }
-        - { label: "Stock",           value: "NYSE-listed (SEMR)" }
+        - { label: "Ownership",       value: "Acquired by Adobe (all-cash deal completed April 28, 2026; formerly NYSE-listed as SEMR, now delisted)" }
         - { label: "Public rating",   value: "4.5/5 G2 (~3,400 reviews, verify live); Trustpilot diverges at 2.8 (reflect billing/cancellation friction)" }
 
 services:

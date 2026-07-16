@@ -48,7 +48,7 @@ We put these head-to-head in our [Apollo vs ZoomInfo](/compare/apollo-vs-zoominf
 | Cognism | EMEA compliance + phone data | Custom pricing (quote-only) | Not publicly listed | [4.5/5 (500+ reviews, G2, reported)](https://www.g2.com/products/cognism/reviews) |
 | Lusha | Fast LinkedIn prospecting | [$49.90/mo](https://www.lusha.com/pricing/) (Starter) | Free tier (40 credits) | [4.3/5 (reviews, G2, reported)](https://www.g2.com/products/lusha/reviews) |
 | Clay | Custom enrichment workflows | [$185/mo](https://www.clay.com/pricing) (Launch) | Free tier available | [4.7/5 (189 reviews, G2, reported)](https://www.g2.com/products/clay-com-clay/reviews) |
-| Seamless.AI | High-volume outbound search | Reported $147/mo (Basic; verify live) | Free tier available | [4.4/5 (~5,277 reviews, G2, reported)](https://www.g2.com/products/seamless-ai/reviews) |
+| Seamless.AI | High-volume outbound search | Reported $147/mo (Basic; verify live) | Free tier available | [4.5/5 (~5,336 reviews, G2, reported)](https://www.g2.com/products/seamless-formally-seamless-ai/reviews) |
 | UpLead | Verified, low-bounce email data | [$99/mo](https://www.uplead.com/pricing/) (Essentials) | 7-day trial (5 credits) | [4.7/5 (829 reviews, G2, reported)](https://www.g2.com/products/uplead/reviews) |
 | RocketReach | Budget email discovery | Reported $27/mo (Essentials, annual; verify live) | Free trial available | [4.4/5 (~1,097 reviews, G2, reported)](https://www.g2.com/products/rocketreach/reviews) |
 | Lead411 | Intent data at lower cost | Reported $49/mo (Spark; verify live) | Not publicly listed | [4.5/5 (477 reviews, G2, reported)](https://www.g2.com/products/lead411/reviews) |
@@ -228,7 +228,7 @@ Best for: SMBs and individual reps who want quick, LinkedIn-based prospecting wi
 | --- | --- |
 | Platform | Web app + Chrome extension |
 | Free Plan | Free tier (40 credits) |
-| Starting Price | [$49.90/mo](https://www.lusha.com/pricing/) (Starter, monthly; $37.45/mo annual) |
+| Starting Price | [$49.90/mo](https://www.lusha.com/pricing/) (Starter, monthly; $32.45/mo annual) |
 | G2 Rating | Reported [4.3/5 (thousands of reviews)](https://www.g2.com/products/lusha/reviews) (exact count unverified) |
 
 **Fit Profile**
@@ -260,14 +260,14 @@ Lusha's Chrome extension pulls data directly off LinkedIn profiles in-flow, and 
 
 **Pricing Breakdown**
 
-Lusha uses a tiered subscription with monthly or annual billing. As of July 2026, pricing is confirmed live at lusha.com/pricing: Free at $0/mo (40 credits) through Premium at $399.90/mo monthly ($299.95/mo annual, 3,400 credits).
+Lusha uses a tiered subscription with monthly or annual billing. As of July 2026, pricing is confirmed live at lusha.com/pricing: Free at $0/mo (40 credits) through Premium at $399.90/mo monthly ($259.95/mo annual, 3,400 credits).
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Free | $0/mo | 40 credits |
-| Starter | $49.90/mo ($37.45/mo annual) | 400 credits/mo |
-| Professional | $69.90/mo ($52.45/mo annual) | 600 credits/mo |
-| Premium | $399.90/mo ($299.95/mo annual) | 3,400 credits/mo |
+| Starter | $49.90/mo ($32.45/mo annual) | 400 credits/mo |
+| Professional | $69.90/mo ($45.45/mo annual) | 600 credits/mo |
+| Premium | $399.90/mo ($259.95/mo annual) | 3,400 credits/mo |
 
 **What Users Say**
 
@@ -304,7 +304,7 @@ Best for: RevOps and growth teams that want to build custom, multi-source enrich
 | --- | --- |
 | Platform | Web app |
 | Free Plan | Free tier available |
-| Starting Price | [$185/mo](https://www.clay.com/pricing) (Launch, 2,500 data credits) |
+| Starting Price | Reported [$185/mo](https://www.clay.com/pricing) (Launch, ~3,000 data credits; verify live) |
 | G2 Rating | Reported [4.7/5-4.9/5 (189-312 reviews)](https://www.g2.com/products/clay-com-clay/reviews) (figures inconsistent across sources; verify before publish) |
 
 **Fit Profile**
@@ -336,13 +336,13 @@ Clay's waterfall enrichment queries multiple providers in sequence, which struct
 
 **Pricing Breakdown**
 
-Clay uses a tiered subscription with a free entry tier and credit-based usage. As of July 2026, pricing is Launch at $185/mo (2,500 data credits, 15,000 actions) through Growth at $495/mo (6,000 credits, 40,000 actions), with custom Enterprise pricing above that.
+Clay uses a tiered subscription with a free entry tier and credit-based usage. As of July 2026, reported pricing is Launch at roughly $167-$185/mo (3,000 data credits, 15,000 actions) through Growth at roughly $446-$495/mo (6,000 credits, 40,000 actions), with custom Enterprise pricing above that; verify current figures live at clay.com/pricing.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Free | $0/mo | Limited credits and actions |
-| Launch | $185/mo | 2,500 data credits, 15,000 actions |
-| Growth | $495/mo | 6,000 data credits, 40,000 actions |
+| Launch | Reported $167-$185/mo | 3,000 data credits, 15,000 actions |
+| Growth | Reported $446-$495/mo | 6,000 data credits, 40,000 actions |
 | Enterprise | Custom pricing | Custom volume and support |
 
 **What Users Say**
@@ -377,7 +377,7 @@ Best for: High-volume outbound teams that want real-time search results and don'
 | Platform | Web app + Chrome extension |
 | Free Plan | Free tier available |
 | Starting Price | Reported $147/mo (Basic, 250 credits; not independently confirmed, verify live) |
-| G2 Rating | [4.4/5 (~5,277 reviews)](https://www.g2.com/products/seamless-ai/reviews) |
+| G2 Rating | Reported [4.5/5 (~5,336 reviews)](https://www.g2.com/products/seamless-formally-seamless-ai/reviews) |
 
 **Fit Profile**
 
@@ -420,7 +420,7 @@ Seamless.AI offers a free tier plus paid plans that scale with credit volume. As
 **What Users Say**
 
 **Love:** Real-time search speed
-Reviewers praise "the real-time search, Chrome extension, and ease of use" per aggregated [G2 reviews](https://www.g2.com/products/seamless-ai/reviews).
+Reviewers praise "the real-time search, Chrome extension, and ease of use" per aggregated [G2 reviews](https://www.g2.com/products/seamless-formally-seamless-ai/reviews).
 
 - Won G2's Highest Satisfaction Best Software Award in 2026.
 
@@ -432,7 +432,7 @@ Users report email accuracy of 60-75% and phone accuracy of 45-60%, alongside ag
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | No (self-serve free tier; sales-assisted for Pro/Enterprise) |
-| Rating | 4.4/5 (~5,277 reviews, G2) |
+| Rating | Reported 4.5/5 (~5,336 reviews, G2) |
 
 ---
 
@@ -449,7 +449,7 @@ Best for: SMB and mid-market teams that prioritize verified, low-bounce email da
 | Platform | Web app |
 | Free Plan | 7-day free trial (5 credits) |
 | Starting Price | [$99/mo](https://www.uplead.com/pricing/) (Essentials, monthly; $74/mo annual) |
-| G2 Rating | [4.7/5 (829 reviews)](https://www.g2.com/products/uplead/reviews) |
+| G2 Rating | [4.7/5 (~821-829 reviews)](https://www.g2.com/products/uplead/reviews) |
 
 **Fit Profile**
 
@@ -520,7 +520,7 @@ Best for: Budget-conscious marketing, consulting, and nonprofit teams that prima
 | Platform | Web app |
 | Free Plan | Free trial available |
 | Starting Price | Reported $27/mo (Essentials, annual, ~$329/yr; not independently confirmed, verify live) |
-| G2 Rating | [4.4/5 (~1,097 reviews)](https://www.g2.com/products/rocketreach/reviews) |
+| G2 Rating | Reported [4.4/5 (~1,097 reviews)](https://www.g2.com/products/rocketreach/reviews) |
 
 **Fit Profile**
 
@@ -574,7 +574,7 @@ Inaccurate or outdated contact data is among the most-cited complaints, alongsid
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | No (self-serve; free trial available) |
-| Rating | 4.4/5 (~1,097 reviews, G2) |
+| Rating | Reported 4.4/5 (~1,097 reviews, G2) |
 
 ---
 
@@ -595,7 +595,7 @@ Looking at Bombora too? Our [Bombora alternatives](/alternative/bombora-alternat
 | Platform | Web app |
 | Free Plan | Not publicly listed |
 | Starting Price | Reported $49/mo (Spark, 1,000 exports; not independently confirmed, verify live) |
-| G2 Rating | [4.5/5 (477 reviews)](https://www.g2.com/products/lead411/reviews) |
+| G2 Rating | Reported [4.5/5 (477 reviews)](https://www.g2.com/products/lead411/reviews) |
 
 **Fit Profile**
 
@@ -649,7 +649,7 @@ The most common data-quality complaint is contacts still listed at a previous co
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Not publicly listed; contact sales for demo |
-| Rating | 4.5/5 (477 reviews, G2) |
+| Rating | Reported 4.5/5 (477 reviews, G2) |
 
 ---
 
