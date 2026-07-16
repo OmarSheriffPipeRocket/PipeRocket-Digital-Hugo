@@ -3,8 +3,8 @@ title: "9 Best Instapage Alternatives in 2026"
 description: "9 Instapage alternatives ranked on pricing model, conversion features, and fit for teams that want landing pages tied to a paid-media program. Real ratings, named clients, no paid placements."
 metaTitle: "9 Best Instapage Alternatives in 2026 (Ranked)"
 metaDescription: "9 Instapage alternatives ranked by pricing model and CRO fit. Real ratings, named clients, no paid placements. See who beats the per-visitor pricing cap."
-date: 2026-07-15
-lastmod: 2026-07-15
+date: 2026-07-16
+lastmod: 2026-07-16
 slug: "instapage-alternatives"
 type: "list"
 layout: "listicle"

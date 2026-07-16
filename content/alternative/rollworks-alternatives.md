@@ -3,8 +3,8 @@ title: "8 Best RollWorks Alternatives in 2026"
 description: "8 RollWorks alternatives ranked for teams who need ABM strategy and execution, not just an ad-orchestration platform. Real Clutch data, named clients, no paid placements."
 metaTitle: "8 Best RollWorks Alternatives in 2026 (Ranked)"
 metaDescription: "8 RollWorks alternatives ranked for ABM strategy and execution, not just platform access. Real Clutch data, named clients, no paid placements."
-date: 2026-07-15
-lastmod: 2026-07-15
+date: 2026-07-16
+lastmod: 2026-07-16
 slug: "rollworks-alternatives"
 type: "list"
 layout: "listicle"

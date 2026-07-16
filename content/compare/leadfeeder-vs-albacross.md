@@ -3,7 +3,7 @@ title: "Leadfeeder vs Albacross"
 description: "Two website visitor identification tools compared neutrally: pricing, review track record, outreach automation, ads integration, and which fits your pipeline motion."
 metaTitle: "Leadfeeder vs Albacross: Which One Wins? (2026)"
 metaDescription: "Leadfeeder vs Albacross compared on pricing, G2 ratings, outreach automation, and CRM depth. A neutral 2026 buyer's guide for B2B pipeline teams."
-date: 2026-07-15
+date: 2026-07-16
 category: "Head-to-head"
 readingTime: "9 min read"
 sources_count: 6

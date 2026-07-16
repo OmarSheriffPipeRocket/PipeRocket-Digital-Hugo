@@ -3,7 +3,7 @@ title: "Instapage vs Leadpages"
 description: "A neutral head-to-head comparison of Instapage and Leadpages across landing page building, conversion optimization features, traffic-metering models, and pricing."
 metaTitle: "Instapage vs Leadpages (2026)"
 metaDescription: "Instapage vs Leadpages compared on pricing, traffic caps, A/B testing, Smart Traffic, and ratings. A neutral 2026 breakdown for marketing teams."
-date: 2026-07-15
+date: 2026-07-16
 category: "Head-to-head"
 readingTime: "8 min read"
 sources_count: 10

@@ -3,8 +3,8 @@ title: "9 Best Leadfeeder Alternatives in 2026"
 description: "9 Leadfeeder alternatives ranked on identification accuracy, activation depth, pricing transparency, and contract flexibility. Real G2/Clutch data, named clients, no paid placements."
 metaTitle: "9 Best Leadfeeder Alternatives in 2026 (Ranked)"
 metaDescription: "9 Leadfeeder alternatives ranked by ID accuracy, activation depth, and pricing transparency. Real G2/Clutch references, named clients, no paid placements."
-date: 2026-07-15
-lastmod: 2026-07-15
+date: 2026-07-16
+lastmod: 2026-07-16
 slug: "leadfeeder-alternatives"
 type: "list"
 layout: "listicle"
