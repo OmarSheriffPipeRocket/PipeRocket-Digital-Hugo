@@ -6209,6 +6209,20 @@ a.pr-footer__trust-item:hover {
   margin: 0 0 var(--pr-s-4);
 }
 .pr-research-stats__head svg { width: 17px; height: 17px; color: var(--pr-cyan); flex: none; }
+/* Reset for the optional h2 variant (research-stats shortcode heading="true")
+   so it matches the span look exactly instead of inheriting the global
+   h1,h2,h3,h4 heading styles (clamp() font-size, line-height, etc) or the
+   listicle template's ".pr-listicle-v2__main h2 { font-size: 34px !important }"
+   override — beat that with !important + higher specificity (nesting under
+   the listicle wrapper class) rather than relying on source order. */
+.pr-listicle-v2__main .pr-research-stats__head h2 {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+}
 .pr-research-stats__grid {
   list-style: none;
   margin: 0 0 var(--pr-s-4);
