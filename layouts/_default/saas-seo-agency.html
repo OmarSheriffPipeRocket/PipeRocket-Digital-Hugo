@@ -443,6 +443,7 @@
         </div>
       </div>
     </div>
+    <p class="pr-stat-band__note" style="margin-top: var(--pr-s-6);">Not sure what that looks like in numbers? Model the pipeline and payback an SEO retainer needs to clear with our <a href="/tools/free-seo-roi-calculator/" data-cta-source="stat-band-seo">free SEO ROI calculator</a>.</p>
   </div>
 </section>
 
@@ -924,6 +925,64 @@
       var step = function () { var c = track.querySelector('.pr-guides__card'); return c ? c.offsetWidth + 20 : 320; };
       var prev = document.querySelector('[data-guides-prev]');
       var next = document.querySelector('[data-guides-next]');
+      if (prev) prev.addEventListener('click', function () { track.scrollBy({ left: -step() * 2, behavior: 'smooth' }); });
+      if (next) next.addEventListener('click', function () { track.scrollBy({ left: step() * 2, behavior: 'smooth' }); });
+    })();
+  </script>
+</section>
+
+<!-- ====================================================
+     FREE TOOLS & CALCULATORS — resources card strip (silo hub -> tools/checklists)
+     ==================================================== -->
+<section class="pr-section pr-section--tight pr-guides pr-guides--tools">
+  <div class="pr-container">
+    <div class="pr-guides__head">
+      <div>
+        <h2 class="pr-hero__h1-eyebrow">Free Tools &amp; Calculators</h2>
+        <p class="pr-disp">Scope the work before you hire</p>
+      </div>
+      <div class="pr-guides__nav" aria-hidden="true">
+        <button type="button" class="pr-guides__arrow" data-tools-prev aria-label="Previous tools">&#8592;</button>
+        <button type="button" class="pr-guides__arrow" data-tools-next aria-label="Next tools">&#8594;</button>
+      </div>
+    </div>
+    <div class="pr-guides__track" data-tools-track>
+      <a class="pr-guides__card" href="/tools/free-seo-roi-calculator/">
+        <span class="pr-guides__eyebrow">Free Calculator</span>
+        <span class="pr-guides__title">Free SEO ROI Calculator</span>
+        <span class="pr-guides__more">Open tool <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/tools/keyword-value-calculator/">
+        <span class="pr-guides__eyebrow">Free Calculator</span>
+        <span class="pr-guides__title">Keyword Value Calculator</span>
+        <span class="pr-guides__more">Open tool <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/tools/ai-agent-readiness-checker/">
+        <span class="pr-guides__eyebrow">Free Tool</span>
+        <span class="pr-guides__title">AI Agent Readiness Checker</span>
+        <span class="pr-guides__more">Open tool <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/checklists/technical-seo-checklist/">
+        <span class="pr-guides__eyebrow">Checklist</span>
+        <span class="pr-guides__title">Technical SEO Checklist</span>
+        <span class="pr-guides__more">Use checklist <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/checklists/saas-seo-strategy-checklist/">
+        <span class="pr-guides__eyebrow">Checklist</span>
+        <span class="pr-guides__title">SaaS SEO Strategy Checklist</span>
+        <span class="pr-guides__more">Use checklist <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var root = document.currentScript.closest('section');
+      if (!root) return;
+      var track = root.querySelector('[data-tools-track]');
+      if (!track) return;
+      var step = function () { var c = track.querySelector('.pr-guides__card'); return c ? c.offsetWidth + 20 : 320; };
+      var prev = root.querySelector('[data-tools-prev]');
+      var next = root.querySelector('[data-tools-next]');
       if (prev) prev.addEventListener('click', function () { track.scrollBy({ left: -step() * 2, behavior: 'smooth' }); });
       if (next) next.addEventListener('click', function () { track.scrollBy({ left: step() * 2, behavior: 'smooth' }); });
     })();

@@ -22,6 +22,8 @@ Each agency occupies a different niche in the AI SEO market, from GEO programs f
 
 A bad AI SEO decision costs more than the retainer: twelve months of content that never earns an AI citation sends buyers to competitors while your team monitors keyword rankings that have stopped mattering. Every agency below was assessed on AI-search service productisation, tool disclosure, verified Clutch outcomes, pricing transparency, and AI content optimization depth. If pure AI search visibility is the goal with no traditional SEO scope attached, our best GEO agencies list is the sharper starting point.
 
+{{< youtube id="Y9gEEevJR1M" title="The 9 Best AI SEO Agencies for 2026 | Based on our Research Methodology" caption="Watch: how we vetted the best AI SEO agencies for 2026, based on our research methodology." description="PipeRocket Digital walks through how it vetted the best AI SEO agencies for 2026, including the research methodology, scoring criteria, and how each agency was compared on AI-search visibility and GEO/AEO depth." uploadDate="2026-07-17" duration="PT3M4S" >}}
+
 ## TL;DR
 
 1. **iPullRank:** Best for enterprise AI search advisory with Relevance Engineering rigor

@@ -21,6 +21,8 @@ What you'll pay splits this field more than the logos do. SaaS PPC management ru
 
 Results track the buying cycle, not the billing cycle. Expect usable campaign data in 30 to 60 days and real pipeline impact in 90 to 180, because B2B software gets bought by committees over months. The partners worth keeping report in SQLs, CAC, and payback from week one; the ones to walk away from lead with click-through rates that look great in month one and mean nothing by month six.
 
+{{< youtube id="j5rDgxjtpms" title="The Best SaaS PPC Agencies for 2026 | Vetted based on our Research Methodology" caption="Watch: how we vetted the best SaaS PPC agencies for 2026, based on our research methodology." >}}
+
 ## TL;DR
 
 1. **Directive Consulting:** Best for high-ACV SaaS optimizing cost-per-customer, not cost-per-lead.
@@ -234,7 +236,7 @@ Best for: SaaS with existing campaigns that need waste eliminated before scaling
 | Specialization | SaaS PPC waste audits + CRO |
 | Key Services | PPC audits, Google Ads, Meta Ads, CRO, lifecycle marketing |
 
-**The Approach:** Disruptive runs a structured PPC audit first, finds the bid waste and intent mismatch, then optimizes. The agency layers CRO and lifecycle work on top so paid traffic isn't dropped into broken funnels.
+**The Approach:** Disruptive runs a [structured PPC audit](/checklists/google-ads-audit-checklist/) first, finds the bid waste and intent mismatch, then optimizes. The agency layers CRO and lifecycle work on top so paid traffic isn't dropped into broken funnels.
 
 - Google Premier Partner and Meta Business Partner status.
 - 90-day growth guarantee for qualifying brands.
@@ -792,6 +794,16 @@ The [Clutch profile](https://clutch.co/profile/kalungi) is live but holds no ver
 
 Also weighing Kalungi? See our roundup of the [best Kalungi alternatives](/alternative/kalungi-alternatives/).
 
+## Free SaaS PPC Tools and Checklists
+
+Before you hand a retainer to any agency above, these free resources help you audit your current account, forecast the math, and know what "good" looks like:
+
+- [SaaS PPC checklist](/checklists/saas-ppc-checklist/) - the launch-to-scale checklist we run on a new SaaS paid account.
+- [Google Ads setup checklist](/checklists/google-ads-setup-checklist/) - stand up campaigns, conversions, and negatives without the rookie leaks.
+- [Conversion tracking checklist](/checklists/conversion-tracking-checklist/) - make sure the SQLs and pipeline you report back are actually measured correctly.
+- [PPC ROAS calculator](/tools/ppc-roas-calculator/) - model the return an ad-spend and management budget needs to clear.
+- [Google Ads ROI calculator](/tools/google-ads-roi-calculator/) - pressure-test a spend level against your ACV and close rate before you commit.
+
 ## FAQs
 
 ### What makes a SaaS PPC agency different from a general PPC agency?
@@ -812,7 +824,7 @@ It depends on ICP and demand stage. Google captures existing demand; [LinkedIn](
 
 ### What questions should I ask when evaluating a SaaS PPC agency?
 
-Ask how they define success (pipeline vs leads), for cost-per-SQL examples, attribution methodology, and who manages the account day to day.
+Ask how they define success (pipeline vs leads), for [cost-per-SQL examples](/tools/cost-per-lead-calculator/), attribution methodology, and who manages the account day to day.
 
 ### Why do so many SaaS PPC agencies hide their pricing?
 

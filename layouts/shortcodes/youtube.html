@@ -1,0 +1,33 @@
+{{- $id := .Get "id" -}}
+{{- $title := .Get "title" | default "YouTube video" -}}
+{{- $caption := .Get "caption" -}}
+{{- $description := .Get "description" | default $caption | default $title -}}
+{{- $thumbnail := .Get "thumbnail" | default (printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $id) -}}
+{{- $uploadDate := .Get "uploadDate" -}}
+{{- $duration := .Get "duration" -}}
+<figure class="pr-video">
+  <div class="pr-video__frame">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/{{ $id }}"
+      title="{{ $title }}"
+      loading="lazy"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+  </div>
+  {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
+{{- $schema := dict
+  "@context" "https://schema.org"
+  "@type" "VideoObject"
+  "name" $title
+  "description" $description
+  "thumbnailUrl" (slice $thumbnail)
+  "embedUrl" (printf "https://www.youtube-nocookie.com/embed/%s" $id)
+  "contentUrl" (printf "https://www.youtube.com/watch?v=%s" $id)
+  "publisher" (dict "@type" "Organization" "name" "PipeRocket Digital" "url" "https://piperocket.digital/")
+-}}
+{{- with $uploadDate }}{{ $schema = merge $schema (dict "uploadDate" .) }}{{ end -}}
+{{- with $duration }}{{ $schema = merge $schema (dict "duration" .) }}{{ end -}}
+<script type="application/ld+json">{{ $schema | jsonify }}</script>

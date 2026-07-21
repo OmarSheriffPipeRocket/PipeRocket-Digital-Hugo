@@ -236,6 +236,7 @@
         </div>
       </div>
     </div>
+    <p class="pr-stat-band__note" style="margin-top: var(--pr-s-6);">Want to see the return a given ad budget needs to clear? Run the numbers in our <a href="/tools/ppc-roas-calculator/" data-cta-source="stat-band-ppc">PPC ROAS calculator</a>.</p>
   </div>
 </section>
 
@@ -694,6 +695,64 @@
       </details>
     </div>
   </div>
+</section>
+
+<!-- ====================================================
+     FREE TOOLS & CALCULATORS — resources card strip (silo hub -> tools/checklists)
+     ==================================================== -->
+<section class="pr-section pr-section--tight pr-guides pr-guides--tools">
+  <div class="pr-container">
+    <div class="pr-guides__head">
+      <div>
+        <h2 class="pr-hero__h1-eyebrow">Free Tools &amp; Calculators</h2>
+        <p class="pr-disp">Check the math before you spend</p>
+      </div>
+      <div class="pr-guides__nav" aria-hidden="true">
+        <button type="button" class="pr-guides__arrow" data-tools-prev aria-label="Previous tools">&#8592;</button>
+        <button type="button" class="pr-guides__arrow" data-tools-next aria-label="Next tools">&#8594;</button>
+      </div>
+    </div>
+    <div class="pr-guides__track" data-tools-track>
+      <a class="pr-guides__card" href="/tools/google-ads-roi-calculator/">
+        <span class="pr-guides__eyebrow">Free Calculator</span>
+        <span class="pr-guides__title">Google Ads ROI Calculator</span>
+        <span class="pr-guides__more">Open tool <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/tools/cost-per-lead-calculator/">
+        <span class="pr-guides__eyebrow">Free Calculator</span>
+        <span class="pr-guides__title">Cost Per Lead Calculator</span>
+        <span class="pr-guides__more">Open tool <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/tools/cpa-calculator/">
+        <span class="pr-guides__eyebrow">Free Calculator</span>
+        <span class="pr-guides__title">CPA Calculator</span>
+        <span class="pr-guides__more">Open tool <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/checklists/saas-ppc-checklist/">
+        <span class="pr-guides__eyebrow">Checklist</span>
+        <span class="pr-guides__title">SaaS PPC Checklist</span>
+        <span class="pr-guides__more">Use checklist <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/checklists/google-ads-audit-checklist/">
+        <span class="pr-guides__eyebrow">Checklist</span>
+        <span class="pr-guides__title">Google Ads Audit Checklist</span>
+        <span class="pr-guides__more">Use checklist <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var root = document.currentScript.closest('section');
+      if (!root) return;
+      var track = root.querySelector('[data-tools-track]');
+      if (!track) return;
+      var step = function () { var c = track.querySelector('.pr-guides__card'); return c ? c.offsetWidth + 20 : 320; };
+      var prev = root.querySelector('[data-tools-prev]');
+      var next = root.querySelector('[data-tools-next]');
+      if (prev) prev.addEventListener('click', function () { track.scrollBy({ left: -step() * 2, behavior: 'smooth' }); });
+      if (next) next.addEventListener('click', function () { track.scrollBy({ left: step() * 2, behavior: 'smooth' }); });
+    })();
+  </script>
 </section>
 
 <!-- ====================================================
