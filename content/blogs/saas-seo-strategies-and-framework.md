@@ -5,7 +5,7 @@ metaTitle: "SaaS SEO Strategies: The 8-Step Framework for Growth"
 metaDescription: "A complete 8-step SaaS SEO strategy framework built for B2B SaaS teams who want organic search to generate pipeline, not just traffic."
 date: 2026-04-09
 featuredImage: "/images/blog-covers/saas-seo-strategies-and-framework.webp"
-lastmod: 2026-06-15
+lastmod: 2026-07-15
 slug: "saas-seo-strategies-and-framework"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -26,7 +26,7 @@ This guide is for B2B SaaS marketers, founders, and SEO leads who are done chasi
 - Strategy 7: Build a link acquisition system that earns authority at scale
 - Strategy 8: Measure organic search by pipeline contribution, not sessions or rankings
 
-![The 8-Step SaaS SEO Framework — set pipeline-tied goals, audit technical SEO, research keywords around ICP intent, build BOFU first, hub-and-spoke architecture, optimize for AI Overviews, earn links at scale, measure pipeline](/images/blog-infographics/saas-seo-framework-8-steps.svg)
+![The 8-Step SaaS SEO Framework: set pipeline-tied goals, audit technical SEO, research keywords around ICP intent, build BOFU first, hub-and-spoke architecture, optimize for AI Overviews, earn links at scale, measure pipeline](/images/blog-infographics/saas-seo-framework-8-steps.svg)
 
 ## The Complete SaaS SEO Strategy Framework (8 Strategies)
 
@@ -88,7 +88,7 @@ What not to do
 
 ### Strategy 3: Research Keywords Around ICP Pain Points and Buying Stages
 
-[Keyword research](/glossary/what-is-keyword-research/) for SaaS is not a volume exercise. It is a buyer journey mapping exercise. The keywords that generate pipeline are the ones searched by people who have a problem your product solves, at a moment in their research when your content can move them toward a buying decision.
+[Keyword research](/glossary/what-is-keyword-research/) for SaaS is a buyer journey mapping exercise more than a volume exercise. The keywords that generate pipeline are the ones searched by people who have a problem your product solves, at a moment in their research when your content can move them toward a buying decision.
 
 Every keyword goes through a three-question intent filter before it makes your list:
 
@@ -100,13 +100,13 @@ If the answer to any of those is no, the keyword comes off the list regardless o
 
 | Funnel stage | Keyword pattern | Example | Typical conversion rate |
 | --- | --- | --- | --- |
-| BOFU | [Product] alternatives | HubSpot alternatives for startups | 10–20% |
-| BOFU | [Product A] vs [Product B] | Stripe vs Paddle for SaaS | 10–18% |
-| BOFU | Best [category] for [ICP] | Best CRM for SaaS startups | 8–15% |
-| MOFU | How to [solve problem] | How to reduce SaaS churn | 5–10% |
-| MOFU | [Category] strategy guide | SaaS pricing strategy guide | 5–8% |
-| TOFU | What is [concept] | What is [product-led growth](/blogs/saas-product-led-growth-strategy/) | 1–3% |
-| TOFU | [Topic] examples | SaaS onboarding examples | 1–3% |
+| BOFU | [Product] alternatives | HubSpot alternatives for startups | 10 to 20% |
+| BOFU | [Product A] vs [Product B] | Stripe vs Paddle for SaaS | 10 to 18% |
+| BOFU | Best [category] for [ICP] | Best CRM for SaaS startups | 8 to 15% |
+| MOFU | How to [solve problem] | How to reduce SaaS churn | 5 to 10% |
+| MOFU | [Category] strategy guide | SaaS pricing strategy guide | 5 to 8% |
+| TOFU | What is [concept] | What is [product-led growth](/blogs/saas-product-led-growth-strategy/) | 1 to 3% |
+| TOFU | [Topic] examples | SaaS onboarding examples | 1 to 3% |
 
 **What this looks like in practice:** A customer success platform initially builds a keyword list around “customer success” and related terms pulling 10,000 to 50,000 monthly searches. After applying the intent filter, they discover 80% of those terms are searched by students, HR professionals, and customer service reps, not the VP of Customer Success who is their actual buyer. They rebuild the list around queries like “enterprise customer success software” and “Gainsight alternatives,” which have lower volume but a 6x higher SQL conversion rate.
 
@@ -161,12 +161,12 @@ Individual blog posts rank for individual keywords. A hub-and-spoke content arch
 
 The structure:
 
-- **Hub (pillar page):** one comprehensive page that covers a broad topic in full. It links to every spoke in the cluster and signals to Google that this is the authoritative reference point for the topic
+- **Hub (pillar page):** one in-depth page that covers a broad topic in full. It links to every spoke in the cluster and signals to Google that this is the authoritative reference point for the topic
 - **Spokes (supporting articles):** ten to fifteen focused articles that go deep on each sub-topic within the cluster. Every spoke links back to the pillar. High-authority spokes that earn [backlinks](/glossary/what-is-a-backlink/) pass that equity through internal links to the pillar and to conversion pages
 
 The business result of this architecture is compounding authority. As the cluster earns links and engagement, every page in it benefits. Rankings for the pillar lift. Rankings for the spokes lift. Pages that were stuck on page two move to page one without any new content being published.
 
-![Hub-and-spoke content architecture: a central BOFU pillar page surrounded by ten spoke articles — comparisons, alternatives, pricing, use cases, integrations, templates, benchmarks, definitions, case studies. Every spoke links to the pillar and back.](/images/blog-infographics/hub-and-spoke-architecture.svg)
+![Hub-and-spoke content architecture: a central BOFU pillar page surrounded by ten spoke articles covering comparisons, alternatives, pricing, use cases, integrations, templates, benchmarks, definitions, and case studies. Every spoke links to the pillar and back.](/images/blog-infographics/hub-and-spoke-architecture.svg)
 
 How to build a cluster:
 
@@ -188,7 +188,7 @@ Notice where the curve bends. Almost nothing dramatic happens until around month
 What not to do
 
 - Do not build spokes before you have a pillar. Disconnected content does not compound
-- Do not let your pillar page become a link dump. It should be genuinely useful and comprehensive, not just a table of contents
+- Do not let your pillar page become a link dump. It should read as a genuinely useful, full treatment of the topic rather than a table of contents
 - Do not build clusters around topics your buyers do not actually search. Every cluster should start with keyword validation
 
 Did You Know
@@ -199,7 +199,11 @@ Organic drives 37X more absolute leads than all AI engines combined and converts
 
 ### Strategy 6: Optimize Every Page for Traditional Search and AI Overviews
 
-In 2026, ranking on page one of Google is necessary but not sufficient. [AI Overviews](/glossary/what-is-an-ai-overview/) now appear above organic results for a significant share of commercial queries. If your content is not structured to be cited in those answers, you are invisible at the top of the funnel even when you rank.
+Ranking on page one of Google is necessary but not sufficient. [AI Overviews](/glossary/what-is-an-ai-overview/) now appear above organic results for a significant share of commercial queries. If your content is not structured to be cited in those answers, you are invisible at the top of the funnel even when you rank.
+
+The scale is settled. At [Google I/O in May 2026](https://blog.google/products-and-platforms/products/search/search-io-2026/), Google reported AI Overviews reaching around 2.5 billion monthly active users and the newer AI Mode experience around 1 billion.
+
+Google's own [AI features guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) is clear that there is no separate playbook here: optimizing for AI features is the same SEO work, and there is no special file or markup you need to add for AI systems to use your content.
 
 On-page optimization for traditional search:
 
@@ -264,6 +268,8 @@ AI traffic pushes 44% of its volume into [bottom-of-funnel](/blogs/how-to-rank-b
 
 This is the strategy that determines whether SEO keeps its budget. Every other strategy in this framework can be executing perfectly, but if the reporting model only shows traffic and rankings, the program will eventually lose the budget argument to paid channels that can produce a pipeline number on demand.
 
+Rankings are also the least stable thing to report on. Google shipped its [second core update of 2026 in May](https://status.search.google.com/incidents/wdAXJk6LRRihEjpzEeWE), and each broad update reshuffles positions across the board. A program measured on rankings looks like it is winning or losing every time an update rolls out. A program measured on pipeline contribution stays legible through that volatility.
+
 | Vanity metric | Why it misleads | Replace with |
 | --- | --- | --- |
 | Raw organic traffic | Does not filter for ICP match | Organic SQLs and demo requests |
@@ -286,10 +292,10 @@ What not to do
 
 Most [SaaS SEO agencies](/list/best-saas-seo-agencies/) optimize for rankings. PipeRocket optimizes for pipeline. Every engagement is built around the same question: what does organic search need to contribute to revenue this quarter? That question drives every strategy decision, content priority, and measurement framework we build.
 
-- **[SEO strategy and roadmap:](/saas-seo-agency/)** we build pipeline-tied SEO roadmaps from scratch, including goal-setting, keyword architecture, content prioritization, and quarterly execution plans tied to your CRM, not a traffic dashboard
+- **[SEO strategy and roadmap:](/saas-seo-agency/)** we build pipeline-tied SEO roadmaps from scratch, including goal-setting, keyword architecture, content prioritization, and quarterly execution plans tied to your CRM rather than a traffic dashboard
 - **Technical SEO:** we audit and fix the crawlability, rendering, and Core Web Vitals issues that prevent your content from ranking, and stay embedded through every site migration and platform change
 - **BOFU content creation:** we build the comparison pages, alternatives pages, and evaluation-stage content that converts organic traffic into demos and trials, before any awareness content is written
-- **Hub-and-spoke content architecture:** we design and execute full topic clusters that compound [topical authority](/blogs/how-to-improve-topical-authority/) over time, giving your domain the coverage depth to rank across an entire category, not just individual terms
+- **Hub-and-spoke content architecture:** we design and execute full topic clusters that compound [topical authority](/blogs/how-to-improve-topical-authority/) over time, giving your domain the coverage depth to rank across an entire category instead of only individual terms
 - **Link acquisition:** we build the benchmark reports, data assets, and free tools that earn authoritative backlinks at scale, without the agency practice of mass guest posting on irrelevant sites
 - **[Pipeline attribution and reporting:](/marketing-ops/)** we set up the UTM infrastructure, CRM integration, and pipeline-influenced attribution model that makes organic search’s contribution to revenue visible to your CFO and your board
 

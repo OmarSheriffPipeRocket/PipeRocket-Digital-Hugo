@@ -4,6 +4,7 @@ description: "MOFU keywords are where SaaS buyers compare options before they pi
 metaTitle: "How to Rank MOFU Keywords for SaaS"
 metaDescription: "Rank SaaS MOFU keywords by matching the SERP format and building the cluster that points consideration content back at your money pages."
 date: 2026-06-08
+lastmod: 2026-07-15
 slug: "how-to-rank-mofu-keywords-saas"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -16,8 +17,8 @@ MOFU keywords are the middle-funnel queries where a SaaS buyer already knows the
 
 - **Why MOFU content stalls at position 12:** The page answers the keyword but not the searcher's moment, so it loses to whatever format Google is already rewarding.
 - **The format decides the ranking:** MOFU pages stall because the format fights the SERP, so match what Google already rewards before you obsess over word count.
-- **Make it un-fakeable:** MOFU content ranks for SaaS when it carries real practitioner experience the SERP doesn't already have, not another paraphrase of the top five results.
-- **Rank from the cluster, not the page:** A MOFU piece ranks on the authority of the topic around it, so build the supporting set and link it toward your money pages.
+- **Make it un-fakeable:** MOFU content ranks for SaaS when it carries real practitioner experience the SERP doesn't already have, rather than another paraphrase of the top five results.
+- **Rank on the whole cluster:** A MOFU piece ranks on the authority of the topic around it, so build the supporting set and link it toward your money pages.
 - **Tie it back to the product:** Every MOFU page needs a clear next step into the BOFU layer, or you rank and pull traffic that moves zero pipeline.
 - **MOFU is not BOFU execution:** The two layers rank on different signals and play different roles, so don't run the same playbook on both.
 

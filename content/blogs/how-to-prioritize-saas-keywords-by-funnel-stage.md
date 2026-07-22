@@ -4,6 +4,7 @@ description: "Your keywords are already sorted into TOFU, MOFU, and BOFU. The ha
 metaTitle: "Prioritize SaaS Keywords by Funnel Stage"
 metaDescription: "How to sequence a funnel-mapped SaaS keyword list: what to build first, why BOFU leads, and how capacity and ROI set the publishing order."
 date: 2026-06-08
+lastmod: 2026-07-15
 slug: "how-to-prioritize-saas-keywords-by-funnel-stage"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -18,10 +19,10 @@ Here's how I decide what to ship first, and why almost every SaaS site I touch s
 
 ## TL;DR
 
-- **Why sequence at all:** the same funnel-mapped keyword list produces wildly different pipeline depending on what you build first, so order is a decision, not an afterthought.
+- **Why sequence at all:** the same funnel-mapped keyword list produces wildly different pipeline depending on what you build first, so order is a deliberate decision in its own right.
 - **Start at the bottom:** BOFU pages sit closest to the buying decision, so building them first puts revenue-shaped content live while authority is still compounding.
 - **Capacity caps the bottom:** the 40-60 rule means BOFU runs out fast, so you sequence the finite high-intent pages first, then move up the funnel.
-- **ROI sets the order inside a stage:** rank keywords by intent and conversion math, not search volume, so a 90-search comparison term beats a 9,000-search definition.
+- **ROI sets the order inside a stage:** rank keywords by intent and conversion math ahead of search volume, so a 90-search comparison term beats a 9,000-search definition.
 - **Sequencing traps:** building TOFU-first, treating every BOFU page as equal priority, and ignoring how long pages take to rank are the three mistakes that stall plans.
 
 ## Why Build Order Decides Your Pipeline

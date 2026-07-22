@@ -4,7 +4,7 @@ description: "What SaaS SEO is, how it differs from traditional SEO, what a real
 metaTitle: "SaaS SEO: The Complete Guide for B2B SaaS (2026)"
 metaDescription: "What SaaS SEO is, how it differs from traditional SEO, what a program contains, and how it works in the AI search era. The B2B SaaS pillar guide."
 date: 2025-11-24
-lastmod: 2026-06-15
+lastmod: 2026-07-15
 slug: "saas-seo"
 writtenBy: "kim"
 category: "SEO"
@@ -21,8 +21,8 @@ I've spent 15 years on this, leading organic growth at Sprinto and Kissflow and 
 
 ### TL;DR
 
-- **What it is:** SaaS SEO turns organic and AI search into a pipeline engine for software companies, not just a traffic source.
-- **Why it's different:** Your buyer is a committee on a 30 to 90 day cycle, so you optimise for a journey, not a single click.
+- **What it is:** SaaS SEO turns organic and AI search into a pipeline engine for software companies rather than just a traffic source.
+- **Why it's different:** Your buyer is a committee on a 30 to 90 day cycle, so you optimise for a journey rather than a single click.
 - **Who it's for:** It compounds only after product-market fit and a clear ICP. Before that, it scales confusion.
 - **What a program contains:** Four parts working at once, Content, Technical, Authority, and Measurement, scored together rather than maxed one at a time.
 - **Why it still matters:** Organic is the only channel that compounds, and AI search widened its lead over paid rather than killing it.
@@ -84,13 +84,13 @@ Technical SaaS SEO is narrower than people think. A SaaS site has roughly 1,000 
 
 Perfect Core Web Vitals scores matter less than the obsession around them suggests. Top-ranking pages for competitive terms rarely score above 80. Get the page crawlable and indexable, keep the experience clean, and move on.
 
-### Authority: earned, not bought
+### Authority: earned through systems
 
 Authority comes from a portfolio of sources, not a single tactic. Digital PR and original research earn links at scale. Free tools and calculators get embedded and shared. Integration and partner directories drop contextual links from high-authority domains in your exact category. Community presence on Reddit, Quora, and LinkedIn earns the brand mentions that AI engines disproportionately cite.
 
 Watch referring-domain quality, not raw count. One link from a respected SaaS publication beats fifty from low-authority directories.
 
-### Measurement: pipeline, not sessions
+### Measurement: pipeline over sessions
 
 Measurement is the part that decides whether the other three get funded next year. The program is judged on organic-attributed pipeline, SQLs, and CAC, not on sessions or rankings. More on the specific metrics below, because this is where most programs quietly fail.
 
@@ -114,19 +114,25 @@ For most SaaS companies, [organic CAC](/blogs/how-to-measure-organic-cac/) cross
 
 ## How SaaS SEO Works in the AI Search Era (GEO, AEO, LLMO)
 
-Search no longer ends at a [SERP](/glossary/what-is-serp/). ChatGPT, Perplexity, Google Gemini, Microsoft Copilot, and Google [AI Overviews](/glossary/what-is-an-ai-overview/) now answer questions inline and cite their sources, often without the user clicking through. Generative Engine Optimisation, Answer Engine Optimisation, and Large Language Model Optimisation are three names for adapting to that shift. For SaaS, it changes who gets discovered and why.
+Search no longer ends at a [SERP](/glossary/what-is-serp/). ChatGPT, Perplexity, Google Gemini, Microsoft Copilot, and Google [AI Overviews](/glossary/what-is-an-ai-overview/) now answer questions inline and cite their sources, often without the user clicking through.
+
+This is mainstream. At Google I/O 2026, the company reported AI Overviews at roughly 2.5 billion monthly users and its conversational AI Mode at around 1 billion, so most of your buyers already meet an AI-generated answer before a blue link.
+
+Generative Engine Optimisation, Answer Engine Optimisation, and Large Language Model Optimisation are three names for adapting to that shift. For SaaS, it changes who gets discovered and why.
 
 ![The AI search layer for SaaS: visible answer engines on top, a retrieval and ranking layer beneath, sitting on entity and authority signals.](/images/blog-infographics/saas-seo-ai-search-layer.webp)
 
 ### What AI engines actually reward
 
-AI engines reward conviction, not keyword density. First-hand experience is becoming a ranking signal in its own right. The web is saturated with generic information, and AI systems are increasingly weighting practitioner-led, founder-led explanations over anonymous content. Real examples and real decisions beat abstract definitions, and depth in one category beats thin coverage across ten.
+AI engines reward conviction over keyword density. First-hand experience is becoming a ranking signal in its own right. The web is saturated with generic information, and AI systems are increasingly weighting practitioner-led, founder-led explanations over anonymous content.
+
+Google's June 2026 spam update reinforced this by targeting scaled AI-generated content, so mass-produced articles now carry real downside. Real examples and real decisions beat abstract definitions, and depth in one category beats thin coverage across ten.
 
 Three things move citation odds for SaaS:
 
-- **Answer-first structure** — every major heading is a question your buyer types, with the answer in the first two sentences.
-- **Entity disambiguation** — your brand name, logo, and description stay identical across G2, Capterra, Clutch, LinkedIn, Crunchbase, and Wikidata, so the Knowledge Graph resolves you as one node.
-- **Brand mentions on the surfaces AI engines lean on** — we've watched Google's AI return a named shortlist of agencies for a buyer query, with the citation pulled straight from a Reddit thread.
+- **Answer-first structure:** every major heading is a question your buyer types, with the answer in the first two sentences.
+- **Entity disambiguation:** your brand name, logo, and description stay identical across G2, Capterra, Clutch, LinkedIn, Crunchbase, and Wikidata, so the Knowledge Graph resolves you as one node.
+- **Brand mentions on the surfaces AI engines lean on:** we've watched Google's AI return a named shortlist of agencies for a buyer query, with the citation pulled straight from a Reddit thread.
 
 Microsoft Copilot is the clearest proof that quality beats volume here. It sends just 3.1% of AI traffic but the highest lead-to-SQL rate of any AI platform, because its users arrive from inside enterprise work tools.
 
@@ -137,6 +143,11 @@ Beneath the visible answer engines is an infrastructure layer that decides who g
 Vector embeddings are how the retrieval step judges relevance, clustering content by meaning rather than exact keywords, which is why "semantic SEO" stopped being a metaphor. Model Context Protocol, an emerging open standard for how AI agents reach external data, is starting to make clean, structured product data directly queryable by agents.
 
 You don't need to build vector databases. You need to publish content that's clean, structured, and entity-consistent so a retrieval step can lift it cleanly, because that's what the infrastructure rewards.
+
+Google's own 2026 guidance on optimising for AI features backs this up:
+
+- **It is still SEO.** Showing up in AI Overviews and AI Mode needs no special measures: an llms.txt file or dedicated AI schema is not required.
+- **llms.txt is optional.** Publishing one as low-cost insurance for the crawlers that read it is fine, but treat it as optional rather than a ranking prerequisite. The fundamentals, crawlable pages, clear entities, and genuine expertise, are what carry over.
 
 ## The SaaS SEO Strategy in Brief, and Where the Full Playbook Lives
 

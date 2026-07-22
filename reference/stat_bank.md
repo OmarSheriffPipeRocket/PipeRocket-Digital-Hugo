@@ -119,6 +119,7 @@ Status: fresh
 Referenced-by:
   - content/blogs/b2b-marketing.md
   - content/blogs/saas-content-marketing-guide.md
+  - content/blogs/saas-lead-generation-strategy.md
 Note: 2026-06-23 — upgraded from the 2025 survey (61%) to the 2026 survey (67%). NB: saas-content-marketing.md also cites an older "75% prefer self-serve" figure (line ~125) from the evergreen Gartner page — minor collision, reconcile on a later pass.
 
 ### forrester-13-people-buying-decision

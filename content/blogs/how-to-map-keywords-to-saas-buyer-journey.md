@@ -4,6 +4,7 @@ description: "Every keyword is a moment in a buyer's head. Here's how I sort Saa
 metaTitle: "How to Map Keywords to the SaaS Buyer Journey"
 metaDescription: "Map SaaS keywords to awareness, consideration, and decision stages (ToFu/MoFu/BoFu) so your content ranks for the right intent and feeds pipeline."
 date: 2026-06-08
+lastmod: 2026-07-15
 slug: "how-to-map-keywords-to-saas-buyer-journey"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -19,13 +20,13 @@ Most SaaS teams build one big keyword list and treat every line the same, then w
 - **The mistake costing you pipeline:** Treating every keyword as one bucket means you build awareness content for buyers who were ready to compare tools, and decision pages for people who've never heard of the category.
 - **The three stages and what each query sounds like:** Awareness asks "do I have a problem," consideration asks "what kinds of solutions exist," decision asks "which specific tool do I buy," and each maps to ToFu, MoFu, and BoFu.
 - **How to read intent from the words:** The verb, the modifier, and whether a brand name shows up tell you the stage faster than search volume ever will.
-- **Mapping to the buying committee:** A developer and a CMO search the same product in different languages, so one keyword often belongs to one role, not the whole account.
-- **Tagging your list so it's usable:** Add a stage column to your keyword sheet and a page-type, because an unstaged list is data, not a plan.
+- **Mapping to the buying committee:** A developer and a CMO search the same product in different languages, so one keyword usually belongs to a single role rather than the whole account.
+- **Tagging your list so it's usable:** Add a stage column to your keyword sheet and a page-type, because an unstaged list stays data instead of becoming a plan.
 - **Where teams get it wrong:** Over-weighting awareness volume, forcing a decision query onto a blog post, and ignoring that the same word can mean two stages depending on who typed it.
 
 ## Why One Keyword List Is Quietly Killing Your Content
 
-Plenty of teams treat a keyword list like a to-do list. You pull 2,000 keywords from Ahrefs, sort by volume, and start writing top to bottom. That's not a strategy. It's a pile of unsorted intent.
+Plenty of teams treat a keyword list like a to-do list. You pull 2,000 keywords from Ahrefs, sort by volume, and start writing top to bottom. That gives you a pile of unsorted intent rather than a strategy.
 
 The problem is that a flat list hides the only thing that matters, which is what the searcher is trying to do. A buyer searching "employee onboarding checklist" is curious. A buyer searching "BambooHR alternatives" is shopping. Write the same kind of page for both and you'll satisfy neither.
 
@@ -41,7 +42,7 @@ Map every keyword to one of three buyer-journey stages: awareness, consideration
 
 ![A spectrum showing how SaaS search queries shift from awareness to consideration to decision, with example phrasing and matching funnel stage at each point.](/images/blog-infographics/how-to-map-keywords-to-saas-buyer-journey-infographic-1.webp)
 
-### Awareness: they have a problem, not a solution in mind
+### Awareness: they have a problem but no solution in mind
 
 At the awareness stage the searcher knows something hurts but hasn't named the fix. They type questions: "why is my team missing deadlines," "what is SOC 2 compliance," "how to reduce customer churn." There's no product category in the query, often no commercial intent at all.
 

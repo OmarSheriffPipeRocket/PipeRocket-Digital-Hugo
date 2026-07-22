@@ -4,6 +4,7 @@ description: "BOFU pages don't rank in isolation. Here's how I rank comparison, 
 metaTitle: "How to Rank BOFU Keywords for SaaS: A Playbook"
 metaDescription: "How to rank BOFU keywords for SaaS (comparison, alternative, and pricing pages) on a low-authority domain, plus realistic ranking timelines."
 date: 2026-06-08
+lastmod: 2026-07-15
 slug: "how-to-rank-bofu-keywords-saas"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -19,7 +20,7 @@ This is the process I use to actually rank these pages, even on a young, low-aut
 ## TL;DR
 
 - **A BOFU page stalls on page 2 when it stands alone (the fix):** rankings come from supporting content and internal links that give Google a reason to trust the decision-stage page.
-- **Build five page types, not twenty (focus your authority):** use case, industry, comparison, alternative, and listicle pages are the only ones where buyers actually convert.
+- **Concentrate on five page types (focus your authority):** use case, industry, comparison, alternative, and listicle pages are the only ones where buyers actually convert, so pour your effort there instead of spreading it across twenty.
 - **Match the live SERP before writing (intent beats quality):** if your page format fights what already ranks, no amount of polish saves it, so build to the page type Google rewards.
 - **Borrow authority on a low-authority domain (act like a journalist):** cite high-authority sources, pull real dated pricing, and study who ranks rather than only who you compete with.
 - **Expect weeks to first movement, compounding around month six (plan the timeline):** BOFU ranks slower than people hope but faster than TOFU because the queries are lower-volume and less contested.
@@ -28,7 +29,7 @@ This is the process I use to actually rank these pages, even on a young, low-aut
 
 Because it's standing alone. Everyone says TOFU is dying (AI answers informational queries, Google summarises before the click), so teams go BOFU-only and skip the supporting content entirely. Then the comparison and alternatives pages sit on page 2 to 3 with nothing behind them.
 
-This is the core mistake, and it's a structural one. BOFU and TOFU aren't two separate problems. They're one engine, and the MOFU layer between them carries the load — [how to rank MOFU keywords](/blogs/how-to-rank-mofu-keywords-saas/) covers that half. TOFU-heavy sites pull traffic but book few demos. BOFU-only sites have the intent but never rank, because Google has no signal that you actually know the category.
+This is the core mistake, and it's a structural one. BOFU and TOFU aren't two separate problems. They're one engine, and the MOFU layer between them carries the load. [How to rank MOFU keywords](/blogs/how-to-rank-mofu-keywords-saas/) covers that half. TOFU-heavy sites pull traffic but book few demos. BOFU-only sites have the intent but never rank, because Google has no signal that you actually know the category.
 
 Organic search still drives 91.3% of SaaS traffic, so abandoning the supporting content that earns that visibility leaves your decision-stage pages with nothing behind them.
 
@@ -54,7 +55,7 @@ One thing teams get wrong constantly: comparison pages and alternative pages are
 
 An alternative visitor searching "Zendesk alternatives" is already frustrated with a tool they use and looking for an escape route. One is an argument; the other is a rescue. Write them the same way and both convert worse.
 
-Picture a compliance SaaS for fintech teams — a product with a [well-defined ICP](/glossary/what-is-icp/). Its "vs" page should reason through audit scope and SOC 2 readiness for a buyer deciding between two real options. Its "alternatives" page should open with the pain the incumbent tool caused, like slow evidence collection and manual screenshots, because that searcher already knows what they're escaping.
+Picture a compliance SaaS for fintech teams, a product with a [well-defined ICP](/glossary/what-is-icp/). Its "vs" page should reason through audit scope and SOC 2 readiness for a buyer deciding between two real options. Its "alternatives" page should open with the pain the incumbent tool caused, like slow evidence collection and manual screenshots, because that searcher already knows what they're escaping.
 
 ## Match the SERP Before You Write a Word
 

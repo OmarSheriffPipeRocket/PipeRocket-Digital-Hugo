@@ -4,6 +4,7 @@ description: "Keywords aren't one thing. They split by intent, length, and funne
 metaTitle: "Types of Keywords in SEO (SaaS Examples)"
 metaDescription: "The types of keywords in SEO, explained with real SaaS examples, sorted by intent, length, and funnel stage, so you target the ones that actually drive pipeline."
 date: 2026-06-08
+lastmod: 2026-07-15
 slug: "types-of-keywords-in-seo"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -16,7 +17,7 @@ Most SaaS teams treat both as "keywords" and write the same kind of content for 
 
 ## TL;DR
 
-- **Sort by what the searcher wants, not by volume:** The taxonomy exists to tell you what a buyer wants and how close they are to paying, so volume is the wrong place to start classifying.
+- **Sort by what the searcher wants first:** The taxonomy exists to tell you what a buyer wants and how close they are to paying, so volume is the wrong place to start classifying.
 - **Intent is the first and most important lens:** Every query is informational, navigational, commercial, or transactional, and each one maps to a different kind of page you have to build.
 - **Length is really a proxy for specificity:** Head terms bring volume and almost no buyers, while specific long-tail queries are where qualified SaaS pipeline actually lives.
 - **Funnel stage ties the lenses together:** Keywords move from ToFu awareness to BoFu decision, and BoFu is finite (roughly 40 to 60 pages) while ToFu is nearly infinite.
@@ -119,7 +120,7 @@ My [keyword research](/glossary/what-is-keyword-research/) master sheet has a co
 - **Length type:** head / body / long-tail
 - **Funnel stage:** ToFu / MoFu / BoFu
 - **Topic:** the pillar this keyword groups under (the crucial column)
-- **Priority:** P0 / P1 / P2 based on intent and fit, not volume
+- **Priority:** P0 / P1 / P2 based on intent and fit rather than volume
 
 The Topic column is what turns classification into a plan. "What is GRC," "GRC components," and "GRC examples" all map to one pillar page, not three thin articles, and grouping by topic tells you how many pages to actually build.
 

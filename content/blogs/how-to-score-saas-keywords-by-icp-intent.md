@@ -4,6 +4,7 @@ description: "A repeatable rubric for scoring SaaS keywords by how well they fit
 metaTitle: "Score SaaS Keywords by ICP Intent: A Rubric"
 metaDescription: "Score SaaS keywords by ICP fit, not volume. A five-signal rubric with weighting and a kill threshold you can run on your keyword list today."
 date: 2026-06-08
+lastmod: 2026-07-15
 slug: "how-to-score-saas-keywords-by-icp-intent"
 writtenBy: "kim"
 category: "SaaS SEO"
@@ -16,8 +17,8 @@ The question now isn't "is this a keyword," it's "does the person typing this lo
 
 ## TL;DR
 
-- **Why volume scores fail:** Difficulty and volume rate the keyword's SEO odds, not whether the searcher owns a problem you solve, so they keep greenlighting traffic that never converts.
-- **Score problem ownership:** The first and heaviest signal is whether the searcher personally owns the pain your product fixes, not whether they're vaguely "in your category."
+- **Why volume scores fail:** Difficulty and volume rate the keyword's SEO odds while staying silent on whether the searcher owns a problem you solve, so they keep greenlighting traffic that never converts.
+- **Score problem ownership:** The first and heaviest signal is whether the searcher personally owns the pain your product fixes rather than sitting vaguely "in your category."
 - **Score buying power and fit:** Rate whether the searcher's company size and role match the people who actually sign your contracts.
 - **Score the buying trigger:** Rate how close the search sits to a real trigger event, the moment something broke and they need a fix now.
 - **Weight and set a kill threshold:** Weight the three signals, total them out of a fixed number, and draw a hard line below which a keyword is dead no matter how good the volume looks.
