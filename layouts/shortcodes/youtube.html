@@ -30,4 +30,4 @@
 -}}
 {{- with $uploadDate }}{{ $schema = merge $schema (dict "uploadDate" .) }}{{ end -}}
 {{- with $duration }}{{ $schema = merge $schema (dict "duration" .) }}{{ end -}}
-<script type="application/ld+json">{{ $schema | jsonify }}</script>
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
