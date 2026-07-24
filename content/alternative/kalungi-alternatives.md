@@ -40,14 +40,14 @@ Choosing the wrong agency when leaving Kalungi costs more than a missed quarter.
 | --- | --- | --- | --- | --- |
 | Directive Consulting | High-ACV SaaS Customer Generation | [~$8,000/mo (reported)](https://clutch.co/profile/directive-consulting) | Yes | [4.8/5 (56 reviews)](https://clutch.co/profile/directive-consulting) |
 | PipeRocket Digital | B2B SaaS SEO and paid tied to pipeline | [$3,000/mo](/contact-us/) | Yes | [4.7/5 (16 reviews)](https://clutch.co/profile/piperocket-digital) |
-| Omniscient Digital | B2B SaaS organic growth and GEO | [$10,000/mo](https://beomniscient.com) | Yes | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
-| SimpleTiger | SaaS-only SEO and PPC execution | [Custom, $5,000+ min](https://www.simpletiger.com/pricing) | Yes | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
+| Omniscient Digital | B2B SaaS organic growth and GEO | [$10,000/mo](https://beomniscient.com) | Yes | [4.8/5 (6 reviews)](https://clutch.co/profile/omniscient-digital) |
+| SimpleTiger | SaaS-only SEO and PPC execution | [Custom, $5,000+ min](https://www.simpletiger.com/pricing) | Yes | [4.9/5 (31 reviews)](https://clutch.co/profile/simpletiger-0-0) |
 | Skale | SaaS SEO tied to MRR and signups | [~$8,000/mo](https://www.skale.so) | Yes | [4.9/5 (16 reviews)](https://clutch.co/profile/skale-0) |
 | NoGood | AI-native growth marketing, broad channel set | [Custom, ~$20,000/mo+](https://nogood.io) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
-| Powered by Search | B2B SaaS paid, SEO, and ABM combined | [Custom, $5,000+ min](https://www.poweredbysearch.com) | Yes | [4.8/5 (3 reviews, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/powered-search) |
-| Refine Labs | Paid demand gen for $30M+ ARR SaaS | [~$20,000/mo (reported)](https://www.refinelabs.com) | Yes | [4.8/5 (1 review, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/refine-labs) |
+| Powered by Search | B2B SaaS paid, SEO, and ABM combined | [Custom, $5,000+ min](https://www.poweredbysearch.com) | Yes | [4.8/5 (3 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/powered-search) |
+| Refine Labs | Paid demand gen for $30M+ ARR SaaS | [~$20,000/mo (reported)](https://www.refinelabs.com) | Yes | [4.8/5 (1 reference, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/refine-labs) |
 | Bay Leaf Digital | Full-service SaaS at accessible pricing | [Custom, $10,000+ min](https://www.bayleafdigital.com) | Yes | [5.0/5 (4 reviews)](https://clutch.co/profile/bay-leaf-digital) |
-| Ironpaper | B2B tech ABM and demand gen | [~$10,000/mo (reported)](https://www.ironpaper.com) | Yes | [4.8/5 (1 review, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/ironpaper) |
+| Ironpaper | B2B tech ABM and demand gen | [~$10,000/mo (reported)](https://www.ironpaper.com) | Yes | [4.8/5 (1 reference, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/ironpaper) |
 
 ## How We Chose These Kalungi Alternatives?
 
@@ -233,7 +233,7 @@ Also evaluating Jasper? See our [Jasper alternatives](/alternative/jasper-altern
 
 **Proof point:** Jasper saw 810% organic session growth and a 400x increase in product signups through Omniscient's SEO program. Order.co saw 2,117% growth in blog organic sessions and a 39x increase in conversions. Smartling generated $3.7M in pipeline via organic search ([source](https://beomniscient.com)).
 
-**Limitation:** Omniscient has only 5 verified Clutch reviews, thin independent social proof relative to the client calibre they serve. No paid media capability; clients needing a PPC partner must manage a separate vendor relationship. The $10,000/mo minimum still excludes pre-Series A teams.
+**Limitation:** Omniscient has only 6 verified Clutch reviews, thin independent social proof relative to the client calibre they serve. No paid media capability; clients needing a PPC partner must manage a separate vendor relationship. The $10,000/mo minimum still excludes pre-Series A teams.
 
 - SEO and content only, no paid media, ABM, or RevOps capability
 - Thin Clutch review base makes comparative due diligence harder than with agencies that have 30-plus reviews
@@ -264,14 +264,14 @@ Clutch reviewers describe a team that genuinely understands B2B software buying 
 
 **Complain:** Thin Clutch review base and no paid media capability
 
-With only 5 Clutch reviews, procurement teams can't rely on third-party volume to validate quality, direct reference checks matter more here than at agencies with 30-plus reviews ([source](https://clutch.co/profile/omniscient-digital)).
+With only 6 Clutch reviews, procurement teams can't rely on third-party volume to validate quality, direct reference checks matter more here than at agencies with 30-plus reviews ([source](https://clutch.co/profile/omniscient-digital)).
 
 - "Omniscient Digital was super easy to work with and talk to, and they clearly knew their stuff.", Director of Brand, AppSumo ([source](https://clutch.co/profile/omniscient-digital))
 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Rating | [4.8/5 (5 reviews)](https://clutch.co/profile/omniscient-digital) |
+| Rating | [4.8/5 (6 reviews)](https://clutch.co/profile/omniscient-digital) |
 
 ---
 
@@ -341,7 +341,7 @@ Buyers consistently note that SimpleTiger's pricing isn't visible on the site, r
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Rating | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
+| Rating | [4.9/5 (31 reviews)](https://clutch.co/profile/simpletiger-0-0) |
 
 ---
 
@@ -547,7 +547,7 @@ With no Clutch reviews and only 3 FeaturedCustomers testimonials, buyers cannot 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Rating | [4.8/5 (3 reviews, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/powered-search) |
+| Rating | [4.8/5 (3 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/powered-search) |
 
 ---
 
@@ -619,7 +619,7 @@ Industry-reported pricing at $20K-$31K/mo still excludes most Series A companies
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Rating | [4.8/5 (1 review, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/refine-labs) |
+| Rating | [4.8/5 (1 reference, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/refine-labs) |
 
 ---
 
@@ -713,11 +713,11 @@ Best for: B2B tech and SaaS companies with long sales cycles, niche buying group
 
 - Demand gen, ABM, content, and marketing automation combined, closest execution breadth to Kalungi on this list
 - Industry-reported retainers of $10K-$25K/mo represent a meaningful reduction from Kalungi's $45K+ floor
-- FeaturedCustomers profile shows 4.8/5 across 57 case studies, the largest case study library of any agency on this list
+- FeaturedCustomers profile shows 4.8/5 across 62 case studies, the largest case study library of any agency on this list
 
 **Proof point:** Mformation saw campaign conversion rates of 16-18%, which Head of Product and Marketing Christine Bolles described as "unbelievable", attributing the result to Ironpaper's ability to shift the company's focus rather than just optimize existing tactics ([source](https://www.featuredcustomers.com/vendor/ironpaper)).
 
-**Limitation:** Ironpaper has zero Clutch reviews and only 1 FeaturedCustomers testimonial (alongside 57 case studies that are largely anonymised by industry type rather than named client). This makes third-party verification very difficult. Pricing is not published. Their broader B2B generalist scope (tech, IT, industrial alongside SaaS) means less SaaS-native depth than Kalungi or the SaaS-only specialists on this list.
+**Limitation:** Ironpaper has zero Clutch reviews and only 1 FeaturedCustomers testimonial (alongside 62 case studies that are largely anonymised by industry type rather than named client). This makes third-party verification very difficult. Pricing is not published. Their broader B2B generalist scope (tech, IT, industrial alongside SaaS) means less SaaS-native depth than Kalungi or the SaaS-only specialists on this list.
 
 - Zero Clutch reviews and 1 named testimonial, due diligence is essentially limited to case study analysis and direct reference conversations
 - More B2B generalist than SaaS-specialist: industrial and IT verticals share the same team as pure-play SaaS
@@ -755,7 +755,7 @@ Most Ironpaper case studies identify clients by industry type rather than brand 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Rating | [4.8/5 (1 review, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/ironpaper) |
+| Rating | [4.8/5 (1 reference, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/ironpaper) |
 
 ---
 

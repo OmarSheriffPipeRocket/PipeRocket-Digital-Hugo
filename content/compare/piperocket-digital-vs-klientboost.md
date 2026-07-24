@@ -54,7 +54,7 @@ backgrounds:
   heading: "Company profile"
   companies:
     - name: "PipeRocket"
-      meta: "Founded 2023 · Boutique pod · 50+ B2B SaaS clients"
+      meta: "Founded 2023 · Boutique pod · 70+ B2B SaaS clients"
       body: >-
         PipeRocket is a B2B-SaaS-only agency founded in 2023. SEO and PPC
         live in one retainer with pipeline-level reporting (MQL, CAC,
@@ -275,10 +275,10 @@ Same axis, both columns filled. A comparison page that only shows wins on one si
 | Metric | PipeRocket | KlientBoost |
 |---|---|---|
 | Clutch rating | 4.7 / 5 | 4.9 / 5 |
-| G2 rating | 4.8 / 5 | 4.8 / 5 |
-| Verified reviews | 13 | 400+ (Clutch), 381+ (G2) |
+| G2 rating | Not on G2 | 4.8 / 5 |
+| Verified reviews | 16 | 400+ (Clutch), 381+ (G2) |
 | Reviewer profile | Seed, Series B SaaS | SaaS + eCommerce, Series A, C |
-| Lifetime clients | 50+ B2B SaaS | 250+ active clients |
+| Lifetime clients | 70+ B2B SaaS | 250+ active clients |
 | Listed on Clutch as | SaaS marketing specialist | Top PPC & CRO agency |
 
 > "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months."

@@ -72,7 +72,7 @@ Best for: High-ACV SaaS and fintech companies with multi-quarter sales cycles ne
 | | |
 | --- | --- |
 | Location | Irvine, CA; offices in Austin TX and Toronto |
-| Founded | 2014 |
+| Founded | 2013 |
 | Team Size | 50-249 people |
 | Notable Clients | iCIMS, Intel, Cisco, ZoomInfo, Seismic, Calendly, Adobe |
 | Specialization | Customer Generation, paid media, SEO, CRO, revenue operations |
@@ -84,7 +84,7 @@ Also evaluating Zoominfo? See our [Zoominfo alternatives](/alternative/zoominfo-
 **Differentiator:** Directive's proprietary Stratos AI platform unifies CRM, paid media, SEO, and ops data in one view, giving B2B marketers real-time clarity that WebFX's MarketingCloudFX doesn't replicate for SaaS-specific cost-per-customer reporting.
 
 - Startup managed package publicly reported at $6,500/mo, making it the lowest documented entry point for the Customer Generation model
-- 420-plus B2B SaaS and fintech brands served since 2014, with $1B-plus in client revenue attributed to the methodology
+- 420-plus B2B SaaS and fintech brands served since 2013, with $1B-plus in client revenue attributed to the methodology
 - Customer Generation optimises for cost-per-customer closed, not cost-per-lead, which is the specific gap buyers identify when leaving WebFX
 
 **Proof point:** DBT (data transformation) hired Directive to launch their first paid media campaign around a conference. Directive exceeded DBT's growth goals by nearly 2x on that first engagement, leading to an expanded ongoing relationship ([source](https://directiveconsulting.com)).

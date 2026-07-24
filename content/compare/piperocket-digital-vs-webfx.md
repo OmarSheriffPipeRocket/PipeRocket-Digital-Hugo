@@ -53,7 +53,7 @@ backgrounds:
   heading: "Company profile"
   companies:
     - name: "PipeRocket"
-      meta: "Founded 2023 · Boutique pod · 50+ B2B SaaS clients"
+      meta: "Founded 2023 · Boutique pod · 70+ B2B SaaS clients"
       body: >-
         B2B SaaS-only agency. SEO and PPC in one retainer with
         pipeline-level reporting (MQL, CAC, pipeline value) from week
@@ -156,9 +156,9 @@ reporting:
         - "MQLs, 142 (+18 vs prior mo)"
         - "SQLs, 38 (+9)"
         - "Pipeline ($)-$412K (+$96K)"
-        - "Blended CAC, $1,180 (−$220)"
-        - "CAC payback-9.4 mo (−1.3 mo)"
-        - "Cost per SQL, $840 (−$160)"
+        - "Blended CAC, $1,180 (-$220)"
+        - "CAC payback-9.4 mo (-1.3 mo)"
+        - "Cost per SQL, $840 (-$160)"
   note: >-
     Outcome metrics tied directly to revenue and CFO conversations. Every
     PipeRocket engagement reports against outcome metrics from week 4
@@ -276,10 +276,10 @@ featuredImage: "/images/compare-covers/piperocket-digital-vs-webfx.webp"
 | Metric | PipeRocket | WebFX |
 |---|---|---|
 | Clutch rating | 4.7 / 5 | 4.9 / 5 |
-| G2 rating | 4.8 / 5 | 4.8 / 5 |
-| Verified reviews | 13 | 450 (Clutch), 214 (G2) |
+| G2 rating | Not rated | 4.8 / 5 |
+| Verified reviews | 16 | 450 (Clutch), 214 (G2) |
 | Reviewer profile | Seed, Series B SaaS | SMB to mid-market, all industries |
-| Lifetime clients | 50+ B2B SaaS | 1,000+ clients across 150+ industries |
+| Lifetime clients | 70+ B2B SaaS | 1,000+ clients across 150+ industries |
 | Listed on Clutch as | SaaS marketing specialist | #1 Digital Marketing Agency (multiple years) |
 
 > "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months."

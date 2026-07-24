@@ -173,10 +173,6 @@ Instapage earns its higher price when personalization and heatmap-level analytic
 
 Instapage uses tiered, visitor-metered pricing. As of July 2026, Create runs $99/mo (15,000 monthly unique visitors), Optimize is $199/mo (30,000 visitors, with a discounted rate at higher visitor tiers per page copy), and Convert is custom pricing; all plans include unlimited pages, conversions, and contacts.
 
-Also evaluating Convert? See our [Convert alternatives](/alternative/convert-alternatives/) breakdown.
-
-
-
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
 | Create | $99/mo | 15,000 monthly unique visitors, unlimited pages |

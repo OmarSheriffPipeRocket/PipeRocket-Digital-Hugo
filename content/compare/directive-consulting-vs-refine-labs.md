@@ -151,7 +151,7 @@ pricing:
     - { label: "Starting price",        a: "~$5K-$10K / mo (single channel)", b: "~$20K / mo (paid media)" }
     - { label: "Full-service range",    a: "$10K-$25K+ / mo (multi-channel)", b: "~$31K / mo (full service)" }
     - { label: "One-time assessment",   a: "Not publicly listed",     b: "$35,000 (6-8 week)" }
-    - { label: "Minimum project size",  a: "$10,000+ (Clutch)",       b: "$25,000+ (Clutch)" }
+    - { label: "Minimum project size",  a: "$5,000+ (Clutch)",        b: "$25,000+ (Clutch)" }
     - { label: "Typical contract",      a: "3-6 months",              b: "6-12 months (secondary)" }
 
 faqs:

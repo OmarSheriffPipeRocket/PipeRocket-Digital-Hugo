@@ -215,10 +215,6 @@ Best for: Performance marketers who need predictive performance scoring on ad co
 
 [Anyword](https://www.anyword.com) does something none of the other tools in this list do: it scores how likely a piece of copy is to convert before you publish it, using historical performance data from your own ad account. Jasper generates copy; Anyword predicts which copy will work.
 
-Also evaluating Convert? See our [Convert alternatives](/alternative/convert-alternatives/) breakdown.
-
-
-
 **Tool Snapshot**
 
 | | |

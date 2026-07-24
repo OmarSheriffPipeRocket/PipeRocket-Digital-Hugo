@@ -55,7 +55,7 @@ backgrounds:
   heading: "Company profile"
   companies:
     - name: "PipeRocket"
-      meta: "Founded 2023 · Boutique pod · 50+ B2B SaaS clients"
+      meta: "Founded 2023 · Boutique pod · 70+ B2B SaaS clients"
       body: >-
         B2B SaaS-only agency with SEO and PPC in one retainer, pipeline
         reporting from week four, and a senior pod on every account.
@@ -85,7 +85,7 @@ backgrounds:
         - { label: "Team",            value: "10-49 employees" }
         - { label: "Founders",        value: "Alex Birkett, David Ly Khim, Allie Konchar" }
         - { label: "Notable clients", value: "SAP, Adobe, Loom, Jasper, Asana, AppSumo, TikTok" }
-        - { label: "Public rating",   value: "4.8, Clutch (5 reviews)" }
+        - { label: "Public rating",   value: "4.8, Clutch (6 reviews)" }
       credentials:
         certifications:
           - "HubSpot Solutions Provider (tier unspecified)"
@@ -96,7 +96,7 @@ at_a_glance:
   - { label: "Core motion",     a: "SEO-led",         b: "Content-led SEO" }
   - { label: "Starting price",  a: "$3,000 / mo",     b: "$10,000 / mo" }
   - { label: "Min contract",    a: "3 months",        b: "Not publicly listed" }
-  - { label: "Public rating",   a: "4.7, Clutch",    b: "4.8, Clutch (5 reviews)" }
+  - { label: "Public rating",   a: "4.7, Clutch",    b: "4.8, Clutch (6 reviews)" }
 
 services:
   heading: "Capability comparison"
@@ -150,10 +150,10 @@ reporting:
       metrics:
         - "MQLs, 142 (+18 vs prior mo)"
         - "SQLs, 38 (+9)"
-        - "Pipeline ($)-$412K (+$96K)"
-        - "Blended CAC, $1,180 (−$220)"
-        - "CAC payback-9.4 mo (−1.3 mo)"
-        - "Cost per SQL, $840 (−$160)"
+        - "Pipeline ($), $412K (+$96K)"
+        - "Blended CAC, $1,180 (-$220)"
+        - "CAC payback, 9.4 mo (-1.3 mo)"
+        - "Cost per SQL, $840 (-$160)"
   note: >-
     The difference matters because the second report can defend a marketing
     budget in a board meeting. The first cannot. Every PipeRocket
@@ -268,9 +268,9 @@ featuredImage: "/images/compare-covers/piperocket-digital-vs-omniscient-digital.
 |---|---|---|
 | Clutch rating | 4.7 / 5 | 4.8 / 5 |
 | G2 rating | 4.8 / 5 | Not listed |
-| Verified reviews | 13 | 5 (Clutch) |
+| Verified reviews | 16 | 6 (Clutch) |
 | Reviewer profile | Seed, Series B SaaS | Series A, B B2B SaaS (SAP, Adobe, Loom level) |
-| Lifetime clients | 50+ B2B SaaS | Select roster of B2B SaaS companies |
+| Lifetime clients | 70+ B2B SaaS | Select roster of B2B SaaS companies |
 
 > "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months."
 >

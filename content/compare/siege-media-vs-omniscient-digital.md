@@ -57,7 +57,7 @@ short_answer:
 
 at_a_glance:
   - { label: "Founded",         a: "2012",                 b: "2019" }
-  - { label: "HQ",              a: "San Diego, CA (+3 offices)", b: "Austin, TX" }
+  - { label: "HQ",              a: "San Diego, CA (+4 offices)", b: "Austin, TX" }
   - { label: "Core motion",     a: "Content + SEO + digital PR", b: "Content + SEO + GEO (revenue-focused)" }
   - { label: "Starting price",  a: "~$8,000 / mo",         b: "$10,000 / mo" }
   - { label: "Public rating",   a: "4.9, Clutch (46 reviews)", b: "4.8, Clutch (5 reviews)" }
@@ -67,7 +67,7 @@ backgrounds:
   heading: "Company profile"
   companies:
     - name: "Siege Media"
-      meta: "Founded 2012 · San Diego, CA + 3 offices · ~100-110 employees"
+      meta: "Founded 2012 · San Diego, CA + 4 offices · ~100-110 employees"
       body: >-
         Founded by Ross Hudgens in 2012, Siege Media is a content marketing
         and SEO agency known for high-volume, high-quality content paired with
@@ -76,7 +76,7 @@ backgrounds:
         optimisation) alongside traditional content and SEO.
       facts:
         - { label: "Founded",         value: "2012" }
-        - { label: "HQ",              value: "San Diego, CA + 3 offices" }
+        - { label: "HQ",              value: "San Diego, CA + 4 offices" }
         - { label: "Team",            value: "~100-110 employees" }
         - { label: "Founders",        value: "Ross Hudgens (Founder & CEO)" }
         - { label: "Notable clients", value: "Zendesk, Zapier, Instacart, HubSpot, Asana, Skyscanner" }
@@ -125,7 +125,7 @@ team:
   heading: "Team structure"
   columns:
     - heading: "Siege Media"
-      subheading: "~100-110 across 4 offices; editorial + SEO + digital PR pods"
+      subheading: "~100-110 across 5 offices; editorial + SEO + digital PR pods"
       members:
         - { role: "Content strategist / editor", seniority: "Senior" }
         - { role: "SEO specialists",             seniority: "In-house" }
@@ -228,7 +228,7 @@ Both are excellent at the core job, content and organic SEO for B2B SaaS, and bo
 | **GEO / AI search** | Offers GEO with proprietary tooling | Names GEO as a core offering, central to the pitch |
 | **Positioning** | Content at volume and quality | "Revenue, not traffic", outcome-led framing |
 | **Brand pedigree** | Zendesk, Zapier, Instacart, HubSpot, Asana | SAP, Adobe, Loom, Jasper, Asana, AppSumo |
-| **Team model** | ~100-110 staff across 4 offices, built for volume | Senior small team (10-49), low junior handoff |
+| **Team model** | ~100-110 staff across 5 offices, built for volume | Senior small team (10-49), low junior handoff |
 | **Entry price** | ~$8K/mo; PR scoped separately | $10K/mo floor; 6-month minimum recommended |
 
 ## Ratings & track record

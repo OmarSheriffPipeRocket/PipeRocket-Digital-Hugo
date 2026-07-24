@@ -278,8 +278,7 @@ featuredImage: "/images/compare-covers/piperocket-digital-vs-nogood.webp"
 | Metric | PipeRocket | NoGood |
 |---|---|---|
 | Clutch rating | 4.7 / 5 | 5.0 / 5 |
-| G2 rating | 4.8 / 5 | Not listed |
-| Verified reviews | 13 | 1 (Clutch), relies on direct referrals |
+| Verified reviews | 16 | 1 (Clutch), relies on direct referrals |
 | Reviewer profile | Seed, Series B SaaS | VC-backed startups and enterprise brands |
 | Lifetime clients | 50+ B2B SaaS | Nike, TikTok, Amazon, Intuit, SteelSeries, MongoDB, Spring Health and more |
 | Listed on Clutch as | SaaS marketing specialist | Growth marketing agency, New York |

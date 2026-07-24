@@ -487,10 +487,6 @@ The intentional constraint of 8 articles per month at the top tier is a feature 
 
 ---
 
-Also evaluating Convert? See our [Convert alternatives](/alternative/convert-alternatives/) breakdown.
-
-
-
 ### 6. Siege Media
 
 Best for: SaaS brands needing high-velocity content production, digital PR, and GEO at enterprise scale with HubSpot, Asana, and Zapier as reference clients

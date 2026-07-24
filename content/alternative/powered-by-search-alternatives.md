@@ -42,10 +42,10 @@ Leaving a well-regarded agency like Powered by Search without a clear reason is 
 | Refine Labs | Pipeline-first demand gen for Series B-plus | [$20,000/mo](https://www.refinelabs.com/pricing) | Yes | [4.8/5 (4 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/refine-labs) |
 | Kalungi | Fractional CMO plus GTM for pre-Series B | [Custom pricing](https://www.kalungi.com) | Yes | [4.8/5 (52 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/kalungi) |
 | Skale | SEO-only, revenue-tied organic for SaaS | [$5,000/mo](https://www.skale.so) | Yes | [4.9/5 (16 reviews)](https://clutch.co/profile/skale-0) |
-| SimpleTiger | SaaS SEO and PPC bundled at lower floor | [$5,000/mo](https://www.simpletiger.com) | Yes | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
+| SimpleTiger | SaaS SEO and PPC bundled at lower floor | [$5,000/mo](https://www.simpletiger.com) | Yes | [4.9/5 (31 reviews)](https://clutch.co/profile/simpletiger-0-0) |
 | NoGood | AI-native growth marketing, brand plus demand | [Custom, ~$20,000/mo+](https://nogood.io) | Yes | [5.0/5 (1 review)](https://clutch.co/profile/nogood) |
 | Bay Leaf Digital | US SaaS with published pricing | [$3,999/mo](https://www.bayleafdigital.com/pricing/) | Yes | [5.0/5 (4 reviews)](https://clutch.co/profile/bay-leaf-digital) |
-| Ironpaper | Long-cycle B2B ABM and HubSpot infrastructure | [Custom, $25,000+ project](https://www.ironpaper.com) | Yes | [4.8/5 (58 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/ironpaper) |
+| Ironpaper | Long-cycle B2B ABM and HubSpot infrastructure | [Custom, $25,000+ project](https://www.ironpaper.com) | Yes | [4.8/5 (63 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/ironpaper) |
 
 ## How We Chose These Powered by Search Alternatives?
 
@@ -383,10 +383,6 @@ US-heavy accounts mention timezone friction as a coordination challenge, and tea
 
 **Wrong Match:** Companies that need paid media execution alongside SEO under one retainer, or early-stage SaaS without a clear ICP and landing page infrastructure for organic traffic to convert.
 
-Also evaluating Convert? See our [Convert alternatives](/alternative/convert-alternatives/) breakdown.
-
-
-
 **Where It Falls Short:** SEO-only means no paid media, no demand strategy, no ABM. London-based team creates timezone overhead for US-heavy accounts. No published pricing tiers.
 
 - Less suited for companies at the stage where organic-to-paid attribution coordination across channels is the core need
@@ -457,7 +453,7 @@ The intentionally small "3-6 specialists" model caps enterprise concurrency. Tea
 
 **Where It Falls Short:** Boutique team model limits capacity for large enterprise programs. No published pricing tiers. Less ABM and RevOps depth than PBS's full Predictable Growth Model.
 
-- Smaller review base (30 Clutch reviews) than Directive for procurement teams that weight review volume
+- Smaller review base (31 Clutch reviews) than Directive for procurement teams that weight review volume
 - Primarily organic and paid, content strategy beyond SEO and full RevOps are lighter
 
 **Analyst's Note:** SimpleTiger is the most direct structural substitute for Powered by Search on this list, same channel combination (SEO + PPC), same SaaS-only positioning, lower floor. The 20-year SaaS track record is the clearest credibility signal for teams doing risk-weighted vendor comparisons.
@@ -475,7 +471,7 @@ SimpleTiger lists a $5,000+ minimum on Clutch. Three published tiers (Guidance, 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Rating | [4.9/5 (30 reviews)](https://clutch.co/profile/simpletiger-0-0) |
+| Rating | [4.9/5 (31 reviews)](https://clutch.co/profile/simpletiger-0-0) |
 
 ---
 
@@ -647,9 +643,9 @@ Best for: B2B companies in manufacturing, IT, telecom, and SaaS with complex mul
 
 **Love:** ABM rigor and HubSpot infrastructure depth
 
-FeaturedCustomers references (57 case studies) describe consistent execution of long-cycle B2B demand gen with HubSpot as the backbone, a combination that most agencies claim but few can demonstrate at the case-study volume Ironpaper has built over 20+ years ([source](https://www.featuredcustomers.com/vendor/ironpaper)).
+FeaturedCustomers references (62 case studies) describe consistent execution of long-cycle B2B demand gen with HubSpot as the backbone, a combination that most agencies claim but few can demonstrate at the case-study volume Ironpaper has built over 20+ years ([source](https://www.featuredcustomers.com/vendor/ironpaper)).
 
-- 58 total FeaturedCustomers references is the largest evidence pool among the 0-Clutch-review agencies on this list
+- 63 total FeaturedCustomers references is the largest evidence pool among the 0-Clutch-review agencies on this list
 
 **Complain:** No Clutch reviews and thin named SaaS client roster
 
@@ -681,7 +677,7 @@ Ironpaper doesn't publish retainer pricing. A $25,000+ project minimum is cited 
 | Criteria | Detail |
 | --- | --- |
 | Free Consultation | Yes |
-| Rating | [4.8/5 (58 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/ironpaper) |
+| Rating | [4.8/5 (63 references, FeaturedCustomers)](https://www.featuredcustomers.com/vendor/ironpaper) |
 
 ---
 

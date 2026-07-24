@@ -471,10 +471,6 @@ One reviewer flagged a rough transition when a highly-praised writer was replace
 
 ---
 
-Also evaluating Convert? See our [Convert alternatives](/alternative/convert-alternatives/) breakdown.
-
-
-
 ### 7. Foundation Marketing
 
 Best for: Midmarket and enterprise IT/B2B teams wanting SEO-led content plus video under one roof

@@ -54,7 +54,7 @@ backgrounds:
   heading: "Company profile"
   companies:
     - name: "PipeRocket"
-      meta: "Founded 2023 · Boutique pod · 50+ B2B SaaS clients"
+      meta: "Founded 2023 · Boutique pod · 70+ B2B SaaS clients"
       body: >-
         B2B SaaS-only agency with SEO and PPC under one retainer.
         Pipeline reporting (MQL, CAC, pipeline value) from week four.
@@ -71,7 +71,7 @@ backgrounds:
           - "Google Partner"
           - "Meta Business Partner"
     - name: "Siege Media"
-      meta: "Founded 2012 · San Diego, CA + 3 offices · ~100-110 employees"
+      meta: "Founded 2012 · Austin, TX + 3 offices · ~100-110 employees"
       body: >-
         Founded by Ross Hudgens. Content marketing and SEO for SaaS,
         fintech, and finance. Notable clients include Zendesk, Zapier,
@@ -79,7 +79,7 @@ backgrounds:
         Best Places to Work. Rating: 4.9, Clutch.
       facts:
         - { label: "Founded",         value: "2012" }
-        - { label: "HQ",              value: "San Diego, CA + 3 offices" }
+        - { label: "HQ",              value: "Austin, TX + 3 offices" }
         - { label: "Team",            value: "~100-110 employees" }
         - { label: "Founders",        value: "Ross Hudgens (Founder & CEO)" }
         - { label: "Notable clients", value: "Zendesk, Zapier, Instacart, HubSpot, Asana, Skyscanner" }
@@ -268,10 +268,10 @@ featuredImage: "/images/compare-covers/piperocket-digital-vs-siege-media.webp"
 | Metric | PipeRocket | Siege Media |
 |---|---|---|
 | Clutch rating | 4.7 / 5 | 4.9 / 5 |
-| G2 rating | 4.8 / 5 | Not confirmed |
-| Verified reviews | 13 | 46 (Clutch) |
+| G2 rating | Not rated | Not confirmed |
+| Verified reviews | 16 | 47 (Clutch) |
 | Reviewer profile | Seed, Series B SaaS | Series A, C SaaS, fintech, and travel brands |
-| Lifetime clients | 50+ B2B SaaS | Enterprise + growth-stage incl. Zendesk, Instacart |
+| Lifetime clients | 70+ B2B SaaS | Enterprise + growth-stage incl. Zendesk, Instacart |
 | Listed on Clutch as | SaaS marketing specialist | Top content marketing & SEO agency |
 
 > "PipeRocket is exactly what HyperVerge needed to start our performance marketing efforts. Their experience and actionable strategies brought in 51 high-quality MQLs in just three months."

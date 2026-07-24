@@ -528,10 +528,6 @@ Clients needing technical SEO or link building alongside content have to pair Gr
 | Free Consultation | Yes |
 | Rating | [4.8/5 (10 reviews)](https://clutch.co/profile/grow-convert) |
 
-Also evaluating Convert? See our [Convert alternatives](/alternative/convert-alternatives/) breakdown.
-
-
-
 ### 8. Kalungi
 
 Best for: SaaS companies with no in-house marketing leader to operate a platform like Conductor in the first place

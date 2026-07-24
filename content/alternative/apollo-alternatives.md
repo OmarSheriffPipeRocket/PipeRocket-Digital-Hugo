@@ -555,10 +555,6 @@ The third reason is a deliverability problem: because so many teams run Apollo's
 
 Configuring a sales intelligence stack, cleaning enrichment data, and building outbound sequences that actually convert takes real operating time, on top of picking the right tool. If the goal is more qualified pipeline rather than a better dashboard, it's worth weighing whether a specialist team running the whole motion is a better investment than another subscription.
 
-Also evaluating Convert? See our [Convert alternatives](/alternative/convert-alternatives/) breakdown.
-
-
-
 Our team at PipeRocket Digital runs SEO and paid pipeline programs for B2B SaaS companies, and if you'd rather have an agency run your B2B sales intelligence and prospecting motion end to end instead of managing another tool yourself, [reach out to us](/contact-us/) and we can talk through what that looks like.
 
 ---
