@@ -12,7 +12,7 @@ writtenBy: "kim"
 category: "AI Search"
 ---
 
-AI SEO is SEO done for the AI era: you keep winning classic search while also getting found in answer engines and generative assistants, and you use AI responsibly in your own workflow. It is the umbrella over two more specific disciplines, AEO and GEO. This is the AI SEO checklist we run for clients at PipeRocket Digital.
+AI SEO is SEO done for the AI era: you keep winning classic search while also getting found in answer engines and generative assistants, and you use AI responsibly in your own workflow. It is the umbrella over two more specific disciplines, AEO and GEO. This is the AI SEO checklist we run for clients as a SaaS [AI SEO agency](/saas-seo-agency/ai-seo-services/).
 
 It is interactive. Tick each item as you finish it, your progress saves in your browser, and you can download the whole thing as a PDF.
 

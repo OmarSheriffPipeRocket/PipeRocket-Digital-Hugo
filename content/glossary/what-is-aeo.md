@@ -13,7 +13,7 @@ toc: true
 readingTime: "10 min read"
 ---
 
-AEO ([Answer Engine Optimization](/blogs/how-to-do-geo-for-saas/)) is the practice of structuring content so search engines and AI assistants can extract it as the direct answer to a question. Instead of competing for a click, you're competing to be the passage an [AI Overview](/glossary/what-is-an-ai-overview/), a featured snippet, or a chatbot pulls and shows.
+AEO (Answer Engine Optimization) is the practice of structuring content so search engines and AI assistants can extract it as the direct answer to a question. Instead of competing for a click, you're competing to be the passage an [AI Overview](/glossary/what-is-an-ai-overview/), a featured snippet, or a chatbot pulls and shows.
 
 ## TL;DR
 
@@ -134,4 +134,4 @@ Look past the page's own sessions. Compare branded search volume and direct traf
 
 ## The Bottom Line
 
-AEO is the cheapest visibility upgrade for most SaaS sites, because it mostly means restructuring pages you already have. Pick your 20 highest-value buyer questions, answer each one under its own heading, and track placement ownership. Want this done properly? [Get in touch](https://www.piperocket.co/contact) or see our [SaaS SEO service](https://www.piperocket.co/saas-seo).
+AEO is the cheapest visibility upgrade for most SaaS sites, because it mostly means restructuring pages you already have. Pick your 20 highest-value buyer questions, answer each one under its own heading, and track placement ownership. Want this done properly? [Get in touch](/contact-us/) or work with an [AEO agency for SaaS](/saas-seo-agency/ai-seo-services/).

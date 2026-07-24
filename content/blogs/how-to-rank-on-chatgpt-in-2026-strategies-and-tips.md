@@ -61,7 +61,7 @@ The system might be hallucinating, or the live data it’s pulling from might ha
 
 ### **People think AEO / GEO is its own thing**
 
-Marketers love new acronyms. Now they’re talking about [Answer Engine Optimization](/glossary/what-is-aeo/) (AEO) and [Generative Engine](/list/best-saas-geo-agencies/ "Best SaaS GEO Agencies") Optimization ([GEO](/glossary/what-is-geo/)) like it’s this separate department. It’s not. We view it as just another layer of your [SaaS SEO](/blogs/saas-seo/). There is no fundamental difference between optimizing for a keyword and optimizing for a prompt.
+Marketers love new acronyms. Now they’re talking about [Answer Engine Optimization](/glossary/what-is-aeo/) (AEO) and [Generative Engine](/list/best-saas-geo-agencies/ "Best SaaS GEO Agencies") Optimization ([GEO](/glossary/what-is-geo/)) like it’s this separate department. It’s not. We view it as just another layer of your [SaaS SEO](/blogs/saas-seo/), and our [AI SEO services](/saas-seo-agency/ai-seo-services/) run AEO and GEO inside one program. There is no fundamental difference between optimizing for a keyword and optimizing for a prompt.
 
 Google says the same thing. Its own [AI-optimization guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) tells you there is no special work for AI features. You don’t need an [llms.txt file](/blogs/llms-txt-for-saas/) or bespoke schema. Good SEO is the optimization. Anyone selling you a separate “GEO checklist” is selling you the same fundamentals with a new label.
 

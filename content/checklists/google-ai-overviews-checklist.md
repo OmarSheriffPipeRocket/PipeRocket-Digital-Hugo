@@ -12,7 +12,7 @@ writtenBy: "kim"
 category: "AI Search"
 ---
 
-Google AI Overviews (AIO) are the AI-generated answers at the top of Google results, and they mostly draw from pages that already rank well and answer the query cleanly. Optimising for them is the Google-specific execution of our broader [AEO checklist](/checklists/aeo-checklist/). This is the AIO checklist we run for clients at PipeRocket Digital.
+Google AI Overviews (AIO) are the AI-generated answers at the top of Google results, and they mostly draw from pages that already rank well and answer the query cleanly. Optimising for them is the Google-specific execution of our broader [AEO checklist](/checklists/aeo-checklist/). This is the AIO checklist we run for clients as a SaaS [AI SEO agency](/saas-seo-agency/ai-seo-services/).
 
 It is interactive. Tick each item as you finish it, your progress saves in your browser, and you can download the whole thing as a PDF or Excel.
 

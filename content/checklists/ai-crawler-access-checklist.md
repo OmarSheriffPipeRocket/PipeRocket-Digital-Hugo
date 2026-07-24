@@ -12,7 +12,7 @@ writtenBy: "kim"
 category: "AI Search"
 ---
 
-You cannot be cited by an AI engine that cannot read your site. This checklist helps you make a deliberate decision about which AI crawlers to allow, then confirm the ones you want can actually reach your content. It is the technical prerequisite behind our [GEO](/checklists/geo-checklist/) and platform checklists, and the one we run first for clients at PipeRocket Digital.
+You cannot be cited by an AI engine that cannot read your site. This checklist helps you make a deliberate decision about which AI crawlers to allow, then confirm the ones you want can actually reach your content. It is the technical prerequisite behind our [GEO](/checklists/geo-checklist/) and platform checklists, and the one our [AI SEO agency](/saas-seo-agency/ai-seo-services/) runs first for clients at PipeRocket Digital.
 
 It is interactive. Tick each item as you finish it, your progress saves in your browser, and you can download the whole thing as a PDF or Excel.
 

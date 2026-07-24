@@ -163,7 +163,7 @@ Treat that number as a stage-dependent range rather than a fixed rule. The point
 
 ### Decide What Stays In-House and What Doesn't
 
-Split the work by whether it needs deep product context or specialist repetition. First-hand, POV-heavy content needs your internal knowledge of the [ICP](/glossary/what-is-icp/) and can't be fully outsourced. Schema implementation, technical audits, and review-profile operations are specialist, repeatable work an agency can own.
+Split the work by whether it needs deep product context or specialist repetition. First-hand, POV-heavy content needs your internal knowledge of the [ICP](/glossary/what-is-icp/) and can't be fully outsourced. Schema implementation, technical audits, and review-profile operations are specialist, repeatable work an [AI SEO agency](/saas-seo-agency/ai-seo-services/) can own.
 
 A lean team keeps the objective-setting and the first-hand content in-house and hands the repeatable execution to a partner. That keeps the un-fakeable part, your real experience and your ICP's actual language, where only you can produce it.
 

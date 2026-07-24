@@ -130,4 +130,4 @@ Not cleanly. The `nosnippet` and `max-snippet` directives limit what Google can 
 
 The teams winning AI Overview citations aren't running a new playbook, they're running the old one with sharper writing. Restructure your informational pages to answer first, then put the reclaimed effort into the commercial pages Overviews can't replace.
 
-If you want help building content that gets cited and converts, [get in touch](https://www.piperocket.co/contact) or see how the [best SaaS SEO agencies](https://piperocket.digital/list/best-saas-seo-agencies/) are handling AI search.
+If you want help getting cited in AI Overviews, [get in touch](/contact-us/), work with an [AI SEO agency for SaaS](/saas-seo-agency/ai-seo-services/), or see how the [best SaaS SEO agencies](/list/best-saas-seo-agencies/) are handling AI search.

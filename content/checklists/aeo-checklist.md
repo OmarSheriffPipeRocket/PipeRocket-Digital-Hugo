@@ -12,7 +12,7 @@ writtenBy: "kim"
 category: "AI Search"
 ---
 
-Answer Engine Optimization (AEO) is the practice of structuring content so it gets pulled directly into answers: featured snippets, People Also Ask, and Google's AI Overviews. Where classic SEO chases the blue link, AEO chases the answer box above it. This is the AEO checklist we run for clients at PipeRocket Digital.
+Answer Engine Optimization (AEO) is the practice of structuring content so it gets pulled directly into answers: featured snippets, People Also Ask, and Google's AI Overviews. Where classic SEO chases the blue link, AEO chases the answer box above it. This is the AEO checklist we run for clients as a SaaS [AEO agency](/saas-seo-agency/ai-seo-services/).
 
 It is interactive. Tick each item as you finish it, your progress saves in your browser, and you can download the whole thing as a PDF.
 

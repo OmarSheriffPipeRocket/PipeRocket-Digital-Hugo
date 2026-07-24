@@ -136,4 +136,4 @@ LLM costs vary widely based on provider, usage, and volume. API models like GPT-
 
 LLMs are powerful, but they’re not plug-and-play magic real value comes from tuning, guardrails, and ongoing review. Ignore the hype, build with intent, and your SaaS will avoid the most painful LLM mistakes.
 
-If you want to see how LLMs fit your SaaS growth stack, [get in touch](https://piperocket.digital/contact-us/). For hands-on help aligning AI with your goals, see our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/).
+If you want to see how LLMs fit your SaaS growth stack, [get in touch](/contact-us/). For hands-on help aligning AI with your goals, see our [AI SEO services for SaaS](/saas-seo-agency/ai-seo-services/).

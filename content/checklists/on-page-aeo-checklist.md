@@ -12,7 +12,7 @@ writtenBy: "kim"
 category: "AI Search"
 ---
 
-On-page AEO is the page-level execution of Answer Engine Optimization: the concrete things you do on a single page so it gets pulled into featured snippets, People Also Ask, and AI Overviews. Where our [AEO checklist](/checklists/aeo-checklist/) covers the strategy and the answer surfaces, this one is the tactical, per-page build sheet our team uses at PipeRocket Digital.
+On-page AEO is the page-level execution of Answer Engine Optimization: the concrete things you do on a single page so it gets pulled into featured snippets, People Also Ask, and AI Overviews. Where our [AEO checklist](/checklists/aeo-checklist/) covers the strategy and the answer surfaces, this one is the tactical, per-page build sheet our [AEO agency](/saas-seo-agency/ai-seo-services/) uses at PipeRocket Digital.
 
 It is interactive. Tick each item as you finish it, your progress saves in your browser, and you can download the whole thing as a PDF.
 

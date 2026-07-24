@@ -12,7 +12,7 @@ writtenBy: "kim"
 category: "AI Search"
 ---
 
-Generative Engine Optimization (GEO) is the practice of getting your brand and content cited by generative AI assistants: ChatGPT, Perplexity, Gemini, and Claude. It leans less on ranking a page and more on being a trusted, citable entity across the web. This is the GEO checklist we run for clients at PipeRocket Digital.
+Generative Engine Optimization (GEO) is the practice of getting your brand and content cited by generative AI assistants: ChatGPT, Perplexity, Gemini, and Claude. It leans less on ranking a page and more on being a trusted, citable entity across the web. This is the GEO checklist we run for clients as a SaaS [GEO agency](/saas-seo-agency/ai-seo-services/).
 
 It is interactive. Tick each item as you finish it, your progress saves in your browser, and you can download the whole thing as a PDF.
 
