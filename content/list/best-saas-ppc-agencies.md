@@ -21,7 +21,7 @@ What you'll pay splits this field more than the logos do. SaaS PPC management ru
 
 Results track the buying cycle, not the billing cycle. Expect usable campaign data in 30 to 60 days and real pipeline impact in 90 to 180, because B2B software gets bought by committees over months. The partners worth keeping report in SQLs, CAC, and payback from week one; the ones to walk away from lead with click-through rates that look great in month one and mean nothing by month six.
 
-{{< youtube id="j5rDgxjtpms" title="The Best SaaS PPC Agencies for 2026 | Vetted based on our Research Methodology" caption="Watch: how we vetted the best SaaS PPC agencies for 2026, based on our research methodology." >}}
+{{< youtube id="j5rDgxjtpms" title="The Best SaaS PPC Agencies for 2026 | Vetted based on our Research Methodology" caption="Watch: how we vetted the best SaaS PPC agencies for 2026, based on our research methodology." uploadDate="2026-07-02" >}}
 
 ## TL;DR
 
