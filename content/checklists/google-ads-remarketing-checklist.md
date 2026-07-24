@@ -48,7 +48,7 @@ Track view-through and click-through conversions separately so you judge true li
 
 ## Go deeper
 
-This is one of the checklists in our [marketing checklists hub](/checklists/). Pair it with the [Google Ads setup checklist](/checklists/google-ads-setup-checklist/), the [conversion tracking checklist](/checklists/conversion-tracking-checklist/), and the [LinkedIn Ads checklist](/checklists/linkedin-ads-checklist/).
+This is one of the checklists in our [marketing checklists hub](/checklists/). Start with the [Google Ads checklist](/checklists/google-ads-checklist/) for the complete picture, and pair this with the [Google Ads setup checklist](/checklists/google-ads-setup-checklist/), the [conversion tracking checklist](/checklists/conversion-tracking-checklist/), the [LinkedIn Ads checklist](/checklists/linkedin-ads-checklist/), and the [Meta Ads checklist](/checklists/meta-ads-checklist/) for paid social retargeting.
 
 ## How we use this at PipeRocket Digital
 

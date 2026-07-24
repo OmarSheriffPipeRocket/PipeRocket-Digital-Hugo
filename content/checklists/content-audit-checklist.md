@@ -44,7 +44,7 @@ Track rankings, traffic, and conversions after each change, record the decisions
 
 ## Go deeper
 
-This is one of the checklists in our [marketing checklists hub](/checklists/). Pair it with the [content SEO checklist](/checklists/content-seo-checklist/) for writing new pieces, the [SEO audit checklist](/checklists/seo-audit-checklist/) for the whole-site view, and the [keyword research checklist](/checklists/keyword-research-checklist/) to find the gaps to fill.
+This is one of the checklists in our [marketing checklists hub](/checklists/). Pair it with the [content SEO checklist](/checklists/content-seo-checklist/) for writing new pieces, the [SEO audit checklist](/checklists/seo-audit-checklist/) for the whole-site view, and the [keyword research checklist](/checklists/keyword-research-checklist/) to find the gaps to fill, or zoom out to the [content marketing checklist](/checklists/content-marketing-checklist/) for the whole program.
 
 ## How we use this at PipeRocket Digital
 

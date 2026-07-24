@@ -66,14 +66,14 @@ Aggregate traffic is a vanity metric. Track rankings, clicks, and conversions by
 
 This pillar is the map. When you are ready to work a single area in depth, use the focused checklists in our [SEO checklists hub](/checklists/):
 
-- [Technical SEO checklist](/checklists/technical-seo-checklist/) for crawlability, rendering, and Core Web Vitals in depth.
+- [Technical SEO checklist](/checklists/technical-seo-checklist/) for crawlability, rendering, and Core Web Vitals in depth, or the [mobile SEO checklist](/checklists/mobile-seo-checklist/) and [image SEO checklist](/checklists/image-seo-checklist/) to go deeper on those specifics.
 - [On-page SEO checklist](/checklists/on-page-seo-checklist/) for optimising individual pages.
 - [Internal linking checklist](/checklists/internal-linking-checklist/) to spread authority and structure topic clusters.
 - [Off-page SEO checklist](/checklists/off-page-seo-checklist/) for earning links and brand mentions.
 - [SEO audit checklist](/checklists/seo-audit-checklist/) to review the whole site in one pass, or the broader [website audit checklist](/checklists/website-audit-checklist/) for performance, security, and UX alongside SEO.
 - [SEO site migration checklist](/checklists/seo-site-migration-checklist/) for redesigns and replatforms, or the [new website SEO checklist](/checklists/new-website-seo-checklist/) if you are launching a brand-new site.
 - [SEO competitor analysis checklist](/checklists/seo-competitor-analysis-checklist/) to reverse-engineer who outranks you.
-- [Keyword research checklist](/checklists/keyword-research-checklist/) and [content SEO checklist](/checklists/content-seo-checklist/) for planning and writing content that ranks.
+- [Keyword research checklist](/checklists/keyword-research-checklist/) and [content SEO checklist](/checklists/content-seo-checklist/) for planning and writing content that ranks, or the broader [content marketing checklist](/checklists/content-marketing-checklist/) for the full program.
 - [Local SEO checklist](/checklists/local-seo-checklist/) and [international SEO checklist](/checklists/international-seo-checklist/) for location and multi-market search.
 - AI search: the [AI SEO checklist](/checklists/ai-seo-checklist/) umbrella, plus the [AEO checklist](/checklists/aeo-checklist/) and [GEO checklist](/checklists/geo-checklist/).
 

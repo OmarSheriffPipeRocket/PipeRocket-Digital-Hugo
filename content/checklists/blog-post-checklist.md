@@ -44,7 +44,7 @@ Publish and add internal links from existing relevant posts, share on the channe
 
 ## Go deeper
 
-This is one of the checklists in our [marketing checklists hub](/checklists/). Pair it with the [content SEO checklist](/checklists/content-seo-checklist/) for deeper optimisation, the [keyword research checklist](/checklists/keyword-research-checklist/) to choose the right target, and the [complete SEO checklist](/checklists/seo-checklist/) for the wider picture.
+This is one of the checklists in our [marketing checklists hub](/checklists/). Pair it with the [content SEO checklist](/checklists/content-seo-checklist/) for deeper optimisation, the [keyword research checklist](/checklists/keyword-research-checklist/) to choose the right target, and the [complete SEO checklist](/checklists/seo-checklist/) for the wider picture, or zoom out to the [content marketing checklist](/checklists/content-marketing-checklist/) for how this fits into the whole program.
 
 ## How we use this at PipeRocket Digital
 

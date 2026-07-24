@@ -1,0 +1,37 @@
+title: "The Complete Google Ads Checklist for 2026"
+subtitle: "Everything to get right running Google Ads, from foundations to ongoing optimisation. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Foundations"
+    items:
+      - "Set the correct time zone and currency before building anything (both are permanent)"
+      - "Confirm conversion tracking works and is verified before spending a dollar"
+      - "Link GA4, Search Console, and the CRM where relevant"
+      - "Secure account access with 2-step verification"
+  - title: "2. Choose the right campaign types"
+    items:
+      - "Use Search for high-intent capture of people actively looking for a solution"
+      - "Use Performance Max for expansion and keyword discovery once Search is stable"
+      - "Use Display or Demand Gen for awareness and remarketing, not cold prospecting"
+      - "Match campaign type to funnel stage rather than running everything at once"
+  - title: "3. Keywords & targeting"
+    items:
+      - "Separate Brand, Generic, and Competitor into distinct campaigns"
+      - "Use a deliberate match-type strategy instead of defaulting to broad"
+      - "Build and maintain a shared negative keyword list"
+      - "Keep ad groups tightly themed around a small set of keywords"
+  - title: "4. Ads & assets"
+    items:
+      - "Write two to three responsive search ads per ad group with genuinely different angles"
+      - "Add every relevant asset: sitelinks, callouts, structured snippets, lead form or call"
+      - "Send every ad group to a message-matched landing page, never the homepage"
+  - title: "5. Bidding & budget"
+    items:
+      - "Choose a bid strategy that matches your conversion volume and goal"
+      - "Move to automated bidding (tCPA/tROAS) only once you have enough conversion data"
+      - "Monitor budget pacing so campaigns are not silently budget-limited"
+  - title: "6. Ongoing optimisation"
+    items:
+      - "Review the search-terms report weekly and add negatives"
+      - "Test new ad copy and assets on a regular cadence"
+      - "Refresh creative before performance decays from fatigue"
+      - "Reallocate budget from underperforming campaigns to what converts"

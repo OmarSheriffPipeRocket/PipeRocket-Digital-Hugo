@@ -44,7 +44,7 @@ Review audience segments, geo, device, and dayparting adjustments against real p
 
 ## Go deeper
 
-This is one of the checklists in our [marketing checklists hub](/checklists/). Pair it with the [SaaS PPC checklist](/checklists/saas-ppc-checklist/) for the full paid strategy and the [LinkedIn Ads checklist](/checklists/linkedin-ads-checklist/) for paid social.
+This is one of the checklists in our [marketing checklists hub](/checklists/). Start with the [Google Ads checklist](/checklists/google-ads-checklist/) for the complete picture, pair this with the [SaaS PPC checklist](/checklists/saas-ppc-checklist/) for the full paid strategy and the [LinkedIn Ads checklist](/checklists/linkedin-ads-checklist/) for paid social, and use the [PPC audit checklist](/checklists/ppc-audit-checklist/) if you are auditing more than one paid channel at once.
 
 ## How we use this at PipeRocket Digital
 

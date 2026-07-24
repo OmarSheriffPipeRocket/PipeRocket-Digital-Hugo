@@ -48,7 +48,7 @@ Review the final URL and tracking template on every ad, confirm conversion track
 
 ## Go deeper
 
-This is one of the checklists in our [marketing checklists hub](/checklists/). Pair it with the [conversion tracking checklist](/checklists/conversion-tracking-checklist/), the [Google Ads audit checklist](/checklists/google-ads-audit-checklist/), and the [Google Ads remarketing checklist](/checklists/google-ads-remarketing-checklist/).
+This is one of the checklists in our [marketing checklists hub](/checklists/). Start with the [Google Ads checklist](/checklists/google-ads-checklist/) for the complete picture, and pair this with the [conversion tracking checklist](/checklists/conversion-tracking-checklist/), the [Google Ads audit checklist](/checklists/google-ads-audit-checklist/), and the [Google Ads remarketing checklist](/checklists/google-ads-remarketing-checklist/).
 
 ## How we use this at PipeRocket Digital
 

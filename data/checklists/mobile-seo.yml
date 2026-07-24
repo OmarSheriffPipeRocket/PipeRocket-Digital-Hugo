@@ -1,0 +1,36 @@
+title: "The Mobile SEO Checklist for 2026"
+subtitle: "Get mobile-first indexing, speed, and usability right on the device Google actually crawls with. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Confirm mobile-first indexing & parity"
+    items:
+      - "Confirm the mobile version has the same content, links, and headings as desktop"
+      - "Check structured data is present and identical on mobile and desktop"
+      - "Set the viewport meta tag correctly so pages render at device width"
+      - "Confirm no content is hidden from crawlers behind tabs, accordions, or interstitials"
+  - title: "2. Speed & Core Web Vitals on mobile"
+    items:
+      - "Test LCP, INP, and CLS specifically on mobile in PageSpeed Insights"
+      - "Lazy-load below-the-fold images and defer non-critical scripts"
+      - "Minimise JavaScript execution time on mobile connections"
+      - "Confirm a CDN and caching are serving mobile visitors efficiently"
+  - title: "3. Design & usability"
+    items:
+      - "Size and space tap targets so they do not misfire on a touchscreen"
+      - "Use a legible font size that does not require pinch-to-zoom"
+      - "Confirm no page requires horizontal scrolling on mobile"
+      - "Remove or shrink intrusive interstitials that cover content after landing"
+  - title: "4. Mobile search & Search Console"
+    items:
+      - "Review the Mobile Usability report in Search Console and fix flagged errors"
+      - "Check Core Web Vitals segmented by device in Search Console"
+      - "Confirm mobile pages are indexed and not accidentally blocked"
+  - title: "5. Technical mobile details"
+    items:
+      - "Serve responsive images with srcset and sizes so the right size loads per device"
+      - "Confirm there are no separate unmaintained mobile URLs (m.domain) causing duplicate content"
+      - "Avoid content or ads that fail to render or function on mobile browsers"
+  - title: "6. Ongoing monitoring"
+    items:
+      - "Test key pages on real devices, not just emulators, on a regular cadence"
+      - "Compare mobile versus desktop conversion rate and investigate large gaps"
+      - "Re-test mobile usability and speed after every redesign or template change"

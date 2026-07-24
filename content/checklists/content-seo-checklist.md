@@ -44,7 +44,7 @@ Set a review date and refresh the piece before it decays, prune or consolidate i
 
 ## Go deeper
 
-This is one of the checklists in our [marketing checklists hub](/checklists/). Pair it with the [complete SEO checklist](/checklists/seo-checklist/), the [on-page SEO checklist](/checklists/on-page-seo-checklist/), and the [keyword research checklist](/checklists/keyword-research-checklist/).
+This is one of the checklists in our [marketing checklists hub](/checklists/). Pair it with the [complete SEO checklist](/checklists/seo-checklist/), the [on-page SEO checklist](/checklists/on-page-seo-checklist/), and the [keyword research checklist](/checklists/keyword-research-checklist/), or zoom out to the [content marketing checklist](/checklists/content-marketing-checklist/) for the whole program this piece fits into.
 
 ## How we use this at PipeRocket Digital
 

@@ -1,0 +1,36 @@
+title: "The PPC Audit Checklist for 2026"
+subtitle: "A full paid-media audit across every channel you run: tracking, structure, budget, waste, and reporting. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Access, tracking & attribution"
+    items:
+      - "Confirm access to every paid platform in use, plus GA4 and the CRM"
+      - "Confirm conversion tracking is consistent and not double-counted across platforms"
+      - "Confirm the attribution model reflects a multi-touch, multi-channel reality"
+      - "Pull a 90-day baseline of spend, results, and CAC by channel"
+  - title: "2. Account structure across channels"
+    items:
+      - "Review naming conventions and structure in each platform"
+      - "Confirm brand, generic, and competitor are separated wherever a platform supports it"
+      - "Check for overlapping audiences or keywords bidding against each other across platforms"
+  - title: "3. Budget & channel mix"
+    items:
+      - "Compare CAC and ROAS by channel against blended targets"
+      - "Confirm budget follows performance, not habit or internal preference"
+      - "Flag channels with declining marginal returns as spend increases"
+      - "Check pacing and spend caps across all active platforms"
+  - title: "4. Creative & landing pages"
+    items:
+      - "Confirm an active creative testing cadence exists on every channel"
+      - "Check landing page-to-ad message match across all channels, not just the biggest one"
+      - "Check creative refresh cadence against rising frequency or fatigue"
+  - title: "5. Waste & quality"
+    items:
+      - "Mine search-term and placement reports across every platform for wasted spend"
+      - "Review quality or relevance scores where the platform provides them"
+      - "Review negative keyword and audience exclusion lists per platform"
+  - title: "6. Reporting & action"
+    items:
+      - "Consolidate reporting into one cross-channel source of truth"
+      - "Score every finding by impact and effort"
+      - "Turn findings into a prioritised, owner-assigned cross-channel action list"
+      - "Set the next full audit date (quarterly is a sensible default)"

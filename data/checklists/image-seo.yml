@@ -1,0 +1,28 @@
+title: "The Image SEO Checklist for 2026"
+subtitle: "Make every image fast, findable, and accessible: naming, alt text, compression, and discoverability. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. File basics"
+    items:
+      - "Use descriptive, keyword-aware file names instead of IMG_1234.jpg"
+      - "Choose the right format: WebP or AVIF for photos, SVG for icons and logos"
+      - "Compress every image without a visible quality loss"
+      - "Size images to their actual display dimensions, not a scaled-down original"
+  - title: "2. Alt text & context"
+    items:
+      - "Write descriptive, specific alt text for every meaningful image"
+      - "Leave alt text empty (not missing) for purely decorative images"
+      - "Support images with surrounding text or a caption that adds context"
+  - title: "3. Performance"
+    items:
+      - "Serve responsive images with srcset and sizes for the visitor's device"
+      - "Lazy-load images below the fold"
+      - "Set width and height attributes so images do not cause layout shift"
+  - title: "4. Discoverability"
+    items:
+      - "Include images in your XML sitemap or a dedicated image sitemap"
+      - "Add ImageObject structured data on pages where images matter for search"
+      - "Host images on your own domain rather than a third party that can disappear"
+  - title: "5. Legal & quality"
+    items:
+      - "Use licensed or original images; confirm usage rights before publishing"
+      - "Avoid generic stock photos that add no real value on important pages"

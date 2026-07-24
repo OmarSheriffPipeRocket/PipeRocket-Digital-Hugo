@@ -1,0 +1,35 @@
+title: "The Meta Ads Checklist for 2026"
+subtitle: "Set up Facebook and Instagram ads correctly: foundation, tracking, structure, audiences, creative, and measurement. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Account foundation"
+    items:
+      - "Set up Business Manager with the Ad Account, Page, and Pixel connected"
+      - "Add a payment method and set a daily or lifetime spend limit"
+      - "Verify your domain in Business Manager"
+      - "Secure admin access with 2-factor authentication and least-privilege roles"
+  - title: "2. Tracking"
+    items:
+      - "Install both the Meta Pixel and Conversions API (CAPI) for tracking redundancy"
+      - "Configure Aggregated Event Measurement with up to 8 prioritised events"
+      - "Confirm events are deduplicated between Pixel and CAPI"
+      - "Test that key conversion events fire correctly before spending"
+  - title: "3. Campaign structure"
+    items:
+      - "Decide deliberately between Campaign Budget Optimisation (CBO) and ad set budgets"
+      - "Match the campaign objective (Leads, Conversions, Traffic) to your actual funnel goal"
+      - "Separate prospecting campaigns from retargeting campaigns"
+  - title: "4. Audiences & targeting"
+    items:
+      - "Build custom audiences from website visitors and CRM lists"
+      - "Build lookalike audiences from your best existing customers"
+      - "Check for excessive audience overlap between ad sets"
+  - title: "5. Creative"
+    items:
+      - "Provide multiple ad formats and creatives per ad set for the algorithm to test"
+      - "Send every ad to a message-matched landing page"
+      - "Refresh creative before frequency climbs and performance fatigues"
+  - title: "6. Measurement & optimisation"
+    items:
+      - "Monitor frequency and CPM trends by campaign"
+      - "Compare Meta-reported conversions against GA4 or CRM-verified numbers"
+      - "Reallocate budget away from ad sets with rising cost per result"

@@ -136,6 +136,8 @@ SaaS [PPC](/glossary/what-is-ppc/) works best when it is treated as a system, no
 
 Add AI-led expansion through Demand Gen and Performance Max, and you move from simply capturing demand to shaping it at scale. Use this checklist as your operating framework to keep strategy focused, execution disciplined, and growth sustainable.
 
+To work a single platform in depth, use the [Google Ads checklist](/checklists/google-ads-checklist/), the [Meta Ads checklist](/checklists/meta-ads-checklist/), or run a full cross-channel [PPC audit checklist](/checklists/ppc-audit-checklist/) once campaigns are live.
+
 ## Frequently Asked Questions
 
 ### 1. What does a SaaS PPC checklist contain?
