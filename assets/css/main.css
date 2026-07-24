@@ -15749,3 +15749,99 @@ p.pr-disp {
   .pr-compare--seo__header .pr-disp,
   .pr-section--outcome .pr-disp { font-size: 1.8rem !important; }
 }
+
+/* =========================================================
+   HOW AEO/GEO DIFFERS FROM TRADITIONAL SEO — VS comparison
+   Center dimension rail: Traditional SEO (muted, left) vs
+   AEO & GEO (highlighted, right).
+   ========================================================= */
+.pr-vs__head { max-width: 720px; margin: 0 auto var(--pr-s-7); }
+.pr-vs__board { max-width: 980px; margin: 0 auto; }
+.pr-vs__heads,
+.pr-vs__row {
+  display: grid;
+  grid-template-columns: 1fr 160px 1fr;
+  align-items: center;
+  gap: var(--pr-s-5);
+}
+.pr-vs__heads { margin-bottom: var(--pr-s-3); }
+.pr-vs__head-cell {
+  font-family: var(--pr-ivy-headline);
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.15;
+}
+.pr-vs__head-cell--old { text-align: right; color: var(--pr-muted); }
+.pr-vs__head-cell--new { text-align: left; color: var(--pr-ink); }
+.pr-vs__badge {
+  justify-self: center;
+  font-family: var(--pr-sans);
+  font-size: 0.66rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+  color: #fff; background: var(--pr-ink);
+  border-radius: 999px; padding: 6px 13px;
+}
+.pr-vs__dim {
+  justify-self: center; text-align: center; white-space: nowrap;
+  font-family: var(--pr-sans);
+  font-size: 0.66rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--pr-muted);
+}
+.pr-vs .pr-vs__old {
+  text-align: right;
+  color: var(--pr-muted);
+  font-size: 1rem !important;
+  line-height: 1.45 !important;
+  padding: var(--pr-s-4) 0;
+  border-top: 1px solid var(--pr-line);
+}
+.pr-vs .pr-vs__new {
+  position: relative;
+  text-align: left;
+  color: var(--pr-ink);
+  font-weight: 500;
+  font-size: 1rem !important;
+  line-height: 1.45 !important;
+  padding: var(--pr-s-4) var(--pr-s-4) var(--pr-s-4) 44px;
+  border-top: 1px solid var(--pr-line);
+  border-left: 3px solid var(--pr-cyan);
+  background: var(--pr-cream-2);
+}
+.pr-vs__new::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  width: 6px;
+  height: 11px;
+  border: solid var(--pr-cyan);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+/* Mobile: stack each row — dimension first, then self-labeled sides */
+@media (max-width: 768px) {
+  .pr-vs__heads { display: none; }
+  .pr-vs__row {
+    grid-template-columns: 1fr;
+    gap: var(--pr-s-2);
+    margin-bottom: var(--pr-s-5);
+    padding-bottom: var(--pr-s-5);
+    border-bottom: 1px solid var(--pr-line);
+  }
+  .pr-vs__dim { justify-self: start; order: -1; }
+  .pr-vs .pr-vs__old,
+  .pr-vs .pr-vs__new { text-align: left; border-top: none; padding: 0; background: none; border-left: none; }
+  .pr-vs .pr-vs__old::before,
+  .pr-vs .pr-vs__new::before {
+    content: attr(data-side);
+    position: static;
+    display: block;
+    width: auto; height: auto;
+    border: 0; transform: none;
+    font-family: var(--pr-sans);
+    font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .pr-vs .pr-vs__old::before { color: var(--pr-muted); }
+  .pr-vs .pr-vs__new::before { color: var(--pr-cyan); }
+  .pr-vs .pr-vs__new { padding-left: var(--pr-s-4); border-left: 3px solid var(--pr-cyan); }
+}
