@@ -655,7 +655,7 @@ If Animalz isn't quite the fit, check our [Animalz alternatives](/alternative/an
 
 ### What does a SaaS marketing agency actually do differently?
 
-SaaS marketing centers on recurring revenue, long cycles, and CAC vs LTV. Specialists report on pipeline and MRR, not MQLs or sessions.
+[SaaS marketing](/blogs/saas-marketing/) centers on recurring revenue, long cycles, and CAC vs LTV. Specialists report on pipeline and MRR, not MQLs or sessions.
 
 ### How much should a Series A SaaS company budget for an agency?
 

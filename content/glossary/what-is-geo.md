@@ -124,7 +124,7 @@ Not on any timeline worth planning for. Organic search still drives the overwhel
 
 ### 3. Does blocking AI crawlers protect my content or just hurt my visibility?
 
-For most SaaS marketing sites, blocking hurts more than it protects. Your public marketing pages exist to be found and referenced, and blocking GPTBot or PerplexityBot removes you from answers your competitors will happily fill. Blocking can make sense for proprietary data, gated research, or paywalled content where being quoted destroys the value. Decide page by page rather than blocking site-wide, and revisit the decision as engines change how they credit sources.
+For most [SaaS marketing](/blogs/saas-marketing/) sites, blocking hurts more than it protects. Your public marketing pages exist to be found and referenced, and blocking GPTBot or PerplexityBot removes you from answers your competitors will happily fill. Blocking can make sense for proprietary data, gated research, or paywalled content where being quoted destroys the value. Decide page by page rather than blocking site-wide, and revisit the decision as engines change how they credit sources.
 
 ## The Bottom Line
 

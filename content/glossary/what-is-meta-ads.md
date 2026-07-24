@@ -57,7 +57,7 @@ That said, cold Meta audiences work when you have a product with broad appeal an
 
 ### Warm and Retargeting Audiences
 
-This is where Meta earns its place in a SaaS marketing mix. You can retarget:
+This is where Meta earns its place in a [SaaS marketing](/blogs/saas-marketing/) mix. You can retarget:
 
 - Website visitors: Anyone who hit a specific page your pricing page, your feature pages, your blog within a defined time window.
 - Video viewers: People who watched a certain percentage of a video ad. Great for progressive nurturing.

@@ -602,7 +602,7 @@ Siege Media's content-first model produces visual assets, data studies, and info
 
 - Raised $30M Series A in January 2025, funding continued product and team investment
 - DataFlyWheel and BlueprintIQ proprietary products extend the core content service
-- Named the premium content production choice by multiple B2B SaaS marketing communities
+- Named the premium content production choice by multiple B2B [SaaS marketing](/blogs/saas-marketing/) communities
 
 **Client Evidence**
 

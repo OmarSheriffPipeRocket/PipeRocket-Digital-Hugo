@@ -35,7 +35,7 @@ A go to market strategy (GTM) is the operating system for how your company bring
 - Pricing and packaging: How you structure your offers, pricing tiers, and conversion mechanics to match the way your target customer buys.
 - Customer journey: The end-to-end flow from first impression through activation and expansion where handoffs break, and where customer value is delivered or lost.
 
-Most teams think “we need a GTM plan” means “let’s copy the top SaaS marketing agencies or do what our category leader is doing.” That’s backwards. What grows a $100M [ARR](/glossary/what-is-arr/) SaaS isn’t what gets you your first 100 customers. For example, Checkpoint, a SaaS for compliance teams in fintech, ignored industry-standard webinars and focused instead on micro-communities in Slack where their ICP actually asked for advice. Their GTM worked because it fit their buyers not because it mirrored the biggest competitor.
+Most teams think “we need a GTM plan” means “let’s copy the top [SaaS marketing](/blogs/saas-marketing/) agencies or do what our category leader is doing.” That’s backwards. What grows a $100M [ARR](/glossary/what-is-arr/) SaaS isn’t what gets you your first 100 customers. For example, Checkpoint, a SaaS for compliance teams in fintech, ignored industry-standard webinars and focused instead on micro-communities in Slack where their ICP actually asked for advice. Their GTM worked because it fit their buyers not because it mirrored the biggest competitor.
 
 Fast Fact: Teams that skip defining their ICP often end up spending most of their marketing budget chasing leads that will never convert.
 

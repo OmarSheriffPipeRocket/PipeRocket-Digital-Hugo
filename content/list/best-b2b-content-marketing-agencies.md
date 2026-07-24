@@ -788,7 +788,7 @@ Can the agency tell you, in one number, what content contributed to closed reven
 
 ## Update History
 
-- **July 23, 2026:** Replaced rank #4 Megawatt (acquired by LaunchSquad Nov 2024; megawatt.co parked domain) with Foundation Marketing (foundationinc.co; 5.0/5 14 reviews; GEO/AI visibility/content distribution); added Omniscient Digital news (Peec AI partner directory, LLM citation tracking, July 2026).
+- **July 23, 2026:** Replaced rank #4 Megawatt (acquired by LaunchSquad Nov 2024; megawatt.co parked domain) with Foundation Marketing (foundationinc.co; 5.0/5 14 reviews; GEO/AI visibility/[content distribution](/blogs/saas-content-distribution-strategy/)); added Omniscient Digital news (Peec AI partner directory, LLM citation tracking, July 2026).
 - **July 16, 2026:** Siege Media Clutch "Verified on Clutch" -> 4.9/5 (47 reviews).
 - **June 30, 2026:** PipeRocket Clutch 4.7/5 (16 reviews) -> 4.7/5 (16 reviews); Omniscient Digital Clutch 4.8/5 (5 reviews) -> 4.8/5 (6 reviews).
 - **June 23, 2026:** Grow and Convert Clutch "Verified on Clutch" -> 4.8/5 (10 reviews) (side-by-side table and agency card updated).

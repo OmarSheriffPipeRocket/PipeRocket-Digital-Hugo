@@ -121,7 +121,7 @@ Manual CPA tracking quickly falls apart as you scale. SaaS teams need tools that
 
 - Analytics platforms: Tools like Google Analytics, HubSpot, and Profit Well let you tag campaigns and track CPA by channel, persona, and cohort.
 - Attribution software: Platforms such as Dreamdata or Ruler Analytics help tie complex multi-touch journeys back to real acquisition costs.
-- SaaS marketing agencies: The [best SaaS SEO agencies](/list/best-saas-seo-agencies/) and [top SaaS paid search agencies](/list/best-saas-ppc-agencies/) can benchmark CPA, implement tracking, and optimize campaigns for true payback.
+- [SaaS marketing](/blogs/saas-marketing/) agencies: The [best SaaS SEO agencies](/list/best-saas-seo-agencies/) and [top SaaS paid search agencies](/list/best-saas-ppc-agencies/) can benchmark CPA, implement tracking, and optimize campaigns for true payback.
 - Dashboards: Custom dashboards in Looker or Tableau pull in ad spend, CRM conversions, and sales costs for a single-source CPA view.
 - Cohort analysis: Segmenting CPA by signup date, acquisition source, and plan type lets you spot profitable (and unprofitable) channels fast.
 

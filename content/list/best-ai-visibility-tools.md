@@ -359,7 +359,7 @@ Pricing as of June 2026 from [scrunch.com/pricing](https://scrunch.com/pricing/)
 
 ### 5. AthenaHQ
 
-Best for: SaaS marketing teams that want a single composite GEO Score combining citations, sentiment, traffic, and query type, with a built-in action layer to close visibility gaps.
+Best for: [SaaS marketing](/blogs/saas-marketing/) teams that want a single composite GEO Score combining citations, sentiment, traffic, and query type, with a built-in action layer to close visibility gaps.
 
 [AthenaHQ](https://athenahq.ai/) was founded in 2024 in San Francisco by founders from Google Search and DeepMind, and is Y Combinator-backed with $2.2M in seed funding. Its GEO Score aggregates four signals (citation count, sentiment, traffic impact, and query type) into one number, and the Action Center surfaces specific steps to improve it.
 

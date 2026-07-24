@@ -510,7 +510,7 @@ Best for: SaaS teams already in the Google ecosystem who need free, fully custom
 
 **Right Buyer**
 
-It's for SaaS marketing teams running entirely within the Google ecosystem: GA4, Google Ads, and Google Search Console are their only reporting data sources. A developer or technically confident analyst builds the templates once; the team uses them forever at zero incremental cost. Looker Studio Pro ($9/user/project/mo) adds team workspaces, folder permissions, and IAM/SSO for organizations that need access controls.
+It's for [SaaS marketing](/blogs/saas-marketing/) teams running entirely within the Google ecosystem: GA4, Google Ads, and Google Search Console are their only reporting data sources. A developer or technically confident analyst builds the templates once; the team uses them forever at zero incremental cost. Looker Studio Pro ($9/user/project/mo) adds team workspaces, folder permissions, and IAM/SSO for organizations that need access controls.
 
 **Skip If**
 

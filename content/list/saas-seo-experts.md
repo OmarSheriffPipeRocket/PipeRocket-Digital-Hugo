@@ -475,7 +475,7 @@ A few of the most influential names in SaaS SEO didn't make the ranked list for 
 
 - **[Nick Eubanks](https://www.semrush.com/):** Built *From The Future* and *Traffic Think Tank* into well-known SEO brands, both acquired by Semrush, where he now works in-house. A foundational voice on SEO as a business — just no longer independent.
 - **[Bernard Huang](https://www.clearscope.io/):** Co-founder of Clearscope, the content-optimization tool many SaaS teams run on. He's a SaaS founder and educator, not a consultant for hire.
-- **[Tim Soulo](https://ahrefs.com/):** CMO at Ahrefs and one of the most recognizable faces in SaaS marketing. An icon of product-led content, but firmly in-house.
+- **[Tim Soulo](https://ahrefs.com/):** CMO at Ahrefs and one of the most recognizable faces in [SaaS marketing](/blogs/saas-marketing/). An icon of product-led content, but firmly in-house.
 - **[Patrick Stox](https://ahrefs.com/):** Product Advisor and technical SEO authority at Ahrefs — a go-to source on the hardest technical questions, employed rather than consulting.
 - **[Sam Oh](https://ahrefs.com/):** VP of Marketing at Ahrefs and the face of its education content and YouTube channel. A brilliant teacher, not a bookable freelancer.
 - **[Ryan Law](https://ahrefs.com/):** Director of Content Marketing at Ahrefs and ex-Animalz CMO — one of the sharpest content strategists in SaaS, now in-house.

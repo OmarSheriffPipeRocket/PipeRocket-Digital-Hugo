@@ -382,7 +382,7 @@ White-label features on the Scale plan make Landingi practical for agencies buil
 
 **Buyer Fit**
 
-Right for SaaS marketing teams building 10+ pages per month across multiple campaigns, and agencies managing multiple SaaS client accounts. The Optimize plan ($149/mo) covers A/B testing at a price comparable to Unbounce Experiment.
+Right for [SaaS marketing](/blogs/saas-marketing/) teams building 10+ pages per month across multiple campaigns, and agencies managing multiple SaaS client accounts. The Optimize plan ($149/mo) covers A/B testing at a price comparable to Unbounce Experiment.
 
 Right for teams that want A/B testing and DTR together: both are included from the Optimize plan ($149/mo), the same threshold as Unbounce Experiment. If DTR at the lowest possible price is the priority, Leadpages ($49/mo promo) offers it lower still.
 
