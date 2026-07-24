@@ -70,8 +70,8 @@ This pillar is the map. When you are ready to work a single area in depth, use t
 - [On-page SEO checklist](/checklists/on-page-seo-checklist/) for optimising individual pages.
 - [Internal linking checklist](/checklists/internal-linking-checklist/) to spread authority and structure topic clusters.
 - [Off-page SEO checklist](/checklists/off-page-seo-checklist/) for earning links and brand mentions.
-- [SEO audit checklist](/checklists/seo-audit-checklist/) to review the whole site in one pass.
-- [SEO site migration checklist](/checklists/seo-site-migration-checklist/) for launches, redesigns, and replatforms.
+- [SEO audit checklist](/checklists/seo-audit-checklist/) to review the whole site in one pass, or the broader [website audit checklist](/checklists/website-audit-checklist/) for performance, security, and UX alongside SEO.
+- [SEO site migration checklist](/checklists/seo-site-migration-checklist/) for redesigns and replatforms, or the [new website SEO checklist](/checklists/new-website-seo-checklist/) if you are launching a brand-new site.
 - [SEO competitor analysis checklist](/checklists/seo-competitor-analysis-checklist/) to reverse-engineer who outranks you.
 - [Keyword research checklist](/checklists/keyword-research-checklist/) and [content SEO checklist](/checklists/content-seo-checklist/) for planning and writing content that ranks.
 - [Local SEO checklist](/checklists/local-seo-checklist/) and [international SEO checklist](/checklists/international-seo-checklist/) for location and multi-market search.

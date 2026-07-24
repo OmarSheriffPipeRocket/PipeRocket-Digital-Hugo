@@ -1,0 +1,45 @@
+title: "The New Website SEO Checklist for 2026"
+subtitle: "Launch a brand-new site with SEO built in from day one: planning, on-page foundations, tracking, launch day, and building initial authority. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Plan before you build"
+    items:
+      - "Map your target keywords to a specific planned page for each one"
+      - "Sketch the information architecture and URL structure before development starts"
+      - "Check the live SERP for your core keywords to confirm what you are competing against"
+      - "Confirm the domain has no penalty or spam history if it is not brand new"
+  - title: "2. Build SEO-friendly foundations"
+    items:
+      - "Use short, readable, keyword-aware URLs sitewide"
+      - "Confirm the site is mobile-first, responsive, and fast by default"
+      - "Make sure content renders in HTML, not JavaScript-only, so it stays reliably crawlable"
+      - "Serve the whole site on HTTPS from day one"
+  - title: "3. Set up tracking & verification"
+    items:
+      - "Verify the domain in Google Search Console and Bing Webmaster Tools"
+      - "Install GA4 and confirm key conversions are tracked before launch"
+      - "Generate an XML sitemap and check it for errors"
+      - "Review robots.txt so nothing important is accidentally blocked"
+  - title: "4. Nail on-page basics on every page"
+    items:
+      - "Write a unique title tag and meta description for every page"
+      - "Use one clear H1 and a logical heading structure on each page"
+      - "Add descriptive alt text to every image"
+      - "Build an internal linking plan that connects every page to a relevant hub"
+  - title: "5. Pre-launch QA"
+    items:
+      - "Remove the staging noindex tag and confirm the live site is crawlable"
+      - "Test every form, link, and CTA on mobile and desktop"
+      - "Run a crawl to catch broken links or redirect errors before go-live"
+      - "Confirm structured data validates in the Rich Results Test"
+  - title: "6. Launch day"
+    items:
+      - "Submit the XML sitemap in Search Console the moment the site goes live"
+      - "Request indexing on your most important pages"
+      - "Confirm robots.txt is not blocking anything post-launch"
+      - "Set up uptime and crawl-error monitoring"
+  - title: "7. Build initial authority post-launch"
+    items:
+      - "Publish a content and internal-linking cadence for the first 90 days"
+      - "Claim key profiles and directories relevant to your niche"
+      - "Start earning a small number of genuine, relevant backlinks"
+      - "Check Search Console weekly; a brand-new domain takes longer to fully index and rank"

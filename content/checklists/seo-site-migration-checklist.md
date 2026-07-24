@@ -44,7 +44,7 @@ Deploy the redirects at the moment of cutover, confirm the new site is crawlable
 
 ## Go deeper
 
-This is one of the focused lists in our [marketing checklists hub](/checklists/). Pair it with the [technical SEO checklist](/checklists/technical-seo-checklist/) for the crawl and indexing details, and the [complete SEO checklist](/checklists/seo-checklist/) for the bigger picture.
+This is one of the focused lists in our [marketing checklists hub](/checklists/). Pair it with the [technical SEO checklist](/checklists/technical-seo-checklist/) for the crawl and indexing details, and the [complete SEO checklist](/checklists/seo-checklist/) for the bigger picture. Launching a brand-new site instead of migrating one? Use the [new website SEO checklist](/checklists/new-website-seo-checklist/) instead.
 
 ## How we use this at PipeRocket Digital
 

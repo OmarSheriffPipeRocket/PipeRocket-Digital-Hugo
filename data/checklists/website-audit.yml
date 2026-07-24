@@ -1,0 +1,46 @@
+title: "The Website Audit Checklist for 2026"
+subtitle: "A full website health check in one pass: performance, security, SEO fundamentals, UX and content. Tick items off as you go. Your progress saves automatically, and you can download the whole thing as a PDF or Excel."
+groups:
+  - title: "1. Access, baseline & tracking"
+    items:
+      - "Confirm access to Search Console, GA4, Bing Webmaster Tools, and CMS/hosting admin"
+      - "Verify key conversions and events are firing correctly in GA4"
+      - "Confirm uptime monitoring is in place and alerts reach the right person"
+      - "Record a baseline: current traffic, rankings, and Core Web Vitals scores"
+  - title: "2. Performance & Core Web Vitals"
+    items:
+      - "Test Core Web Vitals (LCP, INP, CLS) on mobile in PageSpeed Insights"
+      - "Compress and correctly size images sitewide"
+      - "Confirm browser caching and a CDN are enabled"
+      - "Remove unused scripts, plugins, and render-blocking resources"
+  - title: "3. Security & technical hygiene"
+    items:
+      - "Confirm HTTPS sitewide with no mixed-content warnings"
+      - "Check the SSL certificate is valid and set to auto-renew"
+      - "Update CMS core, plugins, and themes to current versions"
+      - "Scan for malware and review admin users for anything unexpected"
+      - "Confirm a recent, tested backup of the site exists"
+  - title: "4. SEO fundamentals"
+    items:
+      - "Check indexation: confirm the right pages are indexed and no important page is noindexed"
+      - "Review robots.txt and the XML sitemap for mistakes"
+      - "Find and fix broken links and 404s"
+      - "Confirm every page has a unique title tag and meta description"
+      - "Check mobile-friendliness sitewide"
+  - title: "5. UX, accessibility & conversion"
+    items:
+      - "Test the primary conversion path end to end on mobile and desktop"
+      - "Confirm navigation and information architecture are logical"
+      - "Test that every form submits and routes to the right place"
+      - "Check color contrast, image alt text, and keyboard navigation"
+  - title: "6. Content & compliance"
+    items:
+      - "Inventory pages and flag outdated, thin, or duplicate content"
+      - "Confirm contact details, business information, and hours are current"
+      - "Check that a privacy policy and cookie/consent banner are in place and accurate"
+  - title: "7. Prioritise & next steps"
+    items:
+      - "Score every finding by impact and effort"
+      - "Turn findings into an owner-assigned action list with deadlines"
+      - "Flag anything that needs a deeper specialist pass (SEO, technical, or security)"
+      - "Schedule the next full audit (twice a year is a sensible default)"

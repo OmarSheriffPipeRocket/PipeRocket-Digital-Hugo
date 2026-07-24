@@ -44,7 +44,7 @@ Analyse which SERP features competitors win (snippets, People Also Ask, AI Overv
 
 ## Go deeper
 
-This is one of the focused lists in our [marketing checklists hub](/checklists/). It pairs naturally with the [SEO audit checklist](/checklists/seo-audit-checklist/) and the [complete SEO checklist](/checklists/seo-checklist/).
+This is one of the focused lists in our [marketing checklists hub](/checklists/). It pairs naturally with the [SEO audit checklist](/checklists/seo-audit-checklist/), the broader [website audit checklist](/checklists/website-audit-checklist/), and the [complete SEO checklist](/checklists/seo-checklist/).
 
 ## How we use this at PipeRocket Digital
 

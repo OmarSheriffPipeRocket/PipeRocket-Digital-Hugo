@@ -56,7 +56,7 @@ Technical SEO is not one-and-done. Watch the coverage and Core Web Vitals report
 
 ## Go deeper
 
-This is one of the focused lists in our [marketing checklists hub](/checklists/). Start with the broader [complete SEO checklist](/checklists/seo-checklist/), pair this with the [off-page SEO checklist](/checklists/off-page-seo-checklist/), and for the SaaS-specific take read our [technical SEO for SaaS](/blogs/technical-seo-for-saas/) guide.
+This is one of the focused lists in our [marketing checklists hub](/checklists/). Start with the broader [complete SEO checklist](/checklists/seo-checklist/), pair this with the [off-page SEO checklist](/checklists/off-page-seo-checklist/) and the [website audit checklist](/checklists/website-audit-checklist/), and for the SaaS-specific take read our [technical SEO for SaaS](/blogs/technical-seo-for-saas/) guide.
 
 ## How we use this at PipeRocket Digital
 

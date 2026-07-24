@@ -44,7 +44,7 @@ An audit is only useful if it drives change. Score every finding by impact and e
 
 ## Go deeper
 
-This is one of the focused lists in our [marketing checklists hub](/checklists/). Start with the [complete SEO checklist](/checklists/seo-checklist/), and use the [technical SEO checklist](/checklists/technical-seo-checklist/), [on-page SEO checklist](/checklists/on-page-seo-checklist/), and [SEO competitor analysis checklist](/checklists/seo-competitor-analysis-checklist/) to go deep on each area the audit flags.
+This is one of the focused lists in our [marketing checklists hub](/checklists/). Start with the [complete SEO checklist](/checklists/seo-checklist/), and use the [technical SEO checklist](/checklists/technical-seo-checklist/), [on-page SEO checklist](/checklists/on-page-seo-checklist/), and [SEO competitor analysis checklist](/checklists/seo-competitor-analysis-checklist/) to go deep on each area the audit flags. Prefer to start broader than SEO alone? The [website audit checklist](/checklists/website-audit-checklist/) covers performance, security, and UX alongside the SEO basics.
 
 ## How we use this at PipeRocket Digital
 
