@@ -376,8 +376,15 @@ def find_alternative_agency_block(body: str, competitor_name: str):
     """For an alternative page, find a section/paragraph mentioning the
     competitor (e.g. 'KlientBoost' on klientboost-alternatives.md). Returns
     (start, end) of the enclosing block, or None.
+
+    Case-SENSITIVE on purpose: competitor_name always comes out of
+    _slug_to_brand() capitalized, so matching case-sensitively catches real
+    brand mentions ("Convert.com", "### 7. Convert") while rejecting common
+    English words that happen to share a brand's spelling in lowercase (e.g.
+    "doesn't convert", "leads that convert" falsely matching the Convert.com
+    alternatives bridge — a real regression this guard fixes).
     """
-    pat = re.compile(r"\b" + re.escape(competitor_name) + r"\b", re.IGNORECASE)
+    pat = re.compile(r"\b" + re.escape(competitor_name) + r"\b")
     m = pat.search(body)
     if not m:
         return None
@@ -789,7 +796,8 @@ LINK_MAP = [
 
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),
-    # ("best SaaS SEO agencies", "/list/best-saas-seo-agencies/", False, "P1"),
+    ("best SaaS SEO agencies", "/list/best-saas-seo-agencies/", False, "P1"),
+    ("SaaS SEO agencies", "/list/best-saas-seo-agencies/", False, "P1"),
 
     # ---- 4-blog batch added 2026-07-23: SaaS Marketing pillar, AI Agents for SEO, GEO vs SEO, AEO vs GEO ----
     ("SaaS marketing", "/blogs/saas-marketing/", False, "P0"),

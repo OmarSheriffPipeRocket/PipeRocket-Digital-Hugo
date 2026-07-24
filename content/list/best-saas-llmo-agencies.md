@@ -477,7 +477,7 @@ Looking at Skale too? Browse the [top Skale alternatives](/alternative/skale-alt
 
 Best for: B2B SaaS companies that want transparent flat-rate pricing and bottom-funnel content for Google and AI citations simultaneously
 
-[Breaking B2B](https://www.breakingb2b.com/) is a founder-led B2B SEO agency that integrates SEO and LLM SEO as a single service, with publicly listed pricing tiers and no 12-month contracts. Founder Sam Dunning has documented the agency's own citation journey from invisible to consistently cited in ChatGPT for "best SaaS SEO agencies."
+[Breaking B2B](https://www.breakingb2b.com/) is a founder-led B2B SEO agency that integrates SEO and LLM SEO as a single service, with publicly listed pricing tiers and no 12-month contracts. Founder Sam Dunning has documented the agency's own citation journey from invisible to consistently cited in ChatGPT for "[best SaaS SEO agencies](/list/best-saas-seo-agencies/)."
 
 **Firm Summary**
 
