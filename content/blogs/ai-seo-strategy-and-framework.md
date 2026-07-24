@@ -239,7 +239,7 @@ An AI SEO strategy is the plan a team uses to earn visibility in AI-generated an
 
 ### Is GEO replacing SEO for SaaS companies?
 
-No. Across the 53 B2B SaaS brands we analyzed over eight months, organic search sent 91.3% of all traffic versus 8.7% from AI engines combined, and organic produced far more leads in absolute terms. [Generative engine optimization](/blogs/how-to-do-geo-for-saas/) is an additive discovery layer with a different intent profile. The signals that drive organic rankings, content quality, authority, and structured data, are largely the same signals that drive AI citation eligibility. Building the SEO foundation first is the mechanism through which most AI visibility gets built, so treating [GEO](/glossary/what-is-geo/) as a replacement usually backfires.
+No. Across the 53 B2B SaaS brands we analyzed over eight months, organic search sent 91.3% of all traffic versus 8.7% from AI engines combined, and organic produced far more leads in absolute terms. [Generative engine optimization](/blogs/how-to-do-geo-for-saas/) is an additive discovery layer with a different intent profile. The signals that drive organic rankings, content quality, authority, and structured data, are largely the same signals that drive AI citation eligibility. Building the SEO foundation first is the mechanism through which most AI visibility gets built, so treating [GEO](/glossary/what-is-geo/) as a replacement usually backfires. See our full breakdown of [GEO vs SEO](/blogs/geo-vs-seo/) for the side-by-side comparison.
 
 ### How do you measure the ROI of an AI SEO program?
 

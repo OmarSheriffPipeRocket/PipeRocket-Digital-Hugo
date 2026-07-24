@@ -790,6 +790,16 @@ LINK_MAP = [
     # ---- example P0/P1 entries (extend as needed) ----
     # ("SaaS PPC checklist", "/blogs/saas-ppc-checklist/", False, "P0"),
     # ("best SaaS SEO agencies", "/list/best-saas-seo-agencies/", False, "P1"),
+
+    # ---- 4-blog batch added 2026-07-23: SaaS Marketing pillar, AI Agents for SEO, GEO vs SEO, AEO vs GEO ----
+    ("SaaS marketing", "/blogs/saas-marketing/", False, "P0"),
+    ("SaaS marketing guide", "/blogs/saas-marketing/", False, "P1"),
+    ("AI agents for SEO", "/blogs/ai-agents-for-seo/", False, "P0"),
+    ("SEO AI agents", "/blogs/ai-agents-for-seo/", False, "P1"),
+    ("GEO vs SEO", "/blogs/geo-vs-seo/", False, "P0"),
+    ("GEO versus SEO", "/blogs/geo-vs-seo/", False, "P1"),
+    ("AEO vs GEO", "/blogs/aeo-vs-geo/", False, "P0"),
+    ("AEO versus GEO", "/blogs/aeo-vs-geo/", False, "P1"),
 ]
 
 PRIORITY_ORDER = {"P0": 0, "P1": 1, "P2": 2}

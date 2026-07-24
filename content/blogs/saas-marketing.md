@@ -126,7 +126,7 @@ Content is the connective tissue between SEO, paid, and sales enablement. It's a
 
 Traditional SEO gets you a ranking. AI search visibility gets your brand mentioned inside the answer a chatbot gives when a buyer asks it to compare vendors, and those two things are no longer the same skill. A growing share of B2B software buyers, over half by some 2026 research, now start vendor research inside an AI chatbot rather than a search engine ([G2 Research, 2026](https://www.demandgenreport.com/industry-news/news-brief/half-of-b2b-software-buyers-now-start-their-research-with-ai-chatbots-g2/52737/)).
 
-The framework for earning that visibility, from structured content to third-party citation building, is in our [AI SEO strategy and framework](/blogs/ai-seo-strategy-and-framework/).
+The framework for earning that visibility, from structured content to third-party citation building, is in our [AI SEO strategy and framework](/blogs/ai-seo-strategy-and-framework/). Autonomous [AI agents for SEO](/blogs/ai-agents-for-seo/) are a related but separate discipline worth knowing about too, since they now handle SEO research and execution work rather than just answering a buyer's question in chat.
 
 ### Go-to-Market Strategy: Sequencing the Launch
 
