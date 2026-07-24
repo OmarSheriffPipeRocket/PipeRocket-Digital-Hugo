@@ -223,6 +223,10 @@ Best for: Budget-conscious teams wanting unlimited pages and traffic without a v
 
 **Limitation:** Fewer advanced testing and personalization features than Instapage's Optimize and Convert tiers offer. Enterprise ad-to-page personalization use cases are a weaker fit here than at Instapage or Unbounce.
 
+Looking at Convert too? Our [Convert alternatives](/alternative/convert-alternatives/) review covers who beats them on what.
+
+
+
 - Conflicting pricing figures across sources ($37/mo vs. $99-199/mo) mean the actual starting price needs live confirmation
 - No dedicated CSM tier the way Instapage's Convert plan provides
 
@@ -262,6 +266,10 @@ Multiple sources cite different starting prices for the same plan, making pre-pu
 | Rating | 4.4/5 (231 reviews) on G2 |
 
 ---
+
+Also evaluating Leadpages? See our [Leadpages alternatives](/alternative/leadpages-alternatives/) breakdown.
+
+
 
 ### 4. Landingi
 

@@ -158,9 +158,11 @@ NEUTRAL_COMPARE_BRIDGES = {
     "moz-alternatives": [
         ("Ahrefs",  "/compare/ahrefs-vs-moz/",  "Ahrefs vs Moz"),
         ("Semrush", "/compare/moz-vs-semrush/", "Moz vs Semrush"),
+        ("Serpstat", "/compare/serpstat-vs-moz/", "Serpstat vs Moz"),
     ],
     "ubersuggest-alternatives": [
         ("Ahrefs", "/compare/ahrefs-vs-ubersuggest/", "Ahrefs vs Ubersuggest"),
+        ("Mangools", "/compare/mangools-vs-ubersuggest/", "Mangools vs Ubersuggest"),
     ],
     "clearscope-alternatives": [
         ("MarketMuse", "/compare/marketmuse-vs-clearscope/", "MarketMuse vs Clearscope"),
@@ -187,14 +189,20 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "ahrefs-alternatives": [
         ("Semrush", "/compare/ahrefs-vs-semrush/", "Ahrefs vs Semrush"),
+        ("SE Ranking", "/compare/se-ranking-vs-ahrefs/", "SE Ranking vs Ahrefs"),
     ],
     "apollo-alternatives": [
         ("ZoomInfo", "/compare/apollo-vs-zoominfo/", "Apollo vs ZoomInfo"),
         ("Apollo", "/compare/clearbit-vs-apollo/", "Clearbit vs Apollo"),
+        ("Clay", "/compare/clay-vs-apollo/", "Clay vs Apollo"),
+        ("UpLead", "/compare/uplead-vs-apollo/", "UpLead vs Apollo"),
     ],
     "zoominfo-alternatives": [
         ("Apollo", "/compare/apollo-vs-zoominfo/", "Apollo vs ZoomInfo"),
         ("ZoomInfo", "/compare/clearbit-vs-zoominfo/", "Clearbit vs ZoomInfo"),
+        ("Clay", "/compare/clay-vs-apollo/", "Clay vs Apollo"),
+        ("Seamless.AI", "/compare/seamless-ai-vs-zoominfo/", "Seamless.AI vs ZoomInfo"),
+        ("Clearbit", "/compare/clearbit-vs-lusha/", "Clearbit vs Lusha"),
     ],
     "dreamdata-alternatives": [
         ("HockeyStack", "/compare/dreamdata-vs-hockeystack/", "Dreamdata vs HockeyStack"),
@@ -243,6 +251,8 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "lusha-alternatives": [
         ("Cognism", "/compare/lusha-vs-cognism/", "Lusha vs Cognism"),
+        ("Kaspr", "/compare/kaspr-vs-lusha/", "Kaspr vs Lusha"),
+        ("UpLead", "/compare/uplead-vs-apollo/", "UpLead vs Apollo"),
     ],
     "leadfeeder-alternatives": [
         ("Albacross", "/compare/leadfeeder-vs-albacross/", "Leadfeeder vs Albacross"),
@@ -268,6 +278,22 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "vwo-alternatives": [
         ("Convert", "/compare/vwo-vs-convert/", "VWO vs Convert"),
+    ],
+    # --- 2026-07-17 batch: 10 alternatives + 10 compares ---
+    "serpstat-alternatives": [
+        ("Moz", "/compare/serpstat-vs-moz/", "Serpstat vs Moz"),
+    ],
+    "mangools-alternatives": [
+        ("Ubersuggest", "/compare/mangools-vs-ubersuggest/", "Mangools vs Ubersuggest"),
+    ],
+    "brightedge-alternatives": [
+        ("seoClarity", "/compare/brightedge-vs-seoclarity/", "BrightEdge vs seoClarity"),
+    ],
+    "ab-tasty-alternatives": [
+        ("Convert", "/compare/ab-tasty-vs-convert/", "AB Tasty vs Convert"),
+    ],
+    "convert-alternatives": [
+        ("AB Tasty", "/compare/ab-tasty-vs-convert/", "AB Tasty vs Convert"),
     ],
     # --- blog sources (limited blog→compare flow, cap 1/blog, past word floor) ---
     "saas-seo": [
@@ -574,6 +600,17 @@ LINK_MAP = [
     ("Leadfeeder vs Albacross", "/compare/leadfeeder-vs-albacross/", False, "P2"),
     ("VWO vs Convert", "/compare/vwo-vs-convert/", False, "P2"),
     ("Semrush vs Serpstat", "/compare/semrush-vs-serpstat/", False, "P2"),
+    # ---- 2026-07-17 compares batch ----
+    ("SE Ranking vs Ahrefs", "/compare/se-ranking-vs-ahrefs/", False, "P2"),
+    ("Serpstat vs Moz", "/compare/serpstat-vs-moz/", False, "P2"),
+    ("Mangools vs Ubersuggest", "/compare/mangools-vs-ubersuggest/", False, "P2"),
+    ("Clay vs Apollo", "/compare/clay-vs-apollo/", False, "P2"),
+    ("Seamless.AI vs ZoomInfo", "/compare/seamless-ai-vs-zoominfo/", False, "P2"),
+    ("UpLead vs Apollo", "/compare/uplead-vs-apollo/", False, "P2"),
+    ("Kaspr vs Lusha", "/compare/kaspr-vs-lusha/", False, "P2"),
+    ("BrightEdge vs seoClarity", "/compare/brightedge-vs-seoclarity/", False, "P2"),
+    ("AB Tasty vs Convert", "/compare/ab-tasty-vs-convert/", False, "P2"),
+    ("Clearbit vs Lusha", "/compare/clearbit-vs-lusha/", False, "P2"),
     # ---- paid-agency listicles batch added 2026-06-26 ----
     ("Bing Ads agencies", "/list/best-bing-ads-agencies/", False, "P1"),
     ("ABM agencies", "/list/best-abm-agencies/", False, "P1"),
@@ -641,6 +678,17 @@ LINK_MAP = [
     ("Conductor alternatives", "/alternative/conductor-alternatives/", False, "P2"),
     ("RollWorks alternatives", "/alternative/rollworks-alternatives/", False, "P2"),
     ("Factors.ai alternatives", "/alternative/factors-ai-alternatives/", False, "P2"),
+    # ---- 2026-07-17 alternatives batch ----
+    ("Seobility alternatives", "/alternative/seobility-alternatives/", False, "P2"),
+    ("Serpstat alternatives", "/alternative/serpstat-alternatives/", False, "P2"),
+    ("Mangools alternatives", "/alternative/mangools-alternatives/", False, "P2"),
+    ("RavenTools alternatives", "/alternative/raventools-alternatives/", False, "P2"),
+    ("SEOZoom alternatives", "/alternative/seozoom-alternatives/", False, "P2"),
+    ("Leadpages alternatives", "/alternative/leadpages-alternatives/", False, "P2"),
+    ("BrightEdge alternatives", "/alternative/brightedge-alternatives/", False, "P2"),
+    ("Sitebulb alternatives", "/alternative/sitebulb-alternatives/", False, "P2"),
+    ("AB Tasty alternatives", "/alternative/ab-tasty-alternatives/", False, "P2"),
+    ("Convert.com alternatives", "/alternative/convert-alternatives/", False, "P2"),
     ("AI content detector", "/list/best-ai-content-detector/", False, "P1"),
     # ---- SEO audit tools listicle added 2026-06-18 ----
     ("SEO audit tools", "/list/best-seo-audit-tools/", False, "P1"),

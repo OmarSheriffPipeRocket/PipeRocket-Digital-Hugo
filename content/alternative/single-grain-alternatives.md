@@ -303,6 +303,10 @@ Best for: B2B SaaS teams wanting SEO-and-content-only from ex-HubSpot and ex-Sho
 | Notable Clients | Jasper, Order.co, GatherContent, Smartling, Shipyard, AppSumo, SpotDraft, Teambridge, Convert.com, 360Learning |
 | Specialization | B2B SaaS organic growth, SEO, content, programmatic SEO, link building, GEO |
 
+Also evaluating Convert? See our [Convert alternatives](/alternative/convert-alternatives/) breakdown.
+
+
+
 Also evaluating Jasper? See our [Jasper alternatives](/alternative/jasper-alternatives/) breakdown.
 
 

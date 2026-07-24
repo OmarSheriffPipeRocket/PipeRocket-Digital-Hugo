@@ -124,6 +124,10 @@ Instapage uses a tiered subscription with up to 20% off on annual billing and a 
 | Optimize | $199/mo (annual discount available) | Up to 30,000 visitors, unlimited A/B tests, heatmaps |
 | Convert | Custom pricing | Enterprise; contact sales for volume and SLA details |
 
+Looking at Convert too? Our [Convert alternatives](/alternative/convert-alternatives/) review covers who beats them on what.
+
+
+
 | Criteria | Detail |
 | --- | --- |
 | Free Plan | 14-day free trial (credit card required; trial capped at 2,500 monthly visitors) |
@@ -270,6 +274,10 @@ Leadpages uses a tiered subscription with ~20% savings on annual billing and a 7
 | G2 Rating | [4.3/5 (231 reviews)](https://www.g2.com/products/leadpages/reviews) |
 
 ---
+
+Also evaluating Leadpages? See our [Leadpages alternatives](/alternative/leadpages-alternatives/) breakdown.
+
+
 
 ### 4. Webflow
 

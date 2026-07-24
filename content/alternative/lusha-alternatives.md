@@ -33,6 +33,14 @@ Switching data providers is expensive when you pick wrong: wasted credits on bad
 8. **Kaspr:** Best for reps whose main Lusha use case is LinkedIn-based prospecting rather than bulk list-building
 9. **Lead411:** Best for budget-conscious SMB teams wanting unlimited exports and intent data at Lusha's entry price point
 
+For a side-by-side on features and pricing, read our [UpLead vs Apollo](/compare/uplead-vs-apollo/) comparison.
+
+
+
+Weighing the two directly? See our neutral [Kaspr vs Lusha](/compare/kaspr-vs-lusha/) breakdown.
+
+
+
 Weighing the two directly? See our neutral [Lusha vs Cognism](/compare/lusha-vs-cognism/) breakdown.
 
 
