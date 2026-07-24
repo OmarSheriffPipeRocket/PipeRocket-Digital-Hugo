@@ -52,7 +52,7 @@ The standard three-tier split works for SaaS almost unchanged from how it works 
 |---|---|---|---|
 | 1:1 | 5 to 25 must-win accounts | Fully custom: named contacts, tailored messaging, direct outreach | Sales-led, marketing supports |
 | 1:few | 10 to 50 accounts grouped by shared trait (vertical, tech stack, use case) | Semi-custom: shared theme, account-specific proof points | Marketing-led, sales engaged per group |
-| 1:many | 500 to 5,000 accounts matching your ICP | Scaled: segmented by firmographic and behavioral filters, not individual accounts | Marketing-led, automated |
+| 1:many | 500 to 5,000 accounts matching your [ICP](/glossary/what-is-icp/) | Scaled: segmented by firmographic and behavioral filters, not individual accounts | Marketing-led, automated |
 
 ### Pick 1:1 accounts on revenue potential, and defend that choice out loud
 
@@ -74,7 +74,7 @@ Use case works as a grouping trait almost as well as industry. A cluster of acco
 
 ## Get Sales and Marketing to Agree on the Same List Before Anything Launches
 
-ABM lives or dies on one artifact: a target account list both teams have actually signed off on, not one marketing built and sales was told about. Without that agreement, sales quietly ignores accounts marketing is spending budget on, and marketing keeps running campaigns against accounts sales already disqualified.
+[ABM](/glossary/what-is-abm/) lives or dies on one artifact: a target account list both teams have actually signed off on, not one marketing built and sales was told about. Without that agreement, sales quietly ignores accounts marketing is spending budget on, and marketing keeps running campaigns against accounts sales already disqualified.
 
 The fix is a recurring list review, not a one-time kickoff. Sit sales and marketing in the same room monthly and walk the list account by account. A rep who says an account just churned or never had budget authority should get that account pulled immediately, not left in the sequence for another quarter.
 
@@ -86,7 +86,7 @@ Three questions settle most list disagreements fast:
 
 Skip that last question and you'll end up with a list that looks tiered on a spreadsheet but gets treated identically in practice.
 
-Picture a compliance SaaS built for fintech teams. Marketing flags an account as 1:1 because the company matches every firmographic filter. Sales already knows the account just signed with a competitor last quarter and pulls it from the list in the same review. Without that monthly check, marketing would have spent weeks building a custom landing page for a deal that was never open.
+Picture a compliance SaaS built for fintech teams. Marketing flags an account as 1:1 because the company matches every firmographic filter. Sales already knows the account just signed with a competitor last quarter and pulls it from the list in the same review. Without that monthly check, marketing would have spent weeks building a custom [landing page](/glossary/what-is-a-landing-page/) for a deal that was never open.
 
 ## Build Account Content and Personalization to Match the Tier
 
@@ -164,14 +164,14 @@ A list marketing builds alone and hands to sales as a done deal invites quiet re
 
 ### Measuring the program on the same metrics as a demand gen campaign
 
-Judging an ABM program by cost per lead or click-through rate misreads what ABM is built to do. A 1:1 account might take four months of engagement before a single form fill happens. Judging that account dead by month two throws away exactly the accounts the program exists to win.
+Judging an ABM program by cost per lead or [click-through rate](/blogs/how-to-improve-organic-ctr/) misreads what ABM is built to do. A 1:1 account might take four months of engagement before a single form fill happens. Judging that account dead by month two throws away exactly the accounts the program exists to win.
 
 ## Measure the Program on Account Engagement and Pipeline Influenced
 
 The right ABM metrics track whether target accounts are moving, not whether any single channel performed well in isolation. Three numbers matter more than any platform-level dashboard.
 
 - **Account engagement.** How many people at a target account interacted with your brand across every channel combined in a given period. Five stakeholders at a whale account engaging with content is a stronger signal than a hundred anonymous clicks from accounts you can't identify.
-- **Account penetration.** How deep you've reached into a target account's buying committee. Two engaged stakeholders out of a six-person committee is a weaker position than five out of six, even if the click volume looks identical on a report.
+- **Account penetration.** How deep you've reached into a target account's [buying committee](/blogs/linkedin-buying-committee-saas/). Two engaged stakeholders out of a six-person committee is a weaker position than five out of six, even if the click volume looks identical on a report.
 - **Pipeline influenced.** Whether target accounts actually opened opportunities, and at what velocity compared to non-ABM accounts. If tiered accounts consistently close faster or at higher deal values than the general pipeline, the program is working, even if the top-line lead count looks unimpressive next to a volume campaign.
 
 Build a simple monthly dashboard around these three numbers rather than a sprawling report nobody reads. List every 1:1 and 1:few account down one column, with engagement, penetration, and pipeline stage across the row.
@@ -198,4 +198,4 @@ Keep the 1:1 tier small enough that every account has a named sales owner who ca
 
 ### Do you need a dedicated ABM platform to run this framework?
 
-No. The framework works with a shared spreadsheet, a CRM, and a monthly review meeting between sales and marketing. Dedicated ABM platforms add intent data and automation that help at scale, particularly for the 1:many tier, but they don't replace the tiering, alignment, and content discipline this guide describes. Many SaaS teams run a functional 1:1 and 1:few program for months before a platform becomes necessary.
+No. The framework works with a shared spreadsheet, a CRM, and a monthly review meeting between sales and marketing. Dedicated [ABM platforms](/list/best-abm-platforms/) add intent data and automation that help at scale, particularly for the 1:many tier, but they don't replace the tiering, alignment, and content discipline this guide describes. Many SaaS teams run a functional 1:1 and 1:few program for months before a platform becomes necessary.

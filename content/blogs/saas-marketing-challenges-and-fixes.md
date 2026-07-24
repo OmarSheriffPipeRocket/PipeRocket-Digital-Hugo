@@ -50,7 +50,7 @@ Founders and marketing leaders look at their numbers and feel like something shi
 
 Customer acquisition costs have climbed roughly 60% over the past five years across most B2B SaaS categories ([Paddle](https://www.paddle.com/blog/how-is-cac-changing-over-time)), while growth rates have compressed at the same time. Buyers are doing more research on their own before ever talking to your sales team, often in places you cannot track. Market saturation means there are a dozen tools with near-identical positioning in almost every category. And AI is reshaping how people find information, which means your content strategy from last year might already be outdated.
 
-These are not isolated saas marketing problems. They are interconnected, and that is why fixing one at a time rarely works. You need to see how they feed into each other before you can address them effectively.
+These are not isolated [saas marketing](/blogs/saas-marketing/) problems. They are interconnected, and that is why fixing one at a time rarely works. You need to see how they feed into each other before you can address them effectively.
 
 The rest of this guide walks through the six challenges we see most, and what we would actually do about each one.
 

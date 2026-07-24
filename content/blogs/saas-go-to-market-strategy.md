@@ -47,7 +47,7 @@ A launch that goes wrong in week one rarely gets a second look from the same bud
 
 A launch-ready ideal customer profile has already shown it will pay for what you're building. Company size, industry, and tech stack describe who might fit the profile, but that's a different question from who's motivated enough to buy right now.
 
-Most teams inherit an ICP definition from the positioning work and treat it as settled. That's a mistake at launch specifically, because positioning validates fit and framing. It doesn't validate willingness to pay for something that doesn't fully exist yet, which is exactly the gap a launch has to close.
+Most teams inherit an [ICP](/glossary/what-is-icp/) definition from the positioning work and treat it as settled. That's a mistake at launch specifically, because positioning validates fit and framing. It doesn't validate willingness to pay for something that doesn't fully exist yet, which is exactly the gap a launch has to close.
 
 ### Confirm the Firmographic Profile Actually Buys
 
@@ -135,7 +135,7 @@ Reserve the right to test tiers and packaging once real usage data exists. Let t
 
 Internal launch readiness means sales and support can handle real customer conversations on day one, rather than a slide deck sitting somewhere in a shared drive. Marketing readiness gets most of the attention before a launch. Internal readiness usually gets a fraction of the time and it shows immediately once the first tickets and calls come in.
 
-SiriusDecisions, now part of Forrester, has found that roughly 65% of the sales content marketing produces goes unused, mostly because it's outdated or too hard to customize for a live conversation. A stack of one-pagers built in the final week before launch, without input from the reps who'll actually use them, tends to join that pile.
+SiriusDecisions, now part of Forrester, has found that roughly 65% of the sales [content marketing](/glossary/what-is-content-marketing/) produces goes unused, mostly because it's outdated or too hard to customize for a live conversation. A stack of one-pagers built in the final week before launch, without input from the reps who'll actually use them, tends to join that pile.
 
 Build launch readiness around what a rep or a support agent needs mid-conversation instead of what looks complete in a review meeting.
 

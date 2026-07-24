@@ -41,7 +41,7 @@ The people who show up ready to buy already made up their minds somewhere else: 
 
 Every signup, every shared workspace, every "invite a teammate" prompt is a marketing touchpoint you didn't write copy for. In traditional B2B, the product is what marketing sells. In SaaS, the product is often the first thing a prospect experiences, before they've read a single page of your website.
 
-We've seen SaaS teams pour budget into top-of-funnel content while their own onboarding flow, empty-state screens, and free-tier limits are quietly telling new users the opposite story. If the product experience contradicts the brand promise, no amount of category-education content fixes it.
+We've seen SaaS teams pour budget into [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/) while their own onboarding flow, empty-state screens, and free-tier limits are quietly telling new users the opposite story. If the product experience contradicts the brand promise, no amount of category-education content fixes it.
 
 Demand generation for SaaS has to reach into the product surface itself, well past the marketing site's edge.
 
@@ -49,7 +49,7 @@ Demand generation for SaaS has to reach into the product surface itself, well pa
 
 ## Build Category Awareness Before Anyone Searches for You
 
-If your category is still forming or still confused with an adjacent one, your first job isn't lead generation. It's teaching the market what to call the problem and how to judge a solution. Skip this step and you'll spend years fighting for a keyword nobody searches because they don't know the category exists yet.
+If your category is still forming or still confused with an adjacent one, your first job isn't [lead generation](/glossary/what-is-lead-generation/). It's teaching the market what to call the problem and how to judge a solution. Skip this step and you'll spend years fighting for a keyword nobody searches because they don't know the category exists yet.
 
 This is genuinely different work from the general B2B demand-gen playbook, which usually assumes the category is already understood and the fight is over which vendor wins it. A new SaaS category has to win the "does this problem deserve its own tool" argument before it can win any vendor comparison.
 
@@ -136,9 +136,9 @@ Our team measures the influence channels on lift (did branded search and direct 
 | Capture | Organic search, direct navigation | Be findable once intent exists | Share of category search volume, branded query growth |
 | Product-led | Free tools, freemium, in-app referrals | Let the product argue for itself | Spread within accounts, unaided awareness |
 
-An integrated campaign might publish a category-education report, cut it into a LinkedIn carousel that argues one finding, seed the same finding as a discussion starter in a relevant community, and run paid social against the report's landing page for two weeks. Four channels, one idea, timed to land in the same window instead of trickling out over a quarter.
+An integrated campaign might publish a category-education report, cut it into a LinkedIn carousel that argues one finding, seed the same finding as a discussion starter in a relevant community, and run paid social against the report's [landing page](/glossary/what-is-a-landing-page/) for two weeks. Four channels, one idea, timed to land in the same window instead of trickling out over a quarter.
 
-This is where a lot of SaaS marketing teams default back into silos without noticing. The content team owns the report, the paid team owns the ad, and the community lead owns the Slack post, and each ships on their own calendar because that's how the org chart is set up.
+This is where a lot of [SaaS marketing](/blogs/saas-marketing/) teams default back into silos without noticing. The content team owns the report, the paid team owns the ad, and the community lead owns the Slack post, and each ships on their own calendar because that's how the org chart is set up.
 
 The fix is a shared campaign brief that names the one argument every channel has to carry, plus a single launch week every channel plans around instead of working from three separate roadmaps.
 

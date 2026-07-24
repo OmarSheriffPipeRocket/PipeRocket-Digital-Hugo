@@ -63,7 +63,7 @@ The system might be hallucinating, or the live data it’s pulling from might ha
 
 Marketers love new acronyms. Now they’re talking about [Answer Engine Optimization](/glossary/what-is-aeo/) (AEO) and [Generative Engine](/list/best-saas-geo-agencies/ "Best SaaS GEO Agencies") Optimization ([GEO](/glossary/what-is-geo/)) like it’s this separate department. It’s not. We view it as just another layer of your [SaaS SEO](/blogs/saas-seo/). There is no fundamental difference between optimizing for a keyword and optimizing for a prompt.
 
-Google says the same thing. Its own [AI-optimization guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) tells you there is no special work for AI features. You don’t need an llms.txt file or bespoke schema. Good SEO is the optimization. Anyone selling you a separate “GEO checklist” is selling you the same fundamentals with a new label.
+Google says the same thing. Its own [AI-optimization guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) tells you there is no special work for AI features. You don’t need an [llms.txt file](/blogs/llms-txt-for-saas/) or bespoke schema. Good SEO is the optimization. Anyone selling you a separate “GEO checklist” is selling you the same fundamentals with a new label.
 
 If you ignore your [top-of-funnel content](/blogs/how-to-rank-tofu-keywords-saas/) because you’re “only doing AI SEO,” you’re going to fail. You need that authoritative content across the whole funnel because that’s where the context comes from. The AI needs to see that you know what you’re talking about at every stage.
 
@@ -154,7 +154,7 @@ You can’t rank for a thousand prompts overnight. I’ve seen companies try to 
 
 **Pro tip:** If you don’t show up, ask ChatGPT why. Seriously, we’ll ask the engine directly why it’s not picking us up for a specific query. It usually gives you a list of suggestions that you can go fix right then.
 
-Measurement got easier too. As of mid-2026, Google Search Console reports impressions from AI Overviews and AI Mode inside the standard performance data. There are no click figures broken out yet, but you can finally see when a page is surfacing in AI answers instead of guessing.
+Measurement got easier too. As of mid-2026, Google Search Console reports impressions from [AI Overviews](/glossary/what-is-an-ai-overview/) and AI Mode inside the standard performance data. There are no click figures broken out yet, but you can finally see when a page is surfacing in AI answers instead of guessing.
 
 ### **Handling the query fan-out**
 

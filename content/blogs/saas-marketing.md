@@ -47,7 +47,7 @@ The single biggest strategic decision in SaaS marketing is picking the motion, a
 | Motion | Who it fits | What marketing optimizes for | Where the risk sits |
 |---|---|---|---|
 | Self-serve (PLG) | Low price point, individual or small-team buyer, fast time-to-value | Trial signups, activation, in-product conversion moments | Weak activation quietly caps growth even when signups look healthy |
-| Sales-assisted | Higher price point, multi-stakeholder buying committee, longer evaluation | Qualified pipeline, sales-ready content, deal velocity | Marketing generates volume sales can't work fast enough to close |
+| Sales-assisted | Higher price point, multi-stakeholder [buying committee](/blogs/linkedin-buying-committee-saas/), longer evaluation | Qualified pipeline, sales-ready content, deal velocity | Marketing generates volume sales can't work fast enough to close |
 | Hybrid | Mid-market and enterprise expansion off a self-serve base | Product usage signals that trigger a sales touch at the right moment | Marketing and sales disagree on when a trial becomes "sales-ready" |
 
 Most SaaS companies past their first few hundred customers run some version of hybrid, whether they've named it that or not. A free tier brings in volume, and a sales team works the accounts that show real usage or come in above a certain seat count. The mistake is running a pure PLG content and paid strategy while sales quietly needs enterprise-grade case studies and security documentation nobody built.
@@ -94,7 +94,7 @@ Buyer-journey research from multiple analyst firms puts the share of the B2B buy
 
 Ranking on page one still matters, because a lot of research still happens the old way, and because AI systems draw heavily on indexed, well-structured web content to form their answers in the first place.
 
-But getting cited by name inside a chatbot's answer to "what's the best tool for X" is a distinct skill. It's built on structured content, clear comparison pages, and third-party proof that an AI system can point to with confidence.
+But getting cited by name inside a chatbot's answer to "what's the best tool for X" is a distinct skill. It's built on structured content, clear [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), and third-party proof that an AI system can point to with confidence.
 
 ### A buyer can arrive already having picked a different vendor than they planned
 
@@ -112,7 +112,7 @@ No single team runs all ten of these at full depth on day one, and no single art
 
 ### SEO: Owning the Research Phase
 
-Search is where a large share of SaaS evaluation happens quietly, before a prospect fills out any form. Ranking for the comparison and evaluation-stage searches your buyers actually run, not just top-of-funnel definitions, is what separates SaaS SEO from generic content marketing. The full framework for keyword targeting, technical SEO for JS-heavy product marketing sites, and content architecture lives in our [SaaS SEO guide](/blogs/saas-seo/).
+Search is where a large share of SaaS evaluation happens quietly, before a prospect fills out any form. Ranking for the comparison and evaluation-stage searches your buyers actually run, not just top-of-funnel definitions, is what separates SaaS SEO from generic [content marketing](/glossary/what-is-content-marketing/). The full framework for keyword targeting, technical SEO for JS-heavy product marketing sites, and content architecture lives in our [SaaS SEO guide](/blogs/saas-seo/).
 
 ### Paid Marketing: Buying the Moments You Can't Wait to Earn
 
@@ -120,25 +120,25 @@ Paid search and paid social exist to show up the moment someone's actively compa
 
 ### Content Marketing: Building the Library That Answers Every Stage
 
-Content is the connective tissue between SEO, paid, and sales enablement. It's also the most commonly misallocated budget in SaaS marketing, with teams pouring effort into awareness posts while the bottom-of-funnel comparison and pricing content that actually closes deals sits thin or missing. The full pillar-and-cluster planning method is in our [SaaS content marketing guide](/blogs/saas-content-marketing-guide/).
+Content is the connective tissue between SEO, paid, and sales enablement. It's also the most commonly misallocated budget in SaaS marketing, with teams pouring effort into awareness posts while the [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) comparison and pricing content that actually closes deals sits thin or missing. The full pillar-and-cluster planning method is in our [SaaS content marketing guide](/blogs/saas-content-marketing-guide/).
 
 ### AI Search Visibility: Showing Up Inside the Answer, Not Just the Page
 
-Traditional SEO gets you a ranking. AI search visibility gets your brand mentioned inside the answer a chatbot gives when a buyer asks it to compare vendors, and those two things are no longer the same skill. A growing share of B2B software buyers, over half by some 2026 research, now start vendor research inside an AI chatbot rather than a search engine ([G2 Research, 2026](https://www.demandgenreport.com/industry-news/news-brief/half-of-b2b-software-buyers-now-start-their-research-with-ai-chatbots-g2/52737/)).
+Traditional [SEO](/glossary/what-is-seo/) gets you a ranking. AI search visibility gets your brand mentioned inside the answer a chatbot gives when a buyer asks it to compare vendors, and those two things are no longer the same skill. A growing share of B2B software buyers, over half by some 2026 research, now start vendor research inside an AI chatbot rather than a search engine ([G2 Research, 2026](https://www.demandgenreport.com/industry-news/news-brief/half-of-b2b-software-buyers-now-start-their-research-with-ai-chatbots-g2/52737/)).
 
 The framework for earning that visibility, from structured content to third-party citation building, is in our [AI SEO strategy and framework](/blogs/ai-seo-strategy-and-framework/). Autonomous [AI agents for SEO](/blogs/ai-agents-for-seo/) are a related but separate discipline worth knowing about too, since they now handle SEO research and execution work rather than just answering a buyer's question in chat.
 
 ### Go-to-Market Strategy: Sequencing the Launch
 
-GTM strategy governs what happens before a channel gets a single dollar: who the ICP is, what the positioning says, which channel goes first, and how the first 90 days get measured. Running paid and content without a GTM plan behind them is how teams end up with activity that never adds up to a coherent story. The full ICP-to-day-90 playbook is in our [SaaS go-to-market strategy guide](/blogs/saas-go-to-market-strategy/).
+GTM strategy governs what happens before a channel gets a single dollar: who the [ICP](/glossary/what-is-icp/) is, what the positioning says, which channel goes first, and how the first 90 days get measured. Running paid and content without a GTM plan behind them is how teams end up with activity that never adds up to a coherent story. The full ICP-to-day-90 playbook is in our [SaaS go-to-market strategy guide](/blogs/saas-go-to-market-strategy/).
 
 ### Conversion Rate Optimization: Fixing the Leaks Before Adding More Traffic
 
-CRO is the discipline of getting more value out of the traffic and trials you already have, instead of buying more of both. Most SaaS teams treat this as a landing-page tweak function; it's actually a pipeline problem, because a 1-point lift in trial-to-paid conversion can outperform a 20% increase in top-of-funnel spend. The full framework is in our [SaaS CRO strategy guide](/blogs/saas-cro-strategy/).
+[CRO](/glossary/what-is-cro/) is the discipline of getting more value out of the traffic and trials you already have, instead of buying more of both. Most SaaS teams treat this as a landing-page tweak function; it's actually a pipeline problem, because a 1-point lift in trial-to-paid conversion can outperform a 20% increase in top-of-funnel spend. The full framework is in our [SaaS CRO strategy guide](/blogs/saas-cro-strategy/).
 
 ### Account-Based Marketing: Going Narrow on High-Value Accounts
 
-ABM flips the funnel for enterprise and mid-market deals: instead of broad reach, you pick a target list of accounts and run coordinated content, ads, and outreach at the whole buying committee inside each one. It only makes sense above a certain deal size, where the cost of custom-tailoring outreach still pencils out. The cross-channel framework is in our [SaaS ABM strategy guide](/blogs/saas-abm-strategy/).
+[ABM](/glossary/what-is-abm/) flips the funnel for enterprise and mid-market deals: instead of broad reach, you pick a target list of accounts and run coordinated content, ads, and outreach at the whole buying committee inside each one. It only makes sense above a certain deal size, where the cost of custom-tailoring outreach still pencils out. The cross-channel framework is in our [SaaS ABM strategy guide](/blogs/saas-abm-strategy/).
 
 ### Demand Generation: Building Awareness Before the Search Starts
 
@@ -184,7 +184,7 @@ Vanity metrics are the easiest trap in SaaS marketing because they're the easies
 
 The numbers that hold up under scrutiny track cost against durable revenue instead of activity:
 
-- **CAC (customer acquisition cost):** what it actually costs, fully loaded, to land one paying customer
+- **CAC ([customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost):** what it actually costs, fully loaded, to land one paying customer
 - **LTV (lifetime value):** what that customer is worth across their full subscription life, counting renewals and upgrades on top of the first invoice
 - **Trial-to-paid or free-to-paid conversion rate:** the single clearest signal of whether product and messaging match
 - **Net revenue retention:** whether the existing customer base is growing or quietly shrinking underneath the new-logo number

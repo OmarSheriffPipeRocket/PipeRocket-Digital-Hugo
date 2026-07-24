@@ -47,7 +47,7 @@ If you rank in the top position for this query, you get to control the narrative
 
 If you don’t have this page, they end up on G2. While G2 lists the price and specs, they won’t cover the specific pain points you solve better than anyone else. They won’t highlight that your support is 24/7 while the competitor relies on a community forum. That lack of nuance creates hesitation, and hesitation kills deals.
 
-This matters even more now that comparison and “alternatives” queries increasingly trigger AI Overviews and answers in tools like ChatGPT. A well-structured comparison page is exactly the kind of source those systems pull from. Google’s guidance through 2026 is that optimizing for AI answers is still just good SEO, so there are no special tactics to chase here. A clear, honest, well-organized page wins in both the classic SERP and the AI answer.
+This matters even more now that comparison and “alternatives” queries increasingly trigger [AI Overviews](/glossary/what-is-an-ai-overview/) and answers in tools like ChatGPT. A well-structured comparison page is exactly the kind of source those systems pull from. Google’s guidance through 2026 is that optimizing for AI answers is still just good SEO, so there are no special tactics to chase here. A clear, honest, well-organized page wins in both the classic SERP and the AI answer.
 
 ## **What is the Actual Difference Between “Alternatives” Pages and Comparison Pages?**
 

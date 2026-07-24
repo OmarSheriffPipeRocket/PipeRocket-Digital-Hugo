@@ -59,7 +59,7 @@ Off-site authority takes real participation on the platforms these engines alrea
 
 ![The three-column split showing schema and snippet work skewing toward AEO, off-site mentions and reviews skewing toward GEO, with the shared foundation in the middle.](/images/blog-infographics/aeo-vs-geo-infographic-2.webp)
 
-If your buyers still mostly search Google for informational queries, weight the early sprints toward the AEO-leaning tactics. If your category already shows up more inside ChatGPT and Perplexity threads, weight the early sprints toward off-site presence instead. Either way, the shared foundation underneath doesn't change.
+If your buyers still mostly search Google for informational queries, weight the early sprints toward the [AEO](/glossary/what-is-aeo/)-leaning tactics. If your category already shows up more inside ChatGPT and Perplexity threads, weight the early sprints toward off-site presence instead. Either way, the shared foundation underneath doesn't change.
 
 ## How to Optimize for AEO
 
@@ -67,7 +67,7 @@ AEO rewards a page Google can lift cleanly, so the fixes are mostly structural.
 
 ### Structure Content for Extraction
 
-Start with the FAQ, Article, and Product schema that tells Google exactly what each section answers, since machines read structure as well as words. Then tighten the formatting itself: answer the core question in the first one or two sentences of every section, use question-shaped headings that match how buyers actually phrase the search, turn any comparison into a table instead of a paragraph, and keep internal linking depth tight around the pages you want extracted.
+Start with the FAQ, Article, and Product schema that tells Google exactly what each section answers, since machines read structure as well as words. Then tighten the formatting itself: answer the core question in the first one or two sentences of every section, use question-shaped headings that match how buyers actually phrase the search, turn any comparison into a table instead of a paragraph, and keep [internal linking](/blogs/how-to-use-internal-linking/) depth tight around the pages you want extracted.
 
 None of this is exotic. It's the same answer-first habit that wins a featured snippet, applied consistently across every page you want Google to lift into an AI Overview. The part teams skip most often is the schema, since it feels like a technical afterthought rather than a content decision. It's what tells Google's extraction system where the clean answer actually sits on the page.
 
@@ -130,13 +130,13 @@ Treating these as two line items on a report makes the program look more fragmen
 
 ### Is AI Overview AEO or GEO?
 
-AI Overviews is specifically an AEO surface. It's Google extracting an answer from a page it has already crawled and ranked, the same mechanism behind a featured snippet, just formatted for a longer synthesized response.
+[AI Overviews](/glossary/what-is-an-ai-overview/) is specifically an AEO surface. It's Google extracting an answer from a page it has already crawled and ranked, the same mechanism behind a featured snippet, just formatted for a longer synthesized response.
 
 GEO covers a separate set of surfaces entirely: the chat tools like ChatGPT, Perplexity, Claude, and Gemini. There, the engine composes an answer from sources across the web rather than lifting text from one ranked page.
 
 ### What is the difference between AEO vs GEO vs SEO in 2026?
 
-- **SEO** is the foundation: ranking your pages in Google's traditional results through relevance, authority, and technical health.
+- **[SEO](/glossary/what-is-seo/)** is the foundation: ranking your pages in Google's traditional results through relevance, authority, and technical health.
 - **AEO** sits on top of that foundation and focuses specifically on getting your content extracted into Google's answer formats, snippets, AI Overviews, and voice results.
 - **GEO** runs alongside both, focused on getting your brand named inside conversational AI tools that pull from the wider web rather than a single ranked page.
 
@@ -150,7 +150,7 @@ GEO and AEO are the two surface-specific expressions of that same program, not c
 
 ### What is the meaning of AEO and GEO?
 
-AEO (answer engine optimization) means optimizing content to get extracted into direct-answer formats like Google's featured snippets and AI Overviews. GEO (generative engine optimization) means optimizing your brand's off-site presence and content structure to get cited or named inside generative AI tools like ChatGPT and Perplexity.
+AEO (answer engine optimization) means optimizing content to get extracted into direct-answer formats like Google's featured snippets and AI Overviews. GEO ([generative engine optimization](/glossary/what-is-geo/)) means optimizing your brand's off-site presence and content structure to get cited or named inside generative AI tools like ChatGPT and Perplexity.
 
 ## How PipeRocket Digital Handles AEO and GEO Together
 

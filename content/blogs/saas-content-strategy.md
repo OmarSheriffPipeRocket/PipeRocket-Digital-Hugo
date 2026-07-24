@@ -71,7 +71,7 @@ Set a review cadence per pillar (I run mine quarterly) where the owner checks th
 
 - Is the pillar's page count still growing, or has it stalled for two quarters running?
 - Has a competitor published a stronger version of the pillar's flagship page?
-- Are the pillar's BOFU pages still ranking, or has AI Overview coverage started eating the SERP real estate they used to own?
+- Are the pillar's [BOFU pages](/blogs/how-to-rank-bofu-keywords-saas/) still ranking, or has AI Overview coverage started eating the SERP real estate they used to own?
 
 ## Map Every Topic to a Funnel Stage Before It Gets Written
 
@@ -115,7 +115,7 @@ BOFU and MOFU topics score higher on pipeline proximity almost by definition, be
 
 A TOFU topic tied to a fast-growing pain point can beat a stale BOFU comparison nobody's searching for anymore. Watch for the pain point Sales is suddenly hearing on far more discovery calls than it was a couple of quarters ago.
 
-This is where talking to Sales, CS, and Product before finalizing the list pays off. Real buyers don't search in the tidy, SEO-shaped phrases a keyword tool suggests. They use the messy, layman language Sales hears on discovery calls, and that language is often the fastest signal that a topic's priority just changed.
+This is where talking to Sales, CS, and Product before finalizing the list pays off. Real buyers don't search in the tidy, [SEO](/glossary/what-is-seo/)-shaped phrases a keyword tool suggests. They use the messy, layman language Sales hears on discovery calls, and that language is often the fastest signal that a topic's priority just changed.
 
 ### Score by competitive gap second
 
@@ -160,7 +160,7 @@ That second step is the one most teams skip, leaving everything credited to "org
 
 A TOFU piece rarely shows up as the last touch before a deal closes, but it might be the first touch on a big share of your closed-won deals. If you only measure last-touch, TOFU content will always look like it's failing, and you'll defund the exact pillar that's filling the top of your pipeline.
 
-Multi-touch attribution matters more every year buyers spend longer researching before they ever talk to Sales. If first-touch attribution is shifting earlier in your own CRM data, that's a signal your TOFU investment is working even when it never shows up as the last click before close.
+[Multi-touch attribution](/blogs/how-to-set-up-multi-touch-attribution/) matters more every year buyers spend longer researching before they ever talk to Sales. If first-touch attribution is shifting earlier in your own CRM data, that's a signal your TOFU investment is working even when it never shows up as the last click before close.
 
 ### A pillar with no pipeline attached gets cut
 
@@ -168,7 +168,7 @@ If a pillar has been live for two quarters and the CRM shows zero pipeline influ
 
 - The funnel-stage mapping was wrong.
 - The topic never had buying intent to begin with.
-- A competitor is winning every relevant SERP.
+- A competitor is winning every relevant [SERP](/glossary/what-is-serp/).
 
 Any of those is a reason to cut the pillar or rebuild it instead of publishing into it out of habit.
 

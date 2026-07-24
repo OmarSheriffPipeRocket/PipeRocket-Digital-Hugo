@@ -41,7 +41,7 @@ GEO rewards a brand the wider web already trusts, since generative engines pull 
 
 ## Do You Need Both?
 
-Yes. The data makes this a settled question rather than an opinion: organic search sent 91.3% of all traffic across the 53 B2B SaaS brands we analyzed over eight months, and AI engines combined sent 8.7%. SEO is still doing most of the work.
+Yes. The data makes this a settled question rather than an opinion: organic search sent 91.3% of all traffic across the 53 B2B SaaS brands we analyzed over eight months, and AI engines combined sent 8.7%. [SEO](/glossary/what-is-seo/) is still doing most of the work.
 
 ![Pictograph of 100 traffic units showing 91 from organic search and 9 from AI engines combined, based on 53 B2B SaaS brands tracked over 8 months](/images/blog-infographics/geo-vs-seo-infographic-1.webp)
 
@@ -67,7 +67,7 @@ A real SaaS SEO program runs on four parts working together. Maxing one and igno
 
 ### Content
 
-Build bottom-of-funnel pages first. Comparisons, alternatives, and integration pages convert at a far higher rate than top-of-funnel blog posts, and organizing that content into pillar-and-spoke clusters signals topical depth to Google.
+Build [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) pages first. Comparisons, alternatives, and integration pages convert at a far higher rate than top-of-funnel blog posts, and organizing that content into pillar-and-spoke clusters signals topical depth to Google.
 
 ### Technical Health
 
@@ -85,7 +85,7 @@ Two more levers compound on top of those four once the foundation is live.
 
 ### Internal Linking
 
-Tight internal linking between cluster pages passes authority to the pages that carry pipeline, and it helps Google understand topical depth faster than backlinks alone can. A pillar page that never links down to its supporting content wastes most of the authority it earns.
+Tight [internal linking](/blogs/how-to-use-internal-linking/) between cluster pages passes authority to the pages that carry pipeline, and it helps Google understand topical depth faster than backlinks alone can. A pillar page that never links down to its supporting content wastes most of the authority it earns.
 
 ### Schema and Structured Data
 
@@ -115,7 +115,7 @@ Keep your brand name, category, and core facts identical across every platform w
 
 AI engines reward content with something new to say, so a benchmark drawn from your own customer base earns citations that a generic explainer never will.
 
-These four moves don't split cleanly by surface, but two levers do skew one way. Heavy schema markup and featured-snippet formatting raise your odds inside Google's AI Overviews, since clean structure makes a page easier to lift into the answer box even though Google doesn't require it. Off-site brand mentions on Reddit, Quora, and review sites matter more for LLM citations, since generative engines lean on third-party sources far more heavily than Google does for a snippet.
+These four moves don't split cleanly by surface, but two levers do skew one way. Heavy schema markup and featured-snippet formatting raise your odds inside Google's [AI Overviews](/glossary/what-is-an-ai-overview/), since clean structure makes a page easier to lift into the answer box even though Google doesn't require it. Off-site brand mentions on Reddit, Quora, and review sites matter more for LLM citations, since generative engines lean on third-party sources far more heavily than Google does for a snippet.
 
 Knowing that split matters when you're short on time and have to choose where to start. A category where buyers already research inside ChatGPT rewards the off-site push first. A category where they still Google a how-to question rewards the schema and snippet work first.
 
@@ -127,7 +127,7 @@ Track referral traffic from chatgpt.com, perplexity.ai, and other AI engines in 
 
 LLMs favor freshness signals for fast-moving topics, so a GEO-focused refresh cadence, quarterly rather than annually, keeps cited facts from going stale and losing citation share to a more recently updated competitor.
 
-For the complete playbook behind these four moves, including how they split between LLM citations and Google's AI Overviews, see our [GEO for SaaS](/blogs/how-to-do-geo-for-saas/) guide.
+For the complete playbook behind these four moves, including how they split between [LLM](/glossary/what-is-an-llm/) citations and Google's AI Overviews, see our [GEO for SaaS](/blogs/how-to-do-geo-for-saas/) guide.
 
 ## Common Mistakes to Avoid
 
@@ -157,7 +157,7 @@ No. Organic search sent 91.3% of all traffic across the 53 B2B SaaS brands we tr
 
 The four core types are:
 
-- **Technical SEO** covers crawlability, indexation, and site speed.
+- **[Technical SEO](/glossary/what-is-technical-seo/)** covers crawlability, indexation, and site speed.
 - **On-page SEO** covers content and keyword targeting on the page itself.
 - **Off-page SEO** covers backlinks and brand mentions earned elsewhere on the web.
 - **Local SEO** covers visibility in geographically targeted searches.
@@ -170,7 +170,7 @@ Not based on the numbers. Across our dataset of 53 B2B SaaS brands, organic sear
 
 ### What is GEO in digital marketing?
 
-GEO, or generative engine optimization, is the practice of getting a brand cited, named, or recommended inside AI-generated answers from tools like ChatGPT, Perplexity, and Gemini. For the full playbook on how to do it for a B2B SaaS company, see our [GEO for SaaS](/blogs/how-to-do-geo-for-saas/) guide.
+GEO, or [generative engine optimization](/glossary/what-is-geo/), is the practice of getting a brand cited, named, or recommended inside AI-generated answers from tools like ChatGPT, Perplexity, and Gemini. For the full playbook on how to do it for a B2B SaaS company, see our [GEO for SaaS](/blogs/how-to-do-geo-for-saas/) guide.
 
 ## How PipeRocket Digital Builds Both Into One Program
 

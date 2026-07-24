@@ -146,7 +146,7 @@ You don't need to build vector databases. You need to publish content that's cle
 
 Google's own 2026 guidance on optimising for AI features backs this up:
 
-- **It is still SEO.** Showing up in AI Overviews and AI Mode needs no special measures: an llms.txt file or dedicated AI schema is not required.
+- **It is still SEO.** Showing up in AI Overviews and AI Mode needs no special measures: an [llms.txt file](/blogs/llms-txt-for-saas/) or dedicated AI schema is not required.
 - **llms.txt is optional.** Publishing one as low-cost insurance for the crawlers that read it is fine, but treat it as optional rather than a ranking prerequisite. The fundamentals, crawlable pages, clear entities, and genuine expertise, are what carry over.
 
 ## The SaaS SEO Strategy in Brief, and Where the Full Playbook Lives

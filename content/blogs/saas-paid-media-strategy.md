@@ -48,7 +48,7 @@ Sequencing means deciding which channel earns budget first, which earns it secon
 
 ### Fund the Capture Channels First
 
-Capture channels catch demand that already exists. Someone typed a search query, someone clicked a comparison link, someone is already in market. [Google Ads for SaaS](/blogs/saas-paid-marketing-guide/) and, in categories where the CPC gap is real, [Microsoft Ads](/blogs/microsoft-ads-for-saas/) are the clearest examples.
+Capture channels catch demand that already exists. Someone typed a search query, someone clicked a comparison link, someone is already in market. [Google Ads for SaaS](/blogs/saas-paid-marketing-guide/) and, in categories where the [CPC](/glossary/what-is-cost-per-click/) gap is real, [Microsoft Ads](/blogs/microsoft-ads-for-saas/) are the clearest examples.
 
 On one SaaS account we manage, the same category keyword cost about $18 on Bing versus roughly $61 on Google for the same intent, and Bing still pulled more raw volume on that term. That doesn't mean abandon Google. It means fund the cheaper capture channel alongside it before spending a single dollar on a channel that has to create the demand from scratch.
 
@@ -72,7 +72,7 @@ The same logic applies to smaller channels like [Reddit Ads](/blogs/saas-reddit-
 
 Allocation is a working split you revisit every quarter based on where the funnel is actually stalling, not a fixed percentage you set once. Teams still need a starting point, though, and the honest answer depends on company stage more than anything else.
 
-| Stage | Capture (Search) | Influence (LinkedIn/Meta) | ABM / Named Accounts | Test Budget (AI surfaces, Reddit) |
+| Stage | Capture (Search) | Influence (LinkedIn/Meta) | [ABM](/glossary/what-is-abm/) / Named Accounts | Test Budget (AI surfaces, Reddit) |
 |---|---|---|---|---|
 | Early-stage, still proving product-market fit | 60-70% | 15-25% | 0-10% | 0-5% |
 | Growth-stage, repeatable sales motion | 45-55% | 25-35% | 10-20% | 5-10% |
@@ -86,7 +86,7 @@ None of these ranges are a rule to follow blindly. If your Search campaigns are 
 
 ### Rebalance Quarterly, Not Annually
 
-A lot of SaaS marketing teams set a channel split once a year during planning season and never touch it again until the next budget cycle. That's too slow. Funnel conditions change faster than that. A competitor drops brand-search CPCs, a category gets crowded on LinkedIn, or a new sales hire suddenly needs more BOFU retargeting to close a backlog of stalled deals.
+A lot of [SaaS marketing](/blogs/saas-marketing/) teams set a channel split once a year during planning season and never touch it again until the next budget cycle. That's too slow. Funnel conditions change faster than that. A competitor drops brand-search CPCs, a category gets crowded on LinkedIn, or a new sales hire suddenly needs more BOFU retargeting to close a backlog of stalled deals.
 
 Reviewing the split quarterly means asking the same three questions every time: which channel is closest to being maxed, which channel is showing lift that justifies more budget, and which channel hasn't moved a number in two consecutive reviews. That last one is your first cut candidate, not automatically, but it's where the conversation should start.
 
@@ -133,7 +133,7 @@ Track influence and lift instead of forcing every channel into a last-click mode
 
 One practical read: if you were getting roughly ten leads a month from Search alone, and adding LinkedIn pushes that to a consistent thirteen to fifteen without LinkedIn claiming direct credit for any of them, that's the influence layer working exactly as designed. Cutting it because its own reporting shows zero conversions would be the wrong call, made off the wrong metric.
 
-Attribution breaks down across a paid mix for structural reasons, not because of a tooling gap you can buy your way out of. Industry estimates suggest roughly 8% of website traffic now comes from LLM-driven surfaces, where users get answered without ever visiting the site. On top of that:
+Attribution breaks down across a paid mix for structural reasons, not because of a tooling gap you can buy your way out of. Industry estimates suggest roughly 8% of website traffic now comes from [LLM](/glossary/what-is-an-llm/)-driven surfaces, where users get answered without ever visiting the site. On top of that:
 
 - Tracking prevention has removed a meaningful share of cross-device signal.
 - Buyers increasingly share links through channels no pixel can see.

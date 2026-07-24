@@ -162,7 +162,7 @@ Our [SaaS PPC service](/saas-ppc/) is built for founders and marketing leaders w
 
 ### How much should a B2B SaaS company spend on paid marketing?
 
-There's no single percentage, and the honest answer is to work backwards from pipeline targets rather than copy a benchmark. That said, paid media is typically the largest discretionary line in a SaaS marketing budget, with Gartner's 2025 CMO Spend Survey putting digital channels at 61.1% of total marketing spend ([Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-06-02-gartner-survey-finds-digital-channels-account-for-61-point-1-percent-of-total-marketing-spend)). Decide how many SQLs you need and what your cost per SQL is, and the budget floor falls out of that math. Companies spending too little never accumulate enough data to learn what works.
+There's no single percentage, and the honest answer is to work backwards from pipeline targets rather than copy a benchmark. That said, paid media is typically the largest discretionary line in a [SaaS marketing](/blogs/saas-marketing/) budget, with Gartner's 2025 CMO Spend Survey putting digital channels at 61.1% of total marketing spend ([Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-06-02-gartner-survey-finds-digital-channels-account-for-61-point-1-percent-of-total-marketing-spend)). Decide how many SQLs you need and what your cost per SQL is, and the budget floor falls out of that math. Companies spending too little never accumulate enough data to learn what works.
 
 ### Which paid channel is best for B2B SaaS?
 
