@@ -1,0 +1,547 @@
+{{ define "main" }}
+
+{{/* ============================================================
+     PAGE-SCOPED STYLES - consultant-specific components only.
+     Structural/section classes reuse the global pr- system.
+     ============================================================ */}}
+<style>
+  .pr-consult-hero__grid{display:grid;grid-template-columns:1.15fr 0.85fr;gap:var(--pr-s-8);align-items:center}
+  @media(max-width:900px){.pr-consult-hero__grid{grid-template-columns:1fr;gap:var(--pr-s-7)}}
+  .pr-consult-hero__cred{display:flex;flex-wrap:wrap;gap:10px;margin:var(--pr-s-5) 0}
+  .pr-consult-hero__chip{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600;color:#fff;background:#0b1220;border:1px solid rgba(12,198,241,.4);border-radius:999px;padding:7px 14px;box-shadow:0 6px 16px rgba(9,14,26,.18)}
+  .pr-consult-hero__chip::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--pr-cyan)}
+
+  .pr-person-card{position:relative;background:linear-gradient(180deg,#0b1220 0%,#111a2e 100%);border-radius:22px;padding:28px;color:#fff;box-shadow:0 24px 60px rgba(9,14,26,.28);overflow:hidden}
+  .pr-person-card::after{content:"";position:absolute;inset:-40% -40% auto auto;width:70%;height:70%;background:radial-gradient(circle,rgba(12,198,241,.28),transparent 70%);pointer-events:none}
+  .pr-person-card__photo{width:96px;height:96px;border-radius:18px;object-fit:cover;border:2px solid rgba(12,198,241,.6)}
+  .pr-person-card__name{font-size:22px;font-weight:800;margin-top:16px;letter-spacing:-.01em}
+  .pr-person-card__role{font-size:14px;color:var(--pr-cyan);font-weight:600;margin-top:2px}
+  .pr-person-card__bio{font-size:14px;line-height:1.6;color:#c5cede;margin-top:14px}
+  .pr-person-card__stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+  .pr-person-card__stat{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px 14px}
+  .pr-person-card__stat b{display:block;font-size:20px;font-weight:800;color:#fff}
+  .pr-person-card__stat span{font-size:11.5px;color:#9aa6bd;text-transform:uppercase;letter-spacing:.04em}
+  .pr-person-card__link{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-size:14px;font-weight:700;color:#fff;text-decoration:none;background:#0A66C2;padding:10px 16px;border-radius:10px}
+  .pr-person-card__link:hover{filter:brightness(1.08)}
+
+  .pr-meet{display:grid;grid-template-columns:0.8fr 1.2fr;gap:var(--pr-s-8);align-items:center}
+  @media(max-width:900px){.pr-meet{grid-template-columns:1fr}}
+  .pr-meet__photo{width:100%;border-radius:20px;object-fit:cover;box-shadow:0 20px 50px rgba(9,14,26,.18)}
+  .pr-meet__tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:var(--pr-s-5)}
+  .pr-meet__tag{font-size:13px;font-weight:600;color:var(--pr-ink-1);background:#f2f6fb;border-radius:8px;padding:7px 12px}
+
+  .pr-when{display:grid;grid-template-columns:1fr 1fr;gap:var(--pr-s-6);margin-top:var(--pr-s-7)}
+  @media(max-width:760px){.pr-when{grid-template-columns:1fr}}
+  .pr-when__col{display:flex;flex-direction:column;padding:30px 26px;background:var(--pr-cream);border:1px solid rgba(0,0,0,.14);border-radius:6px}
+  .pr-when__col--consult{border-color:var(--pr-cyan);border-width:2px}
+  .pr-when__col h3{font-size:18px;margin-bottom:16px;color:var(--pr-ink)}
+  .pr-when__col--agency h3 a{color:var(--pr-ink);text-decoration:underline;text-decoration-color:var(--pr-cyan);text-underline-offset:2px}
+  .pr-when__col ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+  .pr-when__col li{position:relative;padding-left:24px;font-size:0.9rem;line-height:1.45;color:var(--pr-ink-2)}
+  .pr-when__col li::before{content:"";position:absolute;left:4px;top:5px;width:5px;height:9px;border:solid var(--pr-cyan);border-width:0 2px 2px 0;transform:rotate(45deg)}
+</style>
+
+<!-- ====================================================
+     HERO - person-anchored
+     ==================================================== -->
+<section class="pr-hero pr-hero--seo">
+  <div class="pr-container">
+    <div class="pr-consult-hero__grid">
+      <div class="pr-hero__text">
+        <h1 class="pr-hero__h1-eyebrow">AI SEO Consultant for SaaS (AEO &amp; GEO Advisory)</h1>
+
+        <h2 class="pr-hero__title pr-hero__title--two-tone">
+          <span class="pr-hero__title-soft">A senior AI SEO consultant who makes your SaaS the answer inside</span>
+          <span class="pr-hero__title-strong">ChatGPT, Perplexity, Claude, and AI Overviews</span>
+        </h2>
+
+        <div class="pr-hero__copy pr-hero__copy--seo">
+          <p>An AI SEO consultant for SaaS is a senior specialist who audits how AI engines like ChatGPT, Perplexity, Claude, and Google AI Overviews cite your category, then builds the AEO and GEO roadmap your team executes to become the cited answer. At PipeRocket, that consultant is Kim (Kamaraj Mathiarasan), co-founder and a B2B SaaS SEO specialist with 15+ years of experience. You work with Kim directly, no account manager in between, and every citation is tied to one outcome: qualified pipeline, not a traffic chart.</p>
+        </div>
+
+        <div class="pr-consult-hero__cred">
+          <span class="pr-consult-hero__chip">15+ years in B2B SaaS SEO</span>
+          <span class="pr-consult-hero__chip">Hands-on, senior-only</span>
+          <span class="pr-consult-hero__chip">AEO + GEO, tied to pipeline</span>
+        </div>
+
+        <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-source="consultant-hero">Book a consult with Kim</a>
+      </div>
+
+      <div class="pr-person-card">
+        <img class="pr-person-card__photo" src="/images/team-photo-kim.png" alt="Kim (Kamaraj Mathiarasan), AI SEO consultant for SaaS" loading="eager" decoding="async">
+        <div class="pr-person-card__name">Kim (Kamaraj Mathiarasan)</div>
+        <div class="pr-person-card__role">AI SEO Consultant &middot; Co-Founder, PipeRocket Digital</div>
+        <p class="pr-person-card__bio">Kim has spent 15+ years helping B2B SaaS companies turn organic search into pipeline. He now leads PipeRocket's AEO and GEO advisory, engineering how SaaS brands get cited across AI answer engines.</p>
+        <div class="pr-person-card__stats">
+          <div class="pr-person-card__stat"><b>15+</b><span>Years in SaaS SEO</span></div>
+          <div class="pr-person-card__stat"><b>50+</b><span>SaaS brands scaled</span></div>
+          <div class="pr-person-card__stat"><b>5</b><span>AI engines tracked</span></div>
+          <div class="pr-person-card__stat"><b>1:1</b><span>Direct senior access</span></div>
+        </div>
+        <a class="pr-person-card__link" href="https://www.linkedin.com/in/kamarajkkl/" target="_blank" rel="noopener">Connect with Kim on LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CLIENT LOGO BAR
+     ==================================================== -->
+{{ partial "logo-marquee.html" . }}
+
+<!-- ====================================================
+     WHAT AN AI SEO CONSULTANT DOES FOR SAAS
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo">
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-hero__h1-eyebrow" style="color:var(--pr-cyan);">What Kim does as your AI SEO consultant</h2>
+      <p class="pr-disp" style="white-space: normal;">Advisory work, not a hands-off retainer</p>
+      <p style="color:#fff;max-width:680px;margin-left:auto;margin-right:auto;font-size:14px;">A consultant engagement is strategy plus enablement: Kim diagnoses where AI engines cite your competitors instead of you, sets the AEO and GEO plan, and works alongside your team so they can execute and sustain it. You get senior judgement on the calls that matter, not a junior running a template.</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <h3 class="pr-approach__title">AI Visibility Diagnosis</h3>
+        <div class="pr-approach__copy"><p>Kim baselines your <a href="/tools/ai-share-of-voice-calculator/">citation share of voice</a> across ChatGPT, Perplexity, Claude, Gemini, and <a href="/glossary/what-is-an-ai-overview/">AI Overviews</a> for the buyer questions that decide deals.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-aeo-geo.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <h3 class="pr-approach__title">AEO &amp; GEO Roadmap</h3>
+        <div class="pr-approach__copy"><p>A prioritised plan for <a href="/saas-seo-agency/ai-seo-services/">Answer Engine and Generative Engine Optimization</a>, sequenced by which buyer questions move pipeline first.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-research.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <h3 class="pr-approach__title">Entity &amp; Topical Authority</h3>
+        <div class="pr-approach__copy"><p>The entity and topic-cluster architecture that teaches AI systems who you are and what you are the authority on, so citations compound.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-content.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <h3 class="pr-approach__title">Content &amp; Schema Direction</h3>
+        <div class="pr-approach__copy"><p>Kim shows your writers how to restructure pages into answer-first, <a href="/glossary/what-is-schema-markup/">schema-backed</a> content that AI engines can extract and quote.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-optimization.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <h3 class="pr-approach__title">Team Enablement</h3>
+        <div class="pr-approach__copy"><p>Workflows, checklists, and reviews that leave your in-house team able to run AEO and GEO after the engagement, not dependent on an agency forever.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-ai-analytics.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <h3 class="pr-approach__title">Measurement Framework</h3>
+        <div class="pr-approach__copy"><p>A reporting model that tracks citation share of voice and ties AI-led sessions to demos and pipeline, so the work is judged on revenue.</p></div>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-8); position: relative;">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-source="consultant-services">Book a consult with Kim</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     WHEN TO HIRE A CONSULTANT VS AN AGENCY (informational sub-intent + anti-cannibalization)
+     ==================================================== -->
+<section class="pr-section pr-section--tight">
+  <div class="pr-container" style="max-width: 980px;">
+    <div class="pr-center">
+      <h2 class="pr-hero__h1-eyebrow">Consultant or agency?</h2>
+      <p class="pr-disp">When to hire an AI SEO consultant vs an AI SEO agency</p>
+      <p style="max-width:720px;margin:0 auto;color:var(--pr-ink-2);">Both get your SaaS cited by AI engines. The difference is who does the doing. A consultant sets the strategy and upskills your team; an agency runs the execution end to end. Here is the honest split.</p>
+    </div>
+    <div class="pr-when">
+      <div class="pr-when__col pr-when__col--consult">
+        <h3>Hire Kim as your AI SEO consultant when</h3>
+        <ul>
+          <li>You have an in-house content or SEO team that can execute, but not the AEO/GEO strategy.</li>
+          <li>You want senior, direct access to the person making the calls, not an account manager.</li>
+          <li>You need a diagnosis and roadmap fast, then want to own execution internally.</li>
+          <li>You want to upskill your team so AI visibility becomes a repeatable in-house capability.</li>
+          <li>You need a fractional AI SEO lead for a defined period, not a full retainer.</li>
+        </ul>
+      </div>
+      <div class="pr-when__col pr-when__col--agency">
+        <h3>Hire the <a href="/saas-seo-agency/ai-seo-services/">AI SEO agency</a> when</h3>
+        <ul>
+          <li>You want the AEO and GEO work executed for you, content, schema, distribution, monitoring.</li>
+          <li>You do not have the internal bandwidth to run the roadmap yourselves.</li>
+          <li>You want a full team, writers, technical SEO, digital PR, on the program.</li>
+          <li>You need weekly citation monitoring and displacement handled hands-off.</li>
+          <li>You want one accountable partner owning the outcome, not just the plan.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <p style="color:var(--pr-ink-2);font-size:14px;margin-bottom:var(--pr-s-5);">Not sure which fits? Kim will tell you honestly on the first call, including when an agency retainer is the better spend.</p>
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-hero__cta" data-cta-source="ai-seo-consultant-when">Book a consult with Kim</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     MEET KIM - E-E-A-T credibility anchor
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 1040px;">
+    <div class="pr-meet">
+      <img class="pr-meet__photo" src="/images/team-photo-kim.png" alt="Kim (Kamaraj Mathiarasan), Co-Founder and AI SEO consultant at PipeRocket Digital" loading="lazy" decoding="async">
+      <div>
+        <h2 style="margin-bottom: var(--pr-s-4);">Meet Kim, your AI SEO consultant</h2>
+        <p style="color:var(--pr-ink-2);line-height:1.65;">Kim (Kamaraj Mathiarasan) is co-founder of PipeRocket Digital and a dedicated SEO expert with over 15 years helping B2B SaaS companies scale their organic presence. He built his career on high-impact SEO, topical authority, and BOFU strategy, the same fundamentals that now decide which brands AI engines cite. Today he leads PipeRocket's AEO and GEO advisory, working directly with SaaS marketing teams to make their brand the answer inside ChatGPT, Perplexity, Claude, and Google AI Overviews.</p>
+        <p style="color:var(--pr-ink-2);line-height:1.65;margin-top:var(--pr-s-4);">His philosophy is simple: citations are a means, pipeline is the outcome. Every engagement is scoped around the buyer questions that actually move revenue, and measured on qualified pipeline, not vanity metrics.</p>
+        <div class="pr-meet__tags">
+          <span class="pr-meet__tag">B2B SaaS SEO</span>
+          <span class="pr-meet__tag">Answer Engine Optimization</span>
+          <span class="pr-meet__tag">Generative Engine Optimization</span>
+          <span class="pr-meet__tag">Topical authority</span>
+          <span class="pr-meet__tag">BOFU strategy</span>
+          <span class="pr-meet__tag">Entity SEO</span>
+        </div>
+        <a class="pr-person-card__link" style="background:#0A66C2;margin-top:var(--pr-s-5);" href="https://www.linkedin.com/in/kamarajkkl/" target="_blank" rel="noopener">View Kim's LinkedIn profile</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     ENGAGEMENT MODELS - how you work with Kim
+     ==================================================== -->
+<section class="pr-section pr-section--tight pr-pricing">
+  <div class="pr-container">
+    <div class="pr-center" style="max-width: 720px; margin: 0 auto var(--pr-s-6);">
+      <h2 class="pr-hero__h1-eyebrow">Engagements</h2>
+      <p class="pr-disp">Three ways to work with your AI SEO consultant</p>
+      <p>Consulting is scoped to how much you want to own in-house. Standalone advisory starts at $3,500/mo, and a one-time audit and roadmap sprint starts at $4,000. Every engagement is scoped on a discovery call with Kim.</p>
+    </div>
+    <div class="pr-pricing__grid">
+      <div class="pr-pricing__card">
+        <div class="pr-pricing__tier">Audit &amp; Roadmap Sprint</div>
+        <div class="pr-pricing__price">From $4,000<span> / one-time</span></div>
+        <div class="pr-pricing__for">You have a team, you need the plan</div>
+        <ul class="pr-pricing__list">
+          <li>AI visibility &amp; citation baseline</li>
+          <li>Prioritised AEO &amp; GEO roadmap</li>
+          <li>Entity &amp; content gap analysis</li>
+          <li>Working session to hand off to your team</li>
+        </ul>
+      </div>
+      <div class="pr-pricing__card pr-pricing__card--feature">
+        <div class="pr-pricing__tier">Fractional AI SEO Lead</div>
+        <div class="pr-pricing__price">Custom<span> / part-time embed</span></div>
+        <div class="pr-pricing__for">You want senior leadership without a hire</div>
+        <div class="pr-pricing__incl">Everything in the Sprint, plus:</div>
+        <ul class="pr-pricing__list">
+          <li>Kim embeds part-time as your AI SEO lead</li>
+          <li>Leads strategy, your team executes</li>
+          <li>Sprint planning &amp; content direction</li>
+          <li>Citation share-of-voice reviews</li>
+          <li>Pipeline attribution guidance</li>
+        </ul>
+      </div>
+      <div class="pr-pricing__card">
+        <div class="pr-pricing__tier">Advisory Retainer</div>
+        <div class="pr-pricing__price">From $3,500<span> / mo</span></div>
+        <div class="pr-pricing__for">Ongoing senior guidance</div>
+        <div class="pr-pricing__incl">Scoped to your cadence:</div>
+        <ul class="pr-pricing__list">
+          <li>Monthly strategy &amp; review calls</li>
+          <li>Roadmap adjustments as engines shift</li>
+          <li>Async access for the calls that matter</li>
+          <li>Team enablement &amp; QA</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pr-center" style="margin-top: var(--pr-s-6);">
+      <a href="{{ .Site.Params.secondary_cta_url }}" class="pr-btn pr-btn--ghost" data-cta-source="consultant-pricing">Scope your engagement</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     TESTIMONIALS
+     ==================================================== -->
+<section class="pr-section--tight pr-section--social-proof">
+  <div class="pr-container">
+    <div class="pr-center"><h2>SaaS teams Kim and PipeRocket have helped grow</h2></div>
+    <div class="pr-testimonials__viewport">
+      <div class="pr-testimonials" data-testimonials-track>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-spendflo.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital has grown our organic traffic 5X over eight months and their organic leads by 25% over six months. The team is prompt and involved strategically and in execution. Their in-depth understanding of SEO and consistent involvement make them a reliable partner.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nivas.png" alt="Nivas">
+            <div>
+              <div class="pr-testimonial__name">Nivas</div>
+              <div class="pr-testimonial__role">Head of Marketing</div>
+              <img loading="lazy" decoding="async" src="/images/logo-spendflo.svg" alt="Spendflo" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-devrev.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">PipeRocket Digital helped us achieve 2.2 times more organic search traffic growth and a 50% improvement in ROAS. The team worked as an extended team and delivered tasks promptly, committed to driving growth and continuously learning and improving.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-saptharishi.png" alt="Saptharishi Baradhan">
+            <div>
+              <div class="pr-testimonial__name">Saptharishi</div>
+              <div class="pr-testimonial__role">Head of Demand Generation</div>
+              <img loading="lazy" decoding="async" src="/images/logo-devrev.png" alt="DevRev" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+        <article class="pr-testimonial">
+          <img loading="lazy" decoding="async" src="/images/stroke-storylane.svg" alt="" class="pr-testimonial__stroke" aria-hidden="true">
+          <p class="pr-testimonial__quote">Working alongside PipeRocket has been a commendable experience for Storylane. Their comprehensive analysis, strategic initiatives, end-to-end campaign structuring, landing page experimentation, and targeted remarketing delivered remarkable results for us.</p>
+          <div class="pr-testimonial__author">
+            <img loading="lazy" decoding="async" class="pr-testimonial__avatar" src="/images/avatar-nalin.png" alt="Nalin">
+            <div>
+              <div class="pr-testimonial__name">Nalin</div>
+              <div class="pr-testimonial__role">CEO</div>
+              <img loading="lazy" decoding="async" src="/images/logo-storylane-cs.svg" alt="Storylane" class="pr-testimonial__logo">
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     THE CONSULTING ENGAGEMENT, STEP BY STEP
+     ==================================================== -->
+<section class="pr-section pr-section--dark pr-section--outcome pr-section--approach-seo">
+  <img src="/images/seo-approach-blue-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--blue">
+  <img src="/images/seo-approach-red-stroke.svg" alt="" aria-hidden="true" class="pr-approach-seo__vec pr-approach-seo__vec--red">
+  <div class="pr-container" style="position: relative;">
+    <div class="pr-center pr-outcome__header">
+      <h2 class="pr-outcome__heading" style="white-space: normal;">The consulting engagement, step by step</h2>
+      <p style="color:#fff;max-width:620px;margin-left:auto;margin-right:auto;font-size:14px;">A consultant engagement is a fixed path from "we do not know if AI cites us" to "our team owns AI visibility."</p>
+    </div>
+    <div class="pr-approach pr-approach--seo-3">
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-start-from-inside.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">01 &middot; Baseline</div>
+        <div class="pr-approach__copy"><p>Kim measures your citation share of voice across every AI engine your buyers use, and where competitors are being cited instead of you.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-map-full-picture.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">02 &middot; Map buyer questions</div>
+        <div class="pr-approach__copy"><p>Working with your sales team, he maps the real questions buyers ask AI assistants and turns each into a target citation outcome.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-build-with-intent.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">03 &middot; Build the roadmap</div>
+        <div class="pr-approach__copy"><p>You get a prioritised AEO and GEO plan, entity work, schema, content restructuring, distribution, sequenced by pipeline impact.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-go-where-buyers.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">04 &middot; Enable your team</div>
+        <div class="pr-approach__copy"><p>Kim runs working sessions and leaves behind the workflows and checklists your writers and SEO team execute against.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-cited-where-counts.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">05 &middot; Review &amp; adjust</div>
+        <div class="pr-approach__copy"><p>On retainer or fractional engagements, he reviews citation movement, diagnoses shifts, and adjusts the plan as engines change.</p></div>
+      </div>
+      <div class="pr-approach__card pr-approach__card--seo">
+        <img loading="lazy" decoding="async" src="/images/icon-approach-scale-what-works.svg" alt="" class="pr-approach__icon" aria-hidden="true">
+        <div class="pr-approach__title">06 &middot; Tie to pipeline</div>
+        <div class="pr-approach__copy"><p>AI-led sessions get connected to demos and pipeline so you can prove what AI visibility is actually worth to revenue.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     FAQ
+     ==================================================== -->
+<section class="pr-section">
+  <div class="pr-container" style="max-width: 880px;">
+    <div class="pr-center"><h2>Frequently asked questions</h2></div>
+
+    {{ $faqs := slice
+      (dict "q" "What is an AI SEO consultant for SaaS?"
+            "a" "An AI SEO consultant for SaaS is a senior specialist who audits how AI engines like ChatGPT, Perplexity, Claude, and Google AI Overviews cite your category, then builds the AEO and GEO strategy your team executes to become the cited answer.")
+      (dict "q" "Who is the best AI SEO consultant for B2B SaaS?"
+            "a" "Kim (Kamaraj Mathiarasan), co-founder of PipeRocket Digital, is an AI SEO consultant with 15+ years in B2B SaaS SEO. He builds AEO and GEO strategy for SaaS brands and ties every citation to qualified pipeline.")
+      (dict "q" "What does an AI SEO consultant do?"
+            "a" "An AI SEO consultant diagnoses your AI citation share of voice, builds an AEO and GEO roadmap, directs content and schema, and enables your in-house team, so your SaaS gets cited by AI engines and it becomes a repeatable capability.")
+      (dict "q" "AI SEO consultant vs AI SEO agency, which do I need?"
+            "a" "Hire a consultant when you have a team that can execute but needs the strategy and senior direction. Hire an agency when you want the AEO and GEO work done for you end to end. A consultant sets the plan; an agency runs it.")
+      (dict "q" "How much does an AI SEO consultant for SaaS cost?"
+            "a" "AI SEO consultant engagements for SaaS typically run $3,500 to $10,000+ per month. At PipeRocket, advisory retainers start at $3,500/mo and a one-time audit and roadmap sprint starts at $4,000, scoped on a discovery call.")
+      (dict "q" "When should a SaaS company hire an AI SEO consultant?"
+            "a" "Hire an AI SEO consultant when buyers are asking AI engines about your category and your brand is not the answer, and you have an in-house team that can execute a roadmap but lacks the AEO and GEO strategy to build it.")
+      (dict "q" "Can an AI SEO consultant work with my in-house team?"
+            "a" "Yes. That is the point of a consultant engagement. Kim sets the AEO and GEO strategy, runs working sessions, and leaves behind workflows and checklists so your writers and SEO team can execute and sustain the work.")
+      (dict "q" "Does an AI SEO consultant cover both AEO and GEO?"
+            "a" "Yes. AEO (Answer Engine Optimization) makes your brand the cited answer, and GEO (Generative Engine Optimization) makes it visible across generative AI. Kim scopes both as one roadmap, since they share the same technical foundation.")
+      (dict "q" "What is the difference between an AI SEO consultant and a traditional SEO consultant?"
+            "a" "A traditional SEO consultant optimises for ranked links on Google. An AI SEO consultant optimises for being the cited source inside AI answers from ChatGPT, Perplexity, Claude, and AI Overviews. The metric shifts from rank #1 to cited by the engine.")
+      (dict "q" "Do I hire the consultant or work with Kim directly?"
+            "a" "You work with Kim directly. Consulting engagements are senior-only, with no account manager in between. For fully-managed execution, PipeRocket's AI SEO agency team runs the program instead.")
+    }}
+
+    <div class="pr-accordion" style="margin-top: var(--pr-s-6);">
+      {{ range $faqs }}
+      <details class="pr-accordion__item">
+        <summary class="pr-accordion__header">
+          <span class="pr-accordion__header-left">{{ .q }}</span>
+          <span class="pr-accordion__toggle">+</span>
+        </summary>
+        <div class="pr-accordion__body">{{ with .html }}{{ . | safeHTML }}{{ else }}{{ .a }}{{ end }}</div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{ range $i, $f := $faqs }}{{ if $i }},{{ end }}{
+        "@type": "Question",
+        "name": {{ $f.q }},
+        "acceptedAnswer": { "@type": "Answer", "text": {{ $f.a }} }
+      }{{ end }}
+    ]
+  }
+  </script>
+</section>
+
+<!-- ====================================================
+     RELATED GUIDES
+     ==================================================== -->
+<section class="pr-section pr-section--tight pr-guides">
+  <div class="pr-container">
+    <div class="pr-guides__head">
+      <div>
+        <h2 class="pr-hero__h1-eyebrow">Related Guides</h2>
+        <p class="pr-disp">Go deeper on AEO and GEO</p>
+      </div>
+      <div class="pr-guides__nav" aria-hidden="true">
+        <button type="button" class="pr-guides__arrow" data-guides-prev aria-label="Previous guides">&#8592;</button>
+        <button type="button" class="pr-guides__arrow" data-guides-next aria-label="Next guides">&#8594;</button>
+      </div>
+    </div>
+    <div class="pr-guides__track" data-guides-track>
+      <a class="pr-guides__card" href="/blogs/ai-seo-strategy-and-framework/">
+        <span class="pr-guides__eyebrow">Framework</span>
+        <span class="pr-guides__title">AI SEO Strategy and Framework for 2026</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/blogs/how-to-do-geo-for-saas/">
+        <span class="pr-guides__eyebrow">GEO</span>
+        <span class="pr-guides__title">GEO and AEO for SaaS: One Playbook to Win AI Search</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/blogs/how-to-get-cited-in-ai-overviews/">
+        <span class="pr-guides__eyebrow">AI Overviews</span>
+        <span class="pr-guides__title">How to Get Cited in Google AI Overviews</span>
+        <span class="pr-guides__more">Read guide <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/saas-seo-agency/ai-seo-services/">
+        <span class="pr-guides__eyebrow">Service</span>
+        <span class="pr-guides__title">AI SEO Agency for SaaS (AEO + GEO)</span>
+        <span class="pr-guides__more">Read more <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/checklists/aeo-checklist/">
+        <span class="pr-guides__eyebrow">Checklist</span>
+        <span class="pr-guides__title">The AEO Checklist for 2026</span>
+        <span class="pr-guides__more">Use checklist <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+      <a class="pr-guides__card" href="/saas-seo-agency/">
+        <span class="pr-guides__eyebrow">Service</span>
+        <span class="pr-guides__title">SaaS SEO Agency, AI-First Organic Growth</span>
+        <span class="pr-guides__more">Read more <img loading="lazy" decoding="async" src="/images/arrow-read-more.svg" alt="" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var track = document.querySelector('.pr-guides [data-guides-track]');
+      if (!track) return;
+      var step = function () { var c = track.querySelector('.pr-guides__card'); return c ? c.offsetWidth + 20 : 320; };
+      var prev = document.querySelector('[data-guides-prev]');
+      var next = document.querySelector('[data-guides-next]');
+      if (prev) prev.addEventListener('click', function () { track.scrollBy({ left: -step() * 2, behavior: 'smooth' }); });
+      if (next) next.addEventListener('click', function () { track.scrollBy({ left: step() * 2, behavior: 'smooth' }); });
+    })();
+  </script>
+</section>
+
+<!-- ====================================================
+     FINAL CTA
+     ==================================================== -->
+<section class="pr-cta-final pr-cta-final--seo">
+  <div class="pr-container">
+    <img loading="lazy" decoding="async" class="pr-cta-final__mark" src="/images/cta-mark.png" alt="" aria-hidden="true" data-cta-mark>
+    <img loading="lazy" decoding="async" class="pr-cta-final__phone" src="/images/cta-phone-rider.webp" alt="" aria-hidden="true" data-cta-phone>
+    <h2><span class="pr-cta-soft">If your buyers are asking AI about your category and your SaaS isn't the answer,</span> <strong>talk to Kim.</strong></h2>
+    <p>Kim takes a small number of SaaS consulting engagements at a time. Book a call to see whether a consult, a fractional lead, or the full agency team is the right fit for where you are.</p>
+    <a href="/contact-us/" class="pr-btn" data-cta-source="consultant-bottom">Book a consult with Kim</a>
+  </div>
+</section>
+
+{{/* ============================================================
+     STRUCTURED DATA - Person (Kim) + ProfessionalService + Breadcrumb
+     ============================================================ */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ .Site.BaseURL }}#kim",
+      "name": "Kamaraj Mathiarasan",
+      "alternateName": "Kim",
+      "jobTitle": "AI SEO Consultant, Co-Founder",
+      "description": "AI SEO consultant for B2B SaaS with 15+ years of experience, specialising in AEO and GEO so SaaS brands get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews.",
+      "image": "{{ .Site.BaseURL }}images/team-photo-kim.png",
+      "url": "{{ .Permalink }}",
+      "sameAs": ["https://www.linkedin.com/in/kamarajkkl/"],
+      "knowsAbout": ["AI SEO", "Answer Engine Optimization", "Generative Engine Optimization", "B2B SaaS SEO", "Topical authority", "Entity SEO", "Technical SEO"],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "PipeRocket Digital",
+        "url": "{{ .Site.BaseURL }}"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "name": "AI SEO Consulting for SaaS",
+      "serviceType": "AI SEO Consultant (AEO & GEO advisory)",
+      "url": "{{ .Permalink }}",
+      "description": "AI SEO consulting for B2B SaaS: AEO and GEO strategy, roadmaps, and team enablement that get your brand cited by ChatGPT, Perplexity, Claude, and Google AI Overviews, tied to qualified pipeline.",
+      "areaServed": "US",
+      "audience": { "@type": "Audience", "audienceType": "B2B SaaS companies" },
+      "provider": {
+        "@type": "Organization",
+        "name": "PipeRocket Digital",
+        "url": "{{ .Site.BaseURL }}",
+        "employee": { "@id": "{{ .Site.BaseURL }}#kim" }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "3500",
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "SaaS SEO", "item": "{{ .Site.BaseURL }}saas-seo-agency/" },
+        { "@type": "ListItem", "position": 2, "name": "AI SEO Consultant", "item": "{{ .Permalink }}" }
+      ]
+    }
+  ]
+}
+</script>
+
+{{ end }}
