@@ -159,7 +159,7 @@ We build AI search visibility into the SEO retainer rather than selling it as a 
 
 ### Is GEO the same as AEO?
 
-Not technically, but in practice you treat them as one job. GEO ([generative engine optimization](/glossary/what-is-geo/)) is about getting cited inside generative engines like ChatGPT and Perplexity, while AEO (answer engine optimization) is about getting extracted into Google's AI Overviews and featured snippets. They target different surfaces, but the underlying work (clear structure, off-site authority, entity consistency, first-party data) is mostly shared. So the smart move is to run one AI SEO playbook rather than two competing ones. For a deeper breakdown of each split, see our comparisons of [GEO vs SEO](/blogs/geo-vs-seo/) and [AEO vs GEO](/blogs/aeo-vs-geo/).
+Not technically, but in practice you treat them as one job. GEO ([generative engine optimization](/glossary/what-is-geo/)) is about getting cited inside generative engines like ChatGPT and Perplexity, while AEO (answer engine optimization) is about getting extracted into Google's AI Overviews and featured snippets. They target different surfaces, but the underlying work (clear structure, off-site authority, entity consistency, first-party data) is mostly shared. So the smart move is to run one AI SEO playbook rather than two competing ones, whether you run it in-house or with an [AI SEO consultant](/saas-seo-agency/ai-seo-consultant/). For a deeper breakdown of each split, see our comparisons of [GEO vs SEO](/blogs/geo-vs-seo/) and [AEO vs GEO](/blogs/aeo-vs-geo/).
 
 ### How do I get my SaaS mentioned in ChatGPT?
 

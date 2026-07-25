@@ -204,4 +204,4 @@ Absolutely not. I tell people to treat it as one additional layer. If your funda
 
 ### 5. Why should I ignore AI SEO tools?
 
-We’ve audited over 70 of them and they just don’t work. They’re guessing how a black-box algorithm functions. They might give you a “score,” but that score doesn’t mean anything to ChatGPT or Perplexity. You’re better off spending that budget on real expert content and technical health.
+We’ve audited over 70 of them and they just don’t work. They’re guessing how a black-box algorithm functions. They might give you a “score,” but that score doesn’t mean anything to ChatGPT or Perplexity. You’re better off spending that budget on real expert content and technical health, or an [AI SEO consultant](/saas-seo-agency/ai-seo-consultant/) who does that work.

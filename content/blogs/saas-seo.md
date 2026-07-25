@@ -60,6 +60,8 @@ That's the honest disqualifier most agencies skip because it costs them a sale.
 We turn SaaS companies away from SEO more often than you'd think. If you don't have product-market fit and a clear ICP yet, SEO will just scale your confusion faster. Fix that first, then we talk search.
 {{< /expert-take >}}
 
+That fit-first conversation is what working with a [SaaS SEO consultant](/saas-seo-agency/seo-consultant/) should feel like: honest about whether SEO is even the right bet before anyone signs.
+
 The teams SaaS SEO works for share three traits. They know who their buyer is. They have a product that visibly solves a researched problem. And they can commit to a 9 to 12 month horizon, because that's when organic starts outpacing paid on cost per qualified lead.
 
 ## What Does a SaaS SEO Program Actually Contain?
