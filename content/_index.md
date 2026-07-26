@@ -1,7 +1,7 @@
 ---
-title: "B2B SaaS Marketing Agency Built for MRR, ARR & Pipeline | PipeRocket Digital"
+title: "B2B SaaS Digital Marketing Agency Built for MRR, ARR & Pipeline | PipeRocket Digital"
 description: "B2B SaaS marketing agency built for pipeline, not vanity traffic. Senior SaaS SEO, SaaS PPC, and MarOps operators embedded in your team. 70+ brands shipped."
-metaTitle: "B2B SaaS Marketing Agency Built for MRR, ARR & Pipeline | PipeRocket Digital"
+metaTitle: "B2B SaaS Digital Marketing Agency Built for MRR, ARR & Pipeline | PipeRocket Digital"
 metaDescription: "B2B SaaS marketing agency built for pipeline, not vanity traffic. Senior SaaS SEO, SaaS PPC, and MarOps operators embedded in your team. 70+ brands shipped."
 
 # Homepage FAQ — single source of truth for BOTH the visible accordion
