@@ -397,8 +397,13 @@ def find_listicle_agency_section(body: str, competitor_name: str):
             continue
         # Normalize: strip number prefix, lower, remove spaces
         rest = re.sub(r"^\d+[\.\)]\s+", "", heading_text).lower().replace(" ", "")
-        # Match if competitor name appears in the heading
-        if target_norm in rest or rest.startswith(target_norm):
+        # Match only if the heading STARTS with the competitor name (the
+        # agency's own name, optionally followed by a qualifier like
+        # "(formerly ContentKing)"). A plain "contains" check previously also
+        # matched a competitor name that's merely the LAST word of an
+        # unrelated compound name — e.g. "Convert" falsely matching the
+        # heading "Grow and Convert" (a different agency entirely).
+        if rest.startswith(target_norm):
             start = h.start()
             # End = start of next heading (any level) or end of body
             end = len(body)
@@ -422,7 +427,24 @@ def find_alternative_agency_block(body: str, competitor_name: str):
     alternatives bridge — a real regression this guard fixes).
     """
     pat = re.compile(r"\b" + re.escape(competitor_name) + r"\b")
-    m = pat.search(body)
+    m = None
+    for cand in pat.finditer(body):
+        # Skip mentions inside a markdown table row (e.g. a "Notable
+        # Clients" cell listing a DIFFERENT agency's clients) — a brand
+        # named as someone else's client isn't a signal the reader wants
+        # alternatives/comparisons for that brand.
+        line_start = body.rfind("\n", 0, cand.start()) + 1
+        line_end = body.find("\n", cand.end())
+        line = body[line_start: len(body) if line_end == -1 else line_end]
+        if line.lstrip().startswith("|"):
+            continue
+        # Skip a match immediately preceded by "and " — the tail word of an
+        # unrelated compound agency name (e.g. "Convert" falsely matching
+        # inside "Grow and Convert", a completely different agency).
+        if body[max(0, cand.start() - 4):cand.start()].lower() == "and ":
+            continue
+        m = cand
+        break
     if not m:
         return None
     # Find paragraph end (next blank line) so we can insert just after

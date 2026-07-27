@@ -135,7 +135,7 @@ Looking at Siege Media too? Our [Siege Media alternatives](/alternative/siege-me
 
 Want a side-by-side? See our [PipeRocket vs Siege Media](/compare/piperocket-digital-vs-siege-media/) breakdown.
 
-For a side-by-side on features and pricing, read our [Siege Media vs Omniscient Digital](/compare/siege-media-vs-omniscient-digital/) comparison.
+Weighing the two directly? See our neutral [Siege Media vs Omniscient Digital](/compare/siege-media-vs-omniscient-digital/) breakdown.
 
 
 
@@ -354,10 +354,6 @@ With a team of 10-49 people, Grow and Convert can't scale to high-volume content
 | Clutch Rating | [4.8/5 (9 reviews)](https://clutch.co/profile/grow-convert) |
 
 ---
-
-Also evaluating Convert? See our [Convert alternatives](/alternative/convert-alternatives/) breakdown.
-
-
 
 ### 5. Foundation Marketing
 
