@@ -208,7 +208,7 @@ Best for: Series A/B SaaS teams wanting AI-search visibility inside a pipeline-a
 | Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | B2B SaaS SEO + PPC + AI-search visibility |
 
 **What Sets Us Apart**

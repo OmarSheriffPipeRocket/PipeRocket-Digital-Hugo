@@ -48,7 +48,7 @@ The trade-off is blunt. Sales-led motions spend money to create qualified conver
 
 The trial-versus-freemium choice is a product decision, and picking the wrong model quietly caps your growth for years. A free trial gives full access for a limited window. Freemium gives limited access forever. They attract different users and convert on different mechanics.
 
-Free trials tend to convert a higher share of signups. Recent benchmarks put [free-trial signup-to-paid conversion near 17%, versus roughly 5% for freemium](https://www.shno.co/marketing-statistics/product-led-growth-statistics). Freemium usually pulls more signups in the first place, so the models trade volume for conversion rate. Neither number means much until you match it to your product.
+Free trials tend to convert a higher share of signups. Recent benchmarks put [free-trial signup-to-paid conversion near 17%, versus roughly 5% for freemium](https://www.shno.co/marketing-statistics/product-led-growth-statistics). Freemium usually pulls more signups in the first place, so the models trade volume for [conversion rate](/tools/conversion-rate-calculator/). Neither number means much until you match it to your product.
 
 ![Free trial versus freemium comparison for SaaS: trial converts about 17 percent of signups with a limited-time full-access model that suits fast time-to-value products, while freemium converts about 5 percent with a forever-free tier that suits high-volume, network-effect products.](/images/blog-infographics/saas-product-led-growth-strategy-infographic-1.webp)
 
@@ -143,7 +143,7 @@ PLG works when a user can reach value alone and the product's value grows with u
 
 ## The Expansion Loop: Where PLG Revenue Compounds
 
-Expansion is where product-led growth actually pays for itself. Self-serve acquisition is cheap, but the compounding revenue comes from existing accounts using more over time, which is why net revenue retention is the metric investors care about most in PLG businesses.
+Expansion is where product-led growth actually pays for itself. Self-serve acquisition is cheap, but the compounding revenue comes from existing accounts using more over time, which is why [net revenue retention](/tools/nrr-calculator/) is the metric investors care about most in PLG businesses.
 
 The mechanic is simple. A user lands on a free or entry tier, gets value, pulls in teammates, hits a usage ceiling, and upgrades. Then the account expands seats, adds workflows, and grows again. That loop turns one activated user into an account that pays more every year without new acquisition cost.
 

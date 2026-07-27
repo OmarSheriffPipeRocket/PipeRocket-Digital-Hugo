@@ -38,7 +38,7 @@ Before the numbers, the method, because a benchmark you cannot interrogate is ju
 
 - **Dataset:** 19 B2B SaaS Google Ads accounts PipeRocket actively manages, drawn from a portfolio of 70+ B2B SaaS clients. One additional account was deactivated during the window and excluded.
 - **Window:** trailing 12 months (July 2025 to June 2026), compared against the prior 12 months (July 2024 to June 2025).
-- **How we summarize:** we work out each account's own CTR, CPC, conversion rate, and cost per lead first, then report **the average account (the middle of the pack)**. Adding all the raw numbers together would let the single largest spender set the "benchmark," which is exactly the distortion most published benchmarks suffer from.
+- **How we summarize:** we work out each account's own CTR, CPC, [conversion rate](/tools/conversion-rate-calculator/), and cost per lead first, then report **the average account (the middle of the pack)**. Adding all the raw numbers together would let the single largest spender set the "benchmark," which is exactly the distortion most published benchmarks suffer from.
 - **Currency:** accounts billed in INR, EUR, and TWD are converted to USD at trailing-12-month average rates. CTR and conversion rate are currency-independent; CPC and cost per lead are USD-normalized.
 - **Year-over-year:** every year-over-year figure compares only the accounts active in *both* periods, and reports how the average account's own number changed. This keeps clients joining or leaving from distorting the trend.
 - **Anonymized:** no individual account is identifiable. Vertical cuts are reported only where at least five accounts sit in the bucket.
@@ -51,7 +51,7 @@ These are the average values across all 19 accounts for the trailing 12 months, 
 | Metric | Average (B2B SaaS) |
 |---|---|
 | [Click-through rate](/blogs/how-to-improve-organic-ctr/) (CTR) | **3.60%** |
-| Average cost per click (CPC) | **$6.81** |
+| Average [cost per click](/tools/cpc-calculator/) (CPC) | **$6.81** |
 | Conversion rate | **2.57%** |
 | Cost per lead (blended) | **$84** |
 

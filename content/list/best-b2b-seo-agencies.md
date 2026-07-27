@@ -153,7 +153,7 @@ I built [PipeRocket Digital](/) because generalist approaches fail B2B companies
 | --- | --- |
 | Location | California, USA |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | B2B SaaS [SEO](/saas-seo-agency/), GEO/AEO, technical SEO, pipeline attribution |
 
 **Methodology**
@@ -244,7 +244,7 @@ Directive's multi-disciplinary approach provides the bandwidth global technology
 
 **Love:** Customer Generation framework
 
-CMOs at enterprise software companies cite Directive helped restructure their entire demand generation approach, with the Customer Generation framework changing how they think about marketing ROI ([source](https://clutch.co/profile/directive-consulting)).
+CMOs at enterprise software companies cite Directive helped restructure their entire demand generation approach, with the Customer Generation framework changing how they think about [marketing ROI](/tools/marketing-roi-calculator/) ([source](https://clutch.co/profile/directive-consulting)).
 
 - Enterprise SaaS marketing leads cite LTV-focused reporting and tight CFO-marketing alignment as standout strengths
 

@@ -50,7 +50,7 @@ What survives is a much shorter list, usually a few hundred terms, where the sea
 
 The instinct is to sort by volume and start at the top. Resist it. We've watched teams burn a quarter chasing a 9,000-search gap keyword, rank for it, and move zero pipeline, because the keyword brought researchers and students, not buyers.
 
-The math is unforgiving. A 1,000-search keyword, even ranking top three, brings maybe 100 clicks; at a typical SaaS conversion rate of 2 to 4%, that's four or five conversions.
+The math is unforgiving. A 1,000-search keyword, even ranking top three, brings maybe 100 clicks; at a typical SaaS [conversion rate](/tools/conversion-rate-calculator/) of 2 to 4%, that's four or five conversions.
 
 A 90-search keyword like "Zendesk alternative for startups" might bring eight visitors a week, and most of them are evaluating a switch right now. Run that math on every gap before you sort.
 

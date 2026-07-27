@@ -135,7 +135,7 @@ Best for: B2B SaaS marketing leaders who report performance in SQLs and pipeline
 | Location | California, USA |
 | Founded | 2019 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | B2B SaaS performance and pipeline marketing |
 
 **The Edge:** We run paid, SEO, and AI search visibility on the same pod, so there's no handoff drag when budgets shift between channels mid-quarter. Reporting starts at the SQL line, not the impression line.
@@ -206,7 +206,7 @@ Best for: Enterprise retail and consumer brands with serious marketplace spend
 - Amazon and marketplace depth few US agencies match
 - CTV and programmatic capability for true full-funnel programs
 
-**The Receipts:** A Clutch reviewer (VP eCommerce, clothing retailer) reported Tinuiti "immediately doubled, if not tripled" ROAS and expanded AdWords from ~8 to 800 campaigns, with site conversion rate up 22% in year one on [Tinuiti's Clutch profile](https://clutch.co/profile/tinuiti).
+**The Receipts:** A Clutch reviewer (VP eCommerce, clothing retailer) reported Tinuiti "immediately doubled, if not tripled" ROAS and expanded AdWords from ~8 to 800 campaigns, with site [conversion rate](/tools/conversion-rate-calculator/) up 22% in year one on [Tinuiti's Clutch profile](https://clutch.co/profile/tinuiti).
 
 **The Honest Caveat:** Tinuiti has only 1 verified Clutch review against a ~1,200-person team, which makes external social proof thinner than the brand suggests. Account-management variability is also common at agencies this size.
 

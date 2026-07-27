@@ -198,7 +198,7 @@ Best for: B2B SaaS teams that want links measured against pipeline, not domain r
 | Location | Bengaluru, India (global remote) |
 | Founded | 2020 |
 | Team Size | 25+ people |
-| Notable Clients | Storylane, LeadSquared, GreytHR, Tredence, DevRev, Spendflo |
+| Notable Clients | Storylane, [LeadSquared](/case-study/leadsquared/), GreytHR, Tredence, DevRev, Spendflo |
 | Specialization | [Link building](/saas-seo-agency/link-building-agency/), SEO, [GEO/AEO](/saas-seo-agency/ai-seo-services/) |
 
 **Cleared For:** Series A+ B2B SaaS teams that want links from publications their buyers and AI search engines actually trust, measured against pipeline outcomes.
@@ -223,7 +223,7 @@ Buyers wanting a fixed monthly link count find our model less prescriptive than 
 
 - Custom retainer structure means scoping calls before any number is quoted
 
-**Evidence Filed:** We've worked with 70+ B2B SaaS companies including Storylane, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo. Our Clutch profile shows a 4.7/5 with reviews citing pipeline outcomes inside 9 months for greenfield SaaS programs.
+**Evidence Filed:** We've worked with 70+ B2B SaaS companies including Storylane, LeadSquared, GreytHR, [Tredence](/case-study/tredence/), DevRev, and Spendflo. Our Clutch profile shows a 4.7/5 with reviews citing pipeline outcomes inside 9 months for greenfield SaaS programs.
 
 **Where We Don't Fit:** Teams that want link building isolated from broader SEO strategy, or buyers comparing on per-link cost without a pipeline metric attached.
 

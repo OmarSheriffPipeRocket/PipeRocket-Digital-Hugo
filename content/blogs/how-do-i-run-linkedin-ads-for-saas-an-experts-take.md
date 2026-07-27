@@ -207,7 +207,7 @@ This is the one of the biggest mistakes I see while auditing SaaS LinkedIn ad ac
 
 Do not use Max Delivery.
 
-Max Delivery gives LinkedIn permission to spend your budget as fast as possible. It often results in a high CPC (Cost Per Click) and inefficient delivery.
+Max Delivery gives LinkedIn permission to spend your budget as fast as possible. It often results in a high CPC ([Cost Per Click](/tools/cpc-calculator/)) and inefficient delivery.
 
 **The Fix: Use Manual Bidding.**
 

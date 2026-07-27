@@ -424,7 +424,7 @@ Google Keyword Planner is the strongest free option for volume data because it d
 
 ### Does Google Keyword Planner show exact search volumes for free?
 
-No. Without active Google Ads spend, Google Keyword Planner shows broad volume ranges such as 1K to 10K rather than exact monthly figures. Running even a minimal active campaign will unlock exact volumes.
+No. Without active [Google Ads spend](/tools/google-ads-cost-estimator/), Google Keyword Planner shows broad volume ranges such as 1K to 10K rather than exact monthly figures. Running even a minimal active campaign will unlock exact volumes.
 
 ### What is the difference between Google Keyword Planner and tools like Ubersuggest?
 

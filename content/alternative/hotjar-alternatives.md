@@ -196,6 +196,10 @@ Microsoft Clarity is entirely free as of June 2026. There are no paid tiers, no 
 
 ---
 
+Weighing the two directly? See our neutral [Hotjar vs Microsoft Clarity](/compare/hotjar-vs-microsoft-clarity/) breakdown.
+
+
+
 ### 3. Mouseflow
 
 Best for: E-commerce and growth teams needing session replay, heatmaps, funnel analytics, and form analytics on a transparent per-session pricing model without data sampling.
@@ -268,6 +272,10 @@ Mouseflow uses tiered per-session pricing with up to 35% discount on annual bill
 ---
 
 Also evaluating Mouseflow? See our [Mouseflow alternatives](/alternative/mouseflow-alternatives/) breakdown.
+
+For a side-by-side on features and pricing, read our [Hotjar vs Mouseflow](/compare/hotjar-vs-mouseflow/) comparison.
+
+
 
 
 

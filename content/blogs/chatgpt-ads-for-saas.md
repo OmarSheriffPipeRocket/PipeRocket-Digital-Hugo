@@ -130,4 +130,4 @@ You don't use keywords, cookies, or uploaded audience lists. OpenAI reads the to
 
 ### How much do ChatGPT ads cost for a SaaS company?
 
-There's no minimum spend to open an account, which makes it cheap to test. early reporting on the beta points to a starting CPC max bid around $3 to $5 per click, and a default CPM near $60, though these are early figures and will move. For SaaS, judge cost the same way you judge any paid channel: what you pay for a qualified lead against that customer's lifetime value, not the click price on its own.
+There's no minimum spend to open an account, which makes it cheap to test. early reporting on the beta points to a starting CPC max bid around $3 to $5 per click, and a default CPM near $60, though these are early figures and will move. For SaaS, judge cost the same way you judge any paid channel: what you pay for a qualified lead against that customer's [lifetime value](/tools/ltv-calculator/), not the click price on its own.

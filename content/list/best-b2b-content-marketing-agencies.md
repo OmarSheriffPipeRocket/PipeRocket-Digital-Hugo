@@ -150,7 +150,7 @@ I built [PipeRocket Digital](/) because I was exhausted watching agencies delive
 | --- | --- |
 | Location | California, USA |
 | Team Size | 25+ people |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | B2B SaaS content, BOFU strategy, pipeline-tied editorial |
 
 **Right Call When:** You're a B2B SaaS, fintech, or B2B tech team seeking measurable pipeline growth from content, where every brief needs to defend itself against revenue contribution at the next board review.

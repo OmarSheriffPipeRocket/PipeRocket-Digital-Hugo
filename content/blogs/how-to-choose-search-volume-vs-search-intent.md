@@ -71,7 +71,7 @@ So even with the volume staring at you, the SERP says this is a top-of-funnel ed
 
 Before anyone argues for a high-volume keyword, run the arithmetic on what that volume is actually worth. The number almost always shrinks once you push it through a funnel, and a lot of "we have to rank for this" keywords don't survive the math.
 
-Take a keyword with 1,000 searches a month. Ranking top three, you might capture 100 clicks. At a typical SaaS conversion rate of 2 to 4%, that's four or five conversions, and that's before you ask whether any of those four people were your [ICP](/glossary/what-is-icp/) or just curious.
+Take a keyword with 1,000 searches a month. Ranking top three, you might capture 100 clicks. At a typical SaaS [conversion rate](/tools/conversion-rate-calculator/) of 2 to 4%, that's four or five conversions, and that's before you ask whether any of those four people were your [ICP](/glossary/what-is-icp/) or just curious.
 
 A keyword that looked like a thousand opportunities is really four or five, and the wrong four or five if the intent is soft. Run that math and the volume stops being intimidating.
 

@@ -41,7 +41,7 @@ The pattern that confirms fatigue:
 - **Frequency climbing** week over week on the same audience
 - **CTR falling** in step with it week over week, showing a clear downward trend
 - **CPC or CPM rising** for the same placements and keywords
-- **Conversion rate flat or down** while spend holds steady
+- **[Conversion rate](/tools/conversion-rate-calculator/) flat or down** while spend holds steady
 
 If frequency is rising and CTR is dropping in lockstep, that's fatigue. If CTR dropped but frequency didn't move, look elsewhere, because that's usually a landing-page, offer, or seasonality issue rather than tired creative.
 
@@ -117,7 +117,7 @@ We treat ad fatigue as a systems problem to engineer against. When we audit a st
 
 ### What is ad fatigue in paid advertising?
 
-Ad fatigue is when your target audience has seen the same ad so many times that they stop engaging with it, so [click-through rate](/blogs/how-to-improve-organic-ctr/) falls while your cost per click or impression rises. The platform is effectively charging you more to keep serving a message people have already tuned out. It's most acute on small, high-value B2B audiences, where the reachable pool is tiny and a single creative gets over-served quickly. The signature is rising frequency and falling CTR moving together over several weeks.
+Ad fatigue is when your target audience has seen the same ad so many times that they stop engaging with it, so [click-through rate](/blogs/how-to-improve-organic-ctr/) falls while your [cost per click](/tools/cpc-calculator/) or impression rises. The platform is effectively charging you more to keep serving a message people have already tuned out. It's most acute on small, high-value B2B audiences, where the reachable pool is tiny and a single creative gets over-served quickly. The signature is rising frequency and falling CTR moving together over several weeks.
 
 ### How do you know if your ads are fatigued or just underperforming?
 

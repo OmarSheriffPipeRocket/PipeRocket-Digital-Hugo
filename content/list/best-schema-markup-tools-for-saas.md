@@ -311,7 +311,7 @@ It's NOT for SaaS companies below approximately $10M ARR. Pricing is custom, con
 
 **The Case For It**
 
-Schema App's distinguishing capability is the Highlighter: template-level schema applied to URL patterns at scale. A team managing 10,000 product pages doesn't configure schema per URL. They build a template, set the pattern, and Schema App deploys and maintains it across the full URL set. The Content Knowledge Graph goes further, mapping entities site-wide into a unified, machine-readable graph relevant for brands investing in entity SEO and AI search visibility.
+Schema App's distinguishing capability is the Highlighter: template-level schema applied to URL patterns at scale. A team managing 10,000 product pages doesn't configure schema per URL. They build a template, set the pattern, and Schema App deploys and maintains it across the full URL set. The Content Knowledge Graph goes further, mapping entities site-wide into a unified, machine-readable graph relevant for brands investing in [entity SEO](/checklists/entity-seo-checklist/) and AI search visibility.
 
 The CSM relationship is part of the value proposition, not just a support perk. Enterprise clients in G2 reviews specifically call out deployment guidance and quarterly business reviews as features they couldn't replicate in-house.
 

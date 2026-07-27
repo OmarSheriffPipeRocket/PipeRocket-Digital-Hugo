@@ -100,7 +100,7 @@ Expansion is growing revenue from customers you already have, and it's the most 
 
 ![The net revenue retention formula shown as an equation: starting ARR, minus churn, minus contraction, plus expansion, all divided by starting ARR, with a worked example landing above 100%.](/images/blog-infographics/saas-growth-strategy-infographic-2.webp)
 
-The metric that captures this is net revenue retention. It measures how much revenue your existing customers generate this year versus last year, after churn and downgrades but including upgrades. When NRR sits above 100%, your customer base grows revenue on its own, before you add a single new logo. That's the closest thing SaaS has to compounding interest.
+The metric that captures this is [net revenue retention](/tools/nrr-calculator/). It measures how much revenue your existing customers generate this year versus last year, after churn and downgrades but including upgrades. When NRR sits above 100%, your customer base grows revenue on its own, before you add a single new logo. That's the closest thing SaaS has to compounding interest.
 
 ### Upsell moves customers up the value ladder
 
@@ -164,7 +164,7 @@ Teams obsess over the sale and the renewal while ignoring the first month in bet
 You know the model is working when the base grows on its own, and you diagnose it from a small set of numbers rather than a vanity dashboard. Signups and traffic tell you almost nothing about whether the system compounds. These are the numbers that do.
 
 - **Net revenue retention:** Above 100% means your existing customers grow revenue without new logos. This is the single clearest signal that retention and expansion are healthy.
-- **CAC payback period:** How many months until a customer pays back what it cost to acquire them. Shorter payback means acquisition and activation are efficient enough to fund the rest.
+- **[CAC payback period](/tools/cac-payback-period-calculator/):** How many months until a customer pays back what it cost to acquire them. Shorter payback means acquisition and activation are efficient enough to fund the rest.
 - **Expansion share of new revenue:** The portion of new revenue coming from existing accounts versus new logos. A rising share means expansion is starting to carry growth.
 - **Gross retention:** How much revenue you keep before any expansion. This isolates whether you have a leak, separate from whether expansion is masking it.
 

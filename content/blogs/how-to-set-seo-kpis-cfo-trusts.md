@@ -41,7 +41,7 @@ Commit to four KPIs, not fourteen. A finance team trusts a short scorecard where
 | KPI | What it measures | Why a CFO trusts it | Vanity metric it replaces |
 |---|---|---|---|
 | Organic-sourced pipeline | Qualified pipeline value where organic was the sourcing channel | It's denominated in currency, against plan, in finance's own vocabulary | Total organic sessions |
-| [Organic CAC](/blogs/how-to-measure-organic-cac/) | Fully-loaded SEO cost divided by customers organic sourced | It's a cost-efficiency number finance already uses for every channel | Cost per click / "cheap traffic" |
+| [Organic CAC](/blogs/how-to-measure-organic-cac/) | Fully-loaded SEO cost divided by customers organic sourced | It's a cost-efficiency number finance already uses for every channel | [Cost per click](/tools/cpc-calculator/) / "cheap traffic" |
 | Organic's pipeline share | Organic-sourced pipeline as a percent of total new-business pipeline | It sizes the channel against the whole funnel, not in isolation | Keyword count / "ranking for 4,000 terms" |
 | Influenced pipeline (flagged) | Branded and direct lift that tracks with content investment | Honest about what's believed vs proven, which finance rewards | Domain rating / domain authority |
 

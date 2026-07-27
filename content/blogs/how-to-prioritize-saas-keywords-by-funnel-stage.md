@@ -41,7 +41,7 @@ So the question I actually ask isn't "which keywords are most important?" It's "
 
 The volume on TOFU terms is real, and it's seductive. A definition keyword might pull 9,000 searches a month while a comparison keyword pulls 90. On a spreadsheet sorted by volume, the definition wins every time, and that's exactly the trap.
 
-Run the math instead. A 9,000-search keyword ranking top three might bring a few hundred clicks, and at a top-of-funnel conversion rate well under 1%, that's almost no pipeline.
+Run the math instead. A 9,000-search keyword ranking top three might bring a few hundred clicks, and at a top-of-funnel [conversion rate](/tools/conversion-rate-calculator/) well under 1%, that's almost no pipeline.
 
 The 90-search comparison term can convert at three to four percent, so the high-volume term brings traffic while the comparison term brings an actual demo.
 

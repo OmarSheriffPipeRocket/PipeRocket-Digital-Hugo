@@ -109,7 +109,7 @@ The architecture problem that required two weeks of rework at 100 pages would ha
 
 **Stage 1: 100 pages.** Launch the test set. Check GSC Coverage after two to three weeks. Target: more than 90% of pages in Valid status within 30 days. If "Crawled but not indexed" climbs, the content is not differentiated enough. If "Discovered but not indexed" climbs, the internal link structure is not strong enough. Fix the architecture at this stage, not later.
 
-**Stage 2: 1,000 pages.** Validate conversion rate and audience fit. Define what "working" means before scaling to 10,000. A page that ranks for its target query but attracts the wrong [ICP](/glossary/what-is-icp/) is not working. Set a minimum performance threshold: at least one qualified pipeline touch per X indexed pages. Build hub-page internal links before scaling further.
+**Stage 2: 1,000 pages.** Validate [conversion rate](/tools/conversion-rate-calculator/) and audience fit. Define what "working" means before scaling to 10,000. A page that ranks for its target query but attracts the wrong [ICP](/glossary/what-is-icp/) is not working. Set a minimum performance threshold: at least one qualified pipeline touch per X indexed pages. Build hub-page internal links before scaling further.
 
 **Stage 3: 10,000 pages.** Monitor indexation rate. Target: more than 80% of pages indexed within 90 days of launch. Submit a dedicated sitemap for the programmatic set. Verify that crawl allocation from Google is keeping pace with the expansion. Check for canonicalization anomalies that only appear at higher page counts.
 

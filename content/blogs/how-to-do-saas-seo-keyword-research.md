@@ -92,7 +92,7 @@ We look at the Competitor Analysis Tools like Ahrefs or Semrush to see what our 
 
 ### Now Create Your Keyword “Master Sheet”
 
-Now comes the heavy lifting. We take all these inputs, the team insights, the Google Keyword Planner data, the competitor gaps, the G2 categories, and we merge them into one “Master Sheet”. I won’t lie to you, this is time-consuming. It normally takes us three to four days to close this research phase. But if you want to identify your true priority and map your Total Addressable Market, this is the only way to do it. **Here is exactly how you should structure your Keyword Research Template:**
+Now comes the heavy lifting. We take all these inputs, the team insights, the Google Keyword Planner data, the competitor gaps, the G2 categories, and we merge them into one “Master Sheet”. I won’t lie to you, this is time-consuming. It normally takes us three to four days to close this research phase. But if you want to identify your true priority and map your [Total Addressable Market](/tools/tam-sam-som-calculator/), this is the only way to do it. **Here is exactly how you should structure your Keyword Research Template:**
 
 |  |  |  |
 | --- | --- | --- |

@@ -139,7 +139,7 @@ We built [PipeRocket Digital](https://piperocket.digital) because most agencies 
 | Location | California, USA |
 | Founded | 2020 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | [B2B PPC](/saas-ppc/), demand gen, [GEO/AEO](/saas-seo-agency/ai-seo-services/) |
 
 **The Real Difference:** We operate as an embedded pod, not an external vendor.

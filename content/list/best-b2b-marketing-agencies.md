@@ -108,7 +108,7 @@ Their constant experimentation ties directly to pipeline metrics. For SaaS compa
 
 DBT, the data-transformation company, hired Directive to launch their first paid media campaign around an annual conference and exceeded growth goals by nearly 2X per Directive's published case studies. Multi-product engagements with Cisco and Adobe demonstrate enterprise capacity.
 
-**Strong Fit:** SaaS and fintech companies with ACV above $25K seeking sophisticated paid media programs tied to customer acquisition costs and net revenue retention.
+**Strong Fit:** SaaS and fintech companies with ACV above $25K seeking sophisticated paid media programs tied to customer acquisition costs and [net revenue retention](/tools/nrr-calculator/).
 
 **Poor Fit:** Companies with low ACV or transactional sales models where unit economics do not support premium agency fees that scale-stage retainers require.
 
@@ -179,7 +179,7 @@ I ask the hard questions your product team avoids. I trace the path from a Googl
 | --- | --- |
 | Location | California, USA |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | Full-funnel B2B SaaS, SEO, PPC, demand generation, pipeline attribution |
 
 **Documented**

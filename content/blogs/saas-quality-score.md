@@ -73,7 +73,7 @@ Responsive Search Ads give you 15 headline slots, and using five of them chokes 
 One more move that lifts relevance and [CTR](/glossary/what-is-ctr/) at once: put the specific job title or industry in a headline. "Built for Healthcare HR" or "Built specifically for CFOs" tells the right person the ad is for them, and quietly repels the wrong-fit clicks you'd otherwise pay for.
 
 {{< experience author="praveen" title="A $10M SaaS account where relevance was the whole problem" >}}
-We audited a Google Ads account for a SaaS client doing over $10M in revenue, and the core issue was relevance. Every use case saw the same ad: someone searching "best messaging app for teams" and someone searching for a named competitor alternative landed on identical copy, and roughly 60% of the traffic was junk. On a CPC channel that shows up as a soft Quality Score and a climbing cost per click, because the ad never matches the query behind the click.
+We audited a Google Ads account for a SaaS client doing over $10M in revenue, and the core issue was relevance. Every use case saw the same ad: someone searching "best messaging app for teams" and someone searching for a named competitor alternative landed on identical copy, and roughly 60% of the traffic was junk. On a CPC channel that shows up as a soft Quality Score and a climbing [cost per click](/tools/cpc-calculator/), because the ad never matches the query behind the click.
 
 We restructured around intent: dedicated campaigns per use case and [ICP](/glossary/what-is-icp/), strict top, middle, and bottom-funnel segmentation, and ad copy written to match each specific search. Over three quarters the account spent about 27% less and returned roughly 59% more revenue. None of that came from a bidding trick. It came from making each ad relevant to the exact search behind it, which is the same lever that moves Quality Score.
 {{< /experience >}}
@@ -82,7 +82,7 @@ We restructured around intent: dedicated campaigns per use case and [ICP](/gloss
 
 Landing page experience is the input SaaS teams neglect most, and it's usually the biggest leak. The classic failure is routing every campaign to a generic homepage instead of a dedicated landing page that delivers exactly what the ad promised. When the ad says "SOC 2 compliance software" and the click lands on a homepage listing eight products, Google reads the mismatch as a poor experience, and the searcher bounces.
 
-The rule is simple: the ad earns the click, the page earns the customer. If the two don't line up, both your Quality Score and your conversion rate suffer.
+The rule is simple: the ad earns the click, the page earns the customer. If the two don't line up, both your Quality Score and your [conversion rate](/tools/conversion-rate-calculator/) suffer.
 
 Google weighs a few things on the page, and none of them are exotic:
 

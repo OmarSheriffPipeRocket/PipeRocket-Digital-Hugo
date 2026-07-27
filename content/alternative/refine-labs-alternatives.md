@@ -136,6 +136,10 @@ Directive's pricing page doesn't publish standard rate cards. A startup managed 
 
 Want a head-to-head breakdown? See our [PipeRocket vs Directive Consulting](/compare/piperocket-vs-directive-consulting/) comparison, or browse the full [Directive Consulting alternatives](/alternative/directive-consulting-alternatives/) shortlist.
 
+Weighing the two directly? See our neutral [Directive Consulting vs Refine Labs](/compare/directive-consulting-vs-refine-labs/) breakdown.
+
+
+
 ### 2. PipeRocket Digital
 
 Best for: B2B SaaS Series A-B teams that want SEO and paid unified in one retainer with pipeline-level reporting from week four

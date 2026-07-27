@@ -137,7 +137,7 @@ Best for: B2B SaaS teams that want growth tied to pipeline at any ARR stage
 | Location | California, USA |
 | Founded | 2020 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Astra, LeadSquared, GreytHR, Spendflo |
+| Notable Clients | Storylane, Astra, [LeadSquared](/case-study/leadsquared/), GreytHR, Spendflo |
 | Specialization | B2B SaaS full-funnel growth |
 
 **Where It Lands:** B2B SaaS and B2B tech founders or CMOs at any ARR stage who'll share sales data so marketing can be measured against pipeline, not activities.
@@ -164,7 +164,7 @@ A few prospects find our intake heavy because we ask for pipeline data others do
 
 - Teams without clean CRM hygiene need a setup phase first ([Clutch](https://clutch.co/profile/piperocket-digital))
 
-**Track Record:** We carry 4.7/5 (16 reviews) on Clutch and have shipped programs for Storylane, Astra, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo. Engagements span seed-stage founders through $50M+ ARR SaaS teams.
+**Track Record:** We carry 4.7/5 (16 reviews) on Clutch and have shipped programs for Storylane, Astra, LeadSquared, GreytHR, [Tredence](/case-study/tredence/), DevRev, and Spendflo. Engagements span seed-stage founders through $50M+ ARR SaaS teams.
 
 **The Trade-off:** We're SaaS-only, which means we say no to e-commerce and B2C work. Our pipeline-attribution model also assumes you'll grant CRM access; teams that won't share sales data get less from us.
 

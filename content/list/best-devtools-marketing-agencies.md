@@ -141,7 +141,7 @@ Best for: B2B devtools SaaS that need developer adoption to enterprise pipeline,
 | Location | California, USA |
 | Founded | 2019 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Astra, LeadSquared, DevRev, Spendflo |
+| Notable Clients | Storylane, Astra, [LeadSquared](/case-study/leadsquared/), DevRev, Spendflo |
 | Specialization | B2B SaaS demand architecture |
 
 **Right Fit:** B2B devtools SaaS at any ARR stage, especially teams where developer adoption is healthy but enterprise pipeline isn't keeping pace.
@@ -166,7 +166,7 @@ We staff B2B SaaS marketers, not a 300-engineer writer network. For deep API tut
 
 - Engineer-writer roster is smaller than Draft.dev or Dev Spotlight
 
-**On The Record:** Active clients include Storylane, Astra, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo, with public case studies on the [PipeRocket site](/) showing pipeline outcomes for B2B SaaS at Series A through C.
+**On The Record:** Active clients include Storylane, Astra, LeadSquared, GreytHR, [Tredence](/case-study/tredence/), DevRev, and Spendflo, with public case studies on the [PipeRocket site](/) showing pipeline outcomes for B2B SaaS at Series A through C.
 
 **The Asterisk:** We don't run a dedicated developer-marketing service page, devtools is a vertical inside the SaaS practice. We're not a DevRel agency and we don't run community programmes or DevRelCon-style events.
 

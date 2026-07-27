@@ -207,4 +207,4 @@ A B2B company should invest in demand generation when they have a complex produc
 
 ### **5. How do you measure the success of a demand generation strategy?**
 
-Key metrics include the Cost Per Acquired Customer (CPA), the Customer Lifetime Value (CLV), the shortening of the average sales cycle length, and the overall quality and velocity of the sales pipeline. Content engagement and website traffic from ICPs are leading indicators of future success.
+Key metrics include the Cost Per Acquired Customer (CPA), the [Customer Lifetime Value](/tools/ltv-calculator/) (CLV), the shortening of the average sales cycle length, and the overall quality and velocity of the sales pipeline. Content engagement and website traffic from ICPs are leading indicators of future success.

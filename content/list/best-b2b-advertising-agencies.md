@@ -155,7 +155,7 @@ What we keep seeing is that most B2B advertising agencies hand you a dashboard f
 | --- | --- |
 | Location | California, USA |
 | Team Size | 25+ people |
-| Notable Clients | Storylane, LeadSquared, GreytHR, Tredence, DevRev, Spendflo, HyperVerge |
+| Notable Clients | Storylane, [LeadSquared](/case-study/leadsquared/), GreytHR, Tredence, DevRev, Spendflo, HyperVerge |
 | Specialization | SaaS PPC, LinkedIn Ads, ABM, pipeline attribution |
 
 **The Edge**
@@ -925,7 +925,7 @@ B2B advertising without understanding the sales process is just lead generation,
 
 ### They manage your ads without touching your landing pages
 
-In B2B advertising, the post-click experience determines whether an ad investment converts to pipeline. Agencies that optimise campaigns but leave conversion rate optimisation out of scope are solving half the problem and calling it done.
+In B2B advertising, the post-click experience determines whether an ad investment converts to pipeline. Agencies that optimise campaigns but leave [conversion rate](/tools/conversion-rate-calculator/) optimisation out of scope are solving half the problem and calling it done.
 
 ## B2B Advertising Agency Pricing in 2026
 

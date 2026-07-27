@@ -143,7 +143,7 @@ Best for: B2B SaaS GEO/AEO connected to pipeline, demos, and MRR
 | Location | India and US |
 | Founded | 2017 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, DevRev, Goldcast, LeadSquared, Astra |
+| Notable Clients | Storylane, DevRev, Goldcast, [LeadSquared](/case-study/leadsquared/), Astra |
 | Specialization | B2B SaaS GEO, AEO, and pipeline growth |
 
 **Where We Fit:** B2B SaaS and B2B tech companies at any ARR stage, from pre-revenue founders building a content foundation to mature teams scaling AI visibility against named competitors.
@@ -162,7 +162,7 @@ Our programs braid AEO content, GEO authority signals, technical SEO, and AI cit
 
 - Reviewers cite pipeline attribution and revenue tie-back as the differentiator.
 
-**Track Record:** Verified client roster includes Storylane, DevRev, Goldcast, LeadSquared, and Astra. The Clutch profile shows a 4.7/5 rating across 16 reviews, with consistent themes around revenue attribution and AEO depth ([Clutch](https://clutch.co/profile/piperocket-digital)).
+**Track Record:** Verified client roster includes Storylane, DevRev, [Goldcast](/case-study/goldcast/), LeadSquared, and Astra. The Clutch profile shows a 4.7/5 rating across 16 reviews, with consistent themes around revenue attribution and AEO depth ([Clutch](https://clutch.co/profile/piperocket-digital)).
 
 **Trade-offs:** We don't take B2C, e-commerce, or affiliate work, which narrows the buyer pool. Our SaaS specialization means non-SaaS teams should look elsewhere on this list.
 

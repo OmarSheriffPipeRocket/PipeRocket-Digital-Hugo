@@ -66,7 +66,7 @@ For accounts selling into named accounts or a small number of high-value targets
 
 AI-native ad surfaces, [ChatGPT Ads](/blogs/chatgpt-ads-for-saas/) among them, are the newest layer, and they earn budget last for a specific reason: inventory and targeting maturity are still catching up to what marketers expect from an established platform. That doesn't mean skip it. It means treat it as a test budget, not a core allocation, until you have a quarter or two of your own data on how it performs for your category.
 
-The same logic applies to smaller channels like [Reddit Ads](/blogs/saas-reddit-ads/), which behave like an awareness channel rather than a closing one. Judge these newer or thinner surfaces on reach and assisted signals, the same way you'd judge LinkedIn, not on whether they can match Search's last-click conversion rate. They can't, and that's not the job you funded them for.
+The same logic applies to smaller channels like [Reddit Ads](/blogs/saas-reddit-ads/), which behave like an awareness channel rather than a closing one. Judge these newer or thinner surfaces on reach and assisted signals, the same way you'd judge LinkedIn, not on whether they can match Search's last-click [conversion rate](/tools/conversion-rate-calculator/). They can't, and that's not the job you funded them for.
 
 ## How to Allocate Budget Across the Paid Mix
 

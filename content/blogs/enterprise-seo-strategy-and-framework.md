@@ -68,7 +68,7 @@ Set your goals first using the metrics that connect to revenue:
 
 Once those targets exist, every keyword decision, every content investment, and every technical fix can be evaluated against whether it moves those numbers. Without them, you are optimizing for inputs with no clarity on what outputs you need.
 
-**What this looks like in practice:** A $30M [ARR](/glossary/what-is-arr/) SaaS company sets a goal to generate 40 organic SQLs per month by Q4. Working backwards from that target, they calculate they need approximately 8,000 organic visits per month from BOFU-intent pages at a 0.5% SQL conversion rate. That math tells them exactly how many comparison and alternatives pages to build, at what publishing cadence, to hit the number. The goal drove the strategy.
+**What this looks like in practice:** A $30M [ARR](/glossary/what-is-arr/) SaaS company sets a goal to generate 40 organic SQLs per month by Q4. Working backwards from that target, they calculate they need approximately 8,000 organic visits per month from BOFU-intent pages at a 0.5% SQL [conversion rate](/tools/conversion-rate-calculator/). That math tells them exactly how many comparison and alternatives pages to build, at what publishing cadence, to hit the number. The goal drove the strategy.
 
 ## Step 2: Audit Technical Foundations at Enterprise Scale
 

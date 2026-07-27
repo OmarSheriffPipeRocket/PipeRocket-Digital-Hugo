@@ -72,7 +72,7 @@ Length is really a proxy for specificity, not word count for its own sake, and s
 
 A head term is the broad, one-or-two-word query: "CRM," "project management," "cybersecurity software." Huge volume, brutal difficulty, and intent so vague you can't tell a student from a buyer. Everyone wants to rank for them, which is why almost no one new can.
 
-The volume trap is real. A 1,000-search head term, even ranking top three, might bring ~100 clicks; at a typical SaaS conversion rate of 2 to 4%, that's four or five conversions.
+The volume trap is real. A 1,000-search head term, even ranking top three, might bring ~100 clicks; at a typical SaaS [conversion rate](/tools/conversion-rate-calculator/) of 2 to 4%, that's four or five conversions.
 
 Run that math before you commit a quarter to chasing a head term, because high volume with wrong intent loses to low volume with buying intent every time.
 

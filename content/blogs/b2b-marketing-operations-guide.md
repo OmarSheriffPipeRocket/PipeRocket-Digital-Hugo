@@ -76,7 +76,7 @@ If your monthly marketing report takes three or more days to compile because som
 
 ### You cannot answer basic pipeline questions
 
-How much pipeline did paid search generate last quarter? Which nurture sequence produces the highest SQL conversion rate? What is the average time from first touch to opportunity creation? If those questions require someone to build a custom report rather than look at a dashboard, your marketing operations infrastructure is not giving your team the visibility they need.
+How much pipeline did paid search generate last quarter? Which nurture sequence produces the highest SQL [conversion rate](/tools/conversion-rate-calculator/)? What is the average time from first touch to opportunity creation? If those questions require someone to build a custom report rather than look at a dashboard, your marketing operations infrastructure is not giving your team the visibility they need.
 
 **What this looks like in practice:** A VP of Marketing at a $15M ARR SaaS company is asked in a board meeting what percentage of pipeline came from organic search last quarter. She cannot answer. Not because the data does not exist, but because UTM structure is inconsistent, lifecycle stages are not updated reliably, and there is no attribution report connecting organic touchpoints to opportunity creation. The board approves a larger paid media budget because paid is the only channel anyone can measure.
 

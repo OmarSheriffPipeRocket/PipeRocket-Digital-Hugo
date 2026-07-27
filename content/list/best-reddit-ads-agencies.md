@@ -132,7 +132,7 @@ Best for: B2B SaaS teams that want Reddit paid social measured against pipeline,
 | Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ specialists |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | B2B SaaS SEO + paid, pipeline reporting |
 
 **Right Brief:** B2B SaaS at $1M+ ARR with $5K-$50K monthly ad spend that wants Reddit tested as part of a combined paid and SEO motion, with CRM-tied pipeline reporting.

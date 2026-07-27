@@ -141,7 +141,7 @@ When you arm your champion with the right content for every person in the room, 
 
 You can acquire customers all day long, and it will not matter if they are leaving just as fast. Churn is one of those saas marketing pain points that does not always feel like a marketing problem, but it almost always has marketing roots.
 
-For context, even a low-looking monthly churn rate compounds to significant annual losses once you do the math. Even what looks like a small monthly number means you are replacing a substantial portion of your customer base every year just to stay flat.
+For context, even a low-looking monthly [churn rate](/tools/churn-rate-calculator/) compounds to significant annual losses once you do the math. Even what looks like a small monthly number means you are replacing a substantial portion of your customer base every year just to stay flat.
 
 ### Where Marketing Connects to Churn
 

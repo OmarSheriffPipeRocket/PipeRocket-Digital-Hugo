@@ -131,7 +131,7 @@ Then there's the quarter where the number's down. The instinct is to bury it und
 
 Tip: Walk in with "pipeline dipped, here's why, here's the fix, here's when it recovers" and you'll keep the room's trust through a bad quarter. Hide it, and you lose them on the next good one.
 
-One more alignment move that saves a lot of grief. When one board member tracks pipeline and another fixates on cost per acquisition, get everyone aligned on a single headline KPI before the meeting, ideally pipeline. Reporting against one agreed number beats defending five.
+One more alignment move that saves a lot of grief. When one board member tracks pipeline and another fixates on [cost per acquisition](/tools/cpa-calculator/), get everyone aligned on a single headline KPI before the meeting, ideally pipeline. Reporting against one agreed number beats defending five.
 
 ## How PipeRocket Helps You Report SEO That Gets Funded
 

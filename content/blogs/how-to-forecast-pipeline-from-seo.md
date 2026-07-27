@@ -42,7 +42,7 @@ Pull the keywords you're targeting over the forecast window and, for each one, n
 
 - Monthly search volume (from Google Keyword Planner, since that's Google's own data, not a third party's modeled estimate)
 - The realistic position you expect to reach, given your authority and the competition
-- The intent behind it, which sets the conversion rate later
+- The intent behind it, which sets the [conversion rate](/tools/conversion-rate-calculator/) later
 
 Be ruthless about that middle column. If your domain is mid-authority and a keyword's first page is wall-to-wall enterprise competitors, you're not landing position two in nine months. Model position six, or leave the keyword out. We've watched plenty of forecasts inflate themselves purely by assuming top-three rankings on terms the site had no business targeting yet.
 

@@ -132,6 +132,10 @@ No published pricing means you can't evaluate ROI before a demo, and the contrac
 
 If 6sense isn't quite the fit, check our [6sense alternatives](/alternative/6sense-alternatives/) shortlist.
 
+Weighing the two directly? See our neutral [6sense vs Demandbase](/compare/6sense-vs-demandbase/) breakdown.
+
+
+
 
 
 ### 2. AdRoll ABM (formerly RollWorks)

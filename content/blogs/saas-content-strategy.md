@@ -71,7 +71,7 @@ Set a review cadence per pillar (I run mine quarterly) where the owner checks th
 
 - Is the pillar's page count still growing, or has it stalled for two quarters running?
 - Has a competitor published a stronger version of the pillar's flagship page?
-- Are the pillar's [BOFU pages](/blogs/how-to-rank-bofu-keywords-saas/) still ranking, or has AI Overview coverage started eating the SERP real estate they used to own?
+- Are the pillar's [BOFU pages](/blogs/how-to-rank-bofu-keywords-saas/) still ranking, or has [AI Overview](/glossary/what-is-an-ai-overview/) coverage started eating the SERP real estate they used to own?
 
 ## Map Every Topic to a Funnel Stage Before It Gets Written
 

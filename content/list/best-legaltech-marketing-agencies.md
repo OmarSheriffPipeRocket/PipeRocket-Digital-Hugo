@@ -145,7 +145,7 @@ Best for: LegalTech SaaS Teams That Want SEO, Paid, and GEO/AEO Reported Against
 | Location | California, USA |
 | Founded | 2017 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | B2B SaaS [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), GEO/AEO, content, [marketing ops](/marketing-ops/) |
 
 **The Thesis**

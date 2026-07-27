@@ -132,7 +132,7 @@ Want a side-by-side? Read our [PipeRocket vs Directive Consulting](/compare/pipe
 
 Best for: B2B SaaS and martech teams that want one pipeline number across every channel
 
-We're [PipeRocket Digital](https://piperocket.digital), a B2B SaaS demand-gen pod (about 25 people) running [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), and [marketing ops](/marketing-ops/) for clients like LeadSquared, Storylane, GreytHR, Tredence, DevRev, and Spendflo. LeadSquared and Storylane are martech vendors themselves.
+We're [PipeRocket Digital](https://piperocket.digital), a B2B SaaS demand-gen pod (about 25 people) running [SEO](/saas-seo-agency/), [PPC](/saas-ppc/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), and [marketing ops](/marketing-ops/) for clients like [LeadSquared](/case-study/leadsquared/), Storylane, GreytHR, Tredence, DevRev, and Spendflo. LeadSquared and Storylane are martech vendors themselves.
 
 **Vendor Snapshot**
 
@@ -141,7 +141,7 @@ We're [PipeRocket Digital](https://piperocket.digital), a B2B SaaS demand-gen po
 | Location | California, USA |
 | Founded | 2023 |
 | Team Size | 10-49 people |
-| Notable Clients | LeadSquared, Storylane, GreytHR, Tredence, DevRev |
+| Notable Clients | LeadSquared, Storylane, GreytHR, [Tredence](/case-study/tredence/), DevRev |
 | Specialization | B2B SaaS pipeline-first demand gen |
 
 **The Edge We Bring:** Senior pod model, not a generalist account team.

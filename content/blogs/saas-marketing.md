@@ -112,7 +112,7 @@ No single team runs all ten of these at full depth on day one, and no single art
 
 ### SEO: Owning the Research Phase
 
-Search is where a large share of SaaS evaluation happens quietly, before a prospect fills out any form. Ranking for the comparison and evaluation-stage searches your buyers actually run, not just top-of-funnel definitions, is what separates SaaS SEO from generic [content marketing](/glossary/what-is-content-marketing/). The full framework for keyword targeting, technical SEO for JS-heavy product marketing sites, and content architecture lives in our [SaaS SEO guide](/blogs/saas-seo/).
+Search is where a large share of SaaS evaluation happens quietly, before a prospect fills out any form. Ranking for the comparison and evaluation-stage searches your buyers actually run, not just top-of-funnel definitions, is what separates SaaS SEO from generic [content marketing](/glossary/what-is-content-marketing/). The full framework for keyword targeting, technical SEO for JS-heavy [product marketing](/blogs/saas-product-marketing-strategy/) sites, and content architecture lives in our [SaaS SEO guide](/blogs/saas-seo/).
 
 ### Paid Marketing: Buying the Moments You Can't Wait to Earn
 
@@ -162,7 +162,7 @@ A 7-day trial that pressures a solo user into a fast decision reads as aggressiv
 
 ### Measuring new logos and ignoring expansion
 
-A marketing team that reports trial signups and closed-won deals but never touches net revenue retention is reporting on half the business. If churn is quietly eating growth, no amount of top-of-funnel volume fixes it.
+A marketing team that reports trial signups and closed-won deals but never touches [net revenue retention](/tools/nrr-calculator/) is reporting on half the business. If churn is quietly eating growth, no amount of top-of-funnel volume fixes it.
 
 A team celebrating a strong new-logo quarter while retention slides is often about to face a much harder conversation, once the board asks why the net number didn't move the way the top-line number did.
 
@@ -186,7 +186,7 @@ The numbers that hold up under scrutiny track cost against durable revenue inste
 
 - **CAC ([customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost):** what it actually costs, fully loaded, to land one paying customer
 - **LTV (lifetime value):** what that customer is worth across their full subscription life, counting renewals and upgrades on top of the first invoice
-- **Trial-to-paid or free-to-paid conversion rate:** the single clearest signal of whether product and messaging match
+- **Trial-to-paid or free-to-paid [conversion rate](/tools/conversion-rate-calculator/):** the single clearest signal of whether product and messaging match
 - **Net revenue retention:** whether the existing customer base is growing or quietly shrinking underneath the new-logo number
 
 A program can hit every acquisition target on the dashboard and still be losing money if CAC keeps climbing while LTV stalls. That's the exact failure mode our [SaaS marketing metrics guide](/blogs/saas-marketing-metrics/) is built to catch, with the formulas, benchmarks, and reporting cadence that make these numbers usable instead of decorative.

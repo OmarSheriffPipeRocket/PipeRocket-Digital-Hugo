@@ -238,7 +238,7 @@ Clicks don’t pay the bills, but activated, retained users do. To understand tr
 
 **[Customer Acquisition](/blogs/saas-customer-acquisition-strategy/) Cost (CAC):** This is the foundation of SaaS PPC measurement. Start by tracking fully loaded CAC like ad spend, landing page costs, and operational tools. Compare CAC by campaign, keyword, intent level, and funnel stage to find your most profitable segments.
 
-**Lifetime Value (LTV):** A high [CPC](/glossary/what-is-cost-per-click/) can still be profitable if those users stay longer, upgrade, or expand. Evaluating LTV by campaign gives you a deeper view of return vs. just [CPA](/glossary/what-is-cpa/).
+**[Lifetime Value](/tools/ltv-calculator/) (LTV):** A high [CPC](/glossary/what-is-cost-per-click/) can still be profitable if those users stay longer, upgrade, or expand. Evaluating LTV by campaign gives you a deeper view of return vs. just [CPA](/glossary/what-is-cpa/).
 
 **Activation Rate:** Activation shows how many signups actually engage with your product. High activation indicates strong targeting and messaging. Low activation signals misaligned expectations or onboarding issues.
 

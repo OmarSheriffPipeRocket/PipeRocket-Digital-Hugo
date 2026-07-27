@@ -67,7 +67,7 @@ You need a baseline. If your [conversion rate](/glossary/what-is-conversion-rate
 
 For your specific category, you should have a rough idea.
 
-- Maybe a healthy inbound funnel for your brand generates a **3% conversion rate** from visitor to lead.
+- Maybe a healthy inbound funnel for your brand generates a **3% [conversion rate](/tools/conversion-rate-calculator/)** from visitor to lead.
 - Maybe your **Lead-to-MQL ratio should be 45-50%**.
 
 Once you have these numbers, you can spot the outliers immediately. If your Lead-to-MQL drop-off is 90%, you don’t have a traffic problem; you have a targeting (or product) problem.

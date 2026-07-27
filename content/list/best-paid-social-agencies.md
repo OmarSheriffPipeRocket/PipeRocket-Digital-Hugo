@@ -137,7 +137,7 @@ Best for: B2B SaaS that want paid social, SEO, and pipeline reporting in a singl
 | Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ people, senior-led pod |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | B2B SaaS paid social + SEO, pipeline reporting |
 
 **The Signal**

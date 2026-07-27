@@ -346,6 +346,10 @@ Refine Labs' Clutch profile is live but shows zero verified reviews as of June 2
 
 ---
 
+Weighing the two directly? See our neutral [Directive Consulting vs Refine Labs](/compare/directive-consulting-vs-refine-labs/) breakdown.
+
+
+
 ### 5. Bay Leaf Digital
 
 Best for: Mid-market B2B SaaS with $1M-$20M ARR that needs full-service marketing across SEO, paid, content, and analytics without Directive's enterprise price floor

@@ -234,7 +234,7 @@ Built-in heatmaps and conversion analytics on Optimize reduce dependency on sepa
 
 **Buyer Fit**
 
-Right for demand-gen teams where ad spend is high enough that test quality measurably affects conversion rate. The Optimize plan at $199/mo (monthly) makes most sense when you're spending $50K+/mo on paid search and social and running active tests.
+Right for demand-gen teams where ad spend is high enough that test quality measurably affects [conversion rate](/tools/conversion-rate-calculator/). The Optimize plan at $199/mo (monthly) makes most sense when you're spending $50K+/mo on paid search and social and running active tests.
 
 Not right if budget is a constraint or if testing is occasional. The Create plan at $99/mo has no A/B testing and no DTR, making it a page builder at near-CMS pricing without the CMS advantages. The trial requires a credit card, unlike Unbounce.
 

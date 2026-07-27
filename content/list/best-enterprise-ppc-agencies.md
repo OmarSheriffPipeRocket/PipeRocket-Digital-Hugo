@@ -146,7 +146,7 @@ Best for: B2B SaaS that need pipeline-first paid plus SEO from a single senior-l
 | Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ specialists |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | B2B SaaS SEO + PPC in one retainer |
 
 **Target Buyer / Buyer Exclusions**

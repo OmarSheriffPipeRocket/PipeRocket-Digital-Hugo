@@ -85,7 +85,7 @@ Two more levers compound on top of those four once the foundation is live.
 
 ### Internal Linking
 
-Tight [internal linking](/blogs/how-to-use-internal-linking/) between cluster pages passes authority to the pages that carry pipeline, and it helps Google understand topical depth faster than backlinks alone can. A pillar page that never links down to its supporting content wastes most of the authority it earns.
+Tight [internal linking](/blogs/how-to-use-internal-linking/) between cluster pages passes authority to the pages that carry pipeline, and it helps Google understand topical depth faster than [backlinks](/glossary/what-is-a-backlink/) alone can. A pillar page that never links down to its supporting content wastes most of the authority it earns.
 
 ### Schema and Structured Data
 
@@ -158,7 +158,7 @@ No. Organic search sent 91.3% of all traffic across the 53 B2B SaaS brands we tr
 The four core types are:
 
 - **[Technical SEO](/glossary/what-is-technical-seo/)** covers crawlability, indexation, and site speed.
-- **On-page SEO** covers content and keyword targeting on the page itself.
+- **[On-page SEO](/glossary/what-is-on-page-seo/)** covers content and keyword targeting on the page itself.
 - **Off-page SEO** covers backlinks and brand mentions earned elsewhere on the web.
 - **Local SEO** covers visibility in geographically targeted searches.
 

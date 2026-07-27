@@ -49,7 +49,7 @@ Let me put real-feeling numbers on it so you can see the shape. These are exampl
 
 Say paid search needs to land $600,000 in new ARR this quarter and your ACV is $20,000. That's 30 deals. At a 25% win rate you need 120 SQLs.
 
-Keep walking it up. If 50% of MQLs become SQLs, that's 240 MQLs. If 40% of leads become MQLs, that's 600 leads. At a 4% landing-page conversion rate, that's 15,000 clicks, and at a $12 CPC, that's $180,000 in spend.
+Keep walking it up. If 50% of MQLs become SQLs, that's 240 MQLs. If 40% of leads become MQLs, that's 600 leads. At a 4% landing-page [conversion rate](/tools/conversion-rate-calculator/), that's 15,000 clicks, and at a $12 CPC, that's $180,000 in spend.
 
 That $180,000 is a starting hypothesis, not a promise. The point is you now have a number you can argue with, because every step is visible and every assumption is one you can pressure-test.
 
@@ -88,7 +88,7 @@ Each funnel stage is a row. Each conversion rate is an editable input. When some
 | Forecast spend | × $12 CPC | $180,000 |
 | Implied CAC | $180,000 ÷ 30 deals | $6,000 |
 
-The bottom row is the one that matters most. A $6,000 cost to acquire a $20,000 ACV customer is the real test, and whether that passes depends on lifetime value, which is Step 4.
+The bottom row is the one that matters most. A $6,000 cost to acquire a $20,000 ACV customer is the real test, and whether that passes depends on [lifetime value](/tools/ltv-calculator/), which is Step 4.
 
 Keep the conversion assumptions in their own cells and let the results calculate off them. That way, when sales tells you the real win rate is 18%, not 25%, you change one number and watch the required spend move, instead of rebuilding the sheet.
 

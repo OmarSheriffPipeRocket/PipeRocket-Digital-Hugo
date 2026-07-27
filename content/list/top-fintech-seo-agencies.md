@@ -201,7 +201,7 @@ Best for: B2B fintech and SaaS teams that need organic search tied to closed-won
 | Location | California, USA |
 | Founded | 2017 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/) |
 | Specialization | Fintech SEO, GEO/AEO, [link building](/saas-seo-agency/link-building-agency/) |
 
 **The Distinctive Move:** We run a Unified SEO and Demand Gen Architecture, so every brief connects to pipeline, not impressions.

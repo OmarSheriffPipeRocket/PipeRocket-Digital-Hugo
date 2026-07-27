@@ -165,7 +165,7 @@ Best for: B2B SaaS that need qualified pipeline, not vanity metrics, from paid.
 | Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ specialists |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | [SaaS PPC](/saas-ppc/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), revenue attribution |
 | Key Services | Google & Bing Ads, LinkedIn/Meta/Reddit paid social, SEO, GEO/AEO, revenue attribution |
 

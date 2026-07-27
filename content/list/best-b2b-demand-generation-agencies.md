@@ -154,7 +154,7 @@ Best for: B2B SaaS Companies at Any ARR Stage Who Need Demand Generation Built F
 | --- | --- |
 | Location | California, USA |
 | Team Size | 30+ people |
-| Notable Clients | Spendflo, Storylane, HappyFox, Xflow, DevRev, HyperVerge |
+| Notable Clients | Spendflo, Storylane, HappyFox, Xflow, [DevRev](/case-study/devrev/), HyperVerge |
 | Specialization | Demand gen, pipeline attribution, ABM, paid media, [SaaS SEO](/saas-seo-agency/), GEO/AEO |
 
 **The Numbers**
@@ -245,7 +245,7 @@ Directive publishes a startup package on their website. Standard engagements are
 
 **What Sets Them Apart**
 
-Their Customer Generation methodology connects paid search, paid social, and lifecycle marketing into a single model where every dollar spent is evaluated against its contribution to new customers and net revenue retention, not lead volume.
+Their Customer Generation methodology connects paid search, paid social, and lifecycle marketing into a single model where every dollar spent is evaluated against its contribution to new customers and [net revenue retention](/tools/nrr-calculator/), not lead volume.
 
 - Customer Generation has reportedly generated $1B+ in revenue across 420+ B2B brands served
 - Stratos AI platform unifies CRM, paid media, SEO, and ops data

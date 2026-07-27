@@ -68,7 +68,7 @@ Put customers on the denominator, not leads or sign-ups. CAC is cost per acquire
 This matters more for organic than people expect, because organic volume can be large and low-intent. Take the volume-trap math our team runs before writing anything:
 
 - a 1,000-search keyword, even ranking top three, brings maybe **100 clicks**
-- at a typical SaaS conversion rate of 2 to 4%, that's **4 to 5 customers**, not 100
+- at a typical SaaS [conversion rate](/tools/conversion-rate-calculator/) of 2 to 4%, that's **4 to 5 customers**, not 100
 
 Divide your cost by the clicks and CAC looks tiny. Divide by the 4 to 5 customers who actually bought and you get the real number.
 

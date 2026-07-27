@@ -151,7 +151,7 @@ Best for: B2B Cybersecurity SaaS Companies That Want Demand Generation, SEO, and
 | --- | --- |
 | Location | California, USA |
 | Team Size | 30+ people |
-| Notable Clients | Spendflo, Storylane, HappyFox, DevRev, HyperVerge, CyberSierra |
+| Notable Clients | Spendflo, Storylane, HappyFox, [DevRev](/case-study/devrev/), HyperVerge, CyberSierra |
 | Specialization | SaaS SEO, B2B PPC, account-based LinkedIn, MarOps, AEO/GEO |
 
 **The Playbook**

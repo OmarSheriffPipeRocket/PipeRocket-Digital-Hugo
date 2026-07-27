@@ -169,6 +169,8 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "hotjar-alternatives": [
         ("FullStory", "/compare/hotjar-vs-fullstory/", "Hotjar vs FullStory"),
+        ("Microsoft Clarity", "/compare/hotjar-vs-microsoft-clarity/", "Hotjar vs Microsoft Clarity"),
+        ("Mouseflow", "/compare/hotjar-vs-mouseflow/", "Hotjar vs Mouseflow"),
     ],
     "jasper-alternatives": [
         ("Copy.ai", "/compare/jasper-vs-copy-ai/", "Jasper vs Copy.ai"),
@@ -230,9 +232,11 @@ NEUTRAL_COMPARE_BRIDGES = {
     "6sense-alternatives": [
         ("Bombora", "/compare/6sense-vs-bombora/", "6sense vs Bombora"),
         ("RollWorks", "/compare/rollworks-vs-6sense/", "RollWorks vs 6sense"),
+        ("Demandbase", "/compare/6sense-vs-demandbase/", "6sense vs Demandbase"),
     ],
     "demandbase-alternatives": [
         ("RollWorks", "/compare/rollworks-vs-demandbase/", "RollWorks vs Demandbase"),
+        ("6sense", "/compare/6sense-vs-demandbase/", "6sense vs Demandbase"),
     ],
     "botify-alternatives": [
         ("Conductor", "/compare/conductor-vs-brightedge/", "Conductor vs BrightEdge"),
@@ -242,6 +246,7 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "mouseflow-alternatives": [
         ("VWO", "/compare/vwo-vs-optimizely/", "VWO vs Optimizely"),
+        ("Hotjar", "/compare/hotjar-vs-mouseflow/", "Hotjar vs Mouseflow"),
     ],
     # --- 2026-07-08 batch: new-alternative pages -> their paired new compares ---
     "cognism-alternatives": [
@@ -294,6 +299,38 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "convert-alternatives": [
         ("AB Tasty", "/compare/ab-tasty-vs-convert/", "AB Tasty vs Convert"),
+    ],
+    # --- 2026-07-27 batch: de-orphan 8 neutral compares the standard bridge
+    # (parse_competitor_from_compare_url, "PipeRocket vs X" only) can't reach ---
+    "klientboost-alternatives": [
+        ("Disruptive Advertising", "/compare/klientboost-vs-disruptive-advertising/",
+         "KlientBoost vs Disruptive Advertising"),
+    ],
+    "directive-consulting-alternatives": [
+        ("Refine Labs", "/compare/directive-consulting-vs-refine-labs/",
+         "Directive Consulting vs Refine Labs"),
+    ],
+    "refine-labs-alternatives": [
+        ("Directive Consulting", "/compare/directive-consulting-vs-refine-labs/",
+         "Directive Consulting vs Refine Labs"),
+    ],
+    "siege-media-alternatives": [
+        ("Animalz", "/compare/siege-media-vs-animalz/", "Siege Media vs Animalz"),
+        ("Omniscient Digital", "/compare/siege-media-vs-omniscient-digital/",
+         "Siege Media vs Omniscient Digital"),
+    ],
+    "animalz-alternatives": [
+        ("Siege Media", "/compare/siege-media-vs-animalz/", "Siege Media vs Animalz"),
+    ],
+    "omniscient-digital-alternatives": [
+        ("Siege Media", "/compare/siege-media-vs-omniscient-digital/",
+         "Siege Media vs Omniscient Digital"),
+    ],
+    "simpletiger-alternatives": [
+        ("Skale", "/compare/simpletiger-vs-skale/", "SimpleTiger vs Skale"),
+    ],
+    "skale-alternatives": [
+        ("SimpleTiger", "/compare/simpletiger-vs-skale/", "SimpleTiger vs Skale"),
     ],
     # --- blog sources (limited blog→compare flow, cap 1/blog, past word floor) ---
     "saas-seo": [
@@ -808,6 +845,30 @@ LINK_MAP = [
     ("GEO versus SEO", "/blogs/geo-vs-seo/", False, "P1"),
     ("AEO vs GEO", "/blogs/aeo-vs-geo/", False, "P0"),
     ("AEO versus GEO", "/blogs/aeo-vs-geo/", False, "P1"),
+
+    # ---- 2026-07-27 batch: de-orphan tool/service/case-study targets with
+    # verified natural anchor mentions in existing blogs/list content ----
+    ("ARPU", "/tools/arpu-calculator/", True, "P1"),
+    ("CAC payback period", "/tools/cac-payback-period-calculator/", False, "P1"),
+    ("churn rate", "/tools/churn-rate-calculator/", False, "P1"),
+    ("conversion rate", "/tools/conversion-rate-calculator/", False, "P1"),
+    ("Google Ads budget", "/tools/google-ads-cost-estimator/", False, "P1"),
+    ("Google Ads spend", "/tools/google-ads-cost-estimator/", False, "P1"),
+    ("total addressable market", "/tools/tam-sam-som-calculator/", False, "P1"),
+    ("CAGR", "/tools/revenue-growth-rate-calculator/", True, "P1"),
+    ("net revenue retention", "/tools/nrr-calculator/", False, "P1"),
+    ("Google penalty", "/tools/google-penalty-checker/", False, "P1"),
+    ("cost per acquisition", "/tools/cpa-calculator/", False, "P1"),
+    ("cost per click", "/tools/cpc-calculator/", False, "P1"),
+    ("customer lifetime value", "/tools/ltv-calculator/", False, "P1"),
+    ("lifetime value", "/tools/ltv-calculator/", False, "P1"),
+    ("marketing ROI", "/tools/marketing-roi-calculator/", False, "P1"),
+    ("entity SEO", "/checklists/entity-seo-checklist/", False, "P1"),
+    ("LinkedIn marketing agency", "/linkedin-marketing-agency/", False, "P1"),
+    ("DevRev", "/case-study/devrev/", True, "P1"),
+    ("Goldcast", "/case-study/goldcast/", True, "P1"),
+    ("LeadSquared", "/case-study/leadsquared/", True, "P1"),
+    ("Tredence", "/case-study/tredence/", True, "P1"),
 ]
 
 PRIORITY_ORDER = {"P0": 0, "P1": 1, "P2": 2}
@@ -1183,16 +1244,35 @@ def process_file(filepath: Path, skip_faq: bool = False, word_gate: int = WORD_G
             continue
         if source_type == "blogs" and neutral_placed >= 1:
             break  # cap: one neutral compare link per blog
-        # Find a mention of the paired tool whose paragraph END sits PAST the
-        # word floor (the first mention is often in the intro, before the gate).
+
+        # Alternative/listicle sources use numbered agency cards — anchor the
+        # bridge to the END of the matching tool's own card, same as the
+        # standard PipeRocket-vs / alternatives bridges above (rather than the
+        # FIRST mention of the tool name, which is usually the TL;DR summary
+        # list — no blank lines between its items, so a naive "next blank
+        # line" search skips past the whole list and lands after it).
         insert_at = None
-        tpat = re.compile(r"\b" + re.escape(locate_tool) + r"\b", re.IGNORECASE)
-        for tm in tpat.finditer(body):
-            nb = body.find("\n\n", tm.end())
-            cand = len(body) if nb == -1 else nb
-            if word_at(word_index, cand) >= word_gate and not overlaps(cand, cand, protected):
-                insert_at = cand
-                break
+        loc = find_listicle_agency_section(body, locate_tool)
+        if loc:
+            section_start, section_end = loc
+            insert_at = section_end
+            while insert_at > section_start and body[insert_at - 1] in " \t\r\n":
+                insert_at -= 1
+        else:
+            loc = find_alternative_agency_block(body, locate_tool)
+            if loc:
+                _, insert_at = loc
+
+        if insert_at is None:
+            # Blog sources (no numbered agency cards) fall back to: first
+            # mention whose paragraph END sits past the word floor.
+            tpat = re.compile(r"\b" + re.escape(locate_tool) + r"\b", re.IGNORECASE)
+            for tm in tpat.finditer(body):
+                nb = body.find("\n\n", tm.end())
+                cand = len(body) if nb == -1 else nb
+                if word_at(word_index, cand) >= word_gate and not overlaps(cand, cand, protected):
+                    insert_at = cand
+                    break
         if insert_at is None:
             continue
         sentence = NEUTRAL_COMPARE_TEMPLATES[bridge_idx % len(NEUTRAL_COMPARE_TEMPLATES)].format(

@@ -132,7 +132,7 @@ Best for: B2B fintech SaaS teams that want GEO and AEO reported against pipeline
 | Location | California, USA |
 | Founded | 2023 |
 | Team Size | 30+ (senior-led pod, no junior handoff) |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | B2B SaaS SEO, GEO/AEO, pipeline reporting |
 
 **Investment Range:** We publish a starting rate rather than making buyers scope blind: $3,000/mo, scope-based retainer, 3-month minimum then rolling, as of July 2026. No setup fee and no markup on ad spend.

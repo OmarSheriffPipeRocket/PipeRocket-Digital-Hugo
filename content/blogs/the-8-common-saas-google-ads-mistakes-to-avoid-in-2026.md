@@ -293,7 +293,7 @@ This one genuinely frustrates me because it takes twenty minutes to fix, costs a
 - CTR underperforms and it never gets traced back to the missing extensions because on paper the campaign looks set up correctly
 - Opportunities to surface pricing, key features, [social proof](/blogs/saas-social-proof/), or direct CTAs are just sitting there unused
 
-Extensions do not add to your cost per click. You pay the same whether they are there or not. All they do is make your ad bigger, more informative, and more relevant to different types of buyers. There is genuinely no downside to having them.
+Extensions do not add to your [cost per click](/tools/cpc-calculator/). You pay the same whether they are there or not. All they do is make your ad bigger, more informative, and more relevant to different types of buyers. There is genuinely no downside to having them.
 
 ### **How to avoid it:**
 

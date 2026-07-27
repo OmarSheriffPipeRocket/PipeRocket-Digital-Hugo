@@ -146,7 +146,7 @@ I built [PipeRocket Digital](/) because I saw a gap in how agencies handle B2B S
 | --- | --- |
 | Location | California, USA |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | Full-funnel SaaS lead gen, [SaaS SEO](/saas-seo-agency/), [SaaS PPC](/saas-ppc/), pipeline attribution |
 
 **Proof**
@@ -695,7 +695,7 @@ Email outreach, cold calling, paid ads, content marketing, social selling, and i
 
 ### How do I evaluate lead quality from an agency?
 
-Track lead-to-SQL conversion rate and lead-to-opportunity rate, not just meeting volume. Quality compounds; volume without quality wastes sales time.
+Track lead-to-SQL [conversion rate](/tools/conversion-rate-calculator/) and lead-to-opportunity rate, not just meeting volume. Quality compounds; volume without quality wastes sales time.
 
 ---
 

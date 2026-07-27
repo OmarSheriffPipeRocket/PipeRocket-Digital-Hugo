@@ -54,7 +54,7 @@ Industry benchmarks give a sense of the gap: PQLs (leads qualified by in-product
 
 Content, paid, product, and partnerships each generate interest through a different mechanism, so each one needs its own capture design instead of one contact form bolted onto every page.
 
-- **Content and SEO capture:** match the gate to the content's depth. A 400-word blog post shouldn't gate anything. A benchmark report, template, or calculator with genuine standalone value can sit behind a short form, three fields, nothing more, placed after the reader has already seen enough to trust it.
+- **Content and [SEO](/glossary/what-is-seo/) capture:** match the gate to the content's depth. A 400-word blog post shouldn't gate anything. A benchmark report, template, or calculator with genuine standalone value can sit behind a short form, three fields, nothing more, placed after the reader has already seen enough to trust it.
 - **Paid capture:** build a [landing page](/glossary/what-is-a-landing-page/) for the specific ad instead of sending clicks to the homepage. If the ad promises a comparison against a competitor, the landing page should open with that comparison and the form should sit below proof. Routing paid clicks to a generic homepage wastes spend that's already been paid for.
 - **Product-led capture:** trigger usage-based prompts, in-app upgrade nudges, and feature-limit walls exactly when a user hits a ceiling worth solving inside the trial or freemium product. This is covered in more depth below because it's the mechanic most SaaS teams get wrong.
 - **Partnership and integration capture:** lean on co-marketing pages, marketplace listings, and referral flows. A user who installs your app from a partner's integration marketplace is already qualified by context, so the capture form can be shorter and routing can skip early nurture entirely.
@@ -138,7 +138,7 @@ If the trial's whole job is to prove the product delivers value, don't hide that
 
 ### Ignoring Self-Serve Signups Because They "Aren't Real Leads"
 
-Sales teams sometimes dismiss self-serve trial signups as noise because they don't come with a phone number attached. That's the same usage data that predicts a 25 to 39% paid conversion rate for the highest-intent PQLs, and treating it as unqualified traffic means writing off the leads most likely to close on their own.
+Sales teams sometimes dismiss self-serve trial signups as noise because they don't come with a phone number attached. That's the same usage data that predicts a 25 to 39% paid [conversion rate](/tools/conversion-rate-calculator/) for the highest-intent PQLs, and treating it as unqualified traffic means writing off the leads most likely to close on their own.
 
 ## Measure Whether the Capture Layer Is Actually Working
 

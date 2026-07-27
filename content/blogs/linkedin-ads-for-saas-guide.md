@@ -200,7 +200,7 @@ We measure on lift and pipeline, then connect LinkedIn to your capture spend so 
 
 ### Are LinkedIn ads worth it for B2B SaaS?
 
-For high-ACV SaaS, yes, as long as your expectations fit the channel. LinkedIn puts your brand in front of the exact decision-makers who approve your deals, and those buyers live on the platform. The cost per click runs high because you're paying for verified professional context, so it only pays back when your contract value can absorb it. If you sell a low-price tool to individuals, Google or Meta will serve you better.
+For high-ACV SaaS, yes, as long as your expectations fit the channel. LinkedIn puts your brand in front of the exact decision-makers who approve your deals, and those buyers live on the platform. The [cost per click](/tools/cpc-calculator/) runs high because you're paying for verified professional context, so it only pays back when your contract value can absorb it. If you sell a low-price tool to individuals, Google or Meta will serve you better.
 
 ### How much should a SaaS company spend on LinkedIn ads?
 

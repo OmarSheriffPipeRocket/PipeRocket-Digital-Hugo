@@ -96,7 +96,7 @@ Organic and AI traffic behaved very differently depending on the SaaS vertical, 
 ![Lead-to-SQL conversion rates by SaaS vertical: Cybersecurity organic 81% vs AI 20% (61-point gap), Procurement organic 75% vs AI 54% (highest AI rate), Fintech organic 25% vs AI 20% (both underperform under due-diligence buying). Trust-heavy verticals reward branded organic searches.](/images/blog-infographics/lead-to-sql-by-vertical.svg)
 
 - In **Cybersecurity SaaS**, organic leads converted to SQLs at **81%**. AI-referred leads converted at just **20%**, a 61-point gap driven by trust requirements.
-- In **Procurement SaaS**, organic leads converted at **75% Lead-to-SQL**, while AI-referred leads converted at **54%**, the highest AI conversion rate of any vertical studied.
+- In **Procurement SaaS**, organic leads converted at **75% Lead-to-SQL**, while AI-referred leads converted at **54%**, the highest AI [conversion rate](/tools/conversion-rate-calculator/) of any vertical studied.
 - In **Fintech SaaS**, both channels underperformed: organic at **25% Lead-to-SQL** and AI at **20%**, reflecting a high-scrutiny due diligence buying process.
 - In **Customer Support SaaS**, organic held **87% of all traffic**. Buyers in established categories appear to bypass AI and search directly for known vendors.
 - In **HRTech**, 64% of organic traffic was branded vs. only 4% of AI traffic, AI functions almost entirely as a top-of-funnel discovery tool in this vertical.
@@ -223,7 +223,7 @@ Beyond our proprietary dataset, here is what broader industry research tells us 
 - Gartner also projects that **90% of B2B purchases will be agent-driven by 2028**, making AI visibility a prerequisite for pipeline, not just awareness.
 - Nearly **half of B2B buyers now use AI platforms like ChatGPT and Claude for vendor research**, according to HG Insights' 2025 buyer behavior analysis.
 - When an LLM surfaces a vendor a B2B buyer had not previously considered, **51% go directly to that vendor's website**, making AI citation a new top-of-funnel acquisition channel.
-- The GEO market was valued at approximately **$848 million in 2025** and is projected to reach **$33.7 billion by 2034**, a 50.5% CAGR.
+- The GEO market was valued at approximately **$848 million in 2025** and is projected to reach **$33.7 billion by 2034**, a 50.5% [CAGR](/tools/revenue-growth-rate-calculator/).
 - AI search traffic across SaaS brands is growing at an average of **41% month-over-month**, while organic grows at roughly 2–3% MoM, but organic still leads in absolute conversion volume.
 - Between 40% and 60% of cited sources **change month-to-month** across Google AI Mode and ChatGPT, making AI citation far less stable than organic rankings.
 - **44.2% of all LLM citations come from the first 30% of a page**, your intro and opening paragraphs are your highest-leverage section for AI visibility.

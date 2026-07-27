@@ -201,6 +201,10 @@ Also evaluating Hotjar? See our [Hotjar alternatives](/alternative/hotjar-altern
 
 ---
 
+Weighing the two directly? See our neutral [Hotjar vs Mouseflow](/compare/hotjar-vs-mouseflow/) breakdown.
+
+
+
 ### 3. FullStory
 
 Best for: Product-led B2B SaaS companies with dedicated analytics teams and budget for custom, volume-based contracts.

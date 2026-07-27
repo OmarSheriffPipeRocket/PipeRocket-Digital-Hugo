@@ -127,7 +127,7 @@ Best for: Enterprise SaaS SEO With Pipeline-Accountable Reporting
 **Case studies:**
 
 - **AxisCare:** +200% scheduled demos and +70% organic traffic (YoY) ([source](https://directiveconsulting.com/case-studies/leading-the-future-of-growth-axiscares-seo-geo-success-story/))
-- **TokenEx:** +282% organic traffic and +500% conversion rate from one core asset ([source](https://directiveconsulting.com/case-studies/data-security-brand-discoverability/))
+- **TokenEx:** +282% organic traffic and +500% [conversion rate](/tools/conversion-rate-calculator/) from one core asset ([source](https://directiveconsulting.com/case-studies/data-security-brand-discoverability/))
 - **Lakeside Software:** +121% organic leads (YoY) ([source](https://directiveconsulting.com/case-studies/digital-experience-monitoring-lead-generation/))
 
 **My take after reviewing the case studies:** Real demand and conversion lifts on named SaaS clients, but the headline numbers are organic-traffic-led, so ask what pipeline sat behind AxisCare's +200% demos before you price the program.
@@ -275,7 +275,7 @@ We're [PipeRocket Digital](/), an AI-first, B2B-SaaS-only SEO agency, founded in
 | Location | California, US (serving US B2B SaaS) |
 | Founded | 2023 |
 | Team Size | 30+ (senior-led B2B SaaS pod per account, no junior handoff) |
-| Notable Clients | Storylane, HyperVerge, LatentView, Spendflo, MetricStream, Goldcast, greytHR, SaaS Labs |
+| Notable Clients | Storylane, HyperVerge, LatentView, Spendflo, MetricStream, [Goldcast](/case-study/goldcast/), greytHR, SaaS Labs |
 | Specialization | [B2B SaaS SEO](/saas-seo-agency/), [GEO/AEO](/ai-seo-services/), [technical SEO](/technical-seo-agency/), [link building](/link-building-agency/) |
 
 **Key Services:** SaaS SEO, GEO and AEO, technical SEO, content marketing, link building, programmatic SEO
@@ -296,7 +296,7 @@ We're [PipeRocket Digital](/), an AI-first, B2B-SaaS-only SEO agency, founded in
 
 **Case studies:**
 
-- **DevRev:** +127% organic traffic in 6 months ([source](https://piperocket.digital/case-study-devrev/))
+- **[DevRev](/case-study/devrev/):** +127% organic traffic in 6 months ([source](https://piperocket.digital/case-study-devrev/))
 - **Spendflo:** 5X organic traffic over 8 months and +25% organic leads ([source](https://piperocket.digital/case-study-spendflo/))
 - **Cyber Sierra:** +279% organic traffic; grew from 6 to 338 top-10 keywords ([source](https://piperocket.digital/case-study-cybersierra/))
 
@@ -377,7 +377,7 @@ Best for: SaaS Thought-Leadership SEO for Enterprise Sales Cycles
 **Case studies:**
 
 - **Cadence Design Systems:** +934% keyword rankings in 1 year; 100K+ monthly organic sessions ([source](https://firstpagesage.com/seo-roi/seo-for-saas-companies-a-case-study-fc/))
-- **iGPS:** 230 leads worth roughly $15M in lifetime value; 368 first-page keywords ([source](https://firstpagesage.com/seo-blog/b2b-seo-case-study/))
+- **iGPS:** 230 leads worth roughly $15M in [lifetime value](/tools/ltv-calculator/); 368 first-page keywords ([source](https://firstpagesage.com/seo-blog/b2b-seo-case-study/))
 
 **My take after reviewing the case studies:** Big ranking and lifetime-value figures, but Cadence and iGPS aren't pure SaaS and First Page Sage carries no third-party Clutch reviews, so treat these as directional and ask for SaaS-specific references.
 

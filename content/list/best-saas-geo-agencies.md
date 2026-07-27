@@ -60,7 +60,7 @@ For the full process, every source we use, what disqualifies an agency, our conf
 
 Best for: B2B SaaS GEO with the deepest verified product depth on this list
 
-[Minuttia](https://minuttia.com/) is a B2B SaaS-only growth agency that runs separate dedicated pages for AEO, GEO, and LLMO. Managing Director George Chasiotis has published category-shaping work on entity SEO and topical authority as AI-visibility signals.
+[Minuttia](https://minuttia.com/) is a B2B SaaS-only growth agency that runs separate dedicated pages for AEO, GEO, and LLMO. Managing Director George Chasiotis has published category-shaping work on [entity SEO](/checklists/entity-seo-checklist/) and topical authority as AI-visibility signals.
 
 **Profile Card**
 
@@ -193,7 +193,7 @@ We built [PipeRocket Digital](/) as a B2B SaaS marketing agency before AI search
 | Location | India and US |
 | Founded | 2017 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, DevRev, Goldcast, LeadSquared, Astra |
+| Notable Clients | Storylane, DevRev, Goldcast, [LeadSquared](/case-study/leadsquared/), Astra |
 | Specialization | GEO/AEO, SaaS SEO, link building |
 
 **The Hook:** GEO sits on the same pod as technical SEO and authority building, so AI search visibility is treated as a pipeline KPI rather than a vanity dashboard.
@@ -202,7 +202,7 @@ We built [PipeRocket Digital](/) as a B2B SaaS marketing agency before AI search
 - Each engagement gets a specialist pod, so execution never stalls on capacity.
 - We work exclusively with B2B SaaS, which keeps the ICP focus tight.
 
-**Proof On File:** We hold a 4.7/5 verified Clutch rating across 16 reviews ([Clutch](https://clutch.co/profile/piperocket-digital)) and named B2B SaaS clients including Storylane, DevRev, Goldcast, LeadSquared, and Astra. Our case studies are published on the [case studies hub](/case-study/).
+**Proof On File:** We hold a 4.7/5 verified Clutch rating across 16 reviews ([Clutch](https://clutch.co/profile/piperocket-digital)) and named B2B SaaS clients including Storylane, DevRev, [Goldcast](/case-study/goldcast/), LeadSquared, and Astra. Our case studies are published on the [case studies hub](/case-study/).
 
 **Friction Points:** We're a 30+ team, not a 200-person shop, so we cap how many enterprise programs we run in parallel each quarter.
 

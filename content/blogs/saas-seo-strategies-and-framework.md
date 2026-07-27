@@ -98,7 +98,7 @@ Every keyword goes through a three-question intent filter before it makes your l
 
 If the answer to any of those is no, the keyword comes off the list regardless of volume.
 
-| Funnel stage | Keyword pattern | Example | Typical conversion rate |
+| Funnel stage | Keyword pattern | Example | Typical [conversion rate](/tools/conversion-rate-calculator/) |
 | --- | --- | --- | --- |
 | BOFU | [Product] alternatives | HubSpot alternatives for startups | 10 to 20% |
 | BOFU | [Product A] vs [Product B] | Stripe vs Paddle for SaaS | 10 to 18% |

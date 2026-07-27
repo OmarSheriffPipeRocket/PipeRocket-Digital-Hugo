@@ -80,7 +80,7 @@ The widely cited rule of thumb is 3:1, meaning a customer is worth roughly three
 
 ### Net revenue retention and churn
 
-Churn is the revenue you lose from cancellations and downgrades, and net revenue retention (NRR) folds in expansion from existing customers. NRR above 100% means your installed base grows even if you add no new customers, which is why retention often beats acquisition as a SaaS growth lever. A leaky bucket doesn't get fixed by pouring in more leads, and these two metrics are what expose the leak.
+Churn is the revenue you lose from cancellations and downgrades, and [net revenue retention](/tools/nrr-calculator/) (NRR) folds in expansion from existing customers. NRR above 100% means your installed base grows even if you add no new customers, which is why retention often beats acquisition as a SaaS growth lever. A leaky bucket doesn't get fixed by pouring in more leads, and these two metrics are what expose the leak.
 
 ## The Vanity Metrics to Stop Reporting
 
@@ -118,7 +118,7 @@ We report against pipeline and revenue, not vanity dashboards. That means tying 
 
 ### What are the most important SaaS marketing metrics?
 
-The ones that connect spend to revenue: [customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost (CAC) and CAC payback period, funnel conversion rates, LTV:CAC, and net revenue retention. For most SaaS teams, marketing-influenced pipeline is the single most important number, because it shows how much revenue marketing is actually sourcing rather than how much activity it's generating. Everything else is either a diagnostic input or, in the case of raw traffic and followers, vanity.
+The ones that connect spend to revenue: [customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost (CAC) and [CAC payback period](/tools/cac-payback-period-calculator/), funnel conversion rates, LTV:CAC, and net revenue retention. For most SaaS teams, marketing-influenced pipeline is the single most important number, because it shows how much revenue marketing is actually sourcing rather than how much activity it's generating. Everything else is either a diagnostic input or, in the case of raw traffic and followers, vanity.
 
 ### What is a good LTV:CAC ratio for SaaS?
 

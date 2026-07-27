@@ -134,7 +134,7 @@ Best for: B2B SaaS teams that want technical fixes tied to pipeline, not audit c
 | Location | California, USA |
 | Founded | 2019 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, LeadSquared, GreytHR, Tredence, DevRev, Spendflo |
+| Notable Clients | Storylane, [LeadSquared](/case-study/leadsquared/), GreytHR, Tredence, DevRev, Spendflo |
 | Specialization | B2B SaaS [SEO](/saas-seo-agency/), [GEO/AEO](/saas-seo-agency/ai-seo-services/), pipeline attribution |
 
 **What Sets Us Apart:** Every technical fix gets mapped to a pipeline question.
@@ -157,7 +157,7 @@ We turn down ecommerce and local SEO, which the [Clutch profile](https://clutch.
 
 - $3K/mo floor excludes pre-seed teams without funded marketing spend
 
-**On The Record:** Storylane, LeadSquared, GreytHR, Tredence, DevRev, and Spendflo are named clients across technical SEO, content, marketing ops, and GEO/AEO programs we have run end to end.
+**On The Record:** Storylane, LeadSquared, GreytHR, [Tredence](/case-study/tredence/), DevRev, and Spendflo are named clients across technical SEO, content, marketing ops, and GEO/AEO programs we have run end to end.
 
 **Investment Terms**
 

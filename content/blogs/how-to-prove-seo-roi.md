@@ -60,7 +60,7 @@ If your stack can't tie a form fill back to organic search today, that's step ze
 
 ## Step 2: Judge Each Page Type by Its Own Benchmark
 
-Don't measure every page against one blended conversion rate. A [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) and a top-of-funnel blog post do completely different jobs, and holding them to the same number leads to bad decisions about what to cut and what to scale.
+Don't measure every page against one blended [conversion rate](/tools/conversion-rate-calculator/). A [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) and a top-of-funnel blog post do completely different jobs, and holding them to the same number leads to bad decisions about what to cut and what to scale.
 
 This is the part most ROI reports get wrong. They average everything into a single site-wide conversion rate, see "0.9%," and either panic or relax without knowing which pages earned it. The average tells you nothing about which page type is actually pulling weight.
 
@@ -147,7 +147,7 @@ Start with your fully-loaded monthly SEO investment: agency or team cost, tools,
 
 Then calculate monthly organic-attributed revenue, which is the hard part for SaaS:
 
-**Monthly Organic MRR = Organic Signups x Trial-to-Paid Rate x ARPU**
+**Monthly Organic MRR = Organic Signups x Trial-to-Paid Rate x [ARPU](/tools/arpu-calculator/)**
 
 As a worked example, 500 organic visitors convert to 50 trials at 10%, 5 of those go paid at a 10% trial-to-paid rate, and at a $200 ARPU that's $1,000 a month in new organic MRR.
 
@@ -155,7 +155,7 @@ Now divide. If you've spent $15,000 over three months and organic generates $1,0
 
 ### Use Lifetime Value Instead of First-Month Revenue
 
-Because SaaS customers stick around, first-month MRR understates what each organic customer is actually worth. Swap in lifetime value for a truer picture:
+Because SaaS customers stick around, first-month MRR understates what each organic customer is actually worth. Swap in [lifetime value](/tools/ltv-calculator/) for a truer picture:
 
 **Payback Period = Total Investment / (Monthly Organic Customers x LTV)**
 

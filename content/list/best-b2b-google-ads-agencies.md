@@ -155,7 +155,7 @@ I built [PipeRocket Digital](/) to solve a specific problem: B2B companies wasti
 | --- | --- |
 | Location | California, USA |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, DevRev, CyberSierra |
+| Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | SaaS PPC, Performance Max, LinkedIn Ads, CRM-integrated attribution |
 
 **The Real Difference**
@@ -403,7 +403,7 @@ Disruptive assigns dedicated strategists who become deeply familiar with each cl
 
 **Love:** Hands-on management and client service
 
-Clients consistently mention Disruptive helps scale Google Ads spend while maintaining lead quality, with responsive teams genuinely invested in client success ([source](https://clutch.co/profile/disruptive-advertising)).
+Clients consistently mention Disruptive helps scale [Google Ads spend](/tools/google-ads-cost-estimator/) while maintaining lead quality, with responsive teams genuinely invested in client success ([source](https://clutch.co/profile/disruptive-advertising)).
 
 - Doomlings is cited in Clutch reviews with a 5X revenue increase attributable to Disruptive's strategy
 

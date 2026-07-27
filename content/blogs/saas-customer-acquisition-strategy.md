@@ -50,7 +50,7 @@ So before you argue about which channel is best, answer a simpler question: how 
 
 A channel works when it pays for the next customer before you run out of cash. That's it. Everything else, the creative, the copy, the targeting, is in service of that one outcome. If your customer acquisition cost sits below what a customer is worth and the money comes back fast enough to reinvest, the channel scales. If it doesn't, no amount of optimization saves it.
 
-This is where most acquisition plans fall apart. Teams track cost per lead and cost per click because those numbers are easy to pull, then wonder why a "cheap" channel never turns into revenue. A cheap click that never closes ends up costing you more than an expensive one that does.
+This is where most acquisition plans fall apart. Teams track cost per lead and [cost per click](/tools/cpc-calculator/) because those numbers are easy to pull, then wonder why a "cheap" channel never turns into revenue. A cheap click that never closes ends up costing you more than an expensive one that does.
 
 ![A formula infographic breaking down customer acquisition cost as total sales and marketing spend divided by new customers, alongside the payback period as CAC divided by monthly gross margin per customer.](/images/blog-infographics/saas-customer-acquisition-strategy-infographic-1.webp)
 
@@ -58,7 +58,7 @@ This is where most acquisition plans fall apart. Teams track cost per lead and c
 
 Customer acquisition cost is your total sales and marketing spend over a period divided by the number of new customers won in that period. Include the ad budget, the tools, the salaries, and the agency fees. A CAC that only counts media spend is a number that lies to you.
 
-Then compare it to lifetime value. The LTV to CAC ratio tells you whether a customer is worth more than you paid to get them, and a common working target for B2B SaaS is roughly 3 to 1. Below that and you're overpaying. Well above it and you're probably underinvesting and leaving growth on the table.
+Then compare it to [lifetime value](/tools/ltv-calculator/). The LTV to CAC ratio tells you whether a customer is worth more than you paid to get them, and a common working target for B2B SaaS is roughly 3 to 1. Below that and you're overpaying. Well above it and you're probably underinvesting and leaving growth on the table.
 
 The mistake I see most is a blended CAC that hides everything. When one channel pays back in months and another bleeds for two years, averaging them together tells you nothing. Calculate CAC per channel, or you can't manage the portfolio at all.
 
@@ -71,14 +71,14 @@ Industry benchmarks put the median SaaS CAC payback at roughly 16 months, and bo
 The decision rule is blunt once you have payback by channel:
 
 - Channels that pay back fast get more budget.
-- Channels that pay back slowly either get cut or get one specific fix to the conversion rate.
+- Channels that pay back slowly either get cut or get one specific fix to the [conversion rate](/tools/conversion-rate-calculator/).
 - Channels you can't measure at all get instrumented before they get another dollar.
 
 ### Forecast the Economics Before You Spend a Dollar
 
 I run a rough forecast on every paid channel before launch, so I know whether the math can work at all. Start from the total search volume, model it down to impressions at a realistic impression share, then to clicks at a sane [click-through rate](/blogs/how-to-improve-organic-ctr/), then to conversions at a believable landing-page rate. Multiply clicks by average cost per click for spend, divide by conversions for CPA.
 
-On one account the numbers landed at a roughly $2,600 cost per acquisition. That sounds insane until you weigh it against the deal. When the lifetime value of that customer is around $90k, a $2,600 [CPA](/glossary/what-is-cpa/) is a no-brainer. The number is only high or low relative to what a customer is worth.
+On one account the numbers landed at a roughly $2,600 [cost per acquisition](/tools/cpa-calculator/). That sounds insane until you weigh it against the deal. When the lifetime value of that customer is around $90k, a $2,600 [CPA](/glossary/what-is-cpa/) is a no-brainer. The number is only high or low relative to what a customer is worth.
 
 Do this before launch and you stop chasing channels the math was never going to support. You're not buying pipeline on a hunch. You're buying it against a forecast you can hold the channel to.
 
