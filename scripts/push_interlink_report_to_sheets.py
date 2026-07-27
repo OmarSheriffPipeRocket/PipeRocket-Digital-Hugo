@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 Push the full-site interlink report (scripts/interlink_full_report.py output)
-into a new Google Sheet with 4 tabs: By Page, All Links (Edges), Summary by
-Type, Unresolved Links.
+to Google Sheets. Reuses the same spreadsheet on every run (REFRESH_SID) so
+the link stays stable across refreshes — clears each tab's data + formatting
+and rewrites it fresh, since row counts change as content grows.
 
 Usage:
   python3 scripts/interlink_full_report.py      # regenerate the CSVs first
@@ -19,6 +20,10 @@ ROOT = Path(__file__).resolve().parent.parent
 AUDIT_DIR = ROOT / "audit"
 TOKEN_FILE = ROOT / "credentials" / "token_backlinks.json"
 CREDS_FILE = ROOT / "credentials" / "Google Creds.json"
+
+# The report spreadsheet — reused across refreshes so the link never changes.
+REFRESH_SID = "1bzBMtg6CIQC-5Di8LWj4c_l-LN2sPsuMAkHDkwWMBPw"
+TAB_TITLES = ["By Page", "All Links (Edges)", "Summary by Type", "Unresolved Links", "Orphan Root Cause"]
 
 SCOPES = [
     "https://www.googleapis.com/auth/gmail.readonly",
@@ -105,6 +110,21 @@ def banding_request(sheet_id, nrows, ncols):
     }}}
 
 
+def fetch_existing(service, sid):
+    """Return {title: sheetId} plus each sheet's existing conditionalFormats/
+    bandedRanges (for cleanup), or None if the spreadsheet doesn't exist /
+    isn't reachable."""
+    try:
+        meta = service.spreadsheets().get(
+            spreadsheetId=sid,
+            fields="spreadsheetUrl,sheets(properties,conditionalFormats,bandedRanges)",
+        ).execute()
+    except Exception as e:
+        print(f"  (could not open existing sheet {sid}: {e}; will create a new one)")
+        return None
+    return meta
+
+
 def main():
     creds = get_creds()
     service = build("sheets", "v4", credentials=creds, cache_discovery=False)
@@ -113,25 +133,58 @@ def main():
     edges = read_csv("interlink_full_report_edges.csv")
     summary = read_csv("interlink_full_report_summary.csv")
     unresolved = [edges[0]] + [r for r in edges[1:] if r[8].startswith("No")]
+    orphan_causes = read_csv("orphan_root_cause.csv")
 
-    ss = service.spreadsheets().create(body={
-        "properties": {"title": "PipeRocket — Full-Site Interlinking Report (2026-07-01)"},
-        "sheets": [
-            {"properties": {"title": "By Page", "gridProperties": {"frozenRowCount": 1, "frozenColumnCount": 1}}},
-            {"properties": {"title": "All Links (Edges)", "gridProperties": {"frozenRowCount": 1}}},
-            {"properties": {"title": "Summary by Type", "gridProperties": {"frozenRowCount": 1}}},
-            {"properties": {"title": "Unresolved Links", "gridProperties": {"frozenRowCount": 1}}},
-        ],
-    }).execute()
-    sid = ss["spreadsheetId"]
-    url = ss["spreadsheetUrl"]
-    sheet_ids = {s["properties"]["title"]: s["properties"]["sheetId"] for s in ss["sheets"]}
+    existing = fetch_existing(service, REFRESH_SID)
+
+    if existing:
+        sid = REFRESH_SID
+        url = existing["spreadsheetUrl"]
+        sheet_ids = {s["properties"]["title"]: s["properties"]["sheetId"] for s in existing["sheets"]}
+
+        # Add any tab that doesn't exist yet on this spreadsheet (e.g. a new
+        # report section introduced after the sheet was first created).
+        missing_titles = [t for t in TAB_TITLES if t not in sheet_ids]
+        if missing_titles:
+            add_resp = service.spreadsheets().batchUpdate(spreadsheetId=sid, body={"requests": [
+                {"addSheet": {"properties": {"title": t, "gridProperties": {"frozenRowCount": 1}}}}
+                for t in missing_titles
+            ]}).execute()
+            for reply in add_resp["replies"]:
+                props = reply["addSheet"]["properties"]
+                sheet_ids[props["title"]] = props["sheetId"]
+
+        # Clear old values + all formatting on each tab so stale rows/ranges
+        # from a smaller previous run can't linger past the new data.
+        clear_requests = []
+        for title in TAB_TITLES:
+            sheet_id = sheet_ids[title]
+            clear_requests.append({"updateCells": {
+                "range": {"sheetId": sheet_id},
+                "fields": "userEnteredValue,userEnteredFormat",
+            }})
+        for s in existing["sheets"]:
+            sheet_id = s["properties"]["sheetId"]
+            for cf_idx in range(len(s.get("conditionalFormats", [])) - 1, -1, -1):
+                clear_requests.append({"deleteConditionalFormatRule": {"sheetId": sheet_id, "index": cf_idx}})
+            for br in s.get("bandedRanges", []):
+                clear_requests.append({"deleteBanding": {"bandedRangeId": br["bandedRangeId"]}})
+        service.spreadsheets().batchUpdate(spreadsheetId=sid, body={"requests": clear_requests}).execute()
+    else:
+        ss = service.spreadsheets().create(body={
+            "properties": {"title": "PipeRocket — Full-Site Interlinking Report"},
+            "sheets": [{"properties": {"title": t, "gridProperties": {"frozenRowCount": 1}}} for t in TAB_TITLES],
+        }).execute()
+        sid = ss["spreadsheetId"]
+        url = ss["spreadsheetUrl"]
+        sheet_ids = {s["properties"]["title"]: s["properties"]["sheetId"] for s in ss["sheets"]}
 
     data_updates = [
         {"range": "By Page!A1", "values": by_page},
         {"range": "All Links (Edges)!A1", "values": edges},
         {"range": "Summary by Type!A1", "values": summary},
         {"range": "Unresolved Links!A1", "values": unresolved},
+        {"range": "Orphan Root Cause!A1", "values": orphan_causes},
     ]
     service.spreadsheets().values().batchUpdate(
         spreadsheetId=sid,
@@ -157,18 +210,18 @@ def main():
         }, "index": 0}},
     ]
 
-    # All Links (Edges) — 9 cols: Source URL, Source Type, Source Title, Anchor Text,
-    # Anchor Text Context, Target URL, Target Type, Target Title, Resolved
+    # All Links (Edges) — 10 cols: Source URL, Source Type, Source Title, Anchor Text,
+    # Anchor Text Context, Target URL, Target Type, Target Title, Resolved, Link Source
     ae_id = sheet_ids["All Links (Edges)"]
     requests += [
-        header_fmt_request(ae_id, 9),
+        header_fmt_request(ae_id, 10),
         col_width_request(ae_id, 0, 220), col_width_request(ae_id, 1, 80),
         col_width_request(ae_id, 2, 240), col_width_request(ae_id, 3, 200),
         col_width_request(ae_id, 4, 380), col_width_request(ae_id, 5, 220),
         col_width_request(ae_id, 6, 90), col_width_request(ae_id, 7, 240),
-        col_width_request(ae_id, 8, 130),
+        col_width_request(ae_id, 8, 130), col_width_request(ae_id, 9, 170),
         wrap_request(ae_id, 1, len(edges), 4, 5),
-        banding_request(ae_id, len(edges), 9),
+        banding_request(ae_id, len(edges), 10),
     ]
 
     # Summary by Type (7 cols)
@@ -178,21 +231,42 @@ def main():
         col_width_request(sm_id, 0, 110),
     ]
 
-    # Unresolved Links (same 9-col shape as All Links)
+    # Unresolved Links (same 10-col shape as All Links)
     ur_id = sheet_ids["Unresolved Links"]
     requests += [
-        header_fmt_request(ur_id, 9),
+        header_fmt_request(ur_id, 10),
         col_width_request(ur_id, 0, 220), col_width_request(ur_id, 2, 240),
         col_width_request(ur_id, 4, 380), col_width_request(ur_id, 5, 220),
-        col_width_request(ur_id, 7, 130),
+        col_width_request(ur_id, 7, 130), col_width_request(ur_id, 9, 170),
         wrap_request(ur_id, 1, len(unresolved), 4, 5),
         {"repeatCell": {
             "range": {"sheetId": ur_id, "startRowIndex": 1, "endRowIndex": len(unresolved),
-                      "startColumnIndex": 0, "endColumnIndex": 9},
+                      "startColumnIndex": 0, "endColumnIndex": 10},
             "cell": {"userEnteredFormat": {"backgroundColor": rgb(RED_LIGHT)}},
             "fields": "userEnteredFormat.backgroundColor",
         }},
     ]
+
+    # Orphan Root Cause — 6 cols: Page URL, Type, Title, Root Cause, Evidence, Recommended Action
+    orc_id = sheet_ids["Orphan Root Cause"]
+    requests += [
+        header_fmt_request(orc_id, 6),
+        col_width_request(orc_id, 0, 260), col_width_request(orc_id, 1, 90),
+        col_width_request(orc_id, 2, 260), col_width_request(orc_id, 3, 170),
+        col_width_request(orc_id, 4, 380), col_width_request(orc_id, 5, 380),
+        wrap_request(orc_id, 1, len(orphan_causes), 4, 6),
+    ]
+    # Color rows by root cause: structural/no-linkmap gaps (gold, needs new
+    # tooling/content work) vs blocked-by-a-real-bug (red, fixable in code).
+    for cause, color in (("no-linkmap-structural", GOLD), ("no-linkmap-content", GOLD),
+                        ("blocked-compare-bridge", RED_LIGHT), ("blocked-routing-policy", RED_LIGHT),
+                        ("investigate", RED_LIGHT)):
+        requests.append({"addConditionalFormatRule": {"rule": {
+            "ranges": [{"sheetId": orc_id, "startRowIndex": 1, "endRowIndex": len(orphan_causes),
+                       "startColumnIndex": 3, "endColumnIndex": 4}],
+            "booleanRule": {"condition": {"type": "TEXT_EQ", "values": [{"userEnteredValue": cause}]},
+                           "format": {"backgroundColor": rgb(color)}},
+        }, "index": 0}})
 
     service.spreadsheets().batchUpdate(spreadsheetId=sid, body={"requests": requests}).execute()
 
@@ -201,6 +275,7 @@ def main():
     print(f"  All Links        : {len(edges)-1} edges")
     print(f"  Summary by Type  : {len(summary)-1} types")
     print(f"  Unresolved Links : {len(unresolved)-1} broken internal targets")
+    print(f"  Orphan Root Cause: {len(orphan_causes)-1} orphans diagnosed")
 
 
 if __name__ == "__main__":
