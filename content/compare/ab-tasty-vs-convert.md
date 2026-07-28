@@ -264,7 +264,7 @@ Both vendors run credible A/B testing programs, and each wins rows the other doe
 | **Pricing transparency** | No public pricing; custom quote only, no free trial (1-2 week guided proof-of-concept instead) | Published tiers ($299 to $599/mo) plus a 15-day free trial, no card required |
 | **Statistics** | Not publicly detailed; verify directly with the vendor | Choice of Bayesian and frequentist engines |
 | **Integration catalog** | Organized Push/Pull/Data Warehouse hub, but fewer names published in one consolidated place | 90+ named integrations across analytics, ecommerce, CRM, and CDPs |
-| **Enterprise brand roster** | L'Oreal, Ulta, Kering, Puma, Clarins, Samsonite, USA Today, Club Med | Case studies lean on CRO agencies and mid-market brands (Earth Class Mail, iProspect, Cro Metrics) |
+| **Enterprise brand roster** | L'Oreal, Ulta, Kering, Puma, Clarins, Samsonite, USA Today, Club Med | Case studies lean on [CRO agencies](/list/best-conversion-rate-optimization-agencies/) and mid-market brands (Earth Class Mail, iProspect, Cro Metrics) |
 | **Review volume** | 400+ G2 reviews (reported), a larger statistical base | 93 G2 reviews (reported); a smaller but named/attributed Software Advice sample |
 | **Business continuity** | Mid-merger with VWO/Wingify as of Jan 2026; expect roadmap and support changes over time | No pending merger or acquisition as of this writing |
 | **Known limitations** | Reviewers report a steep learning curve on advanced features, heavy page tags on multi-domain and SPA setups, and slow load times | Smaller bench for large enterprise rollouts; some reviewers flag cost at scale despite the transparent entry price |

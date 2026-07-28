@@ -656,7 +656,7 @@ Only if your HubSpot plan is Professional or Enterprise. Free and Starter plans 
 
 ### How does cookieless attribution work?
 
-Cookieless attribution uses first-party data (server-side tracking, CRM signals, user IDs) instead of third-party browser cookies. HockeyStack and Usermaven both default to cookieless tracking, which maintains accuracy as cookie consent rates decline.
+Cookieless attribution uses first-party data (server-side tracking, CRM signals, user IDs) instead of [third-party browser cookies](/glossary/what-is-third-party-cookies/). HockeyStack and Usermaven both default to cookieless tracking, which maintains accuracy as cookie consent rates decline.
 
 ### Which attribution tool is best for early-stage SaaS?
 

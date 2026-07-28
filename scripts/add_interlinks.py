@@ -86,6 +86,7 @@ ALLOWED_FLOWS = {
     ("list",  "listicle"):    "after_5th",  # rule 7
     ("list",  "service"):     True,         # rule 8
     ("list",  "compare"):     True,         # rule 9
+    ("list",  "glossary"):    "after_5th",  # rule 12 (Omar override 2026-07-28)
 
     # Glossary as source
     ("glossary", "blog"):     True,         # rule 2

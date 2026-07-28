@@ -564,7 +564,7 @@ Best for: Early-stage B2B SaaS running LinkedIn-first ABM with 6Sense intent dat
 **The Angle:** Scalewell treats ABM as a signal-driven paid channel: 6Sense intent data identifies which accounts are in an active buying cycle, then LinkedIn Ads and Google Ads concentrate budget on those accounts. CTV ads capability rounds out the channel mix for enterprise targets. Pipeline-first optimization (SALs, not MQL volume).
 
 - 6Sense intent data integration to focus spend on in-market accounts only.
-- SAL (Sales Accepted Lead) optimization, not MQL volume targets.
+- [SAL](/glossary/what-is-sal-in-saas/) (Sales Accepted Lead) optimization, not MQL volume targets.
 - CTV ads added for enterprise account penetration alongside LinkedIn and Google.
 
 **Documented Results:** Anonymized case study results on the Scalewell site include a 531% increase in leads alongside a 169% spend increase, a 1,500% increase in opportunities using incentive-based LinkedIn messaging, and a 98% CTV video completion rate ([Scalewell results](https://scalewell.consulting/results)). No verified third-party reviewer quotes are available.

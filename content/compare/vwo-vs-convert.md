@@ -250,7 +250,7 @@ Both platforms run the core experimentation toolkit competently (A/B, multivaria
 | **Pricing transparency** | Pricing page shows tiers but no dollar figures; requires config or sales contact | Dollar pricing published plainly on the pricing page ($299 to $599/mo) |
 | **Feature-gating** | Some capabilities gated behind separate modules and tiers | Full feature set on every paid plan; differences limited mostly to usage caps |
 | **Team and scale** | Reported ~800 employees post-merger; larger support/R&D bench | 11 to 50 employees; thinner bench for enterprise-scale support |
-| **Customer roster** | Large recognizable brands (Agoda, Ubisoft, TurboTax, Decathlon) | Skews toward CRO agencies and consultancies (Blue Lambda, Conversion Rate Experts) |
+| **Customer roster** | Large recognizable brands (Agoda, Ubisoft, TurboTax, Decathlon) | Skews toward [CRO agencies](/list/best-conversion-rate-optimization-agencies/) and consultancies (Blue Lambda, Conversion Rate Experts) |
 | **Reviews** | ~990 G2 reviews (broad listing, verify live) | 96 G2 reviews; smaller sample, non-statistical at this size |
 | **Support sentiment** | Not specifically called out as a differentiator in sourced reviews | Reviewers specifically praise responsiveness ("genuinely helpful," "awesome") |
 | **Known tradeoffs** | Pricing opacity, MTU-based cost unpredictability, free tier being phased out in 2026, post-merger roadmap uncertainty | Much smaller team and review base than VWO; no free tier at all, only a 15-day trial |

@@ -891,7 +891,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""SaaS SEO agency"" -> /saas-seo-agency/
 ""our SaaS SEO and CRO services page"" -> /saas-seo-agency/"
-/alternative/vwo-alternatives/,alternative,9 Best VWO Alternatives in 2026,7,10,,"""VWO alternatives"" <- /alternative/ab-tasty-alternatives/
+/alternative/vwo-alternatives/,alternative,9 Best VWO Alternatives in 2026,7,11,,"""VWO alternatives"" <- /alternative/ab-tasty-alternatives/
 ""VWO alternatives"" <- /alternative/convert-alternatives/
 ""Vwo alternatives"" <- /alternative/instapage-alternatives/
 ""Vwo alternatives"" <- /alternative/mouseflow-alternatives/
@@ -904,6 +904,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""HyperVerge"" -> /case-study/hyperverge/
 ""VWO vs Convert"" -> /compare/vwo-vs-convert/
 ""$3,000/mo"" -> /contact-us/
+""best conversion rate optimization agencies"" -> /list/best-conversion-rate-optimization-agencies/
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""SaaS PPC"" -> /saas-ppc/
 ""SaaS SEO"" -> /saas-seo-agency/"
@@ -4510,9 +4511,10 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 /compare/6sense-vs-demandbase/,compare,6sense vs Demandbase,2,2,,"""6sense vs Demandbase"" <- /alternative/6sense-alternatives/
 ""6sense vs Demandbase"" <- /alternative/demandbase-alternatives/","""Immanual D M"" -> /author/immanual/
 ""Praveen Ravi"" -> /author/praveen-ravi/"
-/compare/ab-tasty-vs-convert/,compare,AB Tasty vs Convert.com,2,2,,"""AB Tasty vs Convert.com"" <- /alternative/ab-tasty-alternatives/
+/compare/ab-tasty-vs-convert/,compare,AB Tasty vs Convert.com,2,3,,"""AB Tasty vs Convert.com"" <- /alternative/ab-tasty-alternatives/
 ""AB Tasty vs Convert"" <- /alternative/convert-alternatives/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
-""Sabari Rohith"" -> /author/rohith/"
+""Sabari Rohith"" -> /author/rohith/
+""CRO agencies"" -> /list/best-conversion-rate-optimization-agencies/"
 /compare/ahrefs-vs-moz/,compare,Ahrefs vs Moz Pro,5,2,,"""Ahrefs vs Moz"" <- /alternative/ahrefs-alternatives/
 ""Ahrefs vs Moz"" <- /alternative/mangools-alternatives/
 ""Ahrefs vs Moz"" <- /alternative/moz-alternatives/
@@ -4796,10 +4798,11 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 /compare/uplead-vs-apollo/,compare,UpLead vs Apollo.io,2,2,,"""UpLead vs Apollo"" <- /alternative/apollo-alternatives/
 ""UpLead vs Apollo"" <- /alternative/lusha-alternatives/","""Immanual D M"" -> /author/immanual/
 ""Praveen Ravi"" -> /author/praveen-ravi/"
-/compare/vwo-vs-convert/,compare,VWO vs Convert.com,3,2,,"""VWO vs Convert.com"" <- /alternative/ab-tasty-alternatives/
+/compare/vwo-vs-convert/,compare,VWO vs Convert.com,3,3,,"""VWO vs Convert.com"" <- /alternative/ab-tasty-alternatives/
 ""VWO vs Convert"" <- /alternative/convert-alternatives/
 ""VWO vs Convert"" <- /alternative/vwo-alternatives/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
-""Vignesh Sampath"" -> /author/vignesh-sampath/"
+""Vignesh Sampath"" -> /author/vignesh-sampath/
+""CRO agencies"" -> /list/best-conversion-rate-optimization-agencies/"
 /compare/vwo-vs-optimizely/,compare,VWO vs Optimizely,2,2,,"""VWO vs Optimizely"" <- /alternative/convert-alternatives/
 ""VWO vs Optimizely"" <- /alternative/mouseflow-alternatives/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
 ""Ranjeeth Kumar"" -> /author/ranjeeth/"
@@ -6364,7 +6367,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""best B2B marketing agencies"" -> /list/best-b2b-marketing-agencies/
 ""best SaaS marketing agencies for early-stage growth"" -> /list/best-saas-marketing-agencies-2026/
 ""SaaS PPC agency"" -> /saas-ppc/"
-/glossary/what-is-sal-in-saas/,glossary,What Is SAL in SaaS? The Lead Stage Most Teams Get Wrong,0,7,YES,,"""Ranjeeth Kumar"" -> /author/ranjeeth/
+/glossary/what-is-sal-in-saas/,glossary,What Is SAL in SaaS? The Lead Stage Most Teams Get Wrong,1,7,,"""SAL"" <- /list/best-abm-agencies/","""Ranjeeth Kumar"" -> /author/ranjeeth/
 ""ICP"" -> /glossary/what-is-icp/
 ""SEO"" -> /glossary/what-is-seo/
 ""best B2B marketing agencies that understand the full funnel"" -> /list/best-b2b-marketing-agencies/
@@ -6643,7 +6646,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""how SaaS PPC agencies manage paid visibility on crowded SERPs"" -> /list/best-saas-ppc-agencies/
 ""best SaaS SEO agencies"" -> /list/best-saas-seo-agencies/
 ""SaaS SEO agency services for ongoing SERP monitoring"" -> /saas-seo-agency/"
-/glossary/what-is-ssl-certificate/,glossary,What Is an SSL Certificate? Clear Definition for SaaS and B2B,0,10,YES,,"""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
+/glossary/what-is-ssl-certificate/,glossary,What Is an SSL Certificate? Clear Definition for SaaS and B2B,1,10,,"""SSL"" <- /list/best-landing-page-builders-for-saas/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
 ""landing page"" -> /glossary/what-is-a-landing-page/
 ""on-page SEO"" -> /glossary/what-is-on-page-seo/
 ""SEO"" -> /glossary/what-is-seo/
@@ -6722,7 +6725,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""best B2B SEO agencies for technical and content strategy"" -> /list/best-b2b-seo-agencies/
 ""top SaaS marketing companies for technical and content SEO"" -> /list/best-saas-marketing-agencies-2026/
 ""best SaaS SEO agencies"" -> /list/best-saas-seo-agencies/"
-/glossary/what-is-third-party-cookies/,glossary,What Is Third-Party Cookies? The Marketer’s Guide to a Fading Technology,0,7,YES,,"""Vishnu Prasadh"" -> /author/vishnu-prasad/
+/glossary/what-is-third-party-cookies/,glossary,What Is Third-Party Cookies? The Marketer’s Guide to a Fading Technology,1,7,,"""third-party browser cookies"" <- /list/best-marketing-attribution-tools/","""Vishnu Prasadh"" -> /author/vishnu-prasad/
 ""multi-touch attribution"" -> /blogs/how-to-set-up-multi-touch-attribution/
 ""A/B testing"" -> /glossary/what-is-ab-testing/
 ""how top B2B PPC agencies are adapting paid strategies to cookieless targeting"" -> /list/best-affordable-b2b-ppc-agencies/
@@ -6795,7 +6798,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""PipeRocket Digital"" -> /saas-ppc/
 ""SaaS PPC"" -> /saas-ppc/"
-/list/best-abm-agencies/,listicle,9 Best ABM Agencies: An Honest 2026 Review,2,11,,"""best ABM agencies"" <- /list/best-linkedin-marketing-agencies/
+/list/best-abm-agencies/,listicle,9 Best ABM Agencies: An Honest 2026 Review,2,12,,"""best ABM agencies"" <- /list/best-linkedin-marketing-agencies/
 ""best ABM agencies"" <- /list/best-reddit-ads-agencies/","""best Directive Consulting alternatives"" -> /alternative/directive-consulting-alternatives/
 ""best Refine Labs alternatives"" -> /alternative/refine-labs-alternatives/
 ""Praveen Ravi"" -> /author/praveen-ravi/
@@ -6804,6 +6807,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""social proof"" -> /blogs/saas-social-proof/
 ""DevRev"" -> /case-study/devrev/
 ""PipeRocket vs Directive Consulting"" -> /compare/piperocket-vs-directive-consulting/
+""SAL"" -> /glossary/what-is-sal-in-saas/
 ""best LinkedIn marketing agencies"" -> /list/best-linkedin-marketing-agencies/
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""SEO and ABM-oriented paid media"" -> /saas-seo-agency/"
@@ -7195,7 +7199,9 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""social proof"" -> /blogs/saas-social-proof/
 ""rank tracking"" -> /list/best-rank-tracking-tools-for-saas/
 ""our research methodology and editorial policy"" -> /research-methodology/"
-/list/best-conversion-rate-optimization-agencies/,listicle,Best 9 Conversion Rate Optimization Agencies: An Honest 2026 Review,0,8,YES,,"""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
+/list/best-conversion-rate-optimization-agencies/,listicle,Best 9 Conversion Rate Optimization Agencies: An Honest 2026 Review,3,8,,"""best conversion rate optimization agencies"" <- /alternative/vwo-alternatives/
+""CRO agencies"" <- /compare/ab-tasty-vs-convert/
+""CRO agencies"" <- /compare/vwo-vs-convert/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
 ""A/B testing"" -> /blogs/ab-test-saas-landing-pages/
 ""Meta ads"" -> /blogs/meta-ads-for-b2b-saas/
 ""social proof"" -> /blogs/saas-social-proof/
@@ -7399,7 +7405,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""SaaS SEO"" -> /saas-seo-agency/
 ""content marketing"" -> /saas-seo-agency/content-marketing-agency/"
-/list/best-landing-page-builders-for-saas/,listicle,7 Best Landing Page Builders for SaaS (2026),1,11,,"""best landing page builders for SaaS"" <- /glossary/what-is-a-landing-page/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
+/list/best-landing-page-builders-for-saas/,listicle,7 Best Landing Page Builders for SaaS (2026),1,12,,"""best landing page builders for SaaS"" <- /glossary/what-is-a-landing-page/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
 ""A/B Testing"" -> /blogs/ab-test-saas-landing-pages/
 ""optimising SaaS landing pages for SEO"" -> /blogs/optimize-saas-landing-pages-for-seo/
 ""SaaS marketing"" -> /blogs/saas-marketing/
@@ -7407,6 +7413,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""paid search campaign structure"" -> /blogs/saas-ppc/
 ""Quality Score"" -> /blogs/saas-quality-score/
 ""talk to us"" -> /contact-us/
+""SSL"" -> /glossary/what-is-ssl-certificate/
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""SaaS growth programs"" -> /saas-seo-agency/
 ""conversion rate"" -> /tools/conversion-rate-calculator/"
@@ -7449,13 +7456,14 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""PPC"" -> /saas-ppc/
 ""SEO"" -> /saas-seo-agency/
 ""GEO/AEO"" -> /saas-seo-agency/ai-seo-services/"
-/list/best-marketing-attribution-tools/,listicle,9 Best Marketing Attribution Tools for B2B SaaS (2026),2,7,,"""best marketing attribution tools"" <- /alternative/hockeystack-alternatives/
+/list/best-marketing-attribution-tools/,listicle,9 Best Marketing Attribution Tools for B2B SaaS (2026),2,8,,"""best marketing attribution tools"" <- /alternative/hockeystack-alternatives/
 ""SEO attribution tools"" <- /blogs/how-to-prove-seo-roi/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
 ""SEO attribution"" -> /blogs/how-to-attribute-seo-to-pipeline/
 ""prove SEO ROI"" -> /blogs/how-to-prove-seo-roi/
 ""multi-touch attribution"" -> /blogs/how-to-set-up-multi-touch-attribution/
 ""product-led growth"" -> /blogs/saas-product-led-growth-strategy/
 ""social proof"" -> /blogs/saas-social-proof/
+""third-party browser cookies"" -> /glossary/what-is-third-party-cookies/
 ""our research methodology and editorial policy"" -> /research-methodology/"
 /list/best-martech-marketing-agencies/,listicle,10 Best Martech Marketing Agencies in 2026 (Honest Review),1,17,,"""best MarTech marketing agencies"" <- /research/ai-seo-statistics/","""best Directive Consulting alternatives"" -> /alternative/directive-consulting-alternatives/
 ""Kalungi alternatives"" -> /alternative/kalungi-alternatives/

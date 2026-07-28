@@ -541,7 +541,7 @@ All plans are billed annually only. A 7-day trial is available on paid plans, no
 | --- | --- | --- |
 | Free | Free | 3 sites, carrd.co subdomain, Carrd branding |
 | Pro Lite | $9/year | 3 sites, removes Carrd branding, no custom domain |
-| Pro Standard | $19/year | 10 sites, custom domain, SSL |
+| Pro Standard | $19/year | 10 sites, custom domain, [SSL](/glossary/what-is-ssl-certificate/) |
 | Pro Plus | $49/year | 25 sites, custom forms, downloadable site source |
 
 **What Reviewers Say**
