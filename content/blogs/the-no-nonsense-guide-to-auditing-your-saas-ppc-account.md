@@ -270,7 +270,7 @@ When you audit from the top down, starting with the business goals, moving to th
 
 And honestly? That’s where the fun (and the money) is.
 
-For a step-by-step version you can tick off as you go, use our free [Google Ads audit checklist](/checklists/google-ads-audit-checklist/).
+For a step-by-step version you can tick off as you go, use our free [Google Ads audit checklist](/checklists/google-ads-audit-checklist/). If you'd rather automate parts of this instead of doing it by hand every quarter, our [best PPC audit tools](/list/best-ppc-audit-tools/) roundup covers what's actually worth paying for.
 
 ## Frequently Asked Questions
 

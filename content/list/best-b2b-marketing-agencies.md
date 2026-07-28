@@ -412,7 +412,7 @@ Their B2B Game Plan assesses how well current marketing aligns with business goa
 
 **Documented**
 
-Disruptive's case studies span Adobe, Vivint, and SelectHealth, with documented revenue and ROAS improvements across B2B SaaS, real estate tech, and consumer health verticals. Doomlings reportedly saw a 5X revenue increase from Disruptive's integrated strategy.
+Disruptive's case studies span Adobe, Vivint, and SelectHealth, with documented revenue and ROAS improvements across B2B SaaS, real estate tech, and consumer health verticals. Doomlings reportedly saw a 5X revenue increase from Disruptive's integrated strategy. For a shortlist built specifically around the real estate tech vertical, see our [best proptech marketing agencies](/list/best-proptech-marketing-agencies/) roundup.
 
 **Strong Fit:** B2B companies spending $50K+ monthly on paid media seeking integrated optimisation across the entire conversion path under one retainer.
 
@@ -470,7 +470,7 @@ Among the brand-led B2B marketing agencies on this list, [Walker Sands](https://
 
 **The Pitch**
 
-For B2B tech companies in fintech, HRTech, and MarTech verticals, earning category credibility matters as much as generating pipeline. Walker Sands understands this balance. Ten appearances on the Inc. 5000 list demonstrate their model delivers results consistently over time.
+For B2B tech companies in fintech, HRTech, and MarTech verticals, earning category credibility matters as much as generating pipeline. Walker Sands understands this balance — for options built specifically around the HR tech vertical, see our [best HR tech marketing agencies](/list/best-hr-tech-marketing-agencies/) roundup. Ten appearances on the Inc. 5000 list demonstrate their model delivers results consistently over time.
 
 - 10x Inc. 5000 honoree across consecutive years
 - Multi-office US footprint with deep client base in B2B SaaS, fintech, and cybersecurity

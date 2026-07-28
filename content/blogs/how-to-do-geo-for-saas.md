@@ -75,7 +75,7 @@ So show up there:
 - Earn real reviews on G2 and Clutch with named client outcomes
 - Get mentioned in comparison content the engine can quote
 
-If you're not present on Reddit, Quora, or G2, you're invisible to the surface you're chasing. On-site-only work can't fix that.
+If you're not present on Reddit, Quora, or G2, you're invisible to the surface you're chasing. On-site-only work can't fix that. Our [Reddit & Quora checklist for SEO and AEO](/checklists/reddit-quora-seo-checklist/) is a free starting point for systematizing that presence instead of doing it ad hoc.
 
 ### Lock your entity so both engines trust who you are
 

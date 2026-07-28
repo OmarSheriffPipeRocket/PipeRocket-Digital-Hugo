@@ -153,7 +153,7 @@ A recurring import is a convenience that can quietly undo your Microsoft-specifi
 
 ## How PipeRocket Digital Runs Microsoft Ads for SaaS
 
-We treat Microsoft as its own B2B channel, not a Google leftover. We import to save setup time, rebuild the account for Microsoft's auction, then layer LinkedIn company, industry, and job-function targeting so every dollar chases the roles and accounts you actually sell to. We run it alongside your [Google Ads](https://piperocket.digital/saas-ppc/) so the two channels do the jobs each is best at. If you want a paid programme that reaches the right SaaS buyers instead of just more searchers, [reach out to us](https://piperocket.digital/contact-us/) or see how we work with [SaaS PPC clients](https://piperocket.digital/list/best-saas-ppc-agencies/).
+We treat Microsoft as its own B2B channel, not a Google leftover. We import to save setup time, rebuild the account for Microsoft's auction, then layer LinkedIn company, industry, and job-function targeting so every dollar chases the roles and accounts you actually sell to. We run it alongside your [Google Ads](https://piperocket.digital/saas-ppc/) so the two channels do the jobs each is best at. If you want a paid programme that reaches the right SaaS buyers instead of just more searchers, see our [Bing Ads agency](https://piperocket.digital/bing-ads-agency/) page or [reach out to us](https://piperocket.digital/contact-us/).
 
 ## Frequently Asked Questions
 

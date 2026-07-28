@@ -182,7 +182,7 @@ The moment sales sees their target accounts tracked with the same rigor as their
 
 ## Why/How PipeRocket Digital Helps With This
 
-We build the account tiering, scoring model, and sales-marketing alignment process before we ever touch an ad platform, because that's the layer most SaaS ABM programs skip. If you're ready to run the paid execution on top of a solid list, our [SaaS PPC](https://piperocket.digital/saas-ppc/) team handles the channel mix.
+We build the account tiering, scoring model, and sales-marketing alignment process before we ever touch an ad platform, because that's the layer most SaaS ABM programs skip. If you're ready to run the paid execution on top of a solid list, our [SaaS PPC](https://piperocket.digital/saas-ppc/) team handles the channel mix, and our [account-based marketing agency](https://piperocket.digital/account-based-marketing-agency/) page covers the ABM-specific model in more depth.
 
 You can also see how we compare against other options on the [best SaaS marketing agencies](https://piperocket.digital/list/best-saas-marketing-agencies-2026/) list, or [get in touch](https://piperocket.digital/contact-us/) if you want a second opinion on your current account list.
 

@@ -110,7 +110,7 @@ The other quiet trap is measurement patience. Search shows results in days, soci
 
 ## How PipeRocket Digital Runs Paid Search and Paid Social for SaaS
 
-We build the two channels around the jobs they actually do. Our [SaaS PPC service](https://piperocket.digital/saas-ppc/) starts by capturing existing demand on search, fund the highest-intent terms first, prove the payback, then layer paid social only once search is maxed and the deal size justifies creating demand. We measure each channel on its own terms so no one pauses the campaign that's quietly filling the pipeline. If you want a second set of eyes on how your budget is split, [get in touch](https://piperocket.digital/contact-us/).
+We build the two channels around the jobs they actually do. Our [SaaS PPC service](https://piperocket.digital/saas-ppc/) starts by capturing existing demand on search, fund the highest-intent terms first, prove the payback, then layer paid social only once search is maxed and the deal size justifies creating demand. Our [paid social agency](https://piperocket.digital/paid-social-agency/) page covers that second layer in more depth. We measure each channel on its own terms so no one pauses the campaign that's quietly filling the pipeline. If you want a second set of eyes on how your budget is split, [get in touch](https://piperocket.digital/contact-us/).
 
 ## Frequently Asked Questions
 

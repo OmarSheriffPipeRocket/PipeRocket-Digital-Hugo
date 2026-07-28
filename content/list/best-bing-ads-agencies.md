@@ -123,7 +123,7 @@ Want a side-by-side? Read our [PipeRocket vs Directive Consulting](/compare/pipe
 
 Best for: B2B SaaS teams that want Bing Ads bundled with SEO and pipeline reporting from week four.
 
-[PipeRocket Digital](https://piperocket.digital/) is the agency we built to fix the disconnect between paid media management and pipeline visibility. We run Microsoft Ads under the same pod and reporting model as Google and LinkedIn, so Bing performance shows up in your CRM data alongside every other channel.
+[PipeRocket Digital](https://piperocket.digital/) is the agency we built to fix the disconnect between paid media management and pipeline visibility. We run Microsoft Ads under the same pod and reporting model as Google and LinkedIn, so Bing performance shows up in your CRM data alongside every other channel. See our [Bing Ads agency](/bing-ads-agency/) page for how that model works in practice.
 
 **Agency Snapshot**
 

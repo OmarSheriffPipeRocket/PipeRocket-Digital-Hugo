@@ -712,7 +712,7 @@ Just 10 Clutch reviews back the rating on the public [profile](https://clutch.co
 
 ### What should a B2B PPC agency cost per month?
 
-B2B PPC retainers typically run $3,000 to $15,000/month based on ad spend and channel mix. Enterprise multi-platform engagements often exceed $20,000/month.
+B2B PPC retainers typically run $3,000 to $15,000/month based on ad spend and channel mix. Enterprise multi-platform engagements often exceed $20,000/month — see our [best enterprise PPC agencies](/list/best-enterprise-ppc-agencies/) roundup if you're operating at that scale.
 
 ### How long until B2B PPC campaigns show pipeline results?
 
@@ -728,7 +728,7 @@ The best track pipeline value, SQLs, and revenue attribution via Salesforce or H
 
 ### What questions should I ask a B2B PPC agency before hiring?
 
-Ask about vertical experience, retention rates, attribution methodology, the named account owner, and case studies tied to pipeline outcomes.
+Ask about vertical experience, retention rates, attribution methodology, the named account owner, and case studies tied to pipeline outcomes. If you'd rather hire a named operator than a full agency team, our [best B2B PPC experts and consultants](/list/b2b-ppc-experts/) roundup covers that path too.
 
 ### How do I know if a B2B PPC agency is right for my ICP?
 

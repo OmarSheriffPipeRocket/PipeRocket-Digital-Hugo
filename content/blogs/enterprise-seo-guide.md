@@ -129,7 +129,7 @@ For the SaaS-specific overlay, read our [enterprise SaaS SEO guide](/blogs/enter
 
 ### Programmatic SEO and Taxonomy
 
-Programmatic SEO (pSEO) uses templates, automation, and [structured data](/glossary/what-is-structured-data/) to generate large volumes of high-quality, data-driven [landing pages](/glossary/what-is-a-landing-page/). Instead of one page for “best LMS,” pSEO builds thousands of pages for “best LMS for HR managers in Texas,” matching specific buyer intent at scale.
+Programmatic SEO (pSEO) uses templates, automation, and [structured data](/glossary/what-is-structured-data/) to generate large volumes of high-quality, data-driven [landing pages](/glossary/what-is-a-landing-page/). Instead of one page for "best LMS," pSEO builds thousands of pages for "best LMS for HR managers in Texas," matching specific buyer intent at scale. Before building at that scale, run the qualification test in our [programmatic SEO for SaaS](/blogs/programmatic-seo-for-saas/) guide — most pSEO plays fail it.
 
 Solid taxonomy and site structure make pSEO pages discoverable. Organizing pages into a logical hierarchy presents your site architecture clearly to search engines, enabling accurate indexing and avoiding the thin-page issues Google flags.
 

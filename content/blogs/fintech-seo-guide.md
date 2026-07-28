@@ -218,7 +218,7 @@ Treat freshness as part of the product, not an afterthought. On utility and rate
 
 We treat fintech SEO as a trust problem with a search component, not the other way round. That means we build the technical and E-E-A-T foundations first, map content to the developer, finance, and compliance buyers separately, and earn authority from the sources fintech buyers actually believe.
 
-If you'd rather see who else does this well, our [best fintech SEO agencies](/list/top-fintech-seo-agencies/) list is a fair starting point. If you want a partner to run it, see how we approach [SaaS SEO](/saas-seo-agency/), then [talk to us](/contact-us/).
+If you'd rather see who else does this well, our [best fintech SEO agencies](/list/top-fintech-seo-agencies/) list is a fair starting point. If you want a partner to run it, see how we approach [SaaS SEO](/saas-seo-agency/) and our [fintech SEO agency](/saas-seo-agency/fintech-seo-agency/) page, then [talk to us](/contact-us/).
 
 ## Frequently Asked Questions
 

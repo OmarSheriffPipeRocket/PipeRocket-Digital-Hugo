@@ -461,7 +461,7 @@ Best for: SaaS Companies That Want Content Strategy Built From Deep Business Ana
 | Notable Clients | B2B SaaS in MarTech, devtools, category-creation plays |
 | Specialization | Surround Sound SEO, content strategy, brand positioning, qualitative research |
 
-**Right Call When:** You're a mid-market SaaS company seeking strategy-first content partners with business acumen who function as fractional CMOs alongside content production, with their overlap into [B2B demand generation](/blogs/b2b-demand-generation-guide/) strategy work.
+**Right Call When:** You're a mid-market SaaS company seeking strategy-first content partners with business acumen who function as fractional CMOs alongside content production, with their overlap into [B2B demand generation](/blogs/b2b-demand-generation-guide/) strategy work. Their devtools client base also makes them worth weighing against our [best DevTools marketing agencies](/list/best-devtools-marketing-agencies/) roundup if that's your specific vertical.
 
 **Wrong Call When:** You need rapid execution without extended strategic planning phases, or you want a content-volume vendor rather than a strategic partner who shapes how you think about content as a revenue line.
 

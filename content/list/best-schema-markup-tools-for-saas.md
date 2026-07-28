@@ -136,7 +136,7 @@ These three plugins ([Rank Math](https://rankmath.com/), [Yoast SEO](https://yoa
 
 It's for any SaaS team running WordPress. Schema generation is included in all three free plugins (Article, FAQ, HowTo, Product, Organization, BreadcrumbList, WebSite, WebPage, and more). You should be using one of these already for on-page SEO. If you are, you likely don't need any additional schema tooling.
 
-It's NOT relevant for SaaS teams on Webflow, Framer, Next.js, or any headless/custom CMS setup. WordPress-only. If you're on a different platform, go to entries 1 and 3 (Google's validator plus AI-generated JSON-LD).
+It's NOT relevant for SaaS teams on Webflow, Framer, Next.js, or any headless/custom CMS setup. WordPress-only. If you're on a different platform, go to entries 1 and 3 (Google's validator plus AI-generated JSON-LD). For a broader pre-launch pass on a WordPress site, our [WordPress SEO checklist](/checklists/wordpress-seo-checklist/) covers what these plugins don't.
 
 **The Case For It**
 

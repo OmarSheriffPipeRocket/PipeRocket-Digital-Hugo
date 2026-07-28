@@ -140,7 +140,7 @@ Nothing builds confidence like peer-to-peer validation. B2B buyers are risk-aver
 
 ### 4. Webinars & Video Content
 
-Video is how you scale human connection. Webinars let you demo products and answer questions in real time. Crucially, a single webinar can be repurposed into dozens of social clips, blog posts, and YouTube shorts.
+Video is how you scale human connection. Webinars let you demo products and answer questions in real time. Crucially, a single webinar can be repurposed into dozens of social clips, blog posts, and YouTube shorts. Optimizing those shorts to actually get found is a different skill from making them — our [YouTube SEO checklist](/checklists/youtube-seo-checklist/) covers that step.
 
 **Best for:** Engagement, Explaining Complex Ideas.
 

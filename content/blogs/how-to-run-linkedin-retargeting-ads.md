@@ -123,7 +123,7 @@ Beyond that, you can retarget based on internal actions, such as people who view
 
 ### 2. How much do 1000 impressions cost on LinkedIn?
 
-The cost per 1000 impressions ([CPM](/glossary/what-is-cpm/)) on LinkedIn is generally higher than on platforms like Facebook or X, typically ranging between **$20 and $50+**. However, this varies wildly based on your target audience’s seniority and industry. Targeting C-suite executives in the tech sector will naturally command a higher premium than targeting entry-level employees in retail.
+The cost per 1000 impressions ([CPM](/glossary/what-is-cpm/)) on LinkedIn is generally higher than on platforms like Facebook or X, typically ranging between **$20 and $50+**. However, this varies wildly based on your target audience's seniority and industry. Targeting C-suite executives in the tech sector will naturally command a higher premium than targeting entry-level employees in retail. Run your own audience's numbers through our free [CPM calculator](/tools/cpm-calculator/) before setting a budget.
 
 Because LinkedIn’s data is professional and self-reported, you are paying for the precision of reaching a specific job title or company, rather than just raw volume. It is often more expensive, but the lead quality is usually superior.
 

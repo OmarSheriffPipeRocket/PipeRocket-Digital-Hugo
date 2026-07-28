@@ -10,7 +10,7 @@ category: "SaaS SEO"
 featuredImage: "/images/blog-covers/how-to-refresh-content-rankings.webp"
 ---
 
-Your audit flagged a list of posts losing rankings, and the instinct is to open each one, change the publish date, rewrite the intro, and hit update. Changing the publish date is a timestamp change with extra steps, not a refresh, and the rankings won't come back because nothing about why they dropped actually changed.
+Your audit flagged a list of posts losing rankings, and the instinct is to open each one, change the publish date, rewrite the intro, and hit update. Changing the publish date is a timestamp change with extra steps, not a refresh, and the rankings won't come back because nothing about why they dropped actually changed. If you haven't run that audit yet, [here's the process](/blogs/how-to-do-saas-content-audit/) we use to build the list in the first place.
 
 ## TL;DR
 

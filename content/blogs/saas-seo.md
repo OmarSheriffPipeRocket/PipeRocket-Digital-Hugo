@@ -60,7 +60,7 @@ That's the honest disqualifier most agencies skip because it costs them a sale.
 We turn SaaS companies away from SEO more often than you'd think. If you don't have product-market fit and a clear ICP yet, SEO will just scale your confusion faster. Fix that first, then we talk search.
 {{< /expert-take >}}
 
-That fit-first conversation is what working with a [SaaS SEO consultant](/saas-seo-agency/seo-consultant/) should feel like: honest about whether SEO is even the right bet before anyone signs.
+That fit-first conversation is what working with a [SaaS SEO consultant](/saas-seo-agency/seo-consultant/) should feel like: honest about whether SEO is even the right bet before anyone signs. If you're comparing independent operators, our [best SaaS SEO experts](/list/saas-seo-experts/) roundup is a reasonable place to start.
 
 The teams SaaS SEO works for share three traits. They know who their buyer is. They have a product that visibly solves a researched problem. And they can commit to a 9 to 12 month horizon, because that's when organic starts outpacing paid on cost per qualified lead.
 
@@ -120,7 +120,7 @@ Search no longer ends at a [SERP](/glossary/what-is-serp/). ChatGPT, Perplexity,
 
 This is mainstream. At Google I/O 2026, the company reported AI Overviews at roughly 2.5 billion monthly users and its conversational AI Mode at around 1 billion, so most of your buyers already meet an AI-generated answer before a blue link.
 
-Generative Engine Optimisation, Answer Engine Optimisation, and Large Language Model Optimisation are three names for adapting to that shift. For SaaS, it changes who gets discovered and why.
+Generative Engine Optimisation, Answer Engine Optimisation, and Large Language Model Optimisation are three names for adapting to that shift. For SaaS, it changes who gets discovered and why. Teams hiring this out rather than building it in-house can start with our [best SaaS LLMO agencies](/list/best-saas-llmo-agencies/) roundup.
 
 ![The AI search layer for SaaS: visible answer engines on top, a retrieval and ranking layer beneath, sitting on entity and authority signals.](/images/blog-infographics/saas-seo-ai-search-layer.webp)
 
@@ -163,7 +163,7 @@ The strategy itself is short to state and long to execute. In order:
 
 The sequence is the point. Most teams start in the middle and wonder why nothing compounds.
 
-The full step-by-step version, with the order to run each step, B2B examples, and the "what not to do" at every stage, lives in our [complete 8-step SaaS SEO strategy framework](/blogs/saas-seo-strategies-and-framework/). Treat this guide as the map and that one as the route.
+The full step-by-step version, with the order to run each step, B2B examples, and the "what not to do" at every stage, lives in our [complete 8-step SaaS SEO strategy framework](/blogs/saas-seo-strategies-and-framework/). Treat this guide as the map and that one as the route. For the specific signals Google weighs at each step, see our [Google ranking factors for SaaS](/blogs/google-ranking-factors-saas/) breakdown.
 
 ## How Do You Measure SaaS SEO?
 
@@ -191,6 +191,8 @@ The 2026 stack is more crowded than the 2020 version, but the core stays small. 
 | On-page content optimisation | Clearscope, Surfer SEO, Frase, MarketMuse |
 | AI visibility and citation tracking | Ahrefs Brand Radar, Semrush AI Visibility Toolkit, Profound, Otterly |
 | Intent data | 6sense, Bombora, Clearbit, ZoomInfo, RB2B |
+
+The AI-visibility row moves fastest of the six; our [best AI visibility tools](/list/best-ai-visibility-tools/) roundup tracks which ones are worth the subscription right now.
 
 Weighing the two directly? See our neutral [MarketMuse vs Clearscope](/compare/marketmuse-vs-clearscope/) breakdown.
 

@@ -83,7 +83,7 @@ Note: don't over-trust a single touch. A lead that became an MQL right after a p
 
 ## Step 3: Score Leads by the Content They Actually Read
 
-Stop treating every lead as equal the second they fill a form. The content a person consumes before they raise their hand is one of the cleanest qualification signals you have, and most teams leave it sitting in their analytics unused.
+Stop treating every lead as equal the second they fill a form. The content a person consumes before they raise their hand is one of the cleanest qualification signals you have, and most teams leave it sitting in their analytics unused. If you want a dollar figure to weight leads against, our free [lead value calculator](/tools/lead-value-calculator/) works from your own conversion and deal-size data.
 
 The framing our team keeps coming back to: stop chasing traffic, start chasing signals. The work isn't to maximise sessions. It's to feed lead-scoring signals, who visited, which pages, how often, into how you qualify and prioritise a lead.
 

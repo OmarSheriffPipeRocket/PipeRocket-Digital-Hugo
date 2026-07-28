@@ -60,7 +60,7 @@ Influence channels don't close deals on the spot. They shape a buyer's decision 
 
 That's exactly why influence channels get funded second, not first. You need a capture layer already running so the demand these channels create somewhere lands and converts. Turn on LinkedIn before Search is working and you'll spend real money warming up buyers who then convert on a Google campaign you haven't properly funded, or worse, on a competitor's.
 
-For accounts selling into named accounts or a small number of high-value targets, [ABM-style paid](/blogs/abm-for-saas-paid-playbook/) belongs in this layer too, funded once you know which accounts are worth the spend, not before.
+For accounts selling into named accounts or a small number of high-value targets, [ABM-style paid](/blogs/abm-for-saas-paid-playbook/) belongs in this layer too, funded once you know which accounts are worth the spend, not before. For the specific search-versus-social tradeoff, see our [paid search vs paid social](/blogs/paid-search-vs-paid-social-for-saas/) breakdown.
 
 ### When AI Ad Surfaces Earn a Budget Line
 

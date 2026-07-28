@@ -254,7 +254,7 @@ Financial-services buyers lean on AI to research, yet AI referral volume stays s
 
 ## AI Search Statistics for HealthTech and Healthcare
 
-Healthcare has the highest AI Overview exposure of any industry, and consumers now bring health questions to ChatGPT at massive scale. [HealthTech marketing](/healthtech-marketing-agency/) has to account for both.
+Healthcare has the highest AI Overview exposure of any industry, and consumers now bring health questions to ChatGPT at massive scale. [HealthTech marketing](/healthtech-marketing-agency/) has to account for both, whether you run it in-house or vet it against our [best HealthTech marketing agencies](/list/best-healthtech-marketing-agencies/) roundup.
 
 - More than **40 million people ask ChatGPT healthcare questions every day**, and 1 in 4 of its 800 million weekly users sends a health prompt each week. ([OpenAI, January 2026](https://cdn.openai.com/pdf/2cb29276-68cd-4ec6-a5f4-c01c5e7a36e9/OpenAI-AI-as-a-Healthcare-Ally-Jan-2026.pdf))
 - **3 in 5 US adults** used AI for health questions in the past three months, with 55% examining symptoms and 48% understanding medical terms. ([OpenAI via Healthcare Dive, January 2026](https://www.healthcaredive.com/news/40-million-use-chatgpt-health-questions-openai/808861/))
@@ -264,7 +264,7 @@ Healthcare has the highest AI Overview exposure of any industry, and consumers n
 
 ## AI Search Statistics for Cybersecurity
 
-Cybersecurity is where AI-search invisibility is most brutal: most vendors simply do not get cited. Our [cybersecurity marketing team](/cybersecurity-marketing-agency/) treats AI citation as a category-defense problem.
+Cybersecurity is where AI-search invisibility is most brutal: most vendors simply do not get cited. Our [cybersecurity marketing team](/cybersecurity-marketing-agency/) treats AI citation as a category-defense problem, and it's worth the same scrutiny whichever [cybersecurity marketing agency](/list/best-cybersecurity-marketing-agencies/) you're evaluating.
 
 - **73% of cybersecurity vendors tested received zero ChatGPT citations** when buyers asked for category recommendations, across 250 buyer-intent prompts on six AI platforms. ([GrackerAI, February 2026](https://gracker.ai/data-and-research-reports/state-of-ai-search-visibility-cybersecurity-2026))
 - **48% of ChatGPT's cybersecurity citations come from Wikipedia** and about 11% from Reddit, not analyst reports or vendor sites. ([GrackerAI, February 2026](https://gracker.ai/data-and-research-reports/state-of-ai-search-visibility-cybersecurity-2026))
@@ -273,7 +273,7 @@ Cybersecurity is where AI-search invisibility is most brutal: most vendors simpl
 
 ## AI Search Statistics for LegalTech
 
-Legal teams went from cautious to committed on generative AI in a single year, which reshapes how LegalTech buyers evaluate tools. See our [LegalTech marketing approach](/legaltech-marketing-agency/) for context.
+Legal teams went from cautious to committed on generative AI in a single year, which reshapes how LegalTech buyers evaluate tools. See our [LegalTech marketing approach](/legaltech-marketing-agency/) for context, or compare it against our [best LegalTech marketing agencies](/list/best-legaltech-marketing-agencies/) roundup if you're vetting outside help.
 
 - **87% of general counsel now report generative-AI use** in their legal teams, up from 44% a year earlier. ([FTI Consulting and Relativity, March 2026](https://www.fticonsulting.com/about/newsroom/press-releases/ai-adoption-in-corporate-legal-departments-doubles-according-to-the-general-counsel-report))
 - The top legal GenAI use cases are **summarization (83%), clause identification (63%), and transcription (53%)**. ([FTI and Relativity, March 2026](https://www.fticonsulting.com/about/newsroom/press-releases/ai-adoption-in-corporate-legal-departments-doubles-according-to-the-general-counsel-report))
@@ -281,7 +281,7 @@ Legal teams went from cautious to committed on generative AI in a single year, w
 
 ## AI Search Statistics for MarTech
 
-MarTech teams are adopting AI agents faster than they are adapting content for AI search, leaving a visible readiness gap. Our [MarTech marketing team](/martech-marketing-agency/) closes it.
+MarTech teams are adopting AI agents faster than they are adapting content for AI search, leaving a visible readiness gap. Our [MarTech marketing team](/martech-marketing-agency/) closes it — if you're shortlisting outside help instead, our [best MarTech marketing agencies](/list/best-martech-marketing-agencies/) roundup is a good starting point.
 
 - **90.3% of marketing organizations use AI agents** somewhere in their stack, but only 23.3% have moved them into full production. ([Scott Brinker, Martech for 2026](https://martech.zone/martech-for-2026/))
 - **63% of marketing leaders recognize buyers have shifted to AI assistants**, yet only 14% have adapted their content strategy. ([Incubeta via Martech for 2026](https://martech.zone/martech-for-2026/))

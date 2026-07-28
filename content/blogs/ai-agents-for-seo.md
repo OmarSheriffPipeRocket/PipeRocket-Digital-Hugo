@@ -130,7 +130,7 @@ For the wider SEO program this fits into, our guide to [SaaS SEO](https://pipero
 
 ## How PipeRocket Helps SaaS Teams Adopt AI Agents the Right Way
 
-We build the review layer most teams skip: scoping what an agent touches, checking its diagnosis against real data, and keeping publish decisions with a person. That's part of our [SaaS SEO](https://piperocket.digital/saas-seo-agency/) work for teams adding agent-driven tools to an existing program. Want a second opinion on where an agent fits in your stack? [Get in touch](https://piperocket.digital/contact-us/).
+We build the review layer most teams skip: scoping what an agent touches, checking its diagnosis against real data, and keeping publish decisions with a person. That's part of our [AI SEO services](https://piperocket.digital/ai-seo-services/) for teams adding agent-driven tools to an existing program. Want a second opinion on where an agent fits in your stack? [Get in touch](https://piperocket.digital/contact-us/).
 
 ## Frequently Asked Questions
 

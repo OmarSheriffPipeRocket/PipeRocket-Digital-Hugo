@@ -34,7 +34,7 @@ Acquisition metrics answer one question: what does it cost to get a customer, an
 
 ### Customer acquisition cost (CAC)
 
-CAC is your fully loaded cost to acquire one customer: ad spend, tools, agency fees, and the salaries of the people doing the work, divided by the number of new customers in the period. The number most teams report is cost per lead, then they call it CAC. That's the miscalculation that hides a broken funnel, because cheap leads that never convert make acquisition look efficient when it isn't.
+CAC is your fully loaded cost to acquire one customer: ad spend, tools, agency fees, and the salaries of the people doing the work, divided by the number of new customers in the period. The number most teams report is cost per lead, then they call it CAC. That's the miscalculation that hides a broken funnel, because cheap leads that never convert make acquisition look efficient when it isn't. Run your own numbers through our free [CAC calculator](/tools/cac-calculator/) to see where you actually land.
 
 ### CAC payback period
 
@@ -70,7 +70,7 @@ These are the metrics a CFO and a board actually care about, and marketing shoul
 
 ### MRR and ARR
 
-Monthly and annual recurring revenue are the base everything else ladders up to. MRR is the predictable subscription revenue you book each month, and [ARR](/glossary/what-is-arr/) is its annualized form. Marketing's job is to show its contribution to new and expansion MRR, not just to count the leads that fed it.
+Monthly and annual recurring revenue are the base everything else ladders up to. MRR is the predictable subscription revenue you book each month, and [ARR](/glossary/what-is-arr/) is its annualized form. Marketing's job is to show its contribution to new and expansion MRR, not just to count the leads that fed it. Our free [MRR & ARR calculator](/tools/mrr-arr-calculator/) does the conversion for you.
 
 ### Customer lifetime value and LTV:CAC
 
