@@ -135,7 +135,7 @@ Best for: B2B SaaS teams that want Bing Ads bundled with SEO and pipeline report
 | Notable Clients | Storylane, Spendflo, HyperVerge, HyperStart, [DevRev](/case-study/devrev/), CyberSierra |
 | Specialization | B2B SaaS only, SEO + PPC in one retainer |
 
-**The Differentiation:** We're the only agency on this list that packages Microsoft Ads, Google Ads, and SEO into a single retainer with pipeline reporting (MQL, CAC, pipeline value) from week four. No setup fee, no markup on ad spend, no junior handoff. Every account runs through a strategist, paid media lead, SEO lead, and content strategist.
+**The Differentiation:** We're the only agency on this list that packages Microsoft Ads, Google Ads, and SEO into a single retainer with pipeline reporting (MQL, CAC, pipeline value) from week four. No setup fee, no markup on ad spend, no junior handoff. Every account runs through a strategist, paid media lead, SEO lead, and content strategist. If Google Ads is the bigger piece of your budget, our [best B2B Google Ads agencies](/list/best-b2b-google-ads-agencies/) roundup covers that channel specifically.
 
 - ICP-led campaign architecture across Google and Microsoft Ads, not keyword spray.
 - Pipeline reporting wired into HubSpot or Salesforce from week four.

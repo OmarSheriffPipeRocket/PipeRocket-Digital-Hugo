@@ -70,7 +70,7 @@ For a deeper look at how technical issues compound across larger organizations, 
 | Issue | What to check | What it costs if unresolved |
 | --- | --- | --- |
 | JavaScript rendering | SSR configuration for all public-facing pages | Product pages and blog content invisible to Google’s crawler |
-| Core Web Vitals | LCP under 2.5s, INP under 200ms, [CLS](/glossary/what-is-cls/) under 0.1 | Rankings suppressed, bounce rates elevated |
+| Core Web Vitals | LCP under 2.5s, [INP](/glossary/what-is-fid/) under 200ms, [CLS](/glossary/what-is-cls/) under 0.1 | Rankings suppressed, bounce rates elevated |
 | Crawl depth | No high-value page more than 3 clicks from homepage | Key content deprioritized and under-indexed |
 | [Canonical tags](/glossary/what-is-a-canonical-tag/) | Correct canonical on every page, no self-referencing errors | Link equity split across duplicate content |
 | Sitemap accuracy | Clean, submitted to [Google Search Console](/glossary/what-is-google-search-console/), updated automatically | Newly published content taking weeks to index |

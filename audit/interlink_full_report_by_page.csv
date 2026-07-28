@@ -2087,7 +2087,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""internal links"" -> /blogs/how-to-use-internal-linking/
 ""comparison page"" -> /blogs/how-to-write-saas-comparison-pages-for-seo/
 ""SEO"" -> /glossary/what-is-seo/"
-/blogs/how-to-do-geo-for-saas/,blog,GEO and AEO for SaaS: How to Win AI Search With One Playbook,19,13,,"""complete GEO and AEO playbook"" <- /blogs/aeo-vs-geo/
+/blogs/how-to-do-geo-for-saas/,blog,GEO and AEO for SaaS: How to Win AI Search With One Playbook,19,14,,"""complete GEO and AEO playbook"" <- /blogs/aeo-vs-geo/
 ""GEO and AEO playbook for SaaS"" <- /blogs/aeo-vs-geo/
 ""Answer Engine Optimization"" <- /blogs/ai-search-optimization-for-saas/
 ""Generative engine optimization"" <- /blogs/ai-seo-strategy-and-framework/
@@ -2116,6 +2116,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""AI Overviews"" -> /glossary/what-is-an-ai-overview/
 ""LLM"" -> /glossary/what-is-an-llm/
 ""generative engine optimization"" -> /glossary/what-is-geo/
+""GPT"" -> /glossary/what-is-gpt/
 ""SEO"" -> /glossary/what-is-seo/
 ""AI SEO consultant"" -> /saas-seo-agency/ai-seo-consultant/"
 /blogs/how-to-do-keyword-gap-analysis/,blog,How to Do a Keyword Gap Analysis vs SaaS Competitors,2,11,,"""How to run a keyword gap analysis"" <- /blogs/how-to-do-saas-seo-keyword-research/
@@ -2508,7 +2509,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""domain authority"" -> /glossary/what-is-domain-authority/
 ""SERP"" -> /glossary/what-is-serp/
 ""Technical SEO"" -> /glossary/what-is-technical-seo/"
-/blogs/how-to-rank-mofu-keywords-saas/,blog,How to Rank MOFU Keywords for SaaS,4,15,,"""MOFU"" <- /blogs/how-to-build-topic-clusters/
+/blogs/how-to-rank-mofu-keywords-saas/,blog,How to Rank MOFU Keywords for SaaS,4,16,,"""MOFU"" <- /blogs/how-to-build-topic-clusters/
 ""How to rank MOFU keywords for SaaS"" <- /blogs/how-to-do-saas-seo-keyword-research/
 ""How to rank MOFU keywords"" <- /blogs/how-to-rank-bofu-keywords-saas/
 ""how to rank MOFU keywords for SaaS"" <- /glossary/what-is-a-commercial-keyword/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
@@ -2524,6 +2525,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""Comparison pages"" -> /blogs/how-to-write-saas-comparison-pages-for-seo/
 ""keyword type breakdown"" -> /blogs/types-of-keywords-in-seo/
 ""landing pages"" -> /glossary/what-is-a-landing-page/
+""hallucinate"" -> /glossary/what-is-ai-hallucination/
 ""ICP definition"" -> /glossary/what-is-icp/
 ""SERP"" -> /glossary/what-is-serp/"
 /blogs/how-to-rank-new-saas-site/,blog,How to Rank a New SaaS Site With Low Domain Authority,4,9,,"""new SaaS site"" <- /blogs/how-to-prioritize-saas-keywords-by-funnel-stage/
@@ -3424,7 +3426,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""Reddit Ads"" <- /list/best-reddit-ads-agencies/","""Vishnu Prasadh"" -> /author/vishnu-prasad/
 ""bottom-of-funnel"" -> /blogs/how-to-rank-bofu-keywords-saas/
 ""ICP"" -> /glossary/what-is-icp/"
-/blogs/saas-seo-strategies-and-framework/,blog,SaaS SEO Strategies: Complete 8-step Framework for 2026,7,30,,"""SaaS SEO 8-step framework"" <- /blogs/b2b-saas-seo/
+/blogs/saas-seo-strategies-and-framework/,blog,SaaS SEO Strategies: Complete 8-step Framework for 2026,7,31,,"""SaaS SEO 8-step framework"" <- /blogs/b2b-saas-seo/
 ""SaaS SEO strategies guide"" <- /blogs/enterprise-saas-seo-guide/
 ""SaaS SEO strategies guide"" <- /blogs/enterprise-seo-challenges-and-fixes/
 ""SaaS SEO 8-step framework"" <- /blogs/how-to-do-saas-content-audit/
@@ -3450,6 +3452,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""CLS"" -> /glossary/what-is-cls/
 ""conversion rate"" -> /glossary/what-is-conversion-rate/
 ""domain authority"" -> /glossary/what-is-domain-authority/
+""INP"" -> /glossary/what-is-fid/
 ""Google Search Console"" -> /glossary/what-is-google-search-console/
 ""ICP"" -> /glossary/what-is-icp/
 ""Keyword research"" -> /glossary/what-is-keyword-research/
@@ -5347,7 +5350,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""Rank trackers"" -> /list/best-rank-tracking-tools-for-saas/
 ""best SaaS SEO agencies"" -> /list/best-saas-seo-agencies/
 ""AEO agency for SaaS"" -> /saas-seo-agency/ai-seo-services/"
-/glossary/what-is-ai-hallucination/,glossary,"What Is AI Hallucination? Meaning, Dangers & How to Spot It",0,7,YES,,"""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
+/glossary/what-is-ai-hallucination/,glossary,"What Is AI Hallucination? Meaning, Dangers & How to Spot It",1,7,,"""hallucinate"" <- /blogs/how-to-rank-mofu-keywords-saas/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
 ""LLM"" -> /glossary/what-is-an-llm/
 ""retrieval-augmented generation"" -> /glossary/what-is-rag/
 ""best B2B marketing agencies for SaaS and tech companies"" -> /list/best-b2b-marketing-agencies/
@@ -5820,7 +5823,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""how top SaaS marketing agencies structure evergreen content"" -> /list/best-saas-marketing-agencies-2026/
 ""best SaaS SEO agencies"" -> /list/best-saas-seo-agencies/
 ""SaaS SEO agency"" -> /saas-seo-agency/"
-/glossary/what-is-fid/,glossary,"What Is FID? Field Data, SEO Impact & Why Most Teams Get It Wrong",0,9,YES,,"""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
+/glossary/what-is-fid/,glossary,"What Is FID? Field Data, SEO Impact & Why Most Teams Get It Wrong",1,9,,"""INP"" <- /blogs/saas-seo-strategies-and-framework/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
 ""A/B testing"" -> /glossary/what-is-ab-testing/
 ""ICP"" -> /glossary/what-is-icp/
 ""SEO"" -> /glossary/what-is-seo/
@@ -5950,7 +5953,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""See which SaaS PPC agencies build GTM into their ad ops stack"" -> /list/best-saas-ppc-agencies/
 ""How the top SaaS SEO agencies use GTM for tracking and reporting"" -> /list/best-saas-seo-agencies/
 ""How SaaS PPC management teams integrate GTM with Google Ads and analytics"" -> /saas-ppc/"
-/glossary/what-is-gpt/,glossary,What is GPT? A Clear Guide to Generative AI and Business Impact,0,7,YES,,"""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
+/glossary/what-is-gpt/,glossary,What is GPT? A Clear Guide to Generative AI and Business Impact,1,7,,"""GPT"" <- /blogs/how-to-do-geo-for-saas/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
 ""LLM"" -> /glossary/what-is-an-llm/
 ""prompt engineering"" -> /glossary/what-is-prompt-engineering/
 ""B2B marketing agency strategies for AI-assisted content"" -> /list/best-b2b-marketing-agencies/
@@ -6290,10 +6293,11 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""SaaS PPC agency"" -> /list/best-saas-ppc-agencies/
 ""best SaaS SEO agencies"" -> /list/best-saas-seo-agencies/
 ""SaaS PPC services"" -> /saas-ppc/"
-/glossary/what-is-programmatic-advertising/,glossary,What Is Programmatic Advertising,0,8,YES,,"""Praveen Ravi"" -> /author/praveen-ravi/
+/glossary/what-is-programmatic-advertising/,glossary,What Is Programmatic Advertising,0,9,YES,,"""Praveen Ravi"" -> /author/praveen-ravi/
 ""creative testing"" -> /blogs/saas-creative-testing/
 ""ABM"" -> /glossary/what-is-abm/
 ""ICP"" -> /glossary/what-is-icp/
+""Supply-side platforms"" -> /glossary/what-is-ssp/
 ""top B2B PPC agencies for high-control programmatic campaigns"" -> /list/best-affordable-b2b-ppc-agencies/
 ""best B2B marketing agencies for programmatic strategy"" -> /list/best-b2b-marketing-agencies/
 ""best SaaS PPC agencies for automated ad buying"" -> /list/best-saas-ppc-agencies/
@@ -6649,7 +6653,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""best SaaS PPC agencies for results-driven paid search"" -> /list/best-saas-ppc-agencies/
 ""best SaaS SEO agencies"" -> /list/best-saas-seo-agencies/
 ""SaaS SEO agency list for technical SEO support"" -> /list/best-saas-seo-agencies/"
-/glossary/what-is-ssp/,glossary,What Is SSP,0,6,YES,,"""Praveen Ravi"" -> /author/praveen-ravi/
+/glossary/what-is-ssp/,glossary,What Is SSP,1,6,,"""Supply-side platforms"" <- /glossary/what-is-programmatic-advertising/","""Praveen Ravi"" -> /author/praveen-ravi/
 ""top SaaS marketing companies for ad monetization strategy"" -> /list/best-saas-marketing-agencies-2026/
 ""best SaaS PPC agencies for maximizing programmatic ad revenue"" -> /list/best-saas-ppc-agencies/
 ""SaaS SEO agency list to improve organic traffic monetization"" -> /list/best-saas-seo-agencies/
@@ -6791,7 +6795,8 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""PipeRocket Digital"" -> /saas-ppc/
 ""SaaS PPC"" -> /saas-ppc/"
-/list/best-abm-agencies/,listicle,9 Best ABM Agencies: An Honest 2026 Review,0,10,YES,,"""best Directive Consulting alternatives"" -> /alternative/directive-consulting-alternatives/
+/list/best-abm-agencies/,listicle,9 Best ABM Agencies: An Honest 2026 Review,2,11,,"""best ABM agencies"" <- /list/best-linkedin-marketing-agencies/
+""best ABM agencies"" <- /list/best-reddit-ads-agencies/","""best Directive Consulting alternatives"" -> /alternative/directive-consulting-alternatives/
 ""best Refine Labs alternatives"" -> /alternative/refine-labs-alternatives/
 ""Praveen Ravi"" -> /author/praveen-ravi/
 ""paid ABM"" -> /blogs/abm-for-saas-paid-playbook/
@@ -6799,6 +6804,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""social proof"" -> /blogs/saas-social-proof/
 ""DevRev"" -> /case-study/devrev/
 ""PipeRocket vs Directive Consulting"" -> /compare/piperocket-vs-directive-consulting/
+""best LinkedIn marketing agencies"" -> /list/best-linkedin-marketing-agencies/
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""SEO and ABM-oriented paid media"" -> /saas-seo-agency/"
 /list/best-abm-platforms/,listicle,Best 8 ABM Platforms for B2B SaaS Teams: An Honest 2026 Review,1,6,,"""ABM platforms"" <- /blogs/saas-abm-strategy/","""account-based marketing agency"" -> /account-based-marketing-agency/
@@ -6986,7 +6992,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""B2B demand generation"" -> /saas-ppc/
 ""SaaS SEO"" -> /saas-seo-agency/
 ""net revenue retention"" -> /tools/nrr-calculator/"
-/list/best-b2b-google-ads-agencies/,listicle,My Picks For The 11 Best B2B Google Ads Agencies in 2026,11,27,,"""B2B Google Ads agency"" <- /glossary/what-is-abm/
+/list/best-b2b-google-ads-agencies/,listicle,My Picks For The 11 Best B2B Google Ads Agencies in 2026,12,28,,"""B2B Google Ads agency"" <- /glossary/what-is-abm/
 ""how the top B2B Google Ads agencies track and optimize CPC"" <- /glossary/what-is-cost-per-click/
 ""how top B2B Google Ads agencies optimize CPA for SaaS"" <- /glossary/what-is-cpa/
 ""top B2B Google Ads agencies for SaaS demand gen"" <- /glossary/what-is-cpm/
@@ -6996,7 +7002,8 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""B2B Google Ads agency"" <- /glossary/what-is-roas/
 ""how B2B Google Ads agencies use schema to boost quality scores"" <- /glossary/what-is-schema-markup/
 ""best B2B Google Ads agencies for SaaS pipeline growth"" <- /glossary/what-is-sem/
-""best B2B Google Ads agencies navigating first-party data transitions"" <- /glossary/what-is-third-party-cookies/","""Directive Consulting alternatives"" -> /alternative/directive-consulting-alternatives/
+""best B2B Google Ads agencies navigating first-party data transitions"" <- /glossary/what-is-third-party-cookies/
+""best B2B Google Ads agencies"" <- /list/best-bing-ads-agencies/","""Directive Consulting alternatives"" -> /alternative/directive-consulting-alternatives/
 ""best KlientBoost alternatives"" -> /alternative/klientboost-alternatives/
 ""best SimpleTiger alternatives"" -> /alternative/simpletiger-alternatives/
 ""best Single Grain alternatives"" -> /alternative/single-grain-alternatives/
@@ -7018,6 +7025,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""$5,000/mo"" -> /contact-us/
 ""pipeline audit and ICP analysis"" -> /contact-us/
 ""performance marketing"" -> /glossary/what-is-performance-marketing/
+""best Bing Ads agencies"" -> /list/best-bing-ads-agencies/
 ""performance marketing agencies guide"" -> /list/top-performance-marketing-agencies/
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""SaaS PPC campaigns"" -> /saas-ppc/
@@ -7170,13 +7178,14 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""rank tracking"" -> /list/best-rank-tracking-tools-for-saas/
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""Google penalty"" -> /tools/google-penalty-checker/"
-/list/best-bing-ads-agencies/,listicle,9 Best Bing Ads Agencies: An Honest 2026 Review,0,8,YES,,"""best Directive Consulting alternatives"" -> /alternative/directive-consulting-alternatives/
+/list/best-bing-ads-agencies/,listicle,9 Best Bing Ads Agencies: An Honest 2026 Review,1,9,,"""best Bing Ads agencies"" <- /list/best-b2b-google-ads-agencies/","""best Directive Consulting alternatives"" -> /alternative/directive-consulting-alternatives/
 ""Sabarish Chandrasekar"" -> /author/sabarish-chandrasekar/
 ""Bing Ads agency"" -> /bing-ads-agency/
 ""Microsoft Advertising"" -> /blogs/microsoft-ads-for-saas/
 ""social proof"" -> /blogs/saas-social-proof/
 ""DevRev"" -> /case-study/devrev/
 ""PipeRocket vs Directive Consulting"" -> /compare/piperocket-vs-directive-consulting/
+""best B2B Google Ads agencies"" -> /list/best-b2b-google-ads-agencies/
 ""our research methodology and editorial policy"" -> /research-methodology/"
 /list/best-content-optimization-tools/,listicle,7 Best Content Optimization Tools for SaaS (2026),1,8,,"""AI content optimization tools"" <- /blogs/ai-search-optimization-for-saas/","""Kamaraj Mathiarasan (Kim)"" -> /author/kamaraj-mathiarasan/
 ""keyword clustering"" -> /blogs/how-to-cluster-keywords-for-saas/
@@ -7426,13 +7435,15 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""SaaS link building"" -> /blogs/saas-link-building/
 ""Backlink Checker"" -> /list/best-backlink-analysis-tools/
 ""our research methodology and editorial policy"" -> /research-methodology/"
-/list/best-linkedin-marketing-agencies/,listicle,10 LinkedIn Marketing Agencies Ranked in 2026,1,12,,"""11 LinkedIn Marketing Agencies Ranked in 2026"" <- /research-methodology/","""top Refine Labs alternatives"" -> /alternative/refine-labs-alternatives/
+/list/best-linkedin-marketing-agencies/,listicle,10 LinkedIn Marketing Agencies Ranked in 2026,2,13,,"""best LinkedIn marketing agencies"" <- /list/best-abm-agencies/
+""11 LinkedIn Marketing Agencies Ranked in 2026"" <- /research-methodology/","""top Refine Labs alternatives"" -> /alternative/refine-labs-alternatives/
 ""Praveen Ravi"" -> /author/praveen-ravi/
 ""social proof"" -> /blogs/saas-social-proof/
 ""LeadSquared"" -> /case-study/leadsquared/
 ""Tredence"" -> /case-study/tredence/
 ""Custom pricing"" -> /contact-us/
 ""LinkedIn marketing agency"" -> /linkedin-marketing-agency/
+""best ABM agencies"" -> /list/best-abm-agencies/
 ""marketing ops"" -> /marketing-ops/
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""PPC"" -> /saas-ppc/
@@ -7528,10 +7539,11 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""SERP"" -> /glossary/what-is-serp/
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""SaaS SEO programs"" -> /saas-seo-agency/"
-/list/best-reddit-ads-agencies/,listicle,9 Best Reddit Ads Agencies: An Honest 2026 Review,0,6,YES,,"""best Single Grain alternatives"" -> /alternative/single-grain-alternatives/
+/list/best-reddit-ads-agencies/,listicle,9 Best Reddit Ads Agencies: An Honest 2026 Review,0,7,YES,,"""best Single Grain alternatives"" -> /alternative/single-grain-alternatives/
 ""Vishnu Prasadh"" -> /author/vishnu-prasad/
 ""Reddit Ads"" -> /blogs/saas-reddit-ads/
 ""DevRev"" -> /case-study/devrev/
+""best ABM agencies"" -> /list/best-abm-agencies/
 ""paid social agency page"" -> /paid-social-agency/
 ""our research methodology and editorial policy"" -> /research-methodology/"
 /list/best-saas-content-marketing-agencies/,listicle,10 Best SaaS Content Marketing Agencies for 2026 (Honest Review),1,14,,"""top SaaS content marketing agencies"" <- /blogs/saas-content-marketing-guide/","""Animalz alternatives"" -> /alternative/animalz-alternatives/

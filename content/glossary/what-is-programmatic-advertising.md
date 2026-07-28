@@ -48,7 +48,7 @@ Most teams think programmatic is just a way to buy more impressions for less mon
 Programmatic advertising works by connecting advertisers, publishers, and intermediaries through automated platforms that run real-time auctions for each ad impression. When a user loads a web page or app, available ad spots are instantly auctioned off based on who’s most willing to pay to reach that user, with targeting rules and data signals guiding bids.
 
 - Demand-side platforms (DSPs): Advertisers use DSPs to set budgets, audience targets, and creative assets; the DSP bids on ad slots automatically.
-- Supply-side platforms (SSPs): Publishers use SSPs to make their ad inventory available to programmatic buyers.
+- [Supply-side platforms](/glossary/what-is-ssp/) (SSPs): Publishers use SSPs to make their ad inventory available to programmatic buyers.
 - Ad exchanges: These are marketplaces where DSPs and SSPs meet, running thousands of auctions per second.
 - Data management platforms (DMPs): DMPs store and organize audience data to help target specific users think purchase history, interests, or location.
 - Real-time decisioning: The whole process happens in milliseconds, so the ad you see is the result of a live auction, not a pre-bought slot.

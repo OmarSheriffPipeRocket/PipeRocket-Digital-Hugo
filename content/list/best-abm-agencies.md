@@ -549,7 +549,7 @@ Ledger Bennett does not publish pricing as of June 2026. All engagements are cus
 
 Best for: Early-stage B2B SaaS running LinkedIn-first ABM with 6Sense intent data on a lean budget.
 
-[Scalewell](https://scalewell.consulting/) is a London-based ABM consultancy founded by alumni of WPP, Publicis, and Omnicom. LinkedIn Ads and Google Ads are the primary channels, with 6Sense intent data used to concentrate spend on accounts showing in-market signals.
+[Scalewell](https://scalewell.consulting/) is a London-based ABM consultancy founded by alumni of WPP, Publicis, and Omnicom. LinkedIn Ads and Google Ads are the primary channels, with 6Sense intent data used to concentrate spend on accounts showing in-market signals. If LinkedIn specifically is your main channel rather than one piece of an ABM program, see our [best LinkedIn marketing agencies](/list/best-linkedin-marketing-agencies/) roundup.
 
 **Agency Overview**
 

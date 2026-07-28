@@ -59,7 +59,7 @@ MOFU content ranks for SaaS when it carries something the rest of the SERP doesn
 {{< experience author="kim" >}}
 The fix is the Interview Method we use ourselves. Find someone who's actually done the thing, like a founder or a customer, and sit with them for 30 minutes asking hard questions. Does this actually work? When did it fail? Then turn that conversation into the article.
 
-AI can't hallucinate experience, but it can process yours. Meaningful content is expert input plus AI efficiency plus human verification, and we've run this exact playbook on around ten of our own posts with all of them landing in the top two pages.
+AI can't [hallucinate](/glossary/what-is-ai-hallucination/) experience, but it can process yours. Meaningful content is expert input plus AI efficiency plus human verification, and we've run this exact playbook on around ten of our own posts with all of them landing in the top two pages.
 {{< /experience >}}
 
 For a category-education MOFU query especially, the depth has to be real. A "how does GRC automation work" piece that just restates definitions gets crawled and ignored. One that walks through the actual workflow, the steps a real team takes and the place it usually breaks, earns the dwell time that holds a ranking.

@@ -84,7 +84,7 @@ Make your name, category, and core facts consistent everywhere they appear. AI e
 {{< experience author="vignesh-sampath" title="Getting a client cited by AI through Wikipedia" >}}
 The strongest entity move we run is getting a client listed on Wikipedia, and not for the [backlink](/glossary/what-is-a-backlink/). It's for the credibility. In our experience, Wikipedia shows up constantly in AI citations for competitive B2B queries, so a neutral, fully-cited entry earns trust the engines respect.
 
-I won't pretend it's easy. We failed three or four times before one stuck, because everything has to be neutral and fact-based with no promotional language. Done right, client pages started appearing in GPT and Perplexity citations within weeks.
+I won't pretend it's easy. We failed three or four times before one stuck, because everything has to be neutral and fact-based with no promotional language. Done right, client pages started appearing in [GPT](/glossary/what-is-gpt/) and Perplexity citations within weeks.
 {{< /experience >}}
 
 ### Publish first-party data worth quoting

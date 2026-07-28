@@ -147,7 +147,7 @@ Best for: B2B SaaS Teams That Need Google Ads Campaigns Engineered for SQLs and 
 
 {{< agency-triptych slug="piperocket-digital" name="PipeRocket Digital" >}}
 
-I built [PipeRocket Digital](/) to solve a specific problem: B2B companies wasting ad spend on clicks that never convert to pipeline. Our [SaaS PPC campaigns](/saas-ppc/) connect Google Ads data directly to CRM insights, giving full visibility from first click to closed deal, with every dollar measured against revenue rather than vanity metrics.
+I built [PipeRocket Digital](/) to solve a specific problem: B2B companies wasting ad spend on clicks that never convert to pipeline. Our [SaaS PPC campaigns](/saas-ppc/) connect Google Ads data directly to CRM insights, giving full visibility from first click to closed deal, with every dollar measured against revenue rather than vanity metrics. We run Microsoft Ads under the same model — see our [best Bing Ads agencies](/list/best-bing-ads-agencies/) roundup if that's a channel you're weighing too.
 
 **Vitals**
 
