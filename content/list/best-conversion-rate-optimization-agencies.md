@@ -208,7 +208,7 @@ We're a [B2B SaaS SEO and PPC agency](/saas-seo-agency/) that does CRO as part o
 
 **Wrong Profile:** Teams that need a standalone CRO program: a dedicated experimentation roadmap, UX research, onboarding flow optimization, or pricing-page A/B testing independent of a paid or SEO retainer. We don't offer that as a separate service.
 
-**What Sets Us Apart:** Our CRO work is pipeline-anchored. Every landing page test is evaluated against MQL and CAC targets, not just conversion rate in isolation. A page that lifts click-through but attracts unqualified leads is a failed test in our framework, not a win.
+**What Sets Us Apart:** Our CRO work is pipeline-anchored. Every landing page test is evaluated against MQL and CAC targets, not just [conversion rate](/tools/conversion-rate-calculator/) in isolation. A page that lifts click-through but attracts unqualified leads is a failed test in our framework, not a win.
 
 - Signup-flow and ad landing page testing tied to MQL and pipeline value reporting
 - Single retainer covers SEO, PPC, and conversion testing: no coordination overhead between agencies

@@ -80,7 +80,7 @@ The widely cited rule of thumb is 3:1, meaning a customer is worth roughly three
 
 ### Net revenue retention and churn
 
-Churn is the revenue you lose from cancellations and downgrades, and [net revenue retention](/tools/nrr-calculator/) (NRR) folds in expansion from existing customers. NRR above 100% means your installed base grows even if you add no new customers, which is why retention often beats acquisition as a SaaS growth lever. A leaky bucket doesn't get fixed by pouring in more leads, and these two metrics are what expose the leak.
+Churn is the revenue you lose from cancellations and downgrades, and [net revenue retention](/tools/nrr-calculator/) ([NRR](/glossary/what-is-nrr/)) folds in expansion from existing customers. NRR above 100% means your installed base grows even if you add no new customers, which is why retention often beats acquisition as a SaaS growth lever. A leaky bucket doesn't get fixed by pouring in more leads, and these two metrics are what expose the leak.
 
 ## The Vanity Metrics to Stop Reporting
 

@@ -899,9 +899,40 @@ LINK_MAP = [
     ("Goldcast", "/case-study/goldcast/", True, "P1"),
     ("LeadSquared", "/case-study/leadsquared/", True, "P1"),
     ("Tredence", "/case-study/tredence/", True, "P1"),
+
+    # ---- 2026-07-27 batch 2: de-orphan glossary/blog/listicle targets with
+    # verified natural anchor mentions (no-linkmap-content bucket) ----
+    ("navigational keyword", "/glossary/what-is-a-navigational-keyword/", False, "P2"),
+    ("brand identity", "/glossary/what-is-brand-identity/", False, "P2"),
+    ("brand positioning", "/glossary/what-is-brand-positioning/", False, "P2"),
+    ("crawling", "/glossary/what-is-crawling/", False, "P2"),
+    ("Google Tag Manager", "/glossary/what-is-google-tag-manager/", False, "P2"),
+    ("keyword difficulty", "/glossary/what-is-keyword-difficulty/", False, "P2"),
+    ("NRR", "/glossary/what-is-nrr/", True, "P2"),
+    ("programmatic advertising", "/glossary/what-is-programmatic-advertising/", False, "P2"),
+    ("runway", "/glossary/what-is-runway/", False, "P2"),
+    ("SAL", "/glossary/what-is-sal-in-saas/", True, "P2"),
+    ("SEM", "/glossary/what-is-sem/", True, "P2"),
+    ("SSL", "/glossary/what-is-ssl-certificate/", True, "P2"),
+    ("third-party cookies", "/glossary/what-is-third-party-cookies/", False, "P2"),
+    ("SaaS content strategy", "/blogs/saas-content-strategy/", False, "P1"),
+    ("SaaS paid media strategy", "/blogs/saas-paid-media-strategy/", False, "P1"),
+    ("paid media strategy", "/blogs/saas-paid-media-strategy/", False, "P1"),
+    ("top B2B PPC agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),
+    ("B2B PPC agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),
 ]
 
 PRIORITY_ORDER = {"P0": 0, "P1": 1, "P2": 2}
+
+# Known compound-name collisions: skip a phrase match when immediately
+# followed by one of these strings (case-insensitive) — the phrase is part
+# of a longer proper noun, not the generic term it usually is. e.g. "conversion
+# rate" inside the real agency name "Conversion Rate Experts" (confirmed
+# recurring on 2026-07-27 whenever add_interlinks.py re-runs on that listicle,
+# since the target isn't "already linked" there once the bad wrap is removed).
+ANCHOR_SUFFIX_EXCLUSIONS = {
+    "conversion rate": (" experts", " optimization"),
+}
 
 # Optional content cluster map. If clusters_generated.py is present, the
 # applier will promote same-cluster (source→target) candidates to P0
@@ -1179,11 +1210,16 @@ def process_file(filepath: Path, skip_faq: bool = False, word_gate: int = WORD_G
             continue
         flags = 0 if case_sensitive else re.IGNORECASE
         pat = re.compile(r"\b" + re.escape(anchor) + r"\b", flags)
+        suffix_exclusions = ANCHOR_SUFFIX_EXCLUSIONS.get(anchor.lower())
         for m in pat.finditer(body):
             s, e = m.start(), m.end()
             if overlaps(s, e, protected):     continue
             if overlaps(s, e, claimed_char_spans): continue
             if skip_faq and overlaps(s, e, excluded_sections): continue
+            if suffix_exclusions:
+                lookahead = body[e:e + max(len(x) for x in suffix_exclusions)].lower()
+                if lookahead.startswith(suffix_exclusions):
+                    continue
             # Listicle "after the 5th entry" check (rules 6/7)
             if flow == "after_5th":
                 if fifth_offset is None or s < fifth_offset:

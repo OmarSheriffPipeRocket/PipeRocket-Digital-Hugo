@@ -143,7 +143,7 @@ Best for: B2B SaaS GEO/AEO connected to pipeline, demos, and MRR
 | Location | India and US |
 | Founded | 2017 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, DevRev, Goldcast, [LeadSquared](/case-study/leadsquared/), Astra |
+| Notable Clients | Storylane, [DevRev](/case-study/devrev/), Goldcast, [LeadSquared](/case-study/leadsquared/), Astra |
 | Specialization | B2B SaaS GEO, AEO, and pipeline growth |
 
 **Where We Fit:** B2B SaaS and B2B tech companies at any ARR stage, from pre-revenue founders building a content foundation to mature teams scaling AI visibility against named competitors.

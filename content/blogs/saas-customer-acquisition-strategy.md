@@ -66,7 +66,7 @@ The mistake I see most is a blended CAC that hides everything. When one channel 
 
 Payback period is how many months of a customer's gross margin it takes to earn back what you spent acquiring them. It's the cash-flow number, and it decides whether you can afford to keep spending. A channel with a great LTV to CAC ratio can still starve you if it takes two years to see the money.
 
-Industry benchmarks put the median SaaS CAC payback at roughly 16 months, and bottom-quartile teams wait two years or more ([Benchmarkit](https://www.benchmarkit.ai/2025benchmarks)). Treat that as directional, not a target. What matters is your own number against your own runway.
+Industry benchmarks put the median SaaS CAC payback at roughly 16 months, and bottom-quartile teams wait two years or more ([Benchmarkit](https://www.benchmarkit.ai/2025benchmarks)). Treat that as directional, not a target. What matters is your own number against your own [runway](/glossary/what-is-runway/).
 
 The decision rule is blunt once you have payback by channel:
 

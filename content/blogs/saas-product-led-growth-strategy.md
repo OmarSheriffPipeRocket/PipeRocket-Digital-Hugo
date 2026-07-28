@@ -169,7 +169,7 @@ Track this short stack instead of a wall of numbers:
 - **PQL conversion rate:** how well product-qualified leads turn into revenue, which validates your threshold.
 - **Net revenue retention:** expansion minus churn from existing accounts, the real health check on a PLG business.
 
-For an early-stage PLG motion, start with just three: activation rate, time-to-value, and net revenue retention. An NRR above 120% is widely treated as best-in-class, because expansion outpacing churn is what makes revenue compound without buying every new dollar.
+For an early-stage PLG motion, start with just three: activation rate, time-to-value, and net revenue retention. An [NRR](/glossary/what-is-nrr/) above 120% is widely treated as best-in-class, because expansion outpacing churn is what makes revenue compound without buying every new dollar.
 
 Read these as a connected funnel. A strong activation rate with weak free-to-paid conversion points at pricing or the upgrade trigger. Strong conversion with weak NRR points at retention. The metric that's lagging tells you which part of the motion to fix next.
 

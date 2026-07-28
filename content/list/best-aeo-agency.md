@@ -373,7 +373,7 @@ Best for: Editorial-First GEO and B2B SaaS Category Authority via Surround Sound
 - Founders come from inside HubSpot, Shopify, and Workato content engines, so the agency speaks B2B SaaS fluently
 - Engagement minimum 6 months reflects how AEO authority actually compounds, not how fast clients want results
 
-**Proof point:** Omniscient Digital's own published content on Surround Sound SEO and OmniscientX research appears as frequently-cited sources in AI answers about B2B SaaS content strategy, demonstrating the methodology they sell.
+**Proof point:** Omniscient Digital's own published content on Surround Sound SEO and OmniscientX research appears as frequently-cited sources in AI answers about B2B [SaaS content strategy](/blogs/saas-content-strategy/), demonstrating the methodology they sell.
 
 **Limitation:** They recommend a minimum 6-month engagement and don't take on companies below $2M ARR or short-term engagements. Not built for teams needing fast AEO iteration, PPC management, or technical GEO architecture.
 

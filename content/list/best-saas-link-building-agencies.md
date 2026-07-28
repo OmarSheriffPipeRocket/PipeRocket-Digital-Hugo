@@ -198,7 +198,7 @@ Best for: B2B SaaS teams that want links measured against pipeline, not domain r
 | Location | Bengaluru, India (global remote) |
 | Founded | 2020 |
 | Team Size | 25+ people |
-| Notable Clients | Storylane, [LeadSquared](/case-study/leadsquared/), GreytHR, Tredence, DevRev, Spendflo |
+| Notable Clients | Storylane, [LeadSquared](/case-study/leadsquared/), GreytHR, Tredence, [DevRev](/case-study/devrev/), Spendflo |
 | Specialization | [Link building](/saas-seo-agency/link-building-agency/), SEO, [GEO/AEO](/saas-seo-agency/ai-seo-services/) |
 
 **Cleared For:** Series A+ B2B SaaS teams that want links from publications their buyers and AI search engines actually trust, measured against pipeline outcomes.

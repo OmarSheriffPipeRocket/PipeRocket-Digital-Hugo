@@ -141,7 +141,7 @@ Best for: B2B devtools SaaS that need developer adoption to enterprise pipeline,
 | Location | California, USA |
 | Founded | 2019 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, Astra, [LeadSquared](/case-study/leadsquared/), DevRev, Spendflo |
+| Notable Clients | Storylane, Astra, [LeadSquared](/case-study/leadsquared/), [DevRev](/case-study/devrev/), Spendflo |
 | Specialization | B2B SaaS demand architecture |
 
 **Right Fit:** B2B devtools SaaS at any ARR stage, especially teams where developer adoption is healthy but enterprise pipeline isn't keeping pace.

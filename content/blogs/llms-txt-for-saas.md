@@ -135,7 +135,7 @@ There's no public confirmation that they do as of 2026. Google has explicitly sa
 
 ### Is llms.txt the same as robots.txt?
 
-No. robots.txt controls what a crawler is allowed to access, using directives and user-agents to grant or block crawling. llms.txt does nothing about access. It's a curated markdown list of your most important content, meant to help an AI understand and use your pages. It says nothing about permitting or forbidding crawling. If you want to actually control AI-bot access, that still lives in robots.txt. The two files solve completely different problems and you may want both.
+No. robots.txt controls what a crawler is allowed to access, using directives and user-agents to grant or block [crawling](/glossary/what-is-crawling/). llms.txt does nothing about access. It's a curated markdown list of your most important content, meant to help an AI understand and use your pages. It says nothing about permitting or forbidding crawling. If you want to actually control AI-bot access, that still lives in robots.txt. The two files solve completely different problems and you may want both.
 
 ### Will an llms.txt file help my SaaS rank higher in AI search?
 

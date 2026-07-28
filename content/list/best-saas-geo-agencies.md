@@ -193,7 +193,7 @@ We built [PipeRocket Digital](/) as a B2B SaaS marketing agency before AI search
 | Location | India and US |
 | Founded | 2017 |
 | Team Size | 30+ people |
-| Notable Clients | Storylane, DevRev, Goldcast, [LeadSquared](/case-study/leadsquared/), Astra |
+| Notable Clients | Storylane, [DevRev](/case-study/devrev/), Goldcast, [LeadSquared](/case-study/leadsquared/), Astra |
 | Specialization | GEO/AEO, SaaS SEO, link building |
 
 **The Hook:** GEO sits on the same pod as technical SEO and authority building, so AI search visibility is treated as a pipeline KPI rather than a vanity dashboard.

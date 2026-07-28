@@ -489,7 +489,7 @@ The methodical 6-month-minimum cadence can feel slow to growth teams used to wee
 
 **Track Record**
 
-Omniscient Digital's published Surround Sound SEO and OmniscientX research content itself appears as cited sources in AI answers about B2B SaaS content strategy, demonstrating the methodology they sell to clients.
+Omniscient Digital's published Surround Sound SEO and OmniscientX research content itself appears as cited sources in AI answers about B2B [SaaS content strategy](/blogs/saas-content-strategy/), demonstrating the methodology they sell to clients.
 
 **Known Trade-offs**
 

@@ -139,7 +139,7 @@ Best for: Series A to B B2B SaaS that wants full-funnel execution without enterp
 | Location | California, USA |
 | Founded | 2023 |
 | Team Size | 25 people |
-| Notable Clients | Storylane, [LeadSquared](/case-study/leadsquared/), GreytHR, Tredence, DevRev, Spendflo |
+| Notable Clients | Storylane, [LeadSquared](/case-study/leadsquared/), GreytHR, [Tredence](/case-study/tredence/), DevRev, Spendflo |
 | Specialization | Full-funnel B2B SaaS marketing |
 
 **Mandate Match:** You're Series A to B B2B SaaS ($1M to $25M ARR) wanting full-funnel work (SEO, PPC, content, ABM, [AEO/GEO](/saas-seo-agency/ai-seo-services/)) under one retainer with senior pod access.

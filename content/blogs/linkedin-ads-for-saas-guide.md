@@ -176,7 +176,7 @@ The failures I see auditing SaaS LinkedIn accounts repeat with almost boring con
 
 ### Treating LinkedIn Like Google Ads
 
-The root mistake is expecting immediate, last-click conversions from a channel built for influence. Teams import a search mindset, judge LinkedIn on week-two lead counts, and pause it before the delayed pipeline ever arrives. Set influence expectations before launch, or the channel never gets the runway it needs.
+The root mistake is expecting immediate, last-click conversions from a channel built for influence. Teams import a search mindset, judge LinkedIn on week-two lead counts, and pause it before the delayed pipeline ever arrives. Set influence expectations before launch, or the channel never gets the [runway](/glossary/what-is-runway/) it needs.
 
 ### Leaving the Audience Too Broad
 

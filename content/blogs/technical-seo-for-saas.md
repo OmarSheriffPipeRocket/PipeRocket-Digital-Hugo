@@ -73,7 +73,7 @@ The Coverage report divides all known pages into four status categories. Each de
 
 ### The Hidden Indexation Problems on SaaS Sites
 
-Beyond the four Coverage statuses, four patterns appear repeatedly on SaaS sites and hurt indexation without triggering alerts in standard crawling tools.
+Beyond the four Coverage statuses, four patterns appear repeatedly on SaaS sites and hurt indexation without triggering alerts in standard [crawling](/glossary/what-is-crawling/) tools.
 
 **Redirect chains.** SaaS marketing sites accumulate redirects over years of product rebranding, domain migrations, and CMS changes. A chain of three or more redirects loses link equity at each hop and slows crawl throughput. A Screaming Frog crawl filtered for chains longer than two hops identifies these quickly.
 
@@ -119,7 +119,7 @@ For B2B SaaS sites, four schema types provide the clearest return on investment.
 
 | Schema type | What it does | Where it helps |
 |---|---|---|
-| **Organization** | Establishes brand identity in Google's knowledge graph and AI citation systems: name, URL, logo, contact info, social profiles. | Every page, JSON-LD in `<head>`. AI answer engines use it to verify who you are before attributing content to your brand. |
+| **Organization** | Establishes [brand identity](/glossary/what-is-brand-identity/) in Google's knowledge graph and AI citation systems: name, URL, logo, contact info, social profiles. | Every page, JSON-LD in `<head>`. AI answer engines use it to verify who you are before attributing content to your brand. |
 | **Article** | Signals editorial content and activates `datePublished` + `dateModified` freshness signals. | All blog and editorial pages. Makes a measurable difference for time-sensitive content covering AI search, product updates, or competitive pricing. |
 | **SoftwareApplication** | Tells Google a page describes a software product. Can generate star-rating displays and app category signals. | Core product and feature pages. Most SaaS teams skip this — it is a missed opportunity in competitive category SERPs. |
 | **FAQ** | Targets the People Also Ask feature box. Expands SERP real estate without requiring a ranking change. | Content pages with structured Q&A sections. Reliably captures the PAA box for B2B SaaS content where it appears. |

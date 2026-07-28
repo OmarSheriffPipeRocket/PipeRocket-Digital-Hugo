@@ -158,7 +158,7 @@ A team that's spent months preparing wants to make noise everywhere on day one, 
 
 ### Locking Pricing Before You Have Proof
 
-Some teams spend the pre-launch runway debating tier structure and per-seat versus usage-based billing before a single customer has paid anything. That debate is worth having, just not before real usage data exists to settle it.
+Some teams spend the pre-launch [runway](/glossary/what-is-runway/) debating tier structure and per-seat versus usage-based billing before a single customer has paid anything. That debate is worth having, just not before real usage data exists to settle it.
 
 An early, simple, clearly-temporary price gets you to real data faster than any amount of internal modeling does.
 

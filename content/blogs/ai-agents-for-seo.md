@@ -54,7 +54,7 @@ This is where the goal-orientation shows up most clearly. When a tracked keyword
 
 ### Internal Linking Suggestions
 
-Agents can scan a site's existing pages and suggest which orphaned or under-linked pages need internal links from which sources, based on topical relevance and existing link equity, a task that used to mean manually crawling a site map.
+Agents can scan a site's existing pages and suggest which orphaned or under-linked pages need internal links from which sources, based on topical relevance and existing link equity, a task that used to mean manually [crawling](/glossary/what-is-crawling/) a site map.
 
 ## Why Most SEO Tools Aren't Actually Agents
 

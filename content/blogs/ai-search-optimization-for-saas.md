@@ -193,7 +193,7 @@ For pages covering topics where facts change (market statistics, product compari
 
 The overlap between AEO for SaaS and traditional SEO is larger than most teams expect.
 
-The signals that help AI engines cite your content are the same signals that help Google rank your pages: a clear site structure, well-organized content with direct answers, genuine third-party authority through [backlinks](/glossary/what-is-a-backlink/) and reviews, accurate and current information, and structured data that establishes brand identity.
+The signals that help AI engines cite your content are the same signals that help Google rank your pages: a clear site structure, well-organized content with direct answers, genuine third-party authority through [backlinks](/glossary/what-is-a-backlink/) and reviews, accurate and current information, and structured data that establishes [brand identity](/glossary/what-is-brand-identity/).
 
 AEO adds a few specific optimizations on top of the SEO foundation:
 - Lead with the answer in the first sentence of every section

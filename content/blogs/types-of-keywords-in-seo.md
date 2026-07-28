@@ -42,7 +42,7 @@ Lean 100% on Ahrefs or Semrush and you only ever see the keywords your competito
 
 ### The Searcher Decides the Type, Not the Word
 
-A keyword has no fixed type until you know who's typing it. "Slack" is a navigational keyword for someone who already uses it and wants the login page. The same word is commercial for someone weighing it against Microsoft Teams, and it's nearly transactional for someone searching "Slack enterprise pricing."
+A keyword has no fixed type until you know who's typing it. "Slack" is a [navigational keyword](/glossary/what-is-a-navigational-keyword/) for someone who already uses it and wants the login page. The same word is commercial for someone weighing it against Microsoft Teams, and it's nearly transactional for someone searching "Slack enterprise pricing."
 
 This matters because you can't classify a spreadsheet of keywords mechanically. You classify by reading the query the way the searcher meant it, and sometimes by checking what Google already ranks, since the [SERP](/glossary/what-is-serp/) is Google's own verdict on the dominant intent behind that word.
 

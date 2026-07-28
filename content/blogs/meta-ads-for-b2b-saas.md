@@ -111,7 +111,7 @@ Broad interest targeting on Meta spends fast, and against a B2B product it spend
 
 ### Judging Meta on last-click and pausing it early
 
-Meta rarely wins on last-click, because the demand it creates usually converts later through a branded search or a direct visit. Teams who watch only the last-click column see a channel that looks dead, pause it a month in, and cut it right as the influence it planted starts landing elsewhere. The quiet cost is a self-inflicted wound: you kill the pipeline Meta was building and then attribute that pipeline to the channel that caught the click at the end. The fix is to measure lift across the whole funnel rather than Meta's own last-click number, watch whether branded search and direct traffic move when Meta is on versus off, and give the channel enough runway before you decide.
+Meta rarely wins on last-click, because the demand it creates usually converts later through a branded search or a direct visit. Teams who watch only the last-click column see a channel that looks dead, pause it a month in, and cut it right as the influence it planted starts landing elsewhere. The quiet cost is a self-inflicted wound: you kill the pipeline Meta was building and then attribute that pipeline to the channel that caught the click at the end. The fix is to measure lift across the whole funnel rather than Meta's own last-click number, watch whether branded search and direct traffic move when Meta is on versus off, and give the channel enough [runway](/glossary/what-is-runway/) before you decide.
 
 ### Leaving one static creative running for weeks
 

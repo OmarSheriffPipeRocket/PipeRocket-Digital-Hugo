@@ -100,7 +100,7 @@ Expansion is growing revenue from customers you already have, and it's the most 
 
 ![The net revenue retention formula shown as an equation: starting ARR, minus churn, minus contraction, plus expansion, all divided by starting ARR, with a worked example landing above 100%.](/images/blog-infographics/saas-growth-strategy-infographic-2.webp)
 
-The metric that captures this is [net revenue retention](/tools/nrr-calculator/). It measures how much revenue your existing customers generate this year versus last year, after churn and downgrades but including upgrades. When NRR sits above 100%, your customer base grows revenue on its own, before you add a single new logo. That's the closest thing SaaS has to compounding interest.
+The metric that captures this is [net revenue retention](/tools/nrr-calculator/). It measures how much revenue your existing customers generate this year versus last year, after churn and downgrades but including upgrades. When [NRR](/glossary/what-is-nrr/) sits above 100%, your customer base grows revenue on its own, before you add a single new logo. That's the closest thing SaaS has to compounding interest.
 
 ### Upsell moves customers up the value ladder
 

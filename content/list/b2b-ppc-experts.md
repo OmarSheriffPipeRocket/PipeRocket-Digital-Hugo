@@ -232,7 +232,7 @@ Best for: [Paid media strategy](/blogs/saas-paid-marketing-guide/) and account a
 | | |
 | --- | --- |
 | Role | Independent paid media consultant & speaker |
-| Known For | Paid media strategy; Search Engine Journal contributor |
+| Known For | [Paid media strategy](/blogs/saas-paid-media-strategy/); Search Engine Journal contributor |
 | Notable Work | ~20 years managing paid media; former agency VP roles |
 | Specialty | Paid media strategy, account audits, paid social |
 

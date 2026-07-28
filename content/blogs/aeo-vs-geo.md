@@ -51,7 +51,7 @@ That gives you a real sequencing decision instead of a fake either/or. Build the
 - A clean, consistent entity across the web
 - A couple of first-party data pieces worth quoting
 
-Layer schema and snippet formatting on top once that foundation is live. Then push off-site presence (Reddit, G2, review platforms, digital PR) as the ongoing second track, since that work compounds slower and needs a longer runway.
+Layer schema and snippet formatting on top once that foundation is live. Then push off-site presence (Reddit, G2, review platforms, digital PR) as the ongoing second track, since that work compounds slower and needs a longer [runway](/glossary/what-is-runway/).
 
 Schema and snippet formatting are on-page changes a team can ship in a sprint once the content itself is answer-first.
 

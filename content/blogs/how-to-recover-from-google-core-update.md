@@ -93,7 +93,7 @@ None of this recovers a page on its own. A perfectly crawlable thin page is stil
 
 ### Re-Index, Then Wait on Google's Clock
 
-Request a recrawl of the pages you fixed, then measure recovery over months rather than days. Drop each URL into the URL Inspection tool and request indexing so Google sees the changes sooner than the normal crawl cycle. That speeds up crawling. It doesn't speed up the re-scoring.
+Request a recrawl of the pages you fixed, then measure recovery over months rather than days. Drop each URL into the URL Inspection tool and request indexing so Google sees the changes sooner than the normal crawl cycle. That speeds up [crawling](/glossary/what-is-crawling/). It doesn't speed up the re-scoring.
 
 Recovery from a core update is rarely instant and rarely linear. You may see some movement between updates, but the meaningful recovery usually lands when the next core update rolls out and Google reassesses the whole index again, which commonly takes several months. Judge the trend across weeks, not a single Tuesday's position. A page that flatlines after a genuine improvement is telling you the query is out of reach for now or the page should be consolidated, and both are honest outcomes.
 

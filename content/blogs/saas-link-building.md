@@ -98,7 +98,7 @@ A well-built free tool is one of the most durable link building assets a SaaS co
 
 ### Picking the right tool for your ICP
 
-The tool has to be genuinely useful to the exact buyer you are trying to reach. A project management SaaS could build a sprint velocity calculator. A financial operations SaaS could build a burn rate calculator or a runway estimator. A sales enablement tool could build a quota attainment tracker. The framing should be: what calculation does my buyer do manually every week that I could automate in a tool?
+The tool has to be genuinely useful to the exact buyer you are trying to reach. A project management SaaS could build a sprint velocity calculator. A financial operations SaaS could build a burn rate calculator or a [runway](/glossary/what-is-runway/) estimator. A sales enablement tool could build a quota attainment tracker. The framing should be: what calculation does my buyer do manually every week that I could automate in a tool?
 
 Clockify’s time card calculator is one of their top five most-linked pages despite being a simple utility. It earns saas backlinks from HR blogs, time management guides, and productivity roundups — all audiences with high overlap with their target buyers.
 

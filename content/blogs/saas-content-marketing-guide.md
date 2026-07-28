@@ -67,7 +67,7 @@ Start with what the business needs and how content should support growth.
 - Set targets for organic demos, trials or signups.
 - Track pipeline and closed-won deals influenced by content.
 
-This keeps your SaaS content strategy tied to real outcomes and makes reporting simple for leaders.
+This keeps your [SaaS content strategy](/blogs/saas-content-strategy/) tied to real outcomes and makes reporting simple for leaders.
 
 ### 2. Identify Buyer Personas & Map to Job-to-be-Done
 

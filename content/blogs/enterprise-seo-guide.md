@@ -230,7 +230,7 @@ Effective crawl budget management focuses on reducing crawl waste and maximizing
 A complete enterprise SEO stack in 2026 covers six categories:
 
 - **[Enterprise SEO platforms](/list/best-enterprise-seo-software/):** centralized tracking and reporting at scale
-- **Technical SEO and crawling tools:** site audits, log file analysis, and crawl monitoring
+- **Technical SEO and [crawling](/glossary/what-is-crawling/) tools:** site audits, log file analysis, and crawl monitoring
 - **[Backlink](/glossary/what-is-a-backlink/) and competitor intelligence:** link acquisition and gap analysis
 - **Content optimization and AI tools:** on-page quality at scale
 - **Reporting and analytics tools:** data warehouses like BigQuery or Redshift for custom analysis

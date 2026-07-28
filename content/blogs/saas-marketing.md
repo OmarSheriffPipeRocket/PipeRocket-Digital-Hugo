@@ -112,7 +112,7 @@ No single team runs all ten of these at full depth on day one, and no single art
 
 ### SEO: Owning the Research Phase
 
-Search is where a large share of SaaS evaluation happens quietly, before a prospect fills out any form. Ranking for the comparison and evaluation-stage searches your buyers actually run, not just top-of-funnel definitions, is what separates SaaS SEO from generic [content marketing](/glossary/what-is-content-marketing/). The full framework for keyword targeting, technical SEO for JS-heavy [product marketing](/blogs/saas-product-marketing-strategy/) sites, and content architecture lives in our [SaaS SEO guide](/blogs/saas-seo/).
+Search is where a large share of SaaS evaluation happens quietly, before a prospect fills out any form. Ranking for the comparison and evaluation-stage searches your buyers actually run, not just top-of-funnel definitions, is what separates SaaS SEO from generic [content marketing](/glossary/what-is-content-marketing/). The full framework for keyword targeting, [technical SEO](/glossary/what-is-technical-seo/) for JS-heavy [product marketing](/blogs/saas-product-marketing-strategy/) sites, and content architecture lives in our [SaaS SEO guide](/blogs/saas-seo/).
 
 ### Paid Marketing: Buying the Moments You Can't Wait to Earn
 
@@ -185,7 +185,7 @@ Vanity metrics are the easiest trap in SaaS marketing because they're the easies
 The numbers that hold up under scrutiny track cost against durable revenue instead of activity:
 
 - **CAC ([customer acquisition](/blogs/saas-customer-acquisition-strategy/) cost):** what it actually costs, fully loaded, to land one paying customer
-- **LTV (lifetime value):** what that customer is worth across their full subscription life, counting renewals and upgrades on top of the first invoice
+- **LTV ([lifetime value](/tools/ltv-calculator/)):** what that customer is worth across their full subscription life, counting renewals and upgrades on top of the first invoice
 - **Trial-to-paid or free-to-paid [conversion rate](/tools/conversion-rate-calculator/):** the single clearest signal of whether product and messaging match
 - **Net revenue retention:** whether the existing customer base is growing or quietly shrinking underneath the new-logo number
 

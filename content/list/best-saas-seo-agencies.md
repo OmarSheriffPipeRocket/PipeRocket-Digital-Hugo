@@ -1193,7 +1193,7 @@ We screened more than 30 agencies to build this list. The 13 above earned full r
 | [Flying Cat Marketing](https://www.flyingcatmarketing.com/) | International SaaS SEO and content, plus GEO |
 | [Codeless](https://codeless.io/) | High-volume long-form content production for SaaS |
 | [Bay Leaf Digital](https://www.bayleafdigital.com/) | Full-service SaaS marketing for early and mid-stage teams |
-| [Minuttia](https://minuttia.com/) | SaaS content strategy and SEO with editorial depth |
+| [Minuttia](https://minuttia.com/) | [SaaS content strategy](/blogs/saas-content-strategy/) and SEO with editorial depth |
 | [Stratabeat](https://stratabeat.com/) | B2B SEO, GEO, and content out of Boston |
 | [SeoProfy](https://seoprofy.com/) | Data-driven SEO with SaaS and tech experience |
 | [Roketto](https://roketto.com/) | Inbound marketing and SaaS growth (Canada) |

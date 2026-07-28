@@ -148,7 +148,7 @@ Add a channel when three things are true at once:
 
 - Your current capture channels are maxed on budget with diminishing returns.
 - You've identified a specific funnel gap the new channel is built to close.
-- You have enough runway to give it a genuine three-month test before judging it.
+- You have enough [runway](/glossary/what-is-runway/) to give it a genuine three-month test before judging it.
 
 Consolidate when either of these shows up instead:
 

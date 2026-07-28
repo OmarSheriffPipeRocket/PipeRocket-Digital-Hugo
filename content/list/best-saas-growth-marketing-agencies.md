@@ -164,7 +164,7 @@ A few prospects find our intake heavy because we ask for pipeline data others do
 
 - Teams without clean CRM hygiene need a setup phase first ([Clutch](https://clutch.co/profile/piperocket-digital))
 
-**Track Record:** We carry 4.7/5 (16 reviews) on Clutch and have shipped programs for Storylane, Astra, LeadSquared, GreytHR, [Tredence](/case-study/tredence/), DevRev, and Spendflo. Engagements span seed-stage founders through $50M+ ARR SaaS teams.
+**Track Record:** We carry 4.7/5 (16 reviews) on Clutch and have shipped programs for Storylane, Astra, LeadSquared, GreytHR, [Tredence](/case-study/tredence/), [DevRev](/case-study/devrev/), and Spendflo. Engagements span seed-stage founders through $50M+ ARR SaaS teams.
 
 **The Trade-off:** We're SaaS-only, which means we say no to e-commerce and B2C work. Our pipeline-attribution model also assumes you'll grant CRM access; teams that won't share sales data get less from us.
 
@@ -550,7 +550,7 @@ The methodology integrates demand capture (high-intent search) with light demand
 **Voice Of The Market**
 
 **Love:** Transformed [paid media strategy](/blogs/saas-paid-marketing-guide/)
-An on-site testimonial reads, "I 100% recommend Powered By Search. They've completely transformed our paid media strategy." ([poweredbysearch.com](https://www.poweredbysearch.com/))
+An on-site testimonial reads, "I 100% recommend Powered By Search. They've completely transformed our [paid media strategy](/blogs/saas-paid-media-strategy/)." ([poweredbysearch.com](https://www.poweredbysearch.com/))
 
 - The 4.8/5 [social proof](/blogs/saas-social-proof/) lives on FeaturedCustomers, not Clutch ([FeaturedCustomers](https://www.featuredcustomers.com/vendor/powered-search))
 
@@ -599,7 +599,7 @@ Best for: Series A to C SaaS compounding editorial authority over 12 months
 | Founded | 2019 |
 | Team Size | 10-49 people |
 | Notable Clients | Jasper, Hotjar, AppSumo, 360Learning |
-| Specialization | SaaS content strategy and GEO |
+| Specialization | [SaaS content strategy](/blogs/saas-content-strategy/) and GEO |
 
 **Where It Lands:** Series A to D SaaS with established marketing teams wanting editorial authority and a content strategy that compounds over 6-12 months.
 

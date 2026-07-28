@@ -41,7 +41,7 @@ Convenience-based linking feels thorough. It produces a site where **the most im
 
 **Linking by intent means asking two questions before placing any link.** First: what should the reader do next? Second: which page on this site needs this authority most?
 
-If someone's reading a TOFU blog about SaaS content strategy, the useful next step is a MOFU [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) or a listicle, not another awareness blog. That's where you send them, and that's **where the link equity goes.**
+If someone's reading a TOFU blog about [SaaS content strategy](/blogs/saas-content-strategy/), the useful next step is a MOFU [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/) or a listicle, not another awareness blog. That's where you send them, and that's **where the link equity goes.**
 
 The test is simple: finish reading the paragraph where you're placing a link, then ask what a genuinely interested reader would logically want to see next. That's your destination.
 
@@ -123,7 +123,7 @@ Navigation links (header, footer, sidebar) are different. They exist on every pa
 
 Two categories earn priority:
 
-- **New pages** (published within the last 90 days). New pages need crawling and initial authority to establish themselves. A handful of internal links from existing pages helps Google find them faster and gives them a baseline of equity.
+- **New pages** (published within the last 90 days). New pages need [crawling](/glossary/what-is-crawling/) and initial authority to establish themselves. A handful of internal links from existing pages helps Google find them faster and gives them a baseline of equity.
 - **Pages sitting on page 2–3** for a target keyword. These are your biggest wins. A page that's already close to page 1 often needs just a few more relevant internal links to break through. Check your Search Console position data for these candidates and build links toward them deliberately.
 
 Don't waste your link budget on pages already sitting in position 1-5. They don't need more help.

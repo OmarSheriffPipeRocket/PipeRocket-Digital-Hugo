@@ -149,7 +149,7 @@ Aim for 7 or above on your highest-spend keywords; that's where you're paying a 
 
 ### How long does it take to improve Quality Score after making changes?
 
-Ad relevance changes, like getting the keyword into the copy, often show up within a few days to a week once the ad accumulates impressions. Expected CTR takes longer because Google needs enough click data to re-evaluate, usually a couple of weeks of steady performance. Landing page experience can update within days of Google re-crawling the improved page. The whole thing moves faster on keywords with higher traffic because Google gathers signal quicker there.
+Ad relevance changes, like getting the keyword into the copy, often show up within a few days to a week once the ad accumulates impressions. Expected CTR takes longer because Google needs enough click data to re-evaluate, usually a couple of weeks of steady performance. Landing page experience can update within days of Google re-[crawling](/glossary/what-is-crawling/) the improved page. The whole thing moves faster on keywords with higher traffic because Google gathers signal quicker there.
 
 ### Does Quality Score affect how much I pay per click?
 

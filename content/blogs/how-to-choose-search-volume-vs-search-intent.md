@@ -116,7 +116,7 @@ We grew one client from 3 sales opportunities to 15 in two quarters, with no bud
 If your traffic is growing but pipeline isn't, you may not have a traffic problem at all, you have an audience problem.
 {{< /experience >}}
 
-This is where the standard tools fail you, because Keyword Difficulty and volume describe the keyword's [SEO](/glossary/what-is-seo/) odds and say nothing about the human typing it. A query like "migrate off [legacy tool] without downtime" might show almost no volume, yet the person typing it is mid-crisis and ready to switch vendors this month.
+This is where the standard tools fail you, because [Keyword Difficulty](/glossary/what-is-keyword-difficulty/) and volume describe the keyword's [SEO](/glossary/what-is-seo/) odds and say nothing about the human typing it. A query like "migrate off [legacy tool] without downtime" might show almost no volume, yet the person typing it is mid-crisis and ready to switch vendors this month.
 
 For the mechanics of building these, our guide on [ranking BOFU keywords](/blogs/how-to-rank-bofu-keywords-saas/) covers the page side. The point here is the judgment call: low volume plus high intent beats high volume plus soft intent almost every time in B2B SaaS.
 

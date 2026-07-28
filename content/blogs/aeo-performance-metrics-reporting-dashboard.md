@@ -53,7 +53,7 @@ You can get a feel for the top-line version of this metric with our [AI Share of
 
 ## Metric 2: AI Crawler Hits From Your Server Logs
 
-**What it answers:** are AI engines actually crawling your pages in the first place. If they aren't, nothing downstream can happen.
+**What it answers:** are AI engines actually [crawling](/glossary/what-is-crawling/) your pages in the first place. If they aren't, nothing downstream can happen.
 
 This is the metric almost no agency reports, and it's foundational. You cannot be cited by a system that has never fetched your page. Bot traffic is now the majority of the web: Cloudflare's 2026 data shows bots generate **57.5% of HTML traffic**, with AI crawlers at 20.3% of verified bot traffic and AI-search bots adding another 6.5%. Among AI-adjacent requests, GPTBot accounts for about 11.5% and ClaudeBot about 9.7%. And the mix is shifting from training crawls toward live, user-triggered fetches, which grew more than 15x over 2025. A user-triggered fetch means someone asked an AI a question and it went to get your page in real time. That's the crawl you most want to see.
 
