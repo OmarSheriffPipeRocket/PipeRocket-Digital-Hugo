@@ -1,0 +1,34 @@
+{{/* Timed promo popup — opt-in per page via frontmatter:
+       timedPopup:
+         enabled: true
+         delaySeconds: 10
+         eyebrow: "Pilot · 4 slots left"
+         headline: "..."
+         body: "..."
+         ctaLabel: "Claim a pilot slot"
+         id: "unique_popup_id"        (used as the dataLayer popup_id)
+
+     Reuses the pilot rail card styling (.pr-listicle-v2__cta-*) so the
+     popup matches the sidebar CTA design. The CTA button is wired to the
+     shared funnel-audit modal (data-modal-trigger="funnel-audit", see
+     modal-funnel-audit.html + setupCtaModal() in main.js) so clicking it
+     opens the HubSpot form in-page rather than navigating away.
+
+     Shown/dismissed once per browser session (assets/js/main.js,
+     setupTimedPopup()), which also fires dataLayer events:
+       popup_shown, popup_closed, popup_cta_click — each with popup_id. */}}
+{{ with .Params.timedPopup }}
+{{ if .enabled }}
+{{ $id := .id | default (printf "%s_popup" $.File.BaseFileName) }}
+<div class="pr-modal pr-timed-popup" data-pr-timed-popup data-popup-id="{{ $id }}" data-popup-delay="{{ .delaySeconds | default 10 }}" hidden>
+  <div class="pr-modal__backdrop" data-pr-timed-popup-close></div>
+  <div class="pr-modal__card pr-timed-popup__card" role="dialog" aria-modal="true" aria-labelledby="prTimedPopupTitle-{{ $id }}">
+    <button class="pr-modal__close pr-timed-popup__close" type="button" aria-label="Close" data-pr-timed-popup-close>&times;</button>
+    <span class="pr-listicle-v2__cta-eyebrow">{{ .eyebrow | default "Pilot · 4 slots left" }}</span>
+    <div class="pr-listicle-v2__cta-h" id="prTimedPopupTitle-{{ $id }}">{{ .headline }}</div>
+    <p class="pr-listicle-v2__cta-d">{{ .body }}</p>
+    <button type="button" class="pr-btn pr-listicle-v2__cta-btn" data-modal-trigger="funnel-audit" data-cta-source="{{ .ctaSource | default (printf "%s-timed-popup" $id) }}">{{ .ctaLabel | default "Claim a pilot slot" }}</button>
+  </div>
+</div>
+{{ end }}
+{{ end }}

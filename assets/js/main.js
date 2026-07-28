@@ -943,6 +943,7 @@ const init = () => {
   setupAlsoReadCallouts();
   setupFactCallouts();
   setupCtaModal();
+  setupTimedPopup();
   setupDemoFunnelTracking();
   setupStoriesFilter();
   setupReviewsFilter();
@@ -1323,6 +1324,73 @@ const setupCtaModal = () => {
   });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && !modal.hidden) close();
+  });
+};
+
+// =========================================================
+// Timed promo popup — page-scoped (opt-in via frontmatter `timedPopup`,
+// see layouts/partials/popup-timed-pilot.html). Shows once per browser
+// session after a configurable delay, tracks impression/dismiss/CTA-click
+// via dataLayer (popup_shown / popup_closed / popup_cta_click, each with
+// popup_id), and hands off to the shared funnel-audit modal on CTA click
+// instead of navigating away.
+// =========================================================
+const setupTimedPopup = () => {
+  const popup = document.querySelector('[data-pr-timed-popup]');
+  if (!popup) return;
+
+  const popupId = popup.dataset.popupId || 'timed_popup';
+  const delaySeconds = parseFloat(popup.dataset.popupDelay) || 10;
+  const dismissedKey = `pr-timed-popup-dismissed-${popupId}`;
+
+  if (sessionStorage.getItem(dismissedKey)) return;
+
+  const pushEvent = (event) => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event, popup_id: popupId });
+  };
+
+  let lastFocused = null;
+
+  // manageBodyClass: false when handing off to the funnel-audit modal,
+  // which manages body scroll-lock itself — otherwise we'd rip the
+  // pr-modal-open class out from under it the instant it opens.
+  const dismiss = (manageBodyClass = true) => {
+    sessionStorage.setItem(dismissedKey, '1');
+    popup.hidden = true;
+    if (manageBodyClass) document.body.classList.remove('pr-modal-open');
+    if (lastFocused && lastFocused.focus) lastFocused.focus();
+  };
+
+  window.setTimeout(() => {
+    if (sessionStorage.getItem(dismissedKey)) return; // dismissed while waiting
+    lastFocused = document.activeElement;
+    popup.hidden = false;
+    document.body.classList.add('pr-modal-open');
+    pushEvent('popup_shown');
+  }, delaySeconds * 1000);
+
+  popup.querySelectorAll('[data-pr-timed-popup-close]').forEach((el) => {
+    el.addEventListener('click', () => {
+      pushEvent('popup_closed');
+      dismiss();
+    });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !popup.hidden) {
+      pushEvent('popup_closed');
+      dismiss();
+    }
+  });
+
+  // Runs after setupCtaModal()'s own listener on the same button (attached
+  // first, in init()) has already opened the funnel-audit modal.
+  popup.querySelectorAll('[data-modal-trigger="funnel-audit"]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      pushEvent('popup_cta_click');
+      dismiss(false);
+    });
   });
 };
 

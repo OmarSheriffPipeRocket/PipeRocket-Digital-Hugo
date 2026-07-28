@@ -16,10 +16,10 @@ readingTime: "24 min read"
 timedPopup:
   enabled: true
   delaySeconds: 10
-  eyebrow: "Pilot · 4 slots left"
-  headline: "Still deciding between these 11?"
-  body: "Get a free 30-minute scoping call on your actual funnel - CAC, sales cycle, ACV - before you sign with anyone on this list."
-  ctaLabel: "Claim a pilot slot"
+  eyebrow: "Free Funnel Audit"
+  headline: "Before you pick one of these 11..."
+  body: "Get a free audit of your SaaS PPC funnel and see exactly where it's leaking pipeline. No obligation, no sales pitch."
+  ctaLabel: "Book Free Audit"
 ---
 
 The top 11 best SaaS PPC agencies of 2026 for MRR growth, CAC efficiency, and LTV impact include 1. Directive Consulting, 2. PipeRocket Digital, 3. Disruptive Advertising, 4. Powered by Search, 5. GrowthSpree, 6. Bounty Hunter, 7. KlientBoost, 8. Single Grain, 9. NoGood, 10. NinjaPromo, and 11. Kalungi.

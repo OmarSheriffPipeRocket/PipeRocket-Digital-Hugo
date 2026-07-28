@@ -106,6 +106,8 @@
 
 </article>
 
+{{ partial "popup-timed-pilot.html" . }}
+
 {{/* Related Articles */}}
 {{ $related := where (where .Site.RegularPages "Section" "list") "Permalink" "ne" .Permalink | first 3 }}
 {{ if $related }}

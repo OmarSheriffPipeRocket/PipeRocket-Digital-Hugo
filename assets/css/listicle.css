@@ -739,3 +739,17 @@ button.pr-listicle-v2__cta-btn {
   border: 0;
   cursor: pointer;
 }
+
+/* Timed promo popup — same pilot-card look, hosted in the .pr-modal shell */
+.pr-timed-popup__card {
+  background: #1a1a1a;
+  max-width: 420px;
+  padding: 32px 28px 28px;
+}
+.pr-timed-popup__close {
+  color: rgba(255,255,255,0.7);
+}
+.pr-timed-popup__close:hover {
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+}
