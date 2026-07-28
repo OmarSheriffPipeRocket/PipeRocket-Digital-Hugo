@@ -16,8 +16,8 @@ readingTime: "24 min read"
 timedPopup:
   enabled: true
   delaySeconds: 10
-  eyebrow: "Free Funnel Audit"
-  headline: "Before you pick one of these 11..."
+  eyebrow: "Before you pick one of these 11..."
+  headline: "Free SaaS PPC Account Audit"
   body: "Get a free audit of your SaaS PPC funnel and see exactly where it's leaking pipeline. No obligation, no sales pitch."
   ctaLabel: "Book Free Audit"
 ---
