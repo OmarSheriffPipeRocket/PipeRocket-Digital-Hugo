@@ -350,6 +350,14 @@ _BRAND_CASING = {
     "directive": "Directive", "consulting": "Consulting",
     "omniscient": "Omniscient", "digital": "Digital",
     "siege": "Siege", "media": "Media",
+    # 2026-07-27: ground-truthed against each alternative page's own title —
+    # a case-sensitive match (find_alternative_agency_block) can't find a
+    # correctly-cased brand mention in body text if the derived name is
+    # mis-cased, so these were silently causing bridge inserts to fail.
+    "ab": "AB", "brightedge": "BrightEdge", "hockeystack": "HockeyStack",
+    "marketmuse": "MarketMuse", "by": "by", "raventools": "RavenTools",
+    "rollworks": "RollWorks", "seozoom": "SEOZoom", "simpletiger": "SimpleTiger",
+    "seo": "SEO", "vwo": "VWO", "zoominfo": "ZoomInfo",
 }
 
 

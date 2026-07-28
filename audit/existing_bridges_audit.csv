@@ -1,0 +1,300 @@
+File,Bridge Type,Target URL,Expected Name,Currently Under Heading,Verdict,Expected Location
+alternative/6sense-alternatives.md,neutral,/compare/6sense-vs-bombora/,Bombora,(before any heading),MISPLACED,4. Bombora
+alternative/6sense-alternatives.md,neutral,/compare/rollworks-vs-6sense/,RollWorks,(before any heading),MISPLACED,paragraph @ 24447-24644
+alternative/6sense-alternatives.md,alt-vs,/alternative/rollworks-alternatives/,RollWorks,(before any heading),MISPLACED,paragraph @ 24447-24644
+alternative/6sense-alternatives.md,alt-vs,/alternative/demandbase-alternatives/,Demandbase,1. Demandbase,OK,1. Demandbase
+alternative/6sense-alternatives.md,neutral,/compare/6sense-vs-demandbase/,Demandbase,1. Demandbase,OK,1. Demandbase
+alternative/6sense-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,2. ZoomInfo,OK,2. ZoomInfo
+alternative/6sense-alternatives.md,alt-vs,/alternative/apollo-alternatives/,Apollo,3. Apollo.io,OK,3. Apollo.io
+alternative/6sense-alternatives.md,alt-vs,/alternative/bombora-alternatives/,Bombora,4. Bombora,OK,4. Bombora
+alternative/6sense-alternatives.md,alt-vs,/alternative/cognism-alternatives/,Cognism,7. Cognism,OK,7. Cognism
+alternative/ab-tasty-alternatives.md,alt-vs,/alternative/vwo-alternatives/,VWO,1. VWO,OK,1. VWO
+alternative/ab-tasty-alternatives.md,alt-vs,/alternative/convert-alternatives/,Convert,3. Convert.com,OK,3. Convert.com
+alternative/ab-tasty-alternatives.md,alt-vs,/alternative/optimizely-alternatives/,Optimizely,4. Optimizely,OK,4. Optimizely
+alternative/ab-tasty-alternatives.md,alt-vs,/alternative/unbounce-alternatives/,Unbounce,7. Unbounce,OK,7. Unbounce
+alternative/ahrefs-alternatives.md,neutral,/compare/se-ranking-vs-ahrefs/,SE Ranking,(before any heading),MISPLACED,2. SE Ranking
+alternative/ahrefs-alternatives.md,neutral,/compare/ahrefs-vs-semrush/,Semrush,(before any heading),MISPLACED,1. Semrush
+alternative/ahrefs-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,1. Semrush,OK,1. Semrush
+alternative/ahrefs-alternatives.md,alt-vs,/alternative/moz-alternatives/,Moz,3. Moz Pro,OK,3. Moz Pro
+alternative/ahrefs-alternatives.md,alt-vs,/alternative/mangools-alternatives/,Mangools,5. Mangools,OK,5. Mangools
+alternative/ahrefs-alternatives.md,alt-vs,/alternative/serpstat-alternatives/,Serpstat,6. Serpstat,OK,6. Serpstat
+alternative/ahrefs-alternatives.md,alt-vs,/alternative/ubersuggest-alternatives/,Ubersuggest,7. Screaming Frog SEO Spider,MISPLACED,paragraph @ 25629-25981
+alternative/animalz-alternatives.md,alt-vs,/alternative/jasper-alternatives/,Jasper,1. Omniscient Digital,MISPLACED,paragraph @ 7707-8035
+alternative/animalz-alternatives.md,alt-vs,/alternative/hotjar-alternatives/,Hotjar,1. Omniscient Digital,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/animalz-alternatives.md,neutral,/compare/siege-media-vs-animalz/,Siege Media,3. Siege Media,OK,3. Siege Media
+alternative/apollo-alternatives.md,neutral,/compare/clearbit-vs-apollo/,Apollo,(before any heading),MISPLACED,paragraph @ 2-182
+alternative/apollo-alternatives.md,neutral,/compare/uplead-vs-apollo/,UpLead,(before any heading),MISPLACED,6. UpLead
+alternative/apollo-alternatives.md,neutral,/compare/clay-vs-apollo/,Clay,(before any heading),MISPLACED,3. Clay
+alternative/apollo-alternatives.md,neutral,/compare/apollo-vs-zoominfo/,ZoomInfo,(before any heading),MISPLACED,1. ZoomInfo
+alternative/apollo-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,1. ZoomInfo,OK,1. ZoomInfo
+alternative/apollo-alternatives.md,alt-vs,/alternative/cognism-alternatives/,Cognism,2. Cognism,OK,2. Cognism
+alternative/apollo-alternatives.md,alt-vs,/alternative/lusha-alternatives/,Lusha,4. Lusha,OK,4. Lusha
+alternative/bombora-alternatives.md,neutral,/compare/6sense-vs-bombora/,6sense,(before any heading),MISPLACED,1. 6sense
+alternative/bombora-alternatives.md,alt-vs,/alternative/6sense-alternatives/,6sense,1. 6sense,OK,1. 6sense
+alternative/bombora-alternatives.md,alt-vs,/alternative/demandbase-alternatives/,Demandbase,2. Demandbase,OK,2. Demandbase
+alternative/bombora-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,3. ZoomInfo,OK,3. ZoomInfo
+alternative/bombora-alternatives.md,alt-vs,/alternative/cognism-alternatives/,Cognism,6. Cognism,OK,6. Cognism
+alternative/botify-alternatives.md,neutral,/compare/conductor-vs-brightedge/,Conductor,(before any heading),MISPLACED,6. Conductor
+alternative/botify-alternatives.md,alt-vs,/alternative/brightedge-alternatives/,BrightEdge,(before any heading),FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/botify-alternatives.md,alt-vs,/alternative/screaming-frog-alternatives/,Screaming Frog,4. Screaming Frog SEO Spider,OK,4. Screaming Frog SEO Spider
+alternative/botify-alternatives.md,alt-vs,/alternative/sitebulb-alternatives/,Sitebulb,5. Sitebulb,OK,5. Sitebulb
+alternative/botify-alternatives.md,alt-vs,/alternative/conductor-alternatives/,Conductor,6. Conductor,OK,6. Conductor
+alternative/botify-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,7. Semrush Site Audit,OK,7. Semrush Site Audit
+alternative/brightedge-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,1. Semrush,OK,1. Semrush
+alternative/brightedge-alternatives.md,alt-vs,/alternative/ahrefs-alternatives/,Ahrefs,3. Ahrefs,OK,3. Ahrefs
+alternative/brightedge-alternatives.md,alt-vs,/alternative/botify-alternatives/,Botify,6. Botify,OK,6. Botify
+alternative/clearscope-alternatives.md,neutral,/compare/marketmuse-vs-clearscope/,MarketMuse,(before any heading),MISPLACED,4. MarketMuse
+alternative/clearscope-alternatives.md,alt-vs,/alternative/surfer-seo-alternatives/,Surfer SEO,1. Surfer SEO,OK,1. Surfer SEO
+alternative/clearscope-alternatives.md,alt-vs,/alternative/frase-alternatives/,Frase,2. Frase.io,OK,2. Frase.io
+alternative/clearscope-alternatives.md,alt-vs,/alternative/marketmuse-alternatives/,MarketMuse,4. MarketMuse,OK,4. MarketMuse
+alternative/clearscope-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,7. Semrush SEO Writing Assistant,OK,7. Semrush SEO Writing Assistant
+alternative/cognism-alternatives.md,neutral,/compare/cognism-vs-apollo/,Apollo,2. PipeRocket Digital,MISPLACED,paragraph @ 9003-9267
+alternative/cognism-alternatives.md,neutral,/compare/cognism-vs-zoominfo/,ZoomInfo,2. PipeRocket Digital,MISPLACED,paragraph @ 9003-9267
+alternative/cognism-alternatives.md,alt-vs,/alternative/apollo-alternatives/,Apollo,2. PipeRocket Digital,MISPLACED,paragraph @ 9003-9267
+alternative/cognism-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,2. PipeRocket Digital,MISPLACED,paragraph @ 9003-9267
+alternative/cognism-alternatives.md,alt-vs,/alternative/kalungi-alternatives/,Kalungi,8. Kalungi,OK,8. Kalungi
+alternative/conductor-alternatives.md,alt-vs,/alternative/jasper-alternatives/,Jasper,6. Omniscient Digital,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/conductor-alternatives.md,alt-vs,/alternative/mutiny-alternatives/,Mutiny,6. Omniscient Digital,MISPLACED,paragraph @ 24850-25122
+alternative/convert-alternatives.md,alt-vs,/alternative/ab-tasty-alternatives/,AB Tasty,3. AB Tasty,OK,3. AB Tasty
+alternative/copy-ai-alternatives.md,neutral,/compare/writesonic-vs-copy-ai/,Writesonic,(before any heading),MISPLACED,2. Writesonic
+alternative/copy-ai-alternatives.md,neutral,/compare/jasper-vs-copy-ai/,Jasper,(before any heading),MISPLACED,1. Jasper AI
+alternative/copy-ai-alternatives.md,alt-vs,/alternative/jasper-alternatives/,Jasper,1. Jasper AI,OK,1. Jasper AI
+alternative/copy-ai-alternatives.md,alt-vs,/alternative/writesonic-alternatives/,Writesonic,2. Writesonic,OK,2. Writesonic
+alternative/demandbase-alternatives.md,neutral,/compare/rollworks-vs-demandbase/,RollWorks,(before any heading),MISPLACED,paragraph @ 2-213
+alternative/demandbase-alternatives.md,alt-vs,/alternative/6sense-alternatives/,6sense,1. 6sense,OK,1. 6sense
+alternative/demandbase-alternatives.md,neutral,/compare/6sense-vs-demandbase/,6sense,1. 6sense,OK,1. 6sense
+alternative/demandbase-alternatives.md,alt-vs,/alternative/rollworks-alternatives/,RollWorks,2. AdRoll ABM (formerly RollWorks),MISPLACED,paragraph @ 2-213
+alternative/demandbase-alternatives.md,alt-vs,/alternative/bombora-alternatives/,Bombora,3. Terminus (now part of DemandScience),MISPLACED,paragraph @ 18692-18930
+alternative/demandbase-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,6. ZoomInfo,OK,6. ZoomInfo
+alternative/demandbase-alternatives.md,alt-vs,/alternative/apollo-alternatives/,Apollo,7. Apollo.io,OK,7. Apollo.io
+alternative/directive-consulting-alternatives.md,alt-vs,/alternative/nogood-alternatives/,NoGood,1. NoGood,OK,1. NoGood
+alternative/directive-consulting-alternatives.md,piperocket-vs,/compare/piperocket-digital-vs-nogood/,NoGood,1. NoGood,OK,1. NoGood
+alternative/directive-consulting-alternatives.md,alt-vs,/alternative/cognism-alternatives/,Cognism,4. Refine Labs,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/directive-consulting-alternatives.md,neutral,/compare/directive-consulting-vs-refine-labs/,Refine Labs,4. Refine Labs,OK,4. Refine Labs
+alternative/directive-consulting-alternatives.md,alt-vs,/alternative/hotjar-alternatives/,Hotjar,6. KlientBoost,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/directive-consulting-alternatives.md,alt-vs,/alternative/klientboost-alternatives/,KlientBoost,6. KlientBoost,OK,6. KlientBoost
+alternative/directive-consulting-alternatives.md,piperocket-vs,/compare/piperocket-digital-vs-klientboost/,KlientBoost,6. KlientBoost,OK,6. KlientBoost
+alternative/dreamdata-alternatives.md,neutral,/compare/factors-ai-vs-dreamdata/,Factors,(before any heading),MISPLACED,2. Factors.ai
+alternative/dreamdata-alternatives.md,neutral,/compare/dreamdata-vs-hockeystack/,HockeyStack,(before any heading),MISPLACED,1. HockeyStack
+alternative/dreamdata-alternatives.md,alt-vs,/alternative/hockeystack-alternatives/,HockeyStack,1. HockeyStack,OK,1. HockeyStack
+alternative/factors-ai-alternatives.md,alt-vs,/alternative/directive-consulting-alternatives/,Directive Consulting,1. Directive Consulting,OK,1. Directive Consulting
+alternative/factors-ai-alternatives.md,alt-vs,/alternative/kalungi-alternatives/,Kalungi,3. Kalungi,OK,3. Kalungi
+alternative/factors-ai-alternatives.md,alt-vs,/alternative/single-grain-alternatives/,Single Grain,5. Single Grain,OK,5. Single Grain
+alternative/frase-alternatives.md,neutral,/compare/surfer-seo-vs-frase/,Surfer,(before any heading),MISPLACED,1. Surfer SEO
+alternative/frase-alternatives.md,neutral,/compare/marketmuse-vs-frase/,MarketMuse,(before any heading),MISPLACED,3. MarketMuse
+alternative/frase-alternatives.md,alt-vs,/alternative/ahrefs-alternatives/,Ahrefs,1. Surfer SEO,MISPLACED,paragraph @ 7160-7429
+alternative/frase-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,1. Surfer SEO,MISPLACED,paragraph @ 7160-7429
+alternative/frase-alternatives.md,alt-vs,/alternative/surfer-seo-alternatives/,Surfer SEO,1. Surfer SEO,OK,1. Surfer SEO
+alternative/frase-alternatives.md,alt-vs,/alternative/clearscope-alternatives/,Clearscope,2. Clearscope,OK,2. Clearscope
+alternative/frase-alternatives.md,alt-vs,/alternative/marketmuse-alternatives/,MarketMuse,3. MarketMuse,OK,3. MarketMuse
+alternative/hockeystack-alternatives.md,neutral,/compare/dreamdata-vs-hockeystack/,Dreamdata,(before any heading),MISPLACED,1. Dreamdata
+alternative/hockeystack-alternatives.md,alt-vs,/alternative/dreamdata-alternatives/,Dreamdata,1. Dreamdata,OK,1. Dreamdata
+alternative/hotjar-alternatives.md,neutral,/compare/hotjar-vs-fullstory/,FullStory,(before any heading),MISPLACED,6. FullStory
+alternative/hotjar-alternatives.md,neutral,/compare/hotjar-vs-microsoft-clarity/,Microsoft Clarity,2. Microsoft Clarity,OK,2. Microsoft Clarity
+alternative/hotjar-alternatives.md,alt-vs,/alternative/mouseflow-alternatives/,Mouseflow,3. Mouseflow,OK,3. Mouseflow
+alternative/hotjar-alternatives.md,neutral,/compare/hotjar-vs-mouseflow/,Mouseflow,3. Mouseflow,OK,3. Mouseflow
+alternative/instapage-alternatives.md,neutral,/compare/instapage-vs-leadpages/,Leadpages,(before any heading),MISPLACED,3. Leadpages
+alternative/instapage-alternatives.md,alt-vs,/alternative/unbounce-alternatives/,Unbounce,1. Unbounce,OK,1. Unbounce
+alternative/instapage-alternatives.md,alt-vs,/alternative/convert-alternatives/,Convert,3. Leadpages,MISPLACED,paragraph @ 15751-15940
+alternative/instapage-alternatives.md,alt-vs,/alternative/leadpages-alternatives/,Leadpages,3. Leadpages,OK,3. Leadpages
+alternative/instapage-alternatives.md,alt-vs,/alternative/optimizely-alternatives/,Optimizely,5. Webflow,MISPLACED,paragraph @ 23263-23521
+alternative/instapage-alternatives.md,alt-vs,/alternative/vwo-alternatives/,VWO,5. Webflow,MISPLACED,paragraph @ 23263-23521
+alternative/jasper-alternatives.md,neutral,/compare/jasper-vs-writesonic/,Writesonic,(before any heading),MISPLACED,1. Writesonic
+alternative/jasper-alternatives.md,neutral,/compare/jasper-vs-copy-ai/,Copy.ai,(before any heading),MISPLACED,2. Copy.ai
+alternative/jasper-alternatives.md,alt-vs,/alternative/writesonic-alternatives/,Writesonic,1. Writesonic,OK,1. Writesonic
+alternative/jasper-alternatives.md,alt-vs,/alternative/surfer-seo-alternatives/,Surfer SEO,5. Frase,MISPLACED,paragraph @ 22556-22832
+alternative/jasper-alternatives.md,alt-vs,/alternative/frase-alternatives/,Frase,5. Frase,OK,5. Frase
+alternative/kalungi-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,1. Directive Consulting,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/kalungi-alternatives.md,alt-vs,/alternative/directive-consulting-alternatives/,Directive Consulting,1. Directive Consulting,OK,1. Directive Consulting
+alternative/kalungi-alternatives.md,piperocket-vs,/compare/piperocket-vs-directive-consulting/,Directive Consulting,1. Directive Consulting,OK,1. Directive Consulting
+alternative/kalungi-alternatives.md,alt-vs,/alternative/jasper-alternatives/,Jasper,3. Omniscient Digital,MISPLACED,paragraph @ 17651-17961
+alternative/kalungi-alternatives.md,alt-vs,/alternative/cognism-alternatives/,Cognism,8. Refine Labs,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/klientboost-alternatives.md,piperocket-vs,/compare/piperocket-digital-vs-klientboost/,KlientBoost,(before any heading),MISPLACED,paragraph @ 2-237
+alternative/klientboost-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,1. Directive Consulting,MISPLACED,paragraph @ 6117-6449
+alternative/klientboost-alternatives.md,alt-vs,/alternative/directive-consulting-alternatives/,Directive Consulting,1. Directive Consulting,OK,1. Directive Consulting
+alternative/klientboost-alternatives.md,piperocket-vs,/compare/piperocket-vs-directive-consulting/,Directive Consulting,1. Directive Consulting,OK,1. Directive Consulting
+alternative/klientboost-alternatives.md,alt-vs,/alternative/nogood-alternatives/,NoGood,4. NoGood,OK,4. NoGood
+alternative/klientboost-alternatives.md,piperocket-vs,/compare/piperocket-digital-vs-nogood/,NoGood,4. NoGood,OK,4. NoGood
+alternative/klientboost-alternatives.md,neutral,/compare/klientboost-vs-disruptive-advertising/,Disruptive Advertising,5. Disruptive Advertising,OK,5. Disruptive Advertising
+alternative/leadfeeder-alternatives.md,neutral,/compare/leadfeeder-vs-albacross/,Albacross,(before any heading),MISPLACED,6. Albacross
+alternative/leadfeeder-alternatives.md,alt-vs,/alternative/demandbase-alternatives/,Demandbase,1. Demandbase,OK,1. Demandbase
+alternative/leadfeeder-alternatives.md,alt-vs,/alternative/6sense-alternatives/,6sense,3. 6sense,OK,3. 6sense
+alternative/lusha-alternatives.md,neutral,/compare/uplead-vs-apollo/,UpLead,(before any heading),MISPLACED,6. UpLead
+alternative/lusha-alternatives.md,neutral,/compare/kaspr-vs-lusha/,Kaspr,(before any heading),MISPLACED,8. Kaspr
+alternative/lusha-alternatives.md,neutral,/compare/lusha-vs-cognism/,Cognism,(before any heading),MISPLACED,3. Cognism
+alternative/lusha-alternatives.md,alt-vs,/alternative/apollo-alternatives/,Apollo,1. Apollo.io,OK,1. Apollo.io
+alternative/lusha-alternatives.md,alt-vs,/alternative/cognism-alternatives/,Cognism,3. Cognism,OK,3. Cognism
+alternative/lusha-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,4. ZoomInfo,OK,4. ZoomInfo
+alternative/mangools-alternatives.md,alt-vs,/alternative/serpstat-alternatives/,Serpstat,4. Serpstat,OK,4. Serpstat
+alternative/marketmuse-alternatives.md,neutral,/compare/marketmuse-vs-frase/,Frase,(before any heading),MISPLACED,3. Frase
+alternative/marketmuse-alternatives.md,alt-vs,/alternative/optimizely-alternatives/,Optimizely,2. Clearscope,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/mouseflow-alternatives.md,neutral,/compare/vwo-vs-optimizely/,VWO,(before any heading),MISPLACED,7. VWO (Insights)
+alternative/mouseflow-alternatives.md,alt-vs,/alternative/optimizely-alternatives/,Optimizely,(before any heading),FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/mouseflow-alternatives.md,alt-vs,/alternative/hotjar-alternatives/,Hotjar,2. Hotjar (by Contentsquare),OK,2. Hotjar (by Contentsquare)
+alternative/mouseflow-alternatives.md,neutral,/compare/hotjar-vs-mouseflow/,Hotjar,2. Hotjar (by Contentsquare),OK,2. Hotjar (by Contentsquare)
+alternative/mouseflow-alternatives.md,alt-vs,/alternative/vwo-alternatives/,VWO,7. VWO (Insights),OK,7. VWO (Insights)
+alternative/moz-alternatives.md,neutral,/compare/moz-vs-semrush/,Semrush,(before any heading),MISPLACED,1. Semrush
+alternative/moz-alternatives.md,neutral,/compare/ahrefs-vs-moz/,Ahrefs,(before any heading),MISPLACED,2. Ahrefs
+alternative/moz-alternatives.md,neutral,/compare/serpstat-vs-moz/,Serpstat,(before any heading),MISPLACED,4. Serpstat
+alternative/moz-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,1. Semrush,OK,1. Semrush
+alternative/moz-alternatives.md,alt-vs,/alternative/ahrefs-alternatives/,Ahrefs,2. Ahrefs,OK,2. Ahrefs
+alternative/moz-alternatives.md,alt-vs,/alternative/serpstat-alternatives/,Serpstat,4. Serpstat,OK,4. Serpstat
+alternative/moz-alternatives.md,alt-vs,/alternative/mangools-alternatives/,Mangools,6. Mangools,OK,6. Mangools
+alternative/moz-alternatives.md,alt-vs,/alternative/ubersuggest-alternatives/,Ubersuggest,7. Ubersuggest,OK,7. Ubersuggest
+alternative/moz-alternatives.md,alt-vs,/alternative/clearscope-alternatives/,Clearscope,7. Ubersuggest,MISPLACED,paragraph @ 38305-38643
+alternative/mutiny-alternatives.md,alt-vs,/alternative/vwo-alternatives/,VWO,1. VWO,OK,1. VWO
+alternative/nogood-alternatives.md,piperocket-vs,/compare/piperocket-digital-vs-nogood/,NoGood,(before any heading),MISPLACED,paragraph @ 2-222
+alternative/nogood-alternatives.md,alt-vs,/alternative/cognism-alternatives/,Cognism,4. Refine Labs,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/nogood-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,7. Directive Consulting,MISPLACED,paragraph @ 33407-33749
+alternative/nogood-alternatives.md,alt-vs,/alternative/directive-consulting-alternatives/,Directive Consulting,7. Directive Consulting,OK,7. Directive Consulting
+alternative/nogood-alternatives.md,piperocket-vs,/compare/piperocket-vs-directive-consulting/,Directive Consulting,7. Directive Consulting,OK,7. Directive Consulting
+alternative/omniscient-digital-alternatives.md,alt-vs,/alternative/siege-media-alternatives/,Siege Media,1. Siege Media,OK,1. Siege Media
+alternative/omniscient-digital-alternatives.md,piperocket-vs,/compare/piperocket-digital-vs-siege-media/,Siege Media,1. Siege Media,OK,1. Siege Media
+alternative/omniscient-digital-alternatives.md,neutral,/compare/siege-media-vs-omniscient-digital/,Siege Media,1. Siege Media,OK,1. Siege Media
+alternative/omniscient-digital-alternatives.md,alt-vs,/alternative/leadfeeder-alternatives/,Leadfeeder,4. Grow and Convert,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/omniscient-digital-alternatives.md,alt-vs,/alternative/hotjar-alternatives/,Hotjar,7. Codeless,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/omniscient-digital-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,10. Optimist,MISPLACED,paragraph @ 49465-49806
+alternative/omniscient-digital-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,10. Optimist,MISPLACED,paragraph @ 49465-49806
+alternative/opteo-alternatives.md,neutral,/compare/optmyzr-vs-opteo/,Optmyzr,(before any heading),MISPLACED,1. Optmyzr
+alternative/opteo-alternatives.md,alt-vs,/alternative/optmyzr-alternatives/,Optmyzr,1. Optmyzr,OK,1. Optmyzr
+alternative/optimizely-alternatives.md,alt-vs,/alternative/ab-tasty-alternatives/,AB Tasty,1. Invesp,MISPLACED,paragraph @ 5230-5452
+alternative/optimizely-alternatives.md,neutral,/compare/optimizely-vs-ab-tasty/,AB Tasty,1. Invesp,MISPLACED,paragraph @ 5230-5452
+alternative/optimizely-alternatives.md,alt-vs,/alternative/vwo-alternatives/,VWO,1. Invesp,MISPLACED,paragraph @ 5230-5452
+alternative/optimizely-alternatives.md,alt-vs,/alternative/hotjar-alternatives/,Hotjar,7. KlientBoost,MISPLACED,paragraph @ 29436-29662
+alternative/optimizely-alternatives.md,alt-vs,/alternative/klientboost-alternatives/,KlientBoost,7. KlientBoost,OK,7. KlientBoost
+alternative/optmyzr-alternatives.md,neutral,/compare/optmyzr-vs-opteo/,Opteo,(before any heading),MISPLACED,1. Opteo
+alternative/optmyzr-alternatives.md,alt-vs,/alternative/opteo-alternatives/,Opteo,1. Opteo,OK,1. Opteo
+alternative/powered-by-search-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,1. Directive Consulting,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/powered-by-search-alternatives.md,alt-vs,/alternative/cognism-alternatives/,Cognism,3. Refine Labs,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/raventools-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,1. SE Ranking,MISPLACED,paragraph @ 7016-7303
+alternative/raventools-alternatives.md,alt-vs,/alternative/ahrefs-alternatives/,Ahrefs,1. SE Ranking,MISPLACED,paragraph @ 9208-9404
+alternative/refine-labs-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,1. Directive Consulting,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/refine-labs-alternatives.md,neutral,/compare/directive-consulting-vs-refine-labs/,Directive Consulting,1. Directive Consulting,OK,1. Directive Consulting
+alternative/refine-labs-alternatives.md,alt-vs,/alternative/klientboost-alternatives/,KlientBoost,5. KlientBoost,OK,5. KlientBoost
+alternative/rollworks-alternatives.md,alt-vs,/alternative/cognism-alternatives/,Cognism,6. Refine Labs,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/screaming-frog-alternatives.md,alt-vs,/alternative/sitebulb-alternatives/,Sitebulb,1. Sitebulb,OK,1. Sitebulb
+alternative/screaming-frog-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,2. Semrush Site Audit,OK,2. Semrush Site Audit
+alternative/screaming-frog-alternatives.md,alt-vs,/alternative/ahrefs-alternatives/,Ahrefs,3. Ahrefs Site Audit,OK,3. Ahrefs Site Audit
+alternative/screaming-frog-alternatives.md,alt-vs,/alternative/conductor-alternatives/,Conductor,7. Conductor Website Monitoring (formerly ContentKing),OK,7. Conductor Website Monitoring (formerly ContentKing)
+alternative/semrush-alternatives.md,neutral,/compare/moz-vs-semrush/,?,(before any heading),UNRESOLVED,could not determine expected competitor name
+alternative/semrush-alternatives.md,neutral,/compare/semrush-vs-serpstat/,Serpstat,(before any heading),MISPLACED,5. Serpstat
+alternative/semrush-alternatives.md,neutral,/compare/ahrefs-vs-semrush/,Ahrefs,(before any heading),MISPLACED,1. Ahrefs
+alternative/semrush-alternatives.md,alt-vs,/alternative/ahrefs-alternatives/,Ahrefs,1. Ahrefs,OK,1. Ahrefs
+alternative/semrush-alternatives.md,alt-vs,/alternative/serpstat-alternatives/,Serpstat,5. Serpstat,OK,5. Serpstat
+alternative/semrush-alternatives.md,alt-vs,/alternative/mangools-alternatives/,Mangools,6. Mangools,OK,6. Mangools
+alternative/semrush-alternatives.md,alt-vs,/compare/ahrefs-vs-ubersuggest/,?,8. Ubersuggest,UNRESOLVED,could not determine expected competitor name
+alternative/seobility-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,1. Semrush,OK,1. Semrush
+alternative/seobility-alternatives.md,alt-vs,/compare/ahrefs-vs-moz/,?,4. Moz Pro,UNRESOLVED,could not determine expected competitor name
+alternative/seobility-alternatives.md,alt-vs,/alternative/serpstat-alternatives/,Serpstat,6. Serpstat,OK,6. Serpstat
+alternative/seobility-alternatives.md,alt-vs,/alternative/mangools-alternatives/,Mangools,7. Mangools,OK,7. Mangools
+alternative/seozoom-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,1. Semrush,OK,1. Semrush
+alternative/seozoom-alternatives.md,alt-vs,/alternative/serpstat-alternatives/,Serpstat,5. Serpstat,OK,5. Serpstat
+alternative/seozoom-alternatives.md,alt-vs,/alternative/mangools-alternatives/,Mangools,6. Mangools,OK,6. Mangools
+alternative/seozoom-alternatives.md,alt-vs,/alternative/seobility-alternatives/,Seobility,7. Seobility,OK,7. Seobility
+alternative/seozoom-alternatives.md,alt-vs,/alternative/ubersuggest-alternatives/,Ubersuggest,8. Ubersuggest,OK,8. Ubersuggest
+alternative/serpstat-alternatives.md,alt-vs,/alternative/ahrefs-alternatives/,Ahrefs,1. Ahrefs,OK,1. Ahrefs
+alternative/serpstat-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,2. Semrush,OK,2. Semrush
+alternative/serpstat-alternatives.md,alt-vs,/alternative/mangools-alternatives/,Mangools,5. Mangools,OK,5. Mangools
+alternative/siege-media-alternatives.md,alt-vs,/alternative/jasper-alternatives/,Jasper,1. Omniscient Digital,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/siege-media-alternatives.md,alt-vs,/alternative/hotjar-alternatives/,Hotjar,1. Omniscient Digital,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/siege-media-alternatives.md,alt-vs,/alternative/omniscient-digital-alternatives/,Omniscient Digital,1. Omniscient Digital,OK,1. Omniscient Digital
+alternative/siege-media-alternatives.md,piperocket-vs,/compare/piperocket-digital-vs-omniscient-digital/,Omniscient Digital,1. Omniscient Digital,OK,1. Omniscient Digital
+alternative/siege-media-alternatives.md,neutral,/compare/siege-media-vs-omniscient-digital/,Omniscient Digital,1. Omniscient Digital,OK,1. Omniscient Digital
+alternative/siege-media-alternatives.md,neutral,/compare/siege-media-vs-animalz/,Animalz,3. Animalz,OK,3. Animalz
+alternative/siege-media-alternatives.md,alt-vs,/alternative/leadfeeder-alternatives/,Leadfeeder,4. Grow and Convert,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/simpletiger-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,1. Directive Consulting,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/simpletiger-alternatives.md,alt-vs,/alternative/jasper-alternatives/,Jasper,3. Omniscient Digital,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/simpletiger-alternatives.md,alt-vs,/alternative/mutiny-alternatives/,Mutiny,3. Omniscient Digital,MISPLACED,paragraph @ 19430-19610
+alternative/simpletiger-alternatives.md,neutral,/compare/simpletiger-vs-skale/,Skale,4. Skale,OK,4. Skale
+alternative/simpletiger-alternatives.md,alt-vs,/alternative/leadfeeder-alternatives/,Leadfeeder,5. Grow and Convert,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/simpletiger-alternatives.md,alt-vs,/alternative/moz-alternatives/,Moz,7. Foundation Inc,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/single-grain-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,1. Directive Consulting,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/single-grain-alternatives.md,piperocket-vs,/compare/piperocket-vs-directive-consulting/,Directive Consulting,1. Directive Consulting,OK,1. Directive Consulting
+alternative/single-grain-alternatives.md,alt-vs,/alternative/klientboost-alternatives/,KlientBoost,3. KlientBoost,OK,3. KlientBoost
+alternative/single-grain-alternatives.md,piperocket-vs,/compare/piperocket-digital-vs-klientboost/,KlientBoost,3. KlientBoost,OK,3. KlientBoost
+alternative/single-grain-alternatives.md,alt-vs,/alternative/jasper-alternatives/,Jasper,4. Omniscient Digital,MISPLACED,paragraph @ 21531-21785
+alternative/sitebulb-alternatives.md,alt-vs,/alternative/ahrefs-alternatives/,Ahrefs,1. Ahrefs Site Audit,OK,1. Ahrefs Site Audit
+alternative/sitebulb-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,2. Semrush Site Audit,MISPLACED,paragraph @ 9594-9822
+alternative/sitebulb-alternatives.md,neutral,/compare/ahrefs-vs-semrush/,?,2. Semrush Site Audit,UNRESOLVED,could not determine expected competitor name
+alternative/sitebulb-alternatives.md,alt-vs,/alternative/botify-alternatives/,Botify,5. Botify,OK,5. Botify
+alternative/sitebulb-alternatives.md,alt-vs,/alternative/brightedge-alternatives/,BrightEdge,7. Conductor Website Monitoring (formerly ContentKing),MISPLACED,paragraph @ 26384-26471
+alternative/sitebulb-alternatives.md,alt-vs,/alternative/conductor-alternatives/,Conductor,7. Conductor Website Monitoring (formerly ContentKing),OK,7. Conductor Website Monitoring (formerly ContentKing)
+alternative/skale-alternatives.md,alt-vs,/alternative/mutiny-alternatives/,Mutiny,3. Omniscient Digital,MISPLACED,paragraph @ 15972-16308
+alternative/skale-alternatives.md,alt-vs,/alternative/jasper-alternatives/,Jasper,3. Omniscient Digital,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/skale-alternatives.md,alt-vs,/alternative/leadfeeder-alternatives/,Leadfeeder,5. Grow and Convert,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/skale-alternatives.md,neutral,/compare/simpletiger-vs-skale/,SimpleTiger,6. SimpleTiger,OK,6. SimpleTiger
+alternative/skale-alternatives.md,alt-vs,/alternative/moz-alternatives/,Moz,8. Foundation Inc,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/skale-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,9. Optimist,MISPLACED,paragraph @ 44480-44736
+alternative/skale-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,9. Optimist,MISPLACED,paragraph @ 46120-46324
+alternative/surfer-seo-alternatives.md,neutral,/compare/surfer-seo-vs-frase/,Frase,(before any heading),MISPLACED,2. Frase.io
+alternative/surfer-seo-alternatives.md,alt-vs,/alternative/clearscope-alternatives/,Clearscope,1. Clearscope,OK,1. Clearscope
+alternative/surfer-seo-alternatives.md,alt-vs,/alternative/ahrefs-alternatives/,Ahrefs,2. Frase.io,MISPLACED,paragraph @ 11427-11691
+alternative/surfer-seo-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,2. Frase.io,MISPLACED,paragraph @ 11427-11691
+alternative/surfer-seo-alternatives.md,alt-vs,/alternative/frase-alternatives/,Frase,2. Frase.io,OK,2. Frase.io
+alternative/surfer-seo-alternatives.md,alt-vs,/alternative/marketmuse-alternatives/,MarketMuse,3. MarketMuse,OK,3. MarketMuse
+alternative/ubersuggest-alternatives.md,neutral,/compare/mangools-vs-ubersuggest/,Mangools,(before any heading),MISPLACED,5. Mangools
+alternative/ubersuggest-alternatives.md,neutral,/compare/ahrefs-vs-ubersuggest/,Ahrefs,(before any heading),MISPLACED,2. Ahrefs
+alternative/ubersuggest-alternatives.md,alt-vs,/alternative/semrush-alternatives/,Semrush,1. Semrush,OK,1. Semrush
+alternative/ubersuggest-alternatives.md,alt-vs,/alternative/ahrefs-alternatives/,Ahrefs,2. Ahrefs,OK,2. Ahrefs
+alternative/ubersuggest-alternatives.md,alt-vs,/alternative/moz-alternatives/,Moz,4. Moz Pro,OK,4. Moz Pro
+alternative/ubersuggest-alternatives.md,alt-vs,/alternative/mangools-alternatives/,Mangools,5. Mangools,OK,5. Mangools
+alternative/ubersuggest-alternatives.md,alt-vs,/alternative/serpstat-alternatives/,Serpstat,6. Serpstat,OK,6. Serpstat
+alternative/unbounce-alternatives.md,neutral,/compare/leadpages-vs-unbounce/,Leadpages,(before any heading),MISPLACED,3. Leadpages
+alternative/unbounce-alternatives.md,neutral,/compare/unbounce-vs-instapage/,Instapage,(before any heading),MISPLACED,1. Instapage
+alternative/unbounce-alternatives.md,alt-vs,/alternative/convert-alternatives/,Convert,1. Instapage,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/unbounce-alternatives.md,alt-vs,/alternative/instapage-alternatives/,Instapage,1. Instapage,OK,1. Instapage
+alternative/unbounce-alternatives.md,alt-vs,/alternative/leadpages-alternatives/,Leadpages,3. Leadpages,OK,3. Leadpages
+alternative/unbounce-alternatives.md,alt-vs,/alternative/optimizely-alternatives/,Optimizely,4. Webflow,MISPLACED,paragraph @ 19235-19512
+alternative/unbounce-alternatives.md,alt-vs,/alternative/vwo-alternatives/,VWO,4. Webflow,MISPLACED,paragraph @ 19235-19512
+alternative/vwo-alternatives.md,neutral,/compare/vwo-vs-convert/,Convert,(before any heading),MISPLACED,5. Convert.com
+alternative/vwo-alternatives.md,alt-vs,/alternative/convert-alternatives/,Convert,5. Convert.com,OK,5. Convert.com
+alternative/vwo-alternatives.md,alt-vs,/alternative/ab-tasty-alternatives/,AB Tasty,7. AB Tasty,OK,7. AB Tasty
+alternative/webfx-alternatives.md,alt-vs,/alternative/zoominfo-alternatives/,ZoomInfo,1. Directive Consulting,FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/webfx-alternatives.md,alt-vs,/alternative/directive-consulting-alternatives/,Directive Consulting,1. Directive Consulting,OK,1. Directive Consulting
+alternative/webfx-alternatives.md,piperocket-vs,/compare/piperocket-vs-directive-consulting/,Directive Consulting,1. Directive Consulting,OK,1. Directive Consulting
+alternative/webfx-alternatives.md,alt-vs,/alternative/klientboost-alternatives/,KlientBoost,3. KlientBoost,OK,3. KlientBoost
+alternative/webfx-alternatives.md,piperocket-vs,/compare/piperocket-digital-vs-klientboost/,KlientBoost,3. KlientBoost,OK,3. KlientBoost
+alternative/webfx-alternatives.md,alt-vs,/alternative/ubersuggest-alternatives/,Ubersuggest,6. NP Digital,MISPLACED,paragraph @ 28983-29281
+alternative/zoominfo-alternatives.md,neutral,/compare/clearbit-vs-zoominfo/,ZoomInfo,(before any heading),MISPLACED,paragraph @ 2-165
+alternative/zoominfo-alternatives.md,neutral,/compare/clearbit-vs-lusha/,Clearbit,(before any heading),FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+alternative/zoominfo-alternatives.md,neutral,/compare/seamless-ai-vs-zoominfo/,Seamless.AI,(before any heading),MISPLACED,5. Seamless.AI
+alternative/zoominfo-alternatives.md,neutral,/compare/clay-vs-apollo/,Clay,(before any heading),MISPLACED,4. Clay
+alternative/zoominfo-alternatives.md,neutral,/compare/apollo-vs-zoominfo/,Apollo,(before any heading),MISPLACED,1. Apollo.io
+alternative/zoominfo-alternatives.md,alt-vs,/alternative/apollo-alternatives/,Apollo,1. Apollo.io,OK,1. Apollo.io
+alternative/zoominfo-alternatives.md,alt-vs,/alternative/cognism-alternatives/,Cognism,2. Cognism,OK,2. Cognism
+alternative/zoominfo-alternatives.md,alt-vs,/alternative/lusha-alternatives/,Lusha,3. Lusha,OK,3. Lusha
+alternative/zoominfo-alternatives.md,alt-vs,/alternative/bombora-alternatives/,Bombora,8. Lead411,MISPLACED,paragraph @ 33708-33952
+list/best-aeo-agency.md,alt-vs,/alternative/single-grain-alternatives/,Single Grain,4. Single Grain,OK,4. Single Grain
+list/best-ai-seo-agencies.md,alt-vs,/alternative/simpletiger-alternatives/,SimpleTiger,3. SimpleTiger,OK,3. SimpleTiger
+list/best-ai-seo-agencies.md,alt-vs,/alternative/skale-alternatives/,Skale,5. Skale,OK,5. Skale
+list/best-b2b-content-marketing-agencies.md,alt-vs,/alternative/animalz-alternatives/,Animalz,1. Animalz,OK,1. Animalz
+list/best-b2b-demand-generation-agencies.md,alt-vs,/alternative/refine-labs-alternatives/,Refine Labs,1. Refine Labs,OK,1. Refine Labs
+list/best-b2b-seo-agencies.md,alt-vs,/alternative/kalungi-alternatives/,Kalungi,7. Kalungi,OK,7. Kalungi
+list/best-cybersecurity-marketing-agencies.md,alt-vs,/alternative/kalungi-alternatives/,Kalungi,10. Kalungi,OK,10. Kalungi
+list/best-devtools-marketing-agencies.md,alt-vs,/alternative/animalz-alternatives/,Animalz,6. Animalz,OK,6. Animalz
+list/best-devtools-marketing-agencies.md,alt-vs,/alternative/refine-labs-alternatives/,Refine Labs,10. Refine Labs,OK,10. Refine Labs
+list/best-geo-agencies.md,alt-vs,/alternative/single-grain-alternatives/,Single Grain,6. Single Grain,OK,6. Single Grain
+list/best-geo-agencies.md,alt-vs,/alternative/animalz-alternatives/,Animalz,7. Animalz,OK,7. Animalz
+list/best-geo-agencies.md,alt-vs,/alternative/simpletiger-alternatives/,SimpleTiger,8. SimpleTiger,OK,8. SimpleTiger
+list/best-legaltech-marketing-agencies.md,alt-vs,/alternative/skale-alternatives/,Skale,6. Skale,OK,6. Skale
+list/best-linkedin-marketing-agencies.md,alt-vs,/alternative/refine-labs-alternatives/,Refine Labs,10. Refine Labs,OK,10. Refine Labs
+list/best-martech-marketing-agencies.md,alt-vs,/alternative/refine-labs-alternatives/,Refine Labs,3. Refine Labs,OK,3. Refine Labs
+list/best-martech-marketing-agencies.md,alt-vs,/alternative/kalungi-alternatives/,Kalungi,9. Kalungi,OK,9. Kalungi
+list/best-reddit-ads-agencies.md,alt-vs,/alternative/single-grain-alternatives/,Single Grain,5. Single Grain,OK,5. Single Grain
+list/best-saas-content-marketing-agencies.md,alt-vs,/alternative/animalz-alternatives/,Animalz,3. Animalz,OK,3. Animalz
+list/best-saas-growth-marketing-agencies.md,alt-vs,/alternative/kalungi-alternatives/,Kalungi,4. Kalungi,OK,4. Kalungi
+list/best-saas-growth-marketing-agencies.md,alt-vs,/alternative/single-grain-alternatives/,Single Grain,6. Single Grain,OK,6. Single Grain
+list/best-saas-growth-marketing-agencies.md,alt-vs,/alternative/powered-by-search-alternatives/,Powered by Search,8. Powered by Search,OK,8. Powered by Search
+list/best-saas-llmo-agencies.md,alt-vs,/alternative/skale-alternatives/,Skale,6. Skale,OK,6. Skale
+list/best-saas-marketing-agencies-2026.md,alt-vs,/alternative/kalungi-alternatives/,Kalungi,4. Kalungi,OK,4. Kalungi
+list/best-saas-marketing-agencies-2026.md,alt-vs,/alternative/refine-labs-alternatives/,Refine Labs,5. Refine Labs,OK,5. Refine Labs
+list/best-saas-marketing-agencies-2026.md,alt-vs,/alternative/simpletiger-alternatives/,SimpleTiger,8. SimpleTiger,OK,8. SimpleTiger
+list/best-saas-marketing-agencies-2026.md,alt-vs,/alternative/animalz-alternatives/,Animalz,9. Animalz,OK,9. Animalz
+list/best-saas-ppc-agencies.md,alt-vs,/alternative/powered-by-search-alternatives/,Powered by Search,4. Powered by Search,OK,4. Powered by Search
+list/best-saas-ppc-agencies.md,alt-vs,/alternative/single-grain-alternatives/,Single Grain,8. Single Grain,OK,8. Single Grain
+list/best-saas-seo-agencies.md,alt-vs,/alternative/kalungi-alternatives/,Kalungi,9. Kalungi,OK,9. Kalungi
+list/best-saas-seo-agencies.md,alt-vs,/alternative/simpletiger-alternatives/,SimpleTiger,11. Simple Tiger,OK,11. Simple Tiger
+list/best-saas-seo-agencies.md,alt-vs,/alternative/powered-by-search-alternatives/,Powered by Search,12. Powered by Search,OK,12. Powered by Search
+blogs/how-to-write-saas-seo-content-with-ai-that-actually-ranks.md,neutral,/compare/jasper-vs-copy-ai/,Jasper,(before any heading),FALSE-POSITIVE,fixed matcher finds NO valid location at all now
+blogs/optimize-saas-landing-pages-for-seo.md,neutral,/compare/hotjar-vs-fullstory/,Hotjar,(before any heading),MISPLACED,paragraph @ 11738-11857
+blogs/saas-seo.md,neutral,/compare/marketmuse-vs-clearscope/,MarketMuse,(before any heading),FALSE-POSITIVE,fixed matcher finds NO valid location at all now

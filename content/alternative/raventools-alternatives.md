@@ -89,6 +89,10 @@ Also evaluating Semrush? See our [Semrush alternatives](/alternative/semrush-alt
 
 
 
+
+
+
+
 - 297 Capterra reviews at 4.7/5, one of the larger, more credible review bases in this set.
 
 **Complain:** "Service broken more often than it should be"
@@ -124,6 +128,10 @@ SE Ranking uses tiered subscription pricing. As of July 2026, the Core plan runs
 Weighing SE Ranking against other platforms directly? See our neutral [SE Ranking vs Ahrefs](/compare/se-ranking-vs-ahrefs/) or [SE Ranking vs Semrush](/compare/se-ranking-vs-semrush/) breakdowns.
 
 Looking at Ahrefs too? Our [Ahrefs alternatives](/alternative/ahrefs-alternatives/) review covers who beats them on what.
+
+
+
+
 
 
 

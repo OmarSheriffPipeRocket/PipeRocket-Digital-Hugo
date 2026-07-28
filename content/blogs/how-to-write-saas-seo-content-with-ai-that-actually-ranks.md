@@ -77,7 +77,7 @@ The bigger reason I land on Gemini is voice. I've tested most of the options for
 | **Claude** | Strong writer, but still smooths the spoken voice more than I want for this. |
 | **Jasper** | Built for marketing copy, not for preserving a raw expert transcript's tone. |
 
-Weighing the two directly? See our neutral [Jasper vs Copy.ai](/compare/jasper-vs-copy-ai/) breakdown.
+
 
 
 

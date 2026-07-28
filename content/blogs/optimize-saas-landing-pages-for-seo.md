@@ -178,6 +178,10 @@ Weighing the two directly? See our neutral [Hotjar vs FullStory](/compare/hotjar
 
 
 
+
+
+
+
 - Where are they scrolling?
 - Where are the clicks going?
 - Are the CTA buttons properly placed, or are they invisible?

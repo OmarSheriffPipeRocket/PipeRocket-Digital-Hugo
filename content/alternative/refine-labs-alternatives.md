@@ -75,7 +75,7 @@ Best for: High-ACV SaaS and fintech with multi-quarter sales cycles needing cost
 | Notable Clients | iCIMS, ZoomInfo, Calendly, Adobe, Cisco, Seismic, Gong, Chili Piper |
 | Specialization | Customer Generation, paid media, SEO, CRO, revenue operations |
 
-Also evaluating Zoominfo? See our [Zoominfo alternatives](/alternative/zoominfo-alternatives/) breakdown.
+
 
 
 

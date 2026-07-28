@@ -192,7 +192,7 @@ The 2026 stack is more crowded than the 2020 version, but the core stays small. 
 | AI visibility and citation tracking | Ahrefs Brand Radar, Semrush AI Visibility Toolkit, Profound, Otterly |
 | Intent data | 6sense, Bombora, Clearbit, ZoomInfo, RB2B |
 
-Weighing the two directly? See our neutral [MarketMuse vs Clearscope](/compare/marketmuse-vs-clearscope/) breakdown.
+
 
 
 

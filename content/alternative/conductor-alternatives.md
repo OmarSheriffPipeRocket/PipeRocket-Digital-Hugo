@@ -405,7 +405,7 @@ Best for: B2B software teams wanting a content-and-strategy team that builds the
 | Notable Clients | SAP, Adobe, TikTok, Asana, Loom, Jasper (reported) |
 | Specialization | Organic growth for B2B software; expanding into GEO and programmatic SEO |
 
-Also evaluating Jasper? See our [Jasper alternatives](/alternative/jasper-alternatives/) breakdown.
+
 
 
 
@@ -418,6 +418,10 @@ Also evaluating Jasper? See our [Jasper alternatives](/alternative/jasper-altern
 **Proof point:** A CEO at Mutiny said Omniscient's "strategic, data-driven approach to SEO and content stood out," and a CMO at Convert.com said "We ranked for all the targeted keywords we intended to" (reported via [Clutch](https://clutch.co/profile/omniscient-digital)).
 
 Looking at Mutiny too? Our [Mutiny alternatives](/alternative/mutiny-alternatives/) review covers who beats them on what.
+
+
+
+
 
 
 

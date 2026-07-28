@@ -292,7 +292,7 @@ Best for: Series B+ B2B SaaS companies with $50K+/mo in existing ad spend ready 
 | Notable Clients | Algolia, Clari, Cognism, BeyondTrust, Showpad, Dandy, Vena, Balto |
 | Specialization | B2B demand generation, dark funnel, paid social |
 
-Also evaluating Cognism? See our [Cognism alternatives](/alternative/cognism-alternatives/) breakdown.
+
 
 
 
@@ -436,7 +436,7 @@ Best for: SaaS companies scaling an existing paid media motion through rapid cre
 | Notable Clients | Gong, PostHog, Toggl, Hotjar, UserTesting, Lavender, Upwork |
 | Specialization | PPC, CRO, landing page design, creative testing |
 
-Also evaluating Hotjar? See our [Hotjar alternatives](/alternative/hotjar-alternatives/) breakdown.
+
 
 
 

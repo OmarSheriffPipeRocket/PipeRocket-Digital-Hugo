@@ -415,7 +415,7 @@ Best for: $50MM-plus ARR SaaS companies rethinking demand measurement beyond MQL
 | Notable Clients | Dandy, Zappi, Hunters, Algolia, Showpad, BeyondTrust, Cognism, Clari |
 | Specialization | Demand Acceleration Framework, brand strategy |
 
-Also evaluating Cognism? See our [Cognism alternatives](/alternative/cognism-alternatives/) breakdown.
+
 
 
 

@@ -1,10 +1,10 @@
 Type,Pages,Total Inbound Links,Avg Inbound,Total Outbound Links,Avg Outbound,Orphans (0 inbound)
-blog,119,887,7.5,1428,12.0,9
+blog,119,887,7.5,1426,12.0,9
 service,103,889,8.6,442,4.3,20
 glossary,80,944,11.8,876,10.9,20
 listicle,65,362,5.6,873,13.4,28
-compare,61,239,3.9,123,2.0,0
-alternative,58,359,6.2,716,12.3,1
+compare,61,236,3.9,123,2.0,1
+alternative,58,330,5.7,686,11.8,2
 tool,30,75,2.5,0,0.0,8
 case-study,14,132,9.4,0,0.0,5
 author,13,501,38.5,0,0.0,4

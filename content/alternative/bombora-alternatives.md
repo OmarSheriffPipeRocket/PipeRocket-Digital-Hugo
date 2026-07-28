@@ -32,7 +32,7 @@ Picking the wrong intent platform wastes more than the contract value: teams end
 7. **Clay:** Best for GTM and RevOps teams that want to blend job-change, funding, hiring, and intent signals into one workflow.
 8. **RB2B:** Best for SMB and startup teams that want a low-cost entry into visitor-level identification without a five-figure contract.
 
-We put these head-to-head in our [6sense vs Bombora](/compare/6sense-vs-bombora/) breakdown.
+
 
 
 
@@ -132,6 +132,10 @@ Founding year and HQ were not directly confirmed in this research pass. Multiple
 ---
 
 Looking at 6sense too? Our [6sense alternatives](/alternative/6sense-alternatives/) review covers who beats them on what.
+
+We put these head-to-head in our [6sense vs Bombora](/compare/6sense-vs-bombora/) breakdown.
+
+
 
 
 
