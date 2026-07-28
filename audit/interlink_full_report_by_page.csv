@@ -7442,7 +7442,8 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""SaaS link building"" -> /blogs/saas-link-building/
 ""Backlink Checker"" -> /list/best-backlink-analysis-tools/
 ""our research methodology and editorial policy"" -> /research-methodology/"
-/list/best-linkedin-marketing-agencies/,listicle,10 LinkedIn Marketing Agencies Ranked in 2026,2,13,,"""best LinkedIn marketing agencies"" <- /list/best-abm-agencies/
+/list/best-linkedin-marketing-agencies/,listicle,10 LinkedIn Marketing Agencies Ranked in 2026,3,14,,"""best LinkedIn marketing agencies"" <- /list/best-abm-agencies/
+""LinkedIn"" <- /list/best-reddit-ads-agencies/
 ""11 LinkedIn Marketing Agencies Ranked in 2026"" <- /research-methodology/","""top Refine Labs alternatives"" -> /alternative/refine-labs-alternatives/
 ""Praveen Ravi"" -> /author/praveen-ravi/
 ""social proof"" -> /blogs/saas-social-proof/
@@ -7451,6 +7452,7 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""Custom pricing"" -> /contact-us/
 ""LinkedIn marketing agency"" -> /linkedin-marketing-agency/
 ""best ABM agencies"" -> /list/best-abm-agencies/
+""best Reddit Ads agencies"" -> /list/best-reddit-ads-agencies/
 ""marketing ops"" -> /marketing-ops/
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""PPC"" -> /saas-ppc/
@@ -7547,11 +7549,12 @@ Page URL,Type,Title,Inbound Count,Outbound Count,Orphan (0 inbound),Inbound Link
 ""SERP"" -> /glossary/what-is-serp/
 ""our research methodology and editorial policy"" -> /research-methodology/
 ""SaaS SEO programs"" -> /saas-seo-agency/"
-/list/best-reddit-ads-agencies/,listicle,9 Best Reddit Ads Agencies: An Honest 2026 Review,0,7,YES,,"""best Single Grain alternatives"" -> /alternative/single-grain-alternatives/
+/list/best-reddit-ads-agencies/,listicle,9 Best Reddit Ads Agencies: An Honest 2026 Review,1,8,,"""best Reddit Ads agencies"" <- /list/best-linkedin-marketing-agencies/","""best Single Grain alternatives"" -> /alternative/single-grain-alternatives/
 ""Vishnu Prasadh"" -> /author/vishnu-prasad/
 ""Reddit Ads"" -> /blogs/saas-reddit-ads/
 ""DevRev"" -> /case-study/devrev/
 ""best ABM agencies"" -> /list/best-abm-agencies/
+""LinkedIn"" -> /list/best-linkedin-marketing-agencies/
 ""paid social agency page"" -> /paid-social-agency/
 ""our research methodology and editorial policy"" -> /research-methodology/"
 /list/best-saas-content-marketing-agencies/,listicle,10 Best SaaS Content Marketing Agencies for 2026 (Honest Review),1,14,,"""top SaaS content marketing agencies"" <- /blogs/saas-content-marketing-guide/","""Animalz alternatives"" -> /alternative/animalz-alternatives/
