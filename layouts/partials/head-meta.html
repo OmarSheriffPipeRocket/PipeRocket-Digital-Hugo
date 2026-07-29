@@ -99,7 +99,7 @@
 {{ end }}
 
 {{/* ============== AI / search bot directives ============== */}}
-{{ if eq .Kind "404" }}
+{{ if or (eq .Kind "404") .Params.private }}
 <meta name="robots" content="noindex, nofollow">
 {{ else }}
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">

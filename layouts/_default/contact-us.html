@@ -310,25 +310,39 @@ window.addEventListener('message', function (e) {
   }
 });
 
-// Close the calendar modal
+// Once the lead is done with scheduling (or skips it), send them on to the
+// thank-you page. This only fires on close/booking, so the modal itself
+// still opens exactly as before.
+function goToThankYou() {
+  window.location.href = '/thank-you/';
+}
+
+// Auto-redirect once a meeting is actually booked inside the calendar iframe.
+// HubSpot's meetings scheduler posts this message to the parent window on
+// successful booking, independent of the manual-close handlers below — so a
+// lead who books doesn't have to close the modal by hand to get there. The
+// short delay lets them see HubSpot's own "Booking confirmed" screen first.
+var __prMeetingBooked = false;
+window.addEventListener('message', function (e) {
+  if (__prMeetingBooked) return;
+  if (e.data && e.data.meetingBookSucceeded) {
+    __prMeetingBooked = true;
+    setTimeout(goToThankYou, 3000);
+  }
+});
+
 document.addEventListener('click', function (e) {
   var modal = document.getElementById('pr-calendar-modal');
   if (!modal) return;
   if (e.target.id === 'pr-calendar-close' || e.target.id === 'pr-calendar-modal') {
-    modal.style.display = 'none';
-    document.body.style.overflow = '';
-    var c = document.getElementById('pr-calendar-container');
-    if (c) c.innerHTML = '';
+    goToThankYou();
   }
 });
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape') {
     var modal = document.getElementById('pr-calendar-modal');
     if (modal && modal.style.display !== 'none') {
-      modal.style.display = 'none';
-      document.body.style.overflow = '';
-      var c = document.getElementById('pr-calendar-container');
-      if (c) c.innerHTML = '';
+      goToThankYou();
     }
   }
 });

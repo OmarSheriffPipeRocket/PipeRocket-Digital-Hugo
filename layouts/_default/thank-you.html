@@ -1,0 +1,36 @@
+{{ define "head_extra" }}
+<style>
+  .pr-thanks { min-height: 60vh; display: flex; align-items: center; }
+  .pr-thanks__wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 96px 24px;
+    text-align: center;
+  }
+  .pr-thanks__title {
+    font-family: var(--pr-ivy-headline);
+    font-size: clamp(2rem, 4.2vw, 3rem);
+    line-height: 1.15;
+    color: var(--pr-ink);
+    margin: 0 0 1.25rem;
+  }
+  .pr-thanks__body {
+    font-family: var(--pr-sans);
+    font-size: 1.1rem;
+    line-height: 1.55;
+    color: var(--pr-ink);
+    margin: 0 auto 2rem;
+    max-width: 460px;
+  }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<section class="pr-thanks">
+  <div class="pr-thanks__wrap">
+    <h1 class="pr-thanks__title">Thank You For Reaching Out To<br>PipeRocket Digital!</h1>
+    <p class="pr-thanks__body">You&rsquo;ll hear from us within one business day.</p>
+    <a href="/" class="pr-btn" data-cta-source="thank-you-home">Back to homepage</a>
+  </div>
+</section>
+{{ end }}
