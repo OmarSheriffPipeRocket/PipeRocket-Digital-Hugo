@@ -10916,6 +10916,21 @@ body.pr-modal-open { overflow: hidden; }
   text-align: center;
 }
 
+/* SVG charts already render their own background/framing — drop the white
+   matting and fixed 360px box so they show at full size instead of shrunk. */
+.pr-figure--svg {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+.pr-figure--svg img {
+  height: auto;
+  background: transparent;
+  border: none;
+  padding: 0;
+  border-radius: 8px;
+}
+
 /* Responsive 16:9 YouTube embed (privacy-friendly nocookie) */
 .pr-video {
   margin: var(--pr-s-5) 0;

@@ -1,36 +1,36 @@
 ---
 draft: true
 featuredImage: "/images/case-study-covers/goldcast.svg"
-title: "ROAS More Than Doubled in Three Quarters: Goldcast's Google Ads Turnaround with PipeRocket"
+title: "6.8x Revenue on Ad Spend: Goldcast's 2025 Paid Performance with PipeRocket"
 slug: "goldcast"
 url: "/case-study/goldcast/"
-description: "How restructuring Goldcast's Google Ads account around product intent grew ROAS from 2.5x to 5.4x in three quarters, with spend falling and revenue rising every quarter."
-metaTitle: "Goldcast Case Study: ROAS 2.5x to 5.4x in Three Quarters | PipeRocket"
-metaDescription: "How PipeRocket restructured Goldcast's Google Ads account around product intent, growing ROAS from 2.5x to 5.4x in three quarters while spend fell and revenue rose every quarter."
+description: "How Goldcast's combined Google + LinkedIn Ads program returned 6.8x revenue on spend across 2025 — with spend falling and revenue climbing sharply from H1 to H2."
+metaTitle: "Goldcast Case Study: 6.8x Revenue on Ad Spend | PipeRocket"
+metaDescription: "How Goldcast's combined Google + LinkedIn Ads program returned 6.8x revenue on spend across 2025, with H2 revenue growing sharply on lower spend than H1."
 client: "Goldcast"
 logo: "/images/logos/goldcast.svg"
 industry: "SaaS · Events / Video Engagement"
-services: ["SaaS PPC", "Google Ads"]
+services: ["SaaS PPC", "Google Ads", "LinkedIn Ads"]
 company_size: "Mid-Market · Enterprise"
 region: "North America"
-goals: "Improve Google Ads efficiency and grow revenue pipeline"
-engagement_start: "Q1 2024"
-engagement_window: "Q1 2024 → Q4 2024"
-duration: "4 quarters"
-date: 2025-01-01
+goals: "Improve paid-ads efficiency and grow revenue"
+engagement_start: "2025"
+engagement_window: "H1 2025 → H2 2025"
+duration: "Full year 2025"
+date: 2026-01-05
 short_description: "Goldcast is a B2B SaaS platform that helps companies run high-quality virtual and hybrid events, and turn video engagement into measurable pipeline."
 hero_metrics:
-  - value: "2.5x → 5.4x"
-    label: "ROAS across three quarters"
-  - value: "3.5x"
-    label: "Blended return on ad spend"
-  - value: "+47%"
-    label: "Revenue growth in the strongest quarter"
+  - value: "$408K"
+    label: "Combined Google + LinkedIn Ads spend, 2025"
+  - value: "$2.78M"
+    label: "Revenue, 2025"
+  - value: "6.8x"
+    label: "Revenue on spend, full year"
 secondary_metrics:
-  - value: "Down every Q"
-    label: "Ad spend reduced quarter on quarter"
-  - value: "Up every Q"
-    label: "Revenue grew quarter on quarter"
+  - value: "3.4x"
+    label: "Revenue on spend — H1 2025"
+  - value: "11.5x"
+    label: "Revenue on spend — H2 2025"
 ---
 
 
@@ -83,23 +83,20 @@ Most competitor keyword strategies stop at brand bidding. We went further:
 - Built campaigns that captured consideration-stage intent before competitors entered the picture
 - Ran ongoing negative keyword reviews, demographic analysis, and budget reallocation toward signals that were actually converting
 
-Over four quarters, this allowed us to pause low-signal campaigns and concentrate spend on the ones driving revenue.
+Over the year, this allowed us to pause low-signal campaigns and concentrate spend on the ones driving revenue.
 
 ## The results
 
-As we removed the structural inefficiencies, performance compounded. Every quarter we spent less than the one before and pulled in more revenue.
+Across 2025, split into the first and second half:
 
-{{< figure src="/images/case-study-goldcast/results-chart.svg" alt="Bar chart of quarter-over-quarter change: ad spend fell 12% then 18%, while revenue rose 8% then 47%" caption="Each quarter versus the one before: spend dropped while revenue grew, and both moved harder by Q3." >}}
+| Period | Combined ad spend | Revenue | Revenue on spend |
+|---|---:|---:|:---:|
+| H1 (Jan–Jun) | $233,360 | $783,200 | 3.4x |
+| H2 (Jul–Dec) | $174,618 | $2,000,368 | 11.5x |
 
-| Quarter | Spend vs prior Q | Revenue vs prior Q | ROAS |
-|---------|:----------------:|:------------------:|:----:|
-| Q1      | —                | —                  | 2.5x |
-| Q2      | −12%             | +8%                | 3.0x |
-| Q3      | −18%             | +47%               | 5.4x |
+{{< figure src="/images/case-study-goldcast/results-chart.svg" alt="Bar chart comparing H1 and H2 2025 combined ad spend to revenue, showing 3.4x return in H1 and 11.5x in H2" caption="Combined Google + LinkedIn Ads spend vs. revenue, H1 vs H2 2025." >}}
 
-**Across three quarters, ROAS more than doubled, from 2.5x to 5.4x.** Spend dropped 12% and then a further 18%, while revenue grew 8% and then 47%. Same account, same budget owner, cleaner signal, compounding returns. The cleanest read on the work: every quarter, less money in and more money out.
-
-By Q4, the account had become so precise in its targeting that ad spend was a fraction of what it started at. And every dollar that remained was working at 4× the efficiency of Q1. That's not a budget story. It's a signal quality story.
+**Spend fell 25% from H1 to H2, while revenue grew 155%.** For the full year, the program returned **6.8x revenue on a combined $408,000 in ad spend** — $2.78M in revenue.
 
 ## Why it worked
 

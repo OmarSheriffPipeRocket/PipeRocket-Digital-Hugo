@@ -1,0 +1,13 @@
+<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Segoe UI, system-ui, sans-serif">
+<rect width="900" height="420" fill="#F1EFE7"/>
+<text x="40" y="46" font-size="28" font-weight="700" fill="#0D0D0D">First 5 months: spend vs. pipeline</text>
+<text x="40" y="74" font-size="15" fill="#6B6B6B">Google Ads + LinkedIn Ads combined &#8226; Feb&#8211;Jun, from a zero-paid-ads baseline</text>
+<text x="196.0" y="153.5" font-size="16" font-weight="700" fill="#0D0D0D" text-anchor="end">Total spend</text>
+<rect x="210" y="110.0" width="112.3" height="75.0" rx="4" fill="#E62415"/>
+<text x="336.3" y="155.5" font-size="22" font-weight="700" fill="#E62415" text-anchor="start" stroke="#F1EFE7" stroke-width="5" paint-order="stroke" stroke-linejoin="round">$64,000</text>
+<text x="196.0" y="278.5" font-size="16" font-weight="700" fill="#0D0D0D" text-anchor="end">Pipeline generated</text>
+<rect x="210" y="235.0" width="500.0" height="75.0" rx="4" fill="#0BA6E2"/>
+<text x="724.0" y="280.5" font-size="22" font-weight="700" fill="#0BA6E2" text-anchor="start" stroke="#F1EFE7" stroke-width="5" paint-order="stroke" stroke-linejoin="round">$285,000</text>
+<text x="228" y="279.5" font-size="17" font-weight="700" fill="#0D0D0D" text-anchor="start">4.5x pipeline on spend</text>
+<text x="40" y="404" font-size="12.5" fill="#6B6B6B">Pipeline reflects sized opportunities recorded to date; several additional in-pipeline leads are not yet sized.</text>
+</svg>

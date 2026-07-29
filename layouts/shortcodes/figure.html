@@ -1,7 +1,8 @@
 {{- $src := .Get "src" -}}
 {{- $alt := .Get "alt" | default "" -}}
 {{- $caption := .Get "caption" -}}
-<figure class="pr-figure">
+{{- $isSVG := strings.HasSuffix $src ".svg" -}}
+<figure class="pr-figure{{ if $isSVG }} pr-figure--svg{{ end }}">
   <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy">
   {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
 </figure>

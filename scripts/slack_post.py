@@ -21,22 +21,30 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 WEBHOOK_FILE = ROOT / "credentials" / "slack_webhook.txt"
 
 
-def load_webhook():
+def load_webhook(webhook_file=None):
     url = os.environ.get("SLACK_WEBHOOK_URL", "").strip()
     if url:
         return url
-    if WEBHOOK_FILE.exists():
-        return WEBHOOK_FILE.read_text().strip()
+    target = pathlib.Path(webhook_file) if webhook_file else WEBHOOK_FILE
+    if not target.is_absolute():
+        target = ROOT / target
+    if target.exists():
+        return target.read_text().strip()
     sys.exit(
         "No Slack webhook configured. Set SLACK_WEBHOOK_URL or create "
-        f"{WEBHOOK_FILE} (gitignored) with the incoming-webhook URL."
+        f"{target} (gitignored) with the incoming-webhook URL."
     )
 
 
 def main():
-    WEBHOOK = load_webhook()
     ap = argparse.ArgumentParser()
     ap.add_argument("--text", help="Slack mrkdwn message. If omitted, read from stdin.")
+    ap.add_argument(
+        "--webhook-file",
+        default=None,
+        help="Path to a credentials file containing the webhook URL "
+             "(relative to repo root or absolute). Defaults to credentials/slack_webhook.txt.",
+    )
     ap.add_argument(
         "--unfurl",
         action="store_true",
@@ -44,6 +52,7 @@ def main():
         "digests stay compact (no bulky preview cards).",
     )
     args = ap.parse_args()
+    WEBHOOK = load_webhook(args.webhook_file)
 
     text = args.text if args.text is not None else sys.stdin.read()
     text = text.strip()

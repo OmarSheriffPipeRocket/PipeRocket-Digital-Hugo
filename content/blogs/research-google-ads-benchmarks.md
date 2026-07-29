@@ -36,13 +36,15 @@ Every benchmark below comes from that dataset. Where a cut is too thin to be sta
 
 Before the numbers, the method, because a benchmark you cannot interrogate is just a vibe.
 
-- **Dataset:** 19 B2B SaaS Google Ads accounts PipeRocket actively manages, drawn from a portfolio of 70+ B2B SaaS clients. One additional account was deactivated during the window and excluded.
+- **Source:** first-party Google Ads data pulled read-only via the Google Ads API for 19 B2B SaaS accounts PipeRocket actively manages, a subset of a 70+ B2B SaaS client portfolio. One additional account was deactivated during the window and excluded.
 - **Window:** trailing 12 months (July 2025 to June 2026), compared against the prior 12 months (July 2024 to June 2025).
 - **How we summarize:** we work out each account's own CTR, CPC, [conversion rate](/tools/conversion-rate-calculator/), and cost per lead first, then report **the average account (the middle of the pack)**. Adding all the raw numbers together would let the single largest spender set the "benchmark," which is exactly the distortion most published benchmarks suffer from.
 - **Currency:** accounts billed in INR, EUR, and TWD are converted to USD at trailing-12-month average rates. CTR and conversion rate are currency-independent; CPC and cost per lead are USD-normalized.
 - **Year-over-year:** every year-over-year figure compares only the accounts active in *both* periods, and reports how the average account's own number changed. This keeps clients joining or leaving from distorting the trend.
 - **Anonymized:** no individual account is identifiable. Vertical cuts are reported only where at least five accounts sit in the bucket.
 - **"Conversion" / "lead":** a tracked [Google Ads](/glossary/what-is-google-ads/) conversion such as a form fill, demo request, trial signup, or call. Exact definitions vary slightly by account, so treat cost per lead as a strong directional benchmark rather than an accounting figure.
+- **Excluded metrics:** [ROAS](/glossary/what-is-roas/) and conversion value, because B2B SaaS accounts optimize to lead conversions rather than tracked revenue, making value-based ratios non-comparable across accounts.
+- **Refresh cadence:** last updated July 2026. We refresh this study as the trailing-12-month window rolls forward.
 
 ## Overall B2B SaaS Google Ads Benchmarks (2026)
 
@@ -55,10 +57,7 @@ These are the average values across all 19 accounts for the trailing 12 months, 
 | Conversion rate | **2.57%** |
 | Cost per lead (blended) | **$84** |
 
-- **The average B2B SaaS Google Ads account posts a 3.60% [CTR](/glossary/what-is-ctr/) across all campaign types (2026).**
-- **The average B2B SaaS Google Ads CPC is $6.81**, blended across Search, Performance Max, Display, and Demand Gen.
-- **The average B2B SaaS account converts clicks to leads at 2.57%.**
-- **The average B2B SaaS blended cost per lead is $84**, a figure that hides a wide brand vs non-brand spread (below).
+- **The $84 blended cost per lead hides a wide brand vs non-brand spread**, covered next, so treat it as a starting reference point rather than a target.
 
 ## Brand vs Non-Brand: The Single Biggest Cost Driver
 
@@ -95,19 +94,6 @@ Campaign type moves the numbers more than almost anything else. Here is the aver
 - **B2B SaaS Display and Demand Gen convert below 0.3%, at $219 and $315 per lead respectively.** They work as upper-funnel prospecting, where a last-click CPL comparison undersells them.
 - **B2B SaaS Search delivers the strongest CTR at 5.11%**, consistent with intent-matched keyword traffic outperforming interest-based placements.
 
-## Year-Over-Year Trends (Same Accounts, Both Years)
-
-Every figure here compares the *same* accounts across both years, so roster changes cannot distort the trend.
-
-![Year-over-year change in B2B SaaS Google Ads across the same accounts in both years: conversion rate up 48%, cost per click essentially flat at minus 1%, and blended cost per lead down 44% from an average $132 to $84. Brand cost per lead fell 22% while non-brand search CTR fell 30%.](/images/blog-infographics/b2b-google-ads-yoy-trends.svg)
-
-- **B2B SaaS Google Ads conversion rates rose ~48% year over year**, the standout efficiency gain in the dataset.
-- **The average B2B SaaS account's CPC was flat year over year (−1%)**, despite widespread talk of AI inflating click prices.
-- **B2B SaaS blended cost per lead fell 44% year over year, from an average $132 to $84.**
-- **B2B SaaS brand search improved most: brand conversion rate rose 39% and brand cost per lead fell 22% year over year.**
-- **B2B SaaS non-brand search worsened: non-brand CTR fell 30% and non-brand cost per lead rose 16% year over year.**
-- **B2B SaaS Google Ads got more efficient overall, but the gains came from brand and conversion-rate improvement rather than cheaper non-brand clicks.**
-
 ## Benchmarks by Sub-Vertical (Directional)
 
 We can only report verticals where at least five accounts sit in the bucket, so this is two broad groups, and we treat it as directional rather than definitive.
@@ -122,6 +108,19 @@ We can only report verticals where at least five accounts sit in the bucket, so 
 - **GTM and martech ads earn a higher CTR (4.03% vs 1.91%) than technical SaaS**, likely because their category terms map more cleanly to buyer language.
 - Caveat: at five accounts per bucket, treat these as a directional signal about *your* likely starting point, not a precise target.
 
+## Year-Over-Year Trends (Same Accounts, Both Years)
+
+The three cuts above are all a snapshot of the last 12 months. This section is different: it tracks the *same* accounts across two full years, so roster changes cannot distort the trend.
+
+![Year-over-year change in B2B SaaS Google Ads across the same accounts in both years: conversion rate up 48%, cost per click essentially flat at minus 1%, and blended cost per lead down 44% from an average $132 to $84. Brand cost per lead fell 22% while non-brand search CTR fell 30%.](/images/blog-infographics/b2b-google-ads-yoy-trends.svg)
+
+- **B2B SaaS Google Ads conversion rates rose ~48% year over year**, the standout efficiency gain in the dataset.
+- **The average B2B SaaS account's CPC was flat year over year (−1%)**, despite widespread talk of AI inflating click prices.
+- **B2B SaaS blended cost per lead fell 44% year over year, from an average $132 to $84.**
+- **B2B SaaS brand search improved most: brand conversion rate rose 39% and brand cost per lead fell 22% year over year.**
+- **B2B SaaS non-brand search worsened: non-brand CTR fell 30% and non-brand cost per lead rose 16% year over year.**
+- **B2B SaaS Google Ads got more efficient overall, but the gains came from brand and conversion-rate improvement rather than cheaper non-brand clicks.**
+
 ## What This Means for Your B2B SaaS Google Ads Budget
 
 - **Separate brand and non-brand in every forecast.** A $34 brand lead and a $207 non-brand lead cannot share a target. If your CPL "improved," check whether brand-search volume simply grew.
@@ -129,15 +128,6 @@ We can only report verticals where at least five accounts sit in the bucket, so 
 - **Use Performance Max for efficiency and reach, but don't let its $25 "CPL" set your quality bar.** Audit what those conversions actually are before comparing them to Search.
 - **Don't assume CPC inflation.** For the average account it was flat year over year; your growth lever is conversion rate, where the average account gained ~48%.
 - **If you sell technical SaaS, budget for an ~$855 cost per lead from day one.** That is the category norm, so plan spend and pipeline math around it.
-
-## Methodology & Data Notes
-
-- **Source:** first-party Google Ads data for 19 B2B SaaS accounts PipeRocket manages, pulled read-only via the Google Ads API.
-- **Portfolio context:** these 19 accounts are a subset of PipeRocket's 70+ B2B SaaS client portfolio; they represent the accounts included in this analysis rather than the full roster.
-- **How we summarize:** we report the average account (the middle of the pack), so one unusually large or small advertiser cannot skew the benchmark.
-- **Excluded metrics:** [ROAS](/glossary/what-is-roas/) and conversion value, because B2B SaaS accounts optimize to lead conversions rather than tracked revenue, making value-based ratios non-comparable across accounts.
-- **Small cells:** any vertical or segment with fewer than five accounts is not reported.
-- **Last updated:** July 2026. We refresh this study as the trailing-12-month window rolls forward.
 
 ## The Bottom Line
 
