@@ -333,6 +333,45 @@ NEUTRAL_COMPARE_BRIDGES = {
     "skale-alternatives": [
         ("SimpleTiger", "/compare/simpletiger-vs-skale/", "SimpleTiger vs Skale"),
     ],
+    # --- 2026-07-29 batch: 10 AI-tool alternatives + 10 AI-tool compares
+    # (AI visibility/AEO tracking + AI content detection). 2 of the 10
+    # compares (profound-vs-otterly-ai, otterly-ai-vs-athenahq) already got
+    # inbound links written directly into the alternatives pages by the
+    # writer agent; these curated entries cover the remaining 8 neutral
+    # compares the standard bridge pass can't reach on its own.
+    "profound-alternatives": [
+        ("Scrunch AI", "/compare/profound-vs-scrunch-ai/", "Profound vs Scrunch AI"),
+    ],
+    "scrunch-ai-alternatives": [
+        ("Profound", "/compare/profound-vs-scrunch-ai/", "Profound vs Scrunch AI"),
+        ("AthenaHQ", "/compare/scrunch-ai-vs-athenahq/", "Scrunch AI vs AthenaHQ"),
+    ],
+    "athenahq-alternatives": [
+        ("Scrunch AI", "/compare/scrunch-ai-vs-athenahq/", "Scrunch AI vs AthenaHQ"),
+    ],
+    "peec-ai-alternatives": [
+        ("Rankscale", "/compare/peec-ai-vs-rankscale/", "Peec AI vs Rankscale"),
+    ],
+    "rankscale-alternatives": [
+        ("Peec AI", "/compare/peec-ai-vs-rankscale/", "Peec AI vs Rankscale"),
+    ],
+    "originality-ai-alternatives": [
+        ("GPTZero", "/compare/originality-ai-vs-gptzero/", "Originality.ai vs GPTZero"),
+        ("Copyleaks", "/compare/originality-ai-vs-copyleaks/", "Originality.ai vs Copyleaks"),
+    ],
+    "gptzero-alternatives": [
+        ("Originality.ai", "/compare/originality-ai-vs-gptzero/", "Originality.ai vs GPTZero"),
+        ("Winston AI", "/compare/gptzero-vs-winston-ai/", "GPTZero vs Winston AI"),
+    ],
+    # Listicle sources (unlimited/no cap, per ALLOWED_FLOWS "list"->"compare")
+    # — used for the 2 pairs where neither tool in the pair has its own
+    # alternatives page in this batch (Goodie AI/Knowatoa, Copyleaks/ZeroGPT).
+    "best-ai-visibility-tools": [
+        ("Goodie AI", "/compare/goodie-ai-vs-knowatoa/", "Goodie AI vs Knowatoa"),
+    ],
+    "best-ai-content-detector": [
+        ("ZeroGPT", "/compare/copyleaks-vs-zerogpt/", "Copyleaks vs ZeroGPT"),
+    ],
     # --- blog sources (limited blog→compare flow, cap 1/blog, past word floor) ---
     "saas-seo": [
         ("MarketMuse", "/compare/marketmuse-vs-clearscope/", "MarketMuse vs Clearscope"),

@@ -359,7 +359,7 @@ Pricing as of June 2026 from [scrunch.com/pricing](https://scrunch.com/pricing/)
 
 ### 5. AthenaHQ
 
-Best for: [SaaS marketing](/blogs/saas-marketing/) teams that want a single composite GEO Score combining citations, sentiment, traffic, and query type, with a built-in action layer to close visibility gaps.
+Best for: [SaaS marketing](/blogs/saas-marketing/) teams that want a single composite [GEO](/glossary/what-is-geo/) Score combining citations, sentiment, traffic, and query type, with a built-in action layer to close visibility gaps.
 
 [AthenaHQ](https://athenahq.ai/) was founded in 2024 in San Francisco by founders from Google Search and DeepMind, and is Y Combinator-backed with $2.2M in seed funding. Its GEO Score aggregates four signals (citation count, sentiment, traffic impact, and query type) into one number, and the Action Center surfaces specific steps to improve it.
 
@@ -369,7 +369,7 @@ Best for: [SaaS marketing](/blogs/saas-marketing/) teams that want a single comp
 | --- | --- |
 | HQ | San Francisco, CA |
 | Founded | 2024 |
-| Engines Tracked | ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok, Google AI Overviews, Google AI Mode |
+| Engines Tracked | ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok, Google [AI Overviews](/glossary/what-is-an-ai-overview/), Google AI Mode |
 | Notable Clients | Coinbase, SoFi, Slalom, Nextiva, PagerDuty |
 | Funding | $2.2M seed (Y Combinator) |
 
@@ -413,7 +413,7 @@ The credit model is the most-cited frustration: 1 credit equals 1 AI response, a
 
 **Our Read**
 
-The Google Search and DeepMind founder pedigree, Y Combinator backing, and 4.9/5 rating are credible signals in a noisy category. The GEO Score concept is the right framing for B2B SaaS teams that need to report AI visibility to a VP or CMO, not just to an SEO specialist.
+The Google Search and DeepMind founder pedigree, Y Combinator backing, and 4.9/5 rating are credible signals in a noisy category. The GEO Score concept is the right framing for B2B SaaS teams that need to report AI visibility to a VP or CMO, not just to an [SEO](/glossary/what-is-seo/) specialist.
 
 **What It Costs**
 
@@ -475,7 +475,7 @@ Semrush has 10M+ users and 3,300+ G2 reviews at 4.5/5 on the core platform. Dedi
 
 It's for SaaS marketing teams on a Semrush subscription where the marginal $99/mo for the AI Toolkit is justified by removing a second tool bill. The workflow consolidation benefit is real for teams that already live in Semrush.
 
-It's NOT for teams whose buyers primarily use Perplexity or Claude: neither is tracked. It's also not for teams that need broad LLM coverage or a 500M+ prompt database: purpose-built tools like Profound or Peec AI offer meaningfully more depth.
+It's NOT for teams whose buyers primarily use Perplexity or Claude: neither is tracked. It's also not for teams that need broad [LLM](/glossary/what-is-an-llm/) coverage or a 500M+ prompt database: purpose-built tools like Profound or Peec AI offer meaningfully more depth.
 
 **Where It Slips**
 
@@ -509,7 +509,7 @@ Pricing as of June 2026 from [semrush.com/kb/1493-ai-visibility-toolkit](https:/
 
 Best for: Teams that want the broadest AI engine coverage including Amazon Rufus, and a closed-loop system that moves from monitoring to optimization actions without switching tools.
 
-[Goodie AI](https://higoodie.com/) was founded in 2022 in New York City and built what it calls the "first all-in-one AEO platform." At the Enterprise tier, it tracks 11 AI platforms including Amazon Rufus, an inclusion that matters for B2B SaaS companies with marketplace or e-commerce crossover. Its agentic layer rewrites outreach emails, generates LLM-ready press snippets, and executes schema updates via API.
+[Goodie AI](https://higoodie.com/) was founded in 2022 in New York City and built what it calls the "first all-in-one [AEO](/glossary/what-is-aeo/) platform." At the Enterprise tier, it tracks 11 AI platforms including Amazon Rufus, an inclusion that matters for B2B SaaS companies with marketplace or e-commerce crossover. Its agentic layer rewrites outreach emails, generates LLM-ready press snippets, and executes schema updates via API.
 
 **Tool Card**
 
@@ -575,7 +575,11 @@ No prices published as of June 2026. All plans require a demo via [higoodie.com/
 
 | Criteria | Detail |
 | --- | --- |
-| Free Trial | Not confirmed from primary source |
+| Free Tria
+
+Weighing the two directly? See our neutral [Goodie AI vs Knowatoa](/compare/goodie-ai-vs-knowatoa/) breakdown.
+
+l | Not confirmed from primary source |
 | G2 Rating | G2 AEO Leader Winter 2026 claimed; numeric rating unverified from primary G2 source |
 
 ---
