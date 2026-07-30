@@ -17,7 +17,7 @@ goals: "Grow qualified inbound leads and MQLs across US and UK markets"
 engagement_start: "2025"
 engagement_window: "Jun 2025 → Dec 2025"
 duration: "6 months"
-date: 2025-02-14
+date: 2026-07-30
 short_description: "QX is a global accounting and finance outsourcing provider serving firms across the US and UK with bookkeeping, audit, payroll, and staffing solutions."
 hero_metrics:
   - value: "+67%"

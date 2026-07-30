@@ -17,7 +17,7 @@ goals: "Grow qualified organic traffic and leads across APAC, and build AI-searc
 engagement_start: "2024"
 engagement_window: "Apr 2024 → Mar 2026"
 duration: "Ongoing"
-date: 2025-02-12
+date: 2026-07-30
 short_description: "Esri is the global leader in GIS and location intelligence software, serving enterprise and government organisations across APAC and worldwide."
 hero_metrics:
   - value: "+25%"

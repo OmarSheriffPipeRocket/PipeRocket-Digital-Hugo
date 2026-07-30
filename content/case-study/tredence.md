@@ -17,7 +17,7 @@ goals: "Grow organic and AI-search visibility and overtake category competitors 
 engagement_start: "2025"
 engagement_window: "2024 → 2025"
 duration: "Full year"
-date: 2025-02-10
+date: 2026-07-30
 short_description: "Tredence is a global data science and AI consulting firm serving Fortune 500 enterprises across CPG, BFSI, retail, and healthcare, with a growing footprint in India and EMEA."
 hero_metrics:
   - value: "4.7x"
