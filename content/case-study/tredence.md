@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 featuredImage: "/images/case-study-covers/tredence.svg"
 title: "4.7x Blog Traffic in a Year: How Tredence Out-Ranked Its Category Rivals"
 slug: "tredence"

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 featuredImage: "/images/case-study-covers/qx-accounting.svg"
 title: "+67% Inbound Leads: How QX Scaled Pipeline Across Two Regions at Once"
 slug: "qx-accounting"

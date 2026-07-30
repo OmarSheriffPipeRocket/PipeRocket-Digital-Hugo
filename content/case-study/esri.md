@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 featuredImage: "/images/case-study-covers/esri.svg"
 title: "+166% AI Search Traffic: How Esri Compounded Organic Growth Year Over Year"
 slug: "esri"
