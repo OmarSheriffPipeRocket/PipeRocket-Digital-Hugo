@@ -113,7 +113,7 @@ The fix requires a crawl budget audit that identifies which URL patterns are con
 | --- | --- |
 | Keyword density and placement | Direct, complete answers to specific questions |
 | Backlink quantity | Authority of sources that cite your content |
-| Meta title optimization | Brand entity consistency across the web |
+| Meta title optimization | [Brand entity](/blogs/how-to-build-brand-entity-knowledge-graph/) consistency across the web |
 | Content length | Content structure and modularity |
 | [Domain authority](/glossary/what-is-domain-authority/) | Presence in trusted third-party sources (G2, analyst reports) |
 

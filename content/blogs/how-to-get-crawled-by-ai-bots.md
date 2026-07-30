@@ -87,7 +87,7 @@ User-agent: CCBot
 Disallow: /
 ```
 
-If your goal is simpler, just get cited everywhere and you're not worried about training data, drop every `Disallow` line above and allow all of them. That's the right call for most SaaS marketing sites, where the content is public-facing anyway and the upside of appearing in AI answers outweighs the training concern.
+If your goal is simpler, just get cited everywhere and you're not worried about training data, drop every `Disallow` line above and allow all of them. That's the right call for most [SaaS marketing](/blogs/saas-marketing/) sites, where the content is public-facing anyway and the upside of appearing in AI answers outweighs the training concern.
 
 One thing that trips people up: robots.txt rules are matched by exact user-agent string, and they're case-sensitive on most implementations. `Gptbot` or `gpt-bot` won't match `GPTBot`. Copy the string exactly, don't retype it from memory.
 
@@ -149,7 +149,7 @@ Plenty of WordPress security plugins and some CDN bot-management defaults quietl
 
 ### Treating this like crawl budget optimization
 
-Traditional technical SEO spends a lot of energy on crawl budget: trimming low-value URLs so Googlebot spends its limited crawl allowance on pages that matter. AI bots don't work off a shared budget across your site the same way. The relevant question per page is simpler: is it allowed, and can the bot read it at all. Don't import the crawl-budget mental model wholesale, since it optimizes for the wrong constraint here.
+Traditional [technical SEO](/glossary/what-is-technical-seo/) spends a lot of energy on crawl budget: trimming low-value URLs so Googlebot spends its limited crawl allowance on pages that matter. AI bots don't work off a shared budget across your site the same way. The relevant question per page is simpler: is it allowed, and can the bot read it at all. Don't import the crawl-budget mental model wholesale, since it optimizes for the wrong constraint here.
 
 ### Skipping the log verification step
 

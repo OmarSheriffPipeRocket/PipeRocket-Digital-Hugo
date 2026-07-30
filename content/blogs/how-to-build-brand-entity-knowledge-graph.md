@@ -177,7 +177,7 @@ Requesting a panel before the underlying schema, sameAs links, and consistent fa
 
 ## How PipeRocket Digital Builds Entity Recognition for SaaS Brands
 
-We treat entity work as part of the SEO and GEO retainer, not a one-off schema fix. That means auditing your Organization schema, building out the sameAs chain across Wikidata and Crunchbase, and running the fact-consistency audit across every profile that mentions you. If your brand isn't showing up cleanly (or at all) in Google's Knowledge Graph, our [AI SEO services](https://piperocket.digital/saas-seo-agency/ai-seo-services/) cover this exact work, or [talk to our team](https://piperocket.digital/contact-us/) and we'll show you where the gaps sit.
+We treat entity work as part of the [SEO](/glossary/what-is-seo/) and GEO retainer, not a one-off schema fix. That means auditing your Organization schema, building out the sameAs chain across Wikidata and Crunchbase, and running the fact-consistency audit across every profile that mentions you. If your brand isn't showing up cleanly (or at all) in Google's Knowledge Graph, our [AI SEO services](https://piperocket.digital/saas-seo-agency/ai-seo-services/) cover this exact work, or [talk to our team](https://piperocket.digital/contact-us/) and we'll show you where the gaps sit.
 
 ## Frequently Asked Questions
 

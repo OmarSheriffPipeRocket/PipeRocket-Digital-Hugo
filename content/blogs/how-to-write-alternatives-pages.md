@@ -112,13 +112,13 @@ Leaving out any mention of how someone actually moves off their current tool lea
 
 ## How PipeRocket Digital Helps With Alternatives Pages
 
-We build alternatives pages as part of the decision-stage cluster inside a full [SaaS SEO](/saas-seo-agency/) program, backed by real competitor research instead of guesswork. If you want pages that convert switchers instead of just ranking for a keyword, our team can build the honest, structured version and wire it into the rest of your funnel. You can see how we approach this kind of work across [SaaS marketing agencies](/list/best-saas-marketing-agencies-2026/) generally, or just [talk to us directly](/contact-us/).
+We build [alternatives pages](/blogs/how-to-write-saas-alternatives-pages/) as part of the decision-stage cluster inside a full [SaaS SEO](/saas-seo-agency/) program, backed by real competitor research instead of guesswork. If you want pages that convert switchers instead of just ranking for a keyword, our team can build the honest, structured version and wire it into the rest of your funnel. You can see how we approach this kind of work across [SaaS marketing agencies](/list/best-saas-marketing-agencies-2026/) generally, or just [talk to us directly](/contact-us/).
 
 ## Frequently Asked Questions
 
 ### What is a SaaS alternatives page?
 
-A SaaS alternatives page is a landing page that targets searches like "[Competitor] Alternatives" and lists genuine options for someone leaving that tool, including your own product positioned honestly against the others. It's written for a reader who has already used the incumbent tool and hit a real limitation, unlike a comparison page written for someone still choosing between two options from scratch.
+A SaaS alternatives page is a [landing page](/glossary/what-is-a-landing-page/) that targets searches like "[Competitor] Alternatives" and lists genuine options for someone leaving that tool, including your own product positioned honestly against the others. It's written for a reader who has already used the incumbent tool and hit a real limitation, unlike a comparison page written for someone still choosing between two options from scratch.
 
 ### How is an alternatives page different from a comparison page?
 

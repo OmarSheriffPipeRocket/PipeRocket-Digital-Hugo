@@ -144,7 +144,7 @@ Measure CRO against pipeline, and judge every page by its own job. A single site
 
 Different pages carry different intent, so hold each to the right bar:
 
-- **Comparison and alternatives pages:** high intent, should convert around 3-4%.
+- **Comparison and [alternatives pages](/blogs/how-to-write-saas-alternatives-pages/):** high intent, should convert around 3-4%.
 - **Top-of-funnel blog posts:** often near 0.75%, frequently on an asset download.
 
 Hold a blog post to a [comparison page](/blogs/how-to-write-saas-comparison-pages-for-seo/)'s standard and you'll cut pages that were doing their job fine. Report conversion by page type so a strong page and a weak one never get averaged into the same misleading number.

@@ -33,7 +33,7 @@ Here's where most teams get it wrong. They treat GEO as a brand-new channel with
 - **Engines, plural:** ChatGPT, Perplexity, Gemini, Claude, and [AI Overviews](/glossary/what-is-an-ai-overview/) each retrieve and cite differently, so visibility varies engine to engine.
 - **Third-party proof:** Engines cross-reference what others say about you, so reviews, listicles, and comparison posts feed your citability.
 - **Parseable content:** Clear headings, direct definitions, and structured data make your pages easy for an [LLM](/glossary/what-is-an-llm/) to lift and quote.
-- **Brand entity strength:** The more consistently the web describes who you are and what you do, the more confidently an engine recommends you.
+- **[Brand entity](/blogs/how-to-build-brand-entity-knowledge-graph/) strength:** The more consistently the web describes who you are and what you do, the more confidently an engine recommends you.
 
 Consider a contract management SaaS for legal teams. Its product pages rank fine, but it appears in zero "best contract management software" listicles. When an engine assembles a recommendation, it has nothing external to corroborate the brand, so it names competitors instead. That gap is a GEO problem.
 
@@ -102,7 +102,7 @@ Start by fixing the overlap, because around 80% of GEO work is SEO work you shou
 
 Run these in order, since each step feeds the next:
 
-- **Open crawl access:** Check robots.txt for blocked AI crawlers (GPTBot, PerplexityBot, ClaudeBot), because blocked engines can't cite you at all.
+- **Open crawl access:** Check robots.txt for blocked AI crawlers (GPTBot, [PerplexityBot](/blogs/how-to-get-crawled-by-ai-bots/), ClaudeBot), because blocked engines can't cite you at all.
 - **Lead with the answer:** Restructure key pages so the first two sentences directly answer the page's core question, making passages liftable.
 - **Add structured data:** Mark up products, FAQs, and articles with schema so engines parse your pages with confidence.
 - **Build third-party presence:** Pitch for inclusion in the listicles and comparison posts engines actually cite in your category.

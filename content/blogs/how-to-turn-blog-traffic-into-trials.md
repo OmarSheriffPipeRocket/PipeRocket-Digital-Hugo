@@ -57,7 +57,7 @@ Skip this mapping and you'll default to the same CTA everywhere, which is how a 
 
 The strongest CTA placement is beside the paragraph that earns it, not stacked at the bottom where most readers never scroll. A reader who just read a specific claim is primed to act on it immediately, and that window closes the moment they scroll past.
 
-We've watched this play out on a client's landing page: heatmaps showed readers clicking mid-paragraph on a claim with no link attached, while the actual "Book a Demo" button sat far below, unclicked. Once a simple contextual text CTA was added right inside that paragraph, it produced two qualified leads within the following week. The fix wasn't a redesign. It was putting the ask where the intent already existed.
+We've watched this play out on a client's [landing page](/glossary/what-is-a-landing-page/): heatmaps showed readers clicking mid-paragraph on a claim with no link attached, while the actual "Book a Demo" button sat far below, unclicked. Once a simple contextual text CTA was added right inside that paragraph, it produced two qualified leads within the following week. The fix wasn't a redesign. It was putting the ask where the intent already existed.
 
 ### Write the In-Content Hook Around the Specific Task, Not the Product
 
@@ -93,7 +93,7 @@ Exit-intent should catch a reader who's already decided to leave, not interrupt 
 
 Trigger it on genuine exit signals: cursor movement toward the browser chrome, a meaningful scroll depth already reached, or a set amount of time spent actually reading. A visitor who bounced in four seconds was never going to convert on a popup, and showing them one just adds a bad impression to a page they already left.
 
-Exit-intent popups convert somewhere between 2% and 4% of the visitors who see them industry-wide, and that number depends entirely on whether the offer matches what the visitor was doing before they tried to leave. A generic newsletter popup on a bottom-of-funnel post wastes an exit moment that a well-matched trial offer could have caught.
+Exit-intent popups convert somewhere between 2% and 4% of the visitors who see them industry-wide, and that number depends entirely on whether the offer matches what the visitor was doing before they tried to leave. A generic newsletter popup on a [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) post wastes an exit moment that a well-matched trial offer could have caught.
 
 ### Match the Exit Offer to the Post's Stage, Not a Single Site-Wide Popup
 
@@ -113,7 +113,7 @@ A CTA-click rate that's climbing means nothing if trial starts stayed flat, so m
 
 ### Give Each Post a Fair Comparison Window
 
-A brand-new post won't out-convert one that's been live for a year and already has backlinks and reader trust behind it. Compare posts against others of similar age and similar funnel stage, not against your single best-performing page, or you'll cut posts that are actually doing fine for where they sit in the library.
+A brand-new post won't out-convert one that's been live for a year and already has [backlinks](/glossary/what-is-a-backlink/) and reader trust behind it. Compare posts against others of similar age and similar funnel stage, not against your single best-performing page, or you'll cut posts that are actually doing fine for where they sit in the library.
 
 ## Common Mistakes to Avoid
 

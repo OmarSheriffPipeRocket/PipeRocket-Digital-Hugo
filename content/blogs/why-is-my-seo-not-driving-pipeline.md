@@ -76,7 +76,7 @@ We had a client ranking top three for high-intent keywords while conversions sat
 
 ![A funnel showing high-intent traffic leaking out at the missing-BOFU-page stage](/images/blog-infographics/why-is-my-seo-not-driving-pipeline-infographic-2.webp)
 
-The other common version is missing pages entirely. You rank for "[your category] software" with a glossary article, but you have no comparison page, no alternatives page, and no pricing page for the buyer to convert on. The intent arrives and finds nowhere to land. These decision-stage pages are where the credit card actually comes out.
+The other common version is missing pages entirely. You rank for "[your category] software" with a glossary article, but you have no comparison page, no [alternatives page](/blogs/how-to-write-saas-alternatives-pages/), and no pricing page for the buyer to convert on. The intent arrives and finds nowhere to land. These decision-stage pages are where the credit card actually comes out.
 
 When conversions don't move on high-intent traffic, check three things in order:
 

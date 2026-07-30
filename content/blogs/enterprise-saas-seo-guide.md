@@ -86,7 +86,7 @@ Enterprise SaaS content architecture needs to account for multiple product lines
 - **Tier 1: Core product and solution pages** targeting the highest-intent, most competitive terms. These are the conversion destinations that all other content should link toward
 - **Tier 2: Vertical and use-case pages** built around ICP-specific problems your product solves. One page per key industry or use case
 - **Tier 3: Pillar pages** establishing topical authority in each major keyword cluster. One per theme, linking to every spoke
-- **Tier 4: Supporting content** including [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternatives pages, how-to guides, and FAQ content targeting long-tail intent
+- **Tier 4: Supporting content** including [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), [alternatives pages](/blogs/how-to-write-saas-alternatives-pages/), how-to guides, and FAQ content targeting long-tail intent
 
 Our [SaaS SEO strategies guide](/blogs/saas-seo-strategies-and-framework/) covers the keyword mapping process for each of these tiers in detail.
 
@@ -130,7 +130,7 @@ For enterprise SaaS, pipeline-influenced and organic CAC are the two metrics wor
 | --- | --- |
 | Keyword density and placement | Direct, complete answers to specific questions |
 | Backlink quantity | Authority of sources that cite your content |
-| Meta title optimization | Brand entity consistency across the web |
+| Meta title optimization | [Brand entity](/blogs/how-to-build-brand-entity-knowledge-graph/) consistency across the web |
 | Content length | Content structure and modularity |
 | Domain authority | Presence in trusted third-party sources (G2, analyst reports) |
 

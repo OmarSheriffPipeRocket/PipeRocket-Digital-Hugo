@@ -50,7 +50,7 @@ Standard SaaS SEO advice assumes a single buyer persona reading a coherent resea
 
 The person who signs the contract in edtech is almost never the person who opens the app every day. Administrators sign off on ROI and compliance, teachers need something that fits state standards and doesn't add setup time, and students and parents care about whether the thing actually works on a phone at 9pm during homework.
 
-That split means one landing page can't carry the whole sales motion. A district superintendent needs procurement-grade proof: security posture, pricing tiers, implementation support, and references from comparable districts. A classroom teacher searching the same category wants to know if the tool integrates with their LMS and whether it eats prep time or saves it.
+That split means one [landing page](/glossary/what-is-a-landing-page/) can't carry the whole sales motion. A district superintendent needs procurement-grade proof: security posture, pricing tiers, implementation support, and references from comparable districts. A classroom teacher searching the same category wants to know if the tool integrates with their LMS and whether it eats prep time or saves it.
 
 We map content to each of these roles separately instead of writing one "features and benefits" page and hoping it lands for everyone. A procurement page and a teacher-facing "how it works in the classroom" page can sit on the same site, target overlapping keywords, and serve completely different intents without competing with each other.
 
@@ -65,7 +65,7 @@ The same product category produces wildly different query shapes depending on wh
 
 Most edtech marketing sites answer exactly one of these shapes well, usually whichever matches the founder's own mental model of the buyer. That leaves three entire query clusters uncovered, which is real search volume left on the table every single month.
 
-Map keyword research to persona before a single title gets picked, instead of writing more content into the shape you already cover. Tag every target keyword with the persona it actually serves, then check you have coverage across all four before you greenlight a content calendar.
+Map keyword research to persona before a single title gets picked, instead of writing more content into the shape you already cover. Tag every target keyword with the persona it actually serves, then check you have coverage across all four before you greenlight a [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/).
 
 ## The Enrollment Calendar Runs Your Content Calendar
 
@@ -142,11 +142,11 @@ Edtech content has to serve informational research and commercial evaluation on 
 
 A parent typing "how to help my kid with reading" or a student typing "why is algebra so hard" isn't ready to compare vendors yet, they're trying to understand the problem first. This is where a broad, genuinely useful "what is X" and "how to help with X" content layer earns trust before a brand ever gets mentioned.
 
-This content also does double duty for AI search, since these are exactly the query shapes that show up in AI Overviews and chat answers looking for a clear, well-structured explanation rather than a sales pitch. Answer the question directly, then let the product enter the page naturally once the concept is established.
+This content also does double duty for AI search, since these are exactly the query shapes that show up in [AI Overviews](/glossary/what-is-an-ai-overview/) and chat answers looking for a clear, well-structured explanation rather than a sales pitch. Answer the question directly, then let the product enter the page naturally once the concept is established.
 
 ### Commercial Content Wins the Evaluation Phase
 
-An administrator typing "[category] vendors for K-12" or a teacher typing "[tool A] vs [tool B]" already knows the category and is actively narrowing a shortlist. This is comparison pages, category pages, and named-vendor content, the pages that carry pricing, integrations, security posture, and named district references.
+An administrator typing "[category] vendors for K-12" or a teacher typing "[tool A] vs [tool B]" already knows the category and is actively narrowing a shortlist. This is [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), category pages, and named-vendor content, the pages that carry pricing, integrations, security posture, and named district references.
 
 Here's a small compliance SaaS example that generalizes well to edtech: a fictional K-12 assessment platform built two separate content tracks, one explaining test anxiety and study habits for parents, one comparing itself against named LMS-integrated competitors for district IT directors.
 
@@ -156,11 +156,11 @@ Warning: don't let the commercial pages read like the informational ones or vice
 
 ## Common Mistakes to Avoid
 
-Most edtech SEO programs stall for the same handful of reasons, and each one traces back to treating edtech like generic B2B SaaS instead of the four-persona, calendar-bound, compliance-heavy discipline it actually is.
+Most edtech [SEO](/glossary/what-is-seo/) programs stall for the same handful of reasons, and each one traces back to treating edtech like generic B2B SaaS instead of the four-persona, calendar-bound, compliance-heavy discipline it actually is.
 
 ### Writing for Only One Persona
 
-A site built entirely around the administrator's procurement questions, or entirely around the teacher's classroom questions, is only ever going to rank and convert for that one slice of the buying committee. The other personas search in real volume too, and leaving their queries uncovered hands that traffic straight to a competitor who did map all four.
+A site built entirely around the administrator's procurement questions, or entirely around the teacher's classroom questions, is only ever going to rank and convert for that one slice of the [buying committee](/blogs/linkedin-buying-committee-saas/). The other personas search in real volume too, and leaving their queries uncovered hands that traffic straight to a competitor who did map all four.
 
 ### Publishing on a Generic Blog Cadence
 

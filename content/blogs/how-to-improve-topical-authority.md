@@ -108,7 +108,7 @@ The approach our team uses is to anchor the cluster on decision-stage pages firs
 
 Build these pages before anything else:
 
-- Alternatives pages ("best [competitor] alternatives")
+- [Alternatives pages](/blogs/how-to-write-saas-alternatives-pages/) ("best [competitor] alternatives")
 - [Comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) ("[your product] vs [competitor]")
 - Category pages ("best [category] software")
 - Integration and use-case pages

@@ -76,7 +76,7 @@ Here's what each part is responsible for. This is the map. Each one has its own 
 
 ### Content: BOFU-first, built in clusters
 
-Content is where most SaaS SEO budget goes, and where most of it is wasted. The fix is to build [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) first. [Comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), alternatives pages, integration pages, and pricing content get built before thought-leadership, because a comparison page with 300 visits at 15% conversion beats a trend article with 10,000 visits at 0.2%.
+Content is where most SaaS SEO budget goes, and where most of it is wasted. The fix is to build [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) first. [Comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/), [alternatives pages](/blogs/how-to-write-saas-alternatives-pages/), integration pages, and pricing content get built before thought-leadership, because a comparison page with 300 visits at 15% conversion beats a trend article with 10,000 visits at 0.2%.
 
 Then you organise it as clusters. One pillar page covers the broad topic, 10 to 15 spokes cover every sub-topic, and every spoke links back to the pillar. That architecture is what signals [topical authority](/blogs/how-to-improve-topical-authority/) to Google and gives AI engines a coherent body of work to cite.
 
@@ -133,7 +133,7 @@ Google's June 2026 spam update reinforced this by targeting scaled AI-generated 
 Three things move citation odds for SaaS:
 
 - **Answer-first structure:** every major heading is a question your buyer types, with the answer in the first two sentences.
-- **Entity disambiguation:** your brand name, logo, and description stay identical across G2, Capterra, Clutch, LinkedIn, Crunchbase, and Wikidata, so the Knowledge Graph resolves you as one node.
+- **Entity disambiguation:** your brand name, logo, and description stay identical across G2, Capterra, Clutch, LinkedIn, Crunchbase, and Wikidata, so the [Knowledge Graph](/blogs/how-to-build-brand-entity-knowledge-graph/) resolves you as one node.
 - **Brand mentions on the surfaces AI engines lean on:** we've watched Google's AI return a named shortlist of agencies for a buyer query, with the citation pulled straight from a Reddit thread.
 
 Microsoft Copilot is the clearest proof that quality beats volume here. It sends just 3.1% of AI traffic but the highest lead-to-SQL rate of any AI platform, because its users arrive from inside enterprise work tools.

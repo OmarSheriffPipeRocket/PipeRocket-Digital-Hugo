@@ -135,7 +135,7 @@ The final piece of the puzzle is using this research to make business decisions.
 
 ### **The “40-60” Rule for BOFU**
 
-Here is a benchmark I want you to remember: Most SaaS companies with a single product will have a **maximum of 40 to 60 Bottom-of-Funnel (BOFU) pages**. If you try to create more than that, you are likely forcing it. This count includes your software pages, alternatives pages, comparisons, and pricing pages. For GRC, that means “GRC software,” “GRC alternatives,” “GRC automation,” etc. It rarely exceeds 60.
+Here is a benchmark I want you to remember: Most SaaS companies with a single product will have a **maximum of 40 to 60 Bottom-of-Funnel (BOFU) pages**. If you try to create more than that, you are likely forcing it. This count includes your software pages, [alternatives pages](/blogs/how-to-write-saas-alternatives-pages/), comparisons, and pricing pages. For GRC, that means “GRC software,” “GRC alternatives,” “GRC automation,” etc. It rarely exceeds 60.
 
 ## How to Pitch This to Your Management
 

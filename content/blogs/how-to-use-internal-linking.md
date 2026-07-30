@@ -146,7 +146,7 @@ Every page that shows up on that list is **invisible to your internal equity flo
 
 ### The link equity reversal
 
-Export your crawl data and look at which pages receive the most internal links. Compare it to your commercial intent map. In almost every audit I run, the pattern is the same: **far more links point to TOFU blogs than to pricing or alternatives pages.**
+Export your crawl data and look at which pages receive the most internal links. Compare it to your commercial intent map. In almost every audit I run, the pattern is the same: **far more links point to TOFU blogs than to pricing or [alternatives pages](/blogs/how-to-write-saas-alternatives-pages/).**
 
 That's backwards. Reverse it. **Your BOFU pages should be receiving the most internal links from the cluster, not the fewest.**
 

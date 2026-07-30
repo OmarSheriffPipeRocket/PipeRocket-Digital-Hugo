@@ -960,6 +960,30 @@ LINK_MAP = [
     ("paid media strategy", "/blogs/saas-paid-media-strategy/", False, "P1"),
     ("top B2B PPC agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),
     ("B2B PPC agencies", "/list/top-b2b-ppc-agencies/", False, "P1"),
+
+    # ---- 10 new blog posts added 2026-07-29 (CRO, AI Search, vertical guides) ----
+    ("turn blog traffic into trials", "/blogs/how-to-turn-blog-traffic-into-trials/", False, "P0"),
+    ("blog traffic into trials", "/blogs/how-to-turn-blog-traffic-into-trials/", False, "P0"),
+    ("get crawled by AI bots", "/blogs/how-to-get-crawled-by-ai-bots/", False, "P0"),
+    ("crawled by AI bots", "/blogs/how-to-get-crawled-by-ai-bots/", False, "P0"),
+    ("GPTBot", "/blogs/how-to-get-crawled-by-ai-bots/", True, "P0"),
+    ("PerplexityBot", "/blogs/how-to-get-crawled-by-ai-bots/", True, "P0"),
+    ("write SaaS alternatives pages", "/blogs/how-to-write-saas-alternatives-pages/", False, "P0"),
+    ("alternatives pages", "/blogs/how-to-write-saas-alternatives-pages/", False, "P0"),
+    ("alternatives page", "/blogs/how-to-write-saas-alternatives-pages/", False, "P0"),
+    ("brand entity", "/blogs/how-to-build-brand-entity-knowledge-graph/", False, "P0"),
+    ("knowledge graph", "/blogs/how-to-build-brand-entity-knowledge-graph/", False, "P0"),
+    ("Google AI Mode", "/blogs/how-to-optimize-for-google-ai-mode/", True, "P0"),
+    ("query fan-out", "/blogs/how-to-optimize-for-google-ai-mode/", False, "P0"),
+    ("query fan out", "/blogs/how-to-optimize-for-google-ai-mode/", False, "P0"),
+    ("how AI engines pick sources", "/blogs/how-ai-engines-pick-sources/", False, "P0"),
+    ("sources AI engines cite", "/blogs/how-ai-engines-pick-sources/", False, "P0"),
+    ("citation-worthy statistics", "/blogs/how-to-add-citation-worthy-statistics/", False, "P0"),
+    ("citation-worthy stats", "/blogs/how-to-add-citation-worthy-statistics/", False, "P0"),
+    ("first-party studies", "/blogs/how-to-add-citation-worthy-statistics/", False, "P0"),
+    ("healthtech SEO", "/blogs/healthtech-seo-guide/", False, "P0"),
+    ("fintech marketing", "/blogs/fintech-marketing-guide/", False, "P0"),
+    ("edtech SEO", "/blogs/edtech-seo-guide/", False, "P0"),
 ]
 
 PRIORITY_ORDER = {"P0": 0, "P1": 1, "P2": 2}

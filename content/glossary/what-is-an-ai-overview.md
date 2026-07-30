@@ -106,7 +106,7 @@ What I'd actually change this quarter:
 
 - **Restructure your glossary and TOFU pages:** Put the direct answer in the first two sentences of every section. This is cheap and it's where Overviews fire most.
 - **Track citations, not just rankings:** Check which of your pages appear as Overview sources for your priority queries, and watch [CTR](/glossary/what-is-ctr/) by query type in Search Console.
-- **Double down on BOFU:** Shift the effort saved on definitional traffic into comparison and alternatives pages, where clicks still convert.
+- **Double down on BOFU:** Shift the effort saved on definitional traffic into comparison and [alternatives pages](/blogs/how-to-write-saas-alternatives-pages/), where clicks still convert.
 
 Here's the trade-off nobody states plainly. Answer-first writing makes pages more quotable but can make them feel blunter, and some writers resist it. It's worth it for informational content. For narrative thought-leadership pieces, forcing the format flattens what made them persuasive, so leave those alone.
 

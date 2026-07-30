@@ -338,7 +338,7 @@ Quoleady's pricing starts at roughly $1,500-$1,990/mo for smaller engagements, s
 
 Best for: SaaS companies that want the highest Clutch review count on this list plus a documented AI citation case study
 
-[GrowPad](https://growpad.pro/) is a Clutch-recognized Top SEO for SaaS 2026 agency with 37 Premier Verified reviews and a published LLMO case study showing a client move from inconsistent AI presence to Top 1-2 positions in ChatGPT, Perplexity, and Google AI Overviews. They've been testing AI optimization strategies since early 2025.
+[GrowPad](https://growpad.pro/) is a Clutch-recognized Top SEO for SaaS 2026 agency with 37 Premier Verified reviews and a published LLMO case study showing a client move from inconsistent AI presence to Top 1-2 positions in ChatGPT, Perplexity, and Google [AI Overviews](/glossary/what-is-an-ai-overview/). They've been testing AI optimization strategies since early 2025.
 
 **Firm Summary**
 
@@ -348,13 +348,13 @@ Best for: SaaS companies that want the highest Clutch review count on this list 
 | Founded | 2020 |
 | Team Size | 10-49 people |
 | Notable Clients | Fireart, Demigos, Cadabra Studio, Akurateco, Pilotfish, CHI Software |
-| Specialization | SaaS SEO with LLMO as a dedicated pillar |
+| Specialization | SaaS [SEO](/glossary/what-is-seo/) with LLMO as a dedicated pillar |
 
 **What Separates Them**
 
 GrowPad's four-pillar LLMO framework includes a "Niche Concentration" principle (dominating one specific vertical rather than spreading authority thin) which directly addresses how LLMs build trust signals for a brand. Their Third-Party Expansion pillar (listicles and authoritative platform placements as AI entry points) maps precisely to the off-site citation work that drives AI share-of-voice.
 
-- LLM-Ready Content templates designed for AI comprehension and citation reliability
+- [LLM](/glossary/what-is-an-llm/)-Ready Content templates designed for AI comprehension and citation reliability
 - Entity-First Optimization includes Reddit, review platforms, and third-party mentions
 - Published a concrete LLMO case study with before/after citation metrics
 
@@ -365,12 +365,12 @@ NDA-protected logistics software client: brand mentions grew from roughly 75 to 
 **Buyer Feedback**
 
 **Love:** Highest third-party review count on this list with verified AI citation metrics
-A PR and Marketing Lead at Pilotfish wrote on [Clutch](https://clutch.co/profile/growpad): "What impressed us most was their guidance, insights, and support throughout the whole SEO/GEO preparation."
+A PR and Marketing Lead at Pilotfish wrote on [Clutch](https://clutch.co/profile/growpad): "What impressed us most was their guidance, insights, and support throughout the whole SEO/[GEO](/glossary/what-is-geo/) preparation."
 
 - 5.0/5 across 37 Premier Verified Clutch reviews, the strongest [social proof](/blogs/saas-social-proof/) on this list by volume
 
 **Complain:** Client base skews Eastern European dev shops, not typical SaaS product companies
-The named client roster (Fireart, Demigos, Cadabra Studio, CHI Software) reflects Eastern European software and dev agencies rather than the VC-backed B2B SaaS ICP most readers of this list represent.
+The named client roster (Fireart, Demigos, Cadabra Studio, CHI Software) reflects Eastern European software and dev agencies rather than the VC-backed B2B SaaS [ICP](/glossary/what-is-icp/) most readers of this list represent.
 
 - Ukraine HQ may raise supply-chain risk questions for some enterprise procurement teams
 - The LLMO case study client is NDA-protected and in logistics, not a standard SaaS product
@@ -548,7 +548,7 @@ Breaking B2B publishes four tiers, as of June 2026: Light at $4,000/mo, Growth a
 
 Best for: High-growth SaaS companies with enterprise budgets that want AEO built on a proprietary tracking platform
 
-[Graphite](https://graphite.io/) is a San Francisco-based agency positioning as an "AI-Powered Growth Team" delivering SEO and AEO (Answer Engine Optimization) through a proprietary Topical SEO platform that tracks performance across both traditional search and generative models. The client roster includes Rippling, Notion, Hinge, and Upwork.
+[Graphite](https://graphite.io/) is a San Francisco-based agency positioning as an "AI-Powered Growth Team" delivering SEO and AEO ([Answer Engine Optimization](/glossary/what-is-aeo/)) through a proprietary Topical SEO platform that tracks performance across both traditional search and generative models. The client roster includes Rippling, Notion, Hinge, and Upwork.
 
 **Firm Summary**
 
@@ -616,7 +616,7 @@ Graphite does not publish pricing, as of June 2026. Engagements are custom-scope
 
 Best for: Fortune 500 or enterprise SaaS teams with $50K+ project budgets needing a Relevance Engineering framework
 
-[iPullRank](https://ipullrank.com/) is a New York-based agency (founded 2014) that applies a "Relevance Engineering" framework to AI retrieval, mapping query fan-out behaviour, passage retrieval, and content embeddings to engineer pages for how LLMs find and synthesise information. This is technical-first AI citation work, not content-marketing relabelling.
+[iPullRank](https://ipullrank.com/) is a New York-based agency (founded 2014) that applies a "Relevance Engineering" framework to AI retrieval, mapping [query fan-out](/blogs/how-to-optimize-for-google-ai-mode/) behaviour, passage retrieval, and content embeddings to engineer pages for how LLMs find and synthesise information. This is technical-first AI citation work, not content-marketing relabelling.
 
 **Firm Summary**
 
@@ -654,7 +654,7 @@ The project minimum is $50,000, meaning Series A and many Series B SaaS companie
 
 **Right Account**
 
-A Fortune 500 company or enterprise SaaS team at $100M+ ARR with a $50K+ project budget that needs deep Relevance Engineering rather than a content-and-distribution LLMO retainer.
+A Fortune 500 company or enterprise SaaS team at $100M+ [ARR](/glossary/what-is-arr/) with a $50K+ project budget that needs deep Relevance Engineering rather than a content-and-distribution LLMO retainer.
 
 **Wrong Account**
 
@@ -691,7 +691,7 @@ Pricing ranges from roughly $1,500/mo (Quoleady at the entry end) to $50,000+ pe
 
 ### How long does it take to get cited inside ChatGPT or Perplexity?
 
-There's no guaranteed timeline. Based on published case studies from agencies on this list, meaningful AI citation movement has been documented in 3-9 months for established SaaS brands with existing content and domain authority. The Quoleady Legal Nodes case study showed Top 5 AEO rankings in three months. GrowPad's logistics client reached Top 1-2 in ChatGPT and Perplexity over a similar window. Newer brands or those with thin off-site authority typically take longer.
+There's no guaranteed timeline. Based on published case studies from agencies on this list, meaningful AI citation movement has been documented in 3-9 months for established SaaS brands with existing content and [domain authority](/glossary/what-is-domain-authority/). The Quoleady Legal Nodes case study showed Top 5 AEO rankings in three months. GrowPad's logistics client reached Top 1-2 in ChatGPT and Perplexity over a similar window. Newer brands or those with thin off-site authority typically take longer.
 
 ### Can an LLMO agency guarantee my product will be cited by AI?
 

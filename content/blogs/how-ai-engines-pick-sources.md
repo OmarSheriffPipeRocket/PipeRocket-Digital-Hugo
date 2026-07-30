@@ -54,7 +54,7 @@ Once a shortlist is retrieved, multiple scoring passes narrow it further, and ea
 - Does the source carry enough authority to trust
 - Does the content show real engagement rather than thin filler
 
-A page has to clear all of these gates, not just one. This is the part of AI search that behaves least like traditional SEO. A page can rank well in Google and still get cut at the authority or structure gate in an AI pipeline, because the checks aren't identical and they run in sequence, not in parallel.
+A page has to clear all of these gates, not just one. This is the part of AI search that behaves least like traditional [SEO](/glossary/what-is-seo/). A page can rank well in Google and still get cut at the authority or structure gate in an AI pipeline, because the checks aren't identical and they run in sequence, not in parallel.
 
 ## Freshness and Structure Do More Work Than They Used To
 
@@ -69,7 +69,7 @@ Here's the part that trips people up: a page can be accurate and still get passe
 | Keywords | Exact-match density | Plain-language topic naming, works for both keyword and semantic search |
 | Freshness | A ranking factor among many | A trust gate, especially for time-sensitive queries |
 | Page structure | Helps dwell time and readability | Determines whether the answer can be extracted safely at all |
-| Backlinks | The dominant authority signal | Still matters, but shares weight with entity clarity and off-site mentions |
+| [Backlinks](/glossary/what-is-a-backlink/) | The dominant authority signal | Still matters, but shares weight with entity clarity and off-site mentions |
 | Length | Comprehensive pages often outrank thin ones | A long page with the answer buried loses to a shorter page that states it directly |
 
 ## Off-Site Authority Still Decides Who Gets Trusted
@@ -80,13 +80,13 @@ Nothing on your own page can fully substitute for what other sources say about y
 
 Reference and community sources show up disproportionately often across AI citations. In our own review of AI answers for competitive B2B queries, neutral, well-cited reference pages got pulled into answers far more often than promotional brand pages saying the same thing. That's consistent with the general finding that AI engines favor sources with no obvious sales angle: neutral tone, cited facts, and no calls to action read as safer to quote.
 
-That's part of why entity work like getting accurately represented on Wikipedia, G2, or industry directories functions as AI-search infrastructure now, and it doesn't run like a traditional SEO project. There are no keywords to target and no anchor text to place, just a factual, neutral record the model can point to with confidence.
+That's part of why entity work like getting accurately represented on Wikipedia, G2, or industry directories functions as AI-search infrastructure now, and it doesn't run like a traditional SEO project. There are no keywords to target and no [anchor text](/glossary/what-is-anchor-text/) to place, just a factual, neutral record the model can point to with confidence.
 
 ![A four-column diagram of off-site trust signals: neutral reference sources, third-party review platforms, entity consistency, and backlink authority.](/images/blog-infographics/how-ai-engines-pick-sources-infographic-3.webp)
 
 ### Review Platforms and Forums Feed the Same Pipeline
 
-Reddit threads, G2 reviews, and comparison pages that read as genuine third-party opinion get pulled into generative answers even when the brand's own homepage doesn't. One SaaS agency showed up in a generative answer to "SaaS SEO agency in USA" with the citation sourced straight from a Reddit thread, not the homepage.
+Reddit threads, G2 reviews, and [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) that read as genuine third-party opinion get pulled into generative answers even when the brand's own homepage doesn't. One SaaS agency showed up in a generative answer to "SaaS SEO agency in USA" with the citation sourced straight from a Reddit thread, not the homepage.
 
 Posting about yourself on Reddit isn't the lesson here. The conversations already happening about your category, on platforms the model trusts, are doing citation work whether you show up in them or not.
 
@@ -98,7 +98,7 @@ ChatGPT tends to behave conservatively. It favors established, clearly attribute
 
 Perplexity runs looser. It's more willing to cite a smaller or newer source if that source answers the query precisely, which makes it the more approachable entry point for a site still building authority.
 
-Gemini complicates the picture further. Analysis comparing Gemini's citation pool against Google's AI Overviews has found the overlap between the two is far from complete. A page optimized purely for AI Overview citations can still miss a meaningful share of what Gemini cites in its own chat surface.
+Gemini complicates the picture further. Analysis comparing Gemini's citation pool against Google's [AI Overviews](/glossary/what-is-an-ai-overview/) has found the overlap between the two is far from complete. A page optimized purely for AI Overview citations can still miss a meaningful share of what Gemini cites in its own chat surface.
 
 Claude's citation behavior is the least publicly documented of the four. It follows the same underlying logic though: retrieval first, then a preference for clearly structured, credibly sourced pages over promotional ones.
 

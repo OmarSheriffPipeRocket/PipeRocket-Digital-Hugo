@@ -369,7 +369,7 @@ Best for: [SaaS marketing](/blogs/saas-marketing/) teams that want a single comp
 | --- | --- |
 | HQ | San Francisco, CA |
 | Founded | 2024 |
-| Engines Tracked | ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok, Google [AI Overviews](/glossary/what-is-an-ai-overview/), Google AI Mode |
+| Engines Tracked | ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok, Google [AI Overviews](/glossary/what-is-an-ai-overview/), [Google AI Mode](/blogs/how-to-optimize-for-google-ai-mode/) |
 | Notable Clients | Coinbase, SoFi, Slalom, Nextiva, PagerDuty |
 | Funding | $2.2M seed (Y Combinator) |
 

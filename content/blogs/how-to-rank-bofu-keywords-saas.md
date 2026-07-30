@@ -119,7 +119,7 @@ Most agencies execute tasks. We own the outcome: ranked pages that move pipeline
 
 ### How long does it take a SaaS BOFU page to rank?
 
-It depends on domain authority and whether the page sits inside a supporting cluster. On a domain with some existing authority and a real cluster around it, a well-matched comparison or alternatives page usually starts moving within weeks.
+It depends on domain authority and whether the page sits inside a supporting cluster. On a domain with some existing authority and a real cluster around it, a well-matched comparison or [alternatives page](/blogs/how-to-write-saas-alternatives-pages/) usually starts moving within weeks.
 
 On a brand-new domain with the page standing alone, it can take several months, and may never rank if the format doesn't match what's already on the SERP. BOFU generally moves faster than TOFU because the queries are lower-volume and less contested.
 

@@ -43,7 +43,7 @@ Position matters too, not just presence. In synthesized list-style answers, anal
 **How we measure it:**
 
 - We build the prompt set from evidence, not imagination. Real buyer language comes from Google Search Console queries, sales-call transcripts, support tickets, and the phrasing people actually use on Reddit and in review sites. We strip out leading prompts that would artificially inflate the mention rate (asking "why is PipeRocket the best AEO agency" is not a test, it's a mirror).
-- We run each prompt across the engines separately: ChatGPT, Perplexity, Google AI Mode and [AI Overviews](/glossary/what-is-an-ai-overview/), Gemini, and Claude. Never aggregated into one figure.
+- We run each prompt across the engines separately: ChatGPT, Perplexity, [Google AI Mode](/blogs/how-to-optimize-for-google-ai-mode/) and [AI Overviews](/glossary/what-is-an-ai-overview/), Gemini, and Claude. Never aggregated into one figure.
 - For each prompt on each engine we log three things: cited or not, citation position, and which of your pages (or a competitor's) got pulled in.
 - We track the same prompt set over time so you can see movement, and we flag when a competitor breaks into an answer you used to own.
 
@@ -66,7 +66,7 @@ Here are the user agents a proper log report watches for:
 | ChatGPT-User | OpenAI | Live, user-triggered fetch |
 | ClaudeBot | Anthropic | Training crawl |
 | Claude-SearchBot | Anthropic | Search-quality crawl |
-| PerplexityBot | Perplexity | Indexing |
+| [PerplexityBot](/blogs/how-to-get-crawled-by-ai-bots/) | Perplexity | Indexing |
 | Perplexity-User | Perplexity | Live, user-triggered fetch |
 | Google-Extended | Google | Gemini / AI Overviews opt-in |
 | Bytespider | ByteDance | Training crawl |

@@ -82,7 +82,7 @@ When a follow-up question is "how does X compare to Y," a markdown table with cl
 | Dedicated H3 per sub-topic | Strong. Each sub-answer is self-contained and extractable | Strong. Google can re-pull the exact section for the next turn |
 | Comparison table | Strong for "vs" and pricing-tier queries | Strong. Rows map directly onto the natural next question |
 
-We've watched this play out on client comparison pages built for a fintech compliance tool: the H2 sections that isolated one buyer question each kept showing up across a longer AI Mode session, while a wall-of-text competitor page only ever got cited once, on the opening turn.
+We've watched this play out on client [comparison pages](/blogs/how-to-write-saas-comparison-pages-for-seo/) built for a fintech compliance tool: the H2 sections that isolated one buyer question each kept showing up across a longer AI Mode session, while a wall-of-text competitor page only ever got cited once, on the opening turn.
 
 ## Write Passages That Read Like a Direct Answer, Not a Pitch
 
@@ -108,7 +108,7 @@ AI Mode is stitching together a multi-step answer fast, and it leans on sources 
 
 ### Third-party listicles carry more weight in a fan-out response
 
-When AI Mode fans out into a "best tools for X" sub-query, it's drawing on the same kind of third-party roundup pages that AI Overviews already favor.
+When AI Mode fans out into a "best tools for X" sub-query, it's drawing on the same kind of third-party roundup pages that [AI Overviews](/glossary/what-is-an-ai-overview/) already favor.
 
 If your brand consistently shows up across two or three credible SaaS listicles, that's a trust signal Google can lean on across multiple turns of the same conversation.
 

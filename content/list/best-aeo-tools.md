@@ -382,7 +382,7 @@ Goodie AI's Agentic AEO is the most complete optimization workflow in this set. 
 **What Buyers Report**
 
 **Love:** Practitioners highlight breadth and affordability relative to coverage.
-"The most comprehensive GEO tool in the space so far... affordable and covered all the models we wanted to track." via [OMR Reviews](https://omr.com/en/reviews/product/goodie-ai) (role and company of reviewer not specified).
+"The most comprehensive [GEO](/glossary/what-is-geo/) tool in the space so far... affordable and covered all the models we wanted to track." via [OMR Reviews](https://omr.com/en/reviews/product/goodie-ai) (role and company of reviewer not specified).
 
 - Named clients include Unilever, SteelSeries, and Dermalogica (source: omr.com/en/reviews/product/goodie-ai, 2026).
 
@@ -413,7 +413,7 @@ Goodie AI uses a tiered subscription model. As of June 2026, Explorer is self-se
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Explorer | $399/mo | 3 engines (ChatGPT, AI Overviews, Perplexity), 100 prompts, 3,000 AI responses, 10 optimization actions, 3 seats |
+| Explorer | $399/mo | 3 engines (ChatGPT, [AI Overviews](/glossary/what-is-an-ai-overview/), Perplexity), 100 prompts, 3,000 AI responses, 10 optimization actions, 3 seats |
 | Pro | Demo required | 6 engines, 250 prompts, 30 optimization actions, 5 seats |
 | Enterprise | Custom pricing | 11 engines (incl. Rufus + Meta AI + DeepSeek + Grok), 500+ prompts, 60+ optimization actions |
 
@@ -428,7 +428,7 @@ Goodie AI uses a tiered subscription model. As of June 2026, Explorer is self-se
 
 Best for: SaaS teams already subscribed to SE Ranking who want multi-engine AEO monitoring without paying for a second dedicated tool.
 
-[SE Ranking](https://seranking.com/)'s AI Search Add-on is an extension of its established SEO suite rather than a standalone AEO platform. It tracks brand visibility across Google AI Overviews, Google AI Mode, ChatGPT, Gemini, and Perplexity from the same dashboard as traditional [rank tracking](/list/best-rank-tracking-tools-for-saas/). SE Ranking's G2 rating (4.7/5 across 2,396 reviews) reflects the full platform; the AI add-on itself does not have a separate review pool. Note: the G2 quote used in this card is from a general SE Ranking review, not specifically the AI add-on.
+[SE Ranking](https://seranking.com/)'s AI Search Add-on is an extension of its established SEO suite rather than a standalone AEO platform. It tracks brand visibility across Google AI Overviews, [Google AI Mode](/blogs/how-to-optimize-for-google-ai-mode/), ChatGPT, Gemini, and Perplexity from the same dashboard as traditional [rank tracking](/list/best-rank-tracking-tools-for-saas/). SE Ranking's G2 rating (4.7/5 across 2,396 reviews) reflects the full platform; the AI add-on itself does not have a separate review pool. Note: the G2 quote used in this card is from a general SE Ranking review, not specifically the AI add-on.
 
 **Tool Profile**
 
@@ -441,13 +441,13 @@ Best for: SaaS teams already subscribed to SE Ranking who want multi-engine AEO 
 
 **Right Fit / Wrong Fit**
 
-It's for SaaS teams that already use SE Ranking for rank tracking, site auditing, or keyword research, and want to add AI-surface monitoring without a second subscription. The value is consolidation: one dashboard, one bill, one data layer.
+It's for SaaS teams that already use SE Ranking for rank tracking, site auditing, or [keyword research](/glossary/what-is-keyword-research/), and want to add AI-surface monitoring without a second subscription. The value is consolidation: one dashboard, one bill, one data layer.
 
 It's NOT for teams looking for a purpose-built AEO platform. Content optimization and citation auditing are thinner than dedicated AEO tools. The 200-prompt limit on the entry add-on tier is restrictive for teams monitoring more than a handful of keywords across five engines.
 
 **The Edge**
 
-SE Ranking is the only tool in this list that is an add-on to a mature, well-reviewed SEO platform with 4.7/5 across 2,396 G2 reviews. For teams who already pay for traditional SEO tooling, adding AI-surface monitoring here avoids the overhead of evaluating, onboarding, and billing a separate AEO platform.
+SE Ranking is the only tool in this list that is an add-on to a mature, well-reviewed [SEO](/glossary/what-is-seo/) platform with 4.7/5 across 2,396 G2 reviews. For teams who already pay for traditional SEO tooling, adding AI-surface monitoring here avoids the overhead of evaluating, onboarding, and billing a separate AEO platform.
 
 - Covers Google AI Mode (one of the harder-to-track surfaces) alongside AIO, ChatGPT, Gemini, and Perplexity
 - All AI monitoring data sits alongside traditional rank tracking: one dashboard for both signals
@@ -531,7 +531,7 @@ Writesonic is the only tool in this list where writing and tracking are the same
 **What Buyers Report**
 
 **Love:** Users highlight the UI and integrated knowledge of SEO and content.
-"This platform is unmatched compared to all of the AI visibility platforms I've demoed or used. Excellent UI, great AI integration. But what sets them apart is their deep knowledge of SEO and Content Marketing, which informs all of the out of the box data views you get." via [G2 (via cintra.run)](https://cintra.run/blog/writesonic-review).
+"This platform is unmatched compared to all of the AI visibility platforms I've demoed or used. Excellent UI, great AI integration. But what sets them apart is their deep knowledge of SEO and [Content Marketing](/glossary/what-is-content-marketing/), which informs all of the out of the box data views you get." via [G2 (via cintra.run)](https://cintra.run/blog/writesonic-review).
 
 - Writesonic has 200,000+ users (aggregate; specific B2B SaaS named clients not publicly listed from primary source).
 
@@ -576,7 +576,7 @@ Writesonic uses a tiered subscription. As of June 2026, annual billing saves 20%
 
 ## What AEO Tools Actually Do (Optimization vs Monitoring)
 
-Most teams shopping for answer engine optimization tools assume every product does the same job. It does not. The category splits into two distinct functions, and the strongest AEO software sits on both sides of that line.
+Most teams shopping for [answer engine optimization](/glossary/what-is-aeo/) tools assume every product does the same job. It does not. The category splits into two distinct functions, and the strongest AEO software sits on both sides of that line.
 
 Monitoring is the visibility layer: tracking whether your brand surfaces in ChatGPT, Perplexity, Gemini, and Google AI Overviews, who gets cited instead, and how share of voice shifts over time. A pure visibility tracker stops there. It tells you where you stand but not what to change.
 
@@ -588,7 +588,7 @@ When you compare GEO tools and AEO software, weigh both. A tool that only monito
 
 ### What are AEO tools?
 
-AEO tools are software platforms for answer engine optimization, the practice of getting your brand cited in AI answers from ChatGPT, Perplexity, Gemini, and Google AI Overviews. They monitor where you appear (and where competitors get cited instead) and help you optimize content to earn those citations. It is not rank tracking; there are no SERP positions in an AI answer, only citations or none.
+AEO tools are software platforms for answer engine optimization, the practice of getting your brand cited in AI answers from ChatGPT, Perplexity, Gemini, and Google AI Overviews. They monitor where you appear (and where competitors get cited instead) and help you optimize content to earn those citations. It is not rank tracking; there are no [SERP](/glossary/what-is-serp/) positions in an AI answer, only citations or none.
 
 ### What are the best AEO tools?
 

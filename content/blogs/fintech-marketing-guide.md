@@ -64,7 +64,7 @@ The channels are familiar. What changes is how much compliance weight each one h
 
 | Channel | What it's for in fintech | Compliance weight |
 |---|---|---|
-| Content marketing | Trust-building, SEO, and category education | High: every stat and claim needs a source |
+| [Content marketing](/glossary/what-is-content-marketing/) | Trust-building, SEO, and category education | High: every stat and claim needs a source |
 | Paid search and social | Demand capture on high-intent, bottom-funnel terms | High: ad copy and landing pages both face review |
 | ABM | Enterprise deals with compliance officers and finance leads in the buying group | Medium: personalized claims still need to trace to sources |
 | PR and earned media | Third-party validation from outlets a cautious buyer already trusts | Low-medium: mostly about accuracy, not claims regulation |
@@ -73,7 +73,7 @@ The channels are familiar. What changes is how much compliance weight each one h
 
 ### Build content that proves trust while it ranks
 
-Content in fintech has to do two jobs simultaneously: earn organic visibility and survive a skeptical reader's scrutiny. That's the same trust-first discipline that governs [fintech SEO](/blogs/fintech-seo-guide/), and it means the content strategy and the SEO strategy are really one program with two names.
+Content in fintech has to do two jobs simultaneously: earn organic visibility and survive a skeptical reader's scrutiny. That's the same trust-first discipline that governs [fintech SEO](/blogs/fintech-seo-guide/), and it means the content strategy and the [SEO](/glossary/what-is-seo/) strategy are really one program with two names.
 
 The content that performs names a specific standard instead of a vague reassurance. "Bank-grade security" convinces no one doing due diligence. "SOC 2 Type II certified, with annual third-party audits" does the actual work. Every stat needs a named, checkable source, because an unsourced number in a YMYL space reads as a red flag to both the reader and to Google.
 
@@ -81,7 +81,7 @@ Case studies need the same discipline. A results claim tied to a named client is
 
 ### Write for the developer, the finance lead, and the compliance officer separately
 
-A single content calendar rarely serves all three buyers well. A developer wants API documentation, uptime history, and integration guides. A finance lead wants total cost of ownership and case studies with real numbers. A compliance officer wants audit trails, data residency answers, and a clear breach-response process.
+A single [content calendar](/blogs/how-to-build-saas-keyword-map-content-calendar/) rarely serves all three buyers well. A developer wants API documentation, uptime history, and integration guides. A finance lead wants total cost of ownership and case studies with real numbers. A compliance officer wants audit trails, data residency answers, and a clear breach-response process.
 
 Mapping content to persona doesn't mean tripling the content budget. It means auditing the existing plan and asking which of the three buyers each piece is actually written for, then filling the gap for whichever one has nothing. Most fintech content calendars, when audited this way, turn out to be 80% finance-lead content and almost nothing for the other two.
 
@@ -93,7 +93,7 @@ The strongest fintech content explains something confusing, why an interchange f
 
 Paid search and social are still the fastest way to capture bottom-funnel intent, someone searching "payment orchestration platform pricing" or "KYC API for fintech" is close to a decision. The catch is that ad platforms and regulators both scrutinize financial services copy harder than most verticals.
 
-Two things go wrong most often. Ad copy implies a guarantee ("never miss a fraud case") that the product can't actually back, and the landing page it points to makes a claim the ad didn't, creating a mismatch a reviewer or a regulator can flag independently. The fix is treating the ad and the landing page as one reviewed unit, not two separate assets approved by two separate teams on two separate timelines.
+Two things go wrong most often. Ad copy implies a guarantee ("never miss a fraud case") that the product can't actually back, and the [landing page](/glossary/what-is-a-landing-page/) it points to makes a claim the ad didn't, creating a mismatch a reviewer or a regulator can flag independently. The fix is treating the ad and the landing page as one reviewed unit, not two separate assets approved by two separate teams on two separate timelines.
 
 Retargeting has its own wrinkle in fintech. A visitor who bounced off a pricing page is a warm lead, but retargeting them with a specific numeric claim ("save 40% on transaction fees") without a documented basis for that number is exactly the kind of unsupported claim that draws CFPB attention when a competitor or a customer complains.
 
@@ -103,7 +103,7 @@ The fastest way to fail a platform's ad review, or worse, a compliance audit, is
 
 ### Use ABM for the deals where the buying group actually needs individual proof
 
-Account-based marketing earns its budget in fintech more than in most B2B categories, because enterprise fintech deals genuinely have three or four stakeholders who each need a different kind of proof before they'll sign off. A generic nurture sequence talking to all of them at once talks to none of them well.
+[Account-based marketing](/glossary/what-is-abm/) earns its budget in fintech more than in most B2B categories, because enterprise fintech deals genuinely have three or four stakeholders who each need a different kind of proof before they'll sign off. A generic nurture sequence talking to all of them at once talks to none of them well.
 
 ### Give the compliance officer their own content track
 
@@ -165,7 +165,7 @@ The right metrics in fintech marketing track pipeline and trust, not raw traffic
 
 Start with the standard funnel metrics: qualified leads, pipeline contribution, and CAC by channel. Then layer in the trust-specific signals that predict whether those numbers hold up:
 
-- Conversion rate on trust-critical pages (security, compliance, pricing) compared to the site average
+- [Conversion rate](/tools/conversion-rate-calculator/) on trust-critical pages (security, compliance, pricing) compared to the site average
 - Time-to-close on deals that touched a compliance-specific content asset versus deals that didn't
 - Unlinked brand mentions reclaimed per quarter, since that's a direct measure of PR-driven authority
 - Content that gets cited in AI answer engines for compliance and security queries, since that's now a leading indicator of buyer shortlisting

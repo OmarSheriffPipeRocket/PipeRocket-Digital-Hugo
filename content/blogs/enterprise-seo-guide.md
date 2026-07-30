@@ -165,7 +165,7 @@ Set up automated triggers using Google Analytics and GSC APIs to surface pages t
 Two steps to make this transition:
 
 - **Implement [schema markup](/glossary/what-is-schema-markup/):** the structured language AI engines use to understand and cite your content
-- **Build a knowledge graph** that connects your brand entity to related topics and concepts, strengthening [topical authority](/blogs/how-to-improve-topical-authority/) across AI-generated answers
+- **Build a [knowledge graph](/blogs/how-to-build-brand-entity-knowledge-graph/)** that connects your brand entity to related topics and concepts, strengthening [topical authority](/blogs/how-to-improve-topical-authority/) across AI-generated answers
 
 ## How to Navigate the Enterprise Organization for Advocacy?
 

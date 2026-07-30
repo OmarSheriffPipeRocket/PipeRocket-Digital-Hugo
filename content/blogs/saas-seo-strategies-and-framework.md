@@ -49,7 +49,7 @@ The goals that connect SEO to revenue:
 
 Once those targets exist, every downstream decision, which keywords to pursue, which content to build, which technical issues to prioritize, can be evaluated against whether it moves those numbers.
 
-**What this looks like in practice:** A project management SaaS sets a goal of 30 organic SQLs per month by the end of Q3. Working backwards, they calculate they need roughly 6,000 organic visits per month from BOFU-intent pages at a 0.5% SQL [conversion rate](/glossary/what-is-conversion-rate/). That math tells them they need 12 to 15 comparison and alternatives pages at an average of 400 visits per month each. The goal determined the content plan, not the other way around.
+**What this looks like in practice:** A project management SaaS sets a goal of 30 organic SQLs per month by the end of Q3. Working backwards, they calculate they need roughly 6,000 organic visits per month from BOFU-intent pages at a 0.5% SQL [conversion rate](/glossary/what-is-conversion-rate/). That math tells them they need 12 to 15 comparison and [alternatives pages](/blogs/how-to-write-saas-alternatives-pages/) at an average of 400 visits per month each. The goal determined the content plan, not the other way around.
 
 What not to do
 
@@ -231,7 +231,7 @@ I rewrote the first fold from "We are an X firm with Y years of experience" to "
 What not to do
 
 - Do not write for keyword density. Write for the reader’s next question
-- Do not have four different company descriptions across your website, G2 profile, LinkedIn, and Crunchbase. Standardize your brand entity across every external property
+- Do not have four different company descriptions across your website, G2 profile, LinkedIn, and Crunchbase. Standardize your [brand entity](/blogs/how-to-build-brand-entity-knowledge-graph/) across every external property
 - Do not ignore [schema markup](/glossary/what-is-schema-markup/) because it requires developer time. FAQPage schema alone can meaningfully improve click-through rates from both traditional search and AI-generated results
 
 ---

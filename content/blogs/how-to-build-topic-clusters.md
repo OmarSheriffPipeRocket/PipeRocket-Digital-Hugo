@@ -56,7 +56,7 @@ The pillar should be the page closest to the decision. For a SaaS topic, the dec
 
 This flips the usual cluster order. The shape I build follows the [buyer down the funnel](/blogs/how-to-map-keywords-to-saas-buyer-journey/): What Is → How To → Automate → Tools → Alternatives → Pricing/Reviews → Conversion. The decision-stage nodes get built first because they close, and everything upstream pushes authority toward them.
 
-A cluster that starts with the "what is" page and never reaches the alternatives page is a cluster with no exit.
+A cluster that starts with the "what is" page and never reaches the [alternatives page](/blogs/how-to-write-saas-alternatives-pages/) is a cluster with no exit.
 
 ### Use Spokes to Answer Everything the Pillar Can't
 

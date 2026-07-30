@@ -70,7 +70,7 @@ A healthtech program that actually works rests on four things happening together
 
 ### Build the technical and trust foundations Google expects from YMYL content
 
-Technical SEO in healthtech does double duty, it's also a trust signal that both search engines and a wary buyer read the same way. A slow, unclear site quietly confirms the doubt a health buyer already carries. Get the fundamentals in place first.
+[Technical SEO](/glossary/what-is-technical-seo/) in healthtech does double duty, it's also a trust signal that both search engines and a wary buyer read the same way. A slow, unclear site quietly confirms the doubt a health buyer already carries. Get the fundamentals in place first.
 
 - Clean site architecture that puts clinical and compliance pages within a few clicks of the homepage
 - Fast, stable performance across mobile, since research often happens between patient appointments
@@ -126,7 +126,7 @@ Keep the review trail visible too. If a case study cites a clinical outcome, not
 
 ## How Healthtech Content Shows Up in AI Search
 
-AI Overviews and chat-based answers are increasingly where a healthtech buyer's research starts, and the same trust signals that satisfy a human reader are what get a page cited. A model answering "how does remote patient monitoring reduce hospital readmissions" pulls from sources that are clearly attributed, current, and specific, the same qualities Google's quality raters are trained to reward.
+[AI Overviews](/glossary/what-is-an-ai-overview/) and chat-based answers are increasingly where a healthtech buyer's research starts, and the same trust signals that satisfy a human reader are what get a page cited. A model answering "how does remote patient monitoring reduce hospital readmissions" pulls from sources that are clearly attributed, current, and specific, the same qualities Google's quality raters are trained to reward.
 
 That raises the stakes on medical review bylines and dated content in a way most healthtech teams haven't caught up to. An AI system summarizing health information has less room for ambiguity than a search results page does, so unreviewed or unattributed content is more likely to get filtered out of the answer entirely, not just ranked lower.
 
@@ -134,7 +134,7 @@ It also means the anonymized, category-level case study format matters even more
 
 ## Common Mistakes to Avoid
 
-Most healthtech SEO programs fail for one of a handful of predictable reasons, and each one traces back to treating healthtech like standard B2B SaaS content with a health-shaped keyword list.
+Most healthtech [SEO](/glossary/what-is-seo/) programs fail for one of a handful of predictable reasons, and each one traces back to treating healthtech like standard B2B SaaS content with a health-shaped keyword list.
 
 ### Publishing clinical content with no visible review
 
