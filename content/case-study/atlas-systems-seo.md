@@ -1,11 +1,11 @@
 ---
 draft: false
 featuredImage: "/images/case-study-covers/atlas-systems-seo.svg"
-title: "12.5x Content Traffic in 3 Quarters: Atlas Systems' Early SEO Growth"
+title: "12.5x Content Traffic, 337% AI-Search Growth: Atlas Systems' Early SEO Results"
 slug: "atlas-systems-seo"
 url: "/case-study/atlas-systems-seo/"
 description: "How PipeRocket scaled Atlas Systems' organic content program across two enterprise product lines — ToFU traffic up ~12.5x, Top-3 rankings up 137%, and AI-search referral sessions up 337%, in the first three quarters of the engagement."
-metaTitle: "Atlas Systems SEO Case Study: 12.5x Content Traffic Growth | PipeRocket"
+metaTitle: "Atlas Systems Case Study: 12.5x Traffic, 337% AI Growth | PipeRocket"
 metaDescription: "How PipeRocket grew Atlas Systems' organic visibility across TPRM and PLM — ToFU content traffic up ~12.5x, Top-3 keyword rankings up 137%, AI-referral sessions up 337% in three quarters."
 client: "Atlas Systems"
 logo: "/images/logos/atlas-systems.svg"
