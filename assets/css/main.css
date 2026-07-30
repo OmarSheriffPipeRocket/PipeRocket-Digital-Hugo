@@ -2512,6 +2512,15 @@ a.pr-hero__cta:hover,
 }
 .pr-case:hover .pr-case__link-text { text-decoration-thickness: 2px; }
 
+/* Flat-image cards (newer case studies added straight from their own
+   composite SVG, no hand-positioned decorative strokes needed). */
+.pr-case__card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* =================================================================
    CASE STUDY SLIDER (stats + quote + attribution + CTA)
    ================================================================= */
