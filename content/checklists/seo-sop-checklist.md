@@ -1,7 +1,7 @@
 ---
 title: "The SEO SOP & Workflow Checklist for 2026: A Step-by-Step Playbook for Your SEO Team (Download PDF + Excel)"
 description: "A simple 13-phase SEO SOP for one SEO team member, from onboarding and technical audit to money pages, topical authority, and reporting. Free PDF and Excel."
-metaTitle: "SEO SOP & Workflow Checklist: 13-Phase Team Playbook 2026"
+metaTitle: "SEO SOP & Workflow Checklist 2026 (Download PDF + Excel)"
 metaDescription: "A simple 13-phase SEO SOP one team member can follow, from onboarding to money pages to reporting. Step-by-step, in plain English, free PDF and Excel."
 date: 2026-07-27T11:00:00+05:30
 lastmod: 2026-07-27T11:00:00+05:30
