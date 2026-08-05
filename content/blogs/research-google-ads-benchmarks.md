@@ -1,9 +1,9 @@
 ---
-title: "B2B SaaS Google Ads Benchmarks (2026): Real Data From 65+ Accounts We Manage"
+title: "B2B SaaS Google Ads Benchmarks (2026): 100+ Stats From 65+ Accounts We Manage"
 featured: true
-description: "First-party 2026 Google Ads benchmarks from 65+ B2B SaaS accounts PipeRocket manages: average CPC, CTR, conversion rate, and cost per lead, brand vs non-brand, Search vs Performance Max, plus year-over-year trends."
-metaTitle: "B2B SaaS Google Ads Benchmarks 2026 (Real CPC, CPL, CVR Data)"
-metaDescription: "Real 2026 Google Ads benchmarks from 65+ B2B SaaS accounts we manage: average CPC, CTR, conversion rate, cost per lead, brand vs non-brand, Search vs PMax, year-over-year trends."
+description: "First-party 2026 Google Ads benchmarks — 100+ data points from 65+ B2B SaaS accounts PipeRocket manages: average CPC, CTR, conversion rate, and cost per lead, brand vs non-brand, Search vs Performance Max, plus year-over-year trends."
+metaTitle: "B2B SaaS Google Ads Benchmarks 2026 (100+ Statistics)"
+metaDescription: "Real 2026 Google Ads benchmarks: 100+ data points from 65+ B2B SaaS accounts we manage — CPC, CTR, conversion rate, cost per lead, brand vs non-brand, Search vs PMax, YoY trends."
 date: 2026-07-09
 lastmod: 2026-07-09
 slug: "google-ads-benchmarks"
