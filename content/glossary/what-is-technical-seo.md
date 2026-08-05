@@ -29,10 +29,10 @@ Technical [SEO](/glossary/what-is-seo/) is the process of optimizing your websit
 
 Technical SEO is tuning your website’s backend so search engines can crawl, index, and rank your pages without friction. This includes everything from site architecture and page speed to structured data and mobile readiness. The key is removing barriers because even the best content won’t rank if Google can’t access or understand it.
 
-Here’s the real problem: most teams think technical SEO just means “fix your errors and move on.” That’s backwards. Technical SEO isn’t a one-time audit; it’s an ongoing process that shapes whether your site even gets a shot at ranking. The difference between a high-performing SaaS site and an invisible one usually isn’t content quality it’s which one made crawling and indexing brain-dead simple for Google.
+Here’s the real problem: most teams think technical SEO just means “fix your errors and move on.” That’s backwards. Technical SEO isn’t a one-time audit; it’s an ongoing process that shapes whether your site even gets a shot at ranking. The difference between a high-performing SaaS site and an invisible one usually isn’t content quality it’s which one made [crawling](/glossary/what-is-crawling/) and indexing brain-dead simple for Google.
 
 - Crawlability: Ensuring search engine bots can access all important pages without hitting dead ends or blocked resources.
-- Indexation: Controlling which pages are included in Google’s index, so your best content actually shows up in search.
+- [Indexation](/blogs/indexation-seo/): Controlling which pages are included in Google’s index, so your best content actually shows up in search.
 - Site speed: Optimizing load times, because slow sites get deprioritized by both Google and users.
 - Mobile usability: Making sure your site works perfectly on all devices, not just desktop.
 - Structured data: Adding schema markup to help search engines understand your content’s context and show rich results.

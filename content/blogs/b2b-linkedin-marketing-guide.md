@@ -69,7 +69,7 @@ Because the audience has stronger intent, leads are typically more qualified and
 
 ## **Building Your B2B LinkedIn Marketing Strategy**
 
-A strong B2B LinkedIn Marketing strategy starts with clarity. You need clear goals, the right audience, and consistent content that builds trust and drives pipeline. The companies winning on LinkedIn treat it like a strategic revenue channel, not a place to post occasionally and hope for results.
+A strong B2B [LinkedIn Marketing strategy](/blogs/saas-linkedin-marketing-strategy/) starts with clarity. You need clear goals, the right audience, and consistent content that builds trust and drives pipeline. The companies winning on LinkedIn treat it like a strategic revenue channel, not a place to post occasionally and hope for results.
 
 ### **1. Define Business Goals, KPIs & Audience**
 

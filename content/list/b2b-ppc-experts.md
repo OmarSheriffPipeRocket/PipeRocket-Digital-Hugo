@@ -194,7 +194,7 @@ Best for: Rigorous Google Ads testing and fundamentals.
 
 Best for: B2B SaaS paid acquisition wired to pipeline.
 
-Praveen is Co-Founder of [PipeRocket Digital](/saas-ppc/) and the paid-media lead behind our PPC programs. With over a decade in performance marketing, he built our model around one rule: paid should produce pipeline, not just clicks. (Full disclosure — he's my co-founder, and we've placed him mid-list rather than at the top.)
+Praveen is Co-Founder of [PipeRocket Digital](/saas-ppc/) and the paid-media lead behind our PPC programs. With over a decade in [performance marketing](/glossary/what-is-performance-marketing/), he built our model around one rule: paid should produce pipeline, not just clicks. (Full disclosure — he's my co-founder, and we've placed him mid-list rather than at the top.)
 
 **At a Glance**
 
@@ -203,9 +203,9 @@ Praveen is Co-Founder of [PipeRocket Digital](/saas-ppc/) and the paid-media lea
 | Role | Co-Founder, PipeRocket Digital |
 | Known For | Pipeline-first B2B SaaS paid acquisition |
 | Notable Work | Leads paid programs for PipeRocket's B2B SaaS clients |
-| Specialty | Google Ads, LinkedIn Ads, demand gen |
+| Specialty | [Google Ads](/glossary/what-is-google-ads/), LinkedIn Ads, demand gen |
 
-**What sets him apart:** Praveen builds paid around ICP and real buying triggers, with attribution in place from day one, so spend is judged by pipeline contribution rather than vanity metrics. It's why our [SaaS PPC](/saas-ppc/) work spans [Google Ads](/google-ads-agency/), [paid social](/paid-social-agency/), and [account-based](/account-based-marketing-agency/) motions as one system.
+**What sets him apart:** Praveen builds paid around [ICP](/glossary/what-is-icp/) and real buying triggers, with attribution in place from day one, so spend is judged by pipeline contribution rather than vanity metrics. It's why our [SaaS PPC](/saas-ppc/) work spans [Google Ads](/google-ads-agency/), [paid social](/paid-social-agency/), and [account-based](/account-based-marketing-agency/) motions as one system.
 
 - A decade-plus in B2B performance marketing
 - Pipeline-first approach with attribution from the start
@@ -217,7 +217,7 @@ Praveen is Co-Founder of [PipeRocket Digital](/saas-ppc/) and the paid-media lea
 
 **Who should look elsewhere:** Brands outside B2B SaaS, or teams that only want a one-off account audit rather than an ongoing program.
 
-**Editor's read:** I'm biased — he's my co-founder — but the pipeline-first way he runs paid is exactly how I think B2B PPC should work.
+**Editor's read:** I'm biased — he's my co-founder — but the pipeline-first way he runs paid is exactly how I think B2B [PPC](/glossary/what-is-ppc/) should work.
 
 **Where to find him:** [piperocket.digital](https://piperocket.digital/) · [LinkedIn](https://www.linkedin.com/in/praveenravi14/)
 
@@ -304,7 +304,7 @@ Best for: Aggressive, conversion-led performance scaling.
 - Tight integration of paid media and conversion-rate optimization
 - High-output content brand that documents the methodology
 
-**Signature work:** KlientBoost and its extensive PPC and CRO content library.
+**Signature work:** KlientBoost and its extensive PPC and [CRO](/glossary/what-is-cro/) content library.
 
 **Who should work with him:** SaaS and B2B teams that want an agency obsessed with conversions, not just clicks.
 
@@ -337,7 +337,7 @@ Best for: Google Ads conversion strategy and training.
 
 **Signature work:** Paid Search Magic courses and training.
 
-**Who should work with her:** Teams that want Google Ads strategy, audits, or to level up their own people via training.
+**Who should work with her:** Teams that want [Google Ads strategy](/blogs/saas-google-ads-strategy/), audits, or to level up their own people via training.
 
 **Who should look elsewhere:** Buyers needing LinkedIn Ads or a strictly B2B-specialist — her focus is Google Search broadly.
 
@@ -357,10 +357,10 @@ Best for: B2B lead-gen paid media and education.
 | --- | --- |
 | Role | Co-Founder, Paid Media Pros |
 | Known For | B2B lead-gen paid media; multi-platform education |
-| Notable Work | SEL "SEM Speaker of the Year"; Most Influential PPC Pro |
+| Notable Work | SEL "[SEM](/glossary/what-is-sem/) Speaker of the Year"; Most Influential PPC Pro |
 | Specialty | Lead-gen paid media across Google, Meta, LinkedIn, Microsoft |
 
-**What sets her apart:** Morgan's emphasis on lead generation — not ecommerce — makes her especially relevant to B2B, and through Paid Media Pros she teaches across every major platform rather than a single channel.
+**What sets her apart:** Morgan's emphasis on [lead generation](/glossary/what-is-lead-generation/) — not ecommerce — makes her especially relevant to B2B, and through Paid Media Pros she teaches across every major platform rather than a single channel.
 
 - Lead-gen focus that maps directly to B2B paid media
 - Multi-platform expertise, not a single-channel specialist

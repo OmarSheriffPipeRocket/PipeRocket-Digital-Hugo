@@ -253,7 +253,7 @@ Knowing the factors isn't the hard part. Working them in the right order is. The
 
 | Order | Fix this | Why it comes first |
 |---|---|---|
-| 1 | Indexation | A page that isn't indexed can't rank, full stop |
+| 1 | [Indexation](/blogs/indexation-seo/) | A page that isn't indexed can't rank, full stop |
 | 2 | Search intent | The right page type for the query beats a better wrong one |
 | 3 | Content quality and depth | Satisfy the query completely, don't pad it |
 | 4 | Authority and links | The slow compounding asset, so start early |

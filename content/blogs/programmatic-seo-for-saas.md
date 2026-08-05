@@ -111,7 +111,7 @@ The architecture problem that required two weeks of rework at 100 pages would ha
 
 **Stage 2: 1,000 pages.** Validate [conversion rate](/tools/conversion-rate-calculator/) and audience fit. Define what "working" means before scaling to 10,000. A page that ranks for its target query but attracts the wrong [ICP](/glossary/what-is-icp/) is not working. Set a minimum performance threshold: at least one qualified pipeline touch per X indexed pages. Build hub-page internal links before scaling further.
 
-**Stage 3: 10,000 pages.** Monitor indexation rate. Target: more than 80% of pages indexed within 90 days of launch. Submit a dedicated sitemap for the programmatic set. Verify that crawl allocation from Google is keeping pace with the expansion. Check for canonicalization anomalies that only appear at higher page counts.
+**Stage 3: 10,000 pages.** Monitor [indexation](/blogs/indexation-seo/) rate. Target: more than 80% of pages indexed within 90 days of launch. Submit a dedicated sitemap for the programmatic set. Verify that crawl allocation from Google is keeping pace with the expansion. Check for canonicalization anomalies that only appear at higher page counts.
 
 **Stage 4: 50,000 pages (if appropriate).** Most B2B SaaS programmatic SEO programs do not need this stage. The right question is not "how do we get to 50,000?" but "are the indexed pages generating qualified pipeline?" If the answer is yes at 10,000, scale further. If not, deepen the existing pages before expanding the set.
 

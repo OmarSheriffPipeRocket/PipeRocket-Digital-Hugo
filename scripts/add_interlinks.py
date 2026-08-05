@@ -984,6 +984,31 @@ LINK_MAP = [
     ("healthtech SEO", "/blogs/healthtech-seo-guide/", False, "P0"),
     ("fintech marketing", "/blogs/fintech-marketing-guide/", False, "P0"),
     ("edtech SEO", "/blogs/edtech-seo-guide/", False, "P0"),
+
+    # ---- 20 new blog posts added 2026-08-05 (Untapped Pages batch) ----
+    ("video marketing strategy", "/blogs/saas-video-marketing-strategy/", False, "P0"),
+    ("saas video marketing", "/blogs/saas-video-marketing-strategy/", False, "P0"),
+    ("linkedin marketing strategy", "/blogs/saas-linkedin-marketing-strategy/", False, "P0"),
+    ("SaaS internal linking strategy", "/blogs/saas-internal-linking-strategy/", False, "P0"),
+    ("Google Ads strategy", "/blogs/saas-google-ads-strategy/", False, "P0"),
+    ("marketing plan template", "/blogs/saas-marketing-plan-template/", False, "P0"),
+    ("lead generation strategies", "/blogs/saas-lead-generation-strategies/", False, "P0"),
+    ("b2b saas lead generation strategies", "/blogs/saas-lead-generation-strategies/", False, "P0"),
+    ("marketing audit", "/blogs/saas-marketing-audit/", False, "P0"),
+    ("SaaS SEO audit", "/blogs/saas-seo-audit/", False, "P0"),
+    ("schema markup for SaaS", "/blogs/schema-markup-for-saas/", False, "P0"),
+    ("b2b growth strategy", "/blogs/b2b-growth-strategy/", False, "P0"),
+    ("b2b growth marketing strategy", "/blogs/b2b-growth-strategy/", False, "P0"),
+    ("b2b seo strategy", "/blogs/b2b-seo-strategy/", False, "P0"),
+    ("what is b2b seo", "/blogs/b2b-seo/", False, "P0"),
+    ("b2b marketing audit", "/blogs/b2b-marketing-audit/", False, "P0"),
+    ("enterprise SEO audit", "/blogs/enterprise-seo-audit/", False, "P0"),
+    ("content marketing for tech companies", "/blogs/content-marketing-for-tech-companies/", False, "P0"),
+    ("reddit marketing", "/blogs/reddit-marketing/", False, "P0"),
+    ("LinkedIn SEO", "/blogs/linkedin-seo/", False, "P0"),
+    ("voice search SEO", "/blogs/voice-search-seo/", False, "P0"),
+    ("YMYL SEO", "/blogs/ymyl-seo/", True, "P0"),
+    ("indexation", "/blogs/indexation-seo/", False, "P0"),
 ]
 
 PRIORITY_ORDER = {"P0": 0, "P1": 1, "P2": 2}

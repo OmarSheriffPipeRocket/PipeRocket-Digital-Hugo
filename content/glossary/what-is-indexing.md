@@ -16,7 +16,7 @@ toc: true
 readingTime: "10 min read"
 ---
 
-Indexing is the process where a search engine adds a web page to its searchable database after crawling it. If your SaaS pages aren’t indexed, they can’t appear in search results so fixing indexing issues is critical for organic growth.
+Indexing is the process where a search engine adds a web page to its searchable database after [crawling](/glossary/what-is-crawling/) it. If your SaaS pages aren’t indexed, they can’t appear in search results so fixing indexing issues is critical for organic growth.
 
 ## TL;DR
 
@@ -83,7 +83,7 @@ Most SaaS teams celebrate when they see Googlebot in their logs but miss the pai
 
 Most teams assume a green crawl log means “job done.” That’s incomplete. You need to check indexing status in Google Search Console, not just server logs. If you’re not using URL Inspection to spot “Discovered not indexed” or “Crawled currently not indexed” statuses, you’re missing the bottleneck entirely.
 
-Quick example: Schedulo, a SaaS for remote workforce management, created a knowledge base with hundreds of FAQ pages. Despite being crawled, only 60% ended up indexed. Auditing revealed duplicate answers and lack of internal links were to blame once restructured, indexation climbed above 90%.
+Quick example: Schedulo, a SaaS for remote workforce management, created a knowledge base with hundreds of FAQ pages. Despite being crawled, only 60% ended up indexed. Auditing revealed duplicate answers and lack of internal links were to blame once restructured, [indexation](/blogs/indexation-seo/) climbed above 90%.
 
 Nuanced warning: This works well for SaaS with unique, high-value content per page. For SaaS with lots of similar or auto-generated pages, most will never get indexed unless each offers distinct, useful information.
 

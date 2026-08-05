@@ -2,7 +2,7 @@
 title: "AI SEO Strategy and Framework 2026: The Operating Model for SaaS Teams"
 description: "AI SEO isn't a new team or a new dashboard. It's an allocation decision on top of the organic program you already run. This guide gives SaaS marketing teams the operating model: what to optimize for, how to sequence the roadmap, how to prioritize effort, who owns it, and how to measure it without chasing vanity AI-visibility scores."
 metaTitle: "AI SEO Strategy and Framework for SaaS Teams (2026)"
-metaDescription: "The operating model for an AI SEO program: what to optimize for, how to sequence, prioritize, resource, and measure it. Built for SaaS marketing teams."
+metaDescription: "A SaaS GEO strategy operating model: what to optimize for, how to sequence, prioritize, resource, and measure AI SEO. Built for SaaS teams."
 date: 2026-07-06
 slug: "ai-seo-strategy-and-framework"
 writtenBy: "kim"
@@ -10,7 +10,7 @@ category: "AI Search"
 featuredImage: "/images/blog-covers/ai-seo-strategy-and-framework.webp"
 ---
 
-This guide gives SaaS marketing teams the operating model for AI SEO: a five-step strategy for structuring, sequencing, prioritizing, resourcing, and measuring the program so it produces pipeline instead of a share-of-model score nobody can bank. It's for the SEO lead, content lead, or head of marketing who owns organic and now has to make AI search a deliberate part of it.
+This guide gives SaaS marketing teams the operating model for AI SEO: a five-step strategy for structuring, sequencing, prioritizing, resourcing, and measuring the program so it produces pipeline instead of a share-of-model score nobody can bank. It's for the SEO lead, content lead, or head of marketing who owns organic and now has to make AI search a deliberate part of it, and it doubles as a practical SaaS GEO strategy for anyone whose main goal is getting cited inside generative engines specifically.
 
 ## TL;DR
 

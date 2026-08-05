@@ -63,7 +63,7 @@ Canonical tags are one of those invisible SEO levers that can quietly make or br
 - Link signal consolidation: All backlinks to duplicate URLs flow to the canonical page, strengthening its authority in Google’s eyes.
 - Keyword [cannibalization](/blogs/how-to-fix-keyword-cannibalization/) prevention: Multiple pages for the same keyword won’t compete against each other, preserving your [topical authority](/blogs/how-to-improve-topical-authority/).
 - SERP appearance control: You manage which version of a page shows up in search, reducing the risk of users landing on out-of-date or tracking-laden URLs.
-- Faster indexation: Googlebot spends less time crawling redundant pages, which means new features or launches get indexed and ranked faster.
+- Faster [indexation](/blogs/indexation-seo/): Googlebot spends less time crawling redundant pages, which means new features or launches get indexed and ranked faster.
 - Reduced penalty risk: Search engines penalize obvious duplicate content canonicals provide a clear roadmap to avoid accidental devaluation.
 
 Here’s a real trade-off: programmatic canonicals (where your CMS auto-applies the main URL as canonical for every page) save time on small sites, but break down fast on SaaS products with user-generated content, parameterized URLs, or dynamic [landing pages](/glossary/what-is-a-landing-page/). It’s worth the automation if your content stays stable, but it fails when your site structure is in flux or you regularly launch new campaign variants.
@@ -106,7 +106,7 @@ Here’s a nuanced warning: Canonical tags work well for filtered, parameterized
 
 Auditing canonicals isn’t something you set once and forget [technical SEO](/glossary/what-is-technical-seo/) is too dynamic for that. Every time you add new features, launch more landing pages, or update your CMS, new duplicates can pop up. The best SaaS teams treat canonical reviews as an ongoing, not annual, process.
 
-- Use crawling tools: Tools like Semrush Site Audit and Screaming Frog identify canonical tags, conflicts, and missing implementations sitewide.
+- Use [crawling](/glossary/what-is-crawling/) tools: Tools like Semrush Site Audit and Screaming Frog identify canonical tags, conflicts, and missing implementations sitewide.
 - Cross-check with Google Search Console: The “Coverage” and “Inspect URL” features show how Google sees your canonicals versus what you intended.
 - Monitor for conflicting signals: Watch for pages that have both a canonical tag and a redirect, or canonicals that point to non-indexable URLs.
 - Spot sitewide patterns: CMS or plugin updates can accidentally apply the wrong canonical to thousands of pages always audit after major releases.

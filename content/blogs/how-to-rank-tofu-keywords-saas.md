@@ -181,7 +181,7 @@ If your TOFU content isn't ranking or isn't converting into pipeline, **[reach o
 
 Realistically, **three to six months for a new domain** or a thin authority site, and four to eight weeks on a domain that already has topical authority in the category. The timeline depends less on the quality of the specific piece and more on whether the site has the authority infrastructure around it.
 
-A strong TOFU piece on a site with good internal linking and a few relevant backlinks will move faster than the same piece sitting in isolation on a site Google doesn't fully trust yet. No movement after six months usually points to authority or indexation, not content quality.
+A strong TOFU piece on a site with good internal linking and a few relevant backlinks will move faster than the same piece sitting in isolation on a site Google doesn't fully trust yet. No movement after six months usually points to authority or [indexation](/blogs/indexation-seo/), not content quality.
 
 ### Should SaaS startups focus on TOFU or BOFU keywords first?
 

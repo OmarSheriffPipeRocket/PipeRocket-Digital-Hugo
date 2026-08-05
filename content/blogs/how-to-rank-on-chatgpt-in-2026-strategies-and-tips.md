@@ -125,7 +125,7 @@ If your content is just a rewrite of what’s already on page one of Google, the
 
 ### **Force the index and don’t wait**
 
-I keep seeing people wait weeks for Google to find their new content. We don’t wait. You have to be proactive. If we publish something optimized for a specific prompt, we’re monitoring it every day. If it’s not showing up, we’re forcing that indexation.
+I keep seeing people wait weeks for Google to find their new content. We don’t wait. You have to be proactive. If we publish something optimized for a specific prompt, we’re monitoring it every day. If it’s not showing up, we’re forcing that [indexation](/blogs/indexation-seo/).
 
 You have to tell the engines that you have something new and relevant. If you just sit around waiting for a crawler to stumble across you, your competitors are going to beat you to the punch.
 

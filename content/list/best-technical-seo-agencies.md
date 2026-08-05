@@ -319,11 +319,11 @@ Best for: Global enterprise brands with [international SEO](/blogs/saas-internat
 | Founded | 2007 |
 | Team Size | 50 to 249 people |
 | Notable Clients | British Airways, Sephora, Macy's, Verizon, Johnson & Johnson |
-| Specialization | Enterprise SEO, international SEO, site architecture |
+| Specialization | Enterprise [SEO](/glossary/what-is-seo/), international SEO, site architecture |
 
 **The Edge:** Long-arc enterprise pedigree.
 
-Founded by ex-Googlers in 2007, Ayima built Ayima Pulse and several proprietary enterprise tools. They market as an "expert-led no-fluff Technical SEO consultancy" without productizing the deep-technical disciplines on the public service menu.
+Founded by ex-Googlers in 2007, Ayima built Ayima Pulse and several proprietary enterprise tools. They market as an "expert-led no-fluff [Technical SEO](/glossary/what-is-technical-seo/) consultancy" without productizing the deep-technical disciplines on the public service menu.
 
 - 19-year track record on enterprise SEO and international rollouts
 - Historical authority on log file analysis at scale
@@ -443,7 +443,7 @@ Best for: B2B SaaS teams running paid and organic as one retainer
 | Founded | 2014 |
 | Team Size | 50 to 249 people |
 | Notable Clients | Intel, Cisco, ZoomInfo |
-| Specialization | B2B SaaS performance marketing |
+| Specialization | B2B SaaS [performance marketing](/glossary/what-is-performance-marketing/) |
 
 **The Edge:** Revenue-reporting model.
 
@@ -469,7 +469,7 @@ Their /services/seo/technical-seo page returns a 404 as of June 2026, confirming
 
 **Investment Terms**
 
-Pricing runs $8,000 to $25,000/mo per industry references as of June 2026, with no public retainer page. Engagements scope across paid search, SEO, technical, and CRO under one Customer Generation program.
+Pricing runs $8,000 to $25,000/mo per industry references as of June 2026, with no public retainer page. Engagements scope across paid search, SEO, technical, and [CRO](/glossary/what-is-cro/) under one Customer Generation program.
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
@@ -506,7 +506,7 @@ Best for: Analytics-heavy enterprises needing SEO grounded in user data
 | Founded | 2002 |
 | Team Size | 50 to 249 people |
 | Notable Clients | Intuit, TIME Magazine, American Family Insurance, Drexel University |
-| Specialization | Analytics-driven SEO and PPC |
+| Specialization | Analytics-driven SEO and [PPC](/glossary/what-is-ppc/) |
 
 **The Edge:** Data infrastructure plus SEO.
 
@@ -597,7 +597,7 @@ Pricing is $200 to $300/hr with a $5,000+ project minimum on the Clutch profile 
 
 | Plan | Price | Key Inclusions |
 | --- | --- | --- |
-| Project | $5,000+ | Technical SEO audit and roadmap |
+| Project | $5,000+ | Technical [SEO audit](/glossary/what-is-an-seo-audit/) and roadmap |
 | Hourly | $200 to $300/hr | Senior advisory and enablement |
 | Retainer | Custom pricing | Ongoing strategic partnership |
 
@@ -616,7 +616,7 @@ Pricing is $200 to $300/hr with a $5,000+ project minimum on the Clutch profile 
 
 ### What does a technical SEO agency actually do?
 
-It audits and fixes site infrastructure (crawl, indexation, Core Web Vitals, JS rendering, schema, architecture) and ties the work to ranking outcomes.
+It audits and fixes site infrastructure (crawl, [indexation](/blogs/indexation-seo/), Core Web Vitals, JS rendering, schema, architecture) and ties the work to ranking outcomes.
 
 ### How is a technical SEO agency different from a general SEO agency?
 

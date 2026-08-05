@@ -82,7 +82,7 @@ Then you organise it as clusters. One pillar page covers the broad topic, 10 to 
 
 ### Technical: crawlability and indexation first
 
-Technical SaaS SEO is narrower than people think. A SaaS site has roughly 1,000 to 2,000 pages, not the millions an e-commerce catalogue runs, so crawlability and indexation are about 90% of the job. Fix broken redirects, canonical errors, orphan pages, and JavaScript rendering issues, and Google rewards the rest.
+Technical SaaS SEO is narrower than people think. A SaaS site has roughly 1,000 to 2,000 pages, not the millions an e-commerce catalogue runs, so crawlability and [indexation](/blogs/indexation-seo/) are about 90% of the job. Fix broken redirects, canonical errors, orphan pages, and JavaScript rendering issues, and Google rewards the rest.
 
 Perfect Core Web Vitals scores matter less than the obsession around them suggests. Top-ranking pages for competitive terms rarely score above 80. Get the page crawlable and indexable, keep the experience clean, and move on.
 

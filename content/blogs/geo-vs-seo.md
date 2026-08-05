@@ -71,7 +71,7 @@ Build [bottom-of-funnel](/blogs/how-to-rank-bofu-keywords-saas/) pages first. Co
 
 ### Technical Health
 
-Fixing crawlability, indexation, broken redirects, canonical errors, and JavaScript rendering clears most of the backlog for a SaaS site with a thousand or two pages, not the millions an e-commerce catalog handles. Chasing a perfect Core Web Vitals score past that point rarely moves rankings much further.
+Fixing crawlability, [indexation](/blogs/indexation-seo/), broken redirects, canonical errors, and JavaScript rendering clears most of the backlog for a SaaS site with a thousand or two pages, not the millions an e-commerce catalog handles. Chasing a perfect Core Web Vitals score past that point rarely moves rankings much further.
 
 ### Authority
 
