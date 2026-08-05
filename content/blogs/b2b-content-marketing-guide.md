@@ -118,7 +118,7 @@ This is where most B2B marketers fail. They follow the “publish and pray” me
 
 A winning B2B strategy requires a diverse portfolio of assets, each designed to perform a specific job in the buyer’s journey. 
 
-Here are the five core content types you need.
+Here are the five core content types you need. If your buyer is technical (devtools, infra, or AI-agent audiences who read like engineers), our [content marketing for tech companies](/blogs/content-marketing-for-tech-companies/) piece covers the format and depth adjustments generic B2B advice misses.
 
 ### 1. Blog Posts & Long-Form Articles
 

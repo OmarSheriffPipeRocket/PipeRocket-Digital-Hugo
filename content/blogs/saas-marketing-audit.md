@@ -184,7 +184,7 @@ If SEO comes out as the biggest gap, we follow up through our [SaaS SEO agency](
 
 ### What is a SaaS marketing audit?
 
-A SaaS marketing audit is a structured review of a company's positioning, channel spend, funnel conversion rates, and attribution setup, run to find specific gaps that are capping pipeline growth. It's different from a single-channel audit because it looks at how these pieces interact instead of scoring one channel in isolation. The output should be a short, ranked list of fixes, not a broad health report.
+A SaaS marketing audit is a structured review of a company's positioning, channel spend, funnel conversion rates, and attribution setup, run to find specific gaps that are capping pipeline growth. It's different from a single-channel audit because it looks at how these pieces interact instead of scoring one channel in isolation. The output should be a short, ranked list of fixes, not a broad health report. If your buying motion runs through a multi-person committee rather than a single buyer, our [B2B marketing audit](/blogs/b2b-marketing-audit/) covers the sales-and-marketing alignment checks this SaaS-specific version doesn't.
 
 ### How often should a SaaS company run a marketing audit?
 

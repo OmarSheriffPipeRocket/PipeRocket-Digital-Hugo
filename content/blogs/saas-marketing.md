@@ -201,6 +201,8 @@ Every SaaS marketing team hits the same handful of walls: traffic that won't con
 
 Rather than re-litigate each symptom here, we've mapped the most common ones, and the fixes that actually work, in our [Top SaaS Marketing Challenges guide](/blogs/saas-marketing-challenges-and-fixes/). Read this page to understand the shape of the whole program; read that one when a specific piece of it breaks.
 
+If you're building the program from scratch rather than diagnosing an existing one, our [SaaS marketing plan template](/blogs/saas-marketing-plan-template/) gives you the eight sections a real operating document needs.
+
 ## How PipeRocket Digital Builds SaaS Marketing Programs
 
 We build SaaS marketing programs around the motion first, self-serve, sales-assisted, or hybrid, then sequence SEO, paid, and content underneath it instead of running channels as separate bets. If you want a second opinion on where your program's gaps actually are, [get in touch](https://piperocket.digital/contact-us/). For teams evaluating agencies for the first time, our roundups of the [best SaaS marketing agencies](https://piperocket.digital/list/best-saas-marketing-agencies-2026/) and [best SaaS SEO agencies](https://piperocket.digital/list/best-saas-seo-agencies/) are a useful starting comparison.

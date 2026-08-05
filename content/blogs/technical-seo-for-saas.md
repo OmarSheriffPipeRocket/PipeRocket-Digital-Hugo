@@ -115,7 +115,7 @@ The fix: identify all publicly indexable content currently on `app.` and migrate
 
 Structured data does not fix broken indexation. Apply it after Tiers 1 and 2 are resolved. Once those are clean, schema does two things that standard technical fixes cannot: it creates rich snippet eligibility in Google's [SERP](/glossary/what-is-serp/) and increases citation eligibility in AI-powered answer engines.
 
-For B2B SaaS sites, four schema types provide the clearest return on investment.
+For B2B SaaS sites, four schema types provide the clearest return on investment. For a deeper walkthrough of each type and how they feed both rich results and AI citation, see our [schema markup for SaaS](/blogs/schema-markup-for-saas/) breakdown.
 
 | Schema type | What it does | Where it helps |
 |---|---|---|

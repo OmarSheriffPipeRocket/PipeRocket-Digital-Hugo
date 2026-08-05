@@ -178,6 +178,8 @@ E-E-A-T trade-off worth naming: some link placements that are excellent for [SEO
 
 Internal linking audits are part of every engagement we run at PipeRocket. We consistently find equity flowing the wrong direction: toward informational pages and away from conversion pages. Fixing that flow usually produces faster ranking movement than publishing new content.
 
+The tactics above assume the architecture underneath them is already sound. If you're still deciding how to model your hub-and-spoke structure and tier pages before you start placing individual links, see our [SaaS internal linking strategy](/blogs/saas-internal-linking-strategy/) breakdown.
+
 If your SaaS content program isn't producing the pipeline results you expect, [get in touch with our team](https://piperocket.digital/contact-us/) or see how we approach it as a [SaaS SEO agency](https://piperocket.digital/saas-seo-agency/).
 
 ## Frequently Asked Questions

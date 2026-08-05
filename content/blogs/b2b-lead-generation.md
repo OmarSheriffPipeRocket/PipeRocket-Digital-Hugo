@@ -113,7 +113,7 @@ The goal is simple: keep showing up with helpful content until the buyer is read
 
 There's no single "magic" strategy that fills a B2B pipeline. These strategies are similar to the core building blocks. You don't need all of them at once, but combining the right few can dramatically improve both lead volume and lead quality.
 
-Let's break them down one by one.
+Let's break them down one by one. If your buyer is specifically a SaaS company, our [SaaS lead generation strategies](/blogs/saas-lead-generation-strategies/) breakdown covers the PLG-vs-sales-led motion split that a generic B2B list like this one doesn't.
 
 ### 1. Content Marketing for B2B Leads
 

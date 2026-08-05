@@ -946,7 +946,7 @@ Yes, ideally. Keyword data informs content priorities and vice versa. Silo'd pro
 
 ### What's the difference between B2B SEO and B2B content marketing?
 
-SEO ranks pages on Google for buyer queries. Content marketing creates the assets that rank and convert. The strongest B2B programmes run both together.
+SEO ranks pages on Google for buyer queries. Content marketing creates the assets that rank and convert. The strongest B2B programmes run both together. For a fuller breakdown of what B2B SEO covers and how it differs from B2C, see our [B2B SEO](/blogs/b2b-seo/) explainer.
 
 ---
 

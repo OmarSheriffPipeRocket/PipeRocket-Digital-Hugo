@@ -124,6 +124,8 @@ Impressions and followers tell you the audience is growing. They don't tell you 
 
 Review these monthly against your [ICP](/glossary/what-is-icp/) list, not against a vanity dashboard. If audience penetration inside your real target accounts is climbing and pipeline from those accounts is rising too, the strategy is working. That holds even if the platform-reported conversion numbers look thin.
 
+None of this matters if LinkedIn's own algorithm and Google aren't surfacing your posts and profile in the first place. Our [LinkedIn SEO](/blogs/linkedin-seo/) breakdown covers the discoverability mechanics this strategy assumes are already working.
+
 ![People pictograph showing audience penetration rising from about 2 of 100 to about 19 of 100 after layering ICP filters on a LinkedIn campaign](/images/blog-infographics/saas-linkedin-marketing-strategy-infographic-2.webp)
 
 ## Common Mistakes to Avoid

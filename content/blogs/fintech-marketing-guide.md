@@ -75,7 +75,7 @@ The channels are familiar. What changes is how much compliance weight each one h
 
 Content in fintech has to do two jobs simultaneously: earn organic visibility and survive a skeptical reader's scrutiny. That's the same trust-first discipline that governs [fintech SEO](/blogs/fintech-seo-guide/), and it means the content strategy and the [SEO](/glossary/what-is-seo/) strategy are really one program with two names.
 
-The content that performs names a specific standard instead of a vague reassurance. "Bank-grade security" convinces no one doing due diligence. "SOC 2 Type II certified, with annual third-party audits" does the actual work. Every stat needs a named, checkable source, because an unsourced number in a YMYL space reads as a red flag to both the reader and to Google.
+The content that performs names a specific standard instead of a vague reassurance. "Bank-grade security" convinces no one doing due diligence. "SOC 2 Type II certified, with annual third-party audits" does the actual work. Every stat needs a named, checkable source, because an unsourced number in a [YMYL](/blogs/ymyl-seo/) space reads as a red flag to both the reader and to Google.
 
 Case studies need the same discipline. A results claim tied to a named client is strong evidence. A results claim with an invented number attached to a fictional scenario is worse than no claim at all, because a diligent buyer will ask for it in a sales call and you won't have it.
 

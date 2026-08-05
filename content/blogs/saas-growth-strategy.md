@@ -178,7 +178,7 @@ At PipeRocket, we build growth around the motion that's actually holding a compa
 
 ### What is a SaaS growth strategy?
 
-A SaaS growth strategy is a plan for growing recurring revenue across four motions: acquisition, activation, retention, and expansion. Rather than focusing only on winning new customers, it coordinates how you bring people in, get them to value, keep them, and grow their account over time. The goal is a system where each motion supports the others, so revenue compounds instead of relying on constant new-logo volume. A good strategy also tells you which motion to prioritize based on your current stage.
+A SaaS growth strategy is a plan for growing recurring revenue across four motions: acquisition, activation, retention, and expansion. Rather than focusing only on winning new customers, it coordinates how you bring people in, get them to value, keep them, and grow their account over time. The goal is a system where each motion supports the others, so revenue compounds instead of relying on constant new-logo volume. A good strategy also tells you which motion to prioritize based on your current stage. For the broader B2B version of this question, including how it applies outside a pure SaaS operating model, see our [B2B growth strategy](/blogs/b2b-growth-strategy/) piece.
 
 ### Should a SaaS company focus on acquisition or retention?
 

@@ -137,7 +137,7 @@ In Storylane's case, PipeRocket's campaigns drove 2.5X growth and 62% more demos
 
 Post-purchase content keeps new users moving after signup so they reach value fast.
 
-- Use checklists, quick-start guides, and short videos.
+- Use checklists, quick-start guides, and [short videos](/blogs/saas-video-marketing-strategy/).
 - Turn common support questions into simple help articles.
 
 Clear onboarding and success content reduce confusion and churn and help users discover more features on their own.

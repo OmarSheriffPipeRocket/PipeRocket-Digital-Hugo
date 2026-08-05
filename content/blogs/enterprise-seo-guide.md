@@ -95,7 +95,7 @@ To protect crawl budget:
 - Maintain logical internal linking to guide Googlebots to important pages
 - Audit and prune crawl waste; large sites accumulate significant crawl waste from duplicate and expired URLs
 
-Log file analysis gives you direct visibility into how Googlebots actually crawl your site. Three things you can action from log data:
+Log file analysis gives you direct visibility into how Googlebots actually crawl your site. For the full methodology, including template-weighted sampling when you can't manually review every page, see our [enterprise SEO audit](/blogs/enterprise-seo-audit/) walkthrough. Three things you can action from log data:
 
 - Identify which sections are being prioritized or ignored by crawlers
 - Spot orphan and dead pages that receive no crawl visits
