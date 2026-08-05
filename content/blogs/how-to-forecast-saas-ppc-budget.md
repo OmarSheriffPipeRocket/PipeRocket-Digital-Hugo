@@ -69,7 +69,7 @@ Here's what you need and where each one actually comes from:
 
 One warning on the CRM numbers. Paid-sourced leads almost always convert worse than inbound or referral leads, so don't borrow your overall win rate.
 
-If you have no historical data, that's fine. You forecast with clearly-labelled assumptions and treat month one as a calibration run. What you can't do is pretend a guessed 5% CVR is a known one.
+If you have no historical data, that's fine. You forecast with clearly-labelled assumptions and treat month one as a calibration run. What you can't do is pretend a guessed 5% CVR is a known one. Our [Google Ads benchmarks](/research/google-ads-benchmarks/) put average B2B SaaS CPC at $6.81 and blended cost per lead at $84 across 65+ accounts, a reasonable starting assumption until your own account has real data.
 
 ## Step 3: Build the Model as One Table
 

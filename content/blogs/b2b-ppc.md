@@ -254,6 +254,8 @@ Multi-step forms work especially well because they feel shorter, even when they�
 
 One of the biggest mistakes B2B teams make is judging PPC by surface-level metrics like clicks, impressions, and raw CPL. None of those tell you whether you’re attracting buyers who will actually convert. Here’s how to measure PPC in a way that aligns with real revenue.
 
+A raw CPL number is also hard to judge without a reference point. Our [Google Ads benchmarks](/research/google-ads-benchmarks/) across 65+ B2B SaaS accounts put non-brand search leads at an average $207, roughly 6x the $34 cost of a brand-search lead, so a "high" CPL often just means the traffic mix skewed non-brand.
+
 If you’d rather hand off the work, see our [top B2B PPC agencies](/list/best-affordable-b2b-ppc-agencies/ "Top B2B PPC Agencies").
 
 ### 1. Pipeline Movement Over Vanity Metrics

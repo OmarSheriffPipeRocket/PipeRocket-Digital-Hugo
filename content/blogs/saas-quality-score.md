@@ -102,7 +102,7 @@ Speed matters, but chasing a flawless PageSpeed number is a distraction. Landing
 
 ## Raise Expected CTR With Solid Structure
 
-Expected CTR is the input you earn over time, and it climbs when your ads consistently get clicked by the right people. You build the conditions for it: tight ad groups, copy that speaks to one intent, and relentless pruning of your weakest headlines.
+Expected CTR is the input you earn over time, and it climbs when your ads consistently get clicked by the right people. You build the conditions for it: tight ad groups, copy that speaks to one intent, and relentless pruning of your weakest headlines. Our [Google Ads benchmarks](/research/google-ads-benchmarks/) put average B2B SaaS non-brand CTR at 3.60%, so treat that as the floor your ad groups need to clear before you call expected CTR solved.
 
 Start with structure. A keyword buried in a bloated ad group can't get a relevant ad, so its expected CTR stays low. Split ad groups until each one holds a small set of keywords sharing a single intent, then write ads specifically for that intent.
 

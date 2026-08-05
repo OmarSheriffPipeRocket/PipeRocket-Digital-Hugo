@@ -149,7 +149,7 @@ The third might focus entirely on enterprise security. We set the campaign setti
 
 ### **When Do You Actually Make the Cut?**
 
-We let these three ads run wild for a week or two. We monitor the traffic closely. After that initial testing period, we look at the hard numbers. We completely ignore our gut feelings. We narrow the selection down to the single best-performing ad based entirely on the [Click-Through Rate](/glossary/what-is-ctr/ "Glossary: CTR") and the overall Ad Rank.
+We let these three ads run wild for a week or two. We monitor the traffic closely. After that initial testing period, we look at the hard numbers. We completely ignore our gut feelings. We narrow the selection down to the single best-performing ad based entirely on the [Click-Through Rate](/glossary/what-is-ctr/ "Glossary: CTR") and the overall Ad Rank. Our [Google Ads benchmarks](/research/google-ads-benchmarks/) put average B2B SaaS non-brand CTR at 3.60%, so treat that as the floor a winning ad variation needs to clear, not the ceiling.
 
 We pause the losers immediately. We double down on the clear winner because the market has spoken.
 

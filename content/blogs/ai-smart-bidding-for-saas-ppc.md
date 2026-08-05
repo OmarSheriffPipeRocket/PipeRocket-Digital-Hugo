@@ -110,6 +110,8 @@ The key principle: you're not inflating the conversion count with junk events. Y
 
 Once the conversion hierarchy is in place, the bidding strategy question becomes clearer. tCPA (target cost-per-acquisition) is the right strategy for most SaaS accounts optimising for leads or demo requests. But there's still a structural problem that kills single-campaign tCPA for most SaaS accounts, and it's worth understanding before you turn it on.
 
+Smart Bidding's confidence also depends on which campaign type it's feeding. Across the 65+ B2B SaaS accounts in our [Google Ads benchmarks](/research/google-ads-benchmarks/), Performance Max converts at 6.53% and lands a $25 cost per lead, well ahead of Search's 3.27% and $143, so a portfolio that pools PMax signal alongside Search often stabilises faster than Search alone.
+
 ### Why single-campaign tCPA fails for SaaS first
 
 tCPA needs conversion data to function. The practical threshold most [PPC](/glossary/what-is-ppc/) practitioners work to is around 50 conversions in 30 days per campaign before bids stabilise. If you have five separate campaigns (brand, competitor, category, feature, integration), each campaign needs to hit that threshold on its own. A SaaS account generating 20 total monthly conversions across five campaigns means every campaign is permanently in learning mode. The algorithm never graduates.

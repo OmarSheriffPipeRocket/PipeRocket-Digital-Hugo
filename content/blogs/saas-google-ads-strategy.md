@@ -85,7 +85,7 @@ A compliance SaaS for fintech teams running a "SOC 2 automation" feature campaig
 
 ## Use Performance Max as a Discovery Engine, Not a Black Box
 
-Performance Max isn't a replacement for Search campaigns in a B2B SaaS account, and treating it that way is the fastest way to lose visibility into what's actually converting. Its real job is surfacing high-intent search terms you'd never think to brainstorm manually, then feeding those terms into campaigns you fully control.
+Performance Max isn't a replacement for Search campaigns in a B2B SaaS account, and treating it that way is the fastest way to lose visibility into what's actually converting. Its real job is surfacing high-intent search terms you'd never think to brainstorm manually, then feeding those terms into campaigns you fully control. Across the 65+ accounts in our [Google Ads benchmarks](/research/google-ads-benchmarks/), PMax posts a $25 cost per lead and 6.53% conversion rate against Search's $143 and 3.27%, which is exactly why it's worth mining for terms rather than dismissing as a black box.
 
 ![A three-step diagram showing Performance Max search terms graduating into manual Search campaigns, with existing keywords added as negatives to keep discovery focused on new terms](/images/blog-infographics/saas-google-ads-strategy-infographic-1.webp)
 

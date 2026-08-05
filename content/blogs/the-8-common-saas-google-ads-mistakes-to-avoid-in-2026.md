@@ -227,7 +227,7 @@ This is not theoretical. In virtually every competitive SaaS category, someone i
 ### **How to avoid it:**
 
 - **Run a branded keyword campaign from day one**. This is not something you get to eventually when the budget has more room, it is a non-negotiable part of your account structure from the start
-- Brand CPCs are typically very low because your relevance score for your own name is the highest it can possibly be. Protecting this traffic is usually inexpensive relative to what those clicks are actually worth
+- Brand CPCs are typically very low because your relevance score for your own name is the highest it can possibly be. Protecting this traffic is usually inexpensive relative to what those clicks are actually worth. Our [Google Ads benchmarks](/research/google-ads-benchmarks/) put average B2B SaaS brand CPC at $3.12 versus $13.75 for non-brand, so a branded campaign is one of the cheapest lead sources you'll ever run
 - A branded campaign also gives you full control over what a high-intent prospect sees when they search for you: the headline, the CTA, the offer, none of which your organic listing lets you dictate
 
 Go search your own brand name in an incognito window right now. Whatever shows up is exactly what your prospects are seeing when they look you up

@@ -80,7 +80,7 @@ Allocation is a working split you revisit every quarter based on where the funne
 
 ![A stacked bar chart showing capture budget share shrinking from 65% at early-stage to 40% at scale-stage, while influence and ABM share grow](/images/blog-infographics/saas-paid-media-strategy-infographic-2.webp)
 
-Early-stage SaaS should put most of the budget into capture, because you're still learning which keywords and messages convert, and influence spend on an unproven message just burns money faster. As the sales motion becomes repeatable and deal sizes climb, influence and ABM earn a bigger share because more people are now involved in every deal, and a single capture channel physically cannot reach all of them.
+Early-stage SaaS should put most of the budget into capture, because you're still learning which keywords and messages convert, and influence spend on an unproven message just burns money faster. As the sales motion becomes repeatable and deal sizes climb, influence and ABM earn a bigger share because more people are now involved in every deal, and a single capture channel physically cannot reach all of them. For what capture spend actually costs at each stage, our [Google Ads benchmarks](/research/google-ads-benchmarks/) break down CPC and cost per lead by campaign type and region across 65+ B2B SaaS accounts.
 
 None of these ranges are a rule to follow blindly. If your Search campaigns are still leaving qualified keywords unfunded, don't shift budget to LinkedIn because a table said 25%. Fund the gap you can see first, then use the table as a sanity check.
 

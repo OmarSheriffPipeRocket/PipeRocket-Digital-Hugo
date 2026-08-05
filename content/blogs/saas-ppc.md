@@ -234,7 +234,7 @@ Done right, lifecycle PPC becomes a self-optimizing [performance marketing](/glo
 
 ## Measuring SaaS PPC ROI
 
-Clicks don’t pay the bills, but activated, retained users do. To understand true ROI, you must connect ad platform data with in-product analytics.
+Clicks don’t pay the bills, but activated, retained users do. To understand true ROI, you must connect ad platform data with in-product analytics. Our [Google Ads benchmarks](/research/google-ads-benchmarks/) put the average B2B SaaS blended cost per lead at $84 across 65+ accounts, a useful reference point before you decide whether your own CPL is actually a problem.
 
 **[Customer Acquisition](/blogs/saas-customer-acquisition-strategy/) Cost (CAC):** This is the foundation of SaaS PPC measurement. Start by tracking fully loaded CAC like ad spend, landing page costs, and operational tools. Compare CAC by campaign, keyword, intent level, and funnel stage to find your most profitable segments.
 

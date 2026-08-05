@@ -221,7 +221,7 @@ Think about that last one. If you don’t negative out “Login”, you shell ou
 
 Unlike [SaaS LinkedIn Ads](/blogs/how-do-i-run-linkedin-ads-for-saas-an-experts-take/), it’s much easier to track ROI from Google Ads. Clients often ask me, “How much budget do I need?” and “How many leads will I get?”
 
-Here is where forecasting comes into picture. Once I understand the keyword volume, I can build a mathematical model to predict the outcome.
+Here is where forecasting comes into picture. Once I understand the keyword volume, I can build a mathematical model to predict the outcome. Before I run that model, I sanity-check the assumed CPC and conversion rate against our [Google Ads benchmarks](/research/google-ads-benchmarks/), which average $6.81 CPC and 2.57% conversion rate across 65+ B2B SaaS accounts, so a client's early-stage guesses don't drift too far from what similar accounts actually see.
 
 The process goes like this:
 

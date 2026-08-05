@@ -97,7 +97,7 @@ This highlights the “Bleeders.” You might find that LinkedIn is consuming 60
 
 Okay, now we roll up our sleeves. For most SaaS companies, [Google Ads](/glossary/what-is-google-ads/) is the bread and butter because it captures *intent*. People are literally searching for your solution.
 
-Here is how to audit Google Ads specifically:
+Here is how to audit Google Ads specifically. Before you judge any single metric as good or bad, it helps to have a reference point: our [Google Ads benchmarks](/research/google-ads-benchmarks/) across 65+ B2B SaaS accounts average 3.60% CTR, $6.81 CPC, and $84 blended cost per lead.
 
 ### **1. The Campaign-Level Reality Check**
 

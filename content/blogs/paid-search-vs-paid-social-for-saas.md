@@ -67,7 +67,7 @@ The catch is deal size. Paid social on LinkedIn runs on high CPCs and CPMs, so i
 
 There's no fixed ratio. The split follows two variables: how mature the demand for your category is, and how large your average deal is. Everything else is noise.
 
-I start every budget conversation with the "Eagle's View," where I look at spend by channel against cost per lead and cost per SQL before touching a single campaign. That view exposes the bleeders fast. If one channel is eating half the budget for a tenth of the qualified pipeline, the split is already telling you what to fix.
+I start every budget conversation with the "Eagle's View," where I look at spend by channel against cost per lead and cost per SQL before touching a single campaign. That view exposes the bleeders fast. If one channel is eating half the budget for a tenth of the qualified pipeline, the split is already telling you what to fix. Our [Google Ads benchmarks](/research/google-ads-benchmarks/) put the average B2B SaaS search lead at $84 blended, so a channel costing multiples of that with no pipeline to show for it is the one to cut first.
 
 Here's the rough shape I work from, then adjust with real data:
 
