@@ -60,7 +60,7 @@ Every benchmark below comes from that dataset. Where a cut is too thin to be sta
 
 Before the numbers, the method, because a benchmark you cannot interrogate is just a vibe.
 
-- **Source:** first-party Google Ads data pulled read-only via the Google Ads API for 65+ B2B SaaS accounts PipeRocket actively manages, a subset of a 70+ B2B SaaS client portfolio.
+- **Source:** 65+ B2B SaaS accounts PipeRocket actively manages, a subset of a 70+ B2B SaaS client portfolio.
 - **Window:** trailing 12 months (July 2025 to June 2026), compared against the prior 12 months (July 2024 to June 2025).
 - **How we summarize:** we work out each account's own CTR, CPC, [conversion rate](/tools/conversion-rate-calculator/), and cost per lead first, then report **the average account (the middle of the pack)**. Adding all the raw numbers together would let the single largest spender set the "benchmark," which is exactly the distortion most published benchmarks suffer from.
 - **Currency:** accounts billed in INR, EUR, and TWD are converted to USD at trailing-12-month average rates. CTR and conversion rate are currency-independent; CPC and cost per lead are USD-normalized.
@@ -121,7 +121,7 @@ Campaign type moves the numbers more than almost anything else. Here is the aver
 
 We can only report verticals where at least five accounts sit in the bucket, so this is two broad groups, and we treat it as directional rather than definitive.
 
-| Sub-vertical (n=5 each) | CTR | Avg CPC | Conversion rate | Cost per lead |
+| Sub-vertical | CTR | Avg CPC | Conversion rate | Cost per lead |
 |---|---|---|---|---|
 | GTM & Martech | 4.03% | $5.02 | 2.57% | $126 |
 | Technical (dev tools, security) | 1.91% | $8.68 | 1.64% | $855 |
@@ -135,22 +135,22 @@ We can only report verticals where at least five accounts sit in the bucket, so 
 
 We only count an account as belonging to a region if at least 5% of its own spend actually ran there, then only report a region where at least five accounts clear that bar.
 
-- **The average B2B SaaS Google Ads account's core 2026 metrics in the United States (n=15):**
+- **The average B2B SaaS Google Ads account's core 2026 metrics in the United States:**
   - CTR: 2.38%
   - CPC: $9.26
   - Conversion rate: 2.91%
   - Cost per lead: $92
-- **The average B2B SaaS Google Ads account's core 2026 metrics in India (n=8):**
+- **The average B2B SaaS Google Ads account's core 2026 metrics in India:**
   - CTR: 7.95%
   - CPC: $1.94
   - Conversion rate: 1.46%
   - Cost per lead: $66
-- **The average B2B SaaS Google Ads account's core 2026 metrics in the United Kingdom (n=5):**
+- **The average B2B SaaS Google Ads account's core 2026 metrics in the United Kingdom:**
   - CTR: 3.71%
   - CPC: $5.81
   - Conversion rate: 5.91%
   - Cost per lead: $75
-- **The average B2B SaaS Google Ads account's core 2026 metrics in Canada (n=5, directional, right at our reporting floor):**
+- **The average B2B SaaS Google Ads account's core 2026 metrics in Canada (directional, right at our reporting floor):**
   - CTR: 1.31%
   - CPC: $8.89
   - Conversion rate: 2.58%
