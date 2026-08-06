@@ -13,9 +13,9 @@ category: "B2B SaaS PPC"
 featuredImage: "/images/blog-covers/research-google-ads-benchmarks.webp"
 ---
 
-Here is the headline from our own data: **the average B2B SaaS account paid $207 for a non-brand search lead in 2026, roughly 6x the $34 it paid for a brand lead.** Yet that same year, conversion rates rose ~48% while cost per click stayed flat, so cost per lead actually *fell*.
+Here's an interesting finding from our 2026 Google Ads benchmarks report: **the average B2B SaaS account paid $207 for a non-brand search lead, roughly 6x the $34 it paid for a brand lead.** Yet that same year, conversion rates rose ~48% while cost per click stayed flat, so average cost per lead actually *fell*.
 
-If you run paid acquisition for a B2B SaaS company, you have probably been handed "industry benchmarks" scraped from a vendor survey or a blog that never says whose accounts it looked at. Those numbers are usually a black box.
+If you run paid acquisition for a B2B SaaS company, you have probably been handed "industry benchmarks" or PPC benchmarks scraped from a vendor survey or a blog that never says whose accounts it looked at. Those numbers are usually a black box.
 
 So we opened ours. We pulled 24 months of real Google Ads performance, from July 2024 through June 2026, from **65+ B2B SaaS accounts we actively manage** (part of a 70+ client portfolio), converted every currency to USD, and lined up each account's own numbers to find **the average account**, so one big spender cannot drag the benchmark. No survey. No estimates. Just what we see in the accounts.
 
