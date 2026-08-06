@@ -1,0 +1,239 @@
+{{/* SEO Budget Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .calc-shell .pr-calc__rec { background: none; border-left: none; border-radius: 4px; padding: var(--pr-s-4); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "SEO Budget Calculator", "description": "Free SEO budget calculator for B2B SaaS. Enter target keywords, a competition tier and your blended hourly rate to get a directional monthly and annual SEO budget range.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate an SEO budget?", "acceptedAnswer": { "@type": "Answer", "text": "Multiply your target keyword count by hours per keyword for your competition tier, then multiply by your blended hourly rate, and add monthly tools and software. For example, 20 keywords at medium tier (3 hours each) and $150/hour is 60 hours, or $9,200 with $200 in tools, shown as a $7.8K to $10.6K range." } },
+    { "@type": "Question", "name": "What's a typical monthly SEO budget?", "acceptedAnswer": { "@type": "Answer", "text": "Industry surveys put most SEO budgets between $500 and $10,000 a month, with the single most common band being $1,001 to $5,000, according to Search Engine Journal's benchmark data. Where a business lands in that range depends mostly on keyword count and competition level, not company size alone." } },
+    { "@type": "Question", "name": "What does an SEO budget usually cover?", "acceptedAnswer": { "@type": "Answer", "text": "A full SEO retainer covers strategy and keyword research, technical fixes, content creation, and link building or digital PR, plus tools and software for tracking rankings and technical health. Agencies typically bill a blended hourly rate across these disciplines rather than itemizing each one separately." } },
+    { "@type": "Question", "name": "Is a cheap SEO retainer worth it?", "acceptedAnswer": { "@type": "Answer", "text": "Rarely. A quote well below the blended-rate benchmark for the stated scope usually means fewer hours than the work requires, template content, or automated link building that risks a penalty. Compare any quote against the hours implied by your keyword count and competition tier, not just the sticker price." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">SEO Budget Calculator</h1>
+          <p class="pr-calc__sub">Enter your target keywords, competition tier and blended hourly rate to get a directional monthly and annual SEO budget range. There is no single industry formula for this, so the output is a range, not a fake-precise number.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Target keywords <em>you want to rank for</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="kw" value="20" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">keywords</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Competition tier <em>of those keywords</em></span>
+            <span class="pr-calc__input-wrap"><select id="tier" class="pr-calc__no-prefix">
+              <option value="low">Low competition</option>
+              <option value="medium" selected>Medium competition</option>
+              <option value="high">High competition</option>
+            </select><span class="pr-calc__suffix">&#9662;</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Blended hourly rate <em>agency avg: $135–$148</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="rate" value="150" min="1"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Tools &amp; software <em>rank tracking, audits, etc.</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="tools" value="200" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your estimated SEO budget</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rBudget">—</div><div class="pr-calc__l">Estimated monthly budget</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rHours">—</div><div class="pr-calc__l">Monthly SEO hours</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rPerKw">—</div><div class="pr-calc__l">Cost per keyword / mo</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rAnnual">—</div><div class="pr-calc__l">Estimated annual budget</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your keywords, tier and rate to see your budget range.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-seobudget-mid">Get a real SEO budget and roadmap →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Guessing your SEO budget wastes the first six months.</strong>
+          <p>PipeRocket scopes SEO budgets off your actual keyword set and competition, not a round number.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-seobudget-side">Get a budget review</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/free-seo-roi-calculator/">SEO ROI Calculator</a>
+            <a href="/tools/keyword-value-calculator/">Keyword Value Calculator</a>
+            <a href="/tools/marketing-roi-calculator/">Marketing ROI Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is an SEO budget?</h2>
+          <p>An SEO budget is the amount a company sets aside each month for SEO work: strategy, technical fixes, content, and link building. That spend can go to an agency retainer or an in-house team plus tools.</p>
+          <p>Unlike a PPC budget, there is no bid you can dial up or down in real time, so the number has to be planned around the scope of work rather than a live auction.</p>
+          <p>SEO also has no single universal formula the way CAC or CTR do, because the "right" number depends on how many keywords you are targeting and how competitive they are, not a fixed ratio. This calculator estimates a range from those two inputs plus your rate, rather than pretending a single number is exact.</p>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Monthly SEO hours    = Target keywords × Hours per keyword (by tier)
+Monthly service cost = Monthly SEO hours × Blended hourly rate
+Monthly SEO budget   = Monthly service cost + Tools &amp; software
+Budget range          = Monthly SEO budget ± 15%</pre>
+          <p>The ±15% range exists because two SEO engagements with the same keyword count and tier can still differ: one site might need a heavier technical cleanup, the other a deeper content gap to close. Treat the output as a planning range for a conversation with a vendor, not a quote.</p>
+
+          <h2>What's a realistic SEO budget range?</h2>
+          <p>Search Engine Journal's benchmark survey puts most SEO budgets between $500 and $10,000 a month, with the single most common band being $1,001 to $5,000. Credo's pricing data puts blended agency hourly rates at roughly $135 to $148 an hour on average, which is why this calculator defaults to $150.</p>
+          <p>HawkSEM's budgeting guidance breaks out tools and software as their own line item, typically $150 to $600 a month, separate from the service hours themselves.</p>
+          <table>
+            <thead><tr><th>Competition tier</th><th>Approx. hours / keyword / mo</th><th>20 keywords at $150/hr</th></tr></thead>
+            <tbody>
+              <tr><td>Low</td><td>1.5 hrs</td><td>~$4,700/mo</td></tr>
+              <tr><td>Medium</td><td>3 hrs</td><td>~$9,200/mo</td></tr>
+              <tr><td>High</td><td>6 hrs</td><td>~$18,200/mo</td></tr>
+            </tbody>
+          </table>
+          <p>This tier table is this calculator's own working model, not an external industry standard. Low-tier keywords usually need light on-page work and a handful of supporting links; high-tier keywords compete against established domains and need deeper content plus sustained link building, which is why the hours per keyword roughly quadruple from low to high.</p>
+
+          <h2>How to set your SEO budget</h2>
+
+          <h3>Start From the Scope of Work, Not a Round Number</h3>
+          <p>Many businesses set an SEO budget by picking a figure that sounds reasonable, something like $1,000 or $2,500 a month, rather than working backward from what the work actually requires. That approach usually either overpays for a small keyword set or underfunds a genuinely competitive one.</p>
+          <p>Start instead by listing your actual target keywords and roughly grouping them by competition. A handful of long-tail terms with weak page-one results need far less time than a dozen head terms where established competitors already rank.</p>
+          <p>Once you have that list, the keywords-times-hours-times-rate model above gives you a defensible starting number to bring into a vendor conversation, instead of anchoring on whatever number you saw in a blog post.</p>
+          <p>It also gives you a number you can defend internally when finance asks why the line item is what it is, since it traces back to a keyword list and a tier, not a gut feeling.</p>
+
+          <h3>Match the Tier to Your Actual Keyword Difficulty</h3>
+          <p>Competition tier is the single biggest lever in this calculator, and guessing it wrong throws off the whole estimate. A few quick checks tell you which tier you are actually in:</p>
+          <ul>
+            <li>Are the top 10 results dominated by large, well-known brands with strong domain authority</li>
+            <li>Do page-one competitors already have deep, well-structured content on the exact topic</li>
+            <li>Does the keyword carry clear commercial intent that draws paid competition too</li>
+            <li>Has nobody bothered to build a dedicated page for it yet, which usually signals a lower tier</li>
+          </ul>
+          <p>If most of your target list trips two or more of the first three checks, budget at the high tier rather than medium, even if the raw search volume looks modest. Volume tells you demand exists; it does not tell you how many hours it will take to earn a page-one spot against those competitors.</p>
+
+          <h3>Plan for a 6 to 12 Month Runway, Not a Single Month</h3>
+          <p>SEO compounds, which means the number that matters is not one month's spend but the total committed over a realistic runway. A budget that looks generous for month one can look thin if it is not sustained past month three, since rankings built on published content keep taking months to mature.</p>
+          <p>Multiply this calculator's monthly output by at least six, and ideally twelve, before deciding whether a budget is actually affordable. A business that can fund $5,000 a month for two months and then stop has effectively budgeted less than one that funds $3,000 a month for a full year.</p>
+          <p>If the twelve-month total does not fit comfortably in your marketing plan, scale down the keyword count or tier rather than the runway.</p>
+
+          <h3>Decide Between an Agency and an In-House Hire First</h3>
+          <p>Whether you hire an agency or build an in-house team changes both the total number and what is bundled inside it. An agency retainer usually bundles strategy, execution, and reporting into one blended rate, which is what this calculator's hourly-rate input is built to approximate.</p>
+          <p>An in-house hire trades that bundled rate for a fixed salary, but rarely covers every discipline alone. Most in-house SEO teams still contract out specialist link building or a periodic technical audit, so the true cost is salary plus tools plus a smaller specialist budget, not salary alone.</p>
+          <p>Neither path is universally cheaper. A single in-house generalist can be less expensive for a narrow, low-tier keyword set, while an agency's bundled specialists usually win out once the keyword list spans high-tier terms and multiple disciplines.</p>
+
+          <h3>Treat a Rate Far Below the Benchmark as a Red Flag</h3>
+          <p>A quote that comes in at half your calculated range is not automatically a bargain. It usually means the vendor is planning far fewer hours than your keyword count and tier actually require, or is filling those hours with templated content and automated link placements instead of real work.</p>
+          <ul>
+            <li>No clear breakdown of hours or deliverables behind the price</li>
+            <li>Guaranteed rankings or a fixed timeline for organic results</li>
+            <li>Link building described only as "outreach" with no sample targets</li>
+            <li>Reporting limited to rank-tracker screenshots with no narrative</li>
+          </ul>
+          <p>Any one of these on its own is worth a follow-up question; two or more together are a reason to compare the quote against this calculator's estimate before signing. A rate that undercuts the benchmark by half is buying fewer hours, not a better deal.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate an SEO budget?</h3>
+          <p>Multiply your target keyword count by hours per keyword for your competition tier, then multiply by your blended hourly rate, and add monthly tools and software. For example, 20 keywords at medium tier (3 hours each) and $150/hour is 60 hours, or $9,200 with $200 in tools, shown as a $7.8K to $10.6K range.</p>
+          <h3>What's a typical monthly SEO budget?</h3>
+          <p>Industry surveys put most SEO budgets between $500 and $10,000 a month, with the single most common band being $1,001 to $5,000, according to Search Engine Journal's benchmark data. Where a business lands in that range depends mostly on keyword count and competition level, not company size alone.</p>
+          <h3>What does an SEO budget usually cover?</h3>
+          <p>A full SEO retainer covers strategy and keyword research, technical fixes, content creation, and link building or digital PR, plus tools and software for tracking rankings and technical health. Agencies typically bill a blended hourly rate across these disciplines rather than itemizing each one separately.</p>
+          <h3>Is a cheap SEO retainer worth it?</h3>
+          <p>Rarely. A quote well below the blended-rate benchmark for the stated scope usually means fewer hours than the work requires, template content, or automated link building that risks a penalty. Compare any quote against the hours implied by your keyword count and competition tier, not just the sticker price.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['kw','tier','rate','tools'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+  var tierHours = { low: 1.5, medium: 3, high: 6 };
+
+  function recalc(){
+    var kw = Math.max(num('kw'), 1);
+    var tier = $('tier').value;
+    var hrsPerKw = tierHours[tier] || tierHours.medium;
+    var rate = Math.max(num('rate'), 1);
+    var tools = Math.max(num('tools'), 0);
+
+    var hours = kw * hrsPerKw;
+    var serviceCost = hours * rate;
+    var budget = serviceCost + tools;
+    var rangeLow = budget * 0.85;
+    var rangeHigh = budget * 1.15;
+    var annualLow = rangeLow * 12;
+    var annualHigh = rangeHigh * 12;
+    var perKw = budget / kw;
+
+    $('rBudget').textContent = money(rangeLow) + ' – ' + money(rangeHigh);
+    $('rHours').textContent = Math.round(hours).toLocaleString() + ' hrs';
+    $('rPerKw').textContent = money(perKw);
+    $('rAnnual').textContent = money(annualLow) + ' – ' + money(annualHigh);
+
+    var tierLabel = tier === 'low' ? 'low' : tier === 'high' ? 'high' : 'medium';
+    $('rec').innerHTML = 'For <strong>' + kw + ' keywords</strong> at a <strong>' + tierLabel + ' competition</strong> tier and a <strong>' + money(rate) + '/hr</strong> blended rate, budget roughly <strong>' + money(rangeLow) + ' to ' + money(rangeHigh) + ' a month</strong> (about ' + Math.round(hours) + ' hours plus ' + money(tools) + ' in tools). This is a directional range, not a fixed quote, since actual scope varies with technical debt and content gaps.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); $(i).addEventListener('change', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

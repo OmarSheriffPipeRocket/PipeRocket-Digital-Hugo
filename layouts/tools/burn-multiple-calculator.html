@@ -1,0 +1,240 @@
+{{/* Burn Multiple Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .calc-shell .pr-calc__rec { background: none; border-left: none; border-radius: 4px; padding: var(--pr-s-4); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Burn Multiple Calculator for B2B SaaS", "description": "Free burn multiple calculator for B2B SaaS. Enter net burn and net new ARR to get your burn multiple, efficiency rating and ARR generated per dollar burned.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate burn multiple?", "acceptedAnswer": { "@type": "Answer", "text": "Burn multiple equals Net Burn divided by Net New ARR for the same period, usually a quarter. Burning $400,000 in cash while adding $250,000 of net new ARR gives a burn multiple of 400,000 divided by 250,000, or 1.6x. That means the company spent $1.60 in cash for every $1 of new recurring revenue it added." } },
+    { "@type": "Question", "name": "What is a good burn multiple for a SaaS startup?", "acceptedAnswer": { "@type": "Answer", "text": "Under 1x is Amazing, 1x to 1.5x is Great, 1.5x to 2x is Good, 2x to 3x is Suspect, and anything over 3x is Bad, following the framework David Sacks of Craft Ventures popularized. Earlier-stage startups can tolerate a higher multiple while finding product-market fit; later-stage companies should push toward 1x or below." } },
+    { "@type": "Question", "name": "What is the difference between burn multiple and burn rate?", "acceptedAnswer": { "@type": "Answer", "text": "Burn rate measures how fast you spend cash each month with no reference to growth, the input our burn rate calculator uses to estimate runway. Burn multiple measures spending efficiency: cash burned divided by net new ARR added in the same period. A company can have a low burn rate and a bad burn multiple, or the reverse." } },
+    { "@type": "Question", "name": "How can you lower your burn multiple?", "acceptedAnswer": { "@type": "Answer", "text": "Cut acquisition spend that is not converting, tighten retention so net new ARR is not offset by churn, and fix gross margin problems before adding more spend. Because burn multiple is a ratio, you can also improve it by growing net new ARR faster without necessarily increasing net burn at all." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">Burn Multiple Calculator for B2B SaaS</h1>
+          <p class="pr-calc__sub">Work out your burn multiple from net burn and net new ARR, then see where you land on the Amazing-to-Bad efficiency scale David Sacks popularized. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Net burn <em>cash spent this period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="burn" value="400000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Net new ARR <em>added in same period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="arr" value="250000"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your burn multiple</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rMultiple">-</div><div class="pr-calc__l">Burn multiple</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRating">-</div><div class="pr-calc__l">Efficiency rating</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rArrPer">-</div><div class="pr-calc__l">ARR added per $1 burned</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rTarget">-</div><div class="pr-calc__l">Net new ARR needed for 1.5x</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your net burn and net new ARR to see your burn multiple.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-burn-multiple-mid">Lower your burn multiple with pipeline that compounds →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Capital efficiency starts with pipeline, not cuts.</strong>
+          <p>PipeRocket builds the organic engine that lowers net burn per dollar of new ARR.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-burn-multiple-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/burn-rate-calculator/">Burn Rate Calculator</a>
+            <a href="/tools/rule-of-40-calculator/">Rule of 40 Calculator</a>
+            <a href="/tools/mrr-arr-calculator/">MRR &amp; ARR Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is burn multiple?</h2>
+          <p>Burn multiple measures how much cash a startup burns to generate each new dollar of annual recurring revenue. It divides Net Burn by Net New ARR for the same period, so a burn multiple of 2x means the company spends two dollars in cash for every one dollar of new ARR it adds.</p>
+          <p>That makes it different from <a href="/tools/burn-rate-calculator/">burn rate</a>, which measures only how fast a company spends cash each month, with no reference to growth. A low burn rate can still hide a bad burn multiple if ARR barely grows, and a high burn rate can pair with a great burn multiple if that spend converts efficiently into new revenue.</p>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Net Burn      = cash spent minus cash collected in the period
+Net New ARR   = new ARR + expansion ARR - churned ARR in the same period
+Burn Multiple = Net Burn &divide; Net New ARR
+
+Lower is better. Under 1x means you added more ARR than you burned in cash.</pre>
+          <p>Burn multiple only means something when Net Burn and Net New ARR come from the identical period, usually one quarter. Mixing a quarterly burn figure with an annual ARR change, or the reverse, produces a number that looks precise but does not match any published benchmark.</p>
+
+          <h2>What is a good burn multiple?</h2>
+          <table>
+            <thead><tr><th>Burn multiple</th><th>Rating</th><th>What it means</th></tr></thead>
+            <tbody>
+              <tr><td>Under 1x</td><td>Amazing</td><td>You added more ARR than you burned in cash.</td></tr>
+              <tr><td>1x to 1.5x</td><td>Great</td><td>An efficient, well-run growth engine.</td></tr>
+              <tr><td>1.5x to 2x</td><td>Good</td><td>Healthy and sustainable for most stages.</td></tr>
+              <tr><td>2x to 3x</td><td>Suspect</td><td>Growth is starting to look expensive.</td></tr>
+              <tr><td>Over 3x</td><td>Bad</td><td>A serious efficiency problem that needs review.</td></tr>
+            </tbody>
+          </table>
+          <p>These bands come from Craft Ventures general partner David Sacks, who popularized burn multiple as a catch-all efficiency signal. They are stage-relative, not one-size-fits-all: a seed-stage startup still finding product-market fit can tolerate 2x to 3x, while a company approaching Series C should be pushing toward 1x or below.</p>
+
+          <h2>How to lower your burn multiple</h2>
+
+          <h3>Cut acquisition costs before you cut headcount</h3>
+          <p>The fastest way to blow up a burn multiple is spending heavily on channels that are not converting into paying accounts. Paid channels with rising costs and falling close rates inflate net burn without adding proportional ARR, and the ratio punishes that mismatch immediately, before a board ever notices it in the raw dollars.</p>
+          <p>Before cutting people, audit spend by channel using cost per closed-won customer, not cost per lead. A $30,000 monthly ad budget that closes two deals a month is a worse contributor to burn multiple than a $10,000 budget that closes three, even though the second line item looks smaller on a spreadsheet.</p>
+          <p>Shifting budget toward channels with a lower cost per closed deal, organic search and content chief among them, lowers net burn relative to ARR added without touching headcount at all. That is usually a faster fix than a layoff, and it does not cost the team any institutional knowledge.</p>
+
+          <h3>Retention is the cheapest source of net new ARR</h3>
+          <p>Net New ARR is not just new logos. It is new ARR plus expansion ARR minus churned ARR, so a dollar saved from a canceling customer counts exactly like a dollar of new sales pipeline in the burn multiple formula. Most teams chase the numerator by spending less and ignore the fastest lever sitting on the denominator.</p>
+          <ul>
+            <li>Fix onboarding gaps that cause first-90-day churn before an account ever reaches a renewal conversation.</li>
+            <li>Push expansion revenue through upsells and seat growth inside accounts you already won, which adds ARR at close to zero incremental sales and marketing spend.</li>
+            <li>Flag at-risk accounts from usage data early enough for customer success to intervene before a cancellation notice arrives, not after.</li>
+          </ul>
+          <p>Each of these is a retention lever, not an acquisition one, and retention dollars are far cheaper to win than an equivalent new logo, which is exactly why they move burn multiple so efficiently.</p>
+
+          <h3>Check gross margin before you blame sales and marketing</h3>
+          <p>A rising burn multiple does not always mean the go-to-market team overspent. If gross margin is falling, perhaps because hosting costs are scaling faster than revenue or implementation is more hands-on than it was priced for, every dollar of ARR now carries more cost to deliver, which drags net burn up even when sales and marketing spend held flat.</p>
+          <p>Run hosting cost per customer, support cost per customer, and professional-services cost per deal against the trend in your burn multiple over the last four quarters. If margin is the real driver, trimming ad spend will not fix the ratio; renegotiating vendor contracts or repricing services will.</p>
+          <p>A SaaS company that lets gross margin slip from 80 percent to 70 percent needs about 12 percent more revenue just to cover the same absolute cost base, which shows up as a worse burn multiple even though sales and marketing spend never changed.</p>
+
+          <h3>The trend matters more than one noisy quarter</h3>
+          <p>Net new ARR closes in lumps. A single enterprise deal signed in the last week of a quarter can swing the ratio from Suspect to Good with no underlying change in the business. Reading one quarter in isolation invites the wrong reaction, either false alarm or false comfort, right when a board needs a steady read.</p>
+          <p>Track a trailing two- or four-quarter average burn multiple instead of the single-period number this calculator returns. A company sitting at 2.5x this quarter but trending down from 3.5x a year ago is in a fundamentally different position than one stuck flat at 2.5x for four straight quarters.</p>
+          <p>The trend line, not any single data point, tells an investor or a CFO whether unit economics are actually improving or whether last quarter was a lucky close. Rebuild the calculation every quarter and chart it, rather than treating one result as the final word on efficiency.</p>
+
+          <h3>Time new spend to a pipeline signal, not the calendar</h3>
+          <p>Many burn multiple blowups trace back to a spending plan set months in advance against a revenue forecast that did not hold. Hiring five new account executives in January because the annual plan called for it, regardless of whether pipeline actually grew in December, guarantees a burn spike with no matching ARR to offset it.</p>
+          <ul>
+            <li>Tie new sales and marketing hires to a trailing pipeline or bookings threshold, not a calendar date on the annual plan.</li>
+            <li>Re-forecast net new ARR every month, not once a year, so spend decisions use current signal instead of a stale plan.</li>
+            <li>Hold a cash buffer for channels with proven payback instead of pre-committing the full budget to unproven ones at the start of the year.</li>
+          </ul>
+          <p>None of this requires spending less overall, only spending in the order the pipeline evidence actually supports.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate burn multiple?</h3>
+          <p>Burn multiple equals Net Burn divided by Net New ARR for the same period, usually a quarter. Burning $400,000 in cash while adding $250,000 of net new ARR gives a burn multiple of 400,000 divided by 250,000, or 1.6x. That means the company spent $1.60 in cash for every $1 of new recurring revenue it added.</p>
+          <h3>What is a good burn multiple for a SaaS startup?</h3>
+          <p>Under 1x is Amazing, 1x to 1.5x is Great, 1.5x to 2x is Good, 2x to 3x is Suspect, and anything over 3x is Bad, following the framework David Sacks of Craft Ventures popularized. Earlier-stage startups can tolerate a higher multiple while finding product-market fit; later-stage companies should push toward 1x or below.</p>
+          <h3>What is the difference between burn multiple and burn rate?</h3>
+          <p>Burn rate measures how fast you spend cash each month with no reference to growth, the input our <a href="/tools/burn-rate-calculator/">burn rate calculator</a> uses to estimate runway. Burn multiple measures spending efficiency: cash burned divided by net new ARR added in the same period. A company can have a low burn rate and a bad burn multiple, or the reverse.</p>
+          <h3>How can you lower your burn multiple?</h3>
+          <p>Cut acquisition spend that is not converting, tighten retention so net new ARR is not offset by churn, and fix gross margin problems before adding more spend. Because burn multiple is a ratio, you can also improve it by growing net new ARR faster without necessarily increasing net burn at all.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['burn','arr'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+
+  function recalc(){
+    var burn = num('burn'), arr = num('arr');
+    var hasArr = arr > 0;
+    var hasBurn = burn > 0;
+
+    var rMultiple, rRating, rArrPer, rTarget, note;
+
+    if (!hasArr) {
+      rMultiple = 'N/A';
+      rRating = 'N/A';
+      rArrPer = 'N/A';
+    } else if (!hasBurn) {
+      rMultiple = '0.00x';
+      rRating = 'Amazing';
+      rArrPer = 'Cash-flow positive';
+    } else {
+      var multiple = burn / arr;
+      var arrPerDollar = arr / burn;
+      var rating = multiple < 1 ? 'Amazing' : multiple < 1.5 ? 'Great' : multiple < 2 ? 'Good' : multiple < 3 ? 'Suspect' : 'Bad';
+      rMultiple = multiple.toFixed(2) + 'x';
+      rRating = rating;
+      rArrPer = '$' + arrPerDollar.toFixed(2);
+    }
+
+    rTarget = hasBurn ? money(burn / 1.5) : 'Already there';
+
+    $('rMultiple').textContent = rMultiple;
+    $('rRating').textContent = rRating;
+    $('rArrPer').textContent = rArrPer;
+    $('rTarget').textContent = rTarget;
+
+    if (!hasArr) {
+      note = 'Net new ARR is zero or negative this period, so burn multiple has no meaningful denominator yet. Fix ARR growth before this ratio can tell you anything useful.';
+    } else if (!hasBurn) {
+      note = 'You added '+money(arr)+' of net new ARR while holding or growing cash, so your burn multiple is effectively zero, an Amazing result on the David Sacks efficiency scale.';
+    } else {
+      var verdict = rRating === 'Amazing' ? 'exceptional capital efficiency' : rRating === 'Great' ? 'strong, efficient scaling' : rRating === 'Good' ? 'a healthy, sustainable pace of growth' : rRating === 'Suspect' ? 'growth that is starting to look inefficient' : 'a red flag on how growth is being bought';
+      note = 'Burning '+money(burn)+' to add '+money(arr)+' of net new ARR puts your burn multiple at <strong>'+rMultiple+'</strong>, a <strong>'+rRating+'</strong> result: '+verdict+'.';
+    }
+    $('rec').innerHTML = note;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

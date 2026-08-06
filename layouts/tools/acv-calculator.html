@@ -1,0 +1,212 @@
+{{/* ACV Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .calc-shell .pr-calc__rec { background: none; border-left: none; border-radius: 4px; padding: var(--pr-s-4); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "ACV Calculator", "description": "Free annual contract value (ACV) calculator for B2B SaaS. Enter total contract value, one-time fees and contract length to get ACV, monthly value and normalized TCV.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate ACV?", "acceptedAnswer": { "@type": "Answer", "text": "ACV equals total contract value minus one-time fees, divided by the contract length in years. A $60,000 deal with $5,000 in one-time fees over 3 years gives ($60,000 minus $5,000) divided by 3, or $18,333 ACV." } },
+    { "@type": "Question", "name": "What is the difference between ACV and TCV?", "acceptedAnswer": { "@type": "Answer", "text": "TCV is the full value of a contract over its entire term, including one-time fees. ACV strips out one-time fees and divides by contract length, so it stays the same regardless of how long the deal runs." } },
+    { "@type": "Question", "name": "What is the difference between ACV and ARR?", "acceptedAnswer": { "@type": "Answer", "text": "ACV measures one customer's contract. ARR is the sum of ACV across every active customer, the company-wide recurring revenue run rate. Add up every customer's ACV and you get ARR." } },
+    { "@type": "Question", "name": "Does a longer contract term increase ACV?", "acceptedAnswer": { "@type": "Answer", "text": "No. Since ACV divides total value by the number of years, a longer term only raises ACV if total contract value grows proportionally more than the extra years. A heavily discounted multi-year deal can produce a lower ACV than a smaller one-year deal." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">ACV Calculator</h1>
+          <p class="pr-calc__sub">Enter total contract value, one-time fees and contract length to get annual contract value, monthly value and normalized TCV. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Total contract value <em>full term</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="tcv" value="60000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">One-time fees <em>setup, onboarding</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="fees" value="5000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Contract length <em>years</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="years" value="3" min="1" step="0.5" class="pr-calc__no-prefix"><span class="pr-calc__suffix">yrs</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your annual contract value</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rAcv">—</div><div class="pr-calc__l">ACV</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rNorm">—</div><div class="pr-calc__l">Normalized TCV</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rMonthly">—</div><div class="pr-calc__l">Monthly value</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rFeePct">—</div><div class="pr-calc__l">One-time fee share</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your contract terms to see ACV.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-acv-mid">Grow ACV with pipeline that converts to bigger deals →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Bigger deals start with better-fit pipeline.</strong>
+          <p>PipeRocket targets the accounts that actually carry a higher ACV, not just more volume.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-acv-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/keyword-value-calculator/">Keyword Value Calculator</a>
+            <a href="/tools/mrr-arr-calculator/">MRR &amp; ARR Calculator</a>
+            <a href="/tools/tam-sam-som-calculator/">TAM SAM SOM Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is ACV (annual contract value)?</h2>
+          <p>Annual contract value is the average yearly revenue a single customer contract is worth, with one-time fees stripped out. It is the standard way B2B SaaS companies normalize deals of different lengths onto one comparable number, since a $90,000 three-year deal and a $30,000 one-year deal both represent the same $30,000 a year of recurring value.</p>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+ACV = (Total contract value − One-time fees) ÷ Contract length in years</pre>
+          <p>One-time fees, setup, onboarding, custom integration work, get removed first because they do not recur every year. Leaving them in inflates ACV and makes a services-heavy deal look like a bigger recurring win than it actually is.</p>
+
+          <h2>ACV vs TCV vs ARR</h2>
+
+          <h3>ACV vs TCV</h3>
+          <p>Total Contract Value (TCV) is everything a customer contract is worth over its full term, including one-time setup or onboarding fees. A 3-year, $60,000 deal has a $60,000 TCV no matter how that value breaks down year by year.</p>
+          <p>ACV strips that down to a single year and removes one-time fees, so it stays constant whether the deal runs 1 year or 5. A 1-year $20,000 deal and a 4-year $80,000 deal can carry the same $20,000 ACV even though their TCV looks very different on paper.</p>
+          <p>Use TCV when you want to know which customer contract is worth the most in total. Use ACV when you need to compare deals of different lengths on equal footing, size a sales quota, or roll individual contracts up into ARR.</p>
+
+          <h3>ACV vs ARR</h3>
+          <p>Annual Recurring Revenue (ARR) is the sum of ACV across every active customer, the company-wide recurring revenue run rate. ACV lives at the level of one contract; ARR lives at the level of the whole business, aggregating every deal into a single number leadership tracks.</p>
+          <p>A company with 50 customers averaging $15,000 ACV has roughly $750,000 in ARR. Watching both together matters, since ACV trending up while customer count holds steady still grows ARR, but it grows faster when new-logo volume and ACV both move up at the same time.</p>
+          <p>That is also why a rising average ACV, on its own, does not guarantee healthy ARR growth. Losing customers at the bottom of the deal-size range while adding a few very large ones can lift average ACV while churn quietly drags total ARR down.</p>
+
+          <h2>How to increase ACV</h2>
+
+          <h3>Move Upmarket Without Abandoning Your Core Segment</h3>
+          <p>The fastest lever on ACV is who you sell to, not how you price. A 50-person company buying 10 seats will almost always sign a smaller contract than a 500-person company buying 100, so shifting even a portion of your pipeline toward larger accounts lifts blended ACV directly.</p>
+          <p>This does not mean abandoning your smaller-account motion, which is often still the more efficient, faster-closing engine. Most B2B SaaS companies run both at once: a self-serve or low-touch path for smaller accounts, and a dedicated sales motion for the larger deals that pull the ACV average up.</p>
+          <p>Watch your win rate as you move upmarket. Enterprise deals close slower and involve more stakeholders, so a rising ACV paired with a collapsing win rate or a lengthening sales cycle is a warning sign, not a pure win.</p>
+
+          <h3>Expand Revenue Inside Accounts You Already Have</h3>
+          <p>New-logo ACV is not the only lever, and it is usually the more expensive one to pull. Selling more into existing accounts, more seats, a higher usage tier, or an add-on module, raises that customer's contract value at renewal without the acquisition cost of winning a brand-new logo.</p>
+          <ul>
+            <li>Seat or usage-based upsells as a customer's own team grows</li>
+            <li>Premium tier upgrades tied to a feature the customer already asks for</li>
+            <li>Add-on modules bundled at renewal instead of sold separately</li>
+            <li>Usage caps that create a natural, expected upgrade trigger</li>
+          </ul>
+          <p>Track expansion ACV separately from new-logo ACV. A company living almost entirely on new-logo growth is more fragile than one where existing accounts are steadily expanding their own contract value year over year.</p>
+
+          <h3>Keep Price Discipline on Multi-Year Deals</h3>
+          <p>Signing a longer contract term does not automatically raise ACV, because ACV divides total contract value by the number of years in the deal, not by how long the customer relationship lasts. A 3-year, $90,000 deal and a 1-year, $30,000 deal carry the exact same $30,000 ACV, so length alone buys nothing unless total value grows with it.</p>
+          <p>The real risk is the discount that usually comes attached to a multi-year commitment. A 20% discount on that same $90,000 deal drops ACV to $24,000, lower than the undiscounted 1-year version, despite the longer term. Protect ACV by discounting against total value sparingly, not as an automatic close tactic.</p>
+
+          <h3>Attach Premium Features at the Point of Sale, Not as a Future Upsell</h3>
+          <p>Every feature or tier you plan to sell as a future upsell is revenue you are choosing not to collect today. Attaching premium capabilities to the initial deal, rather than banking on a renewal-time upgrade that may never happen, raises the ACV of that very first contract instead of deferring it.</p>
+          <ul>
+            <li>Priority support or a dedicated CSM as a paid tier, not a default</li>
+            <li>Advanced reporting or admin controls bundled into a higher plan</li>
+            <li>API or integration access gated to the tier where usage justifies it</li>
+          </ul>
+          <p>This works best when the premium capability solves a pain the buyer already named during the sales process, not a feature bolted on just to justify a higher number.</p>
+
+          <h3>Segment ACV by Cohort to Find Your Highest-Value Motion</h3>
+          <p>Blended ACV hides more than it reveals. Splitting it by plan tier, acquisition channel, or industry vertical usually shows that one segment is quietly carrying a much higher ACV than the company-wide average, and another is dragging it down.</p>
+          <p>A SaaS company might find that outbound-sourced enterprise deals average $45,000 ACV while inbound self-serve deals average $3,000, a 15x gap hidden inside one blended number. That gap is a resourcing signal, not just a reporting curiosity.</p>
+          <p>Once you can see the gap, you can decide deliberately whether to double down on the higher-ACV motion, invest in fixing qualification on the lower-ACV one, or simply run both in parallel with separate targets and separate expectations for each.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate ACV?</h3>
+          <p>ACV equals total contract value minus one-time fees, divided by the contract length in years. A $60,000 deal with $5,000 in one-time fees over 3 years gives ($60,000 minus $5,000) divided by 3, or $18,333 ACV.</p>
+          <h3>What is the difference between ACV and TCV?</h3>
+          <p>TCV is the full value of a contract over its entire term, including one-time fees. ACV strips out one-time fees and divides by contract length, so it stays the same regardless of how long the deal runs.</p>
+          <h3>What is the difference between ACV and ARR?</h3>
+          <p>ACV measures one customer's contract. ARR is the sum of ACV across every active customer, the company-wide recurring revenue run rate. Add up every customer's ACV and you get ARR.</p>
+          <h3>Does a longer contract term increase ACV?</h3>
+          <p>No. Since ACV divides total value by the number of years, a longer term only raises ACV if total contract value grows proportionally more than the extra years. A heavily discounted multi-year deal can produce a lower ACV than a smaller one-year deal.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['tcv','fees','years'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+
+  function recalc(){
+    var tcv = Math.max(num('tcv'), 0);
+    var fees = Math.min(Math.max(num('fees'), 0), tcv);
+    var years = Math.max(num('years'), 1);
+    var normalized = tcv - fees;
+    var acv = normalized / years;
+    var monthly = acv / 12;
+    var feePct = tcv > 0 ? (fees / tcv) * 100 : 0;
+
+    $('rAcv').textContent = money(acv);
+    $('rNorm').textContent = money(normalized);
+    $('rMonthly').textContent = money(monthly);
+    $('rFeePct').textContent = feePct.toFixed(1) + '%';
+    $('rec').innerHTML = 'A ' + money(tcv) + ' contract over <strong>' + years + ' year' + (years===1?'':'s') + '</strong>, after removing ' + money(fees) + ' in one-time fees, gives an ACV of <strong>' + money(acv) + '</strong> (about ' + money(monthly) + '/month).';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

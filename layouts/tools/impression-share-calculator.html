@@ -1,0 +1,274 @@
+{{/* Impression Share Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .calc-shell .pr-calc__rec { background: none; border-left: none; border-radius: 4px; padding: var(--pr-s-4); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Impression Share Calculator", "description": "Free impression share calculator for Google Ads and Microsoft Ads. Get impression share from impressions received and total eligible impressions, plus impressions lost to budget and rank.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate impression share?", "acceptedAnswer": { "@type": "Answer", "text": "Impression share equals impressions received divided by total eligible impressions, multiplied by 100. For example, 4,200 impressions out of 6,000 eligible impressions is a 70% impression share. Google Ads reports both halves of that fraction directly in the account." } },
+    { "@type": "Question", "name": "What is a good impression share for Google Ads?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the keyword. Branded and exact-match terms should typically run 80% or higher since you have little real competition, while broad, highly contested generic terms often land in the 30 to 60% range even for well-optimized campaigns. Judge the trend over time, not a single snapshot." } },
+    { "@type": "Question", "name": "What is the difference between Search Lost IS (budget) and Search Lost IS (rank)?", "acceptedAnswer": { "@type": "Answer", "text": "Search Lost IS (budget) is the share of eligible impressions you missed because your daily budget ran out. Search Lost IS (rank) is the share you missed because your Ad Rank, driven by bid and Quality Score, was not competitive enough. Budget losses call for more spend; rank losses call for a higher bid or better Quality Score." } },
+    { "@type": "Question", "name": "How can I improve my impression share?", "acceptedAnswer": { "@type": "Answer", "text": "Raise your daily budget where Search Lost IS (budget) is high, increase bids or improve Quality Score where Search Lost IS (rank) is high, and tighten targeting so your eligible impressions are concentrated on keywords you can realistically win." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<!-- ===== CALCULATOR ===== -->
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · Paid Ads</span>
+          <h1 class="pr-calc__title">Impression Share Calculator</h1>
+          <p class="pr-calc__sub">Get your Google Ads or Microsoft Ads impression share from impressions received and total eligible impressions. Add your Search Lost IS (budget) and Search Lost IS (rank) percentages to see which lever is holding you back. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Impressions received <em>your ads' actual impressions</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="impr" value="4200" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">impr</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Total eligible impressions <em>from Google Ads auction data</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="eligible" value="6000" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">impr</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Search Lost IS (budget) <em>optional, from Google Ads</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="lostBudget" value="20" min="0" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Search Lost IS (rank) <em>optional, from Google Ads</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="lostRank" value="10" min="0" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your impression share</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rIs">&mdash;</div><div class="pr-calc__l">Impression share</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rLostTotal">&mdash;</div><div class="pr-calc__l">Impressions lost (total)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rLostBudget">&mdash;</div><div class="pr-calc__l">Lost to budget</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rLostRank">&mdash;</div><div class="pr-calc__l">Lost to rank</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your impressions received and total eligible impressions to see your impression share.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/google-ads-agency/" class="pr-btn" data-cta-source="tool-impression-share-mid">Stop losing eligible impressions to budget or rank &rarr;</a>
+          <small>No commitment &middot; 30-min paid strategy call &middot; B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTENT (standard 2-col article layout) ===== -->
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Missing impressions are missed pipeline.</strong>
+          <p>PipeRocket manages Google Ads budgets and bids so your best keywords stop losing eligible auctions.</p>
+          <a href="/google-ads-agency/" class="pr-btn" data-cta-source="tool-impression-share-side">Get a Google Ads audit</a>
+        </div>
+
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpm-calculator/">CPM Calculator</a>
+            <a href="/tools/google-ads-cost-estimator/">Google Ads Cost Estimator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is impression share?</h2>
+          <p>Impression share is the percentage of eligible ad auctions your ads actually appeared in. Google Ads and Microsoft Ads calculate it as impressions received divided by total eligible impressions, so it measures how much of your addressable market you are reaching, not how well those impressions performed once shown.</p>
+          <p>A campaign can have an excellent click-through rate and still be invisible for most of the auctions it qualifies for. Low impression share almost always traces back to budget, bid, or targeting limits, and it is a separate question entirely from conversion rate or return on ad spend.</p>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Impression share            = impressions received / total eligible impressions x 100
+Impressions lost (total)    = total eligible impressions - impressions received
+Impressions lost to budget  = total eligible impressions x Search Lost IS (budget)%
+Impressions lost to rank    = total eligible impressions x Search Lost IS (rank)%</pre>
+          <p>Total eligible impressions is not something you count by hand. Google Ads reports your Search impression share directly in the account, along with Search Lost IS (budget) and Search Lost IS (rank), the two percentages that explain exactly why you missed the rest.</p>
+          <p>Enter your impressions received and eligible impressions to get your impression share, then add the two lost-share percentages to see whether budget or Ad Rank is the bigger constraint right now.</p>
+
+          <h2>Search Lost IS: budget vs rank</h2>
+          <p>Google Ads splits every impression you missed into two buckets, and each one calls for a completely different fix. Knowing which bucket dominates tells you whether to open your wallet or fix your auction competitiveness.</p>
+
+          <h3>Search Lost IS (budget)</h3>
+          <p>Search Lost IS (budget) is the share of eligible impressions you lost because your daily budget ran out before the auction day was over. Once your budget for the day is spent, Google stops entering your ads into new eligible auctions until the next day begins, regardless of how strong your Quality Score or bid would have been.</p>
+          <p>This is usually the easiest fix on the list. If the number is high on keywords that already convert well, raising your daily budget recovers those missed impressions almost immediately, since the auctions were already ones you were competitive enough to win.</p>
+          <p>Before increasing spend blindly, check which specific keywords and hours are driving the loss. A campaign can look fine on average while one high-intent keyword quietly starves for budget every afternoon.</p>
+
+          <h3>Search Lost IS (rank)</h3>
+          <p>Search Lost IS (rank) is the share of eligible impressions you lost because your Ad Rank, a combination of your bid, Quality Score, and the expected impact of your ad extensions and formats, was not competitive enough to clear the auction threshold. Your budget was never the problem here; you simply lost the auction outright.</p>
+          <p>Fixing this means raising your bid, improving Quality Score through better ad relevance and landing page experience, or both together. A bid increase alone on a keyword with a poor Quality Score often just raises your cost per click without moving impression share very much.</p>
+          <p>Rank losses tend to concentrate on newer keywords or ones pointing to thin landing pages, so check the Quality Score component scores before assuming the problem is bid alone.</p>
+
+          <h2>What is a good impression share?</h2>
+          <p>There is no single universal target, since a healthy impression share depends heavily on how many competitors are bidding on the same keyword. Use these ranges as general guidance, not a fixed Google standard.</p>
+          <table>
+            <thead><tr><th>Keyword type</th><th>Typical healthy range</th><th>What it signals</th></tr></thead>
+            <tbody>
+              <tr><td>Branded / exact-match</td><td>80 to 95%+</td><td>You are effectively your only real bidder; a lower number points to a gap worth investigating</td></tr>
+              <tr><td>Non-branded, moderate competition</td><td>60 to 80%</td><td>Solid coverage with room to grow through budget or Quality Score work</td></tr>
+              <tr><td>Broad, highly contested generic terms</td><td>30 to 60%</td><td>Normal in crowded categories; watch the trend line more than the raw number</td></tr>
+              <tr><td>Any priority keyword under 30%</td><td>&mdash;</td><td>Usually signals a real budget or Ad Rank gap worth fixing</td></tr>
+            </tbody>
+          </table>
+          <p>Judge your number against your own keyword's competitive intensity, not against a flat industry average. A 95%+ impression share on a broad term can also mean it is time to expand into adjacent keywords rather than pushing bids even higher.</p>
+
+          <h2>How to improve your impression share</h2>
+
+          <h3>Raise your daily budget when Search Lost IS (budget) is high</h3>
+          <p>A budget cap is the most mechanical kind of missed impression, and it is also the fastest one to fix. If your account shows Search Lost IS (budget) running above a few percentage points on a keyword that already converts, you are leaving qualified auctions on the table every single day.</p>
+          <p>Waiting until month-end to notice usually means weeks of missed volume already happened, so check this weekly rather than only at reporting time.</p>
+          <ul>
+            <li>Pull the hour-by-hour spend report; budget often runs out earlier in the day than most people assume.</li>
+            <li>Raise the daily budget in 20 to 30% increments and watch whether Search Lost IS (budget) actually drops before committing more spend.</li>
+            <li>Reallocate from lower-priority campaigns first if total account spend is already at its ceiling.</li>
+          </ul>
+
+          <h3>Push bids up on keywords that already convert well</h3>
+          <p>Not every keyword deserves a blanket bid increase, but the ones already producing pipeline are exactly where a higher bid pays for itself. If Search Lost IS (rank) is high on a keyword with a healthy conversion rate, you are losing auctions you would otherwise win profitably.</p>
+          <p>Start with a modest increase, 10 to 15%, on the specific keywords or ad groups where rank losses concentrate rather than raising bids account-wide. An account-wide bump wastes money on keywords that were never rank-constrained in the first place.</p>
+          <p>Watch cost per click alongside impression share after the change. If CPC jumps sharply while impression share barely moves, the real constraint was Quality Score, not bid, and a bigger bid will not fix it.</p>
+
+          <h3>Improve Quality Score so you win auctions without paying more</h3>
+          <p>Quality Score is Google's estimate of expected click-through rate, ad relevance, and landing page experience, and it directly multiplies your bid into Ad Rank. Two advertisers bidding the same amount can end up with very different impression share purely because one has a materially higher Quality Score.</p>
+          <p>Tighten ad groups around a small cluster of closely related keywords so your headlines can match search intent almost word for word. A generic ad serving fifty loosely related keywords will always score worse than a tightly themed one.</p>
+          <p>Landing page experience matters just as much as the ad itself. A slow page, or one that does not match what the ad promised, drags Quality Score down regardless of how well the ad copy performs.</p>
+
+          <h3>Tighten targeting so eligible impressions match keywords you can win</h3>
+          <p>Some impression share losses are not really losses at all, they are a sign your eligible auction pool is too broad. If you are technically eligible for searches you can never realistically win or convert, your impression share denominator is inflated with auctions you did not actually want.</p>
+          <p>Shrinking a bloated denominator can lift the percentage almost as effectively as winning more auctions, without spending an extra dollar on bids or budget.</p>
+          <ul>
+            <li>Add negative keywords for adjacent terms your product does not actually serve.</li>
+            <li>Narrow geographic and device targeting to where your ICP genuinely searches.</li>
+            <li>Use dayparting to concentrate budget in the hours your buyers are actually active, rather than spreading it thin across a full 24 hours.</li>
+          </ul>
+
+          <h3>Strengthen ad quality and extensions to lift Ad Rank without a bid increase</h3>
+          <p>Ad Rank is not simply bid times Quality Score. It also factors in the expected impact of your ad extensions and formats, things like sitelinks, callouts, and structured snippets.</p>
+          <p>Ads that use more relevant extensions tend to win auctions an identical ad without them would lose, and that gap shows up as Search Lost IS (rank) rather than budget.</p>
+          <p>Add every extension type genuinely relevant to the ad group instead of just the minimum needed to pass review, since richer extensions give Google more reasons to favor your ad in a close auction. Testing two or three headline and description variations per ad group also lifts expected click-through rate, which feeds straight back into both Quality Score and Ad Rank.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate impression share?</h3>
+          <p>Impression share equals impressions received divided by total eligible impressions, multiplied by 100. For example, 4,200 impressions out of 6,000 eligible impressions is a 70% impression share. Google Ads reports both halves of that fraction directly in the account.</p>
+          <h3>What is a good impression share for Google Ads?</h3>
+          <p>It depends on the keyword. Branded and exact-match terms should typically run 80% or higher since you have little real competition, while broad, highly contested generic terms often land in the 30 to 60% range even for well-optimized campaigns. Judge the trend over time, not a single snapshot.</p>
+          <h3>What is the difference between Search Lost IS (budget) and Search Lost IS (rank)?</h3>
+          <p>Search Lost IS (budget) is the share of eligible impressions you missed because your daily budget ran out. Search Lost IS (rank) is the share you missed because your Ad Rank, driven by bid and Quality Score, was not competitive enough. Budget losses call for more spend; rank losses call for a higher bid or better Quality Score.</p>
+          <h3>How can I improve my impression share?</h3>
+          <p>Raise your daily budget where Search Lost IS (budget) is high, increase bids or improve Quality Score where Search Lost IS (rank) is high, and tighten targeting so your eligible impressions are concentrated on keywords you can realistically win.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['impr','eligible','lostBudget','lostRank'];
+  if (ids.some(function (i) { return !$(i); })) return;
+
+  function num(id) { return parseFloat($(id).value) || 0; }
+  function pct1(n) { return (Math.round(n * 10) / 10) + '%'; }
+  function clampPct(n) { return Math.max(0, Math.min(100, n)); }
+
+  function recalc() {
+    var imprRaw = num('impr');
+    var eligibleRaw = num('eligible');
+    var eligible = Math.max(eligibleRaw, 1);
+    var lostBudgetPct = clampPct(num('lostBudget'));
+    var lostRankPct = clampPct(num('lostRank'));
+
+    var is = Math.min(imprRaw / eligible * 100, 100);
+    var lostTotal = Math.max(eligible - imprRaw, 0);
+    var lostBudgetCount = eligible * lostBudgetPct / 100;
+    var lostRankCount = eligible * lostRankPct / 100;
+
+    $('rIs').textContent = eligibleRaw > 0 ? pct1(is) : '—';
+    $('rLostTotal').textContent = eligibleRaw > 0 ? Math.round(lostTotal).toLocaleString() : '—';
+    $('rLostBudget').textContent = lostBudgetPct > 0 ? Math.round(lostBudgetCount).toLocaleString() : '—';
+    $('rLostRank').textContent = lostRankPct > 0 ? Math.round(lostRankCount).toLocaleString() : '—';
+
+    if (eligibleRaw <= 0) {
+      $('rec').innerHTML = 'Enter your impressions received and total eligible impressions to see your impression share.';
+      return;
+    }
+
+    var out = 'Your ads received <strong>' + Math.round(imprRaw).toLocaleString() + '</strong> of <strong>' +
+      Math.round(eligibleRaw).toLocaleString() + ' eligible impressions</strong>, a <strong>' + pct1(is) + '</strong> impression share. ' +
+      'You missed <strong>' + Math.round(lostTotal).toLocaleString() + ' impressions</strong>';
+
+    if (lostBudgetPct > 0 || lostRankPct > 0) {
+      out += ': about <strong>' + Math.round(lostBudgetCount).toLocaleString() + '</strong> lost to budget and <strong>' +
+        Math.round(lostRankCount).toLocaleString() + '</strong> lost to rank.';
+      if (lostBudgetCount > lostRankCount) {
+        out += ' Budget is your bigger constraint right now, so raising your daily budget will likely recover more impressions than bidding higher.';
+      } else if (lostRankCount > lostBudgetCount) {
+        out += ' Rank is your bigger constraint right now, so a higher bid or better Quality Score will likely recover more impressions than more budget.';
+      } else {
+        out += ' Budget and rank are holding you back about equally, so it is worth working both levers together.';
+      }
+    } else {
+      out += '. Enter your Search Lost IS (budget) and Search Lost IS (rank) percentages from Google Ads to see which lever is holding you back.';
+    }
+    $('rec').innerHTML = out;
+  }
+
+  ids.forEach(function (i) { $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{/* Shared article TOC engine that builds "On this page" from H2s in [data-pr-blog-main] */}}
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}
+  {{ $js = $js | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}
+{{ end }}

@@ -1,0 +1,214 @@
+{{/* CTR Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .calc-shell .pr-calc__rec { background: none; border-left: none; border-radius: 4px; padding: var(--pr-s-4); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "CTR Calculator", "description": "Free click-through rate (CTR) calculator. Enter impressions and clicks to get your CTR, clicks needed to hit a target rate, and how you compare to search and display benchmarks.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate CTR?", "acceptedAnswer": { "@type": "Answer", "text": "CTR = clicks divided by impressions, times 100. For example, 750 clicks on 50,000 impressions gives a CTR of 1.5%. Use the same time period and the same source (one ad, one campaign, one page) for both numbers." } },
+    { "@type": "Question", "name": "What is a good CTR?", "acceptedAnswer": { "@type": "Answer", "text": "It depends heavily on channel. Across 65+ B2B SaaS Google Ads accounts PipeRocket manages, average CTR is 3.6%, with brand search running around 22.2% and display ads 0.3 to 0.6%. Compare your CTR to your own channel and past performance, not a single universal number." } },
+    { "@type": "Question", "name": "Why is my CTR lower than the benchmark?", "acceptedAnswer": { "@type": "Answer", "text": "Usually weak ad copy or headline, a mismatch between the keyword and the offer, wrong audience targeting, or a low ad position. On search ads specifically, position and extensions (sitelinks, callouts) both move CTR independently of the copy." } },
+    { "@type": "Question", "name": "How can I improve my CTR?", "acceptedAnswer": { "@type": "Answer", "text": "Tighten keyword-to-ad match, lead with the benefit or number in the headline, add ad extensions or rich snippets, and test multiple headlines against each other. For organic listings, rewrite title tags and meta descriptions to answer the query directly." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">CTR Calculator</h1>
+          <p class="pr-calc__sub">Enter impressions and clicks to get your click-through rate, how many clicks you need to hit a target CTR, and how you compare to benchmark. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Impressions <em>times shown</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="impr" value="50000" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">shown</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Clicks <em>same period</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="clicks" value="750" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">clicks</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Target CTR <em>B2B SaaS avg: 3.6%</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="target" value="3.6" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your CTR &amp; gap to target</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rCtr">—</div><div class="pr-calc__l">Your CTR</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rNeed">—</div><div class="pr-calc__l">Clicks needed at target</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rGap">—</div><div class="pr-calc__l">Extra clicks needed</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rDelta">—</div><div class="pr-calc__l">vs. target (pp)</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter impressions and clicks to see your CTR.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-ppc/" class="pr-btn" data-cta-source="tool-ctr-mid">Turn a low CTR into more pipeline →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>A low CTR is usually a fixable copy or targeting problem.</strong>
+          <p>PipeRocket runs paid and organic campaigns built for B2B SaaS buyers, not clicks for their own sake.</p>
+          <a href="/saas-ppc/" class="pr-btn" data-cta-source="tool-ctr-side">Get a paid audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/cpc-calculator/">CPC Calculator</a>
+            <a href="/tools/cpm-calculator/">CPM Calculator</a>
+            <a href="/tools/google-ads-roi-calculator/">Google Ads ROI Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is CTR (click-through rate)?</h2>
+          <p>Click-through rate is the share of people who saw an ad, listing, or link and clicked it. It is the standard signal for whether a headline, offer, or ad position is actually earning attention, and it feeds directly into cost per click and Quality Score on paid platforms.</p>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+CTR                    = Clicks ÷ Impressions × 100
+Clicks needed at target = Impressions × Target CTR
+Extra clicks needed     = Clicks needed at target − Current clicks</pre>
+          <p>CTR only means something next to a benchmark for the same channel. A 1.5% CTR is weak for search ads and excellent for display ads, so always compare within the same ad type.</p>
+
+          <h2>What is a good CTR?</h2>
+          <p>Across the 65+ B2B SaaS Google Ads accounts PipeRocket manages, the average CTR is <strong>3.60%</strong>, and brand search CTR (<strong>22.2%</strong>) runs roughly 6x higher than non-brand search CTR (<strong>3.6%</strong>), since searcher intent drives the gap more than ad creative. See the full <a href="/research/google-ads-benchmarks/">Google Ads benchmarks report</a>.</p>
+          <table>
+            <thead><tr><th>Channel</th><th>Typical CTR</th><th>Read</th></tr></thead>
+            <tbody>
+              <tr><td>Search ads, B2B SaaS non-brand (PipeRocket data)</td><td>3.6%</td><td>Average across 65+ managed accounts, August 2026.</td></tr>
+              <tr><td>Search ads, B2B SaaS brand (PipeRocket data)</td><td>22.2%</td><td>Branded terms convert attention far more easily.</td></tr>
+              <tr><td>Display ads</td><td>0.3% to 0.6%</td><td>Lower by nature; display is a brand-awareness format.</td></tr>
+              <tr><td>Email campaigns</td><td>10% to 20%</td><td>Much higher because the audience already opted in.</td></tr>
+            </tbody>
+          </table>
+
+          <h2>How to improve CTR</h2>
+
+          <h3>Match Your Headline to the Exact Search Term</h3>
+          <p>Quality Score rewards relevance, and relevance is judged largely by how closely your headline mirrors what was typed into the search box. A searcher scanning results decides in under a second whether an ad actually answers their exact query.</p>
+          <p>A generic headline built to cover ten keywords will underperform ten narrow ad groups each built around one keyword. Split broad ad groups into tightly themed ones, sometimes called single-keyword ad groups, keeping each to a handful of closely related terms.</p>
+          <p>Write the headline as if answering that one search directly, not a whole category of searches. This is the single highest-leverage CTR fix on paid search, it costs nothing beyond restructuring the account, and the lift compounds into a lower cost per click.</p>
+
+          <h3>Lead With a Number, Not a Vague Claim</h3>
+          <p>A number reads as evidence; an adjective reads as a claim, because the reader can judge a number instantly and has to take an adjective on faith. A few swaps that hold up across most B2B SaaS accounts:</p>
+          <ul>
+            <li>"Affordable pricing" → "$84 average cost per lead"</li>
+            <li>"Trusted by many teams" → "Used by 65+ SaaS teams"</li>
+            <li>"Fast results" → "Live in 14 days"</li>
+            <li>"Great support" → "24-hour response time"</li>
+          </ul>
+          <p>Put the number as close to the front as character limits allow, since Responsive Search Ads cap each headline at 30 characters and mobile truncation often cuts the back half of the line. Run at least two variants per ad group and let three to four weeks of data pick the winner.</p>
+
+          <h3>Use Every Ad Extension Your Format Supports</h3>
+          <p>Sitelinks, callouts, structured snippets, and price extensions add extra lines and links underneath the core ad, taking up more space on the results page and giving the searcher more surface area to click. Accounts that skip extensions leave free CTR gains on the table, since Google does not charge extra for the added real estate.</p>
+          <p>On the organic side, the equivalent move is schema markup. FAQ, review, and product schema can add star ratings, price, or expandable questions directly in the search snippet, pulling the eye the same way an ad extension does. Both are one-time setup work that keeps paying off on every future impression.</p>
+
+          <h3>Fix the Audience Before You Touch the Copy</h3>
+          <p>A perfectly written headline shown to the wrong audience will always underperform a mediocre headline shown to the right one, because CTR is a function of relevance to the viewer, not just quality of the writing. Before rewriting ad copy, work through this list:</p>
+          <ul>
+            <li>Negative keywords are current and actually blocking the obviously poor-fit searches</li>
+            <li>Audience layering (in-market, affinity, customer match) isn't diluting spend on poor-fit searchers</li>
+            <li>Geographic and device targeting match where your actual buyers are, not just where the budget was set to run</li>
+            <li>Device-level performance isn't hiding a mobile-truncation problem behind a healthy blended average</li>
+          </ul>
+          <p>Most CTR problems that look like a "copy problem" are actually a targeting problem wearing a copy problem's clothes, and no amount of headline testing fixes wrong-audience impressions.</p>
+
+          <h3>Rewrite Title Tags and Meta Descriptions Like Ad Copy</h3>
+          <p>The same click-earning logic that governs paid ads governs organic listings: the title tag and meta description are your ad copy for a result you did not pay for.</p>
+          <p>Front-load the primary keyword and the core benefit in the title tag, since Google truncates past roughly 60 characters, and write the meta description as a direct answer to the query rather than a vague summary.</p>
+          <p>Pull the exact-match query CTR for that page from Search Console first, so you rewrite the pages with the biggest visible gap. Pages that already rank on page one but sit at a low CTR are usually losing on snippet appeal, not relevance, a much faster fix than earning new rankings.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate CTR?</h3>
+          <p>CTR = clicks divided by impressions, times 100. 750 clicks on 50,000 impressions gives a CTR of 1.5%. Use the same time period and the same source for both numbers.</p>
+          <h3>What is a good CTR?</h3>
+          <p>It depends heavily on channel. Across 65+ B2B SaaS Google Ads accounts PipeRocket manages, average CTR is 3.6%, with brand search running around 22.2% and display ads 0.3 to 0.6%. Compare to your own channel and past performance, not one universal number.</p>
+          <h3>Why is my CTR lower than the benchmark?</h3>
+          <p>Usually weak ad copy or headline, a mismatch between the keyword and the offer, wrong audience targeting, or a low ad position. On search ads, position and extensions move CTR independently of the copy.</p>
+          <h3>How can I improve my CTR?</h3>
+          <p>Tighten keyword-to-ad match, lead with the benefit or a number in the headline, add ad extensions or rich snippets, and test multiple headlines. For organic listings, rewrite title tags and meta descriptions.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['impr','clicks','target'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+
+  function recalc(){
+    var impr = Math.max(num('impr'), 1), clicks = Math.max(num('clicks'), 0), target = num('target');
+    var ctr = (clicks / impr) * 100;
+    var neededClicks = impr * (target / 100);
+    var gap = neededClicks - clicks;
+    var delta = target - ctr;
+    $('rCtr').textContent = ctr.toFixed(2) + '%';
+    $('rNeed').textContent = Math.round(neededClicks).toLocaleString();
+    $('rGap').textContent = gap > 0 ? Math.round(gap).toLocaleString() : '0';
+    $('rDelta').textContent = (delta >= 0 ? '+' : '') + delta.toFixed(2) + 'pp';
+    var verdict = gap > 0
+      ? 'you need <strong>' + Math.round(gap).toLocaleString() + ' more clicks</strong> at this impression volume to hit it'
+      : 'you are already <strong>at or above target</strong>';
+    $('rec').innerHTML = 'With <strong>' + clicks.toLocaleString() + ' clicks</strong> on <strong>' + impr.toLocaleString() + ' impressions</strong>, your CTR is <strong>' + ctr.toFixed(2) + '%</strong>. Against a ' + target + '% target, ' + verdict + '.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

@@ -1,0 +1,212 @@
+{{/* CMGR Calculator (Compound Monthly Growth Rate). Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .calc-shell .pr-calc__rec { background: none; border-left: none; border-radius: 4px; padding: var(--pr-s-4); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "CMGR Calculator (Compound Monthly Growth Rate)", "description": "Free compound monthly growth rate calculator for B2B SaaS. Enter beginning value, ending value and number of months to get CMGR, total growth, growth multiple and the annualized equivalent.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate CMGR?", "acceptedAnswer": { "@type": "Answer", "text": "CMGR = ((ending value / beginning value) ^ (1 / number of months)) - 1. MRR growing from $50,000 to $90,000 over 6 months gives (90,000 / 50,000) raised to the power of 1/6, minus 1, which is about 10.3% compound monthly growth." } },
+    { "@type": "Question", "name": "What is the difference between CMGR and CAGR?", "acceptedAnswer": { "@type": "Answer", "text": "CMGR compounds growth on a monthly basis and CAGR compounds it on an annual basis. CMGR suits young or fast-moving SaaS companies without a full year of history. CAGR is the standard for comparing full fiscal years. Annualizing a CMGR (raising it to the 12th power) produces the same figure as a CAGR calculated over that same window." } },
+    { "@type": "Question", "name": "What is a good CMGR for a SaaS startup?", "acceptedAnswer": { "@type": "Answer", "text": "There is no single universal number because it depends on stage and starting base. Early-stage startups chasing product-market fit often post 10% to 20% CMGR, which compounds to triple-digit annual growth. As the revenue base grows, the same absolute dollar growth produces a smaller CMGR, so judge the trend and retention quality behind it, not the percentage alone." } },
+    { "@type": "Question", "name": "Why does CMGR look smoother than my actual month-over-month growth?", "acceptedAnswer": { "@type": "Answer", "text": "CMGR is not an average of your individual month-over-month rates. It is the single constant rate that, compounded every month over the period, would carry your beginning value to your ending value. That smooths out any single volatile month, which is the point: it shows the underlying trend instead of noise from one unusually strong or weak month." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · SaaS Metrics</span>
+          <h1 class="pr-calc__title">CMGR Calculator</h1>
+          <p class="pr-calc__sub">Enter your beginning value, ending value and the number of months between them to get your compound monthly growth rate (CMGR). Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Beginning value <em>start of period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="beginning" value="50000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Ending value <em>end of period</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="ending" value="90000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Number of months <em>between the two values</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="months" value="6" min="1" step="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">months</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your compound monthly growth</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rCmgr">-</div><div class="pr-calc__l">CMGR (per month)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rTotal">-</div><div class="pr-calc__l">Total growth (period)</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rMult">-</div><div class="pr-calc__l">Growth multiple</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rAnnual">-</div><div class="pr-calc__l">Annualized equivalent</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your beginning value, ending value and number of months to see your CMGR.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cmgr-mid">Turn a strong CMGR into a durable engine →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>A hot CMGR on paid spend rarely survives the budget getting cut.</strong>
+          <p>PipeRocket builds the organic channel that keeps compounding after the ad account goes quiet.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-cmgr-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/revenue-growth-rate-calculator/">Revenue Growth Rate Calculator</a>
+            <a href="/tools/mrr-arr-calculator/">MRR &amp; ARR Calculator</a>
+            <a href="/tools/rule-of-40-calculator/">Rule of 40 Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is CMGR?</h2>
+          <p>Compound monthly growth rate (CMGR) is the single constant monthly rate that, compounded every month, would carry a starting value to an ending value over a set number of months. It is the monthly counterpart to CAGR (compound annual growth rate), built for companies that do not yet have a full year of clean data.</p>
+          <p>CAGR compounds year over year, which fits once a company has multiple full fiscal years to compare. CMGR compounds month over month instead, making it the better lens for a six or twelve month old startup, or one whose growth rate is shifting fast enough to hide the real trend behind a single annual number.</p>
+          <p>For longer, year-scale comparisons once you have that history, see PipeRocket's <a href="/tools/revenue-growth-rate-calculator/">revenue growth rate calculator</a> (with CAGR) instead of this page.</p>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+CMGR = ((Ending Value ÷ Beginning Value) ^ (1 ÷ number of months)) - 1</pre>
+          <p>The ratio of ending value to beginning value is your total growth multiple over the period. Raising that multiple to the power of one over the number of months spreads it evenly across every month in between, and subtracting one converts the result back into a percentage rate.</p>
+          <p>That makes CMGR a geometric mean of monthly growth, not a simple average of each month's individual rate. The distinction matters: a geometric mean is what lets it smooth out one unusually strong or weak month instead of getting skewed by it.</p>
+
+          <h2>CMGR vs CAGR: when to use each</h2>
+          <p>CMGR fits when your data spans days or months rather than full years, the normal situation for a startup tracking MRR, signups or activated users since launch. It answers what monthly pace explains this change, without waiting for a 12-month lookback to build up.</p>
+          <p>CAGR takes over once multiple full years exist to compare, such as reporting annual revenue growth to a board or benchmarking public SaaS comparables. The two are mathematically linked: raising CMGR to the 12th power and subtracting one gives the annualized equivalent shown above, a projection of the current pace rather than a replacement for measuring an actual full year.</p>
+
+          <h2>What is a good CMGR for a SaaS startup?</h2>
+          <table>
+            <thead><tr><th>CMGR (monthly)</th><th>Annualized equivalent</th><th>Context</th></tr></thead>
+            <tbody>
+              <tr><td>15% to 20%+</td><td>435% to 790%+</td><td>Early traction phase, often the first 6 to 12 months post-launch.</td></tr>
+              <tr><td>10% to 15%</td><td>214% to 435%</td><td>Strong product-market fit signal for an early-stage SaaS company.</td></tr>
+              <tr><td>5% to 10%</td><td>80% to 214%</td><td>Solid growth once the revenue base is no longer tiny.</td></tr>
+              <tr><td>Under 5%</td><td>Under 80%</td><td>Normal for a company past its earliest, steepest growth phase.</td></tr>
+            </tbody>
+          </table>
+          <p>These bands are directional, not verdicts. A 6% CMGR is exceptional at $2M ARR and mediocre at $50K MRR. Read CMGR alongside net revenue retention and churn, since a high CMGR built on a leaky bucket of new customers rarely holds up once acquisition spend slows down.</p>
+
+          <h2>How to lift your CMGR</h2>
+          <h3>Reduce churn before you chase more new logos</h3>
+          <p>CMGR only reacts to the net change in your ending value, and churn is a direct subtraction from that number every single month. A team celebrating $20,000 of new MRR while quietly losing $8,000 to cancellations is compounding on a much smaller net figure than the new-business number alone suggests.</p>
+          <p>Onboarding and time-to-value are usually where that lost growth hides, since a customer who never reaches a first real result is the easiest kind to lose. Tightening the first 30 days often lifts CMGR faster than any new acquisition channel, because it stops erasing progress the team already paid to create.</p>
+          <p>A lower churn rate this month also raises next month's beginning value in the calculator, so the fix compounds on itself. That is different from a one-time acquisition win, which does not carry forward the same way.</p>
+
+          <h3>Grow expansion revenue inside existing accounts</h3>
+          <p>Upsells, seat expansion and tier upgrades add straight to your ending value without needing a single new customer, and that revenue tends to close faster and cheaper than a new logo. A base with strong net revenue retention keeps compounding on its own even in a slow new-business month.</p>
+          <p>This is usually the fastest lever to pull when top-of-funnel has stalled, because the accounts already trust the product and already pay you. A higher pricing tier that opens up at greater usage, or a paid add-on tied to a feature customers already ask for, both move the ending value without touching the acquisition budget.</p>
+          <p>Treat expansion as its own forecast line, not a rounding error on new business. Teams that track it separately tend to notice the stall sooner and fix it before it drags the compound rate down for several months in a row.</p>
+
+          <h3>Build an organic channel that keeps adding to next month's base</h3>
+          <p>Paid spend caps out once you hit auction saturation on your best-performing ad sets, and each additional dollar past that point buys a worse customer, which flattens the ending value the calculator sees. Organic channels do not have that ceiling in the same way, which is why they matter for the compounding math specifically:</p>
+          <ul>
+            <li><strong>Content and SEO compound.</strong> A page that ranks keeps adding new signups every month without a matching increase in spend, turning one good month into a durable trend line.</li>
+            <li><strong>Check the channel mix, not just the total.</strong> If almost all of this month's growth came from one paid campaign, the CMGR is fragile; split across channels, it is more likely to repeat.</li>
+            <li><strong>Watch payback, not just volume.</strong> A channel that adds users this month but cannot sustain the spend past next quarter will show up as a false spike in the trend, then vanish.</li>
+          </ul>
+
+          <h3>Watch the base effect before celebrating (or panicking over) a change</h3>
+          <p>The same dollar amount of growth produces a shrinking CMGR as your starting value gets bigger, purely because of the math, not because performance is getting worse. Going from $10,000 to $15,000 in a month is a 50% jump; going from $500,000 to $505,000 is 1%, even though both added $5,000.</p>
+          <p>Neither number alone tells the full story, and a falling CMGR percentage is not automatically a warning sign on its own. Compare CMGR trend lines within a similar revenue band rather than across wildly different stages, and pair the percentage with the absolute dollar change on the calculator above.</p>
+          <p>That combination is what keeps a naturally shrinking rate from getting misread as declining performance when the underlying business is actually healthy and simply bigger than it was a year ago.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate CMGR?</h3>
+          <p>CMGR = ((ending value / beginning value) ^ (1 / number of months)) - 1. MRR growing from $50,000 to $90,000 over 6 months gives (90,000 / 50,000) raised to the power of 1/6, minus 1, which is about 10.3% compound monthly growth.</p>
+          <h3>What is the difference between CMGR and CAGR?</h3>
+          <p>CMGR compounds growth on a monthly basis and CAGR compounds it on an annual basis. CMGR suits young or fast-moving SaaS companies without a full year of history. CAGR is the standard for comparing full fiscal years. Annualizing a CMGR (raising it to the 12th power) produces the same figure as a CAGR calculated over that same window.</p>
+          <h3>What is a good CMGR for a SaaS startup?</h3>
+          <p>There is no single universal number because it depends on stage and starting base. Early-stage startups chasing product-market fit often post 10% to 20% CMGR, which compounds to triple-digit annual growth. As the revenue base grows, the same absolute dollar growth produces a smaller CMGR, so judge the trend and retention quality behind it, not the percentage alone.</p>
+          <h3>Why does CMGR look smoother than my actual month-over-month growth?</h3>
+          <p>CMGR is not an average of your individual month-over-month rates. It is the single constant rate that, compounded every month over the period, would carry your beginning value to your ending value. That smooths out any single volatile month, which is the point: it shows the underlying trend instead of noise from one unusually strong or weak month.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['beginning','ending','months'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var sign=n<0?'-':''; var a=Math.abs(n); if(a>=1e6) return sign+'$'+(a/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=a/1000; return sign+'$'+(k%1===0?k.toFixed(0):k.toFixed(1))+'K';} return sign+'$'+(a>=100?Math.round(a).toLocaleString():a.toFixed(2)); }
+  function pct(n){ return (n>=0?'+':'-')+Math.abs(n).toLocaleString(undefined,{maximumFractionDigits:2})+'%'; }
+
+  function recalc(){
+    var beginning=num('beginning'), ending=num('ending');
+    var monthsRaw=num('months'), months=monthsRaw>0?monthsRaw:1;
+    var valid = beginning>0 && ending>=0;
+    var cmgr = valid ? Math.pow(ending/beginning, 1/months)-1 : 0;
+    var total = valid ? (ending-beginning)/beginning : 0;
+    var mult = valid ? ending/beginning : 0;
+    var annual = valid ? Math.pow(1+cmgr, 12)-1 : 0;
+    $('rCmgr').textContent  = valid ? pct(cmgr*100) : '-';
+    $('rTotal').textContent = valid ? pct(total*100) : '-';
+    $('rMult').textContent  = valid ? mult.toLocaleString(undefined,{maximumFractionDigits:2})+'×' : '-';
+    $('rAnnual').textContent = valid ? pct(annual*100) : '-';
+    if (!valid) {
+      $('rec').innerHTML = 'Enter a beginning value greater than $0 and an ending value of $0 or more to calculate CMGR.';
+      return;
+    }
+    $('rec').innerHTML = 'Going from <strong>'+money(beginning)+'</strong> to <strong>'+money(ending)+'</strong> over <strong>'+months+' month'+(months===1?'':'s')+'</strong> is a <strong>'+pct(cmgr*100)+'</strong> compound monthly growth rate ('+mult.toLocaleString(undefined,{maximumFractionDigits:2})+'&times; total, '+pct(total*100)+' over the period). Sustained for a full year, that pace would compound to roughly <strong>'+pct(annual*100)+'</strong> annualized.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

@@ -1,0 +1,226 @@
+{{/* SaaS Magic Number Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-shell .pr-calc__rec { background: none; border-left: none; border-radius: 4px; padding: var(--pr-s-4); }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .calc-badge { display: inline-block; padding: 3px 14px; border-radius: 999px; font-weight: 700; font-size: 1rem; letter-spacing: 0.02em; }
+  .calc-badge--pass { background: rgba(15, 122, 82, 0.14); color: #0F7A52; }
+  .calc-badge--watch { background: rgba(200, 140, 0, 0.14); color: #A66A00; }
+  .calc-badge--fail { background: rgba(230, 57, 70, 0.14); color: var(--pr-red); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "SaaS Magic Number Calculator", "description": "Free SaaS Magic Number calculator. Enter current quarter revenue, previous quarter revenue and previous quarter S&M spend to get your sales and marketing efficiency score.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate the SaaS Magic Number?", "acceptedAnswer": { "@type": "Answer", "text": "Subtract previous quarter revenue from current quarter revenue, multiply by 4, then divide by previous quarter sales and marketing spend. For example, $2,500,000 in current quarter revenue minus $2,150,000 in previous quarter revenue is a $350,000 gain; multiplied by 4 that is $1,400,000 in annualized new revenue, divided by $1,000,000 in prior-quarter S&M spend gives a Magic Number of 1.4." } },
+    { "@type": "Question", "name": "What is a good SaaS Magic Number?", "acceptedAnswer": { "@type": "Answer", "text": "A Magic Number above 1.0 is considered efficient and a signal to invest more in sales and marketing. A score between 0.75 and 1.0 is decent, with room to improve before scaling spend further. Below 0.75 usually means sales and marketing spend is not converting into revenue fast enough, and unit economics need fixing before adding more budget." } },
+    { "@type": "Question", "name": "Where did the SaaS Magic Number come from?", "acceptedAnswer": { "@type": "Answer", "text": "Scale Venture Partners created the Magic Number to compare public SaaS companies using only the GAAP revenue and expense figures they already report. It became popular because it did not require internal data like net new ARR or channel-level spend, just numbers already sitting in a 10-Q." } },
+    { "@type": "Question", "name": "What are the limitations of the SaaS Magic Number?", "acceptedAnswer": { "@type": "Answer", "text": "The formula uses total GAAP revenue rather than net new ARR, so it does not separate new business from expansion revenue and does not net out churn. A company can post a strong Magic Number while losing customers underneath, which is why it should be read alongside retention, CAC payback and net revenue retention rather than on its own." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">SaaS Magic Number Calculator</h1>
+          <p class="pr-calc__sub">Enter current and previous quarter revenue plus previous quarter sales and marketing spend to get your Magic Number and an efficiency verdict. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Current quarter revenue <em>this quarter</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="curRev" value="2500000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Previous quarter revenue <em>the prior quarter</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="prevRev" value="2150000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Previous quarter S&amp;M spend <em>same prior quarter</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="smSpend" value="1000000" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your SaaS Magic Number</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rMagic">-</div><div class="pr-calc__l">Magic Number</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rVerdict"></div><div class="pr-calc__l">Efficiency verdict</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rAnnGrowth">-</div><div class="pr-calc__l">Annualized revenue growth</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rQGrowth">-</div><div class="pr-calc__l">Quarter-over-quarter growth</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your revenue and S&amp;M spend to see your Magic Number.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-saas-magic-number-mid">Turn a low Magic Number into efficient organic growth →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Grow revenue without inflating S&amp;M spend.</strong>
+          <p>PipeRocket builds the organic engine that lifts your Magic Number instead of your budget.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-saas-magic-number-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/rule-of-40-calculator/">Rule of 40 Calculator</a>
+            <a href="/tools/cac-calculator/">CAC Calculator</a>
+            <a href="/tools/revenue-growth-rate-calculator/">Revenue Growth Rate Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is the SaaS Magic Number?</h2>
+          <p>The SaaS Magic Number measures how efficiently a company turns sales and marketing spend into new recurring revenue. It compares the annualized revenue you added last quarter against what you spent to add it, producing a single ratio you can track over time and benchmark against other SaaS companies.</p>
+          <p>Scale Venture Partners created the metric to compare public SaaS companies using only the GAAP revenue and expense figures they already disclose. It has since become a standard efficiency check that investors and operators use alongside CAC payback and net revenue retention.</p>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+SaaS Magic Number = (Current quarter revenue &minus; Previous quarter revenue) &times; 4 &divide; Previous quarter S&amp;M spend</pre>
+          <p>Multiplying the quarterly revenue gain by 4 annualizes it, since one quarter of new revenue should keep recurring for the next four quarters if customers stick around. Dividing by prior-quarter spend puts everything on a per-dollar-spent basis, so companies of very different sizes can be compared on the same scale.</p>
+          <p>The formula uses total GAAP revenue, not net new ARR, so it does not separate new business from expansion revenue and does not net out churn. A strong Magic Number can still mask rising churn underneath, which is why it works best alongside retention and payback metrics, not alone.</p>
+
+          <h2>What counts as a good SaaS Magic Number?</h2>
+          <p>These three bands are the standard read on the ratio used across most SaaS efficiency benchmarks:</p>
+          <table>
+            <thead><tr><th>Magic Number</th><th>Read</th><th>What it means</th></tr></thead>
+            <tbody>
+              <tr><td>Above 1.0</td><td>Efficient</td><td>Every dollar of S&amp;M spend is generating more than a dollar of annualized new revenue. Invest more in sales and marketing.</td></tr>
+              <tr><td>0.75 to 1.0</td><td>Decent</td><td>Growth is reasonably efficient but there is room to improve before scaling spend further.</td></tr>
+              <tr><td>Below 0.75</td><td>Inefficient</td><td>Sales and marketing spend is not converting into revenue fast enough. Fix unit economics before pouring in more budget.</td></tr>
+            </tbody>
+          </table>
+
+          <h2>How to improve your SaaS Magic Number</h2>
+
+          <h3>Shorten your sales cycle</h3>
+          <p>Every week a deal sits in your pipeline is a week where sales and marketing spend has not yet turned into revenue. Shortening the average sales cycle from 90 days to 60 days lets the same quarter's spend close more revenue before the quarter ends, lifting the Magic Number's numerator without adding a single dollar of spend.</p>
+          <p>Look at where deals actually stall in your pipeline: late-stage multi-threading, slow proposal turnaround, and budget conversations that happen too late in the process are common culprits. Fixing any of these compresses the cycle without changing your close rate.</p>
+          <p>None of it requires spending more, only spending faster. Sales teams that instrument time-in-stage usually find the fix is procedural, not budgetary, which makes it one of the cheapest levers on this entire list.</p>
+
+          <h3>Grow expansion revenue from existing accounts</h3>
+          <p>New logos are not the only source of quarter-over-quarter revenue growth, and they are usually the most expensive one to win. Upsells, cross-sells and usage-based expansion from your current customer base add straight to the numerator of the Magic Number without touching the sales and marketing spend in the denominator.</p>
+          <p>Most SaaS companies under-invest here simply because expansion revenue does not have its own line item on a sales dashboard the way new logos do, so it gets tracked loosely if at all.</p>
+          <ul>
+            <li>Upsell to a higher tier when usage, seats or feature needs outgrow the current plan</li>
+            <li>Cross-sell adjacent modules or products to accounts already live on the core product</li>
+            <li>Introduce usage-based add-ons that scale revenue automatically as customers grow, with no new deal to close</li>
+            <li>Run a quarterly account review with customer success so expansion opportunities get surfaced before renewal</li>
+          </ul>
+
+          <h3>Fix retention before you fix acquisition</h3>
+          <p>A company losing 3% of revenue to churn every month is fighting itself before a single new deal even closes. Churn quietly cancels out new-quarter growth, so the revenue difference the Magic Number measures ends up smaller than the actual bookings your sales team closed that quarter.</p>
+          <p>This is one of the biggest blind spots in the formula, since it uses gross GAAP revenue rather than net new ARR. Two companies can post the same headline revenue growth while one is bleeding accounts underneath and the other is not, and the Magic Number alone will not tell them apart.</p>
+          <p>Pair the Magic Number with a monthly look at logo and revenue churn before deciding to increase spend. A business with 10% annual churn can safely lean into a mediocre Magic Number; one with 30% churn cannot, no matter how strong the ratio looks.</p>
+
+          <h3>Get more out of the spend you already have</h3>
+          <p>Before increasing the sales and marketing budget for next quarter, check whether the current budget is being spent well. A landing page that converts at 1.5% instead of 3% is quietly wasting half of every dollar that reaches it, regardless of how efficient the channel mix looks on a report.</p>
+          <p>Even a well-targeted campaign can waste spend if the destination page is not built to convert, no matter how strong the traffic source is.</p>
+          <p>Run conversion audits on the highest-traffic pages and highest-volume campaigns first, since small percentage gains there move the most absolute dollars. Fixing a leaky funnel is almost always cheaper than adding a new channel, and it improves next quarter's Magic Number without spending a cent more.</p>
+
+          <h3>Reallocate spend toward the channel already working</h3>
+          <p>Not every dollar of sales and marketing spend produces the same amount of revenue, and blending them into one denominator hides that fact. Break S&amp;M spend down by channel for a quarter and it usually becomes clear that one or two channels are carrying most of the return.</p>
+          <p>A single blended Magic Number can look mediocre even when one channel inside it is genuinely excellent, and another is quietly dragging the average down.</p>
+          <ul>
+            <li>Compare cost per opportunity and close rate by channel, not just total spend</li>
+            <li>Shift budget away from channels with rising cost and falling close rates</li>
+            <li>Reinvest in compounding channels like SEO and content, which keep converting after the spend stops</li>
+            <li>Re-run this calculator per channel to see which one actually deserves the next incremental dollar</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate the SaaS Magic Number?</h3>
+          <p>Subtract previous quarter revenue from current quarter revenue, multiply by 4, then divide by previous quarter sales and marketing spend. For example, $2,500,000 in current quarter revenue minus $2,150,000 in previous quarter revenue is a $350,000 gain; multiplied by 4 that is $1,400,000 in annualized new revenue, divided by $1,000,000 in prior-quarter S&amp;M spend gives a Magic Number of 1.4.</p>
+          <h3>What is a good SaaS Magic Number?</h3>
+          <p>A Magic Number above 1.0 is considered efficient and a signal to invest more in sales and marketing. A score between 0.75 and 1.0 is decent, with room to improve before scaling spend further. Below 0.75 usually means sales and marketing spend is not converting into revenue fast enough, and unit economics need fixing before adding more budget.</p>
+          <h3>Where did the SaaS Magic Number come from?</h3>
+          <p>Scale Venture Partners created the Magic Number to compare public SaaS companies using only the GAAP revenue and expense figures they already report. It became popular because it did not require internal data like net new ARR or channel-level spend, just numbers already sitting in a 10-Q.</p>
+          <h3>What are the limitations of the SaaS Magic Number?</h3>
+          <p>The formula uses total GAAP revenue rather than net new ARR, so it does not separate new business from expansion revenue and does not net out churn. A company can post a strong Magic Number while losing customers underneath, which is why it should be read alongside retention, CAC payback and net revenue retention rather than on its own.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['curRev','prevRev','smSpend'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var sign=n<0?'-':''; var a=Math.abs(n); if(a>=1e6) return sign+'$'+(a/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=a/1000; return sign+'$'+(k%1===0?k.toFixed(0):k.toFixed(1))+'K';} return sign+'$'+Math.round(a).toLocaleString(); }
+  function fmt(n){ return (Math.round(n * 100) / 100).toFixed(2).replace(/0$/,'').replace(/\.$/,''); }
+  function pct(n){ return (Math.round(n * 10) / 10).toFixed(1).replace(/\.0$/, '') + '%'; }
+
+  function recalc(){
+    var curRev = num('curRev'), prevRev = num('prevRev'), spend = Math.max(num('smSpend'), 1);
+    var diff = curRev - prevRev;
+    var annGrowth = diff * 4;
+    var magic = annGrowth / spend;
+    var qGrowth = prevRev > 0 ? (diff / prevRev) * 100 : 0;
+    var verdict, badgeClass;
+    if (magic > 1.0) { verdict = 'Efficient'; badgeClass = 'calc-badge--pass'; }
+    else if (magic >= 0.75) { verdict = 'Decent'; badgeClass = 'calc-badge--watch'; }
+    else { verdict = 'Inefficient'; badgeClass = 'calc-badge--fail'; }
+
+    $('rMagic').textContent = fmt(magic);
+    $('rVerdict').innerHTML = '<span class="calc-badge ' + badgeClass + '">' + verdict + '</span>';
+    $('rAnnGrowth').textContent = money(annGrowth);
+    $('rQGrowth').textContent = pct(qGrowth);
+
+    var base = 'Revenue grew from <strong>' + money(prevRev) + '</strong> to <strong>' + money(curRev) + '</strong> (' + pct(qGrowth) + ' quarter-over-quarter), or <strong>' + money(annGrowth) + '</strong> annualized. ';
+    base += 'Against <strong>' + money(spend) + '</strong> in prior-quarter S&amp;M spend, that gives a Magic Number of <strong>' + fmt(magic) + '</strong>, which reads as <strong>' + verdict.toLowerCase() + '</strong>.';
+    $('rec').innerHTML = base;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

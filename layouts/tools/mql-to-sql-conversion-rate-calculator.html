@@ -1,0 +1,228 @@
+{{/* MQL to SQL Conversion Rate Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-shell .pr-calc__rec { background: none; border-left: none; border-radius: 4px; padding: var(--pr-s-4); }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "MQL to SQL Conversion Rate Calculator", "description": "Free MQL to SQL conversion rate calculator for B2B SaaS. Enter your MQLs and SQLs to get your conversion rate, plus the extra SQLs and pipeline value a higher rate would add.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate MQL to SQL conversion rate?", "acceptedAnswer": { "@type": "Answer", "text": "MQL to SQL conversion rate equals the number of SQLs divided by the number of MQLs, times 100. In the example on this page, 150 SQLs from 500 MQLs is 150 divided by 500 times 100, which equals 30%. Always use the same time period for both numbers, usually a month or a quarter." } },
+    { "@type": "Question", "name": "What is a good MQL to SQL conversion rate for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "Most B2B SaaS benchmarks put a typical rate between 20% and 40%, with top-performing teams at 40% or higher, though a broader cross-industry average sits closer to 13%. Anything consistently under 15% usually points to a loose MQL definition or a gap between what marketing and sales each consider qualified, rather than a marketing volume problem." } },
+    { "@type": "Question", "name": "What's the difference between an MQL and an SQL?", "acceptedAnswer": { "@type": "Answer", "text": "An MQL (marketing qualified lead) has shown enough interest through marketing touches, like a demo request or repeat pricing-page visits, to be worth sales attention. An SQL (sales qualified lead) is an MQL that a sales rep has vetted and accepted as a real opportunity. Sales usually vets against criteria like budget, authority, need and timeline. The MQL to SQL rate measures how many of the first group actually become the second." } },
+    { "@type": "Question", "name": "Why would a high MQL to SQL rate still not translate into revenue?", "acceptedAnswer": { "@type": "Answer", "text": "MQL to SQL rate only measures whether sales accepted a lead as an opportunity, not whether that opportunity ever closes. A team can hit a 40% MQL to SQL rate by accepting leads too easily and still miss revenue targets if those SQLs stall out later. Always read this metric alongside SQL-to-customer close rate and average deal size, not on its own. A high acceptance rate paired with a low close rate usually means the acceptance bar just moved from marketing to sales instead of getting fixed." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">MQL to SQL Conversion Rate Calculator</h1>
+          <p class="pr-calc__sub">Get your MQL to SQL conversion rate from a few numbers, then see how many more SQLs (and how much more pipeline) a higher rate would add. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">MQLs generated <em>this period</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="mqls" value="500" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">MQLs</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">SQLs accepted <em>same period</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="sqls" value="150" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">SQLs</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Target MQL → SQL rate <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="target" value="40" min="0" max="100" step="0.1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Avg SQL pipeline value <em>optional</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="value" value="0" min="0"></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your MQL to SQL conversion rate</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rRate">—</div><div class="pr-calc__l">MQL to SQL rate</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rSqls">—</div><div class="pr-calc__l">SQLs this period</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rExtra">—</div><div class="pr-calc__l">Extra SQLs at target</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rVal">—</div><div class="pr-calc__l">Extra pipeline at target</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your MQLs and SQLs to see your conversion rate.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-mqlsql-mid">Fill your pipeline with SQL-ready leads →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>More MQLs don't matter if sales rejects them.</strong>
+          <p>PipeRocket builds organic pipeline that matches your ICP and sales criteria, so more of it converts to SQLs.</p>
+          <a href="/saas-seo-agency/" class="pr-btn" data-cta-source="tool-mqlsql-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/free-seo-roi-calculator/">SEO ROI Calculator</a>
+            <a href="/tools/cost-per-lead-calculator/">Cost Per Lead Calculator</a>
+            <a href="/tools/lead-value-calculator/">Lead Value Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is MQL to SQL conversion rate?</h2>
+          <p>MQL to SQL conversion rate is the percentage of marketing qualified leads that sales accepts as sales qualified leads. It measures how much of the pipeline marketing hands off actually clears the bar sales has set for a real opportunity. A low rate usually means the two teams disagree on what counts as qualified.</p>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+MQL to SQL rate      = SQLs ÷ MQLs
+SQLs at target rate   = MQLs × target rate
+Extra SQLs            = SQLs at target − current SQLs
+Extra pipeline value  = extra SQLs × avg SQL value</pre>
+          <p>The target rate and SQL value fields are optional. Add them to see how many more sales-ready leads, and how much more pipeline, a tighter qualification process would produce from the same MQL volume.</p>
+
+          <h2>What's a good MQL to SQL conversion rate for B2B SaaS?</h2>
+          <p>Benchmark figures for this metric vary more than most funnel metrics, because MQL definitions aren't standardized across companies the way a trial signup is. Third-party marketing analytics benchmarks put the cross-industry average around 13%, while several B2B SaaS-specific sources cite 20% to 40% as typical and 40%+ as a strong result.</p>
+          <table>
+            <thead><tr><th>Performance tier</th><th>MQL to SQL rate</th><th>What it usually signals</th></tr></thead>
+            <tbody>
+              <tr><td>Needs attention</td><td>Under 15%</td><td>Loose MQL definition, weak lead scoring, or a marketing-sales gap</td></tr>
+              <tr><td>Typical / average</td><td>15% to 30%</td><td>A reasonably well-run qualification process</td></tr>
+              <tr><td>Strong</td><td>30% to 50%+</td><td>Tight MQL criteria, solid scoring, close alignment</td></tr>
+            </tbody>
+          </table>
+          <p>Rates also swing by channel. Leads from your own website and customer referrals tend to convert into SQLs well above the blended average, since the person already has context or trust going in, while paid and cold-outbound leads usually pull the number down. Track your own trend by channel rather than chasing one universal target.</p>
+
+          <h2>How to improve your MQL to SQL conversion rate</h2>
+
+          <h3>Make your MQL bar harder to clear</h3>
+          <p>Most weak MQL to SQL rates start with a marketing-qualified definition that's too easy to hit. A single ebook download or newsletter signup being enough to call someone qualified guarantees sales will reject the bulk of what marketing sends over.</p>
+          <p>Tightening the definition is usually the fastest lever, because it reduces the volume marketing counts as an MQL rather than asking sales to accept more of the same weak leads. The fix is combining signals, not raising the bar on just one.</p>
+          <ul>
+            <li>Company size and industry match your ICP, not just any visitor</li>
+            <li>Multiple high-intent touches (pricing page, demo request, comparison page), not a single download</li>
+            <li>A job title or seniority level that can actually buy or influence the purchase</li>
+            <li>Recent activity, not a lead that went cold three months ago</li>
+          </ul>
+
+          <h3>Build lead scoring around buying signals, not just profile fit</h3>
+          <p>A lead scoring model is the mechanism that turns your MQL definition into something repeatable, instead of a judgment call every rep makes differently. Points typically come from two buckets: fit (does this account match your ICP) and behavior (is this person actually showing intent to buy). Neither bucket alone is enough.</p>
+          <p>Fit without behavior gives you a long list of accounts that could buy someday, most of which sales will reject as not-yet-ready. Behavior without fit surfaces plenty of engaged visitors who were never going to be a good customer, wasting sales time on deals that were never winnable.</p>
+          <p>The score threshold that defines an MQL should be set jointly with sales and revisited quarterly against actual close data, not fixed once and left alone. If SQLs accepted at a given score keep closing, the threshold is calibrated. If they keep bouncing back, it's set too low.</p>
+
+          <h3>Put a real SLA between marketing and sales</h3>
+          <p>A service level agreement between marketing and sales turns MQL to SQL conversion from a source of finger-pointing into a shared, measurable process. It should spell out what marketing commits to deliver (lead volume and quality criteria) and what sales commits to in return (response time and a documented reason for every reject).</p>
+          <p>Without an SLA, marketing tends to measure success by MQL volume while sales measures it by how many MQLs waste their time, and both sides end up right by their own definition. A shared dashboard tracking the rate alongside reject reasons keeps both teams looking at the same number.</p>
+
+          <h3>Send rejected leads back with a reason code</h3>
+          <p>Every lead sales rejects should come back to marketing with a reason attached, not just disappear from the pipeline. Without that feedback loop, marketing keeps generating the same type of lead that keeps getting rejected, and the conversion rate stays flat no matter how much volume goes in at the top.</p>
+          <ul>
+            <li>Not a fit (wrong company size, industry, or use case)</li>
+            <li>Not ready (early research, no timeline or budget yet)</li>
+            <li>Wrong contact (no authority or budget to buy)</li>
+            <li>Bad data (invalid email, duplicate, or already a customer)</li>
+          </ul>
+          <p>Feeding these reason codes back into lead scoring and campaign targeting is what actually moves the MQL to SQL rate over time, rather than a single scoring tweak that fixes the symptom for one quarter and drifts back afterward.</p>
+
+          <h3>Break your rate out by channel before you touch anything else</h3>
+          <p>A single blended MQL to SQL rate hides more than it reveals, because different channels produce leads with very different intent. Organic search and referral leads tend to convert well above a paid or cold-outbound blended average, since the person is already looking for a solution rather than being interrupted by an ad.</p>
+          <p>Segmenting the rate by channel, campaign, and even content type shows exactly where the weak leads are coming from before you change your scoring model or your SLA. A channel converting at 45% doesn't need the same fix as one converting at 8%, even if they roll up to the same blended average.</p>
+          <p>This is also the fastest way to catch a channel mix shift before it tanks your overall number. If a paid campaign suddenly triples MQL volume with low intent, the blended rate will drop even though every individual channel is performing exactly as before.</p>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate MQL to SQL conversion rate?</h3>
+          <p>MQL to SQL conversion rate equals the number of SQLs divided by the number of MQLs, times 100. In the example on this page, 150 SQLs from 500 MQLs is 150 divided by 500 times 100, which equals 30%. Always use the same time period for both numbers, usually a month or a quarter.</p>
+          <h3>What is a good MQL to SQL conversion rate for B2B SaaS?</h3>
+          <p>Most B2B SaaS benchmarks put a typical rate between 20% and 40%, with top-performing teams at 40% or higher, though a broader cross-industry average sits closer to 13%. Anything consistently under 15% usually points to a loose MQL definition or a gap between what marketing and sales each consider qualified, rather than a marketing volume problem.</p>
+          <h3>What's the difference between an MQL and an SQL?</h3>
+          <p>An MQL (marketing qualified lead) has shown enough interest through marketing touches, like a demo request or repeat pricing-page visits, to be worth sales attention. An SQL (sales qualified lead) is an MQL that a sales rep has vetted and accepted as a real opportunity.</p>
+          <p>Sales usually vets against criteria like budget, authority, need and timeline. The MQL to SQL rate measures how many of the first group actually become the second.</p>
+          <h3>Why would a high MQL to SQL rate still not translate into revenue?</h3>
+          <p>MQL to SQL rate only measures whether sales accepted a lead as an opportunity, not whether that opportunity ever closes. A team can hit a 40% MQL to SQL rate by accepting leads too easily and still miss revenue targets if those SQLs stall out later.</p>
+          <p>Always read this metric alongside SQL-to-customer close rate and average deal size, not on its own. A high acceptance rate paired with a low close rate usually means the acceptance bar just moved from marketing to sales instead of getting fixed.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['mqls','sqls','target','value'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function pct(x){ return (x*100).toFixed(1).replace(/\.0$/,'')+'%'; }
+  function cnt(n){ n=Math.round(n); return n.toLocaleString(); }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+
+  function recalc(){
+    var mqls = Math.max(num('mqls'), 1), sqls = num('sqls'),
+        target = num('target')/100, value = num('value');
+    var rate = sqls/mqls;
+    var atTarget = mqls*target;
+    var extra = Math.max(0, atTarget-sqls);
+    var extraVal = extra*value;
+
+    $('rRate').textContent = pct(rate);
+    $('rSqls').textContent = cnt(sqls);
+    $('rExtra').textContent = target>0 ? '+'+cnt(extra) : '—';
+    $('rVal').textContent = (target>0 && value>0) ? '+'+money(extraVal) : '—';
+
+    var rec = 'Converting <strong>'+cnt(sqls)+' of '+cnt(mqls)+' MQLs</strong> into SQLs is a <strong>'+pct(rate)+'</strong> MQL to SQL conversion rate.';
+    if (target>0 && extra>0) {
+      rec += ' Hitting a <strong>'+num('target')+'%</strong> target would add about <strong>'+cnt(extra)+' more SQLs</strong>'+(value>0?' worth <strong>'+money(extraVal)+'</strong> in pipeline':'')+' from the same MQL volume.';
+    }
+    $('rec').innerHTML = rec;
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}

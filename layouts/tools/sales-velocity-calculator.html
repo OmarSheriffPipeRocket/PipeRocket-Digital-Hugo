@@ -1,0 +1,211 @@
+{{/* Sales Velocity Calculator. Shared .pr-calc component + 2-col article layout. */}}
+
+{{ define "head_extra" }}
+<style>
+  .calc-shell { max-width: 880px; margin: 0 auto; }
+  .calc-shell .pr-calc__title { font-family: var(--pr-serif); font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; }
+  .calc-shell .pr-calc__sub { font-size: 1rem; max-width: 640px; }
+  .calc-cta { text-align: center; margin-top: var(--pr-s-5); }
+  .calc-cta small { display: block; margin-top: var(--pr-s-3); font-size: 0.8rem; color: var(--pr-muted); }
+  .pr-calc__v.calc-hi { color: var(--pr-cyan); }
+  .calc-shell .pr-calc__rec { background: none; border-left: none; border-radius: 4px; padding: var(--pr-s-4); }
+  .pr-glossary__body pre.calc-formula { background: var(--pr-cream-2); border: 1px solid var(--pr-line); border-radius: 6px; padding: var(--pr-s-5); font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; color: var(--pr-ink); margin: var(--pr-s-5) 0; }
+  .pr-glossary__body pre.calc-formula strong { color: var(--pr-cyan); }
+  .rail-tools nav a { display: block; padding: 6px 0; font-size: 0.9rem; font-weight: 600; color: var(--pr-ink-2); text-decoration: none; border-bottom: 1px solid var(--pr-line); }
+  .rail-tools nav a:last-child { border-bottom: none; }
+  .rail-tools nav a:hover { color: var(--pr-cyan); }
+</style>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebApplication", "name": "Sales Velocity Calculator for B2B SaaS", "description": "Free sales velocity calculator for B2B SaaS. Enter opportunities, win rate, average deal value and sales cycle length to get daily, monthly and annual sales velocity.", "url": "{{ .Permalink }}", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }, "publisher": { "@type": "Organization", "name": "PipeRocket Digital", "url": "https://piperocket.digital" } }
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do you calculate sales velocity?", "acceptedAnswer": { "@type": "Answer", "text": "Sales velocity = (opportunities x win rate x average deal value) ÷ sales cycle length in days. 40 opportunities at a 25% win rate and an $8,000 average deal value over a 60-day cycle gives (40 x 0.25 x 8,000) / 60 = $1,333 per day." } },
+    { "@type": "Question", "name": "What is a good sales velocity for B2B SaaS?", "acceptedAnswer": { "@type": "Answer", "text": "There is no universal good number because it scales with deal size and team size. Track your own sales velocity over time and by rep or segment, and treat a sustained drop as a signal that one of the four inputs has moved the wrong way." } },
+    { "@type": "Question", "name": "How can I increase my sales velocity?", "acceptedAnswer": { "@type": "Answer", "text": "Move all four levers: generate more qualified opportunities, raise average deal value, improve win rate through better qualification, and shorten the sales cycle by removing friction. Shortening cycle length usually produces the fastest gain since it sits in the denominator." } },
+    { "@type": "Question", "name": "What is the difference between sales velocity and pipeline velocity?", "acceptedAnswer": { "@type": "Answer", "text": "Most teams use the terms interchangeably with the same formula. Where a distinction exists, sales velocity usually refers to closed-deal throughput for a rep or segment, while pipeline velocity covers the full pipeline including in-progress opportunities, often reported per quarter." } }
+  ]
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+
+<section class="pr-section" style="padding-bottom: var(--pr-s-6);">
+  <div class="pr-container">
+    <div class="calc-shell">
+      <div class="pr-calc" id="calculator">
+        <div class="pr-calc__hero-head">
+          <span class="pr-eyebrow pr-eyebrow--red">Free Tool · B2B SaaS</span>
+          <h1 class="pr-calc__title">Sales Velocity Calculator for B2B SaaS</h1>
+          <p class="pr-calc__sub">Work out how much revenue is moving through your pipeline per day, per month and per year. Transparent formula, no email.</p>
+        </div>
+
+        <div class="pr-calc__row">
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Open opportunities <em>in pipeline</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="opps" value="40" min="0" class="pr-calc__no-prefix"><span class="pr-calc__suffix">opps</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Win rate <em>opp to closed-won</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="winrate" value="25" min="0" max="100" class="pr-calc__no-prefix"><span class="pr-calc__suffix">%</span></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Average deal value <em>ACV or TCV</em></span>
+            <span class="pr-calc__input-wrap"><span class="pr-calc__prefix">$</span><input type="number" id="dealvalue" value="8000" min="0"></span>
+          </label>
+          <label class="pr-calc__field">
+            <span class="pr-calc__label">Sales cycle length <em>days, first touch to close</em></span>
+            <span class="pr-calc__input-wrap"><input type="number" id="cycle" value="60" min="1" class="pr-calc__no-prefix"><span class="pr-calc__suffix">days</span></span>
+          </label>
+        </div>
+
+        <div class="pr-calc__results">
+          <h5>Your sales velocity</h5>
+          <div class="pr-calc__grid">
+            <div class="pr-calc__stat"><div class="pr-calc__v calc-hi" id="rVelocity">—</div><div class="pr-calc__l">Sales velocity / day</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rMonthly">—</div><div class="pr-calc__l">Revenue run-rate / month</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rAnnual">—</div><div class="pr-calc__l">Revenue run-rate / year</div></div>
+            <div class="pr-calc__stat"><div class="pr-calc__v" id="rPerOpp">—</div><div class="pr-calc__l">Expected value / opportunity</div></div>
+          </div>
+          <div class="pr-calc__rec" id="rec">Enter your pipeline numbers to see your sales velocity.</div>
+        </div>
+
+        <div class="calc-cta">
+          <a href="/marketing-ops/" class="pr-btn" data-cta-source="tool-sales-velocity-mid">Tie every pipeline dollar to closed-won revenue →</a>
+          <small>No commitment · 30-min growth strategy call · B2B SaaS specialists</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="pr-2col-article">
+  <div class="pr-container">
+    <div class="pr-article-3-6-3">
+      <aside class="pr-article-rail pr-article-rail--left" aria-label="In this article">
+        <div class="pr-article-rail__card pr-article-rail__cta">
+          <span class="pr-eyebrow pr-eyebrow--red">Talk to a SaaS marketer</span>
+          <strong>Pipeline speed is a revenue lever, not just a sales metric.</strong>
+          <p>PipeRocket builds the demand and RevOps systems that move all four sales velocity levers together.</p>
+          <a href="/marketing-ops/" class="pr-btn" data-cta-source="tool-sales-velocity-side">Get a growth audit</a>
+        </div>
+        <details class="pr-article-rail__card pr-article-rail__card--collapsible" open>
+          <summary class="pr-article-rail__heading">On this page</summary>
+          <nav class="pr-article-rail__toc" data-pr-blog-toc></nav>
+        </details>
+        <div class="pr-article-rail__card rail-tools">
+          <div class="pr-article-rail__heading">Related tools</div>
+          <nav>
+            <a href="/tools/marketing-roi-calculator/">Marketing ROI Calculator</a>
+            <a href="/tools/cost-per-lead-calculator/">Cost Per Lead Calculator</a>
+            <a href="/tools/cac-calculator/">CAC Calculator</a>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="pr-article-main" data-pr-blog-main>
+        <div class="pr-glossary__body">
+
+          <h2>What is sales velocity?</h2>
+          <p>Sales velocity measures how much revenue moves through your pipeline per day. It combines the four things that determine how fast a sales team turns pipeline into closed-won revenue: opportunity count, win rate, deal value and sales cycle length.</p>
+          <p>A rising sales velocity means the same team is generating revenue faster without necessarily adding headcount or spend, which makes it a useful single number for tracking whether pipeline changes are actually paying off.</p>
+
+          <h2>How this calculator works</h2>
+          <pre class="calc-formula"><strong>The formula:</strong>
+
+Sales velocity ($/day) = (Opportunities × Win rate × Avg deal value) ÷ Sales cycle length (days)
+Monthly run-rate         = Sales velocity × 30
+Annual run-rate          = Monthly run-rate × 12</pre>
+          <p>Sales velocity is a rate, not a total, so it only makes sense to compare it against your own baseline over time or against another rep or segment measured the same way. A single snapshot tells you less than a trend line, because any one of the four inputs can swing the number without the others changing at all.</p>
+
+          <h2>Typical B2B SaaS sales cycle length by deal size</h2>
+          <p>Sales cycle length is the input with the widest range across companies, which is why it is worth grounding against typical ranges before you read too much into your own number. These are general industry ranges, not hard thresholds, since cycle length also depends on ICP, buying committee size and whether the deal is new business or expansion.</p>
+          <table>
+            <thead><tr><th>Deal size</th><th>Typical cycle length</th><th>What drives it</th></tr></thead>
+            <tbody>
+              <tr><td>Under $5,000 ACV</td><td>Roughly 30 to 45 days</td><td>Single decision-maker, low-touch or self-serve buying motion.</td></tr>
+              <tr><td>$5,000 to $50,000 ACV</td><td>Roughly 60 to 90 days</td><td>Small buying committee, procurement and security review begin to appear.</td></tr>
+              <tr><td>Over $100,000 ACV</td><td>Roughly 150 to 180+ days</td><td>Multi-stakeholder committee, legal and security review, budget cycles.</td></tr>
+            </tbody>
+          </table>
+
+          <h2>How to increase sales velocity</h2>
+
+          <h3>Create more qualified opportunities</h3>
+          <p>Opportunity volume is the easiest lever to move on paper and the easiest to move badly, because pushing unqualified leads into the pipeline just inflates the numerator without improving revenue. The gain has to come from opportunities that actually match your ICP, not from loosening what counts as an opportunity in the first place.</p>
+          <p>The reliable way to grow this number is to align marketing and sales on a shared definition of a qualified opportunity, then invest in the channels that produce it consistently. Organic search and content tend to compound here because they keep generating qualified opportunities long after the campaign that started them has ended.</p>
+          <p>Outbound and partnerships can add volume faster in the short term, but they rarely hold up as a standalone strategy once the list of good-fit accounts runs dry, so pair them with a channel that keeps replenishing the pipeline on its own.</p>
+
+          <h3>Increase average deal value</h3>
+          <p>Average deal value moves when you either sell to bigger accounts or sell more into the accounts you already have. Both routes lift the same number in the formula, but they carry different levels of risk and different timelines to show results.</p>
+          <ul>
+            <li>Move upmarket toward accounts with larger budgets and more seats, where the same sales effort produces a bigger contract.</li>
+            <li>Package a higher tier or add-on into the standard proposal so the default deal size goes up, not just the ceiling.</li>
+            <li>Expand existing accounts through upsells and cross-sells, since renewal conversations close faster than new logos.</li>
+            <li>Bundle services or multi-year terms into the proposal so the headline contract value reflects the full relationship, not just year one.</li>
+          </ul>
+          <p>Whichever route you take, average deal value should move alongside win rate and cycle length, not instead of them, since chasing bigger logos alone can quietly stretch out the sales cycle.</p>
+
+          <h3>Improve your win rate</h3>
+          <p>Win rate is the multiplier every other lever depends on, since a bigger, faster pipeline full of deals you still lose does not move sales velocity at all. Most win rate problems trace back to poor qualification earlier in the funnel, not to anything that happens in the final stage.</p>
+          <p>Tightening the criteria for what enters the pipeline in the first place raises win rate almost automatically, because fewer poor-fit deals survive to be counted as losses. Sales enablement, better discovery questions and clearer buyer-champion identification close most of the remaining gap.</p>
+          <p>Teams that track win rate by segment, not just as one blended number, usually find the real problem is concentrated in one deal size or vertical rather than spread evenly across the whole pipeline.</p>
+
+          <h3>Shorten the sales cycle</h3>
+          <p>Cycle length is the only input in the denominator, so shrinking it has an outsized effect on sales velocity compared to an equivalent percentage move on any other lever. It is also the lever most within a rep's direct control on a deal-by-deal basis.</p>
+          <p>Most cycle-length problems are gaps in the buying process rather than genuine hesitation from the buyer, which is why the fixes below focus on removing friction instead of adding pressure.</p>
+          <ul>
+            <li>Templatize the mutual action plan so every deal has a shared, dated path to close instead of an open-ended follow-up cadence.</li>
+            <li>Loop in security, legal and procurement early instead of waiting for them to surface late-stage blockers.</li>
+            <li>Set a next step and a date at the end of every call, so momentum does not depend on a follow-up email landing at the right time.</li>
+          </ul>
+
+          <h2>Frequently asked questions</h2>
+          <h3>How do you calculate sales velocity?</h3>
+          <p>Sales velocity = (opportunities x win rate x average deal value) ÷ sales cycle length in days. 40 opportunities at a 25% win rate and an $8,000 average deal value over a 60-day cycle gives (40 x 0.25 x 8,000) / 60 = $1,333 per day.</p>
+          <h3>What is a good sales velocity for B2B SaaS?</h3>
+          <p>There is no universal good number because it scales with deal size and team size. Track your own sales velocity over time and by rep or segment, and treat a sustained drop as a signal that one of the four inputs has moved the wrong way.</p>
+          <h3>How can I increase my sales velocity?</h3>
+          <p>Move all four levers: generate more qualified opportunities, raise average deal value, improve win rate through better qualification, and shorten the sales cycle by removing friction. Shortening cycle length usually produces the fastest gain since it sits in the denominator.</p>
+          <h3>What is the difference between sales velocity and pipeline velocity?</h3>
+          <p>Most teams use the terms interchangeably with the same formula. Where a distinction exists, sales velocity usually refers to closed-deal throughput for a rep or segment, while pipeline velocity covers the full pipeline including in-progress opportunities, often reported per quarter.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var ids = ['opps','winrate','dealvalue','cycle'];
+  if (ids.some(function (i) { return !$(i); })) return;
+  function num(id){ return parseFloat($(id).value) || 0; }
+  function money(n){ var a=Math.abs(n); if(a>=1e6) return '$'+(n/1e6).toFixed(2).replace(/\.?0+$/,'')+'M'; if(a>=1e3){var k=n/1000; return '$'+(Math.abs(k)%1===0?k.toFixed(0):k.toFixed(1))+'K';} return '$'+Math.round(n).toLocaleString(); }
+
+  function recalc(){
+    var opps=Math.max(num('opps'),0), winrate=num('winrate')/100, dealvalue=num('dealvalue'), cycle=Math.max(num('cycle'),1);
+    var velocity = (opps*winrate*dealvalue)/cycle;
+    var monthly = velocity*30;
+    var annual = monthly*12;
+    var perOpp = winrate*dealvalue;
+    $('rVelocity').textContent = money(velocity)+'/day';
+    $('rMonthly').textContent = money(monthly);
+    $('rAnnual').textContent = money(annual);
+    $('rPerOpp').textContent = money(perOpp);
+    $('rec').innerHTML = 'With <strong>'+opps+' opportunities</strong> at a <strong>'+num('winrate')+'% win rate</strong> and an average deal of <strong>'+money(dealvalue)+'</strong> over a <strong>'+cycle+'-day</strong> cycle, your pipeline is generating <strong>'+money(velocity)+' per day</strong>, or roughly <strong>'+money(annual)+' a year</strong> at this pace.';
+  }
+  ids.forEach(function(i){ $(i).addEventListener('input', recalc); });
+  recalc();
+})();
+</script>
+
+{{ $js := resources.Get "js/blog-v2.js" }}
+{{ if $js }}{{ $js = $js | resources.Minify | resources.Fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>{{ end }}
+{{ end }}
