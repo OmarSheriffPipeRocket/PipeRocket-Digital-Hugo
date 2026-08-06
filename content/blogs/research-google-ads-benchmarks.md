@@ -1,11 +1,11 @@
 ---
-title: "B2B SaaS Google Ads Benchmarks (2026): 100+ Stats From 65+ Accounts We Manage"
+title: "100+ B2B SaaS Google Ads Benchmarks (August 2026) From 65+ Accounts We Manage"
 featured: true
-description: "First-party 2026 Google Ads benchmarks — 100+ data points from 65+ B2B SaaS accounts PipeRocket manages: average CPC, CTR, conversion rate, and cost per lead, brand vs non-brand, Search vs Performance Max, plus year-over-year trends."
-metaTitle: "B2B SaaS Google Ads Benchmarks 2026 (100+ Statistics)"
-metaDescription: "Real 2026 Google Ads benchmarks: 100+ data points from 65+ B2B SaaS accounts we manage — CPC, CTR, conversion rate, cost per lead, brand vs non-brand, Search vs PMax, YoY trends."
+description: "100+ data points: first-party August 2026 Google Ads benchmarks from 65+ B2B SaaS accounts PipeRocket manages — average CPC, CTR, conversion rate, and cost per lead, brand vs non-brand, Search vs Performance Max, plus year-over-year trends."
+metaTitle: "100+ B2B SaaS Google Ads Benchmarks (August 2026)"
+metaDescription: "100+ data points: real August 2026 Google Ads benchmarks from 65+ B2B SaaS accounts we manage — CPC, CTR, conversion rate, cost per lead, brand vs non-brand, Search vs PMax, YoY trends."
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-08-06
 slug: "google-ads-benchmarks"
 url: "/research/google-ads-benchmarks/"
 writtenBy: "praveen"
@@ -69,7 +69,7 @@ Before the numbers, the method, because a benchmark you cannot interrogate is ju
 - **Regional cuts:** an account counts toward a region only if at least 5% of its own spend actually ran there, using Google Ads' geographic reporting by physical location.
 - **"Conversion" / "lead":** a tracked [Google Ads](/glossary/what-is-google-ads/) conversion such as a form fill, demo request, trial signup, or call. Exact definitions vary slightly by account, so treat cost per lead as a strong directional benchmark rather than an accounting figure.
 - **Excluded metrics:** [ROAS](/glossary/what-is-roas/) and conversion value, because B2B SaaS accounts optimize to lead conversions rather than tracked revenue, making value-based ratios non-comparable across accounts.
-- **Refresh cadence:** last updated July 2026. We refresh this study as the trailing-12-month window rolls forward.
+- **Refresh cadence:** last updated August 2026. We refresh this study as the trailing-12-month window rolls forward.
 
 ## Overall B2B SaaS Google Ads Benchmarks (2026)
 
