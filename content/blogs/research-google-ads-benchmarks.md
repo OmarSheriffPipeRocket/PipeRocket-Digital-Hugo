@@ -80,9 +80,10 @@ These are the average values across all 65+ accounts for the trailing 12 months,
 | [Click-through rate](/blogs/how-to-improve-organic-ctr/) (CTR) | **3.60%** |
 | Average [cost per click](/tools/cpc-calculator/) (CPC) | **$6.81** |
 | Conversion rate | **2.57%** |
-| Cost per lead (blended) | **$84** |
+| Average cost per lead (blended) | **$84** |
 
-- **The $84 blended cost per lead hides a wide brand vs non-brand spread**, covered next, so treat it as a starting reference point rather than a target.
+- **The $84 average cost per lead hides a wide brand vs non-brand spread**, covered next, so treat it as a starting reference point rather than a target.
+- **At 2.57%, this doubles as the core Google Ads conversion rate benchmark for B2B SaaS accounts in 2026.**
 
 ## Brand vs Non-Brand: The Single Biggest Cost Driver
 
@@ -119,7 +120,7 @@ Campaign type moves the numbers more than almost anything else. Here is the aver
 
 ## Benchmarks by Sub-Vertical (Directional)
 
-We can only report verticals where at least five accounts sit in the bucket, so this is two broad groups, and we treat it as directional rather than definitive.
+Here's cost per lead by industry for the B2B SaaS verticals in our data. We can only report verticals where at least five accounts sit in the bucket, so this is two broad groups, and we treat it as directional rather than definitive.
 
 | Sub-vertical | CTR | Avg CPC | Conversion rate | Cost per lead |
 |---|---|---|---|---|
@@ -170,9 +171,9 @@ The three cuts above are all a snapshot of the last 12 months. This section is d
 - **B2B SaaS non-brand search worsened: non-brand CTR fell 30% and non-brand cost per lead rose 16% year over year.**
 - **B2B SaaS Google Ads got more efficient overall, but the gains came from brand and conversion-rate improvement rather than cheaper non-brand clicks.**
 
-## 2026 Google Ads and B2B Marketing Industry Statistics
+## 2026 B2B PPC Statistics and Google Ads Industry Data
 
-Everything above comes from our own client accounts. The statistics below are published third-party research, cited to their original source, added here for broader industry context rather than presented as our data.
+Everything above comes from our own client accounts. The Google Ads statistics and PPC benchmarks below are published third-party research, cited to their original source, added here for broader industry context rather than presented as our data.
 
 ### Google Ads Performance Trends Across the Broader Market
 
