@@ -129,6 +129,10 @@ LogRocket uses a tiered subscription with annual discounts available. As of June
 
 ---
 
+Weighing the two directly? See our neutral [LogRocket vs FullStory](/compare/logrocket-vs-fullstory/) breakdown.
+
+
+
 ### 2. Microsoft Clarity
 
 Best for: Teams on any budget needing unlimited heatmaps and session recordings with zero cost and native GA4 integration.
@@ -562,6 +566,10 @@ Crazy Egg uses pageview-based tiered pricing with a 30-day free trial on all pai
 | G2 Rating | [4.2/5 (127 reviews)](https://www.g2.com/sellers/crazy-egg) |
 
 ---
+
+For a side-by-side on features and pricing, read our [Crazy Egg vs Hotjar](/compare/crazy-egg-vs-hotjar/) comparison.
+
+
 
 ## Why Look for a Hotjar Alternative?
 

@@ -160,6 +160,7 @@ NEUTRAL_COMPARE_BRIDGES = {
         ("Ahrefs",  "/compare/ahrefs-vs-moz/",  "Ahrefs vs Moz"),
         ("Semrush", "/compare/moz-vs-semrush/", "Moz vs Semrush"),
         ("Serpstat", "/compare/serpstat-vs-moz/", "Serpstat vs Moz"),
+        ("SE Ranking", "/compare/se-ranking-vs-moz/", "SE Ranking vs Moz"),
     ],
     "ubersuggest-alternatives": [
         ("Ahrefs", "/compare/ahrefs-vs-ubersuggest/", "Ahrefs vs Ubersuggest"),
@@ -172,6 +173,8 @@ NEUTRAL_COMPARE_BRIDGES = {
         ("FullStory", "/compare/hotjar-vs-fullstory/", "Hotjar vs FullStory"),
         ("Microsoft Clarity", "/compare/hotjar-vs-microsoft-clarity/", "Hotjar vs Microsoft Clarity"),
         ("Mouseflow", "/compare/hotjar-vs-mouseflow/", "Hotjar vs Mouseflow"),
+        ("LogRocket", "/compare/logrocket-vs-fullstory/", "LogRocket vs FullStory"),
+        ("Crazy Egg", "/compare/crazy-egg-vs-hotjar/", "Crazy Egg vs Hotjar"),
     ],
     "jasper-alternatives": [
         ("Copy.ai", "/compare/jasper-vs-copy-ai/", "Jasper vs Copy.ai"),
@@ -206,6 +209,7 @@ NEUTRAL_COMPARE_BRIDGES = {
         ("Clay", "/compare/clay-vs-apollo/", "Clay vs Apollo"),
         ("Seamless.AI", "/compare/seamless-ai-vs-zoominfo/", "Seamless.AI vs ZoomInfo"),
         ("Clearbit", "/compare/clearbit-vs-lusha/", "Clearbit vs Lusha"),
+        ("RocketReach", "/compare/rocketreach-vs-zoominfo/", "RocketReach vs ZoomInfo"),
     ],
     "dreamdata-alternatives": [
         ("HockeyStack", "/compare/dreamdata-vs-hockeystack/", "Dreamdata vs HockeyStack"),
@@ -220,6 +224,7 @@ NEUTRAL_COMPARE_BRIDGES = {
     "frase-alternatives": [
         ("MarketMuse", "/compare/marketmuse-vs-frase/", "MarketMuse vs Frase"),
         ("Surfer", "/compare/surfer-seo-vs-frase/", "Surfer SEO vs Frase"),
+        ("Search Atlas", "/compare/search-atlas-vs-semrush/", "Search Atlas vs Semrush"),
     ],
     "surfer-seo-alternatives": [
         ("Frase", "/compare/surfer-seo-vs-frase/", "Surfer SEO vs Frase"),
@@ -371,6 +376,33 @@ NEUTRAL_COMPARE_BRIDGES = {
     ],
     "best-ai-content-detector": [
         ("ZeroGPT", "/compare/copyleaks-vs-zerogpt/", "Copyleaks vs ZeroGPT"),
+    ],
+    # --- 2026-08-07 batch: 10 SaaS-tool alternatives + 10 neutral compares
+    # (HubSpot/Similarweb/Clay/AgencyAnalytics/Webflow/SpyFu/ClickFunnels/
+    # RocketReach/Clearbit/PostHog cluster). Bridges sourced wherever the
+    # paired tool is already a numbered card in an existing alternatives
+    # page — several reach back into pre-2026-08 pages (moz, zoominfo,
+    # hotjar, frase, leadpages) rather than only this batch's own 10.
+    "webflow-alternatives": [
+        ("WordPress", "/compare/webflow-vs-wordpress/", "Webflow vs WordPress"),
+    ],
+    "clay-alternatives": [
+        ("ZoomInfo", "/compare/clay-vs-zoominfo/", "Clay vs ZoomInfo"),
+    ],
+    "clickfunnels-alternatives": [
+        ("Leadpages", "/compare/clickfunnels-vs-leadpages/", "ClickFunnels vs Leadpages"),
+    ],
+    "leadpages-alternatives": [
+        ("ClickFunnels", "/compare/clickfunnels-vs-leadpages/", "ClickFunnels vs Leadpages"),
+    ],
+    "rocketreach-alternatives": [
+        ("ZoomInfo", "/compare/rocketreach-vs-zoominfo/", "RocketReach vs ZoomInfo"),
+    ],
+    "hubspot-alternatives": [
+        ("ActiveCampaign", "/compare/hubspot-vs-activecampaign/", "HubSpot vs ActiveCampaign"),
+    ],
+    "similarweb-alternatives": [
+        ("Sistrix", "/compare/sistrix-vs-semrush/", "SISTRIX vs Semrush"),
     ],
     # --- blog sources (limited blog→compare flow, cap 1/blog, past word floor) ---
     "saas-seo": [

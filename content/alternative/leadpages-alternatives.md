@@ -502,6 +502,10 @@ ClickFunnels uses tiered subscription pricing with a 14-day free trial and 30-da
 
 ---
 
+Weighing the two directly? See our neutral [ClickFunnels vs Leadpages](/compare/clickfunnels-vs-leadpages/) breakdown.
+
+
+
 ### 8. Duda
 
 Best for: Agencies and SaaS teams managing large numbers of client or product landing pages that need white-label and multi-site tools.

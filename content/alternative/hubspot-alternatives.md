@@ -120,6 +120,10 @@ ActiveCampaign uses tiered subscription pricing with dynamic, contact-count-base
 
 ---
 
+Weighing the two directly? See our neutral [HubSpot vs ActiveCampaign](/compare/hubspot-vs-activecampaign/) breakdown.
+
+
+
 ### 2. Zoho CRM
 
 Best for: Budget-conscious teams that want an affordable CRM tied into a much wider app suite.

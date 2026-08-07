@@ -369,6 +369,10 @@ Leadpages sells two product lines. As of August 2026, leadpages.com/pricing list
 
 Weighing Leadpages on its own terms? See our [Leadpages alternatives](/alternative/leadpages-alternatives/) roundup, or compare it directly in our neutral [Leadpages vs Unbounce](/compare/leadpages-vs-unbounce/) breakdown.
 
+Weighing the two directly? See our neutral [ClickFunnels vs Leadpages](/compare/clickfunnels-vs-leadpages/) breakdown.
+
+
+
 ### 6. Unbounce
 
 Best for: Marketing teams that treat conversion-rate optimization as a dedicated discipline, not just a page builder.
