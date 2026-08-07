@@ -117,7 +117,7 @@ The fourth mistake is treating every affected page as worth saving. Some pages d
 
 ## Why PipeRocket Digital Fixes Core-Update Drops This Way
 
-We start by diagnosing what actually happened instead of assuming it's a core update, because half the "core update" drops we see turn out to be technical or a query that stopped mattering. When it is a core update, we rebuild the pages worth saving around a real point of view and live-SERP intent, clear the technical floor, then measure recovery honestly against Google's own timeline. If you want a [SaaS SEO partner](https://piperocket.digital/saas-seo-agency/) to run this properly, or you're weighing the [best SaaS SEO agencies](https://piperocket.digital/list/best-saas-seo-agencies/), we're [open for a call](https://piperocket.digital/contact-us/).
+We start by diagnosing what actually happened instead of assuming it's a core update, because half the "core update" drops we see turn out to be technical or a query that stopped mattering. When it is a core update, we rebuild the pages worth saving around a real point of view and live-SERP intent, clear the technical floor, then measure recovery honestly against Google's own timeline. If you want a [SaaS SEO partner](https://piperocket.digital/saas-seo-agency/) to run this properly, or you're weighing the [best SaaS SEO agencies](https://piperocket.digital/list/top-saas-seo-agencies/), we're [open for a call](https://piperocket.digital/contact-us/).
 
 ## Frequently Asked Questions
 

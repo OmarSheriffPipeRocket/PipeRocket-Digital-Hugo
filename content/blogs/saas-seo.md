@@ -212,7 +212,7 @@ If the board is asking what organic search contributed to pipeline last quarter,
 - Identify the buying triggers that move a prospect to sales
 - Measure every page against SQLs, PQLs, and pipeline contribution
 
-If you'd rather evaluate options first, compare the [best SaaS SEO agencies](/list/best-saas-seo-agencies/), then [talk to us](/contact-us/) when you want pipeline on the agenda.
+If you'd rather evaluate options first, compare the [best SaaS SEO agencies](/list/top-saas-seo-agencies/), then [talk to us](/contact-us/) when you want pipeline on the agenda.
 
 ## Frequently Asked Questions
 

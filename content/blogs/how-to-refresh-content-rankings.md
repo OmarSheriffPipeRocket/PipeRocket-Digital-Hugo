@@ -133,7 +133,7 @@ The third is treating the refresh as a one-time event. Content decays continuous
 
 We don't refresh by changing dates and hoping. We diagnose each decayed page against the live SERP, realign intent and format, close the real depth gaps, and rebuild the cluster support around it so the recovery holds. Most of all, we triage, since not every flagged page is worth saving.
 
-If you want a [SaaS SEO partner](https://piperocket.digital/saas-seo-agency/) to run this properly, or you're comparing options among the [best SaaS SEO agencies](https://piperocket.digital/list/best-saas-seo-agencies/), we're [open for a call](https://piperocket.digital/contact-us/).
+If you want a [SaaS SEO partner](https://piperocket.digital/saas-seo-agency/) to run this properly, or you're comparing options among the [best SaaS SEO agencies](https://piperocket.digital/list/top-saas-seo-agencies/), we're [open for a call](https://piperocket.digital/contact-us/).
 
 ## Frequently Asked Questions
 

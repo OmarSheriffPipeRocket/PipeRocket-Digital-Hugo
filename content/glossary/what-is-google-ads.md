@@ -124,7 +124,7 @@ Here’s what I see most teams do: They celebrate low cost-per-click and high si
 
 > **Fast Fact:** Most SaaS teams don’t track post-signup retention by channel and miss when paid search brings in lower-value or higher-churn users.
 
-**Also read:** [SaaS SEO agency list for aligning paid and organic growth](/list/best-saas-seo-agencies/)
+**Also read:** [SaaS SEO agency list for aligning paid and organic growth](/list/top-saas-seo-agencies/)
 
 ## Frequently Asked Questions
 

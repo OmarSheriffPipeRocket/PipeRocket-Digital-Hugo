@@ -147,7 +147,7 @@ That last one matters most in 2026. A clean answer block gets you eligible. Whet
 
 We build question-keyword pages to win the answer slot, not just the snippet. That means sourcing the real questions your buyers ask, structuring extractable lead answers in the format each question demands, and tying the winning pages to buying decisions instead of vanity traffic.
 
-If you want this built as part of a [SaaS SEO engagement](/saas-seo-agency/), [reach out and we'll walk through your question clusters together](/contact-us/). Or want to see how we compare to other [SaaS SEO agencies](/list/best-saas-seo-agencies/)? Start there.
+If you want this built as part of a [SaaS SEO engagement](/saas-seo-agency/), [reach out and we'll walk through your question clusters together](/contact-us/). Or want to see how we compare to other [SaaS SEO agencies](/list/top-saas-seo-agencies/)? Start there.
 
 ## Frequently Asked Questions
 

@@ -117,4 +117,4 @@ It can build it faster on a narrow subject than on a broad one. A new site won't
 
 ## The Bottom Line
 
-Topical authority is earned by owning a subject completely, not by writing one great page and hoping. Map the full topic, build the cluster, and the rankings compound. Want to own your category in search? [Get in touch](https://piperocket.digital/contact-us/) or see how the [best SaaS SEO agencies](/list/best-saas-seo-agencies/) approach it.
+Topical authority is earned by owning a subject completely, not by writing one great page and hoping. Map the full topic, build the cluster, and the rankings compound. Want to own your category in search? [Get in touch](https://piperocket.digital/contact-us/) or see how the [best SaaS SEO agencies](/list/top-saas-seo-agencies/) approach it.

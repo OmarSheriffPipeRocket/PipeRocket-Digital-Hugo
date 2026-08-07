@@ -102,7 +102,7 @@ This is not just a formatting choice. When an AI engine is deciding which senten
 AI models trust Reddit threads, G2 reviews, Clutch profiles, Quora answers, and comparison articles on independent sites more than vendor marketing pages. That is not intuitive, but the citation mechanism makes it clear.
 
 {{< experience author="kim" title="How We Appeared in Google's AI Overview" >}}
-Our agency appeared in Google's [AI Overview](/glossary/what-is-an-ai-overview/) without being cited from our website at all. The citation was pulled from a Reddit thread where a founder asked about [SaaS SEO agencies](/list/best-saas-seo-agencies/) in the US and our name came up in the context of helping B2B companies with organic growth. The AI used that third-party conversation as its source, not our homepage.
+Our agency appeared in Google's [AI Overview](/glossary/what-is-an-ai-overview/) without being cited from our website at all. The citation was pulled from a Reddit thread where a founder asked about [SaaS SEO agencies](/list/top-saas-seo-agencies/) in the US and our name came up in the context of helping B2B companies with organic growth. The AI used that third-party conversation as its source, not our homepage.
 {{< /experience >}}
 
 For SaaS companies, this means building genuine review profiles and participating in the conversations where your product gets mentioned in context. Aim for real user testimonials that describe specific problems your product solved, in the language of the problem, rather than manufactured reviews.

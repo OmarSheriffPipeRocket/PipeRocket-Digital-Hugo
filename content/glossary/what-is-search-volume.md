@@ -121,4 +121,4 @@ It depends on your market, but in niche B2B SaaS, keywords with a few hundred mo
 
 ## The Bottom Line
 
-Search volume tells you the size of an opportunity, not its quality. Weigh it against intent and difficulty, and stop treating big numbers as the goal. Want a keyword strategy built on qualified traffic, not vanity volume? [Get in touch](https://piperocket.digital/contact-us/) or see how the [best SaaS SEO agencies](/list/best-saas-seo-agencies/) approach it.
+Search volume tells you the size of an opportunity, not its quality. Weigh it against intent and difficulty, and stop treating big numbers as the goal. Want a keyword strategy built on qualified traffic, not vanity volume? [Get in touch](https://piperocket.digital/contact-us/) or see how the [best SaaS SEO agencies](/list/top-saas-seo-agencies/) approach it.

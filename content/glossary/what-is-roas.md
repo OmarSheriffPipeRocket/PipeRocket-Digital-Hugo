@@ -123,7 +123,7 @@ Here’s the thing: ROAS is a lagging indicator for SaaS. By the time you see a 
 
 Real warning: ROAS works well for products with clear, short sales cycles and stable retention. For SaaS in early product-market fit or with variable churn, it backfires you’ll either pause ads too early or over-invest in channels that aren’t sustainable.
 
-**Also read:** [SaaS SEO agency list for content-led SaaS brands](/list/best-saas-seo-agencies/)
+**Also read:** [SaaS SEO agency list for content-led SaaS brands](/list/top-saas-seo-agencies/)
 
 ## Frequently Asked Questions
 

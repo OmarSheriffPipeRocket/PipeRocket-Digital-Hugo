@@ -55,7 +55,7 @@ Here’s where most teams get this wrong: they focus all their content energy on
 
 A good example: “Support Loop,” a helpdesk SaaS, saw that user-recorded “how I solved X with Support Loop” videos on Linked In outperformed their own webinars for generating trial requests. The lesson? Giving users a platform and a nudge to share their journey drives demand that polished campaigns can’t fake.
 
-**Also read:** [top SaaS SEO agencies with experience in content-led growth](/list/best-saas-seo-agencies/)
+**Also read:** [top SaaS SEO agencies with experience in content-led growth](/list/top-saas-seo-agencies/)
 
 ## What Types of User Generated Content Matter Most in SaaS?
 

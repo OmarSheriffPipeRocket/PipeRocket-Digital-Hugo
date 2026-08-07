@@ -113,7 +113,7 @@ If you hold a BOFU page to the wrong benchmark, you'll make a bad cut-or-scale c
 
 We don't publish decision-stage pages and hope. We pick one category to dominate, validate every keyword against the live SERP before writing, build the supporting cluster that earns the authority, then point it all at lean comparison, alternative, and pricing pages.
 
-Most agencies execute tasks. We own the outcome: ranked pages that move pipeline, not traffic that sits in a dashboard. If you want this built properly, [reach out to our team](https://piperocket.digital/contact-us/) or see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) approaches the [best SaaS SEO agencies](https://piperocket.digital/list/best-saas-seo-agencies/) conversation differently.
+Most agencies execute tasks. We own the outcome: ranked pages that move pipeline, not traffic that sits in a dashboard. If you want this built properly, [reach out to our team](https://piperocket.digital/contact-us/) or see how our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) approaches the [best SaaS SEO agencies](https://piperocket.digital/list/top-saas-seo-agencies/) conversation differently.
 
 ## Frequently Asked Questions
 

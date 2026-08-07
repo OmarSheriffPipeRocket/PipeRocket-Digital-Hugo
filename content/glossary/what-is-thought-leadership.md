@@ -57,7 +57,7 @@ Here’s what most SaaS teams miss: You can run a content marketing engine for y
 
 A common trap: Many teams think “thought leadership” means launching a podcast or hosting webinars. Those are just channels. If everything you say could have come from your competitor, you’re not leading you’re blending in.
 
-**Also read:** [top SaaS SEO agencies that help brands build authority](/list/best-saas-seo-agencies/)
+**Also read:** [top SaaS SEO agencies that help brands build authority](/list/top-saas-seo-agencies/)
 
 ## What Makes Thought Leadership Actually Work in SaaS?
 

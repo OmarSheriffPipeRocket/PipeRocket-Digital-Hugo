@@ -48,7 +48,7 @@ What this means in practice: Robots.txt isn’t just a “set and forget” file
 - Prioritize critical SEO pages: List the core [landing pages](/glossary/what-is-a-landing-page/), blog posts, and product areas that must be crawlable for ranking.
 - Write clear rules for user agents: Use “User-agent: \*” for all bots or specify names (like “User-agent: Googlebot”) for tailored access.
 - Block sensitive or duplicate paths: Add “Disallow:” lines for admin, login, checkout, test, and any duplicate or thin-content sections.
-- Test with robots.txt tools: Use Google Search Console’s robots.txt tester or tools from [top SaaS SEO agencies](/list/best-saas-seo-agencies/) to check for syntax errors and unintended blocks.
+- Test with robots.txt tools: Use Google Search Console’s robots.txt tester or tools from [top SaaS SEO agencies](/list/top-saas-seo-agencies/) to check for syntax errors and unintended blocks.
 - Monitor and update regularly: Review robots.txt after major site updates, migrations, or launches to avoid accidental SEO issues.
 - Remove “Disallow: /” unless you mean it: This single rule blocks your entire site from being crawled only use it for staging or on-purpose deindexing.
 

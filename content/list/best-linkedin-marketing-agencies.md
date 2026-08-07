@@ -14,7 +14,7 @@ featuredImage: "/images/listicle-covers/best-linkedin-marketing-agencies.webp"
 toc: true
 relatedLinks:
   - title: "Best SaaS SEO agencies"
-    url: "/list/best-saas-seo-agencies/"
+    url: "/list/top-saas-seo-agencies/"
     description: "5 agencies ranked on pipeline outcomes."
   - title: "Best SaaS PPC agencies"
     url: "/list/best-saas-ppc-agencies/"

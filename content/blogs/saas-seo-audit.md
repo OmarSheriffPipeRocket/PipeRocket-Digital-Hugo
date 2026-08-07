@@ -137,7 +137,7 @@ An audit done once a year misses the slow drift that happens in between, like a 
 
 ## How PipeRocket Helps SaaS Teams Run This Audit
 
-We run full SaaS [SEO](/glossary/what-is-seo/) audits as part of our engagements, covering crawlability, indexation, on-page structure, content gaps, and backlink health in the order that actually surfaces what's costing you rankings. If you'd rather have us run it than do it yourself, [get in touch](https://piperocket.digital/contact-us/) and we'll walk you through what we find. It's the same process our [SaaS SEO agency](https://piperocket.digital/saas-seo-agency/) work is built on, and you can see how we compare against other options on our [list of the best SaaS SEO agencies](https://piperocket.digital/list/best-saas-seo-agencies/).
+We run full SaaS [SEO](/glossary/what-is-seo/) audits as part of our engagements, covering crawlability, indexation, on-page structure, content gaps, and backlink health in the order that actually surfaces what's costing you rankings. If you'd rather have us run it than do it yourself, [get in touch](https://piperocket.digital/contact-us/) and we'll walk you through what we find. It's the same process our [SaaS SEO agency](https://piperocket.digital/saas-seo-agency/) work is built on, and you can see how we compare against other options on our [list of the best SaaS SEO agencies](https://piperocket.digital/list/top-saas-seo-agencies/).
 
 ## Frequently Asked Questions
 

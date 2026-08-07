@@ -144,7 +144,7 @@ This works the other way too: a thin blog post for a transactional query wastes 
 
 We don't classify keywords to fill a spreadsheet. We classify them to tie every page to the actual sales pipeline. That means scoring keywords by intent and [ICP](/glossary/what-is-icp/) fit, not volume, and building BoFu and MoFu pages first so the program returns pipeline early instead of just traffic.
 
-If your keyword list is long but your demos are flat, that's usually a classification problem we can fix. You can see how we approach it on our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) page, compare options among the [best SaaS SEO agencies](https://piperocket.digital/list/best-saas-seo-agencies/), or just [talk to our team](https://piperocket.digital/contact-us/).
+If your keyword list is long but your demos are flat, that's usually a classification problem we can fix. You can see how we approach it on our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/) page, compare options among the [best SaaS SEO agencies](https://piperocket.digital/list/top-saas-seo-agencies/), or just [talk to our team](https://piperocket.digital/contact-us/).
 
 ## Frequently Asked Questions
 

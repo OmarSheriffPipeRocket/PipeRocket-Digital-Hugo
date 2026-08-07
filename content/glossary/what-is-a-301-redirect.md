@@ -52,7 +52,7 @@ What this means in practice is simple: use 301s with intent. Every redirect shou
 - Update [internal links](/blogs/how-to-use-internal-linking/): Change links in navigation, blogs, emails, and ads to point directly at the new URLs; this prevents users from bouncing through unnecessary redirects.
 - Audit periodically: Recheck your redirect map after launch URLs change, and missed or outdated redirects can cause silent leaks in authority and traffic.
 
-**Also read:** [how top SaaS SEO agencies handle site migrations](/list/best-saas-seo-agencies/)
+**Also read:** [how top SaaS SEO agencies handle site migrations](/list/top-saas-seo-agencies/)
 
 ## How Does a 301 Redirect Affect SEO and Rankings?
 

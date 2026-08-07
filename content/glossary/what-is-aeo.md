@@ -116,7 +116,7 @@ Traffic alone will mislead you here. A page can win a snippet and lose clicks, b
 
 We track this for our own glossary, and the pattern is consistent. Placement wins show up two to three weeks before any traffic movement, and some of the best placements never move traffic at all. They move brand recall, which you only see in branded search trends.
 
-So, set expectations with whoever reads your reports. AEO success looks like visibility share going up. If leadership only accepts session growth, the program gets cut right when it's working. The [best SaaS SEO agencies](/list/best-saas-seo-agencies/) now report answer placements as a standard metric for this exact reason.
+So, set expectations with whoever reads your reports. AEO success looks like visibility share going up. If leadership only accepts session growth, the program gets cut right when it's working. The [best SaaS SEO agencies](/list/top-saas-seo-agencies/) now report answer placements as a standard metric for this exact reason.
 
 ## Frequently Asked Questions
 

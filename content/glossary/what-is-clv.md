@@ -95,7 +95,7 @@ Here’s the catch: Most SaaS founders present LTV as a headline number to wow i
 
 The smart move is to treat CLV as your “real” number for operational decisions, and only use LTV as a directional signal for scenario planning. Don’t let optimism about “lifetime” value blind you to the hard reality of your current customer base.
 
-**Also read:** [SaaS SEO agency list with proven CLV impact](/list/best-saas-seo-agencies/)
+**Also read:** [SaaS SEO agency list with proven CLV impact](/list/top-saas-seo-agencies/)
 
 ## How Can You Increase CLV in a SaaS Business?
 

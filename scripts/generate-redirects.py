@@ -58,7 +58,8 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/glossary/keyword-clusters/",                     "/glossary/what-are-keyword-clusters/"),
     # /blogs/best-*-agencies/ → /list/*
     ("/blogs/best-saas-marketing-agencies/",            "/list/best-saas-marketing-agencies-2026/"),
-    ("/blogs/best-saas-seo-agencies/",                  "/list/best-saas-seo-agencies/"),
+    ("/blogs/best-saas-seo-agencies/",                  "/list/top-saas-seo-agencies/"),
+    ("/list/best-saas-seo-agencies/",                   "/list/top-saas-seo-agencies/"),
     ("/blogs/best-b2b-seo-agencies/",                   "/list/best-b2b-seo-agencies/"),
     ("/blogs/best-saas-ppc-agencies/",                  "/list/best-saas-ppc-agencies/"),
     ("/blogs/best-b2b-marketing-agencies/",             "/list/best-b2b-marketing-agencies/"),
@@ -102,7 +103,7 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/blog/best-b2b-linkedin-ads-agencies/",           "/list/best-linkedin-marketing-agencies/"),
     ("/blog/best-b2b-marketing-agencies/",              "/list/best-b2b-marketing-agencies/"),
     ("/blog/best-b2b-ppc-agencies/",                    "/list/best-affordable-b2b-ppc-agencies/"),
-    ("/blog/best-b2b-saas-seo-agencies/",               "/list/best-saas-seo-agencies/"),
+    ("/blog/best-b2b-saas-seo-agencies/",               "/list/top-saas-seo-agencies/"),
     ("/blog/best-b2b-seo-agencies/",                    "/list/best-b2b-seo-agencies/"),
     ("/blog/best-b2b-social-media-marketing-agencies/", "/list/"),
     ("/blog/best-enterprise-seo-agencies/",             "/list/best-enterprise-seo-agencies/"),
@@ -142,7 +143,7 @@ MANUAL_SLUG_REDIRECTS = OrderedDict([
     ("/programmetic-seo/",                              "/"),
     # Duplicate cornerstone consolidated into canonical /list/best-saas-seo-agencies/
     # (Red Flags + lastmod refresh merged 2026-05-26)
-    ("/list/best-saas-seo-agencies-2/",                 "/list/best-saas-seo-agencies/"),
+    ("/list/best-saas-seo-agencies-2/",                 "/list/top-saas-seo-agencies/"),
     # Author slug mismatches — data-file key differs from canonical URL slug
     # (templates fall back to /author/<key>/ when GetPage fails; redirect to the
     # real URL so the click works instead of 404'ing)
@@ -203,11 +204,11 @@ DECOMMISSIONED_PATHS = [
     # page. Each stage was folded into an H2 section on the main listicle and the
     # 5 stage page files deleted; 301 each to the matching anchor. (4-day watch —
     # revert if head-term position/clicks regress.)
-    ("/list/best-saas-seo-agencies-for-startups/",           "/list/best-saas-seo-agencies/", 301),
-    ("/list/best-saas-seo-agencies-for-product-led-growth/", "/list/best-saas-seo-agencies/", 301),
-    ("/list/best-saas-seo-agencies-for-sales-led-growth/",   "/list/best-saas-seo-agencies/", 301),
-    ("/list/best-saas-seo-agencies-for-series-a/",           "/list/best-saas-seo-agencies/", 301),
-    ("/list/best-saas-seo-agencies-for-series-b/",           "/list/best-saas-seo-agencies/", 301),
+    ("/list/best-saas-seo-agencies-for-startups/",           "/list/top-saas-seo-agencies/", 301),
+    ("/list/best-saas-seo-agencies-for-product-led-growth/", "/list/top-saas-seo-agencies/", 301),
+    ("/list/best-saas-seo-agencies-for-sales-led-growth/",   "/list/top-saas-seo-agencies/", 301),
+    ("/list/best-saas-seo-agencies-for-series-a/",           "/list/top-saas-seo-agencies/", 301),
+    ("/list/best-saas-seo-agencies-for-series-b/",           "/list/top-saas-seo-agencies/", 301),
     # Re-slugged listicles — original published slugs still live in Google's index
     # and external backlinks (server logs show direct hits still 404'ing). 301 the
     # old slug straight to the current canonical URL to recover the link equity.

@@ -79,7 +79,7 @@ Fast Fact: Investors care about NRR more than GRR because it predicts future gro
 
 Here’s the trade-off: Optimising for GRR alone helps with stability, but if you never crack expansion, you’re stuck replacing lost revenue instead of compounding it. It’s worth pushing for NRR growth if your product has a natural upsell path, but for point-solution SaaS with no expansion levers, GRR is your reality check.
 
-Also read: [the SaaS SEO agency list for teams prioritising expansion metrics](/list/best-saas-seo-agencies/)
+Also read: [the SaaS SEO agency list for teams prioritising expansion metrics](/list/top-saas-seo-agencies/)
 
 ## Why Does NRR Matter More Than Churn or New Logo Growth?
 
@@ -117,7 +117,7 @@ Take Secure Desk, a SaaS for compliance teams. Instead of offering a sprawling f
 
 The trade-off: Aggressive upsell motions can annoy or overwhelm customers if timed wrong. It’s worth pushing expansion if your customer is seeing clear value, but for products with long learning curves, forcing the issue can backfire and actually drive contraction.
 
-Also read: [the best SaaS SEO agencies for retention-first growth](/list/best-saas-seo-agencies/)
+Also read: [the best SaaS SEO agencies for retention-first growth](/list/top-saas-seo-agencies/)
 
 ## Frequently Asked Questions
 
@@ -137,4 +137,4 @@ Logo retention measures the percentage of customers who stay, regardless of how 
 
 Net Revenue Retention tells you if your SaaS business is actually compounding revenue or just treading water. It’s the metric that spots churn and contraction before they explode, and rewards teams who build real expansion into their product and pricing. If you want to benchmark your NRR or fix a leaky revenue bucket, get in touch or see how we approach SaaS [SEO](/glossary/what-is-seo/) for expansion and retention.
 
-Also read: [top SaaS SEO agencies](/list/best-saas-seo-agencies/) for SaaS teams focused on growth
+Also read: [top SaaS SEO agencies](/list/top-saas-seo-agencies/) for SaaS teams focused on growth

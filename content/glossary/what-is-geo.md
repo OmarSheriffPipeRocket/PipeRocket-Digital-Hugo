@@ -128,4 +128,4 @@ For most [SaaS marketing](/blogs/saas-marketing/) sites, blocking hurts more tha
 
 ## The Bottom Line
 
-GEO rewards the brands the web already talks about, so start with the off-site work. Pick your top 20 buying questions, check who the engines name today, and close the gap. Want it built for you? [Get in touch](/contact-us/), work with a [GEO agency for SaaS](/saas-seo-agency/ai-seo-services/), or see how the [best SaaS SEO agencies](/list/best-saas-seo-agencies/) do it.
+GEO rewards the brands the web already talks about, so start with the off-site work. Pick your top 20 buying questions, check who the engines name today, and close the gap. Want it built for you? [Get in touch](/contact-us/), work with a [GEO agency for SaaS](/saas-seo-agency/ai-seo-services/), or see how the [best SaaS SEO agencies](/list/top-saas-seo-agencies/) do it.

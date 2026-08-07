@@ -71,7 +71,7 @@ service_pages:
 
 core_listicles:
   - keyword: "saas seo agencies"
-    url: "/list/best-saas-seo-agencies/"
+    url: "/list/top-saas-seo-agencies/"
   - keyword: "saas ppc agencies"
     url: "/list/best-saas-ppc-agencies/"
   - keyword: "enterprise seo agencies"

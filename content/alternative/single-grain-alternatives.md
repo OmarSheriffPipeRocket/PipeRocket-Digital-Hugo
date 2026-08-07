@@ -745,7 +745,7 @@ The 12-review Clutch trail is the most-cited procurement friction. At a $10K-plu
 
 ### What is the best Single Grain alternative for B2B SaaS pipeline reporting?
 
-PipeRocket Digital for MQL, CAC, and pipeline reporting in a unified SEO-and-paid retainer. Directive Consulting for cost-per-customer methodology tied to cost-per-customer closed. Both are SaaS specialists with a reporting model that reaches the revenue conversation, unlike generalist agencies. See our [B2B SaaS SEO agency comparison](/list/best-saas-seo-agencies/) for a broader field.
+PipeRocket Digital for MQL, CAC, and pipeline reporting in a unified SEO-and-paid retainer. Directive Consulting for cost-per-customer methodology tied to cost-per-customer closed. Both are SaaS specialists with a reporting model that reaches the revenue conversation, unlike generalist agencies. See our [B2B SaaS SEO agency comparison](/list/top-saas-seo-agencies/) for a broader field.
 
 ### What is the best Single Grain alternative for SEO-only?
 

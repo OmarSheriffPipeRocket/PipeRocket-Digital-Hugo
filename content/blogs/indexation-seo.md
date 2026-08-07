@@ -168,7 +168,7 @@ Sitemaps accumulate old campaign pages, deprecated feature URLs, and redirected 
 
 ## Why/How PipeRocket Digital Fixes Indexation Issues
 
-We run indexation audits as part of every [SaaS SEO agency](/saas-seo-agency/) engagement, checking robots.txt, meta robots, and canonical signals against each other instead of one at a time, since that's where most of these bugs actually hide. If your Pages report shows a growing "Discovered but not indexed" bucket and nobody's touched the sitemap in over a year, [get in touch](/contact-us/) and we'll walk through what's blocking it. You can see how we compare against other options on our [list of the best SaaS SEO agencies](/list/best-saas-seo-agencies/).
+We run indexation audits as part of every [SaaS SEO agency](/saas-seo-agency/) engagement, checking robots.txt, meta robots, and canonical signals against each other instead of one at a time, since that's where most of these bugs actually hide. If your Pages report shows a growing "Discovered but not indexed" bucket and nobody's touched the sitemap in over a year, [get in touch](/contact-us/) and we'll walk through what's blocking it. You can see how we compare against other options on our [list of the best SaaS SEO agencies](/list/top-saas-seo-agencies/).
 
 ## Frequently Asked Questions
 

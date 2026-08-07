@@ -44,7 +44,7 @@ Let’s say there’s a SaaS called Help Scoutly, which sells help desk software
 
 > **Fast Fact:** Organic search drives 91.3% of SaaS traffic AI-referred visits account for less than 9%.
 
-**Also read:** [how the best SaaS SEO agencies structure campaigns for long-term growth](/list/best-saas-seo-agencies/)
+**Also read:** [how the best SaaS SEO agencies structure campaigns for long-term growth](/list/top-saas-seo-agencies/)
 
 ## Why Does SEO Matter for SaaS and B2B?
 
@@ -108,7 +108,7 @@ The most common SEO mistakes for SaaS and B2B teams come from treating SEO as a 
 
 **Here’s a real trade-off:** programmatic SEO (auto-generating hundreds of [landing pages](/glossary/what-is-a-landing-page/)) can drive fast traffic, but thin, repetitive pages get penalized or deindexed. It’s worth it if you have real, data-rich variations (like geography or integrations), but a disaster for thin, generic use cases.
 
-If you’re unsure whether your current agency is doing more harm than good, compare your strategy with the [top SaaS SEO agencies](/list/best-saas-seo-agencies/). They’ll show you what a full-stack, intent-driven approach actually looks like.
+If you’re unsure whether your current agency is doing more harm than good, compare your strategy with the [top SaaS SEO agencies](/list/top-saas-seo-agencies/). They’ll show you what a full-stack, intent-driven approach actually looks like.
 
 **Also read:** [B2B SEO agency guide for complex buying journeys](/list/best-b2b-seo-agencies/)
 

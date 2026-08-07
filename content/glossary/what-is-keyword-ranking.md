@@ -41,7 +41,7 @@ That second ranking often drives better outcomes even though the position is low
 
 > **Fast Fact:** Organic search drives 91.3% of SaaS traffic — AI-referred visits account for less than 9%.
 
-**Also read:** [how the best SaaS SEO agencies prioritise keyword targets for pipeline impact](/list/best-saas-seo-agencies/)
+**Also read:** [how the best SaaS SEO agencies prioritise keyword targets for pipeline impact](/list/top-saas-seo-agencies/)
 
 ![The three signal clusters that determine keyword ranking position: relevance, authority, and experience](/images/glossary-infographics/what-is-keyword-ranking-infographic-1.webp)
 

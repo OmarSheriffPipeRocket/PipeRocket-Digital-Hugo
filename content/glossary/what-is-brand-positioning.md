@@ -59,7 +59,7 @@ Here’s a real trade-off: Narrow positioning wins loyalty from a tight [ICP](/g
 
 The trap? Many SaaS teams assume their positioning is “clear enough” because everyone internally knows what they’re building. But if your website, your SDRs, and your paid ads all describe you differently, your positioning is already broken you just haven’t felt the pain yet.
 
-**Also read:** [best SaaS SEO agencies for sharper market fit](/list/best-saas-seo-agencies/)
+**Also read:** [best SaaS SEO agencies for sharper market fit](/list/top-saas-seo-agencies/)
 
 ## How Do You Create Effective Brand Positioning?
 
@@ -93,7 +93,7 @@ Here’s a micro-example: Signal Stack, a SaaS for marketing agencies, keeps get
 
 The bottom line: If your positioning isn’t working, you’ll feel it everywhere in marketing ROI, sales scripts, and support tickets. Don’t wait for a “big rebrand” to fix it; test sharper messaging in a single channel and watch how prospects respond.
 
-**Also read:** [top SaaS SEO agencies for messaging and positioning](/list/best-saas-seo-agencies/)
+**Also read:** [top SaaS SEO agencies for messaging and positioning](/list/top-saas-seo-agencies/)
 
 ## How Should Brand Positioning Shape SaaS Marketing and Sales?
 

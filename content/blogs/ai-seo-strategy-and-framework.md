@@ -229,7 +229,7 @@ The clearest tell is pipeline quality. When inbound arrives already knowing your
 
 ## How PipeRocket Builds AI SEO Programs for SaaS Teams
 
-We build AI SEO as one program with organic search, not a bolt-on beside it. We set the objective in pipeline terms, sequence the foundation first, prioritize the plays closest to a buying decision, and measure prompt presence and branded lift over a vanity score. Because most of the work is a reweighting of a strong SEO program, we run it inside our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/). To see where your brand stands across AI engines and what would move pipeline, [reach out to us here](https://piperocket.digital/contact-us/), or compare the [best SaaS SEO agencies](https://piperocket.digital/list/best-saas-seo-agencies/) first.
+We build AI SEO as one program with organic search, not a bolt-on beside it. We set the objective in pipeline terms, sequence the foundation first, prioritize the plays closest to a buying decision, and measure prompt presence and branded lift over a vanity score. Because most of the work is a reweighting of a strong SEO program, we run it inside our [SaaS SEO service](https://piperocket.digital/saas-seo-agency/). To see where your brand stands across AI engines and what would move pipeline, [reach out to us here](https://piperocket.digital/contact-us/), or compare the [best SaaS SEO agencies](https://piperocket.digital/list/top-saas-seo-agencies/) first.
 
 ## Frequently Asked Questions
 
