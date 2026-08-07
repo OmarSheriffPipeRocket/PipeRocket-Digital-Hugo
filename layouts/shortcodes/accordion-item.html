@@ -1,0 +1,9 @@
+<details class="pr-accordion__item"{{ if eq (.Get "open") "true" }} open{{ end }}>
+  <summary class="pr-accordion__header">
+    <span class="pr-accordion__header-left">{{ .Get "title" }}</span>
+    <span class="pr-accordion__toggle">+</span>
+  </summary>
+  <div class="pr-accordion__body">
+{{ .Inner | markdownify }}
+  </div>
+</details>
