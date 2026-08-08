@@ -25,7 +25,7 @@ role = "SEO Specialist, PipeRocket Digital"
 photo = "/images/authors/omar.webp"
 linkedin = "https://www.linkedin.com/in/omarsheriff04/"
 bio = "Omar is an SEO specialist with experience driving organic growth for B2B SaaS companies. As SEO Specialist at PipeRocket Digital, he focuses on on-page optimisation, content strategy, and BOFU intent — building programmes that turn search visibility into qualified pipeline."
-expertise = ["B2B SaaS SEO", "On-page optimisation", "Content strategy"]
+expertise = ["B2B SaaS SEO", "On-page optimisation", "Content strategy", "BOFU content strategy", "Generative Engine Optimization (GEO)", "Answer Engine Optimization (AEO)"]
 
 [ranjeeth]
 name = "Ranjeeth Kumar"

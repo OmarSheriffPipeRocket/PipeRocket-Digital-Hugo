@@ -582,13 +582,9 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
-  /* Cap to viewport with thin scrollbar so long TOC + CTA stacks stay
-     reachable on shorter laptop screens. */
-  max-height: calc(100vh - 124px);
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #ccc transparent;
-  padding-right: 6px;
+  /* The whole rail (TOC + CTA) stays sticky as one block. Only the TOC list
+     scrolls internally (see .pr-listicle-v2__toc-block nav below), so the CTA
+     banner is always visible below a long agency list. */
 }
 .pr-listicle-v2__rail-left::-webkit-scrollbar { width: 6px; }
 .pr-listicle-v2__rail-left::-webkit-scrollbar-thumb {
@@ -609,6 +605,20 @@
   border: 1px solid #111;
   border-radius: 8px;
   overflow: hidden;
+}
+/* Desktop: only the TOC list scrolls internally (height + overflow), so the
+   label stays put and the rail's CTA banner stays visible below a long list. */
+@media (min-width: 1025px) {
+  .pr-listicle-v2__toc-block nav {
+    max-height: calc(100vh - 500px);
+    min-height: 160px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+  }
+  .pr-listicle-v2__toc-block nav::-webkit-scrollbar { width: 6px; }
+  .pr-listicle-v2__toc-block nav::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+  .pr-listicle-v2__toc-block nav::-webkit-scrollbar-track { background: transparent; }
 }
 .pr-listicle-v2__rail-label {
   position: relative;

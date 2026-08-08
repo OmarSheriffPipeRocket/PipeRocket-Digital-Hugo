@@ -21,12 +21,13 @@
 {{ $verified := .Get "verified" }}
 {{ $href := .Get "methodologyUrl" | default "/research-methodology/" }}
 {{ $asHeading := eq (.Get "heading") "true" }}
+{{ $hlvl := .Get "level" | default "h2" }}
 {{ $label := "How we researched this list" }}
 {{ with .Get "topic" }}{{ $label = printf "How we researched the best %s" . }}{{ end }}
 <aside class="pr-research-stats" aria-label="{{ $label }}">
   <div class="pr-research-stats__head">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-    {{ if $asHeading }}<h2>{{ $label }}</h2>{{ else }}<span>{{ $label }}</span>{{ end }}
+    {{ if $asHeading }}{{ if eq $hlvl "h3" }}<h3>{{ $label }}</h3>{{ else }}<h2>{{ $label }}</h2>{{ end }}{{ else }}<span>{{ $label }}</span>{{ end }}
   </div>
   <ul class="pr-research-stats__grid">
     {{/* A literal space between <strong> and <span> is required — the visual

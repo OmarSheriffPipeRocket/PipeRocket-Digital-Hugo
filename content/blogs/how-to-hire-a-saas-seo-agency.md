@@ -19,9 +19,14 @@ The right partner understands your ICP and revenue model before they talk keywor
 
 Everything below is how you pressure-test for that.
 
+First, why getting this hire right is worth the effort:
+
+- B2B SaaS SEO averages a **702% ROI over three years**, one of the highest-return channels in software marketing ([First Page Sage](https://firstpagesage.com/reports/seo-roi-statistics-fc/)).
+- Organic search drives roughly **53% of all website traffic**, and for B2B it generates about **2x more revenue than any other channel** ([BrightEdge](https://www.brightedge.com/resources/research-reports/channel_share)).
+
 ## How to Hire a SaaS SEO Agency in 7 Steps
 
-1. **Define your goal and buying motion.** Decide whether you need demos, trials, or MRR, and whether you are product-led or sales-led, before you contact anyone.
+1. **Define your goal and buying motion.** Decide whether you need demos, trials, or MRR, and whether you are product-led or sales-led, before you contact anyone. A credible retainer costs between $3,000 and $20,000 per month.
 2. **Set your budget and model.** Choose an agency, a fractional partner, or in-house by ARR stage. Expect $3,000 to $20,000 a month for a credible retainer.
 3. **Shortlist SaaS specialists, not generalists.** Require proof they understand your ICP, your revenue model, and the comparison and alternatives pages software buyers convert on.
 4. **Make each one prove pipeline, not traffic.** Ask them to trace a page to demos, trials, SQLs, or revenue in a CRM. A traffic chart is not an answer.
